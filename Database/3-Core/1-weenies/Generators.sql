@@ -1,3 +1,6 @@
+/* Weenie - Generators - Infected Assailer Camp Generator (27803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27803;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27803, 'tuskerinfectedassailercampgen');
 
@@ -24,6 +27,9 @@ VALUES (27803, 11, True)
      , (27803, 1, True)
      , (27803, 24, True);
 
+/* Weenie - Generators - Carenzi Burrower Camp Generator (11563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11563;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11563, 'carenziburrowercampgen-xp');
 
@@ -48,6 +54,9 @@ VALUES (11563, 11, True)
      , (11563, 19, True)
      , (11563, 1, True)
      , (11563, 24, True);
+
+/* Weenie - Generators - Carenzi Sentry Camp Generator (11567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11567;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11567, 'carenzisentrycampgen-xp');
@@ -74,6 +83,9 @@ VALUES (11567, 11, True)
      , (11567, 1, True)
      , (11567, 24, True);
 
+/* Weenie - Generators - Carenzi Stalker Camp Generator (11568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11568;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11568, 'carenzistalkercampgen-xp');
 
@@ -98,6 +110,9 @@ VALUES (11568, 11, True)
      , (11568, 19, True)
      , (11568, 1, True)
      , (11568, 24, True);
+
+/* Weenie - Generators - Carenzi Pouchling Camp Generator (11565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11565;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11565, 'carenzipouchlingcampgen-xp');
@@ -124,6 +139,9 @@ VALUES (11565, 11, True)
      , (11565, 1, True)
      , (11565, 24, True);
 
+/* Weenie - Generators - Carnivorous Carenzi Camp Generator (27719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27719;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27719, 'carenzicarnivorouscampgen');
 
@@ -148,6 +166,9 @@ VALUES (27719, 11, True)
      , (27719, 19, True)
      , (27719, 1, True)
      , (27719, 24, True);
+
+/* Weenie - Generators - Aerbax South Gate Event Gen (36995) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36995;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36995, 'ace36995-aerbaxsouthgateeventgen');
@@ -177,6 +198,9 @@ VALUES (36995, 13, True)
      , (36995, 19, True)
      , (36995, 1, True)
      , (36995, 24, True);
+
+/* Weenie - Generators - Scuttling Grievver Landscape Gen (20178) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20178;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20178, 'grievverscuttlinglandscapegen');

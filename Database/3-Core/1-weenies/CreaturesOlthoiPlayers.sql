@@ -1,3 +1,6 @@
+/* Weenie - CreaturesOlthoiPlayers - Big Red Olthoi (43480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43480;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43480, 'ace43480-bigredolthoi');
 
@@ -72,6 +75,9 @@ VALUES (43480, 0, 83898333, 83898333)
      , (43480, 23, 83898332, 83898332)
      , (43480, 24, 83898332, 83898332)
      , (43480, 1, 83891927, 83891927);
+
+/* Weenie - CreaturesOlthoiPlayers - Warner Brother (43481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43481;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43481, 'ace43481-warnerbrother');

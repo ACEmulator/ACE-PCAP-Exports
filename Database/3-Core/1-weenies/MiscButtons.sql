@@ -1,3 +1,6 @@
+/* Weenie - MiscButtons - Button (269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 269;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (269, 'buttonswitch');
 
@@ -28,6 +31,9 @@ VALUES (269, 12, True)
      , (269, 14, True)
      , (269, 19, True)
      , (269, 1, True);
+
+/* Weenie - MiscButtons - Button (8420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8420;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8420, 'buttonswitchsmall');
@@ -60,6 +66,9 @@ VALUES (8420, 12, True)
      , (8420, 14, True)
      , (8420, 19, True)
      , (8420, 1, True);
+
+/* Weenie - MiscButtons - Button (8419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8419;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8419, 'buttonswitchmini');

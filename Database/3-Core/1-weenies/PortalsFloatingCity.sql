@@ -1,3 +1,6 @@
+/* Weenie - PortalsFloatingCity - The Floating City (8190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8190;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8190, 'portalfloatingcitya');
 
@@ -29,6 +32,9 @@ VALUES (8190, 13, True)
      , (8190, 15, True)
      , (8190, 19, True)
      , (8190, 1, True);
+
+/* Weenie - PortalsFloatingCity - The Floating City (8196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8196;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8196, 'portalfloatingcityf');
@@ -62,6 +68,9 @@ VALUES (8196, 13, True)
      , (8196, 19, True)
      , (8196, 1, True);
 
+/* Weenie - PortalsFloatingCity - The Floating City (8198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8198;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8198, 'portalfloatingcityg');
 
@@ -93,6 +102,9 @@ VALUES (8198, 13, True)
      , (8198, 15, True)
      , (8198, 19, True)
      , (8198, 1, True);
+
+/* Weenie - PortalsFloatingCity - The Floating City (8197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8197;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8197, 'portalfloatingcityfexit');
@@ -126,6 +138,9 @@ VALUES (8197, 13, True)
      , (8197, 19, True)
      , (8197, 1, True);
 
+/* Weenie - PortalsFloatingCity - The Floating City (8191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8191;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8191, 'portalfloatingcityb');
 
@@ -157,6 +172,9 @@ VALUES (8191, 13, True)
      , (8191, 15, True)
      , (8191, 19, True)
      , (8191, 1, True);
+
+/* Weenie - PortalsFloatingCity - The Floating City (8192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8192;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8192, 'portalfloatingcityc');
@@ -190,6 +208,9 @@ VALUES (8192, 13, True)
      , (8192, 19, True)
      , (8192, 1, True);
 
+/* Weenie - PortalsFloatingCity - The Floating City (8199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8199, 'portalfloatingcitygexit');
 
@@ -221,6 +242,9 @@ VALUES (8199, 13, True)
      , (8199, 15, True)
      , (8199, 19, True)
      , (8199, 1, True);
+
+/* Weenie - PortalsFloatingCity - The Floating City (8193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8193;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8193, 'portalfloatingcityd');
@@ -254,6 +278,9 @@ VALUES (8193, 13, True)
      , (8193, 19, True)
      , (8193, 1, True);
 
+/* Weenie - PortalsFloatingCity - The Floating City (8194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8194;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8194, 'portalfloatingcitydexit');
 
@@ -286,6 +313,9 @@ VALUES (8194, 13, True)
      , (8194, 19, True)
      , (8194, 1, True);
 
+/* Weenie - PortalsFloatingCity - The Floating City (7935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7935, 'portalgolemsanctumexit');
 
@@ -317,6 +347,9 @@ VALUES (7935, 13, True)
      , (7935, 15, True)
      , (7935, 19, True)
      , (7935, 1, True);
+
+/* Weenie - PortalsFloatingCity - The Floating City (8195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8195;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8195, 'portalfloatingcitye');

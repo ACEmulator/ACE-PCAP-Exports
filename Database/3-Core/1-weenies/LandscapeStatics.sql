@@ -1,3 +1,6 @@
+/* Weenie - LandscapeStatics - Beer Keg (8377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8377, 'beerkeg');
 
@@ -30,6 +33,9 @@ VALUES (8377, 12, True)
      , (8377, 14, True)
      , (8377, 19, True)
      , (8377, 1, True);
+
+/* Weenie - LandscapeStatics - Well (174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 174;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (174, 'well');
@@ -66,6 +72,9 @@ VALUES (174, 12, True)
      , (174, 19, True)
      , (174, 1, True);
 
+/* Weenie - LandscapeStatics - Fountain (153) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 153;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (153, 'fountain');
 
@@ -100,6 +109,9 @@ VALUES (153, 12, True)
      , (153, 14, True)
      , (153, 19, True)
      , (153, 1, True);
+
+/* Weenie - LandscapeStatics - Pool (165) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 165;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (165, 'pool');
@@ -136,6 +148,9 @@ VALUES (165, 12, True)
      , (165, 19, True)
      , (165, 1, True);
 
+/* Weenie - LandscapeStatics - Well (6441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6441;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6441, 'wellnotop');
 
@@ -170,6 +185,9 @@ VALUES (6441, 12, True)
      , (6441, 14, True)
      , (6441, 19, True)
      , (6441, 1, True);
+
+/* Weenie - LandscapeStatics - Font (152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 152;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (152, 'font');
@@ -206,6 +224,9 @@ VALUES (152, 12, True)
      , (152, 19, True)
      , (152, 1, True);
 
+/* Weenie - LandscapeStatics - Vat (171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 171;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (171, 'vat');
 
@@ -240,6 +261,9 @@ VALUES (171, 12, True)
      , (171, 14, True)
      , (171, 19, True)
      , (171, 1, True);
+
+/* Weenie - LandscapeStatics - Oxidized Statue (24064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24064;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24064, 'housestatuezharalimgreen-ulgrim');
@@ -319,6 +343,9 @@ VALUES (24064, 0, 16783894)
      , (24064, 15, 16777335)
      , (24064, 16, 16787671);
 
+/* Weenie - LandscapeStatics - Fish Boots (24057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24057;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24057, 'bootsfish-ulgrim');
 
@@ -351,6 +378,9 @@ VALUES (24057, 13, True)
      , (24057, 14, True)
      , (24057, 19, True)
      , (24057, 1, True);
+
+/* Weenie - LandscapeStatics - Oxidized Statue  (24062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24062;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24062, 'housestatuevirindigreen-ulgrim');
@@ -396,6 +426,9 @@ VALUES (24062, 9, 83890028, 83890028);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24062, 9, 16780702);
 
+/* Weenie - LandscapeStatics - Decorative Bronze Statue  (24063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24063, 'housestatuevirindi-ulgrim');
 
@@ -440,6 +473,9 @@ VALUES (24063, 9, 83890028, 83890028);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24063, 9, 16780702);
 
+/* Weenie - LandscapeStatics - Oxidized Statue  (24061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24061;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24061, 'housestatueskeletongreen-ulgrim');
 
@@ -477,6 +513,9 @@ VALUES (24061, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24061, 67116534, 0, 0);
+
+/* Weenie - LandscapeStatics - Decorative Bronze Statue  (24060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24060;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24060, 'housestatuereedshark-ulgrim');
@@ -689,6 +728,9 @@ VALUES (24060, 0, 16777846)
      , (24060, 11, 16777856)
      , (24060, 12, 16777851);
 
+/* Weenie - LandscapeStatics - Well (23923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23923;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23923, 'wellulgrim');
 
@@ -723,6 +765,9 @@ VALUES (23923, 12, True)
      , (23923, 14, True)
      , (23923, 19, True)
      , (23923, 1, True);
+
+/* Weenie - LandscapeStatics - Adja's Well (8550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8550;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8550, 'welladja');
@@ -760,6 +805,9 @@ VALUES (8550, 12, True)
      , (8550, 19, True)
      , (8550, 22, True)
      , (8550, 1, True);
+
+/* Weenie - LandscapeStatics - Folded Strathelar Guards Uniform (14423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14423;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14423, 'robecanescentregicideunuseable');
@@ -809,6 +857,9 @@ VALUES (14423, 0, 83887061, 83893840)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14423, 0, 16778367);
 
+/* Weenie - LandscapeStatics - Hand Grenade (23925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23925, 'holyhandgrenade-stuck');
 
@@ -848,6 +899,9 @@ VALUES (23925, 13, True)
      , (23925, 17, True)
      , (23925, 19, True)
      , (23925, 1, True);
+
+/* Weenie - LandscapeStatics - Globe of Auberean (24065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24065;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24065, 'globeauberean-ulgrim');
@@ -893,6 +947,9 @@ VALUES (24065, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24065, 0, 16785592);
 
+/* Weenie - LandscapeStatics - Golden Gromnie (24872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24872;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24872, 'dollrewardgoldgromnie-ulgrimstuck');
 
@@ -932,6 +989,9 @@ VALUES (24872, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24872, 67116521, 0, 0);
 
+/* Weenie - LandscapeStatics - Cathedral Portal (39200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39200, 'ace39200-cathedralportal');
 
@@ -965,6 +1025,9 @@ VALUES (39200, 13, True)
      , (39200, 19, True)
      , (39200, 1, True)
      , (39200, 24, True);
+
+/* Weenie - LandscapeStatics - Falatacot Pyramid (39201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39201;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39201, 'ace39201-falatacotpyramid');
@@ -1000,6 +1063,9 @@ VALUES (39201, 13, True)
      , (39201, 1, True)
      , (39201, 24, True);
 
+/* Weenie - LandscapeStatics - Virindi Profane Corpse (37081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37081;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37081, 'ace37081-virindiprofanecorpse');
 
@@ -1032,6 +1098,9 @@ VALUES (37081, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37081, 67114253, 0, 0);
+
+/* Weenie - LandscapeStatics - Virindi Consul Corpse (37079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37079;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37079, 'ace37079-virindiconsulcorpse');
@@ -1066,6 +1135,9 @@ VALUES (37079, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37079, 67114257, 0, 0);
 
+/* Weenie - LandscapeStatics - Virindi Desecrator Corpse (37080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37080;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37080, 'ace37080-virindidesecratorcorpse');
 
@@ -1098,6 +1170,9 @@ VALUES (37080, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37080, 67114252, 0, 0);
+
+/* Weenie - LandscapeStatics - Ingot (47194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47194;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47194, 'ace47194-ingot');
@@ -1138,6 +1213,9 @@ VALUES (47194, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47194, 0, 16782860);
 
+/* Weenie - LandscapeStatics - Ingot (47193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47193;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47193, 'ace47193-ingot');
 
@@ -1176,6 +1254,9 @@ VALUES (47193, 0, 83889680, 83889680);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47193, 0, 16782860);
+
+/* Weenie - LandscapeStatics - Ingot (47195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47195;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47195, 'ace47195-ingot');

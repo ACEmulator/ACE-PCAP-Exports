@@ -1,3 +1,6 @@
+/* Weenie - VendorsNPCs - Arcanum Salvage Vendor (41752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41752;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41752, 'ace41752-arcanumsalvagevendor');
 
@@ -83,6 +86,9 @@ VALUES (41752, 12, 16777304)
      , (41752, 13, 16783871)
      , (41752, 14, 16783855)
      , (41752, 16, 16778476);
+
+/* Weenie - VendorsNPCs - Weary-looking Man (2048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2048;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2048, 'vendordryreacha');
@@ -172,6 +178,9 @@ VALUES (2048, 12, 16777304)
      , (2048, 4, 16781838)
      , (2048, 8, 16781839);
 
+/* Weenie - VendorsNPCs - Alean the Steel Forger (51154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51154;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51154, 'ace51154-aleanthesteelforger');
 
@@ -249,6 +258,9 @@ VALUES (51154, 16, 16795665)
      , (51154, 7, 16795215)
      , (51154, 4, 16795223)
      , (51154, 8, 16795224);
+
+/* Weenie - VendorsNPCs - Weary-looking Man (2049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2049;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2049, 'vendordryreachb');
@@ -337,6 +349,9 @@ VALUES (2049, 12, 16777304)
      , (2049, 4, 16777291)
      , (2049, 8, 16777298);
 
+/* Weenie - VendorsNPCs - Jibril ibn Rashid (51156) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51156;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51156, 'ace51156-jibrilibnrashid');
 
@@ -414,6 +429,9 @@ VALUES (51156, 16, 16795650)
      , (51156, 7, 16795215)
      , (51156, 4, 16795223)
      , (51156, 8, 16795224);
+
+/* Weenie - VendorsNPCs - Koga Hideki (51155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51155;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51155, 'ace51155-kogahideki');

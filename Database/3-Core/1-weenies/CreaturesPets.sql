@@ -1,3 +1,6 @@
+/* Weenie - CreaturesPets - Havokk's Bronze Wind-up Gear Knight (41613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41613;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41613, 'ace41613-havokksbronzewindupgearknight');
 
@@ -33,6 +36,9 @@ VALUES (41613, 13, True)
      , (41613, 14, True)
      , (41613, 41, True)
      , (41613, 1, True);
+
+/* Weenie - CreaturesPets - Twinklewill's Golem (48887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48887;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48887, 'ace48887-twinklewillsgolem');
@@ -98,6 +104,9 @@ VALUES (48887, 0, 16784123)
      , (48887, 11, 16784119)
      , (48887, 12, 16784114);
 
+/* Weenie - CreaturesPets - Amasis's Artisan Lockpicker's Golem (34902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34902;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34902, 'ace34902-amasissartisanlockpickersgolem');
 
@@ -138,6 +147,9 @@ VALUES (34902, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34902, 67116746, 0, 0);
 
+/* Weenie - CreaturesPets - Kanako Experiment's Golem (48891) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48891;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48891, 'ace48891-kanakoexperimentsgolem');
 
@@ -173,6 +185,9 @@ VALUES (48891, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (48891, 67112822, 0, 0);
+
+/* Weenie - CreaturesPets - Zabrina's Artisan Fletcher's Golem (34901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34901;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34901, 'ace34901-zabrinasartisanfletchersgolem');
@@ -213,6 +228,9 @@ VALUES (34901, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34901, 67116746, 0, 0);
+
+/* Weenie - CreaturesPets - Ferah Palacost's Golem (48881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48881, 'ace48881-ferahpalacostsgolem');
@@ -275,6 +293,9 @@ VALUES (48881, 0, 16784123)
      , (48881, 11, 16784119)
      , (48881, 12, 16784114);
 
+/* Weenie - CreaturesPets - Hikaru Shidow's Pet Gumdrop (45085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45085;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45085, 'ace45085-hikarushidowspetgumdrop');
 
@@ -310,6 +331,9 @@ VALUES (45085, 13, True)
      , (45085, 14, True)
      , (45085, 41, True)
      , (45085, 1, True);
+
+/* Weenie - CreaturesPets - Icedancer's Pet Armoredillo Pup (33920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33920;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33920, 'ace33920-icedancerspetarmoredillopup');
@@ -351,6 +375,9 @@ VALUES (33920, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33920, 67115921, 0, 0);
 
+/* Weenie - CreaturesPets - Icedancer's Pet Mouf (46024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46024, 'ace46024-icedancerspetmouf');
 
@@ -390,6 +417,9 @@ VALUES (46024, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (46024, 67116354, 0, 0);
+
+/* Weenie - CreaturesPets - Sol Furic's Pet Baby Drudge (33918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33918;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33918, 'ace33918-solfuricspetbabydrudge');
@@ -431,6 +461,9 @@ VALUES (33918, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33918, 67112817, 0, 0);
 
+/* Weenie - CreaturesPets - Mistatecal's Pet Penguin (33979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33979, 'ace33979-mistatecalspetpenguin');
 
@@ -470,6 +503,9 @@ VALUES (33979, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33979, 67115388, 0, 0);
+
+/* Weenie - CreaturesPets - Incendiary's Pet Polar Ursuin Cub (39483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39483;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39483, 'ace39483-incendiaryspetpolarursuincub');
@@ -511,6 +547,9 @@ VALUES (39483, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (39483, 67112947, 0, 0);
 
+/* Weenie - CreaturesPets - Mr Baker II's Pet Pumpkin (34080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34080;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34080, 'ace34080-mrbakeriispetpumpkin');
 
@@ -543,6 +582,9 @@ VALUES (34080, 13, True)
      , (34080, 14, True)
      , (34080, 41, True)
      , (34080, 1, True);
+
+/* Weenie - CreaturesPets - Pet Armoredillo Pup (33961) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33961;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33961, 'ace33961-petarmoredillopup');
@@ -583,6 +625,9 @@ VALUES (33961, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33961, 67115921, 0, 0);
 
+/* Weenie - CreaturesPets - Pet Baby Drudge (33962) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33962;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33962, 'ace33962-petbabydrudge');
 
@@ -621,6 +666,9 @@ VALUES (33962, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33962, 67112817, 0, 0);
+
+/* Weenie - CreaturesPets - Pet Baby Thrungus (33963) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33963;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33963, 'ace33963-petbabythrungus');
@@ -661,6 +709,9 @@ VALUES (33963, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33963, 67116365, 0, 0);
 
+/* Weenie - CreaturesPets - Pet Ursuin Cub (33964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33964;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33964, 'ace33964-petursuincub');
 
@@ -695,6 +746,9 @@ VALUES (33964, 12, True)
      , (33964, 14, True)
      , (33964, 41, True)
      , (33964, 1, True);
+
+/* Weenie - CreaturesPets - Mogwai's Pet Snow Tuskie (47170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47170;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47170, 'ace47170-mogwaispetsnowtuskie');
@@ -731,6 +785,9 @@ VALUES (47170, 13, True)
      , (47170, 14, True)
      , (47170, 41, True)
      , (47170, 1, True);
+
+/* Weenie - CreaturesPets - Gillith's Pet Olthoi Soldier (43731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43731;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43731, 'ace43731-gillithspetolthoisoldier');
@@ -834,6 +891,9 @@ VALUES (43731, 0, 16795138)
      , (43731, 23, 16795137)
      , (43731, 24, 16795136);
 
+/* Weenie - CreaturesPets - Drake VII's Pet Ursuin Cub (33922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33922, 'ace33922-drakeviispetursuincub');
 
@@ -870,6 +930,9 @@ VALUES (33922, 13, True)
      , (33922, 41, True)
      , (33922, 1, True);
 
+/* Weenie - CreaturesPets - Drake VII's Pet Snowman (34397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34397;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34397, 'ace34397-drakeviispetsnowman');
 
@@ -905,6 +968,9 @@ VALUES (34397, 13, True)
      , (34397, 14, True)
      , (34397, 41, True)
      , (34397, 1, True);
+
+/* Weenie - CreaturesPets - Caius-Britannicus's Amelia's Pet Gargoyle (35930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35930;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35930, 'ace35930-caiusbritannicussameliaspetgargoyle');
@@ -947,6 +1013,9 @@ VALUES (35930, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35930, 67115143, 0, 0);
 
+/* Weenie - CreaturesPets - Gt's Pet Miniature Hollow Minion (36750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36750, 'ace36750-gtspetminiaturehollowminion');
 
@@ -982,6 +1051,9 @@ VALUES (36750, 13, True)
      , (36750, 14, True)
      , (36750, 41, True)
      , (36750, 1, True);
+
+/* Weenie - CreaturesPets - Crimson Stormbringer's Pet Baby Thrungus (33921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33921;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33921, 'ace33921-crimsonstormbringerspetbabythrungus');
@@ -1023,6 +1095,9 @@ VALUES (33921, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33921, 67116365, 0, 0);
 
+/* Weenie - CreaturesPets - Deanj's Golem (48889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48889, 'ace48889-deanjsgolem');
 
@@ -1059,6 +1134,9 @@ VALUES (48889, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (48889, 67113788, 0, 0);
 
+/* Weenie - CreaturesPets - Sheerpower's Pet Gumdrop (45082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45082;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45082, 'ace45082-sheerpowerspetgumdrop');
 
@@ -1094,6 +1172,9 @@ VALUES (45082, 13, True)
      , (45082, 14, True)
      , (45082, 41, True)
      , (45082, 1, True);
+
+/* Weenie - CreaturesPets - Blazing Sun's Golem (48883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48883;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48883, 'ace48883-blazingsunsgolem');
@@ -1156,6 +1237,9 @@ VALUES (48883, 0, 16784123)
      , (48883, 11, 16784119)
      , (48883, 12, 16784114);
 
+/* Weenie - CreaturesPets - Debo''s Artisan Cook's Golem (34900) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34900;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34900, 'ace34900-debosartisancooksgolem');
 
@@ -1196,6 +1280,9 @@ VALUES (34900, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34900, 67116746, 0, 0);
 
+/* Weenie - CreaturesPets - Devine Mystic's Pet Gumdrop (45083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45083;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45083, 'ace45083-devinemysticspetgumdrop');
 
@@ -1231,6 +1318,9 @@ VALUES (45083, 13, True)
      , (45083, 14, True)
      , (45083, 41, True)
      , (45083, 1, True);
+
+/* Weenie - CreaturesPets - Saradin's Vacant Golem (34898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34898;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34898, 'ace34898-saradinsvacantgolem');
@@ -1272,6 +1362,9 @@ VALUES (34898, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34898, 67116739, 0, 0);
 
+/* Weenie - CreaturesPets - Debo III's Master Cook's Golem (34908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34908, 'ace34908-deboiiismastercooksgolem');
 
@@ -1311,6 +1404,9 @@ VALUES (34908, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34908, 67116743, 0, 0);
+
+/* Weenie - CreaturesPets - Kanako Experiment's Golem (48879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48879;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48879, 'ace48879-kanakoexperimentsgolem');
@@ -1373,6 +1469,9 @@ VALUES (48879, 0, 16784123)
      , (48879, 11, 16784119)
      , (48879, 12, 16784114);
 
+/* Weenie - CreaturesPets - Rasdazzle's Pet Gumdrop (45084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45084;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45084, 'ace45084-rasdazzlespetgumdrop');
 
@@ -1409,6 +1508,9 @@ VALUES (45084, 13, True)
      , (45084, 41, True)
      , (45084, 1, True);
 
+/* Weenie - CreaturesPets - Tifa Lockhart's Pet Pumpkin Golem (41543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41543;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41543, 'ace41543-tifalockhartspetpumpkingolem');
 
@@ -1444,6 +1546,9 @@ VALUES (41543, 13, True)
      , (41543, 14, True)
      , (41543, 41, True)
      , (41543, 1, True);
+
+/* Weenie - CreaturesPets - Croft Lara's Journeyman Lockpicker's Golem (34906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34906;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34906, 'ace34906-croftlarasjourneymanlockpickersgolem');

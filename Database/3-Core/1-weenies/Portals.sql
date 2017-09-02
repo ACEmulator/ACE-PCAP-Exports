@@ -1,3 +1,6 @@
+/* Weenie - Portals - Exit (10797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10797;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10797, 'portalvirindiobsidiannexusdungeonexit');
 
@@ -30,6 +33,9 @@ VALUES (10797, 13, True)
      , (10797, 19, True)
      , (10797, 1, True);
 
+/* Weenie - Portals - Singularity Caul (10794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10794;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10794, 'portalvirindiisland');
 
@@ -61,6 +67,9 @@ VALUES (10794, 13, True)
      , (10794, 19, True)
      , (10794, 1, True);
 
+/* Weenie - Portals - Arcanum Storehouse (15775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15775;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15775, 'portalarcanumstorehouse');
 
@@ -91,6 +100,9 @@ VALUES (15775, 13, True)
      , (15775, 15, True)
      , (15775, 19, True)
      , (15775, 1, True);
+
+/* Weenie - Portals - Surface (429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 429;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (429, 'portalsylsfeardungeonexit');
@@ -124,6 +136,9 @@ VALUES (429, 13, True)
      , (429, 19, True)
      , (429, 1, True);
 
+/* Weenie - Portals - Base of Mt. Alphus (433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (433, 'portalbaseofalphus');
 
@@ -155,6 +170,9 @@ VALUES (433, 13, True)
      , (433, 15, True)
      , (433, 19, True)
      , (433, 1, True);
+
+/* Weenie - Portals - The Fazenda Caves (31374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31374;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31374, 'ace31374-thefazendacaves');
@@ -188,6 +206,9 @@ VALUES (31374, 13, True)
      , (31374, 19, True)
      , (31374, 1, True);
 
+/* Weenie - Portals - Tanada House of Earth (34374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34374;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34374, 'ace34374-tanadahouseofearth');
 
@@ -219,6 +240,9 @@ VALUES (34374, 13, True)
      , (34374, 15, True)
      , (34374, 19, True)
      , (34374, 1, True);
+
+/* Weenie - Portals - Patriarch's Valley (39409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39409;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39409, 'ace39409-patriarchsvalley');
@@ -252,6 +276,9 @@ VALUES (39409, 13, True)
      , (39409, 19, True)
      , (39409, 1, True);
 
+/* Weenie - Portals - Proving Grounds Uber (46925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46925, 'ace46925-provinggroundsuber');
 
@@ -283,6 +310,9 @@ VALUES (46925, 13, True)
      , (46925, 15, True)
      , (46925, 19, True)
      , (46925, 1, True);
+
+/* Weenie - Portals - Citadel Library (21401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21401, 'portalcitadellibrary');
@@ -316,6 +346,9 @@ VALUES (21401, 13, True)
      , (21401, 19, True)
      , (21401, 1, True);
 
+/* Weenie - Portals - Proving Grounds Extreme (21747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21747;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21747, 'portalprovinggroundsextreme');
 
@@ -347,6 +380,9 @@ VALUES (21747, 13, True)
      , (21747, 15, True)
      , (21747, 19, True)
      , (21747, 1, True);
+
+/* Weenie - Portals - Proving Grounds High (21748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21748;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21748, 'portalprovinggroundshigh');
@@ -380,6 +416,9 @@ VALUES (21748, 13, True)
      , (21748, 19, True)
      , (21748, 1, True);
 
+/* Weenie - Portals - Proving Grounds Mid (21750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21750, 'portalprovinggroundsmid');
 
@@ -411,6 +450,9 @@ VALUES (21750, 13, True)
      , (21750, 15, True)
      , (21750, 19, True)
      , (21750, 1, True);
+
+/* Weenie - Portals - Proving Grounds Low (21749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21749;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21749, 'portalprovinggroundslow');
@@ -444,6 +486,9 @@ VALUES (21749, 13, True)
      , (21749, 19, True)
      , (21749, 1, True);
 
+/* Weenie - Portals - Prismatic Ziggurat (46924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46924;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46924, 'ace46924-prismaticziggurat');
 
@@ -475,6 +520,9 @@ VALUES (46924, 13, True)
      , (46924, 15, True)
      , (46924, 19, True)
      , (46924, 1, True);
+
+/* Weenie - Portals - Lightning Ziggurat (21425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21425;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21425, 'portallightningziggurat');
@@ -508,6 +556,9 @@ VALUES (21425, 13, True)
      , (21425, 19, True)
      , (21425, 1, True);
 
+/* Weenie - Portals - Acid Ziggurat (21399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21399;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21399, 'portalacidziggurat');
 
@@ -539,6 +590,9 @@ VALUES (21399, 13, True)
      , (21399, 15, True)
      , (21399, 19, True)
      , (21399, 1, True);
+
+/* Weenie - Portals - Fire Ziggurat (21411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21411, 'portalfireziggurat');
@@ -572,6 +626,9 @@ VALUES (21411, 13, True)
      , (21411, 19, True)
      , (21411, 1, True);
 
+/* Weenie - Portals - Frost Ziggurat (21413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21413;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21413, 'portalfrostziggurat');
 
@@ -603,6 +660,9 @@ VALUES (21413, 13, True)
      , (21413, 15, True)
      , (21413, 19, True)
      , (21413, 1, True);
+
+/* Weenie - Portals - The Marketplace of Dereth (23032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23032;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23032, 'portalmarketplace');
@@ -636,6 +696,9 @@ VALUES (23032, 13, True)
      , (23032, 19, True)
      , (23032, 1, True);
 
+/* Weenie - Portals - Danby's Outpost (43003) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43003;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43003, 'ace43003-danbysoutpost');
 
@@ -668,6 +731,9 @@ VALUES (43003, 13, True)
      , (43003, 19, True)
      , (43003, 1, True);
 
+/* Weenie - Portals - Fiun Outpost (42999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42999;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42999, 'ace42999-fiunoutpost');
 
@@ -699,6 +765,9 @@ VALUES (42999, 13, True)
      , (42999, 15, True)
      , (42999, 19, True)
      , (42999, 1, True);
+
+/* Weenie - Portals - Oolutanga's Refuge (43002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43002;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43002, 'ace43002-oolutangasrefuge');
@@ -733,6 +802,9 @@ VALUES (43002, 13, True)
      , (43002, 19, True)
      , (43002, 1, True);
 
+/* Weenie - Portals - The Shadows (43865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43865;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43865, 'ace43865-theshadows');
 
@@ -763,6 +835,9 @@ VALUES (43865, 13, True)
      , (43865, 14, True)
      , (43865, 19, True)
      , (43865, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43561;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43561, 'ace43561-olthoitunnel');
@@ -800,6 +875,9 @@ VALUES (43561, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43561, 67111849, 1, 255);
 
+/* Weenie - Portals - Matron Hive South (24435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24435, 'portalasheroninvasionlow');
 
@@ -832,6 +910,9 @@ VALUES (24435, 13, True)
      , (24435, 19, True)
      , (24435, 1, True);
 
+/* Weenie - Portals - Matron Hive East (24433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24433, 'portalasheroninvasionextreme');
 
@@ -863,6 +944,9 @@ VALUES (24433, 13, True)
      , (24433, 15, True)
      , (24433, 19, True)
      , (24433, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43575;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43575, 'ace43575-olthoitunnel');
@@ -900,6 +984,9 @@ VALUES (43575, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43575, 67111849, 1, 255);
 
+/* Weenie - Portals - Dark Mosswart Halls (28259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28259;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28259, 'portalmosswartdrageerg');
 
@@ -931,6 +1018,9 @@ VALUES (28259, 13, True)
      , (28259, 15, True)
      , (28259, 19, True)
      , (28259, 1, True);
+
+/* Weenie - Portals - Umbral Hall (28263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28263;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28263, 'portalmosswartmirewitch');
@@ -964,6 +1054,9 @@ VALUES (28263, 13, True)
      , (28263, 19, True)
      , (28263, 1, True);
 
+/* Weenie - Portals - Sho Roadside (1907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1907;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1907, 'portalshoroadside');
 
@@ -995,6 +1088,9 @@ VALUES (1907, 13, True)
      , (1907, 15, True)
      , (1907, 19, True)
      , (1907, 1, True);
+
+/* Weenie - Portals - Celestial Hand Stronghold (37387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37387;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37387, 'ace37387-celestialhandstronghold');
@@ -1028,6 +1124,9 @@ VALUES (37387, 13, True)
      , (37387, 19, True)
      , (37387, 1, True);
 
+/* Weenie - Portals - Celestial Hand Gauntlet (53446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53446, 'ace53446-celestialhandgauntlet');
 
@@ -1059,6 +1158,9 @@ VALUES (53446, 13, True)
      , (53446, 15, True)
      , (53446, 19, True)
      , (53446, 1, True);
+
+/* Weenie - Portals - Underground Passage (14449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14449;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14449, 'portalwitshiredungeonbottom');
@@ -1092,6 +1194,9 @@ VALUES (14449, 13, True)
      , (14449, 19, True)
      , (14449, 1, True);
 
+/* Weenie - Portals - Mossy Cave (28835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28835, 'portalmossycave');
 
@@ -1123,6 +1228,9 @@ VALUES (28835, 13, True)
      , (28835, 15, True)
      , (28835, 19, True)
      , (28835, 1, True);
+
+/* Weenie - Portals - Basement (23770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23770;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23770, 'portalulgrimsdungeon');
@@ -1156,6 +1264,9 @@ VALUES (23770, 13, True)
      , (23770, 19, True)
      , (23770, 1, True);
 
+/* Weenie - Portals - Dark Tree Crystal Mine (23076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23076;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23076, 'portaldarktreecrystalmine');
 
@@ -1187,6 +1298,9 @@ VALUES (23076, 13, True)
      , (23076, 15, True)
      , (23076, 19, True)
      , (23076, 1, True);
+
+/* Weenie - Portals - Spirit Cell (22895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22895;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22895, 'portalspiritcell');
@@ -1220,6 +1334,9 @@ VALUES (22895, 13, True)
      , (22895, 19, True)
      , (22895, 1, True);
 
+/* Weenie - Portals - Direlands Southeast Shore (8385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8385;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8385, 'portalseshoredirelands');
 
@@ -1251,6 +1368,9 @@ VALUES (8385, 13, True)
      , (8385, 15, True)
      , (8385, 19, True)
      , (8385, 1, True);
+
+/* Weenie - Portals - Ruschk Burial Mound (32818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32818;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32818, 'ace32818-ruschkburialmound');
@@ -1284,6 +1404,9 @@ VALUES (32818, 13, True)
      , (32818, 19, True)
      , (32818, 1, True);
 
+/* Weenie - Portals - Frozen Cenotaph (31432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31432, 'ace31432-frozencenotaph');
 
@@ -1315,6 +1438,9 @@ VALUES (31432, 13, True)
      , (31432, 15, True)
      , (31432, 19, True)
      , (31432, 1, True);
+
+/* Weenie - Portals - Karlun's Fort (29500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29500, 'portalkarlunfort');
@@ -1348,6 +1474,9 @@ VALUES (29500, 13, True)
      , (29500, 19, True)
      , (29500, 1, True);
 
+/* Weenie - Portals - Exit Karlun's Fort (29501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29501, 'portalkarlunfortexit');
 
@@ -1379,6 +1508,9 @@ VALUES (29501, 13, True)
      , (29501, 15, True)
      , (29501, 19, True)
      , (29501, 1, True);
+
+/* Weenie - Portals - Hall of Karlun (29502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29502, 'portalkarlunhall');
@@ -1412,6 +1544,9 @@ VALUES (29502, 13, True)
      , (29502, 19, True)
      , (29502, 1, True);
 
+/* Weenie - Portals - Eater Pit (29496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29496, 'portaleaterpit');
 
@@ -1443,6 +1578,9 @@ VALUES (29496, 13, True)
      , (29496, 15, True)
      , (29496, 19, True)
      , (29496, 1, True);
+
+/* Weenie - Portals - Plains of Ruin (30382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30382;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30382, 'portalhalaetanuberplains');
@@ -1476,6 +1614,9 @@ VALUES (30382, 13, True)
      , (30382, 19, True)
      , (30382, 1, True);
 
+/* Weenie - Portals - Heartland (1900) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1900;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1900, 'portalheartland');
 
@@ -1507,6 +1648,9 @@ VALUES (1900, 13, True)
      , (1900, 15, True)
      , (1900, 19, True)
      , (1900, 1, True);
+
+/* Weenie - Portals - Caul Asylum (22927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22927;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22927, 'portalaerbaxasylum');
@@ -1540,6 +1684,9 @@ VALUES (22927, 13, True)
      , (22927, 19, True)
      , (22927, 1, True);
 
+/* Weenie - Portals - Caul Athenaeum (22928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22928, 'portalaerbaxathenaeum');
 
@@ -1571,6 +1718,9 @@ VALUES (22928, 13, True)
      , (22928, 15, True)
      , (22928, 19, True)
      , (22928, 1, True);
+
+/* Weenie - Portals - Caul Sanatorium (22929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22929;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22929, 'portalaerbaxquagmire');
@@ -1604,6 +1754,9 @@ VALUES (22929, 13, True)
      , (22929, 19, True)
      , (22929, 1, True);
 
+/* Weenie - Portals - Caul Sanatorium (22930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22930;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22930, 'portalaerbaxsanatorium');
 
@@ -1635,6 +1788,9 @@ VALUES (22930, 13, True)
      , (22930, 15, True)
      , (22930, 19, True)
      , (22930, 1, True);
+
+/* Weenie - Portals - Artifex Collegium (36217) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36217;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36217, 'ace36217-artifexcollegium');
@@ -1668,6 +1824,9 @@ VALUES (36217, 13, True)
      , (36217, 19, True)
      , (36217, 1, True);
 
+/* Weenie - Portals - Mount Ingot (25795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25795;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25795, 'portalmountingot');
 
@@ -1700,6 +1859,9 @@ VALUES (25795, 13, True)
      , (25795, 19, True)
      , (25795, 1, True);
 
+/* Weenie - Portals - Surface (25796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25796;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25796, 'portalmountingotexit');
 
@@ -1731,6 +1893,9 @@ VALUES (25796, 13, True)
      , (25796, 15, True)
      , (25796, 19, True)
      , (25796, 1, True);
+
+/* Weenie - Portals - Tusker Cave (42178) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42178;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42178, 'ace42178-tuskercave');
@@ -1765,6 +1930,9 @@ VALUES (42178, 13, True)
      , (42178, 19, True)
      , (42178, 1, True);
 
+/* Weenie - Portals - Tusker Cavern (42179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42179;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42179, 'ace42179-tuskercavern');
 
@@ -1797,6 +1965,9 @@ VALUES (42179, 13, True)
      , (42179, 15, True)
      , (42179, 19, True)
      , (42179, 1, True);
+
+/* Weenie - Portals - Tusker Abode (42175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42175;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42175, 'ace42175-tuskerabode');
@@ -1831,6 +2002,9 @@ VALUES (42175, 13, True)
      , (42175, 19, True)
      , (42175, 1, True);
 
+/* Weenie - Portals - Abandoned Tumerok Site (42146) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42146;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42146, 'ace42146-abandonedtumeroksite');
 
@@ -1863,6 +2037,9 @@ VALUES (42146, 13, True)
      , (42146, 15, True)
      , (42146, 19, True)
      , (42146, 1, True);
+
+/* Weenie - Portals - Tusker Lodge (42181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42181;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42181, 'ace42181-tuskerlodge');
@@ -1897,6 +2074,9 @@ VALUES (42181, 13, True)
      , (42181, 19, True)
      , (42181, 1, True);
 
+/* Weenie - Portals - Tusker Barracks (42176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42176;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42176, 'ace42176-tuskerbarracks');
 
@@ -1929,6 +2109,9 @@ VALUES (42176, 13, True)
      , (42176, 15, True)
      , (42176, 19, True)
      , (42176, 1, True);
+
+/* Weenie - Portals - Ancient Empyrean Grotto (42148) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42148;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42148, 'ace42148-ancientempyreangrotto');
@@ -1963,6 +2146,9 @@ VALUES (42148, 13, True)
      , (42148, 19, True)
      , (42148, 1, True);
 
+/* Weenie - Portals - Tusker Habitat (42180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42180;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42180, 'ace42180-tuskerhabitat');
 
@@ -1995,6 +2181,9 @@ VALUES (42180, 13, True)
      , (42180, 15, True)
      , (42180, 19, True)
      , (42180, 1, True);
+
+/* Weenie - Portals - The Dark Lair (42155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42155;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42155, 'ace42155-thedarklair');
@@ -2029,6 +2218,9 @@ VALUES (42155, 13, True)
      , (42155, 19, True)
      , (42155, 1, True);
 
+/* Weenie - Portals - Tusker Burrow (42177) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42177;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42177, 'ace42177-tuskerburrow');
 
@@ -2061,6 +2253,9 @@ VALUES (42177, 13, True)
      , (42177, 15, True)
      , (42177, 19, True)
      , (42177, 1, True);
+
+/* Weenie - Portals - Crumbling Empyrean Mansion (42154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42154;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42154, 'ace42154-crumblingempyreanmansion');
@@ -2095,6 +2290,9 @@ VALUES (42154, 13, True)
      , (42154, 19, True)
      , (42154, 1, True);
 
+/* Weenie - Portals - An Olthoi Soldier Nest (42170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42170;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42170, 'ace42170-anolthoisoldiernest');
 
@@ -2127,6 +2325,9 @@ VALUES (42170, 13, True)
      , (42170, 15, True)
      , (42170, 19, True)
      , (42170, 1, True);
+
+/* Weenie - Portals - Tusker Quarters (42182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42182;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42182, 'ace42182-tuskerquarters');
@@ -2161,6 +2362,9 @@ VALUES (42182, 13, True)
      , (42182, 19, True)
      , (42182, 1, True);
 
+/* Weenie - Portals - Tumerok Camps (42174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42174;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42174, 'ace42174-tumerokcamps');
 
@@ -2193,6 +2397,9 @@ VALUES (42174, 13, True)
      , (42174, 15, True)
      , (42174, 19, True)
      , (42174, 1, True);
+
+/* Weenie - Portals - Skeleton Fort (42164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42164;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42164, 'ace42164-skeletonfort');
@@ -2227,6 +2434,9 @@ VALUES (42164, 13, True)
      , (42164, 19, True)
      , (42164, 1, True);
 
+/* Weenie - Portals - Mountain Sewer (42169) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42169;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42169, 'ace42169-mountainsewer');
 
@@ -2259,6 +2469,9 @@ VALUES (42169, 13, True)
      , (42169, 15, True)
      , (42169, 19, True)
      , (42169, 1, True);
+
+/* Weenie - Portals - Green Mire Grave (42160) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42160;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42160, 'ace42160-greenmiregrave');
@@ -2293,6 +2506,9 @@ VALUES (42160, 13, True)
      , (42160, 19, True)
      , (42160, 1, True);
 
+/* Weenie - Portals - Mosswart Camp (42163) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42163;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42163, 'ace42163-mosswartcamp');
 
@@ -2325,6 +2541,9 @@ VALUES (42163, 13, True)
      , (42163, 15, True)
      , (42163, 19, True)
      , (42163, 1, True);
+
+/* Weenie - Portals - Mite Maze (42152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42152;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42152, 'ace42152-mitemaze');
@@ -2359,6 +2578,9 @@ VALUES (42152, 13, True)
      , (42152, 19, True)
      , (42152, 1, True);
 
+/* Weenie - Portals - Banderling Camp (42149) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42149;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42149, 'ace42149-banderlingcamp');
 
@@ -2391,6 +2613,9 @@ VALUES (42149, 13, True)
      , (42149, 15, True)
      , (42149, 19, True)
      , (42149, 1, True);
+
+/* Weenie - Portals - Colier (42150) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42150;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42150, 'ace42150-colier');
@@ -2425,6 +2650,9 @@ VALUES (42150, 13, True)
      , (42150, 19, True)
      , (42150, 1, True);
 
+/* Weenie - Portals - Folthid Estate (42158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42158;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42158, 'ace42158-folthidestate');
 
@@ -2457,6 +2685,9 @@ VALUES (42158, 13, True)
      , (42158, 15, True)
      , (42158, 19, True)
      , (42158, 1, True);
+
+/* Weenie - Portals - Halls of Helm (42171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42171;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42171, 'ace42171-hallsofhelm');
@@ -2491,6 +2722,9 @@ VALUES (42171, 13, True)
      , (42171, 19, True)
      , (42171, 1, True);
 
+/* Weenie - Portals - Haunted Mansion (42162) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42162;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42162, 'ace42162-hauntedmansion');
 
@@ -2523,6 +2757,9 @@ VALUES (42162, 13, True)
      , (42162, 15, True)
      , (42162, 19, True)
      , (42162, 1, True);
+
+/* Weenie - Portals - Suntik (42147) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42147;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42147, 'ace42147-suntik');
@@ -2557,6 +2794,9 @@ VALUES (42147, 13, True)
      , (42147, 19, True)
      , (42147, 1, True);
 
+/* Weenie - Portals - Glenden Wood (42159) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42159;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42159, 'ace42159-glendenwood');
 
@@ -2589,6 +2829,9 @@ VALUES (42159, 13, True)
      , (42159, 15, True)
      , (42159, 19, True)
      , (42159, 1, True);
+
+/* Weenie - Portals - Blackmire Temple (42151) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42151;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42151, 'ace42151-blackmiretemple');
@@ -2623,6 +2866,9 @@ VALUES (42151, 13, True)
      , (42151, 19, True)
      , (42151, 1, True);
 
+/* Weenie - Portals - Bellig Tower Base (42161) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42161;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42161, 'ace42161-belligtowerbase');
 
@@ -2655,6 +2901,9 @@ VALUES (42161, 13, True)
      , (42161, 15, True)
      , (42161, 19, True)
      , (42161, 1, True);
+
+/* Weenie - Portals - Hunter's Leap (42165) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42165;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42165, 'ace42165-huntersleap');
@@ -2689,6 +2938,9 @@ VALUES (42165, 13, True)
      , (42165, 19, True)
      , (42165, 1, True);
 
+/* Weenie - Portals - Fledgemaster's Camp (42157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42157;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42157, 'ace42157-fledgemasterscamp');
 
@@ -2721,6 +2973,9 @@ VALUES (42157, 13, True)
      , (42157, 15, True)
      , (42157, 19, True)
      , (42157, 1, True);
+
+/* Weenie - Portals - Banderling Conquest Dungeon (42166) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42166;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42166, 'ace42166-banderlingconquestdungeon');
@@ -2755,6 +3010,9 @@ VALUES (42166, 13, True)
      , (42166, 19, True)
      , (42166, 1, True);
 
+/* Weenie - Portals - Mosswart Maze (42167) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42167;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42167, 'ace42167-mosswartmaze');
 
@@ -2787,6 +3045,9 @@ VALUES (42167, 13, True)
      , (42167, 15, True)
      , (42167, 19, True)
      , (42167, 1, True);
+
+/* Weenie - Portals - Castle of Baron Nuvillus (42153) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42153;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42153, 'ace42153-castleofbaronnuvillus');
@@ -2821,6 +3082,9 @@ VALUES (42153, 13, True)
      , (42153, 19, True)
      , (42153, 1, True);
 
+/* Weenie - Portals - Trothyr's Rest (42173) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42173;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42173, 'ace42173-trothyrsrest');
 
@@ -2853,6 +3117,9 @@ VALUES (42173, 13, True)
      , (42173, 15, True)
      , (42173, 19, True)
      , (42173, 1, True);
+
+/* Weenie - Portals - Catacombs of the Forgotten (42168) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42168;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42168, 'ace42168-catacombsoftheforgotten');
@@ -2887,6 +3154,9 @@ VALUES (42168, 13, True)
      , (42168, 19, True)
      , (42168, 1, True);
 
+/* Weenie - Portals - Dangerous Cave (42172) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42172;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42172, 'ace42172-dangerouscave');
 
@@ -2919,6 +3189,9 @@ VALUES (42172, 13, True)
      , (42172, 15, True)
      , (42172, 19, True)
      , (42172, 1, True);
+
+/* Weenie - Portals - Dryreach (42156) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42156;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42156, 'ace42156-dryreach');
@@ -2953,6 +3226,9 @@ VALUES (42156, 13, True)
      , (42156, 19, True)
      , (42156, 1, True);
 
+/* Weenie - Portals - Bellig Tower Base (373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 373;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (373, 'portalbelligtowerbase');
 
@@ -2984,6 +3260,9 @@ VALUES (373, 13, True)
      , (373, 15, True)
      , (373, 19, True)
      , (373, 1, True);
+
+/* Weenie - Portals - Bellig Tower (375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 375;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (375, 'portalbelligtowertop');
@@ -3017,6 +3296,9 @@ VALUES (375, 13, True)
      , (375, 19, True)
      , (375, 1, True);
 
+/* Weenie - Portals - North Gemm (435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (435, 'portalgemmnorth');
 
@@ -3048,6 +3330,9 @@ VALUES (435, 13, True)
      , (435, 15, True)
      , (435, 19, True)
      , (435, 1, True);
+
+/* Weenie - Portals - Surface (374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 374;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (374, 'portalbelligtowerbaseexit');
@@ -3081,6 +3366,9 @@ VALUES (374, 13, True)
      , (374, 19, True)
      , (374, 1, True);
 
+/* Weenie - Portals - Bellig Top (376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 376;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (376, 'portalbelligtowertopexit');
 
@@ -3112,6 +3400,9 @@ VALUES (376, 13, True)
      , (376, 15, True)
      , (376, 19, True)
      , (376, 1, True);
+
+/* Weenie - Portals - South Bellig (436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 436;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (436, 'portalbelligsouth');
@@ -3145,6 +3436,9 @@ VALUES (436, 13, True)
      , (436, 19, True)
      , (436, 1, True);
 
+/* Weenie - Portals - North Dalt (437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 437;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (437, 'portaldaltnorth');
 
@@ -3176,6 +3470,9 @@ VALUES (437, 13, True)
      , (437, 15, True)
      , (437, 19, True)
      , (437, 1, True);
+
+/* Weenie - Portals - South Gemm (438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 438;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (438, 'portalgemmsouth');
@@ -3209,6 +3506,9 @@ VALUES (438, 13, True)
      , (438, 19, True)
      , (438, 1, True);
 
+/* Weenie - Portals - North Syliph (439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 439;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (439, 'portalsyliphnorth');
 
@@ -3240,6 +3540,9 @@ VALUES (439, 13, True)
      , (439, 15, True)
      , (439, 19, True)
      , (439, 1, True);
+
+/* Weenie - Portals - South Dalt (440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 440;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (440, 'portaldaltsouth');
@@ -3273,6 +3576,9 @@ VALUES (440, 13, True)
      , (440, 19, True)
      , (440, 1, True);
 
+/* Weenie - Portals - Syliph Tower (426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (426, 'portalsyliphtowertop');
 
@@ -3304,6 +3610,9 @@ VALUES (426, 13, True)
      , (426, 15, True)
      , (426, 19, True)
      , (426, 1, True);
+
+/* Weenie - Portals - To Top of Mt. Syliph (427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 427;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (427, 'portalsyliphtowertopexit');
@@ -3337,6 +3646,9 @@ VALUES (427, 13, True)
      , (427, 19, True)
      , (427, 1, True);
 
+/* Weenie - Portals - Exit (430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 430;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (430, 'portalbaseofsyliph');
 
@@ -3368,6 +3680,9 @@ VALUES (430, 13, True)
      , (430, 15, True)
      , (430, 19, True)
      , (430, 1, True);
+
+/* Weenie - Portals - Coral Tunnels (28061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28061;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28061, 'portalcoraltunnelseast');
@@ -3401,6 +3716,9 @@ VALUES (28061, 13, True)
      , (28061, 19, True)
      , (28061, 1, True);
 
+/* Weenie - Portals - Crater Pathway (2554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2554;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2554, 'portalcraterpathtop');
 
@@ -3432,6 +3750,9 @@ VALUES (2554, 13, True)
      , (2554, 15, True)
      , (2554, 19, True)
      , (2554, 1, True);
+
+/* Weenie - Portals - Hilltop (1902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1902;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1902, 'portalhilltop');
@@ -3465,6 +3786,9 @@ VALUES (1902, 13, True)
      , (1902, 19, True)
      , (1902, 1, True);
 
+/* Weenie - Portals - Crater Caves Dungeon (2387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2387;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2387, 'portalcraterdungeon');
 
@@ -3496,6 +3820,9 @@ VALUES (2387, 13, True)
      , (2387, 15, True)
      , (2387, 19, True)
      , (2387, 1, True);
+
+/* Weenie - Portals - Surface (2388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2388;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2388, 'portalcraterdungeonexit');
@@ -3529,6 +3856,9 @@ VALUES (2388, 13, True)
      , (2388, 19, True)
      , (2388, 1, True);
 
+/* Weenie - Portals - Surface (23077) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23077;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23077, 'portaldarktreecrystalmineexit');
 
@@ -3560,6 +3890,9 @@ VALUES (23077, 13, True)
      , (23077, 15, True)
      , (23077, 19, True)
      , (23077, 1, True);
+
+/* Weenie - Portals - Tusker Lacuna (22686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22686;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22686, 'portaltuskerlacuna');
@@ -3593,6 +3926,9 @@ VALUES (22686, 13, True)
      , (22686, 19, True)
      , (22686, 1, True);
 
+/* Weenie - Portals - Tusker Gauntlet (22674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22674;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22674, 'portaltuskergauntlet');
 
@@ -3624,6 +3960,9 @@ VALUES (22674, 13, True)
      , (22674, 15, True)
      , (22674, 19, True)
      , (22674, 1, True);
+
+/* Weenie - Portals - Behind the Waterfall (22651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22651;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22651, 'portallegendboboexit');
@@ -3657,6 +3996,9 @@ VALUES (22651, 13, True)
      , (22651, 19, True)
      , (22651, 1, True);
 
+/* Weenie - Portals - Tusker Warrior's Lair (22704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22704;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22704, 'portaltuskerwarriorlair');
 
@@ -3688,6 +4030,9 @@ VALUES (22704, 13, True)
      , (22704, 15, True)
      , (22704, 19, True)
      , (22704, 1, True);
+
+/* Weenie - Portals - Tusker Food Storage (22671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22671;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22671, 'portaltuskerfoodstores');
@@ -3721,6 +4066,9 @@ VALUES (22671, 13, True)
      , (22671, 19, True)
      , (22671, 1, True);
 
+/* Weenie - Portals - Surface (28826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28826;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28826, 'portalabayarlaboratoryexit');
 
@@ -3752,6 +4100,9 @@ VALUES (28826, 13, True)
      , (28826, 15, True)
      , (28826, 19, True)
      , (28826, 1, True);
+
+/* Weenie - Portals - Abayar's Laboratory (28825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28825;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28825, 'portalabayarlaboratory');
@@ -3785,6 +4136,9 @@ VALUES (28825, 13, True)
      , (28825, 19, True)
      , (28825, 1, True);
 
+/* Weenie - Portals - Legend of the Tusker King (22650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22650;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22650, 'portallegendbobo');
 
@@ -3816,6 +4170,9 @@ VALUES (22650, 13, True)
      , (22650, 15, True)
      , (22650, 19, True)
      , (22650, 1, True);
+
+/* Weenie - Portals - Throne of the Tusker King (22684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22684;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22684, 'portaltuskerking');
@@ -3849,6 +4206,9 @@ VALUES (22684, 13, True)
      , (22684, 19, True)
      , (22684, 1, True);
 
+/* Weenie - Portals - Idol of Wishes (22708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22708;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22708, 'portalwishingroom');
 
@@ -3880,6 +4240,9 @@ VALUES (22708, 13, True)
      , (22708, 15, True)
      , (22708, 19, True)
      , (22708, 1, True);
+
+/* Weenie - Portals - Surface (22685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22685;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22685, 'portaltuskerkingexit');
@@ -3913,6 +4276,9 @@ VALUES (22685, 13, True)
      , (22685, 19, True)
      , (22685, 1, True);
 
+/* Weenie - Portals - Arena of the Tusker Hero (22656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22656;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22656, 'portaltuskerarena');
 
@@ -3944,6 +4310,9 @@ VALUES (22656, 13, True)
      , (22656, 15, True)
      , (22656, 19, True)
      , (22656, 1, True);
+
+/* Weenie - Portals - Small Ruin (8484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8484;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8484, 'portalvesayensmallruin');
@@ -3977,6 +4346,9 @@ VALUES (8484, 13, True)
      , (8484, 19, True)
      , (8484, 1, True);
 
+/* Weenie - Portals - Moars (8598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8598;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8598, 'portalvesayenmoars');
 
@@ -4008,6 +4380,9 @@ VALUES (8598, 13, True)
      , (8598, 15, True)
      , (8598, 19, True)
      , (8598, 1, True);
+
+/* Weenie - Portals - Small Temple (8482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8482, 'portalvesayensmalltemplec');
@@ -4041,6 +4416,9 @@ VALUES (8482, 13, True)
      , (8482, 19, True)
      , (8482, 1, True);
 
+/* Weenie - Portals - Surface (8599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8599;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8599, 'portalvesayenmoarsexit');
 
@@ -4072,6 +4450,9 @@ VALUES (8599, 13, True)
      , (8599, 15, True)
      , (8599, 19, True)
      , (8599, 1, True);
+
+/* Weenie - Portals - Beacon Tower (30536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30536;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30536, 'portalelenabeacontower');
@@ -4105,6 +4486,9 @@ VALUES (30536, 13, True)
      , (30536, 19, True)
      , (30536, 1, True);
 
+/* Weenie - Portals - Sultry Hovel (29095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29095;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29095, 'portalsultryhovel');
 
@@ -4136,6 +4520,9 @@ VALUES (29095, 13, True)
      , (29095, 15, True)
      , (29095, 19, True)
      , (29095, 1, True);
+
+/* Weenie - Portals - Dardante's Workshop (32996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32996;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32996, 'ace32996-dardantesworkshop');
@@ -4169,6 +4556,9 @@ VALUES (32996, 13, True)
      , (32996, 19, True)
      , (32996, 1, True);
 
+/* Weenie - Portals - Rossu Morta Chapterhouse (33016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33016;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33016, 'ace33016-rossumortachapterhouse');
 
@@ -4200,6 +4590,9 @@ VALUES (33016, 13, True)
      , (33016, 15, True)
      , (33016, 19, True)
      , (33016, 1, True);
+
+/* Weenie - Portals - Viamontian Torture Chamber (28713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28713;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28713, 'portalviamontiantorturechamber');
@@ -4233,6 +4626,9 @@ VALUES (28713, 13, True)
      , (28713, 19, True)
      , (28713, 1, True);
 
+/* Weenie - Portals - Viamontian Laboratory (32710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32710;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32710, 'ace32710-viamontianlaboratory');
 
@@ -4264,6 +4660,9 @@ VALUES (32710, 13, True)
      , (32710, 15, True)
      , (32710, 19, True)
      , (32710, 1, True);
+
+/* Weenie - Portals - Outside Linvak Tukal (9410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9410;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9410, 'portallinvaktukalexit');
@@ -4297,6 +4696,9 @@ VALUES (9410, 13, True)
      , (9410, 19, True)
      , (9410, 1, True);
 
+/* Weenie - Portals - Blighted Putrid Moarsman Tunnels (38156) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38156;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38156, 'ace38156-blightedputridmoarsmantunnels');
 
@@ -4329,6 +4731,9 @@ VALUES (38156, 13, True)
      , (38156, 19, True)
      , (38156, 1, True);
 
+/* Weenie - Portals - Undead Temple (28788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28788;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28788, 'portalundeadtemple');
 
@@ -4360,6 +4765,9 @@ VALUES (28788, 13, True)
      , (28788, 15, True)
      , (28788, 19, True)
      , (28788, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43571) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43571;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43571, 'ace43571-olthoitunnel');
@@ -4397,6 +4805,9 @@ VALUES (43571, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43571, 67111849, 1, 255);
 
+/* Weenie - Portals - Cave (1331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1331, 'portalcave');
 
@@ -4428,6 +4839,9 @@ VALUES (1331, 13, True)
      , (1331, 15, True)
      , (1331, 19, True)
      , (1331, 1, True);
+
+/* Weenie - Portals - Asheron's Island (33558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33558;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33558, 'ace33558-asheronsisland');
@@ -4461,6 +4875,9 @@ VALUES (33558, 13, True)
      , (33558, 19, True)
      , (33558, 1, True);
 
+/* Weenie - Portals - Thieves' Den (1219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1219;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1219, 'portalthievesden');
 
@@ -4492,6 +4909,9 @@ VALUES (1219, 13, True)
      , (1219, 15, True)
      , (1219, 19, True)
      , (1219, 1, True);
+
+/* Weenie - Portals - Stone Cathedral (4955) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4955;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4955, 'portalstonecathedral');
@@ -4525,6 +4945,9 @@ VALUES (4955, 13, True)
      , (4955, 19, True)
      , (4955, 1, True);
 
+/* Weenie - Portals - Braid Mansion Ruin (2066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2066;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2066, 'portalbraid');
 
@@ -4556,6 +4979,9 @@ VALUES (2066, 13, True)
      , (2066, 15, True)
      , (2066, 19, True)
      , (2066, 1, True);
+
+/* Weenie - Portals - Drudge Hideout (2068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2068;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2068, 'portaldrudgehideout');
@@ -4589,6 +5015,9 @@ VALUES (2068, 13, True)
      , (2068, 19, True)
      , (2068, 1, True);
 
+/* Weenie - Portals - Throne of the Tusker King (22701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22701;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22701, 'portaltuskertempleostethexit');
 
@@ -4620,6 +5049,9 @@ VALUES (22701, 13, True)
      , (22701, 15, True)
      , (22701, 19, True)
      , (22701, 1, True);
+
+/* Weenie - Portals - Glenden Wood Dungeon (1307) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1307;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1307, 'portalglendendungeon');
@@ -4653,6 +5085,9 @@ VALUES (1307, 13, True)
      , (1307, 19, True)
      , (1307, 1, True);
 
+/* Weenie - Portals - Plateau Base (2550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2550;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2550, 'portalplateaubase');
 
@@ -4684,6 +5119,9 @@ VALUES (2550, 13, True)
      , (2550, 15, True)
      , (2550, 19, True)
      , (2550, 1, True);
+
+/* Weenie - Portals - Inner Dungeon (2551) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2551;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2551, 'portalinnerdungeon');
@@ -4717,6 +5155,9 @@ VALUES (2551, 13, True)
      , (2551, 19, True)
      , (2551, 1, True);
 
+/* Weenie - Portals - Renegade Incursion (31294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31294, 'ace31294-renegadeincursion');
 
@@ -4748,6 +5189,9 @@ VALUES (31294, 13, True)
      , (31294, 15, True)
      , (31294, 19, True)
      , (31294, 1, True);
+
+/* Weenie - Portals - Martine's Retreat (20919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20919;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20919, 'portalmartinesretreat');
@@ -4781,6 +5225,9 @@ VALUES (20919, 13, True)
      , (20919, 19, True)
      , (20919, 1, True);
 
+/* Weenie - Portals - Old Warehouse (4933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4933;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4933, 'portaloldwarehouse');
 
@@ -4812,6 +5259,9 @@ VALUES (4933, 13, True)
      , (4933, 15, True)
      , (4933, 19, True)
      , (4933, 1, True);
+
+/* Weenie - Portals - Dungeon Gallery Tower (2076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2076;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2076, 'portalgallerytower');
@@ -4845,6 +5295,9 @@ VALUES (2076, 13, True)
      , (2076, 19, True)
      , (2076, 1, True);
 
+/* Weenie - Portals - Trothyr's Rest (1122) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1122;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1122, 'portaltrothyrsrest');
 
@@ -4876,6 +5329,9 @@ VALUES (1122, 13, True)
      , (1122, 15, True)
      , (1122, 19, True)
      , (1122, 1, True);
+
+/* Weenie - Portals - A Drudge Nest (1335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1335;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1335, 'portaldrudgefamily');
@@ -4909,6 +5365,9 @@ VALUES (1335, 13, True)
      , (1335, 19, True)
      , (1335, 1, True);
 
+/* Weenie - Portals - Asheron's Castle (35293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35293;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35293, 'ace35293-asheronscastle');
 
@@ -4940,6 +5399,9 @@ VALUES (35293, 13, True)
      , (35293, 19, True)
      , (35293, 1, True);
 
+/* Weenie - Portals - Asheron's Sanctum (24516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24516, 'portalasheronsanctum');
 
@@ -4967,6 +5429,9 @@ VALUES (24516, 13, True)
      , (24516, 15, True)
      , (24516, 19, True)
      , (24516, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43569;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43569, 'ace43569-olthoitunnel');
@@ -5004,6 +5469,9 @@ VALUES (43569, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43569, 67111849, 1, 255);
 
+/* Weenie - Portals - Wedding Trials Dungeon (14928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14928, 'portalweddingdungeon');
 
@@ -5035,6 +5503,9 @@ VALUES (14928, 13, True)
      , (14928, 15, True)
      , (14928, 19, True)
      , (14928, 1, True);
+
+/* Weenie - Portals - A Ruin (1603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1603;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1603, 'portalsimpleruin');
@@ -5068,6 +5539,9 @@ VALUES (1603, 13, True)
      , (1603, 19, True)
      , (1603, 1, True);
 
+/* Weenie - Portals - Abandoned Mine (1595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1595;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1595, 'portalabandonedmine');
 
@@ -5099,6 +5573,9 @@ VALUES (1595, 13, True)
      , (1595, 15, True)
      , (1595, 19, True)
      , (1595, 1, True);
+
+/* Weenie - Portals - Surface (1596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1596;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1596, 'portalabandonedmineexit');
@@ -5132,6 +5609,9 @@ VALUES (1596, 13, True)
      , (1596, 19, True)
      , (1596, 1, True);
 
+/* Weenie - Portals - Surface (1091) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1091;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1091, 'portalblackdeathexit');
 
@@ -5163,6 +5643,9 @@ VALUES (1091, 13, True)
      , (1091, 15, True)
      , (1091, 19, True)
      , (1091, 1, True);
+
+/* Weenie - Portals - Deeper Catacombs (35820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35820, 'ace35820-deepercatacombs');
@@ -5196,6 +5679,9 @@ VALUES (35820, 13, True)
      , (35820, 19, True)
      , (35820, 1, True);
 
+/* Weenie - Portals - Matron Hive North (24436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24436;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24436, 'portalasheroninvasionmid');
 
@@ -5227,6 +5713,9 @@ VALUES (24436, 13, True)
      , (24436, 15, True)
      , (24436, 19, True)
      , (24436, 1, True);
+
+/* Weenie - Portals - Matron Hive West (24434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24434;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24434, 'portalasheroninvasionhigh');
@@ -5260,6 +5749,9 @@ VALUES (24434, 13, True)
      , (24434, 19, True)
      , (24434, 1, True);
 
+/* Weenie - Portals - Lair of the Ancient Queen (25495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25495;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25495, 'portalolthoiqueenlairrot2');
 
@@ -5291,6 +5783,9 @@ VALUES (25495, 13, True)
      , (25495, 15, True)
      , (25495, 19, True)
      , (25495, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43563;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43563, 'ace43563-olthoitunnel');
@@ -5328,6 +5823,9 @@ VALUES (43563, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43563, 67111849, 1, 255);
 
+/* Weenie - Portals - Radiant Blood Stronghold (37163) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37163;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37163, 'ace37163-radiantbloodstronghold');
 
@@ -5359,6 +5857,9 @@ VALUES (37163, 13, True)
      , (37163, 15, True)
      , (37163, 19, True)
      , (37163, 1, True);
+
+/* Weenie - Portals - Radiant Blood Gauntlet (53445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53445;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53445, 'ace53445-radiantbloodgauntlet');
@@ -5392,6 +5893,9 @@ VALUES (53445, 13, True)
      , (53445, 19, True)
      , (53445, 1, True);
 
+/* Weenie - Portals - Copper Legion Keep (29433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29433, 'portalinvaderkeepcopper');
 
@@ -5424,6 +5928,9 @@ VALUES (29433, 13, True)
      , (29433, 19, True)
      , (29433, 1, True);
 
+/* Weenie - Portals - Four Towers Entrance (3956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3956;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3956, 'portalfourtowersin');
 
@@ -5455,6 +5962,9 @@ VALUES (3956, 13, True)
      , (3956, 15, True)
      , (3956, 19, True)
      , (3956, 1, True);
+
+/* Weenie - Portals - Exit (3957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3957;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3957, 'portalfourtowersout');
@@ -5492,6 +6002,9 @@ VALUES (3957, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3957, 67111849, 1, 255);
 
+/* Weenie - Portals - Gold Legion Keep (29435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29435, 'portalinvaderkeepgold');
 
@@ -5523,6 +6036,9 @@ VALUES (29435, 13, True)
      , (29435, 15, True)
      , (29435, 19, True)
      , (29435, 1, True);
+
+/* Weenie - Portals - Silver Legion Keep (29439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29439;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29439, 'portalinvaderkeepsilver');
@@ -5556,6 +6072,9 @@ VALUES (29439, 13, True)
      , (29439, 19, True)
      , (29439, 1, True);
 
+/* Weenie - Portals - Moss Chamber (1339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1339;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1339, 'portalmosschamber');
 
@@ -5588,6 +6107,9 @@ VALUES (1339, 13, True)
      , (1339, 19, True)
      , (1339, 1, True);
 
+/* Weenie - Portals - Bookcase (32811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32811;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32811, 'ace32811-bookcase');
 
@@ -5618,6 +6140,9 @@ VALUES (32811, 13, True)
      , (32811, 15, True)
      , (32811, 19, True)
      , (32811, 1, True);
+
+/* Weenie - Portals - Lugian Post (1592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1592;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1592, 'portallugianpost');
@@ -5651,6 +6176,9 @@ VALUES (1592, 13, True)
      , (1592, 19, True)
      , (1592, 1, True);
 
+/* Weenie - Portals - Abhorrent Vault (28806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28806;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28806, 'portalabhorrentvault');
 
@@ -5682,6 +6210,9 @@ VALUES (28806, 13, True)
      , (28806, 15, True)
      , (28806, 19, True)
      , (28806, 1, True);
+
+/* Weenie - Portals - Surface (28807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28807;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28807, 'portalabhorrentvaultexit');
@@ -5715,6 +6246,9 @@ VALUES (28807, 13, True)
      , (28807, 19, True)
      , (28807, 1, True);
 
+/* Weenie - Portals - Lugian Ice Tunnels (29481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29481;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29481, 'portallugianicetunnels');
 
@@ -5746,6 +6280,9 @@ VALUES (29481, 13, True)
      , (29481, 15, True)
      , (29481, 19, True)
      , (29481, 1, True);
+
+/* Weenie - Portals - Exit Lugian Ice Tunnels (29482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29482, 'portallugianicetunnelsexit');
@@ -5779,6 +6316,9 @@ VALUES (29482, 13, True)
      , (29482, 19, True)
      , (29482, 1, True);
 
+/* Weenie - Portals - Ruschk Icehold (29483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29483;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29483, 'portalruschkicehold');
 
@@ -5810,6 +6350,9 @@ VALUES (29483, 13, True)
      , (29483, 15, True)
      , (29483, 19, True)
      , (29483, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43565;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43565, 'ace43565-olthoitunnel');
@@ -5847,6 +6390,9 @@ VALUES (43565, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43565, 67111849, 1, 255);
 
+/* Weenie - Portals - Exit Ruschk Icehold (29484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29484;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29484, 'portalruschkiceholdexit');
 
@@ -5878,6 +6424,9 @@ VALUES (29484, 13, True)
      , (29484, 15, True)
      , (29484, 19, True)
      , (29484, 1, True);
+
+/* Weenie - Portals - Viamontian Royal Prison (29485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29485;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29485, 'portalviamontianroyalprison');
@@ -5911,6 +6460,9 @@ VALUES (29485, 13, True)
      , (29485, 19, True)
      , (29485, 1, True);
 
+/* Weenie - Portals - Exit Viamontian Royal Prison (29486) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29486;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29486, 'portalviamontianroyalprisonexit');
 
@@ -5942,6 +6494,9 @@ VALUES (29486, 13, True)
      , (29486, 15, True)
      , (29486, 19, True)
      , (29486, 1, True);
+
+/* Weenie - Portals - Blighted Disgusting Moarsman Tunnels (38155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38155;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38155, 'ace38155-blighteddisgustingmoarsmantunnels');
@@ -5975,6 +6530,9 @@ VALUES (38155, 13, True)
      , (38155, 19, True)
      , (38155, 1, True);
 
+/* Weenie - Portals - Central Courtyard (31061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31061;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31061, 'ace31061-centralcourtyard');
 
@@ -6006,6 +6564,9 @@ VALUES (31061, 13, True)
      , (31061, 15, True)
      , (31061, 19, True)
      , (31061, 1, True);
+
+/* Weenie - Portals - Outer Courtyard (29334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29334;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29334, 'portalnewbieacademyoutercourtyard');
@@ -6039,6 +6600,9 @@ VALUES (29334, 13, True)
      , (29334, 19, True)
      , (29334, 1, True);
 
+/* Weenie - Portals - Exit to Holtburg (29338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29338;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29338, 'portalnewbieexitholtburg');
 
@@ -6070,6 +6634,9 @@ VALUES (29338, 13, True)
      , (29338, 15, True)
      , (29338, 19, True)
      , (29338, 1, True);
+
+/* Weenie - Portals - Surface (4034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4034;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4034, 'portalthievesdenexit');
@@ -6103,6 +6670,9 @@ VALUES (4034, 13, True)
      , (4034, 19, True)
      , (4034, 1, True);
 
+/* Weenie - Portals - Seaside Lair (2091) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2091;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2091, 'portalseasidelair');
 
@@ -6134,6 +6704,9 @@ VALUES (2091, 13, True)
      , (2091, 15, True)
      , (2091, 19, True)
      , (2091, 1, True);
+
+/* Weenie - Portals - High Mountain Valley (1901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1901;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1901, 'portalhighvalley');
@@ -6167,6 +6740,9 @@ VALUES (1901, 13, True)
      , (1901, 19, True)
      , (1901, 1, True);
 
+/* Weenie - Portals - Desert Ridge Border (1903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1903;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1903, 'portalmidrange');
 
@@ -6198,6 +6774,9 @@ VALUES (1903, 13, True)
      , (1903, 15, True)
      , (1903, 19, True)
      , (1903, 1, True);
+
+/* Weenie - Portals - Lost Garden Ruins (1601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1601;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1601, 'portallostgardenruins');
@@ -6231,6 +6810,9 @@ VALUES (1601, 13, True)
      , (1601, 19, True)
      , (1601, 1, True);
 
+/* Weenie - Portals - Riverbend (1906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1906;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1906, 'portalriverbend');
 
@@ -6262,6 +6844,9 @@ VALUES (1906, 13, True)
      , (1906, 15, True)
      , (1906, 19, True)
      , (1906, 1, True);
+
+/* Weenie - Portals - Abandoned Arena (2391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2391, 'portalabandonedarena');
@@ -6295,6 +6880,9 @@ VALUES (2391, 13, True)
      , (2391, 19, True)
      , (2391, 1, True);
 
+/* Weenie - Portals - North Desert Edge (1905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1905;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1905, 'portalnorthdesertedge');
 
@@ -6327,6 +6915,9 @@ VALUES (1905, 13, True)
      , (1905, 19, True)
      , (1905, 1, True);
 
+/* Weenie - Portals - The Colosseum (34508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34508;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34508, 'ace34508-thecolosseum');
 
@@ -6357,6 +6948,9 @@ VALUES (34508, 13, True)
      , (34508, 14, True)
      , (34508, 19, True)
      , (34508, 1, True);
+
+/* Weenie - Portals - Stone Fists (34510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34510;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34510, 'ace34510-stonefists');
@@ -6414,6 +7008,9 @@ VALUES (34510, 0, 16784123)
      , (34510, 9, 16784111)
      , (34510, 11, 16784119)
      , (34510, 12, 16784114);
+
+/* Weenie - Portals - Azaxis (34511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34511;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34511, 'ace34511-azaxis');
@@ -6478,6 +7075,9 @@ VALUES (34511, 0, 16780700)
      , (34511, 10, 16785974)
      , (34511, 11, 16785974);
 
+/* Weenie - Portals - Locked Door (34535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34535;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34535, 'ace34535-lockeddoor');
 
@@ -6507,6 +7107,9 @@ VALUES (34535, 11, True)
      , (34535, 14, True)
      , (34535, 19, True)
      , (34535, 1, True);
+
+/* Weenie - Portals - Killagurg (34512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34512;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34512, 'ace34512-killagurg');
@@ -6577,6 +7180,9 @@ VALUES (34512, 0, 16787248)
      , (34512, 14, 16787247)
      , (34512, 15, 16787257)
      , (34512, 16, 16787256);
+
+/* Weenie - Portals - Demon Swarm Matron (34513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34513;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34513, 'ace34513-demonswarmmatron');
@@ -6700,6 +7306,9 @@ VALUES (34513, 0, 16786511)
      , (34513, 38, 16786791)
      , (34513, 39, 16786794);
 
+/* Weenie - Portals - Hollow Lair near Lytelthorpe (12692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12692;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12692, 'portalmenacetlairlytelthorpe');
 
@@ -6731,6 +7340,9 @@ VALUES (12692, 13, True)
      , (12692, 15, True)
      , (12692, 19, True)
      , (12692, 1, True);
+
+/* Weenie - Portals - Rithwic Crypt (1432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1432;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1432, 'portalrithwiccrypt');
@@ -6764,6 +7376,9 @@ VALUES (1432, 13, True)
      , (1432, 19, True)
      , (1432, 1, True);
 
+/* Weenie - Portals - Cave (35595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35595;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35595, 'ace35595-cave');
 
@@ -6795,6 +7410,9 @@ VALUES (35595, 13, True)
      , (35595, 15, True)
      , (35595, 19, True)
      , (35595, 1, True);
+
+/* Weenie - Portals - Dungeon of Tatters (2074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2074;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2074, 'portaldungeontatters');
@@ -6828,6 +7446,9 @@ VALUES (2074, 13, True)
      , (2074, 19, True)
      , (2074, 1, True);
 
+/* Weenie - Portals - Phyntos Menace (4925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4925, 'portalphyntosmenace');
 
@@ -6859,6 +7480,9 @@ VALUES (4925, 13, True)
      , (4925, 15, True)
      , (4925, 19, True)
      , (4925, 1, True);
+
+/* Weenie - Portals - Geraine's Study (45648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45648, 'ace45648-gerainesstudy');
@@ -6892,6 +7516,9 @@ VALUES (45648, 13, True)
      , (45648, 19, True)
      , (45648, 1, True);
 
+/* Weenie - Portals - Tusker Den (51428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51428, 'ace51428-tuskerden');
 
@@ -6923,6 +7550,9 @@ VALUES (51428, 13, True)
      , (51428, 15, True)
      , (51428, 19, True)
      , (51428, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43559;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43559, 'ace43559-olthoitunnel');
@@ -6960,6 +7590,9 @@ VALUES (43559, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43559, 67111849, 1, 255);
 
+/* Weenie - Portals - Vile Sanctuary (30693) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30693;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30693, 'portalvilesanctuary');
 
@@ -6992,6 +7625,9 @@ VALUES (30693, 13, True)
      , (30693, 19, True)
      , (30693, 1, True);
 
+/* Weenie - Portals - Temple Door (38369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38369, 'ace38369-templedoor');
 
@@ -7021,6 +7657,9 @@ VALUES (38369, 13, True)
      , (38369, 14, True)
      , (38369, 19, True)
      , (38369, 1, True);
+
+/* Weenie - Portals - Renegade Stronghold (27698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27698;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27698, 'portalrenegadetufa');
@@ -7054,6 +7693,9 @@ VALUES (27698, 13, True)
      , (27698, 19, True)
      , (27698, 1, True);
 
+/* Weenie - Portals - Exit to Surface (27699) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27699;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27699, 'portalrenegadetufaexit');
 
@@ -7085,6 +7727,9 @@ VALUES (27699, 13, True)
      , (27699, 15, True)
      , (27699, 19, True)
      , (27699, 1, True);
+
+/* Weenie - Portals - Virindi Complex (24049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24049;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24049, 'portalvirindicomplex');
@@ -7118,6 +7763,9 @@ VALUES (24049, 13, True)
      , (24049, 19, True)
      , (24049, 1, True);
 
+/* Weenie - Portals - Surface (24050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24050;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24050, 'portalvirindicomplexexit');
 
@@ -7149,6 +7797,9 @@ VALUES (24050, 13, True)
      , (24050, 15, True)
      , (24050, 19, True)
      , (24050, 1, True);
+
+/* Weenie - Portals - Exit (24071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24071;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24071, 'portalvirindicomplex2exit');
@@ -7182,6 +7833,9 @@ VALUES (24071, 13, True)
      , (24071, 19, True)
      , (24071, 1, True);
 
+/* Weenie - Portals - Vengeance Caverns (22706) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22706;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22706, 'portalvengeancecaverns');
 
@@ -7213,6 +7867,9 @@ VALUES (22706, 13, True)
      , (22706, 15, True)
      , (22706, 19, True)
      , (22706, 1, True);
+
+/* Weenie - Portals - Tusker Armory (22657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22657;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22657, 'portaltuskerarmory');
@@ -7246,6 +7903,9 @@ VALUES (22657, 13, True)
      , (22657, 19, True)
      , (22657, 1, True);
 
+/* Weenie - Portals - Tusker Honeycombs (22682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22682;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22682, 'portaltuskerhoneycombs');
 
@@ -7277,6 +7937,9 @@ VALUES (22682, 13, True)
      , (22682, 15, True)
      , (22682, 19, True)
      , (22682, 1, True);
+
+/* Weenie - Portals - Whispering Caverns (35946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35946;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35946, 'ace35946-whisperingcaverns');
@@ -7310,6 +7973,9 @@ VALUES (35946, 13, True)
      , (35946, 19, True)
      , (35946, 1, True);
 
+/* Weenie - Portals - Surface (35947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35947;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35947, 'ace35947-surface');
 
@@ -7341,6 +8007,9 @@ VALUES (35947, 13, True)
      , (35947, 15, True)
      , (35947, 19, True)
      , (35947, 1, True);
+
+/* Weenie - Portals - Cave of Alabree (4937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4937;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4937, 'portalwindyshrethlair');
@@ -7374,6 +8043,9 @@ VALUES (4937, 13, True)
      , (4937, 19, True)
      , (4937, 1, True);
 
+/* Weenie - Portals - Surface (4938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4938;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4938, 'portalwindyshrethlairexit');
 
@@ -7405,6 +8077,9 @@ VALUES (4938, 13, True)
      , (4938, 15, True)
      , (4938, 19, True)
      , (4938, 1, True);
+
+/* Weenie - Portals - Ancient Caves (33985) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33985;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33985, 'ace33985-ancientcaves');
@@ -7438,6 +8113,9 @@ VALUES (33985, 13, True)
      , (33985, 19, True)
      , (33985, 1, True);
 
+/* Weenie - Portals - Surface (33986) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33986;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33986, 'ace33986-surface');
 
@@ -7469,6 +8147,9 @@ VALUES (33986, 13, True)
      , (33986, 15, True)
      , (33986, 19, True)
      , (33986, 1, True);
+
+/* Weenie - Portals - Black Hill (2328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2328;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2328, 'portalblackhill');
@@ -7502,6 +8183,9 @@ VALUES (2328, 13, True)
      , (2328, 19, True)
      , (2328, 1, True);
 
+/* Weenie - Portals - Southern Mt. Esper (8501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8501, 'portalsouthesper');
 
@@ -7533,6 +8217,9 @@ VALUES (8501, 13, True)
      , (8501, 15, True)
      , (8501, 19, True)
      , (8501, 1, True);
+
+/* Weenie - Portals - Bandit Castle Prison (1306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1306;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1306, 'portalbanditcastleprison');
@@ -7566,6 +8253,9 @@ VALUES (1306, 13, True)
      , (1306, 19, True)
      , (1306, 1, True);
 
+/* Weenie - Portals - KEEP OUT! (31342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31342;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31342, 'ace31342-keepout!');
 
@@ -7597,6 +8287,9 @@ VALUES (31342, 13, True)
      , (31342, 15, True)
      , (31342, 19, True)
      , (31342, 1, True);
+
+/* Weenie - Portals - Banderling Hovel (28267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28267;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28267, 'portalmosswartvagurat');
@@ -7630,6 +8323,9 @@ VALUES (28267, 13, True)
      , (28267, 19, True)
      , (28267, 1, True);
 
+/* Weenie - Portals - Marauder's Lair (29361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29361;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29361, 'portalmarauderlair');
 
@@ -7661,6 +8357,9 @@ VALUES (29361, 13, True)
      , (29361, 15, True)
      , (29361, 19, True)
      , (29361, 1, True);
+
+/* Weenie - Portals - Heart of Madness (29498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29498, 'portalheartofmadness');
@@ -7694,6 +8393,9 @@ VALUES (29498, 13, True)
      , (29498, 19, True)
      , (29498, 1, True);
 
+/* Weenie - Portals - Holtburg Dungeon (1125) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1125;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1125, 'portalholtburgdungeon');
 
@@ -7725,6 +8427,9 @@ VALUES (1125, 13, True)
      , (1125, 15, True)
      , (1125, 19, True)
      , (1125, 1, True);
+
+/* Weenie - Portals - Surface (1093) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1093;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1093, 'portalholtburgdungeonexit');
@@ -7758,6 +8463,9 @@ VALUES (1093, 13, True)
      , (1093, 19, True)
      , (1093, 1, True);
 
+/* Weenie - Portals - Surface (1101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1101;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1101, 'portalyaraqtunnelsexit');
 
@@ -7789,6 +8497,9 @@ VALUES (1101, 13, True)
      , (1101, 15, True)
      , (1101, 19, True)
      , (1101, 1, True);
+
+/* Weenie - Portals - Surface (1399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1399;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1399, 'portalyanshitunnelexit');
@@ -7822,6 +8533,9 @@ VALUES (1399, 13, True)
      , (1399, 19, True)
      , (1399, 1, True);
 
+/* Weenie - Portals - Surface (1096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1096, 'portalshoushigrottoexit');
 
@@ -7853,6 +8567,9 @@ VALUES (1096, 13, True)
      , (1096, 15, True)
      , (1096, 19, True)
      , (1096, 1, True);
+
+/* Weenie - Portals - Surface (1092) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1092;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1092, 'portaldungeonmanorexit');
@@ -7886,6 +8603,9 @@ VALUES (1092, 13, True)
      , (1092, 19, True)
      , (1092, 1, True);
 
+/* Weenie - Portals - Surface (1433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1433, 'portalrithwiccryptexit');
 
@@ -7917,6 +8637,9 @@ VALUES (1433, 13, True)
      , (1433, 15, True)
      , (1433, 19, True)
      , (1433, 1, True);
+
+/* Weenie - Portals - Surface (3631) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3631;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3631, 'portalcarvedcaveexit');
@@ -7950,6 +8673,9 @@ VALUES (3631, 13, True)
      , (3631, 19, True)
      , (3631, 1, True);
 
+/* Weenie - Portals - Halls of the Lost Light (1430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1430;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1430, 'portallostlight');
 
@@ -7981,6 +8707,9 @@ VALUES (1430, 13, True)
      , (1430, 15, True)
      , (1430, 19, True)
      , (1430, 1, True);
+
+/* Weenie - Portals - Surface (1431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1431;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1431, 'portallostlightexit');
@@ -8014,6 +8743,9 @@ VALUES (1431, 13, True)
      , (1431, 19, True)
      , (1431, 1, True);
 
+/* Weenie - Portals - Olthoi Horde Nest (7254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7254;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7254, 'portalolthoilairalu');
 
@@ -8045,6 +8777,9 @@ VALUES (7254, 13, True)
      , (7254, 15, True)
      , (7254, 19, True)
      , (7254, 1, True);
+
+/* Weenie - Portals - Lair of Death (2086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2086;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2086, 'portalolthoilair');
@@ -8078,6 +8813,9 @@ VALUES (2086, 13, True)
      , (2086, 19, True)
      , (2086, 1, True);
 
+/* Weenie - Portals - Paradox-Touched Olthoi Queen's Lair (35935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35935, 'ace35935-paradoxtouchedolthoiqueenslair');
 
@@ -8109,6 +8847,9 @@ VALUES (35935, 13, True)
      , (35935, 15, True)
      , (35935, 19, True)
      , (35935, 1, True);
+
+/* Weenie - Portals - Empyrean Cloister (8888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8888;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8888, 'portalempyreancloisterescape');
@@ -8142,6 +8883,9 @@ VALUES (8888, 13, True)
      , (8888, 19, True)
      , (8888, 1, True);
 
+/* Weenie - Portals - Upper Shade Stronghold (8885) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8885;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8885, 'portalshadestrongholdescapeupper');
 
@@ -8173,6 +8917,9 @@ VALUES (8885, 13, True)
      , (8885, 15, True)
      , (8885, 19, True)
      , (8885, 1, True);
+
+/* Weenie - Portals - Lower Shade Stronghold (8886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8886;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8886, 'portalshadestrongholdescapelower');
@@ -8206,6 +8953,9 @@ VALUES (8886, 13, True)
      , (8886, 19, True)
      , (8886, 1, True);
 
+/* Weenie - Portals - Chakron Gate (8889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8889, 'portalchakrongateescape');
 
@@ -8237,6 +8987,9 @@ VALUES (8889, 13, True)
      , (8889, 15, True)
      , (8889, 19, True)
      , (8889, 1, True);
+
+/* Weenie - Portals - Firey Refuge (45724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45724;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45724, 'ace45724-fireyrefuge');
@@ -8270,6 +9023,9 @@ VALUES (45724, 13, True)
      , (45724, 19, True)
      , (45724, 1, True);
 
+/* Weenie - Portals - Surface (36218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36218;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36218, 'ace36218-surface');
 
@@ -8301,6 +9057,9 @@ VALUES (36218, 13, True)
      , (36218, 15, True)
      , (36218, 19, True)
      , (36218, 1, True);
+
+/* Weenie - Portals - Essence Chambers (33247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33247;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33247, 'ace33247-essencechambers');
@@ -8334,6 +9093,9 @@ VALUES (33247, 13, True)
      , (33247, 19, True)
      , (33247, 1, True);
 
+/* Weenie - Portals - Ancient Cloister (38730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38730, 'ace38730-ancientcloister');
 
@@ -8365,6 +9127,9 @@ VALUES (38730, 13, True)
      , (38730, 15, True)
      , (38730, 19, True)
      , (38730, 1, True);
+
+/* Weenie - Portals - Lost Ruins (46357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46357;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46357, 'ace46357-lostruins');
@@ -8398,6 +9163,9 @@ VALUES (46357, 13, True)
      , (46357, 19, True)
      , (46357, 1, True);
 
+/* Weenie - Portals - Black Spawn Den (7244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7244;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7244, 'portalblackdrudgespawngha');
 
@@ -8429,6 +9197,9 @@ VALUES (7244, 13, True)
      , (7244, 15, True)
      , (7244, 19, True)
      , (7244, 1, True);
+
+/* Weenie - Portals - Black Spawn Den (7242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7242;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7242, 'portalblackdrudgespawnalu');
@@ -8462,6 +9233,9 @@ VALUES (7242, 13, True)
      , (7242, 19, True)
      , (7242, 1, True);
 
+/* Weenie - Portals - Prismatic Guardian Lair (46922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46922, 'ace46922-prismaticguardianlair');
 
@@ -8493,6 +9267,9 @@ VALUES (46922, 13, True)
      , (46922, 15, True)
      , (46922, 19, True)
      , (46922, 1, True);
+
+/* Weenie - Portals - Proving Grounds Uber (46953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46953;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46953, 'ace46953-provinggroundsuber');
@@ -8526,6 +9303,9 @@ VALUES (46953, 13, True)
      , (46953, 19, True)
      , (46953, 1, True);
 
+/* Weenie - Portals - Proving Grounds Uber (46955) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46955;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46955, 'ace46955-provinggroundsuber');
 
@@ -8557,6 +9337,9 @@ VALUES (46955, 13, True)
      , (46955, 15, True)
      , (46955, 19, True)
      , (46955, 1, True);
+
+/* Weenie - Portals - Citadel Valley (46923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46923;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46923, 'ace46923-citadelvalley');
@@ -8590,6 +9373,9 @@ VALUES (46923, 13, True)
      , (46923, 19, True)
      , (46923, 1, True);
 
+/* Weenie - Portals - Prismatic Devastation (46926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46926;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46926, 'ace46926-prismaticdevastation');
 
@@ -8621,6 +9407,9 @@ VALUES (46926, 13, True)
      , (46926, 15, True)
      , (46926, 19, True)
      , (46926, 1, True);
+
+/* Weenie - Portals - Entropic Decay (21408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21408;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21408, 'portalentropicdecay');
@@ -8654,6 +9443,9 @@ VALUES (21408, 13, True)
      , (21408, 19, True)
      , (21408, 1, True);
 
+/* Weenie - Portals - Electric Destruction (21407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21407, 'portalelectricdestruction');
 
@@ -8685,6 +9477,9 @@ VALUES (21407, 13, True)
      , (21407, 15, True)
      , (21407, 19, True)
      , (21407, 1, True);
+
+/* Weenie - Portals - Fiery Consumption (21409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21409;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21409, 'portalfieryconsumption');
@@ -8718,6 +9513,9 @@ VALUES (21409, 13, True)
      , (21409, 19, True)
      , (21409, 1, True);
 
+/* Weenie - Portals - Icy Demise (21423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21423, 'portalicydemise');
 
@@ -8749,6 +9547,9 @@ VALUES (21423, 13, True)
      , (21423, 15, True)
      , (21423, 19, True)
      , (21423, 1, True);
+
+/* Weenie - Portals - Citadel Apex (21400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21400;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21400, 'portalcitadelapex');
@@ -8782,6 +9583,9 @@ VALUES (21400, 13, True)
      , (21400, 19, True)
      , (21400, 1, True);
 
+/* Weenie - Portals - Subterannean Farm (24471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24471, 'portalmartinesfarm');
 
@@ -8813,6 +9617,9 @@ VALUES (24471, 13, True)
      , (24471, 15, True)
      , (24471, 19, True)
      , (24471, 1, True);
+
+/* Weenie - Portals - Martine's Study (20921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20921;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20921, 'portalmartinesstudy');
@@ -8846,6 +9653,9 @@ VALUES (20921, 13, True)
      , (20921, 19, True)
      , (20921, 1, True);
 
+/* Weenie - Portals - Surface (20920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20920, 'portalmartinesretreatexit');
 
@@ -8878,6 +9688,9 @@ VALUES (20920, 13, True)
      , (20920, 19, True)
      , (20920, 1, True);
 
+/* Weenie - Portals - Martine's Throne Room (20922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20922, 'portalmartinesthrone');
 
@@ -8909,6 +9722,9 @@ VALUES (20922, 13, True)
      , (20922, 15, True)
      , (20922, 19, True)
      , (20922, 1, True);
+
+/* Weenie - Portals - Frozen Wight Lair (44992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44992;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44992, 'ace44992-frozenwightlair');
@@ -8943,6 +9759,9 @@ VALUES (44992, 13, True)
      , (44992, 19, True)
      , (44992, 1, True);
 
+/* Weenie - Portals - Frozen Tomb (43524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43524;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43524, 'ace43524-frozentomb');
 
@@ -8975,6 +9794,9 @@ VALUES (43524, 13, True)
      , (43524, 19, True)
      , (43524, 1, True);
 
+/* Weenie - Portals - Surface (43525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43525;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43525, 'ace43525-surface');
 
@@ -9006,6 +9828,9 @@ VALUES (43525, 13, True)
      , (43525, 15, True)
      , (43525, 19, True)
      , (43525, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43567;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43567, 'ace43567-olthoitunnel');
@@ -9043,6 +9868,9 @@ VALUES (43567, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43567, 67111849, 1, 255);
 
+/* Weenie - Portals - Surface (43202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43202;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43202, 'ace43202-surface');
 
@@ -9074,6 +9902,9 @@ VALUES (43202, 13, True)
      , (43202, 15, True)
      , (43202, 19, True)
      , (43202, 1, True);
+
+/* Weenie - Portals - Fear Factory (51690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51690;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51690, 'ace51690-fearfactory');
@@ -9107,6 +9938,9 @@ VALUES (51690, 13, True)
      , (51690, 19, True)
      , (51690, 1, True);
 
+/* Weenie - Portals - Catacombs of Torment (52012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52012;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52012, 'ace52012-catacombsoftorment');
 
@@ -9138,6 +9972,9 @@ VALUES (52012, 13, True)
      , (52012, 15, True)
      , (52012, 19, True)
      , (52012, 1, True);
+
+/* Weenie - Portals - Path of Rage (51718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51718;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51718, 'ace51718-pathofrage');
@@ -9171,6 +10008,9 @@ VALUES (51718, 13, True)
      , (51718, 19, True)
      , (51718, 1, True);
 
+/* Weenie - Portals - Rynthid Foundry (51669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51669;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51669, 'ace51669-rynthidfoundry');
 
@@ -9202,6 +10042,9 @@ VALUES (51669, 13, True)
      , (51669, 15, True)
      , (51669, 19, True)
      , (51669, 1, True);
+
+/* Weenie - Portals - Path of Torment (51717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51717;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51717, 'ace51717-pathoftorment');
@@ -9235,6 +10078,9 @@ VALUES (51717, 13, True)
      , (51717, 19, True)
      , (51717, 1, True);
 
+/* Weenie - Portals - Surface (51822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51822;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51822, 'ace51822-surface');
 
@@ -9266,6 +10112,9 @@ VALUES (51822, 13, True)
      , (51822, 15, True)
      , (51822, 19, True)
      , (51822, 1, True);
+
+/* Weenie - Portals - Inner Sanctum (52014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52014;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52014, 'ace52014-innersanctum');
@@ -9299,6 +10148,9 @@ VALUES (52014, 13, True)
      , (52014, 19, True)
      , (52014, 1, True);
 
+/* Weenie - Portals - Inner Sanctum (52013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52013;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52013, 'ace52013-innersanctum');
 
@@ -9330,6 +10182,9 @@ VALUES (52013, 13, True)
      , (52013, 15, True)
      , (52013, 19, True)
      , (52013, 1, True);
+
+/* Weenie - Portals - Seed of Hatred (51564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51564;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51564, 'ace51564-seedofhatred');
@@ -9363,6 +10218,9 @@ VALUES (51564, 13, True)
      , (51564, 19, True)
      , (51564, 1, True);
 
+/* Weenie - Portals - Twisted Refuge (45725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45725;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45725, 'ace45725-twistedrefuge');
 
@@ -9394,6 +10252,9 @@ VALUES (45725, 13, True)
      , (45725, 15, True)
      , (45725, 19, True)
      , (45725, 1, True);
+
+/* Weenie - Portals - Small Black Hill (2329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2329;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2329, 'portalsmallblackhill');
@@ -9427,6 +10288,9 @@ VALUES (2329, 13, True)
      , (2329, 19, True)
      , (2329, 1, True);
 
+/* Weenie - Portals - Small Hill Base (2330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2330, 'portalsmallhillbase');
 
@@ -9458,6 +10322,9 @@ VALUES (2330, 13, True)
      , (2330, 15, True)
      , (2330, 19, True)
      , (2330, 1, True);
+
+/* Weenie - Portals - Black Spawn Den (7246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7246;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7246, 'portalblackdrudgespawnsho');
@@ -9491,6 +10358,9 @@ VALUES (7246, 13, True)
      , (7246, 19, True)
      , (7246, 1, True);
 
+/* Weenie - Portals - A Rat Nest (1347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1347;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1347, 'portalwhiteratnest');
 
@@ -9522,6 +10392,9 @@ VALUES (1347, 13, True)
      , (1347, 15, True)
      , (1347, 19, True)
      , (1347, 1, True);
+
+/* Weenie - Portals - Crypt of Ashen Tears (1120) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1120;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1120, 'portalashentears');
@@ -9555,6 +10428,9 @@ VALUES (1120, 13, True)
      , (1120, 19, True)
      , (1120, 1, True);
 
+/* Weenie - Portals - Crypt of Crimson Night (34011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34011;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34011, 'ace34011-cryptofcrimsonnight');
 
@@ -9586,6 +10462,9 @@ VALUES (34011, 13, True)
      , (34011, 15, True)
      , (34011, 19, True)
      , (34011, 1, True);
+
+/* Weenie - Portals - Cavernous Refuge (45722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45722;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45722, 'ace45722-cavernousrefuge');
@@ -9619,6 +10498,9 @@ VALUES (45722, 13, True)
      , (45722, 19, True)
      , (45722, 1, True);
 
+/* Weenie - Portals - A Ruin (2088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2088;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2088, 'portalranch');
 
@@ -9650,6 +10532,9 @@ VALUES (2088, 13, True)
      , (2088, 15, True)
      , (2088, 19, True)
      , (2088, 1, True);
+
+/* Weenie - Portals - Grievous Vault (4204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4204;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4204, 'portalgrievousvault');
@@ -9683,6 +10568,9 @@ VALUES (4204, 13, True)
      , (4204, 19, True)
      , (4204, 1, True);
 
+/* Weenie - Portals - Lugian Outpost (1590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1590, 'portallugianoutpost');
 
@@ -9714,6 +10602,9 @@ VALUES (1590, 13, True)
      , (1590, 15, True)
      , (1590, 19, True)
      , (1590, 1, True);
+
+/* Weenie - Portals - Floating Spire (8189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8189;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8189, 'portalfloatingadvocatespire');
@@ -9747,6 +10638,9 @@ VALUES (8189, 13, True)
      , (8189, 19, True)
      , (8189, 1, True);
 
+/* Weenie - Portals - Empyrean Garrison (4959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4959;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4959, 'portalempyreangarrison');
 
@@ -9778,6 +10672,9 @@ VALUES (4959, 13, True)
      , (4959, 15, True)
      , (4959, 19, True)
      , (4959, 1, True);
+
+/* Weenie - Portals - Vile-Smelling Refuse (28478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28478;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28478, 'portalburunbreedingpit');
@@ -9812,6 +10709,9 @@ VALUES (28478, 13, True)
      , (28478, 1, True)
      , (28478, 24, True);
 
+/* Weenie - Portals - Vile-Smelling Refuse (28483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28483;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28483, 'portalburunmucorpit');
 
@@ -9844,6 +10744,9 @@ VALUES (28483, 13, True)
      , (28483, 19, True)
      , (28483, 1, True)
      , (28483, 24, True);
+
+/* Weenie - Portals - Vile-Smelling Refuse (28482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28482, 'portalburunkoruuspawn');
@@ -9878,6 +10781,9 @@ VALUES (28482, 13, True)
      , (28482, 1, True)
      , (28482, 24, True);
 
+/* Weenie - Portals - Vile-Smelling Refuse (28479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28479;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28479, 'portalburunfeeluntree');
 
@@ -9910,6 +10816,9 @@ VALUES (28479, 13, True)
      , (28479, 19, True)
      , (28479, 1, True)
      , (28479, 24, True);
+
+/* Weenie - Portals - Vile-Smelling Refuse (28481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28481;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28481, 'portalburunfortresslair');
@@ -9944,6 +10853,9 @@ VALUES (28481, 13, True)
      , (28481, 1, True)
      , (28481, 24, True);
 
+/* Weenie - Portals - Mossy Cave (28261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28261;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28261, 'portalmosswartleerargh');
 
@@ -9975,6 +10887,9 @@ VALUES (28261, 13, True)
      , (28261, 15, True)
      , (28261, 19, True)
      , (28261, 1, True);
+
+/* Weenie - Portals - A Ruin (2067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2067;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2067, 'portalcolonial');
@@ -10008,6 +10923,9 @@ VALUES (2067, 13, True)
      , (2067, 19, True)
      , (2067, 1, True);
 
+/* Weenie - Portals - Filos' Doom (4927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4927;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4927, 'portalfilosdoom');
 
@@ -10039,6 +10957,9 @@ VALUES (4927, 13, True)
      , (4927, 15, True)
      , (4927, 19, True)
      , (4927, 1, True);
+
+/* Weenie - Portals - Exit (23771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23771, 'portalulgrimsdungeonexit');
@@ -10072,6 +10993,9 @@ VALUES (23771, 13, True)
      , (23771, 19, True)
      , (23771, 1, True);
 
+/* Weenie - Portals - Ridge Tower (4147) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4147;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4147, 'portalridgetower');
 
@@ -10103,6 +11027,9 @@ VALUES (4147, 13, True)
      , (4147, 15, True)
      , (4147, 19, True)
      , (4147, 1, True);
+
+/* Weenie - Portals - Surface (1098) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1098;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1098, 'portaltrothyrsrestexit');
@@ -10136,6 +11063,9 @@ VALUES (1098, 13, True)
      , (1098, 19, True)
      , (1098, 1, True);
 
+/* Weenie - Portals - Singularity Bore (10796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10796;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10796, 'portalvirindiobsidiannexusdungeon');
 
@@ -10167,6 +11097,9 @@ VALUES (10796, 13, True)
      , (10796, 15, True)
      , (10796, 19, True)
      , (10796, 1, True);
+
+/* Weenie - Portals - Empyrean Workshop (32655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32655;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32655, 'ace32655-empyreanworkshop');
@@ -10200,6 +11133,9 @@ VALUES (32655, 13, True)
      , (32655, 19, True)
      , (32655, 1, True);
 
+/* Weenie - Portals - Mattekar Cave (4910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4910, 'portalmattekarcave');
 
@@ -10231,6 +11167,9 @@ VALUES (4910, 13, True)
      , (4910, 15, True)
      , (4910, 19, True)
      , (4910, 1, True);
+
+/* Weenie - Portals - Surface (1094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1094;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1094, 'portalmitemazeexit');
@@ -10264,6 +11203,9 @@ VALUES (1094, 13, True)
      , (1094, 19, True)
      , (1094, 1, True);
 
+/* Weenie - Portals - Ancient Masonry (33034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33034;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33034, 'ace33034-ancientmasonry');
 
@@ -10295,6 +11237,9 @@ VALUES (33034, 13, True)
      , (33034, 15, True)
      , (33034, 19, True)
      , (33034, 1, True);
+
+/* Weenie - Portals - Lonely Fortress (36727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36727, 'ace36727-lonelyfortress');
@@ -10328,6 +11273,9 @@ VALUES (36727, 13, True)
      , (36727, 19, True)
      , (36727, 1, True);
 
+/* Weenie - Portals - Halls of Metos (7291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7291, 'portalgolemheimgha');
 
@@ -10359,6 +11307,9 @@ VALUES (7291, 13, True)
      , (7291, 15, True)
      , (7291, 19, True)
      , (7291, 1, True);
+
+/* Weenie - Portals - Lower Empyrean Lightning Cistern (14502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14502, 'portalempyreanlightningcisternlower');
@@ -10392,6 +11343,9 @@ VALUES (14502, 13, True)
      , (14502, 19, True)
      , (14502, 1, True);
 
+/* Weenie - Portals - Upper Empyrean Lightning Cistern (14501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14501, 'portalempyreanlightningcisternupper');
 
@@ -10423,6 +11377,9 @@ VALUES (14501, 13, True)
      , (14501, 15, True)
      , (14501, 19, True)
      , (14501, 1, True);
+
+/* Weenie - Portals - Empyrean Lightning Propylaeum (14503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14503, 'portalempyreanlightningpropylaeum');
@@ -10456,6 +11413,9 @@ VALUES (14503, 13, True)
      , (14503, 19, True)
      , (14503, 1, True);
 
+/* Weenie - Portals - Surface (14491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14491, 'portalempyreanlightningpropylaeumexit');
 
@@ -10487,6 +11447,9 @@ VALUES (14491, 13, True)
      , (14491, 15, True)
      , (14491, 19, True)
      , (14491, 1, True);
+
+/* Weenie - Portals - Lightless Catacombs (2381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2381;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2381, 'portalllcatacombs');
@@ -10520,6 +11483,9 @@ VALUES (2381, 13, True)
      , (2381, 19, True)
      , (2381, 1, True);
 
+/* Weenie - Portals - Tumerok Chamber (2333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2333, 'portaltumerokchamber');
 
@@ -10551,6 +11517,9 @@ VALUES (2333, 13, True)
      , (2333, 15, True)
      , (2333, 19, True)
      , (2333, 1, True);
+
+/* Weenie - Portals - Slaughterhouse (2359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2359;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2359, 'portalslaughterhouse');
@@ -10584,6 +11553,9 @@ VALUES (2359, 13, True)
      , (2359, 19, True)
      , (2359, 1, True);
 
+/* Weenie - Portals - Surface (5110) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5110;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5110, 'portalfroreexit');
 
@@ -10615,6 +11587,9 @@ VALUES (5110, 13, True)
      , (5110, 15, True)
      , (5110, 19, True)
      , (5110, 1, True);
+
+/* Weenie - Portals - Insatiable Vault (28808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28808;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28808, 'portalinsatiablevault');
@@ -10648,6 +11623,9 @@ VALUES (28808, 13, True)
      , (28808, 19, True)
      , (28808, 1, True);
 
+/* Weenie - Portals - Surface (28801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28801;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28801, 'portalinsatiablevaultexit');
 
@@ -10679,6 +11657,9 @@ VALUES (28801, 13, True)
      , (28801, 15, True)
      , (28801, 19, True)
      , (28801, 1, True);
+
+/* Weenie - Portals - Surface (28710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28710;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28710, 'portalaugmentationrealmexit');
@@ -10712,6 +11693,9 @@ VALUES (28710, 13, True)
      , (28710, 19, True)
      , (28710, 1, True);
 
+/* Weenie - Portals - Empyrean Facility Lower Level (42712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42712;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42712, 'ace42712-empyreanfacilitylowerlevel');
 
@@ -10743,6 +11727,9 @@ VALUES (42712, 13, True)
      , (42712, 15, True)
      , (42712, 19, True)
      , (42712, 1, True);
+
+/* Weenie - Portals - Empyrean Facility Middle Level (42713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42713;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42713, 'ace42713-empyreanfacilitymiddlelevel');
@@ -10776,6 +11763,9 @@ VALUES (42713, 13, True)
      , (42713, 19, True)
      , (42713, 1, True);
 
+/* Weenie - Portals - Surface (42714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42714;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42714, 'ace42714-surface');
 
@@ -10807,6 +11797,9 @@ VALUES (42714, 13, True)
      , (42714, 15, True)
      , (42714, 19, True)
      , (42714, 1, True);
+
+/* Weenie - Portals - Empyrean Facility Upper Level (42711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42711;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42711, 'ace42711-empyreanfacilityupperlevel');
@@ -10840,6 +11833,9 @@ VALUES (42711, 13, True)
      , (42711, 19, True)
      , (42711, 1, True);
 
+/* Weenie - Portals - Hidden Cavern (25570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25570;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25570, 'portalhiddencavern');
 
@@ -10871,6 +11867,9 @@ VALUES (25570, 13, True)
      , (25570, 15, True)
      , (25570, 19, True)
      , (25570, 1, True);
+
+/* Weenie - Portals - Surface (36935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36935;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36935, 'ace36935-surface');
@@ -10904,6 +11903,9 @@ VALUES (36935, 13, True)
      , (36935, 19, True)
      , (36935, 1, True);
 
+/* Weenie - Portals - Surface (51426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51426, 'ace51426-surface');
 
@@ -10935,6 +11937,9 @@ VALUES (51426, 13, True)
      , (51426, 15, True)
      , (51426, 19, True)
      , (51426, 1, True);
+
+/* Weenie - Portals - Rogue Delvings (38646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38646;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38646, 'ace38646-roguedelvings');
@@ -10968,6 +11973,9 @@ VALUES (38646, 13, True)
      , (38646, 19, True)
      , (38646, 1, True);
 
+/* Weenie - Portals - Lightning Guardian Lair (21420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21420, 'portalgaerlanguardianlightning');
 
@@ -10999,6 +12007,9 @@ VALUES (21420, 13, True)
      , (21420, 15, True)
      , (21420, 19, True)
      , (21420, 1, True);
+
+/* Weenie - Portals - Charged Refuge (45721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45721;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45721, 'ace45721-chargedrefuge');
@@ -11032,6 +12043,9 @@ VALUES (45721, 13, True)
      , (45721, 19, True)
      , (45721, 1, True);
 
+/* Weenie - Portals - An Olthoi Soldier Nest (10857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10857;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10857, 'portalsoldiernamequest-xp');
 
@@ -11063,6 +12077,9 @@ VALUES (10857, 13, True)
      , (10857, 15, True)
      , (10857, 19, True)
      , (10857, 1, True);
+
+/* Weenie - Portals - Surface Exit (10856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10856;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10856, 'portalsoldiernamequestexit-xp');
@@ -11096,6 +12113,9 @@ VALUES (10856, 13, True)
      , (10856, 19, True)
      , (10856, 1, True);
 
+/* Weenie - Portals - Palenqual's Caverns (11442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11442;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11442, 'portalpalenquall-xp');
 
@@ -11127,6 +12147,9 @@ VALUES (11442, 13, True)
      , (11442, 15, True)
      , (11442, 19, True)
      , (11442, 1, True);
+
+/* Weenie - Portals - Ancient Empyrean Grotto (10855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10855;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10855, 'portallegionarynamequest-xp');
@@ -11160,6 +12183,9 @@ VALUES (10855, 13, True)
      , (10855, 19, True)
      , (10855, 1, True);
 
+/* Weenie - Portals - Surface Exit (10854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10854, 'portallegionarynamequestexit-xp');
 
@@ -11191,6 +12217,9 @@ VALUES (10854, 13, True)
      , (10854, 15, True)
      , (10854, 19, True)
      , (10854, 1, True);
+
+/* Weenie - Portals - Mutilator Tunnels (27583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27583;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27583, 'portalmutilatornamequest');
@@ -11224,6 +12253,9 @@ VALUES (27583, 13, True)
      , (27583, 19, True)
      , (27583, 1, True);
 
+/* Weenie - Portals - Surface Exit (27584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27584;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27584, 'portalmutilatornamequestexit');
 
@@ -11255,6 +12287,9 @@ VALUES (27584, 13, True)
      , (27584, 15, True)
      , (27584, 19, True)
      , (27584, 1, True);
+
+/* Weenie - Portals - Lair of the Eviscerators (10849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10849;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10849, 'portalbutchernamequest-xp');
@@ -11288,6 +12323,9 @@ VALUES (10849, 13, True)
      , (10849, 19, True)
      , (10849, 1, True);
 
+/* Weenie - Portals - Surface Exit (10848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10848;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10848, 'portalbutchernamequestexit-xp');
 
@@ -11319,6 +12357,9 @@ VALUES (10848, 13, True)
      , (10848, 15, True)
      , (10848, 19, True)
      , (10848, 1, True);
+
+/* Weenie - Portals - Martinate Holding (10881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10881, 'portalmartinatelair-xp');
@@ -11352,6 +12393,9 @@ VALUES (10881, 13, True)
      , (10881, 19, True)
      , (10881, 1, True);
 
+/* Weenie - Portals - Surface Exit (10880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10880;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10880, 'portalmartinatelairexit-xp');
 
@@ -11383,6 +12427,9 @@ VALUES (10880, 13, True)
      , (10880, 15, True)
      , (10880, 19, True)
      , (10880, 1, True);
+
+/* Weenie - Portals - Olthoi Brood Hive (24881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24881, 'portalothoihive2mid');
@@ -11416,6 +12463,9 @@ VALUES (24881, 13, True)
      , (24881, 19, True)
      , (24881, 1, True);
 
+/* Weenie - Portals - Exit portal (24883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24883, 'portalothoihivemid2exit');
 
@@ -11447,6 +12497,9 @@ VALUES (24883, 13, True)
      , (24883, 15, True)
      , (24883, 19, True)
      , (24883, 1, True);
+
+/* Weenie - Portals - Renegade Stronghold (27694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27694;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27694, 'portalrenegadeshoushi');
@@ -11480,6 +12533,9 @@ VALUES (27694, 13, True)
      , (27694, 19, True)
      , (27694, 1, True);
 
+/* Weenie - Portals - Exit to Surface (27695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27695;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27695, 'portalrenegadeshoushiexit');
 
@@ -11511,6 +12567,9 @@ VALUES (27695, 13, True)
      , (27695, 15, True)
      , (27695, 19, True)
      , (27695, 1, True);
+
+/* Weenie - Portals - Fathomless Chasm (19719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19719;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19719, 'portalfathomlesschasm');
@@ -11544,6 +12603,9 @@ VALUES (19719, 13, True)
      , (19719, 19, True)
      , (19719, 1, True);
 
+/* Weenie - Portals - Fathomless Chasm Plummet (19725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19725;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19725, 'portalfathomlesschasmplummet');
 
@@ -11575,6 +12637,9 @@ VALUES (19725, 13, True)
      , (19725, 15, True)
      , (19725, 19, True)
      , (19725, 1, True);
+
+/* Weenie - Portals - Fathomless Chasm Abyss (19720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19720;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19720, 'portalfathomlesschasmabyss');
@@ -11608,6 +12673,9 @@ VALUES (19720, 13, True)
      , (19720, 19, True)
      , (19720, 1, True);
 
+/* Weenie - Portals - Fathomless Chasm Devex (19723) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19723;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19723, 'portalfathomlesschasmdevex');
 
@@ -11639,6 +12707,9 @@ VALUES (19723, 13, True)
      , (19723, 15, True)
      , (19723, 19, True)
      , (19723, 1, True);
+
+/* Weenie - Portals - Fathomless Chasm Clough (19721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19721;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19721, 'portalfathomlesschasmclough');
@@ -11672,6 +12743,9 @@ VALUES (19721, 13, True)
      , (19721, 19, True)
      , (19721, 1, True);
 
+/* Weenie - Portals - Fathomless Chasm Descent (19722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19722;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19722, 'portalfathomlesschasmdescent');
 
@@ -11703,6 +12777,9 @@ VALUES (19722, 13, True)
      , (19722, 15, True)
      , (19722, 19, True)
      , (19722, 1, True);
+
+/* Weenie - Portals - Surface (19724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19724;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19724, 'portalfathomlesschasmexit');
@@ -11736,6 +12813,9 @@ VALUES (19724, 13, True)
      , (19724, 19, True)
      , (19724, 1, True);
 
+/* Weenie - Portals - A Mosswart Nest (1333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1333, 'portalmosswartroom');
 
@@ -11767,6 +12847,9 @@ VALUES (1333, 13, True)
      , (1333, 15, True)
      , (1333, 19, True)
      , (1333, 1, True);
+
+/* Weenie - Portals - Surface (1334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1334;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1334, 'portalmosswartroomexit');
@@ -11800,6 +12883,9 @@ VALUES (1334, 13, True)
      , (1334, 19, True)
      , (1334, 1, True);
 
+/* Weenie - Portals - Unicorn's Grace (25837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25837;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25837, 'portalunicornemptysoul');
 
@@ -11831,6 +12917,9 @@ VALUES (25837, 13, True)
      , (25837, 15, True)
      , (25837, 19, True)
      , (25837, 1, True);
+
+/* Weenie - Portals - Surface (1604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1604;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1604, 'portalsimpleruinexit');
@@ -11864,6 +12953,9 @@ VALUES (1604, 13, True)
      , (1604, 19, True)
      , (1604, 1, True);
 
+/* Weenie - Portals - Mite Tunnels (3626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3626;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3626, 'portalmitetunnels');
 
@@ -11895,6 +12987,9 @@ VALUES (3626, 13, True)
      , (3626, 15, True)
      , (3626, 19, True)
      , (3626, 1, True);
+
+/* Weenie - Portals - Surface (3627) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3627;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3627, 'portalmitetunnelsexit');
@@ -11928,6 +13023,9 @@ VALUES (3627, 13, True)
      , (3627, 19, True)
      , (3627, 1, True);
 
+/* Weenie - Portals - Renegade Garrison (25496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25496, 'portalrenegadegarrison');
 
@@ -11959,6 +13057,9 @@ VALUES (25496, 13, True)
      , (25496, 15, True)
      , (25496, 19, True)
      , (25496, 1, True);
+
+/* Weenie - Portals - Inner Sanctum (22762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22762, 'portaltempleforgetfulnesssanctumfake');
@@ -11992,6 +13093,9 @@ VALUES (22762, 13, True)
      , (22762, 19, True)
      , (22762, 1, True);
 
+/* Weenie - Portals - Inner Sanctum (22761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22761;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22761, 'portaltempleforgetfulnesssanctum');
 
@@ -12023,6 +13127,9 @@ VALUES (22761, 13, True)
      , (22761, 15, True)
      , (22761, 19, True)
      , (22761, 1, True);
+
+/* Weenie - Portals - Surface (22760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22760;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22760, 'portaltempleforgetfulnessexit');
@@ -12056,6 +13163,9 @@ VALUES (22760, 13, True)
      , (22760, 19, True)
      , (22760, 1, True);
 
+/* Weenie - Portals - Inner Sanctum (22758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22758;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22758, 'portaltempleenlightenmentsanctumfake');
 
@@ -12087,6 +13197,9 @@ VALUES (22758, 13, True)
      , (22758, 15, True)
      , (22758, 19, True)
      , (22758, 1, True);
+
+/* Weenie - Portals - Inner Sanctum (22757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22757, 'portaltempleenlightenmentsanctum');
@@ -12120,6 +13233,9 @@ VALUES (22757, 13, True)
      , (22757, 19, True)
      , (22757, 1, True);
 
+/* Weenie - Portals - Surface (22756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22756;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22756, 'portaltempleenlightenmentexit');
 
@@ -12151,6 +13267,9 @@ VALUES (22756, 13, True)
      , (22756, 15, True)
      , (22756, 19, True)
      , (22756, 1, True);
+
+/* Weenie - Portals - Mountain Shortcut (1904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1904;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1904, 'portalmountainshortnorth');
@@ -12184,6 +13303,9 @@ VALUES (1904, 13, True)
      , (1904, 19, True)
      , (1904, 1, True);
 
+/* Weenie - Portals - Entrance to the pyramid (40249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40249;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40249, 'ace40249-entrancetothepyramid');
 
@@ -12215,6 +13337,9 @@ VALUES (40249, 13, True)
      , (40249, 15, True)
      , (40249, 19, True)
      , (40249, 1, True);
+
+/* Weenie - Portals - Surface (31314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31314;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31314, 'ace31314-surface');
@@ -12248,6 +13373,9 @@ VALUES (31314, 13, True)
      , (31314, 19, True)
      , (31314, 1, True);
 
+/* Weenie - Portals - Count Phainor's Tomb (48778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48778;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48778, 'ace48778-countphainorstomb');
 
@@ -12279,6 +13407,9 @@ VALUES (48778, 13, True)
      , (48778, 15, True)
      , (48778, 19, True)
      , (48778, 1, True);
+
+/* Weenie - Portals - Mhoire Armory (37489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37489;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37489, 'ace37489-mhoirearmory');
@@ -12312,6 +13443,9 @@ VALUES (37489, 13, True)
      , (37489, 19, True)
      , (37489, 1, True);
 
+/* Weenie - Portals - Massilor's Crypt (38729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38729;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38729, 'ace38729-massilorscrypt');
 
@@ -12343,6 +13477,9 @@ VALUES (38729, 13, True)
      , (38729, 15, True)
      , (38729, 19, True)
      , (38729, 1, True);
+
+/* Weenie - Portals - Up to Arcanum Lookout (40919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40919;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40919, 'ace40919-uptoarcanumlookout');
@@ -12376,6 +13513,9 @@ VALUES (40919, 13, True)
      , (40919, 19, True)
      , (40919, 1, True);
 
+/* Weenie - Portals - Down to Surface (40920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40920;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40920, 'ace40920-downtosurface');
 
@@ -12407,6 +13547,9 @@ VALUES (40920, 13, True)
      , (40920, 15, True)
      , (40920, 19, True)
      , (40920, 1, True);
+
+/* Weenie - Portals - Gardens of Menilesh (38086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38086;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38086, 'ace38086-gardensofmenilesh');
@@ -12440,6 +13583,9 @@ VALUES (38086, 13, True)
      , (38086, 19, True)
      , (38086, 1, True);
 
+/* Weenie - Portals - Coral Tunnels (28063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28063, 'portalcoraltunnelswest');
 
@@ -12471,6 +13617,9 @@ VALUES (28063, 13, True)
      , (28063, 15, True)
      , (28063, 19, True)
      , (28063, 1, True);
+
+/* Weenie - Portals - Small Temple (8478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8478;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8478, 'portalvesayensmalltemplea');
@@ -12504,6 +13653,9 @@ VALUES (8478, 13, True)
      , (8478, 19, True)
      , (8478, 1, True);
 
+/* Weenie - Portals - Bah'Ktar's Tower (51944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51944, 'ace51944-bahktarstower');
 
@@ -12535,6 +13687,9 @@ VALUES (51944, 13, True)
      , (51944, 15, True)
      , (51944, 19, True)
      , (51944, 1, True);
+
+/* Weenie - Portals - Rynthid Genesis (51615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51615;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51615, 'ace51615-rynthidgenesis');
@@ -12568,6 +13723,9 @@ VALUES (51615, 13, True)
      , (51615, 19, True)
      , (51615, 1, True);
 
+/* Weenie - Portals - Corrupted Energy (51943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51943;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51943, 'ace51943-corruptedenergy');
 
@@ -12599,6 +13757,9 @@ VALUES (51943, 13, True)
      , (51943, 15, True)
      , (51943, 19, True)
      , (51943, 1, True);
+
+/* Weenie - Portals - Queen's Burrow (43583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43583;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43583, 'ace43583-queensburrow');
@@ -12636,6 +13797,9 @@ VALUES (43583, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43583, 67111849, 1, 255);
 
+/* Weenie - Portals - Queen's Burrow (43581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43581;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43581, 'ace43581-queensburrow');
 
@@ -12671,6 +13835,9 @@ VALUES (43581, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43581, 67111849, 1, 255);
+
+/* Weenie - Portals - Queen's Burrow (43588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43588;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43588, 'ace43588-queensburrow');
@@ -12708,6 +13875,9 @@ VALUES (43588, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43588, 67111849, 1, 255);
 
+/* Weenie - Portals - Queen's Burrow (43582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43582;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43582, 'ace43582-queensburrow');
 
@@ -12743,6 +13913,9 @@ VALUES (43582, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43582, 67111849, 1, 255);
+
+/* Weenie - Portals - Queen's Burrow (43584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43584;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43584, 'ace43584-queensburrow');
@@ -12780,6 +13953,9 @@ VALUES (43584, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43584, 67111849, 1, 255);
 
+/* Weenie - Portals - Queen's Burrow (43587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43587;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43587, 'ace43587-queensburrow');
 
@@ -12815,6 +13991,9 @@ VALUES (43587, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43587, 67111849, 1, 255);
+
+/* Weenie - Portals - Olthoi Tunnel (43548) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43548;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43548, 'ace43548-olthoitunnel');
@@ -12852,6 +14031,9 @@ VALUES (43548, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43548, 67111849, 1, 255);
 
+/* Weenie - Portals - Beacon Tower Exit (30535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30535;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30535, 'portalelenabeacontowerexit');
 
@@ -12883,6 +14065,9 @@ VALUES (30535, 13, True)
      , (30535, 15, True)
      , (30535, 19, True)
      , (30535, 1, True);
+
+/* Weenie - Portals - Banderling Ruin (1329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1329;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1329, 'portalemptyroom');
@@ -12916,6 +14101,9 @@ VALUES (1329, 13, True)
      , (1329, 19, True)
      , (1329, 1, True);
 
+/* Weenie - Portals - Surface (1330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1330, 'portalemptyroomexit');
 
@@ -12947,6 +14135,9 @@ VALUES (1330, 13, True)
      , (1330, 15, True)
      , (1330, 19, True)
      , (1330, 1, True);
+
+/* Weenie - Portals - Thief Trail (1597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1597;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1597, 'portalthieftrail');
@@ -12980,6 +14171,9 @@ VALUES (1597, 13, True)
      , (1597, 19, True)
      , (1597, 1, True);
 
+/* Weenie - Portals - Surface (1593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1593, 'portallugianpostexit');
 
@@ -13011,6 +14205,9 @@ VALUES (1593, 13, True)
      , (1593, 15, True)
      , (1593, 19, True)
      , (1593, 1, True);
+
+/* Weenie - Portals - Black Ferah's Vault (33776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33776;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33776, 'ace33776-blackferahsvault');
@@ -13044,6 +14241,9 @@ VALUES (33776, 13, True)
      , (33776, 19, True)
      , (33776, 1, True);
 
+/* Weenie - Portals - Surface (33791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33791;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33791, 'ace33791-surface');
 
@@ -13075,6 +14275,9 @@ VALUES (33791, 13, True)
      , (33791, 15, True)
      , (33791, 19, True)
      , (33791, 1, True);
+
+/* Weenie - Portals - Mukkir-Infested Black Spear Temple (33774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33774;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33774, 'ace33774-mukkirinfestedblackspeartemple');
@@ -13108,6 +14311,9 @@ VALUES (33774, 13, True)
      , (33774, 19, True)
      , (33774, 1, True);
 
+/* Weenie - Portals - Surface (33790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33790;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33790, 'ace33790-surface');
 
@@ -13139,6 +14345,9 @@ VALUES (33790, 13, True)
      , (33790, 15, True)
      , (33790, 19, True)
      , (33790, 1, True);
+
+/* Weenie - Portals - Grael's Chamber (33772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33772;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33772, 'ace33772-graelschamber');
@@ -13172,6 +14381,9 @@ VALUES (33772, 13, True)
      , (33772, 19, True)
      , (33772, 1, True);
 
+/* Weenie - Portals - Grael's Chamber (33789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33789;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33789, 'ace33789-graelschamber');
 
@@ -13203,6 +14415,9 @@ VALUES (33789, 13, True)
      , (33789, 15, True)
      , (33789, 19, True)
      , (33789, 1, True);
+
+/* Weenie - Portals - Trophy Room (33874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33874;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33874, 'ace33874-trophyroom');
@@ -13236,6 +14451,9 @@ VALUES (33874, 13, True)
      , (33874, 19, True)
      , (33874, 1, True);
 
+/* Weenie - Portals - Surface (37384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37384;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37384, 'ace37384-surface');
 
@@ -13267,6 +14485,9 @@ VALUES (37384, 13, True)
      , (37384, 15, True)
      , (37384, 19, True)
      , (37384, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43705;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43705, 'ace43705-olthoitunnel');
@@ -13304,6 +14525,9 @@ VALUES (43705, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43705, 67111849, 1, 255);
 
+/* Weenie - Portals - Vissidal Island (32127) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32127;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32127, 'ace32127-vissidalisland');
 
@@ -13335,6 +14559,9 @@ VALUES (32127, 13, True)
      , (32127, 15, True)
      , (32127, 19, True)
      , (32127, 1, True);
+
+/* Weenie - Portals - Trial of the Deep (37070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37070;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37070, 'ace37070-trialofthedeep');
@@ -13368,6 +14595,9 @@ VALUES (37070, 13, True)
      , (37070, 19, True)
      , (37070, 1, True);
 
+/* Weenie - Portals - Dereth  (34845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34845, 'ace34845-dereth');
 
@@ -13399,6 +14629,9 @@ VALUES (34845, 13, True)
      , (34845, 15, True)
      , (34845, 19, True)
      , (34845, 1, True);
+
+/* Weenie - Portals - Entrance to the pyramid (40248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40248, 'ace40248-entrancetothepyramid');
@@ -13432,6 +14665,9 @@ VALUES (40248, 13, True)
      , (40248, 19, True)
      , (40248, 1, True);
 
+/* Weenie - Portals - Tusker Pits (22690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22690;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22690, 'portaltuskerpits');
 
@@ -13463,6 +14699,9 @@ VALUES (22690, 13, True)
      , (22690, 15, True)
      , (22690, 19, True)
      , (22690, 1, True);
+
+/* Weenie - Portals - Tusker Holding (22680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22680;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22680, 'portaltuskerholding');
@@ -13496,6 +14735,9 @@ VALUES (22680, 13, True)
      , (22680, 19, True)
      , (22680, 1, True);
 
+/* Weenie - Portals - Desert Dwelling (48823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48823, 'ace48823-desertdwelling');
 
@@ -13527,6 +14769,9 @@ VALUES (48823, 13, True)
      , (48823, 15, True)
      , (48823, 19, True)
      , (48823, 1, True);
+
+/* Weenie - Portals - Sanctuary of the Recluse (52214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52214;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52214, 'ace52214-sanctuaryoftherecluse');
@@ -13560,6 +14805,9 @@ VALUES (52214, 13, True)
      , (52214, 19, True)
      , (52214, 1, True);
 
+/* Weenie - Portals - Deep Caves (45799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45799;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45799, 'ace45799-deepcaves');
 
@@ -13591,6 +14839,9 @@ VALUES (45799, 13, True)
      , (45799, 15, True)
      , (45799, 19, True)
      , (45799, 1, True);
+
+/* Weenie - Portals - Temple (44136) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44136;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44136, 'ace44136-temple');
@@ -13624,6 +14875,9 @@ VALUES (44136, 13, True)
      , (44136, 19, True)
      , (44136, 1, True);
 
+/* Weenie - Portals - Ithaenc Archipelago (38075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38075;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38075, 'ace38075-ithaencarchipelago');
 
@@ -13655,6 +14909,9 @@ VALUES (38075, 13, True)
      , (38075, 15, True)
      , (38075, 19, True)
      , (38075, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43591;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43591, 'ace43591-olthoitunnel');
@@ -13692,6 +14949,9 @@ VALUES (43591, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43591, 67111849, 1, 255);
 
+/* Weenie - Portals - Shadowy Refuge (45726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45726, 'ace45726-shadowyrefuge');
 
@@ -13723,6 +14983,9 @@ VALUES (45726, 13, True)
      , (45726, 15, True)
      , (45726, 19, True)
      , (45726, 1, True);
+
+/* Weenie - Portals - Crater Pathway (2552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2552;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2552, 'portalcraterpathbottom');
@@ -13756,6 +15019,9 @@ VALUES (2552, 13, True)
      , (2552, 19, True)
      , (2552, 1, True);
 
+/* Weenie - Portals - Surface (2553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2553;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2553, 'portalcraterpathbottomexit');
 
@@ -13787,6 +15053,9 @@ VALUES (2553, 13, True)
      , (2553, 15, True)
      , (2553, 19, True)
      , (2553, 1, True);
+
+/* Weenie - Portals - Surface (2555) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2555;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2555, 'portalcraterpathtopexit');
@@ -13820,6 +15089,9 @@ VALUES (2555, 13, True)
      , (2555, 19, True)
      , (2555, 1, True);
 
+/* Weenie - Portals - Eastern Aerlinthe Island (28062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28062;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28062, 'portalcoraltunnelseastexit');
 
@@ -13851,6 +15123,9 @@ VALUES (28062, 13, True)
      , (28062, 15, True)
      , (28062, 19, True)
      , (28062, 1, True);
+
+/* Weenie - Portals - Western Aerlinthe Island (28064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28064;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28064, 'portalcoraltunnelswestexit');
@@ -13884,6 +15159,9 @@ VALUES (28064, 13, True)
      , (28064, 19, True)
      , (28064, 1, True);
 
+/* Weenie - Portals - Surface (7318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7318;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7318, 'portallugiancitadelaluexit');
 
@@ -13915,6 +15193,9 @@ VALUES (7318, 13, True)
      , (7318, 15, True)
      , (7318, 19, True)
      , (7318, 1, True);
+
+/* Weenie - Portals - Surface (33910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33910;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33910, 'ace33910-surface');
@@ -13948,6 +15229,9 @@ VALUES (33910, 13, True)
      , (33910, 19, True)
      , (33910, 1, True);
 
+/* Weenie - Portals - Ruschk Iceberg (28784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28784;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28784, 'portalruschkiceberg');
 
@@ -13979,6 +15263,9 @@ VALUES (28784, 13, True)
      , (28784, 15, True)
      , (28784, 19, True)
      , (28784, 1, True);
+
+/* Weenie - Portals - Surface (28785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28785;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28785, 'portalruschkicebergexit');
@@ -14012,6 +15299,9 @@ VALUES (28785, 13, True)
      , (28785, 19, True)
      , (28785, 1, True);
 
+/* Weenie - Portals - Sclavus Cathedral (7287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7287, 'portalsclavuscathedralalu');
 
@@ -14043,6 +15333,9 @@ VALUES (7287, 13, True)
      , (7287, 15, True)
      , (7287, 19, True)
      , (7287, 1, True);
+
+/* Weenie - Portals - Eldrytch Web Gauntlet (53447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53447;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53447, 'ace53447-eldrytchwebgauntlet');
@@ -14076,6 +15369,9 @@ VALUES (53447, 13, True)
      , (53447, 19, True)
      , (53447, 1, True);
 
+/* Weenie - Portals - Surface (1100) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1100;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1100, 'portalundergroundexit');
 
@@ -14107,6 +15403,9 @@ VALUES (1100, 13, True)
      , (1100, 15, True)
      , (1100, 19, True)
      , (1100, 1, True);
+
+/* Weenie - Portals - A Red Rat Lair (1345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1345;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1345, 'portalwhiteratlair');
@@ -14140,6 +15439,9 @@ VALUES (1345, 13, True)
      , (1345, 19, True)
      , (1345, 1, True);
 
+/* Weenie - Portals - Under-Cove Crypt (5200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5200, 'portalkick');
 
@@ -14170,6 +15472,9 @@ VALUES (5200, 13, True)
      , (5200, 15, True)
      , (5200, 19, True)
      , (5200, 1, True);
+
+/* Weenie - Portals - Sea Temple Catacombs (5198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5198;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5198, 'portalapplejuice');
@@ -14203,6 +15508,9 @@ VALUES (5198, 13, True)
      , (5198, 19, True)
      , (5198, 1, True);
 
+/* Weenie - Portals - Surface (5201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5201;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5201, 'portalkickexit');
 
@@ -14234,6 +15542,9 @@ VALUES (5201, 13, True)
      , (5201, 15, True)
      , (5201, 19, True)
      , (5201, 1, True);
+
+/* Weenie - Portals - Tanada House of Water (35318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35318;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35318, 'ace35318-tanadahouseofwater');
@@ -14267,6 +15578,9 @@ VALUES (35318, 13, True)
      , (35318, 19, True)
      , (35318, 1, True);
 
+/* Weenie - Portals - North Direlands Valley Junction (8387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8387;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8387, 'portalnorthvalleydirelands');
 
@@ -14298,6 +15612,9 @@ VALUES (8387, 13, True)
      , (8387, 15, True)
      , (8387, 19, True)
      , (8387, 1, True);
+
+/* Weenie - Portals - Gerent's Compound (25394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25394, 'portalenergycrystal');
@@ -14331,6 +15648,9 @@ VALUES (25394, 13, True)
      , (25394, 19, True)
      , (25394, 1, True);
 
+/* Weenie - Portals - Green Mire Grave (1309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1309;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1309, 'portalgreenmiregrave');
 
@@ -14362,6 +15682,9 @@ VALUES (1309, 13, True)
      , (1309, 15, True)
      , (1309, 19, True)
      , (1309, 1, True);
+
+/* Weenie - Portals - Surface (1310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1310;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1310, 'portalgreenmiregraveexit');
@@ -14395,6 +15718,9 @@ VALUES (1310, 13, True)
      , (1310, 19, True)
      , (1310, 1, True);
 
+/* Weenie - Portals - Lost Coastal Archive (31434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31434;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31434, 'ace31434-lostcoastalarchive');
 
@@ -14426,6 +15752,9 @@ VALUES (31434, 13, True)
      , (31434, 15, True)
      , (31434, 19, True)
      , (31434, 1, True);
+
+/* Weenie - Portals - Passage to Olthoi Island (43580) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43580;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43580, 'ace43580-passagetoolthoiisland');
@@ -14463,6 +15792,9 @@ VALUES (43580, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43580, 67111849, 1, 255);
 
+/* Weenie - Portals - Passage to Olthoi Island (43536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43536;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43536, 'ace43536-passagetoolthoiisland');
 
@@ -14499,6 +15831,9 @@ VALUES (43536, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43536, 67111849, 1, 255);
 
+/* Weenie - Portals - Vissidal Island (32058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32058;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32058, 'ace32058-vissidalisland');
 
@@ -14530,6 +15865,9 @@ VALUES (32058, 13, True)
      , (32058, 15, True)
      , (32058, 19, True)
      , (32058, 1, True);
+
+/* Weenie - Portals - Blighted Desolation Moarsman Tunnels (38157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38157;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38157, 'ace38157-blighteddesolationmoarsmantunnels');
@@ -14563,6 +15901,9 @@ VALUES (38157, 13, True)
      , (38157, 19, True)
      , (38157, 1, True);
 
+/* Weenie - Portals - Ancient Temple (25396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25396;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25396, 'portalfalatacottemple');
 
@@ -14594,6 +15935,9 @@ VALUES (25396, 13, True)
      , (25396, 15, True)
      , (25396, 19, True)
      , (25396, 1, True);
+
+/* Weenie - Portals - Blighted Grimy Moarsman Tunnels (38152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38152;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38152, 'ace38152-blightedgrimymoarsmantunnels');
@@ -14627,6 +15971,9 @@ VALUES (38152, 13, True)
      , (38152, 19, True)
      , (38152, 1, True);
 
+/* Weenie - Portals - Shade Iron Mine (32685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32685;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32685, 'ace32685-shadeironmine');
 
@@ -14658,6 +16005,9 @@ VALUES (32685, 13, True)
      , (32685, 15, True)
      , (32685, 19, True)
      , (32685, 1, True);
+
+/* Weenie - Portals - Banished Assembly (4941) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4941;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4941, 'portalbanishedassembly');
@@ -14691,6 +16041,9 @@ VALUES (4941, 13, True)
      , (4941, 19, True)
      , (4941, 1, True);
 
+/* Weenie - Portals - Smugglers Fort (5519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5519;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5519, 'portalsmugglersfort');
 
@@ -14722,6 +16075,9 @@ VALUES (5519, 13, True)
      , (5519, 15, True)
      , (5519, 19, True)
      , (5519, 1, True);
+
+/* Weenie - Portals - Exit (5520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5520;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5520, 'portalsmugglersfortexit');
@@ -14755,6 +16111,9 @@ VALUES (5520, 13, True)
      , (5520, 19, True)
      , (5520, 1, True);
 
+/* Weenie - Portals - Renegade Fortress (27479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27479;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27479, 'portalrenegadefortress');
 
@@ -14786,6 +16145,9 @@ VALUES (27479, 13, True)
      , (27479, 15, True)
      , (27479, 19, True)
      , (27479, 1, True);
+
+/* Weenie - Portals - Renegade Fortress (40349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40349;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40349, 'ace40349-renegadefortress');
@@ -14819,6 +16181,9 @@ VALUES (40349, 13, True)
      , (40349, 19, True)
      , (40349, 1, True);
 
+/* Weenie - Portals - Heart of Innocence (24185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24185;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24185, 'portalheartinnocent');
 
@@ -14850,6 +16215,9 @@ VALUES (24185, 13, True)
      , (24185, 15, True)
      , (24185, 19, True)
      , (24185, 1, True);
+
+/* Weenie - Portals - Halls of Metos (7293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7293;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7293, 'portalgolemheimalu');
@@ -14883,6 +16251,9 @@ VALUES (7293, 13, True)
      , (7293, 19, True)
      , (7293, 1, True);
 
+/* Weenie - Portals - Surface (37386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37386;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37386, 'ace37386-surface');
 
@@ -14914,6 +16285,9 @@ VALUES (37386, 13, True)
      , (37386, 15, True)
      , (37386, 19, True)
      , (37386, 1, True);
+
+/* Weenie - Portals - Graveyard (38728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38728;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38728, 'ace38728-graveyard');
@@ -14947,6 +16321,9 @@ VALUES (38728, 13, True)
      , (38728, 19, True)
      , (38728, 1, True);
 
+/* Weenie - Portals - Coral Caves (31326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31326, 'ace31326-coralcaves');
 
@@ -14978,6 +16355,9 @@ VALUES (31326, 13, True)
      , (31326, 15, True)
      , (31326, 19, True)
      , (31326, 1, True);
+
+/* Weenie - Portals - Surface (25282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25282;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25282, 'portallugiancitadelndiresexit');
@@ -15011,6 +16391,9 @@ VALUES (25282, 13, True)
      , (25282, 19, True)
      , (25282, 1, True);
 
+/* Weenie - Portals - Blighted Verdant Moarsman Tunnels (38153) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38153;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38153, 'ace38153-blightedverdantmoarsmantunnels');
 
@@ -15042,6 +16425,9 @@ VALUES (38153, 13, True)
      , (38153, 15, True)
      , (38153, 19, True)
      , (38153, 1, True);
+
+/* Weenie - Portals - Moarsmen Priory (38365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38365;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38365, 'ace38365-moarsmenpriory');
@@ -15075,6 +16461,9 @@ VALUES (38365, 13, True)
      , (38365, 19, True)
      , (38365, 1, True);
 
+/* Weenie - Portals - Surface (38366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38366, 'ace38366-surface');
 
@@ -15106,6 +16495,9 @@ VALUES (38366, 13, True)
      , (38366, 15, True)
      , (38366, 19, True)
      , (38366, 1, True);
+
+/* Weenie - Portals - Surface (38087) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38087;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38087, 'ace38087-surface');
@@ -15139,6 +16531,9 @@ VALUES (38087, 13, True)
      , (38087, 19, True)
      , (38087, 1, True);
 
+/* Weenie - Portals - Surface (1308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1308;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1308, 'portalglendendungeonexit');
 
@@ -15170,6 +16565,9 @@ VALUES (1308, 13, True)
      , (1308, 15, True)
      , (1308, 19, True)
      , (1308, 1, True);
+
+/* Weenie - Portals - North Glenden Prison (1311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1311;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1311, 'portalnorthglenden');
@@ -15203,6 +16601,9 @@ VALUES (1311, 13, True)
      , (1311, 19, True)
      , (1311, 1, True);
 
+/* Weenie - Portals - Surface (37164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37164;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37164, 'ace37164-surface');
 
@@ -15234,6 +16635,9 @@ VALUES (37164, 13, True)
      , (37164, 15, True)
      , (37164, 19, True)
      , (37164, 1, True);
+
+/* Weenie - Portals - Undisclosed Location (25727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25727, 'portalnoirexit');
@@ -15267,6 +16671,9 @@ VALUES (25727, 13, True)
      , (25727, 19, True)
      , (25727, 1, True);
 
+/* Weenie - Portals - Eldrytch Web Stronghold (37385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37385;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37385, 'ace37385-eldrytchwebstronghold');
 
@@ -15298,6 +16705,9 @@ VALUES (37385, 13, True)
      , (37385, 15, True)
      , (37385, 19, True)
      , (37385, 1, True);
+
+/* Weenie - Portals - Surface (38377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38377;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38377, 'ace38377-surface');
@@ -15331,6 +16741,9 @@ VALUES (38377, 13, True)
      , (38377, 19, True)
      , (38377, 1, True);
 
+/* Weenie - Portals - The Colosseum (35003) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35003;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35003, 'ace35003-thecolosseum');
 
@@ -15359,6 +16772,9 @@ VALUES (35003, 11, True)
      , (35003, 14, True)
      , (35003, 19, True)
      , (35003, 1, True);
+
+/* Weenie - Portals - Corrupted Catacombs (38400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38400;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38400, 'ace38400-corruptedcatacombs');
@@ -15392,6 +16808,9 @@ VALUES (38400, 13, True)
      , (38400, 19, True)
      , (38400, 1, True);
 
+/* Weenie - Portals - Surface (38401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38401;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38401, 'ace38401-surface');
 
@@ -15423,6 +16842,9 @@ VALUES (38401, 13, True)
      , (38401, 15, True)
      , (38401, 19, True)
      , (38401, 1, True);
+
+/* Weenie - Portals - Stronghold (42223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42223;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42223, 'ace42223-stronghold');
@@ -15456,6 +16878,9 @@ VALUES (42223, 13, True)
      , (42223, 19, True)
      , (42223, 1, True);
 
+/* Weenie - Portals - Temple of the Font (53477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53477;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53477, 'ace53477-templeofthefont');
 
@@ -15487,6 +16912,9 @@ VALUES (53477, 13, True)
      , (53477, 15, True)
      , (53477, 19, True)
      , (53477, 1, True);
+
+/* Weenie - Portals - Exit to Shoushi (29337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29337;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29337, 'portalnewbieexitshoushi');
@@ -15520,6 +16948,9 @@ VALUES (29337, 13, True)
      , (29337, 19, True)
      , (29337, 1, True);
 
+/* Weenie - Portals - Obsidian Plains (4046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4046;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4046, 'portaldirelandforest');
 
@@ -15551,6 +16982,9 @@ VALUES (4046, 13, True)
      , (4046, 15, True)
      , (4046, 19, True)
      , (4046, 1, True);
+
+/* Weenie - Portals - South Shore Heights (8502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8502, 'portalsouthshoreheights');
@@ -15584,6 +17018,9 @@ VALUES (8502, 13, True)
      , (8502, 19, True)
      , (8502, 1, True);
 
+/* Weenie - Portals - Gatekeepers (32125) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32125;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32125, 'ace32125-gatekeepers');
 
@@ -15615,6 +17052,9 @@ VALUES (32125, 13, True)
      , (32125, 15, True)
      , (32125, 19, True)
      , (32125, 1, True);
+
+/* Weenie - Portals - Moars Laboratory (8600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8600;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8600, 'portalvesayenmoarslaboratory');
@@ -15648,6 +17088,9 @@ VALUES (8600, 13, True)
      , (8600, 19, True)
      , (8600, 1, True);
 
+/* Weenie - Portals - Mud Cave (8474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8474;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8474, 'portalmudcave');
 
@@ -15679,6 +17122,9 @@ VALUES (8474, 13, True)
      , (8474, 15, True)
      , (8474, 19, True)
      , (8474, 1, True);
+
+/* Weenie - Portals - Moarsmen Spawning Grounds (8584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8584;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8584, 'portalmoarsmenspawninggrounds');
@@ -15712,6 +17158,9 @@ VALUES (8584, 13, True)
      , (8584, 19, True)
      , (8584, 1, True);
 
+/* Weenie - Portals - Moarsmen Muck (8476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8476;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8476, 'portalmoarsmenmuck');
 
@@ -15744,6 +17193,9 @@ VALUES (8476, 13, True)
      , (8476, 19, True)
      , (8476, 1, True);
 
+/* Weenie - Portals - Moarsmen Hideout (8456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8456, 'portalmoarsmenhideout');
 
@@ -15775,6 +17227,9 @@ VALUES (8456, 13, True)
      , (8456, 15, True)
      , (8456, 19, True)
      , (8456, 1, True);
+
+/* Weenie - Portals - Surface (8601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8601;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8601, 'portalvesayenmoarslaboratoryexit');
@@ -15809,6 +17264,9 @@ VALUES (8601, 13, True)
      , (8601, 19, True)
      , (8601, 1, True);
 
+/* Weenie - Portals - Surface (8585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8585;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8585, 'portalmoarsmenspawninggroundsexit');
 
@@ -15840,6 +17298,9 @@ VALUES (8585, 13, True)
      , (8585, 15, True)
      , (8585, 19, True)
      , (8585, 1, True);
+
+/* Weenie - Portals - Seed of Misery (51569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51569;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51569, 'ace51569-seedofmisery');
@@ -15873,6 +17334,9 @@ VALUES (51569, 13, True)
      , (51569, 19, True)
      , (51569, 1, True);
 
+/* Weenie - Portals - Seed of Anger (51580) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51580;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51580, 'ace51580-seedofanger');
 
@@ -15904,6 +17368,9 @@ VALUES (51580, 13, True)
      , (51580, 15, True)
      , (51580, 19, True)
      , (51580, 1, True);
+
+/* Weenie - Portals - Path of Sorrows (51721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51721;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51721, 'ace51721-pathofsorrows');
@@ -15937,6 +17404,9 @@ VALUES (51721, 13, True)
      , (51721, 19, True)
      , (51721, 1, True);
 
+/* Weenie - Portals - Presk's Bunker (51906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51906;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51906, 'ace51906-presksbunker');
 
@@ -15968,6 +17438,9 @@ VALUES (51906, 13, True)
      , (51906, 15, True)
      , (51906, 19, True)
      , (51906, 1, True);
+
+/* Weenie - Portals - Frozen Fortress (51319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51319;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51319, 'ace51319-frozenfortress');
@@ -16001,6 +17474,9 @@ VALUES (51319, 13, True)
      , (51319, 19, True)
      , (51319, 1, True);
 
+/* Weenie - Portals - Sand Caves (44117) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44117;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44117, 'ace44117-sandcaves');
 
@@ -16032,6 +17508,9 @@ VALUES (44117, 13, True)
      , (44117, 15, True)
      , (44117, 19, True)
      , (44117, 1, True);
+
+/* Weenie - Portals - Surface (35503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35503, 'ace35503-surface');
@@ -16065,6 +17544,9 @@ VALUES (35503, 13, True)
      , (35503, 19, True)
      , (35503, 1, True);
 
+/* Weenie - Portals - Gatekeepers (31892) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31892;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31892, 'ace31892-gatekeepers');
 
@@ -16096,6 +17578,9 @@ VALUES (31892, 13, True)
      , (31892, 15, True)
      , (31892, 19, True)
      , (31892, 1, True);
+
+/* Weenie - Portals - Black Spear Summoning Chamber (33478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33478;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33478, 'ace33478-blackspearsummoningchamber');
@@ -16129,6 +17614,9 @@ VALUES (33478, 13, True)
      , (33478, 19, True)
      , (33478, 1, True);
 
+/* Weenie - Portals - Dark Isle (33545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33545, 'ace33545-darkisle');
 
@@ -16160,6 +17648,9 @@ VALUES (33545, 13, True)
      , (33545, 15, True)
      , (33545, 19, True)
      , (33545, 1, True);
+
+/* Weenie - Portals - Surface (43258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43258;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43258, 'ace43258-surface');
@@ -16193,6 +17684,9 @@ VALUES (43258, 13, True)
      , (43258, 19, True)
      , (43258, 1, True);
 
+/* Weenie - Portals - Surface (38653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38653;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38653, 'ace38653-surface');
 
@@ -16224,6 +17718,9 @@ VALUES (38653, 13, True)
      , (38653, 15, True)
      , (38653, 19, True)
      , (38653, 1, True);
+
+/* Weenie - Portals - Temple of Tthuun (38585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38585;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38585, 'ace38585-templeoftthuun');
@@ -16257,6 +17754,9 @@ VALUES (38585, 13, True)
      , (38585, 19, True)
      , (38585, 1, True);
 
+/* Weenie - Portals - Chamber of the High Priest's Third (38584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38584;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38584, 'ace38584-chamberofthehighprieststhird');
 
@@ -16288,6 +17788,9 @@ VALUES (38584, 13, True)
      , (38584, 15, True)
      , (38584, 19, True)
      , (38584, 1, True);
+
+/* Weenie - Portals - Acolyte's Chamber (38581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38581;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38581, 'ace38581-acolyteschamber');
@@ -16321,6 +17824,9 @@ VALUES (38581, 13, True)
      , (38581, 19, True)
      , (38581, 1, True);
 
+/* Weenie - Portals - Chamber of the High Priest's First (38582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38582;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38582, 'ace38582-chamberofthehighpriestsfirst');
 
@@ -16352,6 +17858,9 @@ VALUES (38582, 13, True)
      , (38582, 15, True)
      , (38582, 19, True)
      , (38582, 1, True);
+
+/* Weenie - Portals - Chamber of the High Priest's Second (38583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38583;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38583, 'ace38583-chamberofthehighpriestssecond');
@@ -16385,6 +17894,9 @@ VALUES (38583, 13, True)
      , (38583, 19, True)
      , (38583, 1, True);
 
+/* Weenie - Portals - Convergent Median (14884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14884;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14884, 'portalconvergentmedian');
 
@@ -16416,6 +17928,9 @@ VALUES (14884, 13, True)
      , (14884, 15, True)
      , (14884, 19, True)
      , (14884, 1, True);
+
+/* Weenie - Portals - Exit to Sanamar (29339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29339;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29339, 'portalnewbieexitsanamar');
@@ -16449,6 +17964,9 @@ VALUES (29339, 13, True)
      , (29339, 19, True)
      , (29339, 1, True);
 
+/* Weenie - Portals - Weakened Vault Sewers (30717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30717;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30717, 'portalassaultsewersweakened');
 
@@ -16480,6 +17998,9 @@ VALUES (30717, 13, True)
      , (30717, 15, True)
      , (30717, 19, True)
      , (30717, 1, True);
+
+/* Weenie - Portals - Surface (30718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30718;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30718, 'portalassaultsewersweakenedexit');
@@ -16513,6 +18034,9 @@ VALUES (30718, 13, True)
      , (30718, 19, True)
      , (30718, 1, True);
 
+/* Weenie - Portals - Weakened Royal Vault (30726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30726, 'portalassaultroyalvaultweakened');
 
@@ -16544,6 +18068,9 @@ VALUES (30726, 13, True)
      , (30726, 15, True)
      , (30726, 19, True)
      , (30726, 1, True);
+
+/* Weenie - Portals - Surface (30727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30727, 'portalassaultroyalvaultweakenedexit');
@@ -16577,6 +18104,9 @@ VALUES (30727, 13, True)
      , (30727, 19, True)
      , (30727, 1, True);
 
+/* Weenie - Portals - Gelidite Library (15776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15776;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15776, 'portalgeliditelibrary');
 
@@ -16608,6 +18138,9 @@ VALUES (15776, 13, True)
      , (15776, 15, True)
      , (15776, 19, True)
      , (15776, 1, True);
+
+/* Weenie - Portals - Exit (29799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29799;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29799, 'portalthreebagsexit');
@@ -16641,6 +18174,9 @@ VALUES (29799, 13, True)
      , (29799, 19, True)
      , (29799, 1, True);
 
+/* Weenie - Portals - Entrance to the pyramid (40250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40250;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40250, 'ace40250-entrancetothepyramid');
 
@@ -16672,6 +18208,9 @@ VALUES (40250, 13, True)
      , (40250, 15, True)
      , (40250, 19, True)
      , (40250, 1, True);
+
+/* Weenie - Portals - Surface (2069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2069;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2069, 'portaldrudgehideoutexit');
@@ -16705,6 +18244,9 @@ VALUES (2069, 13, True)
      , (2069, 19, True)
      , (2069, 1, True);
 
+/* Weenie - Portals - Tusker Burrow (22663) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22663;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22663, 'portaltuskerburrow');
 
@@ -16736,6 +18278,9 @@ VALUES (22663, 13, True)
      , (22663, 15, True)
      , (22663, 19, True)
      , (22663, 1, True);
+
+/* Weenie - Portals - Surface (22664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22664;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22664, 'portaltuskerburrowexit');
@@ -16769,6 +18314,9 @@ VALUES (22664, 13, True)
      , (22664, 19, True)
      , (22664, 1, True);
 
+/* Weenie - Portals - Tusker Lodge (22688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22688;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22688, 'portaltuskerlodge');
 
@@ -16800,6 +18348,9 @@ VALUES (22688, 13, True)
      , (22688, 15, True)
      , (22688, 19, True)
      , (22688, 1, True);
+
+/* Weenie - Portals - Surface (22689) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22689;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22689, 'portaltuskerlodgeexit');
@@ -16833,6 +18384,9 @@ VALUES (22689, 13, True)
      , (22689, 19, True)
      , (22689, 1, True);
 
+/* Weenie - Portals - Tusker Cave (22665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22665;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22665, 'portaltuskercave');
 
@@ -16864,6 +18418,9 @@ VALUES (22665, 13, True)
      , (22665, 15, True)
      , (22665, 19, True)
      , (22665, 1, True);
+
+/* Weenie - Portals - Surface (22666) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22666;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22666, 'portaltuskercaveexit');
@@ -16897,6 +18454,9 @@ VALUES (22666, 13, True)
      , (22666, 19, True)
      , (22666, 1, True);
 
+/* Weenie - Portals - Abandoned Tumerok Site (10853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10853;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10853, 'portalharvesternamequest-xp');
 
@@ -16928,6 +18488,9 @@ VALUES (10853, 13, True)
      , (10853, 15, True)
      , (10853, 19, True)
      , (10853, 1, True);
+
+/* Weenie - Portals - Tumerok Cave (11323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11323;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11323, 'portaltanuacave-xp');
@@ -16961,6 +18524,9 @@ VALUES (11323, 13, True)
      , (11323, 19, True)
      , (11323, 1, True);
 
+/* Weenie - Portals - Surface Exit (10852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10852, 'portalharvesternamequestexit-xp');
 
@@ -16992,6 +18558,9 @@ VALUES (10852, 13, True)
      , (10852, 15, True)
      , (10852, 19, True)
      , (10852, 1, True);
+
+/* Weenie - Portals - The Dark Lair (10851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10851;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10851, 'portalgardenernamequest-xp');
@@ -17025,6 +18594,9 @@ VALUES (10851, 13, True)
      , (10851, 19, True)
      , (10851, 1, True);
 
+/* Weenie - Portals - Surface Exit (10850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10850;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10850, 'portalgardenernamequestexit-xp');
 
@@ -17056,6 +18628,9 @@ VALUES (10850, 13, True)
      , (10850, 15, True)
      , (10850, 19, True)
      , (10850, 1, True);
+
+/* Weenie - Portals - Tusker Cavern (22667) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22667;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22667, 'portaltuskercavern');
@@ -17089,6 +18664,9 @@ VALUES (22667, 13, True)
      , (22667, 19, True)
      , (22667, 1, True);
 
+/* Weenie - Portals - Surface (22668) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22668;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22668, 'portaltuskercavernexit');
 
@@ -17120,6 +18698,9 @@ VALUES (22668, 13, True)
      , (22668, 15, True)
      , (22668, 19, True)
      , (22668, 1, True);
+
+/* Weenie - Portals - Tusker Abode (22654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22654;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22654, 'portaltuskerabode');
@@ -17153,6 +18734,9 @@ VALUES (22654, 13, True)
      , (22654, 19, True)
      , (22654, 1, True);
 
+/* Weenie - Portals - Surface (22655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22655;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22655, 'portaltuskerabodeexit');
 
@@ -17184,6 +18768,9 @@ VALUES (22655, 13, True)
      , (22655, 15, True)
      , (22655, 19, True)
      , (22655, 1, True);
+
+/* Weenie - Portals - Tusker Habitat (22678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22678, 'portaltuskerhabitat');
@@ -17217,6 +18804,9 @@ VALUES (22678, 13, True)
      , (22678, 19, True)
      , (22678, 1, True);
 
+/* Weenie - Portals - Surface (22679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22679;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22679, 'portaltuskerhabitatexit');
 
@@ -17248,6 +18838,9 @@ VALUES (22679, 13, True)
      , (22679, 15, True)
      , (22679, 19, True)
      , (22679, 1, True);
+
+/* Weenie - Portals - Tusker Quarters (22692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22692;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22692, 'portaltuskerquarters');
@@ -17281,6 +18874,9 @@ VALUES (22692, 13, True)
      , (22692, 19, True)
      , (22692, 1, True);
 
+/* Weenie - Portals - Surface (22693) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22693;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22693, 'portaltuskerquartersexit');
 
@@ -17312,6 +18908,9 @@ VALUES (22693, 13, True)
      , (22693, 15, True)
      , (22693, 19, True)
      , (22693, 1, True);
+
+/* Weenie - Portals - Crumbling Empyrean Mansion (27587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27587, 'portalworkernamequest');
@@ -17345,6 +18944,9 @@ VALUES (27587, 13, True)
      , (27587, 19, True)
      , (27587, 1, True);
 
+/* Weenie - Portals - Surface Exit (27588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27588;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27588, 'portalworkernamequestexit');
 
@@ -17376,6 +18978,9 @@ VALUES (27588, 13, True)
      , (27588, 15, True)
      , (27588, 19, True)
      , (27588, 1, True);
+
+/* Weenie - Portals - Halls of the Helm (1512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1512;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1512, 'portalhallshelm');
@@ -17409,6 +19014,9 @@ VALUES (1512, 13, True)
      , (1512, 19, True)
      , (1512, 1, True);
 
+/* Weenie - Portals - Surface (1513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1513;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1513, 'portalhallshelmexit');
 
@@ -17440,6 +19048,9 @@ VALUES (1513, 13, True)
      , (1513, 15, True)
      , (1513, 19, True)
      , (1513, 1, True);
+
+/* Weenie - Portals - Surface (3635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3635;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3635, 'portalmountainsewerexit');
@@ -17473,6 +19084,9 @@ VALUES (3635, 13, True)
      , (3635, 19, True)
      , (3635, 1, True);
 
+/* Weenie - Portals - Tusker Barracks (22661) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22661;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22661, 'portaltuskerbarracks');
 
@@ -17504,6 +19118,9 @@ VALUES (22661, 13, True)
      , (22661, 15, True)
      , (22661, 19, True)
      , (22661, 1, True);
+
+/* Weenie - Portals - Surface (22662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22662;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22662, 'portaltuskerbarracksexit');
@@ -17537,6 +19154,9 @@ VALUES (22662, 13, True)
      , (22662, 19, True)
      , (22662, 1, True);
 
+/* Weenie - Portals - Hagra's Holdfast (31710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31710;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31710, 'ace31710-hagrasholdfast');
 
@@ -17568,6 +19188,9 @@ VALUES (31710, 13, True)
      , (31710, 15, True)
      , (31710, 19, True)
      , (31710, 1, True);
+
+/* Weenie - Portals - Adventurer's Haven (2080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2080;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2080, 'portalhaven');
@@ -17601,6 +19224,9 @@ VALUES (2080, 13, True)
      , (2080, 19, True)
      , (2080, 1, True);
 
+/* Weenie - Portals - Surface (2081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2081;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2081, 'portalhavenexit');
 
@@ -17632,6 +19258,9 @@ VALUES (2081, 13, True)
      , (2081, 15, True)
      , (2081, 19, True)
      , (2081, 1, True);
+
+/* Weenie - Portals - Stronghold (42221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42221;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42221, 'ace42221-stronghold');
@@ -17665,6 +19294,9 @@ VALUES (42221, 13, True)
      , (42221, 19, True)
      , (42221, 1, True);
 
+/* Weenie - Portals - Holtburg Redoubt (4935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4935, 'portaldeadbarracks');
 
@@ -17696,6 +19328,9 @@ VALUES (4935, 13, True)
      , (4935, 15, True)
      , (4935, 19, True)
      , (4935, 1, True);
+
+/* Weenie - Portals - Surface (37107) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37107;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37107, 'ace37107-surface');
@@ -17729,6 +19364,9 @@ VALUES (37107, 13, True)
      , (37107, 19, True)
      , (37107, 1, True);
 
+/* Weenie - Portals - Tunnel of Love (31514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31514;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31514, 'ace31514-tunneloflove');
 
@@ -17760,6 +19398,9 @@ VALUES (31514, 13, True)
      , (31514, 15, True)
      , (31514, 19, True)
      , (31514, 1, True);
+
+/* Weenie - Portals - Surface (31515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31515, 'ace31515-surface');
@@ -17793,6 +19434,9 @@ VALUES (31515, 13, True)
      , (31515, 19, True)
      , (31515, 1, True);
 
+/* Weenie - Portals - Tusker Tunnels (22702) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22702;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22702, 'portaltuskertunnels');
 
@@ -17824,6 +19468,9 @@ VALUES (22702, 13, True)
      , (22702, 15, True)
      , (22702, 19, True)
      , (22702, 1, True);
+
+/* Weenie - Portals - Surface (22703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22703;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22703, 'portaltuskertunnelsexit');
@@ -17857,6 +19504,9 @@ VALUES (22703, 13, True)
      , (22703, 19, True)
      , (22703, 1, True);
 
+/* Weenie - Portals - Plated Rifts (22652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22652;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22652, 'portalplatedrifts');
 
@@ -17888,6 +19538,9 @@ VALUES (22652, 13, True)
      , (22652, 15, True)
      , (22652, 19, True)
      , (22652, 1, True);
+
+/* Weenie - Portals - Surface (22653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22653;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22653, 'portalplatedriftsexit');
@@ -17921,6 +19574,9 @@ VALUES (22653, 13, True)
      , (22653, 19, True)
      , (22653, 1, True);
 
+/* Weenie - Portals - Rampage Bluff (22750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22750, 'portalrampagebluff');
 
@@ -17952,6 +19608,9 @@ VALUES (22750, 13, True)
      , (22750, 15, True)
      , (22750, 19, True)
      , (22750, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43554;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43554, 'ace43554-olthoitunnel');
@@ -17989,6 +19648,9 @@ VALUES (43554, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43554, 67111849, 1, 255);
 
+/* Weenie - Portals - Queen's Burrow (43585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43585;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43585, 'ace43585-queensburrow');
 
@@ -18024,6 +19686,9 @@ VALUES (43585, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43585, 67111849, 1, 255);
+
+/* Weenie - Portals - Queen's Burrow (43586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43586;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43586, 'ace43586-queensburrow');
@@ -18061,6 +19726,9 @@ VALUES (43586, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43586, 67111849, 1, 255);
 
+/* Weenie - Portals - Olthoi Tunnel (43542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43542;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43542, 'ace43542-olthoitunnel');
 
@@ -18097,6 +19765,9 @@ VALUES (43542, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43542, 67111849, 1, 255);
 
+/* Weenie - Portals - A Cave (3636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3636;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3636, 'portallargecave');
 
@@ -18129,6 +19800,9 @@ VALUES (3636, 13, True)
      , (3636, 19, True)
      , (3636, 1, True);
 
+/* Weenie - Portals - Surface (3637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3637;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3637, 'portallargecaveexit');
 
@@ -18160,6 +19834,9 @@ VALUES (3637, 13, True)
      , (3637, 15, True)
      , (3637, 19, True)
      , (3637, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43540;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43540, 'ace43540-olthoitunnel');
@@ -18197,6 +19874,9 @@ VALUES (43540, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43540, 67111849, 1, 255);
 
+/* Weenie - Portals - Olthoi Tunnel (43556) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43556;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43556, 'ace43556-olthoitunnel');
 
@@ -18232,6 +19912,9 @@ VALUES (43556, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43556, 67111849, 1, 255);
+
+/* Weenie - Portals - Olthoi Tunnel (43544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43544;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43544, 'ace43544-olthoitunnel');
@@ -18269,6 +19952,9 @@ VALUES (43544, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43544, 67111849, 1, 255);
 
+/* Weenie - Portals - Egg Orchard West (31928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31928, 'ace31928-eggorchardwest');
 
@@ -18300,6 +19986,9 @@ VALUES (31928, 13, True)
      , (31928, 15, True)
      , (31928, 19, True)
      , (31928, 1, True);
+
+/* Weenie - Portals - Egg Orchard (30964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30964;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30964, 'portaleggorchard');
@@ -18333,6 +20022,9 @@ VALUES (30964, 13, True)
      , (30964, 19, True)
      , (30964, 1, True);
 
+/* Weenie - Portals - Egg Orchard East (31926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31926;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31926, 'ace31926-eggorchardeast');
 
@@ -18364,6 +20056,9 @@ VALUES (31926, 13, True)
      , (31926, 15, True)
      , (31926, 19, True)
      , (31926, 1, True);
+
+/* Weenie - Portals - Surface (30965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30965;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30965, 'portaleggorchardexit');
@@ -18397,6 +20092,9 @@ VALUES (30965, 13, True)
      , (30965, 19, True)
      , (30965, 1, True);
 
+/* Weenie - Portals - Surface (2557) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2557;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2557, 'portalswampdirelandsexit');
 
@@ -18428,6 +20126,9 @@ VALUES (2557, 13, True)
      , (2557, 15, True)
      , (2557, 19, True)
      , (2557, 1, True);
+
+/* Weenie - Portals - Surface (28803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28803;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28803, 'portalravenousvaultexit');
@@ -18461,6 +20162,9 @@ VALUES (28803, 13, True)
      , (28803, 19, True)
      , (28803, 1, True);
 
+/* Weenie - Portals - Surface (1089) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1089;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1089, 'portalarwicminesexit');
 
@@ -18492,6 +20196,9 @@ VALUES (1089, 13, True)
      , (1089, 15, True)
      , (1089, 19, True)
      , (1089, 1, True);
+
+/* Weenie - Portals - Surface (3639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3639;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3639, 'portalknathlairexit');
@@ -18525,6 +20232,9 @@ VALUES (3639, 13, True)
      , (3639, 19, True)
      , (3639, 1, True);
 
+/* Weenie - Portals - Knath Lair (3638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3638;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3638, 'portalknathlair');
 
@@ -18556,6 +20266,9 @@ VALUES (3638, 13, True)
      , (3638, 15, True)
      , (3638, 19, True)
      , (3638, 1, True);
+
+/* Weenie - Portals - Colier Mine (1547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1547;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1547, 'portalcoliermine');
@@ -18589,6 +20302,9 @@ VALUES (1547, 13, True)
      , (1547, 19, True)
      , (1547, 1, True);
 
+/* Weenie - Portals - Hunter's Leap (2082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2082;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2082, 'portalhuntersleap');
 
@@ -18620,6 +20336,9 @@ VALUES (2082, 13, True)
      , (2082, 15, True)
      , (2082, 19, True)
      , (2082, 1, True);
+
+/* Weenie - Portals - Surface (2083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2083;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2083, 'portalhuntersleapexit');
@@ -18653,6 +20372,9 @@ VALUES (2083, 13, True)
      , (2083, 19, True)
      , (2083, 1, True);
 
+/* Weenie - Portals - Banderling Conquest Dungeon (8379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8379, 'portalmosswartbanderlingdungeon');
 
@@ -18684,6 +20406,9 @@ VALUES (8379, 13, True)
      , (8379, 15, True)
      , (8379, 19, True)
      , (8379, 1, True);
+
+/* Weenie - Portals - Surface (44351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44351, 'ace44351-surface');
@@ -18717,6 +20442,9 @@ VALUES (44351, 13, True)
      , (44351, 19, True)
      , (44351, 1, True);
 
+/* Weenie - Portals - Surface (23075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23075;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23075, 'portalcrystalwarehouseokexit');
 
@@ -18748,6 +20476,9 @@ VALUES (23075, 13, True)
      , (23075, 15, True)
      , (23075, 19, True)
      , (23075, 1, True);
+
+/* Weenie - Portals - Warehouse Annex Mine (23081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23081;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23081, 'portalwarehouseannex');
@@ -18781,6 +20512,9 @@ VALUES (23081, 13, True)
      , (23081, 19, True)
      , (23081, 1, True);
 
+/* Weenie - Portals - Warehouse (23043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23043;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23043, 'portalcrystalwarehouserobbed');
 
@@ -18812,6 +20546,9 @@ VALUES (23043, 13, True)
      , (23043, 15, True)
      , (23043, 19, True)
      , (23043, 1, True);
+
+/* Weenie - Portals - Surface (23078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23078;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23078, 'portalshatteredsoul1');
@@ -18845,6 +20582,9 @@ VALUES (23078, 13, True)
      , (23078, 19, True)
      , (23078, 1, True);
 
+/* Weenie - Portals - Warehouse Annex Mine (23079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23079;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23079, 'portalshatteredsoul2');
 
@@ -18876,6 +20616,9 @@ VALUES (23079, 13, True)
      , (23079, 15, True)
      , (23079, 19, True)
      , (23079, 1, True);
+
+/* Weenie - Portals - Surface (23080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23080;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23080, 'portalshatteredsoulexit');
@@ -18909,6 +20652,9 @@ VALUES (23080, 13, True)
      , (23080, 19, True)
      , (23080, 1, True);
 
+/* Weenie - Portals - Olthoi Chasm (25684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25684;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25684, 'portaldeepplaces1');
 
@@ -18940,6 +20686,9 @@ VALUES (25684, 13, True)
      , (25684, 15, True)
      , (25684, 19, True)
      , (25684, 1, True);
+
+/* Weenie - Portals - Shallow Olthoi Chasm (25685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25685;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25685, 'portaldeepplaces2');
@@ -18973,6 +20722,9 @@ VALUES (25685, 13, True)
      , (25685, 19, True)
      , (25685, 1, True);
 
+/* Weenie - Portals - Deep Olthoi Chasm (25686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25686;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25686, 'portaldeepplaces3');
 
@@ -19004,6 +20756,9 @@ VALUES (25686, 13, True)
      , (25686, 15, True)
      , (25686, 19, True)
      , (25686, 1, True);
+
+/* Weenie - Portals - Cavernous Olthoi Chasm (25687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25687;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25687, 'portaldeepplaces4');
@@ -19037,6 +20792,9 @@ VALUES (25687, 13, True)
      , (25687, 19, True)
      , (25687, 1, True);
 
+/* Weenie - Portals - Abyssal Olthoi Chasm (25688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25688;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25688, 'portaldeepplaces5');
 
@@ -19068,6 +20826,9 @@ VALUES (25688, 13, True)
      , (25688, 15, True)
      , (25688, 19, True)
      , (25688, 1, True);
+
+/* Weenie - Portals - Access to Crystal Mines (22866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22866;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22866, 'portalcrystalmineaccess');
@@ -19101,6 +20862,9 @@ VALUES (22866, 13, True)
      , (22866, 19, True)
      , (22866, 1, True);
 
+/* Weenie - Portals - Surface (4966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4966;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4966, 'portalshrethhiveexit');
 
@@ -19132,6 +20896,9 @@ VALUES (4966, 13, True)
      , (4966, 15, True)
      , (4966, 19, True)
      , (4966, 1, True);
+
+/* Weenie - Portals - Exit to Surface (28264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28264;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28264, 'portalmosswartmirewitchexit');
@@ -19165,6 +20932,9 @@ VALUES (28264, 13, True)
      , (28264, 19, True)
      , (28264, 1, True);
 
+/* Weenie - Portals - Surface (7320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7320, 'portallugiancitadelghaexit');
 
@@ -19197,6 +20967,9 @@ VALUES (7320, 13, True)
      , (7320, 19, True)
      , (7320, 1, True);
 
+/* Weenie - Portals - Surface (1591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1591;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1591, 'portallugianoutpostexit');
 
@@ -19228,6 +21001,9 @@ VALUES (1591, 13, True)
      , (1591, 15, True)
      , (1591, 19, True)
      , (1591, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43573;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43573, 'ace43573-olthoitunnel');
@@ -19265,6 +21041,9 @@ VALUES (43573, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43573, 67111849, 1, 255);
 
+/* Weenie - Portals - Linvak Tukal Entryway (9411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9411;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9411, 'portallinvaktukalentryway');
 
@@ -19296,6 +21075,9 @@ VALUES (9411, 13, True)
      , (9411, 15, True)
      , (9411, 19, True)
      , (9411, 1, True);
+
+/* Weenie - Portals - West Fork Dam Hive (51250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51250, 'ace51250-westforkdamhive');
@@ -19329,6 +21111,9 @@ VALUES (51250, 13, True)
      , (51250, 19, True)
      , (51250, 1, True);
 
+/* Weenie - Portals - Stinging Corner (52223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52223;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52223, 'ace52223-stingingcorner');
 
@@ -19360,6 +21145,9 @@ VALUES (52223, 13, True)
      , (52223, 15, True)
      , (52223, 19, True)
      , (52223, 1, True);
+
+/* Weenie - Portals - Repository (32584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32584;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32584, 'ace32584-repository');
@@ -19393,6 +21181,9 @@ VALUES (32584, 13, True)
      , (32584, 19, True)
      , (32584, 1, True);
 
+/* Weenie - Portals - Fort Witshire Surface (2096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2096, 'portalwitshiredungeonexit');
 
@@ -19424,6 +21215,9 @@ VALUES (2096, 13, True)
      , (2096, 15, True)
      , (2096, 19, True)
      , (2096, 1, True);
+
+/* Weenie - Portals - Aerbax Laboratory (9201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9201;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9201, 'portalaerbaxlaboratory');
@@ -19457,6 +21251,9 @@ VALUES (9201, 13, True)
      , (9201, 19, True)
      , (9201, 1, True);
 
+/* Weenie - Portals - Mnemosyne Collection Site (9322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9322, 'portalsaelardungeon');
 
@@ -19488,6 +21285,9 @@ VALUES (9322, 13, True)
      , (9322, 15, True)
      , (9322, 19, True)
      , (9322, 1, True);
+
+/* Weenie - Portals - Exit (9323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9323;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9323, 'portalsaelardungeonexit');
@@ -19521,6 +21321,9 @@ VALUES (9323, 13, True)
      , (9323, 19, True)
      , (9323, 1, True);
 
+/* Weenie - Portals - Small Mnemosyne Collection Site (9320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9320, 'portalhahnaindungeon');
 
@@ -19552,6 +21355,9 @@ VALUES (9320, 13, True)
      , (9320, 15, True)
      , (9320, 19, True)
      , (9320, 1, True);
+
+/* Weenie - Portals - Large Mnemosyne Collection Site (9321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9321;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9321, 'portalrenselmdungeon');
@@ -19585,6 +21391,9 @@ VALUES (9321, 13, True)
      , (9321, 19, True)
      , (9321, 1, True);
 
+/* Weenie - Portals - Hebian-to Sewers (1599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1599;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1599, 'portalhebiantosewers');
 
@@ -19616,6 +21425,9 @@ VALUES (1599, 13, True)
      , (1599, 15, True)
      , (1599, 19, True)
      , (1599, 1, True);
+
+/* Weenie - Portals - Surface (1600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1600;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1600, 'portalhebiantosewersexit');
@@ -19649,6 +21461,9 @@ VALUES (1600, 13, True)
      , (1600, 19, True)
      , (1600, 1, True);
 
+/* Weenie - Portals - A Drudge Nest (1337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1337;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1337, 'portaldrudgenest');
 
@@ -19680,6 +21495,9 @@ VALUES (1337, 13, True)
      , (1337, 15, True)
      , (1337, 19, True)
      , (1337, 1, True);
+
+/* Weenie - Portals - Acid Guardian Lair (21414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21414;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21414, 'portalgaerlanguardianacid');
@@ -19713,6 +21531,9 @@ VALUES (21414, 13, True)
      , (21414, 19, True)
      , (21414, 1, True);
 
+/* Weenie - Portals - Apostate Citadel Mines (40505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40505;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40505, 'ace40505-apostatecitadelmines');
 
@@ -19744,6 +21565,9 @@ VALUES (40505, 13, True)
      , (40505, 15, True)
      , (40505, 19, True)
      , (40505, 1, True);
+
+/* Weenie - Portals - Surface (40504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40504;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40504, 'ace40504-surface');
@@ -19777,6 +21601,9 @@ VALUES (40504, 13, True)
      , (40504, 19, True)
      , (40504, 1, True);
 
+/* Weenie - Portals - Apostate Citadel Barracks (40502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40502;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40502, 'ace40502-apostatecitadelbarracks');
 
@@ -19808,6 +21635,9 @@ VALUES (40502, 13, True)
      , (40502, 15, True)
      , (40502, 19, True)
      , (40502, 1, True);
+
+/* Weenie - Portals - Apostate Citadel Headquarters (40503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40503, 'ace40503-apostatecitadelheadquarters');
@@ -19841,6 +21671,9 @@ VALUES (40503, 13, True)
      , (40503, 19, True)
      , (40503, 1, True);
 
+/* Weenie - Portals - Apostate Excavation (41195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41195;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41195, 'ace41195-apostateexcavation');
 
@@ -19872,6 +21705,9 @@ VALUES (41195, 13, True)
      , (41195, 15, True)
      , (41195, 19, True)
      , (41195, 1, True);
+
+/* Weenie - Portals - Surface (41196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41196;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41196, 'ace41196-surface');
@@ -19905,6 +21741,9 @@ VALUES (41196, 13, True)
      , (41196, 19, True)
      , (41196, 1, True);
 
+/* Weenie - Portals - Surface (38647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38647;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38647, 'ace38647-surface');
 
@@ -19936,6 +21775,9 @@ VALUES (38647, 13, True)
      , (38647, 15, True)
      , (38647, 19, True)
      , (38647, 1, True);
+
+/* Weenie - Portals - Tusker Temple (22696) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22696;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22696, 'portaltuskertempledirelands');
@@ -19969,6 +21811,9 @@ VALUES (22696, 13, True)
      , (22696, 19, True)
      , (22696, 1, True);
 
+/* Weenie - Portals - South Gate (37051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37051;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37051, 'ace37051-southgate');
 
@@ -19998,6 +21843,9 @@ VALUES (37051, 13, True)
      , (37051, 15, True)
      , (37051, 19, True)
      , (37051, 1, True);
+
+/* Weenie - Portals - Beachside (1899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1899;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1899, 'portalbeachside');
@@ -20031,6 +21879,9 @@ VALUES (1899, 13, True)
      , (1899, 19, True)
      , (1899, 1, True);
 
+/* Weenie - Portals - Ishaq's Cellar (29237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29237, 'portalishaqscellar');
 
@@ -20062,6 +21913,9 @@ VALUES (29237, 13, True)
      , (29237, 15, True)
      , (29237, 19, True)
      , (29237, 1, True);
+
+/* Weenie - Portals - Surface (2382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2382;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2382, 'portalllcatacombsexit');
@@ -20095,6 +21949,9 @@ VALUES (2382, 13, True)
      , (2382, 19, True)
      , (2382, 1, True);
 
+/* Weenie - Portals - Surface (2334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2334;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2334, 'portaltumerokchamberexit');
 
@@ -20126,6 +21983,9 @@ VALUES (2334, 13, True)
      , (2334, 15, True)
      , (2334, 19, True)
      , (2334, 1, True);
+
+/* Weenie - Portals - Thrungus Hole (30963) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30963;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30963, 'portalthrungushole');
@@ -20159,6 +22019,9 @@ VALUES (30963, 13, True)
      , (30963, 19, True)
      , (30963, 1, True);
 
+/* Weenie - Portals - Surface (30962) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30962;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30962, 'portalthrungusholeexit');
 
@@ -20190,6 +22053,9 @@ VALUES (30962, 13, True)
      , (30962, 15, True)
      , (30962, 19, True)
      , (30962, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnels (3649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3649;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3649, 'portalolthoitunnels');
@@ -20223,6 +22089,9 @@ VALUES (3649, 13, True)
      , (3649, 19, True)
      , (3649, 1, True);
 
+/* Weenie - Portals - Surface (3650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3650;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3650, 'portalolthoitunnelsexit');
 
@@ -20254,6 +22123,9 @@ VALUES (3650, 13, True)
      , (3650, 15, True)
      , (3650, 19, True)
      , (3650, 1, True);
+
+/* Weenie - Portals - Deeper Catacombs (24233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24233, 'portalolthoitunnelsexpansion');
@@ -20287,6 +22159,9 @@ VALUES (24233, 13, True)
      , (24233, 19, True)
      , (24233, 1, True);
 
+/* Weenie - Portals - Viamontian Esper Mine (32623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32623;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32623, 'ace32623-viamontianespermine');
 
@@ -20318,6 +22193,9 @@ VALUES (32623, 13, True)
      , (32623, 15, True)
      , (32623, 19, True)
      , (32623, 1, True);
+
+/* Weenie - Portals - Halls of Metos (7295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7295;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7295, 'portalgolemheimsho');
@@ -20351,6 +22229,9 @@ VALUES (7295, 13, True)
      , (7295, 19, True)
      , (7295, 1, True);
 
+/* Weenie - Portals - Assassins' Hideout (33251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33251, 'ace33251-assassinshideout');
 
@@ -20382,6 +22263,9 @@ VALUES (33251, 13, True)
      , (33251, 15, True)
      , (33251, 19, True)
      , (33251, 1, True);
+
+/* Weenie - Portals - Shadow-Infested Black Spear Temple (33786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33786;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33786, 'ace33786-shadowinfestedblackspeartemple');
@@ -20415,6 +22299,9 @@ VALUES (33786, 13, True)
      , (33786, 19, True)
      , (33786, 1, True);
 
+/* Weenie - Portals - Arena 7 (34522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34522;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34522, 'ace34522-arena7');
 
@@ -20444,6 +22331,9 @@ VALUES (34522, 11, True)
      , (34522, 19, True)
      , (34522, 1, True);
 
+/* Weenie - Portals - Arena 8 (34523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34523;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34523, 'ace34523-arena8');
 
@@ -20472,6 +22362,9 @@ VALUES (34523, 11, True)
      , (34523, 14, True)
      , (34523, 19, True)
      , (34523, 1, True);
+
+/* Weenie - Portals - Smugglers Hideaway (5501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5501;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5501, 'portalsmugglershideaway');
@@ -20505,6 +22398,9 @@ VALUES (5501, 13, True)
      , (5501, 19, True)
      , (5501, 1, True);
 
+/* Weenie - Portals - Surface (5502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5502;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5502, 'portalsmugglershideawayexit');
 
@@ -20536,6 +22432,9 @@ VALUES (5502, 13, True)
      , (5502, 15, True)
      , (5502, 19, True)
      , (5502, 1, True);
+
+/* Weenie - Portals - Dericost Ruin (28714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28714;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28714, 'portaldericostruin');
@@ -20569,6 +22468,9 @@ VALUES (28714, 13, True)
      , (28714, 19, True)
      , (28714, 1, True);
 
+/* Weenie - Portals - Surface (28715) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28715;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28715, 'portaldericostruinexit');
 
@@ -20600,6 +22502,9 @@ VALUES (28715, 13, True)
      , (28715, 15, True)
      , (28715, 19, True)
      , (28715, 1, True);
+
+/* Weenie - Portals - Surface (29497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29497;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29497, 'portaleaterpitexit');
@@ -20633,6 +22538,9 @@ VALUES (29497, 13, True)
      , (29497, 19, True)
      , (29497, 1, True);
 
+/* Weenie - Portals - Silyun Chapterhouse (32695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32695;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32695, 'ace32695-silyunchapterhouse');
 
@@ -20664,6 +22572,9 @@ VALUES (32695, 13, True)
      , (32695, 15, True)
      , (32695, 19, True)
      , (32695, 1, True);
+
+/* Weenie - Portals - Surface (29499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29499;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29499, 'portalheartofmadnessexit');
@@ -20697,6 +22608,9 @@ VALUES (29499, 13, True)
      , (29499, 19, True)
      , (29499, 1, True);
 
+/* Weenie - Portals - Surface (29503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29503;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29503, 'portalkarlunhallexit');
 
@@ -20729,6 +22643,9 @@ VALUES (29503, 13, True)
      , (29503, 19, True)
      , (29503, 1, True);
 
+/* Weenie - Portals - Moist Hovel (29101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29101;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29101, 'portalmoisthovel');
 
@@ -20760,6 +22677,9 @@ VALUES (29101, 13, True)
      , (29101, 15, True)
      , (29101, 19, True)
      , (29101, 1, True);
+
+/* Weenie - Portals - Hoshino Tower (46620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46620;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46620, 'ace46620-hoshinotower');
@@ -20794,6 +22714,9 @@ VALUES (46620, 13, True)
      , (46620, 19, True)
      , (46620, 1, True);
 
+/* Weenie - Portals - Dark Design (30960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30960, 'portaldarkdesign');
 
@@ -20825,6 +22748,9 @@ VALUES (30960, 13, True)
      , (30960, 15, True)
      , (30960, 19, True)
      , (30960, 1, True);
+
+/* Weenie - Portals - Frozen Refuge (45727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45727, 'ace45727-frozenrefuge');
@@ -20858,6 +22784,9 @@ VALUES (45727, 13, True)
      , (45727, 19, True)
      , (45727, 1, True);
 
+/* Weenie - Portals - Surface (4926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4926;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4926, 'portalphyntosmenaceexit');
 
@@ -20888,6 +22817,9 @@ VALUES (4926, 13, True)
      , (4926, 15, True)
      , (4926, 19, True)
      , (4926, 1, True);
+
+/* Weenie - Portals - Falatacot Depot (47208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47208;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47208, 'ace47208-falatacotdepot');
@@ -20921,6 +22853,9 @@ VALUES (47208, 13, True)
      , (47208, 19, True)
      , (47208, 1, True);
 
+/* Weenie - Portals - Surface (2087) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2087;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2087, 'portalolthoilairexit');
 
@@ -20952,6 +22887,9 @@ VALUES (2087, 13, True)
      , (2087, 15, True)
      , (2087, 19, True)
      , (2087, 1, True);
+
+/* Weenie - Portals - Frost Guardian Lair (21418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21418;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21418, 'portalgaerlanguardianfrost');
@@ -20985,6 +22923,9 @@ VALUES (21418, 13, True)
      , (21418, 19, True)
      , (21418, 1, True);
 
+/* Weenie - Portals - Proving Grounds Low (21950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21950;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21950, 'portalprovinggroundsfloorlow');
 
@@ -21016,6 +22957,9 @@ VALUES (21950, 13, True)
      , (21950, 15, True)
      , (21950, 19, True)
      , (21950, 1, True);
+
+/* Weenie - Portals - Proving Grounds Low (21958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21958;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21958, 'portalprovinggroundssilencelow');
@@ -21049,6 +22993,9 @@ VALUES (21958, 13, True)
      , (21958, 19, True)
      , (21958, 1, True);
 
+/* Weenie - Portals - Citadel Valley (21405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21405;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21405, 'portalcitadelvalleyice');
 
@@ -21080,6 +23027,9 @@ VALUES (21405, 13, True)
      , (21405, 15, True)
      , (21405, 19, True)
      , (21405, 1, True);
+
+/* Weenie - Portals - Cells of the Black Book (32676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32676;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32676, 'ace32676-cellsoftheblackbook');
@@ -21113,6 +23063,9 @@ VALUES (32676, 13, True)
      , (32676, 19, True)
      , (32676, 1, True);
 
+/* Weenie - Portals - Cells of the Black Book (32677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32677;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32677, 'ace32677-cellsoftheblackbook');
 
@@ -21144,6 +23097,9 @@ VALUES (32677, 13, True)
      , (32677, 15, True)
      , (32677, 19, True)
      , (32677, 1, True);
+
+/* Weenie - Portals - Cells of the Black Book (32674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32674;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32674, 'ace32674-cellsoftheblackbook');
@@ -21177,6 +23133,9 @@ VALUES (32674, 13, True)
      , (32674, 19, True)
      , (32674, 1, True);
 
+/* Weenie - Portals - Cells of the Black Book (32675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32675;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32675, 'ace32675-cellsoftheblackbook');
 
@@ -21208,6 +23167,9 @@ VALUES (32675, 13, True)
      , (32675, 15, True)
      , (32675, 19, True)
      , (32675, 1, True);
+
+/* Weenie - Portals - Surface (32678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32678, 'ace32678-surface');
@@ -21241,6 +23203,9 @@ VALUES (32678, 13, True)
      , (32678, 19, True)
      , (32678, 1, True);
 
+/* Weenie - Portals - Surface (31435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31435, 'ace31435-surface');
 
@@ -21272,6 +23237,9 @@ VALUES (31435, 13, True)
      , (31435, 15, True)
      , (31435, 19, True)
      , (31435, 1, True);
+
+/* Weenie - Portals - Lost Desert Archive (31436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31436;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31436, 'ace31436-lostdesertarchive');
@@ -21305,6 +23273,9 @@ VALUES (31436, 13, True)
      , (31436, 19, True)
      , (31436, 1, True);
 
+/* Weenie - Portals - Surface (31437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31437;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31437, 'ace31437-surface');
 
@@ -21336,6 +23307,9 @@ VALUES (31437, 13, True)
      , (31437, 15, True)
      , (31437, 19, True)
      , (31437, 1, True);
+
+/* Weenie - Portals - Surface (31433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31433;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31433, 'ace31433-surface');
@@ -21369,6 +23343,9 @@ VALUES (31433, 13, True)
      , (31433, 19, True)
      , (31433, 1, True);
 
+/* Weenie - Portals - Serpent Burial Grounds (46336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46336;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46336, 'ace46336-serpentburialgrounds');
 
@@ -21400,6 +23377,9 @@ VALUES (46336, 13, True)
      , (46336, 15, True)
      , (46336, 19, True)
      , (46336, 1, True);
+
+/* Weenie - Portals - Hidden Laboratory (36611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36611;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36611, 'ace36611-hiddenlaboratory');
@@ -21433,6 +23413,9 @@ VALUES (36611, 13, True)
      , (36611, 19, True)
      , (36611, 1, True);
 
+/* Weenie - Portals - Surface (36612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36612;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36612, 'ace36612-surface');
 
@@ -21464,6 +23447,9 @@ VALUES (36612, 13, True)
      , (36612, 15, True)
      , (36612, 19, True)
      , (36612, 1, True);
+
+/* Weenie - Portals - Surface (48800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48800;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48800, 'ace48800-surface');
@@ -21497,6 +23483,9 @@ VALUES (48800, 13, True)
      , (48800, 19, True)
      , (48800, 1, True);
 
+/* Weenie - Portals - Surface (30694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30694;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30694, 'portalvilesanctuaryexit');
 
@@ -21528,6 +23517,9 @@ VALUES (30694, 13, True)
      , (30694, 15, True)
      , (30694, 19, True)
      , (30694, 1, True);
+
+/* Weenie - Portals - Surface (4942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4942;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4942, 'portalbanishedassemblyexit');
@@ -21561,6 +23553,9 @@ VALUES (4942, 13, True)
      , (4942, 19, True)
      , (4942, 1, True);
 
+/* Weenie - Portals - Ravaged Cathedral (30695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30695;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30695, 'portalravagedcathedral');
 
@@ -21592,6 +23587,9 @@ VALUES (30695, 13, True)
      , (30695, 15, True)
      , (30695, 19, True)
      , (30695, 1, True);
+
+/* Weenie - Portals - Surface (30692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30692;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30692, 'portalravagedcathedralexit');
@@ -21625,6 +23623,9 @@ VALUES (30692, 13, True)
      , (30692, 19, True)
      , (30692, 1, True);
 
+/* Weenie - Portals - Cataracts of Sabella (30380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30380;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30380, 'portalhalaetanwaterfall');
 
@@ -21656,6 +23657,9 @@ VALUES (30380, 13, True)
      , (30380, 15, True)
      , (30380, 19, True)
      , (30380, 1, True);
+
+/* Weenie - Portals - Waterfall Cave (28796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28796;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28796, 'portalwaterfallcave');
@@ -21689,6 +23693,9 @@ VALUES (28796, 13, True)
      , (28796, 19, True)
      , (28796, 1, True);
 
+/* Weenie - Portals - Surface (28797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28797;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28797, 'portalwaterfallcaveexit');
 
@@ -21720,6 +23727,9 @@ VALUES (28797, 13, True)
      , (28797, 15, True)
      , (28797, 19, True)
      , (28797, 1, True);
+
+/* Weenie - Portals - Remote Empyrean Vault (28782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28782;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28782, 'portalremoteempvault');
@@ -21753,6 +23763,9 @@ VALUES (28782, 13, True)
      , (28782, 19, True)
      , (28782, 1, True);
 
+/* Weenie - Portals - Surface (28783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28783;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28783, 'portalremoteempvaultexit');
 
@@ -21784,6 +23797,9 @@ VALUES (28783, 13, True)
      , (28783, 15, True)
      , (28783, 19, True)
      , (28783, 1, True);
+
+/* Weenie - Portals - Viamontian Garrison (28795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28795;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28795, 'portalviamontiangarrison');
@@ -21817,6 +23833,9 @@ VALUES (28795, 13, True)
      , (28795, 19, True)
      , (28795, 1, True);
 
+/* Weenie - Portals - Surface (28800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28800;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28800, 'portalviamontiangarrisonexit');
 
@@ -21848,6 +23867,9 @@ VALUES (28800, 13, True)
      , (28800, 15, True)
      , (28800, 19, True)
      , (28800, 1, True);
+
+/* Weenie - Portals - Lola's Den (28798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28798;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28798, 'portallolasden');
@@ -21881,6 +23903,9 @@ VALUES (28798, 13, True)
      , (28798, 19, True)
      , (28798, 1, True);
 
+/* Weenie - Portals - Surface (28799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28799;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28799, 'portallolasdenexit');
 
@@ -21912,6 +23937,9 @@ VALUES (28799, 13, True)
      , (28799, 15, True)
      , (28799, 19, True)
      , (28799, 1, True);
+
+/* Weenie - Portals - Foundry of Izexi (47155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47155;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47155, 'ace47155-foundryofizexi');
@@ -21945,6 +23973,9 @@ VALUES (47155, 13, True)
      , (47155, 19, True)
      , (47155, 1, True);
 
+/* Weenie - Portals - Temple Trial (45801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45801;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45801, 'ace45801-templetrial');
 
@@ -21976,6 +24007,9 @@ VALUES (45801, 13, True)
      , (45801, 15, True)
      , (45801, 19, True)
      , (45801, 1, True);
+
+/* Weenie - Portals - Surface (45800) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45800;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45800, 'ace45800-surface');
@@ -22009,6 +24043,9 @@ VALUES (45800, 13, True)
      , (45800, 19, True)
      , (45800, 1, True);
 
+/* Weenie - Portals - Mt. Alphus Valley (434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 434;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (434, 'portalalphusvalley');
 
@@ -22040,6 +24077,9 @@ VALUES (434, 13, True)
      , (434, 15, True)
      , (434, 19, True)
      , (434, 1, True);
+
+/* Weenie - Portals - Top of Zabool Tower (370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 370;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (370, 'portalzabooltowertop');
@@ -22073,6 +24113,9 @@ VALUES (370, 13, True)
      , (370, 19, True)
      , (370, 1, True);
 
+/* Weenie - Portals - Zabool Tower Base (368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 368;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (368, 'portalzabooltowerbase');
 
@@ -22104,6 +24147,9 @@ VALUES (368, 13, True)
      , (368, 15, True)
      , (368, 19, True)
      , (368, 1, True);
+
+/* Weenie - Portals - Deeper Catacombs (35739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35739;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35739, 'ace35739-deepercatacombs');
@@ -22137,6 +24183,9 @@ VALUES (35739, 13, True)
      , (35739, 19, True)
      , (35739, 1, True);
 
+/* Weenie - Portals - Lower Corridor (24329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24329, 'portalblackdeathbotst2');
 
@@ -22169,6 +24218,9 @@ VALUES (24329, 13, True)
      , (24329, 19, True)
      , (24329, 1, True);
 
+/* Weenie - Portals - Collegium Acumen Manim Conveyance (24003) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24003;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24003, 'trapportal-knorracumen');
 
@@ -22196,6 +24248,9 @@ VALUES (24003, 13, True)
      , (24003, 15, True)
      , (24003, 19, True)
      , (24003, 1, True);
+
+/* Weenie - Portals - Research Chambers Conveyance (24007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24007;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24007, 'trapportal-knorrdepths');
@@ -22225,6 +24280,9 @@ VALUES (24007, 13, True)
      , (24007, 19, True)
      , (24007, 1, True);
 
+/* Weenie - Portals - Forge Conveyance (24015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24015;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24015, 'trapportal-knorrforge');
 
@@ -22252,6 +24310,9 @@ VALUES (24015, 13, True)
      , (24015, 15, True)
      , (24015, 19, True)
      , (24015, 1, True);
+
+/* Weenie - Portals - Collegium Aegis Medi Conveyance (24022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24022;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24022, 'trapportal-knorrmedi');
@@ -22281,6 +24342,9 @@ VALUES (24022, 13, True)
      , (24022, 19, True)
      , (24022, 1, True);
 
+/* Weenie - Portals - Collegium Organis Conveyance (24023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24023;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24023, 'trapportal-knorrorganis');
 
@@ -22308,6 +24372,9 @@ VALUES (24023, 13, True)
      , (24023, 15, True)
      , (24023, 19, True)
      , (24023, 1, True);
+
+/* Weenie - Portals - West Library Conveyance (24021) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24021;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24021, 'trapportal-knorrlibrarywest');
@@ -22337,6 +24404,9 @@ VALUES (24021, 13, True)
      , (24021, 19, True)
      , (24021, 1, True);
 
+/* Weenie - Portals - Collegium Artificae Conveyance (24004) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24004;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24004, 'trapportal-knorrartificae');
 
@@ -22364,6 +24434,9 @@ VALUES (24004, 13, True)
      , (24004, 15, True)
      , (24004, 19, True)
      , (24004, 1, True);
+
+/* Weenie - Portals - Collegium Heiromancy Conveyance (24017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24017;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24017, 'trapportal-knorrheiromancy');
@@ -22393,6 +24466,9 @@ VALUES (24017, 13, True)
      , (24017, 19, True)
      , (24017, 1, True);
 
+/* Weenie - Portals - Alaidain Dormitory Conveyance (24009) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24009;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24009, 'trapportal-knorrdormalaidain');
 
@@ -22420,6 +24496,9 @@ VALUES (24009, 13, True)
      , (24009, 15, True)
      , (24009, 19, True)
      , (24009, 1, True);
+
+/* Weenie - Portals - Collegium Planar Abstraction Conveyance (24024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24024;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24024, 'trapportal-knorrplanar');
@@ -22449,6 +24528,9 @@ VALUES (24024, 13, True)
      , (24024, 19, True)
      , (24024, 1, True);
 
+/* Weenie - Portals - East Library Conveyance (24018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24018, 'trapportal-knorrlibraryeast');
 
@@ -22476,6 +24558,9 @@ VALUES (24018, 13, True)
      , (24018, 15, True)
      , (24018, 19, True)
      , (24018, 1, True);
+
+/* Weenie - Portals - Collegium Geomancy Conveyance (24016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24016;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24016, 'trapportal-knorrgeomancy');
@@ -22505,6 +24590,9 @@ VALUES (24016, 13, True)
      , (24016, 19, True)
      , (24016, 1, True);
 
+/* Weenie - Portals - Collegium Conjurae Conveyance (24006) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24006;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24006, 'trapportal-knorrconjure');
 
@@ -22532,6 +24620,9 @@ VALUES (24006, 13, True)
      , (24006, 15, True)
      , (24006, 19, True)
      , (24006, 1, True);
+
+/* Weenie - Portals - Atlan Dormitory Conveyance (24010) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24010;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24010, 'trapportal-knorrdormatlan');
@@ -22561,6 +24652,9 @@ VALUES (24010, 13, True)
      , (24010, 19, True)
      , (24010, 1, True);
 
+/* Weenie - Portals - South Library Conveyance (24020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24020;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24020, 'trapportal-knorrlibrarysouth');
 
@@ -22588,6 +24682,9 @@ VALUES (24020, 13, True)
      , (24020, 15, True)
      , (24020, 19, True)
      , (24020, 1, True);
+
+/* Weenie - Portals - Collegium Prae Auspi Conveyance (24008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24008;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24008, 'trapportal-knorrdivine');
@@ -22617,6 +24714,9 @@ VALUES (24008, 13, True)
      , (24008, 19, True)
      , (24008, 1, True);
 
+/* Weenie - Portals - Collegium Ignae Fatae Conveyance (24014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24014;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24014, 'trapportal-knorrfatae');
 
@@ -22644,6 +24744,9 @@ VALUES (24014, 13, True)
      , (24014, 15, True)
      , (24014, 19, True)
      , (24014, 1, True);
+
+/* Weenie - Portals - Caerlin Dormitory Conveyance (24011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24011;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24011, 'trapportal-knorrdormcaerlin');
@@ -22673,6 +24776,9 @@ VALUES (24011, 13, True)
      , (24011, 19, True)
      , (24011, 1, True);
 
+/* Weenie - Portals - Maila Dormitory Conveyance (24012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24012;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24012, 'trapportal-knorrdrommaila');
 
@@ -22700,6 +24806,9 @@ VALUES (24012, 13, True)
      , (24012, 15, True)
      , (24012, 19, True)
      , (24012, 1, True);
+
+/* Weenie - Portals - Collegium Occultus Anteroom (32281) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32281;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32281, 'ace32281-collegiumoccultusanteroom');
@@ -22733,6 +24842,9 @@ VALUES (32281, 13, True)
      , (32281, 19, True)
      , (32281, 1, True);
 
+/* Weenie - Portals - North Library Conveyance (24019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24019;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24019, 'trapportal-knorrlibrarynorth');
 
@@ -22760,6 +24872,9 @@ VALUES (24019, 13, True)
      , (24019, 15, True)
      , (24019, 19, True)
      , (24019, 1, True);
+
+/* Weenie - Portals - Collegium Entropica Conveyance (24013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24013;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24013, 'trapportal-knorrentropic');
@@ -22789,6 +24904,9 @@ VALUES (24013, 13, True)
      , (24013, 19, True)
      , (24013, 1, True);
 
+/* Weenie - Portals - Barracks Conveyance (24005) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24005;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24005, 'trapportal-knorrbarracks');
 
@@ -22816,6 +24934,9 @@ VALUES (24005, 13, True)
      , (24005, 15, True)
      , (24005, 19, True)
      , (24005, 1, True);
+
+/* Weenie - Portals - Collegium Tempae Invectae Conveyance (24026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24026;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24026, 'trapportal-knorrstorm');
@@ -22845,6 +24966,9 @@ VALUES (24026, 13, True)
      , (24026, 19, True)
      , (24026, 1, True);
 
+/* Weenie - Portals - Seat of Knorr Conveyance (24025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24025;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24025, 'trapportal-knorrseat');
 
@@ -22872,6 +24996,9 @@ VALUES (24025, 13, True)
      , (24025, 15, True)
      , (24025, 19, True)
      , (24025, 1, True);
+
+/* Weenie - Portals - Planar Academy Lecture Hall (36939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36939;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36939, 'ace36939-planaracademylecturehall');
@@ -22901,6 +25028,9 @@ VALUES (36939, 13, True)
      , (36939, 19, True)
      , (36939, 1, True);
 
+/* Weenie - Portals - Planar Academy Headmaster's Rooms (36940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36940;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36940, 'ace36940-planaracademyheadmastersrooms');
 
@@ -22928,6 +25058,9 @@ VALUES (36940, 13, True)
      , (36940, 15, True)
      , (36940, 19, True)
      , (36940, 1, True);
+
+/* Weenie - Portals - Quiddity Seed (36769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36769;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36769, 'ace36769-quiddityseed');
@@ -22968,6 +25101,9 @@ VALUES (36769, 0, 83893820, 83893819);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36769, 0, 16787401);
 
+/* Weenie - Portals - Surface (51570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51570;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51570, 'ace51570-surface');
 
@@ -22999,6 +25135,9 @@ VALUES (51570, 13, True)
      , (51570, 15, True)
      , (51570, 19, True)
      , (51570, 1, True);
+
+/* Weenie - Portals - Surface (51565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51565;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51565, 'ace51565-surface');
@@ -23032,6 +25171,9 @@ VALUES (51565, 13, True)
      , (51565, 19, True)
      , (51565, 1, True);
 
+/* Weenie - Portals - Surface (51911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51911;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51911, 'ace51911-surface');
 
@@ -23063,6 +25205,9 @@ VALUES (51911, 13, True)
      , (51911, 15, True)
      , (51911, 19, True)
      , (51911, 1, True);
+
+/* Weenie - Portals - Presk's Treasury (51912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51912;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51912, 'ace51912-preskstreasury');
@@ -23096,6 +25241,9 @@ VALUES (51912, 13, True)
      , (51912, 19, True)
      , (51912, 1, True);
 
+/* Weenie - Portals - Surface (51670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51670;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51670, 'ace51670-surface');
 
@@ -23128,6 +25276,9 @@ VALUES (51670, 13, True)
      , (51670, 19, True)
      , (51670, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 2 (52593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52593, 'ace52593-gauntletstage2');
 
@@ -23156,6 +25307,9 @@ VALUES (52593, 11, True)
      , (52593, 14, True)
      , (52593, 19, True)
      , (52593, 1, True);
+
+/* Weenie - Portals - Gauntlet Stage 3 (52610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52610;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52610, 'ace52610-gauntletstage3');
@@ -23186,6 +25340,9 @@ VALUES (52610, 11, True)
      , (52610, 19, True)
      , (52610, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 4 (52611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52611;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52611, 'ace52611-gauntletstage4');
 
@@ -23214,6 +25371,9 @@ VALUES (52611, 11, True)
      , (52611, 14, True)
      , (52611, 19, True)
      , (52611, 1, True);
+
+/* Weenie - Portals - Gauntlet Stage 6 (52655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52655;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52655, 'ace52655-gauntletstage6');
@@ -23244,6 +25404,9 @@ VALUES (52655, 11, True)
      , (52655, 19, True)
      , (52655, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 7 (52656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52656;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52656, 'ace52656-gauntletstage7');
 
@@ -23272,6 +25435,9 @@ VALUES (52656, 11, True)
      , (52656, 14, True)
      , (52656, 19, True)
      , (52656, 1, True);
+
+/* Weenie - Portals - Gauntlet Stage 8 (52658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52658;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52658, 'ace52658-gauntletstage8');
@@ -23302,6 +25468,9 @@ VALUES (52658, 11, True)
      , (52658, 19, True)
      , (52658, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 9 (52659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52659;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52659, 'ace52659-gauntletstage9');
 
@@ -23330,6 +25499,9 @@ VALUES (52659, 11, True)
      , (52659, 14, True)
      , (52659, 19, True)
      , (52659, 1, True);
+
+/* Weenie - Portals - Catacombs (44350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44350;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44350, 'ace44350-catacombs');
@@ -23363,6 +25535,9 @@ VALUES (44350, 13, True)
      , (44350, 19, True)
      , (44350, 1, True);
 
+/* Weenie - Portals - Catacombs (44450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44450, 'ace44450-catacombs');
 
@@ -23394,6 +25569,9 @@ VALUES (44450, 13, True)
      , (44450, 15, True)
      , (44450, 19, True)
      , (44450, 1, True);
+
+/* Weenie - Portals - Exit to Surface (44349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44349;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44349, 'ace44349-exittosurface');
@@ -23427,6 +25605,9 @@ VALUES (44349, 13, True)
      , (44349, 19, True)
      , (44349, 1, True);
 
+/* Weenie - Portals - War Room (30660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30660;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30660, 'portalwarroom');
 
@@ -23458,6 +25639,9 @@ VALUES (30660, 13, True)
      , (30660, 15, True)
      , (30660, 19, True)
      , (30660, 1, True);
+
+/* Weenie - Portals - Escape Route (30661) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30661;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30661, 'portalwarroomexit');
@@ -23491,6 +25675,9 @@ VALUES (30661, 13, True)
      , (30661, 19, True)
      , (30661, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 1 (52678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52678;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52678, 'ace52678-gauntletstage1');
 
@@ -23519,6 +25706,9 @@ VALUES (52678, 11, True)
      , (52678, 14, True)
      , (52678, 19, True)
      , (52678, 1, True);
+
+/* Weenie - Portals - Surface (1340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1340;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1340, 'portalmosschamberexit');
@@ -23552,6 +25742,9 @@ VALUES (1340, 13, True)
      , (1340, 19, True)
      , (1340, 1, True);
 
+/* Weenie - Portals - Moss Chamber (9166) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9166;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9166, 'portalmartinelair');
 
@@ -23583,6 +25776,9 @@ VALUES (9166, 13, True)
      , (9166, 15, True)
      , (9166, 19, True)
      , (9166, 1, True);
+
+/* Weenie - Portals - Surface (9167) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9167;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9167, 'portalmartinelairexit');
@@ -23616,6 +25812,9 @@ VALUES (9167, 13, True)
      , (9167, 19, True)
      , (9167, 1, True);
 
+/* Weenie - Portals - Antechamber (51367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51367;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51367, 'ace51367-antechamber');
 
@@ -23647,6 +25846,9 @@ VALUES (51367, 13, True)
      , (51367, 15, True)
      , (51367, 19, True)
      , (51367, 1, True);
+
+/* Weenie - Portals - Surface (51320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51320;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51320, 'ace51320-surface');
@@ -23680,6 +25882,9 @@ VALUES (51320, 13, True)
      , (51320, 19, True)
      , (51320, 1, True);
 
+/* Weenie - Portals - Testing Grounds (51369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51369, 'ace51369-testinggrounds');
 
@@ -23711,6 +25916,9 @@ VALUES (51369, 13, True)
      , (51369, 15, True)
      , (51369, 19, True)
      , (51369, 1, True);
+
+/* Weenie - Portals - Laboratory (51368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51368;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51368, 'ace51368-laboratory');
@@ -23744,6 +25952,9 @@ VALUES (51368, 13, True)
      , (51368, 19, True)
      , (51368, 1, True);
 
+/* Weenie - Portals - Arcanum Research Facility (19726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19726, 'portalarcanumresearchfacility');
 
@@ -23775,6 +25986,9 @@ VALUES (19726, 13, True)
      , (19726, 15, True)
      , (19726, 19, True)
      , (19726, 1, True);
+
+/* Weenie - Portals - Surface (19727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19727;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19727, 'portalarcanumresearchfacilityexit');
@@ -23808,6 +26022,9 @@ VALUES (19727, 13, True)
      , (19727, 19, True)
      , (19727, 1, True);
 
+/* Weenie - Portals - Singular Chorizite Repository (12290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12290;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12290, 'portalchoriziterepository');
 
@@ -23839,6 +26056,9 @@ VALUES (12290, 13, True)
      , (12290, 15, True)
      , (12290, 19, True)
      , (12290, 1, True);
+
+/* Weenie - Portals - Altar Nest (33516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33516;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33516, 'ace33516-altarnest');
@@ -23872,6 +26092,9 @@ VALUES (33516, 13, True)
      , (33516, 19, True)
      , (33516, 1, True);
 
+/* Weenie - Portals - Samurai Hausu (49449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49449, 'ace49449-samuraihausu');
 
@@ -23903,6 +26126,9 @@ VALUES (49449, 13, True)
      , (49449, 15, True)
      , (49449, 19, True)
      , (49449, 1, True);
+
+/* Weenie - Portals - Hoshino Tower (46619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46619;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46619, 'ace46619-hoshinotower');
@@ -23937,6 +26163,9 @@ VALUES (46619, 13, True)
      , (46619, 19, True)
      , (46619, 1, True);
 
+/* Weenie - Portals - Nanjou Shou-jen Academy (46545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46545, 'ace46545-nanjoushoujenacademy');
 
@@ -23968,6 +26197,9 @@ VALUES (46545, 13, True)
      , (46545, 15, True)
      , (46545, 19, True)
      , (46545, 1, True);
+
+/* Weenie - Portals - Venerable Mausoleum (46440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46440;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46440, 'ace46440-venerablemausoleum');
@@ -24001,6 +26233,9 @@ VALUES (46440, 13, True)
      , (46440, 19, True)
      , (46440, 1, True);
 
+/* Weenie - Portals - Surface (46452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46452;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46452, 'ace46452-surface');
 
@@ -24032,6 +26267,9 @@ VALUES (46452, 13, True)
      , (46452, 15, True)
      , (46452, 19, True)
      , (46452, 1, True);
+
+/* Weenie - Portals - Surface (46675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46675;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46675, 'ace46675-surface');
@@ -24065,6 +26303,9 @@ VALUES (46675, 13, True)
      , (46675, 19, True)
      , (46675, 1, True);
 
+/* Weenie - Portals - Falatacot Temple (46597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46597;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46597, 'ace46597-falatacottemple');
 
@@ -24096,6 +26337,9 @@ VALUES (46597, 13, True)
      , (46597, 15, True)
      , (46597, 19, True)
      , (46597, 1, True);
+
+/* Weenie - Portals - Great Hall (46590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46590;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46590, 'ace46590-greathall');
@@ -24130,6 +26374,9 @@ VALUES (46590, 13, True)
      , (46590, 1, True)
      , (46590, 24, True);
 
+/* Weenie - Portals - Plateau Top (2549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2549;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2549, 'portalplateautop');
 
@@ -24161,6 +26408,9 @@ VALUES (2549, 13, True)
      , (2549, 15, True)
      , (2549, 19, True)
      , (2549, 1, True);
+
+/* Weenie - Portals - Renegade Stronghold (27696) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27696;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27696, 'portalrenegadestonehold');
@@ -24194,6 +26444,9 @@ VALUES (27696, 13, True)
      , (27696, 19, True)
      , (27696, 1, True);
 
+/* Weenie - Portals - Black Spear Temple (33780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33780;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33780, 'ace33780-blackspeartemple');
 
@@ -24225,6 +26478,9 @@ VALUES (33780, 13, True)
      , (33780, 15, True)
      , (33780, 19, True)
      , (33780, 1, True);
+
+/* Weenie - Portals - Surface (3629) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3629;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3629, 'portalpitexit');
@@ -24258,6 +26514,9 @@ VALUES (3629, 13, True)
      , (3629, 19, True)
      , (3629, 1, True);
 
+/* Weenie - Portals - Olthoi Brood Hive (24633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24633;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24633, 'portalolthoihivehigh');
 
@@ -24289,6 +26548,9 @@ VALUES (24633, 13, True)
      , (24633, 15, True)
      , (24633, 19, True)
      , (24633, 1, True);
+
+/* Weenie - Portals - Lower Corridor (24330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24330;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24330, 'portalblackdeathbotst3');
@@ -24322,6 +26584,9 @@ VALUES (24330, 13, True)
      , (24330, 19, True)
      , (24330, 1, True);
 
+/* Weenie - Portals - Lower Corridor (24328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24328, 'portalblackdeathbotst1');
 
@@ -24353,6 +26618,9 @@ VALUES (24328, 13, True)
      , (24328, 15, True)
      , (24328, 19, True)
      , (24328, 1, True);
+
+/* Weenie - Portals - Upper Corridor (24334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24334;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24334, 'portalblackdeathtopst2');
@@ -24386,6 +26654,9 @@ VALUES (24334, 13, True)
      , (24334, 19, True)
      , (24334, 1, True);
 
+/* Weenie - Portals - Upper Corridor (24336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24336;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24336, 'portalblackdeathtopst4');
 
@@ -24417,6 +26688,9 @@ VALUES (24336, 13, True)
      , (24336, 15, True)
      , (24336, 19, True)
      , (24336, 1, True);
+
+/* Weenie - Portals - Upper Corridor (24337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24337;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24337, 'portalblackdeathtopst5');
@@ -24450,6 +26724,9 @@ VALUES (24337, 13, True)
      , (24337, 19, True)
      , (24337, 1, True);
 
+/* Weenie - Portals - Deeper Catacombs (24226) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24226;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24226, 'portalblackdeathexpansion');
 
@@ -24481,6 +26758,9 @@ VALUES (24226, 13, True)
      , (24226, 15, True)
      , (24226, 19, True)
      , (24226, 1, True);
+
+/* Weenie - Portals - Catacombs of Opposition (24227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24227;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24227, 'portalcatacombsofopposition');
@@ -24514,6 +26794,9 @@ VALUES (24227, 13, True)
      , (24227, 19, True)
      , (24227, 1, True);
 
+/* Weenie - Portals - Bandit Castle (31341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31341, 'ace31341-banditcastle');
 
@@ -24545,6 +26828,9 @@ VALUES (31341, 13, True)
      , (31341, 15, True)
      , (31341, 19, True)
      , (31341, 1, True);
+
+/* Weenie - Portals - South Tumerok Vanguard Outpost (9143) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9143;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9143, 'portaltumerokvanguardsouth');
@@ -24578,6 +26864,9 @@ VALUES (9143, 13, True)
      , (9143, 19, True)
      , (9143, 1, True);
 
+/* Weenie - Portals - Surface (9144) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9144;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9144, 'portaltumerokvanguardsouthexit');
 
@@ -24609,6 +26898,9 @@ VALUES (9144, 13, True)
      , (9144, 15, True)
      , (9144, 19, True)
      , (9144, 1, True);
+
+/* Weenie - Portals - Surface (15777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15777;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15777, 'portalgeliditelibraryexit');
@@ -24642,6 +26934,9 @@ VALUES (15777, 13, True)
      , (15777, 19, True)
      , (15777, 1, True);
 
+/* Weenie - Portals - Labyrinth (15778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15778;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15778, 'portallabyrinth');
 
@@ -24673,6 +26968,9 @@ VALUES (15778, 13, True)
      , (15778, 15, True)
      , (15778, 19, True)
      , (15778, 1, True);
+
+/* Weenie - Portals - Oubliette (15779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15779;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15779, 'portaloubliette');
@@ -24706,6 +27004,9 @@ VALUES (15779, 13, True)
      , (15779, 19, True)
      , (15779, 1, True);
 
+/* Weenie - Portals - Xi Ru's Chapel (28981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28981;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28981, 'portalchapelxiru');
 
@@ -24737,6 +27038,9 @@ VALUES (28981, 13, True)
      , (28981, 15, True)
      , (28981, 19, True)
      , (28981, 1, True);
+
+/* Weenie - Portals - Roots of the Deru Tree (37068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37068;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37068, 'ace37068-rootsofthederutree');
@@ -24770,6 +27074,9 @@ VALUES (37068, 13, True)
      , (37068, 19, True)
      , (37068, 1, True);
 
+/* Weenie - Portals - Xi Ru's Chapel Exterior (28982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28982;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28982, 'portalchapelxiruexit');
 
@@ -24801,6 +27108,9 @@ VALUES (28982, 13, True)
      , (28982, 15, True)
      , (28982, 19, True)
      , (28982, 1, True);
+
+/* Weenie - Portals - Xi Ru's Crypt (29959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29959;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29959, 'portalcryptxiru');
@@ -24834,6 +27144,9 @@ VALUES (29959, 13, True)
      , (29959, 19, True)
      , (29959, 1, True);
 
+/* Weenie - Portals - Xi Ru's Library (29960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29960, 'portallibraryxiru');
 
@@ -24865,6 +27178,9 @@ VALUES (29960, 13, True)
      , (29960, 15, True)
      , (29960, 19, True)
      , (29960, 1, True);
+
+/* Weenie - Portals - Realaidain Eastern Vault (34542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34542;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34542, 'ace34542-realaidaineasternvault');
@@ -24898,6 +27214,9 @@ VALUES (34542, 13, True)
      , (34542, 19, True)
      , (34542, 1, True);
 
+/* Weenie - Portals - Surface (34543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34543;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34543, 'ace34543-surface');
 
@@ -24929,6 +27248,9 @@ VALUES (34543, 13, True)
      , (34543, 15, True)
      , (34543, 19, True)
      , (34543, 1, True);
+
+/* Weenie - Portals - Realaidain Northern Vault (34544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34544;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34544, 'ace34544-realaidainnorthernvault');
@@ -24962,6 +27284,9 @@ VALUES (34544, 13, True)
      , (34544, 19, True)
      , (34544, 1, True);
 
+/* Weenie - Portals - Surface (34539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34539;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34539, 'ace34539-surface');
 
@@ -24993,6 +27318,9 @@ VALUES (34539, 13, True)
      , (34539, 15, True)
      , (34539, 19, True)
      , (34539, 1, True);
+
+/* Weenie - Portals - Realaidain Western Vault (34540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34540;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34540, 'ace34540-realaidainwesternvault');
@@ -25026,6 +27354,9 @@ VALUES (34540, 13, True)
      , (34540, 19, True)
      , (34540, 1, True);
 
+/* Weenie - Portals - Surface (34541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34541;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34541, 'ace34541-surface');
 
@@ -25057,6 +27388,9 @@ VALUES (34541, 13, True)
      , (34541, 15, True)
      , (34541, 19, True)
      , (34541, 1, True);
+
+/* Weenie - Portals - Kor-Gursha  (34844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34844;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34844, 'ace34844-korgursha');
@@ -25090,6 +27424,9 @@ VALUES (34844, 13, True)
      , (34844, 19, True)
      , (34844, 1, True);
 
+/* Weenie - Portals - Muggy Guruk Caverns (34771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34771;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34771, 'ace34771-muggygurukcaverns');
 
@@ -25121,6 +27458,9 @@ VALUES (34771, 13, True)
      , (34771, 15, True)
      , (34771, 19, True)
      , (34771, 1, True);
+
+/* Weenie - Portals - Eastern Catacombs (34831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34831;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34831, 'ace34831-easterncatacombs');
@@ -25154,6 +27494,9 @@ VALUES (34831, 13, True)
      , (34831, 19, True)
      , (34831, 1, True);
 
+/* Weenie - Portals - Southern Catacombs (34827) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34827;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34827, 'ace34827-southerncatacombs');
 
@@ -25185,6 +27528,9 @@ VALUES (34827, 13, True)
      , (34827, 15, True)
      , (34827, 19, True)
      , (34827, 1, True);
+
+/* Weenie - Portals - Northern Catacombs (34829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34829;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34829, 'ace34829-northerncatacombs');
@@ -25218,6 +27564,9 @@ VALUES (34829, 13, True)
      , (34829, 19, True)
      , (34829, 1, True);
 
+/* Weenie - Portals - Southern Catacombs Exit (34828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34828;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34828, 'ace34828-southerncatacombsexit');
 
@@ -25249,6 +27598,9 @@ VALUES (34828, 13, True)
      , (34828, 15, True)
      , (34828, 19, True)
      , (34828, 1, True);
+
+/* Weenie - Portals - Temple of the Three, Ritual Chambers (35801) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35801;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35801, 'ace35801-templeofthethreeritualchambers');
@@ -25282,6 +27634,9 @@ VALUES (35801, 13, True)
      , (35801, 19, True)
      , (35801, 1, True);
 
+/* Weenie - Portals - Deep Guruk Caverns (34767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34767, 'ace34767-deepgurukcaverns');
 
@@ -25313,6 +27668,9 @@ VALUES (34767, 13, True)
      , (34767, 15, True)
      , (34767, 19, True)
      , (34767, 1, True);
+
+/* Weenie - Portals - Cavern Exit (34768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34768;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34768, 'ace34768-cavernexit');
@@ -25346,6 +27704,9 @@ VALUES (34768, 13, True)
      , (34768, 19, True)
      , (34768, 1, True);
 
+/* Weenie - Portals - Temple of the Three (35037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35037;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35037, 'ace35037-templeofthethree');
 
@@ -25377,6 +27738,9 @@ VALUES (35037, 13, True)
      , (35037, 15, True)
      , (35037, 19, True)
      , (35037, 1, True);
+
+/* Weenie - Portals - Ritual Chambers (35039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35039;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35039, 'ace35039-ritualchambers');
@@ -25410,6 +27774,9 @@ VALUES (35039, 13, True)
      , (35039, 19, True)
      , (35039, 1, True);
 
+/* Weenie - Portals - Bur Catacombs (35038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35038;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35038, 'ace35038-burcatacombs');
 
@@ -25441,6 +27808,9 @@ VALUES (35038, 13, True)
      , (35038, 15, True)
      , (35038, 19, True)
      , (35038, 1, True);
+
+/* Weenie - Portals - Return to Linvak Tukal (35484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35484;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35484, 'ace35484-returntolinvaktukal');
@@ -25474,6 +27844,9 @@ VALUES (35484, 13, True)
      , (35484, 19, True)
      , (35484, 1, True);
 
+/* Weenie - Portals - Trials of the Arm, Mind and Heart (36698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36698;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36698, 'ace36698-trialsofthearmmindandheart');
 
@@ -25505,6 +27878,9 @@ VALUES (36698, 13, True)
      , (36698, 15, True)
      , (36698, 19, True)
      , (36698, 1, True);
+
+/* Weenie - Portals - Trial of the Arm (36699) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36699;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36699, 'ace36699-trialofthearm');
@@ -25538,6 +27914,9 @@ VALUES (36699, 13, True)
      , (36699, 19, True)
      , (36699, 1, True);
 
+/* Weenie - Portals - Trial of the Mind (36701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36701;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36701, 'ace36701-trialofthemind');
 
@@ -25569,6 +27948,9 @@ VALUES (36701, 13, True)
      , (36701, 15, True)
      , (36701, 19, True)
      , (36701, 1, True);
+
+/* Weenie - Portals - Saadia's Retreat (5530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5530;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5530, 'portalsaadiaruins');
@@ -25602,6 +27984,9 @@ VALUES (5530, 13, True)
      , (5530, 19, True)
      , (5530, 1, True);
 
+/* Weenie - Portals - South Osteth Peak (39747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39747;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39747, 'ace39747-southostethpeak');
 
@@ -25632,6 +28017,9 @@ VALUES (39747, 13, True)
      , (39747, 15, True)
      , (39747, 19, True)
      , (39747, 1, True);
+
+/* Weenie - Portals - Firebird's Splendor (25835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25835;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25835, 'portalfirebirdemptysoul');
@@ -25665,6 +28053,9 @@ VALUES (25835, 13, True)
      , (25835, 19, True)
      , (25835, 1, True);
 
+/* Weenie - Portals - Surface (28712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28712;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28712, 'portalviamontiantorturechamberexit');
 
@@ -25696,6 +28087,9 @@ VALUES (28712, 13, True)
      , (28712, 15, True)
      , (28712, 19, True)
      , (28712, 1, True);
+
+/* Weenie - Portals - Small Empyrean Vault (28780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28780;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28780, 'portalsmallempvault');
@@ -25729,6 +28123,9 @@ VALUES (28780, 13, True)
      , (28780, 19, True)
      , (28780, 1, True);
 
+/* Weenie - Portals - Augmentation Realm Upper Level (30061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30061;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30061, 'portalaugmentationrealmupper');
 
@@ -25760,6 +28157,9 @@ VALUES (30061, 13, True)
      , (30061, 15, True)
      , (30061, 19, True)
      , (30061, 1, True);
+
+/* Weenie - Portals - Elemental Caverns (25605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25605;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25605, 'portalelementalcaverns');
@@ -25793,6 +28193,9 @@ VALUES (25605, 13, True)
      , (25605, 19, True)
      , (25605, 1, True);
 
+/* Weenie - Portals - Facility Entrance (40878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40878;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40878, 'ace40878-facilityentrance');
 
@@ -25824,6 +28227,9 @@ VALUES (40878, 13, True)
      , (40878, 15, True)
      , (40878, 19, True)
      , (40878, 1, True);
+
+/* Weenie - Portals - Swamp Temple (2556) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2556;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2556, 'portalswampdirelands');
@@ -25857,6 +28263,9 @@ VALUES (2556, 13, True)
      , (2556, 19, True)
      , (2556, 1, True);
 
+/* Weenie - Portals - Malignant Tabernacle (14886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14886;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14886, 'portalmalignanttabernacle');
 
@@ -25888,6 +28297,9 @@ VALUES (14886, 13, True)
      , (14886, 15, True)
      , (14886, 19, True)
      , (14886, 1, True);
+
+/* Weenie - Portals - Western Power Forge (30470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30470;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30470, 'portalpowerforgewest');
@@ -25921,6 +28333,9 @@ VALUES (30470, 13, True)
      , (30470, 19, True)
      , (30470, 1, True);
 
+/* Weenie - Portals - Surface (25976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25976;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25976, 'portaldecrepittowersurface');
 
@@ -25952,6 +28367,9 @@ VALUES (25976, 13, True)
      , (25976, 15, True)
      , (25976, 19, True)
      , (25976, 1, True);
+
+/* Weenie - Portals - Decrepit Tower (25975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25975;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25975, 'portaldecrepittower');
@@ -25985,6 +28403,9 @@ VALUES (25975, 13, True)
      , (25975, 19, True)
      , (25975, 1, True);
 
+/* Weenie - Portals - Virindi Research Facility (46012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46012;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46012, 'ace46012-virindiresearchfacility');
 
@@ -26016,6 +28437,9 @@ VALUES (46012, 13, True)
      , (46012, 15, True)
      , (46012, 19, True)
      , (46012, 1, True);
+
+/* Weenie - Portals - Surface (46013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46013;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46013, 'ace46013-surface');
@@ -26049,6 +28473,9 @@ VALUES (46013, 13, True)
      , (46013, 19, True)
      , (46013, 1, True);
 
+/* Weenie - Portals - Reaving Facility (41233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41233;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41233, 'ace41233-reavingfacility');
 
@@ -26080,6 +28507,9 @@ VALUES (41233, 13, True)
      , (41233, 15, True)
      , (41233, 19, True)
      , (41233, 1, True);
+
+/* Weenie - Portals - Surface (41235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41235;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41235, 'ace41235-surface');
@@ -26113,6 +28543,9 @@ VALUES (41235, 13, True)
      , (41235, 19, True)
      , (41235, 1, True);
 
+/* Weenie - Portals - Arrival Chamber (41234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41234;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41234, 'ace41234-arrivalchamber');
 
@@ -26144,6 +28577,9 @@ VALUES (41234, 13, True)
      , (41234, 15, True)
      , (41234, 19, True)
      , (41234, 1, True);
+
+/* Weenie - Portals - The Lee Side of The Mountain (5651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5651;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5651, 'portalbaishiundeadkeepdown');
@@ -26177,6 +28613,9 @@ VALUES (5651, 13, True)
      , (5651, 19, True)
      , (5651, 1, True);
 
+/* Weenie - Portals - Abayar's Study (28823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28823, 'portalabayarstudy');
 
@@ -26208,6 +28647,9 @@ VALUES (28823, 13, True)
      , (28823, 15, True)
      , (28823, 19, True)
      , (28823, 1, True);
+
+/* Weenie - Portals - Surface (28824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28824;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28824, 'portalabayarstudyexit');
@@ -26241,6 +28683,9 @@ VALUES (28824, 13, True)
      , (28824, 19, True)
      , (28824, 1, True);
 
+/* Weenie - Portals - The Path to More Recent Times (36170) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36170;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36170, 'ace36170-thepathtomorerecenttimes');
 
@@ -26272,6 +28717,9 @@ VALUES (36170, 13, True)
      , (36170, 15, True)
      , (36170, 19, True)
      , (36170, 1, True);
+
+/* Weenie - Portals - Surface (46358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46358;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46358, 'ace46358-surface');
@@ -26305,6 +28753,9 @@ VALUES (46358, 13, True)
      , (46358, 19, True)
      , (46358, 1, True);
 
+/* Weenie - Portals - Surface (47209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47209;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47209, 'ace47209-surface');
 
@@ -26336,6 +28787,9 @@ VALUES (47209, 13, True)
      , (47209, 15, True)
      , (47209, 19, True)
      , (47209, 1, True);
+
+/* Weenie - Portals - Surface (48933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48933, 'ace48933-surface');
@@ -26369,6 +28823,9 @@ VALUES (48933, 13, True)
      , (48933, 19, True)
      , (48933, 1, True);
 
+/* Weenie - Portals - Surface (1332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1332;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1332, 'portalcaveexit');
 
@@ -26400,6 +28857,9 @@ VALUES (1332, 13, True)
      , (1332, 15, True)
      , (1332, 19, True)
      , (1332, 1, True);
+
+/* Weenie - Portals - Mines of Despair (4053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4053;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4053, 'portalminesofdespair');
@@ -26433,6 +28893,9 @@ VALUES (4053, 13, True)
      , (4053, 19, True)
      , (4053, 1, True);
 
+/* Weenie - Portals - Surface (1090) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1090;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1090, 'portalashentearsexit');
 
@@ -26464,6 +28927,9 @@ VALUES (1090, 13, True)
      , (1090, 15, True)
      , (1090, 19, True)
      , (1090, 1, True);
+
+/* Weenie - Portals - Surface (3633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3633;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3633, 'portaloldmineexit');
@@ -26497,6 +28963,9 @@ VALUES (3633, 13, True)
      , (3633, 19, True)
      , (3633, 1, True);
 
+/* Weenie - Portals - Old Mine (3632) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3632;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3632, 'portaloldmine');
 
@@ -26528,6 +28997,9 @@ VALUES (3632, 13, True)
      , (3632, 15, True)
      , (3632, 19, True)
      , (3632, 1, True);
+
+/* Weenie - Portals - Ancient Town (2075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2075;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2075, 'portaldungeontattersexit');
@@ -26561,6 +29033,9 @@ VALUES (2075, 13, True)
      , (2075, 19, True)
      , (2075, 1, True);
 
+/* Weenie - Portals - Jungle Shadows (8497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8497, 'portaljungleshadows');
 
@@ -26592,6 +29067,9 @@ VALUES (8497, 13, True)
      , (8497, 15, True)
      , (8497, 19, True)
      , (8497, 1, True);
+
+/* Weenie - Portals - Falatacot Vault (33788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33788, 'ace33788-falatacotvault');
@@ -26625,6 +29103,9 @@ VALUES (33788, 13, True)
      , (33788, 19, True)
      , (33788, 1, True);
 
+/* Weenie - Portals - Small Temple (8480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8480;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8480, 'portalvesayensmalltempleb');
 
@@ -26656,6 +29137,9 @@ VALUES (8480, 13, True)
      , (8480, 15, True)
      , (8480, 19, True)
      , (8480, 1, True);
+
+/* Weenie - Portals - Surface (8481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8481;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8481, 'portalvesayensmalltemplebexit');
@@ -26689,6 +29173,9 @@ VALUES (8481, 13, True)
      , (8481, 19, True)
      , (8481, 1, True);
 
+/* Weenie - Portals - Stronghold (42222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42222;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42222, 'ace42222-stronghold');
 
@@ -26720,6 +29207,9 @@ VALUES (42222, 13, True)
      , (42222, 15, True)
      , (42222, 19, True)
      , (42222, 1, True);
+
+/* Weenie - Portals - Tumerok Outpost (2337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2337;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2337, 'portaltumerokoutpost');
@@ -26753,6 +29243,9 @@ VALUES (2337, 13, True)
      , (2337, 19, True)
      , (2337, 1, True);
 
+/* Weenie - Portals - Colton Reeyan's Sanctuary (47840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47840;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47840, 'ace47840-coltonreeyanssanctuary');
 
@@ -26785,6 +29278,9 @@ VALUES (47840, 13, True)
      , (47840, 19, True)
      , (47840, 1, True);
 
+/* Weenie - Portals - Mount Naipenset Caverns (5523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5523;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5523, 'portalmountnaipenset');
 
@@ -26815,6 +29311,9 @@ VALUES (5523, 13, True)
      , (5523, 15, True)
      , (5523, 19, True)
      , (5523, 1, True);
+
+/* Weenie - Portals - Surface (28834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28834;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28834, 'portalmossycaveexit');
@@ -26848,6 +29347,9 @@ VALUES (28834, 13, True)
      , (28834, 19, True)
      , (28834, 1, True);
 
+/* Weenie - Portals - Olthoi Brood Hive (24911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24911;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24911, 'portalolthoihive2low');
 
@@ -26879,6 +29381,9 @@ VALUES (24911, 13, True)
      , (24911, 15, True)
      , (24911, 19, True)
      , (24911, 1, True);
+
+/* Weenie - Portals - Surface (28805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28805;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28805, 'portalruinedempvaultexit');
@@ -26912,6 +29417,9 @@ VALUES (28805, 13, True)
      , (28805, 19, True)
      , (28805, 1, True);
 
+/* Weenie - Portals - Ruined Empyrean Vault (28804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28804;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28804, 'portalruinedempvault');
 
@@ -26943,6 +29451,9 @@ VALUES (28804, 13, True)
      , (28804, 15, True)
      , (28804, 19, True)
      , (28804, 1, True);
+
+/* Weenie - Portals - Creepy Canyons (31315) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31315;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31315, 'ace31315-creepycanyons');
@@ -26976,6 +29487,9 @@ VALUES (31315, 13, True)
      , (31315, 19, True)
      , (31315, 1, True);
 
+/* Weenie - Portals - Desert Mine (4164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4164;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4164, 'portaldesertmine');
 
@@ -27007,6 +29521,9 @@ VALUES (4164, 13, True)
      , (4164, 15, True)
      , (4164, 19, True)
      , (4164, 1, True);
+
+/* Weenie - Portals - Swamp Gardens (11686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11686;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11686, 'portaldyedungeon');
@@ -27040,6 +29557,9 @@ VALUES (11686, 13, True)
      , (11686, 19, True)
      , (11686, 1, True);
 
+/* Weenie - Portals - An Archive (23512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23512;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23512, 'portalsmallarchive');
 
@@ -27071,6 +29591,9 @@ VALUES (23512, 13, True)
      , (23512, 15, True)
      , (23512, 19, True)
      , (23512, 1, True);
+
+/* Weenie - Portals - Southern Infiltrator Keep (12152) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12152;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12152, 'portalinfiltratorkeepsouth');
@@ -27104,6 +29627,9 @@ VALUES (12152, 13, True)
      , (12152, 19, True)
      , (12152, 1, True);
 
+/* Weenie - Portals - Surface (12153) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12153;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12153, 'portalinfiltratorkeepsouthexit');
 
@@ -27135,6 +29661,9 @@ VALUES (12153, 13, True)
      , (12153, 15, True)
      , (12153, 19, True)
      , (12153, 1, True);
+
+/* Weenie - Portals - Mt. Syliph Plain (442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 442;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (442, 'portalsyliphplain');
@@ -27168,6 +29697,9 @@ VALUES (442, 13, True)
      , (442, 19, True)
      , (442, 1, True);
 
+/* Weenie - Portals - Base of Mt. Syliph (441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 441;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (441, 'portalbaseofsyliphb');
 
@@ -27199,6 +29731,9 @@ VALUES (441, 13, True)
      , (441, 15, True)
      , (441, 19, True)
      , (441, 1, True);
+
+/* Weenie - Portals - Northern Infiltrator Keep (12150) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12150;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12150, 'portalinfiltratorkeepnorth');
@@ -27232,6 +29767,9 @@ VALUES (12150, 13, True)
      , (12150, 19, True)
      , (12150, 1, True);
 
+/* Weenie - Portals - Murk Warrens (7248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7248;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7248, 'portalmossbandalu');
 
@@ -27263,6 +29801,9 @@ VALUES (7248, 13, True)
      , (7248, 15, True)
      , (7248, 19, True)
      , (7248, 1, True);
+
+/* Weenie - Portals - Bone Lair (4917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4917;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4917, 'portalbonelair');
@@ -27296,6 +29837,9 @@ VALUES (4917, 13, True)
      , (4917, 19, True)
      , (4917, 1, True);
 
+/* Weenie - Portals - Exit (27299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27299;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27299, 'portalshadoworphanageexit');
 
@@ -27326,6 +29870,9 @@ VALUES (27299, 13, True)
      , (27299, 15, True)
      , (27299, 19, True)
      , (27299, 1, True);
+
+/* Weenie - Portals - Prodigal Shadow Child's Lair (36008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36008;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36008, 'ace36008-prodigalshadowchildslair');
@@ -27359,6 +29906,9 @@ VALUES (36008, 13, True)
      , (36008, 19, True)
      , (36008, 1, True);
 
+/* Weenie - Portals - Disaster Maze (2385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2385;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2385, 'portaldisastermaze');
 
@@ -27390,6 +29940,9 @@ VALUES (2385, 13, True)
      , (2385, 15, True)
      , (2385, 19, True)
      , (2385, 1, True);
+
+/* Weenie - Portals - East Direlands Swamp (2064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2064;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2064, 'portaldryreachout');
@@ -27423,6 +29976,9 @@ VALUES (2064, 13, True)
      , (2064, 19, True)
      , (2064, 1, True);
 
+/* Weenie - Portals - Town of Dryreach (2065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2065;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2065, 'portaldryreachin');
 
@@ -27454,6 +30010,9 @@ VALUES (2065, 13, True)
      , (2065, 15, True)
      , (2065, 19, True)
      , (2065, 1, True);
+
+/* Weenie - Portals - Forking Trail (2339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2339;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2339, 'portalforkingtrail');
@@ -27487,6 +30046,9 @@ VALUES (2339, 13, True)
      , (2339, 19, True)
      , (2339, 1, True);
 
+/* Weenie - Portals - Surface (2340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2340;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2340, 'portalforkingtrailexit');
 
@@ -27518,6 +30080,9 @@ VALUES (2340, 13, True)
      , (2340, 15, True)
      , (2340, 19, True)
      , (2340, 1, True);
+
+/* Weenie - Portals - Surface (1348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1348;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1348, 'portalwhiteratnestexit');
@@ -27551,6 +30116,9 @@ VALUES (1348, 13, True)
      , (1348, 19, True)
      , (1348, 1, True);
 
+/* Weenie - Portals - Daiklos Dungeon (4158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4158;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4158, 'portaldaiklosdungeon');
 
@@ -27582,6 +30150,9 @@ VALUES (4158, 13, True)
      , (4158, 15, True)
      , (4158, 19, True)
      , (4158, 1, True);
+
+/* Weenie - Portals - Surface (2071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2071;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2071, 'portaldungeonfernexit');
@@ -27615,6 +30186,9 @@ VALUES (2071, 13, True)
      , (2071, 19, True)
      , (2071, 1, True);
 
+/* Weenie - Portals - Dungeon Fern (2070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2070, 'portaldungeonfern');
 
@@ -27646,6 +30220,9 @@ VALUES (2070, 13, True)
      , (2070, 15, True)
      , (2070, 19, True)
      , (2070, 1, True);
+
+/* Weenie - Portals - Surface (1095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1095;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1095, 'portalshadowsexit');
@@ -27679,6 +30256,9 @@ VALUES (1095, 13, True)
      , (1095, 19, True)
      , (1095, 1, True);
 
+/* Weenie - Portals - Eastham Sewer (1323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1323;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1323, 'portaleasthamsewer');
 
@@ -27710,6 +30290,9 @@ VALUES (1323, 13, True)
      , (1323, 15, True)
      , (1323, 19, True)
      , (1323, 1, True);
+
+/* Weenie - Portals - Surface (4936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4936;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4936, 'portaldeadbarracksexit');
@@ -27743,6 +30326,9 @@ VALUES (4936, 13, True)
      , (4936, 19, True)
      , (4936, 1, True);
 
+/* Weenie - Portals - Surface (2085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2085;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2085, 'portallakesidelairexit');
 
@@ -27774,6 +30360,9 @@ VALUES (2085, 13, True)
      , (2085, 15, True)
      , (2085, 19, True)
      , (2085, 1, True);
+
+/* Weenie - Portals - Lakeside Lair (2084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2084;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2084, 'portallakesidelair');
@@ -27807,6 +30396,9 @@ VALUES (2084, 13, True)
      , (2084, 19, True)
      , (2084, 1, True);
 
+/* Weenie - Portals - Surface (2093) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2093;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2093, 'portalsimpletowerexit');
 
@@ -27838,6 +30430,9 @@ VALUES (2093, 13, True)
      , (2093, 15, True)
      , (2093, 19, True)
      , (2093, 1, True);
+
+/* Weenie - Portals - Exit to the Surface (11324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11324;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11324, 'portaltanuacaveexit-xp');
@@ -27871,6 +30466,9 @@ VALUES (11324, 13, True)
      , (11324, 19, True)
      , (11324, 1, True);
 
+/* Weenie - Portals - Olthoi Arcade (22011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22011;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22011, 'portalolthoiarcadenorth');
 
@@ -27902,6 +30500,9 @@ VALUES (22011, 13, True)
      , (22011, 15, True)
      , (22011, 19, True)
      , (22011, 1, True);
+
+/* Weenie - Portals - Exit to the Surface (22012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22012;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22012, 'portalolthoiarcadenorthexit');
@@ -27935,6 +30536,9 @@ VALUES (22012, 13, True)
      , (22012, 19, True)
      , (22012, 1, True);
 
+/* Weenie - Portals - Olthoi Arcade Central (22189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22189;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22189, 'portalolthoiarcadecentral');
 
@@ -27966,6 +30570,9 @@ VALUES (22189, 13, True)
      , (22189, 15, True)
      , (22189, 19, True)
      , (22189, 1, True);
+
+/* Weenie - Portals - Falcon Clan Training Camp (23891) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23891;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23891, 'portaltumerokwarfalcon');
@@ -27999,6 +30606,9 @@ VALUES (23891, 13, True)
      , (23891, 19, True)
      , (23891, 1, True);
 
+/* Weenie - Portals - Surface (23892) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23892;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23892, 'portaltumerokwarfalconexit');
 
@@ -28030,6 +30640,9 @@ VALUES (23892, 13, True)
      , (23892, 15, True)
      , (23892, 19, True)
      , (23892, 1, True);
+
+/* Weenie - Portals - Deep Mukkir Nest (33543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33543;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33543, 'ace33543-deepmukkirnest');
@@ -28063,6 +30676,9 @@ VALUES (33543, 13, True)
      , (33543, 19, True)
      , (33543, 1, True);
 
+/* Weenie - Portals - Dungeon Nye (4156) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4156;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4156, 'portalnye');
 
@@ -28094,6 +30710,9 @@ VALUES (4156, 13, True)
      , (4156, 15, True)
      , (4156, 19, True)
      , (4156, 1, True);
+
+/* Weenie - Portals - Watery Grotto (28265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28265;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28265, 'portalmosswartswamplord');
@@ -28127,6 +30746,9 @@ VALUES (28265, 13, True)
      , (28265, 19, True)
      , (28265, 1, True);
 
+/* Weenie - Portals - Hidden Entrance (28096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28096, 'renegadehiddenentrance');
 
@@ -28154,6 +30776,9 @@ VALUES (28096, 13, True)
      , (28096, 15, True)
      , (28096, 19, True)
      , (28096, 1, True);
+
+/* Weenie - Portals - Northern Point (8499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8499;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8499, 'portalnorthernpoint');
@@ -28187,6 +30812,9 @@ VALUES (8499, 13, True)
      , (8499, 19, True)
      , (8499, 1, True);
 
+/* Weenie - Portals - Tomb of The Dead (9188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9188, 'portaltombofthedead');
 
@@ -28218,6 +30846,9 @@ VALUES (9188, 13, True)
      , (9188, 15, True)
      , (9188, 19, True)
      , (9188, 1, True);
+
+/* Weenie - Portals - Defiled Temple Middle Wing (30750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30750;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30750, 'portaldefiledtemplemid');
@@ -28251,6 +30882,9 @@ VALUES (30750, 13, True)
      , (30750, 19, True)
      , (30750, 1, True);
 
+/* Weenie - Portals - Defiled Temple Lower Wing (30749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30749;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30749, 'portaldefiledtemplelow');
 
@@ -28282,6 +30916,9 @@ VALUES (30749, 13, True)
      , (30749, 15, True)
      , (30749, 19, True)
      , (30749, 1, True);
+
+/* Weenie - Portals - Defiled Temple Upper Wing (30751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30751, 'portaldefiledtemplehigh');
@@ -28315,6 +30952,9 @@ VALUES (30751, 13, True)
      , (30751, 19, True)
      , (30751, 1, True);
 
+/* Weenie - Portals - Defiled Temple Asylum (30752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30752;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30752, 'portaldefiledtempleuber');
 
@@ -28347,6 +30987,9 @@ VALUES (30752, 13, True)
      , (30752, 19, True)
      , (30752, 1, True);
 
+/* Weenie - Portals - Exit to Surface (25397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25397;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25397, 'portalfalatacottemplesurface');
 
@@ -28378,6 +31021,9 @@ VALUES (25397, 13, True)
      , (25397, 15, True)
      , (25397, 19, True)
      , (25397, 1, True);
+
+/* Weenie - Portals - Statue (34516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34516;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34516, 'ace34516-statue');
@@ -28467,6 +31113,9 @@ VALUES (34516, 0, 16777333)
      , (34516, 20, 16777355)
      , (34516, 21, 16777345);
 
+/* Weenie - Portals - Statue (34515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34515;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34515, 'ace34515-statue');
 
@@ -28521,6 +31170,9 @@ VALUES (34515, 0, 16779987)
      , (34515, 5, 16789378)
      , (34515, 6, 16779983);
 
+/* Weenie - Portals - Surface (31420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31420, 'ace31420-surface');
 
@@ -28552,6 +31204,9 @@ VALUES (31420, 13, True)
      , (31420, 15, True)
      , (31420, 19, True)
      , (31420, 1, True);
+
+/* Weenie - Portals - Stable Rift (10792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10792;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10792, 'portalvirindieastham');
@@ -28585,6 +31240,9 @@ VALUES (10792, 13, True)
      , (10792, 19, True)
      , (10792, 1, True);
 
+/* Weenie - Portals - Small Icecave (1327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1327;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1327, 'portalemptyicecave');
 
@@ -28616,6 +31274,9 @@ VALUES (1327, 13, True)
      , (1327, 15, True)
      , (1327, 19, True)
      , (1327, 1, True);
+
+/* Weenie - Portals - Swamp Ruin (2344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2344, 'portaldungeonswampruin');
@@ -28649,6 +31310,9 @@ VALUES (2344, 13, True)
      , (2344, 19, True)
      , (2344, 1, True);
 
+/* Weenie - Portals - Renegade Stronghold (27692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27692;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27692, 'portalrenegadeprosper');
 
@@ -28680,6 +31344,9 @@ VALUES (27692, 13, True)
      , (27692, 15, True)
      , (27692, 19, True)
      , (27692, 1, True);
+
+/* Weenie - Portals - Archive (35563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35563;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35563, 'ace35563-archive');
@@ -28713,6 +31380,9 @@ VALUES (35563, 13, True)
      , (35563, 19, True)
      , (35563, 1, True);
 
+/* Weenie - Portals - Surface (35564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35564;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35564, 'ace35564-surface');
 
@@ -28744,6 +31414,9 @@ VALUES (35564, 13, True)
      , (35564, 15, True)
      , (35564, 19, True)
      , (35564, 1, True);
+
+/* Weenie - Portals - Whispering Blade Chapterhouse (32993) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32993;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32993, 'ace32993-whisperingbladechapterhouse');
@@ -28777,6 +31450,9 @@ VALUES (32993, 13, True)
      , (32993, 19, True)
      , (32993, 1, True);
 
+/* Weenie - Portals - Pheraion's Sanctum (33255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33255;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33255, 'ace33255-pheraionssanctum');
 
@@ -28808,6 +31484,9 @@ VALUES (33255, 13, True)
      , (33255, 15, True)
      , (33255, 19, True)
      , (33255, 1, True);
+
+/* Weenie - Portals - Surface (33254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33254;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33254, 'ace33254-surface');
@@ -28841,6 +31520,9 @@ VALUES (33254, 13, True)
      , (33254, 19, True)
      , (33254, 1, True);
 
+/* Weenie - Portals - Surface (33517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33517;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33517, 'ace33517-surface');
 
@@ -28872,6 +31554,9 @@ VALUES (33517, 13, True)
      , (33517, 15, True)
      , (33517, 19, True)
      , (33517, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43577;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43577, 'ace43577-olthoitunnel');
@@ -28909,6 +31594,9 @@ VALUES (43577, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43577, 67111849, 1, 255);
 
+/* Weenie - Portals - Curator of Torment's Study (51402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51402;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51402, 'ace51402-curatoroftormentsstudy');
 
@@ -28940,6 +31628,9 @@ VALUES (51402, 13, True)
      , (51402, 15, True)
      , (51402, 19, True)
      , (51402, 1, True);
+
+/* Weenie - Portals - The Dark Spiral (32844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32844;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32844, 'ace32844-thedarkspiral');
@@ -28973,6 +31664,9 @@ VALUES (32844, 13, True)
      , (32844, 19, True)
      , (32844, 1, True);
 
+/* Weenie - Portals - Surface (32845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32845, 'ace32845-surface');
 
@@ -29004,6 +31698,9 @@ VALUES (32845, 13, True)
      , (32845, 15, True)
      , (32845, 19, True)
      , (32845, 1, True);
+
+/* Weenie - Portals - Surface (14887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14887;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14887, 'portalmalignanttabernacleexit');
@@ -29037,6 +31734,9 @@ VALUES (14887, 13, True)
      , (14887, 19, True)
      , (14887, 1, True);
 
+/* Weenie - Portals - Surface (30471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30471, 'portalpowerforgewestexit');
 
@@ -29068,6 +31768,9 @@ VALUES (30471, 13, True)
      , (30471, 15, True)
      , (30471, 19, True)
      , (30471, 1, True);
+
+/* Weenie - Portals - Greater K'nath Lair (28790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28790;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28790, 'portaluberknathlair');
@@ -29101,6 +31804,9 @@ VALUES (28790, 13, True)
      , (28790, 19, True)
      , (28790, 1, True);
 
+/* Weenie - Portals - K'nath Lair (28777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28777;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28777, 'portaluberknathlairexit');
 
@@ -29132,6 +31838,9 @@ VALUES (28777, 13, True)
      , (28777, 15, True)
      , (28777, 19, True)
      , (28777, 1, True);
+
+/* Weenie - Portals - Surface (28789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28789;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28789, 'portalundeadtempleexit');
@@ -29165,6 +31874,9 @@ VALUES (28789, 13, True)
      , (28789, 19, True)
      , (28789, 1, True);
 
+/* Weenie - Portals - Surface (53352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53352, 'ace53352-surface');
 
@@ -29196,6 +31908,9 @@ VALUES (53352, 13, True)
      , (53352, 15, True)
      , (53352, 19, True)
      , (53352, 1, True);
+
+/* Weenie - Portals - Acidic Refuge (45723) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45723;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45723, 'ace45723-acidicrefuge');
@@ -29229,6 +31944,9 @@ VALUES (45723, 13, True)
      , (45723, 19, True)
      , (45723, 1, True);
 
+/* Weenie - Portals - Singular Obsidian Repository (12294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12294, 'portalobsidianrepository');
 
@@ -29260,6 +31978,9 @@ VALUES (12294, 13, True)
      , (12294, 15, True)
      , (12294, 19, True)
      , (12294, 1, True);
+
+/* Weenie - Portals - Reedshark Clan Training Camp (23897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23897;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23897, 'portaltumerokwarreedshark');
@@ -29293,6 +32014,9 @@ VALUES (23897, 13, True)
      , (23897, 19, True)
      , (23897, 1, True);
 
+/* Weenie - Portals - Surface (23898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23898;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23898, 'portaltumerokwarreedsharkexit');
 
@@ -29324,6 +32048,9 @@ VALUES (23898, 13, True)
      , (23898, 15, True)
      , (23898, 19, True)
      , (23898, 1, True);
+
+/* Weenie - Portals - Virindi Edifice (49608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49608;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49608, 'ace49608-virindiedifice');
@@ -29357,6 +32084,9 @@ VALUES (49608, 13, True)
      , (49608, 19, True)
      , (49608, 1, True);
 
+/* Weenie - Portals - Surface (49609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49609, 'ace49609-surface');
 
@@ -29388,6 +32118,9 @@ VALUES (49609, 13, True)
      , (49609, 15, True)
      , (49609, 19, True)
      , (49609, 1, True);
+
+/* Weenie - Portals - Surface (48901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48901;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48901, 'ace48901-surface');
@@ -29421,6 +32154,9 @@ VALUES (48901, 13, True)
      , (48901, 19, True)
      , (48901, 1, True);
 
+/* Weenie - Portals - South Zabool (432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (432, 'portalsouthzabool');
 
@@ -29453,6 +32189,9 @@ VALUES (432, 13, True)
      , (432, 19, True)
      , (432, 1, True);
 
+/* Weenie - Portals - Return to Dereth (14584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14584;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14584, 'portalportalspaceexit');
 
@@ -29483,6 +32222,9 @@ VALUES (14584, 13, True)
      , (14584, 15, True)
      , (14584, 19, True)
      , (14584, 1, True);
+
+/* Weenie - Portals - Chamber of Scrolls (40331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40331;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40331, 'ace40331-chamberofscrolls');
@@ -29516,6 +32258,9 @@ VALUES (40331, 13, True)
      , (40331, 19, True)
      , (40331, 1, True);
 
+/* Weenie - Portals - Golem Burial Ground (2078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2078;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2078, 'portalgolemgrounds');
 
@@ -29547,6 +32292,9 @@ VALUES (2078, 13, True)
      , (2078, 15, True)
      , (2078, 19, True)
      , (2078, 1, True);
+
+/* Weenie - Portals - Surface (2079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2079;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2079, 'portalgolemgroundsexit');
@@ -29580,6 +32328,9 @@ VALUES (2079, 13, True)
      , (2079, 19, True)
      , (2079, 1, True);
 
+/* Weenie - Portals - Graveyard (37490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37490;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37490, 'ace37490-graveyard');
 
@@ -29611,6 +32362,9 @@ VALUES (37490, 13, True)
      , (37490, 15, True)
      , (37490, 19, True)
      , (37490, 1, True);
+
+/* Weenie - Portals - Forges (37514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37514;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37514, 'ace37514-forges');
@@ -29644,6 +32398,9 @@ VALUES (37514, 11, True)
      , (37514, 19, True)
      , (37514, 1, True);
 
+/* Weenie - Portals - Armory (37513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37513;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37513, 'ace37513-armory');
 
@@ -29675,6 +32432,9 @@ VALUES (37513, 11, True)
      , (37513, 15, True)
      , (37513, 19, True)
      , (37513, 1, True);
+
+/* Weenie - Portals - The Envoy's Chamber (9388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9388;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9388, 'portalenvoychamber');
@@ -29708,6 +32468,9 @@ VALUES (9388, 13, True)
      , (9388, 19, True)
      , (9388, 1, True);
 
+/* Weenie - Portals - Gredaline Consulate (9507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9507;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9507, 'portalenvoychamberexit');
 
@@ -29739,6 +32502,9 @@ VALUES (9507, 13, True)
      , (9507, 15, True)
      , (9507, 19, True)
      , (9507, 1, True);
+
+/* Weenie - Portals - Gredaline Consulate (9508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9508;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9508, 'portalgredalineconsulate');
@@ -29772,6 +32538,9 @@ VALUES (9508, 13, True)
      , (9508, 19, True)
      , (9508, 1, True);
 
+/* Weenie - Portals - Surface (14497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14497, 'portalempyreanacidpropylaeumexit');
 
@@ -29803,6 +32572,9 @@ VALUES (14497, 13, True)
      , (14497, 15, True)
      , (14497, 19, True)
      , (14497, 1, True);
+
+/* Weenie - Portals - Lower Empyrean Acid Cistern (14494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14494;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14494, 'portalempyreanacidcisternlower');
@@ -29836,6 +32608,9 @@ VALUES (14494, 13, True)
      , (14494, 19, True)
      , (14494, 1, True);
 
+/* Weenie - Portals - Upper Empyrean Acid Cistern (14495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14495;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14495, 'portalempyreanacidcisternupper');
 
@@ -29867,6 +32642,9 @@ VALUES (14495, 13, True)
      , (14495, 15, True)
      , (14495, 19, True)
      , (14495, 1, True);
+
+/* Weenie - Portals - Empyrean Acid Propylaeum (14492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14492;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14492, 'portalempyreanacidpropylaeum');
@@ -29900,6 +32678,9 @@ VALUES (14492, 13, True)
      , (14492, 19, True)
      , (14492, 1, True);
 
+/* Weenie - Portals - Surface (14489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14489;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14489, 'portalempyreanfirepropylaeumexit');
 
@@ -29931,6 +32712,9 @@ VALUES (14489, 13, True)
      , (14489, 15, True)
      , (14489, 19, True)
      , (14489, 1, True);
+
+/* Weenie - Portals - Lower Empyrean Fire Cistern (14493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14493;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14493, 'portalempyreanfirecisternlower');
@@ -29964,6 +32748,9 @@ VALUES (14493, 13, True)
      , (14493, 19, True)
      , (14493, 1, True);
 
+/* Weenie - Portals - Upper Empyrean Fire Cistern (14496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14496, 'portalempyreanfirecisternupper');
 
@@ -29995,6 +32782,9 @@ VALUES (14496, 13, True)
      , (14496, 15, True)
      , (14496, 19, True)
      , (14496, 1, True);
+
+/* Weenie - Portals - Empyrean Fire Propylaeum (14488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14488;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14488, 'portalempyreanfirepropylaeum');
@@ -30028,6 +32818,9 @@ VALUES (14488, 13, True)
      , (14488, 19, True)
      , (14488, 1, True);
 
+/* Weenie - Portals - Surface (14490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14490;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14490, 'portalempyreanicepropylaeumexit');
 
@@ -30059,6 +32852,9 @@ VALUES (14490, 13, True)
      , (14490, 15, True)
      , (14490, 19, True)
      , (14490, 1, True);
+
+/* Weenie - Portals - Lower Empyrean Ice Cistern (14498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14498, 'portalempyreanicecisternlower');
@@ -30092,6 +32888,9 @@ VALUES (14498, 13, True)
      , (14498, 19, True)
      , (14498, 1, True);
 
+/* Weenie - Portals - Upper Empyrean Ice Cistern (14499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14499, 'portalempyreanicecisternupper');
 
@@ -30123,6 +32922,9 @@ VALUES (14499, 13, True)
      , (14499, 15, True)
      , (14499, 19, True)
      , (14499, 1, True);
+
+/* Weenie - Portals - Empyrean Ice Propylaeum (14500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14500, 'portalempyreanicepropylaeum');
@@ -30156,6 +32958,9 @@ VALUES (14500, 13, True)
      , (14500, 19, True)
      , (14500, 1, True);
 
+/* Weenie - Portals - Fire Guardian Lair (21416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21416;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21416, 'portalgaerlanguardianfire');
 
@@ -30187,6 +32992,9 @@ VALUES (21416, 13, True)
      , (21416, 15, True)
      , (21416, 19, True)
      , (21416, 1, True);
+
+/* Weenie - Portals - Surface (6115) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6115;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6115, 'portalmountainfortressexit');
@@ -30220,6 +33028,9 @@ VALUES (6115, 13, True)
      , (6115, 19, True)
      , (6115, 1, True);
 
+/* Weenie - Portals - Exit to Surface (25838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25838;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25838, 'portalunicornemptysoulsurface');
 
@@ -30251,6 +33062,9 @@ VALUES (25838, 13, True)
      , (25838, 15, True)
      , (25838, 19, True)
      , (25838, 1, True);
+
+/* Weenie - Portals - Exit Copper Legion Keep (29434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29434;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29434, 'portalinvaderkeepcopperexit');
@@ -30284,6 +33098,9 @@ VALUES (29434, 13, True)
      , (29434, 19, True)
      , (29434, 1, True);
 
+/* Weenie - Portals - Surface (23894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23894, 'portaltumerokwargromnieexit');
 
@@ -30315,6 +33132,9 @@ VALUES (23894, 13, True)
      , (23894, 15, True)
      , (23894, 19, True)
      , (23894, 1, True);
+
+/* Weenie - Portals - Gromnie Clan Training Camp (23893) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23893;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23893, 'portaltumerokwargromnie');
@@ -30348,6 +33168,9 @@ VALUES (23893, 13, True)
      , (23893, 19, True)
      , (23893, 1, True);
 
+/* Weenie - Portals - Surface (1598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1598;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1598, 'portalthieftrailexit');
 
@@ -30379,6 +33202,9 @@ VALUES (1598, 13, True)
      , (1598, 15, True)
      , (1598, 19, True)
      , (1598, 1, True);
+
+/* Weenie - Portals - Cannibal Caverns (29512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29512;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29512, 'portalcannibalcaverns');
@@ -30412,6 +33238,9 @@ VALUES (29512, 13, True)
      , (29512, 19, True)
      , (29512, 1, True);
 
+/* Weenie - Portals - Ravenous Vault (28802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28802;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28802, 'portalravenousvault');
 
@@ -30443,6 +33272,9 @@ VALUES (28802, 13, True)
      , (28802, 15, True)
      , (28802, 19, True)
      , (28802, 1, True);
+
+/* Weenie - Portals - Hive Warrior Mound (51325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51325;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51325, 'ace51325-hivewarriormound');
@@ -30476,6 +33308,9 @@ VALUES (51325, 13, True)
      , (51325, 19, True)
      , (51325, 1, True);
 
+/* Weenie - Portals - Surface (51326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51326, 'ace51326-surface');
 
@@ -30507,6 +33342,9 @@ VALUES (51326, 13, True)
      , (51326, 15, True)
      , (51326, 19, True)
      , (51326, 1, True);
+
+/* Weenie - Portals - Northern Catacombs Exit (34830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34830;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34830, 'ace34830-northerncatacombsexit');
@@ -30540,6 +33378,9 @@ VALUES (34830, 13, True)
      , (34830, 19, True)
      , (34830, 1, True);
 
+/* Weenie - Portals - Eastern Catacombs Exit (34832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34832;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34832, 'ace34832-easterncatacombsexit');
 
@@ -30571,6 +33412,9 @@ VALUES (34832, 13, True)
      , (34832, 15, True)
      , (34832, 19, True)
      , (34832, 1, True);
+
+/* Weenie - Portals - Swamp Cavern (35210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35210;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35210, 'ace35210-swampcavern');
@@ -30604,6 +33448,9 @@ VALUES (35210, 13, True)
      , (35210, 19, True)
      , (35210, 1, True);
 
+/* Weenie - Portals - Sand Caves (44116) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44116;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44116, 'ace44116-sandcaves');
 
@@ -30635,6 +33482,9 @@ VALUES (44116, 13, True)
      , (44116, 15, True)
      , (44116, 19, True)
      , (44116, 1, True);
+
+/* Weenie - Portals - Surface (47154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47154;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47154, 'ace47154-surface');
@@ -30668,6 +33518,9 @@ VALUES (47154, 13, True)
      , (47154, 19, True)
      , (47154, 1, True);
 
+/* Weenie - Portals - Frigid Grotto (46304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46304;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46304, 'ace46304-frigidgrotto');
 
@@ -30699,6 +33552,9 @@ VALUES (46304, 13, True)
      , (46304, 15, True)
      , (46304, 19, True)
      , (46304, 1, True);
+
+/* Weenie - Portals - Surface (46308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46308;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46308, 'ace46308-surface');
@@ -30732,6 +33588,9 @@ VALUES (46308, 13, True)
      , (46308, 19, True)
      , (46308, 1, True);
 
+/* Weenie - Portals - Temple of Xik Minru (32045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32045;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32045, 'ace32045-templeofxikminru');
 
@@ -30763,6 +33622,9 @@ VALUES (32045, 13, True)
      , (32045, 15, True)
      , (32045, 19, True)
      , (32045, 1, True);
+
+/* Weenie - Portals - Upper Sanctum of Xik Minru (32044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32044;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32044, 'ace32044-uppersanctumofxikminru');
@@ -30796,6 +33658,9 @@ VALUES (32044, 13, True)
      , (32044, 19, True)
      , (32044, 1, True);
 
+/* Weenie - Portals - Exit (32037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32037;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32037, 'ace32037-exit');
 
@@ -30827,6 +33692,9 @@ VALUES (32037, 13, True)
      , (32037, 15, True)
      , (32037, 19, True)
      , (32037, 1, True);
+
+/* Weenie - Portals - Sanctum of Xik Minru (32039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32039;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32039, 'ace32039-sanctumofxikminru');
@@ -30860,6 +33728,9 @@ VALUES (32039, 13, True)
      , (32039, 19, True)
      , (32039, 1, True);
 
+/* Weenie - Portals - Southern Courtyard (32043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32043;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32043, 'ace32043-southerncourtyard');
 
@@ -30891,6 +33762,9 @@ VALUES (32043, 13, True)
      , (32043, 15, True)
      , (32043, 19, True)
      , (32043, 1, True);
+
+/* Weenie - Portals - Surface (2336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2336;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2336, 'portaltumeroksmallcomplexexit');
@@ -30924,6 +33798,9 @@ VALUES (2336, 13, True)
      , (2336, 19, True)
      , (2336, 1, True);
 
+/* Weenie - Portals - Surface (25497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25497, 'portalrenegadegarrisonexit');
 
@@ -30955,6 +33832,9 @@ VALUES (25497, 13, True)
      , (25497, 15, True)
      , (25497, 19, True)
      , (25497, 1, True);
+
+/* Weenie - Portals - Crystal Core (48719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48719;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48719, 'ace48719-crystalcore');
@@ -30988,6 +33868,9 @@ VALUES (48719, 13, True)
      , (48719, 19, True)
      , (48719, 1, True);
 
+/* Weenie - Portals - Surface (48735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48735;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48735, 'ace48735-surface');
 
@@ -31019,6 +33902,9 @@ VALUES (48735, 13, True)
      , (48735, 15, True)
      , (48735, 19, True)
      , (48735, 1, True);
+
+/* Weenie - Portals - Surface (1342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1342;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1342, 'portalsimplemazeexit');
@@ -31052,6 +33938,9 @@ VALUES (1342, 13, True)
      , (1342, 19, True)
      , (1342, 1, True);
 
+/* Weenie - Portals - A Ruin (1341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1341, 'portalsimplemaze');
 
@@ -31083,6 +33972,9 @@ VALUES (1341, 13, True)
      , (1341, 15, True)
      , (1341, 19, True)
      , (1341, 1, True);
+
+/* Weenie - Portals - Surface (4928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4928;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4928, 'portalfilosdoomexit');
@@ -31116,6 +34008,9 @@ VALUES (4928, 13, True)
      , (4928, 19, True)
      , (4928, 1, True);
 
+/* Weenie - Portals - Surface (2077) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2077;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2077, 'portalgallerytowerexit');
 
@@ -31147,6 +34042,9 @@ VALUES (2077, 13, True)
      , (2077, 15, True)
      , (2077, 19, True)
      , (2077, 1, True);
+
+/* Weenie - Portals - Surface (1336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1336;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1336, 'portaldrudgefamilyexit');
@@ -31180,6 +34078,9 @@ VALUES (1336, 13, True)
      , (1336, 19, True)
      , (1336, 1, True);
 
+/* Weenie - Portals - Treyval Veranda (15842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15842;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15842, 'portaltreyvalveranda');
 
@@ -31211,6 +34112,9 @@ VALUES (15842, 13, True)
      , (15842, 15, True)
      , (15842, 19, True)
      , (15842, 1, True);
+
+/* Weenie - Portals - Alvan Court (15832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15832;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15832, 'portalalvancourt');
@@ -31244,6 +34148,9 @@ VALUES (15832, 13, True)
      , (15832, 19, True)
      , (15832, 1, True);
 
+/* Weenie - Portals - Sylvan Dwellings (15841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15841;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15841, 'portalsylvandwellings');
 
@@ -31275,6 +34182,9 @@ VALUES (15841, 13, True)
      , (15841, 15, True)
      , (15841, 19, True)
      , (15841, 1, True);
+
+/* Weenie - Portals - Caerna Dwellings (15833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15833;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15833, 'portalcaernadwellings');
@@ -31308,6 +34218,9 @@ VALUES (15833, 13, True)
      , (15833, 19, True)
      , (15833, 1, True);
 
+/* Weenie - Portals - Illsin Veranda (15834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15834;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15834, 'portalillsinveranda');
 
@@ -31339,6 +34252,9 @@ VALUES (15834, 13, True)
      , (15834, 15, True)
      , (15834, 19, True)
      , (15834, 1, True);
+
+/* Weenie - Portals - Marin Court (15835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15835;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15835, 'portalmarincourt');
@@ -31372,6 +34288,9 @@ VALUES (15835, 13, True)
      , (15835, 19, True)
      , (15835, 1, True);
 
+/* Weenie - Portals - Sigil Veranda (15839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15839;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15839, 'portalsigilveranda');
 
@@ -31403,6 +34322,9 @@ VALUES (15839, 13, True)
      , (15839, 15, True)
      , (15839, 19, True)
      , (15839, 1, True);
+
+/* Weenie - Portals - Senmai Court (15838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15838;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15838, 'portalsenmaicourt');
@@ -31436,6 +34358,9 @@ VALUES (15838, 13, True)
      , (15838, 19, True)
      , (15838, 1, True);
 
+/* Weenie - Portals - Sorveya Court (15840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15840;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15840, 'portalsorveyacourt');
 
@@ -31467,6 +34392,9 @@ VALUES (15840, 13, True)
      , (15840, 15, True)
      , (15840, 19, True)
      , (15840, 1, True);
+
+/* Weenie - Portals - Ruadnar Court (15836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15836;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15836, 'portalruadnarcourt');
@@ -31500,6 +34428,9 @@ VALUES (15836, 13, True)
      , (15836, 19, True)
      , (15836, 1, True);
 
+/* Weenie - Portals - Surface (2345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2345;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2345, 'portaldungeonswampruinexit');
 
@@ -31531,6 +34462,9 @@ VALUES (2345, 13, True)
      , (2345, 15, True)
      , (2345, 19, True)
      , (2345, 1, True);
+
+/* Weenie - Portals - Base of Mt. Zabool (1363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1363;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1363, 'portalbaseofzabool');
@@ -31564,6 +34498,9 @@ VALUES (1363, 13, True)
      , (1363, 19, True)
      , (1363, 1, True);
 
+/* Weenie - Portals - Top of Mt. Zabool (369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (369, 'portalzabooltop');
 
@@ -31595,6 +34532,9 @@ VALUES (369, 13, True)
      , (369, 15, True)
      , (369, 19, True)
      , (369, 1, True);
+
+/* Weenie - Portals - Mount Alphus (431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 431;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (431, 'portalalphusnorth');
@@ -31628,6 +34568,9 @@ VALUES (431, 13, True)
      , (431, 19, True)
      , (431, 1, True);
 
+/* Weenie - Portals - Surface (3641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3641;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3641, 'portalmountainhallsexit');
 
@@ -31659,6 +34602,9 @@ VALUES (3641, 13, True)
      , (3641, 15, True)
      , (3641, 19, True)
      , (3641, 1, True);
+
+/* Weenie - Portals - Mountain Halls (3640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3640;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3640, 'portalmountainhalls');
@@ -31692,6 +34638,9 @@ VALUES (3640, 13, True)
      , (3640, 19, True)
      , (3640, 1, True);
 
+/* Weenie - Portals - Surface (2332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2332;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2332, 'portaltumerokmineexit');
 
@@ -31724,6 +34673,9 @@ VALUES (2332, 13, True)
      , (2332, 19, True)
      , (2332, 1, True);
 
+/* Weenie - Portals - Tumerok Mine (2331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2331, 'portaltumerokmine');
 
@@ -31755,6 +34707,9 @@ VALUES (2331, 13, True)
      , (2331, 15, True)
      , (2331, 19, True)
      , (2331, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43546;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43546, 'ace43546-olthoitunnel');
@@ -31792,6 +34747,9 @@ VALUES (43546, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43546, 67111849, 1, 255);
 
+/* Weenie - Portals - Olthoi Tunnel (43590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43590, 'ace43590-olthoitunnel');
 
@@ -31827,6 +34785,9 @@ VALUES (43590, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43590, 67111849, 1, 255);
+
+/* Weenie - Portals - Olthoi Tunnel (43550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43550;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43550, 'ace43550-olthoitunnel');
@@ -31864,6 +34825,9 @@ VALUES (43550, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43550, 67111849, 1, 255);
 
+/* Weenie - Portals - Alfreth Dungeon (371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 371;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (371, 'portalalfrethdungeon');
 
@@ -31895,6 +34859,9 @@ VALUES (371, 13, True)
      , (371, 15, True)
      , (371, 19, True)
      , (371, 1, True);
+
+/* Weenie - Portals - Surface (372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 372;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (372, 'portalalfrethdungeonexit');
@@ -31928,6 +34895,9 @@ VALUES (372, 13, True)
      , (372, 19, True)
      , (372, 1, True);
 
+/* Weenie - Portals - Enkindled Souls (5505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5505;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5505, 'portalenkindledsouls');
 
@@ -31959,6 +34929,9 @@ VALUES (5505, 13, True)
      , (5505, 15, True)
      , (5505, 19, True)
      , (5505, 1, True);
+
+/* Weenie - Portals - Surface (5506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5506;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5506, 'portalenkindledsoulsexit');
@@ -31992,6 +34965,9 @@ VALUES (5506, 13, True)
      , (5506, 19, True)
      , (5506, 1, True);
 
+/* Weenie - Portals - Olthoi Horde Nest (7256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7256, 'portalolthoilairgha');
 
@@ -32023,6 +34999,9 @@ VALUES (7256, 13, True)
      , (7256, 15, True)
      , (7256, 19, True)
      , (7256, 1, True);
+
+/* Weenie - Portals - Deeper Catacombs (24231) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24231;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24231, 'portalolthoilairghaexpansion');
@@ -32056,6 +35035,9 @@ VALUES (24231, 13, True)
      , (24231, 19, True)
      , (24231, 1, True);
 
+/* Weenie - Portals - Exit to Surface (28268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28268;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28268, 'portalmosswartvaguratexit');
 
@@ -32087,6 +35069,9 @@ VALUES (28268, 13, True)
      , (28268, 15, True)
      , (28268, 19, True)
      , (28268, 1, True);
+
+/* Weenie - Portals - Surface (4146) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4146;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4146, 'portalbraidexit');
@@ -32120,6 +35105,9 @@ VALUES (4146, 13, True)
      , (4146, 19, True)
      , (4146, 1, True);
 
+/* Weenie - Portals - Spirited Halls (51763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51763;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51763, 'ace51763-spiritedhalls');
 
@@ -32151,6 +35139,9 @@ VALUES (51763, 13, True)
      , (51763, 15, True)
      , (51763, 19, True)
      , (51763, 1, True);
+
+/* Weenie - Portals - Forgotten Tunnels (43118) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43118;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43118, 'ace43118-forgottentunnels');
@@ -32184,6 +35175,9 @@ VALUES (43118, 13, True)
      , (43118, 19, True)
      , (43118, 1, True);
 
+/* Weenie - Portals - Forgotten Tunnels (43119) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43119;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43119, 'ace43119-forgottentunnels');
 
@@ -32215,6 +35209,9 @@ VALUES (43119, 13, True)
      , (43119, 15, True)
      , (43119, 19, True)
      , (43119, 1, True);
+
+/* Weenie - Portals - Forgotten Tunnels (43120) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43120;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43120, 'ace43120-forgottentunnels');
@@ -32248,6 +35245,9 @@ VALUES (43120, 13, True)
      , (43120, 19, True)
      , (43120, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 1 (52916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52916;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52916, 'ace52916-gauntletstage1');
 
@@ -32276,6 +35276,9 @@ VALUES (52916, 11, True)
      , (52916, 14, True)
      , (52916, 19, True)
      , (52916, 1, True);
+
+/* Weenie - Portals - Gauntlet Stage 2 (52904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52904;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52904, 'ace52904-gauntletstage2');
@@ -32306,6 +35309,9 @@ VALUES (52904, 11, True)
      , (52904, 19, True)
      , (52904, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 3 (52905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52905;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52905, 'ace52905-gauntletstage3');
 
@@ -32334,6 +35340,9 @@ VALUES (52905, 11, True)
      , (52905, 14, True)
      , (52905, 19, True)
      , (52905, 1, True);
+
+/* Weenie - Portals - Gauntlet Stage 4 (52906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52906;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52906, 'ace52906-gauntletstage4');
@@ -32364,6 +35373,9 @@ VALUES (52906, 11, True)
      , (52906, 19, True)
      , (52906, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 6 (53380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53380;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53380, 'ace53380-gauntletstage6');
 
@@ -32392,6 +35404,9 @@ VALUES (53380, 11, True)
      , (53380, 14, True)
      , (53380, 19, True)
      , (53380, 1, True);
+
+/* Weenie - Portals - Gauntlet Stage 6 (52921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52921;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52921, 'ace52921-gauntletstage6');
@@ -32422,6 +35437,9 @@ VALUES (52921, 11, True)
      , (52921, 19, True)
      , (52921, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 7 (52909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52909;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52909, 'ace52909-gauntletstage7');
 
@@ -32450,6 +35468,9 @@ VALUES (52909, 11, True)
      , (52909, 14, True)
      , (52909, 19, True)
      , (52909, 1, True);
+
+/* Weenie - Portals - Gauntlet Stage 8 (52910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52910;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52910, 'ace52910-gauntletstage8');
@@ -32480,6 +35501,9 @@ VALUES (52910, 11, True)
      , (52910, 19, True)
      , (52910, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 9 (52911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52911;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52911, 'ace52911-gauntletstage9');
 
@@ -32509,6 +35533,9 @@ VALUES (52911, 11, True)
      , (52911, 19, True)
      , (52911, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 6 (52908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52908, 'ace52908-gauntletstage6');
 
@@ -32537,6 +35564,9 @@ VALUES (52908, 11, True)
      , (52908, 14, True)
      , (52908, 19, True)
      , (52908, 1, True);
+
+/* Weenie - Portals - Olthoi Brood Hive (24913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24913;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24913, 'portalothoihive2extreme');
@@ -32570,6 +35600,9 @@ VALUES (24913, 13, True)
      , (24913, 19, True)
      , (24913, 1, True);
 
+/* Weenie - Portals - Surface (8498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8498;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8498, 'portaljungleshadowsexit');
 
@@ -32601,6 +35634,9 @@ VALUES (8498, 13, True)
      , (8498, 15, True)
      , (8498, 19, True)
      , (8498, 1, True);
+
+/* Weenie - Portals - Tusker Temple (22698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22698;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22698, 'portaltuskertemplenorth');
@@ -32634,6 +35670,9 @@ VALUES (22698, 13, True)
      , (22698, 19, True)
      , (22698, 1, True);
 
+/* Weenie - Portals - Surface (32656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32656;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32656, 'ace32656-surface');
 
@@ -32665,6 +35704,9 @@ VALUES (32656, 13, True)
      , (32656, 15, True)
      , (32656, 19, True)
      , (32656, 1, True);
+
+/* Weenie - Portals - Mosswart Nest (8486) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8486;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8486, 'portalvesayenmosswartnest');
@@ -32698,6 +35740,9 @@ VALUES (8486, 13, True)
      , (8486, 19, True)
      , (8486, 1, True);
 
+/* Weenie - Portals - Idol Spawning Grounds (8586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8586;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8586, 'portalidolspawninggrounds');
 
@@ -32729,6 +35774,9 @@ VALUES (8586, 13, True)
      , (8586, 15, True)
      , (8586, 19, True)
      , (8586, 1, True);
+
+/* Weenie - Portals - Sclavus Temple (25588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25588;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25588, 'portalsclavustemple');
@@ -32762,6 +35810,9 @@ VALUES (25588, 13, True)
      , (25588, 19, True)
      , (25588, 1, True);
 
+/* Weenie - Portals - Asheron's Tower (33590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33590, 'ace33590-asheronstower');
 
@@ -32789,6 +35840,9 @@ VALUES (33590, 13, True)
      , (33590, 15, True)
      , (33590, 19, True)
      , (33590, 1, True);
+
+/* Weenie - Portals - Surface (20643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20643;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20643, 'portalgrievvercavesexit');
@@ -32822,6 +35876,9 @@ VALUES (20643, 13, True)
      , (20643, 19, True)
      , (20643, 1, True);
 
+/* Weenie - Portals - Surface (29236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29236, 'portalishaqscellarexit');
 
@@ -32853,6 +35910,9 @@ VALUES (29236, 13, True)
      , (29236, 15, True)
      , (29236, 19, True)
      , (29236, 1, True);
+
+/* Weenie - Portals - Surface (42923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42923;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42923, 'ace42923-surface');
@@ -32886,6 +35946,9 @@ VALUES (42923, 13, True)
      , (42923, 19, True)
      , (42923, 1, True);
 
+/* Weenie - Portals - Penguin Den (28793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28793;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28793, 'portalpenguinden');
 
@@ -32917,6 +35980,9 @@ VALUES (28793, 13, True)
      , (28793, 15, True)
      , (28793, 19, True)
      , (28793, 1, True);
+
+/* Weenie - Portals - Steamy Font (29786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29786;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29786, 'portalsteamyfont');
@@ -32950,6 +36016,9 @@ VALUES (29786, 13, True)
      , (29786, 1, True)
      , (29786, 24, True);
 
+/* Weenie - Portals - Humid Font (29781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29781;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29781, 'portalhumidfont');
 
@@ -32981,6 +36050,9 @@ VALUES (29781, 13, True)
      , (29781, 19, True)
      , (29781, 1, True)
      , (29781, 24, True);
+
+/* Weenie - Portals - Balmy Font (29778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29778;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29778, 'portalbalmyfont');
@@ -33014,6 +36086,9 @@ VALUES (29778, 13, True)
      , (29778, 1, True)
      , (29778, 24, True);
 
+/* Weenie - Portals - Muggy Font (29783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29783;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29783, 'portalmuggyfont');
 
@@ -33045,6 +36120,9 @@ VALUES (29783, 13, True)
      , (29783, 19, True)
      , (29783, 1, True)
      , (29783, 24, True);
+
+/* Weenie - Portals - Surface (40246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40246;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40246, 'ace40246-surface');
@@ -33078,6 +36156,9 @@ VALUES (40246, 13, True)
      , (40246, 19, True)
      , (40246, 1, True);
 
+/* Weenie - Portals - Surface (40245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40245;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40245, 'ace40245-surface');
 
@@ -33109,6 +36190,9 @@ VALUES (40245, 13, True)
      , (40245, 15, True)
      , (40245, 19, True)
      , (40245, 1, True);
+
+/* Weenie - Portals - Surface (40244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40244;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40244, 'ace40244-surface');
@@ -33142,6 +36226,9 @@ VALUES (40244, 13, True)
      , (40244, 19, True)
      , (40244, 1, True);
 
+/* Weenie - Portals - Surface (7322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7322, 'portallugiancitadelshoexit');
 
@@ -33173,6 +36260,9 @@ VALUES (7322, 13, True)
      , (7322, 15, True)
      , (7322, 19, True)
      , (7322, 1, True);
+
+/* Weenie - Portals - Surface (1312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1312;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1312, 'portalnorthglendenexit');
@@ -33206,6 +36296,9 @@ VALUES (1312, 13, True)
      , (1312, 19, True)
      , (1312, 1, True);
 
+/* Weenie - Portals - Commander's Quarters (32292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32292;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32292, 'ace32292-commandersquarters');
 
@@ -33237,6 +36330,9 @@ VALUES (32292, 13, True)
      , (32292, 15, True)
      , (32292, 19, True)
      , (32292, 1, True);
+
+/* Weenie - Portals - Exit (25675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25675;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25675, 'portalcaliginousbethelexit');
@@ -33270,6 +36366,9 @@ VALUES (25675, 13, True)
      , (25675, 19, True)
      , (25675, 1, True);
 
+/* Weenie - Portals - Caliginous Bethel (25674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25674;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25674, 'portalcaliginousbethel');
 
@@ -33302,6 +36401,9 @@ VALUES (25674, 13, True)
      , (25674, 19, True)
      , (25674, 1, True);
 
+/* Weenie - Portals - Fiun Outpost (30381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30381;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30381, 'portalhalaetanoutpostfiun');
 
@@ -33332,6 +36434,9 @@ VALUES (30381, 13, True)
      , (30381, 15, True)
      , (30381, 19, True)
      , (30381, 1, True);
+
+/* Weenie - Portals - Path of the Blind East (31925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31925;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31925, 'ace31925-pathoftheblindeast');
@@ -33365,6 +36470,9 @@ VALUES (31925, 13, True)
      , (31925, 19, True)
      , (31925, 1, True);
 
+/* Weenie - Portals - Path of the Blind (30971) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30971;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30971, 'portalpathblind');
 
@@ -33396,6 +36504,9 @@ VALUES (30971, 13, True)
      , (30971, 15, True)
      , (30971, 19, True)
      , (30971, 1, True);
+
+/* Weenie - Portals - Path of the Blind West (31924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31924;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31924, 'ace31924-pathoftheblindwest');
@@ -33429,6 +36540,9 @@ VALUES (31924, 13, True)
      , (31924, 19, True)
      , (31924, 1, True);
 
+/* Weenie - Portals - Surface (30970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30970;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30970, 'portalpathblindexit');
 
@@ -33460,6 +36574,9 @@ VALUES (30970, 13, True)
      , (30970, 15, True)
      , (30970, 19, True)
      , (30970, 1, True);
+
+/* Weenie - Portals - Surface (14885) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14885;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14885, 'portalconvergentmedianexit');
@@ -33493,6 +36610,9 @@ VALUES (14885, 13, True)
      , (14885, 19, True)
      , (14885, 1, True);
 
+/* Weenie - Portals - Surface (4157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4157;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4157, 'portalnyeexit');
 
@@ -33524,6 +36644,9 @@ VALUES (4157, 13, True)
      , (4157, 15, True)
      , (4157, 19, True)
      , (4157, 1, True);
+
+/* Weenie - Portals - Venemous Nidus (14888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14888;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14888, 'portalvenomousnidus');
@@ -33557,6 +36680,9 @@ VALUES (14888, 13, True)
      , (14888, 19, True)
      , (14888, 1, True);
 
+/* Weenie - Portals - Gateway to the Halls of Metos (34438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34438;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34438, 'ace34438-gatewaytothehallsofmetos');
 
@@ -33588,6 +36714,9 @@ VALUES (34438, 13, True)
      , (34438, 15, True)
      , (34438, 19, True)
      , (34438, 1, True);
+
+/* Weenie - Portals - Surface (22683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22683;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22683, 'portaltuskerhoneycombsexit');
@@ -33621,6 +36750,9 @@ VALUES (22683, 13, True)
      , (22683, 19, True)
      , (22683, 1, True);
 
+/* Weenie - Portals - Surface (14889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14889;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14889, 'portalvenomousnidusexit');
 
@@ -33652,6 +36784,9 @@ VALUES (14889, 13, True)
      , (14889, 15, True)
      , (14889, 19, True)
      , (14889, 1, True);
+
+/* Weenie - Portals - Exit portal (22896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22896;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22896, 'portalspiritcellexit');
@@ -33685,6 +36820,9 @@ VALUES (22896, 13, True)
      , (22896, 19, True)
      , (22896, 1, True);
 
+/* Weenie - Portals - Crystal Mine Low (22870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22870;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22870, 'portalcrystalminelow');
 
@@ -33716,6 +36854,9 @@ VALUES (22870, 13, True)
      , (22870, 15, True)
      , (22870, 19, True)
      , (22870, 1, True);
+
+/* Weenie - Portals - Crystal Mine New Isparians (22871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22871;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22871, 'portalcrystalminenoob');
@@ -33749,6 +36890,9 @@ VALUES (22871, 13, True)
      , (22871, 19, True)
      , (22871, 1, True);
 
+/* Weenie - Portals - Crystal Mine Mid (22872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22872;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22872, 'portallcrystalminemid');
 
@@ -33780,6 +36924,9 @@ VALUES (22872, 13, True)
      , (22872, 15, True)
      , (22872, 19, True)
      , (22872, 1, True);
+
+/* Weenie - Portals - Crystal Mine Extreme (22868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22868;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22868, 'portalcrystalmineextreme');
@@ -33813,6 +36960,9 @@ VALUES (22868, 13, True)
      , (22868, 19, True)
      , (22868, 1, True);
 
+/* Weenie - Portals - Crystal Mine High (22869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22869;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22869, 'portalcrystalminehigh');
 
@@ -33844,6 +36994,9 @@ VALUES (22869, 13, True)
      , (22869, 15, True)
      , (22869, 19, True)
      , (22869, 1, True);
+
+/* Weenie - Portals - Exit (22867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22867;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22867, 'portalcrystalmineexit');
@@ -33877,6 +37030,9 @@ VALUES (22867, 13, True)
      , (22867, 19, True)
      , (22867, 1, True);
 
+/* Weenie - Portals - Rumuba's Hidey-Hole (8576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8576;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8576, 'portalrumubahideyhole');
 
@@ -33908,6 +37064,9 @@ VALUES (8576, 13, True)
      , (8576, 15, True)
      , (8576, 19, True)
      , (8576, 1, True);
+
+/* Weenie - Portals - Surface (8577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8577;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8577, 'portalrumubahideyholeexit');
@@ -33941,6 +37100,9 @@ VALUES (8577, 13, True)
      , (8577, 19, True)
      , (8577, 1, True);
 
+/* Weenie - Portals - A Mosswart Hideout (8578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8578;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8578, 'portalmosswartrisingdungeon');
 
@@ -33972,6 +37134,9 @@ VALUES (8578, 13, True)
      , (8578, 15, True)
      , (8578, 19, True)
      , (8578, 1, True);
+
+/* Weenie - Portals - Cave (2360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2360;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2360, 'portaltumerokhall');
@@ -34005,6 +37170,9 @@ VALUES (2360, 13, True)
      , (2360, 19, True)
      , (2360, 1, True);
 
+/* Weenie - Portals - Surface (40280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40280;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40280, 'ace40280-surface');
 
@@ -34036,6 +37204,9 @@ VALUES (40280, 13, True)
      , (40280, 15, True)
      , (40280, 19, True)
      , (40280, 1, True);
+
+/* Weenie - Portals - River Mouth (8500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8500, 'portalrivermouth');
@@ -34069,6 +37240,9 @@ VALUES (8500, 13, True)
      , (8500, 19, True)
      , (8500, 1, True);
 
+/* Weenie - Portals - Slithis Pit (8458) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8458;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8458, 'portalslithispit');
 
@@ -34100,6 +37274,9 @@ VALUES (8458, 13, True)
      , (8458, 15, True)
      , (8458, 19, True)
      , (8458, 1, True);
+
+/* Weenie - Portals - Surface (1097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1097;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1097, 'portaltalismanexit');
@@ -34133,6 +37310,9 @@ VALUES (1097, 13, True)
      , (1097, 19, True)
      , (1097, 1, True);
 
+/* Weenie - Portals - Arcanum Furniture Shop (12696) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12696;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12696, 'portalvendorfurniturearcanum');
 
@@ -34164,6 +37344,9 @@ VALUES (12696, 13, True)
      , (12696, 15, True)
      , (12696, 19, True)
      , (12696, 1, True);
+
+/* Weenie - Portals - Surface (2386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2386;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2386, 'portaldisastermazeexit');
@@ -34197,6 +37380,9 @@ VALUES (2386, 13, True)
      , (2386, 19, True)
      , (2386, 1, True);
 
+/* Weenie - Portals - Nuhmudira's Dungeon (15275) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15275;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15275, 'portalnuhmudiramansion');
 
@@ -34228,6 +37414,9 @@ VALUES (15275, 13, True)
      , (15275, 15, True)
      , (15275, 19, True)
      , (15275, 1, True);
+
+/* Weenie - Portals - Surface (8487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8487;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8487, 'portalvesayenmosswartnestexit');
@@ -34261,6 +37450,9 @@ VALUES (8487, 13, True)
      , (8487, 19, True)
      , (8487, 1, True);
 
+/* Weenie - Portals - Sand Caves (44115) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44115;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44115, 'ace44115-sandcaves');
 
@@ -34293,6 +37485,9 @@ VALUES (44115, 13, True)
      , (44115, 19, True)
      , (44115, 1, True);
 
+/* Weenie - Portals - Arena 9 (34524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34524;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34524, 'ace34524-arena9');
 
@@ -34321,6 +37516,9 @@ VALUES (34524, 11, True)
      , (34524, 14, True)
      , (34524, 19, True)
      , (34524, 1, True);
+
+/* Weenie - Portals - Arena 10 (34525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34525;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34525, 'ace34525-arena10');
@@ -34351,6 +37549,9 @@ VALUES (34525, 11, True)
      , (34525, 19, True)
      , (34525, 1, True);
 
+/* Weenie - Portals - Arena 11 (34526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34526;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34526, 'ace34526-arena11');
 
@@ -34379,6 +37580,9 @@ VALUES (34526, 11, True)
      , (34526, 14, True)
      , (34526, 19, True)
      , (34526, 1, True);
+
+/* Weenie - Portals - Arena 12 (34527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34527;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34527, 'ace34527-arena12');
@@ -34409,6 +37613,9 @@ VALUES (34527, 11, True)
      , (34527, 19, True)
      , (34527, 1, True);
 
+/* Weenie - Portals - Arena 13 (34528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34528;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34528, 'ace34528-arena13');
 
@@ -34437,6 +37644,9 @@ VALUES (34528, 11, True)
      , (34528, 14, True)
      , (34528, 19, True)
      , (34528, 1, True);
+
+/* Weenie - Portals - Arena 14 (34529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34529;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34529, 'ace34529-arena14');
@@ -34467,6 +37677,9 @@ VALUES (34529, 11, True)
      , (34529, 19, True)
      , (34529, 1, True);
 
+/* Weenie - Portals - Arena 15 (34530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34530;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34530, 'ace34530-arena15');
 
@@ -34495,6 +37708,9 @@ VALUES (34530, 11, True)
      , (34530, 14, True)
      , (34530, 19, True)
      , (34530, 1, True);
+
+/* Weenie - Portals - Arena 16 (34531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34531;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34531, 'ace34531-arena16');
@@ -34525,6 +37741,9 @@ VALUES (34531, 11, True)
      , (34531, 19, True)
      , (34531, 1, True);
 
+/* Weenie - Portals - Arena 17 (34532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34532;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34532, 'ace34532-arena17');
 
@@ -34553,6 +37772,9 @@ VALUES (34532, 11, True)
      , (34532, 14, True)
      , (34532, 19, True)
      , (34532, 1, True);
+
+/* Weenie - Portals - Arena 18 (34533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34533;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34533, 'ace34533-arena18');
@@ -34583,6 +37805,9 @@ VALUES (34533, 11, True)
      , (34533, 19, True)
      , (34533, 1, True);
 
+/* Weenie - Portals - Arena 2 (34517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34517;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34517, 'ace34517-arena2');
 
@@ -34611,6 +37836,9 @@ VALUES (34517, 11, True)
      , (34517, 14, True)
      , (34517, 19, True)
      , (34517, 1, True);
+
+/* Weenie - Portals - Arena 3 (34518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34518;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34518, 'ace34518-arena3');
@@ -34641,6 +37869,9 @@ VALUES (34518, 11, True)
      , (34518, 19, True)
      , (34518, 1, True);
 
+/* Weenie - Portals - Arena 4 (34519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34519;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34519, 'ace34519-arena4');
 
@@ -34669,6 +37900,9 @@ VALUES (34519, 11, True)
      , (34519, 14, True)
      , (34519, 19, True)
      , (34519, 1, True);
+
+/* Weenie - Portals - Return to the Hall of Champions (34534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34534;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34534, 'ace34534-returntothehallofchampions');
@@ -34699,6 +37933,9 @@ VALUES (34534, 11, True)
      , (34534, 19, True)
      , (34534, 1, True);
 
+/* Weenie - Portals - Arena 5 (34520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34520;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34520, 'ace34520-arena5');
 
@@ -34728,6 +37965,9 @@ VALUES (34520, 11, True)
      , (34520, 19, True)
      , (34520, 1, True);
 
+/* Weenie - Portals - Arena 6 (34521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34521;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34521, 'ace34521-arena6');
 
@@ -34756,6 +37996,9 @@ VALUES (34521, 11, True)
      , (34521, 14, True)
      , (34521, 19, True)
      , (34521, 1, True);
+
+/* Weenie - Portals - Breached Hive (32104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32104;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32104, 'ace32104-breachedhive');
@@ -34789,6 +38032,9 @@ VALUES (32104, 13, True)
      , (32104, 19, True)
      , (32104, 1, True);
 
+/* Weenie - Portals - Hive Eviscerator Burrow (51321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51321;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51321, 'ace51321-hiveevisceratorburrow');
 
@@ -34820,6 +38066,9 @@ VALUES (51321, 13, True)
      , (51321, 15, True)
      , (51321, 19, True)
      , (51321, 1, True);
+
+/* Weenie - Portals - Mistress Halmera's Dig (32235) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32235;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32235, 'ace32235-mistresshalmerasdig');
@@ -34853,6 +38102,9 @@ VALUES (32235, 13, True)
      , (32235, 19, True)
      , (32235, 1, True);
 
+/* Weenie - Portals - A Ruin (1343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1343;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1343, 'portalsimplesuite');
 
@@ -34884,6 +38136,9 @@ VALUES (1343, 13, True)
      , (1343, 15, True)
      , (1343, 19, True)
      , (1343, 1, True);
+
+/* Weenie - Portals - Chapel of Mowen (22648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22648, 'portalchapelofmowen');
@@ -34917,6 +38172,9 @@ VALUES (22648, 13, True)
      , (22648, 19, True)
      , (22648, 1, True);
 
+/* Weenie - Portals - Dungeon Muddy (2072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2072;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2072, 'portaldungeonmuddy');
 
@@ -34948,6 +38206,9 @@ VALUES (2072, 13, True)
      , (2072, 15, True)
      , (2072, 19, True)
      , (2072, 1, True);
+
+/* Weenie - Portals - Surface (2073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2073;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2073, 'portaldungeonmuddyexit');
@@ -34981,6 +38242,9 @@ VALUES (2073, 13, True)
      , (2073, 19, True)
      , (2073, 1, True);
 
+/* Weenie - Portals - Exit to Surface (28262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28262;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28262, 'portalmosswartleerarghexit');
 
@@ -35012,6 +38276,9 @@ VALUES (28262, 13, True)
      , (28262, 15, True)
      , (28262, 19, True)
      , (28262, 1, True);
+
+/* Weenie - Portals - Surface (2392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2392, 'portalabandonedarenaexit');
@@ -35045,6 +38312,9 @@ VALUES (2392, 13, True)
      , (2392, 19, True)
      , (2392, 1, True);
 
+/* Weenie - Portals - Murk Warrens (7252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7252;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7252, 'portalmossbandsho');
 
@@ -35076,6 +38346,9 @@ VALUES (7252, 13, True)
      , (7252, 15, True)
      , (7252, 19, True)
      , (7252, 1, True);
+
+/* Weenie - Portals - Surface (4918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4918;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4918, 'portalbonelairexit');
@@ -35109,6 +38382,9 @@ VALUES (4918, 13, True)
      , (4918, 19, True)
      , (4918, 1, True);
 
+/* Weenie - Portals - Surface (12151) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12151;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12151, 'portalinfiltratorkeepnorthexit');
 
@@ -35140,6 +38416,9 @@ VALUES (12151, 13, True)
      , (12151, 15, True)
      , (12151, 19, True)
      , (12151, 1, True);
+
+/* Weenie - Portals - The Asteliary (12148) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12148;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12148, 'portalasteliary');
@@ -35173,6 +38452,9 @@ VALUES (12148, 13, True)
      , (12148, 19, True)
      , (12148, 1, True);
 
+/* Weenie - Portals - Surface (12149) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12149;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12149, 'portalasteliaryexit');
 
@@ -35204,6 +38486,9 @@ VALUES (12149, 13, True)
      , (12149, 15, True)
      , (12149, 19, True)
      , (12149, 1, True);
+
+/* Weenie - Portals - Surface (23368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23368;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23368, 'portalabadonedarmoryexit');
@@ -35237,6 +38522,9 @@ VALUES (23368, 13, True)
      , (23368, 19, True)
      , (23368, 1, True);
 
+/* Weenie - Portals - Surface (1338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1338;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1338, 'portaldrudgenestexit');
 
@@ -35268,6 +38556,9 @@ VALUES (1338, 13, True)
      , (1338, 15, True)
      , (1338, 19, True)
      , (1338, 1, True);
+
+/* Weenie - Portals - The Underground City (15824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15824;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15824, 'portalthorstentombannexexit');
@@ -35301,6 +38592,9 @@ VALUES (15824, 13, True)
      , (15824, 19, True)
      , (15824, 1, True);
 
+/* Weenie - Portals - Exit to Yaraq (29340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29340;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29340, 'portalnewbieexityaraq');
 
@@ -35332,6 +38626,9 @@ VALUES (29340, 13, True)
      , (29340, 15, True)
      , (29340, 19, True)
      , (29340, 1, True);
+
+/* Weenie - Portals - Surface (4054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4054;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4054, 'portalminesofdespairexit');
@@ -35365,6 +38662,9 @@ VALUES (4054, 13, True)
      , (4054, 19, True)
      , (4054, 1, True);
 
+/* Weenie - Portals - Surface (5531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5531;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5531, 'portalsaadiaruinsexit');
 
@@ -35396,6 +38696,9 @@ VALUES (5531, 13, True)
      , (5531, 15, True)
      , (5531, 19, True)
      , (5531, 1, True);
+
+/* Weenie - Portals - Charged Niche (52222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52222;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52222, 'ace52222-chargedniche');
@@ -35429,6 +38732,9 @@ VALUES (52222, 13, True)
      , (52222, 19, True)
      , (52222, 1, True);
 
+/* Weenie - Portals - Surface (52218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52218;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52218, 'ace52218-surface');
 
@@ -35460,6 +38766,9 @@ VALUES (52218, 13, True)
      , (52218, 15, True)
      , (52218, 19, True)
      , (52218, 1, True);
+
+/* Weenie - Portals - Fiery Alcove (52220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52220;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52220, 'ace52220-fieryalcove');
@@ -35493,6 +38802,9 @@ VALUES (52220, 13, True)
      , (52220, 19, True)
      , (52220, 1, True);
 
+/* Weenie - Portals - Surface (52216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52216;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52216, 'ace52216-surface');
 
@@ -35524,6 +38836,9 @@ VALUES (52216, 13, True)
      , (52216, 15, True)
      , (52216, 19, True)
      , (52216, 1, True);
+
+/* Weenie - Portals - Frozen Recess (52221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52221;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52221, 'ace52221-frozenrecess');
@@ -35557,6 +38872,9 @@ VALUES (52221, 13, True)
      , (52221, 19, True)
      , (52221, 1, True);
 
+/* Weenie - Portals - Surface (52217) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52217;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52217, 'ace52217-surface');
 
@@ -35588,6 +38906,9 @@ VALUES (52217, 13, True)
      , (52217, 15, True)
      , (52217, 19, True)
      , (52217, 1, True);
+
+/* Weenie - Portals - Surface (52219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52219;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52219, 'ace52219-surface');
@@ -35621,6 +38942,9 @@ VALUES (52219, 13, True)
      , (52219, 19, True)
      , (52219, 1, True);
 
+/* Weenie - Portals - Surface (52215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52215;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52215, 'ace52215-surface');
 
@@ -35652,6 +38976,9 @@ VALUES (52215, 13, True)
      , (52215, 15, True)
      , (52215, 19, True)
      , (52215, 1, True);
+
+/* Weenie - Portals - Surface (28781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28781;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28781, 'portalsmallempvaultexit');
@@ -35685,6 +39012,9 @@ VALUES (28781, 13, True)
      , (28781, 19, True)
      , (28781, 1, True);
 
+/* Weenie - Portals - Surface (31884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31884;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31884, 'ace31884-surface');
 
@@ -35716,6 +39046,9 @@ VALUES (31884, 13, True)
      , (31884, 15, True)
      , (31884, 19, True)
      , (31884, 1, True);
+
+/* Weenie - Portals - Surface (1328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1328;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1328, 'portalemptyicecaveexit');
@@ -35749,6 +39082,9 @@ VALUES (1328, 13, True)
      , (1328, 19, True)
      , (1328, 1, True);
 
+/* Weenie - Portals - Temple of N'cthail (33295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33295;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33295, 'ace33295-templeofncthail');
 
@@ -35780,6 +39116,9 @@ VALUES (33295, 13, True)
      , (33295, 15, True)
      , (33295, 19, True)
      , (33295, 1, True);
+
+/* Weenie - Portals - Vault of Eternal Slumber (33302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33302;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33302, 'ace33302-vaultofeternalslumber');
@@ -35813,6 +39152,9 @@ VALUES (33302, 13, True)
      , (33302, 19, True)
      , (33302, 1, True);
 
+/* Weenie - Portals - Western Temple Catacombs (33306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33306;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33306, 'ace33306-westerntemplecatacombs');
 
@@ -35844,6 +39186,9 @@ VALUES (33306, 13, True)
      , (33306, 15, True)
      , (33306, 19, True)
      , (33306, 1, True);
+
+/* Weenie - Portals - Eastern Temple Catacombs (33303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33303;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33303, 'ace33303-easterntemplecatacombs');
@@ -35877,6 +39222,9 @@ VALUES (33303, 13, True)
      , (33303, 19, True)
      , (33303, 1, True);
 
+/* Weenie - Portals - Northern Temple Catacombs (33305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33305;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33305, 'ace33305-northerntemplecatacombs');
 
@@ -35908,6 +39256,9 @@ VALUES (33305, 13, True)
      , (33305, 15, True)
      , (33305, 19, True)
      , (33305, 1, True);
+
+/* Weenie - Portals - Temple Exit (33304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33304;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33304, 'ace33304-templeexit');
@@ -35941,6 +39292,9 @@ VALUES (33304, 13, True)
      , (33304, 19, True)
      , (33304, 1, True);
 
+/* Weenie - Portals - Surface (33544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33544;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33544, 'ace33544-surface');
 
@@ -35972,6 +39326,9 @@ VALUES (33544, 13, True)
      , (33544, 15, True)
      , (33544, 19, True)
      , (33544, 1, True);
+
+/* Weenie - Portals - Surface (51403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51403;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51403, 'ace51403-surface');
@@ -36005,6 +39362,9 @@ VALUES (51403, 13, True)
      , (51403, 19, True)
      , (51403, 1, True);
 
+/* Weenie - Portals - Surface (44119) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44119;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44119, 'ace44119-surface');
 
@@ -36036,6 +39396,9 @@ VALUES (44119, 13, True)
      , (44119, 15, True)
      , (44119, 19, True)
      , (44119, 1, True);
+
+/* Weenie - Portals - Surface (44114) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44114;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44114, 'ace44114-surface');
@@ -36069,6 +39432,9 @@ VALUES (44114, 13, True)
      , (44114, 19, True)
      , (44114, 1, True);
 
+/* Weenie - Portals - Surface (44118) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44118;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44118, 'ace44118-surface');
 
@@ -36100,6 +39466,9 @@ VALUES (44118, 13, True)
      , (44118, 15, True)
      , (44118, 19, True)
      , (44118, 1, True);
+
+/* Weenie - Portals - Surface (49450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49450;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49450, 'ace49450-surface');
@@ -36133,6 +39502,9 @@ VALUES (49450, 13, True)
      , (49450, 19, True)
      , (49450, 1, True);
 
+/* Weenie - Portals - Platforms of Torment (51719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51719;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51719, 'ace51719-platformsoftorment');
 
@@ -36164,6 +39536,9 @@ VALUES (51719, 13, True)
      , (51719, 15, True)
      , (51719, 19, True)
      , (51719, 1, True);
+
+/* Weenie - Portals - Platforms of Rage (51720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51720;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51720, 'ace51720-platformsofrage');
@@ -36197,6 +39572,9 @@ VALUES (51720, 13, True)
      , (51720, 19, True)
      , (51720, 1, True);
 
+/* Weenie - Portals - Surface (51764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51764;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51764, 'ace51764-surface');
 
@@ -36228,6 +39606,9 @@ VALUES (51764, 13, True)
      , (51764, 15, True)
      , (51764, 19, True)
      , (51764, 1, True);
+
+/* Weenie - Portals - Surface (8587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8587, 'portalidolspawninggroundsexit');
@@ -36261,6 +39642,9 @@ VALUES (8587, 13, True)
      , (8587, 19, True)
      , (8587, 1, True);
 
+/* Weenie - Portals - Surface (51616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51616;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51616, 'ace51616-surface');
 
@@ -36292,6 +39676,9 @@ VALUES (51616, 13, True)
      , (51616, 15, True)
      , (51616, 19, True)
      , (51616, 1, True);
+
+/* Weenie - Portals - Masked Preface (51282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51282;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51282, 'ace51282-maskedpreface');
@@ -36325,6 +39712,9 @@ VALUES (51282, 13, True)
      , (51282, 19, True)
      , (51282, 1, True);
 
+/* Weenie - Portals - Surface (51283) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51283;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51283, 'ace51283-surface');
 
@@ -36356,6 +39746,9 @@ VALUES (51283, 13, True)
      , (51283, 15, True)
      , (51283, 19, True)
      , (51283, 1, True);
+
+/* Weenie - Portals - Exit to Olthoi Arcade North (22190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22190;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22190, 'portalolthoiarcadecentralexit');
@@ -36389,6 +39782,9 @@ VALUES (22190, 13, True)
      , (22190, 19, True)
      , (22190, 1, True);
 
+/* Weenie - Portals - Olthoi Arcade (22191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22191;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22191, 'portalolthoiarcadesouth');
 
@@ -36420,6 +39816,9 @@ VALUES (22191, 13, True)
      , (22191, 15, True)
      , (22191, 19, True)
      , (22191, 1, True);
+
+/* Weenie - Portals - Central Olthoi Arcade (22192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22192;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22192, 'portalolthoiarcadesouthexit');
@@ -36453,6 +39852,9 @@ VALUES (22192, 13, True)
      , (22192, 19, True)
      , (22192, 1, True);
 
+/* Weenie - Portals - Exit to the Surface (22193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22193;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22193, 'portalolthoiarcadesouthsurfaceexit');
 
@@ -36484,6 +39886,9 @@ VALUES (22193, 13, True)
      , (22193, 15, True)
      , (22193, 19, True)
      , (22193, 1, True);
+
+/* Weenie - Portals - Laboratory (35847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35847;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35847, 'ace35847-laboratory');
@@ -36517,6 +39922,9 @@ VALUES (35847, 13, True)
      , (35847, 19, True)
      , (35847, 1, True);
 
+/* Weenie - Portals - Surface (35597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35597;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35597, 'ace35597-surface');
 
@@ -36548,6 +39956,9 @@ VALUES (35597, 13, True)
      , (35597, 15, True)
      , (35597, 19, True)
      , (35597, 1, True);
+
+/* Weenie - Portals - Olthoi Warrior Nest (27585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27585;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27585, 'portalwarriornamequest');
@@ -36581,6 +39992,9 @@ VALUES (27585, 13, True)
      , (27585, 19, True)
      , (27585, 1, True);
 
+/* Weenie - Portals - Secret Putiputi Place (10925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10925, 'portalgrubhatcheryentry-xp');
 
@@ -36612,6 +40026,9 @@ VALUES (10925, 13, True)
      , (10925, 15, True)
      , (10925, 19, True)
      , (10925, 1, True);
+
+/* Weenie - Portals - Deeper Caves (34019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34019;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34019, 'ace34019-deepercaves');
@@ -36645,6 +40062,9 @@ VALUES (34019, 13, True)
      , (34019, 19, True)
      , (34019, 1, True);
 
+/* Weenie - Portals - Deepest Caves (34020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34020;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34020, 'ace34020-deepestcaves');
 
@@ -36676,6 +40096,9 @@ VALUES (34020, 13, True)
      , (34020, 15, True)
      , (34020, 19, True)
      , (34020, 1, True);
+
+/* Weenie - Portals - Steaming Hovel (29099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29099;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29099, 'portalsteaminghovel');
@@ -36709,6 +40132,9 @@ VALUES (29099, 13, True)
      , (29099, 19, True)
      , (29099, 1, True);
 
+/* Weenie - Portals - Yanshi Lower Undermine (32518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32518;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32518, 'ace32518-yanshilowerundermine');
 
@@ -36740,6 +40166,9 @@ VALUES (32518, 13, True)
      , (32518, 15, True)
      , (32518, 19, True)
      , (32518, 1, True);
+
+/* Weenie - Portals - Surface (32516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32516;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32516, 'ace32516-surface');
@@ -36773,6 +40202,9 @@ VALUES (32516, 13, True)
      , (32516, 19, True)
      , (32516, 1, True);
 
+/* Weenie - Portals - Yanshi Upper Undermine (32517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32517;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32517, 'ace32517-yanshiupperundermine');
 
@@ -36804,6 +40236,9 @@ VALUES (32517, 13, True)
      , (32517, 15, True)
      , (32517, 19, True)
      , (32517, 1, True);
+
+/* Weenie - Portals - Surface Exit (27586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27586;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27586, 'portalwarriornamequestexit');
@@ -36837,6 +40272,9 @@ VALUES (27586, 13, True)
      , (27586, 19, True)
      , (27586, 1, True);
 
+/* Weenie - Portals - Surface (22691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22691;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22691, 'portaltuskerpitsexit');
 
@@ -36868,6 +40306,9 @@ VALUES (22691, 13, True)
      , (22691, 15, True)
      , (22691, 19, True)
      , (22691, 1, True);
+
+/* Weenie - Portals - Surface (22681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22681;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22681, 'portaltuskerholdingexit');
@@ -36901,6 +40342,9 @@ VALUES (22681, 13, True)
      , (22681, 19, True)
      , (22681, 1, True);
 
+/* Weenie - Portals - Surface (22687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22687;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22687, 'portaltuskerlacunaexit');
 
@@ -36932,6 +40376,9 @@ VALUES (22687, 13, True)
      , (22687, 15, True)
      , (22687, 19, True)
      , (22687, 1, True);
+
+/* Weenie - Portals - Surface (4956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4956;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4956, 'portalstonecathedralexit');
@@ -36965,6 +40412,9 @@ VALUES (4956, 13, True)
      , (4956, 19, True)
      , (4956, 1, True);
 
+/* Weenie - Portals - Surface (1346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1346;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1346, 'portalwhiteratlairexit');
 
@@ -36997,6 +40447,9 @@ VALUES (1346, 13, True)
      , (1346, 19, True)
      , (1346, 1, True);
 
+/* Weenie - Portals - Surface (5199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5199, 'portalapplejuiceexit');
 
@@ -37028,6 +40481,9 @@ VALUES (5199, 13, True)
      , (5199, 15, True)
      , (5199, 19, True)
      , (5199, 1, True);
+
+/* Weenie - Portals - Olthoi Tunnel (43552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43552;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43552, 'ace43552-olthoitunnel');
@@ -37065,6 +40521,9 @@ VALUES (43552, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43552, 67111849, 1, 255);
 
+/* Weenie - Portals - Surface (22751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22751;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22751, 'portarampagebluffexit');
 
@@ -37096,6 +40555,9 @@ VALUES (22751, 13, True)
      , (22751, 15, True)
      , (22751, 19, True)
      , (22751, 1, True);
+
+/* Weenie - Portals - Tusker Assault (22659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22659;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22659, 'portaltuskerassault');
@@ -37129,6 +40591,9 @@ VALUES (22659, 13, True)
      , (22659, 19, True)
      , (22659, 1, True);
 
+/* Weenie - Portals - Surface (22660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22660;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22660, 'portaltuskerassaultexit');
 
@@ -37160,6 +40625,9 @@ VALUES (22660, 13, True)
      , (22660, 15, True)
      , (22660, 19, True)
      , (22660, 1, True);
+
+/* Weenie - Portals - Surface (22675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22675;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22675, 'portaltuskergauntletexit');
@@ -37193,6 +40661,9 @@ VALUES (22675, 13, True)
      , (22675, 19, True)
      , (22675, 1, True);
 
+/* Weenie - Portals - Surface (33035) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33035;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33035, 'ace33035-surface');
 
@@ -37224,6 +40695,9 @@ VALUES (33035, 13, True)
      , (33035, 15, True)
      , (33035, 19, True)
      , (33035, 1, True);
+
+/* Weenie - Portals - Surface (22931) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22931;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22931, 'portalaerbaxsurface');
@@ -37257,6 +40731,9 @@ VALUES (22931, 13, True)
      , (22931, 19, True)
      , (22931, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 10 (52912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52912;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52912, 'ace52912-gauntletstage10');
 
@@ -37285,6 +40762,9 @@ VALUES (52912, 11, True)
      , (52912, 14, True)
      , (52912, 19, True)
      , (52912, 1, True);
+
+/* Weenie - Portals - Gauntlet Stage 11 (52913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52913;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52913, 'ace52913-gauntletstage11');
@@ -37315,6 +40795,9 @@ VALUES (52913, 11, True)
      , (52913, 19, True)
      , (52913, 1, True);
 
+/* Weenie - Portals - Gauntlet Stage 12 (52914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52914;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52914, 'ace52914-gauntletstage12');
 
@@ -37343,6 +40826,9 @@ VALUES (52914, 11, True)
      , (52914, 14, True)
      , (52914, 19, True)
      , (52914, 1, True);
+
+/* Weenie - Portals - Gauntlet Exit (52915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52915;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52915, 'ace52915-gauntletexit');
@@ -37373,6 +40859,9 @@ VALUES (52915, 11, True)
      , (52915, 19, True)
      , (52915, 1, True);
 
+/* Weenie - Portals - Gauntlet Exit (52928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52928, 'ace52928-gauntletexit');
 
@@ -37401,6 +40890,9 @@ VALUES (52928, 11, True)
      , (52928, 14, True)
      , (52928, 19, True)
      , (52928, 1, True);
+
+/* Weenie - Portals - Grael's Chamber (33784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33784;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33784, 'ace33784-graelschamber');
@@ -37434,6 +40926,9 @@ VALUES (33784, 13, True)
      , (33784, 19, True)
      , (33784, 1, True);
 
+/* Weenie - Portals - Tumerok Post (2558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2558;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2558, 'portaltumeroksmallhideout');
 
@@ -37465,6 +40960,9 @@ VALUES (2558, 13, True)
      , (2558, 15, True)
      , (2558, 19, True)
      , (2558, 1, True);
+
+/* Weenie - Portals - Surface (2559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2559;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2559, 'portaltumeroksmallhideoutexit');
@@ -37498,6 +40996,9 @@ VALUES (2559, 13, True)
      , (2559, 19, True)
      , (2559, 1, True);
 
+/* Weenie - Portals - Tainted Grotto (25227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25227;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25227, 'portalhighnest1');
 
@@ -37529,6 +41030,9 @@ VALUES (25227, 13, True)
      , (25227, 15, True)
      , (25227, 19, True)
      , (25227, 1, True);
+
+/* Weenie - Portals - Frozen Library (28778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28778;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28778, 'portalfrozenlibrary');
@@ -37562,6 +41066,9 @@ VALUES (28778, 13, True)
      , (28778, 19, True)
      , (28778, 1, True);
 
+/* Weenie - Portals - Soul Hunter's Lair (34318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34318;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34318, 'ace34318-soulhunterslair');
 
@@ -37593,6 +41100,9 @@ VALUES (34318, 13, True)
      , (34318, 15, True)
      , (34318, 19, True)
      , (34318, 1, True);
+
+/* Weenie - Portals - Burun Burrow (27477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27477, 'portalburunburrow');
@@ -37626,6 +41136,9 @@ VALUES (27477, 13, True)
      , (27477, 19, True)
      , (27477, 1, True);
 
+/* Weenie - Portals - Deeper Catacombs (24229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24229;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24229, 'portalolthoilairaluexpansion');
 
@@ -37657,6 +41170,9 @@ VALUES (24229, 13, True)
      , (24229, 15, True)
      , (24229, 19, True)
      , (24229, 1, True);
+
+/* Weenie - Portals - Serpent Clan Training Camp (23899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23899;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23899, 'portaltumerokwarserpent');
@@ -37690,6 +41206,9 @@ VALUES (23899, 13, True)
      , (23899, 19, True)
      , (23899, 1, True);
 
+/* Weenie - Portals - Sclavus Umbral Forge (32830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32830;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32830, 'ace32830-sclavusumbralforge');
 
@@ -37721,6 +41240,9 @@ VALUES (32830, 13, True)
      , (32830, 15, True)
      , (32830, 19, True)
      , (32830, 1, True);
+
+/* Weenie - Portals - Surface (23900) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23900;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23900, 'portaltumerokwarserpentexit');
@@ -37754,6 +41276,9 @@ VALUES (23900, 13, True)
      , (23900, 19, True)
      , (23900, 1, True);
 
+/* Weenie - Portals - Trialos (2341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2341, 'portaltrialos');
 
@@ -37785,6 +41310,9 @@ VALUES (2341, 13, True)
      , (2341, 15, True)
      , (2341, 19, True)
      , (2341, 1, True);
+
+/* Weenie - Portals - Surface (22658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22658;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22658, 'portaltuskerarmoryexit');
@@ -37818,6 +41346,9 @@ VALUES (22658, 13, True)
      , (22658, 19, True)
      , (22658, 1, True);
 
+/* Weenie - Portals - Exit (23516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23516, 'portaltowerexit');
 
@@ -37849,6 +41380,9 @@ VALUES (23516, 13, True)
      , (23516, 15, True)
      , (23516, 19, True)
      , (23516, 1, True);
+
+/* Weenie - Portals - Tower Base Dungeon (23515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23515, 'portaltowerbase');
@@ -37882,6 +41416,9 @@ VALUES (23515, 13, True)
      , (23515, 19, True)
      , (23515, 1, True);
 
+/* Weenie - Portals - Swamp Temple (2383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2383;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2383, 'portalswamptemple');
 
@@ -37913,6 +41450,9 @@ VALUES (2383, 13, True)
      , (2383, 15, True)
      , (2383, 19, True)
      , (2383, 1, True);
+
+/* Weenie - Portals - Mountain Keep (1364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1364;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1364, 'portalmountainkeep');
@@ -37946,6 +41486,9 @@ VALUES (1364, 13, True)
      , (1364, 19, True)
      , (1364, 1, True);
 
+/* Weenie - Portals - Surface (51691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51691;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51691, 'ace51691-surface');
 
@@ -37977,6 +41520,9 @@ VALUES (51691, 13, True)
      , (51691, 15, True)
      , (51691, 19, True)
      , (51691, 1, True);
+
+/* Weenie - Portals - Assessment Chamber (52079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52079;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52079, 'ace52079-assessmentchamber');
@@ -38010,6 +41556,9 @@ VALUES (52079, 13, True)
      , (52079, 19, True)
      , (52079, 1, True);
 
+/* Weenie - Portals - Surface (52173) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52173;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52173, 'ace52173-surface');
 
@@ -38041,6 +41590,9 @@ VALUES (52173, 13, True)
      , (52173, 15, True)
      , (52173, 19, True)
      , (52173, 1, True);
+
+/* Weenie - Portals - Surface (51581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51581;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51581, 'ace51581-surface');
@@ -38074,6 +41626,9 @@ VALUES (51581, 13, True)
      , (51581, 19, True)
      , (51581, 1, True);
 
+/* Weenie - Portals - Surface (51597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51597;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51597, 'ace51597-surface');
 
@@ -38105,6 +41660,9 @@ VALUES (51597, 13, True)
      , (51597, 15, True)
      , (51597, 19, True)
      , (51597, 1, True);
+
+/* Weenie - Portals - Exit to the Surface (11441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11441;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11441, 'portalpalenqualexit-xp');
@@ -38138,6 +41696,9 @@ VALUES (11441, 13, True)
      , (11441, 19, True)
      , (11441, 1, True);
 
+/* Weenie - Portals - Arena (7894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7894, 'portalpkarena2');
 
@@ -38169,6 +41730,9 @@ VALUES (7894, 13, True)
      , (7894, 15, True)
      , (7894, 19, True)
      , (7894, 1, True);
+
+/* Weenie - Portals - Arena (7891) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7891;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7891, 'portalpkarena1');
@@ -38202,6 +41766,9 @@ VALUES (7891, 13, True)
      , (7891, 19, True)
      , (7891, 1, True);
 
+/* Weenie - Portals - Tunnels (28102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28102;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28102, 'portalrenegadetunnels');
 
@@ -38233,6 +41800,9 @@ VALUES (28102, 13, True)
      , (28102, 15, True)
      , (28102, 19, True)
      , (28102, 1, True);
+
+/* Weenie - Portals - Underway (28103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28103;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28103, 'portalrenegadeunderway');
@@ -38266,6 +41836,9 @@ VALUES (28103, 13, True)
      , (28103, 19, True)
      , (28103, 1, True);
 
+/* Weenie - Portals - Burun Hold (28097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28097;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28097, 'portalburunhold');
 
@@ -38297,6 +41870,9 @@ VALUES (28097, 13, True)
      , (28097, 15, True)
      , (28097, 19, True)
      , (28097, 1, True);
+
+/* Weenie - Portals - Murk Warrens (7250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7250, 'portalmossbandgha');
@@ -38330,6 +41906,9 @@ VALUES (7250, 13, True)
      , (7250, 19, True)
      , (7250, 1, True);
 
+/* Weenie - Portals - Surface (34320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34320, 'ace34320-surface');
 
@@ -38361,6 +41940,9 @@ VALUES (34320, 13, True)
      , (34320, 15, True)
      , (34320, 19, True)
      , (34320, 1, True);
+
+/* Weenie - Portals - Soul Hunter's Chambers (34319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34319;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34319, 'ace34319-soulhunterschambers');
@@ -38394,6 +41976,9 @@ VALUES (34319, 13, True)
      , (34319, 19, True)
      , (34319, 1, True);
 
+/* Weenie - Portals - Exit Silver Legion Keep (29440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29440;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29440, 'portalinvaderkeepsilverexit');
 
@@ -38425,6 +42010,9 @@ VALUES (29440, 13, True)
      , (29440, 15, True)
      , (29440, 19, True)
      , (29440, 1, True);
+
+/* Weenie - Portals - Black Spear Temple Upper Levels (33017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33017;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33017, 'ace33017-blackspeartempleupperlevels');
@@ -38458,6 +42046,9 @@ VALUES (33017, 13, True)
      , (33017, 19, True)
      , (33017, 1, True);
 
+/* Weenie - Portals - Surface (32711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32711;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32711, 'ace32711-surface');
 
@@ -38489,6 +42080,9 @@ VALUES (32711, 13, True)
      , (32711, 15, True)
      , (32711, 19, True)
      , (32711, 1, True);
+
+/* Weenie - Portals - Castle Pietrus (32712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32712;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32712, 'ace32712-castlepietrus');
@@ -38522,6 +42116,9 @@ VALUES (32712, 13, True)
      , (32712, 19, True)
      , (32712, 1, True);
 
+/* Weenie - Portals - Surface (9189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9189;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9189, 'portaltombofthedeadexit');
 
@@ -38553,6 +42150,9 @@ VALUES (9189, 13, True)
      , (9189, 15, True)
      , (9189, 19, True)
      , (9189, 1, True);
+
+/* Weenie - Portals - Beyond the Mines of Despair (8969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8969;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8969, 'portalminesofdespairtunnels');
@@ -38586,6 +42186,9 @@ VALUES (8969, 13, True)
      , (8969, 19, True)
      , (8969, 1, True);
 
+/* Weenie - Portals - Exit to Surface (25836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25836;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25836, 'portalfirebirdemptysoulsurface');
 
@@ -38617,6 +42220,9 @@ VALUES (25836, 13, True)
      , (25836, 15, True)
      , (25836, 19, True)
      , (25836, 1, True);
+
+/* Weenie - Portals - Dragon's Power (25833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25833;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25833, 'portaldragonemptysoul');
@@ -38650,6 +42256,9 @@ VALUES (25833, 13, True)
      , (25833, 19, True)
      , (25833, 1, True);
 
+/* Weenie - Portals - Exit to Surface (25834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25834;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25834, 'portaldragonemptysoulsurface');
 
@@ -38681,6 +42290,9 @@ VALUES (25834, 13, True)
      , (25834, 15, True)
      , (25834, 19, True)
      , (25834, 1, True);
+
+/* Weenie - Portals - Surface (1344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1344, 'portalsimplesuiteexit');
@@ -38714,6 +42326,9 @@ VALUES (1344, 13, True)
      , (1344, 19, True)
      , (1344, 1, True);
 
+/* Weenie - Portals - Exit to Surface (27691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27691;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27691, 'portalburunholdingexit');
 
@@ -38745,6 +42360,9 @@ VALUES (27691, 13, True)
      , (27691, 15, True)
      , (27691, 19, True)
      , (27691, 1, True);
+
+/* Weenie - Portals - Crater Lair (3651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3651;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3651, 'portalcraterlair');
@@ -38778,6 +42396,9 @@ VALUES (3651, 13, True)
      , (3651, 19, True)
      , (3651, 1, True);
 
+/* Weenie - Portals - Surface (3652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3652;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3652, 'portalcraterlairexit');
 
@@ -38809,6 +42430,9 @@ VALUES (3652, 13, True)
      , (3652, 15, True)
      , (3652, 19, True)
      , (3652, 1, True);
+
+/* Weenie - Portals - Deeper Catacombs (24228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24228;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24228, 'portalcraterlairexpansion');
@@ -38842,6 +42466,9 @@ VALUES (24228, 13, True)
      , (24228, 19, True)
      , (24228, 1, True);
 
+/* Weenie - Portals - Surface (4960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4960, 'portalempyreangarrisonexit');
 
@@ -38873,6 +42500,9 @@ VALUES (4960, 13, True)
      , (4960, 15, True)
      , (4960, 19, True)
      , (4960, 1, True);
+
+/* Weenie - Portals - Surface (28787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28787;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28787, 'portalhiddencityexit');
@@ -38906,6 +42536,9 @@ VALUES (28787, 13, True)
      , (28787, 19, True)
      , (28787, 1, True);
 
+/* Weenie - Portals - Hidden City (28786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28786;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28786, 'portalhiddencity');
 
@@ -38937,6 +42570,9 @@ VALUES (28786, 13, True)
      , (28786, 15, True)
      , (28786, 19, True)
      , (28786, 1, True);
+
+/* Weenie - Portals - Surface (29097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29097;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29097, 'portalhumidhovelexit');
@@ -38970,6 +42606,9 @@ VALUES (29097, 13, True)
      , (29097, 19, True)
      , (29097, 1, True);
 
+/* Weenie - Portals - Humid Hovel (29102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29102;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29102, 'portalhumidhovel');
 
@@ -39001,6 +42640,9 @@ VALUES (29102, 13, True)
      , (29102, 15, True)
      , (29102, 19, True)
      , (29102, 1, True);
+
+/* Weenie - Portals - Surface (24953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24953;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24953, 'portallugiancitadelsdiresexit');
@@ -39034,6 +42676,9 @@ VALUES (24953, 13, True)
      , (24953, 19, True)
      , (24953, 1, True);
 
+/* Weenie - Portals - Surface (1602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1602;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1602, 'portallostgardenruinsexit');
 
@@ -39065,6 +42710,9 @@ VALUES (1602, 13, True)
      , (1602, 15, True)
      , (1602, 19, True)
      , (1602, 1, True);
+
+/* Weenie - Portals - Surface (29098) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29098;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29098, 'portalmoisthovelexit');
@@ -39098,6 +42746,9 @@ VALUES (29098, 13, True)
      , (29098, 19, True)
      , (29098, 1, True);
 
+/* Weenie - Portals - Surface (1366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1366, 'portalmountainkeepexit2');
 
@@ -39129,6 +42780,9 @@ VALUES (1366, 13, True)
      , (1366, 15, True)
      , (1366, 19, True)
      , (1366, 1, True);
+
+/* Weenie - Portals - Holtburg (1365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1365;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1365, 'portalmountainkeepexit');
@@ -39162,6 +42816,9 @@ VALUES (1365, 13, True)
      , (1365, 19, True)
      , (1365, 1, True);
 
+/* Weenie - Portals - Exit portal (24917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24917, 'portalothoihivelow2exit');
 
@@ -39193,6 +42850,9 @@ VALUES (24917, 13, True)
      , (24917, 15, True)
      , (24917, 19, True)
      , (24917, 1, True);
+
+/* Weenie - Portals - Exit portal (24918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24918;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24918, 'portalothoihivelowexit');
@@ -39226,6 +42886,9 @@ VALUES (24918, 13, True)
      , (24918, 19, True)
      , (24918, 1, True);
 
+/* Weenie - Portals - Olthoi Brood Hive (24912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24912;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24912, 'portalolthoihivelow');
 
@@ -39257,6 +42920,9 @@ VALUES (24912, 13, True)
      , (24912, 15, True)
      , (24912, 19, True)
      , (24912, 1, True);
+
+/* Weenie - Portals - Exit portal (24636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24636;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24636, 'portalothoihivemidexit');
@@ -39290,6 +42956,9 @@ VALUES (24636, 13, True)
      , (24636, 19, True)
      , (24636, 1, True);
 
+/* Weenie - Portals - Olthoi Brood Hive (24635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24635;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24635, 'portalothoihivemid');
 
@@ -39321,6 +42990,9 @@ VALUES (24635, 13, True)
      , (24635, 15, True)
      , (24635, 19, True)
      , (24635, 1, True);
+
+/* Weenie - Portals - Exit portal (24634) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24634;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24634, 'portalothoihivehighexit');
@@ -39354,6 +43026,9 @@ VALUES (24634, 13, True)
      , (24634, 19, True)
      , (24634, 1, True);
 
+/* Weenie - Portals - Olthoi Brood Hive (24880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24880;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24880, 'portalolthoihive2high');
 
@@ -39385,6 +43060,9 @@ VALUES (24880, 13, True)
      , (24880, 15, True)
      , (24880, 19, True)
      , (24880, 1, True);
+
+/* Weenie - Portals - Exit portal (24882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24882;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24882, 'portalothoihivehigh2exit');
@@ -39418,6 +43096,9 @@ VALUES (24882, 13, True)
      , (24882, 19, True)
      , (24882, 1, True);
 
+/* Weenie - Portals - Exit portal (24915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24915;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24915, 'portalothoihiveextreme2exit');
 
@@ -39449,6 +43130,9 @@ VALUES (24915, 13, True)
      , (24915, 15, True)
      , (24915, 19, True)
      , (24915, 1, True);
+
+/* Weenie - Portals - Olthoi Brood Hive (24914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24914, 'portalothoihiveextreme');
@@ -39482,6 +43166,9 @@ VALUES (24914, 13, True)
      , (24914, 19, True)
      , (24914, 1, True);
 
+/* Weenie - Portals - Exit portal (24916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24916;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24916, 'portalothoihiveextremeexit');
 
@@ -39513,6 +43200,9 @@ VALUES (24916, 13, True)
      , (24916, 15, True)
      , (24916, 19, True)
      , (24916, 1, True);
+
+/* Weenie - Portals - Surface (2342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2342;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2342, 'portaltrialosexit');
@@ -39546,6 +43236,9 @@ VALUES (2342, 13, True)
      , (2342, 19, True)
      , (2342, 1, True);
 
+/* Weenie - Portals - Surface (22677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22677;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22677, 'portaltuskergrottoexit');
 
@@ -39577,6 +43270,9 @@ VALUES (22677, 13, True)
      , (22677, 15, True)
      , (22677, 19, True)
      , (22677, 1, True);
+
+/* Weenie - Portals - Tusker Grotto (22676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22676;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22676, 'portaltuskergrotto');
@@ -39610,6 +43306,9 @@ VALUES (22676, 13, True)
      , (22676, 19, True)
      , (22676, 1, True);
 
+/* Weenie - Portals - Surface (2090) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2090;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2090, 'portalrockycryptexit');
 
@@ -39641,6 +43340,9 @@ VALUES (2090, 13, True)
      , (2090, 15, True)
      , (2090, 19, True)
      , (2090, 1, True);
+
+/* Weenie - Portals - Surface (8485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8485;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8485, 'portalvesayensmallruinexit');
@@ -39674,6 +43376,9 @@ VALUES (8485, 13, True)
      , (8485, 19, True)
      , (8485, 1, True);
 
+/* Weenie - Portals - Surface (8483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8483;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8483, 'portalvesayensmalltemplecexit');
 
@@ -39705,6 +43410,9 @@ VALUES (8483, 13, True)
      , (8483, 15, True)
      , (8483, 19, True)
      , (8483, 1, True);
+
+/* Weenie - Portals - Surface (29100) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29100;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29100, 'portalsteaminghovelexit');
@@ -39738,6 +43446,9 @@ VALUES (29100, 13, True)
      , (29100, 19, True)
      , (29100, 1, True);
 
+/* Weenie - Portals - Surface (29096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29096, 'portalsultryhovelexit');
 
@@ -39769,6 +43480,9 @@ VALUES (29096, 13, True)
      , (29096, 15, True)
      , (29096, 19, True)
      , (29096, 1, True);
+
+/* Weenie - Portals - Exit (11685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11685;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11685, 'portaldyedungeonexit');
@@ -39802,6 +43516,9 @@ VALUES (11685, 13, True)
      , (11685, 19, True)
      , (11685, 1, True);
 
+/* Weenie - Portals - Surface (2384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2384;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2384, 'portalswamptempleexit');
 
@@ -39833,6 +43550,9 @@ VALUES (2384, 13, True)
      , (2384, 15, True)
      , (2384, 19, True)
      , (2384, 1, True);
+
+/* Weenie - Portals - Exit To Surface (25228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25228;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25228, 'portalhighnest1surface');
@@ -39866,6 +43586,9 @@ VALUES (25228, 13, True)
      , (25228, 19, True)
      , (25228, 1, True);
 
+/* Weenie - Portals - Surface (2561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2561;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2561, 'portaltumerokbaseexit');
 
@@ -39897,6 +43620,9 @@ VALUES (2561, 13, True)
      , (2561, 15, True)
      , (2561, 19, True)
      , (2561, 1, True);
+
+/* Weenie - Portals - Tumerok Base (2560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2560;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2560, 'portaltumerokbase');
@@ -39930,6 +43656,9 @@ VALUES (2560, 13, True)
      , (2560, 19, True)
      , (2560, 1, True);
 
+/* Weenie - Portals - Exit to the Surface (11326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11326, 'portaltanuacavernexit-xp');
 
@@ -39961,6 +43690,9 @@ VALUES (11326, 13, True)
      , (11326, 15, True)
      , (11326, 19, True)
      , (11326, 1, True);
+
+/* Weenie - Portals - Surface (2563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2563;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2563, 'portaltumerokdungeonexit');
@@ -39994,6 +43726,9 @@ VALUES (2563, 13, True)
      , (2563, 19, True)
      , (2563, 1, True);
 
+/* Weenie - Portals - Surface (2338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2338;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2338, 'portaltumerokoutpostexit');
 
@@ -40025,6 +43760,9 @@ VALUES (2338, 13, True)
      , (2338, 15, True)
      , (2338, 19, True)
      , (2338, 1, True);
+
+/* Weenie - Portals - Exit to Surface (28266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28266;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28266, 'portalmosswartswamplordexit');
@@ -40058,6 +43796,9 @@ VALUES (28266, 13, True)
      , (28266, 19, True)
      , (28266, 1, True);
 
+/* Weenie - Portals - Tumerok Dungeon (2562) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2562;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2562, 'portaltumerokdungeon');
 
@@ -40089,6 +43830,9 @@ VALUES (2562, 13, True)
      , (2562, 15, True)
      , (2562, 19, True)
      , (2562, 1, True);
+
+/* Weenie - Portals - Deeper Catacombs (24230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24230;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24230, 'portalolthoilairexpansion');
@@ -40122,6 +43866,9 @@ VALUES (24230, 13, True)
      , (24230, 19, True)
      , (24230, 1, True);
 
+/* Weenie - Portals - Surface (22649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22649;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22649, 'portalchapelofmowenexit');
 
@@ -40153,6 +43900,9 @@ VALUES (22649, 13, True)
      , (22649, 15, True)
      , (22649, 19, True)
      , (22649, 1, True);
+
+/* Weenie - Portals - Surface (22670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22670;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22670, 'portaltuskerencampmentsexit');
@@ -40186,6 +43936,9 @@ VALUES (22670, 13, True)
      , (22670, 19, True)
      , (22670, 1, True);
 
+/* Weenie - Portals - Tusker Encampments (22669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22669;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22669, 'portaltuskerencampments');
 
@@ -40217,6 +43970,9 @@ VALUES (22669, 13, True)
      , (22669, 15, True)
      , (22669, 19, True)
      , (22669, 1, True);
+
+/* Weenie - Portals - Surface (22673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22673;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22673, 'portaltuskerfreeholdexit');
@@ -40250,6 +44006,9 @@ VALUES (22673, 13, True)
      , (22673, 19, True)
      , (22673, 1, True);
 
+/* Weenie - Portals - Tusker Freehold (22672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22672;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22672, 'portaltuskerfreehold');
 
@@ -40281,6 +44040,9 @@ VALUES (22672, 13, True)
      , (22672, 15, True)
      , (22672, 19, True)
      , (22672, 1, True);
+
+/* Weenie - Portals - Surface (22707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22707;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22707, 'portalvengeancecavernsexit');
@@ -40314,6 +44076,9 @@ VALUES (22707, 13, True)
      , (22707, 19, True)
      , (22707, 1, True);
 
+/* Weenie - Portals - Tusker Retreat (22694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22694;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22694, 'portaltuskerretreat');
 
@@ -40345,6 +44110,9 @@ VALUES (22694, 13, True)
      , (22694, 15, True)
      , (22694, 19, True)
      , (22694, 1, True);
+
+/* Weenie - Portals - Surface (25511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25511;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25511, 'portalcrystalminerot2exit');
@@ -40378,6 +44146,9 @@ VALUES (25511, 13, True)
      , (25511, 19, True)
      , (25511, 1, True);
 
+/* Weenie - Portals - Crystal Mine (25494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25494;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25494, 'portalcrystalminerot2');
 
@@ -40409,6 +44180,9 @@ VALUES (25494, 13, True)
      , (25494, 15, True)
      , (25494, 19, True)
      , (25494, 1, True);
+
+/* Weenie - Portals - Surface (9200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9200;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9200, 'portalsandshallowexit');
@@ -40442,6 +44216,9 @@ VALUES (9200, 13, True)
      , (9200, 19, True)
      , (9200, 1, True);
 
+/* Weenie - Portals - Sand Shallow (9199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9199, 'portalsandshallow');
 
@@ -40473,6 +44250,9 @@ VALUES (9199, 13, True)
      , (9199, 15, True)
      , (9199, 19, True)
      , (9199, 1, True);
+
+/* Weenie - Portals - Surface (2363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2363;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2363, 'portalthasaliexit');
@@ -40506,6 +44286,9 @@ VALUES (2363, 13, True)
      , (2363, 19, True)
      , (2363, 1, True);
 
+/* Weenie - Portals - Surface (22695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22695;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22695, 'portaltuskerretreatexit');
 
@@ -40537,6 +44320,9 @@ VALUES (22695, 13, True)
      , (22695, 15, True)
      , (22695, 19, True)
      , (22695, 1, True);
+
+/* Weenie - Portals - Temple of the Stirring Shadow (32508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32508;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32508, 'ace32508-templeofthestirringshadow');
@@ -40570,6 +44356,9 @@ VALUES (32508, 13, True)
      , (32508, 19, True)
      , (32508, 1, True);
 
+/* Weenie - Portals - Surface (32507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32507;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32507, 'ace32507-surface');
 
@@ -40601,6 +44390,9 @@ VALUES (32507, 13, True)
      , (32507, 15, True)
      , (32507, 19, True)
      , (32507, 1, True);
+
+/* Weenie - Portals - Temple North Wing (32509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32509;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32509, 'ace32509-templenorthwing');
@@ -40634,6 +44426,9 @@ VALUES (32509, 13, True)
      , (32509, 19, True)
      , (32509, 1, True);
 
+/* Weenie - Portals - Temple South Wing (32505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32505;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32505, 'ace32505-templesouthwing');
 
@@ -40665,6 +44460,9 @@ VALUES (32505, 13, True)
      , (32505, 15, True)
      , (32505, 19, True)
      , (32505, 1, True);
+
+/* Weenie - Portals - Temple East Wing (32506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32506;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32506, 'ace32506-templeeastwing');
@@ -40698,6 +44496,9 @@ VALUES (32506, 13, True)
      , (32506, 19, True)
      , (32506, 1, True);
 
+/* Weenie - Portals - Font of the Eternal Harvester (31670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31670;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31670, 'ace31670-fontoftheeternalharvester');
 
@@ -40729,6 +44530,9 @@ VALUES (31670, 13, True)
      , (31670, 15, True)
      , (31670, 19, True)
      , (31670, 1, True);
+
+/* Weenie - Portals - Surface (31671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31671;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31671, 'ace31671-surface');
@@ -40762,6 +44566,9 @@ VALUES (31671, 13, True)
      , (31671, 19, True)
      , (31671, 1, True);
 
+/* Weenie - Portals - Northern Power Forge (30472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30472;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30472, 'portalpowerforgenorth');
 
@@ -40793,6 +44600,9 @@ VALUES (30472, 13, True)
      , (30472, 15, True)
      , (30472, 19, True)
      , (30472, 1, True);
+
+/* Weenie - Portals - Gearknight Lord's Tower (41590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41590;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41590, 'ace41590-gearknightlordstower');
@@ -40826,6 +44636,9 @@ VALUES (41590, 13, True)
      , (41590, 19, True)
      , (41590, 1, True);
 
+/* Weenie - Portals - Gearknight Lord's Tower (41594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41594;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41594, 'ace41594-gearknightlordstower');
 
@@ -40857,6 +44670,9 @@ VALUES (41594, 13, True)
      , (41594, 15, True)
      , (41594, 19, True)
      , (41594, 1, True);
+
+/* Weenie - Portals - Gearknight Lord's Tower (41597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41597;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41597, 'ace41597-gearknightlordstower');
@@ -40890,6 +44706,9 @@ VALUES (41597, 13, True)
      , (41597, 19, True)
      , (41597, 1, True);
 
+/* Weenie - Portals - Gearknight Lord's Tower (41600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41600;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41600, 'ace41600-gearknightlordstower');
 
@@ -40921,6 +44740,9 @@ VALUES (41600, 13, True)
      , (41600, 15, True)
      , (41600, 19, True)
      , (41600, 1, True);
+
+/* Weenie - Portals - Gearknight Lord's Tower (41603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41603;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41603, 'ace41603-gearknightlordstower');
@@ -40954,6 +44776,9 @@ VALUES (41603, 13, True)
      , (41603, 19, True)
      , (41603, 1, True);
 
+/* Weenie - Portals - Gearknight Lord's Tower (41606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41606;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41606, 'ace41606-gearknightlordstower');
 
@@ -40985,6 +44810,9 @@ VALUES (41606, 13, True)
      , (41606, 15, True)
      , (41606, 19, True)
      , (41606, 1, True);
+
+/* Weenie - Portals - Surface (41609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41609;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41609, 'ace41609-surface');
@@ -41018,6 +44846,9 @@ VALUES (41609, 13, True)
      , (41609, 19, True)
      , (41609, 1, True);
 
+/* Weenie - Portals - Blighted Rank Moarsman Tunnels (38154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38154;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38154, 'ace38154-blightedrankmoarsmantunnels');
 
@@ -41049,6 +44880,9 @@ VALUES (38154, 13, True)
      , (38154, 15, True)
      , (38154, 19, True)
      , (38154, 1, True);
+
+/* Weenie - Portals - Surface (23902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23902;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23902, 'portaltumerokwarshrethexit');
@@ -41082,6 +44916,9 @@ VALUES (23902, 13, True)
      , (23902, 19, True)
      , (23902, 1, True);
 
+/* Weenie - Portals - Lower Corridor (24331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24331, 'portalblackdeathbotst4');
 
@@ -41113,6 +44950,9 @@ VALUES (24331, 13, True)
      , (24331, 15, True)
      , (24331, 19, True)
      , (24331, 1, True);
+
+/* Weenie - Portals - Upper Corridor (24333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24333;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24333, 'portalblackdeathtopst1');
@@ -41146,6 +44986,9 @@ VALUES (24333, 13, True)
      , (24333, 19, True)
      , (24333, 1, True);
 
+/* Weenie - Portals - Exit to Surface (28260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28260;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28260, 'portalmosswartdrageergexit');
 
@@ -41177,6 +45020,9 @@ VALUES (28260, 13, True)
      , (28260, 15, True)
      , (28260, 19, True)
      , (28260, 1, True);
+
+/* Weenie - Portals - Singular Pyreal Repository (12296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12296;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12296, 'portalpyrealrepository');
@@ -41210,6 +45056,9 @@ VALUES (12296, 13, True)
      , (12296, 19, True)
      , (12296, 1, True);
 
+/* Weenie - Portals - Drudge Hovel (28792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28792;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28792, 'portaldrudgehovel');
 
@@ -41241,6 +45090,9 @@ VALUES (28792, 13, True)
      , (28792, 15, True)
      , (28792, 19, True)
      , (28792, 1, True);
+
+/* Weenie - Portals - Aerbax's Holding (25392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25392, 'portaldarkessence');
@@ -41274,6 +45126,9 @@ VALUES (25392, 13, True)
      , (25392, 19, True)
      , (25392, 1, True);
 
+/* Weenie - Portals - Exit to Surface (25393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25393;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25393, 'portaldarkessencesurface');
 
@@ -41305,6 +45160,9 @@ VALUES (25393, 13, True)
      , (25393, 15, True)
      , (25393, 19, True)
      , (25393, 1, True);
+
+/* Weenie - Portals - Surface (1326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1326;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1326, 'portalemptychamberexit');

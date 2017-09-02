@@ -1,3 +1,6 @@
+/* Weenie - LightSourceObjects - Aluvian Festival Light (13200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13200, 'festivallightalu');
 
@@ -29,6 +32,9 @@ VALUES (13200, 13, True)
      , (13200, 15, True)
      , (13200, 19, True)
      , (13200, 22, True);
+
+/* Weenie - LightSourceObjects - Gharun'dim Lantern (22853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22853;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22853, 'garonlanternfloor');
@@ -62,6 +68,9 @@ VALUES (22853, 13, True)
      , (22853, 19, True)
      , (22853, 22, True);
 
+/* Weenie - LightSourceObjects - Gharu'ndim Festival Light (13201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13201;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13201, 'festivallightgha');
 
@@ -93,6 +102,9 @@ VALUES (13201, 13, True)
      , (13201, 15, True)
      , (13201, 19, True)
      , (13201, 22, True);
+
+/* Weenie - LightSourceObjects - Candelabra (240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 240;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (240, 'candelabra');
@@ -127,6 +139,9 @@ VALUES (240, 13, True)
      , (240, 19, True)
      , (240, 22, True);
 
+/* Weenie - LightSourceObjects - Sho Festival Light (13202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13202;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13202, 'festivallightsho');
 
@@ -158,6 +173,9 @@ VALUES (13202, 13, True)
      , (13202, 15, True)
      , (13202, 19, True)
      , (13202, 22, True);
+
+/* Weenie - LightSourceObjects - Wood Stove (36912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36912;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36912, 'ace36912-woodstove');
@@ -191,6 +209,9 @@ VALUES (36912, 13, True)
      , (36912, 19, True)
      , (36912, 22, True);
 
+/* Weenie - LightSourceObjects - Flame (39063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39063, 'ace39063-flame');
 
@@ -220,6 +241,9 @@ VALUES (39063, 13, True)
      , (39063, 19, True)
      , (39063, 1, True)
      , (39063, 24, True);
+
+/* Weenie - LightSourceObjects - Gharu'ndim Lamp (25764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25764;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25764, 'lampwallgha');
@@ -254,6 +278,9 @@ VALUES (25764, 13, True)
      , (25764, 19, True)
      , (25764, 22, True);
 
+/* Weenie - LightSourceObjects - Hearth (246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 246;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (246, 'hearth');
 
@@ -285,6 +312,9 @@ VALUES (246, 13, True)
      , (246, 14, True)
      , (246, 19, True)
      , (246, 22, True);
+
+/* Weenie - LightSourceObjects - Chandelier (241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 241;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (241, 'chandelier');
@@ -319,6 +349,9 @@ VALUES (241, 13, True)
      , (241, 19, True)
      , (241, 22, True);
 
+/* Weenie - LightSourceObjects - Tumerok Torch (22858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22858, 'torchtumerok');
 
@@ -350,6 +383,9 @@ VALUES (22858, 13, True)
      , (22858, 15, True)
      , (22858, 19, True)
      , (22858, 22, True);
+
+/* Weenie - LightSourceObjects - Sho Lamp (25765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25765, 'lampwallsho');
@@ -384,6 +420,9 @@ VALUES (25765, 13, True)
      , (25765, 19, True)
      , (25765, 22, True);
 
+/* Weenie - LightSourceObjects - Tiki Torch (22857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22857;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22857, 'torchbowl');
 
@@ -415,6 +454,9 @@ VALUES (22857, 13, True)
      , (22857, 15, True)
      , (22857, 19, True)
      , (22857, 22, True);
+
+/* Weenie - LightSourceObjects - Aluvian Lamp (25763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25763;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25763, 'lampwallalu');
@@ -449,6 +491,9 @@ VALUES (25763, 13, True)
      , (25763, 19, True)
      , (25763, 22, True);
 
+/* Weenie - LightSourceObjects - Holiday Hearth (34400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34400;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34400, 'ace34400-holidayhearth');
 
@@ -480,6 +525,9 @@ VALUES (34400, 13, True)
      , (34400, 14, True)
      , (34400, 19, True)
      , (34400, 22, True);
+
+/* Weenie - LightSourceObjects - Sho Lantern (22856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22856;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22856, 'sholanternfloor');

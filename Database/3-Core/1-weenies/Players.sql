@@ -1,3 +1,6 @@
+/* Weenie - Players - Ripley (1) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1, 'human');
 

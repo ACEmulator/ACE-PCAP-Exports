@@ -1,3 +1,6 @@
+/* Weenie - CreaturesCows - Cow (618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 618;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (618, 'cowbrown');
 
@@ -36,6 +39,9 @@ VALUES (618, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (618, 67116472, 0, 0);
 
+/* Weenie - CreaturesCows - Cow (14) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14, 'cow');
 
@@ -73,6 +79,9 @@ VALUES (14, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14, 67116474, 0, 0);
+
+/* Weenie - CreaturesCows - Cow (5755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5755;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5755, 'cowunattackable');
@@ -113,6 +122,9 @@ VALUES (5755, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (5755, 67116474, 0, 0);
 
+/* Weenie - CreaturesCows - Mad Cow (23623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23623;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23623, 'cowmad');
 
@@ -147,6 +159,9 @@ VALUES (23623, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23623, 67116473, 0, 0);
+
+/* Weenie - CreaturesCows - Very Mad Cow (34611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34611;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34611, 'ace34611-verymadcow');

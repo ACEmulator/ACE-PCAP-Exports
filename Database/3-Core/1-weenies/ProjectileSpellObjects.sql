@@ -1,3 +1,6 @@
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (1635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1635;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1635, 'lightningbolt');
 
@@ -34,6 +37,9 @@ VALUES (1635, 12, True)
      , (1635, 1, True)
      , (1635, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Flame Bolt (1499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1499, 'flamebolt');
 
@@ -69,6 +75,9 @@ VALUES (1499, 12, True)
      , (1499, 19, True)
      , (1499, 1, True)
      , (1499, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Frost Bolt (1503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1503, 'frostbolt');
@@ -107,6 +116,9 @@ VALUES (1503, 12, True)
      , (1503, 1, True)
      , (1503, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Force Bolt (1667) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1667;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1667, 'forcebolt');
 
@@ -144,6 +156,9 @@ VALUES (1667, 12, True)
      , (1667, 1, True)
      , (1667, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Shockwave (1634) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1634;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1634, 'shockwave');
 
@@ -179,6 +194,9 @@ VALUES (1634, 12, True)
      , (1634, 19, True)
      , (1634, 1, True)
      , (1634, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Whirling Blade (1636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1636;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1636, 'whirlingblade');
@@ -217,6 +235,9 @@ VALUES (1636, 12, True)
      , (1636, 1, True)
      , (1636, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Acid Stream (1633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1633;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1633, 'acidstream');
 
@@ -254,6 +275,9 @@ VALUES (1633, 12, True)
      , (1633, 1, True)
      , (1633, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Flame Bolt (7263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7263;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7263, 'flamestreak');
 
@@ -290,6 +314,9 @@ VALUES (7263, 12, True)
      , (7263, 1, True)
      , (7263, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Nether Bolt (43344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43344;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43344, 'ace43344-netherbolt');
 
@@ -325,6 +352,9 @@ VALUES (43344, 12, True)
      , (43344, 19, True)
      , (43344, 1, True)
      , (43344, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Nether Bolt (43231) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43231;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43231, 'ace43231-netherbolt');
@@ -363,6 +393,9 @@ VALUES (43231, 12, True)
      , (43231, 1, True)
      , (43231, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Acid Stream (7262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7262;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7262, 'acidstreak');
 
@@ -400,6 +433,9 @@ VALUES (7262, 12, True)
      , (7262, 1, True)
      , (7262, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Shockwave (7267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7267;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7267, 'shockwavestreak');
 
@@ -435,6 +471,9 @@ VALUES (7267, 12, True)
      , (7267, 19, True)
      , (7267, 1, True)
      , (7267, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Shockwave (20978) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20978;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20978, 'shockwavegravity');
@@ -472,6 +511,9 @@ VALUES (20978, 12, True)
      , (20978, 19, True)
      , (20978, 1, True)
      , (20978, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Acid Stream (20973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20973;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20973, 'acidstreamgravity');
@@ -511,6 +553,9 @@ VALUES (20973, 12, True)
      , (20973, 1, True)
      , (20973, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Whirling Blade (20979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20979, 'whirlingbladegravity');
 
@@ -549,6 +594,9 @@ VALUES (20979, 12, True)
      , (20979, 1, True)
      , (20979, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (7266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7266;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7266, 'lightningstreak');
 
@@ -584,6 +632,9 @@ VALUES (7266, 12, True)
      , (7266, 19, True)
      , (7266, 1, True)
      , (7266, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Whirling Blade (7268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7268;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7268, 'whirlingbladestreak');
@@ -622,6 +673,9 @@ VALUES (7268, 12, True)
      , (7268, 1, True)
      , (7268, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Force Bolt (7264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7264, 'forcestreak');
 
@@ -657,6 +711,9 @@ VALUES (7264, 12, True)
      , (7264, 19, True)
      , (7264, 1, True)
      , (7264, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (20977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20977;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20977, 'lightningboltgravity');
@@ -695,6 +752,9 @@ VALUES (20977, 12, True)
      , (20977, 1, True)
      , (20977, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Flame Bolt (20974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20974;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20974, 'flameboltgravity');
 
@@ -732,6 +792,9 @@ VALUES (20974, 12, True)
      , (20974, 1, True)
      , (20974, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Whirling Blade (7275) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7275;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7275, 'whirlingbladering');
 
@@ -765,6 +828,9 @@ VALUES (7275, 12, True)
      , (7275, 1, True)
      , (7275, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Flame Bolt (7270) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7270;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7270, 'flamering');
 
@@ -796,6 +862,9 @@ VALUES (7270, 12, True)
      , (7270, 19, True)
      , (7270, 1, True)
      , (7270, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Nether Bolt (43232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43232;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43232, 'ace43232-netherbolt');
@@ -833,6 +902,9 @@ VALUES (43232, 12, True)
      , (43232, 1, True)
      , (43232, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Frost Bolt (7272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7272;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7272, 'frostring');
 
@@ -865,6 +937,9 @@ VALUES (7272, 12, True)
      , (7272, 19, True)
      , (7272, 1, True)
      , (7272, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Frost Bolt (20976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20976;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20976, 'frostboltgravity');
@@ -904,6 +979,9 @@ VALUES (20976, 12, True)
      , (20976, 1, True)
      , (20976, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Whirling Blade (7282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7282;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7282, 'whirlingbladewall');
 
@@ -936,6 +1014,9 @@ VALUES (7282, 12, True)
      , (7282, 19, True)
      , (7282, 1, True)
      , (7282, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Force Bolt (20975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20975;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20975, 'forceboltgravity');
@@ -975,6 +1056,9 @@ VALUES (20975, 12, True)
      , (20975, 1, True)
      , (20975, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Force Bolt (7278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7278;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7278, 'forcewall');
 
@@ -1006,6 +1090,9 @@ VALUES (7278, 12, True)
      , (7278, 19, True)
      , (7278, 1, True)
      , (7278, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Frost Bolt (7265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7265;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7265, 'froststreak');
@@ -1044,6 +1131,9 @@ VALUES (7265, 12, True)
      , (7265, 1, True)
      , (7265, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Flame Bolt (7277) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7277;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7277, 'flamewall');
 
@@ -1080,6 +1170,9 @@ VALUES (7277, 12, True)
      , (7277, 1, True)
      , (7277, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Shockwave (7274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7274;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7274, 'shockwavering');
 
@@ -1111,6 +1204,9 @@ VALUES (7274, 12, True)
      , (7274, 19, True)
      , (7274, 1, True)
      , (7274, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Nether Bolt (43230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43230;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43230, 'ace43230-netherbolt');
@@ -1151,6 +1247,9 @@ VALUES (43230, 13, True)
      , (43230, 1, True)
      , (43230, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Tusker Fist (23144) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23144;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23144, 'tuskerfist');
 
@@ -1182,6 +1281,9 @@ VALUES (23144, 12, True)
      , (23144, 19, True)
      , (23144, 1, True)
      , (23144, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Frost Bolt (7279) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7279;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7279, 'frostwall');
@@ -1220,6 +1322,9 @@ VALUES (7279, 12, True)
      , (7279, 1, True)
      , (7279, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Acid Stream (43811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43811;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43811, 'ace43811-acidstream');
 
@@ -1257,6 +1362,9 @@ VALUES (43811, 12, True)
      , (43811, 1, True)
      , (43811, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (7273) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7273;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7273, 'lightningring');
 
@@ -1288,6 +1396,9 @@ VALUES (7273, 12, True)
      , (7273, 19, True)
      , (7273, 1, True)
      , (7273, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Health Ring Bolt (31662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31662;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31662, 'ace31662-healthringbolt');
@@ -1325,6 +1436,9 @@ VALUES (31662, 12, True)
      , (31662, 1, True)
      , (31662, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Health Ring Bolt (35980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35980;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35980, 'ace35980-healthringbolt');
 
@@ -1357,6 +1471,9 @@ VALUES (35980, 12, True)
      , (35980, 1, True)
      , (35980, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Whirlwind (33264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33264, 'ace33264-whirlwind');
 
@@ -1387,6 +1504,9 @@ VALUES (33264, 12, True)
      , (33264, 19, True)
      , (33264, 1, True)
      , (33264, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Acid Stream (7269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7269;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7269, 'acidring');
@@ -1421,6 +1541,9 @@ VALUES (7269, 12, True)
      , (7269, 1, True)
      , (7269, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Nether Ring (43233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43233;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43233, 'ace43233-netherring');
 
@@ -1453,6 +1576,9 @@ VALUES (43233, 12, True)
      , (43233, 1, True)
      , (43233, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Whirlwind (33041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33041;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33041, 'ace33041-whirlwind');
 
@@ -1484,6 +1610,9 @@ VALUES (33041, 12, True)
      , (33041, 19, True)
      , (33041, 1, True)
      , (33041, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Elemental Fury (20649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20649;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20649, 'gaerlanfury');
@@ -1522,6 +1651,9 @@ VALUES (20649, 12, True)
      , (20649, 1, True)
      , (20649, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Acid Stream (7276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7276;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7276, 'acidwall');
 
@@ -1557,6 +1689,9 @@ VALUES (7276, 12, True)
      , (7276, 19, True)
      , (7276, 1, True)
      , (7276, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (7280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7280;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7280, 'lightningwall');
@@ -1594,6 +1729,9 @@ VALUES (7280, 12, True)
      , (7280, 1, True)
      , (7280, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Blade Bomb (33846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33846;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33846, 'ace33846-bladebomb');
 
@@ -1627,6 +1765,9 @@ VALUES (33846, 13, True)
      , (33846, 19, True)
      , (33846, 1, True)
      , (33846, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Rolling Death (21919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21919;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21919, 'rollingdeathlightning');
@@ -1672,6 +1813,9 @@ VALUES (21919, 67114015, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21919, 0, 16788386);
 
+/* Weenie - ProjectileSpellObjects - Force Bolt (7271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7271;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7271, 'forcering');
 
@@ -1704,6 +1848,9 @@ VALUES (7271, 12, True)
      , (7271, 1, True)
      , (7271, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Shockwave (7281) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7281;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7281, 'shockwavewall');
 
@@ -1735,6 +1882,9 @@ VALUES (7281, 12, True)
      , (7281, 19, True)
      , (7281, 1, True)
      , (7281, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Rolling Death (21918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21918;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21918, 'rollingdeathfrost');
@@ -1780,6 +1930,9 @@ VALUES (21918, 67114016, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21918, 0, 16788386);
 
+/* Weenie - ProjectileSpellObjects - Rolling Death (21917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21917, 'rollingdeathflame');
 
@@ -1823,6 +1976,9 @@ VALUES (21917, 67114014, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21917, 0, 16788386);
+
+/* Weenie - ProjectileSpellObjects - Rolling Death (21916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21916;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21916, 'rollingdeathacid');
@@ -1868,6 +2024,9 @@ VALUES (21916, 67114017, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21916, 0, 16788386);
 
+/* Weenie - ProjectileSpellObjects - Frost Bolt (7304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7304;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7304, 'froststrike');
 
@@ -1905,6 +2064,9 @@ VALUES (7304, 12, True)
      , (7304, 1, True)
      , (7304, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (33527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33527;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33527, 'ace33527-lightningbolt');
 
@@ -1941,6 +2103,9 @@ VALUES (33527, 12, True)
      , (33527, 1, True)
      , (33527, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (33729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33729;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33729, 'ace33729-lightningbolt');
 
@@ -1973,6 +2138,9 @@ VALUES (33729, 12, True)
      , (33729, 1, True)
      , (33729, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Health Ring Bolt (33724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33724;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33724, 'ace33724-healthringbolt');
 
@@ -2004,6 +2172,9 @@ VALUES (33724, 12, True)
      , (33724, 19, True)
      , (33724, 1, True)
      , (33724, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (46033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46033;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46033, 'ace46033-lightningbolt');
@@ -2041,6 +2212,9 @@ VALUES (46033, 12, True)
      , (46033, 1, True)
      , (46033, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (46032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46032;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46032, 'ace46032-lightningbolt');
 
@@ -2072,6 +2246,9 @@ VALUES (46032, 12, True)
      , (46032, 19, True)
      , (46032, 1, True)
      , (46032, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (46034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46034;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46034, 'ace46034-lightningbolt');
@@ -2110,6 +2287,9 @@ VALUES (46034, 12, True)
      , (46034, 1, True)
      , (46034, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Acid Stream (7301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7301;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7301, 'acidstrike');
 
@@ -2147,6 +2327,9 @@ VALUES (7301, 12, True)
      , (7301, 1, True)
      , (7301, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Force Bolt (7303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7303;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7303, 'forcestrike');
 
@@ -2183,6 +2366,9 @@ VALUES (7303, 12, True)
      , (7303, 1, True)
      , (7303, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Flame Bolt (33853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33853;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33853, 'ace33853-flamebolt');
 
@@ -2214,6 +2400,9 @@ VALUES (33853, 12, True)
      , (33853, 19, True)
      , (33853, 1, True)
      , (33853, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (33728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33728;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33728, 'ace33728-lightningbolt');
@@ -2247,6 +2436,9 @@ VALUES (33728, 12, True)
      , (33728, 19, True)
      , (33728, 1, True)
      , (33728, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (7305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7305;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7305, 'lightningstrike');
@@ -2285,6 +2477,9 @@ VALUES (7305, 12, True)
      , (7305, 1, True)
      , (7305, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Blade Wave (33867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33867, 'ace33867-bladewave');
 
@@ -2316,6 +2511,9 @@ VALUES (33867, 12, True)
      , (33867, 19, True)
      , (33867, 1, True)
      , (33867, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Flaming Skull (41980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41980;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41980, 'ace41980-flamingskull');
@@ -2355,6 +2553,9 @@ VALUES (41980, 12, True)
      , (41980, 1, True)
      , (41980, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Arcane Death (37376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37376;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37376, 'ace37376-arcanedeath');
 
@@ -2384,6 +2585,9 @@ VALUES (37376, 12, True)
      , (37376, 19, True)
      , (37376, 1, True)
      , (37376, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Arcane Death (37159) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37159;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37159, 'ace37159-arcanedeath');
@@ -2420,6 +2624,9 @@ VALUES (37159, 12, True)
      , (37159, 19, True)
      , (37159, 1, True)
      , (37159, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Sacrificial Edge (26529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26529;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26529, 'sacrificialedge');
@@ -2468,6 +2675,9 @@ VALUES (26529, 0, 83886747, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (26529, 0, 16777986);
 
+/* Weenie - ProjectileSpellObjects - Shockwave (8549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8549;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8549, 'shockwavefastring');
 
@@ -2499,6 +2709,9 @@ VALUES (8549, 12, True)
      , (8549, 19, True)
      , (8549, 1, True)
      , (8549, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Mana Bolt (29029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29029;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29029, 'manabolt');
@@ -2537,6 +2750,9 @@ VALUES (29029, 12, True)
      , (29029, 1, True)
      , (29029, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Flame Bolt (9520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9520;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9520, 'darkflame');
 
@@ -2573,6 +2789,9 @@ VALUES (9520, 12, True)
      , (9520, 1, True)
      , (9520, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Flame Bomb (33847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33847;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33847, 'ace33847-flamebomb');
 
@@ -2605,6 +2824,9 @@ VALUES (33847, 12, True)
      , (33847, 1, True)
      , (33847, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Acid Wave (33861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33861, 'ace33861-acidwave');
 
@@ -2636,6 +2858,9 @@ VALUES (33861, 12, True)
      , (33861, 19, True)
      , (33861, 1, True)
      , (33861, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Shock Bomb (33851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33851;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33851, 'ace33851-shockbomb');
@@ -2671,6 +2896,9 @@ VALUES (33851, 13, True)
      , (33851, 1, True)
      , (33851, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Shock Waves (33866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33866;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33866, 'ace33866-shockwaves');
 
@@ -2705,6 +2933,9 @@ VALUES (33866, 13, True)
      , (33866, 1, True)
      , (33866, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Force Wave (33863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33863;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33863, 'ace33863-forcewave');
 
@@ -2736,6 +2967,9 @@ VALUES (33863, 12, True)
      , (33863, 19, True)
      , (33863, 1, True)
      , (33863, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Frost Wave (33864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33864;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33864, 'ace33864-frostwave');
@@ -2771,6 +3005,9 @@ VALUES (33864, 13, True)
      , (33864, 1, True)
      , (33864, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Lightning Wave (33865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33865;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33865, 'ace33865-lightningwave');
 
@@ -2805,6 +3042,9 @@ VALUES (33865, 13, True)
      , (33865, 1, True)
      , (33865, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Flame Wave (33862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33862;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33862, 'ace33862-flamewave');
 
@@ -2838,6 +3078,9 @@ VALUES (33862, 13, True)
      , (33862, 19, True)
      , (33862, 1, True)
      , (33862, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Thorn Bolt (52492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52492;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52492, 'ace52492-thornbolt');
@@ -2876,6 +3119,9 @@ VALUES (52492, 12, True)
      , (52492, 1, True)
      , (52492, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (52621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52621;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52621, 'ace52621-lightningbolt');
 
@@ -2913,6 +3159,9 @@ VALUES (52621, 12, True)
      , (52621, 1, True)
      , (52621, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (53358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53358;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53358, 'ace53358-lightningbolt');
 
@@ -2944,6 +3193,9 @@ VALUES (53358, 12, True)
      , (53358, 19, True)
      , (53358, 1, True)
      , (53358, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (52622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52622;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52622, 'ace52622-lightningbolt');
@@ -2981,6 +3233,9 @@ VALUES (52622, 12, True)
      , (52622, 1, True)
      , (52622, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Boulder (51894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51894, 'ace51894-boulder');
 
@@ -3012,6 +3267,9 @@ VALUES (51894, 12, True)
      , (51894, 19, True)
      , (51894, 1, True)
      , (51894, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Acid Bomb (33845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33845;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33845, 'ace33845-acidbomb');
@@ -3047,6 +3305,9 @@ VALUES (33845, 13, True)
      , (33845, 1, True)
      , (33845, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Frost Bomb (33849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33849, 'ace33849-frostbomb');
 
@@ -3078,6 +3339,9 @@ VALUES (33849, 12, True)
      , (33849, 19, True)
      , (33849, 1, True)
      , (33849, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Stalactite (43754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43754;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43754, 'ace43754-stalactite');
@@ -3116,6 +3380,9 @@ VALUES (43754, 12, True)
      , (43754, 1, True)
      , (43754, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Force Bomb (33848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33848;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33848, 'ace33848-forcebomb');
 
@@ -3150,6 +3417,9 @@ VALUES (33848, 13, True)
      , (33848, 1, True)
      , (33848, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Crimson Lightning Bolt (33525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33525;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33525, 'ace33525-crimsonlightningbolt');
 
@@ -3181,6 +3451,9 @@ VALUES (33525, 12, True)
      , (33525, 19, True)
      , (33525, 1, True)
      , (33525, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Flame Bolt (20181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20181;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20181, 'martinering1');
@@ -3214,6 +3487,9 @@ VALUES (20181, 12, True)
      , (20181, 1, True)
      , (20181, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (20182) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20182;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20182, 'martinering2');
 
@@ -3245,6 +3521,9 @@ VALUES (20182, 12, True)
      , (20182, 19, True)
      , (20182, 1, True)
      , (20182, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Shockwave (33726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33726;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33726, 'ace33726-shockwave');
@@ -3278,6 +3557,9 @@ VALUES (33726, 12, True)
      , (33726, 1, True)
      , (33726, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Lightning Bolt (53357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53357;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53357, 'ace53357-lightningbolt');
 
@@ -3309,6 +3591,9 @@ VALUES (53357, 12, True)
      , (53357, 19, True)
      , (53357, 1, True)
      , (53357, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Force Ring (33722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33722;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33722, 'ace33722-forcering');
@@ -3342,6 +3627,9 @@ VALUES (33722, 12, True)
      , (33722, 1, True)
      , (33722, 24, True);
 
+/* Weenie - ProjectileSpellObjects - Whirlwind (52513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52513;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52513, 'ace52513-whirlwind');
 
@@ -3373,6 +3661,9 @@ VALUES (52513, 12, True)
      , (52513, 19, True)
      , (52513, 1, True)
      , (52513, 24, True);
+
+/* Weenie - ProjectileSpellObjects - Flame Bolt (22079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22079;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22079, 'impiouscurse');

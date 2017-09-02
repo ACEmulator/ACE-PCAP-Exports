@@ -1,3 +1,6 @@
+/* Weenie - WritableObjects - Flying Machine Plans (30659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30659;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30659, 'flyingmachineplans');
 
@@ -31,6 +34,9 @@ VALUES (30659, 13, True)
      , (30659, 14, True)
      , (30659, 19, True);
 
+/* Weenie - WritableObjects - A Hastily Scrawled Note (15781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15781;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15781, 'notenuhmudiralabyrinth1');
 
@@ -60,6 +66,9 @@ VALUES (15781, 13, True)
      , (15781, 14, True)
      , (15781, 19, True)
      , (15781, 22, True);
+
+/* Weenie - WritableObjects - A Hastily Scrawled Note (15783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15783;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15783, 'notenuhmudiralabyrinth3');
@@ -91,6 +100,9 @@ VALUES (15783, 13, True)
      , (15783, 19, True)
      , (15783, 22, True);
 
+/* Weenie - WritableObjects - A Hastily Scrawled Note (15782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15782;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15782, 'notenuhmudiralabyrinth2');
 
@@ -120,6 +132,9 @@ VALUES (15782, 13, True)
      , (15782, 14, True)
      , (15782, 19, True)
      , (15782, 22, True);
+
+/* Weenie - WritableObjects - A Hastily Scrawled Note (15787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15787;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15787, 'notenuhmudiralabyrinth7');
@@ -151,6 +166,9 @@ VALUES (15787, 13, True)
      , (15787, 19, True)
      , (15787, 22, True);
 
+/* Weenie - WritableObjects - A Hastily Scrawled Note (15785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15785;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15785, 'notenuhmudiralabyrinth5');
 
@@ -180,6 +198,9 @@ VALUES (15785, 13, True)
      , (15785, 14, True)
      , (15785, 19, True)
      , (15785, 22, True);
+
+/* Weenie - WritableObjects - A Hastily Scrawled Note (15786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15786;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15786, 'notenuhmudiralabyrinth6');
@@ -211,6 +232,9 @@ VALUES (15786, 13, True)
      , (15786, 19, True)
      , (15786, 22, True);
 
+/* Weenie - WritableObjects - A Hastily Scrawled Note (15784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15784;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15784, 'notenuhmudiralabyrinth4');
 
@@ -240,6 +264,9 @@ VALUES (15784, 13, True)
      , (15784, 14, True)
      , (15784, 19, True)
      , (15784, 22, True);
+
+/* Weenie - WritableObjects - A Hastily Scrawled Note (15788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15788, 'notenuhmudiralabyrinth8');

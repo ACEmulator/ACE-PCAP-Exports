@@ -1,3 +1,6 @@
+/* Weenie - CreaturesOtherNPCs - Acolyte of Wind (34297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34297;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34297, 'ace34297-acolyteofwind');
 
@@ -63,6 +66,9 @@ VALUES (34297, 16, 16795675)
      , (34297, 7, 16793202)
      , (34297, 8, 16793203);
 
+/* Weenie - CreaturesOtherNPCs - Tusker Shrine Statue (22641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22641;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22641, 'statuetuskerisland');
 
@@ -100,6 +106,9 @@ VALUES (22641, 12, True)
      , (22641, 42, True)
      , (22641, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Acolyte of Wind (34565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34565;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34565, 'ace34565-acolyteofwind');
 
@@ -130,6 +139,9 @@ VALUES (34565, 12, True)
      , (34565, 14, True)
      , (34565, 19, True)
      , (34565, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Fishing Hole (22257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22257;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22257, 'fishingholenewbie');
@@ -176,6 +188,9 @@ VALUES (22257, 0, 83894506, 83894506);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22257, 0, 16788968);
+
+/* Weenie - CreaturesOtherNPCs - Oak Target Drudge (6077) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6077;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6077, 'drudgeoaktarget');
@@ -254,6 +269,9 @@ VALUES (6077, 0, 16777309)
      , (6077, 15, 16777319)
      , (6077, 16, 16777319);
 
+/* Weenie - CreaturesOtherNPCs - Straw Target Drudge (6075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6075;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6075, 'drudgestrawtarget');
 
@@ -330,6 +348,9 @@ VALUES (6075, 0, 16777309)
      , (6075, 14, 16783575)
      , (6075, 15, 16777319)
      , (6075, 16, 16777319);
+
+/* Weenie - CreaturesOtherNPCs - Wood Target Drudge (6076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6076;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6076, 'drudgewoodtarget');
@@ -408,6 +429,9 @@ VALUES (6076, 0, 16777309)
      , (6076, 15, 16777319)
      , (6076, 16, 16777319);
 
+/* Weenie - CreaturesOtherNPCs - Open Book (40525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40525;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40525, 'ace40525-openbook');
 
@@ -443,6 +467,9 @@ VALUES (40525, 12, True)
      , (40525, 41, True)
      , (40525, 42, True)
      , (40525, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Garbage Barrel (34726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34726;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34726, 'ace34726-garbagebarrel');
@@ -481,6 +508,9 @@ VALUES (34726, 12, True)
      , (34726, 42, True)
      , (34726, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Lockpick Forge (30460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30460;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30460, 'craftingforgelockpick');
 
@@ -517,6 +547,9 @@ VALUES (30460, 12, True)
      , (30460, 41, True)
      , (30460, 42, True)
      , (30460, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Alchemy Forge (30465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30465;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30465, 'craftingforgealchemy');
@@ -555,6 +588,9 @@ VALUES (30465, 12, True)
      , (30465, 42, True)
      , (30465, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Salvaging Forge (30461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30461;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30461, 'craftingforgesalvaging');
 
@@ -591,6 +627,9 @@ VALUES (30461, 12, True)
      , (30461, 41, True)
      , (30461, 42, True)
      , (30461, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Fletching Forge (30467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30467;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30467, 'craftingforgefletching');
@@ -629,6 +668,9 @@ VALUES (30467, 12, True)
      , (30467, 42, True)
      , (30467, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Cooking Forge (30466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30466;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30466, 'craftingforgecooking');
 
@@ -666,6 +708,9 @@ VALUES (30466, 12, True)
      , (30466, 42, True)
      , (30466, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Bael'Zharon, the Hopeslayer (36012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36012;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36012, 'ace36012-statueofbaelzharonthehopeslayer');
 
@@ -701,6 +746,9 @@ VALUES (36012, 12, True)
      , (36012, 41, True)
      , (36012, 42, True)
      , (36012, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Pyreal Target Drudge (24888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24888;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24888, 'drudgepyrealtarget');
@@ -747,6 +795,9 @@ VALUES (24888, 1, 83892459, 83892460)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24888, 1, 16784273);
 
+/* Weenie - CreaturesOtherNPCs - Hea Windreave (11524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11524;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11524, 'tumerokheawindreave-xp');
 
@@ -790,6 +841,9 @@ VALUES (11524, 67116650, 1, 48)
      , (11524, 67116625, 200, 8)
      , (11524, 67116641, 208, 48);
 
+/* Weenie - CreaturesOtherNPCs - Wounded Drudge Skulker (5196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5196;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5196, 'drudgeskulkerwounded');
 
@@ -828,6 +882,9 @@ VALUES (5196, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (5196, 67112817, 0, 0);
+
+/* Weenie - CreaturesOtherNPCs - New Aluvian Champion (43005) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43005;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43005, 'ace43005-newaluvianchampion');
@@ -936,6 +993,9 @@ VALUES (43005, 5, 16788087)
      , (43005, 22, 16777708)
      , (43005, 21, 16777708);
 
+/* Weenie - CreaturesOtherNPCs - New Aluvian War Mage Champion (43006) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43006;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43006, 'ace43006-newaluvianwarmagechampion');
 
@@ -1020,6 +1080,9 @@ VALUES (43006, 12, 16778423)
      , (43006, 14, 16783855)
      , (43006, 16, 16779630);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Greedy Wishes (22491) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22491;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22491, 'statuetuskieriches');
 
@@ -1056,6 +1119,9 @@ VALUES (22491, 12, True)
      , (22491, 41, True)
      , (22491, 42, True)
      , (22491, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Healer's Wish (22479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22479;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22479, 'statuetuskiehealing');
@@ -1094,6 +1160,9 @@ VALUES (22479, 12, True)
      , (22479, 42, True)
      , (22479, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Item Tinker's Wish (22481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22481;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22481, 'statuetuskieitemtink');
 
@@ -1130,6 +1199,9 @@ VALUES (22481, 12, True)
      , (22481, 41, True)
      , (22481, 42, True)
      , (22481, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Swashbuckler's Wish (22485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22485;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22485, 'statuetuskiemace');
@@ -1168,6 +1240,9 @@ VALUES (22485, 12, True)
      , (22485, 42, True)
      , (22485, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Magic Tinker's Wish (22487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22487;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22487, 'statuetuskiemagicitemtink');
 
@@ -1204,6 +1279,9 @@ VALUES (22487, 12, True)
      , (22487, 41, True)
      , (22487, 42, True)
      , (22487, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Resistance Wishes (22486) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22486;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22486, 'statuetuskiemagicdefense');
@@ -1242,6 +1320,9 @@ VALUES (22486, 12, True)
      , (22486, 42, True)
      , (22486, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Artificer's Wish (22480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22480;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22480, 'statuetuskieitem');
 
@@ -1278,6 +1359,9 @@ VALUES (22480, 12, True)
      , (22480, 41, True)
      , (22480, 42, True)
      , (22480, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Cook's Wish (22474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22474;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22474, 'statuetuskiecooking');
@@ -1316,6 +1400,9 @@ VALUES (22474, 12, True)
      , (22474, 42, True)
      , (22474, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Sprinter's Wish (22492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22492, 'statuetuskierun');
 
@@ -1352,6 +1439,9 @@ VALUES (22492, 12, True)
      , (22492, 41, True)
      , (22492, 42, True)
      , (22492, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Lockpicker's Wish (22484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22484;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22484, 'statuetuskielockpick');
@@ -1390,6 +1480,9 @@ VALUES (22484, 12, True)
      , (22484, 42, True)
      , (22484, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Enchanter's Wish (22475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22475;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22475, 'statuetuskiecreature');
 
@@ -1426,6 +1519,9 @@ VALUES (22475, 12, True)
      , (22475, 41, True)
      , (22475, 42, True)
      , (22475, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Missile Specialist's Wish (22473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22473;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22473, 'statuetuskiebow');
@@ -1464,6 +1560,9 @@ VALUES (22473, 12, True)
      , (22473, 42, True)
      , (22473, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Leaper's Wish (22482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22482;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22482, 'statuetuskiejump');
 
@@ -1500,6 +1599,9 @@ VALUES (22482, 12, True)
      , (22482, 41, True)
      , (22482, 42, True)
      , (22482, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Dodge Wishes (22490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22490;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22490, 'statuetuskiemissiledefense');
@@ -1538,6 +1640,9 @@ VALUES (22490, 12, True)
      , (22490, 42, True)
      , (22490, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Shieldbearer's Wish (22493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22493;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22493, 'statuetuskiespear');
 
@@ -1574,6 +1679,9 @@ VALUES (22493, 12, True)
      , (22493, 41, True)
      , (22493, 42, True)
      , (22493, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Fletcher's Dreams (22478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22478;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22478, 'statuetuskiefletching');
@@ -1612,6 +1720,9 @@ VALUES (22478, 12, True)
      , (22478, 42, True)
      , (22478, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Archmage's Wish (22488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22488;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22488, 'statuetuskiemanaconversion');
 
@@ -1648,6 +1759,9 @@ VALUES (22488, 12, True)
      , (22488, 41, True)
      , (22488, 42, True)
      , (22488, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Light Duelist's Wish (22472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22472;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22472, 'statuetuskieaxe');
@@ -1686,6 +1800,9 @@ VALUES (22472, 12, True)
      , (22472, 42, True)
      , (22472, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Cleaving Warrior's Wish (22494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22494;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22494, 'statuetuskiestaff');
 
@@ -1722,6 +1839,9 @@ VALUES (22494, 12, True)
      , (22494, 41, True)
      , (22494, 42, True)
      , (22494, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Evasive Wishes (22489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22489;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22489, 'statuetuskiemeleedefense');
@@ -1760,6 +1880,9 @@ VALUES (22489, 12, True)
      , (22489, 42, True)
      , (22489, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Stealther's Wish (22476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22476;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22476, 'statuetuskiecrossbow');
 
@@ -1796,6 +1919,9 @@ VALUES (22476, 12, True)
      , (22476, 41, True)
      , (22476, 42, True)
      , (22476, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Armor Tinker's Wish (22470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22470;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22470, 'statuetuskiearmortink');
@@ -1834,6 +1960,9 @@ VALUES (22470, 12, True)
      , (22470, 42, True)
      , (22470, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Dirty Fighter's Wish (22496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22496, 'statuetuskieunarmed');
 
@@ -1870,6 +1999,9 @@ VALUES (22496, 12, True)
      , (22496, 41, True)
      , (22496, 42, True)
      , (22496, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Swift Duelist's Wish (22477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22477, 'statuetuskiedagger');
@@ -1908,6 +2040,9 @@ VALUES (22477, 12, True)
      , (22477, 42, True)
      , (22477, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Void Caster's Wish (45522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45522;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45522, 'ace45522-statueofvoidcasterswish');
 
@@ -1944,6 +2079,9 @@ VALUES (45522, 12, True)
      , (45522, 41, True)
      , (45522, 42, True)
      , (45522, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Berzerker's Wish (22471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22471;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22471, 'statuetuskieatlatl');
@@ -1982,6 +2120,9 @@ VALUES (22471, 12, True)
      , (22471, 42, True)
      , (22471, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Sorcerer's Wish (22497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22497, 'statuetuskiewar');
 
@@ -2018,6 +2159,9 @@ VALUES (22497, 12, True)
      , (22497, 41, True)
      , (22497, 42, True)
      , (22497, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Scholarly Wishes (22469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22469;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22469, 'statuetuskiearcane');
@@ -2056,6 +2200,9 @@ VALUES (22469, 12, True)
      , (22469, 42, True)
      , (22469, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Life Giver's Wish (22483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22483;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22483, 'statuetuskielife');
 
@@ -2092,6 +2239,9 @@ VALUES (22483, 12, True)
      , (22483, 41, True)
      , (22483, 42, True)
      , (22483, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Heavy Soldier's Wish (22495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22495;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22495, 'statuetuskiesword');
@@ -2130,6 +2280,9 @@ VALUES (22495, 12, True)
      , (22495, 42, True)
      , (22495, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Alchemical Wishes (22468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22468, 'statuetuskiealchemy');
 
@@ -2167,6 +2320,9 @@ VALUES (22468, 12, True)
      , (22468, 42, True)
      , (22468, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Weapon Tinker's Wish (22498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22498;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22498, 'statuetuskieweapontink');
 
@@ -2203,6 +2359,9 @@ VALUES (22498, 12, True)
      , (22498, 41, True)
      , (22498, 42, True)
      , (22498, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Cavern (44075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44075;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44075, 'ace44075-cavern');
@@ -2242,6 +2401,9 @@ VALUES (44075, 13, True)
      , (44075, 42, True)
      , (44075, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Sword of Frozen Fury (24067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24067;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24067, 'diasswordnpc');
 
@@ -2276,6 +2438,9 @@ VALUES (24067, 12, True)
      , (24067, 41, True)
      , (24067, 42, True)
      , (24067, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Armor Tinkering Warden of Enlightenment (32453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32453;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32453, 'ace32453-armortinkeringwardenofenlightenment');
@@ -2314,6 +2479,9 @@ VALUES (32453, 12, True)
      , (32453, 42, True)
      , (32453, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Assess Person Warden of Enlightenment (32442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32442;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32442, 'ace32442-assesspersonwardenofenlightenment');
 
@@ -2350,6 +2518,9 @@ VALUES (32442, 12, True)
      , (32442, 41, True)
      , (32442, 42, True)
      , (32442, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Item Tinkering Warden of Enlightenment (32464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32464;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32464, 'ace32464-itemtinkeringwardenofenlightenment');
@@ -2388,6 +2559,9 @@ VALUES (32464, 12, True)
      , (32464, 42, True)
      , (32464, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Jump Warden of Enlightenment (32466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32466;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32466, 'ace32466-jumpwardenofenlightenment');
 
@@ -2425,6 +2599,9 @@ VALUES (32466, 12, True)
      , (32466, 42, True)
      , (32466, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Heavy Weapons Warden of Enlightenment (32446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32446, 'ace32446-heavyweaponswardenofenlightenment');
 
@@ -2461,6 +2638,9 @@ VALUES (32446, 12, True)
      , (32446, 41, True)
      , (32446, 42, True)
      , (32446, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Tower Guardian (35273) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35273;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35273, 'ace35273-towerguardian');
@@ -2537,6 +2717,9 @@ VALUES (35273, 0, 16788885)
      , (35273, 12, 16788891)
      , (35273, 16, 16789125);
 
+/* Weenie - CreaturesOtherNPCs - Item Enchantment Warden of Enlightenment (32465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32465;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32465, 'ace32465-itemenchantmentwardenofenlightenment');
 
@@ -2573,6 +2756,9 @@ VALUES (32465, 12, True)
      , (32465, 41, True)
      , (32465, 42, True)
      , (32465, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Weapon Tinkering Warden of Enlightenment (32450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32450;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32450, 'ace32450-weapontinkeringwardenofenlightenment');
@@ -2611,6 +2797,9 @@ VALUES (32450, 12, True)
      , (32450, 42, True)
      , (32450, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - War Magic Warden of Enlightenment (32449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32449, 'ace32449-warmagicwardenofenlightenment');
 
@@ -2647,6 +2836,9 @@ VALUES (32449, 12, True)
      , (32449, 41, True)
      , (32449, 42, True)
      , (32449, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Void Magic Warden of Enlightenment (43399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43399;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43399, 'ace43399-voidmagicwardenofenlightenment');
@@ -2685,6 +2877,9 @@ VALUES (43399, 12, True)
      , (43399, 42, True)
      , (43399, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Two Handed Combat Warden of Enlightenment (41741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41741;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41741, 'ace41741-twohandedcombatwardenofenlightenment');
 
@@ -2721,6 +2916,9 @@ VALUES (41741, 12, True)
      , (41741, 41, True)
      , (41741, 42, True)
      , (41741, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Healing Warden of Enlightenment (32463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32463;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32463, 'ace32463-healingwardenofenlightenment');
@@ -2759,6 +2957,9 @@ VALUES (32463, 12, True)
      , (32463, 42, True)
      , (32463, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Fletching Warden of Enlightenment (32462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32462;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32462, 'ace32462-fletchingwardenofenlightenment');
 
@@ -2795,6 +2996,9 @@ VALUES (32462, 12, True)
      , (32462, 41, True)
      , (32462, 42, True)
      , (32462, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Finesse Weapons Warden of Enlightenment (32460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32460;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32460, 'ace32460-finesseweaponswardenofenlightenment');
@@ -2833,6 +3037,9 @@ VALUES (32460, 12, True)
      , (32460, 42, True)
      , (32460, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Dual Wield Warden of Enlightenment (45391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45391;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45391, 'ace45391-dualwieldwardenofenlightenment');
 
@@ -2869,6 +3076,9 @@ VALUES (45391, 12, True)
      , (45391, 41, True)
      , (45391, 42, True)
      , (45391, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Dirty Fighting Warden of Enlightenment (45390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45390;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45390, 'ace45390-dirtyfightingwardenofenlightenment');
@@ -2907,6 +3117,9 @@ VALUES (45390, 12, True)
      , (45390, 42, True)
      , (45390, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Summoning Warden of Enlightenment (49483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49483;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49483, 'ace49483-summoningwardenofenlightenment');
 
@@ -2943,6 +3156,9 @@ VALUES (49483, 12, True)
      , (49483, 41, True)
      , (49483, 42, True)
      , (49483, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Shield Warden of Enlightenment (45393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45393;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45393, 'ace45393-shieldwardenofenlightenment');
@@ -2981,6 +3197,9 @@ VALUES (45393, 12, True)
      , (45393, 42, True)
      , (45393, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Run Warden of Enlightenment (32443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32443;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32443, 'ace32443-runwardenofenlightenment');
 
@@ -3017,6 +3236,9 @@ VALUES (32443, 12, True)
      , (32443, 41, True)
      , (32443, 42, True)
      , (32443, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Recklessness Warden of Enlightenment (45392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45392, 'ace45392-recklessnesswardenofenlightenment');
@@ -3055,6 +3277,9 @@ VALUES (45392, 12, True)
      , (45392, 42, True)
      , (45392, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Missile Weapons Warden of Enlightenment (32455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32455, 'ace32455-missileweaponswardenofenlightenment');
 
@@ -3091,6 +3316,9 @@ VALUES (32455, 12, True)
      , (32455, 41, True)
      , (32455, 42, True)
      , (32455, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Magic Item Tinkering Warden of Enlightenment (32438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32438;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32438, 'ace32438-magicitemtinkeringwardenofenlightenment');
@@ -3129,6 +3357,9 @@ VALUES (32438, 12, True)
      , (32438, 42, True)
      , (32438, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Magic Defense Warden of Enlightenment (32437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32437;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32437, 'ace32437-magicdefensewardenofenlightenment');
 
@@ -3165,6 +3396,9 @@ VALUES (32437, 12, True)
      , (32437, 41, True)
      , (32437, 42, True)
      , (32437, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Missile Defense Warden of Enlightenment (32441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32441;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32441, 'ace32441-missiledefensewardenofenlightenment');
@@ -3203,6 +3437,9 @@ VALUES (32441, 12, True)
      , (32441, 42, True)
      , (32441, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Melee Defense Warden of Enlightenment (32440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32440;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32440, 'ace32440-meleedefensewardenofenlightenment');
 
@@ -3239,6 +3476,9 @@ VALUES (32440, 12, True)
      , (32440, 41, True)
      , (32440, 42, True)
      , (32440, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Mana Conversion Warden of Enlightenment (32439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32439;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32439, 'ace32439-manaconversionwardenofenlightenment');
@@ -3277,6 +3517,9 @@ VALUES (32439, 12, True)
      , (32439, 42, True)
      , (32439, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Cooking Warden of Enlightenment (32456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32456, 'ace32456-cookingwardenofenlightenment');
 
@@ -3313,6 +3556,9 @@ VALUES (32456, 12, True)
      , (32456, 41, True)
      , (32456, 42, True)
      , (32456, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Assess Creature Warden of Enlightenment (32457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32457;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32457, 'ace32457-assesscreaturewardenofenlightenment');
@@ -3351,6 +3597,9 @@ VALUES (32457, 12, True)
      , (32457, 42, True)
      , (32457, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Coordination (44912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44912;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44912, 'ace44912-wardenofraisingcoordination');
 
@@ -3387,6 +3636,9 @@ VALUES (44912, 12, True)
      , (44912, 41, True)
      , (44912, 42, True)
      , (44912, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Deception Warden of Enlightenment (32461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32461;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32461, 'ace32461-deceptionwardenofenlightenment');
@@ -3425,6 +3677,9 @@ VALUES (32461, 12, True)
      , (32461, 42, True)
      , (32461, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Creature Enchantment Warden of Enlightenment (32458) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32458;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32458, 'ace32458-creatureenchantmentwardenofenlightenment');
 
@@ -3461,6 +3716,9 @@ VALUES (32458, 12, True)
      , (32458, 41, True)
      , (32458, 42, True)
      , (32458, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Loyalty Warden of Enlightenment (32470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32470;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32470, 'ace32470-loyaltywardenofenlightenment');
@@ -3499,6 +3757,9 @@ VALUES (32470, 12, True)
      , (32470, 42, True)
      , (32470, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Lockpick Warden of Enlightenment (32469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32469;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32469, 'ace32469-lockpickwardenofenlightenment');
 
@@ -3535,6 +3796,9 @@ VALUES (32469, 12, True)
      , (32469, 41, True)
      , (32469, 42, True)
      , (32469, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Light Weapons Warden of Enlightenment (32454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32454;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32454, 'ace32454-lightweaponswardenofenlightenment');
@@ -3573,6 +3837,9 @@ VALUES (32454, 12, True)
      , (32454, 42, True)
      , (32454, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Life Magic Warden of Enlightenment (32468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32468, 'ace32468-lifemagicwardenofenlightenment');
 
@@ -3609,6 +3876,9 @@ VALUES (32468, 12, True)
      , (32468, 41, True)
      , (32468, 42, True)
      , (32468, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Leadership Warden of Enlightenment (32467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32467;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32467, 'ace32467-leadershipwardenofenlightenment');
@@ -3647,6 +3917,9 @@ VALUES (32467, 12, True)
      , (32467, 42, True)
      , (32467, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Endurance (44913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44913, 'ace44913-wardenofraisingendurance');
 
@@ -3683,6 +3956,9 @@ VALUES (44913, 12, True)
      , (44913, 41, True)
      , (44913, 42, True)
      , (44913, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Strength (44917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44917;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44917, 'ace44917-wardenofraisingstrength');
@@ -3721,6 +3997,9 @@ VALUES (44917, 12, True)
      , (44917, 42, True)
      , (44917, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Self (44910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44910, 'ace44910-wardenofloweringself');
 
@@ -3757,6 +4036,9 @@ VALUES (44910, 12, True)
      , (44910, 41, True)
      , (44910, 42, True)
      , (44910, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Focus (44908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44908;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44908, 'ace44908-wardenofloweringfocus');
@@ -3795,6 +4077,9 @@ VALUES (44908, 12, True)
      , (44908, 42, True)
      , (44908, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Endurance (44919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44919;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44919, 'ace44919-wardenofloweringendurance');
 
@@ -3831,6 +4116,9 @@ VALUES (44919, 12, True)
      , (44919, 41, True)
      , (44919, 42, True)
      , (44919, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Strength (44911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44911;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44911, 'ace44911-wardenofloweringstrength');
@@ -3869,6 +4157,9 @@ VALUES (44911, 12, True)
      , (44911, 42, True)
      , (44911, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Quickness (44909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44909;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44909, 'ace44909-wardenofloweringquickness');
 
@@ -3905,6 +4196,9 @@ VALUES (44909, 12, True)
      , (44909, 41, True)
      , (44909, 42, True)
      , (44909, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Coordination (44918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44918;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44918, 'ace44918-wardenofloweringcoordination');
@@ -3943,6 +4237,9 @@ VALUES (44918, 12, True)
      , (44918, 42, True)
      , (44918, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Arcane Lore Warden of Enlightenment (32452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32452;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32452, 'ace32452-arcanelorewardenofenlightenment');
 
@@ -3979,6 +4276,9 @@ VALUES (32452, 12, True)
      , (32452, 41, True)
      , (32452, 42, True)
      , (32452, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Alchemy Warden of Enlightenment (32451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32451;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32451, 'ace32451-alchemywardenofenlightenment');
@@ -4017,6 +4317,9 @@ VALUES (32451, 12, True)
      , (32451, 42, True)
      , (32451, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Self (44916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44916;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44916, 'ace44916-wardenofraisingself');
 
@@ -4053,6 +4356,9 @@ VALUES (44916, 12, True)
      , (44916, 41, True)
      , (44916, 42, True)
      , (44916, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Sneak Attack Warden of Enlightenment (45394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45394, 'ace45394-sneakattackwardenofenlightenment');
@@ -4091,6 +4397,9 @@ VALUES (45394, 12, True)
      , (45394, 42, True)
      , (45394, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Focus (44914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44914;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44914, 'ace44914-wardenofraisingfocus');
 
@@ -4127,6 +4436,9 @@ VALUES (44914, 12, True)
      , (44914, 41, True)
      , (44914, 42, True)
      , (44914, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Quickness (44915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44915;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44915, 'ace44915-wardenofraisingquickness');
@@ -4165,6 +4477,9 @@ VALUES (44915, 12, True)
      , (44915, 42, True)
      , (44915, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Strange Device (36779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36779, 'ace36779-strangedevice');
 
@@ -4201,6 +4516,9 @@ VALUES (36779, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36779, 9, 16785621);
+
+/* Weenie - CreaturesOtherNPCs - Quiddity Seed (36780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36780;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36780, 'ace36780-quiddityseed');
@@ -4239,6 +4557,9 @@ VALUES (36780, 0, 83893820, 83893819);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36780, 0, 16787401);
 
+/* Weenie - CreaturesOtherNPCs - Ithaenc Quiddity Seed (36925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36925, 'ace36925-ithaencquiddityseed');
 
@@ -4273,6 +4594,9 @@ VALUES (36925, 12, True)
      , (36925, 41, True)
      , (36925, 42, True)
      , (36925, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Royal Prison Warden (29469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29469;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29469, 'knightroyalprisonwarden');
@@ -4313,6 +4637,9 @@ VALUES (29469, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29469, 67115534, 0, 0);
 
+/* Weenie - CreaturesOtherNPCs - Wall (35582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35582;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35582, 'ace35582-wall');
 
@@ -4343,6 +4670,9 @@ VALUES (35582, 12, True)
      , (35582, 14, True)
      , (35582, 19, True)
      , (35582, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Wall (35584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35584;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35584, 'ace35584-wall');
@@ -4375,6 +4705,9 @@ VALUES (35584, 12, True)
      , (35584, 19, True)
      , (35584, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Wall (35585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35585;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35585, 'ace35585-wall');
 
@@ -4406,6 +4739,9 @@ VALUES (35585, 12, True)
      , (35585, 19, True)
      , (35585, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Wall (35583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35583;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35583, 'ace35583-wall');
 
@@ -4436,6 +4772,9 @@ VALUES (35583, 12, True)
      , (35583, 14, True)
      , (35583, 19, True)
      , (35583, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Enchanted Mnemosyne (43844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43844;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43844, 'ace43844-enchantedmnemosyne');
@@ -4472,6 +4811,9 @@ VALUES (43844, 13, True)
      , (43844, 41, True)
      , (43844, 42, True)
      , (43844, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue (38339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38339;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38339, 'ace38339-statue');
@@ -4510,6 +4852,9 @@ VALUES (38339, 12, True)
      , (38339, 42, True)
      , (38339, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Jojii Shrine (24263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24263;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24263, 'shoshrinenpc');
 
@@ -4544,6 +4889,9 @@ VALUES (24263, 12, True)
      , (24263, 41, True)
      , (24263, 42, True)
      , (24263, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Harbinger's Lair (33246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33246;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33246, 'ace33246-harbingerslair');
@@ -4583,6 +4931,9 @@ VALUES (33246, 13, True)
      , (33246, 42, True)
      , (33246, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Essence of Enchantment (32734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32734;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32734, 'ace32734-essenceofenchantment');
 
@@ -4616,6 +4967,9 @@ VALUES (32734, 12, True)
      , (32734, 14, True)
      , (32734, 19, True)
      , (32734, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Essence of Verdancy (32736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32736;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32736, 'ace32736-essenceofverdancy');
@@ -4651,6 +5005,9 @@ VALUES (32736, 12, True)
      , (32736, 19, True)
      , (32736, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Essence of Strife (32737) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32737;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32737, 'ace32737-essenceofstrife');
 
@@ -4685,6 +5042,9 @@ VALUES (32737, 12, True)
      , (32737, 19, True)
      , (32737, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Essence of Artifice (32735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32735;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32735, 'ace32735-essenceofartifice');
 
@@ -4718,6 +5078,9 @@ VALUES (32735, 12, True)
      , (32735, 14, True)
      , (32735, 19, True)
      , (32735, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Coffin (21499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21499;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21499, 'statuecoffin');
@@ -4756,6 +5119,9 @@ VALUES (21499, 12, True)
      , (21499, 42, True)
      , (21499, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Silence (21511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21511, 'statuesilence');
 
@@ -4792,6 +5158,9 @@ VALUES (21511, 12, True)
      , (21511, 41, True)
      , (21511, 42, True)
      , (21511, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Black (21498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21498, 'statueblack');
@@ -4830,6 +5199,9 @@ VALUES (21498, 12, True)
      , (21498, 42, True)
      , (21498, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Eyes (21503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21503;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21503, 'statueeyes');
 
@@ -4866,6 +5238,9 @@ VALUES (21503, 12, True)
      , (21503, 41, True)
      , (21503, 42, True)
      , (21503, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Bed (21497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21497;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21497, 'statuebed');
@@ -4904,6 +5279,9 @@ VALUES (21497, 12, True)
      , (21497, 42, True)
      , (21497, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Flame (21504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21504;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21504, 'statueflame');
 
@@ -4940,6 +5318,9 @@ VALUES (21504, 12, True)
      , (21504, 41, True)
      , (21504, 42, True)
      , (21504, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Hole (21505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21505;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21505, 'statuehole');
@@ -4978,6 +5359,9 @@ VALUES (21505, 12, True)
      , (21505, 42, True)
      , (21505, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Wind (21516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21516, 'statuewind');
 
@@ -5014,6 +5398,9 @@ VALUES (21516, 12, True)
      , (21516, 41, True)
      , (21516, 42, True)
      , (21516, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Death (21501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21501;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21501, 'statuedeath');
@@ -5052,6 +5439,9 @@ VALUES (21501, 12, True)
      , (21501, 42, True)
      , (21501, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Time (21514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21514;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21514, 'statuetime');
 
@@ -5088,6 +5478,9 @@ VALUES (21514, 12, True)
      , (21514, 41, True)
      , (21514, 42, True)
      , (21514, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Ring (21510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21510;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21510, 'statuering');
@@ -5126,6 +5519,9 @@ VALUES (21510, 12, True)
      , (21510, 42, True)
      , (21510, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Hope (21506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21506;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21506, 'statuehope');
 
@@ -5162,6 +5558,9 @@ VALUES (21506, 12, True)
      , (21506, 41, True)
      , (21506, 42, True)
      , (21506, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Stars (21512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21512;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21512, 'statuestars');
@@ -5200,6 +5599,9 @@ VALUES (21512, 12, True)
      , (21512, 42, True)
      , (21512, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - E (21502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21502;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21502, 'statuee');
 
@@ -5236,6 +5638,9 @@ VALUES (21502, 12, True)
      , (21502, 41, True)
      , (21502, 42, True)
      , (21502, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Darkness (21500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21500, 'statuedarkness');
@@ -5274,6 +5679,9 @@ VALUES (21500, 12, True)
      , (21500, 42, True)
      , (21500, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Mushroom (21508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21508;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21508, 'statuemushroom');
 
@@ -5310,6 +5718,9 @@ VALUES (21508, 12, True)
      , (21508, 41, True)
      , (21508, 42, True)
      , (21508, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Man (21507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21507;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21507, 'statueman');
@@ -5348,6 +5759,9 @@ VALUES (21507, 12, True)
      , (21507, 42, True)
      , (21507, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Nothing (21509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21509, 'statuenothing');
 
@@ -5384,6 +5798,9 @@ VALUES (21509, 12, True)
      , (21509, 41, True)
      , (21509, 42, True)
      , (21509, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Tribunal (21496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21496;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21496, 'headsphinx');
@@ -5422,6 +5839,9 @@ VALUES (21496, 12, True)
      , (21496, 42, True)
      , (21496, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Sunlight (21513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21513;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21513, 'statuesunlight');
 
@@ -5459,6 +5879,9 @@ VALUES (21513, 12, True)
      , (21513, 42, True)
      , (21513, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door (46929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46929;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46929, 'ace46929-door');
 
@@ -5489,6 +5912,9 @@ VALUES (46929, 12, True)
      , (46929, 14, True)
      , (46929, 19, True)
      , (46929, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue (21494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21494;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21494, 'statuefloorwalk');
@@ -5527,6 +5953,9 @@ VALUES (21494, 12, True)
      , (21494, 42, True)
      , (21494, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue (21495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21495;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21495, 'statuegoldensilence');
 
@@ -5563,6 +5992,9 @@ VALUES (21495, 12, True)
      , (21495, 41, True)
      , (21495, 42, True)
      , (21495, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Bookshelf (21485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21485;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21485, 'bookshelfdericost');
@@ -5601,6 +6033,9 @@ VALUES (21485, 12, True)
      , (21485, 42, True)
      , (21485, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Bookshelf (21486) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21486;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21486, 'bookshelffalatacot');
 
@@ -5637,6 +6072,9 @@ VALUES (21486, 12, True)
      , (21486, 41, True)
      , (21486, 42, True)
      , (21486, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Bookshelf (21487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21487;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21487, 'bookshelfyalain');
@@ -5675,6 +6113,9 @@ VALUES (21487, 12, True)
      , (21487, 42, True)
      , (21487, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Gaerlan's Phylacteric Prison (46937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46937;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46937, 'ace46937-gaerlansphylactericprison');
 
@@ -5711,6 +6152,9 @@ VALUES (46937, 12, True)
      , (46937, 42, True)
      , (46937, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Mana Siphon (41547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41547, 'ace41547-manasiphon');
 
@@ -5746,6 +6190,9 @@ VALUES (41547, 12, True)
      , (41547, 14, True)
      , (41547, 41, True)
      , (41547, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Guardian of the Temple of Enlightenment (22753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22753;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22753, 'guardiantempleenlightenment');
@@ -5784,6 +6231,9 @@ VALUES (22753, 12, True)
      , (22753, 42, True)
      , (22753, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Enchanted Mnemosyne (43837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43837;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43837, 'ace43837-enchantedmnemosyne');
 
@@ -5819,6 +6269,9 @@ VALUES (43837, 13, True)
      , (43837, 41, True)
      , (43837, 42, True)
      , (43837, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Resonant Portal (41004) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41004;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41004, 'ace41004-resonantportal');
@@ -5858,6 +6311,9 @@ VALUES (41004, 13, True)
      , (41004, 42, True)
      , (41004, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Enchanted Mnemosyne (43839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43839;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43839, 'ace43839-enchantedmnemosyne');
 
@@ -5893,6 +6349,9 @@ VALUES (43839, 13, True)
      , (43839, 41, True)
      , (43839, 42, True)
      , (43839, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Enchanted Mnemosyne (43840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43840;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43840, 'ace43840-enchantedmnemosyne');
@@ -5930,6 +6389,9 @@ VALUES (43840, 13, True)
      , (43840, 42, True)
      , (43840, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Freezing Wind (51352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51352, 'ace51352-freezingwind');
 
@@ -5964,6 +6426,9 @@ VALUES (51352, 12, True)
      , (51352, 15, True)
      , (51352, 19, True)
      , (51352, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Guardian of the Temple of Forgetfulness (22754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22754;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22754, 'guardiantempleforgetfulness');
@@ -6002,6 +6467,9 @@ VALUES (22754, 12, True)
      , (22754, 42, True)
      , (22754, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Self (32482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32482;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32482, 'ace32482-wardenofloweringself');
 
@@ -6038,6 +6506,9 @@ VALUES (32482, 12, True)
      , (32482, 41, True)
      , (32482, 42, True)
      , (32482, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Servant of Alteration (32551) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32551;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32551, 'ace32551-servantofalteration');
@@ -6076,6 +6547,9 @@ VALUES (32551, 12, True)
      , (32551, 42, True)
      , (32551, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Strength (32479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32479;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32479, 'ace32479-wardenofloweringstrength');
 
@@ -6112,6 +6586,9 @@ VALUES (32479, 12, True)
      , (32479, 41, True)
      , (32479, 42, True)
      , (32479, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Coordination (32478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32478;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32478, 'ace32478-wardenofloweringcoordination');
@@ -6150,6 +6627,9 @@ VALUES (32478, 12, True)
      , (32478, 42, True)
      , (32478, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Endurance (32471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32471, 'ace32471-wardenofloweringendurance');
 
@@ -6186,6 +6666,9 @@ VALUES (32471, 12, True)
      , (32471, 41, True)
      , (32471, 42, True)
      , (32471, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Quickness (32480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32480;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32480, 'ace32480-wardenofloweringquickness');
@@ -6224,6 +6707,9 @@ VALUES (32480, 12, True)
      , (32480, 42, True)
      , (32480, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Servant of Forgetfulness (32552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32552;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32552, 'ace32552-servantofforgetfulness');
 
@@ -6260,6 +6746,9 @@ VALUES (32552, 12, True)
      , (32552, 41, True)
      , (32552, 42, True)
      , (32552, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Lowering Focus (32481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32481;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32481, 'ace32481-wardenofloweringfocus');
@@ -6298,6 +6787,9 @@ VALUES (32481, 12, True)
      , (32481, 42, True)
      , (32481, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Dirty Fighting Warden of Forgetfulness (45385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45385;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45385, 'ace45385-dirtyfightingwardenofforgetfulness');
 
@@ -6334,6 +6826,9 @@ VALUES (45385, 12, True)
      , (45385, 41, True)
      , (45385, 42, True)
      , (45385, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Deception Warden of Forgetfulness (32419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32419;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32419, 'ace32419-deceptionwardenofforgetfulness');
@@ -6372,6 +6867,9 @@ VALUES (32419, 12, True)
      , (32419, 42, True)
      , (32419, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Assess Person Warden of Forgetfulness (32435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32435, 'ace32435-assesspersonwardenofforgetfulness');
 
@@ -6408,6 +6906,9 @@ VALUES (32435, 12, True)
      , (32435, 41, True)
      , (32435, 42, True)
      , (32435, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Creature Enchantment Warden of Forgetfulness (32416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32416;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32416, 'ace32416-creatureenchantmentwardenofforgetfulness');
@@ -6446,6 +6947,9 @@ VALUES (32416, 12, True)
      , (32416, 42, True)
      , (32416, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Assess Creature Warden of Forgetfulness (32415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32415;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32415, 'ace32415-assesscreaturewardenofforgetfulness');
 
@@ -6482,6 +6986,9 @@ VALUES (32415, 12, True)
      , (32415, 41, True)
      , (32415, 42, True)
      , (32415, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Cooking Warden of Forgetfulness (32413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32413;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32413, 'ace32413-cookingwardenofforgetfulness');
@@ -6520,6 +7027,9 @@ VALUES (32413, 12, True)
      , (32413, 42, True)
      , (32413, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Armor Tinkering Warden of Forgetfulness (32410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32410;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32410, 'ace32410-armortinkeringwardenofforgetfulness');
 
@@ -6556,6 +7066,9 @@ VALUES (32410, 12, True)
      , (32410, 41, True)
      , (32410, 42, True)
      , (32410, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Alchemy Warden of Forgetfulness (32398) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32398;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32398, 'ace32398-alchemywardenofforgetfulness');
@@ -6594,6 +7107,9 @@ VALUES (32398, 12, True)
      , (32398, 42, True)
      , (32398, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Arcane Lore Warden of Forgetfulness (32409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32409;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32409, 'ace32409-arcanelorewardenofforgetfulness');
 
@@ -6630,6 +7146,9 @@ VALUES (32409, 12, True)
      , (32409, 41, True)
      , (32409, 42, True)
      , (32409, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Summoning Warden of Forgetfulness (49482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49482, 'ace49482-summoningwardenofforgetfulness');
@@ -6668,6 +7187,9 @@ VALUES (49482, 12, True)
      , (49482, 42, True)
      , (49482, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Sneak Attack Warden of Forgetfulness (45389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45389;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45389, 'ace45389-sneakattackwardenofforgetfulness');
 
@@ -6704,6 +7226,9 @@ VALUES (45389, 12, True)
      , (45389, 41, True)
      , (45389, 42, True)
      , (45389, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Shield Warden of Forgetfulness (45388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45388;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45388, 'ace45388-shieldwardenofforgetfulness');
@@ -6742,6 +7267,9 @@ VALUES (45388, 12, True)
      , (45388, 42, True)
      , (45388, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Recklessness Warden of Forgetfulness (45387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45387;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45387, 'ace45387-recklessnesswardenofforgetfulness');
 
@@ -6778,6 +7306,9 @@ VALUES (45387, 12, True)
      , (45387, 41, True)
      , (45387, 42, True)
      , (45387, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Void Magic Warden of Forgetfulness (43401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43401, 'ace43401-voidmagicwardenofforgetfulness');
@@ -6816,6 +7347,9 @@ VALUES (43401, 12, True)
      , (43401, 42, True)
      , (43401, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Two Handed Warden of Forgetfulness (41743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41743;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41743, 'ace41743-twohandedwardenofforgetfulness');
 
@@ -6852,6 +7386,9 @@ VALUES (41743, 12, True)
      , (41743, 41, True)
      , (41743, 42, True)
      , (41743, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Run Warden of Forgetfulness (32400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32400;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32400, 'ace32400-runwardenofforgetfulness');
@@ -6890,6 +7427,9 @@ VALUES (32400, 12, True)
      , (32400, 42, True)
      , (32400, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Salvaging Warden of Forgetfulness (32401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32401;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32401, 'ace32401-salvagingwardenofforgetfulness');
 
@@ -6926,6 +7466,9 @@ VALUES (32401, 12, True)
      , (32401, 41, True)
      , (32401, 42, True)
      , (32401, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Weapon Tinkering Warden of Forgetfulness (32408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32408;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32408, 'ace32408-weapontinkeringwardenofforgetfulness');
@@ -6964,6 +7507,9 @@ VALUES (32408, 12, True)
      , (32408, 42, True)
      , (32408, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - War Magic Warden of Forgetfulness (32407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32407, 'ace32407-warmagicwardenofforgetfulness');
 
@@ -7000,6 +7546,9 @@ VALUES (32407, 12, True)
      , (32407, 41, True)
      , (32407, 42, True)
      , (32407, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Dual Wield Warden of Forgetfulness (45386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45386;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45386, 'ace45386-dualwieldwardenofforgetfulness');
@@ -7038,6 +7587,9 @@ VALUES (45386, 12, True)
      , (45386, 42, True)
      , (45386, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Fletching Warden of Forgetfulness (32420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32420, 'ace32420-fletchingwardenofforgetfulness');
 
@@ -7074,6 +7626,9 @@ VALUES (32420, 12, True)
      , (32420, 41, True)
      , (32420, 42, True)
      , (32420, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Life Magic Warden of Forgetfulness (32426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32426;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32426, 'ace32426-lifemagicwardenofforgetfulness');
@@ -7112,6 +7667,9 @@ VALUES (32426, 12, True)
      , (32426, 42, True)
      , (32426, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Finesse Weapons Warden of Forgetfulness (32418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32418;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32418, 'ace32418-finesseweaponswardenofforgetfulness');
 
@@ -7148,6 +7706,9 @@ VALUES (32418, 12, True)
      , (32418, 41, True)
      , (32418, 42, True)
      , (32418, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Jump Warden of Forgetfulness (32424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32424;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32424, 'ace32424-jumpwardenofforgetfulness');
@@ -7186,6 +7747,9 @@ VALUES (32424, 12, True)
      , (32424, 42, True)
      , (32424, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Item Enchantment Warden of Forgetfulness (32423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32423, 'ace32423-itemenchantmentwardenofforgetfulness');
 
@@ -7222,6 +7786,9 @@ VALUES (32423, 12, True)
      , (32423, 41, True)
      , (32423, 42, True)
      , (32423, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Leadership Warden of Forgetfulness (32425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32425;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32425, 'ace32425-leadershipwardenofforgetfulness');
@@ -7260,6 +7827,9 @@ VALUES (32425, 12, True)
      , (32425, 42, True)
      , (32425, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Healing Warden of Forgetfulness (32421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32421;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32421, 'ace32421-healingwardenofforgetfulness');
 
@@ -7296,6 +7866,9 @@ VALUES (32421, 12, True)
      , (32421, 41, True)
      , (32421, 42, True)
      , (32421, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Item Tinkering Warden of Forgetfulness (32422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32422;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32422, 'ace32422-itemtinkeringwardenofforgetfulness');
@@ -7334,6 +7907,9 @@ VALUES (32422, 12, True)
      , (32422, 42, True)
      , (32422, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Heavy Weapons Warden of Forgetfulness (32404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32404;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32404, 'ace32404-heavyweaponswardenofforgetfulness');
 
@@ -7370,6 +7946,9 @@ VALUES (32404, 12, True)
      , (32404, 41, True)
      , (32404, 42, True)
      , (32404, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Lockpick Warden of Forgetfulness (32427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32427;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32427, 'ace32427-lockpickwardenofforgetfulness');
@@ -7408,6 +7987,9 @@ VALUES (32427, 12, True)
      , (32427, 42, True)
      , (32427, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Melee Defense Warden of Forgetfulness (32433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32433, 'ace32433-meleedefensewardenofforgetfulness');
 
@@ -7444,6 +8026,9 @@ VALUES (32433, 12, True)
      , (32433, 41, True)
      , (32433, 42, True)
      , (32433, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Mana Conversion Warden of Forgetfulness (32432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32432;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32432, 'ace32432-manaconversionwardenofforgetfulness');
@@ -7482,6 +8067,9 @@ VALUES (32432, 12, True)
      , (32432, 42, True)
      , (32432, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Missile Defense Warden of Forgetfulness (32434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32434;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32434, 'ace32434-missiledefensewardenofforgetfulness');
 
@@ -7518,6 +8106,9 @@ VALUES (32434, 12, True)
      , (32434, 41, True)
      , (32434, 42, True)
      , (32434, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Magic Defense Warden of Forgetfulness (32430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32430;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32430, 'ace32430-magicdefensewardenofforgetfulness');
@@ -7556,6 +8147,9 @@ VALUES (32430, 12, True)
      , (32430, 42, True)
      , (32430, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Magic Item Tinkering Warden of Forgetfulness (32431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32431;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32431, 'ace32431-magicitemtinkeringwardenofforgetfulness');
 
@@ -7592,6 +8186,9 @@ VALUES (32431, 12, True)
      , (32431, 41, True)
      , (32431, 42, True)
      , (32431, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Loyalty Warden of Forgetfulness (32428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32428;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32428, 'ace32428-loyaltywardenofforgetfulness');
@@ -7630,6 +8227,9 @@ VALUES (32428, 12, True)
      , (32428, 42, True)
      , (32428, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Missile Weapons Warden of Forgetfulness (32412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32412;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32412, 'ace32412-missileweaponswardenofforgetfulness');
 
@@ -7666,6 +8266,9 @@ VALUES (32412, 12, True)
      , (32412, 41, True)
      , (32412, 42, True)
      , (32412, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Light Weapons Warden of Forgetfulness (32411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32411, 'ace32411-lightweaponswardenofforgetfulness');
@@ -7704,6 +8307,9 @@ VALUES (32411, 12, True)
      , (32411, 42, True)
      , (32411, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Self (32476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32476;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32476, 'ace32476-wardenofraisingself');
 
@@ -7740,6 +8346,9 @@ VALUES (32476, 12, True)
      , (32476, 41, True)
      , (32476, 42, True)
      , (32476, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Strength (32473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32473;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32473, 'ace32473-wardenofraisingstrength');
@@ -7778,6 +8387,9 @@ VALUES (32473, 12, True)
      , (32473, 42, True)
      , (32473, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Coordination (32472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32472;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32472, 'ace32472-wardenofraisingcoordination');
 
@@ -7814,6 +8426,9 @@ VALUES (32472, 12, True)
      , (32472, 41, True)
      , (32472, 42, True)
      , (32472, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Endurance (32477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32477, 'ace32477-wardenofraisingendurance');
@@ -7852,6 +8467,9 @@ VALUES (32477, 12, True)
      , (32477, 42, True)
      , (32477, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Servant of Enlightenment (32553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32553;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32553, 'ace32553-servantofenlightenment');
 
@@ -7888,6 +8506,9 @@ VALUES (32553, 12, True)
      , (32553, 41, True)
      , (32553, 42, True)
      , (32553, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Focus (32475) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32475;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32475, 'ace32475-wardenofraisingfocus');
@@ -7926,6 +8547,9 @@ VALUES (32475, 12, True)
      , (32475, 42, True)
      , (32475, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Warden of Raising Quickness (32474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32474;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32474, 'ace32474-wardenofraisingquickness');
 
@@ -7963,6 +8587,9 @@ VALUES (32474, 12, True)
      , (32474, 42, True)
      , (32474, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Eyestalk of T'thuun (39342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39342;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39342, 'ace39342-eyestalkoftthuun');
 
@@ -7997,6 +8624,9 @@ VALUES (39342, 12, True)
      , (39342, 19, True)
      , (39342, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Eyestalk of T'thuun (39345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39345;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39345, 'ace39345-eyestalkoftthuun');
 
@@ -8030,6 +8660,9 @@ VALUES (39345, 12, True)
      , (39345, 14, True)
      , (39345, 19, True)
      , (39345, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Jester's Prison Portal (37149) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37149;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37149, 'ace37149-jestersprisonportal');
@@ -8069,6 +8702,9 @@ VALUES (37149, 13, True)
      , (37149, 42, True)
      , (37149, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Enchanted Mnemosyne (43842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43842;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43842, 'ace43842-enchantedmnemosyne');
 
@@ -8104,6 +8740,9 @@ VALUES (43842, 13, True)
      , (43842, 41, True)
      , (43842, 42, True)
      , (43842, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Mhoire Castle Southeast Tower Portal (41952) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41952;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41952, 'ace41952-mhoirecastlesoutheasttowerportal');
@@ -8144,6 +8783,9 @@ VALUES (41952, 13, True)
      , (41952, 42, True)
      , (41952, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Mhoire Castle Northeast Tower Portal (41950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41950;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41950, 'ace41950-mhoirecastlenortheasttowerportal');
 
@@ -8182,6 +8824,9 @@ VALUES (41950, 13, True)
      , (41950, 41, True)
      , (41950, 42, True)
      , (41950, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Mhoire Castle Northwest Tower Portal (41951) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41951;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41951, 'ace41951-mhoirecastlenorthwesttowerportal');
@@ -8222,6 +8867,9 @@ VALUES (41951, 13, True)
      , (41951, 42, True)
      , (41951, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Mhoire Castle Southwest Tower Portal (41953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41953;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41953, 'ace41953-mhoirecastlesouthwesttowerportal');
 
@@ -8261,6 +8909,9 @@ VALUES (41953, 13, True)
      , (41953, 42, True)
      , (41953, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Acid Pit (43631) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43631;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43631, 'ace43631-acidpit');
 
@@ -8298,6 +8949,9 @@ VALUES (43631, 12, True)
      , (43631, 42, True)
      , (43631, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Master Statue of 'Moarsman City' Transport (41176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41176;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41176, 'ace41176-masterstatueofmoarsmancitytransport');
 
@@ -8334,6 +8988,9 @@ VALUES (41176, 12, True)
      , (41176, 42, True)
      , (41176, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Master Statue of 'Freebooter Isle' Transport (41175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41175;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41175, 'ace41175-masterstatueoffreebooterisletransport');
 
@@ -8369,6 +9026,9 @@ VALUES (41175, 12, True)
      , (41175, 41, True)
      , (41175, 42, True)
      , (41175, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - The Deep (33674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33674;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33674, 'ace33674-thedeep');
@@ -8407,6 +9067,9 @@ VALUES (33674, 12, True)
      , (33674, 41, True)
      , (33674, 42, True)
      , (33674, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Ancient Portal (44308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44308;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44308, 'ace44308-ancientportal');
@@ -8447,6 +9110,9 @@ VALUES (44308, 13, True)
      , (44308, 42, True)
      , (44308, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Ancient Portal (44309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44309;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44309, 'ace44309-ancientportal');
 
@@ -8485,6 +9151,9 @@ VALUES (44309, 13, True)
      , (44309, 41, True)
      , (44309, 42, True)
      , (44309, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Ancient Portal (44310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44310;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44310, 'ace44310-ancientportal');
@@ -8525,6 +9194,9 @@ VALUES (44310, 13, True)
      , (44310, 42, True)
      , (44310, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Ancient Portal (44311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44311;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44311, 'ace44311-ancientportal');
 
@@ -8564,6 +9236,9 @@ VALUES (44311, 13, True)
      , (44311, 42, True)
      , (44311, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Resonant Portal (40104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40104;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40104, 'ace40104-resonantportal');
 
@@ -8602,6 +9277,9 @@ VALUES (40104, 13, True)
      , (40104, 42, True)
      , (40104, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Enchanted Mnemosyne (43845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43845, 'ace43845-enchantedmnemosyne');
 
@@ -8637,6 +9315,9 @@ VALUES (43845, 13, True)
      , (43845, 41, True)
      , (43845, 42, True)
      , (43845, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - North Gate Stone (37033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37033;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37033, 'ace37033-northgatestone');
@@ -8674,6 +9355,9 @@ VALUES (37033, 12, True)
      , (37033, 42, True)
      , (37033, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - East Gate Stone (37027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37027;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37027, 'ace37027-eastgatestone');
 
@@ -8709,6 +9393,9 @@ VALUES (37027, 12, True)
      , (37027, 41, True)
      , (37027, 42, True)
      , (37027, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Strange Device (36778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36778;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36778, 'ace36778-strangedevice');
@@ -8747,6 +9434,9 @@ VALUES (36778, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36778, 9, 16785621);
 
+/* Weenie - CreaturesOtherNPCs - Statue (38332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38332;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38332, 'ace38332-statue');
 
@@ -8784,6 +9474,9 @@ VALUES (38332, 12, True)
      , (38332, 42, True)
      , (38332, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Transport (38074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38074;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38074, 'ace38074-statueoftransport');
 
@@ -8819,6 +9512,9 @@ VALUES (38074, 12, True)
      , (38074, 41, True)
      , (38074, 42, True)
      , (38074, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Lair of Holcha (53289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53289;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53289, 'ace53289-lairofholcha');
@@ -8860,6 +9556,9 @@ VALUES (53289, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53289, 67117144, 0, 0);
+
+/* Weenie - CreaturesOtherNPCs - Lair of Tremb'Orh (53287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53287;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53287, 'ace53287-lairoftremborh');
@@ -8909,6 +9608,9 @@ VALUES (53287, 13, 83894877, 83894877)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53287, 13, 16789731);
 
+/* Weenie - CreaturesOtherNPCs - Lair of the Gromnus Champion (53285) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53285;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53285, 'ace53285-lairofthegromnuschampion');
 
@@ -8949,6 +9651,9 @@ VALUES (53285, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53285, 67113822, 0, 0);
 
+/* Weenie - CreaturesOtherNPCs - Bookcase (25713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25713;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25713, 'bookcasenoir1');
 
@@ -8985,6 +9690,9 @@ VALUES (25713, 12, True)
      , (25713, 42, True)
      , (25713, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Eyestalk of T'thuun (38823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38823, 'ace38823-eyestalkoftthuun');
 
@@ -9018,6 +9726,9 @@ VALUES (38823, 12, True)
      , (38823, 14, True)
      , (38823, 19, True)
      , (38823, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Transport (38370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38370;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38370, 'ace38370-statueoftransport');
@@ -9055,6 +9766,9 @@ VALUES (38370, 12, True)
      , (38370, 42, True)
      , (38370, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Eyestalk of T'thuun (39450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39450, 'ace39450-eyestalkoftthuun');
 
@@ -9085,6 +9799,9 @@ VALUES (39450, 12, True)
      , (39450, 14, True)
      , (39450, 19, True)
      , (39450, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Eyestalk of T'thuun (39344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39344, 'ace39344-eyestalkoftthuun');
@@ -9120,6 +9837,9 @@ VALUES (39344, 12, True)
      , (39344, 19, True)
      , (39344, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Sath'tik Eyestalk (53375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53375;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53375, 'ace53375-sathtikeyestalk');
 
@@ -9154,6 +9874,9 @@ VALUES (53375, 12, True)
      , (53375, 19, True)
      , (53375, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door (27462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27462;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27462, 'doorrenegadefortressinner');
 
@@ -9184,6 +9907,9 @@ VALUES (27462, 12, True)
      , (27462, 14, True)
      , (27462, 19, True)
      , (27462, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Enchanted Mnemosyne (43846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43846;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43846, 'ace43846-enchantedmnemosyne');
@@ -9221,6 +9947,9 @@ VALUES (43846, 13, True)
      , (43846, 42, True)
      , (43846, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Creeping Death (48822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48822;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48822, 'ace48822-statueofcreepingdeath');
 
@@ -9255,6 +9984,9 @@ VALUES (48822, 13, True)
      , (48822, 41, True)
      , (48822, 42, True)
      , (48822, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Blitzkrieg Statue (48821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48821;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48821, 'ace48821-blitzkriegstatue');
@@ -9291,6 +10023,9 @@ VALUES (48821, 13, True)
      , (48821, 42, True)
      , (48821, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door (27463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27463;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27463, 'doorrenegadefortressouter');
 
@@ -9321,6 +10056,9 @@ VALUES (27463, 12, True)
      , (27463, 14, True)
      , (27463, 19, True)
      , (27463, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Mhoire Castle Courtyard Portal (41948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41948;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41948, 'ace41948-mhoirecastlecourtyardportal');
@@ -9361,6 +10099,9 @@ VALUES (41948, 13, True)
      , (41948, 42, True)
      , (41948, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door (37157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37157;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37157, 'ace37157-door');
 
@@ -9391,6 +10132,9 @@ VALUES (37157, 12, True)
      , (37157, 14, True)
      , (37157, 19, True)
      , (37157, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - The Deep (31933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31933, 'ace31933-thedeep');
@@ -9430,6 +10174,9 @@ VALUES (31933, 12, True)
      , (31933, 42, True)
      , (31933, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Visible Portalspace Anomaly (43248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43248;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43248, 'ace43248-visibleportalspaceanomaly');
 
@@ -9466,6 +10213,9 @@ VALUES (43248, 13, True)
      , (43248, 41, True)
      , (43248, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door (21545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21545, 'doorrollingdeathextreme');
 
@@ -9496,6 +10246,9 @@ VALUES (21545, 12, True)
      , (21545, 14, True)
      , (21545, 19, True)
      , (21545, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Wailing Statue (26543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26543;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26543, 'statuespikelauncher3');
@@ -9532,6 +10285,9 @@ VALUES (26543, 12, True)
      , (26543, 41, True)
      , (26543, 42, True)
      , (26543, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Wailing Statue (26568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26568;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26568, 'statuespikelauncher5');
@@ -9570,6 +10326,9 @@ VALUES (26568, 12, True)
      , (26568, 42, True)
      , (26568, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Wailing Statue (26544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26544;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26544, 'statuespikelauncher7');
 
@@ -9607,6 +10366,9 @@ VALUES (26544, 12, True)
      , (26544, 42, True)
      , (26544, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Rock Wall (37569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37569;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37569, 'ace37569-rockwall');
 
@@ -9638,6 +10400,9 @@ VALUES (37569, 12, True)
      , (37569, 19, True)
      , (37569, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Thick Rock Wall (51646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51646;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51646, 'ace51646-thickrockwall');
 
@@ -9668,6 +10433,9 @@ VALUES (51646, 12, True)
      , (51646, 14, True)
      , (51646, 19, True)
      , (51646, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue (38340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38340;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38340, 'ace38340-statue');
@@ -9706,6 +10474,9 @@ VALUES (38340, 12, True)
      , (38340, 42, True)
      , (38340, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Shrine of the Eye of T'thuun (38255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38255;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38255, 'ace38255-shrineoftheeyeoftthuun');
 
@@ -9742,6 +10513,9 @@ VALUES (38255, 12, True)
      , (38255, 42, True)
      , (38255, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Eyestalk of T'thuun (38829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38829;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38829, 'ace38829-eyestalkoftthuun');
 
@@ -9775,6 +10549,9 @@ VALUES (38829, 12, True)
      , (38829, 14, True)
      , (38829, 19, True)
      , (38829, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Shrine of the Temple Horn (38257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38257;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38257, 'ace38257-shrineofthetemplehorn');
@@ -9812,6 +10589,9 @@ VALUES (38257, 12, True)
      , (38257, 42, True)
      , (38257, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Shrine of the Scroll of Prophecy (38256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38256, 'ace38256-shrineofthescrollofprophecy');
 
@@ -9848,6 +10628,9 @@ VALUES (38256, 12, True)
      , (38256, 42, True)
      , (38256, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Crude Statue (30626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30626;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30626, 'banderlingidol');
 
@@ -9883,6 +10666,9 @@ VALUES (30626, 12, True)
      , (30626, 41, True)
      , (30626, 42, True)
      , (30626, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Portal Gateway (29747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29747;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29747, 'gatewayreeshanpuzzle');
@@ -9921,6 +10707,9 @@ VALUES (29747, 12, True)
      , (29747, 42, True)
      , (29747, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Portal Gateway (29746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29746, 'gatewayreeshanlair');
 
@@ -9958,6 +10747,9 @@ VALUES (29746, 12, True)
      , (29746, 42, True)
      , (29746, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Stomach Wall (29589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29589;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29589, 'wallstomachreeshan');
 
@@ -9988,6 +10780,9 @@ VALUES (29589, 12, True)
      , (29589, 14, True)
      , (29589, 19, True)
      , (29589, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Odd Looking Vine (27174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27174;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27174, 'vineportalliazkitzi');
@@ -10026,6 +10821,9 @@ VALUES (27174, 12, True)
      , (27174, 42, True)
      , (27174, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Enchanted Mnemosyne (43838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43838;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43838, 'ace43838-enchantedmnemosyne');
 
@@ -10061,6 +10859,9 @@ VALUES (43838, 13, True)
      , (43838, 41, True)
      , (43838, 42, True)
      , (43838, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Documents (42250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42250, 'ace42250-documents');
@@ -10098,6 +10899,9 @@ VALUES (42250, 12, True)
      , (42250, 42, True)
      , (42250, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Smelting Vat (42224) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42224;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42224, 'ace42224-smeltingvat');
 
@@ -10134,6 +10938,9 @@ VALUES (42224, 12, True)
      , (42224, 42, True)
      , (42224, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Enchanted Mnemosyne (43841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43841;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43841, 'ace43841-enchantedmnemosyne');
 
@@ -10169,6 +10976,9 @@ VALUES (43841, 13, True)
      , (43841, 41, True)
      , (43841, 42, True)
      , (43841, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Odd Looking Vine (26587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26587, 'vinetempleportal');
@@ -10207,6 +11017,9 @@ VALUES (26587, 12, True)
      , (26587, 42, True)
      , (26587, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Portal Pillar (32522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32522;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32522, 'ace32522-portalpillar');
 
@@ -10238,6 +11051,9 @@ VALUES (32522, 13, True)
      , (32522, 14, True)
      , (32522, 19, True)
      , (32522, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Eyestalk of T'thuun (38826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38826;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38826, 'ace38826-eyestalkoftthuun');
@@ -10272,6 +11088,9 @@ VALUES (38826, 12, True)
      , (38826, 14, True)
      , (38826, 19, True)
      , (38826, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Enchanted Mnemosyne (43843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43843;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43843, 'ace43843-enchantedmnemosyne');
@@ -10309,6 +11128,9 @@ VALUES (43843, 13, True)
      , (43843, 42, True)
      , (43843, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Apostate Nexus Gateway (40810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40810;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40810, 'ace40810-apostatenexusgateway');
 
@@ -10343,6 +11165,9 @@ VALUES (40810, 12, True)
      , (40810, 41, True)
      , (40810, 42, True)
      , (40810, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Harmonic Transference Field (37050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37050;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37050, 'ace37050-harmonictransferencefield');
@@ -10380,6 +11205,9 @@ VALUES (37050, 12, True)
      , (37050, 41, True)
      , (37050, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - West Gate Stone (37041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37041;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37041, 'ace37041-westgatestone');
 
@@ -10416,6 +11244,9 @@ VALUES (37041, 12, True)
      , (37041, 42, True)
      , (37041, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door (21547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21547, 'doorrollingdeathlow');
 
@@ -10446,6 +11277,9 @@ VALUES (21547, 12, True)
      , (21547, 14, True)
      , (21547, 19, True)
      , (21547, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Gaerlan's Phylacteric Prison (21720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21720;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21720, 'chestgaerlanprison');
@@ -10482,6 +11316,9 @@ VALUES (21720, 12, True)
      , (21720, 41, True)
      , (21720, 42, True)
      , (21720, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Viridian Portal (53245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53245;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53245, 'ace53245-viridianportal');
@@ -10522,6 +11359,9 @@ VALUES (53245, 13, True)
      , (53245, 42, True)
      , (53245, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Viridian Portal (53225) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53225;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53225, 'ace53225-viridianportal');
 
@@ -10560,6 +11400,9 @@ VALUES (53225, 13, True)
      , (53225, 41, True)
      , (53225, 42, True)
      , (53225, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Viridian Portal (53233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53233, 'ace53233-viridianportal');
@@ -10600,6 +11443,9 @@ VALUES (53233, 13, True)
      , (53233, 42, True)
      , (53233, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Portal Out to Viridian Chasm (53246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53246;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53246, 'ace53246-portalouttoviridianchasm');
 
@@ -10639,6 +11485,9 @@ VALUES (53246, 13, True)
      , (53246, 42, True)
      , (53246, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Portal to Bur (34593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34593, 'ace34593-portaltobur');
 
@@ -10675,6 +11524,9 @@ VALUES (34593, 13, True)
      , (34593, 41, True)
      , (34593, 42, True)
      , (34593, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Viridian Portal (53060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53060;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53060, 'ace53060-viridianportal');
@@ -10714,6 +11566,9 @@ VALUES (53060, 13, True)
      , (53060, 41, True)
      , (53060, 42, True)
      , (53060, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - A'nekshay Temple Servant (45805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45805;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45805, 'ace45805-anekshaytempleservant');
@@ -10802,6 +11657,9 @@ VALUES (45805, 0, 16795526)
      , (45805, 15, 16795541)
      , (45805, 16, 16795542);
 
+/* Weenie - CreaturesOtherNPCs - A'nekshay Temple Servant (45804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45804;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45804, 'ace45804-anekshaytempleservant');
 
@@ -10887,6 +11745,9 @@ VALUES (45804, 0, 16795543)
      , (45804, 14, 16795548)
      , (45804, 15, 16795541)
      , (45804, 16, 16795542);
+
+/* Weenie - CreaturesOtherNPCs - A'nekshay Temple Guardian (45806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45806;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45806, 'ace45806-anekshaytempleguardian');
@@ -10975,6 +11836,9 @@ VALUES (45806, 0, 16795526)
      , (45806, 15, 16795541)
      , (45806, 16, 16795542);
 
+/* Weenie - CreaturesOtherNPCs - A'nekshay Temple Guardian (45803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45803;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45803, 'ace45803-anekshaytempleguardian');
 
@@ -11058,6 +11922,9 @@ VALUES (45803, 0, 16795543)
      , (45803, 15, 16795541)
      , (45803, 16, 16795542);
 
+/* Weenie - CreaturesOtherNPCs - Apparition of the Book of Eibhil (45834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45834;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45834, 'ace45834-apparitionofthebookofeibhil');
 
@@ -11094,6 +11961,9 @@ VALUES (45834, 12, True)
      , (45834, 42, True)
      , (45834, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Apparition of the Book of Eibhil (45835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45835, 'ace45835-apparitionofthebookofeibhil');
 
@@ -11129,6 +11999,9 @@ VALUES (45835, 12, True)
      , (45835, 41, True)
      , (45835, 42, True)
      , (45835, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Strange Device (36776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36776;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36776, 'ace36776-strangedevice');
@@ -11167,6 +12040,9 @@ VALUES (36776, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36776, 9, 16785621);
 
+/* Weenie - CreaturesOtherNPCs - Strange Device (36777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36777;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36777, 'ace36777-strangedevice');
 
@@ -11203,6 +12079,9 @@ VALUES (36777, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36777, 9, 16785621);
+
+/* Weenie - CreaturesOtherNPCs - Bookshelf (23996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23996;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23996, 'bookshelfasheron');
@@ -11241,6 +12120,9 @@ VALUES (23996, 12, True)
      , (23996, 42, True)
      , (23996, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Virindi Portal (36759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36759;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36759, 'ace36759-virindiportal');
 
@@ -11273,6 +12155,9 @@ VALUES (36759, 13, True)
      , (36759, 15, True)
      , (36759, 19, True)
      , (36759, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Virindi Portal (36760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36760;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36760, 'ace36760-virindiportal');
@@ -11307,6 +12192,9 @@ VALUES (36760, 13, True)
      , (36760, 19, True)
      , (36760, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Virindi Portal (36761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36761;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36761, 'ace36761-virindiportal');
 
@@ -11340,6 +12228,9 @@ VALUES (36761, 13, True)
      , (36761, 19, True)
      , (36761, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Virindi Portal (36762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36762;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36762, 'ace36762-virindiportal');
 
@@ -11372,6 +12263,9 @@ VALUES (36762, 13, True)
      , (36762, 15, True)
      , (36762, 19, True)
      , (36762, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Virindi Portal (36763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36763;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36763, 'ace36763-virindiportal');
@@ -11407,6 +12301,9 @@ VALUES (36763, 13, True)
      , (36763, 41, True)
      , (36763, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door (51575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51575;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51575, 'ace51575-door');
 
@@ -11436,6 +12333,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (51575, 12, True)
      , (51575, 14, True)
      , (51575, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Door (51554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51554;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51554, 'ace51554-door');
@@ -11468,6 +12368,9 @@ VALUES (51554, 12, True)
      , (51554, 19, True)
      , (51554, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door (51665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51665;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51665, 'ace51665-door');
 
@@ -11498,6 +12401,9 @@ VALUES (51665, 12, True)
      , (51665, 14, True)
      , (51665, 19, True)
      , (51665, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Lair of Holcha (52872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52872;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52872, 'ace52872-lairofholcha');
@@ -11539,6 +12445,9 @@ VALUES (52872, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52872, 67117144, 0, 0);
+
+/* Weenie - CreaturesOtherNPCs - Lair of Tremb'Orh (52873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52873;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52873, 'ace52873-lairoftremborh');
@@ -11588,6 +12497,9 @@ VALUES (52873, 13, 83894877, 83894877)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52873, 13, 16789731);
 
+/* Weenie - CreaturesOtherNPCs - Lair of the Gromnus Champion (52871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52871;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52871, 'ace52871-lairofthegromnuschampion');
 
@@ -11628,6 +12540,9 @@ VALUES (52871, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52871, 67113822, 0, 0);
 
+/* Weenie - CreaturesOtherNPCs - Lever Box (46573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46573;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46573, 'ace46573-leverbox');
 
@@ -11663,6 +12578,9 @@ VALUES (46573, 13, True)
      , (46573, 41, True)
      , (46573, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Bandit Forger (31339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31339;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31339, 'ace31339-banditforger');
 
@@ -11693,6 +12611,9 @@ VALUES (31339, 12, True)
      , (31339, 14, True)
      , (31339, 19, True)
      , (31339, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Ualannan (28978) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28978;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28978, 'statueualannannpc');
@@ -11731,6 +12652,9 @@ VALUES (28978, 12, True)
      , (28978, 42, True)
      , (28978, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Lauallana (28977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28977, 'statuelauallanalnpc');
 
@@ -11767,6 +12691,9 @@ VALUES (28977, 12, True)
      , (28977, 41, True)
      , (28977, 42, True)
      , (28977, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue of Aurlanna (28976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28976;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28976, 'statueaurlannanpc');
@@ -11805,6 +12732,9 @@ VALUES (28976, 12, True)
      , (28976, 42, True)
      , (28976, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door to Xi Ru's Sanctum (28967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28967;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28967, 'doorsanctumxiru');
 
@@ -11841,6 +12771,9 @@ VALUES (28967, 12, True)
      , (28967, 42, True)
      , (28967, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Indecipherable Book (28962) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28962;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28962, 'bookroadsnuhmudiranpc');
 
@@ -11876,6 +12809,9 @@ VALUES (28962, 12, True)
      , (28962, 41, True)
      , (28962, 42, True)
      , (28962, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Statue (34946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34946;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34946, 'ace34946-statue');
@@ -11914,6 +12850,9 @@ VALUES (34946, 12, True)
      , (34946, 42, True)
      , (34946, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue (34955) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34955;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34955, 'ace34955-statue');
 
@@ -11951,6 +12890,9 @@ VALUES (34955, 12, True)
      , (34955, 42, True)
      , (34955, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Statue (38039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38039;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38039, 'ace38039-statue');
 
@@ -11987,6 +12929,9 @@ VALUES (38039, 12, True)
      , (38039, 41, True)
      , (38039, 42, True)
      , (38039, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Falatacot Prison Warden (34970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34970;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34970, 'ace34970-falatacotprisonwarden');
@@ -12064,6 +13009,9 @@ VALUES (34970, 0, 16788078)
      , (34970, 15, 16789333)
      , (34970, 12, 16789332);
 
+/* Weenie - CreaturesOtherNPCs - Statue (34949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34949;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34949, 'ace34949-statue');
 
@@ -12100,6 +13048,9 @@ VALUES (34949, 12, True)
      , (34949, 41, True)
      , (34949, 42, True)
      , (34949, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Falatacot Warden Statue (38036) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38036;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38036, 'ace38036-falatacotwardenstatue');
@@ -12138,6 +13089,9 @@ VALUES (38036, 12, True)
      , (38036, 42, True)
      , (38036, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Falatacot Warden Statue (38037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38037;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38037, 'ace38037-falatacotwardenstatue');
 
@@ -12175,6 +13129,9 @@ VALUES (38037, 12, True)
      , (38037, 42, True)
      , (38037, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Empyrean Blooded Ritual Statue (35008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35008;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35008, 'ace35008-empyreanbloodedritualstatue');
 
@@ -12205,6 +13162,9 @@ VALUES (35008, 12, True)
      , (35008, 14, True)
      , (35008, 19, True)
      , (35008, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Empyrean Blooded Ritual Statue (35007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35007;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35007, 'ace35007-empyreanbloodedritualstatue');
@@ -12237,6 +13197,9 @@ VALUES (35007, 12, True)
      , (35007, 19, True)
      , (35007, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Watcher's Wall (35483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35483;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35483, 'ace35483-watcherswall');
 
@@ -12268,6 +13231,9 @@ VALUES (35483, 12, True)
      , (35483, 19, True)
      , (35483, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Wall (36654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36654;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36654, 'ace36654-wall');
 
@@ -12298,6 +13264,9 @@ VALUES (36654, 12, True)
      , (36654, 14, True)
      , (36654, 19, True)
      , (36654, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Trial of the Heart Portal (36692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36692;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36692, 'ace36692-trialoftheheartportal');
@@ -12337,6 +13306,9 @@ VALUES (36692, 13, True)
      , (36692, 42, True)
      , (36692, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Wall (36650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36650;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36650, 'ace36650-wall');
 
@@ -12367,6 +13339,9 @@ VALUES (36650, 12, True)
      , (36650, 14, True)
      , (36650, 19, True)
      , (36650, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Lever (40785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40785;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40785, 'ace40785-lever');
@@ -12403,6 +13378,9 @@ VALUES (40785, 12, True)
      , (40785, 41, True)
      , (40785, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Lever (40779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40779, 'ace40779-lever');
 
@@ -12438,6 +13416,9 @@ VALUES (40779, 12, True)
      , (40779, 41, True)
      , (40779, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Lever (40782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40782;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40782, 'ace40782-lever');
 
@@ -12472,6 +13453,9 @@ VALUES (40782, 12, True)
      , (40782, 14, True)
      , (40782, 41, True)
      , (40782, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Crystalline Essence Array (40859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40859;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40859, 'ace40859-crystallineessencearray');
@@ -12513,6 +13497,9 @@ VALUES (40859, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40859, 67113876, 0, 0);
 
+/* Weenie - CreaturesOtherNPCs - Backpack (28413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28413;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28413, 'npcbackpackkiviklir');
 
@@ -12549,6 +13536,9 @@ VALUES (28413, 12, True)
      , (28413, 42, True)
      , (28413, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Odd Looking Vine (28430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28430;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28430, 'vineportalkiviklir');
 
@@ -12584,6 +13574,9 @@ VALUES (28430, 12, True)
      , (28430, 41, True)
      , (28430, 42, True)
      , (28430, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Forge Guardian (47205) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47205;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47205, 'ace47205-forgeguardian');
@@ -12622,6 +13615,9 @@ VALUES (47205, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (47205, 67114481, 0, 0);
+
+/* Weenie - CreaturesOtherNPCs - Dark Cavern (43788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43788, 'ace43788-darkcavern');
@@ -12665,6 +13661,9 @@ VALUES (43788, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43788, 67111849, 1, 255);
 
+/* Weenie - CreaturesOtherNPCs - Statue of Bael'Zharon, the Hopeslayer (36007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36007;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36007, 'ace36007-statueofbaelzharonthehopeslayer');
 
@@ -12701,6 +13700,9 @@ VALUES (36007, 12, True)
      , (36007, 42, True)
      , (36007, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Portal Pillar (32528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32528;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32528, 'ace32528-portalpillar');
 
@@ -12732,6 +13734,9 @@ VALUES (32528, 13, True)
      , (32528, 14, True)
      , (32528, 19, True)
      , (32528, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Pumpkin Vine (36527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36527;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36527, 'ace36527-pumpkinvine');
@@ -12767,6 +13772,9 @@ VALUES (36527, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36527, 67113034, 0, 0);
+
+/* Weenie - CreaturesOtherNPCs - Trap Door (33836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33836;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33836, 'ace33836-trapdoor');
@@ -12805,6 +13813,9 @@ VALUES (33836, 12, True)
      , (33836, 42, True)
      , (33836, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Shrine of the Finger Bone of Mishfain (38258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38258;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38258, 'ace38258-shrineofthefingerboneofmishfain');
 
@@ -12840,6 +13851,9 @@ VALUES (38258, 12, True)
      , (38258, 41, True)
      , (38258, 42, True)
      , (38258, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Shrine of Hagrafash's Tooth Necklace (38262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38262;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38262, 'ace38262-shrineofhagrafashstoothnecklace');
@@ -12877,6 +13891,9 @@ VALUES (38262, 12, True)
      , (38262, 42, True)
      , (38262, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Shrine of the Coral's Heart (38264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38264, 'ace38264-shrineofthecoralsheart');
 
@@ -12912,6 +13929,9 @@ VALUES (38264, 12, True)
      , (38264, 41, True)
      , (38264, 42, True)
      , (38264, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Shrine of the Spear of Baalforth, the Slayer (38261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38261, 'ace38261-shrineofthespearofbaalforththeslayer');
@@ -12949,6 +13969,9 @@ VALUES (38261, 12, True)
      , (38261, 42, True)
      , (38261, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Runic Door Guardian (31228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31228;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31228, 'ace31228-runicdoorguardian');
 
@@ -12984,6 +14007,9 @@ VALUES (31228, 12, True)
      , (31228, 41, True)
      , (31228, 42, True)
      , (31228, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Font of Enlightenment and Rebirth (53412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53412;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53412, 'ace53412-fontofenlightenmentandrebirth');
@@ -13022,6 +14048,9 @@ VALUES (53412, 12, True)
      , (53412, 42, True)
      , (53412, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Forge Golem (37455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37455, 'ace37455-forgegolem');
 
@@ -13059,6 +14088,9 @@ VALUES (37455, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37455, 67116746, 0, 0);
+
+/* Weenie - CreaturesOtherNPCs - Mhoire Castle Great Hall Portal (41949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41949;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41949, 'ace41949-mhoirecastlegreathallportal');
@@ -13099,6 +14131,9 @@ VALUES (41949, 13, True)
      , (41949, 42, True)
      , (41949, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Wall of Ice (46303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46303;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46303, 'ace46303-wallofice');
 
@@ -13128,6 +14163,9 @@ VALUES (46303, 12, True)
      , (46303, 14, True)
      , (46303, 19, True)
      , (46303, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Shrine to Xik Minru (31975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31975;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31975, 'ace31975-shrinetoxikminru');
@@ -13165,6 +14203,9 @@ VALUES (31975, 12, True)
      , (31975, 42, True)
      , (31975, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Reinforced Door (25456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25456;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25456, 'doorrenegadegarrison');
 
@@ -13195,6 +14236,9 @@ VALUES (25456, 12, True)
      , (25456, 14, True)
      , (25456, 19, True)
      , (25456, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Pool of Goo (25489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25489;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25489, 'poololthoijelly');
@@ -13235,6 +14279,9 @@ VALUES (25489, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25489, 67114477, 0, 0);
 
+/* Weenie - CreaturesOtherNPCs - Wall of Ice (48718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48718;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48718, 'ace48718-wallofice');
 
@@ -13264,6 +14311,9 @@ VALUES (48718, 12, True)
      , (48718, 14, True)
      , (48718, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Wall of Ice (48724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48724;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48724, 'ace48724-wallofice');
 
@@ -13292,6 +14342,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (48724, 12, True)
      , (48724, 14, True)
      , (48724, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Shrine of the Skull of Mishfain (38259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38259;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38259, 'ace38259-shrineoftheskullofmishfain');
@@ -13329,6 +14382,9 @@ VALUES (38259, 12, True)
      , (38259, 42, True)
      , (38259, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Shrine of the Sacred Deep Water (38260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38260;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38260, 'ace38260-shrineofthesacreddeepwater');
 
@@ -13365,6 +14421,9 @@ VALUES (38260, 12, True)
      , (38260, 42, True)
      , (38260, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Shrine of the Blood Pearl (38263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38263;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38263, 'ace38263-shrineofthebloodpearl');
 
@@ -13400,6 +14459,9 @@ VALUES (38263, 12, True)
      , (38263, 41, True)
      , (38263, 42, True)
      , (38263, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Lair of Holcha (53288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53288;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53288, 'ace53288-lairofholcha');
@@ -13441,6 +14503,9 @@ VALUES (53288, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53288, 67117144, 0, 0);
+
+/* Weenie - CreaturesOtherNPCs - Lair of Tremb'Orh (53286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53286;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53286, 'ace53286-lairoftremborh');
@@ -13490,6 +14555,9 @@ VALUES (53286, 13, 83894877, 83894877)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53286, 13, 16789731);
 
+/* Weenie - CreaturesOtherNPCs - Lair of the Gromnus Champion (53284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53284;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53284, 'ace53284-lairofthegromnuschampion');
 
@@ -13530,6 +14598,9 @@ VALUES (53284, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53284, 67113822, 0, 0);
 
+/* Weenie - CreaturesOtherNPCs - Font Guardian (29730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29730, 'statuefontbrowerk');
 
@@ -13567,6 +14638,9 @@ VALUES (29730, 12, True)
      , (29730, 42, True)
      , (29730, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Portal Pillar (32525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32525;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32525, 'ace32525-portalpillar');
 
@@ -13599,6 +14673,9 @@ VALUES (32525, 13, True)
      , (32525, 19, True)
      , (32525, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Reinforced Door (25666) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25666;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25666, 'doorcultistgaschamber');
 
@@ -13629,6 +14706,9 @@ VALUES (25666, 12, True)
      , (25666, 14, True)
      , (25666, 19, True)
      , (25666, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Resonant Portal (41051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41051;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41051, 'ace41051-resonantportal');
@@ -13668,6 +14748,9 @@ VALUES (41051, 13, True)
      , (41051, 42, True)
      , (41051, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Unstable Test Portal (40273) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40273;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40273, 'ace40273-unstabletestportal');
 
@@ -13705,6 +14788,9 @@ VALUES (40273, 13, True)
      , (40273, 41, True)
      , (40273, 42, True)
      , (40273, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Test Portal (41001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41001;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41001, 'ace41001-testportal');
@@ -13744,6 +14830,9 @@ VALUES (41001, 13, True)
      , (41001, 42, True)
      , (41001, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Reinforced Door (33830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33830;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33830, 'ace33830-reinforceddoor');
 
@@ -13777,6 +14866,9 @@ VALUES (33830, 12, True)
      , (33830, 14, True)
      , (33830, 19, True)
      , (33830, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Enhanced Test Portal (41002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41002;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41002, 'ace41002-enhancedtestportal');
@@ -13816,6 +14908,9 @@ VALUES (41002, 13, True)
      , (41002, 42, True)
      , (41002, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door (52250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52250;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52250, 'ace52250-door');
 
@@ -13846,6 +14941,9 @@ VALUES (52250, 12, True)
      , (52250, 14, True)
      , (52250, 19, True)
      , (52250, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Enhanced Test Portal (41000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41000;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41000, 'ace41000-enhancedtestportal');
@@ -13885,6 +14983,9 @@ VALUES (41000, 13, True)
      , (41000, 42, True)
      , (41000, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Unstable Test Portal (41003) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41003;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41003, 'ace41003-unstabletestportal');
 
@@ -13922,6 +15023,9 @@ VALUES (41003, 13, True)
      , (41003, 41, True)
      , (41003, 42, True)
      , (41003, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Viridian Portal (53061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53061;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53061, 'ace53061-viridianportal');
@@ -13962,6 +15066,9 @@ VALUES (53061, 13, True)
      , (53061, 42, True)
      , (53061, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Viridian Portal (53062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53062;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53062, 'ace53062-viridianportal');
 
@@ -14000,6 +15107,9 @@ VALUES (53062, 13, True)
      , (53062, 41, True)
      , (53062, 42, True)
      , (53062, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Viridian Portal (53063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53063;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53063, 'ace53063-viridianportal');
@@ -14040,6 +15150,9 @@ VALUES (53063, 13, True)
      , (53063, 42, True)
      , (53063, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Viridian Portal (53064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53064;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53064, 'ace53064-viridianportal');
 
@@ -14078,6 +15191,9 @@ VALUES (53064, 13, True)
      , (53064, 41, True)
      , (53064, 42, True)
      , (53064, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Wind Fury (53365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53365;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53365, 'ace53365-windfury');
@@ -14133,6 +15249,9 @@ VALUES (53365, 0, 16797130)
      , (53365, 9, 16797131)
      , (53365, 16, 16797134);
 
+/* Weenie - CreaturesOtherNPCs - Viridian Portal (53065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53065;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53065, 'ace53065-viridianportal');
 
@@ -14171,6 +15290,9 @@ VALUES (53065, 13, True)
      , (53065, 41, True)
      , (53065, 42, True)
      , (53065, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Viridian Portal (53116) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53116;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53116, 'ace53116-viridianportal');
@@ -14211,6 +15333,9 @@ VALUES (53116, 13, True)
      , (53116, 42, True)
      , (53116, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Essence of Verdancy (33221) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33221;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33221, 'ace33221-essenceofverdancy');
 
@@ -14244,6 +15369,9 @@ VALUES (33221, 12, True)
      , (33221, 14, True)
      , (33221, 19, True)
      , (33221, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Essence of Enchantment (33219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33219;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33219, 'ace33219-essenceofenchantment');
@@ -14279,6 +15407,9 @@ VALUES (33219, 12, True)
      , (33219, 19, True)
      , (33219, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Essence of Strife (33222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33222;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33222, 'ace33222-essenceofstrife');
 
@@ -14312,6 +15443,9 @@ VALUES (33222, 12, True)
      , (33222, 14, True)
      , (33222, 19, True)
      , (33222, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Essence of Artifice (33220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33220;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33220, 'ace33220-essenceofartifice');
@@ -14347,6 +15481,9 @@ VALUES (33220, 12, True)
      , (33220, 19, True)
      , (33220, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Door (49480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49480;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49480, 'ace49480-door');
 
@@ -14377,6 +15514,9 @@ VALUES (49480, 12, True)
      , (49480, 14, True)
      , (49480, 19, True)
      , (49480, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Documents (42241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42241;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42241, 'ace42241-documents');
@@ -14414,6 +15554,9 @@ VALUES (42241, 12, True)
      , (42241, 42, True)
      , (42241, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Smelting Vat (42242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42242, 'ace42242-smeltingvat');
 
@@ -14449,6 +15592,9 @@ VALUES (42242, 12, True)
      , (42242, 41, True)
      , (42242, 42, True)
      , (42242, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Deeper into the Oubliette (45125) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45125;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45125, 'ace45125-deeperintotheoubliette');
@@ -14489,6 +15635,9 @@ VALUES (45125, 13, True)
      , (45125, 42, True)
      , (45125, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Up to the Previous Level (45132) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45132;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45132, 'ace45132-uptothepreviouslevel');
 
@@ -14527,6 +15676,9 @@ VALUES (45132, 13, True)
      , (45132, 41, True)
      , (45132, 42, True)
      , (45132, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Deeper into the Oubliette (45126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45126;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45126, 'ace45126-deeperintotheoubliette');
@@ -14567,6 +15719,9 @@ VALUES (45126, 13, True)
      , (45126, 42, True)
      , (45126, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Up to the Previous Level (45133) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45133;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45133, 'ace45133-uptothepreviouslevel');
 
@@ -14605,6 +15760,9 @@ VALUES (45133, 13, True)
      , (45133, 41, True)
      , (45133, 42, True)
      , (45133, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Deeper into the Oubliette (45127) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45127;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45127, 'ace45127-deeperintotheoubliette');
@@ -14645,6 +15803,9 @@ VALUES (45127, 13, True)
      , (45127, 42, True)
      , (45127, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Up to the Previous Level (45134) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45134;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45134, 'ace45134-uptothepreviouslevel');
 
@@ -14683,6 +15844,9 @@ VALUES (45134, 13, True)
      , (45134, 41, True)
      , (45134, 42, True)
      , (45134, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Deeper into the Oubliette (45128) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45128;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45128, 'ace45128-deeperintotheoubliette');
@@ -14723,6 +15887,9 @@ VALUES (45128, 13, True)
      , (45128, 42, True)
      , (45128, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Up to the Previous Level (45135) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45135;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45135, 'ace45135-uptothepreviouslevel');
 
@@ -14761,6 +15928,9 @@ VALUES (45135, 13, True)
      , (45135, 41, True)
      , (45135, 42, True)
      , (45135, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Deeper into the Oubliette (45129) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45129;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45129, 'ace45129-deeperintotheoubliette');
@@ -14801,6 +15971,9 @@ VALUES (45129, 13, True)
      , (45129, 42, True)
      , (45129, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Up to the Previous Level (45136) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45136;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45136, 'ace45136-uptothepreviouslevel');
 
@@ -14839,6 +16012,9 @@ VALUES (45136, 13, True)
      , (45136, 41, True)
      , (45136, 42, True)
      , (45136, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Deeper into the Oubliette (45130) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45130;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45130, 'ace45130-deeperintotheoubliette');
@@ -14879,6 +16055,9 @@ VALUES (45130, 13, True)
      , (45130, 42, True)
      , (45130, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Up to the Previous Level (45137) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45137;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45137, 'ace45137-uptothepreviouslevel');
 
@@ -14917,6 +16096,9 @@ VALUES (45137, 13, True)
      , (45137, 41, True)
      , (45137, 42, True)
      , (45137, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Acidic Elemental Pool (25601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25601;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25601, 'poolelementalacidicnpc');
@@ -14958,6 +16140,9 @@ VALUES (25601, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25601, 67114514, 0, 0);
 
+/* Weenie - CreaturesOtherNPCs - Flaming Elemental Pool (25603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25603;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25603, 'poolelementalflamingnpc');
 
@@ -14997,6 +16182,9 @@ VALUES (25603, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25603, 67114513, 0, 0);
+
+/* Weenie - CreaturesOtherNPCs - Electric Elemental Pool (25602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25602;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25602, 'poolelementalelectricnpc');
@@ -15038,6 +16226,9 @@ VALUES (25602, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25602, 67114512, 0, 0);
 
+/* Weenie - CreaturesOtherNPCs - Freezing Elemental Pool (25604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25604;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25604, 'poolelementalfreezingnpc');
 
@@ -15078,6 +16269,9 @@ VALUES (25604, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25604, 67114511, 0, 0);
 
+/* Weenie - CreaturesOtherNPCs - Portal Keeper (32322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32322, 'ace32322-portalkeeper');
 
@@ -15116,6 +16310,9 @@ VALUES (32322, 12, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32322, 67115545, 0, 0);
 
+/* Weenie - CreaturesOtherNPCs - Shrine of Black Water (35858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35858, 'ace35858-shrineofblackwater');
 
@@ -15150,6 +16347,9 @@ VALUES (35858, 12, True)
      , (35858, 41, True)
      , (35858, 42, True)
      , (35858, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - White Lever (52075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52075;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52075, 'ace52075-whitelever');
@@ -15186,6 +16386,9 @@ VALUES (52075, 12, True)
      , (52075, 41, True)
      , (52075, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Green Lever (52072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52072;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52072, 'ace52072-greenlever');
 
@@ -15220,6 +16423,9 @@ VALUES (52072, 12, True)
      , (52072, 14, True)
      , (52072, 41, True)
      , (52072, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Red Lever (52088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52088;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52088, 'ace52088-redlever');
@@ -15256,6 +16462,9 @@ VALUES (52088, 12, True)
      , (52088, 41, True)
      , (52088, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Orange Lever (52074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52074;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52074, 'ace52074-orangelever');
 
@@ -15290,6 +16499,9 @@ VALUES (52074, 12, True)
      , (52074, 14, True)
      , (52074, 41, True)
      , (52074, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Blue Lever (52071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52071;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52071, 'ace52071-bluelever');
@@ -15326,6 +16538,9 @@ VALUES (52071, 12, True)
      , (52071, 41, True)
      , (52071, 1, True);
 
+/* Weenie - CreaturesOtherNPCs - Yellow Lever (52076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52076;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52076, 'ace52076-yellowlever');
 
@@ -15360,6 +16575,9 @@ VALUES (52076, 12, True)
      , (52076, 14, True)
      , (52076, 41, True)
      , (52076, 1, True);
+
+/* Weenie - CreaturesOtherNPCs - Silver Legion Doorkeeper (29415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29415;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29415, 'knightdoorkeepersilver');
@@ -15398,6 +16616,9 @@ VALUES (29415, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29415, 67115468, 0, 0);
+
+/* Weenie - CreaturesOtherNPCs - Viamontian Portal Mage (32700) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32700;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32700, 'ace32700-viamontianportalmage');

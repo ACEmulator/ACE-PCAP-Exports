@@ -1,3 +1,6 @@
+/* Weenie - PortalsTownNetwork - Portal to Town Network (43065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43065;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43065, 'ace43065-portaltotownnetwork');
 
@@ -29,6 +32,9 @@ VALUES (43065, 13, True)
      , (43065, 15, True)
      , (43065, 19, True)
      , (43065, 1, True);
+
+/* Weenie - PortalsTownNetwork - Portal to Town Network (43067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43067;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43067, 'ace43067-portaltotownnetwork');
@@ -62,6 +68,9 @@ VALUES (43067, 13, True)
      , (43067, 19, True)
      , (43067, 1, True);
 
+/* Weenie - PortalsTownNetwork - Portal to Town Network (42852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42852, 'ace42852-portaltotownnetwork');
 
@@ -93,6 +102,9 @@ VALUES (42852, 13, True)
      , (42852, 15, True)
      , (42852, 19, True)
      , (42852, 1, True);
+
+/* Weenie - PortalsTownNetwork - Portal to Town Network (43066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43066;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43066, 'ace43066-portaltotownnetwork');

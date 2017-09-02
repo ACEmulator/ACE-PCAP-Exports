@@ -1,3 +1,6 @@
+/* Weenie - ContainersPacks - Pack (136) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 136;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (136, 'backpack');
 
@@ -45,6 +48,9 @@ VALUES (136, 0, 83886723, 83886723)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (136, 0, 16778611);
+
+/* Weenie - ContainersPacks - Gauntlet Backpack (52734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52734;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52734, 'ace52734-gauntletbackpack');
@@ -96,6 +102,9 @@ VALUES (52734, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52734, 0, 16778611);
 
+/* Weenie - ContainersPacks - Small Belt Pouch (139) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 139;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (139, 'beltpouchsmall');
 
@@ -130,6 +139,9 @@ VALUES (139, 13, True)
      , (139, 14, True)
      , (139, 19, True)
      , (139, 22, True);
+
+/* Weenie - ContainersPacks - Sack (166) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 166;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (166, 'sack');
@@ -172,6 +184,9 @@ VALUES (166, 0, 83890064, 83890064);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (166, 0, 16777882);
+
+/* Weenie - ContainersPacks - Pumpkin Backpack (32198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32198;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32198, 'ace32198-pumpkinbackpack');
@@ -218,6 +233,9 @@ VALUES (32198, 0, 83892725, 83892725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32198, 0, 16784961);
 
+/* Weenie - ContainersPacks - Banderling Aggressor Backpack (25530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25530;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25530, 'backpackbanderlingaggressor');
 
@@ -259,6 +277,9 @@ VALUES (25530, 67114263, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25530, 0, 16788538);
 
+/* Weenie - ContainersPacks - Belt Pouch (138) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 138;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (138, 'beltpouch');
 
@@ -293,6 +314,9 @@ VALUES (138, 13, True)
      , (138, 14, True)
      , (138, 19, True)
      , (138, 22, True);
+
+/* Weenie - ContainersPacks - Banderling Predator Backpack (25531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25531;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25531, 'backpackbanderlingpredator');
@@ -331,6 +355,9 @@ VALUES (25531, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25531, 67114265, 0, 0);
+
+/* Weenie - ContainersPacks - Explorer's Backpack (39745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39745;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39745, 'ace39745-explorersbackpack');
@@ -382,6 +409,9 @@ VALUES (39745, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39745, 0, 16778611);
 
+/* Weenie - ContainersPacks - Tusker Backpack (12200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12200, 'backpacktusker');
 
@@ -428,6 +458,9 @@ VALUES (12200, 0, 83892787, 83892786)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12200, 0, 16784996);
 
+/* Weenie - ContainersPacks - Banderling Antagonist Backpack (25533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25533;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25533, 'backpackbandleringantagonist');
 
@@ -469,6 +502,9 @@ VALUES (25533, 67114268, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25533, 0, 16788538);
 
+/* Weenie - ContainersPacks - T-Mon BackPack (34110) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34110;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34110, 'ace34110-tmonbackpack');
 
@@ -503,6 +539,9 @@ VALUES (34110, 13, True)
      , (34110, 14, True)
      , (34110, 19, True)
      , (34110, 22, True);
+
+/* Weenie - ContainersPacks - Banderling Slayer Backpack (25532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25532;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25532, 'backpackbanderlingslayer');
@@ -544,6 +583,9 @@ VALUES (25532, 67114267, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25532, 0, 16788538);
+
+/* Weenie - ContainersPacks - Large Tusker Backpack (12201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12201;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12201, 'backpacktuskerlarge');
@@ -589,6 +631,9 @@ VALUES (12201, 0, 83892787, 83892787);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12201, 0, 16784996);
+
+/* Weenie - ContainersPacks - Colosseum Backpack (36561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36561;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36561, 'ace36561-colosseumbackpack');
@@ -640,6 +685,9 @@ VALUES (36561, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36561, 0, 16778611);
 
+/* Weenie - ContainersPacks - Small Tusker Backpack (12202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12202;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12202, 'backpacktuskersmall');
 
@@ -682,6 +730,9 @@ VALUES (12202, 0, 83892787, 83892785)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12202, 0, 16784996);
+
+/* Weenie - ContainersPacks - Pack (31754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31754;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31754, 'ace31754-pack');
@@ -730,6 +781,9 @@ VALUES (31754, 0, 83886723, 83886723)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31754, 0, 16778611);
+
+/* Weenie - ContainersPacks - Gauntlet Backpack (52735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52735;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52735, 'ace52735-gauntletbackpack');
@@ -780,6 +834,9 @@ VALUES (52735, 0, 83886723, 83886723)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52735, 0, 16778611);
+
+/* Weenie - ContainersPacks - Gauntlet Backpack (52736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52736;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52736, 'ace52736-gauntletbackpack');

@@ -1,3 +1,6 @@
+/* Weenie - CraftAlchemyBase - Enchanted Mana Phial Pea (39329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39329, 'ace39329-enchantedmanaphialpea');
 
@@ -44,6 +47,9 @@ VALUES (39329, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39329, 0, 16793601);
 
+/* Weenie - CraftAlchemyBase - Crushed Relanim Plant (11474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11474;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11474, 'plantspringpurplecrushed');
 
@@ -82,6 +88,9 @@ VALUES (11474, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11474, 67111923, 0, 0);
+
+/* Weenie - CraftAlchemyBase - Bundle of Enchanted Mana Phial (39328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39328;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39328, 'ace39328-bundleofenchantedmanaphial');
@@ -128,6 +137,9 @@ VALUES (39328, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39328, 0, 16793601);
+
+/* Weenie - CraftAlchemyBase - Bundle of Empowered Platinum Phial (35716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35716;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35716, 'ace35716-bundleofempoweredplatinumphial');
@@ -176,6 +188,9 @@ VALUES (35716, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35716, 0, 16793601);
 
+/* Weenie - CraftAlchemyBase - Crushed Verdalim Plant (8038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8038;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8038, 'plantdarkgreencrushed');
 
@@ -214,6 +229,9 @@ VALUES (8038, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8038, 67111922, 0, 0);
+
+/* Weenie - CraftAlchemyBase - Crushed Minalim Plant (8647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8647;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8647, 'plantwintergreencrushed');
@@ -254,6 +272,9 @@ VALUES (8647, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8647, 67111926, 0, 0);
 
+/* Weenie - CraftAlchemyBase - Crushed Lapyan Plant (8645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8645;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8645, 'plantwinterbluecrushed');
 
@@ -293,6 +314,9 @@ VALUES (8645, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8645, 67111926, 0, 0);
 
+/* Weenie - CraftAlchemyBase - Crushed Argenory Plant (8649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8649;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8649, 'plantwintersilvercrushed');
 
@@ -331,6 +355,9 @@ VALUES (8649, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8649, 67111925, 0, 0);
+
+/* Weenie - CraftAlchemyBase - Bundle of Enchanted Silver Phial (35718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35718;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35718, 'ace35718-bundleofenchantedsilverphial');
@@ -378,6 +405,9 @@ VALUES (35718, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35718, 0, 16793601);
 
+/* Weenie - CraftAlchemyBase - Bundle of Enchanted Copper Phials (35713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35713;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35713, 'ace35713-bundleofenchantedcopperphials');
 
@@ -423,6 +453,9 @@ VALUES (35713, 0, 83890047, 83890047);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35713, 0, 16793601);
+
+/* Weenie - CraftAlchemyBase - Enchanted Copper Phial Pea (36729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36729;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36729, 'ace36729-enchantedcopperphialpea');
@@ -470,6 +503,9 @@ VALUES (36729, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36729, 0, 16793601);
 
+/* Weenie - CraftAlchemyBase - Enchanted Silver Phial Pea (36735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36735;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36735, 'ace36735-enchantedsilverphialpea');
 
@@ -516,6 +552,9 @@ VALUES (36735, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36735, 0, 16793601);
 
+/* Weenie - CraftAlchemyBase - Crushed Hennacin Plant (8040) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8040;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8040, 'plantdarkredcrushed');
 
@@ -554,6 +593,9 @@ VALUES (8040, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8040, 67111920, 0, 0);
+
+/* Weenie - CraftAlchemyBase - Crushed Colban Plant (11473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11473;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11473, 'plantspringbluecrushed');
@@ -594,6 +636,9 @@ VALUES (11473, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11473, 67111918, 0, 0);
 
+/* Weenie - CraftAlchemyBase - Crushed Berimphur Plant (8042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8042;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8042, 'plantdarkyellowcrushed');
 
@@ -632,6 +677,9 @@ VALUES (8042, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8042, 67111921, 0, 0);
+
+/* Weenie - CraftAlchemyBase - Chorizite Formula (23361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23361;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23361, 'choriziteformula');
@@ -677,6 +725,9 @@ VALUES (23361, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23361, 0, 16783325);
+
+/* Weenie - CraftAlchemyBase - Enchanted Iron Phial Pea (36731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36731;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36731, 'ace36731-enchantedironphialpea');
@@ -724,6 +775,9 @@ VALUES (36731, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36731, 0, 16778862);
 
+/* Weenie - CraftAlchemyBase - Enchanted Gold Phial Pea (36730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36730, 'ace36730-enchantedgoldphialpea');
 
@@ -769,6 +823,9 @@ VALUES (36730, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36730, 0, 16778862);
+
+/* Weenie - CraftAlchemyBase - Enchanted Pyreal Phial Pea (36734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36734;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36734, 'ace36734-enchantedpyrealphialpea');
@@ -816,6 +873,9 @@ VALUES (36734, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36734, 0, 16778862);
 
+/* Weenie - CraftAlchemyBase - Enchanted Platinum Phial Pea (36732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36732;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36732, 'ace36732-enchantedplatinumphialpea');
 
@@ -861,6 +921,9 @@ VALUES (36732, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36732, 0, 16778862);
+
+/* Weenie - CraftAlchemyBase - Empowered Platinum Phial Pea (36733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36733;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36733, 'ace36733-empoweredplatinumphialpea');
@@ -909,6 +972,9 @@ VALUES (36733, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36733, 0, 16778862);
 
+/* Weenie - CraftAlchemyBase - Bundle of Enchanted Iron Phial (35712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35712;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35712, 'ace35712-bundleofenchantedironphial');
 
@@ -954,6 +1020,9 @@ VALUES (35712, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35712, 0, 16778862);
+
+/* Weenie - CraftAlchemyBase - Bundle of Enchanted Gold Phial (35714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35714;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35714, 'ace35714-bundleofenchantedgoldphial');
@@ -1001,6 +1070,9 @@ VALUES (35714, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35714, 0, 16778862);
 
+/* Weenie - CraftAlchemyBase - Bundle of Enchanted Pyreal Phial (35717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35717;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35717, 'ace35717-bundleofenchantedpyrealphial');
 
@@ -1046,6 +1118,9 @@ VALUES (35717, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35717, 0, 16778862);
+
+/* Weenie - CraftAlchemyBase - Bundle of Enchanted Platinum Phial (35715) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35715;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35715, 'ace35715-bundleofenchantedplatinumphial');

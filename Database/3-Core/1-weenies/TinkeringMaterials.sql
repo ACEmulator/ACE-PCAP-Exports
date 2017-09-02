@@ -1,3 +1,6 @@
+/* Weenie - TinkeringMaterials - Salvage (26) (21053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21053, 'materialhematite');
 
@@ -46,6 +49,9 @@ VALUES (21053, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21053, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (39) (20993) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20993;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20993, 'materialsteel');
@@ -96,6 +102,9 @@ VALUES (20993, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20993, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (29573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29573;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29573, 'materialblackopal100');
 
@@ -143,6 +152,9 @@ VALUES (29573, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29573, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (29582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29582;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29582, 'materialsunstone100');
@@ -192,6 +204,9 @@ VALUES (29582, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29582, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (36574) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36574;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36574, 'ace36574-salvage');
 
@@ -239,6 +254,9 @@ VALUES (36574, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36574, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21065;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21065, 'materialopal');
@@ -289,6 +307,9 @@ VALUES (21065, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21065, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (100) (21042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21042;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21042, 'materialbrass');
 
@@ -338,6 +359,9 @@ VALUES (21042, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21042, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (33621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33621;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33621, 'ace33621-salvage');
 
@@ -385,6 +409,9 @@ VALUES (33621, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33621, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (20986) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20986;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20986, 'materialiron');
@@ -435,6 +462,9 @@ VALUES (20986, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20986, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (97) (21037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21037;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21037, 'materialaquamarine');
 
@@ -483,6 +513,9 @@ VALUES (21037, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21037, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (81) (20988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20988;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20988, 'materialmahogany');
@@ -533,6 +566,9 @@ VALUES (20988, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20988, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (95) (21056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21056;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21056, 'materialjet');
 
@@ -581,6 +617,9 @@ VALUES (21056, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21056, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (20) (21048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21048;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21048, 'materialemerald');
@@ -631,6 +670,9 @@ VALUES (21048, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21048, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (14) (21050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21050;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21050, 'materialgreengarnet');
 
@@ -679,6 +721,9 @@ VALUES (21050, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21050, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (87) (21046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21046;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21046, 'materialdiamond');
@@ -729,6 +774,9 @@ VALUES (21046, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21046, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (82) (21040) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21040;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21040, 'materialblackopal');
 
@@ -777,6 +825,9 @@ VALUES (21040, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21040, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (100) (21068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21068;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21068, 'materialpyreal');
@@ -827,6 +878,9 @@ VALUES (21068, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21068, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (100) (21054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21054;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21054, 'materialimperialtopaz');
 
@@ -875,6 +929,9 @@ VALUES (21054, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21054, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (31) (21039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21039;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21039, 'materialblackgarnet');
@@ -925,6 +982,9 @@ VALUES (21039, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21039, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (82) (21069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21069;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21069, 'materialredgarnet');
 
@@ -973,6 +1033,9 @@ VALUES (21069, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21069, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (91) (21086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21086;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21086, 'materialwhitesapphire');
@@ -1023,6 +1086,9 @@ VALUES (21086, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21086, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (64) (21059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21059;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21059, 'materialleather');
 
@@ -1071,6 +1137,9 @@ VALUES (21059, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21059, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (100) (21055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21055;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21055, 'materialivory');
@@ -1121,6 +1190,9 @@ VALUES (21055, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21055, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (36570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36570;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36570, 'ace36570-salvage');
 
@@ -1168,6 +1240,9 @@ VALUES (36570, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36570, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21076;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21076, 'materialsilk');
@@ -1218,6 +1293,9 @@ VALUES (21076, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21076, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21049;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21049, 'materialfireopal');
 
@@ -1266,6 +1344,9 @@ VALUES (21049, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21049, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21045;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21045, 'materialcopper');
@@ -1316,6 +1397,9 @@ VALUES (21045, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21045, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21079;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21079, 'materialsunstone');
 
@@ -1365,6 +1449,9 @@ VALUES (21079, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21079, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (33620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33620;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33620, 'ace33620-salvage');
 
@@ -1413,6 +1500,9 @@ VALUES (33620, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33620, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Alchemic Mucor (35111) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35111;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35111, 'ace35111-alchemicmucor');
 
@@ -1445,6 +1535,9 @@ VALUES (35111, 13, True)
      , (35111, 14, True)
      , (35111, 19, True)
      , (35111, 22, True);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (20985) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20985;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20985, 'materialgranite');
@@ -1495,6 +1588,9 @@ VALUES (20985, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20985, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21061;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21061, 'materialmarble');
 
@@ -1543,6 +1639,9 @@ VALUES (21061, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21061, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged Reedshark Hide (100) (20991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20991;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20991, 'materialreedsharkhide');
@@ -1593,6 +1692,9 @@ VALUES (20991, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20991, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (100) (20981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20981;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20981, 'materialarmoredillohide');
 
@@ -1641,6 +1743,9 @@ VALUES (20981, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20981, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (20982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20982;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20982, 'materialbronze');
@@ -1691,6 +1796,9 @@ VALUES (20982, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20982, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (29578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29578;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29578, 'materialjet100');
 
@@ -1739,6 +1847,9 @@ VALUES (29578, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29578, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (29571) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29571;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29571, 'materialaquamarine100');
 
@@ -1786,6 +1897,9 @@ VALUES (29571, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29571, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21080;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21080, 'materialteak');
@@ -1836,6 +1950,9 @@ VALUES (21080, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21080, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (100) (20994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20994;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20994, 'materialvelvet');
 
@@ -1884,6 +2001,9 @@ VALUES (20994, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20994, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21047, 'materialebony');
@@ -1934,6 +2054,9 @@ VALUES (21047, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21047, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (29579) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29579;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29579, 'materialmahogany100');
 
@@ -1981,6 +2104,9 @@ VALUES (29579, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29579, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (100) (20983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20983;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20983, 'materialceramic');
@@ -2031,6 +2157,9 @@ VALUES (20983, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20983, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (100) (20980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20980;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20980, 'materialalabaster');
 
@@ -2079,6 +2208,9 @@ VALUES (20980, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20980, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (100) (20995) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20995;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20995, 'materialwool');
@@ -2129,6 +2261,9 @@ VALUES (20995, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20995, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (100) (21089) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21089;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21089, 'materialzircon');
 
@@ -2178,6 +2313,9 @@ VALUES (21089, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21089, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (29576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29576;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29576, 'materialgranite100');
 
@@ -2225,6 +2363,9 @@ VALUES (29576, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29576, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (29580) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29580;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29580, 'materialredgarnet100');
@@ -2274,6 +2415,9 @@ VALUES (29580, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29580, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (36572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36572;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36572, 'ace36572-salvage');
 
@@ -2321,6 +2465,9 @@ VALUES (36572, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36572, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (40) (21038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21038;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21038, 'materialazurite');
@@ -2371,6 +2518,9 @@ VALUES (21038, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21038, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (50) (21060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21060;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21060, 'materialmalachite');
 
@@ -2419,6 +2569,9 @@ VALUES (21060, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21060, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (33) (21073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21073;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21073, 'materialsandstone');
@@ -2469,6 +2622,9 @@ VALUES (21073, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21073, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (100) (21052) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21052;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21052, 'materialgromniehide');
 
@@ -2517,6 +2673,9 @@ VALUES (21052, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21052, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (100) (21072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21072;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21072, 'materialruby');
@@ -2567,6 +2726,9 @@ VALUES (21072, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21072, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Major Item Tinkering Armature (41494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41494;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41494, 'ace41494-majoritemtinkeringarmature');
 
@@ -2614,6 +2776,9 @@ VALUES (41494, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41494, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Moderate Item Tinkering Armature (41500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41500, 'ace41500-moderateitemtinkeringarmature');
@@ -2663,6 +2828,9 @@ VALUES (41500, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41500, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Minor Item Tinkering Armature (41506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41506;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41506, 'ace41506-minoritemtinkeringarmature');
 
@@ -2710,6 +2878,9 @@ VALUES (41506, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41506, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (28) (21067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21067;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21067, 'materialporcelain');
@@ -2760,6 +2931,9 @@ VALUES (21067, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21067, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (66) (20992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20992;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20992, 'materialsatin');
 
@@ -2808,6 +2982,9 @@ VALUES (20992, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20992, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (27) (21074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21074;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21074, 'materialsapphire');
@@ -2858,6 +3035,9 @@ VALUES (21074, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21074, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (40) (21066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21066;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21066, 'materialperidot');
 
@@ -2906,6 +3086,9 @@ VALUES (21066, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21066, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (16) (21088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21088;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21088, 'materialyellowtopaz');
@@ -2956,6 +3139,9 @@ VALUES (21088, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21088, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (87) (21077) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21077;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21077, 'materialsilver');
 
@@ -3005,6 +3191,9 @@ VALUES (21077, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21077, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21063, 'materialobsidian');
 
@@ -3053,6 +3242,9 @@ VALUES (21063, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21063, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21087) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21087;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21087, 'materialyellowgarnet');
 
@@ -3100,6 +3292,9 @@ VALUES (21087, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21087, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21034;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21034, 'materialagate');
@@ -3150,6 +3345,9 @@ VALUES (21034, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21034, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21043;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21043, 'materialcarnelian');
 
@@ -3198,6 +3396,9 @@ VALUES (21043, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21043, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21078;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21078, 'materialsmokyquartz');
@@ -3248,6 +3449,9 @@ VALUES (21078, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21078, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (54) (20984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20984;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20984, 'materialgold');
 
@@ -3296,6 +3500,9 @@ VALUES (20984, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20984, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (72) (21071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21071;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21071, 'materialrosequartz');
@@ -3346,6 +3553,9 @@ VALUES (21071, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21071, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (90) (21057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21057;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21057, 'materiallapislazuli');
 
@@ -3394,6 +3604,9 @@ VALUES (21057, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21057, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (52) (21041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21041;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21041, 'materialbloodstone');
@@ -3444,6 +3657,9 @@ VALUES (21041, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21041, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (31) (21058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21058;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21058, 'materiallavenderjade');
 
@@ -3492,6 +3708,9 @@ VALUES (21058, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21058, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (93) (21070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21070;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21070, 'materialredjade');
@@ -3542,6 +3761,9 @@ VALUES (21070, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21070, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (98) (20987) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20987;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20987, 'materiallinen');
 
@@ -3590,6 +3812,9 @@ VALUES (20987, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20987, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (47) (21044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21044;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21044, 'materialcitrine');
@@ -3640,6 +3865,9 @@ VALUES (21044, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21044, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvaged  (55) (21062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21062;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21062, 'materialmoonstone');
 
@@ -3688,6 +3916,9 @@ VALUES (21062, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21062, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (85) (20990) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20990;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20990, 'materialpine');
@@ -3738,6 +3969,9 @@ VALUES (20990, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20990, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (29577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29577;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29577, 'materialimperialtopaz100');
 
@@ -3786,6 +4020,9 @@ VALUES (29577, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29577, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Moderate Item Tinkering Armature (41498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41498;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41498, 'ace41498-moderateitemtinkeringarmature');
 
@@ -3832,6 +4069,9 @@ VALUES (41498, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41498, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Minor Item Tinkering Armature (41501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41501;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41501, 'ace41501-minoritemtinkeringarmature');
@@ -3880,6 +4120,9 @@ VALUES (41501, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41501, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (20989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20989;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20989, 'materialoak');
@@ -3930,6 +4173,9 @@ VALUES (20989, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20989, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (30260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30260;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30260, 'materialwhitesapphire100');
 
@@ -3978,6 +4224,9 @@ VALUES (30260, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30260, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (29574) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29574;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29574, 'materialemerald100');
 
@@ -4025,6 +4274,9 @@ VALUES (29574, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29574, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (43946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43946;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43946, 'ace43946-salvage');
@@ -4075,6 +4327,9 @@ VALUES (43946, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43946, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (29581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29581;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29581, 'materialsteel100');
 
@@ -4122,6 +4377,9 @@ VALUES (29581, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29581, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (3) (21051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21051;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21051, 'materialgreenjade');
@@ -4171,6 +4429,9 @@ VALUES (21051, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21051, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (1) (21081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21081;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21081, 'materialtigereye');
 
@@ -4218,6 +4479,9 @@ VALUES (21081, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21081, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (1) (21085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21085;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21085, 'materialwhitequartz');
@@ -4267,6 +4531,9 @@ VALUES (21085, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21085, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (2) (21083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21083;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21083, 'materialturquoise');
 
@@ -4314,6 +4581,9 @@ VALUES (21083, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21083, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (29575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29575;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29575, 'materialfireopal100');
@@ -4363,6 +4633,9 @@ VALUES (29575, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29575, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (36573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36573;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36573, 'ace36573-salvage');
 
@@ -4410,6 +4683,9 @@ VALUES (36573, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36573, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (36571) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36571;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36571, 'ace36571-salvage');
@@ -4459,6 +4735,9 @@ VALUES (36571, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36571, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (29572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29572;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29572, 'materialblackgarnet100');
 
@@ -4507,6 +4786,9 @@ VALUES (29572, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29572, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Lucky White Rabbit's Foot (32937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32937;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32937, 'ace32937-luckywhiterabbitsfoot');
 
@@ -4542,6 +4824,9 @@ VALUES (32937, 13, True)
      , (32937, 14, True)
      , (32937, 19, True)
      , (32937, 22, True);
+
+/* Weenie - TinkeringMaterials - Salvaged  (100) (21035) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21035;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21035, 'materialamber');
@@ -4592,6 +4877,9 @@ VALUES (21035, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21035, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (5) (21075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21075;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21075, 'materialserpentine');
 
@@ -4640,6 +4928,9 @@ VALUES (21075, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21075, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Major Item Tinkering Armature (41499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41499, 'ace41499-majoritemtinkeringarmature');
 
@@ -4687,6 +4978,9 @@ VALUES (41499, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41499, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (41772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41772;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41772, 'ace41772-salvage');
@@ -4737,6 +5031,9 @@ VALUES (41772, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41772, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (2) (21064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21064;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21064, 'materialonyx');
 
@@ -4784,6 +5081,9 @@ VALUES (21064, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21064, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvage (4) (21084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21084;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21084, 'materialwhitejade');
@@ -4833,6 +5133,9 @@ VALUES (21084, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21084, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Salvage (3) (21036) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21036;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21036, 'materialamethyst');
 
@@ -4880,6 +5183,9 @@ VALUES (21036, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21036, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Major Item Tinkering Armature (41502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41502, 'ace41502-majoritemtinkeringarmature');
@@ -4929,6 +5235,9 @@ VALUES (41502, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41502, 0, 16777882);
 
+/* Weenie - TinkeringMaterials - Moderate Item Tinkering Armature (41492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41492, 'ace41492-moderateitemtinkeringarmature');
 
@@ -4976,6 +5285,9 @@ VALUES (41492, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41492, 0, 16777882);
+
+/* Weenie - TinkeringMaterials - Salvaged  (5) (21082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21082;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21082, 'materialtourmaline');

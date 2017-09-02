@@ -1,3 +1,6 @@
+/* Weenie - PortalsHummingCrystal - Humming Crystal Portal (9071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9071, 'portalhummingcrystal');
 

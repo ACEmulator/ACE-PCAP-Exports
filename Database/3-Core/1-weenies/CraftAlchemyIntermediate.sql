@@ -1,3 +1,6 @@
+/* Weenie - CraftAlchemyIntermediate - Mortar and Pestle (4751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4751;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4751, 'mortarandpestle');
 
@@ -32,6 +35,9 @@ VALUES (4751, 13, True)
      , (4751, 11, True)
      , (4751, 14, True)
      , (4751, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - White Fire Infusion (7419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7419;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7419, 'whitefireinfusion');
@@ -79,6 +85,9 @@ VALUES (7419, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7419, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Red Fire Infusion (7442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7442;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7442, 'redfireinfusion');
 
@@ -124,6 +133,9 @@ VALUES (7442, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7442, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Blue Fire Infusion (7420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7420;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7420, 'bluefireinfusion');
@@ -171,6 +183,9 @@ VALUES (7420, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7420, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Aetheria Desiccant (42646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42646;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42646, 'ace42646-aetheriadesiccant');
 
@@ -209,6 +224,9 @@ VALUES (42646, 0, 83889688, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42646, 0, 16783974);
+
+/* Weenie - CraftAlchemyIntermediate - Blood of the Hopeslayer (8909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8909;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8909, 'infusionlosthope');
@@ -258,6 +276,9 @@ VALUES (8909, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8909, 0, 16778735);
 
+/* Weenie - CraftAlchemyIntermediate - Quill of Infliction (37363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37363;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37363, 'ace37363-quillofinfliction');
 
@@ -289,6 +310,9 @@ VALUES (37363, 13, True)
      , (37363, 11, True)
      , (37363, 14, True)
      , (37363, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Elixir of Misty Form (15742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15742;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15742, 'elixirbludgeon');
@@ -334,6 +358,9 @@ VALUES (15742, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15742, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Elixir of Crystal Skin (15752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15752, 'elixirslash');
@@ -381,6 +408,9 @@ VALUES (15752, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15752, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Vial of Berimphur Dye (7975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7975;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7975, 'dyedarkyellow');
 
@@ -420,6 +450,9 @@ VALUES (7975, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7975, 67111921, 0, 0);
 
+/* Weenie - CraftAlchemyIntermediate - Medal Mold (41423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41423, 'ace41423-medalmold');
 
@@ -453,6 +486,9 @@ VALUES (41423, 13, True)
      , (41423, 14, True)
      , (41423, 19, True)
      , (41423, 22, True);
+
+/* Weenie - CraftAlchemyIntermediate - Eye Dropper (9379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9379;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9379, 'eyedropper');
@@ -491,6 +527,9 @@ VALUES (9379, 13, True)
      , (9379, 14, True)
      , (9379, 19, True)
      , (9379, 22, True);
+
+/* Weenie - CraftAlchemyIntermediate - Concentrated Bloodseeker Oil (9344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9344, 'concentratedbloodseekeroil');
@@ -537,6 +576,9 @@ VALUES (9344, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9344, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Frost Oil (9348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9348;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9348, 'concentratedfrostoil');
 
@@ -582,6 +624,9 @@ VALUES (9348, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9348, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Alembic (4747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4747;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4747, 'alembic');
 
@@ -615,6 +660,9 @@ VALUES (4747, 13, True)
      , (4747, 11, True)
      , (4747, 14, True)
      , (4747, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Crucible (24684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24684;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24684, 'crucible');
@@ -652,6 +700,9 @@ VALUES (24684, 13, True)
      , (24684, 19, True)
      , (24684, 22, True);
 
+/* Weenie - CraftAlchemyIntermediate - Neutral Balm (5338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5338;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5338, 'neutralbalm');
 
@@ -687,6 +738,9 @@ VALUES (5338, 13, True)
      , (5338, 14, True)
      , (5338, 19, True);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Aqua Incanta (9342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9342;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9342, 'concentratedaquaincanta');
 
@@ -720,6 +774,9 @@ VALUES (9342, 13, True)
      , (9342, 11, True)
      , (9342, 14, True)
      , (9342, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Bloodhunter Oil (15408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15408;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15408, 'bloodhunteroil');
@@ -766,6 +823,9 @@ VALUES (15408, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15408, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Vial of Verdalim Dye (7976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7976;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7976, 'dyedarkgreen');
 
@@ -804,6 +864,9 @@ VALUES (7976, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7976, 67111922, 0, 0);
+
+/* Weenie - CraftAlchemyIntermediate - Vial of Hennacin Dye (7977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7977;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7977, 'dyedarkred');
@@ -844,6 +907,9 @@ VALUES (7977, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7977, 67111920, 0, 0);
 
+/* Weenie - CraftAlchemyIntermediate - Vial of Colban Dye (11470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11470;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11470, 'dyespringblue');
 
@@ -882,6 +948,9 @@ VALUES (11470, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11470, 67111918, 0, 0);
+
+/* Weenie - CraftAlchemyIntermediate - Vial of Argenory Dye (8643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8643;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8643, 'dyewintersilver');
@@ -922,6 +991,9 @@ VALUES (8643, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8643, 67111925, 0, 0);
 
+/* Weenie - CraftAlchemyIntermediate - Vial of Minalim Dye (8642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8642;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8642, 'dyewintergreen');
 
@@ -961,6 +1033,9 @@ VALUES (8642, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8642, 67111926, 0, 0);
 
+/* Weenie - CraftAlchemyIntermediate - Vial of Lapyan Dye (8641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8641;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8641, 'dyewinterblue');
 
@@ -999,6 +1074,9 @@ VALUES (8641, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8641, 67111926, 0, 0);
+
+/* Weenie - CraftAlchemyIntermediate - Thick Diamond Oil (19533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19533;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19533, 'oildiamondhigh');
@@ -1045,6 +1123,9 @@ VALUES (19533, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19533, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Decanter of Essence (19483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19483;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19483, 'decanteressence');
 
@@ -1090,6 +1171,9 @@ VALUES (19483, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19483, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Quill of Introspection (37364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37364;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37364, 'ace37364-quillofintrospection');
 
@@ -1121,6 +1205,9 @@ VALUES (37364, 13, True)
      , (37364, 11, True)
      , (37364, 14, True)
      , (37364, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Enchanted Decanter (19482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19482, 'decanterenchanted');
@@ -1166,6 +1253,9 @@ VALUES (19482, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19482, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Vial of Relanim Dye (11471) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11471;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11471, 'dyespringpurple');
 
@@ -1204,6 +1294,9 @@ VALUES (11471, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11471, 67111923, 0, 0);
+
+/* Weenie - CraftAlchemyIntermediate - Vial of Thananim Dye (11469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11469;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11469, 'dyespringblack');
@@ -1244,6 +1337,9 @@ VALUES (11469, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11469, 67111927, 0, 0);
 
+/* Weenie - CraftAlchemyIntermediate - Quill of Extraction (37362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37362;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37362, 'ace37362-quillofextraction');
 
@@ -1275,6 +1371,9 @@ VALUES (37362, 13, True)
      , (37362, 11, True)
      , (37362, 14, True)
      , (37362, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Moderate Item Tinkering Armature (41507) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41507;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41507, 'ace41507-moderateitemtinkeringarmature');
@@ -1320,6 +1419,9 @@ VALUES (41507, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41507, 0, 16777882);
 
+/* Weenie - CraftAlchemyIntermediate - Minor Item Tinkering Armature (41509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41509, 'ace41509-minoritemtinkeringarmature');
 
@@ -1363,6 +1465,9 @@ VALUES (41509, 0, 83890064, 83894153);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41509, 0, 16777882);
+
+/* Weenie - CraftAlchemyIntermediate - Concentrated Fire Oil (9346) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9346;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9346, 'concentratedfireoil');
@@ -1409,6 +1514,9 @@ VALUES (9346, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9346, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Lightning Oil (9352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9352, 'concentratedlightningoil');
 
@@ -1454,6 +1562,9 @@ VALUES (9352, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9352, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Aqua Vitae (24683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24683;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24683, 'aquavitae');
 
@@ -1488,6 +1599,9 @@ VALUES (24683, 13, True)
      , (24683, 11, True)
      , (24683, 14, True)
      , (24683, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Oil of Nullification (19536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19536;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19536, 'oilnullification');
@@ -1535,6 +1649,9 @@ VALUES (19536, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19536, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Leather Strap (41418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41418;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41418, 'ace41418-leatherstrap');
 
@@ -1568,6 +1685,9 @@ VALUES (41418, 13, True)
      , (41418, 11, True)
      , (41418, 14, True)
      , (41418, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Refining Polish (Stamina) (41425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41425;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41425, 'ace41425-refiningpolishstamina');
@@ -1603,6 +1723,9 @@ VALUES (41425, 13, True)
      , (41425, 14, True)
      , (41425, 19, True);
 
+/* Weenie - CraftAlchemyIntermediate - Refining Polish (Mana) (41424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41424, 'ace41424-refiningpolishmana');
 
@@ -1636,6 +1759,9 @@ VALUES (41424, 13, True)
      , (41424, 11, True)
      , (41424, 14, True)
      , (41424, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Hammer (41420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41420;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41420, 'ace41420-hammer');
@@ -1672,6 +1798,9 @@ VALUES (41420, 13, True)
      , (41420, 19, True)
      , (41420, 22, True);
 
+/* Weenie - CraftAlchemyIntermediate - Sheet Metal Form (41419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41419;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41419, 'ace41419-sheetmetalform');
 
@@ -1707,6 +1836,9 @@ VALUES (41419, 13, True)
      , (41419, 19, True)
      , (41419, 22, True);
 
+/* Weenie - CraftAlchemyIntermediate - Smelting Pot (5940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5940;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5940, 'smeltingpot');
 
@@ -1740,6 +1872,9 @@ VALUES (5940, 13, True)
      , (5940, 11, True)
      , (5940, 14, True)
      , (5940, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Concentrated Slashing Oil (36741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36741;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36741, 'ace36741-concentratedslashingoil');
@@ -1786,6 +1921,9 @@ VALUES (36741, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36741, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Bludgeoning Oil (36739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36739;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36739, 'ace36739-concentratedbludgeoningoil');
 
@@ -1831,6 +1969,9 @@ VALUES (36739, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36739, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Introspective Quill of Objectification (46842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46842;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46842, 'ace46842-introspectivequillofobjectification');
 
@@ -1865,6 +2006,9 @@ VALUES (46842, 13, True)
      , (46842, 14, True)
      , (46842, 19, True);
 
+/* Weenie - CraftAlchemyIntermediate - Introspective Quill of Formation (38755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38755;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38755, 'ace38755-introspectivequillofformation');
 
@@ -1898,6 +2042,9 @@ VALUES (38755, 13, True)
      , (38755, 11, True)
      , (38755, 14, True)
      , (38755, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Radiant Mana Infusion (40090) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40090;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40090, 'ace40090-radiantmanainfusion');
@@ -1946,6 +2093,9 @@ VALUES (40090, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40090, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Iron Ore (5938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5938;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5938, 'ironore');
 
@@ -1991,6 +2141,9 @@ VALUES (5938, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5938, 0, 16782860);
 
+/* Weenie - CraftAlchemyIntermediate - Inflictive Quill of Conveyance (38751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38751;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38751, 'ace38751-inflictivequillofconveyance');
 
@@ -2024,6 +2177,9 @@ VALUES (38751, 13, True)
      , (38751, 11, True)
      , (38751, 14, True)
      , (38751, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Parabolic Quill of Infliction (38749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38749;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38749, 'ace38749-parabolicquillofinfliction');
@@ -2059,6 +2215,9 @@ VALUES (38749, 13, True)
      , (38749, 14, True)
      , (38749, 19, True);
 
+/* Weenie - CraftAlchemyIntermediate - Alacritous Quill of Infliction (38752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38752;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38752, 'ace38752-alacritousquillofinfliction');
 
@@ -2093,6 +2252,9 @@ VALUES (38752, 13, True)
      , (38752, 14, True)
      , (38752, 19, True);
 
+/* Weenie - CraftAlchemyIntermediate - Infused Quill of Infliction (38770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38770;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38770, 'ace38770-infusedquillofinfliction');
 
@@ -2125,6 +2287,9 @@ VALUES (38770, 13, True)
      , (38770, 11, True)
      , (38770, 14, True)
      , (38770, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Benevolent Quill of Conveyance (38745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38745;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38745, 'ace38745-benevolentquillofconveyance');
@@ -2159,6 +2324,9 @@ VALUES (38745, 13, True)
      , (38745, 11, True)
      , (38745, 14, True)
      , (38745, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Bloodseeker Oil (5337) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5337;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5337, 'oilbloodseeker');
@@ -2204,6 +2372,9 @@ VALUES (5337, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5337, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Health Infusion (5325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5325;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5325, 'infusionhealth');
 
@@ -2247,6 +2418,9 @@ VALUES (5325, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5325, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Concentrated Victual Oil (9358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9358;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9358, 'concentratedvictualoil');
@@ -2293,6 +2467,9 @@ VALUES (9358, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9358, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Lightning Infusion (9351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9351;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9351, 'concentratedlightninginfusion');
 
@@ -2337,6 +2514,9 @@ VALUES (9351, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9351, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Concentrated Health Infusion (9349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9349;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9349, 'concentratedhealthinfusion');
@@ -2383,6 +2563,9 @@ VALUES (9349, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9349, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Bloodhunter Oil (15410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15410;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15410, 'concentratedbloodhunteroil');
 
@@ -2428,6 +2611,9 @@ VALUES (15410, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15410, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Aqua Incanta (4748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4748;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4748, 'aquaincanta');
 
@@ -2461,6 +2647,9 @@ VALUES (4748, 13, True)
      , (4748, 11, True)
      , (4748, 14, True)
      , (4748, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Bloodhunter Infusion (15407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15407;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15407, 'bloodhunterinfusion');
@@ -2507,6 +2696,9 @@ VALUES (15407, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15407, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Fire Infusion (9345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9345;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9345, 'concentratedfireinfusion');
 
@@ -2552,6 +2744,9 @@ VALUES (9345, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9345, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Victual Infusion (5328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5328, 'infusionvictual');
 
@@ -2595,6 +2790,9 @@ VALUES (5328, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5328, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Frost Infusion (5323) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5323;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5323, 'infusionfrost');
@@ -2640,6 +2838,9 @@ VALUES (5323, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5323, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Lightning Infusion (5324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5324;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5324, 'infusionlightning');
 
@@ -2683,6 +2884,9 @@ VALUES (5324, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5324, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Fire Oil (4750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4750;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4750, 'fireoil');
@@ -2729,6 +2933,9 @@ VALUES (4750, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4750, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Health Oil (5333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5333, 'oilhealth');
 
@@ -2772,6 +2979,9 @@ VALUES (5333, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5333, 0, 16783327);
+
+/* Weenie - CraftAlchemyIntermediate - Mana Oil (5334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5334;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5334, 'oilmana');
@@ -2817,6 +3027,9 @@ VALUES (5334, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5334, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Victual Oil (5336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5336;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5336, 'oilvictual');
 
@@ -2860,6 +3073,9 @@ VALUES (5336, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5336, 0, 16783327);
+
+/* Weenie - CraftAlchemyIntermediate - Concentrated Health Oil (9350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9350;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9350, 'concentratedhealthoil');
@@ -2906,6 +3122,9 @@ VALUES (9350, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9350, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Mana Infusion (5326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5326, 'infusionmana');
 
@@ -2949,6 +3168,9 @@ VALUES (5326, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5326, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Elixir of Vigor (15744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15744;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15744, 'elixirendurance');
@@ -2996,6 +3218,9 @@ VALUES (15744, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15744, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Bloodhunter Infusion (15409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15409;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15409, 'concentratedbloodhunterinfusion');
 
@@ -3040,6 +3265,9 @@ VALUES (15409, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15409, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Concentrated Acid Infusion (9340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9340;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9340, 'concentratedacidinfusion');
@@ -3086,6 +3314,9 @@ VALUES (9340, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9340, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Bloodseeker Infusion (9343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9343;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9343, 'concentratedbloodseekerinfusion');
 
@@ -3131,6 +3362,9 @@ VALUES (9343, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9343, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Fire Infusion (4749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4749;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4749, 'fireinfusion');
 
@@ -3175,6 +3409,9 @@ VALUES (4749, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4749, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Elixir of Autumn (15748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15748;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15748, 'elixirlightning');
@@ -3222,6 +3459,9 @@ VALUES (15748, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15748, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Elixir of Winter (15747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15747;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15747, 'elixirfrost');
 
@@ -3267,6 +3507,9 @@ VALUES (15747, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15747, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Elixir of Spring (15740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15740;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15740, 'elixiracid');
@@ -3314,6 +3557,9 @@ VALUES (15740, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15740, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Infused Quill of Benevolence (38774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38774;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38774, 'ace38774-infusedquillofbenevolence');
 
@@ -3347,6 +3593,9 @@ VALUES (38774, 13, True)
      , (38774, 14, True)
      , (38774, 19, True);
 
+/* Weenie - CraftAlchemyIntermediate - Infused Quill of Extraction (38773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38773, 'ace38773-infusedquillofextraction');
 
@@ -3379,6 +3628,9 @@ VALUES (38773, 13, True)
      , (38773, 11, True)
      , (38773, 14, True)
      , (38773, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Benevolent Quill of Nullification (38743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38743;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38743, 'ace38743-benevolentquillofnullification');
@@ -3414,6 +3666,9 @@ VALUES (38743, 13, True)
      , (38743, 14, True)
      , (38743, 19, True);
 
+/* Weenie - CraftAlchemyIntermediate - Infused Quill of Introspection (38771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38771;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38771, 'ace38771-infusedquillofintrospection');
 
@@ -3446,6 +3701,9 @@ VALUES (38771, 13, True)
      , (38771, 11, True)
      , (38771, 14, True)
      , (38771, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Concentrated Mana Infusion (9353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9353;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9353, 'concentratedmanainfusion');
@@ -3492,6 +3750,9 @@ VALUES (9353, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9353, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Mana Oil (9354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9354, 'concentratedmanaoil');
 
@@ -3537,6 +3798,9 @@ VALUES (9354, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9354, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Acid Oil (9341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9341, 'concentratedacidoil');
 
@@ -3581,6 +3845,9 @@ VALUES (9341, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9341, 0, 16783327);
+
+/* Weenie - CraftAlchemyIntermediate - Elixir of Preservation (15741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15741;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15741, 'elixirarmor');
@@ -3628,6 +3895,9 @@ VALUES (15741, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15741, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Elixir of Speed (15751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15751;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15751, 'elixirquickness');
 
@@ -3673,6 +3943,9 @@ VALUES (15751, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15751, 0, 16783325);
+
+/* Weenie - CraftAlchemyIntermediate - Elixir of Plasmic Being (15749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15749;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15749, 'elixirpierce');
@@ -3720,6 +3993,9 @@ VALUES (15749, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15749, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Thin Diamond Oil (19534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19534;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19534, 'oildiamondlow');
 
@@ -3765,6 +4041,9 @@ VALUES (19534, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19534, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Jeweler's Saw Blade (41402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41402;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41402, 'ace41402-jewelerssawblade');
 
@@ -3798,6 +4077,9 @@ VALUES (41402, 13, True)
      , (41402, 11, True)
      , (41402, 14, True)
      , (41402, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Lapping Plate (41400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41400;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41400, 'ace41400-lappingplate');
@@ -3833,6 +4115,9 @@ VALUES (41400, 13, True)
      , (41400, 14, True)
      , (41400, 19, True)
      , (41400, 22, True);
+
+/* Weenie - CraftAlchemyIntermediate - Cut White Gem (41510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41510;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41510, 'ace41510-cutwhitegem');
@@ -3878,6 +4163,9 @@ VALUES (41510, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41510, 0, 16779181);
 
+/* Weenie - CraftAlchemyIntermediate - Major Item Tinkering Armature (41508) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41508;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41508, 'ace41508-majoritemtinkeringarmature');
 
@@ -3922,6 +4210,9 @@ VALUES (41508, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41508, 0, 16777882);
 
+/* Weenie - CraftAlchemyIntermediate - Jeweler's Hand Saw (41401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41401;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41401, 'ace41401-jewelershandsaw');
 
@@ -3956,6 +4247,9 @@ VALUES (41401, 13, True)
      , (41401, 14, True)
      , (41401, 19, True)
      , (41401, 22, True);
+
+/* Weenie - CraftAlchemyIntermediate - Empowered Shadowfire Infusion (40512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40512;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40512, 'ace40512-empoweredshadowfireinfusion');
@@ -4003,6 +4297,9 @@ VALUES (40512, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40512, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Lightning Oil (5332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5332;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5332, 'oillightning');
 
@@ -4046,6 +4343,9 @@ VALUES (5332, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5332, 0, 16783327);
+
+/* Weenie - CraftAlchemyIntermediate - Acid Oil (5330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5330;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5330, 'oilacid');
@@ -4091,6 +4391,9 @@ VALUES (5330, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5330, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Piercing Oil (36740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36740, 'ace36740-concentratedpiercingoil');
 
@@ -4135,6 +4438,9 @@ VALUES (36740, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36740, 0, 16783327);
+
+/* Weenie - CraftAlchemyIntermediate - Elixir of the Single Mind (15746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15746;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15746, 'elixirfocus');
@@ -4182,6 +4488,9 @@ VALUES (15746, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15746, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Victual Infusion (9357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9357;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9357, 'concentratedvictualinfusion');
 
@@ -4227,6 +4536,9 @@ VALUES (9357, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9357, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Gold Setting (41405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41405;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41405, 'ace41405-goldsetting');
 
@@ -4260,6 +4572,9 @@ VALUES (41405, 13, True)
      , (41405, 11, True)
      , (41405, 14, True)
      , (41405, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Bloodseeker Infusion (5329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5329;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5329, 'infusionbloodseeker');
@@ -4305,6 +4620,9 @@ VALUES (5329, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5329, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Inflictive Quill of Partition (38748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38748;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38748, 'ace38748-inflictivequillofpartition');
 
@@ -4338,6 +4656,9 @@ VALUES (38748, 13, True)
      , (38748, 11, True)
      , (38748, 14, True)
      , (38748, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Concentrated Slashing Infusion (36738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36738;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36738, 'ace36738-concentratedslashinginfusion');
@@ -4384,6 +4705,9 @@ VALUES (36738, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36738, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Concentrated Bludgeoning Infusion (36736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36736;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36736, 'ace36736-concentratedbludgeoninginfusion');
 
@@ -4429,6 +4753,9 @@ VALUES (36736, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36736, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Lense Frame (41393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41393;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41393, 'ace41393-lenseframe');
 
@@ -4463,6 +4790,9 @@ VALUES (41393, 13, True)
      , (41393, 14, True)
      , (41393, 19, True);
 
+/* Weenie - CraftAlchemyIntermediate - Unfinished Lense (41395) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41395;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41395, 'ace41395-unfinishedlense');
 
@@ -4495,6 +4825,9 @@ VALUES (41395, 13, True)
      , (41395, 11, True)
      , (41395, 14, True)
      , (41395, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Abrasive Polish (41397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41397;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41397, 'ace41397-abrasivepolish');
@@ -4530,6 +4863,9 @@ VALUES (41397, 13, True)
      , (41397, 14, True)
      , (41397, 19, True);
 
+/* Weenie - CraftAlchemyIntermediate - Finished Lense (41392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41392;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41392, 'ace41392-finishedlense');
 
@@ -4562,6 +4898,9 @@ VALUES (41392, 13, True)
      , (41392, 11, True)
      , (41392, 14, True)
      , (41392, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Framed Lense (41394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41394, 'ace41394-framedlense');
@@ -4597,6 +4936,9 @@ VALUES (41394, 13, True)
      , (41394, 14, True)
      , (41394, 19, True);
 
+/* Weenie - CraftAlchemyIntermediate - Handle Mold (41396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41396;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41396, 'ace41396-handlemold');
 
@@ -4630,6 +4972,9 @@ VALUES (41396, 13, True)
      , (41396, 14, True)
      , (41396, 19, True)
      , (41396, 22, True);
+
+/* Weenie - CraftAlchemyIntermediate - Smelting Pot of Pyreal (41439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41439;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41439, 'ace41439-smeltingpotofpyreal');
@@ -4665,6 +5010,9 @@ VALUES (41439, 13, True)
      , (41439, 14, True)
      , (41439, 19, True)
      , (41439, 22, True);
+
+/* Weenie - CraftAlchemyIntermediate - Pyreal Handle (41388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41388;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41388, 'ace41388-pyrealhandle');
@@ -4713,6 +5061,9 @@ VALUES (41388, 0, 83897333, 83897333)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41388, 0, 16794408);
 
+/* Weenie - CraftAlchemyIntermediate - Carved Pyreal Handle (41389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41389;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41389, 'ace41389-carvedpyrealhandle');
 
@@ -4759,6 +5110,9 @@ VALUES (41389, 0, 83897333, 83897333)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41389, 0, 16794408);
+
+/* Weenie - CraftAlchemyIntermediate - Ornate Pyreal Handle (41390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41390;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41390, 'ace41390-ornatepyrealhandle');
@@ -4807,6 +5161,9 @@ VALUES (41390, 0, 83897333, 83897333)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41390, 0, 16794408);
 
+/* Weenie - CraftAlchemyIntermediate - Flawless Pyreal Handle (41511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41511, 'ace41511-flawlesspyrealhandle');
 
@@ -4854,6 +5211,9 @@ VALUES (41511, 0, 83897333, 83897333)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41511, 0, 16794408);
 
+/* Weenie - CraftAlchemyIntermediate - Empowered Olthoibane Infusion (40511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40511, 'ace40511-empoweredolthoibaneinfusion');
 
@@ -4900,6 +5260,9 @@ VALUES (40511, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40511, 0, 16783325);
 
+/* Weenie - CraftAlchemyIntermediate - Frost Oil (5331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5331, 'oilfrost');
 
@@ -4944,6 +5307,9 @@ VALUES (5331, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5331, 0, 16783327);
 
+/* Weenie - CraftAlchemyIntermediate - Smelting Pot of Lead (41437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41437;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41437, 'ace41437-smeltingpotoflead');
 
@@ -4979,6 +5345,9 @@ VALUES (41437, 13, True)
      , (41437, 19, True)
      , (41437, 22, True);
 
+/* Weenie - CraftAlchemyIntermediate - Benevolent Quill of Objectification (38744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38744;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38744, 'ace38744-benevolentquillofobjectification');
 
@@ -5012,6 +5381,9 @@ VALUES (38744, 13, True)
      , (38744, 11, True)
      , (38744, 14, True)
      , (38744, 19, True);
+
+/* Weenie - CraftAlchemyIntermediate - Jeweler's Saw Frame (41403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41403;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41403, 'ace41403-jewelerssawframe');
@@ -5060,6 +5432,9 @@ VALUES (41403, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41403, 0, 16778862);
 
+/* Weenie - CraftAlchemyIntermediate - Alembic Incanta (52525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52525;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52525, 'ace52525-alembicincanta');
 
@@ -5106,6 +5481,9 @@ VALUES (52525, 0, 83888861, 83892342);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52525, 0, 16778862);
+
+/* Weenie - CraftAlchemyIntermediate - Concentrated Alembic Incanta (52524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52524;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52524, 'ace52524-concentratedalembicincanta');

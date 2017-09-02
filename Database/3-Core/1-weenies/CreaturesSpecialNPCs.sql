@@ -1,3 +1,6 @@
+/* Weenie - CreaturesSpecialNPCs - Babe the Blue Auroch (8128) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8128;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8128, 'aurochbabe');
 
@@ -36,6 +39,9 @@ VALUES (8128, 12, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8128, 67112901, 0, 0);
+
+/* Weenie - CreaturesSpecialNPCs - Paul the Monouga (8129) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8129;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8129, 'monougapaul');

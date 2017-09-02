@@ -1,3 +1,6 @@
+/* Weenie - PortalsTheOrphanage - The Orphanage (27298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27298;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27298, 'portalshadoworphanage');
 

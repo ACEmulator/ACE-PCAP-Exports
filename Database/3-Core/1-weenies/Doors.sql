@@ -1,3 +1,6 @@
+/* Weenie - Doors - Sliding Door (720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 720;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (720, 'doorshoslide');
 
@@ -28,6 +31,9 @@ VALUES (720, 12, True)
      , (720, 19, True)
      , (720, 1, True);
 
+/* Weenie - Doors - Door (1148) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1148;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1148, 'gardoubledoor');
 
@@ -57,6 +63,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (1148, 12, True)
      , (1148, 19, True)
      , (1148, 1, True);
+
+/* Weenie - Doors - Door (568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 568;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (568, 'doorprison');
@@ -89,6 +98,9 @@ VALUES (568, 12, True)
      , (568, 19, True)
      , (568, 1, True);
 
+/* Weenie - Doors - Door (1289) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1289;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1289, 'doordungeonlockedpoor');
 
@@ -119,6 +131,9 @@ VALUES (1289, 12, True)
      , (1289, 11, True)
      , (1289, 19, True)
      , (1289, 1, True);
+
+/* Weenie - Doors - Pedestal Weak Spot (16919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16919;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16919, 'doorpedestal');
@@ -151,6 +166,9 @@ VALUES (16919, 12, True)
      , (16919, 19, True)
      , (16919, 1, True);
 
+/* Weenie - Doors - Door (721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 721;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (721, 'doorsholeft');
 
@@ -181,6 +199,9 @@ VALUES (721, 12, True)
      , (721, 19, True)
      , (721, 1, True);
 
+/* Weenie - Doors - Door (722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 722;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (722, 'doorshoright');
 
@@ -210,6 +231,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (722, 12, True)
      , (722, 19, True)
      , (722, 1, True);
+
+/* Weenie - Doors - Door (278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 278;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (278, 'door');
@@ -242,6 +266,9 @@ VALUES (278, 12, True)
      , (278, 19, True)
      , (278, 1, True);
 
+/* Weenie - Doors - Door (30938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30938;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30938, 'doorviamontianhouse');
 
@@ -271,6 +298,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (30938, 12, True)
      , (30938, 19, True)
      , (30938, 1, True);
+
+/* Weenie - Doors - Door (1302) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1302;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1302, 'doorprisonlockedimpregnable');
@@ -303,6 +333,9 @@ VALUES (1302, 12, True)
      , (1302, 19, True)
      , (1302, 1, True);
 
+/* Weenie - Doors - Door (5625) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5625;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5625, 'doorprison-ai');
 
@@ -332,6 +365,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5625, 12, True)
      , (5625, 19, True)
      , (5625, 1, True);
+
+/* Weenie - Doors - Accessway to the Athenaeum (22916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22916;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22916, 'dooraerbax1');
@@ -364,6 +400,9 @@ VALUES (22916, 12, True)
      , (22916, 19, True)
      , (22916, 1, True);
 
+/* Weenie - Doors - Accessway to Sanatorium (22917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22917, 'dooraerbax2');
 
@@ -394,6 +433,9 @@ VALUES (22917, 12, True)
      , (22917, 11, True)
      , (22917, 19, True)
      , (22917, 1, True);
+
+/* Weenie - Doors - Door (2179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2179;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2179, 'doorprisonactivated');
@@ -426,6 +468,9 @@ VALUES (2179, 12, True)
      , (2179, 19, True)
      , (2179, 1, True);
 
+/* Weenie - Doors - Door (4454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4454;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4454, 'doormetalcaveactivated');
 
@@ -456,6 +501,9 @@ VALUES (4454, 12, True)
      , (4454, 11, True)
      , (4454, 19, True)
      , (4454, 1, True);
+
+/* Weenie - Doors - Aerbax's Anteroom (22918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22918;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22918, 'dooraerbax3');
@@ -488,6 +536,9 @@ VALUES (22918, 12, True)
      , (22918, 19, True)
      , (22918, 1, True);
 
+/* Weenie - Doors - Door (1301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1301;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1301, 'doorprisonlockedbrilliant');
 
@@ -518,6 +569,9 @@ VALUES (1301, 12, True)
      , (1301, 11, True)
      , (1301, 19, True)
      , (1301, 1, True);
+
+/* Weenie - Doors - Door (1300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1300;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1300, 'doorprisonlockedexcellent');
@@ -550,6 +604,9 @@ VALUES (1300, 12, True)
      , (1300, 19, True)
      , (1300, 1, True);
 
+/* Weenie - Doors - Door (5624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5624;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5624, 'doordungeon-ai');
 
@@ -579,6 +636,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5624, 12, True)
      , (5624, 19, True)
      , (5624, 1, True);
+
+/* Weenie - Doors - Door (4139) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4139;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4139, 'doordungeonactivatedfast');
@@ -611,6 +671,9 @@ VALUES (4139, 12, True)
      , (4139, 19, True)
      , (4139, 1, True);
 
+/* Weenie - Doors - Door (4145) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4145;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4145, 'doorprisonactivatedfast');
 
@@ -642,6 +705,9 @@ VALUES (4145, 12, True)
      , (4145, 19, True)
      , (4145, 1, True);
 
+/* Weenie - Doors - Door (5626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5626;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5626, 'doormetalcave-ai');
 
@@ -672,6 +738,9 @@ VALUES (5626, 12, True)
      , (5626, 19, True)
      , (5626, 1, True);
 
+/* Weenie - Doors - Door (5627) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5627;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5627, 'doorolthoi-ai');
 
@@ -701,6 +770,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5627, 12, True)
      , (5627, 19, True)
      , (5627, 1, True);
+
+/* Weenie - Doors - Door (4455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4455;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4455, 'doormetalcaveactivatedfast');
@@ -733,6 +805,9 @@ VALUES (4455, 12, True)
      , (4455, 19, True)
      , (4455, 1, True);
 
+/* Weenie - Doors - Door (4460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4460;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4460, 'doormetalcavelockedimpregnable');
 
@@ -763,6 +838,9 @@ VALUES (4460, 12, True)
      , (4460, 11, True)
      , (4460, 19, True)
      , (4460, 1, True);
+
+/* Weenie - Doors - Portcullis (24571) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24571;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24571, 'doorportcullis');
@@ -795,6 +873,9 @@ VALUES (24571, 12, True)
      , (24571, 19, True)
      , (24571, 1, True);
 
+/* Weenie - Doors - Door (1286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1286;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1286, 'dooraluvianlockedexcellent');
 
@@ -826,6 +907,9 @@ VALUES (1286, 12, True)
      , (1286, 19, True)
      , (1286, 1, True);
 
+/* Weenie - Doors - Gate (11700) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11700;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11700, 'gatetumerokhouse');
 
@@ -855,6 +939,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (11700, 12, True)
      , (11700, 19, True)
      , (11700, 1, True);
+
+/* Weenie - Doors - Door (2181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2181;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2181, 'dooraluvianactivated');
@@ -887,6 +974,9 @@ VALUES (2181, 12, True)
      , (2181, 19, True)
      , (2181, 1, True);
 
+/* Weenie - Doors - Door (2243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2243;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2243, 'doorprisondryreach');
 
@@ -916,6 +1006,9 @@ VALUES (2243, 12, True)
      , (2243, 11, True)
      , (2243, 19, True)
      , (2243, 1, True);
+
+/* Weenie - Doors - Door (6881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6881, 'doordryreachwatchtower');
@@ -948,6 +1041,9 @@ VALUES (6881, 12, True)
      , (6881, 19, True)
      , (6881, 1, True);
 
+/* Weenie - Doors - Door (4453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4453;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4453, 'doormetalcave');
 
@@ -979,6 +1075,9 @@ VALUES (4453, 12, True)
      , (4453, 19, True)
      , (4453, 1, True);
 
+/* Weenie - Doors - Door (5629) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5629;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5629, 'doorgharun-ai');
 
@@ -1008,6 +1107,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5629, 12, True)
      , (5629, 19, True)
      , (5629, 1, True);
+
+/* Weenie - Doors - Door (1296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1296;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1296, 'doorprisonlockedpoor');
@@ -1040,6 +1142,9 @@ VALUES (1296, 12, True)
      , (1296, 19, True)
      , (1296, 1, True);
 
+/* Weenie - Doors - Door (4452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4452;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4452, 'doorwoodcave');
 
@@ -1070,6 +1175,9 @@ VALUES (4452, 12, True)
      , (4452, 11, True)
      , (4452, 19, True)
      , (4452, 1, True);
+
+/* Weenie - Doors - Door (4458) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4458;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4458, 'doormetalcavelockedfair');
@@ -1102,6 +1210,9 @@ VALUES (4458, 12, True)
      , (4458, 19, True)
      , (4458, 1, True);
 
+/* Weenie - Doors - Door (1291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1291, 'doordungeonlockedgood');
 
@@ -1132,6 +1243,9 @@ VALUES (1291, 12, True)
      , (1291, 11, True)
      , (1291, 19, True)
      , (1291, 1, True);
+
+/* Weenie - Doors - Door (41020) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41020;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41020, 'ace41020-door');
@@ -1165,6 +1279,9 @@ VALUES (41020, 12, True)
      , (41020, 1, True)
      , (41020, 24, True);
 
+/* Weenie - Doors - Door (40854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40854, 'ace40854-door');
 
@@ -1195,6 +1312,9 @@ VALUES (40854, 12, True)
      , (40854, 11, True)
      , (40854, 19, True)
      , (40854, 1, True);
+
+/* Weenie - Doors - Door (12705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12705;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12705, 'dooracademya');
@@ -1227,6 +1347,9 @@ VALUES (12705, 12, True)
      , (12705, 19, True)
      , (12705, 1, True);
 
+/* Weenie - Doors - Training Area (29329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29329, 'doornewbieacademypracticearea');
 
@@ -1257,6 +1380,9 @@ VALUES (29329, 12, True)
      , (29329, 11, True)
      , (29329, 19, True)
      , (29329, 1, True);
+
+/* Weenie - Doors - Academy Library (30998) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30998;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30998, 'doornewbieacademylibrary');
@@ -1289,6 +1415,9 @@ VALUES (30998, 12, True)
      , (30998, 19, True)
      , (30998, 1, True);
 
+/* Weenie - Doors - Door (4451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4451;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4451, 'doorolthoi');
 
@@ -1318,6 +1447,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (4451, 12, True)
      , (4451, 19, True)
      , (4451, 1, True);
+
+/* Weenie - Doors - Door (576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 576;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (576, 'doorprison9');
@@ -1350,6 +1482,9 @@ VALUES (576, 12, True)
      , (576, 19, True)
      , (576, 1, True);
 
+/* Weenie - Doors - Door (2180) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2180;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2180, 'doordungeonactivated');
 
@@ -1380,6 +1515,9 @@ VALUES (2180, 12, True)
      , (2180, 11, True)
      , (2180, 19, True)
      , (2180, 1, True);
+
+/* Weenie - Doors - Cave Door (35587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35587, 'ace35587-cavedoor');
@@ -1412,6 +1550,9 @@ VALUES (35587, 12, True)
      , (35587, 19, True)
      , (35587, 1, True);
 
+/* Weenie - Doors - Door (5623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5623;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5623, 'dooraluvianhouse-ai');
 
@@ -1441,6 +1582,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5623, 12, True)
      , (5623, 19, True)
      , (5623, 1, True);
+
+/* Weenie - Doors - Door (1276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1276;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1276, 'doorbanditprison');
@@ -1473,6 +1617,9 @@ VALUES (1276, 12, True)
      , (1276, 19, True)
      , (1276, 1, True);
 
+/* Weenie - Doors - Door (1274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1274;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1274, 'doorbanditprison3');
 
@@ -1503,6 +1650,9 @@ VALUES (1274, 12, True)
      , (1274, 11, True)
      , (1274, 19, True)
      , (1274, 1, True);
+
+/* Weenie - Doors - Door (5843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5843;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5843, 'banditcastledungeondoor');
@@ -1535,6 +1685,9 @@ VALUES (5843, 12, True)
      , (5843, 19, True)
      , (5843, 1, True);
 
+/* Weenie - Doors - Door (1299) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1299;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1299, 'doorprisonlockedintricate');
 
@@ -1565,6 +1718,9 @@ VALUES (1299, 12, True)
      , (1299, 11, True)
      , (1299, 19, True)
      , (1299, 1, True);
+
+/* Weenie - Doors - Door (1275) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1275;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1275, 'doorbanditprison2');
@@ -1597,6 +1753,9 @@ VALUES (1275, 12, True)
      , (1275, 19, True)
      , (1275, 1, True);
 
+/* Weenie - Doors - Door (1298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1298;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1298, 'doorprisonlockedgood');
 
@@ -1627,6 +1786,9 @@ VALUES (1298, 12, True)
      , (1298, 11, True)
      , (1298, 19, True)
      , (1298, 1, True);
+
+/* Weenie - Doors - Door (1297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1297, 'doorprisonlockedfair');
@@ -1659,6 +1821,9 @@ VALUES (1297, 12, True)
      , (1297, 19, True)
      , (1297, 1, True);
 
+/* Weenie - Doors - Door (1290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1290;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1290, 'doordungeonlockedfair');
 
@@ -1689,6 +1854,9 @@ VALUES (1290, 12, True)
      , (1290, 11, True)
      , (1290, 19, True)
      , (1290, 1, True);
+
+/* Weenie - Doors - Door (2615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2615;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2615, 'doorcarvedcave');
@@ -1721,6 +1889,9 @@ VALUES (2615, 12, True)
      , (2615, 19, True)
      , (2615, 1, True);
 
+/* Weenie - Doors - Door (2616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2616;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2616, 'doorcarvedroom');
 
@@ -1751,6 +1922,9 @@ VALUES (2616, 12, True)
      , (2616, 11, True)
      , (2616, 19, True)
      , (2616, 1, True);
+
+/* Weenie - Doors - Door (1416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1416;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1416, 'doorlostlightyaraq');
@@ -1783,6 +1957,9 @@ VALUES (1416, 12, True)
      , (1416, 19, True)
      , (1416, 1, True);
 
+/* Weenie - Doors - Door (1413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1413;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1413, 'doorlostlightsamsur');
 
@@ -1813,6 +1990,9 @@ VALUES (1413, 12, True)
      , (1413, 11, True)
      , (1413, 19, True)
      , (1413, 1, True);
+
+/* Weenie - Doors - Door (1411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1411, 'doorlostlightholtburg');
@@ -1845,6 +2025,9 @@ VALUES (1411, 12, True)
      , (1411, 19, True)
      , (1411, 1, True);
 
+/* Weenie - Doors - Door (1415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1415;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1415, 'doorlostlightyanshi');
 
@@ -1875,6 +2058,9 @@ VALUES (1415, 12, True)
      , (1415, 11, True)
      , (1415, 19, True)
      , (1415, 1, True);
+
+/* Weenie - Doors - Door (1414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1414;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1414, 'doorlostlightshoushi');
@@ -1907,6 +2093,9 @@ VALUES (1414, 12, True)
      , (1414, 19, True)
      , (1414, 1, True);
 
+/* Weenie - Doors - Door (1412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1412;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1412, 'doorlostlightrithwic');
 
@@ -1937,6 +2126,9 @@ VALUES (1412, 12, True)
      , (1412, 11, True)
      , (1412, 19, True)
      , (1412, 1, True);
+
+/* Weenie - Doors - Door (3611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3611;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3611, 'doorseventhkey');
@@ -1969,6 +2161,9 @@ VALUES (3611, 12, True)
      , (3611, 19, True)
      , (3611, 1, True);
 
+/* Weenie - Doors - Door (4463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4463;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4463, 'doorolthoiactivated');
 
@@ -1999,6 +2194,9 @@ VALUES (4463, 12, True)
      , (4463, 11, True)
      , (4463, 19, True)
      , (4463, 1, True);
+
+/* Weenie - Doors - Door (8418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8418;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8418, 'doororganic-ai');
@@ -2031,6 +2229,9 @@ VALUES (8418, 13, True)
      , (8418, 19, True)
      , (8418, 1, True);
 
+/* Weenie - Doors - Door (8408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8408;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8408, 'doororganic');
 
@@ -2060,6 +2261,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (8408, 12, True)
      , (8408, 19, True)
      , (8408, 1, True);
+
+/* Weenie - Doors - Door (4456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4456;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4456, 'doormetalcavelockedbrilliant');
@@ -2092,6 +2296,9 @@ VALUES (4456, 12, True)
      , (4456, 19, True)
      , (4456, 1, True);
 
+/* Weenie - Doors - Door (8410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8410;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8410, 'doororganicactivatedfast');
 
@@ -2122,6 +2329,9 @@ VALUES (8410, 12, True)
      , (8410, 11, True)
      , (8410, 19, True)
      , (8410, 1, True);
+
+/* Weenie - Doors - Door (43515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43515, 'ace43515-door');
@@ -2154,6 +2364,9 @@ VALUES (43515, 12, True)
      , (43515, 19, True)
      , (43515, 1, True);
 
+/* Weenie - Doors - Door (1294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1294, 'doordungeonlockedbrilliant');
 
@@ -2185,6 +2398,9 @@ VALUES (1294, 12, True)
      , (1294, 19, True)
      , (1294, 1, True);
 
+/* Weenie - Doors - Fireplace (14467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14467;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14467, 'doorfireplace');
 
@@ -2215,6 +2431,9 @@ VALUES (14467, 12, True)
      , (14467, 11, True)
      , (14467, 19, True)
      , (14467, 1, True);
+
+/* Weenie - Doors - Surface (52009) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52009;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52009, 'ace52009-surface');
@@ -2248,6 +2467,9 @@ VALUES (52009, 12, True)
      , (52009, 19, True)
      , (52009, 1, True);
 
+/* Weenie - Doors - Door (1295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1295;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1295, 'doordungeonlockedimpregnable');
 
@@ -2278,6 +2500,9 @@ VALUES (1295, 12, True)
      , (1295, 11, True)
      , (1295, 19, True)
      , (1295, 1, True);
+
+/* Weenie - Doors - Door (1284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1284;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1284, 'dooraluvianlockedgood');
@@ -2310,6 +2535,9 @@ VALUES (1284, 12, True)
      , (1284, 19, True)
      , (1284, 1, True);
 
+/* Weenie - Doors - Treasure Room Door (23887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23887;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23887, 'doorulgrimsdungeon');
 
@@ -2340,6 +2568,9 @@ VALUES (23887, 12, True)
      , (23887, 11, True)
      , (23887, 19, True)
      , (23887, 1, True);
+
+/* Weenie - Doors - Door (2192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2192;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2192, 'doortrothyrsrest');
@@ -2372,6 +2603,9 @@ VALUES (2192, 12, True)
      , (2192, 19, True)
      , (2192, 1, True);
 
+/* Weenie - Doors - Door (4462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4462;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4462, 'doormetalcavelockedpoor');
 
@@ -2402,6 +2636,9 @@ VALUES (4462, 12, True)
      , (4462, 11, True)
      , (4462, 19, True)
      , (4462, 1, True);
+
+/* Weenie - Doors - Door (1292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1292;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1292, 'doordungeonlockedintricate');
@@ -2434,6 +2671,9 @@ VALUES (1292, 12, True)
      , (1292, 19, True)
      , (1292, 1, True);
 
+/* Weenie - Doors - Door (2492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2492, 'doortumerokone');
 
@@ -2464,6 +2704,9 @@ VALUES (2492, 12, True)
      , (2492, 11, True)
      , (2492, 19, True)
      , (2492, 1, True);
+
+/* Weenie - Doors - Door (42672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42672;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42672, 'ace42672-door');
@@ -2496,6 +2739,9 @@ VALUES (42672, 12, True)
      , (42672, 19, True)
      , (42672, 1, True);
 
+/* Weenie - Doors - Door (27562) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27562;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27562, 'doorarchall');
 
@@ -2526,6 +2772,9 @@ VALUES (27562, 12, True)
      , (27562, 11, True)
      , (27562, 19, True)
      , (27562, 1, True);
+
+/* Weenie - Doors - Door (27291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27291;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27291, 'doorshadowchildpandemic');
@@ -2558,6 +2807,9 @@ VALUES (27291, 12, True)
      , (27291, 19, True)
      , (27291, 1, True);
 
+/* Weenie - Doors - Door (4473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4473, 'doorwoodcaveactivatedfast');
 
@@ -2588,6 +2840,9 @@ VALUES (4473, 12, True)
      , (4473, 11, True)
      , (4473, 19, True)
      , (4473, 1, True);
+
+/* Weenie - Doors - Vault Door (8513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8513;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8513, 'dooralaidain');
@@ -2620,6 +2875,9 @@ VALUES (8513, 12, True)
      , (8513, 19, True)
      , (8513, 1, True);
 
+/* Weenie - Doors - Door (4474) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4474;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4474, 'doorwoodcavelockedbrilliant');
 
@@ -2650,6 +2908,9 @@ VALUES (4474, 12, True)
      , (4474, 11, True)
      , (4474, 19, True)
      , (4474, 1, True);
+
+/* Weenie - Doors - Door (2211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2211;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2211, 'doortumerokc');
@@ -2682,6 +2943,9 @@ VALUES (2211, 12, True)
      , (2211, 19, True)
      , (2211, 1, True);
 
+/* Weenie - Doors - Door (27292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27292;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27292, 'doorshadowchildwretched');
 
@@ -2712,6 +2976,9 @@ VALUES (27292, 12, True)
      , (27292, 11, True)
      , (27292, 19, True)
      , (27292, 1, True);
+
+/* Weenie - Doors - Shadow Vault (33762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33762, 'ace33762-shadowvault');
@@ -2744,6 +3011,9 @@ VALUES (33762, 12, True)
      , (33762, 19, True)
      , (33762, 1, True);
 
+/* Weenie - Doors - Door (4457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4457, 'doormetalcavelockedexcellent');
 
@@ -2774,6 +3044,9 @@ VALUES (4457, 12, True)
      , (4457, 11, True)
      , (4457, 19, True)
      , (4457, 1, True);
+
+/* Weenie - Doors - Door (2217) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2217;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2217, 'doorcragstonegrave');
@@ -2806,6 +3079,9 @@ VALUES (2217, 12, True)
      , (2217, 19, True)
      , (2217, 1, True);
 
+/* Weenie - Doors - Work Room Door (5367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5367;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5367, 'doorcovecrypt');
 
@@ -2836,6 +3112,9 @@ VALUES (5367, 12, True)
      , (5367, 11, True)
      , (5367, 19, True)
      , (5367, 1, True);
+
+/* Weenie - Doors - Door (1262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1262;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1262, 'doorgreenmireresist58');
@@ -2868,6 +3147,9 @@ VALUES (1262, 12, True)
      , (1262, 19, True)
      , (1262, 1, True);
 
+/* Weenie - Doors - Door (1260) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1260;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1260, 'doorgreenmireprison');
 
@@ -2898,6 +3180,9 @@ VALUES (1260, 12, True)
      , (1260, 11, True)
      , (1260, 19, True)
      , (1260, 1, True);
+
+/* Weenie - Doors - Door (1261) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1261;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1261, 'doorgreenmireresist54');
@@ -2930,6 +3215,9 @@ VALUES (1261, 12, True)
      , (1261, 19, True)
      , (1261, 1, True);
 
+/* Weenie - Doors - Door (45004) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45004;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45004, 'ace45004-door');
 
@@ -2960,6 +3248,9 @@ VALUES (45004, 12, True)
      , (45004, 11, True)
      , (45004, 19, True)
      , (45004, 1, True);
+
+/* Weenie - Doors - Reinforced Door (45007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45007;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45007, 'ace45007-reinforceddoor');
@@ -2992,6 +3283,9 @@ VALUES (45007, 12, True)
      , (45007, 19, True)
      , (45007, 1, True);
 
+/* Weenie - Doors - Door (45006) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45006;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45006, 'ace45006-door');
 
@@ -3022,6 +3316,9 @@ VALUES (45006, 12, True)
      , (45006, 11, True)
      , (45006, 19, True)
      , (45006, 1, True);
+
+/* Weenie - Doors - Door (1244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1244;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1244, 'doorglenden');
@@ -3054,6 +3351,9 @@ VALUES (1244, 12, True)
      , (1244, 19, True)
      , (1244, 1, True);
 
+/* Weenie - Doors - Door (1246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1246;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1246, 'doorglendenprison2');
 
@@ -3084,6 +3384,9 @@ VALUES (1246, 12, True)
      , (1246, 11, True)
      , (1246, 19, True)
      , (1246, 1, True);
+
+/* Weenie - Doors - Door (1245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1245;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1245, 'doorglendenprison');
@@ -3116,6 +3419,9 @@ VALUES (1245, 12, True)
      , (1245, 19, True)
      , (1245, 1, True);
 
+/* Weenie - Doors - Prison Door (25704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25704;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25704, 'doornoir1');
 
@@ -3146,6 +3452,9 @@ VALUES (25704, 12, True)
      , (25704, 11, True)
      , (25704, 19, True)
      , (25704, 1, True);
+
+/* Weenie - Doors - Vault Door (38380) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38380;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38380, 'ace38380-vaultdoor');
@@ -3178,6 +3487,9 @@ VALUES (38380, 12, True)
      , (38380, 19, True)
      , (38380, 1, True);
 
+/* Weenie - Doors - Armory Door (38379) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38379;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38379, 'ace38379-armorydoor');
 
@@ -3208,6 +3520,9 @@ VALUES (38379, 12, True)
      , (38379, 11, True)
      , (38379, 19, True)
      , (38379, 1, True);
+
+/* Weenie - Doors - Locked Door (38391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38391, 'ace38391-lockeddoor');
@@ -3240,6 +3555,9 @@ VALUES (38391, 12, True)
      , (38391, 19, True)
      , (38391, 1, True);
 
+/* Weenie - Doors - Door (30287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30287, 'doorarchall-activated');
 
@@ -3270,6 +3588,9 @@ VALUES (30287, 12, True)
      , (30287, 11, True)
      , (30287, 19, True)
      , (30287, 1, True);
+
+/* Weenie - Doors - Surface (51647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51647;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51647, 'ace51647-surface');
@@ -3303,6 +3624,9 @@ VALUES (51647, 12, True)
      , (51647, 19, True)
      , (51647, 1, True);
 
+/* Weenie - Doors - Reinforced Door (29940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29940;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29940, 'doorsturdyironkey');
 
@@ -3333,6 +3657,9 @@ VALUES (29940, 12, True)
      , (29940, 11, True)
      , (29940, 19, True)
      , (29940, 1, True);
+
+/* Weenie - Doors - Guardian (28104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28104;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28104, 'doorstatuetemple15');
@@ -3366,6 +3693,9 @@ VALUES (28104, 12, True)
      , (28104, 1, True)
      , (28104, 24, True);
 
+/* Weenie - Doors - Cellar Door (5018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5018, 'doorfolthidcellar');
 
@@ -3396,6 +3726,9 @@ VALUES (5018, 12, True)
      , (5018, 11, True)
      , (5018, 19, True)
      , (5018, 1, True);
+
+/* Weenie - Doors - Door (1293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1293;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1293, 'doordungeonlockedexcellent');
@@ -3428,6 +3761,9 @@ VALUES (1293, 12, True)
      , (1293, 19, True)
      , (1293, 1, True);
 
+/* Weenie - Doors - Door (5628) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5628;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5628, 'doorwoodcave-ai');
 
@@ -3457,6 +3793,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (5628, 12, True)
      , (5628, 19, True)
      , (5628, 1, True);
+
+/* Weenie - Doors - Door (22086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22086;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22086, 'doorhauntedmansionlocked');
@@ -3489,6 +3828,9 @@ VALUES (22086, 12, True)
      , (22086, 19, True)
      , (22086, 1, True);
 
+/* Weenie - Doors - Door (42275) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42275;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42275, 'ace42275-door');
 
@@ -3519,6 +3861,9 @@ VALUES (42275, 12, True)
      , (42275, 11, True)
      , (42275, 19, True)
      , (42275, 1, True);
+
+/* Weenie - Doors - Main Door (42278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42278;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42278, 'ace42278-maindoor');
@@ -3551,6 +3896,9 @@ VALUES (42278, 12, True)
      , (42278, 19, True)
      , (42278, 1, True);
 
+/* Weenie - Doors - Reinforced Door (42277) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42277;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42277, 'ace42277-reinforceddoor');
 
@@ -3581,6 +3929,9 @@ VALUES (42277, 12, True)
      , (42277, 11, True)
      , (42277, 19, True)
      , (42277, 1, True);
+
+/* Weenie - Doors - Reinforced Door (42279) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42279;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42279, 'ace42279-reinforceddoor');
@@ -3613,6 +3964,9 @@ VALUES (42279, 12, True)
      , (42279, 19, True)
      , (42279, 1, True);
 
+/* Weenie - Doors - Reinforced Door (42276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42276;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42276, 'ace42276-reinforceddoor');
 
@@ -3643,6 +3997,9 @@ VALUES (42276, 12, True)
      , (42276, 11, True)
      , (42276, 19, True)
      , (42276, 1, True);
+
+/* Weenie - Doors - Reinforced Door (25510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25510;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25510, 'doorprisonlocked600');
@@ -3675,6 +4032,9 @@ VALUES (25510, 12, True)
      , (25510, 19, True)
      , (25510, 1, True);
 
+/* Weenie - Doors - Door (2506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2506;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2506, 'doorswampdirelands');
 
@@ -3705,6 +4065,9 @@ VALUES (2506, 12, True)
      , (2506, 11, True)
      , (2506, 19, True)
      , (2506, 1, True);
+
+/* Weenie - Doors - Door (31223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31223;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31223, 'ace31223-door');
@@ -3737,6 +4100,9 @@ VALUES (31223, 12, True)
      , (31223, 19, True)
      , (31223, 1, True);
 
+/* Weenie - Doors - Metal Door (7885) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7885;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7885, 'doorcolier');
 
@@ -3767,6 +4133,9 @@ VALUES (7885, 12, True)
      , (7885, 11, True)
      , (7885, 19, True)
      , (7885, 1, True);
+
+/* Weenie - Doors - Door (1526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1526;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1526, 'doorcolierdeep');
@@ -3799,6 +4168,9 @@ VALUES (1526, 12, True)
      , (1526, 19, True)
      , (1526, 1, True);
 
+/* Weenie - Doors - Door (1525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1525;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1525, 'doorcoliercell');
 
@@ -3829,6 +4201,9 @@ VALUES (1525, 12, True)
      , (1525, 11, True)
      , (1525, 19, True)
      , (1525, 1, True);
+
+/* Weenie - Doors - Door (5019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5019;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5019, 'doorfolthidexit');
@@ -3861,6 +4236,9 @@ VALUES (5019, 12, True)
      , (5019, 19, True)
      , (5019, 1, True);
 
+/* Weenie - Doors - Witshire's Cottage Door (2199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2199, 'doorwitshire');
 
@@ -3891,6 +4269,9 @@ VALUES (2199, 12, True)
      , (2199, 11, True)
      , (2199, 19, True)
      , (2199, 1, True);
+
+/* Weenie - Doors - Fort Witshire Door (14432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14432;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14432, 'doorfortwitshire');
@@ -3923,6 +4304,9 @@ VALUES (14432, 12, True)
      , (14432, 19, True)
      , (14432, 1, True);
 
+/* Weenie - Doors - Barracks Door (40500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40500, 'ace40500-barracksdoor');
 
@@ -3953,6 +4337,9 @@ VALUES (40500, 12, True)
      , (40500, 11, True)
      , (40500, 19, True)
      , (40500, 1, True);
+
+/* Weenie - Doors - Headquarters Door (40501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40501;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40501, 'ace40501-headquartersdoor');
@@ -3985,6 +4372,9 @@ VALUES (40501, 12, True)
      , (40501, 19, True)
      , (40501, 1, True);
 
+/* Weenie - Doors - Excavation Master's Laboratory (41194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41194;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41194, 'ace41194-excavationmasterslaboratory');
 
@@ -4015,6 +4405,9 @@ VALUES (41194, 12, True)
      , (41194, 11, True)
      , (41194, 19, True)
      , (41194, 1, True);
+
+/* Weenie - Doors - Aetherium Vault (40806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40806;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40806, 'ace40806-aetheriumvault');
@@ -4047,6 +4440,9 @@ VALUES (40806, 12, True)
      , (40806, 19, True)
      , (40806, 1, True);
 
+/* Weenie - Doors - Silver-Locked Door (38639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38639;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38639, 'ace38639-silverlockeddoor');
 
@@ -4077,6 +4473,9 @@ VALUES (38639, 12, True)
      , (38639, 11, True)
      , (38639, 19, True)
      , (38639, 1, True);
+
+/* Weenie - Doors - Gold-Locked Door (38637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38637;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38637, 'ace38637-goldlockeddoor');
@@ -4109,6 +4508,9 @@ VALUES (38637, 12, True)
      , (38637, 19, True)
      , (38637, 1, True);
 
+/* Weenie - Doors - Copper-Locked Door (38638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38638;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38638, 'ace38638-copperlockeddoor');
 
@@ -4140,6 +4542,9 @@ VALUES (38638, 12, True)
      , (38638, 19, True)
      , (38638, 1, True);
 
+/* Weenie - Doors - Dericost Ruin Door (28767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28767, 'doordericostruinhalaetan');
 
@@ -4170,6 +4575,9 @@ VALUES (28767, 12, True)
      , (28767, 11, True)
      , (28767, 19, True)
      , (28767, 1, True);
+
+/* Weenie - Doors - Door (45736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45736;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45736, 'ace45736-door');
@@ -4203,6 +4611,9 @@ VALUES (45736, 13, True)
      , (45736, 19, True)
      , (45736, 1, True);
 
+/* Weenie - Doors - Lyceum Gates (9027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9027;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9027, 'doorseacaveactivatedfast');
 
@@ -4233,6 +4644,9 @@ VALUES (9027, 12, True)
      , (9027, 11, True)
      , (9027, 19, True)
      , (9027, 1, True);
+
+/* Weenie - Doors - The First Threshold (9029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9029;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9029, 'doortestlow');
@@ -4265,6 +4679,9 @@ VALUES (9029, 12, True)
      , (9029, 19, True)
      , (9029, 1, True);
 
+/* Weenie - Doors - The Second Threshold (9030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9030;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9030, 'doortestmed');
 
@@ -4295,6 +4712,9 @@ VALUES (9030, 12, True)
      , (9030, 11, True)
      , (9030, 19, True)
      , (9030, 1, True);
+
+/* Weenie - Doors - The Third Threshold (9028) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9028;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9028, 'doortesthigh');
@@ -4327,6 +4747,9 @@ VALUES (9028, 12, True)
      , (9028, 19, True)
      , (9028, 1, True);
 
+/* Weenie - Doors - Lab Door (36602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36602;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36602, 'ace36602-labdoor');
 
@@ -4357,6 +4780,9 @@ VALUES (36602, 12, True)
      , (36602, 11, True)
      , (36602, 19, True)
      , (36602, 1, True);
+
+/* Weenie - Doors - Door (48798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48798;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48798, 'ace48798-door');
@@ -4389,6 +4815,9 @@ VALUES (48798, 12, True)
      , (48798, 19, True)
      , (48798, 1, True);
 
+/* Weenie - Doors - Door (48799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48799;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48799, 'ace48799-door');
 
@@ -4419,6 +4848,9 @@ VALUES (48799, 12, True)
      , (48799, 11, True)
      , (48799, 19, True)
      , (48799, 1, True);
+
+/* Weenie - Doors - Phainor's Chamber (48771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48771, 'ace48771-phainorschamber');
@@ -4451,6 +4883,9 @@ VALUES (48771, 12, True)
      , (48771, 19, True)
      , (48771, 1, True);
 
+/* Weenie - Doors - Door (48776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48776;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48776, 'ace48776-door');
 
@@ -4481,6 +4916,9 @@ VALUES (48776, 12, True)
      , (48776, 11, True)
      , (48776, 19, True)
      , (48776, 1, True);
+
+/* Weenie - Doors - Betting Cage Door (39477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 39477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (39477, 'ace39477-bettingcagedoor');
@@ -4513,6 +4951,9 @@ VALUES (39477, 12, True)
      , (39477, 19, True)
      , (39477, 1, True);
 
+/* Weenie - Doors - Door (45764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45764;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45764, 'ace45764-door');
 
@@ -4543,6 +4984,9 @@ VALUES (45764, 12, True)
      , (45764, 11, True)
      , (45764, 19, True)
      , (45764, 1, True);
+
+/* Weenie - Doors - Door (45765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45765, 'ace45765-door');
@@ -4575,6 +5019,9 @@ VALUES (45765, 12, True)
      , (45765, 19, True)
      , (45765, 1, True);
 
+/* Weenie - Doors - Door (45766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45766;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45766, 'ace45766-door');
 
@@ -4605,6 +5052,9 @@ VALUES (45766, 12, True)
      , (45766, 11, True)
      , (45766, 19, True)
      , (45766, 1, True);
+
+/* Weenie - Doors - Door (45767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45767;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45767, 'ace45767-door');
@@ -4637,6 +5087,9 @@ VALUES (45767, 12, True)
      , (45767, 19, True)
      , (45767, 1, True);
 
+/* Weenie - Doors - Door (45768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45768;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45768, 'ace45768-door');
 
@@ -4667,6 +5120,9 @@ VALUES (45768, 12, True)
      , (45768, 11, True)
      , (45768, 19, True)
      , (45768, 1, True);
+
+/* Weenie - Doors - Bookcase (15301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15301;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15301, 'doorbookcasesliding');
@@ -4699,6 +5155,9 @@ VALUES (15301, 12, True)
      , (15301, 19, True)
      , (15301, 1, True);
 
+/* Weenie - Doors - Door II (52095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52095;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52095, 'ace52095-doorii');
 
@@ -4729,6 +5188,9 @@ VALUES (52095, 12, True)
      , (52095, 11, True)
      , (52095, 19, True)
      , (52095, 1, True);
+
+/* Weenie - Doors - Door I (52094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52094;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52094, 'ace52094-doori');
@@ -4761,6 +5223,9 @@ VALUES (52094, 12, True)
      , (52094, 19, True)
      , (52094, 1, True);
 
+/* Weenie - Doors - Door III (52096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52096, 'ace52096-dooriii');
 
@@ -4791,6 +5256,9 @@ VALUES (52096, 12, True)
      , (52096, 11, True)
      , (52096, 19, True)
      , (52096, 1, True);
+
+/* Weenie - Doors - Commander Presk's Treasury (51919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51919;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51919, 'ace51919-commanderpreskstreasury');
@@ -4823,6 +5291,9 @@ VALUES (51919, 12, True)
      , (51919, 19, True)
      , (51919, 1, True);
 
+/* Weenie - Doors - Reinforced Door (51917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51917, 'ace51917-reinforceddoor');
 
@@ -4853,6 +5324,9 @@ VALUES (51917, 12, True)
      , (51917, 11, True)
      , (51917, 19, True)
      , (51917, 1, True);
+
+/* Weenie - Doors - Door (51664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51664;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51664, 'ace51664-door');
@@ -4885,6 +5359,9 @@ VALUES (51664, 12, True)
      , (51664, 19, True)
      , (51664, 1, True);
 
+/* Weenie - Doors - Door (51673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51673;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51673, 'ace51673-door');
 
@@ -4915,6 +5392,9 @@ VALUES (51673, 12, True)
      , (51673, 11, True)
      , (51673, 19, True)
      , (51673, 1, True);
+
+/* Weenie - Doors - Door (30652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30652;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30652, 'blackdrudgedoor');
@@ -4947,6 +5427,9 @@ VALUES (30652, 12, True)
      , (30652, 19, True)
      , (30652, 1, True);
 
+/* Weenie - Doors - Door (30651) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30651;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30651, 'whitedrudgedoor');
 
@@ -4977,6 +5460,9 @@ VALUES (30651, 12, True)
      , (30651, 11, True)
      , (30651, 19, True)
      , (30651, 1, True);
+
+/* Weenie - Doors - Door (30650) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30650;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30650, 'reddrudgedoor');
@@ -5009,6 +5495,9 @@ VALUES (30650, 12, True)
      , (30650, 19, True)
      , (30650, 1, True);
 
+/* Weenie - Doors - Door (30653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30653;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30653, 'warroomdoor');
 
@@ -5039,6 +5528,9 @@ VALUES (30653, 12, True)
      , (30653, 11, True)
      , (30653, 19, True)
      , (30653, 1, True);
+
+/* Weenie - Doors - Door (45011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45011;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45011, 'ace45011-door');
@@ -5071,6 +5563,9 @@ VALUES (45011, 12, True)
      , (45011, 19, True)
      , (45011, 1, True);
 
+/* Weenie - Doors - Door (45013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45013;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45013, 'ace45013-door');
 
@@ -5101,6 +5596,9 @@ VALUES (45013, 12, True)
      , (45013, 11, True)
      , (45013, 19, True)
      , (45013, 1, True);
+
+/* Weenie - Doors - Door (45015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45015;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45015, 'ace45015-door');
@@ -5133,6 +5631,9 @@ VALUES (45015, 12, True)
      , (45015, 19, True)
      , (45015, 1, True);
 
+/* Weenie - Doors - Reinforced Door (40270) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40270;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40270, 'ace40270-reinforceddoor');
 
@@ -5163,6 +5664,9 @@ VALUES (40270, 12, True)
      , (40270, 11, True)
      , (40270, 19, True)
      , (40270, 1, True);
+
+/* Weenie - Doors - Door (46310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46310;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46310, 'ace46310-door');
@@ -5196,6 +5700,9 @@ VALUES (46310, 12, True)
      , (46310, 1, True)
      , (46310, 24, True);
 
+/* Weenie - Doors - Door (46312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46312;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46312, 'ace46312-door');
 
@@ -5226,6 +5733,9 @@ VALUES (46312, 12, True)
      , (46312, 11, True)
      , (46312, 19, True)
      , (46312, 1, True);
+
+/* Weenie - Doors - Door (46311) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46311;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46311, 'ace46311-door');
@@ -5259,6 +5769,9 @@ VALUES (46311, 12, True)
      , (46311, 1, True)
      , (46311, 24, True);
 
+/* Weenie - Doors - Door (46575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46575;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46575, 'ace46575-door');
 
@@ -5289,6 +5802,9 @@ VALUES (46575, 12, True)
      , (46575, 11, True)
      , (46575, 19, True)
      , (46575, 1, True);
+
+/* Weenie - Doors - Guardian (29938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29938;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29938, 'doorstatuetemple-jungcit');
@@ -5322,6 +5838,9 @@ VALUES (29938, 12, True)
      , (29938, 1, True)
      , (29938, 24, True);
 
+/* Weenie - Doors - Guardian (29939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29939;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29939, 'doorstatuetemple-light');
 
@@ -5354,6 +5873,9 @@ VALUES (29939, 12, True)
      , (29939, 1, True)
      , (29939, 24, True);
 
+/* Weenie - Doors - Lower Catacomb Prison Door (35001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35001;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35001, 'ace35001-lowercatacombprisondoor');
 
@@ -5384,6 +5906,9 @@ VALUES (35001, 12, True)
      , (35001, 11, True)
      , (35001, 19, True)
      , (35001, 1, True);
+
+/* Weenie - Doors - 1st Locked Gate (35023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35023;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35023, 'ace35023-1stlockedgate');
@@ -5416,6 +5941,9 @@ VALUES (35023, 12, True)
      , (35023, 19, True)
      , (35023, 1, True);
 
+/* Weenie - Doors - 2nd Locked Gate (35024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35024;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35024, 'ace35024-2ndlockedgate');
 
@@ -5446,6 +5974,9 @@ VALUES (35024, 12, True)
      , (35024, 11, True)
      , (35024, 19, True)
      , (35024, 1, True);
+
+/* Weenie - Doors - 3rd Locked Gate (35025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35025;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35025, 'ace35025-3rdlockedgate');
@@ -5478,6 +6009,9 @@ VALUES (35025, 12, True)
      , (35025, 19, True)
      , (35025, 1, True);
 
+/* Weenie - Doors - 4th Locked Gate (35026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35026;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35026, 'ace35026-4thlockedgate');
 
@@ -5508,6 +6042,9 @@ VALUES (35026, 12, True)
      , (35026, 11, True)
      , (35026, 19, True)
      , (35026, 1, True);
+
+/* Weenie - Doors - 5th Locked Gate (35027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35027;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35027, 'ace35027-5thlockedgate');
@@ -5540,6 +6077,9 @@ VALUES (35027, 12, True)
      , (35027, 19, True)
      , (35027, 1, True);
 
+/* Weenie - Doors - Torture Chamber Door (28766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28766;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28766, 'doorviamontiantorturechamber');
 
@@ -5570,6 +6110,9 @@ VALUES (28766, 12, True)
      , (28766, 11, True)
      , (28766, 19, True)
      , (28766, 1, True);
+
+/* Weenie - Doors - Door (40158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40158;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40158, 'ace40158-door');
@@ -5602,6 +6145,9 @@ VALUES (40158, 12, True)
      , (40158, 19, True)
      , (40158, 1, True);
 
+/* Weenie - Doors - Door (43882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43882;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43882, 'ace43882-door');
 
@@ -5632,6 +6178,9 @@ VALUES (43882, 12, True)
      , (43882, 11, True)
      , (43882, 19, True)
      , (43882, 1, True);
+
+/* Weenie - Doors - Door (43883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43883;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43883, 'ace43883-door');
@@ -5664,6 +6213,9 @@ VALUES (43883, 12, True)
      , (43883, 19, True)
      , (43883, 1, True);
 
+/* Weenie - Doors - Swirling Portal (14598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14598;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14598, 'doorhightechred');
 
@@ -5694,6 +6246,9 @@ VALUES (14598, 12, True)
      , (14598, 11, True)
      , (14598, 19, True)
      , (14598, 1, True);
+
+/* Weenie - Doors - Swirling Portal (14596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14596;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14596, 'doorhightechgreen');
@@ -5726,6 +6281,9 @@ VALUES (14596, 12, True)
      , (14596, 19, True)
      , (14596, 1, True);
 
+/* Weenie - Doors - Swirling Portal (14564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14564;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14564, 'doorhightech');
 
@@ -5756,6 +6314,9 @@ VALUES (14564, 12, True)
      , (14564, 11, True)
      , (14564, 19, True)
      , (14564, 1, True);
+
+/* Weenie - Doors - Swirling Portal (14595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14595;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14595, 'doorhightechblue');
@@ -5788,6 +6349,9 @@ VALUES (14595, 12, True)
      , (14595, 19, True)
      , (14595, 1, True);
 
+/* Weenie - Doors - Southern Facility Gate (40868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40868;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40868, 'ace40868-southernfacilitygate');
 
@@ -5818,6 +6382,9 @@ VALUES (40868, 12, True)
      , (40868, 11, True)
      , (40868, 19, True)
      , (40868, 1, True);
+
+/* Weenie - Doors - Western Facility Gate (40869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40869;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40869, 'ace40869-westernfacilitygate');
@@ -5850,6 +6417,9 @@ VALUES (40869, 12, True)
      , (40869, 19, True)
      , (40869, 1, True);
 
+/* Weenie - Doors - Eastern Facility Gate (40865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40865;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40865, 'ace40865-easternfacilitygate');
 
@@ -5880,6 +6450,9 @@ VALUES (40865, 12, True)
      , (40865, 11, True)
      , (40865, 19, True)
      , (40865, 1, True);
+
+/* Weenie - Doors - Northern Facility Gate (40867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40867;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40867, 'ace40867-northernfacilitygate');
@@ -5912,6 +6485,9 @@ VALUES (40867, 12, True)
      , (40867, 19, True)
      , (40867, 1, True);
 
+/* Weenie - Doors - Sturdy Door (25970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25970;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25970, 'doordecrepittower');
 
@@ -5942,6 +6518,9 @@ VALUES (25970, 12, True)
      , (25970, 11, True)
      , (25970, 19, True)
      , (25970, 1, True);
+
+/* Weenie - Doors - Door (45868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45868;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45868, 'ace45868-door');
@@ -5974,6 +6553,9 @@ VALUES (45868, 12, True)
      , (45868, 19, True)
      , (45868, 1, True);
 
+/* Weenie - Doors - Cell Door (45903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45903;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45903, 'ace45903-celldoor');
 
@@ -6004,6 +6586,9 @@ VALUES (45903, 12, True)
      , (45903, 11, True)
      , (45903, 19, True)
      , (45903, 1, True);
+
+/* Weenie - Doors - Cell Door (45904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45904;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45904, 'ace45904-celldoor');
@@ -6036,6 +6621,9 @@ VALUES (45904, 12, True)
      , (45904, 19, True)
      , (45904, 1, True);
 
+/* Weenie - Doors - Door (45869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45869;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45869, 'ace45869-door');
 
@@ -6066,6 +6654,9 @@ VALUES (45869, 12, True)
      , (45869, 11, True)
      , (45869, 19, True)
      , (45869, 1, True);
+
+/* Weenie - Doors - Door (45870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45870;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45870, 'ace45870-door');
@@ -6098,6 +6689,9 @@ VALUES (45870, 12, True)
      , (45870, 19, True)
      , (45870, 1, True);
 
+/* Weenie - Doors - Cell Door (45905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45905;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45905, 'ace45905-celldoor');
 
@@ -6128,6 +6722,9 @@ VALUES (45905, 12, True)
      , (45905, 11, True)
      , (45905, 19, True)
      , (45905, 1, True);
+
+/* Weenie - Doors - Virindi Research Center (45867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45867;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45867, 'ace45867-virindiresearchcenter');
@@ -6160,6 +6757,9 @@ VALUES (45867, 12, True)
      , (45867, 19, True)
      , (45867, 1, True);
 
+/* Weenie - Doors - Arrival Chamber (41232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41232;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41232, 'ace41232-arrivalchamber');
 
@@ -6190,6 +6790,9 @@ VALUES (41232, 12, True)
      , (41232, 11, True)
      , (41232, 19, True)
      , (41232, 1, True);
+
+/* Weenie - Doors - Door (47207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47207;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47207, 'ace47207-door');
@@ -6223,6 +6826,9 @@ VALUES (47207, 13, True)
      , (47207, 19, True)
      , (47207, 1, True);
 
+/* Weenie - Doors - Door (47200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47200, 'ace47200-door');
 
@@ -6253,6 +6859,9 @@ VALUES (47200, 12, True)
      , (47200, 11, True)
      , (47200, 19, True)
      , (47200, 1, True);
+
+/* Weenie - Doors - Door (47211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47211;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47211, 'ace47211-door');
@@ -6286,6 +6895,9 @@ VALUES (47211, 13, True)
      , (47211, 19, True)
      , (47211, 1, True);
 
+/* Weenie - Doors - Door (47201) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47201;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47201, 'ace47201-door');
 
@@ -6317,6 +6929,9 @@ VALUES (47201, 12, True)
      , (47201, 19, True)
      , (47201, 1, True);
 
+/* Weenie - Doors - Door (43760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43760, 'ace43760-door');
 
@@ -6347,6 +6962,9 @@ VALUES (43760, 12, True)
      , (43760, 11, True)
      , (43760, 19, True)
      , (43760, 1, True);
+
+/* Weenie - Doors - Door (43780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43780;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43780, 'ace43780-door');
@@ -6380,6 +6998,9 @@ VALUES (43780, 12, True)
      , (43780, 1, True)
      , (43780, 24, True);
 
+/* Weenie - Doors - Armory Door (5030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5030;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5030, 'dooralabree');
 
@@ -6410,6 +7031,9 @@ VALUES (5030, 12, True)
      , (5030, 11, True)
      , (5030, 19, True)
      , (5030, 1, True);
+
+/* Weenie - Doors - Door (1318) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1318;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1318, 'dooreasthamsewer');
@@ -6442,6 +7066,9 @@ VALUES (1318, 12, True)
      , (1318, 19, True)
      , (1318, 1, True);
 
+/* Weenie - Doors - Bunkroom Door (5031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5031;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5031, 'doorworcer');
 
@@ -6472,6 +7099,9 @@ VALUES (5031, 12, True)
      , (5031, 11, True)
      , (5031, 19, True)
      , (5031, 1, True);
+
+/* Weenie - Doors - Door to Brogord's Quarters (5359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5359;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5359, 'doorflinrala');
@@ -6504,6 +7134,9 @@ VALUES (5359, 12, True)
      , (5359, 19, True)
      , (5359, 1, True);
 
+/* Weenie - Doors - Reinforced Door (25509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25509, 'doorprisonlocked525');
 
@@ -6534,6 +7167,9 @@ VALUES (25509, 12, True)
      , (25509, 11, True)
      , (25509, 19, True)
      , (25509, 1, True);
+
+/* Weenie - Doors - Platform (29935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29935;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29935, 'doormetalgrate10x10');
@@ -6567,6 +7203,9 @@ VALUES (29935, 12, True)
      , (29935, 1, True)
      , (29935, 24, True);
 
+/* Weenie - Doors - Door (4472) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4472;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4472, 'doorwoodcaveactivated');
 
@@ -6599,6 +7238,9 @@ VALUES (4472, 13, True)
      , (4472, 19, True)
      , (4472, 1, True);
 
+/* Weenie - Doors - Door (41819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41819;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41819, 'ace41819-door');
 
@@ -6629,6 +7271,9 @@ VALUES (41819, 12, True)
      , (41819, 11, True)
      , (41819, 19, True)
      , (41819, 1, True);
+
+/* Weenie - Doors - Door (41821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41821;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41821, 'ace41821-door');
@@ -6661,6 +7306,9 @@ VALUES (41821, 12, True)
      , (41821, 19, True)
      , (41821, 1, True);
 
+/* Weenie - Doors - Door (31227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31227;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31227, 'ace31227-door');
 
@@ -6691,6 +7339,9 @@ VALUES (31227, 12, True)
      , (31227, 11, True)
      , (31227, 19, True)
      , (31227, 1, True);
+
+/* Weenie - Doors - Door (23083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23083;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23083, 'doorsylsfearruby');
@@ -6723,6 +7374,9 @@ VALUES (23083, 12, True)
      , (23083, 19, True)
      , (23083, 1, True);
 
+/* Weenie - Doors - Door (1360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1360;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1360, 'doortricksylsfear');
 
@@ -6754,6 +7408,9 @@ VALUES (1360, 12, True)
      , (1360, 19, True)
      , (1360, 1, True);
 
+/* Weenie - Doors - Door (1359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1359, 'doorsylsfear');
 
@@ -6784,6 +7441,9 @@ VALUES (1359, 12, True)
      , (1359, 11, True)
      , (1359, 19, True)
      , (1359, 1, True);
+
+/* Weenie - Doors - Door (45693) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45693;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45693, 'ace45693-door');
@@ -6817,6 +7477,9 @@ VALUES (45693, 13, True)
      , (45693, 19, True)
      , (45693, 1, True);
 
+/* Weenie - Doors - Door (45701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45701;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45701, 'ace45701-door');
 
@@ -6849,6 +7512,9 @@ VALUES (45701, 13, True)
      , (45701, 19, True)
      , (45701, 1, True);
 
+/* Weenie - Doors - Door (49607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49607;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49607, 'ace49607-door');
 
@@ -6879,6 +7545,9 @@ VALUES (49607, 12, True)
      , (49607, 11, True)
      , (49607, 19, True)
      , (49607, 1, True);
+
+/* Weenie - Doors - Door (48895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48895;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48895, 'ace48895-door');
@@ -6911,6 +7580,9 @@ VALUES (48895, 12, True)
      , (48895, 19, True)
      , (48895, 1, True);
 
+/* Weenie - Doors - Door (48896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48896;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48896, 'ace48896-door');
 
@@ -6941,6 +7613,9 @@ VALUES (48896, 12, True)
      , (48896, 11, True)
      , (48896, 19, True)
      , (48896, 1, True);
+
+/* Weenie - Doors - Swirling Portal (14597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14597;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14597, 'doorhightechorange');
@@ -6973,6 +7648,9 @@ VALUES (14597, 12, True)
      , (14597, 19, True)
      , (14597, 1, True);
 
+/* Weenie - Doors - Swirling Portal (14600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14600;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14600, 'doorhightechyellow');
 
@@ -7003,6 +7681,9 @@ VALUES (14600, 12, True)
      , (14600, 11, True)
      , (14600, 19, True)
      , (14600, 1, True);
+
+/* Weenie - Doors - Armory Door (37573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37573;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37573, 'ace37573-armorydoor');
@@ -7035,6 +7716,9 @@ VALUES (37573, 12, True)
      , (37573, 19, True)
      , (37573, 1, True);
 
+/* Weenie - Doors - Door (5057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5057;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5057, 'doordesertedruin');
 
@@ -7065,6 +7749,9 @@ VALUES (5057, 12, True)
      , (5057, 11, True)
      , (5057, 19, True)
      , (5057, 1, True);
+
+/* Weenie - Doors - Door (6035) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6035;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6035, 'doorempyreanfoundry');
@@ -7097,6 +7784,9 @@ VALUES (6035, 12, True)
      , (6035, 19, True)
      , (6035, 1, True);
 
+/* Weenie - Doors - Door (6034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6034;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6034, 'doorhamud');
 
@@ -7127,6 +7817,9 @@ VALUES (6034, 12, True)
      , (6034, 11, True)
      , (6034, 19, True)
      , (6034, 1, True);
+
+/* Weenie - Doors - Door (47054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47054;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47054, 'ace47054-door');
@@ -7159,6 +7852,9 @@ VALUES (47054, 12, True)
      , (47054, 19, True)
      , (47054, 1, True);
 
+/* Weenie - Doors - Door (47051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47051;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47051, 'ace47051-door');
 
@@ -7189,6 +7885,9 @@ VALUES (47051, 12, True)
      , (47051, 11, True)
      , (47051, 19, True)
      , (47051, 1, True);
+
+/* Weenie - Doors - Door (47050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47050;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47050, 'ace47050-door');
@@ -7221,6 +7920,9 @@ VALUES (47050, 12, True)
      , (47050, 19, True)
      , (47050, 1, True);
 
+/* Weenie - Doors - Door (46292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46292;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46292, 'ace46292-door');
 
@@ -7251,6 +7953,9 @@ VALUES (46292, 12, True)
      , (46292, 11, True)
      , (46292, 19, True)
      , (46292, 1, True);
+
+/* Weenie - Doors - Security Door (46321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46321;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46321, 'ace46321-securitydoor');
@@ -7283,6 +7988,9 @@ VALUES (46321, 12, True)
      , (46321, 19, True)
      , (46321, 1, True);
 
+/* Weenie - Doors - Crypt Door (29963) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29963;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29963, 'doortomblightfalatacot');
 
@@ -7313,6 +8021,9 @@ VALUES (29963, 12, True)
      , (29963, 11, True)
      , (29963, 19, True)
      , (29963, 1, True);
+
+/* Weenie - Doors - Olthoi Door (25465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25465;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25465, 'doorolthoirot1');
@@ -7345,6 +8056,9 @@ VALUES (25465, 12, True)
      , (25465, 19, True)
      , (25465, 1, True);
 
+/* Weenie - Doors - Door (25464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25464;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25464, 'doorolthoimatronrot1');
 
@@ -7375,6 +8089,9 @@ VALUES (25464, 12, True)
      , (25464, 11, True)
      , (25464, 19, True)
      , (25464, 1, True);
+
+/* Weenie - Doors - Door (2210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2210;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2210, 'doortumerokb');
@@ -7407,6 +8124,9 @@ VALUES (2210, 12, True)
      , (2210, 19, True)
      , (2210, 1, True);
 
+/* Weenie - Doors - Door (41820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41820;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41820, 'ace41820-door');
 
@@ -7437,6 +8157,9 @@ VALUES (41820, 12, True)
      , (41820, 11, True)
      , (41820, 19, True)
      , (41820, 1, True);
+
+/* Weenie - Doors - Door (2209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2209;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2209, 'doortumeroka');
@@ -7469,6 +8192,9 @@ VALUES (2209, 12, True)
      , (2209, 19, True)
      , (2209, 1, True);
 
+/* Weenie - Doors - Door (1357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1357;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1357, 'dooralfreth');
 
@@ -7499,6 +8225,9 @@ VALUES (1357, 12, True)
      , (1357, 11, True)
      , (1357, 19, True)
      , (1357, 1, True);
+
+/* Weenie - Doors - Skith'Kirit's Chambers (38378) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38378;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38378, 'ace38378-skithkiritschambers');
@@ -7531,6 +8260,9 @@ VALUES (38378, 12, True)
      , (38378, 19, True)
      , (38378, 1, True);
 
+/* Weenie - Doors - Door (25669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25669;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25669, 'doorsecretcultist');
 
@@ -7561,6 +8293,9 @@ VALUES (25669, 12, True)
      , (25669, 11, True)
      , (25669, 19, True)
      , (25669, 1, True);
+
+/* Weenie - Doors - Door (25670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25670;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25670, 'doorsecretcultistpit');
@@ -7593,6 +8328,9 @@ VALUES (25670, 12, True)
      , (25670, 19, True)
      , (25670, 1, True);
 
+/* Weenie - Doors - Door (2214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2214;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2214, 'doortumerokf');
 
@@ -7623,6 +8361,9 @@ VALUES (2214, 12, True)
      , (2214, 11, True)
      , (2214, 19, True)
      , (2214, 1, True);
+
+/* Weenie - Doors - Door (5156) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5156;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5156, 'doorjilsaya');
@@ -7655,6 +8396,9 @@ VALUES (5156, 12, True)
      , (5156, 19, True)
      , (5156, 1, True);
 
+/* Weenie - Doors - Library Door (5133) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5133;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5133, 'doorsamsurlibrary');
 
@@ -7685,6 +8429,9 @@ VALUES (5133, 12, True)
      , (5133, 11, True)
      , (5133, 19, True)
      , (5133, 1, True);
+
+/* Weenie - Doors - Door (2545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2545;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2545, 'researchwing');
@@ -7717,6 +8464,9 @@ VALUES (2545, 12, True)
      , (2545, 19, True)
      , (2545, 1, True);
 
+/* Weenie - Doors - Door (4477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4477;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4477, 'doorwoodcavelockedgood');
 
@@ -7747,6 +8497,9 @@ VALUES (4477, 12, True)
      , (4477, 11, True)
      , (4477, 19, True)
      , (4477, 1, True);
+
+/* Weenie - Doors - Gate (15816) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15816;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15816, 'gatethorstenarmor');
@@ -7780,6 +8533,9 @@ VALUES (15816, 12, True)
      , (15816, 19, True)
      , (15816, 1, True);
 
+/* Weenie - Doors - Door (8212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8212;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8212, 'doorxara');
 
@@ -7810,6 +8566,9 @@ VALUES (8212, 12, True)
      , (8212, 11, True)
      , (8212, 19, True)
      , (8212, 1, True);
+
+/* Weenie - Doors - Door (5615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5615;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5615, 'doordespairentrance');
@@ -7843,6 +8602,9 @@ VALUES (5615, 13, True)
      , (5615, 19, True)
      , (5615, 1, True);
 
+/* Weenie - Doors - Door (4459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4459;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4459, 'doormetalcavelockedgood');
 
@@ -7873,6 +8635,9 @@ VALUES (4459, 12, True)
      , (4459, 11, True)
      , (4459, 19, True)
      , (4459, 1, True);
+
+/* Weenie - Doors - Door (49587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49587, 'ace49587-door');
@@ -7905,6 +8670,9 @@ VALUES (49587, 12, True)
      , (49587, 19, True)
      , (49587, 1, True);
 
+/* Weenie - Doors - Door (49588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49588;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49588, 'ace49588-door');
 
@@ -7936,6 +8704,9 @@ VALUES (49588, 12, True)
      , (49588, 19, True)
      , (49588, 1, True);
 
+/* Weenie - Doors - Door (49589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49589;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49589, 'ace49589-door');
 
@@ -7966,6 +8737,9 @@ VALUES (49589, 12, True)
      , (49589, 11, True)
      , (49589, 19, True)
      , (49589, 1, True);
+
+/* Weenie - Doors - Door (52229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52229;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52229, 'ace52229-door');
@@ -7999,6 +8773,9 @@ VALUES (52229, 13, True)
      , (52229, 19, True)
      , (52229, 1, True);
 
+/* Weenie - Doors - Door (52227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52227;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52227, 'ace52227-door');
 
@@ -8031,6 +8808,9 @@ VALUES (52227, 13, True)
      , (52227, 19, True)
      , (52227, 1, True);
 
+/* Weenie - Doors - Door (52242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52242;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52242, 'ace52242-door');
 
@@ -8062,6 +8842,9 @@ VALUES (52242, 12, True)
      , (52242, 19, True)
      , (52242, 1, True);
 
+/* Weenie - Doors - Door (52243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52243;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52243, 'ace52243-door');
 
@@ -8092,6 +8875,9 @@ VALUES (52243, 12, True)
      , (52243, 11, True)
      , (52243, 19, True)
      , (52243, 1, True);
+
+/* Weenie - Doors - Door (52228) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52228;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52228, 'ace52228-door');
@@ -8125,6 +8911,9 @@ VALUES (52228, 13, True)
      , (52228, 19, True)
      , (52228, 1, True);
 
+/* Weenie - Doors - Door (52230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52230;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52230, 'ace52230-door');
 
@@ -8157,6 +8946,9 @@ VALUES (52230, 13, True)
      , (52230, 19, True)
      , (52230, 1, True);
 
+/* Weenie - Doors - Door (52251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52251, 'ace52251-door');
 
@@ -8188,6 +8980,9 @@ VALUES (52251, 12, True)
      , (52251, 19, True)
      , (52251, 1, True);
 
+/* Weenie - Doors - Door (52252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52252;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52252, 'ace52252-door');
 
@@ -8218,6 +9013,9 @@ VALUES (52252, 12, True)
      , (52252, 11, True)
      , (52252, 19, True)
      , (52252, 1, True);
+
+/* Weenie - Doors - Door (49585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49585;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49585, 'ace49585-door');
@@ -8251,6 +9049,9 @@ VALUES (49585, 13, True)
      , (49585, 19, True)
      , (49585, 1, True);
 
+/* Weenie - Doors - Door (52258) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52258;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52258, 'ace52258-door');
 
@@ -8281,6 +9082,9 @@ VALUES (52258, 12, True)
      , (52258, 11, True)
      , (52258, 19, True)
      , (52258, 1, True);
+
+/* Weenie - Doors - Door (52257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52257;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52257, 'ace52257-door');
@@ -8313,6 +9117,9 @@ VALUES (52257, 12, True)
      , (52257, 19, True)
      , (52257, 1, True);
 
+/* Weenie - Doors - Iron Door (28769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28769;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28769, 'doorsmallempvault');
 
@@ -8343,6 +9150,9 @@ VALUES (28769, 12, True)
      , (28769, 11, True)
      , (28769, 19, True)
      , (28769, 1, True);
+
+/* Weenie - Doors - Door (31947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31947;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31947, 'ace31947-door');
@@ -8375,6 +9185,9 @@ VALUES (31947, 12, True)
      , (31947, 19, True)
      , (31947, 1, True);
 
+/* Weenie - Doors - Locked Gate (33540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33540, 'ace33540-lockedgate');
 
@@ -8405,6 +9218,9 @@ VALUES (33540, 12, True)
      , (33540, 11, True)
      , (33540, 19, True)
      , (33540, 1, True);
+
+/* Weenie - Doors - Restricted (51415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51415;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51415, 'ace51415-restricted');
@@ -8437,6 +9253,9 @@ VALUES (51415, 12, True)
      , (51415, 19, True)
      , (51415, 1, True);
 
+/* Weenie - Doors - Restricted (51416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51416;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51416, 'ace51416-restricted');
 
@@ -8467,6 +9286,9 @@ VALUES (51416, 12, True)
      , (51416, 11, True)
      , (51416, 19, True)
      , (51416, 1, True);
+
+/* Weenie - Doors - Private Chamber (51401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51401, 'ace51401-privatechamber');
@@ -8499,6 +9321,9 @@ VALUES (51401, 12, True)
      , (51401, 19, True)
      , (51401, 1, True);
 
+/* Weenie - Doors - Door (51559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51559;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51559, 'ace51559-door');
 
@@ -8529,6 +9354,9 @@ VALUES (51559, 12, True)
      , (51559, 11, True)
      , (51559, 19, True)
      , (51559, 1, True);
+
+/* Weenie - Doors - Door (51560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51560;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51560, 'ace51560-door');
@@ -8561,6 +9389,9 @@ VALUES (51560, 12, True)
      , (51560, 19, True)
      , (51560, 1, True);
 
+/* Weenie - Doors - Door (44061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44061;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44061, 'ace44061-door');
 
@@ -8590,6 +9421,9 @@ INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `prop
 VALUES (44061, 12, True)
      , (44061, 19, True)
      , (44061, 1, True);
+
+/* Weenie - Doors - Door (44062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44062;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44062, 'ace44062-door');
@@ -8622,6 +9456,9 @@ VALUES (44062, 13, True)
      , (44062, 19, True)
      , (44062, 1, True);
 
+/* Weenie - Doors - Door (44063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44063, 'ace44063-door');
 
@@ -8652,6 +9489,9 @@ VALUES (44063, 12, True)
      , (44063, 11, True)
      , (44063, 19, True)
      , (44063, 1, True);
+
+/* Weenie - Doors - Door (44065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44065;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44065, 'ace44065-door');
@@ -8685,6 +9525,9 @@ VALUES (44065, 12, True)
      , (44065, 1, True)
      , (44065, 24, True);
 
+/* Weenie - Doors - Door (44067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44067;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44067, 'ace44067-door');
 
@@ -8717,6 +9560,9 @@ VALUES (44067, 13, True)
      , (44067, 19, True)
      , (44067, 1, True);
 
+/* Weenie - Doors - Door (44066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44066;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44066, 'ace44066-door');
 
@@ -8747,6 +9593,9 @@ VALUES (44066, 12, True)
      , (44066, 11, True)
      , (44066, 19, True)
      , (44066, 1, True);
+
+/* Weenie - Doors - Iron Door (48923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48923;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48923, 'ace48923-irondoor');
@@ -8779,6 +9628,9 @@ VALUES (48923, 12, True)
      , (48923, 19, True)
      , (48923, 1, True);
 
+/* Weenie - Doors - Door (51629) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51629;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51629, 'ace51629-door');
 
@@ -8809,6 +9661,9 @@ VALUES (51629, 12, True)
      , (51629, 11, True)
      , (51629, 19, True)
      , (51629, 1, True);
+
+/* Weenie - Doors - Door (51641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51641;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51641, 'ace51641-door');
@@ -8841,6 +9696,9 @@ VALUES (51641, 12, True)
      , (51641, 19, True)
      , (51641, 1, True);
 
+/* Weenie - Doors - Sealed Door (51313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51313;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51313, 'ace51313-sealeddoor');
 
@@ -8871,6 +9729,9 @@ VALUES (51313, 12, True)
      , (51313, 11, True)
      , (51313, 19, True)
      , (51313, 1, True);
+
+/* Weenie - Doors - Sealed Door (51284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51284;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51284, 'ace51284-sealeddoor');
@@ -8903,6 +9764,9 @@ VALUES (51284, 12, True)
      , (51284, 19, True)
      , (51284, 1, True);
 
+/* Weenie - Doors - Door (5164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5164;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5164, 'doorlubziklanpie');
 
@@ -8933,6 +9797,9 @@ VALUES (5164, 12, True)
      , (5164, 11, True)
      , (5164, 19, True)
      , (5164, 1, True);
+
+/* Weenie - Doors - Door (5662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5662;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5662, 'doormageacademylv3');
@@ -8965,6 +9832,9 @@ VALUES (5662, 12, True)
      , (5662, 19, True)
      , (5662, 1, True);
 
+/* Weenie - Doors - Stone Doors (32957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32957;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32957, 'ace32957-stonedoors');
 
@@ -8995,6 +9865,9 @@ VALUES (32957, 12, True)
      , (32957, 11, True)
      , (32957, 19, True)
      , (32957, 1, True);
+
+/* Weenie - Doors - Door (2215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2215;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2215, 'doortumerokg');
@@ -9027,6 +9900,9 @@ VALUES (2215, 12, True)
      , (2215, 19, True)
      , (2215, 1, True);
 
+/* Weenie - Doors - Door (4893) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4893;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4893, 'doordistillery');
 
@@ -9057,6 +9933,9 @@ VALUES (4893, 12, True)
      , (4893, 11, True)
      , (4893, 19, True)
      , (4893, 1, True);
+
+/* Weenie - Doors - Gate (32351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32351, 'ace32351-gate');
@@ -9089,6 +9968,9 @@ VALUES (32351, 12, True)
      , (32351, 19, True)
      , (32351, 1, True);
 
+/* Weenie - Doors - Door (52111) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52111;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52111, 'ace52111-door');
 
@@ -9119,6 +10001,9 @@ VALUES (52111, 12, True)
      , (52111, 11, True)
      , (52111, 19, True)
      , (52111, 1, True);
+
+/* Weenie - Doors - Door (51582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51582;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51582, 'ace51582-door');
@@ -9151,6 +10036,9 @@ VALUES (51582, 12, True)
      , (51582, 19, True)
      , (51582, 1, True);
 
+/* Weenie - Doors - Door (4479) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4479;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4479, 'doorwoodcavelockedintricate');
 
@@ -9182,6 +10070,9 @@ VALUES (4479, 12, True)
      , (4479, 19, True)
      , (4479, 1, True);
 
+/* Weenie - Doors - Silver Legion Door (29373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29373;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29373, 'doorinvaderkeepsilver');
 
@@ -9212,6 +10103,9 @@ VALUES (29373, 12, True)
      , (29373, 11, True)
      , (29373, 19, True)
      , (29373, 1, True);
+
+/* Weenie - Doors - Door (4465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4465;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4465, 'doorolthoilockedbrilliant');
@@ -9245,6 +10139,9 @@ VALUES (4465, 13, True)
      , (4465, 19, True)
      , (4465, 1, True);
 
+/* Weenie - Doors - Door (5188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5188;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5188, 'doorstonecathedral');
 
@@ -9275,6 +10172,9 @@ VALUES (5188, 12, True)
      , (5188, 11, True)
      , (5188, 19, True)
      , (5188, 1, True);
+
+/* Weenie - Doors - Door (8902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8902;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8902, 'doordespairfinal');
@@ -9307,6 +10207,9 @@ VALUES (8902, 12, True)
      , (8902, 19, True)
      , (8902, 1, True);
 
+/* Weenie - Doors - Reinforced Door (9108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9108;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9108, 'doorprisonlockedimpossible');
 
@@ -9337,6 +10240,9 @@ VALUES (9108, 12, True)
      , (9108, 11, True)
      , (9108, 19, True)
      , (9108, 1, True);
+
+/* Weenie - Doors - Door (5132) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5132;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5132, 'doorbanewell');
@@ -9369,6 +10275,9 @@ VALUES (5132, 12, True)
      , (5132, 19, True)
      , (5132, 1, True);
 
+/* Weenie - Doors - Door (5899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5899;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5899, 'dooricecave');
 
@@ -9399,6 +10308,9 @@ VALUES (5899, 12, True)
      , (5899, 11, True)
      , (5899, 19, True)
      , (5899, 1, True);
+
+/* Weenie - Doors - Door (2188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2188;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2188, 'doorswamptemple');
@@ -9431,6 +10343,9 @@ VALUES (2188, 12, True)
      , (2188, 19, True)
      , (2188, 1, True);
 
+/* Weenie - Doors - Outer Locked Gate (33148) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33148;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33148, 'ace33148-outerlockedgate');
 
@@ -9461,6 +10376,9 @@ VALUES (33148, 12, True)
      , (33148, 11, True)
      , (33148, 19, True)
      , (33148, 1, True);
+
+/* Weenie - Doors - Door (2493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2493;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2493, 'doortumeroktwo');

@@ -1,3 +1,6 @@
+/* Weenie - Bindstones - Bind Stone (27547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27547, 'bindstone');
 

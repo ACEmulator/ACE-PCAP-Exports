@@ -1,3 +1,6 @@
+/* Weenie - BooksStatues - Statue of Eleonora du Bellenesse (30044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30044;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30044, 'silyunstatueeleonora');
 
@@ -31,6 +34,9 @@ VALUES (30044, 12, True)
      , (30044, 19, True)
      , (30044, 1, True)
      , (30044, 24, True);
+
+/* Weenie - BooksStatues - Statue (6401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6401, 'statuebaelzharonlarge');
@@ -66,6 +72,9 @@ VALUES (6401, 12, True)
      , (6401, 1, True)
      , (6401, 24, True);
 
+/* Weenie - BooksStatues - Town Statue (6388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6388;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6388, 'statuebaelzharon');
 
@@ -99,6 +108,9 @@ VALUES (6388, 12, True)
      , (6388, 1, True)
      , (6388, 24, True);
 
+/* Weenie - BooksStatues - Statue of King Varicci II (30043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30043;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30043, 'sanamarstatuevaricci');
 
@@ -129,6 +141,9 @@ VALUES (30043, 11, True)
      , (30043, 14, True)
      , (30043, 19, True)
      , (30043, 1, True);
+
+/* Weenie - BooksStatues - Sentinel Statue (9519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9519;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9519, 'statuesentinel');
@@ -210,6 +225,9 @@ VALUES (9519, 0, 16778359)
      , (9519, 15, 16777335)
      , (9519, 16, 16783677);
 
+/* Weenie - BooksStatues - Advocate Statue (9518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9518;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9518, 'statueadvocate');
 
@@ -283,6 +301,9 @@ VALUES (9518, 0, 16781842)
      , (9518, 13, 16781828)
      , (9518, 14, 16781813)
      , (9518, 15, 16777335);
+
+/* Weenie - BooksStatues - Statue (11639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11639;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11639, 'statuebaelzharonrubble');

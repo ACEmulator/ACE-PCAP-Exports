@@ -1,3 +1,6 @@
+/* Weenie - BooksScrolls - Unreadable Scroll (9010) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9010;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9010, 'scrollaerlintherecall');
 
@@ -31,6 +34,9 @@ VALUES (9010, 13, True)
      , (9010, 19, True)
      , (9010, 22, True);
 
+/* Weenie - BooksScrolls - Sealed Scroll for Commander Presk (51921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51921;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51921, 'ace51921-sealedscrollforcommanderpresk');
 
@@ -60,6 +66,9 @@ VALUES (51921, 13, True)
      , (51921, 14, True)
      , (51921, 19, True)
      , (51921, 22, True);
+
+/* Weenie - BooksScrolls - Scroll of Prophecy (38246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38246;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38246, 'ace38246-scrollofprophecy');
@@ -93,6 +102,9 @@ VALUES (38246, 13, True)
      , (38246, 14, True)
      , (38246, 19, True);
 
+/* Weenie - BooksScrolls - Damp Scroll (8505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8505;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8505, 'noteadjauntranslated');
 
@@ -122,6 +134,9 @@ VALUES (8505, 13, True)
      , (8505, 11, True)
      , (8505, 14, True)
      , (8505, 19, True);
+
+/* Weenie - BooksScrolls - Elaborate Scroll (6411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6411, 'morphnote4untranslated');
@@ -156,6 +171,9 @@ VALUES (6411, 13, True)
      , (6411, 14, True)
      , (6411, 19, True);
 
+/* Weenie - BooksScrolls - Ulgrim's Scroll (22253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22253;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22253, 'scrollulgrim');
 
@@ -188,6 +206,9 @@ VALUES (22253, 13, True)
      , (22253, 19, True)
      , (22253, 22, True);
 
+/* Weenie - BooksScrolls - Sealed Scroll for Raksaa (51922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51922, 'ace51922-sealedscrollforraksaa');
 
@@ -217,6 +238,9 @@ VALUES (51922, 13, True)
      , (51922, 14, True)
      , (51922, 19, True)
      , (51922, 22, True);
+
+/* Weenie - BooksScrolls - Esard's Life Magic Scroll (8812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8812;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8812, 'scrollarcanerestoration');
@@ -252,6 +276,9 @@ VALUES (8812, 13, True)
      , (8812, 14, True)
      , (8812, 19, True);
 
+/* Weenie - BooksScrolls - Nelamar's War Magic Scroll (8811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8811;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8811, 'scrolldarkflame');
 
@@ -285,6 +312,9 @@ VALUES (8811, 13, True)
      , (8811, 11, True)
      , (8811, 14, True)
      , (8811, 19, True);
+
+/* Weenie - BooksScrolls - Geraux's Life Magic Scroll (8810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8810;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8810, 'scrollunnaturalpersistenceself');

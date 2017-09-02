@@ -1,3 +1,6 @@
+/* Weenie - TinkeringTools - Ust (20646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20646;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20646, 'tinkeringtool');
 

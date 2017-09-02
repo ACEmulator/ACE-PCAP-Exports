@@ -1,3 +1,6 @@
+/* Weenie - HouseSlumLords - Mansion (11714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11714;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11714, 'slumlordmansioncheap');
 
@@ -28,6 +31,9 @@ VALUES (11714, 13, True)
      , (11714, 14, True)
      , (11714, 19, True)
      , (11714, 1, True);
+
+/* Weenie - HouseSlumLords - Villa (13080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13080;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13080, 'slumlordvilla1401-1440');
@@ -60,6 +66,9 @@ VALUES (13080, 13, True)
      , (13080, 19, True)
      , (13080, 1, True);
 
+/* Weenie - HouseSlumLords - Cottage (14248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14248;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14248, 'slumlordcottage2151-2350');
 
@@ -90,6 +99,9 @@ VALUES (14248, 13, True)
      , (14248, 14, True)
      , (14248, 19, True)
      , (14248, 1, True);
+
+/* Weenie - HouseSlumLords - Cottage (11711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11711;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11711, 'slumlordcottagecheap');
@@ -122,6 +134,9 @@ VALUES (11711, 13, True)
      , (11711, 19, True)
      , (11711, 1, True);
 
+/* Weenie - HouseSlumLords - Cottage (11977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11977, 'slumlordcottages349-579');
 
@@ -152,6 +167,9 @@ VALUES (11977, 13, True)
      , (11977, 14, True)
      , (11977, 19, True)
      , (11977, 1, True);
+
+/* Weenie - HouseSlumLords - Cottage (14243) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14243;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14243, 'slumlordcottage1451-1650');
@@ -184,6 +202,9 @@ VALUES (14243, 13, True)
      , (14243, 19, True)
      , (14243, 1, True);
 
+/* Weenie - HouseSlumLords - Cottage (13078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13078;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13078, 'slumlordcottage1151-1275');
 
@@ -214,6 +235,9 @@ VALUES (13078, 13, True)
      , (13078, 14, True)
      , (13078, 19, True)
      , (13078, 1, True);
+
+/* Weenie - HouseSlumLords - Mansion (20853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20853;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20853, 'slumlordmansion6241-6250');
@@ -246,6 +270,9 @@ VALUES (20853, 13, True)
      , (20853, 19, True)
      , (20853, 1, True);
 
+/* Weenie - HouseSlumLords - Cottage (12461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12461;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12461, 'slumlordcottage1001-1075');
 
@@ -276,6 +303,9 @@ VALUES (12461, 13, True)
      , (12461, 14, True)
      , (12461, 19, True)
      , (12461, 1, True);
+
+/* Weenie - HouseSlumLords - Cottage (15609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15609;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15609, 'slumlordcottage2651-2725');
@@ -308,6 +338,9 @@ VALUES (15609, 13, True)
      , (15609, 19, True)
      , (15609, 1, True);
 
+/* Weenie - HouseSlumLords - Cottage (19074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19074;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19074, 'slumlordcottage3851-3925');
 
@@ -338,6 +371,9 @@ VALUES (19074, 13, True)
      , (19074, 14, True)
      , (19074, 19, True)
      , (19074, 1, True);
+
+/* Weenie - HouseSlumLords - Villa (14245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14245;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14245, 'slumlordvilla1851-1940');
@@ -370,6 +406,9 @@ VALUES (14245, 13, True)
      , (14245, 19, True)
      , (14245, 1, True);
 
+/* Weenie - HouseSlumLords - Villa (20852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20852, 'slumlordvilla6201-6240');
 
@@ -400,6 +439,9 @@ VALUES (20852, 13, True)
      , (20852, 14, True)
      , (20852, 19, True)
      , (20852, 1, True);
+
+/* Weenie - HouseSlumLords - Cottage (14247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14247;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14247, 'slumlordcottage1951-2150');
@@ -432,6 +474,9 @@ VALUES (14247, 13, True)
      , (14247, 19, True)
      , (14247, 1, True);
 
+/* Weenie - HouseSlumLords - Cottage (14935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14935, 'slumlordcottage2526-2600');
 
@@ -462,6 +507,9 @@ VALUES (14935, 13, True)
      , (14935, 14, True)
      , (14935, 19, True)
      , (14935, 1, True);
+
+/* Weenie - HouseSlumLords - Villa (14249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14249;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14249, 'slumlordvilla2351-2440');
@@ -494,6 +542,9 @@ VALUES (14249, 13, True)
      , (14249, 19, True)
      , (14249, 1, True);
 
+/* Weenie - HouseSlumLords - Cottage (14934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14934, 'slumlordcottage2451-2525');
 
@@ -524,6 +575,9 @@ VALUES (14934, 13, True)
      , (14934, 14, True)
      , (14934, 19, True)
      , (14934, 1, True);
+
+/* Weenie - HouseSlumLords - Cottage (11979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11979;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11979, 'slumlordcottage580-800');
@@ -556,6 +610,9 @@ VALUES (11979, 13, True)
      , (11979, 19, True)
      , (11979, 1, True);
 
+/* Weenie - HouseSlumLords - Mansion (14250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14250;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14250, 'slumlordmansion2441-2450');
 
@@ -586,6 +643,9 @@ VALUES (14250, 13, True)
      , (14250, 14, True)
      , (14250, 19, True)
      , (14250, 1, True);
+
+/* Weenie - HouseSlumLords - Cottage (15610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15610;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15610, 'slumlordcottage2726-2800');
@@ -618,6 +678,9 @@ VALUES (15610, 13, True)
      , (15610, 19, True)
      , (15610, 1, True);
 
+/* Weenie - HouseSlumLords - Villa (11978) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11978;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11978, 'slumlordvilla851-925');
 
@@ -648,6 +711,9 @@ VALUES (11978, 13, True)
      , (11978, 14, True)
      , (11978, 19, True)
      , (11978, 1, True);
+
+/* Weenie - HouseSlumLords - Cottage (20850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20850;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20850, 'slumlordcottage6051-6125');
@@ -680,6 +746,9 @@ VALUES (20850, 13, True)
      , (20850, 19, True)
      , (20850, 1, True);
 
+/* Weenie - HouseSlumLords - Cottage (13079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13079;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13079, 'slumlordcottage1276-1400');
 
@@ -710,6 +779,9 @@ VALUES (13079, 13, True)
      , (13079, 14, True)
      , (13079, 19, True)
      , (13079, 1, True);
+
+/* Weenie - HouseSlumLords - Villa (11717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11717;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11717, 'slumlordvillacheap');
@@ -742,6 +814,9 @@ VALUES (11717, 13, True)
      , (11717, 19, True)
      , (11717, 1, True);
 
+/* Weenie - HouseSlumLords - Mansion (13081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 13081;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (13081, 'slumlordmansion1441-1450');
 
@@ -772,6 +847,9 @@ VALUES (13081, 13, True)
      , (13081, 14, True)
      , (13081, 19, True)
      , (13081, 1, True);
+
+/* Weenie - HouseSlumLords - Villa (11980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11980;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11980, 'slumlordvilla926-970');
@@ -804,6 +882,9 @@ VALUES (11980, 13, True)
      , (11980, 19, True)
      , (11980, 1, True);
 
+/* Weenie - HouseSlumLords - Mansion (14246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14246;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14246, 'slumlordmansion1941-1950');
 
@@ -834,6 +915,9 @@ VALUES (14246, 13, True)
      , (14246, 14, True)
      , (14246, 19, True)
      , (14246, 1, True);
+
+/* Weenie - HouseSlumLords - Cottage (14244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14244;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14244, 'slumlordcottage1651-1850');
@@ -866,6 +950,9 @@ VALUES (14244, 13, True)
      , (14244, 19, True)
      , (14244, 1, True);
 
+/* Weenie - HouseSlumLords - Villa (14936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14936;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14936, 'slumlordvilla2601-2640');
 
@@ -896,6 +983,9 @@ VALUES (14936, 13, True)
      , (14936, 14, True)
      , (14936, 19, True)
      , (14936, 1, True);
+
+/* Weenie - HouseSlumLords - Apartment (15608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15608;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15608, 'slumlordapartment');
@@ -928,6 +1018,9 @@ VALUES (15608, 13, True)
      , (15608, 19, True)
      , (15608, 1, True);
 
+/* Weenie - HouseSlumLords - Villa (15611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15611;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15611, 'slumlordvilla2801-2850');
 
@@ -958,6 +1051,9 @@ VALUES (15611, 13, True)
      , (15611, 14, True)
      , (15611, 19, True)
      , (15611, 1, True);
+
+/* Weenie - HouseSlumLords - Villa (19076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19076;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19076, 'slumlordvilla4001-4050');
@@ -990,6 +1086,9 @@ VALUES (19076, 13, True)
      , (19076, 19, True)
      , (19076, 1, True);
 
+/* Weenie - HouseSlumLords - Cottage (19075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19075;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19075, 'slumlordcottage3926-4000');
 
@@ -1021,6 +1120,9 @@ VALUES (19075, 13, True)
      , (19075, 19, True)
      , (19075, 1, True);
 
+/* Weenie - HouseSlumLords - Mansion (14937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 14937;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (14937, 'slumlordmansion2641-2650');
 
@@ -1051,6 +1153,9 @@ VALUES (14937, 13, True)
      , (14937, 14, True)
      , (14937, 19, True)
      , (14937, 1, True);
+
+/* Weenie - HouseSlumLords - Cottage (20851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20851;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20851, 'slumlordcottage6126-6200');

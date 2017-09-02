@@ -1,3 +1,6 @@
+/* Weenie - CreaturesMonsters - Cocooned Auroch (20017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20017;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20017, 'cocoonedauroch');
 
@@ -32,6 +35,9 @@ VALUES (20017, 12, True)
      , (20017, 14, True)
      , (20017, 41, True)
      , (20017, 1, True);
+
+/* Weenie - CreaturesMonsters - Putiputipuh (10924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10924;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10924, 'boygrubpetgrub-xp');

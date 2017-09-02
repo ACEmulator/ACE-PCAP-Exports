@@ -1,3 +1,6 @@
+/* Weenie - ManaStones - Greater Mana Stone (2436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2436;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2436, 'manastonegreater');
 
@@ -30,6 +33,9 @@ VALUES (2436, 13, True)
      , (2436, 19, True)
      , (2436, 22, True);
 
+/* Weenie - ManaStones - Moderate Mana Stone (27330) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27330;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27330, 'manastonemedium');
 
@@ -60,6 +66,9 @@ VALUES (27330, 13, True)
      , (27330, 14, True)
      , (27330, 19, True)
      , (27330, 22, True);
+
+/* Weenie - ManaStones - Lesser Mana Stone (2434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2434;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2434, 'manastonelesser');
@@ -92,6 +101,9 @@ VALUES (2434, 13, True)
      , (2434, 19, True)
      , (2434, 22, True);
 
+/* Weenie - ManaStones - Mana Stone (2435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2435, 'manastone');
 
@@ -122,6 +134,9 @@ VALUES (2435, 13, True)
      , (2435, 14, True)
      , (2435, 19, True)
      , (2435, 22, True);
+
+/* Weenie - ManaStones - Major Mana Stone (27328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27328;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27328, 'manastonemajor');
@@ -154,6 +169,9 @@ VALUES (27328, 13, True)
      , (27328, 19, True)
      , (27328, 22, True);
 
+/* Weenie - ManaStones - Minor Mana Stone (27331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27331, 'manastoneminor');
 
@@ -184,6 +202,9 @@ VALUES (27331, 13, True)
      , (27331, 14, True)
      , (27331, 19, True)
      , (27331, 22, True);
+
+/* Weenie - ManaStones - Great Mana Charge (4616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4616;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4616, 'manastonegreat');
@@ -217,6 +238,9 @@ VALUES (4616, 13, True)
      , (4616, 19, True)
      , (4616, 22, True);
 
+/* Weenie - ManaStones - High Mana Charge (4615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4615;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4615, 'manastonehigh');
 
@@ -248,6 +272,9 @@ VALUES (4615, 13, True)
      , (4615, 14, True)
      , (4615, 19, True)
      , (4615, 22, True);
+
+/* Weenie - ManaStones - Massive Mana Charge (27329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27329;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27329, 'manastonemassive');
@@ -281,6 +308,9 @@ VALUES (27329, 13, True)
      , (27329, 19, True)
      , (27329, 22, True);
 
+/* Weenie - ManaStones - Titan Mana Charge (9060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9060;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9060, 'manachargetitan');
 
@@ -312,6 +342,9 @@ VALUES (9060, 13, True)
      , (9060, 14, True)
      , (9060, 19, True)
      , (9060, 22, True);
+
+/* Weenie - ManaStones - Superb Mana Charge (20179) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20179;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20179, 'manastonesuperb');
@@ -345,6 +378,9 @@ VALUES (20179, 13, True)
      , (20179, 19, True)
      , (20179, 22, True);
 
+/* Weenie - ManaStones - Moderate Mana Charge (4614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4614, 'manastonemoderate');
 
@@ -377,6 +413,9 @@ VALUES (4614, 13, True)
      , (4614, 19, True)
      , (4614, 22, True);
 
+/* Weenie - ManaStones - Small Mana Charge (4613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4613;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4613, 'manastonesmall');
 
@@ -408,6 +447,9 @@ VALUES (4613, 13, True)
      , (4613, 14, True)
      , (4613, 19, True)
      , (4613, 22, True);
+
+/* Weenie - ManaStones - Tiny Mana Charge (4612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4612;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4612, 'manastonetiny');

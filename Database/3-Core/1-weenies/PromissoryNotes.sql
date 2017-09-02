@@ -1,3 +1,6 @@
+/* Weenie - PromissoryNotes - Trade Note (250,000) (20630) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20630;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20630, 'tradenote250000');
 
@@ -30,6 +33,9 @@ VALUES (20630, 13, True)
      , (20630, 11, True)
      , (20630, 14, True)
      , (20630, 19, True);
+
+/* Weenie - PromissoryNotes - Trade Note (5,000) (2624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2624;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2624, 'tradenote5000');
@@ -64,6 +70,9 @@ VALUES (2624, 13, True)
      , (2624, 14, True)
      , (2624, 19, True);
 
+/* Weenie - PromissoryNotes - Trade Note (10,000) (2625) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2625;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2625, 'tradenote10000');
 
@@ -96,6 +105,9 @@ VALUES (2625, 13, True)
      , (2625, 11, True)
      , (2625, 14, True)
      , (2625, 19, True);
+
+/* Weenie - PromissoryNotes - Trade Note (500) (2622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2622;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2622, 'tradenote500');
@@ -130,6 +142,9 @@ VALUES (2622, 13, True)
      , (2622, 14, True)
      , (2622, 19, True);
 
+/* Weenie - PromissoryNotes - Trade Note (100) (2621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2621;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2621, 'tradenote100');
 
@@ -162,6 +177,9 @@ VALUES (2621, 13, True)
      , (2621, 11, True)
      , (2621, 14, True)
      , (2621, 19, True);
+
+/* Weenie - PromissoryNotes - Trade Note (1,000) (2623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2623;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2623, 'tradenote1000');
@@ -196,6 +214,9 @@ VALUES (2623, 13, True)
      , (2623, 14, True)
      , (2623, 19, True);
 
+/* Weenie - PromissoryNotes - Trade Note (150,000) (20628) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20628;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20628, 'tradenote150000');
 
@@ -228,6 +249,9 @@ VALUES (20628, 13, True)
      , (20628, 11, True)
      , (20628, 14, True)
      , (20628, 19, True);
+
+/* Weenie - PromissoryNotes - Trade Note (50,000) (2626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2626;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2626, 'tradenote50000');
@@ -262,6 +286,9 @@ VALUES (2626, 13, True)
      , (2626, 14, True)
      , (2626, 19, True);
 
+/* Weenie - PromissoryNotes - Trade Note (100,000) (2627) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2627;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2627, 'tradenote100000');
 
@@ -294,6 +321,9 @@ VALUES (2627, 13, True)
      , (2627, 11, True)
      , (2627, 14, True)
      , (2627, 19, True);
+
+/* Weenie - PromissoryNotes - Trade Note (200,000) (20629) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20629;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20629, 'tradenote200000');
@@ -328,6 +358,9 @@ VALUES (20629, 13, True)
      , (20629, 14, True)
      , (20629, 19, True);
 
+/* Weenie - PromissoryNotes - Trade Note (75,000) (7377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7377;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7377, 'tradenote75000');
 
@@ -360,6 +393,9 @@ VALUES (7377, 13, True)
      , (7377, 11, True)
      , (7377, 14, True)
      , (7377, 19, True);
+
+/* Weenie - PromissoryNotes - Trade Note (15,000) (7374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7374;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7374, 'tradenote15000');
@@ -394,6 +430,9 @@ VALUES (7374, 13, True)
      , (7374, 14, True)
      , (7374, 19, True);
 
+/* Weenie - PromissoryNotes - Trade Note (20,000) (7375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7375;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7375, 'tradenote20000');
 
@@ -426,6 +465,9 @@ VALUES (7375, 13, True)
      , (7375, 11, True)
      , (7375, 14, True)
      , (7375, 19, True);
+
+/* Weenie - PromissoryNotes - Trade Note (25,000) (7376) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7376;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7376, 'tradenote25000');

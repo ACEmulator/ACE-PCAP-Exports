@@ -1,3 +1,6 @@
+/* Weenie - HouseBooks - Settlement Portals (12774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12774;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12774, 'statueportalring');
 
@@ -72,6 +75,9 @@ VALUES (12774, 0, 16783897)
      , (12774, 13, 16783871)
      , (12774, 14, 16783855)
      , (12774, 16, 16783677);
+
+/* Weenie - HouseBooks - Settlement Portals (16908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 16908;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (16908, 'statueresidentialhalls');

@@ -1,3 +1,6 @@
+/* Weenie - DoorsAluvianHouse - Door (412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 412;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (412, 'door-aluvian-house');
 

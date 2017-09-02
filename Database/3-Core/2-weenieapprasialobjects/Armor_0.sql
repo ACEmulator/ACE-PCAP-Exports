@@ -8668,6 +8668,17 @@ VALUES (30519, 4226)
      , (30519, 4695)
      , (30519, 4407);
 
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33105, 33, 4294967294)
+     , (33105, 114, 1)
+     , (33105, 5, 600);
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33105, 159, 1);
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33105, 69, 0);
+
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36747, 16, 'A set of bracers forged from Thaumaturgic Plate Crystal, and then imbedded with spells by Asheron himself.  This piece of armor resonates with the two other pieces of its set, generating more powerful spells as the pieces are worn together.')
      , (36747, 25, 'Rainwolf');
@@ -14952,17 +14963,6 @@ VALUES (30704, 1424)
      , (30704, 2581)
      , (30704, 1448)
      , (30704, 1136);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33105, 33, 4294967294)
-     , (33105, 114, 1)
-     , (33105, 5, 600);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (33105, 159, 1);
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (33105, 69, 0);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31510, 160, 375)

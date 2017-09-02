@@ -1,3 +1,6 @@
+/* Weenie - BooksPackToys - Pack Asheron (29916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29916;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29916, 'dollrewardasheron');
 
@@ -36,6 +39,9 @@ VALUES (29916, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29916, 67113862, 0, 0);
+
+/* Weenie - BooksPackToys - Pack Ancient Olthoi Queen (29922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29922;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29922, 'dollrewardolthoiqueen');
@@ -170,6 +176,9 @@ VALUES (29922, 0, 16786511)
      , (29922, 38, 16789417)
      , (29922, 39, 16789415);
 
+/* Weenie - BooksPackToys - Pack Bael'Zharon (29917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29917, 'dollrewardbaelzharon');
 
@@ -208,6 +217,9 @@ VALUES (29917, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29917, 67113074, 0, 0);
+
+/* Weenie - BooksPackToys - Pack Martine (29921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29921;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29921, 'dollrewardmartine');
@@ -277,6 +289,9 @@ VALUES (29921, 0, 16783894)
      , (29921, 15, 16787916)
      , (29921, 12, 16787915);
 
+/* Weenie - BooksPackToys - Pack Gaerlan (29918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29918;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29918, 'dollrewardgaerlan');
 
@@ -315,6 +330,9 @@ VALUES (29918, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29918, 67113864, 0, 0);
+
+/* Weenie - BooksPackToys - Pack Levistras (29920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29920;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29920, 'dollrewardlevistras');
@@ -361,6 +379,9 @@ VALUES (29920, 9, 83890028, 83890028);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29920, 9, 16780702);
+
+/* Weenie - BooksPackToys - Pack Burun Kukuur (29919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29919;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29919, 'dollrewardkukuur');

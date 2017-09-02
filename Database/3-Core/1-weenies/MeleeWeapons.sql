@@ -1,3 +1,6 @@
+/* Weenie - MeleeWeapons - Sickle of Azaxis (35630) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35630;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35630, 'ace35630-sickleofazaxis');
 
@@ -47,6 +50,9 @@ VALUES (35630, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35630, 0, 16785974);
 
+/* Weenie - MeleeWeapons - Club of Killagurg (35803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35803;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35803, 'ace35803-clubofkillagurg');
 
@@ -95,6 +101,9 @@ VALUES (35803, 0, 83888943, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35803, 0, 16784605);
 
+/* Weenie - MeleeWeapons - Quintessence Sickle (25949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25949;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25949, 'axesicklenew');
 
@@ -134,6 +143,9 @@ VALUES (25949, 13, True)
      , (25949, 19, True)
      , (25949, 22, True);
 
+/* Weenie - MeleeWeapons - Quarter Staff of Fire (1481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1481;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1481, 'quarterstafffire');
 
@@ -170,6 +182,9 @@ VALUES (1481, 13, True)
      , (1481, 14, True)
      , (1481, 19, True)
      , (1481, 22, True);
+
+/* Weenie - MeleeWeapons - Hammer of Frore (26009) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26009;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26009, 'axefrorenew');
@@ -210,6 +225,9 @@ VALUES (26009, 13, True)
      , (26009, 19, True)
      , (26009, 22, True);
 
+/* Weenie - MeleeWeapons - Ashbane (28066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28066;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28066, 'swordleikothanew');
 
@@ -246,6 +264,9 @@ VALUES (28066, 13, True)
      , (28066, 14, True)
      , (28066, 19, True)
      , (28066, 22, True);
+
+/* Weenie - MeleeWeapons - Mite Queen's Staff (24033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24033;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24033, 'quarterstaffmitequeen');
@@ -297,6 +318,9 @@ VALUES (24033, 0, 83893927, 83893927)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24033, 0, 16788971);
 
+/* Weenie - MeleeWeapons - Trothyr's War Hammer (2018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2018, 'trothyrwarhammer');
 
@@ -342,6 +366,9 @@ VALUES (2018, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2018, 0, 16777979);
+
+/* Weenie - MeleeWeapons - Hefty Walking Cane (22168) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22168;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22168, 'quarterstaffnew');
@@ -394,6 +421,9 @@ VALUES (22168, 0, 83892431, 83892431)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22168, 0, 16789796);
 
+/* Weenie - MeleeWeapons - Lightning Tachi (47516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47516;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47516, 'ace47516-lightningtachi');
 
@@ -443,6 +473,9 @@ VALUES (47516, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47516, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Silifi (47956) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47956;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47956, 'ace47956-acidsilifi');
 
@@ -482,6 +515,9 @@ VALUES (47956, 13, True)
      , (47956, 14, True)
      , (47956, 19, True)
      , (47956, 22, True);
+
+/* Weenie - MeleeWeapons - Silifi (47955) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47955;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47955, 'ace47955-silifi');
@@ -533,6 +569,9 @@ VALUES (47955, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47955, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Yaoji (34344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34344;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34344, 'ace34344-yaoji');
 
@@ -580,6 +619,9 @@ VALUES (34344, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34344, 0, 16777984);
 
+/* Weenie - MeleeWeapons - Tachi (34343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34343;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34343, 'ace34343-tachi');
 
@@ -626,6 +668,9 @@ VALUES (34343, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34343, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47514;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47514, 'ace47514-lightningtachi');
@@ -676,6 +721,9 @@ VALUES (47514, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47514, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Board with Nail (47255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47255;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47255, 'ace47255-boardwithnail');
 
@@ -722,6 +770,9 @@ VALUES (47255, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47255, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Tachi (47641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47641;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47641, 'ace47641-tachi');
@@ -770,6 +821,9 @@ VALUES (47641, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47641, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47659) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47659;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47659, 'ace47659-lightningtachi');
@@ -820,6 +874,9 @@ VALUES (47659, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47659, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Tachi (47515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47515;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47515, 'ace47515-flamingtachi');
 
@@ -869,6 +926,9 @@ VALUES (47515, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47515, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Mace (47464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47464;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47464, 'ace47464-lightningmace');
 
@@ -916,6 +976,9 @@ VALUES (47464, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47464, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Flaming Mace (47483) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47483;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47483, 'ace47483-flamingmace');
@@ -965,6 +1028,9 @@ VALUES (47483, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47483, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Nekode (47967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47967;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47967, 'ace47967-nekode');
 
@@ -1012,6 +1078,9 @@ VALUES (47967, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47967, 0, 16783509);
+
+/* Weenie - MeleeWeapons - Silifi (47970) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47970;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47970, 'ace47970-silifi');
@@ -1063,6 +1132,9 @@ VALUES (47970, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47970, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Bandit Short Sword (22796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22796;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22796, 'swordshortbanditmid');
 
@@ -1112,6 +1184,9 @@ VALUES (22796, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22796, 0, 16777968);
+
+/* Weenie - MeleeWeapons - Bandit Rapier (22793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22793;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22793, 'swordrapierbanditmid');
@@ -1163,6 +1238,9 @@ VALUES (22793, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22793, 0, 16777934);
 
+/* Weenie - MeleeWeapons - Ono (47973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47973;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47973, 'ace47973-ono');
 
@@ -1210,6 +1288,9 @@ VALUES (47973, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47973, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Acid Nekode (47968) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47968;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47968, 'ace47968-acidnekode');
 
@@ -1246,6 +1327,9 @@ VALUES (47968, 13, True)
      , (47968, 14, True)
      , (47968, 19, True)
      , (47968, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Spear (47712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47712;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47712, 'ace47712-acidspear');
@@ -1294,6 +1378,9 @@ VALUES (47712, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47712, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47622;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47622, 'ace47622-acidtachi');
@@ -1344,6 +1431,9 @@ VALUES (47622, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47622, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (47969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47969;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47969, 'ace47969-lightningnekode');
 
@@ -1381,6 +1471,9 @@ VALUES (47969, 13, True)
      , (47969, 19, True)
      , (47969, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Club (47386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47386;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47386, 'ace47386-flamingclub');
 
@@ -1417,6 +1510,9 @@ VALUES (47386, 13, True)
      , (47386, 14, True)
      , (47386, 19, True)
      , (47386, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (47728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47728;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47728, 'ace47728-spear');
@@ -1464,6 +1560,9 @@ VALUES (47728, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47728, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Fire Board with Nail (47291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47291;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47291, 'ace47291-fireboardwithnail');
@@ -1513,6 +1612,9 @@ VALUES (47291, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47291, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Bone Dagger (26033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26033;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26033, 'dirkburunbonelow');
 
@@ -1547,6 +1649,9 @@ VALUES (26033, 13, True)
      , (26033, 14, True)
      , (26033, 19, True)
      , (26033, 22, True);
+
+/* Weenie - MeleeWeapons - Katar (47905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47905;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47905, 'ace47905-katar');
@@ -1596,6 +1701,9 @@ VALUES (47905, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47905, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Nekode (47877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47877;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47877, 'ace47877-nekode');
 
@@ -1644,6 +1752,9 @@ VALUES (47877, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47877, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Nekode (23681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23681;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23681, 'nekodemonsterlow');
 
@@ -1691,6 +1802,9 @@ VALUES (23681, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23681, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Lightning Katar (47966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47966;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47966, 'ace47966-lightningkatar');
 
@@ -1728,6 +1842,9 @@ VALUES (47966, 13, True)
      , (47966, 19, True)
      , (47966, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Katar (47904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47904;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47904, 'ace47904-acidkatar');
 
@@ -1764,6 +1881,9 @@ VALUES (47904, 13, True)
      , (47904, 14, True)
      , (47904, 19, True)
      , (47904, 22, True);
+
+/* Weenie - MeleeWeapons - Board with Nail (47249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47249;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47249, 'ace47249-boardwithnail');
@@ -1811,6 +1931,9 @@ VALUES (47249, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47249, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Katar (47920) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47920;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47920, 'ace47920-katar');
@@ -1860,6 +1983,9 @@ VALUES (47920, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47920, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Nekode (47952) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47952;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47952, 'ace47952-nekode');
 
@@ -1908,6 +2034,9 @@ VALUES (47952, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47952, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Ono (47958) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47958;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47958, 'ace47958-ono');
 
@@ -1954,6 +2083,9 @@ VALUES (47958, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47958, 0, 16777885);
+
+/* Weenie - MeleeWeapons - Katar (47950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47950;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47950, 'ace47950-katar');
@@ -2003,6 +2135,9 @@ VALUES (47950, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47950, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Ono (47913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47913, 'ace47913-ono');
 
@@ -2049,6 +2184,9 @@ VALUES (47913, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47913, 0, 16777885);
+
+/* Weenie - MeleeWeapons - Acid Mace (47423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47423;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47423, 'ace47423-acidmace');
@@ -2098,6 +2236,9 @@ VALUES (47423, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47423, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Tachi (47636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47636;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47636, 'ace47636-tachi');
 
@@ -2145,6 +2286,9 @@ VALUES (47636, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47636, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Tachi (47637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47637;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47637, 'ace47637-tachi');
@@ -2194,6 +2338,9 @@ VALUES (47637, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47637, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Club (47344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47344;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47344, 'ace47344-club');
 
@@ -2239,6 +2386,9 @@ VALUES (47344, 0, 83888778, 83888778);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47344, 0, 16777893);
+
+/* Weenie - MeleeWeapons - Board with Nail (47248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47248, 'ace47248-boardwithnail');
@@ -2287,6 +2437,9 @@ VALUES (47248, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47248, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Club (47343) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47343;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47343, 'ace47343-club');
 
@@ -2333,6 +2486,9 @@ VALUES (47343, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47343, 0, 16777893);
 
+/* Weenie - MeleeWeapons - Frost Club (47400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47400;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47400, 'ace47400-frostclub');
 
@@ -2369,6 +2525,9 @@ VALUES (47400, 13, True)
      , (47400, 14, True)
      , (47400, 19, True)
      , (47400, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (47725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47725;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47725, 'ace47725-spear');
@@ -2417,6 +2576,9 @@ VALUES (47725, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47725, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Mace (47438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47438;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47438, 'ace47438-mace');
 
@@ -2463,6 +2625,9 @@ VALUES (47438, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47438, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47615;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47615, 'ace47615-acidtachi');
@@ -2513,6 +2678,9 @@ VALUES (47615, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47615, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Tachi (47634) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47634;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47634, 'ace47634-tachi');
 
@@ -2560,6 +2728,9 @@ VALUES (47634, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47634, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Silifi (47880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47880;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47880, 'ace47880-silifi');
@@ -2611,6 +2782,9 @@ VALUES (47880, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47880, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Spear (47727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47727;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47727, 'ace47727-spear');
 
@@ -2657,6 +2831,9 @@ VALUES (47727, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47727, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47616;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47616, 'ace47616-acidtachi');
@@ -2707,6 +2884,9 @@ VALUES (47616, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47616, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Mace (47419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47419;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47419, 'ace47419-acidmace');
 
@@ -2755,6 +2935,9 @@ VALUES (47419, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47419, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Ono (47883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47883, 'ace47883-ono');
 
@@ -2801,6 +2984,9 @@ VALUES (47883, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47883, 0, 16777885);
+
+/* Weenie - MeleeWeapons - Spear (47726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47726;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47726, 'ace47726-spear');
@@ -2849,6 +3035,9 @@ VALUES (47726, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47726, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Lightning Ono (47885) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47885;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47885, 'ace47885-lightningono');
 
@@ -2886,6 +3075,9 @@ VALUES (47885, 13, True)
      , (47885, 19, True)
      , (47885, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Club (47382) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47382;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47382, 'ace47382-flamingclub');
 
@@ -2922,6 +3114,9 @@ VALUES (47382, 13, True)
      , (47382, 14, True)
      , (47382, 19, True)
      , (47382, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Silifi (47866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47866;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47866, 'ace47866-acidsilifi');
@@ -2962,6 +3157,9 @@ VALUES (47866, 13, True)
      , (47866, 14, True)
      , (47866, 19, True)
      , (47866, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47654;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47654, 'ace47654-lightningtachi');
@@ -3012,6 +3210,9 @@ VALUES (47654, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47654, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Spear (47705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47705;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47705, 'ace47705-acidspear');
 
@@ -3059,6 +3260,9 @@ VALUES (47705, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47705, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Flaming Spear (47764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47764;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47764, 'ace47764-flamingspear');
@@ -3108,6 +3312,9 @@ VALUES (47764, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47764, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Mace (47439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47439;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47439, 'ace47439-mace');
 
@@ -3154,6 +3361,9 @@ VALUES (47439, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47439, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Club (3943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3943;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3943, 'monougaclub');
@@ -3203,6 +3413,9 @@ VALUES (3943, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3943, 0, 16777893);
 
+/* Weenie - MeleeWeapons - Ono (47898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47898;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47898, 'ace47898-ono');
 
@@ -3249,6 +3462,9 @@ VALUES (47898, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47898, 0, 16777885);
+
+/* Weenie - MeleeWeapons - Flaming Mace (47481) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47481;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47481, 'ace47481-flamingmace');
@@ -3298,6 +3514,9 @@ VALUES (47481, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47481, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Flaming Spear (47766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47766;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47766, 'ace47766-flamingspear');
 
@@ -3346,6 +3565,9 @@ VALUES (47766, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47766, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Lightning Spear (47748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47748;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47748, 'ace47748-lightningspear');
 
@@ -3382,6 +3604,9 @@ VALUES (47748, 13, True)
      , (47748, 14, True)
      , (47748, 19, True)
      , (47748, 22, True);
+
+/* Weenie - MeleeWeapons - Club (47348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47348;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47348, 'ace47348-club');
@@ -3429,6 +3654,9 @@ VALUES (47348, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47348, 0, 16777893);
 
+/* Weenie - MeleeWeapons - Acid Katar (47919) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47919;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47919, 'ace47919-acidkatar');
 
@@ -3465,6 +3693,9 @@ VALUES (47919, 13, True)
      , (47919, 14, True)
      , (47919, 19, True)
      , (47919, 22, True);
+
+/* Weenie - MeleeWeapons - Morning Star (3948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3948;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3948, 'monougamorningstar');
@@ -3515,6 +3746,9 @@ VALUES (3948, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3948, 0, 16777932);
 
+/* Weenie - MeleeWeapons - Frost Spear (47783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47783;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47783, 'ace47783-frostspear');
 
@@ -3563,6 +3797,9 @@ VALUES (47783, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47783, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Dabus (3944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3944, 'monougadabus');
 
@@ -3609,6 +3846,9 @@ VALUES (3944, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3944, 0, 16777929);
 
+/* Weenie - MeleeWeapons - Kasrullah (3945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3945, 'monougakasrullah');
 
@@ -3654,6 +3894,9 @@ VALUES (3945, 0, 83888778, 83888778)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3945, 0, 16777987);
+
+/* Weenie - MeleeWeapons - Mace (3947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3947;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3947, 'monougamace');
@@ -3704,6 +3947,9 @@ VALUES (3947, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3947, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Mace (47443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47443;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47443, 'ace47443-mace');
 
@@ -3750,6 +3996,9 @@ VALUES (47443, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47443, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Tofun (3946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3946;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3946, 'monougatofun');
@@ -3800,6 +4049,9 @@ VALUES (3946, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3946, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Acid Ono (47929) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47929;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47929, 'ace47929-acidono');
 
@@ -3836,6 +4088,9 @@ VALUES (47929, 13, True)
      , (47929, 14, True)
      , (47929, 19, True)
      , (47929, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Nekode (47954) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47954;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47954, 'ace47954-lightningnekode');
@@ -3874,6 +4129,9 @@ VALUES (47954, 13, True)
      , (47954, 19, True)
      , (47954, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Spear (47745) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47745;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47745, 'ace47745-lightningspear');
 
@@ -3910,6 +4168,9 @@ VALUES (47745, 13, True)
      , (47745, 14, True)
      , (47745, 19, True)
      , (47745, 22, True);
+
+/* Weenie - MeleeWeapons - Mace (47442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47442;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47442, 'ace47442-mace');
@@ -3957,6 +4218,9 @@ VALUES (47442, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47442, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Silifi (47925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47925;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47925, 'ace47925-silifi');
@@ -4008,6 +4272,9 @@ VALUES (47925, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47925, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Lightning Club (47366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47366;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47366, 'ace47366-lightningclub');
 
@@ -4044,6 +4311,9 @@ VALUES (47366, 13, True)
      , (47366, 14, True)
      , (47366, 19, True)
      , (47366, 22, True);
+
+/* Weenie - MeleeWeapons - Board with Nail (47252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47252;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47252, 'ace47252-boardwithnail');
@@ -4092,6 +4362,9 @@ VALUES (47252, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47252, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Harvester's Blade (36436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36436;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36436, 'ace36436-harvestersblade');
 
@@ -4126,6 +4399,9 @@ VALUES (36436, 13, True)
      , (36436, 14, True)
      , (36436, 19, True)
      , (36436, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Club (47367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47367;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47367, 'ace47367-lightningclub');
@@ -4163,6 +4439,9 @@ VALUES (47367, 13, True)
      , (47367, 14, True)
      , (47367, 19, True)
      , (47367, 22, True);
+
+/* Weenie - MeleeWeapons - Fire Board with Nail (47290) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47290;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47290, 'ace47290-fireboardwithnail');
@@ -4212,6 +4491,9 @@ VALUES (47290, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47290, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Frost Club (47404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47404;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47404, 'ace47404-frostclub');
 
@@ -4248,6 +4530,9 @@ VALUES (47404, 13, True)
      , (47404, 14, True)
      , (47404, 19, True)
      , (47404, 22, True);
+
+/* Weenie - MeleeWeapons - Club (47347) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47347;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47347, 'ace47347-club');
@@ -4295,6 +4580,9 @@ VALUES (47347, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47347, 0, 16777893);
 
+/* Weenie - MeleeWeapons - Board with Nail (47253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47253;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47253, 'ace47253-boardwithnail');
 
@@ -4341,6 +4629,9 @@ VALUES (47253, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47253, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Acid Board with Nail (47233) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47233;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47233, 'ace47233-acidboardwithnail');
@@ -4390,6 +4681,9 @@ VALUES (47233, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47233, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Flaming Club (47385) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47385;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47385, 'ace47385-flamingclub');
 
@@ -4426,6 +4720,9 @@ VALUES (47385, 13, True)
      , (47385, 14, True)
      , (47385, 19, True)
      , (47385, 22, True);
+
+/* Weenie - MeleeWeapons - Electric Board with Nail (47271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47271;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47271, 'ace47271-electricboardwithnail');
@@ -4475,6 +4772,9 @@ VALUES (47271, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47271, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Electric Board with Nail (47272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47272;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47272, 'ace47272-electricboardwithnail');
 
@@ -4522,6 +4822,9 @@ VALUES (47272, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47272, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47618;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47618, 'ace47618-acidtachi');
@@ -4572,6 +4875,9 @@ VALUES (47618, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47618, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Mace (47425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47425, 'ace47425-acidmace');
 
@@ -4619,6 +4925,9 @@ VALUES (47425, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47425, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47621;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47621, 'ace47621-acidtachi');
@@ -4669,6 +4978,9 @@ VALUES (47621, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47621, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Frost Club (47408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47408;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47408, 'ace47408-frostclub');
 
@@ -4706,6 +5018,9 @@ VALUES (47408, 13, True)
      , (47408, 19, True)
      , (47408, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Club (47389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47389;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47389, 'ace47389-flamingclub');
 
@@ -4742,6 +5057,9 @@ VALUES (47389, 13, True)
      , (47389, 14, True)
      , (47389, 19, True)
      , (47389, 22, True);
+
+/* Weenie - MeleeWeapons - Club (47350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47350;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47350, 'ace47350-club');
@@ -4789,6 +5107,9 @@ VALUES (47350, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47350, 0, 16777893);
 
+/* Weenie - MeleeWeapons - Acid Club (47331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47331;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47331, 'ace47331-acidclub');
 
@@ -4825,6 +5146,9 @@ VALUES (47331, 13, True)
      , (47331, 14, True)
      , (47331, 19, True)
      , (47331, 22, True);
+
+/* Weenie - MeleeWeapons - Club (23646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23646;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23646, 'clubbanderlingfrosthigh');
@@ -4863,6 +5187,9 @@ VALUES (23646, 13, True)
      , (23646, 14, True)
      , (23646, 19, True)
      , (23646, 22, True);
+
+/* Weenie - MeleeWeapons - Mace (47445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47445;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47445, 'ace47445-mace');
@@ -4911,6 +5238,9 @@ VALUES (47445, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47445, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Lightning Club (47369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47369, 'ace47369-lightningclub');
 
@@ -4947,6 +5277,9 @@ VALUES (47369, 13, True)
      , (47369, 14, True)
      , (47369, 19, True)
      , (47369, 22, True);
+
+/* Weenie - MeleeWeapons - Club (23649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23649;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23649, 'clubbanderlinghigh');
@@ -4996,6 +5329,9 @@ VALUES (23649, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23649, 0, 16777893);
 
+/* Weenie - MeleeWeapons - Acid Club (47329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47329, 'ace47329-acidclub');
 
@@ -5032,6 +5368,9 @@ VALUES (47329, 13, True)
      , (47329, 14, True)
      , (47329, 19, True)
      , (47329, 22, True);
+
+/* Weenie - MeleeWeapons - Fire Board with Nail (47293) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47293;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47293, 'ace47293-fireboardwithnail');
@@ -5081,6 +5420,9 @@ VALUES (47293, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47293, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Frost Board with Nail (47312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47312;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47312, 'ace47312-frostboardwithnail');
 
@@ -5128,6 +5470,9 @@ VALUES (47312, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47312, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47518;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47518, 'ace47518-lightningtachi');
@@ -5178,6 +5523,9 @@ VALUES (47518, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47518, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Mace (47444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47444;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47444, 'ace47444-mace');
 
@@ -5224,6 +5572,9 @@ VALUES (47444, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47444, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Flaming Mace (47482) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47482;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47482, 'ace47482-flamingmace');
@@ -5273,6 +5624,9 @@ VALUES (47482, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47482, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Mace (47446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47446, 'ace47446-mace');
 
@@ -5319,6 +5673,9 @@ VALUES (47446, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47446, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Cestus (23637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23637;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23637, 'cestusmonsterhigh');
@@ -5370,6 +5727,9 @@ VALUES (23637, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23637, 0, 16783508);
 
+/* Weenie - MeleeWeapons - Acid Spear (47711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47711;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47711, 'ace47711-acidspear');
 
@@ -5418,6 +5778,9 @@ VALUES (47711, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47711, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Electric Board with Nail (47274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47274;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47274, 'ace47274-electricboardwithnail');
 
@@ -5465,6 +5828,9 @@ VALUES (47274, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47274, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Hand Axe (303) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 303;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (303, 'axehand');
@@ -5515,6 +5881,9 @@ VALUES (303, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (303, 0, 16777889);
+
+/* Weenie - MeleeWeapons - Battle Axe (301) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 301;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (301, 'axebattle');
@@ -5567,6 +5936,9 @@ VALUES (301, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (301, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Sword of Lost Light (24611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24611;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24611, 'swordlostlightubernew');
 
@@ -5607,6 +5979,9 @@ VALUES (24611, 13, True)
      , (24611, 19, True)
      , (24611, 22, True);
 
+/* Weenie - MeleeWeapons - Shadow Blade (33080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33080;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33080, 'ace33080-shadowblade');
 
@@ -5642,6 +6017,9 @@ VALUES (33080, 13, True)
      , (33080, 14, True)
      , (33080, 19, True)
      , (33080, 22, True);
+
+/* Weenie - MeleeWeapons - Tachi (47649) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47649;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47649, 'ace47649-tachi');
@@ -5690,6 +6068,9 @@ VALUES (47649, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47649, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47664;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47664, 'ace47664-lightningtachi');
@@ -5740,6 +6121,9 @@ VALUES (47664, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47664, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48501, 'ace48501-flamingkatar');
 
@@ -5776,6 +6160,9 @@ VALUES (48501, 13, True)
      , (48501, 14, True)
      , (48501, 19, True)
      , (48501, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47630) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47630;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47630, 'ace47630-acidtachi');
@@ -5825,6 +6212,9 @@ VALUES (47630, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47630, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Jo (22158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22158;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22158, 'jonew');
@@ -5876,6 +6266,9 @@ VALUES (22158, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22158, 0, 16788504);
 
+/* Weenie - MeleeWeapons - Dagger (314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 314;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (314, 'dagger');
 
@@ -5924,6 +6317,9 @@ VALUES (314, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (314, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Jitte (321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 321;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (321, 'jitte');
 
@@ -5971,6 +6367,9 @@ VALUES (321, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (321, 0, 16777918);
 
+/* Weenie - MeleeWeapons - Memorial Sword of Lost Light (32565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32565;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32565, 'ace32565-memorialswordoflostlight');
 
@@ -6007,6 +6406,9 @@ VALUES (32565, 13, True)
      , (32565, 14, True)
      , (32565, 19, True)
      , (32565, 22, True);
+
+/* Weenie - MeleeWeapons - Replica BloodScorch (35377) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35377;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35377, 'ace35377-replicabloodscorch');
@@ -6045,6 +6447,9 @@ VALUES (35377, 13, True)
      , (35377, 19, True)
      , (35377, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Club (47362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47362;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47362, 'ace47362-lightningclub');
 
@@ -6081,6 +6486,9 @@ VALUES (47362, 13, True)
      , (47362, 14, True)
      , (47362, 19, True)
      , (47362, 22, True);
+
+/* Weenie - MeleeWeapons - Electric Board with Nail (47267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47267;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47267, 'ace47267-electricboardwithnail');
@@ -6130,6 +6538,9 @@ VALUES (47267, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47267, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Acid Club (47324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47324;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47324, 'ace47324-acidclub');
 
@@ -6166,6 +6577,9 @@ VALUES (47324, 13, True)
      , (47324, 14, True)
      , (47324, 19, True)
      , (47324, 22, True);
+
+/* Weenie - MeleeWeapons - Trident (7772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7772;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7772, 'trident');
@@ -6217,6 +6631,9 @@ VALUES (7772, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7772, 0, 16784608);
 
+/* Weenie - MeleeWeapons - Tofun (356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 356;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (356, 'tofun');
 
@@ -6266,6 +6683,9 @@ VALUES (356, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (356, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Broad Sword (350) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 350;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (350, 'swordbroad');
@@ -6318,6 +6738,9 @@ VALUES (350, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (350, 0, 16777963);
 
+/* Weenie - MeleeWeapons - Flaming Shou-ono (3859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3859;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3859, 'shouonofire');
 
@@ -6356,6 +6779,9 @@ VALUES (3859, 13, True)
      , (3859, 14, True)
      , (3859, 19, True)
      , (3859, 22, True);
+
+/* Weenie - MeleeWeapons - Ken (327) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 327;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (327, 'ken');
@@ -6405,6 +6831,9 @@ VALUES (327, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (327, 0, 16777964);
 
+/* Weenie - MeleeWeapons - Acid Spear (47706) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47706;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47706, 'ace47706-acidspear');
 
@@ -6452,6 +6881,9 @@ VALUES (47706, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47706, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Spear (47708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47708;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47708, 'ace47708-acidspear');
@@ -6501,6 +6933,9 @@ VALUES (47708, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47708, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Tachi (23702) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23702;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23702, 'tachidrudgemid');
 
@@ -6548,6 +6983,9 @@ VALUES (23702, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23702, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Spear (23698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23698;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23698, 'spearmonstermid');
 
@@ -6593,6 +7031,9 @@ VALUES (23698, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23698, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Scimitar (8632) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8632;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8632, 'scimitarmonsteronly2');
@@ -6640,6 +7081,9 @@ VALUES (8632, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8632, 0, 16777942);
+
+/* Weenie - MeleeWeapons - Long Sword (351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 351;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (351, 'swordlong');
@@ -6692,6 +7136,9 @@ VALUES (351, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (351, 0, 16777961);
 
+/* Weenie - MeleeWeapons - Club (309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 309;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (309, 'club');
 
@@ -6741,6 +7188,9 @@ VALUES (309, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (309, 0, 16777893);
 
+/* Weenie - MeleeWeapons - Acid Board with Nail (47236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47236, 'ace47236-acidboardwithnail');
 
@@ -6788,6 +7238,9 @@ VALUES (47236, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47236, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Short Sword (352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 352;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (352, 'swordshort');
@@ -6840,6 +7293,9 @@ VALUES (352, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (352, 0, 16777968);
 
+/* Weenie - MeleeWeapons - Tachi (353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 353;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (353, 'tachi');
 
@@ -6888,6 +7344,9 @@ VALUES (353, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (353, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lugian Club (23751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23751;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23751, 'lugianclublow');
 
@@ -6926,6 +7385,9 @@ VALUES (23751, 13, True)
      , (23751, 14, True)
      , (23751, 19, True)
      , (23751, 22, True);
+
+/* Weenie - MeleeWeapons - Ono (336) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 336;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (336, 'ono');
@@ -6973,6 +7435,9 @@ VALUES (336, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (336, 0, 16777885);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (7783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7783;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7783, 'tachifiremonsteronly');
@@ -7022,6 +7487,9 @@ VALUES (7783, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7783, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Club (47381) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47381;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47381, 'ace47381-flamingclub');
 
@@ -7058,6 +7526,9 @@ VALUES (47381, 13, True)
      , (47381, 14, True)
      , (47381, 19, True)
      , (47381, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (47724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47724;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47724, 'ace47724-spear');
@@ -7106,6 +7577,9 @@ VALUES (47724, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47724, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Acid Katar (47859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47859;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47859, 'ace47859-acidkatar');
 
@@ -7142,6 +7616,9 @@ VALUES (47859, 13, True)
      , (47859, 14, True)
      , (47859, 19, True)
      , (47859, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Silifi (47926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47926;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47926, 'ace47926-acidsilifi');
@@ -7182,6 +7659,9 @@ VALUES (47926, 13, True)
      , (47926, 14, True)
      , (47926, 19, True)
      , (47926, 22, True);
+
+/* Weenie - MeleeWeapons - Dirk (22440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22440;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22440, 'dirk');
@@ -7232,6 +7712,9 @@ VALUES (22440, 0, 83886739, 83886739)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22440, 0, 16788591);
+
+/* Weenie - MeleeWeapons - Academy Cestus (12753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12753;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12753, 'cestusacademy');
@@ -7284,6 +7767,9 @@ VALUES (12753, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12753, 0, 16783508);
 
+/* Weenie - MeleeWeapons - War Hammer (359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 359;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (359, 'warhammer');
 
@@ -7332,6 +7818,9 @@ VALUES (359, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (359, 0, 16777979);
 
+/* Weenie - MeleeWeapons - Flaming Hatchet (48991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48991;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48991, 'ace48991-flaminghatchet');
 
@@ -7376,6 +7865,9 @@ VALUES (48991, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48991, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Acid Corsesca (40819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40819;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40819, 'ace40819-acidcorsesca');
@@ -7425,6 +7917,9 @@ VALUES (40819, 0, 83896667, 83896667);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40819, 0, 16794281);
+
+/* Weenie - MeleeWeapons - Spine Glaive (31779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31779;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31779, 'ace31779-spineglaive');
@@ -7476,6 +7971,9 @@ VALUES (31779, 0, 83897337, 83897337);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31779, 0, 16792614);
 
+/* Weenie - MeleeWeapons - Sabra (30566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30566;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30566, 'swordsabra');
 
@@ -7521,6 +8019,9 @@ VALUES (30566, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30566, 67116388, 0, 0);
+
+/* Weenie - MeleeWeapons - Academy Short Sword (45551) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45551;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45551, 'ace45551-academyshortsword');
@@ -7573,6 +8074,9 @@ VALUES (45551, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45551, 0, 16777968);
 
+/* Weenie - MeleeWeapons - Royal Runed Knuckles (33213) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33213;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33213, 'ace33213-royalrunedknuckles');
 
@@ -7615,6 +8119,9 @@ VALUES (33213, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33213, 67116440, 0, 0);
+
+/* Weenie - MeleeWeapons - Bronze Battle Axe (15883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15883;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15883, 'axebattlestatuebronze');
@@ -7667,6 +8174,9 @@ VALUES (15883, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15883, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Acid Tachi (47620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47620;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47620, 'ace47620-acidtachi');
 
@@ -7716,6 +8226,9 @@ VALUES (47620, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47620, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Tachi (47635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47635;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47635, 'ace47635-tachi');
 
@@ -7764,6 +8277,9 @@ VALUES (47635, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47635, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Katar (47906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47906;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47906, 'ace47906-lightningkatar');
 
@@ -7800,6 +8316,9 @@ VALUES (47906, 13, True)
      , (47906, 14, True)
      , (47906, 19, True)
      , (47906, 22, True);
+
+/* Weenie - MeleeWeapons - Cestus (23639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23639;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23639, 'cestusmonstermid');
@@ -7851,6 +8370,9 @@ VALUES (23639, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23639, 0, 16783508);
 
+/* Weenie - MeleeWeapons - Acid Silifi (47971) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47971;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47971, 'ace47971-acidsilifi');
 
@@ -7891,6 +8413,9 @@ VALUES (47971, 13, True)
      , (47971, 19, True)
      , (47971, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Katar (47964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47964;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47964, 'ace47964-acidkatar');
 
@@ -7928,6 +8453,9 @@ VALUES (47964, 13, True)
      , (47964, 19, True)
      , (47964, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Ono (47974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47974;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47974, 'ace47974-acidono');
 
@@ -7964,6 +8492,9 @@ VALUES (47974, 13, True)
      , (47974, 14, True)
      , (47974, 19, True)
      , (47974, 22, True);
+
+/* Weenie - MeleeWeapons - Nekode (23682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23682;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23682, 'nekodemonstermid');
@@ -8012,6 +8543,9 @@ VALUES (23682, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23682, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Katar (23676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23676;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23676, 'katarmonstermid');
 
@@ -8058,6 +8592,9 @@ VALUES (23676, 0, 83886710, 83886710)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23676, 0, 16777920);
+
+/* Weenie - MeleeWeapons - Katar (47965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47965;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47965, 'ace47965-katar');
@@ -8107,6 +8644,9 @@ VALUES (47965, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47965, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Acid Mace (47426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47426, 'ace47426-acidmace');
 
@@ -8155,6 +8695,9 @@ VALUES (47426, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47426, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Acid Nekode (47953) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47953;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47953, 'ace47953-acidnekode');
 
@@ -8191,6 +8734,9 @@ VALUES (47953, 13, True)
      , (47953, 14, True)
      , (47953, 19, True)
      , (47953, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Tachi (47693) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47693;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47693, 'ace47693-frosttachi');
@@ -8241,6 +8787,9 @@ VALUES (47693, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47693, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Ono (47959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47959;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47959, 'ace47959-acidono');
 
@@ -8278,6 +8827,9 @@ VALUES (47959, 13, True)
      , (47959, 19, True)
      , (47959, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48493;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48493, 'ace48493-flamingkatar');
 
@@ -8314,6 +8866,9 @@ VALUES (48493, 13, True)
      , (48493, 14, True)
      , (48493, 19, True)
      , (48493, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (47731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47731;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47731, 'ace47731-spear');
@@ -8361,6 +8916,9 @@ VALUES (47731, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47731, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Tachi (47640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47640;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47640, 'ace47640-tachi');
@@ -8410,6 +8968,9 @@ VALUES (47640, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47640, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Nekode (47907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47907;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47907, 'ace47907-nekode');
 
@@ -8458,6 +9019,9 @@ VALUES (47907, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47907, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Acid Ono (47884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47884;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47884, 'ace47884-acidono');
 
@@ -8494,6 +9058,9 @@ VALUES (47884, 13, True)
      , (47884, 14, True)
      , (47884, 19, True)
      , (47884, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Katar (47889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47889;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47889, 'ace47889-acidkatar');
@@ -8532,6 +9099,9 @@ VALUES (47889, 13, True)
      , (47889, 19, True)
      , (47889, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Katar (47876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47876;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47876, 'ace47876-lightningkatar');
 
@@ -8568,6 +9138,9 @@ VALUES (47876, 13, True)
      , (47876, 14, True)
      , (47876, 19, True)
      , (47876, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Silifi (47882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47882;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47882, 'ace47882-lightningsilifi');
@@ -8608,6 +9181,9 @@ VALUES (47882, 13, True)
      , (47882, 14, True)
      , (47882, 19, True)
      , (47882, 22, True);
+
+/* Weenie - MeleeWeapons - Nekode (47862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47862;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47862, 'ace47862-nekode');
@@ -8657,6 +9233,9 @@ VALUES (47862, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47862, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Ono (47868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47868;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47868, 'ace47868-ono');
 
@@ -8704,6 +9283,9 @@ VALUES (47868, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47868, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Lightning Silifi (47867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47867, 'ace47867-lightningsilifi');
 
@@ -8743,6 +9325,9 @@ VALUES (47867, 13, True)
      , (47867, 14, True)
      , (47867, 19, True)
      , (47867, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Stick (31789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31789;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31789, 'ace31789-acidstick');
@@ -8795,6 +9380,9 @@ VALUES (31789, 0, 83897334, 83897334);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31789, 0, 16792611);
 
+/* Weenie - MeleeWeapons - Acid Katar (47949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47949;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47949, 'ace47949-acidkatar');
 
@@ -8831,6 +9419,9 @@ VALUES (47949, 13, True)
      , (47949, 14, True)
      , (47949, 19, True)
      , (47949, 22, True);
+
+/* Weenie - MeleeWeapons - Tachi (23700) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23700;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23700, 'tachidrudgehigh');
@@ -8879,6 +9470,9 @@ VALUES (23700, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23700, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Knife (45418) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45418;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45418, 'ace45418-lightningknife');
 
@@ -8917,6 +9511,9 @@ VALUES (45418, 13, True)
      , (45418, 14, True)
      , (45418, 19, True)
      , (45418, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47674;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47674, 'ace47674-flamingtachi');
@@ -8967,6 +9564,9 @@ VALUES (47674, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47674, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Fire Yaoji (23718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23718;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23718, 'yaojibanditfiredrudgehigh');
 
@@ -9001,6 +9601,9 @@ VALUES (23718, 13, True)
      , (23718, 14, True)
      , (23718, 19, True)
      , (23718, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (23696) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23696;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23696, 'spearmonsterhigh');
@@ -9048,6 +9651,9 @@ VALUES (23696, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23696, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Lightning Silifi (47972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47972;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47972, 'ace47972-lightningsilifi');
 
@@ -9088,6 +9694,9 @@ VALUES (47972, 13, True)
      , (47972, 19, True)
      , (47972, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Ono (47975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47975;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47975, 'ace47975-lightningono');
 
@@ -9124,6 +9733,9 @@ VALUES (47975, 13, True)
      , (47975, 14, True)
      , (47975, 19, True)
      , (47975, 22, True);
+
+/* Weenie - MeleeWeapons - Katar (23674) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23674;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23674, 'katarmonsterhigh');
@@ -9172,6 +9784,9 @@ VALUES (23674, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23674, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Flaming Hammer (45116) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45116;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45116, 'ace45116-flaminghammer');
 
@@ -9207,6 +9822,9 @@ VALUES (45116, 13, True)
      , (45116, 14, True)
      , (45116, 19, True)
      , (45116, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Katar (47951) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47951;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47951, 'ace47951-lightningkatar');
@@ -9244,6 +9862,9 @@ VALUES (47951, 13, True)
      , (47951, 14, True)
      , (47951, 19, True)
      , (47951, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Mace (47502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47502;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47502, 'ace47502-frostmace');
@@ -9292,6 +9913,9 @@ VALUES (47502, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47502, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47671;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47671, 'ace47671-flamingtachi');
@@ -9342,6 +9966,9 @@ VALUES (47671, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47671, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Dolabra (30561) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30561;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30561, 'axedolabra');
 
@@ -9390,6 +10017,9 @@ VALUES (30561, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30561, 0, 16791840);
+
+/* Weenie - MeleeWeapons - Quintessence Sickle (10765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10765, 'axesickle');
@@ -9443,6 +10073,9 @@ VALUES (10765, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10765, 0, 16785974);
 
+/* Weenie - MeleeWeapons - Hatchet (30556) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30556;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30556, 'axehatchet');
 
@@ -9488,6 +10121,9 @@ VALUES (30556, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30556, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Icy Club (48604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48604;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48604, 'ace48604-icyclub');
 
@@ -9520,6 +10156,9 @@ VALUES (48604, 13, True)
      , (48604, 14, True)
      , (48604, 19, True)
      , (48604, 22, True);
+
+/* Weenie - MeleeWeapons - Glacial Blade (48608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48608;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48608, 'ace48608-glacialblade');
@@ -9556,6 +10195,9 @@ VALUES (48608, 13, True)
      , (48608, 19, True)
      , (48608, 22, True);
 
+/* Weenie - MeleeWeapons - Frigid Splinter (48607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48607;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48607, 'ace48607-frigidsplinter');
 
@@ -9590,6 +10232,9 @@ VALUES (48607, 13, True)
      , (48607, 14, True)
      , (48607, 19, True)
      , (48607, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Club (47388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47388;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47388, 'ace47388-flamingclub');
@@ -9627,6 +10272,9 @@ VALUES (47388, 13, True)
      , (47388, 14, True)
      , (47388, 19, True)
      , (47388, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (47730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47730;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47730, 'ace47730-spear');
@@ -9675,6 +10323,9 @@ VALUES (47730, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47730, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Quadrelle (29968) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29968;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29968, 'maceknightmid');
 
@@ -9719,6 +10370,9 @@ VALUES (29968, 0, 83898004, 83898004);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29968, 0, 16791977);
+
+/* Weenie - MeleeWeapons - Lightning Lancet (31796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31796;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31796, 'ace31796-lightninglancet');
@@ -9771,6 +10425,9 @@ VALUES (31796, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31796, 0, 16792616);
 
+/* Weenie - MeleeWeapons - Spadone (29978) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29978;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29978, 'swordknightmid');
 
@@ -9814,6 +10471,9 @@ VALUES (29978, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29978, 0, 16791762);
+
+/* Weenie - MeleeWeapons - Silifi (47985) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47985;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47985, 'ace47985-silifi');
@@ -9864,6 +10524,9 @@ VALUES (47985, 0, 83886725, 83886725)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47985, 0, 16777950);
+
+/* Weenie - MeleeWeapons - Shamshir (340) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 340;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (340, 'shamshir');
@@ -9916,6 +10579,9 @@ VALUES (340, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (340, 0, 16777942);
 
+/* Weenie - MeleeWeapons - Board with Nail (31774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31774;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31774, 'ace31774-boardwithnail');
 
@@ -9962,6 +10628,9 @@ VALUES (31774, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31774, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Frost Spear (47788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47788, 'ace47788-frostspear');
@@ -10011,6 +10680,9 @@ VALUES (47788, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47788, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Acid Katar (47979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47979, 'ace47979-acidkatar');
 
@@ -10048,6 +10720,9 @@ VALUES (47979, 13, True)
      , (47979, 19, True)
      , (47979, 22, True);
 
+/* Weenie - MeleeWeapons - Frozen Dagger (48605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48605;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48605, 'ace48605-frozendagger');
 
@@ -10082,6 +10757,9 @@ VALUES (48605, 13, True)
      , (48605, 14, True)
      , (48605, 19, True)
      , (48605, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Spine Glaive (31780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31780;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31780, 'ace31780-acidspineglaive');
@@ -10131,6 +10809,9 @@ VALUES (31780, 0, 83897337, 83897337);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31780, 0, 16792614);
 
+/* Weenie - MeleeWeapons - Acid Broad Sword (3877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3877;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3877, 'swordbroadacid');
 
@@ -10169,6 +10850,9 @@ VALUES (3877, 13, True)
      , (3877, 14, True)
      , (3877, 19, True)
      , (3877, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Corsesca (40820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40820;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40820, 'ace40820-lightningcorsesca');
@@ -10216,6 +10900,9 @@ VALUES (40820, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40820, 0, 16794281);
 
+/* Weenie - MeleeWeapons - Flaming Stiletto (30603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30603;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30603, 'daggerstilettofire');
 
@@ -10261,6 +10948,9 @@ VALUES (30603, 0, 83897172, 83897172);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30603, 0, 16792137);
+
+/* Weenie - MeleeWeapons - Lightning Spear (47750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47750;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47750, 'ace47750-lightningspear');
@@ -10310,6 +11000,9 @@ VALUES (47750, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47750, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Acid Ono (47989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47989;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47989, 'ace47989-acidono');
 
@@ -10346,6 +11039,9 @@ VALUES (47989, 13, True)
      , (47989, 14, True)
      , (47989, 19, True)
      , (47989, 22, True);
+
+/* Weenie - MeleeWeapons - Nekode (47982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47982;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47982, 'ace47982-nekode');
@@ -10395,6 +11091,9 @@ VALUES (47982, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47982, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Frost Club (47407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47407, 'ace47407-frostclub');
 
@@ -10431,6 +11130,9 @@ VALUES (47407, 13, True)
      , (47407, 14, True)
      , (47407, 19, True)
      , (47407, 22, True);
+
+/* Weenie - MeleeWeapons - Ono (47988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47988;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47988, 'ace47988-ono');
@@ -10478,6 +11180,9 @@ VALUES (47988, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47988, 0, 16777885);
+
+/* Weenie - MeleeWeapons - Flaming Spear (47769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47769;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47769, 'ace47769-flamingspear');
@@ -10527,6 +11232,9 @@ VALUES (47769, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47769, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Frost Spear (47787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47787;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47787, 'ace47787-frostspear');
 
@@ -10575,6 +11283,9 @@ VALUES (47787, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47787, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Dabus (313) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 313;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (313, 'dabus');
 
@@ -10621,6 +11332,9 @@ VALUES (313, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (313, 0, 16777929);
+
+/* Weenie - MeleeWeapons - Acid Quarter Staff (22164) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22164;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22164, 'quarterstaffacidnew');
@@ -10672,6 +11386,9 @@ VALUES (22164, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22164, 0, 16788502);
 
+/* Weenie - MeleeWeapons - Fire Tachi (23707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23707;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23707, 'tachifiredrudgehigh');
 
@@ -10720,6 +11437,9 @@ VALUES (23707, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23707, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Spadone (29976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29976;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29976, 'swordknighthigh');
 
@@ -10763,6 +11483,9 @@ VALUES (29976, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29976, 0, 16791762);
+
+/* Weenie - MeleeWeapons - Yaoji (23710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23710;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23710, 'yaojibanditdrudgehigh');
@@ -10811,6 +11534,9 @@ VALUES (23710, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23710, 0, 16777984);
 
+/* Weenie - MeleeWeapons - Giant Monouga Axe (8130) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8130;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8130, 'axereallybig');
 
@@ -10848,6 +11574,9 @@ VALUES (8130, 13, True)
      , (8130, 14, True)
      , (8130, 19, True)
      , (8130, 22, True);
+
+/* Weenie - MeleeWeapons - Fire Board with Nail (47295) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47295;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47295, 'ace47295-fireboardwithnail');
@@ -10897,6 +11626,9 @@ VALUES (47295, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47295, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Board with Nail (47257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47257;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47257, 'ace47257-boardwithnail');
 
@@ -10943,6 +11675,9 @@ VALUES (47257, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47257, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47517;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47517, 'ace47517-lightningtachi');
@@ -10993,6 +11728,9 @@ VALUES (47517, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47517, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Electric Board with Nail (47276) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47276;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47276, 'ace47276-electricboardwithnail');
 
@@ -11040,6 +11778,9 @@ VALUES (47276, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47276, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Acid Knuckles (30615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30615;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30615, 'knucklesacid');
@@ -11090,6 +11831,9 @@ VALUES (30615, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30615, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Frost Club (47409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47409;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47409, 'ace47409-frostclub');
 
@@ -11126,6 +11870,9 @@ VALUES (47409, 13, True)
      , (47409, 14, True)
      , (47409, 19, True)
      , (47409, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Quadrelle (40626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40626;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40626, 'ace40626-flamingquadrelle');
@@ -11177,6 +11924,9 @@ VALUES (40626, 0, 83898004, 83898004);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40626, 0, 16791977);
 
+/* Weenie - MeleeWeapons - Frost Assagai (41040) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41040;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41040, 'ace41040-frostassagai');
 
@@ -11221,6 +11971,9 @@ VALUES (41040, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41040, 67116384, 0, 0);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (4199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4199, 'nekodeelectric');
 
@@ -11257,6 +12010,9 @@ VALUES (4199, 13, True)
      , (4199, 19, True)
      , (4199, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Ono (3844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3844;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3844, 'onofire');
 
@@ -11292,6 +12048,9 @@ VALUES (3844, 13, True)
      , (3844, 14, True)
      , (3844, 19, True)
      , (3844, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Club (47371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47371;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47371, 'ace47371-lightningclub');
@@ -11330,6 +12089,9 @@ VALUES (47371, 13, True)
      , (47371, 19, True)
      , (47371, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Club (47333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47333, 'ace47333-acidclub');
 
@@ -11366,6 +12128,9 @@ VALUES (47333, 13, True)
      , (47333, 14, True)
      , (47333, 19, True)
      , (47333, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Board with Nail (47238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47238;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47238, 'ace47238-acidboardwithnail');
@@ -11415,6 +12180,9 @@ VALUES (47238, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47238, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Club (47352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47352, 'ace47352-club');
 
@@ -11460,6 +12228,9 @@ VALUES (47352, 0, 83888778, 83888778);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47352, 0, 16777893);
+
+/* Weenie - MeleeWeapons - Frost Board with Nail (47314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47314;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47314, 'ace47314-frostboardwithnail');
@@ -11509,6 +12280,9 @@ VALUES (47314, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47314, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Khanda-handled Mace (41062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41062;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41062, 'ace41062-khandahandledmace');
 
@@ -11549,6 +12323,9 @@ VALUES (41062, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41062, 67116386, 0, 0);
+
+/* Weenie - MeleeWeapons - Spear (23695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23695;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23695, 'spearmonsterextreme');
@@ -11596,6 +12373,9 @@ VALUES (23695, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23695, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Flaming Club (47390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47390;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47390, 'ace47390-flamingclub');
 
@@ -11632,6 +12412,9 @@ VALUES (47390, 13, True)
      , (47390, 14, True)
      , (47390, 19, True)
      , (47390, 22, True);
+
+/* Weenie - MeleeWeapons - Tachi (47643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47643;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47643, 'ace47643-tachi');
@@ -11680,6 +12463,9 @@ VALUES (47643, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47643, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Cestus (23636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23636;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23636, 'cestusmonsterextreme');
@@ -11731,6 +12517,9 @@ VALUES (23636, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23636, 0, 16783508);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48495;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48495, 'ace48495-flamingkatar');
 
@@ -11767,6 +12556,9 @@ VALUES (48495, 13, True)
      , (48495, 14, True)
      , (48495, 19, True)
      , (48495, 22, True);
+
+/* Weenie - MeleeWeapons - Tachi (23699) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23699;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23699, 'tachidrudgeextreme');
@@ -11815,6 +12607,9 @@ VALUES (23699, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23699, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Katar (23673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23673;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23673, 'katarmonsterextreme');
 
@@ -11861,6 +12656,9 @@ VALUES (23673, 0, 83886710, 83886710)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23673, 0, 16777920);
+
+/* Weenie - MeleeWeapons - Tachi (47644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47644;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47644, 'ace47644-tachi');
@@ -11910,6 +12708,9 @@ VALUES (47644, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47644, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48496, 'ace48496-flamingkatar');
 
@@ -11947,6 +12748,9 @@ VALUES (48496, 13, True)
      , (48496, 19, True)
      , (48496, 22, True);
 
+/* Weenie - MeleeWeapons - Acid War Hammer (3905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3905;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3905, 'warhammeracid');
 
@@ -11982,6 +12786,9 @@ VALUES (3905, 13, True)
      , (3905, 14, True)
      , (3905, 19, True)
      , (3905, 22, True);
+
+/* Weenie - MeleeWeapons - Fire Tachi (23706) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23706;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23706, 'tachifiredrudgeextreme');
@@ -12031,6 +12838,9 @@ VALUES (23706, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23706, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Nekode (47997) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47997;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47997, 'ace47997-nekode');
 
@@ -12079,6 +12889,9 @@ VALUES (47997, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47997, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Frost Flanged Mace (30590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30590, 'maceflangedfrost');
 
@@ -12124,6 +12937,9 @@ VALUES (30590, 0, 83896666, 83896666);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30590, 0, 16791841);
+
+/* Weenie - MeleeWeapons - Electric Spiked Club (7790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7790;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7790, 'clubspikedelectric');
@@ -12174,6 +12990,9 @@ VALUES (7790, 0, 83889088, 83889088)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7790, 0, 16784596);
 
+/* Weenie - MeleeWeapons - Raven Sabra (31386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31386;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31386, 'ace31386-ravensabra');
 
@@ -12218,6 +13037,9 @@ VALUES (31386, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31386, 0, 16791843);
+
+/* Weenie - MeleeWeapons - Raven Sabra (31390) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31390;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31390, 'ace31390-ravensabra');
@@ -12264,6 +13086,9 @@ VALUES (31390, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31390, 0, 16791843);
 
+/* Weenie - MeleeWeapons - Raven Sabra (31388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31388;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31388, 'ace31388-ravensabra');
 
@@ -12308,6 +13133,9 @@ VALUES (31388, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31388, 0, 16791843);
+
+/* Weenie - MeleeWeapons - Raven Sabra (31387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31387;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31387, 'ace31387-ravensabra');
@@ -12354,6 +13182,9 @@ VALUES (31387, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31387, 0, 16791843);
 
+/* Weenie - MeleeWeapons - Raven Sabra (31389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31389;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31389, 'ace31389-ravensabra');
 
@@ -12398,6 +13229,9 @@ VALUES (31389, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31389, 0, 16791843);
+
+/* Weenie - MeleeWeapons - Tachi (47645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47645;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47645, 'ace47645-tachi');
@@ -12447,6 +13281,9 @@ VALUES (47645, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47645, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Katar (48023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48023;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48023, 'ace48023-acidkatar');
 
@@ -12484,6 +13321,9 @@ VALUES (48023, 13, True)
      , (48023, 19, True)
      , (48023, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Ono (47960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47960, 'ace47960-lightningono');
 
@@ -12520,6 +13360,9 @@ VALUES (47960, 13, True)
      , (47960, 14, True)
      , (47960, 19, True)
      , (47960, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Hammer (542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 542;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (542, 'lugianhammer');
@@ -12560,6 +13403,9 @@ VALUES (542, 13, True)
      , (542, 19, True)
      , (542, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Mace (23757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23757;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23757, 'lugianmaceextreme');
 
@@ -12598,6 +13444,9 @@ VALUES (23757, 13, True)
      , (23757, 14, True)
      , (23757, 19, True)
      , (23757, 22, True);
+
+/* Weenie - MeleeWeapons - Pickaxe (7580) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7580;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7580, 'lugianpickaxe');
@@ -12639,6 +13488,9 @@ VALUES (7580, 13, True)
      , (7580, 19, True)
      , (7580, 22, True);
 
+/* Weenie - MeleeWeapons - Tachi of Grace (34341) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34341;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34341, 'ace34341-tachiofgrace');
 
@@ -12674,6 +13526,9 @@ VALUES (34341, 13, True)
      , (34341, 14, True)
      , (34341, 19, True)
      , (34341, 22, True);
+
+/* Weenie - MeleeWeapons - Hollow Two Handed Spear (41637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41637;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41637, 'ace41637-hollowtwohandedspear');
@@ -12714,6 +13569,9 @@ VALUES (41637, 13, True)
      , (41637, 19, True)
      , (41637, 22, True);
 
+/* Weenie - MeleeWeapons - Hollow Katar (7567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7567;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7567, 'katarhollow');
 
@@ -12752,6 +13610,9 @@ VALUES (7567, 13, True)
      , (7567, 15, True)
      , (7567, 19, True)
      , (7567, 22, True);
+
+/* Weenie - MeleeWeapons - Sword of Lost Light (24598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24598;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24598, 'swordlostlightnew');
@@ -12792,6 +13653,9 @@ VALUES (24598, 13, True)
      , (24598, 14, True)
      , (24598, 19, True)
      , (24598, 22, True);
+
+/* Weenie - MeleeWeapons - Brador's Frozen Eye (45461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45461;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45461, 'ace45461-bradorsfrozeneye');
@@ -12843,6 +13707,9 @@ VALUES (45461, 0, 83897107, 83897107);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45461, 0, 16792011);
 
+/* Weenie - MeleeWeapons - Pike (41046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41046;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41046, 'ace41046-pike');
 
@@ -12889,6 +13756,9 @@ VALUES (41046, 0, 83896665, 83896665)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41046, 0, 16794406);
+
+/* Weenie - MeleeWeapons - Lightning Knuckles (30612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30612;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30612, 'knuckleselectric');
@@ -12939,6 +13809,9 @@ VALUES (30612, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30612, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Lightning Kaskara (3811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3811;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3811, 'kaskaraelectric');
 
@@ -12974,6 +13847,9 @@ VALUES (3811, 13, True)
      , (3811, 14, True)
      , (3811, 19, True)
      , (3811, 22, True);
+
+/* Weenie - MeleeWeapons - Khanjar (45431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45431;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45431, 'ace45431-khanjar');
@@ -13025,6 +13901,9 @@ VALUES (45431, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45431, 0, 16777927);
 
+/* Weenie - MeleeWeapons - Frost Dirk (22444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22444;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22444, 'dirkfrost');
 
@@ -13074,6 +13953,9 @@ VALUES (22444, 0, 83886739, 83886739)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22444, 0, 16788591);
+
+/* Weenie - MeleeWeapons - Flaming War Axe (31772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31772;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31772, 'ace31772-flamingwaraxe');
@@ -13126,6 +14008,9 @@ VALUES (31772, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31772, 0, 16777886);
 
+/* Weenie - MeleeWeapons - Flaming Pike (41049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41049;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41049, 'ace41049-flamingpike');
 
@@ -13172,6 +14057,9 @@ VALUES (41049, 0, 83896665, 83896665)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41049, 0, 16794406);
+
+/* Weenie - MeleeWeapons - Flaming Lugian Hammer (31767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31767;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31767, 'ace31767-flaminglugianhammer');
@@ -13224,6 +14112,9 @@ VALUES (31767, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31767, 0, 16792609);
 
+/* Weenie - MeleeWeapons - Fire Trident (7792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7792;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7792, 'tridentfire');
 
@@ -13274,6 +14165,9 @@ VALUES (7792, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7792, 0, 16784608);
+
+/* Weenie - MeleeWeapons - Electric Trident (7794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7794;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7794, 'tridentelectric');
@@ -13326,6 +14220,9 @@ VALUES (7794, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7794, 0, 16784608);
 
+/* Weenie - MeleeWeapons - Electric Naginata (7798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7798;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7798, 'swordstaffelectric');
 
@@ -13375,6 +14272,9 @@ VALUES (7798, 0, 83886709, 83886709)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7798, 0, 16784607);
 
+/* Weenie - MeleeWeapons - Dagger (45421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45421;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45421, 'ace45421-dagger');
 
@@ -13423,6 +14323,9 @@ VALUES (45421, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45421, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Acid Greataxe (41053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41053, 'ace41053-acidgreataxe');
 
@@ -13469,6 +14372,9 @@ VALUES (41053, 0, 83896665, 83896665)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41053, 0, 16794283);
+
+/* Weenie - MeleeWeapons - Lugian Axe (31769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31769;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31769, 'ace31769-lugianaxe');
@@ -13525,6 +14431,9 @@ VALUES (31769, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31769, 0, 16777886);
 
+/* Weenie - MeleeWeapons - Black Thistle (45441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45441;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45441, 'ace45441-blackthistle');
 
@@ -13570,6 +14479,9 @@ VALUES (45441, 0, 83897093, 83897093);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45441, 0, 16791997);
+
+/* Weenie - MeleeWeapons - Lugian Morning Star (45928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45928;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45928, 'ace45928-lugianmorningstar');
@@ -13621,6 +14533,9 @@ VALUES (45928, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45928, 0, 16777932);
 
+/* Weenie - MeleeWeapons - Spadone (40618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40618;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40618, 'ace40618-spadone');
 
@@ -13668,6 +14583,9 @@ VALUES (40618, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40618, 0, 16791762);
+
+/* Weenie - MeleeWeapons - Blackfire Smoldering Two Handed Atlan Sword (46109) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46109;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46109, 'ace46109-blackfiresmolderingtwohandedatlansword');
@@ -13722,6 +14640,9 @@ VALUES (46109, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46109, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Starter Knife (527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 527;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (527, 'newbieknife');
 
@@ -13758,6 +14679,9 @@ VALUES (527, 13, True)
      , (527, 14, True)
      , (527, 19, True)
      , (527, 22, True);
+
+/* Weenie - MeleeWeapons - Training Dirk (12739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12739;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12739, 'daggertraining');
@@ -13804,6 +14728,9 @@ VALUES (12739, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12739, 0, 16777993);
+
+/* Weenie - MeleeWeapons - Crystal Sword (12030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12030;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12030, 'swordcrystal');
@@ -13855,6 +14782,9 @@ VALUES (12030, 0, 83889688, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12030, 0, 16783206);
 
+/* Weenie - MeleeWeapons - Soul Staff (12029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12029;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12029, 'stafflugianboss');
 
@@ -13888,6 +14818,9 @@ VALUES (12029, 13, True)
      , (12029, 14, True)
      , (12029, 19, True)
      , (12029, 22, True);
+
+/* Weenie - MeleeWeapons - Mace (331) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 331;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (331, 'mace');
@@ -13940,6 +14873,9 @@ VALUES (331, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (331, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Lugian Hammer (23755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23755;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23755, 'lugianhammerlow');
 
@@ -13978,6 +14914,9 @@ VALUES (23755, 13, True)
      , (23755, 14, True)
      , (23755, 19, True)
      , (23755, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Morning Star (23765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23765, 'lugianmorningstarhollowlow');
@@ -14019,6 +14958,9 @@ VALUES (23765, 13, True)
      , (23765, 19, True)
      , (23765, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Axe (23742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23742;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23742, 'lugianaxemid');
 
@@ -14057,6 +14999,9 @@ VALUES (23742, 13, True)
      , (23742, 14, True)
      , (23742, 19, True)
      , (23742, 22, True);
+
+/* Weenie - MeleeWeapons - Fork (35672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35672;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35672, 'ace35672-fork');
@@ -14109,6 +15054,9 @@ VALUES (35672, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35672, 0, 16784608);
 
+/* Weenie - MeleeWeapons - Nekode (47922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47922;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47922, 'ace47922-nekode');
 
@@ -14157,6 +15105,9 @@ VALUES (47922, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47922, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Lightning Ono (47930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47930;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47930, 'ace47930-lightningono');
 
@@ -14193,6 +15144,9 @@ VALUES (47930, 13, True)
      , (47930, 14, True)
      , (47930, 19, True)
      , (47930, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Tetsubo (40636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40636;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40636, 'ace40636-acidtetsubo');
@@ -14246,6 +15200,9 @@ VALUES (40636, 0, 83897334, 83897334)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40636, 0, 16794240);
 
+/* Weenie - MeleeWeapons - Lugian Hammer (31764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31764;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31764, 'ace31764-lugianhammer');
 
@@ -14297,6 +15254,9 @@ VALUES (31764, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31764, 0, 16792609);
 
+/* Weenie - MeleeWeapons - Hammer of Lightning  (1436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1436;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1436, 'hammerlightning');
 
@@ -14330,6 +15290,9 @@ VALUES (1436, 13, True)
      , (1436, 14, True)
      , (1436, 19, True)
      , (1436, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Katar (47921) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47921;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47921, 'ace47921-lightningkatar');
@@ -14367,6 +15330,9 @@ VALUES (47921, 13, True)
      , (47921, 14, True)
      , (47921, 19, True)
      , (47921, 22, True);
+
+/* Weenie - MeleeWeapons - Naginata (7771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7771, 'swordstaff');
@@ -14417,6 +15383,9 @@ VALUES (7771, 0, 83886709, 83886709)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7771, 0, 16784607);
 
+/* Weenie - MeleeWeapons - Soul Bound Sword (45529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45529;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45529, 'ace45529-soulboundsword');
 
@@ -14464,6 +15433,9 @@ VALUES (45529, 0, 83889235, 83892492)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45529, 0, 16783995);
+
+/* Weenie - MeleeWeapons - Acid Spear (47713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47713;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47713, 'ace47713-acidspear');
@@ -14513,6 +15485,9 @@ VALUES (47713, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47713, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Flaming Mace (47484) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47484;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47484, 'ace47484-flamingmace');
 
@@ -14560,6 +15535,9 @@ VALUES (47484, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47484, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Flaming Spear (47770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47770;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47770, 'ace47770-flamingspear');
@@ -14609,6 +15587,9 @@ VALUES (47770, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47770, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Flaming Club (3768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3768;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3768, 'clubfire');
 
@@ -14651,6 +15632,9 @@ VALUES (3768, 13, True)
      , (3768, 19, True)
      , (3768, 22, True);
 
+/* Weenie - MeleeWeapons - Sacrificial Dagger (28065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28065;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28065, 'daggergalaeralnew');
 
@@ -14688,6 +15672,9 @@ VALUES (28065, 13, True)
      , (28065, 19, True)
      , (28065, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Nekode (4197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4197;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4197, 'nekodeacid');
 
@@ -14723,6 +15710,9 @@ VALUES (4197, 13, True)
      , (4197, 14, True)
      , (4197, 19, True)
      , (4197, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Stick (31791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31791;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31791, 'ace31791-flamingstick');
@@ -14775,6 +15765,9 @@ VALUES (31791, 0, 83897334, 83897334);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31791, 0, 16792611);
 
+/* Weenie - MeleeWeapons - Acid Mace (47427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47427;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47427, 'ace47427-acidmace');
 
@@ -14822,6 +15815,9 @@ VALUES (47427, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47427, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Katar (47980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47980;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47980, 'ace47980-katar');
@@ -14871,6 +15867,9 @@ VALUES (47980, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47980, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Tachi (47642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47642;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47642, 'ace47642-tachi');
 
@@ -14918,6 +15917,9 @@ VALUES (47642, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47642, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Spiked Club (7768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7768;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7768, 'clubspiked');
@@ -14968,6 +15970,9 @@ VALUES (7768, 0, 83889088, 83889088)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7768, 0, 16784596);
 
+/* Weenie - MeleeWeapons - Frost Morning Star (3938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3938;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3938, 'morningstarfrost');
 
@@ -15015,6 +16020,9 @@ VALUES (3938, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3938, 0, 16777932);
 
+/* Weenie - MeleeWeapons - Shashqa (41067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41067;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41067, 'ace41067-shashqa');
 
@@ -15060,6 +16068,9 @@ VALUES (41067, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41067, 0, 16794291);
+
+/* Weenie - MeleeWeapons - Frost Dericost Blade (31758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31758;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31758, 'ace31758-frostdericostblade');
@@ -15112,6 +16123,9 @@ VALUES (31758, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31758, 0, 16792612);
 
+/* Weenie - MeleeWeapons - Flaming Nodachi (40763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40763;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40763, 'ace40763-flamingnodachi');
 
@@ -15160,6 +16174,9 @@ VALUES (40763, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40763, 0, 16794261);
 
+/* Weenie - MeleeWeapons - Flaming Long Sword (3883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3883;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3883, 'swordlongfire');
 
@@ -15201,6 +16218,9 @@ VALUES (3883, 13, True)
      , (3883, 14, True)
      , (3883, 19, True)
      , (3883, 22, True);
+
+/* Weenie - MeleeWeapons - Yaoji (45406) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45406;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45406, 'ace45406-yaoji');
@@ -15251,6 +16271,9 @@ VALUES (45406, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45406, 0, 16777984);
 
+/* Weenie - MeleeWeapons - Worn Old Cestus (31494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31494;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31494, 'ace31494-wornoldcestus');
 
@@ -15285,6 +16308,9 @@ VALUES (31494, 13, True)
      , (31494, 14, True)
      , (31494, 19, True)
      , (31494, 22, True);
+
+/* Weenie - MeleeWeapons - Worn Old Axe (31490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31490;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31490, 'ace31490-wornoldaxe');
@@ -15321,6 +16347,9 @@ VALUES (31490, 13, True)
      , (31490, 19, True)
      , (31490, 22, True);
 
+/* Weenie - MeleeWeapons - Tibri's Fire Spear (3645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3645;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3645, 'tibrisfirespear');
 
@@ -15354,6 +16383,9 @@ VALUES (3645, 13, True)
      , (3645, 14, True)
      , (3645, 19, True)
      , (3645, 22, True);
+
+/* Weenie - MeleeWeapons - Spear of Winter Flame (32497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32497;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32497, 'ace32497-spearofwinterflame');
@@ -15389,6 +16421,9 @@ VALUES (32497, 13, True)
      , (32497, 14, True)
      , (32497, 19, True)
      , (32497, 22, True);
+
+/* Weenie - MeleeWeapons - Staff of Coercion (25590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25590;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25590, 'quarterstaffkendmar');
@@ -15437,6 +16472,9 @@ VALUES (25590, 0, 83893314, 83893314)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25590, 0, 16789634);
 
+/* Weenie - MeleeWeapons - Banished Point (30861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30861, 'daggerbanished');
 
@@ -15470,6 +16508,9 @@ VALUES (30861, 13, True)
      , (30861, 14, True)
      , (30861, 19, True)
      , (30861, 22, True);
+
+/* Weenie - MeleeWeapons - Mace of Dissonance (25906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25906;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25906, 'macemite');
@@ -15505,6 +16546,9 @@ VALUES (25906, 13, True)
      , (25906, 14, True)
      , (25906, 19, True)
      , (25906, 22, True);
+
+/* Weenie - MeleeWeapons - Rapier (45395) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45395;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45395, 'ace45395-rapier');
@@ -15559,6 +16603,9 @@ VALUES (45395, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45395, 0, 16777934);
 
+/* Weenie - MeleeWeapons - Princely Runed Partizan (32980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32980;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32980, 'ace32980-princelyrunedpartizan');
 
@@ -15603,6 +16650,9 @@ VALUES (32980, 0, 83896667, 83896667);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32980, 0, 16791842);
+
+/* Weenie - MeleeWeapons - Princely Runed Dolabra (32975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32975;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32975, 'ace32975-princelyruneddolabra');
@@ -15653,6 +16703,9 @@ VALUES (32975, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32975, 0, 16791840);
 
+/* Weenie - MeleeWeapons - Poniard (30596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30596;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30596, 'daggerponiard');
 
@@ -15700,6 +16753,9 @@ VALUES (30596, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30596, 0, 16792136);
 
+/* Weenie - MeleeWeapons - Lightning Dabus (3775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3775;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3775, 'dabuselectric');
 
@@ -15735,6 +16791,9 @@ VALUES (3775, 13, True)
      , (3775, 14, True)
      , (3775, 19, True)
      , (3775, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Simi (45405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45405;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45405, 'ace45405-frostsimi');
@@ -15772,6 +16831,9 @@ VALUES (45405, 13, True)
      , (45405, 14, True)
      , (45405, 19, True)
      , (45405, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Yari (3914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3914, 'yarielectric');
@@ -15820,6 +16882,9 @@ VALUES (3914, 0, 83886737, 83886737)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3914, 0, 16777983);
+
+/* Weenie - MeleeWeapons - Lightning Tofun (3898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3898;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3898, 'tofunelectric');
@@ -15872,6 +16937,9 @@ VALUES (3898, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3898, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Lightning Simi (45403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45403;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45403, 'ace45403-lightningsimi');
 
@@ -15910,6 +16978,9 @@ VALUES (45403, 13, True)
      , (45403, 22, True)
      , (45403, 91, True);
 
+/* Weenie - MeleeWeapons - Frost Scimitar (3852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3852, 'scimitarfrost');
 
@@ -15947,6 +17018,9 @@ VALUES (3852, 13, True)
      , (3852, 19, True)
      , (3852, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Scimitar (3850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3850;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3850, 'scimitarelectric');
 
@@ -15983,6 +17057,9 @@ VALUES (3850, 13, True)
      , (3850, 14, True)
      , (3850, 19, True)
      , (3850, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Jo (22155) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22155;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22155, 'joelectricnew');
@@ -16035,6 +17112,9 @@ VALUES (22155, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22155, 0, 16788504);
 
+/* Weenie - MeleeWeapons - Lightning Hand Wraps (45120) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45120;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45120, 'ace45120-lightninghandwraps');
 
@@ -16085,6 +17165,9 @@ VALUES (45120, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45120, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Lightning Dagger (45423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45423;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45423, 'ace45423-lightningdagger');
 
@@ -16121,6 +17204,9 @@ VALUES (45423, 13, True)
      , (45423, 14, True)
      , (45423, 19, True)
      , (45423, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Budiaq (3763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3763;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3763, 'budiaqelectric');
@@ -16170,6 +17256,9 @@ VALUES (3763, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3763, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Lightning Bastone (30607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30607;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30607, 'staffmeleebastoneelectric');
 
@@ -16217,6 +17306,9 @@ VALUES (30607, 0, 83897173, 83897173);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30607, 0, 16792138);
 
+/* Weenie - MeleeWeapons - Frost Yaoji (45410) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45410;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45410, 'ace45410-frostyaoji');
 
@@ -16253,6 +17345,9 @@ VALUES (45410, 13, True)
      , (45410, 14, True)
      , (45410, 19, True)
      , (45410, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Khanjar (45435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45435;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45435, 'ace45435-frostkhanjar');
@@ -16294,6 +17389,9 @@ VALUES (45435, 13, True)
      , (45435, 19, True)
      , (45435, 22, True);
 
+/* Weenie - MeleeWeapons - Frost Hammer (45117) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45117;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45117, 'ace45117-frosthammer');
 
@@ -16331,6 +17429,9 @@ VALUES (45117, 13, True)
      , (45117, 19, True)
      , (45117, 22, True);
 
+/* Weenie - MeleeWeapons - Frost Dagger (45425) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45425;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45425, 'ace45425-frostdagger');
 
@@ -16367,6 +17468,9 @@ VALUES (45425, 13, True)
      , (45425, 14, True)
      , (45425, 19, True)
      , (45425, 22, True);
+
+/* Weenie - MeleeWeapons - Hand Wraps (45118) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45118;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45118, 'ace45118-handwraps');
@@ -16418,6 +17522,9 @@ VALUES (45118, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45118, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Hammer (45113) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45113;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45113, 'ace45113-hammer');
 
@@ -16467,6 +17574,9 @@ VALUES (45113, 0, 83889288, 83889288)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45113, 0, 16777980);
 
+/* Weenie - MeleeWeapons - Flaming Scimitar (3851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3851;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3851, 'scimitarfire');
 
@@ -16502,6 +17612,9 @@ VALUES (3851, 13, True)
      , (3851, 14, True)
      , (3851, 19, True)
      , (3851, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Naginata (7795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7795;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7795, 'swordstafffrost');
@@ -16552,6 +17665,9 @@ VALUES (7795, 0, 83886709, 83886709)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7795, 0, 16784607);
+
+/* Weenie - MeleeWeapons - Frost Jo (22157) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22157;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22157, 'jofrostnew');
@@ -16604,6 +17720,9 @@ VALUES (22157, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22157, 0, 16788504);
 
+/* Weenie - MeleeWeapons - Frost Hand Wraps (45122) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45122;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45122, 'ace45122-frosthandwraps');
 
@@ -16654,6 +17773,9 @@ VALUES (45122, 0, 83896019, 83896019);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45122, 0, 16792139);
+
+/* Weenie - MeleeWeapons - Flaming Jo (22156) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22156;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22156, 'jofirenew');
@@ -16706,6 +17828,9 @@ VALUES (22156, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22156, 0, 16788504);
 
+/* Weenie - MeleeWeapons - Flaming Hand Wraps (45121) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45121;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45121, 'ace45121-flaminghandwraps');
 
@@ -16756,6 +17881,9 @@ VALUES (45121, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45121, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Flaming Dabus (3776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3776;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3776, 'dabusfire');
 
@@ -16792,6 +17920,9 @@ VALUES (3776, 13, True)
      , (3776, 14, True)
      , (3776, 19, True)
      , (3776, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Claw (31787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31787;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31787, 'ace31787-flamingclaw');
@@ -16844,6 +17975,9 @@ VALUES (31787, 0, 83897338, 83897338);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31787, 0, 16792615);
 
+/* Weenie - MeleeWeapons - Flaming Bastone (30608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30608;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30608, 'staffmeleebastonefire');
 
@@ -16890,6 +18024,9 @@ VALUES (30608, 0, 83897173, 83897173);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30608, 0, 16792138);
+
+/* Weenie - MeleeWeapons - Fire Spine Glaive (31782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31782;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31782, 'ace31782-firespineglaive');
@@ -16940,6 +18077,9 @@ VALUES (31782, 0, 83897337, 83897337);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31782, 0, 16792614);
 
+/* Weenie - MeleeWeapons - Fire Naginata (7796) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7796;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7796, 'swordstafffire');
 
@@ -16988,6 +18128,9 @@ VALUES (7796, 0, 83886709, 83886709)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7796, 0, 16784607);
+
+/* Weenie - MeleeWeapons - Fire Board with Nail (31777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31777;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31777, 'ace31777-fireboardwithnail');
@@ -17039,6 +18182,9 @@ VALUES (31777, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31777, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Dagger of Tikola (5017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5017;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5017, 'daggertikola');
 
@@ -17087,6 +18233,9 @@ VALUES (5017, 0, 83888778, 83888778)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5017, 0, 16777927);
+
+/* Weenie - MeleeWeapons - Claw (31784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31784;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31784, 'ace31784-claw');
@@ -17140,6 +18289,9 @@ VALUES (31784, 0, 83897338, 83897338);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31784, 0, 16792615);
 
+/* Weenie - MeleeWeapons - Acid Yaoji (45407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45407, 'ace45407-acidyaoji');
 
@@ -17176,6 +18328,9 @@ VALUES (45407, 13, True)
      , (45407, 14, True)
      , (45407, 19, True)
      , (45407, 22, True);
+
+/* Weenie - MeleeWeapons - Budiaq (308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 308;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (308, 'budiaq');
@@ -17225,6 +18380,9 @@ VALUES (308, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (308, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Banished Staff (30880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30880;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30880, 'staffbanished');
 
@@ -17269,6 +18427,9 @@ VALUES (30880, 0, 83892391, 83892391)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30880, 0, 16791374);
+
+/* Weenie - MeleeWeapons - Acid Yari (3913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3913;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3913, 'yariacid');
@@ -17317,6 +18478,9 @@ VALUES (3913, 0, 83886737, 83886737)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3913, 0, 16777983);
+
+/* Weenie - MeleeWeapons - Acid Naginata (7797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7797;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7797, 'swordstaffacid');
@@ -17367,6 +18531,9 @@ VALUES (7797, 0, 83886709, 83886709)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7797, 0, 16784607);
+
+/* Weenie - MeleeWeapons - Acid Nabut (22159) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22159;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22159, 'nabutacidnew');
@@ -17419,6 +18586,9 @@ VALUES (22159, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22159, 0, 16788503);
 
+/* Weenie - MeleeWeapons - Acid Magari Yari (41042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41042;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41042, 'ace41042-acidmagariyari');
 
@@ -17466,6 +18636,9 @@ VALUES (41042, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41042, 0, 16794282);
 
+/* Weenie - MeleeWeapons - Acid Katar (3818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3818;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3818, 'kataracid');
 
@@ -17502,6 +18675,9 @@ VALUES (3818, 13, True)
      , (3818, 14, True)
      , (3818, 19, True)
      , (3818, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Flanged Mace (30587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30587;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30587, 'maceflangedacid');
@@ -17550,6 +18726,9 @@ VALUES (30587, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30587, 0, 16791841);
 
+/* Weenie - MeleeWeapons - Acid Dabus (3774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3774;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3774, 'dabusacid');
 
@@ -17587,6 +18766,9 @@ VALUES (3774, 13, True)
      , (3774, 19, True)
      , (3774, 22, True)
      , (3774, 91, True);
+
+/* Weenie - MeleeWeapons - Acid Claw (31785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31785;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31785, 'ace31785-acidclaw');
@@ -17640,6 +18822,9 @@ VALUES (31785, 0, 83897338, 83897338);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31785, 0, 16792615);
 
+/* Weenie - MeleeWeapons - Acid Budiaq (3762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3762;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3762, 'budiaqacid');
 
@@ -17687,6 +18872,9 @@ VALUES (3762, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3762, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Lugian Hammer (31765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31765, 'ace31765-acidlugianhammer');
@@ -17739,6 +18927,9 @@ VALUES (31765, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31765, 0, 16792609);
 
+/* Weenie - MeleeWeapons - Acid Hand Wraps (45119) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45119;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45119, 'ace45119-acidhandwraps');
 
@@ -17788,6 +18979,9 @@ VALUES (45119, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45119, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Acid Dagger (45422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45422, 'ace45422-aciddagger');
 
@@ -17823,6 +19017,9 @@ VALUES (45422, 13, True)
      , (45422, 14, True)
      , (45422, 19, True)
      , (45422, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Nabut (22162) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22162;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22162, 'nabutfrostnew');
@@ -17874,6 +19071,9 @@ VALUES (22162, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22162, 0, 16788503);
 
+/* Weenie - MeleeWeapons - Academy Spadone (41514) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41514;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41514, 'ace41514-academyspadone');
 
@@ -17919,6 +19119,9 @@ VALUES (41514, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41514, 0, 16791762);
 
+/* Weenie - MeleeWeapons - Lightning Hammer (45115) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45115;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45115, 'ace45115-lightninghammer');
 
@@ -17954,6 +19157,9 @@ VALUES (45115, 13, True)
      , (45115, 14, True)
      , (45115, 19, True)
      , (45115, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Rapier (22791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22791;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22791, 'swordrapierbanditextreme');
@@ -18005,6 +19211,9 @@ VALUES (22791, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22791, 0, 16777934);
 
+/* Weenie - MeleeWeapons - Bandit Short Sword (22794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22794;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22794, 'swordshortbanditextreme');
 
@@ -18055,6 +19264,9 @@ VALUES (22794, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22794, 0, 16777968);
 
+/* Weenie - MeleeWeapons - Khanjar (22782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22782;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22782, 'khanjarbanditextreme');
 
@@ -18104,6 +19316,9 @@ VALUES (22782, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22782, 0, 16777927);
 
+/* Weenie - MeleeWeapons - Jambiya (22779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22779, 'jambiyabanditextreme');
 
@@ -18149,6 +19364,9 @@ VALUES (22779, 0, 83886747, 83886747)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22779, 0, 16777986);
+
+/* Weenie - MeleeWeapons - Knife (22785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22785;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22785, 'knifebanditextreme');
@@ -18199,6 +19417,9 @@ VALUES (22785, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22785, 0, 16777925);
 
+/* Weenie - MeleeWeapons - Bandit Dagger (22776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22776;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22776, 'daggerbanditextreme');
 
@@ -18245,6 +19466,9 @@ VALUES (22776, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22776, 0, 16777993);
+
+/* Weenie - MeleeWeapons - Bandit Simi (22788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22788, 'simibanditextreme');
@@ -18293,6 +19517,9 @@ VALUES (22788, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22788, 0, 16777945);
 
+/* Weenie - MeleeWeapons - Bandit Yaoji (22797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22797;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22797, 'yaojibanditextreme');
 
@@ -18340,6 +19567,9 @@ VALUES (22797, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22797, 0, 16777984);
 
+/* Weenie - MeleeWeapons - Flaming Club (47392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47392;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47392, 'ace47392-flamingclub');
 
@@ -18376,6 +19606,9 @@ VALUES (47392, 13, True)
      , (47392, 14, True)
      , (47392, 19, True)
      , (47392, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Mace (47487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47487;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47487, 'ace47487-flamingmace');
@@ -18425,6 +19658,9 @@ VALUES (47487, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47487, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Bandit Dagger (12052) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12052;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12052, 'daggerbandit');
 
@@ -18472,6 +19708,9 @@ VALUES (12052, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12052, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Tachi (23136) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23136;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23136, 'tachivod');
 
@@ -18518,6 +19757,9 @@ VALUES (23136, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23136, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47626) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47626;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47626, 'ace47626-acidtachi');
@@ -18568,6 +19810,9 @@ VALUES (47626, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47626, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Ono (48034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48034;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48034, 'ace48034-lightningono');
 
@@ -18604,6 +19849,9 @@ VALUES (48034, 13, True)
      , (48034, 14, True)
      , (48034, 19, True)
      , (48034, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47660) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47660;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47660, 'ace47660-lightningtachi');
@@ -18654,6 +19902,9 @@ VALUES (47660, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47660, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Bandit Yaoji (12083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12083;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12083, 'yaojibandit');
 
@@ -18700,6 +19951,9 @@ VALUES (12083, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12083, 0, 16777984);
+
+/* Weenie - MeleeWeapons - Bandit Khanjar (12062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12062;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12062, 'khanjarbandit');
@@ -18750,6 +20004,9 @@ VALUES (12062, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12062, 0, 16777927);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (47984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47984;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47984, 'ace47984-lightningnekode');
 
@@ -18786,6 +20043,9 @@ VALUES (47984, 13, True)
      , (47984, 14, True)
      , (47984, 19, True)
      , (47984, 22, True);
+
+/* Weenie - MeleeWeapons - Quadrelle (29969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29969;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29969, 'maceknightuber');
@@ -18832,6 +20092,9 @@ VALUES (29969, 0, 83898004, 83898004);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29969, 0, 16791977);
 
+/* Weenie - MeleeWeapons - Spadone (29975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29975;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29975, 'swordknightextreme');
 
@@ -18875,6 +20138,9 @@ VALUES (29975, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29975, 0, 16791762);
+
+/* Weenie - MeleeWeapons - Frost Spine Glaive (31778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31778;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31778, 'ace31778-frostspineglaive');
@@ -18924,6 +20190,9 @@ VALUES (31778, 0, 83897337, 83897337);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31778, 0, 16792614);
 
+/* Weenie - MeleeWeapons - Poniard (30947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30947;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30947, 'daggerbanditmageextreme');
 
@@ -18971,6 +20240,9 @@ VALUES (30947, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30947, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Spadone (29979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29979, 'swordknightuber');
 
@@ -19014,6 +20286,9 @@ VALUES (29979, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29979, 0, 16791762);
+
+/* Weenie - MeleeWeapons - Fire Spadone (40616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40616;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40616, 'ace40616-firespadone');
@@ -19060,6 +20335,9 @@ VALUES (40616, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40616, 0, 16791762);
 
+/* Weenie - MeleeWeapons - Quadrelle (29966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29966;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29966, 'maceknighthigh');
 
@@ -19104,6 +20382,9 @@ VALUES (29966, 0, 83898004, 83898004);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29966, 0, 16791977);
+
+/* Weenie - MeleeWeapons - Frost Claw (31783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31783;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31783, 'ace31783-frostclaw');
@@ -19156,6 +20437,9 @@ VALUES (31783, 0, 83897338, 83897338);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31783, 0, 16792615);
 
+/* Weenie - MeleeWeapons - Epee (45099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45099;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45099, 'ace45099-epee');
 
@@ -19204,6 +20488,9 @@ VALUES (45099, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45099, 0, 16795944);
 
+/* Weenie - MeleeWeapons - Frost Poniard (30599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30599;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30599, 'daggerponiardfrost');
 
@@ -19250,6 +20537,9 @@ VALUES (30599, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30599, 0, 16792136);
 
+/* Weenie - MeleeWeapons - Flaming Katar (3820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3820;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3820, 'katarfire');
 
@@ -19288,6 +20578,9 @@ VALUES (3820, 13, True)
      , (3820, 14, True)
      , (3820, 19, True)
      , (3820, 22, True);
+
+/* Weenie - MeleeWeapons - Deadly Hollow Sword (15450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15450;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15450, 'swordhollownew');
@@ -19328,6 +20621,9 @@ VALUES (15450, 13, True)
      , (15450, 15, True)
      , (15450, 19, True)
      , (15450, 22, True);
+
+/* Weenie - MeleeWeapons - Nekode (48026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48026;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48026, 'ace48026-nekode');
@@ -19376,6 +20672,9 @@ VALUES (48026, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48026, 0, 16783509);
+
+/* Weenie - MeleeWeapons - Rynthid Tentacle Greatspear (51968) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51968;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51968, 'ace51968-rynthidtentaclegreatspear');
@@ -19426,6 +20725,9 @@ VALUES (51968, 0, 83899155, 83899155)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51968, 0, 16797051);
 
+/* Weenie - MeleeWeapons - Scimitar (339) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 339;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (339, 'scimitar');
 
@@ -19473,6 +20775,9 @@ VALUES (339, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (339, 0, 16777942);
+
+/* Weenie - MeleeWeapons - Bronze Morning Star (15890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15890;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15890, 'morningstarstatuebronze');
@@ -19523,6 +20828,9 @@ VALUES (15890, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15890, 0, 16777932);
 
+/* Weenie - MeleeWeapons - Stormwood Sword (53316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53316;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53316, 'ace53316-stormwoodsword');
 
@@ -19564,6 +20872,9 @@ VALUES (53316, 13, True)
      , (53316, 14, True)
      , (53316, 19, True)
      , (53316, 22, True);
+
+/* Weenie - MeleeWeapons - Rynthid Tentacle Spear (51967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51967;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51967, 'ace51967-rynthidtentaclespear');
@@ -19610,6 +20921,9 @@ VALUES (51967, 0, 83899155, 83899155)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51967, 0, 16797051);
+
+/* Weenie - MeleeWeapons - Acid Flamberge (30579) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30579;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30579, 'swordflambergeacid');
@@ -19660,6 +20974,9 @@ VALUES (30579, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30579, 0, 16791760);
 
+/* Weenie - MeleeWeapons - Frost Spiked Club (7787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7787;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7787, 'clubspikedfrost');
 
@@ -19708,6 +21025,9 @@ VALUES (7787, 0, 83889088, 83889088)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7787, 0, 16784596);
+
+/* Weenie - MeleeWeapons - Lightning Quarter Staff (22165) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22165;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22165, 'quarterstaffelectricnew');
@@ -19759,6 +21079,9 @@ VALUES (22165, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22165, 0, 16788502);
 
+/* Weenie - MeleeWeapons - Flaming Shashqa (41070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41070, 'ace41070-flamingshashqa');
 
@@ -19804,6 +21127,9 @@ VALUES (41070, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41070, 0, 16794291);
+
+/* Weenie - MeleeWeapons - Flaming Schlager (45111) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45111;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45111, 'ace45111-flamingschlager');
@@ -19858,6 +21184,9 @@ VALUES (45111, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45111, 0, 16795945);
 
+/* Weenie - MeleeWeapons - Silifi (47865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47865;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47865, 'ace47865-silifi');
 
@@ -19908,6 +21237,9 @@ VALUES (47865, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47865, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Bandit Lightning Yaoji (12084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12084;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12084, 'yaojielectricbandit');
 
@@ -19943,6 +21275,9 @@ VALUES (12084, 13, True)
      , (12084, 14, True)
      , (12084, 19, True)
      , (12084, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Flaming Dagger (12054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12054;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12054, 'daggerfirebandit');
@@ -19980,6 +21315,9 @@ VALUES (12054, 13, True)
      , (12054, 19, True)
      , (12054, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Acid Jambiya (12056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12056;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12056, 'jambiyaacidbandit');
 
@@ -20015,6 +21353,9 @@ VALUES (12056, 13, True)
      , (12056, 14, True)
      , (12056, 19, True)
      , (12056, 22, True);
+
+/* Weenie - MeleeWeapons - Lance of the Quiddity (11914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11914, 'tumerokspearshreth-creatureonly');
@@ -20052,6 +21393,9 @@ VALUES (11914, 13, True)
      , (11914, 19, True)
      , (11914, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Acid Dagger (12051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12051;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12051, 'daggeracidbandit');
 
@@ -20087,6 +21431,9 @@ VALUES (12051, 13, True)
      , (12051, 14, True)
      , (12051, 19, True)
      , (12051, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Frost Knife (12070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12070;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12070, 'knifefrostbandit');
@@ -20127,6 +21474,9 @@ VALUES (12070, 13, True)
      , (12070, 19, True)
      , (12070, 22, True);
 
+/* Weenie - MeleeWeapons - Blade of the Quiddity (11917) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11917;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11917, 'tumerokswordshreth-creatureonly');
 
@@ -20165,6 +21515,9 @@ VALUES (11917, 13, True)
      , (11917, 15, True)
      , (11917, 19, True)
      , (11917, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Acid Knife (12066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12066;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12066, 'knifeacidbandit');
@@ -20205,6 +21558,9 @@ VALUES (12066, 13, True)
      , (12066, 19, True)
      , (12066, 22, True);
 
+/* Weenie - MeleeWeapons - Lance of the Quiddity (11913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11913, 'tumerokspeargromnie-creatureonly');
 
@@ -20240,6 +21596,9 @@ VALUES (11913, 13, True)
      , (11913, 15, True)
      , (11913, 19, True)
      , (11913, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Rapier (12076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12076;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12076, 'swordrapierbandit');
@@ -20291,6 +21650,9 @@ VALUES (12076, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12076, 0, 16777934);
 
+/* Weenie - MeleeWeapons - Bandit Flaming Khanjar (12064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12064;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12064, 'khanjarfirebandit');
 
@@ -20330,6 +21692,9 @@ VALUES (12064, 13, True)
      , (12064, 19, True)
      , (12064, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Lightning Simi (12073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12073;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12073, 'simielectricbandit');
 
@@ -20366,6 +21731,9 @@ VALUES (12073, 13, True)
      , (12073, 19, True)
      , (12073, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Flaming Simi (12074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12074;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12074, 'simifirebandit');
 
@@ -20401,6 +21769,9 @@ VALUES (12074, 13, True)
      , (12074, 14, True)
      , (12074, 19, True)
      , (12074, 22, True);
+
+/* Weenie - MeleeWeapons - Spada (30571) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30571;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30571, 'swordspada');
@@ -20450,6 +21821,9 @@ VALUES (30571, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30571, 0, 16791839);
 
+/* Weenie - MeleeWeapons - Lugian Axe (7577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7577;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7577, 'lugianaxehollow');
 
@@ -20489,6 +21863,9 @@ VALUES (7577, 13, True)
      , (7577, 14, True)
      , (7577, 19, True)
      , (7577, 22, True);
+
+/* Weenie - MeleeWeapons - Sickle (32648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32648, 'ace32648-sickle');
@@ -20536,6 +21913,9 @@ VALUES (32648, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32648, 0, 16785974);
 
+/* Weenie - MeleeWeapons - Bandit Jambiya (12057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12057;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12057, 'jambiyabandit');
 
@@ -20581,6 +21961,9 @@ VALUES (12057, 0, 83886747, 83886747)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12057, 0, 16777986);
+
+/* Weenie - MeleeWeapons - Knife (22787) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22787;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22787, 'knifebanditmid');
@@ -20631,6 +22014,9 @@ VALUES (22787, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22787, 0, 16777925);
 
+/* Weenie - MeleeWeapons - Bandit Simi (22790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22790;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22790, 'simibanditmid');
 
@@ -20678,6 +22064,9 @@ VALUES (22790, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22790, 0, 16777945);
 
+/* Weenie - MeleeWeapons - Bandit Yaoji (22799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22799;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22799, 'yaojibanditmid');
 
@@ -20724,6 +22113,9 @@ VALUES (22799, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22799, 0, 16777984);
+
+/* Weenie - MeleeWeapons - Frost Lugian Hammer (31763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31763;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31763, 'ace31763-frostlugianhammer');
@@ -20776,6 +22168,9 @@ VALUES (31763, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31763, 0, 16792609);
 
+/* Weenie - MeleeWeapons - Bandit Dagger (22778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22778;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22778, 'daggerbanditmid');
 
@@ -20823,6 +22218,9 @@ VALUES (22778, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22778, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Jambiya (22781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22781;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22781, 'jambiyabanditmid');
 
@@ -20869,6 +22267,9 @@ VALUES (22781, 0, 83886747, 83886747)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22781, 0, 16777986);
 
+/* Weenie - MeleeWeapons - Partizan (30591) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30591;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30591, 'spearpartizan');
 
@@ -20914,6 +22315,9 @@ VALUES (30591, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30591, 0, 16791842);
 
+/* Weenie - MeleeWeapons - Flaming Khanjar (45434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45434;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45434, 'ace45434-flamingkhanjar');
 
@@ -20953,6 +22357,9 @@ VALUES (45434, 13, True)
      , (45434, 19, True)
      , (45434, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Knife (45419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45419;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45419, 'ace45419-flamingknife');
 
@@ -20991,6 +22398,9 @@ VALUES (45419, 13, True)
      , (45419, 14, True)
      , (45419, 19, True)
      , (45419, 22, True);
+
+/* Weenie - MeleeWeapons - Knife (45416) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45416;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45416, 'ace45416-knife');
@@ -21042,6 +22452,9 @@ VALUES (45416, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45416, 0, 16777925);
 
+/* Weenie - MeleeWeapons - Lightning Great Star Mace (41059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41059;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41059, 'ace41059-lightninggreatstarmace');
 
@@ -21090,6 +22503,9 @@ VALUES (41059, 0, 83897966, 83897966)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41059, 0, 16794292);
 
+/* Weenie - MeleeWeapons - Acid Great Star Mace (41058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41058;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41058, 'ace41058-acidgreatstarmace');
 
@@ -21137,6 +22553,9 @@ VALUES (41058, 0, 83897966, 83897966)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41058, 0, 16794292);
+
+/* Weenie - MeleeWeapons - Bandit Knife (12067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12067;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12067, 'knifebandit');
@@ -21187,6 +22606,9 @@ VALUES (12067, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12067, 0, 16777925);
 
+/* Weenie - MeleeWeapons - Quarter Staff (338) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 338;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (338, 'quarterstaff');
 
@@ -21236,6 +22658,9 @@ VALUES (338, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (338, 0, 16777936);
 
+/* Weenie - MeleeWeapons - Lightning Katar (48025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48025;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48025, 'ace48025-lightningkatar');
 
@@ -21272,6 +22697,9 @@ VALUES (48025, 13, True)
      , (48025, 14, True)
      , (48025, 19, True)
      , (48025, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Mace (47462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47462;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47462, 'ace47462-lightningmace');
@@ -21321,6 +22749,9 @@ VALUES (47462, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47462, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Tachi (47638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47638;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47638, 'ace47638-tachi');
 
@@ -21369,6 +22800,9 @@ VALUES (47638, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47638, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Spear (47747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47747;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47747, 'ace47747-lightningspear');
 
@@ -21405,6 +22839,9 @@ VALUES (47747, 13, True)
      , (47747, 14, True)
      , (47747, 19, True)
      , (47747, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning War Axe (31771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31771, 'ace31771-lightningwaraxe');
@@ -21460,6 +22897,9 @@ VALUES (31771, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31771, 0, 16777886);
 
+/* Weenie - MeleeWeapons - Lightning Mace (47459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47459;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47459, 'ace47459-lightningmace');
 
@@ -21507,6 +22947,9 @@ VALUES (47459, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47459, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Morning Star (332) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 332;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (332, 'morningstar');
@@ -21557,6 +23000,9 @@ VALUES (332, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (332, 0, 16777932);
 
+/* Weenie - MeleeWeapons - Stone Mace (26046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26046;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26046, 'maceburunstonemid');
 
@@ -21596,6 +23042,9 @@ VALUES (26046, 13, True)
      , (26046, 19, True)
      , (26046, 22, True);
 
+/* Weenie - MeleeWeapons - Bone Sword (26055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26055;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26055, 'swordburunbonemid');
 
@@ -21631,6 +23080,9 @@ VALUES (26055, 13, True)
      , (26055, 19, True)
      , (26055, 22, True);
 
+/* Weenie - MeleeWeapons - Bone Dagger (26034) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26034;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26034, 'dirkburunbonemid');
 
@@ -21665,6 +23117,9 @@ VALUES (26034, 13, True)
      , (26034, 14, True)
      , (26034, 19, True)
      , (26034, 22, True);
+
+/* Weenie - MeleeWeapons - Stone Mace (26045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26045;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26045, 'maceburunstonelow');
@@ -21705,6 +23160,9 @@ VALUES (26045, 13, True)
      , (26045, 19, True)
      , (26045, 22, True);
 
+/* Weenie - MeleeWeapons - Bone Sword (26054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26054;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26054, 'swordburunbonelow');
 
@@ -21739,6 +23197,9 @@ VALUES (26054, 13, True)
      , (26054, 14, True)
      , (26054, 19, True)
      , (26054, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Cestus (4194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4194;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4194, 'cestuselectric');
@@ -21780,6 +23241,9 @@ VALUES (4194, 13, True)
      , (4194, 14, True)
      , (4194, 19, True)
      , (4194, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (7973) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7973;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7973, 'tachifiremonsteronly2');
@@ -21828,6 +23292,9 @@ VALUES (7973, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7973, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Frost Tachi (47690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47690;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47690, 'ace47690-frosttachi');
@@ -21878,6 +23345,9 @@ VALUES (47690, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47690, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Frost Spear (47785) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47785;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47785, 'ace47785-frostspear');
 
@@ -21925,6 +23395,9 @@ VALUES (47785, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47785, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Frost Spear (47786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47786;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47786, 'ace47786-frostspear');
@@ -21974,6 +23447,9 @@ VALUES (47786, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47786, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Frost Mace (47499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47499, 'ace47499-frostmace');
 
@@ -22021,6 +23497,9 @@ VALUES (47499, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47499, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Frost Mace (47500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47500;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47500, 'ace47500-frostmace');
@@ -22070,6 +23549,9 @@ VALUES (47500, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47500, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Spear (47729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47729;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47729, 'ace47729-spear');
 
@@ -22116,6 +23598,9 @@ VALUES (47729, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47729, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Spear (47707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47707;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47707, 'ace47707-acidspear');
@@ -22165,6 +23650,9 @@ VALUES (47707, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47707, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Flaming War Hammer (3907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3907;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3907, 'warhammerfire');
 
@@ -22200,6 +23688,9 @@ VALUES (3907, 13, True)
      , (3907, 14, True)
      , (3907, 19, True)
      , (3907, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Cestus (4193) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4193;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4193, 'cestusfrost');
@@ -22240,6 +23731,9 @@ VALUES (4193, 13, True)
      , (4193, 19, True)
      , (4193, 22, True);
 
+/* Weenie - MeleeWeapons - Stone Axe (26025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26025;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26025, 'axeburunstonemid');
 
@@ -22276,6 +23770,9 @@ VALUES (26025, 13, True)
      , (26025, 19, True)
      , (26025, 22, True);
 
+/* Weenie - MeleeWeapons - Stone Spear (26051) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26051;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26051, 'spearburunstonemid');
 
@@ -22310,6 +23807,9 @@ VALUES (26051, 13, True)
      , (26051, 14, True)
      , (26051, 19, True)
      , (26051, 22, True);
+
+/* Weenie - MeleeWeapons - Stone Axe (26024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26024;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26024, 'axeburunstonelow');
@@ -22346,6 +23846,9 @@ VALUES (26024, 13, True)
      , (26024, 14, True)
      , (26024, 19, True)
      , (26024, 22, True);
+
+/* Weenie - MeleeWeapons - Tachi (47639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47639;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47639, 'ace47639-tachi');
@@ -22394,6 +23897,9 @@ VALUES (47639, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47639, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Major Sparking Atlan Sword (46096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46096;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46096, 'ace46096-majorsparkingatlansword');
@@ -22445,6 +23951,9 @@ VALUES (46096, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46096, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Academy Knife (45535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45535;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45535, 'ace45535-academyknife');
 
@@ -22491,6 +24000,9 @@ VALUES (45535, 0, 83888778, 83888778)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45535, 0, 16777925);
+
+/* Weenie - MeleeWeapons - Dericost Blade (31759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31759;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31759, 'ace31759-dericostblade');
@@ -22545,6 +24057,9 @@ VALUES (31759, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31759, 0, 16792612);
 
+/* Weenie - MeleeWeapons - Cestus (4190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4190;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4190, 'cestus');
 
@@ -22597,6 +24112,9 @@ VALUES (4190, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4190, 0, 16783508);
 
+/* Weenie - MeleeWeapons - Training Knife (45537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45537;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45537, 'ace45537-trainingknife');
 
@@ -22643,6 +24161,9 @@ VALUES (45537, 0, 83888778, 83888778)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45537, 0, 16777925);
+
+/* Weenie - MeleeWeapons - Training Ken (12747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12747;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12747, 'swordtraining');
@@ -22691,6 +24212,9 @@ VALUES (12747, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12747, 0, 16777964);
+
+/* Weenie - MeleeWeapons - Paradox-touched Olthoi Spear (35915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35915;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35915, 'ace35915-paradoxtouchedolthoispear');
@@ -22743,6 +24267,9 @@ VALUES (35915, 0, 83893390, 83893390)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35915, 0, 16789071);
 
+/* Weenie - MeleeWeapons - Frost Board with Nail (47305) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47305;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47305, 'ace47305-frostboardwithnail');
 
@@ -22791,6 +24318,9 @@ VALUES (47305, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47305, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Pickaxe (5753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5753;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5753, 'pickaxe');
 
@@ -22830,6 +24360,9 @@ VALUES (5753, 13, True)
      , (5753, 14, True)
      , (5753, 19, True)
      , (5753, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (348) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 348;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (348, 'spear');
@@ -22878,6 +24411,9 @@ VALUES (348, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (348, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Blade of the Realm (32852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32852, 'ace32852-bladeoftherealm');
 
@@ -22911,6 +24447,9 @@ VALUES (32852, 13, True)
      , (32852, 14, True)
      , (32852, 19, True)
      , (32852, 22, True);
+
+/* Weenie - MeleeWeapons - Empowered Sword of Lost Light (40088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40088;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40088, 'ace40088-empoweredswordoflostlight');
@@ -22951,6 +24490,9 @@ VALUES (40088, 13, True)
      , (40088, 14, True)
      , (40088, 19, True)
      , (40088, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Hatchet (48976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48976;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48976, 'ace48976-acidhatchet');
@@ -22996,6 +24538,9 @@ VALUES (48976, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48976, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Frost Shashqa (41071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41071;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41071, 'ace41071-frostshashqa');
@@ -23045,6 +24590,9 @@ VALUES (41071, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41071, 0, 16794291);
+
+/* Weenie - MeleeWeapons - Nodachi (40760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40760;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40760, 'ace40760-nodachi');
@@ -23097,6 +24645,9 @@ VALUES (40760, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40760, 0, 16794261);
 
+/* Weenie - MeleeWeapons - Lightning Hatchet (48983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48983, 'ace48983-lightninghatchet');
 
@@ -23141,6 +24692,9 @@ VALUES (48983, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48983, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Quadrelle (40623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40623;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40623, 'ace40623-quadrelle');
@@ -23187,6 +24741,9 @@ VALUES (40623, 0, 83898004, 83898004);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40623, 0, 16791977);
+
+/* Weenie - MeleeWeapons - Bandit Short Sword (12078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12078;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12078, 'swordshortbandit');
@@ -23238,6 +24795,9 @@ VALUES (12078, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12078, 0, 16777968);
 
+/* Weenie - MeleeWeapons - Acid Hammer (45114) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45114;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45114, 'ace45114-acidhammer');
 
@@ -23273,6 +24833,9 @@ VALUES (45114, 13, True)
      , (45114, 14, True)
      , (45114, 19, True)
      , (45114, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Pike (41050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41050;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41050, 'ace41050-frostpike');
@@ -23320,6 +24883,9 @@ VALUES (41050, 0, 83896665, 83896665)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41050, 0, 16794406);
+
+/* Weenie - MeleeWeapons - Simi (45401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45401, 'ace45401-simi');
@@ -23369,6 +24935,9 @@ VALUES (45401, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45401, 0, 16777945);
 
+/* Weenie - MeleeWeapons - Lightning Nodachi (40762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40762;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40762, 'ace40762-lightningnodachi');
 
@@ -23417,6 +24986,9 @@ VALUES (40762, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40762, 0, 16794261);
 
+/* Weenie - MeleeWeapons - Jambiya (45426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45426, 'ace45426-jambiya');
 
@@ -23462,6 +25034,9 @@ VALUES (45426, 0, 83886747, 83886747)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45426, 0, 16777986);
+
+/* Weenie - MeleeWeapons - Lightning Dirk (22442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22442;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22442, 'dirkelectric');
@@ -23513,6 +25088,9 @@ VALUES (22442, 0, 83886739, 83886739)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22442, 0, 16788591);
 
+/* Weenie - MeleeWeapons - Frost Nekode (4198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4198;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4198, 'nekodefrost');
 
@@ -23548,6 +25126,9 @@ VALUES (4198, 13, True)
      , (4198, 14, True)
      , (4198, 19, True)
      , (4198, 22, True);
+
+/* Weenie - MeleeWeapons - Khanjar (22784) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22784;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22784, 'khanjarbanditmid');
@@ -23598,6 +25179,9 @@ VALUES (22784, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22784, 0, 16777927);
 
+/* Weenie - MeleeWeapons - Katar (326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (326, 'katar');
 
@@ -23646,6 +25230,9 @@ VALUES (326, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (326, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Poniard (30946) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30946;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30946, 'daggerbanditmagehigh');
 
@@ -23692,6 +25279,9 @@ VALUES (30946, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30946, 0, 16777993);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47617;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47617, 'ace47617-acidtachi');
@@ -23741,6 +25331,9 @@ VALUES (47617, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47617, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Acid Dolabra (30562) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30562;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30562, 'axedolabraacid');
@@ -23792,6 +25385,9 @@ VALUES (30562, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30562, 0, 16791840);
 
+/* Weenie - MeleeWeapons - Quadruple-bladed Axe (24567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24567;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24567, 'axerenegaderaidsmonster');
 
@@ -23833,6 +25429,9 @@ VALUES (24567, 13, True)
      , (24567, 19, True)
      , (24567, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Axe (23132) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23132;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23132, 'lugianaxehollowvod');
 
@@ -23873,6 +25472,9 @@ VALUES (23132, 13, True)
      , (23132, 19, True)
      , (23132, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Morning Star (23134) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23134;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23134, 'lugianmorningstarhollowvod');
 
@@ -23912,6 +25514,9 @@ VALUES (23134, 13, True)
      , (23134, 14, True)
      , (23134, 19, True)
      , (23134, 22, True);
+
+/* Weenie - MeleeWeapons - Yaoji (23709) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23709;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23709, 'yaojibanditdrudgeextreme');
@@ -23960,6 +25565,9 @@ VALUES (23709, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23709, 0, 16777984);
 
+/* Weenie - MeleeWeapons - Blade of the Realm (31288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31288;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31288, 'ace31288-bladeoftherealm');
 
@@ -23995,6 +25603,9 @@ VALUES (31288, 13, True)
      , (31288, 19, True)
      , (31288, 22, True);
 
+/* Weenie - MeleeWeapons - Greatsword of Flame and Light (35297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35297;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35297, 'ace35297-greatswordofflameandlight');
 
@@ -24029,6 +25640,9 @@ VALUES (35297, 13, True)
      , (35297, 11, True)
      , (35297, 14, True)
      , (35297, 19, True);
+
+/* Weenie - MeleeWeapons - Lightning Mace (47461) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47461;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47461, 'ace47461-lightningmace');
@@ -24078,6 +25692,9 @@ VALUES (47461, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47461, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Frost Board with Nail (47309) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47309;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47309, 'ace47309-frostboardwithnail');
 
@@ -24126,6 +25743,9 @@ VALUES (47309, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47309, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Frost Board with Nail (47310) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47310;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47310, 'ace47310-frostboardwithnail');
 
@@ -24173,6 +25793,9 @@ VALUES (47310, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47310, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Frost Knuckles (30614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30614;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30614, 'knucklesfrost');
@@ -24223,6 +25846,9 @@ VALUES (30614, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30614, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Frost War Hammer (3908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3908, 'warhammerfrost');
 
@@ -24258,6 +25884,9 @@ VALUES (3908, 13, True)
      , (3908, 14, True)
      , (3908, 19, True)
      , (3908, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Katar (47891) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47891;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47891, 'ace47891-lightningkatar');
@@ -24295,6 +25924,9 @@ VALUES (47891, 13, True)
      , (47891, 14, True)
      , (47891, 19, True)
      , (47891, 22, True);
+
+/* Weenie - MeleeWeapons - Nekode (47892) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47892;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47892, 'ace47892-nekode');
@@ -24344,6 +25976,9 @@ VALUES (47892, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47892, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Katar (47890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47890;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47890, 'ace47890-katar');
 
@@ -24392,6 +26027,9 @@ VALUES (47890, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47890, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Tetsubo Slugger (42209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42209;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42209, 'ace42209-tetsuboslugger');
 
@@ -24436,6 +26074,9 @@ VALUES (42209, 67116700, 1, 100)
      , (42209, 67116705, 101, 100)
      , (42209, 67116704, 201, 55);
 
+/* Weenie - MeleeWeapons - Bludgeoning Sword (25546) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25546;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25546, 'swordbludgeoningsavage');
 
@@ -24478,6 +26119,9 @@ VALUES (25546, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25546, 67114264, 0, 0);
+
+/* Weenie - MeleeWeapons - Khanjar (328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 328;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (328, 'khanjar');
@@ -24529,6 +26173,9 @@ VALUES (328, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (328, 0, 16777927);
 
+/* Weenie - MeleeWeapons - Nabut (333) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 333;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (333, 'nabut');
 
@@ -24577,6 +26224,9 @@ VALUES (333, 0, 83888778, 83888778);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (333, 0, 16777936);
+
+/* Weenie - MeleeWeapons - Frost Tachi (47686) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47686;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47686, 'ace47686-frosttachi');
@@ -24627,6 +26277,9 @@ VALUES (47686, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47686, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Spear (47743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47743;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47743, 'ace47743-lightningspear');
 
@@ -24663,6 +26316,9 @@ VALUES (47743, 13, True)
      , (47743, 14, True)
      , (47743, 19, True)
      , (47743, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Spear (47762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47762, 'ace47762-flamingspear');
@@ -24712,6 +26368,9 @@ VALUES (47762, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47762, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Pyreal Mace (11237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11237, 'menhirhammer-xp');
 
@@ -24746,6 +26405,9 @@ VALUES (11237, 13, True)
      , (11237, 14, True)
      , (11237, 19, True)
      , (11237, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Stick (31790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31790;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31790, 'ace31790-lightningstick');
@@ -24800,6 +26462,9 @@ VALUES (31790, 0, 83897334, 83897334);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31790, 0, 16792611);
 
+/* Weenie - MeleeWeapons - Stick (31788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31788;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31788, 'ace31788-stick');
 
@@ -24853,6 +26518,9 @@ VALUES (31788, 0, 83897334, 83897334);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31788, 0, 16792611);
 
+/* Weenie - MeleeWeapons - Carrot Dagger (45430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45430;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45430, 'ace45430-carrotdagger');
 
@@ -24894,6 +26562,9 @@ VALUES (45430, 13, True)
      , (45430, 14, True)
      , (45430, 19, True)
      , (45430, 22, True);
+
+/* Weenie - MeleeWeapons - Royal Runed Bastone (33211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33211;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33211, 'ace33211-royalrunedbastone');
@@ -24941,6 +26612,9 @@ VALUES (33211, 0, 83897173, 83897173);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33211, 0, 16792138);
 
+/* Weenie - MeleeWeapons - Paradox-touched Olthoi Staff (43041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43041;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43041, 'ace43041-paradoxtouchedolthoistaff');
 
@@ -24982,6 +26656,9 @@ VALUES (43041, 13, True)
      , (43041, 22, True)
      , (43041, 130, True);
 
+/* Weenie - MeleeWeapons - Acid Ono (3842) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3842;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3842, 'onoacid');
 
@@ -25017,6 +26694,9 @@ VALUES (3842, 13, True)
      , (3842, 14, True)
      , (3842, 19, True)
      , (3842, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Trident (7793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7793;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7793, 'tridentacid');
@@ -25069,6 +26749,9 @@ VALUES (7793, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7793, 0, 16784608);
 
+/* Weenie - MeleeWeapons - Lightning Mace (3835) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3835;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3835, 'maceelectric');
 
@@ -25116,6 +26799,9 @@ VALUES (3835, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3835, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Lightning Katar (3819) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3819;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3819, 'katarelectric');
 
@@ -25151,6 +26837,9 @@ VALUES (3819, 13, True)
      , (3819, 14, True)
      , (3819, 19, True)
      , (3819, 22, True);
+
+/* Weenie - MeleeWeapons - Staff of the Nomads (8526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8526;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8526, 'staffanadil');
@@ -25202,6 +26891,9 @@ VALUES (8526, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8526, 0, 16780142);
 
+/* Weenie - MeleeWeapons - Acid Mace (47420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47420, 'ace47420-acidmace');
 
@@ -25249,6 +26941,9 @@ VALUES (47420, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47420, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Frost Mace (47495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47495;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47495, 'ace47495-frostmace');
@@ -25298,6 +26993,9 @@ VALUES (47495, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47495, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Katar (23675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23675;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23675, 'katarmonsterlow');
 
@@ -25345,6 +27043,9 @@ VALUES (23675, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23675, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Lugian Mace (23759) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23759;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23759, 'lugianmacelow');
 
@@ -25383,6 +27084,9 @@ VALUES (23759, 13, True)
      , (23759, 14, True)
      , (23759, 19, True)
      , (23759, 22, True);
+
+/* Weenie - MeleeWeapons - Silifi of Crimson Night (34024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34024;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34024, 'ace34024-silifiofcrimsonnight');
@@ -25436,6 +27140,9 @@ VALUES (34024, 0, 83892523, 83892523)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34024, 0, 16784360);
 
+/* Weenie - MeleeWeapons - Acid Dirk (22441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22441;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22441, 'dirkacid');
 
@@ -25486,6 +27193,9 @@ VALUES (22441, 0, 83886739, 83886739)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22441, 0, 16788591);
 
+/* Weenie - MeleeWeapons - Lugian Axe (23741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23741;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23741, 'lugianaxelow');
 
@@ -25524,6 +27234,9 @@ VALUES (23741, 13, True)
      , (23741, 14, True)
      , (23741, 19, True)
      , (23741, 22, True);
+
+/* Weenie - MeleeWeapons - Mi Krau-Li's Jitte (7770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7770;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7770, 'jittekraulilesser');
@@ -25571,6 +27284,9 @@ VALUES (7770, 0, 83888778, 83888778)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7770, 0, 16777918);
+
+/* Weenie - MeleeWeapons - Paradox-touched Olthoi Sword (35916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35916;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35916, 'ace35916-paradoxtouchedolthoisword');
@@ -25622,6 +27338,9 @@ VALUES (35916, 0, 83886174, 83886174)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35916, 0, 16784513);
+
+/* Weenie - MeleeWeapons - Frost Tachi (3892) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3892;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3892, 'tachifrost');
@@ -25675,6 +27394,9 @@ VALUES (3892, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3892, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Sword of Lost Hope (8964) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8964;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8964, 'swordlosthopeuber');
 
@@ -25715,6 +27437,9 @@ VALUES (8964, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8964, 67111920, 0, 0);
+
+/* Weenie - MeleeWeapons - Tachi (31704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31704;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31704, 'ace31704-tachi');
@@ -25763,6 +27488,9 @@ VALUES (31704, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31704, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Jambiya (45427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45427;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45427, 'ace45427-acidjambiya');
 
@@ -25803,6 +27531,9 @@ VALUES (45427, 13, True)
      , (45427, 19, True)
      , (45427, 22, True);
 
+/* Weenie - MeleeWeapons - Icy Club (48614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48614, 'ace48614-icyclub');
 
@@ -25835,6 +27566,9 @@ VALUES (48614, 13, True)
      , (48614, 14, True)
      , (48614, 19, True)
      , (48614, 22, True);
+
+/* Weenie - MeleeWeapons - Frozen Dagger (30006) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30006;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30006, 'daggerruschkuber');
@@ -25869,6 +27603,9 @@ VALUES (30006, 13, True)
      , (30006, 14, True)
      , (30006, 19, True)
      , (30006, 22, True);
+
+/* Weenie - MeleeWeapons - Glacial Blade (48618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48618;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48618, 'ace48618-glacialblade');
@@ -25905,6 +27642,9 @@ VALUES (48618, 13, True)
      , (48618, 19, True)
      , (48618, 22, True);
 
+/* Weenie - MeleeWeapons - Frigid Splinter (48627) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48627;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48627, 'ace48627-frigidsplinter');
 
@@ -25940,6 +27680,9 @@ VALUES (48627, 13, True)
      , (48627, 19, True)
      , (48627, 22, True);
 
+/* Weenie - MeleeWeapons - Glacial Blade (48628) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48628;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48628, 'ace48628-glacialblade');
 
@@ -25974,6 +27717,9 @@ VALUES (48628, 13, True)
      , (48628, 14, True)
      , (48628, 19, True)
      , (48628, 22, True);
+
+/* Weenie - MeleeWeapons - Icy Club (30001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30001;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30001, 'clubruschkuber');
@@ -26013,6 +27759,9 @@ VALUES (30001, 13, True)
      , (30001, 19, True)
      , (30001, 22, True);
 
+/* Weenie - MeleeWeapons - Frigid Splinter (48617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48617;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48617, 'ace48617-frigidsplinter');
 
@@ -26048,6 +27797,9 @@ VALUES (48617, 13, True)
      , (48617, 19, True)
      , (48617, 22, True);
 
+/* Weenie - MeleeWeapons - Frigid Splinter (29991) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29991;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29991, 'spearruschkuber');
 
@@ -26081,6 +27833,9 @@ VALUES (29991, 13, True)
      , (29991, 14, True)
      , (29991, 19, True)
      , (29991, 22, True);
+
+/* Weenie - MeleeWeapons - Frigid Splinter (48632) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48632;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48632, 'ace48632-frigidsplinter');
@@ -26117,6 +27872,9 @@ VALUES (48632, 13, True)
      , (48632, 19, True)
      , (48632, 22, True);
 
+/* Weenie - MeleeWeapons - Glacial Blade (29996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29996;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29996, 'swordruschkuber');
 
@@ -26150,6 +27908,9 @@ VALUES (29996, 13, True)
      , (29996, 14, True)
      , (29996, 19, True)
      , (29996, 22, True);
+
+/* Weenie - MeleeWeapons - Frozen Dagger (48625) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48625;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48625, 'ace48625-frozendagger');
@@ -26186,6 +27947,9 @@ VALUES (48625, 13, True)
      , (48625, 19, True)
      , (48625, 22, True);
 
+/* Weenie - MeleeWeapons - Icy Club (48624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48624;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48624, 'ace48624-icyclub');
 
@@ -26218,6 +27982,9 @@ VALUES (48624, 13, True)
      , (48624, 14, True)
      , (48624, 19, True)
      , (48624, 22, True);
+
+/* Weenie - MeleeWeapons - Glacial Blade (48633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48633;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48633, 'ace48633-glacialblade');
@@ -26254,6 +28021,9 @@ VALUES (48633, 13, True)
      , (48633, 19, True)
      , (48633, 22, True);
 
+/* Weenie - MeleeWeapons - Icy Club (48629) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48629;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48629, 'ace48629-icyclub');
 
@@ -26286,6 +28056,9 @@ VALUES (48629, 13, True)
      , (48629, 14, True)
      , (48629, 19, True)
      , (48629, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47678, 'ace47678-flamingtachi');
@@ -26336,6 +28109,9 @@ VALUES (47678, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47678, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Spear (47733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47733;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47733, 'ace47733-spear');
 
@@ -26382,6 +28158,9 @@ VALUES (47733, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47733, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Lightning Assagai (41038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41038;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41038, 'ace41038-lightningassagai');
@@ -26430,6 +28209,9 @@ VALUES (41038, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41038, 0, 16794405);
 
+/* Weenie - MeleeWeapons - Flaming Silifi (3867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3867, 'silififire');
 
@@ -26469,6 +28251,9 @@ VALUES (3867, 13, True)
      , (3867, 19, True)
      , (3867, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Long Sword (3881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3881;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3881, 'swordlongacid');
 
@@ -26507,6 +28292,9 @@ VALUES (3881, 13, True)
      , (3881, 14, True)
      , (3881, 19, True)
      , (3881, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Spadone (40621) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40621;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40621, 'ace40621-flamingspadone');
@@ -26553,6 +28341,9 @@ VALUES (40621, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40621, 0, 16791762);
+
+/* Weenie - MeleeWeapons - Lightning Flamberge (30580) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30580;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30580, 'swordflambergeelectric');
@@ -26603,6 +28394,9 @@ VALUES (30580, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30580, 0, 16791760);
 
+/* Weenie - MeleeWeapons - Frozen Dagger (48630) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48630;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48630, 'ace48630-frozendagger');
 
@@ -26637,6 +28431,9 @@ VALUES (48630, 13, True)
      , (48630, 14, True)
      , (48630, 19, True)
      , (48630, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Ono (48018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48018;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48018, 'ace48018-acidono');
@@ -26675,6 +28472,9 @@ VALUES (48018, 13, True)
      , (48018, 19, True)
      , (48018, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Katar (48011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48011;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48011, 'ace48011-lightningkatar');
 
@@ -26711,6 +28511,9 @@ VALUES (48011, 13, True)
      , (48011, 14, True)
      , (48011, 19, True)
      , (48011, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Mace (24886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24886;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24886, 'lugianmaceuber');
@@ -26751,6 +28554,9 @@ VALUES (24886, 13, True)
      , (24886, 19, True)
      , (24886, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Axe (24884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24884;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24884, 'lugianaxeuber');
 
@@ -26790,6 +28596,9 @@ VALUES (24884, 13, True)
      , (24884, 19, True)
      , (24884, 22, True);
 
+/* Weenie - MeleeWeapons - Frozen Dagger (48615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48615;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48615, 'ace48615-frozendagger');
 
@@ -26824,6 +28633,9 @@ VALUES (48615, 13, True)
      , (48615, 14, True)
      , (48615, 19, True)
      , (48615, 22, True);
+
+/* Weenie - MeleeWeapons - Quadrelle (29965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29965;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29965, 'maceknightextreme');
@@ -26869,6 +28681,9 @@ VALUES (29965, 0, 83898004, 83898004);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29965, 0, 16791977);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47624;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47624, 'ace47624-acidtachi');
@@ -26919,6 +28734,9 @@ VALUES (47624, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47624, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Nekode (48012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48012;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48012, 'ace48012-nekode');
 
@@ -26966,6 +28784,9 @@ VALUES (48012, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48012, 0, 16783509);
+
+/* Weenie - MeleeWeapons - Flaming Dericost Blade (31762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31762, 'ace31762-flamingdericostblade');
@@ -27018,6 +28839,9 @@ VALUES (31762, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31762, 0, 16792612);
 
+/* Weenie - MeleeWeapons - Frost Yari (3916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3916;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3916, 'yarifrost');
 
@@ -27064,6 +28888,9 @@ VALUES (3916, 0, 83886737, 83886737)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3916, 0, 16777983);
+
+/* Weenie - MeleeWeapons - Obsidian Dagger (8788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8788, 'daggerobsidian');
@@ -27112,6 +28939,9 @@ VALUES (8788, 0, 83886747, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8788, 0, 16777986);
 
+/* Weenie - MeleeWeapons - Yari (362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 362;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (362, 'yari');
 
@@ -27159,6 +28989,9 @@ VALUES (362, 0, 83886737, 83886737)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (362, 0, 16777983);
 
+/* Weenie - MeleeWeapons - Club of Surprising Cunning (37402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37402;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37402, 'ace37402-clubofsurprisingcunning');
 
@@ -27193,6 +29026,9 @@ VALUES (37402, 13, True)
      , (37402, 14, True)
      , (37402, 19, True)
      , (37402, 22, True);
+
+/* Weenie - MeleeWeapons - Singularity Sword (27849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27849;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27849, 'swordsingularitynew');
@@ -27244,6 +29080,9 @@ VALUES (27849, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27849, 0, 16777880);
 
+/* Weenie - MeleeWeapons - Academy Tungi (45531) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45531;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45531, 'ace45531-academytungi');
 
@@ -27294,6 +29133,9 @@ VALUES (45531, 0, 83886712, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45531, 0, 16777992);
 
+/* Weenie - MeleeWeapons - Frost Club (47405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47405;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47405, 'ace47405-frostclub');
 
@@ -27330,6 +29172,9 @@ VALUES (47405, 13, True)
      , (47405, 14, True)
      , (47405, 19, True)
      , (47405, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Nodachi (40761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40761;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40761, 'ace40761-acidnodachi');
@@ -27379,6 +29224,9 @@ VALUES (40761, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40761, 0, 16794261);
 
+/* Weenie - MeleeWeapons - Acid Board with Nail (47234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47234;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47234, 'ace47234-acidboardwithnail');
 
@@ -27426,6 +29274,9 @@ VALUES (47234, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47234, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Frost Mace (47497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47497;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47497, 'ace47497-frostmace');
@@ -27475,6 +29326,9 @@ VALUES (47497, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47497, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Frost Katar (3821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3821;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3821, 'katarfrost');
 
@@ -27510,6 +29364,9 @@ VALUES (3821, 13, True)
      , (3821, 14, True)
      , (3821, 19, True)
      , (3821, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Claw (31786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31786;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31786, 'ace31786-lightningclaw');
@@ -27562,6 +29419,9 @@ VALUES (31786, 0, 83897338, 83897338);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31786, 0, 16792615);
 
+/* Weenie - MeleeWeapons - Acid Mace (47421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47421;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47421, 'ace47421-acidmace');
 
@@ -27610,6 +29470,9 @@ VALUES (47421, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47421, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Acid Spear (47709) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47709;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47709, 'ace47709-acidspear');
 
@@ -27657,6 +29520,9 @@ VALUES (47709, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47709, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Lightning Dericost Blade (31761) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31761;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31761, 'ace31761-lightningdericostblade');
@@ -27709,6 +29575,9 @@ VALUES (31761, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31761, 0, 16792612);
 
+/* Weenie - MeleeWeapons - Tachi (34017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34017;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34017, 'ace34017-tachi');
 
@@ -27755,6 +29624,9 @@ VALUES (34017, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34017, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Flamberge (30576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30576;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30576, 'swordflamberge');
@@ -27806,6 +29678,9 @@ VALUES (30576, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30576, 0, 16791760);
 
+/* Weenie - MeleeWeapons - Simi (345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 345;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (345, 'simi');
 
@@ -27851,6 +29726,9 @@ VALUES (345, 0, 83888778, 83888778)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (345, 0, 16777945);
+
+/* Weenie - MeleeWeapons - Frost Board with Nail (47306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47306;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47306, 'ace47306-frostboardwithnail');
@@ -27899,6 +29777,9 @@ VALUES (47306, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47306, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Tungi (357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 357;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (357, 'tungi');
@@ -27950,6 +29831,9 @@ VALUES (357, 0, 83886712, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (357, 0, 16777992);
 
+/* Weenie - MeleeWeapons - Acid Club (47325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47325;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47325, 'ace47325-acidclub');
 
@@ -27986,6 +29870,9 @@ VALUES (47325, 13, True)
      , (47325, 14, True)
      , (47325, 19, True)
      , (47325, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Mace (47477) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47477;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47477, 'ace47477-flamingmace');
@@ -28035,6 +29922,9 @@ VALUES (47477, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47477, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Flaming Mace (47476) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47476;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47476, 'ace47476-flamingmace');
 
@@ -28083,6 +29973,9 @@ VALUES (47476, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47476, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Mace (47449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47449, 'ace47449-mace');
 
@@ -28130,6 +30023,9 @@ VALUES (47449, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47449, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Club (47354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47354, 'ace47354-club');
 
@@ -28176,6 +30072,9 @@ VALUES (47354, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47354, 0, 16777893);
 
+/* Weenie - MeleeWeapons - Acid Kasrullah (3814) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3814;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3814, 'kasrullahacid');
 
@@ -28211,6 +30110,9 @@ VALUES (3814, 13, True)
      , (3814, 14, True)
      , (3814, 19, True)
      , (3814, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Magari Yari (41044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41044;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41044, 'ace41044-flamingmagariyari');
@@ -28259,6 +30161,9 @@ VALUES (41044, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41044, 0, 16794282);
 
+/* Weenie - MeleeWeapons - Acid Club (47328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47328, 'ace47328-acidclub');
 
@@ -28295,6 +30200,9 @@ VALUES (47328, 13, True)
      , (47328, 14, True)
      , (47328, 19, True)
      , (47328, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Takuba (3893) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3893;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3893, 'takubaacid');
@@ -28334,6 +30242,9 @@ VALUES (3893, 13, True)
      , (3893, 14, True)
      , (3893, 19, True)
      , (3893, 22, True);
+
+/* Weenie - MeleeWeapons - Tetsubo (40635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40635;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40635, 'ace40635-tetsubo');
@@ -28386,6 +30297,9 @@ VALUES (40635, 0, 83897334, 83897334)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40635, 0, 16794240);
 
+/* Weenie - MeleeWeapons - Acid Epee (45100) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45100;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45100, 'ace45100-acidepee');
 
@@ -28434,6 +30348,9 @@ VALUES (45100, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45100, 0, 16795944);
 
+/* Weenie - MeleeWeapons - Lightning Morning Star (3940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3940;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3940, 'morningstarelectric');
 
@@ -28480,6 +30397,9 @@ VALUES (3940, 0, 83889356, 83886712)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3940, 0, 16777932);
+
+/* Weenie - MeleeWeapons - Blackfire Shivering Two Handed Atlan Sword (46106) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46106;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46106, 'ace46106-blackfireshiveringtwohandedatlansword');
@@ -28534,6 +30454,9 @@ VALUES (46106, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46106, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Major Shivering Atlan Mace (46073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46073;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46073, 'ace46073-majorshiveringatlanmace');
 
@@ -28583,6 +30506,9 @@ VALUES (46073, 0, 83889688, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46073, 0, 16783996);
 
+/* Weenie - MeleeWeapons - Magari Yari (41041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41041;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41041, 'ace41041-magariyari');
 
@@ -28629,6 +30555,9 @@ VALUES (41041, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41041, 0, 16794282);
 
+/* Weenie - MeleeWeapons - Acid Stiletto (30605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30605;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30605, 'daggerstilettoacid');
 
@@ -28674,6 +30603,9 @@ VALUES (30605, 0, 83897172, 83897172);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30605, 0, 16792137);
+
+/* Weenie - MeleeWeapons - Flaming Nodachi (41065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41065;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41065, 'ace41065-flamingnodachi');
@@ -28725,6 +30657,9 @@ VALUES (41065, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41065, 0, 16794261);
 
+/* Weenie - MeleeWeapons - Academy Dirk (12750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12750, 'daggeracademy');
 
@@ -28775,6 +30710,9 @@ VALUES (12750, 0, 83886739, 83886739)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12750, 0, 16788591);
 
+/* Weenie - MeleeWeapons - Fire Spiked Club (7788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7788;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7788, 'clubspikedfire');
 
@@ -28823,6 +30761,9 @@ VALUES (7788, 0, 83889088, 83889088)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7788, 0, 16784596);
+
+/* Weenie - MeleeWeapons - Schlager (45108) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45108;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45108, 'ace45108-schlager');
@@ -28877,6 +30818,9 @@ VALUES (45108, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45108, 0, 16795945);
 
+/* Weenie - MeleeWeapons - Corsesca (40818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40818;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40818, 'ace40818-corsesca');
 
@@ -28921,6 +30865,9 @@ VALUES (40818, 0, 83896667, 83896667);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40818, 0, 16794281);
+
+/* Weenie - MeleeWeapons - Bandit Short Sword (22795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22795;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22795, 'swordshortbandithigh');
@@ -28972,6 +30919,9 @@ VALUES (22795, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22795, 0, 16777968);
 
+/* Weenie - MeleeWeapons - Flaming Tachi (47676) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47676;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47676, 'ace47676-flamingtachi');
 
@@ -29021,6 +30971,9 @@ VALUES (47676, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47676, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Flanged Mace (30589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30589;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30589, 'maceflangedfire');
 
@@ -29068,6 +31021,9 @@ VALUES (30589, 0, 83896666, 83896666);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30589, 0, 16791841);
+
+/* Weenie - MeleeWeapons - Frost Greataxe (43397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43397;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43397, 'ace43397-frostgreataxe');
@@ -29119,6 +31075,9 @@ VALUES (43397, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43397, 0, 16794283);
 
+/* Weenie - MeleeWeapons - Greataxe (41052) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41052;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41052, 'ace41052-greataxe');
 
@@ -29166,6 +31125,9 @@ VALUES (41052, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41052, 0, 16794283);
 
+/* Weenie - MeleeWeapons - Mazule (30581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30581;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30581, 'macemazule');
 
@@ -29211,6 +31173,9 @@ VALUES (30581, 0, 83896666, 83896666);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30581, 0, 16792135);
+
+/* Weenie - MeleeWeapons - Acid Dericost Blade (31760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31760;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31760, 'ace31760-aciddericostblade');
@@ -29263,6 +31228,9 @@ VALUES (31760, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31760, 0, 16792612);
 
+/* Weenie - MeleeWeapons - Acid Katar (48068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48068;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48068, 'ace48068-acidkatar');
 
@@ -29299,6 +31267,9 @@ VALUES (48068, 13, True)
      , (48068, 14, True)
      , (48068, 19, True)
      , (48068, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Silifi (48076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48076;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48076, 'ace48076-lightningsilifi');
@@ -29339,6 +31310,9 @@ VALUES (48076, 13, True)
      , (48076, 14, True)
      , (48076, 19, True)
      , (48076, 22, True);
+
+/* Weenie - MeleeWeapons - Nekode (48071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48071;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48071, 'ace48071-nekode');
@@ -29388,6 +31362,9 @@ VALUES (48071, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48071, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Lightning Katar (48070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48070, 'ace48070-lightningkatar');
 
@@ -29425,6 +31402,9 @@ VALUES (48070, 13, True)
      , (48070, 19, True)
      , (48070, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Ono (48078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48078;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48078, 'ace48078-acidono');
 
@@ -29461,6 +31441,9 @@ VALUES (48078, 13, True)
      , (48078, 14, True)
      , (48078, 19, True)
      , (48078, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Silifi (48075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48075;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48075, 'ace48075-acidsilifi');
@@ -29501,6 +31484,9 @@ VALUES (48075, 13, True)
      , (48075, 14, True)
      , (48075, 19, True)
      , (48075, 22, True);
+
+/* Weenie - MeleeWeapons - Silifi (48089) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48089;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48089, 'ace48089-silifi');
@@ -29552,6 +31538,9 @@ VALUES (48089, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48089, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Ono (48077) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48077;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48077, 'ace48077-ono');
 
@@ -29599,6 +31588,9 @@ VALUES (48077, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48077, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Lightning Katar (47981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47981;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47981, 'ace47981-lightningkatar');
 
@@ -29635,6 +31627,9 @@ VALUES (47981, 13, True)
      , (47981, 14, True)
      , (47981, 19, True)
      , (47981, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (47732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47732;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47732, 'ace47732-spear');
@@ -29683,6 +31678,9 @@ VALUES (47732, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47732, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Great Star Mace (41057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41057;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41057, 'ace41057-greatstarmace');
 
@@ -29730,6 +31728,9 @@ VALUES (41057, 0, 83897966, 83897966)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41057, 0, 16794292);
+
+/* Weenie - MeleeWeapons - Lightning Greataxe (41054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41054;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41054, 'ace41054-lightninggreataxe');
@@ -29781,6 +31782,9 @@ VALUES (41054, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41054, 0, 16794283);
 
+/* Weenie - MeleeWeapons - Lightning Shashqa (41069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41069;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41069, 'ace41069-lightningshashqa');
 
@@ -29824,6 +31828,9 @@ VALUES (41069, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41069, 67116388, 0, 0);
+
+/* Weenie - MeleeWeapons - Board with Nail (47259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47259;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47259, 'ace47259-boardwithnail');
@@ -29872,6 +31879,9 @@ VALUES (47259, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47259, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Acid Club (47335) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47335;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47335, 'ace47335-acidclub');
 
@@ -29908,6 +31918,9 @@ VALUES (47335, 13, True)
      , (47335, 14, True)
      , (47335, 19, True)
      , (47335, 22, True);
+
+/* Weenie - MeleeWeapons - Bastone (30606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30606;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30606, 'staffmeleebastone');
@@ -29954,6 +31967,9 @@ VALUES (30606, 0, 83897173, 83897173);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30606, 0, 16792138);
+
+/* Weenie - MeleeWeapons - Silifi (48000) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48000;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48000, 'ace48000-silifi');
@@ -30005,6 +32021,9 @@ VALUES (48000, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48000, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Lightning Ono (48005) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48005;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48005, 'ace48005-lightningono');
 
@@ -30041,6 +32060,9 @@ VALUES (48005, 13, True)
      , (48005, 14, True)
      , (48005, 19, True)
      , (48005, 22, True);
+
+/* Weenie - MeleeWeapons - Nekode (23679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23679;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23679, 'nekodemonsterextreme');
@@ -30089,6 +32111,9 @@ VALUES (23679, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23679, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Gearknight Greatsword (41245) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41245;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41245, 'ace41245-gearknightgreatsword');
 
@@ -30122,6 +32147,9 @@ VALUES (41245, 13, True)
      , (41245, 14, True)
      , (41245, 19, True)
      , (41245, 22, True);
+
+/* Weenie - MeleeWeapons - Katar (47995) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47995;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47995, 'ace47995-katar');
@@ -30170,6 +32198,9 @@ VALUES (47995, 0, 83886710, 83886710)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47995, 0, 16777920);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47623;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47623, 'ace47623-acidtachi');
@@ -30220,6 +32251,9 @@ VALUES (47623, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47623, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Nekode (47983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47983;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47983, 'ace47983-acidnekode');
 
@@ -30257,6 +32291,9 @@ VALUES (47983, 13, True)
      , (47983, 19, True)
      , (47983, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48498;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48498, 'ace48498-flamingkatar');
 
@@ -30293,6 +32330,9 @@ VALUES (48498, 13, True)
      , (48498, 14, True)
      , (48498, 19, True)
      , (48498, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (47736) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47736;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47736, 'ace47736-spear');
@@ -30340,6 +32380,9 @@ VALUES (47736, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47736, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Tachi (47646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47646;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47646, 'ace47646-tachi');
@@ -30389,6 +32432,9 @@ VALUES (47646, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47646, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Nekode (48041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48041;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48041, 'ace48041-nekode');
 
@@ -30436,6 +32482,9 @@ VALUES (48041, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48041, 0, 16783509);
+
+/* Weenie - MeleeWeapons - Tachi (47648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47648, 'ace47648-tachi');
@@ -30485,6 +32534,9 @@ VALUES (47648, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47648, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Frost Mace (47503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47503;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47503, 'ace47503-frostmace');
 
@@ -30532,6 +32584,9 @@ VALUES (47503, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47503, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Lightning Mace (47466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47466;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47466, 'ace47466-lightningmace');
@@ -30581,6 +32636,9 @@ VALUES (47466, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47466, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Academy Handwraps (45555) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45555;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45555, 'ace45555-academyhandwraps');
 
@@ -30629,6 +32687,9 @@ VALUES (45555, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45555, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Sword of Lost Light (1427) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1427;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1427, 'swordlostlight');
 
@@ -30665,6 +32726,9 @@ VALUES (1427, 13, True)
      , (1427, 14, True)
      , (1427, 19, True)
      , (1427, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Knife (45417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45417;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45417, 'ace45417-acidknife');
@@ -30705,6 +32769,9 @@ VALUES (45417, 13, True)
      , (45417, 19, True)
      , (45417, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Morning Star (23763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23763;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23763, 'lugianmorningstarhollowextreme');
 
@@ -30744,6 +32811,9 @@ VALUES (23763, 13, True)
      , (23763, 14, True)
      , (23763, 19, True)
      , (23763, 22, True);
+
+/* Weenie - MeleeWeapons - Nekode (23680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23680;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23680, 'nekodemonsterhigh');
@@ -30792,6 +32862,9 @@ VALUES (23680, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23680, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Lugian Axe (23738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23738;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23738, 'lugianaxehigh');
 
@@ -30831,6 +32904,9 @@ VALUES (23738, 13, True)
      , (23738, 19, True)
      , (23738, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Club (23750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23750, 'lugianclubhigh');
 
@@ -30869,6 +32945,9 @@ VALUES (23750, 13, True)
      , (23750, 14, True)
      , (23750, 19, True)
      , (23750, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Axe (23739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23739;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23739, 'lugianaxehollowextreme');
@@ -30910,6 +32989,9 @@ VALUES (23739, 13, True)
      , (23739, 19, True)
      , (23739, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Mace (23758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23758;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23758, 'lugianmacehigh');
 
@@ -30948,6 +33030,9 @@ VALUES (23758, 13, True)
      , (23758, 14, True)
      , (23758, 19, True)
      , (23758, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Morning Star (23762) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23762;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23762, 'lugianmorningstarhigh');
@@ -30988,6 +33073,9 @@ VALUES (23762, 13, True)
      , (23762, 19, True)
      , (23762, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Hammer (23754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23754;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23754, 'lugianhammerhigh');
 
@@ -31026,6 +33114,9 @@ VALUES (23754, 13, True)
      , (23754, 14, True)
      , (23754, 19, True)
      , (23754, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Poniard (30597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30597;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30597, 'daggerponiardelectric');
@@ -31072,6 +33163,9 @@ VALUES (30597, 0, 83897172, 83897172);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30597, 0, 16792136);
+
+/* Weenie - MeleeWeapons - Frost Lancet (31793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31793;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31793, 'ace31793-frostlancet');
@@ -31124,6 +33218,9 @@ VALUES (31793, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31793, 0, 16792616);
 
+/* Weenie - MeleeWeapons - Frost Club (3769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3769;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3769, 'clubfrost');
 
@@ -31162,6 +33259,9 @@ VALUES (3769, 13, True)
      , (3769, 14, True)
      , (3769, 19, True)
      , (3769, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Spiked Club (7789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7789;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7789, 'clubspikedacid');
@@ -31212,6 +33312,9 @@ VALUES (7789, 0, 83889088, 83889088)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7789, 0, 16784596);
 
+/* Weenie - MeleeWeapons - Frost Ono (3845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3845;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3845, 'onofrost');
 
@@ -31247,6 +33350,9 @@ VALUES (3845, 13, True)
      , (3845, 14, True)
      , (3845, 19, True)
      , (3845, 22, True);
+
+/* Weenie - MeleeWeapons - Academy Ken (12758) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12758;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12758, 'swordacademy');
@@ -31295,6 +33401,9 @@ VALUES (12758, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12758, 0, 16777964);
+
+/* Weenie - MeleeWeapons - Lightning Schlager (45110) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45110;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45110, 'ace45110-lightningschlager');
@@ -31349,6 +33458,9 @@ VALUES (45110, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45110, 0, 16795945);
 
+/* Weenie - MeleeWeapons - Flaming Mace (3836) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3836;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3836, 'macefire');
 
@@ -31395,6 +33507,9 @@ VALUES (3836, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3836, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Kaskara (324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 324;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (324, 'kaskara');
@@ -31443,6 +33558,9 @@ VALUES (324, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (324, 0, 16777961);
 
+/* Weenie - MeleeWeapons - Frost Quadrelle (40627) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40627;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40627, 'ace40627-frostquadrelle');
 
@@ -31488,6 +33606,9 @@ VALUES (40627, 0, 83898004, 83898004);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40627, 0, 16791977);
+
+/* Weenie - MeleeWeapons - Frost Board with Nail (31773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31773;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31773, 'ace31773-frostboardwithnail');
@@ -31537,6 +33658,9 @@ VALUES (31773, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31773, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Sword of Frozen Fury (24100) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24100;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24100, 'swordfrozenfury');
 
@@ -31575,6 +33699,9 @@ VALUES (24100, 13, True)
      , (24100, 19, True)
      , (24100, 22, True);
 
+/* Weenie - MeleeWeapons - Dagger of Frozen Fury (24099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24099;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24099, 'daggerfrozenfury');
 
@@ -31609,6 +33736,9 @@ VALUES (24099, 13, True)
      , (24099, 14, True)
      , (24099, 19, True)
      , (24099, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Stick (31792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31792;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31792, 'ace31792-froststick');
@@ -31661,6 +33791,9 @@ VALUES (31792, 0, 83897334, 83897334);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31792, 0, 16792611);
 
+/* Weenie - MeleeWeapons - Acid Ken (3822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3822;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3822, 'kenacid');
 
@@ -31696,6 +33829,9 @@ VALUES (3822, 13, True)
      , (3822, 14, True)
      , (3822, 19, True)
      , (3822, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Broad Sword (3879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3879;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3879, 'swordbroadfire');
@@ -31735,6 +33871,9 @@ VALUES (3879, 13, True)
      , (3879, 14, True)
      , (3879, 19, True)
      , (3879, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Quarter Staff (22167) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22167;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22167, 'quarterstafffrostnew');
@@ -31786,6 +33925,9 @@ VALUES (22167, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22167, 0, 16788502);
 
+/* Weenie - MeleeWeapons - Acid Shou-ono (3857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3857;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3857, 'shouonoacid');
 
@@ -31824,6 +33966,9 @@ VALUES (3857, 13, True)
      , (3857, 14, True)
      , (3857, 19, True)
      , (3857, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Khanda-handled Mace (41064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41064;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41064, 'ace41064-lightningkhandahandledmace');
@@ -31871,6 +34016,9 @@ VALUES (41064, 0, 83896665, 83896665)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41064, 0, 16794407);
+
+/* Weenie - MeleeWeapons - Flaming Nabut (22161) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22161;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22161, 'nabutfirenew');
@@ -31922,6 +34070,9 @@ VALUES (22161, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22161, 0, 16788503);
 
+/* Weenie - MeleeWeapons - Frost Partizan (30595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30595;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30595, 'spearpartizanfrost');
 
@@ -31968,6 +34119,9 @@ VALUES (30595, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30595, 0, 16791842);
 
+/* Weenie - MeleeWeapons - Frost Silifi (3868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3868;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3868, 'silififrost');
 
@@ -32006,6 +34160,9 @@ VALUES (3868, 13, True)
      , (3868, 14, True)
      , (3868, 19, True)
      , (3868, 22, True);
+
+/* Weenie - MeleeWeapons - Nabut (22163) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22163;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22163, 'nabutnew');
@@ -32056,6 +34213,9 @@ VALUES (22163, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22163, 0, 16788503);
 
+/* Weenie - MeleeWeapons - Hammer of Frore (4982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4982;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4982, 'axefrore');
 
@@ -32095,6 +34255,9 @@ VALUES (4982, 13, True)
      , (4982, 19, True)
      , (4982, 22, True);
 
+/* Weenie - MeleeWeapons - Ebon Spine Harpoon (10996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10996;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10996, 'ebonharpoonspear-xp');
 
@@ -32128,6 +34291,9 @@ VALUES (10996, 13, True)
      , (10996, 14, True)
      , (10996, 19, True)
      , (10996, 22, True);
+
+/* Weenie - MeleeWeapons - Golem Jo (3718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3718;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3718, 'jogolem');
@@ -32167,6 +34333,9 @@ VALUES (3718, 13, True)
      , (3718, 19, True)
      , (3718, 22, True);
 
+/* Weenie - MeleeWeapons - Staff of Nullification (22216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22216;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22216, 'staffofnullification');
 
@@ -32205,6 +34374,9 @@ VALUES (22216, 13, True)
      , (22216, 19, True)
      , (22216, 22, True);
 
+/* Weenie - MeleeWeapons - Olthoi Sword (3724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3724;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3724, 'swordolthoi');
 
@@ -32241,6 +34413,9 @@ VALUES (3724, 13, True)
      , (3724, 14, True)
      , (3724, 19, True)
      , (3724, 22, True);
+
+/* Weenie - MeleeWeapons - Enhanced Assault Mace (41923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41923;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41923, 'ace41923-enhancedassaultmace');
@@ -32294,6 +34469,9 @@ VALUES (41923, 0, 83893489, 83893489)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41923, 0, 16786138);
 
+/* Weenie - MeleeWeapons - Starter Shortsword (535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 535;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (535, 'newbieswordshort');
 
@@ -32331,6 +34509,9 @@ VALUES (535, 13, True)
      , (535, 19, True)
      , (535, 22, True);
 
+/* Weenie - MeleeWeapons - Starter Quarterstaff (529) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 529;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (529, 'newbiequarterstaff');
 
@@ -32367,6 +34548,9 @@ VALUES (529, 13, True)
      , (529, 14, True)
      , (529, 19, True)
      , (529, 22, True);
+
+/* Weenie - MeleeWeapons - Ornate Nekode (42207) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42207;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42207, 'ace42207-ornatenekode');
@@ -32416,6 +34600,9 @@ VALUES (42207, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42207, 0, 16783509);
+
+/* Weenie - MeleeWeapons - Bandit Rapier (22792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22792;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22792, 'swordrapierbandithigh');
@@ -32467,6 +34654,9 @@ VALUES (22792, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22792, 0, 16777934);
 
+/* Weenie - MeleeWeapons - Knife (22786) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22786;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22786, 'knifebandithigh');
 
@@ -32516,6 +34706,9 @@ VALUES (22786, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22786, 0, 16777925);
 
+/* Weenie - MeleeWeapons - Bandit Dagger (22777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22777;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22777, 'daggerbandithigh');
 
@@ -32562,6 +34755,9 @@ VALUES (22777, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22777, 0, 16777993);
+
+/* Weenie - MeleeWeapons - Khanjar (22783) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22783;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22783, 'khanjarbandithigh');
@@ -32612,6 +34808,9 @@ VALUES (22783, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22783, 0, 16777927);
 
+/* Weenie - MeleeWeapons - Bandit Yaoji (22798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22798;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22798, 'yaojibandithigh');
 
@@ -32659,6 +34858,9 @@ VALUES (22798, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22798, 0, 16777984);
 
+/* Weenie - MeleeWeapons - Lightning Jambiya (45428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45428, 'ace45428-lightningjambiya');
 
@@ -32694,6 +34896,9 @@ VALUES (45428, 13, True)
      , (45428, 14, True)
      , (45428, 19, True)
      , (45428, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Dagger (45424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45424;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45424, 'ace45424-flamingdagger');
@@ -32731,6 +34936,9 @@ VALUES (45424, 13, True)
      , (45424, 19, True)
      , (45424, 22, True);
 
+/* Weenie - MeleeWeapons - Vagurat's Hand (27906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27906;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27906, 'macevagurat');
 
@@ -32767,6 +34975,9 @@ VALUES (27906, 13, True)
      , (27906, 14, True)
      , (27906, 19, True)
      , (27906, 22, True);
+
+/* Weenie - MeleeWeapons - Training Short Sword (45553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45553;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45553, 'ace45553-trainingshortsword');
@@ -32819,6 +35030,9 @@ VALUES (45553, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45553, 0, 16777968);
 
+/* Weenie - MeleeWeapons - Training Broad Sword (45554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45554;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45554, 'ace45554-trainingbroadsword');
 
@@ -32870,6 +35084,9 @@ VALUES (45554, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45554, 0, 16777963);
 
+/* Weenie - MeleeWeapons - Academy Dabus (45539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45539;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45539, 'ace45539-academydabus');
 
@@ -32916,6 +35133,9 @@ VALUES (45539, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45539, 0, 16777929);
+
+/* Weenie - MeleeWeapons - Chorizite Staff (35550) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35550;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35550, 'ace35550-chorizitestaff');
@@ -32966,6 +35186,9 @@ VALUES (35550, 0, 83888778, 83888778);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35550, 0, 16777936);
+
+/* Weenie - MeleeWeapons - Acid Pike (41047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41047, 'ace41047-acidpike');
@@ -33018,6 +35241,9 @@ VALUES (41047, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41047, 0, 16794406);
 
+/* Weenie - MeleeWeapons - Hollow Staff (7571) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7571;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7571, 'nabuthollow');
 
@@ -33067,6 +35293,9 @@ VALUES (7571, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7571, 0, 16777936);
 
+/* Weenie - MeleeWeapons - Academy Battle Axe (12751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12751;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12751, 'axeacademy');
 
@@ -33114,6 +35343,9 @@ VALUES (12751, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12751, 0, 16777885);
+
+/* Weenie - MeleeWeapons - Flaming Greataxe (41055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41055;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41055, 'ace41055-flaminggreataxe');
@@ -33164,6 +35396,9 @@ VALUES (41055, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41055, 0, 16794283);
 
+/* Weenie - MeleeWeapons - Flaming Dirk (22443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22443;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22443, 'dirkfire');
 
@@ -33211,6 +35446,9 @@ VALUES (22443, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22443, 0, 16788591);
 
+/* Weenie - MeleeWeapons - Flaming Nekode (4196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4196;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4196, 'nekodefire');
 
@@ -33250,6 +35488,9 @@ VALUES (4196, 13, True)
      , (4196, 14, True)
      , (4196, 19, True)
      , (4196, 22, True);
+
+/* Weenie - MeleeWeapons - Training Dabus (45541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45541;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45541, 'ace45541-trainingdabus');
@@ -33298,6 +35539,9 @@ VALUES (45541, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45541, 0, 16777929);
 
+/* Weenie - MeleeWeapons - Stiletto (7565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7565;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7565, 'daggerhollow');
 
@@ -33344,6 +35588,9 @@ VALUES (7565, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7565, 0, 16792137);
 
+/* Weenie - MeleeWeapons - Lightning Shou-ono (3858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3858, 'shouonoelectric');
 
@@ -33385,6 +35632,9 @@ VALUES (3858, 13, True)
      , (3858, 19, True)
      , (3858, 22, True);
 
+/* Weenie - MeleeWeapons - Deadly Hollow Spear (15449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15449, 'spearhollownew');
 
@@ -33424,6 +35674,9 @@ VALUES (15449, 13, True)
      , (15449, 15, True)
      , (15449, 19, True)
      , (15449, 22, True);
+
+/* Weenie - MeleeWeapons - Training Spadone (41512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41512;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41512, 'ace41512-trainingspadone');
@@ -33470,6 +35723,9 @@ VALUES (41512, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41512, 0, 16791762);
 
+/* Weenie - MeleeWeapons - Deadly Hollow Two Handed Spear (41712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41712;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41712, 'ace41712-deadlyhollowtwohandedspear');
 
@@ -33509,6 +35765,9 @@ VALUES (41712, 13, True)
      , (41712, 15, True)
      , (41712, 19, True)
      , (41712, 22, True);
+
+/* Weenie - MeleeWeapons - Hafted Gromnie Banner with Crest (11740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11740;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11740, 'bannerhaftedcrestgromnie');
@@ -33552,6 +35811,9 @@ VALUES (11740, 0, 83893727, 83893727)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11740, 0, 16787131);
 
+/* Weenie - MeleeWeapons - Hollow Spear (7573) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7573;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7573, 'spearhollow');
 
@@ -33590,6 +35852,9 @@ VALUES (7573, 13, True)
      , (7573, 15, True)
      , (7573, 19, True)
      , (7573, 22, True);
+
+/* Weenie - MeleeWeapons - Academy Mace (12755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12755;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12755, 'maceacademy');
@@ -33638,6 +35903,9 @@ VALUES (12755, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12755, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Banished Mace (30860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30860;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30860, 'macebanished');
 
@@ -33671,6 +35939,9 @@ VALUES (30860, 13, True)
      , (30860, 14, True)
      , (30860, 19, True)
      , (30860, 22, True);
+
+/* Weenie - MeleeWeapons - Deadly Hollow Staff (21362) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21362;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21362, 'nabuthollownew');
@@ -33722,6 +35993,9 @@ VALUES (21362, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21362, 0, 16777936);
 
+/* Weenie - MeleeWeapons - Deadly Hollow Katar (21360) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21360;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21360, 'katarhollownew');
 
@@ -33761,6 +36035,9 @@ VALUES (21360, 13, True)
      , (21360, 15, True)
      , (21360, 19, True)
      , (21360, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Pike (41048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41048;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41048, 'ace41048-lightningpike');
@@ -33813,6 +36090,9 @@ VALUES (41048, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41048, 0, 16794406);
 
+/* Weenie - MeleeWeapons - Training Dagger (45538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45538;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45538, 'ace45538-trainingdagger');
 
@@ -33861,6 +36141,9 @@ VALUES (45538, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45538, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Deadly Hollow Dagger (21361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21361;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21361, 'daggerhollownew');
 
@@ -33900,6 +36183,9 @@ VALUES (21361, 13, True)
      , (21361, 15, True)
      , (21361, 19, True)
      , (21361, 22, True);
+
+/* Weenie - MeleeWeapons - Training Knuckles (45558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45558;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45558, 'ace45558-trainingknuckles');
@@ -33948,6 +36234,9 @@ VALUES (45558, 0, 83896019, 83896019);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45558, 0, 16792139);
+
+/* Weenie - MeleeWeapons - Brogord's Axe (5027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5027;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5027, 'axebrogord');
@@ -33998,6 +36287,9 @@ VALUES (5027, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5027, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Ice Tachi (1435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1435, 'tachiice');
 
@@ -34045,6 +36337,9 @@ VALUES (1435, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1435, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Bronze Dagger (15889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15889;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15889, 'daggerstatuebronze');
@@ -34096,6 +36391,9 @@ VALUES (15889, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15889, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Academy Knuckles (45556) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45556;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45556, 'ace45556-academyknuckles');
 
@@ -34144,6 +36442,9 @@ VALUES (45556, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45556, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Well-Balanced Lugian Greataxe (42932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42932;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42932, 'ace42932-wellbalancedlugiangreataxe');
 
@@ -34183,6 +36484,9 @@ VALUES (42932, 13, True)
      , (42932, 15, True)
      , (42932, 19, True)
      , (42932, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Mazule (30583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30583;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30583, 'macemazulefire');
@@ -34231,6 +36535,9 @@ VALUES (30583, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30583, 0, 16792135);
 
+/* Weenie - MeleeWeapons - Mace (47447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47447;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47447, 'ace47447-mace');
 
@@ -34277,6 +36584,9 @@ VALUES (47447, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47447, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Frost Tachi (47695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47695;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47695, 'ace47695-frosttachi');
@@ -34327,6 +36637,9 @@ VALUES (47695, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47695, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Spear (47752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47752;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47752, 'ace47752-lightningspear');
 
@@ -34375,6 +36688,9 @@ VALUES (47752, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47752, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Frost Corsesca (40822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40822;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40822, 'ace40822-frostcorsesca');
 
@@ -34420,6 +36736,9 @@ VALUES (40822, 0, 83896667, 83896667);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40822, 0, 16794281);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47656) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47656;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47656, 'ace47656-lightningtachi');
@@ -34469,6 +36788,9 @@ VALUES (47656, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47656, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Cestus (23638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23638;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23638, 'cestusmonsterlow');
@@ -34520,6 +36842,9 @@ VALUES (23638, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23638, 0, 16783508);
 
+/* Weenie - MeleeWeapons - Acid Axe (1439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1439;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1439, 'axeacid');
 
@@ -34553,6 +36878,9 @@ VALUES (1439, 13, True)
      , (1439, 14, True)
      , (1439, 19, True)
      , (1439, 22, True);
+
+/* Weenie - MeleeWeapons - Silifi (344) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 344;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (344, 'silifi');
@@ -34604,6 +36932,9 @@ VALUES (344, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (344, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Flaming Jitte (3804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3804;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3804, 'jittefire');
 
@@ -34639,6 +36970,9 @@ VALUES (3804, 13, True)
      , (3804, 14, True)
      , (3804, 19, True)
      , (3804, 22, True);
+
+/* Weenie - MeleeWeapons - Frost War Axe (31768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31768;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31768, 'ace31768-frostwaraxe');
@@ -34691,6 +37025,9 @@ VALUES (31768, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31768, 0, 16777886);
 
+/* Weenie - MeleeWeapons - Flaming Partizan (30592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30592;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30592, 'spearpartizanfire');
 
@@ -34737,6 +37074,9 @@ VALUES (30592, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30592, 0, 16791842);
 
+/* Weenie - MeleeWeapons - Red Rune Silveran Spear (33064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33064;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33064, 'ace33064-redrunesilveranspear');
 
@@ -34773,6 +37113,9 @@ VALUES (33064, 13, True)
      , (33064, 19, True)
      , (33064, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Scimitar (3849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3849, 'scimitaracid');
 
@@ -34808,6 +37151,9 @@ VALUES (3849, 13, True)
      , (3849, 14, True)
      , (3849, 19, True)
      , (3849, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Hatchet (30557) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30557;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30557, 'axehatchetacid');
@@ -34855,6 +37201,9 @@ VALUES (30557, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30557, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Lightning Silifi (47957) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47957;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47957, 'ace47957-lightningsilifi');
 
@@ -34894,6 +37243,9 @@ VALUES (47957, 13, True)
      , (47957, 14, True)
      , (47957, 19, True)
      , (47957, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Morning Star (23766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23766;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23766, 'lugianmorningstarhollowmid');
@@ -34935,6 +37287,9 @@ VALUES (23766, 13, True)
      , (23766, 19, True)
      , (23766, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Ken (3823) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3823;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3823, 'kenelectric');
 
@@ -34970,6 +37325,9 @@ VALUES (3823, 13, True)
      , (3823, 14, True)
      , (3823, 19, True)
      , (3823, 22, True);
+
+/* Weenie - MeleeWeapons - Silifi (47910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47910;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47910, 'ace47910-silifi');
@@ -35021,6 +37379,9 @@ VALUES (47910, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47910, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Lightning Silifi (47987) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47987;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47987, 'ace47987-lightningsilifi');
 
@@ -35060,6 +37421,9 @@ VALUES (47987, 13, True)
      , (47987, 14, True)
      , (47987, 19, True)
      , (47987, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Mace (47463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47463;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47463, 'ace47463-lightningmace');
@@ -35108,6 +37472,9 @@ VALUES (47463, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47463, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Shou-ono (342) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 342;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (342, 'shouono');
@@ -35159,6 +37526,9 @@ VALUES (342, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (342, 0, 16777889);
 
+/* Weenie - MeleeWeapons - Acid Club (3766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3766;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3766, 'clubacid');
 
@@ -35198,6 +37568,9 @@ VALUES (3766, 13, True)
      , (3766, 19, True)
      , (3766, 22, True);
 
+/* Weenie - MeleeWeapons - Frozen Dagger (48600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48600;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48600, 'ace48600-frozendagger');
 
@@ -35232,6 +37605,9 @@ VALUES (48600, 13, True)
      , (48600, 14, True)
      , (48600, 19, True)
      , (48600, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Corsesca (40821) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40821;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40821, 'ace40821-flamingcorsesca');
@@ -35278,6 +37654,9 @@ VALUES (40821, 0, 83896667, 83896667);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40821, 0, 16794281);
+
+/* Weenie - MeleeWeapons - Frost Tetsubo (40639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40639;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40639, 'ace40639-frosttetsubo');
@@ -35332,6 +37711,9 @@ VALUES (40639, 0, 83897334, 83897334)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40639, 0, 16794240);
 
+/* Weenie - MeleeWeapons - Fire Board with Nail (47287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47287;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47287, 'ace47287-fireboardwithnail');
 
@@ -35380,6 +37762,9 @@ VALUES (47287, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47287, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Acid Nekode (47863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47863;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47863, 'ace47863-acidnekode');
 
@@ -35416,6 +37801,9 @@ VALUES (47863, 13, True)
      , (47863, 14, True)
      , (47863, 19, True)
      , (47863, 22, True);
+
+/* Weenie - MeleeWeapons - Katar (47860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47860;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47860, 'ace47860-katar');
@@ -35465,6 +37853,9 @@ VALUES (47860, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47860, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (47894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47894, 'ace47894-lightningnekode');
 
@@ -35502,6 +37893,9 @@ VALUES (47894, 13, True)
      , (47894, 19, True)
      , (47894, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Ono (47870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47870;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47870, 'ace47870-lightningono');
 
@@ -35538,6 +37932,9 @@ VALUES (47870, 13, True)
      , (47870, 14, True)
      , (47870, 19, True)
      , (47870, 22, True);
+
+/* Weenie - MeleeWeapons - Knuckles (30611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30611;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30611, 'knuckles');
@@ -35587,6 +37984,9 @@ VALUES (30611, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30611, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Acid Cestus (4192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4192;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4192, 'cestusacid');
 
@@ -35625,6 +38025,9 @@ VALUES (4192, 13, True)
      , (4192, 14, True)
      , (4192, 19, True)
      , (4192, 22, True);
+
+/* Weenie - MeleeWeapons - Lancet (31794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31794;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31794, 'ace31794-lancet');
@@ -35677,6 +38080,9 @@ VALUES (31794, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31794, 0, 16792616);
 
+/* Weenie - MeleeWeapons - Lightning Mace (47457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47457;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47457, 'ace47457-lightningmace');
 
@@ -35724,6 +38130,9 @@ VALUES (47457, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47457, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47668) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47668;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47668, 'ace47668-flamingtachi');
@@ -35774,6 +38183,9 @@ VALUES (47668, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47668, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Club (47363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47363;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47363, 'ace47363-lightningclub');
 
@@ -35810,6 +38222,9 @@ VALUES (47363, 13, True)
      , (47363, 14, True)
      , (47363, 19, True)
      , (47363, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Board with Nail (47230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47230;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47230, 'ace47230-acidboardwithnail');
@@ -35859,6 +38274,9 @@ VALUES (47230, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47230, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Electric Board with Nail (47268) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47268;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47268, 'ace47268-electricboardwithnail');
 
@@ -35907,6 +38325,9 @@ VALUES (47268, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47268, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Frost Club (47401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47401;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47401, 'ace47401-frostclub');
 
@@ -35943,6 +38364,9 @@ VALUES (47401, 13, True)
      , (47401, 14, True)
      , (47401, 19, True)
      , (47401, 22, True);
+
+/* Weenie - MeleeWeapons - Yaoji (361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 361;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (361, 'yaoji');
@@ -35992,6 +38416,9 @@ VALUES (361, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (361, 0, 16777984);
 
+/* Weenie - MeleeWeapons - Frost Knife (45420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45420, 'ace45420-frostknife');
 
@@ -36030,6 +38457,9 @@ VALUES (45420, 13, True)
      , (45420, 14, True)
      , (45420, 19, True)
      , (45420, 22, True);
+
+/* Weenie - MeleeWeapons - Kasrullah (325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 325;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (325, 'kasrullah');
@@ -36077,6 +38507,9 @@ VALUES (325, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (325, 0, 16777987);
 
+/* Weenie - MeleeWeapons - Frost Shamshir (3856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3856;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3856, 'shamshirfrost');
 
@@ -36115,6 +38548,9 @@ VALUES (3856, 13, True)
      , (3856, 14, True)
      , (3856, 19, True)
      , (3856, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Mace (3834) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3834;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3834, 'maceacid');
@@ -36163,6 +38599,9 @@ VALUES (3834, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3834, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Acid Khanda-handled Mace (41063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41063, 'ace41063-acidkhandahandledmace');
 
@@ -36210,6 +38649,9 @@ VALUES (41063, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41063, 0, 16794407);
 
+/* Weenie - MeleeWeapons - Lightning Partizan (30593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30593, 'spearpartizanelectric');
 
@@ -36255,6 +38697,9 @@ VALUES (30593, 0, 83896667, 83896667);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30593, 0, 16791842);
+
+/* Weenie - MeleeWeapons - Flaming Lancet (31797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31797;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31797, 'ace31797-flaminglancet');
@@ -36307,6 +38752,9 @@ VALUES (31797, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31797, 0, 16792616);
 
+/* Weenie - MeleeWeapons - Flaming Kasrullah (3816) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3816;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3816, 'kasrullahfire');
 
@@ -36342,6 +38790,9 @@ VALUES (3816, 13, True)
      , (3816, 14, True)
      , (3816, 19, True)
      , (3816, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Morning Star (3937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3937;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3937, 'morningstarfire');
@@ -36389,6 +38840,9 @@ VALUES (3937, 0, 83889356, 83886712)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3937, 0, 16777932);
+
+/* Weenie - MeleeWeapons - Flaming Quarter Staff (22166) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22166;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22166, 'quarterstaffflamenew');
@@ -36440,6 +38894,9 @@ VALUES (22166, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22166, 0, 16788502);
 
+/* Weenie - MeleeWeapons - Ono (47928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47928, 'ace47928-ono');
 
@@ -36486,6 +38943,9 @@ VALUES (47928, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47928, 0, 16777885);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47657;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47657, 'ace47657-lightningtachi');
@@ -36536,6 +38996,9 @@ VALUES (47657, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47657, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Tachi (47672) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47672;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47672, 'ace47672-flamingtachi');
 
@@ -36585,6 +39048,9 @@ VALUES (47672, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47672, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Mace (47424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47424;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47424, 'ace47424-acidmace');
 
@@ -36632,6 +39098,9 @@ VALUES (47424, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47424, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47669;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47669, 'ace47669-flamingtachi');
@@ -36681,6 +39150,9 @@ VALUES (47669, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47669, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Silifi (47895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47895;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47895, 'ace47895-silifi');
@@ -36732,6 +39204,9 @@ VALUES (47895, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47895, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Frost Greataxe (41056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41056;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41056, 'ace41056-frostgreataxe');
 
@@ -36778,6 +39253,9 @@ VALUES (41056, 0, 83896665, 83896665)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41056, 0, 16794283);
+
+/* Weenie - MeleeWeapons - Takuba (354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 354;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (354, 'takuba');
@@ -36830,6 +39308,9 @@ VALUES (354, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (354, 0, 16777976);
 
+/* Weenie - MeleeWeapons - Acid Battle Axe (3750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3750, 'axebattleacid');
 
@@ -36870,6 +39351,9 @@ VALUES (3750, 13, True)
      , (3750, 19, True)
      , (3750, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning War Hammer (3906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3906;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3906, 'warhammerelectric');
 
@@ -36905,6 +39389,9 @@ VALUES (3906, 13, True)
      , (3906, 14, True)
      , (3906, 19, True)
      , (3906, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Silifi (47897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47897;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47897, 'ace47897-lightningsilifi');
@@ -36946,6 +39433,9 @@ VALUES (47897, 13, True)
      , (47897, 19, True)
      , (47897, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Ono (47899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47899;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47899, 'ace47899-acidono');
 
@@ -36982,6 +39472,9 @@ VALUES (47899, 13, True)
      , (47899, 14, True)
      , (47899, 19, True)
      , (47899, 22, True);
+
+/* Weenie - MeleeWeapons - Flanged Mace (30586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30586;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30586, 'maceflanged');
@@ -37027,6 +39520,9 @@ VALUES (30586, 0, 83896666, 83896666);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30586, 0, 16791841);
+
+/* Weenie - MeleeWeapons - Lightning Rapier (45105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45105;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45105, 'ace45105-lightningrapier');
@@ -37079,6 +39575,9 @@ VALUES (45105, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45105, 0, 16777934);
 
+/* Weenie - MeleeWeapons - Short Sword (45396) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45396;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45396, 'ace45396-shortsword');
 
@@ -37130,6 +39629,9 @@ VALUES (45396, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45396, 0, 16777968);
 
+/* Weenie - MeleeWeapons - Acid Kaskara (3810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3810;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3810, 'kaskaraacid');
 
@@ -37165,6 +39667,9 @@ VALUES (3810, 13, True)
      , (3810, 14, True)
      , (3810, 19, True)
      , (3810, 22, True);
+
+/* Weenie - MeleeWeapons - Enhanced Assault Greatsword (41901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41901;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41901, 'ace41901-enhancedassaultgreatsword');
@@ -37209,6 +39714,9 @@ VALUES (41901, 13, True)
      , (41901, 19, True)
      , (41901, 22, True);
 
+/* Weenie - MeleeWeapons - Paradox-touched Olthoi Great Sword (43042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43042;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43042, 'ace43042-paradoxtouchedolthoigreatsword');
 
@@ -37249,6 +39757,9 @@ VALUES (43042, 13, True)
      , (43042, 22, True)
      , (43042, 91, True);
 
+/* Weenie - MeleeWeapons - Sword of Lost Light (24607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24607;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24607, 'swordlostlightbluenew');
 
@@ -37287,6 +39798,9 @@ VALUES (24607, 13, True)
      , (24607, 19, True)
      , (24607, 22, True);
 
+/* Weenie - MeleeWeapons - Sword of Lost Light (24608) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24608;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24608, 'swordlostlightbluerednew');
 
@@ -37324,6 +39838,9 @@ VALUES (24608, 13, True)
      , (24608, 14, True)
      , (24608, 19, True)
      , (24608, 22, True);
+
+/* Weenie - MeleeWeapons - Noble Rapier (28498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28498, 'swordnoble');
@@ -37365,6 +39882,9 @@ VALUES (28498, 13, True)
      , (28498, 19, True)
      , (28498, 22, True);
 
+/* Weenie - MeleeWeapons - Shauraloi (21435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21435, 'warhammergaerlan');
 
@@ -37402,6 +39922,9 @@ VALUES (21435, 13, True)
      , (21435, 19, True)
      , (21435, 22, True);
 
+/* Weenie - MeleeWeapons - Raudaloi (21913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21913, 'swordgaerlan');
 
@@ -37438,6 +39961,9 @@ VALUES (21913, 13, True)
      , (21913, 14, True)
      , (21913, 19, True)
      , (21913, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Spadone (40620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40620;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40620, 'ace40620-lightningspadone');
@@ -37485,6 +40011,9 @@ VALUES (40620, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40620, 0, 16791762);
 
+/* Weenie - MeleeWeapons - Fire Yaoji (23717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23717;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23717, 'yaojibanditfiredrudgeextreme');
 
@@ -37519,6 +40048,9 @@ VALUES (23717, 13, True)
      , (23717, 14, True)
      , (23717, 19, True)
      , (23717, 22, True);
+
+/* Weenie - MeleeWeapons - Paradox-touched Olthoi Axe (35913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35913;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35913, 'ace35913-paradoxtouchedolthoiaxe');
@@ -37575,6 +40107,9 @@ VALUES (35913, 0, 83893392, 83893392)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35913, 0, 16789073);
 
+/* Weenie - MeleeWeapons - Paradox-touched Olthoi Mace (43047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43047;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43047, 'ace43047-paradoxtouchedolthoimace');
 
@@ -37614,6 +40149,9 @@ VALUES (43047, 13, True)
      , (43047, 14, True)
      , (43047, 19, True)
      , (43047, 22, True);
+
+/* Weenie - MeleeWeapons - Paradox-touched Olthoi Katar (35914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35914, 'ace35914-paradoxtouchedolthoikatar');
@@ -37664,6 +40202,9 @@ VALUES (35914, 0, 83893392, 83893392)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35914, 0, 16789074);
 
+/* Weenie - MeleeWeapons - Paradox-touched Olthoi Dagger (43046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 43046;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (43046, 'ace43046-paradoxtouchedolthoidagger');
 
@@ -37703,6 +40244,9 @@ VALUES (43046, 13, True)
      , (43046, 14, True)
      , (43046, 19, True)
      , (43046, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Dolabra (30564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30564;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30564, 'axedolabrafire');
@@ -37756,6 +40300,9 @@ VALUES (30564, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30564, 0, 16791840);
 
+/* Weenie - MeleeWeapons - Frost Spear (47781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47781;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47781, 'ace47781-frostspear');
 
@@ -37803,6 +40350,9 @@ VALUES (47781, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47781, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47653;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47653, 'ace47653-lightningtachi');
@@ -37853,6 +40403,9 @@ VALUES (47653, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47653, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Nekode (47878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47878;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47878, 'ace47878-acidnekode');
 
@@ -37889,6 +40442,9 @@ VALUES (47878, 13, True)
      , (47878, 14, True)
      , (47878, 19, True)
      , (47878, 22, True);
+
+/* Weenie - MeleeWeapons - Katar (47875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47875;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47875, 'ace47875-katar');
@@ -37938,6 +40494,9 @@ VALUES (47875, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47875, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Lightning Ono (47915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47915;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47915, 'ace47915-lightningono');
 
@@ -37974,6 +40533,9 @@ VALUES (47915, 13, True)
      , (47915, 14, True)
      , (47915, 19, True)
      , (47915, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Nekode (47908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47908;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47908, 'ace47908-acidnekode');
@@ -38012,6 +40574,9 @@ VALUES (47908, 13, True)
      , (47908, 19, True)
      , (47908, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Ono (47914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47914;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47914, 'ace47914-acidono');
 
@@ -38048,6 +40613,9 @@ VALUES (47914, 13, True)
      , (47914, 14, True)
      , (47914, 19, True)
      , (47914, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Nekode (47893) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47893;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47893, 'ace47893-acidnekode');
@@ -38086,6 +40654,9 @@ VALUES (47893, 13, True)
      , (47893, 19, True)
      , (47893, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Nekode (47923) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47923;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47923, 'ace47923-acidnekode');
 
@@ -38122,6 +40693,9 @@ VALUES (47923, 13, True)
      , (47923, 14, True)
      , (47923, 19, True)
      , (47923, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Silifi (47896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47896;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47896, 'ace47896-acidsilifi');
@@ -38162,6 +40736,9 @@ VALUES (47896, 13, True)
      , (47896, 14, True)
      , (47896, 19, True)
      , (47896, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47673;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47673, 'ace47673-flamingtachi');
@@ -38212,6 +40789,9 @@ VALUES (47673, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47673, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Silifi (47927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47927;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47927, 'ace47927-lightningsilifi');
 
@@ -38251,6 +40831,9 @@ VALUES (47927, 13, True)
      , (47927, 14, True)
      , (47927, 19, True)
      , (47927, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Simi (12072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12072;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12072, 'simibandit');
@@ -38298,6 +40881,9 @@ VALUES (12072, 0, 83888778, 83888778)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12072, 0, 16777945);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47675) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47675;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47675, 'ace47675-flamingtachi');
@@ -38348,6 +40934,9 @@ VALUES (47675, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47675, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48494;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48494, 'ace48494-flamingkatar');
 
@@ -38385,6 +40974,9 @@ VALUES (48494, 13, True)
      , (48494, 19, True)
      , (48494, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Katar (47996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47996;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47996, 'ace47996-lightningkatar');
 
@@ -38421,6 +41013,9 @@ VALUES (47996, 13, True)
      , (47996, 14, True)
      , (47996, 19, True)
      , (47996, 22, True);
+
+/* Weenie - MeleeWeapons - Acid War Axe (31770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31770;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31770, 'ace31770-acidwaraxe');
@@ -38473,6 +41068,9 @@ VALUES (31770, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31770, 0, 16777886);
 
+/* Weenie - MeleeWeapons - Lightning Ono (47990) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47990;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47990, 'ace47990-lightningono');
 
@@ -38510,6 +41108,9 @@ VALUES (47990, 13, True)
      , (47990, 19, True)
      , (47990, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Katar (48009) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48009;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48009, 'ace48009-acidkatar');
 
@@ -38546,6 +41147,9 @@ VALUES (48009, 13, True)
      , (48009, 14, True)
      , (48009, 19, True)
      , (48009, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47677) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47677;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47677, 'ace47677-flamingtachi');
@@ -38596,6 +41200,9 @@ VALUES (47677, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47677, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Sword of Lost Hope (24604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24604;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24604, 'swordlosthopeubernew');
 
@@ -38633,6 +41240,9 @@ VALUES (24604, 13, True)
      , (24604, 15, True)
      , (24604, 19, True)
      , (24604, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47625) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47625;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47625, 'ace47625-acidtachi');
@@ -38683,6 +41293,9 @@ VALUES (47625, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47625, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Fire Board with Nail (47286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47286;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47286, 'ace47286-fireboardwithnail');
 
@@ -38731,6 +41344,9 @@ VALUES (47286, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47286, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Acid Bastone (30610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30610;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30610, 'staffmeleebastoneacid');
 
@@ -38777,6 +41393,9 @@ VALUES (30610, 0, 83897173, 83897173);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30610, 0, 16792138);
 
+/* Weenie - MeleeWeapons - Gearknight Sword (41237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41237, 'ace41237-gearknightsword');
 
@@ -38811,6 +41430,9 @@ VALUES (41237, 13, True)
      , (41237, 14, True)
      , (41237, 19, True)
      , (41237, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Gearknight Sword (41249) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41249;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41249, 'ace41249-frostgearknightsword');
@@ -38847,6 +41469,9 @@ VALUES (41249, 13, True)
      , (41249, 14, True)
      , (41249, 19, True)
      , (41249, 22, True);
+
+/* Weenie - MeleeWeapons - Princely Runed Knuckles (32983) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32983;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32983, 'ace32983-princelyrunedknuckles');
@@ -38890,6 +41515,9 @@ VALUES (32983, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32983, 67116440, 0, 0);
+
+/* Weenie - MeleeWeapons - Frost Epee (45103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45103;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45103, 'ace45103-frostepee');
@@ -38942,6 +41570,9 @@ VALUES (45103, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45103, 0, 16795944);
 
+/* Weenie - MeleeWeapons - Flaming Epee (45102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45102;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45102, 'ace45102-flamingepee');
 
@@ -38993,6 +41624,9 @@ VALUES (45102, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45102, 0, 16795944);
 
+/* Weenie - MeleeWeapons - Soul Bound Dagger (45525) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45525;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45525, 'ace45525-soulbounddagger');
 
@@ -39039,6 +41673,9 @@ VALUES (45525, 0, 83893927, 83892492)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45525, 0, 16787903);
+
+/* Weenie - MeleeWeapons - Enhanced Shimmering Isparian Two Handed Sword (46210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46210;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46210, 'ace46210-enhancedshimmeringispariantwohandedsword');
@@ -39087,6 +41724,9 @@ VALUES (46210, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46210, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Iasparailaun (46990) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46990;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46990, 'ace46990-iasparailaun');
 
@@ -39126,6 +41766,9 @@ VALUES (46990, 13, True)
      , (46990, 14, True)
      , (46990, 19, True)
      , (46990, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Flamberge (30578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30578;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30578, 'swordflambergefrost');
@@ -39178,6 +41821,9 @@ VALUES (30578, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30578, 0, 16791760);
 
+/* Weenie - MeleeWeapons - Nekode (4195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4195;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4195, 'nekode');
 
@@ -39229,6 +41875,9 @@ VALUES (4195, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4195, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Frost Spear (47790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47790;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47790, 'ace47790-frostspear');
 
@@ -39276,6 +41925,9 @@ VALUES (47790, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47790, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Frost Spear (47789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47789;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47789, 'ace47789-frostspear');
@@ -39325,6 +41977,9 @@ VALUES (47789, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47789, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Lightning Mace (47465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47465;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47465, 'ace47465-lightningmace');
 
@@ -39373,6 +42028,9 @@ VALUES (47465, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47465, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Modified Iasparailaun (46959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46959;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46959, 'ace46959-modifiediasparailaun');
 
@@ -39410,6 +42068,9 @@ VALUES (46959, 13, True)
      , (46959, 14, True)
      , (46959, 19, True)
      , (46959, 22, True);
+
+/* Weenie - MeleeWeapons - Shadowfire Isparian Mace (32644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32644;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32644, 'ace32644-shadowfireisparianmace');
@@ -39457,6 +42118,9 @@ VALUES (32644, 0, 83889237, 83889688);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32644, 0, 16783996);
+
+/* Weenie - MeleeWeapons - Soul Bound Sword (37584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37584;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37584, 'ace37584-soulboundsword');
@@ -39506,6 +42170,9 @@ VALUES (37584, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37584, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Weeping Dagger (24202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24202;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24202, 'daggerisparianperfectweeping');
 
@@ -39542,6 +42209,9 @@ VALUES (24202, 13, True)
      , (24202, 14, True)
      , (24202, 19, True)
      , (24202, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Stinging Atlan Dagger (6206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6206;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6206, 'daggerbeststingingmajor');
@@ -39587,6 +42257,9 @@ VALUES (6206, 67111923, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6206, 0, 16783993);
 
+/* Weenie - MeleeWeapons - Flaming Poniard (30598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30598;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30598, 'daggerponiardfire');
 
@@ -39629,6 +42302,9 @@ VALUES (30598, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30598, 67116422, 0, 0);
 
+/* Weenie - MeleeWeapons - Sword of Soroku (37083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37083;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37083, 'ace37083-swordofsoroku');
 
@@ -39663,6 +42339,9 @@ VALUES (37083, 13, True)
      , (37083, 14, True)
      , (37083, 19, True)
      , (37083, 22, True);
+
+/* Weenie - MeleeWeapons - Overlord's Sword (23522) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23522;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23522, 'swordoverlordnew');
@@ -39702,6 +42381,9 @@ VALUES (23522, 13, True)
      , (23522, 14, True)
      , (23522, 19, True)
      , (23522, 22, True);
+
+/* Weenie - MeleeWeapons - Mi Krau-Li's Improved Jitte (23527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23527;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23527, 'jittekrauligreaternew');
@@ -39751,6 +42433,9 @@ VALUES (23527, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23527, 0, 16777918);
 
+/* Weenie - MeleeWeapons - Steel Butterfly (45470) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45470;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45470, 'ace45470-steelbutterfly');
 
@@ -39796,6 +42481,9 @@ VALUES (45470, 0, 83897115, 83897115);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45470, 0, 16792019);
+
+/* Weenie - MeleeWeapons - Lightning Spear (47751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47751;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47751, 'ace47751-lightningspear');
@@ -39845,6 +42533,9 @@ VALUES (47751, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47751, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Thunderhead (45450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45450, 'ace45450-thunderhead');
 
@@ -39892,6 +42583,9 @@ VALUES (45450, 0, 83897116, 83897116);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45450, 0, 16792020);
+
+/* Weenie - MeleeWeapons - Hefty Walking Cane (52515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52515;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52515, 'ace52515-heftywalkingcane');
@@ -39944,6 +42638,9 @@ VALUES (52515, 0, 83892431, 83892431)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52515, 0, 16789796);
 
+/* Weenie - MeleeWeapons - Lightning Broad Sword (3878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3878;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3878, 'swordbroadelectric');
 
@@ -39985,6 +42682,9 @@ VALUES (3878, 13, True)
      , (3878, 14, True)
      , (3878, 19, True)
      , (3878, 22, True);
+
+/* Weenie - MeleeWeapons - Princely Runed Flamberge (32982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32982;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32982, 'ace32982-princelyrunedflamberge');
@@ -40035,6 +42735,9 @@ VALUES (32982, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32982, 0, 16791760);
 
+/* Weenie - MeleeWeapons - Flaming Yari (3915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3915;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3915, 'yarifire');
 
@@ -40074,6 +42777,9 @@ VALUES (3915, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (3915, 67111924, 0, 0);
+
+/* Weenie - MeleeWeapons - Major Stinging Atlan Two Handed Sword (46116) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46116;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46116, 'ace46116-majorstingingatlantwohandedsword');
@@ -40128,6 +42834,9 @@ VALUES (46116, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46116, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Lightning Tetsubo (40637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40637;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40637, 'ace40637-lightningtetsubo');
 
@@ -40180,6 +42889,9 @@ VALUES (40637, 0, 83897334, 83897334)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40637, 0, 16794240);
 
+/* Weenie - MeleeWeapons - Training Tungi (45533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45533;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45533, 'ace45533-trainingtungi');
 
@@ -40228,6 +42940,9 @@ VALUES (45533, 0, 83886712, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45533, 0, 16777992);
 
+/* Weenie - MeleeWeapons - Acid Spadone (40619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40619;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40619, 'ace40619-acidspadone');
 
@@ -40273,6 +42988,9 @@ VALUES (40619, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40619, 0, 16791762);
+
+/* Weenie - MeleeWeapons - Acid Lancet (31795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31795;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31795, 'ace31795-acidlancet');
@@ -40325,6 +43043,9 @@ VALUES (31795, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31795, 0, 16792616);
 
+/* Weenie - MeleeWeapons - Frost Trident (7791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7791;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7791, 'tridentfrost');
 
@@ -40376,6 +43097,9 @@ VALUES (7791, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7791, 0, 16784608);
 
+/* Weenie - MeleeWeapons - Frost Bastone (30609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30609, 'staffmeleebastonefrost');
 
@@ -40421,6 +43145,9 @@ VALUES (30609, 0, 83897173, 83897173);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30609, 0, 16792138);
+
+/* Weenie - MeleeWeapons - Electric Spine Glaive (31781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31781;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31781, 'ace31781-electricspineglaive');
@@ -40470,6 +43197,9 @@ VALUES (31781, 0, 83897337, 83897337);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31781, 0, 16792614);
 
+/* Weenie - MeleeWeapons - Peerless Atlan Staff (6132) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6132;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6132, 'staffbestnostone');
 
@@ -40512,6 +43242,9 @@ VALUES (6132, 67111927, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6132, 0, 16783994);
+
+/* Weenie - MeleeWeapons - Academy Dagger (45536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45536;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45536, 'ace45536-academydagger');
@@ -40561,6 +43294,9 @@ VALUES (45536, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45536, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Nekode (48086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48086;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48086, 'ace48086-nekode');
 
@@ -40608,6 +43344,9 @@ VALUES (48086, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48086, 0, 16783509);
+
+/* Weenie - MeleeWeapons - Silifi (48074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48074;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48074, 'ace48074-silifi');
@@ -40659,6 +43398,9 @@ VALUES (48074, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48074, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Katar (48069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48069;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48069, 'ace48069-katar');
 
@@ -40706,6 +43448,9 @@ VALUES (48069, 0, 83886710, 83886710)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48069, 0, 16777920);
+
+/* Weenie - MeleeWeapons - Flaming Assagai (41039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41039;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41039, 'ace41039-flamingassagai');
@@ -40759,6 +43504,9 @@ VALUES (41039, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41039, 0, 16794405);
 
+/* Weenie - MeleeWeapons - Great Pyre Blade (40653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40653;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40653, 'ace40653-greatpyreblade');
 
@@ -40793,6 +43541,9 @@ VALUES (40653, 13, True)
      , (40653, 14, True)
      , (40653, 19, True)
      , (40653, 22, True);
+
+/* Weenie - MeleeWeapons - Superior Atlan Sword (6300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6300;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6300, 'swordbetternostone');
@@ -40836,6 +43587,9 @@ VALUES (6300, 67111927, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6300, 0, 16783995);
+
+/* Weenie - MeleeWeapons - Flaming Tetsubo (40638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40638;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40638, 'ace40638-flamingtetsubo');
@@ -40889,6 +43643,9 @@ VALUES (40638, 0, 83897334, 83897334)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40638, 0, 16794240);
 
+/* Weenie - MeleeWeapons - Acid Shashqa (41068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41068;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41068, 'ace41068-acidshashqa');
 
@@ -40934,6 +43691,9 @@ VALUES (41068, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41068, 0, 16794291);
+
+/* Weenie - MeleeWeapons - Katar (48024) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48024;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48024, 'ace48024-katar');
@@ -40983,6 +43743,9 @@ VALUES (48024, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48024, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Acid Silifi (47986) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47986;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47986, 'ace47986-acidsilifi');
 
@@ -41023,6 +43786,9 @@ VALUES (47986, 13, True)
      , (47986, 19, True)
      , (47986, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Nekode (48027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48027;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48027, 'ace48027-acidnekode');
 
@@ -41060,6 +43826,9 @@ VALUES (48027, 13, True)
      , (48027, 19, True)
      , (48027, 22, True);
 
+/* Weenie - MeleeWeapons - Superior Ashbane (28067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28067;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28067, 'swordleikothanewuber');
 
@@ -41096,6 +43865,9 @@ VALUES (28067, 13, True)
      , (28067, 14, True)
      , (28067, 19, True)
      , (28067, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Hand Axe (3756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3756;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3756, 'axehandfire');
@@ -41135,6 +43907,9 @@ VALUES (3756, 13, True)
      , (3756, 14, True)
      , (3756, 19, True)
      , (3756, 22, True);
+
+/* Weenie - MeleeWeapons - Training Battle Axe (12740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12740;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12740, 'axetraining');
@@ -41186,6 +43961,9 @@ VALUES (12740, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12740, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Major Smoldering Atlan Mace (46076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46076;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46076, 'ace46076-majorsmolderingatlanmace');
 
@@ -41235,6 +44013,9 @@ VALUES (46076, 0, 83889688, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46076, 0, 16783996);
 
+/* Weenie - MeleeWeapons - Bandit Flaming Short Sword (12080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12080;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12080, 'swordshortfirebandit');
 
@@ -41274,6 +44055,9 @@ VALUES (12080, 13, True)
      , (12080, 19, True)
      , (12080, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Lightning Jambiya (12058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12058;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12058, 'jambiyaelectricbandit');
 
@@ -41309,6 +44093,9 @@ VALUES (12058, 13, True)
      , (12058, 14, True)
      , (12058, 19, True)
      , (12058, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Lightning Dagger (12053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12053;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12053, 'daggerelectricbandit');
@@ -41346,6 +44133,9 @@ VALUES (12053, 13, True)
      , (12053, 19, True)
      , (12053, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Acid Simi (12071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12071, 'simiacidbandit');
 
@@ -41382,6 +44172,9 @@ VALUES (12071, 13, True)
      , (12071, 19, True)
      , (12071, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Frost Dagger (12055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12055;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12055, 'daggerfrostbandit');
 
@@ -41417,6 +44210,9 @@ VALUES (12055, 13, True)
      , (12055, 14, True)
      , (12055, 19, True)
      , (12055, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Lightning Knife (12068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12068;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12068, 'knifeelectricbandit');
@@ -41457,6 +44253,9 @@ VALUES (12068, 13, True)
      , (12068, 19, True)
      , (12068, 22, True);
 
+/* Weenie - MeleeWeapons - Mace of the Quiddity (11906) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11906;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11906, 'tumerokmacefalcon-creatureonly');
 
@@ -41493,6 +44292,9 @@ VALUES (11906, 13, True)
      , (11906, 19, True)
      , (11906, 22, True);
 
+/* Weenie - MeleeWeapons - Lance of the Quiddity (11912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11912;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11912, 'tumerokspearfalcon-creatureonly');
 
@@ -41528,6 +44330,9 @@ VALUES (11912, 13, True)
      , (11912, 15, True)
      , (11912, 19, True)
      , (11912, 22, True);
+
+/* Weenie - MeleeWeapons - Blade of the Quiddity (11915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11915;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11915, 'tumerokswordfalcon-creatureonly');
@@ -41568,6 +44373,9 @@ VALUES (11915, 13, True)
      , (11915, 19, True)
      , (11915, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Frost Simi (12075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12075;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12075, 'simifrostbandit');
 
@@ -41603,6 +44411,9 @@ VALUES (12075, 13, True)
      , (12075, 14, True)
      , (12075, 19, True)
      , (12075, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Flaming Knife (12069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12069;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12069, 'knifefirebandit');
@@ -41643,6 +44454,9 @@ VALUES (12069, 13, True)
      , (12069, 19, True)
      , (12069, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Frost Yaoji (12086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12086;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12086, 'yaojifrostbandit');
 
@@ -41679,6 +44493,9 @@ VALUES (12086, 13, True)
      , (12086, 19, True)
      , (12086, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Frost Jambiya (12060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12060;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12060, 'jambiyafrostbandit');
 
@@ -41714,6 +44531,9 @@ VALUES (12060, 13, True)
      , (12060, 14, True)
      , (12060, 19, True)
      , (12060, 22, True);
+
+/* Weenie - MeleeWeapons - Blade of the Quiddity (11916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11916;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11916, 'tumerokswordgromnie-creatureonly');
@@ -41754,6 +44574,9 @@ VALUES (11916, 13, True)
      , (11916, 19, True)
      , (11916, 22, True);
 
+/* Weenie - MeleeWeapons - Mace of the Quiddity (11907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11907;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11907, 'tumerokmacegromnie-creatureonly');
 
@@ -41789,6 +44612,9 @@ VALUES (11907, 13, True)
      , (11907, 15, True)
      , (11907, 19, True)
      , (11907, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Frost Short Sword (12081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12081;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12081, 'swordshortfrostbandit');
@@ -41828,6 +44654,9 @@ VALUES (12081, 13, True)
      , (12081, 14, True)
      , (12081, 19, True)
      , (12081, 22, True);
+
+/* Weenie - MeleeWeapons - Jambiya (22780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22780;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22780, 'jambiyabandithigh');
@@ -41874,6 +44703,9 @@ VALUES (22780, 0, 83886747, 83886747)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22780, 0, 16777986);
+
+/* Weenie - MeleeWeapons - Dagger (23669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23669;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23669, 'daggerdrudgebandithigh');
@@ -41922,6 +44754,9 @@ VALUES (23669, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23669, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Bandit Flaming Yaoji (12085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12085;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12085, 'yaojifirebandit');
 
@@ -41957,6 +44792,9 @@ VALUES (12085, 13, True)
      , (12085, 14, True)
      , (12085, 19, True)
      , (12085, 22, True);
+
+/* Weenie - MeleeWeapons - Crop (10993) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10993;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10993, 'croptupereafake-xp');
@@ -41995,6 +44833,9 @@ VALUES (10993, 13, True)
      , (10993, 19, True)
      , (10993, 22, True);
 
+/* Weenie - MeleeWeapons - Assassin's Lightning Simi (12196) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12196;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12196, 'simielectricbanditzharalim');
 
@@ -42031,6 +44872,9 @@ VALUES (12196, 13, True)
      , (12196, 19, True)
      , (12196, 22, True);
 
+/* Weenie - MeleeWeapons - Assassin's Lightning Jambiya (12189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12189;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12189, 'jambiyaelectricbanditzharalim');
 
@@ -42066,6 +44910,9 @@ VALUES (12189, 13, True)
      , (12189, 14, True)
      , (12189, 19, True)
      , (12189, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Shivering Atlan Staff (6128) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6128;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6128, 'staffbestshiveringmajor');
@@ -42111,6 +44958,9 @@ VALUES (6128, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6128, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Peerless Sparking Atlan Staff (6130) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6130;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6130, 'staffbestsparkingmajor');
 
@@ -42150,6 +45000,9 @@ VALUES (6130, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6130, 0, 16783994);
+
+/* Weenie - MeleeWeapons - Ultimate Singularity Dagger (41882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41882;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41882, 'ace41882-ultimatesingularitydagger');
@@ -42199,6 +45052,9 @@ VALUES (41882, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41882, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Mi Krau-Li's Remastered Jitte (34002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34002;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34002, 'ace34002-mikraulisremasteredjitte');
 
@@ -42235,6 +45091,9 @@ VALUES (34002, 13, True)
      , (34002, 14, True)
      , (34002, 19, True)
      , (34002, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (3891) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3891;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3891, 'tachifire');
@@ -42287,6 +45146,9 @@ VALUES (3891, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3891, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Shadowfire Isparian Staff (46393) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46393;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46393, 'ace46393-shadowfireisparianstaff');
 
@@ -42335,6 +45197,9 @@ VALUES (46393, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46393, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Royal Runed Mazule (33209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33209;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33209, 'ace33209-royalrunedmazule');
 
@@ -42380,6 +45245,9 @@ VALUES (33209, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33209, 0, 16792135);
 
+/* Weenie - MeleeWeapons - Purified Mouryou Nodachi (46830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46830;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46830, 'ace46830-purifiedmouryounodachi');
 
@@ -42416,6 +45284,9 @@ VALUES (46830, 13, True)
      , (46830, 15, True)
      , (46830, 19, True)
      , (46830, 22, True);
+
+/* Weenie - MeleeWeapons - Ultimate Singularity Katar (41883) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41883;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41883, 'ace41883-ultimatesingularitykatar');
@@ -42465,6 +45336,9 @@ VALUES (41883, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41883, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Lightning Tachi (3890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3890;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3890, 'tachielectric');
 
@@ -42503,6 +45377,9 @@ VALUES (3890, 13, True)
      , (3890, 14, True)
      , (3890, 19, True)
      , (3890, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Weeping Sword (25633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25633;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25633, 'swordweepingfiery');
@@ -42545,6 +45422,9 @@ VALUES (25633, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25633, 67114520, 0, 0);
 
+/* Weenie - MeleeWeapons - Electric Weeping Sword (25632) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25632;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25632, 'swordweepingelectric');
 
@@ -42586,6 +45466,9 @@ VALUES (25632, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25632, 67114521, 0, 0);
 
+/* Weenie - MeleeWeapons - Lugian Axe (23740) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23740;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23740, 'lugianaxehollowhigh');
 
@@ -42625,6 +45508,9 @@ VALUES (23740, 13, True)
      , (23740, 14, True)
      , (23740, 19, True)
      , (23740, 22, True);
+
+/* Weenie - MeleeWeapons - Shadow Blade of Frost (45112) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45112;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45112, 'ace45112-shadowbladeoffrost');
@@ -42674,6 +45560,9 @@ VALUES (45112, 0, 83897479, 83897479);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45112, 0, 16793032);
 
+/* Weenie - MeleeWeapons - Modified Raudaloi (46960) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46960;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46960, 'ace46960-modifiedraudaloi');
 
@@ -42708,6 +45597,9 @@ VALUES (46960, 13, True)
      , (46960, 14, True)
      , (46960, 19, True)
      , (46960, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Quadrelle (40625) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40625;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40625, 'ace40625-lightningquadrelle');
@@ -42748,6 +45640,9 @@ VALUES (40625, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40625, 67116842, 0, 0);
+
+/* Weenie - MeleeWeapons - Assagai (41036) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41036;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41036, 'ace41036-assagai');
@@ -42796,6 +45691,9 @@ VALUES (41036, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41036, 0, 16794405);
 
+/* Weenie - MeleeWeapons - Electric Gearknight Sword (41247) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41247;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41247, 'ace41247-electricgearknightsword');
 
@@ -42831,6 +45729,9 @@ VALUES (41247, 13, True)
      , (41247, 14, True)
      , (41247, 19, True)
      , (41247, 22, True);
+
+/* Weenie - MeleeWeapons - Fire Gearknight Sword (41248) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41248;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41248, 'ace41248-firegearknightsword');
@@ -42868,6 +45769,9 @@ VALUES (41248, 13, True)
      , (41248, 19, True)
      , (41248, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Gearknight Sword (41246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41246;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41246, 'ace41246-acidgearknightsword');
 
@@ -42903,6 +45807,9 @@ VALUES (41246, 13, True)
      , (41246, 14, True)
      , (41246, 19, True)
      , (41246, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Hatchet (48977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48977;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48977, 'ace48977-acidhatchet');
@@ -42948,6 +45855,9 @@ VALUES (48977, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48977, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Ultimate Singularity Staff (41888) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41888;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41888, 'ace41888-ultimatesingularitystaff');
@@ -42998,6 +45908,9 @@ VALUES (41888, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41888, 0, 16777936);
 
+/* Weenie - MeleeWeapons - Lightning Hatchet (48982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48982;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48982, 'ace48982-lightninghatchet');
 
@@ -43042,6 +45955,9 @@ VALUES (48982, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48982, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Pitfighter's Edge (45443) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45443;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45443, 'ace45443-pitfightersedge');
@@ -43088,6 +46004,9 @@ VALUES (45443, 0, 83897095, 83897095);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45443, 0, 16791999);
+
+/* Weenie - MeleeWeapons - Acidic Weeping Two Handed Spear (41037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41037;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41037, 'ace41037-acidicweepingtwohandedspear');
@@ -43141,6 +46060,9 @@ VALUES (41037, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41037, 0, 16789568);
 
+/* Weenie - MeleeWeapons - Acid Spear (47710) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47710;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47710, 'ace47710-acidspear');
 
@@ -43189,6 +46111,9 @@ VALUES (47710, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47710, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Acid Quadrelle (40624) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40624;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40624, 'ace40624-acidquadrelle');
 
@@ -43234,6 +46159,9 @@ VALUES (40624, 0, 83898004, 83898004);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40624, 0, 16791977);
+
+/* Weenie - MeleeWeapons - Ono (48003) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48003;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48003, 'ace48003-ono');
@@ -43282,6 +46210,9 @@ VALUES (48003, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48003, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Lightning Silifi (48002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48002;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48002, 'ace48002-lightningsilifi');
 
@@ -43321,6 +46252,9 @@ VALUES (48002, 13, True)
      , (48002, 14, True)
      , (48002, 19, True)
      , (48002, 22, True);
+
+/* Weenie - MeleeWeapons - Renegade Ukira of the Mountains (40413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40413;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40413, 'ace40413-renegadeukiraofthemountains');
@@ -43370,6 +46304,9 @@ VALUES (40413, 0, 83893670, 83893668)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40413, 0, 16790071);
 
+/* Weenie - MeleeWeapons - Rynthid Tentacle Mace (51966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51966;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51966, 'ace51966-rynthidtentaclemace');
 
@@ -43414,6 +46351,9 @@ VALUES (51966, 0, 83899155, 83899155)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51966, 0, 16797053);
+
+/* Weenie - MeleeWeapons - Rynthid Tentacle Dagger (51965) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51965;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51965, 'ace51965-rynthidtentacledagger');
@@ -43463,6 +46403,9 @@ VALUES (51965, 0, 83899155, 83899155)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51965, 0, 16797050);
 
+/* Weenie - MeleeWeapons - Frost Hatchet (48998) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48998;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48998, 'ace48998-frosthatchet');
 
@@ -43508,6 +46451,9 @@ VALUES (48998, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48998, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Acid Katar (47994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47994;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47994, 'ace47994-acidkatar');
 
@@ -43545,6 +46491,9 @@ VALUES (47994, 13, True)
      , (47994, 19, True)
      , (47994, 22, True);
 
+/* Weenie - MeleeWeapons - Great BloodScorch (40652) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40652;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40652, 'ace40652-greatbloodscorch');
 
@@ -43581,6 +46530,9 @@ VALUES (40652, 13, True)
      , (40652, 15, True)
      , (40652, 19, True)
      , (40652, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Jitte (3805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3805;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3805, 'jittefrost');
@@ -43620,6 +46572,9 @@ VALUES (3805, 13, True)
      , (3805, 19, True)
      , (3805, 22, True);
 
+/* Weenie - MeleeWeapons - Fist of Three Principles (30334) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30334;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30334, 'uararefistthreeprinciples');
 
@@ -43655,6 +46610,9 @@ VALUES (30334, 13, True)
      , (30334, 14, True)
      , (30334, 19, True)
      , (30334, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Yaoji (3909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3909;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3909, 'yaojiacid');
@@ -43694,6 +46652,9 @@ VALUES (3909, 13, True)
      , (3909, 19, True)
      , (3909, 22, True);
 
+/* Weenie - MeleeWeapons - Mattekar Claw (9420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9420, 'mattekarclawdreadweapon');
 
@@ -43729,6 +46690,9 @@ VALUES (9420, 13, True)
      , (9420, 14, True)
      , (9420, 19, True)
      , (9420, 22, True);
+
+/* Weenie - MeleeWeapons - Vampire's Kiss (35554) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35554;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35554, 'ace35554-vampireskiss');
@@ -43780,6 +46744,9 @@ VALUES (35554, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35554, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Atlan Sword (46088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46088;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46088, 'ace46088-atlansword');
 
@@ -43829,6 +46796,9 @@ VALUES (46088, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46088, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Princely Runed Poniard (32985) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32985;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32985, 'ace32985-princelyrunedponiard');
 
@@ -43868,6 +46838,9 @@ VALUES (32985, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32985, 67116426, 0, 0);
+
+/* Weenie - MeleeWeapons - Frost Nabut (3841) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3841;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3841, 'nabutfrost');
@@ -43910,6 +46883,9 @@ VALUES (3841, 13, True)
      , (3841, 19, True)
      , (3841, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Nabut (3839) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3839;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3839, 'nabutelectric');
 
@@ -43951,6 +46927,9 @@ VALUES (3839, 13, True)
      , (3839, 19, True)
      , (3839, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Quarter Staff (3936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3936;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3936, 'quarterstaffflame');
 
@@ -43991,6 +46970,9 @@ VALUES (3936, 13, True)
      , (3936, 14, True)
      , (3936, 19, True)
      , (3936, 22, True);
+
+/* Weenie - MeleeWeapons - Shadowfire Isparian Claw (32641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32641;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32641, 'ace32641-shadowfireisparianclaw');
@@ -44038,6 +47020,9 @@ VALUES (32641, 0, 83889238, 83889688);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32641, 0, 16783999);
+
+/* Weenie - MeleeWeapons - Shadowfire Isparian Two Handed Sword (46394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46394;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46394, 'ace46394-shadowfireispariantwohandedsword');
@@ -44090,6 +47075,9 @@ VALUES (46394, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46394, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Flaming Great Star Mace (41060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41060;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41060, 'ace41060-flaminggreatstarmace');
 
@@ -44130,6 +47118,9 @@ VALUES (41060, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41060, 67116384, 0, 0);
 
+/* Weenie - MeleeWeapons - Banished Spear (30863) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30863;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30863, 'spearbanished');
 
@@ -44165,6 +47156,9 @@ VALUES (30863, 13, True)
      , (30863, 14, True)
      , (30863, 19, True)
      , (30863, 22, True);
+
+/* Weenie - MeleeWeapons - Staff of Tendrils (45460) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45460;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45460, 'ace45460-staffoftendrils');
@@ -44215,6 +47209,9 @@ VALUES (45460, 0, 83897105, 83897105);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45460, 0, 16792009);
 
+/* Weenie - MeleeWeapons - Stormwood Sword (3882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3882;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3882, 'swordlongelectric');
 
@@ -44258,6 +47255,9 @@ VALUES (3882, 13, True)
      , (3882, 19, True)
      , (3882, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Cestus (4191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4191;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4191, 'cestusfire');
 
@@ -44300,6 +47300,9 @@ VALUES (4191, 13, True)
      , (4191, 19, True)
      , (4191, 22, True);
 
+/* Weenie - MeleeWeapons - Weeping Claw (24200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24200;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24200, 'clawisparianperfectweeping');
 
@@ -44336,6 +47339,9 @@ VALUES (24200, 13, True)
      , (24200, 14, True)
      , (24200, 19, True)
      , (24200, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Atlan Mace of Black Fire (7457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7457;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7457, 'macebestblackfire');
@@ -44380,6 +47386,9 @@ VALUES (7457, 67111927, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7457, 0, 16783996);
+
+/* Weenie - MeleeWeapons - Acid Board with Nail (47229) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47229;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47229, 'ace47229-acidboardwithnail');
@@ -44429,6 +47438,9 @@ VALUES (47229, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47229, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Flaming Mace (47478) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47478;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47478, 'ace47478-flamingmace');
 
@@ -44477,6 +47489,9 @@ VALUES (47478, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47478, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Club (47345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47345;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47345, 'ace47345-club');
 
@@ -44522,6 +47537,9 @@ VALUES (47345, 0, 83888778, 83888778);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47345, 0, 16777893);
+
+/* Weenie - MeleeWeapons - Mace (47440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47440;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47440, 'ace47440-mace');
@@ -44570,6 +47588,9 @@ VALUES (47440, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47440, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48489;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48489, 'ace48489-flamingkatar');
 
@@ -44607,6 +47628,9 @@ VALUES (48489, 13, True)
      , (48489, 19, True)
      , (48489, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Katar (47874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47874, 'ace47874-acidkatar');
 
@@ -44643,6 +47667,9 @@ VALUES (47874, 13, True)
      , (47874, 14, True)
      , (47874, 19, True)
      , (47874, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Mace (47480) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47480;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47480, 'ace47480-flamingmace');
@@ -44691,6 +47718,9 @@ VALUES (47480, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47480, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47655;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47655, 'ace47655-lightningtachi');
@@ -44741,6 +47771,9 @@ VALUES (47655, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47655, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Tachi (47670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47670;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47670, 'ace47670-flamingtachi');
 
@@ -44790,6 +47823,9 @@ VALUES (47670, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47670, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Ono (47900) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47900;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47900, 'ace47900-lightningono');
 
@@ -44826,6 +47862,9 @@ VALUES (47900, 13, True)
      , (47900, 14, True)
      , (47900, 19, True)
      , (47900, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Tachi (47688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47688;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47688, 'ace47688-frosttachi');
@@ -44876,6 +47915,9 @@ VALUES (47688, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47688, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48487) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48487;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48487, 'ace48487-flamingkatar');
 
@@ -44912,6 +47954,9 @@ VALUES (48487, 13, True)
      , (48487, 14, True)
      , (48487, 19, True)
      , (48487, 22, True);
+
+/* Weenie - MeleeWeapons - Tachi (23701) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23701;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23701, 'tachidrudgelow');
@@ -44959,6 +48004,9 @@ VALUES (23701, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23701, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Frost Tachi (47692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47692;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47692, 'ace47692-frosttachi');
@@ -45009,6 +48057,9 @@ VALUES (47692, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47692, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lugian Morning Star (23767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23767, 'lugianmorningstarlow');
 
@@ -45047,6 +48098,9 @@ VALUES (23767, 13, True)
      , (23767, 14, True)
      , (23767, 19, True)
      , (23767, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Spear (47768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47768;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47768, 'ace47768-flamingspear');
@@ -45095,6 +48149,9 @@ VALUES (47768, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47768, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Silifi (48044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48044;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48044, 'ace48044-silifi');
@@ -45146,6 +48203,9 @@ VALUES (48044, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48044, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Frost Tungi (3904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3904;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3904, 'tungifrost');
 
@@ -45184,6 +48244,9 @@ VALUES (3904, 13, True)
      , (3904, 14, True)
      , (3904, 19, True)
      , (3904, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Magari Yari (41045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41045;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41045, 'ace41045-frostmagariyari');
@@ -45231,6 +48294,9 @@ VALUES (41045, 0, 83896665, 83896665)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41045, 0, 16794282);
+
+/* Weenie - MeleeWeapons - Flaming Spada (45414) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45414;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45414, 'ace45414-flamingspada');
@@ -45281,6 +48347,9 @@ VALUES (45414, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45414, 0, 16791839);
 
+/* Weenie - MeleeWeapons - Frost Nodachi (40764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40764;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40764, 'ace40764-frostnodachi');
 
@@ -45329,6 +48398,9 @@ VALUES (40764, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40764, 0, 16794261);
 
+/* Weenie - MeleeWeapons - Acid Morning Star (3939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3939;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3939, 'morningstaracid');
 
@@ -45376,6 +48448,9 @@ VALUES (3939, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3939, 0, 16777932);
 
+/* Weenie - MeleeWeapons - Acid Silifi (48045) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48045;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48045, 'ace48045-acidsilifi');
 
@@ -45415,6 +48490,9 @@ VALUES (48045, 13, True)
      , (48045, 14, True)
      , (48045, 19, True)
      , (48045, 22, True);
+
+/* Weenie - MeleeWeapons - Ono (48047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48047, 'ace48047-ono');
@@ -45462,6 +48540,9 @@ VALUES (48047, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48047, 0, 16777885);
+
+/* Weenie - MeleeWeapons - Katar (48039) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48039;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48039, 'ace48039-katar');
@@ -45511,6 +48592,9 @@ VALUES (48039, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48039, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Acid Katar (48038) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48038;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48038, 'ace48038-acidkatar');
 
@@ -45547,6 +48631,9 @@ VALUES (48038, 13, True)
      , (48038, 14, True)
      , (48038, 19, True)
      , (48038, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Nekode (48043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48043;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48043, 'ace48043-lightningnekode');
@@ -45585,6 +48672,9 @@ VALUES (48043, 13, True)
      , (48043, 19, True)
      , (48043, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Nekode (48042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48042;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48042, 'ace48042-acidnekode');
 
@@ -45621,6 +48711,9 @@ VALUES (48042, 13, True)
      , (48042, 14, True)
      , (48042, 19, True)
      , (48042, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Katar (48040) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48040;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48040, 'ace48040-lightningkatar');
@@ -45659,6 +48752,9 @@ VALUES (48040, 13, True)
      , (48040, 19, True)
      , (48040, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Ono (48049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48049;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48049, 'ace48049-lightningono');
 
@@ -45695,6 +48791,9 @@ VALUES (48049, 13, True)
      , (48049, 14, True)
      , (48049, 19, True)
      , (48049, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Silifi (48046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48046;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48046, 'ace48046-lightningsilifi');
@@ -45736,6 +48835,9 @@ VALUES (48046, 13, True)
      , (48046, 19, True)
      , (48046, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Katar (48085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48085;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48085, 'ace48085-lightningkatar');
 
@@ -45772,6 +48874,9 @@ VALUES (48085, 13, True)
      , (48085, 14, True)
      , (48085, 19, True)
      , (48085, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47682;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47682, 'ace47682-flamingtachi');
@@ -45822,6 +48927,9 @@ VALUES (47682, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47682, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Fist of the Quiddity (9598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9598;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9598, 'locestusquiddity');
 
@@ -45863,6 +48971,9 @@ VALUES (9598, 13, True)
      , (9598, 19, True)
      , (9598, 22, True);
 
+/* Weenie - MeleeWeapons - Stone Spear (26050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26050;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26050, 'spearburunstonelow');
 
@@ -45898,6 +49009,9 @@ VALUES (26050, 13, True)
      , (26050, 19, True)
      , (26050, 22, True);
 
+/* Weenie - MeleeWeapons - Bone Sword (26053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26053, 'swordburunbonehigh');
 
@@ -45932,6 +49046,9 @@ VALUES (26053, 13, True)
      , (26053, 14, True)
      , (26053, 19, True)
      , (26053, 22, True);
+
+/* Weenie - MeleeWeapons - Stone Mace (26044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26044;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26044, 'maceburunstonehigh');
@@ -45972,6 +49089,9 @@ VALUES (26044, 13, True)
      , (26044, 19, True)
      , (26044, 22, True);
 
+/* Weenie - MeleeWeapons - Stone Axe (26023) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26023;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26023, 'axeburunstonehigh');
 
@@ -46008,6 +49128,9 @@ VALUES (26023, 13, True)
      , (26023, 19, True)
      , (26023, 22, True);
 
+/* Weenie - MeleeWeapons - Bone Dagger (26032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26032;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26032, 'dirkburunbonehigh');
 
@@ -46042,6 +49165,9 @@ VALUES (26032, 13, True)
      , (26032, 14, True)
      , (26032, 19, True)
      , (26032, 22, True);
+
+/* Weenie - MeleeWeapons - Weeping Two Handed Spear (41638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41638;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41638, 'ace41638-weepingtwohandedspear');
@@ -46079,6 +49205,9 @@ VALUES (41638, 13, True)
      , (41638, 14, True)
      , (41638, 19, True)
      , (41638, 22, True);
+
+/* Weenie - MeleeWeapons - Demon Swarm Sword (35804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35804;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35804, 'ace35804-demonswarmsword');
@@ -46129,6 +49258,9 @@ VALUES (35804, 0, 83886174, 83886174)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35804, 0, 16784513);
 
+/* Weenie - MeleeWeapons - Seasoned Explorer Ken (45934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45934;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45934, 'ace45934-seasonedexplorerken');
 
@@ -46177,6 +49309,9 @@ VALUES (45934, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45934, 0, 16777964);
 
+/* Weenie - MeleeWeapons - Peerless Atlan Claw (6171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6171;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6171, 'clawbestnostone');
 
@@ -46220,6 +49355,9 @@ VALUES (6171, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6171, 0, 16783999);
 
+/* Weenie - MeleeWeapons - Sword of Lost Hope (8959) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8959;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8959, 'swordlosthope');
 
@@ -46261,6 +49399,9 @@ VALUES (8959, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8959, 67111920, 0, 0);
 
+/* Weenie - MeleeWeapons - Ravenous Sword (7576) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7576;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7576, 'swordravenous');
 
@@ -46300,6 +49441,9 @@ VALUES (7576, 13, True)
      , (7576, 15, True)
      , (7576, 19, True)
      , (7576, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Takuba (3894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3894;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3894, 'takubaelectric');
@@ -46343,6 +49487,9 @@ VALUES (3894, 13, True)
      , (3894, 19, True)
      , (3894, 22, True)
      , (3894, 91, True);
+
+/* Weenie - MeleeWeapons - Morrigan's Vanity (45465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45465;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45465, 'ace45465-morrigansvanity');
@@ -46394,6 +49541,9 @@ VALUES (45465, 0, 83897110, 83897110);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45465, 0, 16792014);
 
+/* Weenie - MeleeWeapons - Red Rune Silveran Claw (33126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33126;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33126, 'ace33126-redrunesilveranclaw');
 
@@ -46434,6 +49584,9 @@ VALUES (33126, 13, True)
      , (33126, 19, True)
      , (33126, 22, True);
 
+/* Weenie - MeleeWeapons - Worn Old Staff (31504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31504;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31504, 'ace31504-wornoldstaff');
 
@@ -46469,6 +49622,9 @@ VALUES (31504, 13, True)
      , (31504, 19, True)
      , (31504, 22, True);
 
+/* Weenie - MeleeWeapons - Axe of Winter Flame (32499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32499, 'ace32499-axeofwinterflame');
 
@@ -46503,6 +49659,9 @@ VALUES (32499, 13, True)
      , (32499, 14, True)
      , (32499, 19, True)
      , (32499, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Short Sword (45397) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45397;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45397, 'ace45397-acidshortsword');
@@ -46543,6 +49702,9 @@ VALUES (45397, 13, True)
      , (45397, 14, True)
      , (45397, 19, True)
      , (45397, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Nabut (22160) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22160;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22160, 'nabutelectricnew');
@@ -46594,6 +49756,9 @@ VALUES (22160, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22160, 0, 16788503);
 
+/* Weenie - MeleeWeapons - Frost Spear (3876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3876;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3876, 'spearfrost');
 
@@ -46641,6 +49806,9 @@ VALUES (3876, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3876, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Lightning Kasrullah (3815) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3815;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3815, 'kasrullahelectric');
 
@@ -46676,6 +49844,9 @@ VALUES (3815, 13, True)
      , (3815, 14, True)
      , (3815, 19, True)
      , (3815, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Hatchet (30558) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30558;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30558, 'axehatchetelectric');
@@ -46722,6 +49893,9 @@ VALUES (30558, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30558, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Lightning Lugian Hammer (31766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31766;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31766, 'ace31766-lightninglugianhammer');
@@ -46774,6 +49948,9 @@ VALUES (31766, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31766, 0, 16792609);
 
+/* Weenie - MeleeWeapons - Acid Board with Nail (31775) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31775;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31775, 'ace31775-acidboardwithnail');
 
@@ -46822,6 +49999,9 @@ VALUES (31775, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31775, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Acid Jitte (3802) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3802;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3802, 'jitteacid');
 
@@ -46857,6 +50037,9 @@ VALUES (3802, 13, True)
      , (3802, 14, True)
      , (3802, 19, True)
      , (3802, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Takuba (3895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3895;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3895, 'takubafire');
@@ -46897,6 +50080,9 @@ VALUES (3895, 13, True)
      , (3895, 19, True)
      , (3895, 22, True);
 
+/* Weenie - MeleeWeapons - Frost Shou-ono (3860) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3860;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3860, 'shouonofrost');
 
@@ -46936,6 +50122,9 @@ VALUES (3860, 13, True)
      , (3860, 19, True)
      , (3860, 22, True);
 
+/* Weenie - MeleeWeapons - Frost Short Sword (45400) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45400;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45400, 'ace45400-frostshortsword');
 
@@ -46974,6 +50163,9 @@ VALUES (45400, 13, True)
      , (45400, 14, True)
      , (45400, 19, True)
      , (45400, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Tofun (3897) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3897;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3897, 'tofunacid');
@@ -47025,6 +50217,9 @@ VALUES (3897, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3897, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Ono (48032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48032;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48032, 'ace48032-ono');
 
@@ -47071,6 +50266,9 @@ VALUES (48032, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48032, 0, 16777885);
+
+/* Weenie - MeleeWeapons - Gertarh's Dagger (1951) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1951;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1951, 'daggerassassin');
@@ -47120,6 +50318,9 @@ VALUES (1951, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1951, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Spinning Staff of Death (32773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32773, 'ace32773-spinningstaffofdeath');
 
@@ -47158,6 +50359,9 @@ VALUES (32773, 13, True)
      , (32773, 19, True)
      , (32773, 22, True);
 
+/* Weenie - MeleeWeapons - Banished Blade (30876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30876;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30876, 'swordbanished');
 
@@ -47191,6 +50395,9 @@ VALUES (30876, 13, True)
      , (30876, 14, True)
      , (30876, 19, True)
      , (30876, 22, True);
+
+/* Weenie - MeleeWeapons - Serpent's Fang (23539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23539;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23539, 'spearserpentnew');
@@ -47227,6 +50434,9 @@ VALUES (23539, 13, True)
      , (23539, 19, True)
      , (23539, 22, True);
 
+/* Weenie - MeleeWeapons - Renegade Mace (25501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25501, 'macerenegadeacid');
 
@@ -47262,6 +50472,9 @@ VALUES (25501, 13, True)
      , (25501, 19, True)
      , (25501, 22, True);
 
+/* Weenie - MeleeWeapons - Oswald's Dagger (23526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23526;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23526, 'daggeroswaldnew');
 
@@ -47296,6 +50509,9 @@ VALUES (23526, 13, True)
      , (23526, 14, True)
      , (23526, 19, True)
      , (23526, 22, True);
+
+/* Weenie - MeleeWeapons - Osseous Mace (23537) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23537;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23537, 'maceskeletonhighbossnew');
@@ -47335,6 +50551,9 @@ VALUES (23537, 13, True)
      , (23537, 19, True)
      , (23537, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Yaoji (45408) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45408;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45408, 'ace45408-lightningyaoji');
 
@@ -47372,6 +50591,9 @@ VALUES (45408, 13, True)
      , (45408, 19, True)
      , (45408, 22, True)
      , (45408, 91, True);
+
+/* Weenie - MeleeWeapons - Lightning Short Sword (45398) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45398;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45398, 'ace45398-lightningshortsword');
@@ -47414,6 +50636,9 @@ VALUES (45398, 13, True)
      , (45398, 22, True)
      , (45398, 91, True);
 
+/* Weenie - MeleeWeapons - Banished Nekode (30862) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30862;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30862, 'nekodebanished');
 
@@ -47447,6 +50672,9 @@ VALUES (30862, 13, True)
      , (30862, 14, True)
      , (30862, 19, True)
      , (30862, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Yaoji (45409) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45409;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45409, 'ace45409-flamingyaoji');
@@ -47484,6 +50712,9 @@ VALUES (45409, 13, True)
      , (45409, 14, True)
      , (45409, 19, True)
      , (45409, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Budiaq (3764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3764;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3764, 'budiaqfire');
@@ -47533,6 +50764,9 @@ VALUES (3764, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3764, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Sabra (30570) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30570;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30570, 'swordsabraacid');
@@ -47584,6 +50818,9 @@ VALUES (30570, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30570, 0, 16791843);
 
+/* Weenie - MeleeWeapons - Flaming Tachi (47680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47680;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47680, 'ace47680-flamingtachi');
 
@@ -47632,6 +50869,9 @@ VALUES (47680, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47680, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Lightning Dolabra (30563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30563;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30563, 'axedolabraelectric');
@@ -47683,6 +50923,9 @@ VALUES (30563, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30563, 0, 16791840);
 
+/* Weenie - MeleeWeapons - Frost Budiaq (3765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3765;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3765, 'budiaqfrost');
 
@@ -47730,6 +50973,9 @@ VALUES (3765, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3765, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Acid Spear (3873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3873;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3873, 'spearacid');
 
@@ -47776,6 +51022,9 @@ VALUES (3873, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3873, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Spada (45412) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45412;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45412, 'ace45412-acidspada');
@@ -47826,6 +51075,9 @@ VALUES (45412, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45412, 0, 16791839);
 
+/* Weenie - MeleeWeapons - Stiletto (30601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30601;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30601, 'daggerstiletto');
 
@@ -47870,6 +51122,9 @@ VALUES (30601, 0, 83897172, 83897172);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30601, 0, 16792137);
+
+/* Weenie - MeleeWeapons - Electric Board with Nail (31776) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31776;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31776, 'ace31776-electricboardwithnail');
@@ -47919,6 +51174,9 @@ VALUES (31776, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31776, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Lightning Epee (45101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45101;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45101, 'ace45101-lightningepee');
 
@@ -47967,6 +51225,9 @@ VALUES (45101, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45101, 0, 16795944);
 
+/* Weenie - MeleeWeapons - Peerless Atlan Dagger (6199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6199, 'daggerbestnostone');
 
@@ -48009,6 +51270,9 @@ VALUES (6199, 67111927, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6199, 0, 16783993);
+
+/* Weenie - MeleeWeapons - Flaming Weeping Dagger (45429) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45429;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45429, 'ace45429-flamingweepingdagger');
@@ -48062,6 +51326,9 @@ VALUES (45429, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45429, 0, 16789574);
 
+/* Weenie - MeleeWeapons - Academy Hand Axe (45532) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45532;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45532, 'ace45532-academyhandaxe');
 
@@ -48112,6 +51379,9 @@ VALUES (45532, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45532, 0, 16777889);
 
+/* Weenie - MeleeWeapons - Acid Tachi (47619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47619;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47619, 'ace47619-acidtachi');
 
@@ -48161,6 +51431,9 @@ VALUES (47619, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47619, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Spear (47714) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47714;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47714, 'ace47714-acidspear');
 
@@ -48209,6 +51482,9 @@ VALUES (47714, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47714, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Flaming Spear (3875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3875;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3875, 'spearflame');
 
@@ -48256,6 +51532,9 @@ VALUES (3875, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3875, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Jitte of Law (33622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33622;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33622, 'ace33622-jitteoflaw');
 
@@ -48290,6 +51569,9 @@ VALUES (33622, 13, True)
      , (33622, 14, True)
      , (33622, 19, True)
      , (33622, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Partizan (30594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30594;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30594, 'spearpartizanacid');
@@ -48337,6 +51619,9 @@ VALUES (30594, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30594, 0, 16791842);
 
+/* Weenie - MeleeWeapons - Lightning Spear (3874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3874, 'spearelectric');
 
@@ -48383,6 +51668,9 @@ VALUES (3874, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3874, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Schlager (45109) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45109;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45109, 'ace45109-acidschlager');
@@ -48437,6 +51725,9 @@ VALUES (45109, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45109, 0, 16795945);
 
+/* Weenie - MeleeWeapons - Acid Mace (47428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47428, 'ace47428-acidmace');
 
@@ -48485,6 +51776,9 @@ VALUES (47428, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47428, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Fire Tachi (23708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23708;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23708, 'tachifiredrudgemid');
 
@@ -48532,6 +51826,9 @@ VALUES (23708, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23708, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Flaming Sabra (30568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30568;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30568, 'swordsabrafire');
@@ -48582,6 +51879,9 @@ VALUES (30568, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30568, 0, 16791843);
 
+/* Weenie - MeleeWeapons - Lightning Tachi (47658) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47658;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47658, 'ace47658-lightningtachi');
 
@@ -48630,6 +51930,9 @@ VALUES (47658, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47658, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Flaming Knuckles (30613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30613;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30613, 'knucklesfire');
@@ -48680,6 +51983,9 @@ VALUES (30613, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30613, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Acid Tungi (3901) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3901;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3901, 'tungiacid');
 
@@ -48718,6 +52024,9 @@ VALUES (3901, 13, True)
      , (3901, 14, True)
      , (3901, 19, True)
      , (3901, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Magari Yari (41043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41043;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41043, 'ace41043-lightningmagariyari');
@@ -48765,6 +52074,9 @@ VALUES (41043, 0, 83896665, 83896665)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41043, 0, 16794282);
+
+/* Weenie - MeleeWeapons - Frost Nodachi (40622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40622;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40622, 'ace40622-frostnodachi');
@@ -48816,6 +52128,9 @@ VALUES (40622, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40622, 0, 16794261);
 
+/* Weenie - MeleeWeapons - The Fist of Bellenesse (31199) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31199;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31199, 'ace31199-thefistofbellenesse');
 
@@ -48864,6 +52179,9 @@ VALUES (31199, 0, 83898004, 83898004);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31199, 0, 16791977);
 
+/* Weenie - MeleeWeapons - Frost Mace (47504) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47504;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47504, 'ace47504-frostmace');
 
@@ -48911,6 +52229,9 @@ VALUES (47504, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47504, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Enhanced Assault Axe (41916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41916;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41916, 'ace41916-enhancedassaultaxe');
@@ -48966,6 +52287,9 @@ VALUES (41916, 0, 83893489, 83893489)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41916, 0, 16786132);
 
+/* Weenie - MeleeWeapons - Spear (23697) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23697;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23697, 'spearmonsterlow');
 
@@ -49011,6 +52335,9 @@ VALUES (23697, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23697, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Jo (22154) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22154;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22154, 'joacidnew');
@@ -49062,6 +52389,9 @@ VALUES (22154, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22154, 0, 16788504);
 
+/* Weenie - MeleeWeapons - Frost Club (47411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47411;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47411, 'ace47411-frostclub');
 
@@ -49098,6 +52428,9 @@ VALUES (47411, 13, True)
      , (47411, 14, True)
      , (47411, 19, True)
      , (47411, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (47735) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47735;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47735, 'ace47735-spear');
@@ -49145,6 +52478,9 @@ VALUES (47735, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47735, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Silifi (48029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48029;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48029, 'ace48029-silifi');
@@ -49196,6 +52532,9 @@ VALUES (48029, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48029, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Lightning Spear (47754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47754;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47754, 'ace47754-lightningspear');
 
@@ -49244,6 +52583,9 @@ VALUES (47754, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47754, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (48028) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48028;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48028, 'ace48028-lightningnekode');
 
@@ -49280,6 +52622,9 @@ VALUES (48028, 13, True)
      , (48028, 14, True)
      , (48028, 19, True)
      , (48028, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Tachi (47697) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47697;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47697, 'ace47697-frosttachi');
@@ -49330,6 +52675,9 @@ VALUES (47697, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47697, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Spear (47773) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47773;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47773, 'ace47773-flamingspear');
 
@@ -49377,6 +52725,9 @@ VALUES (47773, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47773, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Frost Spada (45415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45415;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45415, 'ace45415-frostspada');
@@ -49427,6 +52778,9 @@ VALUES (45415, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45415, 0, 16791839);
 
+/* Weenie - MeleeWeapons - Shadow Blade (33084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33084;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33084, 'ace33084-shadowblade');
 
@@ -49462,6 +52816,9 @@ VALUES (33084, 13, True)
      , (33084, 14, True)
      , (33084, 19, True)
      , (33084, 22, True);
+
+/* Weenie - MeleeWeapons - Shadow Blade (33082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33082;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33082, 'ace33082-shadowblade');
@@ -49499,6 +52856,9 @@ VALUES (33082, 13, True)
      , (33082, 19, True)
      , (33082, 22, True);
 
+/* Weenie - MeleeWeapons - Shadow Blade (33081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33081;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33081, 'ace33081-shadowblade');
 
@@ -49535,6 +52895,9 @@ VALUES (33081, 13, True)
      , (33081, 19, True)
      , (33081, 22, True);
 
+/* Weenie - MeleeWeapons - Shadow Blade (33083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33083;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33083, 'ace33083-shadowblade');
 
@@ -49570,6 +52933,9 @@ VALUES (33083, 13, True)
      , (33083, 14, True)
      , (33083, 19, True)
      , (33083, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Nekode (48073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48073;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48073, 'ace48073-lightningnekode');
@@ -49608,6 +52974,9 @@ VALUES (48073, 13, True)
      , (48073, 19, True)
      , (48073, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Nekode (48072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48072;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48072, 'ace48072-acidnekode');
 
@@ -49645,6 +53014,9 @@ VALUES (48072, 13, True)
      , (48072, 19, True)
      , (48072, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Ono (48079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48079;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48079, 'ace48079-lightningono');
 
@@ -49681,6 +53053,9 @@ VALUES (48079, 13, True)
      , (48079, 14, True)
      , (48079, 19, True)
      , (48079, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Silifi (48091) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48091;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48091, 'ace48091-lightningsilifi');
@@ -49722,6 +53097,9 @@ VALUES (48091, 13, True)
      , (48091, 19, True)
      , (48091, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Silifi (48090) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48090;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48090, 'ace48090-acidsilifi');
 
@@ -49761,6 +53139,9 @@ VALUES (48090, 13, True)
      , (48090, 14, True)
      , (48090, 19, True)
      , (48090, 22, True);
+
+/* Weenie - MeleeWeapons - Well-Balanced Lugian Greataxe (42948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42948;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42948, 'ace42948-wellbalancedlugiangreataxe');
@@ -49802,6 +53183,9 @@ VALUES (42948, 13, True)
      , (42948, 19, True)
      , (42948, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Short Sword (45399) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45399;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45399, 'ace45399-flamingshortsword');
 
@@ -49840,6 +53224,9 @@ VALUES (45399, 13, True)
      , (45399, 14, True)
      , (45399, 19, True)
      , (45399, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Stiletto (30602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30602;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30602, 'daggerstilettoelectric');
@@ -49887,6 +53274,9 @@ VALUES (30602, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30602, 0, 16792137);
 
+/* Weenie - MeleeWeapons - Lightning Silifi (3866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3866;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3866, 'silifielectric');
 
@@ -49925,6 +53315,9 @@ VALUES (3866, 13, True)
      , (3866, 14, True)
      , (3866, 19, True)
      , (3866, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Mazule (30585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30585;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30585, 'macemazuleacid');
@@ -49972,6 +53365,9 @@ VALUES (30585, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30585, 0, 16792135);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (47909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47909;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47909, 'ace47909-lightningnekode');
 
@@ -50008,6 +53404,9 @@ VALUES (47909, 13, True)
      , (47909, 14, True)
      , (47909, 19, True)
      , (47909, 22, True);
+
+/* Weenie - MeleeWeapons - Sword of Lost Light (24612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24612;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24612, 'swordlostlightwhitenew');
@@ -50049,6 +53448,9 @@ VALUES (24612, 13, True)
      , (24612, 19, True)
      , (24612, 22, True);
 
+/* Weenie - MeleeWeapons - Ravenous Two Handed Spear (41635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41635;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41635, 'ace41635-ravenoustwohandedspear');
 
@@ -50088,6 +53490,9 @@ VALUES (41635, 13, True)
      , (41635, 15, True)
      , (41635, 19, True)
      , (41635, 22, True);
+
+/* Weenie - MeleeWeapons - Major Smoldering Atlan Two Handed Sword (46110) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46110;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46110, 'ace46110-majorsmolderingatlantwohandedsword');
@@ -50142,6 +53547,9 @@ VALUES (46110, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46110, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Major Smoldering Atlan Sword (46093) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46093;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46093, 'ace46093-majorsmolderingatlansword');
 
@@ -50192,6 +53600,9 @@ VALUES (46093, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46093, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Club (47349) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47349;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47349, 'ace47349-club');
 
@@ -50238,6 +53649,9 @@ VALUES (47349, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47349, 0, 16777893);
 
+/* Weenie - MeleeWeapons - Flaming Club (47387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47387;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47387, 'ace47387-flamingclub');
 
@@ -50274,6 +53688,9 @@ VALUES (47387, 13, True)
      , (47387, 14, True)
      , (47387, 19, True)
      , (47387, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Rapier (45106) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45106;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45106, 'ace45106-flamingrapier');
@@ -50326,6 +53743,9 @@ VALUES (45106, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45106, 0, 16777934);
 
+/* Weenie - MeleeWeapons - Red Rune Silveran Sword (33053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33053, 'ace33053-redrunesilveransword');
 
@@ -50362,6 +53782,9 @@ VALUES (33053, 13, True)
      , (33053, 14, True)
      , (33053, 19, True)
      , (33053, 22, True);
+
+/* Weenie - MeleeWeapons - Volkama's Hoeroa of the Rivers (11438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11438;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11438, 'staffhoeroarivers-xp');
@@ -50408,6 +53831,9 @@ VALUES (11438, 0, 83893670, 83893670)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11438, 0, 16787122);
+
+/* Weenie - MeleeWeapons - Blackfire Smoldering Atlan Sword (46092) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46092;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46092, 'ace46092-blackfiresmolderingatlansword');
@@ -50459,6 +53885,9 @@ VALUES (46092, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46092, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Palenqual's Okane (12114) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12114;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12114, 'tumerokdaggerpalenqualhi-xp');
 
@@ -50497,6 +53926,9 @@ VALUES (12114, 13, True)
      , (12114, 19, True)
      , (12114, 22, True);
 
+/* Weenie - MeleeWeapons - Palenqual's Taiaha (12120) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12120;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12120, 'tumerokspearpalenqualhi-xp');
 
@@ -50531,6 +53963,9 @@ VALUES (12120, 13, True)
      , (12120, 14, True)
      , (12120, 19, True)
      , (12120, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Acid Yaoji (12082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12082;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12082, 'yaojiacidbandit');
@@ -50567,6 +54002,9 @@ VALUES (12082, 13, True)
      , (12082, 14, True)
      , (12082, 19, True)
      , (12082, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Frost Khanjar (12065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12065;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12065, 'khanjarfrostbandit');
@@ -50607,6 +54045,9 @@ VALUES (12065, 13, True)
      , (12065, 19, True)
      , (12065, 22, True);
 
+/* Weenie - MeleeWeapons - Palenqual's Hoeroa (12123) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12123;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12123, 'tumerokstaffpalenqualhi-xp');
 
@@ -50644,6 +54085,9 @@ VALUES (12123, 13, True)
      , (12123, 14, True)
      , (12123, 19, True)
      , (12123, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Acid Short Sword (12077) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12077;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12077, 'swordshortacidbandit');
@@ -50684,6 +54128,9 @@ VALUES (12077, 13, True)
      , (12077, 19, True)
      , (12077, 22, True);
 
+/* Weenie - MeleeWeapons - Assassin's Frost Simi (12198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12198;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12198, 'simifrostbanditzharalim');
 
@@ -50719,6 +54166,9 @@ VALUES (12198, 13, True)
      , (12198, 14, True)
      , (12198, 19, True)
      , (12198, 22, True);
+
+/* Weenie - MeleeWeapons - Assassin's Flaming Simi (12197) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12197;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12197, 'simifirebanditzharalim');
@@ -50756,6 +54206,9 @@ VALUES (12197, 13, True)
      , (12197, 19, True)
      , (12197, 22, True);
 
+/* Weenie - MeleeWeapons - Assassin's Flaming Jambiya (12190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12190;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12190, 'jambiyafirebanditzharalim');
 
@@ -50791,6 +54244,9 @@ VALUES (12190, 13, True)
      , (12190, 14, True)
      , (12190, 19, True)
      , (12190, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Acid Khanjar (12061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12061;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12061, 'khanjaracidbandit');
@@ -50831,6 +54287,9 @@ VALUES (12061, 13, True)
      , (12061, 19, True)
      , (12061, 22, True);
 
+/* Weenie - MeleeWeapons - Sword of Lost Light (7435) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7435;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7435, 'swordlostlightuber');
 
@@ -50867,6 +54326,9 @@ VALUES (7435, 13, True)
      , (7435, 14, True)
      , (7435, 19, True)
      , (7435, 22, True);
+
+/* Weenie - MeleeWeapons - Soul Bound Axe (37575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37575;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37575, 'ace37575-soulboundaxe');
@@ -50919,6 +54381,9 @@ VALUES (37575, 0, 83889238, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37575, 0, 16783998);
 
+/* Weenie - MeleeWeapons - Weeping Sword (24206) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24206;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24206, 'swordisparianperfectweeping');
 
@@ -50953,6 +54418,9 @@ VALUES (24206, 13, True)
      , (24206, 14, True)
      , (24206, 19, True)
      , (24206, 22, True);
+
+/* Weenie - MeleeWeapons - Soul Bound Mace (37581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37581;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37581, 'ace37581-soulboundmace');
@@ -51000,6 +54468,9 @@ VALUES (37581, 0, 83889237, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37581, 0, 16783996);
 
+/* Weenie - MeleeWeapons - Frozen Weeping Sword (25634) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25634;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25634, 'swordweepingfreezing');
 
@@ -51039,6 +54510,9 @@ VALUES (25634, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25634, 67114523, 0, 0);
 
+/* Weenie - MeleeWeapons - Acidic Weeping Sword (25631) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25631;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25631, 'swordweepingacidic');
 
@@ -51077,6 +54551,9 @@ VALUES (25631, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25631, 67114519, 0, 0);
+
+/* Weenie - MeleeWeapons - Flaming Tungi (3903) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3903;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3903, 'tungifire');
@@ -51119,6 +54596,9 @@ VALUES (3903, 13, True)
      , (3903, 19, True)
      , (3903, 22, True);
 
+/* Weenie - MeleeWeapons - Peculiar Old Dagger (9026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9026;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9026, 'daggerfauxkey');
 
@@ -51160,6 +54640,9 @@ VALUES (9026, 0, 83888778, 83888944)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9026, 0, 16777918);
 
+/* Weenie - MeleeWeapons - Flaming Kaskara (3812) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3812;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3812, 'kaskarafire');
 
@@ -51199,6 +54682,9 @@ VALUES (3812, 13, True)
      , (3812, 14, True)
      , (3812, 19, True)
      , (3812, 22, True);
+
+/* Weenie - MeleeWeapons - Green Mire Yari (38048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38048;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38048, 'ace38048-greenmireyari');
@@ -51246,6 +54732,9 @@ VALUES (38048, 0, 83886737, 83886737)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38048, 0, 16777983);
+
+/* Weenie - MeleeWeapons - Blackfire Sparking Atlan Mace (46078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46078;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46078, 'ace46078-blackfiresparkingatlanmace');
@@ -51296,6 +54785,9 @@ VALUES (46078, 0, 83889688, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46078, 0, 16783996);
 
+/* Weenie - MeleeWeapons - Royal Runed Poniard (33208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33208;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33208, 'ace33208-royalrunedponiard');
 
@@ -51336,6 +54828,9 @@ VALUES (33208, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33208, 67116426, 0, 0);
 
+/* Weenie - MeleeWeapons - Royal Runed Partizan (33210) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33210;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33210, 'ace33210-royalrunedpartizan');
 
@@ -51375,6 +54870,9 @@ VALUES (33210, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33210, 67116408, 0, 0);
+
+/* Weenie - MeleeWeapons - Mace of the Explorer (8363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8363;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8363, 'maceexplorer');
@@ -51424,6 +54922,9 @@ VALUES (8363, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8363, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Enhanced Assault Sword (41924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41924;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41924, 'ace41924-enhancedassaultsword');
 
@@ -51468,6 +54969,9 @@ VALUES (41924, 13, True)
      , (41924, 22, True)
      , (41924, 91, True);
 
+/* Weenie - MeleeWeapons - Sword of Lost Light (24609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24609, 'swordlostlightbluewhitenew');
 
@@ -51508,6 +55012,9 @@ VALUES (24609, 13, True)
      , (24609, 19, True)
      , (24609, 22, True)
      , (24609, 91, True);
+
+/* Weenie - MeleeWeapons - Peerless Smoldering Atlan Claw (6174) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6174;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6174, 'clawbestsmolderingmajor');
@@ -51553,6 +55060,9 @@ VALUES (6174, 67111924, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6174, 0, 16783999);
 
+/* Weenie - MeleeWeapons - Overlord's Sword (2496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2496, 'swordoverlord');
 
@@ -51596,6 +55106,9 @@ VALUES (2496, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2496, 67111924, 0, 0);
 
+/* Weenie - MeleeWeapons - Palenqual's Tewhate (12111) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12111;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12111, 'tumerokaxepalenqualhi-xp');
 
@@ -51636,6 +55149,9 @@ VALUES (12111, 13, True)
      , (12111, 19, True)
      , (12111, 22, True);
 
+/* Weenie - MeleeWeapons - Palenqual's Waaika (12117) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12117;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12117, 'tumerokmacepalenqualhi-xp');
 
@@ -51673,6 +55189,9 @@ VALUES (12117, 13, True)
      , (12117, 14, True)
      , (12117, 19, True)
      , (12117, 22, True);
+
+/* Weenie - MeleeWeapons - Assassin's Jambiya (12188) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12188;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12188, 'jambiyabanditzharalim');
@@ -51720,6 +55239,9 @@ VALUES (12188, 0, 83886747, 83886747)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12188, 0, 16777986);
 
+/* Weenie - MeleeWeapons - Rapier (6853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6853;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6853, 'swordrapier');
 
@@ -51764,6 +55286,9 @@ VALUES (6853, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6853, 67111926, 0, 0);
 
+/* Weenie - MeleeWeapons - Shadowfire Sword of Lost Light (40518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40518;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40518, 'ace40518-shadowfireswordoflostlight');
 
@@ -51804,6 +55329,9 @@ VALUES (40518, 13, True)
      , (40518, 19, True)
      , (40518, 22, True);
 
+/* Weenie - MeleeWeapons - Katar of the Fallen (30870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30870;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30870, 'katarfallen');
 
@@ -51837,6 +55365,9 @@ VALUES (30870, 13, True)
      , (30870, 14, True)
      , (30870, 19, True)
      , (30870, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Dolabra (30565) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30565;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30565, 'axedolabrafrost');
@@ -51888,6 +55419,9 @@ VALUES (30565, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30565, 0, 16791840);
 
+/* Weenie - MeleeWeapons - Staff of the Fallen (30874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30874, 'stafffallen');
 
@@ -51921,6 +55455,9 @@ VALUES (30874, 13, True)
      , (30874, 14, True)
      , (30874, 19, True)
      , (30874, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Ken (3825) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3825;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3825, 'kenfrost');
@@ -51958,6 +55495,9 @@ VALUES (3825, 13, True)
      , (3825, 19, True)
      , (3825, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Ken (3824) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3824;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3824, 'kenfire');
 
@@ -51993,6 +55533,9 @@ VALUES (3824, 13, True)
      , (3824, 14, True)
      , (3824, 19, True)
      , (3824, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Flamberge (30577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30577;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30577, 'swordflambergefire');
@@ -52043,6 +55586,9 @@ VALUES (30577, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30577, 0, 16791760);
 
+/* Weenie - MeleeWeapons - Frost Long Sword (3884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3884;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3884, 'swordlongfrost');
 
@@ -52081,6 +55627,9 @@ VALUES (3884, 13, True)
      , (3884, 14, True)
      , (3884, 19, True)
      , (3884, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Shamshir (3855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3855;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3855, 'shamshirfire');
@@ -52121,6 +55670,9 @@ VALUES (3855, 13, True)
      , (3855, 19, True)
      , (3855, 22, True);
 
+/* Weenie - MeleeWeapons - Frost Takuba (3896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3896;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3896, 'takubafrost');
 
@@ -52159,6 +55711,9 @@ VALUES (3896, 13, True)
      , (3896, 14, True)
      , (3896, 19, True)
      , (3896, 22, True);
+
+/* Weenie - MeleeWeapons - Quadruple-bladed Axe (24557) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24557;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24557, 'axerenegaderaids');
@@ -52200,6 +55755,9 @@ VALUES (24557, 13, True)
      , (24557, 19, True)
      , (24557, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Olthoi Axe (24239) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24239;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24239, 'axeolthoi');
 
@@ -52239,6 +55797,9 @@ VALUES (24239, 13, True)
      , (24239, 14, True)
      , (24239, 19, True)
      , (24239, 22, True);
+
+/* Weenie - MeleeWeapons - Isparian Spear (46163) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46163;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46163, 'ace46163-isparianspear');
@@ -52289,6 +55850,9 @@ VALUES (46163, 0, 83889235, 83893927)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46163, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Acid Poniard (30600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30600;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30600, 'daggerponiardacid');
 
@@ -52338,6 +55902,9 @@ VALUES (30600, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30600, 0, 16792136);
 
+/* Weenie - MeleeWeapons - Phantom Dagger (21354) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21354;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21354, 'daggerphantom');
 
@@ -52375,6 +55942,9 @@ VALUES (21354, 13, True)
      , (21354, 15, True)
      , (21354, 19, True)
      , (21354, 22, True);
+
+/* Weenie - MeleeWeapons - Sir Ginazio's Sword (29492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29492;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29492, 'swordginazio');
@@ -52425,6 +55995,9 @@ VALUES (29492, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29492, 0, 16777961);
 
+/* Weenie - MeleeWeapons - Lightning Shamshir (3854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3854, 'shamshirelectric');
 
@@ -52464,6 +56037,9 @@ VALUES (3854, 13, True)
      , (3854, 19, True)
      , (3854, 22, True);
 
+/* Weenie - MeleeWeapons - Yaja's Reach (27300) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27300;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27300, 'spearyaja');
 
@@ -52498,6 +56074,9 @@ VALUES (27300, 13, True)
      , (27300, 14, True)
      , (27300, 19, True)
      , (27300, 22, True);
+
+/* Weenie - MeleeWeapons - Lance of the Bloodletter (26598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26598;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26598, 'spearixir3');
@@ -52537,6 +56116,9 @@ VALUES (26598, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26598, 67114955, 0, 0);
 
+/* Weenie - MeleeWeapons - Lightning Hand Axe (3755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3755;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3755, 'axehandelectric');
 
@@ -52575,6 +56157,9 @@ VALUES (3755, 13, True)
      , (3755, 14, True)
      , (3755, 19, True)
      , (3755, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Hatchet (48989) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48989;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48989, 'ace48989-flaminghatchet');
@@ -52621,6 +56206,9 @@ VALUES (48989, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48989, 0, 16792134);
 
+/* Weenie - MeleeWeapons - T'thuun Dagger (38925) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38925;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38925, 'ace38925-tthuundagger');
 
@@ -52658,6 +56246,9 @@ VALUES (38925, 13, True)
      , (38925, 14, True)
      , (38925, 19, True)
      , (38925, 22, True);
+
+/* Weenie - MeleeWeapons - T'thuun Mace (38926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38926;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38926, 'ace38926-tthuunmace');
@@ -52697,6 +56288,9 @@ VALUES (38926, 13, True)
      , (38926, 19, True)
      , (38926, 22, True);
 
+/* Weenie - MeleeWeapons - T'thuun Claw (38924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38924;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38924, 'ace38924-tthuunclaw');
 
@@ -52735,6 +56329,9 @@ VALUES (38924, 13, True)
      , (38924, 19, True)
      , (38924, 22, True);
 
+/* Weenie - MeleeWeapons - T'thuun Spear (38927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38927;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38927, 'ace38927-tthuunspear');
 
@@ -52771,6 +56368,9 @@ VALUES (38927, 13, True)
      , (38927, 14, True)
      , (38927, 19, True)
      , (38927, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Hatchet (48990) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48990;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48990, 'ace48990-flaminghatchet');
@@ -52817,6 +56417,9 @@ VALUES (48990, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48990, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Remoran Fist (32121) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32121;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32121, 'ace32121-remoranfist');
 
@@ -52859,6 +56462,9 @@ VALUES (32121, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32121, 67116737, 0, 0);
 
+/* Weenie - MeleeWeapons - Spear of the Given Heart (23352) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23352;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23352, 'spearofthegivenheart');
 
@@ -52894,6 +56500,9 @@ VALUES (23352, 13, True)
      , (23352, 14, True)
      , (23352, 19, True)
      , (23352, 22, True);
+
+/* Weenie - MeleeWeapons - Dull Dagger (5016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5016;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5016, 'daggerfolthid');
@@ -52941,6 +56550,9 @@ VALUES (5016, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5016, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Golem Mace (3719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3719;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3719, 'macegolem');
 
@@ -52975,6 +56587,9 @@ VALUES (3719, 13, True)
      , (3719, 14, True)
      , (3719, 19, True)
      , (3719, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Bandit Dagger (3781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3781;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3781, 'daggerfrost');
@@ -53012,6 +56627,9 @@ VALUES (3781, 13, True)
      , (3781, 14, True)
      , (3781, 19, True)
      , (3781, 22, True);
+
+/* Weenie - MeleeWeapons - Singularity Dagger (10875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10875;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10875, 'daggersingularitymarae-xp');
@@ -53059,6 +56677,9 @@ VALUES (10875, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10875, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Flaming Bandit Dagger (3780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3780;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3780, 'daggerfire');
 
@@ -53093,6 +56714,9 @@ VALUES (3780, 13, True)
      , (3780, 14, True)
      , (3780, 19, True)
      , (3780, 22, True);
+
+/* Weenie - MeleeWeapons - Superb Shimmering Isparian Dagger (20938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20938;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20938, 'daggerispariansuperbprismaticmajor');
@@ -53136,6 +56760,9 @@ VALUES (20938, 0, 83893927, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20938, 0, 16787903);
 
+/* Weenie - MeleeWeapons - Dagger of the Quiddity (10791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10791;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10791, 'lodaggerquiddity');
 
@@ -53172,6 +56799,9 @@ VALUES (10791, 13, True)
      , (10791, 19, True)
      , (10791, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Bandit Dagger (3779) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3779;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3779, 'daggerelectric');
 
@@ -53206,6 +56836,9 @@ VALUES (3779, 13, True)
      , (3779, 14, True)
      , (3779, 19, True)
      , (3779, 22, True);
+
+/* Weenie - MeleeWeapons - Training Cestus (12742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12742;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12742, 'cestustraining');
@@ -53256,6 +56889,9 @@ VALUES (12742, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12742, 0, 16783508);
 
+/* Weenie - MeleeWeapons - Ashbane (8134) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8134;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8134, 'swordleikotha');
 
@@ -53292,6 +56928,9 @@ VALUES (8134, 13, True)
      , (8134, 14, True)
      , (8134, 19, True)
      , (8134, 22, True);
+
+/* Weenie - MeleeWeapons - Staff of the Nomads (23542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23542;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23542, 'staffanadilnew');
@@ -53331,6 +56970,9 @@ VALUES (23542, 13, True)
      , (23542, 19, True)
      , (23542, 22, True);
 
+/* Weenie - MeleeWeapons - Kreerg's Spear (27907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27907;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27907, 'spearkreerg');
 
@@ -53365,6 +57007,9 @@ VALUES (27907, 13, True)
      , (27907, 14, True)
      , (27907, 19, True)
      , (27907, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Tofun (3899) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3899;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3899, 'tofunfire');
@@ -53404,6 +57049,9 @@ VALUES (3899, 13, True)
      , (3899, 14, True)
      , (3899, 19, True)
      , (3899, 22, True);
+
+/* Weenie - MeleeWeapons - Spada (45411) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45411;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45411, 'ace45411-spada');
@@ -53454,6 +57102,9 @@ VALUES (45411, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45411, 0, 16791839);
 
+/* Weenie - MeleeWeapons - Flaming Knife (40732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40732;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40732, 'ace40732-flamingknife');
 
@@ -53492,6 +57143,9 @@ VALUES (40732, 13, True)
      , (40732, 14, True)
      , (40732, 19, True)
      , (40732, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Atlan Staff of Black Fire (7463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7463;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7463, 'staffbestblackfire');
@@ -53535,6 +57189,9 @@ VALUES (7463, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7463, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Frost Stiletto (30604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30604;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30604, 'daggerstilettofrost');
 
@@ -53574,6 +57231,9 @@ VALUES (30604, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30604, 67116425, 0, 0);
+
+/* Weenie - MeleeWeapons - Ash Tooth Dagger (3708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3708;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3708, 'daggerashtooth');
@@ -53618,6 +57278,9 @@ VALUES (3708, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3708, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Stone Axe (26022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26022;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26022, 'axeburunstoneextreme');
 
@@ -53654,6 +57317,9 @@ VALUES (26022, 13, True)
      , (26022, 19, True)
      , (26022, 22, True);
 
+/* Weenie - MeleeWeapons - Stone Spear (26048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26048;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26048, 'spearburunstoneextreme');
 
@@ -53688,6 +57354,9 @@ VALUES (26048, 13, True)
      , (26048, 14, True)
      , (26048, 19, True)
      , (26048, 22, True);
+
+/* Weenie - MeleeWeapons - Stone Mace (26043) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26043;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26043, 'maceburunstoneextreme');
@@ -53728,6 +57397,9 @@ VALUES (26043, 13, True)
      , (26043, 19, True)
      , (26043, 22, True);
 
+/* Weenie - MeleeWeapons - Bone Sword (26052) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26052;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26052, 'swordburunboneextreme');
 
@@ -53762,6 +57434,9 @@ VALUES (26052, 13, True)
      , (26052, 14, True)
      , (26052, 19, True)
      , (26052, 22, True);
+
+/* Weenie - MeleeWeapons - Bone Dagger (26031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26031;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26031, 'dirkburunboneextreme');
@@ -53798,6 +57473,9 @@ VALUES (26031, 13, True)
      , (26031, 19, True)
      , (26031, 22, True);
 
+/* Weenie - MeleeWeapons - Stone Spear (26049) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26049;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26049, 'spearburunstonehigh');
 
@@ -53832,6 +57510,9 @@ VALUES (26049, 13, True)
      , (26049, 14, True)
      , (26049, 19, True)
      , (26049, 22, True);
+
+/* Weenie - MeleeWeapons - Pyre Blade (35096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35096;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35096, 'ace35096-pyreblade');
@@ -53868,6 +57549,9 @@ VALUES (35096, 13, True)
      , (35096, 19, True)
      , (35096, 22, True);
 
+/* Weenie - MeleeWeapons - Pyre Claw (35095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35095;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35095, 'ace35095-pyreclaw');
 
@@ -53902,6 +57586,9 @@ VALUES (35095, 13, True)
      , (35095, 14, True)
      , (35095, 19, True)
      , (35095, 22, True);
+
+/* Weenie - MeleeWeapons - Katar (48010) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48010;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48010, 'ace48010-katar');
@@ -53951,6 +57638,9 @@ VALUES (48010, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48010, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Acid Silifi (48016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48016;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48016, 'ace48016-acidsilifi');
 
@@ -53991,6 +57681,9 @@ VALUES (48016, 13, True)
      , (48016, 19, True)
      , (48016, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (48014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48014;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48014, 'ace48014-lightningnekode');
 
@@ -54027,6 +57720,9 @@ VALUES (48014, 13, True)
      , (48014, 14, True)
      , (48014, 19, True)
      , (48014, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Tachi (47694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47694;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47694, 'ace47694-frosttachi');
@@ -54077,6 +57773,9 @@ VALUES (47694, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47694, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Bone Sword (27878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27878;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27878, 'swordgurukbone2');
 
@@ -54115,6 +57814,9 @@ VALUES (27878, 13, True)
      , (27878, 14, True)
      , (27878, 19, True)
      , (27878, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Spear (47715) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47715;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47715, 'ace47715-acidspear');
@@ -54164,6 +57866,9 @@ VALUES (47715, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47715, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Tree Trunk (27870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27870;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27870, 'maceguruktree2');
 
@@ -54203,6 +57908,9 @@ VALUES (27870, 13, True)
      , (27870, 19, True)
      , (27870, 22, True);
 
+/* Weenie - MeleeWeapons - Stone Axe (27866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27866;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27866, 'axegurukstone2');
 
@@ -54241,6 +57949,9 @@ VALUES (27866, 13, True)
      , (27866, 14, True)
      , (27866, 19, True)
      , (27866, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Silifi (48001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48001;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48001, 'ace48001-acidsilifi');
@@ -54282,6 +57993,9 @@ VALUES (48001, 13, True)
      , (48001, 19, True)
      , (48001, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Nekode (48540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48540, 'ace48540-flamingnekode');
 
@@ -54319,6 +58033,9 @@ VALUES (48540, 13, True)
      , (48540, 19, True)
      , (48540, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48486) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48486;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48486, 'ace48486-flamingkatar');
 
@@ -54355,6 +58072,9 @@ VALUES (48486, 13, True)
      , (48486, 14, True)
      , (48486, 19, True)
      , (48486, 22, True);
+
+/* Weenie - MeleeWeapons - Board of Luring (52029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52029;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52029, 'ace52029-boardofluring');
@@ -54394,6 +58114,9 @@ VALUES (52029, 13, True)
      , (52029, 19, True)
      , (52029, 22, True);
 
+/* Weenie - MeleeWeapons - Board of Vulnerability (52030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52030;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52030, 'ace52030-boardofvulnerability');
 
@@ -54431,6 +58154,9 @@ VALUES (52030, 13, True)
      , (52030, 14, True)
      , (52030, 19, True)
      , (52030, 22, True);
+
+/* Weenie - MeleeWeapons - Training Handwraps (45557) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45557;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45557, 'ace45557-traininghandwraps');
@@ -54480,6 +58206,9 @@ VALUES (45557, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45557, 0, 16792139);
 
+/* Weenie - MeleeWeapons - Lightning Mazule (30582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30582;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30582, 'macemazuleelectric');
 
@@ -54525,6 +58254,9 @@ VALUES (30582, 0, 83896666, 83896666);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30582, 0, 16792135);
+
+/* Weenie - MeleeWeapons - Academy Stick (12757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12757, 'staffacademy');
@@ -54576,6 +58308,9 @@ VALUES (12757, 0, 83897334, 83897334);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12757, 0, 16792611);
 
+/* Weenie - MeleeWeapons - Modified Sacraloi (46969) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46969;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46969, 'ace46969-modifiedsacraloi');
 
@@ -54612,6 +58347,9 @@ VALUES (46969, 13, True)
      , (46969, 14, True)
      , (46969, 19, True)
      , (46969, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Sabra (30569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30569;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30569, 'swordsabrafrost');
@@ -54657,6 +58395,9 @@ VALUES (30569, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30569, 67116395, 0, 0);
 
+/* Weenie - MeleeWeapons - Red Rune Silveran Staff (33097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33097;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33097, 'ace33097-redrunesilveranstaff');
 
@@ -54691,6 +58432,9 @@ VALUES (33097, 13, True)
      , (33097, 14, True)
      , (33097, 19, True)
      , (33097, 22, True);
+
+/* Weenie - MeleeWeapons - Frozen Weeping Claw (25614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25614;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25614, 'clawweepingfreezing');
@@ -54739,6 +58483,9 @@ VALUES (25614, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25614, 0, 16789573);
 
+/* Weenie - MeleeWeapons - Acidic Weeping Claw (25611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25611;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25611, 'clawweepingacidic');
 
@@ -54786,6 +58533,9 @@ VALUES (25611, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25611, 0, 16789573);
 
+/* Weenie - MeleeWeapons - Enhanced Shimmering Isparian Staff (46212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46212;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46212, 'ace46212-enhancedshimmeringisparianstaff');
 
@@ -54829,6 +58579,9 @@ VALUES (46212, 0, 83889237, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46212, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Empowered Sword of Lost Hope (40089) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40089;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40089, 'ace40089-empoweredswordoflosthope');
 
@@ -54868,6 +58621,9 @@ VALUES (40089, 13, True)
      , (40089, 22, True)
      , (40089, 91, True);
 
+/* Weenie - MeleeWeapons - Sword of Lost Light (7438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7438;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7438, 'swordlostlightbluewhite');
 
@@ -54902,6 +58658,9 @@ VALUES (7438, 13, True)
      , (7438, 14, True)
      , (7438, 19, True)
      , (7438, 22, True);
+
+/* Weenie - MeleeWeapons - Crystal Sword (23541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23541;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23541, 'swordcrystalnew');
@@ -54953,6 +58712,9 @@ VALUES (23541, 0, 83889688, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23541, 0, 16783206);
 
+/* Weenie - MeleeWeapons - Shadowfire Isparian Sword (32600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32600;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32600, 'ace32600-shadowfireispariansword');
 
@@ -54999,6 +58761,9 @@ VALUES (32600, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32600, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Princely Runed Mazule (32979) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32979;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32979, 'ace32979-princelyrunedmazule');
 
@@ -55038,6 +58803,9 @@ VALUES (32979, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32979, 67116398, 0, 0);
 
+/* Weenie - MeleeWeapons - Lightning Khanjar (45433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45433, 'ace45433-lightningkhanjar');
 
@@ -55076,6 +58844,9 @@ VALUES (45433, 13, True)
      , (45433, 14, True)
      , (45433, 19, True)
      , (45433, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Khanda-handled Mace (41066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41066;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41066, 'ace41066-frostkhandahandledmace');
@@ -55118,6 +58889,9 @@ VALUES (41066, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41066, 67116377, 0, 0);
 
+/* Weenie - MeleeWeapons - Lance of the Bloodletter (26597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26597;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26597, 'spearixir2');
 
@@ -55155,6 +58929,9 @@ VALUES (26597, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26597, 67114954, 0, 0);
+
+/* Weenie - MeleeWeapons - Sword of Frozen Fury (3813) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3813;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3813, 'kaskarafrost');
@@ -55197,6 +58974,9 @@ VALUES (3813, 13, True)
      , (3813, 19, True)
      , (3813, 22, True);
 
+/* Weenie - MeleeWeapons - Grael's Claw (33363) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33363;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33363, 'ace33363-graelsclaw');
 
@@ -55231,6 +59011,9 @@ VALUES (33363, 13, True)
      , (33363, 14, True)
      , (33363, 19, True)
      , (33363, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Khanjar (3827) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3827;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3827, 'khanjarelectric');
@@ -55272,6 +59055,9 @@ VALUES (3827, 13, True)
      , (3827, 22, True)
      , (3827, 91, True);
 
+/* Weenie - MeleeWeapons - Seasoned Explorer Greataxe (45954) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45954;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45954, 'ace45954-seasonedexplorergreataxe');
 
@@ -55309,6 +59095,9 @@ VALUES (45954, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45954, 67116380, 0, 0);
+
+/* Weenie - MeleeWeapons - Soul Bound Spear (45527) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45527;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45527, 'ace45527-soulboundspear');
@@ -55357,6 +59146,9 @@ VALUES (45527, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45527, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Perfect Shimmering Isparian Spear (20944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20944, 'spearisparianperfectprismaticmajor');
 
@@ -55400,6 +59192,9 @@ VALUES (20944, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20944, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Olthoi Spear (24241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24241;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24241, 'spearolthoi');
 
@@ -55436,6 +59231,9 @@ VALUES (24241, 13, True)
      , (24241, 14, True)
      , (24241, 19, True)
      , (24241, 22, True);
+
+/* Weenie - MeleeWeapons - Phantom Sword (21359) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21359;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21359, 'swordphantom');
@@ -55475,6 +59273,9 @@ VALUES (21359, 13, True)
      , (21359, 19, True)
      , (21359, 22, True);
 
+/* Weenie - MeleeWeapons - Channeling Bone Sword (34993) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34993;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34993, 'ace34993-channelingbonesword');
 
@@ -55509,6 +59310,9 @@ VALUES (34993, 13, True)
      , (34993, 14, True)
      , (34993, 19, True)
      , (34993, 22, True);
+
+/* Weenie - MeleeWeapons - Ultimate Singularity Sword (41889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41889;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41889, 'ace41889-ultimatesingularitysword');
@@ -55550,6 +59354,9 @@ VALUES (41889, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41889, 67111922, 0, 0);
+
+/* Weenie - MeleeWeapons - Assault Spear (11947) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11947;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11947, 'speartumerokwar');
@@ -55594,6 +59401,9 @@ VALUES (11947, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11947, 67111924, 0, 0);
 
+/* Weenie - MeleeWeapons - Spear of Purity (9490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9490;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9490, 'spearpurity');
 
@@ -55627,6 +59437,9 @@ VALUES (9490, 13, True)
      , (9490, 14, True)
      , (9490, 19, True)
      , (9490, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Dagger (40717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40717;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40717, 'ace40717-flamingdagger');
@@ -55664,6 +59477,9 @@ VALUES (40717, 13, True)
      , (40717, 19, True)
      , (40717, 22, True);
 
+/* Weenie - MeleeWeapons - Gauraloi (21428) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21428;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21428, 'cestusgaerlan');
 
@@ -55700,6 +59516,9 @@ VALUES (21428, 13, True)
      , (21428, 14, True)
      , (21428, 19, True)
      , (21428, 22, True);
+
+/* Weenie - MeleeWeapons - Skeletonbane Sword of Lost Light (40519) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40519;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40519, 'ace40519-skeletonbaneswordoflostlight');
@@ -55741,6 +59560,9 @@ VALUES (40519, 13, True)
      , (40519, 19, True)
      , (40519, 22, True);
 
+/* Weenie - MeleeWeapons - Olthoibane Sword of Lost Light (40517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40517;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40517, 'ace40517-olthoibaneswordoflostlight');
 
@@ -55781,6 +59603,9 @@ VALUES (40517, 13, True)
      , (40517, 19, True)
      , (40517, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Nekode (47998) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47998;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47998, 'ace47998-acidnekode');
 
@@ -55818,6 +59643,9 @@ VALUES (47998, 13, True)
      , (47998, 19, True)
      , (47998, 22, True);
 
+/* Weenie - MeleeWeapons - Frozen Dagger (48585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48585;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48585, 'ace48585-frozendagger');
 
@@ -55852,6 +59680,9 @@ VALUES (48585, 13, True)
      , (48585, 14, True)
      , (48585, 19, True)
      , (48585, 22, True);
+
+/* Weenie - MeleeWeapons - Glacial Blade (48588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48588;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48588, 'ace48588-glacialblade');
@@ -55888,6 +59719,9 @@ VALUES (48588, 13, True)
      , (48588, 19, True)
      , (48588, 22, True);
 
+/* Weenie - MeleeWeapons - Icy Club (48584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48584;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48584, 'ace48584-icyclub');
 
@@ -55920,6 +59754,9 @@ VALUES (48584, 13, True)
      , (48584, 14, True)
      , (48584, 19, True)
      , (48584, 22, True);
+
+/* Weenie - MeleeWeapons - Souldrinker (33026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33026;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33026, 'ace33026-souldrinker');
@@ -55961,6 +59798,9 @@ VALUES (33026, 13, True)
      , (33026, 19, True)
      , (33026, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Silifi (48031) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48031;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48031, 'ace48031-lightningsilifi');
 
@@ -56000,6 +59840,9 @@ VALUES (48031, 13, True)
      , (48031, 14, True)
      , (48031, 19, True)
      , (48031, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Board with Nail (47240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47240;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47240, 'ace47240-acidboardwithnail');
@@ -56049,6 +59892,9 @@ VALUES (47240, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47240, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Frost Mace (47506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47506;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47506, 'ace47506-frostmace');
 
@@ -56097,6 +59943,9 @@ VALUES (47506, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47506, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Glacial Blade (48623) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48623;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48623, 'ace48623-glacialblade');
 
@@ -56131,6 +59980,9 @@ VALUES (48623, 13, True)
      , (48623, 14, True)
      , (48623, 19, True)
      , (48623, 22, True);
+
+/* Weenie - MeleeWeapons - Frozen Dagger (48620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48620;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48620, 'ace48620-frozendagger');
@@ -56167,6 +60019,9 @@ VALUES (48620, 13, True)
      , (48620, 19, True)
      , (48620, 22, True);
 
+/* Weenie - MeleeWeapons - Icy Club (48619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48619;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48619, 'ace48619-icyclub');
 
@@ -56199,6 +60054,9 @@ VALUES (48619, 13, True)
      , (48619, 14, True)
      , (48619, 19, True)
      , (48619, 22, True);
+
+/* Weenie - MeleeWeapons - Frigid Splinter (48622) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48622;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48622, 'ace48622-frigidsplinter');
@@ -56235,6 +60093,9 @@ VALUES (48622, 13, True)
      , (48622, 19, True)
      , (48622, 22, True);
 
+/* Weenie - MeleeWeapons - Frigid Splinter (48587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48587;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48587, 'ace48587-frigidsplinter');
 
@@ -56269,6 +60130,9 @@ VALUES (48587, 13, True)
      , (48587, 14, True)
      , (48587, 19, True)
      , (48587, 22, True);
+
+/* Weenie - MeleeWeapons - Khopesh (48102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48102;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48102, 'ace48102-khopesh');
@@ -56306,6 +60170,9 @@ VALUES (48102, 13, True)
      , (48102, 19, True)
      , (48102, 22, True);
 
+/* Weenie - MeleeWeapons - Sickle (48103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48103;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48103, 'ace48103-sickle');
 
@@ -56341,6 +60208,9 @@ VALUES (48103, 13, True)
      , (48103, 14, True)
      , (48103, 19, True)
      , (48103, 22, True);
+
+/* Weenie - MeleeWeapons - Carrot Dagger (25799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25799;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25799, 'daggercarrot');
@@ -56382,6 +60252,9 @@ VALUES (25799, 13, True)
      , (25799, 19, True)
      , (25799, 22, True);
 
+/* Weenie - MeleeWeapons - Soul Staff (23540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23540;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23540, 'stafflugianbossnew');
 
@@ -56418,6 +60291,9 @@ VALUES (23540, 13, True)
      , (23540, 14, True)
      , (23540, 19, True)
      , (23540, 22, True);
+
+/* Weenie - MeleeWeapons - Decapitator's Blade (42666) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42666;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42666, 'ace42666-decapitatorsblade');
@@ -56464,6 +60340,9 @@ VALUES (42666, 0, 83898392, 83898392);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42666, 0, 16795166);
 
+/* Weenie - MeleeWeapons - Zharalim Crookblade (45445) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45445;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45445, 'ace45445-zharalimcrookblade');
 
@@ -56509,6 +60388,9 @@ VALUES (45445, 0, 83897088, 83897088);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45445, 0, 16791992);
+
+/* Weenie - MeleeWeapons - Shadow Blade of Flame (45404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45404;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45404, 'ace45404-shadowbladeofflame');
@@ -56560,6 +60442,9 @@ VALUES (45404, 0, 83897479, 83897479);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45404, 0, 16793032);
 
+/* Weenie - MeleeWeapons - Bandit Simi (22789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22789;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22789, 'simibandithigh');
 
@@ -56606,6 +60491,9 @@ VALUES (22789, 0, 83888778, 83888778)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22789, 0, 16777945);
+
+/* Weenie - MeleeWeapons - Frost Great Star Mace (41061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41061;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41061, 'ace41061-frostgreatstarmace');
@@ -56655,6 +60543,9 @@ VALUES (41061, 0, 83897966, 83897966)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41061, 0, 16794292);
 
+/* Weenie - MeleeWeapons - Lightning Club (3767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3767, 'clubelectric');
 
@@ -56694,6 +60585,9 @@ VALUES (3767, 13, True)
      , (3767, 19, True)
      , (3767, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Jambiya (3794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3794;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3794, 'jambiyaacid');
 
@@ -56731,6 +60625,9 @@ VALUES (3794, 13, True)
      , (3794, 19, True)
      , (3794, 22, True);
 
+/* Weenie - MeleeWeapons - Burning Sands Katar (44265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44265;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44265, 'ace44265-burningsandskatar');
 
@@ -56765,6 +60662,9 @@ VALUES (44265, 13, True)
      , (44265, 14, True)
      , (44265, 19, True)
      , (44265, 22, True);
+
+/* Weenie - MeleeWeapons - T'thuun Mace (46403) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46403;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46403, 'ace46403-tthuunmace');
@@ -56804,6 +60704,9 @@ VALUES (46403, 13, True)
      , (46403, 19, True)
      , (46403, 22, True);
 
+/* Weenie - MeleeWeapons - T'thuun Sword (38928) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38928;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38928, 'ace38928-tthuunsword');
 
@@ -56842,6 +60745,9 @@ VALUES (38928, 13, True)
      , (38928, 19, True)
      , (38928, 22, True);
 
+/* Weenie - MeleeWeapons - T'thuun Spear (46404) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46404;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46404, 'ace46404-tthuunspear');
 
@@ -56878,6 +60784,9 @@ VALUES (46404, 13, True)
      , (46404, 14, True)
      , (46404, 19, True)
      , (46404, 22, True);
+
+/* Weenie - MeleeWeapons - Bandit Lightning Khanjar (12063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12063;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12063, 'khanjarelectricbandit');
@@ -56917,6 +60826,9 @@ VALUES (12063, 13, True)
      , (12063, 14, True)
      , (12063, 19, True)
      , (12063, 22, True);
+
+/* Weenie - MeleeWeapons - Bronze Short Sword (15881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15881, 'swordshortstatue-monsteronly');
@@ -56968,6 +60880,9 @@ VALUES (15881, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15881, 0, 16777968);
 
+/* Weenie - MeleeWeapons - Cragstone's Axe (15389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15389;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15389, 'axecragstonestatue-monsteronly');
 
@@ -57017,6 +60932,9 @@ VALUES (15389, 0, 83889236, 83889236)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15389, 0, 16787715);
+
+/* Weenie - MeleeWeapons - Ben Ten's Tachi (15391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15391, 'tachibentenstatue-monsteronly');
@@ -57068,6 +60986,9 @@ VALUES (15391, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15391, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Bronze Morning Star (15877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15877;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15877, 'morningstarstatue-monsteronly');
 
@@ -57116,6 +61037,9 @@ VALUES (15877, 0, 83889356, 83886712)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15877, 0, 16777932);
+
+/* Weenie - MeleeWeapons - Bronze Dagger (15876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15876;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15876, 'daggerstatue-monsteronly');
@@ -57167,6 +61091,9 @@ VALUES (15876, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15876, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Peerless Atlan Sword of Black Fire (7466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7466;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7466, 'swordbestblackfire');
 
@@ -57211,6 +61138,9 @@ VALUES (7466, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7466, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Modified Gauraloi (46966) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46966;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46966, 'ace46966-modifiedgauraloi');
 
@@ -57248,6 +61178,9 @@ VALUES (46966, 13, True)
      , (46966, 19, True)
      , (46966, 22, True);
 
+/* Weenie - MeleeWeapons - Khopesh (48100) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48100;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48100, 'ace48100-khopesh');
 
@@ -57283,6 +61216,9 @@ VALUES (48100, 13, True)
      , (48100, 14, True)
      , (48100, 19, True)
      , (48100, 22, True);
+
+/* Weenie - MeleeWeapons - Sickle (48101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48101;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48101, 'ace48101-sickle');
@@ -57320,6 +61256,9 @@ VALUES (48101, 13, True)
      , (48101, 19, True)
      , (48101, 22, True);
 
+/* Weenie - MeleeWeapons - Frigid Splinter (48612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48612;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48612, 'ace48612-frigidsplinter');
 
@@ -57354,6 +61293,9 @@ VALUES (48612, 13, True)
      , (48612, 14, True)
      , (48612, 19, True)
      , (48612, 22, True);
+
+/* Weenie - MeleeWeapons - Glacial Blade (48613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48613;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48613, 'ace48613-glacialblade');
@@ -57390,6 +61332,9 @@ VALUES (48613, 13, True)
      , (48613, 19, True)
      , (48613, 22, True);
 
+/* Weenie - MeleeWeapons - Frozen Dagger (48610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48610;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48610, 'ace48610-frozendagger');
 
@@ -57425,6 +61370,9 @@ VALUES (48610, 13, True)
      , (48610, 19, True)
      , (48610, 22, True);
 
+/* Weenie - MeleeWeapons - Icy Club (48609) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48609;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48609, 'ace48609-icyclub');
 
@@ -57457,6 +61405,9 @@ VALUES (48609, 13, True)
      , (48609, 14, True)
      , (48609, 19, True)
      , (48609, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Ono (48033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48033;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48033, 'ace48033-acidono');
@@ -57495,6 +61446,9 @@ VALUES (48033, 13, True)
      , (48033, 19, True)
      , (48033, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Nekode (48536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48536;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48536, 'ace48536-flamingnekode');
 
@@ -57531,6 +61485,9 @@ VALUES (48536, 13, True)
      , (48536, 14, True)
      , (48536, 19, True)
      , (48536, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Nekode (48535) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48535;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48535, 'ace48535-flamingnekode');
@@ -57569,6 +61526,9 @@ VALUES (48535, 13, True)
      , (48535, 19, True)
      , (48535, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Ono (47869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47869;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47869, 'ace47869-acidono');
 
@@ -57605,6 +61565,9 @@ VALUES (47869, 13, True)
      , (47869, 14, True)
      , (47869, 19, True)
      , (47869, 22, True);
+
+/* Weenie - MeleeWeapons - Starter Yaoji (538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 538;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (538, 'newbieyaoji');
@@ -57644,6 +61607,9 @@ VALUES (538, 13, True)
      , (538, 14, True)
      , (538, 19, True)
      , (538, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Mace (47485) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47485;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47485, 'ace47485-flamingmace');
@@ -57693,6 +61659,9 @@ VALUES (47485, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47485, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Acid Ono (48004) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48004;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48004, 'ace48004-acidono');
 
@@ -57729,6 +61698,9 @@ VALUES (48004, 13, True)
      , (48004, 14, True)
      , (48004, 19, True)
      , (48004, 22, True);
+
+/* Weenie - MeleeWeapons - Purified Mouryou Nanjou-tachi (46829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46829;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46829, 'ace46829-purifiedmouryounanjoutachi');
@@ -57767,6 +61739,9 @@ VALUES (46829, 13, True)
      , (46829, 15, True)
      , (46829, 19, True)
      , (46829, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Axe (31250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31250, 'ace31250-lugianaxe');
@@ -57808,6 +61783,9 @@ VALUES (31250, 13, True)
      , (31250, 19, True)
      , (31250, 22, True);
 
+/* Weenie - MeleeWeapons - Bandit Flaming Jambiya (12059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12059;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12059, 'jambiyafirebandit');
 
@@ -57843,6 +61821,9 @@ VALUES (12059, 13, True)
      , (12059, 14, True)
      , (12059, 19, True)
      , (12059, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Spear (47771) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47771;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47771, 'ace47771-flamingspear');
@@ -57892,6 +61873,9 @@ VALUES (47771, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47771, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Lightning Club (47373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47373;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47373, 'ace47373-lightningclub');
 
@@ -57928,6 +61912,9 @@ VALUES (47373, 13, True)
      , (47373, 14, True)
      , (47373, 19, True)
      , (47373, 22, True);
+
+/* Weenie - MeleeWeapons - Fire Board with Nail (47297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47297, 'ace47297-fireboardwithnail');
@@ -57977,6 +61964,9 @@ VALUES (47297, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47297, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Electric Board with Nail (47278) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47278;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47278, 'ace47278-electricboardwithnail');
 
@@ -58024,6 +62014,9 @@ VALUES (47278, 0, 83897336, 83897336);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47278, 0, 16792613);
+
+/* Weenie - MeleeWeapons - Frost Board with Nail (47316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47316;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47316, 'ace47316-frostboardwithnail');
@@ -58073,6 +62066,9 @@ VALUES (47316, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47316, 0, 16792613);
 
+/* Weenie - MeleeWeapons - Acid Spear (47719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47719;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47719, 'ace47719-acidspear');
 
@@ -58120,6 +62116,9 @@ VALUES (47719, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47719, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Tachi (47627) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47627;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47627, 'ace47627-acidtachi');
@@ -58170,6 +62169,9 @@ VALUES (47627, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47627, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48492) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48492;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48492, 'ace48492-flamingkatar');
 
@@ -58207,6 +62209,9 @@ VALUES (48492, 13, True)
      , (48492, 19, True)
      , (48492, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Katar (48083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48083;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48083, 'ace48083-acidkatar');
 
@@ -58243,6 +62248,9 @@ VALUES (48083, 13, True)
      , (48083, 14, True)
      , (48083, 19, True)
      , (48083, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Silifi (47911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47911;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47911, 'ace47911-acidsilifi');
@@ -58284,6 +62292,9 @@ VALUES (47911, 13, True)
      , (47911, 19, True)
      , (47911, 22, True);
 
+/* Weenie - MeleeWeapons - Star of Tukal (45448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45448;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45448, 'ace45448-staroftukal');
 
@@ -58319,6 +62330,9 @@ VALUES (45448, 13, True)
      , (45448, 14, True)
      , (45448, 19, True)
      , (45448, 22, True);
+
+/* Weenie - MeleeWeapons - Knife (329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 329;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (329, 'knife');
@@ -58370,6 +62384,9 @@ VALUES (329, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (329, 0, 16777925);
 
+/* Weenie - MeleeWeapons - Acidic Weeping Mace (25619) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25619;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25619, 'maceweepingacidic');
 
@@ -58408,6 +62425,9 @@ VALUES (25619, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25619, 67114519, 0, 0);
+
+/* Weenie - MeleeWeapons - Major Chilling Isparian Staff (46173) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46173;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46173, 'ace46173-majorchillingisparianstaff');
@@ -58455,6 +62475,9 @@ VALUES (46173, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46173, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Flaming Nabut (3840) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3840;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3840, 'nabutfire');
 
@@ -58494,6 +62517,9 @@ VALUES (3840, 13, True)
      , (3840, 14, True)
      , (3840, 19, True)
      , (3840, 22, True);
+
+/* Weenie - MeleeWeapons - Perfect Shimmering Isparian Staff (20948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20948;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20948, 'staffisparianperfectprismaticmajor');
@@ -58537,6 +62563,9 @@ VALUES (20948, 0, 83889237, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20948, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Lightning Battle Axe (3751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3751;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3751, 'axebattleelectric');
 
@@ -58577,6 +62606,9 @@ VALUES (3751, 13, True)
      , (3751, 19, True)
      , (3751, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (48088) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48088;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48088, 'ace48088-lightningnekode');
 
@@ -58614,6 +62646,9 @@ VALUES (48088, 13, True)
      , (48088, 19, True)
      , (48088, 22, True);
 
+/* Weenie - MeleeWeapons - Gibbering Claw (27451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27451;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27451, 'clawgibbering');
 
@@ -58648,6 +62683,9 @@ VALUES (27451, 13, True)
      , (27451, 14, True)
      , (27451, 19, True)
      , (27451, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Broad Sword (3880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3880;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3880, 'swordbroadfrost');
@@ -58688,6 +62726,9 @@ VALUES (3880, 13, True)
      , (3880, 19, True)
      , (3880, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (47999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47999;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47999, 'ace47999-lightningnekode');
 
@@ -58725,6 +62766,9 @@ VALUES (47999, 13, True)
      , (47999, 19, True)
      , (47999, 22, True);
 
+/* Weenie - MeleeWeapons - Starter Nabut (528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 528;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (528, 'newbienabut');
 
@@ -58761,6 +62805,9 @@ VALUES (528, 13, True)
      , (528, 14, True)
      , (528, 19, True)
      , (528, 22, True);
+
+/* Weenie - MeleeWeapons - Phantom Staff (21357) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21357;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21357, 'nabutphantom');
@@ -58800,6 +62847,9 @@ VALUES (21357, 13, True)
      , (21357, 15, True)
      , (21357, 19, True)
      , (21357, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Spear (47792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47792;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47792, 'ace47792-frostspear');
@@ -58849,6 +62899,9 @@ VALUES (47792, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47792, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Reforged Ashbane (40908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40908, 'ace40908-reforgedashbane');
 
@@ -58886,6 +62939,9 @@ VALUES (40908, 13, True)
      , (40908, 14, True)
      , (40908, 19, True)
      , (40908, 22, True);
+
+/* Weenie - MeleeWeapons - Ono (48092) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48092;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48092, 'ace48092-ono');
@@ -58934,6 +62990,9 @@ VALUES (48092, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48092, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Khopesh (25500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25500, 'khopeshfalatacotuber');
 
@@ -58968,6 +63027,9 @@ VALUES (25500, 13, True)
      , (25500, 14, True)
      , (25500, 19, True)
      , (25500, 22, True);
+
+/* Weenie - MeleeWeapons - T'thuun Dagger (46402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46402;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46402, 'ace46402-tthuundagger');
@@ -59006,6 +63068,9 @@ VALUES (46402, 13, True)
      , (46402, 14, True)
      , (46402, 19, True)
      , (46402, 22, True);
+
+/* Weenie - MeleeWeapons - Katar (48084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48084;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48084, 'ace48084-katar');
@@ -59055,6 +63120,9 @@ VALUES (48084, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48084, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Lightning Ono (48094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48094;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48094, 'ace48094-lightningono');
 
@@ -59091,6 +63159,9 @@ VALUES (48094, 13, True)
      , (48094, 14, True)
      , (48094, 19, True)
      , (48094, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Ono (48063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48063;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48063, 'ace48063-acidono');
@@ -59129,6 +63200,9 @@ VALUES (48063, 13, True)
      , (48063, 19, True)
      , (48063, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Katar (48053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48053, 'ace48053-acidkatar');
 
@@ -59165,6 +63239,9 @@ VALUES (48053, 13, True)
      , (48053, 14, True)
      , (48053, 19, True)
      , (48053, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Ono (48048) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48048;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48048, 'ace48048-acidono');
@@ -59203,6 +63280,9 @@ VALUES (48048, 13, True)
      , (48048, 19, True)
      , (48048, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Club (47383) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47383;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47383, 'ace47383-flamingclub');
 
@@ -59239,6 +63319,9 @@ VALUES (47383, 13, True)
      , (47383, 14, True)
      , (47383, 19, True)
      , (47383, 22, True);
+
+/* Weenie - MeleeWeapons - Silifi (48059) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48059;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48059, 'ace48059-silifi');
@@ -59290,6 +63373,9 @@ VALUES (48059, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48059, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Lightning Katar (48055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48055;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48055, 'ace48055-lightningkatar');
 
@@ -59326,6 +63412,9 @@ VALUES (48055, 13, True)
      , (48055, 14, True)
      , (48055, 19, True)
      , (48055, 22, True);
+
+/* Weenie - MeleeWeapons - Ono (48062) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48062;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48062, 'ace48062-ono');
@@ -59374,6 +63463,9 @@ VALUES (48062, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48062, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Acid Nekode (48087) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48087;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48087, 'ace48087-acidnekode');
 
@@ -59410,6 +63502,9 @@ VALUES (48087, 13, True)
      , (48087, 14, True)
      , (48087, 19, True)
      , (48087, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Nekode (48058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48058;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48058, 'ace48058-lightningnekode');
@@ -59448,6 +63543,9 @@ VALUES (48058, 13, True)
      , (48058, 19, True)
      , (48058, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Nekode (48057) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48057;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48057, 'ace48057-acidnekode');
 
@@ -59484,6 +63582,9 @@ VALUES (48057, 13, True)
      , (48057, 14, True)
      , (48057, 19, True)
      , (48057, 22, True);
+
+/* Weenie - MeleeWeapons - T'thuun Claw (46401) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46401;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46401, 'ace46401-tthuunclaw');
@@ -59523,6 +63624,9 @@ VALUES (46401, 13, True)
      , (46401, 19, True)
      , (46401, 22, True);
 
+/* Weenie - MeleeWeapons - T'thuun Sword (46405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46405;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46405, 'ace46405-tthuunsword');
 
@@ -59560,6 +63664,9 @@ VALUES (46405, 13, True)
      , (46405, 14, True)
      , (46405, 19, True)
      , (46405, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Silifi (48060) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48060;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48060, 'ace48060-acidsilifi');
@@ -59600,6 +63707,9 @@ VALUES (48060, 13, True)
      , (48060, 14, True)
      , (48060, 19, True)
      , (48060, 22, True);
+
+/* Weenie - MeleeWeapons - Ghost Blade (35873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35873;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35873, 'ace35873-ghostblade');
@@ -59651,6 +63761,9 @@ VALUES (35873, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35873, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Frost Tachi (34018) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34018;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34018, 'ace34018-frosttachi');
 
@@ -59699,6 +63812,9 @@ VALUES (34018, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34018, 0, 16777915);
 
+/* Weenie - MeleeWeapons - A'nekshen Stormwood Spear (52633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52633;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52633, 'ace52633-anekshenstormwoodspear');
 
@@ -59734,6 +63850,9 @@ VALUES (52633, 13, True)
      , (52633, 14, True)
      , (52633, 19, True)
      , (52633, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Hatchet (49002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49002;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49002, 'ace49002-acidhatchet');
@@ -59780,6 +63899,9 @@ VALUES (49002, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49002, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Assassin's Edge (40632) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40632;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40632, 'ace40632-assassinsedge');
 
@@ -59819,6 +63941,9 @@ VALUES (40632, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40632, 67116427, 0, 0);
+
+/* Weenie - MeleeWeapons - Silifi (48015) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48015;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48015, 'ace48015-silifi');
@@ -59870,6 +63995,9 @@ VALUES (48015, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48015, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Ono (48017) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48017;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48017, 'ace48017-ono');
 
@@ -59917,6 +64045,9 @@ VALUES (48017, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48017, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Acid Nekode (48013) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48013;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48013, 'ace48013-acidnekode');
 
@@ -59954,6 +64085,9 @@ VALUES (48013, 13, True)
      , (48013, 19, True)
      , (48013, 22, True);
 
+/* Weenie - MeleeWeapons - Banished Axe (30859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30859;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30859, 'axebanished');
 
@@ -59987,6 +64121,9 @@ VALUES (30859, 13, True)
      , (30859, 14, True)
      , (30859, 19, True)
      , (30859, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Silifi (3865) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3865;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3865, 'silifiacid');
@@ -60027,6 +64164,9 @@ VALUES (3865, 13, True)
      , (3865, 19, True)
      , (3865, 22, True);
 
+/* Weenie - MeleeWeapons - Ensorcelled Sword (47219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47219;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47219, 'ace47219-ensorcelledsword');
 
@@ -60061,6 +64201,9 @@ VALUES (47219, 13, True)
      , (47219, 14, True)
      , (47219, 19, True)
      , (47219, 22, True);
+
+/* Weenie - MeleeWeapons - Ensorcelled Mace (47222) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47222;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47222, 'ace47222-ensorcelledmace');
@@ -60100,6 +64243,9 @@ VALUES (47222, 13, True)
      , (47222, 19, True)
      , (47222, 22, True);
 
+/* Weenie - MeleeWeapons - Ensorcelled Dagger (47220) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47220;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47220, 'ace47220-ensorcelleddagger');
 
@@ -60134,6 +64280,9 @@ VALUES (47220, 13, True)
      , (47220, 14, True)
      , (47220, 19, True)
      , (47220, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Ono (48093) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48093;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48093, 'ace48093-acidono');
@@ -60171,6 +64320,9 @@ VALUES (48093, 13, True)
      , (48093, 14, True)
      , (48093, 19, True)
      , (48093, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Silifi (47881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47881;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47881, 'ace47881-acidsilifi');
@@ -60211,6 +64363,9 @@ VALUES (47881, 13, True)
      , (47881, 14, True)
      , (47881, 19, True)
      , (47881, 22, True);
+
+/* Weenie - MeleeWeapons - Perfect Shimmering Isparian Sword (20952) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20952;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20952, 'swordisparianperfectprismaticmajor');
@@ -60256,6 +64411,9 @@ VALUES (20952, 0, 83889235, 83892492)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20952, 0, 16783995);
+
+/* Weenie - MeleeWeapons - Major Smoldering Atlan Axe (46042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46042;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46042, 'ace46042-majorsmolderingatlanaxe');
@@ -60307,6 +64465,9 @@ VALUES (46042, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46042, 0, 16783998);
 
+/* Weenie - MeleeWeapons - Frost Tofun (3900) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3900;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3900, 'tofunfrost');
 
@@ -60357,6 +64518,9 @@ VALUES (3900, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3900, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Acid Spear (47716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47716;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47716, 'ace47716-acidspear');
 
@@ -60405,6 +64569,9 @@ VALUES (47716, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47716, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Frost Spadone (40617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40617;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40617, 'ace40617-frostspadone');
 
@@ -60449,6 +64616,9 @@ VALUES (40617, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40617, 0, 16791762);
+
+/* Weenie - MeleeWeapons - Acid Spear (47717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47717;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47717, 'ace47717-acidspear');
@@ -60498,6 +64668,9 @@ VALUES (47717, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47717, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48500) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48500;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48500, 'ace48500-flamingkatar');
 
@@ -60534,6 +64707,9 @@ VALUES (48500, 13, True)
      , (48500, 14, True)
      , (48500, 19, True)
      , (48500, 22, True);
+
+/* Weenie - MeleeWeapons - Soul Bound Greatsword (41927) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41927;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41927, 'ace41927-soulboundgreatsword');
@@ -60581,6 +64757,9 @@ VALUES (41927, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41927, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Hammer of the Fallen (30866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30866;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30866, 'axefallen');
 
@@ -60614,6 +64793,9 @@ VALUES (30866, 13, True)
      , (30866, 14, True)
      , (30866, 19, True)
      , (30866, 22, True);
+
+/* Weenie - MeleeWeapons - Assault Sword (23916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23916;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23916, 'swordtumerokwar');
@@ -60658,6 +64840,9 @@ VALUES (23916, 13, True)
      , (23916, 19, True)
      , (23916, 22, True);
 
+/* Weenie - MeleeWeapons - Tidal Siraluun Tewhate (29908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29908, 'axesiraluuntidal');
 
@@ -60699,6 +64884,9 @@ VALUES (29908, 13, True)
      , (29908, 19, True)
      , (29908, 22, True);
 
+/* Weenie - MeleeWeapons - Assault Dirk (23912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23912;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23912, 'daggertumerokwar');
 
@@ -60739,6 +64927,9 @@ VALUES (23912, 13, True)
      , (23912, 15, True)
      , (23912, 19, True)
      , (23912, 22, True);
+
+/* Weenie - MeleeWeapons - Assault Spear (23914) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23914;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23914, 'speartumerokwarnew');
@@ -60783,6 +64974,9 @@ VALUES (23914, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23914, 67111924, 0, 0);
 
+/* Weenie - MeleeWeapons - Assault Staff (23915) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23915;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23915, 'stafftumerokwarnew');
 
@@ -60825,6 +65019,9 @@ VALUES (23915, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23915, 67111924, 0, 0);
+
+/* Weenie - MeleeWeapons - Assault Axe (23908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23908;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23908, 'axetumerokwarnew');
@@ -60871,6 +65068,9 @@ VALUES (23908, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23908, 67111924, 0, 0);
 
+/* Weenie - MeleeWeapons - Assault Mace (23913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23913;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23913, 'macetumerokwarnew');
 
@@ -60914,6 +65114,9 @@ VALUES (23913, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23913, 67111924, 0, 0);
 
+/* Weenie - MeleeWeapons - Assault Cestus (23910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23910, 'cestustumerokwar');
 
@@ -60955,6 +65158,9 @@ VALUES (23910, 13, True)
      , (23910, 19, True)
      , (23910, 22, True);
 
+/* Weenie - MeleeWeapons - Dirk of the Fallen (30869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30869;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30869, 'daggerfallen');
 
@@ -60988,6 +65194,9 @@ VALUES (30869, 13, True)
      , (30869, 14, True)
      , (30869, 19, True)
      , (30869, 22, True);
+
+/* Weenie - MeleeWeapons - Scepter of Thunderous Might (24027) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24027;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24027, 'maceknorrscepter');
@@ -61028,6 +65237,9 @@ VALUES (24027, 13, True)
      , (24027, 19, True)
      , (24027, 22, True);
 
+/* Weenie - MeleeWeapons - Burnja's Board with Nails (35407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35407, 'ace35407-burnjasboardwithnails');
 
@@ -61062,6 +65274,9 @@ VALUES (35407, 13, True)
      , (35407, 14, True)
      , (35407, 19, True)
      , (35407, 22, True);
+
+/* Weenie - MeleeWeapons - Crescent Moons (24028) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24028;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24028, 'nekodecrescentmoon');
@@ -61098,6 +65313,9 @@ VALUES (24028, 13, True)
      , (24028, 15, True)
      , (24028, 19, True)
      , (24028, 22, True);
+
+/* Weenie - MeleeWeapons - Ebon Tooth Katar (28219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28219;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28219, 'katarebontooth');
@@ -61138,6 +65356,9 @@ VALUES (28219, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28219, 67115301, 0, 0);
 
+/* Weenie - MeleeWeapons - Obsidian Axe (11982) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11982;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11982, 'axebasalt');
 
@@ -61175,6 +65396,9 @@ VALUES (11982, 13, True)
      , (11982, 19, True)
      , (11982, 22, True);
 
+/* Weenie - MeleeWeapons - Spear of the Fallen (30873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30873;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30873, 'spearfallen');
 
@@ -61208,6 +65432,9 @@ VALUES (30873, 13, True)
      , (30873, 14, True)
      , (30873, 19, True)
      , (30873, 22, True);
+
+/* Weenie - MeleeWeapons - Copper Cutlass (28216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28216;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28216, 'cutlasscopper');
@@ -61243,6 +65470,9 @@ VALUES (28216, 13, True)
      , (28216, 14, True)
      , (28216, 19, True)
      , (28216, 22, True);
+
+/* Weenie - MeleeWeapons - Scepter of Might (9419) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9419;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9419, 'macescepter');
@@ -61288,6 +65518,9 @@ VALUES (9419, 67111924, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9419, 0, 16785712);
 
+/* Weenie - MeleeWeapons - Iasparailaun (21434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21434;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21434, 'swordempyreangaerlan');
 
@@ -61326,6 +65559,9 @@ VALUES (21434, 13, True)
      , (21434, 19, True)
      , (21434, 22, True);
 
+/* Weenie - MeleeWeapons - Brass Knuckles (28215) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28215;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28215, 'cestusbrassknuckles');
 
@@ -61360,6 +65596,9 @@ VALUES (28215, 13, True)
      , (28215, 14, True)
      , (28215, 19, True)
      , (28215, 22, True);
+
+/* Weenie - MeleeWeapons - Ishaq's Mace (29230) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29230;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29230, 'maceishaqslostkey');
@@ -61411,6 +65650,9 @@ VALUES (29230, 0, 83886755, 83886755)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29230, 0, 16791123);
 
+/* Weenie - MeleeWeapons - Mace of Winter Flame (32495) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32495;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32495, 'ace32495-maceofwinterflame');
 
@@ -61457,6 +65699,9 @@ VALUES (32495, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32495, 0, 16777932);
 
+/* Weenie - MeleeWeapons - Oswald's Dirk (24171) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24171;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24171, 'dirkoswald');
 
@@ -61490,6 +65735,9 @@ VALUES (24171, 13, True)
      , (24171, 14, True)
      , (24171, 19, True)
      , (24171, 22, True);
+
+/* Weenie - MeleeWeapons - Ultimate Singularity Greatsword (41788) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41788;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41788, 'ace41788-ultimatesingularitygreatsword');
@@ -61539,6 +65787,9 @@ VALUES (41788, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41788, 0, 16777880);
+
+/* Weenie - MeleeWeapons - Atlan Two Handed Sword (46105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46105;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46105, 'ace46105-atlantwohandedsword');
@@ -61592,6 +65843,9 @@ VALUES (46105, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46105, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Osseous Mace (11997) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11997;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11997, 'maceskeletonhighboss');
 
@@ -61628,6 +65882,9 @@ VALUES (11997, 13, True)
      , (11997, 14, True)
      , (11997, 19, True)
      , (11997, 22, True);
+
+/* Weenie - MeleeWeapons - Lou Ka's Yaoji (5190) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5190;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5190, 'yaojilouka');
@@ -61672,6 +65929,9 @@ VALUES (5190, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5190, 0, 16777984);
+
+/* Weenie - MeleeWeapons - Lou Ka's Trident (30496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30496;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30496, 'tridentlouka');
@@ -61721,6 +65981,9 @@ VALUES (30496, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30496, 0, 16784608);
 
+/* Weenie - MeleeWeapons - Lou Ka's Katar (30497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30497, 'katarlouka');
 
@@ -61766,6 +66029,9 @@ VALUES (30497, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30497, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Sickle of Writhing Fury (26594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26594;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26594, 'sickleixir3');
 
@@ -61808,6 +66074,9 @@ VALUES (26594, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26594, 67114955, 0, 0);
 
+/* Weenie - MeleeWeapons - Lance of the Quiddity (9602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9602;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9602, 'lospearquiddity');
 
@@ -61844,6 +66113,9 @@ VALUES (9602, 13, True)
      , (9602, 19, True)
      , (9602, 22, True);
 
+/* Weenie - MeleeWeapons - Basalt Blade (23538) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23538;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23538, 'nekodebasaltnew');
 
@@ -61878,6 +66150,9 @@ VALUES (23538, 13, True)
      , (23538, 14, True)
      , (23538, 19, True)
      , (23538, 22, True);
+
+/* Weenie - MeleeWeapons - Isparian Two Handed Sword (46194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46194;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46194, 'ace46194-ispariantwohandedsword');
@@ -61929,6 +66204,9 @@ VALUES (46194, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46194, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Bound Singularity Greatsword (41790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41790;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41790, 'ace41790-boundsingularitygreatsword');
 
@@ -61977,6 +66255,9 @@ VALUES (41790, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41790, 0, 16777880);
 
+/* Weenie - MeleeWeapons - Insensate Axe (30678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30678;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30678, 'axeinsensate');
 
@@ -62017,6 +66298,9 @@ VALUES (30678, 13, True)
      , (30678, 14, True)
      , (30678, 19, True)
      , (30678, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Mazule (30584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30584;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30584, 'macemazulefrost');
@@ -62064,6 +66348,9 @@ VALUES (30584, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30584, 0, 16792135);
 
+/* Weenie - MeleeWeapons - Lightning Jitte (3803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3803;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3803, 'jitteelectric');
 
@@ -62099,6 +66386,9 @@ VALUES (3803, 13, True)
      , (3803, 14, True)
      , (3803, 19, True)
      , (3803, 22, True);
+
+/* Weenie - MeleeWeapons - Seasoned Explorer Trident (45930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45930;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45930, 'ace45930-seasonedexplorertrident');
@@ -62151,6 +66441,9 @@ VALUES (45930, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45930, 0, 16784608);
 
+/* Weenie - MeleeWeapons - Seasoned Explorer Dirk (45926) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45926;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45926, 'ace45926-seasonedexplorerdirk');
 
@@ -62201,6 +66494,9 @@ VALUES (45926, 0, 83886739, 83886739)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45926, 0, 16788591);
 
+/* Weenie - MeleeWeapons - Stone Axe (27867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27867;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27867, 'axegurukstone3');
 
@@ -62239,6 +66535,9 @@ VALUES (27867, 13, True)
      , (27867, 14, True)
      , (27867, 19, True)
      , (27867, 22, True);
+
+/* Weenie - MeleeWeapons - Bone Sword (27879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27879;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27879, 'swordgurukbone3');
@@ -62279,6 +66578,9 @@ VALUES (27879, 13, True)
      , (27879, 19, True)
      , (27879, 22, True);
 
+/* Weenie - MeleeWeapons - Tree Trunk (27871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27871;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27871, 'maceguruktree3');
 
@@ -62318,6 +66620,9 @@ VALUES (27871, 13, True)
      , (27871, 19, True)
      , (27871, 22, True);
 
+/* Weenie - MeleeWeapons - Repugnant Staff (29047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29047;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29047, 'staffkukuur');
 
@@ -62352,6 +66657,9 @@ VALUES (29047, 13, True)
      , (29047, 14, True)
      , (29047, 19, True)
      , (29047, 22, True);
+
+/* Weenie - MeleeWeapons - Hollow Sword (7575) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7575;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7575, 'swordhollow');
@@ -62391,6 +66699,9 @@ VALUES (7575, 13, True)
      , (7575, 15, True)
      , (7575, 19, True)
      , (7575, 22, True);
+
+/* Weenie - MeleeWeapons - Silifi of Crimson Stars (23029) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23029;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23029, 'silificrimsonstarsxxxplate');
@@ -62443,6 +66754,9 @@ VALUES (23029, 0, 83892523, 83892523)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23029, 0, 16784360);
 
+/* Weenie - MeleeWeapons - Lugian Morning Star (544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 544;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (544, 'lugianmorningstar');
 
@@ -62490,6 +66804,9 @@ VALUES (544, 0, 83889356, 83886712)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (544, 0, 16777932);
+
+/* Weenie - MeleeWeapons - Lugian Axe (540) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 540;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (540, 'lugianaxe');
@@ -62539,6 +66856,9 @@ VALUES (540, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (540, 0, 16777886);
 
+/* Weenie - MeleeWeapons - Lugian Mace (543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 543;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (543, 'lugianmace');
 
@@ -62587,6 +66907,9 @@ VALUES (543, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (543, 0, 16777929);
 
+/* Weenie - MeleeWeapons - Frost Mace (3837) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3837;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3837, 'macefrost');
 
@@ -62634,6 +66957,9 @@ VALUES (3837, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3837, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Flaming Knife (3832) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3832;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3832, 'knifefire');
 
@@ -62672,6 +66998,9 @@ VALUES (3832, 13, True)
      , (3832, 14, True)
      , (3832, 19, True)
      , (3832, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Hatchet (30559) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30559;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30559, 'axehatchetfire');
@@ -62719,6 +67048,9 @@ VALUES (30559, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30559, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (47879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47879;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47879, 'ace47879-lightningnekode');
 
@@ -62755,6 +67087,9 @@ VALUES (47879, 13, True)
      , (47879, 14, True)
      , (47879, 19, True)
      , (47879, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Silifi (47912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47912;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47912, 'ace47912-lightningsilifi');
@@ -62796,6 +67131,9 @@ VALUES (47912, 13, True)
      , (47912, 19, True)
      , (47912, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (47924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47924;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47924, 'ace47924-lightningnekode');
 
@@ -62833,6 +67171,9 @@ VALUES (47924, 13, True)
      , (47924, 19, True)
      , (47924, 22, True);
 
+/* Weenie - MeleeWeapons - Drudge Board with Nail (7767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7767;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7767, 'boardwithnailsmall');
 
@@ -62868,6 +67209,9 @@ VALUES (7767, 13, True)
      , (7767, 14, True)
      , (7767, 19, True)
      , (7767, 22, True);
+
+/* Weenie - MeleeWeapons - Tumerok Board with Nail (7766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7766;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7766, 'boardwithnailmedium');
@@ -62905,6 +67249,9 @@ VALUES (7766, 13, True)
      , (7766, 14, True)
      , (7766, 19, True)
      , (7766, 22, True);
+
+/* Weenie - MeleeWeapons - Shadowfire Isparian Dagger (46391) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46391;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46391, 'ace46391-shadowfireispariandagger');
@@ -62955,6 +67302,9 @@ VALUES (46391, 0, 83889235, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46391, 0, 16787903);
 
+/* Weenie - MeleeWeapons - Acid Simi (45402) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45402;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45402, 'ace45402-acidsimi');
 
@@ -62996,6 +67346,9 @@ VALUES (45402, 13, True)
      , (45402, 22, True)
      , (45402, 91, True);
 
+/* Weenie - MeleeWeapons - Battered Old Mace (31499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31499, 'ace31499-batteredoldmace');
 
@@ -63031,6 +67384,9 @@ VALUES (31499, 13, True)
      , (31499, 19, True)
      , (31499, 22, True);
 
+/* Weenie - MeleeWeapons - Battered Old Axe (31489) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31489;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31489, 'ace31489-batteredoldaxe');
 
@@ -63065,6 +67421,9 @@ VALUES (31489, 13, True)
      , (31489, 14, True)
      , (31489, 19, True)
      , (31489, 22, True);
+
+/* Weenie - MeleeWeapons - An Explorer Jitte (8704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8704;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8704, 'macerarenewbiequest');
@@ -63113,6 +67472,9 @@ VALUES (8704, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8704, 0, 16777918);
 
+/* Weenie - MeleeWeapons - Siraluun Matihao (23533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23533;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23533, 'matihaosiraluunnew-xp');
 
@@ -63147,6 +67509,9 @@ VALUES (23533, 13, True)
      , (23533, 14, True)
      , (23533, 19, True)
      , (23533, 22, True);
+
+/* Weenie - MeleeWeapons - Weeping Mace (24203) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24203;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24203, 'maceisparianperfectweeping');
@@ -63183,6 +67548,9 @@ VALUES (24203, 13, True)
      , (24203, 19, True)
      , (24203, 22, True);
 
+/* Weenie - MeleeWeapons - Red Rune Silveran Dagger (33050) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33050;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33050, 'ace33050-redrunesilverandagger');
 
@@ -63217,6 +67585,9 @@ VALUES (33050, 13, True)
      , (33050, 14, True)
      , (33050, 19, True)
      , (33050, 22, True);
+
+/* Weenie - MeleeWeapons - Blighted Claw (38910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38910;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38910, 'ace38910-blightedclaw');
@@ -63253,6 +67624,9 @@ VALUES (38910, 13, True)
      , (38910, 14, True)
      , (38910, 19, True)
      , (38910, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Weeping Claw (25613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25613;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25613, 'clawweepingfiery');
@@ -63300,6 +67674,9 @@ VALUES (25613, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25613, 0, 16789573);
 
+/* Weenie - MeleeWeapons - Soul Bound Claw (37578) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37578;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37578, 'ace37578-soulboundclaw');
 
@@ -63346,6 +67723,9 @@ VALUES (37578, 0, 83889238, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37578, 0, 16783999);
 
+/* Weenie - MeleeWeapons - Eldrytch Web Blade (38855) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38855;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38855, 'ace38855-eldrytchwebblade');
 
@@ -63378,6 +67758,9 @@ VALUES (38855, 13, True)
      , (38855, 11, True)
      , (38855, 14, True)
      , (38855, 19, True);
+
+/* Weenie - MeleeWeapons - Acid Silifi (47941) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47941;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47941, 'ace47941-acidsilifi');
@@ -63418,6 +67801,9 @@ VALUES (47941, 13, True)
      , (47941, 14, True)
      , (47941, 19, True)
      , (47941, 22, True);
+
+/* Weenie - MeleeWeapons - Seasoned Explorer Nekode (45936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45936;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45936, 'ace45936-seasonedexplorernekode');
@@ -63467,6 +67853,9 @@ VALUES (45936, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45936, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Abmim's Jambiya (5361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5361;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5361, 'jambiyaabmim');
 
@@ -63514,6 +67903,9 @@ VALUES (5361, 0, 83886747, 83886747)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5361, 0, 16777986);
 
+/* Weenie - MeleeWeapons - Burun Slaying Rapier (28997) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28997;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28997, 'swordnobleburun');
 
@@ -63554,6 +67946,9 @@ VALUES (28997, 13, True)
      , (28997, 19, True)
      , (28997, 22, True);
 
+/* Weenie - MeleeWeapons - Red Rune Silveran Greatsword (41083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41083;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41083, 'ace41083-redrunesilverangreatsword');
 
@@ -63590,6 +67985,9 @@ VALUES (41083, 13, True)
      , (41083, 14, True)
      , (41083, 19, True)
      , (41083, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Hatchet (48997) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48997;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48997, 'ace48997-frosthatchet');
@@ -63636,6 +68034,9 @@ VALUES (48997, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48997, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Assault Greatsword (41791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41791;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41791, 'ace41791-assaultgreatsword');
 
@@ -63676,6 +68077,9 @@ VALUES (41791, 13, True)
      , (41791, 15, True)
      , (41791, 19, True)
      , (41791, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Flanged Mace (30588) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30588;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30588, 'maceflangedelectric');
@@ -63723,6 +68127,9 @@ VALUES (30588, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30588, 0, 16791841);
 
+/* Weenie - MeleeWeapons - Acid Shamshir (3853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3853;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3853, 'shamshiracid');
 
@@ -63761,6 +68168,9 @@ VALUES (3853, 13, True)
      , (3853, 14, True)
      , (3853, 19, True)
      , (3853, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Battle Axe (3752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3752, 'axebattlefire');
@@ -63801,6 +68211,9 @@ VALUES (3752, 13, True)
      , (3752, 14, True)
      , (3752, 19, True)
      , (3752, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Tachi (3889) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3889;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3889, 'tachiacid');
@@ -63849,6 +68262,9 @@ VALUES (3889, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3889, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Acid Rapier (45104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45104;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45104, 'ace45104-acidrapier');
@@ -63901,6 +68317,9 @@ VALUES (45104, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45104, 0, 16777934);
 
+/* Weenie - MeleeWeapons - Frost Kasrullah (3817) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3817;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3817, 'kasrullahfrost');
 
@@ -63936,6 +68355,9 @@ VALUES (3817, 13, True)
      , (3817, 14, True)
      , (3817, 19, True)
      , (3817, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Hand Axe (3754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3754;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3754, 'axehandacid');
@@ -63975,6 +68397,9 @@ VALUES (3754, 13, True)
      , (3754, 14, True)
      , (3754, 19, True)
      , (3754, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Battle Axe (3753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3753;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3753, 'axebattlefrost');
@@ -64016,6 +68441,9 @@ VALUES (3753, 13, True)
      , (3753, 19, True)
      , (3753, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Khanjar (45432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45432, 'ace45432-acidkhanjar');
 
@@ -64055,6 +68483,9 @@ VALUES (45432, 13, True)
      , (45432, 19, True)
      , (45432, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Tungi (3902) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3902;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3902, 'tungielectric');
 
@@ -64093,6 +68524,9 @@ VALUES (3902, 13, True)
      , (3902, 14, True)
      , (3902, 19, True)
      , (3902, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Hatchet (30560) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30560;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30560, 'axehatchetfrost');
@@ -64140,6 +68574,9 @@ VALUES (30560, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30560, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Lightning Spadone (40615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40615;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40615, 'ace40615-lightningspadone');
 
@@ -64185,6 +68622,9 @@ VALUES (40615, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40615, 0, 16791762);
 
+/* Weenie - MeleeWeapons - Acid Spadone (40614) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40614;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40614, 'ace40614-acidspadone');
 
@@ -64229,6 +68669,9 @@ VALUES (40614, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40614, 0, 16791762);
+
+/* Weenie - MeleeWeapons - Soul Bound Staff (45528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45528;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45528, 'ace45528-soulboundstaff');
@@ -64278,6 +68721,9 @@ VALUES (45528, 0, 83889237, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45528, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Enhanced Shivering Atlan Sword (46101) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46101;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46101, 'ace46101-enhancedshiveringatlansword');
 
@@ -64326,6 +68772,9 @@ VALUES (46101, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46101, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Stormwood Sword (53328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53328;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53328, 'ace53328-stormwoodsword');
 
@@ -64365,6 +68814,9 @@ VALUES (53328, 13, True)
      , (53328, 19, True)
      , (53328, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Spear (47744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47744;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47744, 'ace47744-lightningspear');
 
@@ -64401,6 +68853,9 @@ VALUES (47744, 13, True)
      , (47744, 14, True)
      , (47744, 19, True)
      , (47744, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Knife (3830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3830;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3830, 'knifeacid');
@@ -64441,6 +68896,9 @@ VALUES (3830, 13, True)
      , (3830, 19, True)
      , (3830, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Knife (40730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40730, 'ace40730-acidknife');
 
@@ -64480,6 +68938,9 @@ VALUES (40730, 13, True)
      , (40730, 19, True)
      , (40730, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Dagger (40716) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40716;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40716, 'ace40716-lightningdagger');
 
@@ -64515,6 +68976,9 @@ VALUES (40716, 13, True)
      , (40716, 14, True)
      , (40716, 19, True)
      , (40716, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Dagger (40718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40718;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40718, 'ace40718-frostdagger');
@@ -64552,6 +69016,9 @@ VALUES (40718, 13, True)
      , (40718, 19, True)
      , (40718, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Dagger (40715) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40715;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40715, 'ace40715-aciddagger');
 
@@ -64587,6 +69054,9 @@ VALUES (40715, 13, True)
      , (40715, 14, True)
      , (40715, 19, True)
      , (40715, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Smoldering Atlan Axe (6147) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6147;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6147, 'axebestsmolderingmajor');
@@ -64632,6 +69102,9 @@ VALUES (6147, 67111924, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6147, 0, 16783998);
 
+/* Weenie - MeleeWeapons - Butter Knife of Slaying (35266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35266;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35266, 'ace35266-butterknifeofslaying');
 
@@ -64664,6 +69137,9 @@ VALUES (35266, 13, True)
      , (35266, 14, True)
      , (35266, 19, True)
      , (35266, 22, True);
+
+/* Weenie - MeleeWeapons - Mace of the Fallen (30871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30871;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30871, 'macefallen');
@@ -64699,6 +69175,9 @@ VALUES (30871, 13, True)
      , (30871, 19, True)
      , (30871, 22, True);
 
+/* Weenie - MeleeWeapons - Weeping Axe (24198) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24198;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24198, 'axeisparianperfectweeping');
 
@@ -64733,6 +69212,9 @@ VALUES (24198, 13, True)
      , (24198, 14, True)
      , (24198, 19, True)
      , (24198, 22, True);
+
+/* Weenie - MeleeWeapons - Replica Sword of Bellenesse (32769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32769;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32769, 'ace32769-replicaswordofbellenesse');
@@ -64772,6 +69254,9 @@ VALUES (32769, 13, True)
      , (32769, 19, True)
      , (32769, 22, True);
 
+/* Weenie - MeleeWeapons - Princely Runed Bastone (32981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32981;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32981, 'ace32981-princelyrunedbastone');
 
@@ -64810,6 +69295,9 @@ VALUES (32981, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32981, 67116430, 0, 0);
+
+/* Weenie - MeleeWeapons - Royal Runed Flamberge (33212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33212;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33212, 'ace33212-royalrunedflamberge');
@@ -64852,6 +69340,9 @@ VALUES (33212, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33212, 67116388, 0, 0);
+
+/* Weenie - MeleeWeapons - Royal Runed Dolabra (33204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33204;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33204, 'ace33204-royalruneddolabra');
@@ -64896,6 +69387,9 @@ VALUES (33204, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33204, 67116378, 0, 0);
 
+/* Weenie - MeleeWeapons - Frozen Weeping Dagger (25618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25618;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25618, 'daggerweepingfreezing');
 
@@ -64935,6 +69429,9 @@ VALUES (25618, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25618, 67114523, 0, 0);
 
+/* Weenie - MeleeWeapons - Bone Dagger (34583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34583;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34583, 'ace34583-bonedagger');
 
@@ -64968,6 +69465,9 @@ VALUES (34583, 13, True)
      , (34583, 14, True)
      , (34583, 19, True)
      , (34583, 22, True);
+
+/* Weenie - MeleeWeapons - Bronze Short Sword (15895) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15895;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15895, 'swordshortstatuebronze');
@@ -65010,6 +69510,9 @@ VALUES (15895, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (15895, 67113835, 0, 0);
 
+/* Weenie - MeleeWeapons - Peerless Sparking Atlan Claw (6176) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6176;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6176, 'clawbestsparkingmajor');
 
@@ -65048,6 +69551,9 @@ VALUES (6176, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6176, 0, 16783999);
 
+/* Weenie - MeleeWeapons - Stone Spear (34587) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34587;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34587, 'ace34587-stonespear');
 
@@ -65081,6 +69587,9 @@ VALUES (34587, 13, True)
      , (34587, 14, True)
      , (34587, 19, True)
      , (34587, 22, True);
+
+/* Weenie - MeleeWeapons - Isparian Staff (46172) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46172;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46172, 'ace46172-isparianstaff');
@@ -65127,6 +69636,9 @@ VALUES (46172, 0, 83889237, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46172, 0, 16783994);
+
+/* Weenie - MeleeWeapons - Frost Rapier (45107) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45107;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45107, 'ace45107-frostrapier');
@@ -65179,6 +69691,9 @@ VALUES (45107, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45107, 0, 16777934);
 
+/* Weenie - MeleeWeapons - Bloodletter (35551) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35551;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35551, 'ace35551-bloodletter');
 
@@ -65223,6 +69738,9 @@ VALUES (35551, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35551, 0, 16791842);
 
+/* Weenie - MeleeWeapons - Assault Staff (11948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11948;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11948, 'stafftumerokwar');
 
@@ -65266,6 +69784,9 @@ VALUES (11948, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11948, 67111924, 0, 0);
 
+/* Weenie - MeleeWeapons - Stormwood Mace (53312) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53312;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53312, 'ace53312-stormwoodmace');
 
@@ -65301,6 +69822,9 @@ VALUES (53312, 13, True)
      , (53312, 14, True)
      , (53312, 19, True)
      , (53312, 22, True);
+
+/* Weenie - MeleeWeapons - Stormwood Staff (53314) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53314;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53314, 'ace53314-stormwoodstaff');
@@ -65341,6 +69865,9 @@ VALUES (53314, 13, True)
      , (53314, 19, True)
      , (53314, 22, True);
 
+/* Weenie - MeleeWeapons - Stormwood Claw (53317) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53317;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53317, 'ace53317-stormwoodclaw');
 
@@ -65380,6 +69907,9 @@ VALUES (53317, 13, True)
      , (53317, 19, True)
      , (53317, 22, True);
 
+/* Weenie - MeleeWeapons - Stormwood Axe (53308) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53308;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53308, 'ace53308-stormwoodaxe');
 
@@ -65415,6 +69945,9 @@ VALUES (53308, 13, True)
      , (53308, 14, True)
      , (53308, 19, True)
      , (53308, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Shivering Atlan Axe (6145) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6145;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6145, 'axebestshiveringmajor');
@@ -65460,6 +69993,9 @@ VALUES (6145, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6145, 0, 16783998);
 
+/* Weenie - MeleeWeapons - Peerless Sparking Atlan Axe (6149) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6149;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6149, 'axebestsparkingmajor');
 
@@ -65500,6 +70036,9 @@ VALUES (6149, 13, True)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6149, 0, 16783998);
 
+/* Weenie - MeleeWeapons - Lightning Long Sword (6846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6846;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6846, 'swordlongelectriccolier');
 
@@ -65538,6 +70077,9 @@ VALUES (6846, 13, True)
      , (6846, 14, True)
      , (6846, 19, True)
      , (6846, 22, True);
+
+/* Weenie - MeleeWeapons - Jo (322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 322;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (322, 'jo');
@@ -65588,6 +70130,9 @@ VALUES (322, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (322, 0, 16777936);
 
+/* Weenie - MeleeWeapons - Frost Dabus (3777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3777;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3777, 'dabusfrost');
 
@@ -65623,6 +70168,9 @@ VALUES (3777, 13, True)
      , (3777, 14, True)
      , (3777, 19, True)
      , (3777, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Spada (45413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45413;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45413, 'ace45413-lightningspada');
@@ -65673,6 +70221,9 @@ VALUES (45413, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45413, 0, 16791839);
 
+/* Weenie - MeleeWeapons - Bandit Lightning Short Sword (12079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12079;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12079, 'swordshortelectricbandit');
 
@@ -65712,6 +70263,9 @@ VALUES (12079, 13, True)
      , (12079, 19, True)
      , (12079, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (47939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47939;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47939, 'ace47939-lightningnekode');
 
@@ -65748,6 +70302,9 @@ VALUES (47939, 13, True)
      , (47939, 14, True)
      , (47939, 19, True)
      , (47939, 22, True);
+
+/* Weenie - MeleeWeapons - Nekode (47937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47937;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47937, 'ace47937-nekode');
@@ -65797,6 +70354,9 @@ VALUES (47937, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47937, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Lightning Katar (47861) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47861;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47861, 'ace47861-lightningkatar');
 
@@ -65833,6 +70393,9 @@ VALUES (47861, 13, True)
      , (47861, 14, True)
      , (47861, 19, True)
      , (47861, 22, True);
+
+/* Weenie - MeleeWeapons - Major Flaming Isparian Staff (46175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46175;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46175, 'ace46175-majorflamingisparianstaff');
@@ -65882,6 +70445,9 @@ VALUES (46175, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46175, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Lightning Nekode (47864) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47864;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47864, 'ace47864-lightningnekode');
 
@@ -65919,6 +70485,9 @@ VALUES (47864, 13, True)
      , (47864, 19, True)
      , (47864, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Nekode (47938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47938;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47938, 'ace47938-acidnekode');
 
@@ -65955,6 +70524,9 @@ VALUES (47938, 13, True)
      , (47938, 14, True)
      , (47938, 19, True)
      , (47938, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Spear (47767) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47767;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47767, 'ace47767-flamingspear');
@@ -66004,6 +70576,9 @@ VALUES (47767, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47767, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Acid Silifi (48030) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48030;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48030, 'ace48030-acidsilifi');
 
@@ -66043,6 +70618,9 @@ VALUES (48030, 13, True)
      , (48030, 14, True)
      , (48030, 19, True)
      , (48030, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Mace (47468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47468;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47468, 'ace47468-lightningmace');
@@ -66092,6 +70670,9 @@ VALUES (47468, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47468, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Superior Shivering Atlan Claw (6181) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6181;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6181, 'clawbettershiveringmajor');
 
@@ -66134,6 +70715,9 @@ VALUES (6181, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6181, 0, 16783999);
 
+/* Weenie - MeleeWeapons - Peerless Stinging Atlan Claw (6178) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6178;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6178, 'clawbeststingingmajor');
 
@@ -66175,6 +70759,9 @@ VALUES (6178, 67111923, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6178, 0, 16783999);
+
+/* Weenie - MeleeWeapons - Academy Budiaq (45543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45543;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45543, 'ace45543-academybudiaq');
@@ -66223,6 +70810,9 @@ VALUES (45543, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45543, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Peerless Stinging Atlan Axe (6151) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6151;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6151, 'axebeststingingmajor');
 
@@ -66266,6 +70856,9 @@ VALUES (6151, 67111923, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6151, 0, 16783998);
+
+/* Weenie - MeleeWeapons - Frost Mace (47501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47501;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47501, 'ace47501-frostmace');
@@ -66315,6 +70908,9 @@ VALUES (47501, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47501, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Sacraloi (21430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21430;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21430, 'daggergaerlan');
 
@@ -66349,6 +70945,9 @@ VALUES (21430, 13, True)
      , (21430, 14, True)
      , (21430, 19, True)
      , (21430, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Spada (30574) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30574;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30574, 'swordspadafire');
@@ -66393,6 +70992,9 @@ VALUES (30574, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30574, 67116394, 0, 0);
 
+/* Weenie - MeleeWeapons - Peerless Atlan Sword (6291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6291, 'swordbestnostone');
 
@@ -66434,6 +71036,9 @@ VALUES (6291, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6291, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Weeping Spear (24204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24204;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24204, 'spearisparianperfectweeping');
 
@@ -66469,6 +71074,9 @@ VALUES (24204, 13, True)
      , (24204, 19, True)
      , (24204, 22, True);
 
+/* Weenie - MeleeWeapons - Spear of Purity (27095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27095;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27095, 'spearpuritynew');
 
@@ -66502,6 +71110,9 @@ VALUES (27095, 13, True)
      , (27095, 14, True)
      , (27095, 19, True)
      , (27095, 22, True);
+
+/* Weenie - MeleeWeapons - Green Mire Yari (2016) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2016;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2016, 'greenmireyari');
@@ -66540,6 +71151,9 @@ VALUES (2016, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2016, 67111922, 0, 0);
+
+/* Weenie - MeleeWeapons - Perfect Isparian Sword (19988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19988;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19988, 'swordisparianperfectnostone');
@@ -66588,6 +71202,9 @@ VALUES (19988, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19988, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Fine Spine Axe (8473) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8473;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8473, 'axespinefine');
 
@@ -66626,6 +71243,9 @@ VALUES (8473, 13, True)
      , (8473, 14, True)
      , (8473, 19, True)
      , (8473, 22, True);
+
+/* Weenie - MeleeWeapons - Singularity Axe (10872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10872;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10872, 'axesingularitymarae-xp');
@@ -66676,6 +71296,9 @@ VALUES (10872, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10872, 0, 16777886);
 
+/* Weenie - MeleeWeapons - Olthoi Acid Katar (24240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24240;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24240, 'katarolthoi');
 
@@ -66710,6 +71333,9 @@ VALUES (24240, 13, True)
      , (24240, 14, True)
      , (24240, 19, True)
      , (24240, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Warlord's Scepter (12250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12250, 'macelugianwarlord');
@@ -66759,6 +71385,9 @@ VALUES (12250, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12250, 0, 16777929);
 
+/* Weenie - MeleeWeapons - Frost Knife (3833) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3833;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3833, 'knifefrost');
 
@@ -66798,6 +71427,9 @@ VALUES (3833, 13, True)
      , (3833, 19, True)
      , (3833, 22, True);
 
+/* Weenie - MeleeWeapons - Oswald's Dagger (6877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6877;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6877, 'daggeroswald');
 
@@ -66832,6 +71464,9 @@ VALUES (6877, 13, True)
      , (6877, 14, True)
      , (6877, 19, True)
      , (6877, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Simi (3871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3871;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3871, 'simifire');
@@ -66869,6 +71504,9 @@ VALUES (3871, 13, True)
      , (3871, 19, True)
      , (3871, 22, True);
 
+/* Weenie - MeleeWeapons - Blade of the Fallen (30875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30875;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30875, 'swordfallen');
 
@@ -66902,6 +71540,9 @@ VALUES (30875, 13, True)
      , (30875, 14, True)
      , (30875, 19, True)
      , (30875, 22, True);
+
+/* Weenie - MeleeWeapons - Superb Shimmering Isparian Sword (20954) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20954;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20954, 'swordispariansuperbprismaticmajor');
@@ -66945,6 +71586,9 @@ VALUES (20954, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20954, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Acid Khanjar (3826) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3826;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3826, 'khanjaracid');
 
@@ -66983,6 +71627,9 @@ VALUES (3826, 13, True)
      , (3826, 14, True)
      , (3826, 19, True)
      , (3826, 22, True);
+
+/* Weenie - MeleeWeapons - Soul Bound Claw (45524) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45524;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45524, 'ace45524-soulboundclaw');
@@ -67030,6 +71677,9 @@ VALUES (45524, 0, 83889238, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45524, 0, 16783999);
 
+/* Weenie - MeleeWeapons - Skullpuncher (45469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45469;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45469, 'ace45469-skullpuncher');
 
@@ -67074,6 +71724,9 @@ VALUES (45469, 0, 83897114, 83897114);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45469, 0, 16792018);
+
+/* Weenie - MeleeWeapons - Flaming Hatchet (48988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48988;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48988, 'ace48988-flaminghatchet');
@@ -67120,6 +71773,9 @@ VALUES (48988, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48988, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Peerless Stinging Atlan Sword (6298) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6298;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6298, 'swordbeststingingmajor');
 
@@ -67162,6 +71818,9 @@ VALUES (6298, 67111923, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6298, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Peerless Smoldering Atlan Sword (6294) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6294;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6294, 'swordbestsmolderingmajor');
 
@@ -67203,6 +71862,9 @@ VALUES (6294, 67111924, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6294, 0, 16783995);
+
+/* Weenie - MeleeWeapons - Hamud's Pyreal Katar (6033) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6033;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6033, 'katarhamudspyreal');
@@ -67254,6 +71916,9 @@ VALUES (6033, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6033, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Bronze Cestus (15887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15887;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15887, 'cestusstatuebronze');
 
@@ -67304,6 +71969,9 @@ VALUES (15887, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15887, 0, 16783508);
 
+/* Weenie - MeleeWeapons - Acidic Weeping Two Handed Spear (41639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41639;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41639, 'ace41639-acidicweepingtwohandedspear');
 
@@ -67353,6 +72021,9 @@ VALUES (41639, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41639, 0, 16789568);
 
+/* Weenie - MeleeWeapons - Broken Haft (6777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6777;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6777, 'brokenhaft');
 
@@ -67393,6 +72064,9 @@ VALUES (6777, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6777, 67111921, 0, 0);
 
+/* Weenie - MeleeWeapons - Lightning Short Sword (3886) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3886;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3886, 'swordshortelectric');
 
@@ -67431,6 +72105,9 @@ VALUES (3886, 13, True)
      , (3886, 14, True)
      , (3886, 19, True)
      , (3886, 22, True);
+
+/* Weenie - MeleeWeapons - Perfect Shimmering Isparian Dagger (20936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20936;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20936, 'daggerisparianperfectprismaticmajor');
@@ -67474,6 +72151,9 @@ VALUES (20936, 0, 83893927, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20936, 0, 16787903);
 
+/* Weenie - MeleeWeapons - Lugian Mace (23760) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23760;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23760, 'lugianmacemid');
 
@@ -67512,6 +72192,9 @@ VALUES (23760, 13, True)
      , (23760, 14, True)
      , (23760, 19, True)
      , (23760, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Club (23752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23752, 'lugianclubmid');
@@ -67552,6 +72235,9 @@ VALUES (23752, 13, True)
      , (23752, 19, True)
      , (23752, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Hammer (23756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23756;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23756, 'lugianhammermid');
 
@@ -67591,6 +72277,9 @@ VALUES (23756, 13, True)
      , (23756, 19, True)
      , (23756, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Morning Star (23768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23768;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23768, 'lugianmorningstarmid');
 
@@ -67629,6 +72318,9 @@ VALUES (23768, 13, True)
      , (23768, 14, True)
      , (23768, 19, True)
      , (23768, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Morning Star (23764) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23764;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23764, 'lugianmorningstarhollowhigh');
@@ -67670,6 +72362,9 @@ VALUES (23764, 13, True)
      , (23764, 19, True)
      , (23764, 22, True);
 
+/* Weenie - MeleeWeapons - Lugian Morning Star (7579) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7579;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7579, 'lugianmorningstarhollow');
 
@@ -67709,6 +72404,9 @@ VALUES (7579, 13, True)
      , (7579, 14, True)
      , (7579, 19, True)
      , (7579, 22, True);
+
+/* Weenie - MeleeWeapons - Katar (47935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47935;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47935, 'ace47935-katar');
@@ -67758,6 +72456,9 @@ VALUES (47935, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47935, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Dastardly Dirk (25545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25545, 'dirkdastardly');
 
@@ -67792,6 +72493,9 @@ VALUES (25545, 13, True)
      , (25545, 14, True)
      , (25545, 19, True)
      , (25545, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Bandit Khanjar (3828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3828;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3828, 'khanjarfire');
@@ -67831,6 +72535,9 @@ VALUES (3828, 13, True)
      , (3828, 19, True)
      , (3828, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Bandit Dagger (3778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3778;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3778, 'daggeracid');
 
@@ -67865,6 +72572,9 @@ VALUES (3778, 13, True)
      , (3778, 14, True)
      , (3778, 19, True)
      , (3778, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Jo (3806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3806;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3806, 'joacid');
@@ -67904,6 +72614,9 @@ VALUES (3806, 13, True)
      , (3806, 14, True)
      , (3806, 19, True)
      , (3806, 22, True);
+
+/* Weenie - MeleeWeapons - Sacrificial Dagger (7447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7447;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7447, 'daggergalaeral');
@@ -67953,6 +72666,9 @@ VALUES (7447, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7447, 0, 16777927);
 
+/* Weenie - MeleeWeapons - Basalt Blade (12011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12011;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12011, 'nekodebasalt');
 
@@ -67986,6 +72702,9 @@ VALUES (12011, 13, True)
      , (12011, 14, True)
      , (12011, 19, True)
      , (12011, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Ono (3843) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3843;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3843, 'onoelectric');
@@ -68023,6 +72742,9 @@ VALUES (3843, 13, True)
      , (3843, 19, True)
      , (3843, 22, True);
 
+/* Weenie - MeleeWeapons - Virindi Scalpel (11007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11007;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11007, 'scalpelvirindi-xp');
 
@@ -68056,6 +72778,9 @@ VALUES (11007, 13, True)
      , (11007, 14, True)
      , (11007, 19, True)
      , (11007, 22, True);
+
+/* Weenie - MeleeWeapons - An Explorer Dagger (8694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8694;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8694, 'daggerrarenewbiequest');
@@ -68105,6 +72830,9 @@ VALUES (8694, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8694, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Crop (10994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10994;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10994, 'croptuperea-xp');
 
@@ -68139,6 +72867,9 @@ VALUES (10994, 13, True)
      , (10994, 14, True)
      , (10994, 19, True)
      , (10994, 22, True);
+
+/* Weenie - MeleeWeapons - Assassin's Simi (12195) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12195;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12195, 'simibanditzharalim');
@@ -68187,6 +72918,9 @@ VALUES (12195, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12195, 0, 16777945);
 
+/* Weenie - MeleeWeapons - Assassin's Acid Jambiya (12187) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12187;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12187, 'jambiyaacidbanditzharalim');
 
@@ -68222,6 +72956,9 @@ VALUES (12187, 13, True)
      , (12187, 14, True)
      , (12187, 19, True)
      , (12187, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Spear (47765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47765, 'ace47765-flamingspear');
@@ -68271,6 +73008,9 @@ VALUES (47765, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47765, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Flaming Nekode (48541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48541;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48541, 'ace48541-flamingnekode');
 
@@ -68308,6 +73048,9 @@ VALUES (48541, 13, True)
      , (48541, 19, True)
      , (48541, 22, True);
 
+/* Weenie - MeleeWeapons - Frost Yaoji (3912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3912;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3912, 'yaojifrost');
 
@@ -68343,6 +73086,9 @@ VALUES (3912, 13, True)
      , (3912, 14, True)
      , (3912, 19, True)
      , (3912, 22, True);
+
+/* Weenie - MeleeWeapons - A Society Dagger (8693) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8693;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8693, 'daggernewbiequest');
@@ -68392,6 +73138,9 @@ VALUES (8693, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8693, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Frost Khanjar (3829) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3829;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3829, 'khanjarfrost');
 
@@ -68433,6 +73182,9 @@ VALUES (3829, 13, True)
      , (3829, 19, True)
      , (3829, 22, True);
 
+/* Weenie - MeleeWeapons - Frost Jambiya (3797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3797;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3797, 'jambiyafrost');
 
@@ -68468,6 +73220,9 @@ VALUES (3797, 13, True)
      , (3797, 14, True)
      , (3797, 19, True)
      , (3797, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Shivering Atlan Claw (6172) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6172;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6172, 'clawbestshiveringmajor');
@@ -68513,6 +73268,9 @@ VALUES (6172, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6172, 0, 16783999);
 
+/* Weenie - MeleeWeapons - Lugian Mace (31251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31251, 'ace31251-lugianmace');
 
@@ -68553,6 +73311,9 @@ VALUES (31251, 13, True)
      , (31251, 19, True)
      , (31251, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Gearknight Greatsword (41250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41250;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41250, 'ace41250-acidgearknightgreatsword');
 
@@ -68587,6 +73348,9 @@ VALUES (41250, 13, True)
      , (41250, 14, True)
      , (41250, 19, True)
      , (41250, 22, True);
+
+/* Weenie - MeleeWeapons - Remoran Fist (21355) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21355;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21355, 'katarphantom');
@@ -68630,6 +73394,9 @@ VALUES (21355, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (21355, 67116737, 0, 0);
+
+/* Weenie - MeleeWeapons - Ancient Pyreal Dagger (6032) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6032;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6032, 'daggerancientpyreal');
@@ -68678,6 +73445,9 @@ VALUES (6032, 0, 83888778, 83888778)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6032, 0, 16777927);
+
+/* Weenie - MeleeWeapons - Rusted Battle Axe (23319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23319;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23319, 'axebattlerusted');
@@ -68729,6 +73499,9 @@ VALUES (23319, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23319, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Rusted Dirk (23320) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23320;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23320, 'dirkrusted');
 
@@ -68778,6 +73551,9 @@ VALUES (23320, 0, 83886739, 83886739)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23320, 0, 16788591);
 
+/* Weenie - MeleeWeapons - Seasoned Explorer Budiaq (45916) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45916;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45916, 'ace45916-seasonedexplorerbudiaq');
 
@@ -68824,6 +73600,9 @@ VALUES (45916, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45916, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Volkama's Okane of the Rivers (11420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11420;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11420, 'daggerokanerivers-xp');
@@ -68873,6 +73652,9 @@ VALUES (11420, 0, 83893670, 83893670)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11420, 0, 16787112);
 
+/* Weenie - MeleeWeapons - Starter Shou-ono (530) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 530;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (530, 'newbieshouono');
 
@@ -68906,6 +73688,9 @@ VALUES (530, 13, True)
      , (530, 14, True)
      , (530, 19, True)
      , (530, 22, True);
+
+/* Weenie - MeleeWeapons - Spine Axe (3705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3705;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3705, 'axespine');
@@ -68945,6 +73730,9 @@ VALUES (3705, 13, True)
      , (3705, 14, True)
      , (3705, 19, True)
      , (3705, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Hatchet (48984) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48984;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48984, 'ace48984-lightninghatchet');
@@ -68991,6 +73779,9 @@ VALUES (48984, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48984, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Training Mace (12744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12744;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12744, 'macetraining');
 
@@ -69035,6 +73826,9 @@ VALUES (12744, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12744, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Champion's Demise (45451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45451;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45451, 'ace45451-championsdemise');
@@ -69084,6 +73878,9 @@ VALUES (45451, 0, 83897096, 83897096);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45451, 0, 16792000);
 
+/* Weenie - MeleeWeapons - Enhanced Soul Staff (33944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33944, 'ace33944-enhancedsoulstaff');
 
@@ -69131,6 +73928,9 @@ VALUES (33944, 0, 83893792, 83893792)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33944, 0, 16787344);
 
+/* Weenie - MeleeWeapons - Enhanced Serpent's Fang (33942) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33942;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33942, 'ace33942-enhancedserpentsfang');
 
@@ -69165,6 +73965,9 @@ VALUES (33942, 13, True)
      , (33942, 14, True)
      , (33942, 19, True)
      , (33942, 22, True);
+
+/* Weenie - MeleeWeapons - Ultimate Singularity Greatsword (41890) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41890;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41890, 'ace41890-ultimatesingularitygreatsword');
@@ -69216,6 +74019,9 @@ VALUES (41890, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41890, 0, 16777880);
 
+/* Weenie - MeleeWeapons - Greatblade of the Quiddity (41794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41794;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41794, 'ace41794-greatbladeofthequiddity');
 
@@ -69256,6 +74062,9 @@ VALUES (41794, 13, True)
      , (41794, 15, True)
      , (41794, 19, True)
      , (41794, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Yari (23722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23722;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23722, 'yariacidmonsterhigh');
@@ -69304,6 +74113,9 @@ VALUES (23722, 0, 83886737, 83886737)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23722, 0, 16777983);
 
+/* Weenie - MeleeWeapons - Acid Spear (23688) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23688;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23688, 'spearacidmonsterhigh');
 
@@ -69350,6 +74162,9 @@ VALUES (23688, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23688, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Acid Yari (23721) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23721;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23721, 'yariacidmonsterextreme');
@@ -69398,6 +74213,9 @@ VALUES (23721, 0, 83886737, 83886737)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23721, 0, 16777983);
 
+/* Weenie - MeleeWeapons - Yari (23730) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23730;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23730, 'yarimonsterhigh');
 
@@ -69443,6 +74261,9 @@ VALUES (23730, 0, 83886737, 83886737)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23730, 0, 16777983);
+
+/* Weenie - MeleeWeapons - Frost Tachi (47691) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47691;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47691, 'ace47691-frosttachi');
@@ -69493,6 +74314,9 @@ VALUES (47691, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47691, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Icy Club (48589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48589;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48589, 'ace48589-icyclub');
 
@@ -69525,6 +74349,9 @@ VALUES (48589, 13, True)
      , (48589, 14, True)
      , (48589, 19, True)
      , (48589, 22, True);
+
+/* Weenie - MeleeWeapons - Frigid Splinter (48592) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48592;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48592, 'ace48592-frigidsplinter');
@@ -69561,6 +74388,9 @@ VALUES (48592, 13, True)
      , (48592, 19, True)
      , (48592, 22, True);
 
+/* Weenie - MeleeWeapons - Glacial Blade (48593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48593, 'ace48593-glacialblade');
 
@@ -69596,6 +74426,9 @@ VALUES (48593, 13, True)
      , (48593, 19, True)
      , (48593, 22, True);
 
+/* Weenie - MeleeWeapons - Icy Club (48594) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48594;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48594, 'ace48594-icyclub');
 
@@ -69628,6 +74461,9 @@ VALUES (48594, 13, True)
      , (48594, 14, True)
      , (48594, 19, True)
      , (48594, 22, True);
+
+/* Weenie - MeleeWeapons - Frozen Dagger (48595) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48595;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48595, 'ace48595-frozendagger');
@@ -69664,6 +74500,9 @@ VALUES (48595, 13, True)
      , (48595, 19, True)
      , (48595, 22, True);
 
+/* Weenie - MeleeWeapons - Frigid Splinter (48597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48597;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48597, 'ace48597-frigidsplinter');
 
@@ -69698,6 +74537,9 @@ VALUES (48597, 13, True)
      , (48597, 14, True)
      , (48597, 19, True)
      , (48597, 22, True);
+
+/* Weenie - MeleeWeapons - Bonecrunch's Hammer (35598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35598;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35598, 'ace35598-bonecrunchshammer');
@@ -69738,6 +74580,9 @@ VALUES (35598, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35598, 67111921, 0, 0);
 
+/* Weenie - MeleeWeapons - Noble Stilleto (28493) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28493;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28493, 'dirknoble');
 
@@ -69772,6 +74617,9 @@ VALUES (28493, 13, True)
      , (28493, 14, True)
      , (28493, 19, True)
      , (28493, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Hatchet (48992) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48992;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48992, 'ace48992-frosthatchet');
@@ -69817,6 +74665,9 @@ VALUES (48992, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48992, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Palenqual's Ukira of the Vortex (27361) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27361;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27361, 'swordukiravortex');
@@ -69864,6 +74715,9 @@ VALUES (27361, 0, 83893670, 83893670)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27361, 0, 16790071);
 
+/* Weenie - MeleeWeapons - Blackfire Dissolving Isparian Staff (46257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46257;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46257, 'ace46257-blackfiredissolvingisparianstaff');
 
@@ -69909,6 +74763,9 @@ VALUES (46257, 0, 83889237, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46257, 0, 16783994);
+
+/* Weenie - MeleeWeapons - Singularity Axe (41879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41879;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41879, 'ace41879-singularityaxe');
@@ -69958,6 +74815,9 @@ VALUES (41879, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41879, 0, 16777886);
 
+/* Weenie - MeleeWeapons - An Explorer Sword (8744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8744;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8744, 'kenrarenewbiequest');
 
@@ -70000,6 +74860,9 @@ VALUES (8744, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8744, 67111920, 0, 0);
 
+/* Weenie - MeleeWeapons - Baton of Tirethas (45446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45446, 'ace45446-batonoftirethas');
 
@@ -70036,6 +74899,9 @@ VALUES (45446, 13, True)
      , (45446, 19, True)
      , (45446, 22, True)
      , (45446, 91, True);
+
+/* Weenie - MeleeWeapons - Purified Mouryou Katana (46828) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46828;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46828, 'ace46828-purifiedmouryoukatana');
@@ -70076,6 +74942,9 @@ VALUES (46828, 13, True)
      , (46828, 22, True)
      , (46828, 91, True);
 
+/* Weenie - MeleeWeapons - Channeling Guruk Fist (34998) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34998;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34998, 'ace34998-channelinggurukfist');
 
@@ -70115,6 +74984,9 @@ VALUES (34998, 13, True)
      , (34998, 14, True)
      , (34998, 19, True)
      , (34998, 22, True);
+
+/* Weenie - MeleeWeapons - Amateur Explorer Nekode (45922) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45922;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45922, 'ace45922-amateurexplorernekode');
@@ -70162,6 +75034,9 @@ VALUES (45922, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45922, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Amateur Explorer Bastone (45918) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45918;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45918, 'ace45918-amateurexplorerbastone');
 
@@ -70206,6 +75081,9 @@ VALUES (45918, 0, 83897173, 83897173);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45918, 0, 16792138);
+
+/* Weenie - MeleeWeapons - Defiler of Milantos (45462) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45462;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45462, 'ace45462-defilerofmilantos');
@@ -70255,6 +75133,9 @@ VALUES (45462, 0, 83897106, 83897106);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45462, 0, 16792010);
 
+/* Weenie - MeleeWeapons - Korua (27370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27370;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27370, 'cestuskorua');
 
@@ -70296,6 +75177,9 @@ VALUES (27370, 0, 83893670, 83893699)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27370, 0, 16790095);
+
+/* Weenie - MeleeWeapons - Shadowfire Isparian Spear (46392) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46392;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46392, 'ace46392-shadowfireisparianspear');
@@ -70346,6 +75230,9 @@ VALUES (46392, 0, 83889235, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46392, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Deadly Hollow Axe (15447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15447;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15447, 'axebattlehollownew');
 
@@ -70388,6 +75275,9 @@ VALUES (15447, 13, True)
      , (15447, 19, True)
      , (15447, 22, True);
 
+/* Weenie - MeleeWeapons - Count Renari's Equalizer (45438) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45438;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45438, 'ace45438-countrenarisequalizer');
 
@@ -70427,6 +75317,9 @@ VALUES (45438, 13, True)
      , (45438, 14, True)
      , (45438, 19, True)
      , (45438, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Shivering Atlan Sword (6292) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6292;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6292, 'swordbestshiveringmajor');
@@ -70471,6 +75364,9 @@ VALUES (6292, 67111919, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6292, 0, 16783995);
+
+/* Weenie - MeleeWeapons - Academy Spear (45544) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45544;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45544, 'ace45544-academyspear');
@@ -70519,6 +75415,9 @@ VALUES (45544, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45544, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Iasparailaun (22246) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22246;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22246, 'swordempyreangaerlanlow-creatureonly');
 
@@ -70558,6 +75457,9 @@ VALUES (22246, 13, True)
      , (22246, 14, True)
      , (22246, 19, True)
      , (22246, 22, True);
+
+/* Weenie - MeleeWeapons - Moriharu's Kitchen Knife (45442) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45442;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45442, 'ace45442-moriharuskitchenknife');
@@ -70603,6 +75505,9 @@ VALUES (45442, 0, 83897094, 83897094);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45442, 0, 16791998);
+
+/* Weenie - MeleeWeapons - Shimmering Isparian Two Handed Sword (46203) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46203;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46203, 'ace46203-shimmeringispariantwohandedsword');
@@ -70651,6 +75556,9 @@ VALUES (46203, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46203, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Lightning Hatchet (48980) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48980;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48980, 'ace48980-lightninghatchet');
 
@@ -70695,6 +75603,9 @@ VALUES (48980, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48980, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Seasoned Explorer Stick (45932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45932;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45932, 'ace45932-seasonedexplorerstick');
@@ -70745,6 +75656,9 @@ VALUES (45932, 0, 83897334, 83897334);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45932, 0, 16792611);
 
+/* Weenie - MeleeWeapons - Fist of Enlightenment (40326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40326, 'ace40326-fistofenlightenment');
 
@@ -70793,6 +75707,9 @@ VALUES (40326, 0, 83896019, 83896019);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40326, 0, 16792139);
+
+/* Weenie - MeleeWeapons - Hamud's Pyreal Katar (23528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23528;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23528, 'katarhamudspyrealnew');
@@ -70844,6 +75761,9 @@ VALUES (23528, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23528, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Cyphis Suldow's Half Moon Spear (30634) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30634;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30634, 'spearhalfmoon');
 
@@ -70880,6 +75800,9 @@ VALUES (30634, 13, True)
      , (30634, 14, True)
      , (30634, 19, True)
      , (30634, 22, True);
+
+/* Weenie - MeleeWeapons - Royal Runed Two Handed Corsesca (41085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41085;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41085, 'ace41085-royalrunedtwohandedcorsesca');
@@ -70926,6 +75849,9 @@ VALUES (41085, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41085, 0, 16794281);
 
+/* Weenie - MeleeWeapons - Princely Runed Two Handed Corsesca (41084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41084;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41084, 'ace41084-princelyrunedtwohandedcorsesca');
 
@@ -70970,6 +75896,9 @@ VALUES (41084, 0, 83896667, 83896667);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41084, 0, 16794281);
+
+/* Weenie - MeleeWeapons - Major Stinging Atlan Sword (46099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46099;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46099, 'ace46099-majorstingingatlansword');
@@ -71021,6 +75950,9 @@ VALUES (46099, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46099, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Frost Hatchet (48994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48994;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48994, 'ace48994-frosthatchet');
 
@@ -71065,6 +75997,9 @@ VALUES (48994, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48994, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Frost Hatchet (48995) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48995;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48995, 'ace48995-frosthatchet');
@@ -71111,6 +76046,9 @@ VALUES (48995, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48995, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Acid Hatchet (49001) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49001;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49001, 'ace49001-acidhatchet');
 
@@ -71155,6 +76093,9 @@ VALUES (49001, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49001, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Electric Weeping Claw (25612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25612;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25612, 'clawweepingelectric');
@@ -71202,6 +76143,9 @@ VALUES (25612, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25612, 0, 16789573);
 
+/* Weenie - MeleeWeapons - Fetid Dirk (23536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23536;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23536, 'dirkreedsharkboss');
 
@@ -71236,6 +76180,9 @@ VALUES (23536, 13, True)
      , (23536, 14, True)
      , (23536, 19, True)
      , (23536, 22, True);
+
+/* Weenie - MeleeWeapons - Lifeless Knuckles (31506) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31506;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31506, 'ace31506-lifelessknuckles');
@@ -71273,6 +76220,9 @@ VALUES (31506, 13, True)
      , (31506, 14, True)
      , (31506, 19, True)
      , (31506, 22, True);
+
+/* Weenie - MeleeWeapons - Sterile Sword (30679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30679;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30679, 'swordsterile');
@@ -71312,6 +76262,9 @@ VALUES (30679, 13, True)
      , (30679, 19, True)
      , (30679, 22, True);
 
+/* Weenie - MeleeWeapons - Thorn Dagger (52635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52635;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52635, 'ace52635-thorndagger');
 
@@ -71347,6 +76300,9 @@ VALUES (52635, 13, True)
      , (52635, 14, True)
      , (52635, 19, True)
      , (52635, 22, True);
+
+/* Weenie - MeleeWeapons - Thorn Dagger (52636) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52636;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52636, 'ace52636-thorndagger');
@@ -71385,6 +76341,9 @@ VALUES (52636, 13, True)
      , (52636, 22, True)
      , (52636, 130, True);
 
+/* Weenie - MeleeWeapons - A'nekshen Stormwood Sword (52631) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52631;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52631, 'ace52631-anekshenstormwoodsword');
 
@@ -71421,6 +76380,9 @@ VALUES (52631, 13, True)
      , (52631, 14, True)
      , (52631, 19, True)
      , (52631, 22, True);
+
+/* Weenie - MeleeWeapons - Blessed Spear of the Mosswart Gods (35615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35615;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35615, 'ace35615-blessedspearofthemosswartgods');
@@ -71464,6 +76426,9 @@ VALUES (35615, 67111921, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35615, 0, 16785391);
 
+/* Weenie - MeleeWeapons - BloodScorch (35394) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35394;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35394, 'ace35394-bloodscorch');
 
@@ -71499,6 +76464,9 @@ VALUES (35394, 13, True)
      , (35394, 15, True)
      , (35394, 19, True)
      , (35394, 22, True);
+
+/* Weenie - MeleeWeapons - Nekode (48056) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48056;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48056, 'ace48056-nekode');
@@ -71548,6 +76516,9 @@ VALUES (48056, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48056, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Lightning Ono (48064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48064;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48064, 'ace48064-lightningono');
 
@@ -71585,6 +76556,9 @@ VALUES (48064, 13, True)
      , (48064, 19, True)
      , (48064, 22, True);
 
+/* Weenie - MeleeWeapons - Blade of Phainor (48770) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48770;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48770, 'ace48770-bladeofphainor');
 
@@ -71619,6 +76593,9 @@ VALUES (48770, 13, True)
      , (48770, 14, True)
      , (48770, 19, True)
      , (48770, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Hand Axe (3757) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3757;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3757, 'axehandfrost');
@@ -71658,6 +76635,9 @@ VALUES (3757, 13, True)
      , (3757, 14, True)
      , (3757, 19, True)
      , (3757, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Hatchet (48981) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48981;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48981, 'ace48981-lightninghatchet');
@@ -71704,6 +76684,9 @@ VALUES (48981, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48981, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Icy Club (48599) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48599;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48599, 'ace48599-icyclub');
 
@@ -71736,6 +76719,9 @@ VALUES (48599, 13, True)
      , (48599, 14, True)
      , (48599, 19, True)
      , (48599, 22, True);
+
+/* Weenie - MeleeWeapons - Frigid Splinter (48602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48602;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48602, 'ace48602-frigidsplinter');
@@ -71772,6 +76758,9 @@ VALUES (48602, 13, True)
      , (48602, 19, True)
      , (48602, 22, True);
 
+/* Weenie - MeleeWeapons - Glacial Blade (48603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48603;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48603, 'ace48603-glacialblade');
 
@@ -71806,6 +76795,9 @@ VALUES (48603, 13, True)
      , (48603, 14, True)
      , (48603, 19, True)
      , (48603, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Mace (51910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51910;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51910, 'ace51910-lugianmace');
@@ -71847,6 +76839,9 @@ VALUES (51910, 13, True)
      , (51910, 19, True)
      , (51910, 22, True);
 
+/* Weenie - MeleeWeapons - Keeson's Mace (51898) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51898;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51898, 'ace51898-keesonsmace');
 
@@ -71886,6 +76881,9 @@ VALUES (51898, 13, True)
      , (51898, 19, True)
      , (51898, 22, True);
 
+/* Weenie - MeleeWeapons - Electric Gearknight Greatsword (51384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51384;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (51384, 'ace51384-electricgearknightgreatsword');
 
@@ -71920,6 +76918,9 @@ VALUES (51384, 13, True)
      , (51384, 14, True)
      , (51384, 19, True)
      , (51384, 22, True);
+
+/* Weenie - MeleeWeapons - Tachi (46695) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46695;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46695, 'ace46695-tachi');
@@ -71968,6 +76969,9 @@ VALUES (46695, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46695, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Nekode (46703) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46703;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46703, 'ace46703-acidnekode');
 
@@ -72005,6 +77009,9 @@ VALUES (46703, 13, True)
      , (46703, 14, True)
      , (46703, 19, True)
      , (46703, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Sabra (30567) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30567;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30567, 'swordsabraelectric');
@@ -72055,6 +77062,9 @@ VALUES (30567, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30567, 0, 16791843);
 
+/* Weenie - MeleeWeapons - Ebon Spine Harpoon (10995) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10995;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10995, 'ebonharpoonspearfake-xp');
 
@@ -72090,6 +77100,9 @@ VALUES (10995, 13, True)
      , (10995, 14, True)
      , (10995, 19, True)
      , (10995, 22, True);
+
+/* Weenie - MeleeWeapons - Club (23648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23648;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23648, 'clubbanderlingfrostmid');
@@ -72128,6 +77141,9 @@ VALUES (23648, 13, True)
      , (23648, 14, True)
      , (23648, 19, True)
      , (23648, 22, True);
+
+/* Weenie - MeleeWeapons - Singularity Greatsword (41789) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41789;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41789, 'ace41789-singularitygreatsword');
@@ -72177,6 +77193,9 @@ VALUES (41789, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41789, 0, 16777880);
 
+/* Weenie - MeleeWeapons - Blackfire Shimmering Isparian Two Handed Sword (46211) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46211;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46211, 'ace46211-blackfireshimmeringispariantwohandedsword');
 
@@ -72222,6 +77241,9 @@ VALUES (46211, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46211, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Shimmering Isparian Staff (46214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46214;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46214, 'ace46214-shimmeringisparianstaff');
 
@@ -72263,6 +77285,9 @@ VALUES (46214, 0, 83889237, 83892492)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46214, 0, 16783994);
+
+/* Weenie - MeleeWeapons - Blackfire Shimmering Isparian Staff (46213) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46213;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46213, 'ace46213-blackfireshimmeringisparianstaff');
@@ -72306,6 +77331,9 @@ VALUES (46213, 0, 83889237, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46213, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Sword of Lost Light (24610) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24610;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24610, 'swordlostlightrednew');
 
@@ -72344,6 +77372,9 @@ VALUES (24610, 13, True)
      , (24610, 19, True)
      , (24610, 22, True);
 
+/* Weenie - MeleeWeapons - Sword of Lost Light (24613) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24613;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24613, 'swordlostlightwhiterednew');
 
@@ -72381,6 +77412,9 @@ VALUES (24613, 13, True)
      , (24613, 14, True)
      , (24613, 19, True)
      , (24613, 22, True);
+
+/* Weenie - MeleeWeapons - Bloodletting Dagger (46389) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46389;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46389, 'ace46389-bloodlettingdagger');
@@ -72435,6 +77469,9 @@ VALUES (46389, 0, 83895111, 83895111)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46389, 0, 16789940);
 
+/* Weenie - MeleeWeapons - Spectral Lightning Nekode (46369) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46369;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46369, 'ace46369-spectrallightningnekode');
 
@@ -72473,6 +77510,9 @@ VALUES (46369, 13, True)
      , (46369, 19, True)
      , (46369, 22, True);
 
+/* Weenie - MeleeWeapons - Spectral Flaming Nekode (46370) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46370;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46370, 'ace46370-spectralflamingnekode');
 
@@ -72510,6 +77550,9 @@ VALUES (46370, 13, True)
      , (46370, 14, True)
      , (46370, 19, True)
      , (46370, 22, True);
+
+/* Weenie - MeleeWeapons - Spectral Tachi (46372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46372;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46372, 'ace46372-spectraltachi');
@@ -72561,6 +77604,9 @@ VALUES (46372, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46372, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Spectral Acid Nekode (46368) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46368;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46368, 'ace46368-spectralacidnekode');
 
@@ -72598,6 +77644,9 @@ VALUES (46368, 13, True)
      , (46368, 14, True)
      , (46368, 19, True)
      , (46368, 22, True);
+
+/* Weenie - MeleeWeapons - Spectral Nekode (46375) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46375;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46375, 'ace46375-spectralnekode');
@@ -72650,6 +77699,9 @@ VALUES (46375, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46375, 0, 16783509);
 
+/* Weenie - MeleeWeapons - Spectral Nekode (46374) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46374;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46374, 'ace46374-spectralnekode');
 
@@ -72699,6 +77751,9 @@ VALUES (46374, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46374, 0, 16783509);
+
+/* Weenie - MeleeWeapons - Spectral Frost Tachi (46367) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46367;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46367, 'ace46367-spectralfrosttachi');
@@ -72750,6 +77805,9 @@ VALUES (46367, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46367, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Spectral Flaming Nodachi (46647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46647;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46647, 'ace46647-spectralflamingnodachi');
 
@@ -72799,6 +77857,9 @@ VALUES (46647, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46647, 0, 16794261);
 
+/* Weenie - MeleeWeapons - Spectral Frost Nekode (46371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46371;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46371, 'ace46371-spectralfrostnekode');
 
@@ -72836,6 +77897,9 @@ VALUES (46371, 13, True)
      , (46371, 14, True)
      , (46371, 19, True)
      , (46371, 22, True);
+
+/* Weenie - MeleeWeapons - Spectral Frost Nodachi (46387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46387;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46387, 'ace46387-spectralfrostnodachi');
@@ -72885,6 +77949,9 @@ VALUES (46387, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46387, 0, 16794261);
+
+/* Weenie - MeleeWeapons - Tetsubo (46604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46604;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46604, 'ace46604-tetsubo');
@@ -72936,6 +78003,9 @@ VALUES (46604, 0, 83897334, 83897334)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46604, 0, 16794240);
 
+/* Weenie - MeleeWeapons - Magari Yari (46605) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46605;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46605, 'ace46605-magariyari');
 
@@ -72984,6 +78054,9 @@ VALUES (46605, 0, 83896665, 83896665)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46605, 0, 16794282);
+
+/* Weenie - MeleeWeapons - Spectral Acid Tachi (46364) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46364;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46364, 'ace46364-spectralacidtachi');
@@ -73035,6 +78108,9 @@ VALUES (46364, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46364, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Fire-hardened Clay Nodachi (46606) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46606;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46606, 'ace46606-firehardenedclaynodachi');
 
@@ -73084,6 +78160,9 @@ VALUES (46606, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46606, 0, 16794261);
+
+/* Weenie - MeleeWeapons - Spectral Fire Tachi (46366) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46366;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46366, 'ace46366-spectralfiretachi');
@@ -73135,6 +78214,9 @@ VALUES (46366, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46366, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Spectral Lightning Nodachi (46648) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46648;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46648, 'ace46648-spectrallightningnodachi');
 
@@ -73183,6 +78265,9 @@ VALUES (46648, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46648, 0, 16794261);
+
+/* Weenie - MeleeWeapons - Spectral Lightning Tachi (46365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46365;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46365, 'ace46365-spectrallightningtachi');
@@ -73233,6 +78318,9 @@ VALUES (46365, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46365, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Spectral Tachi (46373) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46373;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46373, 'ace46373-spectraltachi');
@@ -73285,6 +78373,9 @@ VALUES (46373, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46373, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Spectral Acid Nodachi (46646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46646;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46646, 'ace46646-spectralacidnodachi');
 
@@ -73333,6 +78424,9 @@ VALUES (46646, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46646, 0, 16794261);
+
+/* Weenie - MeleeWeapons - Bloodletting Dagger (46711) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46711;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46711, 'ace46711-bloodlettingdagger');
@@ -73387,6 +78481,9 @@ VALUES (46711, 0, 83895111, 83895111)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46711, 0, 16789940);
 
+/* Weenie - MeleeWeapons - Spectral Frost Nekode (46713) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46713;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46713, 'ace46713-spectralfrostnekode');
 
@@ -73424,6 +78521,9 @@ VALUES (46713, 13, True)
      , (46713, 14, True)
      , (46713, 19, True)
      , (46713, 22, True);
+
+/* Weenie - MeleeWeapons - Spectral Frost Nodachi (46712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46712;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46712, 'ace46712-spectralfrostnodachi');
@@ -73474,6 +78574,9 @@ VALUES (46712, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46712, 0, 16794261);
 
+/* Weenie - MeleeWeapons - Enhanced Smoldering Atlan Sword (46102) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46102;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46102, 'ace46102-enhancedsmolderingatlansword');
 
@@ -73523,6 +78626,9 @@ VALUES (46102, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46102, 0, 16783995);
+
+/* Weenie - MeleeWeapons - Renegade Tewhate of the Mountains (40371) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40371;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40371, 'ace40371-renegadetewhateofthemountains');
@@ -73575,6 +78681,9 @@ VALUES (40371, 0, 83893670, 83893668)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40371, 0, 16787109);
 
+/* Weenie - MeleeWeapons - Renegade Waaika of the Forests (40388) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40388;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40388, 'ace40388-renegadewaaikaoftheforests');
 
@@ -73624,6 +78733,9 @@ VALUES (40388, 0, 83893670, 83893669)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40388, 0, 16787115);
 
+/* Weenie - MeleeWeapons - Hammer of Discipline (31838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31838;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31838, 'ace31838-hammerofdiscipline');
 
@@ -73657,6 +78769,9 @@ VALUES (31838, 13, True)
      , (31838, 14, True)
      , (31838, 19, True)
      , (31838, 22, True);
+
+/* Weenie - MeleeWeapons - Gearknight Sword (41240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41240;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41240, 'ace41240-gearknightsword');
@@ -73693,6 +78808,9 @@ VALUES (41240, 13, True)
      , (41240, 19, True)
      , (41240, 22, True);
 
+/* Weenie - MeleeWeapons - Gearknight Greatsword (41244) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41244;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41244, 'ace41244-gearknightgreatsword');
 
@@ -73726,6 +78844,9 @@ VALUES (41244, 13, True)
      , (41244, 14, True)
      , (41244, 19, True)
      , (41244, 22, True);
+
+/* Weenie - MeleeWeapons - Stone Mace (26047) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26047;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26047, 'maceburunstoneuber');
@@ -73766,6 +78887,9 @@ VALUES (26047, 13, True)
      , (26047, 19, True)
      , (26047, 22, True);
 
+/* Weenie - MeleeWeapons - Stone Axe (26026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26026;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26026, 'axeburunstoneuber');
 
@@ -73802,6 +78926,9 @@ VALUES (26026, 13, True)
      , (26026, 19, True)
      , (26026, 22, True);
 
+/* Weenie - MeleeWeapons - Stone Spear (27126) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27126;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27126, 'spearburunstoneuber');
 
@@ -73836,6 +78963,9 @@ VALUES (27126, 13, True)
      , (27126, 14, True)
      , (27126, 19, True)
      , (27126, 22, True);
+
+/* Weenie - MeleeWeapons - Bone Dagger (27123) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27123;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27123, 'dirkburunboneuber');
@@ -73872,6 +79002,9 @@ VALUES (27123, 13, True)
      , (27123, 19, True)
      , (27123, 22, True);
 
+/* Weenie - MeleeWeapons - Bone Sword (27127) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27127;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27127, 'swordburunboneuber');
 
@@ -73906,6 +79039,9 @@ VALUES (27127, 13, True)
      , (27127, 14, True)
      , (27127, 19, True)
      , (27127, 22, True);
+
+/* Weenie - MeleeWeapons - Bone Sword (27880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27880;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27880, 'swordgurukbone4');
@@ -73946,6 +79082,9 @@ VALUES (27880, 13, True)
      , (27880, 19, True)
      , (27880, 22, True);
 
+/* Weenie - MeleeWeapons - Tree Trunk (27872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27872;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27872, 'maceguruktree4');
 
@@ -73984,6 +79123,9 @@ VALUES (27872, 13, True)
      , (27872, 14, True)
      , (27872, 19, True)
      , (27872, 22, True);
+
+/* Weenie - MeleeWeapons - Stone Axe (27868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27868;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27868, 'axegurukstone4');
@@ -74024,6 +79166,9 @@ VALUES (27868, 13, True)
      , (27868, 19, True)
      , (27868, 22, True);
 
+/* Weenie - MeleeWeapons - Noble War Maul (28490) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28490;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28490, 'axenoble');
 
@@ -74063,6 +79208,9 @@ VALUES (28490, 13, True)
      , (28490, 19, True)
      , (28490, 22, True);
 
+/* Weenie - MeleeWeapons - Noble Katar (28494) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28494;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28494, 'katarnoble');
 
@@ -74097,6 +79245,9 @@ VALUES (28494, 13, True)
      , (28494, 14, True)
      , (28494, 19, True)
      , (28494, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Nekode (48542) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48542;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48542, 'ace48542-flamingnekode');
@@ -74134,6 +79285,9 @@ VALUES (48542, 13, True)
      , (48542, 14, True)
      , (48542, 19, True)
      , (48542, 22, True);
+
+/* Weenie - MeleeWeapons - Burun Slaying War Maul (28988) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28988;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28988, 'axenobleburun');
@@ -74174,6 +79328,9 @@ VALUES (28988, 13, True)
      , (28988, 19, True)
      , (28988, 22, True);
 
+/* Weenie - MeleeWeapons - Sickle (48105) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48105;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48105, 'ace48105-sickle');
 
@@ -74209,6 +79366,9 @@ VALUES (48105, 13, True)
      , (48105, 14, True)
      , (48105, 19, True)
      , (48105, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47679;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47679, 'ace47679-flamingtachi');
@@ -74259,6 +79419,9 @@ VALUES (47679, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47679, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Tachi (47661) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47661;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47661, 'ace47661-lightningtachi');
 
@@ -74308,6 +79471,9 @@ VALUES (47661, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47661, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Khopesh (48104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48104;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48104, 'ace48104-khopesh');
 
@@ -74343,6 +79509,9 @@ VALUES (48104, 13, True)
      , (48104, 14, True)
      , (48104, 19, True)
      , (48104, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Spear (47774) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47774;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47774, 'ace47774-flamingspear');
@@ -74392,6 +79561,9 @@ VALUES (47774, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47774, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Guruk Fist (34584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34584;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34584, 'ace34584-gurukfist');
 
@@ -74429,6 +79601,9 @@ VALUES (34584, 13, True)
      , (34584, 19, True)
      , (34584, 22, True);
 
+/* Weenie - MeleeWeapons - Bone Sword (34590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34590, 'ace34590-bonesword');
 
@@ -74462,6 +79637,9 @@ VALUES (34590, 13, True)
      , (34590, 14, True)
      , (34590, 19, True)
      , (34590, 22, True);
+
+/* Weenie - MeleeWeapons - Repugnant Melee Staff (34589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34589;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34589, 'ace34589-repugnantmeleestaff');
@@ -74500,6 +79678,9 @@ VALUES (34589, 13, True)
      , (34589, 19, True)
      , (34589, 22, True);
 
+/* Weenie - MeleeWeapons - Stone Mace (34586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34586;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34586, 'ace34586-stonemace');
 
@@ -74533,6 +79714,9 @@ VALUES (34586, 13, True)
      , (34586, 14, True)
      , (34586, 19, True)
      , (34586, 22, True);
+
+/* Weenie - MeleeWeapons - Stone Axe (34580) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34580;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34580, 'ace34580-stoneaxe');
@@ -74571,6 +79755,9 @@ VALUES (34580, 13, True)
      , (34580, 14, True)
      , (34580, 19, True)
      , (34580, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Spear (47755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47755;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47755, 'ace47755-lightningspear');
@@ -74620,6 +79807,9 @@ VALUES (47755, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47755, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Khopesh (48096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48096, 'ace48096-khopesh');
 
@@ -74656,6 +79846,9 @@ VALUES (48096, 13, True)
      , (48096, 19, True)
      , (48096, 22, True);
 
+/* Weenie - MeleeWeapons - Sickle (48097) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48097;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48097, 'ace48097-sickle');
 
@@ -74691,6 +79884,9 @@ VALUES (48097, 13, True)
      , (48097, 14, True)
      , (48097, 19, True)
      , (48097, 22, True);
+
+/* Weenie - MeleeWeapons - Spear (47738) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47738;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47738, 'ace47738-spear');
@@ -74738,6 +79934,9 @@ VALUES (47738, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47738, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Lightning Tachi (47663) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47663;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47663, 'ace47663-lightningtachi');
@@ -74788,6 +79987,9 @@ VALUES (47663, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47663, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Spear (47734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47734;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47734, 'ace47734-spear');
 
@@ -74835,6 +80037,9 @@ VALUES (47734, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47734, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Flaming Nekode (48543) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48543;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48543, 'ace48543-flamingnekode');
 
@@ -74871,6 +80076,9 @@ VALUES (48543, 13, True)
      , (48543, 14, True)
      , (48543, 19, True)
      , (48543, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Spear (47753) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47753;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47753, 'ace47753-lightningspear');
@@ -74920,6 +80128,9 @@ VALUES (47753, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47753, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Flaming Spear (47772) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47772;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47772, 'ace47772-flamingspear');
 
@@ -74967,6 +80178,9 @@ VALUES (47772, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47772, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Renegade Hoeroa of the Mountains (40407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40407;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40407, 'ace40407-renegadehoeroaofthemountains');
@@ -75016,6 +80230,9 @@ VALUES (40407, 0, 83893670, 83893668)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40407, 0, 16787122);
 
+/* Weenie - MeleeWeapons - Flaming Nekode (48545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48545;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48545, 'ace48545-flamingnekode');
 
@@ -75053,6 +80270,9 @@ VALUES (48545, 13, True)
      , (48545, 19, True)
      , (48545, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Nekode (48547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48547, 'ace48547-flamingnekode');
 
@@ -75089,6 +80309,9 @@ VALUES (48547, 13, True)
      , (48547, 14, True)
      , (48547, 19, True)
      , (48547, 22, True);
+
+/* Weenie - MeleeWeapons - Soul Bound Axe (45523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45523;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45523, 'ace45523-soulboundaxe');
@@ -75141,6 +80364,9 @@ VALUES (45523, 0, 83889238, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45523, 0, 16783998);
 
+/* Weenie - MeleeWeapons - Quadrelle (29967) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29967;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29967, 'maceknightlow');
 
@@ -75186,6 +80412,9 @@ VALUES (29967, 0, 83898004, 83898004);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29967, 0, 16791977);
 
+/* Weenie - MeleeWeapons - Spadone (29977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29977;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29977, 'swordknightlow');
 
@@ -75230,6 +80459,9 @@ VALUES (29977, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29977, 0, 16791762);
 
+/* Weenie - MeleeWeapons - Partizan (29972) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29972;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29972, 'spearknightlow');
 
@@ -75263,6 +80495,9 @@ VALUES (29972, 13, True)
      , (29972, 14, True)
      , (29972, 19, True)
      , (29972, 22, True);
+
+/* Weenie - MeleeWeapons - Glacial Blade (48598) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48598;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48598, 'ace48598-glacialblade');
@@ -75299,6 +80534,9 @@ VALUES (48598, 13, True)
      , (48598, 19, True)
      , (48598, 22, True);
 
+/* Weenie - MeleeWeapons - Mace of the Quiddity (11908) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11908;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11908, 'tumerokmaceshreth-creatureonly');
 
@@ -75334,6 +80572,9 @@ VALUES (11908, 13, True)
      , (11908, 15, True)
      , (11908, 19, True)
      , (11908, 22, True);
+
+/* Weenie - MeleeWeapons - Assassin's Edge (40630) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40630;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40630, 'ace40630-assassinsedge');
@@ -75381,6 +80622,9 @@ VALUES (40630, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40630, 0, 16792136);
 
+/* Weenie - MeleeWeapons - Fire Gearknight Greatsword (41252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41252;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41252, 'ace41252-firegearknightgreatsword');
 
@@ -75415,6 +80659,9 @@ VALUES (41252, 13, True)
      , (41252, 14, True)
      , (41252, 19, True)
      , (41252, 22, True);
+
+/* Weenie - MeleeWeapons - Training Bastone (45549) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45549;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45549, 'ace45549-trainingbastone');
@@ -75463,6 +80710,9 @@ VALUES (45549, 0, 83897173, 83897173);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45549, 0, 16792138);
 
+/* Weenie - MeleeWeapons - Flaming Hatchet (48986) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48986;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48986, 'ace48986-flaminghatchet');
 
@@ -75508,6 +80758,9 @@ VALUES (48986, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48986, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Assassin's Acid Simi (12194) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12194;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12194, 'simiacidbanditzharalim');
 
@@ -75543,6 +80796,9 @@ VALUES (12194, 13, True)
      , (12194, 14, True)
      , (12194, 19, True)
      , (12194, 22, True);
+
+/* Weenie - MeleeWeapons - Assassin's Frost Jambiya (12191) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12191;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12191, 'jambiyafrostbanditzharalim');
@@ -75580,6 +80836,9 @@ VALUES (12191, 13, True)
      , (12191, 19, True)
      , (12191, 22, True);
 
+/* Weenie - MeleeWeapons - Starter Spear (534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 534;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (534, 'newbiespear');
 
@@ -75616,6 +80875,9 @@ VALUES (534, 13, True)
      , (534, 14, True)
      , (534, 19, True)
      , (534, 22, True);
+
+/* Weenie - MeleeWeapons - Academy Trident (12756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12756;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12756, 'spearacademy');
@@ -75664,6 +80926,9 @@ VALUES (12756, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12756, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Acid Nabut (3838) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3838;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3838, 'nabutacid');
 
@@ -75704,6 +80969,9 @@ VALUES (3838, 13, True)
      , (3838, 14, True)
      , (3838, 19, True)
      , (3838, 22, True);
+
+/* Weenie - MeleeWeapons - Sabra (38934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38934;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38934, 'ace38934-sabra');
@@ -75750,6 +81018,9 @@ VALUES (38934, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38934, 0, 16791843);
 
+/* Weenie - MeleeWeapons - Lightning Mazule (38937) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38937;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38937, 'ace38937-lightningmazule');
 
@@ -75795,6 +81066,9 @@ VALUES (38937, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38937, 0, 16792135);
 
+/* Weenie - MeleeWeapons - Lugian Axe (38930) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38930;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38930, 'ace38930-lugianaxe');
 
@@ -75833,6 +81107,9 @@ VALUES (38930, 13, True)
      , (38930, 14, True)
      , (38930, 19, True)
      , (38930, 22, True);
+
+/* Weenie - MeleeWeapons - Spine Glaive (38932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38932;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38932, 'ace38932-spineglaive');
@@ -75877,6 +81154,9 @@ VALUES (38932, 0, 83897337, 83897337);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38932, 0, 16792614);
+
+/* Weenie - MeleeWeapons - Lightning Dericost Blade (38933) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38933;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38933, 'ace38933-lightningdericostblade');
@@ -75925,6 +81205,9 @@ VALUES (38933, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38933, 0, 16792612);
 
+/* Weenie - MeleeWeapons - Dripping Death (38940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38940;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38940, 'ace38940-drippingdeath');
 
@@ -75964,6 +81247,9 @@ VALUES (38940, 13, True)
      , (38940, 14, True)
      , (38940, 19, True)
      , (38940, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Mace (38936) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38936;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38936, 'ace38936-acidmace');
@@ -76012,6 +81298,9 @@ VALUES (38936, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38936, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Flaming Dabus (38938) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38938;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38938, 'ace38938-flamingdabus');
 
@@ -76048,6 +81337,9 @@ VALUES (38938, 13, True)
      , (38938, 19, True)
      , (38938, 22, True);
 
+/* Weenie - MeleeWeapons - Frost Hand Axe (38931) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38931;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38931, 'ace38931-frosthandaxe');
 
@@ -76083,6 +81375,9 @@ VALUES (38931, 13, True)
      , (38931, 14, True)
      , (38931, 19, True)
      , (38931, 22, True);
+
+/* Weenie - MeleeWeapons - Morning Star (38939) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38939;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38939, 'ace38939-morningstar');
@@ -76131,6 +81426,9 @@ VALUES (38939, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38939, 0, 16777932);
 
+/* Weenie - MeleeWeapons - Lugian Hammer (38935) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38935;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38935, 'ace38935-lugianhammer');
 
@@ -76166,6 +81464,9 @@ VALUES (38935, 13, True)
      , (38935, 14, True)
      , (38935, 19, True)
      , (38935, 22, True);
+
+/* Weenie - MeleeWeapons - Enhanced Dissolving Isparian Dagger (46232) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46232;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46232, 'ace46232-enhanceddissolvingispariandagger');
@@ -76215,6 +81516,9 @@ VALUES (46232, 0, 83889235, 83893927)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46232, 0, 16787903);
+
+/* Weenie - MeleeWeapons - Silifi of Crimson Stars (23026) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23026;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23026, 'silificrimsonstars235plate');
@@ -76268,6 +81572,9 @@ VALUES (23026, 0, 83892523, 83892523)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23026, 0, 16784360);
 
+/* Weenie - MeleeWeapons - Commoner's Greatblade (41793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41793;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41793, 'ace41793-commonersgreatblade');
 
@@ -76304,6 +81611,9 @@ VALUES (41793, 13, True)
      , (41793, 14, True)
      , (41793, 19, True)
      , (41793, 22, True);
+
+/* Weenie - MeleeWeapons - Shimmering Isparian Spear (46192) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46192;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46192, 'ace46192-shimmeringisparianspear');
@@ -76348,6 +81658,9 @@ VALUES (46192, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46192, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Silifi of Crimson Stars (6768) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6768;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6768, 'silificrimsonstarsxxxshore');
 
@@ -76390,6 +81703,9 @@ VALUES (6768, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6768, 67111921, 0, 0);
+
+/* Weenie - MeleeWeapons - Lord's Blade (35553) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35553;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35553, 'ace35553-lordsblade');
@@ -76436,6 +81752,9 @@ VALUES (35553, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35553, 0, 16791839);
+
+/* Weenie - MeleeWeapons - Pillar of Fearlessness (45452) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45452;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45452, 'ace45452-pillaroffearlessness');
@@ -76484,6 +81803,9 @@ VALUES (45452, 0, 83897097, 83897097);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45452, 0, 16792001);
 
+/* Weenie - MeleeWeapons - Sword of Lost Light (7441) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7441;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7441, 'swordlostlightred');
 
@@ -76520,6 +81842,9 @@ VALUES (7441, 13, True)
      , (7441, 14, True)
      , (7441, 19, True)
      , (7441, 22, True);
+
+/* Weenie - MeleeWeapons - Enhanced Osseous Mace (33941) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33941;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33941, 'ace33941-enhancedosseousmace');
@@ -76561,6 +81886,9 @@ VALUES (33941, 13, True)
      , (33941, 19, True)
      , (33941, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Silifi (48061) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48061;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48061, 'ace48061-lightningsilifi');
 
@@ -76601,6 +81929,9 @@ VALUES (48061, 13, True)
      , (48061, 19, True)
      , (48061, 22, True);
 
+/* Weenie - MeleeWeapons - Dericost Blade (40910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40910, 'ace40910-dericostblade');
 
@@ -76639,6 +81970,9 @@ VALUES (40910, 0, 83897335, 83897335);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40910, 0, 16792612);
+
+/* Weenie - MeleeWeapons - Silifi (47940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47940;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47940, 'ace47940-silifi');
@@ -76690,6 +82024,9 @@ VALUES (47940, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47940, 0, 16777950);
 
+/* Weenie - MeleeWeapons - Ono (47943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47943;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47943, 'ace47943-ono');
 
@@ -76737,6 +82074,9 @@ VALUES (47943, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47943, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Acid Ono (47944) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47944;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47944, 'ace47944-acidono');
 
@@ -76773,6 +82113,9 @@ VALUES (47944, 13, True)
      , (47944, 14, True)
      , (47944, 19, True)
      , (47944, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Katar (47934) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47934;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47934, 'ace47934-acidkatar');
@@ -76811,6 +82154,9 @@ VALUES (47934, 13, True)
      , (47934, 19, True)
      , (47934, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Ono (47945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47945, 'ace47945-lightningono');
 
@@ -76847,6 +82193,9 @@ VALUES (47945, 13, True)
      , (47945, 14, True)
      , (47945, 19, True)
      , (47945, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Spear (47793) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47793;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47793, 'ace47793-frostspear');
@@ -76896,6 +82245,9 @@ VALUES (47793, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47793, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Khopesh (47187) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47187;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47187, 'ace47187-khopesh');
 
@@ -76930,6 +82282,9 @@ VALUES (47187, 13, True)
      , (47187, 14, True)
      , (47187, 19, True)
      , (47187, 22, True);
+
+/* Weenie - MeleeWeapons - Ensorcelled Khopesh (47223) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47223;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47223, 'ace47223-ensorcelledkhopesh');
@@ -76970,6 +82325,9 @@ VALUES (47223, 13, True)
      , (47223, 19, True)
      , (47223, 22, True);
 
+/* Weenie - MeleeWeapons - Sickle (47189) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47189;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47189, 'ace47189-sickle');
 
@@ -77004,6 +82362,9 @@ VALUES (47189, 13, True)
      , (47189, 14, True)
      , (47189, 19, True)
      , (47189, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Atlan Dagger of Black Fire (7454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7454;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7454, 'daggerbestblackfire');
@@ -77049,6 +82410,9 @@ VALUES (7454, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7454, 0, 16783993);
 
+/* Weenie - MeleeWeapons - Shard of Harraag's Dagger (35345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35345;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35345, 'ace35345-shardofharraagsdagger');
 
@@ -77087,6 +82451,9 @@ VALUES (35345, 13, True)
      , (35345, 19, True)
      , (35345, 22, True);
 
+/* Weenie - MeleeWeapons - Assassin's Dagger (35548) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35548;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35548, 'ace35548-assassinsdagger');
 
@@ -77121,6 +82488,9 @@ VALUES (35548, 13, True)
      , (35548, 14, True)
      , (35548, 19, True)
      , (35548, 22, True);
+
+/* Weenie - MeleeWeapons - Doom Hammer (35547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35547;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35547, 'ace35547-doomhammer');
@@ -77171,6 +82541,9 @@ VALUES (35547, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35547, 0, 16792609);
 
+/* Weenie - MeleeWeapons - Academy Staff (45548) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45548;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45548, 'ace45548-academystaff');
 
@@ -77220,6 +82593,9 @@ VALUES (45548, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45548, 0, 16777936);
 
+/* Weenie - MeleeWeapons - Commoner's Blade (35552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35552;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35552, 'ace35552-commonersblade');
 
@@ -77266,6 +82642,9 @@ VALUES (35552, 0, 83896076, 83896076);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35552, 0, 16791843);
+
+/* Weenie - MeleeWeapons - Training Stick (12743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12743;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12743, 'stafftraining');
@@ -77317,6 +82696,9 @@ VALUES (12743, 0, 83897334, 83897334);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12743, 0, 16792611);
 
+/* Weenie - MeleeWeapons - Superior Sparking Atlan Sword (6306) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6306;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6306, 'swordbettersparkingminor');
 
@@ -77360,6 +82742,9 @@ VALUES (6306, 67111922, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6306, 0, 16783995);
+
+/* Weenie - MeleeWeapons - Enhanced Chilling Isparian Staff (46250) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46250;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46250, 'ace46250-enhancedchillingisparianstaff');
@@ -77407,6 +82792,9 @@ VALUES (46250, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46250, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Phantom Mace (21356) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21356;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21356, 'macephantom');
 
@@ -77444,6 +82832,9 @@ VALUES (21356, 13, True)
      , (21356, 15, True)
      , (21356, 19, True)
      , (21356, 22, True);
+
+/* Weenie - MeleeWeapons - Desert Wyrm (45463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45463;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45463, 'ace45463-desertwyrm');
@@ -77495,6 +82886,9 @@ VALUES (45463, 0, 83897108, 83897108);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45463, 0, 16792012);
 
+/* Weenie - MeleeWeapons - Radiant Blood Blade (38856) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38856;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38856, 'ace38856-radiantbloodblade');
 
@@ -77528,6 +82922,9 @@ VALUES (38856, 13, True)
      , (38856, 11, True)
      , (38856, 14, True)
      , (38856, 19, True);
+
+/* Weenie - MeleeWeapons - Ultimate Singularity Katar (27830) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27830;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27830, 'katarsingularitymaraenew');
@@ -77575,6 +82972,9 @@ VALUES (27830, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27830, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Tusker Bone Sword (35949) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35949;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35949, 'ace35949-tuskerbonesword');
 
@@ -77609,6 +83009,9 @@ VALUES (35949, 13, True)
      , (35949, 14, True)
      , (35949, 19, True)
      , (35949, 22, True);
+
+/* Weenie - MeleeWeapons - Starter Simi (533) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 533;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (533, 'newbiesimi');
@@ -77646,6 +83049,9 @@ VALUES (533, 13, True)
      , (533, 14, True)
      , (533, 19, True)
      , (533, 22, True);
+
+/* Weenie - MeleeWeapons - Ravenous Staff (7572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7572;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7572, 'nabutravenous');
@@ -77686,6 +83092,9 @@ VALUES (7572, 13, True)
      , (7572, 19, True)
      , (7572, 22, True);
 
+/* Weenie - MeleeWeapons - Ravenous Katar (7568) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7568;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7568, 'katarravenous');
 
@@ -77723,6 +83132,9 @@ VALUES (7568, 13, True)
      , (7568, 15, True)
      , (7568, 19, True)
      , (7568, 22, True);
+
+/* Weenie - MeleeWeapons - Tanae's Korua of the Forests (27345) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27345;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27345, 'cestuskoruaforests');
@@ -77766,6 +83178,9 @@ VALUES (27345, 0, 83893670, 83893669)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27345, 0, 16790095);
+
+/* Weenie - MeleeWeapons - Ultimate Singularity Spear (41887) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41887;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41887, 'ace41887-ultimatesingularityspear');
@@ -77814,6 +83229,9 @@ VALUES (41887, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41887, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Aun Tanua's War Taiaha (11329) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11329;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11329, 'taiahatanua-xp');
 
@@ -77847,6 +83265,9 @@ VALUES (11329, 13, True)
      , (11329, 14, True)
      , (11329, 19, True)
      , (11329, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Sparking Atlan Sword (6297) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6297;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6297, 'swordbestsparkingminor');
@@ -77885,6 +83306,9 @@ VALUES (6297, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6297, 0, 16783995);
+
+/* Weenie - MeleeWeapons - Tanae's Okane of the Forests (11417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11417;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11417, 'daggerokaneforests-xp');
@@ -77932,6 +83356,9 @@ VALUES (11417, 0, 83893670, 83893669)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11417, 0, 16787112);
 
+/* Weenie - MeleeWeapons - Badlands Siraluun Okane (29909) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29909;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29909, 'daggersiraluunbadlands');
 
@@ -77969,6 +83396,9 @@ VALUES (29909, 13, True)
      , (29909, 14, True)
      , (29909, 19, True)
      , (29909, 22, True);
+
+/* Weenie - MeleeWeapons - Blade of the Quiddity (9604) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9604;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9604, 'loswordquiddity');
@@ -78008,6 +83438,9 @@ VALUES (9604, 13, True)
      , (9604, 15, True)
      , (9604, 19, True)
      , (9604, 22, True);
+
+/* Weenie - MeleeWeapons - Cragstone's Axe (15822) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15822;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15822, 'axecragstonereplica');
@@ -78053,6 +83486,9 @@ VALUES (15822, 67111920, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15822, 0, 16787715);
 
+/* Weenie - MeleeWeapons - Auroch Horn Spear (3746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3746, 'spearaurochhorn');
 
@@ -78087,6 +83523,9 @@ VALUES (3746, 13, True)
      , (3746, 14, True)
      , (3746, 19, True)
      , (3746, 22, True);
+
+/* Weenie - MeleeWeapons - Seasoned Explorer Shamshir (45948) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45948;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45948, 'ace45948-seasonedexplorershamshir');
@@ -78137,6 +83576,9 @@ VALUES (45948, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45948, 0, 16777942);
 
+/* Weenie - MeleeWeapons - Flaming Nekode (48534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48534;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48534, 'ace48534-flamingnekode');
 
@@ -78174,6 +83616,9 @@ VALUES (48534, 13, True)
      , (48534, 19, True)
      , (48534, 22, True);
 
+/* Weenie - MeleeWeapons - Chitin Cracker (42662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 42662;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (42662, 'ace42662-chitincracker');
 
@@ -78210,6 +83655,9 @@ VALUES (42662, 13, True)
      , (42662, 19, True)
      , (42662, 22, True)
      , (42662, 91, True);
+
+/* Weenie - MeleeWeapons - Sword of Lost Hope (8963) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8963;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8963, 'swordlosthopered');
@@ -78251,6 +83699,9 @@ VALUES (8963, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8963, 67111920, 0, 0);
+
+/* Weenie - MeleeWeapons - Major Shivering Atlan Sword (46090) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46090;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46090, 'ace46090-majorshiveringatlansword');
@@ -78296,6 +83747,9 @@ VALUES (46090, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46090, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Axe of the Quiddity (9596) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9596;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9596, 'loaxequiddity');
 
@@ -78338,6 +83792,9 @@ VALUES (9596, 13, True)
      , (9596, 19, True)
      , (9596, 22, True);
 
+/* Weenie - MeleeWeapons - Mace of the Quiddity (9600) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9600;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9600, 'lomacequiddity');
 
@@ -78375,6 +83832,9 @@ VALUES (9600, 13, True)
      , (9600, 15, True)
      , (9600, 19, True)
      , (9600, 22, True);
+
+/* Weenie - MeleeWeapons - Hollow Axe (7563) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7563;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7563, 'axebattlehollow');
@@ -78416,6 +83876,9 @@ VALUES (7563, 13, True)
      , (7563, 15, True)
      , (7563, 19, True)
      , (7563, 22, True);
+
+/* Weenie - MeleeWeapons - Razorbound Flange (27977) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27977;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27977, 'macehizkri3');
@@ -78466,6 +83929,9 @@ VALUES (27977, 0, 83895178, 83895178)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27977, 0, 16790326);
 
+/* Weenie - MeleeWeapons - Jambiya (319) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 319;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (319, 'jambiya');
 
@@ -78510,6 +83976,9 @@ VALUES (319, 0, 83886747, 83886747)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (319, 0, 16777986);
+
+/* Weenie - MeleeWeapons - Chimeric Blade of the Quiddity (36387) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 36387;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (36387, 'ace36387-chimericbladeofthequiddity');
@@ -78560,6 +84029,9 @@ VALUES (36387, 0, 83893489, 83893489)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36387, 0, 16786134);
 
+/* Weenie - MeleeWeapons - Perfect Isparian Staff (19952) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19952;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19952, 'staffisparianperfectnostone');
 
@@ -78608,6 +84080,9 @@ VALUES (19952, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19952, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Silifi of Crimson Night (22974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22974;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22974, 'silificrimsonstars235hoary');
 
@@ -78652,6 +84127,9 @@ VALUES (22974, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22974, 67111921, 0, 0);
 
+/* Weenie - MeleeWeapons - Peerless Sparking Atlan Sword (6296) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6296;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6296, 'swordbestsparkingmajor');
 
@@ -78689,6 +84167,9 @@ VALUES (6296, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6296, 0, 16783995);
+
+/* Weenie - MeleeWeapons - Renegade Ukira of the Vortex (40415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40415;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40415, 'ace40415-renegadeukiraofthevortex');
@@ -78738,6 +84219,9 @@ VALUES (40415, 0, 83893670, 83893670)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40415, 0, 16790071);
 
+/* Weenie - MeleeWeapons - Ultimate Singularity Sword (27848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27848;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27848, 'swordsingularitymaraenew');
 
@@ -78781,6 +84265,9 @@ VALUES (27848, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27848, 67111922, 0, 0);
 
+/* Weenie - MeleeWeapons - Acidic Weeping Dagger (25615) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25615;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25615, 'daggerweepingacidic');
 
@@ -78822,6 +84309,9 @@ VALUES (25615, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25615, 67114519, 0, 0);
 
+/* Weenie - MeleeWeapons - Frozen Weeping Two Handed Spear (41642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41642;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41642, 'ace41642-frozenweepingtwohandedspear');
 
@@ -78860,6 +84350,9 @@ VALUES (41642, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41642, 67114523, 0, 0);
+
+/* Weenie - MeleeWeapons - Shadowfire Isparian Two Handed Spear (41717) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41717;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41717, 'ace41717-shadowfireispariantwohandedspear');
@@ -78908,6 +84401,9 @@ VALUES (41717, 0, 83889235, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41717, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Yari (23732) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23732;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23732, 'yarimonstermid');
 
@@ -78953,6 +84449,9 @@ VALUES (23732, 0, 83886737, 83886737)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23732, 0, 16777983);
+
+/* Weenie - MeleeWeapons - Spirit Shifting Staff (45459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45459;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45459, 'ace45459-spiritshiftingstaff');
@@ -79004,6 +84503,9 @@ VALUES (45459, 0, 83897104, 83897104);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45459, 0, 16792008);
 
+/* Weenie - MeleeWeapons - Atakir's Blade (25904) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25904;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25904, 'dirkatakir');
 
@@ -79038,6 +84540,9 @@ VALUES (25904, 13, True)
      , (25904, 14, True)
      , (25904, 19, True)
      , (25904, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Shivering Atlan Dagger (6200) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6200;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6200, 'daggerbestshiveringmajor');
@@ -79083,6 +84588,9 @@ VALUES (6200, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6200, 0, 16783993);
 
+/* Weenie - MeleeWeapons - Hafted Falcon Spear (11751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11751;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11751, 'bannerhaftedspearfalcon');
 
@@ -79124,6 +84632,9 @@ VALUES (11751, 0, 83893725, 83893725)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11751, 0, 16787138);
+
+/* Weenie - MeleeWeapons - Reinforced Falcon Spear (11777) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11777;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11777, 'bannerreinforcedspearfalcon');
@@ -79167,6 +84678,9 @@ VALUES (11777, 0, 83893725, 83893724)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11777, 0, 16787138);
 
+/* Weenie - MeleeWeapons - Hafted Falcon Banner with Crest (11739) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11739;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11739, 'bannerhaftedcrestfalcon');
 
@@ -79206,6 +84720,9 @@ VALUES (11739, 0, 83893725, 83893725)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11739, 0, 16787138);
+
+/* Weenie - MeleeWeapons - Gikar's Dream (25907) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25907;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25907, 'quarterstaffgikar');
@@ -79254,6 +84771,9 @@ VALUES (25907, 0, 83892431, 83892431)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25907, 0, 16789796);
 
+/* Weenie - MeleeWeapons - Fist of Massacre (27186) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27186;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27186, 'katarliazk4');
 
@@ -79298,6 +84818,9 @@ VALUES (27186, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27186, 67114955, 0, 0);
 
+/* Weenie - MeleeWeapons - Renlen's Grace (31291) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31291;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31291, 'ace31291-renlensgrace');
 
@@ -79331,6 +84854,9 @@ VALUES (31291, 13, True)
      , (31291, 14, True)
      , (31291, 19, True)
      , (31291, 22, True);
+
+/* Weenie - MeleeWeapons - Training Hand Axe (45534) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45534;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45534, 'ace45534-traininghandaxe');
@@ -79382,6 +84908,9 @@ VALUES (45534, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45534, 0, 16777889);
 
+/* Weenie - MeleeWeapons - Khopesh (48098) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48098;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48098, 'ace48098-khopesh');
 
@@ -79418,6 +84947,9 @@ VALUES (48098, 13, True)
      , (48098, 19, True)
      , (48098, 22, True);
 
+/* Weenie - MeleeWeapons - Sickle (48099) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48099;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48099, 'ace48099-sickle');
 
@@ -79453,6 +84985,9 @@ VALUES (48099, 13, True)
      , (48099, 14, True)
      , (48099, 19, True)
      , (48099, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Silifi (48095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48095;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48095, 'ace48095-lightningsilifi');
@@ -79493,6 +85028,9 @@ VALUES (48095, 13, True)
      , (48095, 14, True)
      , (48095, 19, True)
      , (48095, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Mace (47430) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47430;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47430, 'ace47430-acidmace');
@@ -79542,6 +85080,9 @@ VALUES (47430, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47430, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Needletooth (25905) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25905;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25905, 'katarneedletooth');
 
@@ -79580,6 +85121,9 @@ VALUES (25905, 13, True)
      , (25905, 19, True)
      , (25905, 22, True);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48497) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48497;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48497, 'ace48497-flamingkatar');
 
@@ -79617,6 +85161,9 @@ VALUES (48497, 13, True)
      , (48497, 19, True)
      , (48497, 22, True);
 
+/* Weenie - MeleeWeapons - Frost Gearknight Greatsword (41253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41253;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41253, 'ace41253-frostgearknightgreatsword');
 
@@ -79651,6 +85198,9 @@ VALUES (41253, 13, True)
      , (41253, 14, True)
      , (41253, 19, True)
      , (41253, 22, True);
+
+/* Weenie - MeleeWeapons - Acid Quarter Staff (3846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3846;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3846, 'quarterstaffacid');
@@ -79691,6 +85241,9 @@ VALUES (3846, 13, True)
      , (3846, 19, True)
      , (3846, 22, True);
 
+/* Weenie - MeleeWeapons - Frozen Dagger (48590) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48590;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48590, 'ace48590-frozendagger');
 
@@ -79725,6 +85278,9 @@ VALUES (48590, 13, True)
      , (48590, 14, True)
      , (48590, 19, True)
      , (48590, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Spear (47749) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47749;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47749, 'ace47749-lightningspear');
@@ -79762,6 +85318,9 @@ VALUES (47749, 13, True)
      , (47749, 14, True)
      , (47749, 19, True)
      , (47749, 22, True);
+
+/* Weenie - MeleeWeapons - Enhanced Crystal Sword (33940) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33940;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33940, 'ace33940-enhancedcrystalsword');
@@ -79813,6 +85372,9 @@ VALUES (33940, 0, 83889688, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33940, 0, 16783206);
 
+/* Weenie - MeleeWeapons - Flaming Club (23127) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23127;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23127, 'clubfirevod');
 
@@ -79854,6 +85416,9 @@ VALUES (23127, 13, True)
      , (23127, 15, True)
      , (23127, 19, True)
      , (23127, 22, True);
+
+/* Weenie - MeleeWeapons - Soul Bound Staff (37583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37583;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37583, 'ace37583-soulboundstaff');
@@ -79903,6 +85468,9 @@ VALUES (37583, 0, 83889237, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37583, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Worn Old Sword (31486) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31486;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31486, 'ace31486-wornoldsword');
 
@@ -79938,6 +85506,9 @@ VALUES (31486, 13, True)
      , (31486, 14, True)
      , (31486, 19, True)
      , (31486, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Scepter (9421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9421, 'scepterlugian');
@@ -79984,6 +85555,9 @@ VALUES (9421, 67111922, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9421, 0, 16785712);
+
+/* Weenie - MeleeWeapons - An Explorer Katar (8698) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8698;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8698, 'katarrarenewbiequest');
@@ -80035,6 +85609,9 @@ VALUES (8698, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8698, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Frost Bandit Simi (3872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3872;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3872, 'simifrost');
 
@@ -80071,6 +85648,9 @@ VALUES (3872, 13, True)
      , (3872, 14, True)
      , (3872, 19, True)
      , (3872, 22, True);
+
+/* Weenie - MeleeWeapons - Electric Weeping Mace (25620) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25620;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25620, 'maceweepingelectric');
@@ -80113,6 +85693,9 @@ VALUES (25620, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25620, 67114521, 0, 0);
 
+/* Weenie - MeleeWeapons - Red Rune Silveran Axe (33058) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 33058;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (33058, 'ace33058-redrunesilveranaxe');
 
@@ -80153,6 +85736,9 @@ VALUES (33058, 13, True)
      , (33058, 14, True)
      , (33058, 19, True)
      , (33058, 22, True);
+
+/* Weenie - MeleeWeapons - Ben Ten's Tachi (15896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15896;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15896, 'tachibentenstatuebronze');
@@ -80204,6 +85790,9 @@ VALUES (15896, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15896, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Silifi of Crimson Stars (6742) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6742;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6742, 'silificrimsonstarsxxxsandy');
 
@@ -80246,6 +85835,9 @@ VALUES (6742, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6742, 67111921, 0, 0);
+
+/* Weenie - MeleeWeapons - Rusted Mace (23321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23321;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23321, 'macerusted');
@@ -80294,6 +85886,9 @@ VALUES (23321, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23321, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Rusted Tachi (23324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23324;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23324, 'tachirusted');
@@ -80344,6 +85939,9 @@ VALUES (23324, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23324, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Weeping Staff (25629) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25629;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25629, 'staffweepingfiery');
 
@@ -80383,6 +85981,9 @@ VALUES (25629, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25629, 67114520, 0, 0);
 
+/* Weenie - MeleeWeapons - Frozen Weeping Staff (25630) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25630;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25630, 'staffweepingfreezing');
 
@@ -80421,6 +86022,9 @@ VALUES (25630, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25630, 67114523, 0, 0);
+
+/* Weenie - MeleeWeapons - Shadowfire Isparian Staff (32646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32646;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32646, 'ace32646-shadowfireisparianstaff');
@@ -80468,6 +86072,9 @@ VALUES (32646, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32646, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Deadly Hollow Mace (15448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15448;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15448, 'macehollownew');
 
@@ -80505,6 +86112,9 @@ VALUES (15448, 13, True)
      , (15448, 15, True)
      , (15448, 19, True)
      , (15448, 22, True);
+
+/* Weenie - MeleeWeapons - Tumerok Spear (11328) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11328;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11328, 'speartanua-xp');
@@ -80548,6 +86158,9 @@ VALUES (11328, 0, 83896997, 83896997);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11328, 0, 16787243);
+
+/* Weenie - MeleeWeapons - Hoeroa of Palenqual (11259) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11259;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11259, 'staffmelee134menhir-xp');
@@ -80597,6 +86210,9 @@ VALUES (11259, 0, 83893244, 83893244)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11259, 0, 16786971);
 
+/* Weenie - MeleeWeapons - Okane (11464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11464;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11464, 'daggerokane-xp');
 
@@ -80641,6 +86257,9 @@ VALUES (11464, 0, 83893670, 83893699)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11464, 0, 16787112);
 
+/* Weenie - MeleeWeapons - Siraluun Matihao (11365) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11365;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11365, 'matihaosiraluun-xp');
 
@@ -80675,6 +86294,9 @@ VALUES (11365, 13, True)
      , (11365, 14, True)
      , (11365, 19, True)
      , (11365, 22, True);
+
+/* Weenie - MeleeWeapons - Perfect Shimmering Isparian Claw (20932) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20932;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20932, 'clawisparianperfectprismaticmajor');
@@ -80718,6 +86340,9 @@ VALUES (20932, 0, 83889238, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20932, 0, 16783999);
 
+/* Weenie - MeleeWeapons - Thunder Turkey Leg (52175) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52175;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52175, 'ace52175-thunderturkeyleg');
 
@@ -80753,6 +86378,9 @@ VALUES (52175, 13, True)
      , (52175, 14, True)
      , (52175, 19, True)
      , (52175, 22, True);
+
+/* Weenie - MeleeWeapons - Hafted Reedshark Spear (11754) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11754;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11754, 'bannerhaftedspearreedshark');
@@ -80796,6 +86424,9 @@ VALUES (11754, 0, 83893729, 83893729)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11754, 0, 16787143);
 
+/* Weenie - MeleeWeapons - Reinforced Reedshark Spear (11780) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11780;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11780, 'bannerreinforcedspearreedshark');
 
@@ -80837,6 +86468,9 @@ VALUES (11780, 0, 83893729, 83893728)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11780, 0, 16787143);
+
+/* Weenie - MeleeWeapons - Bearded Axe of Souia-Vey (45436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45436;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45436, 'ace45436-beardedaxeofsouiavey');
@@ -80887,6 +86521,9 @@ VALUES (45436, 0, 83897117, 83897117);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45436, 0, 16792021);
 
+/* Weenie - MeleeWeapons - Guardian of Pwyll (45464) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45464;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45464, 'ace45464-guardianofpwyll');
 
@@ -80924,6 +86561,9 @@ VALUES (45464, 13, True)
      , (45464, 14, True)
      , (45464, 19, True)
      , (45464, 22, True);
+
+/* Weenie - MeleeWeapons - Star of Gharu'n (45454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45454;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45454, 'ace45454-starofgharun');
@@ -80970,6 +86610,9 @@ VALUES (45454, 0, 83897099, 83897099);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45454, 0, 16792003);
+
+/* Weenie - MeleeWeapons - Academy Bastone (45547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45547;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45547, 'ace45547-academybastone');
@@ -81019,6 +86662,9 @@ VALUES (45547, 0, 83897173, 83897173);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45547, 0, 16792138);
 
+/* Weenie - MeleeWeapons - Sickle (49612) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 49612;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (49612, 'ace49612-sickle');
 
@@ -81054,6 +86700,9 @@ VALUES (49612, 13, True)
      , (49612, 14, True)
      , (49612, 19, True)
      , (49612, 22, True);
+
+/* Weenie - MeleeWeapons - Ensorcelled Mace (47227) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47227;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47227, 'ace47227-ensorcelledmace');
@@ -81093,6 +86742,9 @@ VALUES (47227, 13, True)
      , (47227, 19, True)
      , (47227, 22, True)
      , (47227, 130, True);
+
+/* Weenie - MeleeWeapons - Silifi of Crimson Night (23025) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23025;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23025, 'silificrimsonstars234plate');
@@ -81137,6 +86789,9 @@ VALUES (23025, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23025, 67111921, 0, 0);
+
+/* Weenie - MeleeWeapons - Shadowfire Isparian Axe (32638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32638;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32638, 'ace32638-shadowfireisparianaxe');
@@ -81183,6 +86838,9 @@ VALUES (32638, 0, 83889238, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32638, 0, 16783998);
+
+/* Weenie - MeleeWeapons - Katar (48054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48054;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48054, 'ace48054-katar');
@@ -81232,6 +86890,9 @@ VALUES (48054, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48054, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Acid Spear (23690) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23690;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23690, 'spearacidmonstermid');
 
@@ -81278,6 +86939,9 @@ VALUES (23690, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23690, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Frost Spear (23694) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23694;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23694, 'spearfrostmonstermid');
@@ -81326,6 +86990,9 @@ VALUES (23694, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23694, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Enhanced Assault Cestus (41894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41894, 'ace41894-enhancedassaultcestus');
 
@@ -81366,6 +87033,9 @@ VALUES (41894, 13, True)
      , (41894, 15, True)
      , (41894, 19, True)
      , (41894, 22, True);
+
+/* Weenie - MeleeWeapons - Reinforced Serpent Spear (11781) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11781;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11781, 'bannerreinforcedspearserpent');
@@ -81408,6 +87078,9 @@ VALUES (11781, 0, 83893725, 83893724)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11781, 0, 16787138);
+
+/* Weenie - MeleeWeapons - Blackfire Smoldering Atlan Mace (46075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46075;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46075, 'ace46075-blackfiresmolderingatlanmace');
@@ -81458,6 +87131,9 @@ VALUES (46075, 0, 83889688, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46075, 0, 16783996);
 
+/* Weenie - MeleeWeapons - Peerless Atlan Claw of Black Fire (7451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7451;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7451, 'clawbestblackfire');
 
@@ -81500,6 +87176,9 @@ VALUES (7451, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7451, 0, 16783999);
 
+/* Weenie - MeleeWeapons - Phantom Spear (21358) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21358;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21358, 'spearphantom');
 
@@ -81540,6 +87219,9 @@ VALUES (21358, 13, True)
      , (21358, 19, True)
      , (21358, 22, True);
 
+/* Weenie - MeleeWeapons - Tauraloi (21432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21432;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21432, 'speargaerlan');
 
@@ -81576,6 +87258,9 @@ VALUES (21432, 13, True)
      , (21432, 14, True)
      , (21432, 19, True)
      , (21432, 22, True);
+
+/* Weenie - MeleeWeapons - Hafted Gromnie Spear (11752) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11752;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11752, 'bannerhaftedspeargromnie');
@@ -81619,6 +87304,9 @@ VALUES (11752, 0, 83893727, 83893727)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11752, 0, 16787131);
 
+/* Weenie - MeleeWeapons - Reinforced Gromnie Spear (11778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11778;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11778, 'bannerreinforcedspeargromnie');
 
@@ -81661,6 +87349,9 @@ VALUES (11778, 0, 83893727, 83893726)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11778, 0, 16787131);
 
+/* Weenie - MeleeWeapons - Reinforced Gromnie Banner with Crest (11766) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11766;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11766, 'bannerreinforcedcrestgromnie');
 
@@ -81700,6 +87391,9 @@ VALUES (11766, 0, 83893727, 83893726)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11766, 0, 16787131);
+
+/* Weenie - MeleeWeapons - Bronze Quintessence Sickle (15885) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15885;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15885, 'axesicklestatuebronze');
@@ -81748,6 +87442,9 @@ VALUES (15885, 67111920, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15885, 0, 16785974);
 
+/* Weenie - MeleeWeapons - Stave of the Quiddity (9603) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9603;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9603, 'lostaffquiddity');
 
@@ -81786,6 +87483,9 @@ VALUES (9603, 13, True)
      , (9603, 15, True)
      , (9603, 19, True)
      , (9603, 22, True);
+
+/* Weenie - MeleeWeapons - Bronze Spear (15879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15879;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15879, 'spearstatue-monsteronly');
@@ -81835,6 +87535,9 @@ VALUES (15879, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15879, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Bronze Long Sword (15880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15880;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15880, 'swordlongstatue-monsteronly');
@@ -81886,6 +87589,9 @@ VALUES (15880, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15880, 0, 16777961);
 
+/* Weenie - MeleeWeapons - Major Coruscating Isparian Staff (46177) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46177;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46177, 'ace46177-majorcoruscatingisparianstaff');
 
@@ -81934,6 +87640,9 @@ VALUES (46177, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46177, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Khopesh (47044) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47044;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47044, 'ace47044-khopesh');
 
@@ -81968,6 +87677,9 @@ VALUES (47044, 13, True)
      , (47044, 14, True)
      , (47044, 19, True)
      , (47044, 22, True);
+
+/* Weenie - MeleeWeapons - Sickle (47046) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47046;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47046, 'ace47046-sickle');
@@ -82004,6 +87716,9 @@ VALUES (47046, 13, True)
      , (47046, 19, True)
      , (47046, 22, True);
 
+/* Weenie - MeleeWeapons - Vaikiakvi (31997) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31997;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31997, 'ace31997-vaikiakvi');
 
@@ -82038,6 +87753,9 @@ VALUES (31997, 13, True)
      , (31997, 14, True)
      , (31997, 19, True)
      , (31997, 22, True);
+
+/* Weenie - MeleeWeapons - Fist of Three Principles (45466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45466;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45466, 'ace45466-fistofthreeprinciples');
@@ -82085,6 +87803,9 @@ VALUES (45466, 0, 83897111, 83897111);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45466, 0, 16792015);
 
+/* Weenie - MeleeWeapons - Celestial Hand Blade (38854) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38854;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38854, 'ace38854-celestialhandblade');
 
@@ -82117,6 +87838,9 @@ VALUES (38854, 13, True)
      , (38854, 11, True)
      , (38854, 14, True)
      , (38854, 19, True);
+
+/* Weenie - MeleeWeapons - Flaming Spear (47763) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47763;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47763, 'ace47763-flamingspear');
@@ -82166,6 +87890,9 @@ VALUES (47763, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47763, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Black Thistle (30316) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 30316;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (30316, 'daggerrareblackthistle');
 
@@ -82201,6 +87928,9 @@ VALUES (30316, 13, True)
      , (30316, 14, True)
      , (30316, 19, True)
      , (30316, 22, True);
+
+/* Weenie - MeleeWeapons - Lugian Board with Nail (7765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7765, 'boardwithnaillarge');
@@ -82253,6 +87983,9 @@ VALUES (7765, 0, 83888943, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7765, 0, 16784605);
 
+/* Weenie - MeleeWeapons - Repaired Haft (6778) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6778;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6778, 'repairedhaft');
 
@@ -82295,6 +88028,9 @@ VALUES (6778, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6778, 67111921, 0, 0);
 
+/* Weenie - MeleeWeapons - Electric Gearknight Greatsword (41251) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41251;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41251, 'ace41251-electricgearknightgreatsword');
 
@@ -82329,6 +88065,9 @@ VALUES (41251, 13, True)
      , (41251, 14, True)
      , (41251, 19, True)
      , (41251, 22, True);
+
+/* Weenie - MeleeWeapons - Starter Tungi (536) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 536;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (536, 'newbietungi');
@@ -82365,6 +88104,9 @@ VALUES (536, 13, True)
      , (536, 14, True)
      , (536, 19, True)
      , (536, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Atlan Spear (6253) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6253;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6253, 'spearbestnostone');
@@ -82409,6 +88151,9 @@ VALUES (6253, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6253, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Flaming Yaoji (3911) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3911;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3911, 'yaojifire');
 
@@ -82446,6 +88191,9 @@ VALUES (3911, 13, True)
      , (3911, 14, True)
      , (3911, 19, True)
      , (3911, 22, True);
+
+/* Weenie - MeleeWeapons - Enhanced Blade of the Quiddity (41913) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41913;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41913, 'ace41913-enhancedbladeofthequiddity');
@@ -82487,6 +88235,9 @@ VALUES (41913, 13, True)
      , (41913, 15, True)
      , (41913, 19, True)
      , (41913, 22, True);
+
+/* Weenie - MeleeWeapons - Palenqual's Okane of the Vortex (11421) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11421;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11421, 'daggerokanevortex-xp');
@@ -82534,6 +88285,9 @@ VALUES (11421, 0, 83893670, 83893670)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11421, 0, 16787112);
 
+/* Weenie - MeleeWeapons - Perfect Chilling Isparian Claw (19809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19809, 'clawisparianperfectshiveringmajor');
 
@@ -82578,6 +88332,9 @@ VALUES (19809, 0, 83889238, 83893927);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19809, 0, 16783999);
+
+/* Weenie - MeleeWeapons - Atlan Axe (46037) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46037;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46037, 'ace46037-atlanaxe');
@@ -82628,6 +88385,9 @@ VALUES (46037, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46037, 0, 16783998);
 
+/* Weenie - MeleeWeapons - Lightning Jambiya (3795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3795;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3795, 'jambiyaelectric');
 
@@ -82663,6 +88423,9 @@ VALUES (3795, 13, True)
      , (3795, 14, True)
      , (3795, 19, True)
      , (3795, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Sparking Atlan Dagger (6204) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6204;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6204, 'daggerbestsparkingmajor');
@@ -82701,6 +88464,9 @@ VALUES (6204, 13, True)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6204, 0, 16783993);
+
+/* Weenie - MeleeWeapons - Palenqual's Hoeroa of the Heights (11436) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11436;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11436, 'staffhoeroaheights-xp');
@@ -82748,6 +88514,9 @@ VALUES (11436, 0, 83893670, 83893668)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11436, 0, 16787122);
 
+/* Weenie - MeleeWeapons - Palenqual's Okane of the Chase (11422) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11422;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11422, 'daggerokanechase-xp');
 
@@ -82793,6 +88562,9 @@ VALUES (11422, 0, 83893670, 83893669)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11422, 0, 16787112);
+
+/* Weenie - MeleeWeapons - Superb Isparian Sword (20005) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20005;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20005, 'swordispariansuperbnostone');
@@ -82841,6 +88613,9 @@ VALUES (20005, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20005, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Well-Balanced Lugian Axe (28528) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 28528;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (28528, 'axekrank');
 
@@ -82880,6 +88655,9 @@ VALUES (28528, 13, True)
      , (28528, 14, True)
      , (28528, 19, True)
      , (28528, 22, True);
+
+/* Weenie - MeleeWeapons - Channeling Stone Axe (34994) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 34994;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (34994, 'ace34994-channelingstoneaxe');
@@ -82922,6 +88700,9 @@ VALUES (34994, 13, True)
      , (34994, 19, True)
      , (34994, 22, True);
 
+/* Weenie - MeleeWeapons - Starter Hand Axe (517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 517;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (517, 'newbieaxehand');
 
@@ -82957,6 +88738,9 @@ VALUES (517, 13, True)
      , (517, 14, True)
      , (517, 19, True)
      , (517, 22, True);
+
+/* Weenie - MeleeWeapons - Ultimate Singularity Staff (27845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27845;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27845, 'staffsingularitymaraenew');
@@ -83007,6 +88791,9 @@ VALUES (27845, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27845, 0, 16777936);
 
+/* Weenie - MeleeWeapons - Acid Hatchet (48975) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48975;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48975, 'ace48975-acidhatchet');
 
@@ -83052,6 +88839,9 @@ VALUES (48975, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48975, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Peerless Atlan Two Handed Spear (41633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41633;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41633, 'ace41633-peerlessatlantwohandedspear');
 
@@ -83094,6 +88884,9 @@ VALUES (41633, 67111927, 0, 0);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41633, 0, 16783997);
+
+/* Weenie - MeleeWeapons - Blackfire Smoldering Atlan Axe (46041) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46041;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46041, 'ace46041-blackfiresmolderingatlanaxe');
@@ -83145,6 +88938,9 @@ VALUES (46041, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46041, 0, 16783998);
 
+/* Weenie - MeleeWeapons - Frost Mace (47496) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47496;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47496, 'ace47496-frostmace');
 
@@ -83193,6 +88989,9 @@ VALUES (47496, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47496, 0, 16777923);
 
+/* Weenie - MeleeWeapons - Flaming Katar (48488) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48488;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48488, 'ace48488-flamingkatar');
 
@@ -83229,6 +89028,9 @@ VALUES (48488, 13, True)
      , (48488, 14, True)
      , (48488, 19, True)
      , (48488, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Tachi (47687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47687;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47687, 'ace47687-frosttachi');
@@ -83279,6 +89081,9 @@ VALUES (47687, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47687, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Flaming Nekode (48539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48539;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48539, 'ace48539-flamingnekode');
 
@@ -83315,6 +89120,9 @@ VALUES (48539, 13, True)
      , (48539, 14, True)
      , (48539, 19, True)
      , (48539, 22, True);
+
+/* Weenie - MeleeWeapons - Silifi of Crimson Stars (23007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23007;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23007, 'silificrimsonstars4xxplate');
@@ -83365,6 +89173,9 @@ VALUES (23007, 0, 83892523, 83892523)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23007, 0, 16784360);
 
+/* Weenie - MeleeWeapons - Silifi of Crimson Stars (23014) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23014;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23014, 'silificrimsonstars24xplate');
 
@@ -83414,6 +89225,9 @@ VALUES (23014, 0, 83892523, 83892523)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23014, 0, 16784360);
 
+/* Weenie - MeleeWeapons - Fire Tachi (35262) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35262;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35262, 'ace35262-firetachi');
 
@@ -83461,6 +89275,9 @@ VALUES (35262, 0, 83886749, 83886749)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35262, 0, 16777915);
+
+/* Weenie - MeleeWeapons - Acid Tachi (35263) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35263;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35263, 'ace35263-acidtachi');
@@ -83510,6 +89327,9 @@ VALUES (35263, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35263, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Tachi (35264) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 35264;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (35264, 'ace35264-lightningtachi');
 
@@ -83558,6 +89378,9 @@ VALUES (35264, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35264, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Acid Spear (32123) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32123;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32123, 'ace32123-acidspear');
 
@@ -83604,6 +89427,9 @@ VALUES (32123, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32123, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Frost Spear (32124) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32124;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32124, 'ace32124-frostspear');
@@ -83652,6 +89478,9 @@ VALUES (32124, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32124, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Frost Spear (23692) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23692;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23692, 'spearfrostmonsterhigh');
 
@@ -83699,6 +89528,9 @@ VALUES (23692, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23692, 0, 16777955);
 
+/* Weenie - MeleeWeapons - Partizan (29974) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29974;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29974, 'spearknightuber');
 
@@ -83732,6 +89564,9 @@ VALUES (29974, 13, True)
      , (29974, 14, True)
      , (29974, 19, True)
      , (29974, 22, True);
+
+/* Weenie - MeleeWeapons - Guardian's Smoldering Atlan Sword (32665) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32665;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32665, 'ace32665-guardianssmolderingatlansword');
@@ -83785,6 +89620,9 @@ VALUES (32665, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32665, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Lightning Ono (48019) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48019;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48019, 'ace48019-lightningono');
 
@@ -83821,6 +89659,9 @@ VALUES (48019, 13, True)
      , (48019, 14, True)
      , (48019, 19, True)
      , (48019, 22, True);
+
+/* Weenie - MeleeWeapons - Dripping Death (45447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45447;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45447, 'ace45447-drippingdeath');
@@ -83867,6 +89708,9 @@ VALUES (45447, 0, 83897090, 83897090);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45447, 0, 16791994);
+
+/* Weenie - MeleeWeapons - Seasoned Explorer Knife (45912) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45912;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45912, 'ace45912-seasonedexplorerknife');
@@ -83918,6 +89762,9 @@ VALUES (45912, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45912, 0, 16777925);
 
+/* Weenie - MeleeWeapons - Worn Old Dagger (31498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31498;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31498, 'ace31498-wornolddagger');
 
@@ -83952,6 +89799,9 @@ VALUES (31498, 13, True)
      , (31498, 14, True)
      , (31498, 19, True)
      , (31498, 22, True);
+
+/* Weenie - MeleeWeapons - Peerless Smoldering Atlan Staff (6129) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6129;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6129, 'staffbestsmolderingmajor');
@@ -83995,6 +89845,9 @@ VALUES (6129, 67111924, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6129, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Serpent's Fang (12028) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12028;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12028, 'spearserpent');
 
@@ -84029,6 +89882,9 @@ VALUES (12028, 13, True)
      , (12028, 14, True)
      , (12028, 19, True)
      , (12028, 22, True);
+
+/* Weenie - MeleeWeapons - Yaoji (23712) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23712;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23712, 'yaojibanditdrudgemid');
@@ -84077,6 +89933,9 @@ VALUES (23712, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23712, 0, 16777984);
 
+/* Weenie - MeleeWeapons - Hollow Mace (7569) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7569;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7569, 'macehollow');
 
@@ -84115,6 +89974,9 @@ VALUES (7569, 13, True)
      , (7569, 15, True)
      , (7569, 19, True)
      , (7569, 22, True);
+
+/* Weenie - MeleeWeapons - Hevelio's Half-Moon (45467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45467;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45467, 'ace45467-hevelioshalfmoon');
@@ -84164,6 +90026,9 @@ VALUES (45467, 0, 83897112, 83897112);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45467, 0, 16792016);
+
+/* Weenie - MeleeWeapons - Enhanced Stinging Atlan Sword (46104) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46104;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46104, 'ace46104-enhancedstingingatlansword');
@@ -84215,6 +90080,9 @@ VALUES (46104, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46104, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Assault Mace (11943) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11943;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11943, 'macetumerokwar');
 
@@ -84259,6 +90127,9 @@ VALUES (11943, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11943, 67111924, 0, 0);
+
+/* Weenie - MeleeWeapons - Enhanced Sparking Two Handed Atlan Sword (46120) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46120;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46120, 'ace46120-enhancedsparkingtwohandedatlansword');
@@ -84307,6 +90178,9 @@ VALUES (46120, 67111922, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46120, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Phantom Two Handed Spear (41708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41708;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41708, 'ace41708-phantomtwohandedspear');
 
@@ -84344,6 +90218,9 @@ VALUES (41708, 13, True)
      , (41708, 15, True)
      , (41708, 19, True)
      , (41708, 22, True);
+
+/* Weenie - MeleeWeapons - Silifi of Crimson Stars (23008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23008;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23008, 'silificrimsonstars5xxplate');
@@ -84396,6 +90273,9 @@ VALUES (23008, 0, 83892523, 83892523)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23008, 0, 16784360);
 
+/* Weenie - MeleeWeapons - Peerless Smoldering Atlan Dagger (6202) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6202;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6202, 'daggerbestsmolderingmajor');
 
@@ -84438,6 +90318,9 @@ VALUES (6202, 67111924, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6202, 0, 16783993);
 
+/* Weenie - MeleeWeapons - Fang Mace (23547) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23547;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23547, 'macefangnew');
 
@@ -84471,6 +90354,9 @@ VALUES (23547, 13, True)
      , (23547, 14, True)
      , (23547, 19, True)
      , (23547, 22, True);
+
+/* Weenie - MeleeWeapons - Regal War Maul (29924) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 29924;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (29924, 'axeregal');
@@ -84510,6 +90396,9 @@ VALUES (29924, 13, True)
      , (29924, 14, True)
      , (29924, 19, True)
      , (29924, 22, True);
+
+/* Weenie - MeleeWeapons - Blackfire Sparking Atlan Sword (46095) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46095;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46095, 'ace46095-blackfiresparkingatlansword');
@@ -84559,6 +90448,9 @@ VALUES (46095, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46095, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Flaming Hatchet (48987) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48987;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48987, 'ace48987-flaminghatchet');
 
@@ -84604,6 +90496,9 @@ VALUES (48987, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48987, 0, 16792134);
 
+/* Weenie - MeleeWeapons - Frost Hatchet (48996) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48996;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48996, 'ace48996-frosthatchet');
 
@@ -84648,6 +90543,9 @@ VALUES (48996, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48996, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Smite (45439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45439;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45439, 'ace45439-smite');
@@ -84697,6 +90595,9 @@ VALUES (45439, 0, 83896851, 83896851);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45439, 0, 16791870);
+
+/* Weenie - MeleeWeapons - Tusked Axe of Ayan Baqur (45440) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45440;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45440, 'ace45440-tuskedaxeofayanbaqur');
@@ -84748,6 +90649,9 @@ VALUES (45440, 0, 83897120, 83897120);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45440, 0, 16792024);
 
+/* Weenie - MeleeWeapons - Blackfire Shivering Atlan Sword (46089) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46089;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46089, 'ace46089-blackfireshiveringatlansword');
 
@@ -84795,6 +90699,9 @@ VALUES (46089, 0, 83889237, 83889237)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46089, 0, 16783995);
+
+/* Weenie - MeleeWeapons - Shadowfire Isparian Spear (32645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32645;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32645, 'ace32645-shadowfireisparianspear');
@@ -84845,6 +90752,9 @@ VALUES (32645, 0, 83889235, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32645, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Subjugator (45449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45449;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45449, 'ace45449-subjugator');
 
@@ -84890,6 +90800,9 @@ VALUES (45449, 0, 83897092, 83897092);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45449, 0, 16791996);
 
+/* Weenie - MeleeWeapons - Burning Sands Blade (44266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 44266;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (44266, 'ace44266-burningsandsblade');
 
@@ -84925,6 +90838,9 @@ VALUES (44266, 13, True)
      , (44266, 14, True)
      , (44266, 19, True)
      , (44266, 22, True);
+
+/* Weenie - MeleeWeapons - Reinforced Falcon Banner with Crest (11765) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11765;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11765, 'bannerreinforcedcrestfalcon');
@@ -84965,6 +90881,9 @@ VALUES (11765, 0, 83893725, 83893724)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11765, 0, 16787138);
+
+/* Weenie - MeleeWeapons - Soul Bound Dagger (37580) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37580;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37580, 'ace37580-soulbounddagger');
@@ -85010,6 +90929,9 @@ VALUES (37580, 0, 83893927, 83892492)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37580, 0, 16787903);
+
+/* Weenie - MeleeWeapons - Flaming Weeping Dagger (25617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25617;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25617, 'daggerweepingfiery');
@@ -85058,6 +90980,9 @@ VALUES (25617, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25617, 0, 16789574);
 
+/* Weenie - MeleeWeapons - Enhanced Dissolving Isparian Spear (46240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46240;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46240, 'ace46240-enhanceddissolvingisparianspear');
 
@@ -85104,6 +91029,9 @@ VALUES (46240, 0, 83889235, 83893927)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46240, 0, 16783997);
+
+/* Weenie - MeleeWeapons - Enhanced Sparking Atlan Mace (46086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46086;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46086, 'ace46086-enhancedsparkingatlanmace');
@@ -85152,6 +91080,9 @@ VALUES (46086, 0, 83889688, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46086, 0, 16783996);
 
+/* Weenie - MeleeWeapons - Enhanced Stinging Atlan Mace (46087) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46087;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46087, 'ace46087-enhancedstingingatlanmace');
 
@@ -85198,6 +91129,9 @@ VALUES (46087, 0, 83889688, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46087, 0, 16783996);
+
+/* Weenie - MeleeWeapons - Enhanced Coruscating Isparian Spear (46238) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46238;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46238, 'ace46238-enhancedcoruscatingisparianspear');
@@ -85246,6 +91180,9 @@ VALUES (46238, 0, 83889235, 83893927)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46238, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Enhanced Assault Dirk (41896) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41896;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41896, 'ace41896-enhancedassaultdirk');
 
@@ -85286,6 +91223,9 @@ VALUES (41896, 13, True)
      , (41896, 15, True)
      , (41896, 19, True)
      , (41896, 22, True);
+
+/* Weenie - MeleeWeapons - Enhanced Smoldering Atlan Mace (46085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46085;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46085, 'ace46085-enhancedsmolderingatlanmace');
@@ -85334,6 +91274,9 @@ VALUES (46085, 0, 83889688, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46085, 0, 16783996);
 
+/* Weenie - MeleeWeapons - Enhanced Shimmering Isparian Spear (46208) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46208;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46208, 'ace46208-enhancedshimmeringisparianspear');
 
@@ -85376,6 +91319,9 @@ VALUES (46208, 0, 83889235, 83892492)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46208, 0, 16783997);
+
+/* Weenie - MeleeWeapons - Enhanced Flaming Isparian Spear (46236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46236;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46236, 'ace46236-enhancedflamingisparianspear');
@@ -85424,6 +91370,9 @@ VALUES (46236, 0, 83889235, 83893927)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46236, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Enhanced Shivering Atlan Mace (46084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46084;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46084, 'ace46084-enhancedshiveringatlanmace');
 
@@ -85470,6 +91419,9 @@ VALUES (46084, 0, 83889688, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46084, 0, 16783996);
+
+/* Weenie - MeleeWeapons - Enhanced Chilling Isparian Spear (46234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46234;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46234, 'ace46234-enhancedchillingisparianspear');
@@ -85518,6 +91470,9 @@ VALUES (46234, 0, 83889235, 83893927)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46234, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Ultimate Singularity Mace (41884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41884;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41884, 'ace41884-ultimatesingularitymace');
 
@@ -85562,6 +91517,9 @@ VALUES (41884, 0, 83886750, 83886750)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41884, 0, 16777923);
+
+/* Weenie - MeleeWeapons - Electric Weeping Dagger (25616) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25616;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25616, 'daggerweepingelectric');
@@ -85610,6 +91568,9 @@ VALUES (25616, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25616, 0, 16789574);
 
+/* Weenie - MeleeWeapons - Bludgeoning Sword (8637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8637;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8637, 'swordbludgeoning');
 
@@ -85656,6 +91617,9 @@ VALUES (8637, 0, 83888778, 83888778);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8637, 0, 16777893);
+
+/* Weenie - MeleeWeapons - Dagger (40719) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40719;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40719, 'ace40719-dagger');
@@ -85705,6 +91669,9 @@ VALUES (40719, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40719, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Flaming Jambiya (40722) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40722;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40722, 'ace40722-flamingjambiya');
 
@@ -85740,6 +91707,9 @@ VALUES (40722, 13, True)
      , (40722, 14, True)
      , (40722, 19, True)
      , (40722, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Knife (40733) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40733;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40733, 'ace40733-frostknife');
@@ -85780,6 +91750,9 @@ VALUES (40733, 13, True)
      , (40733, 19, True)
      , (40733, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Knife (40731) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40731;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40731, 'ace40731-lightningknife');
 
@@ -85818,6 +91791,9 @@ VALUES (40731, 13, True)
      , (40731, 14, True)
      , (40731, 19, True)
      , (40731, 22, True);
+
+/* Weenie - MeleeWeapons - Short Sword (40744) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40744;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40744, 'ace40744-shortsword');
@@ -85862,6 +91838,9 @@ VALUES (40744, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40744, 67111926, 0, 0);
 
+/* Weenie - MeleeWeapons - Acid Yaoji (40750) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40750;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40750, 'ace40750-acidyaoji');
 
@@ -85898,6 +91877,9 @@ VALUES (40750, 13, True)
      , (40750, 19, True)
      , (40750, 22, True);
 
+/* Weenie - MeleeWeapons - Lightning Yaoji (40751) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40751;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40751, 'ace40751-lightningyaoji');
 
@@ -85933,6 +91915,9 @@ VALUES (40751, 13, True)
      , (40751, 14, True)
      , (40751, 19, True)
      , (40751, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Spada (40747) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40747;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40747, 'ace40747-flamingspada');
@@ -85977,6 +91962,9 @@ VALUES (40747, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40747, 67116388, 0, 0);
 
+/* Weenie - MeleeWeapons - Lightning Short Sword (40741) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40741;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40741, 'ace40741-lightningshortsword');
 
@@ -86015,6 +92003,9 @@ VALUES (40741, 13, True)
      , (40741, 14, True)
      , (40741, 19, True)
      , (40741, 22, True);
+
+/* Weenie - MeleeWeapons - Singularity Sword (10884) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10884;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10884, 'swordsingularitymarae-xp');
@@ -86056,6 +92047,9 @@ VALUES (10884, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (10884, 67111922, 0, 0);
+
+/* Weenie - MeleeWeapons - Knife (40734) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40734;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40734, 'ace40734-knife');
@@ -86107,6 +92101,9 @@ VALUES (40734, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40734, 0, 16777925);
 
+/* Weenie - MeleeWeapons - Palenqual's Hoeroa of the Vortex (11439) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11439;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11439, 'staffhoeroavortex-xp');
 
@@ -86153,6 +92150,9 @@ VALUES (11439, 0, 83893670, 83893670)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11439, 0, 16787122);
 
+/* Weenie - MeleeWeapons - Frost Bandit Simi (40748) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40748;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40748, 'ace40748-frostbanditsimi');
 
@@ -86197,6 +92197,9 @@ VALUES (40748, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40748, 67116390, 0, 0);
 
+/* Weenie - MeleeWeapons - Starter Jambiya (523) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 523;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (523, 'newbiejambiya');
 
@@ -86235,6 +92238,9 @@ VALUES (523, 13, True)
      , (523, 14, True)
      , (523, 19, True)
      , (523, 22, True);
+
+/* Weenie - MeleeWeapons - Seasoned Explorer Katar (45950) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45950;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45950, 'ace45950-seasonedexplorerkatar');
@@ -86284,6 +92290,9 @@ VALUES (45950, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45950, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Amateur Explorer Yari (45945) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45945;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45945, 'ace45945-amateurexploreryari');
 
@@ -86330,6 +92339,9 @@ VALUES (45945, 0, 83886737, 83886737)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45945, 0, 16777983);
+
+/* Weenie - MeleeWeapons - Kotiae (11004) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11004;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11004, 'kotiaekanokeh-xp');
@@ -86379,6 +92391,9 @@ VALUES (11004, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11004, 0, 16777893);
 
+/* Weenie - MeleeWeapons - Esorcelled Falchion (26601) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 26601;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (26601, 'swordixir3');
 
@@ -86417,6 +92432,9 @@ VALUES (26601, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26601, 67114955, 0, 0);
 
+/* Weenie - MeleeWeapons - Weeping Staff (24205) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24205;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24205, 'staffisparianperfectweeping');
 
@@ -86453,6 +92471,9 @@ VALUES (24205, 13, True)
      , (24205, 14, True)
      , (24205, 19, True)
      , (24205, 22, True);
+
+/* Weenie - MeleeWeapons - Ravenous Axe (7564) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7564;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7564, 'axebattleravenous');
@@ -86493,6 +92514,9 @@ VALUES (7564, 13, True)
      , (7564, 15, True)
      , (7564, 19, True)
      , (7564, 22, True);
+
+/* Weenie - MeleeWeapons - Soul Bound Spear (37582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37582;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37582, 'ace37582-soulboundspear');
@@ -86541,6 +92565,9 @@ VALUES (37582, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37582, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Blackfire Shimmering Isparian Spear (46209) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46209;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46209, 'ace46209-blackfireshimmeringisparianspear');
 
@@ -86584,6 +92611,9 @@ VALUES (46209, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46209, 0, 16783997);
 
+/* Weenie - MeleeWeapons - Sharpened Virindi Scalpel (27593) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27593;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27593, 'scalpelvirindinew');
 
@@ -86617,6 +92647,9 @@ VALUES (27593, 13, True)
      , (27593, 14, True)
      , (27593, 19, True)
      , (27593, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Tachi (47681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47681;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47681, 'ace47681-flamingtachi');
@@ -86667,6 +92700,9 @@ VALUES (47681, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47681, 0, 16777915);
 
+/* Weenie - MeleeWeapons - Lightning Yaoji (3910) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3910;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3910, 'yaojielectric');
 
@@ -86703,6 +92739,9 @@ VALUES (3910, 13, True)
      , (3910, 19, True)
      , (3910, 22, True);
 
+/* Weenie - MeleeWeapons - Acid Simi (3869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3869;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3869, 'simiacid');
 
@@ -86738,6 +92777,9 @@ VALUES (3869, 13, True)
      , (3869, 14, True)
      , (3869, 19, True)
      , (3869, 22, True);
+
+/* Weenie - MeleeWeapons - Academy Broad Sword (45552) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45552;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45552, 'ace45552-academybroadsword');
@@ -86790,6 +92832,9 @@ VALUES (45552, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45552, 0, 16777963);
 
+/* Weenie - MeleeWeapons - A Society Sword (8743) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8743;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8743, 'kennewbiequest');
 
@@ -86829,6 +92874,9 @@ VALUES (8743, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8743, 67111920, 0, 0);
+
+/* Weenie - MeleeWeapons - Ultimate Singularity Axe (27818) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27818;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27818, 'axesingularitymaraenew');
@@ -86879,6 +92927,9 @@ VALUES (27818, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27818, 0, 16777886);
 
+/* Weenie - MeleeWeapons - Superior Sparking Atlan Claw (6185) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6185;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6185, 'clawbettersparkingmajor');
 
@@ -86913,6 +92964,9 @@ VALUES (6185, 13, True)
      , (6185, 14, True)
      , (6185, 19, True)
      , (6185, 22, True);
+
+/* Weenie - MeleeWeapons - Lightning Simi (3870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3870;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3870, 'simielectric');
@@ -86949,6 +93003,9 @@ VALUES (3870, 13, True)
      , (3870, 14, True)
      , (3870, 19, True)
      , (3870, 22, True);
+
+/* Weenie - MeleeWeapons - Ravenous Dagger (7566) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 7566;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (7566, 'daggerravenous');
@@ -86987,6 +93044,9 @@ VALUES (7566, 13, True)
      , (7566, 15, True)
      , (7566, 19, True)
      , (7566, 22, True);
+
+/* Weenie - MeleeWeapons - Superior Shivering Atlan Staff (6133) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6133;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6133, 'staffbettershiveringmajor');
@@ -87030,6 +93090,9 @@ VALUES (6133, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6133, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Frost Jo (3809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3809, 'jofrost');
 
@@ -87068,6 +93131,9 @@ VALUES (3809, 13, True)
      , (3809, 14, True)
      , (3809, 19, True)
      , (3809, 22, True);
+
+/* Weenie - MeleeWeapons - Flaming Jo (3808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3808;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3808, 'jofire');
@@ -87108,6 +93174,9 @@ VALUES (3808, 13, True)
      , (3808, 19, True)
      , (3808, 22, True);
 
+/* Weenie - MeleeWeapons - Starter Yari (539) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 539;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (539, 'newbieyari');
 
@@ -87144,6 +93213,9 @@ VALUES (539, 13, True)
      , (539, 14, True)
      , (539, 19, True)
      , (539, 22, True);
+
+/* Weenie - MeleeWeapons - Bronze Battle Axe (15871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15871;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15871, 'axebattlestatue-monsteronly');
@@ -87196,6 +93268,9 @@ VALUES (15871, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15871, 0, 16777885);
 
+/* Weenie - MeleeWeapons - Bronze Cestus (15874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 15874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (15874, 'cestusstatue-monsteronly');
 
@@ -87246,6 +93321,9 @@ VALUES (15874, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15874, 0, 16783508);
 
+/* Weenie - MeleeWeapons - Bound Singularity Axe (27820) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27820;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27820, 'axesingularitynew2');
 
@@ -87285,6 +93363,9 @@ VALUES (27820, 13, True)
      , (27820, 19, True)
      , (27820, 22, True);
 
+/* Weenie - MeleeWeapons - Sword of Lost Hope (24602) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24602;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24602, 'swordlosthopenew');
 
@@ -87319,6 +93400,9 @@ VALUES (24602, 13, True)
      , (24602, 15, True)
      , (24602, 19, True)
      , (24602, 22, True);
+
+/* Weenie - MeleeWeapons - Hafted Serpent Spear (11755) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11755;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11755, 'bannerhaftedspearserpent');
@@ -87362,6 +93446,9 @@ VALUES (11755, 0, 83893725, 83893725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11755, 0, 16787138);
 
+/* Weenie - MeleeWeapons - Falauloi (21433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21433;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21433, 'staffgaerlan');
 
@@ -87396,6 +93483,9 @@ VALUES (21433, 13, True)
      , (21433, 14, True)
      , (21433, 19, True)
      , (21433, 22, True);
+
+/* Weenie - MeleeWeapons - Phantom Axe (21353) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21353;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21353, 'axebattlephantom');
@@ -87436,6 +93526,9 @@ VALUES (21353, 13, True)
      , (21353, 15, True)
      , (21353, 19, True)
      , (21353, 22, True);
+
+/* Weenie - MeleeWeapons - Silifi of Crimson Night (23022) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23022;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23022, 'silificrimsonstars134plate');
@@ -87479,6 +93572,9 @@ VALUES (23022, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23022, 67111921, 0, 0);
 
+/* Weenie - MeleeWeapons - Battered Old Sword (31505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31505;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31505, 'ace31505-batteredoldsword');
 
@@ -87513,6 +93609,9 @@ VALUES (31505, 13, True)
      , (31505, 14, True)
      , (31505, 19, True)
      , (31505, 22, True);
+
+/* Weenie - MeleeWeapons - Training Budiaq (45545) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45545;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45545, 'ace45545-trainingbudiaq');
@@ -87560,6 +93659,9 @@ VALUES (45545, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45545, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Death's Grip Staff (45457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45457;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45457, 'ace45457-deathsgripstaff');
@@ -87611,6 +93713,9 @@ VALUES (45457, 0, 83897102, 83897102);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45457, 0, 16792006);
 
+/* Weenie - MeleeWeapons - Enhanced Dissolving Isparian Staff (46256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46256, 'ace46256-enhanceddissolvingisparianstaff');
 
@@ -87656,6 +93761,9 @@ VALUES (46256, 0, 83889237, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46256, 0, 16783994);
+
+/* Weenie - MeleeWeapons - Enhanced Sparking Atlan Sword (46103) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46103;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46103, 'ace46103-enhancedsparkingatlansword');
@@ -87705,6 +93813,9 @@ VALUES (46103, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46103, 0, 16783995);
 
+/* Weenie - MeleeWeapons - Enhanced Coruscating Isparian Staff (46254) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46254;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46254, 'ace46254-enhancedcoruscatingisparianstaff');
 
@@ -87750,6 +93861,9 @@ VALUES (46254, 0, 83889237, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46254, 0, 16783994);
+
+/* Weenie - MeleeWeapons - Enhanced Flaming Isparian Staff (46252) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46252;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46252, 'ace46252-enhancedflamingisparianstaff');
@@ -87797,6 +93911,9 @@ VALUES (46252, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46252, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Lightning Spear (47746) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47746;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47746, 'ace47746-lightningspear');
 
@@ -87833,6 +93950,9 @@ VALUES (47746, 13, True)
      , (47746, 14, True)
      , (47746, 19, True)
      , (47746, 22, True);
+
+/* Weenie - MeleeWeapons - Purified Mouryou Wakizashi (46831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46831;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46831, 'ace46831-purifiedmouryouwakizashi');
@@ -87871,6 +93991,9 @@ VALUES (46831, 13, True)
      , (46831, 15, True)
      , (46831, 19, True)
      , (46831, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Spear (47782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 47782;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (47782, 'ace47782-frostspear');
@@ -87919,6 +94042,9 @@ VALUES (47782, 0, 83889235, 83889235)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47782, 0, 16777955);
+
+/* Weenie - MeleeWeapons - Knife (23678) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23678;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23678, 'knifebanditdrudgelow');
@@ -87969,6 +94095,9 @@ VALUES (23678, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23678, 0, 16777925);
 
+/* Weenie - MeleeWeapons - Dagger (23671) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23671;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23671, 'daggerdrudgebanditmid');
 
@@ -88016,6 +94145,9 @@ VALUES (23671, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23671, 0, 16777993);
 
+/* Weenie - MeleeWeapons - Ukira (27372) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27372;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27372, 'swordukira');
 
@@ -88061,6 +94193,9 @@ VALUES (27372, 0, 83893670, 83893699)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27372, 0, 16790071);
 
+/* Weenie - MeleeWeapons - Hoeroa (11467) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11467;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11467, 'staffhoeroa-xp');
 
@@ -88105,6 +94240,9 @@ VALUES (11467, 0, 83893670, 83893699)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11467, 0, 16787122);
 
+/* Weenie - MeleeWeapons - Taiaha (11466) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11466;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11466, 'speartaiaha-xp');
 
@@ -88145,6 +94283,9 @@ VALUES (11466, 0, 83893670, 83893699)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11466, 0, 16787118);
+
+/* Weenie - MeleeWeapons - Waaika (11465) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11465;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11465, 'macewaaika-xp');
@@ -88189,6 +94330,9 @@ VALUES (11465, 0, 83893670, 83893699)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11465, 0, 16787115);
+
+/* Weenie - MeleeWeapons - Tewhate (11463) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11463;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11463, 'axetewhate-xp');
@@ -88235,6 +94379,9 @@ VALUES (11463, 0, 83893670, 83893699)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11463, 0, 16787109);
+
+/* Weenie - MeleeWeapons - Electric Spiked Club (53324) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 53324;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (53324, 'ace53324-electricspikedclub');
@@ -88290,6 +94437,9 @@ VALUES (53324, 0, 83889088, 83889088)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53324, 0, 16784596);
 
+/* Weenie - MeleeWeapons - Acidic Weeping Axe (25607) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25607;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25607, 'axeweepingacidic');
 
@@ -88328,6 +94478,9 @@ VALUES (25607, 13, True)
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25607, 67114519, 0, 0);
+
+/* Weenie - MeleeWeapons - Peerless Stinging Atlan Staff (6131) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6131;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6131, 'staffbeststingingmajor');
@@ -88371,6 +94524,9 @@ VALUES (6131, 67111923, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6131, 0, 16783994);
 
+/* Weenie - MeleeWeapons - Lightning Knife (3831) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 3831;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (3831, 'knifeelectric');
 
@@ -88409,6 +94565,9 @@ VALUES (3831, 13, True)
      , (3831, 14, True)
      , (3831, 19, True)
      , (3831, 22, True);
+
+/* Weenie - MeleeWeapons - Perfect Dissolving Isparian Claw (19815) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19815;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19815, 'clawisparianperfectstingingmajor');
@@ -88455,6 +94614,9 @@ VALUES (19815, 0, 83889238, 83893927);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19815, 0, 16783999);
 
+/* Weenie - MeleeWeapons - Superb Dissolving Isparian Staff (19976) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 19976;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (19976, 'staffispariansuperbstingingmajor');
 
@@ -88500,6 +94662,9 @@ VALUES (19976, 0, 83889237, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19976, 0, 16783994);
+
+/* Weenie - MeleeWeapons - Silifi of Crimson Stars (23003) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23003;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23003, 'silificrimsonstarsxxxisland');
@@ -88552,6 +94717,9 @@ VALUES (23003, 0, 83892523, 83892523)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23003, 0, 16784360);
 
+/* Weenie - MeleeWeapons - Greatsword of Iron Flame (41611) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 41611;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (41611, 'ace41611-greatswordofironflame');
 
@@ -88587,6 +94755,9 @@ VALUES (41611, 13, True)
      , (41611, 15, True)
      , (41611, 19, True)
      , (41611, 22, True);
+
+/* Weenie - MeleeWeapons - Frost Hatchet (48993) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48993;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48993, 'ace48993-frosthatchet');
@@ -88632,6 +94803,9 @@ VALUES (48993, 0, 83896665, 83896665);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48993, 0, 16792134);
+
+/* Weenie - MeleeWeapons - Rusted Knife (5158) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5158;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5158, 'knifedah');
@@ -88680,6 +94854,9 @@ VALUES (5158, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5158, 0, 16777925);
 
+/* Weenie - MeleeWeapons - Hiyp the Toad's pickaxe (25469) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25469;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25469, 'pickaxerot2');
 
@@ -88717,6 +94894,9 @@ VALUES (25469, 13, True)
      , (25469, 14, True)
      , (25469, 19, True)
      , (25469, 22, True);
+
+/* Weenie - MeleeWeapons - Walking Cane (52398) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 52398;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (52398, 'ace52398-walkingcane');
@@ -88766,6 +94946,9 @@ VALUES (52398, 0, 83892431, 83892431)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52398, 0, 16789796);
 
+/* Weenie - MeleeWeapons - Fire Yaoji (23720) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23720;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23720, 'yaojibanditfiredrudgemid');
 
@@ -88800,6 +94983,9 @@ VALUES (23720, 13, True)
      , (23720, 14, True)
      , (23720, 19, True)
      , (23720, 22, True);
+
+/* Weenie - MeleeWeapons - Singularity Katar (10877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 10877;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (10877, 'katarsingularitymarae-xp');
@@ -88849,6 +95035,9 @@ VALUES (10877, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10877, 0, 16777920);
 
+/* Weenie - MeleeWeapons - Scepter of Might (27094) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27094;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27094, 'macescepternew');
 
@@ -88893,6 +95082,9 @@ VALUES (27094, 67111924, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27094, 0, 16785712);
 
+/* Weenie - MeleeWeapons - Hafted Shreth Spear (11756) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11756;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11756, 'bannerhaftedspearshreth');
 
@@ -88935,6 +95127,9 @@ VALUES (11756, 0, 83893729, 83893729)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11756, 0, 16787143);
 
+/* Weenie - MeleeWeapons - Reinforced Shreth Spear (11782) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11782;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (11782, 'bannerreinforcedspearshreth');
 
@@ -88976,6 +95171,9 @@ VALUES (11782, 0, 83893729, 83893728)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11782, 0, 16787143);
+
+/* Weenie - MeleeWeapons - Atlan Mace (46071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 46071;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (46071, 'ace46071-atlanmace');
@@ -89022,6 +95220,9 @@ VALUES (46071, 0, 83889688, 83889688)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46071, 0, 16783996);
+
+/* Weenie - MeleeWeapons - Soul Bound Mace (45526) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45526;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45526, 'ace45526-soulboundmace');
@@ -89073,6 +95274,9 @@ VALUES (45526, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45526, 0, 16785974);
 
+/* Weenie - MeleeWeapons - Shadowfire Isparian Dagger (32643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32643;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32643, 'ace32643-shadowfireispariandagger');
 
@@ -89122,6 +95326,9 @@ VALUES (32643, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32643, 0, 16785974);
+
+/* Weenie - MeleeWeapons - Canfield Cleaver (45437) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45437;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45437, 'ace45437-canfieldcleaver');
@@ -89173,6 +95380,9 @@ VALUES (45437, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45437, 0, 16785974);
 
+/* Weenie - MeleeWeapons - Ridgeback Dagger (45444) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45444;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45444, 'ace45444-ridgebackdagger');
 
@@ -89222,6 +95432,9 @@ VALUES (45444, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45444, 0, 16785974);
+
+/* Weenie - MeleeWeapons - Squire's Glaive (45453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45453;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45453, 'ace45453-squiresglaive');
@@ -89273,6 +95486,9 @@ VALUES (45453, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45453, 0, 16785974);
 
+/* Weenie - MeleeWeapons - Tri-Blade Spear (45455) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45455;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45455, 'ace45455-tribladespear');
 
@@ -89322,6 +95538,9 @@ VALUES (45455, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45455, 0, 16785974);
+
+/* Weenie - MeleeWeapons - Staff of All Aspects (45456) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45456;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45456, 'ace45456-staffofallaspects');
@@ -89373,6 +95592,9 @@ VALUES (45456, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45456, 0, 16785974);
 
+/* Weenie - MeleeWeapons - Staff of Fettered Souls (45458) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45458;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45458, 'ace45458-staffoffetteredsouls');
 
@@ -89423,6 +95645,9 @@ VALUES (45458, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45458, 0, 16785974);
 
+/* Weenie - MeleeWeapons - Malachite Slasher (45468) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45468;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45468, 'ace45468-malachiteslasher');
 
@@ -89472,6 +95697,9 @@ VALUES (45468, 0, 83889238, 83889238)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45468, 0, 16785974);
+
+/* Weenie - MeleeWeapons - Lugian Club (541) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 541;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (541, 'lugianclub');

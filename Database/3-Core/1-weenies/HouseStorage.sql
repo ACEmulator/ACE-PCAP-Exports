@@ -1,3 +1,6 @@
+/* Weenie - HouseStorage - Storage (9687) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9687;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9687, 'storage');
 

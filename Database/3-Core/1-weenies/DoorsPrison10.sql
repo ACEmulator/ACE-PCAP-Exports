@@ -1,3 +1,6 @@
+/* Weenie - DoorsPrison10 - Door (577) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 577;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (577, 'doorprison10');
 

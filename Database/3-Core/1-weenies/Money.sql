@@ -1,3 +1,6 @@
+/* Weenie - Money - Pyreal (273) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 273;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (273, 'coinstack');
 
@@ -27,6 +30,9 @@ VALUES (273, 13, True)
      , (273, 14, True)
      , (273, 19, True);
 
+/* Weenie - Money - Celestial Hand Trade Token (38234) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38234;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38234, 'ace38234-celestialhandtradetoken');
 
@@ -55,6 +61,9 @@ VALUES (38234, 13, True)
      , (38234, 11, True)
      , (38234, 14, True)
      , (38234, 19, True);
+
+/* Weenie - Money - Mana-Infused Jungle Flower (38413) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38413;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38413, 'ace38413-manainfusedjungleflower');
@@ -92,6 +101,9 @@ VALUES (38413, 13, True)
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38413, 67111920, 0, 0);
 
+/* Weenie - Money - Pristine Mana Shard (38459) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38459;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38459, 'ace38459-pristinemanashard');
 
@@ -124,6 +136,9 @@ VALUES (38459, 13, True)
      , (38459, 11, True)
      , (38459, 14, True)
      , (38459, 19, True);
+
+/* Weenie - Money - Glowing Moar Gland (38405) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38405;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38405, 'ace38405-glowingmoargland');
@@ -158,6 +173,9 @@ VALUES (38405, 13, True)
      , (38405, 14, True)
      , (38405, 19, True);
 
+/* Weenie - Money - Glowing Jungle Lily (38407) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38407;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38407, 'ace38407-glowingjunglelily');
 
@@ -190,6 +208,9 @@ VALUES (38407, 13, True)
      , (38407, 14, True)
      , (38407, 19, True);
 
+/* Weenie - Money - Eldrytch Web Trade Token (38237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38237, 'ace38237-eldrytchwebtradetoken');
 
@@ -218,6 +239,9 @@ VALUES (38237, 13, True)
      , (38237, 11, True)
      , (38237, 14, True)
      , (38237, 19, True);
+
+/* Weenie - Money - Blight-encrusted Black Coral (40457) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 40457;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (40457, 'ace40457-blightencrustedblackcoral');
@@ -251,6 +275,9 @@ VALUES (40457, 13, True)
      , (40457, 14, True)
      , (40457, 19, True);
 
+/* Weenie - Money - Radiant Blood Trade Token (38236) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38236;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38236, 'ace38236-radiantbloodtradetoken');
 
@@ -279,6 +306,9 @@ VALUES (38236, 13, True)
      , (38236, 11, True)
      , (38236, 14, True)
      , (38236, 19, True);
+
+/* Weenie - Money - Deru Avatar's Gem (45769) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 45769;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (45769, 'ace45769-deruavatarsgem');

@@ -1,3 +1,6 @@
+/* Weenie - ContainersCorpses - Corpse of Hoary Mattekar (21) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 21;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (21, 'corpse');
 

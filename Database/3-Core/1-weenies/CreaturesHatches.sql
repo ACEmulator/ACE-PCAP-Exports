@@ -1,3 +1,6 @@
+/* Weenie - CreaturesHatches - Mysterious Hatch (32807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32807;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (32807, 'ace32807-mysterioushatch');
 
@@ -34,6 +37,9 @@ VALUES (32807, 12, True)
      , (32807, 41, True)
      , (32807, 42, True)
      , (32807, 1, True);
+
+/* Weenie - CreaturesHatches - Mysterious Hatch (48857) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48857;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48857, 'ace48857-mysterioushatch');
@@ -72,6 +78,9 @@ VALUES (48857, 12, True)
      , (48857, 42, True)
      , (48857, 1, True);
 
+/* Weenie - CreaturesHatches - Mysterious Hatch (48858) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48858;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48858, 'ace48858-mysterioushatch');
 
@@ -109,6 +118,9 @@ VALUES (48858, 12, True)
      , (48858, 42, True)
      , (48858, 1, True);
 
+/* Weenie - CreaturesHatches - Mysterious Hatch (48859) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48859;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48859, 'ace48859-mysterioushatch');
 
@@ -145,6 +157,9 @@ VALUES (48859, 12, True)
      , (48859, 41, True)
      , (48859, 42, True)
      , (48859, 1, True);
+
+/* Weenie - CreaturesHatches - Mysterious Hatch (48875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 48875;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (48875, 'ace48875-mysterioushatch');

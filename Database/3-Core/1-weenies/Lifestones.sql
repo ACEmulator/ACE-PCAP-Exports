@@ -1,3 +1,6 @@
+/* Weenie - Lifestones - Life Stone (509) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 509;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (509, 'lifestone');
 
@@ -29,6 +32,9 @@ VALUES (509, 11, True)
      , (509, 14, True)
      , (509, 19, True)
      , (509, 1, True);
+
+/* Weenie - Lifestones - Life Stone (23618) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23618;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23618, 'lifestonenew');
@@ -62,6 +68,9 @@ VALUES (23618, 11, True)
      , (23618, 19, True)
      , (23618, 1, True);
 
+/* Weenie - Lifestones - Lugian Lifestone (27096) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 27096;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (27096, 'lifestonelugian');
 
@@ -94,6 +103,9 @@ VALUES (27096, 11, True)
      , (27096, 19, True)
      , (27096, 1, True);
 
+/* Weenie - Lifestones - Mana Foci (37165) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 37165;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (37165, 'ace37165-manafoci');
 
@@ -122,6 +134,9 @@ VALUES (37165, 11, True)
      , (37165, 19, True)
      , (37165, 1, True);
 
+/* Weenie - Lifestones - Eldrytch Web Banner (38054) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38054;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38054, 'ace38054-eldrytchwebbanner');
 
@@ -148,6 +163,9 @@ VALUES (38054, 11, True)
      , (38054, 14, True)
      , (38054, 19, True)
      , (38054, 1, True);
+
+/* Weenie - Lifestones - Radiant Blood Banner (38055) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38055;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38055, 'ace38055-radiantbloodbanner');
@@ -176,6 +194,9 @@ VALUES (38055, 11, True)
      , (38055, 19, True)
      , (38055, 1, True);
 
+/* Weenie - Lifestones - Celestial Hand Banner (38053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 38053;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (38053, 'ace38053-celestialhandbanner');
 
@@ -202,6 +223,9 @@ VALUES (38053, 11, True)
      , (38053, 14, True)
      , (38053, 19, True)
      , (38053, 1, True);
+
+/* Weenie - Lifestones - Life Stone (24572) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24572;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24572, 'lifestonenewcandethkeep');

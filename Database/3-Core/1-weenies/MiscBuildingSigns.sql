@@ -1,3 +1,6 @@
+/* Weenie - MiscBuildingSigns - Blacksmith  (637) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 637;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (637, 'blacksmithsign');
 
@@ -32,6 +35,9 @@ VALUES (637, 0, 83891055, 83889904);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (637, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Food, Garments, Books  (643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 643;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (643, 'easthamfoodbookssign');
@@ -68,6 +74,9 @@ VALUES (643, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (643, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Chirurgeon (639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 639;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (639, 'easthamchirurgeonsign');
 
@@ -102,6 +111,9 @@ VALUES (639, 0, 83891055, 83889901);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (639, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Provisioner (641) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 641;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (641, 'easthamprovisionersign');
@@ -138,6 +150,9 @@ VALUES (641, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (641, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Lapidary  (640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 640;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (640, 'easthamlapidarysign');
 
@@ -172,6 +187,9 @@ VALUES (640, 0, 83891055, 83889909);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (640, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - The Leaping Stallion (642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 642;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (642, 'easthamtavernsign');
@@ -208,6 +226,9 @@ VALUES (642, 0, 83891055, 83889908);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (642, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Bowyer  (638) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 638;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (638, 'bowyersign');
 
@@ -243,6 +264,9 @@ VALUES (638, 0, 83891055, 83889907);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (638, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - The Full Net (4513) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4513;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4513, 'nantogrocerysign');
 
@@ -276,6 +300,9 @@ VALUES (4513, 0, 83891180, 83891182);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4513, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Southern Town Bows (4512) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4512;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4512, 'nantobowyersign');
@@ -311,6 +338,9 @@ VALUES (4512, 0, 83891180, 83891181);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4512, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Ton Wing's Smithy (4511) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4511;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4511, 'nantoblacksmithsign');
 
@@ -344,6 +374,9 @@ VALUES (4511, 0, 83891180, 83891178);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4511, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Jewels of the South (4516) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4516;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4516, 'nantojewelersign');
@@ -379,6 +412,9 @@ VALUES (4516, 0, 83891180, 83891183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4516, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Tailor Yajyi (4520) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4520;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4520, 'nantotailorsign');
 
@@ -413,6 +449,9 @@ VALUES (4520, 0, 83891180, 83891177);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4520, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Agent of the Arcanum  (12304) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 12304;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (12304, 'arcanumagentsign');
 
@@ -441,6 +480,9 @@ VALUES (12304, 12, True)
      , (12304, 19, True)
      , (12304, 1, True);
 
+/* Weenie - MiscBuildingSigns - South Town Supplies (4517) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4517;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4517, 'nantoprovisionersign');
 
@@ -468,6 +510,9 @@ VALUES (4517, 12, True)
      , (4517, 14, True)
      , (4517, 19, True)
      , (4517, 1, True);
+
+/* Weenie - MiscBuildingSigns - Southern End Tavern (4521) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4521;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4521, 'nantotavernsign');
@@ -503,6 +548,9 @@ VALUES (4521, 0, 83891180, 83891184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4521, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The Touch of Healing (4515) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4515;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4515, 'nantohealersign');
 
@@ -536,6 +584,9 @@ VALUES (4515, 0, 83891180, 83891179);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4515, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - The Nanto Scribe (4518) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4518;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4518, 'nantoscribesign');
@@ -571,6 +622,9 @@ VALUES (4518, 0, 83891180, 83891185);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4518, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The Oak Talisman (4510) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4510;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4510, 'nantoarchmagesign');
 
@@ -598,6 +652,9 @@ VALUES (4510, 12, True)
      , (4510, 14, True)
      , (4510, 19, True)
      , (4510, 1, True);
+
+/* Weenie - MiscBuildingSigns - The Flaming Phoenix (2272) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2272;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2272, 'baishipubsign');
@@ -634,6 +691,9 @@ VALUES (2272, 0, 83891055, 83891060);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2272, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Ginan's Goods (2274) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2274;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2274, 'baishishopkeepsign');
 
@@ -668,6 +728,9 @@ VALUES (2274, 0, 83891055, 83889906);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2274, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - The Laden Bushel (2269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2269;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2269, 'baishigrocersign');
@@ -704,6 +767,9 @@ VALUES (2269, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2269, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Physician (2270) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2270;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2270, 'baishihealersign');
 
@@ -738,6 +804,9 @@ VALUES (2270, 0, 83891055, 83889901);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2270, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Scribe Shop (2273) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2273;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2273, 'baishiscribesign');
@@ -774,6 +843,9 @@ VALUES (2273, 0, 83891055, 83889905);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2273, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Weaver Zhoyong (2275) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2275;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2275, 'baishitailorsign');
 
@@ -808,6 +880,9 @@ VALUES (2275, 0, 83891055, 83889899);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2275, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Blade's Heart Forge (2266) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2266;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2266, 'baishiblacksmithsign');
@@ -844,6 +919,9 @@ VALUES (2266, 0, 83891055, 83889904);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2266, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - The Soaring Shaft (2267) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2267;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2267, 'baishibowyersign');
 
@@ -878,6 +956,9 @@ VALUES (2267, 0, 83891055, 83889907);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2267, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Jeweler Shop (2271) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2271;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2271, 'baishijewelersign');
@@ -914,6 +995,9 @@ VALUES (2271, 0, 83891055, 83889909);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2271, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Smithy (2281) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2281;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2281, 'sawatoblacksmithsign');
 
@@ -947,6 +1031,9 @@ VALUES (2281, 0, 83891180, 83891178);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2281, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - The Bending Reed (2287) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2287;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2287, 'sawatopubsign');
@@ -982,6 +1069,9 @@ VALUES (2287, 0, 83891180, 83891184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2287, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The Emerald Unicorn (2286) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2286;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2286, 'sawatojewelersign');
 
@@ -1015,6 +1105,9 @@ VALUES (2286, 0, 83891180, 83891183);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2286, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Yunen's Wares (2288) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2288;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2288, 'sawatoshopkeepsign');
@@ -1050,6 +1143,9 @@ VALUES (2288, 0, 83891180, 83891182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2288, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The True Shot (2282) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2282;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2282, 'sawatobowyersign');
 
@@ -1083,6 +1179,9 @@ VALUES (2282, 0, 83891180, 83891181);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2282, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Femsen House (2284) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2284;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2284, 'sawatofensenhousesign');
@@ -1118,6 +1217,9 @@ VALUES (2284, 0, 83891180, 83891179);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2284, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Food & Garments (2285) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2285;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2285, 'sawatogrocersign');
 
@@ -1152,6 +1254,9 @@ VALUES (2285, 0, 83891180, 83891182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2285, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Master Tawa's (2280) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2280;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2280, 'sawatoarchmagesign');
 
@@ -1180,6 +1285,9 @@ VALUES (2280, 12, True)
      , (2280, 19, True)
      , (2280, 1, True);
 
+/* Weenie - MiscBuildingSigns - The Magi's Refuge (8446) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8446;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8446, 'krystarchmagesign');
 
@@ -1207,6 +1315,9 @@ VALUES (8446, 12, True)
      , (8446, 14, True)
      , (8446, 19, True)
      , (8446, 1, True);
+
+/* Weenie - MiscBuildingSigns - The Wildsong Inn (8449) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8449;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8449, 'krystgrocersign');
@@ -1242,6 +1353,9 @@ VALUES (8449, 0, 83891180, 83891182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8449, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The Wildsong Inn (8453) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8453;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8453, 'krysttavernsign');
 
@@ -1275,6 +1389,9 @@ VALUES (8453, 0, 83891180, 83891184);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8453, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - The Olthoi's Eye (8448) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8448;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8448, 'krystbowyersign');
@@ -1310,6 +1427,9 @@ VALUES (8448, 0, 83891180, 83891181);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8448, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The Emerald Grove (8450) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8450;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8450, 'krystjewelersign');
 
@@ -1343,6 +1463,9 @@ VALUES (8450, 0, 83891180, 83891183);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8450, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - The Whipping Vine (8447) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8447;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8447, 'krystarmorsign');
@@ -1378,6 +1501,9 @@ VALUES (8447, 0, 83891180, 83891178);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8447, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The Whipping Vine (8454) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8454;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8454, 'krystweaponsign');
 
@@ -1411,6 +1537,9 @@ VALUES (8454, 0, 83891180, 83891178);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8454, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Nature's Balm (8451) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8451;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8451, 'krystscribesign');
@@ -1446,6 +1575,9 @@ VALUES (8451, 0, 83891180, 83891185);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8451, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Sign (1351) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1351;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1351, 'onewaywarningsign');
 
@@ -1475,6 +1607,9 @@ VALUES (1351, 12, True)
      , (1351, 19, True)
      , (1351, 1, True);
 
+/* Weenie - MiscBuildingSigns - Shikiru Nohon (5434) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5434;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5434, 'hebianarchmagesign');
 
@@ -1502,6 +1637,9 @@ VALUES (5434, 12, True)
      , (5434, 14, True)
      , (5434, 19, True)
      , (5434, 1, True);
+
+/* Weenie - MiscBuildingSigns - Red Iron Forge (873) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 873;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (873, 'hebianblacksmithsign');
@@ -1537,6 +1675,9 @@ VALUES (873, 0, 83891180, 83891178);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (873, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The Golden Book (877) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 877;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (877, 'hebianscribesign');
 
@@ -1571,6 +1712,9 @@ VALUES (877, 0, 83891180, 83891185);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (877, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - West Wind Tower (880) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 880;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (880, 'hebiantowersign');
 
@@ -1598,6 +1742,9 @@ VALUES (880, 12, True)
      , (880, 14, True)
      , (880, 19, True)
      , (880, 1, True);
+
+/* Weenie - MiscBuildingSigns - Moonstone House (875) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 875;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (875, 'hebianjewelersign');
@@ -1633,6 +1780,9 @@ VALUES (875, 0, 83891180, 83891183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (875, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Healer Kouxao (874) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 874;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (874, 'hebianhealersign');
 
@@ -1666,6 +1816,9 @@ VALUES (874, 0, 83891180, 83891179);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (874, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - The Shining Shield (876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 876;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (876, 'hebianpubsign');
@@ -1701,6 +1854,9 @@ VALUES (876, 0, 83891180, 83891184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (876, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The Laughing Kirin (879) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 879;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (879, 'hebiantavernsign');
 
@@ -1734,6 +1890,9 @@ VALUES (879, 0, 83891180, 83891184);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (879, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Rayyib's Defense (872) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 872;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (872, 'hebianarmorsign');
@@ -1769,6 +1928,9 @@ VALUES (872, 0, 83891180, 83891178);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (872, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Aldera's Blades (881) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 881;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (881, 'hebianweaponsign');
 
@@ -1802,6 +1964,9 @@ VALUES (881, 0, 83891180, 83891178);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (881, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Grocery (5432) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5432;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5432, 'hebiangrocersign');
@@ -1837,6 +2002,9 @@ VALUES (5432, 0, 83891180, 83891182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5432, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Weaver Chueh (878) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 878;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (878, 'hebiantailorsign');
 
@@ -1870,6 +2038,9 @@ VALUES (878, 0, 83891180, 83891177);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (878, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Fletcher (5433) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5433;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5433, 'hebianbowyersign');
@@ -1905,6 +2076,9 @@ VALUES (5433, 0, 83891180, 83891181);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5433, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The Tree of Healing (4501) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4501;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4501, 'linhealersign');
 
@@ -1938,6 +2112,9 @@ VALUES (4501, 0, 83891180, 83891177);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4501, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Forest Magical Supplies (4498) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4498;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4498, 'linarchmagesign');
@@ -1973,6 +2150,9 @@ VALUES (4498, 0, 83891180, 83891177);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4498, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Gems of the Woods (4502) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4502;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4502, 'linjewelersign');
 
@@ -2006,6 +2186,9 @@ VALUES (4502, 0, 83891180, 83891183);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4502, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Tekai the Scribe (4503) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4503;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4503, 'linscribesign');
@@ -2041,6 +2224,9 @@ VALUES (4503, 0, 83891180, 83891185);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4503, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Lin's Armor and Weapons (4499) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4499;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4499, 'linblacksmithsign');
 
@@ -2075,6 +2261,9 @@ VALUES (4499, 0, 83891180, 83891178);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4499, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Forest's Blessing Bows (5431) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5431;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5431, 'linbowyersign');
 
@@ -2108,6 +2297,9 @@ VALUES (5431, 0, 83891180, 83891181);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5431, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Bowyer Tentou (808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 808;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (808, 'mayoibowyersign');
@@ -2144,6 +2336,9 @@ VALUES (808, 0, 83891055, 83889907);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (808, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Tonsho's Remedies (807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 807;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (807, 'mayoihealersign');
 
@@ -2178,6 +2373,9 @@ VALUES (807, 0, 83891055, 83889901);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (807, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Food and Clothing (806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 806;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (806, 'mayoigrocersign');
@@ -2214,6 +2412,9 @@ VALUES (806, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (806, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Ten Ox House (804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 804;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (804, 'mayoipubsign');
 
@@ -2248,6 +2449,9 @@ VALUES (804, 0, 83891055, 83889910);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (804, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Jade Sepent (803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 803;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (803, 'mayoijewelersign');
@@ -2284,6 +2488,9 @@ VALUES (803, 0, 83891055, 83889909);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (803, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Spire of Serenity (852) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 852;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (852, 'shoushishopkeepsign');
 
@@ -2311,6 +2518,9 @@ VALUES (852, 12, True)
      , (852, 14, True)
      , (852, 19, True)
      , (852, 1, True);
+
+/* Weenie - MiscBuildingSigns - Three Swords Hall (850) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 850;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (850, 'shoushipubsign');
@@ -2346,6 +2556,9 @@ VALUES (850, 0, 83891180, 83891184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (850, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Gonjoku's Goods (844) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 844;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (844, 'shoushiapparelsign');
 
@@ -2379,6 +2592,9 @@ VALUES (844, 0, 83891180, 83891177);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (844, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Metalworker (845) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 845;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (845, 'shoushiblacksmithsign');
@@ -2414,6 +2630,9 @@ VALUES (845, 0, 83891180, 83891178);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (845, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Konaji's Jewels (849) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 849;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (849, 'shoushijewelersign');
 
@@ -2447,6 +2666,9 @@ VALUES (849, 0, 83891180, 83891183);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (849, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Bowyer Zhofon (846) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 846;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (846, 'shoushibowyersign');
@@ -2482,6 +2704,9 @@ VALUES (846, 0, 83891180, 83891181);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (846, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Tailor Ma (853) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 853;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (853, 'shoushitailorsign');
 
@@ -2515,6 +2740,9 @@ VALUES (853, 0, 83891180, 83891177);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (853, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Grocery (847) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 847;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (847, 'shoushigrocersign');
@@ -2550,6 +2778,9 @@ VALUES (847, 0, 83891180, 83891182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (847, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Brush and Stone (851) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 851;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (851, 'shoushiscribesign');
 
@@ -2583,6 +2814,9 @@ VALUES (851, 0, 83891180, 83891185);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (851, 0, 16782236);
+
+/* Weenie - MiscBuildingSigns - Black Swan Inn (848) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 848;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (848, 'shoushiinnsign');
@@ -2618,6 +2852,9 @@ VALUES (848, 0, 83891180, 83891184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (848, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - The Gentle Hand (4136) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4136;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4136, 'shoushihealersign');
 
@@ -2652,6 +2889,9 @@ VALUES (4136, 0, 83891180, 83891179);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4136, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Archmage Chen Wah-Ji (4135) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4135;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4135, 'shoushiarchmagesign');
 
@@ -2679,6 +2919,9 @@ VALUES (4135, 12, True)
      , (4135, 14, True)
      , (4135, 19, True)
      , (4135, 1, True);
+
+/* Weenie - MiscBuildingSigns - Seven Stars Tower (2265) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2265;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2265, 'baishiarchmagesign');
@@ -2714,6 +2957,9 @@ VALUES (2265, 0, 83891055, 83889857);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2265, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Ulgrim's House (23882) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 23882;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (23882, 'signulgrimshouse');
@@ -2753,6 +2999,9 @@ VALUES (23882, 0, 83891055, 83891060);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23882, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Danby's Outpost (9683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 9683;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (9683, 'danbysign');
 
@@ -2787,6 +3036,9 @@ VALUES (9683, 0, 83891055, 83893300);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9683, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - The Healer's Home (24585) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24585;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24585, 'candethkeephealersign');
@@ -2823,6 +3075,9 @@ VALUES (24585, 0, 83891055, 83889901);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24585, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Shot in the Arm Bowyers (24583) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24583;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24583, 'candethkeepbowyersign');
 
@@ -2858,6 +3113,9 @@ VALUES (24583, 0, 83891055, 83889907);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24583, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - House of Bones (24876) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24876;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24876, 'candethkeepivorycraftersign');
 
@@ -2886,6 +3144,9 @@ VALUES (24876, 12, True)
      , (24876, 14, True)
      , (24876, 19, True)
      , (24876, 1, True);
+
+/* Weenie - MiscBuildingSigns - Rkos and Ry'zir's Metalworks (24582) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24582;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24582, 'candethkeepblacksmithsign');
@@ -2922,6 +3183,9 @@ VALUES (24582, 0, 83891055, 83889904);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24582, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Lady Dain's Tower (Archmagus) (24581) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24581;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24581, 'candethkeeparchmagesign');
 
@@ -2954,6 +3218,9 @@ VALUES (24581, 0, 83892071, 83892184);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24581, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Sangi's Goods (24584) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24584;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24584, 'candethkeepgrocersign');
@@ -2990,6 +3257,9 @@ VALUES (24584, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24584, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - The Ravenous Mattekar Tavern (24586) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 24586;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (24586, 'candethkeeppubsign');
 
@@ -3025,6 +3295,9 @@ VALUES (24586, 0, 83891055, 83891060);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24586, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Frost Haven  (25797) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 25797;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (25797, 'frosthavensign');
 
@@ -3054,6 +3327,9 @@ VALUES (25797, 12, True)
      , (25797, 19, True)
      , (25797, 1, True);
 
+/* Weenie - MiscBuildingSigns - Westwatch Outpost (31218) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31218;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31218, 'ace31218-westwatchoutpost');
 
@@ -3081,6 +3357,9 @@ VALUES (31218, 12, True)
      , (31218, 11, True)
      , (31218, 19, True)
      , (31218, 1, True);
+
+/* Weenie - MiscBuildingSigns - Eastwatch Outpost (31219) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 31219;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (31219, 'ace31219-eastwatchoutpost');
@@ -3110,6 +3389,9 @@ VALUES (31219, 12, True)
      , (31219, 19, True)
      , (31219, 1, True);
 
+/* Weenie - MiscBuildingSigns - Tusker Emporium Sign (22718) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 22718;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (22718, 'tuskeremporiumsign');
 
@@ -3138,6 +3420,9 @@ VALUES (22718, 12, True)
      , (22718, 19, True)
      , (22718, 1, True);
 
+/* Weenie - MiscBuildingSigns - West Shoushi Outpost (5079) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5079;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5079, 'shoushiwestoutpostsign');
 
@@ -3165,6 +3450,9 @@ VALUES (5079, 12, True)
      , (5079, 11, True)
      , (5079, 19, True)
      , (5079, 1, True);
+
+/* Weenie - MiscBuildingSigns - Fispur's Foodstuffs (705) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 705;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (705, 'holtburggrocersign');
@@ -3201,6 +3489,9 @@ VALUES (705, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (705, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Helm and Shield (708) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 708;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (708, 'holtburgpubsign');
 
@@ -3235,6 +3526,9 @@ VALUES (708, 0, 83891055, 83891060);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (708, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Ecutha's Raiments (709) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 709;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (709, 'holtburgtailorsign');
@@ -3271,6 +3565,9 @@ VALUES (709, 0, 83891055, 83889899);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (709, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Thelnoth's Remedies (706) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 706;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (706, 'holtburghealersign');
 
@@ -3305,6 +3602,9 @@ VALUES (706, 0, 83891055, 83889901);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (706, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - The Taut String (704) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 704;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (704, 'holtburgbowyersign');
@@ -3341,6 +3641,9 @@ VALUES (704, 0, 83891055, 83889907);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (704, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Monyra's Jewels (707) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 707;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (707, 'holtburgjewelersign');
 
@@ -3376,6 +3679,9 @@ VALUES (707, 0, 83891055, 83889909);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (707, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - South Holtburg Outpost (5068) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5068;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5068, 'holtburgsouthoutpostsign');
 
@@ -3403,6 +3709,9 @@ VALUES (5068, 12, True)
      , (5068, 11, True)
      , (5068, 19, True)
      , (5068, 1, True);
+
+/* Weenie - MiscBuildingSigns - Hildar House  (681) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 681;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (681, 'cragstonehildarhousesign');
@@ -3439,6 +3748,9 @@ VALUES (681, 0, 83891055, 83889901);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (681, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Thorsten's Rest (685) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 685;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (685, 'cragstonepubsign');
 
@@ -3473,6 +3785,9 @@ VALUES (685, 0, 83891055, 83891060);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (685, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Gems and Jewels (682) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 682;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (682, 'cragstonejewelersign');
@@ -3509,6 +3824,9 @@ VALUES (682, 0, 83891055, 83889909);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (682, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Arms and Armor (679) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 679;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (679, 'cragstoneblacksmithsign');
 
@@ -3543,6 +3861,9 @@ VALUES (679, 0, 83891055, 83889904);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (679, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Gondibyr Langarl's Magic Supplies (684) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 684;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (684, 'cragstonemagussign');
@@ -3579,6 +3900,9 @@ VALUES (684, 0, 83891055, 83889857);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (684, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Ledine's Wares (683) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 683;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (683, 'cragstoneledinessign');
 
@@ -3613,6 +3937,9 @@ VALUES (683, 0, 83891055, 83889906);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (683, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Scildith's Bows (680) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 680;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (680, 'cragstonebowyersign');
@@ -3649,6 +3976,9 @@ VALUES (680, 0, 83891055, 83889907);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (680, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - The Humble Healer (4420) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4420;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4420, 'lytelthorpehealersign');
 
@@ -3683,6 +4013,9 @@ VALUES (4420, 0, 83891055, 83889901);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4420, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Lone Tree Bows (4417) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4417;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4417, 'lytelthorpebowyersign');
@@ -3719,6 +4052,9 @@ VALUES (4417, 0, 83891055, 83889907);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4417, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Dafrida the Tailor (4426) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4426;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4426, 'lytelthorpetailorsign');
 
@@ -3753,6 +4089,9 @@ VALUES (4426, 0, 83891055, 83889899);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4426, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - General Supplies (4423) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4423;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4423, 'lytelthorpeshopkeepersign');
@@ -3789,6 +4128,9 @@ VALUES (4423, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4423, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - The Magic of Iiwah (4415) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4415;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4415, 'lytelthorpearchmagesign');
 
@@ -3823,6 +4165,9 @@ VALUES (4415, 0, 83891055, 83889857);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4415, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - The Scholar's Study	 (4424) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4424;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4424, 'lytelthorpeshopscribesign');
@@ -3859,6 +4204,9 @@ VALUES (4424, 0, 83891055, 83889905);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4424, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Peldin's Bows (725) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 725;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (725, 'glendenbowyersign');
 
@@ -3893,6 +4241,9 @@ VALUES (725, 0, 83891055, 83889907);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (725, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - The Ringing Anvil (724) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 724;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (724, 'glendenblacksmithsign');
@@ -3929,6 +4280,9 @@ VALUES (724, 0, 83891055, 83889904);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (724, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Chirurgeon (727) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 727;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (727, 'glendenhealersign');
 
@@ -3963,6 +4317,9 @@ VALUES (727, 0, 83891055, 83889901);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (727, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - The House of Trell (729) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 729;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (729, 'glendenshopsign');
@@ -3999,6 +4356,9 @@ VALUES (729, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (729, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Food and Attire (726) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 726;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (726, 'glendengrocersign');
 
@@ -4033,6 +4393,9 @@ VALUES (726, 0, 83891055, 83889906);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (726, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - The Overlook (728) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 728;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (728, 'glendenpubsign');
@@ -4069,6 +4432,9 @@ VALUES (728, 0, 83891055, 83891060);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (728, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Fort Tethana  (2326) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2326;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2326, 'forttethanasign');
 
@@ -4097,6 +4463,9 @@ VALUES (2326, 12, True)
      , (2326, 14, True)
      , (2326, 19, True)
      , (2326, 1, True);
+
+/* Weenie - MiscBuildingSigns - The Purple Tumerok (2325) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2325;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2325, 'forttethanashopkeepersign');
@@ -4133,6 +4502,9 @@ VALUES (2325, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2325, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - The Lone Arrow (2322) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2322;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2322, 'forttethanabowyersign');
 
@@ -4167,6 +4539,9 @@ VALUES (2322, 0, 83891055, 83889907);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2322, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Smith Magarith (2321) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2321;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2321, 'forttethanablacksmithsign');
@@ -4203,6 +4578,9 @@ VALUES (2321, 0, 83891055, 83889904);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2321, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Armaments (2237) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2237;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2237, 'dryreachblacksmithsign');
 
@@ -4237,6 +4615,9 @@ VALUES (2237, 0, 83891055, 83889904);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2237, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - The Tumerok's Head (2242) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2242;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2242, 'dryreachtavernsign');
@@ -4273,6 +4654,9 @@ VALUES (2242, 0, 83891055, 83891060);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2242, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Supplies (2241) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2241;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2241, 'dryreachsuppliessign');
 
@@ -4307,6 +4691,9 @@ VALUES (2241, 0, 83891055, 83889906);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2241, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Manor Beldryn  (2240) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 2240;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (2240, 'dryreachmanorbeldrynsign');
@@ -4343,6 +4730,9 @@ VALUES (2240, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2240, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Adornments (1085) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1085;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1085, 'eastrithwicjewelersign');
 
@@ -4377,6 +4767,9 @@ VALUES (1085, 0, 83891055, 83889909);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1085, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Skull and Flagons (1086) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1086;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1086, 'eastrithwicpubsign');
@@ -4413,6 +4806,9 @@ VALUES (1086, 0, 83891055, 83891060);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1086, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Tenxien's Garments (1084) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1084;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1084, 'eastrithwictailorsign');
 
@@ -4447,6 +4843,9 @@ VALUES (1084, 0, 83891055, 83889899);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1084, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Healer (5617) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5617;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5617, 'rithwichealersign');
@@ -4483,6 +4882,9 @@ VALUES (5617, 0, 83891055, 83889901);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5617, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - The Gilded Tome  (645) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 645;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (645, 'rithwicgildedtomesign');
 
@@ -4517,6 +4919,9 @@ VALUES (645, 0, 83891055, 83889905);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (645, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Fletcher (5589) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5589;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5589, 'rithwicbowyersign');
@@ -4553,6 +4958,9 @@ VALUES (5589, 0, 83891055, 83889907);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5589, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - The Royal Firkin (646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 646;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (646, 'rithwicroyalfirkinsign');
 
@@ -4587,6 +4995,9 @@ VALUES (646, 0, 83891055, 83891060);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (646, 0, 16780409);
+
+/* Weenie - MiscBuildingSigns - Tailor  (633) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 633;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (633, 'tailorsign');
@@ -4623,6 +5034,9 @@ VALUES (633, 0, 83891055, 83889899);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (633, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - Lady of Blades (647) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 647;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (647, 'rithwicweaponsmithsign');
 
@@ -4658,6 +5072,9 @@ VALUES (647, 0, 83891055, 83889904);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (647, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - South Rithwic Outpost (5075) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5075;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5075, 'rithwicsouthoutpostsign');
 
@@ -4686,6 +5103,9 @@ VALUES (5075, 12, True)
      , (5075, 19, True)
      , (5075, 1, True);
 
+/* Weenie - MiscBuildingSigns - East Rithwic Outpost (5074) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5074;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5074, 'rithwiceastoutpostsign');
 
@@ -4713,6 +5133,9 @@ VALUES (5074, 12, True)
      , (5074, 11, True)
      , (5074, 19, True)
      , (5074, 1, True);
+
+/* Weenie - MiscBuildingSigns - The Eagle's Blade (1071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1071;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1071, 'yaraqblacksmithsign');
@@ -4747,6 +5170,9 @@ VALUES (1071, 0, 83892071, 83892180);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1071, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Nuya's Necessities (1073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1073;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1073, 'yaraqgrocersign');
 
@@ -4779,6 +5205,9 @@ VALUES (1073, 0, 83892071, 83892187);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1073, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - The Cerulean Cove (1076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1076;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1076, 'yaraqtavernsign');
@@ -4813,6 +5242,9 @@ VALUES (1076, 0, 83892071, 83892183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1076, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - House of Treasure (4643) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4643;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4643, 'alarqasjewelersign');
 
@@ -4845,6 +5277,9 @@ VALUES (4643, 0, 83892071, 83892185);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4643, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - House of Peace (4642) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4642;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4642, 'alarqashealersign');
@@ -4879,6 +5314,9 @@ VALUES (4642, 0, 83892071, 83892186);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4642, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Armaments of Truth (4639) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4639;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4639, 'alarqasblacksmithsign');
 
@@ -4911,6 +5349,9 @@ VALUES (4639, 0, 83892071, 83892180);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4639, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Sidzika's Supplies (4640) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4640;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4640, 'alarqasgrocersign');
@@ -4945,6 +5386,9 @@ VALUES (4640, 0, 83892071, 83892187);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4640, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Tavern at Al-Arqas (4646) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4646;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4646, 'alarqastavernsign');
 
@@ -4977,6 +5421,9 @@ VALUES (4646, 0, 83892071, 83892183);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4646, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - General Goods and Supplies (4644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4644;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4644, 'alarqasshopkeepsign');
@@ -5011,6 +5458,9 @@ VALUES (4644, 0, 83892071, 83892187);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4644, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Blade of the Desert (4663) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4663;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4663, 'khayyabanarmorersign');
 
@@ -5043,6 +5493,9 @@ VALUES (4663, 0, 83892071, 83892180);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4663, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Desert Magic Supplies (4662) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4662;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4662, 'khayyabanarchmagesign');
@@ -5077,6 +5530,9 @@ VALUES (4662, 0, 83892071, 83892184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4662, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - General Supplies (4667) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4667;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4667, 'khayyabanshopkeepsign');
 
@@ -5109,6 +5565,9 @@ VALUES (4667, 0, 83892071, 83892187);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4667, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - The Skeleton's Mug (4670) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4670;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4670, 'khayyabantavernsign');
@@ -5143,6 +5602,9 @@ VALUES (4670, 0, 83892071, 83892183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4670, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Safruya's Bows (4664) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4664;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4664, 'khayyabanbowyersign');
 
@@ -5175,6 +5637,9 @@ VALUES (4664, 0, 83892071, 83892188);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4664, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Desert's Respite (4666) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4666;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4666, 'khayyabanhealersign');
@@ -5209,6 +5674,9 @@ VALUES (4666, 0, 83892071, 83892186);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4666, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Zayjay's Clothing (4669) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4669;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4669, 'khayyabantailorsign');
 
@@ -5241,6 +5709,9 @@ VALUES (4669, 0, 83892071, 83892181);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4669, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Sammam the Wise (1803) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1803;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1803, 'uzizarchmagesign');
@@ -5275,6 +5746,9 @@ VALUES (1803, 0, 83892071, 83892184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1803, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Bows and Arrows (1804) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1804;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1804, 'uzizbowyersign');
 
@@ -5307,6 +5781,9 @@ VALUES (1804, 0, 83892071, 83892188);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1804, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - The Thirsty Blade (1810) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1810;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1810, 'uzizswordsmithsign');
@@ -5341,6 +5818,9 @@ VALUES (1810, 0, 83892071, 83892180);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1810, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Seamstress Shop (1811) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1811;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1811, 'uziztailorsign');
 
@@ -5373,6 +5853,9 @@ VALUES (1811, 0, 83892071, 83892181);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1811, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Nashima's Nostrums (1807) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1807;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1807, 'uzizhealersign');
@@ -5407,6 +5890,9 @@ VALUES (1807, 0, 83892071, 83892186);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1807, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - The Lofty Spire (1808) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1808;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1808, 'uzizpubsign');
 
@@ -5439,6 +5925,9 @@ VALUES (1808, 0, 83892071, 83892183);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1808, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Foodstuffs (1806) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1806;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1806, 'uzizgrocersign');
@@ -5473,6 +5962,9 @@ VALUES (1806, 0, 83892071, 83892187);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1806, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - The Shining Word (1809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1809;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1809, 'uzizshiningwordsign');
 
@@ -5505,6 +5997,9 @@ VALUES (1809, 0, 83892071, 83892182);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1809, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Raiments (1798) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1798;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1798, 'tufatailorsign');
@@ -5539,6 +6034,9 @@ VALUES (1798, 0, 83892071, 83892181);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1798, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Provisions (1794) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1794;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1794, 'tufagrocersign');
 
@@ -5571,6 +6069,9 @@ VALUES (1794, 0, 83892071, 83892187);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1794, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Medicaments (1795) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1795;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1795, 'tufahealersign');
@@ -5605,6 +6106,9 @@ VALUES (1795, 0, 83892071, 83892186);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1795, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - The Bursting Quiver (1792) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1792;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1792, 'tufabowyersign');
 
@@ -5637,6 +6141,9 @@ VALUES (1792, 0, 83892071, 83892188);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1792, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Smith Maqura (1791) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1791;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1791, 'tufablacksmithsign');
@@ -5671,6 +6178,9 @@ VALUES (1791, 0, 83892071, 83892180);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1791, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Bubtil's Wares (1799) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1799;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1799, 'tufatradersign');
 
@@ -5703,6 +6213,9 @@ VALUES (1799, 0, 83892071, 83892071);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1799, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - House of the Seven Stars (1790) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1790;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1790, 'tufaarchmagesign');
@@ -5737,6 +6250,9 @@ VALUES (1790, 0, 83892071, 83892184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1790, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Al-Jalima Bows (4655) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4655;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4655, 'aljalimabowyersign');
 
@@ -5769,6 +6285,9 @@ VALUES (4655, 0, 83892071, 83892188);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4655, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Al-Jalima Supplies (4657) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4657;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4657, 'aljalimashopkeepsign');
@@ -5803,6 +6322,9 @@ VALUES (4657, 0, 83892071, 83892187);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4657, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Wisdom's Way (4653) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4653;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4653, 'aljalimaarchmagesign');
 
@@ -5835,6 +6357,9 @@ VALUES (4653, 0, 83892071, 83892184);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4653, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Al-Jalima Smithy (4654) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4654;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4654, 'aljalimablacksmithsign');
@@ -5869,6 +6394,9 @@ VALUES (4654, 0, 83892071, 83892180);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4654, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Djusufa's Stones (1011) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1011;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1011, 'zaikhaljewelersign');
 
@@ -5901,6 +6429,9 @@ VALUES (1011, 0, 83892071, 83892185);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1011, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - The Open Book (1012) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1012;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1012, 'zaikhalpubsign');
@@ -5935,6 +6466,9 @@ VALUES (1012, 0, 83892071, 83892183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1012, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Tailor (6894) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6894;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6894, 'zaikhaltailorsign');
 
@@ -5967,6 +6501,9 @@ VALUES (6894, 0, 83892071, 83892181);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6894, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Loom and Oven (1008) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1008;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1008, 'zaikhalgrocersign');
@@ -6001,6 +6538,9 @@ VALUES (1008, 0, 83892071, 83892187);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1008, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Qufana's Forge (1007) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1007;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1007, 'zaikhalblacksmithsign');
 
@@ -6033,6 +6573,9 @@ VALUES (1007, 0, 83892071, 83892180);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1007, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Archmage Sign (8255) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8255;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8255, 'xarabydunarchmagesign');
@@ -6067,6 +6610,9 @@ VALUES (8255, 0, 83892071, 83892184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8255, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Forge and Bowyer Sign (8256) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8256;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8256, 'xarabydunblacksmithsign');
 
@@ -6099,6 +6645,9 @@ VALUES (8256, 0, 83892071, 83892180);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8256, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - The Blue Grotto Pub (8257) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8257;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8257, 'xarabydunpubsign');
@@ -6133,6 +6682,9 @@ VALUES (8257, 0, 83892071, 83892183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8257, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - House of Scrolls (1065) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1065;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1065, 'qalabarhealersign');
 
@@ -6165,6 +6717,9 @@ VALUES (1065, 0, 83892071, 83892186);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1065, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Food and Clothing (1064) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1064;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1064, 'qalabargrocersign');
@@ -6199,6 +6754,9 @@ VALUES (1064, 0, 83892071, 83892187);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1064, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Tamara's Armory (1063) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1063;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1063, 'qalabararmorersign');
 
@@ -6231,6 +6789,9 @@ VALUES (1063, 0, 83892071, 83892189);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1063, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - The Four Shields (1067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1067;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1067, 'qalabarpubsign');
@@ -6265,6 +6826,9 @@ VALUES (1067, 0, 83892071, 83892183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1067, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Bellows' Breath (998) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 998;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (998, 'samsurblacksmithsign');
 
@@ -6297,6 +6861,9 @@ VALUES (998, 0, 83892071, 83892180);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (998, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Healer (635) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 635;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (635, 'healersign');
@@ -6333,6 +6900,9 @@ VALUES (635, 0, 83891055, 83889901);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (635, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - House of Fathlan (1002) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1002;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1002, 'samsurjewelersign');
 
@@ -6365,6 +6935,9 @@ VALUES (1002, 0, 83892071, 83892185);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1002, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Bow and Goods (999) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 999;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (999, 'samsurbowyersign');
@@ -6399,6 +6972,9 @@ VALUES (999, 0, 83892071, 83892188);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (999, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - The Golden Vine (1003) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1003;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1003, 'samsurpubsign');
 
@@ -6431,6 +7007,9 @@ VALUES (1003, 0, 83892071, 83892183);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1003, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Zhen's Tower (805) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 805;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (805, 'mayoiscribesign');
@@ -6467,6 +7046,9 @@ VALUES (805, 0, 83891055, 83889857);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (805, 0, 16780409);
 
+/* Weenie - MiscBuildingSigns - The Whispering Sword (6871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6871;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6871, 'ayanbaqurweaponsmithsign');
 
@@ -6499,6 +7081,9 @@ VALUES (6871, 0, 83892071, 83892180);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6871, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - The Old Campaigner's Bows (6867) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6867;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6867, 'ayanbaqurbowyersign');
@@ -6533,6 +7118,9 @@ VALUES (6867, 0, 83892071, 83892188);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6867, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - The Secluded Sanctuary (6868) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6868;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6868, 'ayanbaqurhealersign');
 
@@ -6565,6 +7153,9 @@ VALUES (6868, 0, 83892071, 83892186);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6868, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - Jewel of the Desert (6869) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6869;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6869, 'ayanbaqurjewelersign');
@@ -6599,6 +7190,9 @@ VALUES (6869, 0, 83892071, 83892185);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6869, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - The Smoking Axe Tavern (6870) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6870;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6870, 'ayanbaqurtavernsign');
 
@@ -6631,6 +7225,9 @@ VALUES (6870, 0, 83892071, 83892183);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6870, 0, 16783205);
+
+/* Weenie - MiscBuildingSigns - A Human Archmage (6866) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 6866;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (6866, 'ayanbaqurarchmagesign');
@@ -6665,6 +7262,9 @@ VALUES (6866, 0, 83892071, 83892184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6866, 0, 16783205);
 
+/* Weenie - MiscBuildingSigns - Old Sign (1212) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1212;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1212, 'warningsign');
 
@@ -6693,6 +7293,9 @@ VALUES (1212, 12, True)
      , (1212, 14, True)
      , (1212, 19, True)
      , (1212, 1, True);
+
+/* Weenie - MiscBuildingSigns - Tattered Sign (1213) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1213;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1213, 'warningsign2');
@@ -6723,6 +7326,9 @@ VALUES (1213, 12, True)
      , (1213, 19, True)
      , (1213, 1, True);
 
+/* Weenie - MiscBuildingSigns - Dusty Sign (1214) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1214;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1214, 'warningsign3');
 
@@ -6751,6 +7357,9 @@ VALUES (1214, 12, True)
      , (1214, 14, True)
      , (1214, 19, True)
      , (1214, 1, True);
+
+/* Weenie - MiscBuildingSigns - Broken Sign (1216) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1216;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1216, 'warningsign4');
@@ -6781,6 +7390,9 @@ VALUES (1216, 12, True)
      , (1216, 19, True)
      , (1216, 1, True);
 
+/* Weenie - MiscBuildingSigns - North Yanshi Outpost (5080) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5080;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5080, 'yanshinorthoutpostsign');
 
@@ -6808,6 +7420,9 @@ VALUES (5080, 12, True)
      , (5080, 11, True)
      , (5080, 19, True)
      , (5080, 1, True);
+
+/* Weenie - MiscBuildingSigns - Bandit Castle Prison Sign (1269) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 1269;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (1269, 'banditcastleprisonsign');
@@ -6838,6 +7453,9 @@ VALUES (1269, 12, True)
      , (1269, 19, True)
      , (1269, 1, True);
 
+/* Weenie - MiscBuildingSigns - West Holtburg Outpost (5069) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5069;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5069, 'holtburgwestoutpostsign');
 
@@ -6865,6 +7483,9 @@ VALUES (5069, 12, True)
      , (5069, 11, True)
      , (5069, 19, True)
      , (5069, 1, True);
+
+/* Weenie - MiscBuildingSigns - Warning Sign (4113) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4113;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4113, 'ratwarningsign');
@@ -6895,6 +7516,9 @@ VALUES (4113, 12, True)
      , (4113, 19, True)
      , (4113, 1, True);
 
+/* Weenie - MiscBuildingSigns - Northwest Samsur Outpost (5077) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5077;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5077, 'samsurnorthwestoutpostsign');
 
@@ -6922,6 +7546,9 @@ VALUES (5077, 12, True)
      , (5077, 11, True)
      , (5077, 19, True)
      , (5077, 1, True);
+
+/* Weenie - MiscBuildingSigns - East Samsur Outpost (5076) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5076;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5076, 'samsureastoutpostsign');
@@ -6951,6 +7578,9 @@ VALUES (5076, 12, True)
      , (5076, 19, True)
      , (5076, 1, True);
 
+/* Weenie - MiscBuildingSigns - North Nanto Outpost (5073) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5073;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5073, 'nantonorthoutpostsign');
 
@@ -6978,6 +7608,9 @@ VALUES (5073, 12, True)
      , (5073, 11, True)
      , (5073, 19, True)
      , (5073, 1, True);
+
+/* Weenie - MiscBuildingSigns - Southeast Shoushi Outpost (5078) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5078;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5078, 'shoushisoutheastoutpostsign');
@@ -7007,6 +7640,9 @@ VALUES (5078, 12, True)
      , (5078, 19, True)
      , (5078, 1, True);
 
+/* Weenie - MiscBuildingSigns - East Lytelthorpe Outpost (5070) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5070;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5070, 'lytelthorpeeastoutpostsign');
 
@@ -7035,6 +7671,9 @@ VALUES (5070, 12, True)
      , (5070, 19, True)
      , (5070, 1, True);
 
+/* Weenie - MiscBuildingSigns - West Lytelthorpe Outpost (5071) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5071;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5071, 'lytelthorpewestoutpostsign');
 
@@ -7062,6 +7701,9 @@ VALUES (5071, 12, True)
      , (5071, 11, True)
      , (5071, 19, True)
      , (5071, 1, True);
+
+/* Weenie - MiscBuildingSigns - Charred Sign (5673) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5673;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5673, 'lethesign');
@@ -7092,6 +7734,9 @@ VALUES (5673, 12, True)
      , (5673, 19, True)
      , (5673, 1, True);
 
+/* Weenie - MiscBuildingSigns - Dereth Exploration Society Notice (8597) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 8597;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (8597, 'froretimmysign');
 
@@ -7120,6 +7765,9 @@ VALUES (8597, 12, True)
      , (8597, 14, True)
      , (8597, 19, True)
      , (8597, 1, True);
+
+/* Weenie - MiscBuildingSigns - The Pine and Fir (4505) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4505;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4505, 'lintavernsign');
@@ -7155,6 +7803,9 @@ VALUES (4505, 0, 83891180, 83891184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4505, 0, 16782236);
 
+/* Weenie - MiscBuildingSigns - Historical Marker (5042) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5042;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5042, 'redoubtsign');
 
@@ -7184,6 +7835,9 @@ VALUES (5042, 12, True)
      , (5042, 19, True)
      , (5042, 1, True);
 
+/* Weenie - MiscBuildingSigns - East Yaraq Outpost (5082) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5082;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5082, 'yaraqeastoutpostsign');
 
@@ -7211,6 +7865,9 @@ VALUES (5082, 12, True)
      , (5082, 11, True)
      , (5082, 19, True)
      , (5082, 1, True);
+
+/* Weenie - MiscBuildingSigns - West Al-Arqas Outpost (5067) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5067;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5067, 'alarqaswestoutpostsign');
@@ -7240,6 +7897,9 @@ VALUES (5067, 12, True)
      , (5067, 19, True)
      , (5067, 1, True);
 
+/* Weenie - MiscBuildingSigns - North Yaraq Outpost (5083) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5083;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5083, 'yaraqnorthoutpostsign');
 
@@ -7267,6 +7927,9 @@ VALUES (5083, 12, True)
      , (5083, 11, True)
      , (5083, 19, True)
      , (5083, 1, True);
+
+/* Weenie - MiscBuildingSigns - South Yanshi Outpost (5081) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5081;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5081, 'yanshisouthoutpostsign');
@@ -7296,6 +7959,9 @@ VALUES (5081, 12, True)
      , (5081, 19, True)
      , (5081, 1, True);
 
+/* Weenie - MiscBuildingSigns - East Nanto Outpost (5072) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5072;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5072, 'nantoeastoutpostsign');
 
@@ -7323,6 +7989,9 @@ VALUES (5072, 12, True)
      , (5072, 11, True)
      , (5072, 19, True)
      , (5072, 1, True);
+
+/* Weenie - MiscBuildingSigns - Warning (20644) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 20644;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (20644, 'precarioussojournwarningsign');
@@ -7353,6 +8022,9 @@ VALUES (20644, 12, True)
      , (20644, 19, True)
      , (20644, 1, True);
 
+/* Weenie - MiscBuildingSigns - Note from Aleval (4892) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4892;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4892, 'distillerysign');
 
@@ -7381,6 +8053,9 @@ VALUES (4892, 12, True)
      , (4892, 14, True)
      , (4892, 19, True)
      , (4892, 1, True);
+
+/* Weenie - MiscBuildingSigns - Al-Arqas North Outpost  (5066) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 5066;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (5066, 'alarqasnorthoutpostsign');

@@ -1,3 +1,6 @@
+/* Weenie - Admins - +Moosier (4) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 4;
+
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
 VALUES (4, 'admin');
 
