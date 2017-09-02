@@ -10974,6 +10974,13 @@ VALUES (1663, 19, 1)
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (1663, 250);
 
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1753, 2, 3)
+     , (1753, 25, 80);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (1753, 64, 258);
+
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2734, 16, 'Inscribed spell: Slowness Other IV
 Decreases the target''s Quickness by 25 points.')
@@ -11052,18 +11059,6 @@ VALUES (49453, 19, 1)
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (49453, 6108);
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1753, 14, 'Use on a magic item to destroy that item and drain its Mana.');
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1753, 19, 5000)
-     , (1753, 5, 50)
-     , (1753, 107, 0);
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1753, 137, 0.2)
-     , (1753, 87, 2);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1705, 16, 'Inscribed spell: Item Enchantment Mastery Self I

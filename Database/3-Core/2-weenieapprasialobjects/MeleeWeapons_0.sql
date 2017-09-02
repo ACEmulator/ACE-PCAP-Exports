@@ -18016,15 +18016,22 @@ VALUES (23014, 1096)
      , (23014, 1616);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48592, 19, 695)
-     , (48592, 5, 0);
+VALUES (48594, 2, 78)
+     , (48594, 25, 115);
 
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48593, 16, 'Killed by Mag-lite.');
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (48594, 64, 460);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48593, 19, 0)
-     , (48593, 5, 6578);
+VALUES (48593, 2, 78)
+     , (48593, 25, 115);
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (48593, 64, 460);
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48592, 19, 695)
+     , (48592, 5, 0);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48597, 14, 'Use on a magic item to destroy that item and drain its Mana.');
@@ -18044,13 +18051,6 @@ VALUES (48595, 16, 'Killed by Mag-lite.');
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (48595, 19, 0)
      , (48595, 5, 6105);
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48594, 2, 78)
-     , (48594, 25, 115);
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (48594, 64, 460);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48986, 14, 'Use this essence to summon or dismiss your Lightning Phyntos Wasp.');

@@ -5160,14 +5160,11 @@ VALUES (48596, 137, 0.15)
      , (48596, 87, 1.2);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46068, 19, 120)
-     , (46068, 5, 50)
-     , (46068, 90, 100)
-     , (46068, 91, 30)
-     , (46068, 92, 30);
+VALUES (46068, 2, 3)
+     , (46068, 25, 80);
 
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (46068, 100, 1);
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46068, 64, 258);
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5320, 16, 'Frost Spine Glaive');
