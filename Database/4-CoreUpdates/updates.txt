@@ -1,6 +1,7 @@
 09/15/2017
 ----------
 - Added 04-Books - Book contents and data - Very special thank you to the ACEmu Discord #data_mining crew, especially "Howard (Oberon)" and "Immportal Bob" for compiling much of this
+- Added 05-WeenieDesc - WeenieDesc pull from the client_portal.dat DidMapper and DualDidMapper tables
 
 6/25/2017
 --------
