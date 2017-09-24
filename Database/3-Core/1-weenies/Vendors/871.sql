@@ -1,0 +1,142 @@
+/* Weenie - Vendors - Aldera Brunall Weaponsmith (871) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 871;
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (871, 'hebianweaponsmith');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (871, 516, 871, 8388662, NULL, 'AAA9AAAAAAA=', 100419);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (871, 1, 'Aldera Brunall Weaponsmith') /* NAME_STRING */;
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (871, 8, 100667446) /* ICON_DID */
+     , (871, 1, 33554510) /* SETUP_DID */
+     , (871, 3, 536870914) /* SOUND_TABLE_DID */
+     , (871, 2, 150994945) /* MOTION_TABLE_DID */
+     , (871, 6, 67108990) /* PALETTE_BASE_DID */;
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (871, 1, 16) /* ITEM_TYPE_INT */
+     , (871, 7, 255) /* CONTAINERS_CAPACITY_INT */
+     , (871, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (871, 133, 4) /* SHOWABLE_ON_RADAR_INT */
+     , (871, 16, 32) /* ITEM_USEABLE_INT */
+     , (871, 93, 2098200) /* PHYSICS_STATE_INT */
+     , (871, 9007, 12) /* Vendor_WeenieType */;
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (871, 54, 3) /* USE_RADIUS_FLOAT */;
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (871, 12, True) /* REPORT_COLLISIONS_BOOL */
+     , (871, 11, True) /* IGNORE_COLLISIONS_BOOL */
+     , (871, 14, True) /* GRAVITY_STATUS_BOOL */
+     , (871, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
+     , (871, 1, True) /* STUCK_BOOL */;
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (871, 67109562, 0, 24)
+     , (871, 67116992, 24, 8)
+     , (871, 67110062, 32, 8)
+     , (871, 67110361, 64, 8)
+     , (871, 67110539, 72, 8)
+     , (871, 67110354, 40, 24)
+     , (871, 67109969, 92, 4)
+     , (871, 67110376, 216, 24)
+     , (871, 67110369, 160, 8);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (871, 16, 83886232, 83890685)
+     , (871, 16, 83886668, 83890263)
+     , (871, 16, 83886837, 83890308)
+     , (871, 16, 83886684, 83890353)
+     , (871, 5, 83887064, 83886241)
+     , (871, 1, 83887064, 83886241)
+     , (871, 10, 83887069, 83886782)
+     , (871, 13, 83887069, 83886782)
+     , (871, 9, 83887070, 83890009)
+     , (871, 9, 83887062, 83890010)
+     , (871, 0, 83889072, 83890012)
+     , (871, 0, 83889342, 83890011)
+     , (871, 2, 83887066, 83887051)
+     , (871, 6, 83887066, 83887051)
+     , (871, 3, 83889344, 83887054)
+     , (871, 7, 83889344, 83887054)
+     , (871, 4, 83887068, 83887054)
+     , (871, 8, 83887068, 83887054);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (871, 11, 16778429)
+     , (871, 12, 16778423)
+     , (871, 14, 16778424)
+     , (871, 15, 16778435)
+     , (871, 16, 16795655)
+     , (871, 5, 16778438)
+     , (871, 1, 16778430)
+     , (871, 10, 16778431)
+     , (871, 13, 16778434)
+     , (871, 9, 16778425)
+     , (871, 0, 16781875)
+     , (871, 2, 16781908)
+     , (871, 6, 16781909)
+     , (871, 3, 16781841)
+     , (871, 7, 16781840)
+     , (871, 4, 16783485)
+     , (871, 8, 16783487);
+
+/* Extended Apprasial Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (871, 5, 'Weaponsmith') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (871, 16, 67110062) /* EYES_PALETTE_DID */
+     , (871, 9, 83890263) /* EYES_TEXTURE_DID */
+     , (871, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (871, 10, 83890308) /* NOSE_TEXTURE_DID */
+     , (871, 11, 83890353) /* MOUTH_TEXTURE_DID */
+     , (871, 15, 67116992) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (871, 113, 2) /* GENDER_INT */
+     , (871, 2, 31) /* CREATURE_TYPE_INT */
+     , (871, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (871, 25, 5) /* LEVEL_INT */
+     , (871, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (871, 64, 83) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
+VALUES (871, 4195, 4)
+     , (871, 314, 4)
+     , (871, 22158, 4)
+     , (871, 327, 4)
+     , (871, 336, 4)
+     , (871, 353, 4)
+     , (871, 356, 4)
+     , (871, 362, 4)
+     , (871, 359, 4)
+     , (871, 320, 4)
+     , (871, 2621, 4)
+     , (871, 2622, 4)
+     , (871, 2623, 4)
+     , (871, 2624, 4)
+     , (871, 2625, 4)
+     , (871, 2626, 4)
+     , (871, 2627, 4)
+     , (871, 20628, 4)
+     , (871, 20629, 4)
+     , (871, 20630, 4)
+     , (871, 45683, 4)
+     , (871, 45684, 4);
+
+/* Object Wield List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
+VALUES (871, 352, 2);
+

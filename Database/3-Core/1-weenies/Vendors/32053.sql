@@ -1,0 +1,80 @@
+/* Weenie - Vendors - Healer Hargurg (32053) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 32053;
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (32053, 'ace32053-healerhargurg');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (32053, 516, 32053, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32053, 1, 'Healer Hargurg') /* NAME_STRING */;
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (32053, 8, 100667449) /* ICON_DID */
+     , (32053, 1, 33554490) /* SETUP_DID */
+     , (32053, 3, 536870959) /* SOUND_TABLE_DID */
+     , (32053, 2, 150994953) /* MOTION_TABLE_DID */
+     , (32053, 6, 67109310) /* PALETTE_BASE_DID */;
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32053, 1, 16) /* ITEM_TYPE_INT */
+     , (32053, 7, 255) /* CONTAINERS_CAPACITY_INT */
+     , (32053, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (32053, 133, 4) /* SHOWABLE_ON_RADAR_INT */
+     , (32053, 16, 32) /* ITEM_USEABLE_INT */
+     , (32053, 93, 2098200) /* PHYSICS_STATE_INT */
+     , (32053, 9007, 12) /* Vendor_WeenieType */;
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32053, 54, 3) /* USE_RADIUS_FLOAT */;
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32053, 12, True) /* REPORT_COLLISIONS_BOOL */
+     , (32053, 11, True) /* IGNORE_COLLISIONS_BOOL */
+     , (32053, 14, True) /* GRAVITY_STATUS_BOOL */
+     , (32053, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
+     , (32053, 1, True) /* STUCK_BOOL */;
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (32053, 67113355, 0, 0);
+
+/* Extended Apprasial Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32053, 5, 'Healer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32053, 2, 90) /* CREATURE_TYPE_INT */
+     , (32053, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (32053, 25, 8) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (32053, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
+VALUES (32053, 2457, 4)
+     , (32053, 377, 4)
+     , (32053, 27319, 4)
+     , (32053, 2460, 4)
+     , (32053, 379, 4)
+     , (32053, 27322, 4)
+     , (32053, 378, 4)
+     , (32053, 27326, 4)
+     , (32053, 2470, 4)
+     , (32053, 628, 4)
+     , (32053, 629, 4)
+     , (32053, 630, 4)
+     , (32053, 2621, 4)
+     , (32053, 2622, 4)
+     , (32053, 2623, 4)
+     , (32053, 2624, 4)
+     , (32053, 2625, 4)
+     , (32053, 2626, 4)
+     , (32053, 2627, 4)
+     , (32053, 20628, 4)
+     , (32053, 20629, 4)
+     , (32053, 20630, 4);
+

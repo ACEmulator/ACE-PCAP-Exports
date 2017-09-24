@@ -1,0 +1,145 @@
+/* Weenie - Vendors - Lark Grifanna the Barkeep (11384) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 11384;
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (11384, 'bluespirebarkeep-xp');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (11384, 516, 11384, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11384, 1, 'Lark Grifanna the Barkeep') /* NAME_STRING */;
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (11384, 8, 100667446) /* ICON_DID */
+     , (11384, 1, 33554510) /* SETUP_DID */
+     , (11384, 3, 536870914) /* SOUND_TABLE_DID */
+     , (11384, 2, 150994945) /* MOTION_TABLE_DID */
+     , (11384, 6, 67108990) /* PALETTE_BASE_DID */;
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11384, 1, 16) /* ITEM_TYPE_INT */
+     , (11384, 7, 255) /* CONTAINERS_CAPACITY_INT */
+     , (11384, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (11384, 133, 4) /* SHOWABLE_ON_RADAR_INT */
+     , (11384, 16, 32) /* ITEM_USEABLE_INT */
+     , (11384, 93, 2098200) /* PHYSICS_STATE_INT */
+     , (11384, 9007, 12) /* Vendor_WeenieType */;
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (11384, 54, 5) /* USE_RADIUS_FLOAT */;
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11384, 12, True) /* REPORT_COLLISIONS_BOOL */
+     , (11384, 11, True) /* IGNORE_COLLISIONS_BOOL */
+     , (11384, 14, True) /* GRAVITY_STATUS_BOOL */
+     , (11384, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
+     , (11384, 1, True) /* STUCK_BOOL */;
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (11384, 67109561, 0, 24)
+     , (11384, 67116988, 24, 8)
+     , (11384, 67110064, 32, 8)
+     , (11384, 67110334, 64, 8)
+     , (11384, 67110003, 72, 8)
+     , (11384, 67111304, 40, 24)
+     , (11384, 67109967, 92, 4)
+     , (11384, 67110325, 216, 24)
+     , (11384, 67110378, 160, 8);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (11384, 16, 83886232, 83890685)
+     , (11384, 16, 83886668, 83890259)
+     , (11384, 16, 83886837, 83890300)
+     , (11384, 16, 83886684, 83890346)
+     , (11384, 5, 83887064, 83886241)
+     , (11384, 1, 83887064, 83886241)
+     , (11384, 10, 83887069, 83886782)
+     , (11384, 13, 83887069, 83886782)
+     , (11384, 9, 83887070, 83890009)
+     , (11384, 9, 83887062, 83890010)
+     , (11384, 0, 83889072, 83890012)
+     , (11384, 0, 83889342, 83890011)
+     , (11384, 2, 83887066, 83887051)
+     , (11384, 6, 83887066, 83887051)
+     , (11384, 3, 83889344, 83887054)
+     , (11384, 7, 83889344, 83887054)
+     , (11384, 4, 83887068, 83887054)
+     , (11384, 8, 83887068, 83887054);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (11384, 11, 16778429)
+     , (11384, 12, 16778423)
+     , (11384, 14, 16778424)
+     , (11384, 15, 16778435)
+     , (11384, 16, 16795641)
+     , (11384, 5, 16778438)
+     , (11384, 1, 16778430)
+     , (11384, 10, 16778431)
+     , (11384, 13, 16778434)
+     , (11384, 9, 16778425)
+     , (11384, 0, 16781875)
+     , (11384, 2, 16781908)
+     , (11384, 6, 16781909)
+     , (11384, 3, 16781841)
+     , (11384, 7, 16781840)
+     , (11384, 4, 16783485)
+     , (11384, 8, 16783487);
+
+/* Extended Apprasial Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11384, 5, 'Barkeeper') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (11384, 16, 67110064) /* EYES_PALETTE_DID */
+     , (11384, 9, 83890259) /* EYES_TEXTURE_DID */
+     , (11384, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (11384, 10, 83890300) /* NOSE_TEXTURE_DID */
+     , (11384, 11, 83890346) /* MOUTH_TEXTURE_DID */
+     , (11384, 15, 67116988) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11384, 113, 2) /* GENDER_INT */
+     , (11384, 2, 31) /* CREATURE_TYPE_INT */
+     , (11384, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (11384, 25, 7) /* LEVEL_INT */
+     , (11384, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (11384, 64, 138) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
+VALUES (11384, 4739, 4)
+     , (11384, 4718, 4)
+     , (11384, 4730, 4)
+     , (11384, 4728, 4)
+     , (11384, 4744, 4)
+     , (11384, 2466, 4)
+     , (11384, 2456, 4)
+     , (11384, 4746, 4)
+     , (11384, 2451, 4)
+     , (11384, 2468, 4)
+     , (11384, 8378, 4)
+     , (11384, 27610, 4)
+     , (11384, 27611, 4)
+     , (11384, 27612, 4)
+     , (11384, 27613, 4)
+     , (11384, 27614, 4)
+     , (11384, 27615, 4)
+     , (11384, 27616, 4)
+     , (11384, 27617, 4)
+     , (11384, 27618, 4)
+     , (11384, 27619, 4)
+     , (11384, 27620, 4)
+     , (11384, 27621, 4)
+     , (11384, 27622, 4)
+     , (11384, 27623, 4)
+     , (11384, 27624, 4)
+     , (11384, 27625, 4)
+     , (11384, 27626, 4)
+     , (11384, 27627, 4)
+     , (11384, 27628, 4);
+
