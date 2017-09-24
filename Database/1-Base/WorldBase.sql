@@ -146,8 +146,9 @@ DROP TABLE IF EXISTS `ace_object_inventory`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ace_object_inventory` (
   `aceObjectId` int(10) unsigned NOT NULL DEFAULT '0',
-  `weenieClassId` int(10) unsigned NOT NULL DEFAULT '0',
   `destinationType` tinyint(5) NOT NULL DEFAULT '0',
+  `weenieClassId` int(10) unsigned NOT NULL DEFAULT '0',
+  `stackSize` int(10) NOT NULL DEFAULT '1',  
   `palette` tinyint(5) NOT NULL DEFAULT '0',
   KEY `fk_Inventory_AceObject_idx` (`aceObjectId`),
   KEY `fk_Inventory_Weenie_idx` (`weenieClassId`),
