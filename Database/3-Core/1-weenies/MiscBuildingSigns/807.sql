@@ -36,7 +36,7 @@ VALUES (807, 0, 83891055, 83889901);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (807, 0, 16780409);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (807, 16, 'Tonsho''s Remedies') /* LONG_DESC_STRING */;

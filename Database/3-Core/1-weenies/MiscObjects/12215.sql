@@ -38,7 +38,7 @@ VALUES (12215, 0, 83892725, 83892725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12215, 0, 16787382);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12215, 16, 'An odd looking, faintly sour pumpkin head.') /* LONG_DESC_STRING */;

@@ -37,7 +37,7 @@ VALUES (25478, 13, True) /* ETHEREAL_BOOL */
      , (25478, 19, True) /* ATTACKABLE_BOOL */
      , (25478, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25478, 16, 'A ring carved of Whispering Venom crystal. When worn, it allows portal passage down to the Lair of the Ancient Queen.') /* LONG_DESC_STRING */;

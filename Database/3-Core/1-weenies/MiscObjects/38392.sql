@@ -32,7 +32,7 @@ VALUES (38392, 13, True) /* ETHEREAL_BOOL */
      , (38392, 19, True) /* ATTACKABLE_BOOL */
      , (38392, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38392, 16, 'This is an Armor Writ, granted to you as an Initiate of the Celestial Hand.  These writs are normally purchased with Trade Tokens from the Armor Writ Quartermaster in your Stronghold for 25 Tokens, and can only be purchased once a day.') /* LONG_DESC_STRING */

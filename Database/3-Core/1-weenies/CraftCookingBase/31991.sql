@@ -38,7 +38,7 @@ VALUES (31991, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31991, 67111923, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31991, 16, 'An odd contraption used to modify the pigmentation of a piece of Ancient Falatacot Armor.') /* LONG_DESC_STRING */

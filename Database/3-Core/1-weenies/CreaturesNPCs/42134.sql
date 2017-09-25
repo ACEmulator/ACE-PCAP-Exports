@@ -94,7 +94,7 @@ VALUES (42134, 5, 16791918)
      , (42134, 22, 16777708)
      , (42134, 21, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42134, 5, 'Facility Steward') /* TEMPLATE_STRING */;

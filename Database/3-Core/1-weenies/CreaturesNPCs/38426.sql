@@ -89,7 +89,7 @@ VALUES (38426, 12, 16777304)
      , (38426, 4, 16781838)
      , (38426, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38426, 5, 'Blessed Moarsman Hunt Taskmaster ') /* TEMPLATE_STRING */;

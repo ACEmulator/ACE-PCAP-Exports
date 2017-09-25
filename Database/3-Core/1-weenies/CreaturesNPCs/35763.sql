@@ -38,7 +38,7 @@ VALUES (35763, 13, True) /* ETHEREAL_BOOL */
      , (35763, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (35763, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35763, 16, 'Quests originated from this bell are intended for characters of level 150 and above.') /* LONG_DESC_STRING */;

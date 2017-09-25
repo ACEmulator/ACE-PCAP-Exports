@@ -34,7 +34,7 @@ VALUES (22020, 13, True) /* ETHEREAL_BOOL */
      , (22020, 19, True) /* ATTACKABLE_BOOL */
      , (22020, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22020, 16, 'A finely crafted skeleton costume that is only missing the head.') /* LONG_DESC_STRING */

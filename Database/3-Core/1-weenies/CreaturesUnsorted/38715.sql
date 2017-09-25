@@ -69,7 +69,7 @@ VALUES (38715, 0, 16783894)
      , (38715, 13, 16783871)
      , (38715, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38715, 5, 'Ancient Scholar') /* TEMPLATE_STRING */;

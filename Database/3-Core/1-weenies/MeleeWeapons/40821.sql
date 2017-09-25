@@ -47,7 +47,7 @@ VALUES (40821, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40821, 0, 16794281);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40821, 16, 'Flaming Corsesca of Blood Drinker') /* LONG_DESC_STRING */;

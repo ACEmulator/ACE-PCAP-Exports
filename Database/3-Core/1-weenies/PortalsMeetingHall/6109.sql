@@ -33,7 +33,7 @@ VALUES (6109, 13, True) /* ETHEREAL_BOOL */
      , (6109, 19, True) /* ATTACKABLE_BOOL */
      , (6109, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6109, 38, 'Uziz Meeting Hall Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

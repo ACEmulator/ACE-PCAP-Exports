@@ -33,7 +33,7 @@ VALUES (42851, 13, True) /* ETHEREAL_BOOL */
      , (42851, 19, True) /* ATTACKABLE_BOOL */
      , (42851, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42851, 16, 'This portal goes to the Facility Hub, a good starting place for new adventurers.') /* LONG_DESC_STRING */

@@ -117,7 +117,7 @@ VALUES (40103, 9, 16794074)
      , (40103, 8, 16789358)
      , (40103, 16, 16794064);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40103, 5, 'Wisp Hunter') /* TEMPLATE_STRING */;

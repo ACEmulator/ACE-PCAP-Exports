@@ -34,7 +34,7 @@ VALUES (5883, 13, True) /* ETHEREAL_BOOL */
      , (5883, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5883, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5883, 16, 'A translation of Dericostian runes found on standing stones scattered throughout the northeastern mountains. This appears to be a portalspace coordinate, and should be brought to Mairisa bint Fuda in Plateau.') /* LONG_DESC_STRING */;

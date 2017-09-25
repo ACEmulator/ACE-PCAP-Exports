@@ -37,7 +37,7 @@ VALUES (6127, 13, True) /* ETHEREAL_BOOL */
      , (6127, 19, True) /* ATTACKABLE_BOOL */
      , (6127, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6127, 14, 'Use this tool to remove an elemental stone from an Empyrean or Isparian weapon or a piece of Shadow Armor. ') /* USE_STRING */;

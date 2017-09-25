@@ -35,7 +35,7 @@ VALUES (20357, 13, True) /* ETHEREAL_BOOL */
      , (20357, 19, True) /* ATTACKABLE_BOOL */
      , (20357, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20357, 16, 'Inscribed spell: Devour Item Magic

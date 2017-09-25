@@ -32,7 +32,7 @@ VALUES (36678, 13, True) /* ETHEREAL_BOOL */
      , (36678, 19, True) /* ATTACKABLE_BOOL */
      , (36678, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36678, 16, 'A sealed royal summons for Lord Kresovus of Linvak Tukal.') /* LONG_DESC_STRING */;

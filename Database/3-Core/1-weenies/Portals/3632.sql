@@ -33,7 +33,7 @@ VALUES (3632, 13, True) /* ETHEREAL_BOOL */
      , (3632, 19, True) /* ATTACKABLE_BOOL */
      , (3632, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3632, 38, 'Old Mine') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

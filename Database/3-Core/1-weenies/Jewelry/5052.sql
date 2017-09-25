@@ -46,7 +46,7 @@ VALUES (5052, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5052, 0, 16778334);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5052, 16, 'A plain bracelet, owned by Lou Ei of Yanshi North Outpost.') /* LONG_DESC_STRING */;

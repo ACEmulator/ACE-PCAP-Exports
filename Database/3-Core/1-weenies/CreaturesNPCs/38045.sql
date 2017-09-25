@@ -86,7 +86,7 @@ VALUES (38045, 12, 16777304)
      , (38045, 14, 16783855)
      , (38045, 16, 16789985);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38045, 5, 'Green Mire Scholar') /* TEMPLATE_STRING */;

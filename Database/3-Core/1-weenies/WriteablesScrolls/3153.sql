@@ -35,7 +35,7 @@ VALUES (3153, 13, True) /* ETHEREAL_BOOL */
      , (3153, 19, True) /* ATTACKABLE_BOOL */
      , (3153, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3153, 16, 'Inscribed spell: Armor Tinkering Ignorance Other II

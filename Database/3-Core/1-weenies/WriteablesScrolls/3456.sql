@@ -35,7 +35,7 @@ VALUES (3456, 13, True) /* ETHEREAL_BOOL */
      , (3456, 19, True) /* ATTACKABLE_BOOL */
      , (3456, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3456, 16, 'Inscribed spell: Person Attunement Self V

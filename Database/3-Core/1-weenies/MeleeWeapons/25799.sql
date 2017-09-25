@@ -40,7 +40,7 @@ VALUES (25799, 13, True) /* ETHEREAL_BOOL */
      , (25799, 19, True) /* ATTACKABLE_BOOL */
      , (25799, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25799, 16, 'A frozen Carrot, weighted perfectly for wielding like a dagger.') /* LONG_DESC_STRING */;

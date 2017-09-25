@@ -88,7 +88,7 @@ VALUES (12308, 12, 16777304)
      , (12308, 4, 16777291)
      , (12308, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12308, 5, 'Fence') /* TEMPLATE_STRING */;
@@ -120,6 +120,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (12308, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12308, 128, 60) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12308, 256, 55) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12308, 74, 1613561775) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (12308, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (12308, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12308, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (12308, 38, 1.7) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12308, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

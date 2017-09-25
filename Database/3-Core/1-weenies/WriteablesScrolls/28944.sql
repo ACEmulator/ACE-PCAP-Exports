@@ -35,7 +35,7 @@ VALUES (28944, 13, True) /* ETHEREAL_BOOL */
      , (28944, 19, True) /* ATTACKABLE_BOOL */
      , (28944, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28944, 16, 'Inscribed spell: Arcanum Enlightenment V

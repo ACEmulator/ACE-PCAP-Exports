@@ -35,7 +35,7 @@ VALUES (5887, 13, True) /* ETHEREAL_BOOL */
      , (5887, 19, True) /* ATTACKABLE_BOOL */
      , (5887, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5887, 16, 'A sheet of parchment, apparently torn from a bound book.') /* LONG_DESC_STRING */;

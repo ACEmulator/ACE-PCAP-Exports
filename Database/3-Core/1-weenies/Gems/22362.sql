@@ -34,7 +34,7 @@ VALUES (22362, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22362, 67111923, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22362, 14, 'Use this gem to specialize a trained skill. It will cost you four skill credits to specialize the Healing skill. ') /* USE_STRING */;

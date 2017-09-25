@@ -39,7 +39,7 @@ VALUES (44712, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44712, 0, 16779994);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44712, 14, 'Use this item on a person to restore mana.') /* USE_STRING */

@@ -30,7 +30,7 @@ VALUES (28526, 13, True) /* ETHEREAL_BOOL */
      , (28526, 19, True) /* ATTACKABLE_BOOL */
      , (28526, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28526, 16, 'This wheel cart was given to you by Captain K''rank of Linvak Tukal. He wishes you to visit Kreavon, the Lugian collector stationed at Wai Jhou. The wheel cart is meant to lighten Kreavon''s load.') /* LONG_DESC_STRING */;

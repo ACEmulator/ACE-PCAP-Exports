@@ -38,7 +38,7 @@ VALUES (29777, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29777, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (29777, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29777, 16, 'A bag that is tied shut and has a label on it that says: "White"') /* LONG_DESC_STRING */;

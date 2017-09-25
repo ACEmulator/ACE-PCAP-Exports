@@ -89,7 +89,7 @@ VALUES (8441, 12, 16777304)
      , (8441, 4, 16781855)
      , (8441, 8, 16781859);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8441, 5, 'Noble') /* TEMPLATE_STRING */;

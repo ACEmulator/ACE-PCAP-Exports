@@ -36,7 +36,7 @@ VALUES (9491, 13, True) /* ETHEREAL_BOOL */
      , (9491, 19, True) /* ATTACKABLE_BOOL */
      , (9491, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9491, 15, 'When you must strike, do not leave room for a return blow. [Note: You must have Mana Conversion specialized to use the magic on this item, in addition to the other requirements]') /* SHORT_DESC_STRING */;

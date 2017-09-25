@@ -47,7 +47,7 @@ VALUES (30349, 0, 83897125, 83897125);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30349, 0, 16792029);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30349, 16, 'Oddly enough, this was used as a kitchen ladle before it was pressed into service as an atlatl.  Apparently due to the ladle''s resemblance to a serpent it was deemed inappropriate for use in the kitchen. After all, serpents are synonymous with poison.') /* LONG_DESC_STRING */;

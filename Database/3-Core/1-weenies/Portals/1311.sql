@@ -33,7 +33,7 @@ VALUES (1311, 13, True) /* ETHEREAL_BOOL */
      , (1311, 19, True) /* ATTACKABLE_BOOL */
      , (1311, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1311, 38, 'North Glenden Prison') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

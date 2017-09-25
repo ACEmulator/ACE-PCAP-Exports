@@ -35,7 +35,7 @@ VALUES (9625, 13, True) /* ETHEREAL_BOOL */
      , (9625, 19, True) /* ATTACKABLE_BOOL */
      , (9625, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9625, 16, 'Inscribed spell: Jumping Ineptitude Other II

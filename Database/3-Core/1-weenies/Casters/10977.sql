@@ -37,7 +37,7 @@ VALUES (10977, 13, True) /* ETHEREAL_BOOL */
      , (10977, 19, True) /* ATTACKABLE_BOOL */
      , (10977, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10977, 16, 'A reddish, veined lump, pulled from the chest cavity of a Hea Tumerok hunting reedshark named Sahkurea.') /* LONG_DESC_STRING */;

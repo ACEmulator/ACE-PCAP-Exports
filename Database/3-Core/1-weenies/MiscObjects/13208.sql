@@ -35,7 +35,7 @@ VALUES (13208, 13, True) /* ETHEREAL_BOOL */
      , (13208, 19, True) /* ATTACKABLE_BOOL */
      , (13208, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13208, 16, 'A partially constructed snowman. Looks like it''s missing a nose.') /* LONG_DESC_STRING */

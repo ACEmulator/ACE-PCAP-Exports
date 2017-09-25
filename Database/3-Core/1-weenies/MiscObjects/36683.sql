@@ -35,7 +35,7 @@ VALUES (36683, 13, True) /* ETHEREAL_BOOL */
      , (36683, 19, True) /* ATTACKABLE_BOOL */
      , (36683, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36683, 16, 'A mighty sword with intricate channels cut into it. It is far too large for a human to wield.') /* LONG_DESC_STRING */;

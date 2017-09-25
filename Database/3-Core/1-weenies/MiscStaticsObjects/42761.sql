@@ -29,7 +29,7 @@ VALUES (42761, 13, True) /* ETHEREAL_BOOL */
      , (42761, 19, True) /* ATTACKABLE_BOOL */
      , (42761, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42761, 16, 'The Gharu''ndim began to appear in Dereth soon after Elysa and Thorsten freed their people from enslavement by the Olthoi. One of the first of their number was Musansayn, a minor noble who became the effective leader of his countrymen in this new land. He made peace with the Aluvians, arranging for his folk to settle the lands west of the Falamar Hills. Samsur was the first permanent town built under his rule on the Yushad Ridge. It now lies at the heart of the Gharu''ndim lands, with roads leading both north and south and into the sandy reaches of the A''mun Desert. ') /* LONG_DESC_STRING */;

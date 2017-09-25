@@ -165,7 +165,7 @@ VALUES (9174, 1, 16777878)
      , (9174, 19, 16777871)
      , (9174, 20, 16777872);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9174, 16, 'Why get other toys when Pack Lugian could crush them all? Watch how he intimidates the others with his mighty Knuckle-Crush! They will cower before him!') /* LONG_DESC_STRING */;

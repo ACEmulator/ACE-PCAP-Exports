@@ -33,7 +33,7 @@ VALUES (22665, 13, True) /* ETHEREAL_BOOL */
      , (22665, 19, True) /* ATTACKABLE_BOOL */
      , (22665, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22665, 38, 'Tusker Cave') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -34,7 +34,7 @@ VALUES (27703, 13, True) /* ETHEREAL_BOOL */
      , (27703, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27703, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27703, 19, 10) /* VALUE_INT */

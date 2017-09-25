@@ -48,7 +48,7 @@ VALUES (34708, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34708, 0, 16778344);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34708, 16, 'A ring of pyreal fitted with a band of glowing gold.') /* LONG_DESC_STRING */

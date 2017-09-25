@@ -82,7 +82,7 @@ VALUES (39687, 12, 16777304)
      , (39687, 13, 16783871)
      , (39687, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (39687, 16, 67110062) /* EYES_PALETTE_DID */
@@ -101,6 +101,20 @@ VALUES (39687, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (39687, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39687, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (39687, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (39687, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39687, 37, 1) /* BUY_PRICE_FLOAT */
+     , (39687, 38, 1) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39687, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

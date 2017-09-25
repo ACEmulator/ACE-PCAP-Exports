@@ -37,7 +37,7 @@ VALUES (42710, 13, True) /* ETHEREAL_BOOL */
      , (42710, 19, True) /* ATTACKABLE_BOOL */
      , (42710, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42710, 16, 'This mana stone is incapable of holding a charge. Using this stone creates a conduit between the wielder and Dereth''s mana field.') /* LONG_DESC_STRING */;

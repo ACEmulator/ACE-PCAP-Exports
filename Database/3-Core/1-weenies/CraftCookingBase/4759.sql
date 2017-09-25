@@ -35,7 +35,7 @@ VALUES (4759, 13, True) /* ETHEREAL_BOOL */
      , (4759, 19, True) /* ATTACKABLE_BOOL */
      , (4759, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4759, 14, 'This item is used in cooking.') /* USE_STRING */;

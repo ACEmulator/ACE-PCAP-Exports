@@ -44,7 +44,7 @@ VALUES (30545, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30545, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30545, 16, 'A shard of General Corcima''s own battle armor.') /* LONG_DESC_STRING */;

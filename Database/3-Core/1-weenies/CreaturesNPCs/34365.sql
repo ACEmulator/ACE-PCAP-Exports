@@ -84,7 +84,7 @@ VALUES (34365, 12, 16778423)
      , (34365, 13, 16783871)
      , (34365, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34365, 5, 'Apprentice of the Blade') /* TEMPLATE_STRING */;

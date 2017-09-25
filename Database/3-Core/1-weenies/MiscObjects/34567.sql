@@ -35,7 +35,7 @@ VALUES (34567, 13, True) /* ETHEREAL_BOOL */
      , (34567, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34567, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34567, 14, 'You''ve heard rumors of those who will reward you for medallions such as these in Shoushi and Yanshi.') /* USE_STRING */

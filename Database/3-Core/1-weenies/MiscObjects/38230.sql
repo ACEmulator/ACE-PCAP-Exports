@@ -43,7 +43,7 @@ VALUES (38230, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38230, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38230, 16, 'A commendation ribbon, given to you as a reward for accomplishing goals set to you by those in your Society.') /* LONG_DESC_STRING */

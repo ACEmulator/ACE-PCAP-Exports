@@ -33,7 +33,7 @@ VALUES (32655, 13, True) /* ETHEREAL_BOOL */
      , (32655, 19, True) /* ATTACKABLE_BOOL */
      , (32655, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32655, 16, 'An old Empyrean Workshop') /* LONG_DESC_STRING */

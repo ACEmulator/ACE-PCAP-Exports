@@ -97,7 +97,7 @@ VALUES (34010, 12, 16777304)
      , (34010, 4, 16781816)
      , (34010, 8, 16781817);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34010, 5, 'Desecrator of Temples') /* TEMPLATE_STRING */;

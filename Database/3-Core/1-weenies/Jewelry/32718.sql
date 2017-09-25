@@ -47,7 +47,7 @@ VALUES (32718, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32718, 0, 16778344);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32718, 16, 'A bracelet woven from the tail of the Rat King.') /* LONG_DESC_STRING */;

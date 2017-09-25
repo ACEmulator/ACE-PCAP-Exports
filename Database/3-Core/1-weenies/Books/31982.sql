@@ -34,7 +34,7 @@ VALUES (31982, 13, True) /* ETHEREAL_BOOL */
      , (31982, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31982, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31982, 16, 'A plea from Branwyn of Arwic seeking aid in finding her missing husband. This task is suitable for players level 130 or greater.') /* LONG_DESC_STRING */;

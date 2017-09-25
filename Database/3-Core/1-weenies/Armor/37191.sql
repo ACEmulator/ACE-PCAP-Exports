@@ -47,7 +47,7 @@ VALUES (37191, 0, 83894333, 83897808);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37191, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37191, 16, 'Olthoi Gauntlets of Finesse Weapon Mastery') /* LONG_DESC_STRING */;

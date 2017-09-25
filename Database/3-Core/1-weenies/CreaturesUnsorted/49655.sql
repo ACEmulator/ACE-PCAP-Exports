@@ -92,7 +92,7 @@ VALUES (49655, 12, 16778423)
      , (49655, 8, 16783487)
      , (49655, 16, 16778476);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49655, 5, 'Tailor') /* TEMPLATE_STRING */;

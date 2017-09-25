@@ -29,7 +29,7 @@ VALUES (21475, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (21475, 19, True) /* ATTACKABLE_BOOL */
      , (21475, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21475, 16, 'Dulok Court') /* LONG_DESC_STRING */;

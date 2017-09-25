@@ -32,7 +32,7 @@ VALUES (19523, 13, True) /* ETHEREAL_BOOL */
      , (19523, 19, True) /* ATTACKABLE_BOOL */
      , (19523, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19523, 16, 'A diamond infused ingot, enhanced and stamped with a heavy weapons glyph.') /* LONG_DESC_STRING */;

@@ -37,7 +37,7 @@ VALUES (9602, 13, True) /* ETHEREAL_BOOL */
      , (9602, 19, True) /* ATTACKABLE_BOOL */
      , (9602, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9602, 16, 'A weapon made of a strange pulsating energy.') /* LONG_DESC_STRING */;

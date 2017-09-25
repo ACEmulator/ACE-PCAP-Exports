@@ -37,7 +37,7 @@ VALUES (45682, 13, True) /* ETHEREAL_BOOL */
      , (45682, 19, True) /* ATTACKABLE_BOOL */
      , (45682, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45682, 16, 'A contract for collecting the Mnemosyne of Battle Lord Gregor, to prove to Nalicana your worth to earn Luminance.') /* LONG_DESC_STRING */

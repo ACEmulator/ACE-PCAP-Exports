@@ -33,7 +33,7 @@ VALUES (31377, 13, True) /* ETHEREAL_BOOL */
      , (31377, 19, True) /* ATTACKABLE_BOOL */
      , (31377, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31377, 16, 'A fragment of an unknown artifact protected by the Margul Xaa Xiil. Its shape is oddly familiar.') /* LONG_DESC_STRING */

@@ -32,7 +32,7 @@ VALUES (46271, 13, True) /* ETHEREAL_BOOL */
      , (46271, 19, True) /* ATTACKABLE_BOOL */
      , (46271, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46271, 16, 'The cast of a mace which can be transformed into a Weeping Mace with the Heart of the Innocent.') /* LONG_DESC_STRING */;

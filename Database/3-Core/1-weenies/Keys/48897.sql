@@ -33,7 +33,7 @@ VALUES (48897, 13, True) /* ETHEREAL_BOOL */
      , (48897, 19, True) /* ATTACKABLE_BOOL */
      , (48897, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48897, 16, 'A key dropped by Janthef''s Weapon Guardian.') /* LONG_DESC_STRING */

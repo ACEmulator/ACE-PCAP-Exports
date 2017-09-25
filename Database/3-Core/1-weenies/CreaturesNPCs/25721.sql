@@ -90,7 +90,7 @@ VALUES (25721, 12, 16777304)
      , (25721, 8, 16781839)
      , (25721, 16, 16789596);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25721, 5, 'Lunatic') /* TEMPLATE_STRING */;

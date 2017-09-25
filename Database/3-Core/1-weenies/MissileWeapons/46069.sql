@@ -57,7 +57,7 @@ VALUES (46069, 0, 16787898)
      , (46069, 1, 16787897)
      , (46069, 2, 16787897);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46069, 16, 'This weapon seems tough to master.') /* LONG_DESC_STRING */;

@@ -103,7 +103,7 @@ VALUES (49605, 3, 16777292)
      , (49605, 14, 16783855)
      , (49605, 16, 16783901);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49605, 5, 'Herald') /* TEMPLATE_STRING */;

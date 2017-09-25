@@ -33,7 +33,7 @@ VALUES (1319, 13, True) /* ETHEREAL_BOOL */
      , (1319, 19, True) /* ATTACKABLE_BOOL */
      , (1319, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1319, 16, 'This key opens a chest in the Eastham Sewer.') /* LONG_DESC_STRING */

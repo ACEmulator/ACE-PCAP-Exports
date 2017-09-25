@@ -86,7 +86,7 @@ VALUES (717, 11, 16777302)
      , (717, 4, 16781838)
      , (717, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (717, 5, 'Scribe') /* TEMPLATE_STRING */;
@@ -108,6 +108,20 @@ VALUES (717, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (717, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (717, 74, 270336) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (717, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (717, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (717, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (717, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (717, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

@@ -36,7 +36,7 @@ VALUES (44964, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44964, 67111924, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44964, 14, 'Combine this gem with an attribute raising gem to transfer up to 10 points of quickness to another attribute. ') /* USE_STRING */;

@@ -33,7 +33,7 @@ VALUES (34319, 13, True) /* ETHEREAL_BOOL */
      , (34319, 19, True) /* ATTACKABLE_BOOL */
      , (34319, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34319, 16, 'This portal offers a direct gateway into the chambers of the Falatacot Soul Hunter, but it seems that you must gain the approval of the nearby altar to enter...') /* LONG_DESC_STRING */

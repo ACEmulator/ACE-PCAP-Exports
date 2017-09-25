@@ -49,7 +49,7 @@ VALUES (5051, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5051, 0, 16778356);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5051, 15, 'An attractively cut green shirt with yellow embroidery on the collar.') /* SHORT_DESC_STRING */;

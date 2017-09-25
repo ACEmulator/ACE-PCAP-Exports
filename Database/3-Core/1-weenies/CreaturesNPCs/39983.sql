@@ -106,7 +106,7 @@ VALUES (39983, 0, 16794061)
      , (39983, 8, 16789358)
      , (39983, 16, 16794064);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39983, 5, 'Game Hunter') /* TEMPLATE_STRING */;

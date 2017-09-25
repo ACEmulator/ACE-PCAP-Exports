@@ -33,7 +33,7 @@ VALUES (14279, 13, True) /* ETHEREAL_BOOL */
      , (14279, 19, True) /* ATTACKABLE_BOOL */
      , (14279, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14279, 38, 'Ro-Nan Portal (63.1S, 35.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

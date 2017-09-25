@@ -104,7 +104,7 @@ VALUES (5774, 3, 16778361)
      , (5774, 14, 16783855)
      , (5774, 16, 16783901);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5774, 5, 'Herald') /* TEMPLATE_STRING */;

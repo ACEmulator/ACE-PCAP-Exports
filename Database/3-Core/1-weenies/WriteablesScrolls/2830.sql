@@ -35,7 +35,7 @@ VALUES (2830, 13, True) /* ETHEREAL_BOOL */
      , (2830, 19, True) /* ATTACKABLE_BOOL */
      , (2830, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2830, 16, 'Inscribed spell: Frost Lure V

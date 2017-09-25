@@ -73,7 +73,7 @@ VALUES (36830, 0, 16784246)
      , (36830, 11, 16784204)
      , (36830, 12, 16784196);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36830, 2, 13) /* CREATURE_TYPE_INT */

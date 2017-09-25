@@ -86,7 +86,7 @@ VALUES (36233, 12, 16778423)
      , (36233, 13, 16783871)
      , (36233, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36233, 5, 'Slithis Slayer') /* TEMPLATE_STRING */;

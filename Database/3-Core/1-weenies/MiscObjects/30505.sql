@@ -34,7 +34,7 @@ VALUES (30505, 13, True) /* ETHEREAL_BOOL */
      , (30505, 19, True) /* ATTACKABLE_BOOL */
      , (30505, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30505, 16, 'A bottle a fine apple wine. No corkscrew required!') /* LONG_DESC_STRING */;

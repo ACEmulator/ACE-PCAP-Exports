@@ -39,7 +39,7 @@ VALUES (21359, 13, True) /* ETHEREAL_BOOL */
      , (21359, 19, True) /* ATTACKABLE_BOOL */
      , (21359, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21359, 16, 'A sword with a ghostly blade crafted from pure chorizite.') /* LONG_DESC_STRING */;

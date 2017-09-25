@@ -33,7 +33,7 @@ VALUES (43531, 13, True) /* ETHEREAL_BOOL */
      , (43531, 19, True) /* ATTACKABLE_BOOL */
      , (43531, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43531, 16, 'A portal, created by Liam of Gelid, so that those strong enough to treat with him could reach him more easily.') /* LONG_DESC_STRING */

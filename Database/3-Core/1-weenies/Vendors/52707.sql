@@ -88,7 +88,7 @@ VALUES (52707, 12, 16777304)
      , (52707, 4, 16783485)
      , (52707, 8, 16783487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52707, 5, 'Vendor of the Blood') /* TEMPLATE_STRING */;
@@ -120,6 +120,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (52707, 64, 2075) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (52707, 128, 1800) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (52707, 256, 3075) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52707, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (52707, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (52707, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (52707, 37, 1) /* BUY_PRICE_FLOAT */
+     , (52707, 38, 1) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52707, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

@@ -44,7 +44,7 @@ VALUES (8803, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8803, 0, 16785521);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8803, 15, 'A trophy from the banishment of Bael''Zharon.') /* SHORT_DESC_STRING */;

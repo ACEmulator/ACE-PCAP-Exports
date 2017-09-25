@@ -92,7 +92,7 @@ VALUES (9545, 12, 16778423)
      , (9545, 8, 16778428)
      , (9545, 16, 16783901);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9545, 5, 'Bestower Examiner') /* TEMPLATE_STRING */;

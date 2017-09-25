@@ -33,7 +33,7 @@ VALUES (7244, 13, True) /* ETHEREAL_BOOL */
      , (7244, 19, True) /* ATTACKABLE_BOOL */
      , (7244, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7244, 38, 'Black Spawn Den') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

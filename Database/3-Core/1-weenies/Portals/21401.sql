@@ -33,7 +33,7 @@ VALUES (21401, 13, True) /* ETHEREAL_BOOL */
      , (21401, 19, True) /* ATTACKABLE_BOOL */
      , (21401, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21401, 38, 'Citadel Library') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

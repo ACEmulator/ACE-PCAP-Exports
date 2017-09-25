@@ -28,7 +28,7 @@ VALUES (14566, 13, True) /* ETHEREAL_BOOL */
      , (14566, 19, True) /* ATTACKABLE_BOOL */
      , (14566, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14566, 15, 'This small, faint ember from Aun Aulakhe''s akiekie was born from an ember carried from the heart of Timaru''s council fire. ') /* SHORT_DESC_STRING */;

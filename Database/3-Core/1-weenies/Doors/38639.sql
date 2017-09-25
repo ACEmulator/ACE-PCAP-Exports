@@ -32,7 +32,7 @@ VALUES (38639, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38639, 19, True) /* ATTACKABLE_BOOL */
      , (38639, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38639, 14, 'The lock on this door is tarnished silver, gleaming faintly in the dim light.  Find a matching key to open it.') /* USE_STRING */;

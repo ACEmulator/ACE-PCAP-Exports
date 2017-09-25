@@ -32,7 +32,7 @@ VALUES (35408, 13, True) /* ETHEREAL_BOOL */
      , (35408, 19, True) /* ATTACKABLE_BOOL */
      , (35408, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35408, 16, 'A gold coin with a crude drawing of a drudge on it.') /* LONG_DESC_STRING */

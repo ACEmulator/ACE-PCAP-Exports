@@ -32,7 +32,7 @@ VALUES (29589, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29589, 19, True) /* ATTACKABLE_BOOL */
      , (29589, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29589, 16, 'A throbbing wall of living fleshy material. The gurgling of acid and the presence of half digested corpses alerts you to the fact that this is a stomach wall. You are in the belly of the beast.') /* LONG_DESC_STRING */;

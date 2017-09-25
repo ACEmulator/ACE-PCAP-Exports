@@ -41,7 +41,7 @@ VALUES (52986, 13, True) /* ETHEREAL_BOOL */
      , (52986, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (52986, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52986, 16, 'A rare dark flower infused with the magic of the Viridian Rise.') /* LONG_DESC_STRING */;

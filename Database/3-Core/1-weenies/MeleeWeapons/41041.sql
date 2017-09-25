@@ -47,7 +47,7 @@ VALUES (41041, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41041, 0, 16794282);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41041, 16, 'Magari Yari') /* LONG_DESC_STRING */;

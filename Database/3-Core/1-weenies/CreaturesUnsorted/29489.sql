@@ -74,7 +74,7 @@ VALUES (29489, 12, 16777304)
      , (29489, 4, 16791954)
      , (29489, 8, 16791955);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29489, 14, 'Use this essence to summon or dismiss your Acid Phyntos Wasp.') /* USE_STRING */;

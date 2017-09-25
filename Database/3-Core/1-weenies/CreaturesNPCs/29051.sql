@@ -87,7 +87,7 @@ VALUES (29051, 16, 16795654)
      , (29051, 4, 16791881)
      , (29051, 8, 16791882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29051, 5, 'King''s Seneschal') /* TEMPLATE_STRING */;

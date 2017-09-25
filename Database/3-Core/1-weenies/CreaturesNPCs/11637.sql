@@ -84,7 +84,7 @@ VALUES (11637, 12, 16778423)
      , (11637, 13, 16783871)
      , (11637, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11637, 5, 'Herbalist') /* TEMPLATE_STRING */;

@@ -29,7 +29,7 @@ VALUES (14297, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (14297, 19, True) /* ATTACKABLE_BOOL */
      , (14297, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14297, 16, 'Welcome to Alvador') /* LONG_DESC_STRING */;

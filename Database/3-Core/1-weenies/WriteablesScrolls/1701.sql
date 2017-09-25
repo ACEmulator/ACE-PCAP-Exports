@@ -35,7 +35,7 @@ VALUES (1701, 13, True) /* ETHEREAL_BOOL */
      , (1701, 19, True) /* ATTACKABLE_BOOL */
      , (1701, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1701, 16, 'Inscribed spell: Healing Mastery Other I

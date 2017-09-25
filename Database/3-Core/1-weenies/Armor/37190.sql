@@ -47,7 +47,7 @@ VALUES (37190, 0, 83894333, 83897808);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37190, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37190, 16, 'Olthoi Koujia Gauntlets of Two Handed Combat Mastery') /* LONG_DESC_STRING */;

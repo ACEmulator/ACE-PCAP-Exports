@@ -31,7 +31,7 @@ VALUES (46419, 13, True) /* ETHEREAL_BOOL */
      , (46419, 14, True) /* GRAVITY_STATUS_BOOL */
      , (46419, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46419, 15, 'A certificate that grants the bearer all level 8 life spells. Bring this certificate to an Agent of the Arcanum. ') /* SHORT_DESC_STRING */;

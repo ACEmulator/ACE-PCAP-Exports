@@ -31,7 +31,7 @@ VALUES (43070, 13, True) /* ETHEREAL_BOOL */
      , (43070, 19, True) /* ATTACKABLE_BOOL */
      , (43070, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43070, 16, 'An Empyrean device which stabilizes Portalspace energies within a limited area.  These were originally used by the Lyceum at Knorr in order to help attune Portal Magics to new locations, though this one is attuned solely to stabilize the Portalspace fluxuations caused by the Apostate Virindi.') /* LONG_DESC_STRING */

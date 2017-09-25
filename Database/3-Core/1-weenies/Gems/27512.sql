@@ -50,7 +50,7 @@ VALUES (27512, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27512, 0, 16779181);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27512, 14, 'Double-click on this portal gem to transport yourself to exotic and dangerous Nanner Island.') /* USE_STRING */

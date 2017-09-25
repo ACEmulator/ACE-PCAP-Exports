@@ -35,7 +35,7 @@ VALUES (20550, 13, True) /* ETHEREAL_BOOL */
      , (20550, 19, True) /* ATTACKABLE_BOOL */
      , (20550, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20550, 16, 'Inscribed spell: Ar-Pei''s Boon

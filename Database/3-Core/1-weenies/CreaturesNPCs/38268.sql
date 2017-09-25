@@ -89,7 +89,7 @@ VALUES (38268, 12, 16778423)
      , (38268, 4, 16778426)
      , (38268, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38268, 5, 'Coral Towers Task Master') /* TEMPLATE_STRING */;

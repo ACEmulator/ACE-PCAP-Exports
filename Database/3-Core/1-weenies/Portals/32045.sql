@@ -33,7 +33,7 @@ VALUES (32045, 13, True) /* ETHEREAL_BOOL */
      , (32045, 19, True) /* ATTACKABLE_BOOL */
      , (32045, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32045, 38, 'Temple of Xik Minru') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

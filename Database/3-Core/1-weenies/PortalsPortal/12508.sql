@@ -33,7 +33,7 @@ VALUES (12508, 13, True) /* ETHEREAL_BOOL */
      , (12508, 19, True) /* ATTACKABLE_BOOL */
      , (12508, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12508, 38, 'Jinianshi Portal (27.0S, 43.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

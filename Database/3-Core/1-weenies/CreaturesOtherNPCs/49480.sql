@@ -32,7 +32,7 @@ VALUES (49480, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (49480, 19, True) /* ATTACKABLE_BOOL */
      , (49480, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49480, 15, 'A locked door, impossible to pick.') /* SHORT_DESC_STRING */;

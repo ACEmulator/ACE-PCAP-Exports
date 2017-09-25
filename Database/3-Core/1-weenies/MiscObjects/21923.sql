@@ -32,7 +32,7 @@ VALUES (21923, 13, True) /* ETHEREAL_BOOL */
      , (21923, 19, True) /* ATTACKABLE_BOOL */
      , (21923, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21923, 14, 'This fragment appears to be a piece from a larger version. Use this on another combined fragment.') /* USE_STRING */

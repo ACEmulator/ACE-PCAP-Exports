@@ -33,7 +33,7 @@ VALUES (15662, 13, True) /* ETHEREAL_BOOL */
      , (15662, 19, True) /* ATTACKABLE_BOOL */
      , (15662, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15662, 38, 'Adept''s Domain Portal (28.8N, 36.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

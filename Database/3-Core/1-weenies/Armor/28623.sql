@@ -42,7 +42,7 @@ VALUES (28623, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28623, 67116194, 116, 20);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28623, 16, 'Diforsa Pauldrons of Endurance') /* LONG_DESC_STRING */;

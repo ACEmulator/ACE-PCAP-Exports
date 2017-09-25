@@ -42,7 +42,7 @@ VALUES (36670, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36670, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36670, 16, 'Steel smelted in the Lugian Furnaces.') /* LONG_DESC_STRING */;

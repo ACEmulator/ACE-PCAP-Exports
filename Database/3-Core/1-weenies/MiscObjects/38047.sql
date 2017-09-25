@@ -42,7 +42,7 @@ VALUES (38047, 0, 83886737, 83886737)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38047, 0, 16777983);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38047, 16, 'An old and timeworn Yari, that once belonged to the famous Green Mire Warrior.') /* LONG_DESC_STRING */

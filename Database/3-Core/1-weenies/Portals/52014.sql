@@ -33,7 +33,7 @@ VALUES (52014, 13, True) /* ETHEREAL_BOOL */
      , (52014, 19, True) /* ATTACKABLE_BOOL */
      , (52014, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52014, 38, 'Inner Sanctum') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

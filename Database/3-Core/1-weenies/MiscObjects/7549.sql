@@ -38,7 +38,7 @@ VALUES (7549, 13, True) /* ETHEREAL_BOOL */
      , (7549, 19, True) /* ATTACKABLE_BOOL */
      , (7549, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7549, 14, 'This item is used in mining and is too heavy to wield.') /* USE_STRING */;

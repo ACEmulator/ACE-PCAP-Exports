@@ -100,7 +100,7 @@ VALUES (6873, 12, 16777304)
      , (6873, 14, 16783855)
      , (6873, 16, 16795683);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6873, 5, 'Grand Poobah of the Empty Mug') /* TEMPLATE_STRING */;

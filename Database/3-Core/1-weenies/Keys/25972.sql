@@ -33,7 +33,7 @@ VALUES (25972, 13, True) /* ETHEREAL_BOOL */
      , (25972, 19, True) /* ATTACKABLE_BOOL */
      , (25972, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25972, 16, 'A skeleton key used to open the gate at the top of the bulwark north west of Zaikhal.') /* LONG_DESC_STRING */

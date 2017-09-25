@@ -37,7 +37,7 @@ VALUES (36696, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (36696, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (36696, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36696, 16, 'To prove your clarity of mind you must use the stones provided to make each bag contain one color and you must use the remaining stones to balance the scales correctly.') /* LONG_DESC_STRING */

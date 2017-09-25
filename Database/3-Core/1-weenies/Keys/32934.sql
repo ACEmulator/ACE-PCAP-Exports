@@ -34,7 +34,7 @@ VALUES (32934, 13, True) /* ETHEREAL_BOOL */
      , (32934, 19, True) /* ATTACKABLE_BOOL */
      , (32934, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32934, 16, 'A simple key with lots of little nibble marks on it.') /* LONG_DESC_STRING */

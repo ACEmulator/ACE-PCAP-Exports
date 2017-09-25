@@ -33,7 +33,7 @@ VALUES (12511, 13, True) /* ETHEREAL_BOOL */
      , (12511, 19, True) /* ATTACKABLE_BOOL */
      , (12511, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12511, 38, 'Leafdawning Settlement Portal (12.9N, 52.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

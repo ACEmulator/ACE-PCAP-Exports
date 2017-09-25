@@ -39,7 +39,7 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (28615, 67116019, 207, 33)
      , (28615, 67116026, 174, 33);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28615, 19, 50) /* VALUE_INT */

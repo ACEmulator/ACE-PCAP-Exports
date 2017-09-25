@@ -33,7 +33,7 @@ VALUES (14643, 13, True) /* ETHEREAL_BOOL */
      , (14643, 19, True) /* ATTACKABLE_BOOL */
      , (14643, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14643, 38, 'Lightbringer Dale Cottages Portal (81.8N, 17.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

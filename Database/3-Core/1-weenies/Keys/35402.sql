@@ -32,7 +32,7 @@ VALUES (35402, 13, True) /* ETHEREAL_BOOL */
      , (35402, 19, True) /* ATTACKABLE_BOOL */
      , (35402, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35402, 16, 'An ancient silver key scarred and covered with ash.') /* LONG_DESC_STRING */

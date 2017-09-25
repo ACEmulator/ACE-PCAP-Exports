@@ -29,7 +29,7 @@ VALUES (12656, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12656, 19, True) /* ATTACKABLE_BOOL */
      , (12656, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12656, 16, 'Welcome to South Hebian-To Cottages') /* LONG_DESC_STRING */;

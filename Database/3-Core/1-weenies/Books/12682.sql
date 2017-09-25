@@ -33,7 +33,7 @@ VALUES (12682, 13, True) /* ETHEREAL_BOOL */
      , (12682, 14, True) /* GRAVITY_STATUS_BOOL */
      , (12682, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12682, 15, 'A hastily scribbled note lies here.  You can barely make out the details of the writing.') /* SHORT_DESC_STRING */;

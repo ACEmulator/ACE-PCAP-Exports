@@ -33,7 +33,7 @@ VALUES (37260, 13, True) /* ETHEREAL_BOOL */
      , (37260, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37260, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37260, 16, 'The Jester card is wild. Use this card in place of any other card for any deck.') /* LONG_DESC_STRING */;

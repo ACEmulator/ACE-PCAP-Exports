@@ -38,7 +38,7 @@ VALUES (35323, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (35323, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (35323, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35323, 16, 'Arena Three is currently in use.') /* LONG_DESC_STRING */;

@@ -31,7 +31,7 @@ VALUES (29287, 13, True) /* ETHEREAL_BOOL */
      , (29287, 19, True) /* ATTACKABLE_BOOL */
      , (29287, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29287, 16, 'Using this gem will specialize your skill in Salvaging and raise your skill points accordingly. Once specialized, you will not be able to unspecialize or untrain Salvaging. You must have this skill Trained in order to use this gem. This augmentation cannot be repeated.') /* LONG_DESC_STRING */;

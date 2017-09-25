@@ -31,7 +31,7 @@ VALUES (38648, 13, True) /* ETHEREAL_BOOL */
      , (38648, 19, True) /* ATTACKABLE_BOOL */
      , (38648, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38648, 16, 'The three pieces of the ancient artifact, the Lens of the Filinuvekta.  It would be of great interest to your Society''s Inspector of Adepts.') /* LONG_DESC_STRING */;

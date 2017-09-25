@@ -35,7 +35,7 @@ VALUES (37998, 13, True) /* ETHEREAL_BOOL */
      , (37998, 19, True) /* ATTACKABLE_BOOL */
      , (37998, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37998, 16, 'Inscribed spell: Incantation of Acid Protection Self

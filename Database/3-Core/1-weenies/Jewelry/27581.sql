@@ -47,7 +47,7 @@ VALUES (27581, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27581, 0, 16778344);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27581, 15, 'A ring of piercing protection, given by Behdo Yii for completing the Harvester quest.') /* SHORT_DESC_STRING */;

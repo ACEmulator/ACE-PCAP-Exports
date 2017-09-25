@@ -33,7 +33,7 @@ VALUES (5511, 13, True) /* ETHEREAL_BOOL */
      , (5511, 19, True) /* ATTACKABLE_BOOL */
      , (5511, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5511, 38, 'Mysterious Cave Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -32,7 +32,7 @@ VALUES (36062, 13, True) /* ETHEREAL_BOOL */
      , (36062, 19, True) /* ATTACKABLE_BOOL */
      , (36062, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36062, 16, 'Cowl') /* LONG_DESC_STRING */;

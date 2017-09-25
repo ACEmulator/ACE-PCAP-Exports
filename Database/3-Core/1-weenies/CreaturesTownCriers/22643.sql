@@ -59,7 +59,7 @@ VALUES (22643, 1, 16785073)
      , (22643, 23, 16777708)
      , (22643, 24, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22643, 5, 'Ooo oo aaa') /* TEMPLATE_STRING */;

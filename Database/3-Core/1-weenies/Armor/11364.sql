@@ -43,7 +43,7 @@ VALUES (11364, 67113340, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11364, 0, 16787215);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11364, 16, 'A headdress plaited from the plumes of a Kithless Siraluun') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (4389, 13, True) /* ETHEREAL_BOOL */
      , (4389, 19, True) /* ATTACKABLE_BOOL */
      , (4389, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4389, 16, 'Inscribed spell: Armor Other VI

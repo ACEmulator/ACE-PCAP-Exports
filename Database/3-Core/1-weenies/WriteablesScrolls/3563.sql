@@ -35,7 +35,7 @@ VALUES (3563, 13, True) /* ETHEREAL_BOOL */
      , (3563, 19, True) /* ATTACKABLE_BOOL */
      , (3563, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3563, 16, 'Inscribed spell: War Magic Ineptitude Other II

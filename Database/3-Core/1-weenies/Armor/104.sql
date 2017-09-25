@@ -47,7 +47,7 @@ VALUES (104, 0, 83886796, 83886817)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (104, 0, 16778363);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (104, 16, 'Scalemail Sleeves') /* LONG_DESC_STRING */;

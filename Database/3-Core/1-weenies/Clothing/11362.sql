@@ -50,7 +50,7 @@ VALUES (11362, 0, 83887061, 83893736)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11362, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11362, 16, 'A formal gown woven from the plumes of a Kithless Siraluun.') /* LONG_DESC_STRING */;

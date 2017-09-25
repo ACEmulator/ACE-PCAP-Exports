@@ -42,7 +42,7 @@ VALUES (36604, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36604, 0, 16778345);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36604, 14, 'Bring this ring to Ryukai Hiro in Candeth Keep for a reward.') /* USE_STRING */

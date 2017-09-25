@@ -35,7 +35,7 @@ VALUES (8810, 13, True) /* ETHEREAL_BOOL */
      , (8810, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8810, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8810, 16, 'A Life Magic spell scroll taken from Geraux the Legate, a Virindi Master.  It may affect health regeneration.  It needs to be translated before the spell can be learned.') /* LONG_DESC_STRING */

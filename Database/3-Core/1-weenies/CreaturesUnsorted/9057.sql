@@ -73,7 +73,7 @@ VALUES (9057, 0, 16784246)
      , (9057, 11, 16784204)
      , (9057, 12, 16784196);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9057, 2, 13) /* CREATURE_TYPE_INT */

@@ -33,7 +33,7 @@ VALUES (23326, 13, True) /* ETHEREAL_BOOL */
      , (23326, 14, True) /* GRAVITY_STATUS_BOOL */
      , (23326, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23326, 14, 'Use a cooking pot on this to produce something edible.') /* USE_STRING */

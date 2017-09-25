@@ -32,7 +32,7 @@ VALUES (443, 13, True) /* ETHEREAL_BOOL */
      , (443, 19, True) /* ATTACKABLE_BOOL */
      , (443, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (443, 38, 'Westward Portal (71.6N, 29.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

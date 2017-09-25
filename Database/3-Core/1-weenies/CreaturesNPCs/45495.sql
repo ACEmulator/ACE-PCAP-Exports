@@ -34,7 +34,7 @@ VALUES (45495, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (45495, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (45495, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45495, 5, 'Emissary') /* TEMPLATE_STRING */;

@@ -32,7 +32,7 @@ VALUES (31359, 13, True) /* ETHEREAL_BOOL */
      , (31359, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31359, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31359, 16, 'A delicate wing from a Kirit Zefir.') /* LONG_DESC_STRING */;

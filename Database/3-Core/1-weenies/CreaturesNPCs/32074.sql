@@ -107,7 +107,7 @@ VALUES (32074, 16, 16795638)
      , (32074, 4, 16777291)
      , (32074, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32074, 5, 'Royal Scout') /* TEMPLATE_STRING */;

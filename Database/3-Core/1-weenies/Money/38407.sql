@@ -32,7 +32,7 @@ VALUES (38407, 13, True) /* ETHEREAL_BOOL */
      , (38407, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38407, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38407, 16, 'A strange glowing jungle lily, which pulses with magical energy.') /* LONG_DESC_STRING */;

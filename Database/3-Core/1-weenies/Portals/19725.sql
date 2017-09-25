@@ -33,7 +33,7 @@ VALUES (19725, 13, True) /* ETHEREAL_BOOL */
      , (19725, 19, True) /* ATTACKABLE_BOOL */
      , (19725, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19725, 38, 'Fathomless Chasm Plummet') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

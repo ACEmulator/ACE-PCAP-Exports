@@ -34,7 +34,7 @@ VALUES (25768, 13, True) /* ETHEREAL_BOOL */
      , (25768, 19, True) /* ATTACKABLE_BOOL */
      , (25768, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25768, 16, 'An Aluvian rug set with rungs so that it can be hung on a wall hook.') /* LONG_DESC_STRING */

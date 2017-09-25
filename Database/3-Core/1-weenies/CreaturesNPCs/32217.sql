@@ -90,7 +90,7 @@ VALUES (32217, 12, 16777304)
      , (32217, 8, 16781859)
      , (32217, 16, 16789596);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32217, 5, 'Rogue Scholar') /* TEMPLATE_STRING */;

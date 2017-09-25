@@ -85,7 +85,7 @@ VALUES (14923, 0, 16783080)
      , (14923, 15, 16777335)
      , (14923, 16, 16783677);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14923, 5, 'Marriage Facilitator') /* TEMPLATE_STRING */;

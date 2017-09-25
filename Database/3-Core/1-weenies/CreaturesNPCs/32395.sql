@@ -110,7 +110,7 @@ VALUES (32395, 16, 16795650)
      , (32395, 4, 16788088)
      , (32395, 8, 16788089);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32395, 5, 'Captain of the Royal Guard') /* TEMPLATE_STRING */;

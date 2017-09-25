@@ -37,7 +37,7 @@ VALUES (29232, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29232, 19, True) /* ATTACKABLE_BOOL */
      , (29232, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29232, 16, 'This is where Ishaq keeps the notes for his manuscript: Volume 12 of "The Peculiar Nature and Behavior of Derethian Fauna with Especial Emphasis on Cross-World Speciation". Ishaq has requested that you resist the urge to open this chest. ') /* LONG_DESC_STRING */

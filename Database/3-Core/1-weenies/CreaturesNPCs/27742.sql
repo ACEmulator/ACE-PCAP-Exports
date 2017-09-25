@@ -89,7 +89,7 @@ VALUES (27742, 12, 16778423)
      , (27742, 4, 16778426)
      , (27742, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27742, 5, 'Apprentice Alchemist') /* TEMPLATE_STRING */;

@@ -33,7 +33,7 @@ VALUES (46448, 13, True) /* ETHEREAL_BOOL */
      , (46448, 19, True) /* ATTACKABLE_BOOL */
      , (46448, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46448, 16, 'An ancient skull and arm bone taken from the Venerable Mausoleum. You notice a large groove chiseled inside of the skull. The bones are extremely old and brittle. They clearly will not last for long inside of your packs.') /* LONG_DESC_STRING */

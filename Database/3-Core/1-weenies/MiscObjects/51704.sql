@@ -50,7 +50,7 @@ VALUES (51704, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51704, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51704, 16, 'A scrap of cloth torn from the Apparition of Envy. ') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (33536, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (33536, 19, True) /* ATTACKABLE_BOOL */
      , (33536, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33536, 16, 'A tall spire of black crystal, which hums with power.') /* LONG_DESC_STRING */;

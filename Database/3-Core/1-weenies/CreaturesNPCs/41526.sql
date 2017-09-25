@@ -90,7 +90,7 @@ VALUES (41526, 11, 16778429)
      , (41526, 21, 16777708)
      , (41526, 22, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41526, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;

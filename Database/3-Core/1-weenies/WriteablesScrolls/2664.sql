@@ -35,7 +35,7 @@ VALUES (2664, 13, True) /* ETHEREAL_BOOL */
      , (2664, 19, True) /* ATTACKABLE_BOOL */
      , (2664, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2664, 16, 'Inscribed spell: Enfeeble Other II

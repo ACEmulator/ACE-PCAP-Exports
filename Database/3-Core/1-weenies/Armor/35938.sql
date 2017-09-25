@@ -40,7 +40,7 @@ VALUES (35938, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35938, 67114563, 240, 16);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35938, 16, 'A large helm fashioned from the skull of a Tusker.') /* LONG_DESC_STRING */;

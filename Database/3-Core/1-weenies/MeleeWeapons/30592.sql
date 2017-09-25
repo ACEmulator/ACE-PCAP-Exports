@@ -47,7 +47,7 @@ VALUES (30592, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30592, 0, 16791842);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30592, 16, 'Flaming Partizan of Blood Drinker') /* LONG_DESC_STRING */;

@@ -50,7 +50,7 @@ VALUES (14541, 0, 16784246)
      , (14541, 1, 16784196)
      , (14541, 2, 16784180);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14541, 16, 'A shattered prism containing vibrant purple highlights. Electricity moves beneath the surface of the prism and there is an odd scent in the air about it.') /* LONG_DESC_STRING */

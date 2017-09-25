@@ -33,7 +33,7 @@ VALUES (15192, 13, True) /* ETHEREAL_BOOL */
      , (15192, 19, True) /* ATTACKABLE_BOOL */
      , (15192, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15192, 38, 'Sonpay Portal (43.9S, 35.2E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -52,7 +52,7 @@ VALUES (8133, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8133, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8133, 16, 'A black robe which seems to have threads of chorizite woven into it. This item cannot be enchanted.') /* LONG_DESC_STRING */;

@@ -38,7 +38,7 @@ VALUES (35948, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (35948, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (35948, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35948, 16, 'A menacing Tusker Shrine. An impression in the shape of a tusker paw can be clearly seen in the stones on the base of the shrine.') /* LONG_DESC_STRING */;
@@ -68,6 +68,20 @@ VALUES (35948, 384, 0) /*  */
      , (35948, 381, 0) /*  */
      , (35948, 382, 0) /*  */
      , (35948, 383, 0) /*  */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35948, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (35948, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (35948, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35948, 37, 1) /* BUY_PRICE_FLOAT */
+     , (35948, 38, 1) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35948, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

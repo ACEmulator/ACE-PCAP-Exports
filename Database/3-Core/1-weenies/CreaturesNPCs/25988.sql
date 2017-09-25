@@ -38,7 +38,7 @@ VALUES (25988, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25988, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (25988, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25988, 15, 'A small statue that looks just a little too life-like for comfort.') /* SHORT_DESC_STRING */;

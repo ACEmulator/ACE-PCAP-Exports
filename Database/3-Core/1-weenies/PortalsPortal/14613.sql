@@ -33,7 +33,7 @@ VALUES (14613, 13, True) /* ETHEREAL_BOOL */
      , (14613, 19, True) /* ATTACKABLE_BOOL */
      , (14613, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14613, 38, 'Bleached Skull Wastes Settlement Portal (14.5S, 9.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

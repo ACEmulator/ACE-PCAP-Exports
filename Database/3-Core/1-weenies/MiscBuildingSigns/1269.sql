@@ -30,7 +30,7 @@ VALUES (1269, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1269, 19, True) /* ATTACKABLE_BOOL */
      , (1269, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1269, 16, 'Bandit Castle Prison. Authorized Personnel Only. ') /* LONG_DESC_STRING */;

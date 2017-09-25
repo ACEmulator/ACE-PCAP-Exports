@@ -33,7 +33,7 @@ VALUES (12495, 13, True) /* ETHEREAL_BOOL */
      , (12495, 19, True) /* ATTACKABLE_BOOL */
      , (12495, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12495, 38, 'Evensong Settlement Portal (41.6N, 40.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

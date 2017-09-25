@@ -34,7 +34,7 @@ VALUES (1264, 13, True) /* ETHEREAL_BOOL */
      , (1264, 19, True) /* ATTACKABLE_BOOL */
      , (1264, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1264, 16, 'This silver key goes to a chest in the Green Mire Grave.') /* LONG_DESC_STRING */

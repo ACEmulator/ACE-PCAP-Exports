@@ -46,7 +46,7 @@ VALUES (14920, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14920, 0, 16778344);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14920, 15, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.') /* SHORT_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (12568, 13, True) /* ETHEREAL_BOOL */
      , (12568, 19, True) /* ATTACKABLE_BOOL */
      , (12568, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12568, 38, 'Yanshi Namoon North Portal (19.0S, 44.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

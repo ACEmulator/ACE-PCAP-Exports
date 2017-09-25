@@ -31,7 +31,7 @@ VALUES (28735, 13, True) /* ETHEREAL_BOOL */
      , (28735, 19, True) /* ATTACKABLE_BOOL */
      , (28735, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28735, 16, 'A human torso. All appendages have been savagely removed.') /* LONG_DESC_STRING */;

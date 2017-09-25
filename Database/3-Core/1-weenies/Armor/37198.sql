@@ -45,7 +45,7 @@ VALUES (37198, 67116574, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37198, 0, 16794082);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37198, 16, 'Olthoi Koujia Kabuton of Dual Wield Mastery') /* LONG_DESC_STRING */;

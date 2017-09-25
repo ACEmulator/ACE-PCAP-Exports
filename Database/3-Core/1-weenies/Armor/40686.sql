@@ -48,7 +48,7 @@ VALUES (40686, 0, 83889072, 83897816)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40686, 0, 16778376);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40686, 16, 'Olthoi Girth') /* LONG_DESC_STRING */;

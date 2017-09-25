@@ -76,7 +76,7 @@ VALUES (12774, 0, 16783897)
      , (12774, 14, 16783855)
      , (12774, 16, 16783677);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (12774, 19, 125) /* VALUE_INT */

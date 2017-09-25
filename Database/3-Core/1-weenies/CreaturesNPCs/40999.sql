@@ -84,7 +84,7 @@ VALUES (40999, 12, 16777304)
      , (40999, 13, 16783871)
      , (40999, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40999, 5, 'Portal Researcher') /* TEMPLATE_STRING */;

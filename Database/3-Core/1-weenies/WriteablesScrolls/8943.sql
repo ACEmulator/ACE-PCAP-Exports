@@ -35,7 +35,7 @@ VALUES (8943, 13, True) /* ETHEREAL_BOOL */
      , (8943, 19, True) /* ATTACKABLE_BOOL */
      , (8943, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8943, 16, 'Inscribed spell: Lightning Streak III

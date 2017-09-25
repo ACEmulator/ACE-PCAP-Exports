@@ -45,7 +45,7 @@ VALUES (58, 0, 83887059, 83890397);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (58, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (58, 16, 'Well-crafted Gold Scalemail Gauntlets ') /* LONG_DESC_STRING */;

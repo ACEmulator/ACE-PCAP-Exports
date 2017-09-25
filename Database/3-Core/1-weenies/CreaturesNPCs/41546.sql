@@ -109,7 +109,7 @@ VALUES (41546, 0, 16788097)
      , (41546, 32, 16795848)
      , (41546, 33, 16795849);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41546, 5, 'Royal Knight') /* TEMPLATE_STRING */;

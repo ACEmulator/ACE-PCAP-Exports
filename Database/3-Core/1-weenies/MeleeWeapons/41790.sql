@@ -49,7 +49,7 @@ VALUES (41790, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41790, 0, 16777880);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41790, 15, 'A two handed sword imbued with Singularity energy.') /* SHORT_DESC_STRING */;

@@ -89,7 +89,7 @@ VALUES (38695, 12, 16778423)
      , (38695, 4, 16783485)
      , (38695, 8, 16783487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38695, 5, 'Wight Mage Taskmaster') /* TEMPLATE_STRING */;

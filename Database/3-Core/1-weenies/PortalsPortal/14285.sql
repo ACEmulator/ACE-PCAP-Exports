@@ -33,7 +33,7 @@ VALUES (14285, 13, True) /* ETHEREAL_BOOL */
      , (14285, 19, True) /* ATTACKABLE_BOOL */
      , (14285, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14285, 38, 'Stone Scar Settlement Portal (5.0N, 16.2E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

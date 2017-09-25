@@ -33,7 +33,7 @@ VALUES (12491, 13, True) /* ETHEREAL_BOOL */
      , (12491, 19, True) /* ATTACKABLE_BOOL */
      , (12491, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12491, 38, 'West Sawato Cottages Portal (30.8S, 53.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

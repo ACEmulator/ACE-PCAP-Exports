@@ -35,7 +35,7 @@ VALUES (46441, 13, True) /* ETHEREAL_BOOL */
      , (46441, 14, True) /* GRAVITY_STATUS_BOOL */
      , (46441, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46441, 16, 'A box containing a Blank Augmentation Gem.') /* LONG_DESC_STRING */

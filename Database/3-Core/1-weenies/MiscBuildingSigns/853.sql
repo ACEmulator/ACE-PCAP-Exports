@@ -35,7 +35,7 @@ VALUES (853, 0, 83891180, 83891177);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (853, 0, 16782236);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (853, 16, 'Tailor Ma') /* LONG_DESC_STRING */;

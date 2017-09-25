@@ -38,7 +38,7 @@ VALUES (35772, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (35772, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (35772, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35772, 5, 'Tusker King''s Healer') /* TEMPLATE_STRING */;

@@ -91,7 +91,7 @@ VALUES (33596, 12, 16777304)
      , (33596, 4, 16781816)
      , (33596, 8, 16781817);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33596, 5, 'Pathwarden Greeter') /* TEMPLATE_STRING */;

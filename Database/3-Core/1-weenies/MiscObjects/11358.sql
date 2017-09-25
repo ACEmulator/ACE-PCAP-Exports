@@ -36,7 +36,7 @@ VALUES (11358, 13, True) /* ETHEREAL_BOOL */
      , (11358, 19, True) /* ATTACKABLE_BOOL */
      , (11358, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11358, 14, 'Use this on a small bundle of Siraluun feathers.') /* USE_STRING */

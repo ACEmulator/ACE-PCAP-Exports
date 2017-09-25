@@ -33,7 +33,7 @@ VALUES (14503, 13, True) /* ETHEREAL_BOOL */
      , (14503, 19, True) /* ATTACKABLE_BOOL */
      , (14503, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14503, 38, 'Empyrean Lightning Propylaeum') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

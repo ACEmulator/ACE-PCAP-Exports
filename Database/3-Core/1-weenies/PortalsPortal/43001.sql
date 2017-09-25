@@ -33,7 +33,7 @@ VALUES (43001, 13, True) /* ETHEREAL_BOOL */
      , (43001, 19, True) /* ATTACKABLE_BOOL */
      , (43001, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43001, 16, 'Located in the northern part of the Direlands, Fort Tethana teeters on the brink of outright warfare with the neighboring Renegade encampment. Adventurers may find they need to assist the troops stationed here to keep this important fort under control of the Realm. This town is good for characters over level 50.') /* LONG_DESC_STRING */

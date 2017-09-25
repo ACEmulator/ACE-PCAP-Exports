@@ -93,7 +93,7 @@ VALUES (44076, 9, 16795213)
      , (44076, 8, 16795224)
      , (44076, 16, 16795218);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44076, 5, 'Master Fletcher') /* TEMPLATE_STRING */;
@@ -126,6 +126,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (44076, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (44076, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (44076, 256, 456) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44076, 74, 134480129) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (44076, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (44076, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (44076, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (44076, 38, 1) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44076, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

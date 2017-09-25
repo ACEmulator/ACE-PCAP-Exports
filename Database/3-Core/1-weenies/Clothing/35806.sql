@@ -50,7 +50,7 @@ VALUES (35806, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35806, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35806, 16, 'The elegant silken robes that once belonged to the fearsome Master of the Colosseum.') /* LONG_DESC_STRING */;

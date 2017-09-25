@@ -80,7 +80,7 @@ VALUES (28717, 10, 16777301)
      , (28717, 4, 16791881)
      , (28717, 8, 16791882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28717, 5, 'Collector') /* TEMPLATE_STRING */;

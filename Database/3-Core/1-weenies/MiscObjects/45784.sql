@@ -31,7 +31,7 @@ VALUES (45784, 13, True) /* ETHEREAL_BOOL */
      , (45784, 19, True) /* ATTACKABLE_BOOL */
      , (45784, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45784, 16, 'A heart which beats slowly in your hands as if the being from which it came still lives.') /* LONG_DESC_STRING */;

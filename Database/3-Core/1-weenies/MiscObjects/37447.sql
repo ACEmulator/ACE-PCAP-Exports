@@ -31,7 +31,7 @@ VALUES (37447, 13, True) /* ETHEREAL_BOOL */
      , (37447, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37447, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37447, 16, 'This egg''s shell oozes with an oily, film-like substance which causes the egg to appear gray, almost black.') /* LONG_DESC_STRING */

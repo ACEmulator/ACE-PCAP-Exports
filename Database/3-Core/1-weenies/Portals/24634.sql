@@ -33,7 +33,7 @@ VALUES (24634, 13, True) /* ETHEREAL_BOOL */
      , (24634, 19, True) /* ATTACKABLE_BOOL */
      , (24634, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24634, 38, 'Exit portal (51.8N, 59.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

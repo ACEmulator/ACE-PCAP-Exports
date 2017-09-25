@@ -89,7 +89,7 @@ VALUES (43028, 12, 16777304)
      , (43028, 4, 16781855)
      , (43028, 8, 16781859);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43028, 5, 'Explorer Society Outreach Officer') /* TEMPLATE_STRING */;

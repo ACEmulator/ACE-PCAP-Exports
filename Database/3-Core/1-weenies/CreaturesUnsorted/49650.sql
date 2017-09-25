@@ -87,7 +87,7 @@ VALUES (49650, 10, 16778431)
      , (49650, 8, 16781859)
      , (49650, 16, 16778594);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49650, 5, 'Healer') /* TEMPLATE_STRING */;

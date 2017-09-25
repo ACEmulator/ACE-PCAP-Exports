@@ -37,7 +37,7 @@ VALUES (53312, 13, True) /* ETHEREAL_BOOL */
      , (53312, 19, True) /* ATTACKABLE_BOOL */
      , (53312, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (53312, 16, 'A mace imbued with the energies of the Viridian Rise.') /* LONG_DESC_STRING */

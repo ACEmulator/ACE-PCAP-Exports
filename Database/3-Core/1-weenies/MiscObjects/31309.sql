@@ -31,7 +31,7 @@ VALUES (31309, 13, True) /* ETHEREAL_BOOL */
      , (31309, 19, True) /* ATTACKABLE_BOOL */
      , (31309, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31309, 16, 'Darling XIII - Property of Xsao Lann') /* LONG_DESC_STRING */;

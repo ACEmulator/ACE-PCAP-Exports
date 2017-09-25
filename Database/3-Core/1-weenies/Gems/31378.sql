@@ -30,7 +30,7 @@ VALUES (31378, 13, True) /* ETHEREAL_BOOL */
      , (31378, 19, True) /* ATTACKABLE_BOOL */
      , (31378, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31378, 16, 'A fragment of an unknown artifact protected by a Greater Void Lord. Its shape is oddly familiar.') /* LONG_DESC_STRING */

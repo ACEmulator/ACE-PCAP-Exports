@@ -53,7 +53,7 @@ VALUES (31818, 0, 83897339, 83897339);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31818, 0, 16792617);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31818, 16, 'Piercing Slingshot of Recklessness') /* LONG_DESC_STRING */;

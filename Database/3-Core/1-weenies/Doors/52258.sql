@@ -32,7 +32,7 @@ VALUES (52258, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (52258, 19, True) /* ATTACKABLE_BOOL */
      , (52258, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52258, 14, 'This door cannot be activated from here.') /* USE_STRING */;

@@ -64,7 +64,7 @@ VALUES (52962, 16, 16795665)
      , (52962, 4, 16794154)
      , (52962, 8, 16794155);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52962, 5, 'Society Gauntlet Master') /* TEMPLATE_STRING */;

@@ -50,7 +50,7 @@ VALUES (112, 0, 83887064, 83886820);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (112, 0, 16778365);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (112, 16, 'Studded Leather Tassets') /* LONG_DESC_STRING */;

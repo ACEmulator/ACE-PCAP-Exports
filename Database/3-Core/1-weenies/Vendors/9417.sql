@@ -61,7 +61,7 @@ VALUES (9417, 0, 16785699)
      , (9417, 19, 16785704)
      , (9417, 20, 16785705);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9417, 2, 5) /* CREATURE_TYPE_INT */
@@ -70,6 +70,20 @@ VALUES (9417, 2, 5) /* CREATURE_TYPE_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9417, 64, 240) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9417, 74, 266368) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (9417, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (9417, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9417, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (9417, 38, 1.7) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9417, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

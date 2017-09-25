@@ -52,7 +52,7 @@ VALUES (148, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (148, 0, 16778751);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (148, 16, 'Cup of Lockpicking') /* LONG_DESC_STRING */;

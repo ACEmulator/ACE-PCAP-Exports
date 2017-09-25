@@ -32,9 +32,26 @@ VALUES (14245, 13, True) /* ETHEREAL_BOOL */
      , (14245, 19, True) /* ATTACKABLE_BOOL */
      , (14245, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14245, 16, 'The current maintenance has been paid.
 ') /* LONG_DESC_STRING */;
+
+/* Slumlord Extended Properties */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14245, 155, 2) /* HOUSE_TYPE_INT */
+     , (14245, 149, 1) /* HOUSE_STATUS_INT */
+     , (14245, 86, 35) /* MIN_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14245, 4, False) /* ROT_PROOF_BOOL */;
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
+VALUES (14245, 16, 273, 2000000) /* Pyreal */
+     , (14245, 16, 11710, 5) /* Writ of Refuge */
+     , (14245, 16, 8426, 1) /* Jungle Phyntos Wasp Wing */
+     , (14245, 32, 273, 100000) /* Pyreal */
+     , (14245, 32, 11710, 2) /* Writ of Refuge */;
 

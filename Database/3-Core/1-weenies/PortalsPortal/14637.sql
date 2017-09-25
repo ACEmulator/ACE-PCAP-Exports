@@ -33,7 +33,7 @@ VALUES (14637, 13, True) /* ETHEREAL_BOOL */
      , (14637, 19, True) /* ATTACKABLE_BOOL */
      , (14637, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14637, 38, 'Ikama Cottages Portal (59.9S, 35.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -36,7 +36,7 @@ VALUES (5672, 13, True) /* ETHEREAL_BOOL */
      , (5672, 19, True) /* ATTACKABLE_BOOL */
      , (5672, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5672, 16, 'A strong tea made from mugwort and willow leaves, popular in the Aluvian highlands.') /* LONG_DESC_STRING */;

@@ -84,7 +84,7 @@ VALUES (9501, 2, 16778436)
      , (9501, 8, 16778428)
      , (9501, 16, 16785780);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9501, 5, 'Gamesmaster') /* TEMPLATE_STRING */;

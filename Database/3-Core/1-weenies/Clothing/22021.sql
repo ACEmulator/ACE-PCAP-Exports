@@ -34,7 +34,7 @@ VALUES (22021, 13, True) /* ETHEREAL_BOOL */
      , (22021, 19, True) /* ATTACKABLE_BOOL */
      , (22021, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22021, 16, 'A finely crafted undead costume that is only missing the head. Thankfully the smell of the previous owner is masked by the scent of the various glues used in its crafting.') /* LONG_DESC_STRING */

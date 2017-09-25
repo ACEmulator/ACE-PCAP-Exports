@@ -47,7 +47,7 @@ VALUES (27580, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27580, 0, 16778506);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27580, 15, 'A necklace of acid and piercing protection, given by Behdo Yii for completing the Eviscerator quest.') /* SHORT_DESC_STRING */;

@@ -34,7 +34,7 @@ VALUES (29180, 13, True) /* ETHEREAL_BOOL */
      , (29180, 19, True) /* ATTACKABLE_BOOL */
      , (29180, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29180, 16, 'A pack of empty bottles.') /* LONG_DESC_STRING */

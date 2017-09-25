@@ -33,7 +33,7 @@ VALUES (39409, 13, True) /* ETHEREAL_BOOL */
      , (39409, 19, True) /* ATTACKABLE_BOOL */
      , (39409, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39409, 38, 'Patriarch''s Valley (58.5N, 10.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -43,7 +43,7 @@ VALUES (166, 0, 83890064, 83890064);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (166, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (166, 14, 'Use this item to close it.') /* USE_STRING */;

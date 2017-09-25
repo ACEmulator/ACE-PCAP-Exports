@@ -48,7 +48,7 @@ VALUES (31977, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31977, 0, 16778345);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31977, 16, 'A rose colored wedding ring with a subtle rose shaped design carved into it.') /* LONG_DESC_STRING */;

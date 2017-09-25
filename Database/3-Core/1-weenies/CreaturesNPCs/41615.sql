@@ -85,7 +85,7 @@ VALUES (41615, 12, 16778423)
      , (41615, 14, 16783855)
      , (41615, 16, 16785778);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41615, 5, 'Arcanum Tinkerer') /* TEMPLATE_STRING */;

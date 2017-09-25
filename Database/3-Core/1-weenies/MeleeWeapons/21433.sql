@@ -36,7 +36,7 @@ VALUES (21433, 13, True) /* ETHEREAL_BOOL */
      , (21433, 19, True) /* ATTACKABLE_BOOL */
      , (21433, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21433, 15, 'A staff constructed from obsidian and cerulean colored stone.') /* SHORT_DESC_STRING */;

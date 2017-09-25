@@ -33,7 +33,7 @@ VALUES (32127, 13, True) /* ETHEREAL_BOOL */
      , (32127, 19, True) /* ATTACKABLE_BOOL */
      , (32127, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32127, 16, 'You must obtain the blessing of the Watcher of the Deep before you may use this portal.') /* LONG_DESC_STRING */

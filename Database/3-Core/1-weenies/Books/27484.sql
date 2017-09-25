@@ -33,7 +33,7 @@ VALUES (27484, 13, True) /* ETHEREAL_BOOL */
      , (27484, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27484, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27484, 16, 'Orders sent to Commander Kamenua. These might have some worth if given to Aun Laokhe.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (30999, 13, True) /* ETHEREAL_BOOL */
      , (30999, 19, True) /* ATTACKABLE_BOOL */
      , (30999, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30999, 16, 'A key to the Academy Library.') /* LONG_DESC_STRING */

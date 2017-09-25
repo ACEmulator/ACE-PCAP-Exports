@@ -35,7 +35,7 @@ VALUES (37648, 13, True) /* ETHEREAL_BOOL */
      , (37648, 19, True) /* ATTACKABLE_BOOL */
      , (37648, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37648, 16, 'Inscribed spell: Incantation of Armor Self

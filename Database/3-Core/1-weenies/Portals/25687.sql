@@ -33,7 +33,7 @@ VALUES (25687, 13, True) /* ETHEREAL_BOOL */
      , (25687, 19, True) /* ATTACKABLE_BOOL */
      , (25687, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25687, 38, 'Cavernous Olthoi Chasm') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -33,7 +33,7 @@ VALUES (38545, 13, True) /* ETHEREAL_BOOL */
      , (38545, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38545, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38545, 16, 'An armor writ, which can be given to one of the Society Armorsmiths for access to the Society Armor Chests.  One of these writs may be exchanged for access once per day.') /* LONG_DESC_STRING */

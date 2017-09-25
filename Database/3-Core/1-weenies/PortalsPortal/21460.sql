@@ -33,7 +33,7 @@ VALUES (21460, 13, True) /* ETHEREAL_BOOL */
      , (21460, 19, True) /* ATTACKABLE_BOOL */
      , (21460, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21460, 38, 'Cedraic Court Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

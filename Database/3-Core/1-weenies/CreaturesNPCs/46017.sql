@@ -114,7 +114,7 @@ VALUES (46017, 5, 16788087)
      , (46017, 22, 16777708)
      , (46017, 21, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46017, 5, 'Tou-Tou Shadow Hunter') /* TEMPLATE_STRING */;

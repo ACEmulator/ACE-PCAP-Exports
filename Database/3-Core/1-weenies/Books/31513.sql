@@ -33,7 +33,7 @@ VALUES (31513, 13, True) /* ETHEREAL_BOOL */
      , (31513, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31513, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31513, 16, 'A tear-stained note.') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (22714, 0, 83894383, 83894380);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22714, 0, 16788638);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22714, 16, 'Central Tusker Forest, the tougher ones live there. -Brighteyes, the Tailor. ') /* LONG_DESC_STRING */;

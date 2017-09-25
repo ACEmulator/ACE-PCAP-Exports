@@ -33,7 +33,7 @@ VALUES (31454, 13, True) /* ETHEREAL_BOOL */
      , (31454, 19, True) /* ATTACKABLE_BOOL */
      , (31454, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31454, 16, 'Half of a battered old cestus. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LONG_DESC_STRING */;

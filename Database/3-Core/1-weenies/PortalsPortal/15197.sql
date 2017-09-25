@@ -33,7 +33,7 @@ VALUES (15197, 13, True) /* ETHEREAL_BOOL */
      , (15197, 19, True) /* ATTACKABLE_BOOL */
      , (15197, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15197, 38, 'Thyrinn Cant Cottages Portal (81.6N, 20.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

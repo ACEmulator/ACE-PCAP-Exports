@@ -99,7 +99,7 @@ VALUES (35477, 5, 16789351)
      , (35477, 8, 16781839)
      , (35477, 16, 16791893);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35477, 5, 'Hidden Hand') /* TEMPLATE_STRING */;

@@ -99,7 +99,7 @@ VALUES (46014, 1, 16777708)
      , (46014, 12, 16788094)
      , (46014, 16, 16793036);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46014, 5, 'Shadow Flyer Hunter') /* TEMPLATE_STRING */;

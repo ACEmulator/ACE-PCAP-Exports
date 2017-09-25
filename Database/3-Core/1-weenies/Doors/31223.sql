@@ -32,7 +32,7 @@ VALUES (31223, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (31223, 19, True) /* ATTACKABLE_BOOL */
      , (31223, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31223, 16, 'This door is coated with the stench of the K''nath.') /* LONG_DESC_STRING */;

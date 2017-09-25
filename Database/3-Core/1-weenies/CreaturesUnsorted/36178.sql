@@ -35,7 +35,7 @@ VALUES (36178, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (36178, 19, True) /* ATTACKABLE_BOOL */
      , (36178, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36178, 2, 62) /* CREATURE_TYPE_INT */

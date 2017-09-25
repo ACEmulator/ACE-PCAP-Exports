@@ -34,7 +34,7 @@ VALUES (32968, 13, True) /* ETHEREAL_BOOL */
      , (32968, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32968, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32968, 16, 'An account of the discovery of an Ancient Masonry on Aerlinthe Island.') /* LONG_DESC_STRING */;

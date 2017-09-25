@@ -49,7 +49,7 @@ VALUES (5320, 67111925, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5320, 0, 16777895);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5320, 16, 'Frost Spine Glaive') /* LONG_DESC_STRING */;

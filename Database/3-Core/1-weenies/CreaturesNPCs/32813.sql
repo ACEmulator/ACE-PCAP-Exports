@@ -89,7 +89,7 @@ VALUES (32813, 12, 16778423)
      , (32813, 4, 16781855)
      , (32813, 8, 16781859);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32813, 5, 'Plumber') /* TEMPLATE_STRING */;

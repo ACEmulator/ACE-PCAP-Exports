@@ -30,7 +30,7 @@ VALUES (49606, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (49606, 19, True) /* ATTACKABLE_BOOL */
      , (49606, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49606, 16, 'Welcome to the town of Uziz.') /* LONG_DESC_STRING */;

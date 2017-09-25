@@ -35,7 +35,7 @@ VALUES (41302, 13, True) /* ETHEREAL_BOOL */
      , (41302, 19, True) /* ATTACKABLE_BOOL */
      , (41302, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41302, 16, 'Inscribed spell: Boon of T''ing

@@ -36,7 +36,7 @@ VALUES (42979, 13, True) /* ETHEREAL_BOOL */
      , (42979, 19, True) /* ATTACKABLE_BOOL */
      , (42979, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42979, 16, 'This Aetherium core integrator forges Gear Plating using the materials and magical essence derived from armor and clothing. Use this item on armor and clothing to convert the item to Armor Plating.') /* LONG_DESC_STRING */;

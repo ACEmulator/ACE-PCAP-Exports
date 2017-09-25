@@ -52,7 +52,7 @@ VALUES (31789, 0, 83897334, 83897334);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31789, 0, 16792611);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31789, 16, 'Acid Stick') /* LONG_DESC_STRING */;

@@ -37,7 +37,7 @@ VALUES (7408, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7408, 19, True) /* ATTACKABLE_BOOL */
      , (7408, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7408, 16, 'A rusty old chest, inscribed with Dericostian runes. There is a suspicious glow near the lock.') /* LONG_DESC_STRING */

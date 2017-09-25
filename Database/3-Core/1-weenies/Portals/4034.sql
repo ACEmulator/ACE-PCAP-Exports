@@ -33,7 +33,7 @@ VALUES (4034, 13, True) /* ETHEREAL_BOOL */
      , (4034, 19, True) /* ATTACKABLE_BOOL */
      , (4034, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4034, 38, 'Surface (17.8N, 65.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

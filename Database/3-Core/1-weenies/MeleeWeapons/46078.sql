@@ -49,7 +49,7 @@ VALUES (46078, 0, 83889688, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46078, 0, 16783996);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46078, 16, 'This weapon seems tough to master.') /* LONG_DESC_STRING */;

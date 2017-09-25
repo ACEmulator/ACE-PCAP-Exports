@@ -33,7 +33,7 @@ VALUES (15806, 13, True) /* ETHEREAL_BOOL */
      , (15806, 14, True) /* GRAVITY_STATUS_BOOL */
      , (15806, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15806, 15, 'A certificate granting permission to give the bearer Elysa Strathelar''s Letters') /* SHORT_DESC_STRING */;

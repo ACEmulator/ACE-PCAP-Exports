@@ -88,7 +88,7 @@ VALUES (5046, 12, 16777304)
      , (5046, 14, 16783855)
      , (5046, 16, 16785776);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5046, 5, 'Society Agent') /* TEMPLATE_STRING */;

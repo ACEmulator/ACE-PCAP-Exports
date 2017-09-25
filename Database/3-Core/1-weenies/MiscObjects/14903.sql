@@ -32,7 +32,7 @@ VALUES (14903, 13, True) /* ETHEREAL_BOOL */
      , (14903, 19, True) /* ATTACKABLE_BOOL */
      , (14903, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14903, 16, 'Marriage is a sacred commitment not to be taken lightly.  One must be willing to love, honor and cherish the members of this blessed union. Fully willing to provide the friendship and companionship necessary for this commitment.') /* LONG_DESC_STRING */

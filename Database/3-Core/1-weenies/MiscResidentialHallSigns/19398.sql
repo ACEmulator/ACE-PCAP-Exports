@@ -29,7 +29,7 @@ VALUES (19398, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19398, 19, True) /* ATTACKABLE_BOOL */
      , (19398, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19398, 16, 'White Lotus Gate') /* LONG_DESC_STRING */;

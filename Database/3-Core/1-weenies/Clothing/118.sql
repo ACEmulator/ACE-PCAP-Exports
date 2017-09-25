@@ -47,7 +47,7 @@ VALUES (118, 0, 83889315, 83889865);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (118, 0, 16778369);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (118, 16, 'Cloth Cap of Regeneration') /* LONG_DESC_STRING */;

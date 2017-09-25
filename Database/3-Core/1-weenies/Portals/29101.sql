@@ -33,7 +33,7 @@ VALUES (29101, 13, True) /* ETHEREAL_BOOL */
      , (29101, 19, True) /* ATTACKABLE_BOOL */
      , (29101, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29101, 16, 'This hovel is home to the thieving Thrungum. Any stolen items found herein should be returned to a Portal Guardian.') /* LONG_DESC_STRING */

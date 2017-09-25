@@ -41,7 +41,7 @@ VALUES (14914, 13, True) /* ETHEREAL_BOOL */
      , (14914, 19, True) /* ATTACKABLE_BOOL */
      , (14914, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14914, 16, 'A wedding invitation.') /* LONG_DESC_STRING */

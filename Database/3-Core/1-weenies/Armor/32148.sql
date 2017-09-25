@@ -38,7 +38,7 @@ VALUES (32148, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32148, 0, 16792870);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32148, 16, 'A modified Shadow Breastplate. Shadowy wings protrude from the shoulders.') /* LONG_DESC_STRING */;

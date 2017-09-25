@@ -93,7 +93,7 @@ VALUES (38227, 12, 16778423)
      , (38227, 4, 16783485)
      , (38227, 8, 16783487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38227, 5, 'Spawn Pools Task Master') /* TEMPLATE_STRING */;

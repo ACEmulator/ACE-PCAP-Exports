@@ -34,7 +34,7 @@ VALUES (42146, 13, True) /* ETHEREAL_BOOL */
      , (42146, 19, True) /* ATTACKABLE_BOOL */
      , (42146, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42146, 16, 'A portal leading to near the Abandoned Tumerok Site outside Redspire where the Harvester Pincer may be found.') /* LONG_DESC_STRING */

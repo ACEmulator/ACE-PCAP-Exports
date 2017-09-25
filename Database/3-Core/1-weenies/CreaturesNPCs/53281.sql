@@ -56,7 +56,7 @@ VALUES (53281, 0, 16797129)
      , (53281, 10, 16797133)
      , (53281, 16, 16797134);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (53281, 5, 'Viridian Stalker') /* TEMPLATE_STRING */;

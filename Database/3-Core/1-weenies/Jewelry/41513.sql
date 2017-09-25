@@ -36,7 +36,7 @@ VALUES (41513, 13, True) /* ETHEREAL_BOOL */
      , (41513, 19, True) /* ATTACKABLE_BOOL */
      , (41513, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41513, 16, 'A gearwork compass, may it guide your way.') /* LONG_DESC_STRING */;

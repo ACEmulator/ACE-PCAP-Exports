@@ -33,7 +33,7 @@ VALUES (32518, 13, True) /* ETHEREAL_BOOL */
      , (32518, 19, True) /* ATTACKABLE_BOOL */
      , (32518, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32518, 16, 'This portal is quest-restricted.  Speak with Adrana the Royal Guard in Yanshi for details.') /* LONG_DESC_STRING */

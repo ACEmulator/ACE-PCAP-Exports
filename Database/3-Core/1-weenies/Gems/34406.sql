@@ -36,7 +36,7 @@ VALUES (34406, 13, True) /* ETHEREAL_BOOL */
      , (34406, 19, True) /* ATTACKABLE_BOOL */
      , (34406, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34406, 16, 'A Scold Pack Doll with angry eyes.') /* LONG_DESC_STRING */

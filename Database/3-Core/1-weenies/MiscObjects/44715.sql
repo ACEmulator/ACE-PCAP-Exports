@@ -42,7 +42,7 @@ VALUES (44715, 0, 83893248, 83893251)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44715, 0, 16785707);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44715, 16, 'A gambling token accepted by all Low-Stakes Gamemasters.') /* LONG_DESC_STRING */;

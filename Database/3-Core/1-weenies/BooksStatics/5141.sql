@@ -33,7 +33,7 @@ VALUES (5141, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5141, 19, True) /* ATTACKABLE_BOOL */
      , (5141, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5141, 16, 'Double-click this sign to read it.') /* LONG_DESC_STRING */;

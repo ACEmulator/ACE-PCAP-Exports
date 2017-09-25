@@ -31,7 +31,7 @@ VALUES (38082, 13, True) /* ETHEREAL_BOOL */
      , (38082, 19, True) /* ATTACKABLE_BOOL */
      , (38082, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38082, 16, 'This mnemosyne came from Lord Rytheran of Menilesh.') /* LONG_DESC_STRING */;

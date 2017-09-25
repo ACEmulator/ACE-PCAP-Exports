@@ -33,7 +33,7 @@ VALUES (14667, 13, True) /* ETHEREAL_BOOL */
      , (14667, 19, True) /* ATTACKABLE_BOOL */
      , (14667, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14667, 38, 'Southern Park Portal (75.8S, 37.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

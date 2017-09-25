@@ -33,7 +33,7 @@ VALUES (51918, 13, True) /* ETHEREAL_BOOL */
      , (51918, 19, True) /* ATTACKABLE_BOOL */
      , (51918, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51918, 16, 'A bright gold key to Commander Presk''s Treasury.') /* LONG_DESC_STRING */

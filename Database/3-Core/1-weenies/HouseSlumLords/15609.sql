@@ -32,3 +32,19 @@ VALUES (15609, 13, True) /* ETHEREAL_BOOL */
      , (15609, 19, True) /* ATTACKABLE_BOOL */
      , (15609, 1, True) /* STUCK_BOOL */;
 
+/* Slumlord Extended Properties */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15609, 155, 1) /* HOUSE_TYPE_INT */
+     , (15609, 149, 1) /* HOUSE_STATUS_INT */
+     , (15609, 86, 20) /* MIN_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (15609, 4, False) /* ROT_PROOF_BOOL */;
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
+VALUES (15609, 16, 273, 300000) /* Pyreal */
+     , (15609, 16, 11710, 1) /* Writ of Refuge */
+     , (15609, 16, 4227, 1) /* Gromnie Hide Shirt */
+     , (15609, 32, 273, 30000) /* Pyreal */;
+

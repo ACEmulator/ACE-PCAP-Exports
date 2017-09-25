@@ -29,7 +29,7 @@ VALUES (4517, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4517, 19, True) /* ATTACKABLE_BOOL */
      , (4517, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4517, 16, 'South Town Supplies') /* LONG_DESC_STRING */;

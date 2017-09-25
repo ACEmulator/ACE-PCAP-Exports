@@ -97,7 +97,7 @@ VALUES (37599, 16, 16795662)
      , (37599, 4, 16781816)
      , (37599, 8, 16781817);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37599, 5, 'Hand Recruiter') /* TEMPLATE_STRING */;

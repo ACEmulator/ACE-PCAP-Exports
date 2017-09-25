@@ -38,7 +38,7 @@ VALUES (34421, 13, True) /* ETHEREAL_BOOL */
      , (34421, 19, True) /* ATTACKABLE_BOOL */
      , (34421, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34421, 16, 'A simple old snowman hat.') /* LONG_DESC_STRING */

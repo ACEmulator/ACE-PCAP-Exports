@@ -85,7 +85,7 @@ VALUES (37166, 12, 16778423)
      , (37166, 14, 16783855)
      , (37166, 16, 16783891);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37166, 5, 'Scholar of Dericostian Texts') /* TEMPLATE_STRING */;

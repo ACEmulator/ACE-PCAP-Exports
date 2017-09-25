@@ -33,7 +33,7 @@ VALUES (38335, 13, True) /* ETHEREAL_BOOL */
      , (38335, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38335, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38335, 16, 'A puzzle given to you by a statue outside of the Moarsmen Gateway Temple.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (40156, 13, True) /* ETHEREAL_BOOL */
      , (40156, 19, True) /* ATTACKABLE_BOOL */
      , (40156, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40156, 38, 'Crystalline Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

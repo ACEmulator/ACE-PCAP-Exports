@@ -29,7 +29,7 @@ VALUES (42766, 13, True) /* ETHEREAL_BOOL */
      , (42766, 19, True) /* ATTACKABLE_BOOL */
      , (42766, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42766, 16, 'Uziz is a Gharu''ndim town situated in the heart of the Yushad Ridge. It was settled after explorers trekking out from Samsur discovered a calm, clear pool of fresh water, believed by some scholars to be a reservoir left behind by the Empyrean.') /* LONG_DESC_STRING */;

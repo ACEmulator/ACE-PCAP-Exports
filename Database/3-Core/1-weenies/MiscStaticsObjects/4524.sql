@@ -29,7 +29,7 @@ VALUES (4524, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4524, 19, True) /* ATTACKABLE_BOOL */
      , (4524, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4524, 16, 'This way to Nanto!') /* LONG_DESC_STRING */;

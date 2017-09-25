@@ -33,7 +33,7 @@ VALUES (1907, 13, True) /* ETHEREAL_BOOL */
      , (1907, 19, True) /* ATTACKABLE_BOOL */
      , (1907, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1907, 38, 'Sho Roadside (27.9S, 68.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

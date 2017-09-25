@@ -45,7 +45,7 @@ VALUES (57, 0, 83894333, 83894333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (57, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (57, 16, 'Platemail Gauntlets') /* LONG_DESC_STRING */;

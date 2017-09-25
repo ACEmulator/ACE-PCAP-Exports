@@ -33,7 +33,7 @@ VALUES (15169, 13, True) /* ETHEREAL_BOOL */
      , (15169, 19, True) /* ATTACKABLE_BOOL */
      , (15169, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15169, 38, 'Last-Stop-Before-Dires Villas Portal (23.2N, 46.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

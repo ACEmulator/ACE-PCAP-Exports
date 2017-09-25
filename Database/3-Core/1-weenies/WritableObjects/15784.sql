@@ -31,7 +31,7 @@ VALUES (15784, 13, True) /* ETHEREAL_BOOL */
      , (15784, 19, True) /* ATTACKABLE_BOOL */
      , (15784, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15784, 16, 'A note hastily written by Nuhmudira. A strange symbol is scribbled at the bottom.') /* LONG_DESC_STRING */

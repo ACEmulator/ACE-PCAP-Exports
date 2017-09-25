@@ -36,7 +36,7 @@ VALUES (38513, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38513, 19, True) /* ATTACKABLE_BOOL */
      , (38513, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38513, 16, 'A Society Reward Chest, containing a randomly enchanted set of Radiant Blood Tassets.') /* LONG_DESC_STRING */;

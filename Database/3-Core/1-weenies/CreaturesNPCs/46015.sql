@@ -38,7 +38,7 @@ VALUES (46015, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (46015, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (46015, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46015, 5, 'Grievver Shredder Hunter') /* TEMPLATE_STRING */;

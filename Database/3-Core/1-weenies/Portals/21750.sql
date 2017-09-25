@@ -33,7 +33,7 @@ VALUES (21750, 13, True) /* ETHEREAL_BOOL */
      , (21750, 19, True) /* ATTACKABLE_BOOL */
      , (21750, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21750, 38, 'Proving Grounds Mid') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -41,7 +41,7 @@ VALUES (28622, 67116298, 152, 8)
      , (28622, 67116319, 72, 24)
      , (28622, 67116319, 136, 16);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28622, 16, 'Tenassa Leggings') /* LONG_DESC_STRING */;

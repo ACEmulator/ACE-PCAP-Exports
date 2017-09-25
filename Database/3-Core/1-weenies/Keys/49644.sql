@@ -33,7 +33,7 @@ VALUES (49644, 13, True) /* ETHEREAL_BOOL */
      , (49644, 19, True) /* ATTACKABLE_BOOL */
      , (49644, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49644, 16, 'A key to the door the Simulacrum Shifter was guarding.') /* LONG_DESC_STRING */

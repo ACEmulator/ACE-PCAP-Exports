@@ -32,7 +32,7 @@ VALUES (28249, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28249, 19, True) /* ATTACKABLE_BOOL */
      , (28249, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28249, 15, 'A hollowed out tree trunk that has a Phyntos Wasp Hive in it.') /* SHORT_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (12533, 13, True) /* ETHEREAL_BOOL */
      , (12533, 19, True) /* ATTACKABLE_BOOL */
      , (12533, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12533, 38, 'North Eastham Meadow Portal (22.9N, 60.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

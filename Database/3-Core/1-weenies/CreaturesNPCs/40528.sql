@@ -36,7 +36,7 @@ VALUES (40528, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (40528, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (40528, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40528, 15, 'A signpost has been placed firmly in the ground. Someone wanted to get the word out. Maybe you should take a look at what it says.') /* SHORT_DESC_STRING */;

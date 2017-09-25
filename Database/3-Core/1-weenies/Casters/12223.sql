@@ -55,7 +55,7 @@ VALUES (12223, 0, 83893805, 83893805)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12223, 0, 16787394);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12223, 16, 'A wand with a shrunken skull on it.') /* LONG_DESC_STRING */;

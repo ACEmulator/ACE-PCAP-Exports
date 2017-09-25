@@ -51,7 +51,7 @@ VALUES (28068, 0, 83887061, 83893840)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28068, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28068, 16, 'A reward for your efforts to learn more of the Burun and their treaty with the Renegades.') /* LONG_DESC_STRING */;

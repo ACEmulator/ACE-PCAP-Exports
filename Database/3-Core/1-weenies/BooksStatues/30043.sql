@@ -32,7 +32,7 @@ VALUES (30043, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (30043, 19, True) /* ATTACKABLE_BOOL */
      , (30043, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30043, 16, 'A statue of King Varicci II of Viamont.') /* LONG_DESC_STRING */

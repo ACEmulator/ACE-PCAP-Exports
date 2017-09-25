@@ -82,7 +82,7 @@ VALUES (51860, 0, 16783894)
      , (51860, 13, 16788208)
      , (51860, 14, 16788202);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51860, 5, 'Wisp Hunter') /* TEMPLATE_STRING */;

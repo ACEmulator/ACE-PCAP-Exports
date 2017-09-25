@@ -49,7 +49,7 @@ VALUES (12751, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12751, 0, 16777885);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12751, 15, 'An enhanced battle axe crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;

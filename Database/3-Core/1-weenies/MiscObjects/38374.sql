@@ -34,7 +34,7 @@ VALUES (38374, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38374, 0, 16787383);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38374, 16, 'The severed head of T''thuun''s Sclavus servant, Skith''Kirit.') /* LONG_DESC_STRING */

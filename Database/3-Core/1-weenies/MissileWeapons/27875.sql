@@ -41,7 +41,7 @@ VALUES (27875, 13, True) /* ETHEREAL_BOOL */
      , (27875, 17, True) /* INELASTIC_BOOL */
      , (27875, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27875, 16, 'Pants of Lightning Protection') /* LONG_DESC_STRING */;

@@ -48,7 +48,7 @@ VALUES (551, 0, 83889859, 83889864)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (551, 0, 16780294);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (551, 16, '  Leather Basinet ') /* LONG_DESC_STRING */;

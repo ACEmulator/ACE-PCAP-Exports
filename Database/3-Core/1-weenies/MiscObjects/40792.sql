@@ -34,7 +34,7 @@ VALUES (40792, 13, True) /* ETHEREAL_BOOL */
      , (40792, 19, True) /* ATTACKABLE_BOOL */
      , (40792, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40792, 14, 'Combine an elemental crystal with this force crystal to stabilize it.') /* USE_STRING */

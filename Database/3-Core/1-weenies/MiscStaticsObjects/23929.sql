@@ -32,5 +32,5 @@ VALUES (23929, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (23929, 22, True) /* INSCRIBABLE_BOOL */
      , (23929, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 

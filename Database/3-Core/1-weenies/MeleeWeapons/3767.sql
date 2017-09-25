@@ -40,7 +40,7 @@ VALUES (3767, 13, True) /* ETHEREAL_BOOL */
      , (3767, 19, True) /* ATTACKABLE_BOOL */
      , (3767, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3767, 16, 'Lightning Club of Defender') /* LONG_DESC_STRING */;

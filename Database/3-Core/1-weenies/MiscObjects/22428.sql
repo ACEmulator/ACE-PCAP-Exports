@@ -31,7 +31,7 @@ VALUES (22428, 13, True) /* ETHEREAL_BOOL */
      , (22428, 19, True) /* ATTACKABLE_BOOL */
      , (22428, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22428, 15, 'A tusk plucked from a dead Plated Tusker. Brighteyes, the tailor at 2.2N 95.6E in Oolatanga''s Refuge on Aphus Lassel collects these.') /* SHORT_DESC_STRING */;

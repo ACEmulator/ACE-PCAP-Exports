@@ -31,7 +31,7 @@ VALUES (33507, 13, True) /* ETHEREAL_BOOL */
      , (33507, 19, True) /* ATTACKABLE_BOOL */
      , (33507, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33507, 16, 'This token represents a Silveran Staff.  You may only pick up one Silveran weapon token.  Turn it in to the Whispering Blade Chamberlain to receive your reward.') /* LONG_DESC_STRING */;

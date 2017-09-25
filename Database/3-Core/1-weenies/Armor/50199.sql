@@ -46,7 +46,7 @@ VALUES (50199, 0, 83889072, 83898398)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (50199, 0, 16778376);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (50199, 160, 115) /* WIELD_DIFFICULTY_INT */

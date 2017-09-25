@@ -33,7 +33,7 @@ VALUES (1905, 13, True) /* ETHEREAL_BOOL */
      , (1905, 19, True) /* ATTACKABLE_BOOL */
      , (1905, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1905, 38, 'North Desert Edge (4.7S, 3.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

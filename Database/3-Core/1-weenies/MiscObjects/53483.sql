@@ -34,7 +34,7 @@ VALUES (53483, 13, True) /* ETHEREAL_BOOL */
      , (53483, 14, True) /* GRAVITY_STATUS_BOOL */
      , (53483, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (53483, 15, 'Hand this to the entrance statue of the Viridian Rise to enter the fifth area of the Viridian Rise, just over the first span. ') /* SHORT_DESC_STRING */;

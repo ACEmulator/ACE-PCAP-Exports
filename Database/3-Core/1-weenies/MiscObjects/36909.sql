@@ -31,7 +31,7 @@ VALUES (36909, 13, True) /* ETHEREAL_BOOL */
      , (36909, 19, True) /* ATTACKABLE_BOOL */
      , (36909, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36909, 16, 'A holiday rug for the rest of us.') /* LONG_DESC_STRING */

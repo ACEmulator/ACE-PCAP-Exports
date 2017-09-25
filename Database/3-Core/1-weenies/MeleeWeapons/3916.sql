@@ -48,7 +48,7 @@ VALUES (3916, 0, 83886737, 83886737)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3916, 0, 16777983);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3916, 16, 'Frost Yari of Defender') /* LONG_DESC_STRING */;

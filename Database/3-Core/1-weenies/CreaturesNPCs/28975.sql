@@ -36,7 +36,7 @@ VALUES (28975, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28975, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (28975, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28975, 16, 'A portrait of Geraine IV. It is a masterpiece. Hevk Loz may know more about this.') /* LONG_DESC_STRING */;

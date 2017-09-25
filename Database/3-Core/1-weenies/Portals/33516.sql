@@ -33,7 +33,7 @@ VALUES (33516, 13, True) /* ETHEREAL_BOOL */
      , (33516, 19, True) /* ATTACKABLE_BOOL */
      , (33516, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33516, 16, 'This dungeon is quest restricted.  The Whispering Blade may be interested in it...') /* LONG_DESC_STRING */

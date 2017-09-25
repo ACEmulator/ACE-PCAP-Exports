@@ -36,7 +36,7 @@ VALUES (32499, 13, True) /* ETHEREAL_BOOL */
      , (32499, 19, True) /* ATTACKABLE_BOOL */
      , (32499, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32499, 16, 'An axe once wielded by the ancient slave Korogaith, and touched by the seething energies of his brother Farelaith.') /* LONG_DESC_STRING */;

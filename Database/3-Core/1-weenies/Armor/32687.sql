@@ -36,7 +36,7 @@ VALUES (32687, 13, True) /* ETHEREAL_BOOL */
      , (32687, 19, True) /* ATTACKABLE_BOOL */
      , (32687, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32687, 16, 'Well-crafted boots worn by the fearsome Ordina Rossu Morta of Viamont.') /* LONG_DESC_STRING */;

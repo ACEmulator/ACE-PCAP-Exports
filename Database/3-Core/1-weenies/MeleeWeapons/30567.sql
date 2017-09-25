@@ -50,7 +50,7 @@ VALUES (30567, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30567, 0, 16791843);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30567, 16, 'Lightning Sabra of Blood Drinker') /* LONG_DESC_STRING */;

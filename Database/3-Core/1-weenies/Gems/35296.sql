@@ -78,7 +78,7 @@ VALUES (35296, 0, 16788885)
      , (35296, 12, 16788891)
      , (35296, 16, 16789125);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35296, 16, 'The powerful golem built by Asheron and the good people of Dereth to protect his tower and home.') /* LONG_DESC_STRING */;

@@ -83,7 +83,7 @@ VALUES (37600, 16, 16795647)
      , (37600, 4, 16791935)
      , (37600, 8, 16791936);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37600, 5, 'Blood Recruiter') /* TEMPLATE_STRING */;

@@ -117,7 +117,7 @@ VALUES (40099, 9, 16794074)
      , (40099, 8, 16789358)
      , (40099, 16, 16794064);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40099, 5, 'Researcher') /* TEMPLATE_STRING */;

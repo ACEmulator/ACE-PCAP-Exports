@@ -37,7 +37,7 @@ VALUES (44082, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (44082, 19, True) /* ATTACKABLE_BOOL */
      , (44082, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44082, 16, 'A chest containing mostly items useful to a Mage. ') /* LONG_DESC_STRING */

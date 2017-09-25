@@ -63,7 +63,7 @@ VALUES (24596, 0, 16785699)
      , (24596, 19, 16785704)
      , (24596, 20, 16785705);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24596, 5, 'Weapons Master') /* TEMPLATE_STRING */;
@@ -75,6 +75,20 @@ VALUES (24596, 2, 5) /* CREATURE_TYPE_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24596, 64, 254) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24596, 74, 1074004231) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (24596, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (24596, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (24596, 37, 1) /* BUY_PRICE_FLOAT */
+     , (24596, 38, 1.4) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24596, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

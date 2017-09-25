@@ -45,7 +45,7 @@ VALUES (36658, 0, 83894333, 83895681);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36658, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36658, 16, 'Great power is bestowed on the Lugian who wields these gauntlets.') /* LONG_DESC_STRING */;

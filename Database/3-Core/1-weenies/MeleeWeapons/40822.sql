@@ -47,7 +47,7 @@ VALUES (40822, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40822, 0, 16794281);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40822, 16, 'Frost Corsesca') /* LONG_DESC_STRING */;

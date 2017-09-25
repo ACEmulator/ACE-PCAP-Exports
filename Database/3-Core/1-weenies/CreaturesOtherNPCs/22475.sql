@@ -38,7 +38,7 @@ VALUES (22475, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22475, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (22475, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22475, 384, 0) /*  */

@@ -32,7 +32,7 @@ VALUES (35953, 13, True) /* ETHEREAL_BOOL */
      , (35953, 19, True) /* ATTACKABLE_BOOL */
      , (35953, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35953, 16, 'A small token proving your contribution in the defeat of Dark Bobo.') /* LONG_DESC_STRING */

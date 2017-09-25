@@ -35,7 +35,7 @@ VALUES (22843, 13, True) /* ETHEREAL_BOOL */
      , (22843, 19, True) /* ATTACKABLE_BOOL */
      , (22843, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22843, 14, 'This vase can hold no more items. It can be placed on a pedestal, available at the Furniture Vendors. This item is floor-hookable.') /* USE_STRING */

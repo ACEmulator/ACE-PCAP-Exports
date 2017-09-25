@@ -74,7 +74,7 @@ VALUES (29094, 12, 16777304)
      , (29094, 4, 16791935)
      , (29094, 8, 16791936);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29094, 5, 'Knight of Sanamar') /* TEMPLATE_STRING */;

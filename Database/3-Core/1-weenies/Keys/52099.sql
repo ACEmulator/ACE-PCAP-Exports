@@ -33,7 +33,7 @@ VALUES (52099, 13, True) /* ETHEREAL_BOOL */
      , (52099, 19, True) /* ATTACKABLE_BOOL */
      , (52099, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52099, 16, 'This is a key.') /* LONG_DESC_STRING */

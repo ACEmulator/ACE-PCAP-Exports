@@ -52,7 +52,7 @@ VALUES (8904, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8904, 0, 16778862);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8904, 16, 'A small stone with strange markings on the side. The stone has been imbued with strong magical abilities.') /* LONG_DESC_STRING */;

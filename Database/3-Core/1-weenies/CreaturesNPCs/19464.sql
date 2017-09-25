@@ -83,7 +83,7 @@ VALUES (19464, 2, 16777293)
      , (19464, 4, 16777291)
      , (19464, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19464, 5, 'Seller for Telk the Addlepated') /* TEMPLATE_STRING */;

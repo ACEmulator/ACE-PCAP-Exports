@@ -78,7 +78,7 @@ VALUES (36231, 12, 16777304)
      , (36231, 4, 16781816)
      , (36231, 8, 16781817);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36231, 5, 'Reef Builder') /* TEMPLATE_STRING */;

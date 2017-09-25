@@ -37,7 +37,7 @@ VALUES (38457, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38457, 19, True) /* ATTACKABLE_BOOL */
      , (38457, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38457, 16, 'A chest with a higher chance of containing mostly weapons. ') /* LONG_DESC_STRING */

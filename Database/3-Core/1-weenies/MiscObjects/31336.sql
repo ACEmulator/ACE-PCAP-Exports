@@ -31,7 +31,7 @@ VALUES (31336, 13, True) /* ETHEREAL_BOOL */
      , (31336, 19, True) /* ATTACKABLE_BOOL */
      , (31336, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31336, 16, 'This Niffis Pearl is almost indistinguishable from a real one.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (30061, 13, True) /* ETHEREAL_BOOL */
      , (30061, 19, True) /* ATTACKABLE_BOOL */
      , (30061, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30061, 16, 'You must speak with Fiun Rehlyun before you can use this portal.') /* LONG_DESC_STRING */

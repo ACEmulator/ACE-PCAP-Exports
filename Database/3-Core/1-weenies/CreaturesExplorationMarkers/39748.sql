@@ -48,7 +48,7 @@ VALUES (39748, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39748, 0, 16794232);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39748, 14, 'Use this marker to declare this spot discovered.') /* USE_STRING */;

@@ -43,7 +43,7 @@ VALUES (41619, 0, 83890737, 83886518);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41619, 0, 16780688);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41619, 16, 'A glyph used in the construction of Atlan and Isparian weapons.') /* LONG_DESC_STRING */

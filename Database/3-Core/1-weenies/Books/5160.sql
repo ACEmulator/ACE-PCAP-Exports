@@ -33,7 +33,7 @@ VALUES (5160, 13, True) /* ETHEREAL_BOOL */
      , (5160, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5160, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5160, 16, 'A letter of introduction, addressed to Jilsaya bint Dah in al-Arqas from Sarqah bint Ak in the North Outpost.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (13101, 13, True) /* ETHEREAL_BOOL */
      , (13101, 19, True) /* ATTACKABLE_BOOL */
      , (13101, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13101, 38, 'East Danby Portal (24.9N, 23.9W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

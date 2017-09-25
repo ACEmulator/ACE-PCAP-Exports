@@ -31,7 +31,7 @@ VALUES (42019, 13, True) /* ETHEREAL_BOOL */
      , (42019, 14, True) /* GRAVITY_STATUS_BOOL */
      , (42019, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42019, 15, 'This ancient ornamental sword bears the symbol of House Mhoire.') /* SHORT_DESC_STRING */;

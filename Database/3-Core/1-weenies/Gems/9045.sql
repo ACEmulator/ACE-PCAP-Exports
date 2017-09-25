@@ -46,7 +46,7 @@ VALUES (9045, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9045, 0, 16779181);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9045, 16, 'A pale crystal, taken from a Nephol Golem.') /* LONG_DESC_STRING */;

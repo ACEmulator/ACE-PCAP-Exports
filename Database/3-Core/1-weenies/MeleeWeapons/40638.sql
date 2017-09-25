@@ -53,7 +53,7 @@ VALUES (40638, 0, 83897334, 83897334)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40638, 0, 16794240);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40638, 16, 'Flaming Tetsubo') /* LONG_DESC_STRING */;

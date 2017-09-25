@@ -35,7 +35,7 @@ VALUES (4416, 0, 83889909, 83889904);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4416, 0, 16782239);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4416, 16, 'Sitrath''s Smithy') /* LONG_DESC_STRING */;

@@ -43,7 +43,7 @@ VALUES (32121, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32121, 67116737, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32121, 15, 'A hand weapon crafted from the maw of a Bloodmouth Remoran.') /* SHORT_DESC_STRING */;

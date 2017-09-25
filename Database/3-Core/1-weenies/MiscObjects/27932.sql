@@ -34,7 +34,7 @@ VALUES (27932, 13, True) /* ETHEREAL_BOOL */
      , (27932, 19, True) /* ATTACKABLE_BOOL */
      , (27932, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27932, 16, 'This device seems to act as a portal beacon. It must be hooked on a powerful geomantic force, such as a mansion, to activate the magical properties.') /* LONG_DESC_STRING */;

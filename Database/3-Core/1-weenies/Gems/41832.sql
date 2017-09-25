@@ -35,7 +35,7 @@ VALUES (41832, 13, True) /* ETHEREAL_BOOL */
      , (41832, 19, True) /* ATTACKABLE_BOOL */
      , (41832, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41832, 16, 'Supplies stored by the Celestial Hand.') /* LONG_DESC_STRING */;

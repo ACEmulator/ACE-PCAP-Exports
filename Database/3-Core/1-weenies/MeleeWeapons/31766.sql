@@ -52,7 +52,7 @@ VALUES (31766, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31766, 0, 16792609);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31766, 16, 'Lightning Lugian Hammer of Blood Drinker') /* LONG_DESC_STRING */;

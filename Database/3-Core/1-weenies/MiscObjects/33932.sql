@@ -34,7 +34,7 @@ VALUES (33932, 13, True) /* ETHEREAL_BOOL */
      , (33932, 19, True) /* ATTACKABLE_BOOL */
      , (33932, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33932, 16, 'A closed scroll, addressed to Larinne Kerendova, located at 35.2N 39.4E, between Holtburg and Cragstone.') /* LONG_DESC_STRING */;

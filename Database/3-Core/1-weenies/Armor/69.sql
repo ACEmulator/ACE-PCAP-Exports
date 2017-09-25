@@ -49,7 +49,7 @@ VALUES (69, 0, 83886788, 83889768);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (69, 0, 16778411);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (69, 16, 'Yoroi Greaves of Strength') /* LONG_DESC_STRING */;

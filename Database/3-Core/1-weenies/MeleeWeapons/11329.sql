@@ -35,7 +35,7 @@ VALUES (11329, 13, True) /* ETHEREAL_BOOL */
      , (11329, 19, True) /* ATTACKABLE_BOOL */
      , (11329, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11329, 16, 'A lovingly carved taiaha, fused to a living figurine. The creature slowly opens its eyes and glares at you.') /* LONG_DESC_STRING */;

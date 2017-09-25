@@ -33,7 +33,7 @@ VALUES (29483, 13, True) /* ETHEREAL_BOOL */
      , (29483, 19, True) /* ATTACKABLE_BOOL */
      , (29483, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29483, 38, 'Ruschk Icehold') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

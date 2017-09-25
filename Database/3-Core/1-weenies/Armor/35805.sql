@@ -32,7 +32,7 @@ VALUES (35805, 13, True) /* ETHEREAL_BOOL */
      , (35805, 19, True) /* ATTACKABLE_BOOL */
      , (35805, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35805, 16, 'A pair of enchanted gauntlets granted as a reward for defeating the Champion Stone Fists in the Colosseum.') /* LONG_DESC_STRING */;

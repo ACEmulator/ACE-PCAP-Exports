@@ -84,7 +84,7 @@ VALUES (44890, 12, 16778423)
      , (44890, 4, 16781816)
      , (44890, 8, 16781817);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44890, 5, 'Lifestone Greeter') /* TEMPLATE_STRING */;

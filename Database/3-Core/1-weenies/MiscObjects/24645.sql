@@ -31,7 +31,7 @@ VALUES (24645, 13, True) /* ETHEREAL_BOOL */
      , (24645, 19, True) /* ATTACKABLE_BOOL */
      , (24645, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24645, 15, 'The tarsus of a departed Young Olthoi Brood Matron.') /* SHORT_DESC_STRING */;

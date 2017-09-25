@@ -33,7 +33,7 @@ VALUES (35820, 13, True) /* ETHEREAL_BOOL */
      , (35820, 19, True) /* ATTACKABLE_BOOL */
      , (35820, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35820, 16, 'This portal leads into the catacombs created by the Paradox-touched Olthoi Queen.') /* LONG_DESC_STRING */

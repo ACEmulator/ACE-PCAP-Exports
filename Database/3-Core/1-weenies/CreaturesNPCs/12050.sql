@@ -84,7 +84,7 @@ VALUES (12050, 12, 16777304)
      , (12050, 13, 16783871)
      , (12050, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12050, 5, 'Mage') /* TEMPLATE_STRING */;

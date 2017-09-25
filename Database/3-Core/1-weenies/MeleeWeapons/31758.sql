@@ -52,7 +52,7 @@ VALUES (31758, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31758, 0, 16792612);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31758, 16, 'Frost Dericost Blade of Defender') /* LONG_DESC_STRING */;

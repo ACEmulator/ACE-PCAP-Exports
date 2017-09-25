@@ -40,7 +40,7 @@ VALUES (30252, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30252, 0, 16779994);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30252, 16, 'This Medicated Stamina Kit does not last long, but it is very powerful!') /* LONG_DESC_STRING */;

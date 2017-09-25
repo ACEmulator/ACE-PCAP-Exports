@@ -33,7 +33,7 @@ VALUES (15673, 13, True) /* ETHEREAL_BOOL */
      , (15673, 19, True) /* ATTACKABLE_BOOL */
      , (15673, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15673, 38, 'Far Horizon Cottages Portal (92.9N, 2.4W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

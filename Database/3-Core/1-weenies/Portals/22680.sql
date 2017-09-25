@@ -33,7 +33,7 @@ VALUES (22680, 13, True) /* ETHEREAL_BOOL */
      , (22680, 19, True) /* ATTACKABLE_BOOL */
      , (22680, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22680, 38, 'Tusker Holding') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

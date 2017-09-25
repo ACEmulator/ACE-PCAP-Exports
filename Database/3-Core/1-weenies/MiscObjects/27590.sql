@@ -34,7 +34,7 @@ VALUES (27590, 13, True) /* ETHEREAL_BOOL */
      , (27590, 19, True) /* ATTACKABLE_BOOL */
      , (27590, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27590, 16, 'The pincer off of an Olthoi Warrior, desired by Behdo Yii, in Redspire.') /* LONG_DESC_STRING */;

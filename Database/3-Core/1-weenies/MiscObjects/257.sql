@@ -34,7 +34,7 @@ VALUES (257, 13, True) /* ETHEREAL_BOOL */
      , (257, 19, True) /* ATTACKABLE_BOOL */
      , (257, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (257, 15, 'This item can be used on an item hook.') /* SHORT_DESC_STRING */;

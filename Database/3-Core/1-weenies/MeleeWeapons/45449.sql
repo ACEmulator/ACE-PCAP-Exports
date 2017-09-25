@@ -46,7 +46,7 @@ VALUES (45449, 0, 83897092, 83897092);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45449, 0, 16791996);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45449, 16, 'The Subjugator is a weapon that has made its mark upon history.  The founder of the Roulean Empire, a warlord named Maleksoros, wielded this mace as his personal battle-weapon.  With the Subjugator, he personally defeated the leaders of every neighboring tribe, forming the seed of the Empire that would spread out to conquer almost all the known world.  Since then, the mace came to represent royal authority in all of the lands conquered by Maleksoros and his successors.') /* LONG_DESC_STRING */;

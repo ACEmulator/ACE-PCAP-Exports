@@ -86,7 +86,7 @@ VALUES (24592, 10, 16777301)
      , (24592, 8, 16777298)
      , (24592, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24592, 5, 'Grocer') /* TEMPLATE_STRING */;
@@ -108,6 +108,17 @@ VALUES (24592, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24592, 64, 233) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24592, 74, 4481568) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (24592, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (24592, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (24592, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (24592, 38, 1.8) /* SELL_PRICE_FLOAT */;
 
 /* Vendor Shop Selection List */
 

@@ -87,7 +87,7 @@ VALUES (9676, 2, 16777293)
      , (9676, 4, 16777291)
      , (9676, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9676, 5, 'Cook') /* TEMPLATE_STRING */;

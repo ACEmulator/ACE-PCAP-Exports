@@ -51,7 +51,7 @@ VALUES (15870, 0, 83889233, 83889233)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15870, 0, 16787488);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (15870, 353, 10) /* WEAPON_TYPE_INT */

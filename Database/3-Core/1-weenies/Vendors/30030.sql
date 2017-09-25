@@ -73,7 +73,7 @@ VALUES (30030, 12, 16777304)
      , (30030, 14, 16783855)
      , (30030, 16, 16791907);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30030, 5, 'Master Archmage') /* TEMPLATE_STRING */;
@@ -95,6 +95,20 @@ VALUES (30030, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30030, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30030, 74, 270464) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (30030, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (30030, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30030, 37, 0.5) /* BUY_PRICE_FLOAT */
+     , (30030, 38, 50) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30030, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

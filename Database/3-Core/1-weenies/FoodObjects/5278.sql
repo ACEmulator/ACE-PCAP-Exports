@@ -34,7 +34,7 @@ VALUES (5278, 13, True) /* ETHEREAL_BOOL */
      , (5278, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5278, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5278, 14, 'Use this item to eat it.') /* USE_STRING */;

@@ -33,7 +33,7 @@ VALUES (12523, 13, True) /* ETHEREAL_BOOL */
      , (12523, 19, True) /* ATTACKABLE_BOOL */
      , (12523, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12523, 38, 'Mountain Keep Cottages Portal (50.3N, 35.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

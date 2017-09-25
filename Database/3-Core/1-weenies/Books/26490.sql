@@ -34,7 +34,7 @@ VALUES (26490, 13, True) /* ETHEREAL_BOOL */
      , (26490, 14, True) /* GRAVITY_STATUS_BOOL */
      , (26490, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (26490, 16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LONG_DESC_STRING */;

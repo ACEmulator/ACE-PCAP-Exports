@@ -33,7 +33,7 @@ VALUES (42818, 13, True) /* ETHEREAL_BOOL */
      , (42818, 19, True) /* ATTACKABLE_BOOL */
      , (42818, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42818, 16, 'This portal goes to the Aluvian capital, Cragstone. This is a good town for characters over level 10.') /* LONG_DESC_STRING */

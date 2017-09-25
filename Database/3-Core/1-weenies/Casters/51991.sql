@@ -48,7 +48,7 @@ VALUES (51991, 0, 83899155, 83899155)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51991, 0, 16797054);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51991, 16, 'A wand crafted from enchanted obsidian and Rynthid tentacles.') /* LONG_DESC_STRING */;

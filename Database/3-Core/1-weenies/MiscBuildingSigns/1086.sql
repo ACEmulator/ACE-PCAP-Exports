@@ -36,7 +36,7 @@ VALUES (1086, 0, 83891055, 83891060);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1086, 0, 16780409);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1086, 16, 'Skull and Flagons') /* LONG_DESC_STRING */;

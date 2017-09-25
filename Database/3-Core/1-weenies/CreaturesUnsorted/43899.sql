@@ -37,7 +37,7 @@ VALUES (43899, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43899, 19, True) /* ATTACKABLE_BOOL */
      , (43899, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43899, 113, 1) /* GENDER_INT */

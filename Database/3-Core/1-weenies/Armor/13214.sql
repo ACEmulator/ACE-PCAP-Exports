@@ -55,7 +55,7 @@ VALUES (13214, 0, 83887061, 83892990)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (13214, 0, 16778356);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13214, 16, 'A fur coat awarded by the Academy to those who complete their training.') /* LONG_DESC_STRING */;

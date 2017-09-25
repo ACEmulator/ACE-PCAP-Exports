@@ -42,7 +42,7 @@ VALUES (27771, 13, True) /* ETHEREAL_BOOL */
      , (27771, 19, True) /* ATTACKABLE_BOOL */
      , (27771, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27771, 14, 'Double-click on this portal gem to summon a portal. You must be level 40 or greater to enter the summoned portal.') /* USE_STRING */

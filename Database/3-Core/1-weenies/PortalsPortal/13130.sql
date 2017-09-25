@@ -33,7 +33,7 @@ VALUES (13130, 13, True) /* ETHEREAL_BOOL */
      , (13130, 19, True) /* ATTACKABLE_BOOL */
      , (13130, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13130, 38, 'Snowy Valley Portal (85.3N, 8.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

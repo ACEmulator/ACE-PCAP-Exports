@@ -94,7 +94,7 @@ VALUES (40976, 16, 16795675)
      , (40976, 4, 16783485)
      , (40976, 8, 16783487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40976, 5, 'Machinist') /* TEMPLATE_STRING */;

@@ -30,7 +30,7 @@ VALUES (25797, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25797, 19, True) /* ATTACKABLE_BOOL */
      , (25797, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25797, 16, 'Welcome to Frost Haven. A good place to chill out. Beware of Scold!') /* LONG_DESC_STRING */;

@@ -34,7 +34,7 @@ VALUES (30506, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30506, 0, 16787385);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30506, 16, 'A rather nasty head from a rather nasty marionette. It sounds like something is sloshing inside.') /* LONG_DESC_STRING */;

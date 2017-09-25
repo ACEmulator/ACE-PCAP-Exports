@@ -35,7 +35,7 @@ VALUES (20607, 13, True) /* ETHEREAL_BOOL */
      , (20607, 19, True) /* ATTACKABLE_BOOL */
      , (20607, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20607, 16, 'Inscribed spell: Gift of Vitality

@@ -41,7 +41,7 @@ VALUES (23774, 13, True) /* ETHEREAL_BOOL */
      , (23774, 19, True) /* ATTACKABLE_BOOL */
      , (23774, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23774, 16, 'A magical beer stein that can be used to focus magic.') /* LONG_DESC_STRING */;

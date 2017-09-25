@@ -33,7 +33,7 @@ VALUES (42839, 13, True) /* ETHEREAL_BOOL */
      , (42839, 19, True) /* ATTACKABLE_BOOL */
      , (42839, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42839, 16, 'This portal is tied to the Viamontian outpost of Eastwatch. This outpost is a good place for characters above level 80.') /* LONG_DESC_STRING */

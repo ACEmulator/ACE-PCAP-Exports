@@ -29,7 +29,7 @@ VALUES (14740, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (14740, 19, True) /* ATTACKABLE_BOOL */
      , (14740, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14740, 16, 'Welcome to Stone Face Oasis Villas') /* LONG_DESC_STRING */;

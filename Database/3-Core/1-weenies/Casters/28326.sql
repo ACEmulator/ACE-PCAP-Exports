@@ -50,7 +50,7 @@ VALUES (28326, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28326, 0, 16778862);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28326, 15, 'An orb imbued with the power of the Shendolain Crystal.') /* SHORT_DESC_STRING */;

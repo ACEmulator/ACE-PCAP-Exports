@@ -30,7 +30,7 @@ VALUES (23037, 13, True) /* ETHEREAL_BOOL */
      , (23037, 19, True) /* ATTACKABLE_BOOL */
      , (23037, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23037, 15, 'A quantity of an unknown crystal.') /* SHORT_DESC_STRING */;

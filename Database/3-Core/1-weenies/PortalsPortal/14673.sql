@@ -33,7 +33,7 @@ VALUES (14673, 13, True) /* ETHEREAL_BOOL */
      , (14673, 19, True) /* ATTACKABLE_BOOL */
      , (14673, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14673, 38, 'Tarn Vinara Villas Portal (28.2N, 25.4W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

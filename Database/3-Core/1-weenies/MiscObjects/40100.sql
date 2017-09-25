@@ -50,7 +50,7 @@ VALUES (40100, 0, 16784246)
      , (40100, 1, 16784196)
      , (40100, 2, 16784180);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40100, 16, 'A crystalline shard condensed from the remains of a crystalline wisp.') /* LONG_DESC_STRING */;

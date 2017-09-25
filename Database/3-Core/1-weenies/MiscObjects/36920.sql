@@ -45,7 +45,7 @@ VALUES (36920, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36920, 0, 16778862);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36920, 16, 'A perfectly formed snowman eye. It swivels around in your hand to look at you.') /* LONG_DESC_STRING */

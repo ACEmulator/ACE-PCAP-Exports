@@ -92,7 +92,7 @@ VALUES (7560, 12, 16777304)
      , (7560, 8, 16781839)
      , (7560, 16, 16783901);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7560, 5, 'Researcher') /* TEMPLATE_STRING */;

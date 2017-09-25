@@ -47,7 +47,7 @@ VALUES (40623, 0, 83898004, 83898004);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40623, 0, 16791977);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40623, 16, 'Quadrelle of Blood Drinker') /* LONG_DESC_STRING */;

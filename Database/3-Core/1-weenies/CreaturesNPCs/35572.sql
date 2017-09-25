@@ -53,7 +53,7 @@ VALUES (35572, 14, 16788538)
      , (35572, 5, 16788484)
      , (35572, 0, 16788470);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35572, 5, 'Drudge Prisoner') /* TEMPLATE_STRING */;

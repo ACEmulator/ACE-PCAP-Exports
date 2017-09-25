@@ -33,7 +33,7 @@ VALUES (49608, 13, True) /* ETHEREAL_BOOL */
      , (49608, 19, True) /* ATTACKABLE_BOOL */
      , (49608, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49608, 38, 'Virindi Edifice') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

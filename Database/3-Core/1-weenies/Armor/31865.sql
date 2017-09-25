@@ -42,7 +42,7 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (31865, 67110017, 240, 10)
      , (31865, 67110356, 250, 6);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31865, 16, 'Circlet of Magic Resistance') /* LONG_DESC_STRING */;

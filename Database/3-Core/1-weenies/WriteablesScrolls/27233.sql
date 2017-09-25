@@ -35,7 +35,7 @@ VALUES (27233, 13, True) /* ETHEREAL_BOOL */
      , (27233, 19, True) /* ATTACKABLE_BOOL */
      , (27233, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27233, 16, 'Inscribed spell: Eradicate Creature Magic Other

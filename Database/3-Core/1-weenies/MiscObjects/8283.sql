@@ -49,7 +49,7 @@ VALUES (8283, 0, 83886754, 83886754)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8283, 0, 16777906);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8283, 14, 'Use this tool to split a pea.') /* USE_STRING */;

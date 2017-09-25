@@ -33,7 +33,7 @@ VALUES (14268, 13, True) /* ETHEREAL_BOOL */
      , (14268, 19, True) /* ATTACKABLE_BOOL */
      , (14268, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14268, 38, 'Jai-Tan Dale Portal (45.6S, 59.2E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

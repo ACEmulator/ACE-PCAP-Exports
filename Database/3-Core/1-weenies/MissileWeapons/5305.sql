@@ -43,7 +43,7 @@ VALUES (5305, 13, True) /* ETHEREAL_BOOL */
      , (5305, 17, True) /* INELASTIC_BOOL */
      , (5305, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5305, 16, 'A flaming arrow that appears to do fire damage.') /* LONG_DESC_STRING */;

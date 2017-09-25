@@ -48,7 +48,7 @@ VALUES (44976, 0, 83898702, 83898703);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44976, 0, 16795879);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44976, 16, 'Hood of Rejuvenation') /* LONG_DESC_STRING */;

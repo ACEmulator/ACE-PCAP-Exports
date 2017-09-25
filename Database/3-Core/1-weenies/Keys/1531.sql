@@ -34,7 +34,7 @@ VALUES (1531, 13, True) /* ETHEREAL_BOOL */
      , (1531, 19, True) /* ATTACKABLE_BOOL */
      , (1531, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1531, 16, 'This key unlocks cell doors in the Colier Mine.') /* LONG_DESC_STRING */

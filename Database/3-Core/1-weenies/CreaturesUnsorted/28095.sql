@@ -37,7 +37,7 @@ VALUES (28095, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28095, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (28095, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28095, 16, 'A foul smelling creation of muck and shoddy craftsmanship. Flies and other insects make their home within the porous structure of the monstrous statue.') /* LONG_DESC_STRING */;

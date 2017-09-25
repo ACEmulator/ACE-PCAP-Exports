@@ -34,7 +34,7 @@ VALUES (12761, 13, True) /* ETHEREAL_BOOL */
      , (12761, 14, True) /* GRAVITY_STATUS_BOOL */
      , (12761, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12761, 16, 'A guide to Combat and Spellcasting. ') /* LONG_DESC_STRING */;

@@ -87,7 +87,7 @@ VALUES (20912, 11, 16777302)
      , (20912, 4, 16781855)
      , (20912, 8, 16781859);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20912, 5, 'Axe Warrior') /* TEMPLATE_STRING */;

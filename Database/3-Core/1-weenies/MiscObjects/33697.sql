@@ -32,7 +32,7 @@ VALUES (33697, 13, True) /* ETHEREAL_BOOL */
      , (33697, 19, True) /* ATTACKABLE_BOOL */
      , (33697, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33697, 16, 'An experimental Shadow Stone, created by Black Ferah, to capture and contain the essence of a single entity.') /* LONG_DESC_STRING */;

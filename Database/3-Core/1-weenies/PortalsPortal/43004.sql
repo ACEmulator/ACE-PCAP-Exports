@@ -33,7 +33,7 @@ VALUES (43004, 13, True) /* ETHEREAL_BOOL */
      , (43004, 19, True) /* ATTACKABLE_BOOL */
      , (43004, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43004, 16, 'This portal goes to MacNiall''s Freehold, a bastion of civilization among the tropical islands of the Vesayen Archipelago. The only law here is to live as you wish, unrestricted by the ideologies of Ispar. This is a good town for characters over level 30.') /* LONG_DESC_STRING */

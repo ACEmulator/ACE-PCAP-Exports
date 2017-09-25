@@ -33,7 +33,7 @@ VALUES (38397, 13, True) /* ETHEREAL_BOOL */
      , (38397, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38397, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38397, 16, 'A handbook outlining the basic information needed when joining the Society of the Celestial Hand.') /* LONG_DESC_STRING */;

@@ -43,7 +43,7 @@ VALUES (24179, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24179, 0, 16783974);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24179, 14, 'Place this gem into a Weeping weapon cast to turn it into a Weeping Weapon.') /* USE_STRING */

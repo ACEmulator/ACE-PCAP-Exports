@@ -45,7 +45,7 @@ VALUES (42749, 67110547, 216, 24)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42749, 0, 16794667);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42749, 16, 'Haebrean Breastplate of Magic Resistance') /* LONG_DESC_STRING */;

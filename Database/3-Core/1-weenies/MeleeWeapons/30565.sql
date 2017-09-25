@@ -51,7 +51,7 @@ VALUES (30565, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30565, 0, 16791840);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30565, 16, 'Frost Dolabra of Blood Drinker') /* LONG_DESC_STRING */;

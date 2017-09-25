@@ -35,7 +35,7 @@ VALUES (43316, 13, True) /* ETHEREAL_BOOL */
      , (43316, 19, True) /* ATTACKABLE_BOOL */
      , (43316, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43316, 16, 'Inscribed spell: Nether Streak VII

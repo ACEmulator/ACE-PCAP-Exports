@@ -33,7 +33,7 @@ VALUES (42838, 13, True) /* ETHEREAL_BOOL */
      , (42838, 19, True) /* ATTACKABLE_BOOL */
      , (42838, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42838, 16, 'This portal goes to Linvak Tukal, the fortress bastion of our Lugian allies in the Linvak Range. This is a good town for characters over level 40.') /* LONG_DESC_STRING */

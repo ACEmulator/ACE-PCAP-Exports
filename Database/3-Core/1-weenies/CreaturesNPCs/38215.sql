@@ -79,7 +79,7 @@ VALUES (38215, 0, 16788885)
      , (38215, 12, 16788891)
      , (38215, 16, 16789125);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38215, 5, 'Node Guardian') /* TEMPLATE_STRING */;

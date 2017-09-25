@@ -33,7 +33,7 @@ VALUES (10853, 13, True) /* ETHEREAL_BOOL */
      , (10853, 19, True) /* ATTACKABLE_BOOL */
      , (10853, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10853, 38, 'Abandoned Tumerok Site') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

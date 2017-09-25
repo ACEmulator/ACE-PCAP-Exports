@@ -96,7 +96,7 @@ VALUES (43398, 0, 16783897)
      , (43398, 15, 16789333)
      , (43398, 16, 16794607);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43398, 5, 'Seer of the Yalain') /* TEMPLATE_STRING */;

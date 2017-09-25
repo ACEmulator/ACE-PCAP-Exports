@@ -35,7 +35,7 @@ VALUES (3158, 13, True) /* ETHEREAL_BOOL */
      , (3158, 19, True) /* ATTACKABLE_BOOL */
      , (3158, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3158, 16, 'Inscribed spell: Light Weapon Ineptitude Other II

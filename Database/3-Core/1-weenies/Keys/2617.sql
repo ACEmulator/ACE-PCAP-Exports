@@ -33,7 +33,7 @@ VALUES (2617, 13, True) /* ETHEREAL_BOOL */
      , (2617, 19, True) /* ATTACKABLE_BOOL */
      , (2617, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2617, 16, 'This stout, carved key made of stone is used in the Carved Cave.') /* LONG_DESC_STRING */

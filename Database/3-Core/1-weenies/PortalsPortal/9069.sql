@@ -37,7 +37,7 @@ VALUES (9069, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9069, 67111849, 1, 255);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9069, 38, 'Exit Portal (4.5S, 81.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

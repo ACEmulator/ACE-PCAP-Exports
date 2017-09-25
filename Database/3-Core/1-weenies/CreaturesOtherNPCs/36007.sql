@@ -37,7 +37,7 @@ VALUES (36007, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (36007, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (36007, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36007, 16, 'A shadowy statue of the Hopeslayer.  Near the base of the statue is what appears to be an oddly shaped keyhole.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (53366, 13, True) /* ETHEREAL_BOOL */
      , (53366, 19, True) /* ATTACKABLE_BOOL */
      , (53366, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (53366, 16, 'A powerful essence from a champion of the Viridian Rise.') /* LONG_DESC_STRING */

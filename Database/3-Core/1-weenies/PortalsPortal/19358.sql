@@ -33,7 +33,7 @@ VALUES (19358, 13, True) /* ETHEREAL_BOOL */
      , (19358, 19, True) /* ATTACKABLE_BOOL */
      , (19358, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19358, 38, 'Atrium Residential Halls Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

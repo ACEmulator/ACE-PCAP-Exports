@@ -50,7 +50,7 @@ VALUES (7789, 0, 83889088, 83889088)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7789, 0, 16784596);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7789, 16, 'Acid Spiked Club of Defender') /* LONG_DESC_STRING */;

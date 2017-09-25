@@ -118,7 +118,7 @@ VALUES (42941, 5, 16788087)
      , (42941, 32, 16795843)
      , (42941, 33, 16795844);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42941, 5, 'Borelean''s Royal Guard') /* TEMPLATE_STRING */;

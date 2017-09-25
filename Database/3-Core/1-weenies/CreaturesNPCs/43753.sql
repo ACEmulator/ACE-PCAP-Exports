@@ -111,7 +111,7 @@ VALUES (43753, 16, 16795640)
      , (43753, 4, 16788088)
      , (43753, 8, 16788089);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43753, 5, 'Survivor') /* TEMPLATE_STRING */;

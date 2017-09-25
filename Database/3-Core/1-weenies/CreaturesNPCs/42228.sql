@@ -70,7 +70,7 @@ VALUES (42228, 5, 16794136)
      , (42228, 22, 16777708)
      , (42228, 21, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42228, 5, 'Society Officer') /* TEMPLATE_STRING */;

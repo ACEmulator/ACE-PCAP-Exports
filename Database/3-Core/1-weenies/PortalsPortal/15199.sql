@@ -33,7 +33,7 @@ VALUES (15199, 13, True) /* ETHEREAL_BOOL */
      , (15199, 19, True) /* ATTACKABLE_BOOL */
      , (15199, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15199, 38, 'Tinkelo Hold Villas Portal (17.3N, 36.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

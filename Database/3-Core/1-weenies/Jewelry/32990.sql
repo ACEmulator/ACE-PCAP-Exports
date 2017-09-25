@@ -36,7 +36,7 @@ VALUES (32990, 13, True) /* ETHEREAL_BOOL */
      , (32990, 19, True) /* ATTACKABLE_BOOL */
      , (32990, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32990, 16, 'This ring signifies the bearer as a member of the secretive Whispering Blade.  It admits the bearer to the chapterhouse at 59.9 S, 87.2 W.') /* LONG_DESC_STRING */;

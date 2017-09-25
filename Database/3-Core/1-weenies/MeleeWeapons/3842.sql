@@ -37,7 +37,7 @@ VALUES (3842, 13, True) /* ETHEREAL_BOOL */
      , (3842, 19, True) /* ATTACKABLE_BOOL */
      , (3842, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3842, 16, 'Acid Ono of Blood Drinker') /* LONG_DESC_STRING */;

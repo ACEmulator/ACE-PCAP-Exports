@@ -34,7 +34,7 @@ VALUES (5124, 13, True) /* ETHEREAL_BOOL */
      , (5124, 19, True) /* ATTACKABLE_BOOL */
      , (5124, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5124, 16, 'A hopelessly broken and battered taper.  It could never be used for magic.') /* LONG_DESC_STRING */;

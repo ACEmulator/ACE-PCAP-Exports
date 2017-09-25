@@ -30,7 +30,7 @@ VALUES (31301, 13, True) /* ETHEREAL_BOOL */
      , (31301, 19, True) /* ATTACKABLE_BOOL */
      , (31301, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31301, 16, 'A strange fire made up of blue flames. Oddly this fire produces little to no heat.') /* LONG_DESC_STRING */;

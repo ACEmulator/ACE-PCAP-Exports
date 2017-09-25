@@ -106,7 +106,7 @@ VALUES (32843, 5, 16777299)
      , (32843, 8, 16777298)
      , (32843, 16, 16791893);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32843, 5, 'Spymaster') /* TEMPLATE_STRING */;

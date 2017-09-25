@@ -31,7 +31,7 @@ VALUES (25707, 13, True) /* ETHEREAL_BOOL */
      , (25707, 19, True) /* ATTACKABLE_BOOL */
      , (25707, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25707, 16, 'A token handed to me by Dame Brinna O''Shea. She said I''d get a new title for my sleuthing with this. She said she''d call me a gumshoe.') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (21303, 13, True) /* ETHEREAL_BOOL */
      , (21303, 19, True) /* ATTACKABLE_BOOL */
      , (21303, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21303, 16, 'Inscribed spell: Flame Arc II

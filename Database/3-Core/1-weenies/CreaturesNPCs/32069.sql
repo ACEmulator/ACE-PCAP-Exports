@@ -78,7 +78,7 @@ VALUES (32069, 12, 16777304)
      , (32069, 4, 16791935)
      , (32069, 8, 16791936);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32069, 5, 'Ferran Knight') /* TEMPLATE_STRING */;

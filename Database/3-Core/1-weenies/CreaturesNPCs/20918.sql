@@ -87,7 +87,7 @@ VALUES (20918, 11, 16777302)
      , (20918, 4, 16781855)
      , (20918, 8, 16781859);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20918, 5, 'Farmer') /* TEMPLATE_STRING */;

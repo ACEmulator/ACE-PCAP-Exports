@@ -38,7 +38,7 @@ VALUES (11997, 13, True) /* ETHEREAL_BOOL */
      , (11997, 19, True) /* ATTACKABLE_BOOL */
      , (11997, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11997, 16, 'The leg of a Relic Bones.  It is inscribed with runes, and the entire bone seems to have a ruddy hue.') /* LONG_DESC_STRING */;

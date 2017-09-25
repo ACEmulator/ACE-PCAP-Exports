@@ -33,7 +33,7 @@ VALUES (36727, 13, True) /* ETHEREAL_BOOL */
      , (36727, 19, True) /* ATTACKABLE_BOOL */
      , (36727, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36727, 16, 'This dungeon is quest restricted.  The Prodigal Hunter Nomea ibn Makar in Qalaba''r would know more.') /* LONG_DESC_STRING */

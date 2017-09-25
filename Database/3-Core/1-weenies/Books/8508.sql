@@ -31,7 +31,7 @@ VALUES (8508, 13, True) /* ETHEREAL_BOOL */
      , (8508, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8508, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8508, 16, 'The translation of a note found in Lady Adja''s chest in the Ithaenc Cathedral.') /* LONG_DESC_STRING */;

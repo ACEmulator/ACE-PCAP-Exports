@@ -31,7 +31,7 @@ VALUES (32925, 13, True) /* ETHEREAL_BOOL */
      , (32925, 19, True) /* ATTACKABLE_BOOL */
      , (32925, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32925, 16, 'The decapitated head of the Barbaric Mukkir Nest-lord.  Qath al-Haddash in Qalaba''r may find this specimen of great interest.') /* LONG_DESC_STRING */;

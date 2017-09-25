@@ -37,7 +37,7 @@ VALUES (23885, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23885, 19, True) /* ATTACKABLE_BOOL */
      , (23885, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23885, 16, 'A keg of delicious stout.') /* LONG_DESC_STRING */;

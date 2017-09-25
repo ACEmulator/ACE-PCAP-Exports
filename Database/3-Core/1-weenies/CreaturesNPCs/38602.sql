@@ -89,7 +89,7 @@ VALUES (38602, 12, 16778423)
      , (38602, 4, 16783485)
      , (38602, 8, 16783487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38602, 5, 'Black Coral Taskmaster') /* TEMPLATE_STRING */;

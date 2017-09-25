@@ -50,7 +50,7 @@ VALUES (43831, 0, 83887064, 83898405)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43831, 0, 16778829);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43831, 16, 'Sedgemail Leather Pants') /* LONG_DESC_STRING */;

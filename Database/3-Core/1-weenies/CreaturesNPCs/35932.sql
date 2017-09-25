@@ -90,7 +90,7 @@ VALUES (35932, 9, 16793660)
      , (35932, 8, 16777708)
      , (35932, 16, 16793659);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35932, 5, 'Ghostly Orphan') /* TEMPLATE_STRING */;

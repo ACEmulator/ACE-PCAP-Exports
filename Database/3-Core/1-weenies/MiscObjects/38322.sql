@@ -52,7 +52,7 @@ VALUES (38322, 0, 83895117, 83895117)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38322, 0, 16789869);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38322, 16, 'A staff smoothed by years of ocean and sand.') /* LONG_DESC_STRING */

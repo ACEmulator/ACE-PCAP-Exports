@@ -75,7 +75,7 @@ VALUES (31431, 12, 16778423)
      , (31431, 13, 16791903)
      , (31431, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31431, 5, 'Royal Scholar') /* TEMPLATE_STRING */;

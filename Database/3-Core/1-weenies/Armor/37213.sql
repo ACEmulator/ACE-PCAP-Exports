@@ -46,7 +46,7 @@ VALUES (37213, 0, 83894652, 83897806);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37213, 0, 16789290);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37213, 16, 'Olthoi Bracers') /* LONG_DESC_STRING */;

@@ -40,7 +40,7 @@ VALUES (3893, 13, True) /* ETHEREAL_BOOL */
      , (3893, 19, True) /* ATTACKABLE_BOOL */
      , (3893, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3893, 16, 'Acid Takuba of Defender') /* LONG_DESC_STRING */;

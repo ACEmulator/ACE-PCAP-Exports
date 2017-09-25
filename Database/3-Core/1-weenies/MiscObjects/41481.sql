@@ -31,7 +31,7 @@ VALUES (41481, 13, True) /* ETHEREAL_BOOL */
      , (41481, 19, True) /* ATTACKABLE_BOOL */
      , (41481, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41481, 16, 'Using this gem increases critical damage by 3%. This augmentation cannot be repeated.') /* LONG_DESC_STRING */;

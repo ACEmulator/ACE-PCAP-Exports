@@ -34,7 +34,7 @@ VALUES (35294, 13, True) /* ETHEREAL_BOOL */
      , (35294, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35294, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35294, 16, 'A list of items that Asheron needs to construct his new guardian golem.') /* LONG_DESC_STRING */;

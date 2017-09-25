@@ -38,7 +38,7 @@ VALUES (22641, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22641, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (22641, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22641, 15, 'A mystical statue worshipped by the tuskers. You can feel magical energies welling from within.') /* SHORT_DESC_STRING */;

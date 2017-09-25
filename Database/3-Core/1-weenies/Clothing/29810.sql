@@ -50,7 +50,7 @@ VALUES (29810, 0, 83887061, 83893736)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29810, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29810, 16, 'A formal gown woven from the plumes of a Badlands Siraluun.') /* LONG_DESC_STRING */;

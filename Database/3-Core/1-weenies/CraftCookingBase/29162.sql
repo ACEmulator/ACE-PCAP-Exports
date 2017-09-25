@@ -34,7 +34,7 @@ VALUES (29162, 13, True) /* ETHEREAL_BOOL */
      , (29162, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29162, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29162, 16, 'A nice, amber wort.') /* LONG_DESC_STRING */;

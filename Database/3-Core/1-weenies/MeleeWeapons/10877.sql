@@ -48,7 +48,7 @@ VALUES (10877, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10877, 0, 16777920);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10877, 15, 'A katar imbued with Singularity energy.') /* SHORT_DESC_STRING */;

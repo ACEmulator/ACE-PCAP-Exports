@@ -34,7 +34,7 @@ VALUES (30735, 13, True) /* ETHEREAL_BOOL */
      , (30735, 19, True) /* ATTACKABLE_BOOL */
      , (30735, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30735, 16, 'Once hooked, use this fireworks stand to set off a dazzling shower of fireworks! Happy New Year!') /* LONG_DESC_STRING */

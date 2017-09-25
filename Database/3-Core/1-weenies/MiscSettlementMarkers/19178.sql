@@ -29,7 +29,7 @@ VALUES (19178, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19178, 19, True) /* ATTACKABLE_BOOL */
      , (19178, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19178, 16, 'Welcome to Jeweled Thorn Estates') /* LONG_DESC_STRING */;

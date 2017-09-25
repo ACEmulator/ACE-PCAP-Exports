@@ -36,7 +36,7 @@ VALUES (36914, 13, True) /* ETHEREAL_BOOL */
      , (36914, 19, True) /* ATTACKABLE_BOOL */
      , (36914, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36914, 16, 'A pile of present boxes. All glued shut to preserve the mystery.') /* LONG_DESC_STRING */

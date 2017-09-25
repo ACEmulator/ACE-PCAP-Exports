@@ -33,7 +33,7 @@ VALUES (35016, 13, True) /* ETHEREAL_BOOL */
      , (35016, 19, True) /* ATTACKABLE_BOOL */
      , (35016, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35016, 16, 'A key to the 2nd Locked Gate in the Falatacot Catacombs on Bur.') /* LONG_DESC_STRING */;

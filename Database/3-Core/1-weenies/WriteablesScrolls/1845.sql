@@ -35,7 +35,7 @@ VALUES (1845, 13, True) /* ETHEREAL_BOOL */
      , (1845, 19, True) /* ATTACKABLE_BOOL */
      , (1845, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1845, 16, 'Inscribed spell: Bludgeoning Protection Self I

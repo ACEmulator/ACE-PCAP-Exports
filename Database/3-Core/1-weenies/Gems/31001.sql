@@ -39,7 +39,7 @@ VALUES (31001, 13, True) /* ETHEREAL_BOOL */
      , (31001, 19, True) /* ATTACKABLE_BOOL */
      , (31001, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31001, 16, 'This gem is eternal. You can use it as often as you like.') /* LONG_DESC_STRING */;

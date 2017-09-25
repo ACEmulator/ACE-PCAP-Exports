@@ -33,7 +33,7 @@ VALUES (15670, 13, True) /* ETHEREAL_BOOL */
      , (15670, 19, True) /* ATTACKABLE_BOOL */
      , (15670, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15670, 38, 'Colier View Hill Portal (59.3N, 40.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

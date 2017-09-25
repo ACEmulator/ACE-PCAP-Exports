@@ -84,7 +84,7 @@ VALUES (33187, 12, 16777304)
      , (33187, 4, 16792941)
      , (33187, 8, 16792944);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33187, 5, 'Whispering Blade Factotum') /* TEMPLATE_STRING */;

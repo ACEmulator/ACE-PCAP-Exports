@@ -37,7 +37,7 @@ VALUES (33012, 13, True) /* ETHEREAL_BOOL */
      , (33012, 19, True) /* ATTACKABLE_BOOL */
      , (33012, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33012, 16, 'This ring signifies the bearer as a member of the secretive Ordina Rossu Morta.  It admits the bearer to the chapterhouse at 69.7 N, 62.3 W.') /* LONG_DESC_STRING */;

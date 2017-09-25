@@ -38,7 +38,7 @@ VALUES (30812, 13, True) /* ETHEREAL_BOOL */
      , (30812, 15, True) /* LIGHTS_STATUS_BOOL */
      , (30812, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30812, 14, 'Double Click on this item to summon a portal to the oasis of the Singularity Caul.') /* USE_STRING */

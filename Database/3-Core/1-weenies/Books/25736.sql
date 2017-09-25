@@ -33,7 +33,7 @@ VALUES (25736, 13, True) /* ETHEREAL_BOOL */
      , (25736, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25736, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25736, 15, 'A book listing the portals linking the Nexus towns as well as those leading to where the Nexus town stamps can be found. ') /* SHORT_DESC_STRING */;

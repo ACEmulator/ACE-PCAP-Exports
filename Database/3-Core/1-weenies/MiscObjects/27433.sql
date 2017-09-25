@@ -31,7 +31,7 @@ VALUES (27433, 13, True) /* ETHEREAL_BOOL */
      , (27433, 19, True) /* ATTACKABLE_BOOL */
      , (27433, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27433, 16, 'An ancient map of Auberean. It is quite well preserved and looks like it could still be hung on a wall.') /* LONG_DESC_STRING */

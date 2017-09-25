@@ -34,7 +34,7 @@ VALUES (52795, 13, True) /* ETHEREAL_BOOL */
      , (52795, 19, True) /* ATTACKABLE_BOOL */
      , (52795, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52795, 16, 'A ticket stub showing the time your fellowship have left in the Gauntlet.') /* LONG_DESC_STRING */;

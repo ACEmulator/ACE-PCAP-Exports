@@ -66,7 +66,7 @@ VALUES (9137, 0, 16779464)
      , (9137, 7, 16777708)
      , (9137, 8, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9137, 16, 'A Tumerok leader''s heavy crossbow, studded with unidentifiable gems.') /* LONG_DESC_STRING */;

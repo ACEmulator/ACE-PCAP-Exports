@@ -52,7 +52,7 @@ VALUES (45396, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45396, 0, 16777968);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45396, 16, 'Short Sword of Blood Drinker') /* LONG_DESC_STRING */;

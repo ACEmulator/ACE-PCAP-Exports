@@ -32,7 +32,7 @@ VALUES (52579, 13, True) /* ETHEREAL_BOOL */
      , (52579, 19, True) /* ATTACKABLE_BOOL */
      , (52579, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52579, 16, 'A pile of snow with strange looking tracks running through it.') /* LONG_DESC_STRING */

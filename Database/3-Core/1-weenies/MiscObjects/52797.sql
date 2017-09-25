@@ -31,7 +31,7 @@ VALUES (52797, 13, True) /* ETHEREAL_BOOL */
      , (52797, 14, True) /* GRAVITY_STATUS_BOOL */
      , (52797, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52797, 16, 'A dark silver coin engraved with the mark of the Gauntlet.') /* LONG_DESC_STRING */

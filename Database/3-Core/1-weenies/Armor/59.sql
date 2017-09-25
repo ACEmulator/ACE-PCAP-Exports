@@ -46,7 +46,7 @@ VALUES (59, 0, 83894336, 83889343);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (59, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (59, 16, 'Studded Leather Gauntlets') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (3313, 13, True) /* ETHEREAL_BOOL */
      , (3313, 19, True) /* ATTACKABLE_BOOL */
      , (3313, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3313, 16, 'Inscribed spell: Item Enchantment Mastery Self II

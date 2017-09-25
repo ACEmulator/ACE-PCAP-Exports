@@ -37,7 +37,7 @@ VALUES (42245, 13, True) /* ETHEREAL_BOOL */
      , (42245, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (42245, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42245, 15, 'A Lantern containing a small flame.') /* SHORT_DESC_STRING */;

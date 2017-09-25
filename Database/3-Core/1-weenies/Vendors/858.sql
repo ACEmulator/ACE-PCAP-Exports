@@ -88,7 +88,7 @@ VALUES (858, 11, 16777302)
      , (858, 8, 16777298)
      , (858, 16, 16778594);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (858, 5, 'Armorer') /* TEMPLATE_STRING */;
@@ -110,6 +110,20 @@ VALUES (858, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (858, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (858, 74, 1074003974) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (858, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (858, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (858, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (858, 38, 1.45) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (858, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

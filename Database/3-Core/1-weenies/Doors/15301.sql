@@ -32,7 +32,7 @@ VALUES (15301, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15301, 19, True) /* ATTACKABLE_BOOL */
      , (15301, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15301, 15, 'A bookcase filled with well kept tomes.') /* SHORT_DESC_STRING */;

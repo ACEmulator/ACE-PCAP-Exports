@@ -34,7 +34,7 @@ VALUES (4662, 0, 83892071, 83892184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4662, 0, 16783205);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4662, 16, 'Desert Magic Supplies') /* LONG_DESC_STRING */;

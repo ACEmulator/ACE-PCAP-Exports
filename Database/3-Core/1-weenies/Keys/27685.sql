@@ -33,7 +33,7 @@ VALUES (27685, 13, True) /* ETHEREAL_BOOL */
      , (27685, 19, True) /* ATTACKABLE_BOOL */
      , (27685, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27685, 16, 'This key looks to have been well-cast on a lugian forge. It was found in the Tufa Stronghold.') /* LONG_DESC_STRING */

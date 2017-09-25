@@ -42,7 +42,7 @@ VALUES (32729, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32729, 0, 16783325);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32729, 16, 'A mystically sealed decanter filled with the raw essence of Enchantment.') /* LONG_DESC_STRING */;

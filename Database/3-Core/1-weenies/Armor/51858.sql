@@ -38,7 +38,7 @@ VALUES (51858, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51858, 0, 16797000);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51858, 15, 'A mask crafted from the damaged mask of a Rynthid Sorcerer of Torment.') /* SHORT_DESC_STRING */;

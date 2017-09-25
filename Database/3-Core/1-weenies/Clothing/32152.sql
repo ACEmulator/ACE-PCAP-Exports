@@ -48,7 +48,7 @@ VALUES (32152, 0, 83887061, 83895144)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32152, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32152, 16, 'A plush and comfy bathrobe. A small label on the inside of the robe appears to have been removed.') /* LONG_DESC_STRING */;

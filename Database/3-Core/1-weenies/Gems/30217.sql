@@ -44,7 +44,7 @@ VALUES (30217, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30217, 0, 16779181);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30217, 16, 'Using this gem will increase your Leadership skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;

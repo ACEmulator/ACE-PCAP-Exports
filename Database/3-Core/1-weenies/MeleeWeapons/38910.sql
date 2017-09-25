@@ -36,7 +36,7 @@ VALUES (38910, 13, True) /* ETHEREAL_BOOL */
      , (38910, 19, True) /* ATTACKABLE_BOOL */
      , (38910, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38910, 15, 'The blighted energy that infuses this claw also consumes it after 24 hours. The blighted weapon hungers for the blood of Isparians and the weapon is much more effective against them.') /* SHORT_DESC_STRING */;

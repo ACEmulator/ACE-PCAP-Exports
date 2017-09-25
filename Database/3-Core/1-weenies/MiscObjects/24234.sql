@@ -31,7 +31,7 @@ VALUES (24234, 13, True) /* ETHEREAL_BOOL */
      , (24234, 19, True) /* ATTACKABLE_BOOL */
      , (24234, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24234, 15, 'A crest from a deceased Olthoi') /* SHORT_DESC_STRING */;

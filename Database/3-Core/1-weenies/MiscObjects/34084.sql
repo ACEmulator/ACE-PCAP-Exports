@@ -76,7 +76,7 @@ VALUES (34084, 0, 16777294)
      , (34084, 15, 16779237)
      , (34084, 12, 16779238);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34084, 16, 'A lifeless corpse with a very tidy butler uniform.') /* LONG_DESC_STRING */

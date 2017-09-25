@@ -34,7 +34,7 @@ VALUES (5849, 13, True) /* ETHEREAL_BOOL */
      , (5849, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5849, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5849, 16, 'Written transcription of Dericostian runes discovered on Standing Stones near Stonehold, and Bandit and Neydisa Castles. The three inscriptions fit together perfectly, forming a single message. Unfortunately, you cannot translate it.') /* LONG_DESC_STRING */

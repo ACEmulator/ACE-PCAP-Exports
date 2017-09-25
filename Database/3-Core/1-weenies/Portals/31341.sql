@@ -33,7 +33,7 @@ VALUES (31341, 13, True) /* ETHEREAL_BOOL */
      , (31341, 19, True) /* ATTACKABLE_BOOL */
      , (31341, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31341, 38, 'Bandit Castle (66.6N, 49.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

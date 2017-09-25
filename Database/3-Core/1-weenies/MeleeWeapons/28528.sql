@@ -41,7 +41,7 @@ VALUES (28528, 13, True) /* ETHEREAL_BOOL */
      , (28528, 19, True) /* ATTACKABLE_BOOL */
      , (28528, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28528, 16, 'Crafted for Gorak.') /* LONG_DESC_STRING */;

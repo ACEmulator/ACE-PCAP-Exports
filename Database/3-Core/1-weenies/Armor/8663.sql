@@ -43,7 +43,7 @@ VALUES (8663, 67113115, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8663, 0, 16785527);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8663, 16, 'A helmet adorned and reinforced with Ursuin hide and bone.') /* LONG_DESC_STRING */;

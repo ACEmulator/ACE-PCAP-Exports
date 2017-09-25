@@ -34,7 +34,7 @@ VALUES (33192, 13, True) /* ETHEREAL_BOOL */
      , (33192, 14, True) /* GRAVITY_STATUS_BOOL */
      , (33192, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33192, 14, 'Use this item to read it.') /* USE_STRING */

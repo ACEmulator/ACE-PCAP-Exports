@@ -40,7 +40,7 @@ VALUES (41445, 13, True) /* ETHEREAL_BOOL */
      , (41445, 19, True) /* ATTACKABLE_BOOL */
      , (41445, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41445, 16, 'This medal is eternal. Use this medal to increase the Mana of your Fellowship by 6.') /* LONG_DESC_STRING */;

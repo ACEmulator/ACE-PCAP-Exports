@@ -32,7 +32,7 @@ VALUES (25465, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25465, 19, True) /* ATTACKABLE_BOOL */
      , (25465, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25465, 14, 'You don''t have a clue how to open this thing.') /* USE_STRING */;

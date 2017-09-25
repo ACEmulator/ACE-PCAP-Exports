@@ -39,7 +39,7 @@ VALUES (22449, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22449, 0, 16779994);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22449, 15, 'A healing kit that has a heady scent.') /* SHORT_DESC_STRING */;

@@ -92,7 +92,7 @@ VALUES (31970, 0, 16785699)
      , (31970, 19, 16785704)
      , (31970, 20, 16785705);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31970, 5, 'Servant of the Lady') /* TEMPLATE_STRING */;

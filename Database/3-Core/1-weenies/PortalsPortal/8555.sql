@@ -33,7 +33,7 @@ VALUES (8555, 13, True) /* ETHEREAL_BOOL */
      , (8555, 19, True) /* ATTACKABLE_BOOL */
      , (8555, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8555, 38, 'Freehold Portal (73.0S, 92.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -32,7 +32,7 @@ VALUES (25798, 13, True) /* ETHEREAL_BOOL */
      , (25798, 19, True) /* ATTACKABLE_BOOL */
      , (25798, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25798, 16, 'A very, very small Magma Golem''s Heart.') /* LONG_DESC_STRING */;

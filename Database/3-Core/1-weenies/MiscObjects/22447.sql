@@ -43,7 +43,7 @@ VALUES (22447, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22447, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22447, 14, 'Use this bundle of treated hyssop with a bundle of treated mandrake.') /* USE_STRING */

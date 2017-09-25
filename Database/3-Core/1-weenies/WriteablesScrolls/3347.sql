@@ -35,7 +35,7 @@ VALUES (3347, 13, True) /* ETHEREAL_BOOL */
      , (3347, 19, True) /* ATTACKABLE_BOOL */
      , (3347, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3347, 16, 'Inscribed spell: Leaden Feet Other VI

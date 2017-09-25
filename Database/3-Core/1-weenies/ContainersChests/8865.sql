@@ -37,7 +37,7 @@ VALUES (8865, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8865, 19, True) /* ATTACKABLE_BOOL */
      , (8865, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8865, 16, 'The tomb of the Sand King Anadil. A small inscription on the lid reads, "Last of the high desert''s mighty, fallen at last. Honor is yours on this world chieftain. Serve the gods with distinction in the next."') /* LONG_DESC_STRING */

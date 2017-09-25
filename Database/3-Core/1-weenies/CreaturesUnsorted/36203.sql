@@ -40,7 +40,7 @@ VALUES (36203, 13, True) /* ETHEREAL_BOOL */
      , (36203, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (36203, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36203, 16, 'A hollow in the wall.') /* LONG_DESC_STRING */;

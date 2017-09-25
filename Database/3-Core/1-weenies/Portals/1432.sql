@@ -33,7 +33,7 @@ VALUES (1432, 13, True) /* ETHEREAL_BOOL */
      , (1432, 19, True) /* ATTACKABLE_BOOL */
      , (1432, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1432, 38, 'Rithwic Crypt') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -84,7 +84,7 @@ VALUES (31932, 12, 16778423)
      , (31932, 13, 16783871)
      , (31932, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31932, 5, 'Disciple') /* TEMPLATE_STRING */;

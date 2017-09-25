@@ -134,7 +134,7 @@ VALUES (9178, 9, 16780702)
      , (9178, 10, 16780692)
      , (9178, 11, 16780692);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9178, 16, 'Removable mask! Magic-Cyborg-Ninja sickles! Pack Virindi even flies (somehow...)!') /* LONG_DESC_STRING */;

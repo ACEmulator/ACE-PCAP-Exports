@@ -54,7 +54,7 @@ VALUES (29249, 0, 83895601, 83895601)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29249, 0, 16791343);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29249, 16, 'Frost Crossbow of Swiftkiller') /* LONG_DESC_STRING */;

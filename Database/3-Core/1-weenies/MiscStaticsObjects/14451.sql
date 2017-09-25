@@ -79,7 +79,7 @@ VALUES (14451, 2, 16784629)
      , (14451, 12, 16777334)
      , (14451, 16, 16778407);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14451, 15, 'All your attempts to revive this poor adventurer are to no avail.') /* SHORT_DESC_STRING */;

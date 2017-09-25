@@ -45,7 +45,7 @@ VALUES (27445, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27445, 0, 16778348);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27445, 16, 'The focus of the Consumed Wraith''s power, the Shadow Stone crackles with abyssal energy.') /* LONG_DESC_STRING */;

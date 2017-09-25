@@ -89,7 +89,7 @@ VALUES (22076, 12, 16777304)
      , (22076, 4, 16777291)
      , (22076, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22076, 5, 'Artist in Wood and Feathers') /* TEMPLATE_STRING */;

@@ -33,7 +33,7 @@ VALUES (10925, 13, True) /* ETHEREAL_BOOL */
      , (10925, 19, True) /* ATTACKABLE_BOOL */
      , (10925, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10925, 38, 'Secret Putiputi Place') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

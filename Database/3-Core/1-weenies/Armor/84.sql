@@ -47,7 +47,7 @@ VALUES (84, 0, 83887064, 83886820)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (84, 0, 16778829);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (84, 16, 'Studded Leather Leggings ') /* LONG_DESC_STRING */;

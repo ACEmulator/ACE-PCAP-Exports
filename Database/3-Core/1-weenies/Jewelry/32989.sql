@@ -35,7 +35,7 @@ VALUES (32989, 13, True) /* ETHEREAL_BOOL */
      , (32989, 19, True) /* ATTACKABLE_BOOL */
      , (32989, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32989, 16, 'This ring belonged to a Summoning Adept in the service of Count Dardante.  It served to grant them access to Dardante''s Summoning Chamber.') /* LONG_DESC_STRING */;

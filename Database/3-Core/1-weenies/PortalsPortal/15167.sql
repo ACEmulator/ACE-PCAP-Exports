@@ -33,7 +33,7 @@ VALUES (15167, 13, True) /* ETHEREAL_BOOL */
      , (15167, 19, True) /* ATTACKABLE_BOOL */
      , (15167, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15167, 38, 'Kuyiza Portal (35.9S, 40.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

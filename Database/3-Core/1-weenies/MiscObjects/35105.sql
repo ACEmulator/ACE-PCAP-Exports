@@ -31,7 +31,7 @@ VALUES (35105, 13, True) /* ETHEREAL_BOOL */
      , (35105, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35105, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35105, 15, 'An insubstantial ashen shroud. Though warm to the touch, you can barely tell you are holding anything. ') /* SHORT_DESC_STRING */;

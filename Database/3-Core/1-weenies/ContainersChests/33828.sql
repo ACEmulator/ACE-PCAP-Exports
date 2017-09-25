@@ -37,7 +37,7 @@ VALUES (33828, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (33828, 19, True) /* ATTACKABLE_BOOL */
      , (33828, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33828, 16, 'An old footlocker intrusted to Sergeant Huang of Sawato.') /* LONG_DESC_STRING */

@@ -29,7 +29,7 @@ VALUES (15689, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15689, 19, True) /* ATTACKABLE_BOOL */
      , (15689, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15689, 16, 'Welcome to Ardent Realm') /* LONG_DESC_STRING */;

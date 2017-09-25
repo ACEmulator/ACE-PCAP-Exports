@@ -89,7 +89,7 @@ VALUES (9505, 11, 16778429)
      , (9505, 8, 16778428)
      , (9505, 16, 16778476);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9505, 5, 'Cashier') /* TEMPLATE_STRING */;
@@ -111,6 +111,20 @@ VALUES (9505, 113, 2) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9505, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9505, 74, 1613561775) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (9505, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (9505, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9505, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (9505, 38, 1.6) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9505, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

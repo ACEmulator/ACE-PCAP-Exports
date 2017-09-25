@@ -89,7 +89,7 @@ VALUES (38239, 12, 16777304)
      , (38239, 4, 16777291)
      , (38239, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38239, 5, 'Artifacts Task Master') /* TEMPLATE_STRING */;

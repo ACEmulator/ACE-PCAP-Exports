@@ -63,7 +63,7 @@ VALUES (51923, 0, 16785699)
      , (51923, 19, 16785704)
      , (51923, 20, 16785705);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51923, 5, 'Linvak Tukal Envoy') /* TEMPLATE_STRING */;

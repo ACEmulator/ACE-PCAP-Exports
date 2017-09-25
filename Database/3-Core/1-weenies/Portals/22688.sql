@@ -33,7 +33,7 @@ VALUES (22688, 13, True) /* ETHEREAL_BOOL */
      , (22688, 19, True) /* ATTACKABLE_BOOL */
      , (22688, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22688, 38, 'Tusker Lodge') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

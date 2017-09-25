@@ -45,7 +45,7 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (29259, 67115360, 1, 55)
      , (29259, 67115363, 56, 200);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29259, 16, 'Acid Sceptre of Flame') /* LONG_DESC_STRING */;

@@ -86,7 +86,7 @@ VALUES (859, 11, 16777302)
      , (859, 4, 16781838)
      , (859, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (859, 5, 'Barkeeper') /* TEMPLATE_STRING */;
@@ -108,6 +108,20 @@ VALUES (859, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (859, 64, 123) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (859, 74, 262176) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (859, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (859, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (859, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (859, 38, 1.45) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (859, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

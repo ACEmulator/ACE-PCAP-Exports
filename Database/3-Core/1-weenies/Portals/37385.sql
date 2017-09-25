@@ -33,7 +33,7 @@ VALUES (37385, 13, True) /* ETHEREAL_BOOL */
      , (37385, 19, True) /* ATTACKABLE_BOOL */
      , (37385, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37385, 16, 'You must be a member of the Society of the Eldrytch Web to enter this Portal.') /* LONG_DESC_STRING */

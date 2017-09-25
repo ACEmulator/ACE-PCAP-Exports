@@ -37,7 +37,7 @@ VALUES (23033, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23033, 19, True) /* ATTACKABLE_BOOL */
      , (23033, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23033, 16, 'A chest in which rare crystals have been stored') /* LONG_DESC_STRING */

@@ -91,7 +91,7 @@ VALUES (8494, 11, 16778429)
      , (8494, 8, 16783487)
      , (8494, 16, 16783954);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8494, 5, 'Bowyer') /* TEMPLATE_STRING */;
@@ -113,6 +113,20 @@ VALUES (8494, 113, 2) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8494, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8494, 74, 134480129) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (8494, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (8494, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8494, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (8494, 38, 1.55) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8494, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

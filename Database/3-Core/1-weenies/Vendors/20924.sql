@@ -85,7 +85,7 @@ VALUES (20924, 11, 16777302)
      , (20924, 4, 16781838)
      , (20924, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20924, 5, 'Bowyer') /* TEMPLATE_STRING */;
@@ -107,6 +107,17 @@ VALUES (20924, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (20924, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20924, 74, 134480129) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (20924, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (20924, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (20924, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (20924, 38, 1.35) /* SELL_PRICE_FLOAT */;
 
 /* Vendor Shop Selection List */
 

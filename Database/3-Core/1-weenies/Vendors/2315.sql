@@ -86,7 +86,7 @@ VALUES (2315, 11, 16778429)
      , (2315, 4, 16778426)
      , (2315, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2315, 5, 'High Blacksmith') /* TEMPLATE_STRING */;
@@ -108,6 +108,17 @@ VALUES (2315, 113, 2) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2315, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2315, 74, 1074005895) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (2315, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (2315, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2315, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (2315, 38, 1.7) /* SELL_PRICE_FLOAT */;
 
 /* Vendor Shop Selection List */
 

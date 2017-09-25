@@ -34,7 +34,7 @@ VALUES (1063, 0, 83892071, 83892189);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1063, 0, 16783205);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1063, 16, 'Tamara''s Armory') /* LONG_DESC_STRING */;

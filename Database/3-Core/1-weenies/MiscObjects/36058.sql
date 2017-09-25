@@ -32,7 +32,7 @@ VALUES (36058, 13, True) /* ETHEREAL_BOOL */
      , (36058, 19, True) /* ATTACKABLE_BOOL */
      , (36058, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36058, 16, 'Inscribed spell: Dirty Fighting Mastery Self V

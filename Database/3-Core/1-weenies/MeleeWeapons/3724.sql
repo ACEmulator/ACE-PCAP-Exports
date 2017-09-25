@@ -38,7 +38,7 @@ VALUES (3724, 13, True) /* ETHEREAL_BOOL */
      , (3724, 19, True) /* ATTACKABLE_BOOL */
      , (3724, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3724, 16, 'A sword crafted from the claw of an Olthoi. Ichor drips from the blade.') /* LONG_DESC_STRING */;

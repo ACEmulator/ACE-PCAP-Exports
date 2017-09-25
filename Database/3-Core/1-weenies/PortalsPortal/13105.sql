@@ -33,7 +33,7 @@ VALUES (13105, 13, True) /* ETHEREAL_BOOL */
      , (13105, 19, True) /* ATTACKABLE_BOOL */
      , (13105, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13105, 38, 'Font Alpa Portal (62.3S, 68.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

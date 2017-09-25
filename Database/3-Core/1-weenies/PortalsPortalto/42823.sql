@@ -33,7 +33,7 @@ VALUES (42823, 13, True) /* ETHEREAL_BOOL */
      , (42823, 19, True) /* ATTACKABLE_BOOL */
      , (42823, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42823, 16, 'This portal goes to the Gharu''ndim town of Al-Arqas in the depths of the A''mun desert. This is a good town for characters over level 10.') /* LONG_DESC_STRING */

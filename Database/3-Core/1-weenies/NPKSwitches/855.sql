@@ -32,7 +32,7 @@ VALUES (855, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (855, 19, True) /* ATTACKABLE_BOOL */
      , (855, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (855, 15, 'Using this altar will let you become one of Asheron''s Favored again, a Non-Player Killer protected by Asheron himself -- but to complete the process, you may not have killed anyone for 15 minutes beforehand.') /* SHORT_DESC_STRING */;

@@ -32,5 +32,5 @@ VALUES (285, 13, True) /* ETHEREAL_BOOL */
      , (285, 19, True) /* ATTACKABLE_BOOL */
      , (285, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 

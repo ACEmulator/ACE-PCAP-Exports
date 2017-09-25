@@ -42,7 +42,7 @@ VALUES (28620, 67116109, 72, 12)
      , (28620, 67116096, 84, 12)
      , (28620, 67116096, 152, 8);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28620, 16, 'Alduressa Leggings') /* LONG_DESC_STRING */;

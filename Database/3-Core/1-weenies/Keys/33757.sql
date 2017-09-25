@@ -33,7 +33,7 @@ VALUES (33757, 13, True) /* ETHEREAL_BOOL */
      , (33757, 19, True) /* ATTACKABLE_BOOL */
      , (33757, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33757, 16, 'A surprisingly intricate key, used to access a Shadow Chest.') /* LONG_DESC_STRING */;

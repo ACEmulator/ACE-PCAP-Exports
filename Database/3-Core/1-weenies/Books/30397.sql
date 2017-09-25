@@ -33,7 +33,7 @@ VALUES (30397, 13, True) /* ETHEREAL_BOOL */
      , (30397, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30397, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30397, 16, 'A note from Suzuhara Sheshumi to his brother. Deliver this note to Suzuhara Baijin of Stonehold.') /* LONG_DESC_STRING */;

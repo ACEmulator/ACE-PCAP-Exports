@@ -35,7 +35,7 @@ VALUES (8378, 13, True) /* ETHEREAL_BOOL */
      , (8378, 19, True) /* ATTACKABLE_BOOL */
      , (8378, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8378, 14, 'Use this item on the beer keg at your local tavern.') /* USE_STRING */

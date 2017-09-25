@@ -33,7 +33,7 @@ VALUES (31432, 13, True) /* ETHEREAL_BOOL */
      , (31432, 19, True) /* ATTACKABLE_BOOL */
      , (31432, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31432, 16, 'This dungeon is quest restricted.  Royal scholars in Cragstone or Sanamar might be interested in the secrets it holds.') /* LONG_DESC_STRING */

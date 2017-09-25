@@ -49,7 +49,7 @@ VALUES (31781, 0, 83897337, 83897337);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31781, 0, 16792614);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31781, 16, 'Electric Spine Glaive') /* LONG_DESC_STRING */;

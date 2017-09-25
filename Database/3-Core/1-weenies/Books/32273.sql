@@ -36,7 +36,7 @@ VALUES (32273, 13, True) /* ETHEREAL_BOOL */
      , (32273, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32273, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32273, 16, 'A book about new brewing recipes by Duke Raoul the Brewmaster.') /* LONG_DESC_STRING */;

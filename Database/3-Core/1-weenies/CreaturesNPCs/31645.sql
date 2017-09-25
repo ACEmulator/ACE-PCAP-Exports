@@ -86,7 +86,7 @@ VALUES (31645, 12, 16778423)
      , (31645, 13, 16783871)
      , (31645, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31645, 5, 'Iron-Spined Chittick Immolator') /* TEMPLATE_STRING */;

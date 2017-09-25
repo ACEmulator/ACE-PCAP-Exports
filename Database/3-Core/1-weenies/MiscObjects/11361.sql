@@ -33,7 +33,7 @@ VALUES (11361, 13, True) /* ETHEREAL_BOOL */
      , (11361, 19, True) /* ATTACKABLE_BOOL */
      , (11361, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11361, 16, 'A beautifully embroidered bag sewn to protect Siraluun feathers from damage. It is empty.') /* LONG_DESC_STRING */

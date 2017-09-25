@@ -35,7 +35,7 @@ VALUES (32492, 13, True) /* ETHEREAL_BOOL */
      , (32492, 19, True) /* ATTACKABLE_BOOL */
      , (32492, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32492, 16, 'Inscribed spell: Glenden Wood Recall

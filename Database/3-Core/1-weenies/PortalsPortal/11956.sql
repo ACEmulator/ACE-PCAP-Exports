@@ -33,7 +33,7 @@ VALUES (11956, 13, True) /* ETHEREAL_BOOL */
      , (11956, 19, True) /* ATTACKABLE_BOOL */
      , (11956, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11956, 38, 'Northern Manumet Plains Portal (50.5N, 68.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

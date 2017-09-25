@@ -29,7 +29,7 @@ VALUES (19394, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19394, 19, True) /* ATTACKABLE_BOOL */
      , (19394, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19394, 16, 'Trellyn Gardens') /* LONG_DESC_STRING */;

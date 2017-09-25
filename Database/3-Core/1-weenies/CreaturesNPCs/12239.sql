@@ -87,7 +87,7 @@ VALUES (12239, 10, 16777301)
      , (12239, 4, 16781838)
      , (12239, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12239, 5, 'Wall Hanging Master') /* TEMPLATE_STRING */;

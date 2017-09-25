@@ -35,7 +35,7 @@ VALUES (45300, 13, True) /* ETHEREAL_BOOL */
      , (45300, 19, True) /* ATTACKABLE_BOOL */
      , (45300, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45300, 16, 'Inscribed spell: Recklessness Mastery Self I

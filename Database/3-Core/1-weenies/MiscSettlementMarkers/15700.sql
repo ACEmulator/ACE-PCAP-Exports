@@ -29,7 +29,7 @@ VALUES (15700, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15700, 19, True) /* ATTACKABLE_BOOL */
      , (15700, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15700, 16, 'Welcome to Gharu''n Victory Villas') /* LONG_DESC_STRING */;

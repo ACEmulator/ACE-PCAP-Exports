@@ -44,7 +44,7 @@ VALUES (30221, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30221, 0, 16779181);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30221, 16, 'Using this gem will increase your Lockpick skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;

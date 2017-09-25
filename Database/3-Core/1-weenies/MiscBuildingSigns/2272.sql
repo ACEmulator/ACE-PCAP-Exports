@@ -36,7 +36,7 @@ VALUES (2272, 0, 83891055, 83891060);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2272, 0, 16780409);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2272, 16, 'The Flaming Phoenix') /* LONG_DESC_STRING */;

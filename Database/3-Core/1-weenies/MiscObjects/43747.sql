@@ -45,7 +45,7 @@ VALUES (43747, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43747, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43747, 14, 'These glands may be traded with Kaneth al-Evv on Olthoi Isle for rewards.') /* USE_STRING */

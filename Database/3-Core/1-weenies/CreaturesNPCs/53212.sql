@@ -39,7 +39,7 @@ VALUES (53212, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (53212, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (53212, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (53212, 16, 'An ancient statue infused with the magic of the Viridian Rise.') /* LONG_DESC_STRING */;

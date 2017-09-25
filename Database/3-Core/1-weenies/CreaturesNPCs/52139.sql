@@ -89,7 +89,7 @@ VALUES (52139, 12, 16778423)
      , (52139, 16, 16795674)
      , (52139, 22, 16792793);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52139, 5, 'Keeper of Whispered Lore') /* TEMPLATE_STRING */;

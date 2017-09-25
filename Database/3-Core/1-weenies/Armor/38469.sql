@@ -46,7 +46,7 @@ VALUES (38469, 0, 83887064, 83897922);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38469, 0, 16778365);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38469, 16, 'Celestial Hand Tassets of Strength') /* LONG_DESC_STRING */;

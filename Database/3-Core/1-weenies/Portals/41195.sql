@@ -33,7 +33,7 @@ VALUES (41195, 13, True) /* ETHEREAL_BOOL */
      , (41195, 19, True) /* ATTACKABLE_BOOL */
      , (41195, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41195, 16, 'This portal leads to the deeper regions of the Apostate Excavation.') /* LONG_DESC_STRING */

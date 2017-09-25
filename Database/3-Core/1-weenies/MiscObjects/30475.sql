@@ -31,7 +31,7 @@ VALUES (30475, 13, True) /* ETHEREAL_BOOL */
      , (30475, 19, True) /* ATTACKABLE_BOOL */
      , (30475, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30475, 16, 'An essence taken from the Western Power Forge.') /* LONG_DESC_STRING */;

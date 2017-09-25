@@ -29,7 +29,7 @@ VALUES (19382, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19382, 19, True) /* ATTACKABLE_BOOL */
      , (19382, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19382, 16, 'Endara Gate') /* LONG_DESC_STRING */;

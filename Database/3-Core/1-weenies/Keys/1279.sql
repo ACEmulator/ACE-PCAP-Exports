@@ -34,7 +34,7 @@ VALUES (1279, 13, True) /* ETHEREAL_BOOL */
      , (1279, 19, True) /* ATTACKABLE_BOOL */
      , (1279, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1279, 16, 'This key opens a prison cell in the Bandit Castle Prison.') /* LONG_DESC_STRING */

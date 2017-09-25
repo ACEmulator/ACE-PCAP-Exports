@@ -38,7 +38,7 @@ VALUES (6042, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (6042, 19, True) /* ATTACKABLE_BOOL */
      , (6042, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6042, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;

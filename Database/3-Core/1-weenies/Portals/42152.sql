@@ -34,7 +34,7 @@ VALUES (42152, 13, True) /* ETHEREAL_BOOL */
      , (42152, 19, True) /* ATTACKABLE_BOOL */
      , (42152, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42152, 16, 'A portal leading to the the Lost Wish Mountains near the Mite Maze where Branith''s stolen possessions may be found.') /* LONG_DESC_STRING */

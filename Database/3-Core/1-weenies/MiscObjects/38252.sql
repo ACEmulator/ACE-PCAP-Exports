@@ -31,7 +31,7 @@ VALUES (38252, 13, True) /* ETHEREAL_BOOL */
      , (38252, 19, True) /* ATTACKABLE_BOOL */
      , (38252, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38252, 16, 'A necklace made from the teeth of the monstrous Hagrafash. Long ago Hagrafash fed on our people and destroyed our great works. Our people could not fight such a beast as the Hagrafash and they suffered greatly. Then, from among the hunters came a savior, Baalfroth, to whom The Whispering One had bestowed great strength. He went forth and slew the great beast with only his spear.') /* LONG_DESC_STRING */

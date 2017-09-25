@@ -47,7 +47,7 @@ VALUES (25651, 0, 83886796, 83894831)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25651, 0, 16778363);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25651, 16, 'Leather Sleeves of Endurance') /* LONG_DESC_STRING */;

@@ -40,7 +40,7 @@ VALUES (45432, 13, True) /* ETHEREAL_BOOL */
      , (45432, 19, True) /* ATTACKABLE_BOOL */
      , (45432, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45432, 16, 'Acid Khanjar') /* LONG_DESC_STRING */;

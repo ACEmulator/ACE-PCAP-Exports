@@ -33,7 +33,7 @@ VALUES (1106, 13, True) /* ETHEREAL_BOOL */
      , (1106, 19, True) /* ATTACKABLE_BOOL */
      , (1106, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1106, 38, 'River Bridge Portal (28.5N, 48.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

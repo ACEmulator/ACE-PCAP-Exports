@@ -29,7 +29,7 @@ VALUES (24587, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24587, 19, True) /* ATTACKABLE_BOOL */
      , (24587, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24587, 16, 'Welcome to Candeth Keep. United against the darkness.') /* LONG_DESC_STRING */;

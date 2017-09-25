@@ -33,7 +33,7 @@ VALUES (12550, 13, True) /* ETHEREAL_BOOL */
      , (12550, 19, True) /* ATTACKABLE_BOOL */
      , (12550, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12550, 38, 'South Hebian-To Cottages Portal (44.0S, 80.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

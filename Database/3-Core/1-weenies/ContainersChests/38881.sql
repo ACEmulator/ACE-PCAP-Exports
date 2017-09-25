@@ -37,7 +37,7 @@ VALUES (38881, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38881, 19, True) /* ATTACKABLE_BOOL */
      , (38881, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38881, 14, 'A strange and twisted stump with a keyhole carved into a knot near the roots.') /* USE_STRING */;

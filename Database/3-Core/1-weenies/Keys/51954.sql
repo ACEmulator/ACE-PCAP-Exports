@@ -35,7 +35,7 @@ VALUES (51954, 13, True) /* ETHEREAL_BOOL */
      , (51954, 19, True) /* ATTACKABLE_BOOL */
      , (51954, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51954, 16, 'This key has seen better days.') /* LONG_DESC_STRING */

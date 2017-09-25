@@ -84,7 +84,7 @@ VALUES (32085, 12, 16778423)
      , (32085, 13, 16783871)
      , (32085, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32085, 5, 'Renovation Specialist') /* TEMPLATE_STRING */;

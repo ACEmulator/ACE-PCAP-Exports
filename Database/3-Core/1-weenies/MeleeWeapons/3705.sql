@@ -40,7 +40,7 @@ VALUES (3705, 13, True) /* ETHEREAL_BOOL */
      , (3705, 19, True) /* ATTACKABLE_BOOL */
      , (3705, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3705, 16, 'A battle axe shaped out of an armoredillo spine. Mysterious electrical impulses flare along the blade of the weapon.') /* LONG_DESC_STRING */;

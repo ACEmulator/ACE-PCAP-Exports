@@ -34,7 +34,7 @@ VALUES (43742, 13, True) /* ETHEREAL_BOOL */
      , (43742, 14, True) /* GRAVITY_STATUS_BOOL */
      , (43742, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43742, 15, 'A vial of blood taken from a defeated Snow Tusker.') /* SHORT_DESC_STRING */;

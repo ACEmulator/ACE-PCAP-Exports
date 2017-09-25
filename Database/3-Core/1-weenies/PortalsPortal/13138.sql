@@ -33,7 +33,7 @@ VALUES (13138, 13, True) /* ETHEREAL_BOOL */
      , (13138, 19, True) /* ATTACKABLE_BOOL */
      , (13138, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13138, 38, 'West Holtburg Villas Portal (46.5N, 40.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

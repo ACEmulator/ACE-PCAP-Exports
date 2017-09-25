@@ -35,7 +35,7 @@ VALUES (43299, 13, True) /* ETHEREAL_BOOL */
      , (43299, 19, True) /* ATTACKABLE_BOOL */
      , (43299, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43299, 16, 'Inscribed spell: Nether Arc VI

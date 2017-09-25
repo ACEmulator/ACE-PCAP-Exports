@@ -38,7 +38,7 @@ VALUES (43470, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43470, 0, 16787203);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43470, 14, 'This token may be traded to Nalicana, the Seer of the Yalain, in Asheron''s Castle, in order to spend 25,000 Luminance for a Light Infused Healing Kit. A Light Infused Healing Kit boosts your Heal Skill by 250, and has 30 charges.') /* USE_STRING */

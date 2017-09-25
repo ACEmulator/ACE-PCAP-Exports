@@ -33,7 +33,7 @@ VALUES (14623, 13, True) /* ETHEREAL_BOOL */
      , (14623, 19, True) /* ATTACKABLE_BOOL */
      , (14623, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14623, 38, 'East Morntide Villas Portal (38.5N, 12.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

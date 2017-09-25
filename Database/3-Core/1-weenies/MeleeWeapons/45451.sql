@@ -48,7 +48,7 @@ VALUES (45451, 0, 83897096, 83897096);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45451, 0, 16792000);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45451, 16, 'At first glance this would appear to be a normal spear, until you look closely at the plant-like carvings. When striking, the carvings come alive and leak a caustic liquid upon the target.  The first to discover this painful property was Archophon, the greatest gladiator in the history of the Roulean games.  He accepted a challenge from an unknown Silveran.  Archophon died, screaming, at the end of this spear.  After the match, the Silveran was never seen again.') /* LONG_DESC_STRING */;

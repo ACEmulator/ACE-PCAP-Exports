@@ -33,7 +33,7 @@ VALUES (433, 13, True) /* ETHEREAL_BOOL */
      , (433, 19, True) /* ATTACKABLE_BOOL */
      , (433, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (433, 38, 'Base of Mt. Alphus (19.6N, 17.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

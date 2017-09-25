@@ -35,7 +35,7 @@ VALUES (20328, 13, True) /* ETHEREAL_BOOL */
      , (20328, 19, True) /* ATTACKABLE_BOOL */
      , (20328, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20328, 16, 'Inscribed spell: Purge Creature Magic Self

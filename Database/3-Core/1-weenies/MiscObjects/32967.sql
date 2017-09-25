@@ -50,7 +50,7 @@ VALUES (32967, 0, 16784246)
      , (32967, 1, 16784196)
      , (32967, 2, 16784180);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32967, 16, 'A small reflective shard dropped by the Reflection of the Harbinger.') /* LONG_DESC_STRING */;

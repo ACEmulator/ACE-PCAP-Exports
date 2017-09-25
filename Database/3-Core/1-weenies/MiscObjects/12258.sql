@@ -37,7 +37,7 @@ VALUES (12258, 0, 83893819, 83893820);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12258, 0, 16787401);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12258, 16, 'A sliver of incredibly dense Singular Pyreal, imbued with Virindi magical energies.') /* LONG_DESC_STRING */

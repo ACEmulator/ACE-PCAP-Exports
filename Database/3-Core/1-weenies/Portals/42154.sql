@@ -34,7 +34,7 @@ VALUES (42154, 13, True) /* ETHEREAL_BOOL */
      , (42154, 19, True) /* ATTACKABLE_BOOL */
      , (42154, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42154, 16, 'A portal leading to near the Crumbling Empyrean Mansion outside Greenspire where the Worker Pincer may be found.') /* LONG_DESC_STRING */

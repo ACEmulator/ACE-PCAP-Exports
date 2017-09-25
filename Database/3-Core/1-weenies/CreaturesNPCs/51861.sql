@@ -114,7 +114,7 @@ VALUES (51861, 5, 16788087)
      , (51861, 22, 16797003)
      , (51861, 30, 16797048);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51861, 5, 'Big Game Hunter') /* TEMPLATE_STRING */;

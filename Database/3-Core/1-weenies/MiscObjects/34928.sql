@@ -34,7 +34,7 @@ VALUES (34928, 13, True) /* ETHEREAL_BOOL */
      , (34928, 19, True) /* ATTACKABLE_BOOL */
      , (34928, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34928, 16, 'A stone block with empyrean engravings on it.') /* LONG_DESC_STRING */

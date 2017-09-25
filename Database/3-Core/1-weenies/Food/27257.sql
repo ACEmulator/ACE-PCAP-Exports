@@ -35,7 +35,7 @@ VALUES (27257, 13, True) /* ETHEREAL_BOOL */
      , (27257, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27257, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27257, 16, 'A piece of magically imbued coral. It seems to shiver with a life of its own.') /* LONG_DESC_STRING */;

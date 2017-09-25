@@ -89,7 +89,7 @@ VALUES (30509, 12, 16777304)
      , (30509, 4, 16781838)
      , (30509, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30509, 5, 'Natural Philosopher') /* TEMPLATE_STRING */;

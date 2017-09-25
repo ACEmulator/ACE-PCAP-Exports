@@ -35,7 +35,7 @@ VALUES (2728, 13, True) /* ETHEREAL_BOOL */
      , (2728, 19, True) /* ATTACKABLE_BOOL */
      , (2728, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2728, 2, 3) /* CREATURE_TYPE_INT */

@@ -40,7 +40,7 @@ VALUES (3769, 13, True) /* ETHEREAL_BOOL */
      , (3769, 19, True) /* ATTACKABLE_BOOL */
      , (3769, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3769, 16, 'Frost Club') /* LONG_DESC_STRING */;

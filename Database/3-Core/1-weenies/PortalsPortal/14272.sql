@@ -33,7 +33,7 @@ VALUES (14272, 13, True) /* ETHEREAL_BOOL */
      , (14272, 19, True) /* ATTACKABLE_BOOL */
      , (14272, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14272, 38, 'Midsong Cottages Portal (0.6S, 1.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

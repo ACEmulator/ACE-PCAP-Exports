@@ -102,7 +102,7 @@ VALUES (30271, 9, 16777300)
      , (30271, 8, 16781817)
      , (30271, 16, 16785647);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30271, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;

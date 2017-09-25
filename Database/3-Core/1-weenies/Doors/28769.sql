@@ -32,7 +32,7 @@ VALUES (28769, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28769, 19, True) /* ATTACKABLE_BOOL */
      , (28769, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28769, 14, 'Use the Small Empyrean Vault Key to open this door.') /* USE_STRING */;

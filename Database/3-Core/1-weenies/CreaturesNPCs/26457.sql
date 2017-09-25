@@ -99,7 +99,7 @@ VALUES (26457, 12, 16777304)
      , (26457, 13, 16783871)
      , (26457, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (26457, 5, 'Mini-Ulgrim') /* TEMPLATE_STRING */;

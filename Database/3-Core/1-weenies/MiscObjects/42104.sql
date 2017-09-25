@@ -31,7 +31,7 @@ VALUES (42104, 13, True) /* ETHEREAL_BOOL */
      , (42104, 19, True) /* ATTACKABLE_BOOL */
      , (42104, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42104, 16, 'This eater jaw twitches occasionally as if it is trying to bite something.') /* LONG_DESC_STRING */;

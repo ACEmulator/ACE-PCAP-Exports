@@ -75,7 +75,7 @@ VALUES (33013, 12, 16778423)
      , (33013, 14, 16783855)
      , (33013, 16, 16791907);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33013, 5, 'Experimental Thaumaturgist') /* TEMPLATE_STRING */;

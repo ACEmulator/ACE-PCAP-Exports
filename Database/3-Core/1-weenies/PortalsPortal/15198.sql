@@ -33,7 +33,7 @@ VALUES (15198, 13, True) /* ETHEREAL_BOOL */
      , (15198, 19, True) /* ATTACKABLE_BOOL */
      , (15198, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15198, 38, 'Tia-Leh Homestead Portal (27.9N, 28.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

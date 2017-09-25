@@ -92,7 +92,7 @@ VALUES (31728, 12, 16777304)
      , (31728, 4, 16781838)
      , (31728, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31728, 5, 'Wanderer') /* TEMPLATE_STRING */;

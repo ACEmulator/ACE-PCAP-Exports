@@ -82,7 +82,7 @@ VALUES (4540, 2, 16777293)
      , (4540, 4, 16777291)
      , (4540, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4540, 5, 'Armorer') /* TEMPLATE_STRING */;
@@ -114,6 +114,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (4540, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4540, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4540, 256, 35) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4540, 74, 1074005767) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (4540, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (4540, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (4540, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (4540, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (4540, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

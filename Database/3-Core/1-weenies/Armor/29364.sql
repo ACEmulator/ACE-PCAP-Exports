@@ -39,7 +39,7 @@ VALUES (29364, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29364, 0, 16792538);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29364, 16, 'A helm taken from one of the Knights of the Viamontian Silver Legion.') /* LONG_DESC_STRING */;

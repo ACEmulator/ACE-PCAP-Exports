@@ -33,7 +33,7 @@ VALUES (31514, 13, True) /* ETHEREAL_BOOL */
      , (31514, 19, True) /* ATTACKABLE_BOOL */
      , (31514, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31514, 16, 'You must appease the Golem Xireri before you may use this portal.') /* LONG_DESC_STRING */

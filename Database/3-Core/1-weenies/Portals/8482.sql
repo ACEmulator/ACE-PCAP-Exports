@@ -33,7 +33,7 @@ VALUES (8482, 13, True) /* ETHEREAL_BOOL */
      , (8482, 19, True) /* ATTACKABLE_BOOL */
      , (8482, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8482, 38, 'Small Temple') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

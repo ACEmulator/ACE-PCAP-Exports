@@ -94,7 +94,7 @@ VALUES (42982, 2, 16778436)
      , (42982, 4, 16778426)
      , (42982, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42982, 5, 'Traitor to the Crown') /* TEMPLATE_STRING */;

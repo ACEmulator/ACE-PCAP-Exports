@@ -37,7 +37,7 @@ VALUES (30513, 13, True) /* ETHEREAL_BOOL */
      , (30513, 22, True) /* INSCRIBABLE_BOOL */
      , (30513, 91, True) /* RETAINED_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30513, 16, 'Can the undead cry? It is said that after Leikotha, the great warrior of Haebrous, was made undead by the Sand King Nerash, she wept for thirty days and thirty nights. Each tear shed fell onto her armor, infusing Leikotha''s essence into each piece.  Courage, honor, sorrow, wrath and... everlasting death.') /* LONG_DESC_STRING */;

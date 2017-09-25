@@ -33,7 +33,7 @@ VALUES (37615, 13, True) /* ETHEREAL_BOOL */
      , (37615, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37615, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37615, 16, 'This book describes the operating principles and ethics of the EldrytchWeb.') /* LONG_DESC_STRING */;

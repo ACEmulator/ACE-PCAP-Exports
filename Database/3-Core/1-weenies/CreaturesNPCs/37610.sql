@@ -84,7 +84,7 @@ VALUES (37610, 12, 16777304)
      , (37610, 13, 16783871)
      , (37610, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37610, 5, 'Arcanum Archivist') /* TEMPLATE_STRING */;

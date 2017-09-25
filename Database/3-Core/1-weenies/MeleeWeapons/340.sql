@@ -52,7 +52,7 @@ VALUES (340, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (340, 0, 16777942);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (340, 16, 'Shamshir of Blood Drinker') /* LONG_DESC_STRING */;

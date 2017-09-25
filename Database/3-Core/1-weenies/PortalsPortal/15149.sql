@@ -33,7 +33,7 @@ VALUES (15149, 13, True) /* ETHEREAL_BOOL */
      , (15149, 19, True) /* ATTACKABLE_BOOL */
      , (15149, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15149, 38, 'Dagger Vale Portal (83.3N, 28.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

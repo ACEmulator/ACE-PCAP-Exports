@@ -35,7 +35,7 @@ VALUES (6828, 13, True) /* ETHEREAL_BOOL */
      , (6828, 19, True) /* ATTACKABLE_BOOL */
      , (6828, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6828, 16, 'A letter from Hamud ibn Rafik to his daughter, Devana.') /* LONG_DESC_STRING */;

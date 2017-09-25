@@ -33,7 +33,7 @@ VALUES (29494, 13, True) /* ETHEREAL_BOOL */
      , (29494, 19, True) /* ATTACKABLE_BOOL */
      , (29494, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29494, 15, 'A breastplate commonly worn by the Knights of Karlun.') /* SHORT_DESC_STRING */;

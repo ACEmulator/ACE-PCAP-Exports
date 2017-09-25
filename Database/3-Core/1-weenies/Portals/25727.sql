@@ -33,7 +33,7 @@ VALUES (25727, 13, True) /* ETHEREAL_BOOL */
      , (25727, 19, True) /* ATTACKABLE_BOOL */
      , (25727, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25727, 38, 'Undisclosed Location (1.9N, 51.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

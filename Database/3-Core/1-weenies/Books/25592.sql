@@ -34,7 +34,7 @@ VALUES (25592, 13, True) /* ETHEREAL_BOOL */
      , (25592, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25592, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25592, 16, 'A book with notes from the translator Fanzen San') /* LONG_DESC_STRING */;

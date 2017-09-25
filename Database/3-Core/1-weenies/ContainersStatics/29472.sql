@@ -35,7 +35,7 @@ VALUES (29472, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29472, 19, True) /* ATTACKABLE_BOOL */
      , (29472, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29472, 16, 'The corpse of a recently killed Viamontian, with a clean dagger hole in the back.') /* LONG_DESC_STRING */

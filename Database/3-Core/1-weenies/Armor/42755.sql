@@ -52,7 +52,7 @@ VALUES (42755, 0, 16794674)
      , (42755, 4, 16794670)
      , (42755, 5, 16794679);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42755, 16, 'Haebrean Boots') /* LONG_DESC_STRING */;

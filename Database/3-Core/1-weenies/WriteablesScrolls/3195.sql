@@ -35,7 +35,7 @@ VALUES (3195, 13, True) /* ETHEREAL_BOOL */
      , (3195, 19, True) /* ATTACKABLE_BOOL */
      , (3195, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3195, 16, 'Inscribed spell: Creature Enchantment Mastery Other IV

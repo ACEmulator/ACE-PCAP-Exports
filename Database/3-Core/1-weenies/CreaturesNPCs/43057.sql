@@ -88,7 +88,7 @@ VALUES (43057, 12, 16777304)
      , (43057, 4, 16789357)
      , (43057, 8, 16789358);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43057, 5, 'Olthoi Dagger Crafter') /* TEMPLATE_STRING */;

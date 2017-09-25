@@ -34,7 +34,7 @@ VALUES (31980, 13, True) /* ETHEREAL_BOOL */
      , (31980, 19, True) /* ATTACKABLE_BOOL */
      , (31980, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31980, 16, 'Part of a journal belonging to Geowulf the Stonehearted.') /* LONG_DESC_STRING */;

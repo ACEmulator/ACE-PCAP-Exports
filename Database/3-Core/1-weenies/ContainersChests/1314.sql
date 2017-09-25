@@ -34,7 +34,7 @@ VALUES (1314, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (1314, 19, True) /* ATTACKABLE_BOOL */
      , (1314, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1314, 19, 0) /* VALUE_INT */

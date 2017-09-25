@@ -98,7 +98,7 @@ VALUES (189, 15, 16777335)
      , (189, 14, 16783855)
      , (189, 16, 16785647);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (189, 16, 67110065) /* EYES_PALETTE_DID */

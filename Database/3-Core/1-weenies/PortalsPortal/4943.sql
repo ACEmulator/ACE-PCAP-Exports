@@ -33,7 +33,7 @@ VALUES (4943, 13, True) /* ETHEREAL_BOOL */
      , (4943, 19, True) /* ATTACKABLE_BOOL */
      , (4943, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4943, 38, 'Abandoned Shops Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

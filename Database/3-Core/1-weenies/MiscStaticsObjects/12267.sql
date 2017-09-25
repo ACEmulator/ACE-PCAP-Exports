@@ -43,7 +43,7 @@ VALUES (12267, 0, 83893820, 83893820);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12267, 0, 16787400);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12267, 16, 'A pillar of Singular Pyreal stockpiled by the Virindi and their allies.') /* LONG_DESC_STRING */

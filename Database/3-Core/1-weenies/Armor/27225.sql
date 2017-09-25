@@ -49,7 +49,7 @@ VALUES (27225, 0, 83886796, 83895217)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27225, 0, 16778363);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27225, 16, 'Lorica Sleeves') /* LONG_DESC_STRING */;

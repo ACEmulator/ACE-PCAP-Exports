@@ -36,7 +36,7 @@ VALUES (6029, 13, True) /* ETHEREAL_BOOL */
      , (6029, 19, True) /* ATTACKABLE_BOOL */
      , (6029, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6029, 16, 'A book from the private chambers of Hamud ibn Rafik.') /* LONG_DESC_STRING */;

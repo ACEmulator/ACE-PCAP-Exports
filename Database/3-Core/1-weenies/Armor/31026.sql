@@ -40,7 +40,7 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (31026, 67116324, 174, 42)
      , (31026, 67116314, 216, 24);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31026, 16, 'Tenassa Breastplate of Summoning Mastery') /* LONG_DESC_STRING */;

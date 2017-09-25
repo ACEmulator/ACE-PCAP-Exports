@@ -32,7 +32,7 @@ VALUES (33988, 13, True) /* ETHEREAL_BOOL */
      , (33988, 19, True) /* ATTACKABLE_BOOL */
      , (33988, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33988, 16, 'A large fossilized bone. You have no way of knowing how old it might be. The bone looks like it came from a huge bird''s wing. Its surface glows with an inner radiance.') /* LONG_DESC_STRING */

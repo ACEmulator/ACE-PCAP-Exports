@@ -35,7 +35,7 @@ VALUES (2714, 13, True) /* ETHEREAL_BOOL */
      , (2714, 19, True) /* ATTACKABLE_BOOL */
      , (2714, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2714, 16, 'Killed by Ripley.') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (32159, 13, True) /* ETHEREAL_BOOL */
      , (32159, 19, True) /* ATTACKABLE_BOOL */
      , (32159, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32159, 16, 'A mask crafted to resemble the head of the noble Penguin.') /* LONG_DESC_STRING */;

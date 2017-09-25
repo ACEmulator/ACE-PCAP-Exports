@@ -37,7 +37,7 @@ VALUES (45446, 13, True) /* ETHEREAL_BOOL */
      , (45446, 22, True) /* INSCRIBABLE_BOOL */
      , (45446, 91, True) /* RETAINED_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45446, 16, 'Tirethas, the City of Lore and site of the Imperial Academy of Magic, was once home to the greatest concentration of mages and scholars in all of Ispar.  It seems the many students at the school were often unruly, causing havoc throughout the city. Unable to deal with the magical mayhem, the local guards petitioned the academy council for help. The result was the creation of these batons, given out to the guards of the city.  After many a bruised ego, order was once again restored to Tirethas.') /* LONG_DESC_STRING */;

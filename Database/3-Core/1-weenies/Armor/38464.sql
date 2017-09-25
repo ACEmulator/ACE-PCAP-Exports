@@ -42,7 +42,7 @@ VALUES (38464, 0, 83894333, 83897927);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38464, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38464, 16, 'Celestial Hand Gauntlets of Coordination') /* LONG_DESC_STRING */;

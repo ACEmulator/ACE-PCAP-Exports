@@ -33,7 +33,7 @@ VALUES (14631, 13, True) /* ETHEREAL_BOOL */
      , (14631, 19, True) /* ATTACKABLE_BOOL */
      , (14631, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14631, 38, 'Fearnot Valley Cottages Portal (24.1N, 19.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

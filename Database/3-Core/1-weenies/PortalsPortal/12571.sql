@@ -33,7 +33,7 @@ VALUES (12571, 13, True) /* ETHEREAL_BOOL */
      , (12571, 19, True) /* ATTACKABLE_BOOL */
      , (12571, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12571, 38, 'Zabool Overlook Settlement Portal (22.7N, 22.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

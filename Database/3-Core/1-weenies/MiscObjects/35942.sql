@@ -30,7 +30,7 @@ VALUES (35942, 13, True) /* ETHEREAL_BOOL */
      , (35942, 19, True) /* ATTACKABLE_BOOL */
      , (35942, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35942, 16, 'A dark parody of the fabled tusker paw, it is rumored that this tusker paw, like the fabled tusker paw it is made in mockery of, has the ability to grant wishes to the person who possesses the item. But the paw will be used up in the process.') /* LONG_DESC_STRING */;

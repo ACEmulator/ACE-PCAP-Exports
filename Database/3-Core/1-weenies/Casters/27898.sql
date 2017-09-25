@@ -39,7 +39,7 @@ VALUES (27898, 13, True) /* ETHEREAL_BOOL */
      , (27898, 19, True) /* ATTACKABLE_BOOL */
      , (27898, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27898, 16, 'An overly large replica of the Mosswart hero Drageerg''s eye.') /* LONG_DESC_STRING */;

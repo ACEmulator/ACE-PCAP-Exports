@@ -51,7 +51,7 @@ VALUES (52735, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52735, 0, 16778611);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52735, 16, 'A backpack with several side pouches.') /* LONG_DESC_STRING */

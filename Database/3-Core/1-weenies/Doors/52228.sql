@@ -33,7 +33,7 @@ VALUES (52228, 13, True) /* ETHEREAL_BOOL */
      , (52228, 19, True) /* ATTACKABLE_BOOL */
      , (52228, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52228, 14, 'Use this item to close it.') /* USE_STRING */;

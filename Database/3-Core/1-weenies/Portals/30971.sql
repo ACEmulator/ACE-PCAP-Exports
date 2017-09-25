@@ -33,7 +33,7 @@ VALUES (30971, 13, True) /* ETHEREAL_BOOL */
      , (30971, 19, True) /* ATTACKABLE_BOOL */
      , (30971, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30971, 38, 'Path of the Blind') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

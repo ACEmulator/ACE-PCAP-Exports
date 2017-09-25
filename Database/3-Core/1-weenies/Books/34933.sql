@@ -34,7 +34,7 @@ VALUES (34933, 13, True) /* ETHEREAL_BOOL */
      , (34933, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34933, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34933, 16, 'A list of locations where Imprinting Motes may be found.') /* LONG_DESC_STRING */;

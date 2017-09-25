@@ -37,7 +37,7 @@ VALUES (8553, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8553, 22, True) /* INSCRIBABLE_BOOL */
      , (8553, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8553, 16, 'An elaborate tomb, inscribed, "From northland to madness; from madness to grace; from grace to our verdurous home." You feel a strange sense of peace radiating from it.') /* LONG_DESC_STRING */

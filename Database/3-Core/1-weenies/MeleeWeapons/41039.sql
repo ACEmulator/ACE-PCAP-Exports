@@ -52,7 +52,7 @@ VALUES (41039, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41039, 0, 16794405);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41039, 16, 'Flaming Assagai of Blooddrinker') /* LONG_DESC_STRING */;

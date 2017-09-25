@@ -47,7 +47,7 @@ VALUES (116, 0, 83887054, 83887054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (116, 0, 16778380);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (116, 16, 'Studded Leather Boots of Missile Weapon Mastery') /* LONG_DESC_STRING */;

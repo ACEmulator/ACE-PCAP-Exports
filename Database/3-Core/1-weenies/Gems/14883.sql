@@ -43,7 +43,7 @@ VALUES (14883, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14883, 9, 16785620);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14883, 16, 'The lower half of a green singularity key.') /* LONG_DESC_STRING */

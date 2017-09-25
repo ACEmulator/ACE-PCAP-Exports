@@ -35,7 +35,7 @@ VALUES (9636, 13, True) /* ETHEREAL_BOOL */
      , (9636, 19, True) /* ATTACKABLE_BOOL */
      , (9636, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9636, 16, 'Inscribed spell: Health to Stamina Self III

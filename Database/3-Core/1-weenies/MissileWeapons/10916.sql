@@ -41,7 +41,7 @@ VALUES (10916, 13, True) /* ETHEREAL_BOOL */
      , (10916, 19, True) /* ATTACKABLE_BOOL */
      , (10916, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10916, 16, 'A traditional ranged weapon of the Tumerok. It has a rough-hewn yet elegant appearance.') /* LONG_DESC_STRING */;

@@ -99,7 +99,7 @@ VALUES (43862, 1, 16777708)
      , (43862, 12, 16788094)
      , (43862, 16, 16793036);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43862, 5, 'Isin Dule''s Personal Guard') /* TEMPLATE_STRING */;

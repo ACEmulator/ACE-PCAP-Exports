@@ -74,7 +74,7 @@ VALUES (45198, 0, 16783894)
      , (45198, 12, 16789483)
      , (45198, 15, 16789487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45198, 5, 'Traitor of House Mhoire') /* TEMPLATE_STRING */;

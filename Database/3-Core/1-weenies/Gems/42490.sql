@@ -37,7 +37,7 @@ VALUES (42490, 13, True) /* ETHEREAL_BOOL */
      , (42490, 19, True) /* ATTACKABLE_BOOL */
      , (42490, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42490, 16, 'A normal looking mana stone enchanted to pick up energy from the environment on use, but won''t hold a charge.') /* LONG_DESC_STRING */;

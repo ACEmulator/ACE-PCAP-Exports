@@ -47,7 +47,7 @@ VALUES (43053, 0, 83889344, 83898256)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43053, 0, 16778416);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43053, 16, 'Knorr Academy Boots of Light Weapon Mastery') /* LONG_DESC_STRING */;

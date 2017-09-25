@@ -29,7 +29,7 @@ VALUES (42770, 13, True) /* ETHEREAL_BOOL */
      , (42770, 19, True) /* ATTACKABLE_BOOL */
      , (42770, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42770, 16, 'A place where merchants can sell their wares.') /* LONG_DESC_STRING */;

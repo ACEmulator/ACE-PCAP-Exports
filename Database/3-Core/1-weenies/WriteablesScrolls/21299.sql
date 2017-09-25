@@ -35,7 +35,7 @@ VALUES (21299, 13, True) /* ETHEREAL_BOOL */
      , (21299, 19, True) /* ATTACKABLE_BOOL */
      , (21299, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21299, 16, 'Killed by Mag-lite.') /* LONG_DESC_STRING */;

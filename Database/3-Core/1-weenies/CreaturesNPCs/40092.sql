@@ -38,7 +38,7 @@ VALUES (40092, 13, True) /* ETHEREAL_BOOL */
      , (40092, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (40092, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40092, 14, 'A crystal marking a special location.') /* USE_STRING */;

@@ -33,7 +33,7 @@ VALUES (32623, 13, True) /* ETHEREAL_BOOL */
      , (32623, 19, True) /* ATTACKABLE_BOOL */
      , (32623, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32623, 38, 'Viamontian Esper Mine') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

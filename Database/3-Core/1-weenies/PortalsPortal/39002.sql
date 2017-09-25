@@ -33,7 +33,7 @@ VALUES (39002, 13, True) /* ETHEREAL_BOOL */
      , (39002, 19, True) /* ATTACKABLE_BOOL */
      , (39002, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39002, 38, 'Shoushi Casino VIP Portal (34.2S, 73.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

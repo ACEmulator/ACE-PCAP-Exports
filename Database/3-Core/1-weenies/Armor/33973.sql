@@ -43,7 +43,7 @@ VALUES (33973, 0, 16793198)
      , (33973, 4, 16793202)
      , (33973, 5, 16793203);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33973, 160, 130) /* WIELD_DIFFICULTY_INT */

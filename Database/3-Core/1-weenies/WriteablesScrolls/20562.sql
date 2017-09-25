@@ -35,7 +35,7 @@ VALUES (20562, 13, True) /* ETHEREAL_BOOL */
      , (20562, 19, True) /* ATTACKABLE_BOOL */
      , (20562, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20562, 16, 'Inscribed spell: Celdiseth''s Blessing

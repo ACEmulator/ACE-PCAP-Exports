@@ -34,7 +34,7 @@ VALUES (31414, 13, True) /* ETHEREAL_BOOL */
      , (31414, 19, True) /* ATTACKABLE_BOOL */
      , (31414, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31414, 16, 'A small sealed journal written by Kraest, a High Archon in the Order of the Raven Hand.') /* LONG_DESC_STRING */

@@ -44,7 +44,7 @@ VALUES (38959, 67116650, 1, 48)
      , (38959, 67116641, 200, 8)
      , (38959, 67116625, 208, 48);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38959, 5, 'Monster Fighter') /* TEMPLATE_STRING */;

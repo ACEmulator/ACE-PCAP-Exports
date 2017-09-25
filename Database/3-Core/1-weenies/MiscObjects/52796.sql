@@ -35,7 +35,7 @@ VALUES (52796, 13, True) /* ETHEREAL_BOOL */
      , (52796, 14, True) /* GRAVITY_STATUS_BOOL */
      , (52796, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52796, 16, 'This ticket gives access for one fellowship to the Gauntlet''s Arenas. Prepare your fellowship before handing this ticket into the Master of the Gauntlet since you will be unable to change your fellowship without disbanding it and losing your access to the Gauntlet.') /* LONG_DESC_STRING */

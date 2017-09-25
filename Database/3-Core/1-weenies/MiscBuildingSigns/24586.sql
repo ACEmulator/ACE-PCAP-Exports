@@ -36,7 +36,7 @@ VALUES (24586, 0, 83891055, 83891060);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24586, 0, 16780409);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24586, 16, 'Food and Lodging. No actual mattekars on premises, ravenous or otherwise.') /* LONG_DESC_STRING */;

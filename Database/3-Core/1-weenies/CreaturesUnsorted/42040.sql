@@ -35,7 +35,7 @@ VALUES (42040, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (42040, 19, True) /* ATTACKABLE_BOOL */
      , (42040, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42040, 15, 'A pile of blackened and corrupted bones with a glint of gold inside.') /* SHORT_DESC_STRING */;

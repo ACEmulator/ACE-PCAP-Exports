@@ -31,7 +31,7 @@ VALUES (29270, 13, True) /* ETHEREAL_BOOL */
      , (29270, 19, True) /* ATTACKABLE_BOOL */
      , (29270, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29270, 16, 'Using this gem will cause you to lose five fewer items at death.  You can augment yourself three times in this way, but you will need a new gem for each augmentation.  This augmentation does not apply to deaths suffered at the hands of other players.') /* LONG_DESC_STRING */;

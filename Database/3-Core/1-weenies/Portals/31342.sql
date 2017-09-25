@@ -33,7 +33,7 @@ VALUES (31342, 13, True) /* ETHEREAL_BOOL */
      , (31342, 19, True) /* ATTACKABLE_BOOL */
      , (31342, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31342, 38, 'KEEP OUT! (76.0S, 67.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -31,7 +31,7 @@ VALUES (34455, 13, True) /* ETHEREAL_BOOL */
      , (34455, 19, True) /* ATTACKABLE_BOOL */
      , (34455, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34455, 16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LONG_DESC_STRING */;

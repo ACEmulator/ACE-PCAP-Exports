@@ -43,7 +43,7 @@ VALUES (28927, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28927, 0, 16779181);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28927, 16, 'This gem is unassuming and fairly plain. There is nothing overtly mystical about the gem at all.') /* LONG_DESC_STRING */

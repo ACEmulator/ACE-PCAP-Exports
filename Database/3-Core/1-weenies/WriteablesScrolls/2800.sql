@@ -35,7 +35,7 @@ VALUES (2800, 13, True) /* ETHEREAL_BOOL */
      , (2800, 19, True) /* ATTACKABLE_BOOL */
      , (2800, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2800, 16, 'Inscribed spell: Bludgeon Lure V

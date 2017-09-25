@@ -43,7 +43,7 @@ VALUES (44849, 0, 83898657, 83898658);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44849, 0, 16795839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44849, 16, 'Chevron Cloak') /* LONG_DESC_STRING */;

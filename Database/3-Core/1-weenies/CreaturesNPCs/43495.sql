@@ -100,7 +100,7 @@ VALUES (43495, 9, 16788080)
      , (43495, 8, 16781817)
      , (43495, 16, 16794792);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43495, 5, 'Gurog Hunter') /* TEMPLATE_STRING */;

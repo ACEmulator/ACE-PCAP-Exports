@@ -66,7 +66,7 @@ VALUES (39109, 0, 16784123)
      , (39109, 11, 16784119)
      , (39109, 12, 16784114);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39109, 16, 'A festival treat. A gummy candy molded into the shape of a golem.') /* LONG_DESC_STRING */

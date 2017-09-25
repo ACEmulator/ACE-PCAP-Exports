@@ -31,7 +31,7 @@ VALUES (25773, 13, True) /* ETHEREAL_BOOL */
      , (25773, 19, True) /* ATTACKABLE_BOOL */
      , (25773, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25773, 16, 'A table set for dinner guests.') /* LONG_DESC_STRING */

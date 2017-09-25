@@ -35,7 +35,7 @@ VALUES (31226, 13, True) /* ETHEREAL_BOOL */
      , (31226, 19, True) /* ATTACKABLE_BOOL */
      , (31226, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31226, 16, 'An unusually large skull. Runes are inscribed on the surface of the skull. The only decipherable runes read, "Undead Temple". Perhaps it''s a key of some sort? ') /* LONG_DESC_STRING */;

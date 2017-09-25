@@ -37,7 +37,7 @@ VALUES (23086, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23086, 19, True) /* ATTACKABLE_BOOL */
      , (23086, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23086, 16, 'Carved from a light Oak this chest has been reinforced with strappings made from steel and iron.') /* LONG_DESC_STRING */

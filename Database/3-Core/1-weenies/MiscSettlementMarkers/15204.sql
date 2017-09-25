@@ -29,7 +29,7 @@ VALUES (15204, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15204, 19, True) /* ATTACKABLE_BOOL */
      , (15204, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15204, 16, 'Welcome to Al-Mar Oasis') /* LONG_DESC_STRING */;

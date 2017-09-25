@@ -31,7 +31,7 @@ VALUES (24650, 13, True) /* ETHEREAL_BOOL */
      , (24650, 19, True) /* ATTACKABLE_BOOL */
      , (24650, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24650, 15, 'The claw of a departed adolescent Olthoi Brood Queen.') /* SHORT_DESC_STRING */;

@@ -80,7 +80,7 @@ VALUES (28700, 16, 16795640)
      , (28700, 4, 16791935)
      , (28700, 8, 16791936);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28700, 5, 'Protector of Sanamar') /* TEMPLATE_STRING */;

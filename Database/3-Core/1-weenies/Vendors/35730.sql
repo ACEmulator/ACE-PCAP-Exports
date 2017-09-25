@@ -83,7 +83,7 @@ VALUES (35730, 12, 16777304)
      , (35730, 14, 16783855)
      , (35730, 16, 16785778);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35730, 5, 'Master Alchemist') /* TEMPLATE_STRING */;
@@ -105,6 +105,20 @@ VALUES (35730, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35730, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35730, 74, 1619271680) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (35730, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (35730, 76, 999999) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35730, 37, 0.95) /* BUY_PRICE_FLOAT */
+     , (35730, 38, 1.25) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35730, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

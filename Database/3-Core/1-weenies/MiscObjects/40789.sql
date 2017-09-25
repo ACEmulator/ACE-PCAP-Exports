@@ -34,7 +34,7 @@ VALUES (40789, 13, True) /* ETHEREAL_BOOL */
      , (40789, 19, True) /* ATTACKABLE_BOOL */
      , (40789, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40789, 14, 'Combine a thermal crystal with this alkalemic crystal to stabilize it.') /* USE_STRING */

@@ -34,7 +34,7 @@ VALUES (33929, 13, True) /* ETHEREAL_BOOL */
      , (33929, 19, True) /* ATTACKABLE_BOOL */
      , (33929, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33929, 16, 'A closed scroll, addressed to May''ad ibn Ibsar, located at 21.7S 1.6W, in Yaraq.') /* LONG_DESC_STRING */;

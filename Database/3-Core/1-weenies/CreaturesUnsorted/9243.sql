@@ -46,7 +46,7 @@ VALUES (9243, 9, 83893207, 83893207);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9243, 9, 16785617);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9243, 2, 53) /* CREATURE_TYPE_INT */

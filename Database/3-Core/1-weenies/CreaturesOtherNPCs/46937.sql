@@ -37,7 +37,7 @@ VALUES (46937, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (46937, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (46937, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46937, 15, 'A crystal prison containing Gaerlan''s life essence.') /* SHORT_DESC_STRING */;

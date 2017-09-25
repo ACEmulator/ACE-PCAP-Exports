@@ -45,7 +45,7 @@ VALUES (42753, 67110015, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42753, 0, 16794673);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42753, 16, 'Haebrean Helm of Weapon Expertise') /* LONG_DESC_STRING */;

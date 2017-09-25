@@ -33,7 +33,7 @@ VALUES (15191, 13, True) /* ETHEREAL_BOOL */
      , (15191, 19, True) /* ATTACKABLE_BOOL */
      , (15191, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15191, 38, 'Soltan Villas Portal (24.8N, 15.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

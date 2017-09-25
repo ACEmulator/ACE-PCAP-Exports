@@ -56,7 +56,7 @@ VALUES (45975, 0, 16789640)
      , (45975, 4, 16781840)
      , (45975, 5, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45975, 16, '') /* LONG_DESC_STRING */;

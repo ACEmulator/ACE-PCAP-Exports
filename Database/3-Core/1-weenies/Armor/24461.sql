@@ -44,7 +44,7 @@ VALUES (24461, 0, 83887059, 83894595);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24461, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24461, 16, 'These gauntlets have been carved from Sunstone and fitted with an amulet with the essence of the life giver.') /* LONG_DESC_STRING */;

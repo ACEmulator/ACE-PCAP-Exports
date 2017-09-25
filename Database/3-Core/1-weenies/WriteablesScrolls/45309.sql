@@ -35,7 +35,7 @@ VALUES (45309, 13, True) /* ETHEREAL_BOOL */
      , (45309, 19, True) /* ATTACKABLE_BOOL */
      , (45309, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45309, 16, 'Inscribed spell: Shield Ineptitude Other II

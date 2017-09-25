@@ -33,7 +33,7 @@ VALUES (40805, 13, True) /* ETHEREAL_BOOL */
      , (40805, 19, True) /* ATTACKABLE_BOOL */
      , (40805, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40805, 16, 'A key to the Aetherium Vault within the Apostate Nexus dungeon.') /* LONG_DESC_STRING */

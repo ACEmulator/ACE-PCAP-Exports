@@ -32,7 +32,7 @@ VALUES (38722, 13, True) /* ETHEREAL_BOOL */
      , (38722, 19, True) /* ATTACKABLE_BOOL */
      , (38722, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38722, 16, 'A key authorized by the Quartermaster.') /* LONG_DESC_STRING */

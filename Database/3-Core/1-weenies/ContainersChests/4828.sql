@@ -37,7 +37,7 @@ VALUES (4828, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4828, 19, True) /* ATTACKABLE_BOOL */
      , (4828, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4828, 16, 'This coffin appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick') /* LONG_DESC_STRING */

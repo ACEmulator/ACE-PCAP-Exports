@@ -33,7 +33,7 @@ VALUES (19715, 13, True) /* ETHEREAL_BOOL */
      , (19715, 19, True) /* ATTACKABLE_BOOL */
      , (19715, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19715, 38, 'Colossus Foundry Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

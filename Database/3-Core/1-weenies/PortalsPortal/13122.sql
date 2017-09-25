@@ -33,7 +33,7 @@ VALUES (13122, 13, True) /* ETHEREAL_BOOL */
      , (13122, 19, True) /* ATTACKABLE_BOOL */
      , (13122, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13122, 38, 'Riverbend Cottages Portal (3.5S, 64.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

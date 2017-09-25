@@ -34,7 +34,7 @@ VALUES (4646, 0, 83892071, 83892183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4646, 0, 16783205);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4646, 16, 'Tavern at Al-Arqas') /* LONG_DESC_STRING */;

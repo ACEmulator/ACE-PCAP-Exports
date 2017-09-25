@@ -90,7 +90,7 @@ VALUES (22620, 0, 16785059)
      , (22620, 23, 16785103)
      , (22620, 24, 16785103);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22620, 16, 'Finely carved Tusker statue. Souvenir from the Tusker Emporium of Deadly Doom (tm)') /* LONG_DESC_STRING */;

@@ -43,7 +43,7 @@ VALUES (11986, 67113383, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11986, 0, 16787336);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11986, 16, 'A crown made of some sort of solidified energy.  When you wear it, you feel revitalized.') /* LONG_DESC_STRING */;

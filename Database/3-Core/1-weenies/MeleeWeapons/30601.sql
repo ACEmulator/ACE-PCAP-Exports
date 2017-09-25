@@ -46,7 +46,7 @@ VALUES (30601, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30601, 0, 16792137);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30601, 16, 'Stiletto') /* LONG_DESC_STRING */;

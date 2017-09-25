@@ -81,7 +81,7 @@ VALUES (34441, 0, 16788885)
      , (34441, 12, 16788891)
      , (34441, 16, 16789125);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34441, 5, 'Empyrean Servant') /* TEMPLATE_STRING */;

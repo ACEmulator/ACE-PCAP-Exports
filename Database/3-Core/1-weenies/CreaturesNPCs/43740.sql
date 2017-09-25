@@ -90,7 +90,7 @@ VALUES (43740, 12, 16777304)
      , (43740, 21, 16777708)
      , (43740, 22, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43740, 5, 'Snow Tusker Annihilator') /* TEMPLATE_STRING */;

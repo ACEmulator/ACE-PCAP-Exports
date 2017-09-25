@@ -47,7 +47,7 @@ VALUES (45524, 0, 83889238, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45524, 0, 16783999);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45524, 16, 'A ghostly blue claw, bound to your soul.') /* LONG_DESC_STRING */;

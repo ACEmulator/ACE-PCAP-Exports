@@ -33,7 +33,7 @@ VALUES (28470, 13, True) /* ETHEREAL_BOOL */
      , (28470, 19, True) /* ATTACKABLE_BOOL */
      , (28470, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28470, 16, 'This key was crafted to fit the locks of several special chests within a treasure hold created by High Queen Elysa.') /* LONG_DESC_STRING */

@@ -49,7 +49,7 @@ VALUES (8786, 0, 83886754, 83886754)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8786, 0, 16777906);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8786, 16, 'A fletching tool that can be used to make barbed arrowheads.') /* LONG_DESC_STRING */

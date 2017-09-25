@@ -49,7 +49,7 @@ VALUES (42751, 0, 83889072, 83898152)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42751, 0, 16778376);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42751, 16, 'Haebrean Girth') /* LONG_DESC_STRING */;

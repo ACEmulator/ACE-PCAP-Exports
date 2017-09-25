@@ -39,7 +39,7 @@ VALUES (44650, 13, True) /* ETHEREAL_BOOL */
      , (44650, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (44650, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44650, 16, 'This portal cannot be recalled, linked nor summoned. ') /* LONG_DESC_STRING */

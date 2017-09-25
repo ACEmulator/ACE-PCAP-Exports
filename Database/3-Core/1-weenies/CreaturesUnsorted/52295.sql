@@ -35,7 +35,7 @@ VALUES (52295, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (52295, 19, True) /* ATTACKABLE_BOOL */
      , (52295, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52295, 15, 'A sarcophagus containing the bones of a recently deceased warrior.') /* SHORT_DESC_STRING */;

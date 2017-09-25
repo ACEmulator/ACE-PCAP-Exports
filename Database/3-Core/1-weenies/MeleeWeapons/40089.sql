@@ -40,7 +40,7 @@ VALUES (40089, 13, True) /* ETHEREAL_BOOL */
      , (40089, 22, True) /* INSCRIBABLE_BOOL */
      , (40089, 91, True) /* RETAINED_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40089, 16, 'The Empowered Sword of Lost Hope pulses with twisted energy.  The weapon seems to coruscate with the power of Ilservian''s blood, which has mixed with the now corrupted mana it has been further empowered with.') /* LONG_DESC_STRING */;

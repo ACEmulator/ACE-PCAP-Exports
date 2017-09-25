@@ -93,7 +93,7 @@ VALUES (8124, 11, 16777302)
      , (8124, 8, 16781839)
      , (8124, 16, 16778594);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8124, 5, 'Trophy Collector') /* TEMPLATE_STRING */;

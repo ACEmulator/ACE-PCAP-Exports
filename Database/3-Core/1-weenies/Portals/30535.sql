@@ -33,7 +33,7 @@ VALUES (30535, 13, True) /* ETHEREAL_BOOL */
      , (30535, 19, True) /* ATTACKABLE_BOOL */
      , (30535, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30535, 38, 'Beacon Tower Exit (71.7N, 61.0W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

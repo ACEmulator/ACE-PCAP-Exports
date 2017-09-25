@@ -39,7 +39,7 @@ VALUES (22617, 0, 83888864, 83894376);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22617, 0, 16778971);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22617, 14, 'Eat this food to recover stamina.') /* USE_STRING */

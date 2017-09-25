@@ -74,7 +74,7 @@ VALUES (22749, 2, 16777293)
      , (22749, 1, 16783912)
      , (22749, 5, 16783916);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22749, 5, 'Sacrifice') /* TEMPLATE_STRING */;

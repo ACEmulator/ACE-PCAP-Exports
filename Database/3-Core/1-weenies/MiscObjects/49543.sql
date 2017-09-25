@@ -52,7 +52,7 @@ VALUES (49543, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49543, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49543, 14, 'Use this essence to summon or dismiss your Frost Phyntos Wasp.') /* USE_STRING */;

@@ -70,7 +70,7 @@ VALUES (51955, 0, 16795382)
      , (51955, 21, 16777708)
      , (51955, 22, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51955, 5, 'Wisp Wrangler') /* TEMPLATE_STRING */;

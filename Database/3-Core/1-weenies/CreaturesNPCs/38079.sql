@@ -76,7 +76,7 @@ VALUES (38079, 0, 16783897)
      , (38079, 12, 16789483)
      , (38079, 15, 16789487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38079, 5, 'Lady of Aerlinthe') /* TEMPLATE_STRING */;

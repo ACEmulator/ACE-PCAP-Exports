@@ -47,7 +47,7 @@ VALUES (30585, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30585, 0, 16792135);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30585, 16, 'Acid Mazule of Blood Drinker') /* LONG_DESC_STRING */;

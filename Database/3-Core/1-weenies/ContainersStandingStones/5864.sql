@@ -37,7 +37,7 @@ VALUES (5864, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5864, 19, True) /* ATTACKABLE_BOOL */
      , (5864, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5864, 16, 'A standing stone. There is a circular indentation in the center, which would seem to form the outline of an amulet or seal.') /* LONG_DESC_STRING */;

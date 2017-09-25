@@ -45,7 +45,7 @@ VALUES (27090, 0, 83886796, 83893258)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27090, 0, 16778363);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27090, 15, 'Never tire and never surrender. ') /* SHORT_DESC_STRING */;

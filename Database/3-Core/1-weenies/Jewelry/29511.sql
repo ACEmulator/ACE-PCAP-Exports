@@ -35,7 +35,7 @@ VALUES (29511, 13, True) /* ETHEREAL_BOOL */
      , (29511, 19, True) /* ATTACKABLE_BOOL */
      , (29511, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29511, 16, 'A medallion embossed with the design of the Red Bull of Sanamar.') /* LONG_DESC_STRING */;

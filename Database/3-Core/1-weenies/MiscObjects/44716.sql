@@ -35,7 +35,7 @@ VALUES (44716, 13, True) /* ETHEREAL_BOOL */
      , (44716, 14, True) /* GRAVITY_STATUS_BOOL */
      , (44716, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44716, 16, 'A gambling token accepted by all Mid-Stakes Gamemasters.') /* LONG_DESC_STRING */;

@@ -89,7 +89,7 @@ VALUES (38423, 12, 16778423)
      , (38423, 4, 16783485)
      , (38423, 8, 16783487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38423, 5, 'Jungle Flower Taskmaster') /* TEMPLATE_STRING */;

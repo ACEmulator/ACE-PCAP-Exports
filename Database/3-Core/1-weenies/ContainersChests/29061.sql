@@ -37,7 +37,7 @@ VALUES (29061, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29061, 19, True) /* ATTACKABLE_BOOL */
      , (29061, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29061, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure.') /* LONG_DESC_STRING */

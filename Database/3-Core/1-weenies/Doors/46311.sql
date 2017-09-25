@@ -33,7 +33,7 @@ VALUES (46311, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (46311, 1, True) /* STUCK_BOOL */
      , (46311, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46311, 19, 0) /* VALUE_INT */;

@@ -92,7 +92,7 @@ VALUES (43741, 15, 16777335)
      , (43741, 14, 16783855)
      , (43741, 16, 16783954);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43741, 5, 'Arcanum Investigator') /* TEMPLATE_STRING */;

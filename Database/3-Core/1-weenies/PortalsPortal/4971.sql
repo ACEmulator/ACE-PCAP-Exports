@@ -33,7 +33,7 @@ VALUES (4971, 13, True) /* ETHEREAL_BOOL */
      , (4971, 19, True) /* ATTACKABLE_BOOL */
      , (4971, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4971, 38, 'Darkened Halls Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

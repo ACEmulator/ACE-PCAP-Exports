@@ -36,7 +36,7 @@ VALUES (30534, 13, True) /* ETHEREAL_BOOL */
      , (30534, 19, True) /* ATTACKABLE_BOOL */
      , (30534, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30534, 16, 'Using a combination of chain, scale and plate armor, these gauntlets are the ultimate in comfort and protection.  They were built to protect the wearer from fire.') /* LONG_DESC_STRING */;

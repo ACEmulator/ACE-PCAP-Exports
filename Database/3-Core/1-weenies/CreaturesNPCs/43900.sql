@@ -94,7 +94,7 @@ VALUES (43900, 12, 16778423)
      , (43900, 4, 16781838)
      , (43900, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43900, 5, 'Alternate Currency Exchanger') /* TEMPLATE_STRING */;

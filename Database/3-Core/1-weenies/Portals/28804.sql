@@ -33,7 +33,7 @@ VALUES (28804, 13, True) /* ETHEREAL_BOOL */
      , (28804, 19, True) /* ATTACKABLE_BOOL */
      , (28804, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28804, 38, 'Ruined Empyrean Vault') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

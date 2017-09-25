@@ -37,7 +37,7 @@ VALUES (44294, 13, True) /* ETHEREAL_BOOL */
      , (44294, 19, True) /* ATTACKABLE_BOOL */
      , (44294, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44294, 16, 'An ancient contract with instructions to enter a Catacomb containing a crystal sword. (Recommended Levels 180+)') /* LONG_DESC_STRING */;

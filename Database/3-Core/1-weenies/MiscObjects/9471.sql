@@ -34,7 +34,7 @@ VALUES (9471, 13, True) /* ETHEREAL_BOOL */
      , (9471, 19, True) /* ATTACKABLE_BOOL */
      , (9471, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9471, 15, 'A Lugian gift, traded in return for the Blade of the Heart') /* SHORT_DESC_STRING */;

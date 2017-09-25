@@ -35,7 +35,7 @@ VALUES (1858, 13, True) /* ETHEREAL_BOOL */
      , (1858, 19, True) /* ATTACKABLE_BOOL */
      , (1858, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1858, 16, 'Inscribed spell: Mana Depletion Other I

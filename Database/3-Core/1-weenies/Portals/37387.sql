@@ -33,7 +33,7 @@ VALUES (37387, 13, True) /* ETHEREAL_BOOL */
      , (37387, 19, True) /* ATTACKABLE_BOOL */
      , (37387, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37387, 16, 'You must be a member of the Society of the Celestial Hand to enter this Portal.') /* LONG_DESC_STRING */

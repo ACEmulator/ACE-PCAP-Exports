@@ -33,7 +33,7 @@ VALUES (30640, 13, True) /* ETHEREAL_BOOL */
      , (30640, 19, True) /* ATTACKABLE_BOOL */
      , (30640, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30640, 16, 'A crude holy symbol fashioned from a Ring of Vines, Murky Gem and Stone Emblem.') /* LONG_DESC_STRING */;

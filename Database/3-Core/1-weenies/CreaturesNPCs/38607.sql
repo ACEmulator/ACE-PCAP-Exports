@@ -89,7 +89,7 @@ VALUES (38607, 12, 16777304)
      , (38607, 4, 16781838)
      , (38607, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38607, 5, 'Dark Isle Scout Taskmaster') /* TEMPLATE_STRING */;

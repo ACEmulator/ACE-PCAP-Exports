@@ -31,7 +31,7 @@ VALUES (29267, 13, True) /* ETHEREAL_BOOL */
      , (29267, 19, True) /* ATTACKABLE_BOOL */
      , (29267, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29267, 16, 'Using this gem will grant you 5% extra experience for each creature you kill.  This does not affect experience received from quests or killing other players.  This extra experience is shared with Fellowships and Allegiances as normal.  This augmentation cannot be repeated.') /* LONG_DESC_STRING */;

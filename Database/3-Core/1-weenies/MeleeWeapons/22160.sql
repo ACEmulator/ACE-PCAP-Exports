@@ -51,7 +51,7 @@ VALUES (22160, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22160, 0, 16788503);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22160, 16, 'Lightning Nabut of Blood Drinker') /* LONG_DESC_STRING */;

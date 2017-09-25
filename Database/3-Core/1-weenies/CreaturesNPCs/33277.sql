@@ -103,7 +103,7 @@ VALUES (33277, 9, 16790004)
      , (33277, 8, 16790002)
      , (33277, 16, 16790005);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33277, 5, 'Shadow Hunter') /* TEMPLATE_STRING */;

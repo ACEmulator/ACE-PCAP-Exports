@@ -51,7 +51,7 @@ VALUES (2588, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2588, 0, 16778356);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2588, 16, 'Flared Shirt of Piercing Protection') /* LONG_DESC_STRING */;

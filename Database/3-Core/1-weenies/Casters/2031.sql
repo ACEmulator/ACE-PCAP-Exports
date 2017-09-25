@@ -40,7 +40,7 @@ VALUES (2031, 13, True) /* ETHEREAL_BOOL */
      , (2031, 19, True) /* ATTACKABLE_BOOL */
      , (2031, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2031, 16, 'A simple but functional sunstone casting staff.  There are suspicious scorch marks on one end.') /* LONG_DESC_STRING */;

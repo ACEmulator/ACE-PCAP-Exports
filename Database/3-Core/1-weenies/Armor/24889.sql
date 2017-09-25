@@ -42,7 +42,7 @@ VALUES (24889, 67114436, 96, 12)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24889, 0, 16789290);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24889, 160, 80) /* WIELD_DIFFICULTY_INT */

@@ -34,7 +34,7 @@ VALUES (36176, 13, True) /* ETHEREAL_BOOL */
      , (36176, 19, True) /* ATTACKABLE_BOOL */
      , (36176, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36176, 2, 62) /* CREATURE_TYPE_INT */

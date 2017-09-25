@@ -31,7 +31,7 @@ VALUES (28890, 13, True) /* ETHEREAL_BOOL */
      , (28890, 19, True) /* ATTACKABLE_BOOL */
      , (28890, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28890, 14, 'Armored skeletal legs can be added to this item.') /* USE_STRING */

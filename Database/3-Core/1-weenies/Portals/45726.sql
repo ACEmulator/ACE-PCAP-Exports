@@ -33,7 +33,7 @@ VALUES (45726, 13, True) /* ETHEREAL_BOOL */
      , (45726, 19, True) /* ATTACKABLE_BOOL */
      , (45726, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45726, 38, 'Shadowy Refuge') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -31,7 +31,7 @@ VALUES (28733, 13, True) /* ETHEREAL_BOOL */
      , (28733, 19, True) /* ATTACKABLE_BOOL */
      , (28733, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28733, 16, 'A severed arm.') /* LONG_DESC_STRING */;

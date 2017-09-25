@@ -90,7 +90,7 @@ VALUES (1079, 12, 16777304)
      , (1079, 8, 16781839)
      , (1079, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1079, 5, 'Peddler') /* TEMPLATE_STRING */;
@@ -122,6 +122,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (1079, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1079, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1079, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1079, 74, 288679) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (1079, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (1079, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (1079, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (1079, 38, 1.55) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1079, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

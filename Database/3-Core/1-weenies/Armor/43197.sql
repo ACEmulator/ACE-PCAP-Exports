@@ -39,7 +39,7 @@ VALUES (43197, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43197, 67116923, 240, 16);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43197, 15, 'A mask crafted from a shard of the mask of the Apostate Grand Director.') /* SHORT_DESC_STRING */;

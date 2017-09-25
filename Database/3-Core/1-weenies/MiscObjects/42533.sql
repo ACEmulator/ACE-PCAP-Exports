@@ -31,7 +31,7 @@ VALUES (42533, 13, True) /* ETHEREAL_BOOL */
      , (42533, 19, True) /* ATTACKABLE_BOOL */
      , (42533, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42533, 16, 'A fancy shaped tree useful for sprucing up any house.') /* LONG_DESC_STRING */

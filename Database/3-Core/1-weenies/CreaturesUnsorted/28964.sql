@@ -38,7 +38,7 @@ VALUES (28964, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28964, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (28964, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28964, 16, 'A well carved bust of Emperor Kellin II. It is masterfully crafted and looks very well made. Jif Loz may know more about this.') /* LONG_DESC_STRING */;

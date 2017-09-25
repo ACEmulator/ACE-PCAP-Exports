@@ -33,7 +33,7 @@ VALUES (32104, 13, True) /* ETHEREAL_BOOL */
      , (32104, 19, True) /* ATTACKABLE_BOOL */
      , (32104, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32104, 38, 'Breached Hive') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

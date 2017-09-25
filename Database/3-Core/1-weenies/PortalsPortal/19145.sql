@@ -33,7 +33,7 @@ VALUES (19145, 13, True) /* ETHEREAL_BOOL */
      , (19145, 19, True) /* ATTACKABLE_BOOL */
      , (19145, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19145, 38, 'Firesong Cottages Portal (38.4N, 26.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -48,7 +48,7 @@ VALUES (61, 0, 83889072, 83886815)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (61, 0, 16778376);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (61, 16, 'Platemail Girth') /* LONG_DESC_STRING */;

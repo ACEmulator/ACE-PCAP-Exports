@@ -85,7 +85,7 @@ VALUES (28682, 12, 16777304)
      , (28682, 14, 16783855)
      , (28682, 16, 16783891);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28682, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;

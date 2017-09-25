@@ -95,7 +95,7 @@ VALUES (43405, 0, 16783897)
      , (43405, 15, 16789333)
      , (43405, 16, 16794540);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43405, 5, 'Seer of the Light Falatacot') /* TEMPLATE_STRING */;

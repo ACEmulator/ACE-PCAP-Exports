@@ -35,7 +35,7 @@ VALUES (5123, 13, True) /* ETHEREAL_BOOL */
      , (5123, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5123, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5123, 16, 'Inuo-Kon Kou''s thin and worn book on magical lights.') /* LONG_DESC_STRING */;

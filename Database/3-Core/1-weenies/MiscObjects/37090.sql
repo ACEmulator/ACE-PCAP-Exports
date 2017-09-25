@@ -31,7 +31,7 @@ VALUES (37090, 13, True) /* ETHEREAL_BOOL */
      , (37090, 19, True) /* ATTACKABLE_BOOL */
      , (37090, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37090, 16, 'This piece of crystal hums faintly.  Its odd structure makes it seem like it was broken from a much larger formation of crystal.') /* LONG_DESC_STRING */;

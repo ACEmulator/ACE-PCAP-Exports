@@ -37,7 +37,7 @@ VALUES (35766, 13, True) /* ETHEREAL_BOOL */
      , (35766, 19, True) /* ATTACKABLE_BOOL */
      , (35766, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35766, 16, 'This atlatl was carved from the giant rib of a monouga, and this origin has given the atlatl an attunement against other monougas.') /* LONG_DESC_STRING */;

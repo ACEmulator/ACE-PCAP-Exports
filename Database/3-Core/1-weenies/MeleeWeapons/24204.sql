@@ -36,7 +36,7 @@ VALUES (24204, 13, True) /* ETHEREAL_BOOL */
      , (24204, 19, True) /* ATTACKABLE_BOOL */
      , (24204, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24204, 15, 'A spear infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* SHORT_DESC_STRING */;

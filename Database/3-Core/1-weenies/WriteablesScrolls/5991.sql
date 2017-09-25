@@ -35,7 +35,7 @@ VALUES (5991, 13, True) /* ETHEREAL_BOOL */
      , (5991, 19, True) /* ATTACKABLE_BOOL */
      , (5991, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5991, 16, 'Inscribed spell: Alchemy Mastery Other VI

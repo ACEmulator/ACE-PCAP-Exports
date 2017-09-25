@@ -33,7 +33,7 @@ VALUES (8520, 13, True) /* ETHEREAL_BOOL */
      , (8520, 19, True) /* ATTACKABLE_BOOL */
      , (8520, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8520, 16, 'A broken silver key. Underneath the tarnish of years, you can see beautiful engravings which call to mind the trees of Ithaenc island.') /* LONG_DESC_STRING */

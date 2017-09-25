@@ -30,7 +30,7 @@ VALUES (34520, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (34520, 19, True) /* ATTACKABLE_BOOL */
      , (34520, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34520, 38, 'Arena 5') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

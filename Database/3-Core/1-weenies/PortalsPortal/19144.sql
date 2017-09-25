@@ -33,7 +33,7 @@ VALUES (19144, 13, True) /* ETHEREAL_BOOL */
      , (19144, 19, True) /* ATTACKABLE_BOOL */
      , (19144, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19144, 38, 'Explorer''s Villas Portal (61.5N, 65.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

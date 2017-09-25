@@ -37,7 +37,7 @@ VALUES (23600, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23600, 19, True) /* ATTACKABLE_BOOL */
      , (23600, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23600, 16, 'A heavy iron chest. There are strange runes carved around the lid.') /* LONG_DESC_STRING */

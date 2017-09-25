@@ -36,7 +36,7 @@ VALUES (5765, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5765, 19, True) /* ATTACKABLE_BOOL */
      , (5765, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5765, 2, 39) /* CREATURE_TYPE_INT */
@@ -44,6 +44,20 @@ VALUES (5765, 2, 39) /* CREATURE_TYPE_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (5765, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5765, 74, 17291) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (5765, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (5765, 76, 0) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (5765, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (5765, 38, 10) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5765, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

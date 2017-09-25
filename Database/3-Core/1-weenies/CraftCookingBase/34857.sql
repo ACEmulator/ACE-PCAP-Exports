@@ -36,7 +36,7 @@ VALUES (34857, 13, True) /* ETHEREAL_BOOL */
      , (34857, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34857, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34857, 16, 'This is a handful of spores from the Tiriun Mushroom.') /* LONG_DESC_STRING */

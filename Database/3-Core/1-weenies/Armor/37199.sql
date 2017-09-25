@@ -45,7 +45,7 @@ VALUES (37199, 67116573, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37199, 0, 16789360);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37199, 16, 'Olthoi Helm of Magic Resistance') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (13097, 13, True) /* ETHEREAL_BOOL */
      , (13097, 19, True) /* ATTACKABLE_BOOL */
      , (13097, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13097, 38, 'Dires'' Door Estates Portal (78.1N, 16.9W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

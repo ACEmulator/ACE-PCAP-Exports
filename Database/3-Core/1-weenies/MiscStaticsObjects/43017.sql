@@ -29,7 +29,7 @@ VALUES (43017, 13, True) /* ETHEREAL_BOOL */
      , (43017, 19, True) /* ATTACKABLE_BOOL */
      , (43017, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43017, 16, 'Usually found in brown and black, most rabbits found in Dereth are peaceful.') /* LONG_DESC_STRING */;

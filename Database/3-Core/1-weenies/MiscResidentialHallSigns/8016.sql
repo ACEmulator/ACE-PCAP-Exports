@@ -35,7 +35,7 @@ VALUES (8016, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8016, 19, True) /* ATTACKABLE_BOOL */
      , (8016, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8016, 14, 'Use the Caulnalain Key on this gate.') /* USE_STRING */;

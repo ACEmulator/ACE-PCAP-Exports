@@ -36,7 +36,7 @@ VALUES (37559, 13, True) /* ETHEREAL_BOOL */
      , (37559, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37559, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37559, 14, 'This may be used as currency with the Royal Quartermaster.') /* USE_STRING */

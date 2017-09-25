@@ -33,7 +33,7 @@ VALUES (22227, 13, True) /* ETHEREAL_BOOL */
      , (22227, 19, True) /* ATTACKABLE_BOOL */
      , (22227, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22227, 38, 'Meditation Gardens Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

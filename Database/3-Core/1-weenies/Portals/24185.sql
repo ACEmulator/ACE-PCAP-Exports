@@ -33,7 +33,7 @@ VALUES (24185, 13, True) /* ETHEREAL_BOOL */
      , (24185, 19, True) /* ATTACKABLE_BOOL */
      , (24185, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24185, 38, 'Heart of Innocence') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

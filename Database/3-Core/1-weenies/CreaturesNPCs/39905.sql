@@ -70,7 +70,7 @@ VALUES (39905, 5, 16794176)
      , (39905, 22, 16777708)
      , (39905, 21, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39905, 5, 'Society Officer') /* TEMPLATE_STRING */;

@@ -40,7 +40,7 @@ VALUES (52739, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52739, 0, 16779994);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52739, 15, 'A stamina kit created by the highly skilled healers of the Societies.') /* SHORT_DESC_STRING */;

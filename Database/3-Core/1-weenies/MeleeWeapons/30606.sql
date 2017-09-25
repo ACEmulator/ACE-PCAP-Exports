@@ -47,7 +47,7 @@ VALUES (30606, 0, 83897173, 83897173);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30606, 0, 16792138);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30606, 16, 'Bastone of Endurance') /* LONG_DESC_STRING */;

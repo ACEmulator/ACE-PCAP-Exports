@@ -33,7 +33,7 @@ VALUES (15185, 13, True) /* ETHEREAL_BOOL */
      , (15185, 19, True) /* ATTACKABLE_BOOL */
      , (15185, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15185, 38, 'Rethux Vale Portal (30.4N, 18.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

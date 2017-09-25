@@ -48,7 +48,7 @@ VALUES (12139, 0, 83892881, 83893325)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12139, 0, 16785361);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12139, 16, 'A helm imbued with the power of the Asteliary Gem.') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (34587, 13, True) /* ETHEREAL_BOOL */
      , (34587, 19, True) /* ATTACKABLE_BOOL */
      , (34587, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34587, 353, 5) /* WEAPON_TYPE_INT */

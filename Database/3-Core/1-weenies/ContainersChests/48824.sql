@@ -49,7 +49,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48824, 0, 16778639)
      , (48824, 1, 16778642);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48824, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;

@@ -31,7 +31,7 @@ VALUES (28983, 13, True) /* ETHEREAL_BOOL */
      , (28983, 19, True) /* ATTACKABLE_BOOL */
      , (28983, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28983, 15, 'A hand-written journal written in a language that you cannot decipher.') /* SHORT_DESC_STRING */;

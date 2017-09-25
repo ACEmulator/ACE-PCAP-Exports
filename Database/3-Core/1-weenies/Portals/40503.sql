@@ -33,7 +33,7 @@ VALUES (40503, 13, True) /* ETHEREAL_BOOL */
      , (40503, 19, True) /* ATTACKABLE_BOOL */
      , (40503, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40503, 16, 'This portal leads to the headquarters of the Apostate Citadel.') /* LONG_DESC_STRING */

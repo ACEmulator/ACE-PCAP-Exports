@@ -37,7 +37,7 @@ VALUES (25725, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25725, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (25725, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25725, 15, 'A torch.') /* SHORT_DESC_STRING */;

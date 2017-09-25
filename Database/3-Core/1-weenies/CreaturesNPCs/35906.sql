@@ -90,7 +90,7 @@ VALUES (35906, 2, 16778436)
      , (35906, 15, 16789333)
      , (35906, 12, 16789332);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35906, 5, 'Olthoi Shield Crafter') /* TEMPLATE_STRING */;

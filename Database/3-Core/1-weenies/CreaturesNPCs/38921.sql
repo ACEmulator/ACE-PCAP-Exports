@@ -84,7 +84,7 @@ VALUES (38921, 12, 16777304)
      , (38921, 13, 16783871)
      , (38921, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38921, 5, 'Pristine Mana Shard Collector') /* TEMPLATE_STRING */;

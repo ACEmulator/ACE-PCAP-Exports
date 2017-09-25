@@ -34,7 +34,7 @@ VALUES (35565, 13, True) /* ETHEREAL_BOOL */
      , (35565, 19, True) /* ATTACKABLE_BOOL */
      , (35565, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35565, 16, 'A translation of the Virindi Message Shard retrieved from the Virindi Archivist, detailing observations on the altered Banderling, Harraag.') /* LONG_DESC_STRING */;

@@ -42,7 +42,7 @@ VALUES (33956, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33956, 0, 16783974);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33956, 16, 'A crystal of Acidic Elemental Essence.') /* LONG_DESC_STRING */;

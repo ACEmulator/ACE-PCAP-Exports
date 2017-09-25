@@ -88,7 +88,7 @@ VALUES (30031, 12, 16777304)
      , (30031, 8, 16777298)
      , (30031, 16, 16785776);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30031, 5, 'Fletcher') /* TEMPLATE_STRING */;
@@ -110,6 +110,20 @@ VALUES (30031, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30031, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30031, 74, 262401) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (30031, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (30031, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30031, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (30031, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30031, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

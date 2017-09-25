@@ -35,7 +35,7 @@ VALUES (29108, 13, True) /* ETHEREAL_BOOL */
      , (29108, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29108, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29108, 16, 'Do not drink this.') /* LONG_DESC_STRING */

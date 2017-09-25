@@ -35,7 +35,7 @@ VALUES (49458, 13, True) /* ETHEREAL_BOOL */
      , (49458, 19, True) /* ATTACKABLE_BOOL */
      , (49458, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49458, 16, 'Inscribed spell: Summoning Ineptitude Other III

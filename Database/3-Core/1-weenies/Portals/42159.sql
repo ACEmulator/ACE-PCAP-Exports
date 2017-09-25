@@ -34,7 +34,7 @@ VALUES (42159, 13, True) /* ETHEREAL_BOOL */
      , (42159, 19, True) /* ATTACKABLE_BOOL */
      , (42159, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42159, 16, 'A portal leading to Glendon Wood where the Platemail Hauberk of the Ogre may be found.') /* LONG_DESC_STRING */

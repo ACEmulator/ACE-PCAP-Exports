@@ -34,7 +34,7 @@ VALUES (38613, 13, True) /* ETHEREAL_BOOL */
      , (38613, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38613, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38613, 16, 'A piece of coral, black with a faint glowing aura around it.') /* LONG_DESC_STRING */

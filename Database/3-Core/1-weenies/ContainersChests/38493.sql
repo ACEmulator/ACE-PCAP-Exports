@@ -36,7 +36,7 @@ VALUES (38493, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38493, 19, True) /* ATTACKABLE_BOOL */
      , (38493, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38493, 16, 'A Society Reward Chest, containing a randomly enchanted set of Celestial Hand Gauntlets.') /* LONG_DESC_STRING */;

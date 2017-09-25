@@ -33,7 +33,7 @@ VALUES (1015, 13, True) /* ETHEREAL_BOOL */
      , (1015, 19, True) /* ATTACKABLE_BOOL */
      , (1015, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1015, 38, 'Cragstone Portal (26.0N, 48.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

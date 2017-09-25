@@ -56,7 +56,7 @@ VALUES (8896, 0, 83887061, 83892990)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8896, 0, 16778356);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8896, 15, 'Coat crafted from the hide of a Mattekar, and energized by Yi Yo-Jin.') /* SHORT_DESC_STRING */;

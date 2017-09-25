@@ -84,7 +84,7 @@ VALUES (35853, 12, 16777304)
      , (35853, 13, 16783871)
      , (35853, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35853, 5, 'Dowser') /* TEMPLATE_STRING */;

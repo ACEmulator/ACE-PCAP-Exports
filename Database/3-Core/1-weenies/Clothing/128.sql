@@ -48,7 +48,7 @@ VALUES (128, 0, 83888783, 83888783)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (128, 0, 16778378);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (128, 16, 'Qafiya of Dual Wield Mastery') /* LONG_DESC_STRING */;

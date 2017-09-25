@@ -37,7 +37,7 @@ VALUES (21973, 13, True) /* ETHEREAL_BOOL */
      , (21973, 19, True) /* ATTACKABLE_BOOL */
      , (21973, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21973, 16, 'A glyph with the image of a bow emblazoned upon it.') /* LONG_DESC_STRING */

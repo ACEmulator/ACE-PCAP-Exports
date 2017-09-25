@@ -53,7 +53,7 @@ VALUES (40636, 0, 83897334, 83897334)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40636, 0, 16794240);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40636, 16, 'Acid Tetsubo of Blood Drinker') /* LONG_DESC_STRING */;

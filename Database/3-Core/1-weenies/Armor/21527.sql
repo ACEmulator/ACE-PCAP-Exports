@@ -46,7 +46,7 @@ VALUES (21527, 0, 83894177, 83894177)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21527, 0, 16788079);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21527, 15, 'A black breastplate carved out of obsidian.') /* SHORT_DESC_STRING */;

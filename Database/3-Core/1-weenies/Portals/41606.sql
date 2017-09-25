@@ -33,7 +33,7 @@ VALUES (41606, 13, True) /* ETHEREAL_BOOL */
      , (41606, 19, True) /* ATTACKABLE_BOOL */
      , (41606, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41606, 38, 'Gearknight Lord''s Tower (36.7S, 6.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

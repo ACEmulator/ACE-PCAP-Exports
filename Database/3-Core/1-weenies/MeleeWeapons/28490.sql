@@ -40,7 +40,7 @@ VALUES (28490, 13, True) /* ETHEREAL_BOOL */
      , (28490, 19, True) /* ATTACKABLE_BOOL */
      , (28490, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28490, 160, 300) /* WIELD_DIFFICULTY_INT */

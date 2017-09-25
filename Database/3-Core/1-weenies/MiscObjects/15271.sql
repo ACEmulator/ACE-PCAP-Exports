@@ -49,7 +49,7 @@ VALUES (15271, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15271, 0, 16778611);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15271, 15, 'A foci used to cast spells from the School of the Arm.') /* SHORT_DESC_STRING */;

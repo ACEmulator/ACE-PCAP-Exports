@@ -35,7 +35,7 @@ VALUES (8953, 13, True) /* ETHEREAL_BOOL */
      , (8953, 19, True) /* ATTACKABLE_BOOL */
      , (8953, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8953, 16, 'Inscribed spell: Whirling Blade Streak I

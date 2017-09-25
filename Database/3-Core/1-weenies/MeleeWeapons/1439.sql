@@ -35,7 +35,7 @@ VALUES (1439, 13, True) /* ETHEREAL_BOOL */
      , (1439, 19, True) /* ATTACKABLE_BOOL */
      , (1439, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1439, 16, 'A double-headed battle axe, dripping with vitriol. The handle appears to be made of ivory inlaid with tourmaline.') /* LONG_DESC_STRING */;

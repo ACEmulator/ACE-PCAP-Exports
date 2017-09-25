@@ -39,7 +39,7 @@ VALUES (8232, 0, 83892725, 83892724);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8232, 0, 16784961);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8232, 16, 'A bright orange, hefty round pumpkin, sturdy and thick-shelled.') /* LONG_DESC_STRING */

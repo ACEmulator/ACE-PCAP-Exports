@@ -84,7 +84,7 @@ VALUES (2537, 10, 16778431)
      , (2537, 4, 16778426)
      , (2537, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2537, 5, 'Archmage') /* TEMPLATE_STRING */;
@@ -116,6 +116,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (2537, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2537, 128, 175) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2537, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2537, 74, 831488) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (2537, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (2537, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2537, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (2537, 38, 1.55) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2537, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

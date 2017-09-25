@@ -36,7 +36,7 @@ VALUES (25501, 13, True) /* ETHEREAL_BOOL */
      , (25501, 19, True) /* ATTACKABLE_BOOL */
      , (25501, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25501, 16, 'An acid mace crafted by the Renegades. The head appears to have been skillfully carved out and the cavity contains elemental acid. Despite it''s delicate look the mace is unusually strong and resilient.') /* LONG_DESC_STRING */;

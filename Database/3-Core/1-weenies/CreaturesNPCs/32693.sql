@@ -75,7 +75,7 @@ VALUES (32693, 12, 16777304)
      , (32693, 13, 16791903)
      , (32693, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32693, 5, 'Royal Agent') /* TEMPLATE_STRING */;

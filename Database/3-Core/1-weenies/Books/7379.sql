@@ -34,7 +34,7 @@ VALUES (7379, 13, True) /* ETHEREAL_BOOL */
      , (7379, 14, True) /* GRAVITY_STATUS_BOOL */
      , (7379, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7379, 16, 'A hastily jotted note in the flowing script of Yalain. The paper is singed and crumbling from exposure to the heat of Mount Tenkarrdun.') /* LONG_DESC_STRING */;

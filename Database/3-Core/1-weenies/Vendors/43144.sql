@@ -36,7 +36,7 @@ VALUES (43144, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43144, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (43144, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43144, 5, 'Gear Knight Quartermaster') /* TEMPLATE_STRING */;
@@ -58,6 +58,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (43144, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (43144, 128, 466) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (43144, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43144, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (43144, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (43144, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43144, 37, 1) /* BUY_PRICE_FLOAT */
+     , (43144, 38, 1) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43144, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

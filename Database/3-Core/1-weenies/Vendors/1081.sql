@@ -91,7 +91,7 @@ VALUES (1081, 12, 16778423)
      , (1081, 8, 16783487)
      , (1081, 16, 16779635);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1081, 5, 'Jeweler') /* TEMPLATE_STRING */;
@@ -123,6 +123,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (1081, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1081, 128, 220) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1081, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1081, 74, 264328) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (1081, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (1081, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (1081, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (1081, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1081, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

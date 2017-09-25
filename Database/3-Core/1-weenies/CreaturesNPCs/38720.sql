@@ -89,7 +89,7 @@ VALUES (38720, 12, 16777304)
      , (38720, 4, 16781838)
      , (38720, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38720, 5, 'Society Officer') /* TEMPLATE_STRING */;

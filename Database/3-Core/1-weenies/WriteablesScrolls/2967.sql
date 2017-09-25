@@ -35,7 +35,7 @@ VALUES (2967, 13, True) /* ETHEREAL_BOOL */
      , (2967, 19, True) /* ATTACKABLE_BOOL */
      , (2967, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2967, 16, 'Inscribed spell: Shock Wave VI

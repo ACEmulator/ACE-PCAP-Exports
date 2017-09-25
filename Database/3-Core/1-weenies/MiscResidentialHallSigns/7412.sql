@@ -34,7 +34,7 @@ VALUES (7412, 13, True) /* ETHEREAL_BOOL */
      , (7412, 19, True) /* ATTACKABLE_BOOL */
      , (7412, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7412, 16, 'A heavy titanium bar, used in pyreal forging mechanisms.') /* LONG_DESC_STRING */;

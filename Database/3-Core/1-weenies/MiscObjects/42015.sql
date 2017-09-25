@@ -30,7 +30,7 @@ VALUES (42015, 13, True) /* ETHEREAL_BOOL */
      , (42015, 14, True) /* GRAVITY_STATUS_BOOL */
      , (42015, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42015, 15, 'The crystallized flames from the southeast tower of Mhoire Castle.') /* SHORT_DESC_STRING */;

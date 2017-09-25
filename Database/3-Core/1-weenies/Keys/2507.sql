@@ -34,7 +34,7 @@ VALUES (2507, 13, True) /* ETHEREAL_BOOL */
      , (2507, 19, True) /* ATTACKABLE_BOOL */
      , (2507, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2507, 16, 'This key holds the misshapen figures of beasts and people.  It is used somewhere in the Swamp Temple of the Direlands.') /* LONG_DESC_STRING */

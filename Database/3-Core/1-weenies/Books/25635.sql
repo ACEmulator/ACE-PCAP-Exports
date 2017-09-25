@@ -34,7 +34,7 @@ VALUES (25635, 13, True) /* ETHEREAL_BOOL */
      , (25635, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25635, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25635, 16, 'An interesting note found in the Elemental Caverns.') /* LONG_DESC_STRING */;

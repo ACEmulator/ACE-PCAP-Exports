@@ -57,7 +57,7 @@ VALUES (9241, 0, 16784627)
      , (9241, 4, 16781840)
      , (9241, 5, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9241, 16, 'A pair of shaggy boots, sewn and laced with the cured hide of an Ursuin.') /* LONG_DESC_STRING */;

@@ -84,7 +84,7 @@ VALUES (43063, 12, 16778423)
      , (43063, 13, 16783871)
      , (43063, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43063, 5, 'Olthoi War Wand Crafter') /* TEMPLATE_STRING */;

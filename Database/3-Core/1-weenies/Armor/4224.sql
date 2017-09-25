@@ -51,7 +51,7 @@ VALUES (4224, 0, 83887061, 83894794)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4224, 0, 16778356);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4224, 15, 'Coat crafted from the hide of an Armoredillo.') /* SHORT_DESC_STRING */;

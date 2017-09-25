@@ -32,7 +32,7 @@ VALUES (12705, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12705, 19, True) /* ATTACKABLE_BOOL */
      , (12705, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12705, 14, 'Double-click on these doors to open them.') /* USE_STRING */;

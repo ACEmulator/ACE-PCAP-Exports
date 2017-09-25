@@ -35,7 +35,7 @@ VALUES (43343, 13, True) /* ETHEREAL_BOOL */
      , (43343, 19, True) /* ATTACKABLE_BOOL */
      , (43343, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43343, 16, 'Inscribed spell: Weakening Curse VI

@@ -47,7 +47,7 @@ VALUES (36659, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36659, 0, 16792609);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36659, 15, 'A beautifully crafted hammer of metal and stone.') /* SHORT_DESC_STRING */;

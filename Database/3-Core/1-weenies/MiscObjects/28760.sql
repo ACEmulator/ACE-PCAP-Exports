@@ -30,7 +30,7 @@ VALUES (28760, 13, True) /* ETHEREAL_BOOL */
      , (28760, 19, True) /* ATTACKABLE_BOOL */
      , (28760, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28760, 16, 'The heart of the warrior Eleonora.') /* LONG_DESC_STRING */;

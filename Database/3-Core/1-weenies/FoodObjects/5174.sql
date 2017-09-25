@@ -33,7 +33,7 @@ VALUES (5174, 13, True) /* ETHEREAL_BOOL */
      , (5174, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5174, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5174, 16, 'A Cove Apple pie baked by Mara al-Luq, with healing properties.') /* LONG_DESC_STRING */

@@ -45,7 +45,7 @@ VALUES (4229, 0, 83887064, 83889914)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4229, 0, 16778829);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4229, 15, 'Leggings crafted from the hide of a Reed Shark.') /* SHORT_DESC_STRING */;

@@ -46,7 +46,7 @@ VALUES (27228, 0, 83894336, 83895223);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27228, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27228, 16, 'Nariyid Gauntlets of Coordination') /* LONG_DESC_STRING */;

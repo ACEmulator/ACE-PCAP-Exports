@@ -33,7 +33,7 @@ VALUES (32669, 13, True) /* ETHEREAL_BOOL */
      , (32669, 19, True) /* ATTACKABLE_BOOL */
      , (32669, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32669, 14, 'You can use this pennant on roof and yard hooks. ') /* USE_STRING */

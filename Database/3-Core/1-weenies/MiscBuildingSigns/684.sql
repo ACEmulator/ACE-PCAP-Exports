@@ -36,7 +36,7 @@ VALUES (684, 0, 83891055, 83889857);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (684, 0, 16780409);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (684, 16, 'Gondibyr Langarl''s Magic Supplies') /* LONG_DESC_STRING */;

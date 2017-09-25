@@ -33,7 +33,7 @@ VALUES (36698, 13, True) /* ETHEREAL_BOOL */
      , (36698, 19, True) /* ATTACKABLE_BOOL */
      , (36698, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36698, 38, 'Trials of the Arm, Mind and Heart') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

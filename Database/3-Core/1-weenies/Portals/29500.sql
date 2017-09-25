@@ -33,7 +33,7 @@ VALUES (29500, 13, True) /* ETHEREAL_BOOL */
      , (29500, 19, True) /* ATTACKABLE_BOOL */
      , (29500, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29500, 38, 'Karlun''s Fort (88.8N, 67.9W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

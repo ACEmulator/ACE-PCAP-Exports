@@ -37,7 +37,7 @@ VALUES (27476, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27476, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (27476, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27476, 16, 'Orders and other papers are scattered about this table, including a thick folder with what appear to be blueprints.') /* LONG_DESC_STRING */;

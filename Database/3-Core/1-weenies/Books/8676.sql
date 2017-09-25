@@ -33,7 +33,7 @@ VALUES (8676, 13, True) /* ETHEREAL_BOOL */
      , (8676, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8676, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8676, 15, 'A book listing Agents of the Society across the land of Dereth') /* SHORT_DESC_STRING */;

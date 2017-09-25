@@ -89,7 +89,7 @@ VALUES (51276, 12, 16777304)
      , (51276, 4, 16781838)
      , (51276, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51276, 5, 'Gearknight Parts Taskmaster') /* TEMPLATE_STRING */;

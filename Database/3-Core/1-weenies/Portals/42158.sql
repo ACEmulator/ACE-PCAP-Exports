@@ -34,7 +34,7 @@ VALUES (42158, 13, True) /* ETHEREAL_BOOL */
      , (42158, 19, True) /* ATTACKABLE_BOOL */
      , (42158, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42158, 16, 'A portal leading to the Folthid Estate where the Dull Dagger and Dagger of Tikola may be found.') /* LONG_DESC_STRING */

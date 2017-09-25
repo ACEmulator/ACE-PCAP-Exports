@@ -39,7 +39,7 @@ VALUES (29909, 13, True) /* ETHEREAL_BOOL */
      , (29909, 19, True) /* ATTACKABLE_BOOL */
      , (29909, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29909, 16, 'A beautifully detailed okane crafted from the claw of a Badlands Siraluun.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (30658, 13, True) /* ETHEREAL_BOOL */
      , (30658, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30658, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30658, 16, 'Give these instructions to the Drudge Flying Machine in order to fly it.') /* LONG_DESC_STRING */;

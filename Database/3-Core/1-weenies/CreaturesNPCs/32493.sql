@@ -81,7 +81,7 @@ VALUES (32493, 0, 16783894)
      , (32493, 13, 16788208)
      , (32493, 14, 16788202);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32493, 5, 'Tormented Soul') /* TEMPLATE_STRING */;

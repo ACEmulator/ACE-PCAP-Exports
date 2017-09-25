@@ -44,7 +44,7 @@ VALUES (41748, 0, 83887061, 83898048)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41748, 0, 16779351);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41748, 16, 'A limited-edition shirt made available in the Night Club dungeon for the 10th anniversary of Asheron''s Call.') /* LONG_DESC_STRING */;

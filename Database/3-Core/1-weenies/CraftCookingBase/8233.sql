@@ -40,7 +40,7 @@ VALUES (8233, 0, 83892151, 83892724);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8233, 0, 16783329);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8233, 14, 'This item is used in cooking.') /* USE_STRING */

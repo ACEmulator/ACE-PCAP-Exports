@@ -102,7 +102,7 @@ VALUES (49584, 12, 16778423)
      , (49584, 21, 16777708)
      , (49584, 22, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49584, 5, 'Seeker of Ancient Knowledge') /* TEMPLATE_STRING */;

@@ -37,7 +37,7 @@ VALUES (27906, 13, True) /* ETHEREAL_BOOL */
      , (27906, 19, True) /* ATTACKABLE_BOOL */
      , (27906, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27906, 16, 'A mace crafted to look like the Mosswart relic, The Hand of Vagurat. A small stamp on the hilt reads: A Ketnan Product.') /* LONG_DESC_STRING */;

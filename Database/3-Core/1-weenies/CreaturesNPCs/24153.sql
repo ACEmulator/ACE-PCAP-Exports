@@ -92,7 +92,7 @@ VALUES (24153, 12, 16778423)
      , (24153, 8, 16781859)
      , (24153, 16, 16778476);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24153, 5, 'Grieving Wife') /* TEMPLATE_STRING */;

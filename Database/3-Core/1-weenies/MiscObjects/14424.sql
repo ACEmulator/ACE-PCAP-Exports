@@ -36,7 +36,7 @@ VALUES (14424, 0, 83888861, 83893866);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14424, 0, 16787544);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14424, 16, 'A Glass Spherule. A strange substance seems to be swirling inside it. You cannot divine its use.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (20961, 13, True) /* ETHEREAL_BOOL */
      , (20961, 14, True) /* GRAVITY_STATUS_BOOL */
      , (20961, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20961, 16, 'A list of trophies that Josef thinks will please Martine.') /* LONG_DESC_STRING */;

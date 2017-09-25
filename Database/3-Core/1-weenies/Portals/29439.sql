@@ -33,7 +33,7 @@ VALUES (29439, 13, True) /* ETHEREAL_BOOL */
      , (29439, 19, True) /* ATTACKABLE_BOOL */
      , (29439, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29439, 38, 'Silver Legion Keep') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

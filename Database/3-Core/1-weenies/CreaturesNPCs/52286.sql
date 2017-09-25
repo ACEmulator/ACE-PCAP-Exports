@@ -81,7 +81,7 @@ VALUES (52286, 5, 16795222)
      , (52286, 8, 16795224)
      , (52286, 16, 16795218);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52286, 5, 'Crystal Hunter') /* TEMPLATE_STRING */;

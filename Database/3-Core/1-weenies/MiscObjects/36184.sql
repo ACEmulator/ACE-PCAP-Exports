@@ -43,7 +43,7 @@ VALUES (36184, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36184, 0, 16778735);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36184, 16, 'A vial of swirling dark blood collected from the Prodigal Harbinger.') /* LONG_DESC_STRING */;

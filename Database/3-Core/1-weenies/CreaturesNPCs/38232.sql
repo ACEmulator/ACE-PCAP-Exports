@@ -93,7 +93,7 @@ VALUES (38232, 12, 16777304)
      , (38232, 4, 16781838)
      , (38232, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38232, 5, 'Society Officer') /* TEMPLATE_STRING */;

@@ -37,7 +37,7 @@ VALUES (3870, 13, True) /* ETHEREAL_BOOL */
      , (3870, 19, True) /* ATTACKABLE_BOOL */
      , (3870, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3870, 16, 'Finely crafted Gold Lightning Simi , set with 1 Zircon') /* LONG_DESC_STRING */;

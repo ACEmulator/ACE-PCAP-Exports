@@ -89,7 +89,7 @@ VALUES (6890, 12, 16778423)
      , (6890, 4, 16778426)
      , (6890, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6890, 5, 'Poet') /* TEMPLATE_STRING */;

@@ -51,7 +51,7 @@ VALUES (29447, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29447, 0, 16779181);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29447, 16, 'A gem that opens a portal to the Silver Ward of Corcima Castle.') /* LONG_DESC_STRING */

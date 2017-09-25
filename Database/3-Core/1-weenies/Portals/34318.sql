@@ -33,7 +33,7 @@ VALUES (34318, 13, True) /* ETHEREAL_BOOL */
      , (34318, 19, True) /* ATTACKABLE_BOOL */
      , (34318, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34318, 16, 'This dungeon is quest-restricted.  See Hasin Lin in Sawato for more information.') /* LONG_DESC_STRING */

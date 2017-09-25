@@ -36,7 +36,7 @@ VALUES (24067, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24067, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (24067, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24067, 16, 'A sword on a glowing dais.') /* LONG_DESC_STRING */;

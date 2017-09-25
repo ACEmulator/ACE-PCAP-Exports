@@ -31,7 +31,7 @@ VALUES (27436, 13, True) /* ETHEREAL_BOOL */
      , (27436, 19, True) /* ATTACKABLE_BOOL */
      , (27436, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27436, 15, 'Give this token to a member of the Guild of Bestowers, and they will grant you the title of "Philanthropist".') /* SHORT_DESC_STRING */;

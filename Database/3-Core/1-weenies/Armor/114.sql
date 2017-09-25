@@ -46,7 +46,7 @@ VALUES (114, 0, 83886788, 83886797);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (114, 0, 16778411);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (114, 16, 'Platemail Vambraces of Magic Resistance') /* LONG_DESC_STRING */;

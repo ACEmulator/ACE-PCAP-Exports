@@ -40,7 +40,7 @@ VALUES (34991, 13, True) /* ETHEREAL_BOOL */
      , (34991, 19, True) /* ATTACKABLE_BOOL */
      , (34991, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34991, 16, 'This normal Burun staff has had mucor-altered opal applied to it, resulting in a magically enhanced staff with unique magical properties.') /* LONG_DESC_STRING */;

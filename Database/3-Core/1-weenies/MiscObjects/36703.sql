@@ -38,7 +38,7 @@ VALUES (36703, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36703, 67111956, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36703, 16, 'A massive white Mattekar hide. It appears pristine, almost as if it was removed from the creature by magic.') /* LONG_DESC_STRING */;

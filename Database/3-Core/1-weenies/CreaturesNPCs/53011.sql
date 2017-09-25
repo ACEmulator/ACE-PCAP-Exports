@@ -41,7 +41,7 @@ VALUES (53011, 13, True) /* ETHEREAL_BOOL */
      , (53011, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (53011, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (53011, 16, 'Fallen shards of amber imbedded in the ground. You will need to infuse the shards with Viridian Essence to harvest the infused amber within.') /* LONG_DESC_STRING */;

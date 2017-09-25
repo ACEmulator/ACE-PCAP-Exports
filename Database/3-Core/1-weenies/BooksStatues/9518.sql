@@ -75,7 +75,7 @@ VALUES (9518, 0, 16781842)
      , (9518, 14, 16781813)
      , (9518, 15, 16777335);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9518, 16, 'A memorial to those who served.') /* LONG_DESC_STRING */

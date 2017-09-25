@@ -29,7 +29,7 @@ VALUES (15262, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15262, 19, True) /* ATTACKABLE_BOOL */
      , (15262, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15262, 16, 'Welcome to Thyrinn Cant Cottages') /* LONG_DESC_STRING */;

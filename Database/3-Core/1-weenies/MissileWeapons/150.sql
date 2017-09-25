@@ -52,7 +52,7 @@ VALUES (150, 0, 83889815, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (150, 0, 16779989);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (150, 16, 'Flagon of Arcanum Salvaging') /* LONG_DESC_STRING */;

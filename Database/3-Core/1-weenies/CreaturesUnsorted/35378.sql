@@ -60,7 +60,7 @@ VALUES (35378, 2, 16792427)
      , (35378, 14, 16792451)
      , (35378, 16, 16792458);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35378, 5, 'Cursed Lord of House Mhoire') /* TEMPLATE_STRING */;

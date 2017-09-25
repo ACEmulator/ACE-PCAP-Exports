@@ -34,7 +34,7 @@ VALUES (2505, 13, True) /* ETHEREAL_BOOL */
      , (2505, 19, True) /* ATTACKABLE_BOOL */
      , (2505, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2505, 16, 'On the surface, a plain, non-descript key.  Closer examination reveals a faint, intricate geometric pattern nearly worn away.') /* LONG_DESC_STRING */

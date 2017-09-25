@@ -51,7 +51,7 @@ VALUES (22162, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22162, 0, 16788503);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22162, 16, 'Frost Nabut of Swiftkiller') /* LONG_DESC_STRING */;

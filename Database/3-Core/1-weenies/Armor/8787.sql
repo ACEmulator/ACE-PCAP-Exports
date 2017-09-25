@@ -43,7 +43,7 @@ VALUES (8787, 67110556, 240, 10);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8787, 0, 16785361);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8787, 16, 'A magical heaume taken from a Shadow in the Heart of Darkness dungeon.') /* LONG_DESC_STRING */;

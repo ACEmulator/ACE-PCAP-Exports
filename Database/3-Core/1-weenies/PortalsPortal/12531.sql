@@ -33,7 +33,7 @@ VALUES (12531, 13, True) /* ETHEREAL_BOOL */
      , (12531, 19, True) /* ATTACKABLE_BOOL */
      , (12531, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12531, 38, 'North Adjamaer Cottages Portal (76.0S, 53.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

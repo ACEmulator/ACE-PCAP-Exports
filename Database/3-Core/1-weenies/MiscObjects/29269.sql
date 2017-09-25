@@ -31,7 +31,7 @@ VALUES (29269, 13, True) /* ETHEREAL_BOOL */
      , (29269, 19, True) /* ATTACKABLE_BOOL */
      , (29269, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29269, 16, 'Using this gem will grant you limited protection from critical hits.  With this augmentation, 25% of critical hits from creatures and 5% of critical hits from players will strike you for normal damage.  This augmentation cannot be repeated.') /* LONG_DESC_STRING */;

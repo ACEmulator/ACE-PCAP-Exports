@@ -31,7 +31,7 @@ VALUES (51922, 13, True) /* ETHEREAL_BOOL */
      , (51922, 19, True) /* ATTACKABLE_BOOL */
      , (51922, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51922, 16, 'A sealed scroll given to you by Commander Presk. Deliver this to Raksaa located on the Obsidian Plains.') /* LONG_DESC_STRING */;

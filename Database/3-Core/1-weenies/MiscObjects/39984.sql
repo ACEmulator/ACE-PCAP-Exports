@@ -32,7 +32,7 @@ VALUES (39984, 13, True) /* ETHEREAL_BOOL */
      , (39984, 14, True) /* GRAVITY_STATUS_BOOL */
      , (39984, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39984, 16, 'A trophy granted for the completion of any number of tasks.') /* LONG_DESC_STRING */

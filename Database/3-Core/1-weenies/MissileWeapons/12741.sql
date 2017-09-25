@@ -60,7 +60,7 @@ VALUES (12741, 0, 16777708)
      , (12741, 7, 16779363)
      , (12741, 8, 16779364);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12741, 14, 'Use Oil of Rendering on this weapon to create an Academy Shortbow.') /* USE_STRING */

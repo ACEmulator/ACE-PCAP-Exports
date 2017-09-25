@@ -34,7 +34,7 @@ VALUES (28858, 13, True) /* ETHEREAL_BOOL */
      , (28858, 19, True) /* ATTACKABLE_BOOL */
      , (28858, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28858, 16, 'A finely-built armored skeleton costume.') /* LONG_DESC_STRING */;

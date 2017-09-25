@@ -91,7 +91,7 @@ VALUES (42618, 3, 16777292)
      , (42618, 14, 16783855)
      , (42618, 16, 16783901);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42618, 5, 'Arcanum Portalmancer') /* TEMPLATE_STRING */;

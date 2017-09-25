@@ -33,7 +33,7 @@ VALUES (24435, 13, True) /* ETHEREAL_BOOL */
      , (24435, 19, True) /* ATTACKABLE_BOOL */
      , (24435, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24435, 38, 'Matron Hive South') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -33,7 +33,7 @@ VALUES (43000, 13, True) /* ETHEREAL_BOOL */
      , (43000, 19, True) /* ATTACKABLE_BOOL */
      , (43000, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43000, 16, 'This portal goes to Timaru, the home of the Aun Tumeroks atop the Marescent Plateau of Marae Lassel. This is a good town for characters over level 40.') /* LONG_DESC_STRING */

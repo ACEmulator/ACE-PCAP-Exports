@@ -32,11 +32,32 @@ VALUES (20853, 13, True) /* ETHEREAL_BOOL */
      , (20853, 19, True) /* ATTACKABLE_BOOL */
      , (20853, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20853, 16, 'The current maintenance has been paid.
 You must be a monarch to purchase and maintain this dwelling.
 Restricted to characters of allegiance rank 6 or greater.
 ') /* LONG_DESC_STRING */;
+
+/* Slumlord Extended Properties */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20853, 155, 3) /* HOUSE_TYPE_INT */
+     , (20853, 149, 3) /* HOUSE_STATUS_INT */
+     , (20853, 86, 50) /* MIN_LEVEL_INT */
+     , (20853, 163, 6) /* ALLEGIANCE_MIN_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20853, 4, False) /* ROT_PROOF_BOOL */;
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
+VALUES (20853, 16, 273, 10000000) /* Pyreal */
+     , (20853, 16, 11710, 20) /* Writ of Refuge */
+     , (20853, 16, 9511, 20) /* Golden Gromnie */
+     , (20853, 16, 45875, 15) /* Lucky Gold Letter */
+     , (20853, 16, 8425, 7) /* Idol Gem */
+     , (20853, 16, 9413, 2) /* Dread Mattekar Paw */
+     , (20853, 32, 273, 1000000) /* Pyreal */
+     , (20853, 32, 11710, 10) /* Writ of Refuge */;
 

@@ -87,7 +87,7 @@ VALUES (979, 10, 16778431)
      , (979, 8, 16783487)
      , (979, 16, 16778476);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (979, 5, 'Healer') /* TEMPLATE_STRING */;
@@ -109,6 +109,20 @@ VALUES (979, 113, 2) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (979, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (979, 74, 262272) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (979, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (979, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (979, 37, 0.95) /* BUY_PRICE_FLOAT */
+     , (979, 38, 1.25) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (979, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

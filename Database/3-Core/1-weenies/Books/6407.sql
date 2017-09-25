@@ -35,7 +35,7 @@ VALUES (6407, 13, True) /* ETHEREAL_BOOL */
      , (6407, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6407, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6407, 16, 'A book which shows a number of weaponry diagrams. It is printed in the High Empyrean language of the Era of Lore.') /* LONG_DESC_STRING */;

@@ -34,7 +34,7 @@ VALUES (28503, 13, True) /* ETHEREAL_BOOL */
      , (28503, 19, True) /* ATTACKABLE_BOOL */
      , (28503, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28503, 16, 'A crate meant to hold golem hearts. The first two chambers of this crate are filled with a granite heart and a copper heart. The third chamber appears to be set for an Obsidian Golem heart.') /* LONG_DESC_STRING */

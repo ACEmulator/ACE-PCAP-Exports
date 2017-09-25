@@ -33,7 +33,7 @@ VALUES (51763, 13, True) /* ETHEREAL_BOOL */
      , (51763, 19, True) /* ATTACKABLE_BOOL */
      , (51763, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51763, 38, 'Spirited Halls') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

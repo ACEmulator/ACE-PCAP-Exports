@@ -87,7 +87,7 @@ VALUES (38692, 12, 16777304)
      , (38692, 4, 16777291)
      , (38692, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38692, 5, 'Society Shopkeep') /* TEMPLATE_STRING */;
@@ -109,6 +109,20 @@ VALUES (38692, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38692, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38692, 74, 1208248231) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (38692, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (38692, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (38692, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (38692, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38692, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

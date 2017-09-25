@@ -50,7 +50,7 @@ VALUES (7768, 0, 83889088, 83889088)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7768, 0, 16784596);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7768, 16, 'Spiked Club of Blood Drinker') /* LONG_DESC_STRING */;

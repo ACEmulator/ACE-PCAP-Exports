@@ -33,7 +33,7 @@ VALUES (13121, 13, True) /* ETHEREAL_BOOL */
      , (13121, 19, True) /* ATTACKABLE_BOOL */
      , (13121, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13121, 38, 'Ring of Crystals Estates Portal (47.9S, 51.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

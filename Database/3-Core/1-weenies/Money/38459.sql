@@ -33,7 +33,7 @@ VALUES (38459, 13, True) /* ETHEREAL_BOOL */
      , (38459, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38459, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38459, 16, 'A pristine shard of congealed Mana, which tingles with barely contained power.') /* LONG_DESC_STRING */

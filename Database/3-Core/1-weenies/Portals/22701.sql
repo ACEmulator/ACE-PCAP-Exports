@@ -33,7 +33,7 @@ VALUES (22701, 13, True) /* ETHEREAL_BOOL */
      , (22701, 19, True) /* ATTACKABLE_BOOL */
      , (22701, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22701, 38, 'Throne of the Tusker King') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

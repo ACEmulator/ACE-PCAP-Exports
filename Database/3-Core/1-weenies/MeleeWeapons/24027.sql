@@ -40,7 +40,7 @@ VALUES (24027, 13, True) /* ETHEREAL_BOOL */
      , (24027, 19, True) /* ATTACKABLE_BOOL */
      , (24027, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24027, 15, 'This scepter was wielded by the Elders of the Sentinels of Perfect Light. Ornate and ostentatious it appears to have been more a badge of office than a martial weapon.') /* SHORT_DESC_STRING */;

@@ -34,7 +34,7 @@ VALUES (34964, 13, True) /* ETHEREAL_BOOL */
      , (34964, 19, True) /* ATTACKABLE_BOOL */
      , (34964, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34964, 16, 'This link was part of the chain which the Falatacot had been using to bind Burun shamans to the depths of their lower catacomb. An enchantment upon the chain had prevented the shamans from using their magic, but with the breaking of the chain, the enchantment has also been broken.') /* LONG_DESC_STRING */

@@ -37,7 +37,7 @@ VALUES (41547, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (41547, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (41547, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41547, 384, 0) /*  */

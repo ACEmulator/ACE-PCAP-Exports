@@ -29,7 +29,7 @@ VALUES (43016, 13, True) /* ETHEREAL_BOOL */
      , (43016, 19, True) /* ATTACKABLE_BOOL */
      , (43016, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43016, 16, 'Desert-dwellers who favor knowledge and trade over war and bloodshed, the Gharu''ndim are an eminently honorable, formal culture, but they also have a reputation for being somewhat distant and proud. Preferring to talk before fighting whenever possible, they speak with great politeness and formality, peppering their speech with honorifics and references to their national hero, the poet Yasif ibn Salayyar. ') /* LONG_DESC_STRING */;

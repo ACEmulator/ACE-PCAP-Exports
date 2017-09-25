@@ -47,7 +47,7 @@ VALUES (21393, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21393, 0, 16778506);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21393, 15, 'A black necklace with a blue stone setting.') /* SHORT_DESC_STRING */;

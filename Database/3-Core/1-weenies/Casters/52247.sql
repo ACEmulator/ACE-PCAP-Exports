@@ -84,7 +84,7 @@ VALUES (52247, 0, 16777294)
      , (52247, 15, 16777307)
      , (52247, 16, 16781779);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52247, 16, 'An idol depicting the ancient Mu-miyah Recluse. ') /* LONG_DESC_STRING */

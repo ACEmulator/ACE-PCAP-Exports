@@ -86,7 +86,7 @@ VALUES (34261, 13, 16781879)
      , (34261, 7, 16777296)
      , (34261, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34261, 19, 0) /* VALUE_INT */

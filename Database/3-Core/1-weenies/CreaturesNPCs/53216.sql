@@ -39,7 +39,7 @@ VALUES (53216, 13, True) /* ETHEREAL_BOOL */
      , (53216, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (53216, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (53216, 16, 'Scattered notes that appear to have magical writing scrawled upon them.') /* LONG_DESC_STRING */;

@@ -30,7 +30,7 @@ VALUES (31381, 13, True) /* ETHEREAL_BOOL */
      , (31381, 19, True) /* ATTACKABLE_BOOL */
      , (31381, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31381, 16, 'An ancient looking Shadow artifact. The distinct pattern on the front of the artifact reminds you of something, but you cannot place what exactly that is.') /* LONG_DESC_STRING */

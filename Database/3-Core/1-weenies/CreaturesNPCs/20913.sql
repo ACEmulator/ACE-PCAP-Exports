@@ -87,7 +87,7 @@ VALUES (20913, 11, 16777302)
      , (20913, 4, 16781855)
      , (20913, 8, 16781859);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20913, 5, 'Vagabond') /* TEMPLATE_STRING */;

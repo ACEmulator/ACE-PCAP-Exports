@@ -86,7 +86,7 @@ VALUES (31863, 10, 16777301)
      , (31863, 8, 16781839)
      , (31863, 16, 16791874);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31863, 5, 'Wandering Milkman') /* TEMPLATE_STRING */;
@@ -108,6 +108,17 @@ VALUES (31863, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31863, 64, 233) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31863, 74, 1208250287) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (31863, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (31863, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31863, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (31863, 38, 1.8) /* SELL_PRICE_FLOAT */;
 
 /* Vendor Shop Selection List */
 

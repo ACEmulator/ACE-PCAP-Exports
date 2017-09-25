@@ -33,7 +33,7 @@ VALUES (15676, 13, True) /* ETHEREAL_BOOL */
      , (15676, 19, True) /* ATTACKABLE_BOOL */
      , (15676, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15676, 38, 'Hero''s Vale Portal (30.6N, 45.4W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

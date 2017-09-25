@@ -39,7 +39,7 @@ VALUES (21373, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21373, 0, 16787917);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21373, 15, 'A broken virindi mask. Flesh seems to be seared to the interior of the mask.') /* SHORT_DESC_STRING */;

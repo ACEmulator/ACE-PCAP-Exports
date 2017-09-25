@@ -38,7 +38,7 @@ VALUES (48742, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (48742, 19, True) /* ATTACKABLE_BOOL */
      , (48742, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48742, 16, 'A chest containing the highest quality magic items. ') /* LONG_DESC_STRING */

@@ -32,7 +32,7 @@ VALUES (19515, 13, True) /* ETHEREAL_BOOL */
      , (19515, 19, True) /* ATTACKABLE_BOOL */
      , (19515, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19515, 16, 'A pyreal ingot infused with diamond oil. You can turn this ingot into a weapon for levels 50+.') /* LONG_DESC_STRING */;

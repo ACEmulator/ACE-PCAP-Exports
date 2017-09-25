@@ -45,7 +45,7 @@ VALUES (43068, 67110011, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43068, 0, 16794792);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43068, 16, 'Knorr Academy Helm of Regeneration') /* LONG_DESC_STRING */;

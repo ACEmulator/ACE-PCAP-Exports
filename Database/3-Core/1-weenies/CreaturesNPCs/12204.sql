@@ -89,7 +89,7 @@ VALUES (12204, 12, 16777304)
      , (12204, 4, 16777291)
      , (12204, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12204, 5, 'Apprentice Mask Maker') /* TEMPLATE_STRING */;

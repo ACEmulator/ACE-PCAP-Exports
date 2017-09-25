@@ -32,7 +32,7 @@ VALUES (16919, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (16919, 19, True) /* ATTACKABLE_BOOL */
      , (16919, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (16919, 14, 'The part of the pedestal doesn''t look quite the same as the rest.') /* USE_STRING */;

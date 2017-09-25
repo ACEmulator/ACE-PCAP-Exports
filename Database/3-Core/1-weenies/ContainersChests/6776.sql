@@ -38,7 +38,7 @@ VALUES (6776, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (6776, 19, True) /* ATTACKABLE_BOOL */
      , (6776, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6776, 16, 'An iron chest with an intricate lock. You notice a suspicious glow near the keyhole.') /* LONG_DESC_STRING */

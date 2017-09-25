@@ -34,7 +34,7 @@ VALUES (42170, 13, True) /* ETHEREAL_BOOL */
      , (42170, 19, True) /* ATTACKABLE_BOOL */
      , (42170, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42170, 16, 'A portal leading to the Marae Lassel Plateau near An Olthoi Soldier Nest where the Soldier Pincer may be found.') /* LONG_DESC_STRING */

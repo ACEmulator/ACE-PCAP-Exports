@@ -221,7 +221,7 @@ VALUES (9170, 0, 16777378)
      , (9170, 23, 16781702)
      , (9170, 24, 16781702);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9170, 16, 'Fantastic pincer cleaning action! Warning: Velveteen Olthoi may be fatal if swallowed.') /* LONG_DESC_STRING */;

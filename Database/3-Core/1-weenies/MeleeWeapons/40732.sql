@@ -40,7 +40,7 @@ VALUES (40732, 13, True) /* ETHEREAL_BOOL */
      , (40732, 19, True) /* ATTACKABLE_BOOL */
      , (40732, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40732, 16, 'Flaming Knife') /* LONG_DESC_STRING */;

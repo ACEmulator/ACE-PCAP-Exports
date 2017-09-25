@@ -33,7 +33,7 @@ VALUES (10797, 13, True) /* ETHEREAL_BOOL */
      , (10797, 19, True) /* ATTACKABLE_BOOL */
      , (10797, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10797, 38, 'Exit (48.0S, 65.0W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

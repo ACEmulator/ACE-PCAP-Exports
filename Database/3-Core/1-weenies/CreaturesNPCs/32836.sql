@@ -100,7 +100,7 @@ VALUES (32836, 16, 16795675)
      , (32836, 4, 16781816)
      , (32836, 8, 16781817);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32836, 5, 'Master Weaponsmith') /* TEMPLATE_STRING */;

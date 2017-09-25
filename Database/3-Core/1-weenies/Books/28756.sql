@@ -34,7 +34,7 @@ VALUES (28756, 13, True) /* ETHEREAL_BOOL */
      , (28756, 14, True) /* GRAVITY_STATUS_BOOL */
      , (28756, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28756, 16, 'Neatly penned instructions and locations of trade contacts.') /* LONG_DESC_STRING */;

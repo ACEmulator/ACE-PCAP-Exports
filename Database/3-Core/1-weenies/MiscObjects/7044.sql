@@ -44,7 +44,7 @@ VALUES (7044, 67112871, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7044, 0, 16784556);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7044, 16, 'The horn of a departed Great Mattekar.') /* LONG_DESC_STRING */

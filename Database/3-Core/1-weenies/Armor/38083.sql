@@ -35,7 +35,7 @@ VALUES (38083, 13, True) /* ETHEREAL_BOOL */
      , (38083, 19, True) /* ATTACKABLE_BOOL */
      , (38083, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38083, 16, 'This armored mask was once a symbol of the office of Rytheran, the Dericostian lord of Menilesh.') /* LONG_DESC_STRING */;

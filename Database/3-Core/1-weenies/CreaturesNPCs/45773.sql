@@ -109,7 +109,7 @@ VALUES (45773, 0, 16794608)
      , (45773, 12, 16789332)
      , (45773, 16, 16794606);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45773, 5, 'Prince of New Aluvia') /* TEMPLATE_STRING */;

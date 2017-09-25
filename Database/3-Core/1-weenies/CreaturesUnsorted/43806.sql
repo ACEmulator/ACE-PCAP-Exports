@@ -37,7 +37,7 @@ VALUES (43806, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43806, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (43806, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43806, 16, 'A stone pillar, covered in Dericost script.') /* LONG_DESC_STRING */;

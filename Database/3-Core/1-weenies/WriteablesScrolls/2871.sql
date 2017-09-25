@@ -35,7 +35,7 @@ VALUES (2871, 13, True) /* ETHEREAL_BOOL */
      , (2871, 19, True) /* ATTACKABLE_BOOL */
      , (2871, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2871, 16, 'Inscribed spell: Piercing Bane VI

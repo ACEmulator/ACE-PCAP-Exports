@@ -36,7 +36,7 @@ VALUES (32149, 13, True) /* ETHEREAL_BOOL */
      , (32149, 19, True) /* ATTACKABLE_BOOL */
      , (32149, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32149, 15, 'A large mask depicting the head of the White Rabbit. It''s very odd.') /* SHORT_DESC_STRING */;

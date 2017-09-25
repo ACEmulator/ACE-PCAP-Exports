@@ -43,7 +43,7 @@ VALUES (9392, 67109944, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9392, 0, 16785648);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9392, 16, 'A large horned helm with the horns of a large mattekar.') /* LONG_DESC_STRING */;

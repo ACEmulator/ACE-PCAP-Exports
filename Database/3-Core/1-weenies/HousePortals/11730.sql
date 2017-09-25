@@ -32,7 +32,7 @@ VALUES (11730, 13, True) /* ETHEREAL_BOOL */
      , (11730, 19, True) /* ATTACKABLE_BOOL */
      , (11730, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11730, 38, 'House Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -40,7 +40,7 @@ VALUES (23925, 13, True) /* ETHEREAL_BOOL */
      , (23925, 19, True) /* ATTACKABLE_BOOL */
      , (23925, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23925, 15, 'A strange egg shaped object with a pin in the top.') /* SHORT_DESC_STRING */;

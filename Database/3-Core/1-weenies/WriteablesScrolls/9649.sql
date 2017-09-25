@@ -35,7 +35,7 @@ VALUES (9649, 13, True) /* ETHEREAL_BOOL */
      , (9649, 19, True) /* ATTACKABLE_BOOL */
      , (9649, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9649, 16, 'Inscribed spell: Mana to Stamina Self VI

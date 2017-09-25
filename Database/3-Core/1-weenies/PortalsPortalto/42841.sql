@@ -33,7 +33,7 @@ VALUES (42841, 13, True) /* ETHEREAL_BOOL */
      , (42841, 19, True) /* ATTACKABLE_BOOL */
      , (42841, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42841, 16, 'This portal goes to the Sho town of Tou-Tou, perched on the tip of the Tou-Tou peninsula. This is a good town for characters over level 20.') /* LONG_DESC_STRING */

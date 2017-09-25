@@ -40,7 +40,7 @@ VALUES (24591, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24591, 67113366, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24591, 5, 'Master Bowyer') /* TEMPLATE_STRING */;
@@ -63,6 +63,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (24591, 64, 253) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (24591, 128, 365) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (24591, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24591, 74, 134480129) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (24591, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (24591, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (24591, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (24591, 38, 1.8) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24591, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

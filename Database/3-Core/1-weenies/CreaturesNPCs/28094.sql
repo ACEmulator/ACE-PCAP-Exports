@@ -90,7 +90,7 @@ VALUES (28094, 12, 16778423)
      , (28094, 14, 16783855)
      , (28094, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28094, 5, 'High Queen''s Emissary') /* TEMPLATE_STRING */;

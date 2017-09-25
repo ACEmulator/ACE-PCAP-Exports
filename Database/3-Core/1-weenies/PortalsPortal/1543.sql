@@ -33,7 +33,7 @@ VALUES (1543, 13, True) /* ETHEREAL_BOOL */
      , (1543, 19, True) /* ATTACKABLE_BOOL */
      , (1543, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1543, 38, 'Colier Mine Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

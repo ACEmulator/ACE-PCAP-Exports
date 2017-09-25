@@ -36,7 +36,7 @@ VALUES (21377, 13, True) /* ETHEREAL_BOOL */
      , (21377, 19, True) /* ATTACKABLE_BOOL */
      , (21377, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21377, 15, 'An obsidian shield enhanced to defend against the piercing attacks of olthoi.') /* SHORT_DESC_STRING */;

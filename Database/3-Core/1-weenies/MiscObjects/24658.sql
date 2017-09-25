@@ -31,7 +31,7 @@ VALUES (24658, 13, True) /* ETHEREAL_BOOL */
      , (24658, 19, True) /* ATTACKABLE_BOOL */
      , (24658, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24658, 15, 'The metathorax of a departed adolescent Olthoi Brood Queen.') /* SHORT_DESC_STRING */;

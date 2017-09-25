@@ -35,7 +35,7 @@ VALUES (30798, 13, True) /* ETHEREAL_BOOL */
      , (30798, 19, True) /* ATTACKABLE_BOOL */
      , (30798, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30798, 15, 'A thick, black tea made by Samuel of Eastham. The tea does not look like a very healthy drink.') /* SHORT_DESC_STRING */;

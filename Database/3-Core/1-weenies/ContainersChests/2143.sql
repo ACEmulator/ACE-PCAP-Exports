@@ -35,7 +35,7 @@ VALUES (2143, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2143, 19, True) /* ATTACKABLE_BOOL */
      , (2143, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2143, 16, 'Though plain, this tomb radiates an aura of power and majesty.  Surely Thorsten Cragstone''s presence can be felt here.') /* LONG_DESC_STRING */;

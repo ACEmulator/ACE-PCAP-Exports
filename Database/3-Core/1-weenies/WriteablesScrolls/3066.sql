@@ -35,7 +35,7 @@ VALUES (3066, 13, True) /* ETHEREAL_BOOL */
      , (3066, 19, True) /* ATTACKABLE_BOOL */
      , (3066, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3066, 16, 'Inscribed spell: Piercing Protection Other V

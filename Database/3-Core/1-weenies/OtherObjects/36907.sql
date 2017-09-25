@@ -36,7 +36,7 @@ VALUES (36907, 13, True) /* ETHEREAL_BOOL */
      , (36907, 19, True) /* ATTACKABLE_BOOL */
      , (36907, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36907, 16, 'A pitiful twig of a tree with a single ornament too large for it.') /* LONG_DESC_STRING */

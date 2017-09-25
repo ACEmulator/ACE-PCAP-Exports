@@ -33,7 +33,7 @@ VALUES (32844, 13, True) /* ETHEREAL_BOOL */
      , (32844, 19, True) /* ATTACKABLE_BOOL */
      , (32844, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32844, 38, 'The Dark Spiral') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

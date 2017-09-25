@@ -31,7 +31,7 @@ VALUES (22631, 13, True) /* ETHEREAL_BOOL */
      , (22631, 19, True) /* ATTACKABLE_BOOL */
      , (22631, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22631, 15, 'Handing in this token to the Leader of the Resistance will give you the title of Heart Ripper.') /* SHORT_DESC_STRING */;

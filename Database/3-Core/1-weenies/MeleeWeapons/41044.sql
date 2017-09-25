@@ -48,7 +48,7 @@ VALUES (41044, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41044, 0, 16794282);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41044, 16, 'Flaming Magari Yari of Blood Drinker') /* LONG_DESC_STRING */;

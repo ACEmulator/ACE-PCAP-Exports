@@ -94,7 +94,7 @@ VALUES (38390, 16, 16795675)
      , (38390, 4, 16790017)
      , (38390, 8, 16790019);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38390, 5, 'Society Recruiter') /* TEMPLATE_STRING */;

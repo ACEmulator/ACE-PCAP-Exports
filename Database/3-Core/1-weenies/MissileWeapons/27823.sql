@@ -56,7 +56,7 @@ VALUES (27823, 0, 16779360)
      , (27823, 3, 16779362)
      , (27823, 4, 16779357);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27823, 15, 'A bow imbued with Singularity energy.') /* SHORT_DESC_STRING */;

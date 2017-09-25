@@ -86,7 +86,7 @@ VALUES (31647, 12, 16778423)
      , (31647, 13, 16783871)
      , (31647, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31647, 5, 'Violator Grievver Vetoer') /* TEMPLATE_STRING */;

@@ -29,7 +29,7 @@ VALUES (12642, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12642, 19, True) /* ATTACKABLE_BOOL */
      , (12642, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12642, 16, 'Welcome to Oboro') /* LONG_DESC_STRING */;

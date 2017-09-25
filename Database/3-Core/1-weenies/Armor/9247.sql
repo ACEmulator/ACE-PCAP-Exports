@@ -43,7 +43,7 @@ VALUES (9247, 67113148, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9247, 0, 16785609);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9247, 16, 'A helmet reinforced by the skin shed from a potent Sclavus.') /* LONG_DESC_STRING */;

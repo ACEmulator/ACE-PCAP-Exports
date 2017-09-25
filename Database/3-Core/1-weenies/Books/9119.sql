@@ -33,7 +33,7 @@ VALUES (9119, 13, True) /* ETHEREAL_BOOL */
      , (9119, 14, True) /* GRAVITY_STATUS_BOOL */
      , (9119, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9119, 15, 'The second installment of a tale by Martine') /* SHORT_DESC_STRING */;

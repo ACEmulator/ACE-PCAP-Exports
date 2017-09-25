@@ -51,7 +51,7 @@ VALUES (22166, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22166, 0, 16788502);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22166, 16, 'Flaming Quarter Staff of Blood Drinker') /* LONG_DESC_STRING */;

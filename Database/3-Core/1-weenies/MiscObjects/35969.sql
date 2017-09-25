@@ -32,7 +32,7 @@ VALUES (35969, 13, True) /* ETHEREAL_BOOL */
      , (35969, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35969, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35969, 16, 'A basic bone handle carved from an undead thighbone.') /* LONG_DESC_STRING */

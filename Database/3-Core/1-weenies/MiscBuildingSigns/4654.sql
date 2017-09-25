@@ -34,7 +34,7 @@ VALUES (4654, 0, 83892071, 83892180);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4654, 0, 16783205);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4654, 16, 'Al-Jalima Smithy') /* LONG_DESC_STRING */;

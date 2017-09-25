@@ -36,7 +36,7 @@ VALUES (31282, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (31282, 19, True) /* ATTACKABLE_BOOL */
      , (31282, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (31282, 16, 67109566) /* EYES_PALETTE_DID */

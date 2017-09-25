@@ -42,7 +42,7 @@ VALUES (36671, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36671, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36671, 16, 'A bolt of the finest velvet woven ages ago on the Lugian homeworld.') /* LONG_DESC_STRING */;

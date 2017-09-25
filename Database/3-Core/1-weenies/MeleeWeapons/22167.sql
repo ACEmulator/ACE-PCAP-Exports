@@ -51,7 +51,7 @@ VALUES (22167, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22167, 0, 16788502);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22167, 16, 'Frost Quarter Staff') /* LONG_DESC_STRING */;

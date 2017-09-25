@@ -47,7 +47,7 @@ VALUES (82, 0, 83887064, 83886800)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (82, 0, 16778829);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (82, 16, 'Platemail Leggings') /* LONG_DESC_STRING */;

@@ -31,7 +31,7 @@ VALUES (28727, 13, True) /* ETHEREAL_BOOL */
      , (28727, 19, True) /* ATTACKABLE_BOOL */
      , (28727, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28727, 16, 'This eater jaw is malformed. Apparently it has been broken so many times that it no longer resembles a jaw.') /* LONG_DESC_STRING */;

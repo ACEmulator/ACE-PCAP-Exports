@@ -42,7 +42,7 @@ VALUES (37210, 0, 16793227)
      , (37210, 2, 16793229)
      , (37210, 3, 16793230);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37210, 16, '') /* LONG_DESC_STRING */;

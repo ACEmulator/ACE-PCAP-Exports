@@ -80,7 +80,7 @@ VALUES (38149, 0, 16794036)
      , (38149, 14, 16781862)
      , (38149, 15, 16789333);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (38149, 16, 67110064) /* EYES_PALETTE_DID */

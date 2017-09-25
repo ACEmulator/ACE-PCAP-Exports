@@ -48,7 +48,7 @@ VALUES (25524, 0, 83887061, 83894794)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25524, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25524, 15, 'This cuirass has been crafted from the tanned and treated hide of a Plate Armoredillo.') /* SHORT_DESC_STRING */;

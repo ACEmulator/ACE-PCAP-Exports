@@ -33,7 +33,7 @@ VALUES (7488, 13, True) /* ETHEREAL_BOOL */
      , (7488, 19, True) /* ATTACKABLE_BOOL */
      , (7488, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7488, 38, 'Tenkarrdun Foundry Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

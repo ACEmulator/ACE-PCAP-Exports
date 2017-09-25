@@ -30,7 +30,7 @@ VALUES (1109, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1109, 19, True) /* ATTACKABLE_BOOL */
      , (1109, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1109, 16, 'Welcome to the town of Samsur.') /* LONG_DESC_STRING */;

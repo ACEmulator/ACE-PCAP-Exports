@@ -35,7 +35,7 @@ VALUES (4502, 0, 83891180, 83891183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4502, 0, 16782236);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4502, 16, 'Gems of the Woods') /* LONG_DESC_STRING */;

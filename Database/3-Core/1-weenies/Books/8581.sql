@@ -34,7 +34,7 @@ VALUES (8581, 13, True) /* ETHEREAL_BOOL */
      , (8581, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8581, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8581, 15, 'A soggy and damp journal') /* SHORT_DESC_STRING */;

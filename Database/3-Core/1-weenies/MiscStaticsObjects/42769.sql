@@ -29,7 +29,7 @@ VALUES (42769, 13, True) /* ETHEREAL_BOOL */
      , (42769, 19, True) /* ATTACKABLE_BOOL */
      , (42769, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42769, 16, 'During the Gharu''ndim''s efforts to expand their settlement of Dereth, Al-Jalima was founded. Travelers should be wary however, for this town was settled in an unfortunate spot amongst the crypts of the Dericostian Undead. The autumn festival season brings rise to these undead, who take over the town until winter drives them back to their resting places. But not all is troubled in Al-Jalima. The master smith of the Gharu''ndim resides here, crafting powerful amuli armor from the remains of Shadow and Crystal. People looking to craft costumes will also find a master mask crafter here. And chefs looking to add some flavor to their dishes will be happy to find a spice merchant may also be found within the town.') /* LONG_DESC_STRING */;

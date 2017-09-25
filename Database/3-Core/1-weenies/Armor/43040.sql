@@ -39,7 +39,7 @@ VALUES (43040, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43040, 67116924, 240, 16);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43040, 15, 'A mask crafted from the mask of the Apostate Nexus Master.') /* SHORT_DESC_STRING */;

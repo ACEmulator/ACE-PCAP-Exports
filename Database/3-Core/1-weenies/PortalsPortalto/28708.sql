@@ -32,7 +32,7 @@ VALUES (28708, 13, True) /* ETHEREAL_BOOL */
      , (28708, 19, True) /* ATTACKABLE_BOOL */
      , (28708, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28708, 38, 'Portal to Silyun (87.3N, 70.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -91,7 +91,7 @@ VALUES (52990, 12, 16778423)
      , (52990, 16, 16788193)
      , (52990, 29, 16797056);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52990, 5, 'Molten Coal Trader') /* TEMPLATE_STRING */;

@@ -74,7 +74,7 @@ VALUES (22644, 2, 16777293)
      , (22644, 1, 16783912)
      , (22644, 5, 16783916);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22644, 5, 'Tusker Emporium Hawker') /* TEMPLATE_STRING */;

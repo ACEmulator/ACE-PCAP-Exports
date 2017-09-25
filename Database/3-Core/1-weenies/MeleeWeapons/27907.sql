@@ -36,7 +36,7 @@ VALUES (27907, 13, True) /* ETHEREAL_BOOL */
      , (27907, 19, True) /* ATTACKABLE_BOOL */
      , (27907, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27907, 16, 'A spear modeled after the Mosswart hero Kreerg''s. A small stamp on the shaft reads: A Ketnan Product.') /* LONG_DESC_STRING */;

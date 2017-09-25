@@ -146,7 +146,7 @@ VALUES (19219, 0, 16777267)
      , (19219, 15, 16777274)
      , (19219, 16, 16777274);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19219, 16, 'A small decorative statue  of a Banderling crafted by the Arcanum Tinker, in reward for destroying the statues that threatening the cities of Dereth.') /* LONG_DESC_STRING */;

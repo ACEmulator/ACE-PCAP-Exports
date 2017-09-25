@@ -48,7 +48,7 @@ VALUES (12206, 9, 83893207, 83893794);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12206, 9, 16785617);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12206, 16, 'A strange looking doll mask.  From the inside, the mask is completely transparent...') /* LONG_DESC_STRING */;

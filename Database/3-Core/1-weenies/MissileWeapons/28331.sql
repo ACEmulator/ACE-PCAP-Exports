@@ -65,7 +65,7 @@ VALUES (28331, 0, 16777708)
      , (28331, 7, 16779363)
      , (28331, 8, 16779364);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28331, 15, 'A bow imbued with the essence of the Fenmalain Crystal. Uses crystal-tipped arrows.') /* SHORT_DESC_STRING */;

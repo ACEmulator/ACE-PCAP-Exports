@@ -37,7 +37,7 @@ VALUES (51604, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (51604, 14, True) /* GRAVITY_STATUS_BOOL */
      , (51604, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51604, 384, 0) /*  */

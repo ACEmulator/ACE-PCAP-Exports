@@ -34,7 +34,7 @@ VALUES (34460, 13, True) /* ETHEREAL_BOOL */
      , (34460, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34460, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34460, 16, 'A book in which Asheron recorded some of his activities before departing Dereth') /* LONG_DESC_STRING */;

@@ -36,7 +36,7 @@ VALUES (23923, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23923, 19, True) /* ATTACKABLE_BOOL */
      , (23923, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23923, 14, 'Use an empty stein on the well to fill it with stout.') /* USE_STRING */;

@@ -84,7 +84,7 @@ VALUES (33938, 12, 16778423)
      , (33938, 13, 16783871)
      , (33938, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33938, 5, 'Pet Ursuin Vendor') /* TEMPLATE_STRING */;

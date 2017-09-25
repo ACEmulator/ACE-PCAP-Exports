@@ -34,7 +34,7 @@ VALUES (29328, 13, True) /* ETHEREAL_BOOL */
      , (29328, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29328, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29328, 16, 'A guide to inter-personal communication ') /* LONG_DESC_STRING */;

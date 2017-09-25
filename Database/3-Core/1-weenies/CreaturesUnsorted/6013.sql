@@ -45,7 +45,7 @@ VALUES (6013, 67116650, 1, 48)
      , (6013, 67116642, 200, 8)
      , (6013, 67116641, 208, 48);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6013, 2, 6) /* CREATURE_TYPE_INT */

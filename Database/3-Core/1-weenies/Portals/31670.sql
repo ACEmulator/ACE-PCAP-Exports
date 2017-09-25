@@ -33,7 +33,7 @@ VALUES (31670, 13, True) /* ETHEREAL_BOOL */
      , (31670, 19, True) /* ATTACKABLE_BOOL */
      , (31670, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31670, 38, 'Font of the Eternal Harvester') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

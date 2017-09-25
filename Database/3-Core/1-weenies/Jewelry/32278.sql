@@ -37,7 +37,7 @@ VALUES (32278, 13, True) /* ETHEREAL_BOOL */
      , (32278, 19, True) /* ATTACKABLE_BOOL */
      , (32278, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32278, 15, 'A ring that once belonged to one of the senior faculty of the Collegium Occultus of the Knorr Lyceum.') /* SHORT_DESC_STRING */;

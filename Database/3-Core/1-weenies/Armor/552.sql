@@ -47,7 +47,7 @@ VALUES (552, 0, 83889859, 83889862)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (552, 0, 16780294);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (552, 16, 'Utterly flawless Gold Scale Mail Basinet ') /* LONG_DESC_STRING */;

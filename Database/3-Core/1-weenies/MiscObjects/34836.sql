@@ -36,7 +36,7 @@ VALUES (34836, 13, True) /* ETHEREAL_BOOL */
      , (34836, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34836, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34836, 16, 'A rather small mushroom. It glows faintly red.') /* LONG_DESC_STRING */

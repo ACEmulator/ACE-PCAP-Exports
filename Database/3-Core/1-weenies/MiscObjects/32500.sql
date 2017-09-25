@@ -34,7 +34,7 @@ VALUES (32500, 13, True) /* ETHEREAL_BOOL */
      , (32500, 19, True) /* ATTACKABLE_BOOL */
      , (32500, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32500, 16, 'The untranslated journal of the ancient slave, Farelaith.') /* LONG_DESC_STRING */;

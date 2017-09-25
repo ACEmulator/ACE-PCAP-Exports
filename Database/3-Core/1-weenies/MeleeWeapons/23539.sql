@@ -36,7 +36,7 @@ VALUES (23539, 13, True) /* ETHEREAL_BOOL */
      , (23539, 19, True) /* ATTACKABLE_BOOL */
      , (23539, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23539, 16, 'A spear crafted in the semblance of a large snake.  The eyes seem to be crafted from some sort of gems, and acid drips from the fangs.') /* LONG_DESC_STRING */;

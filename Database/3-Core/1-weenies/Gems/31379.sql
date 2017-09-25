@@ -33,7 +33,7 @@ VALUES (31379, 13, True) /* ETHEREAL_BOOL */
      , (31379, 19, True) /* ATTACKABLE_BOOL */
      , (31379, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31379, 16, 'Pieces of a Twilight Fragment and a Raven Fragment combined. In the back of your head, the shape reminds you of something, but you are not yet certain of what.') /* LONG_DESC_STRING */

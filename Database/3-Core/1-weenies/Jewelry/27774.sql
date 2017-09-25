@@ -47,7 +47,7 @@ VALUES (27774, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27774, 0, 16778348);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27774, 16, 'An exquisite necklace adorned with thin strings of gold and an array of green, blue, and purple gems.') /* LONG_DESC_STRING */;

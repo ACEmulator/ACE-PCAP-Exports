@@ -89,7 +89,7 @@ VALUES (25832, 12, 16777304)
      , (25832, 4, 16781838)
      , (25832, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25832, 5, 'Monk') /* TEMPLATE_STRING */;

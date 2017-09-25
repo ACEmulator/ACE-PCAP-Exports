@@ -33,7 +33,7 @@ VALUES (14670, 13, True) /* ETHEREAL_BOOL */
      , (14670, 19, True) /* ATTACKABLE_BOOL */
      , (14670, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14670, 38, 'Stone Face Oasis Villas Portal (1.6N, 21.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

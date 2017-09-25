@@ -33,7 +33,7 @@ VALUES (51718, 13, True) /* ETHEREAL_BOOL */
      , (51718, 19, True) /* ATTACKABLE_BOOL */
      , (51718, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51718, 38, 'Path of Rage') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

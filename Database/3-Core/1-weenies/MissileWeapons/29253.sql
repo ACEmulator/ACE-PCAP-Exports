@@ -54,7 +54,7 @@ VALUES (29253, 0, 83895603, 83895603)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29253, 0, 16791349);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29253, 16, 'Blunt Atlatl') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (441, 13, True) /* ETHEREAL_BOOL */
      , (441, 19, True) /* ATTACKABLE_BOOL */
      , (441, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (441, 38, 'Base of Mt. Syliph (11.6N, 12.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

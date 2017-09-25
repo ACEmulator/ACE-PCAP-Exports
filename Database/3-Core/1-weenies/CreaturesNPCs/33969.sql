@@ -86,7 +86,7 @@ VALUES (33969, 12, 16778423)
      , (33969, 13, 16783871)
      , (33969, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33969, 5, 'Zefir Zapper') /* TEMPLATE_STRING */;

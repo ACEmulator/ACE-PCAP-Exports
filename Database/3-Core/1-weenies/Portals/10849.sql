@@ -33,7 +33,7 @@ VALUES (10849, 13, True) /* ETHEREAL_BOOL */
      , (10849, 19, True) /* ATTACKABLE_BOOL */
      , (10849, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10849, 38, 'Lair of the Eviscerators') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

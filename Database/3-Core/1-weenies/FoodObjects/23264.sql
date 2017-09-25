@@ -46,7 +46,7 @@ VALUES (23264, 0, 83894506, 83894506);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23264, 0, 16788968);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23264, 14, 'Use this item to eat it.') /* USE_STRING */;

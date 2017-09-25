@@ -34,7 +34,7 @@ VALUES (1807, 0, 83892071, 83892186);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1807, 0, 16783205);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1807, 16, 'Nashima''s Nostrums') /* LONG_DESC_STRING */;

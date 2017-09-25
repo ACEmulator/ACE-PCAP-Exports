@@ -91,7 +91,7 @@ VALUES (5427, 12, 16777304)
      , (5427, 8, 16781839)
      , (5427, 16, 16779635);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5427, 5, 'Healer') /* TEMPLATE_STRING */;

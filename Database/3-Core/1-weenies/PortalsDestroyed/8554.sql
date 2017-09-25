@@ -32,7 +32,7 @@ VALUES (8554, 13, True) /* ETHEREAL_BOOL */
      , (8554, 19, True) /* ATTACKABLE_BOOL */
      , (8554, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8554, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LONG_DESC_STRING */

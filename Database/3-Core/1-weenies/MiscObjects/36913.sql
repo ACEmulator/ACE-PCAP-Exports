@@ -34,7 +34,7 @@ VALUES (36913, 13, True) /* ETHEREAL_BOOL */
      , (36913, 19, True) /* ATTACKABLE_BOOL */
      , (36913, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36913, 16, 'A large luxurious bed with a canopy. ') /* LONG_DESC_STRING */

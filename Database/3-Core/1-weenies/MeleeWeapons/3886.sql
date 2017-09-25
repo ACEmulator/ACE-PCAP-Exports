@@ -40,7 +40,7 @@ VALUES (3886, 13, True) /* ETHEREAL_BOOL */
      , (3886, 19, True) /* ATTACKABLE_BOOL */
      , (3886, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3886, 16, 'Lightning Short Sword') /* LONG_DESC_STRING */;

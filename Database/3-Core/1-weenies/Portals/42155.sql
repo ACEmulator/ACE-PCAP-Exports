@@ -34,7 +34,7 @@ VALUES (42155, 13, True) /* ETHEREAL_BOOL */
      , (42155, 19, True) /* ATTACKABLE_BOOL */
      , (42155, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42155, 16, 'A portal leading to near The Dark Lair outside Greenspire where the Gardener Pincer may be found.') /* LONG_DESC_STRING */

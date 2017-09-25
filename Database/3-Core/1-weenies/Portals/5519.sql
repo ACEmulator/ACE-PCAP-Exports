@@ -33,7 +33,7 @@ VALUES (5519, 13, True) /* ETHEREAL_BOOL */
      , (5519, 19, True) /* ATTACKABLE_BOOL */
      , (5519, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5519, 38, 'Smugglers Fort (29.6S, 91.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

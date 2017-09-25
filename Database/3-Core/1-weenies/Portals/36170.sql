@@ -33,7 +33,7 @@ VALUES (36170, 13, True) /* ETHEREAL_BOOL */
      , (36170, 19, True) /* ATTACKABLE_BOOL */
      , (36170, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36170, 38, 'The Path to More Recent Times') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

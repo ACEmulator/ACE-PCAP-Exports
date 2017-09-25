@@ -34,7 +34,7 @@ VALUES (28501, 13, True) /* ETHEREAL_BOOL */
      , (28501, 19, True) /* ATTACKABLE_BOOL */
      , (28501, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28501, 16, 'A crate with four empty slots. Currently only the first slot has been filled, a granite heart is within that slot. The second slot appears to be labeled for a Copper Golem Heart.') /* LONG_DESC_STRING */

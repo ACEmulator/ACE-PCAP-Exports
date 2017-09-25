@@ -35,7 +35,7 @@ VALUES (35561, 13, True) /* ETHEREAL_BOOL */
      , (35561, 19, True) /* ATTACKABLE_BOOL */
      , (35561, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35561, 16, 'A message shard retrieved from the corpse of the Virindi Archivist.') /* LONG_DESC_STRING */;

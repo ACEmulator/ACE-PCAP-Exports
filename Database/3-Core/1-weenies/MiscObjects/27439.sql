@@ -32,7 +32,7 @@ VALUES (27439, 13, True) /* ETHEREAL_BOOL */
      , (27439, 19, True) /* ATTACKABLE_BOOL */
      , (27439, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27439, 16, 'A coffin in very good condition. Whomever owned it before you took good care of it.') /* LONG_DESC_STRING */

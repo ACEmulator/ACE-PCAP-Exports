@@ -36,7 +36,7 @@ VALUES (31966, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (31966, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (31966, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31966, 16, 'This statue appears ancient and weathered. A small inscription is carved at its base: "When the Gatekeepers are sated, the city that once was shall rise from the depths, the imprisoned shall break free, the weak shall become strong, and the rulers of this world shall be burned within the fires of treachery."') /* LONG_DESC_STRING */;

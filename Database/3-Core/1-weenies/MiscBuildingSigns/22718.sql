@@ -29,7 +29,7 @@ VALUES (22718, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22718, 19, True) /* ATTACKABLE_BOOL */
      , (22718, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22718, 16, 'You have reached the Tusker Emporium of Deadly Doom!! (tm)') /* LONG_DESC_STRING */;

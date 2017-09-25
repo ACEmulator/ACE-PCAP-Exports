@@ -89,7 +89,7 @@ VALUES (5064, 12, 16778423)
      , (5064, 4, 16778426)
      , (5064, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5064, 5, 'Citizen of Yanshi') /* TEMPLATE_STRING */;

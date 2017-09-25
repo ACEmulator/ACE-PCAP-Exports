@@ -52,7 +52,7 @@ VALUES (39333, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39333, 0, 16793601);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39333, 16, 'A Mana Phial, filled with an alchemical mixture designed to temporarily weaken the cold resistance of those coated in the fluid.') /* LONG_DESC_STRING */;

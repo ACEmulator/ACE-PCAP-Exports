@@ -32,7 +32,7 @@ VALUES (36049, 13, True) /* ETHEREAL_BOOL */
      , (36049, 19, True) /* ATTACKABLE_BOOL */
      , (36049, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36049, 16, 'Mechanical Scarab of Rejuvenation') /* LONG_DESC_STRING */;

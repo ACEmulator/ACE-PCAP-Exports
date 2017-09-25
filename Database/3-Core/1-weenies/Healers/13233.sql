@@ -32,7 +32,7 @@ VALUES (13233, 13, True) /* ETHEREAL_BOOL */
      , (13233, 19, True) /* ATTACKABLE_BOOL */
      , (13233, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (13233, 19, 50) /* VALUE_INT */

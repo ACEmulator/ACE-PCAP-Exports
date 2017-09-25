@@ -29,7 +29,7 @@ VALUES (12589, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12589, 19, True) /* ATTACKABLE_BOOL */
      , (12589, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12589, 16, 'Welcome to Celdiseth''s Beach Settlement') /* LONG_DESC_STRING */;

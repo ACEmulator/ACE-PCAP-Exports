@@ -33,7 +33,7 @@ VALUES (33545, 13, True) /* ETHEREAL_BOOL */
      , (33545, 19, True) /* ATTACKABLE_BOOL */
      , (33545, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33545, 16, 'You must bypass the wards of the Mukkir before you may use this portal.') /* LONG_DESC_STRING */

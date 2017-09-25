@@ -94,7 +94,7 @@ VALUES (31400, 16, 16795665)
      , (31400, 4, 16781816)
      , (31400, 8, 16781817);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (31400, 16, 67110062) /* EYES_PALETTE_DID */

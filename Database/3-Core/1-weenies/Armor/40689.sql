@@ -50,7 +50,7 @@ VALUES (40689, 0, 83886788, 83897807);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40689, 0, 16778411);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40689, 16, 'Olthoi Pauldrons of Endurance') /* LONG_DESC_STRING */;

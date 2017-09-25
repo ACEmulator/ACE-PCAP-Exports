@@ -69,7 +69,7 @@ VALUES (29921, 0, 16783894)
      , (29921, 15, 16787916)
      , (29921, 12, 16787915);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29921, 16, 'The enigmatic and powerful Martine, in his Virindi-modified form.') /* LONG_DESC_STRING */

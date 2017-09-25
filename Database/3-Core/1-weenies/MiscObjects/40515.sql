@@ -43,7 +43,7 @@ VALUES (40515, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40515, 0, 16783325);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40515, 16, 'A small glass flask partially filled with a dark fluid and flakes of what seems to be the crushed remains of a Shadowfire Atlan Stone.  It looks like it could be empowered by adding an infusion into the flask.') /* LONG_DESC_STRING */

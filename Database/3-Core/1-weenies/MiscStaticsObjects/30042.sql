@@ -30,7 +30,7 @@ VALUES (30042, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (30042, 19, True) /* ATTACKABLE_BOOL */
      , (30042, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30042, 16, 'Follow the road this way to Sanamar.') /* LONG_DESC_STRING */;

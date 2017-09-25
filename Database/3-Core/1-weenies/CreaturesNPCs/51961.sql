@@ -84,7 +84,7 @@ VALUES (51961, 12, 16778423)
      , (51961, 13, 16783871)
      , (51961, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51961, 5, 'Wight Hunter') /* TEMPLATE_STRING */;

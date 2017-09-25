@@ -43,7 +43,7 @@ VALUES (9393, 67110024, 168, 6);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9393, 0, 16785725);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9393, 16, 'A Large Mattekar arm guard, it covers your hand while hanging over some of the rest of your arm.') /* LONG_DESC_STRING */;

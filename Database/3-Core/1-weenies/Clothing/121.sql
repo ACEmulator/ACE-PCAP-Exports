@@ -45,7 +45,7 @@ VALUES (121, 0, 83887059, 83886375);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (121, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (121, 16, 'Well-crafted Leather Gloves , set with 2 Citrines') /* LONG_DESC_STRING */;

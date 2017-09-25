@@ -31,7 +31,7 @@ VALUES (34015, 13, True) /* ETHEREAL_BOOL */
      , (34015, 19, True) /* ATTACKABLE_BOOL */
      , (34015, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34015, 16, 'A golden shuriken with an inscription on it.') /* LONG_DESC_STRING */;

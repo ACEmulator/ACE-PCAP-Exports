@@ -32,7 +32,7 @@ VALUES (34911, 13, True) /* ETHEREAL_BOOL */
      , (34911, 19, True) /* ATTACKABLE_BOOL */
      , (34911, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34911, 16, 'One of three mysterious empyrean stones required to create an Empyrean Golem Stone.') /* LONG_DESC_STRING */

@@ -35,7 +35,7 @@ VALUES (29152, 13, True) /* ETHEREAL_BOOL */
      , (29152, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29152, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29152, 16, 'A wonderful keg of aromatic stout. Use a pack of Empty Bottles on this keg to serve it to guests.') /* LONG_DESC_STRING */;

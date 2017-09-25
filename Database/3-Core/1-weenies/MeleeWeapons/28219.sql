@@ -40,7 +40,7 @@ VALUES (28219, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28219, 67115301, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28219, 15, 'A katar crafted from the tooth of an ebon gromnie.') /* SHORT_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (8835, 13, True) /* ETHEREAL_BOOL */
      , (8835, 19, True) /* ATTACKABLE_BOOL */
      , (8835, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8835, 38, 'Lower Empyrean Mausoleum Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

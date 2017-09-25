@@ -33,7 +33,7 @@ VALUES (19372, 13, True) /* ETHEREAL_BOOL */
      , (19372, 19, True) /* ATTACKABLE_BOOL */
      , (19372, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19372, 38, 'Trellyn Gardens Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

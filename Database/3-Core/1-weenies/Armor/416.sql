@@ -49,7 +49,7 @@ VALUES (416, 0, 83886788, 83886796);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (416, 0, 16778411);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (416, 16, 'Chainmail Pauldrons') /* LONG_DESC_STRING */;

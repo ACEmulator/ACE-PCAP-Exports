@@ -32,9 +32,25 @@ VALUES (14247, 13, True) /* ETHEREAL_BOOL */
      , (14247, 19, True) /* ATTACKABLE_BOOL */
      , (14247, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14247, 16, 'The current maintenance has been paid.
 ') /* LONG_DESC_STRING */;
+
+/* Slumlord Extended Properties */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14247, 155, 1) /* HOUSE_TYPE_INT */
+     , (14247, 149, 1) /* HOUSE_STATUS_INT */
+     , (14247, 86, 20) /* MIN_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14247, 4, False) /* ROT_PROOF_BOOL */;
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
+VALUES (14247, 16, 273, 300000) /* Pyreal */
+     , (14247, 16, 11710, 1) /* Writ of Refuge */
+     , (14247, 16, 7046, 1) /* Sclavus Tongue */
+     , (14247, 32, 273, 30000) /* Pyreal */;
 

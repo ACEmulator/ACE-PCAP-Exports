@@ -32,7 +32,7 @@ VALUES (23517, 13, True) /* ETHEREAL_BOOL */
      , (23517, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (23517, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23517, 16, 'A note left by Tamian Wilmot.') /* LONG_DESC_STRING */;

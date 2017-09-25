@@ -84,7 +84,7 @@ VALUES (21340, 12, 16778423)
      , (21340, 7, 16777708)
      , (21340, 8, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21340, 5, 'Planner of Weddings') /* TEMPLATE_STRING */;

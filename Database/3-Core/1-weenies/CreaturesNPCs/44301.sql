@@ -106,7 +106,7 @@ VALUES (44301, 0, 16794061)
      , (44301, 8, 16789358)
      , (44301, 16, 16794064);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44301, 5, 'Arcanum Collector') /* TEMPLATE_STRING */;

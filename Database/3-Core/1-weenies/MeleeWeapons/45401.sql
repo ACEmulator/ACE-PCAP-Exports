@@ -49,7 +49,7 @@ VALUES (45401, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45401, 0, 16777945);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45401, 16, 'Simi of Blood Drinker') /* LONG_DESC_STRING */;

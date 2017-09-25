@@ -35,7 +35,7 @@ VALUES (24171, 13, True) /* ETHEREAL_BOOL */
      , (24171, 19, True) /* ATTACKABLE_BOOL */
      , (24171, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24171, 15, 'A very sharp and light dirk capable of multiple blows at once.') /* SHORT_DESC_STRING */;

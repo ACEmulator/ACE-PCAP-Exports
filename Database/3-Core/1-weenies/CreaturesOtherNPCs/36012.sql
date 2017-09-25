@@ -37,7 +37,7 @@ VALUES (36012, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (36012, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (36012, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36012, 16, 'A shadowy statue of the Hopeslayer.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (12524, 13, True) /* ETHEREAL_BOOL */
      , (12524, 19, True) /* ATTACKABLE_BOOL */
      , (12524, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12524, 38, 'Mountain Ridge Abodes Portal (34.5N, 22.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

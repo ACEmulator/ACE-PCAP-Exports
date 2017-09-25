@@ -98,7 +98,7 @@ VALUES (5636, 10, 16777301)
      , (5636, 8, 16777298)
      , (5636, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5636, 5, 'Grounds Keeper') /* TEMPLATE_STRING */;

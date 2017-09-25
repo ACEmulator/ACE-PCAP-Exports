@@ -46,7 +46,7 @@ VALUES (40709, 0, 83889072, 83894171)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40709, 0, 16778376);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40709, 16, 'Covenant Girth') /* LONG_DESC_STRING */;

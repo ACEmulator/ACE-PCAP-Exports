@@ -34,7 +34,7 @@ VALUES (5846, 13, True) /* ETHEREAL_BOOL */
      , (5846, 19, True) /* ATTACKABLE_BOOL */
      , (5846, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5846, 16, 'Written transcription of Dericostian runes discovered on a Standing Stone near Stonehold. The runes appear to be cut off, as if most of the message were missing.') /* LONG_DESC_STRING */

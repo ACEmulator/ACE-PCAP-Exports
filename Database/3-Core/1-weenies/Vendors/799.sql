@@ -82,7 +82,7 @@ VALUES (799, 2, 16778436)
      , (799, 4, 16778426)
      , (799, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (799, 5, 'Grocer') /* TEMPLATE_STRING */;
@@ -114,6 +114,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (799, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (799, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (799, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (799, 74, 4481568) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (799, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (799, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (799, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (799, 38, 1.55) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (799, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

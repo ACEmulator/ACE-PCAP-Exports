@@ -87,7 +87,7 @@ VALUES (32842, 9, 16790004)
      , (32842, 8, 16790002)
      , (32842, 16, 16790005);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32842, 5, 'Intelligence Chief') /* TEMPLATE_STRING */;

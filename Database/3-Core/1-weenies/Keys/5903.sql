@@ -33,7 +33,7 @@ VALUES (5903, 13, True) /* ETHEREAL_BOOL */
      , (5903, 19, True) /* ATTACKABLE_BOOL */
      , (5903, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5903, 16, 'A magical key of crystal and iron, which unlocks the coffers of the Lost City of Frore.') /* LONG_DESC_STRING */

@@ -37,7 +37,7 @@ VALUES (31663, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (31663, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (31663, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31663, 5, 'Servant of Adhorix') /* TEMPLATE_STRING */;

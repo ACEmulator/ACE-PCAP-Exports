@@ -36,7 +36,7 @@ VALUES (152, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (152, 19, True) /* ATTACKABLE_BOOL */
      , (152, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (152, 14, 'Use an empty flask on the font to fill it with water.') /* USE_STRING */;

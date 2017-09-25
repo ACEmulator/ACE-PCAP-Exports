@@ -31,7 +31,7 @@ VALUES (35992, 13, True) /* ETHEREAL_BOOL */
      , (35992, 19, True) /* ATTACKABLE_BOOL */
      , (35992, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35992, 16, 'A small scrap of Shadow Essence, dropped by the Prodigal Shadow Child. This essence seems strangely permanent, as opposed to fading, like Shadows normally do in death.') /* LONG_DESC_STRING */

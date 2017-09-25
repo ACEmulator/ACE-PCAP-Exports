@@ -49,7 +49,7 @@ VALUES (30348, 0, 83897124, 83897124);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30348, 0, 16792028);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30348, 16, 'Made from fine and supple steel, this atlatl was designed to hunt wild game.  This dart-thrower, made by the Huntsmen''s Guild of Viamont, soon became a fashionable hunting implement among the aristocrats of that nation.  There are rumors, however, that the Huntsmen''s Guild has darker purposes for these weapons, that involve hunting human prey...') /* LONG_DESC_STRING */;

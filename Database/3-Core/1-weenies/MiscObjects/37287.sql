@@ -32,7 +32,7 @@ VALUES (37287, 13, True) /* ETHEREAL_BOOL */
      , (37287, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37287, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37287, 16, 'A complete Deck of Hands. Still, the deck seems somehow incomplete.') /* LONG_DESC_STRING */

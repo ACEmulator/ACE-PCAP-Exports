@@ -31,7 +31,7 @@ VALUES (36867, 13, True) /* ETHEREAL_BOOL */
      , (36867, 14, True) /* GRAVITY_STATUS_BOOL */
      , (36867, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36867, 16, 'A coin imprinted with the mark of the Colosseum.') /* LONG_DESC_STRING */

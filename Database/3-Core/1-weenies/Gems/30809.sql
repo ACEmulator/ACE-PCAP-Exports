@@ -38,7 +38,7 @@ VALUES (30809, 13, True) /* ETHEREAL_BOOL */
      , (30809, 15, True) /* LIGHTS_STATUS_BOOL */
      , (30809, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30809, 14, 'Double Click on this item to summon a portal to the battlefield of Ayn Tayn.') /* USE_STRING */

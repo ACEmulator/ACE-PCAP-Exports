@@ -52,7 +52,7 @@ VALUES (20640, 0, 83886756, 83886756)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20640, 0, 16788030);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20640, 16, 'Royal Atlatl of Blood Drinker') /* LONG_DESC_STRING */;

@@ -85,7 +85,7 @@ VALUES (32801, 12, 16777304)
      , (32801, 4, 16791881)
      , (32801, 8, 16791882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32801, 5, 'Master Armorer') /* TEMPLATE_STRING */;

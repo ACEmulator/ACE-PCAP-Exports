@@ -33,7 +33,7 @@ VALUES (15143, 13, True) /* ETHEREAL_BOOL */
      , (15143, 19, True) /* ATTACKABLE_BOOL */
      , (15143, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15143, 38, 'Asbel Domain Portal (0.9S, 39.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

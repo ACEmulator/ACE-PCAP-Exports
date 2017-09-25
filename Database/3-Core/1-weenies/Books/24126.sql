@@ -34,7 +34,7 @@ VALUES (24126, 13, True) /* ETHEREAL_BOOL */
      , (24126, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24126, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24126, 16, 'A gnawed and crumpled letter. It has been torn, folded, mutilated, and bears the marks of mite teeth, but the elegant handwriting is still legible.') /* LONG_DESC_STRING */;

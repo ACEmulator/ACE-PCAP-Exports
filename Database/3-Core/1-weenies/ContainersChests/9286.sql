@@ -44,7 +44,7 @@ VALUES (9286, 67113155, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9286, 9, 16785621);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9286, 16, 'A Virindi cache lies here.') /* LONG_DESC_STRING */

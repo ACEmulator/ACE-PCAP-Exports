@@ -33,7 +33,7 @@ VALUES (48719, 13, True) /* ETHEREAL_BOOL */
      , (48719, 19, True) /* ATTACKABLE_BOOL */
      , (48719, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48719, 38, 'Crystal Core') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

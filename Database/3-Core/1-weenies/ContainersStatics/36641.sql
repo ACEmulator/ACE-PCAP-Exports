@@ -36,7 +36,7 @@ VALUES (36641, 13, True) /* ETHEREAL_BOOL */
      , (36641, 19, True) /* ATTACKABLE_BOOL */
      , (36641, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36641, 16, 'Corpse of the spy that Oswent said was missing.') /* LONG_DESC_STRING */;

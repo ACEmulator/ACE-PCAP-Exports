@@ -34,7 +34,7 @@ VALUES (11448, 13, True) /* ETHEREAL_BOOL */
      , (11448, 19, True) /* ATTACKABLE_BOOL */
      , (11448, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11448, 16, 'A double totem representing Audetaunga. ') /* LONG_DESC_STRING */

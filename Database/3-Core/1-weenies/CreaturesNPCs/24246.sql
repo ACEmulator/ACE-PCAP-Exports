@@ -85,7 +85,7 @@ VALUES (24246, 2, 16777293)
      , (24246, 14, 16789089)
      , (24246, 11, 16777302);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24246, 5, 'Olthoi Fighter') /* TEMPLATE_STRING */;

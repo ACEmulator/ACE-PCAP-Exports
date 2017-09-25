@@ -52,7 +52,7 @@ VALUES (43473, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43473, 0, 16779181);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43473, 16, 'Using this gem will cast Surging Strength, which increases your Damage Rating by 20 for 15 seconds.  This gem has a 1 hour cooldown.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (52220, 13, True) /* ETHEREAL_BOOL */
      , (52220, 19, True) /* ATTACKABLE_BOOL */
      , (52220, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52220, 38, 'Fiery Alcove') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

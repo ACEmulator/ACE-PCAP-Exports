@@ -32,7 +32,7 @@ VALUES (29329, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29329, 19, True) /* ATTACKABLE_BOOL */
      , (29329, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29329, 14, 'This door leads to the Practice Area. Make sure you have found all three pieces of your armor before you enter these doors.') /* USE_STRING */;

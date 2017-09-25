@@ -35,7 +35,7 @@ VALUES (43358, 13, True) /* ETHEREAL_BOOL */
      , (43358, 19, True) /* ATTACKABLE_BOOL */
      , (43358, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43358, 16, 'Inscribed spell: Void Magic Ineptitude Other II

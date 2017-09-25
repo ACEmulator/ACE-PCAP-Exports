@@ -75,7 +75,7 @@ VALUES (30979, 12, 16778423)
      , (30979, 14, 16783855)
      , (30979, 16, 16791907);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30979, 5, 'Tormented Soul') /* TEMPLATE_STRING */;

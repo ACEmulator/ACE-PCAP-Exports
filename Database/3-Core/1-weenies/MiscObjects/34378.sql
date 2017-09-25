@@ -31,7 +31,7 @@ VALUES (34378, 13, True) /* ETHEREAL_BOOL */
      , (34378, 19, True) /* ATTACKABLE_BOOL */
      , (34378, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34378, 16, 'A crumpled and re-flattened candy wrapper.  Marked on the inside, in black ink, is a penguin footprint.  Mr. P gave this to you, to give to Larinne Kerendova, the Pet Store Manager, in exchange for some ''proper'' penguin food.') /* LONG_DESC_STRING */;

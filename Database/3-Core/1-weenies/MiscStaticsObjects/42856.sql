@@ -29,7 +29,7 @@ VALUES (42856, 13, True) /* ETHEREAL_BOOL */
      , (42856, 19, True) /* ATTACKABLE_BOOL */
      , (42856, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42856, 16, 'Skeletons are a special subset of the undead. Creatures completely devoid of flesh, skeletons  attack with weapons, or with hands and feet. The most powerful Skeleton Lords also wield magic.') /* LONG_DESC_STRING */;

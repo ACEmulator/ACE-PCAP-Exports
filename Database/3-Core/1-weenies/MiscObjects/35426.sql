@@ -34,7 +34,7 @@ VALUES (35426, 13, True) /* ETHEREAL_BOOL */
      , (35426, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35426, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35426, 16, 'A scrap of cloth that looks like it belonged to a bigger piece. Child like scrawling cover the cloth, but they have no apparent meaning.') /* LONG_DESC_STRING */

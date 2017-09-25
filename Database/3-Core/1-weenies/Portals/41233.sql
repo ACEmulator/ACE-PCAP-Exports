@@ -33,7 +33,7 @@ VALUES (41233, 13, True) /* ETHEREAL_BOOL */
      , (41233, 19, True) /* ATTACKABLE_BOOL */
      , (41233, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41233, 16, 'This portal leads to the Apostate Reaving Facility.') /* LONG_DESC_STRING */

@@ -36,7 +36,7 @@ VALUES (25338, 13, True) /* ETHEREAL_BOOL */
      , (25338, 19, True) /* ATTACKABLE_BOOL */
      , (25338, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25338, 16, 'A lovely and delicately detailed mask representing Koji herself. ') /* LONG_DESC_STRING */;

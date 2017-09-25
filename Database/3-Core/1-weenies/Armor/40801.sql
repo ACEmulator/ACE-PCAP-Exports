@@ -42,7 +42,7 @@ VALUES (40801, 67113376, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40801, 0, 16787332);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40801, 15, 'A mask crafted from the mask of the Apostate Nexus Master.') /* SHORT_DESC_STRING */;

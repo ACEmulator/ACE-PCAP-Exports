@@ -34,7 +34,7 @@ VALUES (8507, 13, True) /* ETHEREAL_BOOL */
      , (8507, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8507, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8507, 16, 'A heavy bound book, filled with small, tight, neatly printed Dericostian runes.') /* LONG_DESC_STRING */;

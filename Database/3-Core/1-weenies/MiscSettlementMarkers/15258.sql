@@ -29,7 +29,7 @@ VALUES (15258, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15258, 19, True) /* ATTACKABLE_BOOL */
      , (15258, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15258, 16, 'Welcome to South Siege Villas') /* LONG_DESC_STRING */;

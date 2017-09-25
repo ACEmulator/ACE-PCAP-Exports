@@ -33,7 +33,7 @@ VALUES (13129, 13, True) /* ETHEREAL_BOOL */
      , (13129, 19, True) /* ATTACKABLE_BOOL */
      , (13129, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13129, 38, 'Slinker Meadows Portal (3.2N, 60.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

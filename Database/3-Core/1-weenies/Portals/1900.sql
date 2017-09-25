@@ -33,7 +33,7 @@ VALUES (1900, 13, True) /* ETHEREAL_BOOL */
      , (1900, 19, True) /* ATTACKABLE_BOOL */
      , (1900, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1900, 38, 'Heartland (22.6N, 37.2E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

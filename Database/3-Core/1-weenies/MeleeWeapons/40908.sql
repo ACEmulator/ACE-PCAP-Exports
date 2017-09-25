@@ -39,7 +39,7 @@ VALUES (40908, 13, True) /* ETHEREAL_BOOL */
      , (40908, 19, True) /* ATTACKABLE_BOOL */
      , (40908, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40908, 16, 'A heavily enchanted flaming sword, wrought from magically-reinforced silver.  The magics are so elegantly inlaid into the weapon that there is no visible enchantment on the blade.  Its ivory haft is inscribed ''Ashbane,'' and bears the name of Leikotha Arenir.') /* LONG_DESC_STRING */;

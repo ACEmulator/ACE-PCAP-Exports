@@ -31,7 +31,7 @@ VALUES (31511, 13, True) /* ETHEREAL_BOOL */
      , (31511, 19, True) /* ATTACKABLE_BOOL */
      , (31511, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31511, 16, 'A suckling pig covered in creamy butterscotch. This is a favorite dish of hungry Golems everywhere.') /* LONG_DESC_STRING */;

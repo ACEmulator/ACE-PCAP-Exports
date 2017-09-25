@@ -86,7 +86,7 @@ VALUES (672, 11, 16778429)
      , (672, 4, 16778426)
      , (672, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (672, 5, 'Grocer') /* TEMPLATE_STRING */;
@@ -108,6 +108,20 @@ VALUES (672, 113, 2) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (672, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (672, 74, 4481568) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (672, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (672, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (672, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (672, 38, 1.45) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (672, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

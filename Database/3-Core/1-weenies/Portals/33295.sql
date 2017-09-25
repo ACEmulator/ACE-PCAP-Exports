@@ -33,7 +33,7 @@ VALUES (33295, 13, True) /* ETHEREAL_BOOL */
      , (33295, 19, True) /* ATTACKABLE_BOOL */
      , (33295, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33295, 38, 'Temple of N''cthail (79.7N, 54.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

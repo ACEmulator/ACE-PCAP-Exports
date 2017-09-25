@@ -54,7 +54,7 @@ VALUES (29258, 0, 83895603, 83895603)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29258, 0, 16791354);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29258, 16, 'Slashing Atlatl') /* LONG_DESC_STRING */;

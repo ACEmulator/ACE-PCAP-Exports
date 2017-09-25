@@ -33,7 +33,7 @@ VALUES (12696, 13, True) /* ETHEREAL_BOOL */
      , (12696, 19, True) /* ATTACKABLE_BOOL */
      , (12696, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12696, 38, 'Arcanum Furniture Shop') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

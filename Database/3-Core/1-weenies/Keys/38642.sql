@@ -33,7 +33,7 @@ VALUES (38642, 13, True) /* ETHEREAL_BOOL */
      , (38642, 19, True) /* ATTACKABLE_BOOL */
      , (38642, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38642, 16, 'This key is made of tarnished silver.  It unlocks a door in the Rogue Delvings.') /* LONG_DESC_STRING */

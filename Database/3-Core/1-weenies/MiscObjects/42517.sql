@@ -51,7 +51,7 @@ VALUES (42517, 0, 16784246)
      , (42517, 1, 16784196)
      , (42517, 2, 16784180);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42517, 16, 'A mote of coalesced mana.') /* LONG_DESC_STRING */;

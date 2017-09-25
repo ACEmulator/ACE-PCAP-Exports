@@ -52,7 +52,7 @@ VALUES (37203, 0, 83887064, 83897897)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37203, 0, 16778829);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37203, 16, 'Olthoi Koujia Leggings') /* LONG_DESC_STRING */;

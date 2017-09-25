@@ -65,7 +65,7 @@ VALUES (25493, 0, 16785699)
      , (25493, 19, 16785704)
      , (25493, 20, 16785705);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25493, 5, 'Gotrok Sergeant') /* TEMPLATE_STRING */;

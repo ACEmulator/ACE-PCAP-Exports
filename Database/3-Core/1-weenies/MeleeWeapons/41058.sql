@@ -49,7 +49,7 @@ VALUES (41058, 0, 83897966, 83897966)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41058, 0, 16794292);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41058, 16, 'Acid Great Star Mace of Defender') /* LONG_DESC_STRING */;

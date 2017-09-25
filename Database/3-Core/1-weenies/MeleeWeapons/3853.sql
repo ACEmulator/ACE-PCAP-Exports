@@ -40,7 +40,7 @@ VALUES (3853, 13, True) /* ETHEREAL_BOOL */
      , (3853, 19, True) /* ATTACKABLE_BOOL */
      , (3853, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3853, 16, 'Acid Shamshir of Defender') /* LONG_DESC_STRING */;

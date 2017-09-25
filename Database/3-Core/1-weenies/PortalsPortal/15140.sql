@@ -33,7 +33,7 @@ VALUES (15140, 13, True) /* ETHEREAL_BOOL */
      , (15140, 19, True) /* ATTACKABLE_BOOL */
      , (15140, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15140, 38, 'Aloria Portal (50.3N, 26.4W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

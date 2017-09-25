@@ -38,7 +38,7 @@ VALUES (40804, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40804, 67116924, 240, 16);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40804, 15, 'This broken mask was taken from the Virindi Master of the Apostate Nexus.') /* SHORT_DESC_STRING */;

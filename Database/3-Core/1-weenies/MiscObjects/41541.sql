@@ -32,7 +32,7 @@ VALUES (41541, 13, True) /* ETHEREAL_BOOL */
      , (41541, 19, True) /* ATTACKABLE_BOOL */
      , (41541, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41541, 16, 'A shattered piece of the Aetherium Core that powered the Gear Knight called the Overseer.') /* LONG_DESC_STRING */

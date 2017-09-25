@@ -33,7 +33,7 @@ VALUES (12505, 13, True) /* ETHEREAL_BOOL */
      , (12505, 19, True) /* ATTACKABLE_BOOL */
      , (12505, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12505, 38, 'Imuth Maer Cottages Portal (15.9S, 60.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

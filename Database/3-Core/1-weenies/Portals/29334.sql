@@ -33,7 +33,7 @@ VALUES (29334, 13, True) /* ETHEREAL_BOOL */
      , (29334, 19, True) /* ATTACKABLE_BOOL */
      , (29334, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29334, 16, 'Walk into this portal to enter the Outer Courtyard.') /* LONG_DESC_STRING */

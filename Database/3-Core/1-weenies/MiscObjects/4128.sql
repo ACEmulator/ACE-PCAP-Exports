@@ -31,7 +31,7 @@ VALUES (4128, 13, True) /* ETHEREAL_BOOL */
      , (4128, 19, True) /* ATTACKABLE_BOOL */
      , (4128, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4128, 14, 'Drop this item on the landscape to start a campfire.') /* USE_STRING */;

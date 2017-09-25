@@ -33,7 +33,7 @@ VALUES (9060, 13, True) /* ETHEREAL_BOOL */
      , (9060, 19, True) /* ATTACKABLE_BOOL */
      , (9060, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9060, 14, 'Use on a magic item to give the stone''s stored Mana to that item.') /* USE_STRING */;

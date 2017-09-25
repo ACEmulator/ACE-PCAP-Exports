@@ -88,7 +88,7 @@ VALUES (5193, 12, 16777304)
      , (5193, 14, 16783855)
      , (5193, 16, 16785776);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5193, 5, 'Society Agent') /* TEMPLATE_STRING */;

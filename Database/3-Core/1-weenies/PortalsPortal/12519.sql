@@ -33,7 +33,7 @@ VALUES (12519, 13, True) /* ETHEREAL_BOOL */
      , (12519, 19, True) /* ATTACKABLE_BOOL */
      , (12519, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12519, 38, 'Meditation Meadow Portal (49.4S, 84.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

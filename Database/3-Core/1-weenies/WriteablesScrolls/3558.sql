@@ -35,7 +35,7 @@ VALUES (3558, 13, True) /* ETHEREAL_BOOL */
      , (3558, 19, True) /* ATTACKABLE_BOOL */
      , (3558, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3558, 16, 'Inscribed spell: Vulnerability Other II

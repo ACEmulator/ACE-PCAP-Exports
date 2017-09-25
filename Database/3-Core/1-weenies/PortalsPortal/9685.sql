@@ -33,7 +33,7 @@ VALUES (9685, 13, True) /* ETHEREAL_BOOL */
      , (9685, 19, True) /* ATTACKABLE_BOOL */
      , (9685, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9685, 38, 'Desert March Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -34,7 +34,7 @@ VALUES (41023, 13, True) /* ETHEREAL_BOOL */
      , (41023, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41023, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41023, 16, 'Research notes describing Marcus''s experiments in Mar''uun.') /* LONG_DESC_STRING */;

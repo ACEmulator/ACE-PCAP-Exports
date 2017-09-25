@@ -126,7 +126,7 @@ VALUES (32397, 5, 16789351)
      , (32397, 8, 16789358)
      , (32397, 16, 16789379);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32397, 16, 'A statue placed over the grave of Antius Blackmoor.') /* LONG_DESC_STRING */;

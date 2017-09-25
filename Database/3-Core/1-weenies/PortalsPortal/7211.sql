@@ -33,7 +33,7 @@ VALUES (7211, 13, True) /* ETHEREAL_BOOL */
      , (7211, 19, True) /* ATTACKABLE_BOOL */
      , (7211, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7211, 38, 'Northwest Direlands Portal (5.5N, 87.5W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -48,7 +48,7 @@ VALUES (37208, 0, 83889344, 83894687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37208, 0, 16778416);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37208, 16, 'Olthoi Amuli Sollerets of Heavy Weapon Mastery') /* LONG_DESC_STRING */;

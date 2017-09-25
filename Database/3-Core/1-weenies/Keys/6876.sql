@@ -34,7 +34,7 @@ VALUES (6876, 13, True) /* ETHEREAL_BOOL */
      , (6876, 19, True) /* ATTACKABLE_BOOL */
      , (6876, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6876, 16, 'This key is a sturdy iron key that looks like it might fit a variety of chests, of the type used to hold valuable treasure.') /* LONG_DESC_STRING */

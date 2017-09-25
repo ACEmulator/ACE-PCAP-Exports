@@ -37,7 +37,7 @@ VALUES (33111, 13, True) /* ETHEREAL_BOOL */
      , (33111, 19, True) /* ATTACKABLE_BOOL */
      , (33111, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33111, 15, 'An atlatl crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* SHORT_DESC_STRING */;

@@ -59,7 +59,7 @@ VALUES (9422, 0, 16785699)
      , (9422, 19, 16777708)
      , (9422, 20, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9422, 5, 'Gem Seller') /* TEMPLATE_STRING */;
@@ -71,6 +71,20 @@ VALUES (9422, 2, 5) /* CREATURE_TYPE_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9422, 64, 195) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9422, 74, 2056) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (9422, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (9422, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9422, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (9422, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9422, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

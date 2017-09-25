@@ -38,7 +38,7 @@ VALUES (36355, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36355, 0, 16793715);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36355, 16, 'A terrifying mask, crafted from the head of a powerful Mukkir.') /* LONG_DESC_STRING */;

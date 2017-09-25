@@ -35,7 +35,7 @@ VALUES (41614, 13, True) /* ETHEREAL_BOOL */
      , (41614, 19, True) /* ATTACKABLE_BOOL */
      , (41614, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41614, 14, 'Use this gear to summon or dismiss your Bronze Wind-up Gear Knight.') /* USE_STRING */;

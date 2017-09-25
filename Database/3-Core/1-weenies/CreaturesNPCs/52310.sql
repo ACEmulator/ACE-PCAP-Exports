@@ -79,7 +79,7 @@ VALUES (52310, 16, 16795662)
      , (52310, 4, 16795223)
      , (52310, 8, 16795224);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52310, 5, 'Caretaker') /* TEMPLATE_STRING */;

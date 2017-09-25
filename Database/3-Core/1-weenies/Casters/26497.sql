@@ -37,7 +37,7 @@ VALUES (26497, 13, True) /* ETHEREAL_BOOL */
      , (26497, 19, True) /* ATTACKABLE_BOOL */
      , (26497, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (26497, 16, 'A buadren fashioned by Aun Aulakhe to invoke the spirit of Aun Tanua from his Virindi prison in portal space.') /* LONG_DESC_STRING */

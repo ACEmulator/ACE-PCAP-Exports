@@ -31,7 +31,7 @@ VALUES (29336, 13, True) /* ETHEREAL_BOOL */
      , (29336, 19, True) /* ATTACKABLE_BOOL */
      , (29336, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29336, 16, 'The Dereth Exploration Society uses these Protection Orbs to hide their Training Academies from aggressive creatures such as the Olthoi. Return this orb to the Sentry so that he may re-cast the Protection spell.') /* LONG_DESC_STRING */;

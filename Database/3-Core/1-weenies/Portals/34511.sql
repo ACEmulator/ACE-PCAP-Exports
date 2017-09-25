@@ -64,7 +64,7 @@ VALUES (34511, 0, 16780700)
      , (34511, 10, 16785974)
      , (34511, 11, 16785974);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34511, 14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* USE_STRING */

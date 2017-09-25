@@ -88,7 +88,7 @@ VALUES (1391, 12, 16777304)
      , (1391, 4, 16781838)
      , (1391, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1391, 5, 'Peddler') /* TEMPLATE_STRING */;
@@ -110,6 +110,20 @@ VALUES (1391, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1391, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1391, 74, 1074030613) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (1391, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (1391, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (1391, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (1391, 38, 1.55) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1391, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

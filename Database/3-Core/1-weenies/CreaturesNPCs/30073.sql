@@ -78,7 +78,7 @@ VALUES (30073, 5, 16791918)
      , (30073, 22, 16777708)
      , (30073, 21, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30073, 5, 'Viamontian Guard') /* TEMPLATE_STRING */;

@@ -33,7 +33,7 @@ VALUES (38405, 13, True) /* ETHEREAL_BOOL */
      , (38405, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38405, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38405, 16, 'A glowing gland, removed from one of the Blessed Moars on the isle of Freebooter Keep.') /* LONG_DESC_STRING */;

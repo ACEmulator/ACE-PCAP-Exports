@@ -34,7 +34,7 @@ VALUES (6869, 0, 83892071, 83892185);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6869, 0, 16783205);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6869, 16, 'The Jewel of the Desert') /* LONG_DESC_STRING */;

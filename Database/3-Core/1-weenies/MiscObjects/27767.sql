@@ -34,7 +34,7 @@ VALUES (27767, 13, True) /* ETHEREAL_BOOL */
      , (27767, 19, True) /* ATTACKABLE_BOOL */
      , (27767, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27767, 14, 'You are not sure what this artifact can be used on.') /* USE_STRING */

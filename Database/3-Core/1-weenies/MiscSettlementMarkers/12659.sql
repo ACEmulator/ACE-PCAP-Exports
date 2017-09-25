@@ -29,7 +29,7 @@ VALUES (12659, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12659, 19, True) /* ATTACKABLE_BOOL */
      , (12659, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12659, 16, 'Welcome to South Victory Harbor') /* LONG_DESC_STRING */;

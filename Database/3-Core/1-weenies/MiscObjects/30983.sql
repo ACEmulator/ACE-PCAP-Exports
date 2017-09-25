@@ -32,7 +32,7 @@ VALUES (30983, 13, True) /* ETHEREAL_BOOL */
      , (30983, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30983, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30983, 16, 'A delicate Snow Lily found only on the Isle of Ruin.') /* LONG_DESC_STRING */;

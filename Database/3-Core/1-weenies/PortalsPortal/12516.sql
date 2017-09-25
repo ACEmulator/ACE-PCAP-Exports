@@ -33,7 +33,7 @@ VALUES (12516, 13, True) /* ETHEREAL_BOOL */
      , (12516, 19, True) /* ATTACKABLE_BOOL */
      , (12516, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12516, 38, 'Maedew Portal (8.9S, 64.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

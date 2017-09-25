@@ -35,7 +35,7 @@ VALUES (38456, 13, True) /* ETHEREAL_BOOL */
      , (38456, 19, True) /* ATTACKABLE_BOOL */
      , (38456, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38456, 16, 'A crystalline key that coruscates with purple energies.') /* LONG_DESC_STRING */

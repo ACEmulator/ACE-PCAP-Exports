@@ -33,7 +33,7 @@ VALUES (35383, 13, True) /* ETHEREAL_BOOL */
      , (35383, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35383, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35383, 15, 'An elegant but charred coin, used in ancient times by House Mhoire. ') /* SHORT_DESC_STRING */;

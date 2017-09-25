@@ -32,7 +32,7 @@ VALUES (38612, 13, True) /* ETHEREAL_BOOL */
      , (38612, 19, True) /* ATTACKABLE_BOOL */
      , (38612, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38612, 16, 'A fin taken from a Dark Remoran, to all appearances.  However, the assassin who gave it to you maintains that there has been some modification made to it which will harm the Deep.') /* LONG_DESC_STRING */

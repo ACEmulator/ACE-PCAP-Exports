@@ -35,7 +35,7 @@ VALUES (25468, 13, True) /* ETHEREAL_BOOL */
      , (25468, 19, True) /* ATTACKABLE_BOOL */
      , (25468, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25468, 16, 'A jar of foul smelling goo.') /* LONG_DESC_STRING */;

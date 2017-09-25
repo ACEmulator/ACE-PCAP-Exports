@@ -48,7 +48,7 @@ VALUES (27092, 0, 83893255, 83893255)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27092, 0, 16785711);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27092, 15, 'When you must strike, do not leave room for a return blow.') /* SHORT_DESC_STRING */;

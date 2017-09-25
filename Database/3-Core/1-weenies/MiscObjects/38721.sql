@@ -33,7 +33,7 @@ VALUES (38721, 13, True) /* ETHEREAL_BOOL */
      , (38721, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38721, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38721, 16, 'An writ authorizing the Vault Keeper to give you a key to the society vaults.') /* LONG_DESC_STRING */

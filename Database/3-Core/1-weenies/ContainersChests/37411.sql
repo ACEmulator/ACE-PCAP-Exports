@@ -37,7 +37,7 @@ VALUES (37411, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (37411, 19, True) /* ATTACKABLE_BOOL */
      , (37411, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37411, 16, 'A treasure chest encrusted by coral, appearing as it had been lost at sea for a long, long time...') /* LONG_DESC_STRING */

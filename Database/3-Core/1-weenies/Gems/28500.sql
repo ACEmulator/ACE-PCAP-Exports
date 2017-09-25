@@ -34,7 +34,7 @@ VALUES (28500, 13, True) /* ETHEREAL_BOOL */
      , (28500, 19, True) /* ATTACKABLE_BOOL */
      , (28500, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28500, 16, 'A crate with five empty slots. Each are labeled for one of the different golem hearts that the crate is meant to hold. The first slot appears to be reserved for a Granite Golem heart.') /* LONG_DESC_STRING */

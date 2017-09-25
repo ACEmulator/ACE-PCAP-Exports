@@ -33,7 +33,7 @@ VALUES (51325, 13, True) /* ETHEREAL_BOOL */
      , (51325, 19, True) /* ATTACKABLE_BOOL */
      , (51325, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51325, 38, 'Hive Warrior Mound') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

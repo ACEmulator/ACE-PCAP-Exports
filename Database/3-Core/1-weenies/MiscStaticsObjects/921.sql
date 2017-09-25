@@ -30,7 +30,7 @@ VALUES (921, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (921, 19, True) /* ATTACKABLE_BOOL */
      , (921, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (921, 16, 'Welcome to the town of Holtburg.') /* LONG_DESC_STRING */;

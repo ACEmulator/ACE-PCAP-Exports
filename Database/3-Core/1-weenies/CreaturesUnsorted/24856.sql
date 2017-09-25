@@ -38,7 +38,7 @@ VALUES (24856, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24856, 16, 16788334);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24856, 2, 62) /* CREATURE_TYPE_INT */

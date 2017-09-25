@@ -91,7 +91,7 @@ VALUES (52992, 12, 16778423)
      , (52992, 16, 16788193)
      , (52992, 29, 16797056);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52992, 5, 'Crystal of Increasing Pain Trader') /* TEMPLATE_STRING */;

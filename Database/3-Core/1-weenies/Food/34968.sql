@@ -38,7 +38,7 @@ VALUES (34968, 13, True) /* ETHEREAL_BOOL */
      , (34968, 19, True) /* ATTACKABLE_BOOL */
      , (34968, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34968, 16, 'This is a bluish mushroom, originally given to you by Torgluuk and since enhanced by the power of a ley line. It glows with a light blue energy, but is not warm to the touch. It seems safe to eat.') /* LONG_DESC_STRING */

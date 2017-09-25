@@ -57,7 +57,7 @@ VALUES (41805, 0, 16794145)
      , (41805, 15, 16794143)
      , (41805, 16, 16794149);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41805, 16, 'Killed by adventurers.') /* LONG_DESC_STRING */

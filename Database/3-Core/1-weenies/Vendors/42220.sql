@@ -82,7 +82,7 @@ VALUES (42220, 12, 16777304)
      , (42220, 13, 16783871)
      , (42220, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42220, 5, 'Master Enchanter') /* TEMPLATE_STRING */;

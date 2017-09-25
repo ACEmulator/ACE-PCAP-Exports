@@ -40,7 +40,7 @@ VALUES (12236, 13, True) /* ETHEREAL_BOOL */
      , (12236, 19, True) /* ATTACKABLE_BOOL */
      , (12236, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12236, 16, 'A strange, purple crystal.  It has an odd aura around it, and you can see strange flickering shapes within.') /* LONG_DESC_STRING */;

@@ -45,7 +45,7 @@ VALUES (11363, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11363, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11363, 15, 'A small bundle of Kithless Siraluun Feathers.') /* SHORT_DESC_STRING */;

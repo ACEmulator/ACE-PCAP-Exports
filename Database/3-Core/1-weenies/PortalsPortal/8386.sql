@@ -33,7 +33,7 @@ VALUES (8386, 13, True) /* ETHEREAL_BOOL */
      , (8386, 19, True) /* ATTACKABLE_BOOL */
      , (8386, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8386, 38, 'Direlands Valleys Portal (42.9S, 63.5W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

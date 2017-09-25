@@ -36,7 +36,7 @@ VALUES (24263, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24263, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (24263, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24263, 16, 'A simple shrine to Jojii.') /* LONG_DESC_STRING */

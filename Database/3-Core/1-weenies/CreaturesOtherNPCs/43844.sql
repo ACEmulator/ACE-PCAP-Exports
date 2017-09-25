@@ -37,7 +37,7 @@ VALUES (43844, 13, True) /* ETHEREAL_BOOL */
      , (43844, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (43844, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43844, 384, 0) /*  */

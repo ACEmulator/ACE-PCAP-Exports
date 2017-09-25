@@ -29,7 +29,7 @@ VALUES (42747, 13, True) /* ETHEREAL_BOOL */
      , (42747, 19, True) /* ATTACKABLE_BOOL */
      , (42747, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42747, 16, 'When the Sho first arrived, they decided to build their first city, Hebian-To, at the mouth of the River Prosper. But some chose instead to settle in the plains northwest of the Blackmire Swamp, almost within Aluvian territory. They found a large, lone rock in a field, and there they settled Yanshi, the Town of the Boulder. Some time later, but before the era of the Lifestones, Tumeroks attacked Yanshi, and the legendary Ben Ten came to the town''s defense. For more on the Battle of Yanshi, head to the Sho library in Hebian-To and read "The Story of Ben Ten and Yanshi." In Verdantine, 13 PY, the Yalaini mage Gaerlan attempted to summon a being known as the Harbinger. His attempt failed, and his summoning chamber, along with the town of Yanshi above it, were destroyed. The Sacred Stone in the center of town survived, as did the will of the people. In Frostfell, 16 PY, Yanshi was rebuilt to the west on a hill near the festival grounds of Leafcull. As part of the reconstruction, a memorial to Antius Blackmoor was built. During Solclaim of 21 PY, Prince Borelean Strathelar and Hoshino Kei were wed in the meadow outside of the town''s walls.') /* LONG_DESC_STRING */;

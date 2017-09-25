@@ -110,7 +110,7 @@ VALUES (35839, 16, 16795650)
      , (35839, 4, 16788088)
      , (35839, 8, 16788089);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35839, 5, 'Guard') /* TEMPLATE_STRING */;

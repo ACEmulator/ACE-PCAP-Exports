@@ -44,7 +44,7 @@ VALUES (33960, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33960, 0, 16778862);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33960, 16, 'A sandy rock used to rub old inscriptions off of an item.') /* LONG_DESC_STRING */

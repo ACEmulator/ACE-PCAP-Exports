@@ -33,7 +33,7 @@ VALUES (40919, 13, True) /* ETHEREAL_BOOL */
      , (40919, 19, True) /* ATTACKABLE_BOOL */
      , (40919, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40919, 38, 'Up to Arcanum Lookout (65.3S, 43.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

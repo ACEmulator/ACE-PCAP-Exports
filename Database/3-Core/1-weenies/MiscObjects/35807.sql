@@ -76,7 +76,7 @@ VALUES (35807, 0, 16788885)
      , (35807, 12, 16788891)
      , (35807, 16, 16789125);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35807, 16, 'A statue sculpted in the likeness of the vanquished Colosseum Champion, Gladiator Diemos.') /* LONG_DESC_STRING */

@@ -33,7 +33,7 @@ VALUES (15687, 13, True) /* ETHEREAL_BOOL */
      , (15687, 19, True) /* ATTACKABLE_BOOL */
      , (15687, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15687, 38, 'Windrune Cottages Portal (62.6N, 3.2E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

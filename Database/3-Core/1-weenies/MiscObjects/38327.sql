@@ -43,7 +43,7 @@ VALUES (38327, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38327, 0, 16778348);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38327, 16, 'The amulet whispers to you of dark rituals and horrific practices.') /* LONG_DESC_STRING */

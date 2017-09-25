@@ -38,7 +38,7 @@ VALUES (43121, 13, True) /* ETHEREAL_BOOL */
      , (43121, 19, True) /* ATTACKABLE_BOOL */
      , (43121, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43121, 272, 475) /* WIELD_DIFFICULTY_2_INT */

@@ -33,7 +33,7 @@ VALUES (35318, 13, True) /* ETHEREAL_BOOL */
      , (35318, 19, True) /* ATTACKABLE_BOOL */
      , (35318, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35318, 16, 'This portal leads to the Tanada House of Water.') /* LONG_DESC_STRING */

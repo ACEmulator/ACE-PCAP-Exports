@@ -48,7 +48,7 @@ VALUES (2367, 0, 83891219, 83891219);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2367, 0, 16778341);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2367, 16, 'Gorget of Magic Resistance') /* LONG_DESC_STRING */;

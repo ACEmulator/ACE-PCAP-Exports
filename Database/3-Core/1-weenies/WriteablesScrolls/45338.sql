@@ -35,7 +35,7 @@ VALUES (45338, 13, True) /* ETHEREAL_BOOL */
      , (45338, 19, True) /* ATTACKABLE_BOOL */
      , (45338, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45338, 16, 'Inscribed spell: Sneak Attack Ineptitude Other VII

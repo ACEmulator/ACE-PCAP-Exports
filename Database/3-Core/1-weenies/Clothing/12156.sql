@@ -37,7 +37,7 @@ VALUES (12156, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (12156, 67113775, 160, 8);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12156, 16, 'A pair of white bunny slippers. This item can be used on an item hook.') /* LONG_DESC_STRING */;

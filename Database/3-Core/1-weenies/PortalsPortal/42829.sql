@@ -33,7 +33,7 @@ VALUES (42829, 13, True) /* ETHEREAL_BOOL */
      , (42829, 19, True) /* ATTACKABLE_BOOL */
      , (42829, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42829, 16, 'This portal goes to Tufa, the once peaceful desert oasis that was destroyed by Shadows during the Fourth Sending of Darkness. The residents have since regrouped in tents and buildings surrounded the crater of their former homes. This is a good town for characters over level 20.') /* LONG_DESC_STRING */

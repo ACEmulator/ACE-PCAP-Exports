@@ -33,7 +33,7 @@ VALUES (46598, 13, True) /* ETHEREAL_BOOL */
      , (46598, 19, True) /* ATTACKABLE_BOOL */
      , (46598, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46598, 14, 'Combine this with the middle key portion.') /* USE_STRING */

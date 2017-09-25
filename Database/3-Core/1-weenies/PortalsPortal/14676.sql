@@ -33,7 +33,7 @@ VALUES (14676, 13, True) /* ETHEREAL_BOOL */
      , (14676, 19, True) /* ATTACKABLE_BOOL */
      , (14676, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14676, 38, 'Westshore Cottages Portal (61.5N, 52.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

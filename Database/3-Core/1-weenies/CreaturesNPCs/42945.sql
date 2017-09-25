@@ -38,7 +38,7 @@ VALUES (42945, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (42945, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (42945, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42945, 5, 'Borelean''s Royal Guard') /* TEMPLATE_STRING */;

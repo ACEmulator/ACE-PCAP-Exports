@@ -33,7 +33,7 @@ VALUES (25820, 13, True) /* ETHEREAL_BOOL */
      , (25820, 19, True) /* ATTACKABLE_BOOL */
      , (25820, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25820, 14, 'As explained by Honshu, you may anoint this with the water of purity to obtain a new object.') /* USE_STRING */

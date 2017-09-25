@@ -34,7 +34,7 @@ VALUES (34080, 13, True) /* ETHEREAL_BOOL */
      , (34080, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (34080, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34080, 2, 40) /* CREATURE_TYPE_INT */

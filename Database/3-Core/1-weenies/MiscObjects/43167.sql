@@ -31,7 +31,7 @@ VALUES (43167, 13, True) /* ETHEREAL_BOOL */
      , (43167, 19, True) /* ATTACKABLE_BOOL */
      , (43167, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43167, 16, 'Your versatility is increased. All of your skills are increased by 5. This augmentation cannot be repeated.') /* LONG_DESC_STRING */;

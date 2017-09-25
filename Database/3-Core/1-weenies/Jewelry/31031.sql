@@ -36,7 +36,7 @@ VALUES (31031, 13, True) /* ETHEREAL_BOOL */
      , (31031, 19, True) /* ATTACKABLE_BOOL */
      , (31031, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31031, 16, 'A finely crafted chain necklace with a delicate snow flake hanging from it.') /* LONG_DESC_STRING */;

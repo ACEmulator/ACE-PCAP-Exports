@@ -39,7 +39,7 @@ VALUES (31000, 13, True) /* ETHEREAL_BOOL */
      , (31000, 19, True) /* ATTACKABLE_BOOL */
      , (31000, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31000, 16, 'A gift from the late Antius Blackmoor and his Page in Arwic. This gem is eternal. You can use it as often as you like.') /* LONG_DESC_STRING */;

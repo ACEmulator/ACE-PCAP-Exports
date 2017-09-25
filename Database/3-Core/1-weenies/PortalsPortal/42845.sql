@@ -33,7 +33,7 @@ VALUES (42845, 13, True) /* ETHEREAL_BOOL */
      , (42845, 19, True) /* ATTACKABLE_BOOL */
      , (42845, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42845, 16, 'This portal goes to Baishi, a town well-known for its sake and the madman that desires it. This is good town for characters over level 40.') /* LONG_DESC_STRING */

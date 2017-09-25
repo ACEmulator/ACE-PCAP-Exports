@@ -47,7 +47,7 @@ VALUES (10875, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10875, 0, 16777993);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10875, 15, 'A dagger imbued with Singularity energy.') /* SHORT_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (371, 13, True) /* ETHEREAL_BOOL */
      , (371, 19, True) /* ATTACKABLE_BOOL */
      , (371, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (371, 38, 'Alfreth Dungeon') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

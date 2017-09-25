@@ -78,7 +78,7 @@ VALUES (45501, 0, 16788885)
      , (45501, 12, 16788891)
      , (45501, 16, 16789125);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45501, 2, 13) /* CREATURE_TYPE_INT */
@@ -97,6 +97,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (45501, 64, 1120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (45501, 128, 1491) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (45501, 256, 1085) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45501, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (45501, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (45501, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45501, 37, 1) /* BUY_PRICE_FLOAT */
+     , (45501, 38, 1) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45501, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

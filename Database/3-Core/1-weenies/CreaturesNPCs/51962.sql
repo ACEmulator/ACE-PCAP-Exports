@@ -85,7 +85,7 @@ VALUES (51962, 12, 16777304)
      , (51962, 13, 16781868)
      , (51962, 14, 16781821);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51962, 5, 'Gold Smith') /* TEMPLATE_STRING */;

@@ -46,7 +46,7 @@ VALUES (40631, 0, 83887061, 83895001)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40631, 0, 16779351);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40631, 16, 'The cowl of Selaina the Subtle the leader of an unnamed fraternity of assassins.') /* LONG_DESC_STRING */;

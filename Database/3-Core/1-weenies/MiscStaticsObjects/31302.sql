@@ -32,7 +32,7 @@ VALUES (31302, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (31302, 19, True) /* ATTACKABLE_BOOL */
      , (31302, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31302, 16, 'A large tree made entirely of ice.') /* LONG_DESC_STRING */;

@@ -38,7 +38,7 @@ VALUES (34027, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34027, 0, 16792966);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34027, 16, 'A translucent mask, crafted from the head of a powerful Shadow.') /* LONG_DESC_STRING */;

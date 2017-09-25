@@ -40,7 +40,7 @@ VALUES (25949, 13, True) /* ETHEREAL_BOOL */
      , (25949, 19, True) /* ATTACKABLE_BOOL */
      , (25949, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25949, 16, 'A strange glowing sickle that crackles with energy.  Its unusually sharp edge seems as if it could inflict devastating wounds.  (uses Axe skill)') /* LONG_DESC_STRING */;

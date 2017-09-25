@@ -33,7 +33,7 @@ VALUES (5171, 13, True) /* ETHEREAL_BOOL */
      , (5171, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5171, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5171, 16, 'A note from Nasun ibn Tifar and Ahyara in the Yaraq Outposts, for delivery to Mara al-Luq outside Yaraq.') /* LONG_DESC_STRING */;

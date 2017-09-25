@@ -80,7 +80,7 @@ VALUES (35869, 0, 16788885)
      , (35869, 12, 16788891)
      , (35869, 16, 16789125);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35869, 14, 'This statues use remains a mystery.') /* USE_STRING */;

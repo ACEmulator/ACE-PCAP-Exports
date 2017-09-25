@@ -91,7 +91,7 @@ VALUES (52960, 12, 16777304)
      , (52960, 22, 16777708)
      , (52960, 21, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52960, 5, 'Society Gauntlet Officer') /* TEMPLATE_STRING */;

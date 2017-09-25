@@ -51,7 +51,7 @@ VALUES (36520, 67111920, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36520, 0, 16777887);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36520, 16, 'Killed by High-Voltage II.') /* LONG_DESC_STRING */;

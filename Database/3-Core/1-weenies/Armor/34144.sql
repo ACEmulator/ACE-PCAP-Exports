@@ -36,7 +36,7 @@ VALUES (34144, 13, True) /* ETHEREAL_BOOL */
      , (34144, 19, True) /* ATTACKABLE_BOOL */
      , (34144, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34144, 16, 'An amazing example of Viamontian High Heraldry, depicting the Silver Stag of the House of Bellenesse.') /* LONG_DESC_STRING */;

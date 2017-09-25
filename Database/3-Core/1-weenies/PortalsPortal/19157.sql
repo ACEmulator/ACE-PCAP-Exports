@@ -33,7 +33,7 @@ VALUES (19157, 13, True) /* ETHEREAL_BOOL */
      , (19157, 19, True) /* ATTACKABLE_BOOL */
      , (19157, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19157, 38, 'Sanam Batal Villas Portal (31.2N, 11.9W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

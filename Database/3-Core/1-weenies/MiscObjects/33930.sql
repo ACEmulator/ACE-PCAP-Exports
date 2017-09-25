@@ -31,7 +31,7 @@ VALUES (33930, 13, True) /* ETHEREAL_BOOL */
      , (33930, 19, True) /* ATTACKABLE_BOOL */
      , (33930, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33930, 16, 'A token, given to you by Larinne Kerendova, that can be given to specific individuals, in order to receive a new pet.') /* LONG_DESC_STRING */

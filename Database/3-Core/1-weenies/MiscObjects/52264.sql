@@ -31,7 +31,7 @@ VALUES (52264, 13, True) /* ETHEREAL_BOOL */
      , (52264, 19, True) /* ATTACKABLE_BOOL */
      , (52264, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52264, 16, 'An ancient idol given to you by the Mu-miyah Recluse. Return this to El''Yst Maggann.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (42833, 13, True) /* ETHEREAL_BOOL */
      , (42833, 19, True) /* ATTACKABLE_BOOL */
      , (42833, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42833, 16, 'This portal leads to Qalaba''r, the Gharu''ndim village on the edge of the Linvak Mountain Range. This is a good town for characters over level 30.') /* LONG_DESC_STRING */

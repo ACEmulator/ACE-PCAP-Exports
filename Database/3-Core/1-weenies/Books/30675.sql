@@ -33,7 +33,7 @@ VALUES (30675, 13, True) /* ETHEREAL_BOOL */
      , (30675, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30675, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30675, 16, 'List of items the Agents of Arcanum will take in trade for housing writs.') /* LONG_DESC_STRING */;

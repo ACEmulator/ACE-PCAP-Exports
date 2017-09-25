@@ -35,7 +35,7 @@ VALUES (25787, 13, True) /* ETHEREAL_BOOL */
      , (25787, 19, True) /* ATTACKABLE_BOOL */
      , (25787, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25787, 16, 'A major award. A crystalline badge of honor intricately carved from ice. It shimmers in the light.') /* LONG_DESC_STRING */;

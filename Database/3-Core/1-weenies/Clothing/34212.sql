@@ -49,7 +49,7 @@ VALUES (34212, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34212, 0, 16779351);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34212, 16, 'A shirt celebrating the Festival Season.') /* LONG_DESC_STRING */;

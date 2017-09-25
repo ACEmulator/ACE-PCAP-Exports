@@ -47,7 +47,7 @@ VALUES (12756, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12756, 0, 16777955);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12756, 15, 'An enhanced trident crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;

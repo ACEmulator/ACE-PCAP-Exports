@@ -38,7 +38,7 @@ VALUES (28395, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28395, 67114955, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28395, 16, 'A single red manacle with vicious looking spikes pointing inward.') /* LONG_DESC_STRING */;

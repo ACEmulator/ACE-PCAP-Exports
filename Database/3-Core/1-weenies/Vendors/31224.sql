@@ -90,7 +90,7 @@ VALUES (31224, 12, 16777304)
      , (31224, 8, 16777298)
      , (31224, 16, 16791874);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31224, 5, 'Traveling Salesman') /* TEMPLATE_STRING */;
@@ -112,6 +112,20 @@ VALUES (31224, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31224, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31224, 74, 1208248231) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (31224, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (31224, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31224, 37, 0.2) /* BUY_PRICE_FLOAT */
+     , (31224, 38, 1.7) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31224, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

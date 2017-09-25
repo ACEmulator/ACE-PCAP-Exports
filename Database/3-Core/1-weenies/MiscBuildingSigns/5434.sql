@@ -29,7 +29,7 @@ VALUES (5434, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5434, 19, True) /* ATTACKABLE_BOOL */
      , (5434, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5434, 16, 'Shikiru Nohon') /* LONG_DESC_STRING */;

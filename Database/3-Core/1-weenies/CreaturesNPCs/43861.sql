@@ -76,7 +76,7 @@ VALUES (43861, 0, 16794661)
      , (43861, 15, 16794672)
      , (43861, 16, 16794673);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43861, 5, 'Umbral High King') /* TEMPLATE_STRING */;

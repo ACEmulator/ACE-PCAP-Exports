@@ -34,7 +34,7 @@ VALUES (42151, 13, True) /* ETHEREAL_BOOL */
      , (42151, 19, True) /* ATTACKABLE_BOOL */
      , (42151, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42151, 16, 'A portal leading a Blackmire Temple where blackmire lore pages may be found.') /* LONG_DESC_STRING */

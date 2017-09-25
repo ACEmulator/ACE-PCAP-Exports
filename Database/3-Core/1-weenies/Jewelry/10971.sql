@@ -37,7 +37,7 @@ VALUES (10971, 13, True) /* ETHEREAL_BOOL */
      , (10971, 19, True) /* ATTACKABLE_BOOL */
      , (10971, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10971, 16, 'A spiked collar, smelling faintly of Reedshark.') /* LONG_DESC_STRING */;

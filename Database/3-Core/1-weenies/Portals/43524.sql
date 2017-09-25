@@ -33,7 +33,7 @@ VALUES (43524, 13, True) /* ETHEREAL_BOOL */
      , (43524, 19, True) /* ATTACKABLE_BOOL */
      , (43524, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43524, 16, 'This portal appears to be warded against intrusion.  Perhaps Nalicana, in Asheron''s Castle, will know more.') /* LONG_DESC_STRING */

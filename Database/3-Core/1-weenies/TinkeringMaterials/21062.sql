@@ -48,7 +48,7 @@ VALUES (21062, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21062, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21062, 14, 'Apply this material to a treasure-generated item to increase its maximum mana by 500.') /* USE_STRING */

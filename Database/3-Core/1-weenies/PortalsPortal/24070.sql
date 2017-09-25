@@ -32,7 +32,7 @@ VALUES (24070, 13, True) /* ETHEREAL_BOOL */
      , (24070, 19, True) /* ATTACKABLE_BOOL */
      , (24070, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24070, 111, 49) /* PORTAL_BITMASK_INT */;

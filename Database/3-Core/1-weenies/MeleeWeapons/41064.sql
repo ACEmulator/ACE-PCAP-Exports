@@ -48,7 +48,7 @@ VALUES (41064, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41064, 0, 16794407);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41064, 16, 'Lightning Khanda-handled Mace') /* LONG_DESC_STRING */;

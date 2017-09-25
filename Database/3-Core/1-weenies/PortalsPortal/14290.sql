@@ -33,7 +33,7 @@ VALUES (14290, 13, True) /* ETHEREAL_BOOL */
      , (14290, 19, True) /* ATTACKABLE_BOOL */
      , (14290, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14290, 38, 'West Norstead Portal (75.4N, 40.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -35,7 +35,7 @@ VALUES (20461, 13, True) /* ETHEREAL_BOOL */
      , (20461, 19, True) /* ATTACKABLE_BOOL */
      , (20461, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20461, 16, 'Inscribed spell: Cameron''s Curse

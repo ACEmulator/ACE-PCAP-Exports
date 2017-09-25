@@ -39,7 +39,7 @@ VALUES (21434, 13, True) /* ETHEREAL_BOOL */
      , (21434, 19, True) /* ATTACKABLE_BOOL */
      , (21434, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21434, 15, 'A sword crafted by Gaerlan using techniques stolen from the Arcanum.') /* SHORT_DESC_STRING */;

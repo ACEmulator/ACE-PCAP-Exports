@@ -63,7 +63,7 @@ VALUES (33746, 0, 16778359)
      , (33746, 15, 16777307)
      , (33746, 16, 16778407);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33746, 5, 'Emissary of Isin Dule') /* TEMPLATE_STRING */;

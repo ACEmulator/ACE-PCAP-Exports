@@ -34,7 +34,7 @@ VALUES (31668, 13, True) /* ETHEREAL_BOOL */
      , (31668, 19, True) /* ATTACKABLE_BOOL */
      , (31668, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31668, 16, 'This is an ancient book of Falatacot origin.  It casts the spell Master''s Voice, which raises the user''s Focus by 10.') /* LONG_DESC_STRING */;

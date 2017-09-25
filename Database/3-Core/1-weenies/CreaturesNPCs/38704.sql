@@ -89,7 +89,7 @@ VALUES (38704, 12, 16778423)
      , (38704, 4, 16783485)
      , (38704, 8, 16783487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38704, 5, 'Delivery Taskmaster') /* TEMPLATE_STRING */;

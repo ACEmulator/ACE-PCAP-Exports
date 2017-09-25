@@ -34,7 +34,7 @@ VALUES (42153, 13, True) /* ETHEREAL_BOOL */
      , (42153, 19, True) /* ATTACKABLE_BOOL */
      , (42153, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42153, 16, 'A portal leading to the Castle of Baron Nuvillus where the Crown of Bone may be found.') /* LONG_DESC_STRING */

@@ -32,7 +32,7 @@ VALUES (35587, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (35587, 19, True) /* ATTACKABLE_BOOL */
      , (35587, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35587, 14, 'You must have the key to open these doors.') /* USE_STRING */;

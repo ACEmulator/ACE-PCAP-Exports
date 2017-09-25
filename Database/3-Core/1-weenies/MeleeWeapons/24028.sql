@@ -37,7 +37,7 @@ VALUES (24028, 13, True) /* ETHEREAL_BOOL */
      , (24028, 19, True) /* ATTACKABLE_BOOL */
      , (24028, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24028, 15, 'This weapon was wielded by the Sentinels of Perfect Light in their stance against the darkness after the return of Asheron to the Knorr Lyceum. The blades have been crafted to represent the crescent shape of Alb''arel and Rez''arel.') /* SHORT_DESC_STRING */;

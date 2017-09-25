@@ -47,7 +47,7 @@ VALUES (37188, 0, 83894333, 83897808);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37188, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37188, 16, 'Olthoi Amuli Gauntlets of Coordination') /* LONG_DESC_STRING */;

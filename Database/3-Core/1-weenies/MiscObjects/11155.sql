@@ -30,7 +30,7 @@ VALUES (11155, 13, True) /* ETHEREAL_BOOL */
      , (11155, 19, True) /* ATTACKABLE_BOOL */
      , (11155, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11155, 16, 'A large, heavy piece of rubble, broken off from the menhir in the north of Marae Lassel.') /* LONG_DESC_STRING */;

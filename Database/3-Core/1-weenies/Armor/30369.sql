@@ -36,7 +36,7 @@ VALUES (30369, 13, True) /* ETHEREAL_BOOL */
      , (30369, 19, True) /* ATTACKABLE_BOOL */
      , (30369, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30369, 16, 'These boots are made from finest Auroch leather. Soft and supple, they are the ultimate in style and comfort. Far from just being stylish, these boots allow the user to move speedily and effortlessly over any terrain.') /* LONG_DESC_STRING */;

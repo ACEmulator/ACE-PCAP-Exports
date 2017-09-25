@@ -89,7 +89,7 @@ VALUES (22075, 12, 16777304)
      , (22075, 4, 16777291)
      , (22075, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22075, 5, 'Food Designer') /* TEMPLATE_STRING */;

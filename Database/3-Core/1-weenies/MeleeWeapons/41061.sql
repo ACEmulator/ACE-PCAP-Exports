@@ -49,7 +49,7 @@ VALUES (41061, 0, 83897966, 83897966)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41061, 0, 16794292);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41061, 16, 'Frost Great Star Mace of Blood Drinker') /* LONG_DESC_STRING */;

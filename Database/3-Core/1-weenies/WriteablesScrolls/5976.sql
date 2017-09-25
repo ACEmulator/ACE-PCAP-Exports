@@ -35,7 +35,7 @@ VALUES (5976, 13, True) /* ETHEREAL_BOOL */
      , (5976, 19, True) /* ATTACKABLE_BOOL */
      , (5976, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5976, 16, 'Inscribed spell: Fletching Mastery Self III

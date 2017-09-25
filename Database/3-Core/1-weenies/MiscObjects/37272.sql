@@ -32,7 +32,7 @@ VALUES (37272, 13, True) /* ETHEREAL_BOOL */
      , (37272, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37272, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37272, 14, 'Combine these cards with the other cards from the Deck of Eyes to complete the deck.') /* USE_STRING */;

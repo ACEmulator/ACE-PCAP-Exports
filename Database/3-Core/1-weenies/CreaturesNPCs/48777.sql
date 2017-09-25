@@ -86,7 +86,7 @@ VALUES (48777, 1, 16777708)
      , (48777, 14, 16781862)
      , (48777, 11, 16781861);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48777, 5, 'Artifact Collector') /* TEMPLATE_STRING */;

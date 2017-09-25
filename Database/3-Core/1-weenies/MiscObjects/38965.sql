@@ -34,7 +34,7 @@ VALUES (38965, 13, True) /* ETHEREAL_BOOL */
      , (38965, 19, True) /* ATTACKABLE_BOOL */
      , (38965, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38965, 16, 'A Casino Ticket Stub with the unique bite pattern of the Carenzi Racer you bet upon.') /* LONG_DESC_STRING */

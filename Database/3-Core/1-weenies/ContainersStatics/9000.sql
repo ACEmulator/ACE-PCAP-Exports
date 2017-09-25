@@ -45,7 +45,7 @@ VALUES (9000, 16, 83889159, 83892984);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9000, 16, 16779246);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9000, 15, 'The remnants of the man that was once Ilservian Palacost.') /* SHORT_DESC_STRING */;

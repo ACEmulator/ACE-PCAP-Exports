@@ -40,7 +40,7 @@ VALUES (48596, 13, True) /* ETHEREAL_BOOL */
      , (48596, 17, True) /* INELASTIC_BOOL */
      , (48596, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48596, 14, 'Use on a magic item to destroy that item and drain its Mana.') /* USE_STRING */;

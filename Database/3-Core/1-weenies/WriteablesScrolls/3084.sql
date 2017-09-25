@@ -35,7 +35,7 @@ VALUES (3084, 13, True) /* ETHEREAL_BOOL */
      , (3084, 19, True) /* ATTACKABLE_BOOL */
      , (3084, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3084, 16, 'Inscribed spell: Fester Other III

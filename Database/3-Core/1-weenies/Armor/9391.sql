@@ -48,7 +48,7 @@ VALUES (9391, 0, 83893266, 83893267);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9391, 0, 16785720);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9391, 16, 'A large scuffed crest, with what seems to be a mattekar on it.') /* LONG_DESC_STRING */;

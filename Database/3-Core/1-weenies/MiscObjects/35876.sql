@@ -33,7 +33,7 @@ VALUES (35876, 13, True) /* ETHEREAL_BOOL */
      , (35876, 19, True) /* ATTACKABLE_BOOL */
      , (35876, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35876, 16, 'A small spherical gland retrieved from a Paradox-touched Olthoi.  It smells absolutely horrible.') /* LONG_DESC_STRING */

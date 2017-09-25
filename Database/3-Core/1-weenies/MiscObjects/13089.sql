@@ -38,7 +38,7 @@ VALUES (13089, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (13089, 67113741, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13089, 16, 'A wing from one of the Carpenter Wasps who have long plagued the Foreman''s garden. Return this wing to the Academy Foreman.') /* LONG_DESC_STRING */;

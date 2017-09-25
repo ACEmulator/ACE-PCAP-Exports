@@ -33,7 +33,7 @@ VALUES (23094, 13, True) /* ETHEREAL_BOOL */
      , (23094, 19, True) /* ATTACKABLE_BOOL */
      , (23094, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23094, 14, 'Use this item on a locked chest to unlock it.') /* USE_STRING */;

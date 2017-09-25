@@ -44,7 +44,7 @@ VALUES (3708, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3708, 0, 16777993);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3708, 16, 'A dagger made from the tooth of an Ash Gromnie. Lightning flickers from the blade.') /* LONG_DESC_STRING */;

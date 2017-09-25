@@ -38,7 +38,7 @@ VALUES (44819, 13, True) /* ETHEREAL_BOOL */
      , (44819, 19, True) /* ATTACKABLE_BOOL */
      , (44819, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44819, 16, 'Investigate the claims of the drudges having captive monougas.') /* LONG_DESC_STRING */

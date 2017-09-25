@@ -33,7 +33,7 @@ VALUES (4953, 13, True) /* ETHEREAL_BOOL */
      , (4953, 19, True) /* ATTACKABLE_BOOL */
      , (4953, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4953, 38, 'Lytaway Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

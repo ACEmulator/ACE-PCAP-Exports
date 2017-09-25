@@ -42,7 +42,7 @@ VALUES (27514, 0, 83892787, 83892785)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27514, 0, 16785088);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27514, 16, 'The severed, bloody head of the Painbringer.') /* LONG_DESC_STRING */;

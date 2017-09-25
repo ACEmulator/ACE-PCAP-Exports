@@ -35,7 +35,7 @@ VALUES (11135, 13, True) /* ETHEREAL_BOOL */
      , (11135, 14, True) /* GRAVITY_STATUS_BOOL */
      , (11135, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11135, 16, 'A fried Olthoi Egg, made with hot peppers.') /* LONG_DESC_STRING */

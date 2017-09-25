@@ -34,7 +34,7 @@ VALUES (12022, 13, True) /* ETHEREAL_BOOL */
      , (12022, 19, True) /* ATTACKABLE_BOOL */
      , (12022, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12022, 16, 'This scroll seems to be written in a very strange language.  It looks as if it is in Falatacot.') /* LONG_DESC_STRING */;

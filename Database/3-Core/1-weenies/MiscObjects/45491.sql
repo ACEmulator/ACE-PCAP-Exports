@@ -34,7 +34,7 @@ VALUES (45491, 13, True) /* ETHEREAL_BOOL */
      , (45491, 14, True) /* GRAVITY_STATUS_BOOL */
      , (45491, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45491, 15, 'An elegant coin. ') /* SHORT_DESC_STRING */;

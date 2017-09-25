@@ -89,7 +89,7 @@ VALUES (38425, 12, 16778423)
      , (38425, 4, 16783485)
      , (38425, 8, 16783487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38425, 5, 'Moar Gland Collection Taskmaster') /* TEMPLATE_STRING */;

@@ -93,7 +93,7 @@ VALUES (23336, 12, 16777304)
      , (23336, 8, 16781839)
      , (23336, 16, 16778476);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23336, 5, 'Pro Fisherman') /* TEMPLATE_STRING */;

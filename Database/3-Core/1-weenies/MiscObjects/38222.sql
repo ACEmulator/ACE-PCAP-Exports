@@ -31,7 +31,7 @@ VALUES (38222, 13, True) /* ETHEREAL_BOOL */
      , (38222, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38222, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38222, 16, 'This small shard of crystallized mana is discolored by some strange corruption.  Perhaps Laedron the Royal Surveyor in Ayan Baqur would know more about it.') /* LONG_DESC_STRING */;

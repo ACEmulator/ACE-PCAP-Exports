@@ -96,7 +96,7 @@ VALUES (49519, 0, 16783897)
      , (49519, 15, 16789333)
      , (49519, 16, 16793463);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49519, 5, 'Geomancer') /* TEMPLATE_STRING */;
@@ -108,6 +108,20 @@ VALUES (49519, 2, 51) /* CREATURE_TYPE_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (49519, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49519, 74, 2656384) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (49519, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (49519, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49519, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (49519, 38, 20) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49519, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

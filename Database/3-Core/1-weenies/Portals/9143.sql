@@ -33,7 +33,7 @@ VALUES (9143, 13, True) /* ETHEREAL_BOOL */
      , (9143, 19, True) /* ATTACKABLE_BOOL */
      , (9143, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9143, 38, 'South Tumerok Vanguard Outpost') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

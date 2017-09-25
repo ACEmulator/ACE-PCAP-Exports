@@ -53,7 +53,7 @@ VALUES (31805, 0, 83897331, 83897331);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31805, 0, 16792607);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31805, 16, 'Slashing Compound Crossbow of Blood Drinker') /* LONG_DESC_STRING */;

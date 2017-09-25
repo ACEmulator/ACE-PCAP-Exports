@@ -98,7 +98,7 @@ VALUES (37074, 16, 16795650)
      , (37074, 4, 16781816)
      , (37074, 8, 16781817);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37074, 5, 'Hoshino Kei''s Handmaiden') /* TEMPLATE_STRING */;

@@ -38,7 +38,7 @@ VALUES (34712, 13, True) /* ETHEREAL_BOOL */
      , (34712, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (34712, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34712, 14, 'Use this bell to begin the battle.') /* USE_STRING */;

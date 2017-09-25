@@ -54,7 +54,7 @@ VALUES (97, 0, 83887061, 83886692)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (97, 0, 16779351);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (97, 16, 'Exquisitely crafted Leather Shirt , set with 1 Hematite') /* LONG_DESC_STRING */;

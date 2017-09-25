@@ -35,7 +35,7 @@ VALUES (5602, 13, True) /* ETHEREAL_BOOL */
      , (5602, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5602, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5602, 16, 'A small booklet, cheaply bound.') /* LONG_DESC_STRING */;

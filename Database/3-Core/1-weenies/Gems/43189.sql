@@ -33,7 +33,7 @@ VALUES (43189, 13, True) /* ETHEREAL_BOOL */
      , (43189, 14, True) /* GRAVITY_STATUS_BOOL */
      , (43189, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43189, 14, 'Turn this gem into an Agent of the Arcanum to be granted twenty million experience.') /* USE_STRING */;

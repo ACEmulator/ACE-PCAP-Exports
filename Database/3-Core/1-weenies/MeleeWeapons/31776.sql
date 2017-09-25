@@ -49,7 +49,7 @@ VALUES (31776, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31776, 0, 16792613);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31776, 16, 'Electric Board with Nail') /* LONG_DESC_STRING */;

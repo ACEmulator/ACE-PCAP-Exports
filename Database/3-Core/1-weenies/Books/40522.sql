@@ -33,7 +33,7 @@ VALUES (40522, 13, True) /* ETHEREAL_BOOL */
      , (40522, 14, True) /* GRAVITY_STATUS_BOOL */
      , (40522, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40522, 15, 'This message will soon self destruct! Commit it to memory. You have less than a week to make contact before this will become invalid. You''ll want to bring MMD trade notes if you''re interested in purchasing any services. ') /* SHORT_DESC_STRING */;

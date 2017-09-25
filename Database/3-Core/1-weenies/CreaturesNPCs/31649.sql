@@ -86,7 +86,7 @@ VALUES (31649, 12, 16778423)
      , (31649, 13, 16783871)
      , (31649, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31649, 5, 'K''nath An''dras Assassinator') /* TEMPLATE_STRING */;

@@ -33,7 +33,7 @@ VALUES (1024, 13, True) /* ETHEREAL_BOOL */
      , (1024, 19, True) /* ATTACKABLE_BOOL */
      , (1024, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1024, 38, 'Qalaba''r Portal (74.6S, 19.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

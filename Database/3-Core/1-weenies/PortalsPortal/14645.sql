@@ -33,7 +33,7 @@ VALUES (14645, 13, True) /* ETHEREAL_BOOL */
      , (14645, 19, True) /* ATTACKABLE_BOOL */
      , (14645, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14645, 38, 'Li-Po Cottages Portal (31.8S, 46.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

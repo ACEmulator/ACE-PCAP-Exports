@@ -33,7 +33,7 @@ VALUES (14618, 13, True) /* ETHEREAL_BOOL */
      , (14618, 19, True) /* ATTACKABLE_BOOL */
      , (14618, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14618, 38, 'Desert Mirage Cottages Portal (15.2S, 13.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

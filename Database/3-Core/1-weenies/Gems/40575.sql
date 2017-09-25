@@ -47,7 +47,7 @@ VALUES (40575, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40575, 0, 16779181);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40575, 16, 'A gem that will return you directly to the Assassin''s Roost for your next meeting.') /* LONG_DESC_STRING */;

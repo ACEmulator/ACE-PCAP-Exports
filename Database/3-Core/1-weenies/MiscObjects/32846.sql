@@ -36,7 +36,7 @@ VALUES (32846, 13, True) /* ETHEREAL_BOOL */
      , (32846, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32846, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32846, 14, 'If this item is hooked, it may be used to cast Honor of the Bull, a Loyalty spell which stacks with normal spells.') /* USE_STRING */

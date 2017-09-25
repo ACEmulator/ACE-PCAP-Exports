@@ -86,7 +86,7 @@ VALUES (40949, 11, 16777302)
      , (40949, 4, 16781838)
      , (40949, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40949, 5, 'Bowyer') /* TEMPLATE_STRING */;

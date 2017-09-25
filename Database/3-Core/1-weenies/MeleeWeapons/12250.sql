@@ -49,7 +49,7 @@ VALUES (12250, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12250, 0, 16777929);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12250, 16, 'The ceremonial scepter of a Lugian warlord in league with the Virindi.') /* LONG_DESC_STRING */;

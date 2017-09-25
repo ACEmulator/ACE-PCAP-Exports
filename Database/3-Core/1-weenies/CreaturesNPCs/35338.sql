@@ -57,7 +57,7 @@ VALUES (35338, 14, 16788538)
      , (35338, 5, 16788484)
      , (35338, 0, 16788470);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35338, 5, 'Chief''s Personal Guard') /* TEMPLATE_STRING */;

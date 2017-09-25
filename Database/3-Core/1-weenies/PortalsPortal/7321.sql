@@ -33,7 +33,7 @@ VALUES (7321, 13, True) /* ETHEREAL_BOOL */
      , (7321, 19, True) /* ATTACKABLE_BOOL */
      , (7321, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7321, 38, 'Wilderness Citadel Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

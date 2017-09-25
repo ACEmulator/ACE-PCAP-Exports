@@ -33,7 +33,7 @@ VALUES (12290, 13, True) /* ETHEREAL_BOOL */
      , (12290, 19, True) /* ATTACKABLE_BOOL */
      , (12290, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12290, 38, 'Singular Chorizite Repository') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

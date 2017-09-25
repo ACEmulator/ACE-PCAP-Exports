@@ -30,7 +30,7 @@ VALUES (35003, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (35003, 19, True) /* ATTACKABLE_BOOL */
      , (35003, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35003, 38, 'The Colosseum') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

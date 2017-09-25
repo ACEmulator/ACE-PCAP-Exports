@@ -37,7 +37,7 @@ VALUES (43896, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43896, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (43896, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43896, 15, 'This crystal seems to radiate dark energy.') /* SHORT_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (12482, 13, True) /* ETHEREAL_BOOL */
      , (12482, 19, True) /* ATTACKABLE_BOOL */
      , (12482, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12482, 38, 'Cape Feirgard Cottages Portal (30.1N, 65.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

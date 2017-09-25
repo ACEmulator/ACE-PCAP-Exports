@@ -55,7 +55,7 @@ VALUES (29252, 0, 83895603, 83895603)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29252, 0, 16791353);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29252, 16, 'Acid Atlatl of Defender') /* LONG_DESC_STRING */;

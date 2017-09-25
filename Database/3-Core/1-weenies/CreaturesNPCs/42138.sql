@@ -100,7 +100,7 @@ VALUES (42138, 0, 16791913)
      , (42138, 22, 16777708)
      , (42138, 21, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42138, 5, 'Portal Warden') /* TEMPLATE_STRING */;

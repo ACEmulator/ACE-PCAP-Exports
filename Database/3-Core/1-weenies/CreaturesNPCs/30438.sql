@@ -86,7 +86,7 @@ VALUES (30438, 12, 16777304)
      , (30438, 8, 16791882)
      , (30438, 16, 16791893);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30438, 5, 'Townsperson') /* TEMPLATE_STRING */;

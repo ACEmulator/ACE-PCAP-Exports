@@ -42,7 +42,7 @@ VALUES (14931, 0, 83888846, 83893926)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14931, 0, 16778784);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14931, 16, 'The Wedding handbook.') /* LONG_DESC_STRING */;

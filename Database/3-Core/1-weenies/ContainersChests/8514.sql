@@ -38,7 +38,7 @@ VALUES (8514, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8514, 19, True) /* ATTACKABLE_BOOL */
      , (8514, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8514, 16, 'A chest inscribed with arcane glyphs. There appear to be some inscriptions in a cuneiform language along the lid. There is a suspicious glow near the lock.') /* LONG_DESC_STRING */

@@ -49,7 +49,7 @@ VALUES (22824, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22824, 0, 16779181);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22824, 14, 'Double Click on this portal gem to transport yourself to the Abandoned Mines.') /* USE_STRING */

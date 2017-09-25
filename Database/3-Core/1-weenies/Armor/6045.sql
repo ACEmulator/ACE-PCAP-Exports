@@ -48,7 +48,7 @@ VALUES (6045, 0, 83887064, 83886494)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6045, 0, 16778829);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6045, 16, 'Celdon Leggings of Quickness') /* LONG_DESC_STRING */;

@@ -40,7 +40,7 @@ VALUES (40517, 13, True) /* ETHEREAL_BOOL */
      , (40517, 19, True) /* ATTACKABLE_BOOL */
      , (40517, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40517, 16, 'The Empowered Sword of Lost Light, infused with the power of the Paradox-touched Olthoi, which is deadly to normal Olthoi.') /* LONG_DESC_STRING */;

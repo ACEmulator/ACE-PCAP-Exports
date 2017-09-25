@@ -46,7 +46,7 @@ VALUES (78, 0, 83886788, 83889767);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (78, 0, 16778411);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (78, 16, 'Kote of Regeneration') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (43201, 13, True) /* ETHEREAL_BOOL */
      , (43201, 19, True) /* ATTACKABLE_BOOL */
      , (43201, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43201, 16, 'A portal crackling with defensive magics.  Only those properly protected from its fluxuations may enter.') /* LONG_DESC_STRING */

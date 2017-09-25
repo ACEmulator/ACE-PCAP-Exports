@@ -65,7 +65,7 @@ VALUES (38635, 5, 16794136)
      , (38635, 8, 16794135)
      , (38635, 16, 16789379);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38635, 5, 'Scout Leader') /* TEMPLATE_STRING */;

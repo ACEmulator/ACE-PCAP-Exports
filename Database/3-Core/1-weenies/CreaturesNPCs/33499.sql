@@ -88,7 +88,7 @@ VALUES (33499, 12, 16778423)
      , (33499, 4, 16792941)
      , (33499, 8, 16792944);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33499, 5, 'Tracker') /* TEMPLATE_STRING */;

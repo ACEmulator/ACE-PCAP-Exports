@@ -34,7 +34,7 @@ VALUES (4747, 13, True) /* ETHEREAL_BOOL */
      , (4747, 14, True) /* GRAVITY_STATUS_BOOL */
      , (4747, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4747, 14, 'This item is used in alchemy.') /* USE_STRING */;

@@ -33,7 +33,7 @@ VALUES (28798, 13, True) /* ETHEREAL_BOOL */
      , (28798, 19, True) /* ATTACKABLE_BOOL */
      , (28798, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28798, 38, 'Lola''s Den') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

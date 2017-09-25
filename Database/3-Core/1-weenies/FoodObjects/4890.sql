@@ -33,7 +33,7 @@ VALUES (4890, 13, True) /* ETHEREAL_BOOL */
      , (4890, 19, True) /* ATTACKABLE_BOOL */
      , (4890, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4890, 16, 'A bottle of perfectly aged greenish yellow dew from the lost distillery.') /* LONG_DESC_STRING */

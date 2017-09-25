@@ -58,7 +58,7 @@ VALUES (25661, 0, 16789640)
      , (25661, 4, 16781840)
      , (25661, 5, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25661, 16, 'Leather Boots') /* LONG_DESC_STRING */;

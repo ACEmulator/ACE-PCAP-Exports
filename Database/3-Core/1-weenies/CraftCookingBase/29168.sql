@@ -34,7 +34,7 @@ VALUES (29168, 13, True) /* ETHEREAL_BOOL */
      , (29168, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29168, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29168, 16, 'This is a very fine finished wort with an incredibly pleasing aroma.') /* LONG_DESC_STRING */;

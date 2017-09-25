@@ -96,7 +96,7 @@ VALUES (38272, 12, 16777304)
      , (38272, 4, 16788088)
      , (38272, 8, 16788089);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38272, 5, 'Shoguth Hunt Task Master') /* TEMPLATE_STRING */;

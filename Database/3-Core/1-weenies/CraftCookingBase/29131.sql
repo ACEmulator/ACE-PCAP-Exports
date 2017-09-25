@@ -35,7 +35,7 @@ VALUES (29131, 13, True) /* ETHEREAL_BOOL */
      , (29131, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29131, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29131, 16, 'These hops are a vibrant green.') /* LONG_DESC_STRING */

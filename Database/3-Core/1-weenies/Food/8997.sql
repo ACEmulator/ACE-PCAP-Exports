@@ -40,7 +40,7 @@ VALUES (8997, 13, True) /* ETHEREAL_BOOL */
      , (8997, 19, True) /* ATTACKABLE_BOOL */
      , (8997, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8997, 16, 'A bucket of water from the well beside the Cathedral of Ithaenc.') /* LONG_DESC_STRING */;

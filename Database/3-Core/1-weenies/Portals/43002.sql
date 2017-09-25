@@ -34,7 +34,7 @@ VALUES (43002, 13, True) /* ETHEREAL_BOOL */
      , (43002, 19, True) /* ATTACKABLE_BOOL */
      , (43002, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43002, 16, 'This portal goes to Oolutanga''s Refuge, a place where Tuskers rule the land. This is a good town for charaters over level 10.') /* LONG_DESC_STRING */

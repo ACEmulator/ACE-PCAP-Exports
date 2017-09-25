@@ -51,7 +51,7 @@ VALUES (32484, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32484, 0, 16778862);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32484, 16, 'You have no apparent use for this rock. Perhaps a Snowman might find it useful.') /* LONG_DESC_STRING */;

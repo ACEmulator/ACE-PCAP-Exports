@@ -33,7 +33,7 @@ VALUES (12547, 13, True) /* ETHEREAL_BOOL */
      , (12547, 19, True) /* ATTACKABLE_BOOL */
      , (12547, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12547, 38, 'Sonel Portal (76.7N, 36.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

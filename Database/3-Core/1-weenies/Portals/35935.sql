@@ -33,7 +33,7 @@ VALUES (35935, 13, True) /* ETHEREAL_BOOL */
      , (35935, 19, True) /* ATTACKABLE_BOOL */
      , (35935, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35935, 16, 'This portal seems to be warded against those who are not attuned to it.') /* LONG_DESC_STRING */

@@ -33,7 +33,7 @@ VALUES (32505, 13, True) /* ETHEREAL_BOOL */
      , (32505, 19, True) /* ATTACKABLE_BOOL */
      , (32505, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32505, 38, 'Temple South Wing') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

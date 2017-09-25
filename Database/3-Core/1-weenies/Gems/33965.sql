@@ -96,7 +96,7 @@ VALUES (33965, 0, 16777333)
      , (33965, 20, 16777355)
      , (33965, 21, 16777345);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33965, 16, 'No matter how hard you try you can''t seem to get this pack cow to stand up.') /* LONG_DESC_STRING */;

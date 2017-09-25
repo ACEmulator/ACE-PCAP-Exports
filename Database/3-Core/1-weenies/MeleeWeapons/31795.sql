@@ -52,7 +52,7 @@ VALUES (31795, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31795, 0, 16792616);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31795, 16, 'Acid Lancet of Blood Drinker') /* LONG_DESC_STRING */;

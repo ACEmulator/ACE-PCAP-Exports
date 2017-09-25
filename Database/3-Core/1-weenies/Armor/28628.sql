@@ -39,7 +39,7 @@ VALUES (28628, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28628, 67116199, 174, 66);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28628, 16, 'Diforsa Breastplate of Strength') /* LONG_DESC_STRING */;

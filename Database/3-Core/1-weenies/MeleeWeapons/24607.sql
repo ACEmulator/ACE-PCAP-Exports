@@ -39,7 +39,7 @@ VALUES (24607, 13, True) /* ETHEREAL_BOOL */
      , (24607, 19, True) /* ATTACKABLE_BOOL */
      , (24607, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24607, 16, 'The Sword of Lost Light, infused with blue fire from Mount Lethe.') /* LONG_DESC_STRING */;

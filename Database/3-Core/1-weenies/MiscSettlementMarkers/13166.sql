@@ -29,7 +29,7 @@ VALUES (13166, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (13166, 19, True) /* ATTACKABLE_BOOL */
      , (13166, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13166, 16, 'Welcome to Naqut Dreams Villas') /* LONG_DESC_STRING */;

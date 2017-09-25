@@ -33,7 +33,7 @@ VALUES (29486, 13, True) /* ETHEREAL_BOOL */
      , (29486, 19, True) /* ATTACKABLE_BOOL */
      , (29486, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29486, 38, 'Exit Viamontian Royal Prison (92.0N, 41.6W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

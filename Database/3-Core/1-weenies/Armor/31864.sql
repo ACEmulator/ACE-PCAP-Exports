@@ -42,7 +42,7 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (31864, 67110321, 240, 10)
      , (31864, 67110352, 250, 6);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31864, 16, 'Teardrop Crown of Protection') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (41833, 13, True) /* ETHEREAL_BOOL */
      , (41833, 19, True) /* ATTACKABLE_BOOL */
      , (41833, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41833, 16, 'Supplies stored by the Eldrytch Web.') /* LONG_DESC_STRING */;

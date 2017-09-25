@@ -31,7 +31,7 @@ VALUES (30858, 13, True) /* ETHEREAL_BOOL */
      , (30858, 19, True) /* ATTACKABLE_BOOL */
      , (30858, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30858, 16, 'Give this token to an Agent of the Arcanum so that you may be known to all as Sezzherei Slayer!') /* LONG_DESC_STRING */;

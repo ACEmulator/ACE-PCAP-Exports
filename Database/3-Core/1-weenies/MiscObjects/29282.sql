@@ -31,7 +31,7 @@ VALUES (29282, 13, True) /* ETHEREAL_BOOL */
      , (29282, 19, True) /* ATTACKABLE_BOOL */
      , (29282, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29282, 16, 'Using this gem will grant you an extra, eighth pack slot to carry your treasure and equipment.  This augmentation cannot be repeated.') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (2676, 13, True) /* ETHEREAL_BOOL */
      , (2676, 19, True) /* ATTACKABLE_BOOL */
      , (2676, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2676, 16, 'Inscribed spell: Focus Other IV

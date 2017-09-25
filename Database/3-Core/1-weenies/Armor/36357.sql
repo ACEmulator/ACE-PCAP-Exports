@@ -35,7 +35,7 @@ VALUES (36357, 13, True) /* ETHEREAL_BOOL */
      , (36357, 19, True) /* ATTACKABLE_BOOL */
      , (36357, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36357, 16, 'A bandana with an attached eyepatch, taken from an Undead Sailor.') /* LONG_DESC_STRING */;

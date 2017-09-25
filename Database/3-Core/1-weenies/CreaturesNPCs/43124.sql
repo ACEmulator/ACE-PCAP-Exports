@@ -90,7 +90,7 @@ VALUES (43124, 12, 16778423)
      , (43124, 4, 16788088)
      , (43124, 8, 16788089);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43124, 5, 'Forgotten Tunnels Investigator') /* TEMPLATE_STRING */;

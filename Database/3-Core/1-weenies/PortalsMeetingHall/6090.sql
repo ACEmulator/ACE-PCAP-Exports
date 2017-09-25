@@ -33,7 +33,7 @@ VALUES (6090, 13, True) /* ETHEREAL_BOOL */
      , (6090, 19, True) /* ATTACKABLE_BOOL */
      , (6090, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6090, 38, 'Arwic Meeting Hall Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

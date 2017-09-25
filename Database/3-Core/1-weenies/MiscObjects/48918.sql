@@ -32,7 +32,7 @@ VALUES (48918, 13, True) /* ETHEREAL_BOOL */
      , (48918, 14, True) /* GRAVITY_STATUS_BOOL */
      , (48918, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (48918, 16, 'A trophy granted for the completion of any number of legendary tasks.') /* LONG_DESC_STRING */

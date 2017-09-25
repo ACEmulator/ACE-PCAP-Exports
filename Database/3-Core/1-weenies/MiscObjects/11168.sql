@@ -36,7 +36,7 @@ VALUES (11168, 13, True) /* ETHEREAL_BOOL */
      , (11168, 19, True) /* ATTACKABLE_BOOL */
      , (11168, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11168, 16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Fletching skill. There are tesserae available for each skill in the game. If you don''t want a point of Fletching, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LONG_DESC_STRING */;

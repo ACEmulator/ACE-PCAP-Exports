@@ -33,7 +33,7 @@ VALUES (15668, 13, True) /* ETHEREAL_BOOL */
      , (15668, 19, True) /* ATTACKABLE_BOOL */
      , (15668, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15668, 38, 'Blazing Wand Villas Portal (27.9N, 3.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

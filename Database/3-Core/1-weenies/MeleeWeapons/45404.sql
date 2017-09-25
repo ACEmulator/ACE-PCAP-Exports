@@ -50,7 +50,7 @@ VALUES (45404, 0, 83897479, 83897479);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45404, 0, 16793032);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45404, 16, 'An obsidian blade, originally crafted by the shadows under Isin Dule.') /* LONG_DESC_STRING */;

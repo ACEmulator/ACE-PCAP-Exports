@@ -45,7 +45,7 @@ VALUES (23592, 0, 83887059, 83889343);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23592, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23592, 16, 'It seems these gauntlets were crafted in order to aid the wearer in firing any type of missile weapon.') /* LONG_DESC_STRING */;

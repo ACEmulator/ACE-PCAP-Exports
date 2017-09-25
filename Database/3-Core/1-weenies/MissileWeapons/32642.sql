@@ -54,7 +54,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (32642, 1, 16787899)
      , (32642, 2, 16787899);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32642, 16, 'A Perfect Isparian Crossbow, infused with the power of the Shadowfire Stone.') /* LONG_DESC_STRING */;

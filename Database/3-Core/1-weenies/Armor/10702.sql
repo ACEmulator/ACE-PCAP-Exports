@@ -38,7 +38,7 @@ VALUES (10702, 13, True) /* ETHEREAL_BOOL */
      , (10702, 19, True) /* ATTACKABLE_BOOL */
      , (10702, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10702, 16, 'A large niffis shell, carved into a shield.') /* LONG_DESC_STRING */;

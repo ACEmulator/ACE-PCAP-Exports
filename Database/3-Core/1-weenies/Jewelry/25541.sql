@@ -37,7 +37,7 @@ VALUES (25541, 13, True) /* ETHEREAL_BOOL */
      , (25541, 19, True) /* ATTACKABLE_BOOL */
      , (25541, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25541, 16, 'A powerful charm crafted by Peerless Drudges. The magic within the necklace is now freed.') /* LONG_DESC_STRING */;

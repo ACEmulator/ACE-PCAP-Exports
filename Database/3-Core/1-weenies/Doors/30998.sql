@@ -32,7 +32,7 @@ VALUES (30998, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (30998, 19, True) /* ATTACKABLE_BOOL */
      , (30998, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30998, 14, 'Use the Academy Library Key on this door to open it.') /* USE_STRING */;

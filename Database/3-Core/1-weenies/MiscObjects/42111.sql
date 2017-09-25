@@ -30,7 +30,7 @@ VALUES (42111, 13, True) /* ETHEREAL_BOOL */
      , (42111, 19, True) /* ATTACKABLE_BOOL */
      , (42111, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42111, 16, 'A large storage box, filled with a random assortment of gears, wires and tubes.') /* LONG_DESC_STRING */

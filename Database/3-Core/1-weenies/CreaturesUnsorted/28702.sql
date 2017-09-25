@@ -37,7 +37,7 @@ VALUES (28702, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28702, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (28702, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28702, 15, 'This beacon is used to warn the town of impending attacks.') /* SHORT_DESC_STRING */;

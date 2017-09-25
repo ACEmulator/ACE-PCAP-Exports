@@ -33,7 +33,7 @@ VALUES (24471, 13, True) /* ETHEREAL_BOOL */
      , (24471, 19, True) /* ATTACKABLE_BOOL */
      , (24471, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24471, 38, 'Subterannean Farm') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

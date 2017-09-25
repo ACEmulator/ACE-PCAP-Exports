@@ -44,7 +44,7 @@ VALUES (28148, 0, 83894333, 83895482);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28148, 0, 16778374);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28148, 16, 'A pair of gauntlets crafted from the hide of an azure gromnie.') /* LONG_DESC_STRING */;

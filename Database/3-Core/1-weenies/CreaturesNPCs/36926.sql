@@ -104,7 +104,7 @@ VALUES (36926, 5, 16788087)
      , (36926, 8, 16788089)
      , (36926, 16, 16793038);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36926, 5, 'Walker of Dreams') /* TEMPLATE_STRING */;

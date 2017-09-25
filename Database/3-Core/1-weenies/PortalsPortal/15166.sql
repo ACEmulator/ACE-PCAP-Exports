@@ -33,7 +33,7 @@ VALUES (15166, 13, True) /* ETHEREAL_BOOL */
      , (15166, 19, True) /* ATTACKABLE_BOOL */
      , (15166, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15166, 38, 'Kelnen Village Portal (46.6S, 41.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

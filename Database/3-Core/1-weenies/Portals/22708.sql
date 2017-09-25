@@ -33,7 +33,7 @@ VALUES (22708, 13, True) /* ETHEREAL_BOOL */
      , (22708, 19, True) /* ATTACKABLE_BOOL */
      , (22708, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22708, 38, 'Idol of Wishes') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

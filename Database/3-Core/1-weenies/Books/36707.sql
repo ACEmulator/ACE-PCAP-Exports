@@ -33,7 +33,7 @@ VALUES (36707, 13, True) /* ETHEREAL_BOOL */
      , (36707, 14, True) /* GRAVITY_STATUS_BOOL */
      , (36707, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36707, 16, 'A small note written in tight script.') /* LONG_DESC_STRING */;

@@ -38,7 +38,7 @@ VALUES (44146, 13, True) /* ETHEREAL_BOOL */
      , (44146, 19, True) /* ATTACKABLE_BOOL */
      , (44146, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44146, 16, 'Syltyn Rillon has crafted a sword of great power. You must prove yourself to her in order to obtain this sword.') /* LONG_DESC_STRING */

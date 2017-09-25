@@ -33,7 +33,7 @@ VALUES (9125, 13, True) /* ETHEREAL_BOOL */
      , (9125, 19, True) /* ATTACKABLE_BOOL */
      , (9125, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9125, 16, 'This is the soul of a Virindi who thought he owned me.  Do not make the same mistake.  Martine.') /* LONG_DESC_STRING */

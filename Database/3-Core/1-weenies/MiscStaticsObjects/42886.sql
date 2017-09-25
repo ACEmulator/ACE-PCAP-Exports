@@ -29,7 +29,7 @@ VALUES (42886, 13, True) /* ETHEREAL_BOOL */
      , (42886, 19, True) /* ATTACKABLE_BOOL */
      , (42886, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42886, 16, 'Aurochs, recognizable by their shaggy coats and log horns, roam the grasslands; they do not attack on sight, but will defend their herd of it is threatened.') /* LONG_DESC_STRING */;

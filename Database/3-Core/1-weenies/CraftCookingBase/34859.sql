@@ -36,7 +36,7 @@ VALUES (34859, 13, True) /* ETHEREAL_BOOL */
      , (34859, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34859, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34859, 16, 'This Tiriun Mushroom Cap has been expertly roasted.') /* LONG_DESC_STRING */

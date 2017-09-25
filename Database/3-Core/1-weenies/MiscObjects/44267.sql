@@ -43,7 +43,7 @@ VALUES (44267, 0, 83888956, 83893821);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44267, 0, 16778334);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44267, 15, 'A set of thick, engraved bracers, which make you feel dizzy when they touch your skin.') /* SHORT_DESC_STRING */;

@@ -40,7 +40,7 @@ VALUES (51654, 13, True) /* ETHEREAL_BOOL */
      , (51654, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (51654, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51654, 5, 'Silver Scope Explorer') /* TEMPLATE_STRING */;

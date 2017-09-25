@@ -38,7 +38,7 @@ VALUES (9395, 13, True) /* ETHEREAL_BOOL */
      , (9395, 19, True) /* ATTACKABLE_BOOL */
      , (9395, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9395, 16, 'A large carved shield, with a detailed picture of a mattekar upon it.') /* LONG_DESC_STRING */;

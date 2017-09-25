@@ -33,7 +33,7 @@ VALUES (42826, 13, True) /* ETHEREAL_BOOL */
      , (42826, 19, True) /* ATTACKABLE_BOOL */
      , (42826, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42826, 16, 'This portal goes to the town of Greenspire on the island of Marae Lassel. This is a good town for characters over level 10.') /* LONG_DESC_STRING */

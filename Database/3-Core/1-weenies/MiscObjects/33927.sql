@@ -34,7 +34,7 @@ VALUES (33927, 13, True) /* ETHEREAL_BOOL */
      , (33927, 19, True) /* ATTACKABLE_BOOL */
      , (33927, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33927, 16, 'A huge closed scroll, stuffed to capacity with paperwork.  It is addressed to the Royal Agent, Turien Di Furza, at 71.8N 61.2W, in Sanamar.') /* LONG_DESC_STRING */;

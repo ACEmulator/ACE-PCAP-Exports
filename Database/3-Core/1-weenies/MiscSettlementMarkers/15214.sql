@@ -29,7 +29,7 @@ VALUES (15214, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15214, 19, True) /* ATTACKABLE_BOOL */
      , (15214, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15214, 16, 'Welcome to Dagger Vale') /* LONG_DESC_STRING */;

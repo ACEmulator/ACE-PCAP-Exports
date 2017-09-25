@@ -32,7 +32,7 @@ VALUES (25449, 13, True) /* ETHEREAL_BOOL */
      , (25449, 19, True) /* ATTACKABLE_BOOL */
      , (25449, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25449, 15, 'An odd machine made of a strange, silvery alloy. This item has no apparent use, but it can be hooked on the floor.') /* SHORT_DESC_STRING */;

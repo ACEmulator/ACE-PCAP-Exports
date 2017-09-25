@@ -86,7 +86,7 @@ VALUES (31658, 12, 16778423)
      , (31658, 13, 16783871)
      , (31658, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31658, 5, 'Wicked Skeleton Walloper') /* TEMPLATE_STRING */;

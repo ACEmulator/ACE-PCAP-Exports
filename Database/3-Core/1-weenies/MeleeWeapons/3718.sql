@@ -39,7 +39,7 @@ VALUES (3718, 13, True) /* ETHEREAL_BOOL */
      , (3718, 19, True) /* ATTACKABLE_BOOL */
      , (3718, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3718, 16, 'A jo hewn from the heart of a Wood Golem. Some of the animating principle of the golem remains - electricity coruscates along the jo.') /* LONG_DESC_STRING */;

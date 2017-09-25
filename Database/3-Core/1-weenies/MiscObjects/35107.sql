@@ -32,7 +32,7 @@ VALUES (35107, 13, True) /* ETHEREAL_BOOL */
      , (35107, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35107, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35107, 15, 'The ghostly gravedigger seeks these bones to lay them to rest. ') /* SHORT_DESC_STRING */;

@@ -39,7 +39,7 @@ VALUES (30679, 13, True) /* ETHEREAL_BOOL */
      , (30679, 19, True) /* ATTACKABLE_BOOL */
      , (30679, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30679, 16, 'This sword appears to be made from the withered flesh of some sort of creature.') /* LONG_DESC_STRING */;

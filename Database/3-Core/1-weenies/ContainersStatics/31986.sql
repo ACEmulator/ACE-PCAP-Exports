@@ -38,7 +38,7 @@ VALUES (31986, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (31986, 19, True) /* ATTACKABLE_BOOL */
      , (31986, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31986, 16, 'A simple grey chest used by Xik Minru and her followers to house their wealth.') /* LONG_DESC_STRING */

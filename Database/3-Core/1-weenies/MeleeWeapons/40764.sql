@@ -49,7 +49,7 @@ VALUES (40764, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40764, 0, 16794261);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40764, 16, 'Frost Nodachi of Swiftkiller') /* LONG_DESC_STRING */;

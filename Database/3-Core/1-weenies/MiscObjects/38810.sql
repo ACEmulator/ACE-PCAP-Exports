@@ -35,7 +35,7 @@ VALUES (38810, 13, True) /* ETHEREAL_BOOL */
      , (38810, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38810, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38810, 16, 'This bronze medallion bears the symbol of the ancient house of Mhoire.  It might be of interest to the Arcanum, in specific the Mana-smiths.') /* LONG_DESC_STRING */

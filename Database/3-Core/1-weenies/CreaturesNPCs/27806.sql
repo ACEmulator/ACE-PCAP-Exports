@@ -89,7 +89,7 @@ VALUES (27806, 15, 16777335)
      , (27806, 14, 16783855)
      , (27806, 16, 16778414);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27806, 5, 'Hermit') /* TEMPLATE_STRING */;

@@ -51,7 +51,7 @@ VALUES (44801, 0, 83887061, 83898645)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44801, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44801, 16, 'Suikan Over-robe of Rejuvenation') /* LONG_DESC_STRING */;

@@ -84,7 +84,7 @@ VALUES (2044, 2, 16778436)
      , (2044, 4, 16778426)
      , (2044, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2044, 5, 'Librarian') /* TEMPLATE_STRING */;
@@ -106,6 +106,20 @@ VALUES (2044, 113, 2) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2044, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2044, 74, 270336) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (2044, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (2044, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2044, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (2044, 38, 1.45) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2044, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

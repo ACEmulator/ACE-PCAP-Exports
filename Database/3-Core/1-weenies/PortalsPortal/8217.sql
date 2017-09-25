@@ -33,7 +33,7 @@ VALUES (8217, 13, True) /* ETHEREAL_BOOL */
      , (8217, 19, True) /* ATTACKABLE_BOOL */
      , (8217, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8217, 38, 'Xarabydun Town Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

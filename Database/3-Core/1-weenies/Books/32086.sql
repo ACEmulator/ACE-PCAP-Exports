@@ -32,7 +32,7 @@ VALUES (32086, 13, True) /* ETHEREAL_BOOL */
      , (32086, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32086, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32086, 15, 'A list of items that the Arcanum Refurbisher can repair for you.') /* SHORT_DESC_STRING */;

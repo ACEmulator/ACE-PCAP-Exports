@@ -33,7 +33,7 @@ VALUES (45725, 13, True) /* ETHEREAL_BOOL */
      , (45725, 19, True) /* ATTACKABLE_BOOL */
      , (45725, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45725, 38, 'Twisted Refuge') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

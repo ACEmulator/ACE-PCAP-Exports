@@ -33,7 +33,7 @@ VALUES (432, 13, True) /* ETHEREAL_BOOL */
      , (432, 19, True) /* ATTACKABLE_BOOL */
      , (432, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (432, 38, 'South Zabool (20.8N, 18.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

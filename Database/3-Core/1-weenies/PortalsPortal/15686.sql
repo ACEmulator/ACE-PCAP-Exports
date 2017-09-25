@@ -33,7 +33,7 @@ VALUES (15686, 13, True) /* ETHEREAL_BOOL */
      , (15686, 19, True) /* ATTACKABLE_BOOL */
      , (15686, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15686, 38, 'Wilomine Villas Portal (37.6N, 49.0W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -46,7 +46,7 @@ VALUES (40706, 0, 83886788, 83894172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40706, 0, 16778411);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40706, 16, 'Covenant Bracers') /* LONG_DESC_STRING */;

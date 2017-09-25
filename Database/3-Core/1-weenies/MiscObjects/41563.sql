@@ -30,7 +30,7 @@ VALUES (41563, 13, True) /* ETHEREAL_BOOL */
      , (41563, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41563, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41563, 16, 'A complicated amalgamation of Aetherium ore and forged metal parts, apparently part of the power core of some kind of mechanical creature.') /* LONG_DESC_STRING */

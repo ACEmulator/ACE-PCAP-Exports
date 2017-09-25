@@ -35,7 +35,7 @@ VALUES (36354, 13, True) /* ETHEREAL_BOOL */
      , (36354, 19, True) /* ATTACKABLE_BOOL */
      , (36354, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36354, 16, 'A cow mask') /* LONG_DESC_STRING */;

@@ -32,7 +32,7 @@ VALUES (35936, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (35936, 19, True) /* ATTACKABLE_BOOL */
      , (35936, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35936, 14, 'There is an opening in the top of the cistern that you might be able to reach into.') /* USE_STRING */;

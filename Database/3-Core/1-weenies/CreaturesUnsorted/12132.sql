@@ -95,7 +95,7 @@ VALUES (12132, 16, 16795650)
      , (12132, 4, 16778426)
      , (12132, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (12132, 16, 67109567) /* EYES_PALETTE_DID */

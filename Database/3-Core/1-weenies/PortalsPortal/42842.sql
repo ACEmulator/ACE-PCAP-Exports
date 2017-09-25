@@ -33,7 +33,7 @@ VALUES (42842, 13, True) /* ETHEREAL_BOOL */
      , (42842, 19, True) /* ATTACKABLE_BOOL */
      , (42842, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42842, 16, 'This portal goes to Mayoi, a coastal settlement renowned for Shoyanen Kenchu, the master mage of the Sho people, who lives in a spire on the outskirts of town. This is a good town for characters over level 30.') /* LONG_DESC_STRING */

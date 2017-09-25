@@ -87,7 +87,7 @@ VALUES (8404, 10, 16777301)
      , (8404, 4, 16781838)
      , (8404, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8404, 5, 'Mask Maker') /* TEMPLATE_STRING */;

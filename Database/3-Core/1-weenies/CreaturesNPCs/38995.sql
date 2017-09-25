@@ -89,7 +89,7 @@ VALUES (38995, 12, 16778423)
      , (38995, 8, 16783487)
      , (38995, 16, 16785780);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38995, 5, 'Cashier') /* TEMPLATE_STRING */;

@@ -35,7 +35,7 @@ VALUES (35309, 13, True) /* ETHEREAL_BOOL */
      , (35309, 19, True) /* ATTACKABLE_BOOL */
      , (35309, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35309, 14, 'This medallion is used to mark members of the Tanada House of Water.  It is enchanted with magic, but the magic is not tuned properly to humans who have not been corrupted by chaotic Virindi.') /* USE_STRING */

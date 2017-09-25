@@ -33,7 +33,7 @@ VALUES (29103, 13, True) /* ETHEREAL_BOOL */
      , (29103, 19, True) /* ATTACKABLE_BOOL */
      , (29103, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29103, 16, 'A small portal lives inside the body of this hibernating K''nath. When used, the portal will send the caster to a K''nath lair.') /* LONG_DESC_STRING */

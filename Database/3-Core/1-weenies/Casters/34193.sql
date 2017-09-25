@@ -39,7 +39,7 @@ VALUES (34193, 13, True) /* ETHEREAL_BOOL */
      , (34193, 19, True) /* ATTACKABLE_BOOL */
      , (34193, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34193, 16, 'A bright sparkler meant to help commemorate Festival season and the anniversary of Asheron''s Call.') /* LONG_DESC_STRING */;

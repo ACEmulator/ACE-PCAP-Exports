@@ -49,7 +49,7 @@ VALUES (42756, 0, 83887064, 83898159);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42756, 0, 16778365);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42756, 16, 'Haebrean Tassets of Endurance') /* LONG_DESC_STRING */;

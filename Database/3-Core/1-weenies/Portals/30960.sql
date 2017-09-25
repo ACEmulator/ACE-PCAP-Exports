@@ -33,7 +33,7 @@ VALUES (30960, 13, True) /* ETHEREAL_BOOL */
      , (30960, 19, True) /* ATTACKABLE_BOOL */
      , (30960, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30960, 38, 'Dark Design') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

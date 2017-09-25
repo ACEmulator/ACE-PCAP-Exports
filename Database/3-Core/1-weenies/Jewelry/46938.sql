@@ -44,7 +44,7 @@ VALUES (46938, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46938, 0, 16778335);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46938, 15, 'An obsidian bracelet set with three sapphires.') /* SHORT_DESC_STRING */;

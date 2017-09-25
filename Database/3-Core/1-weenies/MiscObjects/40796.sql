@@ -34,7 +34,7 @@ VALUES (40796, 13, True) /* ETHEREAL_BOOL */
      , (40796, 19, True) /* ATTACKABLE_BOOL */
      , (40796, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40796, 14, 'Combine a shadow crystal with this prismatic crystal to stabilize it.') /* USE_STRING */

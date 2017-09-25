@@ -33,7 +33,7 @@ VALUES (43067, 13, True) /* ETHEREAL_BOOL */
      , (43067, 19, True) /* ATTACKABLE_BOOL */
      , (43067, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43067, 16, 'This portal goes to the Town Network, a place which connects many of the towns of Dereth.') /* LONG_DESC_STRING */

@@ -87,7 +87,7 @@ VALUES (33970, 11, 16777302)
      , (33970, 4, 16777291)
      , (33970, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33970, 5, 'Covert Operative') /* TEMPLATE_STRING */;

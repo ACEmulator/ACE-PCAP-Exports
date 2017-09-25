@@ -34,7 +34,7 @@ VALUES (22949, 13, True) /* ETHEREAL_BOOL */
      , (22949, 14, True) /* GRAVITY_STATUS_BOOL */
      , (22949, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22949, 16, 'A short note left here for you to find. ') /* LONG_DESC_STRING */;

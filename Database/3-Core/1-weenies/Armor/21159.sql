@@ -49,7 +49,7 @@ VALUES (21159, 0, 83887064, 83894182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21159, 0, 16778365);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21159, 16, 'Covenant Tassets of Quickness') /* LONG_DESC_STRING */;

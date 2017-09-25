@@ -89,7 +89,7 @@ VALUES (2048, 12, 16777304)
      , (2048, 4, 16781838)
      , (2048, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2048, 5, 'Peddler') /* TEMPLATE_STRING */;

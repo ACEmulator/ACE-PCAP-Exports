@@ -34,7 +34,7 @@ VALUES (41915, 13, True) /* ETHEREAL_BOOL */
      , (41915, 19, True) /* ATTACKABLE_BOOL */
      , (41915, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41915, 16, 'A weapon upgrade kit.') /* LONG_DESC_STRING */

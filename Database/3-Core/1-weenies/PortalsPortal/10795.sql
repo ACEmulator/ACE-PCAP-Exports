@@ -33,7 +33,7 @@ VALUES (10795, 13, True) /* ETHEREAL_BOOL */
      , (10795, 19, True) /* ATTACKABLE_BOOL */
      , (10795, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (10795, 38, 'Obsidian Rim Portal (48.0S, 65.0W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

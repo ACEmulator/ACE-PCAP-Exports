@@ -33,7 +33,7 @@ VALUES (25978, 13, True) /* ETHEREAL_BOOL */
      , (25978, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25978, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25978, 16, 'Directions given to the group of Zharalim Explorers searching for the newly discovered bulwark north west of Zaikhal.') /* LONG_DESC_STRING */;

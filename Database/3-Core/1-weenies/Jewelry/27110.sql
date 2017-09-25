@@ -38,7 +38,7 @@ VALUES (27110, 13, True) /* ETHEREAL_BOOL */
      , (27110, 19, True) /* ATTACKABLE_BOOL */
      , (27110, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27110, 16, 'A necklace with a small pendant given as a reward for furnishing information on the strange findings in the Blackmire Swamp to High Queen Elysa Strathelar and her council.') /* LONG_DESC_STRING */;

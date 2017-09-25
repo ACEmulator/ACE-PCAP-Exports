@@ -29,7 +29,7 @@ VALUES (12633, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12633, 19, True) /* ATTACKABLE_BOOL */
      , (12633, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12633, 16, 'Welcome to New Colier') /* LONG_DESC_STRING */;

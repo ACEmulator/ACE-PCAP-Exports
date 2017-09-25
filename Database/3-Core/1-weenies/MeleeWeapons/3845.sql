@@ -37,7 +37,7 @@ VALUES (3845, 13, True) /* ETHEREAL_BOOL */
      , (3845, 19, True) /* ATTACKABLE_BOOL */
      , (3845, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3845, 16, 'Frost Ono') /* LONG_DESC_STRING */;

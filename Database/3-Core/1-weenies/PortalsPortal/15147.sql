@@ -33,7 +33,7 @@ VALUES (15147, 13, True) /* ETHEREAL_BOOL */
      , (15147, 19, True) /* ATTACKABLE_BOOL */
      , (15147, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15147, 38, 'Bright Blade Cottages Portal (25.7N, 0.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

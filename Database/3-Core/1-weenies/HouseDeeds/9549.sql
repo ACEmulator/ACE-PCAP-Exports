@@ -36,7 +36,7 @@ VALUES (9549, 13, True) /* ETHEREAL_BOOL */
      , (9549, 19, True) /* ATTACKABLE_BOOL */
      , (9549, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9549, 16, 'Bought by Ripley, Life Adept on Leafdawning 14, 195 P.Y. at Gloaming-and-Half

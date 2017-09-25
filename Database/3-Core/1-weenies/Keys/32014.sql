@@ -33,7 +33,7 @@ VALUES (32014, 13, True) /* ETHEREAL_BOOL */
      , (32014, 19, True) /* ATTACKABLE_BOOL */
      , (32014, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32014, 14, 'Use this key on Xik Minru''s Reserve to unlock it.') /* USE_STRING */

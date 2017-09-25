@@ -33,7 +33,7 @@ VALUES (41956, 13, True) /* ETHEREAL_BOOL */
      , (41956, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41956, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41956, 16, 'A Tailoring Kit used on a piece of armor to take its appearance so it may be applied to another piece of armor. This process will destroy the initial target armor.') /* LONG_DESC_STRING */;

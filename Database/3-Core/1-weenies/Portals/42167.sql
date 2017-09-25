@@ -34,7 +34,7 @@ VALUES (42167, 13, True) /* ETHEREAL_BOOL */
      , (42167, 19, True) /* ATTACKABLE_BOOL */
      , (42167, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42167, 16, 'A portal leading to the Mosswart Maze where part of the Explorer''s Mace may be found.') /* LONG_DESC_STRING */

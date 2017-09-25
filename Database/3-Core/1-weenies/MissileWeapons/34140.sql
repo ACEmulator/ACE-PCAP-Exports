@@ -51,7 +51,7 @@ VALUES (34140, 0, 83892725, 83897611);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34140, 0, 16784961);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34140, 16, 'A superbly crafted jack o'' lantern, made with a carving knife.') /* LONG_DESC_STRING */;

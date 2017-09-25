@@ -85,7 +85,7 @@ VALUES (43062, 2, 16777293)
      , (43062, 14, 16789089)
      , (43062, 11, 16777302);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43062, 5, 'Olthoi Crossbow Crafter') /* TEMPLATE_STRING */;

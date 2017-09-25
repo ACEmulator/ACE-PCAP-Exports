@@ -86,7 +86,7 @@ VALUES (31646, 12, 16777304)
      , (31646, 13, 16783871)
      , (31646, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31646, 5, 'Repugnant Eater Ripper') /* TEMPLATE_STRING */;

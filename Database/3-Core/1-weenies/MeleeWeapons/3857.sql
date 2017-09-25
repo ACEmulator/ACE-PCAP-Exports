@@ -40,7 +40,7 @@ VALUES (3857, 13, True) /* ETHEREAL_BOOL */
      , (3857, 19, True) /* ATTACKABLE_BOOL */
      , (3857, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3857, 16, 'Acid Shou-ono of Endurance') /* LONG_DESC_STRING */;

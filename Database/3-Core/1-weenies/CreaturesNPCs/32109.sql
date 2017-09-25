@@ -92,7 +92,7 @@ VALUES (32109, 16, 16795647)
      , (32109, 4, 16791881)
      , (32109, 8, 16791882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32109, 5, 'Windreave Stalker') /* TEMPLATE_STRING */;

@@ -35,7 +35,7 @@ VALUES (24136, 13, True) /* ETHEREAL_BOOL */
      , (24136, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24136, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24136, 16, 'A piece of obsidian with writing from Aerbax.') /* LONG_DESC_STRING */

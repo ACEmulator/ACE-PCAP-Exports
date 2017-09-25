@@ -48,7 +48,7 @@ VALUES (20988, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20988, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20988, 14, 'Apply this material to a treasure-generated missile weapon to increase the weapon''s damage modifier by 4%.') /* USE_STRING */

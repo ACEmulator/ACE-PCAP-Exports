@@ -34,7 +34,7 @@ VALUES (42160, 13, True) /* ETHEREAL_BOOL */
      , (42160, 19, True) /* ATTACKABLE_BOOL */
      , (42160, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42160, 16, 'A portal leading to Green Mire Grave where the Green Mire Warrior artifacts may be found.') /* LONG_DESC_STRING */

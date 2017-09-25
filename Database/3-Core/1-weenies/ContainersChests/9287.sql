@@ -44,7 +44,7 @@ VALUES (9287, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9287, 9, 16785621);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9287, 16, 'A Virindi holding lies here.') /* LONG_DESC_STRING */

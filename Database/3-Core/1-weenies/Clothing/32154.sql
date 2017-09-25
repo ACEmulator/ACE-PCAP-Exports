@@ -53,7 +53,7 @@ VALUES (32154, 0, 16793338)
      , (32154, 12, 16777708)
      , (32154, 16, 16793379);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32154, 16, 'A gauzy robe that resembles a ghost.') /* LONG_DESC_STRING */;

@@ -31,7 +31,7 @@ VALUES (35576, 13, True) /* ETHEREAL_BOOL */
      , (35576, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35576, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35576, 16, 'Blueprints for the Drudge Fort outside of Cragstone. They show a network of caves below the fort.') /* LONG_DESC_STRING */;

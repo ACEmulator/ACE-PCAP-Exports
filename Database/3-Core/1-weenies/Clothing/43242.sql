@@ -34,7 +34,7 @@ VALUES (43242, 13, True) /* ETHEREAL_BOOL */
      , (43242, 19, True) /* ATTACKABLE_BOOL */
      , (43242, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43242, 16, 'A finely-built scarecrow costume, using the latest in wood golem enchantments. The pumpkin head feels a bit restrictive, and you have to look out of two very tiny eye holes.') /* LONG_DESC_STRING */;

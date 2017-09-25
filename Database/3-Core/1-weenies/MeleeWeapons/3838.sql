@@ -41,7 +41,7 @@ VALUES (3838, 13, True) /* ETHEREAL_BOOL */
      , (3838, 19, True) /* ATTACKABLE_BOOL */
      , (3838, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3838, 16, 'Finely crafted Ruby Acid Nabut , set with 1 Yellow Garnet') /* LONG_DESC_STRING */;

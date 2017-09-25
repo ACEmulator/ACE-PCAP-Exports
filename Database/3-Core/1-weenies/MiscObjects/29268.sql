@@ -31,7 +31,7 @@ VALUES (29268, 13, True) /* ETHEREAL_BOOL */
      , (29268, 19, True) /* ATTACKABLE_BOOL */
      , (29268, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29268, 16, 'Using this gem will give you 20% more burden-carrying capacity for each gem used.  You can augment yourself five times in this way, but you will need a new gem for each augmentation.') /* LONG_DESC_STRING */;

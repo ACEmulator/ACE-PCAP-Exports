@@ -107,7 +107,7 @@ VALUES (43069, 0, 16789775)
      , (43069, 23, 16789781)
      , (43069, 24, 16789780);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43069, 386, 0) /*  */

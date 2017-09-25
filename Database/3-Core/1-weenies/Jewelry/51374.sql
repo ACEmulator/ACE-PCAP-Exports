@@ -47,7 +47,7 @@ VALUES (51374, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51374, 0, 16778334);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51374, 15, 'A bracelet of lightning protection, given by Behdo Yii for completing the Hive Warrior quest.') /* SHORT_DESC_STRING */;

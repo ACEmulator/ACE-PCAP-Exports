@@ -35,7 +35,7 @@ VALUES (25784, 13, True) /* ETHEREAL_BOOL */
      , (25784, 19, True) /* ATTACKABLE_BOOL */
      , (25784, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25784, 16, 'Turn this token into the Mayor of Frost Haven for the Title "Honorary Snowman".') /* LONG_DESC_STRING */;

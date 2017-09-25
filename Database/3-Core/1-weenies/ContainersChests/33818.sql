@@ -37,7 +37,7 @@ VALUES (33818, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (33818, 19, True) /* ATTACKABLE_BOOL */
      , (33818, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33818, 14, 'Use the Shadow Chest Key to unlock this cache.') /* USE_STRING */;

@@ -33,7 +33,7 @@ VALUES (5362, 13, True) /* ETHEREAL_BOOL */
      , (5362, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5362, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5362, 16, 'A sheet of parchment, apparently torn from a bound book.') /* LONG_DESC_STRING */;

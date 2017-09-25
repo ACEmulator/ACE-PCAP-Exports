@@ -35,7 +35,7 @@ VALUES (2792, 13, True) /* ETHEREAL_BOOL */
      , (2792, 19, True) /* ATTACKABLE_BOOL */
      , (2792, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2792, 16, 'Inscribed spell: Bludgeon Bane II

@@ -34,7 +34,7 @@ VALUES (22764, 13, True) /* ETHEREAL_BOOL */
      , (22764, 14, True) /* GRAVITY_STATUS_BOOL */
      , (22764, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22764, 16, 'A book originally written in Falatacot, but with an Roulean translation attached. ') /* LONG_DESC_STRING */;

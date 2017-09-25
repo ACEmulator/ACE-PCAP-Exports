@@ -88,7 +88,7 @@ VALUES (13223, 10, 16777301)
      , (13223, 8, 16781839)
      , (13223, 16, 16779635);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13223, 5, 'Woodsman') /* TEMPLATE_STRING */;
@@ -110,6 +110,17 @@ VALUES (13223, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (13223, 64, 158) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13223, 74, 262144) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (13223, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (13223, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (13223, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (13223, 38, 1.1) /* SELL_PRICE_FLOAT */;
 
 /* Vendor Shop Selection List */
 

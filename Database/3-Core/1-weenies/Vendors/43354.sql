@@ -76,7 +76,7 @@ VALUES (43354, 1, 16777708)
      , (43354, 9, 16777300)
      , (43354, 0, 16781835);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43354, 5, 'Master Archmage') /* TEMPLATE_STRING */;
@@ -108,6 +108,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (43354, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (43354, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (43354, 256, 215) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43354, 74, 270464) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (43354, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (43354, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43354, 37, 0.5) /* BUY_PRICE_FLOAT */
+     , (43354, 38, 50) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43354, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

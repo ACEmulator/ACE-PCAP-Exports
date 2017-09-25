@@ -33,7 +33,7 @@ VALUES (22229, 13, True) /* ETHEREAL_BOOL */
      , (22229, 19, True) /* ATTACKABLE_BOOL */
      , (22229, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22229, 38, 'Spirit Gate Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

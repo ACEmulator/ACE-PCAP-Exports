@@ -39,7 +39,7 @@ VALUES (32615, 13, True) /* ETHEREAL_BOOL */
      , (32615, 22, True) /* INSCRIBABLE_BOOL */
      , (32615, 91, True) /* RETAINED_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32615, 16, 'A necklace enchanted by Royal Guard Qumasha to provide defense against the elements.') /* LONG_DESC_STRING */;

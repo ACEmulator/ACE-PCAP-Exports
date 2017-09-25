@@ -33,7 +33,7 @@ VALUES (53477, 13, True) /* ETHEREAL_BOOL */
      , (53477, 19, True) /* ATTACKABLE_BOOL */
      , (53477, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (53477, 38, 'Temple of the Font') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

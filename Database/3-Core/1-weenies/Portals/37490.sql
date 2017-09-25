@@ -33,7 +33,7 @@ VALUES (37490, 13, True) /* ETHEREAL_BOOL */
      , (37490, 19, True) /* ATTACKABLE_BOOL */
      , (37490, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37490, 38, 'Graveyard') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

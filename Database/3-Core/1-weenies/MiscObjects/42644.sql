@@ -43,7 +43,7 @@ VALUES (42644, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42644, 0, 16780681);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42644, 14, 'Ten Aetheria Powder may be given to Cypher in Xarabydun for a MFK.') /* USE_STRING */;

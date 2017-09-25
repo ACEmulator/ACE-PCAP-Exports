@@ -88,7 +88,7 @@ VALUES (49654, 11, 16777302)
      , (49654, 8, 16781839)
      , (49654, 16, 16778594);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49654, 5, 'Shopkeeper') /* TEMPLATE_STRING */;

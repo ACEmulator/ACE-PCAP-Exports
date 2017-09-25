@@ -33,7 +33,7 @@ VALUES (22837, 13, True) /* ETHEREAL_BOOL */
      , (22837, 19, True) /* ATTACKABLE_BOOL */
      , (22837, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22837, 14, 'This flower can be added to a crystal vase to make a lovely floral arrangement for a house. This object can also be used on a yard hook.') /* USE_STRING */

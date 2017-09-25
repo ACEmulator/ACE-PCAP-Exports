@@ -35,7 +35,7 @@ VALUES (1699, 13, True) /* ETHEREAL_BOOL */
      , (1699, 19, True) /* ATTACKABLE_BOOL */
      , (1699, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1699, 16, 'Inscribed spell: Fealty Self I

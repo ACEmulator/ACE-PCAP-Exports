@@ -38,7 +38,7 @@ VALUES (45407, 13, True) /* ETHEREAL_BOOL */
      , (45407, 19, True) /* ATTACKABLE_BOOL */
      , (45407, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45407, 16, 'Acid Yaoji of Swiftkiller') /* LONG_DESC_STRING */;

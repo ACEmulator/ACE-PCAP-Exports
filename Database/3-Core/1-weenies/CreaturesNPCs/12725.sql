@@ -90,7 +90,7 @@ VALUES (12725, 12, 16777304)
      , (12725, 14, 16783855)
      , (12725, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12725, 5, 'Soldier') /* TEMPLATE_STRING */;

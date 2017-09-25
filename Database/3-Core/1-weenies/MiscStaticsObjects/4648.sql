@@ -29,7 +29,7 @@ VALUES (4648, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4648, 19, True) /* ATTACKABLE_BOOL */
      , (4648, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4648, 16, 'This way to Al-Arqas!') /* LONG_DESC_STRING */;

@@ -42,7 +42,7 @@ VALUES (14898, 0, 83892149, 83892150)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14898, 0, 16783332);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14898, 14, 'This item is used to cut Wedding Cake for guests.') /* USE_STRING */;

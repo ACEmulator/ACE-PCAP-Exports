@@ -29,7 +29,7 @@ VALUES (14331, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (14331, 19, True) /* ATTACKABLE_BOOL */
      , (14331, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14331, 16, 'Welcome to Taralla') /* LONG_DESC_STRING */;

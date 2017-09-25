@@ -38,7 +38,7 @@ VALUES (11982, 13, True) /* ETHEREAL_BOOL */
      , (11982, 19, True) /* ATTACKABLE_BOOL */
      , (11982, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11982, 16, 'An Axe made with a sharpened piece of volcanic rock.  The blade seems to be unevenly cut, however it is still quite sharp.  The handle seems to a be a worn, old Golem Jo.') /* LONG_DESC_STRING */;

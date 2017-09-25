@@ -38,7 +38,7 @@ VALUES (44155, 13, True) /* ETHEREAL_BOOL */
      , (44155, 19, True) /* ATTACKABLE_BOOL */
      , (44155, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44155, 16, 'Cyphis Suldow wants to build a resort near Stonehold but some Banderlings are in his way. Help Cyphis relocate the banderlings.') /* LONG_DESC_STRING */

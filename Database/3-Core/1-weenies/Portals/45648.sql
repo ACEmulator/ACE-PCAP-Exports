@@ -33,7 +33,7 @@ VALUES (45648, 13, True) /* ETHEREAL_BOOL */
      , (45648, 19, True) /* ATTACKABLE_BOOL */
      , (45648, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45648, 38, 'Geraine''s Study') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

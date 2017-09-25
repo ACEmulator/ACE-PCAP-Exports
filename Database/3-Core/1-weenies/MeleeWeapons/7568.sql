@@ -39,7 +39,7 @@ VALUES (7568, 13, True) /* ETHEREAL_BOOL */
      , (7568, 19, True) /* ATTACKABLE_BOOL */
      , (7568, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7568, 16, 'A katar crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (15757, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15757, 19, True) /* ATTACKABLE_BOOL */
      , (15757, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15757, 16, 'The skeleton of Lania Cartoth lies forlorn and broken on the stone floor. A letter is among her remains.') /* LONG_DESC_STRING */

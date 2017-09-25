@@ -33,7 +33,7 @@ VALUES (27694, 13, True) /* ETHEREAL_BOOL */
      , (27694, 19, True) /* ATTACKABLE_BOOL */
      , (27694, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27694, 38, 'Renegade Stronghold') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

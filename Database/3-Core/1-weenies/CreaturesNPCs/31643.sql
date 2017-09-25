@@ -86,7 +86,7 @@ VALUES (31643, 12, 16777304)
      , (31643, 13, 16783871)
      , (31643, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31643, 5, 'Plate Armoredillo Punisher') /* TEMPLATE_STRING */;

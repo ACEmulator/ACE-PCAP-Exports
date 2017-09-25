@@ -32,7 +32,7 @@ VALUES (8513, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8513, 19, True) /* ATTACKABLE_BOOL */
      , (8513, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8513, 16, 'A stout, well-locked door. The metal has been finely inscribed with a motif of ocean waves. If the light does not hit the inscription properly, you can''t even see it.') /* LONG_DESC_STRING */

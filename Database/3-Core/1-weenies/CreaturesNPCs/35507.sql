@@ -85,7 +85,7 @@ VALUES (35507, 0, 16783894)
      , (35507, 14, 16788202)
      , (35507, 16, 16783891);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35507, 5, 'Gravekeeper') /* TEMPLATE_STRING */;

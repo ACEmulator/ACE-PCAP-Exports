@@ -85,7 +85,7 @@ VALUES (23349, 2, 16777293)
      , (23349, 4, 16777291)
      , (23349, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23349, 5, 'Dashing Swordsman') /* TEMPLATE_STRING */;

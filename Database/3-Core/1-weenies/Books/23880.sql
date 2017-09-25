@@ -33,7 +33,7 @@ VALUES (23880, 13, True) /* ETHEREAL_BOOL */
      , (23880, 14, True) /* GRAVITY_STATUS_BOOL */
      , (23880, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23880, 16, 'A neatly written note.') /* LONG_DESC_STRING */;

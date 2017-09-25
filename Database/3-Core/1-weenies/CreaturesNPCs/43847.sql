@@ -116,7 +116,7 @@ VALUES (43847, 5, 16788087)
      , (43847, 22, 16777708)
      , (43847, 21, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43847, 5, 'Royal Knight Mage') /* TEMPLATE_STRING */;

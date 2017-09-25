@@ -43,7 +43,7 @@ VALUES (41809, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41809, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41809, 16, 'A damaged commendation ribbon lost by a Celestial Hand agent.') /* LONG_DESC_STRING */

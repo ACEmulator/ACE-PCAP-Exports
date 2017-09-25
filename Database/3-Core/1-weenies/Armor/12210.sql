@@ -38,7 +38,7 @@ VALUES (12210, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12210, 0, 16787384);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12210, 16, 'A finely stitched and cured Ursuin head, complete with cushions around the neck for active use.') /* LONG_DESC_STRING */;

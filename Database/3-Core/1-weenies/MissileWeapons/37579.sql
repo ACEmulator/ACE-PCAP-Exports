@@ -56,7 +56,7 @@ VALUES (37579, 0, 16787900)
      , (37579, 1, 16787899)
      , (37579, 2, 16787899);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37579, 16, 'A ghostly blue crossbow, bound to your soul.') /* LONG_DESC_STRING */;

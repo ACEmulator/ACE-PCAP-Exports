@@ -48,7 +48,7 @@ VALUES (31800, 67116700, 1, 100)
      , (31800, 67116710, 101, 100)
      , (31800, 67116710, 201, 55);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31800, 16, 'Blunt Compound Bow of Endurance') /* LONG_DESC_STRING */;

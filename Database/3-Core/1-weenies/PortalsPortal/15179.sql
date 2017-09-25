@@ -33,7 +33,7 @@ VALUES (15179, 13, True) /* ETHEREAL_BOOL */
      , (15179, 19, True) /* ATTACKABLE_BOOL */
      , (15179, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15179, 38, 'New Nesortania Portal (53.6N, 10.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

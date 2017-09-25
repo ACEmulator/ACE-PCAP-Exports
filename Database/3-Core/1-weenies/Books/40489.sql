@@ -34,7 +34,7 @@ VALUES (40489, 13, True) /* ETHEREAL_BOOL */
      , (40489, 14, True) /* GRAVITY_STATUS_BOOL */
      , (40489, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40489, 14, 'This item cannot be read, but a scholar of the ways of the Virindi may be able to decode the message contained within.') /* USE_STRING */

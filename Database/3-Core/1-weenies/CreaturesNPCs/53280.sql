@@ -49,7 +49,7 @@ VALUES (53280, 67110361, 72, 8)
      , (53280, 67116870, 206, 10)
      , (53280, 67116870, 250, 6);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (53280, 5, 'Spirit Speaker') /* TEMPLATE_STRING */;

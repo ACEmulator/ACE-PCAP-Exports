@@ -47,7 +47,7 @@ VALUES (45543, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45543, 0, 16777955);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45543, 15, 'An enhanced budiaq crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;

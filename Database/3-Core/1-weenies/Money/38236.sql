@@ -29,7 +29,7 @@ VALUES (38236, 13, True) /* ETHEREAL_BOOL */
      , (38236, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38236, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38236, 16, 'A token, given to you as a reward for accomplishing goals set to you by those in your Society.') /* LONG_DESC_STRING */

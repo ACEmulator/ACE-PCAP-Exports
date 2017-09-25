@@ -39,7 +39,7 @@ VALUES (3774, 13, True) /* ETHEREAL_BOOL */
      , (3774, 22, True) /* INSCRIBABLE_BOOL */
      , (3774, 91, True) /* RETAINED_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3774, 16, 'Acid Dabus of Blooddrinker') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (15674, 13, True) /* ETHEREAL_BOOL */
      , (15674, 19, True) /* ATTACKABLE_BOOL */
      , (15674, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15674, 38, 'Gharu''n Victory Villas Portal (17.6N, 12.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

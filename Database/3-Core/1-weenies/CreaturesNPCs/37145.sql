@@ -85,7 +85,7 @@ VALUES (37145, 0, 16783894)
      , (37145, 14, 16788202)
      , (37145, 16, 16783891);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37145, 5, 'Jester''s Prison Jailer') /* TEMPLATE_STRING */;

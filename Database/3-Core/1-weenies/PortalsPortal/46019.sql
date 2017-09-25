@@ -37,7 +37,7 @@ VALUES (46019, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (46019, 67111849, 1, 255);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46019, 38, 'Surface Portal (0.7N, 44.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

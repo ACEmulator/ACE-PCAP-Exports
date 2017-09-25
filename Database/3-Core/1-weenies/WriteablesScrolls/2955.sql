@@ -35,7 +35,7 @@ VALUES (2955, 13, True) /* ETHEREAL_BOOL */
      , (2955, 19, True) /* ATTACKABLE_BOOL */
      , (2955, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2955, 16, 'Inscribed spell: Lightning Bolt II

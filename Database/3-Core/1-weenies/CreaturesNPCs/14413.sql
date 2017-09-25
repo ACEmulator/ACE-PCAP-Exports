@@ -90,7 +90,7 @@ VALUES (14413, 12, 16777304)
      , (14413, 14, 16783855)
      , (14413, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14413, 5, 'Senior Guard') /* TEMPLATE_STRING */;

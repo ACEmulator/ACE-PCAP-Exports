@@ -35,7 +35,7 @@ VALUES (34405, 13, True) /* ETHEREAL_BOOL */
      , (34405, 19, True) /* ATTACKABLE_BOOL */
      , (34405, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34405, 16, 'A Mr. P. pack doll with a stocking cap on to help keep him warm during the Holiday Season.') /* LONG_DESC_STRING */

@@ -32,7 +32,7 @@ VALUES (5126, 13, True) /* ETHEREAL_BOOL */
      , (5126, 19, True) /* ATTACKABLE_BOOL */
      , (5126, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5126, 16, 'A bottle containing what looks like water, except the water somehow smells more refreshing than normal water.') /* LONG_DESC_STRING */

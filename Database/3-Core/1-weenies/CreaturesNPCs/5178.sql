@@ -87,7 +87,7 @@ VALUES (5178, 11, 16777302)
      , (5178, 4, 16777291)
      , (5178, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5178, 5, 'Merchant') /* TEMPLATE_STRING */;

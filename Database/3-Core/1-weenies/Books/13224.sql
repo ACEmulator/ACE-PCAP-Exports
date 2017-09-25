@@ -34,7 +34,7 @@ VALUES (13224, 13, True) /* ETHEREAL_BOOL */
      , (13224, 14, True) /* GRAVITY_STATUS_BOOL */
      , (13224, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (13224, 16, 'A frozen piece of parchment with instructions on how to build a snowman') /* LONG_DESC_STRING */;

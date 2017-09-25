@@ -38,7 +38,7 @@ VALUES (11697, 13, True) /* ETHEREAL_BOOL */
      , (11697, 1, True) /* STUCK_BOOL */
      , (11697, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11697, 16, 'This hook is owned by Kalar Soarfire. It contains: 

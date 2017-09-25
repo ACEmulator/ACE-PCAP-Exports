@@ -80,7 +80,7 @@ VALUES (38078, 16, 16795640)
      , (38078, 4, 16791954)
      , (38078, 8, 16791955);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38078, 5, 'Blood of Truth') /* TEMPLATE_STRING */;

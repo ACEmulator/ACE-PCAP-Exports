@@ -32,7 +32,7 @@ VALUES (15299, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15299, 19, True) /* ATTACKABLE_BOOL */
      , (15299, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15299, 16, 'A concentrated gold pea.') /* LONG_DESC_STRING */;

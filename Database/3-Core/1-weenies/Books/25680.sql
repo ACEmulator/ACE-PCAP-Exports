@@ -33,7 +33,7 @@ VALUES (25680, 13, True) /* ETHEREAL_BOOL */
      , (25680, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25680, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25680, 16, 'A poorly composed journal.') /* LONG_DESC_STRING */;

@@ -34,7 +34,7 @@ VALUES (11451, 13, True) /* ETHEREAL_BOOL */
      , (11451, 19, True) /* ATTACKABLE_BOOL */
      , (11451, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11451, 16, 'A double totem representing two of the animas found on Palenqual. ') /* LONG_DESC_STRING */

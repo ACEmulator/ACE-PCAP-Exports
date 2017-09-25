@@ -82,7 +82,7 @@ VALUES (40982, 12, 16777304)
      , (40982, 13, 16783871)
      , (40982, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40982, 5, 'Archmage') /* TEMPLATE_STRING */;

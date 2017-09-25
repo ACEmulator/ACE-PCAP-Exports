@@ -46,7 +46,7 @@ VALUES (52799, 0, 83887061, 83897005)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52799, 0, 16779535);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52799, 16, 'One piece of the Gauntlet Garb Set.') /* LONG_DESC_STRING */;

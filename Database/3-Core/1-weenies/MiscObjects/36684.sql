@@ -35,7 +35,7 @@ VALUES (36684, 13, True) /* ETHEREAL_BOOL */
      , (36684, 19, True) /* ATTACKABLE_BOOL */
      , (36684, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36684, 16, 'A pile of gems, coins and other valuables.') /* LONG_DESC_STRING */;

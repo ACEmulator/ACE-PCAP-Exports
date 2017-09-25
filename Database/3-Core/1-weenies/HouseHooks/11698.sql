@@ -38,7 +38,7 @@ VALUES (11698, 13, True) /* ETHEREAL_BOOL */
      , (11698, 1, True) /* STUCK_BOOL */
      , (11698, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11698, 16, 'This hook is owned by Ripley. ') /* LONG_DESC_STRING */

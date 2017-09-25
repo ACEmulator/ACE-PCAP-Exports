@@ -51,7 +51,7 @@ VALUES (44800, 0, 83887061, 83898640)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44800, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44800, 16, 'Dho Vest and Over-Robe of Endurance') /* LONG_DESC_STRING */;

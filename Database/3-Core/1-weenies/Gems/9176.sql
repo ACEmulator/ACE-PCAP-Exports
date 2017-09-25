@@ -152,7 +152,7 @@ VALUES (9176, 0, 16784647)
      , (9176, 16, 16784650)
      , (9176, 17, 16784650);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9176, 16, 'Articulated legs make this Pack Grievver number one on everyone''s holiday shopping list! Get yours now while supplies last. Do not taunt happy Pack Grievver.') /* LONG_DESC_STRING */;

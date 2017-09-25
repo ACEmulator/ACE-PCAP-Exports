@@ -33,7 +33,7 @@ VALUES (14677, 13, True) /* ETHEREAL_BOOL */
      , (14677, 19, True) /* ATTACKABLE_BOOL */
      , (14677, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14677, 38, 'West Zaikhal Freehold Portal (16.9N, 9.5W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

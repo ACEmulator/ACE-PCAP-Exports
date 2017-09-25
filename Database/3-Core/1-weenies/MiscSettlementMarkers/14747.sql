@@ -29,7 +29,7 @@ VALUES (14747, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (14747, 19, True) /* ATTACKABLE_BOOL */
      , (14747, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14747, 16, 'Welcome to West Zaikhal Freehold') /* LONG_DESC_STRING */;

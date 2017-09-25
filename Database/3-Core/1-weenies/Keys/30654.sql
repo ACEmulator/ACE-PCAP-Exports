@@ -34,7 +34,7 @@ VALUES (30654, 13, True) /* ETHEREAL_BOOL */
      , (30654, 19, True) /* ATTACKABLE_BOOL */
      , (30654, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30654, 16, 'A key. Most likely used to open a door.') /* LONG_DESC_STRING */;

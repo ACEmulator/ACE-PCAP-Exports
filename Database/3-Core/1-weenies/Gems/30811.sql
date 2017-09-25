@@ -52,7 +52,7 @@ VALUES (30811, 0, 83889687, 83889687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30811, 0, 16778337);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30811, 14, 'Double Click on this item to summon a portal to the center of the Singularity Caul.') /* USE_STRING */

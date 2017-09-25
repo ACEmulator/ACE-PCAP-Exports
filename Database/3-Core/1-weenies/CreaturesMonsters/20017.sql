@@ -36,7 +36,7 @@ VALUES (20017, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (20017, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (20017, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20017, 5, 'Dying') /* TEMPLATE_STRING */;

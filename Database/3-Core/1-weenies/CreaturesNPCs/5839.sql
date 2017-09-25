@@ -94,7 +94,7 @@ VALUES (5839, 12, 16777304)
      , (5839, 8, 16781839)
      , (5839, 16, 16779635);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5839, 5, 'Bandit Captain') /* TEMPLATE_STRING */;

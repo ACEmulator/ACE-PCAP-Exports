@@ -46,7 +46,7 @@ VALUES (21372, 67114018, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21372, 0, 16788394);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21372, 15, 'A crown made of some luminescent metal.') /* SHORT_DESC_STRING */;

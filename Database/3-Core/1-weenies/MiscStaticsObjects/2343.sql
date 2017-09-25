@@ -29,7 +29,7 @@ VALUES (2343, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2343, 19, True) /* ATTACKABLE_BOOL */
      , (2343, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2343, 16, 'Beware! You are now entering the forsaken town of Colier. The hazards awaiting in Colier outweigh any rewards one might find there. ') /* LONG_DESC_STRING */;

@@ -32,7 +32,7 @@ VALUES (36682, 13, True) /* ETHEREAL_BOOL */
      , (36682, 19, True) /* ATTACKABLE_BOOL */
      , (36682, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36682, 16, 'A stone etched with the familiar design the Lugians use to represent Linvak Tukal.') /* LONG_DESC_STRING */;

@@ -69,7 +69,7 @@ VALUES (36447, 0, 16778207)
      , (36447, 11, 16778203)
      , (36447, 12, 16778204);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36447, 16, 'A festival treat. A little rat shaped licorice candy. It jumps and squeaks like the real thing! But it''s much safer to eat.') /* LONG_DESC_STRING */

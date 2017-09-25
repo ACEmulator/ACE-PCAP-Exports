@@ -33,7 +33,7 @@ VALUES (36008, 13, True) /* ETHEREAL_BOOL */
      , (36008, 19, True) /* ATTACKABLE_BOOL */
      , (36008, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36008, 16, 'This portal coruscates with strange energies, filling you with an eerie warmth when you get close to it, even though it doesn''t seem to radiate any actual heat.') /* LONG_DESC_STRING */

@@ -29,7 +29,7 @@ VALUES (14312, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (14312, 19, True) /* ATTACKABLE_BOOL */
      , (14312, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14312, 16, 'Welcome to Jackcat Canyon') /* LONG_DESC_STRING */;

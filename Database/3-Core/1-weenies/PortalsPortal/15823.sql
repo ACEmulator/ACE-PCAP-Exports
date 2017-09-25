@@ -33,7 +33,7 @@ VALUES (15823, 13, True) /* ETHEREAL_BOOL */
      , (15823, 19, True) /* ATTACKABLE_BOOL */
      , (15823, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15823, 38, 'Hidden Dungeon Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

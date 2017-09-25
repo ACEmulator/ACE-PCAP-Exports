@@ -36,7 +36,7 @@ VALUES (9179, 13, True) /* ETHEREAL_BOOL */
      , (9179, 19, True) /* ATTACKABLE_BOOL */
      , (9179, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9179, 16, 'Your very own Wood Golem! Real wood construction and realistic facial moss. Hand milled and assembled in the hills of Ispar by a lonely old man in his workshop.') /* LONG_DESC_STRING */;

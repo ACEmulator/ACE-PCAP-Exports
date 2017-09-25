@@ -33,7 +33,7 @@ VALUES (15155, 13, True) /* ETHEREAL_BOOL */
      , (15155, 19, True) /* ATTACKABLE_BOOL */
      , (15155, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15155, 38, 'Durglen Portal (42.5N, 4.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

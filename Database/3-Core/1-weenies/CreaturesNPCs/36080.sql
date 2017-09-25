@@ -37,7 +37,7 @@ VALUES (36080, 13, True) /* ETHEREAL_BOOL */
      , (36080, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (36080, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36080, 16, 'Frost Schlager of Defender') /* LONG_DESC_STRING */;

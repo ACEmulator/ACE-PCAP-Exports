@@ -41,7 +41,7 @@ VALUES (3827, 13, True) /* ETHEREAL_BOOL */
      , (3827, 22, True) /* INSCRIBABLE_BOOL */
      , (3827, 91, True) /* RETAINED_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3827, 16, 'Lightning Khanjar of Quickness') /* LONG_DESC_STRING */;

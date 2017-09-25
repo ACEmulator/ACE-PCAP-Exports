@@ -40,7 +40,7 @@ VALUES (33941, 13, True) /* ETHEREAL_BOOL */
      , (33941, 19, True) /* ATTACKABLE_BOOL */
      , (33941, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33941, 16, 'The leg of a Relic Bones.  It is inscribed with runes, and the entire bone shines with a ruddy flame and is enhanced by Belinda du Loc.') /* LONG_DESC_STRING */;

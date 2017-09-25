@@ -31,5 +31,5 @@ VALUES (22118, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22118, 19, True) /* ATTACKABLE_BOOL */
      , (22118, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 

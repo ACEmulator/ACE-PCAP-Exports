@@ -32,7 +32,7 @@ VALUES (25822, 13, True) /* ETHEREAL_BOOL */
      , (25822, 19, True) /* ATTACKABLE_BOOL */
      , (25822, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25822, 14, 'The water is pure, and meant to anoint the trappings of those who have walked the path of Honshu Takeda.') /* USE_STRING */

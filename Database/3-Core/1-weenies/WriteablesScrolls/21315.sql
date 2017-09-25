@@ -35,7 +35,7 @@ VALUES (21315, 13, True) /* ETHEREAL_BOOL */
      , (21315, 19, True) /* ATTACKABLE_BOOL */
      , (21315, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21315, 16, 'Inscribed spell: Force Arc VII

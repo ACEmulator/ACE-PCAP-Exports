@@ -33,7 +33,7 @@ VALUES (33541, 13, True) /* ETHEREAL_BOOL */
      , (33541, 19, True) /* ATTACKABLE_BOOL */
      , (33541, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33541, 16, 'An ancient key, used to open the locked Gate in the Deep Mukkir Nest.') /* LONG_DESC_STRING */;

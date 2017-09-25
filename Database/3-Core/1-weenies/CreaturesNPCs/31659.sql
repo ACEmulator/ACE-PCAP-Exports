@@ -86,7 +86,7 @@ VALUES (31659, 12, 16778423)
      , (31659, 13, 16783871)
      , (31659, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31659, 5, 'Deathcap Defeater') /* TEMPLATE_STRING */;

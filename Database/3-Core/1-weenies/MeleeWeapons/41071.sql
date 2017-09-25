@@ -49,7 +49,7 @@ VALUES (41071, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41071, 0, 16794291);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41071, 16, 'Frost Shashqa of Swiftkiller') /* LONG_DESC_STRING */;

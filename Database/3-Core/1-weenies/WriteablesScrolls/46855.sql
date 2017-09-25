@@ -35,7 +35,7 @@ VALUES (46855, 13, True) /* ETHEREAL_BOOL */
      , (46855, 19, True) /* ATTACKABLE_BOOL */
      , (46855, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (46855, 16, 'Inscribed spell: Aura of Blood Drinker Other VI

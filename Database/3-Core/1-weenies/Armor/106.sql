@@ -47,7 +47,7 @@ VALUES (106, 0, 83886796, 83889770)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (106, 0, 16778363);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (106, 16, 'Yoroi Sleeves') /* LONG_DESC_STRING */;

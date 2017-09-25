@@ -29,7 +29,7 @@ VALUES (43014, 13, True) /* ETHEREAL_BOOL */
      , (43014, 19, True) /* ATTACKABLE_BOOL */
      , (43014, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43014, 16, 'The Annex contains portals from several different races.') /* LONG_DESC_STRING */;

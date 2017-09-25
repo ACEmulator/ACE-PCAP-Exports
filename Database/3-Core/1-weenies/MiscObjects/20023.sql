@@ -38,7 +38,7 @@ VALUES (20023, 13, True) /* ETHEREAL_BOOL */
      , (20023, 19, True) /* ATTACKABLE_BOOL */
      , (20023, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20023, 16, 'A claw-like device used to remove elemental stones from the Isparian weaponry. Having been carved from a diamond heart infused with the essence of nullification, it is a sturdy device.') /* LONG_DESC_STRING */

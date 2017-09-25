@@ -33,7 +33,7 @@ VALUES (52241, 13, True) /* ETHEREAL_BOOL */
      , (52241, 19, True) /* ATTACKABLE_BOOL */
      , (52241, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52241, 16, 'A light blue key that feels icy cold.') /* LONG_DESC_STRING */

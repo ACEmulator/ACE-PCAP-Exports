@@ -37,7 +37,7 @@ VALUES (40340, 13, True) /* ETHEREAL_BOOL */
      , (40340, 19, True) /* ATTACKABLE_BOOL */
      , (40340, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40340, 16, 'This darkened skull feels cold to the touch. Use it to destroy invisible ghosts under Mhoire Castle.') /* LONG_DESC_STRING */;

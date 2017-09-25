@@ -34,7 +34,7 @@ VALUES (27093, 13, True) /* ETHEREAL_BOOL */
      , (27093, 19, True) /* ATTACKABLE_BOOL */
      , (27093, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27093, 15, 'A few small seeds, found on a Shreth. They do not seem to have any apparent use.') /* SHORT_DESC_STRING */;

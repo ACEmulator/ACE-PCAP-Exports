@@ -38,7 +38,7 @@ VALUES (25723, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25723, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (25723, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25723, 15, 'A tree, looking much like all the others.') /* SHORT_DESC_STRING */;

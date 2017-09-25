@@ -37,7 +37,7 @@ VALUES (11817, 13, True) /* ETHEREAL_BOOL */
      , (11817, 19, True) /* ATTACKABLE_BOOL */
      , (11817, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11817, 16, 'A Shreth Crest.') /* LONG_DESC_STRING */

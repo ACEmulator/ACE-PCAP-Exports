@@ -86,7 +86,7 @@ VALUES (1059, 10, 16778431)
      , (1059, 8, 16783487)
      , (1059, 16, 16778594);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1059, 5, 'Weaponsmith') /* TEMPLATE_STRING */;
@@ -108,6 +108,20 @@ VALUES (1059, 113, 2) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1059, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1059, 74, 1074004225) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (1059, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (1059, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (1059, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (1059, 38, 1.7) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1059, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

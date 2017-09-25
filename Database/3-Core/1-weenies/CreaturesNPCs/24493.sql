@@ -97,7 +97,7 @@ VALUES (24493, 10, 16777301)
      , (24493, 8, 16777298)
      , (24493, 16, 16785361);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24493, 5, 'Sentry') /* TEMPLATE_STRING */;

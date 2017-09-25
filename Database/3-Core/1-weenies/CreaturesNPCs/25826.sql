@@ -89,7 +89,7 @@ VALUES (25826, 12, 16777304)
      , (25826, 4, 16781838)
      , (25826, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25826, 5, 'Adherent') /* TEMPLATE_STRING */;

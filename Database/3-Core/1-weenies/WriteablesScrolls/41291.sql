@@ -35,7 +35,7 @@ VALUES (41291, 13, True) /* ETHEREAL_BOOL */
      , (41291, 19, True) /* ATTACKABLE_BOOL */
      , (41291, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41291, 16, 'Inscribed spell: Two Handed Combat Ineptitude Other IV

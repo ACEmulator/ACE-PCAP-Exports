@@ -42,7 +42,7 @@ VALUES (23912, 13, True) /* ETHEREAL_BOOL */
      , (23912, 19, True) /* ATTACKABLE_BOOL */
      , (23912, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23912, 16, 'A reward for defeating the leaders of the Shreth Clan.') /* LONG_DESC_STRING */;

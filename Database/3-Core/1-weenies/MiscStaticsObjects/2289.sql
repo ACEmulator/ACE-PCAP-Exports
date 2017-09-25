@@ -30,7 +30,7 @@ VALUES (2289, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2289, 19, True) /* ATTACKABLE_BOOL */
      , (2289, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2289, 16, 'Welcome to the town of Sawato.') /* LONG_DESC_STRING */;

@@ -33,7 +33,7 @@ VALUES (2462, 13, True) /* ETHEREAL_BOOL */
      , (2462, 14, True) /* GRAVITY_STATUS_BOOL */
      , (2462, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2462, 16, 'Sceptre') /* LONG_DESC_STRING */;

@@ -84,6 +84,20 @@ VALUES (1379, 2, 16777293)
      , (1379, 4, 16777291)
      , (1379, 8, 16777298);
 
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1379, 74, 262401) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (1379, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (1379, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (1379, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (1379, 38, 1.55) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1379, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)

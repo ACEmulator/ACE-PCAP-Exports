@@ -40,7 +40,7 @@ VALUES (12689, 0, 83890064, 83892492);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12689, 0, 16777882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12689, 15, 'A fine sparkling powder lies here, the residue of the mighty Diamond Golem.') /* SHORT_DESC_STRING */;

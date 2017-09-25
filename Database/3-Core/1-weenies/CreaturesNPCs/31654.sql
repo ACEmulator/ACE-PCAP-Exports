@@ -86,7 +86,7 @@ VALUES (31654, 12, 16777304)
      , (31654, 13, 16783871)
      , (31654, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31654, 5, 'Olthoi Ripper Reducer') /* TEMPLATE_STRING */;

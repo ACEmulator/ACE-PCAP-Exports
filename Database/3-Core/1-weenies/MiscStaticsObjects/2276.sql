@@ -30,7 +30,7 @@ VALUES (2276, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2276, 19, True) /* ATTACKABLE_BOOL */
      , (2276, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2276, 16, 'Welcome to the town of Baishi') /* LONG_DESC_STRING */;

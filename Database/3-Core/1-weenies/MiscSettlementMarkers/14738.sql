@@ -29,7 +29,7 @@ VALUES (14738, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (14738, 19, True) /* ATTACKABLE_BOOL */
      , (14738, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14738, 16, 'Welcome to South Uziz Villas') /* LONG_DESC_STRING */;

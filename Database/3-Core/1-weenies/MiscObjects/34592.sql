@@ -33,7 +33,7 @@ VALUES (34592, 13, True) /* ETHEREAL_BOOL */
      , (34592, 19, True) /* ATTACKABLE_BOOL */
      , (34592, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34592, 16, 'This medal is etched with the arms of the Strathelar family. On the back is inscribed, "In thanks to service rendered to New Aluvia and all of Dereth."') /* LONG_DESC_STRING */

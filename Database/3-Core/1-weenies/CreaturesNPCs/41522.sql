@@ -79,7 +79,7 @@ VALUES (41522, 16, 16795640)
      , (41522, 4, 16791935)
      , (41522, 8, 16791936);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41522, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;

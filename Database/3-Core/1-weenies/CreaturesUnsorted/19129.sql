@@ -36,7 +36,7 @@ VALUES (19129, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19129, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (19129, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19129, 16, 'A very old spinning wheel intricately carved with mythical creatures.') /* LONG_DESC_STRING */

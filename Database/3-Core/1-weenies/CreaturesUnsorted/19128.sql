@@ -36,7 +36,7 @@ VALUES (19128, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19128, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (19128, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19128, 16, 'An ornate loom etched with ancient symbols. It seems to be in perfect working order despite its obvious age.') /* LONG_DESC_STRING */

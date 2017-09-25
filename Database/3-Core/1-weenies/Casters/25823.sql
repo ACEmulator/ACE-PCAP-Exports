@@ -35,7 +35,7 @@ VALUES (25823, 13, True) /* ETHEREAL_BOOL */
      , (25823, 19, True) /* ATTACKABLE_BOOL */
      , (25823, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25823, 15, 'This orb is a representation of the splendor of the Firebird as realized by the adherents who follow the path of the Firebird.') /* SHORT_DESC_STRING */;

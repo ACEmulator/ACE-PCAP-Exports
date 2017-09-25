@@ -33,7 +33,7 @@ VALUES (5498, 13, True) /* ETHEREAL_BOOL */
      , (5498, 19, True) /* ATTACKABLE_BOOL */
      , (5498, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5498, 16, 'A small flask of water from the Pool of Mount Lethe, said to cause the drinker to forget all earthly pain.') /* LONG_DESC_STRING */

@@ -70,7 +70,7 @@ VALUES (41840, 5, 16794176)
      , (41840, 22, 16777708)
      , (41840, 21, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41840, 5, 'Palm Fort Commander') /* TEMPLATE_STRING */;

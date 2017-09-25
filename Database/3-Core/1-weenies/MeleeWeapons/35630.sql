@@ -50,7 +50,7 @@ VALUES (35630, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35630, 0, 16785974);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35630, 16, 'A sickle that once belonged to the Colosseum champion, the Virindi Azaxis.') /* LONG_DESC_STRING */;

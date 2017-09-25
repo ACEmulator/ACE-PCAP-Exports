@@ -33,7 +33,7 @@ VALUES (19361, 13, True) /* ETHEREAL_BOOL */
      , (19361, 19, True) /* ATTACKABLE_BOOL */
      , (19361, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19361, 38, 'Forsythian Gardens Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

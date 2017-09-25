@@ -56,7 +56,7 @@ VALUES (38842, 0, 16795620)
      , (38842, 32, 16795823)
      , (38842, 33, 16795824);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (38842, 16, 67109564) /* EYES_PALETTE_DID */

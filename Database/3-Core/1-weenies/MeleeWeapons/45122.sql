@@ -52,7 +52,7 @@ VALUES (45122, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45122, 0, 16792139);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45122, 16, 'Frost Hand Wraps of Blooddrinker') /* LONG_DESC_STRING */;

@@ -56,7 +56,7 @@ VALUES (9246, 0, 83887061, 83892990)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9246, 0, 16778356);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9246, 16, 'A coat made out of the hide of an ursuin.  It is thick and vibrant, showing the colors of spring.') /* LONG_DESC_STRING */;

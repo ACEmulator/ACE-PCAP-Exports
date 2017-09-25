@@ -82,7 +82,7 @@ VALUES (33249, 12, 16777304)
      , (33249, 13, 16783871)
      , (33249, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33249, 5, 'Arcanum Vendor') /* TEMPLATE_STRING */;
@@ -104,6 +104,20 @@ VALUES (33249, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33249, 64, 128) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33249, 74, 262144) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (33249, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (33249, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33249, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (33249, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33249, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

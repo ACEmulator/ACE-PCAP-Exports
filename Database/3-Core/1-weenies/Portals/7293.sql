@@ -33,7 +33,7 @@ VALUES (7293, 13, True) /* ETHEREAL_BOOL */
      , (7293, 19, True) /* ATTACKABLE_BOOL */
      , (7293, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7293, 38, 'Halls of Metos') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -46,7 +46,7 @@ VALUES (14531, 0, 16784246)
      , (14531, 1, 16784196)
      , (14531, 2, 16784180);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14531, 16, 'A fragment taken from a fire prism.') /* LONG_DESC_STRING */

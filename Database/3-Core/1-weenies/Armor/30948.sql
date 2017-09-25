@@ -43,7 +43,7 @@ VALUES (30948, 67116191, 174, 66)
      , (30948, 67116191, 96, 20)
      , (30948, 67116191, 116, 20);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30948, 16, 'Diforsa Hauberk') /* LONG_DESC_STRING */;

@@ -32,7 +32,7 @@ VALUES (25421, 13, True) /* ETHEREAL_BOOL */
      , (25421, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25421, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25421, 16, 'A blue vellum binder containing 14 thin sheets of parchment. The parchment is inscribed in an unknown alphabet.') /* LONG_DESC_STRING */

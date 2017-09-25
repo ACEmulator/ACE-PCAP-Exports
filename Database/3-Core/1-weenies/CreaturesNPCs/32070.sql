@@ -81,7 +81,7 @@ VALUES (32070, 12, 16778423)
      , (32070, 13, 16791903)
      , (32070, 14, 16791904);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32070, 5, 'Lady of the Realm') /* TEMPLATE_STRING */;

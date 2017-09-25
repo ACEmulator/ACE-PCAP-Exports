@@ -33,7 +33,7 @@ VALUES (12564, 13, True) /* ETHEREAL_BOOL */
      , (12564, 19, True) /* ATTACKABLE_BOOL */
      , (12564, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12564, 38, 'Whispering Pines Cottages Portal (34.1N, 13.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

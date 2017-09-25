@@ -86,7 +86,7 @@ VALUES (31656, 12, 16777304)
      , (31656, 13, 16783871)
      , (31656, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31656, 5, 'Floeshark Flogger') /* TEMPLATE_STRING */;

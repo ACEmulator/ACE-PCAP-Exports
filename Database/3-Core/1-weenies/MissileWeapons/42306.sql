@@ -37,7 +37,7 @@ VALUES (42306, 13, True) /* ETHEREAL_BOOL */
      , (42306, 19, True) /* ATTACKABLE_BOOL */
      , (42306, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42306, 16, 'An extremely accurate crossbow of Gearknight make. The action of firing this crossbow builds an electrical charge that occasionally discharges into the surrounding area.') /* LONG_DESC_STRING */;

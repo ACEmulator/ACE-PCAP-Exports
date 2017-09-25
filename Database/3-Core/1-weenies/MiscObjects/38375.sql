@@ -34,7 +34,7 @@ VALUES (38375, 13, True) /* ETHEREAL_BOOL */
      , (38375, 19, True) /* ATTACKABLE_BOOL */
      , (38375, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38375, 16, 'A truly titanic Mnemosyne, which virtually pulses with power and knowledge.') /* LONG_DESC_STRING */

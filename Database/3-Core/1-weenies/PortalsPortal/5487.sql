@@ -33,7 +33,7 @@ VALUES (5487, 13, True) /* ETHEREAL_BOOL */
      , (5487, 19, True) /* ATTACKABLE_BOOL */
      , (5487, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5487, 38, 'Mid Direlands Portal (37.1S, 65.9W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

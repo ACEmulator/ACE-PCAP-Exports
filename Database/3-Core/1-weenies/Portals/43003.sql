@@ -33,7 +33,7 @@ VALUES (43003, 13, True) /* ETHEREAL_BOOL */
      , (43003, 19, True) /* ATTACKABLE_BOOL */
      , (43003, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43003, 16, 'This portal goes to Danby''s Outpost, a settlement on the northern edge of the inner sea. This outpost is a good place for characters over level 40.') /* LONG_DESC_STRING */

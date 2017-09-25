@@ -45,7 +45,7 @@ VALUES (34276, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34276, 0, 16778862);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34276, 16, 'A pyreal ball. Thin etchings on its surface glow in soothing patterns.') /* LONG_DESC_STRING */

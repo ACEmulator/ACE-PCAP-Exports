@@ -33,7 +33,7 @@ VALUES (32818, 13, True) /* ETHEREAL_BOOL */
      , (32818, 19, True) /* ATTACKABLE_BOOL */
      , (32818, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32818, 38, 'Ruschk Burial Mound') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

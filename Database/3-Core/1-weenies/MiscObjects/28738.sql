@@ -31,7 +31,7 @@ VALUES (28738, 13, True) /* ETHEREAL_BOOL */
      , (28738, 19, True) /* ATTACKABLE_BOOL */
      , (28738, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28738, 16, 'This mask appears to have been severely corroded by the Eater''s stomach acids. ') /* LONG_DESC_STRING */;

@@ -49,7 +49,7 @@ VALUES (31778, 0, 83897337, 83897337);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31778, 0, 16792614);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31778, 16, 'Frost Spine Glaive of Swiftkiller') /* LONG_DESC_STRING */;

@@ -32,7 +32,7 @@ VALUES (32184, 13, True) /* ETHEREAL_BOOL */
      , (32184, 19, True) /* ATTACKABLE_BOOL */
      , (32184, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32184, 16, 'The freezing head of a giant snowman.') /* LONG_DESC_STRING */;

@@ -38,7 +38,7 @@ VALUES (22013, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22013, 0, 16788487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22013, 15, 'A helm crafted from the head of an olthoi Eviscerator.') /* SHORT_DESC_STRING */;

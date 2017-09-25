@@ -82,7 +82,7 @@ VALUES (38687, 12, 16777304)
      , (38687, 13, 16783871)
      , (38687, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38687, 5, 'Society Archmage') /* TEMPLATE_STRING */;
@@ -116,6 +116,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (38687, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (38687, 128, 340) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (38687, 256, 540) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38687, 74, 833536) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (38687, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (38687, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (38687, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (38687, 38, 1.4) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38687, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

@@ -75,7 +75,7 @@ VALUES (28701, 12, 16778423)
      , (28701, 13, 16791903)
      , (28701, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28701, 5, 'Keeper of the Beacon') /* TEMPLATE_STRING */;

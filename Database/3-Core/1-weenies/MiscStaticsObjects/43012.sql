@@ -29,7 +29,7 @@ VALUES (43012, 13, True) /* ETHEREAL_BOOL */
      , (43012, 19, True) /* ATTACKABLE_BOOL */
      , (43012, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43012, 16, 'The Sho are a people for whom duty and self-discipline are the highest virtues. Though generally peaceful, they have raised warfare to an art form and a philosophy. While they are slow to be moved, they make formidable enemies - or lifelong friends. ') /* LONG_DESC_STRING */;

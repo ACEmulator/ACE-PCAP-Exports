@@ -47,7 +47,7 @@ VALUES (9136, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9136, 0, 16778348);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9136, 16, 'A ceremonial amulet, glowing with strange magical energies.') /* LONG_DESC_STRING */;

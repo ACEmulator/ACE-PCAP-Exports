@@ -49,7 +49,7 @@ VALUES (30347, 0, 83897123, 83897123);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30347, 0, 16792027);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30347, 16, 'One of the more eccentric Maliks in the long history of Gharu''n was Qorsh the Cold, who had an unhealthy fascination with snakes.  One day, one of his young nephews was surprised in the great gardens of Nishadina by a large snake.  Thinking quickly, the youth killed the snake with a quick shot from his atlatl.  The snake turned out to be the favorite pet of Qorsh, the youth''s uncle.  Enraged, Qorsh had the child put to death, and the offending atlatl was given over to craftsmen to remake in the image of the Malik''s much-mourned pet.') /* LONG_DESC_STRING */;

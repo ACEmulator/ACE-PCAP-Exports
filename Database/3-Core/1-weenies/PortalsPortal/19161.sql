@@ -33,7 +33,7 @@ VALUES (19161, 13, True) /* ETHEREAL_BOOL */
      , (19161, 19, True) /* ATTACKABLE_BOOL */
      , (19161, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19161, 38, 'Stone Scythe Stronghold Portal (35.7N, 32.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -33,7 +33,7 @@ VALUES (4923, 13, True) /* ETHEREAL_BOOL */
      , (4923, 19, True) /* ATTACKABLE_BOOL */
      , (4923, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4923, 38, 'Water Temple Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

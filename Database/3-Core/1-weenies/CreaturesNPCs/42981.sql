@@ -90,7 +90,7 @@ VALUES (42981, 12, 16777304)
      , (42981, 4, 16777291)
      , (42981, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42981, 5, 'Traitor to the Crown') /* TEMPLATE_STRING */;

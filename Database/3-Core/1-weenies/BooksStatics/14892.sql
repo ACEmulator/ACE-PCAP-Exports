@@ -32,7 +32,7 @@ VALUES (14892, 13, True) /* ETHEREAL_BOOL */
      , (14892, 19, True) /* ATTACKABLE_BOOL */
      , (14892, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14892, 16, 'A strange looking book with the words Don''t Panic inscribed in big friendly letters on the cover.') /* LONG_DESC_STRING */;

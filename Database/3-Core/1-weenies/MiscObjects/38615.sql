@@ -37,7 +37,7 @@ VALUES (38615, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38615, 67112898, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38615, 16, 'A small crystal, given to you to help you analyze the qualities of potential ley lines upon the Dark Isle.') /* LONG_DESC_STRING */

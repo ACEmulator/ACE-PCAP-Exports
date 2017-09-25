@@ -33,7 +33,7 @@ VALUES (12469, 13, True) /* ETHEREAL_BOOL */
      , (12469, 19, True) /* ATTACKABLE_BOOL */
      , (12469, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12469, 38, 'Al-Hatar Settlement Portal (34.5S, 18.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

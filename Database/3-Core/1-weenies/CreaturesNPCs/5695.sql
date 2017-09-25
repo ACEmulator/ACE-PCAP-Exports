@@ -89,7 +89,7 @@ VALUES (5695, 10, 16778431)
      , (5695, 8, 16778428)
      , (5695, 16, 16783730);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5695, 5, 'Translator') /* TEMPLATE_STRING */;

@@ -50,7 +50,7 @@ VALUES (9102, 0, 16784627)
      , (9102, 4, 16781840)
      , (9102, 5, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9102, 16, 'A boot for the right foot.') /* LONG_DESC_STRING */;

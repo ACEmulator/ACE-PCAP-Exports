@@ -34,7 +34,7 @@ VALUES (27437, 13, True) /* ETHEREAL_BOOL */
      , (27437, 19, True) /* ATTACKABLE_BOOL */
      , (27437, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27437, 16, 'A dark obsidian stone. It hums in a low and ominous way.') /* LONG_DESC_STRING */;

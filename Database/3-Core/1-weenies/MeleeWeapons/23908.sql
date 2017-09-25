@@ -46,7 +46,7 @@ VALUES (23908, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23908, 67111924, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23908, 16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LONG_DESC_STRING */;

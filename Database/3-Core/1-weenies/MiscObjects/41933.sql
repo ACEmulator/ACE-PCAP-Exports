@@ -31,7 +31,7 @@ VALUES (41933, 13, True) /* ETHEREAL_BOOL */
      , (41933, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41933, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41933, 15, 'A burning brand with the champion mark of Lady Saliane.') /* SHORT_DESC_STRING */;

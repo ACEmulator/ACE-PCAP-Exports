@@ -91,7 +91,7 @@ VALUES (5837, 12, 16777304)
      , (5837, 8, 16781839)
      , (5837, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5837, 5, 'Melia''s Apprentice') /* TEMPLATE_STRING */;

@@ -35,7 +35,7 @@ VALUES (43905, 13, True) /* ETHEREAL_BOOL */
      , (43905, 14, True) /* GRAVITY_STATUS_BOOL */
      , (43905, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43905, 16, 'A box containing an Ornate Gear Marker.') /* LONG_DESC_STRING */

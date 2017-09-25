@@ -40,7 +40,7 @@ VALUES (38346, 13, True) /* ETHEREAL_BOOL */
      , (38346, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (38346, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38346, 16, 'This hollow is inscribed with coral numbers that read 117.') /* LONG_DESC_STRING */;

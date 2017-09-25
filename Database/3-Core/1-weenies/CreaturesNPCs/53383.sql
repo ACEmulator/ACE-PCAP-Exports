@@ -84,7 +84,7 @@ VALUES (53383, 12, 16777304)
      , (53383, 13, 16783871)
      , (53383, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (53383, 5, 'Spell Instructor') /* TEMPLATE_STRING */;

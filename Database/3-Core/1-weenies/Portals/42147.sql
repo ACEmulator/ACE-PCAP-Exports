@@ -34,7 +34,7 @@ VALUES (42147, 13, True) /* ETHEREAL_BOOL */
      , (42147, 19, True) /* ATTACKABLE_BOOL */
      , (42147, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42147, 16, 'A portal leading to a location near Suntik where the Acid Axe may be found.') /* LONG_DESC_STRING */

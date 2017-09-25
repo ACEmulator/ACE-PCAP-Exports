@@ -43,7 +43,7 @@ VALUES (8153, 67116922, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8153, 0, 16787332);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8153, 16, 'A mask made out of some indeterminable metal. It seems to reflect light in a strange manner.') /* LONG_DESC_STRING */;

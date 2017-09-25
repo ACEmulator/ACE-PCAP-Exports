@@ -47,7 +47,7 @@ VALUES (135, 0, 83886825, 83886825);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (135, 0, 16778601);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (135, 16, 'Turban of Recklessness') /* LONG_DESC_STRING */;

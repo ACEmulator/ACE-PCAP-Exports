@@ -84,7 +84,7 @@ VALUES (6861, 2, 16778436)
      , (6861, 8, 16781859)
      , (6861, 16, 16783901);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6861, 5, 'Scribe') /* TEMPLATE_STRING */;

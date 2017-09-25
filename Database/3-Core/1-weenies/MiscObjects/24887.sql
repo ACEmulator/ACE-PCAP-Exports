@@ -39,7 +39,7 @@ VALUES (24887, 13, True) /* ETHEREAL_BOOL */
      , (24887, 19, True) /* ATTACKABLE_BOOL */
      , (24887, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24887, 16, 'A crude keyring roughly carved out of a coral golem heart. ') /* LONG_DESC_STRING */

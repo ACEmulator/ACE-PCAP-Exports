@@ -69,7 +69,7 @@ VALUES (22512, 2, 16777293)
      , (22512, 1, 16783912)
      , (22512, 5, 16783916);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (22512, 16, 67109565) /* EYES_PALETTE_DID */

@@ -48,7 +48,7 @@ VALUES (85, 0, 83889859, 83889859)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (85, 0, 16780294);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (85, 16, 'Chainmail Coif') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (40911, 13, True) /* ETHEREAL_BOOL */
      , (40911, 19, True) /* ATTACKABLE_BOOL */
      , (40911, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40911, 16, 'A shard of pure mana, attuned to the Nexus that lies deep under Aerlinthe Isle.  With the proper power, this could likely be used to create a portal to the nexus it is tied to.') /* LONG_DESC_STRING */

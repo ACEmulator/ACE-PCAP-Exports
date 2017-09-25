@@ -33,7 +33,7 @@ VALUES (15184, 13, True) /* ETHEREAL_BOOL */
      , (15184, 19, True) /* ATTACKABLE_BOOL */
      , (15184, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15184, 38, 'Regina Cottages Portal (54.4N, 19.9W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

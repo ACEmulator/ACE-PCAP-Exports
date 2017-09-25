@@ -43,7 +43,7 @@ VALUES (8394, 67110555, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8394, 0, 16785153);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8394, 15, 'Helm crafted from the carapace of an Olthoi. This item can be dyed.') /* SHORT_DESC_STRING */;

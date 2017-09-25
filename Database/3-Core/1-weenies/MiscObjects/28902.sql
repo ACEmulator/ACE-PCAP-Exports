@@ -29,7 +29,7 @@ VALUES (28902, 13, True) /* ETHEREAL_BOOL */
      , (28902, 19, True) /* ATTACKABLE_BOOL */
      , (28902, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28902, 16, 'A small copper lodestone.') /* LONG_DESC_STRING */;

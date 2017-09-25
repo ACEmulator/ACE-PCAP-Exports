@@ -34,7 +34,7 @@ VALUES (42177, 13, True) /* ETHEREAL_BOOL */
      , (42177, 19, True) /* ATTACKABLE_BOOL */
      , (42177, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42177, 16, 'A portal leading to Aphus Lassel near the Tusker Burrow where the Female Tusker Tusk may be found.') /* LONG_DESC_STRING */

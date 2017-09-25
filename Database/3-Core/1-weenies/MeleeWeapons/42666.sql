@@ -46,7 +46,7 @@ VALUES (42666, 0, 83898392, 83898392);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42666, 0, 16795166);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42666, 16, 'A blade once wielded by the royal decapitator. It is said that this blade has seen the blood of more royals than any other sword in history, recorded or otherwise.') /* LONG_DESC_STRING */;

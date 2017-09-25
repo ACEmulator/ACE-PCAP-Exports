@@ -33,7 +33,7 @@ VALUES (30661, 13, True) /* ETHEREAL_BOOL */
      , (30661, 19, True) /* ATTACKABLE_BOOL */
      , (30661, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30661, 38, 'Escape Route') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

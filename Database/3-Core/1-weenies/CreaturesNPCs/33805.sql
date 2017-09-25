@@ -90,7 +90,7 @@ VALUES (33805, 12, 16777304)
      , (33805, 14, 16783855)
      , (33805, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33805, 5, 'Guard') /* TEMPLATE_STRING */;

@@ -100,7 +100,7 @@ VALUES (41179, 16, 16795638)
      , (41179, 4, 16781816)
      , (41179, 8, 16781817);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41179, 5, 'Prison Guard') /* TEMPLATE_STRING */;

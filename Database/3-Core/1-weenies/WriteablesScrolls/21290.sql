@@ -35,7 +35,7 @@ VALUES (21290, 13, True) /* ETHEREAL_BOOL */
      , (21290, 19, True) /* ATTACKABLE_BOOL */
      , (21290, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21290, 16, 'Inscribed spell: Acid Arc III

@@ -45,7 +45,7 @@ VALUES (27229, 67115097, 92, 4)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27229, 0, 16790012);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27229, 16, 'Nariyid Girth') /* LONG_DESC_STRING */;

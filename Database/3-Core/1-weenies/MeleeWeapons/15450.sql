@@ -40,7 +40,7 @@ VALUES (15450, 13, True) /* ETHEREAL_BOOL */
      , (15450, 19, True) /* ATTACKABLE_BOOL */
      , (15450, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15450, 16, 'A sword crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LONG_DESC_STRING */;

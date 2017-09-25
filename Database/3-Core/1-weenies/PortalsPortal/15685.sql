@@ -33,7 +33,7 @@ VALUES (15685, 13, True) /* ETHEREAL_BOOL */
      , (15685, 19, True) /* ATTACKABLE_BOOL */
      , (15685, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15685, 38, 'Sweet Maple Cottages Portal (80.8N, 35.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

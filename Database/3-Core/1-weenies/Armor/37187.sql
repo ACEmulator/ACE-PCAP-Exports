@@ -45,7 +45,7 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (37187, 0, 16794046)
      , (37187, 1, 16794045);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37187, 16, 'Olthoi Alduressa Gauntlets of Curing') /* LONG_DESC_STRING */;

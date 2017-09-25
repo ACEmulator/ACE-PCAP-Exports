@@ -34,7 +34,7 @@ VALUES (42165, 13, True) /* ETHEREAL_BOOL */
      , (42165, 19, True) /* ATTACKABLE_BOOL */
      , (42165, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42165, 16, 'A portal leading to the Hunter''s Leap where the Lilitha''s Bow may be found.') /* LONG_DESC_STRING */

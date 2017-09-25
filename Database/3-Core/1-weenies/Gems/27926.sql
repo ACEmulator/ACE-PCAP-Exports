@@ -31,7 +31,7 @@ VALUES (27926, 13, True) /* ETHEREAL_BOOL */
      , (27926, 19, True) /* ATTACKABLE_BOOL */
      , (27926, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27926, 15, 'A plate with a relief carved into the face. The relief is of a triangle turned on its side with a small dot located along the longest side.') /* SHORT_DESC_STRING */;

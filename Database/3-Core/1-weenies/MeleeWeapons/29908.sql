@@ -41,7 +41,7 @@ VALUES (29908, 13, True) /* ETHEREAL_BOOL */
      , (29908, 19, True) /* ATTACKABLE_BOOL */
      , (29908, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29908, 16, 'A beautifully detailed tewhate crafted from the claw of a Tidal Siraluun.') /* LONG_DESC_STRING */;

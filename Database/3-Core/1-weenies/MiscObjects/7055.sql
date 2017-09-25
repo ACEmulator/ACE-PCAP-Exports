@@ -33,7 +33,7 @@ VALUES (7055, 13, True) /* ETHEREAL_BOOL */
      , (7055, 19, True) /* ATTACKABLE_BOOL */
      , (7055, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7055, 16, 'A handle intricately carved from the bone of the high undead.') /* LONG_DESC_STRING */

@@ -33,7 +33,7 @@ VALUES (15178, 13, True) /* ETHEREAL_BOOL */
      , (15178, 19, True) /* ATTACKABLE_BOOL */
      , (15178, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15178, 38, 'New Cannthalo Portal (66.5N, 57.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

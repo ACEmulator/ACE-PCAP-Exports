@@ -35,7 +35,7 @@ VALUES (28845, 13, True) /* ETHEREAL_BOOL */
      , (28845, 19, True) /* ATTACKABLE_BOOL */
      , (28845, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28845, 16, 'Deliver this letter to Renald the Eldest of Holtburg.') /* LONG_DESC_STRING */;

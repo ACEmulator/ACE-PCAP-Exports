@@ -40,7 +40,7 @@ VALUES (4192, 13, True) /* ETHEREAL_BOOL */
      , (4192, 19, True) /* ATTACKABLE_BOOL */
      , (4192, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4192, 16, 'Acid Cestus of Defender') /* LONG_DESC_STRING */;

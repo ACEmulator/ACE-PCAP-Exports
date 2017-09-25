@@ -29,7 +29,7 @@ VALUES (19180, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19180, 19, True) /* ATTACKABLE_BOOL */
      , (19180, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19180, 16, 'Welcome to Majestic Saddle Cottages') /* LONG_DESC_STRING */;

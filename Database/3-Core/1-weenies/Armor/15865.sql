@@ -47,7 +47,7 @@ VALUES (15865, 0, 83890133, 83890133);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15865, 0, 16777991);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15865, 16, 'Platemail Sleeves of Rejuvenation') /* LONG_DESC_STRING */;

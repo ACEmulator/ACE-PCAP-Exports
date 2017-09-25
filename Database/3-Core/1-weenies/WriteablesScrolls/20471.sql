@@ -35,7 +35,7 @@ VALUES (20471, 13, True) /* ETHEREAL_BOOL */
      , (20471, 19, True) /* ATTACKABLE_BOOL */
      , (20471, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (20471, 16, 'Inscribed spell: Boon of the Mace Turner

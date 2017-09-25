@@ -43,7 +43,7 @@ VALUES (30546, 67116325, 108, 8)
      , (30546, 67116325, 116, 12)
      , (30546, 67116325, 174, 42);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30546, 16, 'A coat of Alduressa plate, forged with the strength of General Corcima''s own armor.') /* LONG_DESC_STRING */;

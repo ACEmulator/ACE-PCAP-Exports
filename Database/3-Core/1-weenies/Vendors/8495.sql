@@ -94,7 +94,7 @@ VALUES (8495, 12, 16777304)
      , (8495, 8, 16781839)
      , (8495, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8495, 5, 'Shifty Provisioner') /* TEMPLATE_STRING */;
@@ -126,6 +126,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (8495, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8495, 128, 270) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8495, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8495, 74, 1208248231) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (8495, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (8495, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8495, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (8495, 38, 1.7) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8495, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

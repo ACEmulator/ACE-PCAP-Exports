@@ -106,7 +106,7 @@ VALUES (32706, 12, 16778423)
      , (32706, 14, 16783855)
      , (32706, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32706, 5, 'Soldier') /* TEMPLATE_STRING */;

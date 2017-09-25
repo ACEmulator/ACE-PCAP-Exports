@@ -33,7 +33,7 @@ VALUES (2089, 13, True) /* ETHEREAL_BOOL */
      , (2089, 19, True) /* ATTACKABLE_BOOL */
      , (2089, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2089, 38, 'Rocky Crypt Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -33,7 +33,7 @@ VALUES (14653, 13, True) /* ETHEREAL_BOOL */
      , (14653, 19, True) /* ATTACKABLE_BOOL */
      , (14653, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14653, 38, 'Northreach Portal (83.2N, 35.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

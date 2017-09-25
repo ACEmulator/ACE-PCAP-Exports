@@ -36,7 +36,7 @@ VALUES (25335, 13, True) /* ETHEREAL_BOOL */
      , (25335, 19, True) /* ATTACKABLE_BOOL */
      , (25335, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25335, 15, 'A red Virindi mask reconstructed from the remains of a defeated Virindi Consul.') /* SHORT_DESC_STRING */;

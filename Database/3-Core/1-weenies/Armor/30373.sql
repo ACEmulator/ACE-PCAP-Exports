@@ -36,7 +36,7 @@ VALUES (30373, 13, True) /* ETHEREAL_BOOL */
      , (30373, 19, True) /* ATTACKABLE_BOOL */
      , (30373, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30373, 16, 'This shield once belonged to Sir Alterio the Vain of Viamont. So consumed was he with his looks that he had this shield made so that he could gaze at his reflection whenever he felt the need to... which was quite often, by most accounts.') /* LONG_DESC_STRING */;

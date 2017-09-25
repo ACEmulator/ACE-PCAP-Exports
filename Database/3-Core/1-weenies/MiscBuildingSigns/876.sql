@@ -35,7 +35,7 @@ VALUES (876, 0, 83891180, 83891184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (876, 0, 16782236);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (876, 16, 'The Shining Shield') /* LONG_DESC_STRING */;

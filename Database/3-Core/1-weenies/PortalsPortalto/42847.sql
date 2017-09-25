@@ -33,7 +33,7 @@ VALUES (42847, 13, True) /* ETHEREAL_BOOL */
      , (42847, 19, True) /* ATTACKABLE_BOOL */
      , (42847, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42847, 16, 'This portal goes to the Sho town of Yanshi on the edges of the Blackmire swamp. The original town was devastated by the Harbinger, who still lurks deep beneath the surface. This is a good town for characters over level 10. But stay away from the Harbinger.') /* LONG_DESC_STRING */

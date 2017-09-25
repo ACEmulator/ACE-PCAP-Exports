@@ -34,7 +34,7 @@ VALUES (22093, 13, True) /* ETHEREAL_BOOL */
      , (22093, 14, True) /* GRAVITY_STATUS_BOOL */
      , (22093, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22093, 16, 'An old and crumbling chronicle written in an unrecognizable language.') /* LONG_DESC_STRING */;

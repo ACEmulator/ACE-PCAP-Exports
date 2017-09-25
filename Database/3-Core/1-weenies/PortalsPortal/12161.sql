@@ -33,7 +33,7 @@ VALUES (12161, 13, True) /* ETHEREAL_BOOL */
      , (12161, 19, True) /* ATTACKABLE_BOOL */
      , (12161, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12161, 38, 'Central Tuatara Plains Portal (56.1N, 75.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

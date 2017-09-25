@@ -90,7 +90,7 @@ VALUES (25717, 12, 16777304)
      , (25717, 14, 16783855)
      , (25717, 16, 16779630);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25717, 5, 'Senior Guard') /* TEMPLATE_STRING */;

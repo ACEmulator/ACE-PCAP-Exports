@@ -49,7 +49,7 @@ VALUES (37215, 0, 83897894, 83897894)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37215, 0, 16794074);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37215, 16, 'Olthoi Koujia Breastplate') /* LONG_DESC_STRING */;

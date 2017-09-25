@@ -78,7 +78,7 @@ VALUES (45489, 0, 16788885)
      , (45489, 12, 16788891)
      , (45489, 16, 16789125);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45489, 2, 13) /* CREATURE_TYPE_INT */
@@ -87,6 +87,20 @@ VALUES (45489, 2, 13) /* CREATURE_TYPE_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (45489, 64, 1120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45489, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (45489, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (45489, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45489, 37, 1) /* BUY_PRICE_FLOAT */
+     , (45489, 38, 0) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45489, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

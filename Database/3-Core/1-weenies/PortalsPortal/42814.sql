@@ -33,7 +33,7 @@ VALUES (42814, 13, True) /* ETHEREAL_BOOL */
      , (42814, 19, True) /* ATTACKABLE_BOOL */
      , (42814, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42814, 16, 'This portal goes to Glenden Wood, a village surrounded by the tall trees of the Tiofor Woods. Despite the truce between Queen Elysa and King Varicci, the town is besieged on all sides by Viamontian soldiers. This is a good town for characters over level 40.') /* LONG_DESC_STRING */

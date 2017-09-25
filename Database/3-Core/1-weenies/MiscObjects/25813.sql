@@ -32,7 +32,7 @@ VALUES (25813, 13, True) /* ETHEREAL_BOOL */
      , (25813, 19, True) /* ATTACKABLE_BOOL */
      , (25813, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25813, 14, 'Something can be applied to this brazier, but what that item is, is unclear.') /* USE_STRING */

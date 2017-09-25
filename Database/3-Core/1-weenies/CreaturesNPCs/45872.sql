@@ -73,7 +73,7 @@ VALUES (45872, 5, 16794176)
      , (45872, 22, 16777708)
      , (45872, 21, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45872, 5, 'Society Stipend Officer') /* TEMPLATE_STRING */;

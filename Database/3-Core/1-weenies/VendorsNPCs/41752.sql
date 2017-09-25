@@ -87,7 +87,7 @@ VALUES (41752, 12, 16777304)
      , (41752, 14, 16783855)
      , (41752, 16, 16778476);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41752, 5, 'Arcanum Tinkerer') /* TEMPLATE_STRING */;
@@ -109,6 +109,20 @@ VALUES (41752, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41752, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41752, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (41752, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (41752, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41752, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (41752, 38, 1) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41752, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

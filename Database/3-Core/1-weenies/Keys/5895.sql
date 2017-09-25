@@ -34,7 +34,7 @@ VALUES (5895, 13, True) /* ETHEREAL_BOOL */
      , (5895, 19, True) /* ATTACKABLE_BOOL */
      , (5895, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5895, 16, 'An ancient key, large and unwieldy.') /* LONG_DESC_STRING */

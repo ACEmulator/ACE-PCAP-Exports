@@ -37,7 +37,7 @@ VALUES (5499, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5499, 19, True) /* ATTACKABLE_BOOL */
      , (5499, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5499, 16, 'A pool of flaming water, rumored to cause those who drink of it to forget all earthly pain.') /* LONG_DESC_STRING */;

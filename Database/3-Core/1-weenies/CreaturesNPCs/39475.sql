@@ -68,7 +68,7 @@ VALUES (39475, 16, 16795654)
      , (39475, 4, 16794174)
      , (39475, 8, 16794175);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (39475, 5, 'Society Collector') /* TEMPLATE_STRING */;

@@ -36,7 +36,7 @@ VALUES (38992, 13, True) /* ETHEREAL_BOOL */
      , (38992, 19, True) /* ATTACKABLE_BOOL */
      , (38992, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38992, 16, 'A large golden key that opens the Grand Casino Chest.') /* LONG_DESC_STRING */;

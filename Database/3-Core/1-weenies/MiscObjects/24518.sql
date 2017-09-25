@@ -37,7 +37,7 @@ VALUES (24518, 13, True) /* ETHEREAL_BOOL */
      , (24518, 19, True) /* ATTACKABLE_BOOL */
      , (24518, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24518, 15, 'A pile of gleaming treasure. You''re rich! You''re wealthy! You''re independent! You''re comfortably well off!') /* SHORT_DESC_STRING */;

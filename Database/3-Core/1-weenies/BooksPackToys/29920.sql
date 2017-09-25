@@ -47,7 +47,7 @@ VALUES (29920, 9, 83890028, 83890028);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29920, 9, 16780702);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29920, 16, 'Levistras, Virindi Director, Speaker of the New Directive') /* LONG_DESC_STRING */

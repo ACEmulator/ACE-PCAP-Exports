@@ -34,7 +34,7 @@ VALUES (24057, 13, True) /* ETHEREAL_BOOL */
      , (24057, 19, True) /* ATTACKABLE_BOOL */
      , (24057, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24057, 16, 'Scaly, yet comfortable.') /* LONG_DESC_STRING */;

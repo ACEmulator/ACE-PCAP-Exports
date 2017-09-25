@@ -46,7 +46,7 @@ VALUES (45466, 0, 83897111, 83897111);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45466, 0, 16792015);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45466, 16, 'The First Principle: Defense implies weakness while attacking implies strength.   The Second Principle: Ask not the enemy''s weakness, the enemy will often show it to you freely.    The Third Principle: Strike or be struck.') /* LONG_DESC_STRING */;

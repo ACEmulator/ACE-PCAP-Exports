@@ -34,7 +34,7 @@ VALUES (28506, 13, True) /* ETHEREAL_BOOL */
      , (28506, 19, True) /* ATTACKABLE_BOOL */
      , (28506, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28506, 16, 'A functional crate for storing messy materials. This crate has four lined bags inside that are labeled for sclavus body parts. The first is for a small Sclavus hide. You should collect that piece first.') /* LONG_DESC_STRING */

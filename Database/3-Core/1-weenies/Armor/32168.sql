@@ -39,7 +39,7 @@ VALUES (32168, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32168, 67114529, 240, 16);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32168, 16, 'A set of dashing eye patches for the bandit wanting to take a trip.') /* LONG_DESC_STRING */;

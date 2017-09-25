@@ -51,7 +51,7 @@ VALUES (5913, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5913, 0, 16778367);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5913, 16, 'A finely tailored Gharu''ndim robe for master mages.') /* LONG_DESC_STRING */;

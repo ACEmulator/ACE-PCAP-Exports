@@ -35,7 +35,7 @@ VALUES (30044, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (30044, 1, True) /* STUCK_BOOL */
      , (30044, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30044, 16, 'Scrawled at the bottom of the plaque are the words. "Long live the Stag of Bellenesse!"') /* LONG_DESC_STRING */;

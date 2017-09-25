@@ -32,9 +32,26 @@ VALUES (14936, 13, True) /* ETHEREAL_BOOL */
      , (14936, 19, True) /* ATTACKABLE_BOOL */
      , (14936, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14936, 16, 'The current maintenance has been paid.
 ') /* LONG_DESC_STRING */;
+
+/* Slumlord Extended Properties */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14936, 155, 2) /* HOUSE_TYPE_INT */
+     , (14936, 149, 1) /* HOUSE_STATUS_INT */
+     , (14936, 86, 35) /* MIN_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14936, 4, False) /* ROT_PROOF_BOOL */;
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
+VALUES (14936, 16, 273, 2000000) /* Pyreal */
+     , (14936, 16, 11710, 5) /* Writ of Refuge */
+     , (14936, 16, 14772, 1) /* Peppermint Monougat Chew */
+     , (14936, 32, 273, 100000) /* Pyreal */
+     , (14936, 32, 11710, 2) /* Writ of Refuge */;
 

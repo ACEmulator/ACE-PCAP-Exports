@@ -34,7 +34,7 @@ VALUES (42149, 13, True) /* ETHEREAL_BOOL */
      , (42149, 19, True) /* ATTACKABLE_BOOL */
      , (42149, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42149, 16, 'A portal leading to a location near Edelbar where the Quarter Staff of Fire may be found.') /* LONG_DESC_STRING */

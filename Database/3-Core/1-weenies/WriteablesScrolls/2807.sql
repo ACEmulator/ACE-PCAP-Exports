@@ -35,7 +35,7 @@ VALUES (2807, 13, True) /* ETHEREAL_BOOL */
      , (2807, 19, True) /* ATTACKABLE_BOOL */
      , (2807, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2807, 16, 'Inscribed spell: Aura of Defender Self II

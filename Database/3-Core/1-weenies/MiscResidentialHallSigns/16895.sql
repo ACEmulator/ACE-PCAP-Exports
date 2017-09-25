@@ -29,7 +29,7 @@ VALUES (16895, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (16895, 19, True) /* ATTACKABLE_BOOL */
      , (16895, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (16895, 16, 'Illsin Veranda') /* LONG_DESC_STRING */;

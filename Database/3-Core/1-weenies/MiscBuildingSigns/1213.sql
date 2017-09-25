@@ -30,7 +30,7 @@ VALUES (1213, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1213, 19, True) /* ATTACKABLE_BOOL */
      , (1213, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1213, 16, 'You should Heed this Warning: Turn back now! You are trotting in the wrong direction! Riches of gold and splendor can be found on the other path.') /* LONG_DESC_STRING */;

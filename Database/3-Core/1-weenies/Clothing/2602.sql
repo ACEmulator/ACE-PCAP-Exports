@@ -49,7 +49,7 @@ VALUES (2602, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2602, 0, 16779742);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2602, 16, 'Loose Breeches of Cold Protection') /* LONG_DESC_STRING */;

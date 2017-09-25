@@ -100,7 +100,7 @@ VALUES (32684, 12, 16777304)
      , (32684, 4, 16792941)
      , (32684, 8, 16792944);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32684, 5, 'Ore Merchant') /* TEMPLATE_STRING */;

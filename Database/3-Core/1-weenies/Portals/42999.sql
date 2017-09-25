@@ -33,7 +33,7 @@ VALUES (42999, 13, True) /* ETHEREAL_BOOL */
      , (42999, 19, True) /* ATTACKABLE_BOOL */
      , (42999, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42999, 16, 'This portal is tied to the Fiun Outpost. This outpost is a good place for characters above level 60.') /* LONG_DESC_STRING */

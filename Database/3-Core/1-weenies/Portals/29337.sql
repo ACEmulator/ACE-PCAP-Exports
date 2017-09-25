@@ -33,7 +33,7 @@ VALUES (29337, 13, True) /* ETHEREAL_BOOL */
      , (29337, 19, True) /* ATTACKABLE_BOOL */
      , (29337, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29337, 16, 'You must complete the Sentry''s quest before you may use this portal.') /* LONG_DESC_STRING */

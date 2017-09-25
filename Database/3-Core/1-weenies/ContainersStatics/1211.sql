@@ -36,7 +36,7 @@ VALUES (1211, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1211, 19, True) /* ATTACKABLE_BOOL */
      , (1211, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1211, 15, 'Killed by Oswald.') /* SHORT_DESC_STRING */;

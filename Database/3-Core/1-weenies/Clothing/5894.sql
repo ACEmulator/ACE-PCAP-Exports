@@ -48,7 +48,7 @@ VALUES (5894, 0, 83892358, 83892358);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5894, 0, 16783955);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5894, 16, 'Fez of Curing') /* LONG_DESC_STRING */;

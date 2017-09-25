@@ -38,7 +38,7 @@ VALUES (33060, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (33060, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (33060, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33060, 16, 'A dark obsidian stone. It hums in low and ominous way.') /* LONG_DESC_STRING */;

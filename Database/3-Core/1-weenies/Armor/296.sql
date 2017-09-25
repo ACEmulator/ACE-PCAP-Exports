@@ -50,7 +50,7 @@ VALUES (296, 0, 83889687, 83889687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (296, 0, 16778337);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (296, 16, 'Crown of Mana Mastery') /* LONG_DESC_STRING */;

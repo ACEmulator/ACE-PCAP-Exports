@@ -32,7 +32,7 @@ VALUES (44728, 13, True) /* ETHEREAL_BOOL */
      , (44728, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (44728, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44728, 16, 'The chittick remains a creature of mystery to this day. Little has been discovered about the origin of these creatures or why they arrived on Dereth. One thing that is known, they are a threat at both a distance and close range.') /* LONG_DESC_STRING */;

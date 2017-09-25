@@ -32,7 +32,7 @@ VALUES (49583, 13, True) /* ETHEREAL_BOOL */
      , (49583, 19, True) /* ATTACKABLE_BOOL */
      , (49583, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (49583, 16, 'An elaborate signet that glows brightly.') /* LONG_DESC_STRING */

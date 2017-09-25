@@ -90,7 +90,7 @@ VALUES (9169, 0, 16785059)
      , (9169, 23, 16785103)
      , (9169, 24, 16785103);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9169, 16, 'Plush tusker: He''ll keep you safe at night! Wash in warm water; tumble dry; keep away from flame or sharp, pointy objects.') /* LONG_DESC_STRING */;

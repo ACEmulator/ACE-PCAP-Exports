@@ -32,7 +32,7 @@ VALUES (24877, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24877, 19, True) /* ATTACKABLE_BOOL */
      , (24877, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24877, 16, 'Town materials stored below. Stonework and masonry sold in the blacksmith''s basement.') /* LONG_DESC_STRING */;

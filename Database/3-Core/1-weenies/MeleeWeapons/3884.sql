@@ -40,7 +40,7 @@ VALUES (3884, 13, True) /* ETHEREAL_BOOL */
      , (3884, 19, True) /* ATTACKABLE_BOOL */
      , (3884, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3884, 16, 'Frost Long Sword of Blood Drinker') /* LONG_DESC_STRING */;

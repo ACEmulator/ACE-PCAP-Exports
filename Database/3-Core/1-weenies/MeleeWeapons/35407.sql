@@ -36,7 +36,7 @@ VALUES (35407, 13, True) /* ETHEREAL_BOOL */
      , (35407, 19, True) /* ATTACKABLE_BOOL */
      , (35407, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35407, 16, 'A huge burning board with two nails. This mighty board with a nails burns hotter than most boards.') /* LONG_DESC_STRING */;

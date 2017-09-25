@@ -50,7 +50,7 @@ VALUES (25894, 0, 83894476, 83894476);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25894, 0, 16788882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25894, 16, 'A pearl carefully removed from the corpse of a nefane.') /* LONG_DESC_STRING */;

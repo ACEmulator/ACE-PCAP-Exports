@@ -48,7 +48,7 @@ VALUES (24183, 0, 83891219, 83891219);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24183, 0, 16778341);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24183, 15, 'An ornate necklace once worn by Jaleh al-Thani. There is an inscription on the necklace.') /* SHORT_DESC_STRING */;

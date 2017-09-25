@@ -33,7 +33,7 @@ VALUES (15174, 13, True) /* ETHEREAL_BOOL */
      , (15174, 19, True) /* ATTACKABLE_BOOL */
      , (15174, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15174, 38, 'Merak Portal (26.5N, 36.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

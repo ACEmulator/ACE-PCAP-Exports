@@ -30,7 +30,7 @@ VALUES (22826, 13, True) /* ETHEREAL_BOOL */
      , (22826, 19, True) /* ATTACKABLE_BOOL */
      , (22826, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22826, 16, 'A small quantity of Daichroic Crystal') /* LONG_DESC_STRING */;

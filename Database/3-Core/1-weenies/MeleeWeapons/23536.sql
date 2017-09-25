@@ -36,7 +36,7 @@ VALUES (23536, 13, True) /* ETHEREAL_BOOL */
      , (23536, 19, True) /* ATTACKABLE_BOOL */
      , (23536, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (23536, 16, 'A dirk fashioned from the fetid tooth of a reedshark.') /* LONG_DESC_STRING */;

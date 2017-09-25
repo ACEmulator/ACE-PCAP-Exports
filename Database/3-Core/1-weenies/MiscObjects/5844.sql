@@ -32,7 +32,7 @@ VALUES (5844, 13, True) /* ETHEREAL_BOOL */
      , (5844, 19, True) /* ATTACKABLE_BOOL */
      , (5844, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5844, 16, 'Reeks of arcane odors, even closed.  The stench would be unbearable if opened.') /* LONG_DESC_STRING */;

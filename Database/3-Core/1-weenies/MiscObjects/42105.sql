@@ -35,7 +35,7 @@ VALUES (42105, 13, True) /* ETHEREAL_BOOL */
      , (42105, 19, True) /* ATTACKABLE_BOOL */
      , (42105, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42105, 16, 'Upon peeking in this box a bright glow shines upon your eyes, your mind asks "Is that what I think it is?" before closing the box.') /* LONG_DESC_STRING */

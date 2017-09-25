@@ -44,7 +44,7 @@ VALUES (52580, 0, 16797170)
      , (52580, 5, 16797174)
      , (52580, 3, 16797175);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (52580, 16, 'A sweater, knit with care by the Greatmother of Silyun to keep one warm during the festival season.') /* LONG_DESC_STRING */;

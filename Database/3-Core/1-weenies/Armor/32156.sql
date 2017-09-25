@@ -35,7 +35,7 @@ VALUES (32156, 13, True) /* ETHEREAL_BOOL */
      , (32156, 19, True) /* ATTACKABLE_BOOL */
      , (32156, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (32156, 16, 'A mask crafted after the sad and tortured visage of the Maddened Fiun.') /* LONG_DESC_STRING */;

@@ -34,7 +34,7 @@ VALUES (7239, 13, True) /* ETHEREAL_BOOL */
      , (7239, 14, True) /* GRAVITY_STATUS_BOOL */
      , (7239, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7239, 16, 'A book written by Yuan Hanzu regarding composite bows. ') /* LONG_DESC_STRING */;

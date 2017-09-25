@@ -87,7 +87,7 @@ VALUES (5035, 2, 16777293)
      , (5035, 4, 16777291)
      , (5035, 8, 16777298);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5035, 5, 'Citizen of Holtburg') /* TEMPLATE_STRING */;

@@ -35,7 +35,7 @@ VALUES (45350, 13, True) /* ETHEREAL_BOOL */
      , (45350, 19, True) /* ATTACKABLE_BOOL */
      , (45350, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (45350, 16, 'Inscribed spell: Sneak Attack Mastery Self III

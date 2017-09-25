@@ -32,7 +32,7 @@ VALUES (14249, 13, True) /* ETHEREAL_BOOL */
      , (14249, 19, True) /* ATTACKABLE_BOOL */
      , (14249, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14249, 16, 'This house is available for purchase.
@@ -40,4 +40,21 @@ VALUES (14249, 16, 'This house is available for purchase.
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14249, 86, 35) /* MIN_LEVEL_INT */;
+
+/* Slumlord Extended Properties */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14249, 155, 2) /* HOUSE_TYPE_INT */
+     , (14249, 149, 1) /* HOUSE_STATUS_INT */
+     , (14249, 86, 35) /* MIN_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14249, 4, False) /* ROT_PROOF_BOOL */;
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
+VALUES (14249, 16, 273, 2000000) /* Pyreal */
+     , (14249, 16, 11710, 5) /* Writ of Refuge */
+     , (14249, 16, 3698, 1) /* White Jewel */
+     , (14249, 32, 273, 100000) /* Pyreal */
+     , (14249, 32, 11710, 2) /* Writ of Refuge */;
 

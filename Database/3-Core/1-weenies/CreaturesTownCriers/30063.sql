@@ -78,7 +78,7 @@ VALUES (30063, 16, 16795640)
      , (30063, 13, 16791903)
      , (30063, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30063, 5, 'Herald of Sanamar') /* TEMPLATE_STRING */;

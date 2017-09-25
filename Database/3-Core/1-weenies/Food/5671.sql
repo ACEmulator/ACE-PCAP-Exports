@@ -46,7 +46,7 @@ VALUES (5671, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5671, 0, 16778729);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5671, 16, 'A frosty cup of milk, sure to cool the drinker. It would probably spoil if used in baking.') /* LONG_DESC_STRING */;

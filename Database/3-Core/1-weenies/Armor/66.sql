@@ -49,7 +49,7 @@ VALUES (66, 0, 83886788, 83886799);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (66, 0, 16778411);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (66, 16, 'Platemail Greaves') /* LONG_DESC_STRING */;

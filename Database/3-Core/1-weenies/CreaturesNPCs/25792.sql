@@ -37,7 +37,7 @@ VALUES (25792, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25792, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (25792, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25792, 5, 'Mayor of Frost Haven') /* TEMPLATE_STRING */;

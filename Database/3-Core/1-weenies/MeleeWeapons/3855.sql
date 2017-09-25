@@ -40,7 +40,7 @@ VALUES (3855, 13, True) /* ETHEREAL_BOOL */
      , (3855, 19, True) /* ATTACKABLE_BOOL */
      , (3855, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3855, 16, 'Flaming Shamshir of Coordination') /* LONG_DESC_STRING */;

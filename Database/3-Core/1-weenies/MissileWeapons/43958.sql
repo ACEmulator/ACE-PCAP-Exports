@@ -47,7 +47,7 @@ VALUES (43958, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43958, 67111920, 0, 0);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43958, 16, 'Crystaline quarrels that draw the elemental energies from elementally attuned crossbows to damage their target.') /* LONG_DESC_STRING */

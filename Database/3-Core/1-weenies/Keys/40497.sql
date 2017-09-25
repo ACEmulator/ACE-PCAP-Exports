@@ -33,7 +33,7 @@ VALUES (40497, 13, True) /* ETHEREAL_BOOL */
      , (40497, 19, True) /* ATTACKABLE_BOOL */
      , (40497, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40497, 16, 'A key taken from the Hea Warlord of the Apostate Citadel.') /* LONG_DESC_STRING */

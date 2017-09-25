@@ -90,7 +90,7 @@ VALUES (43064, 2, 16778436)
      , (43064, 15, 16789333)
      , (43064, 12, 16789332);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43064, 5, 'Olthoi Staff Crafter') /* TEMPLATE_STRING */;

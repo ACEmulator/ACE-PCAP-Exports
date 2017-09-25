@@ -104,7 +104,7 @@ VALUES (43752, 0, 16794061)
      , (43752, 8, 16789358)
      , (43752, 16, 16794064);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43752, 5, 'Olthoi Hunter') /* TEMPLATE_STRING */;

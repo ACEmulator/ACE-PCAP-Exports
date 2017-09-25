@@ -34,7 +34,7 @@ VALUES (30398, 13, True) /* ETHEREAL_BOOL */
      , (30398, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30398, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30398, 16, 'A sheaf of pages from the journal of Carlo di Cenza.') /* LONG_DESC_STRING */;

@@ -89,7 +89,7 @@ VALUES (35962, 12, 16778423)
      , (35962, 4, 16783485)
      , (35962, 8, 16783487);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35962, 5, 'Master Atlatl Crafter') /* TEMPLATE_STRING */;

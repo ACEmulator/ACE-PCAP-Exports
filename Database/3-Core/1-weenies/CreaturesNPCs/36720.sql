@@ -87,7 +87,7 @@ VALUES (36720, 12, 16777304)
      , (36720, 14, 16783855)
      , (36720, 16, 16778476);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36720, 5, 'Prodigal Scholar') /* TEMPLATE_STRING */;

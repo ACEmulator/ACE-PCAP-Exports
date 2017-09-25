@@ -33,7 +33,7 @@ VALUES (31326, 13, True) /* ETHEREAL_BOOL */
      , (31326, 19, True) /* ATTACKABLE_BOOL */
      , (31326, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (31326, 38, 'Coral Caves') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

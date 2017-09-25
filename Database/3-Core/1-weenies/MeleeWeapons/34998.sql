@@ -40,7 +40,7 @@ VALUES (34998, 13, True) /* ETHEREAL_BOOL */
      , (34998, 19, True) /* ATTACKABLE_BOOL */
      , (34998, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34998, 16, 'This normal Burun fist has had mucor-altered granite applied to it, resulting in a magically enhanced weapon with unique magical properties.') /* LONG_DESC_STRING */;

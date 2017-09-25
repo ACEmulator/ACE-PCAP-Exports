@@ -85,7 +85,7 @@ VALUES (6858, 2, 16777293)
      , (6858, 4, 16781855)
      , (6858, 8, 16781859);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6858, 5, 'Provisioner') /* TEMPLATE_STRING */;

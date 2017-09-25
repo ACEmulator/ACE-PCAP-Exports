@@ -33,7 +33,7 @@ VALUES (12472, 13, True) /* ETHEREAL_BOOL */
      , (12472, 19, True) /* ATTACKABLE_BOOL */
      , (12472, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12472, 38, 'Ariake Portal (16.7S, 77.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

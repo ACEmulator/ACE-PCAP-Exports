@@ -40,7 +40,7 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (42667, 67109966, 240, 10)
      , (42667, 67110348, 250, 6);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42667, 15, 'A finely crafted Top Hat that can be tailored with other items.') /* SHORT_DESC_STRING */;

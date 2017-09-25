@@ -75,7 +75,7 @@ VALUES (28699, 12, 16778423)
      , (28699, 13, 16791903)
      , (28699, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (28699, 5, 'Mother of Silyun') /* TEMPLATE_STRING */;

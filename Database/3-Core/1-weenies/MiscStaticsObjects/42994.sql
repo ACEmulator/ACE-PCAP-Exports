@@ -29,7 +29,7 @@ VALUES (42994, 13, True) /* ETHEREAL_BOOL */
      , (42994, 19, True) /* ATTACKABLE_BOOL */
      , (42994, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42994, 16, 'Founded in 12 PY by Gunther Danby the cook and his wife Greta the bowyer, Danby''s Outpost is a welcome stopover for those on the way to the Dires.') /* LONG_DESC_STRING */;

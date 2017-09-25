@@ -29,7 +29,7 @@ VALUES (12600, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12600, 19, True) /* ATTACKABLE_BOOL */
      , (12600, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12600, 16, 'Welcome to Eaves of Tiofor Settlement') /* LONG_DESC_STRING */;

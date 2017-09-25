@@ -79,7 +79,7 @@ VALUES (30052, 10, 16777301)
      , (30052, 4, 16791881)
      , (30052, 8, 16791882);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30052, 5, 'Blacksmith') /* TEMPLATE_STRING */;
@@ -101,6 +101,20 @@ VALUES (30052, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30052, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30052, 74, 1074005895) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (30052, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (30052, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30052, 37, 0.7) /* BUY_PRICE_FLOAT */
+     , (30052, 38, 1.9) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30052, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

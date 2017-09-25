@@ -85,7 +85,7 @@ VALUES (51789, 12, 16777304)
      , (51789, 14, 16783855)
      , (51789, 16, 16783891);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (51789, 5, 'Paranormal Scholar') /* TEMPLATE_STRING */;

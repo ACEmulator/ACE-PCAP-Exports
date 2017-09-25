@@ -30,7 +30,7 @@ VALUES (24876, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24876, 19, True) /* ATTACKABLE_BOOL */
      , (24876, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24876, 16, 'Ivory Crafter collects and shapes bones for practical and mystical use.') /* LONG_DESC_STRING */;

@@ -35,7 +35,7 @@ VALUES (9661, 13, True) /* ETHEREAL_BOOL */
      , (9661, 19, True) /* ATTACKABLE_BOOL */
      , (9661, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9661, 16, 'Inscribed spell: Drain Mana Other II

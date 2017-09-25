@@ -34,7 +34,7 @@ VALUES (22578, 13, True) /* ETHEREAL_BOOL */
      , (22578, 14, True) /* GRAVITY_STATUS_BOOL */
      , (22578, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22578, 15, 'A bunch of good smelling fruit.') /* SHORT_DESC_STRING */;

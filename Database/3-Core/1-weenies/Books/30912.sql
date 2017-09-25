@@ -33,7 +33,7 @@ VALUES (30912, 13, True) /* ETHEREAL_BOOL */
      , (30912, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30912, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (30912, 16, 'A portion of Carlo di Cenza''s journal. This is the seventh of ten pages.') /* LONG_DESC_STRING */;

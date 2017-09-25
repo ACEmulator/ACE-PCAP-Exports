@@ -32,7 +32,7 @@ VALUES (27669, 13, True) /* ETHEREAL_BOOL */
      , (27669, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27669, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27669, 16, 'These salted meats have been specially treated by Tumerok priests with herbs and spices that have many healing qualities. The result is a pungent and dry strip of meat with incredible healing properties.') /* LONG_DESC_STRING */;

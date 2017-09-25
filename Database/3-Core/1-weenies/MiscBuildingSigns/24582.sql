@@ -36,7 +36,7 @@ VALUES (24582, 0, 83891055, 83889904);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24582, 0, 16780409);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (24582, 16, 'The finest armor and weapons in the land. Our armor''s unbreakable and our weapons unstoppable.') /* LONG_DESC_STRING */;

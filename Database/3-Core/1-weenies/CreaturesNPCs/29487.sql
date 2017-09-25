@@ -78,7 +78,7 @@ VALUES (29487, 12, 16777304)
      , (29487, 4, 16781816)
      , (29487, 8, 16781817);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29487, 5, 'Knight of Karlun') /* TEMPLATE_STRING */;

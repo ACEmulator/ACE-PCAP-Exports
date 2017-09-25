@@ -35,7 +35,7 @@ VALUES (22256, 13, True) /* ETHEREAL_BOOL */
      , (22256, 22, True) /* INSCRIBABLE_BOOL */
      , (22256, 116, True) /* WIELD_ON_USE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22256, 14, 'Wield the fishing pole and use a fishing hole to catch fish.') /* USE_STRING */

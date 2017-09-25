@@ -35,7 +35,7 @@ VALUES (9611, 13, True) /* ETHEREAL_BOOL */
      , (9611, 19, True) /* ATTACKABLE_BOOL */
      , (9611, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9611, 16, 'Inscribed spell: Mana Conversion Ineptitude Other IV

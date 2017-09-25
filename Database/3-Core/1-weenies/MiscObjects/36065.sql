@@ -32,7 +32,7 @@ VALUES (36065, 13, True) /* ETHEREAL_BOOL */
      , (36065, 19, True) /* ATTACKABLE_BOOL */
      , (36065, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36065, 16, 'Looking into this vaguely gem-like object, you perceive the swirling eddies of portal space and, within them, the vague image of Ayan Baqur.') /* LONG_DESC_STRING */;

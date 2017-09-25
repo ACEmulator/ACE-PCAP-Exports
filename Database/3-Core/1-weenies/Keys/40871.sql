@@ -33,7 +33,7 @@ VALUES (40871, 13, True) /* ETHEREAL_BOOL */
      , (40871, 19, True) /* ATTACKABLE_BOOL */
      , (40871, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40871, 16, 'A key marked for use with the northern gate.') /* LONG_DESC_STRING */

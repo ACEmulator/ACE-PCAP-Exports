@@ -33,7 +33,7 @@ VALUES (19133, 13, True) /* ETHEREAL_BOOL */
      , (19133, 19, True) /* ATTACKABLE_BOOL */
      , (19133, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19133, 38, 'Portal to Baishi (49.3S, 62.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

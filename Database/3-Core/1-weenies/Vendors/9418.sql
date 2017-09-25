@@ -61,7 +61,7 @@ VALUES (9418, 0, 16785699)
      , (9418, 19, 16785704)
      , (9418, 20, 16785705);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9418, 2, 5) /* CREATURE_TYPE_INT */
@@ -70,6 +70,17 @@ VALUES (9418, 2, 5) /* CREATURE_TYPE_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9418, 64, 215) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9418, 74, 1208250287) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (9418, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (9418, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9418, 37, 0.8) /* BUY_PRICE_FLOAT */
+     , (9418, 38, 1.7) /* SELL_PRICE_FLOAT */;
 
 /* Vendor Shop Selection List */
 

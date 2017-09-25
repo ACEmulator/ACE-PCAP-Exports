@@ -46,7 +46,7 @@ VALUES (43481, 67116875, 0, 24)
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43481, 0, 83891927, 83891927);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (43481, 16, 67116855) /* EYES_PALETTE_DID */

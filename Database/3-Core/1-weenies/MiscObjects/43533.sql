@@ -34,7 +34,7 @@ VALUES (43533, 13, True) /* ETHEREAL_BOOL */
      , (43533, 19, True) /* ATTACKABLE_BOOL */
      , (43533, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43533, 16, 'A Mnemosyne, plucked from the decomposing form of Battle Lord Gregor, the Undead General overseeing the Gurog.') /* LONG_DESC_STRING */

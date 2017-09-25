@@ -33,7 +33,7 @@ VALUES (35920, 13, True) /* ETHEREAL_BOOL */
      , (35920, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35920, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35920, 15, 'A snowman doll. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* SHORT_DESC_STRING */;

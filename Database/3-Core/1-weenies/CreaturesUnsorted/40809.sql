@@ -42,7 +42,7 @@ VALUES (40809, 0, 83893820, 83893818);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40809, 0, 16787400);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40809, 15, 'This is a concentrated mass of Aetherium, gathered by the Apostate Virindi and their servants.') /* SHORT_DESC_STRING */;

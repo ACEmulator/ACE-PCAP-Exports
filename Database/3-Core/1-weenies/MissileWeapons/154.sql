@@ -52,7 +52,7 @@ VALUES (154, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (154, 0, 16778749);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (154, 16, 'Goblet of Item Tinkering') /* LONG_DESC_STRING */;

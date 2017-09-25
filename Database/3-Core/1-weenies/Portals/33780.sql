@@ -33,7 +33,7 @@ VALUES (33780, 13, True) /* ETHEREAL_BOOL */
      , (33780, 19, True) /* ATTACKABLE_BOOL */
      , (33780, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33780, 16, 'A Ruschk temple, where those who wish to follow the Black Spear prove their worth.') /* LONG_DESC_STRING */

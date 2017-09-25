@@ -103,7 +103,7 @@ VALUES (40460, 5, 16789351)
      , (40460, 8, 16781839)
      , (40460, 16, 16789648);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40460, 5, 'Rare Items Collector') /* TEMPLATE_STRING */;

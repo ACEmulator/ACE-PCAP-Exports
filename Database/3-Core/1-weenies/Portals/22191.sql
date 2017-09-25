@@ -33,7 +33,7 @@ VALUES (22191, 13, True) /* ETHEREAL_BOOL */
      , (22191, 19, True) /* ATTACKABLE_BOOL */
      , (22191, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22191, 38, 'Olthoi Arcade') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

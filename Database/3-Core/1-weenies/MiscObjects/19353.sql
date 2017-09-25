@@ -32,7 +32,7 @@ VALUES (19353, 13, True) /* ETHEREAL_BOOL */
      , (19353, 19, True) /* ATTACKABLE_BOOL */
      , (19353, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (19353, 14, 'Use this seal on a town pedestal to dissolve the stone.') /* USE_STRING */;

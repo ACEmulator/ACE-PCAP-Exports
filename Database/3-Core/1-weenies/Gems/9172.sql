@@ -83,7 +83,7 @@ VALUES (9172, 0, 16784255)
      , (9172, 15, 16784297)
      , (9172, 16, 16784297);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9172, 16, 'The first in the Drudge-in-Your-Pack line of toys. Comes with Kung-Fu action grip!') /* LONG_DESC_STRING */;

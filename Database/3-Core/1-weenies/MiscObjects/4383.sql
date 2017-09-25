@@ -28,7 +28,7 @@ VALUES (4383, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (4383, 1, True) /* STUCK_BOOL */
      , (4383, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (4383, 19, 0) /* VALUE_INT */

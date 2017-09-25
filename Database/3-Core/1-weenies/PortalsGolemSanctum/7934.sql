@@ -33,7 +33,7 @@ VALUES (7934, 13, True) /* ETHEREAL_BOOL */
      , (7934, 19, True) /* ATTACKABLE_BOOL */
      , (7934, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7934, 38, 'Golem Sanctum Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

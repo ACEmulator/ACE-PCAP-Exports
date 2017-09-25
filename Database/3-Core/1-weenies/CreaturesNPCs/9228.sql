@@ -87,7 +87,7 @@ VALUES (9228, 11, 16778429)
      , (9228, 4, 16778426)
      , (9228, 8, 16778428);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (9228, 5, 'Undead Hunter') /* TEMPLATE_STRING */;

@@ -40,7 +40,7 @@ VALUES (41910, 13, True) /* ETHEREAL_BOOL */
      , (41910, 19, True) /* ATTACKABLE_BOOL */
      , (41910, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41910, 16, 'An orb with a large purple eye in the middle.  Gazing at it makes you dizzy.') /* LONG_DESC_STRING */;

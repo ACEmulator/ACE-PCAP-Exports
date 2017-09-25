@@ -37,7 +37,7 @@ VALUES (40344, 13, True) /* ETHEREAL_BOOL */
      , (40344, 19, True) /* ATTACKABLE_BOOL */
      , (40344, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (40344, 16, 'This large clear crystal sometimes emits faint whispers. Use it to detect invisible ghosts under Mhoire Castle.') /* LONG_DESC_STRING */;

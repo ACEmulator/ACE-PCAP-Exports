@@ -34,7 +34,7 @@ VALUES (41929, 13, True) /* ETHEREAL_BOOL */
      , (41929, 19, True) /* ATTACKABLE_BOOL */
      , (41929, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (41929, 16, 'A story book showing the length of time Ries will share his story.') /* LONG_DESC_STRING */;

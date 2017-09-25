@@ -41,7 +41,7 @@ VALUES (6887, 13, True) /* ETHEREAL_BOOL */
      , (6887, 17, True) /* INELASTIC_BOOL */
      , (6887, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6887, 16, 'An electric throwing dagger that once belonged to the infamous assassin Oswald.') /* LONG_DESC_STRING */;

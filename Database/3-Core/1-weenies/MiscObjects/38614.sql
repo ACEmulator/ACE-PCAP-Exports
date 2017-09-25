@@ -32,7 +32,7 @@ VALUES (38614, 13, True) /* ETHEREAL_BOOL */
      , (38614, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38614, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (38614, 16, 'A piece of paper with glowing protections upon it.  It seems to detail troop movements and such on Dark Isle.  It''s too hazardous to handle without the proper knowledge of what it''s used for.') /* LONG_DESC_STRING */

@@ -33,7 +33,7 @@ VALUES (4891, 13, True) /* ETHEREAL_BOOL */
      , (4891, 19, True) /* ATTACKABLE_BOOL */
      , (4891, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (4891, 16, 'A small bottle full of a sweet golden nectar from the lost distillery.') /* LONG_DESC_STRING */

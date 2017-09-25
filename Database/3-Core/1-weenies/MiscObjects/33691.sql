@@ -31,7 +31,7 @@ VALUES (33691, 13, True) /* ETHEREAL_BOOL */
      , (33691, 19, True) /* ATTACKABLE_BOOL */
      , (33691, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (33691, 16, 'A piece of the broken remains of the Black Spear, carried by the Mukkir Aspect of Grael.') /* LONG_DESC_STRING */;

@@ -32,7 +32,7 @@ VALUES (36054, 13, True) /* ETHEREAL_BOOL */
      , (36054, 19, True) /* ATTACKABLE_BOOL */
      , (36054, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (36054, 16, 'In the heart of this gem, you perceive the image of Ellimar Jorning of Ayan Baqur.') /* LONG_DESC_STRING */;

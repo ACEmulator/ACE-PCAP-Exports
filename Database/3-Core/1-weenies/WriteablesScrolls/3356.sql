@@ -35,7 +35,7 @@ VALUES (3356, 13, True) /* ETHEREAL_BOOL */
      , (3356, 19, True) /* ATTACKABLE_BOOL */
      , (3356, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3356, 16, 'Inscribed spell: Leadership Mastery Other V

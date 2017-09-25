@@ -70,7 +70,7 @@ VALUES (44288, 0, 16783894)
      , (44288, 13, 16783871)
      , (44288, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44288, 5, 'A''nekshay Temple Archivist') /* TEMPLATE_STRING */;

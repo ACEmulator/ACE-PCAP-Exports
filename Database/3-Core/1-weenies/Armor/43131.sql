@@ -36,7 +36,7 @@ VALUES (43131, 13, True) /* ETHEREAL_BOOL */
      , (43131, 14, True) /* GRAVITY_STATUS_BOOL */
      , (43131, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43131, 16, 'Loose Pants') /* LONG_DESC_STRING */;

@@ -37,7 +37,7 @@ VALUES (43544, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43544, 67111849, 1, 255);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (43544, 38, 'Olthoi Tunnel (86.1N, 52.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

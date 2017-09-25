@@ -88,7 +88,7 @@ VALUES (971, 12, 16777304)
      , (971, 4, 16781838)
      , (971, 8, 16781839);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (971, 5, 'Shady') /* TEMPLATE_STRING */;
@@ -120,6 +120,20 @@ REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndI
 VALUES (971, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (971, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (971, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (971, 74, 288679) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (971, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (971, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (971, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (971, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (971, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 

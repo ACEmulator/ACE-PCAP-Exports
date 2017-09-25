@@ -33,7 +33,7 @@ VALUES (42827, 13, True) /* ETHEREAL_BOOL */
      , (42827, 19, True) /* ATTACKABLE_BOOL */
      , (42827, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (42827, 16, 'This portal goes to Ahurenga, the home of the Hea Tumeroks in the marshes of western Marae Lassel. This is a good town for characters over level 40.') /* LONG_DESC_STRING */

@@ -57,7 +57,7 @@ VALUES (35940, 2, 16793638)
      , (35940, 23, 16777708)
      , (35940, 24, 16777708);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35940, 5, 'Oolutanga''s Bane') /* TEMPLATE_STRING */;

@@ -42,7 +42,7 @@ VALUES (5186, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5186, 0, 16779181);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (5186, 16, 'A small blue gem. It has several scratches which decrease its value. ') /* LONG_DESC_STRING */;

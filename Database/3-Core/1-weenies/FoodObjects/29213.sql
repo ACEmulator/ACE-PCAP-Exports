@@ -33,7 +33,7 @@ VALUES (29213, 13, True) /* ETHEREAL_BOOL */
      , (29213, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29213, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (29213, 16, 'An amazing bottle of glorious amber ale. This beer has a thicker consistency than the usual brew.') /* LONG_DESC_STRING */

@@ -33,7 +33,7 @@ VALUES (12296, 13, True) /* ETHEREAL_BOOL */
      , (12296, 19, True) /* ATTACKABLE_BOOL */
      , (12296, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (12296, 38, 'Singular Pyreal Repository') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

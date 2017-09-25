@@ -33,7 +33,7 @@ VALUES (14446, 13, True) /* ETHEREAL_BOOL */
      , (14446, 14, True) /* GRAVITY_STATUS_BOOL */
      , (14446, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (14446, 15, 'A creased and folded note, addressed to the owner of this house.') /* SHORT_DESC_STRING */;

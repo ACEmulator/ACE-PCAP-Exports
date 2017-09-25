@@ -31,7 +31,7 @@ VALUES (22254, 13, True) /* ETHEREAL_BOOL */
      , (22254, 19, True) /* ATTACKABLE_BOOL */
      , (22254, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (22254, 14, 'This item can be used on floor hooks.') /* USE_STRING */

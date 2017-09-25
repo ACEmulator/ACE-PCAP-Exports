@@ -49,7 +49,7 @@ VALUES (21155, 0, 83886788, 83894182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21155, 0, 16778411);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (21155, 16, 'Covenant Greaves') /* LONG_DESC_STRING */;

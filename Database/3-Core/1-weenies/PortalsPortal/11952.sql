@@ -33,7 +33,7 @@ VALUES (11952, 13, True) /* ETHEREAL_BOOL */
      , (11952, 19, True) /* ATTACKABLE_BOOL */
      , (11952, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (11952, 38, 'Northern Ahurenga Plains Portal (52.1N, 86.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

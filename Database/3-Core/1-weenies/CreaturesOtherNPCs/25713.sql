@@ -37,7 +37,7 @@ VALUES (25713, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25713, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (25713, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25713, 15, 'A bookcase, dusty tomes and all.') /* SHORT_DESC_STRING */;

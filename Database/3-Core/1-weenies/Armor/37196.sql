@@ -45,7 +45,7 @@ VALUES (37196, 67116571, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37196, 0, 16794117);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37196, 16, 'Olthoi Amuli Helm of Fealty') /* LONG_DESC_STRING */;

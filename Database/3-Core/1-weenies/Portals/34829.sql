@@ -33,7 +33,7 @@ VALUES (34829, 13, True) /* ETHEREAL_BOOL */
      , (34829, 19, True) /* ATTACKABLE_BOOL */
      , (34829, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (34829, 38, 'Northern Catacombs') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

@@ -52,7 +52,7 @@ VALUES (37291, 0, 83897915, 83897915)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37291, 0, 16794102);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (37291, 16, '') /* LONG_DESC_STRING */;

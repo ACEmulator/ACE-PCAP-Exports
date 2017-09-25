@@ -39,7 +39,7 @@ VALUES (27652, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27652, 67115178, 240, 16);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (27652, 15, 'A horned helm taken from the Renegade Lugian, General Fostok.') /* SHORT_DESC_STRING */;

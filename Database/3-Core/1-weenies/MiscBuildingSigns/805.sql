@@ -36,7 +36,7 @@ VALUES (805, 0, 83891055, 83889857);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (805, 0, 16780409);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (805, 16, 'Zhen''s Tower') /* LONG_DESC_STRING */;

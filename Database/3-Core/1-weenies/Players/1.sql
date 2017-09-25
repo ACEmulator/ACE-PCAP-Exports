@@ -105,7 +105,7 @@ VALUES (1, 16, 16778398)
      , (1, 13, 16783871)
      , (1, 14, 16783855);
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1, 35, 'Nan-chueh Angwyshaunce') /* PATRONS_TITLE_STRING */

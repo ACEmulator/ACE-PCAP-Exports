@@ -37,7 +37,7 @@ VALUES (25542, 13, True) /* ETHEREAL_BOOL */
      , (25542, 19, True) /* ATTACKABLE_BOOL */
      , (25542, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (25542, 16, 'A ring of bone once used as a body piercing for a Banderling Scalper. The magic within the bone is still active and small bits have been stripped away so the ring can now be worn on the finger.') /* LONG_DESC_STRING */;

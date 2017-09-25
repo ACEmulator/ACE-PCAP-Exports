@@ -34,7 +34,7 @@ VALUES (15820, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15820, 19, True) /* ATTACKABLE_BOOL */
      , (15820, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15820, 14, 'You are forbidden to take this historic armor.') /* USE_STRING */

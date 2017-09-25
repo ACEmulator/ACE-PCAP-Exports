@@ -34,7 +34,7 @@ VALUES (6330, 13, True) /* ETHEREAL_BOOL */
      , (6330, 19, True) /* ATTACKABLE_BOOL */
      , (6330, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (6330, 16, 'An ingot of pyreal.') /* LONG_DESC_STRING */;

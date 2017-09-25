@@ -34,7 +34,7 @@ VALUES (2203, 13, True) /* ETHEREAL_BOOL */
      , (2203, 19, True) /* ATTACKABLE_BOOL */
      , (2203, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (2203, 16, 'A plain key. There are coordinates scratched on the handle: 42S, 56W ') /* LONG_DESC_STRING */

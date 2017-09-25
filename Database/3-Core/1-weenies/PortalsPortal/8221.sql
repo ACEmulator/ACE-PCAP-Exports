@@ -33,7 +33,7 @@ VALUES (8221, 13, True) /* ETHEREAL_BOOL */
      , (8221, 19, True) /* ATTACKABLE_BOOL */
      , (8221, 1, True) /* STUCK_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (8221, 38, 'Xarabydun Lifestone Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;

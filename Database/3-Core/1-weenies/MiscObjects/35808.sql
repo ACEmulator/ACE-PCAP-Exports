@@ -32,7 +32,7 @@ VALUES (35808, 13, True) /* ETHEREAL_BOOL */
      , (35808, 19, True) /* ATTACKABLE_BOOL */
      , (35808, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Apprasial Data */
+/* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (35808, 16, 'This Arbitrator''s Augmentation Token can be turned in to the Master Arbitrator for experience, or it can be turned in to Fiun Rehlyun at the Fiun settlement for a Blank Augmentation Gem.') /* LONG_DESC_STRING */;
