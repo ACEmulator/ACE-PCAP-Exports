@@ -1,0 +1,37 @@
+/* Weenie - Books - Chipped Message Shard (51386) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 51386;
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (51386, 'ace51386-chippedmessageshard');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (51386, 274, 51386, 2097296, NULL, NULL, 301185);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51386, 1, 'Chipped Message Shard') /* NAME_STRING */;
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (51386, 8, 100671183) /* ICON_DID */
+     , (51386, 1, 33555391) /* SETUP_DID */
+     , (51386, 3, 536870932) /* SOUND_TABLE_DID */
+     , (51386, 22, 872415275) /* PHYSICS_EFFECT_TABLE_DID */;
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51386, 1, 128) /* ITEM_TYPE_INT */
+     , (51386, 5, 50) /* ENCUMB_VAL_INT */
+     , (51386, 18, 64) /* UI_EFFECTS_INT */
+     , (51386, 16, 1) /* ITEM_USEABLE_INT */
+     , (51386, 93, 1044) /* PHYSICS_STATE_INT */
+     , (51386, 9007, 8) /* Book_WeenieType */;
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (51386, 39, 0.2) /* DEFAULT_SCALE_FLOAT */
+     , (51386, 76, 0.5) /* TRANSLUCENCY_FLOAT */;
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51386, 13, True) /* ETHEREAL_BOOL */
+     , (51386, 11, True) /* IGNORE_COLLISIONS_BOOL */
+     , (51386, 14, True) /* GRAVITY_STATUS_BOOL */
+     , (51386, 19, True) /* ATTACKABLE_BOOL */
+     , (51386, 22, True) /* INSCRIBABLE_BOOL */;
+

@@ -1,0 +1,243 @@
+/* Weenie - Vendors - Master Sonji Pan, Archmage (809) */
+DELETE FROM ace_weenie_class WHERE weenieClassId = 809;
+
+INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)
+VALUES (809, 'yanshiarchmage');
+
+INSERT INTO `ace_object` (`aceObjectId`, `aceObjectDescriptionFlags`, `weenieClassId`, `weenieHeaderFlags`, `weenieHeaderFlags2`, `currentMotionState`, `physicsDescriptionFlag`)
+VALUES (809, 516, 809, 8388662, NULL, 'AAA9AAAAAAA=', 100355);
+
+INSERT INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (809, 1, 'Master Sonji Pan, Archmage') /* NAME_STRING */;
+
+INSERT INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (809, 8, 100667446) /* ICON_DID */
+     , (809, 1, 33554433) /* SETUP_DID */
+     , (809, 3, 536870913) /* SOUND_TABLE_DID */
+     , (809, 2, 150994945) /* MOTION_TABLE_DID */
+     , (809, 6, 67108990) /* PALETTE_BASE_DID */;
+
+INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (809, 1, 16) /* ITEM_TYPE_INT */
+     , (809, 7, 255) /* CONTAINERS_CAPACITY_INT */
+     , (809, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (809, 133, 4) /* SHOWABLE_ON_RADAR_INT */
+     , (809, 16, 32) /* ITEM_USEABLE_INT */
+     , (809, 93, 2098200) /* PHYSICS_STATE_INT */
+     , (809, 9007, 12) /* Vendor_WeenieType */;
+
+INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (809, 54, 3) /* USE_RADIUS_FLOAT */;
+
+INSERT INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (809, 12, True) /* REPORT_COLLISIONS_BOOL */
+     , (809, 11, True) /* IGNORE_COLLISIONS_BOOL */
+     , (809, 14, True) /* GRAVITY_STATUS_BOOL */
+     , (809, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
+     , (809, 1, True) /* STUCK_BOOL */;
+
+INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
+VALUES (809, 67110059, 0, 24)
+     , (809, 67117080, 24, 8)
+     , (809, 67110063, 32, 8)
+     , (809, 67110356, 64, 8)
+     , (809, 67110003, 72, 8)
+     , (809, 67110349, 40, 24)
+     , (809, 67110551, 92, 4)
+     , (809, 67110349, 216, 24)
+     , (809, 67110356, 160, 8)
+     , (809, 67111245, 250, 6);
+
+INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
+VALUES (809, 16, 83886232, 83890685)
+     , (809, 16, 83886668, 83890451)
+     , (809, 16, 83886837, 83890520)
+     , (809, 16, 83886684, 83890577)
+     , (809, 5, 83887064, 83886241)
+     , (809, 1, 83887064, 83886241)
+     , (809, 6, 83887066, 83887055)
+     , (809, 2, 83887066, 83887055)
+     , (809, 10, 83887069, 83886782)
+     , (809, 13, 83887069, 83886782)
+     , (809, 11, 83887067, 83891213)
+     , (809, 14, 83887067, 83891213)
+     , (809, 9, 83887061, 83890009)
+     , (809, 9, 83887060, 83890010)
+     , (809, 0, 83889072, 83890012)
+     , (809, 0, 83889342, 83890011)
+     , (809, 3, 83889344, 83887054)
+     , (809, 7, 83889344, 83887054)
+     , (809, 4, 83887068, 83887054)
+     , (809, 8, 83887068, 83887054)
+     , (809, 16, 83889315, 83889865);
+
+INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
+VALUES (809, 12, 16777304)
+     , (809, 15, 16777307)
+     , (809, 5, 16777299)
+     , (809, 1, 16777295)
+     , (809, 6, 16777297)
+     , (809, 2, 16777293)
+     , (809, 10, 16777301)
+     , (809, 13, 16777303)
+     , (809, 11, 16777302)
+     , (809, 14, 16777305)
+     , (809, 9, 16777300)
+     , (809, 0, 16781835)
+     , (809, 3, 16777292)
+     , (809, 7, 16777296)
+     , (809, 4, 16777291)
+     , (809, 8, 16777298)
+     , (809, 16, 16779630);
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (809, 5, 'Archmage') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (809, 16, 67110063) /* EYES_PALETTE_DID */
+     , (809, 9, 83890451) /* EYES_TEXTURE_DID */
+     , (809, 17, 67110059) /* SKIN_PALETTE_DID */
+     , (809, 10, 83890520) /* NOSE_TEXTURE_DID */
+     , (809, 11, 83890577) /* MOUTH_TEXTURE_DID */
+     , (809, 15, 67117080) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (809, 113, 1) /* GENDER_INT */
+     , (809, 2, 31) /* CREATURE_TYPE_INT */
+     , (809, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (809, 25, 10) /* LEVEL_INT */
+     , (809, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (809, 64, 193) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (809, 74, 831488) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (809, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (809, 76, 500000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (809, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (809, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (809, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (809, 4, 691)
+     , (809, 4, 689)
+     , (809, 4, 686)
+     , (809, 4, 688)
+     , (809, 4, 20631)
+     , (809, 4, 765)
+     , (809, 4, 766)
+     , (809, 4, 767)
+     , (809, 4, 768)
+     , (809, 4, 769)
+     , (809, 4, 770)
+     , (809, 4, 771)
+     , (809, 4, 625)
+     , (809, 4, 772)
+     , (809, 4, 773)
+     , (809, 4, 774)
+     , (809, 4, 775)
+     , (809, 4, 776)
+     , (809, 4, 777)
+     , (809, 4, 778)
+     , (809, 4, 779)
+     , (809, 4, 780)
+     , (809, 4, 781)
+     , (809, 4, 782)
+     , (809, 4, 783)
+     , (809, 4, 784)
+     , (809, 4, 785)
+     , (809, 4, 786)
+     , (809, 4, 626)
+     , (809, 4, 787)
+     , (809, 4, 788)
+     , (809, 4, 789)
+     , (809, 4, 790)
+     , (809, 4, 791)
+     , (809, 4, 792)
+     , (809, 4, 753)
+     , (809, 4, 754)
+     , (809, 4, 755)
+     , (809, 4, 756)
+     , (809, 4, 757)
+     , (809, 4, 758)
+     , (809, 4, 759)
+     , (809, 4, 760)
+     , (809, 4, 761)
+     , (809, 4, 762)
+     , (809, 4, 763)
+     , (809, 4, 764)
+     , (809, 4, 749)
+     , (809, 4, 742)
+     , (809, 4, 752)
+     , (809, 4, 747)
+     , (809, 4, 627)
+     , (809, 4, 744)
+     , (809, 4, 741)
+     , (809, 4, 740)
+     , (809, 4, 745)
+     , (809, 4, 750)
+     , (809, 4, 751)
+     , (809, 4, 743)
+     , (809, 4, 748)
+     , (809, 4, 746)
+     , (809, 4, 1650)
+     , (809, 4, 1649)
+     , (809, 4, 1648)
+     , (809, 4, 1653)
+     , (809, 4, 1645)
+     , (809, 4, 1654)
+     , (809, 4, 1643)
+     , (809, 4, 1647)
+     , (809, 4, 1651)
+     , (809, 4, 1644)
+     , (809, 4, 1652)
+     , (809, 4, 1646)
+     , (809, 4, 27331)
+     , (809, 4, 2434)
+     , (809, 4, 4612)
+     , (809, 4, 4613)
+     , (809, 4, 4614)
+     , (809, 4, 4615)
+     , (809, 4, 6064)
+     , (809, 4, 6067)
+     , (809, 4, 6070)
+     , (809, 4, 6073)
+     , (809, 4, 4751)
+     , (809, 4, 2621)
+     , (809, 4, 2622)
+     , (809, 4, 2623)
+     , (809, 4, 2624)
+     , (809, 4, 2625)
+     , (809, 4, 2626)
+     , (809, 4, 2627)
+     , (809, 4, 20628)
+     , (809, 4, 20629)
+     , (809, 4, 20630)
+     , (809, 4, 136)
+     , (809, 4, 5540)
+     , (809, 4, 2472)
+     , (809, 4, 8180)
+     , (809, 4, 8181)
+     , (809, 4, 8182)
+     , (809, 4, 26639)
+     , (809, 4, 8973)
+     , (809, 4, 8984)
+     , (809, 4, 8980)
+     , (809, 4, 8983)
+     , (809, 4, 8981)
+     , (809, 4, 8978)
+     , (809, 4, 8976)
+     , (809, 4, 8977)
+     , (809, 4, 8979);
+
