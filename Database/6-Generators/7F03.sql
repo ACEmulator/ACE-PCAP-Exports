@@ -1444,3 +1444,102 @@ INSERT INTO ace_position
 	qZ)
 VALUES 
 	(last_insert_id(), 1, @landblockRaw, @posX, @posY, @posZ, @qW, @qX, @qY, @qZ);
+
+/* Generator Setup Variables */
+SET @weenieClassId          = 13237;
+SET @weenieClassDescription = '';
+SET @generatorClassId       = 15759;
+
+SET @name = 'Note Generator';
+
+SET @ActivationCreateClass  = @weenieClassId;
+SET @MaxGeneratedObjects    = 1;
+SET @GeneratorType          = 2;
+SET @GeneratorTimeType      = 0;
+SET @GeneratorProbability   = 100;
+
+SET @RegenerationInterval   = 120; /* RegenerationInterval in seconds */
+
+SET @landblockRaw   = conv('7F0301B6', 16, 10);
+SET @posX           = 17.849;
+SET @posY           = -37.9237;
+SET @posZ           = 0.079;
+SET @qW             = -0.491793;
+SET @qX             = 0;
+SET @qY             = 0;
+SET @qZ             = -0.870712;
+
+/* Add generator instances */
+INSERT INTO ace_object
+	(aceObjectDescriptionFlags,
+    weenieClassId)
+SELECT 
+    aceObjectDescriptionFlags,
+    weenieClassId
+FROM ace_object
+WHERE aceObjectId = @generatorClassId;
+
+SET SQL_SAFE_UPDATES = 0;
+CREATE TEMPORARY TABLE tmp SELECT * from ace_object_properties_did WHERE aceObjectId = @generatorClassId;
+UPDATE tmp SET aceObjectId = last_insert_id();
+INSERT INTO ace_object_properties_did SELECT tmp.* FROM tmp;
+DROP TEMPORARY TABLE tmp;
+SET SQL_SAFE_UPDATES = 1;
+
+SET SQL_SAFE_UPDATES = 0;
+CREATE TEMPORARY TABLE tmp SELECT * from ace_object_properties_int WHERE aceObjectId = @generatorClassId;
+UPDATE tmp SET aceObjectId = last_insert_id();
+UPDATE tmp SET propertyValue = @MaxGeneratedObjects WHERE intPropertyId = 81;
+UPDATE tmp SET propertyValue = @GeneratorType WHERE intPropertyId = 100;
+UPDATE tmp SET propertyValue = @ActivationCreateClass WHERE intPropertyId = 104;
+UPDATE tmp SET propertyValue = @GeneratorTimeType WHERE intPropertyId = 142;
+UPDATE tmp SET propertyValue = @GeneratorProbability WHERE intPropertyId = 9006;
+INSERT INTO ace_object_properties_int SELECT tmp.* FROM tmp;
+DROP TEMPORARY TABLE tmp;
+SET SQL_SAFE_UPDATES = 1;
+
+SET SQL_SAFE_UPDATES = 0;
+CREATE TEMPORARY TABLE tmp SELECT * from ace_object_properties_double WHERE aceObjectId = @generatorClassId;
+UPDATE tmp SET aceObjectId = last_insert_id();
+UPDATE tmp SET propertyValue = @RegenerationInterval WHERE dblPropertyId = 41;
+INSERT INTO ace_object_properties_double SELECT tmp.* FROM tmp;
+DROP TEMPORARY TABLE tmp;
+SET SQL_SAFE_UPDATES = 1;
+
+SET SQL_SAFE_UPDATES = 0;
+CREATE TEMPORARY TABLE tmp SELECT * from ace_object_properties_bool WHERE aceObjectId = @generatorClassId;
+UPDATE tmp SET aceObjectId = last_insert_id();
+INSERT INTO ace_object_properties_bool SELECT tmp.* FROM tmp;
+DROP TEMPORARY TABLE tmp;
+SET SQL_SAFE_UPDATES = 1;
+
+SET SQL_SAFE_UPDATES = 0;
+CREATE TEMPORARY TABLE tmp SELECT * from ace_object_properties_string WHERE aceObjectId = @generatorClassId;
+UPDATE tmp SET aceObjectId = last_insert_id();
+UPDATE tmp SET propertyValue = @name WHERE strPropertyId = 1;
+INSERT INTO ace_object_properties_string SELECT tmp.* FROM tmp;
+DROP TEMPORARY TABLE tmp;
+SET SQL_SAFE_UPDATES = 1;
+
+/*
+SET SQL_SAFE_UPDATES = 0;
+CREATE TEMPORARY TABLE tmp SELECT * from ace_object_generator_link WHERE aceObjectId = @generatorClassId;
+UPDATE tmp SET aceObjectId = last_insert_id();
+INSERT INTO ace_object_generator_link SELECT tmp.* FROM tmp;
+DROP TEMPORARY TABLE tmp;
+SET SQL_SAFE_UPDATES = 1;
+*/
+
+INSERT INTO ace_position 
+	(aceObjectId,
+	positionType,
+	landblockRaw,
+	posX,
+	posY,
+	posZ,
+	qW,
+	qX,
+	qY,
+	qZ)
+VALUES 
+	(last_insert_id(), 1, @landblockRaw, @posX, @posY, @posZ, @qW, @qX, @qY, @qZ);
