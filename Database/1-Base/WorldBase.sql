@@ -41,6 +41,7 @@ CREATE TABLE `ace_landblock` (
   UNIQUE KEY `instanceId_UNIQUE` (`instanceId`),
   UNIQUE KEY `preassignedGuid_UNIQUE` (`preassignedGuid`),
   KEY `fk_lb_weenie_idx` (`weenieClassId`),
+  KEY `fk_lb_idx` (`landblock`),
   CONSTRAINT `fk_weenie_lb` FOREIGN KEY (`weenieClassId`) REFERENCES `ace_weenie_class` (`weenieClassId`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
