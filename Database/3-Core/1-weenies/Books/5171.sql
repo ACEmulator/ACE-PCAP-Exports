@@ -46,14 +46,14 @@ VALUES (5171, 33, 1) /* BONDED_INT */
      , (5171, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5171, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5171, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5171, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (5171, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5171, 0, 'Nasun and Ahyara', 'prewritten', 4294967295, 0, '

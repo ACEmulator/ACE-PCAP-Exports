@@ -44,14 +44,14 @@ VALUES (35112, 19, 0) /* VALUE_INT */
      , (35112, 174, 3) /* APPRAISAL_PAGES_INT */
      , (35112, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35112, 174, 3) /* APPRAISAL_PAGES_INT */
      , (35112, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
      , (35112, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (35112, 0, 'Kuurak', 'prewritten', 4294967295, 0, 'We Burun have in the past been very conservative in the use of mucor. We remember the memories of our ancient ancestors improperly using mucor and suffering grievous injuries or death. However, after recent conversations with Dobblar, I have come to wonder if perhaps we are being too conservative. After some research, I have come to find some ways in which mucor may be combined with various other materials.
@@ -59,7 +59,7 @@ VALUES (35112, 0, 'Kuurak', 'prewritten', 4294967295, 0, 'We Burun have in the p
 It began when Dobblar first mentioned the practice of salvaging raw materials from weapons and armor that fallen foes may carry. This is not a practice that the Burun have previously pursued, as the bone and stone that we primarily use is plentiful. Dobblar happened to have a small sample of granite, mahogany, and opal with him for me to examine and attempt to craft with. 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (35112, 1, 'Kuurak', 'prewritten', 4294967295, 0, 'As I examined it, I realized that I would be able to meld mucor that has been alchemically processed using an alembic into a full bag of one of those materials. The materials are able to deal with the magics of the mucor without disintegrating, as long as one is reasonably careful. At that point, the mucor and the material are irrevocably bound together. In addition, the salvaged material may no longer be used normally, nor may the mucor - the two meld to together.
@@ -67,7 +67,7 @@ VALUES (35112, 1, 'Kuurak', 'prewritten', 4294967295, 0, 'As I examined it, I re
 I believe that one may use normal magic item tinkering or weapon tinkering to combine these unique salvaged materials with the sorts of weapons that we Burun favor. Speak to Dobblar and purchase a basic Burun weapon, and then apply the mucor-altered salvaged material directly to the weapon. They should combine successfully. The following salvaged materials should work, if you are skilled enough:
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (35112, 2, 'Kuurak', 'prewritten', 4294967295, 0, 'Mucor-altered Granite:

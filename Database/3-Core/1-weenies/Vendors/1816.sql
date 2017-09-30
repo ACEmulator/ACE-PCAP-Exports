@@ -110,7 +110,7 @@ VALUES (1816, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1816, 64, 153) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1816, 74, 1074005895) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -126,37 +126,37 @@ VALUES (1816, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1816, 35, 4)
-     , (1816, 551, 4)
-     , (1816, 554, 4)
-     , (1816, 413, 4)
-     , (1816, 414, 4)
-     , (1816, 55, 4)
-     , (1816, 415, 4)
-     , (1816, 2605, 4)
-     , (1816, 108, 4)
-     , (1816, 80, 4)
-     , (1816, 416, 4)
-     , (1816, 85, 4)
-     , (1816, 46, 4)
-     , (1816, 116, 4)
-     , (1816, 38, 4)
-     , (1816, 42, 4)
-     , (1816, 723, 4)
-     , (1816, 59, 4)
-     , (1816, 63, 4)
-     , (1816, 68, 4)
-     , (1816, 112, 4)
-     , (1816, 84, 4)
-     , (1816, 89, 4)
-     , (1816, 93, 4)
-     , (1816, 2621, 4)
-     , (1816, 2622, 4)
-     , (1816, 2623, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1816, 4, 35)
+     , (1816, 4, 551)
+     , (1816, 4, 554)
+     , (1816, 4, 413)
+     , (1816, 4, 414)
+     , (1816, 4, 55)
+     , (1816, 4, 415)
+     , (1816, 4, 2605)
+     , (1816, 4, 108)
+     , (1816, 4, 80)
+     , (1816, 4, 416)
+     , (1816, 4, 85)
+     , (1816, 4, 46)
+     , (1816, 4, 116)
+     , (1816, 4, 38)
+     , (1816, 4, 42)
+     , (1816, 4, 723)
+     , (1816, 4, 59)
+     , (1816, 4, 63)
+     , (1816, 4, 68)
+     , (1816, 4, 112)
+     , (1816, 4, 84)
+     , (1816, 4, 89)
+     , (1816, 4, 93)
+     , (1816, 4, 2621)
+     , (1816, 4, 2622)
+     , (1816, 4, 2623);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1816, 313, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1816, 2, 313);
 

@@ -84,7 +84,7 @@ VALUES (1379, 2, 16777293)
      , (1379, 4, 16777291)
      , (1379, 8, 16777298);
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1379, 74, 262401) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -100,36 +100,36 @@ VALUES (1379, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1379, 4586, 4)
-     , (1379, 4585, 4)
-     , (1379, 5339, 4)
-     , (1379, 2621, 4)
-     , (1379, 2622, 4)
-     , (1379, 2623, 4)
-     , (1379, 334, 4)
-     , (1379, 311, 4)
-     , (1379, 300, 4)
-     , (1379, 305, 4)
-     , (1379, 3599, 4)
-     , (1379, 3603, 4)
-     , (1379, 3601, 4)
-     , (1379, 3605, 4)
-     , (1379, 3598, 4)
-     , (1379, 3602, 4)
-     , (1379, 9359, 4)
-     , (1379, 9363, 4)
-     , (1379, 9362, 4)
-     , (1379, 9361, 4)
-     , (1379, 9366, 4)
-     , (1379, 9377, 4)
-     , (1379, 9378, 4)
-     , (1379, 44074, 4)
-     , (1379, 44070, 4)
-     , (1379, 44071, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1379, 4, 4586)
+     , (1379, 4, 4585)
+     , (1379, 4, 5339)
+     , (1379, 4, 2621)
+     , (1379, 4, 2622)
+     , (1379, 4, 2623)
+     , (1379, 4, 334)
+     , (1379, 4, 311)
+     , (1379, 4, 300)
+     , (1379, 4, 305)
+     , (1379, 4, 3599)
+     , (1379, 4, 3603)
+     , (1379, 4, 3601)
+     , (1379, 4, 3605)
+     , (1379, 4, 3598)
+     , (1379, 4, 3602)
+     , (1379, 4, 9359)
+     , (1379, 4, 9363)
+     , (1379, 4, 9362)
+     , (1379, 4, 9361)
+     , (1379, 4, 9366)
+     , (1379, 4, 9377)
+     , (1379, 4, 9378)
+     , (1379, 4, 44074)
+     , (1379, 4, 44070)
+     , (1379, 4, 44071);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1379, 307, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1379, 2, 307);
 

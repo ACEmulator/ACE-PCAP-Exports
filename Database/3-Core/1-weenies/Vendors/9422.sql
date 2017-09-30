@@ -72,7 +72,7 @@ VALUES (9422, 2, 5) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9422, 64, 195) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9422, 74, 2056) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -88,14 +88,14 @@ VALUES (9422, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (9422, 9425, 4)
-     , (9422, 9426, 4)
-     , (9422, 9427, 4)
-     , (9422, 9428, 4)
-     , (9422, 9429, 4)
-     , (9422, 9430, 4)
-     , (9422, 9431, 4)
-     , (9422, 9432, 4)
-     , (9422, 9474, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9422, 4, 9425)
+     , (9422, 4, 9426)
+     , (9422, 4, 9427)
+     , (9422, 4, 9428)
+     , (9422, 4, 9429)
+     , (9422, 4, 9430)
+     , (9422, 4, 9431)
+     , (9422, 4, 9432)
+     , (9422, 4, 9474);
 

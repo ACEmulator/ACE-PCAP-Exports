@@ -42,14 +42,14 @@ VALUES (23883, 19, 125) /* VALUE_INT */
      , (23883, 174, 3) /* APPRAISAL_PAGES_INT */
      , (23883, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23883, 174, 3) /* APPRAISAL_PAGES_INT */
      , (23883, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
      , (23883, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (23883, 0, 'Ulgrim', 'prewritten', 4294967295, 0, '

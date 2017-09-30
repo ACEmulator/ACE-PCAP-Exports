@@ -33,14 +33,14 @@ VALUES (14445, 13, True) /* ETHEREAL_BOOL */
      , (14445, 14, True) /* GRAVITY_STATUS_BOOL */
      , (14445, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14445, 174, 1) /* APPRAISAL_PAGES_INT */
      , (14445, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (14445, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14445, 0, '', 'prewritten', 4294967295, 0, '(The creases in the parchment have obscured much of the writing, but some of it is still discernible.)

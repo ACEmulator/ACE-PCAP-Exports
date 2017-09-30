@@ -47,14 +47,14 @@ VALUES (6029, 19, 25) /* VALUE_INT */
      , (6029, 174, 2) /* APPRAISAL_PAGES_INT */
      , (6029, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6029, 174, 2) /* APPRAISAL_PAGES_INT */
      , (6029, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (6029, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6029, 0, 'Hamud ibn Rafik', 'prewritten', 4294967295, 0, '

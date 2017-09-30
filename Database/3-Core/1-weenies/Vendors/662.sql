@@ -107,7 +107,7 @@ VALUES (662, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (662, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (662, 74, 151257345) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -123,48 +123,48 @@ VALUES (662, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (662, 307, 4)
-     , (662, 300, 4)
-     , (662, 312, 4)
-     , (662, 305, 4)
-     , (662, 12463, 4)
-     , (662, 12464, 4)
-     , (662, 15296, 4)
-     , (662, 15298, 4)
-     , (662, 4586, 4)
-     , (662, 4585, 4)
-     , (662, 5339, 4)
-     , (662, 5344, 4)
-     , (662, 5345, 4)
-     , (662, 9378, 4)
-     , (662, 9377, 4)
-     , (662, 9359, 4)
-     , (662, 9362, 4)
-     , (662, 9363, 4)
-     , (662, 23858, 4)
-     , (662, 23857, 4)
-     , (662, 2621, 4)
-     , (662, 2622, 4)
-     , (662, 2623, 4)
-     , (662, 304, 4)
-     , (662, 3758, 4)
-     , (662, 3759, 4)
-     , (662, 3760, 4)
-     , (662, 3761, 4)
-     , (662, 310, 4)
-     , (662, 320, 4)
-     , (662, 316, 4)
-     , (662, 3786, 4)
-     , (662, 3787, 4)
-     , (662, 3788, 4)
-     , (662, 3789, 4)
-     , (662, 44074, 4)
-     , (662, 44070, 4)
-     , (662, 44071, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (662, 4, 307)
+     , (662, 4, 300)
+     , (662, 4, 312)
+     , (662, 4, 305)
+     , (662, 4, 12463)
+     , (662, 4, 12464)
+     , (662, 4, 15296)
+     , (662, 4, 15298)
+     , (662, 4, 4586)
+     , (662, 4, 4585)
+     , (662, 4, 5339)
+     , (662, 4, 5344)
+     , (662, 4, 5345)
+     , (662, 4, 9378)
+     , (662, 4, 9377)
+     , (662, 4, 9359)
+     , (662, 4, 9362)
+     , (662, 4, 9363)
+     , (662, 4, 23858)
+     , (662, 4, 23857)
+     , (662, 4, 2621)
+     , (662, 4, 2622)
+     , (662, 4, 2623)
+     , (662, 4, 304)
+     , (662, 4, 3758)
+     , (662, 4, 3759)
+     , (662, 4, 3760)
+     , (662, 4, 3761)
+     , (662, 4, 310)
+     , (662, 4, 320)
+     , (662, 4, 316)
+     , (662, 4, 3786)
+     , (662, 4, 3787)
+     , (662, 4, 3788)
+     , (662, 4, 3789)
+     , (662, 4, 44074)
+     , (662, 4, 44070)
+     , (662, 4, 44071);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (662, 306, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (662, 2, 306);
 

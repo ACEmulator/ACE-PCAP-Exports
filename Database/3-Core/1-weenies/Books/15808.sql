@@ -45,14 +45,14 @@ VALUES (15808, 19, 10) /* VALUE_INT */
      , (15808, 174, 1) /* APPRAISAL_PAGES_INT */
      , (15808, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (15808, 174, 1) /* APPRAISAL_PAGES_INT */
      , (15808, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (15808, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (15808, 0, 'Glysander Cartoth', 'prewritten', 4294967295, 0, '

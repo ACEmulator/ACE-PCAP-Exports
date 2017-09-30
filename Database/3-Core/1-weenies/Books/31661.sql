@@ -50,14 +50,14 @@ VALUES (31661, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31661, 69, 0) /* IS_SELLABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31661, 174, 1) /* APPRAISAL_PAGES_INT */
      , (31661, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (31661, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (31661, 0, 'Agents of the Arcanum', 'prewritten', 4294967295, 0, 'Let it be known that there is a critical shortage of Niffis Pearls. The Agents of the Arcanum will now pay double the normal reward for Niffis Pearls.

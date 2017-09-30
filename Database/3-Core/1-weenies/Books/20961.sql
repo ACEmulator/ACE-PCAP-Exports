@@ -44,14 +44,14 @@ VALUES (20961, 19, 0) /* VALUE_INT */
      , (20961, 174, 1) /* APPRAISAL_PAGES_INT */
      , (20961, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20961, 174, 1) /* APPRAISAL_PAGES_INT */
      , (20961, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (20961, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (20961, 0, 'Josef', 'prewritten', 4294967295, 0, 'Here is a list of things that I think Martine might like. You help me out, I help you. It''s simple really.

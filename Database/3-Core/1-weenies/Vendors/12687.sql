@@ -115,7 +115,7 @@ VALUES (12687, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (12687, 128, 165) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (12687, 256, 135) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (12687, 74, 263296) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -131,10 +131,10 @@ VALUES (12687, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (12687, 11933, 4)
-     , (12687, 11932, 4)
-     , (12687, 11970, 4)
-     , (12687, 25284, 4)
-     , (12687, 25761, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12687, 4, 11933)
+     , (12687, 4, 11932)
+     , (12687, 4, 11970)
+     , (12687, 4, 25284)
+     , (12687, 4, 25761);
 

@@ -34,14 +34,14 @@ VALUES (32847, 13, True) /* ETHEREAL_BOOL */
      , (32847, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32847, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32847, 174, 10) /* APPRAISAL_PAGES_INT */
      , (32847, 175, 10) /* APPRAISAL_MAX_PAGES_INT */
      , (32847, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (32847, 0, 'Lord Marsan', 'prewritten', 4294967295, 0, 'With the help of some splendid warriors, we have managed to break through the Viamontian lines. Now, we take the fight to Teth! I am certain that this will be a quick campaign. In fact, it reminds me of a story...but perhaps I shall work on my memoirs later. For now, we shall make camp and scout the area.

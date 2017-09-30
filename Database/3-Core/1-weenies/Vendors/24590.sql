@@ -73,7 +73,7 @@ VALUES (24590, 2, 5) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24590, 64, 226) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24590, 74, 262176) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -89,31 +89,31 @@ VALUES (24590, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (24590, 4746, 4)
-     , (24590, 2453, 4)
-     , (24590, 2462, 4)
-     , (24590, 2469, 4)
-     , (24590, 2471, 4)
-     , (24590, 8378, 4)
-     , (24590, 4731, 4)
-     , (24590, 4737, 4)
-     , (24590, 4739, 4)
-     , (24590, 4740, 4)
-     , (24590, 5583, 4)
-     , (24590, 5856, 4)
-     , (24590, 7884, 4)
-     , (24590, 14797, 4)
-     , (24590, 5586, 4)
-     , (24590, 24855, 4)
-     , (24590, 5587, 4)
-     , (24590, 25984, 4)
-     , (24590, 25983, 4)
-     , (24590, 28242, 4)
-     , (24590, 30742, 4)
-     , (24590, 30743, 4)
-     , (24590, 30761, 4)
-     , (24590, 31311, 4)
-     , (24590, 31384, 4)
-     , (24590, 31982, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24590, 4, 4746)
+     , (24590, 4, 2453)
+     , (24590, 4, 2462)
+     , (24590, 4, 2469)
+     , (24590, 4, 2471)
+     , (24590, 4, 8378)
+     , (24590, 4, 4731)
+     , (24590, 4, 4737)
+     , (24590, 4, 4739)
+     , (24590, 4, 4740)
+     , (24590, 4, 5583)
+     , (24590, 4, 5856)
+     , (24590, 4, 7884)
+     , (24590, 4, 14797)
+     , (24590, 4, 5586)
+     , (24590, 4, 24855)
+     , (24590, 4, 5587)
+     , (24590, 4, 25984)
+     , (24590, 4, 25983)
+     , (24590, 4, 28242)
+     , (24590, 4, 30742)
+     , (24590, 4, 30743)
+     , (24590, 4, 30761)
+     , (24590, 4, 31311)
+     , (24590, 4, 31384)
+     , (24590, 4, 31982);
 

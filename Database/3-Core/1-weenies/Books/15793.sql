@@ -45,14 +45,14 @@ VALUES (15793, 114, 1) /* ATTUNED_INT */
      , (15793, 174, 1) /* APPRAISAL_PAGES_INT */
      , (15793, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (15793, 174, 1) /* APPRAISAL_PAGES_INT */
      , (15793, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (15793, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (15793, 0, 'Nuhmudira', 'prewritten', 4294967295, 0, 'Silence. You are judged unworthy of the gift of undeath and by order of the Gelid shall be disposed. Your tampering with the Blood of the World will...

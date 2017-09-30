@@ -42,14 +42,14 @@ VALUES (8504, 19, 90) /* VALUE_INT */
      , (8504, 174, 2) /* APPRAISAL_PAGES_INT */
      , (8504, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8504, 174, 2) /* APPRAISAL_PAGES_INT */
      , (8504, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (8504, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (8504, 0, 'Lady Adja', 'prewritten', 4294967295, 0, '
@@ -58,7 +58,7 @@ Gentle sister, my decisions have never been what I would, but what must be.
 I have touched the silvered shades of what lies yet unseen in search of guidance. I have found that your child has a great destiny he must yet fulfill. It will not wear easily on him. Nor, I fear, shall it pass lightly on our long-suffering world, or for a generation of children born far beyond the fields we know. All shall be broken before it is accomplished. Yet this is what must be. Light moves in fashions we cannot fathom. We can simply trust.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (8504, 1, 'Lady Adja', 'prewritten', 4294967295, 0, '

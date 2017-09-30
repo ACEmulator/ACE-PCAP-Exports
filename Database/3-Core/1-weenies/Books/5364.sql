@@ -34,14 +34,14 @@ VALUES (5364, 13, True) /* ETHEREAL_BOOL */
      , (5364, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5364, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5364, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5364, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (5364, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5364, 0, 'Unknown author, translated by Akyafi ibn Sumwar', 'prewritten', 4294967295, 0, '

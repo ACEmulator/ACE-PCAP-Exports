@@ -109,7 +109,7 @@ VALUES (8227, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8227, 64, 48) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8227, 74, 134480129) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -125,33 +125,33 @@ VALUES (8227, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (8227, 2621, 4)
-     , (8227, 2622, 4)
-     , (8227, 2623, 4)
-     , (8227, 4586, 4)
-     , (8227, 4585, 4)
-     , (8227, 5339, 4)
-     , (8227, 5344, 4)
-     , (8227, 5345, 4)
-     , (8227, 9378, 4)
-     , (8227, 9377, 4)
-     , (8227, 9359, 4)
-     , (8227, 9362, 4)
-     , (8227, 9363, 4)
-     , (8227, 23858, 4)
-     , (8227, 23857, 4)
-     , (8227, 12463, 4)
-     , (8227, 12464, 4)
-     , (8227, 15296, 4)
-     , (8227, 15298, 4)
-     , (8227, 3603, 4)
-     , (8227, 3599, 4)
-     , (8227, 305, 4)
-     , (8227, 300, 4)
-     , (8227, 311, 4)
-     , (8227, 334, 4)
-     , (8227, 44074, 4)
-     , (8227, 44070, 4)
-     , (8227, 44071, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8227, 4, 2621)
+     , (8227, 4, 2622)
+     , (8227, 4, 2623)
+     , (8227, 4, 4586)
+     , (8227, 4, 4585)
+     , (8227, 4, 5339)
+     , (8227, 4, 5344)
+     , (8227, 4, 5345)
+     , (8227, 4, 9378)
+     , (8227, 4, 9377)
+     , (8227, 4, 9359)
+     , (8227, 4, 9362)
+     , (8227, 4, 9363)
+     , (8227, 4, 23858)
+     , (8227, 4, 23857)
+     , (8227, 4, 12463)
+     , (8227, 4, 12464)
+     , (8227, 4, 15296)
+     , (8227, 4, 15298)
+     , (8227, 4, 3603)
+     , (8227, 4, 3599)
+     , (8227, 4, 305)
+     , (8227, 4, 300)
+     , (8227, 4, 311)
+     , (8227, 4, 334)
+     , (8227, 4, 44074)
+     , (8227, 4, 44070)
+     , (8227, 4, 44071);
 

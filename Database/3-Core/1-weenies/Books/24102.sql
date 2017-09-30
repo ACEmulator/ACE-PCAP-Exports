@@ -33,14 +33,14 @@ VALUES (24102, 13, True) /* ETHEREAL_BOOL */
      , (24102, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24102, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24102, 174, 2) /* APPRAISAL_PAGES_INT */
      , (24102, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (24102, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (24102, 0, 'Aerbax', 'prewritten', 4294967295, 0, '
@@ -51,7 +51,7 @@ It has come to my attention that the Quiddity means to eliminate us before we ca
 You must prove to be the bulwark that cannot be breeched. Our efforts and research cannot become the providence of incognizant thinkers before they have had the opportunity for enlightenment. Use whatever means necessary to thwart their advancement.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (24102, 1, 'Aerbax', 'prewritten', 4294967295, 0, 'I consign the holding to your calculating mind and entrust you with safeguarding the efforts we have seen to fruition. Spare no resource in actualizing your bastion. Dominion must be overpowered so that our pure intents may come to be.

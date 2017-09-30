@@ -45,14 +45,14 @@ VALUES (35043, 19, 5) /* VALUE_INT */
      , (35043, 174, 2) /* APPRAISAL_PAGES_INT */
      , (35043, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35043, 174, 2) /* APPRAISAL_PAGES_INT */
      , (35043, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (35043, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (35043, 0, 'Halls of Metos', 'prewritten', 4294967295, 0, 'Have you heard of the Halls of Metos?  Metos was apparently an Empyrean, and a contemporary of Asheron.  Many adventurers have found their way there over the years, but it seems like the halls are more active lately.  New portals have appeared north of the Inner Sea and east of Yanshi that lead to the more remote halls.  The halls themselves are located near Tufa, Wai Jhou, and Ayan Baqur.

@@ -46,14 +46,14 @@ VALUES (40879, 33, 1) /* BONDED_INT */
      , (40879, 174, 1) /* APPRAISAL_PAGES_INT */
      , (40879, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (40879, 174, 1) /* APPRAISAL_PAGES_INT */
      , (40879, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (40879, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (40879, 0, '-', 'prewritten', 4294967295, 0, '

@@ -46,14 +46,14 @@ VALUES (30396, 33, 1) /* BONDED_INT */
      , (30396, 174, 4) /* APPRAISAL_PAGES_INT */
      , (30396, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30396, 174, 4) /* APPRAISAL_PAGES_INT */
      , (30396, 175, 4) /* APPRAISAL_MAX_PAGES_INT */
      , (30396, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (30396, 0, 'Weijin Shou', 'prewritten', 4294967295, 0, 'Reijiri, my dear. I do not know where to start. The months since you left have been the most difficult since my arrival on Dereth. When you first came into my life, I did not understand how close we would grow to one another. There were many who claimed that it would never work. Man and Niffis were not meant to share such a love, they said. It would only end in tragedy, they said.

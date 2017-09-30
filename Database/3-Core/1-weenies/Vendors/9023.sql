@@ -119,7 +119,7 @@ VALUES (9023, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9023, 64, 270) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9023, 74, 1845296063) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -135,46 +135,46 @@ VALUES (9023, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (9023, 306, 4)
-     , (9023, 300, 4)
-     , (9023, 311, 4)
-     , (9023, 305, 4)
-     , (9023, 3599, 4)
-     , (9023, 3603, 4)
-     , (9023, 3601, 4)
-     , (9023, 3605, 4)
-     , (9023, 3598, 4)
-     , (9023, 3602, 4)
-     , (9023, 4586, 4)
-     , (9023, 4585, 4)
-     , (9023, 5339, 4)
-     , (9023, 9359, 4)
-     , (9023, 9363, 4)
-     , (9023, 9362, 4)
-     , (9023, 9361, 4)
-     , (9023, 9366, 4)
-     , (9023, 9377, 4)
-     , (9023, 9378, 4)
-     , (9023, 23858, 4)
-     , (9023, 23857, 4)
-     , (9023, 2621, 4)
-     , (9023, 2622, 4)
-     , (9023, 2623, 4)
-     , (9023, 2624, 4)
-     , (9023, 2625, 4)
-     , (9023, 2626, 4)
-     , (9023, 2627, 4)
-     , (9023, 20628, 4)
-     , (9023, 20629, 4)
-     , (9023, 20630, 4)
-     , (9023, 9080, 4)
-     , (9023, 44074, 4)
-     , (9023, 44070, 4)
-     , (9023, 44071, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9023, 4, 306)
+     , (9023, 4, 300)
+     , (9023, 4, 311)
+     , (9023, 4, 305)
+     , (9023, 4, 3599)
+     , (9023, 4, 3603)
+     , (9023, 4, 3601)
+     , (9023, 4, 3605)
+     , (9023, 4, 3598)
+     , (9023, 4, 3602)
+     , (9023, 4, 4586)
+     , (9023, 4, 4585)
+     , (9023, 4, 5339)
+     , (9023, 4, 9359)
+     , (9023, 4, 9363)
+     , (9023, 4, 9362)
+     , (9023, 4, 9361)
+     , (9023, 4, 9366)
+     , (9023, 4, 9377)
+     , (9023, 4, 9378)
+     , (9023, 4, 23858)
+     , (9023, 4, 23857)
+     , (9023, 4, 2621)
+     , (9023, 4, 2622)
+     , (9023, 4, 2623)
+     , (9023, 4, 2624)
+     , (9023, 4, 2625)
+     , (9023, 4, 2626)
+     , (9023, 4, 2627)
+     , (9023, 4, 20628)
+     , (9023, 4, 20629)
+     , (9023, 4, 20630)
+     , (9023, 4, 9080)
+     , (9023, 4, 44074)
+     , (9023, 4, 44070)
+     , (9023, 4, 44071);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (9023, 6966, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9023, 2, 6966);
 

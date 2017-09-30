@@ -46,14 +46,14 @@ VALUES (8187, 19, 90) /* VALUE_INT */
      , (8187, 174, 3) /* APPRAISAL_PAGES_INT */
      , (8187, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8187, 174, 3) /* APPRAISAL_PAGES_INT */
      , (8187, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
      , (8187, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (8187, 0, '', 'prewritten', 4294967295, 0, 'It is I, Alatar Locke, writing as I listen to  the comfortingly mysterious sounds of what I call the Lost Chamber of the Floating City.

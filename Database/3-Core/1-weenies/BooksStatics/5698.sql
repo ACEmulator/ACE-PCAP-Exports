@@ -41,14 +41,14 @@ VALUES (5698, 19, 10) /* VALUE_INT */
      , (5698, 174, 4) /* APPRAISAL_PAGES_INT */
      , (5698, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5698, 174, 4) /* APPRAISAL_PAGES_INT */
      , (5698, 175, 4) /* APPRAISAL_MAX_PAGES_INT */
      , (5698, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5698, 0, 'Writings of Jhong Mi', 'prewritten', 4294967295, 0, 'Listen to the sound of the falling leaves
@@ -68,7 +68,7 @@ And we will find rest at last.
 Listen to the sound of falling leaves.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5698, 1, 'Writings of Jhong Mi', 'prewritten', 4294967295, 0, 'If the mad spinning of the dust devils
@@ -86,7 +86,7 @@ Why act as the dust devil,
 Spinning so madly in place?
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5698, 2, 'Writings of Jhong Mi', 'prewritten', 4294967295, 0, 'The fools look upon the world and see only pleasure
@@ -96,7 +96,7 @@ The lost look upon the world and see only pain
 The wise look upon the world and see their work cut out for them.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5698, 3, 'Writings of Jhong Mi', 'prewritten', 4294967295, 0, 'The hasty rushing to and fro to fight, pry, claim, and steal

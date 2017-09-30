@@ -45,21 +45,21 @@ VALUES (6049, 19, 10) /* VALUE_INT */
      , (6049, 174, 20) /* APPRAISAL_PAGES_INT */
      , (6049, 175, 20) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6049, 174, 20) /* APPRAISAL_PAGES_INT */
      , (6049, 175, 20) /* APPRAISAL_MAX_PAGES_INT */
      , (6049, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 0, 'Tremblant Party Journals', 'prewritten', 4294967295, 0, '
 Here lie the mortal remains of Sir Joffre Tremblant, Knight of the Golden Flame, and his companions Yarick Pathwarden, Palomar Ben-Cabalah, Ion Lundgren, Fidisa the Agile, and Luma Homini. They were the first to discover the Lost City below, and the first Isparians to fall to the Gelidites. Here they lie for all time. May the Three Mothers watch over them. Blessed be.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 1, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, '
@@ -78,7 +78,7 @@ as recorded by
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 2, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, '
@@ -88,7 +88,7 @@ We have finally encountered the ice caves in which the city of Frore is rumored 
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 3, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, '
@@ -100,7 +100,7 @@ We have wandered the tunnels for more than a day and found little but frozen was
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 4, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, ' 
@@ -110,7 +110,7 @@ The tunnels are a confusing series of interconnected switchbacks even my enhance
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 5, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, '
@@ -122,7 +122,7 @@ We have happened upon a construction that can only have been made by the hands o
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 6, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, ' 
@@ -132,7 +132,7 @@ They came for us, swarms of them, while we were in camp.  It was as if they were
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 7, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, ' 
@@ -144,7 +144,7 @@ The dead continue to besiege us.  Sir Joffre, in his valor, has been injured but
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 8, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, '
@@ -152,7 +152,7 @@ dwindling.  I don''t know how much longer he can maintain our protection from th
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 9, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, '
@@ -162,7 +162,7 @@ What a wonder to behold!  We have made our way to what can only be the object of
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 10, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, '-ew ruined structures that lie here we have discovered a locked gate - what lies beyond can only be what we have been searching for!  There is another arrangement of stones here, which seems to radiate a powerful energy.
@@ -171,7 +171,7 @@ Palomar warns us of the peril that may lie beyond, but we are all in agreement t
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 11, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, ' 
@@ -181,7 +181,7 @@ Oh what horrible fate has found us here!  We were startled by a roar from a pack
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 12, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, '
@@ -191,7 +191,7 @@ But lo, that is not the worst of terrors in this forsaken place!  We fled toward
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 13, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, '
@@ -199,7 +199,7 @@ With one swing of Fenngar''s mighty warhammer, our leader Sir Joffre was smashed
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 14, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, '
@@ -207,7 +207,7 @@ Ion and I beat as hasty a retreat as we could, our numbing legs carrying us back
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 15, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, ' 
@@ -217,7 +217,7 @@ There is not much time for writing, as we must keep moving to stay warm. The dea
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 16, 'Yarick Pathwarden', 'prewritten', 4294967295, 0, ' 
@@ -227,7 +227,7 @@ Cannot find the egress.  Best guesses as to its whereabouts all wrong.  Accursed
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 17, 'Ion Lundgren', 'prewritten', 4294967295, 0, '
@@ -237,7 +237,7 @@ It has been three days since we fled the forsaken gates of Frore - may it remain
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 18, 'Ion Lundgren', 'prewritten', 4294967295, 0, '
@@ -249,7 +249,7 @@ By some black miracle, I found our point of entry.  The rope we used to climb do
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6049, 19, 'Ion Lundgren', 'prewritten', 4294967295, 0, 'It is a cruel, maddening fate to be trapped in these caves, endlessly fleeing the fearsome denizens within; a crueler fate still knowing that I when I breathe my last here, I shall not return to the sunny common of Arwic, the lifestone I visited weeks ago. None shall learn our tale without being plunged themselves into the nightmare. What I saw yestereve...

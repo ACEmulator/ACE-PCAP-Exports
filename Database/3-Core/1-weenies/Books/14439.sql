@@ -33,14 +33,14 @@ VALUES (14439, 13, True) /* ETHEREAL_BOOL */
      , (14439, 14, True) /* GRAVITY_STATUS_BOOL */
      , (14439, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14439, 174, 2) /* APPRAISAL_PAGES_INT */
      , (14439, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (14439, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14439, 0, 'Sir Rylanan', 'prewritten', 4294967295, 0, 'Sir Tenshin,
@@ -48,7 +48,7 @@ VALUES (14439, 0, 'Sir Rylanan', 'prewritten', 4294967295, 0, 'Sir Tenshin,
 The bearer of this message has done me a great service in Holtburg. I have recently been keeping surveillance on one of the newer citizens of this town - a "reformed" bandit from Marae Lassel claiming to have turned over a new leaf. It appears that this stranger is not as he claimed. A note found in his possession implied that he was employed to transport a cargo of some sort of substance being collected in the depths of Asuger Temple.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14439, 1, 'Sir Rylanan', 'prewritten', 4294967295, 0, 'The adventurer you see before you penetrated the depths of the temple and found a band of Hollow Minions laboring over a strange device, collecting what looks to be concentrated portal space energy inside emulsified spherules of glass. I cannot fathom the purpose of these spherules--thinking better of performing my own analysis, I have sent the object to the Arcanum for examination. It would be best to get to the heart of this matter without delay.

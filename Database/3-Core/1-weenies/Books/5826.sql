@@ -34,14 +34,14 @@ VALUES (5826, 13, True) /* ETHEREAL_BOOL */
      , (5826, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5826, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5826, 174, 3) /* APPRAISAL_PAGES_INT */
      , (5826, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
      , (5826, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5826, 0, 'Council of Five', 'prewritten', 4294967295, 0, '
@@ -51,7 +51,7 @@ He is Bael''Zharon, the Hopeslayer and he has come with the darkness. As you all
 (more)
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5826, 1, '', 'prewritten', 4294967295, 0, '
@@ -60,7 +60,7 @@ Despite our losses however, Lord Asheron thinks the enemy to be very easy to def
 (more)
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5826, 2, '', 'prewritten', 4294967295, 0, 'The first is that to make use of this crystal, we will have to expend such a great deal of our energy that it is almost certain that we will all be killed in the process. The second issue we shall face is that Bael''Zharon must take hold of the crystal for it to be able to trap him. 

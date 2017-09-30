@@ -42,14 +42,14 @@ VALUES (23112, 19, 90) /* VALUE_INT */
      , (23112, 174, 5) /* APPRAISAL_PAGES_INT */
      , (23112, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23112, 174, 5) /* APPRAISAL_PAGES_INT */
      , (23112, 175, 5) /* APPRAISAL_MAX_PAGES_INT */
      , (23112, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (23112, 0, 'Aerbax', 'prewritten', 4294967295, 0, 'Time has continued its incessant clamor toward the future while my attentions have been with my latest meat creations and has allowed for our greatest achievement to combust. I have often witnessed my creations spend time stripping away detritus in an effort to expunge the alterations made to their material but never in such a magnanimous fashion.
@@ -57,7 +57,7 @@ VALUES (23112, 0, 'Aerbax', 'prewritten', 4294967295, 0, 'Time has continued its
 Betrayed, ostracized and disparaged, forced to live in hovels excavated from the decayed fossils of epidermal fauna he dwelled with a collective he commanded as
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (23112, 1, 'Aerbax', 'prewritten', 4294967295, 0, 'his own. He flourished and rose to an elite prominence that cast the achievements of any of our previous enhancements into a deep shadow, only to crumble because too much of his "soul" remained to cloud his awareness and enlightenment with feelings other than self-awareness. So near perfection yet still so repressed.
@@ -67,7 +67,7 @@ My ability to communicate with the entity that was once "Martine" has ended, cor
 While this poses a new hypothesis of
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (23112, 2, 'Aerbax', 'prewritten', 4294967295, 0, 'our ministrations and augmentations toward perfect thought within lesser "material" forms, it should serve as a warning as well.
@@ -75,7 +75,7 @@ VALUES (23112, 2, 'Aerbax', 'prewritten', 4294967295, 0, 'our ministrations and 
 The destructive force that was held within that one entity bordered nearly to the energy source which resides at the center of this physical world. Without proper containment and instruction the energy released upon his moment of ceasing could have laid waste to the abundant resources that can be found here. Care must be taken to not alter the more headstrong and gifted of the meatlings.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (23112, 3, 'Aerbax', 'prewritten', 4294967295, 0, 'They have proven to be more than capable of rejecting our education  while retaining the beneficial aspects of our enrichment. This resulted in madness and contributed to delusions which became "real" to the subject.

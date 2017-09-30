@@ -46,14 +46,14 @@ VALUES (15791, 114, 1) /* ATTUNED_INT */
      , (15791, 174, 1) /* APPRAISAL_PAGES_INT */
      , (15791, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (15791, 174, 1) /* APPRAISAL_PAGES_INT */
      , (15791, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (15791, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (15791, 0, 'Nuhmudira', 'prewritten', 4294967295, 0, 'They carried the incense to the ritual...

@@ -41,14 +41,14 @@ VALUES (5102, 19, 125) /* VALUE_INT */
      , (5102, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5102, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5102, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5102, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (5102, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5102, 0, 'Training Master', 'prewritten', 4294967295, 0, '

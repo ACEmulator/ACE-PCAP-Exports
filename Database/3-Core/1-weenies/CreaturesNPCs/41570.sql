@@ -114,7 +114,7 @@ VALUES (41570, 16, 16795675)
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (41570, 32698, 2)
-     , (41570, 351, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41570, 2, 32698)
+     , (41570, 2, 351);
 

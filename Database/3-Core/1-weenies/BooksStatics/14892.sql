@@ -43,14 +43,14 @@ VALUES (14892, 19, 1) /* VALUE_INT */
      , (14892, 174, 1) /* APPRAISAL_PAGES_INT */
      , (14892, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14892, 174, 1) /* APPRAISAL_PAGES_INT */
      , (14892, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (14892, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14892, 0, 'Unknown', 'prewritten', 4294967295, 0, 'Don''t Panic

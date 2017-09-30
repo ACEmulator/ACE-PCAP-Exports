@@ -42,14 +42,14 @@ VALUES (23124, 19, 90) /* VALUE_INT */
      , (23124, 174, 1) /* APPRAISAL_PAGES_INT */
      , (23124, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23124, 174, 1) /* APPRAISAL_PAGES_INT */
      , (23124, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (23124, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (23124, 0, 'Aerbax', 'prewritten', 4294967295, 0, '"Children of Darkness" who were captured as we claimed this Asylum have been sequestered for testing. I had originally thought to expose these beings to the energy source but thought differently of the situation.

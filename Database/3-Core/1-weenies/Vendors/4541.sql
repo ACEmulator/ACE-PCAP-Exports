@@ -109,7 +109,7 @@ VALUES (4541, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4541, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (4541, 74, 278560) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -125,33 +125,33 @@ VALUES (4541, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (4541, 2451, 4)
-     , (4541, 2463, 4)
-     , (4541, 2468, 4)
-     , (4541, 2456, 4)
-     , (4541, 4746, 4)
-     , (4541, 8378, 4)
-     , (4541, 4738, 4)
-     , (4541, 4711, 4)
-     , (4541, 4733, 4)
-     , (4541, 513, 4)
-     , (4541, 545, 4)
-     , (4541, 512, 4)
-     , (4541, 5601, 4)
-     , (4541, 5602, 4)
-     , (4541, 6419, 4)
-     , (4541, 5657, 4)
-     , (4541, 28242, 4)
-     , (4541, 11929, 4)
-     , (4541, 24223, 4)
-     , (4541, 24222, 4)
-     , (4541, 27991, 4)
-     , (4541, 27992, 4)
-     , (4541, 27993, 4)
-     , (4541, 27994, 4)
-     , (4541, 27995, 4)
-     , (4541, 27996, 4)
-     , (4541, 27997, 4)
-     , (4541, 27998, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4541, 4, 2451)
+     , (4541, 4, 2463)
+     , (4541, 4, 2468)
+     , (4541, 4, 2456)
+     , (4541, 4, 4746)
+     , (4541, 4, 8378)
+     , (4541, 4, 4738)
+     , (4541, 4, 4711)
+     , (4541, 4, 4733)
+     , (4541, 4, 513)
+     , (4541, 4, 545)
+     , (4541, 4, 512)
+     , (4541, 4, 5601)
+     , (4541, 4, 5602)
+     , (4541, 4, 6419)
+     , (4541, 4, 5657)
+     , (4541, 4, 28242)
+     , (4541, 4, 11929)
+     , (4541, 4, 24223)
+     , (4541, 4, 24222)
+     , (4541, 4, 27991)
+     , (4541, 4, 27992)
+     , (4541, 4, 27993)
+     , (4541, 4, 27994)
+     , (4541, 4, 27995)
+     , (4541, 4, 27996)
+     , (4541, 4, 27997)
+     , (4541, 4, 27998);
 

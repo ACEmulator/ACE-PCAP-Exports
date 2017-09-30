@@ -33,14 +33,14 @@ VALUES (8814, 13, True) /* ETHEREAL_BOOL */
      , (8814, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8814, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8814, 174, 9) /* APPRAISAL_PAGES_INT */
      , (8814, 175, 9) /* APPRAISAL_MAX_PAGES_INT */
      , (8814, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (8814, 0, '', 'prewritten', 4294967295, 0, 'I am pleased to say that the defeat of Bael''Zharon has been accomplished.

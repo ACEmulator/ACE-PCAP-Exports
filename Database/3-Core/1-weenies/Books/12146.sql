@@ -46,14 +46,14 @@ VALUES (12146, 19, 20) /* VALUE_INT */
      , (12146, 174, 3) /* APPRAISAL_PAGES_INT */
      , (12146, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (12146, 174, 3) /* APPRAISAL_PAGES_INT */
      , (12146, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
      , (12146, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (12146, 0, 'Ardry the Dubious', 'prewritten', 4294967295, 0, 'I have to hand it to the Virindi. They''re learning. I''ve stumbled upon a new set of Virindi installations, where they seem to be crafting servant creatures that look much more convincingly human. Beware these insidious creatures. We''ve decided to name them "Simulacra." Some are pretty fair melee fighters, while the worst ones combine weapon skill with overpowering magical assaults.

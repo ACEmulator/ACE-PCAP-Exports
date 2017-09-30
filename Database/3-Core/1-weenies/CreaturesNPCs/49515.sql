@@ -125,6 +125,6 @@ VALUES (49515, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (49515, 48991, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (49515, 2, 48991);
 

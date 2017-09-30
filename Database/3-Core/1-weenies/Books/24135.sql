@@ -47,14 +47,14 @@ VALUES (24135, 19, 20) /* VALUE_INT */
      , (24135, 174, 1) /* APPRAISAL_PAGES_INT */
      , (24135, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24135, 174, 1) /* APPRAISAL_PAGES_INT */
      , (24135, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (24135, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (24135, 0, '', 'prewritten', 4294967295, 0, '[You cannot understand the writing on this.]

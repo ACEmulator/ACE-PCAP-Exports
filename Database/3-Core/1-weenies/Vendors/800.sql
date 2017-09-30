@@ -107,7 +107,7 @@ VALUES (800, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (800, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (800, 74, 262272) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -123,31 +123,31 @@ VALUES (800, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (800, 2457, 4)
-     , (800, 377, 4)
-     , (800, 27319, 4)
-     , (800, 2460, 4)
-     , (800, 379, 4)
-     , (800, 27322, 4)
-     , (800, 378, 4)
-     , (800, 27326, 4)
-     , (800, 2470, 4)
-     , (800, 628, 4)
-     , (800, 629, 4)
-     , (800, 630, 4)
-     , (800, 4611, 4)
-     , (800, 4609, 4)
-     , (800, 4607, 4)
-     , (800, 4605, 4)
-     , (800, 4603, 4)
-     , (800, 4601, 4)
-     , (800, 4600, 4)
-     , (800, 4598, 4)
-     , (800, 4596, 4)
-     , (800, 4593, 4)
-     , (800, 4590, 4)
-     , (800, 4587, 4)
-     , (800, 2621, 4)
-     , (800, 2622, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (800, 4, 2457)
+     , (800, 4, 377)
+     , (800, 4, 27319)
+     , (800, 4, 2460)
+     , (800, 4, 379)
+     , (800, 4, 27322)
+     , (800, 4, 378)
+     , (800, 4, 27326)
+     , (800, 4, 2470)
+     , (800, 4, 628)
+     , (800, 4, 629)
+     , (800, 4, 630)
+     , (800, 4, 4611)
+     , (800, 4, 4609)
+     , (800, 4, 4607)
+     , (800, 4, 4605)
+     , (800, 4, 4603)
+     , (800, 4, 4601)
+     , (800, 4, 4600)
+     , (800, 4, 4598)
+     , (800, 4, 4596)
+     , (800, 4, 4593)
+     , (800, 4, 4590)
+     , (800, 4, 4587)
+     , (800, 4, 2621)
+     , (800, 4, 2622);
 

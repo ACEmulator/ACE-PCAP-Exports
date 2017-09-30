@@ -33,20 +33,20 @@ VALUES (37103, 13, True) /* ETHEREAL_BOOL */
      , (37103, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37103, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37103, 174, 2) /* APPRAISAL_PAGES_INT */
      , (37103, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (37103, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (37103, 0, 'Ulberan', 'prewritten', 4294967295, 0, 'To you I am entrusting the task of establishing a base in the comparatively wilder mountains of northern Osteth.  You are the most skilled geomancer I have currently available to me, and our patrons are very eager, in their own inscrutable and unemotional way, to have us establish facilities throughout the island and begin drawing and storing the power that runs across Dereth.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (37103, 1, 'Ulberan', 'prewritten', 4294967295, 0, 'I must only caution you to be discreet.  I, too, feel the heady and intoxicating surge of ancient, chaotic power that threatens to overflow the ley lines and nodes.  I know that the blood sorcerers and the various pawns of the Empyreans all are drawn to the re-awakened nodes and the power that spills forth from them.  Temper your own ambitions, lest you overstep yourself and expose yourself to risk.  The fool Nomendar al-Rakh has arrived in Sawato, asking after us and the medallions provided to us by our bacters.  Do not let your medallion fall into his hands!

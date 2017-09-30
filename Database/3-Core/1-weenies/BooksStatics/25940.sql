@@ -46,14 +46,14 @@ VALUES (25940, 19, 10) /* VALUE_INT */
      , (25940, 174, 2) /* APPRAISAL_PAGES_INT */
      , (25940, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25940, 174, 2) /* APPRAISAL_PAGES_INT */
      , (25940, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (25940, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25940, 0, 'Honshu Takeda', 'prewritten', 4294967295, 0, 'I am without the tongue to express the emptiness that has entered my being. I have lost sight of what it meant to live a right life. I have placed the need of physical goods over the breath that must fill my soul.
@@ -63,7 +63,7 @@ I feel like a husk of a man. I am in need of healing and a way back to a life of
 (more)
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25940, 1, 'Honshu Takeda', 'prewritten', 4294967295, 0, '

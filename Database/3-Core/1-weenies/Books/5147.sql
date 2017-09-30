@@ -45,14 +45,14 @@ VALUES (5147, 19, 35) /* VALUE_INT */
      , (5147, 174, 8) /* APPRAISAL_PAGES_INT */
      , (5147, 175, 8) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5147, 174, 8) /* APPRAISAL_PAGES_INT */
      , (5147, 175, 8) /* APPRAISAL_MAX_PAGES_INT */
      , (5147, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5147, 0, 'Fanzen San', 'prewritten', 4294967295, 0, '
@@ -62,7 +62,7 @@ In the 10th year of our exile, the world cooled, and snows swept across the face
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5147, 1, 'Fanzen San', 'prewritten', 4294967295, 0, '
@@ -72,7 +72,7 @@ Here Abrim of Morningthaw recounts the perils he and Kyoujin faced in the bowels
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5147, 2, 'Abrim of Morningthaw', 'prewritten', 4294967295, 0, '
@@ -80,7 +80,7 @@ I knew the end was near.  For good or bad, I had come to the end of my journey. 
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5147, 3, 'Abrim of Morningthaw', 'prewritten', 4294967295, 0, '
@@ -88,7 +88,7 @@ This was my not my first attempt to unravel the mysteries of this Lost City of F
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5147, 4, 'Abrim of Morningthaw', 'prewritten', 4294967295, 0, '
@@ -96,7 +96,7 @@ Return I did, this time accompanied by Kyoujin, an aspiring mage who also had so
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5147, 5, 'Abrim of Morningthaw', 'prewritten', 4294967295, 0, '
@@ -106,7 +106,7 @@ Now, as I stood before this doorway, the blistering heat from within was almost 
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5147, 6, 'Abrim of Morningthaw', 'prewritten', 4294967295, 0, '
@@ -116,7 +116,7 @@ A sound from within roused me from my thoughts. The Great Work, perhaps sensing 
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5147, 7, 'Abrim of Morningthaw', 'prewritten', 4294967295, 0, '

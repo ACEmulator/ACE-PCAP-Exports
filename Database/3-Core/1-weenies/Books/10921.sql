@@ -34,14 +34,14 @@ VALUES (10921, 13, True) /* ETHEREAL_BOOL */
      , (10921, 14, True) /* GRAVITY_STATUS_BOOL */
      , (10921, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (10921, 174, 6) /* APPRAISAL_PAGES_INT */
      , (10921, 175, 6) /* APPRAISAL_MAX_PAGES_INT */
      , (10921, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (10921, 0, 'Tekapuapuh', 'prewritten', 4294967295, 0, 'Hey! Thanks for going on this adventure-journey-quest-thing for me! I really appreciate it! Hey!
@@ -54,7 +54,7 @@ When you get there, get my special onga! It''s the only thing that makes Putiput
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (10921, 1, 'Tekapuapuh', 'prewritten', 4294967295, 0, 'I dropped a bunch of stuff while I was down there, but I''m sure you can find the Onga. It''s no problem!
@@ -64,25 +64,25 @@ Did I ever tell you how I found Putiputipuh? Maybe, if you come back with the On
 I knew it would!
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (10921, 2, 'Tekapuapuh', 'prewritten', 4294967295, 0, '
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (10921, 3, 'Tekapuapuh', 'prewritten', 4294967295, 0, '
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (10921, 4, 'Tekapuapuh', 'prewritten', 4294967295, 0, '
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (10921, 5, 'Tekapuapuh', 'prewritten', 4294967295, 0, 'Why are you still reading this! Find my Putiputipuh''s Onga! Finditfinditfinditfinditfindit!!! 

@@ -109,7 +109,7 @@ VALUES (2315, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2315, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (2315, 74, 1074005895) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -122,44 +122,44 @@ VALUES (2315, 37, 0.8) /* BUY_PRICE_FLOAT */
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (2315, 35, 4)
-     , (2315, 413, 4)
-     , (2315, 414, 4)
-     , (2315, 55, 4)
-     , (2315, 415, 4)
-     , (2315, 71, 4)
-     , (2315, 80, 4)
-     , (2315, 416, 4)
-     , (2315, 85, 4)
-     , (2315, 8489, 4)
-     , (2315, 8488, 4)
-     , (2315, 75, 4)
-     , (2315, 76, 4)
-     , (2315, 40, 4)
-     , (2315, 57, 4)
-     , (2315, 61, 4)
-     , (2315, 66, 4)
-     , (2315, 110, 4)
-     , (2315, 82, 4)
-     , (2315, 87, 4)
-     , (2315, 114, 4)
-     , (2315, 92, 4)
-     , (2315, 95, 4)
-     , (2315, 2621, 4)
-     , (2315, 2622, 4)
-     , (2315, 2623, 4)
-     , (2315, 2624, 4)
-     , (2315, 2625, 4)
-     , (2315, 2626, 4)
-     , (2315, 2627, 4)
-     , (2315, 20628, 4)
-     , (2315, 20629, 4)
-     , (2315, 20630, 4)
-     , (2315, 31808, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2315, 4, 35)
+     , (2315, 4, 413)
+     , (2315, 4, 414)
+     , (2315, 4, 55)
+     , (2315, 4, 415)
+     , (2315, 4, 71)
+     , (2315, 4, 80)
+     , (2315, 4, 416)
+     , (2315, 4, 85)
+     , (2315, 4, 8489)
+     , (2315, 4, 8488)
+     , (2315, 4, 75)
+     , (2315, 4, 76)
+     , (2315, 4, 40)
+     , (2315, 4, 57)
+     , (2315, 4, 61)
+     , (2315, 4, 66)
+     , (2315, 4, 110)
+     , (2315, 4, 82)
+     , (2315, 4, 87)
+     , (2315, 4, 114)
+     , (2315, 4, 92)
+     , (2315, 4, 95)
+     , (2315, 4, 2621)
+     , (2315, 4, 2622)
+     , (2315, 4, 2623)
+     , (2315, 4, 2624)
+     , (2315, 4, 2625)
+     , (2315, 4, 2626)
+     , (2315, 4, 2627)
+     , (2315, 4, 20628)
+     , (2315, 4, 20629)
+     , (2315, 4, 20630)
+     , (2315, 4, 31808);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (2315, 356, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2315, 2, 356);
 

@@ -43,14 +43,14 @@ VALUES (31286, 33, 1) /* BONDED_INT */
      , (31286, 174, 1) /* APPRAISAL_PAGES_INT */
      , (31286, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31286, 174, 1) /* APPRAISAL_PAGES_INT */
      , (31286, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (31286, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (31286, 0, 'Lieutenant Commander Arwyth Margyle', 'prewritten', 4294967295, 0, 'In the absence of Commander Jared Kurth, I have assumed command of Fort Tethana. Your terms may sound generous, but the rumors surrounding Commander Kurth''s disappearance are very ominous portents for those who join the Viamontian forces. I do not consider your current proposal sufficient to take such a risk with the men under my command. This is not to say that there is no possibility for a future alliance, but you will need to substantially improve your proposal for it to outweigh the possible negatives of an alliance with Sanamar.

@@ -34,14 +34,14 @@ VALUES (492, 13, True) /* ETHEREAL_BOOL */
      , (492, 14, True) /* GRAVITY_STATUS_BOOL */
      , (492, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (492, 174, 3) /* APPRAISAL_PAGES_INT */
      , (492, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
      , (492, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (492, 0, ' ', 'prewritten', 4294967295, 0, '     First, get yourself to Arwic. You''re on your own there - if you can''t do that much, might as well give up now.

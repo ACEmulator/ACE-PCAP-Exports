@@ -45,14 +45,14 @@ VALUES (15794, 114, 1) /* ATTUNED_INT */
      , (15794, 174, 1) /* APPRAISAL_PAGES_INT */
      , (15794, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (15794, 174, 1) /* APPRAISAL_PAGES_INT */
      , (15794, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (15794, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (15794, 0, 'Nuhmudira', 'prewritten', 4294967295, 0, 'The flesh on my hands grows tight, as the wrinkles fade, my mind clouded by voices of those that were here before me. 

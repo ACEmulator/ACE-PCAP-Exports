@@ -45,14 +45,14 @@ VALUES (32750, 19, 10) /* VALUE_INT */
      , (32750, 174, 1) /* APPRAISAL_PAGES_INT */
      , (32750, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32750, 174, 1) /* APPRAISAL_PAGES_INT */
      , (32750, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (32750, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (32750, 0, 'Ciandra, Arcanum Alchemist', 'prewritten', 4294967295, 0, 'Instructions:

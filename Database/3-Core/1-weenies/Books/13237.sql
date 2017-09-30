@@ -42,14 +42,14 @@ VALUES (13237, 33, 1) /* BONDED_INT */
      , (13237, 174, 3) /* APPRAISAL_PAGES_INT */
      , (13237, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (13237, 174, 3) /* APPRAISAL_PAGES_INT */
      , (13237, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
      , (13237, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (13237, 0, 'Einrik Gaul, Leader of the Society', 'prewritten', 4294967295, 0, 'With the arrival of the Viamontians, Queen Elysa has called all of her forces to active duty. She can no longer afford to maintain the Training Academies as she once did. However, I was able to come to an agreement with her whereby the Dereth Exploration Society assumes full ownership of the Academies.

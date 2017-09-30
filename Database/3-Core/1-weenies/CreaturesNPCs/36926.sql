@@ -121,7 +121,7 @@ VALUES (36926, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (36926, 33084, 2)
-     , (36926, 33105, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36926, 2, 33084)
+     , (36926, 2, 33105);
 

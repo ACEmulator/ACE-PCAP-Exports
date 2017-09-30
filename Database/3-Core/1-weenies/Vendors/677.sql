@@ -107,7 +107,7 @@ VALUES (677, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (677, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (677, 74, 1074004225) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -123,38 +123,38 @@ VALUES (677, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (677, 4190, 4)
-     , (677, 301, 4)
-     , (677, 350, 4)
-     , (677, 351, 4)
-     , (677, 331, 4)
-     , (677, 332, 4)
-     , (677, 339, 4)
-     , (677, 359, 4)
-     , (677, 303, 4)
-     , (677, 309, 4)
-     , (677, 314, 4)
-     , (677, 316, 4)
-     , (677, 329, 4)
-     , (677, 22168, 4)
-     , (677, 348, 4)
-     , (677, 320, 4)
-     , (677, 2621, 4)
-     , (677, 2622, 4)
-     , (677, 2623, 4)
-     , (677, 2624, 4)
-     , (677, 2625, 4)
-     , (677, 2626, 4)
-     , (677, 2627, 4)
-     , (677, 20628, 4)
-     , (677, 20629, 4)
-     , (677, 20630, 4)
-     , (677, 45683, 4)
-     , (677, 45684, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (677, 4, 4190)
+     , (677, 4, 301)
+     , (677, 4, 350)
+     , (677, 4, 351)
+     , (677, 4, 331)
+     , (677, 4, 332)
+     , (677, 4, 339)
+     , (677, 4, 359)
+     , (677, 4, 303)
+     , (677, 4, 309)
+     , (677, 4, 314)
+     , (677, 4, 316)
+     , (677, 4, 329)
+     , (677, 4, 22168)
+     , (677, 4, 348)
+     , (677, 4, 320)
+     , (677, 4, 2621)
+     , (677, 4, 2622)
+     , (677, 4, 2623)
+     , (677, 4, 2624)
+     , (677, 4, 2625)
+     , (677, 4, 2626)
+     , (677, 4, 2627)
+     , (677, 4, 20628)
+     , (677, 4, 20629)
+     , (677, 4, 20630)
+     , (677, 4, 45683)
+     , (677, 4, 45684);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (677, 352, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (677, 2, 352);
 

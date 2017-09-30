@@ -50,14 +50,14 @@ VALUES (41024, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41024, 69, 0) /* IS_SELLABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41024, 174, 1) /* APPRAISAL_PAGES_INT */
      , (41024, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (41024, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (41024, 0, 'Ned the Clever', 'prewritten', 4294967295, 0, '

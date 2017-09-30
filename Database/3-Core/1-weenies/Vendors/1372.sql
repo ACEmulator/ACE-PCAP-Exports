@@ -111,7 +111,7 @@ VALUES (1372, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1372, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1372, 74, 1074005767) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -127,39 +127,39 @@ VALUES (1372, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1372, 35, 4)
-     , (1372, 554, 4)
-     , (1372, 413, 4)
-     , (1372, 414, 4)
-     , (1372, 55, 4)
-     , (1372, 415, 4)
-     , (1372, 2605, 4)
-     , (1372, 108, 4)
-     , (1372, 80, 4)
-     , (1372, 416, 4)
-     , (1372, 85, 4)
-     , (1372, 75, 4)
-     , (1372, 8489, 4)
-     , (1372, 8488, 4)
-     , (1372, 76, 4)
-     , (1372, 40, 4)
-     , (1372, 57, 4)
-     , (1372, 61, 4)
-     , (1372, 66, 4)
-     , (1372, 110, 4)
-     , (1372, 82, 4)
-     , (1372, 87, 4)
-     , (1372, 114, 4)
-     , (1372, 107, 4)
-     , (1372, 92, 4)
-     , (1372, 95, 4)
-     , (1372, 2621, 4)
-     , (1372, 2622, 4)
-     , (1372, 2623, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1372, 4, 35)
+     , (1372, 4, 554)
+     , (1372, 4, 413)
+     , (1372, 4, 414)
+     , (1372, 4, 55)
+     , (1372, 4, 415)
+     , (1372, 4, 2605)
+     , (1372, 4, 108)
+     , (1372, 4, 80)
+     , (1372, 4, 416)
+     , (1372, 4, 85)
+     , (1372, 4, 75)
+     , (1372, 4, 8489)
+     , (1372, 4, 8488)
+     , (1372, 4, 76)
+     , (1372, 4, 40)
+     , (1372, 4, 57)
+     , (1372, 4, 61)
+     , (1372, 4, 66)
+     , (1372, 4, 110)
+     , (1372, 4, 82)
+     , (1372, 4, 87)
+     , (1372, 4, 114)
+     , (1372, 4, 107)
+     , (1372, 4, 92)
+     , (1372, 4, 95)
+     , (1372, 4, 2621)
+     , (1372, 4, 2622)
+     , (1372, 4, 2623);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1372, 352, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1372, 2, 352);
 

@@ -43,14 +43,14 @@ VALUES (1428, 19, 100) /* VALUE_INT */
      , (1428, 174, 2) /* APPRAISAL_PAGES_INT */
      , (1428, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1428, 174, 2) /* APPRAISAL_PAGES_INT */
      , (1428, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (1428, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (1428, 0, '', 'prewritten', 4294967295, 0, 'Letter from Alatar
@@ -60,7 +60,7 @@ I leave these notes for future adventurers to find.  I, Alatar Locke, have been 
 (more)
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (1428, 1, '', 'prewritten', 4294967295, 0, 'These very halls are where some desperate group tried to hide their most valuable weapon, a particular sword of great properties.  But the group perished, and their corpses became enchanted by evil magic (or so I surmise).  May their souls rest in peace!  In the meantime, should you reach the end of these now-cursed halls, make sure that you are well prepared to meet a terrible challenge!

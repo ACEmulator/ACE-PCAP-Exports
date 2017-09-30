@@ -105,7 +105,7 @@ VALUES (650, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (650, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (650, 74, 1074005895) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -121,36 +121,36 @@ VALUES (650, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (650, 4190, 4)
-     , (650, 301, 4)
-     , (650, 350, 4)
-     , (650, 351, 4)
-     , (650, 331, 4)
-     , (650, 332, 4)
-     , (650, 339, 4)
-     , (650, 359, 4)
-     , (650, 303, 4)
-     , (650, 309, 4)
-     , (650, 314, 4)
-     , (650, 316, 4)
-     , (650, 329, 4)
-     , (650, 22168, 4)
-     , (650, 348, 4)
-     , (650, 320, 4)
-     , (650, 2621, 4)
-     , (650, 2622, 4)
-     , (650, 2623, 4)
-     , (650, 2624, 4)
-     , (650, 2625, 4)
-     , (650, 2626, 4)
-     , (650, 2627, 4)
-     , (650, 20628, 4)
-     , (650, 20629, 4)
-     , (650, 20630, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (650, 4, 4190)
+     , (650, 4, 301)
+     , (650, 4, 350)
+     , (650, 4, 351)
+     , (650, 4, 331)
+     , (650, 4, 332)
+     , (650, 4, 339)
+     , (650, 4, 359)
+     , (650, 4, 303)
+     , (650, 4, 309)
+     , (650, 4, 314)
+     , (650, 4, 316)
+     , (650, 4, 329)
+     , (650, 4, 22168)
+     , (650, 4, 348)
+     , (650, 4, 320)
+     , (650, 4, 2621)
+     , (650, 4, 2622)
+     , (650, 4, 2623)
+     , (650, 4, 2624)
+     , (650, 4, 2625)
+     , (650, 4, 2626)
+     , (650, 4, 2627)
+     , (650, 4, 20628)
+     , (650, 4, 20629)
+     , (650, 4, 20630);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (650, 301, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (650, 2, 301);
 

@@ -45,20 +45,20 @@ VALUES (53478, 19, 90) /* VALUE_INT */
      , (53478, 174, 5) /* APPRAISAL_PAGES_INT */
      , (53478, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (53478, 174, 5) /* APPRAISAL_PAGES_INT */
      , (53478, 175, 5) /* APPRAISAL_MAX_PAGES_INT */
      , (53478, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (53478, 0, 'Asheron', 'prewritten', 4294967295, 0, 'If you are reading this, then you have located the Font of Enlightenment and Rebirth.  This ancient font was a gift from the Deru to the Falatacot who followed the Light.  It was taught that those who undertook the path would become enlightened over their many experienced lives, and would gain great wisdom and compassion from all they had seen.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (53478, 1, 'Asheron', 'prewritten', 4294967295, 0, 'If you wish to undertake this path, be warned, it is not for the faint of heart, and there is no turning back.  The font will strip you of your skills and experience, leaving you as one new-found in Dereth.  I have studied the font, and I have learned much of what it requires in order to function.  The following is the list of criteria you must meet in this Age to use the font:
@@ -70,7 +70,7 @@ VALUES (53478, 1, 'Asheron', 'prewritten', 4294967295, 0, 'If you wish to undert
 3. You must be a Master of one of the Societies of Dereth.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (53478, 2, 'Asheron', 'prewritten', 4294967295, 0, 'If you meet the listed requirements, the font will activate and set you upon the Path of Enlightenment.
@@ -86,7 +86,7 @@ The following changes will overcome you as you are set upon the path:
 4. You will lose access to the magics of Luminance until you retake the quests and regain it.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (53478, 3, 'Asheron', 'prewritten', 4294967295, 0, 'There are, however, some things you will retain.  Any Augmentations you have learned will remain with you.  Any skill credits you have earned will also remain with you.  Also, as you walk the Path of Enlightenment, each time you step back to the beginnings, your skills and vitality will increase slightly, as the imperfections of your form are stipped away, bit by bit.
@@ -94,7 +94,7 @@ VALUES (53478, 3, 'Asheron', 'prewritten', 4294967295, 0, 'There are, however, s
 To ease this process a bit, I have cast an enchantment that will provide a token to any who set upon the path, so they may travel to my castle and reattune their attributes.  Also, I have created duplicates of the Enlightenment Statues and set them in a ring around the exterior of my castle.  This should ease things for those who wish to respecialize a skill.  Lastly, I have created several portals in the Temple of the Font, so those newly reformed into the world can get to several safer locations, including my castle, for those who need access to the statues.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (53478, 4, 'Asheron', 'prewritten', 4294967295, 0, 'If you choose to set foot upon this path, may the blessings of the Light Falatacot and the Deru be upon you.  And may all of Dereth be bettered by your choice.

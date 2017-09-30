@@ -102,7 +102,7 @@ VALUES (30052, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30052, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30052, 74, 1074005895) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -118,44 +118,44 @@ VALUES (30052, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (30052, 30571, 4)
-     , (30052, 30556, 4)
-     , (30052, 30581, 4)
-     , (30052, 30591, 4)
-     , (30052, 30611, 4)
-     , (30052, 30606, 4)
-     , (30052, 30596, 4)
-     , (30052, 30625, 4)
-     , (30052, 30616, 4)
-     , (30052, 30746, 4)
-     , (30052, 28618, 4)
-     , (30052, 28628, 4)
-     , (30052, 28633, 4)
-     , (30052, 28623, 4)
-     , (30052, 28627, 4)
-     , (30052, 28632, 4)
-     , (30052, 28626, 4)
-     , (30052, 28634, 4)
-     , (30052, 28625, 4)
-     , (30052, 28630, 4)
-     , (30052, 28621, 4)
-     , (30052, 31026, 4)
-     , (30052, 28624, 4)
-     , (30052, 28622, 4)
-     , (30052, 2621, 4)
-     , (30052, 2622, 4)
-     , (30052, 2623, 4)
-     , (30052, 2624, 4)
-     , (30052, 2625, 4)
-     , (30052, 2626, 4)
-     , (30052, 2627, 4)
-     , (30052, 20628, 4)
-     , (30052, 20629, 4)
-     , (30052, 20630, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30052, 4, 30571)
+     , (30052, 4, 30556)
+     , (30052, 4, 30581)
+     , (30052, 4, 30591)
+     , (30052, 4, 30611)
+     , (30052, 4, 30606)
+     , (30052, 4, 30596)
+     , (30052, 4, 30625)
+     , (30052, 4, 30616)
+     , (30052, 4, 30746)
+     , (30052, 4, 28618)
+     , (30052, 4, 28628)
+     , (30052, 4, 28633)
+     , (30052, 4, 28623)
+     , (30052, 4, 28627)
+     , (30052, 4, 28632)
+     , (30052, 4, 28626)
+     , (30052, 4, 28634)
+     , (30052, 4, 28625)
+     , (30052, 4, 28630)
+     , (30052, 4, 28621)
+     , (30052, 4, 31026)
+     , (30052, 4, 28624)
+     , (30052, 4, 28622)
+     , (30052, 4, 2621)
+     , (30052, 4, 2622)
+     , (30052, 4, 2623)
+     , (30052, 4, 2624)
+     , (30052, 4, 2625)
+     , (30052, 4, 2626)
+     , (30052, 4, 2627)
+     , (30052, 4, 20628)
+     , (30052, 4, 20629)
+     , (30052, 4, 20630);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (30052, 30571, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30052, 2, 30571);
 

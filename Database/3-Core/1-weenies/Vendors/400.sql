@@ -104,7 +104,7 @@ VALUES (400, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (400, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (400, 74, 1074005895) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -120,34 +120,34 @@ VALUES (400, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (400, 301, 4)
-     , (400, 350, 4)
-     , (400, 4190, 4)
-     , (400, 314, 4)
-     , (400, 351, 4)
-     , (400, 331, 4)
-     , (400, 332, 4)
-     , (400, 22168, 4)
-     , (400, 339, 4)
-     , (400, 348, 4)
-     , (400, 359, 4)
-     , (400, 304, 4)
-     , (400, 93, 4)
-     , (400, 94, 4)
-     , (400, 2621, 4)
-     , (400, 2622, 4)
-     , (400, 2623, 4)
-     , (400, 2624, 4)
-     , (400, 2625, 4)
-     , (400, 2626, 4)
-     , (400, 2627, 4)
-     , (400, 20628, 4)
-     , (400, 20629, 4)
-     , (400, 20630, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (400, 4, 301)
+     , (400, 4, 350)
+     , (400, 4, 4190)
+     , (400, 4, 314)
+     , (400, 4, 351)
+     , (400, 4, 331)
+     , (400, 4, 332)
+     , (400, 4, 22168)
+     , (400, 4, 339)
+     , (400, 4, 348)
+     , (400, 4, 359)
+     , (400, 4, 304)
+     , (400, 4, 93)
+     , (400, 4, 94)
+     , (400, 4, 2621)
+     , (400, 4, 2622)
+     , (400, 4, 2623)
+     , (400, 4, 2624)
+     , (400, 4, 2625)
+     , (400, 4, 2626)
+     , (400, 4, 2627)
+     , (400, 4, 20628)
+     , (400, 4, 20629)
+     , (400, 4, 20630);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (400, 359, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (400, 2, 359);
 

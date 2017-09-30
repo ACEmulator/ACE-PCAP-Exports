@@ -46,14 +46,14 @@ VALUES (32083, 33, 0) /* BONDED_INT */
      , (32083, 174, 1) /* APPRAISAL_PAGES_INT */
      , (32083, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32083, 174, 1) /* APPRAISAL_PAGES_INT */
      , (32083, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (32083, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (32083, 0, 'Sir Binwas Loc', 'prewritten', 4294967295, 0, 'The island of Marae Lassel was much too easy a fight. I must assume the Queen has pulled back her forces to some more valuable target. I simply cannot believe her soldiers are this inept.

@@ -116,7 +116,7 @@ VALUES (1146, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1146, 128, 230) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1146, 256, 115) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1146, 74, 1074005767) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -132,41 +132,41 @@ VALUES (1146, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1146, 554, 4)
-     , (1146, 35, 4)
-     , (1146, 77, 4)
-     , (1146, 85, 4)
-     , (1146, 96, 4)
-     , (1146, 414, 4)
-     , (1146, 43, 4)
-     , (1146, 55, 4)
-     , (1146, 2605, 4)
-     , (1146, 108, 4)
-     , (1146, 415, 4)
-     , (1146, 90, 4)
-     , (1146, 416, 4)
-     , (1146, 413, 4)
-     , (1146, 78, 4)
-     , (1146, 64, 4)
-     , (1146, 2437, 4)
-     , (1146, 80, 4)
-     , (1146, 116, 4)
-     , (1146, 94, 4)
-     , (1146, 95, 4)
-     , (1146, 2621, 4)
-     , (1146, 2622, 4)
-     , (1146, 2623, 4)
-     , (1146, 2624, 4)
-     , (1146, 2625, 4)
-     , (1146, 2626, 4)
-     , (1146, 2627, 4)
-     , (1146, 20628, 4)
-     , (1146, 20629, 4)
-     , (1146, 20630, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1146, 4, 554)
+     , (1146, 4, 35)
+     , (1146, 4, 77)
+     , (1146, 4, 85)
+     , (1146, 4, 96)
+     , (1146, 4, 414)
+     , (1146, 4, 43)
+     , (1146, 4, 55)
+     , (1146, 4, 2605)
+     , (1146, 4, 108)
+     , (1146, 4, 415)
+     , (1146, 4, 90)
+     , (1146, 4, 416)
+     , (1146, 4, 413)
+     , (1146, 4, 78)
+     , (1146, 4, 64)
+     , (1146, 4, 2437)
+     , (1146, 4, 80)
+     , (1146, 4, 116)
+     , (1146, 4, 94)
+     , (1146, 4, 95)
+     , (1146, 4, 2621)
+     , (1146, 4, 2622)
+     , (1146, 4, 2623)
+     , (1146, 4, 2624)
+     , (1146, 4, 2625)
+     , (1146, 4, 2626)
+     , (1146, 4, 2627)
+     , (1146, 4, 20628)
+     , (1146, 4, 20629)
+     , (1146, 4, 20630);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1146, 352, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1146, 2, 352);
 

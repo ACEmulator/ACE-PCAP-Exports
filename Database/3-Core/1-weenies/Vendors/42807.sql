@@ -107,7 +107,7 @@ VALUES (42807, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (42807, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42807, 74, 262176) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -123,38 +123,38 @@ VALUES (42807, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (42807, 2453, 4)
-     , (42807, 2462, 4)
-     , (42807, 2451, 4)
-     , (42807, 2471, 4)
-     , (42807, 2452, 4)
-     , (42807, 4746, 4)
-     , (42807, 4713, 4)
-     , (42807, 549, 4)
-     , (42807, 4741, 4)
-     , (42807, 4725, 4)
-     , (42807, 620, 4)
-     , (42807, 261, 4)
-     , (42807, 259, 4)
-     , (42807, 4745, 4)
-     , (42807, 258, 4)
-     , (42807, 260, 4)
-     , (42807, 8378, 4)
-     , (42807, 262, 4)
-     , (42807, 263, 4)
-     , (42807, 45559, 4)
-     , (42807, 45560, 4)
-     , (42807, 45561, 4)
-     , (42807, 45562, 4)
-     , (42807, 45563, 4)
-     , (42807, 51336, 4)
-     , (42807, 48725, 4)
-     , (42807, 48726, 4)
-     , (42807, 48729, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42807, 4, 2453)
+     , (42807, 4, 2462)
+     , (42807, 4, 2451)
+     , (42807, 4, 2471)
+     , (42807, 4, 2452)
+     , (42807, 4, 4746)
+     , (42807, 4, 4713)
+     , (42807, 4, 549)
+     , (42807, 4, 4741)
+     , (42807, 4, 4725)
+     , (42807, 4, 620)
+     , (42807, 4, 261)
+     , (42807, 4, 259)
+     , (42807, 4, 4745)
+     , (42807, 4, 258)
+     , (42807, 4, 260)
+     , (42807, 4, 8378)
+     , (42807, 4, 262)
+     , (42807, 4, 263)
+     , (42807, 4, 45559)
+     , (42807, 4, 45560)
+     , (42807, 4, 45561)
+     , (42807, 4, 45562)
+     , (42807, 4, 45563)
+     , (42807, 4, 51336)
+     , (42807, 4, 48725)
+     , (42807, 4, 48726)
+     , (42807, 4, 48729);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (42807, 161, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42807, 2, 161);
 

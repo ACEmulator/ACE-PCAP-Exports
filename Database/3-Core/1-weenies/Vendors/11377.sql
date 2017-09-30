@@ -54,7 +54,7 @@ VALUES (11377, 2, 6) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11377, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11377, 74, 270368) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -70,31 +70,31 @@ VALUES (11377, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (11377, 2464, 4)
-     , (11377, 2465, 4)
-     , (11377, 2469, 4)
-     , (11377, 2463, 4)
-     , (11377, 2454, 4)
-     , (11377, 8378, 4)
-     , (11377, 2462, 4)
-     , (11377, 2451, 4)
-     , (11377, 4712, 4)
-     , (11377, 4723, 4)
-     , (11377, 4718, 4)
-     , (11377, 261, 4)
-     , (11377, 27596, 4)
-     , (11377, 27597, 4)
-     , (11377, 27598, 4)
-     , (11377, 27599, 4)
-     , (11377, 27600, 4)
-     , (11377, 27601, 4)
-     , (11377, 27602, 4)
-     , (11377, 27603, 4)
-     , (11377, 27604, 4)
-     , (11377, 27605, 4)
-     , (11377, 27606, 4)
-     , (11377, 27607, 4)
-     , (11377, 27608, 4)
-     , (11377, 27609, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11377, 4, 2464)
+     , (11377, 4, 2465)
+     , (11377, 4, 2469)
+     , (11377, 4, 2463)
+     , (11377, 4, 2454)
+     , (11377, 4, 8378)
+     , (11377, 4, 2462)
+     , (11377, 4, 2451)
+     , (11377, 4, 4712)
+     , (11377, 4, 4723)
+     , (11377, 4, 4718)
+     , (11377, 4, 261)
+     , (11377, 4, 27596)
+     , (11377, 4, 27597)
+     , (11377, 4, 27598)
+     , (11377, 4, 27599)
+     , (11377, 4, 27600)
+     , (11377, 4, 27601)
+     , (11377, 4, 27602)
+     , (11377, 4, 27603)
+     , (11377, 4, 27604)
+     , (11377, 4, 27605)
+     , (11377, 4, 27606)
+     , (11377, 4, 27607)
+     , (11377, 4, 27608)
+     , (11377, 4, 27609);
 

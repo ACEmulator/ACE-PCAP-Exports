@@ -33,14 +33,14 @@ VALUES (24258, 13, True) /* ETHEREAL_BOOL */
      , (24258, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24258, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24258, 174, 1) /* APPRAISAL_PAGES_INT */
      , (24258, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (24258, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (24258, 0, 'Scout Nytani Strongbow', 'prewritten', 4294967295, 0, '

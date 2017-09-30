@@ -45,20 +45,20 @@ VALUES (15796, 33, 0) /* BONDED_INT */
      , (15796, 174, 44) /* APPRAISAL_PAGES_INT */
      , (15796, 175, 44) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (15796, 174, 44) /* APPRAISAL_PAGES_INT */
      , (15796, 175, 44) /* APPRAISAL_MAX_PAGES_INT */
      , (15796, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (15796, 0, 'Translator', 'prewritten', 4294967295, 0, 'Where it is applicable I have added notes in paranthesis to highlight words as we would speak them in everyday tongue.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (15796, 1, 'Gaerlan', 'prewritten', 4294967295, 0, 'The Falatacot, studied the art of Geomancy with an unquenchable thirst. They called upon the resonance that echoed from within the world at the structures erected in the time before. They found that it was here, on Ireth Lassel, that mana was most concentrated, and plentiful.

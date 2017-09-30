@@ -112,7 +112,7 @@ VALUES (1828, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1828, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1828, 74, 134480129) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -128,42 +128,42 @@ VALUES (1828, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1828, 2623, 4)
-     , (1828, 2622, 4)
-     , (1828, 2621, 4)
-     , (1828, 4586, 4)
-     , (1828, 4585, 4)
-     , (1828, 5339, 4)
-     , (1828, 3599, 4)
-     , (1828, 3603, 4)
-     , (1828, 3601, 4)
-     , (1828, 3605, 4)
-     , (1828, 3598, 4)
-     , (1828, 3602, 4)
-     , (1828, 9359, 4)
-     , (1828, 9363, 4)
-     , (1828, 9362, 4)
-     , (1828, 9361, 4)
-     , (1828, 9366, 4)
-     , (1828, 9377, 4)
-     , (1828, 9378, 4)
-     , (1828, 23858, 4)
-     , (1828, 23857, 4)
-     , (1828, 12463, 4)
-     , (1828, 12464, 4)
-     , (1828, 15296, 4)
-     , (1828, 15298, 4)
-     , (1828, 305, 4)
-     , (1828, 300, 4)
-     , (1828, 311, 4)
-     , (1828, 334, 4)
-     , (1828, 44074, 4)
-     , (1828, 44070, 4)
-     , (1828, 44071, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1828, 4, 2623)
+     , (1828, 4, 2622)
+     , (1828, 4, 2621)
+     , (1828, 4, 4586)
+     , (1828, 4, 4585)
+     , (1828, 4, 5339)
+     , (1828, 4, 3599)
+     , (1828, 4, 3603)
+     , (1828, 4, 3601)
+     , (1828, 4, 3605)
+     , (1828, 4, 3598)
+     , (1828, 4, 3602)
+     , (1828, 4, 9359)
+     , (1828, 4, 9363)
+     , (1828, 4, 9362)
+     , (1828, 4, 9361)
+     , (1828, 4, 9366)
+     , (1828, 4, 9377)
+     , (1828, 4, 9378)
+     , (1828, 4, 23858)
+     , (1828, 4, 23857)
+     , (1828, 4, 12463)
+     , (1828, 4, 12464)
+     , (1828, 4, 15296)
+     , (1828, 4, 15298)
+     , (1828, 4, 305)
+     , (1828, 4, 300)
+     , (1828, 4, 311)
+     , (1828, 4, 334)
+     , (1828, 4, 44074)
+     , (1828, 4, 44070)
+     , (1828, 4, 44071);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1828, 334, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1828, 2, 334);
 

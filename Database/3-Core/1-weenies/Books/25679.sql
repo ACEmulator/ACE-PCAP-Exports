@@ -46,14 +46,14 @@ VALUES (25679, 33, 0) /* BONDED_INT */
      , (25679, 174, 9) /* APPRAISAL_PAGES_INT */
      , (25679, 175, 9) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25679, 174, 9) /* APPRAISAL_PAGES_INT */
      , (25679, 175, 9) /* APPRAISAL_MAX_PAGES_INT */
      , (25679, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25679, 0, 'Bewren', 'prewritten', 4294967295, 0, 'While we were fur hunting on the Marescent Plateau yesterday, Jaeget and I were approached by a man proclaiming to be capable of making our lives meaningful. 
@@ -63,7 +63,7 @@ Right away, I realized what he was and that he was up to no good.
 There were similar groups on Ispar. They would coerce others into joining their following and those people would never be heard from again.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25679, 1, 'Bewren', 'prewritten', 4294967295, 0, 'Poor Jaeget wasn''t alive on Ispar but four years, so luckily he didn''t have to confront any of those types. 
@@ -74,7 +74,7 @@ I recommended we move on. Despite my protest, he took one of their pamphlets... 
 ---
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25679, 2, 'Bewren', 'prewritten', 4294967295, 0, 'Jaeget has done nothing but yammer on about the Order of the Raven Hand since we ran across the recruiter on Marae nearly a week ago. 
@@ -84,7 +84,7 @@ What''s worse, his being taken with their beliefs has hurt business.
 We don''t have nearly enough hides to sell as we used to. 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25679, 3, 'Bewren', 'prewritten', 4294967295, 0, 'I would suggest another trip to Marae, though I fear bringing him there would only further advance his desire to join the Raven Hand.
@@ -95,7 +95,7 @@ Tomorrow I will find that pamphlet and burn it. Perhaps without the pamphlet, he
 --
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25679, 4, 'Bewren', 'prewritten', 4294967295, 0, 'I awoke only briefly last night to see my cot surrounded by several men swathed in dark cloaks. In the background I could see them embracing Jaeget and then everything went dark.
@@ -103,7 +103,7 @@ VALUES (25679, 4, 'Bewren', 'prewritten', 4294967295, 0, 'I awoke only briefly l
 I awoke within a cage in some strange hall. Within the cell with me was another person, a very fidgety fellow who went by the name of Twitch. 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25679, 5, 'Bewren', 'prewritten', 4294967295, 0, 'His tale was one of woe, though after learning of his previous accommodations, this place seemed more hospitable than what he had previously... but only slightly.
@@ -113,7 +113,7 @@ Our guards ignored our shouts, and only once did I see Jaeget after waking, and 
 ---
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25679, 6, 'Bewren', 'prewritten', 4294967295, 0, 'I''ve been here for some time now, and I am tired of being here. I have no weapons, no lock picks, and no way of getting both my brother and I out of here safely. 
@@ -121,7 +121,7 @@ VALUES (25679, 6, 'Bewren', 'prewritten', 4294967295, 0, 'I''ve been here for so
 Twitch seems to have been here slightly longer than I, and did have some insight, though it was difficult to understand between his shivering and short attention span.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25679, 7, 'Bewren', 'prewritten', 4294967295, 0, 'When the guard comes to deliver our meal, I will liberate his key-ring and escape after curfew has gone into effect. On my way out, I will glean what information I can from the surrounding temple and note where entrances and exits are.
@@ -133,7 +133,7 @@ Struggling, they threw me before what I can only describe as a vile cloud of soo
 ---
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (25679, 8, 'Bewren', 'prewritten', 4294967295, 0, 'Even now my head spins and charcoal-black cysts are beginning to form on my arms and face... I do not know what they did to me, but I know what they plan.  I have been moved away from Twitch and placed in some interim holding cell. Looking out into the room, I can see a pit of some sort.

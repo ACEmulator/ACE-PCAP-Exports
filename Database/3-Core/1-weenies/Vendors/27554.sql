@@ -109,7 +109,7 @@ VALUES (27554, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27554, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27554, 74, 264200) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -125,28 +125,28 @@ VALUES (27554, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (27554, 2621, 4)
-     , (27554, 2622, 4)
-     , (27554, 2623, 4)
-     , (27554, 2624, 4)
-     , (27554, 2625, 4)
-     , (27554, 2626, 4)
-     , (27554, 2627, 4)
-     , (27554, 20628, 4)
-     , (27554, 20629, 4)
-     , (27554, 20630, 4)
-     , (27554, 2457, 4)
-     , (27554, 377, 4)
-     , (27554, 27319, 4)
-     , (27554, 2460, 4)
-     , (27554, 379, 4)
-     , (27554, 27322, 4)
-     , (27554, 378, 4)
-     , (27554, 27326, 4)
-     , (27554, 2470, 4)
-     , (27554, 628, 4)
-     , (27554, 629, 4)
-     , (27554, 630, 4)
-     , (27554, 631, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27554, 4, 2621)
+     , (27554, 4, 2622)
+     , (27554, 4, 2623)
+     , (27554, 4, 2624)
+     , (27554, 4, 2625)
+     , (27554, 4, 2626)
+     , (27554, 4, 2627)
+     , (27554, 4, 20628)
+     , (27554, 4, 20629)
+     , (27554, 4, 20630)
+     , (27554, 4, 2457)
+     , (27554, 4, 377)
+     , (27554, 4, 27319)
+     , (27554, 4, 2460)
+     , (27554, 4, 379)
+     , (27554, 4, 27322)
+     , (27554, 4, 378)
+     , (27554, 4, 27326)
+     , (27554, 4, 2470)
+     , (27554, 4, 628)
+     , (27554, 4, 629)
+     , (27554, 4, 630)
+     , (27554, 4, 631);
 

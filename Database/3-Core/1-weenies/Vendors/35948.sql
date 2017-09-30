@@ -69,7 +69,7 @@ VALUES (35948, 384, 0) /*  */
      , (35948, 382, 0) /*  */
      , (35948, 383, 0) /*  */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35948, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -85,8 +85,8 @@ VALUES (35948, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (35948, 35938, 4)
-     , (35948, 35949, 4)
-     , (35948, 35950, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35948, 4, 35938)
+     , (35948, 4, 35949)
+     , (35948, 4, 35950);
 

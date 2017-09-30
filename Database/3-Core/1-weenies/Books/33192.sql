@@ -46,26 +46,26 @@ VALUES (33192, 19, 0) /* VALUE_INT */
      , (33192, 174, 3) /* APPRAISAL_PAGES_INT */
      , (33192, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33192, 174, 3) /* APPRAISAL_PAGES_INT */
      , (33192, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
      , (33192, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (33192, 0, 'Diviner Pheraion', 'prewritten', 4294967295, 0, 'Our preparations are nearly complete.  We almost made a critical mistake by putting all of our eggs in one basket, as it were.  We had pursued information on rousing Grael''s lieutenant, Targor, following the logic that he would have further information on how to free or contact Grael.  The information provided by our new "allies" of the Rossu Morta showed us a different and more effective path.  As soon as we analyzed Dardante''s research notes, we were able to re-focus our energies, and I am confident we are on the correct path to Grael.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (33192, 1, 'Diviner Pheraion', 'prewritten', 4294967295, 0, 'Final preparations are now underway at the ritual site, under the personal supervision of Pontifex Maegris.  It took a great deal of courage and ingenuity on the part of our militant brethren to find and secure the ordained location.  Not all of them came back, and not all of those who did come back were whole in mind and body.  We shall add their names to the litany and their heart''s blood to the sacrifice we prepare for Grael.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (33192, 2, 'Diviner Pheraion', 'prewritten', 4294967295, 0, 'Our next priority must be the security of the ritual.  We have concealed the ritual location from Dardante, and have fed misdirection to his mob of simple-minded torturers and murderers, as they once deceived us.  We must be careful not to dwell upon our anger at the elaborate hoax perpetrated upon us by Dardante''s minions.  It would only add to the energy we have already wasted.  We must concentrate on Grael.  We can worry about vengeance when we have joined ourselves to the Black Spear.

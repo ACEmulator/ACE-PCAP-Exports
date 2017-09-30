@@ -51,14 +51,14 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (43534, 99, 0) /* IVORYABLE_BOOL */
      , (43534, 69, 1) /* IS_SELLABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43534, 174, 30) /* APPRAISAL_PAGES_INT */
      , (43534, 175, 30) /* APPRAISAL_MAX_PAGES_INT */
      , (43534, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 0, 'Nalicana', 'prewritten', 4294967295, 0, '
@@ -69,7 +69,7 @@ Walk in the Light.
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 1, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -77,7 +77,7 @@ The first Seer to escape portal space is also the easiest to find. Nalicana, the
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 2, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -85,7 +85,7 @@ Nalicana has many things to teach you. When you learn to use Luminance, you gain
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 3, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -93,7 +93,7 @@ As for the others, each of the remaining four Oracles are bitter rivals. They do
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 4, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -106,7 +106,7 @@ Lord Tyragar is the Seer of the Habraen.
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 5, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -114,7 +114,7 @@ Your learning starts with Nalicana, the Seer of the Yalain. She empowers student
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 6, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -124,7 +124,7 @@ Once you start earning Luminance you may speak with her to learn how to focus th
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 7, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -135,7 +135,7 @@ This aura increases the effective skill for all of your Tinkering skills by 1 fo
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 8, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -146,7 +146,7 @@ This aura slightly increases the chance for the Aetheria you have equipped to su
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 9, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -157,7 +157,7 @@ This aura increases your critical damage rating by 1 for each level. You may pur
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 10, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -168,7 +168,7 @@ This aura decreases the mana usage of your magical items, decreasing the cost by
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 11, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -179,7 +179,7 @@ This aura increases the mana your Mana Stones give to your items, increasing the
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 12, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -190,7 +190,7 @@ This aura reduces the damage of any attack by 1 damage reduction rating for each
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 13, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -201,7 +201,7 @@ This aura increases the effect of any healing upon you by 1 healing rating for e
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 14, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -212,7 +212,7 @@ This aura increases your critical damage reduction rating by 1 for each level.  
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 15, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -223,7 +223,7 @@ This aura increases your damage rating by 1 for each level. You may purchase thi
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 16, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -234,7 +234,7 @@ The inner understanding of the Light and Shadow of the world lets you purchase u
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 17, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -242,7 +242,7 @@ In addition, Nalicana is a superb craftswoman and specializing in weaving the li
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 18, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -251,7 +251,7 @@ She offers her students two additional Auras.
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 19, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -263,7 +263,7 @@ This aura increases your critical damage reduction rating by 1 for each level. Y
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 20, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -274,7 +274,7 @@ This aura increases the effective skill level of all your Specialized skills by 
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 21, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -283,7 +283,7 @@ She offers her students two additional Auras.
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 22, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -295,7 +295,7 @@ This aura increases your damage rating by 1 for each level. You may purchase thi
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 23, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -306,7 +306,7 @@ This aura increases the effective skill level of all your Specialized skills by 
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 24, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -315,7 +315,7 @@ He offers to his students two additional Auras.
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 25, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -327,7 +327,7 @@ This aura increases your damage rating by 1 for each level. You may purchase thi
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 26, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -339,7 +339,7 @@ This aura increases your critical damage rating by 1 for each level. You may pur
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 27, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -348,7 +348,7 @@ He offers to his students two additional Auras.
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 28, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '
@@ -360,7 +360,7 @@ This aura increases your damage reduction rating by 1 for each level. You may pu
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (43534, 29, 'Tylaris ibn Jhesadh', 'prewritten', 4294967295, 0, '

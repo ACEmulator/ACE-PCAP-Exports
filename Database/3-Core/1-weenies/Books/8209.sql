@@ -42,14 +42,14 @@ VALUES (8209, 19, 10) /* VALUE_INT */
      , (8209, 174, 1) /* APPRAISAL_PAGES_INT */
      , (8209, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8209, 174, 1) /* APPRAISAL_PAGES_INT */
      , (8209, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (8209, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (8209, 0, 'Fazyad ibn Raymar', 'prewritten', 4294967295, 0, 'To all who wander the empty beauty of the great A''mun, I send greetings.

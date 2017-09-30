@@ -45,14 +45,14 @@ VALUES (41930, 19, 3) /* VALUE_INT */
      , (41930, 174, 4) /* APPRAISAL_PAGES_INT */
      , (41930, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41930, 174, 4) /* APPRAISAL_PAGES_INT */
      , (41930, 175, 4) /* APPRAISAL_MAX_PAGES_INT */
      , (41930, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (41930, 0, 'Translated by Kuyiza bint Zayi', 'prewritten', 4294967295, 0, '
@@ -62,7 +62,7 @@ The means to pass these wards and enter the castle has been entrusted to three g
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (41930, 1, 'Translated by Kuyiza bint Zayi', 'prewritten', 4294967295, 0, '
@@ -72,7 +72,7 @@ The first brand was entrusted to Lady Saliane. Lady Saliane was trapped in an op
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (41930, 2, 'Translated by Kuyiza bint Zayi', 'prewritten', 4294967295, 0, '
@@ -82,7 +82,7 @@ The final brand was entrusted to Lord Trimere. Lord Trimere was one of Lord Mhoi
 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (41930, 3, 'Translated by Kuyiza bint Zayi', 'prewritten', 4294967295, 0, '

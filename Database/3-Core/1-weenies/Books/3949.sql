@@ -44,7 +44,7 @@ VALUES (3949, 33, 4294967295) /* BONDED_INT */
      , (3949, 174, 1) /* APPRAISAL_PAGES_INT */
      , (3949, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (3949, 8, 'Naqib of Suntik') /* SCRIBE_NAME_STRING */;
@@ -54,7 +54,7 @@ VALUES (3949, 174, 1) /* APPRAISAL_PAGES_INT */
      , (3949, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (3949, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (3949, 0, '', 'prewritten', 4294967295, 0, 'Letter of Request

@@ -55,14 +55,14 @@ VALUES (8517, 19, 10) /* VALUE_INT */
      , (8517, 174, 1) /* APPRAISAL_PAGES_INT */
      , (8517, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8517, 174, 1) /* APPRAISAL_PAGES_INT */
      , (8517, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (8517, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (8517, 0, 'The Fivefold Curse', 'prewritten', 4294967295, 0, '

@@ -46,14 +46,14 @@ VALUES (36707, 33, 1) /* BONDED_INT */
      , (36707, 174, 1) /* APPRAISAL_PAGES_INT */
      , (36707, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36707, 174, 1) /* APPRAISAL_PAGES_INT */
      , (36707, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (36707, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (36707, 0, 'Phlynt, Agent of the Hidden Hand', 'prewritten', 4294967295, 0, '

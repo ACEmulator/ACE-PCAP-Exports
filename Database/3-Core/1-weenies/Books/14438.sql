@@ -33,14 +33,14 @@ VALUES (14438, 13, True) /* ETHEREAL_BOOL */
      , (14438, 14, True) /* GRAVITY_STATUS_BOOL */
      , (14438, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14438, 174, 2) /* APPRAISAL_PAGES_INT */
      , (14438, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (14438, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14438, 0, '', 'prewritten', 4294967295, 0, 'Dranith--you are a faithful servant. I was...harsh during my last visit. I forget what it was like to have an unreasonable master. You did not fail. All goes according to plan.
@@ -50,7 +50,7 @@ I am proud of you, my creation. I look at you, at your anger, the bright beautif
 Remember, you must instruct the infiltrators to have patience, to wait for the right moment to strike. Too soon, and they will be slaughtered before they reach the child.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14438, 1, '', 'prewritten', 4294967295, 0, 'Did this child hurt me? Is he the reason why I am what I am? No. But Asheron took my family away from me. And if I cannot find him, I will at least cause him pain, pain enough to make him wish death. I am familiar with that type of pain.

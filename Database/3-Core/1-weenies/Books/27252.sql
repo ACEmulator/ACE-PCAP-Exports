@@ -33,20 +33,20 @@ VALUES (27252, 13, True) /* ETHEREAL_BOOL */
      , (27252, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27252, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27252, 174, 2) /* APPRAISAL_PAGES_INT */
      , (27252, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (27252, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (27252, 0, '', 'prewritten', 4294967295, 0, 'We have desparate news, Emissary Arurutis. Our dear citadel comes under even closer attack. One of the Lugian Commanders has progressed through the Linvak Tukal Entryway and has nearly reached the portal to our dear citadel. We also have reports of three Gotrok Raider encampments in the territories near our city. The first, led by the Master of the Hunt, lies to the southeast in the foothills before the many lakes. The second, led by the Gotrok Montok Commander, lies far to the south, beyond the Old Mind and the tower of the ancient lich archmage. The Master of the 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (27252, 1, '', 'prewritten', 4294967295, 0, 'Gotrok has set up his last encampment far to the northeast of our town, in the lowlands of the Linvak Mountains. We send you this news in the dire hope that allies might come to help us defend our beloved Linvak Tukal.

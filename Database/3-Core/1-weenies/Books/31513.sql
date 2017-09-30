@@ -46,21 +46,21 @@ VALUES (31513, 33, 1) /* BONDED_INT */
      , (31513, 174, 3) /* APPRAISAL_PAGES_INT */
      , (31513, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31513, 174, 3) /* APPRAISAL_PAGES_INT */
      , (31513, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
      , (31513, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (31513, 0, 'Asheron Realaidain', 'prewritten', 4294967295, 0, 'Silvia,
 There was a time when I viewed your obsession with a certain level of flattery. To know that I, but a humble servant of the light, should inspire such feelings in your heart did indeed fill me with a measure of pride. But any good will I may have once held for you is no more! When you tricked Elysa into delivering the poisoned basket of fruit to me, I said nothing. When you spent those thirty nights on my doorstep, I said nothing. When you threw your raiment over the walls of my home in the middle
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (31513, 1, 'Asheron Realaidain', 'prewritten', 4294967295, 0, 'of one of my stern lectures to Borelean, I said not a word! But this! This time you have gone too far, woman!
@@ -68,7 +68,7 @@ VALUES (31513, 1, 'Asheron Realaidain', 'prewritten', 4294967295, 0, 'of one of 
 The white rabbit may be a terrible, vengeful beast, but he does not deserve to end up in some cookpot like a common hare! He is a noble beast, and ought to be treated as such. I cannot condone such actions, and I will no longer respond to your demonstrations of "affection." I''ve a mind to cast you into portal space, but out of respect for Queen Elysa, I''ll not harm her subjects thus. Consider this my farewell to you, you loon of an Isparian.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (31513, 2, 'Asheron Realaidain', 'prewritten', 4294967295, 0, 'And by the way, your son was born on Ispar. Consider that a clue.

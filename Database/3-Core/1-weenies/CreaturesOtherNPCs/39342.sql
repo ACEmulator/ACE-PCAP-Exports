@@ -37,6 +37,6 @@ VALUES (39342, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (39342, 33459, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (39342, 2, 33459);
 

@@ -50,14 +50,14 @@ VALUES (35565, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35565, 69, 0) /* IS_SELLABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35565, 174, 4) /* APPRAISAL_PAGES_INT */
      , (35565, 175, 4) /* APPRAISAL_MAX_PAGES_INT */
      , (35565, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (35565, 0, 'Diyas al-Yat', 'prewritten', 4294967295, 0, 'Initial observations, Entity: "Harraag"
@@ -67,7 +67,7 @@ The entity that calls itself "Harraag" seems to have adapted well to its alterat
 Also, the entity has maintained its original "soul", with little evidence of the essence placed within it.  This will also require further study.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (35565, 1, 'Diyas al-Yat', 'prewritten', 4294967295, 0, 'Entity observations, post-release:
@@ -75,7 +75,7 @@ VALUES (35565, 1, 'Diyas al-Yat', 'prewritten', 4294967295, 0, 'Entity observati
 Entity Harraag immediately set to following the compulsions implanted in its grey matter when released.  The entity immediately made contact with those of its species, and began to sway them to follow it, largely through brute force.  Resistance to this conversion seems very high, but that seems to be the nature of the entity''s base species.  The entity''s progress will be monitored from a discreet distance.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (35565, 2, 'Diyas al-Yat', 'prewritten', 4294967295, 0, 'Entry 2, Entity Haraag:

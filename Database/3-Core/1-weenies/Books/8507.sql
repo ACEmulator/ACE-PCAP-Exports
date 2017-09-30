@@ -45,14 +45,14 @@ VALUES (8507, 19, 90) /* VALUE_INT */
      , (8507, 174, 1) /* APPRAISAL_PAGES_INT */
      , (8507, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8507, 174, 1) /* APPRAISAL_PAGES_INT */
      , (8507, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (8507, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (8507, 0, 'Unknown', 'prewritten', 4294967295, 0, '

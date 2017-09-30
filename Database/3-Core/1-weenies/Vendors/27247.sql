@@ -113,7 +113,7 @@ VALUES (27247, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27247, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27247, 74, 262401) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -129,33 +129,33 @@ VALUES (27247, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (27247, 311, 4)
-     , (27247, 305, 4)
-     , (27247, 363, 4)
-     , (27247, 300, 4)
-     , (27247, 4586, 4)
-     , (27247, 4585, 4)
-     , (27247, 5339, 4)
-     , (27247, 3599, 4)
-     , (27247, 3603, 4)
-     , (27247, 3601, 4)
-     , (27247, 3605, 4)
-     , (27247, 3598, 4)
-     , (27247, 3602, 4)
-     , (27247, 9359, 4)
-     , (27247, 9363, 4)
-     , (27247, 9362, 4)
-     , (27247, 9361, 4)
-     , (27247, 9366, 4)
-     , (27247, 9377, 4)
-     , (27247, 9378, 4)
-     , (27247, 44074, 4)
-     , (27247, 44070, 4)
-     , (27247, 44071, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27247, 4, 311)
+     , (27247, 4, 305)
+     , (27247, 4, 363)
+     , (27247, 4, 300)
+     , (27247, 4, 4586)
+     , (27247, 4, 4585)
+     , (27247, 4, 5339)
+     , (27247, 4, 3599)
+     , (27247, 4, 3603)
+     , (27247, 4, 3601)
+     , (27247, 4, 3605)
+     , (27247, 4, 3598)
+     , (27247, 4, 3602)
+     , (27247, 4, 9359)
+     , (27247, 4, 9363)
+     , (27247, 4, 9362)
+     , (27247, 4, 9361)
+     , (27247, 4, 9366)
+     , (27247, 4, 9377)
+     , (27247, 4, 9378)
+     , (27247, 4, 44074)
+     , (27247, 4, 44070)
+     , (27247, 4, 44071);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (27247, 363, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27247, 2, 363);
 

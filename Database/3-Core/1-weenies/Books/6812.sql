@@ -34,14 +34,14 @@ VALUES (6812, 13, True) /* ETHEREAL_BOOL */
      , (6812, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6812, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6812, 174, 1) /* APPRAISAL_PAGES_INT */
      , (6812, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (6812, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (6812, 0, 'Charred adventurer', 'prewritten', 4294967295, 0, '

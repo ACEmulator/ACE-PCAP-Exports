@@ -113,7 +113,7 @@ VALUES (1380, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1380, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1380, 74, 262401) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -129,33 +129,33 @@ VALUES (1380, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1380, 311, 4)
-     , (1380, 305, 4)
-     , (1380, 363, 4)
-     , (1380, 300, 4)
-     , (1380, 4586, 4)
-     , (1380, 4585, 4)
-     , (1380, 5339, 4)
-     , (1380, 3599, 4)
-     , (1380, 3603, 4)
-     , (1380, 3601, 4)
-     , (1380, 3605, 4)
-     , (1380, 3598, 4)
-     , (1380, 3602, 4)
-     , (1380, 9359, 4)
-     , (1380, 9363, 4)
-     , (1380, 9362, 4)
-     , (1380, 9361, 4)
-     , (1380, 9366, 4)
-     , (1380, 9377, 4)
-     , (1380, 9378, 4)
-     , (1380, 44074, 4)
-     , (1380, 44070, 4)
-     , (1380, 44071, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1380, 4, 311)
+     , (1380, 4, 305)
+     , (1380, 4, 363)
+     , (1380, 4, 300)
+     , (1380, 4, 4586)
+     , (1380, 4, 4585)
+     , (1380, 4, 5339)
+     , (1380, 4, 3599)
+     , (1380, 4, 3603)
+     , (1380, 4, 3601)
+     , (1380, 4, 3605)
+     , (1380, 4, 3598)
+     , (1380, 4, 3602)
+     , (1380, 4, 9359)
+     , (1380, 4, 9363)
+     , (1380, 4, 9362)
+     , (1380, 4, 9361)
+     , (1380, 4, 9366)
+     , (1380, 4, 9377)
+     , (1380, 4, 9378)
+     , (1380, 4, 44074)
+     , (1380, 4, 44070)
+     , (1380, 4, 44071);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (1380, 363, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1380, 2, 363);
 

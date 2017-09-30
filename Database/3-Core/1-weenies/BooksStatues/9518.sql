@@ -87,14 +87,14 @@ VALUES (9518, 19, 0) /* VALUE_INT */
      , (9518, 174, 1) /* APPRAISAL_PAGES_INT */
      , (9518, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9518, 174, 1) /* APPRAISAL_PAGES_INT */
      , (9518, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (9518, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9518, 0, '', 'prewritten', 4294967295, 0, '

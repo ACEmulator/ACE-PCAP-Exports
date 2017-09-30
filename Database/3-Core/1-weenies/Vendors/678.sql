@@ -111,7 +111,7 @@ VALUES (678, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (678, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (678, 74, 1074003974) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -127,46 +127,46 @@ VALUES (678, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (678, 35, 4)
-     , (678, 554, 4)
-     , (678, 413, 4)
-     , (678, 414, 4)
-     , (678, 55, 4)
-     , (678, 415, 4)
-     , (678, 2605, 4)
-     , (678, 108, 4)
-     , (678, 80, 4)
-     , (678, 416, 4)
-     , (678, 85, 4)
-     , (678, 75, 4)
-     , (678, 8489, 4)
-     , (678, 8488, 4)
-     , (678, 76, 4)
-     , (678, 40, 4)
-     , (678, 57, 4)
-     , (678, 61, 4)
-     , (678, 66, 4)
-     , (678, 110, 4)
-     , (678, 82, 4)
-     , (678, 87, 4)
-     , (678, 114, 4)
-     , (678, 107, 4)
-     , (678, 92, 4)
-     , (678, 95, 4)
-     , (678, 2621, 4)
-     , (678, 2622, 4)
-     , (678, 2623, 4)
-     , (678, 2624, 4)
-     , (678, 2625, 4)
-     , (678, 2626, 4)
-     , (678, 2627, 4)
-     , (678, 20628, 4)
-     , (678, 20629, 4)
-     , (678, 20630, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (678, 4, 35)
+     , (678, 4, 554)
+     , (678, 4, 413)
+     , (678, 4, 414)
+     , (678, 4, 55)
+     , (678, 4, 415)
+     , (678, 4, 2605)
+     , (678, 4, 108)
+     , (678, 4, 80)
+     , (678, 4, 416)
+     , (678, 4, 85)
+     , (678, 4, 75)
+     , (678, 4, 8489)
+     , (678, 4, 8488)
+     , (678, 4, 76)
+     , (678, 4, 40)
+     , (678, 4, 57)
+     , (678, 4, 61)
+     , (678, 4, 66)
+     , (678, 4, 110)
+     , (678, 4, 82)
+     , (678, 4, 87)
+     , (678, 4, 114)
+     , (678, 4, 107)
+     , (678, 4, 92)
+     , (678, 4, 95)
+     , (678, 4, 2621)
+     , (678, 4, 2622)
+     , (678, 4, 2623)
+     , (678, 4, 2624)
+     , (678, 4, 2625)
+     , (678, 4, 2626)
+     , (678, 4, 2627)
+     , (678, 4, 20628)
+     , (678, 4, 20629)
+     , (678, 4, 20630);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (678, 352, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (678, 2, 352);
 

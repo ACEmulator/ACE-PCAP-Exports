@@ -44,14 +44,14 @@ VALUES (5160, 19, 0) /* VALUE_INT */
      , (5160, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5160, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5160, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5160, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (5160, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (5160, 0, 'Sarqah bint Ak', 'prewritten', 4294967295, 0, '

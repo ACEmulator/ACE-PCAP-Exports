@@ -33,14 +33,14 @@ VALUES (14441, 13, True) /* ETHEREAL_BOOL */
      , (14441, 14, True) /* GRAVITY_STATUS_BOOL */
      , (14441, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14441, 174, 2) /* APPRAISAL_PAGES_INT */
      , (14441, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (14441, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14441, 0, 'Sir Tenshin', 'prewritten', 4294967295, 0, 'Dame Tsaya,
@@ -50,7 +50,7 @@ It is with a great deal of stress and trepidation that I update you on the lates
 After interviewing the farmer, the bearer of this message found a trap door towards the 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14441, 1, 'Sir Tenshin', 'prewritten', 4294967295, 0, 'rear of his house, leading down to a seeminly innocuous cellar. However, a large cache of weapons was found behind a hidden doorway as well as stacks of Guard uniforms.

@@ -110,7 +110,7 @@ VALUES (41752, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41752, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41752, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -126,11 +126,11 @@ VALUES (41752, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (41752, 41766, 4)
-     , (41752, 41767, 4)
-     , (41752, 41768, 4)
-     , (41752, 41769, 4)
-     , (41752, 41770, 4)
-     , (41752, 41771, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41752, 4, 41766)
+     , (41752, 4, 41767)
+     , (41752, 4, 41768)
+     , (41752, 4, 41769)
+     , (41752, 4, 41770)
+     , (41752, 4, 41771);
 

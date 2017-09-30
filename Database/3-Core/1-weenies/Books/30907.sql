@@ -46,14 +46,14 @@ VALUES (30907, 33, 0) /* BONDED_INT */
      , (30907, 174, 1) /* APPRAISAL_PAGES_INT */
      , (30907, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30907, 174, 1) /* APPRAISAL_PAGES_INT */
      , (30907, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
      , (30907, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (30907, 0, 'Carlo di Cenza', 'prewritten', 4294967295, 0, 'I rode with a contingent of twenty-odd knights and squires - seasoned veterans all. The arctic wind of the plains seeped through our fur-lined armor and chilled our very bones. However, when we happened upon Varicci''s mages, we noticed that they wore naught but thin, simple robes bearing the insignia of Sanamar. Sensing an easy victory, our knights unsheathed their weapons and attacked. 

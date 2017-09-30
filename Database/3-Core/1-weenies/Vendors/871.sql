@@ -109,7 +109,7 @@ VALUES (871, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (871, 64, 83) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (871, 74, 1074004225) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -125,32 +125,32 @@ VALUES (871, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (871, 4195, 4)
-     , (871, 314, 4)
-     , (871, 22158, 4)
-     , (871, 327, 4)
-     , (871, 336, 4)
-     , (871, 353, 4)
-     , (871, 356, 4)
-     , (871, 362, 4)
-     , (871, 359, 4)
-     , (871, 320, 4)
-     , (871, 2621, 4)
-     , (871, 2622, 4)
-     , (871, 2623, 4)
-     , (871, 2624, 4)
-     , (871, 2625, 4)
-     , (871, 2626, 4)
-     , (871, 2627, 4)
-     , (871, 20628, 4)
-     , (871, 20629, 4)
-     , (871, 20630, 4)
-     , (871, 45683, 4)
-     , (871, 45684, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (871, 4, 4195)
+     , (871, 4, 314)
+     , (871, 4, 22158)
+     , (871, 4, 327)
+     , (871, 4, 336)
+     , (871, 4, 353)
+     , (871, 4, 356)
+     , (871, 4, 362)
+     , (871, 4, 359)
+     , (871, 4, 320)
+     , (871, 4, 2621)
+     , (871, 4, 2622)
+     , (871, 4, 2623)
+     , (871, 4, 2624)
+     , (871, 4, 2625)
+     , (871, 4, 2626)
+     , (871, 4, 2627)
+     , (871, 4, 20628)
+     , (871, 4, 20629)
+     , (871, 4, 20630)
+     , (871, 4, 45683)
+     , (871, 4, 45684);
 
 /* Object Wield List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (871, 352, 2);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (871, 2, 352);
 

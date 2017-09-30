@@ -105,7 +105,7 @@ VALUES (8436, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8436, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Vendor Data */
+/* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8436, 74, 266368) /* MERCHANDISE_ITEM_TYPES_INT */
@@ -121,34 +121,34 @@ VALUES (8436, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 
 /* Vendor Shop Selection List */
 
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `weenieClassId`, `destinationType`)
-VALUES (8436, 2457, 4)
-     , (8436, 377, 4)
-     , (8436, 27319, 4)
-     , (8436, 2460, 4)
-     , (8436, 379, 4)
-     , (8436, 27322, 4)
-     , (8436, 378, 4)
-     , (8436, 27326, 4)
-     , (8436, 2470, 4)
-     , (8436, 628, 4)
-     , (8436, 629, 4)
-     , (8436, 630, 4)
-     , (8436, 4587, 4)
-     , (8436, 4596, 4)
-     , (8436, 4593, 4)
-     , (8436, 753, 4)
-     , (8436, 754, 4)
-     , (8436, 755, 4)
-     , (8436, 756, 4)
-     , (8436, 757, 4)
-     , (8436, 758, 4)
-     , (8436, 759, 4)
-     , (8436, 760, 4)
-     , (8436, 761, 4)
-     , (8436, 762, 4)
-     , (8436, 763, 4)
-     , (8436, 764, 4)
-     , (8436, 2621, 4)
-     , (8436, 2622, 4);
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8436, 4, 2457)
+     , (8436, 4, 377)
+     , (8436, 4, 27319)
+     , (8436, 4, 2460)
+     , (8436, 4, 379)
+     , (8436, 4, 27322)
+     , (8436, 4, 378)
+     , (8436, 4, 27326)
+     , (8436, 4, 2470)
+     , (8436, 4, 628)
+     , (8436, 4, 629)
+     , (8436, 4, 630)
+     , (8436, 4, 4587)
+     , (8436, 4, 4596)
+     , (8436, 4, 4593)
+     , (8436, 4, 753)
+     , (8436, 4, 754)
+     , (8436, 4, 755)
+     , (8436, 4, 756)
+     , (8436, 4, 757)
+     , (8436, 4, 758)
+     , (8436, 4, 759)
+     , (8436, 4, 760)
+     , (8436, 4, 761)
+     , (8436, 4, 762)
+     , (8436, 4, 763)
+     , (8436, 4, 764)
+     , (8436, 4, 2621)
+     , (8436, 4, 2622);
 

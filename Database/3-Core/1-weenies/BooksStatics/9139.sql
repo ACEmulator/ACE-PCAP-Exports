@@ -35,14 +35,14 @@ VALUES (9139, 13, True) /* ETHEREAL_BOOL */
      , (9139, 19, True) /* ATTACKABLE_BOOL */
      , (9139, 1, True) /* STUCK_BOOL */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9139, 174, 2) /* APPRAISAL_PAGES_INT */
      , (9139, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
      , (9139, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9139, 0, 'Ardry the Dubious', 'prewritten', 4294967295, 0, 'I have had more than my fill of these purple devildogs!  The Tumerok defenders of this base are infuriatingly persistent.  Normally I have no trouble fighting them, but their swarming attacks exhausted me and left me vulnerable, just as their leader caught me unaware with a most painful shot from his crossbow!  After suffering through innumerable trips to the lifestone, trying to recover some of my most precious items, I am giving up.  A good explorer knows to minimize his losses.

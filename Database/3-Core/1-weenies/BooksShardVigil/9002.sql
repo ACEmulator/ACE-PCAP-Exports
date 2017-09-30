@@ -41,14 +41,14 @@ VALUES (9002, 19, 0) /* VALUE_INT */
      , (9002, 174, 9) /* APPRAISAL_PAGES_INT */
      , (9002, 175, 9) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9002, 174, 9) /* APPRAISAL_PAGES_INT */
      , (9002, 175, 9) /* APPRAISAL_MAX_PAGES_INT */
      , (9002, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9002, 0, 'The Vigilant', 'prewritten', 4294967295, 0, 'Upon this marker may be found the names of the known defenders of the Shard of the Herald, henceforth to be honorably known as The Vigilant. Throughout the month of Leafcull, Portal Year 11, these individuals defended the final Soul Crystal in defiance of the Shadows and their human servants. Regardless of the hour or other demands on their time, they kept their vigil; a flame to keep the night at bay.
@@ -56,7 +56,7 @@ VALUES (9002, 0, 'The Vigilant', 'prewritten', 4294967295, 0, 'Upon this marker 
 There were others who assisted in this noble stand against the darkness; their names are unfortunately lost in the mist of time and memory. Bow your heads, and honor them.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9002, 1, 'The Vigilant', 'prewritten', 4294967295, 0, '
@@ -74,7 +74,7 @@ VALUES (9002, 1, 'The Vigilant', 'prewritten', 4294967295, 0, '
                        Wren the Blurry
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9002, 2, 'The Vigilant', 'prewritten', 4294967295, 0, 'Acex
@@ -95,7 +95,7 @@ Cecil the Wise
 Chaqella
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9002, 3, 'The Vigilant', 'prewritten', 4294967295, 0, 'Chaton Gato
@@ -116,7 +116,7 @@ Eaglet the Mage
 Edlund
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9002, 4, 'The Vigilant', 'prewritten', 4294967295, 0, 'Fiyo
@@ -137,7 +137,7 @@ Kaliel
 Kay''l
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9002, 5, 'The Vigilant', 'prewritten', 4294967295, 0, 'Keth al-Sheth
@@ -158,7 +158,7 @@ Orion Haspard
 Osian
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9002, 6, 'The Vigilant', 'prewritten', 4294967295, 0, 'Othinn
@@ -179,7 +179,7 @@ Shadow Death
 Shanra
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9002, 7, 'The Vigilant', 'prewritten', 4294967295, 0, 'Shisho
@@ -200,7 +200,7 @@ Tripp
 Uber Caq
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (9002, 8, 'The Vigilant', 'prewritten', 4294967295, 0, '

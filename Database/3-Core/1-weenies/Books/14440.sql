@@ -46,14 +46,14 @@ VALUES (14440, 33, 1) /* BONDED_INT */
      , (14440, 174, 6) /* APPRAISAL_PAGES_INT */
      , (14440, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Book Data */
+/* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14440, 174, 6) /* APPRAISAL_PAGES_INT */
      , (14440, 175, 6) /* APPRAISAL_MAX_PAGES_INT */
      , (14440, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14440, 0, 'Sir Rylanan', 'prewritten', 4294967295, 0, 'Sir Tenshin,
@@ -61,7 +61,7 @@ VALUES (14440, 0, 'Sir Rylanan', 'prewritten', 4294967295, 0, 'Sir Tenshin,
 It is with great haste that I write you this message. The bearer of this message brings you tidings from both Holtburg and Yaraq. First, my latest news. I have recently been keeping surveillance on one of the newer citizens of this town--a "reformed" bandit from Marae Lassel claiming to have turned over a new leaf. It appears that this stranger is not as he claimed. A note found in his possession implied that he was employed to transport a cargo of some sort of substance being collected in the depths of Asuger Temple. 
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14440, 1, 'Sir Rylanan', 'prewritten', 4294967295, 0, 'The adventurer you see before you penetrated the depths of the temple and found a band of Hollow Minions laboring over a strange device, collecting  what looks to be concentrated portal space energy inside emulsified spherules of glass. I cannot fathom the purpose of these spherules--thinking better of performing my own analysis, I have sent the object to the Arcanum for examination. It would be best to get to the heart of this matter without delay.
@@ -70,7 +70,7 @@ I have appended a recent message from Dame Tsaya. She writes of a matter of grea
 concern occurring near Yaraq--I add it here
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14440, 2, 'Sir Rylanan', 'prewritten', 4294967295, 0, 'verbatim so as not to lose the urgency of her words.
@@ -82,7 +82,7 @@ Rylanan
 ***
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14440, 3, 'Sir Rylanan', 'prewritten', 4294967295, 0, '(Copy of the letter from Dame Tsaya to Sir Rylanan)
@@ -94,13 +94,13 @@ I write my update to you with great fear and concern for the townsfolk of Yaraq.
 I have just learned that he recently  encouraged the bearer of this message to visit a "friend" of his in the Darkened Halls to the north of here. Once there, the adventurer who stands before you was
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14440, 4, 'Sir Rylanan', 'prewritten', 4294967295, 0, 'attacked on all sides by a party of Hollow Minions, who were obviously lying in ambush for unwary explorers. There was a terrible device in the depths of the Halls, ostensibly created to extract  a living being''s vitals from his own skin, leaving only a perfect human epidermis. One such human husk has been delivered to me, and I must report that the ghastly sight of it has not left me unshaken. I have reserved the remains for proper burial--I cannot imagine the final tortures this poor soul must have been subject to before his final passing.
 ');
 
-/* Page Data */
+/* Extended Page Data */
 
 REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
 VALUES (14440, 5, 'Sir Rylanan', 'prewritten', 4294967295, 0, 'What disturbs me the most is that I cannot discern a purpose for these atrocities. Who could find a need for these revolting trophies?
