@@ -23,6 +23,7 @@ VALUES (151, 53, 101) /* PLACEMENT_POSITION_INT */
      , (151, 5, 270) /* ENCUMB_VAL_INT */
      , (151, 151, 1) /* HOOK_TYPE_INT */
      , (151, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (151, 12, 1) /* STACK_SIZE_INT */
      , (151, 94, 4194304) /* TARGET_TYPE_INT */
      , (151, 16, 2097160) /* ITEM_USEABLE_INT */
      , (151, 19, 27) /* VALUE_INT */

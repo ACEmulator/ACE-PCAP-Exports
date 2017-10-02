@@ -24,6 +24,7 @@ VALUES (5768, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5768, 51, 2) /* COMBAT_USE_INT */
      , (5768, 151, 2) /* HOOK_TYPE_INT */
      , (5768, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5768, 12, 1) /* STACK_SIZE_INT */
      , (5768, 16, 1) /* ITEM_USEABLE_INT */
      , (5768, 9, 4194304) /* LOCATIONS_INT */
      , (5768, 19, 15) /* VALUE_INT */

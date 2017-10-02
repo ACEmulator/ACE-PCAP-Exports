@@ -23,6 +23,7 @@ VALUES (7442, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7442, 1, 67108864) /* ITEM_TYPE_INT */
      , (7442, 5, 15) /* ENCUMB_VAL_INT */
      , (7442, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (7442, 12, 1) /* STACK_SIZE_INT */
      , (7442, 94, 1) /* TARGET_TYPE_INT */
      , (7442, 16, 524296) /* ITEM_USEABLE_INT */
      , (7442, 19, 1500) /* VALUE_INT */

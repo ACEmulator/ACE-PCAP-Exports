@@ -22,6 +22,7 @@ VALUES (20023, 53, 101) /* PLACEMENT_POSITION_INT */
      , (20023, 5, 40) /* ENCUMB_VAL_INT */
      , (20023, 151, 2) /* HOOK_TYPE_INT */
      , (20023, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (20023, 12, 1) /* STACK_SIZE_INT */
      , (20023, 94, 33159) /* TARGET_TYPE_INT */
      , (20023, 16, 524296) /* ITEM_USEABLE_INT */
      , (20023, 19, 15000) /* VALUE_INT */

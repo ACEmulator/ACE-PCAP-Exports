@@ -23,6 +23,7 @@ VALUES (5938, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5938, 5, 1000) /* ENCUMB_VAL_INT */
      , (5938, 151, 9) /* HOOK_TYPE_INT */
      , (5938, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (5938, 12, 1) /* STACK_SIZE_INT */
      , (5938, 94, 3013615) /* TARGET_TYPE_INT */
      , (5938, 16, 524296) /* ITEM_USEABLE_INT */
      , (5938, 19, 5) /* VALUE_INT */

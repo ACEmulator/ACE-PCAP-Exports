@@ -23,6 +23,7 @@ VALUES (5709, 1, 256) /* ITEM_TYPE_INT */
      , (5709, 51, 2) /* COMBAT_USE_INT */
      , (5709, 18, 32) /* UI_EFFECTS_INT */
      , (5709, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5709, 12, 1) /* STACK_SIZE_INT */
      , (5709, 16, 1) /* ITEM_USEABLE_INT */
      , (5709, 9, 4194304) /* LOCATIONS_INT */
      , (5709, 19, 45) /* VALUE_INT */

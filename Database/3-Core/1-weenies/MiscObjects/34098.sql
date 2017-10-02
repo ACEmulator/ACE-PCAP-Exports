@@ -22,6 +22,7 @@ VALUES (34098, 53, 101) /* PLACEMENT_POSITION_INT */
      , (34098, 5, 250) /* ENCUMB_VAL_INT */
      , (34098, 151, 2) /* HOOK_TYPE_INT */
      , (34098, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (34098, 12, 1) /* STACK_SIZE_INT */
      , (34098, 16, 1) /* ITEM_USEABLE_INT */
      , (34098, 93, 1044) /* PHYSICS_STATE_INT */
      , (34098, 9007, 1) /* Generic_WeenieType */;

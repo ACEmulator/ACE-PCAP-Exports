@@ -22,6 +22,7 @@ VALUES (546, 53, 101) /* PLACEMENT_POSITION_INT */
      , (546, 5, 45) /* ENCUMB_VAL_INT */
      , (546, 151, 15) /* HOOK_TYPE_INT */
      , (546, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (546, 12, 1) /* STACK_SIZE_INT */
      , (546, 16, 8) /* ITEM_USEABLE_INT */
      , (546, 19, 6) /* VALUE_INT */
      , (546, 93, 1044) /* PHYSICS_STATE_INT */

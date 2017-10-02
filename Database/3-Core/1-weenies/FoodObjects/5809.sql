@@ -23,6 +23,7 @@ VALUES (5809, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5809, 5, 1150) /* ENCUMB_VAL_INT */
      , (5809, 18, 8) /* UI_EFFECTS_INT */
      , (5809, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5809, 12, 1) /* STACK_SIZE_INT */
      , (5809, 16, 8) /* ITEM_USEABLE_INT */
      , (5809, 19, 3565) /* VALUE_INT */
      , (5809, 93, 1044) /* PHYSICS_STATE_INT */

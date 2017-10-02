@@ -22,6 +22,7 @@ VALUES (44719, 53, 101) /* PLACEMENT_POSITION_INT */
      , (44719, 1, 2048) /* ITEM_TYPE_INT */
      , (44719, 5, 50) /* ENCUMB_VAL_INT */
      , (44719, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (44719, 12, 1) /* STACK_SIZE_INT */
      , (44719, 16, 1) /* ITEM_USEABLE_INT */
      , (44719, 19, 1) /* VALUE_INT */
      , (44719, 93, 1044) /* PHYSICS_STATE_INT */

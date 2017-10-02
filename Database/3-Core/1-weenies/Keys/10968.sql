@@ -22,6 +22,7 @@ VALUES (10968, 53, 101) /* PLACEMENT_POSITION_INT */
      , (10968, 1, 16384) /* ITEM_TYPE_INT */
      , (10968, 5, 10) /* ENCUMB_VAL_INT */
      , (10968, 91, 1) /* MAX_STRUCTURE_INT */
+     , (10968, 92, 1) /* STRUCTURE_INT */
      , (10968, 94, 640) /* TARGET_TYPE_INT */
      , (10968, 16, 2097160) /* ITEM_USEABLE_INT */
      , (10968, 19, 5) /* VALUE_INT */

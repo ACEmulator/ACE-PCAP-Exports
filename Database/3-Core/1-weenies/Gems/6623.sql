@@ -23,6 +23,7 @@ VALUES (6623, 53, 101) /* PLACEMENT_POSITION_INT */
      , (6623, 5, 40) /* ENCUMB_VAL_INT */
      , (6623, 151, 2) /* HOOK_TYPE_INT */
      , (6623, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (6623, 12, 1) /* STACK_SIZE_INT */
      , (6623, 94, 2048) /* TARGET_TYPE_INT */
      , (6623, 16, 524296) /* ITEM_USEABLE_INT */
      , (6623, 93, 1044) /* PHYSICS_STATE_INT */

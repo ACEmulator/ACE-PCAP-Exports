@@ -23,6 +23,7 @@ VALUES (6354, 53, 101) /* PLACEMENT_POSITION_INT */
      , (6354, 5, 50) /* ENCUMB_VAL_INT */
      , (6354, 151, 2) /* HOOK_TYPE_INT */
      , (6354, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (6354, 12, 1) /* STACK_SIZE_INT */
      , (6354, 94, 128) /* TARGET_TYPE_INT */
      , (6354, 16, 524296) /* ITEM_USEABLE_INT */
      , (6354, 19, 100) /* VALUE_INT */

@@ -22,6 +22,7 @@ VALUES (3689, 53, 101) /* PLACEMENT_POSITION_INT */
      , (3689, 1, 128) /* ITEM_TYPE_INT */
      , (3689, 5, 220) /* ENCUMB_VAL_INT */
      , (3689, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (3689, 12, 1) /* STACK_SIZE_INT */
      , (3689, 94, 1) /* TARGET_TYPE_INT */
      , (3689, 16, 524296) /* ITEM_USEABLE_INT */
      , (3689, 19, 50) /* VALUE_INT */

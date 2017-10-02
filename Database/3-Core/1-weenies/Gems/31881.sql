@@ -23,6 +23,7 @@ VALUES (31881, 53, 101) /* PLACEMENT_POSITION_INT */
      , (31881, 5, 5) /* ENCUMB_VAL_INT */
      , (31881, 18, 1) /* UI_EFFECTS_INT */
      , (31881, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (31881, 12, 1) /* STACK_SIZE_INT */
      , (31881, 94, 16) /* TARGET_TYPE_INT */
      , (31881, 16, 1) /* ITEM_USEABLE_INT */
      , (31881, 93, 3092) /* PHYSICS_STATE_INT */

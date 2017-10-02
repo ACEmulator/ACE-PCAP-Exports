@@ -23,6 +23,7 @@ VALUES (769, 53, 101) /* PLACEMENT_POSITION_INT */
      , (769, 1, 4096) /* ITEM_TYPE_INT */
      , (769, 5, 20) /* ENCUMB_VAL_INT */
      , (769, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (769, 12, 1) /* STACK_SIZE_INT */
      , (769, 16, 1) /* ITEM_USEABLE_INT */
      , (769, 19, 50) /* VALUE_INT */
      , (769, 93, 1044) /* PHYSICS_STATE_INT */

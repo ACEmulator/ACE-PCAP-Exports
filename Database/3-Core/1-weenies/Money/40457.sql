@@ -22,6 +22,7 @@ VALUES (40457, 1, 64) /* ITEM_TYPE_INT */
      , (40457, 5, 50) /* ENCUMB_VAL_INT */
      , (40457, 18, 1) /* UI_EFFECTS_INT */
      , (40457, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (40457, 12, 1) /* STACK_SIZE_INT */
      , (40457, 16, 1) /* ITEM_USEABLE_INT */
      , (40457, 93, 1044) /* PHYSICS_STATE_INT */
      , (40457, 9007, 9) /* Coin_WeenieType */;

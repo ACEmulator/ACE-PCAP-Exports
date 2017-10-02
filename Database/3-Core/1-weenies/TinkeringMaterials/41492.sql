@@ -25,6 +25,8 @@ VALUES (41492, 53, 101) /* PLACEMENT_POSITION_INT */
      , (41492, 5, 100) /* ENCUMB_VAL_INT */
      , (41492, 151, 9) /* HOOK_TYPE_INT */
      , (41492, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (41492, 12, 1) /* STACK_SIZE_INT */
+     , (41492, 92, 0) /* STRUCTURE_INT */
      , (41492, 94, 8) /* TARGET_TYPE_INT */
      , (41492, 16, 524296) /* ITEM_USEABLE_INT */
      , (41492, 19, 10) /* VALUE_INT */

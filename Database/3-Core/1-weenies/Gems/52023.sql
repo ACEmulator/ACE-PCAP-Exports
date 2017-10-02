@@ -28,6 +28,7 @@ VALUES (52023, 53, 101) /* PLACEMENT_POSITION_INT */
      , (52023, 18, 1) /* UI_EFFECTS_INT */
      , (52023, 151, 11) /* HOOK_TYPE_INT */
      , (52023, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (52023, 12, 1) /* STACK_SIZE_INT */
      , (52023, 94, 16) /* TARGET_TYPE_INT */
      , (52023, 16, 8) /* ITEM_USEABLE_INT */
      , (52023, 19, 500000) /* VALUE_INT */

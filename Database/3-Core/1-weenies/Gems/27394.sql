@@ -26,6 +26,7 @@ VALUES (27394, 53, 101) /* PLACEMENT_POSITION_INT */
      , (27394, 280, 1000) /* SHARED_COOLDOWN_INT */
      , (27394, 151, 2) /* HOOK_TYPE_INT */
      , (27394, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (27394, 12, 1) /* STACK_SIZE_INT */
      , (27394, 94, 16) /* TARGET_TYPE_INT */
      , (27394, 16, 8) /* ITEM_USEABLE_INT */
      , (27394, 19, 500) /* VALUE_INT */

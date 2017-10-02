@@ -22,6 +22,7 @@ VALUES (41396, 53, 101) /* PLACEMENT_POSITION_INT */
      , (41396, 5, 100) /* ENCUMB_VAL_INT */
      , (41396, 151, 9) /* HOOK_TYPE_INT */
      , (41396, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (41396, 12, 1) /* STACK_SIZE_INT */
      , (41396, 16, 1) /* ITEM_USEABLE_INT */
      , (41396, 19, 10000) /* VALUE_INT */
      , (41396, 93, 1044) /* PHYSICS_STATE_INT */

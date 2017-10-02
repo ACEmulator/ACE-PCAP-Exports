@@ -24,6 +24,7 @@ VALUES (2023, 53, 101) /* PLACEMENT_POSITION_INT */
      , (2023, 51, 3) /* COMBAT_USE_INT */
      , (2023, 151, 2) /* HOOK_TYPE_INT */
      , (2023, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (2023, 12, 1) /* STACK_SIZE_INT */
      , (2023, 16, 1) /* ITEM_USEABLE_INT */
      , (2023, 9, 8388608) /* LOCATIONS_INT */
      , (2023, 19, 10) /* VALUE_INT */

@@ -23,6 +23,7 @@ VALUES (5218, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5218, 5, 450) /* ENCUMB_VAL_INT */
      , (5218, 18, 4) /* UI_EFFECTS_INT */
      , (5218, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5218, 12, 1) /* STACK_SIZE_INT */
      , (5218, 16, 8) /* ITEM_USEABLE_INT */
      , (5218, 19, 720) /* VALUE_INT */
      , (5218, 93, 1044) /* PHYSICS_STATE_INT */

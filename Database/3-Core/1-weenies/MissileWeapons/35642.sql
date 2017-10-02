@@ -25,6 +25,7 @@ VALUES (35642, 53, 1) /* PLACEMENT_POSITION_INT */
      , (35642, 5, 895) /* ENCUMB_VAL_INT */
      , (35642, 51, 2) /* COMBAT_USE_INT */
      , (35642, 11, 250) /* MAX_STACK_SIZE_INT */
+     , (35642, 12, 1) /* STACK_SIZE_INT */
      , (35642, 16, 1) /* ITEM_USEABLE_INT */
      , (35642, 9, 4194304) /* LOCATIONS_INT */
      , (35642, 19, 268500) /* VALUE_INT */

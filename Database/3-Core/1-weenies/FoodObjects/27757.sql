@@ -23,6 +23,7 @@ VALUES (27757, 53, 101) /* PLACEMENT_POSITION_INT */
      , (27757, 5, 210) /* ENCUMB_VAL_INT */
      , (27757, 151, 11) /* HOOK_TYPE_INT */
      , (27757, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (27757, 12, 1) /* STACK_SIZE_INT */
      , (27757, 16, 8) /* ITEM_USEABLE_INT */
      , (27757, 93, 1044) /* PHYSICS_STATE_INT */
      , (27757, 9007, 18) /* Food_WeenieType */;

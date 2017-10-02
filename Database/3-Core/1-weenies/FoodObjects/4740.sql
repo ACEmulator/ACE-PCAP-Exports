@@ -22,6 +22,7 @@ VALUES (4740, 53, 101) /* PLACEMENT_POSITION_INT */
      , (4740, 1, 32) /* ITEM_TYPE_INT */
      , (4740, 5, 825) /* ENCUMB_VAL_INT */
      , (4740, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (4740, 12, 1) /* STACK_SIZE_INT */
      , (4740, 16, 8) /* ITEM_USEABLE_INT */
      , (4740, 19, 220) /* VALUE_INT */
      , (4740, 93, 1044) /* PHYSICS_STATE_INT */

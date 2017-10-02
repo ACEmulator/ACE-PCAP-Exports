@@ -24,6 +24,7 @@ VALUES (29152, 53, 101) /* PLACEMENT_POSITION_INT */
      , (29152, 5, 1000) /* ENCUMB_VAL_INT */
      , (29152, 151, 1) /* HOOK_TYPE_INT */
      , (29152, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (29152, 12, 1) /* STACK_SIZE_INT */
      , (29152, 16, 1) /* ITEM_USEABLE_INT */
      , (29152, 19, 100) /* VALUE_INT */
      , (29152, 93, 1044) /* PHYSICS_STATE_INT */

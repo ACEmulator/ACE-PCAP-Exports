@@ -25,6 +25,7 @@ VALUES (43134, 53, 1) /* PLACEMENT_POSITION_INT */
      , (43134, 51, 3) /* COMBAT_USE_INT */
      , (43134, 18, 64) /* UI_EFFECTS_INT */
      , (43134, 11, 2500) /* MAX_STACK_SIZE_INT */
+     , (43134, 12, 1) /* STACK_SIZE_INT */
      , (43134, 16, 1) /* ITEM_USEABLE_INT */
      , (43134, 9, 8388608) /* LOCATIONS_INT */
      , (43134, 19, 50) /* VALUE_INT */

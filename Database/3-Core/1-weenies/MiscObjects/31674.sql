@@ -23,6 +23,7 @@ VALUES (31674, 53, 101) /* PLACEMENT_POSITION_INT */
      , (31674, 5, 25) /* ENCUMB_VAL_INT */
      , (31674, 151, 9) /* HOOK_TYPE_INT */
      , (31674, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (31674, 12, 1) /* STACK_SIZE_INT */
      , (31674, 94, 4194336) /* TARGET_TYPE_INT */
      , (31674, 16, 524296) /* ITEM_USEABLE_INT */
      , (31674, 19, 100) /* VALUE_INT */

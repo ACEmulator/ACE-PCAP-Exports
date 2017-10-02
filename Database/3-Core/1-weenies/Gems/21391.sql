@@ -24,6 +24,7 @@ VALUES (21391, 53, 101) /* PLACEMENT_POSITION_INT */
      , (21391, 5, 10) /* ENCUMB_VAL_INT */
      , (21391, 18, 1) /* UI_EFFECTS_INT */
      , (21391, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (21391, 12, 1) /* STACK_SIZE_INT */
      , (21391, 94, 16) /* TARGET_TYPE_INT */
      , (21391, 16, 8) /* ITEM_USEABLE_INT */
      , (21391, 93, 3092) /* PHYSICS_STATE_INT */

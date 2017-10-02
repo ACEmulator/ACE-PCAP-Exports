@@ -23,6 +23,7 @@ VALUES (9294, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9294, 5, 50) /* ENCUMB_VAL_INT */
      , (9294, 151, 2) /* HOOK_TYPE_INT */
      , (9294, 91, 1) /* MAX_STRUCTURE_INT */
+     , (9294, 92, 1) /* STRUCTURE_INT */
      , (9294, 94, 640) /* TARGET_TYPE_INT */
      , (9294, 16, 2097160) /* ITEM_USEABLE_INT */
      , (9294, 93, 1044) /* PHYSICS_STATE_INT */

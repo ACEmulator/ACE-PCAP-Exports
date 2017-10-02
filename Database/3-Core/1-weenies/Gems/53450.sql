@@ -25,6 +25,7 @@ VALUES (53450, 53, 101) /* PLACEMENT_POSITION_INT */
      , (53450, 18, 1) /* UI_EFFECTS_INT */
      , (53450, 151, 2) /* HOOK_TYPE_INT */
      , (53450, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (53450, 12, 1) /* STACK_SIZE_INT */
      , (53450, 94, 16) /* TARGET_TYPE_INT */
      , (53450, 16, 8) /* ITEM_USEABLE_INT */
      , (53450, 93, 3092) /* PHYSICS_STATE_INT */

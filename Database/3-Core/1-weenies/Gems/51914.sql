@@ -23,6 +23,7 @@ VALUES (51914, 53, 101) /* PLACEMENT_POSITION_INT */
      , (51914, 1, 2048) /* ITEM_TYPE_INT */
      , (51914, 5, 350) /* ENCUMB_VAL_INT */
      , (51914, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (51914, 12, 1) /* STACK_SIZE_INT */
      , (51914, 94, 33025) /* TARGET_TYPE_INT */
      , (51914, 16, 524296) /* ITEM_USEABLE_INT */
      , (51914, 19, 50) /* VALUE_INT */

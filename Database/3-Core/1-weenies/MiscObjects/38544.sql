@@ -22,6 +22,7 @@ VALUES (38544, 53, 101) /* PLACEMENT_POSITION_INT */
      , (38544, 1, 128) /* ITEM_TYPE_INT */
      , (38544, 5, 650) /* ENCUMB_VAL_INT */
      , (38544, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (38544, 12, 1) /* STACK_SIZE_INT */
      , (38544, 16, 1) /* ITEM_USEABLE_INT */
      , (38544, 19, 325) /* VALUE_INT */
      , (38544, 93, 1044) /* PHYSICS_STATE_INT */

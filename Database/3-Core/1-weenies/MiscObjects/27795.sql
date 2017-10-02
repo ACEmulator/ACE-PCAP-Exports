@@ -21,6 +21,7 @@ VALUES (27795, 53, 101) /* PLACEMENT_POSITION_INT */
      , (27795, 1, 128) /* ITEM_TYPE_INT */
      , (27795, 5, 700) /* ENCUMB_VAL_INT */
      , (27795, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (27795, 12, 1) /* STACK_SIZE_INT */
      , (27795, 94, 256) /* TARGET_TYPE_INT */
      , (27795, 16, 524296) /* ITEM_USEABLE_INT */
      , (27795, 19, 1) /* VALUE_INT */

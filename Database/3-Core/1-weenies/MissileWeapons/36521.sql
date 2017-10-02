@@ -26,6 +26,7 @@ VALUES (36521, 53, 1) /* PLACEMENT_POSITION_INT */
      , (36521, 51, 3) /* COMBAT_USE_INT */
      , (36521, 151, 2) /* HOOK_TYPE_INT */
      , (36521, 11, 5000) /* MAX_STACK_SIZE_INT */
+     , (36521, 12, 1) /* STACK_SIZE_INT */
      , (36521, 16, 1) /* ITEM_USEABLE_INT */
      , (36521, 9, 8388608) /* LOCATIONS_INT */
      , (36521, 19, 444) /* VALUE_INT */

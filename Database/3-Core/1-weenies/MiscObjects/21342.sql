@@ -21,6 +21,7 @@ VALUES (21342, 53, 101) /* PLACEMENT_POSITION_INT */
      , (21342, 1, 128) /* ITEM_TYPE_INT */
      , (21342, 5, 1000) /* ENCUMB_VAL_INT */
      , (21342, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (21342, 12, 1) /* STACK_SIZE_INT */
      , (21342, 16, 1) /* ITEM_USEABLE_INT */
      , (21342, 19, 2500) /* VALUE_INT */
      , (21342, 93, 1044) /* PHYSICS_STATE_INT */

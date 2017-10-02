@@ -21,6 +21,7 @@ VALUES (7053, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7053, 1, 128) /* ITEM_TYPE_INT */
      , (7053, 5, 10) /* ENCUMB_VAL_INT */
      , (7053, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (7053, 12, 1) /* STACK_SIZE_INT */
      , (7053, 94, 384) /* TARGET_TYPE_INT */
      , (7053, 16, 524296) /* ITEM_USEABLE_INT */
      , (7053, 93, 1044) /* PHYSICS_STATE_INT */

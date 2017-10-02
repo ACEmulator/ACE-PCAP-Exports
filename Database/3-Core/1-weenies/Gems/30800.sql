@@ -22,6 +22,7 @@ VALUES (30800, 1, 2048) /* ITEM_TYPE_INT */
      , (30800, 5, 50) /* ENCUMB_VAL_INT */
      , (30800, 280, 1000) /* SHARED_COOLDOWN_INT */
      , (30800, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (30800, 12, 1) /* STACK_SIZE_INT */
      , (30800, 94, 16) /* TARGET_TYPE_INT */
      , (30800, 16, 8) /* ITEM_USEABLE_INT */
      , (30800, 19, 400) /* VALUE_INT */

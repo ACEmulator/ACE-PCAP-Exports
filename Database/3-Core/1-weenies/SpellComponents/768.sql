@@ -23,6 +23,7 @@ VALUES (768, 53, 101) /* PLACEMENT_POSITION_INT */
      , (768, 1, 4096) /* ITEM_TYPE_INT */
      , (768, 5, 72) /* ENCUMB_VAL_INT */
      , (768, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (768, 12, 1) /* STACK_SIZE_INT */
      , (768, 16, 1) /* ITEM_USEABLE_INT */
      , (768, 19, 180) /* VALUE_INT */
      , (768, 93, 1044) /* PHYSICS_STATE_INT */

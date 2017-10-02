@@ -22,6 +22,7 @@ VALUES (8364, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8364, 1, 2048) /* ITEM_TYPE_INT */
      , (8364, 5, 1000) /* ENCUMB_VAL_INT */
      , (8364, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8364, 12, 1) /* STACK_SIZE_INT */
      , (8364, 94, 2048) /* TARGET_TYPE_INT */
      , (8364, 16, 524296) /* ITEM_USEABLE_INT */
      , (8364, 19, 10) /* VALUE_INT */

@@ -21,6 +21,7 @@ VALUES (28872, 1, 128) /* ITEM_TYPE_INT */
      , (28872, 5, 200) /* ENCUMB_VAL_INT */
      , (28872, 151, 1) /* HOOK_TYPE_INT */
      , (28872, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (28872, 12, 1) /* STACK_SIZE_INT */
      , (28872, 94, 128) /* TARGET_TYPE_INT */
      , (28872, 16, 524296) /* ITEM_USEABLE_INT */
      , (28872, 93, 1044) /* PHYSICS_STATE_INT */

@@ -22,6 +22,7 @@ VALUES (7040, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7040, 1, 128) /* ITEM_TYPE_INT */
      , (7040, 5, 10) /* ENCUMB_VAL_INT */
      , (7040, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (7040, 12, 1) /* STACK_SIZE_INT */
      , (7040, 94, 4194464) /* TARGET_TYPE_INT */
      , (7040, 16, 524296) /* ITEM_USEABLE_INT */
      , (7040, 93, 1044) /* PHYSICS_STATE_INT */

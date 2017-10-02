@@ -24,6 +24,7 @@ VALUES (51451, 53, 101) /* PLACEMENT_POSITION_INT */
      , (51451, 5, 919) /* ENCUMB_VAL_INT */
      , (51451, 151, 2) /* HOOK_TYPE_INT */
      , (51451, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (51451, 12, 1) /* STACK_SIZE_INT */
      , (51451, 94, 33025) /* TARGET_TYPE_INT */
      , (51451, 16, 524296) /* ITEM_USEABLE_INT */
      , (51451, 19, 653) /* VALUE_INT */

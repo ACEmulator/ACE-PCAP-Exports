@@ -23,6 +23,7 @@ VALUES (45491, 53, 101) /* PLACEMENT_POSITION_INT */
      , (45491, 1, 128) /* ITEM_TYPE_INT */
      , (45491, 5, 1) /* ENCUMB_VAL_INT */
      , (45491, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (45491, 12, 1) /* STACK_SIZE_INT */
      , (45491, 16, 1) /* ITEM_USEABLE_INT */
      , (45491, 19, 1) /* VALUE_INT */
      , (45491, 93, 1044) /* PHYSICS_STATE_INT */

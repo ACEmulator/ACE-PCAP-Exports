@@ -25,6 +25,7 @@ VALUES (47062, 53, 1) /* PLACEMENT_POSITION_INT */
      , (47062, 51, 3) /* COMBAT_USE_INT */
      , (47062, 151, 2) /* HOOK_TYPE_INT */
      , (47062, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (47062, 12, 1) /* STACK_SIZE_INT */
      , (47062, 16, 1) /* ITEM_USEABLE_INT */
      , (47062, 9, 8388608) /* LOCATIONS_INT */
      , (47062, 19, 94) /* VALUE_INT */

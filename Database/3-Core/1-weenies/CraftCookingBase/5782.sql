@@ -22,6 +22,7 @@ VALUES (5782, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5782, 1, 4194304) /* ITEM_TYPE_INT */
      , (5782, 5, 35) /* ENCUMB_VAL_INT */
      , (5782, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5782, 12, 1) /* STACK_SIZE_INT */
      , (5782, 94, 4194336) /* TARGET_TYPE_INT */
      , (5782, 16, 524296) /* ITEM_USEABLE_INT */
      , (5782, 19, 5) /* VALUE_INT */

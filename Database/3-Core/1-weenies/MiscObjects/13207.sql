@@ -19,6 +19,7 @@ VALUES (13207, 1, 128) /* ITEM_TYPE_INT */
      , (13207, 5, 80) /* ENCUMB_VAL_INT */
      , (13207, 151, 9) /* HOOK_TYPE_INT */
      , (13207, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (13207, 12, 1) /* STACK_SIZE_INT */
      , (13207, 94, 4194304) /* TARGET_TYPE_INT */
      , (13207, 16, 524296) /* ITEM_USEABLE_INT */
      , (13207, 19, 31) /* VALUE_INT */

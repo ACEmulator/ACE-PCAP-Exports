@@ -21,6 +21,7 @@ VALUES (21974, 1, 128) /* ITEM_TYPE_INT */
      , (21974, 5, 10) /* ENCUMB_VAL_INT */
      , (21974, 151, 11) /* HOOK_TYPE_INT */
      , (21974, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (21974, 12, 1) /* STACK_SIZE_INT */
      , (21974, 94, 128) /* TARGET_TYPE_INT */
      , (21974, 16, 524296) /* ITEM_USEABLE_INT */
      , (21974, 19, 5000) /* VALUE_INT */

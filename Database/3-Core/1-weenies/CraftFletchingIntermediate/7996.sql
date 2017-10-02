@@ -21,6 +21,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (7996, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7996, 1, 134217728) /* ITEM_TYPE_INT */
      , (7996, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7996, 12, 1) /* STACK_SIZE_INT */
      , (7996, 94, 134217728) /* TARGET_TYPE_INT */
      , (7996, 16, 524296) /* ITEM_USEABLE_INT */
      , (7996, 19, 1475) /* VALUE_INT */

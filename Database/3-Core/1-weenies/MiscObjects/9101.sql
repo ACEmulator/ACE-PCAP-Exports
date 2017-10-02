@@ -22,6 +22,7 @@ VALUES (9101, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9101, 1, 128) /* ITEM_TYPE_INT */
      , (9101, 5, 250) /* ENCUMB_VAL_INT */
      , (9101, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (9101, 12, 1) /* STACK_SIZE_INT */
      , (9101, 94, 128) /* TARGET_TYPE_INT */
      , (9101, 16, 524296) /* ITEM_USEABLE_INT */
      , (9101, 19, 2760) /* VALUE_INT */

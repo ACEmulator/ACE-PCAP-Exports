@@ -23,6 +23,7 @@ VALUES (11554, 1, 4194304) /* ITEM_TYPE_INT */
      , (11554, 5, 5) /* ENCUMB_VAL_INT */
      , (11554, 151, 9) /* HOOK_TYPE_INT */
      , (11554, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (11554, 12, 1) /* STACK_SIZE_INT */
      , (11554, 16, 1) /* ITEM_USEABLE_INT */
      , (11554, 19, 10) /* VALUE_INT */
      , (11554, 93, 1044) /* PHYSICS_STATE_INT */

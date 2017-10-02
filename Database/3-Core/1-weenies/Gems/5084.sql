@@ -22,6 +22,7 @@ VALUES (5084, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5084, 1, 2048) /* ITEM_TYPE_INT */
      , (5084, 5, 5) /* ENCUMB_VAL_INT */
      , (5084, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (5084, 12, 1) /* STACK_SIZE_INT */
      , (5084, 16, 1) /* ITEM_USEABLE_INT */
      , (5084, 93, 1044) /* PHYSICS_STATE_INT */
      , (5084, 9007, 38) /* Gem_WeenieType */;

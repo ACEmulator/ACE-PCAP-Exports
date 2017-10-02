@@ -23,6 +23,7 @@ VALUES (7863, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7863, 5, 40) /* ENCUMB_VAL_INT */
      , (7863, 18, 16) /* UI_EFFECTS_INT */
      , (7863, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7863, 12, 1) /* STACK_SIZE_INT */
      , (7863, 16, 8) /* ITEM_USEABLE_INT */
      , (7863, 19, 89) /* VALUE_INT */
      , (7863, 93, 1044) /* PHYSICS_STATE_INT */

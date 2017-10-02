@@ -24,6 +24,7 @@ VALUES (23245, 53, 101) /* PLACEMENT_POSITION_INT */
      , (23245, 5, 75) /* ENCUMB_VAL_INT */
      , (23245, 151, 2) /* HOOK_TYPE_INT */
      , (23245, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (23245, 12, 1) /* STACK_SIZE_INT */
      , (23245, 16, 8) /* ITEM_USEABLE_INT */
      , (23245, 93, 1044) /* PHYSICS_STATE_INT */
      , (23245, 9007, 18) /* Food_WeenieType */;

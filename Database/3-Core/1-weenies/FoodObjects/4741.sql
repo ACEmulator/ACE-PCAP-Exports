@@ -22,6 +22,7 @@ VALUES (4741, 53, 101) /* PLACEMENT_POSITION_INT */
      , (4741, 1, 32) /* ITEM_TYPE_INT */
      , (4741, 5, 75) /* ENCUMB_VAL_INT */
      , (4741, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (4741, 12, 1) /* STACK_SIZE_INT */
      , (4741, 16, 8) /* ITEM_USEABLE_INT */
      , (4741, 19, 30) /* VALUE_INT */
      , (4741, 93, 1044) /* PHYSICS_STATE_INT */

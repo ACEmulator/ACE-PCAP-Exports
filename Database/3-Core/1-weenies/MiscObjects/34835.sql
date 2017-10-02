@@ -22,6 +22,7 @@ VALUES (34835, 53, 101) /* PLACEMENT_POSITION_INT */
      , (34835, 5, 5) /* ENCUMB_VAL_INT */
      , (34835, 18, 2) /* UI_EFFECTS_INT */
      , (34835, 11, 200) /* MAX_STACK_SIZE_INT */
+     , (34835, 12, 1) /* STACK_SIZE_INT */
      , (34835, 16, 1) /* ITEM_USEABLE_INT */
      , (34835, 19, 10) /* VALUE_INT */
      , (34835, 93, 1044) /* PHYSICS_STATE_INT */

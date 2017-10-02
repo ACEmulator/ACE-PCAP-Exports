@@ -25,6 +25,7 @@ VALUES (2424, 53, 101) /* PLACEMENT_POSITION_INT */
      , (2424, 18, 1) /* UI_EFFECTS_INT */
      , (2424, 131, 34) /* MATERIAL_TYPE_INT */
      , (2424, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (2424, 12, 1) /* STACK_SIZE_INT */
      , (2424, 16, 8) /* ITEM_USEABLE_INT */
      , (2424, 19, 1645) /* VALUE_INT */
      , (2424, 93, 1044) /* PHYSICS_STATE_INT */

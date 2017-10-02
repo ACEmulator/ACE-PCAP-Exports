@@ -22,6 +22,7 @@ VALUES (35190, 53, 101) /* PLACEMENT_POSITION_INT */
      , (35190, 5, 50) /* ENCUMB_VAL_INT */
      , (35190, 151, 1) /* HOOK_TYPE_INT */
      , (35190, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (35190, 12, 1) /* STACK_SIZE_INT */
      , (35190, 94, 16) /* TARGET_TYPE_INT */
      , (35190, 16, 8) /* ITEM_USEABLE_INT */
      , (35190, 19, 200) /* VALUE_INT */

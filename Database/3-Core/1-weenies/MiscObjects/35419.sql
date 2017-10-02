@@ -21,6 +21,7 @@ VALUES (35419, 53, 101) /* PLACEMENT_POSITION_INT */
      , (35419, 1, 128) /* ITEM_TYPE_INT */
      , (35419, 5, 7) /* ENCUMB_VAL_INT */
      , (35419, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (35419, 12, 1) /* STACK_SIZE_INT */
      , (35419, 16, 1) /* ITEM_USEABLE_INT */
      , (35419, 93, 1044) /* PHYSICS_STATE_INT */
      , (35419, 9007, 1) /* Generic_WeenieType */;

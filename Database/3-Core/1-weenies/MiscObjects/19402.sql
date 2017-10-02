@@ -21,6 +21,7 @@ VALUES (19402, 1, 128) /* ITEM_TYPE_INT */
      , (19402, 5, 10) /* ENCUMB_VAL_INT */
      , (19402, 151, 11) /* HOOK_TYPE_INT */
      , (19402, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (19402, 12, 1) /* STACK_SIZE_INT */
      , (19402, 94, 128) /* TARGET_TYPE_INT */
      , (19402, 16, 524296) /* ITEM_USEABLE_INT */
      , (19402, 19, 5000) /* VALUE_INT */

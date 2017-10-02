@@ -24,6 +24,7 @@ VALUES (3933, 53, 101) /* PLACEMENT_POSITION_INT */
      , (3933, 5, 10) /* ENCUMB_VAL_INT */
      , (3933, 18, 1) /* UI_EFFECTS_INT */
      , (3933, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (3933, 12, 1) /* STACK_SIZE_INT */
      , (3933, 16, 8) /* ITEM_USEABLE_INT */
      , (3933, 19, 750) /* VALUE_INT */
      , (3933, 93, 1044) /* PHYSICS_STATE_INT */

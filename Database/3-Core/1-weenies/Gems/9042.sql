@@ -24,6 +24,7 @@ VALUES (9042, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9042, 5, 10) /* ENCUMB_VAL_INT */
      , (9042, 18, 1) /* UI_EFFECTS_INT */
      , (9042, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (9042, 12, 1) /* STACK_SIZE_INT */
      , (9042, 94, 16) /* TARGET_TYPE_INT */
      , (9042, 16, 8) /* ITEM_USEABLE_INT */
      , (9042, 19, 10) /* VALUE_INT */

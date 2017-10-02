@@ -25,6 +25,7 @@ VALUES (51216, 53, 101) /* PLACEMENT_POSITION_INT */
      , (51216, 5, 20) /* ENCUMB_VAL_INT */
      , (51216, 18, 1) /* UI_EFFECTS_INT */
      , (51216, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (51216, 12, 1) /* STACK_SIZE_INT */
      , (51216, 94, 16) /* TARGET_TYPE_INT */
      , (51216, 16, 8) /* ITEM_USEABLE_INT */
      , (51216, 19, 2) /* VALUE_INT */

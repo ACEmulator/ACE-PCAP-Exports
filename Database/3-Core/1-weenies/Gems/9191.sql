@@ -25,6 +25,7 @@ VALUES (9191, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9191, 5, 10) /* ENCUMB_VAL_INT */
      , (9191, 18, 1) /* UI_EFFECTS_INT */
      , (9191, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (9191, 12, 1) /* STACK_SIZE_INT */
      , (9191, 94, 16) /* TARGET_TYPE_INT */
      , (9191, 16, 8) /* ITEM_USEABLE_INT */
      , (9191, 19, 100) /* VALUE_INT */

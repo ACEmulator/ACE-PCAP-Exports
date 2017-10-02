@@ -23,6 +23,7 @@ VALUES (11127, 53, 101) /* PLACEMENT_POSITION_INT */
      , (11127, 5, 35) /* ENCUMB_VAL_INT */
      , (11127, 18, 1) /* UI_EFFECTS_INT */
      , (11127, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (11127, 12, 1) /* STACK_SIZE_INT */
      , (11127, 94, 16) /* TARGET_TYPE_INT */
      , (11127, 16, 8) /* ITEM_USEABLE_INT */
      , (11127, 19, 5000) /* VALUE_INT */

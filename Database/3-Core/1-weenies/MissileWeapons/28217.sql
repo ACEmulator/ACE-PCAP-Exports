@@ -24,6 +24,7 @@ VALUES (28217, 53, 101) /* PLACEMENT_POSITION_INT */
      , (28217, 51, 3) /* COMBAT_USE_INT */
      , (28217, 151, 2) /* HOOK_TYPE_INT */
      , (28217, 11, 250) /* MAX_STACK_SIZE_INT */
+     , (28217, 12, 1) /* STACK_SIZE_INT */
      , (28217, 16, 1) /* ITEM_USEABLE_INT */
      , (28217, 9, 8388608) /* LOCATIONS_INT */
      , (28217, 19, 600) /* VALUE_INT */

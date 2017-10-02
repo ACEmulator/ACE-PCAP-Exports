@@ -21,6 +21,7 @@ VALUES (1249, 53, 101) /* PLACEMENT_POSITION_INT */
      , (1249, 1, 16384) /* ITEM_TYPE_INT */
      , (1249, 5, 50) /* ENCUMB_VAL_INT */
      , (1249, 91, 10) /* MAX_STRUCTURE_INT */
+     , (1249, 92, 10) /* STRUCTURE_INT */
      , (1249, 94, 640) /* TARGET_TYPE_INT */
      , (1249, 16, 2097160) /* ITEM_USEABLE_INT */
      , (1249, 19, 70) /* VALUE_INT */

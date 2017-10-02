@@ -22,6 +22,7 @@ VALUES (27256, 1, 32) /* ITEM_TYPE_INT */
      , (27256, 5, 75) /* ENCUMB_VAL_INT */
      , (27256, 18, 1) /* UI_EFFECTS_INT */
      , (27256, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (27256, 12, 1) /* STACK_SIZE_INT */
      , (27256, 94, 16) /* TARGET_TYPE_INT */
      , (27256, 16, 8) /* ITEM_USEABLE_INT */
      , (27256, 19, 100) /* VALUE_INT */

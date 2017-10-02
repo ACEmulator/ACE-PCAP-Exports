@@ -23,6 +23,7 @@ VALUES (28833, 53, 101) /* PLACEMENT_POSITION_INT */
      , (28833, 5, 200) /* ENCUMB_VAL_INT */
      , (28833, 151, 11) /* HOOK_TYPE_INT */
      , (28833, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (28833, 12, 1) /* STACK_SIZE_INT */
      , (28833, 16, 8) /* ITEM_USEABLE_INT */
      , (28833, 93, 1044) /* PHYSICS_STATE_INT */
      , (28833, 9007, 1) /* Generic_WeenieType */;

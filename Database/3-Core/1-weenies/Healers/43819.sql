@@ -21,6 +21,7 @@ VALUES (43819, 53, 101) /* PLACEMENT_POSITION_INT */
      , (43819, 5, 5) /* ENCUMB_VAL_INT */
      , (43819, 151, 2) /* HOOK_TYPE_INT */
      , (43819, 91, 100) /* MAX_STRUCTURE_INT */
+     , (43819, 92, 100) /* STRUCTURE_INT */
      , (43819, 94, 16) /* TARGET_TYPE_INT */
      , (43819, 16, 2228232) /* ITEM_USEABLE_INT */
      , (43819, 19, 1) /* VALUE_INT */

@@ -24,6 +24,8 @@ VALUES (23323, 53, 1) /* PLACEMENT_POSITION_INT */
      , (23323, 151, 2) /* HOOK_TYPE_INT */
      , (23323, 131, 57) /* MATERIAL_TYPE_INT */
      , (23323, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (23323, 12, 1) /* STACK_SIZE_INT */
+     , (23323, 92, 0) /* STRUCTURE_INT */
      , (23323, 16, 1) /* ITEM_USEABLE_INT */
      , (23323, 9, 4194304) /* LOCATIONS_INT */
      , (23323, 52, 1) /* PARENT_LOCATION_INT */

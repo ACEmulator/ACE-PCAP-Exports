@@ -25,6 +25,7 @@ VALUES (41785, 53, 101) /* PLACEMENT_POSITION_INT */
      , (41785, 5, 715) /* ENCUMB_VAL_INT */
      , (41785, 51, 2) /* COMBAT_USE_INT */
      , (41785, 11, 250) /* MAX_STACK_SIZE_INT */
+     , (41785, 12, 1) /* STACK_SIZE_INT */
      , (41785, 16, 1) /* ITEM_USEABLE_INT */
      , (41785, 9, 4194304) /* LOCATIONS_INT */
      , (41785, 19, 715000) /* VALUE_INT */

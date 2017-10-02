@@ -23,6 +23,7 @@ VALUES (12233, 53, 101) /* PLACEMENT_POSITION_INT */
      , (12233, 1, 32) /* ITEM_TYPE_INT */
      , (12233, 5, 100) /* ENCUMB_VAL_INT */
      , (12233, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (12233, 12, 1) /* STACK_SIZE_INT */
      , (12233, 16, 8) /* ITEM_USEABLE_INT */
      , (12233, 19, 225) /* VALUE_INT */
      , (12233, 93, 1044) /* PHYSICS_STATE_INT */

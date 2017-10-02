@@ -24,6 +24,7 @@ VALUES (30857, 53, 101) /* PLACEMENT_POSITION_INT */
      , (30857, 5, 10) /* ENCUMB_VAL_INT */
      , (30857, 280, 1000) /* SHARED_COOLDOWN_INT */
      , (30857, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (30857, 12, 1) /* STACK_SIZE_INT */
      , (30857, 94, 16) /* TARGET_TYPE_INT */
      , (30857, 16, 8) /* ITEM_USEABLE_INT */
      , (30857, 19, 500) /* VALUE_INT */

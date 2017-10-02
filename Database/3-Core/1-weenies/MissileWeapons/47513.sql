@@ -24,6 +24,7 @@ VALUES (47513, 53, 1) /* PLACEMENT_POSITION_INT */
      , (47513, 5, 1250) /* ENCUMB_VAL_INT */
      , (47513, 51, 3) /* COMBAT_USE_INT */
      , (47513, 11, 250) /* MAX_STACK_SIZE_INT */
+     , (47513, 12, 1) /* STACK_SIZE_INT */
      , (47513, 16, 1) /* ITEM_USEABLE_INT */
      , (47513, 9, 8388608) /* LOCATIONS_INT */
      , (47513, 19, 1750) /* VALUE_INT */

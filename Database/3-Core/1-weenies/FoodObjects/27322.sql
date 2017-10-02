@@ -23,6 +23,7 @@ VALUES (27322, 53, 101) /* PLACEMENT_POSITION_INT */
      , (27322, 5, 50) /* ENCUMB_VAL_INT */
      , (27322, 151, 11) /* HOOK_TYPE_INT */
      , (27322, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (27322, 12, 1) /* STACK_SIZE_INT */
      , (27322, 16, 8) /* ITEM_USEABLE_INT */
      , (27322, 19, 500) /* VALUE_INT */
      , (27322, 93, 1044) /* PHYSICS_STATE_INT */

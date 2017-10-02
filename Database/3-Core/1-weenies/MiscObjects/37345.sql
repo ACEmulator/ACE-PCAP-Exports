@@ -24,6 +24,7 @@ VALUES (37345, 53, 101) /* PLACEMENT_POSITION_INT */
      , (37345, 1, 128) /* ITEM_TYPE_INT */
      , (37345, 5, 25) /* ENCUMB_VAL_INT */
      , (37345, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (37345, 12, 1) /* STACK_SIZE_INT */
      , (37345, 16, 1) /* ITEM_USEABLE_INT */
      , (37345, 19, 30000) /* VALUE_INT */
      , (37345, 93, 1044) /* PHYSICS_STATE_INT */

@@ -22,6 +22,7 @@ VALUES (37126, 53, 101) /* PLACEMENT_POSITION_INT */
      , (37126, 5, 50) /* ENCUMB_VAL_INT */
      , (37126, 151, 2) /* HOOK_TYPE_INT */
      , (37126, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (37126, 12, 1) /* STACK_SIZE_INT */
      , (37126, 94, 16) /* TARGET_TYPE_INT */
      , (37126, 16, 8) /* ITEM_USEABLE_INT */
      , (37126, 19, 5000) /* VALUE_INT */

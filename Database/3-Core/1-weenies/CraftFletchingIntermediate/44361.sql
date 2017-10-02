@@ -22,6 +22,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (44361, 53, 101) /* PLACEMENT_POSITION_INT */
      , (44361, 1, 134217728) /* ITEM_TYPE_INT */
      , (44361, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (44361, 12, 1) /* STACK_SIZE_INT */
      , (44361, 94, 134217728) /* TARGET_TYPE_INT */
      , (44361, 16, 524296) /* ITEM_USEABLE_INT */
      , (44361, 19, 1200) /* VALUE_INT */

@@ -21,6 +21,7 @@ VALUES (46729, 53, 101) /* PLACEMENT_POSITION_INT */
      , (46729, 1, 128) /* ITEM_TYPE_INT */
      , (46729, 5, 100) /* ENCUMB_VAL_INT */
      , (46729, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (46729, 12, 1) /* STACK_SIZE_INT */
      , (46729, 16, 1) /* ITEM_USEABLE_INT */
      , (46729, 9, 1) /* LOCATIONS_INT */
      , (46729, 19, 200) /* VALUE_INT */

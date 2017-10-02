@@ -23,6 +23,7 @@ VALUES (7044, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7044, 5, 10) /* ENCUMB_VAL_INT */
      , (7044, 151, 2) /* HOOK_TYPE_INT */
      , (7044, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (7044, 12, 1) /* STACK_SIZE_INT */
      , (7044, 94, 128) /* TARGET_TYPE_INT */
      , (7044, 16, 524296) /* ITEM_USEABLE_INT */
      , (7044, 93, 1044) /* PHYSICS_STATE_INT */

@@ -23,6 +23,7 @@ VALUES (39121, 53, 101) /* PLACEMENT_POSITION_INT */
      , (39121, 1, 128) /* ITEM_TYPE_INT */
      , (39121, 5, 10) /* ENCUMB_VAL_INT */
      , (39121, 11, 30) /* MAX_STACK_SIZE_INT */
+     , (39121, 12, 1) /* STACK_SIZE_INT */
      , (39121, 16, 1) /* ITEM_USEABLE_INT */
      , (39121, 19, 50) /* VALUE_INT */
      , (39121, 93, 1044) /* PHYSICS_STATE_INT */

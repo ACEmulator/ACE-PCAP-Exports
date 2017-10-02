@@ -22,6 +22,7 @@ VALUES (7823, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7823, 5, 600) /* ENCUMB_VAL_INT */
      , (7823, 151, 9) /* HOOK_TYPE_INT */
      , (7823, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (7823, 12, 1) /* STACK_SIZE_INT */
      , (7823, 94, 4194464) /* TARGET_TYPE_INT */
      , (7823, 16, 524296) /* ITEM_USEABLE_INT */
      , (7823, 19, 3500) /* VALUE_INT */

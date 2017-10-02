@@ -23,6 +23,7 @@ VALUES (29201, 53, 101) /* PLACEMENT_POSITION_INT */
      , (29201, 5, 150) /* ENCUMB_VAL_INT */
      , (29201, 151, 1) /* HOOK_TYPE_INT */
      , (29201, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (29201, 12, 1) /* STACK_SIZE_INT */
      , (29201, 16, 1) /* ITEM_USEABLE_INT */
      , (29201, 93, 1044) /* PHYSICS_STATE_INT */
      , (29201, 9007, 1) /* Generic_WeenieType */;

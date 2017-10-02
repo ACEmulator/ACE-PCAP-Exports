@@ -22,6 +22,7 @@ VALUES (4761, 53, 101) /* PLACEMENT_POSITION_INT */
      , (4761, 1, 4194304) /* ITEM_TYPE_INT */
      , (4761, 5, 300) /* ENCUMB_VAL_INT */
      , (4761, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (4761, 12, 1) /* STACK_SIZE_INT */
      , (4761, 94, 4194336) /* TARGET_TYPE_INT */
      , (4761, 16, 524296) /* ITEM_USEABLE_INT */
      , (4761, 19, 18) /* VALUE_INT */

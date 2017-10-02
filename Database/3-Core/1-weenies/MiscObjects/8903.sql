@@ -22,6 +22,7 @@ VALUES (8903, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8903, 1, 128) /* ITEM_TYPE_INT */
      , (8903, 5, 10) /* ENCUMB_VAL_INT */
      , (8903, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8903, 12, 1) /* STACK_SIZE_INT */
      , (8903, 94, 128) /* TARGET_TYPE_INT */
      , (8903, 16, 2097160) /* ITEM_USEABLE_INT */
      , (8903, 19, 3000) /* VALUE_INT */

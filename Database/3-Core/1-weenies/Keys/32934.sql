@@ -21,6 +21,7 @@ VALUES (32934, 53, 101) /* PLACEMENT_POSITION_INT */
      , (32934, 1, 16384) /* ITEM_TYPE_INT */
      , (32934, 5, 20) /* ENCUMB_VAL_INT */
      , (32934, 91, 1) /* MAX_STRUCTURE_INT */
+     , (32934, 92, 1) /* STRUCTURE_INT */
      , (32934, 94, 640) /* TARGET_TYPE_INT */
      , (32934, 16, 2097160) /* ITEM_USEABLE_INT */
      , (32934, 19, 3) /* VALUE_INT */

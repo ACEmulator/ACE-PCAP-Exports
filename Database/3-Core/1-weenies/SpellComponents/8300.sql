@@ -22,6 +22,7 @@ VALUES (8300, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8300, 1, 4096) /* ITEM_TYPE_INT */
      , (8300, 5, 10) /* ENCUMB_VAL_INT */
      , (8300, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (8300, 12, 1) /* STACK_SIZE_INT */
      , (8300, 16, 1) /* ITEM_USEABLE_INT */
      , (8300, 19, 1250) /* VALUE_INT */
      , (8300, 93, 1044) /* PHYSICS_STATE_INT */

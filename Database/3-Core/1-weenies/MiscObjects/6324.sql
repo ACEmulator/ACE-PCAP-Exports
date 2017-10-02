@@ -21,6 +21,7 @@ VALUES (6324, 1, 128) /* ITEM_TYPE_INT */
      , (6324, 5, 10) /* ENCUMB_VAL_INT */
      , (6324, 151, 11) /* HOOK_TYPE_INT */
      , (6324, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (6324, 12, 1) /* STACK_SIZE_INT */
      , (6324, 94, 128) /* TARGET_TYPE_INT */
      , (6324, 16, 524296) /* ITEM_USEABLE_INT */
      , (6324, 19, 5000) /* VALUE_INT */

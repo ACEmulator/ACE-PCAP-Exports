@@ -22,6 +22,7 @@ VALUES (4711, 53, 101) /* PLACEMENT_POSITION_INT */
      , (4711, 1, 32) /* ITEM_TYPE_INT */
      , (4711, 5, 75) /* ENCUMB_VAL_INT */
      , (4711, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (4711, 12, 1) /* STACK_SIZE_INT */
      , (4711, 16, 8) /* ITEM_USEABLE_INT */
      , (4711, 19, 20) /* VALUE_INT */
      , (4711, 93, 1044) /* PHYSICS_STATE_INT */

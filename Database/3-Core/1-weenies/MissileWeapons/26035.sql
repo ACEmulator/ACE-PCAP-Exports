@@ -22,6 +22,7 @@ VALUES (26035, 53, 1) /* PLACEMENT_POSITION_INT */
      , (26035, 5, 23) /* ENCUMB_VAL_INT */
      , (26035, 51, 2) /* COMBAT_USE_INT */
      , (26035, 11, 40) /* MAX_STACK_SIZE_INT */
+     , (26035, 12, 1) /* STACK_SIZE_INT */
      , (26035, 16, 1) /* ITEM_USEABLE_INT */
      , (26035, 9, 4194304) /* LOCATIONS_INT */
      , (26035, 19, 4) /* VALUE_INT */

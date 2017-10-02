@@ -22,6 +22,7 @@ VALUES (39737, 53, 101) /* PLACEMENT_POSITION_INT */
      , (39737, 1, 128) /* ITEM_TYPE_INT */
      , (39737, 5, 5) /* ENCUMB_VAL_INT */
      , (39737, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (39737, 12, 1) /* STACK_SIZE_INT */
      , (39737, 16, 1) /* ITEM_USEABLE_INT */
      , (39737, 19, 2) /* VALUE_INT */
      , (39737, 93, 1044) /* PHYSICS_STATE_INT */

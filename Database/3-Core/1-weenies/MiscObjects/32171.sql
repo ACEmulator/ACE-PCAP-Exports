@@ -21,6 +21,7 @@ VALUES (32171, 1, 128) /* ITEM_TYPE_INT */
      , (32171, 5, 200) /* ENCUMB_VAL_INT */
      , (32171, 151, 1) /* HOOK_TYPE_INT */
      , (32171, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (32171, 12, 1) /* STACK_SIZE_INT */
      , (32171, 94, 128) /* TARGET_TYPE_INT */
      , (32171, 16, 524296) /* ITEM_USEABLE_INT */
      , (32171, 93, 1044) /* PHYSICS_STATE_INT */

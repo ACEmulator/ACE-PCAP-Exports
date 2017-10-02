@@ -22,6 +22,7 @@ VALUES (34277, 53, 101) /* PLACEMENT_POSITION_INT */
      , (34277, 1, 2048) /* ITEM_TYPE_INT */
      , (34277, 5, 10) /* ENCUMB_VAL_INT */
      , (34277, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (34277, 12, 1) /* STACK_SIZE_INT */
      , (34277, 16, 1) /* ITEM_USEABLE_INT */
      , (34277, 19, 10000) /* VALUE_INT */
      , (34277, 93, 1044) /* PHYSICS_STATE_INT */

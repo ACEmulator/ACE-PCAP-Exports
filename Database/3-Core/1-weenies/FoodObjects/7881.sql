@@ -22,6 +22,7 @@ VALUES (7881, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7881, 1, 4194304) /* ITEM_TYPE_INT */
      , (7881, 5, 80) /* ENCUMB_VAL_INT */
      , (7881, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7881, 12, 1) /* STACK_SIZE_INT */
      , (7881, 16, 8) /* ITEM_USEABLE_INT */
      , (7881, 19, 220) /* VALUE_INT */
      , (7881, 93, 1044) /* PHYSICS_STATE_INT */

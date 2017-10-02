@@ -22,6 +22,7 @@ VALUES (20020, 53, 101) /* PLACEMENT_POSITION_INT */
      , (20020, 1, 2048) /* ITEM_TYPE_INT */
      , (20020, 5, 5) /* ENCUMB_VAL_INT */
      , (20020, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (20020, 12, 1) /* STACK_SIZE_INT */
      , (20020, 16, 1) /* ITEM_USEABLE_INT */
      , (20020, 93, 1044) /* PHYSICS_STATE_INT */
      , (20020, 9007, 38) /* Gem_WeenieType */;

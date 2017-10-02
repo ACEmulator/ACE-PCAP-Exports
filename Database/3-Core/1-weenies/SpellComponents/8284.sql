@@ -21,6 +21,7 @@ VALUES (8284, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8284, 1, 4096) /* ITEM_TYPE_INT */
      , (8284, 5, 10) /* ENCUMB_VAL_INT */
      , (8284, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (8284, 12, 1) /* STACK_SIZE_INT */
      , (8284, 16, 1) /* ITEM_USEABLE_INT */
      , (8284, 19, 1250) /* VALUE_INT */
      , (8284, 93, 1044) /* PHYSICS_STATE_INT */

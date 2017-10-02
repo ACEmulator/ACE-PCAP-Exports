@@ -22,6 +22,7 @@ VALUES (3697, 53, 101) /* PLACEMENT_POSITION_INT */
      , (3697, 1, 2048) /* ITEM_TYPE_INT */
      , (3697, 5, 10) /* ENCUMB_VAL_INT */
      , (3697, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (3697, 12, 1) /* STACK_SIZE_INT */
      , (3697, 16, 1) /* ITEM_USEABLE_INT */
      , (3697, 19, 200) /* VALUE_INT */
      , (3697, 93, 1044) /* PHYSICS_STATE_INT */

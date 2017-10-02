@@ -22,6 +22,7 @@ VALUES (24843, 53, 101) /* PLACEMENT_POSITION_INT */
      , (24843, 1, 128) /* ITEM_TYPE_INT */
      , (24843, 5, 10) /* ENCUMB_VAL_INT */
      , (24843, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (24843, 12, 1) /* STACK_SIZE_INT */
      , (24843, 16, 1) /* ITEM_USEABLE_INT */
      , (24843, 19, 200) /* VALUE_INT */
      , (24843, 93, 1044) /* PHYSICS_STATE_INT */

@@ -23,6 +23,7 @@ VALUES (7581, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7581, 1, 4096) /* ITEM_TYPE_INT */
      , (7581, 5, 132) /* ENCUMB_VAL_INT */
      , (7581, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7581, 12, 1) /* STACK_SIZE_INT */
      , (7581, 16, 1) /* ITEM_USEABLE_INT */
      , (7581, 19, 165) /* VALUE_INT */
      , (7581, 93, 1044) /* PHYSICS_STATE_INT */

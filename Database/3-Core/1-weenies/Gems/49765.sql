@@ -22,6 +22,7 @@ VALUES (49765, 53, 101) /* PLACEMENT_POSITION_INT */
      , (49765, 280, 100) /* SHARED_COOLDOWN_INT */
      , (49765, 18, 2) /* UI_EFFECTS_INT */
      , (49765, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (49765, 12, 1) /* STACK_SIZE_INT */
      , (49765, 94, 16) /* TARGET_TYPE_INT */
      , (49765, 16, 8) /* ITEM_USEABLE_INT */
      , (49765, 19, 100) /* VALUE_INT */

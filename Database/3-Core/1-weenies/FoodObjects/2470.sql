@@ -23,6 +23,7 @@ VALUES (2470, 53, 101) /* PLACEMENT_POSITION_INT */
      , (2470, 5, 75) /* ENCUMB_VAL_INT */
      , (2470, 151, 11) /* HOOK_TYPE_INT */
      , (2470, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (2470, 12, 1) /* STACK_SIZE_INT */
      , (2470, 16, 8) /* ITEM_USEABLE_INT */
      , (2470, 19, 150) /* VALUE_INT */
      , (2470, 93, 1044) /* PHYSICS_STATE_INT */

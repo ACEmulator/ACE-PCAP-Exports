@@ -26,6 +26,7 @@ VALUES (41455, 53, 101) /* PLACEMENT_POSITION_INT */
      , (41455, 18, 1) /* UI_EFFECTS_INT */
      , (41455, 151, 11) /* HOOK_TYPE_INT */
      , (41455, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (41455, 12, 1) /* STACK_SIZE_INT */
      , (41455, 94, 16) /* TARGET_TYPE_INT */
      , (41455, 16, 8) /* ITEM_USEABLE_INT */
      , (41455, 93, 1044) /* PHYSICS_STATE_INT */

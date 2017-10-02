@@ -21,6 +21,7 @@ VALUES (8214, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8214, 1, 16384) /* ITEM_TYPE_INT */
      , (8214, 5, 50) /* ENCUMB_VAL_INT */
      , (8214, 91, 1) /* MAX_STRUCTURE_INT */
+     , (8214, 92, 1) /* STRUCTURE_INT */
      , (8214, 94, 640) /* TARGET_TYPE_INT */
      , (8214, 16, 2097160) /* ITEM_USEABLE_INT */
      , (8214, 19, 100) /* VALUE_INT */

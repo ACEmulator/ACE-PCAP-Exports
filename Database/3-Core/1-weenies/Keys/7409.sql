@@ -21,6 +21,7 @@ VALUES (7409, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7409, 1, 16384) /* ITEM_TYPE_INT */
      , (7409, 5, 20) /* ENCUMB_VAL_INT */
      , (7409, 91, 1) /* MAX_STRUCTURE_INT */
+     , (7409, 92, 1) /* STRUCTURE_INT */
      , (7409, 94, 640) /* TARGET_TYPE_INT */
      , (7409, 16, 2097160) /* ITEM_USEABLE_INT */
      , (7409, 19, 3) /* VALUE_INT */

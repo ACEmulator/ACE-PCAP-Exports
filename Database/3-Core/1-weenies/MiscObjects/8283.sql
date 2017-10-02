@@ -23,6 +23,7 @@ VALUES (8283, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8283, 5, 5) /* ENCUMB_VAL_INT */
      , (8283, 151, 2) /* HOOK_TYPE_INT */
      , (8283, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8283, 12, 1) /* STACK_SIZE_INT */
      , (8283, 94, 134221952) /* TARGET_TYPE_INT */
      , (8283, 16, 524296) /* ITEM_USEABLE_INT */
      , (8283, 19, 40000) /* VALUE_INT */

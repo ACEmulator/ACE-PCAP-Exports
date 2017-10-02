@@ -23,6 +23,7 @@ VALUES (686, 53, 101) /* PLACEMENT_POSITION_INT */
      , (686, 5, 96) /* ENCUMB_VAL_INT */
      , (686, 151, 2) /* HOOK_TYPE_INT */
      , (686, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (686, 12, 1) /* STACK_SIZE_INT */
      , (686, 16, 1) /* ITEM_USEABLE_INT */
      , (686, 19, 2400) /* VALUE_INT */
      , (686, 93, 1044) /* PHYSICS_STATE_INT */

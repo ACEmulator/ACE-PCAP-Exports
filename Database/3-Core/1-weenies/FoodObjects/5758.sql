@@ -23,6 +23,7 @@ VALUES (5758, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5758, 5, 300) /* ENCUMB_VAL_INT */
      , (5758, 151, 2) /* HOOK_TYPE_INT */
      , (5758, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5758, 12, 1) /* STACK_SIZE_INT */
      , (5758, 16, 8) /* ITEM_USEABLE_INT */
      , (5758, 19, 18) /* VALUE_INT */
      , (5758, 93, 1044) /* PHYSICS_STATE_INT */

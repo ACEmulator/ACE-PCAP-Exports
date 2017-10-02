@@ -21,6 +21,7 @@ VALUES (11140, 1, 32) /* ITEM_TYPE_INT */
      , (11140, 5, 800) /* ENCUMB_VAL_INT */
      , (11140, 151, 9) /* HOOK_TYPE_INT */
      , (11140, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (11140, 12, 1) /* STACK_SIZE_INT */
      , (11140, 16, 8) /* ITEM_USEABLE_INT */
      , (11140, 19, 10000) /* VALUE_INT */
      , (11140, 93, 1044) /* PHYSICS_STATE_INT */

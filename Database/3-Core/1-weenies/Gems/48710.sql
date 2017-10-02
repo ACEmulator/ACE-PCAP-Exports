@@ -22,6 +22,7 @@ VALUES (48710, 53, 101) /* PLACEMENT_POSITION_INT */
      , (48710, 1, 2048) /* ITEM_TYPE_INT */
      , (48710, 5, 50) /* ENCUMB_VAL_INT */
      , (48710, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (48710, 12, 1) /* STACK_SIZE_INT */
      , (48710, 16, 1) /* ITEM_USEABLE_INT */
      , (48710, 93, 3092) /* PHYSICS_STATE_INT */
      , (48710, 9007, 38) /* Gem_WeenieType */;

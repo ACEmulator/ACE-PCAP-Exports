@@ -25,6 +25,7 @@ VALUES (25543, 53, 101) /* PLACEMENT_POSITION_INT */
      , (25543, 5, 5) /* ENCUMB_VAL_INT */
      , (25543, 151, 11) /* HOOK_TYPE_INT */
      , (25543, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (25543, 12, 1) /* STACK_SIZE_INT */
      , (25543, 16, 8) /* ITEM_USEABLE_INT */
      , (25543, 19, 500) /* VALUE_INT */
      , (25543, 93, 1044) /* PHYSICS_STATE_INT */

@@ -21,6 +21,7 @@ VALUES (5039, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5039, 1, 16384) /* ITEM_TYPE_INT */
      , (5039, 5, 50) /* ENCUMB_VAL_INT */
      , (5039, 91, 3) /* MAX_STRUCTURE_INT */
+     , (5039, 92, 3) /* STRUCTURE_INT */
      , (5039, 94, 640) /* TARGET_TYPE_INT */
      , (5039, 16, 2097160) /* ITEM_USEABLE_INT */
      , (5039, 93, 1044) /* PHYSICS_STATE_INT */

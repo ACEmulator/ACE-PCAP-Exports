@@ -24,6 +24,7 @@ VALUES (52968, 53, 101) /* PLACEMENT_POSITION_INT */
      , (52968, 1, 128) /* ITEM_TYPE_INT */
      , (52968, 5, 100) /* ENCUMB_VAL_INT */
      , (52968, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (52968, 12, 1) /* STACK_SIZE_INT */
      , (52968, 16, 1) /* ITEM_USEABLE_INT */
      , (52968, 19, 100) /* VALUE_INT */
      , (52968, 93, 1044) /* PHYSICS_STATE_INT */

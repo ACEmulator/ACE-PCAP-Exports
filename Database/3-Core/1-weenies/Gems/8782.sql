@@ -25,6 +25,7 @@ VALUES (8782, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8782, 280, 1000) /* SHARED_COOLDOWN_INT */
      , (8782, 18, 1) /* UI_EFFECTS_INT */
      , (8782, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8782, 12, 1) /* STACK_SIZE_INT */
      , (8782, 94, 16) /* TARGET_TYPE_INT */
      , (8782, 16, 8) /* ITEM_USEABLE_INT */
      , (8782, 93, 3092) /* PHYSICS_STATE_INT */

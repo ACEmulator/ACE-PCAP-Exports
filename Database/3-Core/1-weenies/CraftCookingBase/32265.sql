@@ -23,6 +23,7 @@ VALUES (32265, 53, 101) /* PLACEMENT_POSITION_INT */
      , (32265, 1, 4194304) /* ITEM_TYPE_INT */
      , (32265, 5, 150) /* ENCUMB_VAL_INT */
      , (32265, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (32265, 12, 1) /* STACK_SIZE_INT */
      , (32265, 16, 1) /* ITEM_USEABLE_INT */
      , (32265, 19, 75) /* VALUE_INT */
      , (32265, 93, 1044) /* PHYSICS_STATE_INT */

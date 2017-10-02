@@ -24,6 +24,7 @@ VALUES (30811, 53, 101) /* PLACEMENT_POSITION_INT */
      , (30811, 5, 50) /* ENCUMB_VAL_INT */
      , (30811, 280, 1000) /* SHARED_COOLDOWN_INT */
      , (30811, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (30811, 12, 1) /* STACK_SIZE_INT */
      , (30811, 94, 16) /* TARGET_TYPE_INT */
      , (30811, 16, 8) /* ITEM_USEABLE_INT */
      , (30811, 19, 400) /* VALUE_INT */

@@ -21,6 +21,7 @@ VALUES (7078, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7078, 1, 128) /* ITEM_TYPE_INT */
      , (7078, 5, 10) /* ENCUMB_VAL_INT */
      , (7078, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (7078, 12, 1) /* STACK_SIZE_INT */
      , (7078, 94, 384) /* TARGET_TYPE_INT */
      , (7078, 16, 524296) /* ITEM_USEABLE_INT */
      , (7078, 93, 1044) /* PHYSICS_STATE_INT */

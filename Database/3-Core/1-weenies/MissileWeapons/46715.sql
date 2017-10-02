@@ -22,6 +22,7 @@ VALUES (46715, 53, 1) /* PLACEMENT_POSITION_INT */
      , (46715, 5, 500) /* ENCUMB_VAL_INT */
      , (46715, 51, 2) /* COMBAT_USE_INT */
      , (46715, 11, 300) /* MAX_STACK_SIZE_INT */
+     , (46715, 12, 1) /* STACK_SIZE_INT */
      , (46715, 16, 1) /* ITEM_USEABLE_INT */
      , (46715, 9, 4194304) /* LOCATIONS_INT */
      , (46715, 19, 1) /* VALUE_INT */

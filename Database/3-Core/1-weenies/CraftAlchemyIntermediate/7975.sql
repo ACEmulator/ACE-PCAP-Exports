@@ -24,6 +24,7 @@ VALUES (7975, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7975, 5, 20) /* ENCUMB_VAL_INT */
      , (7975, 151, 9) /* HOOK_TYPE_INT */
      , (7975, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7975, 12, 1) /* STACK_SIZE_INT */
      , (7975, 94, 4194304) /* TARGET_TYPE_INT */
      , (7975, 16, 524296) /* ITEM_USEABLE_INT */
      , (7975, 19, 20) /* VALUE_INT */

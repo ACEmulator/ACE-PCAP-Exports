@@ -21,6 +21,7 @@ VALUES (1647, 53, 101) /* PLACEMENT_POSITION_INT */
      , (1647, 1, 4096) /* ITEM_TYPE_INT */
      , (1647, 5, 12) /* ENCUMB_VAL_INT */
      , (1647, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (1647, 12, 1) /* STACK_SIZE_INT */
      , (1647, 16, 1) /* ITEM_USEABLE_INT */
      , (1647, 19, 75) /* VALUE_INT */
      , (1647, 93, 1044) /* PHYSICS_STATE_INT */

@@ -24,6 +24,7 @@ VALUES (9232, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9232, 51, 3) /* COMBAT_USE_INT */
      , (9232, 151, 2) /* HOOK_TYPE_INT */
      , (9232, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (9232, 12, 1) /* STACK_SIZE_INT */
      , (9232, 16, 1) /* ITEM_USEABLE_INT */
      , (9232, 9, 8388608) /* LOCATIONS_INT */
      , (9232, 19, 100) /* VALUE_INT */

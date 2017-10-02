@@ -22,6 +22,7 @@ VALUES (9059, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9059, 1, 128) /* ITEM_TYPE_INT */
      , (9059, 5, 30) /* ENCUMB_VAL_INT */
      , (9059, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (9059, 12, 1) /* STACK_SIZE_INT */
      , (9059, 94, 128) /* TARGET_TYPE_INT */
      , (9059, 16, 2097160) /* ITEM_USEABLE_INT */
      , (9059, 19, 10) /* VALUE_INT */

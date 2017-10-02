@@ -22,6 +22,7 @@ VALUES (8425, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8425, 1, 2048) /* ITEM_TYPE_INT */
      , (8425, 5, 10) /* ENCUMB_VAL_INT */
      , (8425, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8425, 12, 1) /* STACK_SIZE_INT */
      , (8425, 94, 32768) /* TARGET_TYPE_INT */
      , (8425, 16, 524296) /* ITEM_USEABLE_INT */
      , (8425, 19, 200) /* VALUE_INT */

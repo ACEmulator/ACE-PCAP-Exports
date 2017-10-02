@@ -21,6 +21,7 @@ VALUES (5757, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5757, 1, 16384) /* ITEM_TYPE_INT */
      , (5757, 5, 50) /* ENCUMB_VAL_INT */
      , (5757, 91, 2) /* MAX_STRUCTURE_INT */
+     , (5757, 92, 2) /* STRUCTURE_INT */
      , (5757, 94, 640) /* TARGET_TYPE_INT */
      , (5757, 16, 2097160) /* ITEM_USEABLE_INT */
      , (5757, 93, 1044) /* PHYSICS_STATE_INT */

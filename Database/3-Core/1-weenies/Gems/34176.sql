@@ -25,6 +25,7 @@ VALUES (34176, 53, 101) /* PLACEMENT_POSITION_INT */
      , (34176, 5, 15) /* ENCUMB_VAL_INT */
      , (34176, 18, 1) /* UI_EFFECTS_INT */
      , (34176, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (34176, 12, 1) /* STACK_SIZE_INT */
      , (34176, 94, 16) /* TARGET_TYPE_INT */
      , (34176, 16, 8) /* ITEM_USEABLE_INT */
      , (34176, 93, 1044) /* PHYSICS_STATE_INT */

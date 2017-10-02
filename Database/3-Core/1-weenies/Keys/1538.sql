@@ -21,6 +21,7 @@ VALUES (1538, 53, 101) /* PLACEMENT_POSITION_INT */
      , (1538, 1, 16384) /* ITEM_TYPE_INT */
      , (1538, 5, 50) /* ENCUMB_VAL_INT */
      , (1538, 91, 1) /* MAX_STRUCTURE_INT */
+     , (1538, 92, 1) /* STRUCTURE_INT */
      , (1538, 94, 640) /* TARGET_TYPE_INT */
      , (1538, 16, 2097160) /* ITEM_USEABLE_INT */
      , (1538, 19, 10) /* VALUE_INT */

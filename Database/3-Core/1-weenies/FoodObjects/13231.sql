@@ -23,6 +23,7 @@ VALUES (13231, 53, 101) /* PLACEMENT_POSITION_INT */
      , (13231, 5, 15) /* ENCUMB_VAL_INT */
      , (13231, 151, 11) /* HOOK_TYPE_INT */
      , (13231, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (13231, 12, 1) /* STACK_SIZE_INT */
      , (13231, 16, 8) /* ITEM_USEABLE_INT */
      , (13231, 19, 75) /* VALUE_INT */
      , (13231, 93, 1044) /* PHYSICS_STATE_INT */

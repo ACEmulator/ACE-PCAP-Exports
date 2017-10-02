@@ -21,6 +21,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (4585, 53, 101) /* PLACEMENT_POSITION_INT */
      , (4585, 1, 134217728) /* ITEM_TYPE_INT */
      , (4585, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (4585, 12, 1) /* STACK_SIZE_INT */
      , (4585, 19, 750) /* VALUE_INT */
      , (4585, 93, 1044) /* PHYSICS_STATE_INT */
      , (4585, 9007, 1) /* Generic_WeenieType */;

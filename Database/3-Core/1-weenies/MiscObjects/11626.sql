@@ -22,6 +22,7 @@ VALUES (11626, 53, 101) /* PLACEMENT_POSITION_INT */
      , (11626, 1, 128) /* ITEM_TYPE_INT */
      , (11626, 5, 1000) /* ENCUMB_VAL_INT */
      , (11626, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (11626, 12, 1) /* STACK_SIZE_INT */
      , (11626, 16, 1) /* ITEM_USEABLE_INT */
      , (11626, 19, 1000) /* VALUE_INT */
      , (11626, 93, 1044) /* PHYSICS_STATE_INT */

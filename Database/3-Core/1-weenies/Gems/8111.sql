@@ -22,6 +22,7 @@ VALUES (8111, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8111, 1, 2048) /* ITEM_TYPE_INT */
      , (8111, 5, 200) /* ENCUMB_VAL_INT */
      , (8111, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8111, 12, 1) /* STACK_SIZE_INT */
      , (8111, 16, 1) /* ITEM_USEABLE_INT */
      , (8111, 93, 1044) /* PHYSICS_STATE_INT */
      , (8111, 9007, 38) /* Gem_WeenieType */;

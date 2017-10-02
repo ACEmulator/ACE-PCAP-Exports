@@ -23,6 +23,7 @@ VALUES (8041, 1, 4194304) /* ITEM_TYPE_INT */
      , (8041, 5, 5) /* ENCUMB_VAL_INT */
      , (8041, 151, 9) /* HOOK_TYPE_INT */
      , (8041, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (8041, 12, 1) /* STACK_SIZE_INT */
      , (8041, 16, 1) /* ITEM_USEABLE_INT */
      , (8041, 19, 10) /* VALUE_INT */
      , (8041, 93, 1044) /* PHYSICS_STATE_INT */

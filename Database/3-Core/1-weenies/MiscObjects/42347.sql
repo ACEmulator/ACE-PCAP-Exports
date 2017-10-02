@@ -23,6 +23,8 @@ VALUES (42347, 53, 101) /* PLACEMENT_POSITION_INT */
      , (42347, 151, 2) /* HOOK_TYPE_INT */
      , (42347, 11, 1) /* MAX_STACK_SIZE_INT */
      , (42347, 91, 50) /* MAX_STRUCTURE_INT */
+     , (42347, 12, 1) /* STACK_SIZE_INT */
+     , (42347, 92, 50) /* STRUCTURE_INT */
      , (42347, 94, 16384) /* TARGET_TYPE_INT */
      , (42347, 16, 524296) /* ITEM_USEABLE_INT */
      , (42347, 19, 500) /* VALUE_INT */

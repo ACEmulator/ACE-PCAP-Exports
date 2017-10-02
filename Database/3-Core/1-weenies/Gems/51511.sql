@@ -23,6 +23,7 @@ VALUES (51511, 53, 101) /* PLACEMENT_POSITION_INT */
      , (51511, 5, 919) /* ENCUMB_VAL_INT */
      , (51511, 151, 2) /* HOOK_TYPE_INT */
      , (51511, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (51511, 12, 1) /* STACK_SIZE_INT */
      , (51511, 94, 33025) /* TARGET_TYPE_INT */
      , (51511, 16, 524296) /* ITEM_USEABLE_INT */
      , (51511, 19, 653) /* VALUE_INT */

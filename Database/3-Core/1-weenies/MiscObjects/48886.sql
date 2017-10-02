@@ -26,6 +26,7 @@ VALUES (48886, 53, 101) /* PLACEMENT_POSITION_INT */
      , (48886, 280, 213) /* SHARED_COOLDOWN_INT */
      , (48886, 18, 1) /* UI_EFFECTS_INT */
      , (48886, 91, 50) /* MAX_STRUCTURE_INT */
+     , (48886, 92, 50) /* STRUCTURE_INT */
      , (48886, 94, 16) /* TARGET_TYPE_INT */
      , (48886, 16, 8) /* ITEM_USEABLE_INT */
      , (48886, 19, 5) /* VALUE_INT */

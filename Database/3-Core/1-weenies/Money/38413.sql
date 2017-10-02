@@ -23,6 +23,7 @@ VALUES (38413, 1, 64) /* ITEM_TYPE_INT */
      , (38413, 5, 25) /* ENCUMB_VAL_INT */
      , (38413, 18, 1) /* UI_EFFECTS_INT */
      , (38413, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (38413, 12, 1) /* STACK_SIZE_INT */
      , (38413, 16, 1) /* ITEM_USEABLE_INT */
      , (38413, 93, 1044) /* PHYSICS_STATE_INT */
      , (38413, 9007, 9) /* Coin_WeenieType */;

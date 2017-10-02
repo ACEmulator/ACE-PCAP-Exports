@@ -22,6 +22,7 @@ VALUES (7837, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7837, 1, 32) /* ITEM_TYPE_INT */
      , (7837, 5, 60) /* ENCUMB_VAL_INT */
      , (7837, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7837, 12, 1) /* STACK_SIZE_INT */
      , (7837, 16, 8) /* ITEM_USEABLE_INT */
      , (7837, 19, 130) /* VALUE_INT */
      , (7837, 93, 1044) /* PHYSICS_STATE_INT */

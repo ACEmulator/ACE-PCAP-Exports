@@ -21,6 +21,7 @@ VALUES (36897, 1, 128) /* ITEM_TYPE_INT */
      , (36897, 5, 50) /* ENCUMB_VAL_INT */
      , (36897, 151, 1) /* HOOK_TYPE_INT */
      , (36897, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (36897, 12, 1) /* STACK_SIZE_INT */
      , (36897, 94, 16) /* TARGET_TYPE_INT */
      , (36897, 16, 8) /* ITEM_USEABLE_INT */
      , (36897, 19, 200) /* VALUE_INT */

@@ -22,6 +22,7 @@ VALUES (9098, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9098, 1, 128) /* ITEM_TYPE_INT */
      , (9098, 5, 15) /* ENCUMB_VAL_INT */
      , (9098, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (9098, 12, 1) /* STACK_SIZE_INT */
      , (9098, 94, 129) /* TARGET_TYPE_INT */
      , (9098, 16, 524296) /* ITEM_USEABLE_INT */
      , (9098, 19, 120) /* VALUE_INT */
