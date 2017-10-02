@@ -24,6 +24,7 @@ VALUES (36447, 1, 32) /* ITEM_TYPE_INT */
      , (36447, 18, 1) /* UI_EFFECTS_INT */
      , (36447, 151, 9) /* HOOK_TYPE_INT */
      , (36447, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (36447, 12, 1) /* STACK_SIZE_INT */
      , (36447, 94, 16) /* TARGET_TYPE_INT */
      , (36447, 16, 8) /* ITEM_USEABLE_INT */
      , (36447, 19, 90) /* VALUE_INT */

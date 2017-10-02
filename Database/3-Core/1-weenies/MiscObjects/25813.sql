@@ -20,6 +20,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (25813, 1, 128) /* ITEM_TYPE_INT */
      , (25813, 5, 500) /* ENCUMB_VAL_INT */
      , (25813, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (25813, 12, 1) /* STACK_SIZE_INT */
      , (25813, 94, 128) /* TARGET_TYPE_INT */
      , (25813, 16, 524296) /* ITEM_USEABLE_INT */
      , (25813, 93, 1044) /* PHYSICS_STATE_INT */

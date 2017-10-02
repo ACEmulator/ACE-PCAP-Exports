@@ -26,6 +26,7 @@ VALUES (15443, 53, 101) /* PLACEMENT_POSITION_INT */
      , (15443, 18, 64) /* UI_EFFECTS_INT */
      , (15443, 151, 2) /* HOOK_TYPE_INT */
      , (15443, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (15443, 12, 1) /* STACK_SIZE_INT */
      , (15443, 16, 1) /* ITEM_USEABLE_INT */
      , (15443, 9, 8388608) /* LOCATIONS_INT */
      , (15443, 19, 3795) /* VALUE_INT */

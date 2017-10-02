@@ -23,6 +23,7 @@ VALUES (5873, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5873, 5, 45) /* ENCUMB_VAL_INT */
      , (5873, 151, 2) /* HOOK_TYPE_INT */
      , (5873, 91, 1) /* MAX_STRUCTURE_INT */
+     , (5873, 92, 1) /* STRUCTURE_INT */
      , (5873, 94, 640) /* TARGET_TYPE_INT */
      , (5873, 16, 2097160) /* ITEM_USEABLE_INT */
      , (5873, 19, 200) /* VALUE_INT */

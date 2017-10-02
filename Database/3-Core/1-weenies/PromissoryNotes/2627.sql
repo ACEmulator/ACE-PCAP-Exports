@@ -22,6 +22,7 @@ VALUES (2627, 53, 101) /* PLACEMENT_POSITION_INT */
      , (2627, 1, 262144) /* ITEM_TYPE_INT */
      , (2627, 5, 1) /* ENCUMB_VAL_INT */
      , (2627, 11, 250) /* MAX_STACK_SIZE_INT */
+     , (2627, 12, 1) /* STACK_SIZE_INT */
      , (2627, 16, 1) /* ITEM_USEABLE_INT */
      , (2627, 19, 100000) /* VALUE_INT */
      , (2627, 93, 1044) /* PHYSICS_STATE_INT */

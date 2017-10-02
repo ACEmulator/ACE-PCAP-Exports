@@ -22,6 +22,7 @@ VALUES (8620, 53, 1) /* PLACEMENT_POSITION_INT */
      , (8620, 5, 115) /* ENCUMB_VAL_INT */
      , (8620, 51, 2) /* COMBAT_USE_INT */
      , (8620, 11, 40) /* MAX_STACK_SIZE_INT */
+     , (8620, 12, 1) /* STACK_SIZE_INT */
      , (8620, 16, 1) /* ITEM_USEABLE_INT */
      , (8620, 9, 4194304) /* LOCATIONS_INT */
      , (8620, 19, 20) /* VALUE_INT */

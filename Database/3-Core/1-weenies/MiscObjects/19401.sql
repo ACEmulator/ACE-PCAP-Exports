@@ -23,6 +23,7 @@ VALUES (19401, 53, 101) /* PLACEMENT_POSITION_INT */
      , (19401, 5, 10) /* ENCUMB_VAL_INT */
      , (19401, 151, 11) /* HOOK_TYPE_INT */
      , (19401, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (19401, 12, 1) /* STACK_SIZE_INT */
      , (19401, 94, 128) /* TARGET_TYPE_INT */
      , (19401, 16, 524296) /* ITEM_USEABLE_INT */
      , (19401, 19, 5000) /* VALUE_INT */

@@ -21,6 +21,7 @@ VALUES (260, 53, 101) /* PLACEMENT_POSITION_INT */
      , (260, 1, 32) /* ITEM_TYPE_INT */
      , (260, 5, 100) /* ENCUMB_VAL_INT */
      , (260, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (260, 12, 1) /* STACK_SIZE_INT */
      , (260, 16, 8) /* ITEM_USEABLE_INT */
      , (260, 19, 12) /* VALUE_INT */
      , (260, 93, 1044) /* PHYSICS_STATE_INT */

@@ -22,6 +22,7 @@ VALUES (6330, 53, 101) /* PLACEMENT_POSITION_INT */
      , (6330, 5, 1000) /* ENCUMB_VAL_INT */
      , (6330, 151, 2) /* HOOK_TYPE_INT */
      , (6330, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (6330, 12, 1) /* STACK_SIZE_INT */
      , (6330, 16, 1) /* ITEM_USEABLE_INT */
      , (6330, 19, 1000) /* VALUE_INT */
      , (6330, 93, 1044) /* PHYSICS_STATE_INT */

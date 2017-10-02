@@ -22,6 +22,7 @@ VALUES (7828, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7828, 1, 4194304) /* ITEM_TYPE_INT */
      , (7828, 5, 280) /* ENCUMB_VAL_INT */
      , (7828, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7828, 12, 1) /* STACK_SIZE_INT */
      , (7828, 94, 4194336) /* TARGET_TYPE_INT */
      , (7828, 16, 524296) /* ITEM_USEABLE_INT */
      , (7828, 19, 280) /* VALUE_INT */

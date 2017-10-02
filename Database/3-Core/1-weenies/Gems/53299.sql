@@ -25,6 +25,7 @@ VALUES (53299, 53, 101) /* PLACEMENT_POSITION_INT */
      , (53299, 5, 100) /* ENCUMB_VAL_INT */
      , (53299, 18, 256) /* UI_EFFECTS_INT */
      , (53299, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (53299, 12, 1) /* STACK_SIZE_INT */
      , (53299, 94, 6) /* TARGET_TYPE_INT */
      , (53299, 16, 524296) /* ITEM_USEABLE_INT */
      , (53299, 19, 25) /* VALUE_INT */

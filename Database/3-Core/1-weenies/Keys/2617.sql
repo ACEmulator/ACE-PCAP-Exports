@@ -20,6 +20,7 @@ VALUES (2617, 53, 101) /* PLACEMENT_POSITION_INT */
      , (2617, 1, 16384) /* ITEM_TYPE_INT */
      , (2617, 5, 50) /* ENCUMB_VAL_INT */
      , (2617, 91, 3) /* MAX_STRUCTURE_INT */
+     , (2617, 92, 3) /* STRUCTURE_INT */
      , (2617, 94, 640) /* TARGET_TYPE_INT */
      , (2617, 16, 2097160) /* ITEM_USEABLE_INT */
      , (2617, 19, 20) /* VALUE_INT */

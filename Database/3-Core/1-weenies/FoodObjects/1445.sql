@@ -22,6 +22,7 @@ VALUES (1445, 53, 101) /* PLACEMENT_POSITION_INT */
      , (1445, 5, 100) /* ENCUMB_VAL_INT */
      , (1445, 18, 16) /* UI_EFFECTS_INT */
      , (1445, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (1445, 12, 1) /* STACK_SIZE_INT */
      , (1445, 16, 8) /* ITEM_USEABLE_INT */
      , (1445, 19, 15) /* VALUE_INT */
      , (1445, 93, 1044) /* PHYSICS_STATE_INT */

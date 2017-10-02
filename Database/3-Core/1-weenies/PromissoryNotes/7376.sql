@@ -22,6 +22,7 @@ VALUES (7376, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7376, 1, 262144) /* ITEM_TYPE_INT */
      , (7376, 5, 1) /* ENCUMB_VAL_INT */
      , (7376, 11, 250) /* MAX_STACK_SIZE_INT */
+     , (7376, 12, 1) /* STACK_SIZE_INT */
      , (7376, 16, 1) /* ITEM_USEABLE_INT */
      , (7376, 19, 25000) /* VALUE_INT */
      , (7376, 93, 1044) /* PHYSICS_STATE_INT */

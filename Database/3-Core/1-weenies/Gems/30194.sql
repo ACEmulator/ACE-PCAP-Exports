@@ -27,6 +27,7 @@ VALUES (30194, 53, 101) /* PLACEMENT_POSITION_INT */
      , (30194, 18, 1) /* UI_EFFECTS_INT */
      , (30194, 151, 11) /* HOOK_TYPE_INT */
      , (30194, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (30194, 12, 1) /* STACK_SIZE_INT */
      , (30194, 94, 16) /* TARGET_TYPE_INT */
      , (30194, 16, 8) /* ITEM_USEABLE_INT */
      , (30194, 93, 1044) /* PHYSICS_STATE_INT */

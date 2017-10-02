@@ -26,6 +26,7 @@ VALUES (8977, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8977, 18, 1) /* UI_EFFECTS_INT */
      , (8977, 151, 2) /* HOOK_TYPE_INT */
      , (8977, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (8977, 12, 1) /* STACK_SIZE_INT */
      , (8977, 94, 16) /* TARGET_TYPE_INT */
      , (8977, 16, 8) /* ITEM_USEABLE_INT */
      , (8977, 19, 11500) /* VALUE_INT */

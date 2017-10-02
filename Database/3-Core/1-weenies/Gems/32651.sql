@@ -22,6 +22,7 @@ VALUES (32651, 53, 101) /* PLACEMENT_POSITION_INT */
      , (32651, 5, 5) /* ENCUMB_VAL_INT */
      , (32651, 18, 1) /* UI_EFFECTS_INT */
      , (32651, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (32651, 12, 1) /* STACK_SIZE_INT */
      , (32651, 94, 33025) /* TARGET_TYPE_INT */
      , (32651, 16, 524296) /* ITEM_USEABLE_INT */
      , (32651, 19, 5000) /* VALUE_INT */

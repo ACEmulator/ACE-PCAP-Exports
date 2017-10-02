@@ -23,6 +23,7 @@ VALUES (9539, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9539, 5, 2) /* ENCUMB_VAL_INT */
      , (9539, 151, 9) /* HOOK_TYPE_INT */
      , (9539, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (9539, 12, 1) /* STACK_SIZE_INT */
      , (9539, 16, 8) /* ITEM_USEABLE_INT */
      , (9539, 19, 1) /* VALUE_INT */
      , (9539, 93, 1044) /* PHYSICS_STATE_INT */

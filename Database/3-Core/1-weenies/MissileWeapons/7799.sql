@@ -23,6 +23,7 @@ VALUES (7799, 1, 256) /* ITEM_TYPE_INT */
      , (7799, 51, 2) /* COMBAT_USE_INT */
      , (7799, 18, 32) /* UI_EFFECTS_INT */
      , (7799, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7799, 12, 1) /* STACK_SIZE_INT */
      , (7799, 16, 1) /* ITEM_USEABLE_INT */
      , (7799, 9, 4194304) /* LOCATIONS_INT */
      , (7799, 19, 45) /* VALUE_INT */

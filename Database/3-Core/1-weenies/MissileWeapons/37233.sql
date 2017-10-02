@@ -24,6 +24,7 @@ VALUES (37233, 1, 256) /* ITEM_TYPE_INT */
      , (37233, 51, 2) /* COMBAT_USE_INT */
      , (37233, 18, 32) /* UI_EFFECTS_INT */
      , (37233, 11, 200) /* MAX_STACK_SIZE_INT */
+     , (37233, 12, 1) /* STACK_SIZE_INT */
      , (37233, 16, 1) /* ITEM_USEABLE_INT */
      , (37233, 9, 4194304) /* LOCATIONS_INT */
      , (37233, 52, 1) /* PARENT_LOCATION_INT */

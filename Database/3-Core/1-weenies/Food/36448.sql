@@ -23,6 +23,7 @@ VALUES (36448, 1, 32) /* ITEM_TYPE_INT */
      , (36448, 18, 1) /* UI_EFFECTS_INT */
      , (36448, 151, 9) /* HOOK_TYPE_INT */
      , (36448, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (36448, 12, 1) /* STACK_SIZE_INT */
      , (36448, 94, 16) /* TARGET_TYPE_INT */
      , (36448, 16, 8) /* ITEM_USEABLE_INT */
      , (36448, 19, 10) /* VALUE_INT */

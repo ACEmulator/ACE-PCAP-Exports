@@ -21,6 +21,7 @@ VALUES (14531, 1, 2048) /* ITEM_TYPE_INT */
      , (14531, 5, 40) /* ENCUMB_VAL_INT */
      , (14531, 151, 9) /* HOOK_TYPE_INT */
      , (14531, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (14531, 12, 1) /* STACK_SIZE_INT */
      , (14531, 94, 2048) /* TARGET_TYPE_INT */
      , (14531, 16, 524296) /* ITEM_USEABLE_INT */
      , (14531, 93, 1044) /* PHYSICS_STATE_INT */

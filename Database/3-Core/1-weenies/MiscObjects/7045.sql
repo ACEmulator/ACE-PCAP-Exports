@@ -22,6 +22,7 @@ VALUES (7045, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7045, 5, 10) /* ENCUMB_VAL_INT */
      , (7045, 151, 2) /* HOOK_TYPE_INT */
      , (7045, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (7045, 12, 1) /* STACK_SIZE_INT */
      , (7045, 94, 128) /* TARGET_TYPE_INT */
      , (7045, 16, 524296) /* ITEM_USEABLE_INT */
      , (7045, 93, 1044) /* PHYSICS_STATE_INT */

@@ -21,6 +21,7 @@ VALUES (9105, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9105, 1, 16384) /* ITEM_TYPE_INT */
      , (9105, 5, 20) /* ENCUMB_VAL_INT */
      , (9105, 91, 1) /* MAX_STRUCTURE_INT */
+     , (9105, 92, 1) /* STRUCTURE_INT */
      , (9105, 94, 640) /* TARGET_TYPE_INT */
      , (9105, 16, 2097160) /* ITEM_USEABLE_INT */
      , (9105, 19, 5) /* VALUE_INT */

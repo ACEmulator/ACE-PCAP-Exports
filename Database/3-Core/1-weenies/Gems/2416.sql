@@ -23,6 +23,7 @@ VALUES (2416, 53, 101) /* PLACEMENT_POSITION_INT */
      , (2416, 5, 5) /* ENCUMB_VAL_INT */
      , (2416, 131, 30) /* MATERIAL_TYPE_INT */
      , (2416, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (2416, 12, 1) /* STACK_SIZE_INT */
      , (2416, 16, 1) /* ITEM_USEABLE_INT */
      , (2416, 19, 25) /* VALUE_INT */
      , (2416, 93, 1044) /* PHYSICS_STATE_INT */

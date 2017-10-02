@@ -22,6 +22,7 @@ VALUES (9318, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9318, 5, 260) /* ENCUMB_VAL_INT */
      , (9318, 151, 2) /* HOOK_TYPE_INT */
      , (9318, 11, 50) /* MAX_STACK_SIZE_INT */
+     , (9318, 12, 1) /* STACK_SIZE_INT */
      , (9318, 94, 128) /* TARGET_TYPE_INT */
      , (9318, 16, 524296) /* ITEM_USEABLE_INT */
      , (9318, 93, 1044) /* PHYSICS_STATE_INT */

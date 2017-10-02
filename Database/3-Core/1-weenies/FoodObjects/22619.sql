@@ -21,6 +21,7 @@ VALUES (22619, 53, 101) /* PLACEMENT_POSITION_INT */
      , (22619, 1, 32) /* ITEM_TYPE_INT */
      , (22619, 5, 50) /* ENCUMB_VAL_INT */
      , (22619, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (22619, 12, 1) /* STACK_SIZE_INT */
      , (22619, 16, 8) /* ITEM_USEABLE_INT */
      , (22619, 19, 100) /* VALUE_INT */
      , (22619, 93, 1044) /* PHYSICS_STATE_INT */

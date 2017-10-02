@@ -22,6 +22,7 @@ VALUES (22841, 53, 101) /* PLACEMENT_POSITION_INT */
      , (22841, 5, 50) /* ENCUMB_VAL_INT */
      , (22841, 151, 1) /* HOOK_TYPE_INT */
      , (22841, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (22841, 12, 1) /* STACK_SIZE_INT */
      , (22841, 94, 128) /* TARGET_TYPE_INT */
      , (22841, 16, 524296) /* ITEM_USEABLE_INT */
      , (22841, 19, 10000) /* VALUE_INT */

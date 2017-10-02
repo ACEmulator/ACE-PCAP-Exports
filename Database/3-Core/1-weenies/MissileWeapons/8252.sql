@@ -24,6 +24,7 @@ VALUES (8252, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8252, 51, 2) /* COMBAT_USE_INT */
      , (8252, 151, 11) /* HOOK_TYPE_INT */
      , (8252, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (8252, 12, 1) /* STACK_SIZE_INT */
      , (8252, 16, 1) /* ITEM_USEABLE_INT */
      , (8252, 9, 4194304) /* LOCATIONS_INT */
      , (8252, 19, 40) /* VALUE_INT */

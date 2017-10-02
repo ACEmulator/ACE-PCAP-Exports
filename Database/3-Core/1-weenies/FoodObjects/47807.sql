@@ -20,6 +20,7 @@ VALUES (47807, 53, 101) /* PLACEMENT_POSITION_INT */
      , (47807, 1, 32) /* ITEM_TYPE_INT */
      , (47807, 5, 225) /* ENCUMB_VAL_INT */
      , (47807, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (47807, 12, 1) /* STACK_SIZE_INT */
      , (47807, 16, 1) /* ITEM_USEABLE_INT */
      , (47807, 19, 15) /* VALUE_INT */
      , (47807, 93, 1044) /* PHYSICS_STATE_INT */

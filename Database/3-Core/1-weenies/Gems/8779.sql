@@ -23,6 +23,7 @@ VALUES (8779, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8779, 5, 50) /* ENCUMB_VAL_INT */
      , (8779, 151, 9) /* HOOK_TYPE_INT */
      , (8779, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8779, 12, 1) /* STACK_SIZE_INT */
      , (8779, 94, 2048) /* TARGET_TYPE_INT */
      , (8779, 16, 524296) /* ITEM_USEABLE_INT */
      , (8779, 93, 1044) /* PHYSICS_STATE_INT */

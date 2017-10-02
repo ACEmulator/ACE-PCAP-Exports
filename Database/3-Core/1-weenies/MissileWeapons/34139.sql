@@ -24,6 +24,7 @@ VALUES (34139, 53, 101) /* PLACEMENT_POSITION_INT */
      , (34139, 51, 2) /* COMBAT_USE_INT */
      , (34139, 151, 11) /* HOOK_TYPE_INT */
      , (34139, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (34139, 12, 1) /* STACK_SIZE_INT */
      , (34139, 16, 1) /* ITEM_USEABLE_INT */
      , (34139, 9, 4194304) /* LOCATIONS_INT */
      , (34139, 19, 100) /* VALUE_INT */

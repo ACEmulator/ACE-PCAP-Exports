@@ -25,6 +25,7 @@ VALUES (2399, 53, 101) /* PLACEMENT_POSITION_INT */
      , (2399, 18, 1) /* UI_EFFECTS_INT */
      , (2399, 131, 45) /* MATERIAL_TYPE_INT */
      , (2399, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (2399, 12, 1) /* STACK_SIZE_INT */
      , (2399, 16, 8) /* ITEM_USEABLE_INT */
      , (2399, 19, 1237) /* VALUE_INT */
      , (2399, 93, 1044) /* PHYSICS_STATE_INT */

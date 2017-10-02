@@ -21,6 +21,7 @@ VALUES (49579, 1, 128) /* ITEM_TYPE_INT */
      , (49579, 5, 200) /* ENCUMB_VAL_INT */
      , (49579, 18, 64) /* UI_EFFECTS_INT */
      , (49579, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (49579, 12, 1) /* STACK_SIZE_INT */
      , (49579, 94, 128) /* TARGET_TYPE_INT */
      , (49579, 16, 524296) /* ITEM_USEABLE_INT */
      , (49579, 93, 1044) /* PHYSICS_STATE_INT */

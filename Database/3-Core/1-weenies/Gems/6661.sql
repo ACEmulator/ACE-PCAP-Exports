@@ -22,6 +22,7 @@ VALUES (6661, 53, 101) /* PLACEMENT_POSITION_INT */
      , (6661, 1, 2048) /* ITEM_TYPE_INT */
      , (6661, 5, 5) /* ENCUMB_VAL_INT */
      , (6661, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (6661, 12, 1) /* STACK_SIZE_INT */
      , (6661, 94, 1) /* TARGET_TYPE_INT */
      , (6661, 16, 524296) /* ITEM_USEABLE_INT */
      , (6661, 19, 3400) /* VALUE_INT */

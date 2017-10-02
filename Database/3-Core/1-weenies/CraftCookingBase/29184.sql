@@ -23,6 +23,7 @@ VALUES (29184, 53, 101) /* PLACEMENT_POSITION_INT */
      , (29184, 1, 4194304) /* ITEM_TYPE_INT */
      , (29184, 5, 150) /* ENCUMB_VAL_INT */
      , (29184, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (29184, 12, 1) /* STACK_SIZE_INT */
      , (29184, 16, 1) /* ITEM_USEABLE_INT */
      , (29184, 19, 75) /* VALUE_INT */
      , (29184, 93, 1044) /* PHYSICS_STATE_INT */

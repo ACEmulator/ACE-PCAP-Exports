@@ -25,6 +25,7 @@ VALUES (36187, 53, 101) /* PLACEMENT_POSITION_INT */
      , (36187, 5, 5) /* ENCUMB_VAL_INT */
      , (36187, 18, 1) /* UI_EFFECTS_INT */
      , (36187, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (36187, 12, 1) /* STACK_SIZE_INT */
      , (36187, 94, 16) /* TARGET_TYPE_INT */
      , (36187, 16, 8) /* ITEM_USEABLE_INT */
      , (36187, 19, 1000) /* VALUE_INT */

@@ -22,6 +22,7 @@ VALUES (8324, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8324, 1, 4096) /* ITEM_TYPE_INT */
      , (8324, 5, 20) /* ENCUMB_VAL_INT */
      , (8324, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (8324, 12, 1) /* STACK_SIZE_INT */
      , (8324, 16, 1) /* ITEM_USEABLE_INT */
      , (8324, 19, 1250) /* VALUE_INT */
      , (8324, 93, 1044) /* PHYSICS_STATE_INT */

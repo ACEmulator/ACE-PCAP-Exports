@@ -24,6 +24,7 @@ VALUES (23991, 53, 101) /* PLACEMENT_POSITION_INT */
      , (23991, 5, 100) /* ENCUMB_VAL_INT */
      , (23991, 18, 1) /* UI_EFFECTS_INT */
      , (23991, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (23991, 12, 1) /* STACK_SIZE_INT */
      , (23991, 94, 16) /* TARGET_TYPE_INT */
      , (23991, 16, 8) /* ITEM_USEABLE_INT */
      , (23991, 93, 3092) /* PHYSICS_STATE_INT */

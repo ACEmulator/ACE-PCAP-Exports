@@ -22,6 +22,7 @@ VALUES (12271, 53, 101) /* PLACEMENT_POSITION_INT */
      , (12271, 5, 2000) /* ENCUMB_VAL_INT */
      , (12271, 151, 9) /* HOOK_TYPE_INT */
      , (12271, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (12271, 12, 1) /* STACK_SIZE_INT */
      , (12271, 16, 1) /* ITEM_USEABLE_INT */
      , (12271, 93, 1044) /* PHYSICS_STATE_INT */
      , (12271, 9007, 38) /* Gem_WeenieType */;

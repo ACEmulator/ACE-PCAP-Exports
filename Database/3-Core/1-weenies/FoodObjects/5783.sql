@@ -22,6 +22,7 @@ VALUES (5783, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5783, 1, 32) /* ITEM_TYPE_INT */
      , (5783, 5, 75) /* ENCUMB_VAL_INT */
      , (5783, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5783, 12, 1) /* STACK_SIZE_INT */
      , (5783, 16, 8) /* ITEM_USEABLE_INT */
      , (5783, 19, 30) /* VALUE_INT */
      , (5783, 93, 1044) /* PHYSICS_STATE_INT */

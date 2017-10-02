@@ -22,6 +22,7 @@ VALUES (44466, 53, 101) /* PLACEMENT_POSITION_INT */
      , (44466, 1, 2048) /* ITEM_TYPE_INT */
      , (44466, 5, 100) /* ENCUMB_VAL_INT */
      , (44466, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (44466, 12, 1) /* STACK_SIZE_INT */
      , (44466, 94, 2) /* TARGET_TYPE_INT */
      , (44466, 16, 524296) /* ITEM_USEABLE_INT */
      , (44466, 19, 50) /* VALUE_INT */

@@ -23,6 +23,7 @@ VALUES (378, 53, 101) /* PLACEMENT_POSITION_INT */
      , (378, 5, 15) /* ENCUMB_VAL_INT */
      , (378, 151, 11) /* HOOK_TYPE_INT */
      , (378, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (378, 12, 1) /* STACK_SIZE_INT */
      , (378, 16, 8) /* ITEM_USEABLE_INT */
      , (378, 19, 75) /* VALUE_INT */
      , (378, 93, 1044) /* PHYSICS_STATE_INT */

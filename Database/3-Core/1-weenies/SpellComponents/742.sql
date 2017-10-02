@@ -22,6 +22,7 @@ VALUES (742, 53, 101) /* PLACEMENT_POSITION_INT */
      , (742, 1, 4096) /* ITEM_TYPE_INT */
      , (742, 5, 80) /* ENCUMB_VAL_INT */
      , (742, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (742, 12, 1) /* STACK_SIZE_INT */
      , (742, 16, 1) /* ITEM_USEABLE_INT */
      , (742, 19, 100) /* VALUE_INT */
      , (742, 93, 1044) /* PHYSICS_STATE_INT */

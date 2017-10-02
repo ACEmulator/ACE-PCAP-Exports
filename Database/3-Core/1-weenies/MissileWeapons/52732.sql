@@ -24,6 +24,7 @@ VALUES (52732, 53, 101) /* PLACEMENT_POSITION_INT */
      , (52732, 18, 64) /* UI_EFFECTS_INT */
      , (52732, 151, 2) /* HOOK_TYPE_INT */
      , (52732, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (52732, 12, 1) /* STACK_SIZE_INT */
      , (52732, 16, 1) /* ITEM_USEABLE_INT */
      , (52732, 9, 4194304) /* LOCATIONS_INT */
      , (52732, 19, 1) /* VALUE_INT */

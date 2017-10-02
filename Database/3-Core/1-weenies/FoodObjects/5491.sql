@@ -23,6 +23,7 @@ VALUES (5491, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5491, 5, 10) /* ENCUMB_VAL_INT */
      , (5491, 151, 11) /* HOOK_TYPE_INT */
      , (5491, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5491, 12, 1) /* STACK_SIZE_INT */
      , (5491, 16, 8) /* ITEM_USEABLE_INT */
      , (5491, 19, 1) /* VALUE_INT */
      , (5491, 93, 1044) /* PHYSICS_STATE_INT */

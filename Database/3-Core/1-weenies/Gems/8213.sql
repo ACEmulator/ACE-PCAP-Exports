@@ -23,6 +23,7 @@ VALUES (8213, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8213, 5, 5) /* ENCUMB_VAL_INT */
      , (8213, 18, 1) /* UI_EFFECTS_INT */
      , (8213, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8213, 12, 1) /* STACK_SIZE_INT */
      , (8213, 94, 16) /* TARGET_TYPE_INT */
      , (8213, 16, 8) /* ITEM_USEABLE_INT */
      , (8213, 19, 1000) /* VALUE_INT */

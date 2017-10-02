@@ -21,6 +21,7 @@ VALUES (8985, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8985, 1, 16384) /* ITEM_TYPE_INT */
      , (8985, 5, 10) /* ENCUMB_VAL_INT */
      , (8985, 91, 1) /* MAX_STRUCTURE_INT */
+     , (8985, 92, 1) /* STRUCTURE_INT */
      , (8985, 94, 640) /* TARGET_TYPE_INT */
      , (8985, 16, 2097160) /* ITEM_USEABLE_INT */
      , (8985, 19, 2) /* VALUE_INT */

@@ -23,6 +23,7 @@ VALUES (787, 53, 101) /* PLACEMENT_POSITION_INT */
      , (787, 1, 4096) /* ITEM_TYPE_INT */
      , (787, 5, 160) /* ENCUMB_VAL_INT */
      , (787, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (787, 12, 1) /* STACK_SIZE_INT */
      , (787, 16, 1) /* ITEM_USEABLE_INT */
      , (787, 19, 200) /* VALUE_INT */
      , (787, 93, 1044) /* PHYSICS_STATE_INT */

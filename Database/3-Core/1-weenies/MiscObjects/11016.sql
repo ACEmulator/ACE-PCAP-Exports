@@ -22,6 +22,7 @@ VALUES (11016, 53, 101) /* PLACEMENT_POSITION_INT */
      , (11016, 1, 128) /* ITEM_TYPE_INT */
      , (11016, 5, 400) /* ENCUMB_VAL_INT */
      , (11016, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (11016, 12, 1) /* STACK_SIZE_INT */
      , (11016, 94, 128) /* TARGET_TYPE_INT */
      , (11016, 16, 524296) /* ITEM_USEABLE_INT */
      , (11016, 19, 100) /* VALUE_INT */

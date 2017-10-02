@@ -22,6 +22,7 @@ VALUES (8613, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8613, 1, 2048) /* ITEM_TYPE_INT */
      , (8613, 5, 100) /* ENCUMB_VAL_INT */
      , (8613, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8613, 12, 1) /* STACK_SIZE_INT */
      , (8613, 94, 1) /* TARGET_TYPE_INT */
      , (8613, 16, 524296) /* ITEM_USEABLE_INT */
      , (8613, 19, 500) /* VALUE_INT */

@@ -24,6 +24,7 @@ VALUES (52810, 53, 101) /* PLACEMENT_POSITION_INT */
      , (52810, 280, 1000) /* SHARED_COOLDOWN_INT */
      , (52810, 18, 1) /* UI_EFFECTS_INT */
      , (52810, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (52810, 12, 1) /* STACK_SIZE_INT */
      , (52810, 94, 16) /* TARGET_TYPE_INT */
      , (52810, 16, 8) /* ITEM_USEABLE_INT */
      , (52810, 19, 1) /* VALUE_INT */

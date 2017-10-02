@@ -21,6 +21,7 @@ VALUES (28771, 1, 16384) /* ITEM_TYPE_INT */
      , (28771, 5, 50) /* ENCUMB_VAL_INT */
      , (28771, 151, 2) /* HOOK_TYPE_INT */
      , (28771, 91, 3) /* MAX_STRUCTURE_INT */
+     , (28771, 92, 3) /* STRUCTURE_INT */
      , (28771, 94, 640) /* TARGET_TYPE_INT */
      , (28771, 16, 2097160) /* ITEM_USEABLE_INT */
      , (28771, 93, 1044) /* PHYSICS_STATE_INT */

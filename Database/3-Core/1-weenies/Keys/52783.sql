@@ -22,6 +22,7 @@ VALUES (52783, 53, 101) /* PLACEMENT_POSITION_INT */
      , (52783, 5, 30) /* ENCUMB_VAL_INT */
      , (52783, 18, 64) /* UI_EFFECTS_INT */
      , (52783, 91, 1) /* MAX_STRUCTURE_INT */
+     , (52783, 92, 1) /* STRUCTURE_INT */
      , (52783, 94, 640) /* TARGET_TYPE_INT */
      , (52783, 16, 2097160) /* ITEM_USEABLE_INT */
      , (52783, 19, 7) /* VALUE_INT */

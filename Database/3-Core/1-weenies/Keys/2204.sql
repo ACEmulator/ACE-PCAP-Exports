@@ -21,6 +21,7 @@ VALUES (2204, 53, 101) /* PLACEMENT_POSITION_INT */
      , (2204, 1, 16384) /* ITEM_TYPE_INT */
      , (2204, 5, 50) /* ENCUMB_VAL_INT */
      , (2204, 91, 3) /* MAX_STRUCTURE_INT */
+     , (2204, 92, 3) /* STRUCTURE_INT */
      , (2204, 94, 640) /* TARGET_TYPE_INT */
      , (2204, 16, 2097160) /* ITEM_USEABLE_INT */
      , (2204, 19, 33) /* VALUE_INT */

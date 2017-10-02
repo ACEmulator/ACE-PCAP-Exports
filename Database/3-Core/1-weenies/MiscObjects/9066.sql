@@ -22,6 +22,7 @@ VALUES (9066, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9066, 5, 70) /* ENCUMB_VAL_INT */
      , (9066, 151, 11) /* HOOK_TYPE_INT */
      , (9066, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (9066, 12, 1) /* STACK_SIZE_INT */
      , (9066, 94, 8192) /* TARGET_TYPE_INT */
      , (9066, 16, 524296) /* ITEM_USEABLE_INT */
      , (9066, 19, 100) /* VALUE_INT */

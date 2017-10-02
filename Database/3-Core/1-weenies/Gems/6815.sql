@@ -22,6 +22,7 @@ VALUES (6815, 53, 101) /* PLACEMENT_POSITION_INT */
      , (6815, 5, 50) /* ENCUMB_VAL_INT */
      , (6815, 151, 2) /* HOOK_TYPE_INT */
      , (6815, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (6815, 12, 1) /* STACK_SIZE_INT */
      , (6815, 94, 2048) /* TARGET_TYPE_INT */
      , (6815, 16, 524296) /* ITEM_USEABLE_INT */
      , (6815, 93, 1044) /* PHYSICS_STATE_INT */

@@ -22,6 +22,7 @@ VALUES (5831, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5831, 1, 32) /* ITEM_TYPE_INT */
      , (5831, 5, 250) /* ENCUMB_VAL_INT */
      , (5831, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5831, 12, 1) /* STACK_SIZE_INT */
      , (5831, 16, 8) /* ITEM_USEABLE_INT */
      , (5831, 19, 100) /* VALUE_INT */
      , (5831, 93, 1044) /* PHYSICS_STATE_INT */

@@ -22,6 +22,7 @@ VALUES (8019, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8019, 5, 50) /* ENCUMB_VAL_INT */
      , (8019, 151, 2) /* HOOK_TYPE_INT */
      , (8019, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8019, 12, 1) /* STACK_SIZE_INT */
      , (8019, 94, 128) /* TARGET_TYPE_INT */
      , (8019, 16, 2097160) /* ITEM_USEABLE_INT */
      , (8019, 93, 1044) /* PHYSICS_STATE_INT */

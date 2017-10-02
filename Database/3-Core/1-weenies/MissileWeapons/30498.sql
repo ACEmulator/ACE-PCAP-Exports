@@ -22,6 +22,7 @@ VALUES (30498, 53, 101) /* PLACEMENT_POSITION_INT */
      , (30498, 5, 5) /* ENCUMB_VAL_INT */
      , (30498, 51, 2) /* COMBAT_USE_INT */
      , (30498, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (30498, 12, 1) /* STACK_SIZE_INT */
      , (30498, 16, 1) /* ITEM_USEABLE_INT */
      , (30498, 9, 4194304) /* LOCATIONS_INT */
      , (30498, 19, 2) /* VALUE_INT */

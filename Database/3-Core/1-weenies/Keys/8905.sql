@@ -22,6 +22,7 @@ VALUES (8905, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8905, 5, 10) /* ENCUMB_VAL_INT */
      , (8905, 18, 16) /* UI_EFFECTS_INT */
      , (8905, 91, 1) /* MAX_STRUCTURE_INT */
+     , (8905, 92, 1) /* STRUCTURE_INT */
      , (8905, 94, 640) /* TARGET_TYPE_INT */
      , (8905, 16, 2097160) /* ITEM_USEABLE_INT */
      , (8905, 19, 100) /* VALUE_INT */

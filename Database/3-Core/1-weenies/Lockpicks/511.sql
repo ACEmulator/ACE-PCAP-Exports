@@ -19,6 +19,7 @@ VALUES (511, 53, 101) /* PLACEMENT_POSITION_INT */
      , (511, 1, 16384) /* ITEM_TYPE_INT */
      , (511, 5, 50) /* ENCUMB_VAL_INT */
      , (511, 91, 20) /* MAX_STRUCTURE_INT */
+     , (511, 92, 20) /* STRUCTURE_INT */
      , (511, 94, 640) /* TARGET_TYPE_INT */
      , (511, 16, 2097160) /* ITEM_USEABLE_INT */
      , (511, 19, 150) /* VALUE_INT */

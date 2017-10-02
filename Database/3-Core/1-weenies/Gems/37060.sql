@@ -23,6 +23,7 @@ VALUES (37060, 53, 101) /* PLACEMENT_POSITION_INT */
      , (37060, 5, 10) /* ENCUMB_VAL_INT */
      , (37060, 18, 64) /* UI_EFFECTS_INT */
      , (37060, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (37060, 12, 1) /* STACK_SIZE_INT */
      , (37060, 16, 1) /* ITEM_USEABLE_INT */
      , (37060, 19, 10) /* VALUE_INT */
      , (37060, 93, 1044) /* PHYSICS_STATE_INT */

@@ -22,6 +22,7 @@ VALUES (745, 53, 101) /* PLACEMENT_POSITION_INT */
      , (745, 1, 4096) /* ITEM_TYPE_INT */
      , (745, 5, 112) /* ENCUMB_VAL_INT */
      , (745, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (745, 12, 1) /* STACK_SIZE_INT */
      , (745, 16, 1) /* ITEM_USEABLE_INT */
      , (745, 19, 140) /* VALUE_INT */
      , (745, 93, 1044) /* PHYSICS_STATE_INT */

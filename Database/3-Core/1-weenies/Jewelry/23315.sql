@@ -22,6 +22,7 @@ VALUES (23315, 53, 101) /* PLACEMENT_POSITION_INT */
      , (23315, 1, 8) /* ITEM_TYPE_INT */
      , (23315, 5, 100) /* ENCUMB_VAL_INT */
      , (23315, 131, 60) /* MATERIAL_TYPE_INT */
+     , (23315, 92, 0) /* STRUCTURE_INT */
      , (23315, 16, 1) /* ITEM_USEABLE_INT */
      , (23315, 9, 32768) /* LOCATIONS_INT */
      , (23315, 19, 50) /* VALUE_INT */

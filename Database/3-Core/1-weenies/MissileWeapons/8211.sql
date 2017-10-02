@@ -24,6 +24,7 @@ VALUES (8211, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8211, 51, 2) /* COMBAT_USE_INT */
      , (8211, 151, 2) /* HOOK_TYPE_INT */
      , (8211, 11, 250) /* MAX_STACK_SIZE_INT */
+     , (8211, 12, 1) /* STACK_SIZE_INT */
      , (8211, 16, 1) /* ITEM_USEABLE_INT */
      , (8211, 9, 4194304) /* LOCATIONS_INT */
      , (8211, 19, 2000) /* VALUE_INT */

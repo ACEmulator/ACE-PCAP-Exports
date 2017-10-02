@@ -24,6 +24,7 @@ VALUES (7940, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7940, 151, 1) /* HOOK_TYPE_INT */
      , (7940, 131, 67) /* MATERIAL_TYPE_INT */
      , (7940, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (7940, 12, 1) /* STACK_SIZE_INT */
      , (7940, 94, 4194304) /* TARGET_TYPE_INT */
      , (7940, 16, 2097160) /* ITEM_USEABLE_INT */
      , (7940, 19, 1) /* VALUE_INT */

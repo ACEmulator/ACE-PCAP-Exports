@@ -23,6 +23,7 @@ VALUES (5781, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5781, 1, 4194304) /* ITEM_TYPE_INT */
      , (5781, 5, 500) /* ENCUMB_VAL_INT */
      , (5781, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5781, 12, 1) /* STACK_SIZE_INT */
      , (5781, 94, 4194336) /* TARGET_TYPE_INT */
      , (5781, 16, 524296) /* ITEM_USEABLE_INT */
      , (5781, 19, 250) /* VALUE_INT */

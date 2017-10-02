@@ -19,6 +19,7 @@ VALUES (45769, 53, 101) /* PLACEMENT_POSITION_INT */
      , (45769, 1, 64) /* ITEM_TYPE_INT */
      , (45769, 18, 256) /* UI_EFFECTS_INT */
      , (45769, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (45769, 12, 1) /* STACK_SIZE_INT */
      , (45769, 16, 1) /* ITEM_USEABLE_INT */
      , (45769, 93, 1044) /* PHYSICS_STATE_INT */
      , (45769, 9007, 9) /* Coin_WeenieType */;

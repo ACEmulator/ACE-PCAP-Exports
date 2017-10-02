@@ -24,6 +24,7 @@ VALUES (51372, 53, 101) /* PLACEMENT_POSITION_INT */
      , (51372, 5, 40) /* ENCUMB_VAL_INT */
      , (51372, 18, 1) /* UI_EFFECTS_INT */
      , (51372, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (51372, 12, 1) /* STACK_SIZE_INT */
      , (51372, 94, 16) /* TARGET_TYPE_INT */
      , (51372, 16, 8) /* ITEM_USEABLE_INT */
      , (51372, 93, 3092) /* PHYSICS_STATE_INT */

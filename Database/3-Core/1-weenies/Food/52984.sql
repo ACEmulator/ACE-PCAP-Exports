@@ -22,6 +22,7 @@ VALUES (52984, 1, 32) /* ITEM_TYPE_INT */
      , (52984, 5, 5) /* ENCUMB_VAL_INT */
      , (52984, 18, 16) /* UI_EFFECTS_INT */
      , (52984, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (52984, 12, 1) /* STACK_SIZE_INT */
      , (52984, 94, 4194336) /* TARGET_TYPE_INT */
      , (52984, 16, 524296) /* ITEM_USEABLE_INT */
      , (52984, 19, 5) /* VALUE_INT */

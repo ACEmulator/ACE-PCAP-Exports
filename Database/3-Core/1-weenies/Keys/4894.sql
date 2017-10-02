@@ -21,6 +21,7 @@ VALUES (4894, 53, 101) /* PLACEMENT_POSITION_INT */
      , (4894, 1, 16384) /* ITEM_TYPE_INT */
      , (4894, 5, 50) /* ENCUMB_VAL_INT */
      , (4894, 91, 3) /* MAX_STRUCTURE_INT */
+     , (4894, 92, 3) /* STRUCTURE_INT */
      , (4894, 94, 640) /* TARGET_TYPE_INT */
      , (4894, 16, 2097160) /* ITEM_USEABLE_INT */
      , (4894, 93, 1044) /* PHYSICS_STATE_INT */

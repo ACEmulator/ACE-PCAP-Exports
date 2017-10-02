@@ -19,6 +19,7 @@ VALUES (13206, 1, 128) /* ITEM_TYPE_INT */
      , (13206, 5, 55) /* ENCUMB_VAL_INT */
      , (13206, 151, 9) /* HOOK_TYPE_INT */
      , (13206, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (13206, 12, 1) /* STACK_SIZE_INT */
      , (13206, 94, 256) /* TARGET_TYPE_INT */
      , (13206, 16, 524296) /* ITEM_USEABLE_INT */
      , (13206, 19, 28) /* VALUE_INT */

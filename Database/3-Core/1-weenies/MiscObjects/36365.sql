@@ -24,6 +24,7 @@ VALUES (36365, 53, 101) /* PLACEMENT_POSITION_INT */
      , (36365, 1, 128) /* ITEM_TYPE_INT */
      , (36365, 5, 10) /* ENCUMB_VAL_INT */
      , (36365, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (36365, 12, 1) /* STACK_SIZE_INT */
      , (36365, 94, 16) /* TARGET_TYPE_INT */
      , (36365, 16, 8) /* ITEM_USEABLE_INT */
      , (36365, 19, 3) /* VALUE_INT */

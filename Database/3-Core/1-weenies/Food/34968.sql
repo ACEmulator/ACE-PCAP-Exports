@@ -23,6 +23,7 @@ VALUES (34968, 1, 32) /* ITEM_TYPE_INT */
      , (34968, 5, 30) /* ENCUMB_VAL_INT */
      , (34968, 18, 1) /* UI_EFFECTS_INT */
      , (34968, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (34968, 12, 1) /* STACK_SIZE_INT */
      , (34968, 16, 8) /* ITEM_USEABLE_INT */
      , (34968, 19, 50000) /* VALUE_INT */
      , (34968, 93, 1044) /* PHYSICS_STATE_INT */

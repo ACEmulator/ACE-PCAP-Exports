@@ -24,6 +24,7 @@ VALUES (7977, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7977, 5, 100) /* ENCUMB_VAL_INT */
      , (7977, 151, 9) /* HOOK_TYPE_INT */
      , (7977, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7977, 12, 1) /* STACK_SIZE_INT */
      , (7977, 94, 4194304) /* TARGET_TYPE_INT */
      , (7977, 16, 524296) /* ITEM_USEABLE_INT */
      , (7977, 19, 100) /* VALUE_INT */

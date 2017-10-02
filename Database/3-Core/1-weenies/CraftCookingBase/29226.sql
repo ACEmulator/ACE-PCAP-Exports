@@ -23,6 +23,7 @@ VALUES (29226, 53, 101) /* PLACEMENT_POSITION_INT */
      , (29226, 5, 75) /* ENCUMB_VAL_INT */
      , (29226, 18, 8) /* UI_EFFECTS_INT */
      , (29226, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (29226, 12, 1) /* STACK_SIZE_INT */
      , (29226, 16, 1) /* ITEM_USEABLE_INT */
      , (29226, 19, 2000) /* VALUE_INT */
      , (29226, 93, 1044) /* PHYSICS_STATE_INT */

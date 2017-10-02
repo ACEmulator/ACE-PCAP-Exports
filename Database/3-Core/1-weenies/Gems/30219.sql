@@ -28,6 +28,7 @@ VALUES (30219, 53, 101) /* PLACEMENT_POSITION_INT */
      , (30219, 18, 1) /* UI_EFFECTS_INT */
      , (30219, 151, 11) /* HOOK_TYPE_INT */
      , (30219, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (30219, 12, 1) /* STACK_SIZE_INT */
      , (30219, 94, 16) /* TARGET_TYPE_INT */
      , (30219, 16, 8) /* ITEM_USEABLE_INT */
      , (30219, 93, 1044) /* PHYSICS_STATE_INT */

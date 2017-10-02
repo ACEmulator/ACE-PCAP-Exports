@@ -23,6 +23,7 @@ VALUES (6057, 53, 101) /* PLACEMENT_POSITION_INT */
      , (6057, 5, 10) /* ENCUMB_VAL_INT */
      , (6057, 151, 2) /* HOOK_TYPE_INT */
      , (6057, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (6057, 12, 1) /* STACK_SIZE_INT */
      , (6057, 94, 2048) /* TARGET_TYPE_INT */
      , (6057, 16, 524296) /* ITEM_USEABLE_INT */
      , (6057, 93, 1044) /* PHYSICS_STATE_INT */

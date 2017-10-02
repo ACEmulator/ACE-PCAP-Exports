@@ -22,6 +22,7 @@ VALUES (45877, 53, 101) /* PLACEMENT_POSITION_INT */
      , (45877, 1, 32) /* ITEM_TYPE_INT */
      , (45877, 5, 50) /* ENCUMB_VAL_INT */
      , (45877, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (45877, 12, 1) /* STACK_SIZE_INT */
      , (45877, 16, 8) /* ITEM_USEABLE_INT */
      , (45877, 93, 1044) /* PHYSICS_STATE_INT */
      , (45877, 9007, 18) /* Food_WeenieType */;

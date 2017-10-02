@@ -25,6 +25,7 @@ VALUES (305, 53, 1) /* PLACEMENT_POSITION_INT */
      , (305, 51, 3) /* COMBAT_USE_INT */
      , (305, 151, 2) /* HOOK_TYPE_INT */
      , (305, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (305, 12, 1) /* STACK_SIZE_INT */
      , (305, 16, 1) /* ITEM_USEABLE_INT */
      , (305, 9, 8388608) /* LOCATIONS_INT */
      , (305, 19, 15) /* VALUE_INT */

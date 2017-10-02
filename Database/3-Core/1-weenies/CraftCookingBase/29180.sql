@@ -21,6 +21,7 @@ VALUES (29180, 1, 4194304) /* ITEM_TYPE_INT */
      , (29180, 5, 150) /* ENCUMB_VAL_INT */
      , (29180, 151, 2) /* HOOK_TYPE_INT */
      , (29180, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (29180, 12, 1) /* STACK_SIZE_INT */
      , (29180, 94, 4194336) /* TARGET_TYPE_INT */
      , (29180, 16, 524296) /* ITEM_USEABLE_INT */
      , (29180, 19, 150) /* VALUE_INT */

@@ -21,6 +21,7 @@ VALUES (41915, 53, 101) /* PLACEMENT_POSITION_INT */
      , (41915, 1, 2048) /* ITEM_TYPE_INT */
      , (41915, 5, 10) /* ENCUMB_VAL_INT */
      , (41915, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (41915, 12, 1) /* STACK_SIZE_INT */
      , (41915, 94, 33025) /* TARGET_TYPE_INT */
      , (41915, 16, 524296) /* ITEM_USEABLE_INT */
      , (41915, 19, 5) /* VALUE_INT */

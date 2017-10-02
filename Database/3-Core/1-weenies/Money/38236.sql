@@ -19,6 +19,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (38236, 53, 101) /* PLACEMENT_POSITION_INT */
      , (38236, 1, 64) /* ITEM_TYPE_INT */
      , (38236, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (38236, 12, 1) /* STACK_SIZE_INT */
      , (38236, 16, 1) /* ITEM_USEABLE_INT */
      , (38236, 93, 1044) /* PHYSICS_STATE_INT */
      , (38236, 9007, 9) /* Coin_WeenieType */;

@@ -23,6 +23,7 @@ VALUES (38405, 53, 101) /* PLACEMENT_POSITION_INT */
      , (38405, 5, 200) /* ENCUMB_VAL_INT */
      , (38405, 18, 1) /* UI_EFFECTS_INT */
      , (38405, 11, 15) /* MAX_STACK_SIZE_INT */
+     , (38405, 12, 1) /* STACK_SIZE_INT */
      , (38405, 16, 1) /* ITEM_USEABLE_INT */
      , (38405, 93, 1044) /* PHYSICS_STATE_INT */
      , (38405, 9007, 9) /* Coin_WeenieType */;

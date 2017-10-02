@@ -23,6 +23,7 @@ VALUES (20862, 53, 101) /* PLACEMENT_POSITION_INT */
      , (20862, 5, 10) /* ENCUMB_VAL_INT */
      , (20862, 151, 2) /* HOOK_TYPE_INT */
      , (20862, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (20862, 12, 1) /* STACK_SIZE_INT */
      , (20862, 94, 6) /* TARGET_TYPE_INT */
      , (20862, 16, 524296) /* ITEM_USEABLE_INT */
      , (20862, 19, 100) /* VALUE_INT */

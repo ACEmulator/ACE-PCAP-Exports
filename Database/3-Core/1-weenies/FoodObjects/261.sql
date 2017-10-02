@@ -23,6 +23,7 @@ VALUES (261, 53, 101) /* PLACEMENT_POSITION_INT */
      , (261, 5, 85) /* ENCUMB_VAL_INT */
      , (261, 151, 2) /* HOOK_TYPE_INT */
      , (261, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (261, 12, 1) /* STACK_SIZE_INT */
      , (261, 16, 8) /* ITEM_USEABLE_INT */
      , (261, 19, 15) /* VALUE_INT */
      , (261, 93, 1044) /* PHYSICS_STATE_INT */

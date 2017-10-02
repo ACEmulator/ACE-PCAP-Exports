@@ -22,6 +22,7 @@ VALUES (44600, 53, 101) /* PLACEMENT_POSITION_INT */
      , (44600, 1, 2048) /* ITEM_TYPE_INT */
      , (44600, 5, 100) /* ENCUMB_VAL_INT */
      , (44600, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (44600, 12, 1) /* STACK_SIZE_INT */
      , (44600, 94, 2) /* TARGET_TYPE_INT */
      , (44600, 16, 524296) /* ITEM_USEABLE_INT */
      , (44600, 19, 50) /* VALUE_INT */

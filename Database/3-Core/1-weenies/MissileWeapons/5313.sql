@@ -25,6 +25,7 @@ VALUES (5313, 53, 1) /* PLACEMENT_POSITION_INT */
      , (5313, 51, 3) /* COMBAT_USE_INT */
      , (5313, 151, 2) /* HOOK_TYPE_INT */
      , (5313, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (5313, 12, 1) /* STACK_SIZE_INT */
      , (5313, 16, 1) /* ITEM_USEABLE_INT */
      , (5313, 9, 8388608) /* LOCATIONS_INT */
      , (5313, 19, 80) /* VALUE_INT */

@@ -24,6 +24,7 @@ VALUES (36633, 53, 101) /* PLACEMENT_POSITION_INT */
      , (36633, 5, 100) /* ENCUMB_VAL_INT */
      , (36633, 18, 1) /* UI_EFFECTS_INT */
      , (36633, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (36633, 12, 1) /* STACK_SIZE_INT */
      , (36633, 94, 33025) /* TARGET_TYPE_INT */
      , (36633, 16, 524296) /* ITEM_USEABLE_INT */
      , (36633, 19, 2) /* VALUE_INT */

@@ -23,6 +23,7 @@ VALUES (29223, 53, 101) /* PLACEMENT_POSITION_INT */
      , (29223, 5, 300) /* ENCUMB_VAL_INT */
      , (29223, 18, 4) /* UI_EFFECTS_INT */
      , (29223, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (29223, 12, 1) /* STACK_SIZE_INT */
      , (29223, 16, 8) /* ITEM_USEABLE_INT */
      , (29223, 93, 1044) /* PHYSICS_STATE_INT */
      , (29223, 9007, 18) /* Food_WeenieType */;

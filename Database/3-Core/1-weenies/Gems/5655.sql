@@ -23,6 +23,7 @@ VALUES (5655, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5655, 5, 5) /* ENCUMB_VAL_INT */
      , (5655, 151, 2) /* HOOK_TYPE_INT */
      , (5655, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (5655, 12, 1) /* STACK_SIZE_INT */
      , (5655, 19, 1500) /* VALUE_INT */
      , (5655, 93, 1044) /* PHYSICS_STATE_INT */
      , (5655, 9007, 38) /* Gem_WeenieType */;

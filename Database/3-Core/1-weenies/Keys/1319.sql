@@ -20,6 +20,7 @@ VALUES (1319, 53, 101) /* PLACEMENT_POSITION_INT */
      , (1319, 1, 16384) /* ITEM_TYPE_INT */
      , (1319, 5, 50) /* ENCUMB_VAL_INT */
      , (1319, 91, 5) /* MAX_STRUCTURE_INT */
+     , (1319, 92, 5) /* STRUCTURE_INT */
      , (1319, 94, 640) /* TARGET_TYPE_INT */
      , (1319, 16, 2097160) /* ITEM_USEABLE_INT */
      , (1319, 19, 90) /* VALUE_INT */

@@ -23,6 +23,7 @@ VALUES (51436, 53, 1) /* PLACEMENT_POSITION_INT */
      , (51436, 5, 20) /* ENCUMB_VAL_INT */
      , (51436, 51, 2) /* COMBAT_USE_INT */
      , (51436, 11, 30) /* MAX_STACK_SIZE_INT */
+     , (51436, 12, 1) /* STACK_SIZE_INT */
      , (51436, 16, 1) /* ITEM_USEABLE_INT */
      , (51436, 9, 4194304) /* LOCATIONS_INT */
      , (51436, 19, 1) /* VALUE_INT */

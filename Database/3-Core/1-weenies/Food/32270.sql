@@ -25,6 +25,7 @@ VALUES (32270, 1, 32) /* ITEM_TYPE_INT */
      , (32270, 5, 200) /* ENCUMB_VAL_INT */
      , (32270, 18, 1) /* UI_EFFECTS_INT */
      , (32270, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (32270, 12, 1) /* STACK_SIZE_INT */
      , (32270, 16, 8) /* ITEM_USEABLE_INT */
      , (32270, 19, 40) /* VALUE_INT */
      , (32270, 93, 1044) /* PHYSICS_STATE_INT */

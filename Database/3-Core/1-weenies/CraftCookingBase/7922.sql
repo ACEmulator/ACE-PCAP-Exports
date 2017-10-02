@@ -22,6 +22,7 @@ VALUES (7922, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7922, 1, 4194304) /* ITEM_TYPE_INT */
      , (7922, 5, 75) /* ENCUMB_VAL_INT */
      , (7922, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7922, 12, 1) /* STACK_SIZE_INT */
      , (7922, 94, 4194336) /* TARGET_TYPE_INT */
      , (7922, 16, 524296) /* ITEM_USEABLE_INT */
      , (7922, 19, 25) /* VALUE_INT */

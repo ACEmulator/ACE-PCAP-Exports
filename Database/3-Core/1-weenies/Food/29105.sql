@@ -25,6 +25,7 @@ VALUES (29105, 1, 32) /* ITEM_TYPE_INT */
      , (29105, 5, 2350) /* ENCUMB_VAL_INT */
      , (29105, 18, 1) /* UI_EFFECTS_INT */
      , (29105, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (29105, 12, 1) /* STACK_SIZE_INT */
      , (29105, 16, 8) /* ITEM_USEABLE_INT */
      , (29105, 19, 470) /* VALUE_INT */
      , (29105, 93, 1044) /* PHYSICS_STATE_INT */

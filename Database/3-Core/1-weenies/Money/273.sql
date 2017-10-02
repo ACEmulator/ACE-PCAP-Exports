@@ -18,6 +18,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (273, 53, 101) /* PLACEMENT_POSITION_INT */
      , (273, 1, 64) /* ITEM_TYPE_INT */
      , (273, 11, 25000) /* MAX_STACK_SIZE_INT */
+     , (273, 12, 1) /* STACK_SIZE_INT */
      , (273, 16, 1) /* ITEM_USEABLE_INT */
      , (273, 19, 17094) /* VALUE_INT */
      , (273, 93, 1044) /* PHYSICS_STATE_INT */

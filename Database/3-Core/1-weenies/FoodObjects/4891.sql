@@ -22,6 +22,7 @@ VALUES (4891, 53, 101) /* PLACEMENT_POSITION_INT */
      , (4891, 1, 32) /* ITEM_TYPE_INT */
      , (4891, 5, 50) /* ENCUMB_VAL_INT */
      , (4891, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (4891, 12, 1) /* STACK_SIZE_INT */
      , (4891, 16, 8) /* ITEM_USEABLE_INT */
      , (4891, 93, 1044) /* PHYSICS_STATE_INT */
      , (4891, 9007, 18) /* Food_WeenieType */;

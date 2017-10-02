@@ -23,6 +23,7 @@ VALUES (764, 53, 101) /* PLACEMENT_POSITION_INT */
      , (764, 1, 4096) /* ITEM_TYPE_INT */
      , (764, 5, 40) /* ENCUMB_VAL_INT */
      , (764, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (764, 12, 1) /* STACK_SIZE_INT */
      , (764, 16, 1) /* ITEM_USEABLE_INT */
      , (764, 19, 50) /* VALUE_INT */
      , (764, 93, 1044) /* PHYSICS_STATE_INT */

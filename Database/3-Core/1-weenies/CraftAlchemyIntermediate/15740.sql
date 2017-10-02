@@ -24,6 +24,7 @@ VALUES (15740, 53, 101) /* PLACEMENT_POSITION_INT */
      , (15740, 5, 15) /* ENCUMB_VAL_INT */
      , (15740, 151, 11) /* HOOK_TYPE_INT */
      , (15740, 11, 5) /* MAX_STACK_SIZE_INT */
+     , (15740, 12, 1) /* STACK_SIZE_INT */
      , (15740, 94, 136) /* TARGET_TYPE_INT */
      , (15740, 16, 524296) /* ITEM_USEABLE_INT */
      , (15740, 19, 10) /* VALUE_INT */

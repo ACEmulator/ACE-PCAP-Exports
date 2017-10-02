@@ -21,6 +21,7 @@ VALUES (8716, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8716, 1, 2048) /* ITEM_TYPE_INT */
      , (8716, 5, 10) /* ENCUMB_VAL_INT */
      , (8716, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8716, 12, 1) /* STACK_SIZE_INT */
      , (8716, 94, 8192) /* TARGET_TYPE_INT */
      , (8716, 16, 524296) /* ITEM_USEABLE_INT */
      , (8716, 19, 1) /* VALUE_INT */

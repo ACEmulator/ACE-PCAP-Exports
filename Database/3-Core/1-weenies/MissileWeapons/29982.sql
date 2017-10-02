@@ -21,6 +21,7 @@ VALUES (29982, 1, 256) /* ITEM_TYPE_INT */
      , (29982, 5, 23) /* ENCUMB_VAL_INT */
      , (29982, 51, 2) /* COMBAT_USE_INT */
      , (29982, 11, 40) /* MAX_STACK_SIZE_INT */
+     , (29982, 12, 1) /* STACK_SIZE_INT */
      , (29982, 16, 1) /* ITEM_USEABLE_INT */
      , (29982, 9, 4194304) /* LOCATIONS_INT */
      , (29982, 19, 4) /* VALUE_INT */

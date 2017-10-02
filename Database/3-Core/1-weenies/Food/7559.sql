@@ -24,6 +24,7 @@ VALUES (7559, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7559, 5, 1250) /* ENCUMB_VAL_INT */
      , (7559, 18, 1) /* UI_EFFECTS_INT */
      , (7559, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (7559, 12, 1) /* STACK_SIZE_INT */
      , (7559, 94, 16) /* TARGET_TYPE_INT */
      , (7559, 16, 8) /* ITEM_USEABLE_INT */
      , (7559, 19, 3750) /* VALUE_INT */

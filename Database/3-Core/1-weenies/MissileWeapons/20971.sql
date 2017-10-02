@@ -25,6 +25,7 @@ VALUES (20971, 53, 101) /* PLACEMENT_POSITION_INT */
      , (20971, 51, 3) /* COMBAT_USE_INT */
      , (20971, 151, 2) /* HOOK_TYPE_INT */
      , (20971, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (20971, 12, 1) /* STACK_SIZE_INT */
      , (20971, 16, 1) /* ITEM_USEABLE_INT */
      , (20971, 9, 8388608) /* LOCATIONS_INT */
      , (20971, 19, 2250) /* VALUE_INT */

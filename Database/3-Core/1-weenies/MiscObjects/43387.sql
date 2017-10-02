@@ -24,6 +24,7 @@ VALUES (43387, 53, 101) /* PLACEMENT_POSITION_INT */
      , (43387, 1, 128) /* ITEM_TYPE_INT */
      , (43387, 5, 25) /* ENCUMB_VAL_INT */
      , (43387, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (43387, 12, 1) /* STACK_SIZE_INT */
      , (43387, 16, 1) /* ITEM_USEABLE_INT */
      , (43387, 19, 30000) /* VALUE_INT */
      , (43387, 93, 1044) /* PHYSICS_STATE_INT */

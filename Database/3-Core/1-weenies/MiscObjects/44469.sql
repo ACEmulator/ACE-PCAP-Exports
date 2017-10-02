@@ -22,6 +22,7 @@ VALUES (44469, 53, 101) /* PLACEMENT_POSITION_INT */
      , (44469, 5, 50) /* ENCUMB_VAL_INT */
      , (44469, 18, 128) /* UI_EFFECTS_INT */
      , (44469, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (44469, 12, 1) /* STACK_SIZE_INT */
      , (44469, 16, 1) /* ITEM_USEABLE_INT */
      , (44469, 93, 1044) /* PHYSICS_STATE_INT */
      , (44469, 9007, 1) /* Generic_WeenieType */;

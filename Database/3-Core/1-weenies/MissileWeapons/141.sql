@@ -25,6 +25,7 @@ VALUES (141, 53, 101) /* PLACEMENT_POSITION_INT */
      , (141, 151, 1) /* HOOK_TYPE_INT */
      , (141, 131, 60) /* MATERIAL_TYPE_INT */
      , (141, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (141, 12, 1) /* STACK_SIZE_INT */
      , (141, 16, 1) /* ITEM_USEABLE_INT */
      , (141, 9, 4194304) /* LOCATIONS_INT */
      , (141, 19, 90) /* VALUE_INT */

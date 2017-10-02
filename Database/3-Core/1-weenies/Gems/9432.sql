@@ -24,6 +24,7 @@ VALUES (9432, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9432, 5, 10) /* ENCUMB_VAL_INT */
      , (9432, 18, 1) /* UI_EFFECTS_INT */
      , (9432, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (9432, 12, 1) /* STACK_SIZE_INT */
      , (9432, 94, 16) /* TARGET_TYPE_INT */
      , (9432, 16, 8) /* ITEM_USEABLE_INT */
      , (9432, 19, 200) /* VALUE_INT */

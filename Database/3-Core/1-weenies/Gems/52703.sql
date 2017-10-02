@@ -27,6 +27,7 @@ VALUES (52703, 53, 101) /* PLACEMENT_POSITION_INT */
      , (52703, 18, 1) /* UI_EFFECTS_INT */
      , (52703, 151, 11) /* HOOK_TYPE_INT */
      , (52703, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (52703, 12, 1) /* STACK_SIZE_INT */
      , (52703, 94, 16) /* TARGET_TYPE_INT */
      , (52703, 16, 8) /* ITEM_USEABLE_INT */
      , (52703, 19, 250) /* VALUE_INT */

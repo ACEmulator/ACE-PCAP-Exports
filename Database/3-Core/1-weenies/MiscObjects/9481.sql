@@ -21,6 +21,7 @@ VALUES (9481, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9481, 1, 128) /* ITEM_TYPE_INT */
      , (9481, 5, 20) /* ENCUMB_VAL_INT */
      , (9481, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (9481, 12, 1) /* STACK_SIZE_INT */
      , (9481, 16, 1) /* ITEM_USEABLE_INT */
      , (9481, 19, 20000) /* VALUE_INT */
      , (9481, 93, 1044) /* PHYSICS_STATE_INT */

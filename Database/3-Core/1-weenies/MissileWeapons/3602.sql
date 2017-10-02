@@ -25,6 +25,7 @@ VALUES (3602, 53, 101) /* PLACEMENT_POSITION_INT */
      , (3602, 51, 3) /* COMBAT_USE_INT */
      , (3602, 151, 2) /* HOOK_TYPE_INT */
      , (3602, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (3602, 12, 1) /* STACK_SIZE_INT */
      , (3602, 16, 1) /* ITEM_USEABLE_INT */
      , (3602, 9, 8388608) /* LOCATIONS_INT */
      , (3602, 19, 4000) /* VALUE_INT */

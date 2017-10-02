@@ -23,6 +23,7 @@ VALUES (8909, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8909, 1, 67108864) /* ITEM_TYPE_INT */
      , (8909, 5, 200) /* ENCUMB_VAL_INT */
      , (8909, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8909, 12, 1) /* STACK_SIZE_INT */
      , (8909, 94, 1) /* TARGET_TYPE_INT */
      , (8909, 16, 524296) /* ITEM_USEABLE_INT */
      , (8909, 93, 1044) /* PHYSICS_STATE_INT */

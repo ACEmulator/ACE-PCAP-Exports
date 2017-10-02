@@ -26,6 +26,7 @@ VALUES (48301, 53, 1) /* PLACEMENT_POSITION_INT */
      , (48301, 18, 32) /* UI_EFFECTS_INT */
      , (48301, 151, 2) /* HOOK_TYPE_INT */
      , (48301, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (48301, 12, 1) /* STACK_SIZE_INT */
      , (48301, 16, 1) /* ITEM_USEABLE_INT */
      , (48301, 9, 8388608) /* LOCATIONS_INT */
      , (48301, 19, 154) /* VALUE_INT */

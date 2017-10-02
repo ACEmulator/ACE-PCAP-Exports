@@ -23,6 +23,7 @@ VALUES (35265, 53, 1) /* PLACEMENT_POSITION_INT */
      , (35265, 51, 2) /* COMBAT_USE_INT */
      , (35265, 151, 2) /* HOOK_TYPE_INT */
      , (35265, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (35265, 12, 1) /* STACK_SIZE_INT */
      , (35265, 16, 1) /* ITEM_USEABLE_INT */
      , (35265, 9, 4194304) /* LOCATIONS_INT */
      , (35265, 19, 5) /* VALUE_INT */

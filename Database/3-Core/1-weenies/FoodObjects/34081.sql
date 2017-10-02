@@ -22,6 +22,7 @@ VALUES (34081, 53, 101) /* PLACEMENT_POSITION_INT */
      , (34081, 5, 6) /* ENCUMB_VAL_INT */
      , (34081, 151, 2) /* HOOK_TYPE_INT */
      , (34081, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (34081, 12, 1) /* STACK_SIZE_INT */
      , (34081, 16, 8) /* ITEM_USEABLE_INT */
      , (34081, 19, 3) /* VALUE_INT */
      , (34081, 93, 1044) /* PHYSICS_STATE_INT */

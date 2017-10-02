@@ -21,6 +21,7 @@ VALUES (22048, 1, 128) /* ITEM_TYPE_INT */
      , (22048, 5, 600) /* ENCUMB_VAL_INT */
      , (22048, 151, 2) /* HOOK_TYPE_INT */
      , (22048, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (22048, 12, 1) /* STACK_SIZE_INT */
      , (22048, 16, 1) /* ITEM_USEABLE_INT */
      , (22048, 93, 1044) /* PHYSICS_STATE_INT */
      , (22048, 9007, 1) /* Generic_WeenieType */;

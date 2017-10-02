@@ -21,6 +21,7 @@ VALUES (7810, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7810, 1, 16384) /* ITEM_TYPE_INT */
      , (7810, 5, 10) /* ENCUMB_VAL_INT */
      , (7810, 91, 4) /* MAX_STRUCTURE_INT */
+     , (7810, 92, 4) /* STRUCTURE_INT */
      , (7810, 94, 640) /* TARGET_TYPE_INT */
      , (7810, 16, 2097160) /* ITEM_USEABLE_INT */
      , (7810, 19, 20) /* VALUE_INT */

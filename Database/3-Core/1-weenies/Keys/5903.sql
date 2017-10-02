@@ -20,6 +20,7 @@ VALUES (5903, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5903, 1, 16384) /* ITEM_TYPE_INT */
      , (5903, 5, 25) /* ENCUMB_VAL_INT */
      , (5903, 91, 1) /* MAX_STRUCTURE_INT */
+     , (5903, 92, 1) /* STRUCTURE_INT */
      , (5903, 94, 640) /* TARGET_TYPE_INT */
      , (5903, 16, 2097160) /* ITEM_USEABLE_INT */
      , (5903, 19, 20) /* VALUE_INT */

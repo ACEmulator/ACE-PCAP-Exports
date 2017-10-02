@@ -23,6 +23,7 @@ VALUES (7419, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7419, 1, 67108864) /* ITEM_TYPE_INT */
      , (7419, 5, 15) /* ENCUMB_VAL_INT */
      , (7419, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (7419, 12, 1) /* STACK_SIZE_INT */
      , (7419, 94, 1) /* TARGET_TYPE_INT */
      , (7419, 16, 524296) /* ITEM_USEABLE_INT */
      , (7419, 19, 1500) /* VALUE_INT */

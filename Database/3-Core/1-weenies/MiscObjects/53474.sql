@@ -24,6 +24,7 @@ VALUES (53474, 53, 101) /* PLACEMENT_POSITION_INT */
      , (53474, 1, 128) /* ITEM_TYPE_INT */
      , (53474, 5, 1) /* ENCUMB_VAL_INT */
      , (53474, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (53474, 12, 1) /* STACK_SIZE_INT */
      , (53474, 16, 1) /* ITEM_USEABLE_INT */
      , (53474, 19, 1) /* VALUE_INT */
      , (53474, 93, 1044) /* PHYSICS_STATE_INT */

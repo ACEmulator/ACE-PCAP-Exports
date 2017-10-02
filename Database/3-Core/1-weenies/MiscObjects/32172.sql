@@ -21,6 +21,7 @@ VALUES (32172, 1, 128) /* ITEM_TYPE_INT */
      , (32172, 5, 200) /* ENCUMB_VAL_INT */
      , (32172, 151, 1) /* HOOK_TYPE_INT */
      , (32172, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (32172, 12, 1) /* STACK_SIZE_INT */
      , (32172, 16, 1) /* ITEM_USEABLE_INT */
      , (32172, 93, 1044) /* PHYSICS_STATE_INT */
      , (32172, 9007, 1) /* Generic_WeenieType */;

@@ -25,6 +25,7 @@ VALUES (15281, 53, 101) /* PLACEMENT_POSITION_INT */
      , (15281, 51, 3) /* COMBAT_USE_INT */
      , (15281, 151, 2) /* HOOK_TYPE_INT */
      , (15281, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (15281, 12, 1) /* STACK_SIZE_INT */
      , (15281, 16, 1) /* ITEM_USEABLE_INT */
      , (15281, 9, 8388608) /* LOCATIONS_INT */
      , (15281, 19, 200) /* VALUE_INT */

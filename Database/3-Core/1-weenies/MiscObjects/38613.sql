@@ -21,6 +21,7 @@ VALUES (38613, 1, 128) /* ITEM_TYPE_INT */
      , (38613, 5, 50) /* ENCUMB_VAL_INT */
      , (38613, 18, 512) /* UI_EFFECTS_INT */
      , (38613, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (38613, 12, 1) /* STACK_SIZE_INT */
      , (38613, 16, 1) /* ITEM_USEABLE_INT */
      , (38613, 93, 1044) /* PHYSICS_STATE_INT */
      , (38613, 9007, 1) /* Generic_WeenieType */;

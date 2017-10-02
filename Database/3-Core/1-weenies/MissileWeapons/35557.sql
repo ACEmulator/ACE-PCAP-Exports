@@ -23,6 +23,7 @@ VALUES (35557, 1, 256) /* ITEM_TYPE_INT */
      , (35557, 5, 120) /* ENCUMB_VAL_INT */
      , (35557, 51, 2) /* COMBAT_USE_INT */
      , (35557, 11, 250) /* MAX_STACK_SIZE_INT */
+     , (35557, 12, 1) /* STACK_SIZE_INT */
      , (35557, 16, 1) /* ITEM_USEABLE_INT */
      , (35557, 9, 4194304) /* LOCATIONS_INT */
      , (35557, 52, 1) /* PARENT_LOCATION_INT */

@@ -20,6 +20,7 @@ VALUES (6037, 53, 101) /* PLACEMENT_POSITION_INT */
      , (6037, 1, 16384) /* ITEM_TYPE_INT */
      , (6037, 5, 50) /* ENCUMB_VAL_INT */
      , (6037, 91, 2) /* MAX_STRUCTURE_INT */
+     , (6037, 92, 2) /* STRUCTURE_INT */
      , (6037, 94, 640) /* TARGET_TYPE_INT */
      , (6037, 16, 2097160) /* ITEM_USEABLE_INT */
      , (6037, 19, 15) /* VALUE_INT */

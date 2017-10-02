@@ -21,6 +21,7 @@ VALUES (7398, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7398, 1, 16384) /* ITEM_TYPE_INT */
      , (7398, 5, 50) /* ENCUMB_VAL_INT */
      , (7398, 91, 1) /* MAX_STRUCTURE_INT */
+     , (7398, 92, 1) /* STRUCTURE_INT */
      , (7398, 94, 640) /* TARGET_TYPE_INT */
      , (7398, 16, 2097160) /* ITEM_USEABLE_INT */
      , (7398, 19, 25) /* VALUE_INT */

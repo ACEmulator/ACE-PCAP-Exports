@@ -21,6 +21,7 @@ VALUES (5058, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5058, 1, 16384) /* ITEM_TYPE_INT */
      , (5058, 5, 50) /* ENCUMB_VAL_INT */
      , (5058, 91, 3) /* MAX_STRUCTURE_INT */
+     , (5058, 92, 3) /* STRUCTURE_INT */
      , (5058, 94, 640) /* TARGET_TYPE_INT */
      , (5058, 16, 2097160) /* ITEM_USEABLE_INT */
      , (5058, 93, 1044) /* PHYSICS_STATE_INT */

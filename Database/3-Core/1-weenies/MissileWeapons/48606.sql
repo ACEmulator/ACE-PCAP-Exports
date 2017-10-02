@@ -22,6 +22,7 @@ VALUES (48606, 1, 256) /* ITEM_TYPE_INT */
      , (48606, 51, 2) /* COMBAT_USE_INT */
      , (48606, 151, 2) /* HOOK_TYPE_INT */
      , (48606, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (48606, 12, 1) /* STACK_SIZE_INT */
      , (48606, 16, 1) /* ITEM_USEABLE_INT */
      , (48606, 9, 4194304) /* LOCATIONS_INT */
      , (48606, 19, 12) /* VALUE_INT */

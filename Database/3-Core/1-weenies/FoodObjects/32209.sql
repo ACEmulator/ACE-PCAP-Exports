@@ -22,6 +22,7 @@ VALUES (32209, 53, 101) /* PLACEMENT_POSITION_INT */
      , (32209, 5, 2) /* ENCUMB_VAL_INT */
      , (32209, 151, 2) /* HOOK_TYPE_INT */
      , (32209, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (32209, 12, 1) /* STACK_SIZE_INT */
      , (32209, 16, 8) /* ITEM_USEABLE_INT */
      , (32209, 19, 1) /* VALUE_INT */
      , (32209, 93, 1044) /* PHYSICS_STATE_INT */

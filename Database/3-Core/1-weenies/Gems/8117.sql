@@ -24,6 +24,7 @@ VALUES (8117, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8117, 5, 10) /* ENCUMB_VAL_INT */
      , (8117, 18, 1) /* UI_EFFECTS_INT */
      , (8117, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8117, 12, 1) /* STACK_SIZE_INT */
      , (8117, 94, 16) /* TARGET_TYPE_INT */
      , (8117, 16, 8) /* ITEM_USEABLE_INT */
      , (8117, 19, 1500) /* VALUE_INT */

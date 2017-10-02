@@ -23,6 +23,7 @@ VALUES (8644, 1, 4194304) /* ITEM_TYPE_INT */
      , (8644, 5, 5) /* ENCUMB_VAL_INT */
      , (8644, 151, 9) /* HOOK_TYPE_INT */
      , (8644, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (8644, 12, 1) /* STACK_SIZE_INT */
      , (8644, 16, 1) /* ITEM_USEABLE_INT */
      , (8644, 19, 10) /* VALUE_INT */
      , (8644, 93, 1044) /* PHYSICS_STATE_INT */

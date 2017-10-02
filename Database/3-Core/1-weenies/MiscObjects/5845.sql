@@ -21,6 +21,7 @@ VALUES (5845, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5845, 1, 128) /* ITEM_TYPE_INT */
      , (5845, 5, 25) /* ENCUMB_VAL_INT */
      , (5845, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (5845, 12, 1) /* STACK_SIZE_INT */
      , (5845, 94, 128) /* TARGET_TYPE_INT */
      , (5845, 16, 524296) /* ITEM_USEABLE_INT */
      , (5845, 19, 20) /* VALUE_INT */

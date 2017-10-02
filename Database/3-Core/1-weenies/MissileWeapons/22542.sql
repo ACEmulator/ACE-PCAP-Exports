@@ -23,6 +23,7 @@ VALUES (22542, 53, 52) /* PLACEMENT_POSITION_INT */
      , (22542, 51, 2) /* COMBAT_USE_INT */
      , (22542, 18, 16) /* UI_EFFECTS_INT */
      , (22542, 11, 30) /* MAX_STACK_SIZE_INT */
+     , (22542, 12, 1) /* STACK_SIZE_INT */
      , (22542, 16, 1) /* ITEM_USEABLE_INT */
      , (22542, 9, 4194304) /* LOCATIONS_INT */
      , (22542, 19, 4) /* VALUE_INT */

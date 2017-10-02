@@ -23,6 +23,7 @@ VALUES (4751, 53, 101) /* PLACEMENT_POSITION_INT */
      , (4751, 5, 50) /* ENCUMB_VAL_INT */
      , (4751, 151, 9) /* HOOK_TYPE_INT */
      , (4751, 11, 2) /* MAX_STACK_SIZE_INT */
+     , (4751, 12, 1) /* STACK_SIZE_INT */
      , (4751, 94, 4201088) /* TARGET_TYPE_INT */
      , (4751, 16, 524296) /* ITEM_USEABLE_INT */
      , (4751, 19, 10) /* VALUE_INT */

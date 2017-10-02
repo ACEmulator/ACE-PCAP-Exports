@@ -21,6 +21,7 @@ VALUES (28057, 53, 101) /* PLACEMENT_POSITION_INT */
      , (28057, 1, 16384) /* ITEM_TYPE_INT */
      , (28057, 5, 20) /* ENCUMB_VAL_INT */
      , (28057, 91, 1) /* MAX_STRUCTURE_INT */
+     , (28057, 92, 1) /* STRUCTURE_INT */
      , (28057, 94, 640) /* TARGET_TYPE_INT */
      , (28057, 16, 2097160) /* ITEM_USEABLE_INT */
      , (28057, 19, 3) /* VALUE_INT */

@@ -24,6 +24,7 @@ VALUES (41855, 53, 101) /* PLACEMENT_POSITION_INT */
      , (41855, 1, 128) /* ITEM_TYPE_INT */
      , (41855, 5, 10) /* ENCUMB_VAL_INT */
      , (41855, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (41855, 12, 1) /* STACK_SIZE_INT */
      , (41855, 94, 16) /* TARGET_TYPE_INT */
      , (41855, 16, 8) /* ITEM_USEABLE_INT */
      , (41855, 19, 3) /* VALUE_INT */

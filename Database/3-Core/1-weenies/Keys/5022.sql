@@ -21,6 +21,7 @@ VALUES (5022, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5022, 1, 16384) /* ITEM_TYPE_INT */
      , (5022, 5, 50) /* ENCUMB_VAL_INT */
      , (5022, 91, 10) /* MAX_STRUCTURE_INT */
+     , (5022, 92, 10) /* STRUCTURE_INT */
      , (5022, 94, 640) /* TARGET_TYPE_INT */
      , (5022, 16, 2097160) /* ITEM_USEABLE_INT */
      , (5022, 19, 20) /* VALUE_INT */

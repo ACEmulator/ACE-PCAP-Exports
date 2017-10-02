@@ -20,6 +20,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (44303, 1, 128) /* ITEM_TYPE_INT */
      , (44303, 5, 40) /* ENCUMB_VAL_INT */
      , (44303, 11, 20) /* MAX_STACK_SIZE_INT */
+     , (44303, 12, 1) /* STACK_SIZE_INT */
      , (44303, 16, 1) /* ITEM_USEABLE_INT */
      , (44303, 93, 1044) /* PHYSICS_STATE_INT */
      , (44303, 9007, 1) /* Generic_WeenieType */;

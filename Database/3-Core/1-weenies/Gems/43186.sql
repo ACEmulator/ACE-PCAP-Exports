@@ -22,6 +22,7 @@ VALUES (43186, 53, 101) /* PLACEMENT_POSITION_INT */
      , (43186, 1, 2048) /* ITEM_TYPE_INT */
      , (43186, 5, 50) /* ENCUMB_VAL_INT */
      , (43186, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (43186, 12, 1) /* STACK_SIZE_INT */
      , (43186, 16, 1) /* ITEM_USEABLE_INT */
      , (43186, 19, 1) /* VALUE_INT */
      , (43186, 93, 1044) /* PHYSICS_STATE_INT */

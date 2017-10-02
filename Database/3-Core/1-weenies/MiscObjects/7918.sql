@@ -21,6 +21,7 @@ VALUES (7918, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7918, 1, 128) /* ITEM_TYPE_INT */
      , (7918, 5, 25) /* ENCUMB_VAL_INT */
      , (7918, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (7918, 12, 1) /* STACK_SIZE_INT */
      , (7918, 19, 20) /* VALUE_INT */
      , (7918, 93, 1044) /* PHYSICS_STATE_INT */
      , (7918, 9007, 1) /* Generic_WeenieType */;

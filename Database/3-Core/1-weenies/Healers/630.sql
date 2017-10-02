@@ -19,6 +19,7 @@ VALUES (630, 53, 101) /* PLACEMENT_POSITION_INT */
      , (630, 1, 128) /* ITEM_TYPE_INT */
      , (630, 5, 50) /* ENCUMB_VAL_INT */
      , (630, 91, 30) /* MAX_STRUCTURE_INT */
+     , (630, 92, 30) /* STRUCTURE_INT */
      , (630, 94, 16) /* TARGET_TYPE_INT */
      , (630, 16, 2228232) /* ITEM_USEABLE_INT */
      , (630, 19, 120) /* VALUE_INT */

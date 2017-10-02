@@ -23,6 +23,7 @@ VALUES (7534, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7534, 5, 2000) /* ENCUMB_VAL_INT */
      , (7534, 151, 9) /* HOOK_TYPE_INT */
      , (7534, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7534, 12, 1) /* STACK_SIZE_INT */
      , (7534, 94, 4096) /* TARGET_TYPE_INT */
      , (7534, 16, 524296) /* ITEM_USEABLE_INT */
      , (7534, 93, 1044) /* PHYSICS_STATE_INT */

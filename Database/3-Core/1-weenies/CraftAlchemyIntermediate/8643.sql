@@ -24,6 +24,7 @@ VALUES (8643, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8643, 5, 100) /* ENCUMB_VAL_INT */
      , (8643, 151, 9) /* HOOK_TYPE_INT */
      , (8643, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (8643, 12, 1) /* STACK_SIZE_INT */
      , (8643, 94, 4194304) /* TARGET_TYPE_INT */
      , (8643, 16, 524296) /* ITEM_USEABLE_INT */
      , (8643, 19, 100) /* VALUE_INT */

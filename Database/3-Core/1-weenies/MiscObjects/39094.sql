@@ -23,6 +23,7 @@ VALUES (39094, 53, 101) /* PLACEMENT_POSITION_INT */
      , (39094, 1, 128) /* ITEM_TYPE_INT */
      , (39094, 5, 110) /* ENCUMB_VAL_INT */
      , (39094, 11, 30) /* MAX_STACK_SIZE_INT */
+     , (39094, 12, 1) /* STACK_SIZE_INT */
      , (39094, 16, 1) /* ITEM_USEABLE_INT */
      , (39094, 19, 550) /* VALUE_INT */
      , (39094, 93, 1044) /* PHYSICS_STATE_INT */

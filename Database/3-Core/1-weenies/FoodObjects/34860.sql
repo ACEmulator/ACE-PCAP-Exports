@@ -22,6 +22,7 @@ VALUES (34860, 53, 101) /* PLACEMENT_POSITION_INT */
      , (34860, 1, 32) /* ITEM_TYPE_INT */
      , (34860, 5, 2100) /* ENCUMB_VAL_INT */
      , (34860, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (34860, 12, 1) /* STACK_SIZE_INT */
      , (34860, 16, 8) /* ITEM_USEABLE_INT */
      , (34860, 19, 1500) /* VALUE_INT */
      , (34860, 93, 1044) /* PHYSICS_STATE_INT */

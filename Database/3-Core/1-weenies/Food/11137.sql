@@ -22,6 +22,7 @@ VALUES (11137, 1, 32) /* ITEM_TYPE_INT */
      , (11137, 5, 50) /* ENCUMB_VAL_INT */
      , (11137, 18, 1) /* UI_EFFECTS_INT */
      , (11137, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (11137, 12, 1) /* STACK_SIZE_INT */
      , (11137, 94, 16) /* TARGET_TYPE_INT */
      , (11137, 16, 8) /* ITEM_USEABLE_INT */
      , (11137, 19, 5000) /* VALUE_INT */

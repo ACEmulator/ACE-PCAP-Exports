@@ -21,6 +21,7 @@ VALUES (52796, 53, 101) /* PLACEMENT_POSITION_INT */
      , (52796, 1, 128) /* ITEM_TYPE_INT */
      , (52796, 5, 5) /* ENCUMB_VAL_INT */
      , (52796, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (52796, 12, 1) /* STACK_SIZE_INT */
      , (52796, 16, 1) /* ITEM_USEABLE_INT */
      , (52796, 19, 10) /* VALUE_INT */
      , (52796, 93, 1044) /* PHYSICS_STATE_INT */

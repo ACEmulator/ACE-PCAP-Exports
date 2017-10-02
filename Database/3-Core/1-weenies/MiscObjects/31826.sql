@@ -23,6 +23,8 @@ VALUES (31826, 53, 101) /* PLACEMENT_POSITION_INT */
      , (31826, 151, 2) /* HOOK_TYPE_INT */
      , (31826, 11, 1) /* MAX_STACK_SIZE_INT */
      , (31826, 91, 50) /* MAX_STRUCTURE_INT */
+     , (31826, 12, 1) /* STACK_SIZE_INT */
+     , (31826, 92, 50) /* STRUCTURE_INT */
      , (31826, 94, 16384) /* TARGET_TYPE_INT */
      , (31826, 16, 524296) /* ITEM_USEABLE_INT */
      , (31826, 19, 10) /* VALUE_INT */

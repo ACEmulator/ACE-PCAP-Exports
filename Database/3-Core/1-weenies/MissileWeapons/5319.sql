@@ -25,6 +25,7 @@ VALUES (5319, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5319, 51, 3) /* COMBAT_USE_INT */
      , (5319, 151, 2) /* HOOK_TYPE_INT */
      , (5319, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (5319, 12, 1) /* STACK_SIZE_INT */
      , (5319, 16, 1) /* ITEM_USEABLE_INT */
      , (5319, 9, 8388608) /* LOCATIONS_INT */
      , (5319, 19, 833) /* VALUE_INT */

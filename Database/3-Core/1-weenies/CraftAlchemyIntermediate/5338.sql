@@ -23,6 +23,7 @@ VALUES (5338, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5338, 5, 65) /* ENCUMB_VAL_INT */
      , (5338, 151, 11) /* HOOK_TYPE_INT */
      , (5338, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (5338, 12, 1) /* STACK_SIZE_INT */
      , (5338, 94, 75497472) /* TARGET_TYPE_INT */
      , (5338, 16, 524296) /* ITEM_USEABLE_INT */
      , (5338, 19, 140) /* VALUE_INT */
