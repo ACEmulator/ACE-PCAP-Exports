@@ -60,3 +60,11 @@ VALUES (8997, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (8997, 680) /* ArcaneEnlightenmentSelf3_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8997, 5, 60) /* ENCUMB_VAL_INT */
+     , (8997, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8997, 12, 1) /* STACK_SIZE_INT */
+     , (8997, 19, 1000) /* VALUE_INT */;
+

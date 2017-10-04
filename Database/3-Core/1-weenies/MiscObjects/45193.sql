@@ -21,7 +21,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (45193, 1, 128) /* ITEM_TYPE_INT */
      , (45193, 5, 100) /* ENCUMB_VAL_INT */
      , (45193, 11, 20) /* MAX_STACK_SIZE_INT */
-     , (45193, 12, 1) /* STACK_SIZE_INT */
+     , (45193, 12, 20) /* STACK_SIZE_INT */
      , (45193, 16, 1) /* ITEM_USEABLE_INT */
      , (45193, 93, 1044) /* PHYSICS_STATE_INT */
      , (45193, 9007, 1) /* Generic_WeenieType */;
@@ -45,4 +45,11 @@ VALUES (45193, 33, 1) /* BONDED_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45193, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45193, 5, 5) /* ENCUMB_VAL_INT */
+     , (45193, 11, 20) /* MAX_STACK_SIZE_INT */
+     , (45193, 12, 1) /* STACK_SIZE_INT */;
 

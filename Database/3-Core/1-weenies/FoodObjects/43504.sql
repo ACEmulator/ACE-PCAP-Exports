@@ -25,7 +25,7 @@ VALUES (43504, 53, 101) /* PLACEMENT_POSITION_INT */
      , (43504, 5, 200) /* ENCUMB_VAL_INT */
      , (43504, 151, 11) /* HOOK_TYPE_INT */
      , (43504, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (43504, 12, 1) /* STACK_SIZE_INT */
+     , (43504, 12, 40) /* STACK_SIZE_INT */
      , (43504, 16, 8) /* ITEM_USEABLE_INT */
      , (43504, 93, 1044) /* PHYSICS_STATE_INT */
      , (43504, 9007, 18) /* Food_WeenieType */;
@@ -45,4 +45,11 @@ VALUES (43504, 0, 83889126, 83889126)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43504, 0, 16778735);
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43504, 5, 5) /* ENCUMB_VAL_INT */
+     , (43504, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (43504, 12, 1) /* STACK_SIZE_INT */;
 

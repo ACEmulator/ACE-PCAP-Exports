@@ -28,7 +28,7 @@ VALUES (30197, 53, 101) /* PLACEMENT_POSITION_INT */
      , (30197, 18, 1) /* UI_EFFECTS_INT */
      , (30197, 151, 11) /* HOOK_TYPE_INT */
      , (30197, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (30197, 12, 1) /* STACK_SIZE_INT */
+     , (30197, 12, 2) /* STACK_SIZE_INT */
      , (30197, 94, 16) /* TARGET_TYPE_INT */
      , (30197, 16, 8) /* ITEM_USEABLE_INT */
      , (30197, 93, 1044) /* PHYSICS_STATE_INT */
@@ -69,4 +69,11 @@ VALUES (30197, 108, 1) /* RARE_USES_TIMER_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (30197, 3695) /* CreatureEnchantmentMasteryRare_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30197, 5, 5) /* ENCUMB_VAL_INT */
+     , (30197, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (30197, 12, 1) /* STACK_SIZE_INT */;
 

@@ -22,7 +22,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (44366, 53, 101) /* PLACEMENT_POSITION_INT */
      , (44366, 1, 134217728) /* ITEM_TYPE_INT */
      , (44366, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (44366, 12, 1) /* STACK_SIZE_INT */
+     , (44366, 12, 33) /* STACK_SIZE_INT */
      , (44366, 94, 134217728) /* TARGET_TYPE_INT */
      , (44366, 16, 524296) /* ITEM_USEABLE_INT */
      , (44366, 19, 495000) /* VALUE_INT */
@@ -34,4 +34,11 @@ VALUES (44366, 13, True) /* ETHEREAL_BOOL */
      , (44366, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (44366, 14, True) /* GRAVITY_STATUS_BOOL */
      , (44366, 19, True) /* ATTACKABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44366, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (44366, 12, 1) /* STACK_SIZE_INT */
+     , (44366, 19, 15000) /* VALUE_INT */;
 

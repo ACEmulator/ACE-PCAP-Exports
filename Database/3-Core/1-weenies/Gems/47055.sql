@@ -25,7 +25,7 @@ VALUES (47055, 53, 101) /* PLACEMENT_POSITION_INT */
      , (47055, 18, 1) /* UI_EFFECTS_INT */
      , (47055, 151, 2) /* HOOK_TYPE_INT */
      , (47055, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (47055, 12, 1) /* STACK_SIZE_INT */
+     , (47055, 12, 3) /* STACK_SIZE_INT */
      , (47055, 94, 32768) /* TARGET_TYPE_INT */
      , (47055, 16, 8) /* ITEM_USEABLE_INT */
      , (47055, 19, 9) /* VALUE_INT */
@@ -63,4 +63,12 @@ VALUES (47055, 19, 9) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (47055, 6035) /* CantripSpiritofIzexi_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47055, 5, 10) /* ENCUMB_VAL_INT */
+     , (47055, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (47055, 12, 1) /* STACK_SIZE_INT */
+     , (47055, 19, 3) /* VALUE_INT */;
 

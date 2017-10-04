@@ -23,7 +23,7 @@ VALUES (7835, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7835, 1, 4194304) /* ITEM_TYPE_INT */
      , (7835, 5, 150) /* ENCUMB_VAL_INT */
      , (7835, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (7835, 12, 1) /* STACK_SIZE_INT */
+     , (7835, 12, 5) /* STACK_SIZE_INT */
      , (7835, 94, 4194592) /* TARGET_TYPE_INT */
      , (7835, 16, 524296) /* ITEM_USEABLE_INT */
      , (7835, 19, 125) /* VALUE_INT */
@@ -57,4 +57,12 @@ VALUES (7835, 14, 'This item is used in cooking.') /* USE_STRING */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7835, 19, 125) /* VALUE_INT */
      , (7835, 5, 150) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7835, 5, 30) /* ENCUMB_VAL_INT */
+     , (7835, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (7835, 12, 1) /* STACK_SIZE_INT */
+     , (7835, 19, 25) /* VALUE_INT */;
 

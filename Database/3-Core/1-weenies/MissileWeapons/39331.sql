@@ -25,7 +25,7 @@ VALUES (39331, 53, 101) /* PLACEMENT_POSITION_INT */
      , (39331, 5, 780) /* ENCUMB_VAL_INT */
      , (39331, 51, 2) /* COMBAT_USE_INT */
      , (39331, 11, 250) /* MAX_STACK_SIZE_INT */
-     , (39331, 12, 1) /* STACK_SIZE_INT */
+     , (39331, 12, 156) /* STACK_SIZE_INT */
      , (39331, 16, 1) /* ITEM_USEABLE_INT */
      , (39331, 9, 4194304) /* LOCATIONS_INT */
      , (39331, 19, 780000) /* VALUE_INT */
@@ -89,4 +89,12 @@ VALUES (39331, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (39331, 2162) /* AcidVulnerabilityOther7_SpellID */
      , (39331, 4017) /* SkillThrownWeaponPhialsAccuracy_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39331, 5, 5) /* ENCUMB_VAL_INT */
+     , (39331, 11, 250) /* MAX_STACK_SIZE_INT */
+     , (39331, 12, 1) /* STACK_SIZE_INT */
+     , (39331, 19, 5000) /* VALUE_INT */;
 

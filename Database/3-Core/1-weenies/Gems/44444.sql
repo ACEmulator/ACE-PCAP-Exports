@@ -60,3 +60,11 @@ VALUES (44444, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (44444, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (44444, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44444, 5, 919) /* ENCUMB_VAL_INT */
+     , (44444, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (44444, 12, 1) /* STACK_SIZE_INT */
+     , (44444, 19, 50) /* VALUE_INT */;
+

@@ -57,3 +57,11 @@ VALUES (2411, 19, 3737) /* VALUE_INT */
      , (2411, 105, 10) /* ITEM_WORKMANSHIP_INT */
      , (2411, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2411, 5, 5) /* ENCUMB_VAL_INT */
+     , (2411, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (2411, 12, 1) /* STACK_SIZE_INT */
+     , (2411, 19, 3737) /* VALUE_INT */;
+

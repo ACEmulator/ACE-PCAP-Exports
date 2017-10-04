@@ -51,3 +51,11 @@ VALUES (27256, 19, 100) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (27256, 3204) /* GolemHunterHealthHigh_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27256, 5, 75) /* ENCUMB_VAL_INT */
+     , (27256, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (27256, 12, 1) /* STACK_SIZE_INT */
+     , (27256, 19, 100) /* VALUE_INT */;
+

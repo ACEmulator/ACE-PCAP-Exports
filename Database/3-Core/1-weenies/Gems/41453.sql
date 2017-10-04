@@ -68,3 +68,10 @@ VALUES (41453, 63, 1) /* UNLIMITED_USE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (41453, 5157) /* DeceptionArcane1_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41453, 5, 10) /* ENCUMB_VAL_INT */
+     , (41453, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (41453, 12, 1) /* STACK_SIZE_INT */;
+

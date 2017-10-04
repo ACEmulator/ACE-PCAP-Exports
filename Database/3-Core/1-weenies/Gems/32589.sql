@@ -32,3 +32,10 @@ VALUES (32589, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (32589, 19, True) /* ATTACKABLE_BOOL */
      , (32589, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32589, 5, 20) /* ENCUMB_VAL_INT */
+     , (32589, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (32589, 12, 1) /* STACK_SIZE_INT */;
+

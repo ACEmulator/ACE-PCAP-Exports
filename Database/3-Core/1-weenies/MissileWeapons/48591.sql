@@ -22,7 +22,7 @@ VALUES (48591, 1, 256) /* ITEM_TYPE_INT */
      , (48591, 51, 2) /* COMBAT_USE_INT */
      , (48591, 151, 2) /* HOOK_TYPE_INT */
      , (48591, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (48591, 12, 1) /* STACK_SIZE_INT */
+     , (48591, 12, 3) /* STACK_SIZE_INT */
      , (48591, 16, 1) /* ITEM_USEABLE_INT */
      , (48591, 9, 4194304) /* LOCATIONS_INT */
      , (48591, 19, 12) /* VALUE_INT */
@@ -46,4 +46,12 @@ VALUES (48591, 13, True) /* ETHEREAL_BOOL */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (48591, 19, 2295) /* VALUE_INT */
      , (48591, 5, 0) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48591, 5, 15) /* ENCUMB_VAL_INT */
+     , (48591, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (48591, 12, 1) /* STACK_SIZE_INT */
+     , (48591, 19, 4) /* VALUE_INT */;
 

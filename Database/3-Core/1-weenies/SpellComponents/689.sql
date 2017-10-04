@@ -23,7 +23,7 @@ VALUES (689, 53, 101) /* PLACEMENT_POSITION_INT */
      , (689, 5, 120) /* ENCUMB_VAL_INT */
      , (689, 151, 2) /* HOOK_TYPE_INT */
      , (689, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (689, 12, 1) /* STACK_SIZE_INT */
+     , (689, 12, 30) /* STACK_SIZE_INT */
      , (689, 16, 1) /* ITEM_USEABLE_INT */
      , (689, 19, 1500) /* VALUE_INT */
      , (689, 93, 1044) /* PHYSICS_STATE_INT */
@@ -49,4 +49,12 @@ VALUES (689, 0, 16780734);
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (689, 19, 1500) /* VALUE_INT */
      , (689, 5, 120) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (689, 5, 4) /* ENCUMB_VAL_INT */
+     , (689, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (689, 12, 1) /* STACK_SIZE_INT */
+     , (689, 19, 50) /* VALUE_INT */;
 

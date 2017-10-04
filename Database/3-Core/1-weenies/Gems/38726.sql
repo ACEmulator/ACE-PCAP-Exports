@@ -25,7 +25,7 @@ VALUES (38726, 53, 101) /* PLACEMENT_POSITION_INT */
      , (38726, 5, 30) /* ENCUMB_VAL_INT */
      , (38726, 18, 1) /* UI_EFFECTS_INT */
      , (38726, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (38726, 12, 1) /* STACK_SIZE_INT */
+     , (38726, 12, 3) /* STACK_SIZE_INT */
      , (38726, 94, 16) /* TARGET_TYPE_INT */
      , (38726, 16, 8) /* ITEM_USEABLE_INT */
      , (38726, 19, 750000) /* VALUE_INT */
@@ -67,4 +67,12 @@ VALUES (38726, 33, 1) /* BONDED_INT */
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (38726, 4331) /* DispelAllBadSelf8_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38726, 5, 10) /* ENCUMB_VAL_INT */
+     , (38726, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (38726, 12, 1) /* STACK_SIZE_INT */
+     , (38726, 19, 250000) /* VALUE_INT */;
 

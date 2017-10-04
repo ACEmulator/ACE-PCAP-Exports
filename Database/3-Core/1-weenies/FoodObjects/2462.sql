@@ -52,3 +52,11 @@ REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pr
 VALUES (2462, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
      , (2462, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2462, 5, 50) /* ENCUMB_VAL_INT */
+     , (2462, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (2462, 12, 1) /* STACK_SIZE_INT */
+     , (2462, 19, 30) /* VALUE_INT */;
+

@@ -76,3 +76,11 @@ VALUES (34138, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (34138, 69, 0) /* IS_SELLABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34138, 5, 20) /* ENCUMB_VAL_INT */
+     , (34138, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (34138, 12, 1) /* STACK_SIZE_INT */
+     , (34138, 19, 100) /* VALUE_INT */;
+

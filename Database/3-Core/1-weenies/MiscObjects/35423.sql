@@ -21,7 +21,7 @@ VALUES (35423, 53, 101) /* PLACEMENT_POSITION_INT */
      , (35423, 1, 128) /* ITEM_TYPE_INT */
      , (35423, 5, 3) /* ENCUMB_VAL_INT */
      , (35423, 11, 10) /* MAX_STACK_SIZE_INT */
-     , (35423, 12, 1) /* STACK_SIZE_INT */
+     , (35423, 12, 3) /* STACK_SIZE_INT */
      , (35423, 16, 1) /* ITEM_USEABLE_INT */
      , (35423, 93, 1044) /* PHYSICS_STATE_INT */
      , (35423, 9007, 1) /* Generic_WeenieType */;
@@ -47,4 +47,11 @@ VALUES (35423, 19, 0) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35423, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35423, 5, 1) /* ENCUMB_VAL_INT */
+     , (35423, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (35423, 12, 1) /* STACK_SIZE_INT */;
 

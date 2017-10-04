@@ -24,7 +24,7 @@ VALUES (15749, 53, 101) /* PLACEMENT_POSITION_INT */
      , (15749, 5, 45) /* ENCUMB_VAL_INT */
      , (15749, 151, 11) /* HOOK_TYPE_INT */
      , (15749, 11, 5) /* MAX_STACK_SIZE_INT */
-     , (15749, 12, 1) /* STACK_SIZE_INT */
+     , (15749, 12, 3) /* STACK_SIZE_INT */
      , (15749, 94, 136) /* TARGET_TYPE_INT */
      , (15749, 16, 524296) /* ITEM_USEABLE_INT */
      , (15749, 19, 30) /* VALUE_INT */
@@ -56,4 +56,12 @@ VALUES (15749, 16, 'A phial filled with a thick, oily pink substance. The smell 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (15749, 19, 30) /* VALUE_INT */
      , (15749, 5, 45) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15749, 5, 15) /* ENCUMB_VAL_INT */
+     , (15749, 11, 5) /* MAX_STACK_SIZE_INT */
+     , (15749, 12, 1) /* STACK_SIZE_INT */
+     , (15749, 19, 10) /* VALUE_INT */;
 

@@ -22,7 +22,7 @@ VALUES (48596, 1, 256) /* ITEM_TYPE_INT */
      , (48596, 51, 2) /* COMBAT_USE_INT */
      , (48596, 151, 2) /* HOOK_TYPE_INT */
      , (48596, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (48596, 12, 1) /* STACK_SIZE_INT */
+     , (48596, 12, 3) /* STACK_SIZE_INT */
      , (48596, 16, 1) /* ITEM_USEABLE_INT */
      , (48596, 9, 4194304) /* LOCATIONS_INT */
      , (48596, 19, 12) /* VALUE_INT */
@@ -53,4 +53,12 @@ VALUES (48596, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (48596, 137, 0.15) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
      , (48596, 87, 1.2) /* ITEM_EFFICIENCY_FLOAT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48596, 5, 15) /* ENCUMB_VAL_INT */
+     , (48596, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (48596, 12, 1) /* STACK_SIZE_INT */
+     , (48596, 19, 4) /* VALUE_INT */;
 

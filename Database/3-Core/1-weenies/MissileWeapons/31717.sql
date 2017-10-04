@@ -25,7 +25,7 @@ VALUES (31717, 53, 101) /* PLACEMENT_POSITION_INT */
      , (31717, 51, 3) /* COMBAT_USE_INT */
      , (31717, 151, 2) /* HOOK_TYPE_INT */
      , (31717, 11, 1000) /* MAX_STACK_SIZE_INT */
-     , (31717, 12, 1) /* STACK_SIZE_INT */
+     , (31717, 12, 250) /* STACK_SIZE_INT */
      , (31717, 16, 1) /* ITEM_USEABLE_INT */
      , (31717, 9, 8388608) /* LOCATIONS_INT */
      , (31717, 19, 250) /* VALUE_INT */
@@ -69,4 +69,12 @@ VALUES (31717, 29, 1) /* WEAPON_DEFENSE_FLOAT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31717, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31717, 5, 7) /* ENCUMB_VAL_INT */
+     , (31717, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (31717, 12, 1) /* STACK_SIZE_INT */
+     , (31717, 19, 1) /* VALUE_INT */;
 

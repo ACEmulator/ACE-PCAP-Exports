@@ -72,3 +72,11 @@ VALUES (42635, 4, 2141671909) /* ITEM_TOTAL_XP_INT64 */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (42635, 5208) /* AetheriaProcHealthOverTime_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42635, 5, 50) /* ENCUMB_VAL_INT */
+     , (42635, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (42635, 12, 1) /* STACK_SIZE_INT */
+     , (42635, 19, 10000) /* VALUE_INT */;
+

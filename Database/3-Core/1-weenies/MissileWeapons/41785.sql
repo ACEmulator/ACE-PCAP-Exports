@@ -25,7 +25,7 @@ VALUES (41785, 53, 101) /* PLACEMENT_POSITION_INT */
      , (41785, 5, 715) /* ENCUMB_VAL_INT */
      , (41785, 51, 2) /* COMBAT_USE_INT */
      , (41785, 11, 250) /* MAX_STACK_SIZE_INT */
-     , (41785, 12, 1) /* STACK_SIZE_INT */
+     , (41785, 12, 143) /* STACK_SIZE_INT */
      , (41785, 16, 1) /* ITEM_USEABLE_INT */
      , (41785, 9, 4194304) /* LOCATIONS_INT */
      , (41785, 19, 715000) /* VALUE_INT */
@@ -89,4 +89,12 @@ VALUES (41785, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (41785, 2178) /* FesterOther7_SpellID */
      , (41785, 4017) /* SkillThrownWeaponPhialsAccuracy_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41785, 5, 5) /* ENCUMB_VAL_INT */
+     , (41785, 11, 250) /* MAX_STACK_SIZE_INT */
+     , (41785, 12, 1) /* STACK_SIZE_INT */
+     , (41785, 19, 5000) /* VALUE_INT */;
 

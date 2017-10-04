@@ -22,7 +22,7 @@ VALUES (46454, 53, 101) /* PLACEMENT_POSITION_INT */
      , (46454, 1, 2048) /* ITEM_TYPE_INT */
      , (46454, 5, 900) /* ENCUMB_VAL_INT */
      , (46454, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (46454, 12, 1) /* STACK_SIZE_INT */
+     , (46454, 12, 18) /* STACK_SIZE_INT */
      , (46454, 16, 1) /* ITEM_USEABLE_INT */
      , (46454, 19, 18) /* VALUE_INT */
      , (46454, 93, 1044) /* PHYSICS_STATE_INT */
@@ -44,4 +44,12 @@ VALUES (46454, 33, 1) /* BONDED_INT */
      , (46454, 114, 1) /* ATTUNED_INT */
      , (46454, 19, 18) /* VALUE_INT */
      , (46454, 5, 900) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46454, 5, 50) /* ENCUMB_VAL_INT */
+     , (46454, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (46454, 12, 1) /* STACK_SIZE_INT */
+     , (46454, 19, 1) /* VALUE_INT */;
 

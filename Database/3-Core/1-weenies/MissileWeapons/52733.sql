@@ -83,3 +83,11 @@ VALUES (52733, 4417) /* Swiftkiller8_SpellID */
      , (52733, 4395) /* Blooddrinker8_SpellID */
      , (52733, 4400) /* Defender8_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52733, 5, 1) /* ENCUMB_VAL_INT */
+     , (52733, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (52733, 12, 1) /* STACK_SIZE_INT */
+     , (52733, 19, 1) /* VALUE_INT */;
+

@@ -23,7 +23,7 @@ VALUES (9344, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9344, 1, 67108864) /* ITEM_TYPE_INT */
      , (9344, 151, 11) /* HOOK_TYPE_INT */
      , (9344, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (9344, 12, 1) /* STACK_SIZE_INT */
+     , (9344, 12, 98) /* STACK_SIZE_INT */
      , (9344, 94, 134218880) /* TARGET_TYPE_INT */
      , (9344, 16, 524296) /* ITEM_USEABLE_INT */
      , (9344, 19, 73500) /* VALUE_INT */
@@ -58,4 +58,11 @@ VALUES (9344, 33, 1) /* BONDED_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9344, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9344, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (9344, 12, 1) /* STACK_SIZE_INT */
+     , (9344, 19, 750) /* VALUE_INT */;
 

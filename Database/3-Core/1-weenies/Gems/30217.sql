@@ -66,3 +66,10 @@ VALUES (30217, 108, 1) /* RARE_USES_TIMER_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (30217, 3716) /* LeadershipMasteryRare_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30217, 5, 5) /* ENCUMB_VAL_INT */
+     , (30217, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (30217, 12, 1) /* STACK_SIZE_INT */;
+

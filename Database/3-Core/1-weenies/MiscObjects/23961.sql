@@ -60,3 +60,10 @@ VALUES (23961, 33, 1) /* BONDED_INT */
      , (23961, 19, 0) /* VALUE_INT */
      , (23961, 5, 15) /* ENCUMB_VAL_INT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23961, 5, 15) /* ENCUMB_VAL_INT */
+     , (23961, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (23961, 12, 1) /* STACK_SIZE_INT */;
+

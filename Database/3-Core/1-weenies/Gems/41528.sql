@@ -20,7 +20,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (41528, 1, 2048) /* ITEM_TYPE_INT */
      , (41528, 5, 700) /* ENCUMB_VAL_INT */
      , (41528, 11, 10) /* MAX_STACK_SIZE_INT */
-     , (41528, 12, 1) /* STACK_SIZE_INT */
+     , (41528, 12, 7) /* STACK_SIZE_INT */
      , (41528, 16, 1) /* ITEM_USEABLE_INT */
      , (41528, 93, 1044) /* PHYSICS_STATE_INT */
      , (41528, 9007, 38) /* Gem_WeenieType */;
@@ -46,4 +46,11 @@ VALUES (41528, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (41528, 99, 0) /* IVORYABLE_BOOL */
      , (41528, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41528, 5, 100) /* ENCUMB_VAL_INT */
+     , (41528, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (41528, 12, 1) /* STACK_SIZE_INT */;
 

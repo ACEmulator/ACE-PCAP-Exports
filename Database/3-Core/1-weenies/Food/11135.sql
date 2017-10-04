@@ -56,3 +56,11 @@ VALUES (11135, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (11135, 2434) /* FrostWard_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11135, 5, 25) /* ENCUMB_VAL_INT */
+     , (11135, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (11135, 12, 1) /* STACK_SIZE_INT */
+     , (11135, 19, 2500) /* VALUE_INT */;
+

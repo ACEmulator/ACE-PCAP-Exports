@@ -22,7 +22,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (29213, 1, 32) /* ITEM_TYPE_INT */
      , (29213, 5, 3675) /* ENCUMB_VAL_INT */
      , (29213, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (29213, 12, 1) /* STACK_SIZE_INT */
+     , (29213, 12, 49) /* STACK_SIZE_INT */
      , (29213, 16, 8) /* ITEM_USEABLE_INT */
      , (29213, 19, 490) /* VALUE_INT */
      , (29213, 93, 1044) /* PHYSICS_STATE_INT */
@@ -48,4 +48,12 @@ VALUES (29213, 19, 490) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29213, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29213, 5, 75) /* ENCUMB_VAL_INT */
+     , (29213, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (29213, 12, 1) /* STACK_SIZE_INT */
+     , (29213, 19, 10) /* VALUE_INT */;
 

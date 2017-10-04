@@ -22,7 +22,7 @@ VALUES (8331, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8331, 1, 4096) /* ITEM_TYPE_INT */
      , (8331, 5, 870) /* ENCUMB_VAL_INT */
      , (8331, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (8331, 12, 1) /* STACK_SIZE_INT */
+     , (8331, 12, 87) /* STACK_SIZE_INT */
      , (8331, 16, 1) /* ITEM_USEABLE_INT */
      , (8331, 19, 1087500) /* VALUE_INT */
      , (8331, 93, 1044) /* PHYSICS_STATE_INT */
@@ -55,4 +55,12 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (8331, 33, 1) /* BONDED_INT */
      , (8331, 19, 1225000) /* VALUE_INT */
      , (8331, 5, 980) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8331, 5, 10) /* ENCUMB_VAL_INT */
+     , (8331, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (8331, 12, 1) /* STACK_SIZE_INT */
+     , (8331, 19, 12500) /* VALUE_INT */;
 

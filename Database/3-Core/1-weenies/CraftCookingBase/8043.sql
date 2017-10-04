@@ -40,3 +40,11 @@ VALUES (8043, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8043, 67111922, 0, 0);
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8043, 5, 150) /* ENCUMB_VAL_INT */
+     , (8043, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (8043, 12, 1) /* STACK_SIZE_INT */
+     , (8043, 19, 100) /* VALUE_INT */;
+

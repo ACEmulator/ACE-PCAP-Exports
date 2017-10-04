@@ -21,7 +21,7 @@ VALUES (35420, 53, 101) /* PLACEMENT_POSITION_INT */
      , (35420, 1, 128) /* ITEM_TYPE_INT */
      , (35420, 5, 6) /* ENCUMB_VAL_INT */
      , (35420, 11, 10) /* MAX_STACK_SIZE_INT */
-     , (35420, 12, 1) /* STACK_SIZE_INT */
+     , (35420, 12, 6) /* STACK_SIZE_INT */
      , (35420, 16, 1) /* ITEM_USEABLE_INT */
      , (35420, 93, 1044) /* PHYSICS_STATE_INT */
      , (35420, 9007, 1) /* Generic_WeenieType */;
@@ -34,4 +34,11 @@ VALUES (35420, 13, True) /* ETHEREAL_BOOL */
      , (35420, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (35420, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35420, 19, True) /* ATTACKABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35420, 5, 1) /* ENCUMB_VAL_INT */
+     , (35420, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (35420, 12, 1) /* STACK_SIZE_INT */;
 

@@ -69,3 +69,10 @@ VALUES (23991, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (23991, 2951) /* PortalSendingKnorr_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23991, 5, 100) /* ENCUMB_VAL_INT */
+     , (23991, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (23991, 12, 1) /* STACK_SIZE_INT */;
+

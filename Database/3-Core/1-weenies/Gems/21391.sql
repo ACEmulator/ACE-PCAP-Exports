@@ -69,3 +69,10 @@ VALUES (21391, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (21391, 2796) /* PortalSendingCitadelSurface_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21391, 5, 10) /* ENCUMB_VAL_INT */
+     , (21391, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (21391, 12, 1) /* STACK_SIZE_INT */;
+

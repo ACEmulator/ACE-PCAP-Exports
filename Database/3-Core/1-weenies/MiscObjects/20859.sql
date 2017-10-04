@@ -59,3 +59,11 @@ VALUES (20859, 19, 100) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (20859, 100, 1) /* DYABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20859, 5, 10) /* ENCUMB_VAL_INT */
+     , (20859, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (20859, 12, 1) /* STACK_SIZE_INT */
+     , (20859, 19, 100) /* VALUE_INT */;
+

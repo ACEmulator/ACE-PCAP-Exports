@@ -25,7 +25,7 @@ VALUES (27512, 53, 101) /* PLACEMENT_POSITION_INT */
      , (27512, 18, 1) /* UI_EFFECTS_INT */
      , (27512, 151, 2) /* HOOK_TYPE_INT */
      , (27512, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (27512, 12, 1) /* STACK_SIZE_INT */
+     , (27512, 12, 2) /* STACK_SIZE_INT */
      , (27512, 94, 16) /* TARGET_TYPE_INT */
      , (27512, 16, 8) /* ITEM_USEABLE_INT */
      , (27512, 19, 2000) /* VALUE_INT */
@@ -69,4 +69,12 @@ VALUES (27512, 33, 0) /* BONDED_INT */
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (27512, 3238) /* PortalSendingNannerIsland_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27512, 5, 50) /* ENCUMB_VAL_INT */
+     , (27512, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (27512, 12, 1) /* STACK_SIZE_INT */
+     , (27512, 19, 1000) /* VALUE_INT */;
 

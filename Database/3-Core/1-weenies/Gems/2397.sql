@@ -68,3 +68,11 @@ VALUES (2397, 19, 1292) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (2397, 192) /* RejuvenationSelf5_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2397, 5, 5) /* ENCUMB_VAL_INT */
+     , (2397, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (2397, 12, 1) /* STACK_SIZE_INT */
+     , (2397, 19, 1292) /* VALUE_INT */;
+

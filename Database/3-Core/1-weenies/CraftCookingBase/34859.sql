@@ -22,7 +22,7 @@ VALUES (34859, 53, 101) /* PLACEMENT_POSITION_INT */
      , (34859, 1, 4194304) /* ITEM_TYPE_INT */
      , (34859, 5, 6000) /* ENCUMB_VAL_INT */
      , (34859, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (34859, 12, 1) /* STACK_SIZE_INT */
+     , (34859, 12, 20) /* STACK_SIZE_INT */
      , (34859, 16, 1) /* ITEM_USEABLE_INT */
      , (34859, 19, 1000) /* VALUE_INT */
      , (34859, 93, 1044) /* PHYSICS_STATE_INT */
@@ -46,4 +46,12 @@ VALUES (34859, 16, 'This Tiriun Mushroom Cap has been expertly roasted.') /* LON
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34859, 19, 1000) /* VALUE_INT */
      , (34859, 5, 6000) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34859, 5, 300) /* ENCUMB_VAL_INT */
+     , (34859, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (34859, 12, 1) /* STACK_SIZE_INT */
+     , (34859, 19, 50) /* VALUE_INT */;
 

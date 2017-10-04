@@ -45,3 +45,10 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (29204, 19, 0) /* VALUE_INT */
      , (29204, 5, 20) /* ENCUMB_VAL_INT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29204, 5, 20) /* ENCUMB_VAL_INT */
+     , (29204, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (29204, 12, 1) /* STACK_SIZE_INT */;
+

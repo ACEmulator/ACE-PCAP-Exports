@@ -25,7 +25,7 @@ VALUES (32081, 53, 101) /* PLACEMENT_POSITION_INT */
      , (32081, 280, 1000) /* SHARED_COOLDOWN_INT */
      , (32081, 18, 1) /* UI_EFFECTS_INT */
      , (32081, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (32081, 12, 1) /* STACK_SIZE_INT */
+     , (32081, 12, 6) /* STACK_SIZE_INT */
      , (32081, 94, 16) /* TARGET_TYPE_INT */
      , (32081, 16, 8) /* ITEM_USEABLE_INT */
      , (32081, 19, 3000) /* VALUE_INT */
@@ -50,4 +50,12 @@ VALUES (32081, 0, 83890391, 83890391);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32081, 0, 16779181);
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32081, 5, 10) /* ENCUMB_VAL_INT */
+     , (32081, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (32081, 12, 1) /* STACK_SIZE_INT */
+     , (32081, 19, 500) /* VALUE_INT */;
 

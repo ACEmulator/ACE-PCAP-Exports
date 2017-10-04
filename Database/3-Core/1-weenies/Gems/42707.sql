@@ -62,3 +62,11 @@ VALUES (42707, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (42707, 3204) /* GolemHunterHealthHigh_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42707, 5, 35) /* ENCUMB_VAL_INT */
+     , (42707, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (42707, 12, 1) /* STACK_SIZE_INT */
+     , (42707, 19, 2) /* VALUE_INT */;
+

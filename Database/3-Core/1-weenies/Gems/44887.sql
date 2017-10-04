@@ -40,3 +40,11 @@ VALUES (44887, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44887, 0, 16795851);
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44887, 5, 919) /* ENCUMB_VAL_INT */
+     , (44887, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (44887, 12, 1) /* STACK_SIZE_INT */
+     , (44887, 19, 50) /* VALUE_INT */;
+

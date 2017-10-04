@@ -22,7 +22,7 @@ VALUES (34857, 53, 101) /* PLACEMENT_POSITION_INT */
      , (34857, 1, 4194304) /* ITEM_TYPE_INT */
      , (34857, 5, 5000) /* ENCUMB_VAL_INT */
      , (34857, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (34857, 12, 1) /* STACK_SIZE_INT */
+     , (34857, 12, 100) /* STACK_SIZE_INT */
      , (34857, 16, 1) /* ITEM_USEABLE_INT */
      , (34857, 19, 5000) /* VALUE_INT */
      , (34857, 93, 1044) /* PHYSICS_STATE_INT */
@@ -46,4 +46,12 @@ VALUES (34857, 16, 'This is a handful of spores from the Tiriun Mushroom.') /* L
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34857, 19, 5000) /* VALUE_INT */
      , (34857, 5, 5000) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34857, 5, 50) /* ENCUMB_VAL_INT */
+     , (34857, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (34857, 12, 1) /* STACK_SIZE_INT */
+     , (34857, 19, 50) /* VALUE_INT */;
 

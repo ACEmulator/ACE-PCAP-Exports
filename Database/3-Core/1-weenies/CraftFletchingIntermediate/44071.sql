@@ -21,7 +21,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (44071, 53, 101) /* PLACEMENT_POSITION_INT */
      , (44071, 1, 134217728) /* ITEM_TYPE_INT */
      , (44071, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (44071, 12, 1) /* STACK_SIZE_INT */
+     , (44071, 12, 92) /* STACK_SIZE_INT */
      , (44071, 94, 134217728) /* TARGET_TYPE_INT */
      , (44071, 16, 524296) /* ITEM_USEABLE_INT */
      , (44071, 19, 92000) /* VALUE_INT */
@@ -46,4 +46,11 @@ VALUES (44071, 33, 1) /* BONDED_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44071, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44071, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (44071, 12, 1) /* STACK_SIZE_INT */
+     , (44071, 19, 1000) /* VALUE_INT */;
 

@@ -62,3 +62,11 @@ VALUES (3933, 19, 750) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (3933, 1357) /* EnduranceOther3_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3933, 5, 10) /* ENCUMB_VAL_INT */
+     , (3933, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (3933, 12, 1) /* STACK_SIZE_INT */
+     , (3933, 19, 750) /* VALUE_INT */;
+

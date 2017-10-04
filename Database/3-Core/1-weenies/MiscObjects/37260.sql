@@ -22,7 +22,7 @@ VALUES (37260, 53, 101) /* PLACEMENT_POSITION_INT */
      , (37260, 1, 128) /* ITEM_TYPE_INT */
      , (37260, 5, 2) /* ENCUMB_VAL_INT */
      , (37260, 11, 20) /* MAX_STACK_SIZE_INT */
-     , (37260, 12, 1) /* STACK_SIZE_INT */
+     , (37260, 12, 2) /* STACK_SIZE_INT */
      , (37260, 94, 128) /* TARGET_TYPE_INT */
      , (37260, 16, 524296) /* ITEM_USEABLE_INT */
      , (37260, 93, 1044) /* PHYSICS_STATE_INT */
@@ -42,4 +42,11 @@ VALUES (37260, 16, 'The Jester card is wild. Use this card in place of any other
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37260, 19, 0) /* VALUE_INT */
      , (37260, 5, 2) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37260, 5, 1) /* ENCUMB_VAL_INT */
+     , (37260, 11, 20) /* MAX_STACK_SIZE_INT */
+     , (37260, 12, 1) /* STACK_SIZE_INT */;
 

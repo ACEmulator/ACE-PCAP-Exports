@@ -23,7 +23,7 @@ VALUES (6383, 1, 256) /* ITEM_TYPE_INT */
      , (6383, 51, 2) /* COMBAT_USE_INT */
      , (6383, 18, 32) /* UI_EFFECTS_INT */
      , (6383, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (6383, 12, 1) /* STACK_SIZE_INT */
+     , (6383, 12, 3) /* STACK_SIZE_INT */
      , (6383, 16, 1) /* ITEM_USEABLE_INT */
      , (6383, 9, 4194304) /* LOCATIONS_INT */
      , (6383, 19, 45) /* VALUE_INT */
@@ -43,4 +43,12 @@ VALUES (6383, 13, True) /* ETHEREAL_BOOL */
      , (6383, 16, True) /* SCRIPTED_COLLISION_BOOL */
      , (6383, 17, True) /* INELASTIC_BOOL */
      , (6383, 19, True) /* ATTACKABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6383, 5, 12) /* ENCUMB_VAL_INT */
+     , (6383, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (6383, 12, 1) /* STACK_SIZE_INT */
+     , (6383, 19, 15) /* VALUE_INT */;
 

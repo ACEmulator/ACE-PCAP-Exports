@@ -61,3 +61,9 @@ VALUES (34257, 63, 1) /* UNLIMITED_USE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (34257, 4024) /* AsheronsLesserBenediction_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34257, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (34257, 12, 1) /* STACK_SIZE_INT */;
+

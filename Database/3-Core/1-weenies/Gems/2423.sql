@@ -68,3 +68,11 @@ VALUES (2423, 19, 2130) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (2423, 1312) /* ArmorSelf6_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2423, 5, 5) /* ENCUMB_VAL_INT */
+     , (2423, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (2423, 12, 1) /* STACK_SIZE_INT */
+     , (2423, 19, 2130) /* VALUE_INT */;
+

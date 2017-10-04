@@ -25,7 +25,7 @@ VALUES (38794, 53, 101) /* PLACEMENT_POSITION_INT */
      , (38794, 18, 1) /* UI_EFFECTS_INT */
      , (38794, 151, 11) /* HOOK_TYPE_INT */
      , (38794, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (38794, 12, 1) /* STACK_SIZE_INT */
+     , (38794, 12, 21) /* STACK_SIZE_INT */
      , (38794, 16, 8) /* ITEM_USEABLE_INT */
      , (38794, 19, 2100000) /* VALUE_INT */
      , (38794, 93, 1044) /* PHYSICS_STATE_INT */
@@ -67,4 +67,12 @@ VALUES (38794, 33, 1) /* BONDED_INT */
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (38794, 167, 300) /* COOLDOWN_DURATION_FLOAT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38794, 5, 75) /* ENCUMB_VAL_INT */
+     , (38794, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (38794, 12, 1) /* STACK_SIZE_INT */
+     , (38794, 19, 100000) /* VALUE_INT */;
 

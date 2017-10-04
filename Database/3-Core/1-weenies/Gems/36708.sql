@@ -27,7 +27,7 @@ VALUES (36708, 53, 101) /* PLACEMENT_POSITION_INT */
      , (36708, 18, 1) /* UI_EFFECTS_INT */
      , (36708, 151, 11) /* HOOK_TYPE_INT */
      , (36708, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (36708, 12, 1) /* STACK_SIZE_INT */
+     , (36708, 12, 2) /* STACK_SIZE_INT */
      , (36708, 94, 16) /* TARGET_TYPE_INT */
      , (36708, 16, 8) /* ITEM_USEABLE_INT */
      , (36708, 19, 10) /* VALUE_INT */
@@ -66,4 +66,12 @@ VALUES (36708, 108, 1) /* RARE_USES_TIMER_BOOL */
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (36708, 4221) /* LifeMagicMasterySpectral_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36708, 5, 5) /* ENCUMB_VAL_INT */
+     , (36708, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (36708, 12, 1) /* STACK_SIZE_INT */
+     , (36708, 19, 5) /* VALUE_INT */;
 

@@ -23,7 +23,7 @@ VALUES (626, 53, 101) /* PLACEMENT_POSITION_INT */
      , (626, 1, 4096) /* ITEM_TYPE_INT */
      , (626, 5, 400) /* ENCUMB_VAL_INT */
      , (626, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (626, 12, 1) /* STACK_SIZE_INT */
+     , (626, 12, 100) /* STACK_SIZE_INT */
      , (626, 16, 1) /* ITEM_USEABLE_INT */
      , (626, 19, 500) /* VALUE_INT */
      , (626, 93, 1044) /* PHYSICS_STATE_INT */
@@ -52,4 +52,12 @@ VALUES (626, 19, 500) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (626, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (626, 5, 4) /* ENCUMB_VAL_INT */
+     , (626, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (626, 12, 1) /* STACK_SIZE_INT */
+     , (626, 19, 5) /* VALUE_INT */;
 

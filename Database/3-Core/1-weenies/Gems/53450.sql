@@ -69,3 +69,10 @@ VALUES (53450, 33, 0) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (53450, 6322) /* ViridianRiseGreatTreeRecall_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53450, 5, 5) /* ENCUMB_VAL_INT */
+     , (53450, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (53450, 12, 1) /* STACK_SIZE_INT */;
+

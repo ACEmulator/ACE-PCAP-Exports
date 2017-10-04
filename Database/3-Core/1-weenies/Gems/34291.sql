@@ -26,7 +26,7 @@ VALUES (34291, 53, 101) /* PLACEMENT_POSITION_INT */
      , (34291, 18, 1) /* UI_EFFECTS_INT */
      , (34291, 151, 2) /* HOOK_TYPE_INT */
      , (34291, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (34291, 12, 1) /* STACK_SIZE_INT */
+     , (34291, 12, 17) /* STACK_SIZE_INT */
      , (34291, 94, 16) /* TARGET_TYPE_INT */
      , (34291, 16, 8) /* ITEM_USEABLE_INT */
      , (34291, 93, 1044) /* PHYSICS_STATE_INT */
@@ -63,4 +63,11 @@ VALUES (34291, 19, 0) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (34291, 2659) /* ModerateCoordination_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34291, 5, 50) /* ENCUMB_VAL_INT */
+     , (34291, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (34291, 12, 1) /* STACK_SIZE_INT */;
 

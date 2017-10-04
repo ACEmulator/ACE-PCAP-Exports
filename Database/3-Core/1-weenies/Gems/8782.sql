@@ -74,3 +74,10 @@ VALUES (8782, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (8782, 2040) /* SummonPortalHopeslayer_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8782, 5, 50) /* ENCUMB_VAL_INT */
+     , (8782, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8782, 12, 1) /* STACK_SIZE_INT */;
+
