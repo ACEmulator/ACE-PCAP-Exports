@@ -1,7 +1,7 @@
 UPDATE
   ace_world.ace_object_properties_int
 SET
-  propertyValue = 65
+  propertyValue = 15
 WHERE intPropertyId = 5
   AND aceObjectId IN (
     136
