@@ -54,3 +54,5 @@ INSERT INTO `ace_poi` (`name`,`weenieClassId`) VALUES ('Xarabydun',42832);
 INSERT INTO `ace_poi` (`name`,`weenieClassId`) VALUES ('Yanshi',42847);
 INSERT INTO `ace_poi` (`name`,`weenieClassId`) VALUES ('Yaraq',42824);
 INSERT INTO `ace_poi` (`name`,`weenieClassId`) VALUES ('Zaikhal',42831);
+
+INSERT INTO `ace_poi` (`name`,`weenieClassId`) VALUES ('Marketplace',23032);
