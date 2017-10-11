@@ -182,7 +182,7 @@ INSERT INTO `ace_position` (`aceObjectId`,`positionType`,`landblockRaw`,`posX`,`
 INSERT INTO `ace_position` (`aceObjectId`,`positionType`,`landblockRaw`,`posX`,`posY`,`posZ`,`qW`,`qX`,`qY`,`qZ`) VALUES (19718,2,1415119283,7.6,-100,6,1,0,0,0);
 INSERT INTO `ace_position` (`aceObjectId`,`positionType`,`landblockRaw`,`posX`,`posY`,`posZ`,`qW`,`qX`,`qY`,`qZ`) VALUES (19726,2,1415250209,50,-50,0,0,0,0,0);
 INSERT INTO `ace_position` (`aceObjectId`,`positionType`,`landblockRaw`,`posX`,`posY`,`posZ`,`qW`,`qX`,`qY`,`qZ`) VALUES (19727,2,2273706006,60,132,154.005,0,0,0,0);
-INSERT INTO `ace_position` (`aceObjectId`,`positionType`,`landblockRaw`,`posX`,`posY`,`posZ`,`qW`,`qX`,`qY`,`qZ`) VALUES (23032,2,23855548,49.206,-31.935,0.005,0.707,0,0,0);
+INSERT INTO `ace_position` (`aceObjectId`,`positionType`,`landblockRaw`,`posX`,`posY`,`posZ`,`qW`,`qX`,`qY`,`qZ`) VALUES (23032,2,23855548,49.206,-31.935,0.005,0.7071068,0,0,-0.7071068);
 INSERT INTO `ace_position` (`aceObjectId`,`positionType`,`landblockRaw`,`posX`,`posY`,`posZ`,`qW`,`qX`,`qY`,`qZ`) VALUES (24434,2,1631912814,140.042,-182.837,0.005,0,0,0,0);
 INSERT INTO `ace_position` (`aceObjectId`,`positionType`,`landblockRaw`,`posX`,`posY`,`posZ`,`qW`,`qX`,`qY`,`qZ`) VALUES (24436,2,1665598318,140.042,-182.837,0.005,0,0,0,0);
 INSERT INTO `ace_position` (`aceObjectId`,`positionType`,`landblockRaw`,`posX`,`posY`,`posZ`,`qW`,`qX`,`qY`,`qZ`) VALUES (25494,2,1632174814,29.977,-16.228,0.005,0,0,0,0);
