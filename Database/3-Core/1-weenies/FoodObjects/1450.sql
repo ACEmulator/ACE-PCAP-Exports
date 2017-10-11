@@ -45,3 +45,11 @@ VALUES (1450, 19, 15) /* VALUE_INT */
      , (1450, 89, 2) /* BOOSTER_ENUM_INT */
      , (1450, 90, 3) /* BOOST_VALUE_INT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1450, 5, 100) /* ENCUMB_VAL_INT */
+     , (1450, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (1450, 12, 1) /* STACK_SIZE_INT */
+     , (1450, 19, 15) /* VALUE_INT */;
+

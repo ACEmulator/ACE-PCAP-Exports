@@ -55,3 +55,10 @@ VALUES (28876, 0, 16784901)
      , (28876, 5, 16784906)
      , (28876, 6, 16790867);
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28876, 5, 200) /* ENCUMB_VAL_INT */
+     , (28876, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (28876, 12, 1) /* STACK_SIZE_INT */;
+

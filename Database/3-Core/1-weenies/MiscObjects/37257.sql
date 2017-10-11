@@ -22,7 +22,7 @@ VALUES (37257, 53, 101) /* PLACEMENT_POSITION_INT */
      , (37257, 1, 128) /* ITEM_TYPE_INT */
      , (37257, 5, 2) /* ENCUMB_VAL_INT */
      , (37257, 11, 20) /* MAX_STACK_SIZE_INT */
-     , (37257, 12, 1) /* STACK_SIZE_INT */
+     , (37257, 12, 2) /* STACK_SIZE_INT */
      , (37257, 94, 128) /* TARGET_TYPE_INT */
      , (37257, 16, 524296) /* ITEM_USEABLE_INT */
      , (37257, 93, 1044) /* PHYSICS_STATE_INT */
@@ -42,4 +42,11 @@ VALUES (37257, 16, 'One card from the Deck of Eyes. Combine it with the other ca
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37257, 19, 0) /* VALUE_INT */
      , (37257, 5, 2) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37257, 5, 1) /* ENCUMB_VAL_INT */
+     , (37257, 11, 20) /* MAX_STACK_SIZE_INT */
+     , (37257, 12, 1) /* STACK_SIZE_INT */;
 

@@ -23,7 +23,7 @@ VALUES (27773, 53, 101) /* PLACEMENT_POSITION_INT */
      , (27773, 5, 125) /* ENCUMB_VAL_INT */
      , (27773, 18, 1) /* UI_EFFECTS_INT */
      , (27773, 11, 10) /* MAX_STACK_SIZE_INT */
-     , (27773, 12, 1) /* STACK_SIZE_INT */
+     , (27773, 12, 5) /* STACK_SIZE_INT */
      , (27773, 94, 16) /* TARGET_TYPE_INT */
      , (27773, 16, 8) /* ITEM_USEABLE_INT */
      , (27773, 19, 50000) /* VALUE_INT */
@@ -50,4 +50,12 @@ VALUES (27773, 19, 50000) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (27773, 3249) /* ManaRenewalAdja_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27773, 5, 25) /* ENCUMB_VAL_INT */
+     , (27773, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (27773, 12, 1) /* STACK_SIZE_INT */
+     , (27773, 19, 10000) /* VALUE_INT */;
 

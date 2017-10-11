@@ -69,3 +69,11 @@ VALUES (8116, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (8116, 2001) /* PortalSendingFenmalain_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8116, 5, 10) /* ENCUMB_VAL_INT */
+     , (8116, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8116, 12, 1) /* STACK_SIZE_INT */
+     , (8116, 19, 1500) /* VALUE_INT */;
+

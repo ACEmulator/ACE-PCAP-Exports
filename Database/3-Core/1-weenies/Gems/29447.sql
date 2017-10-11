@@ -26,7 +26,7 @@ VALUES (29447, 53, 101) /* PLACEMENT_POSITION_INT */
      , (29447, 18, 1) /* UI_EFFECTS_INT */
      , (29447, 151, 2) /* HOOK_TYPE_INT */
      , (29447, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (29447, 12, 1) /* STACK_SIZE_INT */
+     , (29447, 12, 2) /* STACK_SIZE_INT */
      , (29447, 94, 16) /* TARGET_TYPE_INT */
      , (29447, 16, 8) /* ITEM_USEABLE_INT */
      , (29447, 93, 3092) /* PHYSICS_STATE_INT */
@@ -74,4 +74,11 @@ VALUES (29447, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (29447, 157) /* SummonPortal1_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29447, 5, 5) /* ENCUMB_VAL_INT */
+     , (29447, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (29447, 12, 1) /* STACK_SIZE_INT */;
 

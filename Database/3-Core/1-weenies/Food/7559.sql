@@ -24,7 +24,7 @@ VALUES (7559, 53, 101) /* PLACEMENT_POSITION_INT */
      , (7559, 5, 1250) /* ENCUMB_VAL_INT */
      , (7559, 18, 1) /* UI_EFFECTS_INT */
      , (7559, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (7559, 12, 1) /* STACK_SIZE_INT */
+     , (7559, 12, 25) /* STACK_SIZE_INT */
      , (7559, 94, 16) /* TARGET_TYPE_INT */
      , (7559, 16, 8) /* ITEM_USEABLE_INT */
      , (7559, 19, 3750) /* VALUE_INT */
@@ -65,4 +65,12 @@ VALUES (7559, 69, 0) /* IS_SELLABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (7559, 3179) /* DispelAllBadOther7_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7559, 5, 50) /* ENCUMB_VAL_INT */
+     , (7559, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (7559, 12, 1) /* STACK_SIZE_INT */
+     , (7559, 19, 150) /* VALUE_INT */;
 

@@ -62,3 +62,10 @@ VALUES (41444, 63, 1) /* UNLIMITED_USE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (41444, 5124) /* AnswerOfLoyaltyMana2_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41444, 5, 50) /* ENCUMB_VAL_INT */
+     , (41444, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (41444, 12, 1) /* STACK_SIZE_INT */;
+

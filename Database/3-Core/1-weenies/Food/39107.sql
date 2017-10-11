@@ -65,3 +65,11 @@ VALUES (39107, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (39107, 4212) /* StickyMelee_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39107, 5, 1) /* ENCUMB_VAL_INT */
+     , (39107, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (39107, 12, 1) /* STACK_SIZE_INT */
+     , (39107, 19, 10) /* VALUE_INT */;
+

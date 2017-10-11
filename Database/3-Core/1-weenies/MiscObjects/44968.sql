@@ -51,3 +51,10 @@ VALUES (44968, 33, 1) /* BONDED_INT */
      , (44968, 267, 900) /* LIFESPAN_INT */
      , (44968, 268, 900) /* REMAINING_LIFESPAN_INT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44968, 5, 10) /* ENCUMB_VAL_INT */
+     , (44968, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (44968, 12, 1) /* STACK_SIZE_INT */;
+

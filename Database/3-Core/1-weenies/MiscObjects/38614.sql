@@ -22,7 +22,7 @@ VALUES (38614, 53, 101) /* PLACEMENT_POSITION_INT */
      , (38614, 5, 10) /* ENCUMB_VAL_INT */
      , (38614, 18, 4) /* UI_EFFECTS_INT */
      , (38614, 11, 10) /* MAX_STACK_SIZE_INT */
-     , (38614, 12, 1) /* STACK_SIZE_INT */
+     , (38614, 12, 2) /* STACK_SIZE_INT */
      , (38614, 16, 1) /* ITEM_USEABLE_INT */
      , (38614, 93, 1044) /* PHYSICS_STATE_INT */
      , (38614, 9007, 1) /* Generic_WeenieType */;
@@ -44,4 +44,11 @@ VALUES (38614, 33, 1) /* BONDED_INT */
      , (38614, 114, 1) /* ATTUNED_INT */
      , (38614, 19, 0) /* VALUE_INT */
      , (38614, 5, 10) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38614, 5, 5) /* ENCUMB_VAL_INT */
+     , (38614, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (38614, 12, 1) /* STACK_SIZE_INT */;
 

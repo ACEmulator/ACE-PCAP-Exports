@@ -51,3 +51,10 @@ VALUES (40790, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40790, 69, 0) /* IS_SELLABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40790, 5, 50) /* ENCUMB_VAL_INT */
+     , (40790, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (40790, 12, 1) /* STACK_SIZE_INT */;
+

@@ -59,3 +59,11 @@ VALUES (8213, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (8213, 2016) /* Impulse_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8213, 5, 5) /* ENCUMB_VAL_INT */
+     , (8213, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (8213, 12, 1) /* STACK_SIZE_INT */
+     , (8213, 19, 1000) /* VALUE_INT */;
+

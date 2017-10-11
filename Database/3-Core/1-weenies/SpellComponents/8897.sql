@@ -23,7 +23,7 @@ VALUES (8897, 53, 101) /* PLACEMENT_POSITION_INT */
      , (8897, 5, 80) /* ENCUMB_VAL_INT */
      , (8897, 151, 2) /* HOOK_TYPE_INT */
      , (8897, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (8897, 12, 1) /* STACK_SIZE_INT */
+     , (8897, 12, 20) /* STACK_SIZE_INT */
      , (8897, 16, 1) /* ITEM_USEABLE_INT */
      , (8897, 19, 200000) /* VALUE_INT */
      , (8897, 93, 1044) /* PHYSICS_STATE_INT */
@@ -50,4 +50,12 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (8897, 33, 1) /* BONDED_INT */
      , (8897, 19, 200000) /* VALUE_INT */
      , (8897, 5, 80) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8897, 5, 4) /* ENCUMB_VAL_INT */
+     , (8897, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (8897, 12, 1) /* STACK_SIZE_INT */
+     , (8897, 19, 10000) /* VALUE_INT */;
 

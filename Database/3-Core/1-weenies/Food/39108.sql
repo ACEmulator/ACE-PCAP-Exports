@@ -64,3 +64,11 @@ VALUES (39108, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (39108, 4206) /* ChewyCenter_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39108, 5, 1) /* ENCUMB_VAL_INT */
+     , (39108, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (39108, 12, 1) /* STACK_SIZE_INT */
+     , (39108, 19, 10) /* VALUE_INT */;
+

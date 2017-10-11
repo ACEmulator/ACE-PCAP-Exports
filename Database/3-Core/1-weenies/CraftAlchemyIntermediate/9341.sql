@@ -23,7 +23,7 @@ VALUES (9341, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9341, 1, 67108864) /* ITEM_TYPE_INT */
      , (9341, 151, 11) /* HOOK_TYPE_INT */
      , (9341, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (9341, 12, 1) /* STACK_SIZE_INT */
+     , (9341, 12, 67) /* STACK_SIZE_INT */
      , (9341, 94, 134218784) /* TARGET_TYPE_INT */
      , (9341, 16, 524296) /* ITEM_USEABLE_INT */
      , (9341, 19, 50250) /* VALUE_INT */
@@ -45,4 +45,11 @@ VALUES (9341, 0, 83890051, 83890051)
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9341, 0, 16783327);
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9341, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (9341, 12, 1) /* STACK_SIZE_INT */
+     , (9341, 19, 750) /* VALUE_INT */;
 

@@ -24,7 +24,7 @@ VALUES (36447, 1, 32) /* ITEM_TYPE_INT */
      , (36447, 18, 1) /* UI_EFFECTS_INT */
      , (36447, 151, 9) /* HOOK_TYPE_INT */
      , (36447, 11, 10) /* MAX_STACK_SIZE_INT */
-     , (36447, 12, 1) /* STACK_SIZE_INT */
+     , (36447, 12, 9) /* STACK_SIZE_INT */
      , (36447, 94, 16) /* TARGET_TYPE_INT */
      , (36447, 16, 8) /* ITEM_USEABLE_INT */
      , (36447, 19, 90) /* VALUE_INT */
@@ -89,4 +89,12 @@ VALUES (36447, 69, 0) /* IS_SELLABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (36447, 4211) /* LicoriceLeap_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36447, 5, 1) /* ENCUMB_VAL_INT */
+     , (36447, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (36447, 12, 1) /* STACK_SIZE_INT */
+     , (36447, 19, 10) /* VALUE_INT */;
 

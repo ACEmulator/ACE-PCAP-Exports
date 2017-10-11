@@ -74,3 +74,11 @@ VALUES (32939, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (32939, 157) /* SummonPortal1_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32939, 5, 10) /* ENCUMB_VAL_INT */
+     , (32939, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (32939, 12, 1) /* STACK_SIZE_INT */
+     , (32939, 19, 500) /* VALUE_INT */;
+

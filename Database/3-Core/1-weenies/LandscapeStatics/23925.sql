@@ -68,3 +68,11 @@ VALUES (23925, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (23925, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
      , (23925, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23925, 5, 40) /* ENCUMB_VAL_INT */
+     , (23925, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (23925, 12, 1) /* STACK_SIZE_INT */
+     , (23925, 19, 1) /* VALUE_INT */;
+

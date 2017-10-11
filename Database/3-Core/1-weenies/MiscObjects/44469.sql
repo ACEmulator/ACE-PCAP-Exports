@@ -44,3 +44,10 @@ VALUES (44469, 33, 0) /* BONDED_INT */
      , (44469, 19, 0) /* VALUE_INT */
      , (44469, 5, 50) /* ENCUMB_VAL_INT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44469, 5, 50) /* ENCUMB_VAL_INT */
+     , (44469, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (44469, 12, 1) /* STACK_SIZE_INT */;
+

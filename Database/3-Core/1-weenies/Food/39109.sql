@@ -87,3 +87,11 @@ VALUES (39109, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (39109, 4209) /* GummyShield_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39109, 5, 1) /* ENCUMB_VAL_INT */
+     , (39109, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (39109, 12, 1) /* STACK_SIZE_INT */
+     , (39109, 19, 10) /* VALUE_INT */;
+

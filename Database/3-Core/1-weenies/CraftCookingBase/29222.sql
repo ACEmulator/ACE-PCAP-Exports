@@ -23,7 +23,7 @@ VALUES (29222, 53, 101) /* PLACEMENT_POSITION_INT */
      , (29222, 5, 3075) /* ENCUMB_VAL_INT */
      , (29222, 18, 4) /* UI_EFFECTS_INT */
      , (29222, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (29222, 12, 1) /* STACK_SIZE_INT */
+     , (29222, 12, 41) /* STACK_SIZE_INT */
      , (29222, 16, 1) /* ITEM_USEABLE_INT */
      , (29222, 19, 82000) /* VALUE_INT */
      , (29222, 93, 1044) /* PHYSICS_STATE_INT */
@@ -34,4 +34,12 @@ VALUES (29222, 13, True) /* ETHEREAL_BOOL */
      , (29222, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (29222, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29222, 19, True) /* ATTACKABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29222, 5, 75) /* ENCUMB_VAL_INT */
+     , (29222, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (29222, 12, 1) /* STACK_SIZE_INT */
+     , (29222, 19, 2000) /* VALUE_INT */;
 

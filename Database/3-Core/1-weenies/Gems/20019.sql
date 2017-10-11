@@ -69,3 +69,10 @@ VALUES (20019, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (20019, 2671) /* PortalSendingLabyrinthRewards_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20019, 5, 5) /* ENCUMB_VAL_INT */
+     , (20019, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (20019, 12, 1) /* STACK_SIZE_INT */;
+

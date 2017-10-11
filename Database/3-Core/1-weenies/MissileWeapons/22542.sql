@@ -41,3 +41,11 @@ VALUES (22542, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22542, 19, True) /* ATTACKABLE_BOOL */
      , (22542, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22542, 5, 15) /* ENCUMB_VAL_INT */
+     , (22542, 11, 30) /* MAX_STACK_SIZE_INT */
+     , (22542, 12, 1) /* STACK_SIZE_INT */
+     , (22542, 19, 4) /* VALUE_INT */;
+

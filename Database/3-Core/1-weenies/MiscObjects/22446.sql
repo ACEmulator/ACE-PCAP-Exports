@@ -23,7 +23,7 @@ VALUES (22446, 53, 101) /* PLACEMENT_POSITION_INT */
      , (22446, 1, 128) /* ITEM_TYPE_INT */
      , (22446, 5, 2275) /* ENCUMB_VAL_INT */
      , (22446, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (22446, 12, 1) /* STACK_SIZE_INT */
+     , (22446, 12, 91) /* STACK_SIZE_INT */
      , (22446, 94, 128) /* TARGET_TYPE_INT */
      , (22446, 16, 524296) /* ITEM_USEABLE_INT */
      , (22446, 93, 1044) /* PHYSICS_STATE_INT */
@@ -43,4 +43,11 @@ VALUES (22446, 0, 83890064, 83889696);
 
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22446, 0, 16777882);
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22446, 5, 25) /* ENCUMB_VAL_INT */
+     , (22446, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (22446, 12, 1) /* STACK_SIZE_INT */;
 

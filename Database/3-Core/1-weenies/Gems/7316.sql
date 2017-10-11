@@ -62,3 +62,11 @@ VALUES (7316, 19, 1500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (7316, 2645) /* PortalRecall_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7316, 5, 10) /* ENCUMB_VAL_INT */
+     , (7316, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (7316, 12, 1) /* STACK_SIZE_INT */
+     , (7316, 19, 1500) /* VALUE_INT */;
+

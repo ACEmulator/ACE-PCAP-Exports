@@ -64,3 +64,11 @@ VALUES (21056, 33, 1) /* BONDED_INT */
      , (21056, 105, 33) /* ITEM_WORKMANSHIP_INT */
      , (21056, 170, 5) /* NUM_ITEMS_IN_MATERIAL_INT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21056, 5, 100) /* ENCUMB_VAL_INT */
+     , (21056, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (21056, 12, 1) /* STACK_SIZE_INT */
+     , (21056, 19, 7078) /* VALUE_INT */;
+

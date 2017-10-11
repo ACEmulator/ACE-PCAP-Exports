@@ -23,7 +23,7 @@ VALUES (36509, 53, 101) /* PLACEMENT_POSITION_INT */
      , (36509, 5, 450) /* ENCUMB_VAL_INT */
      , (36509, 18, 2) /* UI_EFFECTS_INT */
      , (36509, 11, 10) /* MAX_STACK_SIZE_INT */
-     , (36509, 12, 1) /* STACK_SIZE_INT */
+     , (36509, 12, 9) /* STACK_SIZE_INT */
      , (36509, 16, 1) /* ITEM_USEABLE_INT */
      , (36509, 19, 360) /* VALUE_INT */
      , (36509, 93, 1044) /* PHYSICS_STATE_INT */
@@ -43,4 +43,12 @@ VALUES (36509, 14, 'Turn this gem into an Agent of the Arcanum to gain 100% of a
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36509, 19, 400) /* VALUE_INT */
      , (36509, 5, 500) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36509, 5, 50) /* ENCUMB_VAL_INT */
+     , (36509, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (36509, 12, 1) /* STACK_SIZE_INT */
+     , (36509, 19, 40) /* VALUE_INT */;
 

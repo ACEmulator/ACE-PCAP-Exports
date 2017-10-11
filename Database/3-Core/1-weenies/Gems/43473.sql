@@ -29,7 +29,7 @@ VALUES (43473, 53, 101) /* PLACEMENT_POSITION_INT */
      , (43473, 18, 1) /* UI_EFFECTS_INT */
      , (43473, 151, 11) /* HOOK_TYPE_INT */
      , (43473, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (43473, 12, 1) /* STACK_SIZE_INT */
+     , (43473, 12, 5) /* STACK_SIZE_INT */
      , (43473, 94, 16) /* TARGET_TYPE_INT */
      , (43473, 16, 8) /* ITEM_USEABLE_INT */
      , (43473, 93, 1044) /* PHYSICS_STATE_INT */
@@ -76,4 +76,11 @@ VALUES (43473, 69, 0) /* IS_SELLABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (43473, 5449) /* LuminanceRewardDamageBoost_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43473, 5, 5) /* ENCUMB_VAL_INT */
+     , (43473, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (43473, 12, 1) /* STACK_SIZE_INT */;
 

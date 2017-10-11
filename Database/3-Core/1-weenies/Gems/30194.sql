@@ -65,3 +65,10 @@ VALUES (30194, 108, 1) /* RARE_USES_TIMER_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (30194, 3691) /* BowMasteryRare_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30194, 5, 5) /* ENCUMB_VAL_INT */
+     , (30194, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (30194, 12, 1) /* STACK_SIZE_INT */;
+

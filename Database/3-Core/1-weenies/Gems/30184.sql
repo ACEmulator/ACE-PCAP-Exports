@@ -70,3 +70,10 @@ VALUES (30184, 108, 1) /* RARE_USES_TIMER_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (30184, 3682) /* ArcaneEnlightenmentRare_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30184, 5, 5) /* ENCUMB_VAL_INT */
+     , (30184, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (30184, 12, 1) /* STACK_SIZE_INT */;
+

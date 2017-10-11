@@ -44,3 +44,10 @@ VALUES (32746, 2, 86) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (32746, 64, 1370) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32746, 5, 40) /* ENCUMB_VAL_INT */
+     , (32746, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (32746, 12, 1) /* STACK_SIZE_INT */;
+

@@ -22,7 +22,7 @@ VALUES (27875, 53, 1) /* PLACEMENT_POSITION_INT */
      , (27875, 5, 230) /* ENCUMB_VAL_INT */
      , (27875, 51, 2) /* COMBAT_USE_INT */
      , (27875, 11, 40) /* MAX_STACK_SIZE_INT */
-     , (27875, 12, 1) /* STACK_SIZE_INT */
+     , (27875, 12, 10) /* STACK_SIZE_INT */
      , (27875, 16, 1) /* ITEM_USEABLE_INT */
      , (27875, 9, 4194304) /* LOCATIONS_INT */
      , (27875, 19, 40) /* VALUE_INT */
@@ -80,4 +80,12 @@ VALUES (27875, 100, 1) /* DYABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (27875, 4703) /* CANTRIPMAGICITEMEXPERTISE3_SpellID */
      , (27875, 2159) /* LightningProtectionSelf7_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27875, 5, 23) /* ENCUMB_VAL_INT */
+     , (27875, 11, 40) /* MAX_STACK_SIZE_INT */
+     , (27875, 12, 1) /* STACK_SIZE_INT */
+     , (27875, 19, 4) /* VALUE_INT */;
 

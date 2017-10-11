@@ -19,7 +19,7 @@ VALUES (38459, 53, 101) /* PLACEMENT_POSITION_INT */
      , (38459, 1, 64) /* ITEM_TYPE_INT */
      , (38459, 18, 64) /* UI_EFFECTS_INT */
      , (38459, 11, 1000) /* MAX_STACK_SIZE_INT */
-     , (38459, 12, 1) /* STACK_SIZE_INT */
+     , (38459, 12, 473) /* STACK_SIZE_INT */
      , (38459, 16, 1) /* ITEM_USEABLE_INT */
      , (38459, 19, 4730) /* VALUE_INT */
      , (38459, 93, 1044) /* PHYSICS_STATE_INT */
@@ -49,4 +49,11 @@ VALUES (38459, 33, 0) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38459, 99, 0) /* IVORYABLE_BOOL */
      , (38459, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38459, 11, 1000) /* MAX_STACK_SIZE_INT */
+     , (38459, 12, 1) /* STACK_SIZE_INT */
+     , (38459, 19, 10) /* VALUE_INT */;
 

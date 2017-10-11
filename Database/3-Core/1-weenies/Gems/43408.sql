@@ -67,3 +67,11 @@ VALUES (43408, 108, 1) /* RARE_USES_TIMER_BOOL */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (43408, 5435) /* VoidMagicMasterySpectral_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43408, 5, 5) /* ENCUMB_VAL_INT */
+     , (43408, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (43408, 12, 1) /* STACK_SIZE_INT */
+     , (43408, 19, 5) /* VALUE_INT */;
+

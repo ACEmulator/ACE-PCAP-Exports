@@ -53,3 +53,9 @@ VALUES (42490, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (42490, 167, 10) /* COOLDOWN_DURATION_FLOAT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42490, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (42490, 12, 1) /* STACK_SIZE_INT */;
+

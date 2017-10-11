@@ -1,4 +1,4 @@
-/* Weenie - CreaturesUnsorted - Hollow (36203) */
+/* Weenie - CreaturesOtherNPCs - Hollow (36203) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 36203;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)

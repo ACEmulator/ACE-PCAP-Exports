@@ -58,3 +58,11 @@ VALUES (34968, 69, 1) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (34968, 4068) /* MucorManaWell_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34968, 5, 30) /* ENCUMB_VAL_INT */
+     , (34968, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (34968, 12, 1) /* STACK_SIZE_INT */
+     , (34968, 19, 50000) /* VALUE_INT */;
+

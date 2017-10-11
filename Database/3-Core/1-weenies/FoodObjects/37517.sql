@@ -68,3 +68,11 @@ VALUES (37517, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (37517, 167, 30) /* COOLDOWN_DURATION_FLOAT */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37517, 5, 75) /* ENCUMB_VAL_INT */
+     , (37517, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (37517, 12, 1) /* STACK_SIZE_INT */
+     , (37517, 19, 1000) /* VALUE_INT */;
+

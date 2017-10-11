@@ -54,3 +54,11 @@ VALUES (28843, 69, 1) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (28843, 3569) /* ManaUp10Percent_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28843, 5, 20) /* ENCUMB_VAL_INT */
+     , (28843, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (28843, 12, 1) /* STACK_SIZE_INT */
+     , (28843, 19, 1000) /* VALUE_INT */;
+

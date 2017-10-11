@@ -72,3 +72,11 @@ VALUES (42637, 4, 1379326962) /* ITEM_TOTAL_XP_INT64 */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (42637, 5207) /* AetheriaProcHealDebuff_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42637, 5, 50) /* ENCUMB_VAL_INT */
+     , (42637, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (42637, 12, 1) /* STACK_SIZE_INT */
+     , (42637, 19, 10000) /* VALUE_INT */;
+

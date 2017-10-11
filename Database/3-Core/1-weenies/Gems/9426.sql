@@ -63,3 +63,11 @@ VALUES (9426, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (9426, 2393) /* ForceArmor_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9426, 5, 10) /* ENCUMB_VAL_INT */
+     , (9426, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (9426, 12, 1) /* STACK_SIZE_INT */
+     , (9426, 19, 200) /* VALUE_INT */;
+

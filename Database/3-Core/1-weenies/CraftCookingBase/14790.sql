@@ -54,3 +54,11 @@ VALUES (14790, 2, 75) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14790, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14790, 5, 50) /* ENCUMB_VAL_INT */
+     , (14790, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (14790, 12, 1) /* STACK_SIZE_INT */
+     , (14790, 19, 4) /* VALUE_INT */;
+

@@ -34,3 +34,10 @@ VALUES (15427, 13, True) /* ETHEREAL_BOOL */
      , (15427, 14, True) /* GRAVITY_STATUS_BOOL */
      , (15427, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15427, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (15427, 12, 1) /* STACK_SIZE_INT */
+     , (15427, 19, 3500) /* VALUE_INT */;
+

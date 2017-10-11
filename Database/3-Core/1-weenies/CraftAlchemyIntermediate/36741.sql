@@ -23,7 +23,7 @@ VALUES (36741, 53, 101) /* PLACEMENT_POSITION_INT */
      , (36741, 1, 67108864) /* ITEM_TYPE_INT */
      , (36741, 151, 11) /* HOOK_TYPE_INT */
      , (36741, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (36741, 12, 1) /* STACK_SIZE_INT */
+     , (36741, 12, 9) /* STACK_SIZE_INT */
      , (36741, 94, 67108864) /* TARGET_TYPE_INT */
      , (36741, 16, 524296) /* ITEM_USEABLE_INT */
      , (36741, 19, 6750) /* VALUE_INT */
@@ -58,4 +58,11 @@ VALUES (36741, 33, 1) /* BONDED_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36741, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36741, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (36741, 12, 1) /* STACK_SIZE_INT */
+     , (36741, 19, 750) /* VALUE_INT */;
 

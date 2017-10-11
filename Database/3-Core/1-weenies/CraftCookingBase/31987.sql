@@ -23,7 +23,7 @@ VALUES (31987, 53, 101) /* PLACEMENT_POSITION_INT */
      , (31987, 1, 4194304) /* ITEM_TYPE_INT */
      , (31987, 5, 300) /* ENCUMB_VAL_INT */
      , (31987, 11, 20) /* MAX_STACK_SIZE_INT */
-     , (31987, 12, 1) /* STACK_SIZE_INT */
+     , (31987, 12, 6) /* STACK_SIZE_INT */
      , (31987, 94, 2) /* TARGET_TYPE_INT */
      , (31987, 16, 524296) /* ITEM_USEABLE_INT */
      , (31987, 19, 60000) /* VALUE_INT */
@@ -38,4 +38,12 @@ VALUES (31987, 13, True) /* ETHEREAL_BOOL */
 
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31987, 67111920, 0, 0);
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31987, 5, 50) /* ENCUMB_VAL_INT */
+     , (31987, 11, 20) /* MAX_STACK_SIZE_INT */
+     , (31987, 12, 1) /* STACK_SIZE_INT */
+     , (31987, 19, 10000) /* VALUE_INT */;
 

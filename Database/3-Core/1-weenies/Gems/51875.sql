@@ -62,3 +62,10 @@ VALUES (51875, 64, 1370) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (51875, 128, 1740) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (51875, 256, 1070) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51875, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (51875, 12, 1) /* STACK_SIZE_INT */
+     , (51875, 19, 100) /* VALUE_INT */;
+

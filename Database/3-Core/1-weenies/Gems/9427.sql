@@ -63,3 +63,11 @@ VALUES (9427, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (9427, 2398) /* BludgeonShield_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9427, 5, 10) /* ENCUMB_VAL_INT */
+     , (9427, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (9427, 12, 1) /* STACK_SIZE_INT */
+     , (9427, 19, 200) /* VALUE_INT */;
+

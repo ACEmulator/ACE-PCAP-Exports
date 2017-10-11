@@ -52,3 +52,11 @@ VALUES (30804, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30804, 0, 16779181);
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30804, 5, 50) /* ENCUMB_VAL_INT */
+     , (30804, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (30804, 12, 1) /* STACK_SIZE_INT */
+     , (30804, 19, 5000) /* VALUE_INT */;
+

@@ -63,3 +63,11 @@ VALUES (37261, 63, 1) /* UNLIMITED_USE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (37261, 4280) /* CoordinationJesterDeck_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37261, 5, 50) /* ENCUMB_VAL_INT */
+     , (37261, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (37261, 12, 1) /* STACK_SIZE_INT */
+     , (37261, 19, 130) /* VALUE_INT */;
+

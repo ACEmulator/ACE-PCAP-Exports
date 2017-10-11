@@ -22,7 +22,7 @@ VALUES (49485, 53, 101) /* PLACEMENT_POSITION_INT */
      , (49485, 1, 128) /* ITEM_TYPE_INT */
      , (49485, 5, 450) /* ENCUMB_VAL_INT */
      , (49485, 11, 50) /* MAX_STACK_SIZE_INT */
-     , (49485, 12, 1) /* STACK_SIZE_INT */
+     , (49485, 12, 9) /* STACK_SIZE_INT */
      , (49485, 94, 128) /* TARGET_TYPE_INT */
      , (49485, 16, 524296) /* ITEM_USEABLE_INT */
      , (49485, 19, 4500) /* VALUE_INT */
@@ -56,4 +56,12 @@ VALUES (49485, 14, 'This item is used in Summoning.') /* USE_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49485, 19, 5500) /* VALUE_INT */
      , (49485, 5, 550) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49485, 5, 50) /* ENCUMB_VAL_INT */
+     , (49485, 11, 50) /* MAX_STACK_SIZE_INT */
+     , (49485, 12, 1) /* STACK_SIZE_INT */
+     , (49485, 19, 500) /* VALUE_INT */;
 

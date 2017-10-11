@@ -50,3 +50,11 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (38545, 99, 0) /* IVORYABLE_BOOL */
      , (38545, 69, 0) /* IS_SELLABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38545, 5, 50) /* ENCUMB_VAL_INT */
+     , (38545, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (38545, 12, 1) /* STACK_SIZE_INT */
+     , (38545, 19, 25) /* VALUE_INT */;
+

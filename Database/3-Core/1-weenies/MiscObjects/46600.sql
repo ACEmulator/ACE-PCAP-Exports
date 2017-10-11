@@ -50,3 +50,10 @@ VALUES (46600, 98, 1485726833) /* CREATION_TIMESTAMP_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (46600, 69, 0) /* IS_SELLABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46600, 5, 100) /* ENCUMB_VAL_INT */
+     , (46600, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (46600, 12, 1) /* STACK_SIZE_INT */;
+

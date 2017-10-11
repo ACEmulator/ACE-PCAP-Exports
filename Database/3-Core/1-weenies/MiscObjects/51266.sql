@@ -21,7 +21,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (51266, 1, 128) /* ITEM_TYPE_INT */
      , (51266, 5, 200) /* ENCUMB_VAL_INT */
      , (51266, 11, 10) /* MAX_STACK_SIZE_INT */
-     , (51266, 12, 1) /* STACK_SIZE_INT */
+     , (51266, 12, 2) /* STACK_SIZE_INT */
      , (51266, 16, 1) /* ITEM_USEABLE_INT */
      , (51266, 93, 1044) /* PHYSICS_STATE_INT */
      , (51266, 9007, 1) /* Generic_WeenieType */;
@@ -31,4 +31,11 @@ VALUES (51266, 13, True) /* ETHEREAL_BOOL */
      , (51266, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (51266, 14, True) /* GRAVITY_STATUS_BOOL */
      , (51266, 19, True) /* ATTACKABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51266, 5, 100) /* ENCUMB_VAL_INT */
+     , (51266, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (51266, 12, 1) /* STACK_SIZE_INT */;
 

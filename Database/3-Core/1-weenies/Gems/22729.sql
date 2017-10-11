@@ -68,3 +68,10 @@ VALUES (22729, 33, 0) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (22729, 2936) /* PortalSendingTuskerIsland_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22729, 5, 10) /* ENCUMB_VAL_INT */
+     , (22729, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (22729, 12, 1) /* STACK_SIZE_INT */;
+

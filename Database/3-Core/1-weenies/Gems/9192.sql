@@ -25,7 +25,7 @@ VALUES (9192, 53, 101) /* PLACEMENT_POSITION_INT */
      , (9192, 5, 240) /* ENCUMB_VAL_INT */
      , (9192, 18, 1) /* UI_EFFECTS_INT */
      , (9192, 11, 25) /* MAX_STACK_SIZE_INT */
-     , (9192, 12, 1) /* STACK_SIZE_INT */
+     , (9192, 12, 24) /* STACK_SIZE_INT */
      , (9192, 94, 16) /* TARGET_TYPE_INT */
      , (9192, 16, 8) /* ITEM_USEABLE_INT */
      , (9192, 19, 12000) /* VALUE_INT */
@@ -62,4 +62,12 @@ VALUES (9192, 19, 5500) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (9192, 1882) /* DispelAllBadSelf6_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9192, 5, 10) /* ENCUMB_VAL_INT */
+     , (9192, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (9192, 12, 1) /* STACK_SIZE_INT */
+     , (9192, 19, 500) /* VALUE_INT */;
 

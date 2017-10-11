@@ -68,3 +68,11 @@ VALUES (2393, 19, 1412) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (2393, 1070) /* LightningProtectionSelf5_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2393, 5, 5) /* ENCUMB_VAL_INT */
+     , (2393, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (2393, 12, 1) /* STACK_SIZE_INT */
+     , (2393, 19, 1412) /* VALUE_INT */;
+

@@ -22,7 +22,7 @@ VALUES (38407, 1, 64) /* ITEM_TYPE_INT */
      , (38407, 5, 100) /* ENCUMB_VAL_INT */
      , (38407, 18, 1) /* UI_EFFECTS_INT */
      , (38407, 11, 10) /* MAX_STACK_SIZE_INT */
-     , (38407, 12, 1) /* STACK_SIZE_INT */
+     , (38407, 12, 2) /* STACK_SIZE_INT */
      , (38407, 16, 1) /* ITEM_USEABLE_INT */
      , (38407, 93, 1044) /* PHYSICS_STATE_INT */
      , (38407, 9007, 9) /* Coin_WeenieType */;
@@ -47,4 +47,11 @@ VALUES (38407, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (38407, 99, 0) /* IVORYABLE_BOOL */
      , (38407, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38407, 5, 50) /* ENCUMB_VAL_INT */
+     , (38407, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (38407, 12, 1) /* STACK_SIZE_INT */;
 

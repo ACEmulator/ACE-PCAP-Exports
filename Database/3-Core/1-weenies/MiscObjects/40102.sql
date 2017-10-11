@@ -21,7 +21,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (40102, 1, 128) /* ITEM_TYPE_INT */
      , (40102, 5, 15) /* ENCUMB_VAL_INT */
      , (40102, 11, 10) /* MAX_STACK_SIZE_INT */
-     , (40102, 12, 1) /* STACK_SIZE_INT */
+     , (40102, 12, 3) /* STACK_SIZE_INT */
      , (40102, 16, 1) /* ITEM_USEABLE_INT */
      , (40102, 93, 1044) /* PHYSICS_STATE_INT */
      , (40102, 9007, 1) /* Generic_WeenieType */;
@@ -50,4 +50,11 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (40102, 0, 16784246)
      , (40102, 1, 16784196)
      , (40102, 2, 16784180);
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40102, 5, 5) /* ENCUMB_VAL_INT */
+     , (40102, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (40102, 12, 1) /* STACK_SIZE_INT */;
 

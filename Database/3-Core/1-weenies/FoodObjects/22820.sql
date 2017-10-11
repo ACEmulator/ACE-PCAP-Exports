@@ -34,3 +34,11 @@ VALUES (22820, 13, True) /* ETHEREAL_BOOL */
      , (22820, 14, True) /* GRAVITY_STATUS_BOOL */
      , (22820, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22820, 5, 50) /* ENCUMB_VAL_INT */
+     , (22820, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (22820, 12, 1) /* STACK_SIZE_INT */
+     , (22820, 19, 60) /* VALUE_INT */;
+

@@ -62,3 +62,11 @@ VALUES (6329, 19, 500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (6329, 69, 0) /* IS_SELLABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6329, 5, 100) /* ENCUMB_VAL_INT */
+     , (6329, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (6329, 12, 1) /* STACK_SIZE_INT */
+     , (6329, 19, 500) /* VALUE_INT */;
+

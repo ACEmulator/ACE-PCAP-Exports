@@ -24,7 +24,7 @@ VALUES (48707, 53, 101) /* PLACEMENT_POSITION_INT */
      , (48707, 5, 150) /* ENCUMB_VAL_INT */
      , (48707, 18, 1) /* UI_EFFECTS_INT */
      , (48707, 11, 50) /* MAX_STACK_SIZE_INT */
-     , (48707, 12, 1) /* STACK_SIZE_INT */
+     , (48707, 12, 3) /* STACK_SIZE_INT */
      , (48707, 94, 16) /* TARGET_TYPE_INT */
      , (48707, 16, 8) /* ITEM_USEABLE_INT */
      , (48707, 19, 30) /* VALUE_INT */
@@ -52,4 +52,12 @@ VALUES (48707, 19, 30) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (48707, 6038) /* CiderStamina_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48707, 5, 50) /* ENCUMB_VAL_INT */
+     , (48707, 11, 50) /* MAX_STACK_SIZE_INT */
+     , (48707, 12, 1) /* STACK_SIZE_INT */
+     , (48707, 19, 10) /* VALUE_INT */;
 

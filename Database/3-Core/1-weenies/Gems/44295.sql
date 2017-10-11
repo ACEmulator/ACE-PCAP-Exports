@@ -54,3 +54,9 @@ VALUES (44295, 167, 2) /* COOLDOWN_DURATION_FLOAT */;
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44295, 69, 0) /* IS_SELLABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44295, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (44295, 12, 1) /* STACK_SIZE_INT */;
+

@@ -22,7 +22,7 @@ VALUES (23326, 53, 101) /* PLACEMENT_POSITION_INT */
      , (23326, 1, 4194304) /* ITEM_TYPE_INT */
      , (23326, 5, 3000) /* ENCUMB_VAL_INT */
      , (23326, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (23326, 12, 1) /* STACK_SIZE_INT */
+     , (23326, 12, 40) /* STACK_SIZE_INT */
      , (23326, 16, 1) /* ITEM_USEABLE_INT */
      , (23326, 19, 80000) /* VALUE_INT */
      , (23326, 93, 1044) /* PHYSICS_STATE_INT */
@@ -43,4 +43,12 @@ VALUES (23326, 14, 'Use a cooking pot on this to produce something edible.') /* 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (23326, 19, 74000) /* VALUE_INT */
      , (23326, 5, 2775) /* ENCUMB_VAL_INT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23326, 5, 75) /* ENCUMB_VAL_INT */
+     , (23326, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (23326, 12, 1) /* STACK_SIZE_INT */
+     , (23326, 19, 2000) /* VALUE_INT */;
 

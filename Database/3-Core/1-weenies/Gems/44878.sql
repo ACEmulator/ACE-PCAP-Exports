@@ -73,3 +73,11 @@ VALUES (44878, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44878, 100, 1) /* DYABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44878, 5, 919) /* ENCUMB_VAL_INT */
+     , (44878, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (44878, 12, 1) /* STACK_SIZE_INT */
+     , (44878, 19, 653) /* VALUE_INT */;
+

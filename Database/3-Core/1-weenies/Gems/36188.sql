@@ -66,3 +66,11 @@ VALUES (36188, 69, 1) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (36188, 4192) /* HarbingerProtectionLightning_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36188, 5, 5) /* ENCUMB_VAL_INT */
+     , (36188, 11, 10) /* MAX_STACK_SIZE_INT */
+     , (36188, 12, 1) /* STACK_SIZE_INT */
+     , (36188, 19, 1000) /* VALUE_INT */;
+

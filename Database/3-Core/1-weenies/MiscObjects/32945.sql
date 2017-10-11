@@ -37,3 +37,11 @@ VALUES (32945, 13, True) /* ETHEREAL_BOOL */
      , (32945, 19, True) /* ATTACKABLE_BOOL */
      , (32945, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32945, 5, 10) /* ENCUMB_VAL_INT */
+     , (32945, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (32945, 12, 1) /* STACK_SIZE_INT */
+     , (32945, 19, 5000) /* VALUE_INT */;
+

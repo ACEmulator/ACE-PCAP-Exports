@@ -21,7 +21,7 @@ VALUES (42113, 53, 101) /* PLACEMENT_POSITION_INT */
      , (42113, 1, 2048) /* ITEM_TYPE_INT */
      , (42113, 5, 70) /* ENCUMB_VAL_INT */
      , (42113, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (42113, 12, 1) /* STACK_SIZE_INT */
+     , (42113, 12, 7) /* STACK_SIZE_INT */
      , (42113, 16, 1) /* ITEM_USEABLE_INT */
      , (42113, 93, 1044) /* PHYSICS_STATE_INT */
      , (42113, 9007, 38) /* Gem_WeenieType */;
@@ -31,4 +31,11 @@ VALUES (42113, 13, True) /* ETHEREAL_BOOL */
      , (42113, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (42113, 14, True) /* GRAVITY_STATUS_BOOL */
      , (42113, 19, True) /* ATTACKABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42113, 5, 10) /* ENCUMB_VAL_INT */
+     , (42113, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (42113, 12, 1) /* STACK_SIZE_INT */;
 

@@ -22,7 +22,7 @@ VALUES (23329, 53, 101) /* PLACEMENT_POSITION_INT */
      , (23329, 1, 32) /* ITEM_TYPE_INT */
      , (23329, 5, 1200) /* ENCUMB_VAL_INT */
      , (23329, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (23329, 12, 1) /* STACK_SIZE_INT */
+     , (23329, 12, 16) /* STACK_SIZE_INT */
      , (23329, 16, 8) /* ITEM_USEABLE_INT */
      , (23329, 93, 1044) /* PHYSICS_STATE_INT */
      , (23329, 9007, 18) /* Food_WeenieType */;
@@ -47,4 +47,11 @@ VALUES (23329, 19, 0) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (23329, 69, 0) /* IS_SELLABLE_BOOL */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23329, 5, 75) /* ENCUMB_VAL_INT */
+     , (23329, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (23329, 12, 1) /* STACK_SIZE_INT */;
 

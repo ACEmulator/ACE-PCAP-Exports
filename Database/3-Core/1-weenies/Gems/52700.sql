@@ -27,7 +27,7 @@ VALUES (52700, 53, 101) /* PLACEMENT_POSITION_INT */
      , (52700, 18, 1) /* UI_EFFECTS_INT */
      , (52700, 151, 11) /* HOOK_TYPE_INT */
      , (52700, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (52700, 12, 1) /* STACK_SIZE_INT */
+     , (52700, 12, 86) /* STACK_SIZE_INT */
      , (52700, 94, 16) /* TARGET_TYPE_INT */
      , (52700, 16, 8) /* ITEM_USEABLE_INT */
      , (52700, 19, 4300) /* VALUE_INT */
@@ -68,4 +68,12 @@ VALUES (52700, 69, 0) /* IS_SELLABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (52700, 6170) /* HoneyedLifeMead_SpellID */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52700, 5, 50) /* ENCUMB_VAL_INT */
+     , (52700, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (52700, 12, 1) /* STACK_SIZE_INT */
+     , (52700, 19, 50) /* VALUE_INT */;
 

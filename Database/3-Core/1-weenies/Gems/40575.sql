@@ -69,3 +69,11 @@ VALUES (40575, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (40575, 4992) /* PortalSendingAssassinsRoost4_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40575, 5, 10) /* ENCUMB_VAL_INT */
+     , (40575, 11, 1) /* MAX_STACK_SIZE_INT */
+     , (40575, 12, 1) /* STACK_SIZE_INT */
+     , (40575, 19, 100) /* VALUE_INT */;
+

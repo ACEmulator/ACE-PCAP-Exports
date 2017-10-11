@@ -24,7 +24,7 @@ VALUES (2023, 53, 101) /* PLACEMENT_POSITION_INT */
      , (2023, 51, 3) /* COMBAT_USE_INT */
      , (2023, 151, 2) /* HOOK_TYPE_INT */
      , (2023, 11, 100) /* MAX_STACK_SIZE_INT */
-     , (2023, 12, 1) /* STACK_SIZE_INT */
+     , (2023, 12, 5) /* STACK_SIZE_INT */
      , (2023, 16, 1) /* ITEM_USEABLE_INT */
      , (2023, 9, 8388608) /* LOCATIONS_INT */
      , (2023, 19, 10) /* VALUE_INT */
@@ -54,4 +54,12 @@ VALUES (2023, 29, 1) /* WEAPON_DEFENSE_FLOAT */
      , (2023, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (2023, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
      , (2023, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2023, 5, 25) /* ENCUMB_VAL_INT */
+     , (2023, 11, 100) /* MAX_STACK_SIZE_INT */
+     , (2023, 12, 1) /* STACK_SIZE_INT */
+     , (2023, 19, 2) /* VALUE_INT */;
 

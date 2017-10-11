@@ -69,3 +69,10 @@ VALUES (22824, 33, 0) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (22824, 2942) /* PortalSendAbandonedMine_SpellID */;
 
+/* Calculated Burden/Value and Adjusted StackSize Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22824, 5, 5) /* ENCUMB_VAL_INT */
+     , (22824, 11, 25) /* MAX_STACK_SIZE_INT */
+     , (22824, 12, 1) /* STACK_SIZE_INT */;
+
