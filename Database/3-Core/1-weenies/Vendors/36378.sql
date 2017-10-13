@@ -107,6 +107,9 @@ VALUES (36378, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (36378, 57, 36376) /* ALTERNATE_CURRENCY_DID - Small Olthoi Venom Sacs */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36378, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (36378, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

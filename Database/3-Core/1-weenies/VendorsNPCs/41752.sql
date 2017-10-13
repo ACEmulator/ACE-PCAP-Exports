@@ -112,6 +112,9 @@ VALUES (41752, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (41752, 57, 41750) /* ALTERNATE_CURRENCY_DID - Arcanum Salvage Tokens */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41752, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (41752, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

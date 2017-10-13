@@ -108,6 +108,9 @@ VALUES (42430, 64, 495) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (42430, 57, 20630) /* ALTERNATE_CURRENCY_DID - Trade Notes (250,000) */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42430, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (42430, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

@@ -90,6 +90,9 @@ VALUES (45489, 64, 1120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (45489, 57, 45491) /* ALTERNATE_CURRENCY_DID - Quest Weapon Coins */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45489, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (45489, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

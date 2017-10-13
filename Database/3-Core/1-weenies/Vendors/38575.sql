@@ -112,6 +112,9 @@ VALUES (38575, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38575, 57, 38237) /* ALTERNATE_CURRENCY_DID - Eldrytch Web Trade Tokens */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38575, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (38575, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

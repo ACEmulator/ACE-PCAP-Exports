@@ -104,6 +104,9 @@ VALUES (36519, 64, 1120) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (36519, 57, 36518) /* ALTERNATE_CURRENCY_DID - Colosseum Coins */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36519, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (36519, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

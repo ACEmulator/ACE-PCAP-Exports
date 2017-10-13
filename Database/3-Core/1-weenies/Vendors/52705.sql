@@ -90,6 +90,9 @@ VALUES (52705, 12, 16777304)
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (52705, 57, 52797) /* ALTERNATE_CURRENCY_DID - Gauntlet Coins */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52705, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (52705, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

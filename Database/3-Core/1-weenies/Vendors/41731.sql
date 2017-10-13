@@ -112,6 +112,9 @@ VALUES (41731, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (41731, 57, 41713) /* ALTERNATE_CURRENCY_DID - Whispering Blade Tokens */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41731, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (41731, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

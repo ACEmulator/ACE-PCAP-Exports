@@ -117,6 +117,9 @@ VALUES (37477, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (37477, 57, 37492) /* ALTERNATE_CURRENCY_DID - Spectral Ingots */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37477, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (37477, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

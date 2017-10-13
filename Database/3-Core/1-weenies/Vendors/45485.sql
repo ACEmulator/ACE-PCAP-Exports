@@ -100,6 +100,9 @@ VALUES (45485, 64, 1120) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (45485, 57, 45493) /* ALTERNATE_CURRENCY_DID - Rare Coins */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45485, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (45485, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

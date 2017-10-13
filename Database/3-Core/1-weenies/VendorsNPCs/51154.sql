@@ -104,6 +104,9 @@ VALUES (51154, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (51154, 57, 6621) /* ALTERNATE_CURRENCY_DID - Scintillating Gems */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51154, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (51154, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

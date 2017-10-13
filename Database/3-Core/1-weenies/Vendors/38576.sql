@@ -112,6 +112,9 @@ VALUES (38576, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38576, 57, 38236) /* ALTERNATE_CURRENCY_DID - Radiant Blood Trade Tokens */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38576, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (38576, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

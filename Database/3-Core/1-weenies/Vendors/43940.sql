@@ -107,6 +107,9 @@ VALUES (43940, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (43940, 57, 43919) /* ALTERNATE_CURRENCY_DID - Tokens of Resistance Augmentation Changing */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43940, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (43940, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
