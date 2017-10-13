@@ -110,6 +110,9 @@ VALUES (44241, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (44241, 57, 44240) /* ALTERNATE_CURRENCY_DID - A'nekshay Tokens */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44241, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (44241, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

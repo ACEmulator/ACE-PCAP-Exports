@@ -61,6 +61,9 @@ VALUES (43144, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (43144, 57, 43142) /* ALTERNATE_CURRENCY_DID - Ornate Gear Markers */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43144, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (43144, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

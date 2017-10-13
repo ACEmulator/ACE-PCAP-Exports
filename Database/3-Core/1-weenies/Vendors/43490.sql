@@ -68,6 +68,9 @@ VALUES (43490, 64, 1710) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (43490, 57, 43491) /* ALTERNATE_CURRENCY_DID - Pitted Slags */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43490, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (43490, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

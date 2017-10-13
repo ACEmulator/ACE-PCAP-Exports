@@ -71,6 +71,9 @@ VALUES (35948, 384, 0) /*  */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35948, 57, 35942) /* ALTERNATE_CURRENCY_DID - Dark Tusker Paws */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35948, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (35948, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

@@ -100,6 +100,9 @@ VALUES (45501, 64, 1120) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (45501, 57, 45494) /* ALTERNATE_CURRENCY_DID - Imbue Swap Coins */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45501, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (45501, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

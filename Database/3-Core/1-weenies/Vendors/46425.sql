@@ -133,6 +133,9 @@ VALUES (46425, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (46425, 57, 46423) /* ALTERNATE_CURRENCY_DID - Stipends */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46425, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (46425, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

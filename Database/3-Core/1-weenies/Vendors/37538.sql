@@ -113,6 +113,9 @@ VALUES (37538, 64, 271) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (37538, 57, 37559) /* ALTERNATE_CURRENCY_DID - Writs of Apology */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37538, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (37538, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

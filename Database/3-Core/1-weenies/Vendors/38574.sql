@@ -124,6 +124,9 @@ VALUES (38574, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38574, 57, 38234) /* ALTERNATE_CURRENCY_DID - Celestial Hand Trade Tokens */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38574, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (38574, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

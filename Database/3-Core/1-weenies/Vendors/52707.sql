@@ -123,6 +123,9 @@ VALUES (52707, 64, 2075) /* MAX_HEALTH_ATTRIBUTE_2ND */
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (52707, 57, 52797) /* ALTERNATE_CURRENCY_DID - Gauntlet Coins */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52707, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (52707, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */

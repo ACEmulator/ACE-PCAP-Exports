@@ -104,6 +104,9 @@ VALUES (39687, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (39687, 57, 39637) /* ALTERNATE_CURRENCY_DID - Tactical Defense Coins */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (39687, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
      , (39687, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
