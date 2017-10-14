@@ -71,3 +71,13 @@ VALUES (32295, 15, 16792141)
      , (32295, 14, 16783855)
      , (32295, 16, 16791907);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32295, 8, 20256) /* Scroll of Bolstered Will */
+     , (32295, 8, 40635) /* Tetsubo */
+     , (32295, 8, 132) /* Shoes */
+     , (32295, 8, 2367) /* Gorget */
+     , (32295, 8, 20239) /* Scroll of Self Loathing */
+     , (32295, 8, 31864) /* Teardrop Crown */;
+

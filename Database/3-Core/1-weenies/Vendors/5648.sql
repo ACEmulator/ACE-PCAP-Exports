@@ -131,39 +131,39 @@ VALUES (5648, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5648, 4, 4190)
-     , (5648, 4, 301)
-     , (5648, 4, 350)
-     , (5648, 4, 351)
-     , (5648, 4, 331)
-     , (5648, 4, 332)
-     , (5648, 4, 339)
-     , (5648, 4, 359)
-     , (5648, 4, 303)
-     , (5648, 4, 309)
-     , (5648, 4, 314)
-     , (5648, 4, 316)
-     , (5648, 4, 329)
-     , (5648, 4, 22168)
-     , (5648, 4, 348)
-     , (5648, 4, 320)
-     , (5648, 4, 2621)
-     , (5648, 4, 2622)
-     , (5648, 4, 2623)
-     , (5648, 4, 2624)
-     , (5648, 4, 2625)
-     , (5648, 4, 2626)
-     , (5648, 4, 2627)
-     , (5648, 4, 20628)
-     , (5648, 4, 20629)
-     , (5648, 4, 20630)
-     , (5648, 4, 513)
-     , (5648, 4, 545)
-     , (5648, 4, 512)
-     , (5648, 4, 514);
+VALUES (5648, 4, 4190) /* Cestus */
+     , (5648, 4, 301) /* Battle Axe */
+     , (5648, 4, 350) /* Broad Sword */
+     , (5648, 4, 351) /* Long Sword */
+     , (5648, 4, 331) /* Mace */
+     , (5648, 4, 332) /* Morning Star */
+     , (5648, 4, 339) /* Scimitar */
+     , (5648, 4, 359) /* War Hammer */
+     , (5648, 4, 303) /* Hand Axe */
+     , (5648, 4, 309) /* Club */
+     , (5648, 4, 314) /* Dagger */
+     , (5648, 4, 316) /* Throwing Dart */
+     , (5648, 4, 329) /* Knife */
+     , (5648, 4, 22168) /* Hefty Walking Cane */
+     , (5648, 4, 348) /* Spear */
+     , (5648, 4, 320) /* Javelin */
+     , (5648, 4, 2621) /* Trade Note (100) */
+     , (5648, 4, 2622) /* Trade Note (500) */
+     , (5648, 4, 2623) /* Trade Note (1,000) */
+     , (5648, 4, 2624) /* Trade Note (5,000) */
+     , (5648, 4, 2625) /* Trade Note (10,000) */
+     , (5648, 4, 2626) /* Trade Note (50,000) */
+     , (5648, 4, 2627) /* Trade Note (100,000) */
+     , (5648, 4, 20628) /* Trade Note (150,000) */
+     , (5648, 4, 20629) /* Trade Note (200,000) */
+     , (5648, 4, 20630) /* Trade Note (250,000) */
+     , (5648, 4, 513) /* Plain Lockpick */
+     , (5648, 4, 545) /* Reliable Lockpick */
+     , (5648, 4, 512) /* Good Lockpick */
+     , (5648, 4, 514) /* Excellent Lockpick */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5648, 2, 359);
+VALUES (5648, 2, 359) /* War Hammer */;
 

@@ -45,3 +45,72 @@ VALUES (202, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (202, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (202, 8, 297) /* Ring */
+     , (202, 8, 8329) /* Lead Pea */
+     , (202, 8, 30611) /* Knuckles */
+     , (202, 8, 41487) /* Mechanical Scarab */
+     , (202, 8, 27331) /* Minor Mana Stone */
+     , (202, 8, 148) /* Cup */
+     , (202, 8, 273) /* Pyreal */
+     , (202, 8, 7940) /* Empty Flask */
+     , (202, 8, 2406) /* Gem */
+     , (202, 8, 40621) /* Flaming Spadone */
+     , (202, 8, 3308) /* Scroll of Item Enchantment Mastery Other II */
+     , (202, 8, 5901) /* Kasa */
+     , (202, 8, 45426) /* Jambiya */
+     , (202, 8, 28612) /* Bandana */
+     , (202, 8, 150) /* Flagon */
+     , (202, 8, 53) /* Studded Leather Cuirass */
+     , (202, 8, 7897) /* Steel Toed Boots */
+     , (202, 8, 41055) /* Flaming Greataxe */
+     , (202, 8, 622) /* Necklace */
+     , (202, 8, 624) /* Ring */
+     , (202, 8, 2591) /* Puffy Shirt */
+     , (202, 8, 168) /* Tankard */
+     , (202, 8, 40626) /* Flaming Quadrelle */
+     , (202, 8, 2434) /* Lesser Mana Stone */
+     , (202, 8, 68) /* Studded Leather Greaves */
+     , (202, 8, 3293) /* Scroll of Invulnerability Other II */
+     , (202, 8, 296) /* Crown */
+     , (202, 8, 49472) /* Scroll of Summoning Mastery Self III */
+     , (202, 8, 96) /* Chainmail Shirt */
+     , (202, 8, 2599) /* Trousers */
+     , (202, 8, 2431) /* Gem */
+     , (202, 8, 121) /* Gloves */
+     , (202, 8, 2596) /* Doublet */
+     , (202, 8, 2426) /* Gem */
+     , (202, 8, 311) /* Heavy Crossbow */
+     , (202, 8, 2712) /* Scroll of Quickness Other II */
+     , (202, 8, 416) /* Chainmail Pauldrons */
+     , (202, 8, 554) /* Studded Leather Basinet */
+     , (202, 8, 28605) /* Beret */
+     , (202, 8, 2603) /* Baggy Breeches */
+     , (202, 8, 3519) /* Scroll of Heavy Weapon Mastery Other III */
+     , (202, 8, 243) /* Dinner Plate */
+     , (202, 8, 31768) /* Frost War Axe */
+     , (202, 8, 254) /* Stoup */
+     , (202, 8, 20391) /* Scroll of Extinguish Life Magic Other */
+     , (202, 8, 7795) /* Frost Naginata */
+     , (202, 8, 6353) /* Pyreal Mote */
+     , (202, 8, 621) /* Heavy Bracelet */
+     , (202, 8, 154) /* Goblet */
+     , (202, 8, 20640) /* Royal Atlatl */
+     , (202, 8, 84) /* Studded  Leggings */
+     , (202, 8, 2416) /* Gem */
+     , (202, 8, 45113) /* Hammer */
+     , (202, 8, 7772) /* Trident */
+     , (202, 8, 2418) /* Gem */
+     , (202, 8, 21295) /* Scroll of Blade Arc I */
+     , (202, 8, 25639) /* Leather Jerkin */
+     , (202, 8, 20320) /* Scroll of Cleanse Creature Magic Other */
+     , (202, 8, 112) /* Studded Leather Tassets */
+     , (202, 8, 25638) /* Leather Vest */
+     , (202, 8, 2588) /* Flared Shirt */
+     , (202, 8, 2547) /* Staff */
+     , (202, 8, 141) /* Bowl */
+     , (202, 8, 2589) /* Smock */
+     , (202, 8, 161) /* Mug */;
+

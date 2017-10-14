@@ -48,5 +48,5 @@ VALUES (46678, 67116883, 0, 24)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (46678, 2, 41250);
+VALUES (46678, 2, 41250) /* Acid Gearknight Greatsword */;
 

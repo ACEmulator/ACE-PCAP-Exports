@@ -44,3 +44,14 @@ VALUES (27432, 2, 40) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27432, 64, 4000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27432, 8, 2591) /* Puffy Shirt */
+     , (27432, 8, 20521) /* Scroll of Finesse Weapon Mastery Self VII */
+     , (27432, 8, 163) /* Ornamental Bowl */
+     , (27432, 8, 27451) /* Gibbering Claw */
+     , (27432, 8, 44856) /* Trimmed Cloak */
+     , (27432, 8, 415) /* Chainmail Girth */
+     , (27432, 8, 41485) /* Pocket Watch */;
+

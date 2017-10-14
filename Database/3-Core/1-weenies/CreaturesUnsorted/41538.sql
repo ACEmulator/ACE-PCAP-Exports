@@ -44,3 +44,30 @@ VALUES (41538, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41538, 64, 720) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41538, 8, 49341) /* Acid Moar Essence (125) */
+     , (41538, 8, 45118) /* Hand Wraps */
+     , (41538, 8, 40699) /* Covenant Girth */
+     , (41538, 8, 42114) /* Aetherium-infused Gear */
+     , (41538, 8, 2411) /* Gem */
+     , (41538, 8, 20602) /* Scroll of Vigor Siphon */
+     , (41538, 8, 2422) /* Gem */
+     , (41538, 8, 41528) /* Aetherium Power Core */
+     , (41538, 8, 359) /* War Hammer */
+     , (41538, 8, 414) /* Chainmail Breastplate */
+     , (41538, 8, 37219) /* Energy Crystal */
+     , (41538, 8, 2409) /* Gem */
+     , (41538, 8, 49271) /* Lightning Child Essence (125) */
+     , (41538, 8, 37217) /* Olthoi Alduressa Coat */
+     , (41538, 8, 51266) /* Pile of Gearknight Parts */
+     , (41538, 8, 21308) /* Scroll of Flame Arc VII */
+     , (41538, 8, 40686) /* Olthoi Girth */
+     , (41538, 8, 22157) /* Frost Jo */
+     , (41538, 8, 624) /* Ring */
+     , (41538, 8, 21157) /* Covenant Pauldrons */
+     , (41538, 8, 31771) /* Lightning War Axe */
+     , (41538, 8, 30949) /* Diforsa Sleeves */
+     , (41538, 8, 45121) /* Flaming Hand Wraps */;
+

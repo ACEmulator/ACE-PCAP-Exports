@@ -53,3 +53,13 @@ VALUES (11522, 2, 58) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11522, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11522, 8, 3096) /* Scroll of Mana Depletion Other V */
+     , (11522, 8, 630) /* Gifted Healing Kit */
+     , (11522, 8, 83) /* Scalemail Leggings */
+     , (11522, 8, 11320) /* Vault Key */
+     , (11522, 8, 4192) /* Acid Cestus */
+     , (11522, 8, 25646) /* Long Leather Gauntlets */;
+

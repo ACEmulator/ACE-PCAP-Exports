@@ -71,3 +71,10 @@ VALUES (30899, 2, 3) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30899, 64, 425) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30899, 8, 49435) /* Fire Spectre Essence (50) */
+     , (30899, 8, 25636) /* Leather Helm */
+     , (30899, 8, 30880) /* Banished Staff */;
+

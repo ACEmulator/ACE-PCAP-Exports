@@ -49,3 +49,13 @@ VALUES (27245, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27245, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27245, 8, 148) /* Cup */
+     , (27245, 8, 8329) /* Lead Pea */
+     , (27245, 8, 2605) /* Chainmail Greaves */
+     , (27245, 8, 27331) /* Minor Mana Stone */
+     , (27245, 8, 273) /* Pyreal */
+     , (27245, 8, 2416) /* Gem */;
+

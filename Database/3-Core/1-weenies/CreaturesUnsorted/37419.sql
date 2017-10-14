@@ -41,3 +41,22 @@ VALUES (37419, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37419, 67113029, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37419, 8, 254) /* Stoup */
+     , (37419, 8, 28612) /* Bandana */
+     , (37419, 8, 8329) /* Lead Pea */
+     , (37419, 8, 49345) /* Lightning Moar Essence (50) */
+     , (37419, 8, 148) /* Cup */
+     , (37419, 8, 119) /* Cowl */
+     , (37419, 8, 7825) /* Brown Beans */
+     , (37419, 8, 31788) /* Stick */
+     , (37419, 8, 92) /* Large Kite Shield */
+     , (37419, 8, 49442) /* Frost Spectre Essence (50) */
+     , (37419, 8, 25651) /* Leather Sleeves */
+     , (37419, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (37419, 8, 40) /* Platemail Breastplate */
+     , (37419, 8, 2435) /* Mana Stone */
+     , (37419, 8, 39014) /* Pallid Sea Invasion Key */;
+

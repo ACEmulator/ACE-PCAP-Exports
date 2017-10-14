@@ -82,3 +82,11 @@ VALUES (36835, 64, 2500) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (36835, 128, 580) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (36835, 256, 220) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36835, 8, 20593) /* Scroll of Gravity Well */
+     , (36835, 8, 20528) /* Scroll of Odif's Blessing */
+     , (36835, 8, 2422) /* Gem */
+     , (36835, 8, 36867) /* Dire Champion Token */;
+

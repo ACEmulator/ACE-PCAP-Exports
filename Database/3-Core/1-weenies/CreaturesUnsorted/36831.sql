@@ -73,3 +73,26 @@ VALUES (36831, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36831, 64, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36831, 8, 20236) /* Scroll of Temeritous Touch */
+     , (36831, 8, 8331) /* Silver Pea */
+     , (36831, 8, 273) /* Pyreal */
+     , (36831, 8, 36867) /* Dire Champion Token */
+     , (36831, 8, 20440) /* Scroll of Ilservian's Flame */
+     , (36831, 8, 27330) /* Moderate Mana Stone */
+     , (36831, 8, 243) /* Dinner Plate */
+     , (36831, 8, 8326) /* Copper Pea */
+     , (36831, 8, 163) /* Ornamental Bowl */
+     , (36831, 8, 2591) /* Puffy Shirt */
+     , (36831, 8, 20231) /* Scroll of Executor's Blessing */
+     , (36831, 8, 27328) /* Major Mana Stone */
+     , (36831, 8, 142) /* Chalice */
+     , (36831, 8, 8327) /* Gold Pea */
+     , (36831, 8, 6004) /* Koujia Leggings */
+     , (36831, 8, 30608) /* Flaming Bastone */
+     , (36831, 8, 2593) /* Loose Tunic */
+     , (36831, 8, 2436) /* Greater Mana Stone */
+     , (36831, 8, 624) /* Ring */;
+

@@ -44,3 +44,26 @@ VALUES (51342, 2, 47) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51342, 64, 9875) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51342, 8, 37195) /* Olthoi Alduressa Helm */
+     , (51342, 8, 3856) /* Frost Shamshir */
+     , (51342, 8, 2412) /* Gem */
+     , (51342, 8, 31806) /* Acid Compound Crossbow */
+     , (51342, 8, 20562) /* Scroll of Celdiseth's Blessing */
+     , (51342, 8, 45432) /* Acid Khanjar */
+     , (51342, 8, 2436) /* Greater Mana Stone */
+     , (51342, 8, 273) /* Pyreal */
+     , (51342, 8, 51343) /* Experimental Bloodstone Shard */
+     , (51342, 8, 49341) /* Acid Moar Essence (125) */
+     , (51342, 8, 28632) /* Diforsa Gauntlets */
+     , (51342, 8, 48948) /* Fire Skeleton Bushi Essence (180) */
+     , (51342, 8, 20547) /* Scroll of Jahannan's Blessing */
+     , (51342, 8, 42635) /* Aetheria */
+     , (51342, 8, 297) /* Ring */
+     , (51342, 8, 43316) /* Scroll of Nether Streak VII */
+     , (51342, 8, 40700) /* Covenant Greaves */
+     , (51342, 8, 623) /* Heavy Necklace */
+     , (51342, 8, 516) /* Peerless Lockpick */;
+

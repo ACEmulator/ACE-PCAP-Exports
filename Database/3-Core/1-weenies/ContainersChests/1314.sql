@@ -40,3 +40,8 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (1314, 19, 0) /* VALUE_INT */
      , (1314, 5, 925) /* ENCUMB_VAL_INT */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1314, 8, 365) /* Parchment */;
+

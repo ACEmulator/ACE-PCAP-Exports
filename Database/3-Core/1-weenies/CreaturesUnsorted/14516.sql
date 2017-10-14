@@ -45,3 +45,33 @@ VALUES (14516, 2, 60) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14516, 64, 575) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14516, 8, 30566) /* Sabra */
+     , (14516, 8, 2436) /* Greater Mana Stone */
+     , (14516, 8, 149) /* Ewer */
+     , (14516, 8, 273) /* Pyreal */
+     , (14516, 8, 28612) /* Bandana */
+     , (14516, 8, 8331) /* Silver Pea */
+     , (14516, 8, 43284) /* Scroll of Corrosion VII */
+     , (14516, 8, 27328) /* Major Mana Stone */
+     , (14516, 8, 2409) /* Gem */
+     , (14516, 8, 624) /* Ring */
+     , (14516, 8, 20416) /* Aura of Elysa's Sight */
+     , (14516, 8, 27330) /* Moderate Mana Stone */
+     , (14516, 8, 20540) /* Scroll of Celcynd's Boon */
+     , (14516, 8, 33956) /* Crystal of Acidic Elemental Essence */
+     , (14516, 8, 8326) /* Copper Pea */
+     , (14516, 8, 30606) /* Bastone */
+     , (14516, 8, 31758) /* Frost Dericost Blade */
+     , (14516, 8, 44801) /* Suikan Over-robe */
+     , (14516, 8, 22158) /* Jo */
+     , (14516, 8, 243) /* Dinner Plate */
+     , (14516, 8, 2604) /* Wide Breeches */
+     , (14516, 8, 28946) /* Scroll of Arcanum Enlightenment VII */
+     , (14516, 8, 29255) /* Fire Atlatl */
+     , (14516, 8, 2397) /* Gem */
+     , (14516, 8, 294) /* Amulet */
+     , (14516, 8, 334) /* Nayin */;
+

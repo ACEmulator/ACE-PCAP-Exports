@@ -128,57 +128,57 @@ VALUES (718, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (718, 4, 41509)
-     , (718, 4, 41507)
-     , (718, 4, 41419)
-     , (718, 4, 41423)
-     , (718, 4, 41396)
-     , (718, 4, 41420)
-     , (718, 4, 41418)
-     , (718, 4, 41744)
-     , (718, 4, 309)
-     , (718, 4, 316)
-     , (718, 4, 303)
-     , (718, 4, 329)
-     , (718, 4, 22168)
-     , (718, 4, 352)
-     , (718, 4, 348)
-     , (718, 4, 300)
-     , (718, 4, 305)
-     , (718, 4, 4585)
-     , (718, 4, 5339)
-     , (718, 4, 312)
-     , (718, 4, 307)
-     , (718, 4, 551)
-     , (718, 4, 115)
-     , (718, 4, 36)
-     , (718, 4, 39)
-     , (718, 4, 45)
-     , (718, 4, 119)
-     , (718, 4, 56)
-     , (718, 4, 60)
-     , (718, 4, 65)
-     , (718, 4, 109)
-     , (718, 4, 81)
-     , (718, 4, 86)
-     , (718, 4, 44)
-     , (718, 4, 258)
-     , (718, 4, 4761)
-     , (718, 4, 4746)
-     , (718, 4, 4754)
-     , (718, 4, 5778)
-     , (718, 4, 7823)
-     , (718, 4, 151)
-     , (718, 4, 365)
-     , (718, 4, 293)
-     , (718, 4, 513)
-     , (718, 4, 545)
-     , (718, 4, 9295)
-     , (718, 4, 20646)
-     , (718, 4, 21093)
-     , (718, 4, 23044)
-     , (718, 4, 23204)
-     , (718, 4, 136)
-     , (718, 4, 42979)
-     , (718, 4, 43022);
+VALUES (718, 4, 41509) /* Minor Item Tinkering Armature */
+     , (718, 4, 41507) /* Moderate Item Tinkering Armature */
+     , (718, 4, 41419) /* Sheet Metal Form */
+     , (718, 4, 41423) /* Medal Mold */
+     , (718, 4, 41396) /* Handle Mold */
+     , (718, 4, 41420) /* Hammer */
+     , (718, 4, 41418) /* Leather Strap */
+     , (718, 4, 41744) /* A Comprehensive Guide to Gearcrafting */
+     , (718, 4, 309) /* Club */
+     , (718, 4, 316) /* Throwing Dart */
+     , (718, 4, 303) /* Hand Axe */
+     , (718, 4, 329) /* Knife */
+     , (718, 4, 22168) /* Hefty Walking Cane */
+     , (718, 4, 352) /* Short Sword */
+     , (718, 4, 348) /* Spear */
+     , (718, 4, 300) /* Arrow */
+     , (718, 4, 305) /* Quarrel */
+     , (718, 4, 4585) /* Bundle of Arrowshafts */
+     , (718, 4, 5339) /* Bundle of Quarrelshafts */
+     , (718, 4, 312) /* Light Crossbow */
+     , (718, 4, 307) /* Shortbow */
+     , (718, 4, 551) /* Basinet */
+     , (718, 4, 115) /* Leather Boots */
+     , (718, 4, 36) /* Leather Bracers */
+     , (718, 4, 39) /* Leather Breastplate */
+     , (718, 4, 45) /* Leather Cap */
+     , (718, 4, 119) /* Cowl */
+     , (718, 4, 56) /* Leather Gauntlets */
+     , (718, 4, 60) /* Olthoi Celdon Girth */
+     , (718, 4, 65) /* Olthoi Greaves */
+     , (718, 4, 109) /* Olthoi Tassets */
+     , (718, 4, 81) /* Leggings */
+     , (718, 4, 86) /* Leather Pauldrons */
+     , (718, 4, 44) /* Buckler */
+     , (718, 4, 258) /* Apple */
+     , (718, 4, 4761) /* Flour */
+     , (718, 4, 4746) /* Water */
+     , (718, 4, 4754) /* Baking Pan */
+     , (718, 4, 5778) /* Whittling Knife */
+     , (718, 4, 7823) /* Heavy Grinder */
+     , (718, 4, 151) /* Empty Flask */
+     , (718, 4, 365) /* Parchment */
+     , (718, 4, 293) /* Torch */
+     , (718, 4, 513) /* Plain Lockpick */
+     , (718, 4, 545) /* Reliable Lockpick */
+     , (718, 4, 9295) /* Intricate Carving Tool */
+     , (718, 4, 20646) /* Ust */
+     , (718, 4, 21093) /* Tinkering */
+     , (718, 4, 23044) /* On the Abilities of Salvaged Ivory */
+     , (718, 4, 23204) /* Carving Keys and Keyrings */
+     , (718, 4, 136) /* Pack */
+     , (718, 4, 42979) /* Core Plating Integrator */
+     , (718, 4, 43022) /* Core Plating Deintegrator */;
 

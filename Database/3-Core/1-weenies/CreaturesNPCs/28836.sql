@@ -116,5 +116,5 @@ VALUES (28836, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (28836, 2, 12463);
+VALUES (28836, 2, 12463) /* Atlatl */;
 

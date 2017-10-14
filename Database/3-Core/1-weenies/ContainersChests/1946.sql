@@ -49,3 +49,73 @@ VALUES (1946, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1946, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1946, 8, 3236) /* Scroll of Deception Ineptitude V */
+     , (1946, 8, 82) /* Platemail Leggings */
+     , (1946, 8, 25647) /* Leather Pants */
+     , (1946, 8, 2853) /* Scroll of Lightning Bane III */
+     , (1946, 8, 30601) /* Stiletto */
+     , (1946, 8, 113) /* Yoroi Tassets */
+     , (1946, 8, 332) /* Morning Star */
+     , (1946, 8, 296) /* Crown */
+     , (1946, 8, 3149) /* Scroll of Armor Tinkering Expertise Self III */
+     , (1946, 8, 12463) /* Atlatl */
+     , (1946, 8, 295) /* Bracelet */
+     , (1946, 8, 416) /* Chainmail Pauldrons */
+     , (1946, 8, 45428) /* Lightning Jambiya */
+     , (1946, 8, 28627) /* Diforsa Bracers */
+     , (1946, 8, 2597) /* Flared Pants */
+     , (1946, 8, 42518) /* Coalesced Mana */
+     , (1946, 8, 80) /* Chainmail Leggings */
+     , (1946, 8, 30595) /* Frost Partizan */
+     , (1946, 8, 121) /* Gloves */
+     , (1946, 8, 9627) /* Scroll of Jumping Ineptitude IV */
+     , (1946, 8, 4195) /* Nekode */
+     , (1946, 8, 44976) /* Hood */
+     , (1946, 8, 31759) /* Dericost Blade */
+     , (1946, 8, 41070) /* Flaming Shashqa */
+     , (1946, 8, 22167) /* Frost Quarter Staff */
+     , (1946, 8, 45) /* Leather Cap */
+     , (1946, 8, 63) /* Studded Leather Girth */
+     , (1946, 8, 3884) /* Frost Long Sword */
+     , (1946, 8, 116) /* Studded Leather Boots */
+     , (1946, 8, 68) /* Studded Leather Greaves */
+     , (1946, 8, 3305) /* Scroll of Item Enchantment Ineptitude IV */
+     , (1946, 8, 7940) /* Empty Flask */
+     , (1946, 8, 7768) /* Spiked Club */
+     , (1946, 8, 49345) /* Lightning Moar Essence (50) */
+     , (1946, 8, 41486) /* Puzzle Box */
+     , (1946, 8, 30616) /* Arbalest */
+     , (1946, 8, 31783) /* Frost Claw */
+     , (1946, 8, 45343) /* Scroll of Sneak Attack Mastery Other IV */
+     , (1946, 8, 2595) /* Baggy Tunic */
+     , (1946, 8, 53) /* Studded Leather Cuirass */
+     , (1946, 8, 25641) /* Leather Cuirass */
+     , (1946, 8, 57) /* Platemail Gauntlets */
+     , (1946, 8, 31774) /* Board with Nail */
+     , (1946, 8, 243) /* Dinner Plate */
+     , (1946, 8, 9637) /* Scroll of Health to Stamina Self IV */
+     , (1946, 8, 98) /* Scalemail Shirt */
+     , (1946, 8, 44853) /* Bordered Cloak */
+     , (1946, 8, 28607) /* Lace Shirt */
+     , (1946, 8, 45118) /* Hand Wraps */
+     , (1946, 8, 21292) /* Scroll of Acid Arc V */
+     , (1946, 8, 25642) /* Leather Gauntlets */
+     , (1946, 8, 45397) /* Acid Short Sword */
+     , (1946, 8, 49366) /* Acid Grievver Essence (50) */
+     , (1946, 8, 7788) /* Fire Spiked Club */
+     , (1946, 8, 25650) /* Leather Shorts */
+     , (1946, 8, 101) /* Chainmail Sleeves */
+     , (1946, 8, 22159) /* Acid Nabut */
+     , (1946, 8, 25643) /* Leather Girth */
+     , (1946, 8, 312) /* Light Crossbow */
+     , (1946, 8, 31758) /* Frost Dericost Blade */
+     , (1946, 8, 2589) /* Smock */
+     , (1946, 8, 31779) /* Spine Glaive */
+     , (1946, 8, 95) /* Tower Shield */
+     , (1946, 8, 2642) /* Scroll of Clumsiness Other V */
+     , (1946, 8, 25652) /* Leather Tassets */
+     , (1946, 8, 67) /* Scalemail Greaves */;
+

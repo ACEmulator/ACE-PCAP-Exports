@@ -48,3 +48,31 @@ VALUES (24134, 2, 16) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24134, 64, 375) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24134, 8, 58) /* Scalemail Gauntlets */
+     , (24134, 8, 129) /* Sandals */
+     , (24134, 8, 110) /* Platemail Tassets */
+     , (24134, 8, 45417) /* Acid Knife */
+     , (24134, 8, 623) /* Heavy Necklace */
+     , (24134, 8, 7897) /* Steel Toed Boots */
+     , (24134, 8, 624) /* Ring */
+     , (24134, 8, 22166) /* Flaming Quarter Staff */
+     , (24134, 8, 297) /* Ring */
+     , (24134, 8, 31783) /* Frost Claw */
+     , (24134, 8, 29255) /* Fire Atlatl */
+     , (24134, 8, 43375) /* Scroll of Void Magic Mastery Other VII */
+     , (24134, 8, 243) /* Dinner Plate */
+     , (24134, 8, 6003) /* Koujia Breastplate */
+     , (24134, 8, 31026) /* Tenassa Breastplate */
+     , (24134, 8, 31769) /* Lugian Axe */
+     , (24134, 8, 49546) /* Lightning Phyntos Wasp Essence (80) */
+     , (24134, 8, 41485) /* Pocket Watch */
+     , (24134, 8, 622) /* Necklace */
+     , (24134, 8, 22162) /* Frost Nabut */
+     , (24134, 8, 20524) /* Scroll of Ketnan's Blessing */
+     , (24134, 8, 45122) /* Frost Hand Wraps */
+     , (24134, 8, 2425) /* Gem */
+     , (24134, 8, 24848) /* Slasher Reedshark Hide */;
+

@@ -49,3 +49,21 @@ VALUES (7350, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7350, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7350, 8, 49296) /* Fire K'nath Essence (50) */
+     , (7350, 8, 7817) /* Skull of High Acolyte */
+     , (7350, 8, 89) /* Studded Leather Pauldrons */
+     , (7350, 8, 7810) /* Yucky Key */
+     , (7350, 8, 21152) /* Covenant Breastplate */
+     , (7350, 8, 41053) /* Acid Greataxe */
+     , (7350, 8, 545) /* Reliable Lockpick */
+     , (7350, 8, 312) /* Light Crossbow */
+     , (7350, 8, 49485) /* Encapsulated Spirit */
+     , (7350, 8, 48) /* Studded Leather Coat */
+     , (7350, 8, 44801) /* Suikan Over-robe */
+     , (7350, 8, 2992) /* Scroll of Blade Protection Other VI */
+     , (7350, 8, 31760) /* Acid Dericost Blade */
+     , (7350, 8, 415) /* Chainmail Girth */;
+

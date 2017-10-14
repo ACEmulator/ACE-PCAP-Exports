@@ -54,3 +54,23 @@ VALUES (45892, 64, 255) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (45892, 128, 410) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (45892, 256, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (45892, 8, 254) /* Stoup */
+     , (45892, 8, 2434) /* Lesser Mana Stone */
+     , (45892, 8, 20401) /* Scroll of Nullify Life Magic Self */
+     , (45892, 8, 8329) /* Lead Pea */
+     , (45892, 8, 31222) /* K'nath Key */
+     , (45892, 8, 5789) /* Brown Lump */
+     , (45892, 8, 154) /* Goblet */
+     , (45892, 8, 273) /* Pyreal */
+     , (45892, 8, 621) /* Heavy Bracelet */
+     , (45892, 8, 8328) /* Iron Pea */
+     , (45892, 8, 2602) /* Loose Breeches */
+     , (45892, 8, 624) /* Ring */
+     , (45892, 8, 105) /* Studded Leather Sleeves */
+     , (45892, 8, 27330) /* Moderate Mana Stone */
+     , (45892, 8, 31865) /* Circlet */
+     , (45892, 8, 332) /* Morning Star */;
+

@@ -135,55 +135,55 @@ VALUES (967, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (967, 4, 551)
-     , (967, 4, 554)
-     , (967, 4, 96)
-     , (967, 4, 85)
-     , (967, 4, 115)
-     , (967, 4, 36)
-     , (967, 4, 39)
-     , (967, 4, 45)
-     , (967, 4, 47)
-     , (967, 4, 458)
-     , (967, 4, 50)
-     , (967, 4, 56)
-     , (967, 4, 60)
-     , (967, 4, 65)
-     , (967, 4, 109)
-     , (967, 4, 81)
-     , (967, 4, 86)
-     , (967, 4, 97)
-     , (967, 4, 102)
-     , (967, 4, 46)
-     , (967, 4, 116)
-     , (967, 4, 38)
-     , (967, 4, 42)
-     , (967, 4, 48)
-     , (967, 4, 723)
-     , (967, 4, 53)
-     , (967, 4, 59)
-     , (967, 4, 63)
-     , (967, 4, 68)
-     , (967, 4, 112)
-     , (967, 4, 84)
-     , (967, 4, 89)
-     , (967, 4, 99)
-     , (967, 4, 105)
-     , (967, 4, 44)
-     , (967, 4, 91)
-     , (967, 4, 2621)
-     , (967, 4, 2622)
-     , (967, 4, 2623)
-     , (967, 4, 2624)
-     , (967, 4, 2625)
-     , (967, 4, 2626)
-     , (967, 4, 2627)
-     , (967, 4, 20628)
-     , (967, 4, 20629)
-     , (967, 4, 20630);
+VALUES (967, 4, 551) /* Basinet */
+     , (967, 4, 554) /* Studded Leather Basinet */
+     , (967, 4, 96) /* Chainmail Shirt */
+     , (967, 4, 85) /* Chainmail Coif */
+     , (967, 4, 115) /* Leather Boots */
+     , (967, 4, 36) /* Leather Bracers */
+     , (967, 4, 39) /* Leather Breastplate */
+     , (967, 4, 45) /* Leather Cap */
+     , (967, 4, 47) /* Leather Coat */
+     , (967, 4, 458) /* Leather Cowl */
+     , (967, 4, 50) /* Leather Cuirass */
+     , (967, 4, 56) /* Leather Gauntlets */
+     , (967, 4, 60) /* Olthoi Celdon Girth */
+     , (967, 4, 65) /* Olthoi Greaves */
+     , (967, 4, 109) /* Olthoi Tassets */
+     , (967, 4, 81) /* Leggings */
+     , (967, 4, 86) /* Leather Pauldrons */
+     , (967, 4, 97) /* Shirt */
+     , (967, 4, 102) /* Leather Sleeves */
+     , (967, 4, 46) /* Metal Cap */
+     , (967, 4, 116) /* Studded Leather Boots */
+     , (967, 4, 38) /* Studded Leather Bracers */
+     , (967, 4, 42) /* Studded Leather Breastplate */
+     , (967, 4, 48) /* Studded Leather Coat */
+     , (967, 4, 723) /* Studded Leather Cowl */
+     , (967, 4, 53) /* Studded Leather Cuirass */
+     , (967, 4, 59) /* Studded Leather Gauntlets */
+     , (967, 4, 63) /* Studded Leather Girth */
+     , (967, 4, 68) /* Studded Leather Greaves */
+     , (967, 4, 112) /* Studded Leather Tassets */
+     , (967, 4, 84) /* Studded  Leggings */
+     , (967, 4, 89) /* Studded Leather Pauldrons */
+     , (967, 4, 99) /* Studded Leather Shirt */
+     , (967, 4, 105) /* Studded Leather Sleeves */
+     , (967, 4, 44) /* Buckler */
+     , (967, 4, 91) /* Kite Shield */
+     , (967, 4, 2621) /* Trade Note (100) */
+     , (967, 4, 2622) /* Trade Note (500) */
+     , (967, 4, 2623) /* Trade Note (1,000) */
+     , (967, 4, 2624) /* Trade Note (5,000) */
+     , (967, 4, 2625) /* Trade Note (10,000) */
+     , (967, 4, 2626) /* Trade Note (50,000) */
+     , (967, 4, 2627) /* Trade Note (100,000) */
+     , (967, 4, 20628) /* Trade Note (150,000) */
+     , (967, 4, 20629) /* Trade Note (200,000) */
+     , (967, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (967, 2, 314);
+VALUES (967, 2, 314) /* Dagger */;
 

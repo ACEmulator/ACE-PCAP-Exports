@@ -48,3 +48,12 @@ VALUES (4261, 2, 36) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4261, 64, 210) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4261, 8, 161) /* Mug */
+     , (4261, 8, 8328) /* Iron Pea */
+     , (4261, 8, 273) /* Pyreal */
+     , (4261, 8, 295) /* Bracelet */
+     , (4261, 8, 2435) /* Mana Stone */;
+

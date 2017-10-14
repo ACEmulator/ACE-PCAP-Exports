@@ -152,6 +152,6 @@ VALUES (36536, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (36536, 2, 32698)
-     , (36536, 2, 23698);
+VALUES (36536, 2, 32698) /* Shield of Strathelar */
+     , (36536, 2, 23698) /* Spear */;
 

@@ -36,3 +36,24 @@ VALUES (42922, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (42922, 19, True) /* ATTACKABLE_BOOL */
      , (42922, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42922, 8, 20593) /* Scroll of Gravity Well */
+     , (42922, 8, 25649) /* Leather Shirt */
+     , (42922, 8, 6876) /* Sturdy Iron Key */
+     , (42922, 8, 45266) /* Scroll of Dual Wield Ineptitude Other VII */
+     , (42922, 8, 28630) /* Diforsa Cuirass */
+     , (42922, 8, 42755) /* Haebrean Boots */
+     , (42922, 8, 149) /* Ewer */
+     , (42922, 8, 31865) /* Circlet */
+     , (42922, 8, 2409) /* Gem */
+     , (42922, 8, 154) /* Goblet */
+     , (42922, 8, 2601) /* Loose Pants */
+     , (42922, 8, 101) /* Chainmail Sleeves */
+     , (42922, 8, 2410) /* Gem */
+     , (42922, 8, 2367) /* Gorget */
+     , (42922, 8, 118) /* Cloth Cap */
+     , (42922, 8, 132) /* Shoes */
+     , (42922, 8, 295) /* Bracelet */;
+

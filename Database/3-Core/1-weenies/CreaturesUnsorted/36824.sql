@@ -64,3 +64,31 @@ VALUES (36824, 2, 3) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36824, 64, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36824, 8, 149) /* Ewer */
+     , (36824, 8, 40696) /* Covenant Bracers */
+     , (36824, 8, 20538) /* Scroll of Aura of Defense */
+     , (36824, 8, 36867) /* Dire Champion Token */
+     , (36824, 8, 44854) /* Halved Cloak */
+     , (36824, 8, 20402) /* Scroll of Olthoi's Bane */
+     , (36824, 8, 41486) /* Puzzle Box */
+     , (36824, 8, 49257) /* Frost Zombie Essence (125) */
+     , (36824, 8, 43050) /* Covenant Girth */
+     , (36824, 8, 22166) /* Flaming Quarter Staff */
+     , (36824, 8, 2593) /* Loose Tunic */
+     , (36824, 8, 31778) /* Frost Spine Glaive */
+     , (36824, 8, 29239) /* Bone Bow */
+     , (36824, 8, 297) /* Ring */
+     , (36824, 8, 29243) /* Piercing Bow */
+     , (36824, 8, 20413) /* Scroll of Inferno Bait */
+     , (36824, 8, 332) /* Morning Star */
+     , (36824, 8, 4198) /* Frost Nekode */
+     , (36824, 8, 22161) /* Flaming Nabut */
+     , (36824, 8, 41055) /* Flaming Greataxe */
+     , (36824, 8, 621) /* Heavy Bracelet */
+     , (36824, 8, 20422) /* Scroll of Wi's Folly */
+     , (36824, 8, 21150) /* Covenant Sollerets */
+     , (36824, 8, 45428) /* Lightning Jambiya */;
+

@@ -55,3 +55,16 @@ VALUES (38592, 64, 7630) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (38592, 128, 1260) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (38592, 256, 415) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38592, 8, 20511) /* Scroll of Morimoto's Boon */
+     , (38592, 8, 49535) /* Fire Phyntos Wasp Essence (150) */
+     , (38592, 8, 21336) /* Scroll of Shock Arc VII */
+     , (38592, 8, 27328) /* Major Mana Stone */
+     , (38592, 8, 49286) /* Acid K'nath Essence (150) */
+     , (38592, 8, 30599) /* Frost Poniard */
+     , (38592, 8, 29253) /* Blunt Atlatl */
+     , (38592, 8, 132) /* Shoes */
+     , (38592, 8, 66) /* Platemail Greaves */;
+

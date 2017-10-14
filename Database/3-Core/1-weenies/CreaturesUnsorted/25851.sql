@@ -44,3 +44,18 @@ VALUES (25851, 2, 55) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25851, 64, 735) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25851, 8, 28610) /* Loafers */
+     , (25851, 8, 20572) /* Scroll of Kaluhc's Blessing */
+     , (25851, 8, 20482) /* Scroll of Astyrrian's Gift */
+     , (25851, 8, 150) /* Flagon */
+     , (25851, 8, 2367) /* Gorget */
+     , (25851, 8, 20491) /* Scroll of Hydra's Head */
+     , (25851, 8, 49242) /* Lightning Zombie Essence (100) */
+     , (25851, 8, 624) /* Ring */
+     , (25851, 8, 132) /* Shoes */
+     , (25851, 8, 161) /* Mug */
+     , (25851, 8, 2436) /* Greater Mana Stone */;
+

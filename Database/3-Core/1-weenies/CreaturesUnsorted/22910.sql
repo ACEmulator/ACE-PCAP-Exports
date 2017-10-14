@@ -79,3 +79,97 @@ VALUES (22910, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22910, 64, 355) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22910, 8, 154) /* Goblet */
+     , (22910, 8, 8331) /* Silver Pea */
+     , (22910, 8, 75) /* Helmet */
+     , (22910, 8, 8326) /* Copper Pea */
+     , (22910, 8, 9659) /* Scroll of Stamina to Mana Self VI */
+     , (22910, 8, 621) /* Heavy Bracelet */
+     , (22910, 8, 273) /* Pyreal */
+     , (22910, 8, 6046) /* Amuli Coat */
+     , (22910, 8, 2599) /* Trousers */
+     , (22910, 8, 31866) /* Coronet */
+     , (22910, 8, 124) /* Jerkin */
+     , (22910, 8, 133) /* Slippers */
+     , (22910, 8, 8328) /* Iron Pea */
+     , (22910, 8, 312) /* Light Crossbow */
+     , (22910, 8, 7940) /* Empty Flask */
+     , (22910, 8, 27330) /* Moderate Mana Stone */
+     , (22910, 8, 416) /* Chainmail Pauldrons */
+     , (22910, 8, 2432) /* Gem */
+     , (22910, 8, 7897) /* Steel Toed Boots */
+     , (22910, 8, 168) /* Tankard */
+     , (22910, 8, 25637) /* Leather Bracers */
+     , (22910, 8, 2401) /* Gem */
+     , (22910, 8, 20550) /* Scroll of Ar-Pei's Boon */
+     , (22910, 8, 624) /* Ring */
+     , (22910, 8, 2435) /* Mana Stone */
+     , (22910, 8, 243) /* Dinner Plate */
+     , (22910, 8, 311) /* Heavy Crossbow */
+     , (22910, 8, 3302) /* Scroll of Invulnerability Self VI */
+     , (22910, 8, 20509) /* Scroll of Missile Weapon Mastery Self VII */
+     , (22910, 8, 134) /* Tunic */
+     , (22910, 8, 49485) /* Encapsulated Spirit */
+     , (22910, 8, 149) /* Ewer */
+     , (22910, 8, 30949) /* Diforsa Sleeves */
+     , (22910, 8, 45876) /* Scarlet Red Letter */
+     , (22910, 8, 25661) /* Leather Boots */
+     , (22910, 8, 118) /* Cloth Cap */
+     , (22910, 8, 623) /* Heavy Necklace */
+     , (22910, 8, 2366) /* Orb */
+     , (22910, 8, 2436) /* Greater Mana Stone */
+     , (22910, 8, 27328) /* Major Mana Stone */
+     , (22910, 8, 295) /* Bracelet */
+     , (22910, 8, 2429) /* Gem */
+     , (22910, 8, 22165) /* Lightning Quarter Staff */
+     , (22910, 8, 161) /* Mug */
+     , (22910, 8, 163) /* Ornamental Bowl */
+     , (22910, 8, 40635) /* Tetsubo */
+     , (22910, 8, 3442) /* Scroll of Monster Attunement Other VI */
+     , (22910, 8, 150) /* Flagon */
+     , (22910, 8, 41041) /* Magari Yari */
+     , (22910, 8, 28610) /* Loafers */
+     , (22910, 8, 20527) /* Scroll of Odif's Boon */
+     , (22910, 8, 29259) /* Acid Sceptre */
+     , (22910, 8, 25651) /* Leather Sleeves */
+     , (22910, 8, 9292) /* Virindi Singularity Key */
+     , (22910, 8, 3332) /* Scroll of Item Tinkering Ignorance VI */
+     , (22910, 8, 41483) /* Compass */
+     , (22910, 8, 53) /* Studded Leather Cuirass */
+     , (22910, 8, 28609) /* Vest */
+     , (22910, 8, 2590) /* Baggy Shirt */
+     , (22910, 8, 3022) /* Scroll of Cold Protection Other VI */
+     , (22910, 8, 2423) /* Gem */
+     , (22910, 8, 414) /* Chainmail Breastplate */
+     , (22910, 8, 41057) /* Great Star Mace */
+     , (22910, 8, 21293) /* Scroll of Acid Arc VI */
+     , (22910, 8, 254) /* Stoup */
+     , (22910, 8, 21153) /* Covenant Gauntlets */
+     , (22910, 8, 45875) /* Lucky Gold Letter */
+     , (22910, 8, 415) /* Chainmail Girth */
+     , (22910, 8, 2408) /* Gem */
+     , (22910, 8, 2421) /* Gem */
+     , (22910, 8, 40698) /* Covenant Gauntlets */
+     , (22910, 8, 41488) /* Top */
+     , (22910, 8, 31788) /* Stick */
+     , (22910, 8, 20395) /* Scroll of Nullify Life Magic Other */
+     , (22910, 8, 6876) /* Sturdy Iron Key */
+     , (22910, 8, 51) /* Platemail Cuirass */
+     , (22910, 8, 2402) /* Gem */
+     , (22910, 8, 6058) /* Dark Shard */
+     , (22910, 8, 2393) /* Gem */
+     , (22910, 8, 2592) /* Puffy Tunic */
+     , (22910, 8, 127) /* Pants */
+     , (22910, 8, 2422) /* Gem */
+     , (22910, 8, 2431) /* Gem */
+     , (22910, 8, 3844) /* Flaming Ono */
+     , (22910, 8, 2403) /* Gem */
+     , (22910, 8, 2418) /* Gem */
+     , (22910, 8, 20593) /* Scroll of Gravity Well */
+     , (22910, 8, 297) /* Ring */
+     , (22910, 8, 31789) /* Acid Stick */
+     , (22910, 8, 41048) /* Lightning Pike */;
+

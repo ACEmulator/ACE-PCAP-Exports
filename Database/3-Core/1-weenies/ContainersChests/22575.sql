@@ -50,3 +50,35 @@ VALUES (22575, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22575, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22575, 8, 2605) /* Chainmail Greaves */
+     , (22575, 8, 21331) /* Scroll of Shock Arc II */
+     , (22575, 8, 105) /* Studded Leather Sleeves */
+     , (22575, 8, 325) /* Kasrullah */
+     , (22575, 8, 1782) /* Scroll of Focus Self II */
+     , (22575, 8, 25636) /* Leather Helm */
+     , (22575, 8, 31764) /* Lugian Hammer */
+     , (22575, 8, 53) /* Studded Leather Cuirass */
+     , (22575, 8, 108) /* Chainmail Tassets */
+     , (22575, 8, 3264) /* Scroll of Fealty Self III */
+     , (22575, 8, 2604) /* Wide Breeches */
+     , (22575, 8, 20640) /* Royal Atlatl */
+     , (22575, 8, 273) /* Pyreal */
+     , (22575, 8, 628) /* Handy Healing Kit */
+     , (22575, 8, 22444) /* Frost Dirk */
+     , (22575, 8, 48942) /* Fire Skeleton Minion Essence (50) */
+     , (22575, 8, 101) /* Chainmail Sleeves */
+     , (22575, 8, 3939) /* Acid Morning Star */
+     , (22575, 8, 264) /* Grapes */
+     , (22575, 8, 7897) /* Steel Toed Boots */
+     , (22575, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (22575, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (22575, 8, 20396) /* Scroll of Evaporate Life Magic Self */
+     , (22575, 8, 513) /* Plain Lockpick */
+     , (22575, 8, 2596) /* Doublet */
+     , (22575, 8, 41044) /* Flaming Magari Yari */
+     , (22575, 8, 46) /* Metal Cap */
+     , (22575, 8, 22440) /* Dirk */;
+

@@ -39,3 +39,17 @@ VALUES (12020, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (12020, 67113361, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12020, 8, 40704) /* Covenant Tassets */
+     , (12020, 8, 31791) /* Flaming Stick */
+     , (12020, 8, 25639) /* Leather Jerkin */
+     , (12020, 8, 9259) /* Large Sclavus Hide */
+     , (12020, 8, 20244) /* Scroll of Adja's Gift */
+     , (12020, 8, 312) /* Light Crossbow */
+     , (12020, 8, 40695) /* Covenant Sollerets */
+     , (12020, 8, 2458) /* Health Elixir */
+     , (12020, 8, 23539) /* Serpent's Fang */
+     , (12020, 8, 7046) /* Sclavus Tongue */;
+

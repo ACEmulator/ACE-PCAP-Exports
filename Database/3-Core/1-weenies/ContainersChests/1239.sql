@@ -52,3 +52,14 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (1239, 2, 0) /* OPEN_BOOL */
      , (1239, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1239, 8, 295) /* Bracelet */
+     , (1239, 8, 2596) /* Doublet */
+     , (1239, 8, 161) /* Mug */
+     , (1239, 8, 49254) /* Frost Zombie Essence (50) */
+     , (1239, 8, 134) /* Tunic */
+     , (1239, 8, 168) /* Tankard */
+     , (1239, 8, 7940) /* Empty Flask */;
+

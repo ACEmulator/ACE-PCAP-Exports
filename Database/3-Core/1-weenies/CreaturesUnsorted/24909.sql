@@ -49,3 +49,42 @@ VALUES (24909, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24909, 64, 6000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24909, 8, 49248) /* Fire Zombie Essence (80) */
+     , (24909, 8, 31782) /* Fire Spine Glaive */
+     , (24909, 8, 93) /* Round Shield */
+     , (24909, 8, 24931) /* Brood Queen Elder Femur */
+     , (24909, 8, 45415) /* Frost Spada */
+     , (24909, 8, 49255) /* Frost Zombie Essence (80) */
+     , (24909, 8, 22442) /* Lightning Dirk */
+     , (24909, 8, 111) /* Scalemail Tassets */
+     , (24909, 8, 7791) /* Frost Trident */
+     , (24909, 8, 21156) /* Covenant Helm */
+     , (24909, 8, 24929) /* Brood Queen Elder Crest */
+     , (24909, 8, 45314) /* Scroll of Shield Ineptitude Other VII */
+     , (24909, 8, 45282) /* Scroll of Dual Wield Mastery Self VII */
+     , (24909, 8, 45424) /* Flaming Dagger */
+     , (24909, 8, 48944) /* Fire Skeleton Minion Essence (80) */
+     , (24909, 8, 25646) /* Long Leather Gauntlets */
+     , (24909, 8, 20233) /* Scroll of Ataxia */
+     , (24909, 8, 20501) /* Scroll of Jibril's Boon */
+     , (24909, 8, 20567) /* Scroll of Inefficient Investment */
+     , (24909, 8, 49443) /* Frost Spectre Essence (80) */
+     , (24909, 8, 22164) /* Acid Quarter Staff */
+     , (24909, 8, 2423) /* Gem */
+     , (24909, 8, 3860) /* Frost Shou-ono */
+     , (24909, 8, 24935) /* Brood Queen Elder Metathorax */
+     , (24909, 8, 49340) /* Acid Moar Essence (100) */
+     , (24909, 8, 94) /* Diamond Shield */
+     , (24909, 8, 49485) /* Encapsulated Spirit */
+     , (24909, 8, 89) /* Studded Leather Pauldrons */
+     , (24909, 8, 24927) /* Brood Queen Elder Claw */
+     , (24909, 8, 40712) /* Covenant Pauldrons */
+     , (24909, 8, 22155) /* Lightning Jo */
+     , (24909, 8, 24925) /* Brood Queen Elder Carapace */
+     , (24909, 8, 149) /* Ewer */
+     , (24909, 8, 7771) /* Naginata */
+     , (24909, 8, 20640) /* Royal Atlatl */;
+

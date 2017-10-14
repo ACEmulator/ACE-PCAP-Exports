@@ -116,5 +116,5 @@ VALUES (41526, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41526, 2, 8788);
+VALUES (41526, 2, 8788) /* Obsidian Dagger */;
 

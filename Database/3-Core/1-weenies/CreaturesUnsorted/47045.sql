@@ -54,3 +54,9 @@ VALUES (47045, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (47045, 64, 19878) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (47045, 8, 48914) /* Legendary Key */
+     , (47045, 8, 47152) /* Ancient Falatacot Symbol */;
+

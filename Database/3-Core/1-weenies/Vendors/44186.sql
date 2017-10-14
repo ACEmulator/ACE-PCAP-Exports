@@ -128,25 +128,25 @@ VALUES (44186, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (44186, 4, 44386)
-     , (44186, 4, 44146)
-     , (44186, 4, 44157)
-     , (44186, 4, 44155)
-     , (44186, 4, 44158)
-     , (44186, 4, 44143)
-     , (44186, 4, 44159)
-     , (44186, 4, 44160)
-     , (44186, 4, 44180)
-     , (44186, 4, 44144)
-     , (44186, 4, 44145)
-     , (44186, 4, 2621)
-     , (44186, 4, 2622)
-     , (44186, 4, 2623)
-     , (44186, 4, 2624)
-     , (44186, 4, 2625)
-     , (44186, 4, 2626)
-     , (44186, 4, 2627)
-     , (44186, 4, 20628)
-     , (44186, 4, 20629)
-     , (44186, 4, 20630);
+VALUES (44186, 4, 44386) /* Contract for Broker Contracts */
+     , (44186, 4, 44146) /* Contract for Frozen Fury */
+     , (44186, 4, 44157) /* Contract for Assault (Low) */
+     , (44186, 4, 44155) /* Contract for Banderling Haunt */
+     , (44186, 4, 44158) /* Contract for Assault (Mid) */
+     , (44186, 4, 44143) /* Contract for Glenden Wood Invasion (Low) */
+     , (44186, 4, 44159) /* Contract for Assault (High) */
+     , (44186, 4, 44160) /* Contract for Assault (Expert) */
+     , (44186, 4, 44180) /* Contract for Lost Pet */
+     , (44186, 4, 44144) /* Contract for Glenden Wood Invasion (Mid) */
+     , (44186, 4, 44145) /* Contract for Glenden Wood Invasion (High) */
+     , (44186, 4, 2621) /* Trade Note (100) */
+     , (44186, 4, 2622) /* Trade Note (500) */
+     , (44186, 4, 2623) /* Trade Note (1,000) */
+     , (44186, 4, 2624) /* Trade Note (5,000) */
+     , (44186, 4, 2625) /* Trade Note (10,000) */
+     , (44186, 4, 2626) /* Trade Note (50,000) */
+     , (44186, 4, 2627) /* Trade Note (100,000) */
+     , (44186, 4, 20628) /* Trade Note (150,000) */
+     , (44186, 4, 20629) /* Trade Note (200,000) */
+     , (44186, 4, 20630) /* Trade Note (250,000) */;
 

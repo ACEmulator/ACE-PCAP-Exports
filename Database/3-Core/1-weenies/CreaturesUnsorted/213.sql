@@ -48,3 +48,60 @@ VALUES (213, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (213, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (213, 8, 2417) /* Gem */
+     , (213, 8, 38) /* Studded Leather Bracers */
+     , (213, 8, 25647) /* Leather Pants */
+     , (213, 8, 3315) /* Scroll of Item Enchantment Mastery Self IV */
+     , (213, 8, 2394) /* Gem */
+     , (213, 8, 30746) /* Dart Flinger */
+     , (213, 8, 2999) /* Scroll of Blade Vulnerability Other III */
+     , (213, 8, 20640) /* Royal Atlatl */
+     , (213, 8, 52) /* Scalemail Cuirass */
+     , (213, 8, 3375) /* Scroll of Life Magic Mastery Self IV */
+     , (213, 8, 2547) /* Staff */
+     , (213, 8, 30610) /* Acid Bastone */
+     , (213, 8, 2416) /* Gem */
+     , (213, 8, 80) /* Chainmail Leggings */
+     , (213, 8, 3130) /* Scroll of Arcane Benightedness IV */
+     , (213, 8, 168) /* Tankard */
+     , (213, 8, 545) /* Reliable Lockpick */
+     , (213, 8, 105) /* Studded Leather Sleeves */
+     , (213, 8, 3812) /* Flaming Kaskara */
+     , (213, 8, 2434) /* Lesser Mana Stone */
+     , (213, 8, 25640) /* Leather Cowl */
+     , (213, 8, 25644) /* Leather Greaves */
+     , (213, 8, 3820) /* Flaming Katar */
+     , (213, 8, 8328) /* Iron Pea */
+     , (213, 8, 2714) /* Scroll of Quickness Other IV */
+     , (213, 8, 73) /* Scalemail Hauberk */
+     , (213, 8, 25638) /* Leather Vest */
+     , (213, 8, 83) /* Scalemail Leggings */
+     , (213, 8, 3071) /* Scroll of Piercing Protection Self V */
+     , (213, 8, 49310) /* Acid Wisp Essence (50) */
+     , (213, 8, 77) /* Kabuton */
+     , (213, 8, 2597) /* Flared Pants */
+     , (213, 8, 243) /* Dinner Plate */
+     , (213, 8, 40622) /* Frost Nodachi */
+     , (213, 8, 512) /* Good Lockpick */
+     , (213, 8, 49324) /* Fire Wisp Essence (50) */
+     , (213, 8, 3170) /* Scroll of Light Weapon Mastery Self IV */
+     , (213, 8, 43370) /* Scroll of Void Magic Ineptitude IV */
+     , (213, 8, 7793) /* Acid Trident */
+     , (213, 8, 31788) /* Stick */
+     , (213, 8, 377) /* Potion of Healing */
+     , (213, 8, 273) /* Pyreal */
+     , (213, 8, 31790) /* Lightning Stick */
+     , (213, 8, 25646) /* Long Leather Gauntlets */
+     , (213, 8, 25643) /* Leather Girth */
+     , (213, 8, 27331) /* Minor Mana Stone */
+     , (213, 8, 53) /* Studded Leather Cuirass */
+     , (213, 8, 3737) /* Scroll of Infuse Mana III */
+     , (213, 8, 294) /* Amulet */
+     , (213, 8, 2419) /* Gem */
+     , (213, 8, 45416) /* Knife */
+     , (213, 8, 2596) /* Doublet */
+     , (213, 8, 8329) /* Lead Pea */;
+

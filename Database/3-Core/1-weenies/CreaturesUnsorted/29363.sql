@@ -62,3 +62,5 @@ VALUES (29363, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (29363, 128, 205) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (29363, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+

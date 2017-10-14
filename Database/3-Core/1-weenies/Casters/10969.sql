@@ -71,3 +71,5 @@ REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (10969, 3179) /* DispelAllBadOther7_SpellID */
      , (10969, 2946) /* ModerateCreatureMagicAptitude_SpellID */;
 
+/* Corpse Treasure List */
+

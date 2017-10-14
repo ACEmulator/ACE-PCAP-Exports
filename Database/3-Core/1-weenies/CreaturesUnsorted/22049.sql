@@ -45,3 +45,20 @@ VALUES (22049, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22049, 64, 953) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22049, 8, 20247) /* Scroll of Void's Call */
+     , (22049, 8, 30615) /* Acid Knuckles */
+     , (22049, 8, 31779) /* Spine Glaive */
+     , (22049, 8, 28607) /* Lace Shirt */
+     , (22049, 8, 22158) /* Jo */
+     , (22049, 8, 49284) /* Acid K'nath Essence (100) */
+     , (22049, 8, 130) /* Shirt */
+     , (22049, 8, 20499) /* Scroll of Aliester's Boon */
+     , (22049, 8, 27227) /* Nariyid Breastplate */
+     , (22049, 8, 20471) /* Scroll of Boon of the Mace Turner */
+     , (22049, 8, 30187) /* Hunter's Crystal */
+     , (22049, 8, 42637) /* Aetheria */
+     , (22049, 8, 20507) /* Scroll of Missile Weapon Ineptitude Other VII */;
+

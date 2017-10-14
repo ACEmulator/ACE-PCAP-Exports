@@ -128,11 +128,11 @@ VALUES (5861, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5861, 4, 2451)
-     , (5861, 4, 2469)
-     , (5861, 4, 2471)
-     , (5861, 4, 8378)
-     , (5861, 4, 5831)
-     , (5861, 4, 22765)
-     , (5861, 4, 26479);
+VALUES (5861, 4, 2451) /* Ale */
+     , (5861, 4, 2469) /* Small Beer */
+     , (5861, 4, 2471) /* Stout */
+     , (5861, 4, 8378) /* Beer Stein */
+     , (5861, 4, 5831) /* Nelvaine's Olde Ispar Stout */
+     , (5861, 4, 22765) /* The Empyrean Temples */
+     , (5861, 4, 26479) /* Tumerok Akiekie */;
 

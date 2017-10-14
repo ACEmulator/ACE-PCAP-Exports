@@ -40,3 +40,20 @@ VALUES (37452, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37452, 67115254, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37452, 8, 2423) /* Gem */
+     , (37452, 8, 133) /* Slippers */
+     , (37452, 8, 25642) /* Leather Gauntlets */
+     , (37452, 8, 154) /* Goblet */
+     , (37452, 8, 3803) /* Lightning Jitte */
+     , (37452, 8, 7787) /* Frost Spiked Club */
+     , (37452, 8, 273) /* Pyreal */
+     , (37452, 8, 35105) /* Pyre Shroud */
+     , (37452, 8, 27217) /* Chiran Helm */
+     , (37452, 8, 45151) /* Mhoire Oubliette Portal Glyph */
+     , (37452, 8, 2595) /* Baggy Tunic */
+     , (37452, 8, 121) /* Gloves */
+     , (37452, 8, 132) /* Shoes */;
+

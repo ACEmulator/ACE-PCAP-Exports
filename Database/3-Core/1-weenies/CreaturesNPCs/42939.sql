@@ -123,6 +123,6 @@ VALUES (42939, 5, 16788087)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42939, 2, 42717)
-     , (42939, 2, 24611);
+VALUES (42939, 2, 42717) /* Shield of Borelean's Royal Guard */
+     , (42939, 2, 24611) /* Sword of Lost Light */;
 

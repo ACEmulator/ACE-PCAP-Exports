@@ -128,16 +128,16 @@ VALUES (1813, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1813, 4, 2455)
-     , (1813, 4, 2463)
-     , (1813, 4, 2467)
-     , (1813, 4, 2469)
-     , (1813, 4, 2459)
-     , (1813, 4, 620)
-     , (1813, 4, 261)
-     , (1813, 4, 4714)
-     , (1813, 4, 4734)
-     , (1813, 4, 4209)
-     , (1813, 4, 12146)
-     , (1813, 4, 35043);
+VALUES (1813, 4, 2455) /* Grape Juice */
+     , (1813, 4, 2463) /* Milk */
+     , (1813, 4, 2467) /* Red Wine */
+     , (1813, 4, 2469) /* Small Beer */
+     , (1813, 4, 2459) /* Kumiss */
+     , (1813, 4, 620) /* Cake */
+     , (1813, 4, 261) /* Cheese */
+     , (1813, 4, 4714) /* Chicken Kebab */
+     , (1813, 4, 4734) /* Meat Pie */
+     , (1813, 4, 4209) /* Dungeon Binar Directions */
+     , (1813, 4, 12146) /* Simulacra Rumor */
+     , (1813, 4, 35043) /* Halls of Metos */;
 

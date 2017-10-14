@@ -38,3 +38,10 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (42872, 19, 125) /* VALUE_INT */
      , (42872, 5, 9000) /* ENCUMB_VAL_INT */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42872, 8, 31803) /* Frost Compound Bow */
+     , (42872, 8, 142) /* Chalice */
+     , (42872, 8, 20473) /* Scroll of Tusker's Gift */;
+

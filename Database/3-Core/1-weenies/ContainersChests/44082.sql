@@ -53,3 +53,14 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (44082, 2, 0) /* OPEN_BOOL */
      , (44082, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44082, 8, 4195) /* Nekode */
+     , (44082, 8, 7787) /* Frost Spiked Club */
+     , (44082, 8, 359) /* War Hammer */
+     , (44082, 8, 37360) /* Ink of Conveyance */
+     , (44082, 8, 37342) /* Glyph of Corrosion */
+     , (44082, 8, 37364) /* Quill of Introspection */
+     , (44082, 8, 37317) /* Glyph of Magic Defense */;
+

@@ -48,3 +48,10 @@ VALUES (33513, 2, 81) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33513, 64, 920) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33513, 8, 20236) /* Scroll of Temeritous Touch */
+     , (33513, 8, 621) /* Heavy Bracelet */
+     , (33513, 8, 33500) /* Head of the White Spear */;
+

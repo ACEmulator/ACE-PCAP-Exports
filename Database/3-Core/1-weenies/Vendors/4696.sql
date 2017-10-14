@@ -128,25 +128,25 @@ VALUES (4696, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4696, 4, 2452)
-     , (4696, 4, 2454)
-     , (4696, 4, 2469)
-     , (4696, 4, 4746)
-     , (4696, 4, 2464)
-     , (4696, 4, 8378)
-     , (4696, 4, 261)
-     , (4696, 4, 620)
-     , (4696, 4, 4740)
-     , (4696, 4, 4743)
-     , (4696, 4, 5536)
-     , (4696, 4, 8209)
-     , (4696, 4, 12146)
-     , (4696, 4, 15808)
-     , (4696, 4, 11929)
-     , (4696, 4, 5534)
-     , (4696, 4, 5538)
-     , (4696, 4, 5601)
-     , (4696, 4, 5602)
-     , (4696, 4, 6419)
-     , (4696, 4, 24222);
+VALUES (4696, 4, 2452) /* Apple Juice */
+     , (4696, 4, 2454) /* Coffee */
+     , (4696, 4, 2469) /* Small Beer */
+     , (4696, 4, 4746) /* Water */
+     , (4696, 4, 2464) /* Orange Juice */
+     , (4696, 4, 8378) /* Beer Stein */
+     , (4696, 4, 261) /* Cheese */
+     , (4696, 4, 620) /* Cake */
+     , (4696, 4, 4740) /* Pickled Fish */
+     , (4696, 4, 4743) /* Stuffed Grape Leaf */
+     , (4696, 4, 5536) /* Nevius Passage Directions */
+     , (4696, 4, 8209) /* Call for Adventurers! */
+     , (4696, 4, 12146) /* Simulacra Rumor */
+     , (4696, 4, 15808) /* Plea for Help */
+     , (4696, 4, 11929) /* A Call To Arms */
+     , (4696, 4, 5534) /* Enkindled Souls Directions */
+     , (4696, 4, 5538) /* Story of Winthura's Gardens */
+     , (4696, 4, 5601) /* Altar of Asheron Rumor */
+     , (4696, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (4696, 4, 6419) /* The Meeting Halls */
+     , (4696, 4, 24222) /* Duplicated Portals */;
 

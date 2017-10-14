@@ -49,3 +49,19 @@ VALUES (31445, 19, 3500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31445, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31445, 8, 31468) /* First Half of a Worn Mace */
+     , (31445, 8, 31469) /* Second Half of a Worn Mace */
+     , (31445, 8, 31473) /* Second Half of a Worn Spear */
+     , (31445, 8, 31481) /* Second Half of a Worn Bow */
+     , (31445, 8, 31479) /* Second Half of a Worn Dagger */
+     , (31445, 8, 31484) /* First Half of a Worn Atlatl */
+     , (31445, 8, 31478) /* First Half of a Worn Dagger */
+     , (31445, 8, 31477) /* Second Half of a Worn Staff */
+     , (31445, 8, 31475) /* Second Half of a Worn Cestus */
+     , (31445, 8, 31482) /* First Half of a Worn Crossbow */
+     , (31445, 8, 31485) /* Second Half of a Worn Atlatl */
+     , (31445, 8, 31472) /* First Half of a Worn Spear */;
+

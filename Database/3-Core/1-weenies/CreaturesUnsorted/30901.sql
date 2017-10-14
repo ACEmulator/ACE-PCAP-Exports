@@ -67,3 +67,15 @@ VALUES (30901, 2, 5) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30901, 64, 590) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30901, 8, 163) /* Ornamental Bowl */
+     , (30901, 8, 61) /* Platemail Girth */
+     , (30901, 8, 512) /* Good Lockpick */
+     , (30901, 8, 101) /* Chainmail Sleeves */
+     , (30901, 8, 30859) /* Banished Axe */
+     , (30901, 8, 2855) /* Scroll of Lightning Bane V */
+     , (30901, 8, 150) /* Flagon */
+     , (30901, 8, 28633) /* Diforsa Girth */;
+

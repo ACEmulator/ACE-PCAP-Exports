@@ -128,7 +128,7 @@ VALUES (6082, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (6082, 4, 5795)
-     , (6082, 4, 5780)
-     , (6082, 4, 5803);
+VALUES (6082, 4, 5795) /* Hot Sauce */
+     , (6082, 4, 5780) /* Cinnamon Bark */
+     , (6082, 4, 5803) /* Oregano */;
 

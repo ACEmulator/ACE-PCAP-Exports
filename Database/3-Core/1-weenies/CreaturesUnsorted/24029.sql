@@ -54,3 +54,32 @@ VALUES (24029, 2, 7) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24029, 64, 260) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24029, 8, 2587) /* Shirt */
+     , (24029, 8, 5894) /* Fez */
+     , (24029, 8, 2435) /* Mana Stone */
+     , (24029, 8, 24126) /* A Crumpled Letter */
+     , (24029, 8, 24033) /* Mite Queen's Staff */
+     , (24029, 8, 8211) /* Discus */
+     , (24029, 8, 53) /* Studded Leather Cuirass */
+     , (24029, 8, 22164) /* Acid Quarter Staff */
+     , (24029, 8, 150) /* Flagon */
+     , (24029, 8, 27322) /* Mana Tincture */
+     , (24029, 8, 2406) /* Gem */
+     , (24029, 8, 20329) /* Scroll of Nullify Creature Magic Self */
+     , (24029, 8, 624) /* Ring */
+     , (24029, 8, 296) /* Crown */
+     , (24029, 8, 2427) /* Gem */
+     , (24029, 8, 2590) /* Baggy Shirt */
+     , (24029, 8, 7790) /* Electric Spiked Club */
+     , (24029, 8, 8328) /* Iron Pea */
+     , (24029, 8, 44849) /* Chevron Cloak */
+     , (24029, 8, 622) /* Necklace */
+     , (24029, 8, 2548) /* Sceptre */
+     , (24029, 8, 629) /* Adept Healing Kit */
+     , (24029, 8, 25647) /* Leather Pants */
+     , (24029, 8, 30625) /* War Bow */
+     , (24029, 8, 141) /* Bowl */;
+

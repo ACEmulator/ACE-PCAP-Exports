@@ -45,3 +45,13 @@ VALUES (24481, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24481, 64, 540) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24481, 8, 2590) /* Baggy Shirt */
+     , (24481, 8, 154) /* Goblet */
+     , (24481, 8, 28606) /* Viamontian Pants */
+     , (24481, 8, 623) /* Heavy Necklace */
+     , (24481, 8, 27229) /* Nariyid Girth */
+     , (24481, 8, 111) /* Scalemail Tassets */;
+

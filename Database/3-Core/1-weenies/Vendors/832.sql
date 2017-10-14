@@ -130,26 +130,26 @@ VALUES (832, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (832, 4, 4728)
-     , (832, 4, 4732)
-     , (832, 4, 620)
-     , (832, 4, 4709)
-     , (832, 4, 2467)
-     , (832, 4, 2469)
-     , (832, 4, 2451)
-     , (832, 4, 2455)
-     , (832, 4, 2456)
-     , (832, 4, 8378)
-     , (832, 4, 513)
-     , (832, 4, 545)
-     , (832, 4, 9295)
-     , (832, 4, 20646)
-     , (832, 4, 21093)
-     , (832, 4, 23044)
-     , (832, 4, 23204)
-     , (832, 4, 44899)
-     , (832, 4, 44903)
-     , (832, 4, 44907)
-     , (832, 4, 42979)
-     , (832, 4, 43022);
+VALUES (832, 4, 4728) /* Fried Chicken */
+     , (832, 4, 4732) /* Fried Steak */
+     , (832, 4, 620) /* Cake */
+     , (832, 4, 4709) /* Apple Pie */
+     , (832, 4, 2467) /* Red Wine */
+     , (832, 4, 2469) /* Small Beer */
+     , (832, 4, 2451) /* Ale */
+     , (832, 4, 2455) /* Grape Juice */
+     , (832, 4, 2456) /* Green Tea */
+     , (832, 4, 8378) /* Beer Stein */
+     , (832, 4, 513) /* Plain Lockpick */
+     , (832, 4, 545) /* Reliable Lockpick */
+     , (832, 4, 9295) /* Intricate Carving Tool */
+     , (832, 4, 20646) /* Ust */
+     , (832, 4, 21093) /* Tinkering */
+     , (832, 4, 23044) /* On the Abilities of Salvaged Ivory */
+     , (832, 4, 23204) /* Carving Keys and Keyrings */
+     , (832, 4, 44899) /* Contract for Braid Mansion Ruin */
+     , (832, 4, 44903) /* Contract for Nen Ai's Pet Drudge */
+     , (832, 4, 44907) /* Contract for Facilty Hub */
+     , (832, 4, 42979) /* Core Plating Integrator */
+     , (832, 4, 43022) /* Core Plating Deintegrator */;
 

@@ -126,24 +126,24 @@ VALUES (5876, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5876, 4, 630)
-     , (5876, 4, 631)
-     , (5876, 4, 632)
-     , (5876, 4, 377)
-     , (5876, 4, 379)
-     , (5876, 4, 2470)
-     , (5876, 4, 4587)
-     , (5876, 4, 4596)
-     , (5876, 4, 4593)
-     , (5876, 4, 2621)
-     , (5876, 4, 2622)
-     , (5876, 4, 2623)
-     , (5876, 4, 2624)
-     , (5876, 4, 2625)
-     , (5876, 4, 2626)
-     , (5876, 4, 2627)
-     , (5876, 4, 20628)
-     , (5876, 4, 20629)
-     , (5876, 4, 20630)
-     , (5876, 4, 23958);
+VALUES (5876, 4, 630) /* Gifted Healing Kit */
+     , (5876, 4, 631) /* Excellent Healing Kit */
+     , (5876, 4, 632) /* Peerless Healing Kit */
+     , (5876, 4, 377) /* Potion of Healing */
+     , (5876, 4, 379) /* Mana Potion */
+     , (5876, 4, 2470) /* Stamina Elixir */
+     , (5876, 4, 4587) /* Heal Other II */
+     , (5876, 4, 4596) /* Regeneration Other II */
+     , (5876, 4, 4593) /* Mana Boost Other II */
+     , (5876, 4, 2621) /* Trade Note (100) */
+     , (5876, 4, 2622) /* Trade Note (500) */
+     , (5876, 4, 2623) /* Trade Note (1,000) */
+     , (5876, 4, 2624) /* Trade Note (5,000) */
+     , (5876, 4, 2625) /* Trade Note (10,000) */
+     , (5876, 4, 2626) /* Trade Note (50,000) */
+     , (5876, 4, 2627) /* Trade Note (100,000) */
+     , (5876, 4, 20628) /* Trade Note (150,000) */
+     , (5876, 4, 20629) /* Trade Note (200,000) */
+     , (5876, 4, 20630) /* Trade Note (250,000) */
+     , (5876, 4, 23958) /* Mite Stamp */;
 

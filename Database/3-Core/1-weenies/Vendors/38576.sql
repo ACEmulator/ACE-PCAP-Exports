@@ -130,22 +130,22 @@ VALUES (38576, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (38576, 4, 38546)
-     , (38576, 4, 38721)
-     , (38576, 4, 38727)
-     , (38576, 4, 38719)
-     , (38576, 4, 44889)
-     , (38576, 4, 44446)
-     , (38576, 4, 44980)
-     , (38576, 4, 44981)
-     , (38576, 4, 44468)
-     , (38576, 4, 44590)
-     , (38576, 4, 44608)
-     , (38576, 4, 44607)
-     , (38576, 4, 44599)
-     , (38576, 4, 44598)
-     , (38576, 4, 44611)
-     , (38576, 4, 44593)
-     , (38576, 4, 44602)
-     , (38576, 4, 41508);
+VALUES (38576, 4, 38546) /* Radiant Blood Armor Writ */
+     , (38576, 4, 38721) /* Writ of Authorization */
+     , (38576, 4, 38727) /* Society Gem of Dispelling */
+     , (38576, 4, 38719) /* Radiant Blood Banner */
+     , (38576, 4, 44889) /* Radiant Blood Cloak */
+     , (38576, 4, 44446) /* Radiant Blood Robe */
+     , (38576, 4, 44980) /* Society Breastplate Restorer */
+     , (38576, 4, 44981) /* Society Breastplate Cloth Remover */
+     , (38576, 4, 44468) /* Radiant Blood Shield Cover */
+     , (38576, 4, 44590) /* Radiant Blood Buckler Cover */
+     , (38576, 4, 44608) /* Radiant Blood Round Shield Cover */
+     , (38576, 4, 44607) /* Radiant Blood Large Round Shield Cover */
+     , (38576, 4, 44599) /* Radiant Blood Kite Shield Cover */
+     , (38576, 4, 44598) /* Radiant Blood Large Kite Shield Cover */
+     , (38576, 4, 44611) /* Radiant Blood Tower Shield Cover */
+     , (38576, 4, 44593) /* Radiant Blood Covenant Shield Cover */
+     , (38576, 4, 44602) /* Radiant Blood Olthoi Shield Cover */
+     , (38576, 4, 41508) /* Major Item Tinkering Armature */;
 

@@ -52,3 +52,10 @@ VALUES (40813, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40813, 64, 1975) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40813, 8, 31865) /* Circlet */
+     , (40813, 8, 45314) /* Scroll of Shield Ineptitude Other VII */
+     , (40813, 8, 130) /* Shirt */;
+

@@ -37,3 +37,10 @@ VALUES (27657, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27657, 19, True) /* ATTACKABLE_BOOL */
      , (27657, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27657, 8, 27681) /* Renegade Stone Clasp */
+     , (27657, 8, 27701) /* Correspondence */
+     , (27657, 8, 27671) /* Renegade Herbal Kit */;
+

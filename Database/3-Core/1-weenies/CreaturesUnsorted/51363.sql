@@ -48,3 +48,11 @@ VALUES (51363, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51363, 64, 3500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51363, 8, 127) /* Pants */
+     , (51363, 8, 37357) /* Ink of Partition */
+     , (51363, 8, 2603) /* Baggy Breeches */
+     , (51363, 8, 516) /* Peerless Lockpick */;
+

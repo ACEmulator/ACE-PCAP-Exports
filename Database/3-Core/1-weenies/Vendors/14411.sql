@@ -124,12 +124,12 @@ VALUES (14411, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (14411, 4, 263)
-     , (14411, 4, 4753)
-     , (14411, 4, 4763)
-     , (14411, 4, 4761)
-     , (14411, 4, 264)
-     , (14411, 4, 5758)
-     , (14411, 4, 4764)
-     , (14411, 4, 4757);
+VALUES (14411, 4, 263) /* Fish */
+     , (14411, 4, 4753) /* Side of Beef */
+     , (14411, 4, 4763) /* Honey */
+     , (14411, 4, 4761) /* Flour */
+     , (14411, 4, 264) /* Grapes */
+     , (14411, 4, 5758) /* Carrot */
+     , (14411, 4, 4764) /* Noodle Cutter */
+     , (14411, 4, 4757) /* Carving Knife */;
 

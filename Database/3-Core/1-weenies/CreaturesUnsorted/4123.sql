@@ -45,3 +45,16 @@ VALUES (4123, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4123, 64, 113) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4123, 8, 49261) /* Acid Elemental Essence (50) */
+     , (4123, 8, 4121) /* Lich Skull */
+     , (4123, 8, 31786) /* Lightning Claw */
+     , (4123, 8, 348) /* Spear */
+     , (4123, 8, 297) /* Ring */
+     , (4123, 8, 8329) /* Lead Pea */
+     , (4123, 8, 48959) /* Fire Elemental Essence (50) */
+     , (4123, 8, 296) /* Crown */
+     , (4123, 8, 295) /* Bracelet */;
+

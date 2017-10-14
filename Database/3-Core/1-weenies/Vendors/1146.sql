@@ -133,40 +133,40 @@ VALUES (1146, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1146, 4, 554)
-     , (1146, 4, 35)
-     , (1146, 4, 77)
-     , (1146, 4, 85)
-     , (1146, 4, 96)
-     , (1146, 4, 414)
-     , (1146, 4, 43)
-     , (1146, 4, 55)
-     , (1146, 4, 2605)
-     , (1146, 4, 108)
-     , (1146, 4, 415)
-     , (1146, 4, 90)
-     , (1146, 4, 416)
-     , (1146, 4, 413)
-     , (1146, 4, 78)
-     , (1146, 4, 64)
-     , (1146, 4, 2437)
-     , (1146, 4, 80)
-     , (1146, 4, 116)
-     , (1146, 4, 94)
-     , (1146, 4, 95)
-     , (1146, 4, 2621)
-     , (1146, 4, 2622)
-     , (1146, 4, 2623)
-     , (1146, 4, 2624)
-     , (1146, 4, 2625)
-     , (1146, 4, 2626)
-     , (1146, 4, 2627)
-     , (1146, 4, 20628)
-     , (1146, 4, 20629)
-     , (1146, 4, 20630);
+VALUES (1146, 4, 554) /* Studded Leather Basinet */
+     , (1146, 4, 35) /* Chainmail Basinet */
+     , (1146, 4, 77) /* Kabuton */
+     , (1146, 4, 85) /* Chainmail Coif */
+     , (1146, 4, 96) /* Chainmail Shirt */
+     , (1146, 4, 414) /* Chainmail Breastplate */
+     , (1146, 4, 43) /* Yoroi Breastplate */
+     , (1146, 4, 55) /* Chainmail Gauntlets */
+     , (1146, 4, 2605) /* Chainmail Greaves */
+     , (1146, 4, 108) /* Chainmail Tassets */
+     , (1146, 4, 415) /* Chainmail Girth */
+     , (1146, 4, 90) /* Yoroi Pauldrons */
+     , (1146, 4, 416) /* Chainmail Pauldrons */
+     , (1146, 4, 413) /* Chainmail Bracers */
+     , (1146, 4, 78) /* Kote */
+     , (1146, 4, 64) /* Yoroi Girth */
+     , (1146, 4, 2437) /* Yoroi Leggings */
+     , (1146, 4, 80) /* Chainmail Leggings */
+     , (1146, 4, 116) /* Studded Leather Boots */
+     , (1146, 4, 94) /* Diamond Shield */
+     , (1146, 4, 95) /* Tower Shield */
+     , (1146, 4, 2621) /* Trade Note (100) */
+     , (1146, 4, 2622) /* Trade Note (500) */
+     , (1146, 4, 2623) /* Trade Note (1,000) */
+     , (1146, 4, 2624) /* Trade Note (5,000) */
+     , (1146, 4, 2625) /* Trade Note (10,000) */
+     , (1146, 4, 2626) /* Trade Note (50,000) */
+     , (1146, 4, 2627) /* Trade Note (100,000) */
+     , (1146, 4, 20628) /* Trade Note (150,000) */
+     , (1146, 4, 20629) /* Trade Note (200,000) */
+     , (1146, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1146, 2, 352);
+VALUES (1146, 2, 352) /* Short Sword */;
 

@@ -52,3 +52,27 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3975, 2, 0) /* OPEN_BOOL */
      , (3975, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3975, 8, 622) /* Necklace */
+     , (3975, 8, 142) /* Chalice */
+     , (3975, 8, 295) /* Bracelet */
+     , (3975, 8, 2417) /* Gem */
+     , (3975, 8, 141) /* Bowl */
+     , (3975, 8, 297) /* Ring */
+     , (3975, 8, 254) /* Stoup */
+     , (3975, 8, 2401) /* Gem */
+     , (3975, 8, 49234) /* Acid Zombie Essence (80) */
+     , (3975, 8, 154) /* Goblet */
+     , (3975, 8, 2426) /* Gem */
+     , (3975, 8, 31868) /* Signet Crown */
+     , (3975, 8, 2395) /* Gem */
+     , (3975, 8, 296) /* Crown */
+     , (3975, 8, 7940) /* Empty Flask */
+     , (3975, 8, 2406) /* Gem */
+     , (3975, 8, 2432) /* Gem */
+     , (3975, 8, 2424) /* Gem */
+     , (3975, 8, 121) /* Gloves */
+     , (3975, 8, 31866) /* Coronet */;
+

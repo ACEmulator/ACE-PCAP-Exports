@@ -41,3 +41,12 @@ VALUES (12300, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12300, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12300, 8, 2596) /* Doublet */
+     , (12300, 8, 273) /* Pyreal */
+     , (12300, 8, 307) /* Shortbow */
+     , (12300, 8, 8329) /* Lead Pea */
+     , (12300, 8, 7789) /* Acid Spiked Club */;
+

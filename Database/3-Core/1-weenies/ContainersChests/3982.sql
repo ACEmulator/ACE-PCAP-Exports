@@ -49,3 +49,11 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3982, 2, 0) /* OPEN_BOOL */
      , (3982, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3982, 8, 3297) /* Scroll of Invulnerability Other VI */
+     , (3982, 8, 22443) /* Flaming Dirk */
+     , (3982, 8, 20257) /* Scroll of Mind Blossom */
+     , (3982, 8, 514) /* Excellent Lockpick */;
+

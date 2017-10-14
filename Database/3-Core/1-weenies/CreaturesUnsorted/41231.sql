@@ -126,3 +126,8 @@ VALUES (41231, 64, 890) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (41231, 128, 910) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (41231, 256, 1000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41231, 8, 121) /* Gloves */;
+

@@ -116,14 +116,14 @@ VALUES (43353, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43353, 4, 43173)
-     , (43353, 4, 43307)
-     , (43353, 4, 43299)
-     , (43353, 4, 43315)
-     , (43353, 4, 43283)
-     , (43353, 4, 43291)
-     , (43353, 4, 43325)
-     , (43353, 4, 43334)
-     , (43353, 4, 43343)
-     , (43353, 4, 44624);
+VALUES (43353, 4, 43173) /* Foci of Shadow */
+     , (43353, 4, 43307) /* Scroll of Nether Bolt VI */
+     , (43353, 4, 43299) /* Scroll of Nether Arc VI */
+     , (43353, 4, 43315) /* Scroll of Nether Streak VI */
+     , (43353, 4, 43283) /* Scroll of Corrosion VI */
+     , (43353, 4, 43291) /* Scroll of Corruption VI */
+     , (43353, 4, 43325) /* Scroll of Destructive Curse VI */
+     , (43353, 4, 43334) /* Scroll of Festering Curse VI */
+     , (43353, 4, 43343) /* Scroll of Weakening Curse VI */
+     , (43353, 4, 44624) /* Scroll of Nether Blast VI */;
 

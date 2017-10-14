@@ -62,3 +62,61 @@ VALUES (35830, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35830, 64, 2500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35830, 8, 20575) /* Scroll of Aura of Resistance */
+     , (35830, 8, 6046) /* Amuli Coat */
+     , (35830, 8, 20471) /* Scroll of Boon of the Mace Turner */
+     , (35830, 8, 25641) /* Leather Cuirass */
+     , (35830, 8, 7771) /* Naginata */
+     , (35830, 8, 34277) /* Ancient Falatacot Trinket */
+     , (35830, 8, 150) /* Flagon */
+     , (35830, 8, 121) /* Gloves */
+     , (35830, 8, 28626) /* Diforsa Tassets */
+     , (35830, 8, 31026) /* Tenassa Breastplate */
+     , (35830, 8, 41054) /* Lightning Greataxe */
+     , (35830, 8, 2600) /* Pantaloons */
+     , (35830, 8, 3937) /* Flaming Morning Star */
+     , (35830, 8, 45432) /* Acid Khanjar */
+     , (35830, 8, 29238) /* Acid Bow */
+     , (35830, 8, 4198) /* Frost Nekode */
+     , (35830, 8, 624) /* Ring */
+     , (35830, 8, 5894) /* Fez */
+     , (35830, 8, 92) /* Large Kite Shield */
+     , (35830, 8, 25649) /* Leather Shirt */
+     , (35830, 8, 44840) /* Cloak */
+     , (35830, 8, 6044) /* Celdon Breastplate */
+     , (35830, 8, 6003) /* Koujia Breastplate */
+     , (35830, 8, 28633) /* Diforsa Girth */
+     , (35830, 8, 20535) /* Scroll of Web of Deflection */
+     , (35830, 8, 7897) /* Steel Toed Boots */
+     , (35830, 8, 43068) /* Knorr Academy Helm */
+     , (35830, 8, 40705) /* Covenant Sollerets */
+     , (35830, 8, 20492) /* Scroll of Robustify */
+     , (35830, 8, 40703) /* Covenant Shield */
+     , (35830, 8, 20566) /* Scroll of Nuhmudira's Blessing */
+     , (35830, 8, 621) /* Heavy Bracelet */
+     , (35830, 8, 20539) /* Scroll of Wrath of Celcynd */
+     , (35830, 8, 2604) /* Wide Breeches */
+     , (35830, 8, 45322) /* Scroll of Shield Mastery Other VII */
+     , (35830, 8, 326) /* Katar */
+     , (35830, 8, 49469) /* Scroll of Summoning Mastery Other VII */
+     , (35830, 8, 7825) /* Brown Beans */
+     , (35830, 8, 68) /* Studded Leather Greaves */
+     , (35830, 8, 29247) /* Electric Crossbow */
+     , (35830, 8, 49546) /* Lightning Phyntos Wasp Essence (80) */
+     , (35830, 8, 20568) /* Scroll of Topheron's Boon */
+     , (35830, 8, 31780) /* Acid Spine Glaive */
+     , (35830, 8, 49314) /* Acid Wisp Essence (150) */
+     , (35830, 8, 2402) /* Gem */
+     , (35830, 8, 42754) /* Haebrean Pauldrons */
+     , (35830, 8, 31791) /* Flaming Stick */
+     , (35830, 8, 30586) /* Flanged Mace */
+     , (35830, 8, 20500) /* Scroll of Aliester's Blessing */
+     , (35830, 8, 22443) /* Flaming Dirk */
+     , (35830, 8, 103) /* Platemail Sleeves */
+     , (35830, 8, 49390) /* Frost Grievver Essence (125) */
+     , (35830, 8, 6004) /* Koujia Leggings */
+     , (35830, 8, 20552) /* Scroll of Wrath of Harlune */;
+

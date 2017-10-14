@@ -49,3 +49,39 @@ VALUES (27244, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27244, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27244, 8, 295) /* Bracelet */
+     , (27244, 8, 2419) /* Gem */
+     , (27244, 8, 2415) /* Gem */
+     , (27244, 8, 168) /* Tankard */
+     , (27244, 8, 622) /* Necklace */
+     , (27244, 8, 254) /* Stoup */
+     , (27244, 8, 49538) /* Frost Phyntos Wasp Essence (50) */
+     , (27244, 8, 161) /* Mug */
+     , (27244, 8, 2414) /* Gem */
+     , (27244, 8, 7940) /* Empty Flask */
+     , (27244, 8, 141) /* Bowl */
+     , (27244, 8, 118) /* Cloth Cap */
+     , (27244, 8, 150) /* Flagon */
+     , (27244, 8, 132) /* Shoes */
+     , (27244, 8, 621) /* Heavy Bracelet */
+     , (27244, 8, 2588) /* Flared Shirt */
+     , (27244, 8, 28606) /* Viamontian Pants */
+     , (27244, 8, 294) /* Amulet */
+     , (27244, 8, 297) /* Ring */
+     , (27244, 8, 154) /* Goblet */
+     , (27244, 8, 2417) /* Gem */
+     , (27244, 8, 2589) /* Smock */
+     , (27244, 8, 296) /* Crown */
+     , (27244, 8, 2420) /* Gem */
+     , (27244, 8, 49485) /* Encapsulated Spirit */
+     , (27244, 8, 28610) /* Loafers */
+     , (27244, 8, 243) /* Dinner Plate */
+     , (27244, 8, 49303) /* Frost K'nath Essence (50) */
+     , (27244, 8, 148) /* Cup */
+     , (27244, 8, 2603) /* Baggy Breeches */
+     , (27244, 8, 2413) /* Gem */
+     , (27244, 8, 2416) /* Gem */;
+

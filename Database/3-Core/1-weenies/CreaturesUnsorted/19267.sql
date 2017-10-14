@@ -50,3 +50,41 @@ VALUES (19267, 2, 63) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (19267, 64, 538) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19267, 8, 20511) /* Scroll of Morimoto's Boon */
+     , (19267, 8, 622) /* Necklace */
+     , (19267, 8, 8328) /* Iron Pea */
+     , (19267, 8, 311) /* Heavy Crossbow */
+     , (19267, 8, 28610) /* Loafers */
+     , (19267, 8, 2470) /* Stamina Elixir */
+     , (19267, 8, 49310) /* Acid Wisp Essence (50) */
+     , (19267, 8, 273) /* Pyreal */
+     , (19267, 8, 296) /* Crown */
+     , (19267, 8, 3938) /* Frost Morning Star */
+     , (19267, 8, 631) /* Excellent Healing Kit */
+     , (19267, 8, 25643) /* Leather Girth */
+     , (19267, 8, 41487) /* Mechanical Scarab */
+     , (19267, 8, 49254) /* Frost Zombie Essence (50) */
+     , (19267, 8, 20545) /* Scroll of Feat of Radaz */
+     , (19267, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (19267, 8, 31763) /* Frost Lugian Hammer */
+     , (19267, 8, 30577) /* Flaming Flamberge */
+     , (19267, 8, 40709) /* Covenant Girth */
+     , (19267, 8, 30606) /* Bastone */
+     , (19267, 8, 19249) /* Bronze Nuts and Bolts from a Statue */
+     , (19267, 8, 621) /* Heavy Bracelet */
+     , (19267, 8, 82) /* Platemail Leggings */
+     , (19267, 8, 31789) /* Acid Stick */
+     , (19267, 8, 2421) /* Gem */
+     , (19267, 8, 515) /* Superb Lockpick */
+     , (19267, 8, 2595) /* Baggy Tunic */
+     , (19267, 8, 43316) /* Scroll of Nether Streak VII */
+     , (19267, 8, 31865) /* Circlet */
+     , (19267, 8, 45417) /* Acid Knife */
+     , (19267, 8, 3868) /* Frost Silifi */
+     , (19267, 8, 5894) /* Fez */
+     , (19267, 8, 30605) /* Acid Stiletto */
+     , (19267, 8, 27322) /* Mana Tincture */;
+

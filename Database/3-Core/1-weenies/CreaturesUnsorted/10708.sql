@@ -71,3 +71,11 @@ VALUES (10708, 2, 3) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (10708, 64, 258) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (10708, 8, 49352) /* Fire Moar Essence (50) */
+     , (10708, 8, 3939) /* Acid Morning Star */
+     , (10708, 8, 631) /* Excellent Healing Kit */
+     , (10708, 8, 10712) /* Northern Quiddity Fragment */;
+

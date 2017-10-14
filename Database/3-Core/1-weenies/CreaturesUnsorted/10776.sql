@@ -75,3 +75,30 @@ VALUES (10776, 64, 503) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (10776, 128, 705) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (10776, 256, 370) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (10776, 8, 20475) /* Scroll of Icy Blessing */
+     , (10776, 8, 31778) /* Frost Spine Glaive */
+     , (10776, 8, 20617) /* Scroll of Meditative Trance */
+     , (10776, 8, 44856) /* Trimmed Cloak */
+     , (10776, 8, 44975) /* Hood */
+     , (10776, 8, 20613) /* Scroll of Energize Vigor */
+     , (10776, 8, 621) /* Heavy Bracelet */
+     , (10776, 8, 29248) /* Fire Crossbow */
+     , (10776, 8, 20531) /* Scroll of Lilitha's Blessing */
+     , (10776, 8, 2472) /* Wand */
+     , (10776, 8, 49262) /* Acid Elemental Essence (80) */
+     , (10776, 8, 121) /* Gloves */
+     , (10776, 8, 42635) /* Aetheria */
+     , (10776, 8, 415) /* Chainmail Girth */
+     , (10776, 8, 21151) /* Covenant Bracers */
+     , (10776, 8, 309) /* Club */
+     , (10776, 8, 45118) /* Hand Wraps */
+     , (10776, 8, 25661) /* Leather Boots */
+     , (10776, 8, 2402) /* Gem */
+     , (10776, 8, 28608) /* Poet's Shirt */
+     , (10776, 8, 31824) /* Ice Wand */
+     , (10776, 8, 28624) /* Tenassa Sleeves */
+     , (10776, 8, 80) /* Chainmail Leggings */;
+

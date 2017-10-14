@@ -89,13 +89,13 @@ VALUES (9423, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (9423, 4, 9425)
-     , (9423, 4, 9426)
-     , (9423, 4, 9427)
-     , (9423, 4, 9428)
-     , (9423, 4, 9429)
-     , (9423, 4, 9430)
-     , (9423, 4, 9431)
-     , (9423, 4, 9432)
-     , (9423, 4, 9475);
+VALUES (9423, 4, 9425) /* Acid Emerald */
+     , (9423, 4, 9426) /* Armor Diamond */
+     , (9423, 4, 9427) /* Force Opal */
+     , (9423, 4, 9428) /* Cold Moonstone */
+     , (9423, 4, 9429) /* Fire Ruby */
+     , (9423, 4, 9430) /* Lightning Sapphire */
+     , (9423, 4, 9431) /* Thorned Garnet */
+     , (9423, 4, 9432) /* Sharp Topaz */
+     , (9423, 4, 9475) /* Benevolent Calm */;
 

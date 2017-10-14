@@ -48,3 +48,12 @@ VALUES (28650, 2, 78) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28650, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28650, 8, 413) /* Chainmail Bracers */
+     , (28650, 8, 273) /* Pyreal */
+     , (28650, 8, 5901) /* Kasa */
+     , (28650, 8, 8326) /* Copper Pea */
+     , (28650, 8, 622) /* Necklace */;
+

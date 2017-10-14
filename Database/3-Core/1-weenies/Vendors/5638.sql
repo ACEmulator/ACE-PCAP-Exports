@@ -128,14 +128,14 @@ VALUES (5638, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5638, 4, 629)
-     , (5638, 4, 2457)
-     , (5638, 4, 2460)
-     , (5638, 4, 378)
-     , (5638, 4, 4450)
-     , (5638, 4, 4589)
-     , (5638, 4, 4592)
-     , (5638, 4, 4606)
-     , (5638, 4, 2621)
-     , (5638, 4, 2622);
+VALUES (5638, 4, 629) /* Adept Healing Kit */
+     , (5638, 4, 2457) /* Health Draught */
+     , (5638, 4, 2460) /* Mana Draught */
+     , (5638, 4, 378) /* Stamina Potion */
+     , (5638, 4, 4450) /* Heal Other I */
+     , (5638, 4, 4589) /* Revitalize Other I */
+     , (5638, 4, 4592) /* Mana Boost Other I */
+     , (5638, 4, 4606) /* Quickness Other I */
+     , (5638, 4, 2621) /* Trade Note (100) */
+     , (5638, 4, 2622) /* Trade Note (500) */;
 

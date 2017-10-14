@@ -126,31 +126,31 @@ VALUES (871, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (871, 4, 4195)
-     , (871, 4, 314)
-     , (871, 4, 22158)
-     , (871, 4, 327)
-     , (871, 4, 336)
-     , (871, 4, 353)
-     , (871, 4, 356)
-     , (871, 4, 362)
-     , (871, 4, 359)
-     , (871, 4, 320)
-     , (871, 4, 2621)
-     , (871, 4, 2622)
-     , (871, 4, 2623)
-     , (871, 4, 2624)
-     , (871, 4, 2625)
-     , (871, 4, 2626)
-     , (871, 4, 2627)
-     , (871, 4, 20628)
-     , (871, 4, 20629)
-     , (871, 4, 20630)
-     , (871, 4, 45683)
-     , (871, 4, 45684);
+VALUES (871, 4, 4195) /* Nekode */
+     , (871, 4, 314) /* Dagger */
+     , (871, 4, 22158) /* Jo */
+     , (871, 4, 327) /* Ken */
+     , (871, 4, 336) /* Ono */
+     , (871, 4, 353) /* Tachi */
+     , (871, 4, 356) /* Tofun */
+     , (871, 4, 362) /* Yari */
+     , (871, 4, 359) /* War Hammer */
+     , (871, 4, 320) /* Javelin */
+     , (871, 4, 2621) /* Trade Note (100) */
+     , (871, 4, 2622) /* Trade Note (500) */
+     , (871, 4, 2623) /* Trade Note (1,000) */
+     , (871, 4, 2624) /* Trade Note (5,000) */
+     , (871, 4, 2625) /* Trade Note (10,000) */
+     , (871, 4, 2626) /* Trade Note (50,000) */
+     , (871, 4, 2627) /* Trade Note (100,000) */
+     , (871, 4, 20628) /* Trade Note (150,000) */
+     , (871, 4, 20629) /* Trade Note (200,000) */
+     , (871, 4, 20630) /* Trade Note (250,000) */
+     , (871, 4, 45683) /* Left-hand Tether */
+     , (871, 4, 45684) /* Left-hand Tether Remover */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (871, 2, 352);
+VALUES (871, 2, 352) /* Short Sword */;
 

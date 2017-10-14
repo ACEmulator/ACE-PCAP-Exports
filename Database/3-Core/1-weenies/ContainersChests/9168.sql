@@ -37,3 +37,12 @@ VALUES (9168, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (9168, 19, True) /* ATTACKABLE_BOOL */
      , (9168, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9168, 8, 297) /* Ring */
+     , (9168, 8, 9120) /* A Meeting */
+     , (9168, 8, 20456) /* Scroll of Lhen's Flare */
+     , (9168, 8, 2436) /* Greater Mana Stone */
+     , (9168, 8, 9125) /* Virindi Essence */;
+

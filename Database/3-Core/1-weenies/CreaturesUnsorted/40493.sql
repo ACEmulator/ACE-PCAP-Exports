@@ -61,3 +61,13 @@ VALUES (40493, 0, 16785699)
      , (40493, 19, 16785704)
      , (40493, 20, 16785705);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40493, 8, 2411) /* Gem */
+     , (40493, 8, 43049) /* Knorr Academy Gauntlets */
+     , (40493, 8, 40494) /* Apostate Citadel Barracks Key */
+     , (40493, 8, 25650) /* Leather Shorts */
+     , (40493, 8, 621) /* Heavy Bracelet */
+     , (40493, 8, 2408) /* Gem */;
+

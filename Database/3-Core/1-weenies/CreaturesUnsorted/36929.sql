@@ -45,3 +45,19 @@ VALUES (36929, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36929, 64, 5135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36929, 8, 20593) /* Scroll of Gravity Well */
+     , (36929, 8, 36930) /* Thief of Dreams Message Shard */
+     , (36929, 8, 36924) /* Avoren's Skull */
+     , (36929, 8, 31788) /* Stick */
+     , (36929, 8, 2403) /* Gem */
+     , (36929, 8, 149) /* Ewer */
+     , (36929, 8, 45102) /* Flaming Epee */
+     , (36929, 8, 622) /* Necklace */
+     , (36929, 8, 31805) /* Slashing Compound Crossbow */
+     , (36929, 8, 44801) /* Suikan Over-robe */
+     , (36929, 8, 20404) /* Scroll of Swordsman's Bane */
+     , (36929, 8, 8326) /* Copper Pea */;
+

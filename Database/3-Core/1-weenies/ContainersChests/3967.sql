@@ -49,3 +49,20 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3967, 2, 0) /* OPEN_BOOL */
      , (3967, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3967, 8, 2604) /* Wide Breeches */
+     , (3967, 8, 2401) /* Gem */
+     , (3967, 8, 2844) /* Scroll of Impenetrability IV */
+     , (3967, 8, 22444) /* Frost Dirk */
+     , (3967, 8, 68) /* Studded Leather Greaves */
+     , (3967, 8, 2417) /* Gem */
+     , (3967, 8, 53) /* Studded Leather Cuirass */
+     , (3967, 8, 30603) /* Flaming Stiletto */
+     , (3967, 8, 66) /* Platemail Greaves */
+     , (3967, 8, 168) /* Tankard */
+     , (3967, 8, 273) /* Pyreal */
+     , (3967, 8, 2419) /* Gem */
+     , (3967, 8, 3145) /* Scroll of Armor Tinkering Expertise Other IV */;
+

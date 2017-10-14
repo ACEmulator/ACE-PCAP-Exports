@@ -124,40 +124,40 @@ VALUES (20225, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20225, 4, 15271)
-     , (20225, 4, 5493)
-     , (20225, 4, 8916)
-     , (20225, 4, 2908)
-     , (20225, 4, 2912)
-     , (20225, 4, 21290)
-     , (20225, 4, 2132)
-     , (20225, 4, 2133)
-     , (20225, 4, 21297)
-     , (20225, 4, 2134)
-     , (20225, 4, 5492)
-     , (20225, 4, 5999)
-     , (20225, 4, 8922)
-     , (20225, 4, 2135)
-     , (20225, 4, 21304)
-     , (20225, 4, 2136)
-     , (20225, 4, 2931)
-     , (20225, 4, 8931)
-     , (20225, 4, 2137)
-     , (20225, 4, 21311)
-     , (20225, 4, 1572)
-     , (20225, 4, 2942)
-     , (20225, 4, 8937)
-     , (20225, 4, 2138)
-     , (20225, 4, 21318)
-     , (20225, 4, 2140)
-     , (20225, 4, 2956)
-     , (20225, 4, 8943)
-     , (20225, 4, 9011)
-     , (20225, 4, 21325)
-     , (20225, 4, 2141)
-     , (20225, 4, 2964)
-     , (20225, 4, 8949)
-     , (20225, 4, 21332)
-     , (20225, 4, 2969)
-     , (20225, 4, 8955);
+VALUES (20225, 4, 15271) /* Foci of Strife */
+     , (20225, 4, 5493) /* Scroll of Acid Blast III */
+     , (20225, 4, 8916) /* Scroll of Acid Streak III */
+     , (20225, 4, 2908) /* Scroll of Acid Stream III */
+     , (20225, 4, 2912) /* Scroll of Acid Volley III */
+     , (20225, 4, 21290) /* Scroll of Acid Arc III */
+     , (20225, 4, 2132) /* Scroll of Blade Blast III */
+     , (20225, 4, 2133) /* Scroll of Blade Volley III */
+     , (20225, 4, 21297) /* Scroll of Blade Arc III */
+     , (20225, 4, 2134) /* Scroll of Bludgeoning Volley III */
+     , (20225, 4, 5492) /* Scroll of Flame Blast III */
+     , (20225, 4, 5999) /* Scroll of Flame Bolt III */
+     , (20225, 4, 8922) /* Scroll of Flame Streak III */
+     , (20225, 4, 2135) /* Scroll of Flame Volley III */
+     , (20225, 4, 21304) /* Scroll of Flame Arc III */
+     , (20225, 4, 2136) /* Scroll of Force Blast III */
+     , (20225, 4, 2931) /* Scroll of Force Bolt III */
+     , (20225, 4, 8931) /* Scroll of Force Streak III */
+     , (20225, 4, 2137) /* Scroll of Force Volley III */
+     , (20225, 4, 21311) /* Scroll of Force Arc III */
+     , (20225, 4, 1572) /* Scroll of Frost Blast III */
+     , (20225, 4, 2942) /* Scroll of Frost Bolt III */
+     , (20225, 4, 8937) /* Scroll of Frost Streak III */
+     , (20225, 4, 2138) /* Scroll of Frost Volley III */
+     , (20225, 4, 21318) /* Scroll of Frost Arc III */
+     , (20225, 4, 2140) /* Scroll of Lightning Blast III */
+     , (20225, 4, 2956) /* Scroll of Lightning Bolt III */
+     , (20225, 4, 8943) /* Scroll of Lightning Streak III */
+     , (20225, 4, 9011) /* Scroll of Lightning Volley III */
+     , (20225, 4, 21325) /* Scroll of Lightning Arc III */
+     , (20225, 4, 2141) /* Scroll of Shock Blast III */
+     , (20225, 4, 2964) /* Scroll of Shock Wave III */
+     , (20225, 4, 8949) /* Scroll of Shock Wave Streak III */
+     , (20225, 4, 21332) /* Scroll of Shock Arc III */
+     , (20225, 4, 2969) /* Scroll of Whirling Blade III */
+     , (20225, 4, 8955) /* Scroll of Whirling Blade Streak III */;
 

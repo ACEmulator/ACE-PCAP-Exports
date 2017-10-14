@@ -39,3 +39,27 @@ VALUES (19297, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19297, 67113802, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19297, 8, 46874) /* Aura of Defender Other II */
+     , (19297, 8, 2414) /* Gem */
+     , (19297, 8, 2434) /* Lesser Mana Stone */
+     , (19297, 8, 12463) /* Atlatl */
+     , (19297, 8, 45245) /* Scroll of Dirty Fighting Mastery Other II */
+     , (19297, 8, 30596) /* Poniard */
+     , (19297, 8, 2595) /* Baggy Tunic */
+     , (19297, 8, 297) /* Ring */
+     , (19297, 8, 513) /* Plain Lockpick */
+     , (19297, 8, 2598) /* Baggy Pants */
+     , (19297, 8, 30606) /* Bastone */
+     , (19297, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (19297, 8, 30625) /* War Bow */
+     , (19297, 8, 25651) /* Leather Sleeves */
+     , (19297, 8, 8329) /* Lead Pea */
+     , (19297, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (19297, 8, 7940) /* Empty Flask */
+     , (19297, 8, 273) /* Pyreal */
+     , (19297, 8, 2417) /* Gem */
+     , (19297, 8, 40760) /* Nodachi */;
+

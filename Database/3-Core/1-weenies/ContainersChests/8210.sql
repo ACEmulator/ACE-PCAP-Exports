@@ -50,3 +50,11 @@ VALUES (8210, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8210, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8210, 8, 8208) /* Forgotten Text */
+     , (8210, 8, 2589) /* Smock */
+     , (8210, 8, 3737) /* Scroll of Infuse Mana III */
+     , (8210, 8, 124) /* Jerkin */;
+

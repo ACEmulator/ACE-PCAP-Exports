@@ -39,3 +39,16 @@ VALUES (12018, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (12018, 67113360, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12018, 8, 324) /* Kaskara */
+     , (12018, 8, 28610) /* Loafers */
+     , (12018, 8, 4239) /* Reedshark Hide */
+     , (12018, 8, 49310) /* Acid Wisp Essence (50) */
+     , (12018, 8, 42) /* Studded Leather Breastplate */
+     , (12018, 8, 628) /* Handy Healing Kit */
+     , (12018, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (12018, 8, 311) /* Heavy Crossbow */
+     , (12018, 8, 8329) /* Lead Pea */;
+

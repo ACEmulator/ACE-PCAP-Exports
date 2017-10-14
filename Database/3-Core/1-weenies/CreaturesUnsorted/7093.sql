@@ -45,3 +45,17 @@ VALUES (7093, 2, 38) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7093, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7093, 8, 44976) /* Hood */
+     , (7093, 8, 8331) /* Silver Pea */
+     , (7093, 8, 273) /* Pyreal */
+     , (7093, 8, 31823) /* Fire Baton */
+     , (7093, 8, 8327) /* Gold Pea */
+     , (7093, 8, 142) /* Chalice */
+     , (7093, 8, 2436) /* Greater Mana Stone */
+     , (7093, 8, 21151) /* Covenant Bracers */
+     , (7093, 8, 309) /* Club */
+     , (7093, 8, 163) /* Ornamental Bowl */;
+

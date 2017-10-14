@@ -45,3 +45,11 @@ VALUES (20191, 2, 61) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (20191, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (20191, 8, 341) /* Shouyumi */
+     , (20191, 8, 273) /* Pyreal */
+     , (20191, 8, 101) /* Chainmail Sleeves */
+     , (20191, 8, 8329) /* Lead Pea */;
+

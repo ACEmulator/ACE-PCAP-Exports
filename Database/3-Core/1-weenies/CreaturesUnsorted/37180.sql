@@ -78,3 +78,14 @@ VALUES (37180, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (37180, 64, 1345) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37180, 8, 351) /* Long Sword */
+     , (37180, 8, 273) /* Pyreal */
+     , (37180, 8, 9229) /* Treated Healing Kit */
+     , (37180, 8, 154) /* Goblet */
+     , (37180, 8, 163) /* Ornamental Bowl */
+     , (37180, 8, 632) /* Peerless Healing Kit */
+     , (37180, 8, 2409) /* Gem */;
+

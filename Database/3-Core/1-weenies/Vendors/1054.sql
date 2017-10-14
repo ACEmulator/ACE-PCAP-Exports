@@ -126,23 +126,23 @@ VALUES (1054, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1054, 4, 2457)
-     , (1054, 4, 377)
-     , (1054, 4, 27319)
-     , (1054, 4, 2460)
-     , (1054, 4, 379)
-     , (1054, 4, 27322)
-     , (1054, 4, 378)
-     , (1054, 4, 27326)
-     , (1054, 4, 2470)
-     , (1054, 4, 628)
-     , (1054, 4, 629)
-     , (1054, 4, 630)
-     , (1054, 4, 631)
-     , (1054, 4, 4611)
-     , (1054, 4, 4450)
-     , (1054, 4, 4604)
-     , (1054, 4, 4606)
-     , (1054, 4, 2621)
-     , (1054, 4, 2622);
+VALUES (1054, 4, 2457) /* Health Draught */
+     , (1054, 4, 377) /* Potion of Healing */
+     , (1054, 4, 27319) /* Health Tincture */
+     , (1054, 4, 2460) /* Mana Draught */
+     , (1054, 4, 379) /* Mana Potion */
+     , (1054, 4, 27322) /* Mana Tincture */
+     , (1054, 4, 378) /* Stamina Potion */
+     , (1054, 4, 27326) /* Stamina Tincture */
+     , (1054, 4, 2470) /* Stamina Elixir */
+     , (1054, 4, 628) /* Handy Healing Kit */
+     , (1054, 4, 629) /* Adept Healing Kit */
+     , (1054, 4, 630) /* Gifted Healing Kit */
+     , (1054, 4, 631) /* Excellent Healing Kit */
+     , (1054, 4, 4611) /* Willpower Other II */
+     , (1054, 4, 4450) /* Heal Other I */
+     , (1054, 4, 4604) /* Coordination Other I */
+     , (1054, 4, 4606) /* Quickness Other I */
+     , (1054, 4, 2621) /* Trade Note (100) */
+     , (1054, 4, 2622) /* Trade Note (500) */;
 

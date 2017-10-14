@@ -39,3 +39,5 @@ VALUES (46352, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (46352, 67111941, 0, 0);
 
+/* Corpse Treasure List */
+

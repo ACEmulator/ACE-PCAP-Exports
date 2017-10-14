@@ -113,40 +113,40 @@ VALUES (30019, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30019, 4, 15271)
-     , (30019, 4, 5493)
-     , (30019, 4, 8916)
-     , (30019, 4, 2908)
-     , (30019, 4, 2912)
-     , (30019, 4, 21290)
-     , (30019, 4, 2132)
-     , (30019, 4, 2133)
-     , (30019, 4, 21297)
-     , (30019, 4, 2134)
-     , (30019, 4, 5492)
-     , (30019, 4, 5999)
-     , (30019, 4, 8922)
-     , (30019, 4, 2135)
-     , (30019, 4, 21304)
-     , (30019, 4, 2136)
-     , (30019, 4, 2931)
-     , (30019, 4, 8931)
-     , (30019, 4, 2137)
-     , (30019, 4, 21311)
-     , (30019, 4, 1572)
-     , (30019, 4, 2942)
-     , (30019, 4, 8937)
-     , (30019, 4, 2138)
-     , (30019, 4, 21318)
-     , (30019, 4, 2140)
-     , (30019, 4, 2956)
-     , (30019, 4, 8943)
-     , (30019, 4, 9011)
-     , (30019, 4, 21325)
-     , (30019, 4, 2141)
-     , (30019, 4, 2964)
-     , (30019, 4, 8949)
-     , (30019, 4, 21332)
-     , (30019, 4, 2969)
-     , (30019, 4, 8955);
+VALUES (30019, 4, 15271) /* Foci of Strife */
+     , (30019, 4, 5493) /* Scroll of Acid Blast III */
+     , (30019, 4, 8916) /* Scroll of Acid Streak III */
+     , (30019, 4, 2908) /* Scroll of Acid Stream III */
+     , (30019, 4, 2912) /* Scroll of Acid Volley III */
+     , (30019, 4, 21290) /* Scroll of Acid Arc III */
+     , (30019, 4, 2132) /* Scroll of Blade Blast III */
+     , (30019, 4, 2133) /* Scroll of Blade Volley III */
+     , (30019, 4, 21297) /* Scroll of Blade Arc III */
+     , (30019, 4, 2134) /* Scroll of Bludgeoning Volley III */
+     , (30019, 4, 5492) /* Scroll of Flame Blast III */
+     , (30019, 4, 5999) /* Scroll of Flame Bolt III */
+     , (30019, 4, 8922) /* Scroll of Flame Streak III */
+     , (30019, 4, 2135) /* Scroll of Flame Volley III */
+     , (30019, 4, 21304) /* Scroll of Flame Arc III */
+     , (30019, 4, 2136) /* Scroll of Force Blast III */
+     , (30019, 4, 2931) /* Scroll of Force Bolt III */
+     , (30019, 4, 8931) /* Scroll of Force Streak III */
+     , (30019, 4, 2137) /* Scroll of Force Volley III */
+     , (30019, 4, 21311) /* Scroll of Force Arc III */
+     , (30019, 4, 1572) /* Scroll of Frost Blast III */
+     , (30019, 4, 2942) /* Scroll of Frost Bolt III */
+     , (30019, 4, 8937) /* Scroll of Frost Streak III */
+     , (30019, 4, 2138) /* Scroll of Frost Volley III */
+     , (30019, 4, 21318) /* Scroll of Frost Arc III */
+     , (30019, 4, 2140) /* Scroll of Lightning Blast III */
+     , (30019, 4, 2956) /* Scroll of Lightning Bolt III */
+     , (30019, 4, 8943) /* Scroll of Lightning Streak III */
+     , (30019, 4, 9011) /* Scroll of Lightning Volley III */
+     , (30019, 4, 21325) /* Scroll of Lightning Arc III */
+     , (30019, 4, 2141) /* Scroll of Shock Blast III */
+     , (30019, 4, 2964) /* Scroll of Shock Wave III */
+     , (30019, 4, 8949) /* Scroll of Shock Wave Streak III */
+     , (30019, 4, 21332) /* Scroll of Shock Arc III */
+     , (30019, 4, 2969) /* Scroll of Whirling Blade III */
+     , (30019, 4, 8955) /* Scroll of Whirling Blade Streak III */;
 

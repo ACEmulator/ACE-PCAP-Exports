@@ -130,20 +130,20 @@ VALUES (1050, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1050, 4, 2467)
-     , (1050, 4, 4746)
-     , (1050, 4, 2455)
-     , (1050, 4, 8378)
-     , (1050, 4, 4712)
-     , (1050, 4, 4709)
-     , (1050, 4, 4729)
-     , (1050, 4, 261)
-     , (1050, 4, 1434)
-     , (1050, 4, 28242)
-     , (1050, 4, 12146)
-     , (1050, 4, 2621)
-     , (1050, 4, 15808)
-     , (1050, 4, 20229)
-     , (1050, 4, 11929)
-     , (1050, 4, 24222);
+VALUES (1050, 4, 2467) /* Red Wine */
+     , (1050, 4, 4746) /* Water */
+     , (1050, 4, 2455) /* Grape Juice */
+     , (1050, 4, 8378) /* Beer Stein */
+     , (1050, 4, 4712) /* Beef Rice */
+     , (1050, 4, 4709) /* Apple Pie */
+     , (1050, 4, 4729) /* Fried Egg */
+     , (1050, 4, 261) /* Cheese */
+     , (1050, 4, 1434) /* A note from Iquba */
+     , (1050, 4, 28242) /* Directions to the Lugian Citadels */
+     , (1050, 4, 12146) /* Simulacra Rumor */
+     , (1050, 4, 2621) /* Trade Note (100) */
+     , (1050, 4, 15808) /* Plea for Help */
+     , (1050, 4, 20229) /* Rumor of an Artifact */
+     , (1050, 4, 11929) /* A Call To Arms */
+     , (1050, 4, 24222) /* Duplicated Portals */;
 

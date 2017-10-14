@@ -48,3 +48,16 @@ VALUES (12038, 2, 46) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12038, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12038, 8, 2431) /* Gem */
+     , (12038, 8, 621) /* Heavy Bracelet */
+     , (12038, 8, 2435) /* Mana Stone */
+     , (12038, 8, 8665) /* Ursuin Scalp */
+     , (12038, 8, 48959) /* Fire Elemental Essence (50) */
+     , (12038, 8, 40821) /* Flaming Corsesca */
+     , (12038, 8, 72) /* Platemail Hauberk */
+     , (12038, 8, 135) /* Turban */
+     , (12038, 8, 30586) /* Flanged Mace */;
+

@@ -45,3 +45,45 @@ VALUES (28552, 2, 47) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28552, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28552, 8, 2416) /* Gem */
+     , (28552, 8, 2434) /* Lesser Mana Stone */
+     , (28552, 8, 57) /* Platemail Gauntlets */
+     , (28552, 8, 27331) /* Minor Mana Stone */
+     , (28552, 8, 161) /* Mug */
+     , (28552, 8, 2596) /* Doublet */
+     , (28552, 8, 273) /* Pyreal */
+     , (28552, 8, 297) /* Ring */
+     , (28552, 8, 2413) /* Gem */
+     , (28552, 8, 2435) /* Mana Stone */
+     , (28552, 8, 80) /* Chainmail Leggings */
+     , (28552, 8, 20640) /* Royal Atlatl */
+     , (28552, 8, 127) /* Pants */
+     , (28552, 8, 8329) /* Lead Pea */
+     , (28552, 8, 31794) /* Lancet */
+     , (28552, 8, 6057) /* Tiny Shard */
+     , (28552, 8, 22155) /* Lightning Jo */
+     , (28552, 8, 8328) /* Iron Pea */
+     , (28552, 8, 28012) /* Scroll of Spirit Loather IV */
+     , (28552, 8, 61) /* Platemail Girth */
+     , (28552, 8, 7940) /* Empty Flask */
+     , (28552, 8, 2878) /* Scroll of Strengthen Lock III */
+     , (28552, 8, 62) /* Scalemail Girth */
+     , (28552, 8, 98) /* Scalemail Shirt */
+     , (28552, 8, 121) /* Gloves */
+     , (28552, 8, 31786) /* Lightning Claw */
+     , (28552, 8, 294) /* Amulet */
+     , (28552, 8, 49485) /* Encapsulated Spirit */
+     , (28552, 8, 2431) /* Gem */
+     , (28552, 8, 295) /* Bracelet */
+     , (28552, 8, 3339) /* Scroll of Jumping Mastery Self III */
+     , (28552, 8, 2419) /* Gem */
+     , (28552, 8, 2601) /* Loose Pants */
+     , (28552, 8, 148) /* Cup */
+     , (28552, 8, 312) /* Light Crossbow */
+     , (28552, 8, 621) /* Heavy Bracelet */
+     , (28552, 8, 2427) /* Gem */
+     , (28552, 8, 45419) /* Flaming Knife */;
+

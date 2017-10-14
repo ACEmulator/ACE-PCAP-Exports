@@ -49,3 +49,19 @@ VALUES (31443, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31443, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31443, 8, 31447) /* Second Half of a Battered Sword */
+     , (31443, 8, 31461) /* Second Half of a Battered Bow */
+     , (31443, 8, 31459) /* Second Half of a Battered Dagger */
+     , (31443, 8, 31464) /* First Half of a Battered Atlatl */
+     , (31443, 8, 31446) /* First Half of a Battered Sword */
+     , (31443, 8, 31465) /* Second Half of a Battered Atlatl */
+     , (31443, 8, 31462) /* First Half of a Battered Crossbow */
+     , (31443, 8, 31452) /* First Half of a Battered Spear */
+     , (31443, 8, 31451) /* Second Half of a Battered Axe */
+     , (31443, 8, 31449) /* Second Half of a Battered Mace */
+     , (31443, 8, 31460) /* First Half of a Battered Bow */
+     , (31443, 8, 31453) /* Second Half of a Battered Spear */;
+

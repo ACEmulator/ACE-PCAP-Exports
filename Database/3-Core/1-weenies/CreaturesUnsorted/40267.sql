@@ -44,3 +44,11 @@ VALUES (40267, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40267, 64, 1965) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40267, 8, 2410) /* Gem */
+     , (40267, 8, 27328) /* Major Mana Stone */
+     , (40267, 8, 9229) /* Treated Healing Kit */
+     , (40267, 8, 31864) /* Teardrop Crown */;
+

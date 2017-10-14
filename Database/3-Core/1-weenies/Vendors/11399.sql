@@ -141,17 +141,17 @@ VALUES (11399, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (11399, 4, 2599)
-     , (11399, 4, 2595)
-     , (11399, 4, 119)
-     , (11399, 4, 132)
-     , (11399, 4, 5851)
-     , (11399, 4, 8371)
-     , (11399, 4, 5854)
-     , (11399, 4, 5901)
-     , (11399, 4, 8372)
-     , (11399, 4, 5852)
-     , (11399, 4, 5894)
-     , (11399, 4, 8373)
-     , (11399, 4, 44850);
+VALUES (11399, 4, 2599) /* Trousers */
+     , (11399, 4, 2595) /* Baggy Tunic */
+     , (11399, 4, 119) /* Cowl */
+     , (11399, 4, 132) /* Shoes */
+     , (11399, 4, 5851) /* Faran Robe with Hood */
+     , (11399, 4, 8371) /* Kireth Gown with Band */
+     , (11399, 4, 5854) /* Suikan Robe */
+     , (11399, 4, 5901) /* Kasa */
+     , (11399, 4, 8372) /* Yifan Dress */
+     , (11399, 4, 5852) /* Dho Vest and Robe */
+     , (11399, 4, 5894) /* Fez */
+     , (11399, 4, 8373) /* Kiyafa Robe */
+     , (11399, 4, 44850) /* Chevron Cloak */;
 

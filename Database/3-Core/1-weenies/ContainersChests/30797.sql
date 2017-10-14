@@ -50,3 +50,26 @@ VALUES (30797, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30797, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30797, 8, 149) /* Ewer */
+     , (30797, 8, 31792) /* Frost Stick */
+     , (30797, 8, 624) /* Ring */
+     , (30797, 8, 44803) /* Empyrean Over-robe */
+     , (30797, 8, 40709) /* Covenant Girth */
+     , (30797, 8, 29248) /* Fire Crossbow */
+     , (30797, 8, 31779) /* Spine Glaive */
+     , (30797, 8, 31807) /* Blunt Compound Crossbow */
+     , (30797, 8, 42) /* Studded Leather Breastplate */
+     , (30797, 8, 2625) /* Trade Note (10,000) */
+     , (30797, 8, 3906) /* Lightning War Hammer */
+     , (30797, 8, 7787) /* Frost Spiked Club */
+     , (30797, 8, 3892) /* Frost Tachi */
+     , (30797, 8, 273) /* Pyreal */
+     , (30797, 8, 27231) /* Nariyid Leggings */
+     , (30797, 8, 297) /* Ring */
+     , (30797, 8, 43300) /* Scroll of Nether Arc VII */
+     , (30797, 8, 515) /* Superb Lockpick */
+     , (30797, 8, 20630) /* Trade Note (250,000) */;
+

@@ -48,3 +48,12 @@ VALUES (45855, 2, 48) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (45855, 64, 20000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (45855, 8, 41484) /* Goggles */
+     , (45855, 8, 45858) /* Essence of Dravann */
+     , (45855, 8, 2407) /* Gem */
+     , (45855, 8, 2411) /* Gem */
+     , (45855, 8, 25641) /* Leather Cuirass */;
+

@@ -45,3 +45,19 @@ VALUES (22915, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22915, 64, 700) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22915, 8, 46884) /* Aura of Hermetic Link Other VII */
+     , (22915, 8, 20551) /* Scroll of Ar-Pei's Blessing */
+     , (22915, 8, 20471) /* Scroll of Boon of the Mace Turner */
+     , (22915, 8, 2422) /* Gem */
+     , (22915, 8, 273) /* Pyreal */
+     , (22915, 8, 25948) /* Dark Amber Ring */
+     , (22915, 8, 22925) /* Athenaeum Key */
+     , (22915, 8, 28610) /* Loafers */
+     , (22915, 8, 296) /* Crown */
+     , (22915, 8, 43373) /* Scroll of Void Magic Ineptitude Other VII */
+     , (22915, 8, 2402) /* Gem */
+     , (22915, 8, 41483) /* Compass */;
+

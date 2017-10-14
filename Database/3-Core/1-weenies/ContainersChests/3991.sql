@@ -53,3 +53,21 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3991, 2, 0) /* OPEN_BOOL */
      , (3991, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3991, 8, 43336) /* Scroll of Weakening Curse VII */
+     , (3991, 8, 154) /* Goblet */
+     , (3991, 8, 49228) /* Frost Skeleton Minion Essence (80) */
+     , (3991, 8, 2367) /* Gorget */
+     , (3991, 8, 12463) /* Atlatl */
+     , (3991, 8, 108) /* Chainmail Tassets */
+     , (3991, 8, 43) /* Yoroi Breastplate */
+     , (3991, 8, 45100) /* Acid Epee */
+     , (3991, 8, 296) /* Crown */
+     , (3991, 8, 63) /* Studded Leather Girth */
+     , (3991, 8, 20640) /* Royal Atlatl */
+     , (3991, 8, 30609) /* Frost Bastone */
+     , (3991, 8, 309) /* Club */
+     , (3991, 8, 621) /* Heavy Bracelet */;
+

@@ -54,3 +54,11 @@ VALUES (34972, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (34972, 64, 2505) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34972, 8, 31807) /* Blunt Compound Crossbow */
+     , (34972, 8, 37209) /* Olthoi Celdon Sollerets */
+     , (34972, 8, 22158) /* Jo */
+     , (34972, 8, 44977) /* Lyceum Hood */;
+

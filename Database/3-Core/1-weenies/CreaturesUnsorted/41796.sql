@@ -37,3 +37,5 @@ VALUES (41796, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (41796, 19, True) /* ATTACKABLE_BOOL */
      , (41796, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+

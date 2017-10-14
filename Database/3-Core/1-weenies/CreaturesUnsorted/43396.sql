@@ -45,3 +45,59 @@ VALUES (43396, 2, 100) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43396, 64, 1900) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43396, 8, 31801) /* Electric Compound Bow */
+     , (43396, 8, 38) /* Studded Leather Bracers */
+     , (43396, 8, 37189) /* Olthoi Celdon Gauntlets */
+     , (43396, 8, 31819) /* Staff */
+     , (43396, 8, 43519) /* Entryway Key */
+     , (43396, 8, 621) /* Heavy Bracelet */
+     , (43396, 8, 7790) /* Electric Spiked Club */
+     , (43396, 8, 93) /* Round Shield */
+     , (43396, 8, 37207) /* Olthoi Alduressa Boots */
+     , (43396, 8, 20545) /* Scroll of Feat of Radaz */
+     , (43396, 8, 51370) /* Frozen Fortress Testing Grounds Attunement Shard (Level 180+) */
+     , (43396, 8, 294) /* Amulet */
+     , (43396, 8, 37221) /* Frost Staff */
+     , (43396, 8, 49365) /* Arctic Grievver Essence */
+     , (43396, 8, 49469) /* Scroll of Summoning Mastery Other VII */
+     , (43396, 8, 356) /* Tofun */
+     , (43396, 8, 20411) /* Aura of Cragstone's Will */
+     , (43396, 8, 2605) /* Chainmail Greaves */
+     , (43396, 8, 2411) /* Gem */
+     , (43396, 8, 3854) /* Lightning Shamshir */
+     , (43396, 8, 31026) /* Tenassa Breastplate */
+     , (43396, 8, 127) /* Pants */
+     , (43396, 8, 31781) /* Electric Spine Glaive */
+     , (43396, 8, 28608) /* Poet's Shirt */
+     , (43396, 8, 31820) /* Acid Baton */
+     , (43396, 8, 20424) /* Scroll of Archer Bait */
+     , (43396, 8, 64) /* Yoroi Girth */
+     , (43396, 8, 121) /* Gloves */
+     , (43396, 8, 37216) /* Olthoi Breastplate */
+     , (43396, 8, 2410) /* Gem */
+     , (43396, 8, 31814) /* Dark Blunt Slingshot */
+     , (43396, 8, 45419) /* Flaming Knife */
+     , (43396, 8, 92) /* Large Kite Shield */
+     , (43396, 8, 49226) /* Lightning Skeleton Samurai Essence */
+     , (43396, 8, 41063) /* Acid Khanda-handled Mace */
+     , (43396, 8, 31866) /* Coronet */
+     , (43396, 8, 28612) /* Bandana */
+     , (43396, 8, 22165) /* Lightning Quarter Staff */
+     , (43396, 8, 30611) /* Knuckles */
+     , (43396, 8, 415) /* Chainmail Girth */
+     , (43396, 8, 42749) /* Haebrean Breastplate */
+     , (43396, 8, 25646) /* Long Leather Gauntlets */
+     , (43396, 8, 27221) /* Lorica Breastplate */
+     , (43396, 8, 31779) /* Spine Glaive */
+     , (43396, 8, 27215) /* Chiran Coat */
+     , (43396, 8, 20563) /* Scroll of Eyes Clouded */
+     , (43396, 8, 20473) /* Scroll of Tusker's Gift */
+     , (43396, 8, 41042) /* Acid Magari Yari */
+     , (43396, 8, 336) /* Ono */
+     , (43396, 8, 40684) /* Olthoi Tassets */
+     , (43396, 8, 2599) /* Trousers */
+     , (43396, 8, 3916) /* Frost Yari */;
+

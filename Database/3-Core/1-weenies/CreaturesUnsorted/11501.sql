@@ -79,3 +79,38 @@ VALUES (11501, 12, 16777304)
      , (11501, 13, 16783871)
      , (11501, 14, 16783855);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11501, 8, 25647) /* Leather Pants */
+     , (11501, 8, 2435) /* Mana Stone */
+     , (11501, 8, 45876) /* Scarlet Red Letter */
+     , (11501, 8, 42518) /* Coalesced Mana */
+     , (11501, 8, 2592) /* Puffy Tunic */
+     , (11501, 8, 2472) /* Wand */
+     , (11501, 8, 313) /* Dabus */
+     , (11501, 8, 254) /* Stoup */
+     , (11501, 8, 2866) /* Scroll of Lure Blade VI */
+     , (11501, 8, 161) /* Mug */
+     , (11501, 8, 20597) /* Scroll of Koga's Boon */
+     , (11501, 8, 45272) /* Scroll of Dual Wield Mastery Other V */
+     , (11501, 8, 7790) /* Electric Spiked Club */
+     , (11501, 8, 6047) /* Amuli Leggings */
+     , (11501, 8, 68) /* Studded Leather Greaves */
+     , (11501, 8, 7787) /* Frost Spiked Club */
+     , (11501, 8, 45120) /* Lightning Hand Wraps */
+     , (11501, 8, 414) /* Chainmail Breastplate */
+     , (11501, 8, 119) /* Cowl */
+     , (11501, 8, 8326) /* Copper Pea */
+     , (11501, 8, 40523) /* Contact Instructions */
+     , (11501, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (11501, 8, 92) /* Large Kite Shield */
+     , (11501, 8, 133) /* Slippers */
+     , (11501, 8, 2981) /* Scroll of Acid Protection Self V */
+     , (11501, 8, 7940) /* Empty Flask */
+     , (11501, 8, 41) /* Scalemail Breastplate */
+     , (11501, 8, 22440) /* Dirk */
+     , (11501, 8, 41041) /* Magari Yari */
+     , (11501, 8, 45113) /* Hammer */
+     , (11501, 8, 30576) /* Flamberge */;
+

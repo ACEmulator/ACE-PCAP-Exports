@@ -49,3 +49,30 @@ VALUES (27242, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27242, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27242, 8, 12463) /* Atlatl */
+     , (27242, 8, 116) /* Studded Leather Boots */
+     , (27242, 8, 3727) /* Scroll of Drain Stamina Other III */
+     , (27242, 8, 7897) /* Steel Toed Boots */
+     , (27242, 8, 413) /* Chainmail Bracers */
+     , (27242, 8, 41055) /* Flaming Greataxe */
+     , (27242, 8, 68) /* Studded Leather Greaves */
+     , (27242, 8, 1845) /* Scroll of Bludgeon Protection Self */
+     , (27242, 8, 45397) /* Acid Short Sword */
+     , (27242, 8, 359) /* War Hammer */
+     , (27242, 8, 25642) /* Leather Gauntlets */
+     , (27242, 8, 31781) /* Electric Spine Glaive */
+     , (27242, 8, 55) /* Chainmail Gauntlets */
+     , (27242, 8, 1785) /* Scroll of Revitalize Self */
+     , (27242, 8, 25637) /* Leather Bracers */
+     , (27242, 8, 45420) /* Frost Knife */
+     , (27242, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (27242, 8, 128) /* Qafiya */
+     , (27242, 8, 30610) /* Acid Bastone */
+     , (27242, 8, 415) /* Chainmail Girth */
+     , (27242, 8, 332) /* Morning Star */
+     , (27242, 8, 3309) /* Scroll of Item Enchantment Mastery Other III */
+     , (27242, 8, 2418) /* Gem */;
+

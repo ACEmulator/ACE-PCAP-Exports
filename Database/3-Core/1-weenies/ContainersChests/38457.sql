@@ -53,3 +53,60 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (38457, 2, 0) /* OPEN_BOOL */
      , (38457, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38457, 8, 31807) /* Blunt Compound Crossbow */
+     , (38457, 8, 22168) /* Hefty Walking Cane */
+     , (38457, 8, 41042) /* Acid Magari Yari */
+     , (38457, 8, 301) /* Battle Axe */
+     , (38457, 8, 332) /* Morning Star */
+     , (38457, 8, 45118) /* Hand Wraps */
+     , (38457, 8, 31801) /* Electric Compound Bow */
+     , (38457, 8, 30556) /* Hatchet */
+     , (38457, 8, 31787) /* Flaming Claw */
+     , (38457, 8, 3913) /* Acid Yari */
+     , (38457, 8, 41046) /* Pike */
+     , (38457, 8, 45419) /* Flaming Knife */
+     , (38457, 8, 22440) /* Dirk */
+     , (38457, 8, 31784) /* Claw */
+     , (38457, 8, 22163) /* Nabut */
+     , (38457, 8, 4191) /* Flaming Cestus */
+     , (38457, 8, 359) /* War Hammer */
+     , (38457, 8, 31769) /* Lugian Axe */
+     , (38457, 8, 30613) /* Flaming Knuckles */
+     , (38457, 8, 22443) /* Flaming Dirk */
+     , (38457, 8, 31814) /* Dark Blunt Slingshot */
+     , (38457, 8, 7794) /* Electric Trident */
+     , (38457, 8, 308) /* Budiaq */
+     , (38457, 8, 357) /* Tungi */
+     , (38457, 8, 30594) /* Acid Partizan */
+     , (38457, 8, 2548) /* Sceptre */
+     , (38457, 8, 31813) /* Acid Slingshot */
+     , (38457, 8, 31775) /* Acid Board with Nail */
+     , (38457, 8, 45402) /* Acid Simi */
+     , (38457, 8, 45421) /* Dagger */
+     , (38457, 8, 348) /* Spear */
+     , (38457, 8, 29263) /* Frost Sceptre */
+     , (38457, 8, 4195) /* Nekode */
+     , (38457, 8, 30614) /* Frost Knuckles */
+     , (38457, 8, 325) /* Kasrullah */
+     , (38457, 8, 41044) /* Flaming Magari Yari */
+     , (38457, 8, 29258) /* Slashing Atlatl */
+     , (38457, 8, 45120) /* Lightning Hand Wraps */
+     , (38457, 8, 40762) /* Lightning Nodachi */
+     , (38457, 8, 31824) /* Ice Wand */
+     , (38457, 8, 40820) /* Lightning Corsesca */
+     , (38457, 8, 45106) /* Flaming Rapier */
+     , (38457, 8, 22154) /* Acid Jo */
+     , (38457, 8, 31759) /* Dericost Blade */
+     , (38457, 8, 30609) /* Frost Bastone */
+     , (38457, 8, 339) /* Scimitar */
+     , (38457, 8, 3939) /* Acid Morning Star */
+     , (38457, 8, 327) /* Ken */
+     , (38457, 8, 7787) /* Frost Spiked Club */
+     , (38457, 8, 7790) /* Electric Spiked Club */
+     , (38457, 8, 31800) /* Blunt Compound Bow */
+     , (38457, 8, 3877) /* Acid Broad Sword */
+     , (38457, 8, 31798) /* Slashing Compound Bow */;
+

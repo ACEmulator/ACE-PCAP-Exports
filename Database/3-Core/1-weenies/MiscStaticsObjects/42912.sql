@@ -38,3 +38,28 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (42912, 19, 125) /* VALUE_INT */
      , (42912, 5, 9000) /* ENCUMB_VAL_INT */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42912, 8, 2416) /* Gem */
+     , (42912, 8, 8329) /* Lead Pea */
+     , (42912, 8, 5768) /* Poofy Snowball */
+     , (42912, 8, 5758) /* Carrot */
+     , (42912, 8, 127) /* Pants */
+     , (42912, 8, 273) /* Pyreal */
+     , (42912, 8, 7835) /* Magic Iceball */
+     , (42912, 8, 31794) /* Lancet */
+     , (42912, 8, 22441) /* Acid Dirk */
+     , (42912, 8, 27331) /* Minor Mana Stone */
+     , (42912, 8, 161) /* Mug */
+     , (42912, 8, 25649) /* Leather Shirt */
+     , (42912, 8, 5762) /* Snowball */
+     , (42912, 8, 295) /* Bracelet */
+     , (42912, 8, 28941) /* Scroll of Arcanum Enlightenment II */
+     , (42912, 8, 130) /* Shirt */
+     , (42912, 8, 297) /* Ring */
+     , (42912, 8, 22825) /* A Lump of Coal */
+     , (42912, 8, 2426) /* Gem */
+     , (42912, 8, 2595) /* Baggy Tunic */
+     , (42912, 8, 132) /* Shoes */;
+

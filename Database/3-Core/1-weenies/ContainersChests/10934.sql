@@ -67,3 +67,5 @@ VALUES (10934, 2, 0) /* OPEN_BOOL */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (10934, 2636) /* KarenuasCurse_SpellID */;
 
+/* Chest Treasure List */
+

@@ -50,3 +50,22 @@ VALUES (52617, 2, 9) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (52617, 64, 10200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52617, 8, 622) /* Necklace */
+     , (52617, 8, 27321) /* Mana Philtre */
+     , (52617, 8, 52970) /* Viridian Essence */
+     , (52617, 8, 27328) /* Major Mana Stone */
+     , (52617, 8, 52968) /* Infused Amber Shard */
+     , (52617, 8, 121) /* Gloves */
+     , (52617, 8, 27320) /* Health Tonic */
+     , (52617, 8, 2404) /* Gem */
+     , (52617, 8, 273) /* Pyreal */
+     , (52617, 8, 31804) /* Piercing Compound Bow */
+     , (52617, 8, 2412) /* Gem */
+     , (52617, 8, 516) /* Peerless Lockpick */
+     , (52617, 8, 8327) /* Gold Pea */
+     , (52617, 8, 20584) /* Scroll of Heavy Weapon Ineptitude Other VII */
+     , (52617, 8, 515) /* Superb Lockpick */;
+

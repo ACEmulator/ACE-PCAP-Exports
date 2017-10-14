@@ -128,27 +128,27 @@ VALUES (44189, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (44189, 4, 44386)
-     , (44189, 4, 44173)
-     , (44189, 4, 44147)
-     , (44189, 4, 44154)
-     , (44189, 4, 44142)
-     , (44189, 4, 44148)
-     , (44189, 4, 44174)
-     , (44189, 4, 44175)
-     , (44189, 4, 44149)
-     , (44189, 4, 44172)
-     , (44189, 4, 44181)
-     , (44189, 4, 44171)
-     , (44189, 4, 44150)
-     , (44189, 4, 2621)
-     , (44189, 4, 2622)
-     , (44189, 4, 2623)
-     , (44189, 4, 2624)
-     , (44189, 4, 2625)
-     , (44189, 4, 2626)
-     , (44189, 4, 2627)
-     , (44189, 4, 20628)
-     , (44189, 4, 20629)
-     , (44189, 4, 20630);
+VALUES (44189, 4, 44386) /* Contract for Broker Contracts */
+     , (44189, 4, 44173) /* Faces of the Mukkir (Low) */
+     , (44189, 4, 44147) /* Contract for Defense of Zaikhal (Copper) */
+     , (44189, 4, 44154) /* Contract for The Decrepit Tower */
+     , (44189, 4, 44142) /* Contract for Reign of Terror */
+     , (44189, 4, 44148) /* Contract for Defense of Zaikhal (Silver) */
+     , (44189, 4, 44174) /* Faces of the Mukkir (Mid) */
+     , (44189, 4, 44175) /* Contract for First Contact */
+     , (44189, 4, 44149) /* Contract for Defense of Zaikhal (Gold) */
+     , (44189, 4, 44172) /* Faces of the Mukkir (High) */
+     , (44189, 4, 44181) /* Contract for His Master's Voice */
+     , (44189, 4, 44171) /* Faces of the Mukkir (Expert) */
+     , (44189, 4, 44150) /* Contract for Defense of Zaikhal (Platinum) */
+     , (44189, 4, 2621) /* Trade Note (100) */
+     , (44189, 4, 2622) /* Trade Note (500) */
+     , (44189, 4, 2623) /* Trade Note (1,000) */
+     , (44189, 4, 2624) /* Trade Note (5,000) */
+     , (44189, 4, 2625) /* Trade Note (10,000) */
+     , (44189, 4, 2626) /* Trade Note (50,000) */
+     , (44189, 4, 2627) /* Trade Note (100,000) */
+     , (44189, 4, 20628) /* Trade Note (150,000) */
+     , (44189, 4, 20629) /* Trade Note (200,000) */
+     , (44189, 4, 20630) /* Trade Note (250,000) */;
 

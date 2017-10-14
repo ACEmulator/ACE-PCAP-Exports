@@ -79,3 +79,136 @@ VALUES (4254, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4254, 64, 255) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4254, 8, 49485) /* Encapsulated Spirit */
+     , (4254, 8, 161) /* Mug */
+     , (4254, 8, 2436) /* Greater Mana Stone */
+     , (4254, 8, 295) /* Bracelet */
+     , (4254, 8, 624) /* Ring */
+     , (4254, 8, 27330) /* Moderate Mana Stone */
+     , (4254, 8, 3442) /* Scroll of Monster Attunement Other VI */
+     , (4254, 8, 8326) /* Copper Pea */
+     , (4254, 8, 41063) /* Acid Khanda-handled Mace */
+     , (4254, 8, 45113) /* Hammer */
+     , (4254, 8, 129) /* Sandals */
+     , (4254, 8, 273) /* Pyreal */
+     , (4254, 8, 28007) /* Aura of Spirit Drinker Self VI */
+     , (4254, 8, 8328) /* Iron Pea */
+     , (4254, 8, 2595) /* Baggy Tunic */
+     , (4254, 8, 20856) /* Bael'Zharon Stamp */
+     , (4254, 8, 40822) /* Frost Corsesca */
+     , (4254, 8, 2602) /* Loose Breeches */
+     , (4254, 8, 31758) /* Frost Dericost Blade */
+     , (4254, 8, 294) /* Amulet */
+     , (4254, 8, 6058) /* Dark Shard */
+     , (4254, 8, 243) /* Dinner Plate */
+     , (4254, 8, 20403) /* Scroll of Olthoi Bait */
+     , (4254, 8, 20607) /* Scroll of Gift of Vitality */
+     , (4254, 8, 2435) /* Mana Stone */
+     , (4254, 8, 2603) /* Baggy Breeches */
+     , (4254, 8, 142) /* Chalice */
+     , (4254, 8, 163) /* Ornamental Bowl */
+     , (4254, 8, 2424) /* Gem */
+     , (4254, 8, 45876) /* Scarlet Red Letter */
+     , (4254, 8, 20414) /* Scroll of Gelidite's Bane */
+     , (4254, 8, 118) /* Cloth Cap */
+     , (4254, 8, 621) /* Heavy Bracelet */
+     , (4254, 8, 31026) /* Tenassa Breastplate */
+     , (4254, 8, 2425) /* Gem */
+     , (4254, 8, 2643) /* Scroll of Clumsiness Other VI */
+     , (4254, 8, 121) /* Gloves */
+     , (4254, 8, 43292) /* Scroll of Corruption VII */
+     , (4254, 8, 30625) /* War Bow */
+     , (4254, 8, 2423) /* Gem */
+     , (4254, 8, 297) /* Ring */
+     , (4254, 8, 6876) /* Sturdy Iron Key */
+     , (4254, 8, 254) /* Stoup */
+     , (4254, 8, 30561) /* Dolabra */
+     , (4254, 8, 45) /* Leather Cap */
+     , (4254, 8, 21321) /* Scroll of Frost Arc VI */
+     , (4254, 8, 89) /* Studded Leather Pauldrons */
+     , (4254, 8, 78) /* Kote */
+     , (4254, 8, 31762) /* Flaming Dericost Blade */
+     , (4254, 8, 30608) /* Flaming Bastone */
+     , (4254, 8, 296) /* Crown */
+     , (4254, 8, 2433) /* Gem */
+     , (4254, 8, 154) /* Goblet */
+     , (4254, 8, 2421) /* Gem */
+     , (4254, 8, 2422) /* Gem */
+     , (4254, 8, 2413) /* Gem */
+     , (4254, 8, 141) /* Bowl */
+     , (4254, 8, 2395) /* Gem */
+     , (4254, 8, 20405) /* Scroll of Swordsman Bait */
+     , (4254, 8, 2587) /* Shirt */
+     , (4254, 8, 8331) /* Silver Pea */
+     , (4254, 8, 622) /* Necklace */
+     , (4254, 8, 2811) /* Aura of Defender Self VI */
+     , (4254, 8, 31866) /* Coronet */
+     , (4254, 8, 2588) /* Flared Shirt */
+     , (4254, 8, 116) /* Studded Leather Boots */
+     , (4254, 8, 2871) /* Scroll of Piercing Bane VI */
+     , (4254, 8, 2992) /* Scroll of Blade Protection Other VI */
+     , (4254, 8, 20640) /* Royal Atlatl */
+     , (4254, 8, 4199) /* Lightning Nekode */
+     , (4254, 8, 45875) /* Lucky Gold Letter */
+     , (4254, 8, 2397) /* Gem */
+     , (4254, 8, 133) /* Slippers */
+     , (4254, 8, 2367) /* Gorget */
+     , (4254, 8, 45397) /* Acid Short Sword */
+     , (4254, 8, 45100) /* Acid Epee */
+     , (4254, 8, 2590) /* Baggy Shirt */
+     , (4254, 8, 354) /* Takuba */
+     , (4254, 8, 20440) /* Scroll of Ilservian's Flame */
+     , (4254, 8, 28607) /* Lace Shirt */
+     , (4254, 8, 25651) /* Leather Sleeves */
+     , (4254, 8, 132) /* Shoes */
+     , (4254, 8, 2604) /* Wide Breeches */
+     , (4254, 8, 41486) /* Puzzle Box */
+     , (4254, 8, 2398) /* Gem */
+     , (4254, 8, 43325) /* Scroll of Destructive Curse VI */
+     , (4254, 8, 99) /* Studded Leather Shirt */
+     , (4254, 8, 5973) /* Scroll of Fletching Mastery Other VI */
+     , (4254, 8, 2601) /* Loose Pants */
+     , (4254, 8, 40713) /* Covenant Shield */
+     , (4254, 8, 64) /* Yoroi Girth */
+     , (4254, 8, 44975) /* Hood */
+     , (4254, 8, 12463) /* Atlatl */
+     , (4254, 8, 41483) /* Compass */
+     , (4254, 8, 45401) /* Simi */
+     , (4254, 8, 2432) /* Gem */
+     , (4254, 8, 8488) /* Armet */
+     , (4254, 8, 2599) /* Trousers */
+     , (4254, 8, 25652) /* Leather Tassets */
+     , (4254, 8, 25639) /* Leather Jerkin */
+     , (4254, 8, 28623) /* Diforsa Pauldrons */
+     , (4254, 8, 150) /* Flagon */
+     , (4254, 8, 112) /* Studded Leather Tassets */
+     , (4254, 8, 306) /* Longbow */
+     , (4254, 8, 28610) /* Loafers */
+     , (4254, 8, 21114) /* Scroll of Martyr's Tenacity VI */
+     , (4254, 8, 127) /* Pants */
+     , (4254, 8, 2394) /* Gem */
+     , (4254, 8, 45305) /* Scroll of Recklessness Mastery Self VI */
+     , (4254, 8, 2393) /* Gem */
+     , (4254, 8, 80) /* Chainmail Leggings */
+     , (4254, 8, 30603) /* Flaming Stiletto */
+     , (4254, 8, 20567) /* Scroll of Inefficient Investment */
+     , (4254, 8, 7771) /* Naginata */
+     , (4254, 8, 59) /* Studded Leather Gauntlets */
+     , (4254, 8, 149) /* Ewer */
+     , (4254, 8, 45122) /* Frost Hand Wraps */
+     , (4254, 8, 312) /* Light Crossbow */
+     , (4254, 8, 21159) /* Covenant Tassets */
+     , (4254, 8, 21156) /* Covenant Helm */
+     , (4254, 8, 20571) /* Scroll of Kaluhc's Boon */
+     , (4254, 8, 6046) /* Amuli Coat */
+     , (4254, 8, 20568) /* Scroll of Topheron's Boon */
+     , (4254, 8, 40695) /* Covenant Sollerets */
+     , (4254, 8, 20487) /* Scroll of Decrepitude's Grasp */
+     , (4254, 8, 31780) /* Acid Spine Glaive */
+     , (4254, 8, 28630) /* Diforsa Cuirass */
+     , (4254, 8, 2598) /* Baggy Pants */
+     , (4254, 8, 2472) /* Wand */;
+

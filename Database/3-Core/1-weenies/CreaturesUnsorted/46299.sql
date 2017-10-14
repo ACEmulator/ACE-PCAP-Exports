@@ -76,3 +76,16 @@ VALUES (46299, 64, 38000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (46299, 128, 24000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (46299, 256, 17000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46299, 8, 20252) /* Scroll of Belly of Lead */
+     , (46299, 8, 46288) /* Tiny's Head */
+     , (46299, 8, 49534) /* Fire Phyntos Wasp Essence (125) */
+     , (46299, 8, 359) /* War Hammer */
+     , (46299, 8, 25643) /* Leather Girth */
+     , (46299, 8, 31864) /* Teardrop Crown */
+     , (46299, 8, 45117) /* Frost Hammer */
+     , (46299, 8, 7795) /* Frost Naginata */
+     , (46299, 8, 133) /* Slippers */;
+

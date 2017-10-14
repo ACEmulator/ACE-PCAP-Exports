@@ -50,3 +50,11 @@ VALUES (52616, 2, 9) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (52616, 64, 8200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52616, 8, 134) /* Tunic */
+     , (52616, 8, 9229) /* Treated Healing Kit */
+     , (52616, 8, 516) /* Peerless Lockpick */
+     , (52616, 8, 52970) /* Viridian Essence */;
+

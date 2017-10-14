@@ -50,3 +50,8 @@ VALUES (14540, 0, 16784246)
      , (14540, 1, 16784196)
      , (14540, 2, 16784180);
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14540, 8, 14525) /* Fragment of the Ice Prism */;
+

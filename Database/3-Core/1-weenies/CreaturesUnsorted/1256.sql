@@ -83,3 +83,44 @@ VALUES (1256, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1256, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1256, 8, 21295) /* Scroll of Blade Arc I */
+     , (1256, 8, 45099) /* Epee */
+     , (1256, 8, 273) /* Pyreal */
+     , (1256, 8, 1267) /* Key */
+     , (1256, 8, 112) /* Studded Leather Tassets */
+     , (1256, 8, 295) /* Bracelet */
+     , (1256, 8, 2419) /* Gem */
+     , (1256, 8, 45317) /* Scroll of Shield Mastery Other II */
+     , (1256, 8, 2743) /* Scroll of Self Strength III */
+     , (1256, 8, 377) /* Potion of Healing */
+     , (1256, 8, 94) /* Diamond Shield */
+     , (1256, 8, 12463) /* Atlatl */
+     , (1256, 8, 8329) /* Lead Pea */
+     , (1256, 8, 80) /* Chainmail Leggings */
+     , (1256, 8, 121) /* Gloves */
+     , (1256, 8, 168) /* Tankard */
+     , (1256, 8, 46) /* Metal Cap */
+     , (1256, 8, 21304) /* Scroll of Flame Arc III */
+     , (1256, 8, 2366) /* Orb */
+     , (1256, 8, 513) /* Plain Lockpick */
+     , (1256, 8, 49275) /* Frost Elemental Essence (50) */
+     , (1256, 8, 38) /* Studded Leather Bracers */
+     , (1256, 8, 2603) /* Baggy Breeches */
+     , (1256, 8, 25640) /* Leather Cowl */
+     , (1256, 8, 89) /* Studded Leather Pauldrons */
+     , (1256, 8, 20640) /* Royal Atlatl */
+     , (1256, 8, 49303) /* Frost K'nath Essence (50) */
+     , (1256, 8, 3184) /* Scroll of Missile Weapon Mastery Self III */
+     , (1256, 8, 96) /* Chainmail Shirt */
+     , (1256, 8, 28609) /* Vest */
+     , (1256, 8, 2605) /* Chainmail Greaves */
+     , (1256, 8, 2415) /* Gem */
+     , (1256, 8, 2434) /* Lesser Mana Stone */
+     , (1256, 8, 5544) /* Scroll of Monster Attunement Self III */
+     , (1256, 8, 101) /* Chainmail Sleeves */
+     , (1256, 8, 40819) /* Acid Corsesca */
+     , (1256, 8, 307) /* Shortbow */;
+

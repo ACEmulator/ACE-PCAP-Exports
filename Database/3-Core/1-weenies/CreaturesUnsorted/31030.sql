@@ -55,3 +55,9 @@ VALUES (31030, 64, 517) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (31030, 128, 489) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (31030, 256, 505) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31030, 8, 2411) /* Gem */
+     , (31030, 8, 31864) /* Teardrop Crown */;
+

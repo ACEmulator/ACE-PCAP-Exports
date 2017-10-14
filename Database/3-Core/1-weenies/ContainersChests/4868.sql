@@ -52,3 +52,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4868, 2, 0) /* OPEN_BOOL */
      , (4868, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4868, 8, 9658) /* Scroll of Stamina to Mana Self V */
+     , (4868, 8, 332) /* Morning Star */;
+

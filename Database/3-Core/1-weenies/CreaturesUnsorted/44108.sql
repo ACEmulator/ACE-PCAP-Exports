@@ -81,3 +81,11 @@ VALUES (44108, 0, 16777294)
      , (44108, 15, 16777307)
      , (44108, 16, 16781779);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44108, 8, 28610) /* Loafers */
+     , (44108, 8, 516) /* Peerless Lockpick */
+     , (44108, 8, 27328) /* Major Mana Stone */
+     , (44108, 8, 44134) /* Red Destabilizing Crystal */;
+

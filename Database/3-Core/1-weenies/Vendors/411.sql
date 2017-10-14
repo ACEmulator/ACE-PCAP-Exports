@@ -130,13 +130,13 @@ VALUES (411, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (411, 4, 297)
-     , (411, 4, 295)
-     , (411, 4, 280)
-     , (411, 4, 513)
-     , (411, 4, 545)
-     , (411, 4, 512)
-     , (411, 4, 514)
-     , (411, 4, 515)
-     , (411, 4, 516);
+VALUES (411, 4, 297) /* Ring */
+     , (411, 4, 295) /* Bracelet */
+     , (411, 4, 280) /* Gem */
+     , (411, 4, 513) /* Plain Lockpick */
+     , (411, 4, 545) /* Reliable Lockpick */
+     , (411, 4, 512) /* Good Lockpick */
+     , (411, 4, 514) /* Excellent Lockpick */
+     , (411, 4, 515) /* Superb Lockpick */
+     , (411, 4, 516) /* Peerless Lockpick */;
 

@@ -126,32 +126,32 @@ VALUES (40973, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (40973, 4, 2621)
-     , (40973, 4, 2622)
-     , (40973, 4, 2623)
-     , (40973, 4, 4586)
-     , (40973, 4, 4585)
-     , (40973, 4, 5339)
-     , (40973, 4, 5344)
-     , (40973, 4, 5345)
-     , (40973, 4, 9378)
-     , (40973, 4, 9377)
-     , (40973, 4, 9359)
-     , (40973, 4, 9362)
-     , (40973, 4, 9363)
-     , (40973, 4, 23858)
-     , (40973, 4, 23857)
-     , (40973, 4, 12463)
-     , (40973, 4, 12464)
-     , (40973, 4, 15296)
-     , (40973, 4, 15298)
-     , (40973, 4, 3603)
-     , (40973, 4, 3599)
-     , (40973, 4, 305)
-     , (40973, 4, 300)
-     , (40973, 4, 311)
-     , (40973, 4, 334)
-     , (40973, 4, 44074)
-     , (40973, 4, 44070)
-     , (40973, 4, 44071);
+VALUES (40973, 4, 2621) /* Trade Note (100) */
+     , (40973, 4, 2622) /* Trade Note (500) */
+     , (40973, 4, 2623) /* Trade Note (1,000) */
+     , (40973, 4, 4586) /* Bundle of Arrowheads */
+     , (40973, 4, 4585) /* Bundle of Arrowshafts */
+     , (40973, 4, 5339) /* Bundle of Quarrelshafts */
+     , (40973, 4, 5344) /* Bundle of Blunt Arrowheads */
+     , (40973, 4, 5345) /* Bundle of Broad Arrowheads */
+     , (40973, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (40973, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (40973, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (40973, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (40973, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (40973, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (40973, 4, 23857) /* Bundle of Spiketails */
+     , (40973, 4, 12463) /* Atlatl */
+     , (40973, 4, 12464) /* Atlatl Dart */
+     , (40973, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (40973, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (40973, 4, 3603) /* Blunt Quarrel */
+     , (40973, 4, 3599) /* Blunt Arrow */
+     , (40973, 4, 305) /* Quarrel */
+     , (40973, 4, 300) /* Arrow */
+     , (40973, 4, 311) /* Heavy Crossbow */
+     , (40973, 4, 334) /* Nayin */
+     , (40973, 4, 44074) /* Invitation to Master Fletchers */
+     , (40973, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (40973, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 

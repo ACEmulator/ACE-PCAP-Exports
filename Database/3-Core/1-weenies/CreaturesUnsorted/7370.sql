@@ -45,3 +45,22 @@ VALUES (7370, 2, 38) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7370, 64, 575) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7370, 8, 20424) /* Scroll of Archer Bait */
+     , (7370, 8, 2436) /* Greater Mana Stone */
+     , (7370, 8, 7419) /* White Fire Infusion */
+     , (7370, 8, 163) /* Ornamental Bowl */
+     , (7370, 8, 273) /* Pyreal */
+     , (7370, 8, 8326) /* Copper Pea */
+     , (7370, 8, 6048) /* Celdon Sleeves */
+     , (7370, 8, 27328) /* Major Mana Stone */
+     , (7370, 8, 8331) /* Silver Pea */
+     , (7370, 8, 132) /* Shoes */
+     , (7370, 8, 8327) /* Gold Pea */
+     , (7370, 8, 2411) /* Gem */
+     , (7370, 8, 27330) /* Moderate Mana Stone */
+     , (7370, 8, 20472) /* Scroll of Blessing of the Mace Turner */
+     , (7370, 8, 2407) /* Gem */;
+

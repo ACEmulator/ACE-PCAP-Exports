@@ -101,3 +101,12 @@ VALUES (25968, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25968, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25968, 8, 48942) /* Fire Skeleton Minion Essence (50) */
+     , (25968, 8, 3821) /* Frost Katar */
+     , (25968, 8, 41041) /* Magari Yari */
+     , (25968, 8, 2435) /* Mana Stone */
+     , (25968, 8, 25958) /* Woven Tassel of Sound Mind */;
+

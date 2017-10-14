@@ -50,3 +50,28 @@ VALUES (24938, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24938, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24938, 8, 31794) /* Lancet */
+     , (24938, 8, 307) /* Shortbow */
+     , (24938, 8, 30616) /* Arbalest */
+     , (24938, 8, 31865) /* Circlet */
+     , (24938, 8, 104) /* Scalemail Sleeves */
+     , (24938, 8, 27237) /* Scroll of Eradicate Life Magic Self */
+     , (24938, 8, 413) /* Chainmail Bracers */
+     , (24938, 8, 5894) /* Fez */
+     , (24938, 8, 631) /* Excellent Healing Kit */
+     , (24938, 8, 2548) /* Sceptre */
+     , (24938, 8, 44) /* Buckler */
+     , (24938, 8, 141) /* Bowl */
+     , (24938, 8, 108) /* Chainmail Tassets */
+     , (24938, 8, 2424) /* Gem */
+     , (24938, 8, 8328) /* Iron Pea */
+     , (24938, 8, 30949) /* Diforsa Sleeves */
+     , (24938, 8, 48) /* Studded Leather Coat */
+     , (24938, 8, 63) /* Studded Leather Girth */
+     , (24938, 8, 7787) /* Frost Spiked Club */
+     , (24938, 8, 2435) /* Mana Stone */
+     , (24938, 8, 2597) /* Flared Pants */;
+

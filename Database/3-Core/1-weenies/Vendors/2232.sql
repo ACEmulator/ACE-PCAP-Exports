@@ -138,48 +138,48 @@ VALUES (2232, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2232, 4, 41509)
-     , (2232, 4, 41507)
-     , (2232, 4, 41419)
-     , (2232, 4, 41423)
-     , (2232, 4, 41396)
-     , (2232, 4, 41420)
-     , (2232, 4, 41418)
-     , (2232, 4, 41744)
-     , (2232, 4, 309)
-     , (2232, 4, 316)
-     , (2232, 4, 303)
-     , (2232, 4, 329)
-     , (2232, 4, 22168)
-     , (2232, 4, 352)
-     , (2232, 4, 348)
-     , (2232, 4, 300)
-     , (2232, 4, 305)
-     , (2232, 4, 4585)
-     , (2232, 4, 5339)
-     , (2232, 4, 312)
-     , (2232, 4, 307)
-     , (2232, 4, 551)
-     , (2232, 4, 115)
-     , (2232, 4, 36)
-     , (2232, 4, 39)
-     , (2232, 4, 45)
-     , (2232, 4, 119)
-     , (2232, 4, 56)
-     , (2232, 4, 60)
-     , (2232, 4, 65)
-     , (2232, 4, 109)
-     , (2232, 4, 81)
-     , (2232, 4, 86)
-     , (2232, 4, 44)
-     , (2232, 4, 5090)
-     , (2232, 4, 4761)
-     , (2232, 4, 4746)
-     , (2232, 4, 4754)
-     , (2232, 4, 151)
-     , (2232, 4, 365)
-     , (2232, 4, 293)
-     , (2232, 4, 138)
-     , (2232, 4, 139)
-     , (2232, 4, 136);
+VALUES (2232, 4, 41509) /* Minor Item Tinkering Armature */
+     , (2232, 4, 41507) /* Moderate Item Tinkering Armature */
+     , (2232, 4, 41419) /* Sheet Metal Form */
+     , (2232, 4, 41423) /* Medal Mold */
+     , (2232, 4, 41396) /* Handle Mold */
+     , (2232, 4, 41420) /* Hammer */
+     , (2232, 4, 41418) /* Leather Strap */
+     , (2232, 4, 41744) /* A Comprehensive Guide to Gearcrafting */
+     , (2232, 4, 309) /* Club */
+     , (2232, 4, 316) /* Throwing Dart */
+     , (2232, 4, 303) /* Hand Axe */
+     , (2232, 4, 329) /* Knife */
+     , (2232, 4, 22168) /* Hefty Walking Cane */
+     , (2232, 4, 352) /* Short Sword */
+     , (2232, 4, 348) /* Spear */
+     , (2232, 4, 300) /* Arrow */
+     , (2232, 4, 305) /* Quarrel */
+     , (2232, 4, 4585) /* Bundle of Arrowshafts */
+     , (2232, 4, 5339) /* Bundle of Quarrelshafts */
+     , (2232, 4, 312) /* Light Crossbow */
+     , (2232, 4, 307) /* Shortbow */
+     , (2232, 4, 551) /* Basinet */
+     , (2232, 4, 115) /* Leather Boots */
+     , (2232, 4, 36) /* Leather Bracers */
+     , (2232, 4, 39) /* Leather Breastplate */
+     , (2232, 4, 45) /* Leather Cap */
+     , (2232, 4, 119) /* Cowl */
+     , (2232, 4, 56) /* Leather Gauntlets */
+     , (2232, 4, 60) /* Olthoi Celdon Girth */
+     , (2232, 4, 65) /* Olthoi Greaves */
+     , (2232, 4, 109) /* Olthoi Tassets */
+     , (2232, 4, 81) /* Leggings */
+     , (2232, 4, 86) /* Leather Pauldrons */
+     , (2232, 4, 44) /* Buckler */
+     , (2232, 4, 5090) /* Bruised Apple */
+     , (2232, 4, 4761) /* Flour */
+     , (2232, 4, 4746) /* Water */
+     , (2232, 4, 4754) /* Baking Pan */
+     , (2232, 4, 151) /* Empty Flask */
+     , (2232, 4, 365) /* Parchment */
+     , (2232, 4, 293) /* Torch */
+     , (2232, 4, 138) /* Belt Pouch */
+     , (2232, 4, 139) /* Small Belt Pouch */
+     , (2232, 4, 136) /* Pack */;
 

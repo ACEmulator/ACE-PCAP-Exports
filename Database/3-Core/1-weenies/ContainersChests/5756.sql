@@ -52,3 +52,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (5756, 2, 0) /* OPEN_BOOL */
      , (5756, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5756, 8, 8737) /* Nanto Town Stamp */
+     , (5756, 8, 5126) /* Bottle of Water */;
+

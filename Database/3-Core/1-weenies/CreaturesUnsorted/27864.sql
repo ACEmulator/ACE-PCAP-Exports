@@ -86,3 +86,18 @@ VALUES (27864, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27864, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27864, 8, 27234) /* Scroll of Eradicate Creature Magic Self */
+     , (27864, 8, 2394) /* Gem */
+     , (27864, 8, 514) /* Excellent Lockpick */
+     , (27864, 8, 7825) /* Brown Beans */
+     , (27864, 8, 6043) /* Celdon Girth */
+     , (27864, 8, 414) /* Chainmail Breastplate */
+     , (27864, 8, 43334) /* Scroll of Festering Curse VI */
+     , (27864, 8, 43) /* Yoroi Breastplate */
+     , (27864, 8, 48942) /* Fire Skeleton Minion Essence (50) */
+     , (27864, 8, 2424) /* Gem */
+     , (27864, 8, 27330) /* Moderate Mana Stone */;
+

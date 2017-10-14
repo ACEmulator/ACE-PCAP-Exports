@@ -58,3 +58,10 @@ VALUES (28674, 64, 355) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28674, 128, 430) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28674, 256, 350) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28674, 8, 297) /* Ring */
+     , (28674, 8, 161) /* Mug */
+     , (28674, 8, 623) /* Heavy Necklace */;
+

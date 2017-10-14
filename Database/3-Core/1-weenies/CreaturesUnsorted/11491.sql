@@ -48,3 +48,19 @@ VALUES (11491, 2, 56) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11491, 64, 345) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11491, 8, 28610) /* Loafers */
+     , (11491, 8, 2413) /* Gem */
+     , (11491, 8, 43) /* Yoroi Breastplate */
+     , (11491, 8, 545) /* Reliable Lockpick */
+     , (11491, 8, 2430) /* Gem */
+     , (11491, 8, 294) /* Amulet */
+     , (11491, 8, 2395) /* Gem */
+     , (11491, 8, 2785) /* Aura of Blood Drinker Self V */
+     , (11491, 8, 150) /* Flagon */
+     , (11491, 8, 3892) /* Frost Tachi */
+     , (11491, 8, 25646) /* Long Leather Gauntlets */
+     , (11491, 8, 141) /* Bowl */;
+

@@ -41,3 +41,11 @@ VALUES (40780, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40780, 64, 3120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40780, 8, 31797) /* Flaming Lancet */
+     , (40780, 8, 22159) /* Acid Nabut */
+     , (40780, 8, 2472) /* Wand */
+     , (40780, 8, 40793) /* Progenitor Crystal */;
+

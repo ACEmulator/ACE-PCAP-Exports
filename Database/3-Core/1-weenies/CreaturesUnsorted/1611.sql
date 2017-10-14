@@ -50,3 +50,13 @@ VALUES (1611, 2, 15) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1611, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1611, 8, 1717) /* Scroll of Life Magic Mastery Other */
+     , (1611, 8, 118) /* Cloth Cap */
+     , (1611, 8, 2415) /* Gem */
+     , (1611, 8, 554) /* Studded Leather Basinet */
+     , (1611, 8, 28610) /* Loafers */
+     , (1611, 8, 273) /* Pyreal */;
+

@@ -50,3 +50,10 @@ VALUES (30888, 2, 44) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30888, 64, 5500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30888, 8, 27227) /* Nariyid Breastplate */
+     , (30888, 8, 30865) /* Atlatl of the Fallen */
+     , (30888, 8, 30857) /* Sezzherei's Lair */;
+

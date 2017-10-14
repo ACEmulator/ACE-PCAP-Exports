@@ -62,12 +62,24 @@ VALUES (5767, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5767, 4, 5769)
-     , (5767, 4, 5770)
-     , (5767, 4, 13224);
+VALUES (5767, 4, 5769) /* Iceball */
+     , (5767, 4, 5770) /* "Enchanted" Iceball */
+     , (5767, 4, 13224) /* A Frozen Note */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5767, 2, 5770);
+VALUES (5767, 2, 5770) /* "Enchanted" Iceball */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5767, 8, 45241) /* Scroll of Dirty Fighting Ineptitude Other VI */
+     , (5767, 8, 49475) /* Scroll of Summoning Mastery Self VI */
+     , (5767, 8, 27330) /* Moderate Mana Stone */
+     , (5767, 8, 5758) /* Carrot */
+     , (5767, 8, 5770) /* "Enchanted" Iceball */
+     , (5767, 8, 41066) /* Frost Khanda-handled Mace */
+     , (5767, 8, 2967) /* Scroll of Shock Wave VI */
+     , (5767, 8, 8326) /* Copper Pea */;
 

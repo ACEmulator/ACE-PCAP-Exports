@@ -110,5 +110,5 @@ VALUES (5763, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5763, 2, 12223);
+VALUES (5763, 2, 12223) /* Skull Wand */;
 

@@ -102,3 +102,18 @@ VALUES (46537, 2, 77) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46537, 64, 3750) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46537, 8, 20550) /* Scroll of Ar-Pei's Boon */
+     , (46537, 8, 27328) /* Major Mana Stone */
+     , (46537, 8, 37360) /* Ink of Conveyance */
+     , (46537, 8, 2412) /* Gem */
+     , (46537, 8, 273) /* Pyreal */
+     , (46537, 8, 8327) /* Gold Pea */
+     , (46537, 8, 632) /* Peerless Healing Kit */
+     , (46537, 8, 48954) /* Burning Sands Keyring */
+     , (46537, 8, 43407) /* Corruptor's Crystal */
+     , (46537, 8, 624) /* Ring */
+     , (46537, 8, 30224) /* Resister's Crystal */;
+

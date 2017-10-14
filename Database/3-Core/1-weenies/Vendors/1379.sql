@@ -101,35 +101,35 @@ VALUES (1379, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1379, 4, 4586)
-     , (1379, 4, 4585)
-     , (1379, 4, 5339)
-     , (1379, 4, 2621)
-     , (1379, 4, 2622)
-     , (1379, 4, 2623)
-     , (1379, 4, 334)
-     , (1379, 4, 311)
-     , (1379, 4, 300)
-     , (1379, 4, 305)
-     , (1379, 4, 3599)
-     , (1379, 4, 3603)
-     , (1379, 4, 3601)
-     , (1379, 4, 3605)
-     , (1379, 4, 3598)
-     , (1379, 4, 3602)
-     , (1379, 4, 9359)
-     , (1379, 4, 9363)
-     , (1379, 4, 9362)
-     , (1379, 4, 9361)
-     , (1379, 4, 9366)
-     , (1379, 4, 9377)
-     , (1379, 4, 9378)
-     , (1379, 4, 44074)
-     , (1379, 4, 44070)
-     , (1379, 4, 44071);
+VALUES (1379, 4, 4586) /* Bundle of Arrowheads */
+     , (1379, 4, 4585) /* Bundle of Arrowshafts */
+     , (1379, 4, 5339) /* Bundle of Quarrelshafts */
+     , (1379, 4, 2621) /* Trade Note (100) */
+     , (1379, 4, 2622) /* Trade Note (500) */
+     , (1379, 4, 2623) /* Trade Note (1,000) */
+     , (1379, 4, 334) /* Nayin */
+     , (1379, 4, 311) /* Heavy Crossbow */
+     , (1379, 4, 300) /* Arrow */
+     , (1379, 4, 305) /* Quarrel */
+     , (1379, 4, 3599) /* Blunt Arrow */
+     , (1379, 4, 3603) /* Blunt Quarrel */
+     , (1379, 4, 3601) /* Frog Crotch Arrow */
+     , (1379, 4, 3605) /* Frog Crotch Quarrel */
+     , (1379, 4, 3598) /* Armor Piercing Arrow */
+     , (1379, 4, 3602) /* Armor Piercing Quarrel */
+     , (1379, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (1379, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (1379, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (1379, 4, 9361) /* Wrapped Bundle of Armor Piercing Arrowheads */
+     , (1379, 4, 9366) /* Wrapped Bundle of Frog Crotch Arrowheads */
+     , (1379, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (1379, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (1379, 4, 44074) /* Invitation to Master Fletchers */
+     , (1379, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (1379, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1379, 2, 307);
+VALUES (1379, 2, 307) /* Shortbow */;
 

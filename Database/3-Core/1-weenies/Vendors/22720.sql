@@ -130,15 +130,15 @@ VALUES (22720, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (22720, 4, 22637)
-     , (22720, 4, 22635)
-     , (22720, 4, 22565)
-     , (22720, 4, 22620)
-     , (22720, 4, 22857)
-     , (22720, 4, 2454)
-     , (22720, 4, 2465)
-     , (22720, 4, 4734)
-     , (22720, 4, 2451)
-     , (22720, 4, 4746)
-     , (22720, 4, 45033);
+VALUES (22720, 4, 22637) /* Refreshing Umbrella Drink */
+     , (22720, 4, 22635) /* I survived the Tusker Emporium */
+     , (22720, 4, 22565) /* Tusker Island Shirt */
+     , (22720, 4, 22620) /* Carved Tusker Statue */
+     , (22720, 4, 22857) /* Tiki Torch */
+     , (22720, 4, 2454) /* Coffee */
+     , (22720, 4, 2465) /* Palm Wine */
+     , (22720, 4, 4734) /* Meat Pie */
+     , (22720, 4, 2451) /* Ale */
+     , (22720, 4, 4746) /* Water */
+     , (22720, 4, 45033) /* Hoory Mattekar Over-robe Crate */;
 

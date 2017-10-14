@@ -131,11 +131,11 @@ VALUES (983, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (983, 4, 2595)
-     , (983, 4, 2598)
-     , (983, 4, 135)
-     , (983, 4, 133)
-     , (983, 4, 5852)
-     , (983, 4, 5894)
-     , (983, 4, 8373);
+VALUES (983, 4, 2595) /* Baggy Tunic */
+     , (983, 4, 2598) /* Baggy Pants */
+     , (983, 4, 135) /* Turban */
+     , (983, 4, 133) /* Slippers */
+     , (983, 4, 5852) /* Dho Vest and Robe */
+     , (983, 4, 5894) /* Fez */
+     , (983, 4, 8373) /* Kiyafa Robe */;
 

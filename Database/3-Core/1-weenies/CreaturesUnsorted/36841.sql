@@ -58,3 +58,16 @@ VALUES (36841, 2, 28) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36841, 64, 1800) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36841, 8, 22442) /* Lightning Dirk */
+     , (36841, 8, 31794) /* Lancet */
+     , (36841, 8, 36867) /* Dire Champion Token */
+     , (36841, 8, 49539) /* Frost Phyntos Wasp Essence (80) */
+     , (36841, 8, 25637) /* Leather Bracers */
+     , (36841, 8, 154) /* Goblet */
+     , (36841, 8, 27218) /* Chiran Leggings */
+     , (36841, 8, 31820) /* Acid Baton */
+     , (36841, 8, 297) /* Ring */;
+

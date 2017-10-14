@@ -90,3 +90,43 @@ VALUES (19312, 2, 63) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (19312, 64, 245) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19312, 8, 2417) /* Gem */
+     , (19312, 8, 28634) /* Diforsa Greaves */
+     , (19312, 8, 7771) /* Naginata */
+     , (19312, 8, 628) /* Handy Healing Kit */
+     , (19312, 8, 48972) /* Acid Zombie Essence (50) */
+     , (19312, 8, 148) /* Cup */
+     , (19312, 8, 80) /* Chainmail Leggings */
+     , (19312, 8, 45429) /* Flaming Weeping Dagger */
+     , (19312, 8, 42) /* Studded Leather Breastplate */
+     , (19312, 8, 273) /* Pyreal */
+     , (19312, 8, 49352) /* Fire Moar Essence (50) */
+     , (19312, 8, 135) /* Turban */
+     , (19312, 8, 2435) /* Mana Stone */
+     , (19312, 8, 19213) /* Bronze Coil from a Statue */
+     , (19312, 8, 12463) /* Atlatl */
+     , (19312, 8, 22154) /* Acid Jo */
+     , (19312, 8, 416) /* Chainmail Pauldrons */
+     , (19312, 8, 121) /* Gloves */
+     , (19312, 8, 31771) /* Lightning War Axe */
+     , (19312, 8, 8329) /* Lead Pea */
+     , (19312, 8, 113) /* Yoroi Tassets */
+     , (19312, 8, 2429) /* Gem */
+     , (19312, 8, 68) /* Studded Leather Greaves */
+     , (19312, 8, 114) /* Platemail Vambraces */
+     , (19312, 8, 2415) /* Gem */
+     , (19312, 8, 57) /* Platemail Gauntlets */
+     , (19312, 8, 3470) /* Scroll of Resist Magic Self IV */
+     , (19312, 8, 31865) /* Circlet */
+     , (19312, 8, 53) /* Studded Leather Cuirass */
+     , (19312, 8, 723) /* Studded Leather Cowl */
+     , (19312, 8, 2418) /* Gem */
+     , (19312, 8, 45119) /* Acid Hand Wraps */
+     , (19312, 8, 132) /* Shoes */
+     , (19312, 8, 2596) /* Doublet */
+     , (19312, 8, 377) /* Potion of Healing */
+     , (19312, 8, 44975) /* Hood */;
+

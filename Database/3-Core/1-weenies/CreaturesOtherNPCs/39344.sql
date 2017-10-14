@@ -38,5 +38,5 @@ VALUES (39344, 12, True) /* REPORT_COLLISIONS_BOOL */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (39344, 2, 33459);
+VALUES (39344, 2, 33459) /* Shadow Bolt */;
 

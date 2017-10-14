@@ -122,11 +122,11 @@ VALUES (39687, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (39687, 4, 39736)
-     , (39687, 4, 39737)
-     , (39687, 4, 39740)
-     , (39687, 4, 39741)
-     , (39687, 4, 39742)
-     , (39687, 4, 39743)
-     , (39687, 4, 39744);
+VALUES (39687, 4, 39736) /* Archer Tower Token */
+     , (39687, 4, 39737) /* Flame Bolt Tower Token */
+     , (39687, 4, 39740) /* Trap Tower Token */
+     , (39687, 4, 39741) /* Uber Tower Token */
+     , (39687, 4, 39742) /* First Upgrade Token */
+     , (39687, 4, 39743) /* Second Upgrade Token */
+     , (39687, 4, 39744) /* Third Upgrade Token */;
 

@@ -77,3 +77,10 @@ VALUES (23088, 64, 10000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23088, 128, 6000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23088, 256, 240) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23088, 8, 49236) /* Acid Zombie Essence (125) */
+     , (23088, 8, 31774) /* Board with Nail */
+     , (23088, 8, 2589) /* Smock */;
+

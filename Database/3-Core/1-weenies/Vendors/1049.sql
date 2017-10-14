@@ -128,44 +128,44 @@ VALUES (1049, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1049, 4, 550)
-     , (1049, 4, 35)
-     , (1049, 4, 552)
-     , (1049, 4, 554)
-     , (1049, 4, 413)
-     , (1049, 4, 414)
-     , (1049, 4, 55)
-     , (1049, 4, 415)
-     , (1049, 4, 80)
-     , (1049, 4, 416)
-     , (1049, 4, 85)
-     , (1049, 4, 2605)
-     , (1049, 4, 108)
-     , (1049, 4, 116)
-     , (1049, 4, 37)
-     , (1049, 4, 41)
-     , (1049, 4, 58)
-     , (1049, 4, 62)
-     , (1049, 4, 67)
-     , (1049, 4, 111)
-     , (1049, 4, 83)
-     , (1049, 4, 88)
-     , (1049, 4, 94)
-     , (1049, 4, 95)
-     , (1049, 4, 2621)
-     , (1049, 4, 2622)
-     , (1049, 4, 2623)
-     , (1049, 4, 2624)
-     , (1049, 4, 2625)
-     , (1049, 4, 2626)
-     , (1049, 4, 2627)
-     , (1049, 4, 20628)
-     , (1049, 4, 20629)
-     , (1049, 4, 20630)
-     , (1049, 4, 25646);
+VALUES (1049, 4, 550) /* Baigha */
+     , (1049, 4, 35) /* Chainmail Basinet */
+     , (1049, 4, 552) /* Scale Mail Basinet */
+     , (1049, 4, 554) /* Studded Leather Basinet */
+     , (1049, 4, 413) /* Chainmail Bracers */
+     , (1049, 4, 414) /* Chainmail Breastplate */
+     , (1049, 4, 55) /* Chainmail Gauntlets */
+     , (1049, 4, 415) /* Chainmail Girth */
+     , (1049, 4, 80) /* Chainmail Leggings */
+     , (1049, 4, 416) /* Chainmail Pauldrons */
+     , (1049, 4, 85) /* Chainmail Coif */
+     , (1049, 4, 2605) /* Chainmail Greaves */
+     , (1049, 4, 108) /* Chainmail Tassets */
+     , (1049, 4, 116) /* Studded Leather Boots */
+     , (1049, 4, 37) /* Scalemail Bracers */
+     , (1049, 4, 41) /* Scalemail Breastplate */
+     , (1049, 4, 58) /* Scalemail Gauntlets */
+     , (1049, 4, 62) /* Scalemail Girth */
+     , (1049, 4, 67) /* Scalemail Greaves */
+     , (1049, 4, 111) /* Scalemail Tassets */
+     , (1049, 4, 83) /* Scalemail Leggings */
+     , (1049, 4, 88) /* Scalemail Pauldrons */
+     , (1049, 4, 94) /* Diamond Shield */
+     , (1049, 4, 95) /* Tower Shield */
+     , (1049, 4, 2621) /* Trade Note (100) */
+     , (1049, 4, 2622) /* Trade Note (500) */
+     , (1049, 4, 2623) /* Trade Note (1,000) */
+     , (1049, 4, 2624) /* Trade Note (5,000) */
+     , (1049, 4, 2625) /* Trade Note (10,000) */
+     , (1049, 4, 2626) /* Trade Note (50,000) */
+     , (1049, 4, 2627) /* Trade Note (100,000) */
+     , (1049, 4, 20628) /* Trade Note (150,000) */
+     , (1049, 4, 20629) /* Trade Note (200,000) */
+     , (1049, 4, 20630) /* Trade Note (250,000) */
+     , (1049, 4, 25646) /* Long Leather Gauntlets */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1049, 2, 352);
+VALUES (1049, 2, 352) /* Short Sword */;
 

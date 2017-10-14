@@ -45,3 +45,16 @@ VALUES (35560, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35560, 64, 10270) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35560, 8, 21154) /* Covenant Girth */
+     , (35560, 8, 2412) /* Gem */
+     , (35560, 8, 20550) /* Scroll of Ar-Pei's Boon */
+     , (35560, 8, 41044) /* Flaming Magari Yari */
+     , (35560, 8, 3883) /* Flaming Long Sword */
+     , (35560, 8, 3820) /* Flaming Katar */
+     , (35560, 8, 413) /* Chainmail Bracers */
+     , (35560, 8, 31026) /* Tenassa Breastplate */
+     , (35560, 8, 35561) /* Virindi Message Shard */;
+

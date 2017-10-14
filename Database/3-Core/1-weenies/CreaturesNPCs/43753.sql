@@ -137,5 +137,5 @@ VALUES (43753, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43753, 2, 35916);
+VALUES (43753, 2, 35916) /* Paradox-touched Olthoi Sword */;
 

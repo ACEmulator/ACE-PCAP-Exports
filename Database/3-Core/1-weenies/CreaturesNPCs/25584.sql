@@ -91,5 +91,5 @@ VALUES (25584, 12, 16778423)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (25584, 2, 8904);
+VALUES (25584, 2, 8904) /* Focusing Stone */;
 

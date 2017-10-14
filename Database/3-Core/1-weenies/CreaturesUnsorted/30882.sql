@@ -78,3 +78,11 @@ VALUES (30882, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30882, 64, 620) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30882, 8, 624) /* Ring */
+     , (30882, 8, 8328) /* Iron Pea */
+     , (30882, 8, 273) /* Pyreal */
+     , (30882, 8, 30878) /* Banished Bow */;
+

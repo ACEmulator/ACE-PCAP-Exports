@@ -123,40 +123,40 @@ VALUES (30018, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30018, 4, 15271)
-     , (30018, 4, 5496)
-     , (30018, 4, 8919)
-     , (30018, 4, 2911)
-     , (30018, 4, 2915)
-     , (30018, 4, 21293)
-     , (30018, 4, 2918)
-     , (30018, 4, 2921)
-     , (30018, 4, 21300)
-     , (30018, 4, 2924)
-     , (30018, 4, 2927)
-     , (30018, 4, 6002)
-     , (30018, 4, 8925)
-     , (30018, 4, 2930)
-     , (30018, 4, 21307)
-     , (30018, 4, 8928)
-     , (30018, 4, 2934)
-     , (30018, 4, 8934)
-     , (30018, 4, 2937)
-     , (30018, 4, 21314)
-     , (30018, 4, 2940)
-     , (30018, 4, 2945)
-     , (30018, 4, 8940)
-     , (30018, 4, 2948)
-     , (30018, 4, 21321)
-     , (30018, 4, 2954)
-     , (30018, 4, 2959)
-     , (30018, 4, 8946)
-     , (30018, 4, 9014)
-     , (30018, 4, 21328)
-     , (30018, 4, 2962)
-     , (30018, 4, 2967)
-     , (30018, 4, 8952)
-     , (30018, 4, 21335)
-     , (30018, 4, 2972)
-     , (30018, 4, 8958);
+VALUES (30018, 4, 15271) /* Foci of Strife */
+     , (30018, 4, 5496) /* Scroll of Acid Blast VI */
+     , (30018, 4, 8919) /* Scroll of Acid Streak VI */
+     , (30018, 4, 2911) /* Scroll of Acid Stream VI */
+     , (30018, 4, 2915) /* Scroll of Acid Volley VI */
+     , (30018, 4, 21293) /* Scroll of Acid Arc VI */
+     , (30018, 4, 2918) /* Scroll of Blade Blast VI */
+     , (30018, 4, 2921) /* Scroll of Blade Volley VI */
+     , (30018, 4, 21300) /* Scroll of Blade Arc VI */
+     , (30018, 4, 2924) /* Scroll of Bludgeoning Volley VI */
+     , (30018, 4, 2927) /* Scroll of Flame Blast VI */
+     , (30018, 4, 6002) /* Scroll of Flame Bolt VI */
+     , (30018, 4, 8925) /* Scroll of Flame Streak VI */
+     , (30018, 4, 2930) /* Scroll of Flame Volley VI */
+     , (30018, 4, 21307) /* Scroll of Flame Arc VI */
+     , (30018, 4, 8928) /* Scroll of Force Blast VI */
+     , (30018, 4, 2934) /* Scroll of Force Bolt VI */
+     , (30018, 4, 8934) /* Scroll of Force Streak VI */
+     , (30018, 4, 2937) /* Scroll of Force Volley VI */
+     , (30018, 4, 21314) /* Scroll of Force Arc VI */
+     , (30018, 4, 2940) /* Scroll of Frost Blast VI */
+     , (30018, 4, 2945) /* Scroll of Frost Bolt VI */
+     , (30018, 4, 8940) /* Scroll of Frost Streak VI */
+     , (30018, 4, 2948) /* Scroll of Frost Volley VI */
+     , (30018, 4, 21321) /* Scroll of Frost Arc VI */
+     , (30018, 4, 2954) /* Scroll of Lightning Blast VI */
+     , (30018, 4, 2959) /* Scroll of Lightning Bolt VI */
+     , (30018, 4, 8946) /* Scroll of Lightning Streak VI */
+     , (30018, 4, 9014) /* Scroll of Lightning Volley VI */
+     , (30018, 4, 21328) /* Scroll of Lightning Arc VI */
+     , (30018, 4, 2962) /* Scroll of Shock Blast VI */
+     , (30018, 4, 2967) /* Scroll of Shock Wave VI */
+     , (30018, 4, 8952) /* Scroll of Shock Wave Streak VI */
+     , (30018, 4, 21335) /* Scroll of Shock Arc VI */
+     , (30018, 4, 2972) /* Scroll of Whirling Blade VI */
+     , (30018, 4, 8958) /* Scroll of Whirling Blade Streak VI */;
 

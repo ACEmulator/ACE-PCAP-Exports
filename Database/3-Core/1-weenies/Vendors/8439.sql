@@ -124,18 +124,18 @@ VALUES (8439, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (8439, 4, 364)
-     , (8439, 4, 365)
-     , (8439, 4, 367)
-     , (8439, 4, 5583)
-     , (8439, 4, 5856)
-     , (8439, 4, 7884)
-     , (8439, 4, 14797)
-     , (8439, 4, 5586)
-     , (8439, 4, 24855)
-     , (8439, 4, 5587)
-     , (8439, 4, 8638)
-     , (8439, 4, 513)
-     , (8439, 4, 545)
-     , (8439, 4, 512);
+VALUES (8439, 4, 364) /* Book */
+     , (8439, 4, 365) /* Parchment */
+     , (8439, 4, 367) /* Tome */
+     , (8439, 4, 5583) /* Aluvian Cookbook */
+     , (8439, 4, 5856) /* Specialty Cookbook */
+     , (8439, 4, 7884) /* Chocolate Cookbook */
+     , (8439, 4, 14797) /* Festival Cookbook */
+     , (8439, 4, 5586) /* Alchemy Guide */
+     , (8439, 4, 24855) /* The New Alchemy */
+     , (8439, 4, 5587) /* Fletching Guide */
+     , (8439, 4, 8638) /* The History of Kryst */
+     , (8439, 4, 513) /* Plain Lockpick */
+     , (8439, 4, 545) /* Reliable Lockpick */
+     , (8439, 4, 512) /* Good Lockpick */;
 

@@ -60,3 +60,23 @@ VALUES (36847, 0, 16778359)
      , (36847, 15, 16777307)
      , (36847, 16, 16778407);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36847, 8, 297) /* Ring */
+     , (36847, 8, 8331) /* Silver Pea */
+     , (36847, 8, 273) /* Pyreal */
+     , (36847, 8, 20232) /* Scroll of Synaptic Misfire */
+     , (36847, 8, 8327) /* Gold Pea */
+     , (36847, 8, 27328) /* Major Mana Stone */
+     , (36847, 8, 31868) /* Signet Crown */
+     , (36847, 8, 20463) /* Scroll of Evisceration */
+     , (36847, 8, 2436) /* Greater Mana Stone */
+     , (36847, 8, 6876) /* Sturdy Iron Key */
+     , (36847, 8, 45) /* Leather Cap */
+     , (36847, 8, 62) /* Scalemail Girth */
+     , (36847, 8, 6058) /* Dark Shard */
+     , (36847, 8, 154) /* Goblet */
+     , (36847, 8, 8326) /* Copper Pea */
+     , (36847, 8, 105) /* Studded Leather Sleeves */;
+

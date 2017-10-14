@@ -124,60 +124,60 @@ VALUES (20217, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20217, 4, 15270)
-     , (20217, 4, 1549)
-     , (20217, 4, 1550)
-     , (20217, 4, 1554)
-     , (20217, 4, 1555)
-     , (20217, 4, 1556)
-     , (20217, 4, 1778)
-     , (20217, 4, 1779)
-     , (20217, 4, 1784)
-     , (20217, 4, 1785)
-     , (20217, 4, 1773)
-     , (20217, 4, 1838)
-     , (20217, 4, 1839)
-     , (20217, 4, 1840)
-     , (20217, 4, 1841)
-     , (20217, 4, 1842)
-     , (20217, 4, 1843)
-     , (20217, 4, 1844)
-     , (20217, 4, 1845)
-     , (20217, 4, 1846)
-     , (20217, 4, 1847)
-     , (20217, 4, 1848)
-     , (20217, 4, 1849)
-     , (20217, 4, 1576)
-     , (20217, 4, 1577)
-     , (20217, 4, 1578)
-     , (20217, 4, 1850)
-     , (20217, 4, 1851)
-     , (20217, 4, 1852)
-     , (20217, 4, 1853)
-     , (20217, 4, 1854)
-     , (20217, 4, 1855)
-     , (20217, 4, 1856)
-     , (20217, 4, 1857)
-     , (20217, 4, 1858)
-     , (20217, 4, 1660)
-     , (20217, 4, 1659)
-     , (20217, 4, 1657)
-     , (20217, 4, 1658)
-     , (20217, 4, 1655)
-     , (20217, 4, 1656)
-     , (20217, 4, 1859)
-     , (20217, 4, 9660)
-     , (20217, 4, 1860)
-     , (20217, 4, 1862)
-     , (20217, 4, 1864)
-     , (20217, 4, 1865)
-     , (20217, 4, 1586)
-     , (20217, 4, 1866)
-     , (20217, 4, 1868)
-     , (20217, 4, 1870)
-     , (20217, 4, 1872)
-     , (20217, 4, 1874)
-     , (20217, 4, 21102)
-     , (20217, 4, 21109)
-     , (20217, 4, 21095);
+VALUES (20217, 4, 15270) /* Foci of Verdancy */
+     , (20217, 4, 1549) /* Scroll of Armor Other */
+     , (20217, 4, 1550) /* Scroll of Armor Self */
+     , (20217, 4, 1554) /* Scroll of Harm Other */
+     , (20217, 4, 1555) /* Scroll of Heal Other */
+     , (20217, 4, 1556) /* Scroll of Heal Self */
+     , (20217, 4, 1778) /* Scroll of Imperil Other */
+     , (20217, 4, 1779) /* Scroll of Mana Drain Other */
+     , (20217, 4, 1784) /* Scroll of Revitalize Other */
+     , (20217, 4, 1785) /* Scroll of Revitalize Self */
+     , (20217, 4, 1773) /* Scroll of Enfeeble Other */
+     , (20217, 4, 1838) /* Scroll of Acid Protection Other */
+     , (20217, 4, 1839) /* Scroll of Acid Protection Self */
+     , (20217, 4, 1840) /* Scroll of Acid Vulnerability Other */
+     , (20217, 4, 1841) /* Scroll of Blade Protection Other */
+     , (20217, 4, 1842) /* Scroll of Blade Protection Self */
+     , (20217, 4, 1843) /* Scroll of Blade Vulnerability Other */
+     , (20217, 4, 1844) /* Scroll of Bludgeon Protection Other */
+     , (20217, 4, 1845) /* Scroll of Bludgeon Protection Self */
+     , (20217, 4, 1846) /* Scroll of Bludgeoning Vulnerability Other */
+     , (20217, 4, 1847) /* Scroll of Cold Protection Other */
+     , (20217, 4, 1848) /* Scroll of Cold Protection Self */
+     , (20217, 4, 1849) /* Scroll of Cold Vulnerability Other */
+     , (20217, 4, 1576) /* Scroll of Fire Protection Other */
+     , (20217, 4, 1577) /* Scroll of Fire Protection Self */
+     , (20217, 4, 1578) /* Scroll of Fire Vulnerability Other */
+     , (20217, 4, 1850) /* Scroll of Lightning Protection Other */
+     , (20217, 4, 1851) /* Scroll of Lightning Protection Self */
+     , (20217, 4, 1852) /* Scroll of Lightning Vulnerability Other */
+     , (20217, 4, 1853) /* Scroll of Piercing Protection Other */
+     , (20217, 4, 1854) /* Scroll of Piercing Protection Self */
+     , (20217, 4, 1855) /* Scroll of Piercing Vulnerability Other */
+     , (20217, 4, 1856) /* Scroll of Exhaustion Other */
+     , (20217, 4, 1857) /* Scroll of Fester Other */
+     , (20217, 4, 1858) /* Scroll of Mana Depletion Other */
+     , (20217, 4, 1660) /* Scroll of Mana Renewal Other */
+     , (20217, 4, 1659) /* Scroll of Mana Renewal Self */
+     , (20217, 4, 1657) /* Scroll of Regenerate Other */
+     , (20217, 4, 1658) /* Scroll of Regenerate Self */
+     , (20217, 4, 1655) /* Scroll of Rejuvenate Other */
+     , (20217, 4, 1656) /* Scroll of Rejuvenate Self */
+     , (20217, 4, 1859) /* Scroll of Drain Health Other I */
+     , (20217, 4, 9660) /* Scroll of Drain Mana */
+     , (20217, 4, 1860) /* Scroll of Drain Stamina */
+     , (20217, 4, 1862) /* Scroll of Health to Mana Self */
+     , (20217, 4, 1864) /* Scroll of Health to Stamina Self */
+     , (20217, 4, 1865) /* Scroll of Infuse Health */
+     , (20217, 4, 1586) /* Scroll of Infuse Mana */
+     , (20217, 4, 1866) /* Scroll of Infuse Stamina */
+     , (20217, 4, 1868) /* Scroll of Mana to Health */
+     , (20217, 4, 1870) /* Scroll of Mana to Stamina Self */
+     , (20217, 4, 1872) /* Scroll of Stamina to Health Self */
+     , (20217, 4, 1874) /* Scroll of Stamina to Mana Self */
+     , (20217, 4, 21102) /* Scroll of Martyr's Blight I */
+     , (20217, 4, 21109) /* Scroll of Martyr's Tenacity I */
+     , (20217, 4, 21095) /* Scroll of Martyr's Hecatomb I */;
 

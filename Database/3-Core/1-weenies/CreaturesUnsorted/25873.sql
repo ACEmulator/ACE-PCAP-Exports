@@ -48,3 +48,32 @@ VALUES (25873, 2, 45) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25873, 64, 800) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25873, 8, 28608) /* Poet's Shirt */
+     , (25873, 8, 273) /* Pyreal */
+     , (25873, 8, 130) /* Shirt */
+     , (25873, 8, 2436) /* Greater Mana Stone */
+     , (25873, 8, 295) /* Bracelet */
+     , (25873, 8, 27330) /* Moderate Mana Stone */
+     , (25873, 8, 2422) /* Gem */
+     , (25873, 8, 30823) /* Broken Black Marrow Key */
+     , (25873, 8, 243) /* Dinner Plate */
+     , (25873, 8, 8331) /* Silver Pea */
+     , (25873, 8, 27328) /* Major Mana Stone */
+     , (25873, 8, 621) /* Heavy Bracelet */
+     , (25873, 8, 8326) /* Copper Pea */
+     , (25873, 8, 723) /* Studded Leather Cowl */
+     , (25873, 8, 31785) /* Acid Claw */
+     , (25873, 8, 8327) /* Gold Pea */
+     , (25873, 8, 2424) /* Gem */
+     , (25873, 8, 332) /* Morning Star */
+     , (25873, 8, 163) /* Ornamental Bowl */
+     , (25873, 8, 2400) /* Gem */
+     , (25873, 8, 154) /* Goblet */
+     , (25873, 8, 6047) /* Amuli Leggings */
+     , (25873, 8, 20483) /* Scroll of Boon of the Arrow Turner */
+     , (25873, 8, 20410) /* Scroll of Tattercoat */
+     , (25873, 8, 20253) /* Scroll of Might of the 5 Mules */;
+

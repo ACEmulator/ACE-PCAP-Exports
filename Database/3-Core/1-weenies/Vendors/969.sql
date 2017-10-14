@@ -138,46 +138,46 @@ VALUES (969, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (969, 4, 2457)
-     , (969, 4, 377)
-     , (969, 4, 2460)
-     , (969, 4, 379)
-     , (969, 4, 378)
-     , (969, 4, 27326)
-     , (969, 4, 628)
-     , (969, 4, 629)
-     , (969, 4, 4611)
-     , (969, 4, 4610)
-     , (969, 4, 4609)
-     , (969, 4, 4608)
-     , (969, 4, 4607)
-     , (969, 4, 4606)
-     , (969, 4, 4605)
-     , (969, 4, 4604)
-     , (969, 4, 4603)
-     , (969, 4, 4602)
-     , (969, 4, 4601)
-     , (969, 4, 4384)
-     , (969, 4, 4600)
-     , (969, 4, 4599)
-     , (969, 4, 4598)
-     , (969, 4, 4597)
-     , (969, 4, 4596)
-     , (969, 4, 4595)
-     , (969, 4, 4593)
-     , (969, 4, 4592)
-     , (969, 4, 4590)
-     , (969, 4, 4589)
-     , (969, 4, 4587)
-     , (969, 4, 4450)
-     , (969, 4, 2621)
-     , (969, 4, 2622)
-     , (969, 4, 2623)
-     , (969, 4, 2624)
-     , (969, 4, 2625)
-     , (969, 4, 2626)
-     , (969, 4, 2627)
-     , (969, 4, 20628)
-     , (969, 4, 20629)
-     , (969, 4, 20630);
+VALUES (969, 4, 2457) /* Health Draught */
+     , (969, 4, 377) /* Potion of Healing */
+     , (969, 4, 2460) /* Mana Draught */
+     , (969, 4, 379) /* Mana Potion */
+     , (969, 4, 378) /* Stamina Potion */
+     , (969, 4, 27326) /* Stamina Tincture */
+     , (969, 4, 628) /* Handy Healing Kit */
+     , (969, 4, 629) /* Adept Healing Kit */
+     , (969, 4, 4611) /* Willpower Other II */
+     , (969, 4, 4610) /* Willpower Other I */
+     , (969, 4, 4609) /* Focus Other II */
+     , (969, 4, 4608) /* Focus Other I */
+     , (969, 4, 4607) /* Quickness Other II */
+     , (969, 4, 4606) /* Quickness Other I */
+     , (969, 4, 4605) /* Coordination Other II */
+     , (969, 4, 4604) /* Coordination Other I */
+     , (969, 4, 4603) /* Endurance Other II */
+     , (969, 4, 4602) /* Endurance Other I */
+     , (969, 4, 4601) /* Strength Other II */
+     , (969, 4, 4384) /* Strength Other I */
+     , (969, 4, 4600) /* Mana Renewal Other II */
+     , (969, 4, 4599) /* Mana Renewal Other I */
+     , (969, 4, 4598) /* Rejuvenation Other II */
+     , (969, 4, 4597) /* Rejuvenation Other I */
+     , (969, 4, 4596) /* Regeneration Other II */
+     , (969, 4, 4595) /* Regeneration Other I */
+     , (969, 4, 4593) /* Mana Boost Other II */
+     , (969, 4, 4592) /* Mana Boost Other I */
+     , (969, 4, 4590) /* Revitalize Other II */
+     , (969, 4, 4589) /* Revitalize Other I */
+     , (969, 4, 4587) /* Heal Other II */
+     , (969, 4, 4450) /* Heal Other I */
+     , (969, 4, 2621) /* Trade Note (100) */
+     , (969, 4, 2622) /* Trade Note (500) */
+     , (969, 4, 2623) /* Trade Note (1,000) */
+     , (969, 4, 2624) /* Trade Note (5,000) */
+     , (969, 4, 2625) /* Trade Note (10,000) */
+     , (969, 4, 2626) /* Trade Note (50,000) */
+     , (969, 4, 2627) /* Trade Note (100,000) */
+     , (969, 4, 20628) /* Trade Note (150,000) */
+     , (969, 4, 20629) /* Trade Note (200,000) */
+     , (969, 4, 20630) /* Trade Note (250,000) */;
 

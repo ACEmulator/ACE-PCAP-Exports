@@ -37,3 +37,21 @@ VALUES (23605, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23605, 19, True) /* ATTACKABLE_BOOL */
      , (23605, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23605, 8, 12463) /* Atlatl */
+     , (23605, 8, 43291) /* Scroll of Corruption VI */
+     , (23605, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (23605, 8, 49310) /* Acid Wisp Essence (50) */
+     , (23605, 8, 31794) /* Lancet */
+     , (23605, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (23605, 8, 273) /* Pyreal */
+     , (23605, 8, 3939) /* Acid Morning Star */
+     , (23605, 8, 25650) /* Leather Shorts */
+     , (23605, 8, 22158) /* Jo */
+     , (23605, 8, 28607) /* Lace Shirt */
+     , (23605, 8, 92) /* Large Kite Shield */
+     , (23605, 8, 22443) /* Flaming Dirk */
+     , (23605, 8, 416) /* Chainmail Pauldrons */;
+

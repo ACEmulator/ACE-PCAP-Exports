@@ -37,3 +37,10 @@ VALUES (48712, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (48712, 19, True) /* ATTACKABLE_BOOL */
      , (48712, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (48712, 8, 2423) /* Gem */
+     , (48712, 8, 273) /* Pyreal */
+     , (48712, 8, 2434) /* Lesser Mana Stone */;
+

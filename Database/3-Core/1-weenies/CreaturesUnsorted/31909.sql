@@ -48,3 +48,21 @@ VALUES (31909, 2, 27) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31909, 64, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31909, 8, 243) /* Dinner Plate */
+     , (31909, 8, 20413) /* Scroll of Inferno Bait */
+     , (31909, 8, 132) /* Shoes */
+     , (31909, 8, 20541) /* Scroll of Celcynd's Blessing */
+     , (31909, 8, 28610) /* Loafers */
+     , (31909, 8, 42635) /* Aetheria */
+     , (31909, 8, 2590) /* Baggy Shirt */
+     , (31909, 8, 134) /* Tunic */
+     , (31909, 8, 163) /* Ornamental Bowl */
+     , (31909, 8, 2598) /* Baggy Pants */
+     , (31909, 8, 7772) /* Trident */
+     , (31909, 8, 43833) /* Sedgemail Leather Sleeves */
+     , (31909, 8, 297) /* Ring */
+     , (31909, 8, 45116) /* Flaming Hammer */;
+

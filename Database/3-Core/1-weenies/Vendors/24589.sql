@@ -91,54 +91,54 @@ VALUES (24589, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24589, 4, 77)
-     , (24589, 4, 43)
-     , (24589, 4, 54)
-     , (24589, 4, 64)
-     , (24589, 4, 106)
-     , (24589, 4, 69)
-     , (24589, 4, 113)
-     , (24589, 4, 2437)
-     , (24589, 4, 90)
-     , (24589, 4, 35)
-     , (24589, 4, 554)
-     , (24589, 4, 413)
-     , (24589, 4, 414)
-     , (24589, 4, 55)
-     , (24589, 4, 415)
-     , (24589, 4, 2605)
-     , (24589, 4, 108)
-     , (24589, 4, 80)
-     , (24589, 4, 416)
-     , (24589, 4, 85)
-     , (24589, 4, 75)
-     , (24589, 4, 8489)
-     , (24589, 4, 8488)
-     , (24589, 4, 76)
-     , (24589, 4, 40)
-     , (24589, 4, 57)
-     , (24589, 4, 61)
-     , (24589, 4, 66)
-     , (24589, 4, 110)
-     , (24589, 4, 82)
-     , (24589, 4, 87)
-     , (24589, 4, 114)
-     , (24589, 4, 107)
-     , (24589, 4, 92)
-     , (24589, 4, 95)
-     , (24589, 4, 2621)
-     , (24589, 4, 2622)
-     , (24589, 4, 2623)
-     , (24589, 4, 2624)
-     , (24589, 4, 2625)
-     , (24589, 4, 2626)
-     , (24589, 4, 2627)
-     , (24589, 4, 20628)
-     , (24589, 4, 20629)
-     , (24589, 4, 20630);
+VALUES (24589, 4, 77) /* Kabuton */
+     , (24589, 4, 43) /* Yoroi Breastplate */
+     , (24589, 4, 54) /* Yoroi Cuirass */
+     , (24589, 4, 64) /* Yoroi Girth */
+     , (24589, 4, 106) /* Yoroi Sleeves */
+     , (24589, 4, 69) /* Yoroi Greaves */
+     , (24589, 4, 113) /* Yoroi Tassets */
+     , (24589, 4, 2437) /* Yoroi Leggings */
+     , (24589, 4, 90) /* Yoroi Pauldrons */
+     , (24589, 4, 35) /* Chainmail Basinet */
+     , (24589, 4, 554) /* Studded Leather Basinet */
+     , (24589, 4, 413) /* Chainmail Bracers */
+     , (24589, 4, 414) /* Chainmail Breastplate */
+     , (24589, 4, 55) /* Chainmail Gauntlets */
+     , (24589, 4, 415) /* Chainmail Girth */
+     , (24589, 4, 2605) /* Chainmail Greaves */
+     , (24589, 4, 108) /* Chainmail Tassets */
+     , (24589, 4, 80) /* Chainmail Leggings */
+     , (24589, 4, 416) /* Chainmail Pauldrons */
+     , (24589, 4, 85) /* Chainmail Coif */
+     , (24589, 4, 75) /* Helmet */
+     , (24589, 4, 8489) /* Heaume */
+     , (24589, 4, 8488) /* Armet */
+     , (24589, 4, 76) /* Qafiya */
+     , (24589, 4, 40) /* Platemail Breastplate */
+     , (24589, 4, 57) /* Platemail Gauntlets */
+     , (24589, 4, 61) /* Platemail Girth */
+     , (24589, 4, 66) /* Platemail Greaves */
+     , (24589, 4, 110) /* Platemail Tassets */
+     , (24589, 4, 82) /* Platemail Leggings */
+     , (24589, 4, 87) /* Platemail Pauldrons */
+     , (24589, 4, 114) /* Platemail Vambraces */
+     , (24589, 4, 107) /* Sollerets */
+     , (24589, 4, 92) /* Large Kite Shield */
+     , (24589, 4, 95) /* Tower Shield */
+     , (24589, 4, 2621) /* Trade Note (100) */
+     , (24589, 4, 2622) /* Trade Note (500) */
+     , (24589, 4, 2623) /* Trade Note (1,000) */
+     , (24589, 4, 2624) /* Trade Note (5,000) */
+     , (24589, 4, 2625) /* Trade Note (10,000) */
+     , (24589, 4, 2626) /* Trade Note (50,000) */
+     , (24589, 4, 2627) /* Trade Note (100,000) */
+     , (24589, 4, 20628) /* Trade Note (150,000) */
+     , (24589, 4, 20629) /* Trade Note (200,000) */
+     , (24589, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24589, 2, 542);
+VALUES (24589, 2, 542) /* Lugian Hammer */;
 

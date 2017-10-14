@@ -51,3 +51,11 @@ VALUES (12264, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12264, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12264, 8, 132) /* Shoes */
+     , (12264, 8, 273) /* Pyreal */
+     , (12264, 8, 168) /* Tankard */
+     , (12264, 8, 3698) /* White Jewel */;
+

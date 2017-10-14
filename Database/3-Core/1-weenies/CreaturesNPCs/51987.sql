@@ -137,5 +137,5 @@ VALUES (51987, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (51987, 2, 39335);
+VALUES (51987, 2, 39335) /* Mana Phial of Imperil */;
 

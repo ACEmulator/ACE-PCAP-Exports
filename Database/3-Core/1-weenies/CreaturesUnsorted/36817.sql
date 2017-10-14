@@ -73,3 +73,26 @@ VALUES (36817, 64, 1110) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (36817, 128, 1520) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (36817, 256, 600) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36817, 8, 2412) /* Gem */
+     , (36817, 8, 4190) /* Cestus */
+     , (36817, 8, 40620) /* Lightning Spadone */
+     , (36817, 8, 36867) /* Dire Champion Token */
+     , (36817, 8, 49388) /* Frost Grievver Essence (80) */
+     , (36817, 8, 57) /* Platemail Gauntlets */
+     , (36817, 8, 30951) /* Alduressa Gauntlets */
+     , (36817, 8, 20480) /* Scroll of Storm's Boon */
+     , (36817, 8, 3752) /* Flaming Battle Axe */
+     , (36817, 8, 7796) /* Fire Naginata */
+     , (36817, 8, 42756) /* Haebrean Tassets */
+     , (36817, 8, 6044) /* Celdon Breastplate */
+     , (36817, 8, 20474) /* Scroll of Icy Boon */
+     , (36817, 8, 332) /* Morning Star */
+     , (36817, 8, 20405) /* Scroll of Swordsman Bait */
+     , (36817, 8, 30578) /* Frost Flamberge */
+     , (36817, 8, 41061) /* Frost Great Star Mace */
+     , (36817, 8, 31764) /* Lugian Hammer */
+     , (36817, 8, 40627) /* Frost Quadrelle */;
+

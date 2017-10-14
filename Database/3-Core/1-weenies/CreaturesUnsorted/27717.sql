@@ -48,3 +48,34 @@ VALUES (27717, 2, 46) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27717, 64, 410) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27717, 8, 415) /* Chainmail Girth */
+     , (27717, 8, 7772) /* Trident */
+     , (27717, 8, 31866) /* Coronet */
+     , (27717, 8, 2399) /* Gem */
+     , (27717, 8, 49380) /* Fire Grievver Essence (50) */
+     , (27717, 8, 25652) /* Leather Tassets */
+     , (27717, 8, 8331) /* Silver Pea */
+     , (27717, 8, 723) /* Studded Leather Cowl */
+     , (27717, 8, 630) /* Gifted Healing Kit */
+     , (27717, 8, 243) /* Dinner Plate */
+     , (27717, 8, 312) /* Light Crossbow */
+     , (27717, 8, 22442) /* Lightning Dirk */
+     , (27717, 8, 118) /* Cloth Cap */
+     , (27717, 8, 21155) /* Covenant Greaves */
+     , (27717, 8, 297) /* Ring */
+     , (27717, 8, 3763) /* Lightning Budiaq */
+     , (27717, 8, 296) /* Crown */
+     , (27717, 8, 2415) /* Gem */
+     , (27717, 8, 31793) /* Frost Lancet */
+     , (27717, 8, 621) /* Heavy Bracelet */
+     , (27717, 8, 2407) /* Gem */
+     , (27717, 8, 8326) /* Copper Pea */
+     , (27717, 8, 150) /* Flagon */
+     , (27717, 8, 2393) /* Gem */
+     , (27717, 8, 2414) /* Gem */
+     , (27717, 8, 133) /* Slippers */
+     , (27717, 8, 632) /* Peerless Healing Kit */;
+

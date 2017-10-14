@@ -50,3 +50,26 @@ VALUES (51215, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51215, 64, 6400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51215, 8, 48965) /* Fire Child Essence (125) */
+     , (51215, 8, 3892) /* Frost Tachi */
+     , (51215, 8, 20532) /* Scroll of Unsteady Hands */
+     , (51215, 8, 154) /* Goblet */
+     , (51215, 8, 99) /* Studded Leather Shirt */
+     , (51215, 8, 621) /* Heavy Bracelet */
+     , (51215, 8, 6047) /* Amuli Leggings */
+     , (51215, 8, 40619) /* Acid Spadone */
+     , (51215, 8, 29242) /* Frost Bow */
+     , (51215, 8, 46879) /* Aura of Blood Drinker Other VII */
+     , (51215, 8, 2594) /* Flared Tunic */
+     , (51215, 8, 44856) /* Trimmed Cloak */
+     , (51215, 8, 22156) /* Flaming Jo */
+     , (51215, 8, 2423) /* Gem */
+     , (51215, 8, 37215) /* Olthoi Koujia Breastplate */
+     , (51215, 8, 51214) /* Hive Warrior Pincer */
+     , (51215, 8, 28620) /* Alduressa Leggings */
+     , (51215, 8, 2587) /* Shirt */
+     , (51215, 8, 20529) /* Scroll of Twisted Digits */;
+

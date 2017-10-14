@@ -45,3 +45,11 @@ VALUES (31022, 2, 82) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31022, 64, 929) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31022, 8, 20526) /* Scroll of Sashi Mu's Kiss */
+     , (31022, 8, 42755) /* Haebrean Boots */
+     , (31022, 8, 21151) /* Covenant Bracers */
+     , (31022, 8, 2410) /* Gem */;
+

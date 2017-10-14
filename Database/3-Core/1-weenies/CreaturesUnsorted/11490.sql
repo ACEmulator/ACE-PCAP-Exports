@@ -48,3 +48,18 @@ VALUES (11490, 2, 56) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11490, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11490, 8, 2418) /* Gem */
+     , (11490, 8, 96) /* Chainmail Shirt */
+     , (11490, 8, 2366) /* Orb */
+     , (11490, 8, 2413) /* Gem */
+     , (11490, 8, 2431) /* Gem */
+     , (11490, 8, 378) /* Stamina Potion */
+     , (11490, 8, 141) /* Bowl */
+     , (11490, 8, 149) /* Ewer */
+     , (11490, 8, 42) /* Studded Leather Breastplate */
+     , (11490, 8, 49366) /* Acid Grievver Essence (50) */
+     , (11490, 8, 2595) /* Baggy Tunic */;
+

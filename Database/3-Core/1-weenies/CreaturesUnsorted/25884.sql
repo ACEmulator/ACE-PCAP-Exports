@@ -45,3 +45,17 @@ VALUES (25884, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25884, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25884, 8, 163) /* Ornamental Bowl */
+     , (25884, 8, 2412) /* Gem */
+     , (25884, 8, 28617) /* Alduressa Helm */
+     , (25884, 8, 332) /* Morning Star */
+     , (25884, 8, 41483) /* Compass */
+     , (25884, 8, 90) /* Yoroi Pauldrons */
+     , (25884, 8, 20594) /* Scroll of Wrath of the Hieromancer */
+     , (25884, 8, 2411) /* Gem */
+     , (25884, 8, 624) /* Ring */
+     , (25884, 8, 21322) /* Scroll of Frost Arc VII */;
+

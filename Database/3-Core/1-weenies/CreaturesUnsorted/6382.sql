@@ -45,3 +45,20 @@ VALUES (6382, 2, 42) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (6382, 64, 31) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6382, 8, 7897) /* Steel Toed Boots */
+     , (6382, 8, 273) /* Pyreal */
+     , (6382, 8, 148) /* Cup */
+     , (6382, 8, 2414) /* Gem */
+     , (6382, 8, 8329) /* Lead Pea */
+     , (6382, 8, 3038) /* Scroll of Fire Protection Self II */
+     , (6382, 8, 27331) /* Minor Mana Stone */
+     , (6382, 8, 7940) /* Empty Flask */
+     , (6382, 8, 41485) /* Pocket Watch */
+     , (6382, 8, 168) /* Tankard */
+     , (6382, 8, 2434) /* Lesser Mana Stone */
+     , (6382, 8, 4191) /* Flaming Cestus */
+     , (6382, 8, 133) /* Slippers */;
+

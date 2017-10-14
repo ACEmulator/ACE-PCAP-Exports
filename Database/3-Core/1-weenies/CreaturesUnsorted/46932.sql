@@ -68,3 +68,19 @@ VALUES (46932, 2, 62) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46932, 64, 3500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46932, 8, 2402) /* Gem */
+     , (46932, 8, 632) /* Peerless Healing Kit */
+     , (46932, 8, 37360) /* Ink of Conveyance */
+     , (46932, 8, 2592) /* Puffy Tunic */
+     , (46932, 8, 27321) /* Mana Philtre */
+     , (46932, 8, 621) /* Heavy Bracelet */
+     , (46932, 8, 9229) /* Treated Healing Kit */
+     , (46932, 8, 31818) /* Piercing Slingshot */
+     , (46932, 8, 516) /* Peerless Lockpick */
+     , (46932, 8, 2436) /* Greater Mana Stone */
+     , (46932, 8, 45425) /* Frost Dagger */
+     , (46932, 8, 30187) /* Hunter's Crystal */;
+

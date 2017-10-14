@@ -44,3 +44,14 @@ VALUES (41736, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41736, 64, 9975) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41736, 8, 25644) /* Leather Greaves */
+     , (41736, 8, 623) /* Heavy Necklace */
+     , (41736, 8, 624) /* Ring */
+     , (41736, 8, 49216) /* Acid Skeleton Bushi Essence (125) */
+     , (41736, 8, 31774) /* Board with Nail */
+     , (41736, 8, 22167) /* Frost Quarter Staff */
+     , (41736, 8, 135) /* Turban */;
+

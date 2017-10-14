@@ -124,60 +124,60 @@ VALUES (20222, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20222, 4, 15270)
-     , (20222, 4, 4387)
-     , (20222, 4, 4392)
-     , (20222, 4, 2666)
-     , (20222, 4, 2689)
-     , (20222, 4, 2694)
-     , (20222, 4, 2699)
-     , (20222, 4, 2704)
-     , (20222, 4, 2709)
-     , (20222, 4, 2724)
-     , (20222, 4, 2729)
-     , (20222, 4, 2975)
-     , (20222, 4, 2980)
-     , (20222, 4, 2985)
-     , (20222, 4, 2990)
-     , (20222, 4, 2995)
-     , (20222, 4, 3000)
-     , (20222, 4, 3005)
-     , (20222, 4, 3010)
-     , (20222, 4, 3015)
-     , (20222, 4, 3020)
-     , (20222, 4, 3025)
-     , (20222, 4, 3030)
-     , (20222, 4, 3035)
-     , (20222, 4, 3040)
-     , (20222, 4, 3045)
-     , (20222, 4, 3050)
-     , (20222, 4, 3055)
-     , (20222, 4, 3060)
-     , (20222, 4, 3065)
-     , (20222, 4, 3070)
-     , (20222, 4, 3075)
-     , (20222, 4, 3080)
-     , (20222, 4, 3085)
-     , (20222, 4, 3095)
-     , (20222, 4, 3100)
-     , (20222, 4, 3105)
-     , (20222, 4, 3110)
-     , (20222, 4, 3115)
-     , (20222, 4, 3120)
-     , (20222, 4, 3125)
-     , (20222, 4, 4220)
-     , (20222, 4, 9663)
-     , (20222, 4, 3728)
-     , (20222, 4, 9632)
-     , (20222, 4, 9637)
-     , (20222, 4, 3733)
-     , (20222, 4, 3738)
-     , (20222, 4, 3743)
-     , (20222, 4, 9642)
-     , (20222, 4, 9647)
-     , (20222, 4, 9652)
-     , (20222, 4, 9657)
-     , (20222, 4, 21105)
-     , (20222, 4, 21112)
-     , (20222, 4, 21098);
+VALUES (20222, 4, 15270) /* Foci of Verdancy */
+     , (20222, 4, 4387) /* Scroll of Armor Other IV */
+     , (20222, 4, 4392) /* Scroll of Armor Self IV */
+     , (20222, 4, 2666) /* Scroll of Enfeeble Other IV */
+     , (20222, 4, 2689) /* Scroll of Harm Other IV */
+     , (20222, 4, 2694) /* Scroll of Heal Other IV */
+     , (20222, 4, 2699) /* Scroll of Heal Self IV */
+     , (20222, 4, 2704) /* Scroll of Imperil Other IV */
+     , (20222, 4, 2709) /* Scroll of Mana Drain Other IV */
+     , (20222, 4, 2724) /* Scroll of Revitalize Other IV */
+     , (20222, 4, 2729) /* Scroll of Revitalize Self IV */
+     , (20222, 4, 2975) /* Scroll of Acid Protection Other IV */
+     , (20222, 4, 2980) /* Scroll of Acid Protection Self IV */
+     , (20222, 4, 2985) /* Scroll of Acid Vulnerability Other IV */
+     , (20222, 4, 2990) /* Scroll of Blade Protection Other IV */
+     , (20222, 4, 2995) /* Scroll of Blade Protection Self IV */
+     , (20222, 4, 3000) /* Scroll of Blade Vulnerability Other IV */
+     , (20222, 4, 3005) /* Scroll of Bludgeon Protection Other IV */
+     , (20222, 4, 3010) /* Scroll of Bludgeon Protection Self IV */
+     , (20222, 4, 3015) /* Scroll of Bludgeoning Vulnerability Other IV */
+     , (20222, 4, 3020) /* Scroll of Cold Protection Other IV */
+     , (20222, 4, 3025) /* Scroll of Cold Protection Self IV */
+     , (20222, 4, 3030) /* Scroll of Cold Vulnerability Other IV */
+     , (20222, 4, 3035) /* Scroll of Fire Protection Other IV */
+     , (20222, 4, 3040) /* Scroll of Fire Protection Self IV */
+     , (20222, 4, 3045) /* Scroll of Fire Vulnerability Other IV */
+     , (20222, 4, 3050) /* Scroll of Lightning Protection Other IV */
+     , (20222, 4, 3055) /* Scroll of Lightning Protection Self IV */
+     , (20222, 4, 3060) /* Scroll of Lightning Vulnerability Other IV */
+     , (20222, 4, 3065) /* Scroll of Piercing Protection Other IV */
+     , (20222, 4, 3070) /* Scroll of Piercing Protection Self IV */
+     , (20222, 4, 3075) /* Scroll of Piercing Vulnerability Other IV */
+     , (20222, 4, 3080) /* Scroll of Exhaustion Other IV */
+     , (20222, 4, 3085) /* Scroll of Fester Other IV */
+     , (20222, 4, 3095) /* Scroll of Mana Depletion Other IV */
+     , (20222, 4, 3100) /* Scroll of Mana Renewal Other IV */
+     , (20222, 4, 3105) /* Scroll of Mana Renewal Self IV */
+     , (20222, 4, 3110) /* Scroll of Regenerate Other IV */
+     , (20222, 4, 3115) /* Scroll of Regenerate Self IV */
+     , (20222, 4, 3120) /* Scroll of Rejuvenate Other IV */
+     , (20222, 4, 3125) /* Scroll of Rejuvenate Self IV */
+     , (20222, 4, 4220) /* Scroll of Drain Health Other IV */
+     , (20222, 4, 9663) /* Scroll of Drain Mana Other IV */
+     , (20222, 4, 3728) /* Scroll of Drain Stamina Other IV */
+     , (20222, 4, 9632) /* Scroll of Health to Mana Self IV */
+     , (20222, 4, 9637) /* Scroll of Health to Stamina Self IV */
+     , (20222, 4, 3733) /* Scroll of Infuse Health IV */
+     , (20222, 4, 3738) /* Scroll of Infuse Mana IV */
+     , (20222, 4, 3743) /* Scroll of Infuse Stamina IV */
+     , (20222, 4, 9642) /* Scroll of Mana to Health Self IV */
+     , (20222, 4, 9647) /* Scroll of Mana to Stamina Self IV */
+     , (20222, 4, 9652) /* Scroll of Stamina to Health Self IV */
+     , (20222, 4, 9657) /* Scroll of Stamina to Mana Self IV */
+     , (20222, 4, 21105) /* Scroll of Martyr's Blight IV */
+     , (20222, 4, 21112) /* Scroll of Martyr's Tenacity IV */
+     , (20222, 4, 21098) /* Scroll of Martyr's Hecatomb IV */;
 

@@ -44,3 +44,17 @@ VALUES (25850, 2, 55) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25850, 64, 530) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25850, 8, 25642) /* Leather Gauntlets */
+     , (25850, 8, 21159) /* Covenant Tassets */
+     , (25850, 8, 2599) /* Trousers */
+     , (25850, 8, 28608) /* Poet's Shirt */
+     , (25850, 8, 142) /* Chalice */
+     , (25850, 8, 2402) /* Gem */
+     , (25850, 8, 5901) /* Kasa */
+     , (25850, 8, 163) /* Ornamental Bowl */
+     , (25850, 8, 7897) /* Steel Toed Boots */
+     , (25850, 8, 64) /* Yoroi Girth */;
+

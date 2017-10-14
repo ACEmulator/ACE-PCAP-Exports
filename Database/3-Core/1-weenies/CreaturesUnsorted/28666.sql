@@ -75,3 +75,9 @@ VALUES (28666, 5, -0.05555556) /* MANA_RATE_FLOAT */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (28666, 1426) /* FocusSelf6_SpellID */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28666, 8, 38) /* Studded Leather Bracers */
+     , (28666, 8, 21306) /* Scroll of Flame Arc V */;
+

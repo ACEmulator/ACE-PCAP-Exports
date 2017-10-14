@@ -86,3 +86,39 @@ VALUES (210, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (210, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (210, 8, 48942) /* Fire Skeleton Minion Essence (50) */
+     , (210, 8, 163) /* Ornamental Bowl */
+     , (210, 8, 49421) /* Acid Spectre Essence (50) */
+     , (210, 8, 297) /* Ring */
+     , (210, 8, 512) /* Good Lockpick */
+     , (210, 8, 295) /* Bracelet */
+     , (210, 8, 28612) /* Bandana */
+     , (210, 8, 107) /* Sollerets */
+     , (210, 8, 8329) /* Lead Pea */
+     , (210, 8, 31787) /* Flaming Claw */
+     , (210, 8, 3137) /* Scroll of Arcane Enlightenment VI */
+     , (210, 8, 150) /* Flagon */
+     , (210, 8, 105) /* Studded Leather Sleeves */
+     , (210, 8, 545) /* Reliable Lockpick */
+     , (210, 8, 3694) /* Swamp Stone */
+     , (210, 8, 49275) /* Frost Elemental Essence (50) */
+     , (210, 8, 3866) /* Lightning Silifi */
+     , (210, 8, 128) /* Qafiya */
+     , (210, 8, 630) /* Gifted Healing Kit */
+     , (210, 8, 3938) /* Frost Morning Star */
+     , (210, 8, 25650) /* Leather Shorts */
+     , (210, 8, 273) /* Pyreal */
+     , (210, 8, 28632) /* Diforsa Gauntlets */
+     , (210, 8, 2398) /* Gem */
+     , (210, 8, 46) /* Metal Cap */
+     , (210, 8, 514) /* Excellent Lockpick */
+     , (210, 8, 53) /* Studded Leather Cuirass */
+     , (210, 8, 22156) /* Flaming Jo */
+     , (210, 8, 4389) /* Scroll of Armor Other VI */
+     , (210, 8, 3222) /* Scroll of Finesse Weapon Ineptitude Other VI */
+     , (210, 8, 2653) /* Scroll of Coordination Self VI */
+     , (210, 8, 27322) /* Mana Tincture */;
+

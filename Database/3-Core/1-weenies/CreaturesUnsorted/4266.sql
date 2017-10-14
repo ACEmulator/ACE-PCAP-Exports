@@ -45,3 +45,37 @@ VALUES (4266, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4266, 64, 43) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4266, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (4266, 8, 118) /* Cloth Cap */
+     , (4266, 8, 25650) /* Leather Shorts */
+     , (4266, 8, 7897) /* Steel Toed Boots */
+     , (4266, 8, 59) /* Studded Leather Gauntlets */
+     , (4266, 8, 3378) /* Scroll of Lockpick Ineptitude II */
+     , (4266, 8, 360) /* Yag */
+     , (4266, 8, 25648) /* Leather Pauldrons */
+     , (4266, 8, 2598) /* Baggy Pants */
+     , (4266, 8, 2472) /* Wand */
+     , (4266, 8, 8329) /* Lead Pea */
+     , (4266, 8, 2415) /* Gem */
+     , (4266, 8, 150) /* Flagon */
+     , (4266, 8, 121) /* Gloves */
+     , (4266, 8, 132) /* Shoes */
+     , (4266, 8, 31792) /* Frost Stick */
+     , (4266, 8, 297) /* Ring */
+     , (4266, 8, 48972) /* Acid Zombie Essence (50) */
+     , (4266, 8, 31790) /* Lightning Stick */
+     , (4266, 8, 545) /* Reliable Lockpick */
+     , (4266, 8, 2548) /* Sceptre */
+     , (4266, 8, 3908) /* Frost War Hammer */
+     , (4266, 8, 8948) /* Scroll of Shock Wave Streak II */
+     , (4266, 8, 27331) /* Minor Mana Stone */
+     , (4266, 8, 21290) /* Scroll of Acid Arc III */
+     , (4266, 8, 25652) /* Leather Tassets */
+     , (4266, 8, 628) /* Handy Healing Kit */
+     , (4266, 8, 3448) /* Scroll of Person Attunement Other II */
+     , (4266, 8, 2605) /* Chainmail Greaves */
+     , (4266, 8, 25646) /* Long Leather Gauntlets */;
+

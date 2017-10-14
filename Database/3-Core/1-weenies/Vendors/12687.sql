@@ -132,9 +132,9 @@ VALUES (12687, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (12687, 4, 11933)
-     , (12687, 4, 11932)
-     , (12687, 4, 11970)
-     , (12687, 4, 25284)
-     , (12687, 4, 25761);
+VALUES (12687, 4, 11933) /* Garden Drudge */
+     , (12687, 4, 11932) /* Ornate Fountain */
+     , (12687, 4, 11970) /* Plaque */
+     , (12687, 4, 25284) /* Chalk Board */
+     , (12687, 4, 25761) /* Doorbell */;
 

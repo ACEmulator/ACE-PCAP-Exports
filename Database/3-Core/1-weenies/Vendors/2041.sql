@@ -128,17 +128,17 @@ VALUES (2041, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2041, 4, 5689)
-     , (2041, 4, 5688)
-     , (2041, 4, 8073)
-     , (2041, 4, 8074)
-     , (2041, 4, 8075)
-     , (2041, 4, 9122)
-     , (2041, 4, 10700)
-     , (2041, 4, 9006)
-     , (2041, 4, 7774)
-     , (2041, 4, 7775)
-     , (2041, 4, 364)
-     , (2041, 4, 365)
-     , (2041, 4, 367);
+VALUES (2041, 4, 5689) /* The Legend of Lilitha */
+     , (2041, 4, 5688) /* The Code of Pwyll */
+     , (2041, 4, 8073) /* Shadows of My Doubts */
+     , (2041, 4, 8074) /* The Journals of Change */
+     , (2041, 4, 8075) /* The D00dz */
+     , (2041, 4, 9122) /* Interlude */
+     , (2041, 4, 10700) /* Book of Seasons */
+     , (2041, 4, 9006) /* Excerpts from the Zharalim */
+     , (2041, 4, 7774) /* Concerning the Revelations of Anti-Magic */
+     , (2041, 4, 7775) /* Practical Applications of Chorizite */
+     , (2041, 4, 364) /* Book */
+     , (2041, 4, 365) /* Parchment */
+     , (2041, 4, 367) /* Tome */;
 

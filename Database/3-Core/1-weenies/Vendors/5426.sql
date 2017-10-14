@@ -124,31 +124,31 @@ VALUES (5426, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5426, 4, 35)
-     , (5426, 4, 551)
-     , (5426, 4, 554)
-     , (5426, 4, 413)
-     , (5426, 4, 414)
-     , (5426, 4, 55)
-     , (5426, 4, 415)
-     , (5426, 4, 2605)
-     , (5426, 4, 108)
-     , (5426, 4, 80)
-     , (5426, 4, 416)
-     , (5426, 4, 85)
-     , (5426, 4, 46)
-     , (5426, 4, 116)
-     , (5426, 4, 38)
-     , (5426, 4, 42)
-     , (5426, 4, 723)
-     , (5426, 4, 59)
-     , (5426, 4, 63)
-     , (5426, 4, 68)
-     , (5426, 4, 112)
-     , (5426, 4, 84)
-     , (5426, 4, 89)
-     , (5426, 4, 91)
-     , (5426, 4, 2621)
-     , (5426, 4, 2622)
-     , (5426, 4, 2623);
+VALUES (5426, 4, 35) /* Chainmail Basinet */
+     , (5426, 4, 551) /* Basinet */
+     , (5426, 4, 554) /* Studded Leather Basinet */
+     , (5426, 4, 413) /* Chainmail Bracers */
+     , (5426, 4, 414) /* Chainmail Breastplate */
+     , (5426, 4, 55) /* Chainmail Gauntlets */
+     , (5426, 4, 415) /* Chainmail Girth */
+     , (5426, 4, 2605) /* Chainmail Greaves */
+     , (5426, 4, 108) /* Chainmail Tassets */
+     , (5426, 4, 80) /* Chainmail Leggings */
+     , (5426, 4, 416) /* Chainmail Pauldrons */
+     , (5426, 4, 85) /* Chainmail Coif */
+     , (5426, 4, 46) /* Metal Cap */
+     , (5426, 4, 116) /* Studded Leather Boots */
+     , (5426, 4, 38) /* Studded Leather Bracers */
+     , (5426, 4, 42) /* Studded Leather Breastplate */
+     , (5426, 4, 723) /* Studded Leather Cowl */
+     , (5426, 4, 59) /* Studded Leather Gauntlets */
+     , (5426, 4, 63) /* Studded Leather Girth */
+     , (5426, 4, 68) /* Studded Leather Greaves */
+     , (5426, 4, 112) /* Studded Leather Tassets */
+     , (5426, 4, 84) /* Studded  Leggings */
+     , (5426, 4, 89) /* Studded Leather Pauldrons */
+     , (5426, 4, 91) /* Kite Shield */
+     , (5426, 4, 2621) /* Trade Note (100) */
+     , (5426, 4, 2622) /* Trade Note (500) */
+     , (5426, 4, 2623) /* Trade Note (1,000) */;
 

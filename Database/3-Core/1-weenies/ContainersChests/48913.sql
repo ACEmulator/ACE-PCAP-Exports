@@ -65,3 +65,14 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (48913, 2, 0) /* OPEN_BOOL */
      , (48913, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (48913, 8, 44852) /* Chevron Cloak */
+     , (48913, 8, 621) /* Heavy Bracelet */
+     , (48913, 8, 45116) /* Flaming Hammer */
+     , (48913, 8, 132) /* Shoes */
+     , (48913, 8, 3906) /* Lightning War Hammer */
+     , (48913, 8, 2596) /* Doublet */
+     , (48913, 8, 45396) /* Short Sword */;
+

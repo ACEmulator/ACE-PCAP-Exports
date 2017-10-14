@@ -72,3 +72,13 @@ VALUES (46523, 2, 77) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46523, 64, 2975) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46523, 8, 112) /* Studded Leather Tassets */
+     , (46523, 8, 273) /* Pyreal */
+     , (46523, 8, 632) /* Peerless Healing Kit */
+     , (46523, 8, 154) /* Goblet */
+     , (46523, 8, 27328) /* Major Mana Stone */
+     , (46523, 8, 37328) /* Glyph of Quickness */;
+

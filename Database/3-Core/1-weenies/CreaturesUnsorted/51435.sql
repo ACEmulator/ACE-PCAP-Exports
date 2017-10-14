@@ -44,3 +44,23 @@ VALUES (51435, 2, 8) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51435, 64, 2325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51435, 8, 31866) /* Coronet */
+     , (51435, 8, 20562) /* Scroll of Celdiseth's Blessing */
+     , (51435, 8, 130) /* Shirt */
+     , (51435, 8, 121) /* Gloves */
+     , (51435, 8, 37291) /* Olthoi Shield */
+     , (51435, 8, 20595) /* Scroll of Hieromancer's Boon */
+     , (51435, 8, 624) /* Ring */
+     , (51435, 8, 29242) /* Frost Bow */
+     , (51435, 8, 29258) /* Slashing Atlatl */
+     , (51435, 8, 20537) /* Scroll of Web of Defense */
+     , (51435, 8, 40712) /* Covenant Pauldrons */
+     , (51435, 8, 2598) /* Baggy Pants */
+     , (51435, 8, 2410) /* Gem */
+     , (51435, 8, 45116) /* Flaming Hammer */
+     , (51435, 8, 37206) /* Olthoi Koujia Sleeves */
+     , (51435, 8, 2411) /* Gem */;
+

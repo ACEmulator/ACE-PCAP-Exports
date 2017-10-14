@@ -55,3 +55,20 @@ VALUES (11537, 2, 53) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11537, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11537, 8, 2418) /* Gem */
+     , (11537, 8, 27331) /* Minor Mana Stone */
+     , (11537, 8, 273) /* Pyreal */
+     , (11537, 8, 2415) /* Gem */
+     , (11537, 8, 40626) /* Flaming Quadrelle */
+     , (11537, 8, 2434) /* Lesser Mana Stone */
+     , (11537, 8, 96) /* Chainmail Shirt */
+     , (11537, 8, 8329) /* Lead Pea */
+     , (11537, 8, 311) /* Heavy Crossbow */
+     , (11537, 8, 3068) /* Scroll of Piercing Protection Self II */
+     , (11537, 8, 5901) /* Kasa */
+     , (11537, 8, 41298) /* Scroll of Two Handed Weapon Mastery Other III */
+     , (11537, 8, 7792) /* Fire Trident */;
+

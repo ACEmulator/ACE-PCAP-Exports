@@ -41,3 +41,34 @@ VALUES (51340, 2, 47) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51340, 64, 3000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51340, 8, 163) /* Ornamental Bowl */
+     , (51340, 8, 516) /* Peerless Lockpick */
+     , (51340, 8, 31779) /* Spine Glaive */
+     , (51340, 8, 515) /* Superb Lockpick */
+     , (51340, 8, 273) /* Pyreal */
+     , (51340, 8, 20473) /* Scroll of Tusker's Gift */
+     , (51340, 8, 37301) /* Glyph of Flame */
+     , (51340, 8, 30592) /* Flaming Partizan */
+     , (51340, 8, 414) /* Chainmail Breastplate */
+     , (51340, 8, 37364) /* Quill of Introspection */
+     , (51340, 8, 632) /* Peerless Healing Kit */
+     , (51340, 8, 9229) /* Treated Healing Kit */
+     , (51340, 8, 8331) /* Silver Pea */
+     , (51340, 8, 118) /* Cloth Cap */
+     , (51340, 8, 29244) /* Slashing Bow */
+     , (51340, 8, 27321) /* Mana Philtre */
+     , (51340, 8, 2404) /* Gem */
+     , (51340, 8, 27320) /* Health Tonic */
+     , (51340, 8, 8330) /* Pyreal Pea */
+     , (51340, 8, 8327) /* Gold Pea */
+     , (51340, 8, 624) /* Ring */
+     , (51340, 8, 2421) /* Gem */
+     , (51340, 8, 2410) /* Gem */
+     , (51340, 8, 20534) /* Scroll of Avalenne's Blessing */
+     , (51340, 8, 43335) /* Scroll of Festering Curse VII */
+     , (51340, 8, 45290) /* Scroll of Recklessness Ineptitude Other VII */
+     , (51340, 8, 20237) /* Scroll of Perseverance */;
+

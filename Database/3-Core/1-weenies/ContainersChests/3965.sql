@@ -52,3 +52,23 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3965, 2, 0) /* OPEN_BOOL */
      , (3965, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3965, 8, 2429) /* Gem */
+     , (3965, 8, 49359) /* Frost Moar Essence (50) */
+     , (3965, 8, 154) /* Goblet */
+     , (3965, 8, 130) /* Shirt */
+     , (3965, 8, 28606) /* Viamontian Pants */
+     , (3965, 8, 2405) /* Gem */
+     , (3965, 8, 2367) /* Gorget */
+     , (3965, 8, 148) /* Cup */
+     , (3965, 8, 2399) /* Gem */
+     , (3965, 8, 624) /* Ring */
+     , (3965, 8, 121) /* Gloves */
+     , (3965, 8, 141) /* Bowl */
+     , (3965, 8, 297) /* Ring */
+     , (3965, 8, 31865) /* Circlet */
+     , (3965, 8, 254) /* Stoup */
+     , (3965, 8, 2400) /* Gem */;
+

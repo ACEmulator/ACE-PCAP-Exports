@@ -52,3 +52,25 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (1316, 2, 0) /* OPEN_BOOL */
      , (1316, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1316, 8, 149) /* Ewer */
+     , (1316, 8, 130) /* Shirt */
+     , (1316, 8, 150) /* Flagon */
+     , (1316, 8, 2431) /* Gem */
+     , (1316, 8, 28609) /* Vest */
+     , (1316, 8, 273) /* Pyreal */
+     , (1316, 8, 2435) /* Mana Stone */
+     , (1316, 8, 25637) /* Leather Bracers */
+     , (1316, 8, 2422) /* Gem */
+     , (1316, 8, 377) /* Potion of Healing */
+     , (1316, 8, 161) /* Mug */
+     , (1316, 8, 295) /* Bracelet */
+     , (1316, 8, 2406) /* Gem */
+     , (1316, 8, 2587) /* Shirt */
+     , (1316, 8, 7940) /* Empty Flask */
+     , (1316, 8, 49359) /* Frost Moar Essence (50) */
+     , (1316, 8, 49442) /* Frost Spectre Essence (50) */
+     , (1316, 8, 2395) /* Gem */;
+

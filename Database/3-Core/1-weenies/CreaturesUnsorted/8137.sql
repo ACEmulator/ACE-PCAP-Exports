@@ -67,3 +67,12 @@ VALUES (8137, 2, 70) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8137, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8137, 8, 624) /* Ring */
+     , (8137, 8, 7796) /* Fire Naginata */
+     , (8137, 8, 332) /* Morning Star */
+     , (8137, 8, 154) /* Goblet */
+     , (8137, 8, 40620) /* Lightning Spadone */;
+

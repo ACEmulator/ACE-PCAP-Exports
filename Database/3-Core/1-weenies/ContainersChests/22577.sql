@@ -53,3 +53,34 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (22577, 2, 0) /* OPEN_BOOL */
      , (22577, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22577, 8, 49296) /* Fire K'nath Essence (50) */
+     , (22577, 8, 20640) /* Royal Atlatl */
+     , (22577, 8, 45340) /* Scroll of Sneak Attack Mastery Other */
+     , (22577, 8, 45417) /* Acid Knife */
+     , (22577, 8, 7798) /* Electric Naginata */
+     , (22577, 8, 40627) /* Frost Quadrelle */
+     , (22577, 8, 27331) /* Minor Mana Stone */
+     , (22577, 8, 415) /* Chainmail Girth */
+     , (22577, 8, 25650) /* Leather Shorts */
+     , (22577, 8, 108) /* Chainmail Tassets */
+     , (22577, 8, 148) /* Cup */
+     , (22577, 8, 31777) /* Fire Board with Nail */
+     , (22577, 8, 63) /* Studded Leather Girth */
+     , (22577, 8, 80) /* Chainmail Leggings */
+     , (22577, 8, 2548) /* Sceptre */
+     , (22577, 8, 312) /* Light Crossbow */
+     , (22577, 8, 93) /* Round Shield */
+     , (22577, 8, 416) /* Chainmail Pauldrons */
+     , (22577, 8, 31769) /* Lugian Axe */
+     , (22577, 8, 3464) /* Scroll of Resist Magic Other III */
+     , (22577, 8, 89) /* Studded Leather Pauldrons */
+     , (22577, 8, 7789) /* Acid Spiked Club */
+     , (22577, 8, 49485) /* Encapsulated Spirit */
+     , (22577, 8, 513) /* Plain Lockpick */
+     , (22577, 8, 25651) /* Leather Sleeves */
+     , (22577, 8, 3908) /* Frost War Hammer */
+     , (22577, 8, 723) /* Studded Leather Cowl */;
+

@@ -48,3 +48,25 @@ VALUES (11493, 2, 55) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11493, 64, 410) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11493, 8, 20514) /* Scroll of Adja's Boon */
+     , (11493, 8, 2421) /* Gem */
+     , (11493, 8, 142) /* Chalice */
+     , (11493, 8, 6876) /* Sturdy Iron Key */
+     , (11493, 8, 154) /* Goblet */
+     , (11493, 8, 2393) /* Gem */
+     , (11493, 8, 41485) /* Pocket Watch */
+     , (11493, 8, 42635) /* Aetheria */
+     , (11493, 8, 2425) /* Gem */
+     , (11493, 8, 624) /* Ring */
+     , (11493, 8, 41484) /* Goggles */
+     , (11493, 8, 22159) /* Acid Nabut */
+     , (11493, 8, 45101) /* Lightning Epee */
+     , (11493, 8, 45282) /* Scroll of Dual Wield Mastery Self VII */
+     , (11493, 8, 55) /* Chainmail Gauntlets */
+     , (11493, 8, 2422) /* Gem */
+     , (11493, 8, 311) /* Heavy Crossbow */
+     , (11493, 8, 119) /* Cowl */;
+

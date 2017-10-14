@@ -94,3 +94,17 @@ VALUES (45802, 2, 101) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (45802, 64, 2610) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (45802, 8, 2410) /* Gem */
+     , (45802, 8, 516) /* Peerless Lockpick */
+     , (45802, 8, 632) /* Peerless Healing Kit */
+     , (45802, 8, 29247) /* Electric Crossbow */
+     , (45802, 8, 273) /* Pyreal */
+     , (45802, 8, 37347) /* Glyph of Bludgeoning */
+     , (45802, 8, 20463) /* Scroll of Evisceration */
+     , (45802, 8, 27328) /* Major Mana Stone */
+     , (45802, 8, 121) /* Gloves */
+     , (45802, 8, 118) /* Cloth Cap */;
+

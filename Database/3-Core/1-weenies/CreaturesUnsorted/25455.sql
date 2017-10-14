@@ -40,3 +40,10 @@ VALUES (25455, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25455, 67113325, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25455, 8, 21155) /* Covenant Greaves */
+     , (25455, 8, 22154) /* Acid Jo */
+     , (25455, 8, 25482) /* Smelly Olthoi Gland */;
+

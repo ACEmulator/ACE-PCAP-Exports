@@ -48,3 +48,15 @@ VALUES (1766, 2, 17) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1766, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1766, 8, 42518) /* Coalesced Mana */
+     , (1766, 8, 21324) /* Scroll of Lightning Arc II */
+     , (1766, 8, 2605) /* Chainmail Greaves */
+     , (1766, 8, 2434) /* Lesser Mana Stone */
+     , (1766, 8, 31778) /* Frost Spine Glaive */
+     , (1766, 8, 45292) /* Scroll of Recklessness Mastery Other */
+     , (1766, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (1766, 8, 25648) /* Leather Pauldrons */;
+

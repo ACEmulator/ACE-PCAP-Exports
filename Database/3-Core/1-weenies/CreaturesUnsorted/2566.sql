@@ -35,3 +35,10 @@ VALUES (2566, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2566, 19, True) /* ATTACKABLE_BOOL */
      , (2566, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2566, 8, 2418) /* Gem */
+     , (2566, 8, 8329) /* Lead Pea */
+     , (2566, 8, 273) /* Pyreal */;
+

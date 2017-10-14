@@ -128,15 +128,15 @@ VALUES (2255, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2255, 4, 260)
-     , (2255, 4, 262)
-     , (2255, 4, 4753)
-     , (2255, 4, 4768)
-     , (2255, 4, 5758)
-     , (2255, 4, 4757)
-     , (2255, 4, 4762)
-     , (2255, 4, 4767)
-     , (2255, 4, 513)
-     , (2255, 4, 545)
-     , (2255, 4, 512);
+VALUES (2255, 4, 260) /* Cabbage */
+     , (2255, 4, 262) /* Chicken */
+     , (2255, 4, 4753) /* Side of Beef */
+     , (2255, 4, 4768) /* Uncooked Rice */
+     , (2255, 4, 5758) /* Carrot */
+     , (2255, 4, 4757) /* Carving Knife */
+     , (2255, 4, 4762) /* Frying Pan */
+     , (2255, 4, 4767) /* Skewer */
+     , (2255, 4, 513) /* Plain Lockpick */
+     , (2255, 4, 545) /* Reliable Lockpick */
+     , (2255, 4, 512) /* Good Lockpick */;
 

@@ -39,3 +39,15 @@ VALUES (29399, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29399, 67115519, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29399, 8, 2761) /* Scroll of Willpower Self VI */
+     , (29399, 8, 2437) /* Yoroi Leggings */
+     , (29399, 8, 2766) /* Scroll of Acid Bane VI */
+     , (29399, 8, 273) /* Pyreal */
+     , (29399, 8, 29447) /* Corcima Castle Silver Ward Portal Gem */
+     , (29399, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (29399, 8, 22163) /* Nabut */
+     , (29399, 8, 512) /* Good Lockpick */;
+

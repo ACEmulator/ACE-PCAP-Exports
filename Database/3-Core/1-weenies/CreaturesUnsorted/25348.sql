@@ -39,3 +39,16 @@ VALUES (25348, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25348, 67114482, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25348, 8, 49429) /* Lightning Spectre Essence (80) */
+     , (25348, 8, 58) /* Scalemail Gauntlets */
+     , (25348, 8, 31865) /* Circlet */
+     , (25348, 8, 75) /* Helmet */
+     , (25348, 8, 49231) /* Frost Skeleton Bushi Essence (150) */
+     , (25348, 8, 31864) /* Teardrop Crown */
+     , (25348, 8, 68) /* Studded Leather Greaves */
+     , (25348, 8, 31867) /* Diadem */
+     , (25348, 8, 7797) /* Acid Naginata */;
+

@@ -36,3 +36,15 @@ VALUES (27978, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27978, 67115199, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27978, 8, 3937) /* Flaming Morning Star */
+     , (27978, 8, 294) /* Amulet */
+     , (27978, 8, 415) /* Chainmail Girth */
+     , (27978, 8, 2594) /* Flared Tunic */
+     , (27978, 8, 25646) /* Long Leather Gauntlets */
+     , (27978, 8, 41488) /* Top */
+     , (27978, 8, 44) /* Buckler */
+     , (27978, 8, 21328) /* Scroll of Lightning Arc VI */;
+

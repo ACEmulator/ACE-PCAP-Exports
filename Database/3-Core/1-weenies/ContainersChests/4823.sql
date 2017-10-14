@@ -49,3 +49,15 @@ VALUES (4823, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4823, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4823, 8, 7771) /* Naginata */
+     , (4823, 8, 49485) /* Encapsulated Spirit */
+     , (4823, 8, 273) /* Pyreal */
+     , (4823, 8, 295) /* Bracelet */
+     , (4823, 8, 5953) /* Scroll of Cooking Mastery Other IV */
+     , (4823, 8, 2414) /* Gem */
+     , (4823, 8, 168) /* Tankard */
+     , (4823, 8, 31789) /* Acid Stick */;
+

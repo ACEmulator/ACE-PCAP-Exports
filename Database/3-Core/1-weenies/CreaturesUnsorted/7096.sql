@@ -70,3 +70,60 @@ VALUES (7096, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7096, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7096, 8, 69) /* Yoroi Greaves */
+     , (7096, 8, 273) /* Pyreal */
+     , (7096, 8, 163) /* Ornamental Bowl */
+     , (7096, 8, 2436) /* Greater Mana Stone */
+     , (7096, 8, 554) /* Studded Leather Basinet */
+     , (7096, 8, 2598) /* Baggy Pants */
+     , (7096, 8, 27330) /* Moderate Mana Stone */
+     , (7096, 8, 149) /* Ewer */
+     , (7096, 8, 621) /* Heavy Bracelet */
+     , (7096, 8, 8327) /* Gold Pea */
+     , (7096, 8, 31867) /* Diadem */
+     , (7096, 8, 40697) /* Covenant Breastplate */
+     , (7096, 8, 8326) /* Copper Pea */
+     , (7096, 8, 49485) /* Encapsulated Spirit */
+     , (7096, 8, 8331) /* Silver Pea */
+     , (7096, 8, 2424) /* Gem */
+     , (7096, 8, 44975) /* Hood */
+     , (7096, 8, 27328) /* Major Mana Stone */
+     , (7096, 8, 2595) /* Baggy Tunic */
+     , (7096, 8, 6353) /* Pyreal Mote */
+     , (7096, 8, 2425) /* Gem */
+     , (7096, 8, 28520) /* Gold Golem Heart */
+     , (7096, 8, 20465) /* Scroll of Caustic Boon */
+     , (7096, 8, 124) /* Jerkin */
+     , (7096, 8, 150) /* Flagon */
+     , (7096, 8, 40712) /* Covenant Pauldrons */
+     , (7096, 8, 28610) /* Loafers */
+     , (7096, 8, 135) /* Turban */
+     , (7096, 8, 31775) /* Acid Board with Nail */
+     , (7096, 8, 89) /* Studded Leather Pauldrons */
+     , (7096, 8, 20553) /* Scroll of Harlune's Boon */
+     , (7096, 8, 45416) /* Knife */
+     , (7096, 8, 28624) /* Tenassa Sleeves */
+     , (7096, 8, 31865) /* Circlet */
+     , (7096, 8, 142) /* Chalice */
+     , (7096, 8, 67) /* Scalemail Greaves */
+     , (7096, 8, 20596) /* Scroll of Hieromancer's Blessing */
+     , (7096, 8, 37) /* Scalemail Bracers */
+     , (7096, 8, 2395) /* Gem */
+     , (7096, 8, 2398) /* Gem */
+     , (7096, 8, 2407) /* Gem */
+     , (7096, 8, 243) /* Dinner Plate */
+     , (7096, 8, 133) /* Slippers */
+     , (7096, 8, 21154) /* Covenant Girth */
+     , (7096, 8, 295) /* Bracelet */
+     , (7096, 8, 41483) /* Compass */
+     , (7096, 8, 130) /* Shirt */
+     , (7096, 8, 360) /* Yag */
+     , (7096, 8, 43382) /* Nefane Pearl */
+     , (7096, 8, 4196) /* Flaming Nekode */
+     , (7096, 8, 2411) /* Gem */
+     , (7096, 8, 297) /* Ring */
+     , (7096, 8, 20429) /* Scroll of Vagabond's Gift */;
+

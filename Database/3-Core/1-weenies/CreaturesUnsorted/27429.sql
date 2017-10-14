@@ -79,3 +79,13 @@ VALUES (27429, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27429, 64, 2000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27429, 8, 49297) /* Fire K'nath Essence (80) */
+     , (27429, 8, 20524) /* Scroll of Ketnan's Blessing */
+     , (27429, 8, 42755) /* Haebrean Boots */
+     , (27429, 8, 27445) /* Shadow Stone Necklace */
+     , (27429, 8, 49286) /* Acid K'nath Essence (150) */
+     , (27429, 8, 40712) /* Covenant Pauldrons */;
+

@@ -127,11 +127,11 @@ VALUES (5640, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5640, 4, 260)
-     , (5640, 4, 547)
-     , (5640, 4, 4763)
-     , (5640, 4, 4761)
-     , (5640, 4, 4746)
-     , (5640, 4, 4767)
-     , (5640, 4, 4762);
+VALUES (5640, 4, 260) /* Cabbage */
+     , (5640, 4, 547) /* Brimstone-cap Mushroom */
+     , (5640, 4, 4763) /* Honey */
+     , (5640, 4, 4761) /* Flour */
+     , (5640, 4, 4746) /* Water */
+     , (5640, 4, 4767) /* Skewer */
+     , (5640, 4, 4762) /* Frying Pan */;
 

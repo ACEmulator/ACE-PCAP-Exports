@@ -54,3 +54,10 @@ VALUES (48763, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (48763, 64, 3125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (48763, 8, 2421) /* Gem */
+     , (48763, 8, 6004) /* Koujia Leggings */
+     , (48763, 8, 28612) /* Bandana */;
+

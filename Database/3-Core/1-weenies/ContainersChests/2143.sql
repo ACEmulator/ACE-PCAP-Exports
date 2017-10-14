@@ -53,3 +53,5 @@ VALUES (2143, 2, 0) /* OPEN_BOOL */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (2143, 1163) /* HealOther3_SpellID */;
 
+/* Chest Treasure List */
+

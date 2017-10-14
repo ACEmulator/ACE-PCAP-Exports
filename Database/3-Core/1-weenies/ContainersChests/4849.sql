@@ -49,3 +49,16 @@ VALUES (4849, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4849, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4849, 8, 2603) /* Baggy Breeches */
+     , (4849, 8, 31865) /* Circlet */
+     , (4849, 8, 624) /* Ring */
+     , (4849, 8, 150) /* Flagon */
+     , (4849, 8, 295) /* Bracelet */
+     , (4849, 8, 2418) /* Gem */
+     , (4849, 8, 141) /* Bowl */
+     , (4849, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (4849, 8, 2415) /* Gem */;
+

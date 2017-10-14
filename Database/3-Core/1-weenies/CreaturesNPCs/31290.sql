@@ -125,6 +125,6 @@ VALUES (31290, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (31290, 2, 30562)
-     , (31290, 2, 91);
+VALUES (31290, 2, 30562) /* Acid Dolabra */
+     , (31290, 2, 91) /* Kite Shield */;
 

@@ -131,24 +131,24 @@ VALUES (37538, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (37538, 4, 37532)
-     , (37538, 4, 37536)
-     , (37538, 4, 37533)
-     , (37538, 4, 37534)
-     , (37538, 4, 37535)
-     , (37538, 4, 37520)
-     , (37538, 4, 37521)
-     , (37538, 4, 37522)
-     , (37538, 4, 37523)
-     , (37538, 4, 37524)
-     , (37538, 4, 37525)
-     , (37538, 4, 37526)
-     , (37538, 4, 37528)
-     , (37538, 4, 37529)
-     , (37538, 4, 37560)
-     , (37538, 4, 37527)
-     , (37538, 4, 37530)
-     , (37538, 4, 37531)
-     , (37538, 4, 37537)
-     , (37538, 4, 37519);
+VALUES (37538, 4, 37532) /* Aerbax Pack Doll Orders */
+     , (37538, 4, 37536) /* Experience Orders */
+     , (37538, 4, 37533) /* Aluvian Casino Key Orders */
+     , (37538, 4, 37534) /* Gharu'ndim Casino Key Orders */
+     , (37538, 4, 37535) /* Sho Casino Key Orders */
+     , (37538, 4, 37520) /* Foolproof Aquamarine Orders */
+     , (37538, 4, 37521) /* Foolproof Black Garnet Orders */
+     , (37538, 4, 37522) /* Foolproof Black Opal Orders */
+     , (37538, 4, 37523) /* Foolproof Emerald Orders */
+     , (37538, 4, 37524) /* Foolproof Fire Opal Orders */
+     , (37538, 4, 37525) /* Foolproof Imperial Topaz Orders */
+     , (37538, 4, 37526) /* Foolproof Jet Orders */
+     , (37538, 4, 37528) /* Foolproof Red Garnet Orders */
+     , (37538, 4, 37529) /* Foolproof Sunstone Orders */
+     , (37538, 4, 37560) /* Foolproof White Sapphire Orders */
+     , (37538, 4, 37527) /* Foolproof Peridot Orders */
+     , (37538, 4, 37530) /* Foolproof Yellow Topaz Orders */
+     , (37538, 4, 37531) /* Foolproof Zircon Orders */
+     , (37538, 4, 37537) /* Enhanced Health Elixir Orders */
+     , (37538, 4, 37519) /* Enhanced Mana Elixir Orders */;
 

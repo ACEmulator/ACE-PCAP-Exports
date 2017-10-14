@@ -129,20 +129,20 @@ VALUES (4684, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4684, 4, 364)
-     , (4684, 4, 365)
-     , (4684, 4, 367)
-     , (4684, 4, 9118)
-     , (4684, 4, 9124)
-     , (4684, 4, 27851)
-     , (4684, 4, 9319)
-     , (4684, 4, 5584)
-     , (4684, 4, 5856)
-     , (4684, 4, 7884)
-     , (4684, 4, 14797)
-     , (4684, 4, 5586)
-     , (4684, 4, 24855)
-     , (4684, 4, 5587)
-     , (4684, 4, 5602)
-     , (4684, 4, 6419);
+VALUES (4684, 4, 364) /* Book */
+     , (4684, 4, 365) /* Parchment */
+     , (4684, 4, 367) /* Tome */
+     , (4684, 4, 9118) /* Puppet Show */
+     , (4684, 4, 9124) /* The Beginning */
+     , (4684, 4, 27851) /* The Weapons of the Singularity */
+     , (4684, 4, 9319) /* Mnemosynes and the Art of Lockpicking */
+     , (4684, 4, 5584) /* Gharu'ndim Cookbook */
+     , (4684, 4, 5856) /* Specialty Cookbook */
+     , (4684, 4, 7884) /* Chocolate Cookbook */
+     , (4684, 4, 14797) /* Festival Cookbook */
+     , (4684, 4, 5586) /* Alchemy Guide */
+     , (4684, 4, 24855) /* The New Alchemy */
+     , (4684, 4, 5587) /* Fletching Guide */
+     , (4684, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (4684, 4, 6419) /* The Meeting Halls */;
 

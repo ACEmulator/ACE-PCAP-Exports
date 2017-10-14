@@ -41,3 +41,25 @@ VALUES (40304, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40304, 67115234, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40304, 8, 49342) /* Acid Moar Essence (150) */
+     , (40304, 8, 121) /* Gloves */
+     , (40304, 8, 99) /* Studded Leather Shirt */
+     , (40304, 8, 2411) /* Gem */
+     , (40304, 8, 2593) /* Loose Tunic */
+     , (40304, 8, 20509) /* Scroll of Missile Weapon Mastery Self VII */
+     , (40304, 8, 45422) /* Acid Dagger */
+     , (40304, 8, 45429) /* Flaming Weeping Dagger */
+     , (40304, 8, 3764) /* Flaming Budiaq */
+     , (40304, 8, 30556) /* Hatchet */
+     , (40304, 8, 6045) /* Celdon Leggings */
+     , (40304, 8, 49312) /* Acid Wisp Essence (100) */
+     , (40304, 8, 20487) /* Scroll of Decrepitude's Grasp */
+     , (40304, 8, 2410) /* Gem */
+     , (40304, 8, 29257) /* Piercing Atlatl */
+     , (40304, 8, 40818) /* Corsesca */
+     , (40304, 8, 49238) /* Acid Zombie Essence (180) */
+     , (40304, 8, 31790) /* Lightning Stick */;
+

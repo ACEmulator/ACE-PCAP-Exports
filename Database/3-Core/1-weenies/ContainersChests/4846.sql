@@ -49,3 +49,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4846, 2, 0) /* OPEN_BOOL */
      , (4846, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4846, 8, 2640) /* Scroll of Clumsiness Other III */
+     , (4846, 8, 2406) /* Gem */;
+

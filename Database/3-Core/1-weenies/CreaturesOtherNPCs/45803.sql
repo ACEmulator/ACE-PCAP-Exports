@@ -98,6 +98,6 @@ VALUES (45803, 64, 2610) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (45803, 2, 44265)
-     , (45803, 2, 44264);
+VALUES (45803, 2, 44265) /* Burning Sands Katar */
+     , (45803, 2, 44264) /* Corrupted Aegis */;
 

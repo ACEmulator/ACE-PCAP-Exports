@@ -35,3 +35,28 @@ VALUES (7984, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7984, 19, True) /* ATTACKABLE_BOOL */
      , (7984, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7984, 8, 1728) /* Scroll of Monster Attunement Self */
+     , (7984, 8, 27331) /* Minor Mana Stone */
+     , (7984, 8, 31779) /* Spine Glaive */
+     , (7984, 8, 273) /* Pyreal */
+     , (7984, 8, 8329) /* Lead Pea */
+     , (7984, 8, 2419) /* Gem */
+     , (7984, 8, 7940) /* Empty Flask */
+     , (7984, 8, 10704) /* Small Niffis Shell */
+     , (7984, 8, 92) /* Large Kite Shield */
+     , (7984, 8, 414) /* Chainmail Breastplate */
+     , (7984, 8, 2599) /* Trousers */
+     , (7984, 8, 31784) /* Claw */
+     , (7984, 8, 148) /* Cup */
+     , (7984, 8, 40621) /* Flaming Spadone */
+     , (7984, 8, 141) /* Bowl */
+     , (7984, 8, 45292) /* Scroll of Recklessness Mastery Other */
+     , (7984, 8, 2434) /* Lesser Mana Stone */
+     , (7984, 8, 44) /* Buckler */
+     , (7984, 8, 2807) /* Aura of Defender Self II */
+     , (7984, 8, 2978) /* Scroll of Acid Protection Self II */
+     , (7984, 8, 2418) /* Gem */;
+

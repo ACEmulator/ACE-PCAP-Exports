@@ -50,3 +50,20 @@ VALUES (24674, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24674, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24674, 8, 28624) /* Tenassa Sleeves */
+     , (24674, 8, 25652) /* Leather Tassets */
+     , (24674, 8, 631) /* Excellent Healing Kit */
+     , (24674, 8, 7790) /* Electric Spiked Club */
+     , (24674, 8, 20640) /* Royal Atlatl */
+     , (24674, 8, 31784) /* Claw */
+     , (24674, 8, 624) /* Ring */
+     , (24674, 8, 297) /* Ring */
+     , (24674, 8, 25642) /* Leather Gauntlets */
+     , (24674, 8, 296) /* Crown */
+     , (24674, 8, 40705) /* Covenant Sollerets */
+     , (24674, 8, 2605) /* Chainmail Greaves */
+     , (24674, 8, 41040) /* Frost Assagai */;
+

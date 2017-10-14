@@ -45,3 +45,25 @@ VALUES (1606, 2, 11) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1606, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1606, 8, 49538) /* Frost Phyntos Wasp Essence (50) */
+     , (1606, 8, 112) /* Studded Leather Tassets */
+     , (1606, 8, 28632) /* Diforsa Gauntlets */
+     , (1606, 8, 8329) /* Lead Pea */
+     , (1606, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (1606, 8, 161) /* Mug */
+     , (1606, 8, 621) /* Heavy Bracelet */
+     , (1606, 8, 25638) /* Leather Vest */
+     , (1606, 8, 30594) /* Acid Partizan */
+     , (1606, 8, 168) /* Tankard */
+     , (1606, 8, 22158) /* Jo */
+     , (1606, 8, 28610) /* Loafers */
+     , (1606, 8, 254) /* Stoup */
+     , (1606, 8, 8328) /* Iron Pea */
+     , (1606, 8, 2672) /* Scroll of Feeblemind Other V */
+     , (1606, 8, 545) /* Reliable Lockpick */
+     , (1606, 8, 2417) /* Gem */
+     , (1606, 8, 40760) /* Nodachi */;
+

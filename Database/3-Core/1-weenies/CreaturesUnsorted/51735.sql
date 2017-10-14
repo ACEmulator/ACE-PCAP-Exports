@@ -46,3 +46,18 @@ VALUES (51735, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51735, 64, 10100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51735, 8, 20567) /* Scroll of Inefficient Investment */
+     , (51735, 8, 7771) /* Naginata */
+     , (51735, 8, 37205) /* Olthoi Celdon Sleeves */
+     , (51735, 8, 27328) /* Major Mana Stone */
+     , (51735, 8, 49314) /* Acid Wisp Essence (150) */
+     , (51735, 8, 37200) /* Olthoi Alduressa Leggings */
+     , (51735, 8, 362) /* Yari */
+     , (51735, 8, 28622) /* Tenassa Leggings */
+     , (51735, 8, 516) /* Peerless Lockpick */
+     , (51735, 8, 40698) /* Covenant Gauntlets */
+     , (51735, 8, 27232) /* Nariyid Sleeves */;
+

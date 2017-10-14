@@ -49,3 +49,15 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3992, 2, 0) /* OPEN_BOOL */
      , (3992, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3992, 8, 351) /* Long Sword */
+     , (3992, 8, 2430) /* Gem */
+     , (3992, 8, 49421) /* Acid Spectre Essence (50) */
+     , (3992, 8, 31769) /* Lugian Axe */
+     , (3992, 8, 49282) /* Acid K'nath Essence (50) */
+     , (3992, 8, 40624) /* Acid Quadrelle */
+     , (3992, 8, 49261) /* Acid Elemental Essence (50) */
+     , (3992, 8, 297) /* Ring */;
+

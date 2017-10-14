@@ -59,3 +59,26 @@ VALUES (11510, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11510, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11510, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11510, 8, 296) /* Crown */
+     , (11510, 8, 2366) /* Orb */
+     , (11510, 8, 629) /* Adept Healing Kit */
+     , (11510, 8, 49261) /* Acid Elemental Essence (50) */
+     , (11510, 8, 31776) /* Electric Board with Nail */
+     , (11510, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (11510, 8, 416) /* Chainmail Pauldrons */
+     , (11510, 8, 2429) /* Gem */
+     , (11510, 8, 630) /* Gifted Healing Kit */
+     , (11510, 8, 311) /* Heavy Crossbow */
+     , (11510, 8, 30614) /* Frost Knuckles */
+     , (11510, 8, 107) /* Sollerets */
+     , (11510, 8, 25646) /* Long Leather Gauntlets */
+     , (11510, 8, 8328) /* Iron Pea */
+     , (11510, 8, 40618) /* Spadone */
+     , (11510, 8, 2548) /* Sceptre */
+     , (11510, 8, 21298) /* Scroll of Blade Arc IV */
+     , (11510, 8, 327) /* Ken */
+     , (11510, 8, 545) /* Reliable Lockpick */;
+

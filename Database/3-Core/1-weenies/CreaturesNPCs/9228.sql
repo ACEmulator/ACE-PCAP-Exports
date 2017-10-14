@@ -115,6 +115,6 @@ VALUES (9228, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (9228, 2, 8526)
-     , (9228, 2, 8030);
+VALUES (9228, 2, 8526) /* Staff of the Nomads */
+     , (9228, 2, 8030) /* Shendolain Crystal Shield */;
 

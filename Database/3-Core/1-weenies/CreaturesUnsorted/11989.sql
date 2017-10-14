@@ -55,3 +55,11 @@ VALUES (11989, 2, 3) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11989, 64, 58) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11989, 8, 554) /* Studded Leather Basinet */
+     , (11989, 8, 7798) /* Electric Naginata */
+     , (11989, 8, 513) /* Plain Lockpick */
+     , (11989, 8, 3669) /* Drudge Charm */;
+

@@ -60,3 +60,27 @@ VALUES (1243, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1243, 128, 240) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1243, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1243, 8, 31759) /* Dericost Blade */
+     , (1243, 8, 273) /* Pyreal */
+     , (1243, 8, 2789) /* Scroll of Blood Loather IV */
+     , (1243, 8, 168) /* Tankard */
+     , (1243, 8, 1250) /* Key */
+     , (1243, 8, 243) /* Dinner Plate */
+     , (1243, 8, 2413) /* Gem */
+     , (1243, 8, 2414) /* Gem */
+     , (1243, 8, 48959) /* Fire Elemental Essence (50) */
+     , (1243, 8, 2432) /* Gem */
+     , (1243, 8, 31865) /* Circlet */
+     , (1243, 8, 27331) /* Minor Mana Stone */
+     , (1243, 8, 9664) /* Scroll of Drain Mana Other V */
+     , (1243, 8, 2434) /* Lesser Mana Stone */
+     , (1243, 8, 2426) /* Gem */
+     , (1243, 8, 2589) /* Smock */
+     , (1243, 8, 150) /* Flagon */
+     , (1243, 8, 306) /* Longbow */
+     , (1243, 8, 2416) /* Gem */
+     , (1243, 8, 512) /* Good Lockpick */;
+

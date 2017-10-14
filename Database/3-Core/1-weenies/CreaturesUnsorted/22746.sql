@@ -48,3 +48,18 @@ VALUES (22746, 2, 16) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22746, 64, 375) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22746, 8, 49263) /* Acid Elemental Essence (100) */
+     , (22746, 8, 31868) /* Signet Crown */
+     , (22746, 8, 142) /* Chalice */
+     , (22746, 8, 20529) /* Scroll of Twisted Digits */
+     , (22746, 8, 48) /* Studded Leather Coat */
+     , (22746, 8, 21158) /* Covenant Shield */
+     , (22746, 8, 2421) /* Gem */
+     , (22746, 8, 59) /* Studded Leather Gauntlets */
+     , (22746, 8, 20409) /* Scroll of Tusker Bait */
+     , (22746, 8, 149) /* Ewer */
+     , (22746, 8, 118) /* Cloth Cap */;
+

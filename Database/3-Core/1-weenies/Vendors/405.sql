@@ -122,14 +122,14 @@ VALUES (405, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (405, 4, 329)
-     , (405, 4, 314)
-     , (405, 4, 261)
-     , (405, 4, 492)
-     , (405, 4, 260)
-     , (405, 4, 300)
-     , (405, 4, 343)
-     , (405, 4, 316)
-     , (405, 4, 320)
-     , (405, 4, 352);
+VALUES (405, 4, 329) /* Knife */
+     , (405, 4, 314) /* Dagger */
+     , (405, 4, 261) /* Cheese */
+     , (405, 4, 492) /* Directions to Bandit Castle */
+     , (405, 4, 260) /* Cabbage */
+     , (405, 4, 300) /* Arrow */
+     , (405, 4, 343) /* Shouken */
+     , (405, 4, 316) /* Throwing Dart */
+     , (405, 4, 320) /* Javelin */
+     , (405, 4, 352) /* Short Sword */;
 

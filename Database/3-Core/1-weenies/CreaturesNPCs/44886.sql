@@ -137,6 +137,6 @@ VALUES (44886, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (44886, 2, 33064)
-     , (44886, 2, 95);
+VALUES (44886, 2, 33064) /* Red Rune Silveran Spear */
+     , (44886, 2, 95) /* Tower Shield */;
 

@@ -52,3 +52,14 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3962, 2, 0) /* OPEN_BOOL */
      , (3962, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3962, 8, 25648) /* Leather Pauldrons */
+     , (3962, 8, 2366) /* Orb */
+     , (3962, 8, 45418) /* Lightning Knife */
+     , (3962, 8, 8329) /* Lead Pea */
+     , (3962, 8, 624) /* Ring */
+     , (3962, 8, 2885) /* Aura of Swift Killer Self V */
+     , (3962, 8, 2367) /* Gorget */;
+

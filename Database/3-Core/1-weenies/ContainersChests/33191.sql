@@ -52,3 +52,12 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (33191, 2, 0) /* OPEN_BOOL */
      , (33191, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33191, 8, 2409) /* Gem */
+     , (33191, 8, 40635) /* Tetsubo */
+     , (33191, 8, 121) /* Gloves */
+     , (33191, 8, 33213) /* Royal Runed Knuckles */
+     , (33191, 8, 33192) /* Pheraion's Notes */;
+

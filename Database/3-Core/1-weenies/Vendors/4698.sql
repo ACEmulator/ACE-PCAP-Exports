@@ -131,15 +131,15 @@ VALUES (4698, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4698, 4, 136)
-     , (4698, 4, 139)
-     , (4698, 4, 262)
-     , (4698, 4, 4763)
-     , (4698, 4, 264)
-     , (4698, 4, 547)
-     , (4698, 4, 5758)
-     , (4698, 4, 4761)
-     , (4698, 4, 4746)
-     , (4698, 4, 4754)
-     , (4698, 4, 4757);
+VALUES (4698, 4, 136) /* Pack */
+     , (4698, 4, 139) /* Small Belt Pouch */
+     , (4698, 4, 262) /* Chicken */
+     , (4698, 4, 4763) /* Honey */
+     , (4698, 4, 264) /* Grapes */
+     , (4698, 4, 547) /* Brimstone-cap Mushroom */
+     , (4698, 4, 5758) /* Carrot */
+     , (4698, 4, 4761) /* Flour */
+     , (4698, 4, 4746) /* Water */
+     , (4698, 4, 4754) /* Baking Pan */
+     , (4698, 4, 4757) /* Carving Knife */;
 

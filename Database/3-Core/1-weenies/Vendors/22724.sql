@@ -112,18 +112,18 @@ VALUES (22724, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (22724, 4, 166)
-     , (22724, 4, 4753)
-     , (22724, 4, 264)
-     , (22724, 4, 262)
-     , (22724, 4, 4746)
-     , (22724, 4, 4757)
-     , (22724, 4, 513)
-     , (22724, 4, 545)
-     , (22724, 4, 512)
-     , (22724, 4, 9295)
-     , (22724, 4, 20646)
-     , (22724, 4, 21093)
-     , (22724, 4, 23044)
-     , (22724, 4, 23204);
+VALUES (22724, 4, 166) /* Sack */
+     , (22724, 4, 4753) /* Side of Beef */
+     , (22724, 4, 264) /* Grapes */
+     , (22724, 4, 262) /* Chicken */
+     , (22724, 4, 4746) /* Water */
+     , (22724, 4, 4757) /* Carving Knife */
+     , (22724, 4, 513) /* Plain Lockpick */
+     , (22724, 4, 545) /* Reliable Lockpick */
+     , (22724, 4, 512) /* Good Lockpick */
+     , (22724, 4, 9295) /* Intricate Carving Tool */
+     , (22724, 4, 20646) /* Ust */
+     , (22724, 4, 21093) /* Tinkering */
+     , (22724, 4, 23044) /* On the Abilities of Salvaged Ivory */
+     , (22724, 4, 23204) /* Carving Keys and Keyrings */;
 

@@ -112,5 +112,5 @@ VALUES (40580, 0, 16789976)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (40580, 2, 40630);
+VALUES (40580, 2, 40630) /* Assassin's Edge */;
 

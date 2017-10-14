@@ -48,3 +48,25 @@ VALUES (28246, 2, 77) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28246, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28246, 8, 121) /* Gloves */
+     , (28246, 8, 2435) /* Mana Stone */
+     , (28246, 8, 8326) /* Copper Pea */
+     , (28246, 8, 25642) /* Leather Gauntlets */
+     , (28246, 8, 27330) /* Moderate Mana Stone */
+     , (28246, 8, 273) /* Pyreal */
+     , (28246, 8, 31781) /* Electric Spine Glaive */
+     , (28246, 8, 25641) /* Leather Cuirass */
+     , (28246, 8, 8329) /* Lead Pea */
+     , (28246, 8, 2677) /* Scroll of Focus Other V */
+     , (28246, 8, 2434) /* Lesser Mana Stone */
+     , (28246, 8, 8328) /* Iron Pea */
+     , (28246, 8, 149) /* Ewer */
+     , (28246, 8, 31769) /* Lugian Axe */
+     , (28246, 8, 45100) /* Acid Epee */
+     , (28246, 8, 112) /* Studded Leather Tassets */
+     , (28246, 8, 9628) /* Scroll of Jumping Ineptitude V */
+     , (28246, 8, 2901) /* Scroll of Weaken Lock V */;
+

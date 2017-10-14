@@ -125,19 +125,19 @@ VALUES (13223, 37, 0.9) /* BUY_PRICE_FLOAT */
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (13223, 4, 244)
-     , (13223, 4, 22852)
-     , (13223, 4, 25757)
-     , (13223, 4, 25760)
-     , (13223, 4, 22844)
-     , (13223, 4, 22845)
-     , (13223, 4, 15403)
-     , (13223, 4, 25759)
-     , (13223, 4, 13199)
-     , (13223, 4, 13209);
+VALUES (13223, 4, 244) /* Wood */
+     , (13223, 4, 22852) /* Treated Wood */
+     , (13223, 4, 25757) /* Barrel */
+     , (13223, 4, 25760) /* Cask */
+     , (13223, 4, 22844) /* Log Stool */
+     , (13223, 4, 22845) /* Log Table */
+     , (13223, 4, 15403) /* Small Pine Tree */
+     , (13223, 4, 25759) /* Shrubbery */
+     , (13223, 4, 13199) /* Small Pine Tree */
+     , (13223, 4, 13209) /* Wreath */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (13223, 2, 301);
+VALUES (13223, 2, 301) /* Battle Axe */;
 

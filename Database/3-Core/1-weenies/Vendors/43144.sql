@@ -79,14 +79,14 @@ VALUES (43144, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43144, 4, 40607)
-     , (43144, 4, 41919)
-     , (43144, 4, 43140)
-     , (43144, 4, 43141)
-     , (43144, 4, 43143)
-     , (43144, 4, 43149)
-     , (43144, 4, 43947)
-     , (43144, 4, 43948)
-     , (43144, 4, 43949)
-     , (43144, 4, 43950);
+VALUES (43144, 4, 40607) /* Armor Upgrade Kit Containment Gem */
+     , (43144, 4, 41919) /* Weapon Upgrade Kit Containment Gem */
+     , (43144, 4, 43140) /* Shield of the Gold Gear */
+     , (43144, 4, 43141) /* Aegis of the Gold Gear */
+     , (43144, 4, 43143) /* Scroll of Gear Knight Invasion Area Camp Recall */
+     , (43144, 4, 43149) /* Crate of Gear Blade Slashing Arrowheads */
+     , (43144, 4, 43947) /* Sealed crate of Salvaged Black Garnet */
+     , (43144, 4, 43948) /* Sealed crate of Salvaged Jet */
+     , (43144, 4, 43949) /* Sealed crate of Salvaged Red Garnet */
+     , (43144, 4, 43950) /* Sealed crate of Salvaged Sandstone */;
 

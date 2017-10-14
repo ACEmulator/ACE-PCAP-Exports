@@ -37,3 +37,10 @@ VALUES (37410, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (37410, 19, True) /* ATTACKABLE_BOOL */
      , (37410, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37410, 8, 44) /* Buckler */
+     , (37410, 8, 45419) /* Flaming Knife */
+     , (37410, 8, 37446) /* Tiny Tainted Egg */;
+

@@ -49,3 +49,24 @@ VALUES (6534, 2, 22) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (6534, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6534, 8, 312) /* Light Crossbow */
+     , (6534, 8, 92) /* Large Kite Shield */
+     , (6534, 8, 297) /* Ring */
+     , (6534, 8, 624) /* Ring */
+     , (6534, 8, 2547) /* Staff */
+     , (6534, 8, 414) /* Chainmail Breastplate */
+     , (6534, 8, 545) /* Reliable Lockpick */
+     , (6534, 8, 7897) /* Steel Toed Boots */
+     , (6534, 8, 40625) /* Lightning Quadrelle */
+     , (6534, 8, 273) /* Pyreal */
+     , (6534, 8, 48959) /* Fire Elemental Essence (50) */
+     , (6534, 8, 161) /* Mug */
+     , (6534, 8, 1640) /* Scroll of Lightning Bolt */
+     , (6534, 8, 3906) /* Lightning War Hammer */
+     , (6534, 8, 41487) /* Mechanical Scarab */
+     , (6534, 8, 628) /* Handy Healing Kit */
+     , (6534, 8, 6060) /* Dark Speck */;
+

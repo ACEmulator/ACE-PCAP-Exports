@@ -52,3 +52,14 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (1253, 2, 0) /* OPEN_BOOL */
      , (1253, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1253, 8, 2599) /* Trousers */
+     , (1253, 8, 5901) /* Kasa */
+     , (1253, 8, 294) /* Amulet */
+     , (1253, 8, 41484) /* Goggles */
+     , (1253, 8, 2413) /* Gem */
+     , (1253, 8, 2415) /* Gem */
+     , (1253, 8, 150) /* Flagon */;
+

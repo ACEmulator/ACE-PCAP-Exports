@@ -45,3 +45,44 @@ VALUES (5683, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (5683, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5683, 8, 43305) /* Scroll of Nether Bolt IV */
+     , (5683, 8, 622) /* Necklace */
+     , (5683, 8, 2434) /* Lesser Mana Stone */
+     , (5683, 8, 31784) /* Claw */
+     , (5683, 8, 43333) /* Scroll of Festering Curse V */
+     , (5683, 8, 118) /* Cloth Cap */
+     , (5683, 8, 2418) /* Gem */
+     , (5683, 8, 2704) /* Scroll of Imperil Other IV */
+     , (5683, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (5683, 8, 41483) /* Compass */
+     , (5683, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (5683, 8, 294) /* Amulet */
+     , (5683, 8, 2729) /* Scroll of Revitalize Self IV */
+     , (5683, 8, 545) /* Reliable Lockpick */
+     , (5683, 8, 2605) /* Chainmail Greaves */
+     , (5683, 8, 2435) /* Mana Stone */
+     , (5683, 8, 95) /* Tower Shield */
+     , (5683, 8, 92) /* Large Kite Shield */
+     , (5683, 8, 48972) /* Acid Zombie Essence (50) */
+     , (5683, 8, 127) /* Pants */
+     , (5683, 8, 3687) /* Skeleton's Skull */
+     , (5683, 8, 416) /* Chainmail Pauldrons */
+     , (5683, 8, 96) /* Chainmail Shirt */
+     , (5683, 8, 45426) /* Jambiya */
+     , (5683, 8, 31797) /* Flaming Lancet */
+     , (5683, 8, 273) /* Pyreal */
+     , (5683, 8, 45099) /* Epee */
+     , (5683, 8, 3939) /* Acid Morning Star */
+     , (5683, 8, 25645) /* Leather Leggings */
+     , (5683, 8, 2587) /* Shirt */
+     , (5683, 8, 58) /* Scalemail Gauntlets */
+     , (5683, 8, 2693) /* Scroll of Heal Other III */
+     , (5683, 8, 149) /* Ewer */
+     , (5683, 8, 2416) /* Gem */
+     , (5683, 8, 379) /* Mana Potion */
+     , (5683, 8, 30613) /* Flaming Knuckles */
+     , (5683, 8, 25644) /* Leather Greaves */;
+

@@ -45,3 +45,19 @@ VALUES (29011, 2, 75) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (29011, 64, 100000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29011, 8, 6047) /* Amuli Leggings */
+     , (29011, 8, 28609) /* Vest */
+     , (29011, 8, 20608) /* Scroll of Gift of Essence */
+     , (29011, 8, 22154) /* Acid Jo */
+     , (29011, 8, 91) /* Kite Shield */
+     , (29011, 8, 45322) /* Scroll of Shield Mastery Other VII */
+     , (29011, 8, 27219) /* Chiran Sandals */
+     , (29011, 8, 28632) /* Diforsa Gauntlets */
+     , (29011, 8, 2436) /* Greater Mana Stone */
+     , (29011, 8, 163) /* Ornamental Bowl */
+     , (29011, 8, 59) /* Studded Leather Gauntlets */
+     , (29011, 8, 2601) /* Loose Pants */;
+

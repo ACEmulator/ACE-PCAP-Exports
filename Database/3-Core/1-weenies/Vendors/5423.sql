@@ -126,22 +126,22 @@ VALUES (5423, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5423, 4, 307)
-     , (5423, 4, 300)
-     , (5423, 4, 312)
-     , (5423, 4, 305)
-     , (5423, 4, 4586)
-     , (5423, 4, 4585)
-     , (5423, 4, 5339)
-     , (5423, 4, 2621)
-     , (5423, 4, 2622)
-     , (5423, 4, 2623)
-     , (5423, 4, 44074)
-     , (5423, 4, 44070)
-     , (5423, 4, 44071);
+VALUES (5423, 4, 307) /* Shortbow */
+     , (5423, 4, 300) /* Arrow */
+     , (5423, 4, 312) /* Light Crossbow */
+     , (5423, 4, 305) /* Quarrel */
+     , (5423, 4, 4586) /* Bundle of Arrowheads */
+     , (5423, 4, 4585) /* Bundle of Arrowshafts */
+     , (5423, 4, 5339) /* Bundle of Quarrelshafts */
+     , (5423, 4, 2621) /* Trade Note (100) */
+     , (5423, 4, 2622) /* Trade Note (500) */
+     , (5423, 4, 2623) /* Trade Note (1,000) */
+     , (5423, 4, 44074) /* Invitation to Master Fletchers */
+     , (5423, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (5423, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5423, 2, 307);
+VALUES (5423, 2, 307) /* Shortbow */;
 

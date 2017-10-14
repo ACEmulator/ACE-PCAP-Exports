@@ -139,21 +139,21 @@ VALUES (813, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (813, 4, 314)
-     , (813, 4, 22158)
-     , (813, 4, 4195)
-     , (813, 4, 343)
-     , (813, 4, 342)
-     , (813, 4, 315)
-     , (813, 4, 356)
-     , (813, 4, 361)
-     , (813, 4, 362)
-     , (813, 4, 2621)
-     , (813, 4, 2622)
-     , (813, 4, 2623);
+VALUES (813, 4, 314) /* Dagger */
+     , (813, 4, 22158) /* Jo */
+     , (813, 4, 4195) /* Nekode */
+     , (813, 4, 343) /* Shouken */
+     , (813, 4, 342) /* Shou-ono */
+     , (813, 4, 315) /* Throwing Dagger */
+     , (813, 4, 356) /* Tofun */
+     , (813, 4, 361) /* Yaoji */
+     , (813, 4, 362) /* Yari */
+     , (813, 4, 2621) /* Trade Note (100) */
+     , (813, 4, 2622) /* Trade Note (500) */
+     , (813, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (813, 2, 303);
+VALUES (813, 2, 303) /* Hand Axe */;
 

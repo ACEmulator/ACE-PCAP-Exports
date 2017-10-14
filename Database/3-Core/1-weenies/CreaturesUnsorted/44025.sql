@@ -87,3 +87,153 @@ VALUES (44025, 0, 16795543)
      , (44025, 15, 16795541)
      , (44025, 16, 16795542);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44025, 8, 25639) /* Leather Jerkin */
+     , (44025, 8, 516) /* Peerless Lockpick */
+     , (44025, 8, 45274) /* Scroll of Dual Wield Mastery Other VII */
+     , (44025, 8, 37353) /* Ink of Formation */
+     , (44025, 8, 37331) /* Glyph of Self */
+     , (44025, 8, 20584) /* Scroll of Heavy Weapon Ineptitude Other VII */
+     , (44025, 8, 273) /* Pyreal */
+     , (44025, 8, 37212) /* Olthoi Tassets */
+     , (44025, 8, 416) /* Chainmail Pauldrons */
+     , (44025, 8, 27318) /* Health Philtre */
+     , (44025, 8, 118) /* Cloth Cap */
+     , (44025, 8, 9229) /* Treated Healing Kit */
+     , (44025, 8, 130) /* Shirt */
+     , (44025, 8, 27328) /* Major Mana Stone */
+     , (44025, 8, 132) /* Shoes */
+     , (44025, 8, 2436) /* Greater Mana Stone */
+     , (44025, 8, 44295) /* Ancient Tablet of the Crystal Amulet (Level 180+) */
+     , (44025, 8, 8327) /* Gold Pea */
+     , (44025, 8, 52) /* Scalemail Cuirass */
+     , (44025, 8, 8330) /* Pyreal Pea */
+     , (44025, 8, 44267) /* Engraved A'nekshay Bracers */
+     , (44025, 8, 5894) /* Fez */
+     , (44025, 8, 2412) /* Gem */
+     , (44025, 8, 108) /* Chainmail Tassets */
+     , (44025, 8, 41487) /* Mechanical Scarab */
+     , (44025, 8, 44293) /* Ancient Tablet of the Crystal Staff (Level 180+) */
+     , (44025, 8, 2421) /* Gem */
+     , (44025, 8, 27325) /* Stamina Philtre */
+     , (44025, 8, 31825) /* Piercing Baton */
+     , (44025, 8, 37364) /* Quill of Introspection */
+     , (44025, 8, 45250) /* Scroll of Dirty Fighting Mastery Other VII */
+     , (44025, 8, 40685) /* Olthoi Gauntlets */
+     , (44025, 8, 37317) /* Glyph of Magic Defense */
+     , (44025, 8, 43049) /* Knorr Academy Gauntlets */
+     , (44025, 8, 294) /* Amulet */
+     , (44025, 8, 37310) /* Glyph of Item Tinkering */
+     , (44025, 8, 44294) /* Ancient Tablet of the Crystal Sword (Level 180+) */
+     , (44025, 8, 28610) /* Loafers */
+     , (44025, 8, 149) /* Ewer */
+     , (44025, 8, 4198) /* Frost Nekode */
+     , (44025, 8, 93) /* Round Shield */
+     , (44025, 8, 25642) /* Leather Gauntlets */
+     , (44025, 8, 22166) /* Flaming Quarter Staff */
+     , (44025, 8, 27320) /* Health Tonic */
+     , (44025, 8, 25661) /* Leather Boots */
+     , (44025, 8, 37373) /* Glyph of Finesse Weapons */
+     , (44025, 8, 44296) /* Ancient Tablet of the Crystal Idol (Level 180+) */
+     , (44025, 8, 632) /* Peerless Healing Kit */
+     , (44025, 8, 2403) /* Gem */
+     , (44025, 8, 31759) /* Dericost Blade */
+     , (44025, 8, 41040) /* Frost Assagai */
+     , (44025, 8, 150) /* Flagon */
+     , (44025, 8, 20408) /* Scroll of Tusker's Bane */
+     , (44025, 8, 27327) /* Stamina Tonic */
+     , (44025, 8, 20608) /* Scroll of Gift of Essence */
+     , (44025, 8, 27321) /* Mana Philtre */
+     , (44025, 8, 44803) /* Empyrean Over-robe */
+     , (44025, 8, 41488) /* Top */
+     , (44025, 8, 154) /* Goblet */
+     , (44025, 8, 295) /* Bracelet */
+     , (44025, 8, 8331) /* Silver Pea */
+     , (44025, 8, 624) /* Ring */
+     , (44025, 8, 515) /* Superb Lockpick */
+     , (44025, 8, 25646) /* Long Leather Gauntlets */
+     , (44025, 8, 6045) /* Celdon Leggings */
+     , (44025, 8, 121) /* Gloves */
+     , (44025, 8, 37361) /* Ink of Direction */
+     , (44025, 8, 20415) /* Scroll of Geledite Bait */
+     , (44025, 8, 142) /* Chalice */
+     , (44025, 8, 46) /* Metal Cap */
+     , (44025, 8, 40709) /* Covenant Girth */
+     , (44025, 8, 2402) /* Gem */
+     , (44025, 8, 31811) /* Piercing Compound Crossbow */
+     , (44025, 8, 28939) /* Scroll of Arcanum Salvaging VII */
+     , (44025, 8, 22168) /* Hefty Walking Cane */
+     , (44025, 8, 45290) /* Scroll of Recklessness Ineptitude Other VII */
+     , (44025, 8, 37299) /* Olthoi Amuli Coat */
+     , (44025, 8, 31864) /* Teardrop Crown */
+     , (44025, 8, 92) /* Large Kite Shield */
+     , (44025, 8, 2411) /* Gem */
+     , (44025, 8, 37356) /* Parabolic Ink */
+     , (44025, 8, 40621) /* Flaming Spadone */
+     , (44025, 8, 20480) /* Scroll of Storm's Boon */
+     , (44025, 8, 20420) /* Scroll of Astyrrian's Bane */
+     , (44025, 8, 28606) /* Viamontian Pants */
+     , (44025, 8, 2423) /* Gem */
+     , (44025, 8, 45395) /* Rapier */
+     , (44025, 8, 113) /* Yoroi Tassets */
+     , (44025, 8, 31779) /* Spine Glaive */
+     , (44025, 8, 133) /* Slippers */
+     , (44025, 8, 27323) /* Mana Tonic */
+     , (44025, 8, 20456) /* Scroll of Lhen's Flare */
+     , (44025, 8, 621) /* Heavy Bracelet */
+     , (44025, 8, 41483) /* Compass */
+     , (44025, 8, 42749) /* Haebrean Breastplate */
+     , (44025, 8, 31867) /* Diadem */
+     , (44025, 8, 3820) /* Flaming Katar */
+     , (44025, 8, 28624) /* Tenassa Sleeves */
+     , (44025, 8, 2408) /* Gem */
+     , (44025, 8, 37316) /* Glyph of Loyalty */
+     , (44025, 8, 37359) /* Alacritous Ink */
+     , (44025, 8, 37351) /* Glyph of Creature Enchantment */
+     , (44025, 8, 2404) /* Gem */
+     , (44025, 8, 2425) /* Gem */
+     , (44025, 8, 163) /* Ornamental Bowl */
+     , (44025, 8, 46881) /* Aura of Heartseeker Other VII */
+     , (44025, 8, 46879) /* Aura of Blood Drinker Other VII */
+     , (44025, 8, 37200) /* Olthoi Alduressa Leggings */
+     , (44025, 8, 2410) /* Gem */
+     , (44025, 8, 339) /* Scimitar */
+     , (44025, 8, 42757) /* Haebrean Vambraces */
+     , (44025, 8, 29250) /* Piercing Crossbow */
+     , (44025, 8, 37363) /* Quill of Infliction */
+     , (44025, 8, 46883) /* Aura of Swift Killer Other VII */
+     , (44025, 8, 2424) /* Gem */
+     , (44025, 8, 41058) /* Acid Great Star Mace */
+     , (44025, 8, 243) /* Dinner Plate */
+     , (44025, 8, 2595) /* Baggy Tunic */
+     , (44025, 8, 29246) /* Ultimate Singularity Crossbow */
+     , (44025, 8, 2599) /* Trousers */
+     , (44025, 8, 20460) /* Scroll of Crushing Shame */
+     , (44025, 8, 41062) /* Khanda-handled Mace */
+     , (44025, 8, 45418) /* Lightning Knife */
+     , (44025, 8, 40704) /* Covenant Tassets */
+     , (44025, 8, 31798) /* Slashing Compound Bow */
+     , (44025, 8, 2409) /* Gem */
+     , (44025, 8, 37224) /* Acid Staff */
+     , (44025, 8, 20441) /* Scroll of Sizzling Fury */
+     , (44025, 8, 20425) /* Scroll of Fortified Lock */
+     , (44025, 8, 2589) /* Smock */
+     , (44025, 8, 3896) /* Frost Takuba */
+     , (44025, 8, 20615) /* Scroll of Rushed Recovery */
+     , (44025, 8, 2407) /* Gem */
+     , (44025, 8, 20406) /* Aura of Infected Caress */
+     , (44025, 8, 28617) /* Alduressa Helm */
+     , (44025, 8, 44240) /* A'nekshay Token */
+     , (44025, 8, 2590) /* Baggy Shirt */
+     , (44025, 8, 3908) /* Frost War Hammer */
+     , (44025, 8, 20244) /* Scroll of Adja's Gift */
+     , (44025, 8, 37300) /* Glyph of Endurance */
+     , (44025, 8, 40) /* Platemail Breastplate */
+     , (44025, 8, 41294) /* Scroll of Greased Palms */
+     , (44025, 8, 20239) /* Scroll of Self Loathing */
+     , (44025, 8, 31821) /* Staff of Aerfalle */
+     , (44025, 8, 2601) /* Loose Pants */
+     , (44025, 8, 44124) /* Sandstone Weapon Key */;
+

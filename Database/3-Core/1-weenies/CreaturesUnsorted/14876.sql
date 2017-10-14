@@ -45,3 +45,23 @@ VALUES (14876, 2, 62) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14876, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14876, 8, 128) /* Qafiya */
+     , (14876, 8, 2436) /* Greater Mana Stone */
+     , (14876, 8, 273) /* Pyreal */
+     , (14876, 8, 84) /* Studded  Leggings */
+     , (14876, 8, 27330) /* Moderate Mana Stone */
+     , (14876, 8, 149) /* Ewer */
+     , (14876, 8, 8327) /* Gold Pea */
+     , (14876, 8, 57) /* Platemail Gauntlets */
+     , (14876, 8, 27328) /* Major Mana Stone */
+     , (14876, 8, 34276) /* Ancient Empyrean Trinket */
+     , (14876, 8, 28610) /* Loafers */
+     , (14876, 8, 55) /* Chainmail Gauntlets */
+     , (14876, 8, 24477) /* Sturdy Steel Key */
+     , (14876, 8, 297) /* Ring */
+     , (14876, 8, 3750) /* Acid Battle Axe */
+     , (14876, 8, 8331) /* Silver Pea */;
+

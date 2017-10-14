@@ -122,35 +122,35 @@ VALUES (650, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (650, 4, 4190)
-     , (650, 4, 301)
-     , (650, 4, 350)
-     , (650, 4, 351)
-     , (650, 4, 331)
-     , (650, 4, 332)
-     , (650, 4, 339)
-     , (650, 4, 359)
-     , (650, 4, 303)
-     , (650, 4, 309)
-     , (650, 4, 314)
-     , (650, 4, 316)
-     , (650, 4, 329)
-     , (650, 4, 22168)
-     , (650, 4, 348)
-     , (650, 4, 320)
-     , (650, 4, 2621)
-     , (650, 4, 2622)
-     , (650, 4, 2623)
-     , (650, 4, 2624)
-     , (650, 4, 2625)
-     , (650, 4, 2626)
-     , (650, 4, 2627)
-     , (650, 4, 20628)
-     , (650, 4, 20629)
-     , (650, 4, 20630);
+VALUES (650, 4, 4190) /* Cestus */
+     , (650, 4, 301) /* Battle Axe */
+     , (650, 4, 350) /* Broad Sword */
+     , (650, 4, 351) /* Long Sword */
+     , (650, 4, 331) /* Mace */
+     , (650, 4, 332) /* Morning Star */
+     , (650, 4, 339) /* Scimitar */
+     , (650, 4, 359) /* War Hammer */
+     , (650, 4, 303) /* Hand Axe */
+     , (650, 4, 309) /* Club */
+     , (650, 4, 314) /* Dagger */
+     , (650, 4, 316) /* Throwing Dart */
+     , (650, 4, 329) /* Knife */
+     , (650, 4, 22168) /* Hefty Walking Cane */
+     , (650, 4, 348) /* Spear */
+     , (650, 4, 320) /* Javelin */
+     , (650, 4, 2621) /* Trade Note (100) */
+     , (650, 4, 2622) /* Trade Note (500) */
+     , (650, 4, 2623) /* Trade Note (1,000) */
+     , (650, 4, 2624) /* Trade Note (5,000) */
+     , (650, 4, 2625) /* Trade Note (10,000) */
+     , (650, 4, 2626) /* Trade Note (50,000) */
+     , (650, 4, 2627) /* Trade Note (100,000) */
+     , (650, 4, 20628) /* Trade Note (150,000) */
+     , (650, 4, 20629) /* Trade Note (200,000) */
+     , (650, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (650, 2, 301);
+VALUES (650, 2, 301) /* Battle Axe */;
 

@@ -70,3 +70,40 @@ VALUES (38178, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38178, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38178, 8, 6048) /* Celdon Sleeves */
+     , (38178, 8, 38222) /* Blighted Mana Crystal */
+     , (38178, 8, 8326) /* Copper Pea */
+     , (38178, 8, 20523) /* Scroll of Ketnan's Boon */
+     , (38178, 8, 273) /* Pyreal */
+     , (38178, 8, 150) /* Flagon */
+     , (38178, 8, 27330) /* Moderate Mana Stone */
+     , (38178, 8, 23203) /* Pyreal Golem Heart */
+     , (38178, 8, 624) /* Ring */
+     , (38178, 8, 40623) /* Quadrelle */
+     , (38178, 8, 2436) /* Greater Mana Stone */
+     , (38178, 8, 149) /* Ewer */
+     , (38178, 8, 31786) /* Lightning Claw */
+     , (38178, 8, 20410) /* Scroll of Tattercoat */
+     , (38178, 8, 132) /* Shoes */
+     , (38178, 8, 28939) /* Scroll of Arcanum Salvaging VII */
+     , (38178, 8, 8331) /* Silver Pea */
+     , (38178, 8, 295) /* Bracelet */
+     , (38178, 8, 31868) /* Signet Crown */
+     , (38178, 8, 31867) /* Diadem */
+     , (38178, 8, 623) /* Heavy Necklace */
+     , (38178, 8, 27328) /* Major Mana Stone */
+     , (38178, 8, 40710) /* Covenant Greaves */
+     , (38178, 8, 7768) /* Spiked Club */
+     , (38178, 8, 30565) /* Frost Dolabra */
+     , (38178, 8, 63) /* Studded Leather Girth */
+     , (38178, 8, 2594) /* Flared Tunic */
+     , (38178, 8, 294) /* Amulet */
+     , (38178, 8, 2421) /* Gem */
+     , (38178, 8, 8327) /* Gold Pea */
+     , (38178, 8, 20543) /* Scroll of Yoshi's Blessing */
+     , (38178, 8, 2425) /* Gem */
+     , (38178, 8, 2603) /* Baggy Breeches */;
+

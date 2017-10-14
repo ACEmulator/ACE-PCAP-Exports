@@ -62,3 +62,28 @@ VALUES (24277, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24277, 64, 413) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24277, 8, 29265) /* Winter Orb */
+     , (24277, 8, 127) /* Pants */
+     , (24277, 8, 2472) /* Wand */
+     , (24277, 8, 30625) /* War Bow */
+     , (24277, 8, 514) /* Excellent Lockpick */
+     , (24277, 8, 105) /* Studded Leather Sleeves */
+     , (24277, 8, 2422) /* Gem */
+     , (24277, 8, 308) /* Budiaq */
+     , (24277, 8, 40626) /* Flaming Quadrelle */
+     , (24277, 8, 2367) /* Gorget */
+     , (24277, 8, 21315) /* Scroll of Force Arc VII */
+     , (24277, 8, 297) /* Ring */
+     , (24277, 8, 515) /* Superb Lockpick */
+     , (24277, 8, 413) /* Chainmail Bracers */
+     , (24277, 8, 29262) /* Fire Sceptre */
+     , (24277, 8, 294) /* Amulet */
+     , (24277, 8, 45249) /* Scroll of Dirty Fighting Mastery Other VI */
+     , (24277, 8, 40708) /* Covenant Gauntlets */
+     , (24277, 8, 41048) /* Lightning Pike */
+     , (24277, 8, 21322) /* Scroll of Frost Arc VII */
+     , (24277, 8, 45395) /* Rapier */;
+

@@ -60,3 +60,43 @@ VALUES (27426, 0, 16778359)
      , (27426, 15, 16777307)
      , (27426, 16, 16778407);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27426, 8, 20414) /* Scroll of Gelidite's Bane */
+     , (27426, 8, 2404) /* Gem */
+     , (27426, 8, 29249) /* Frost Crossbow */
+     , (27426, 8, 6058) /* Dark Shard */
+     , (27426, 8, 150) /* Flagon */
+     , (27426, 8, 621) /* Heavy Bracelet */
+     , (27426, 8, 28606) /* Viamontian Pants */
+     , (27426, 8, 43373) /* Scroll of Void Magic Ineptitude Other VII */
+     , (27426, 8, 6876) /* Sturdy Iron Key */
+     , (27426, 8, 130) /* Shirt */
+     , (27426, 8, 119) /* Cowl */
+     , (27426, 8, 40702) /* Covenant Pauldrons */
+     , (27426, 8, 2403) /* Gem */
+     , (27426, 8, 295) /* Bracelet */
+     , (27426, 8, 623) /* Heavy Necklace */
+     , (27426, 8, 31784) /* Claw */
+     , (27426, 8, 154) /* Goblet */
+     , (27426, 8, 2411) /* Gem */
+     , (27426, 8, 31026) /* Tenassa Breastplate */
+     , (27426, 8, 2597) /* Flared Pants */
+     , (27426, 8, 20243) /* Scroll of Heart Rend */
+     , (27426, 8, 2402) /* Gem */
+     , (27426, 8, 127) /* Pants */
+     , (27426, 8, 624) /* Ring */
+     , (27426, 8, 28605) /* Beret */
+     , (27426, 8, 103) /* Platemail Sleeves */
+     , (27426, 8, 142) /* Chalice */
+     , (27426, 8, 31866) /* Coronet */
+     , (27426, 8, 20520) /* Scroll of Finesse Weapon Mastery Other VII */
+     , (27426, 8, 2424) /* Gem */
+     , (27426, 8, 2412) /* Gem */
+     , (27426, 8, 30605) /* Acid Stiletto */
+     , (27426, 8, 308) /* Budiaq */
+     , (27426, 8, 20586) /* Scroll of Heavy Weapon Mastery Self VII */
+     , (27426, 8, 25644) /* Leather Greaves */
+     , (27426, 8, 2599) /* Trousers */;
+

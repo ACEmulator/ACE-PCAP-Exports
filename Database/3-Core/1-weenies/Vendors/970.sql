@@ -136,16 +136,16 @@ VALUES (970, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (970, 4, 364)
-     , (970, 4, 365)
-     , (970, 4, 367)
-     , (970, 4, 5583)
-     , (970, 4, 5856)
-     , (970, 4, 7884)
-     , (970, 4, 14797)
-     , (970, 4, 5586)
-     , (970, 4, 24855)
-     , (970, 4, 5587)
-     , (970, 4, 5602)
-     , (970, 4, 6419);
+VALUES (970, 4, 364) /* Book */
+     , (970, 4, 365) /* Parchment */
+     , (970, 4, 367) /* Tome */
+     , (970, 4, 5583) /* Aluvian Cookbook */
+     , (970, 4, 5856) /* Specialty Cookbook */
+     , (970, 4, 7884) /* Chocolate Cookbook */
+     , (970, 4, 14797) /* Festival Cookbook */
+     , (970, 4, 5586) /* Alchemy Guide */
+     , (970, 4, 24855) /* The New Alchemy */
+     , (970, 4, 5587) /* Fletching Guide */
+     , (970, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (970, 4, 6419) /* The Meeting Halls */;
 

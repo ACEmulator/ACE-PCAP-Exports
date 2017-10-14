@@ -51,3 +51,38 @@ VALUES (5497, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (5497, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5497, 8, 141) /* Bowl */
+     , (5497, 8, 27331) /* Minor Mana Stone */
+     , (5497, 8, 8328) /* Iron Pea */
+     , (5497, 8, 3821) /* Frost Katar */
+     , (5497, 8, 273) /* Pyreal */
+     , (5497, 8, 49458) /* Scroll of Summoning Ineptitude Other III */
+     , (5497, 8, 8154) /* Broken Virindi Mask */
+     , (5497, 8, 46869) /* Aura of Heartseeker Other IV */
+     , (5497, 8, 243) /* Dinner Plate */
+     , (5497, 8, 2434) /* Lesser Mana Stone */
+     , (5497, 8, 8329) /* Lead Pea */
+     , (5497, 8, 99) /* Studded Leather Shirt */
+     , (5497, 8, 3696) /* Blue Jewel */
+     , (5497, 8, 2415) /* Gem */
+     , (5497, 8, 2599) /* Trousers */
+     , (5497, 8, 2435) /* Mana Stone */
+     , (5497, 8, 295) /* Bracelet */
+     , (5497, 8, 7940) /* Empty Flask */
+     , (5497, 8, 20863) /* Virindi Stamp */
+     , (5497, 8, 168) /* Tankard */
+     , (5497, 8, 129) /* Sandals */
+     , (5497, 8, 3891) /* Flaming Tachi */
+     , (5497, 8, 2894) /* Scroll of Turn Blade III */
+     , (5497, 8, 49485) /* Encapsulated Spirit */
+     , (5497, 8, 7604) /* Yellow Jewel */
+     , (5497, 8, 2414) /* Gem */
+     , (5497, 8, 30578) /* Frost Flamberge */
+     , (5497, 8, 28610) /* Loafers */
+     , (5497, 8, 41470) /* Purple Jewel */
+     , (5497, 8, 154) /* Goblet */
+     , (5497, 8, 31761) /* Lightning Dericost Blade */;
+

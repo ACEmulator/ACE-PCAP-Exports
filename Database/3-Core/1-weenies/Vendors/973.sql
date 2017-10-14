@@ -130,23 +130,23 @@ VALUES (973, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (973, 4, 2454)
-     , (973, 4, 2465)
-     , (973, 4, 5136)
-     , (973, 4, 2469)
-     , (973, 4, 2462)
-     , (973, 4, 8378)
-     , (973, 4, 4743)
-     , (973, 4, 261)
-     , (973, 4, 4735)
-     , (973, 4, 4727)
-     , (973, 4, 1224)
-     , (973, 4, 1220)
-     , (973, 4, 5130)
-     , (973, 4, 5131)
-     , (973, 4, 1508)
-     , (973, 4, 8209)
-     , (973, 4, 15808)
-     , (973, 4, 20229)
-     , (973, 4, 6418);
+VALUES (973, 4, 2454) /* Coffee */
+     , (973, 4, 2465) /* Palm Wine */
+     , (973, 4, 5136) /* Cove Apple Cider */
+     , (973, 4, 2469) /* Small Beer */
+     , (973, 4, 2462) /* Mead */
+     , (973, 4, 8378) /* Beer Stein */
+     , (973, 4, 4743) /* Stuffed Grape Leaf */
+     , (973, 4, 261) /* Cheese */
+     , (973, 4, 4735) /* Mushroom Kebab */
+     , (973, 4, 4727) /* Flat Bread */
+     , (973, 4, 1224) /* Samsur Portal Directions */
+     , (973, 4, 1220) /* Dungeon Manor Directions */
+     , (973, 4, 5130) /* Dry Well Directions */
+     , (973, 4, 5131) /* Musansayn's House Directions */
+     , (973, 4, 1508) /* Alphus Range Directions */
+     , (973, 4, 8209) /* Call for Adventurers! */
+     , (973, 4, 15808) /* Plea for Help */
+     , (973, 4, 20229) /* Rumor of an Artifact */
+     , (973, 4, 6418) /* A Fiery Stone */;
 

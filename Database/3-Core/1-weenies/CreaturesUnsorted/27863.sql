@@ -86,3 +86,18 @@ VALUES (27863, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27863, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27863, 8, 148) /* Cup */
+     , (27863, 8, 512) /* Good Lockpick */
+     , (27863, 8, 31769) /* Lugian Axe */
+     , (27863, 8, 31865) /* Circlet */
+     , (27863, 8, 57) /* Platemail Gauntlets */
+     , (27863, 8, 25646) /* Long Leather Gauntlets */
+     , (27863, 8, 31780) /* Acid Spine Glaive */
+     , (27863, 8, 45876) /* Scarlet Red Letter */
+     , (27863, 8, 3237) /* Scroll of Deception Ineptitude VI */
+     , (27863, 8, 3694) /* Swamp Stone */
+     , (27863, 8, 7897) /* Steel Toed Boots */;
+

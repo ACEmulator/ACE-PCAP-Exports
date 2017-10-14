@@ -140,5 +140,5 @@ VALUES (52857, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (52857, 4, 52796);
+VALUES (52857, 4, 52796) /* Gauntlet Ticket */;
 

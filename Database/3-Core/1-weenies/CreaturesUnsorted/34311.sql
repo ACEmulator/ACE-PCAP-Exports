@@ -39,3 +39,12 @@ VALUES (34311, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34311, 67111939, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34311, 8, 111) /* Scalemail Tassets */
+     , (34311, 8, 99) /* Studded Leather Shirt */
+     , (34311, 8, 6003) /* Koujia Breastplate */
+     , (34311, 8, 127) /* Pants */
+     , (34311, 8, 29250) /* Piercing Crossbow */;
+

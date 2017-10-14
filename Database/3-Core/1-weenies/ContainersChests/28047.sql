@@ -63,3 +63,29 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (28047, 2, 0) /* OPEN_BOOL */
      , (28047, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28047, 8, 69) /* Yoroi Greaves */
+     , (28047, 8, 31784) /* Claw */
+     , (28047, 8, 2404) /* Gem */
+     , (28047, 8, 154) /* Goblet */
+     , (28047, 8, 21159) /* Covenant Tassets */
+     , (28047, 8, 273) /* Pyreal */
+     , (28047, 8, 150) /* Flagon */
+     , (28047, 8, 2548) /* Sceptre */
+     , (28047, 8, 40914) /* Aerfalle's Ornate Token */
+     , (28047, 8, 9010) /* Unreadable Scroll */
+     , (28047, 8, 28059) /* War Staff of Aerfalle */
+     , (28047, 8, 28067) /* Superior Ashbane */
+     , (28047, 8, 28046) /* Aerfalle's Supreme Pallium */
+     , (28047, 8, 40) /* Platemail Breastplate */
+     , (28047, 8, 6046) /* Amuli Coat */
+     , (28047, 8, 127) /* Pants */
+     , (28047, 8, 20570) /* Scroll of Ignorance's Bliss */
+     , (28047, 8, 142) /* Chalice */
+     , (28047, 8, 20594) /* Scroll of Wrath of the Hieromancer */
+     , (28047, 8, 307) /* Shortbow */
+     , (28047, 8, 46883) /* Aura of Swift Killer Other VII */
+     , (28047, 8, 8331) /* Silver Pea */;
+

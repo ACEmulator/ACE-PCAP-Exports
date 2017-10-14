@@ -135,88 +135,88 @@ VALUES (1078, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1078, 4, 550)
-     , (1078, 4, 308)
-     , (1078, 4, 313)
-     , (1078, 4, 317)
-     , (1078, 4, 319)
-     , (1078, 4, 325)
-     , (1078, 4, 326)
-     , (1078, 4, 328)
-     , (1078, 4, 22163)
-     , (1078, 4, 345)
-     , (1078, 4, 344)
-     , (1078, 4, 354)
-     , (1078, 4, 316)
-     , (1078, 4, 324)
-     , (1078, 4, 340)
-     , (1078, 4, 359)
-     , (1078, 4, 357)
-     , (1078, 4, 551)
-     , (1078, 4, 554)
-     , (1078, 4, 96)
-     , (1078, 4, 85)
-     , (1078, 4, 115)
-     , (1078, 4, 36)
-     , (1078, 4, 39)
-     , (1078, 4, 45)
-     , (1078, 4, 47)
-     , (1078, 4, 458)
-     , (1078, 4, 50)
-     , (1078, 4, 56)
-     , (1078, 4, 60)
-     , (1078, 4, 65)
-     , (1078, 4, 109)
-     , (1078, 4, 81)
-     , (1078, 4, 86)
-     , (1078, 4, 97)
-     , (1078, 4, 102)
-     , (1078, 4, 46)
-     , (1078, 4, 116)
-     , (1078, 4, 38)
-     , (1078, 4, 42)
-     , (1078, 4, 48)
-     , (1078, 4, 723)
-     , (1078, 4, 53)
-     , (1078, 4, 59)
-     , (1078, 4, 63)
-     , (1078, 4, 68)
-     , (1078, 4, 112)
-     , (1078, 4, 84)
-     , (1078, 4, 89)
-     , (1078, 4, 99)
-     , (1078, 4, 44)
-     , (1078, 4, 93)
-     , (1078, 4, 94)
-     , (1078, 4, 95)
-     , (1078, 4, 413)
-     , (1078, 4, 414)
-     , (1078, 4, 55)
-     , (1078, 4, 415)
-     , (1078, 4, 71)
-     , (1078, 4, 80)
-     , (1078, 4, 416)
-     , (1078, 4, 101)
-     , (1078, 4, 41)
-     , (1078, 4, 52)
-     , (1078, 4, 58)
-     , (1078, 4, 62)
-     , (1078, 4, 67)
-     , (1078, 4, 111)
-     , (1078, 4, 73)
-     , (1078, 4, 83)
-     , (1078, 4, 88)
-     , (1078, 4, 98)
-     , (1078, 4, 104)
-     , (1078, 4, 105)
-     , (1078, 4, 149)
-     , (1078, 4, 168)
-     , (1078, 4, 243)
-     , (1078, 4, 251)
-     , (1078, 4, 142);
+VALUES (1078, 4, 550) /* Baigha */
+     , (1078, 4, 308) /* Budiaq */
+     , (1078, 4, 313) /* Dabus */
+     , (1078, 4, 317) /* Djarid */
+     , (1078, 4, 319) /* Jambiya */
+     , (1078, 4, 325) /* Kasrullah */
+     , (1078, 4, 326) /* Katar */
+     , (1078, 4, 328) /* Khanjar */
+     , (1078, 4, 22163) /* Nabut */
+     , (1078, 4, 345) /* Simi */
+     , (1078, 4, 344) /* Silifi */
+     , (1078, 4, 354) /* Takuba */
+     , (1078, 4, 316) /* Throwing Dart */
+     , (1078, 4, 324) /* Kaskara */
+     , (1078, 4, 340) /* Shamshir */
+     , (1078, 4, 359) /* War Hammer */
+     , (1078, 4, 357) /* Tungi */
+     , (1078, 4, 551) /* Basinet */
+     , (1078, 4, 554) /* Studded Leather Basinet */
+     , (1078, 4, 96) /* Chainmail Shirt */
+     , (1078, 4, 85) /* Chainmail Coif */
+     , (1078, 4, 115) /* Leather Boots */
+     , (1078, 4, 36) /* Leather Bracers */
+     , (1078, 4, 39) /* Leather Breastplate */
+     , (1078, 4, 45) /* Leather Cap */
+     , (1078, 4, 47) /* Leather Coat */
+     , (1078, 4, 458) /* Leather Cowl */
+     , (1078, 4, 50) /* Leather Cuirass */
+     , (1078, 4, 56) /* Leather Gauntlets */
+     , (1078, 4, 60) /* Olthoi Celdon Girth */
+     , (1078, 4, 65) /* Olthoi Greaves */
+     , (1078, 4, 109) /* Olthoi Tassets */
+     , (1078, 4, 81) /* Leggings */
+     , (1078, 4, 86) /* Leather Pauldrons */
+     , (1078, 4, 97) /* Shirt */
+     , (1078, 4, 102) /* Leather Sleeves */
+     , (1078, 4, 46) /* Metal Cap */
+     , (1078, 4, 116) /* Studded Leather Boots */
+     , (1078, 4, 38) /* Studded Leather Bracers */
+     , (1078, 4, 42) /* Studded Leather Breastplate */
+     , (1078, 4, 48) /* Studded Leather Coat */
+     , (1078, 4, 723) /* Studded Leather Cowl */
+     , (1078, 4, 53) /* Studded Leather Cuirass */
+     , (1078, 4, 59) /* Studded Leather Gauntlets */
+     , (1078, 4, 63) /* Studded Leather Girth */
+     , (1078, 4, 68) /* Studded Leather Greaves */
+     , (1078, 4, 112) /* Studded Leather Tassets */
+     , (1078, 4, 84) /* Studded  Leggings */
+     , (1078, 4, 89) /* Studded Leather Pauldrons */
+     , (1078, 4, 99) /* Studded Leather Shirt */
+     , (1078, 4, 44) /* Buckler */
+     , (1078, 4, 93) /* Round Shield */
+     , (1078, 4, 94) /* Diamond Shield */
+     , (1078, 4, 95) /* Tower Shield */
+     , (1078, 4, 413) /* Chainmail Bracers */
+     , (1078, 4, 414) /* Chainmail Breastplate */
+     , (1078, 4, 55) /* Chainmail Gauntlets */
+     , (1078, 4, 415) /* Chainmail Girth */
+     , (1078, 4, 71) /* Chainmail Hauberk */
+     , (1078, 4, 80) /* Chainmail Leggings */
+     , (1078, 4, 416) /* Chainmail Pauldrons */
+     , (1078, 4, 101) /* Chainmail Sleeves */
+     , (1078, 4, 41) /* Scalemail Breastplate */
+     , (1078, 4, 52) /* Scalemail Cuirass */
+     , (1078, 4, 58) /* Scalemail Gauntlets */
+     , (1078, 4, 62) /* Scalemail Girth */
+     , (1078, 4, 67) /* Scalemail Greaves */
+     , (1078, 4, 111) /* Scalemail Tassets */
+     , (1078, 4, 73) /* Scalemail Hauberk */
+     , (1078, 4, 83) /* Scalemail Leggings */
+     , (1078, 4, 88) /* Scalemail Pauldrons */
+     , (1078, 4, 98) /* Scalemail Shirt */
+     , (1078, 4, 104) /* Scalemail Sleeves */
+     , (1078, 4, 105) /* Studded Leather Sleeves */
+     , (1078, 4, 149) /* Ewer */
+     , (1078, 4, 168) /* Tankard */
+     , (1078, 4, 243) /* Dinner Plate */
+     , (1078, 4, 251) /* Platter */
+     , (1078, 4, 142) /* Chalice */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1078, 2, 313);
+VALUES (1078, 2, 313) /* Dabus */;
 

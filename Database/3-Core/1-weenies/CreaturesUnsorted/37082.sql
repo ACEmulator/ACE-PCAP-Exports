@@ -96,3 +96,13 @@ VALUES (37082, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (37082, 128, 1200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (37082, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37082, 8, 40711) /* Covenant Helm */
+     , (37082, 8, 92) /* Large Kite Shield */
+     , (37082, 8, 37083) /* Sword of Soroku */
+     , (37082, 8, 22168) /* Hefty Walking Cane */
+     , (37082, 8, 3804) /* Flaming Jitte */
+     , (37082, 8, 31788) /* Stick */;
+

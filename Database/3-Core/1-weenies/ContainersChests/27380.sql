@@ -50,3 +50,19 @@ VALUES (27380, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27380, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27380, 8, 22165) /* Lightning Quarter Staff */
+     , (27380, 8, 45321) /* Scroll of Shield Mastery Other VI */
+     , (27380, 8, 2393) /* Gem */
+     , (27380, 8, 40638) /* Flaming Tetsubo */
+     , (27380, 8, 31788) /* Stick */
+     , (27380, 8, 273) /* Pyreal */
+     , (27380, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (27380, 8, 28622) /* Tenassa Leggings */
+     , (27380, 8, 133) /* Slippers */
+     , (27380, 8, 554) /* Studded Leather Basinet */
+     , (27380, 8, 7768) /* Spiked Club */
+     , (27380, 8, 31774) /* Board with Nail */;
+

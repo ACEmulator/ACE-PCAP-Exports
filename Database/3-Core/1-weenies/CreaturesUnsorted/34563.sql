@@ -51,3 +51,18 @@ VALUES (34563, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (34563, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34563, 8, 307) /* Shortbow */
+     , (34563, 8, 20602) /* Scroll of Vigor Siphon */
+     , (34563, 8, 142) /* Chalice */
+     , (34563, 8, 48) /* Studded Leather Coat */
+     , (34563, 8, 30606) /* Bastone */
+     , (34563, 8, 3868) /* Frost Silifi */
+     , (34563, 8, 332) /* Morning Star */
+     , (34563, 8, 43491) /* Pitted Slag */
+     , (34563, 8, 49422) /* Acid Spectre Essence (80) */
+     , (34563, 8, 312) /* Light Crossbow */
+     , (34563, 8, 2598) /* Baggy Pants */;
+

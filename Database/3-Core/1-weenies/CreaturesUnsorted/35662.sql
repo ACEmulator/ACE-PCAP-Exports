@@ -50,3 +50,21 @@ VALUES (35662, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35662, 64, 700) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35662, 8, 30950) /* Alduressa Boots */
+     , (35662, 8, 6047) /* Amuli Leggings */
+     , (35662, 8, 2411) /* Gem */
+     , (35662, 8, 49339) /* Acid Moar Essence (80) */
+     , (35662, 8, 7771) /* Naginata */
+     , (35662, 8, 29254) /* Electric Atlatl */
+     , (35662, 8, 49375) /* Lightning Grievver Essence (100) */
+     , (35662, 8, 624) /* Ring */
+     , (35662, 8, 723) /* Studded Leather Cowl */
+     , (35662, 8, 42752) /* Haebrean Greaves */
+     , (35662, 8, 30615) /* Acid Knuckles */
+     , (35662, 8, 49250) /* Fire Zombie Essence (125) */
+     , (35662, 8, 29252) /* Acid Atlatl */
+     , (35662, 8, 7897) /* Steel Toed Boots */;
+

@@ -77,3 +77,22 @@ VALUES (19294, 0, 16787248)
      , (19294, 15, 16787257)
      , (19294, 16, 16787256);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19294, 8, 44849) /* Chevron Cloak */
+     , (19294, 8, 273) /* Pyreal */
+     , (19294, 8, 80) /* Chainmail Leggings */
+     , (19294, 8, 7940) /* Empty Flask */
+     , (19294, 8, 49435) /* Fire Spectre Essence (50) */
+     , (19294, 8, 25642) /* Leather Gauntlets */
+     , (19294, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (19294, 8, 3775) /* Lightning Dabus */
+     , (19294, 8, 45426) /* Jambiya */
+     , (19294, 8, 91) /* Kite Shield */
+     , (19294, 8, 3053) /* Scroll of Lightning Protection Self II */
+     , (19294, 8, 3143) /* Scroll of Armor Tinkering Expertise Other II */
+     , (19294, 8, 22166) /* Flaming Quarter Staff */
+     , (19294, 8, 31792) /* Frost Stick */
+     , (19294, 8, 101) /* Chainmail Sleeves */;
+

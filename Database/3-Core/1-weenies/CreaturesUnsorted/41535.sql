@@ -44,3 +44,13 @@ VALUES (41535, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41535, 64, 680) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41535, 8, 27215) /* Chiran Coat */
+     , (41535, 8, 28628) /* Diforsa Breastplate */
+     , (41535, 8, 41488) /* Top */
+     , (41535, 8, 51266) /* Pile of Gearknight Parts */
+     , (41535, 8, 27230) /* Nariyid Helm */
+     , (41535, 8, 7897) /* Steel Toed Boots */;
+

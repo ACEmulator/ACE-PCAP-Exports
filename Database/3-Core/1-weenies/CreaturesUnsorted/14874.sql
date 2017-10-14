@@ -205,3 +205,28 @@ VALUES (14874, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14874, 64, 410) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14874, 8, 623) /* Heavy Necklace */
+     , (14874, 8, 41057) /* Great Star Mace */
+     , (14874, 8, 42517) /* Coalesced Mana */
+     , (14874, 8, 2547) /* Staff */
+     , (14874, 8, 112) /* Studded Leather Tassets */
+     , (14874, 8, 132) /* Shoes */
+     , (14874, 8, 95) /* Tower Shield */
+     , (14874, 8, 2461) /* Mana Elixir */
+     , (14874, 8, 12463) /* Atlatl */
+     , (14874, 8, 20450) /* Scroll of Icy Torment */
+     , (14874, 8, 8326) /* Copper Pea */
+     , (14874, 8, 3764) /* Flaming Budiaq */
+     , (14874, 8, 414) /* Chainmail Breastplate */
+     , (14874, 8, 38) /* Studded Leather Bracers */
+     , (14874, 8, 2458) /* Health Elixir */
+     , (14874, 8, 2605) /* Chainmail Greaves */
+     , (14874, 8, 31763) /* Frost Lugian Hammer */
+     , (14874, 8, 273) /* Pyreal */
+     , (14874, 8, 45099) /* Epee */
+     , (14874, 8, 20640) /* Royal Atlatl */
+     , (14874, 8, 2587) /* Shirt */;
+

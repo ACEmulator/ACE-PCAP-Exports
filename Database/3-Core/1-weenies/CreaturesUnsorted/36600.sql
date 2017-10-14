@@ -46,3 +46,23 @@ VALUES (36600, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36600, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36600, 8, 2423) /* Gem */
+     , (36600, 8, 25644) /* Leather Greaves */
+     , (36600, 8, 31781) /* Electric Spine Glaive */
+     , (36600, 8, 20506) /* Scroll of Light Weapon Mastery Self VII */
+     , (36600, 8, 621) /* Heavy Bracelet */
+     , (36600, 8, 30601) /* Stiletto */
+     , (36600, 8, 29261) /* Electric Sceptre */
+     , (36600, 8, 36613) /* Virindi Message Shard */
+     , (36600, 8, 36614) /* Paradox-infused Potion */
+     , (36600, 8, 2403) /* Gem */
+     , (36600, 8, 49222) /* Lightning Skeleton Minion Essence (100) */
+     , (36600, 8, 3866) /* Lightning Silifi */
+     , (36600, 8, 20475) /* Scroll of Icy Blessing */
+     , (36600, 8, 163) /* Ornamental Bowl */
+     , (36600, 8, 25642) /* Leather Gauntlets */
+     , (36600, 8, 2402) /* Gem */;
+

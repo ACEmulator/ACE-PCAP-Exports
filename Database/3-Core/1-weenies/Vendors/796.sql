@@ -126,18 +126,18 @@ VALUES (796, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (796, 4, 4739)
-     , (796, 4, 4726)
-     , (796, 4, 4730)
-     , (796, 4, 2455)
-     , (796, 4, 2466)
-     , (796, 4, 2451)
-     , (796, 4, 2468)
-     , (796, 4, 2467)
-     , (796, 4, 8378)
-     , (796, 4, 1506)
-     , (796, 4, 15808)
-     , (796, 4, 20229)
-     , (796, 4, 24223)
-     , (796, 4, 24222);
+VALUES (796, 4, 4739) /* Pickled Egg */
+     , (796, 4, 4726) /* Fish Stew */
+     , (796, 4, 4730) /* Fried Fish Filet */
+     , (796, 4, 2455) /* Grape Juice */
+     , (796, 4, 2466) /* Red Tea */
+     , (796, 4, 2451) /* Ale */
+     , (796, 4, 2468) /* Sake */
+     , (796, 4, 2467) /* Red Wine */
+     , (796, 4, 8378) /* Beer Stein */
+     , (796, 4, 1506) /* Legend of the Undead Defender */
+     , (796, 4, 15808) /* Plea for Help */
+     , (796, 4, 20229) /* Rumor of an Artifact */
+     , (796, 4, 24223) /* A Sparking Stone */
+     , (796, 4, 24222) /* Duplicated Portals */;
 

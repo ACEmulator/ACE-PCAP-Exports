@@ -51,3 +51,30 @@ VALUES (24036, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24036, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24036, 8, 624) /* Ring */
+     , (24036, 8, 2428) /* Gem */
+     , (24036, 8, 8326) /* Copper Pea */
+     , (24036, 8, 30590) /* Frost Flanged Mace */
+     , (24036, 8, 273) /* Pyreal */
+     , (24036, 8, 45121) /* Flaming Hand Wraps */
+     , (24036, 8, 24128) /* A Virindi Signet */
+     , (24036, 8, 31773) /* Frost Board with Nail */
+     , (24036, 8, 2367) /* Gorget */
+     , (24036, 8, 31787) /* Flaming Claw */
+     , (24036, 8, 85) /* Chainmail Coif */
+     , (24036, 8, 27330) /* Moderate Mana Stone */
+     , (24036, 8, 2658) /* Scroll of Endurance Other VI */
+     , (24036, 8, 2436) /* Greater Mana Stone */
+     , (24036, 8, 30556) /* Hatchet */
+     , (24036, 8, 150) /* Flagon */
+     , (24036, 8, 243) /* Dinner Plate */
+     , (24036, 8, 40710) /* Covenant Greaves */
+     , (24036, 8, 52) /* Scalemail Cuirass */
+     , (24036, 8, 621) /* Heavy Bracelet */
+     , (24036, 8, 8328) /* Iron Pea */
+     , (24036, 8, 41070) /* Flaming Shashqa */
+     , (24036, 8, 25639) /* Leather Jerkin */;
+

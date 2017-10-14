@@ -49,3 +49,15 @@ VALUES (1317, 19, 3000) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1317, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1317, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (1317, 8, 2596) /* Doublet */
+     , (1317, 8, 30615) /* Acid Knuckles */
+     , (1317, 8, 45411) /* Spada */
+     , (1317, 8, 42518) /* Coalesced Mana */
+     , (1317, 8, 2599) /* Trousers */
+     , (1317, 8, 254) /* Stoup */
+     , (1317, 8, 2397) /* Gem */;
+

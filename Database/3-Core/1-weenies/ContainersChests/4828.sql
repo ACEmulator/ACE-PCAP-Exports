@@ -53,3 +53,12 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4828, 2, 0) /* OPEN_BOOL */
      , (4828, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4828, 8, 624) /* Ring */
+     , (4828, 8, 8326) /* Copper Pea */
+     , (4828, 8, 359) /* War Hammer */
+     , (4828, 8, 22160) /* Lightning Nabut */
+     , (4828, 8, 27330) /* Moderate Mana Stone */;
+

@@ -86,3 +86,33 @@ VALUES (7103, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7103, 64, 205) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7103, 8, 49248) /* Fire Zombie Essence (80) */
+     , (7103, 8, 22165) /* Lightning Quarter Staff */
+     , (7103, 8, 30616) /* Arbalest */
+     , (7103, 8, 3132) /* Scroll of Arcane Benightedness VI */
+     , (7103, 8, 45249) /* Scroll of Dirty Fighting Mastery Other VI */
+     , (7103, 8, 2418) /* Gem */
+     , (7103, 8, 27330) /* Moderate Mana Stone */
+     , (7103, 8, 7825) /* Brown Beans */
+     , (7103, 8, 3694) /* Swamp Stone */
+     , (7103, 8, 103) /* Platemail Sleeves */
+     , (7103, 8, 2472) /* Wand */
+     , (7103, 8, 20570) /* Scroll of Ignorance's Bliss */
+     , (7103, 8, 3757) /* Frost Hand Axe */
+     , (7103, 8, 21157) /* Covenant Pauldrons */
+     , (7103, 8, 8331) /* Silver Pea */
+     , (7103, 8, 28612) /* Bandana */
+     , (7103, 8, 2595) /* Baggy Tunic */
+     , (7103, 8, 93) /* Round Shield */
+     , (7103, 8, 31865) /* Circlet */
+     , (7103, 8, 630) /* Gifted Healing Kit */
+     , (7103, 8, 20599) /* Scroll of Eye of the Grunt */
+     , (7103, 8, 119) /* Cowl */
+     , (7103, 8, 31824) /* Ice Wand */
+     , (7103, 8, 28624) /* Tenassa Sleeves */
+     , (7103, 8, 41071) /* Frost Shashqa */
+     , (7103, 8, 27323) /* Mana Tonic */;
+

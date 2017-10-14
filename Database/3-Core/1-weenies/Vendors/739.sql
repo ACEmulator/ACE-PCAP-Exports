@@ -126,61 +126,61 @@ VALUES (739, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (739, 4, 4190)
-     , (739, 4, 301)
-     , (739, 4, 350)
-     , (739, 4, 351)
-     , (739, 4, 331)
-     , (739, 4, 332)
-     , (739, 4, 339)
-     , (739, 4, 359)
-     , (739, 4, 303)
-     , (739, 4, 309)
-     , (739, 4, 314)
-     , (739, 4, 316)
-     , (739, 4, 329)
-     , (739, 4, 22168)
-     , (739, 4, 348)
-     , (739, 4, 320)
-     , (739, 4, 35)
-     , (739, 4, 554)
-     , (739, 4, 413)
-     , (739, 4, 414)
-     , (739, 4, 55)
-     , (739, 4, 415)
-     , (739, 4, 2605)
-     , (739, 4, 108)
-     , (739, 4, 80)
-     , (739, 4, 416)
-     , (739, 4, 85)
-     , (739, 4, 75)
-     , (739, 4, 8489)
-     , (739, 4, 8488)
-     , (739, 4, 76)
-     , (739, 4, 40)
-     , (739, 4, 57)
-     , (739, 4, 61)
-     , (739, 4, 66)
-     , (739, 4, 110)
-     , (739, 4, 82)
-     , (739, 4, 87)
-     , (739, 4, 114)
-     , (739, 4, 107)
-     , (739, 4, 92)
-     , (739, 4, 95)
-     , (739, 4, 2621)
-     , (739, 4, 2622)
-     , (739, 4, 2623)
-     , (739, 4, 2624)
-     , (739, 4, 2625)
-     , (739, 4, 2626)
-     , (739, 4, 2627)
-     , (739, 4, 20628)
-     , (739, 4, 20629)
-     , (739, 4, 20630);
+VALUES (739, 4, 4190) /* Cestus */
+     , (739, 4, 301) /* Battle Axe */
+     , (739, 4, 350) /* Broad Sword */
+     , (739, 4, 351) /* Long Sword */
+     , (739, 4, 331) /* Mace */
+     , (739, 4, 332) /* Morning Star */
+     , (739, 4, 339) /* Scimitar */
+     , (739, 4, 359) /* War Hammer */
+     , (739, 4, 303) /* Hand Axe */
+     , (739, 4, 309) /* Club */
+     , (739, 4, 314) /* Dagger */
+     , (739, 4, 316) /* Throwing Dart */
+     , (739, 4, 329) /* Knife */
+     , (739, 4, 22168) /* Hefty Walking Cane */
+     , (739, 4, 348) /* Spear */
+     , (739, 4, 320) /* Javelin */
+     , (739, 4, 35) /* Chainmail Basinet */
+     , (739, 4, 554) /* Studded Leather Basinet */
+     , (739, 4, 413) /* Chainmail Bracers */
+     , (739, 4, 414) /* Chainmail Breastplate */
+     , (739, 4, 55) /* Chainmail Gauntlets */
+     , (739, 4, 415) /* Chainmail Girth */
+     , (739, 4, 2605) /* Chainmail Greaves */
+     , (739, 4, 108) /* Chainmail Tassets */
+     , (739, 4, 80) /* Chainmail Leggings */
+     , (739, 4, 416) /* Chainmail Pauldrons */
+     , (739, 4, 85) /* Chainmail Coif */
+     , (739, 4, 75) /* Helmet */
+     , (739, 4, 8489) /* Heaume */
+     , (739, 4, 8488) /* Armet */
+     , (739, 4, 76) /* Qafiya */
+     , (739, 4, 40) /* Platemail Breastplate */
+     , (739, 4, 57) /* Platemail Gauntlets */
+     , (739, 4, 61) /* Platemail Girth */
+     , (739, 4, 66) /* Platemail Greaves */
+     , (739, 4, 110) /* Platemail Tassets */
+     , (739, 4, 82) /* Platemail Leggings */
+     , (739, 4, 87) /* Platemail Pauldrons */
+     , (739, 4, 114) /* Platemail Vambraces */
+     , (739, 4, 107) /* Sollerets */
+     , (739, 4, 92) /* Large Kite Shield */
+     , (739, 4, 95) /* Tower Shield */
+     , (739, 4, 2621) /* Trade Note (100) */
+     , (739, 4, 2622) /* Trade Note (500) */
+     , (739, 4, 2623) /* Trade Note (1,000) */
+     , (739, 4, 2624) /* Trade Note (5,000) */
+     , (739, 4, 2625) /* Trade Note (10,000) */
+     , (739, 4, 2626) /* Trade Note (50,000) */
+     , (739, 4, 2627) /* Trade Note (100,000) */
+     , (739, 4, 20628) /* Trade Note (150,000) */
+     , (739, 4, 20629) /* Trade Note (200,000) */
+     , (739, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (739, 2, 359);
+VALUES (739, 2, 359) /* War Hammer */;
 

@@ -37,3 +37,18 @@ VALUES (22806, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22806, 19, True) /* ATTACKABLE_BOOL */
      , (22806, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22806, 8, 48) /* Studded Leather Coat */
+     , (22806, 8, 25644) /* Leather Greaves */
+     , (22806, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (22806, 8, 1752) /* Scroll of War Magic Mastery Self */
+     , (22806, 8, 2426) /* Gem */
+     , (22806, 8, 168) /* Tankard */
+     , (22806, 8, 130) /* Shirt */
+     , (22806, 8, 25646) /* Long Leather Gauntlets */
+     , (22806, 8, 628) /* Handy Healing Kit */
+     , (22806, 8, 41041) /* Magari Yari */
+     , (22806, 8, 148) /* Cup */;
+

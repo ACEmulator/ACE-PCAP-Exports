@@ -39,3 +39,25 @@ VALUES (7113, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7113, 67114302, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7113, 8, 40705) /* Covenant Sollerets */
+     , (7113, 8, 3047) /* Scroll of Fire Vulnerability Other VI */
+     , (7113, 8, 2428) /* Gem */
+     , (7113, 8, 24849) /* Gauloth Shreth Hide */
+     , (7113, 8, 27234) /* Scroll of Eradicate Creature Magic Self */
+     , (7113, 8, 2590) /* Baggy Shirt */
+     , (7113, 8, 42517) /* Coalesced Mana */
+     , (7113, 8, 363) /* Yumi */
+     , (7113, 8, 168) /* Tankard */
+     , (7113, 8, 3022) /* Scroll of Cold Protection Other VI */
+     , (7113, 8, 306) /* Longbow */
+     , (7113, 8, 512) /* Good Lockpick */
+     , (7113, 8, 3002) /* Scroll of Blade Vulnerability Other VI */
+     , (7113, 8, 2433) /* Gem */
+     , (7113, 8, 311) /* Heavy Crossbow */
+     , (7113, 8, 46) /* Metal Cap */
+     , (7113, 8, 163) /* Ornamental Bowl */
+     , (7113, 8, 27330) /* Moderate Mana Stone */;
+

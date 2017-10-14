@@ -58,3 +58,25 @@ VALUES (1620, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1620, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1620, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1620, 8, 42518) /* Coalesced Mana */
+     , (1620, 8, 7940) /* Empty Flask */
+     , (1620, 8, 127) /* Pants */
+     , (1620, 8, 513) /* Plain Lockpick */
+     , (1620, 8, 59) /* Studded Leather Gauntlets */
+     , (1620, 8, 3908) /* Frost War Hammer */
+     , (1620, 8, 42) /* Studded Leather Breastplate */
+     , (1620, 8, 49345) /* Lightning Moar Essence (50) */
+     , (1620, 8, 2597) /* Flared Pants */
+     , (1620, 8, 41067) /* Shashqa */
+     , (1620, 8, 12463) /* Atlatl */
+     , (1620, 8, 135) /* Turban */
+     , (1620, 8, 25661) /* Leather Boots */
+     , (1620, 8, 25645) /* Leather Leggings */
+     , (1620, 8, 28605) /* Beret */
+     , (1620, 8, 134) /* Tunic */
+     , (1620, 8, 68) /* Studded Leather Greaves */
+     , (1620, 8, 297) /* Ring */;
+

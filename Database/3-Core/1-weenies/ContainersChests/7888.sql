@@ -53,3 +53,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (7888, 2, 0) /* OPEN_BOOL */
      , (7888, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7888, 8, 28632) /* Diforsa Gauntlets */
+     , (7888, 8, 127) /* Pants */
+     , (7888, 8, 624) /* Ring */
+     , (7888, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (7888, 8, 67) /* Scalemail Greaves */
+     , (7888, 8, 49227) /* Frost Skeleton Minion Essence (50) */
+     , (7888, 8, 31782) /* Fire Spine Glaive */
+     , (7888, 8, 95) /* Tower Shield */
+     , (7888, 8, 161) /* Mug */;
+

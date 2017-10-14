@@ -54,3 +54,28 @@ VALUES (35174, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35174, 64, 150000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35174, 8, 20534) /* Scroll of Avalenne's Blessing */
+     , (35174, 8, 59) /* Studded Leather Gauntlets */
+     , (35174, 8, 31759) /* Dericost Blade */
+     , (35174, 8, 624) /* Ring */
+     , (35174, 8, 25646) /* Long Leather Gauntlets */
+     , (35174, 8, 28620) /* Alduressa Leggings */
+     , (35174, 8, 2604) /* Wide Breeches */
+     , (35174, 8, 41486) /* Puzzle Box */
+     , (35174, 8, 27216) /* Chiran Gauntlets */
+     , (35174, 8, 44801) /* Suikan Over-robe */
+     , (35174, 8, 8488) /* Armet */
+     , (35174, 8, 2424) /* Gem */
+     , (35174, 8, 31866) /* Coronet */
+     , (35174, 8, 95) /* Tower Shield */
+     , (35174, 8, 295) /* Bracelet */
+     , (35174, 8, 37219) /* Energy Crystal */
+     , (35174, 8, 25645) /* Leather Leggings */
+     , (35174, 8, 135) /* Turban */
+     , (35174, 8, 31865) /* Circlet */
+     , (35174, 8, 516) /* Peerless Lockpick */
+     , (35174, 8, 37353) /* Ink of Formation */;
+

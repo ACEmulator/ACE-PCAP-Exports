@@ -39,3 +39,28 @@ VALUES (19300, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19300, 67113810, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19300, 8, 31779) /* Spine Glaive */
+     , (19300, 8, 2434) /* Lesser Mana Stone */
+     , (19300, 8, 22157) /* Frost Jo */
+     , (19300, 8, 31865) /* Circlet */
+     , (19300, 8, 297) /* Ring */
+     , (19300, 8, 630) /* Gifted Healing Kit */
+     , (19300, 8, 332) /* Morning Star */
+     , (19300, 8, 379) /* Mana Potion */
+     , (19300, 8, 2472) /* Wand */
+     , (19300, 8, 40822) /* Frost Corsesca */
+     , (19300, 8, 31774) /* Board with Nail */
+     , (19300, 8, 3234) /* Scroll of Deception Ineptitude III */
+     , (19300, 8, 2604) /* Wide Breeches */
+     , (19300, 8, 54) /* Yoroi Cuirass */
+     , (19300, 8, 92) /* Large Kite Shield */
+     , (19300, 8, 25648) /* Leather Pauldrons */
+     , (19300, 8, 2605) /* Chainmail Greaves */
+     , (19300, 8, 622) /* Necklace */
+     , (19300, 8, 512) /* Good Lockpick */
+     , (19300, 8, 149) /* Ewer */
+     , (19300, 8, 2600) /* Pantaloons */;
+

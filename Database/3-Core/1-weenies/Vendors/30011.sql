@@ -113,60 +113,60 @@ VALUES (30011, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30011, 4, 15270)
-     , (30011, 4, 1549)
-     , (30011, 4, 1550)
-     , (30011, 4, 1554)
-     , (30011, 4, 1555)
-     , (30011, 4, 1556)
-     , (30011, 4, 1778)
-     , (30011, 4, 1779)
-     , (30011, 4, 1784)
-     , (30011, 4, 1785)
-     , (30011, 4, 1773)
-     , (30011, 4, 1838)
-     , (30011, 4, 1839)
-     , (30011, 4, 1840)
-     , (30011, 4, 1841)
-     , (30011, 4, 1842)
-     , (30011, 4, 1843)
-     , (30011, 4, 1844)
-     , (30011, 4, 1845)
-     , (30011, 4, 1846)
-     , (30011, 4, 1847)
-     , (30011, 4, 1848)
-     , (30011, 4, 1849)
-     , (30011, 4, 1576)
-     , (30011, 4, 1577)
-     , (30011, 4, 1578)
-     , (30011, 4, 1850)
-     , (30011, 4, 1851)
-     , (30011, 4, 1852)
-     , (30011, 4, 1853)
-     , (30011, 4, 1854)
-     , (30011, 4, 1855)
-     , (30011, 4, 1856)
-     , (30011, 4, 1857)
-     , (30011, 4, 1858)
-     , (30011, 4, 1660)
-     , (30011, 4, 1659)
-     , (30011, 4, 1657)
-     , (30011, 4, 1658)
-     , (30011, 4, 1655)
-     , (30011, 4, 1656)
-     , (30011, 4, 1859)
-     , (30011, 4, 9660)
-     , (30011, 4, 1860)
-     , (30011, 4, 1862)
-     , (30011, 4, 1864)
-     , (30011, 4, 1865)
-     , (30011, 4, 1586)
-     , (30011, 4, 1866)
-     , (30011, 4, 1868)
-     , (30011, 4, 1870)
-     , (30011, 4, 1872)
-     , (30011, 4, 1874)
-     , (30011, 4, 21102)
-     , (30011, 4, 21109)
-     , (30011, 4, 21095);
+VALUES (30011, 4, 15270) /* Foci of Verdancy */
+     , (30011, 4, 1549) /* Scroll of Armor Other */
+     , (30011, 4, 1550) /* Scroll of Armor Self */
+     , (30011, 4, 1554) /* Scroll of Harm Other */
+     , (30011, 4, 1555) /* Scroll of Heal Other */
+     , (30011, 4, 1556) /* Scroll of Heal Self */
+     , (30011, 4, 1778) /* Scroll of Imperil Other */
+     , (30011, 4, 1779) /* Scroll of Mana Drain Other */
+     , (30011, 4, 1784) /* Scroll of Revitalize Other */
+     , (30011, 4, 1785) /* Scroll of Revitalize Self */
+     , (30011, 4, 1773) /* Scroll of Enfeeble Other */
+     , (30011, 4, 1838) /* Scroll of Acid Protection Other */
+     , (30011, 4, 1839) /* Scroll of Acid Protection Self */
+     , (30011, 4, 1840) /* Scroll of Acid Vulnerability Other */
+     , (30011, 4, 1841) /* Scroll of Blade Protection Other */
+     , (30011, 4, 1842) /* Scroll of Blade Protection Self */
+     , (30011, 4, 1843) /* Scroll of Blade Vulnerability Other */
+     , (30011, 4, 1844) /* Scroll of Bludgeon Protection Other */
+     , (30011, 4, 1845) /* Scroll of Bludgeon Protection Self */
+     , (30011, 4, 1846) /* Scroll of Bludgeoning Vulnerability Other */
+     , (30011, 4, 1847) /* Scroll of Cold Protection Other */
+     , (30011, 4, 1848) /* Scroll of Cold Protection Self */
+     , (30011, 4, 1849) /* Scroll of Cold Vulnerability Other */
+     , (30011, 4, 1576) /* Scroll of Fire Protection Other */
+     , (30011, 4, 1577) /* Scroll of Fire Protection Self */
+     , (30011, 4, 1578) /* Scroll of Fire Vulnerability Other */
+     , (30011, 4, 1850) /* Scroll of Lightning Protection Other */
+     , (30011, 4, 1851) /* Scroll of Lightning Protection Self */
+     , (30011, 4, 1852) /* Scroll of Lightning Vulnerability Other */
+     , (30011, 4, 1853) /* Scroll of Piercing Protection Other */
+     , (30011, 4, 1854) /* Scroll of Piercing Protection Self */
+     , (30011, 4, 1855) /* Scroll of Piercing Vulnerability Other */
+     , (30011, 4, 1856) /* Scroll of Exhaustion Other */
+     , (30011, 4, 1857) /* Scroll of Fester Other */
+     , (30011, 4, 1858) /* Scroll of Mana Depletion Other */
+     , (30011, 4, 1660) /* Scroll of Mana Renewal Other */
+     , (30011, 4, 1659) /* Scroll of Mana Renewal Self */
+     , (30011, 4, 1657) /* Scroll of Regenerate Other */
+     , (30011, 4, 1658) /* Scroll of Regenerate Self */
+     , (30011, 4, 1655) /* Scroll of Rejuvenate Other */
+     , (30011, 4, 1656) /* Scroll of Rejuvenate Self */
+     , (30011, 4, 1859) /* Scroll of Drain Health Other I */
+     , (30011, 4, 9660) /* Scroll of Drain Mana */
+     , (30011, 4, 1860) /* Scroll of Drain Stamina */
+     , (30011, 4, 1862) /* Scroll of Health to Mana Self */
+     , (30011, 4, 1864) /* Scroll of Health to Stamina Self */
+     , (30011, 4, 1865) /* Scroll of Infuse Health */
+     , (30011, 4, 1586) /* Scroll of Infuse Mana */
+     , (30011, 4, 1866) /* Scroll of Infuse Stamina */
+     , (30011, 4, 1868) /* Scroll of Mana to Health */
+     , (30011, 4, 1870) /* Scroll of Mana to Stamina Self */
+     , (30011, 4, 1872) /* Scroll of Stamina to Health Self */
+     , (30011, 4, 1874) /* Scroll of Stamina to Mana Self */
+     , (30011, 4, 21102) /* Scroll of Martyr's Blight I */
+     , (30011, 4, 21109) /* Scroll of Martyr's Tenacity I */
+     , (30011, 4, 21095) /* Scroll of Martyr's Hecatomb I */;
 

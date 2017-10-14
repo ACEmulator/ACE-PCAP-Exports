@@ -39,3 +39,25 @@ VALUES (32954, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32954, 67114311, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32954, 8, 127) /* Pants */
+     , (32954, 8, 27328) /* Major Mana Stone */
+     , (32954, 8, 37332) /* Glyph of Slashing */
+     , (32954, 8, 28610) /* Loafers */
+     , (32954, 8, 632) /* Peerless Healing Kit */
+     , (32954, 8, 27321) /* Mana Philtre */
+     , (32954, 8, 45282) /* Scroll of Dual Wield Mastery Self VII */
+     , (32954, 8, 516) /* Peerless Lockpick */
+     , (32954, 8, 273) /* Pyreal */
+     , (32954, 8, 154) /* Goblet */
+     , (32954, 8, 9229) /* Treated Healing Kit */
+     , (32954, 8, 37352) /* Glyph of Deception */
+     , (32954, 8, 2412) /* Gem */
+     , (32954, 8, 37353) /* Ink of Formation */
+     , (32954, 8, 29240) /* Electric Bow */
+     , (32954, 8, 129) /* Sandals */
+     , (32954, 8, 27233) /* Scroll of Eradicate Creature Magic Other */
+     , (32954, 8, 27318) /* Health Philtre */;
+

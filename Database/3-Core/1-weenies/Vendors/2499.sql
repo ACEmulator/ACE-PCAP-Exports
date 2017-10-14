@@ -124,39 +124,39 @@ VALUES (2499, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2499, 4, 4190)
-     , (2499, 4, 301)
-     , (2499, 4, 350)
-     , (2499, 4, 351)
-     , (2499, 4, 331)
-     , (2499, 4, 332)
-     , (2499, 4, 339)
-     , (2499, 4, 359)
-     , (2499, 4, 303)
-     , (2499, 4, 309)
-     , (2499, 4, 314)
-     , (2499, 4, 316)
-     , (2499, 4, 329)
-     , (2499, 4, 22168)
-     , (2499, 4, 348)
-     , (2499, 4, 320)
-     , (2499, 4, 2621)
-     , (2499, 4, 2622)
-     , (2499, 4, 2623)
-     , (2499, 4, 2624)
-     , (2499, 4, 2625)
-     , (2499, 4, 2626)
-     , (2499, 4, 2627)
-     , (2499, 4, 20628)
-     , (2499, 4, 20629)
-     , (2499, 4, 20630)
-     , (2499, 4, 513)
-     , (2499, 4, 545)
-     , (2499, 4, 512)
-     , (2499, 4, 514);
+VALUES (2499, 4, 4190) /* Cestus */
+     , (2499, 4, 301) /* Battle Axe */
+     , (2499, 4, 350) /* Broad Sword */
+     , (2499, 4, 351) /* Long Sword */
+     , (2499, 4, 331) /* Mace */
+     , (2499, 4, 332) /* Morning Star */
+     , (2499, 4, 339) /* Scimitar */
+     , (2499, 4, 359) /* War Hammer */
+     , (2499, 4, 303) /* Hand Axe */
+     , (2499, 4, 309) /* Club */
+     , (2499, 4, 314) /* Dagger */
+     , (2499, 4, 316) /* Throwing Dart */
+     , (2499, 4, 329) /* Knife */
+     , (2499, 4, 22168) /* Hefty Walking Cane */
+     , (2499, 4, 348) /* Spear */
+     , (2499, 4, 320) /* Javelin */
+     , (2499, 4, 2621) /* Trade Note (100) */
+     , (2499, 4, 2622) /* Trade Note (500) */
+     , (2499, 4, 2623) /* Trade Note (1,000) */
+     , (2499, 4, 2624) /* Trade Note (5,000) */
+     , (2499, 4, 2625) /* Trade Note (10,000) */
+     , (2499, 4, 2626) /* Trade Note (50,000) */
+     , (2499, 4, 2627) /* Trade Note (100,000) */
+     , (2499, 4, 20628) /* Trade Note (150,000) */
+     , (2499, 4, 20629) /* Trade Note (200,000) */
+     , (2499, 4, 20630) /* Trade Note (250,000) */
+     , (2499, 4, 513) /* Plain Lockpick */
+     , (2499, 4, 545) /* Reliable Lockpick */
+     , (2499, 4, 512) /* Good Lockpick */
+     , (2499, 4, 514) /* Excellent Lockpick */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2499, 2, 301);
+VALUES (2499, 2, 301) /* Battle Axe */;
 

@@ -78,3 +78,21 @@ VALUES (23090, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (23090, 64, 480) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23090, 8, 624) /* Ring */
+     , (23090, 8, 273) /* Pyreal */
+     , (23090, 8, 2412) /* Gem */
+     , (23090, 8, 8331) /* Silver Pea */
+     , (23090, 8, 6058) /* Dark Shard */
+     , (23090, 8, 163) /* Ornamental Bowl */
+     , (23090, 8, 8327) /* Gold Pea */
+     , (23090, 8, 2591) /* Puffy Shirt */
+     , (23090, 8, 356) /* Tofun */
+     , (23090, 8, 27328) /* Major Mana Stone */
+     , (23090, 8, 2404) /* Gem */
+     , (23090, 8, 297) /* Ring */
+     , (23090, 8, 2436) /* Greater Mana Stone */
+     , (23090, 8, 92) /* Large Kite Shield */;
+

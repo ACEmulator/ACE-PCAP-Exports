@@ -50,3 +50,22 @@ VALUES (24682, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24682, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24682, 8, 20232) /* Scroll of Synaptic Misfire */
+     , (24682, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (24682, 8, 41045) /* Frost Magari Yari */
+     , (24682, 8, 6043) /* Celdon Girth */
+     , (24682, 8, 54) /* Yoroi Cuirass */
+     , (24682, 8, 630) /* Gifted Healing Kit */
+     , (24682, 8, 20579) /* Scroll of Saladur's Boon */
+     , (24682, 8, 296) /* Crown */
+     , (24682, 8, 31783) /* Frost Claw */
+     , (24682, 8, 2587) /* Shirt */
+     , (24682, 8, 112) /* Studded Leather Tassets */
+     , (24682, 8, 273) /* Pyreal */
+     , (24682, 8, 80) /* Chainmail Leggings */
+     , (24682, 8, 30746) /* Dart Flinger */
+     , (24682, 8, 723) /* Studded Leather Cowl */;
+

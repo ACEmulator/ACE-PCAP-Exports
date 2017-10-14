@@ -128,20 +128,20 @@ VALUES (4443, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4443, 4, 364)
-     , (4443, 4, 365)
-     , (4443, 4, 367)
-     , (4443, 4, 9118)
-     , (4443, 4, 9124)
-     , (4443, 4, 27851)
-     , (4443, 4, 9319)
-     , (4443, 4, 5583)
-     , (4443, 4, 5856)
-     , (4443, 4, 7884)
-     , (4443, 4, 14797)
-     , (4443, 4, 5586)
-     , (4443, 4, 24855)
-     , (4443, 4, 5587)
-     , (4443, 4, 5602)
-     , (4443, 4, 6419);
+VALUES (4443, 4, 364) /* Book */
+     , (4443, 4, 365) /* Parchment */
+     , (4443, 4, 367) /* Tome */
+     , (4443, 4, 9118) /* Puppet Show */
+     , (4443, 4, 9124) /* The Beginning */
+     , (4443, 4, 27851) /* The Weapons of the Singularity */
+     , (4443, 4, 9319) /* Mnemosynes and the Art of Lockpicking */
+     , (4443, 4, 5583) /* Aluvian Cookbook */
+     , (4443, 4, 5856) /* Specialty Cookbook */
+     , (4443, 4, 7884) /* Chocolate Cookbook */
+     , (4443, 4, 14797) /* Festival Cookbook */
+     , (4443, 4, 5586) /* Alchemy Guide */
+     , (4443, 4, 24855) /* The New Alchemy */
+     , (4443, 4, 5587) /* Fletching Guide */
+     , (4443, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (4443, 4, 6419) /* The Meeting Halls */;
 

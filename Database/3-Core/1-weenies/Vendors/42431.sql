@@ -126,11 +126,11 @@ VALUES (42431, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42431, 4, 42724)
-     , (42431, 4, 42726)
-     , (42431, 4, 41956)
-     , (42431, 4, 51445)
-     , (42431, 4, 42622)
-     , (42431, 4, 44880)
-     , (42431, 4, 44879);
+VALUES (42431, 4, 42724) /* Armor Layering Tool (Top) */
+     , (42431, 4, 42726) /* Armor Layering Tool (Bottom) */
+     , (42431, 4, 41956) /* Armor Tailoring Kit */
+     , (42431, 4, 51445) /* Weapon Tailoring Kit */
+     , (42431, 4, 42622) /* Armor Main Reduction Tool */
+     , (42431, 4, 44880) /* Armor Middle Reduction Tool */
+     , (42431, 4, 44879) /* Armor Lower Reduction Tool */;
 

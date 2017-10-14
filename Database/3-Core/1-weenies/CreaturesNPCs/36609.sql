@@ -118,6 +118,6 @@ VALUES (36609, 5, 16788087)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (36609, 2, 32698)
-     , (36609, 2, 34341);
+VALUES (36609, 2, 32698) /* Shield of Strathelar */
+     , (36609, 2, 34341) /* Tachi of Grace */;
 

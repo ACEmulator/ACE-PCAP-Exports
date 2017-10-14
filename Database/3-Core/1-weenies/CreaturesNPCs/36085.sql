@@ -108,5 +108,5 @@ VALUES (36085, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (36085, 2, 36576);
+VALUES (36085, 2, 36576) /* Impious Staff */;
 

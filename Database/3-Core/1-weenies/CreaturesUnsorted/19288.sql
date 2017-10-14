@@ -46,3 +46,35 @@ VALUES (19288, 1, 83892459, 83892460)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19288, 1, 16784273);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19288, 8, 297) /* Ring */
+     , (19288, 8, 413) /* Chainmail Bracers */
+     , (19288, 8, 273) /* Pyreal */
+     , (19288, 8, 49282) /* Acid K'nath Essence (50) */
+     , (19288, 8, 3124) /* Scroll of Rejuvenate Self III */
+     , (19288, 8, 334) /* Nayin */
+     , (19288, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (19288, 8, 168) /* Tankard */
+     , (19288, 8, 40761) /* Acid Nodachi */
+     , (19288, 8, 28606) /* Viamontian Pants */
+     , (19288, 8, 378) /* Stamina Potion */
+     , (19288, 8, 2788) /* Scroll of Blood Loather III */
+     , (19288, 8, 5975) /* Scroll of Fletching Mastery Self II */
+     , (19288, 8, 25638) /* Leather Vest */
+     , (19288, 8, 25646) /* Long Leather Gauntlets */
+     , (19288, 8, 3906) /* Lightning War Hammer */
+     , (19288, 8, 628) /* Handy Healing Kit */
+     , (19288, 8, 25644) /* Leather Greaves */
+     , (19288, 8, 41066) /* Frost Khanda-handled Mace */
+     , (19288, 8, 48959) /* Fire Elemental Essence (50) */
+     , (19288, 8, 2419) /* Gem */
+     , (19288, 8, 2460) /* Mana Draught */
+     , (19288, 8, 38) /* Studded Leather Bracers */
+     , (19288, 8, 46874) /* Aura of Defender Other II */
+     , (19288, 8, 2434) /* Lesser Mana Stone */
+     , (19288, 8, 40635) /* Tetsubo */
+     , (19288, 8, 68) /* Studded Leather Greaves */
+     , (19288, 8, 99) /* Studded Leather Shirt */;
+

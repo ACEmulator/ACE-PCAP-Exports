@@ -41,3 +41,11 @@ VALUES (40783, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40783, 64, 3120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40783, 8, 45431) /* Khanjar */
+     , (40783, 8, 243) /* Dinner Plate */
+     , (40783, 8, 41067) /* Shashqa */
+     , (40783, 8, 40797) /* Progenitor Crystal */;
+

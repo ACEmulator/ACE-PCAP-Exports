@@ -39,3 +39,32 @@ VALUES (11492, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11492, 67113301, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11492, 8, 8329) /* Lead Pea */
+     , (11492, 8, 41) /* Scalemail Breastplate */
+     , (11492, 8, 2400) /* Gem */
+     , (11492, 8, 2901) /* Scroll of Weaken Lock V */
+     , (11492, 8, 142) /* Chalice */
+     , (11492, 8, 27319) /* Health Tincture */
+     , (11492, 8, 49254) /* Frost Zombie Essence (50) */
+     , (11492, 8, 2587) /* Shirt */
+     , (11492, 8, 3122) /* Scroll of Rejuvenate Other VI */
+     , (11492, 8, 11339) /* Carenzi Burrower Pelt */
+     , (11492, 8, 40695) /* Covenant Sollerets */
+     , (11492, 8, 312) /* Light Crossbow */
+     , (11492, 8, 31868) /* Signet Crown */
+     , (11492, 8, 20455) /* Scroll of Alset's Coil */
+     , (11492, 8, 3157) /* Scroll of Armor Tinkering Ignorance VI */
+     , (11492, 8, 2435) /* Mana Stone */
+     , (11492, 8, 44840) /* Cloak */
+     , (11492, 8, 7940) /* Empty Flask */
+     , (11492, 8, 2461) /* Mana Elixir */
+     , (11492, 8, 2413) /* Gem */
+     , (11492, 8, 28634) /* Diforsa Greaves */
+     , (11492, 8, 243) /* Dinner Plate */
+     , (11492, 8, 254) /* Stoup */
+     , (11492, 8, 296) /* Crown */
+     , (11492, 8, 25642) /* Leather Gauntlets */;
+

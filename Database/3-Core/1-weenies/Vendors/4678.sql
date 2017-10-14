@@ -130,17 +130,17 @@ VALUES (4678, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4678, 4, 4746)
-     , (4678, 4, 2463)
-     , (4678, 4, 2464)
-     , (4678, 4, 2462)
-     , (4678, 4, 2467)
-     , (4678, 4, 8378)
-     , (4678, 4, 4710)
-     , (4678, 4, 4734)
-     , (4678, 4, 4739)
-     , (4678, 4, 4727)
-     , (4678, 4, 5003)
-     , (4678, 4, 5006)
-     , (4678, 4, 8209);
+VALUES (4678, 4, 4746) /* Water */
+     , (4678, 4, 2463) /* Milk */
+     , (4678, 4, 2464) /* Orange Juice */
+     , (4678, 4, 2462) /* Mead */
+     , (4678, 4, 2467) /* Red Wine */
+     , (4678, 4, 8378) /* Beer Stein */
+     , (4678, 4, 4710) /* Beef Kebab */
+     , (4678, 4, 4734) /* Meat Pie */
+     , (4678, 4, 4739) /* Pickled Egg */
+     , (4678, 4, 4727) /* Flat Bread */
+     , (4678, 4, 5003) /* Al-Arqas Portal Directions */
+     , (4678, 4, 5006) /* Desert Ruin Directions */
+     , (4678, 4, 8209) /* Call for Adventurers! */;
 

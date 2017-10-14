@@ -130,20 +130,20 @@ VALUES (31224, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (31224, 4, 300)
-     , (31224, 4, 305)
-     , (31224, 4, 44)
-     , (31224, 4, 293)
-     , (31224, 4, 628)
-     , (31224, 4, 2621)
-     , (31224, 4, 2622)
-     , (31224, 4, 2623)
-     , (31224, 4, 136)
-     , (31224, 4, 691)
-     , (31224, 4, 689)
-     , (31224, 4, 686)
-     , (31224, 4, 20631)
-     , (31224, 4, 2457)
-     , (31224, 4, 2460)
-     , (31224, 4, 5634);
+VALUES (31224, 4, 300) /* Arrow */
+     , (31224, 4, 305) /* Quarrel */
+     , (31224, 4, 44) /* Buckler */
+     , (31224, 4, 293) /* Torch */
+     , (31224, 4, 628) /* Handy Healing Kit */
+     , (31224, 4, 2621) /* Trade Note (100) */
+     , (31224, 4, 2622) /* Trade Note (500) */
+     , (31224, 4, 2623) /* Trade Note (1,000) */
+     , (31224, 4, 136) /* Pack */
+     , (31224, 4, 691) /* Lead Scarab */
+     , (31224, 4, 689) /* Iron Scarab */
+     , (31224, 4, 686) /* Copper Scarab */
+     , (31224, 4, 20631) /* Prismatic Taper */
+     , (31224, 4, 2457) /* Health Draught */
+     , (31224, 4, 2460) /* Mana Draught */
+     , (31224, 4, 5634) /* Stamina Draught */;
 

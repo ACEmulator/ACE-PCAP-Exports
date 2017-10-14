@@ -36,3 +36,38 @@ VALUES (223, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (223, 67111344, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (223, 8, 130) /* Shirt */
+     , (223, 8, 119) /* Cowl */
+     , (223, 8, 45270) /* Scroll of Dual Wield Mastery Other III */
+     , (223, 8, 124) /* Jerkin */
+     , (223, 8, 295) /* Bracelet */
+     , (223, 8, 31785) /* Acid Claw */
+     , (223, 8, 2419) /* Gem */
+     , (223, 8, 5981) /* Scroll of Alchemy Ineptitude Other II */
+     , (223, 8, 513) /* Plain Lockpick */
+     , (223, 8, 45116) /* Flaming Hammer */
+     , (223, 8, 45423) /* Lightning Dagger */
+     , (223, 8, 141) /* Bowl */
+     , (223, 8, 42518) /* Coalesced Mana */
+     , (223, 8, 134) /* Tunic */
+     , (223, 8, 168) /* Tankard */
+     , (223, 8, 44975) /* Hood */
+     , (223, 8, 4238) /* Small Reedshark Hide */
+     , (223, 8, 2787) /* Scroll of Blood Loather II */
+     , (223, 8, 154) /* Goblet */
+     , (223, 8, 254) /* Stoup */
+     , (223, 8, 133) /* Slippers */
+     , (223, 8, 31787) /* Flaming Claw */
+     , (223, 8, 2603) /* Baggy Breeches */
+     , (223, 8, 94) /* Diamond Shield */
+     , (223, 8, 49485) /* Encapsulated Spirit */
+     , (223, 8, 27331) /* Minor Mana Stone */
+     , (223, 8, 3163) /* Scroll of Light Weapon Mastery Other II */
+     , (223, 8, 273) /* Pyreal */
+     , (223, 8, 25645) /* Leather Leggings */
+     , (223, 8, 28612) /* Bandana */
+     , (223, 8, 44) /* Buckler */;
+

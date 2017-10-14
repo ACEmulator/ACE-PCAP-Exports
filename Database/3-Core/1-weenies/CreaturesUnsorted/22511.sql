@@ -88,3 +88,51 @@ VALUES (22511, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22511, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22511, 8, 295) /* Bracelet */
+     , (22511, 8, 2415) /* Gem */
+     , (22511, 8, 130) /* Shirt */
+     , (22511, 8, 30591) /* Partizan */
+     , (22511, 8, 45434) /* Flaming Khanjar */
+     , (22511, 8, 243) /* Dinner Plate */
+     , (22511, 8, 312) /* Light Crossbow */
+     , (22511, 8, 49458) /* Scroll of Summoning Ineptitude Other III */
+     , (22511, 8, 545) /* Reliable Lockpick */
+     , (22511, 8, 63) /* Studded Leather Girth */
+     , (22511, 8, 2735) /* Scroll of Slowness Other V */
+     , (22511, 8, 7798) /* Electric Naginata */
+     , (22511, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (22511, 8, 334) /* Nayin */
+     , (22511, 8, 378) /* Stamina Potion */
+     , (22511, 8, 31865) /* Circlet */
+     , (22511, 8, 294) /* Amulet */
+     , (22511, 8, 41486) /* Puzzle Box */
+     , (22511, 8, 3414) /* Scroll of Magic Item Tinkering Expertise Self III */
+     , (22511, 8, 2417) /* Gem */
+     , (22511, 8, 2470) /* Stamina Elixir */
+     , (22511, 8, 40762) /* Lightning Nodachi */
+     , (22511, 8, 96) /* Chainmail Shirt */
+     , (22511, 8, 414) /* Chainmail Breastplate */
+     , (22511, 8, 624) /* Ring */
+     , (22511, 8, 30746) /* Dart Flinger */
+     , (22511, 8, 4198) /* Frost Nekode */
+     , (22511, 8, 45421) /* Dagger */
+     , (22511, 8, 49282) /* Acid K'nath Essence (50) */
+     , (22511, 8, 28608) /* Poet's Shirt */
+     , (22511, 8, 2405) /* Gem */
+     , (22511, 8, 273) /* Pyreal */
+     , (22511, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (22511, 8, 2437) /* Yoroi Leggings */
+     , (22511, 8, 628) /* Handy Healing Kit */
+     , (22511, 8, 2416) /* Gem */
+     , (22511, 8, 132) /* Shoes */
+     , (22511, 8, 49261) /* Acid Elemental Essence (50) */
+     , (22511, 8, 3070) /* Scroll of Piercing Protection Self IV */
+     , (22511, 8, 25651) /* Leather Sleeves */
+     , (22511, 8, 379) /* Mana Potion */
+     , (22511, 8, 2413) /* Gem */
+     , (22511, 8, 3340) /* Scroll of Jumping Mastery Self IV */
+     , (22511, 8, 8329) /* Lead Pea */;
+

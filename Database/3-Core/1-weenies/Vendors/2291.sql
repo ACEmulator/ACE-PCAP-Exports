@@ -128,18 +128,18 @@ VALUES (2291, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2291, 4, 261)
-     , (2291, 4, 4744)
-     , (2291, 4, 4733)
-     , (2291, 4, 4740)
-     , (2291, 4, 2469)
-     , (2291, 4, 2451)
-     , (2291, 4, 2456)
-     , (2291, 4, 2452)
-     , (2291, 4, 4746)
-     , (2291, 4, 8378)
-     , (2291, 4, 6417)
-     , (2291, 4, 24222)
-     , (2291, 4, 26667)
-     , (2291, 4, 35043);
+VALUES (2291, 4, 261) /* Cheese */
+     , (2291, 4, 4744) /* Sushi */
+     , (2291, 4, 4733) /* Kimchi */
+     , (2291, 4, 4740) /* Pickled Fish */
+     , (2291, 4, 2469) /* Small Beer */
+     , (2291, 4, 2451) /* Ale */
+     , (2291, 4, 2456) /* Green Tea */
+     , (2291, 4, 2452) /* Apple Juice */
+     , (2291, 4, 4746) /* Water */
+     , (2291, 4, 8378) /* Beer Stein */
+     , (2291, 4, 6417) /* A Stinging Stone */
+     , (2291, 4, 24222) /* Duplicated Portals */
+     , (2291, 4, 26667) /* The Blackmire Temple */
+     , (2291, 4, 35043) /* Halls of Metos */;
 

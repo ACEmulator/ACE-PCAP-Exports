@@ -50,3 +50,13 @@ VALUES (25861, 2, 71) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25861, 64, 755) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25861, 8, 42753) /* Haebrean Helm */
+     , (25861, 8, 30823) /* Broken Black Marrow Key */
+     , (25861, 8, 28612) /* Bandana */
+     , (25861, 8, 295) /* Bracelet */
+     , (25861, 8, 132) /* Shoes */
+     , (25861, 8, 127) /* Pants */;
+

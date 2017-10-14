@@ -122,29 +122,29 @@ VALUES (2261, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2261, 4, 4195)
-     , (2261, 4, 314)
-     , (2261, 4, 22158)
-     , (2261, 4, 327)
-     , (2261, 4, 336)
-     , (2261, 4, 353)
-     , (2261, 4, 356)
-     , (2261, 4, 362)
-     , (2261, 4, 359)
-     , (2261, 4, 304)
-     , (2261, 4, 2621)
-     , (2261, 4, 2622)
-     , (2261, 4, 2623)
-     , (2261, 4, 2624)
-     , (2261, 4, 2625)
-     , (2261, 4, 2626)
-     , (2261, 4, 2627)
-     , (2261, 4, 20628)
-     , (2261, 4, 20629)
-     , (2261, 4, 20630);
+VALUES (2261, 4, 4195) /* Nekode */
+     , (2261, 4, 314) /* Dagger */
+     , (2261, 4, 22158) /* Jo */
+     , (2261, 4, 327) /* Ken */
+     , (2261, 4, 336) /* Ono */
+     , (2261, 4, 353) /* Tachi */
+     , (2261, 4, 356) /* Tofun */
+     , (2261, 4, 362) /* Yari */
+     , (2261, 4, 359) /* War Hammer */
+     , (2261, 4, 304) /* Throwing Axe */
+     , (2261, 4, 2621) /* Trade Note (100) */
+     , (2261, 4, 2622) /* Trade Note (500) */
+     , (2261, 4, 2623) /* Trade Note (1,000) */
+     , (2261, 4, 2624) /* Trade Note (5,000) */
+     , (2261, 4, 2625) /* Trade Note (10,000) */
+     , (2261, 4, 2626) /* Trade Note (50,000) */
+     , (2261, 4, 2627) /* Trade Note (100,000) */
+     , (2261, 4, 20628) /* Trade Note (150,000) */
+     , (2261, 4, 20629) /* Trade Note (200,000) */
+     , (2261, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2261, 2, 314);
+VALUES (2261, 2, 314) /* Dagger */;
 

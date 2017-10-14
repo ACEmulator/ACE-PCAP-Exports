@@ -45,3 +45,16 @@ VALUES (24937, 2, 69) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24937, 64, 3) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24937, 8, 262) /* Chicken */
+     , (24937, 8, 2605) /* Chainmail Greaves */
+     , (24937, 8, 306) /* Longbow */
+     , (24937, 8, 7825) /* Brown Beans */
+     , (24937, 8, 40635) /* Tetsubo */
+     , (24937, 8, 8331) /* Silver Pea */
+     , (24937, 8, 7788) /* Fire Spiked Club */
+     , (24937, 8, 31794) /* Lancet */
+     , (24937, 8, 28623) /* Diforsa Pauldrons */;
+

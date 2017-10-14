@@ -93,5 +93,5 @@ VALUES (31951, 2, 16778436)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (31951, 2, 6853);
+VALUES (31951, 2, 6853) /* Rapier */;
 

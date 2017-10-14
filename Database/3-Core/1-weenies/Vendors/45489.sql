@@ -108,47 +108,47 @@ VALUES (45489, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (45489, 4, 34024)
-     , (45489, 4, 45523)
-     , (45489, 4, 45524)
-     , (45489, 4, 45525)
-     , (45489, 4, 45526)
-     , (45489, 4, 45527)
-     , (45489, 4, 45528)
-     , (45489, 4, 45529)
-     , (45489, 4, 21353)
-     , (45489, 4, 21354)
-     , (45489, 4, 21355)
-     , (45489, 4, 21356)
-     , (45489, 4, 21357)
-     , (45489, 4, 21358)
-     , (45489, 4, 21359)
-     , (45489, 4, 24198)
-     , (45489, 4, 24200)
-     , (45489, 4, 24202)
-     , (45489, 4, 24203)
-     , (45489, 4, 24204)
-     , (45489, 4, 24205)
-     , (45489, 4, 24206)
-     , (45489, 4, 41879)
-     , (45489, 4, 41882)
-     , (45489, 4, 41883)
-     , (45489, 4, 41884)
-     , (45489, 4, 41887)
-     , (45489, 4, 41888)
-     , (45489, 4, 41889)
-     , (45489, 4, 35913)
-     , (45489, 4, 43046)
-     , (45489, 4, 35914)
-     , (45489, 4, 43047)
-     , (45489, 4, 35915)
-     , (45489, 4, 43041)
-     , (45489, 4, 35916)
-     , (45489, 4, 32638)
-     , (45489, 4, 32643)
-     , (45489, 4, 32641)
-     , (45489, 4, 32644)
-     , (45489, 4, 32645)
-     , (45489, 4, 32646)
-     , (45489, 4, 32600);
+VALUES (45489, 4, 34024) /* Silifi of Crimson Night */
+     , (45489, 4, 45523) /* Soul Bound Axe */
+     , (45489, 4, 45524) /* Soul Bound Claw */
+     , (45489, 4, 45525) /* Soul Bound Dagger */
+     , (45489, 4, 45526) /* Soul Bound Mace */
+     , (45489, 4, 45527) /* Soul Bound Spear */
+     , (45489, 4, 45528) /* Soul Bound Staff */
+     , (45489, 4, 45529) /* Soul Bound Sword */
+     , (45489, 4, 21353) /* Phantom Axe */
+     , (45489, 4, 21354) /* Phantom Dagger */
+     , (45489, 4, 21355) /* Remoran Fist */
+     , (45489, 4, 21356) /* Phantom Mace */
+     , (45489, 4, 21357) /* Phantom Staff */
+     , (45489, 4, 21358) /* Phantom Spear */
+     , (45489, 4, 21359) /* Phantom Sword */
+     , (45489, 4, 24198) /* Weeping Axe */
+     , (45489, 4, 24200) /* Weeping Claw */
+     , (45489, 4, 24202) /* Weeping Dagger */
+     , (45489, 4, 24203) /* Weeping Mace */
+     , (45489, 4, 24204) /* Weeping Spear */
+     , (45489, 4, 24205) /* Weeping Staff */
+     , (45489, 4, 24206) /* Weeping Sword */
+     , (45489, 4, 41879) /* Singularity Axe */
+     , (45489, 4, 41882) /* Ultimate Singularity Dagger */
+     , (45489, 4, 41883) /* Ultimate Singularity Katar */
+     , (45489, 4, 41884) /* Ultimate Singularity Mace */
+     , (45489, 4, 41887) /* Ultimate Singularity Spear */
+     , (45489, 4, 41888) /* Ultimate Singularity Staff */
+     , (45489, 4, 41889) /* Ultimate Singularity Sword */
+     , (45489, 4, 35913) /* Paradox-touched Olthoi Axe */
+     , (45489, 4, 43046) /* Paradox-touched Olthoi Dagger */
+     , (45489, 4, 35914) /* Paradox-touched Olthoi Katar */
+     , (45489, 4, 43047) /* Paradox-touched Olthoi Mace */
+     , (45489, 4, 35915) /* Paradox-touched Olthoi Spear */
+     , (45489, 4, 43041) /* Paradox-touched Olthoi Staff */
+     , (45489, 4, 35916) /* Paradox-touched Olthoi Sword */
+     , (45489, 4, 32638) /* Shadowfire Isparian Axe */
+     , (45489, 4, 32643) /* Shadowfire Isparian Dagger */
+     , (45489, 4, 32641) /* Shadowfire Isparian Claw */
+     , (45489, 4, 32644) /* Shadowfire Isparian Mace */
+     , (45489, 4, 32645) /* Shadowfire Isparian Spear */
+     , (45489, 4, 32646) /* Shadowfire Isparian Staff */
+     , (45489, 4, 32600) /* Shadowfire Isparian Sword */;
 

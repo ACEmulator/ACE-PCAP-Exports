@@ -47,3 +47,5 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36172, 0, 16778207)
      , (36172, 1, 16778211);
 
+/* Corpse Treasure List */
+

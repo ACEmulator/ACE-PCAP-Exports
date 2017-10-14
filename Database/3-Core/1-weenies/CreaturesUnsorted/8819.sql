@@ -47,3 +47,20 @@ VALUES (8819, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8819, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8819, 8, 45105) /* Lightning Rapier */
+     , (8819, 8, 31770) /* Acid War Axe */
+     , (8819, 8, 132) /* Shoes */
+     , (8819, 8, 2393) /* Gem */
+     , (8819, 8, 150) /* Flagon */
+     , (8819, 8, 311) /* Heavy Crossbow */
+     , (8819, 8, 20404) /* Scroll of Swordsman's Bane */
+     , (8819, 8, 20413) /* Scroll of Inferno Bait */
+     , (8819, 8, 133) /* Slippers */
+     , (8819, 8, 20536) /* Scroll of Aura of Deflection */
+     , (8819, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (8819, 8, 2398) /* Gem */
+     , (8819, 8, 8326) /* Copper Pea */;
+

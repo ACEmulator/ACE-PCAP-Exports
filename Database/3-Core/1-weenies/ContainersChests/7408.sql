@@ -53,3 +53,32 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (7408, 2, 0) /* OPEN_BOOL */
      , (7408, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7408, 8, 40913) /* Aerfalle's Token */
+     , (7408, 8, 9010) /* Unreadable Scroll */
+     , (7408, 8, 28066) /* Ashbane */
+     , (7408, 8, 28058) /* Staff of Aerfalle */
+     , (7408, 8, 28045) /* Aerfalle's Pallium */
+     , (7408, 8, 273) /* Pyreal */
+     , (7408, 8, 49255) /* Frost Zombie Essence (80) */
+     , (7408, 8, 142) /* Chalice */
+     , (7408, 8, 2600) /* Pantaloons */
+     , (7408, 8, 49485) /* Encapsulated Spirit */
+     , (7408, 8, 20595) /* Scroll of Hieromancer's Boon */
+     , (7408, 8, 119) /* Cowl */
+     , (7408, 8, 121) /* Gloves */
+     , (7408, 8, 2410) /* Gem */
+     , (7408, 8, 8326) /* Copper Pea */
+     , (7408, 8, 89) /* Studded Leather Pauldrons */
+     , (7408, 8, 49228) /* Frost Skeleton Minion Essence (80) */
+     , (7408, 8, 42635) /* Aetheria */
+     , (7408, 8, 22163) /* Nabut */
+     , (7408, 8, 3819) /* Lightning Katar */
+     , (7408, 8, 31866) /* Coronet */
+     , (7408, 8, 132) /* Shoes */
+     , (7408, 8, 28609) /* Vest */
+     , (7408, 8, 40704) /* Covenant Tassets */
+     , (7408, 8, 8331) /* Silver Pea */;
+

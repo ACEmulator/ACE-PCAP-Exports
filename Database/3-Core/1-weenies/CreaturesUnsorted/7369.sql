@@ -78,3 +78,25 @@ VALUES (7369, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7369, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7369, 8, 22158) /* Jo */
+     , (7369, 8, 4192) /* Acid Cestus */
+     , (7369, 8, 129) /* Sandals */
+     , (7369, 8, 7789) /* Acid Spiked Club */
+     , (7369, 8, 49421) /* Acid Spectre Essence (50) */
+     , (7369, 8, 25647) /* Leather Pants */
+     , (7369, 8, 2366) /* Orb */
+     , (7369, 8, 20407) /* Scroll of Pacification */
+     , (7369, 8, 2590) /* Baggy Shirt */
+     , (7369, 8, 7409) /* Ashen Key */
+     , (7369, 8, 6002) /* Scroll of Flame Bolt VI */
+     , (7369, 8, 7794) /* Electric Trident */
+     , (7369, 8, 12463) /* Atlatl */
+     , (7369, 8, 41062) /* Khanda-handled Mace */
+     , (7369, 8, 95) /* Tower Shield */
+     , (7369, 8, 31765) /* Acid Lugian Hammer */
+     , (7369, 8, 22165) /* Lightning Quarter Staff */
+     , (7369, 8, 416) /* Chainmail Pauldrons */;
+

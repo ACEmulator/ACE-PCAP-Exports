@@ -45,3 +45,15 @@ VALUES (38176, 2, 17) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38176, 64, 265) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38176, 8, 41062) /* Khanda-handled Mace */
+     , (38176, 8, 297) /* Ring */
+     , (38176, 8, 5901) /* Kasa */
+     , (38176, 8, 38222) /* Blighted Mana Crystal */
+     , (38176, 8, 44853) /* Bordered Cloak */
+     , (38176, 8, 2405) /* Gem */
+     , (38176, 8, 2404) /* Gem */
+     , (38176, 8, 514) /* Excellent Lockpick */;
+

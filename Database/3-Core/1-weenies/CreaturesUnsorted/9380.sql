@@ -42,3 +42,12 @@ VALUES (9380, 9, 83890028, 83890027);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9380, 9, 16780702);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9380, 8, 8958) /* Scroll of Whirling Blade Streak VI */
+     , (9380, 8, 312) /* Light Crossbow */
+     , (9380, 8, 135) /* Turban */
+     , (9380, 8, 27330) /* Moderate Mana Stone */
+     , (9380, 8, 9385) /* Virindi Envoy's Obsidian Shard */;
+

@@ -44,3 +44,13 @@ VALUES (32930, 2, 25) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (32930, 64, 415) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32930, 8, 2596) /* Doublet */
+     , (32930, 8, 622) /* Necklace */
+     , (32930, 8, 8326) /* Copper Pea */
+     , (32930, 8, 141) /* Bowl */
+     , (32930, 8, 297) /* Ring */
+     , (32930, 8, 8328) /* Iron Pea */;
+

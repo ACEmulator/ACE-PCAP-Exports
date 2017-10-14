@@ -50,3 +50,68 @@ VALUES (7983, 2, 44) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7983, 64, 465) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7983, 8, 20499) /* Scroll of Aliester's Boon */
+     , (7983, 8, 2436) /* Greater Mana Stone */
+     , (7983, 8, 621) /* Heavy Bracelet */
+     , (7983, 8, 27330) /* Moderate Mana Stone */
+     , (7983, 8, 273) /* Pyreal */
+     , (7983, 8, 29263) /* Frost Sceptre */
+     , (7983, 8, 8331) /* Silver Pea */
+     , (7983, 8, 27328) /* Major Mana Stone */
+     , (7983, 8, 2590) /* Baggy Shirt */
+     , (7983, 8, 29254) /* Electric Atlatl */
+     , (7983, 8, 8327) /* Gold Pea */
+     , (7983, 8, 294) /* Amulet */
+     , (7983, 8, 8326) /* Copper Pea */
+     , (7983, 8, 163) /* Ornamental Bowl */
+     , (7983, 8, 28610) /* Loafers */
+     , (7983, 8, 31868) /* Signet Crown */
+     , (7983, 8, 21308) /* Scroll of Flame Arc VII */
+     , (7983, 8, 134) /* Tunic */
+     , (7983, 8, 154) /* Goblet */
+     , (7983, 8, 31774) /* Board with Nail */
+     , (7983, 8, 2421) /* Gem */
+     , (7983, 8, 624) /* Ring */
+     , (7983, 8, 2399) /* Gem */
+     , (7983, 8, 28606) /* Viamontian Pants */
+     , (7983, 8, 21156) /* Covenant Helm */
+     , (7983, 8, 20252) /* Scroll of Belly of Lead */
+     , (7983, 8, 623) /* Heavy Necklace */
+     , (7983, 8, 2407) /* Gem */
+     , (7983, 8, 25641) /* Leather Cuirass */
+     , (7983, 8, 20856) /* Bael'Zharon Stamp */
+     , (7983, 8, 25645) /* Leather Leggings */
+     , (7983, 8, 129) /* Sandals */
+     , (7983, 8, 2422) /* Gem */
+     , (7983, 8, 128) /* Qafiya */
+     , (7983, 8, 27228) /* Nariyid Gauntlets */
+     , (7983, 8, 101) /* Chainmail Sleeves */
+     , (7983, 8, 2367) /* Gorget */
+     , (7983, 8, 2404) /* Gem */
+     , (7983, 8, 31865) /* Circlet */
+     , (7983, 8, 142) /* Chalice */
+     , (7983, 8, 44799) /* Faran Over-robe */
+     , (7983, 8, 49462) /* Scroll of Summoning Ineptitude Other VII */
+     , (7983, 8, 21154) /* Covenant Girth */
+     , (7983, 8, 6046) /* Amuli Coat */
+     , (7983, 8, 2604) /* Wide Breeches */
+     , (7983, 8, 2588) /* Flared Shirt */
+     , (7983, 8, 31026) /* Tenassa Breastplate */
+     , (7983, 8, 41054) /* Lightning Greataxe */
+     , (7983, 8, 27219) /* Chiran Sandals */
+     , (7983, 8, 31810) /* Frost Compound Crossbow */
+     , (7983, 8, 41485) /* Pocket Watch */
+     , (7983, 8, 68) /* Studded Leather Greaves */
+     , (7983, 8, 132) /* Shoes */
+     , (7983, 8, 30746) /* Dart Flinger */
+     , (7983, 8, 4195) /* Nekode */
+     , (7983, 8, 20424) /* Scroll of Archer Bait */
+     , (7983, 8, 6047) /* Amuli Leggings */
+     , (7983, 8, 9098) /* Vial of Organic Acid */
+     , (7983, 8, 31867) /* Diadem */
+     , (7983, 8, 107) /* Sollerets */
+     , (7983, 8, 311) /* Heavy Crossbow */;
+

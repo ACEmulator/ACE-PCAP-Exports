@@ -92,5 +92,5 @@ VALUES (38017, 64, 200250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (38017, 2, 37540);
+VALUES (38017, 2, 37540) /* Jester's Baton */;
 

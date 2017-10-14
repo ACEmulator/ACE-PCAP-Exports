@@ -90,30 +90,30 @@ VALUES (24590, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24590, 4, 4746)
-     , (24590, 4, 2453)
-     , (24590, 4, 2462)
-     , (24590, 4, 2469)
-     , (24590, 4, 2471)
-     , (24590, 4, 8378)
-     , (24590, 4, 4731)
-     , (24590, 4, 4737)
-     , (24590, 4, 4739)
-     , (24590, 4, 4740)
-     , (24590, 4, 5583)
-     , (24590, 4, 5856)
-     , (24590, 4, 7884)
-     , (24590, 4, 14797)
-     , (24590, 4, 5586)
-     , (24590, 4, 24855)
-     , (24590, 4, 5587)
-     , (24590, 4, 25984)
-     , (24590, 4, 25983)
-     , (24590, 4, 28242)
-     , (24590, 4, 30742)
-     , (24590, 4, 30743)
-     , (24590, 4, 30761)
-     , (24590, 4, 31311)
-     , (24590, 4, 31384)
-     , (24590, 4, 31982);
+VALUES (24590, 4, 4746) /* Water */
+     , (24590, 4, 2453) /* Cider */
+     , (24590, 4, 2462) /* Mead */
+     , (24590, 4, 2469) /* Small Beer */
+     , (24590, 4, 2471) /* Stout */
+     , (24590, 4, 8378) /* Beer Stein */
+     , (24590, 4, 4731) /* Fried Mushroom */
+     , (24590, 4, 4737) /* Mushroom Pie */
+     , (24590, 4, 4739) /* Pickled Egg */
+     , (24590, 4, 4740) /* Pickled Fish */
+     , (24590, 4, 5583) /* Aluvian Cookbook */
+     , (24590, 4, 5856) /* Specialty Cookbook */
+     , (24590, 4, 7884) /* Chocolate Cookbook */
+     , (24590, 4, 14797) /* Festival Cookbook */
+     , (24590, 4, 5586) /* Alchemy Guide */
+     , (24590, 4, 24855) /* The New Alchemy */
+     , (24590, 4, 5587) /* Fletching Guide */
+     , (24590, 4, 25984) /* Sparring Shirt */
+     , (24590, 4, 25983) /* Sparring Pants */
+     , (24590, 4, 28242) /* Directions to the Lugian Citadels */
+     , (24590, 4, 30742) /* The Littlest Niffis */
+     , (24590, 4, 30743) /* Suzuhara Baijin's Delivery */
+     , (24590, 4, 30761) /* The Withered Atoll */
+     , (24590, 4, 31311) /* Lost Pet */
+     , (24590, 4, 31384) /* Dark Dealings */
+     , (24590, 4, 31982) /* Branwyn's Tears */;
 

@@ -126,19 +126,19 @@ VALUES (2221, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2221, 4, 2467)
-     , (2221, 4, 2452)
-     , (2221, 4, 2469)
-     , (2221, 4, 2455)
-     , (2221, 4, 2465)
-     , (2221, 4, 8378)
-     , (2221, 4, 5090)
-     , (2221, 4, 5759)
-     , (2221, 4, 5089)
-     , (2221, 4, 5088)
-     , (2221, 4, 22765)
-     , (2221, 4, 2477)
-     , (2221, 4, 11929)
-     , (2221, 4, 26642)
-     , (2221, 4, 35043);
+VALUES (2221, 4, 2467) /* Red Wine */
+     , (2221, 4, 2452) /* Apple Juice */
+     , (2221, 4, 2469) /* Small Beer */
+     , (2221, 4, 2455) /* Grape Juice */
+     , (2221, 4, 2465) /* Palm Wine */
+     , (2221, 4, 8378) /* Beer Stein */
+     , (2221, 4, 5090) /* Bruised Apple */
+     , (2221, 4, 5759) /* Fruitcake */
+     , (2221, 4, 5089) /* Old Cheese */
+     , (2221, 4, 5088) /* Stale Bread */
+     , (2221, 4, 22765) /* The Empyrean Temples */
+     , (2221, 4, 2477) /* Tumerok Fortress Rumor */
+     , (2221, 4, 11929) /* A Call To Arms */
+     , (2221, 4, 26642) /* Skeleton Raids */
+     , (2221, 4, 35043) /* Halls of Metos */;
 

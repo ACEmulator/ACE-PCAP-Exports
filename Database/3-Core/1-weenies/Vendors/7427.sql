@@ -132,7 +132,7 @@ VALUES (7427, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (7427, 4, 7429)
-     , (7427, 4, 7428)
-     , (7427, 4, 262);
+VALUES (7427, 4, 7429) /* Aerlinthe Monarch Shirt */
+     , (7427, 4, 7428) /* Aerlinthe Patron Shirt */
+     , (7427, 4, 262) /* Chicken */;
 

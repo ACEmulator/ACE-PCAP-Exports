@@ -148,6 +148,6 @@ VALUES (41545, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41545, 2, 32698)
-     , (41545, 2, 24611);
+VALUES (41545, 2, 32698) /* Shield of Strathelar */
+     , (41545, 2, 24611) /* Sword of Lost Light */;
 

@@ -62,3 +62,9 @@ VALUES (22898, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22898, 64, 2500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22898, 8, 49376) /* Lightning Grievver Essence (125) */
+     , (22898, 8, 27221) /* Lorica Breastplate */;
+

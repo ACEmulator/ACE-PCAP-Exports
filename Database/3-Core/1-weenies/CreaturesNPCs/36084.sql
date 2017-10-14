@@ -63,3 +63,27 @@ VALUES (36084, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (36084, 128, 60) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (36084, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36084, 8, 25641) /* Leather Cuirass */
+     , (36084, 8, 4191) /* Flaming Cestus */
+     , (36084, 8, 84) /* Studded  Leggings */
+     , (36084, 8, 8327) /* Gold Pea */
+     , (36084, 8, 31799) /* Acid Compound Bow */
+     , (36084, 8, 44977) /* Lyceum Hood */
+     , (36084, 8, 3937) /* Flaming Morning Star */
+     , (36084, 8, 42754) /* Haebrean Pauldrons */
+     , (36084, 8, 295) /* Bracelet */
+     , (36084, 8, 163) /* Ornamental Bowl */
+     , (36084, 8, 43529) /* Lady Aerfalle's Charm */
+     , (36084, 8, 7380) /* Sheets of Paper */
+     , (36084, 8, 40929) /* Embossed Ashen Key */
+     , (36084, 8, 49306) /* Frost K'nath Essence (125) */
+     , (36084, 8, 28625) /* Diforsa Sollerets */
+     , (36084, 8, 31805) /* Slashing Compound Crossbow */
+     , (36084, 8, 30566) /* Sabra */
+     , (36084, 8, 71) /* Chainmail Hauberk */
+     , (36084, 8, 20478) /* Scroll of Fiery Blessing */
+     , (36084, 8, 31784) /* Claw */;
+

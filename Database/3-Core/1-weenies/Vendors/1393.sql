@@ -128,28 +128,28 @@ VALUES (1393, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1393, 4, 4190)
-     , (1393, 4, 301)
-     , (1393, 4, 350)
-     , (1393, 4, 351)
-     , (1393, 4, 331)
-     , (1393, 4, 332)
-     , (1393, 4, 339)
-     , (1393, 4, 359)
-     , (1393, 4, 303)
-     , (1393, 4, 309)
-     , (1393, 4, 314)
-     , (1393, 4, 316)
-     , (1393, 4, 329)
-     , (1393, 4, 22168)
-     , (1393, 4, 348)
-     , (1393, 4, 320)
-     , (1393, 4, 2621)
-     , (1393, 4, 2622)
-     , (1393, 4, 2623);
+VALUES (1393, 4, 4190) /* Cestus */
+     , (1393, 4, 301) /* Battle Axe */
+     , (1393, 4, 350) /* Broad Sword */
+     , (1393, 4, 351) /* Long Sword */
+     , (1393, 4, 331) /* Mace */
+     , (1393, 4, 332) /* Morning Star */
+     , (1393, 4, 339) /* Scimitar */
+     , (1393, 4, 359) /* War Hammer */
+     , (1393, 4, 303) /* Hand Axe */
+     , (1393, 4, 309) /* Club */
+     , (1393, 4, 314) /* Dagger */
+     , (1393, 4, 316) /* Throwing Dart */
+     , (1393, 4, 329) /* Knife */
+     , (1393, 4, 22168) /* Hefty Walking Cane */
+     , (1393, 4, 348) /* Spear */
+     , (1393, 4, 320) /* Javelin */
+     , (1393, 4, 2621) /* Trade Note (100) */
+     , (1393, 4, 2622) /* Trade Note (500) */
+     , (1393, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1393, 2, 339);
+VALUES (1393, 2, 339) /* Scimitar */;
 

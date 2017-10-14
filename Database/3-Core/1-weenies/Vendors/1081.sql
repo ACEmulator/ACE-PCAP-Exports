@@ -141,9 +141,9 @@ VALUES (1081, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1081, 4, 294)
-     , (1081, 4, 295)
-     , (1081, 4, 2621)
-     , (1081, 4, 2622)
-     , (1081, 4, 2623);
+VALUES (1081, 4, 294) /* Amulet */
+     , (1081, 4, 295) /* Bracelet */
+     , (1081, 4, 2621) /* Trade Note (100) */
+     , (1081, 4, 2622) /* Trade Note (500) */
+     , (1081, 4, 2623) /* Trade Note (1,000) */;
 

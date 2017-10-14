@@ -81,3 +81,14 @@ VALUES (28879, 2, 49) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28879, 64, 183) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28879, 8, 2797) /* Scroll of Bludgeon Lure II */
+     , (28879, 8, 8329) /* Lead Pea */
+     , (28879, 8, 273) /* Pyreal */
+     , (28879, 8, 295) /* Bracelet */
+     , (28879, 8, 30604) /* Frost Stiletto */
+     , (28879, 8, 27331) /* Minor Mana Stone */
+     , (28879, 8, 254) /* Stoup */;
+

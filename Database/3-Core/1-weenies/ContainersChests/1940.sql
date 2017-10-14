@@ -49,3 +49,21 @@ VALUES (1940, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1940, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1940, 8, 45114) /* Acid Hammer */
+     , (1940, 8, 141) /* Bowl */
+     , (1940, 8, 20640) /* Royal Atlatl */
+     , (1940, 8, 326) /* Katar */
+     , (1940, 8, 311) /* Heavy Crossbow */
+     , (1940, 8, 25644) /* Leather Greaves */
+     , (1940, 8, 2874) /* Scroll of Piercing Lure IV */
+     , (1940, 8, 92) /* Large Kite Shield */
+     , (1940, 8, 43372) /* Scroll of Void Magic Mastery Self IV */
+     , (1940, 8, 57) /* Platemail Gauntlets */
+     , (1940, 8, 168) /* Tankard */
+     , (1940, 8, 2605) /* Chainmail Greaves */
+     , (1940, 8, 31865) /* Circlet */
+     , (1940, 8, 307) /* Shortbow */;
+

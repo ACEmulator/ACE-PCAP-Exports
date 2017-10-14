@@ -55,3 +55,15 @@ VALUES (31282, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31282, 64, 2500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31282, 8, 31378) /* Raven Fragment */
+     , (31282, 8, 2411) /* Gem */
+     , (31282, 8, 6043) /* Celdon Girth */
+     , (31282, 8, 6058) /* Dark Shard */
+     , (31282, 8, 20248) /* Scroll of Ogfoot */
+     , (31282, 8, 31825) /* Piercing Baton */
+     , (31282, 8, 20245) /* Scroll of Adja's Intervention */
+     , (31282, 8, 21158) /* Covenant Shield */;
+

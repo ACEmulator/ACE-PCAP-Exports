@@ -51,3 +51,21 @@ VALUES (37101, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (37101, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37101, 8, 28937) /* Scroll of Arcanum Salvaging V */
+     , (37101, 8, 154) /* Goblet */
+     , (37101, 8, 45876) /* Scarlet Red Letter */
+     , (37101, 8, 37091) /* Forager Captain's Resonator */
+     , (37101, 8, 48942) /* Fire Skeleton Minion Essence (50) */
+     , (37101, 8, 101) /* Chainmail Sleeves */
+     , (37101, 8, 49282) /* Acid K'nath Essence (50) */
+     , (37101, 8, 2366) /* Orb */
+     , (37101, 8, 40698) /* Covenant Gauntlets */
+     , (37101, 8, 25651) /* Leather Sleeves */
+     , (37101, 8, 6044) /* Celdon Breastplate */
+     , (37101, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (37101, 8, 2424) /* Gem */
+     , (37101, 8, 2605) /* Chainmail Greaves */;
+

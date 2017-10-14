@@ -45,3 +45,18 @@ VALUES (11531, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11531, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11531, 8, 307) /* Shortbow */
+     , (11531, 8, 8329) /* Lead Pea */
+     , (11531, 8, 11352) /* Sand Golem Heart */
+     , (11531, 8, 28607) /* Lace Shirt */
+     , (11531, 8, 273) /* Pyreal */
+     , (11531, 8, 2428) /* Gem */
+     , (11531, 8, 2669) /* Scroll of Feeblemind Other II */
+     , (11531, 8, 27331) /* Minor Mana Stone */
+     , (11531, 8, 7940) /* Empty Flask */
+     , (11531, 8, 44) /* Buckler */
+     , (11531, 8, 2420) /* Gem */;
+

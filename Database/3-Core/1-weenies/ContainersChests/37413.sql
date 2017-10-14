@@ -53,3 +53,18 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (37413, 2, 0) /* OPEN_BOOL */
      , (37413, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37413, 8, 37449) /* Medium Tainted Egg */
+     , (37413, 8, 273) /* Pyreal */
+     , (37413, 8, 21157) /* Covenant Pauldrons */
+     , (37413, 8, 142) /* Chalice */
+     , (37413, 8, 621) /* Heavy Bracelet */
+     , (37413, 8, 5961) /* Scroll of Cooking Mastery Self VI */
+     , (37413, 8, 116) /* Studded Leather Boots */
+     , (37413, 8, 631) /* Excellent Healing Kit */
+     , (37413, 8, 45435) /* Frost Khanjar */
+     , (37413, 8, 6047) /* Amuli Leggings */
+     , (37413, 8, 2435) /* Mana Stone */;
+

@@ -67,3 +67,8 @@ VALUES (42040, 384, 0) /*  */
      , (42040, 382, 0) /*  */
      , (42040, 383, 0) /*  */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42040, 8, 42039) /* Mhoire Signet Ring */;
+

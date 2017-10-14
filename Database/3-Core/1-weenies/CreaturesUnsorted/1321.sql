@@ -71,3 +71,10 @@ VALUES (1321, 2, 3) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1321, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1321, 8, 31783) /* Frost Claw */
+     , (1321, 8, 308) /* Budiaq */
+     , (1321, 8, 1320) /* Gold Key */;
+

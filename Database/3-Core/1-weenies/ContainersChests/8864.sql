@@ -43,3 +43,18 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (8864, 19, 0) /* VALUE_INT */
      , (8864, 5, 1010) /* ENCUMB_VAL_INT */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8864, 8, 8854) /* General History of Dereth Vol. II */
+     , (8864, 8, 8863) /* General History of Dereth Vol. XI */
+     , (8864, 8, 8862) /* General History of Dereth Vol. X */
+     , (8864, 8, 8861) /* General History of Dereth Vol. IX */
+     , (8864, 8, 8860) /* General History of Dereth Vol. VIII */
+     , (8864, 8, 8859) /* General History of Dereth Vol. VII */
+     , (8864, 8, 8858) /* General History of Dereth Vol. VI */
+     , (8864, 8, 8857) /* General History of Dereth Vol. V */
+     , (8864, 8, 8856) /* General History of Dereth Vol. IV */
+     , (8864, 8, 8855) /* General History of Dereth Vol. III */
+     , (8864, 8, 8853) /* General History of Dereth Vol. I */;
+

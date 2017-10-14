@@ -40,3 +40,15 @@ VALUES (38293, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38293, 67113030, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38293, 8, 43829) /* Sedgemail Leather Cowl */
+     , (38293, 8, 43381) /* Nether Sceptre */
+     , (38293, 8, 150) /* Flagon */
+     , (38293, 8, 20547) /* Scroll of Jahannan's Blessing */
+     , (38293, 8, 163) /* Ornamental Bowl */
+     , (38293, 8, 20508) /* Scroll of Missile Weapon Mastery Other VII */
+     , (38293, 8, 130) /* Shirt */
+     , (38293, 8, 45290) /* Scroll of Recklessness Ineptitude Other VII */;
+

@@ -57,5 +57,5 @@ VALUES (52015, 64, 560) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (52015, 2, 11971);
+VALUES (52015, 2, 11971) /* Buadren */;
 

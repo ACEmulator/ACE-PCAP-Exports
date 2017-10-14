@@ -87,3 +87,11 @@ VALUES (38635, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38635, 64, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38635, 8, 295) /* Bracelet */
+     , (38635, 8, 38642) /* Donnarion's Key */
+     , (38635, 8, 41483) /* Compass */
+     , (38635, 8, 296) /* Crown */;
+

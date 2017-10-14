@@ -45,3 +45,31 @@ VALUES (2564, 2, 17) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2564, 64, 98) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2564, 8, 49345) /* Lightning Moar Essence (50) */
+     , (2564, 8, 30615) /* Acid Knuckles */
+     , (2564, 8, 545) /* Reliable Lockpick */
+     , (2564, 8, 2604) /* Wide Breeches */
+     , (2564, 8, 45424) /* Flaming Dagger */
+     , (2564, 8, 2470) /* Stamina Elixir */
+     , (2564, 8, 4234) /* Large Armoredillo Hide */
+     , (2564, 8, 2429) /* Gem */
+     , (2564, 8, 2637) /* Scroll of Bafflement Other V */
+     , (2564, 8, 2433) /* Gem */
+     , (2564, 8, 2605) /* Chainmail Greaves */
+     , (2564, 8, 89) /* Studded Leather Pauldrons */
+     , (2564, 8, 2393) /* Gem */
+     , (2564, 8, 624) /* Ring */
+     , (2564, 8, 363) /* Yumi */
+     , (2564, 8, 3560) /* Scroll of Vulnerability IV */
+     , (2564, 8, 254) /* Stoup */
+     , (2564, 8, 7940) /* Empty Flask */
+     , (2564, 8, 27331) /* Minor Mana Stone */
+     , (2564, 8, 2588) /* Flared Shirt */
+     , (2564, 8, 124) /* Jerkin */
+     , (2564, 8, 3913) /* Acid Yari */
+     , (2564, 8, 2979) /* Scroll of Acid Protection Self III */
+     , (2564, 8, 2472) /* Wand */;
+

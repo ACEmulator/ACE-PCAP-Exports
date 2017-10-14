@@ -51,3 +51,18 @@ VALUES (22077, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22077, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22077, 8, 95) /* Tower Shield */
+     , (22077, 8, 8331) /* Silver Pea */
+     , (22077, 8, 273) /* Pyreal */
+     , (22077, 8, 5680) /* Torn Journal */
+     , (22077, 8, 49283) /* Acid K'nath Essence (80) */
+     , (22077, 8, 31810) /* Frost Compound Crossbow */
+     , (22077, 8, 295) /* Bracelet */
+     , (22077, 8, 112) /* Studded Leather Tassets */
+     , (22077, 8, 3698) /* White Jewel */
+     , (22077, 8, 413) /* Chainmail Bracers */
+     , (22077, 8, 128) /* Qafiya */;
+

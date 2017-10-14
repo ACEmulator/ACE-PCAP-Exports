@@ -111,3 +111,16 @@ VALUES (12129, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12129, 64, 845) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12129, 8, 21325) /* Scroll of Lightning Arc III */
+     , (12129, 8, 43314) /* Scroll of Nether Streak V */
+     , (12129, 8, 55) /* Chainmail Gauntlets */
+     , (12129, 8, 6047) /* Amuli Leggings */
+     , (12129, 8, 132) /* Shoes */
+     , (12129, 8, 6046) /* Amuli Coat */
+     , (12129, 8, 12141) /* Asteliary Crafter's Message Shard */
+     , (12129, 8, 12157) /* Asteliary Gem */
+     , (12129, 8, 12147) /* Asteliary Orb */;
+

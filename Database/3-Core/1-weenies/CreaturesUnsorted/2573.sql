@@ -35,3 +35,18 @@ VALUES (2573, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2573, 19, True) /* ATTACKABLE_BOOL */
      , (2573, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2573, 8, 2414) /* Gem */
+     , (2573, 8, 27331) /* Minor Mana Stone */
+     , (2573, 8, 5789) /* Brown Lump */
+     , (2573, 8, 2415) /* Gem */
+     , (2573, 8, 2427) /* Gem */
+     , (2573, 8, 8329) /* Lead Pea */
+     , (2573, 8, 41483) /* Compass */
+     , (2573, 8, 22159) /* Acid Nabut */
+     , (2573, 8, 273) /* Pyreal */
+     , (2573, 8, 295) /* Bracelet */
+     , (2573, 8, 161) /* Mug */;
+

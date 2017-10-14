@@ -49,3 +49,29 @@ VALUES (4855, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4855, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4855, 8, 2414) /* Gem */
+     , (4855, 8, 254) /* Stoup */
+     , (4855, 8, 28610) /* Loafers */
+     , (4855, 8, 8329) /* Lead Pea */
+     , (4855, 8, 2642) /* Scroll of Clumsiness Other V */
+     , (4855, 8, 296) /* Crown */
+     , (4855, 8, 512) /* Good Lockpick */
+     , (4855, 8, 44975) /* Hood */
+     , (4855, 8, 2590) /* Baggy Shirt */
+     , (4855, 8, 2418) /* Gem */
+     , (4855, 8, 622) /* Necklace */
+     , (4855, 8, 243) /* Dinner Plate */
+     , (4855, 8, 273) /* Pyreal */
+     , (4855, 8, 295) /* Bracelet */
+     , (4855, 8, 3763) /* Lightning Budiaq */
+     , (4855, 8, 44856) /* Trimmed Cloak */
+     , (4855, 8, 148) /* Cup */
+     , (4855, 8, 45113) /* Hammer */
+     , (4855, 8, 8328) /* Iron Pea */
+     , (4855, 8, 2415) /* Gem */
+     , (4855, 8, 416) /* Chainmail Pauldrons */
+     , (4855, 8, 2599) /* Trousers */;
+

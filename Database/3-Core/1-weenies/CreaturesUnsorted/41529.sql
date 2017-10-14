@@ -44,3 +44,11 @@ VALUES (41529, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41529, 64, 808) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41529, 8, 43326) /* Scroll of Destructive Curse VII */
+     , (41529, 8, 2403) /* Gem */
+     , (41529, 8, 51266) /* Pile of Gearknight Parts */
+     , (41529, 8, 41528) /* Aetherium Power Core */;
+

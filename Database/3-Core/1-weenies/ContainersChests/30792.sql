@@ -50,3 +50,54 @@ VALUES (30792, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30792, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30792, 8, 163) /* Ornamental Bowl */
+     , (30792, 8, 20486) /* Scroll of Enervation */
+     , (30792, 8, 31813) /* Acid Slingshot */
+     , (30792, 8, 41488) /* Top */
+     , (30792, 8, 25642) /* Leather Gauntlets */
+     , (30792, 8, 31801) /* Electric Compound Bow */
+     , (30792, 8, 150) /* Flagon */
+     , (30792, 8, 45113) /* Hammer */
+     , (30792, 8, 516) /* Peerless Lockpick */
+     , (30792, 8, 31026) /* Tenassa Breastplate */
+     , (30792, 8, 2625) /* Trade Note (10,000) */
+     , (30792, 8, 793) /* Scalemail Coif */
+     , (30792, 8, 29241) /* Fire Bow */
+     , (30792, 8, 27328) /* Major Mana Stone */
+     , (30792, 8, 27222) /* Lorica Gauntlets */
+     , (30792, 8, 142) /* Chalice */
+     , (30792, 8, 6044) /* Celdon Breastplate */
+     , (30792, 8, 118) /* Cloth Cap */
+     , (30792, 8, 5901) /* Kasa */
+     , (30792, 8, 2422) /* Gem */
+     , (30792, 8, 11710) /* Writ of Refuge */
+     , (30792, 8, 45421) /* Dagger */
+     , (30792, 8, 297) /* Ring */
+     , (30792, 8, 27230) /* Nariyid Helm */
+     , (30792, 8, 2594) /* Flared Tunic */
+     , (30792, 8, 25636) /* Leather Helm */
+     , (30792, 8, 116) /* Studded Leather Boots */
+     , (30792, 8, 40700) /* Covenant Greaves */
+     , (30792, 8, 20509) /* Scroll of Missile Weapon Mastery Self VII */
+     , (30792, 8, 22158) /* Jo */
+     , (30792, 8, 294) /* Amulet */
+     , (30792, 8, 59) /* Studded Leather Gauntlets */
+     , (30792, 8, 45106) /* Flaming Rapier */
+     , (30792, 8, 20630) /* Trade Note (250,000) */
+     , (30792, 8, 27318) /* Health Philtre */
+     , (30792, 8, 6045) /* Celdon Leggings */
+     , (30792, 8, 2627) /* Trade Note (100,000) */
+     , (30792, 8, 22168) /* Hefty Walking Cane */
+     , (30792, 8, 49230) /* Frost Skeleton Bushi Essence (125) */
+     , (30792, 8, 63) /* Studded Leather Girth */
+     , (30792, 8, 31865) /* Circlet */
+     , (30792, 8, 308) /* Budiaq */
+     , (30792, 8, 43326) /* Scroll of Destructive Curse VII */
+     , (30792, 8, 31793) /* Frost Lancet */
+     , (30792, 8, 25652) /* Leather Tassets */
+     , (30792, 8, 723) /* Studded Leather Cowl */
+     , (30792, 8, 40705) /* Covenant Sollerets */;
+

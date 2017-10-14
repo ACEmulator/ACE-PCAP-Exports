@@ -48,3 +48,18 @@ VALUES (30754, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30754, 64, 413) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30754, 8, 20323) /* Scroll of Nullify Creature Magic Other */
+     , (30754, 8, 631) /* Excellent Healing Kit */
+     , (30754, 8, 12463) /* Atlatl */
+     , (30754, 8, 3052) /* Scroll of Lightning Protection Other VI */
+     , (30754, 8, 6044) /* Celdon Breastplate */
+     , (30754, 8, 2396) /* Gem */
+     , (30754, 8, 2402) /* Gem */
+     , (30754, 8, 31824) /* Ice Wand */
+     , (30754, 8, 2593) /* Loose Tunic */
+     , (30754, 8, 312) /* Light Crossbow */
+     , (30754, 8, 27320) /* Health Tonic */;
+

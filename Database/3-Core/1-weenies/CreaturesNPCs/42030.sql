@@ -97,6 +97,6 @@ VALUES (42030, 5, 16781846)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42030, 2, 35395)
-     , (42030, 2, 35096);
+VALUES (42030, 2, 35395) /* House Mhoire Shield */
+     , (42030, 2, 35096) /* Pyre Blade */;
 

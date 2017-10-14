@@ -42,3 +42,58 @@ VALUES (37420, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37420, 67113029, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37420, 8, 49436) /* Fire Spectre Essence (80) */
+     , (37420, 8, 25643) /* Leather Girth */
+     , (37420, 8, 31824) /* Ice Wand */
+     , (37420, 8, 28625) /* Diforsa Sollerets */
+     , (37420, 8, 294) /* Amulet */
+     , (37420, 8, 32274) /* Moarsmuck */
+     , (37420, 8, 31778) /* Frost Spine Glaive */
+     , (37420, 8, 48) /* Studded Leather Coat */
+     , (37420, 8, 27219) /* Chiran Sandals */
+     , (37420, 8, 49539) /* Frost Phyntos Wasp Essence (80) */
+     , (37420, 8, 108) /* Chainmail Tassets */
+     , (37420, 8, 39016) /* Putrid Sea Invasion Key */
+     , (37420, 8, 311) /* Heavy Crossbow */
+     , (37420, 8, 2407) /* Gem */
+     , (37420, 8, 20409) /* Scroll of Tusker Bait */
+     , (37420, 8, 40) /* Platemail Breastplate */
+     , (37420, 8, 31823) /* Fire Baton */
+     , (37420, 8, 2408) /* Gem */
+     , (37420, 8, 341) /* Shouyumi */
+     , (37420, 8, 3916) /* Frost Yari */
+     , (37420, 8, 20858) /* Fish Stamp */
+     , (37420, 8, 312) /* Light Crossbow */
+     , (37420, 8, 22164) /* Acid Quarter Staff */
+     , (37420, 8, 45422) /* Acid Dagger */
+     , (37420, 8, 31865) /* Circlet */
+     , (37420, 8, 20557) /* Scroll of Oswald's Blessing */
+     , (37420, 8, 22157) /* Frost Jo */
+     , (37420, 8, 68) /* Studded Leather Greaves */
+     , (37420, 8, 2423) /* Gem */
+     , (37420, 8, 41485) /* Pocket Watch */
+     , (37420, 8, 2598) /* Baggy Pants */
+     , (37420, 8, 31868) /* Signet Crown */
+     , (37420, 8, 142) /* Chalice */
+     , (37420, 8, 28622) /* Tenassa Leggings */
+     , (37420, 8, 127) /* Pants */
+     , (37420, 8, 351) /* Long Sword */
+     , (37420, 8, 25637) /* Leather Bracers */
+     , (37420, 8, 119) /* Cowl */
+     , (37420, 8, 106) /* Yoroi Sleeves */
+     , (37420, 8, 30581) /* Mazule */
+     , (37420, 8, 28618) /* Diforsa Helm */
+     , (37420, 8, 89) /* Studded Leather Pauldrons */
+     , (37420, 8, 28617) /* Alduressa Helm */
+     , (37420, 8, 2400) /* Gem */
+     , (37420, 8, 45099) /* Epee */
+     , (37420, 8, 31776) /* Electric Board with Nail */
+     , (37420, 8, 414) /* Chainmail Breastplate */
+     , (37420, 8, 49374) /* Lightning Grievver Essence (80) */
+     , (37420, 8, 7897) /* Steel Toed Boots */
+     , (37420, 8, 12463) /* Atlatl */
+     , (37420, 8, 22161) /* Flaming Nabut */;
+

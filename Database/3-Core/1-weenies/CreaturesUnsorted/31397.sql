@@ -41,3 +41,11 @@ VALUES (31397, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31397, 67115143, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31397, 8, 31377) /* Twilight Fragment */
+     , (31397, 8, 3834) /* Acid Mace */
+     , (31397, 8, 150) /* Flagon */
+     , (31397, 8, 20554) /* Scroll of Harlune's Blessing */;
+

@@ -52,3 +52,10 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3978, 2, 0) /* OPEN_BOOL */
      , (3978, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3978, 8, 7795) /* Frost Naginata */
+     , (3978, 8, 1779) /* Scroll of Mana Drain Other */
+     , (3978, 8, 27331) /* Minor Mana Stone */;
+

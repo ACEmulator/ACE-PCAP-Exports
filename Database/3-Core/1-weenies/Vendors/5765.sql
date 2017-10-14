@@ -62,12 +62,12 @@ VALUES (5765, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5765, 4, 5762)
-     , (5765, 4, 5768)
-     , (5765, 4, 13224);
+VALUES (5765, 4, 5762) /* Snowball */
+     , (5765, 4, 5768) /* Poofy Snowball */
+     , (5765, 4, 13224) /* A Frozen Note */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5765, 2, 5770);
+VALUES (5765, 2, 5770) /* "Enchanted" Iceball */;
 

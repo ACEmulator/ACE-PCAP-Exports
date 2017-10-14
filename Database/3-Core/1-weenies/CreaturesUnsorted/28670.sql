@@ -39,3 +39,19 @@ VALUES (28670, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28670, 67115448, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28670, 8, 49435) /* Fire Spectre Essence (50) */
+     , (28670, 8, 2393) /* Gem */
+     , (28670, 8, 31783) /* Frost Claw */
+     , (28670, 8, 2430) /* Gem */
+     , (28670, 8, 154) /* Goblet */
+     , (28670, 8, 8328) /* Iron Pea */
+     , (28670, 8, 7940) /* Empty Flask */
+     , (28670, 8, 357) /* Tungi */
+     , (28670, 8, 297) /* Ring */
+     , (28670, 8, 21299) /* Scroll of Blade Arc V */
+     , (28670, 8, 273) /* Pyreal */
+     , (28670, 8, 25648) /* Leather Pauldrons */;
+

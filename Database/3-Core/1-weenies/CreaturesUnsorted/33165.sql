@@ -57,3 +57,14 @@ VALUES (33165, 0, 16777708)
      , (33165, 15, 16777307)
      , (33165, 16, 16778407);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33165, 8, 554) /* Studded Leather Basinet */
+     , (33165, 8, 27330) /* Moderate Mana Stone */
+     , (33165, 8, 30559) /* Flaming Hatchet */
+     , (33165, 8, 3567) /* Scroll of War Magic Ineptitude VI */
+     , (33165, 8, 3261) /* Scroll of Fealty Other V */
+     , (33165, 8, 25640) /* Leather Cowl */
+     , (33165, 8, 45109) /* Acid Schlager */;
+

@@ -50,3 +50,68 @@ VALUES (40305, 2, 98) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40305, 64, 1115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40305, 8, 5901) /* Kasa */
+     , (40305, 8, 45113) /* Hammer */
+     , (40305, 8, 21155) /* Covenant Greaves */
+     , (40305, 8, 49238) /* Acid Zombie Essence (180) */
+     , (40305, 8, 38) /* Studded Leather Bracers */
+     , (40305, 8, 31779) /* Spine Glaive */
+     , (40305, 8, 49284) /* Acid K'nath Essence (100) */
+     , (40305, 8, 150) /* Flagon */
+     , (40305, 8, 2366) /* Orb */
+     , (40305, 8, 21156) /* Covenant Helm */
+     , (40305, 8, 49430) /* Lightning Spectre Essence (100) */
+     , (40305, 8, 2421) /* Gem */
+     , (40305, 8, 84) /* Studded  Leggings */
+     , (40305, 8, 33613) /* Pathwarden Token */
+     , (40305, 8, 12740) /* Training Battle Axe */
+     , (40305, 8, 30987) /* Letter From Home */
+     , (40305, 8, 31000) /* Blackmoor's Favor */
+     , (40305, 8, 12711) /* Oil of Rendering */
+     , (40305, 8, 29243) /* Piercing Bow */
+     , (40305, 8, 31798) /* Slashing Compound Bow */
+     , (40305, 8, 29244) /* Slashing Bow */
+     , (40305, 8, 29239) /* Bone Bow */
+     , (40305, 8, 31800) /* Blunt Compound Bow */
+     , (40305, 8, 29241) /* Fire Bow */
+     , (40305, 8, 31801) /* Electric Compound Bow */
+     , (40305, 8, 31802) /* Fire Compound Bow */
+     , (40305, 8, 29238) /* Acid Bow */
+     , (40305, 8, 31807) /* Blunt Compound Crossbow */
+     , (40305, 8, 28620) /* Alduressa Leggings */
+     , (40305, 8, 135) /* Turban */
+     , (40305, 8, 41262) /* Scroll of Blessing of T'ing */
+     , (40305, 8, 44977) /* Lyceum Hood */
+     , (40305, 8, 7787) /* Frost Spiked Club */
+     , (40305, 8, 2425) /* Gem */
+     , (40305, 8, 2595) /* Baggy Tunic */
+     , (40305, 8, 31761) /* Lightning Dericost Blade */
+     , (40305, 8, 2422) /* Gem */
+     , (40305, 8, 28608) /* Poet's Shirt */
+     , (40305, 8, 49231) /* Frost Skeleton Bushi Essence (150) */
+     , (40305, 8, 27236) /* Scroll of Eradicate Life Magic Other */
+     , (40305, 8, 154) /* Goblet */
+     , (40305, 8, 2589) /* Smock */
+     , (40305, 8, 28624) /* Tenassa Sleeves */
+     , (40305, 8, 28605) /* Beret */
+     , (40305, 8, 20551) /* Scroll of Ar-Pei's Blessing */
+     , (40305, 8, 20500) /* Scroll of Aliester's Blessing */
+     , (40305, 8, 20475) /* Scroll of Icy Blessing */
+     , (40305, 8, 31786) /* Lightning Claw */
+     , (40305, 8, 44) /* Buckler */
+     , (40305, 8, 621) /* Heavy Bracelet */
+     , (40305, 8, 2590) /* Baggy Shirt */
+     , (40305, 8, 273) /* Pyreal */
+     , (40305, 8, 107) /* Sollerets */
+     , (40305, 8, 149) /* Ewer */
+     , (40305, 8, 2412) /* Gem */
+     , (40305, 8, 44799) /* Faran Over-robe */
+     , (40305, 8, 49271) /* Lightning Child Essence (125) */
+     , (40305, 8, 27225) /* Lorica Sleeves */
+     , (40305, 8, 20487) /* Scroll of Decrepitude's Grasp */
+     , (40305, 8, 624) /* Ring */
+     , (40305, 8, 27228) /* Nariyid Gauntlets */;
+

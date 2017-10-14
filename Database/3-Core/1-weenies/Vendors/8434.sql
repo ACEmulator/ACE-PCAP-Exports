@@ -126,15 +126,15 @@ VALUES (8434, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (8434, 4, 2451)
-     , (8434, 4, 2471)
-     , (8434, 4, 2462)
-     , (8434, 4, 2463)
-     , (8434, 4, 4746)
-     , (8434, 4, 8378)
-     , (8434, 4, 261)
-     , (8434, 4, 620)
-     , (8434, 4, 4732)
-     , (8434, 4, 4734)
-     , (8434, 4, 27792);
+VALUES (8434, 4, 2451) /* Ale */
+     , (8434, 4, 2471) /* Stout */
+     , (8434, 4, 2462) /* Mead */
+     , (8434, 4, 2463) /* Milk */
+     , (8434, 4, 4746) /* Water */
+     , (8434, 4, 8378) /* Beer Stein */
+     , (8434, 4, 261) /* Cheese */
+     , (8434, 4, 620) /* Cake */
+     , (8434, 4, 4732) /* Fried Steak */
+     , (8434, 4, 4734) /* Meat Pie */
+     , (8434, 4, 27792) /* The Moars */;
 

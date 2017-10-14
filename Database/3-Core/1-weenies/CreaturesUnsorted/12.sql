@@ -48,3 +48,40 @@ VALUES (12, 2, 9) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12, 8, 297) /* Ring */
+     , (12, 8, 8329) /* Lead Pea */
+     , (12, 8, 80) /* Chainmail Leggings */
+     , (12, 8, 2434) /* Lesser Mana Stone */
+     , (12, 8, 273) /* Pyreal */
+     , (12, 8, 41052) /* Greataxe */
+     , (12, 8, 2419) /* Gem */
+     , (12, 8, 45422) /* Acid Dagger */
+     , (12, 8, 27331) /* Minor Mana Stone */
+     , (12, 8, 3703) /* Red Phyntos Wasp Wing */
+     , (12, 8, 4197) /* Acid Nekode */
+     , (12, 8, 148) /* Cup */
+     , (12, 8, 1681) /* Scroll of Arcane Enlightenment Self */
+     , (12, 8, 2417) /* Gem */
+     , (12, 8, 254) /* Stoup */
+     , (12, 8, 49485) /* Encapsulated Spirit */
+     , (12, 8, 12463) /* Atlatl */
+     , (12, 8, 1882) /* Scroll of Flame Lure */
+     , (12, 8, 43330) /* Scroll of Festering Curse II */
+     , (12, 8, 312) /* Light Crossbow */
+     , (12, 8, 296) /* Crown */
+     , (12, 8, 331) /* Mace */
+     , (12, 8, 30625) /* War Bow */
+     , (12, 8, 127) /* Pants */
+     , (12, 8, 2416) /* Gem */
+     , (12, 8, 4395) /* Scroll of Force Bolt II */
+     , (12, 8, 150) /* Flagon */
+     , (12, 8, 124) /* Jerkin */
+     , (12, 8, 41487) /* Mechanical Scarab */
+     , (12, 8, 295) /* Bracelet */
+     , (12, 8, 22161) /* Flaming Nabut */
+     , (12, 8, 3139) /* Scroll of Arcane Enlightenment Self III */
+     , (12, 8, 2988) /* Scroll of Blade Protection Other II */;
+

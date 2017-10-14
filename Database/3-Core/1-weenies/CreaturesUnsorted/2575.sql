@@ -45,3 +45,21 @@ VALUES (2575, 2, 28) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2575, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2575, 8, 48972) /* Acid Zombie Essence (50) */
+     , (2575, 8, 121) /* Gloves */
+     , (2575, 8, 341) /* Shouyumi */
+     , (2575, 8, 59) /* Studded Leather Gauntlets */
+     , (2575, 8, 312) /* Light Crossbow */
+     , (2575, 8, 1731) /* Scroll of Person Attunement Self */
+     , (2575, 8, 296) /* Crown */
+     , (2575, 8, 273) /* Pyreal */
+     , (2575, 8, 80) /* Chainmail Leggings */
+     , (2575, 8, 42518) /* Coalesced Mana */
+     , (2575, 8, 4195) /* Nekode */
+     , (2575, 8, 49227) /* Frost Skeleton Minion Essence (50) */
+     , (2575, 8, 25637) /* Leather Bracers */
+     , (2575, 8, 12253) /* Monougat */;
+

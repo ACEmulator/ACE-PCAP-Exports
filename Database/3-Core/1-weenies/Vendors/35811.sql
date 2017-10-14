@@ -131,18 +131,18 @@ VALUES (35811, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35811, 4, 35535)
-     , (35811, 4, 35536)
-     , (35811, 4, 35537)
-     , (35811, 4, 35538)
-     , (35811, 4, 35539)
-     , (35811, 4, 35541)
-     , (35811, 4, 35540)
-     , (35811, 4, 35542)
-     , (35811, 4, 41856)
-     , (35811, 4, 35543)
-     , (35811, 4, 35544)
-     , (35811, 4, 35545)
-     , (35811, 4, 35546)
-     , (35811, 4, 39513);
+VALUES (35811, 4, 35535) /* "Doom Hammer" Summoning Gem */
+     , (35811, 4, 35536) /* "Burning Bow" Summoning Gem */
+     , (35811, 4, 35537) /* "Assassin's Crossbow" Summoning Gem */
+     , (35811, 4, 35538) /* "Assassin's Dagger" Summoning Gem */
+     , (35811, 4, 35539) /* "Club of Undead Bashing" Summoning Gem */
+     , (35811, 4, 35541) /* "Chorizite Staff" Summoning Gem */
+     , (35811, 4, 35540) /* "Bloodletter" Summoning Gem */
+     , (35811, 4, 35542) /* "Commoner's Sword" Summoning Gem */
+     , (35811, 4, 41856) /* "Commoner's Two Handed Sword" Summoning Gem */
+     , (35811, 4, 35543) /* "Lord's Sword" Summoning Gem */
+     , (35811, 4, 35544) /* "Throwing Daggers of Ice" Summoning Gem */
+     , (35811, 4, 35545) /* "Vampire's Kiss" Summoning Gem */
+     , (35811, 4, 35546) /* "Ice Wand" Summoning Gem */
+     , (35811, 4, 39513) /* Boxed Mana Forge Key */;
 

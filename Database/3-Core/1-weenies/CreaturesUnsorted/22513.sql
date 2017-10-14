@@ -51,3 +51,30 @@ VALUES (22513, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22513, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22513, 8, 101) /* Chainmail Sleeves */
+     , (22513, 8, 25648) /* Leather Pauldrons */
+     , (22513, 8, 107) /* Sollerets */
+     , (22513, 8, 41039) /* Flaming Assagai */
+     , (22513, 8, 31868) /* Signet Crown */
+     , (22513, 8, 2548) /* Sceptre */
+     , (22513, 8, 28624) /* Tenassa Sleeves */
+     , (22513, 8, 6044) /* Celdon Breastplate */
+     , (22513, 8, 41483) /* Compass */
+     , (22513, 8, 8328) /* Iron Pea */
+     , (22513, 8, 20541) /* Scroll of Celcynd's Blessing */
+     , (22513, 8, 92) /* Large Kite Shield */
+     , (22513, 8, 3938) /* Frost Morning Star */
+     , (22513, 8, 273) /* Pyreal */
+     , (22513, 8, 45) /* Leather Cap */
+     , (22513, 8, 31782) /* Fire Spine Glaive */
+     , (22513, 8, 31820) /* Acid Baton */
+     , (22513, 8, 2425) /* Gem */
+     , (22513, 8, 38) /* Studded Leather Bracers */
+     , (22513, 8, 132) /* Shoes */
+     , (22513, 8, 295) /* Bracelet */
+     , (22513, 8, 25645) /* Leather Leggings */
+     , (22513, 8, 124) /* Jerkin */;
+

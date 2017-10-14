@@ -70,3 +70,57 @@ VALUES (197, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (197, 64, 1100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (197, 8, 154) /* Goblet */
+     , (197, 8, 31758) /* Frost Dericost Blade */
+     , (197, 8, 25645) /* Leather Leggings */
+     , (197, 8, 163) /* Ornamental Bowl */
+     , (197, 8, 623) /* Heavy Necklace */
+     , (197, 8, 20574) /* Scroll of Web of Resistance */
+     , (197, 8, 2596) /* Doublet */
+     , (197, 8, 297) /* Ring */
+     , (197, 8, 49485) /* Encapsulated Spirit */
+     , (197, 8, 44975) /* Hood */
+     , (197, 8, 40763) /* Flaming Nodachi */
+     , (197, 8, 20544) /* Scroll of Unfortunate Appraisal */
+     , (197, 8, 31803) /* Frost Compound Bow */
+     , (197, 8, 2425) /* Gem */
+     , (197, 8, 3672) /* Iron Heart */
+     , (197, 8, 243) /* Dinner Plate */
+     , (197, 8, 6353) /* Pyreal Mote */
+     , (197, 8, 116) /* Studded Leather Boots */
+     , (197, 8, 20411) /* Aura of Cragstone's Will */
+     , (197, 8, 40701) /* Covenant Helm */
+     , (197, 8, 150) /* Flagon */
+     , (197, 8, 2407) /* Gem */
+     , (197, 8, 2412) /* Gem */
+     , (197, 8, 31759) /* Dericost Blade */
+     , (197, 8, 7788) /* Fire Spiked Club */
+     , (197, 8, 28617) /* Alduressa Helm */
+     , (197, 8, 28609) /* Vest */
+     , (197, 8, 324) /* Kaskara */
+     , (197, 8, 621) /* Heavy Bracelet */
+     , (197, 8, 20602) /* Scroll of Vigor Siphon */
+     , (197, 8, 2404) /* Gem */
+     , (197, 8, 121) /* Gloves */
+     , (197, 8, 2602) /* Loose Breeches */
+     , (197, 8, 73) /* Scalemail Hauberk */
+     , (197, 8, 130) /* Shirt */
+     , (197, 8, 149) /* Ewer */
+     , (197, 8, 30580) /* Lightning Flamberge */
+     , (197, 8, 20492) /* Scroll of Robustify */
+     , (197, 8, 41483) /* Compass */
+     , (197, 8, 624) /* Ring */
+     , (197, 8, 415) /* Chainmail Girth */
+     , (197, 8, 90) /* Yoroi Pauldrons */
+     , (197, 8, 2410) /* Gem */
+     , (197, 8, 142) /* Chalice */
+     , (197, 8, 28627) /* Diforsa Bracers */
+     , (197, 8, 20237) /* Scroll of Perseverance */
+     , (197, 8, 20418) /* Scroll of Brogard's Defiance */
+     , (197, 8, 27216) /* Chiran Gauntlets */
+     , (197, 8, 2587) /* Shirt */
+     , (197, 8, 135) /* Turban */;
+

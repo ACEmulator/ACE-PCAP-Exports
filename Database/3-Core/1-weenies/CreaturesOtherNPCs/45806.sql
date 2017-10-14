@@ -97,3 +97,27 @@ VALUES (45806, 2, 101) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (45806, 64, 3500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (45806, 8, 362) /* Yari */
+     , (45806, 8, 632) /* Peerless Healing Kit */
+     , (45806, 8, 27318) /* Health Philtre */
+     , (45806, 8, 297) /* Ring */
+     , (45806, 8, 9229) /* Treated Healing Kit */
+     , (45806, 8, 45116) /* Flaming Hammer */
+     , (45806, 8, 273) /* Pyreal */
+     , (45806, 8, 621) /* Heavy Bracelet */
+     , (45806, 8, 27321) /* Mana Philtre */
+     , (45806, 8, 2410) /* Gem */
+     , (45806, 8, 27320) /* Health Tonic */
+     , (45806, 8, 516) /* Peerless Lockpick */
+     , (45806, 8, 21154) /* Covenant Girth */
+     , (45806, 8, 2411) /* Gem */
+     , (45806, 8, 27328) /* Major Mana Stone */
+     , (45806, 8, 7772) /* Trident */
+     , (45806, 8, 2589) /* Smock */
+     , (45806, 8, 2404) /* Gem */
+     , (45806, 8, 2408) /* Gem */
+     , (45806, 8, 37360) /* Ink of Conveyance */;
+

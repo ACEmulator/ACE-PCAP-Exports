@@ -126,26 +126,26 @@ VALUES (669, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (669, 4, 2453)
-     , (669, 4, 2462)
-     , (669, 4, 2463)
-     , (669, 4, 4746)
-     , (669, 4, 2471)
-     , (669, 4, 8378)
-     , (669, 4, 4713)
-     , (669, 4, 4741)
-     , (669, 4, 4725)
-     , (669, 4, 259)
-     , (669, 4, 1506)
-     , (669, 4, 2053)
-     , (669, 4, 2059)
-     , (669, 4, 6420)
-     , (669, 4, 11929)
-     , (669, 4, 7777)
-     , (669, 4, 15808)
-     , (669, 4, 6416)
-     , (669, 4, 24343)
-     , (669, 4, 32273)
-     , (669, 4, 13200)
-     , (669, 4, 22730);
+VALUES (669, 4, 2453) /* Cider */
+     , (669, 4, 2462) /* Mead */
+     , (669, 4, 2463) /* Milk */
+     , (669, 4, 4746) /* Water */
+     , (669, 4, 2471) /* Stout */
+     , (669, 4, 8378) /* Beer Stein */
+     , (669, 4, 4713) /* Beef Stew */
+     , (669, 4, 4741) /* Pizza */
+     , (669, 4, 4725) /* Fish Pie */
+     , (669, 4, 259) /* Bread */
+     , (669, 4, 1506) /* Legend of the Undead Defender */
+     , (669, 4, 2053) /* Directions to Fort Witshire */
+     , (669, 4, 2059) /* History of Fort Witshire */
+     , (669, 4, 6420) /* The Obsidian Span */
+     , (669, 4, 11929) /* A Call To Arms */
+     , (669, 4, 7777) /* Mi Krau-Li Rumor */
+     , (669, 4, 15808) /* Plea for Help */
+     , (669, 4, 6416) /* A Shivering Stone */
+     , (669, 4, 24343) /* Missing Person */
+     , (669, 4, 32273) /* The Zongo Papers */
+     , (669, 4, 13200) /* Aluvian Festival Light */
+     , (669, 4, 22730) /* Holiday Pole */;
 

@@ -39,3 +39,9 @@ VALUES (32035, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32035, 67116787, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32035, 8, 243) /* Dinner Plate */
+     , (32035, 8, 2587) /* Shirt */;
+

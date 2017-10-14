@@ -39,3 +39,19 @@ VALUES (27712, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27712, 67115191, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27712, 8, 2396) /* Gem */
+     , (27712, 8, 20242) /* Scroll of Brittle Bones */
+     , (27712, 8, 28606) /* Viamontian Pants */
+     , (27712, 8, 27228) /* Nariyid Gauntlets */
+     , (27712, 8, 31771) /* Lightning War Axe */
+     , (27712, 8, 142) /* Chalice */
+     , (27712, 8, 2402) /* Gem */
+     , (27712, 8, 25661) /* Leather Boots */
+     , (27712, 8, 29898) /* Small Bundle of Badlands Siraluun Feathers */
+     , (27712, 8, 2412) /* Gem */
+     , (27712, 8, 114) /* Platemail Vambraces */
+     , (27712, 8, 294) /* Amulet */;
+

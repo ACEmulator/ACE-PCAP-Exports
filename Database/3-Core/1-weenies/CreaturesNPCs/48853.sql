@@ -119,5 +119,5 @@ VALUES (48853, 5, 16788087)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (48853, 2, 38850);
+VALUES (48853, 2, 38850) /* Piercing Baton */;
 

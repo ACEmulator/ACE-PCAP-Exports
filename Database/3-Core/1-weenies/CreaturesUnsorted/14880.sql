@@ -45,3 +45,16 @@ VALUES (14880, 2, 62) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14880, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14880, 8, 134) /* Tunic */
+     , (14880, 8, 273) /* Pyreal */
+     , (14880, 8, 40708) /* Covenant Gauntlets */
+     , (14880, 8, 2436) /* Greater Mana Stone */
+     , (14880, 8, 2412) /* Gem */
+     , (14880, 8, 8326) /* Copper Pea */
+     , (14880, 8, 20240) /* Scroll of Calming Gaze */
+     , (14880, 8, 8331) /* Silver Pea */
+     , (14880, 8, 2395) /* Gem */;
+

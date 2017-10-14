@@ -124,19 +124,19 @@ VALUES (42804, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42804, 4, 4746)
-     , (42804, 4, 5136)
-     , (42804, 4, 2465)
-     , (42804, 4, 2459)
-     , (42804, 4, 2469)
-     , (42804, 4, 8378)
-     , (42804, 4, 45755)
-     , (42804, 4, 45756)
-     , (42804, 4, 45757)
-     , (42804, 4, 45758)
-     , (42804, 4, 45759)
-     , (42804, 4, 49565)
-     , (42804, 4, 49566)
-     , (42804, 4, 49567)
-     , (42804, 4, 49771);
+VALUES (42804, 4, 4746) /* Water */
+     , (42804, 4, 5136) /* Cove Apple Cider */
+     , (42804, 4, 2465) /* Palm Wine */
+     , (42804, 4, 2459) /* Kumiss */
+     , (42804, 4, 2469) /* Small Beer */
+     , (42804, 4, 8378) /* Beer Stein */
+     , (42804, 4, 45755) /* Contract for Bobo's Medicine */
+     , (42804, 4, 45756) /* Contract for Sepulcher of Nightmares */
+     , (42804, 4, 45757) /* Contract for Mhoire Castle */
+     , (42804, 4, 45758) /* Contract for Kidnapped Handmaiden */
+     , (42804, 4, 45759) /* Contract for Mhoire Oubliette */
+     , (42804, 4, 49565) /* Contract for Defeat Hoshino Kei */
+     , (42804, 4, 49566) /* Contract for Ritual Investigation */
+     , (42804, 4, 49567) /* Contract for Ritual Disruption */
+     , (42804, 4, 49771) /* Contract for Uziz Abductions */;
 

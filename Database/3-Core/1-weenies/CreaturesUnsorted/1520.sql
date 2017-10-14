@@ -39,3 +39,30 @@ VALUES (1520, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1520, 67114036, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1520, 8, 2435) /* Mana Stone */
+     , (1520, 8, 1533) /* Small Rusted Key */
+     , (1520, 8, 629) /* Adept Healing Kit */
+     , (1520, 8, 41483) /* Compass */
+     , (1520, 8, 20601) /* Scroll of Essence Void */
+     , (1520, 8, 512) /* Good Lockpick */
+     , (1520, 8, 9639) /* Scroll of Health to Stamina Self VI */
+     , (1520, 8, 95) /* Tower Shield */
+     , (1520, 8, 2425) /* Gem */
+     , (1520, 8, 42518) /* Coalesced Mana */
+     , (1520, 8, 25639) /* Leather Jerkin */
+     , (1520, 8, 621) /* Heavy Bracelet */
+     , (1520, 8, 25641) /* Leather Cuirass */
+     , (1520, 8, 7897) /* Steel Toed Boots */
+     , (1520, 8, 624) /* Ring */
+     , (1520, 8, 149) /* Ewer */
+     , (1520, 8, 514) /* Excellent Lockpick */
+     , (1520, 8, 27330) /* Moderate Mana Stone */
+     , (1520, 8, 49247) /* Fire Zombie Essence (50) */
+     , (1520, 8, 2740) /* Scroll of Strength Other V */
+     , (1520, 8, 2590) /* Baggy Shirt */
+     , (1520, 8, 27324) /* Stamina Brew */
+     , (1520, 8, 45419) /* Flaming Knife */;
+

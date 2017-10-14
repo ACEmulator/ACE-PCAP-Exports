@@ -95,3 +95,10 @@ VALUES (31406, 16, 16795638)
      , (31406, 4, 16781816)
      , (31406, 8, 16781817);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31406, 8, 163) /* Ornamental Bowl */
+     , (31406, 8, 31396) /* Caliginous Aegis */
+     , (31406, 8, 2605) /* Chainmail Greaves */;
+

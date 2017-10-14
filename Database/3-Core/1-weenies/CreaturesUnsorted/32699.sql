@@ -32,3 +32,23 @@ VALUES (32699, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (32699, 19, True) /* ATTACKABLE_BOOL */
      , (32699, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32699, 8, 59) /* Studded Leather Gauntlets */
+     , (32699, 8, 31766) /* Lightning Lugian Hammer */
+     , (32699, 8, 54) /* Yoroi Cuirass */
+     , (32699, 8, 2434) /* Lesser Mana Stone */
+     , (32699, 8, 149) /* Ewer */
+     , (32699, 8, 2427) /* Gem */
+     , (32699, 8, 28609) /* Vest */
+     , (32699, 8, 3012) /* Scroll of Bludgeon Protection Self VI */
+     , (32699, 8, 44849) /* Chevron Cloak */
+     , (32699, 8, 21150) /* Covenant Sollerets */
+     , (32699, 8, 25637) /* Leather Bracers */
+     , (32699, 8, 3820) /* Flaming Katar */
+     , (32699, 8, 133) /* Slippers */
+     , (32699, 8, 45876) /* Scarlet Red Letter */
+     , (32699, 8, 623) /* Heavy Necklace */
+     , (32699, 8, 25647) /* Leather Pants */;
+

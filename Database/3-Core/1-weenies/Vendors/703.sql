@@ -129,14 +129,14 @@ VALUES (703, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (703, 4, 127)
-     , (703, 4, 130)
-     , (703, 4, 118)
-     , (703, 4, 2606)
-     , (703, 4, 5851)
-     , (703, 4, 5850)
-     , (703, 4, 8371)
-     , (703, 4, 513)
-     , (703, 4, 545)
-     , (703, 4, 512);
+VALUES (703, 4, 127) /* Pants */
+     , (703, 4, 130) /* Shirt */
+     , (703, 4, 118) /* Cloth Cap */
+     , (703, 4, 2606) /* Boots */
+     , (703, 4, 5851) /* Faran Robe with Hood */
+     , (703, 4, 5850) /* Faran Robe */
+     , (703, 4, 8371) /* Kireth Gown with Band */
+     , (703, 4, 513) /* Plain Lockpick */
+     , (703, 4, 545) /* Reliable Lockpick */
+     , (703, 4, 512) /* Good Lockpick */;
 

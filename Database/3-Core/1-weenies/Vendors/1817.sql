@@ -123,25 +123,25 @@ VALUES (1817, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1817, 4, 2621)
-     , (1817, 4, 2622)
-     , (1817, 4, 2623)
-     , (1817, 4, 4586)
-     , (1817, 4, 4585)
-     , (1817, 4, 5339)
-     , (1817, 4, 23857)
-     , (1817, 4, 3602)
-     , (1817, 4, 3598)
-     , (1817, 4, 305)
-     , (1817, 4, 300)
-     , (1817, 4, 311)
-     , (1817, 4, 334)
-     , (1817, 4, 44074)
-     , (1817, 4, 44070)
-     , (1817, 4, 44071);
+VALUES (1817, 4, 2621) /* Trade Note (100) */
+     , (1817, 4, 2622) /* Trade Note (500) */
+     , (1817, 4, 2623) /* Trade Note (1,000) */
+     , (1817, 4, 4586) /* Bundle of Arrowheads */
+     , (1817, 4, 4585) /* Bundle of Arrowshafts */
+     , (1817, 4, 5339) /* Bundle of Quarrelshafts */
+     , (1817, 4, 23857) /* Bundle of Spiketails */
+     , (1817, 4, 3602) /* Armor Piercing Quarrel */
+     , (1817, 4, 3598) /* Armor Piercing Arrow */
+     , (1817, 4, 305) /* Quarrel */
+     , (1817, 4, 300) /* Arrow */
+     , (1817, 4, 311) /* Heavy Crossbow */
+     , (1817, 4, 334) /* Nayin */
+     , (1817, 4, 44074) /* Invitation to Master Fletchers */
+     , (1817, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (1817, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1817, 2, 334);
+VALUES (1817, 2, 334) /* Nayin */;
 

@@ -45,3 +45,23 @@ VALUES (22913, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22913, 64, 700) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22913, 8, 20456) /* Scroll of Lhen's Flare */
+     , (22913, 8, 28607) /* Lace Shirt */
+     , (22913, 8, 163) /* Ornamental Bowl */
+     , (22913, 8, 27328) /* Major Mana Stone */
+     , (22913, 8, 6048) /* Celdon Sleeves */
+     , (22913, 8, 273) /* Pyreal */
+     , (22913, 8, 25946) /* Dark Sapphire Ring */
+     , (22913, 8, 22923) /* Asylum Chest Key */
+     , (22913, 8, 87) /* Platemail Pauldrons */
+     , (22913, 8, 40698) /* Covenant Gauntlets */
+     , (22913, 8, 22926) /* Key */
+     , (22913, 8, 49347) /* Lightning Moar Essence (100) */
+     , (22913, 8, 27222) /* Lorica Gauntlets */
+     , (22913, 8, 40637) /* Lightning Tetsubo */
+     , (22913, 8, 105) /* Studded Leather Sleeves */
+     , (22913, 8, 20557) /* Scroll of Oswald's Blessing */;
+

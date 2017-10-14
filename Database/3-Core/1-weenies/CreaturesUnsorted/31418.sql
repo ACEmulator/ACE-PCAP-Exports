@@ -44,3 +44,13 @@ VALUES (31418, 2, 47) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31418, 64, 15000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31418, 8, 28622) /* Tenassa Leggings */
+     , (31418, 8, 3777) /* Frost Dabus */
+     , (31418, 8, 297) /* Ring */
+     , (31418, 8, 295) /* Bracelet */
+     , (31418, 8, 2595) /* Baggy Tunic */
+     , (31418, 8, 6058) /* Dark Shard */;
+

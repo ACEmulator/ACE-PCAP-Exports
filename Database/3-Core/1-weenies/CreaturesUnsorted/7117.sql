@@ -90,3 +90,25 @@ VALUES (7117, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7117, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7117, 8, 2590) /* Baggy Shirt */
+     , (7117, 8, 8328) /* Iron Pea */
+     , (7117, 8, 141) /* Bowl */
+     , (7117, 8, 8331) /* Silver Pea */
+     , (7117, 8, 150) /* Flagon */
+     , (7117, 8, 6004) /* Koujia Leggings */
+     , (7117, 8, 273) /* Pyreal */
+     , (7117, 8, 243) /* Dinner Plate */
+     , (7117, 8, 2425) /* Gem */
+     , (7117, 8, 27330) /* Moderate Mana Stone */
+     , (7117, 8, 2397) /* Gem */
+     , (7117, 8, 41037) /* Acidic Weeping Two Handed Spear */
+     , (7117, 8, 254) /* Stoup */
+     , (7117, 8, 163) /* Ornamental Bowl */
+     , (7117, 8, 45876) /* Scarlet Red Letter */
+     , (7117, 8, 2435) /* Mana Stone */
+     , (7117, 8, 72) /* Platemail Hauberk */
+     , (7117, 8, 6876) /* Sturdy Iron Key */;
+

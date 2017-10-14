@@ -69,3 +69,10 @@ VALUES (32007, 0, 16783897)
      , (32007, 13, 16783871)
      , (32007, 14, 16783855);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32007, 8, 2425) /* Gem */
+     , (32007, 8, 31983) /* Unreadable Falatacot Volume */
+     , (32007, 8, 32014) /* Aurulent Key */;
+

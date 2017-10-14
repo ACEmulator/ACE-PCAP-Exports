@@ -62,3 +62,10 @@ VALUES (34564, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (34564, 128, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (34564, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34564, 8, 295) /* Bracelet */
+     , (34564, 8, 40708) /* Covenant Gauntlets */
+     , (34564, 8, 34567) /* Tanada Clan Master's Medallion */;
+

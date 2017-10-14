@@ -130,24 +130,24 @@ VALUES (42810, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42810, 4, 4728)
-     , (42810, 4, 4732)
-     , (42810, 4, 620)
-     , (42810, 4, 4709)
-     , (42810, 4, 2467)
-     , (42810, 4, 2469)
-     , (42810, 4, 2451)
-     , (42810, 4, 2455)
-     , (42810, 4, 2456)
-     , (42810, 4, 8378)
-     , (42810, 4, 46376)
-     , (42810, 4, 46377)
-     , (42810, 4, 46378)
-     , (42810, 4, 46379)
-     , (42810, 4, 46380)
-     , (42810, 4, 46381)
-     , (42810, 4, 46382)
-     , (42810, 4, 49765)
-     , (42810, 4, 49766)
-     , (42810, 4, 49767);
+VALUES (42810, 4, 4728) /* Fried Chicken */
+     , (42810, 4, 4732) /* Fried Steak */
+     , (42810, 4, 620) /* Cake */
+     , (42810, 4, 4709) /* Apple Pie */
+     , (42810, 4, 2467) /* Red Wine */
+     , (42810, 4, 2469) /* Small Beer */
+     , (42810, 4, 2451) /* Ale */
+     , (42810, 4, 2455) /* Grape Juice */
+     , (42810, 4, 2456) /* Green Tea */
+     , (42810, 4, 8378) /* Beer Stein */
+     , (42810, 4, 46376) /* Contract for Clutch of Kings: Reeshan */
+     , (42810, 4, 46377) /* Contract for Clutch of Kings: Kiree */
+     , (42810, 4, 46378) /* Contract for Clutch of Kings: Broodu */
+     , (42810, 4, 46379) /* Contract for Clutch of Kings: Keerik */
+     , (42810, 4, 46380) /* Contract for Clutch of Kings: Rehir */
+     , (42810, 4, 46381) /* Contract for Clutch of Kings: Browerk */
+     , (42810, 4, 46382) /* Contract for Clutch of Kings: All */
+     , (42810, 4, 49765) /* Contract for Graverobber */
+     , (42810, 4, 49766) /* Contract for Deconstruction */
+     , (42810, 4, 49767) /* Contract for Escape */;
 

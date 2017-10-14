@@ -45,3 +45,31 @@ VALUES (30449, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30449, 64, 5135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30449, 8, 41067) /* Shashqa */
+     , (30449, 8, 20509) /* Scroll of Missile Weapon Mastery Self VII */
+     , (30449, 8, 44854) /* Halved Cloak */
+     , (30449, 8, 20440) /* Scroll of Ilservian's Flame */
+     , (30449, 8, 41487) /* Mechanical Scarab */
+     , (30449, 8, 2605) /* Chainmail Greaves */
+     , (30449, 8, 30477) /* Inner Sea Directive */
+     , (30449, 8, 7792) /* Fire Trident */
+     , (30449, 8, 30458) /* Band of Shielding */
+     , (30449, 8, 30475) /* Western Forge Essence */
+     , (30449, 8, 2410) /* Gem */
+     , (30449, 8, 8331) /* Silver Pea */
+     , (30449, 8, 20522) /* Scroll of Hearts on Sleeves */
+     , (30449, 8, 121) /* Gloves */
+     , (30449, 8, 49462) /* Scroll of Summoning Ineptitude Other VII */
+     , (30449, 8, 7793) /* Acid Trident */
+     , (30449, 8, 27215) /* Chiran Coat */
+     , (30449, 8, 20456) /* Scroll of Lhen's Flare */
+     , (30449, 8, 22440) /* Dirk */
+     , (30449, 8, 25651) /* Leather Sleeves */
+     , (30449, 8, 21154) /* Covenant Girth */
+     , (30449, 8, 31806) /* Acid Compound Crossbow */
+     , (30449, 8, 43300) /* Scroll of Nether Arc VII */
+     , (30449, 8, 149) /* Ewer */;
+

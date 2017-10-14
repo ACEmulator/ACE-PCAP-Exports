@@ -39,3 +39,9 @@ VALUES (23484, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23484, 67113043, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23484, 8, 31787) /* Flaming Claw */
+     , (23484, 8, 624) /* Ring */;
+

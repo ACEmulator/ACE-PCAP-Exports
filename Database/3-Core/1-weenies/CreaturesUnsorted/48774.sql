@@ -49,3 +49,10 @@ VALUES (48774, 2, 77) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (48774, 64, 9301) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (48774, 8, 20426) /* Aura of Atlan's Alacrity */
+     , (48774, 8, 27328) /* Major Mana Stone */
+     , (48774, 8, 48772) /* Phainor's Chamber Key */;
+

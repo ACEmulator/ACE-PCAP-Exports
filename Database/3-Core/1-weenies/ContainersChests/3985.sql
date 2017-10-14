@@ -53,3 +53,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3985, 2, 0) /* OPEN_BOOL */
      , (3985, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3985, 8, 7797) /* Acid Naginata */
+     , (3985, 8, 127) /* Pants */
+     , (3985, 8, 22167) /* Frost Quarter Staff */
+     , (3985, 8, 40706) /* Covenant Bracers */
+     , (3985, 8, 41069) /* Lightning Shashqa */
+     , (3985, 8, 51) /* Platemail Cuirass */
+     , (3985, 8, 7789) /* Acid Spiked Club */
+     , (3985, 8, 3755) /* Lightning Hand Axe */
+     , (3985, 8, 12463) /* Atlatl */;
+

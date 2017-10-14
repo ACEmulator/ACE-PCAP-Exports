@@ -37,3 +37,9 @@ VALUES (45878, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (45878, 19, True) /* ATTACKABLE_BOOL */
      , (45878, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (45878, 8, 8736) /* Lytelthorpe Town Stamp */
+     , (45878, 8, 45877) /* Distillery Ambrosia */;
+

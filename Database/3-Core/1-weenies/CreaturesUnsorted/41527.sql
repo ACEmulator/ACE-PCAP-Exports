@@ -44,3 +44,14 @@ VALUES (41527, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41527, 64, 808) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41527, 8, 49462) /* Scroll of Summoning Ineptitude Other VII */
+     , (41527, 8, 20484) /* Scroll of Blessing of the Arrow Turner */
+     , (41527, 8, 51266) /* Pile of Gearknight Parts */
+     , (41527, 8, 41528) /* Aetherium Power Core */
+     , (41527, 8, 20481) /* Scroll of Storm's Blessing */
+     , (41527, 8, 624) /* Ring */
+     , (41527, 8, 2410) /* Gem */;
+

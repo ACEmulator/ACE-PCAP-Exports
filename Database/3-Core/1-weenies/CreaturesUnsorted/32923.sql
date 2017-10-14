@@ -50,3 +50,9 @@ VALUES (32923, 2, 89) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (32923, 64, 5406) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32923, 8, 243) /* Dinner Plate */
+     , (32923, 8, 32925) /* Barbaric Mukkir Nest-lord's Head */;
+

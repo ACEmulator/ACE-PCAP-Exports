@@ -52,3 +52,15 @@ VALUES (53346, 2, 15) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (53346, 64, 8200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (53346, 8, 7772) /* Trident */
+     , (53346, 8, 27328) /* Major Mana Stone */
+     , (53346, 8, 52970) /* Viridian Essence */
+     , (53346, 8, 2407) /* Gem */
+     , (53346, 8, 37360) /* Ink of Conveyance */
+     , (53346, 8, 27325) /* Stamina Philtre */
+     , (53346, 8, 31818) /* Piercing Slingshot */
+     , (53346, 8, 37364) /* Quill of Introspection */;
+

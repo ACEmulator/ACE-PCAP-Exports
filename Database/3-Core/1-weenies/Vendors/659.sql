@@ -128,22 +128,22 @@ VALUES (659, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (659, 4, 4746)
-     , (659, 4, 2451)
-     , (659, 4, 2462)
-     , (659, 4, 2469)
-     , (659, 4, 2463)
-     , (659, 4, 8378)
-     , (659, 4, 4734)
-     , (659, 4, 4732)
-     , (659, 4, 4713)
-     , (659, 4, 259)
-     , (659, 4, 1223)
-     , (659, 4, 1511)
-     , (659, 4, 1402)
-     , (659, 4, 2053)
-     , (659, 4, 2059)
-     , (659, 4, 5004)
-     , (659, 4, 15808)
-     , (659, 4, 26643);
+VALUES (659, 4, 4746) /* Water */
+     , (659, 4, 2451) /* Ale */
+     , (659, 4, 2462) /* Mead */
+     , (659, 4, 2469) /* Small Beer */
+     , (659, 4, 2463) /* Milk */
+     , (659, 4, 8378) /* Beer Stein */
+     , (659, 4, 4734) /* Meat Pie */
+     , (659, 4, 4732) /* Fried Steak */
+     , (659, 4, 4713) /* Beef Stew */
+     , (659, 4, 259) /* Bread */
+     , (659, 4, 1223) /* Rithwic Portal Directions */
+     , (659, 4, 1511) /* Drudge Camp Rumor */
+     , (659, 4, 1402) /* Rithwic Crypt Directions */
+     , (659, 4, 2053) /* Directions to Fort Witshire */
+     , (659, 4, 2059) /* History of Fort Witshire */
+     , (659, 4, 5004) /* Warehouse Directions */
+     , (659, 4, 15808) /* Plea for Help */
+     , (659, 4, 26643) /* A Strange Rift */;
 

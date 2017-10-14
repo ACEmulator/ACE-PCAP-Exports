@@ -35,3 +35,13 @@ VALUES (2570, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2570, 19, True) /* ATTACKABLE_BOOL */
      , (2570, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2570, 8, 2416) /* Gem */
+     , (2570, 8, 2434) /* Lesser Mana Stone */
+     , (2570, 8, 27331) /* Minor Mana Stone */
+     , (2570, 8, 297) /* Ring */
+     , (2570, 8, 8329) /* Lead Pea */
+     , (2570, 8, 45416) /* Knife */;
+

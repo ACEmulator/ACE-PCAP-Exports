@@ -40,3 +40,13 @@ VALUES (30887, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30887, 67112860, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30887, 8, 45417) /* Acid Knife */
+     , (30887, 8, 22167) /* Frost Quarter Staff */
+     , (30887, 8, 30857) /* Sezzherei's Lair */
+     , (30887, 8, 30874) /* Staff of the Fallen */
+     , (30887, 8, 2588) /* Flared Shirt */
+     , (30887, 8, 89) /* Studded Leather Pauldrons */;
+

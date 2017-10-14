@@ -39,3 +39,38 @@ VALUES (31910, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31910, 67116713, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31910, 8, 49382) /* Fire Grievver Essence (100) */
+     , (31910, 8, 621) /* Heavy Bracelet */
+     , (31910, 8, 31782) /* Fire Spine Glaive */
+     , (31910, 8, 45423) /* Lightning Dagger */
+     , (31910, 8, 163) /* Ornamental Bowl */
+     , (31910, 8, 45417) /* Acid Knife */
+     , (31910, 8, 20570) /* Scroll of Ignorance's Bliss */
+     , (31910, 8, 31867) /* Diadem */
+     , (31910, 8, 28606) /* Viamontian Pants */
+     , (31910, 8, 101) /* Chainmail Sleeves */
+     , (31910, 8, 20254) /* Scroll of Might of the Lugians */
+     , (31910, 8, 2411) /* Gem */
+     , (31910, 8, 127) /* Pants */
+     , (31910, 8, 31769) /* Lugian Axe */
+     , (31910, 8, 623) /* Heavy Necklace */
+     , (31910, 8, 20567) /* Scroll of Inefficient Investment */
+     , (31910, 8, 20234) /* Scroll of Boon of Refinement */
+     , (31910, 8, 297) /* Ring */
+     , (31910, 8, 142) /* Chalice */
+     , (31910, 8, 2408) /* Gem */
+     , (31910, 8, 20235) /* Scroll of Honed Control */
+     , (31910, 8, 30593) /* Lightning Partizan */
+     , (31910, 8, 31815) /* Electric Slingshot */
+     , (31910, 8, 2587) /* Shirt */
+     , (31910, 8, 154) /* Goblet */
+     , (31910, 8, 24477) /* Sturdy Steel Key */
+     , (31910, 8, 150) /* Flagon */
+     , (31910, 8, 42750) /* Haebrean Gauntlets */
+     , (31910, 8, 128) /* Qafiya */
+     , (31910, 8, 41485) /* Pocket Watch */
+     , (31910, 8, 43829) /* Sedgemail Leather Cowl */;
+

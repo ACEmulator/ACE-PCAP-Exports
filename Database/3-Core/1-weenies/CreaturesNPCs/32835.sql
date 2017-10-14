@@ -106,5 +106,5 @@ VALUES (32835, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (32835, 2, 32783);
+VALUES (32835, 2, 32783) /* Shield of Silyun */;
 

@@ -50,3 +50,38 @@ VALUES (1607, 2, 11) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1607, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1607, 8, 42518) /* Coalesced Mana */
+     , (1607, 8, 2683) /* Scroll of Frailty Other III */
+     , (1607, 8, 5901) /* Kasa */
+     , (1607, 8, 512) /* Good Lockpick */
+     , (1607, 8, 2420) /* Gem */
+     , (1607, 8, 2413) /* Gem */
+     , (1607, 8, 54) /* Yoroi Cuirass */
+     , (1607, 8, 27331) /* Minor Mana Stone */
+     , (1607, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (1607, 8, 43282) /* Scroll of Corrosion V */
+     , (1607, 8, 161) /* Mug */
+     , (1607, 8, 629) /* Adept Healing Kit */
+     , (1607, 8, 5983) /* Scroll of Alchemy Ineptitude Other IV */
+     , (1607, 8, 141) /* Bowl */
+     , (1607, 8, 3309) /* Scroll of Item Enchantment Mastery Other III */
+     , (1607, 8, 545) /* Reliable Lockpick */
+     , (1607, 8, 7039) /* Fire Auroch Horn */
+     , (1607, 8, 128) /* Qafiya */
+     , (1607, 8, 622) /* Necklace */
+     , (1607, 8, 628) /* Handy Healing Kit */
+     , (1607, 8, 28626) /* Diforsa Tassets */
+     , (1607, 8, 297) /* Ring */
+     , (1607, 8, 132) /* Shoes */
+     , (1607, 8, 27326) /* Stamina Tincture */
+     , (1607, 8, 254) /* Stoup */
+     , (1607, 8, 6000) /* Scroll of Flame Bolt IV */
+     , (1607, 8, 8328) /* Iron Pea */
+     , (1607, 8, 295) /* Bracelet */
+     , (1607, 8, 41487) /* Mechanical Scarab */
+     , (1607, 8, 40818) /* Corsesca */
+     , (1607, 8, 127) /* Pants */;
+

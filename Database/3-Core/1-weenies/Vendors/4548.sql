@@ -130,18 +130,18 @@ VALUES (4548, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4548, 4, 4731)
-     , (4548, 4, 4729)
-     , (4548, 4, 261)
-     , (4548, 4, 4738)
-     , (4548, 4, 23126)
-     , (4548, 4, 2469)
-     , (4548, 4, 2468)
-     , (4548, 4, 2452)
-     , (4548, 4, 2456)
-     , (4548, 4, 4746)
-     , (4548, 4, 8378)
-     , (4548, 4, 5002)
-     , (4548, 4, 5005)
-     , (4548, 4, 24223);
+VALUES (4548, 4, 4731) /* Fried Mushroom */
+     , (4548, 4, 4729) /* Fried Egg */
+     , (4548, 4, 261) /* Cheese */
+     , (4548, 4, 4738) /* Mushroom Rice */
+     , (4548, 4, 23126) /* Wah Chon's Winter Lager */
+     , (4548, 4, 2469) /* Small Beer */
+     , (4548, 4, 2468) /* Sake */
+     , (4548, 4, 2452) /* Apple Juice */
+     , (4548, 4, 2456) /* Green Tea */
+     , (4548, 4, 4746) /* Water */
+     , (4548, 4, 8378) /* Beer Stein */
+     , (4548, 4, 5002) /* Nanto Portal Directions */
+     , (4548, 4, 5005) /* Empyrean Garrison Directions */
+     , (4548, 4, 24223) /* A Sparking Stone */;
 

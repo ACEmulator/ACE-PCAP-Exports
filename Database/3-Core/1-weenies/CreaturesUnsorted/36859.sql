@@ -64,3 +64,31 @@ VALUES (36859, 64, 551) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (36859, 128, 645) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (36859, 256, 225) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36859, 8, 112) /* Studded Leather Tassets */
+     , (36859, 8, 22440) /* Dirk */
+     , (36859, 8, 6046) /* Amuli Coat */
+     , (36859, 8, 49540) /* Frost Phyntos Wasp Essence (100) */
+     , (36859, 8, 621) /* Heavy Bracelet */
+     , (36859, 8, 2424) /* Gem */
+     , (36859, 8, 24852) /* Skull of a Skeletal Hero */
+     , (36859, 8, 41302) /* Scroll of Boon of T'ing */
+     , (36859, 8, 7797) /* Acid Naginata */
+     , (36859, 8, 121) /* Gloves */
+     , (36859, 8, 31762) /* Flaming Dericost Blade */
+     , (36859, 8, 40698) /* Covenant Gauntlets */
+     , (36859, 8, 28624) /* Tenassa Sleeves */
+     , (36859, 8, 49276) /* Frost Elemental Essence (80) */
+     , (36859, 8, 31789) /* Acid Stick */
+     , (36859, 8, 20406) /* Aura of Infected Caress */
+     , (36859, 8, 3849) /* Acid Scimitar */
+     , (36859, 8, 20405) /* Scroll of Swordsman Bait */
+     , (36859, 8, 624) /* Ring */
+     , (36859, 8, 297) /* Ring */
+     , (36859, 8, 111) /* Scalemail Tassets */
+     , (36859, 8, 48972) /* Acid Zombie Essence (50) */
+     , (36859, 8, 2366) /* Orb */
+     , (36859, 8, 27331) /* Minor Mana Stone */;
+

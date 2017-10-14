@@ -126,32 +126,32 @@ VALUES (8227, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (8227, 4, 2621)
-     , (8227, 4, 2622)
-     , (8227, 4, 2623)
-     , (8227, 4, 4586)
-     , (8227, 4, 4585)
-     , (8227, 4, 5339)
-     , (8227, 4, 5344)
-     , (8227, 4, 5345)
-     , (8227, 4, 9378)
-     , (8227, 4, 9377)
-     , (8227, 4, 9359)
-     , (8227, 4, 9362)
-     , (8227, 4, 9363)
-     , (8227, 4, 23858)
-     , (8227, 4, 23857)
-     , (8227, 4, 12463)
-     , (8227, 4, 12464)
-     , (8227, 4, 15296)
-     , (8227, 4, 15298)
-     , (8227, 4, 3603)
-     , (8227, 4, 3599)
-     , (8227, 4, 305)
-     , (8227, 4, 300)
-     , (8227, 4, 311)
-     , (8227, 4, 334)
-     , (8227, 4, 44074)
-     , (8227, 4, 44070)
-     , (8227, 4, 44071);
+VALUES (8227, 4, 2621) /* Trade Note (100) */
+     , (8227, 4, 2622) /* Trade Note (500) */
+     , (8227, 4, 2623) /* Trade Note (1,000) */
+     , (8227, 4, 4586) /* Bundle of Arrowheads */
+     , (8227, 4, 4585) /* Bundle of Arrowshafts */
+     , (8227, 4, 5339) /* Bundle of Quarrelshafts */
+     , (8227, 4, 5344) /* Bundle of Blunt Arrowheads */
+     , (8227, 4, 5345) /* Bundle of Broad Arrowheads */
+     , (8227, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (8227, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (8227, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (8227, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (8227, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (8227, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (8227, 4, 23857) /* Bundle of Spiketails */
+     , (8227, 4, 12463) /* Atlatl */
+     , (8227, 4, 12464) /* Atlatl Dart */
+     , (8227, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (8227, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (8227, 4, 3603) /* Blunt Quarrel */
+     , (8227, 4, 3599) /* Blunt Arrow */
+     , (8227, 4, 305) /* Quarrel */
+     , (8227, 4, 300) /* Arrow */
+     , (8227, 4, 311) /* Heavy Crossbow */
+     , (8227, 4, 334) /* Nayin */
+     , (8227, 4, 44074) /* Invitation to Master Fletchers */
+     , (8227, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (8227, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 

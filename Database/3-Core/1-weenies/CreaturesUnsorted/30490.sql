@@ -54,3 +54,39 @@ VALUES (30490, 1, 16784273)
      , (30490, 9, 16784289)
      , (30490, 12, 16784289);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30490, 8, 48972) /* Acid Zombie Essence (50) */
+     , (30490, 8, 134) /* Tunic */
+     , (30490, 8, 30486) /* Robber Baron Head */
+     , (30490, 8, 7825) /* Brown Beans */
+     , (30490, 8, 723) /* Studded Leather Cowl */
+     , (30490, 8, 2413) /* Gem */
+     , (30490, 8, 294) /* Amulet */
+     , (30490, 8, 628) /* Handy Healing Kit */
+     , (30490, 8, 2782) /* Aura of Blood Drinker Self II */
+     , (30490, 8, 21290) /* Scroll of Acid Arc III */
+     , (30490, 8, 2707) /* Scroll of Mana Drain Other II */
+     , (30490, 8, 20854) /* Academy Stamp */
+     , (30490, 8, 326) /* Katar */
+     , (30490, 8, 2593) /* Loose Tunic */
+     , (30490, 8, 31784) /* Claw */
+     , (30490, 8, 25644) /* Leather Greaves */
+     , (30490, 8, 48942) /* Fire Skeleton Minion Essence (50) */
+     , (30490, 8, 7940) /* Empty Flask */
+     , (30490, 8, 154) /* Goblet */
+     , (30490, 8, 31779) /* Spine Glaive */
+     , (30490, 8, 2605) /* Chainmail Greaves */
+     , (30490, 8, 112) /* Studded Leather Tassets */
+     , (30490, 8, 2419) /* Gem */
+     , (30490, 8, 80) /* Chainmail Leggings */
+     , (30490, 8, 49310) /* Acid Wisp Essence (50) */
+     , (30490, 8, 49387) /* Frost Grievver Essence (50) */
+     , (30490, 8, 2601) /* Loose Pants */
+     , (30490, 8, 148) /* Cup */
+     , (30490, 8, 513) /* Plain Lockpick */
+     , (30490, 8, 40764) /* Frost Nodachi */
+     , (30490, 8, 297) /* Ring */
+     , (30490, 8, 49457) /* Scroll of Summoning Ineptitude Other II */;
+

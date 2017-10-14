@@ -37,3 +37,8 @@ VALUES (5056, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5056, 19, True) /* ATTACKABLE_BOOL */
      , (5056, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5056, 8, 5061) /* Writings */;
+

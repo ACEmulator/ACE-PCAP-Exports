@@ -45,3 +45,18 @@ VALUES (22908, 2, 48) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22908, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22908, 8, 20501) /* Scroll of Jibril's Boon */
+     , (22908, 8, 294) /* Amulet */
+     , (22908, 8, 2603) /* Baggy Breeches */
+     , (22908, 8, 25947) /* Dark Ruby Ring */
+     , (22908, 8, 22922) /* Asylum Chest Key */
+     , (22908, 8, 2411) /* Gem */
+     , (22908, 8, 20429) /* Scroll of Vagabond's Gift */
+     , (22908, 8, 2421) /* Gem */
+     , (22908, 8, 29246) /* Ultimate Singularity Crossbow */
+     , (22908, 8, 142) /* Chalice */
+     , (22908, 8, 2402) /* Gem */;
+

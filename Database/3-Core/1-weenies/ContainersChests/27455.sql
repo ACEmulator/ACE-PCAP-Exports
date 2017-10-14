@@ -37,3 +37,9 @@ VALUES (27455, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27455, 19, True) /* ATTACKABLE_BOOL */
      , (27455, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27455, 8, 27457) /* A Broken Insignia Ring */
+     , (27455, 8, 27483) /* Mutual Assistance Pact */;
+

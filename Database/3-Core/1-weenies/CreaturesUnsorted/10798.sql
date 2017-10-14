@@ -36,3 +36,10 @@ VALUES (10798, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (10798, 19, True) /* ATTACKABLE_BOOL */
      , (10798, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (10798, 8, 55) /* Chainmail Gauntlets */
+     , (10798, 8, 8329) /* Lead Pea */
+     , (10798, 8, 27330) /* Moderate Mana Stone */;
+

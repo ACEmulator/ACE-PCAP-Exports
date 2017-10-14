@@ -124,36 +124,36 @@ VALUES (812, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (812, 4, 551)
-     , (812, 4, 723)
-     , (812, 4, 554)
-     , (812, 4, 85)
-     , (812, 4, 35)
-     , (812, 4, 46)
-     , (812, 4, 89)
-     , (812, 4, 416)
-     , (812, 4, 38)
-     , (812, 4, 413)
-     , (812, 4, 42)
-     , (812, 4, 414)
-     , (812, 4, 59)
-     , (812, 4, 55)
-     , (812, 4, 63)
-     , (812, 4, 415)
-     , (812, 4, 68)
-     , (812, 4, 2605)
-     , (812, 4, 112)
-     , (812, 4, 108)
-     , (812, 4, 84)
-     , (812, 4, 80)
-     , (812, 4, 116)
-     , (812, 4, 93)
-     , (812, 4, 2621)
-     , (812, 4, 2622)
-     , (812, 4, 2623);
+VALUES (812, 4, 551) /* Basinet */
+     , (812, 4, 723) /* Studded Leather Cowl */
+     , (812, 4, 554) /* Studded Leather Basinet */
+     , (812, 4, 85) /* Chainmail Coif */
+     , (812, 4, 35) /* Chainmail Basinet */
+     , (812, 4, 46) /* Metal Cap */
+     , (812, 4, 89) /* Studded Leather Pauldrons */
+     , (812, 4, 416) /* Chainmail Pauldrons */
+     , (812, 4, 38) /* Studded Leather Bracers */
+     , (812, 4, 413) /* Chainmail Bracers */
+     , (812, 4, 42) /* Studded Leather Breastplate */
+     , (812, 4, 414) /* Chainmail Breastplate */
+     , (812, 4, 59) /* Studded Leather Gauntlets */
+     , (812, 4, 55) /* Chainmail Gauntlets */
+     , (812, 4, 63) /* Studded Leather Girth */
+     , (812, 4, 415) /* Chainmail Girth */
+     , (812, 4, 68) /* Studded Leather Greaves */
+     , (812, 4, 2605) /* Chainmail Greaves */
+     , (812, 4, 112) /* Studded Leather Tassets */
+     , (812, 4, 108) /* Chainmail Tassets */
+     , (812, 4, 84) /* Studded  Leggings */
+     , (812, 4, 80) /* Chainmail Leggings */
+     , (812, 4, 116) /* Studded Leather Boots */
+     , (812, 4, 93) /* Round Shield */
+     , (812, 4, 2621) /* Trade Note (100) */
+     , (812, 4, 2622) /* Trade Note (500) */
+     , (812, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (812, 2, 321);
+VALUES (812, 2, 321) /* Jitte */;
 

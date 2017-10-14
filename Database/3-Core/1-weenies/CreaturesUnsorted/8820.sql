@@ -47,3 +47,14 @@ VALUES (8820, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8820, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8820, 8, 295) /* Bracelet */
+     , (8820, 8, 27330) /* Moderate Mana Stone */
+     , (8820, 8, 8789) /* Virindi Servant's Amulet */
+     , (8820, 8, 7604) /* Yellow Jewel */
+     , (8820, 8, 2396) /* Gem */
+     , (8820, 8, 150) /* Flagon */
+     , (8820, 8, 9292) /* Virindi Singularity Key */;
+

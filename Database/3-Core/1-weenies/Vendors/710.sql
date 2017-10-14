@@ -123,17 +123,17 @@ VALUES (710, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (710, 4, 2471)
-     , (710, 4, 2463)
-     , (710, 4, 2453)
-     , (710, 4, 4746)
-     , (710, 4, 2467)
-     , (710, 4, 8378)
-     , (710, 4, 261)
-     , (710, 4, 4716)
-     , (710, 4, 4739)
-     , (710, 4, 620)
-     , (710, 4, 44900)
-     , (710, 4, 44902)
-     , (710, 4, 44907);
+VALUES (710, 4, 2471) /* Stout */
+     , (710, 4, 2463) /* Milk */
+     , (710, 4, 2453) /* Cider */
+     , (710, 4, 4746) /* Water */
+     , (710, 4, 2467) /* Red Wine */
+     , (710, 4, 8378) /* Beer Stein */
+     , (710, 4, 261) /* Cheese */
+     , (710, 4, 4716) /* Chicken Pie */
+     , (710, 4, 4739) /* Pickled Egg */
+     , (710, 4, 620) /* Cake */
+     , (710, 4, 44900) /* Contract for Drudge Hideout */
+     , (710, 4, 44902) /* Contract for Holtburg Redoubt */
+     , (710, 4, 44907) /* Contract for Facilty Hub */;
 

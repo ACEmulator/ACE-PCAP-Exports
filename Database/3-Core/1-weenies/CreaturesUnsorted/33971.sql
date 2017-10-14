@@ -50,3 +50,29 @@ VALUES (33971, 2, 44) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33971, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33971, 8, 2412) /* Gem */
+     , (33971, 8, 2599) /* Trousers */
+     , (33971, 8, 142) /* Chalice */
+     , (33971, 8, 29260) /* Blunt Sceptre */
+     , (33971, 8, 49476) /* Scroll of Summoning Mastery Self VII */
+     , (33971, 8, 30608) /* Flaming Bastone */
+     , (33971, 8, 2404) /* Gem */
+     , (33971, 8, 30601) /* Stiletto */
+     , (33971, 8, 31864) /* Teardrop Crown */
+     , (33971, 8, 121) /* Gloves */
+     , (33971, 8, 149) /* Ewer */
+     , (33971, 8, 2410) /* Gem */
+     , (33971, 8, 2421) /* Gem */
+     , (33971, 8, 2411) /* Gem */
+     , (33971, 8, 105) /* Studded Leather Sleeves */
+     , (33971, 8, 41069) /* Lightning Shashqa */
+     , (33971, 8, 30951) /* Alduressa Gauntlets */
+     , (33971, 8, 31769) /* Lugian Axe */
+     , (33971, 8, 28606) /* Viamontian Pants */
+     , (33971, 8, 2425) /* Gem */
+     , (33971, 8, 624) /* Ring */
+     , (33971, 8, 2408) /* Gem */;
+

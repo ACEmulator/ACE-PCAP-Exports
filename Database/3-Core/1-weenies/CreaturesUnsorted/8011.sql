@@ -49,3 +49,20 @@ VALUES (8011, 2, 47) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8011, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8011, 8, 40637) /* Lightning Tetsubo */
+     , (8011, 8, 295) /* Bracelet */
+     , (8011, 8, 623) /* Heavy Necklace */
+     , (8011, 8, 161) /* Mug */
+     , (8011, 8, 25639) /* Leather Jerkin */
+     , (8011, 8, 22168) /* Hefty Walking Cane */
+     , (8011, 8, 273) /* Pyreal */
+     , (8011, 8, 2415) /* Gem */
+     , (8011, 8, 3432) /* Scroll of Mana Mastery Other VI */
+     , (8011, 8, 59) /* Studded Leather Gauntlets */
+     , (8011, 8, 69) /* Yoroi Greaves */
+     , (8011, 8, 8329) /* Lead Pea */
+     , (8011, 8, 8111) /* Caulnalain Gem */;
+

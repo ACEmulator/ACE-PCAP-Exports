@@ -100,5 +100,5 @@ VALUES (35826, 5, 16789351)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35826, 2, 21913);
+VALUES (35826, 2, 21913) /* Raudaloi */;
 

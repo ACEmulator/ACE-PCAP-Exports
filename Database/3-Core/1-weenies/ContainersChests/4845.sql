@@ -49,3 +49,9 @@ VALUES (4845, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4845, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4845, 8, 2587) /* Shirt */
+     , (4845, 8, 22165) /* Lightning Quarter Staff */;
+

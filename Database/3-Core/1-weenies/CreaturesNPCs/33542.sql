@@ -122,6 +122,6 @@ VALUES (33542, 64, 233) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (33542, 2, 33106)
-     , (33542, 2, 33080);
+VALUES (33542, 2, 33106) /* Shield of Isin Dule */
+     , (33542, 2, 33080) /* Shadow Blade */;
 

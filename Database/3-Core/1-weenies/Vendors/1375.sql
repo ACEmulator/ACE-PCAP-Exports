@@ -135,36 +135,36 @@ VALUES (1375, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1375, 4, 35)
-     , (1375, 4, 554)
-     , (1375, 4, 413)
-     , (1375, 4, 414)
-     , (1375, 4, 55)
-     , (1375, 4, 415)
-     , (1375, 4, 2605)
-     , (1375, 4, 108)
-     , (1375, 4, 80)
-     , (1375, 4, 416)
-     , (1375, 4, 85)
-     , (1375, 4, 8489)
-     , (1375, 4, 8488)
-     , (1375, 4, 75)
-     , (1375, 4, 76)
-     , (1375, 4, 40)
-     , (1375, 4, 57)
-     , (1375, 4, 61)
-     , (1375, 4, 66)
-     , (1375, 4, 110)
-     , (1375, 4, 82)
-     , (1375, 4, 114)
-     , (1375, 4, 92)
-     , (1375, 4, 95)
-     , (1375, 4, 2621)
-     , (1375, 4, 2622)
-     , (1375, 4, 2623);
+VALUES (1375, 4, 35) /* Chainmail Basinet */
+     , (1375, 4, 554) /* Studded Leather Basinet */
+     , (1375, 4, 413) /* Chainmail Bracers */
+     , (1375, 4, 414) /* Chainmail Breastplate */
+     , (1375, 4, 55) /* Chainmail Gauntlets */
+     , (1375, 4, 415) /* Chainmail Girth */
+     , (1375, 4, 2605) /* Chainmail Greaves */
+     , (1375, 4, 108) /* Chainmail Tassets */
+     , (1375, 4, 80) /* Chainmail Leggings */
+     , (1375, 4, 416) /* Chainmail Pauldrons */
+     , (1375, 4, 85) /* Chainmail Coif */
+     , (1375, 4, 8489) /* Heaume */
+     , (1375, 4, 8488) /* Armet */
+     , (1375, 4, 75) /* Helmet */
+     , (1375, 4, 76) /* Qafiya */
+     , (1375, 4, 40) /* Platemail Breastplate */
+     , (1375, 4, 57) /* Platemail Gauntlets */
+     , (1375, 4, 61) /* Platemail Girth */
+     , (1375, 4, 66) /* Platemail Greaves */
+     , (1375, 4, 110) /* Platemail Tassets */
+     , (1375, 4, 82) /* Platemail Leggings */
+     , (1375, 4, 114) /* Platemail Vambraces */
+     , (1375, 4, 92) /* Large Kite Shield */
+     , (1375, 4, 95) /* Tower Shield */
+     , (1375, 4, 2621) /* Trade Note (100) */
+     , (1375, 4, 2622) /* Trade Note (500) */
+     , (1375, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1375, 2, 309);
+VALUES (1375, 2, 309) /* Club */;
 

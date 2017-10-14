@@ -48,3 +48,10 @@ VALUES (52112, 2, 7) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (52112, 64, 6200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52112, 8, 52099) /* Key III */
+     , (52112, 8, 52098) /* Key II */
+     , (52112, 8, 52097) /* Key I */;
+

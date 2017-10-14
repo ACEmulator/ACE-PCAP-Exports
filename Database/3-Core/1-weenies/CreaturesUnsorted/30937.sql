@@ -39,3 +39,13 @@ VALUES (30937, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30937, 67115511, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30937, 8, 20233) /* Scroll of Ataxia */
+     , (30937, 8, 132) /* Shoes */
+     , (30937, 8, 20505) /* Scroll of Light Weapon Mastery Other VII */
+     , (30937, 8, 29492) /* Sir Ginazio's Sword */
+     , (30937, 8, 624) /* Ring */
+     , (30937, 8, 2396) /* Gem */;
+

@@ -48,3 +48,20 @@ VALUES (37179, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (37179, 64, 1355) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37179, 8, 3815) /* Lightning Kasrullah */
+     , (37179, 8, 41486) /* Puzzle Box */
+     , (37179, 8, 3835) /* Lightning Mace */
+     , (37179, 8, 27221) /* Lorica Breastplate */
+     , (37179, 8, 25637) /* Leather Bracers */
+     , (37179, 8, 20494) /* Scroll of Unflinching Persistence */
+     , (37179, 8, 624) /* Ring */
+     , (37179, 8, 20254) /* Scroll of Might of the Lugians */
+     , (37179, 8, 45) /* Leather Cap */
+     , (37179, 8, 45411) /* Spada */
+     , (37179, 8, 154) /* Goblet */
+     , (37179, 8, 21322) /* Scroll of Frost Arc VII */
+     , (37179, 8, 29240) /* Electric Bow */;
+

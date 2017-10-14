@@ -40,3 +40,15 @@ VALUES (51613, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51613, 67113145, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51613, 8, 20551) /* Scroll of Ar-Pei's Blessing */
+     , (51613, 8, 20479) /* Scroll of Inferno's Gift */
+     , (51613, 8, 31774) /* Board with Nail */
+     , (51613, 8, 133) /* Slippers */
+     , (51613, 8, 2412) /* Gem */
+     , (51613, 8, 6048) /* Celdon Sleeves */
+     , (51613, 8, 20606) /* Scroll of Self Sacrifice */
+     , (51613, 8, 295) /* Bracelet */;
+

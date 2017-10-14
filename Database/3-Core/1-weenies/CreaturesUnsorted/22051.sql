@@ -45,3 +45,13 @@ VALUES (22051, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22051, 64, 753) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22051, 8, 20417) /* Scroll of Cabalastic Ostracism */
+     , (22051, 8, 84) /* Studded  Leggings */
+     , (22051, 8, 150) /* Flagon */
+     , (22051, 8, 49256) /* Frost Zombie Essence (100) */
+     , (22051, 8, 20237) /* Scroll of Perseverance */
+     , (22051, 8, 3687) /* Skeleton's Skull */;
+

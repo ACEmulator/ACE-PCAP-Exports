@@ -51,3 +51,9 @@ VALUES (11498, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11498, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11498, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (11498, 8, 3768) /* Flaming Club */;
+

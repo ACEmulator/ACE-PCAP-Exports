@@ -39,3 +39,10 @@ VALUES (23486, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (23486, 67113042, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23486, 8, 121) /* Gloves */
+     , (23486, 8, 20602) /* Scroll of Vigor Siphon */
+     , (23486, 8, 622) /* Necklace */;
+

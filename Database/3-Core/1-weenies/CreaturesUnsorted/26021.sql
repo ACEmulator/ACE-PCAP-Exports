@@ -39,3 +39,26 @@ VALUES (26021, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26021, 67114930, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26021, 8, 20475) /* Scroll of Icy Blessing */
+     , (26021, 8, 7768) /* Spiked Club */
+     , (26021, 8, 20253) /* Scroll of Might of the 5 Mules */
+     , (26021, 8, 57) /* Platemail Gauntlets */
+     , (26021, 8, 2398) /* Gem */
+     , (26021, 8, 6047) /* Amuli Leggings */
+     , (26021, 8, 149) /* Ewer */
+     , (26021, 8, 20247) /* Scroll of Void's Call */
+     , (26021, 8, 40705) /* Covenant Sollerets */
+     , (26021, 8, 3815) /* Lightning Kasrullah */
+     , (26021, 8, 4198) /* Frost Nekode */
+     , (26021, 8, 49374) /* Lightning Grievver Essence (80) */
+     , (26021, 8, 27227) /* Nariyid Breastplate */
+     , (26021, 8, 99) /* Studded Leather Shirt */
+     , (26021, 8, 49525) /* Acid Phyntos Wasp Essence (80) */
+     , (26021, 8, 27234) /* Scroll of Eradicate Creature Magic Self */
+     , (26021, 8, 7793) /* Acid Trident */
+     , (26021, 8, 20553) /* Scroll of Harlune's Boon */
+     , (26021, 8, 22160) /* Lightning Nabut */;
+

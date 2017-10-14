@@ -127,29 +127,29 @@ VALUES (992, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (992, 4, 364)
-     , (992, 4, 365)
-     , (992, 4, 367)
-     , (992, 4, 8135)
-     , (992, 4, 6630)
-     , (992, 4, 7936)
-     , (992, 4, 5879)
-     , (992, 4, 5147)
-     , (992, 4, 5675)
-     , (992, 4, 6031)
-     , (992, 4, 5601)
-     , (992, 4, 6421)
-     , (992, 4, 6418)
-     , (992, 4, 8397)
-     , (992, 4, 1507)
-     , (992, 4, 4170)
-     , (992, 4, 5602)
-     , (992, 4, 6419)
-     , (992, 4, 5856)
-     , (992, 4, 5584)
-     , (992, 4, 7884)
-     , (992, 4, 14797)
-     , (992, 4, 5586)
-     , (992, 4, 24855)
-     , (992, 4, 5587);
+VALUES (992, 4, 364) /* Book */
+     , (992, 4, 365) /* Parchment */
+     , (992, 4, 367) /* Tome */
+     , (992, 4, 8135) /* Zarea's Notes on Geomancy */
+     , (992, 4, 6630) /* A Treatise on the Properties of Fused Gems */
+     , (992, 4, 7936) /* Aliester's Corollary */
+     , (992, 4, 5879) /* Our Great Work */
+     , (992, 4, 5147) /* Return to Frore */
+     , (992, 4, 5675) /* Mount Lethe Rumor */
+     , (992, 4, 6031) /* Old Man in the Mountain Rumor */
+     , (992, 4, 5601) /* Altar of Asheron Rumor */
+     , (992, 4, 6421) /* The Lost City of Frore */
+     , (992, 4, 6418) /* A Fiery Stone */
+     , (992, 4, 8397) /* The Breaking of the Crystal Core */
+     , (992, 4, 1507) /* Legend of the Halls of Helm */
+     , (992, 4, 4170) /* Bloodshed Rumor */
+     , (992, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (992, 4, 6419) /* The Meeting Halls */
+     , (992, 4, 5856) /* Specialty Cookbook */
+     , (992, 4, 5584) /* Gharu'ndim Cookbook */
+     , (992, 4, 7884) /* Chocolate Cookbook */
+     , (992, 4, 14797) /* Festival Cookbook */
+     , (992, 4, 5586) /* Alchemy Guide */
+     , (992, 4, 24855) /* The New Alchemy */
+     , (992, 4, 5587) /* Fletching Guide */;
 

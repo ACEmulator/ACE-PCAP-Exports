@@ -44,3 +44,15 @@ VALUES (41574, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41574, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41574, 8, 49227) /* Frost Skeleton Minion Essence (50) */
+     , (41574, 8, 273) /* Pyreal */
+     , (41574, 8, 25646) /* Long Leather Gauntlets */
+     , (41574, 8, 63) /* Studded Leather Girth */
+     , (41574, 8, 415) /* Chainmail Girth */
+     , (41574, 8, 8328) /* Iron Pea */
+     , (41574, 8, 40820) /* Lightning Corsesca */
+     , (41574, 8, 41483) /* Compass */;
+

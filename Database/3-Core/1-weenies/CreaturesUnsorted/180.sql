@@ -45,3 +45,40 @@ VALUES (180, 2, 17) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (180, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (180, 8, 7768) /* Spiked Club */
+     , (180, 8, 2432) /* Gem */
+     , (180, 8, 294) /* Amulet */
+     , (180, 8, 12463) /* Atlatl */
+     , (180, 8, 28612) /* Bandana */
+     , (180, 8, 295) /* Bracelet */
+     , (180, 8, 2999) /* Scroll of Blade Vulnerability Other III */
+     , (180, 8, 3690) /* Sandy Armoredillo Spine */
+     , (180, 8, 2431) /* Gem */
+     , (180, 8, 9636) /* Scroll of Health to Stamina Self III */
+     , (180, 8, 84) /* Studded  Leggings */
+     , (180, 8, 8328) /* Iron Pea */
+     , (180, 8, 45319) /* Scroll of Shield Mastery Other IV */
+     , (180, 8, 154) /* Goblet */
+     , (180, 8, 148) /* Cup */
+     , (180, 8, 378) /* Stamina Potion */
+     , (180, 8, 25641) /* Leather Cuirass */
+     , (180, 8, 103) /* Platemail Sleeves */
+     , (180, 8, 40764) /* Frost Nodachi */
+     , (180, 8, 243) /* Dinner Plate */
+     , (180, 8, 621) /* Heavy Bracelet */
+     , (180, 8, 545) /* Reliable Lockpick */
+     , (180, 8, 25648) /* Leather Pauldrons */
+     , (180, 8, 2590) /* Baggy Shirt */
+     , (180, 8, 41063) /* Acid Khanda-handled Mace */
+     , (180, 8, 128) /* Qafiya */
+     , (180, 8, 628) /* Handy Healing Kit */
+     , (180, 8, 168) /* Tankard */
+     , (180, 8, 31783) /* Frost Claw */
+     , (180, 8, 49261) /* Acid Elemental Essence (50) */
+     , (180, 8, 161) /* Mug */
+     , (180, 8, 27319) /* Health Tincture */
+     , (180, 8, 4234) /* Large Armoredillo Hide */;
+

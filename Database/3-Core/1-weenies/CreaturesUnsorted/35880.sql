@@ -50,3 +50,10 @@ VALUES (35880, 2, 92) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35880, 64, 1830) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35880, 8, 2410) /* Gem */
+     , (35880, 8, 7771) /* Naginata */
+     , (35880, 8, 68) /* Studded Leather Greaves */;
+

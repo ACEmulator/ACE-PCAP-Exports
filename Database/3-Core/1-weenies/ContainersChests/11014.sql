@@ -53,3 +53,8 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (11014, 2, 0) /* OPEN_BOOL */
      , (11014, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11014, 8, 11017) /* Piece of Curved Metal */;
+

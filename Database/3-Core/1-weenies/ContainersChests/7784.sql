@@ -49,3 +49,9 @@ VALUES (7784, 5, 9015) /* ENCUMB_VAL_INT */;
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7784, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7784, 8, 297) /* Ring */
+     , (7784, 8, 273) /* Pyreal */;
+

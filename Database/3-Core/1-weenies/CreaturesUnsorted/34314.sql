@@ -39,3 +39,9 @@ VALUES (34314, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34314, 67113043, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34314, 8, 49367) /* Acid Grievver Essence (80) */
+     , (34314, 8, 294) /* Amulet */;
+

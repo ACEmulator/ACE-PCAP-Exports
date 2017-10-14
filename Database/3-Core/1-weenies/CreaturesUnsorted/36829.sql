@@ -82,3 +82,50 @@ VALUES (36829, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36829, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36829, 8, 6044) /* Celdon Breastplate */
+     , (36829, 8, 273) /* Pyreal */
+     , (36829, 8, 621) /* Heavy Bracelet */
+     , (36829, 8, 7940) /* Empty Flask */
+     , (36829, 8, 31759) /* Dericost Blade */
+     , (36829, 8, 2435) /* Mana Stone */
+     , (36829, 8, 243) /* Dinner Plate */
+     , (36829, 8, 27330) /* Moderate Mana Stone */
+     , (36829, 8, 149) /* Ewer */
+     , (36829, 8, 2422) /* Gem */
+     , (36829, 8, 8326) /* Copper Pea */
+     , (36829, 8, 72) /* Platemail Hauberk */
+     , (36829, 8, 141) /* Bowl */
+     , (36829, 8, 8331) /* Silver Pea */
+     , (36829, 8, 2427) /* Gem */
+     , (36829, 8, 30911) /* Halaetan Magic Page 6 */
+     , (36829, 8, 12689) /* Diamond Powder */
+     , (36829, 8, 6353) /* Pyreal Mote */
+     , (36829, 8, 2366) /* Orb */
+     , (36829, 8, 8328) /* Iron Pea */
+     , (36829, 8, 45117) /* Frost Hammer */
+     , (36829, 8, 624) /* Ring */
+     , (36829, 8, 40625) /* Lightning Quadrelle */
+     , (36829, 8, 20450) /* Scroll of Icy Torment */
+     , (36829, 8, 41488) /* Top */
+     , (36829, 8, 41483) /* Compass */
+     , (36829, 8, 95) /* Tower Shield */
+     , (36829, 8, 3387) /* Scroll of Lockpick Mastery Other VI */
+     , (36829, 8, 413) /* Chainmail Bracers */
+     , (36829, 8, 20409) /* Scroll of Tusker Bait */
+     , (36829, 8, 297) /* Ring */
+     , (36829, 8, 20573) /* Scroll of Introversion */
+     , (36829, 8, 28607) /* Lace Shirt */
+     , (36829, 8, 28610) /* Loafers */
+     , (36829, 8, 45400) /* Frost Short Sword */
+     , (36829, 8, 2403) /* Gem */
+     , (36829, 8, 28624) /* Tenassa Sleeves */
+     , (36829, 8, 2604) /* Wide Breeches */
+     , (36829, 8, 2393) /* Gem */
+     , (36829, 8, 294) /* Amulet */
+     , (36829, 8, 5901) /* Kasa */
+     , (36829, 8, 133) /* Slippers */
+     , (36829, 8, 7338) /* Diamond Heart */;
+

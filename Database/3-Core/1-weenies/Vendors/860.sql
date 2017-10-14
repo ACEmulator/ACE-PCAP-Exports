@@ -124,17 +124,17 @@ VALUES (860, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (860, 4, 4739)
-     , (860, 4, 4718)
-     , (860, 4, 4730)
-     , (860, 4, 4728)
-     , (860, 4, 4744)
-     , (860, 4, 2466)
-     , (860, 4, 2456)
-     , (860, 4, 4746)
-     , (860, 4, 2451)
-     , (860, 4, 2468)
-     , (860, 4, 8378)
-     , (860, 4, 13202)
-     , (860, 4, 22730);
+VALUES (860, 4, 4739) /* Pickled Egg */
+     , (860, 4, 4718) /* Chicken Rice */
+     , (860, 4, 4730) /* Fried Fish Filet */
+     , (860, 4, 4728) /* Fried Chicken */
+     , (860, 4, 4744) /* Sushi */
+     , (860, 4, 2466) /* Red Tea */
+     , (860, 4, 2456) /* Green Tea */
+     , (860, 4, 4746) /* Water */
+     , (860, 4, 2451) /* Ale */
+     , (860, 4, 2468) /* Sake */
+     , (860, 4, 8378) /* Beer Stein */
+     , (860, 4, 13202) /* Sho Festival Light */
+     , (860, 4, 22730) /* Holiday Pole */;
 

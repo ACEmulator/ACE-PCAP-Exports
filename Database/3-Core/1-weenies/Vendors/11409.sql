@@ -67,21 +67,21 @@ VALUES (11409, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (11409, 4, 11463)
-     , (11409, 4, 11464)
-     , (11409, 4, 11465)
-     , (11409, 4, 11466)
-     , (11409, 4, 11467)
-     , (11409, 4, 11974)
-     , (11409, 4, 27372)
-     , (11409, 4, 27370)
-     , (11409, 4, 27369)
-     , (11409, 4, 27373)
-     , (11409, 4, 27368)
-     , (11409, 4, 27371);
+VALUES (11409, 4, 11463) /* Tewhate */
+     , (11409, 4, 11464) /* Okane */
+     , (11409, 4, 11465) /* Waaika */
+     , (11409, 4, 11466) /* Taiaha */
+     , (11409, 4, 11467) /* Hoeroa */
+     , (11409, 4, 11974) /* Aun Shimauri's Instructions */
+     , (11409, 4, 27372) /* Ukira */
+     , (11409, 4, 27370) /* Korua */
+     , (11409, 4, 27369) /* Panaq */
+     , (11409, 4, 27373) /* Kalindan */
+     , (11409, 4, 27368) /* Atlatl */
+     , (11409, 4, 27371) /* Buadren */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (11409, 2, 12123);
+VALUES (11409, 2, 12123) /* Palenqual's Hoeroa */;
 

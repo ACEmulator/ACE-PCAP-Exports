@@ -54,3 +54,11 @@ VALUES (52587, 2, 101) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (52587, 64, 8200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52587, 8, 2366) /* Orb */
+     , (52587, 8, 8327) /* Gold Pea */
+     , (52587, 8, 52970) /* Viridian Essence */
+     , (52587, 8, 624) /* Ring */;
+

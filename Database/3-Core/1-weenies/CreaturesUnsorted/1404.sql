@@ -48,3 +48,32 @@ VALUES (1404, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1404, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1404, 8, 49310) /* Acid Wisp Essence (50) */
+     , (1404, 8, 127) /* Pants */
+     , (1404, 8, 45105) /* Lightning Rapier */
+     , (1404, 8, 5873) /* Seal */
+     , (1404, 8, 31026) /* Tenassa Breastplate */
+     , (1404, 8, 31777) /* Fire Board with Nail */
+     , (1404, 8, 148) /* Cup */
+     , (1404, 8, 273) /* Pyreal */
+     , (1404, 8, 24598) /* Sword of Lost Light */
+     , (1404, 8, 1457) /* Superior Shield */
+     , (1404, 8, 9310) /* A Large Mnemosyne */
+     , (1404, 8, 295) /* Bracelet */
+     , (1404, 8, 5894) /* Fez */
+     , (1404, 8, 2766) /* Scroll of Acid Bane VI */
+     , (1404, 8, 31797) /* Flaming Lancet */
+     , (1404, 8, 44802) /* Vestiri Over-robe */
+     , (1404, 8, 30568) /* Flaming Sabra */
+     , (1404, 8, 243) /* Dinner Plate */
+     , (1404, 8, 621) /* Heavy Bracelet */
+     , (1404, 8, 20584) /* Scroll of Heavy Weapon Ineptitude Other VII */
+     , (1404, 8, 2595) /* Baggy Tunic */
+     , (1404, 8, 3312) /* Scroll of Item Enchantment Mastery Other VI */
+     , (1404, 8, 40705) /* Covenant Sollerets */
+     , (1404, 8, 2435) /* Mana Stone */
+     , (1404, 8, 2405) /* Gem */;
+

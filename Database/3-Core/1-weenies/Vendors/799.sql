@@ -132,12 +132,12 @@ VALUES (799, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (799, 4, 264)
-     , (799, 4, 263)
-     , (799, 4, 4761)
-     , (799, 4, 4766)
-     , (799, 4, 4746)
-     , (799, 4, 5758)
-     , (799, 4, 4754)
-     , (799, 4, 4764);
+VALUES (799, 4, 264) /* Grapes */
+     , (799, 4, 263) /* Fish */
+     , (799, 4, 4761) /* Flour */
+     , (799, 4, 4766) /* Rennet */
+     , (799, 4, 4746) /* Water */
+     , (799, 4, 5758) /* Carrot */
+     , (799, 4, 4754) /* Baking Pan */
+     , (799, 4, 4764) /* Noodle Cutter */;
 

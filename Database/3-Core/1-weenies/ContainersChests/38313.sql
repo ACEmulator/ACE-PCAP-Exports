@@ -52,3 +52,14 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (38313, 2, 0) /* OPEN_BOOL */
      , (38313, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38313, 8, 31814) /* Dark Blunt Slingshot */
+     , (38313, 8, 31775) /* Acid Board with Nail */
+     , (38313, 8, 45099) /* Epee */
+     , (38313, 8, 22165) /* Lightning Quarter Staff */
+     , (38313, 8, 31779) /* Spine Glaive */
+     , (38313, 8, 29250) /* Piercing Crossbow */
+     , (38313, 8, 30592) /* Flaming Partizan */;
+

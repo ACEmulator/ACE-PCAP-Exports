@@ -50,3 +50,41 @@ VALUES (25341, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25341, 64, 3000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25341, 8, 2409) /* Gem */
+     , (25341, 8, 20551) /* Scroll of Ar-Pei's Blessing */
+     , (25341, 8, 25641) /* Leather Cuirass */
+     , (25341, 8, 41052) /* Greataxe */
+     , (25341, 8, 43308) /* Scroll of Nether Bolt VII */
+     , (25341, 8, 30951) /* Alduressa Gauntlets */
+     , (25341, 8, 6044) /* Celdon Breastplate */
+     , (25341, 8, 42635) /* Aetheria */
+     , (25341, 8, 30609) /* Frost Bastone */
+     , (25341, 8, 20429) /* Scroll of Vagabond's Gift */
+     , (25341, 8, 95) /* Tower Shield */
+     , (25341, 8, 624) /* Ring */
+     , (25341, 8, 49313) /* Acid Wisp Essence (125) */
+     , (25341, 8, 29249) /* Frost Crossbow */
+     , (25341, 8, 3814) /* Acid Kasrullah */
+     , (25341, 8, 99) /* Studded Leather Shirt */
+     , (25341, 8, 2587) /* Shirt */
+     , (25341, 8, 20485) /* Scroll of Archer's Gift */
+     , (25341, 8, 3818) /* Acid Katar */
+     , (25341, 8, 31788) /* Stick */
+     , (25341, 8, 49361) /* Frost Moar Essence (100) */
+     , (25341, 8, 332) /* Morning Star */
+     , (25341, 8, 110) /* Platemail Tassets */
+     , (25341, 8, 20502) /* Scroll of Jibril's Blessing */
+     , (25341, 8, 43829) /* Sedgemail Leather Cowl */
+     , (25341, 8, 31819) /* Staff */
+     , (25341, 8, 42637) /* Aetheria */
+     , (25341, 8, 2590) /* Baggy Shirt */
+     , (25341, 8, 27219) /* Chiran Sandals */
+     , (25341, 8, 130) /* Shirt */
+     , (25341, 8, 43335) /* Scroll of Festering Curse VII */
+     , (25341, 8, 20425) /* Scroll of Fortified Lock */
+     , (25341, 8, 2597) /* Flared Pants */
+     , (25341, 8, 31762) /* Flaming Dericost Blade */;
+

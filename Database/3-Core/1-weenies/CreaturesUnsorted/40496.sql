@@ -44,3 +44,14 @@ VALUES (40496, 67116627, 1, 48)
      , (40496, 67116641, 200, 8)
      , (40496, 67116641, 208, 48);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40496, 8, 107) /* Sollerets */
+     , (40496, 8, 41063) /* Acid Khanda-handled Mace */
+     , (40496, 8, 40497) /* Apostate Citadel Headquarters Key */
+     , (40496, 8, 49271) /* Lightning Child Essence (125) */
+     , (40496, 8, 41487) /* Mechanical Scarab */
+     , (40496, 8, 2409) /* Gem */
+     , (40496, 8, 20249) /* Scroll of Hastening */;
+

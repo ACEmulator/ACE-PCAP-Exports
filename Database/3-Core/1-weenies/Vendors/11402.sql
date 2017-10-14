@@ -67,32 +67,32 @@ VALUES (11402, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (11402, 4, 2464)
-     , (11402, 4, 2465)
-     , (11402, 4, 2469)
-     , (11402, 4, 2463)
-     , (11402, 4, 2454)
-     , (11402, 4, 8378)
-     , (11402, 4, 4712)
-     , (11402, 4, 4723)
-     , (11402, 4, 4718)
-     , (11402, 4, 261)
-     , (11402, 4, 27629)
-     , (11402, 4, 27630)
-     , (11402, 4, 27631)
-     , (11402, 4, 27632)
-     , (11402, 4, 27633)
-     , (11402, 4, 27634)
-     , (11402, 4, 27635)
-     , (11402, 4, 27636)
-     , (11402, 4, 27637)
-     , (11402, 4, 27638)
-     , (11402, 4, 27639)
-     , (11402, 4, 27640)
-     , (11402, 4, 27641)
-     , (11402, 4, 27642)
-     , (11402, 4, 27643)
-     , (11402, 4, 27644)
-     , (11402, 4, 27645)
-     , (11402, 4, 27646);
+VALUES (11402, 4, 2464) /* Orange Juice */
+     , (11402, 4, 2465) /* Palm Wine */
+     , (11402, 4, 2469) /* Small Beer */
+     , (11402, 4, 2463) /* Milk */
+     , (11402, 4, 2454) /* Coffee */
+     , (11402, 4, 8378) /* Beer Stein */
+     , (11402, 4, 4712) /* Beef Rice */
+     , (11402, 4, 4723) /* Fish Kebab */
+     , (11402, 4, 4718) /* Chicken Rice */
+     , (11402, 4, 261) /* Cheese */
+     , (11402, 4, 27629) /* Aun Mareura */
+     , (11402, 4, 27630) /* The Puh Toneawa */
+     , (11402, 4, 27631) /* Aun Shimauri */
+     , (11402, 4, 27632) /* Aun Papileona's Shrine */
+     , (11402, 4, 27633) /* Isparian Arrival */
+     , (11402, 4, 27634) /* "Tumerok?" */
+     , (11402, 4, 27635) /* The Keh of the World */
+     , (11402, 4, 27636) /* She Who Lost Her Name */
+     , (11402, 4, 27637) /* The Hunter Ralirea */
+     , (11402, 4, 27638) /* Aun Holdings */
+     , (11402, 4, 27639) /* Aun Nualuan and Itealuan */
+     , (11402, 4, 27640) /* Hea Raiders */
+     , (11402, 4, 27641) /* Empyrean Towers */
+     , (11402, 4, 27642) /* The Bride of Wharu */
+     , (11402, 4, 27643) /* The Broken Stones */
+     , (11402, 4, 27644) /* Wharu's Children */
+     , (11402, 4, 27645) /* Within the Flesh of Palenqual */
+     , (11402, 4, 27646) /* The Drumming of our Shamans */;
 

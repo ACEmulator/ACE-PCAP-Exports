@@ -119,3 +119,12 @@ VALUES (29490, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (29490, 128, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (29490, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29490, 8, 20243) /* Scroll of Heart Rend */
+     , (29490, 8, 8934) /* Scroll of Force Streak VI */
+     , (29490, 8, 8329) /* Lead Pea */
+     , (29490, 8, 45876) /* Scarlet Red Letter */
+     , (29490, 8, 29495) /* Testament of Sir Coretto */;
+

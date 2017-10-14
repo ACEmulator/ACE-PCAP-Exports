@@ -53,3 +53,21 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (38446, 2, 0) /* OPEN_BOOL */
      , (38446, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38446, 8, 40624) /* Acid Quadrelle */
+     , (38446, 8, 31783) /* Frost Claw */
+     , (38446, 8, 4197) /* Acid Nekode */
+     , (38446, 8, 41067) /* Shashqa */
+     , (38446, 8, 3820) /* Flaming Katar */
+     , (38446, 8, 31769) /* Lugian Axe */
+     , (38446, 8, 7771) /* Naginata */
+     , (38446, 8, 31812) /* Slashing Slingshot */
+     , (38446, 8, 22440) /* Dirk */
+     , (38446, 8, 41052) /* Greataxe */
+     , (38446, 8, 351) /* Long Sword */
+     , (38446, 8, 29259) /* Acid Sceptre */
+     , (38446, 8, 29240) /* Electric Bow */
+     , (38446, 8, 359) /* War Hammer */;
+

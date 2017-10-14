@@ -131,17 +131,17 @@ VALUES (665, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (665, 4, 41402)
-     , (665, 4, 41403)
-     , (665, 4, 41400)
-     , (665, 4, 41397)
-     , (665, 4, 41393)
-     , (665, 4, 41395)
-     , (665, 4, 297)
-     , (665, 4, 295)
-     , (665, 4, 2417)
-     , (665, 4, 2420)
-     , (665, 4, 2621)
-     , (665, 4, 2622)
-     , (665, 4, 2623);
+VALUES (665, 4, 41402) /* Jeweler's Saw Blade */
+     , (665, 4, 41403) /* Jeweler's Saw Frame */
+     , (665, 4, 41400) /* Lapping Plate */
+     , (665, 4, 41397) /* Abrasive Polish */
+     , (665, 4, 41393) /* Lense Frame */
+     , (665, 4, 41395) /* Unfinished Lense */
+     , (665, 4, 297) /* Ring */
+     , (665, 4, 295) /* Bracelet */
+     , (665, 4, 2417) /* Gem */
+     , (665, 4, 2420) /* Gem */
+     , (665, 4, 2621) /* Trade Note (100) */
+     , (665, 4, 2622) /* Trade Note (500) */
+     , (665, 4, 2623) /* Trade Note (1,000) */;
 

@@ -128,16 +128,16 @@ VALUES (2258, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2258, 4, 364)
-     , (2258, 4, 365)
-     , (2258, 4, 367)
-     , (2258, 4, 5585)
-     , (2258, 4, 5856)
-     , (2258, 4, 7884)
-     , (2258, 4, 14797)
-     , (2258, 4, 5586)
-     , (2258, 4, 24855)
-     , (2258, 4, 5587)
-     , (2258, 4, 5602)
-     , (2258, 4, 6419);
+VALUES (2258, 4, 364) /* Book */
+     , (2258, 4, 365) /* Parchment */
+     , (2258, 4, 367) /* Tome */
+     , (2258, 4, 5585) /* Sho Cookbook */
+     , (2258, 4, 5856) /* Specialty Cookbook */
+     , (2258, 4, 7884) /* Chocolate Cookbook */
+     , (2258, 4, 14797) /* Festival Cookbook */
+     , (2258, 4, 5586) /* Alchemy Guide */
+     , (2258, 4, 24855) /* The New Alchemy */
+     , (2258, 4, 5587) /* Fletching Guide */
+     , (2258, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (2258, 4, 6419) /* The Meeting Halls */;
 

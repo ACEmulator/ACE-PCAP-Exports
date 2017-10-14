@@ -124,6 +124,6 @@ VALUES (35908, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35908, 2, 35916)
-     , (35908, 2, 25547);
+VALUES (35908, 2, 35916) /* Paradox-touched Olthoi Sword */
+     , (35908, 2, 25547) /* Greater Olthoi Shield */;
 

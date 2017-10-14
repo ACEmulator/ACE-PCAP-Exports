@@ -52,3 +52,18 @@ VALUES (10767, 2, 53) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (10767, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (10767, 8, 2601) /* Loose Pants */
+     , (10767, 8, 27331) /* Minor Mana Stone */
+     , (10767, 8, 8328) /* Iron Pea */
+     , (10767, 8, 2417) /* Gem */
+     , (10767, 8, 273) /* Pyreal */
+     , (10767, 8, 2395) /* Gem */
+     , (10767, 8, 31781) /* Electric Spine Glaive */
+     , (10767, 8, 416) /* Chainmail Pauldrons */
+     , (10767, 8, 2434) /* Lesser Mana Stone */
+     , (10767, 8, 31865) /* Circlet */
+     , (10767, 8, 129) /* Sandals */;
+

@@ -53,3 +53,35 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (24665, 2, 0) /* OPEN_BOOL */
      , (24665, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24665, 8, 49442) /* Frost Spectre Essence (50) */
+     , (24665, 8, 362) /* Yari */
+     , (24665, 8, 30586) /* Flanged Mace */
+     , (24665, 8, 25645) /* Leather Leggings */
+     , (24665, 8, 45121) /* Flaming Hand Wraps */
+     , (24665, 8, 40712) /* Covenant Pauldrons */
+     , (24665, 8, 2435) /* Mana Stone */
+     , (24665, 8, 49332) /* Frost Wisp Essence (80) */
+     , (24665, 8, 21151) /* Covenant Bracers */
+     , (24665, 8, 295) /* Bracelet */
+     , (24665, 8, 59) /* Studded Leather Gauntlets */
+     , (24665, 8, 2401) /* Gem */
+     , (24665, 8, 163) /* Ornamental Bowl */
+     , (24665, 8, 41487) /* Mechanical Scarab */
+     , (24665, 8, 6003) /* Koujia Breastplate */
+     , (24665, 8, 312) /* Light Crossbow */
+     , (24665, 8, 44852) /* Chevron Cloak */
+     , (24665, 8, 41046) /* Pike */
+     , (24665, 8, 20488) /* Scroll of Energy Flux */
+     , (24665, 8, 43373) /* Scroll of Void Magic Ineptitude Other VII */
+     , (24665, 8, 84) /* Studded  Leggings */
+     , (24665, 8, 3432) /* Scroll of Mana Mastery Other VI */
+     , (24665, 8, 31868) /* Signet Crown */
+     , (24665, 8, 141) /* Bowl */
+     , (24665, 8, 8331) /* Silver Pea */
+     , (24665, 8, 45100) /* Acid Epee */
+     , (24665, 8, 83) /* Scalemail Leggings */
+     , (24665, 8, 306) /* Longbow */;
+

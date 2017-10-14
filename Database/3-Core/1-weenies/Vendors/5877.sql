@@ -130,57 +130,57 @@ VALUES (5877, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5877, 4, 309)
-     , (5877, 4, 314)
-     , (5877, 4, 316)
-     , (5877, 4, 303)
-     , (5877, 4, 329)
-     , (5877, 4, 22168)
-     , (5877, 4, 300)
-     , (5877, 4, 119)
-     , (5877, 4, 36)
-     , (5877, 4, 45)
-     , (5877, 4, 39)
-     , (5877, 4, 65)
-     , (5877, 4, 109)
-     , (5877, 4, 127)
-     , (5877, 4, 130)
-     , (5877, 4, 132)
-     , (5877, 4, 44)
-     , (5877, 4, 554)
-     , (5877, 4, 35)
-     , (5877, 4, 77)
-     , (5877, 4, 85)
-     , (5877, 4, 96)
-     , (5877, 4, 414)
-     , (5877, 4, 43)
-     , (5877, 4, 55)
-     , (5877, 4, 2605)
-     , (5877, 4, 108)
-     , (5877, 4, 415)
-     , (5877, 4, 90)
-     , (5877, 4, 416)
-     , (5877, 4, 413)
-     , (5877, 4, 78)
-     , (5877, 4, 64)
-     , (5877, 4, 2437)
-     , (5877, 4, 80)
-     , (5877, 4, 116)
-     , (5877, 4, 94)
-     , (5877, 4, 95)
-     , (5877, 4, 365)
-     , (5877, 4, 24035)
-     , (5877, 4, 151)
-     , (5877, 4, 513)
-     , (5877, 4, 545)
-     , (5877, 4, 512)
-     , (5877, 4, 514)
-     , (5877, 4, 515)
-     , (5877, 4, 516)
-     , (5877, 4, 166)
-     , (5877, 4, 136)
-     , (5877, 4, 137)
-     , (5877, 4, 258)
-     , (5877, 4, 259)
-     , (5877, 4, 261);
+VALUES (5877, 4, 309) /* Club */
+     , (5877, 4, 314) /* Dagger */
+     , (5877, 4, 316) /* Throwing Dart */
+     , (5877, 4, 303) /* Hand Axe */
+     , (5877, 4, 329) /* Knife */
+     , (5877, 4, 22168) /* Hefty Walking Cane */
+     , (5877, 4, 300) /* Arrow */
+     , (5877, 4, 119) /* Cowl */
+     , (5877, 4, 36) /* Leather Bracers */
+     , (5877, 4, 45) /* Leather Cap */
+     , (5877, 4, 39) /* Leather Breastplate */
+     , (5877, 4, 65) /* Olthoi Greaves */
+     , (5877, 4, 109) /* Olthoi Tassets */
+     , (5877, 4, 127) /* Pants */
+     , (5877, 4, 130) /* Shirt */
+     , (5877, 4, 132) /* Shoes */
+     , (5877, 4, 44) /* Buckler */
+     , (5877, 4, 554) /* Studded Leather Basinet */
+     , (5877, 4, 35) /* Chainmail Basinet */
+     , (5877, 4, 77) /* Kabuton */
+     , (5877, 4, 85) /* Chainmail Coif */
+     , (5877, 4, 96) /* Chainmail Shirt */
+     , (5877, 4, 414) /* Chainmail Breastplate */
+     , (5877, 4, 43) /* Yoroi Breastplate */
+     , (5877, 4, 55) /* Chainmail Gauntlets */
+     , (5877, 4, 2605) /* Chainmail Greaves */
+     , (5877, 4, 108) /* Chainmail Tassets */
+     , (5877, 4, 415) /* Chainmail Girth */
+     , (5877, 4, 90) /* Yoroi Pauldrons */
+     , (5877, 4, 416) /* Chainmail Pauldrons */
+     , (5877, 4, 413) /* Chainmail Bracers */
+     , (5877, 4, 78) /* Kote */
+     , (5877, 4, 64) /* Yoroi Girth */
+     , (5877, 4, 2437) /* Yoroi Leggings */
+     , (5877, 4, 80) /* Chainmail Leggings */
+     , (5877, 4, 116) /* Studded Leather Boots */
+     , (5877, 4, 94) /* Diamond Shield */
+     , (5877, 4, 95) /* Tower Shield */
+     , (5877, 4, 365) /* Parchment */
+     , (5877, 4, 24035) /* The Blazing Staff of Branith */
+     , (5877, 4, 151) /* Empty Flask */
+     , (5877, 4, 513) /* Plain Lockpick */
+     , (5877, 4, 545) /* Reliable Lockpick */
+     , (5877, 4, 512) /* Good Lockpick */
+     , (5877, 4, 514) /* Excellent Lockpick */
+     , (5877, 4, 515) /* Superb Lockpick */
+     , (5877, 4, 516) /* Peerless Lockpick */
+     , (5877, 4, 166) /* Sack */
+     , (5877, 4, 136) /* Pack */
+     , (5877, 4, 137) /* Basket */
+     , (5877, 4, 258) /* Apple */
+     , (5877, 4, 259) /* Bread */
+     , (5877, 4, 261) /* Cheese */;
 

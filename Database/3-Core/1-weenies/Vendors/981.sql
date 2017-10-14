@@ -138,23 +138,23 @@ VALUES (981, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (981, 4, 364)
-     , (981, 4, 365)
-     , (981, 4, 367)
-     , (981, 4, 9118)
-     , (981, 4, 9124)
-     , (981, 4, 27851)
-     , (981, 4, 9319)
-     , (981, 4, 1507)
-     , (981, 4, 1495)
-     , (981, 4, 4209)
-     , (981, 4, 5602)
-     , (981, 4, 6419)
-     , (981, 4, 5584)
-     , (981, 4, 5856)
-     , (981, 4, 7884)
-     , (981, 4, 14797)
-     , (981, 4, 5586)
-     , (981, 4, 24855)
-     , (981, 4, 5587);
+VALUES (981, 4, 364) /* Book */
+     , (981, 4, 365) /* Parchment */
+     , (981, 4, 367) /* Tome */
+     , (981, 4, 9118) /* Puppet Show */
+     , (981, 4, 9124) /* The Beginning */
+     , (981, 4, 27851) /* The Weapons of the Singularity */
+     , (981, 4, 9319) /* Mnemosynes and the Art of Lockpicking */
+     , (981, 4, 1507) /* Legend of the Halls of Helm */
+     , (981, 4, 1495) /* Armoredillo Lair Directions */
+     , (981, 4, 4209) /* Dungeon Binar Directions */
+     , (981, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (981, 4, 6419) /* The Meeting Halls */
+     , (981, 4, 5584) /* Gharu'ndim Cookbook */
+     , (981, 4, 5856) /* Specialty Cookbook */
+     , (981, 4, 7884) /* Chocolate Cookbook */
+     , (981, 4, 14797) /* Festival Cookbook */
+     , (981, 4, 5586) /* Alchemy Guide */
+     , (981, 4, 24855) /* The New Alchemy */
+     , (981, 4, 5587) /* Fletching Guide */;
 

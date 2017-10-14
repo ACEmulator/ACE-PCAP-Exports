@@ -44,3 +44,15 @@ VALUES (41536, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41536, 64, 720) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41536, 8, 30609) /* Frost Bastone */
+     , (41536, 8, 415) /* Chainmail Girth */
+     , (41536, 8, 331) /* Mace */
+     , (41536, 8, 28621) /* Diforsa Leggings */
+     , (41536, 8, 25643) /* Leather Girth */
+     , (41536, 8, 51266) /* Pile of Gearknight Parts */
+     , (41536, 8, 37208) /* Olthoi Amuli Sollerets */
+     , (41536, 8, 2402) /* Gem */;
+

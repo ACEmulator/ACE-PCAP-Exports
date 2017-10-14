@@ -123,26 +123,26 @@ VALUES (42799, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42799, 4, 2471)
-     , (42799, 4, 2463)
-     , (42799, 4, 2453)
-     , (42799, 4, 4746)
-     , (42799, 4, 2467)
-     , (42799, 4, 8378)
-     , (42799, 4, 261)
-     , (42799, 4, 4716)
-     , (42799, 4, 4739)
-     , (42799, 4, 620)
-     , (42799, 4, 46755)
-     , (42799, 4, 51964)
-     , (42799, 4, 49569)
-     , (42799, 4, 44398)
-     , (42799, 4, 44400)
-     , (42799, 4, 44396)
-     , (42799, 4, 44654)
-     , (42799, 4, 44819)
-     , (42799, 4, 49570)
-     , (42799, 4, 51606)
-     , (42799, 4, 51605)
-     , (42799, 4, 51679);
+VALUES (42799, 4, 2471) /* Stout */
+     , (42799, 4, 2463) /* Milk */
+     , (42799, 4, 2453) /* Cider */
+     , (42799, 4, 4746) /* Water */
+     , (42799, 4, 2467) /* Red Wine */
+     , (42799, 4, 8378) /* Beer Stein */
+     , (42799, 4, 261) /* Cheese */
+     , (42799, 4, 4716) /* Chicken Pie */
+     , (42799, 4, 4739) /* Pickled Egg */
+     , (42799, 4, 620) /* Cake */
+     , (42799, 4, 46755) /* Contract for Stipend: General */
+     , (42799, 4, 51964) /* Contract for Legendary Quests */
+     , (42799, 4, 49569) /* Contract for Buried Alive */
+     , (42799, 4, 44398) /* Contract for Summoning T'thuun */
+     , (42799, 4, 44400) /* Contract for Empyrean Rescue */
+     , (42799, 4, 44396) /* Contract for Aug Gem: Luminance */
+     , (42799, 4, 44654) /* Contract for Vision Quest */
+     , (42799, 4, 44819) /* Contract for Aerbax's Prodigal Monouga */
+     , (42799, 4, 49570) /* Contract for Protecting Picketed Pets */
+     , (42799, 4, 51606) /* Contract for Snow Tusker Leader Tusk */
+     , (42799, 4, 51605) /* Contract for Journey To Madness */
+     , (42799, 4, 51679) /* Contract for Visitors */;
 

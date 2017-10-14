@@ -48,3 +48,9 @@ VALUES (11992, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11992, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11992, 8, 49387) /* Frost Grievver Essence (50) */
+     , (11992, 8, 22443) /* Flaming Dirk */;
+

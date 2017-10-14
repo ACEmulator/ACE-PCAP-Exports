@@ -128,24 +128,24 @@ VALUES (44188, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (44188, 4, 44386)
-     , (44188, 4, 44170)
-     , (44188, 4, 44151)
-     , (44188, 4, 44165)
-     , (44188, 4, 44166)
-     , (44188, 4, 44176)
-     , (44188, 4, 44177)
-     , (44188, 4, 44185)
-     , (44188, 4, 44183)
-     , (44188, 4, 44163)
-     , (44188, 4, 2621)
-     , (44188, 4, 2622)
-     , (44188, 4, 2623)
-     , (44188, 4, 2624)
-     , (44188, 4, 2625)
-     , (44188, 4, 2626)
-     , (44188, 4, 2627)
-     , (44188, 4, 20628)
-     , (44188, 4, 20629)
-     , (44188, 4, 20630);
+VALUES (44188, 4, 44386) /* Contract for Broker Contracts */
+     , (44188, 4, 44170) /* Contract for Enrico's Betrayal */
+     , (44188, 4, 44151) /* Contract for The Caliginous Bethel */
+     , (44188, 4, 44165) /* Contract for Suzuhara Baijin's Delivery */
+     , (44188, 4, 44166) /* Contract for Tentacles of T'thuun */
+     , (44188, 4, 44176) /* Contract for Fiun Healing Machine */
+     , (44188, 4, 44177) /* Contract for Haleatan Beach Camps */
+     , (44188, 4, 44185) /* Contract for Ricardo's Blood Gem */
+     , (44188, 4, 44183) /* Contract for Of Trust and Betrayal */
+     , (44188, 4, 44163) /* Contract for The Shadows of Bitter Winter */
+     , (44188, 4, 2621) /* Trade Note (100) */
+     , (44188, 4, 2622) /* Trade Note (500) */
+     , (44188, 4, 2623) /* Trade Note (1,000) */
+     , (44188, 4, 2624) /* Trade Note (5,000) */
+     , (44188, 4, 2625) /* Trade Note (10,000) */
+     , (44188, 4, 2626) /* Trade Note (50,000) */
+     , (44188, 4, 2627) /* Trade Note (100,000) */
+     , (44188, 4, 20628) /* Trade Note (150,000) */
+     , (44188, 4, 20629) /* Trade Note (200,000) */
+     , (44188, 4, 20630) /* Trade Note (250,000) */;
 

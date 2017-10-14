@@ -124,136 +124,136 @@ VALUES (20209, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20209, 4, 15268)
-     , (20209, 4, 28942)
-     , (20209, 4, 28935)
-     , (20209, 4, 2635)
-     , (20209, 4, 2640)
-     , (20209, 4, 2645)
-     , (20209, 4, 2650)
-     , (20209, 4, 2655)
-     , (20209, 4, 2660)
-     , (20209, 4, 2670)
-     , (20209, 4, 2675)
-     , (20209, 4, 1783)
-     , (20209, 4, 2683)
-     , (20209, 4, 2713)
-     , (20209, 4, 2718)
-     , (20209, 4, 2733)
-     , (20209, 4, 2738)
-     , (20209, 4, 2743)
-     , (20209, 4, 2748)
-     , (20209, 4, 2753)
-     , (20209, 4, 2758)
-     , (20209, 4, 5982)
-     , (20209, 4, 5988)
-     , (20209, 4, 5994)
-     , (20209, 4, 3129)
-     , (20209, 4, 3134)
-     , (20209, 4, 3139)
-     , (20209, 4, 3144)
-     , (20209, 4, 3149)
-     , (20209, 4, 3154)
-     , (20209, 4, 3159)
-     , (20209, 4, 3164)
-     , (20209, 4, 3169)
-     , (20209, 4, 5946)
-     , (20209, 4, 5952)
-     , (20209, 4, 5958)
-     , (20209, 4, 3189)
-     , (20209, 4, 3194)
-     , (20209, 4, 3199)
-     , (20209, 4, 3234)
-     , (20209, 4, 3239)
-     , (20209, 4, 3244)
-     , (20209, 4, 3249)
-     , (20209, 4, 45238)
-     , (20209, 4, 45246)
-     , (20209, 4, 45254)
-     , (20209, 4, 45262)
-     , (20209, 4, 45270)
-     , (20209, 4, 45278)
-     , (20209, 4, 3254)
-     , (20209, 4, 3259)
-     , (20209, 4, 3264)
-     , (20209, 4, 3219)
-     , (20209, 4, 3224)
-     , (20209, 4, 3229)
-     , (20209, 4, 5964)
-     , (20209, 4, 5970)
-     , (20209, 4, 5976)
-     , (20209, 4, 3269)
-     , (20209, 4, 3274)
-     , (20209, 4, 3279)
-     , (20209, 4, 3514)
-     , (20209, 4, 3519)
-     , (20209, 4, 3524)
-     , (20209, 4, 3284)
-     , (20209, 4, 3289)
-     , (20209, 4, 3294)
-     , (20209, 4, 3299)
-     , (20209, 4, 3304)
-     , (20209, 4, 3309)
-     , (20209, 4, 3314)
-     , (20209, 4, 3319)
-     , (20209, 4, 3324)
-     , (20209, 4, 3329)
-     , (20209, 4, 9626)
-     , (20209, 4, 3334)
-     , (20209, 4, 3339)
-     , (20209, 4, 3344)
-     , (20209, 4, 3349)
-     , (20209, 4, 3354)
-     , (20209, 4, 3359)
-     , (20209, 4, 3364)
-     , (20209, 4, 3369)
-     , (20209, 4, 3374)
-     , (20209, 4, 3379)
-     , (20209, 4, 3384)
-     , (20209, 4, 3389)
-     , (20209, 4, 3409)
-     , (20209, 4, 3414)
-     , (20209, 4, 3419)
-     , (20209, 4, 3424)
-     , (20209, 4, 3429)
-     , (20209, 4, 3434)
-     , (20209, 4, 9610)
-     , (20209, 4, 3174)
-     , (20209, 4, 3179)
-     , (20209, 4, 3184)
-     , (20209, 4, 3439)
-     , (20209, 4, 5544)
-     , (20209, 4, 3444)
-     , (20209, 4, 3449)
-     , (20209, 4, 3454)
-     , (20209, 4, 3459)
-     , (20209, 4, 45286)
-     , (20209, 4, 45294)
-     , (20209, 4, 45302)
-     , (20209, 4, 3464)
-     , (20209, 4, 3469)
-     , (20209, 4, 45310)
-     , (20209, 4, 45318)
-     , (20209, 4, 45326)
-     , (20209, 4, 45334)
-     , (20209, 4, 45342)
-     , (20209, 4, 45350)
-     , (20209, 4, 3489)
-     , (20209, 4, 3494)
-     , (20209, 4, 49458)
-     , (20209, 4, 49465)
-     , (20209, 4, 49472)
-     , (20209, 4, 3559)
-     , (20209, 4, 3564)
-     , (20209, 4, 3569)
-     , (20209, 4, 3574)
-     , (20209, 4, 3579)
-     , (20209, 4, 3584)
-     , (20209, 4, 3589)
-     , (20209, 4, 41290)
-     , (20209, 4, 41298)
-     , (20209, 4, 41306)
-     , (20209, 4, 43367)
-     , (20209, 4, 43368)
-     , (20209, 4, 43369);
+VALUES (20209, 4, 15268) /* Foci of Enchantment */
+     , (20209, 4, 28942) /* Scroll of Arcanum Enlightenment III */
+     , (20209, 4, 28935) /* Scroll of Arcanum Salvaging III */
+     , (20209, 4, 2635) /* Scroll of Bafflement Other III */
+     , (20209, 4, 2640) /* Scroll of Clumsiness Other III */
+     , (20209, 4, 2645) /* Scroll of Coordination Other III */
+     , (20209, 4, 2650) /* Scroll of Coordination Self III */
+     , (20209, 4, 2655) /* Scroll of Endurance Other III */
+     , (20209, 4, 2660) /* Scroll of Endurance Self III */
+     , (20209, 4, 2670) /* Scroll of Feeblemind Other III */
+     , (20209, 4, 2675) /* Scroll of Focus Other III */
+     , (20209, 4, 1783) /* Scroll of Focus Self III */
+     , (20209, 4, 2683) /* Scroll of Frailty Other III */
+     , (20209, 4, 2713) /* Scroll of Quickness Other III */
+     , (20209, 4, 2718) /* Scroll of Quickness Self III */
+     , (20209, 4, 2733) /* Scroll of Slowness Other III */
+     , (20209, 4, 2738) /* Scroll of Strength Other III */
+     , (20209, 4, 2743) /* Scroll of Self Strength III */
+     , (20209, 4, 2748) /* Scroll of Weakness Other III */
+     , (20209, 4, 2753) /* Scroll of Willpower Other III */
+     , (20209, 4, 2758) /* Scroll of Willpower Self III */
+     , (20209, 4, 5982) /* Scroll of Alchemy Ineptitude Other III */
+     , (20209, 4, 5988) /* Scroll of Alchemy Mastery Other III */
+     , (20209, 4, 5994) /* Scroll of Alchemy Mastery Self III */
+     , (20209, 4, 3129) /* Scroll of Arcane Benightedness III */
+     , (20209, 4, 3134) /* Scroll of Arcane Enlightenment III */
+     , (20209, 4, 3139) /* Scroll of Arcane Enlightenment Self III */
+     , (20209, 4, 3144) /* Scroll of Armor Tinkering Expertise Other III */
+     , (20209, 4, 3149) /* Scroll of Armor Tinkering Expertise Self III */
+     , (20209, 4, 3154) /* Scroll of Armor Tinkering Ignorance III */
+     , (20209, 4, 3159) /* Scroll of Light Weapon Ineptitude Other III */
+     , (20209, 4, 3164) /* Scroll of Light Weapon Mastery Other III */
+     , (20209, 4, 3169) /* Scroll of Light Weapon Mastery Self III */
+     , (20209, 4, 5946) /* Scroll of Cooking Ineptitude Other III */
+     , (20209, 4, 5952) /* Scroll of Cooking Mastery Other III */
+     , (20209, 4, 5958) /* Scroll of Cooking Mastery Self III */
+     , (20209, 4, 3189) /* Scroll of Creature Enchantment Ineptitude III */
+     , (20209, 4, 3194) /* Scroll of Creature Enchantment Mastery Other III */
+     , (20209, 4, 3199) /* Scroll of Creature Enchantment Mastery Self III */
+     , (20209, 4, 3234) /* Scroll of Deception Ineptitude III */
+     , (20209, 4, 3239) /* Scroll of Deception Mastery Other III */
+     , (20209, 4, 3244) /* Scroll of Deception Mastery Self III */
+     , (20209, 4, 3249) /* Scroll of Defenselessness III */
+     , (20209, 4, 45238) /* Scroll of Dirty Fighting Ineptitude Other III */
+     , (20209, 4, 45246) /* Scroll of Dirty Fighting Mastery Other III */
+     , (20209, 4, 45254) /* Scroll of Dirty Fighting Mastery Self III */
+     , (20209, 4, 45262) /* Scroll of Dual Wield Ineptitude Other III */
+     , (20209, 4, 45270) /* Scroll of Dual Wield Mastery Other III */
+     , (20209, 4, 45278) /* Scroll of Dual Wield Mastery Self III */
+     , (20209, 4, 3254) /* Scroll of Faithlessness III */
+     , (20209, 4, 3259) /* Scroll of Fealty Other III */
+     , (20209, 4, 3264) /* Scroll of Fealty Self III */
+     , (20209, 4, 3219) /* Scroll of Finesse Weapon Ineptitude Other III */
+     , (20209, 4, 3224) /* Scroll of Finesse Weapon Mastery Other III */
+     , (20209, 4, 3229) /* Scroll of Finesse Weapon Mastery Self III */
+     , (20209, 4, 5964) /* Scroll of Fletching Ineptitude Other III */
+     , (20209, 4, 5970) /* Scroll of Fletching Mastery Other III */
+     , (20209, 4, 5976) /* Scroll of Fletching Mastery Self III */
+     , (20209, 4, 3269) /* Scroll of Healing Ineptitude III */
+     , (20209, 4, 3274) /* Scroll of Healing Mastery Other III */
+     , (20209, 4, 3279) /* Scroll of Healing Mastery Self III */
+     , (20209, 4, 3514) /* Scroll of Heavy Weapon Ineptitude Other III */
+     , (20209, 4, 3519) /* Scroll of Heavy Weapon Mastery Other III */
+     , (20209, 4, 3524) /* Scroll of Heavy Weapon Mastery Self III */
+     , (20209, 4, 3284) /* Scroll of Impregnability Other III */
+     , (20209, 4, 3289) /* Scroll of Impregnability Self III */
+     , (20209, 4, 3294) /* Scroll of Invulnerability Other III */
+     , (20209, 4, 3299) /* Scroll of Invulnerability Self III */
+     , (20209, 4, 3304) /* Scroll of Item Enchantment Ineptitude III */
+     , (20209, 4, 3309) /* Scroll of Item Enchantment Mastery Other III */
+     , (20209, 4, 3314) /* Scroll of Item Enchantment Mastery Self III */
+     , (20209, 4, 3319) /* Scroll of Item Tinkering Expertise Other III */
+     , (20209, 4, 3324) /* Scroll of Item Tinkering Expertise Self III */
+     , (20209, 4, 3329) /* Scroll of Item Tinkering Ignorance III */
+     , (20209, 4, 9626) /* Scroll of Jumping Ineptitude III */
+     , (20209, 4, 3334) /* Scroll of Jumping Mastery Other III */
+     , (20209, 4, 3339) /* Scroll of Jumping Mastery Self III */
+     , (20209, 4, 3344) /* Scroll of Leaden Feet III */
+     , (20209, 4, 3349) /* Scroll of Leadership Ineptitude III */
+     , (20209, 4, 3354) /* Scroll of Leadership Mastery Other III */
+     , (20209, 4, 3359) /* Scroll of Leadership Mastery Self III */
+     , (20209, 4, 3364) /* Scroll of Life Magic Ineptitude III */
+     , (20209, 4, 3369) /* Scroll of Life Magic Mastery Other III */
+     , (20209, 4, 3374) /* Scroll of Life Magic Mastery Self III */
+     , (20209, 4, 3379) /* Scroll of Lockpick Ineptitude III */
+     , (20209, 4, 3384) /* Scroll of Lockpick Mastery Other III */
+     , (20209, 4, 3389) /* Scroll of Lockpick Mastery Self III */
+     , (20209, 4, 3409) /* Scroll of Magic Item Tinkering Expertise Other III */
+     , (20209, 4, 3414) /* Scroll of Magic Item Tinkering Expertise Self III */
+     , (20209, 4, 3419) /* Scroll of Magic Item Tinkering Ignorance III */
+     , (20209, 4, 3424) /* Scroll of Magic Yield Other III */
+     , (20209, 4, 3429) /* Scroll of Mana Mastery Other III */
+     , (20209, 4, 3434) /* Scroll of Mana Mastery Self III */
+     , (20209, 4, 9610) /* Scroll of Mana Ineptitude Other III */
+     , (20209, 4, 3174) /* Scroll of Missile Weapon Ineptitude Other III */
+     , (20209, 4, 3179) /* Scroll of Missile Weapon Mastery Other III */
+     , (20209, 4, 3184) /* Scroll of Missile Weapon Mastery Self III */
+     , (20209, 4, 3439) /* Scroll of Monster Attunement Other III */
+     , (20209, 4, 5544) /* Scroll of Monster Attunement Self III */
+     , (20209, 4, 3444) /* Scroll of Monster Unfamiliarity III */
+     , (20209, 4, 3449) /* Scroll of Person Attunement Other III */
+     , (20209, 4, 3454) /* Scroll of Person Attunement Self III */
+     , (20209, 4, 3459) /* Scroll of Person Unfamiliarity III */
+     , (20209, 4, 45286) /* Scroll of Recklessness Ineptitude Other III */
+     , (20209, 4, 45294) /* Scroll of Recklessness Mastery Other III */
+     , (20209, 4, 45302) /* Scroll of Recklessness Mastery Self III */
+     , (20209, 4, 3464) /* Scroll of Resist Magic Other III */
+     , (20209, 4, 3469) /* Scroll of Resist Magic Self III */
+     , (20209, 4, 45310) /* Scroll of Shield Ineptitude Other III */
+     , (20209, 4, 45318) /* Scroll of Shield Mastery Other III */
+     , (20209, 4, 45326) /* Scroll of Shield Mastery Self III */
+     , (20209, 4, 45334) /* Scroll of Sneak Attack Ineptitude Other III */
+     , (20209, 4, 45342) /* Scroll of Sneak Attack Mastery Other III */
+     , (20209, 4, 45350) /* Scroll of Sneak Attack Mastery Self III */
+     , (20209, 4, 3489) /* Scroll of Sprint Other III */
+     , (20209, 4, 3494) /* Scroll of Sprint Self III */
+     , (20209, 4, 49458) /* Scroll of Summoning Ineptitude Other III */
+     , (20209, 4, 49465) /* Scroll of Summoning Mastery Other III */
+     , (20209, 4, 49472) /* Scroll of Summoning Mastery Self III */
+     , (20209, 4, 3559) /* Scroll of Vulnerability III */
+     , (20209, 4, 3564) /* Scroll of War Magic Ineptitude III */
+     , (20209, 4, 3569) /* Scroll of War Magic Mastery Other III */
+     , (20209, 4, 3574) /* Scroll of War Magic Mastery Self III */
+     , (20209, 4, 3579) /* Scroll of Weapon Tinkering Expertise Other III */
+     , (20209, 4, 3584) /* Scroll of Weapon Tinkering Expertise Self III */
+     , (20209, 4, 3589) /* Scroll of Weapon Tinkering Ignorance III */
+     , (20209, 4, 41290) /* Scroll of Two Handed Weapons Ineptitude III */
+     , (20209, 4, 41298) /* Scroll of Two Handed Weapon Mastery Other III */
+     , (20209, 4, 41306) /* Scroll of Two Handed Weapon Mastery Self III */
+     , (20209, 4, 43367) /* Scroll of Void Magic Ineptitude III */
+     , (20209, 4, 43368) /* Scroll of Void Magic Mastery Other III */
+     , (20209, 4, 43369) /* Scroll of Void Magic Mastery Self III */;
 

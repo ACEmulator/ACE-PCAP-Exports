@@ -52,3 +52,8 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (7779, 2, 0) /* OPEN_BOOL */
      , (7779, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7779, 8, 7776) /* Note from Mi Krau-Li */;
+

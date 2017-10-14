@@ -49,3 +49,10 @@ VALUES (4869, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4869, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4869, 8, 91) /* Kite Shield */
+     , (4869, 8, 141) /* Bowl */
+     , (4869, 8, 415) /* Chainmail Girth */;
+

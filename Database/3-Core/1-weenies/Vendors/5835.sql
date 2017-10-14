@@ -129,63 +129,63 @@ VALUES (5835, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5835, 4, 41509)
-     , (5835, 4, 41507)
-     , (5835, 4, 41419)
-     , (5835, 4, 41423)
-     , (5835, 4, 41396)
-     , (5835, 4, 41420)
-     , (5835, 4, 41418)
-     , (5835, 4, 41744)
-     , (5835, 4, 309)
-     , (5835, 4, 316)
-     , (5835, 4, 303)
-     , (5835, 4, 329)
-     , (5835, 4, 22168)
-     , (5835, 4, 352)
-     , (5835, 4, 348)
-     , (5835, 4, 551)
-     , (5835, 4, 115)
-     , (5835, 4, 36)
-     , (5835, 4, 39)
-     , (5835, 4, 45)
-     , (5835, 4, 458)
-     , (5835, 4, 56)
-     , (5835, 4, 60)
-     , (5835, 4, 65)
-     , (5835, 4, 109)
-     , (5835, 4, 81)
-     , (5835, 4, 86)
-     , (5835, 4, 44)
-     , (5835, 4, 307)
-     , (5835, 4, 300)
-     , (5835, 4, 4586)
-     , (5835, 4, 4585)
-     , (5835, 4, 5339)
-     , (5835, 4, 258)
-     , (5835, 4, 4761)
-     , (5835, 4, 4746)
-     , (5835, 4, 4762)
-     , (5835, 4, 4757)
-     , (5835, 4, 5778)
-     , (5835, 4, 7824)
-     , (5835, 4, 365)
-     , (5835, 4, 151)
-     , (5835, 4, 293)
-     , (5835, 4, 2457)
-     , (5835, 4, 377)
-     , (5835, 4, 27319)
-     , (5835, 4, 2460)
-     , (5835, 4, 379)
-     , (5835, 4, 27322)
-     , (5835, 4, 378)
-     , (5835, 4, 27326)
-     , (5835, 4, 2470)
-     , (5835, 4, 628)
-     , (5835, 4, 629)
-     , (5835, 4, 630)
-     , (5835, 4, 631)
-     , (5835, 4, 136)
-     , (5835, 4, 139)
-     , (5835, 4, 138);
+VALUES (5835, 4, 41509) /* Minor Item Tinkering Armature */
+     , (5835, 4, 41507) /* Moderate Item Tinkering Armature */
+     , (5835, 4, 41419) /* Sheet Metal Form */
+     , (5835, 4, 41423) /* Medal Mold */
+     , (5835, 4, 41396) /* Handle Mold */
+     , (5835, 4, 41420) /* Hammer */
+     , (5835, 4, 41418) /* Leather Strap */
+     , (5835, 4, 41744) /* A Comprehensive Guide to Gearcrafting */
+     , (5835, 4, 309) /* Club */
+     , (5835, 4, 316) /* Throwing Dart */
+     , (5835, 4, 303) /* Hand Axe */
+     , (5835, 4, 329) /* Knife */
+     , (5835, 4, 22168) /* Hefty Walking Cane */
+     , (5835, 4, 352) /* Short Sword */
+     , (5835, 4, 348) /* Spear */
+     , (5835, 4, 551) /* Basinet */
+     , (5835, 4, 115) /* Leather Boots */
+     , (5835, 4, 36) /* Leather Bracers */
+     , (5835, 4, 39) /* Leather Breastplate */
+     , (5835, 4, 45) /* Leather Cap */
+     , (5835, 4, 458) /* Leather Cowl */
+     , (5835, 4, 56) /* Leather Gauntlets */
+     , (5835, 4, 60) /* Olthoi Celdon Girth */
+     , (5835, 4, 65) /* Olthoi Greaves */
+     , (5835, 4, 109) /* Olthoi Tassets */
+     , (5835, 4, 81) /* Leggings */
+     , (5835, 4, 86) /* Leather Pauldrons */
+     , (5835, 4, 44) /* Buckler */
+     , (5835, 4, 307) /* Shortbow */
+     , (5835, 4, 300) /* Arrow */
+     , (5835, 4, 4586) /* Bundle of Arrowheads */
+     , (5835, 4, 4585) /* Bundle of Arrowshafts */
+     , (5835, 4, 5339) /* Bundle of Quarrelshafts */
+     , (5835, 4, 258) /* Apple */
+     , (5835, 4, 4761) /* Flour */
+     , (5835, 4, 4746) /* Water */
+     , (5835, 4, 4762) /* Frying Pan */
+     , (5835, 4, 4757) /* Carving Knife */
+     , (5835, 4, 5778) /* Whittling Knife */
+     , (5835, 4, 7824) /* Metal Press */
+     , (5835, 4, 365) /* Parchment */
+     , (5835, 4, 151) /* Empty Flask */
+     , (5835, 4, 293) /* Torch */
+     , (5835, 4, 2457) /* Health Draught */
+     , (5835, 4, 377) /* Potion of Healing */
+     , (5835, 4, 27319) /* Health Tincture */
+     , (5835, 4, 2460) /* Mana Draught */
+     , (5835, 4, 379) /* Mana Potion */
+     , (5835, 4, 27322) /* Mana Tincture */
+     , (5835, 4, 378) /* Stamina Potion */
+     , (5835, 4, 27326) /* Stamina Tincture */
+     , (5835, 4, 2470) /* Stamina Elixir */
+     , (5835, 4, 628) /* Handy Healing Kit */
+     , (5835, 4, 629) /* Adept Healing Kit */
+     , (5835, 4, 630) /* Gifted Healing Kit */
+     , (5835, 4, 631) /* Excellent Healing Kit */
+     , (5835, 4, 136) /* Pack */
+     , (5835, 4, 139) /* Small Belt Pouch */
+     , (5835, 4, 138) /* Belt Pouch */;
 

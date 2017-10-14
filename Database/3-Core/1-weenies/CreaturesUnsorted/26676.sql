@@ -48,3 +48,10 @@ VALUES (26676, 2, 69) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (26676, 64, 1) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26676, 8, 150) /* Flagon */
+     , (26676, 8, 8329) /* Lead Pea */
+     , (26676, 8, 3670) /* Copper Heart */;
+

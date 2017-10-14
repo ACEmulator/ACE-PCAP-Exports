@@ -124,14 +124,14 @@ VALUES (1385, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1385, 4, 630)
-     , (1385, 4, 631)
-     , (1385, 4, 377)
-     , (1385, 4, 379)
-     , (1385, 4, 2470)
-     , (1385, 4, 4587)
-     , (1385, 4, 4596)
-     , (1385, 4, 4593)
-     , (1385, 4, 2621)
-     , (1385, 4, 2622);
+VALUES (1385, 4, 630) /* Gifted Healing Kit */
+     , (1385, 4, 631) /* Excellent Healing Kit */
+     , (1385, 4, 377) /* Potion of Healing */
+     , (1385, 4, 379) /* Mana Potion */
+     , (1385, 4, 2470) /* Stamina Elixir */
+     , (1385, 4, 4587) /* Heal Other II */
+     , (1385, 4, 4596) /* Regeneration Other II */
+     , (1385, 4, 4593) /* Mana Boost Other II */
+     , (1385, 4, 2621) /* Trade Note (100) */
+     , (1385, 4, 2622) /* Trade Note (500) */;
 

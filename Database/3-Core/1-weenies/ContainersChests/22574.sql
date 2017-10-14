@@ -50,3 +50,44 @@ VALUES (22574, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (22574, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22574, 8, 25647) /* Leather Pants */
+     , (22574, 8, 793) /* Scalemail Coif */
+     , (22574, 8, 71) /* Chainmail Hauberk */
+     , (22574, 8, 312) /* Light Crossbow */
+     , (22574, 8, 45) /* Leather Cap */
+     , (22574, 8, 108) /* Chainmail Tassets */
+     , (22574, 8, 3348) /* Scroll of Leadership Ineptitude II */
+     , (22574, 8, 25638) /* Leather Vest */
+     , (22574, 8, 339) /* Scimitar */
+     , (22574, 8, 628) /* Handy Healing Kit */
+     , (22574, 8, 25637) /* Leather Bracers */
+     , (22574, 8, 31779) /* Spine Glaive */
+     , (22574, 8, 2547) /* Staff */
+     , (22574, 8, 3763) /* Lightning Budiaq */
+     , (22574, 8, 25642) /* Leather Gauntlets */
+     , (22574, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (22574, 8, 28611) /* Viamontian Laced Boots */
+     , (22574, 8, 49435) /* Fire Spectre Essence (50) */
+     , (22574, 8, 49324) /* Fire Wisp Essence (50) */
+     , (22574, 8, 30613) /* Flaming Knuckles */
+     , (22574, 8, 25650) /* Leather Shorts */
+     , (22574, 8, 25646) /* Long Leather Gauntlets */
+     , (22574, 8, 27331) /* Minor Mana Stone */
+     , (22574, 8, 415) /* Chainmail Girth */
+     , (22574, 8, 2413) /* Gem */
+     , (22574, 8, 313) /* Dabus */
+     , (22574, 8, 1681) /* Scroll of Arcane Enlightenment Self */
+     , (22574, 8, 3308) /* Scroll of Item Enchantment Mastery Other II */
+     , (22574, 8, 84) /* Studded  Leggings */
+     , (22574, 8, 20640) /* Royal Atlatl */
+     , (22574, 8, 273) /* Pyreal */
+     , (22574, 8, 25648) /* Leather Pauldrons */
+     , (22574, 8, 63) /* Studded Leather Girth */
+     , (22574, 8, 101) /* Chainmail Sleeves */
+     , (22574, 8, 3153) /* Scroll of Armor Tinkering Ignorance II */
+     , (22574, 8, 622) /* Necklace */
+     , (22574, 8, 8329) /* Lead Pea */;
+

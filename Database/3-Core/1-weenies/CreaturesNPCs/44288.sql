@@ -86,5 +86,5 @@ VALUES (44288, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (44288, 2, 3794);
+VALUES (44288, 2, 3794) /* Acid Jambiya */;
 

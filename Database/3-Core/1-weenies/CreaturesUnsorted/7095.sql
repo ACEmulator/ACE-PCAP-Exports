@@ -36,3 +36,15 @@ VALUES (7095, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7095, 19, True) /* ATTACKABLE_BOOL */
      , (7095, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7095, 8, 73) /* Scalemail Hauberk */
+     , (7095, 8, 273) /* Pyreal */
+     , (7095, 8, 2436) /* Greater Mana Stone */
+     , (7095, 8, 2425) /* Gem */
+     , (7095, 8, 31779) /* Spine Glaive */
+     , (7095, 8, 8331) /* Silver Pea */
+     , (7095, 8, 2400) /* Gem */
+     , (7095, 8, 27330) /* Moderate Mana Stone */;
+

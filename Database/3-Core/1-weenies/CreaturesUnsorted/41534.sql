@@ -44,3 +44,20 @@ VALUES (41534, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41534, 64, 680) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41534, 8, 49322) /* Lightning Wisp Essence (180) */
+     , (41534, 8, 6045) /* Celdon Leggings */
+     , (41534, 8, 45403) /* Lightning Simi */
+     , (41534, 8, 67) /* Scalemail Greaves */
+     , (41534, 8, 297) /* Ring */
+     , (41534, 8, 41528) /* Aetherium Power Core */
+     , (41534, 8, 31812) /* Slashing Slingshot */
+     , (41534, 8, 51266) /* Pile of Gearknight Parts */
+     , (41534, 8, 42755) /* Haebrean Boots */
+     , (41534, 8, 20521) /* Scroll of Finesse Weapon Mastery Self VII */
+     , (41534, 8, 94) /* Diamond Shield */
+     , (41534, 8, 40706) /* Covenant Bracers */
+     , (41534, 8, 6047) /* Amuli Leggings */;
+

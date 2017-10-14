@@ -51,3 +51,18 @@ VALUES (42261, 0, 16794164)
      , (42261, 15, 16794162)
      , (42261, 16, 16794169);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42261, 8, 49485) /* Encapsulated Spirit */
+     , (42261, 8, 40684) /* Olthoi Tassets */
+     , (42261, 8, 29248) /* Fire Crossbow */
+     , (42261, 8, 28622) /* Tenassa Leggings */
+     , (42261, 8, 127) /* Pants */
+     , (42261, 8, 20597) /* Scroll of Koga's Boon */
+     , (42261, 8, 623) /* Heavy Necklace */
+     , (42261, 8, 624) /* Ring */
+     , (42261, 8, 27227) /* Nariyid Breastplate */
+     , (42261, 8, 49384) /* Fire Grievver Essence (150) */
+     , (42261, 8, 44976) /* Hood */;
+

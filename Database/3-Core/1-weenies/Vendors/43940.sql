@@ -125,11 +125,11 @@ VALUES (43940, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43940, 4, 43912)
-     , (43940, 4, 43913)
-     , (43940, 4, 43920)
-     , (43940, 4, 43914)
-     , (43940, 4, 43923)
-     , (43940, 4, 43922)
-     , (43940, 4, 43921);
+VALUES (43940, 4, 43912) /* Acid Natural Resistance */
+     , (43940, 4, 43913) /* Fire Natural Resistance */
+     , (43940, 4, 43920) /* Cold Natural Resistance */
+     , (43940, 4, 43914) /* Electrical Natural Resistance */
+     , (43940, 4, 43923) /* Bludgeon Natural Resistance */
+     , (43940, 4, 43922) /* Piercing Natural Resistance */
+     , (43940, 4, 43921) /* Slashing Natural Resistance */;
 

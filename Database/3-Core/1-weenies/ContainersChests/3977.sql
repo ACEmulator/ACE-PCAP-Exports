@@ -52,3 +52,12 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3977, 2, 0) /* OPEN_BOOL */
      , (3977, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3977, 8, 49324) /* Fire Wisp Essence (50) */
+     , (3977, 8, 161) /* Mug */
+     , (3977, 8, 294) /* Amulet */
+     , (3977, 8, 2428) /* Gem */
+     , (3977, 8, 149) /* Ewer */;
+

@@ -55,3 +55,17 @@ VALUES (33641, 64, 12200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (33641, 128, 3400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (33641, 256, 420) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33641, 8, 49272) /* Lightning Child Essence (150) */
+     , (33641, 8, 20256) /* Scroll of Bolstered Will */
+     , (33641, 8, 149) /* Ewer */
+     , (33641, 8, 21156) /* Covenant Helm */
+     , (33641, 8, 2421) /* Gem */
+     , (33641, 8, 2599) /* Trousers */
+     , (33641, 8, 3907) /* Flaming War Hammer */
+     , (33641, 8, 632) /* Peerless Healing Kit */
+     , (33641, 8, 37364) /* Quill of Introspection */
+     , (33641, 8, 44470) /* Corrupted Essence */;
+

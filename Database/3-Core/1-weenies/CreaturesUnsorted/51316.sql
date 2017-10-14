@@ -48,3 +48,15 @@ VALUES (51316, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51316, 64, 2200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51316, 8, 40764) /* Frost Nodachi */
+     , (51316, 8, 142) /* Chalice */
+     , (51316, 8, 8331) /* Silver Pea */
+     , (51316, 8, 27318) /* Health Philtre */
+     , (51316, 8, 149) /* Ewer */
+     , (51316, 8, 27328) /* Major Mana Stone */
+     , (51316, 8, 9229) /* Treated Healing Kit */
+     , (51316, 8, 416) /* Chainmail Pauldrons */;
+

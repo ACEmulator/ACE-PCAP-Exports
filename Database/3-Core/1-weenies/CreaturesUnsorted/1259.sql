@@ -83,3 +83,19 @@ VALUES (1259, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1259, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1259, 8, 49538) /* Frost Phyntos Wasp Essence (50) */
+     , (1259, 8, 25645) /* Leather Leggings */
+     , (1259, 8, 1263) /* Key */
+     , (1259, 8, 2472) /* Wand */
+     , (1259, 8, 294) /* Amulet */
+     , (1259, 8, 8329) /* Lead Pea */
+     , (1259, 8, 49380) /* Fire Grievver Essence (50) */
+     , (1259, 8, 2594) /* Flared Tunic */
+     , (1259, 8, 38) /* Studded Leather Bracers */
+     , (1259, 8, 49359) /* Frost Moar Essence (50) */
+     , (1259, 8, 25646) /* Long Leather Gauntlets */
+     , (1259, 8, 273) /* Pyreal */;
+

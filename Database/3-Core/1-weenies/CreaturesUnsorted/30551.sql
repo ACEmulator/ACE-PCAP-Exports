@@ -39,3 +39,12 @@ VALUES (30551, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30551, 67115468, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30551, 8, 114) /* Platemail Vambraces */
+     , (30551, 8, 723) /* Studded Leather Cowl */
+     , (30551, 8, 512) /* Good Lockpick */
+     , (30551, 8, 43024) /* Silver Knight Medallion  */
+     , (30551, 8, 29372) /* Royal Blood */;
+

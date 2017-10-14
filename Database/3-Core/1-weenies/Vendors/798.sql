@@ -126,49 +126,49 @@ VALUES (798, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (798, 4, 363)
-     , (798, 4, 311)
-     , (798, 4, 300)
-     , (798, 4, 305)
-     , (798, 4, 4585)
-     , (798, 4, 5339)
-     , (798, 4, 4586)
-     , (798, 4, 5347)
-     , (798, 4, 3599)
-     , (798, 4, 3603)
-     , (798, 4, 3601)
-     , (798, 4, 3605)
-     , (798, 4, 3598)
-     , (798, 4, 3602)
-     , (798, 4, 9359)
-     , (798, 4, 9363)
-     , (798, 4, 9362)
-     , (798, 4, 9361)
-     , (798, 4, 9366)
-     , (798, 4, 9377)
-     , (798, 4, 9378)
-     , (798, 4, 23858)
-     , (798, 4, 23857)
-     , (798, 4, 12463)
-     , (798, 4, 12464)
-     , (798, 4, 15296)
-     , (798, 4, 15298)
-     , (798, 4, 2621)
-     , (798, 4, 2622)
-     , (798, 4, 2623)
-     , (798, 4, 2624)
-     , (798, 4, 2625)
-     , (798, 4, 2626)
-     , (798, 4, 2627)
-     , (798, 4, 20628)
-     , (798, 4, 20629)
-     , (798, 4, 20630)
-     , (798, 4, 44074)
-     , (798, 4, 44070)
-     , (798, 4, 44071);
+VALUES (798, 4, 363) /* Yumi */
+     , (798, 4, 311) /* Heavy Crossbow */
+     , (798, 4, 300) /* Arrow */
+     , (798, 4, 305) /* Quarrel */
+     , (798, 4, 4585) /* Bundle of Arrowshafts */
+     , (798, 4, 5339) /* Bundle of Quarrelshafts */
+     , (798, 4, 4586) /* Bundle of Arrowheads */
+     , (798, 4, 5347) /* Bundle of Armor Piercing Arrowheads */
+     , (798, 4, 3599) /* Blunt Arrow */
+     , (798, 4, 3603) /* Blunt Quarrel */
+     , (798, 4, 3601) /* Frog Crotch Arrow */
+     , (798, 4, 3605) /* Frog Crotch Quarrel */
+     , (798, 4, 3598) /* Armor Piercing Arrow */
+     , (798, 4, 3602) /* Armor Piercing Quarrel */
+     , (798, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (798, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (798, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (798, 4, 9361) /* Wrapped Bundle of Armor Piercing Arrowheads */
+     , (798, 4, 9366) /* Wrapped Bundle of Frog Crotch Arrowheads */
+     , (798, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (798, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (798, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (798, 4, 23857) /* Bundle of Spiketails */
+     , (798, 4, 12463) /* Atlatl */
+     , (798, 4, 12464) /* Atlatl Dart */
+     , (798, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (798, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (798, 4, 2621) /* Trade Note (100) */
+     , (798, 4, 2622) /* Trade Note (500) */
+     , (798, 4, 2623) /* Trade Note (1,000) */
+     , (798, 4, 2624) /* Trade Note (5,000) */
+     , (798, 4, 2625) /* Trade Note (10,000) */
+     , (798, 4, 2626) /* Trade Note (50,000) */
+     , (798, 4, 2627) /* Trade Note (100,000) */
+     , (798, 4, 20628) /* Trade Note (150,000) */
+     , (798, 4, 20629) /* Trade Note (200,000) */
+     , (798, 4, 20630) /* Trade Note (250,000) */
+     , (798, 4, 44074) /* Invitation to Master Fletchers */
+     , (798, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (798, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (798, 2, 341);
+VALUES (798, 2, 341) /* Shouyumi */;
 

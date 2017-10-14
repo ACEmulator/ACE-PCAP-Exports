@@ -85,3 +85,110 @@ VALUES (44021, 0, 16795526)
      , (44021, 15, 16795541)
      , (44021, 16, 16795542);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44021, 8, 46) /* Metal Cap */
+     , (44021, 8, 516) /* Peerless Lockpick */
+     , (44021, 8, 44267) /* Engraved A'nekshay Bracers */
+     , (44021, 8, 31813) /* Acid Slingshot */
+     , (44021, 8, 142) /* Chalice */
+     , (44021, 8, 2436) /* Greater Mana Stone */
+     , (44021, 8, 27215) /* Chiran Coat */
+     , (44021, 8, 515) /* Superb Lockpick */
+     , (44021, 8, 27325) /* Stamina Philtre */
+     , (44021, 8, 29240) /* Electric Bow */
+     , (44021, 8, 27321) /* Mana Philtre */
+     , (44021, 8, 28628) /* Diforsa Breastplate */
+     , (44021, 8, 37315) /* Glyph of Lockpick */
+     , (44021, 8, 3867) /* Flaming Silifi */
+     , (44021, 8, 9229) /* Treated Healing Kit */
+     , (44021, 8, 5901) /* Kasa */
+     , (44021, 8, 273) /* Pyreal */
+     , (44021, 8, 20540) /* Scroll of Celcynd's Boon */
+     , (44021, 8, 632) /* Peerless Healing Kit */
+     , (44021, 8, 6005) /* Koujia Sleeves */
+     , (44021, 8, 27328) /* Major Mana Stone */
+     , (44021, 8, 723) /* Studded Leather Cowl */
+     , (44021, 8, 27222) /* Lorica Gauntlets */
+     , (44021, 8, 20464) /* Scroll of Rending Wind */
+     , (44021, 8, 37353) /* Ink of Formation */
+     , (44021, 8, 621) /* Heavy Bracelet */
+     , (44021, 8, 49485) /* Encapsulated Spirit */
+     , (44021, 8, 2423) /* Gem */
+     , (44021, 8, 21115) /* Scroll of Martyr's Tenacity VII */
+     , (44021, 8, 8327) /* Gold Pea */
+     , (44021, 8, 28015) /* Scroll of Spirit Pacification */
+     , (44021, 8, 154) /* Goblet */
+     , (44021, 8, 8331) /* Silver Pea */
+     , (44021, 8, 2404) /* Gem */
+     , (44021, 8, 40624) /* Acid Quadrelle */
+     , (44021, 8, 27318) /* Health Philtre */
+     , (44021, 8, 44295) /* Ancient Tablet of the Crystal Amulet (Level 180+) */
+     , (44021, 8, 6046) /* Amuli Coat */
+     , (44021, 8, 3854) /* Lightning Shamshir */
+     , (44021, 8, 163) /* Ornamental Bowl */
+     , (44021, 8, 37359) /* Alacritous Ink */
+     , (44021, 8, 2412) /* Gem */
+     , (44021, 8, 27327) /* Stamina Tonic */
+     , (44021, 8, 44296) /* Ancient Tablet of the Crystal Idol (Level 180+) */
+     , (44021, 8, 37363) /* Quill of Infliction */
+     , (44021, 8, 45425) /* Frost Dagger */
+     , (44021, 8, 20478) /* Scroll of Fiery Blessing */
+     , (44021, 8, 2403) /* Gem */
+     , (44021, 8, 41747) /* Glyph of Two Handed Combat */
+     , (44021, 8, 27230) /* Nariyid Helm */
+     , (44021, 8, 20593) /* Scroll of Gravity Well */
+     , (44021, 8, 623) /* Heavy Necklace */
+     , (44021, 8, 624) /* Ring */
+     , (44021, 8, 37364) /* Quill of Introspection */
+     , (44021, 8, 37301) /* Glyph of Flame */
+     , (44021, 8, 37351) /* Glyph of Creature Enchantment */
+     , (44021, 8, 31867) /* Diadem */
+     , (44021, 8, 44975) /* Hood */
+     , (44021, 8, 2410) /* Gem */
+     , (44021, 8, 30611) /* Knuckles */
+     , (44021, 8, 40685) /* Olthoi Gauntlets */
+     , (44021, 8, 22165) /* Lightning Quarter Staff */
+     , (44021, 8, 37342) /* Glyph of Corrosion */
+     , (44021, 8, 2425) /* Gem */
+     , (44021, 8, 149) /* Ewer */
+     , (44021, 8, 44293) /* Ancient Tablet of the Crystal Staff (Level 180+) */
+     , (44021, 8, 28610) /* Loafers */
+     , (44021, 8, 25640) /* Leather Cowl */
+     , (44021, 8, 27323) /* Mana Tonic */
+     , (44021, 8, 2367) /* Gorget */
+     , (44021, 8, 2411) /* Gem */
+     , (44021, 8, 2593) /* Loose Tunic */
+     , (44021, 8, 20601) /* Scroll of Essence Void */
+     , (44021, 8, 27217) /* Chiran Helm */
+     , (44021, 8, 85) /* Chainmail Coif */
+     , (44021, 8, 37354) /* Ink of Nullification */
+     , (44021, 8, 2596) /* Doublet */
+     , (44021, 8, 28606) /* Viamontian Pants */
+     , (44021, 8, 44294) /* Ancient Tablet of the Crystal Sword (Level 180+) */
+     , (44021, 8, 2408) /* Gem */
+     , (44021, 8, 43336) /* Scroll of Weakening Curse VII */
+     , (44021, 8, 44800) /* Dho Vest and Over-Robe */
+     , (44021, 8, 357) /* Tungi */
+     , (44021, 8, 37360) /* Ink of Conveyance */
+     , (44021, 8, 40704) /* Covenant Tassets */
+     , (44021, 8, 27320) /* Health Tonic */
+     , (44021, 8, 49462) /* Scroll of Summoning Ineptitude Other VII */
+     , (44021, 8, 243) /* Dinner Plate */
+     , (44021, 8, 20431) /* Scroll of Corrosive Flash */
+     , (44021, 8, 46880) /* Aura of Defender Other VII */
+     , (44021, 8, 37358) /* Ink of Separation */
+     , (44021, 8, 41483) /* Compass */
+     , (44021, 8, 416) /* Chainmail Pauldrons */
+     , (44021, 8, 2594) /* Flared Tunic */
+     , (44021, 8, 28605) /* Beret */
+     , (44021, 8, 3868) /* Frost Silifi */
+     , (44021, 8, 20253) /* Scroll of Might of the 5 Mules */
+     , (44021, 8, 41484) /* Goggles */
+     , (44021, 8, 28624) /* Tenassa Sleeves */
+     , (44021, 8, 29254) /* Electric Atlatl */
+     , (44021, 8, 37192) /* Olthoi Celdon Girth */
+     , (44021, 8, 2597) /* Flared Pants */
+     , (44021, 8, 31865) /* Circlet */;
+

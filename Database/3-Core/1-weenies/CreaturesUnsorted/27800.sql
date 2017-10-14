@@ -64,3 +64,14 @@ VALUES (27800, 2, 8) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27800, 64, 760) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27800, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (27800, 8, 29264) /* Piercing Sceptre */
+     , (27800, 8, 29204) /* Tusker Spit */
+     , (27800, 8, 89) /* Studded Leather Pauldrons */
+     , (27800, 8, 21150) /* Covenant Sollerets */
+     , (27800, 8, 41071) /* Frost Shashqa */
+     , (27800, 8, 624) /* Ring */;
+

@@ -131,11 +131,11 @@ VALUES (4686, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4686, 4, 124)
-     , (4686, 4, 2598)
-     , (4686, 4, 128)
-     , (4686, 4, 2606)
-     , (4686, 4, 5852)
-     , (4686, 4, 5894)
-     , (4686, 4, 8373);
+VALUES (4686, 4, 124) /* Jerkin */
+     , (4686, 4, 2598) /* Baggy Pants */
+     , (4686, 4, 128) /* Qafiya */
+     , (4686, 4, 2606) /* Boots */
+     , (4686, 4, 5852) /* Dho Vest and Robe */
+     , (4686, 4, 5894) /* Fez */
+     , (4686, 4, 8373) /* Kiyafa Robe */;
 

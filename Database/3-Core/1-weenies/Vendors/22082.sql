@@ -128,7 +128,7 @@ VALUES (22082, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (22082, 4, 5671)
-     , (22082, 4, 5670)
-     , (22082, 4, 5672);
+VALUES (22082, 4, 5671) /* Cold Milk */
+     , (22082, 4, 5670) /* Tempting Apple */
+     , (22082, 4, 5672) /* Herbal Tea */;
 

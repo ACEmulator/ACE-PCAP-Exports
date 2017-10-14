@@ -83,3 +83,65 @@ VALUES (28247, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28247, 64, 565) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28247, 8, 80) /* Chainmail Leggings */
+     , (28247, 8, 273) /* Pyreal */
+     , (28247, 8, 21152) /* Covenant Breastplate */
+     , (28247, 8, 8331) /* Silver Pea */
+     , (28247, 8, 2411) /* Gem */
+     , (28247, 8, 8327) /* Gold Pea */
+     , (28247, 8, 621) /* Heavy Bracelet */
+     , (28247, 8, 31865) /* Circlet */
+     , (28247, 8, 2436) /* Greater Mana Stone */
+     , (28247, 8, 27328) /* Major Mana Stone */
+     , (28247, 8, 20586) /* Scroll of Heavy Weapon Mastery Self VII */
+     , (28247, 8, 8326) /* Copper Pea */
+     , (28247, 8, 21153) /* Covenant Gauntlets */
+     , (28247, 8, 163) /* Ornamental Bowl */
+     , (28247, 8, 243) /* Dinner Plate */
+     , (28247, 8, 27330) /* Moderate Mana Stone */
+     , (28247, 8, 154) /* Goblet */
+     , (28247, 8, 61) /* Platemail Girth */
+     , (28247, 8, 149) /* Ewer */
+     , (28247, 8, 20487) /* Scroll of Decrepitude's Grasp */
+     , (28247, 8, 2424) /* Gem */
+     , (28247, 8, 308) /* Budiaq */
+     , (28247, 8, 624) /* Ring */
+     , (28247, 8, 41483) /* Compass */
+     , (28247, 8, 22166) /* Flaming Quarter Staff */
+     , (28247, 8, 2367) /* Gorget */
+     , (28247, 8, 7772) /* Trident */
+     , (28247, 8, 49485) /* Encapsulated Spirit */
+     , (28247, 8, 2393) /* Gem */
+     , (28247, 8, 27226) /* Nariyid Boots */
+     , (28247, 8, 2399) /* Gem */
+     , (28247, 8, 22164) /* Acid Quarter Staff */
+     , (28247, 8, 20540) /* Scroll of Celcynd's Boon */
+     , (28247, 8, 128) /* Qafiya */
+     , (28247, 8, 2592) /* Puffy Tunic */
+     , (28247, 8, 27225) /* Lorica Sleeves */
+     , (28247, 8, 21115) /* Scroll of Martyr's Tenacity VII */
+     , (28247, 8, 29248) /* Fire Crossbow */
+     , (28247, 8, 2395) /* Gem */
+     , (28247, 8, 6046) /* Amuli Coat */
+     , (28247, 8, 20549) /* Scroll of Kwipetian Vision */
+     , (28247, 8, 24477) /* Sturdy Steel Key */
+     , (28247, 8, 297) /* Ring */
+     , (28247, 8, 2422) /* Gem */
+     , (28247, 8, 28605) /* Beret */
+     , (28247, 8, 2602) /* Loose Breeches */
+     , (28247, 8, 6353) /* Pyreal Mote */
+     , (28247, 8, 2408) /* Gem */
+     , (28247, 8, 28939) /* Scroll of Arcanum Salvaging VII */
+     , (28247, 8, 20450) /* Scroll of Icy Torment */
+     , (28247, 8, 25661) /* Leather Boots */
+     , (28247, 8, 40708) /* Covenant Gauntlets */
+     , (28247, 8, 41047) /* Acid Pike */
+     , (28247, 8, 28607) /* Lace Shirt */
+     , (28247, 8, 44802) /* Vestiri Over-robe */
+     , (28247, 8, 49435) /* Fire Spectre Essence (50) */
+     , (28247, 8, 2400) /* Gem */
+     , (28247, 8, 332) /* Morning Star */;
+

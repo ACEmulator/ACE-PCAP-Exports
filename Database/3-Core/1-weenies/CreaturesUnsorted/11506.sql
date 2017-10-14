@@ -98,3 +98,17 @@ VALUES (11506, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11506, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11506, 8, 49366) /* Acid Grievver Essence (50) */
+     , (11506, 8, 25651) /* Leather Sleeves */
+     , (11506, 8, 3883) /* Flaming Long Sword */
+     , (11506, 8, 129) /* Sandals */
+     , (11506, 8, 37) /* Scalemail Bracers */
+     , (11506, 8, 20253) /* Scroll of Might of the 5 Mules */
+     , (11506, 8, 89) /* Studded Leather Pauldrons */
+     , (11506, 8, 49318) /* Lightning Wisp Essence (80) */
+     , (11506, 8, 21315) /* Scroll of Force Arc VII */
+     , (11506, 8, 2435) /* Mana Stone */;
+

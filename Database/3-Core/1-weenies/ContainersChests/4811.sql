@@ -49,3 +49,12 @@ VALUES (4811, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4811, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4811, 8, 295) /* Bracelet */
+     , (4811, 8, 21313) /* Scroll of Force Arc V */
+     , (4811, 8, 621) /* Heavy Bracelet */
+     , (4811, 8, 294) /* Amulet */
+     , (4811, 8, 31865) /* Circlet */;
+

@@ -98,6 +98,6 @@ VALUES (41838, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41838, 2, 24200)
-     , (41838, 2, 38853);
+VALUES (41838, 2, 24200) /* Weeping Claw */
+     , (41838, 2, 38853) /* Radiant Blood Shield */;
 

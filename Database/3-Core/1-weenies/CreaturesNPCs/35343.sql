@@ -70,5 +70,5 @@ VALUES (35343, 64, 12000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35343, 2, 23130);
+VALUES (35343, 2, 23130) /* Frost Throwing Club */;
 

@@ -48,3 +48,39 @@ VALUES (27715, 2, 46) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27715, 64, 320) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27715, 8, 31774) /* Board with Nail */
+     , (27715, 8, 8925) /* Scroll of Flame Streak VI */
+     , (27715, 8, 48972) /* Acid Zombie Essence (50) */
+     , (27715, 8, 273) /* Pyreal */
+     , (27715, 8, 142) /* Chalice */
+     , (27715, 8, 7940) /* Empty Flask */
+     , (27715, 8, 2547) /* Staff */
+     , (27715, 8, 301) /* Battle Axe */
+     , (27715, 8, 118) /* Cloth Cap */
+     , (27715, 8, 2588) /* Flared Shirt */
+     , (27715, 8, 2435) /* Mana Stone */
+     , (27715, 8, 49538) /* Frost Phyntos Wasp Essence (50) */
+     , (27715, 8, 20549) /* Scroll of Kwipetian Vision */
+     , (27715, 8, 40762) /* Lightning Nodachi */
+     , (27715, 8, 44856) /* Trimmed Cloak */
+     , (27715, 8, 2425) /* Gem */
+     , (27715, 8, 20395) /* Scroll of Nullify Life Magic Other */
+     , (27715, 8, 49296) /* Fire K'nath Essence (50) */
+     , (27715, 8, 3377) /* Scroll of Life Magic Mastery Self VI */
+     , (27715, 8, 296) /* Crown */
+     , (27715, 8, 20482) /* Scroll of Astyrrian's Gift */
+     , (27715, 8, 31773) /* Frost Board with Nail */
+     , (27715, 8, 2423) /* Gem */
+     , (27715, 8, 630) /* Gifted Healing Kit */
+     , (27715, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (27715, 8, 121) /* Gloves */
+     , (27715, 8, 2420) /* Gem */
+     , (27715, 8, 3457) /* Scroll of Person Attunement Self VI */
+     , (27715, 8, 8919) /* Scroll of Acid Streak VI */
+     , (27715, 8, 2590) /* Baggy Shirt */
+     , (27715, 8, 22154) /* Acid Jo */
+     , (27715, 8, 3938) /* Frost Morning Star */;
+

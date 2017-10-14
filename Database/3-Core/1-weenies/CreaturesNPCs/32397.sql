@@ -173,5 +173,5 @@ VALUES (32397, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (32397, 2, 32565);
+VALUES (32397, 2, 32565) /* Memorial Sword of Lost Light */;
 

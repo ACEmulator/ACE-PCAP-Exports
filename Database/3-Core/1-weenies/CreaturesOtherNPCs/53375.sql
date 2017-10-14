@@ -47,5 +47,12 @@ VALUES (53375, 64, 1230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (53375, 2, 33459);
+VALUES (53375, 2, 33459) /* Shadow Bolt */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (53375, 8, 8952) /* Scroll of Shock Wave Streak VI */
+     , (53375, 8, 31786) /* Lightning Claw */
+     , (53375, 8, 28622) /* Tenassa Leggings */;
 

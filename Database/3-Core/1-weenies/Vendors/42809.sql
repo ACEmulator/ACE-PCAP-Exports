@@ -126,27 +126,27 @@ VALUES (42809, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42809, 4, 4728)
-     , (42809, 4, 4732)
-     , (42809, 4, 620)
-     , (42809, 4, 4709)
-     , (42809, 4, 2467)
-     , (42809, 4, 2469)
-     , (42809, 4, 2451)
-     , (42809, 4, 2455)
-     , (42809, 4, 2456)
-     , (42809, 4, 8378)
-     , (42809, 4, 44820)
-     , (42809, 4, 44821)
-     , (42809, 4, 44822)
-     , (42809, 4, 44885)
-     , (42809, 4, 44881)
-     , (42809, 4, 47159)
-     , (42809, 4, 47162)
-     , (42809, 4, 47160)
-     , (42809, 4, 47161)
-     , (42809, 4, 52018)
-     , (42809, 4, 52019)
-     , (42809, 4, 52017)
-     , (42809, 4, 52020);
+VALUES (42809, 4, 4728) /* Fried Chicken */
+     , (42809, 4, 4732) /* Fried Steak */
+     , (42809, 4, 620) /* Cake */
+     , (42809, 4, 4709) /* Apple Pie */
+     , (42809, 4, 2467) /* Red Wine */
+     , (42809, 4, 2469) /* Small Beer */
+     , (42809, 4, 2451) /* Ale */
+     , (42809, 4, 2455) /* Grape Juice */
+     , (42809, 4, 2456) /* Green Tea */
+     , (42809, 4, 8378) /* Beer Stein */
+     , (42809, 4, 44820) /* Contract for Quest of the Month: Weekly #1 */
+     , (42809, 4, 44821) /* Contract for Quest of the Month: Weekly #2 */
+     , (42809, 4, 44822) /* Contract for Quest of the Month: Weekly #3 */
+     , (42809, 4, 44885) /* Contract for Yanshi Tunnels */
+     , (42809, 4, 44881) /* Contract for Aerbax's Prodigal Tusker */
+     , (42809, 4, 47159) /* Contract for Crystalline Killer */
+     , (42809, 4, 47162) /* Contract for Crystalline Bound Wisp */
+     , (42809, 4, 47160) /* Contract for Crystalline Markers */
+     , (42809, 4, 47161) /* Contract for Crystalline Adventurer */
+     , (42809, 4, 52018) /* Contract for Changing Gears */
+     , (42809, 4, 52019) /* Contract for Fear Factory */
+     , (42809, 4, 52017) /* Contract for Rynthid Genesis */
+     , (42809, 4, 52020) /* Contract for Spirited Halls */;
 

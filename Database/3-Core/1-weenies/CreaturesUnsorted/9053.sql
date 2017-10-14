@@ -41,3 +41,48 @@ VALUES (9053, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9053, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9053, 8, 161) /* Mug */
+     , (9053, 8, 27330) /* Moderate Mana Stone */
+     , (9053, 8, 273) /* Pyreal */
+     , (9053, 8, 9044) /* Small Pale Crystal */
+     , (9053, 8, 150) /* Flagon */
+     , (9053, 8, 8329) /* Lead Pea */
+     , (9053, 8, 28610) /* Loafers */
+     , (9053, 8, 8326) /* Copper Pea */
+     , (9053, 8, 163) /* Ornamental Bowl */
+     , (9053, 8, 2434) /* Lesser Mana Stone */
+     , (9053, 8, 20415) /* Scroll of Geledite Bait */
+     , (9053, 8, 87) /* Platemail Pauldrons */
+     , (9053, 8, 2435) /* Mana Stone */
+     , (9053, 8, 793) /* Scalemail Coif */
+     , (9053, 8, 25651) /* Leather Sleeves */
+     , (9053, 8, 2431) /* Gem */
+     , (9053, 8, 2417) /* Gem */
+     , (9053, 8, 2367) /* Gorget */
+     , (9053, 8, 135) /* Turban */
+     , (9053, 8, 8328) /* Iron Pea */
+     , (9053, 8, 2416) /* Gem */
+     , (9053, 8, 624) /* Ring */
+     , (9053, 8, 2433) /* Gem */
+     , (9053, 8, 119) /* Cowl */
+     , (9053, 8, 2432) /* Gem */
+     , (9053, 8, 2590) /* Baggy Shirt */
+     , (9053, 8, 30605) /* Acid Stiletto */
+     , (9053, 8, 3037) /* Scroll of Fire Protection Other VI */
+     , (9053, 8, 6046) /* Amuli Coat */
+     , (9053, 8, 7768) /* Spiked Club */
+     , (9053, 8, 297) /* Ring */
+     , (9053, 8, 2430) /* Gem */
+     , (9053, 8, 45411) /* Spada */
+     , (9053, 8, 3467) /* Scroll of Resist Magic Other VI */
+     , (9053, 8, 3362) /* Scroll of Leadership Mastery Self VI */
+     , (9053, 8, 45266) /* Scroll of Dual Wield Ineptitude Other VII */
+     , (9053, 8, 9046) /* Sunstone Geode */
+     , (9053, 8, 2472) /* Wand */
+     , (9053, 8, 42) /* Studded Leather Breastplate */
+     , (9053, 8, 2599) /* Trousers */
+     , (9053, 8, 89) /* Studded Leather Pauldrons */;
+

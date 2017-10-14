@@ -50,3 +50,45 @@ VALUES (31913, 2, 34) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31913, 64, 2700) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31913, 8, 20530) /* Scroll of Lilitha's Boon */
+     , (31913, 8, 20493) /* Scroll of Tenaciousness */
+     , (31913, 8, 2604) /* Wide Breeches */
+     , (31913, 8, 25650) /* Leather Shorts */
+     , (31913, 8, 31903) /* Gold Moarsman Tooth */
+     , (31913, 8, 2424) /* Gem */
+     , (31913, 8, 43049) /* Knorr Academy Gauntlets */
+     , (31913, 8, 2407) /* Gem */
+     , (31913, 8, 42753) /* Haebrean Helm */
+     , (31913, 8, 142) /* Chalice */
+     , (31913, 8, 45117) /* Frost Hammer */
+     , (31913, 8, 27321) /* Mana Philtre */
+     , (31913, 8, 27325) /* Stamina Philtre */
+     , (31913, 8, 28607) /* Lace Shirt */
+     , (31913, 8, 20466) /* Scroll of Caustic Blessing */
+     , (31913, 8, 42749) /* Haebrean Breastplate */
+     , (31913, 8, 108) /* Chainmail Tassets */
+     , (31913, 8, 6047) /* Amuli Leggings */
+     , (31913, 8, 273) /* Pyreal */
+     , (31913, 8, 25661) /* Leather Boots */
+     , (31913, 8, 31759) /* Dericost Blade */
+     , (31913, 8, 49293) /* Lightning K'nath Essence (150) */
+     , (31913, 8, 89) /* Studded Leather Pauldrons */
+     , (31913, 8, 29260) /* Blunt Sceptre */
+     , (31913, 8, 38) /* Studded Leather Bracers */
+     , (31913, 8, 324) /* Kaskara */
+     , (31913, 8, 2404) /* Gem */
+     , (31913, 8, 6045) /* Celdon Leggings */
+     , (31913, 8, 20422) /* Scroll of Wi's Folly */
+     , (31913, 8, 632) /* Peerless Healing Kit */
+     , (31913, 8, 9229) /* Treated Healing Kit */
+     , (31913, 8, 20555) /* Scroll of Fat Fingers */
+     , (31913, 8, 20538) /* Scroll of Aura of Defense */
+     , (31913, 8, 621) /* Heavy Bracelet */
+     , (31913, 8, 31799) /* Acid Compound Bow */
+     , (31913, 8, 119) /* Cowl */
+     , (31913, 8, 45290) /* Scroll of Recklessness Ineptitude Other VII */
+     , (31913, 8, 3811) /* Lightning Kaskara */;
+

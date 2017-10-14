@@ -43,3 +43,14 @@ VALUES (21551, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (21551, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (21551, 8, 49462) /* Scroll of Summoning Ineptitude Other VII */
+     , (21551, 8, 2435) /* Mana Stone */
+     , (21551, 8, 150) /* Flagon */
+     , (21551, 8, 27330) /* Moderate Mana Stone */
+     , (21551, 8, 8329) /* Lead Pea */
+     , (21551, 8, 121) /* Gloves */
+     , (21551, 8, 8328) /* Iron Pea */;
+

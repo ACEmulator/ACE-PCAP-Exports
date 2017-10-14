@@ -49,3 +49,22 @@ VALUES (31360, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31360, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31360, 8, 2547) /* Staff */
+     , (31360, 8, 307) /* Shortbow */
+     , (31360, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (31360, 8, 20477) /* Scroll of Fiery Boon */
+     , (31360, 8, 416) /* Chainmail Pauldrons */
+     , (31360, 8, 49468) /* Scroll of Summoning Mastery Other VI */
+     , (31360, 8, 96) /* Chainmail Shirt */
+     , (31360, 8, 6045) /* Celdon Leggings */
+     , (31360, 8, 273) /* Pyreal */
+     , (31360, 8, 43) /* Yoroi Breastplate */
+     , (31360, 8, 59) /* Studded Leather Gauntlets */
+     , (31360, 8, 20500) /* Scroll of Aliester's Blessing */
+     , (31360, 8, 243) /* Dinner Plate */
+     , (31360, 8, 45406) /* Yaoji */
+     , (31360, 8, 22164) /* Acid Quarter Staff */;
+

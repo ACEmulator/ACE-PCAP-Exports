@@ -51,3 +51,62 @@ VALUES (23769, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (23769, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23769, 8, 121) /* Gloves */
+     , (23769, 8, 20504) /* Scroll of Light Weapon Ineptitude Other VII */
+     , (23769, 8, 273) /* Pyreal */
+     , (23769, 8, 41052) /* Greataxe */
+     , (23769, 8, 621) /* Heavy Bracelet */
+     , (23769, 8, 8326) /* Copper Pea */
+     , (23769, 8, 2393) /* Gem */
+     , (23769, 8, 31865) /* Circlet */
+     , (23769, 8, 41485) /* Pocket Watch */
+     , (23769, 8, 20534) /* Scroll of Avalenne's Blessing */
+     , (23769, 8, 163) /* Ornamental Bowl */
+     , (23769, 8, 8331) /* Silver Pea */
+     , (23769, 8, 31866) /* Coronet */
+     , (23769, 8, 27330) /* Moderate Mana Stone */
+     , (23769, 8, 40695) /* Covenant Sollerets */
+     , (23769, 8, 2406) /* Gem */
+     , (23769, 8, 132) /* Shoes */
+     , (23769, 8, 2711) /* Scroll of Mana Drain Other VI */
+     , (23769, 8, 2435) /* Mana Stone */
+     , (23769, 8, 2587) /* Shirt */
+     , (23769, 8, 2604) /* Wide Breeches */
+     , (23769, 8, 2422) /* Gem */
+     , (23769, 8, 68) /* Studded Leather Greaves */
+     , (23769, 8, 142) /* Chalice */
+     , (23769, 8, 2398) /* Gem */
+     , (23769, 8, 9292) /* Virindi Singularity Key */
+     , (23769, 8, 5901) /* Kasa */
+     , (23769, 8, 141) /* Bowl */
+     , (23769, 8, 3017) /* Scroll of Bludgeoning Vulnerability Other VI */
+     , (23769, 8, 2436) /* Greater Mana Stone */
+     , (23769, 8, 2599) /* Trousers */
+     , (23769, 8, 41486) /* Puzzle Box */
+     , (23769, 8, 31868) /* Signet Crown */
+     , (23769, 8, 20585) /* Scroll of Heavy Weapon Mastery Other VII */
+     , (23769, 8, 45426) /* Jambiya */
+     , (23769, 8, 2591) /* Puffy Shirt */
+     , (23769, 8, 133) /* Slippers */
+     , (23769, 8, 2826) /* Scroll of Frost Bane VI */
+     , (23769, 8, 154) /* Goblet */
+     , (23769, 8, 31763) /* Frost Lugian Hammer */
+     , (23769, 8, 95) /* Tower Shield */
+     , (23769, 8, 3497) /* Scroll of Sprint Self VI */
+     , (23769, 8, 297) /* Ring */
+     , (23769, 8, 7604) /* Yellow Jewel */
+     , (23769, 8, 624) /* Ring */
+     , (23769, 8, 7790) /* Electric Spiked Club */
+     , (23769, 8, 554) /* Studded Leather Basinet */
+     , (23769, 8, 40761) /* Acid Nodachi */
+     , (23769, 8, 311) /* Heavy Crossbow */
+     , (23769, 8, 3883) /* Flaming Long Sword */
+     , (23769, 8, 111) /* Scalemail Tassets */
+     , (23769, 8, 43336) /* Scroll of Weakening Curse VII */
+     , (23769, 8, 20608) /* Scroll of Gift of Essence */
+     , (23769, 8, 2420) /* Gem */
+     , (23769, 8, 41487) /* Mechanical Scarab */;
+

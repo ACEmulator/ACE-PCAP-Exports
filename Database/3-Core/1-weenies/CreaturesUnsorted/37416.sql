@@ -42,3 +42,20 @@ VALUES (37416, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37416, 67113029, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37416, 8, 2425) /* Gem */
+     , (37416, 8, 2367) /* Gorget */
+     , (37416, 8, 45121) /* Flaming Hand Wraps */
+     , (37416, 8, 118) /* Cloth Cap */
+     , (37416, 8, 154) /* Goblet */
+     , (37416, 8, 2590) /* Baggy Shirt */
+     , (37416, 8, 42635) /* Aetheria */
+     , (37416, 8, 40712) /* Covenant Pauldrons */
+     , (37416, 8, 20406) /* Aura of Infected Caress */
+     , (37416, 8, 2587) /* Shirt */
+     , (37416, 8, 20230) /* Scroll of Executor's Boon */
+     , (37416, 8, 6047) /* Amuli Leggings */
+     , (37416, 8, 39008) /* Desolation Sea Invasion Key */;
+

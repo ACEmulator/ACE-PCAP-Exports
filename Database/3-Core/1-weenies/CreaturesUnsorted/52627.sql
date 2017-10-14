@@ -46,3 +46,14 @@ VALUES (52627, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (52627, 64, 20200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52627, 8, 3938) /* Frost Morning Star */
+     , (52627, 8, 37363) /* Quill of Infliction */
+     , (52627, 8, 37365) /* Quill of Benevolence */
+     , (52627, 8, 37211) /* Olthoi Sollerets */
+     , (52627, 8, 7771) /* Naginata */
+     , (52627, 8, 37360) /* Ink of Conveyance */
+     , (52627, 8, 273) /* Pyreal */;
+

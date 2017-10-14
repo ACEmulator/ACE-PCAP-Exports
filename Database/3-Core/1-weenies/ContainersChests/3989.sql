@@ -52,3 +52,12 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3989, 2, 0) /* OPEN_BOOL */
      , (3989, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3989, 8, 42) /* Studded Leather Breastplate */
+     , (3989, 8, 2420) /* Gem */
+     , (3989, 8, 49296) /* Fire K'nath Essence (50) */
+     , (3989, 8, 294) /* Amulet */
+     , (3989, 8, 31789) /* Acid Stick */;
+

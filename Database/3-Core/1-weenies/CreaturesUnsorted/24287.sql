@@ -58,3 +58,53 @@ VALUES (24287, 2, 28) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24287, 64, 420) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24287, 8, 45113) /* Hammer */
+     , (24287, 8, 623) /* Heavy Necklace */
+     , (24287, 8, 45102) /* Flaming Epee */
+     , (24287, 8, 25651) /* Leather Sleeves */
+     , (24287, 8, 45322) /* Scroll of Shield Mastery Other VII */
+     , (24287, 8, 28609) /* Vest */
+     , (24287, 8, 3452) /* Scroll of Person Attunement Other VI */
+     , (24287, 8, 631) /* Excellent Healing Kit */
+     , (24287, 8, 25641) /* Leather Cuirass */
+     , (24287, 8, 48961) /* Fire Elemental Essence (80) */
+     , (24287, 8, 3007) /* Scroll of Bludgeon Protection Other VI */
+     , (24287, 8, 3202) /* Scroll of Creature Enchantment Mastery Self VI */
+     , (24287, 8, 8326) /* Copper Pea */
+     , (24287, 8, 12253) /* Monougat */
+     , (24287, 8, 3127) /* Scroll of Rejuvenate Self VI */
+     , (24287, 8, 621) /* Heavy Bracelet */
+     , (24287, 8, 45122) /* Frost Hand Wraps */
+     , (24287, 8, 7940) /* Empty Flask */
+     , (24287, 8, 28622) /* Tenassa Leggings */
+     , (24287, 8, 29264) /* Piercing Sceptre */
+     , (24287, 8, 20561) /* Scroll of Celdiseth's Boon */
+     , (24287, 8, 4195) /* Nekode */
+     , (24287, 8, 311) /* Heavy Crossbow */
+     , (24287, 8, 7793) /* Acid Trident */
+     , (24287, 8, 95) /* Tower Shield */
+     , (24287, 8, 2470) /* Stamina Elixir */
+     , (24287, 8, 112) /* Studded Leather Tassets */
+     , (24287, 8, 40697) /* Covenant Breastplate */
+     , (24287, 8, 101) /* Chainmail Sleeves */
+     , (24287, 8, 87) /* Platemail Pauldrons */
+     , (24287, 8, 4196) /* Flaming Nekode */
+     , (24287, 8, 49282) /* Acid K'nath Essence (50) */
+     , (24287, 8, 27237) /* Scroll of Eradicate Life Magic Self */
+     , (24287, 8, 514) /* Excellent Lockpick */
+     , (24287, 8, 3904) /* Frost Tungi */
+     , (24287, 8, 108) /* Chainmail Tassets */
+     , (24287, 8, 49332) /* Frost Wisp Essence (80) */
+     , (24287, 8, 31868) /* Signet Crown */
+     , (24287, 8, 44976) /* Hood */
+     , (24287, 8, 3087) /* Scroll of Fester Other VI */
+     , (24287, 8, 29263) /* Frost Sceptre */
+     , (24287, 8, 27330) /* Moderate Mana Stone */
+     , (24287, 8, 42516) /* Coalesced Mana */
+     , (24287, 8, 2435) /* Mana Stone */
+     , (24287, 8, 3347) /* Scroll of Leaden Feet VI */
+     , (24287, 8, 294) /* Amulet */;
+

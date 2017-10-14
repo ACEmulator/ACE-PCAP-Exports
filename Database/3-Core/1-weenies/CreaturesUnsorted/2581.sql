@@ -48,3 +48,43 @@ VALUES (2581, 2, 23) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2581, 64, 68) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2581, 8, 44857) /* Quartered Cloak */
+     , (2581, 8, 133) /* Slippers */
+     , (2581, 8, 71) /* Chainmail Hauberk */
+     , (2581, 8, 25645) /* Leather Leggings */
+     , (2581, 8, 161) /* Mug */
+     , (2581, 8, 8329) /* Lead Pea */
+     , (2581, 8, 49442) /* Frost Spectre Essence (50) */
+     , (2581, 8, 49485) /* Encapsulated Spirit */
+     , (2581, 8, 3849) /* Acid Scimitar */
+     , (2581, 8, 628) /* Handy Healing Kit */
+     , (2581, 8, 44) /* Buckler */
+     , (2581, 8, 294) /* Amulet */
+     , (2581, 8, 2590) /* Baggy Shirt */
+     , (2581, 8, 25642) /* Leather Gauntlets */
+     , (2581, 8, 2419) /* Gem */
+     , (2581, 8, 2414) /* Gem */
+     , (2581, 8, 2415) /* Gem */
+     , (2581, 8, 7793) /* Acid Trident */
+     , (2581, 8, 2434) /* Lesser Mana Stone */
+     , (2581, 8, 243) /* Dinner Plate */
+     , (2581, 8, 119) /* Cowl */
+     , (2581, 8, 2420) /* Gem */
+     , (2581, 8, 2417) /* Gem */
+     , (2581, 8, 513) /* Plain Lockpick */
+     , (2581, 8, 41484) /* Goggles */
+     , (2581, 8, 295) /* Bracelet */
+     , (2581, 8, 25649) /* Leather Shirt */
+     , (2581, 8, 4240) /* Small Mattekar Hide */
+     , (2581, 8, 2598) /* Baggy Pants */
+     , (2581, 8, 130) /* Shirt */
+     , (2581, 8, 273) /* Pyreal */
+     , (2581, 8, 141) /* Bowl */
+     , (2581, 8, 42) /* Studded Leather Breastplate */
+     , (2581, 8, 1705) /* Scroll of Item Enchantment Mastery Self */
+     , (2581, 8, 31773) /* Frost Board with Nail */
+     , (2581, 8, 27331) /* Minor Mana Stone */;
+

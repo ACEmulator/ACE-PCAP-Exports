@@ -49,3 +49,11 @@ VALUES (33038, 2, 89) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33038, 64, 2703) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33038, 8, 243) /* Dinner Plate */
+     , (33038, 8, 2402) /* Gem */
+     , (33038, 8, 621) /* Heavy Bracelet */
+     , (33038, 8, 624) /* Ring */;
+

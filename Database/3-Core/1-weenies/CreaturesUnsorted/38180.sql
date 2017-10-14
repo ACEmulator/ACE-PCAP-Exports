@@ -50,3 +50,17 @@ VALUES (38180, 2, 44) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38180, 64, 465) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38180, 8, 150) /* Flagon */
+     , (38180, 8, 27328) /* Major Mana Stone */
+     , (38180, 8, 273) /* Pyreal */
+     , (38180, 8, 38222) /* Blighted Mana Crystal */
+     , (38180, 8, 621) /* Heavy Bracelet */
+     , (38180, 8, 2436) /* Greater Mana Stone */
+     , (38180, 8, 31026) /* Tenassa Breastplate */
+     , (38180, 8, 27330) /* Moderate Mana Stone */
+     , (38180, 8, 2599) /* Trousers */
+     , (38180, 8, 20512) /* Scroll of Morimoto's Blessing */;
+

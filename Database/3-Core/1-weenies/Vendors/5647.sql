@@ -123,24 +123,24 @@ VALUES (5647, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5647, 4, 2457)
-     , (5647, 4, 377)
-     , (5647, 4, 27319)
-     , (5647, 4, 2460)
-     , (5647, 4, 379)
-     , (5647, 4, 27322)
-     , (5647, 4, 378)
-     , (5647, 4, 27326)
-     , (5647, 4, 2470)
-     , (5647, 4, 628)
-     , (5647, 4, 629)
-     , (5647, 4, 630)
-     , (5647, 4, 631)
-     , (5647, 4, 4607)
-     , (5647, 4, 4601)
-     , (5647, 4, 4587)
-     , (5647, 4, 4605)
-     , (5647, 4, 5645)
-     , (5647, 4, 2621)
-     , (5647, 4, 2622);
+VALUES (5647, 4, 2457) /* Health Draught */
+     , (5647, 4, 377) /* Potion of Healing */
+     , (5647, 4, 27319) /* Health Tincture */
+     , (5647, 4, 2460) /* Mana Draught */
+     , (5647, 4, 379) /* Mana Potion */
+     , (5647, 4, 27322) /* Mana Tincture */
+     , (5647, 4, 378) /* Stamina Potion */
+     , (5647, 4, 27326) /* Stamina Tincture */
+     , (5647, 4, 2470) /* Stamina Elixir */
+     , (5647, 4, 628) /* Handy Healing Kit */
+     , (5647, 4, 629) /* Adept Healing Kit */
+     , (5647, 4, 630) /* Gifted Healing Kit */
+     , (5647, 4, 631) /* Excellent Healing Kit */
+     , (5647, 4, 4607) /* Quickness Other II */
+     , (5647, 4, 4601) /* Strength Other II */
+     , (5647, 4, 4587) /* Heal Other II */
+     , (5647, 4, 4605) /* Coordination Other II */
+     , (5647, 4, 5645) /* History of Neydisa Castle. */
+     , (5647, 4, 2621) /* Trade Note (100) */
+     , (5647, 4, 2622) /* Trade Note (500) */;
 

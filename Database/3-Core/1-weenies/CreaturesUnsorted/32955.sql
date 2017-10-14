@@ -49,3 +49,22 @@ VALUES (32955, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (32955, 64, 1345) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32955, 8, 20237) /* Scroll of Perseverance */
+     , (32955, 8, 273) /* Pyreal */
+     , (32955, 8, 623) /* Heavy Necklace */
+     , (32955, 8, 27328) /* Major Mana Stone */
+     , (32955, 8, 24477) /* Sturdy Steel Key */
+     , (32955, 8, 163) /* Ornamental Bowl */
+     , (32955, 8, 42) /* Studded Leather Breastplate */
+     , (32955, 8, 516) /* Peerless Lockpick */
+     , (32955, 8, 515) /* Superb Lockpick */
+     , (32955, 8, 127) /* Pants */
+     , (32955, 8, 27321) /* Mana Philtre */
+     , (32955, 8, 632) /* Peerless Healing Kit */
+     , (32955, 8, 2402) /* Gem */
+     , (32955, 8, 154) /* Goblet */
+     , (32955, 8, 27318) /* Health Philtre */;
+

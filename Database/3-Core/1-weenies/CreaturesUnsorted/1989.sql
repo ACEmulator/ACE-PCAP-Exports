@@ -41,3 +41,26 @@ VALUES (1989, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1989, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1989, 8, 45116) /* Flaming Hammer */
+     , (1989, 8, 273) /* Pyreal */
+     , (1989, 8, 2435) /* Mana Stone */
+     , (1989, 8, 2419) /* Gem */
+     , (1989, 8, 8329) /* Lead Pea */
+     , (1989, 8, 41483) /* Compass */
+     , (1989, 8, 8328) /* Iron Pea */
+     , (1989, 8, 30587) /* Acid Flanged Mace */
+     , (1989, 8, 2434) /* Lesser Mana Stone */
+     , (1989, 8, 43370) /* Scroll of Void Magic Ineptitude IV */
+     , (1989, 8, 243) /* Dinner Plate */
+     , (1989, 8, 27331) /* Minor Mana Stone */
+     , (1989, 8, 31793) /* Frost Lancet */
+     , (1989, 8, 7897) /* Steel Toed Boots */
+     , (1989, 8, 2418) /* Gem */
+     , (1989, 8, 622) /* Necklace */
+     , (1989, 8, 295) /* Bracelet */
+     , (1989, 8, 63) /* Studded Leather Girth */
+     , (1989, 8, 2598) /* Baggy Pants */;
+

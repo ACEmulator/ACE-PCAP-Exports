@@ -49,3 +49,9 @@ VALUES (4886, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4886, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4886, 8, 8716) /* Al Arqas Town Stamp */
+     , (4886, 8, 4889) /* Distillery Ambrosia */;
+

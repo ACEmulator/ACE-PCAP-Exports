@@ -132,30 +132,30 @@ VALUES (2297, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2297, 4, 2457)
-     , (2297, 4, 377)
-     , (2297, 4, 27319)
-     , (2297, 4, 2460)
-     , (2297, 4, 379)
-     , (2297, 4, 27322)
-     , (2297, 4, 378)
-     , (2297, 4, 27326)
-     , (2297, 4, 2470)
-     , (2297, 4, 628)
-     , (2297, 4, 629)
-     , (2297, 4, 630)
-     , (2297, 4, 4611)
-     , (2297, 4, 4609)
-     , (2297, 4, 4607)
-     , (2297, 4, 4605)
-     , (2297, 4, 4603)
-     , (2297, 4, 4601)
-     , (2297, 4, 4600)
-     , (2297, 4, 4598)
-     , (2297, 4, 4596)
-     , (2297, 4, 4593)
-     , (2297, 4, 4590)
-     , (2297, 4, 4587)
-     , (2297, 4, 2621)
-     , (2297, 4, 2622);
+VALUES (2297, 4, 2457) /* Health Draught */
+     , (2297, 4, 377) /* Potion of Healing */
+     , (2297, 4, 27319) /* Health Tincture */
+     , (2297, 4, 2460) /* Mana Draught */
+     , (2297, 4, 379) /* Mana Potion */
+     , (2297, 4, 27322) /* Mana Tincture */
+     , (2297, 4, 378) /* Stamina Potion */
+     , (2297, 4, 27326) /* Stamina Tincture */
+     , (2297, 4, 2470) /* Stamina Elixir */
+     , (2297, 4, 628) /* Handy Healing Kit */
+     , (2297, 4, 629) /* Adept Healing Kit */
+     , (2297, 4, 630) /* Gifted Healing Kit */
+     , (2297, 4, 4611) /* Willpower Other II */
+     , (2297, 4, 4609) /* Focus Other II */
+     , (2297, 4, 4607) /* Quickness Other II */
+     , (2297, 4, 4605) /* Coordination Other II */
+     , (2297, 4, 4603) /* Endurance Other II */
+     , (2297, 4, 4601) /* Strength Other II */
+     , (2297, 4, 4600) /* Mana Renewal Other II */
+     , (2297, 4, 4598) /* Rejuvenation Other II */
+     , (2297, 4, 4596) /* Regeneration Other II */
+     , (2297, 4, 4593) /* Mana Boost Other II */
+     , (2297, 4, 4590) /* Revitalize Other II */
+     , (2297, 4, 4587) /* Heal Other II */
+     , (2297, 4, 2621) /* Trade Note (100) */
+     , (2297, 4, 2622) /* Trade Note (500) */;
 

@@ -59,3 +59,10 @@ VALUES (32322, 64, 720) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (32322, 128, 1400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (32322, 256, 85) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32322, 8, 20474) /* Scroll of Icy Boon */
+     , (32322, 8, 28629) /* Alduressa Coat */
+     , (32322, 8, 45366) /* Brawler's Crystal */;
+

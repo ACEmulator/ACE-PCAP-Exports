@@ -73,3 +73,36 @@ VALUES (24480, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24480, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24480, 8, 130) /* Shirt */
+     , (24480, 8, 27330) /* Moderate Mana Stone */
+     , (24480, 8, 3672) /* Iron Heart */
+     , (24480, 8, 20556) /* Scroll of Oswald's Boon */
+     , (24480, 8, 273) /* Pyreal */
+     , (24480, 8, 2595) /* Baggy Tunic */
+     , (24480, 8, 8327) /* Gold Pea */
+     , (24480, 8, 41059) /* Lightning Great Star Mace */
+     , (24480, 8, 8331) /* Silver Pea */
+     , (24480, 8, 34275) /* Ulgrim's Contest Mug */
+     , (24480, 8, 20467) /* Scroll of Olthoi's Gift */
+     , (24480, 8, 8326) /* Copper Pea */
+     , (24480, 8, 45421) /* Dagger */
+     , (24480, 8, 31865) /* Circlet */
+     , (24480, 8, 332) /* Morning Star */
+     , (24480, 8, 59) /* Studded Leather Gauntlets */
+     , (24480, 8, 2367) /* Gorget */
+     , (24480, 8, 20594) /* Scroll of Wrath of the Hieromancer */
+     , (24480, 8, 2425) /* Gem */
+     , (24480, 8, 63) /* Studded Leather Girth */
+     , (24480, 8, 31769) /* Lugian Axe */
+     , (24480, 8, 101) /* Chainmail Sleeves */
+     , (24480, 8, 163) /* Ornamental Bowl */
+     , (24480, 8, 2423) /* Gem */
+     , (24480, 8, 20538) /* Scroll of Aura of Defense */
+     , (24480, 8, 45121) /* Flaming Hand Wraps */
+     , (24480, 8, 624) /* Ring */
+     , (24480, 8, 2436) /* Greater Mana Stone */
+     , (24480, 8, 29239) /* Bone Bow */;
+

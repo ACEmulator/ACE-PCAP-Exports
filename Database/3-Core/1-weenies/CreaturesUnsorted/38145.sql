@@ -99,3 +99,11 @@ VALUES (38145, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38145, 64, 1800) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38145, 8, 2367) /* Gorget */
+     , (38145, 8, 49230) /* Frost Skeleton Bushi Essence (125) */
+     , (38145, 8, 38172) /* The Creation of Blighted Moarsmen */
+     , (38145, 8, 38159) /* Tattered Verdant Moarsman Ritual */;
+

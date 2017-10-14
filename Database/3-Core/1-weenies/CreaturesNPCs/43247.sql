@@ -94,6 +94,11 @@ VALUES (43247, 64, 1625) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43247, 2, 35295)
-     , (43247, 2, 40088);
+VALUES (43247, 2, 35295) /* Shield of Perfect Light */
+     , (43247, 2, 40088) /* Empowered Sword of Lost Light */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43247, 8, 9105) /* Trunk Key */;
 

@@ -56,3 +56,15 @@ VALUES (42264, 0, 16795621)
      , (42264, 32, 16795833)
      , (42264, 33, 16795834);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42264, 8, 3938) /* Frost Morning Star */
+     , (42264, 8, 516) /* Peerless Lockpick */
+     , (42264, 8, 43335) /* Scroll of Festering Curse VII */
+     , (42264, 8, 37363) /* Quill of Infliction */
+     , (42264, 8, 31789) /* Acid Stick */
+     , (42264, 8, 27325) /* Stamina Philtre */
+     , (42264, 8, 150) /* Flagon */
+     , (42264, 8, 20473) /* Scroll of Tusker's Gift */;
+

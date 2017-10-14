@@ -110,3 +110,12 @@ VALUES (38144, 64, 923) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (38144, 128, 1245) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (38144, 256, 146) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38144, 8, 6048) /* Celdon Sleeves */
+     , (38144, 8, 40764) /* Frost Nodachi */
+     , (38144, 8, 40761) /* Acid Nodachi */
+     , (38144, 8, 38172) /* The Creation of Blighted Moarsmen */
+     , (38144, 8, 38158) /* Tattered Grimy Moarsman Ritual */;
+

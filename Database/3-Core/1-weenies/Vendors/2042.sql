@@ -128,14 +128,14 @@ VALUES (2042, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2042, 4, 166)
-     , (2042, 4, 137)
-     , (2042, 4, 258)
-     , (2042, 4, 259)
-     , (2042, 4, 260)
-     , (2042, 4, 261)
-     , (2042, 4, 262)
-     , (2042, 4, 546)
-     , (2042, 4, 264)
-     , (2042, 4, 265);
+VALUES (2042, 4, 166) /* Sack */
+     , (2042, 4, 137) /* Basket */
+     , (2042, 4, 258) /* Apple */
+     , (2042, 4, 259) /* Bread */
+     , (2042, 4, 260) /* Cabbage */
+     , (2042, 4, 261) /* Cheese */
+     , (2042, 4, 262) /* Chicken */
+     , (2042, 4, 546) /* Egg */
+     , (2042, 4, 264) /* Grapes */
+     , (2042, 4, 265) /* Meat */;
 

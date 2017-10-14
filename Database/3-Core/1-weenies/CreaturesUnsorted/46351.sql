@@ -39,3 +39,10 @@ VALUES (46351, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (46351, 67113361, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46351, 8, 27215) /* Chiran Coat */
+     , (46351, 8, 46883) /* Aura of Swift Killer Other VII */
+     , (46351, 8, 621) /* Heavy Bracelet */;
+

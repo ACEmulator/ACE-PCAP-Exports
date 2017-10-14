@@ -48,3 +48,9 @@ VALUES (52028, 2, 57) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (52028, 64, 5570) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52028, 8, 27217) /* Chiran Helm */
+     , (52028, 8, 27321) /* Mana Philtre */;
+

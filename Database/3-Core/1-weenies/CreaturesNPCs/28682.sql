@@ -111,5 +111,5 @@ VALUES (28682, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (28682, 2, 21032);
+VALUES (28682, 2, 21032) /* Quality Shimmering Isparian Wand */;
 

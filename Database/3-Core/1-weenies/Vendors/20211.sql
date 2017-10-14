@@ -124,43 +124,43 @@ VALUES (20211, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20211, 4, 15269)
-     , (20211, 4, 2765)
-     , (20211, 4, 2770)
-     , (20211, 4, 46849)
-     , (20211, 4, 2785)
-     , (20211, 4, 46850)
-     , (20211, 4, 2810)
-     , (20211, 4, 46851)
-     , (20211, 4, 2835)
-     , (20211, 4, 46852)
-     , (20211, 4, 2891)
-     , (20211, 4, 46853)
-     , (20211, 4, 28006)
-     , (20211, 4, 46854)
-     , (20211, 4, 2885)
-     , (20211, 4, 2775)
-     , (20211, 4, 2780)
-     , (20211, 4, 2790)
-     , (20211, 4, 2795)
-     , (20211, 4, 2800)
-     , (20211, 4, 2805)
-     , (20211, 4, 2815)
-     , (20211, 4, 2820)
-     , (20211, 4, 2825)
-     , (20211, 4, 2830)
-     , (20211, 4, 2840)
-     , (20211, 4, 2845)
-     , (20211, 4, 2850)
-     , (20211, 4, 2855)
-     , (20211, 4, 2860)
-     , (20211, 4, 2865)
-     , (20211, 4, 2870)
-     , (20211, 4, 2875)
-     , (20211, 4, 28013)
-     , (20211, 4, 2880)
-     , (20211, 4, 2896)
-     , (20211, 4, 2901)
-     , (20211, 4, 2905)
-     , (20211, 4, 20623);
+VALUES (20211, 4, 15269) /* Foci of Artifice */
+     , (20211, 4, 2765) /* Scroll of Acid Bane V */
+     , (20211, 4, 2770) /* Scroll of Acid Lure V */
+     , (20211, 4, 46849) /* Aura of Blood Drinker Other V */
+     , (20211, 4, 2785) /* Aura of Blood Drinker Self V */
+     , (20211, 4, 46850) /* Aura of Defender Other V */
+     , (20211, 4, 2810) /* Aura of Defender Self V */
+     , (20211, 4, 46851) /* Aura of Heartseeker Other V */
+     , (20211, 4, 2835) /* Aura of Heartseeker Self V */
+     , (20211, 4, 46852) /* Aura of Hermetic Link Other V */
+     , (20211, 4, 2891) /* Aura of Hermetic Link Self V */
+     , (20211, 4, 46853) /* Aura of Spirit Drinker Other V */
+     , (20211, 4, 28006) /* Aura of Spirit Drinker Self V */
+     , (20211, 4, 46854) /* Aura of Swift Killer Other V */
+     , (20211, 4, 2885) /* Aura of Swift Killer Self V */
+     , (20211, 4, 2775) /* Scroll of Blade Bane V */
+     , (20211, 4, 2780) /* Scroll of Blade Lure V */
+     , (20211, 4, 2790) /* Scroll of Blood Loather V */
+     , (20211, 4, 2795) /* Scroll of Bludgeon Bane V */
+     , (20211, 4, 2800) /* Scroll of Bludgeon Lure V */
+     , (20211, 4, 2805) /* Scroll of Brittlemail V */
+     , (20211, 4, 2815) /* Scroll of Flame Bane V */
+     , (20211, 4, 2820) /* Scroll of Flame Lure V */
+     , (20211, 4, 2825) /* Scroll of Frost Bane V */
+     , (20211, 4, 2830) /* Scroll of Frost Lure V */
+     , (20211, 4, 2840) /* Scroll of Hermetic Void V */
+     , (20211, 4, 2845) /* Scroll of Impenetrability V */
+     , (20211, 4, 2850) /* Scroll of Leaden Weapon V */
+     , (20211, 4, 2855) /* Scroll of Lightning Bane V */
+     , (20211, 4, 2860) /* Scroll of Lightning Lure V */
+     , (20211, 4, 2865) /* Scroll of Lure Blade V */
+     , (20211, 4, 2870) /* Scroll of Piercing Bane V */
+     , (20211, 4, 2875) /* Scroll of Piercing Lure V */
+     , (20211, 4, 28013) /* Scroll of Spirit Loather V */
+     , (20211, 4, 2880) /* Scroll of Strengthen Lock V */
+     , (20211, 4, 2896) /* Scroll of Turn Blade V */
+     , (20211, 4, 2901) /* Scroll of Weaken Lock V */
+     , (20211, 4, 2905) /* Scroll of Summon Primary Portal II */
+     , (20211, 4, 20623) /* Scroll of Summon Secondary Portal II */;
 

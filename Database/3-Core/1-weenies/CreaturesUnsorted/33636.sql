@@ -58,3 +58,53 @@ VALUES (33636, 64, 9180) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (33636, 128, 3360) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (33636, 256, 1480) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33636, 8, 2411) /* Gem */
+     , (33636, 8, 45) /* Leather Cap */
+     , (33636, 8, 22156) /* Flaming Jo */
+     , (33636, 8, 37212) /* Olthoi Tassets */
+     , (33636, 8, 7771) /* Naginata */
+     , (33636, 8, 20237) /* Scroll of Perseverance */
+     , (33636, 8, 134) /* Tunic */
+     , (33636, 8, 621) /* Heavy Bracelet */
+     , (33636, 8, 2602) /* Loose Breeches */
+     , (33636, 8, 44469) /* Lesser Corrupted Essence */
+     , (33636, 8, 124) /* Jerkin */
+     , (33636, 8, 37192) /* Olthoi Celdon Girth */
+     , (33636, 8, 2404) /* Gem */
+     , (33636, 8, 45401) /* Simi */
+     , (33636, 8, 163) /* Ornamental Bowl */
+     , (33636, 8, 27327) /* Stamina Tonic */
+     , (33636, 8, 37336) /* Glyph of Stamina Regeneration */
+     , (33636, 8, 49231) /* Frost Skeleton Bushi Essence (150) */
+     , (33636, 8, 22165) /* Lightning Quarter Staff */
+     , (33636, 8, 31793) /* Frost Lancet */
+     , (33636, 8, 7791) /* Frost Trident */
+     , (33636, 8, 27328) /* Major Mana Stone */
+     , (33636, 8, 28606) /* Viamontian Pants */
+     , (33636, 8, 142) /* Chalice */
+     , (33636, 8, 105) /* Studded Leather Sleeves */
+     , (33636, 8, 2409) /* Gem */
+     , (33636, 8, 27325) /* Stamina Philtre */
+     , (33636, 8, 31778) /* Frost Spine Glaive */
+     , (33636, 8, 28939) /* Scroll of Arcanum Salvaging VII */
+     , (33636, 8, 30581) /* Mazule */
+     , (33636, 8, 121) /* Gloves */
+     , (33636, 8, 2421) /* Gem */
+     , (33636, 8, 3853) /* Acid Shamshir */
+     , (33636, 8, 27233) /* Scroll of Eradicate Creature Magic Other */
+     , (33636, 8, 20406) /* Aura of Infected Caress */
+     , (33636, 8, 49485) /* Encapsulated Spirit */
+     , (33636, 8, 20506) /* Scroll of Light Weapon Mastery Self VII */
+     , (33636, 8, 2408) /* Gem */
+     , (33636, 8, 20236) /* Scroll of Temeritous Touch */
+     , (33636, 8, 29240) /* Electric Bow */
+     , (33636, 8, 49243) /* Lightning Zombie Essence (125) */
+     , (33636, 8, 20241) /* Scroll of Inner Calm */
+     , (33636, 8, 29253) /* Blunt Atlatl */
+     , (33636, 8, 154) /* Goblet */
+     , (33636, 8, 40695) /* Covenant Sollerets */
+     , (33636, 8, 27321) /* Mana Philtre */;
+

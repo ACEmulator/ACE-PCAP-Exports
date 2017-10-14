@@ -101,5 +101,5 @@ VALUES (24249, 10, 16777301)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24249, 2, 351);
+VALUES (24249, 2, 351) /* Long Sword */;
 

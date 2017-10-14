@@ -41,3 +41,12 @@ VALUES (33972, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33972, 67113823, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33972, 8, 20596) /* Scroll of Hieromancer's Blessing */
+     , (33972, 8, 243) /* Dinner Plate */
+     , (33972, 8, 154) /* Goblet */
+     , (33972, 8, 25638) /* Leather Vest */
+     , (33972, 8, 149) /* Ewer */;
+

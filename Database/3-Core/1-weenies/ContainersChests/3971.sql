@@ -52,3 +52,25 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3971, 2, 0) /* OPEN_BOOL */
      , (3971, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3971, 8, 297) /* Ring */
+     , (3971, 8, 27330) /* Moderate Mana Stone */
+     , (3971, 8, 127) /* Pants */
+     , (3971, 8, 2435) /* Mana Stone */
+     , (3971, 8, 273) /* Pyreal */
+     , (3971, 8, 45425) /* Frost Dagger */
+     , (3971, 8, 8329) /* Lead Pea */
+     , (3971, 8, 2425) /* Gem */
+     , (3971, 8, 161) /* Mug */
+     , (3971, 8, 8326) /* Copper Pea */
+     , (3971, 8, 28605) /* Beret */
+     , (3971, 8, 154) /* Goblet */
+     , (3971, 8, 4195) /* Nekode */
+     , (3971, 8, 295) /* Bracelet */
+     , (3971, 8, 2434) /* Lesser Mana Stone */
+     , (3971, 8, 5901) /* Kasa */
+     , (3971, 8, 254) /* Stoup */
+     , (3971, 8, 134) /* Tunic */;
+

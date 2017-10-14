@@ -36,3 +36,17 @@ VALUES (25858, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25858, 19, True) /* ATTACKABLE_BOOL */
      , (25858, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25858, 8, 6003) /* Koujia Breastplate */
+     , (25858, 8, 2436) /* Greater Mana Stone */
+     , (25858, 8, 7798) /* Electric Naginata */
+     , (25858, 8, 2423) /* Gem */
+     , (25858, 8, 154) /* Goblet */
+     , (25858, 8, 8331) /* Silver Pea */
+     , (25858, 8, 121) /* Gloves */
+     , (25858, 8, 20596) /* Scroll of Hieromancer's Blessing */
+     , (25858, 8, 27328) /* Major Mana Stone */
+     , (25858, 8, 621) /* Heavy Bracelet */;
+

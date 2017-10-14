@@ -134,27 +134,27 @@ VALUES (2542, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2542, 4, 2457)
-     , (2542, 4, 377)
-     , (2542, 4, 27319)
-     , (2542, 4, 2460)
-     , (2542, 4, 379)
-     , (2542, 4, 27322)
-     , (2542, 4, 378)
-     , (2542, 4, 27326)
-     , (2542, 4, 2470)
-     , (2542, 4, 628)
-     , (2542, 4, 629)
-     , (2542, 4, 630)
-     , (2542, 4, 631)
-     , (2542, 4, 632)
-     , (2542, 4, 9229)
-     , (2542, 4, 4450)
-     , (2542, 4, 4602)
-     , (2542, 4, 4589)
-     , (2542, 4, 4599)
-     , (2542, 4, 4595)
-     , (2542, 4, 2621)
-     , (2542, 4, 2622)
-     , (2542, 4, 22765);
+VALUES (2542, 4, 2457) /* Health Draught */
+     , (2542, 4, 377) /* Potion of Healing */
+     , (2542, 4, 27319) /* Health Tincture */
+     , (2542, 4, 2460) /* Mana Draught */
+     , (2542, 4, 379) /* Mana Potion */
+     , (2542, 4, 27322) /* Mana Tincture */
+     , (2542, 4, 378) /* Stamina Potion */
+     , (2542, 4, 27326) /* Stamina Tincture */
+     , (2542, 4, 2470) /* Stamina Elixir */
+     , (2542, 4, 628) /* Handy Healing Kit */
+     , (2542, 4, 629) /* Adept Healing Kit */
+     , (2542, 4, 630) /* Gifted Healing Kit */
+     , (2542, 4, 631) /* Excellent Healing Kit */
+     , (2542, 4, 632) /* Peerless Healing Kit */
+     , (2542, 4, 9229) /* Treated Healing Kit */
+     , (2542, 4, 4450) /* Heal Other I */
+     , (2542, 4, 4602) /* Endurance Other I */
+     , (2542, 4, 4589) /* Revitalize Other I */
+     , (2542, 4, 4599) /* Mana Renewal Other I */
+     , (2542, 4, 4595) /* Regeneration Other I */
+     , (2542, 4, 2621) /* Trade Note (100) */
+     , (2542, 4, 2622) /* Trade Note (500) */
+     , (2542, 4, 22765) /* The Empyrean Temples */;
 

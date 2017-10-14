@@ -130,11 +130,11 @@ VALUES (738, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (738, 4, 130)
-     , (738, 4, 127)
-     , (738, 4, 119)
-     , (738, 4, 2606)
-     , (738, 4, 5851)
-     , (738, 4, 5850)
-     , (738, 4, 8371);
+VALUES (738, 4, 130) /* Shirt */
+     , (738, 4, 127) /* Pants */
+     , (738, 4, 119) /* Cowl */
+     , (738, 4, 2606) /* Boots */
+     , (738, 4, 5851) /* Faran Robe with Hood */
+     , (738, 4, 5850) /* Faran Robe */
+     , (738, 4, 8371) /* Kireth Gown with Band */;
 

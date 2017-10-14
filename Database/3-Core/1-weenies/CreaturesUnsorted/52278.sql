@@ -46,3 +46,17 @@ VALUES (52278, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (52278, 64, 7675) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52278, 8, 31864) /* Teardrop Crown */
+     , (52278, 8, 516) /* Peerless Lockpick */
+     , (52278, 8, 20498) /* Scroll of Hands of Chorizite */
+     , (52278, 8, 37364) /* Quill of Introspection */
+     , (52278, 8, 273) /* Pyreal */
+     , (52278, 8, 20552) /* Scroll of Wrath of Harlune */
+     , (52278, 8, 37348) /* Glyph of Frost */
+     , (52278, 8, 9229) /* Treated Healing Kit */
+     , (52278, 8, 59) /* Studded Leather Gauntlets */
+     , (52278, 8, 27327) /* Stamina Tonic */;
+

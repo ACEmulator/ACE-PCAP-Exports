@@ -124,28 +124,28 @@ VALUES (4437, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4437, 4, 4190)
-     , (4437, 4, 314)
-     , (4437, 4, 316)
-     , (4437, 4, 303)
-     , (4437, 4, 331)
-     , (4437, 4, 22168)
-     , (4437, 4, 352)
-     , (4437, 4, 348)
-     , (4437, 4, 315)
-     , (4437, 4, 513)
-     , (4437, 4, 545)
-     , (4437, 4, 9295)
-     , (4437, 4, 20646)
-     , (4437, 4, 21093)
-     , (4437, 4, 23044)
-     , (4437, 4, 23204)
-     , (4437, 4, 2621)
-     , (4437, 4, 2622)
-     , (4437, 4, 2623);
+VALUES (4437, 4, 4190) /* Cestus */
+     , (4437, 4, 314) /* Dagger */
+     , (4437, 4, 316) /* Throwing Dart */
+     , (4437, 4, 303) /* Hand Axe */
+     , (4437, 4, 331) /* Mace */
+     , (4437, 4, 22168) /* Hefty Walking Cane */
+     , (4437, 4, 352) /* Short Sword */
+     , (4437, 4, 348) /* Spear */
+     , (4437, 4, 315) /* Throwing Dagger */
+     , (4437, 4, 513) /* Plain Lockpick */
+     , (4437, 4, 545) /* Reliable Lockpick */
+     , (4437, 4, 9295) /* Intricate Carving Tool */
+     , (4437, 4, 20646) /* Ust */
+     , (4437, 4, 21093) /* Tinkering */
+     , (4437, 4, 23044) /* On the Abilities of Salvaged Ivory */
+     , (4437, 4, 23204) /* Carving Keys and Keyrings */
+     , (4437, 4, 2621) /* Trade Note (100) */
+     , (4437, 4, 2622) /* Trade Note (500) */
+     , (4437, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4437, 2, 326);
+VALUES (4437, 2, 326) /* Katar */;
 

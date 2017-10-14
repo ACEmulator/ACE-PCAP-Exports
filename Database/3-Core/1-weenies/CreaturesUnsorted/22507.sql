@@ -48,3 +48,16 @@ VALUES (22507, 2, 33) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22507, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22507, 8, 31864) /* Teardrop Crown */
+     , (22507, 8, 2592) /* Puffy Tunic */
+     , (22507, 8, 2599) /* Trousers */
+     , (22507, 8, 40714) /* Covenant Tassets */
+     , (22507, 8, 20486) /* Scroll of Enervation */
+     , (22507, 8, 339) /* Scimitar */
+     , (22507, 8, 7772) /* Trident */
+     , (22507, 8, 2423) /* Gem */
+     , (22507, 8, 20511) /* Scroll of Morimoto's Boon */;
+

@@ -52,3 +52,12 @@ VALUES (51287, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51287, 64, 10075) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51287, 8, 20488) /* Scroll of Energy Flux */
+     , (51287, 8, 27328) /* Major Mana Stone */
+     , (51287, 8, 5894) /* Fez */
+     , (51287, 8, 632) /* Peerless Healing Kit */
+     , (51287, 8, 27321) /* Mana Philtre */;
+

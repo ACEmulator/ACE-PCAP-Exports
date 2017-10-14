@@ -54,3 +54,11 @@ VALUES (25345, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25345, 64, 2160) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25345, 8, 6048) /* Celdon Sleeves */
+     , (25345, 8, 40697) /* Covenant Breastplate */
+     , (25345, 8, 42635) /* Aetheria */
+     , (25345, 8, 31783) /* Frost Claw */;
+

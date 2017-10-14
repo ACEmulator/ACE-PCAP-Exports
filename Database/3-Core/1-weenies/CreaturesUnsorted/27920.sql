@@ -58,3 +58,30 @@ VALUES (27920, 64, 440) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27920, 128, 580) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27920, 256, 440) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27920, 8, 45258) /* Scroll of Dirty Fighting Mastery Self VII */
+     , (27920, 8, 324) /* Kaskara */
+     , (27920, 8, 7771) /* Naginata */
+     , (27920, 8, 132) /* Shoes */
+     , (27920, 8, 27215) /* Chiran Coat */
+     , (27920, 8, 2595) /* Baggy Tunic */
+     , (27920, 8, 42) /* Studded Leather Breastplate */
+     , (27920, 8, 3881) /* Acid Long Sword */
+     , (27920, 8, 88) /* Scalemail Pauldrons */
+     , (27920, 8, 621) /* Heavy Bracelet */
+     , (27920, 8, 31791) /* Flaming Stick */
+     , (27920, 8, 30576) /* Flamberge */
+     , (27920, 8, 80) /* Chainmail Leggings */
+     , (27920, 8, 154) /* Goblet */
+     , (27920, 8, 29256) /* Frost Atlatl */
+     , (27920, 8, 31865) /* Circlet */
+     , (27920, 8, 8488) /* Armet */
+     , (27920, 8, 142) /* Chalice */
+     , (27920, 8, 45366) /* Brawler's Crystal */
+     , (27920, 8, 2594) /* Flared Tunic */
+     , (27920, 8, 294) /* Amulet */
+     , (27920, 8, 114) /* Platemail Vambraces */
+     , (27920, 8, 45113) /* Hammer */;
+

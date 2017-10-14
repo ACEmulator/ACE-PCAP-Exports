@@ -131,39 +131,39 @@ VALUES (9616, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (9616, 4, 9564)
-     , (9616, 4, 9593)
-     , (9616, 4, 9590)
-     , (9616, 4, 9563)
-     , (9616, 4, 9619)
-     , (9616, 4, 9586)
-     , (9616, 4, 9587)
-     , (9616, 4, 9588)
-     , (9616, 4, 9589)
-     , (9616, 4, 9591)
-     , (9616, 4, 9562)
-     , (9616, 4, 9581)
-     , (9616, 4, 9583)
-     , (9616, 4, 9592)
-     , (9616, 4, 9585)
-     , (9616, 4, 9584)
-     , (9616, 4, 9582)
-     , (9616, 4, 11648)
-     , (9616, 4, 11650)
-     , (9616, 4, 11653)
-     , (9616, 4, 11649)
-     , (9616, 4, 11645)
-     , (9616, 4, 11641)
-     , (9616, 4, 11640)
-     , (9616, 4, 11655)
-     , (9616, 4, 11654)
-     , (9616, 4, 11652)
-     , (9616, 4, 11675)
-     , (9616, 4, 11647)
-     , (9616, 4, 11644)
-     , (9616, 4, 11651)
-     , (9616, 4, 11642)
-     , (9616, 4, 11643)
-     , (9616, 4, 11646)
-     , (9616, 4, 9595);
+VALUES (9616, 4, 9564) /* Bow Skill Puzzle Piece */
+     , (9616, 4, 9593) /* Crossbow Skill Puzzle Piece */
+     , (9616, 4, 9590) /* Thrown Weapons Skill Puzzle Piece */
+     , (9616, 4, 9563) /* Axe Skill Puzzle Piece */
+     , (9616, 4, 9619) /* Dagger Skill Puzzle Piece */
+     , (9616, 4, 9586) /* Mace Skill Puzzle Piece */
+     , (9616, 4, 9587) /* Spear Skill Puzzle Piece */
+     , (9616, 4, 9588) /* Staff Skill Puzzle Piece */
+     , (9616, 4, 9589) /* Sword Skill Puzzle Piece */
+     , (9616, 4, 9591) /* Unarmed Combat Skill Puzzle Piece */
+     , (9616, 4, 9562) /* Alchemy Skill Puzzle Piece */
+     , (9616, 4, 9581) /* Cooking Skill Puzzle Piece */
+     , (9616, 4, 9583) /* Fletching Skill Puzzle Piece */
+     , (9616, 4, 9592) /* War Magic Skill Puzzle Piece */
+     , (9616, 4, 9585) /* Life Magic Skill Puzzle Piece */
+     , (9616, 4, 9584) /* Item Enchantment Skill Puzzle Piece */
+     , (9616, 4, 9582) /* Creature Enchantment Skill Puzzle Piece */
+     , (9616, 4, 11648) /* Advanced Bow Skill Puzzle Piece */
+     , (9616, 4, 11650) /* Advanced Crossbow Skill Puzzle Piece */
+     , (9616, 4, 11653) /* Advanced Thrown Weapons Skill Puzzle Piece */
+     , (9616, 4, 11649) /* Advanced Axe Skill Puzzle Piece */
+     , (9616, 4, 11645) /* Advanced Dagger Skill Puzzle Piece */
+     , (9616, 4, 11641) /* Advanced Mace Skill Puzzle Piece */
+     , (9616, 4, 11640) /* Advanced Spear Skill Puzzle Piece */
+     , (9616, 4, 11655) /* Advanced Staff Skill Puzzle Piece */
+     , (9616, 4, 11654) /* Advanced Sword Skill Puzzle Piece */
+     , (9616, 4, 11652) /* Advanced Unarmed Combat Skill Puzzle Piece */
+     , (9616, 4, 11675) /* Advanced Alchemy Skill Puzzle Piece */
+     , (9616, 4, 11647) /* Advanced Cooking Skill Puzzle Piece */
+     , (9616, 4, 11644) /* Advanced Fletching Skill Puzzle Piece */
+     , (9616, 4, 11651) /* Advanced War Magic Skill Puzzle Piece */
+     , (9616, 4, 11642) /* Advanced Life Magic Skill Puzzle Piece */
+     , (9616, 4, 11643) /* Advanced Item Enchantment Skill Puzzle Piece */
+     , (9616, 4, 11646) /* Advanced Creature Enchantment Skill Puzzle Piece */
+     , (9616, 4, 9595) /* Handbook of the Bestowers' Guild */;
 

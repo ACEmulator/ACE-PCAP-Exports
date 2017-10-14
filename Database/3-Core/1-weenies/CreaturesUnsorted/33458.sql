@@ -46,3 +46,30 @@ VALUES (33458, 2, 89) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33458, 64, 30000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33458, 8, 49257) /* Frost Zombie Essence (125) */
+     , (33458, 8, 20519) /* Scroll of Finesse Weapon Ineptitude Other VII */
+     , (33458, 8, 40697) /* Covenant Breastplate */
+     , (33458, 8, 22157) /* Frost Jo */
+     , (33458, 8, 33757) /* Shadow Chest Key */
+     , (33458, 8, 31026) /* Tenassa Breastplate */
+     , (33458, 8, 30951) /* Alduressa Gauntlets */
+     , (33458, 8, 20446) /* Scroll of Outlander's Insolence */
+     , (33458, 8, 621) /* Heavy Bracelet */
+     , (33458, 8, 8327) /* Gold Pea */
+     , (33458, 8, 33691) /* Shard of the Black Spear */
+     , (33458, 8, 27328) /* Major Mana Stone */
+     , (33458, 8, 49249) /* Fire Zombie Essence (100) */
+     , (33458, 8, 31819) /* Staff */
+     , (33458, 8, 3880) /* Frost Broad Sword */
+     , (33458, 8, 27216) /* Chiran Gauntlets */
+     , (33458, 8, 297) /* Ring */
+     , (33458, 8, 31785) /* Acid Claw */
+     , (33458, 8, 41262) /* Scroll of Blessing of T'ing */
+     , (33458, 8, 121) /* Gloves */
+     , (33458, 8, 7793) /* Acid Trident */
+     , (33458, 8, 9229) /* Treated Healing Kit */
+     , (33458, 8, 332) /* Morning Star */;
+

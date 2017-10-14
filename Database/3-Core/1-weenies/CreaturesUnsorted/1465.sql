@@ -40,3 +40,34 @@ VALUES (1465, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1465, 67111342, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1465, 8, 7792) /* Fire Trident */
+     , (1465, 8, 63) /* Studded Leather Girth */
+     , (1465, 8, 334) /* Nayin */
+     , (1465, 8, 1517) /* Fiery Shield */
+     , (1465, 8, 1518) /* Superior Helmet */
+     , (1465, 8, 254) /* Stoup */
+     , (1465, 8, 2415) /* Gem */
+     , (1465, 8, 7787) /* Frost Spiked Club */
+     , (1465, 8, 25636) /* Leather Helm */
+     , (1465, 8, 45435) /* Frost Khanjar */
+     , (1465, 8, 3881) /* Acid Long Sword */
+     , (1465, 8, 8328) /* Iron Pea */
+     , (1465, 8, 48972) /* Acid Zombie Essence (50) */
+     , (1465, 8, 312) /* Light Crossbow */
+     , (1465, 8, 118) /* Cloth Cap */
+     , (1465, 8, 2602) /* Loose Breeches */
+     , (1465, 8, 25650) /* Leather Shorts */
+     , (1465, 8, 49338) /* Acid Moar Essence (50) */
+     , (1465, 8, 30615) /* Acid Knuckles */
+     , (1465, 8, 49345) /* Lightning Moar Essence (50) */
+     , (1465, 8, 28606) /* Viamontian Pants */
+     , (1465, 8, 7940) /* Empty Flask */
+     , (1465, 8, 273) /* Pyreal */
+     , (1465, 8, 297) /* Ring */
+     , (1465, 8, 2720) /* Scroll of Quickness Self V */
+     , (1465, 8, 119) /* Cowl */
+     , (1465, 8, 8329) /* Lead Pea */;
+

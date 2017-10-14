@@ -46,3 +46,36 @@ VALUES (52279, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (52279, 64, 12000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52279, 8, 2411) /* Gem */
+     , (52279, 8, 20545) /* Scroll of Feat of Radaz */
+     , (52279, 8, 20476) /* Scroll of Gelidite's Gift */
+     , (52279, 8, 25646) /* Long Leather Gauntlets */
+     , (52279, 8, 37200) /* Olthoi Alduressa Leggings */
+     , (52279, 8, 43068) /* Knorr Academy Helm */
+     , (52279, 8, 2604) /* Wide Breeches */
+     , (52279, 8, 3818) /* Acid Katar */
+     , (52279, 8, 6005) /* Koujia Sleeves */
+     , (52279, 8, 621) /* Heavy Bracelet */
+     , (52279, 8, 37363) /* Quill of Infliction */
+     , (52279, 8, 27325) /* Stamina Philtre */
+     , (52279, 8, 49217) /* Acid Skeleton Bushi Essence (150) */
+     , (52279, 8, 2596) /* Doublet */
+     , (52279, 8, 42753) /* Haebrean Helm */
+     , (52279, 8, 20240) /* Scroll of Calming Gaze */
+     , (52279, 8, 45115) /* Lightning Hammer */
+     , (52279, 8, 43382) /* Nefane Pearl */
+     , (52279, 8, 150) /* Flagon */
+     , (52279, 8, 31798) /* Slashing Compound Bow */
+     , (52279, 8, 624) /* Ring */
+     , (52279, 8, 27327) /* Stamina Tonic */
+     , (52279, 8, 40761) /* Acid Nodachi */
+     , (52279, 8, 48947) /* Fire Skeleton Bushi Essence (150) */
+     , (52279, 8, 25638) /* Leather Vest */
+     , (52279, 8, 31774) /* Board with Nail */
+     , (52279, 8, 4196) /* Flaming Nekode */
+     , (52279, 8, 28605) /* Beret */
+     , (52279, 8, 516) /* Peerless Lockpick */;
+

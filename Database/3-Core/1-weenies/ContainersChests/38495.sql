@@ -51,3 +51,8 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (38495, 2, 0) /* OPEN_BOOL */
      , (38495, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38495, 8, 38482) /* Radiant Blood Gauntlets */;
+

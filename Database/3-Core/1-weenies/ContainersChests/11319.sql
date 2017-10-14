@@ -37,3 +37,8 @@ VALUES (11319, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11319, 19, True) /* ATTACKABLE_BOOL */
      , (11319, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11319, 8, 11328) /* Tumerok Spear */;
+

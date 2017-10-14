@@ -55,3 +55,10 @@ VALUES (31028, 64, 765) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (31028, 128, 970) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (31028, 256, 260) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31028, 8, 49485) /* Encapsulated Spirit */
+     , (31028, 8, 121) /* Gloves */
+     , (31028, 8, 154) /* Goblet */;
+

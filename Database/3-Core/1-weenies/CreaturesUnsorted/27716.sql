@@ -48,3 +48,22 @@ VALUES (27716, 2, 46) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27716, 64, 375) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27716, 8, 41483) /* Compass */
+     , (27716, 8, 28007) /* Aura of Spirit Drinker Self VI */
+     , (27716, 8, 2421) /* Gem */
+     , (27716, 8, 622) /* Necklace */
+     , (27716, 8, 49275) /* Frost Elemental Essence (50) */
+     , (27716, 8, 25650) /* Leather Shorts */
+     , (27716, 8, 163) /* Ornamental Bowl */
+     , (27716, 8, 793) /* Scalemail Coif */
+     , (27716, 8, 273) /* Pyreal */
+     , (27716, 8, 295) /* Bracelet */
+     , (27716, 8, 49485) /* Encapsulated Spirit */
+     , (27716, 8, 130) /* Shirt */
+     , (27716, 8, 150) /* Flagon */
+     , (27716, 8, 2601) /* Loose Pants */
+     , (27716, 8, 25637) /* Leather Bracers */;
+

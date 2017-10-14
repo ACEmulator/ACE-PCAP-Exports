@@ -64,3 +64,22 @@ VALUES (27313, 2, 8) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27313, 64, 1400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27313, 8, 45108) /* Schlager */
+     , (27313, 8, 2425) /* Gem */
+     , (27313, 8, 2367) /* Gorget */
+     , (27313, 8, 27226) /* Nariyid Boots */
+     , (27313, 8, 20467) /* Scroll of Olthoi's Gift */
+     , (27313, 8, 28609) /* Vest */
+     , (27313, 8, 624) /* Ring */
+     , (27313, 8, 27514) /* Painbringer's Head */
+     , (27313, 8, 49236) /* Acid Zombie Essence (125) */
+     , (27313, 8, 43292) /* Scroll of Corruption VII */
+     , (27313, 8, 20248) /* Scroll of Ogfoot */
+     , (27313, 8, 2402) /* Gem */
+     , (27313, 8, 31778) /* Frost Spine Glaive */
+     , (27313, 8, 22578) /* Bunch of Nanners */
+     , (27313, 8, 41056) /* Frost Greataxe */;
+

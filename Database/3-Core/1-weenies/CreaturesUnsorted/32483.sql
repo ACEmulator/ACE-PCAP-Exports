@@ -44,3 +44,21 @@ VALUES (32483, 2, 39) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (32483, 64, 5180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32483, 8, 294) /* Amulet */
+     , (32483, 8, 32484) /* A Huge Lump of Coal */
+     , (32483, 8, 5768) /* Poofy Snowball */
+     , (32483, 8, 20613) /* Scroll of Energize Vigor */
+     , (32483, 8, 20519) /* Scroll of Finesse Weapon Ineptitude Other VII */
+     , (32483, 8, 2588) /* Flared Shirt */
+     , (32483, 8, 31802) /* Fire Compound Bow */
+     , (32483, 8, 27237) /* Scroll of Eradicate Life Magic Self */
+     , (32483, 8, 2411) /* Gem */
+     , (32483, 8, 27318) /* Health Philtre */
+     , (32483, 8, 243) /* Dinner Plate */
+     , (32483, 8, 2421) /* Gem */
+     , (32483, 8, 20579) /* Scroll of Saladur's Boon */
+     , (32483, 8, 295) /* Bracelet */;
+

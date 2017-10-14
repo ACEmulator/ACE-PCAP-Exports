@@ -112,5 +112,5 @@ VALUES (31973, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (31973, 2, 14916);
+VALUES (31973, 2, 14916) /* Simple Flower Bouquet */;
 

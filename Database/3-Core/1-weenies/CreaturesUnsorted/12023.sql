@@ -49,3 +49,18 @@ VALUES (12023, 2, 22) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12023, 64, 620) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12023, 8, 49303) /* Frost K'nath Essence (50) */
+     , (12023, 8, 25638) /* Leather Vest */
+     , (12023, 8, 68) /* Studded Leather Greaves */
+     , (12023, 8, 515) /* Superb Lockpick */
+     , (12023, 8, 12022) /* Scroll of Dark Rain */
+     , (12023, 8, 6876) /* Sturdy Iron Key */
+     , (12023, 8, 42517) /* Coalesced Mana */
+     , (12023, 8, 45119) /* Acid Hand Wraps */
+     , (12023, 8, 2407) /* Gem */
+     , (12023, 8, 27327) /* Stamina Tonic */
+     , (12023, 8, 6058) /* Dark Shard */;
+

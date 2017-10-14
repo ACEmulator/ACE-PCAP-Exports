@@ -49,3 +49,14 @@ VALUES (1920, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1920, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1920, 8, 3750) /* Acid Battle Axe */
+     , (1920, 8, 45241) /* Scroll of Dirty Fighting Ineptitude Other VI */
+     , (1920, 8, 5901) /* Kasa */
+     , (1920, 8, 2398) /* Gem */
+     , (1920, 8, 2435) /* Mana Stone */
+     , (1920, 8, 108) /* Chainmail Tassets */
+     , (1920, 8, 2600) /* Pantaloons */;
+

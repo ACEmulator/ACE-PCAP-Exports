@@ -50,3 +50,8 @@ VALUES (14538, 0, 16784246)
      , (14538, 1, 16784196)
      , (14538, 2, 16784180);
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14538, 8, 14523) /* Fragment of the Acid Prism */;
+

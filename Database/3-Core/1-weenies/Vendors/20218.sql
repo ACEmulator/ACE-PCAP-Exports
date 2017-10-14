@@ -134,60 +134,60 @@ VALUES (20218, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20218, 4, 15270)
-     , (20218, 4, 4385)
-     , (20218, 4, 4390)
-     , (20218, 4, 2664)
-     , (20218, 4, 2687)
-     , (20218, 4, 2692)
-     , (20218, 4, 2697)
-     , (20218, 4, 2702)
-     , (20218, 4, 2707)
-     , (20218, 4, 2722)
-     , (20218, 4, 2727)
-     , (20218, 4, 2973)
-     , (20218, 4, 2978)
-     , (20218, 4, 2983)
-     , (20218, 4, 2988)
-     , (20218, 4, 2993)
-     , (20218, 4, 2998)
-     , (20218, 4, 3003)
-     , (20218, 4, 3008)
-     , (20218, 4, 3013)
-     , (20218, 4, 3018)
-     , (20218, 4, 3023)
-     , (20218, 4, 3028)
-     , (20218, 4, 3033)
-     , (20218, 4, 3038)
-     , (20218, 4, 3043)
-     , (20218, 4, 3048)
-     , (20218, 4, 3053)
-     , (20218, 4, 3058)
-     , (20218, 4, 3063)
-     , (20218, 4, 3068)
-     , (20218, 4, 3073)
-     , (20218, 4, 3078)
-     , (20218, 4, 3083)
-     , (20218, 4, 3093)
-     , (20218, 4, 3098)
-     , (20218, 4, 3103)
-     , (20218, 4, 3108)
-     , (20218, 4, 3113)
-     , (20218, 4, 3118)
-     , (20218, 4, 3123)
-     , (20218, 4, 2890)
-     , (20218, 4, 9661)
-     , (20218, 4, 3726)
-     , (20218, 4, 9630)
-     , (20218, 4, 9635)
-     , (20218, 4, 3731)
-     , (20218, 4, 3736)
-     , (20218, 4, 3741)
-     , (20218, 4, 9640)
-     , (20218, 4, 9645)
-     , (20218, 4, 9650)
-     , (20218, 4, 9655)
-     , (20218, 4, 21103)
-     , (20218, 4, 21110)
-     , (20218, 4, 21096);
+VALUES (20218, 4, 15270) /* Foci of Verdancy */
+     , (20218, 4, 4385) /* Scroll of Armor Other II */
+     , (20218, 4, 4390) /* Scroll of Armor Self II */
+     , (20218, 4, 2664) /* Scroll of Enfeeble Other II */
+     , (20218, 4, 2687) /* Scroll of Harm Other II */
+     , (20218, 4, 2692) /* Scroll of Heal Other II */
+     , (20218, 4, 2697) /* Scroll of Heal Self II */
+     , (20218, 4, 2702) /* Scroll of Imperil Other II */
+     , (20218, 4, 2707) /* Scroll of Mana Drain Other II */
+     , (20218, 4, 2722) /* Scroll of Revitalize Other II */
+     , (20218, 4, 2727) /* Scroll of Revitalize Self II */
+     , (20218, 4, 2973) /* Scroll of Acid Protection Other II */
+     , (20218, 4, 2978) /* Scroll of Acid Protection Self II */
+     , (20218, 4, 2983) /* Scroll of Acid Vulnerability Other II */
+     , (20218, 4, 2988) /* Scroll of Blade Protection Other II */
+     , (20218, 4, 2993) /* Scroll of Blade Protection Self II */
+     , (20218, 4, 2998) /* Scroll of Blade Vulnerability Other II */
+     , (20218, 4, 3003) /* Scroll of Bludgeon Protection Other II */
+     , (20218, 4, 3008) /* Scroll of Bludgeon Protection Self II */
+     , (20218, 4, 3013) /* Scroll of Bludgeoning Vulnerability Other II */
+     , (20218, 4, 3018) /* Scroll of Cold Protection Other II */
+     , (20218, 4, 3023) /* Scroll of Cold Protection Self II */
+     , (20218, 4, 3028) /* Scroll of Cold Vulnerability Other II */
+     , (20218, 4, 3033) /* Scroll of Fire Protection Other II */
+     , (20218, 4, 3038) /* Scroll of Fire Protection Self II */
+     , (20218, 4, 3043) /* Scroll of Fire Vulnerability Other II */
+     , (20218, 4, 3048) /* Scroll of Lightning Protection Other II */
+     , (20218, 4, 3053) /* Scroll of Lightning Protection Self II */
+     , (20218, 4, 3058) /* Scroll of Lightning Vulnerability Other II */
+     , (20218, 4, 3063) /* Scroll of Piercing Protection Other II */
+     , (20218, 4, 3068) /* Scroll of Piercing Protection Self II */
+     , (20218, 4, 3073) /* Scroll of Piercing Vulnerability Other II */
+     , (20218, 4, 3078) /* Scroll of Exhaustion Other II */
+     , (20218, 4, 3083) /* Scroll of Fester Other II */
+     , (20218, 4, 3093) /* Scroll of Mana Depletion Other II */
+     , (20218, 4, 3098) /* Scroll of Mana Renewal Other II */
+     , (20218, 4, 3103) /* Scroll of Mana Renewal Self II */
+     , (20218, 4, 3108) /* Scroll of Regenerate Other II */
+     , (20218, 4, 3113) /* Scroll of Regenerate Self II */
+     , (20218, 4, 3118) /* Scroll of Rejuvenate Other II */
+     , (20218, 4, 3123) /* Scroll of Rejuvenate Self II */
+     , (20218, 4, 2890) /* Scroll of Drain Health Other II */
+     , (20218, 4, 9661) /* Scroll of Drain Mana Other II */
+     , (20218, 4, 3726) /* Scroll of Drain Stamina Other II */
+     , (20218, 4, 9630) /* Scroll of Health to Mana Self II */
+     , (20218, 4, 9635) /* Scroll of Health to Stamina Self II */
+     , (20218, 4, 3731) /* Scroll of Infuse Health II */
+     , (20218, 4, 3736) /* Scroll of Infuse Mana II */
+     , (20218, 4, 3741) /* Scroll of Infuse Stamina II */
+     , (20218, 4, 9640) /* Scroll of Mana to Health Self II */
+     , (20218, 4, 9645) /* Scroll of Mana to Stamina Self II */
+     , (20218, 4, 9650) /* Scroll of Stamina to Health Self II */
+     , (20218, 4, 9655) /* Scroll of Stamina to Mana Self II */
+     , (20218, 4, 21103) /* Scroll of Martyr's Blight II */
+     , (20218, 4, 21110) /* Scroll of Martyr's Tenacity II */
+     , (20218, 4, 21096) /* Scroll of Martyr's Hecatomb II */;
 

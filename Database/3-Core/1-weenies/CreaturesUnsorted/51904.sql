@@ -67,3 +67,13 @@ VALUES (51904, 2, 5) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51904, 64, 6140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51904, 8, 554) /* Studded Leather Basinet */
+     , (51904, 8, 20460) /* Scroll of Crushing Shame */
+     , (51904, 8, 30566) /* Sabra */
+     , (51904, 8, 49425) /* Acid Spectre Essence (150) */
+     , (51904, 8, 31764) /* Lugian Hammer */
+     , (51904, 8, 21152) /* Covenant Breastplate */;
+

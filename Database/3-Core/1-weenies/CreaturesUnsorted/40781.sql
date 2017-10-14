@@ -41,3 +41,11 @@ VALUES (40781, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40781, 64, 3120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40781, 8, 45116) /* Flaming Hammer */
+     , (40781, 8, 59) /* Studded Leather Gauntlets */
+     , (40781, 8, 40791) /* Progenitor Crystal */
+     , (40781, 8, 40100) /* Crystalline Shard */;
+

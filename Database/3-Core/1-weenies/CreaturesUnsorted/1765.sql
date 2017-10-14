@@ -90,3 +90,19 @@ VALUES (1765, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1765, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1765, 8, 31865) /* Circlet */
+     , (1765, 8, 273) /* Pyreal */
+     , (1765, 8, 25647) /* Leather Pants */
+     , (1765, 8, 8328) /* Iron Pea */
+     , (1765, 8, 2435) /* Mana Stone */
+     , (1765, 8, 40620) /* Lightning Spadone */
+     , (1765, 8, 28633) /* Diforsa Girth */
+     , (1765, 8, 2434) /* Lesser Mana Stone */
+     , (1765, 8, 112) /* Studded Leather Tassets */
+     , (1765, 8, 28632) /* Diforsa Gauntlets */
+     , (1765, 8, 8329) /* Lead Pea */
+     , (1765, 8, 31868) /* Signet Crown */;
+

@@ -44,3 +44,23 @@ VALUES (11518, 67116650, 1, 48)
      , (11518, 67116642, 200, 8)
      , (11518, 67116625, 208, 48);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11518, 8, 49282) /* Acid K'nath Essence (50) */
+     , (11518, 8, 2419) /* Gem */
+     , (11518, 8, 416) /* Chainmail Pauldrons */
+     , (11518, 8, 2767) /* Scroll of Acid Lure II */
+     , (11518, 8, 25640) /* Leather Cowl */
+     , (11518, 8, 49310) /* Acid Wisp Essence (50) */
+     , (11518, 8, 296) /* Crown */
+     , (11518, 8, 2894) /* Scroll of Turn Blade III */
+     , (11518, 8, 22160) /* Lightning Nabut */
+     , (11518, 8, 628) /* Handy Healing Kit */
+     , (11518, 8, 3881) /* Acid Long Sword */
+     , (11518, 8, 40818) /* Corsesca */
+     , (11518, 8, 3897) /* Acid Tofun */
+     , (11518, 8, 273) /* Pyreal */
+     , (11518, 8, 25642) /* Leather Gauntlets */
+     , (11518, 8, 2827) /* Scroll of Frost Lure II */;
+

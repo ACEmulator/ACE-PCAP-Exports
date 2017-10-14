@@ -58,3 +58,8 @@ VALUES (43159, 64, 1100) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (43159, 128, 3200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (43159, 256, 5400) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43159, 8, 43491) /* Pitted Slag */;
+

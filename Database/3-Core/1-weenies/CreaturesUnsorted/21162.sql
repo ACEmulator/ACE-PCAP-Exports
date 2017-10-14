@@ -36,3 +36,10 @@ VALUES (21162, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (21162, 19, True) /* ATTACKABLE_BOOL */
      , (21162, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (21162, 8, 121) /* Gloves */
+     , (21162, 8, 273) /* Pyreal */
+     , (21162, 8, 8329) /* Lead Pea */;
+

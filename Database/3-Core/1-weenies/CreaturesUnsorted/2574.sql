@@ -40,3 +40,34 @@ VALUES (2574, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2574, 67111952, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2574, 8, 2427) /* Gem */
+     , (2574, 8, 161) /* Mug */
+     , (2574, 8, 25647) /* Leather Pants */
+     , (2574, 8, 21302) /* Scroll of Flame Arc I */
+     , (2574, 8, 80) /* Chainmail Leggings */
+     , (2574, 8, 513) /* Plain Lockpick */
+     , (2574, 8, 297) /* Ring */
+     , (2574, 8, 3048) /* Scroll of Lightning Protection Other II */
+     , (2574, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (2574, 8, 25651) /* Leather Sleeves */
+     , (2574, 8, 59) /* Studded Leather Gauntlets */
+     , (2574, 8, 44975) /* Hood */
+     , (2574, 8, 273) /* Pyreal */
+     , (2574, 8, 3939) /* Acid Morning Star */
+     , (2574, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (2574, 8, 118) /* Cloth Cap */
+     , (2574, 8, 723) /* Studded Leather Cowl */
+     , (2574, 8, 8329) /* Lead Pea */
+     , (2574, 8, 2420) /* Gem */
+     , (2574, 8, 41055) /* Flaming Greataxe */
+     , (2574, 8, 378) /* Stamina Potion */
+     , (2574, 8, 30613) /* Flaming Knuckles */
+     , (2574, 8, 68) /* Studded Leather Greaves */
+     , (2574, 8, 243) /* Dinner Plate */
+     , (2574, 8, 545) /* Reliable Lockpick */
+     , (2574, 8, 25646) /* Long Leather Gauntlets */
+     , (2574, 8, 41039) /* Flaming Assagai */;
+

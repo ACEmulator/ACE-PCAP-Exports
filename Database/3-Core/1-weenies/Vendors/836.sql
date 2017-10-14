@@ -126,47 +126,47 @@ VALUES (836, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (836, 4, 341)
-     , (836, 4, 312)
-     , (836, 4, 300)
-     , (836, 4, 305)
-     , (836, 4, 12463)
-     , (836, 4, 12464)
-     , (836, 4, 15296)
-     , (836, 4, 15298)
-     , (836, 4, 4586)
-     , (836, 4, 4585)
-     , (836, 4, 5339)
-     , (836, 4, 5344)
-     , (836, 4, 5345)
-     , (836, 4, 9378)
-     , (836, 4, 9377)
-     , (836, 4, 9359)
-     , (836, 4, 9362)
-     , (836, 4, 9363)
-     , (836, 4, 23858)
-     , (836, 4, 23857)
-     , (836, 4, 2621)
-     , (836, 4, 2622)
-     , (836, 4, 2623)
-     , (836, 4, 304)
-     , (836, 4, 3758)
-     , (836, 4, 3759)
-     , (836, 4, 3760)
-     , (836, 4, 3761)
-     , (836, 4, 310)
-     , (836, 4, 320)
-     , (836, 4, 316)
-     , (836, 4, 3786)
-     , (836, 4, 3787)
-     , (836, 4, 3788)
-     , (836, 4, 3789)
-     , (836, 4, 44074)
-     , (836, 4, 44070)
-     , (836, 4, 44071);
+VALUES (836, 4, 341) /* Shouyumi */
+     , (836, 4, 312) /* Light Crossbow */
+     , (836, 4, 300) /* Arrow */
+     , (836, 4, 305) /* Quarrel */
+     , (836, 4, 12463) /* Atlatl */
+     , (836, 4, 12464) /* Atlatl Dart */
+     , (836, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (836, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (836, 4, 4586) /* Bundle of Arrowheads */
+     , (836, 4, 4585) /* Bundle of Arrowshafts */
+     , (836, 4, 5339) /* Bundle of Quarrelshafts */
+     , (836, 4, 5344) /* Bundle of Blunt Arrowheads */
+     , (836, 4, 5345) /* Bundle of Broad Arrowheads */
+     , (836, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (836, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (836, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (836, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (836, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (836, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (836, 4, 23857) /* Bundle of Spiketails */
+     , (836, 4, 2621) /* Trade Note (100) */
+     , (836, 4, 2622) /* Trade Note (500) */
+     , (836, 4, 2623) /* Trade Note (1,000) */
+     , (836, 4, 304) /* Throwing Axe */
+     , (836, 4, 3758) /* Acid Throwing Axe */
+     , (836, 4, 3759) /* Lightning Throwing Axe */
+     , (836, 4, 3760) /* Flaming Throwing Axe */
+     , (836, 4, 3761) /* Frost Throwing Axe */
+     , (836, 4, 310) /* Throwing Club */
+     , (836, 4, 320) /* Javelin */
+     , (836, 4, 316) /* Throwing Dart */
+     , (836, 4, 3786) /* Throwing Acid Dart */
+     , (836, 4, 3787) /* Throwing Lightning Dart */
+     , (836, 4, 3788) /* Throwing Fire Dart */
+     , (836, 4, 3789) /* Throwing Frost Dart */
+     , (836, 4, 44074) /* Invitation to Master Fletchers */
+     , (836, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (836, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (836, 2, 341);
+VALUES (836, 2, 341) /* Shouyumi */;
 

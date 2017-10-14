@@ -59,3 +59,11 @@ VALUES (8120, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8120, 64, 255) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8120, 8, 20640) /* Royal Atlatl */
+     , (8120, 8, 30616) /* Arbalest */
+     , (8120, 8, 273) /* Pyreal */
+     , (8120, 8, 8083) /* Throbbing Lump */;
+

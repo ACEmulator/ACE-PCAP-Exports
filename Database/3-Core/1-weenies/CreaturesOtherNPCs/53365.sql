@@ -58,5 +58,5 @@ VALUES (53365, 0, 16797130)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (53365, 2, 52633);
+VALUES (53365, 2, 52633) /* A'nekshen Stormwood Spear */;
 

@@ -49,3 +49,35 @@ VALUES (1928, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1928, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1928, 8, 2420) /* Gem */
+     , (1928, 8, 2400) /* Gem */
+     , (1928, 8, 296) /* Crown */
+     , (1928, 8, 124) /* Jerkin */
+     , (1928, 8, 134) /* Tunic */
+     , (1928, 8, 163) /* Ornamental Bowl */
+     , (1928, 8, 295) /* Bracelet */
+     , (1928, 8, 49303) /* Frost K'nath Essence (50) */
+     , (1928, 8, 141) /* Bowl */
+     , (1928, 8, 2429) /* Gem */
+     , (1928, 8, 161) /* Mug */
+     , (1928, 8, 297) /* Ring */
+     , (1928, 8, 2426) /* Gem */
+     , (1928, 8, 623) /* Heavy Necklace */
+     , (1928, 8, 7940) /* Empty Flask */
+     , (1928, 8, 2367) /* Gorget */
+     , (1928, 8, 2428) /* Gem */
+     , (1928, 8, 2401) /* Gem */
+     , (1928, 8, 154) /* Goblet */
+     , (1928, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (1928, 8, 2395) /* Gem */
+     , (1928, 8, 49247) /* Fire Zombie Essence (50) */
+     , (1928, 8, 621) /* Heavy Bracelet */
+     , (1928, 8, 294) /* Amulet */
+     , (1928, 8, 49296) /* Fire K'nath Essence (50) */
+     , (1928, 8, 49380) /* Fire Grievver Essence (50) */
+     , (1928, 8, 31865) /* Circlet */
+     , (1928, 8, 2598) /* Baggy Pants */;
+

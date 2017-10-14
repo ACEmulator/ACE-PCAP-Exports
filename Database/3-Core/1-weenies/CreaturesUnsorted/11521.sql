@@ -50,3 +50,20 @@ VALUES (11521, 2, 58) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11521, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11521, 8, 45424) /* Flaming Dagger */
+     , (11521, 8, 8329) /* Lead Pea */
+     , (11521, 8, 99) /* Studded Leather Shirt */
+     , (11521, 8, 31790) /* Lightning Stick */
+     , (11521, 8, 7897) /* Steel Toed Boots */
+     , (11521, 8, 121) /* Gloves */
+     , (11521, 8, 27331) /* Minor Mana Stone */
+     , (11521, 8, 28607) /* Lace Shirt */
+     , (11521, 8, 25647) /* Leather Pants */
+     , (11521, 8, 2457) /* Health Draught */
+     , (11521, 8, 25645) /* Leather Leggings */
+     , (11521, 8, 43294) /* Scroll of Corruption */
+     , (11521, 8, 295) /* Bracelet */;
+

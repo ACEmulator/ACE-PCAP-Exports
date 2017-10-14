@@ -39,3 +39,27 @@ VALUES (32956, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32956, 67113037, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32956, 8, 28946) /* Scroll of Arcanum Enlightenment VII */
+     , (32956, 8, 55) /* Chainmail Gauntlets */
+     , (32956, 8, 20542) /* Scroll of Yoshi's Boon */
+     , (32956, 8, 28632) /* Diforsa Gauntlets */
+     , (32956, 8, 27217) /* Chiran Helm */
+     , (32956, 8, 2408) /* Gem */
+     , (32956, 8, 2411) /* Gem */
+     , (32956, 8, 21156) /* Covenant Helm */
+     , (32956, 8, 9310) /* A Large Mnemosyne */
+     , (32956, 8, 20488) /* Scroll of Energy Flux */
+     , (32956, 8, 43068) /* Knorr Academy Helm */
+     , (32956, 8, 6048) /* Celdon Sleeves */
+     , (32956, 8, 20571) /* Scroll of Kaluhc's Boon */
+     , (32956, 8, 2407) /* Gem */
+     , (32956, 8, 130) /* Shirt */
+     , (32956, 8, 2367) /* Gorget */
+     , (32956, 8, 154) /* Goblet */
+     , (32956, 8, 45116) /* Flaming Hammer */
+     , (32956, 8, 28630) /* Diforsa Cuirass */
+     , (32956, 8, 132) /* Shoes */;
+

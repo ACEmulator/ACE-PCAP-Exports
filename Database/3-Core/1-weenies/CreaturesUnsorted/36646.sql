@@ -77,3 +77,8 @@ VALUES (36646, 64, 10000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (36646, 128, 5260) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (36646, 256, 5350) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36646, 8, 36682) /* Sigil of Linvak Tukal */;
+

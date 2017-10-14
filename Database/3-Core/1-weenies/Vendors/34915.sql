@@ -66,10 +66,10 @@ VALUES (34915, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (34915, 4, 34894)
-     , (34915, 4, 34895)
-     , (34915, 4, 34896)
-     , (34915, 4, 34897)
-     , (34915, 4, 34932)
-     , (34915, 4, 34933);
+VALUES (34915, 4, 34894) /* Alchemy Sigil */
+     , (34915, 4, 34895) /* Cooking Sigil */
+     , (34915, 4, 34896) /* Fletching Sigil */
+     , (34915, 4, 34897) /* Lockpicking Sigil */
+     , (34915, 4, 34932) /* Golem Construction Materials List */
+     , (34915, 4, 34933) /* Finding Imprinting Motes */;
 

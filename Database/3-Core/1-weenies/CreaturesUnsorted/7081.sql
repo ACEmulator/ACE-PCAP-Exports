@@ -45,3 +45,62 @@ VALUES (7081, 2, 17) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7081, 64, 390) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7081, 8, 49443) /* Frost Spectre Essence (80) */
+     , (7081, 8, 20557) /* Scroll of Oswald's Blessing */
+     , (7081, 8, 44802) /* Vestiri Over-robe */
+     , (7081, 8, 30200) /* Deceiver's Crystal */
+     , (7081, 8, 48959) /* Fire Elemental Essence (50) */
+     , (7081, 8, 43377) /* Scroll of Void Mastery Self VII */
+     , (7081, 8, 31812) /* Slashing Slingshot */
+     , (7081, 8, 154) /* Goblet */
+     , (7081, 8, 20606) /* Scroll of Self Sacrifice */
+     , (7081, 8, 624) /* Ring */
+     , (7081, 8, 49485) /* Encapsulated Spirit */
+     , (7081, 8, 28605) /* Beret */
+     , (7081, 8, 2394) /* Gem */
+     , (7081, 8, 295) /* Bracelet */
+     , (7081, 8, 45366) /* Brawler's Crystal */
+     , (7081, 8, 49525) /* Acid Phyntos Wasp Essence (80) */
+     , (7081, 8, 413) /* Chainmail Bracers */
+     , (7081, 8, 6003) /* Koujia Breastplate */
+     , (7081, 8, 2411) /* Gem */
+     , (7081, 8, 142) /* Chalice */
+     , (7081, 8, 22951) /* Plate Armoredillo Spine */
+     , (7081, 8, 96) /* Chainmail Shirt */
+     , (7081, 8, 41050) /* Frost Pike */
+     , (7081, 8, 55) /* Chainmail Gauntlets */
+     , (7081, 8, 41488) /* Top */
+     , (7081, 8, 20405) /* Scroll of Swordsman Bait */
+     , (7081, 8, 2605) /* Chainmail Greaves */
+     , (7081, 8, 129) /* Sandals */
+     , (7081, 8, 27231) /* Nariyid Leggings */
+     , (7081, 8, 20473) /* Scroll of Tusker's Gift */
+     , (7081, 8, 294) /* Amulet */
+     , (7081, 8, 309) /* Club */
+     , (7081, 8, 45369) /* Knight's Crystal */
+     , (7081, 8, 49333) /* Frost Wisp Essence (100) */
+     , (7081, 8, 41487) /* Mechanical Scarab */
+     , (7081, 8, 20596) /* Scroll of Hieromancer's Blessing */
+     , (7081, 8, 7897) /* Steel Toed Boots */
+     , (7081, 8, 2602) /* Loose Breeches */
+     , (7081, 8, 20512) /* Scroll of Morimoto's Blessing */
+     , (7081, 8, 2402) /* Gem */
+     , (7081, 8, 6048) /* Celdon Sleeves */
+     , (7081, 8, 49255) /* Frost Zombie Essence (80) */
+     , (7081, 8, 150) /* Flagon */
+     , (7081, 8, 101) /* Chainmail Sleeves */
+     , (7081, 8, 2591) /* Puffy Shirt */
+     , (7081, 8, 127) /* Pants */
+     , (7081, 8, 2424) /* Gem */
+     , (7081, 8, 2421) /* Gem */
+     , (7081, 8, 49462) /* Scroll of Summoning Ineptitude Other VII */
+     , (7081, 8, 149) /* Ewer */
+     , (7081, 8, 3836) /* Flaming Mace */
+     , (7081, 8, 163) /* Ornamental Bowl */
+     , (7081, 8, 130) /* Shirt */
+     , (7081, 8, 121) /* Gloves */
+     , (7081, 8, 2589) /* Smock */;
+

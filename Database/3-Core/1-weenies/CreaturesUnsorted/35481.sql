@@ -45,3 +45,16 @@ VALUES (35481, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35481, 64, 1005) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35481, 8, 49221) /* Lightning Skeleton Minion Essence (80) */
+     , (35481, 8, 20477) /* Scroll of Fiery Boon */
+     , (35481, 8, 49320) /* Lightning Wisp Essence (125) */
+     , (35481, 8, 2403) /* Gem */
+     , (35481, 8, 2599) /* Trousers */
+     , (35481, 8, 72) /* Platemail Hauberk */
+     , (35481, 8, 31806) /* Acid Compound Crossbow */
+     , (35481, 8, 624) /* Ring */
+     , (35481, 8, 35480) /* Watcher's Message Shard */;
+

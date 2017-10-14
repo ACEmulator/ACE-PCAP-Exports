@@ -67,3 +67,31 @@ VALUES (24939, 2, 70) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24939, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24939, 8, 53) /* Studded Leather Cuirass */
+     , (24939, 8, 307) /* Shortbow */
+     , (24939, 8, 3736) /* Scroll of Infuse Mana II */
+     , (24939, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (24939, 8, 41485) /* Pocket Watch */
+     , (24939, 8, 41484) /* Goggles */
+     , (24939, 8, 413) /* Chainmail Bracers */
+     , (24939, 8, 5543) /* Scroll of Monster Attunement Self II */
+     , (24939, 8, 2603) /* Baggy Breeches */
+     , (24939, 8, 545) /* Reliable Lockpick */
+     , (24939, 8, 44) /* Buckler */
+     , (24939, 8, 84) /* Studded  Leggings */
+     , (24939, 8, 309) /* Club */
+     , (24939, 8, 55) /* Chainmail Gauntlets */
+     , (24939, 8, 7940) /* Empty Flask */
+     , (24939, 8, 297) /* Ring */
+     , (24939, 8, 2436) /* Greater Mana Stone */
+     , (24939, 8, 21297) /* Scroll of Blade Arc III */
+     , (24939, 8, 149) /* Ewer */
+     , (24939, 8, 311) /* Heavy Crossbow */
+     , (24939, 8, 25648) /* Leather Pauldrons */
+     , (24939, 8, 3884) /* Frost Long Sword */
+     , (24939, 8, 161) /* Mug */
+     , (24939, 8, 628) /* Handy Healing Kit */;
+

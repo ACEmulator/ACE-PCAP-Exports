@@ -48,3 +48,10 @@ VALUES (27430, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27430, 64, 1075) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27430, 8, 7790) /* Electric Spiked Club */
+     , (27430, 8, 321) /* Jitte */
+     , (27430, 8, 27440) /* Grave Robber Title Token */;
+

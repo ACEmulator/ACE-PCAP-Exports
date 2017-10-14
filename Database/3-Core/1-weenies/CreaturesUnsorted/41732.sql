@@ -44,3 +44,15 @@ VALUES (41732, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41732, 64, 9975) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41732, 8, 42635) /* Aetheria */
+     , (41732, 8, 49424) /* Acid Spectre Essence (125) */
+     , (41732, 8, 49244) /* Lightning Zombie Essence (150) */
+     , (41732, 8, 2603) /* Baggy Breeches */
+     , (41732, 8, 21322) /* Scroll of Frost Arc VII */
+     , (41732, 8, 623) /* Heavy Necklace */
+     , (41732, 8, 31819) /* Staff */
+     , (41732, 8, 95) /* Tower Shield */;
+

@@ -98,3 +98,12 @@ VALUES (25967, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25967, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25967, 8, 2418) /* Gem */
+     , (25967, 8, 2547) /* Staff */
+     , (25967, 8, 2597) /* Flared Pants */
+     , (25967, 8, 27324) /* Stamina Brew */
+     , (25967, 8, 25960) /* Woven Tassel of Far Sight */;
+

@@ -49,3 +49,15 @@ VALUES (32079, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32079, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32079, 8, 49282) /* Acid K'nath Essence (50) */
+     , (32079, 8, 512) /* Good Lockpick */
+     , (32079, 8, 45121) /* Flaming Hand Wraps */
+     , (32079, 8, 38) /* Studded Leather Bracers */
+     , (32079, 8, 41071) /* Frost Shashqa */
+     , (32079, 8, 31778) /* Frost Spine Glaive */
+     , (32079, 8, 118) /* Cloth Cap */
+     , (32079, 8, 41039) /* Flaming Assagai */;
+

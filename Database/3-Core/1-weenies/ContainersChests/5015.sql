@@ -50,3 +50,9 @@ VALUES (5015, 19, 3000) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5015, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5015, 8, 5016) /* Dull Dagger */
+     , (5015, 8, 34346) /* Ancient Shard of Metal */;
+

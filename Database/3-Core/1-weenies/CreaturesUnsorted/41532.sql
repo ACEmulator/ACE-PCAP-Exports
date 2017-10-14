@@ -35,3 +35,10 @@ VALUES (41532, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (41532, 19, True) /* ATTACKABLE_BOOL */
      , (41532, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41532, 8, 20609) /* Scroll of Gift of Vigor */
+     , (41532, 8, 45282) /* Scroll of Dual Wield Mastery Self VII */
+     , (41532, 8, 30576) /* Flamberge */;
+

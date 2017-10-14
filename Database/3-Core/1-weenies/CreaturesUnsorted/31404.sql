@@ -113,3 +113,109 @@ VALUES (31404, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31404, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31404, 8, 20496) /* Scroll of Silencia's Boon */
+     , (31404, 8, 20500) /* Scroll of Aliester's Blessing */
+     , (31404, 8, 4195) /* Nekode */
+     , (31404, 8, 132) /* Shoes */
+     , (31404, 8, 41068) /* Acid Shashqa */
+     , (31404, 8, 73) /* Scalemail Hauberk */
+     , (31404, 8, 2590) /* Baggy Shirt */
+     , (31404, 8, 28624) /* Tenassa Sleeves */
+     , (31404, 8, 20484) /* Scroll of Blessing of the Arrow Turner */
+     , (31404, 8, 95) /* Tower Shield */
+     , (31404, 8, 42757) /* Haebrean Vambraces */
+     , (31404, 8, 28632) /* Diforsa Gauntlets */
+     , (31404, 8, 150) /* Flagon */
+     , (31404, 8, 6047) /* Amuli Leggings */
+     , (31404, 8, 32940) /* Dark Monolith Caverns */
+     , (31404, 8, 6048) /* Celdon Sleeves */
+     , (31404, 8, 22162) /* Frost Nabut */
+     , (31404, 8, 31868) /* Signet Crown */
+     , (31404, 8, 22165) /* Lightning Quarter Staff */
+     , (31404, 8, 27222) /* Lorica Gauntlets */
+     , (31404, 8, 27223) /* Lorica Helm */
+     , (31404, 8, 22440) /* Dirk */
+     , (31404, 8, 20562) /* Scroll of Celdiseth's Blessing */
+     , (31404, 8, 45314) /* Scroll of Shield Ineptitude Other VII */
+     , (31404, 8, 621) /* Heavy Bracelet */
+     , (31404, 8, 43068) /* Knorr Academy Helm */
+     , (31404, 8, 25639) /* Leather Jerkin */
+     , (31404, 8, 49341) /* Acid Moar Essence (125) */
+     , (31404, 8, 2407) /* Gem */
+     , (31404, 8, 30823) /* Broken Black Marrow Key */
+     , (31404, 8, 49325) /* Fire Wisp Essence (80) */
+     , (31404, 8, 29251) /* Slashing Crossbow */
+     , (31404, 8, 105) /* Studded Leather Sleeves */
+     , (31404, 8, 22160) /* Lightning Nabut */
+     , (31404, 8, 28606) /* Viamontian Pants */
+     , (31404, 8, 2425) /* Gem */
+     , (31404, 8, 45282) /* Scroll of Dual Wield Mastery Self VII */
+     , (31404, 8, 313) /* Dabus */
+     , (31404, 8, 49546) /* Lightning Phyntos Wasp Essence (80) */
+     , (31404, 8, 22166) /* Flaming Quarter Staff */
+     , (31404, 8, 49369) /* Acid Grievver Essence (125) */
+     , (31404, 8, 40700) /* Covenant Greaves */
+     , (31404, 8, 25637) /* Leather Bracers */
+     , (31404, 8, 416) /* Chainmail Pauldrons */
+     , (31404, 8, 42753) /* Haebrean Helm */
+     , (31404, 8, 31812) /* Slashing Slingshot */
+     , (31404, 8, 49356) /* Fire Moar Essence (150) */
+     , (31404, 8, 27221) /* Lorica Breastplate */
+     , (31404, 8, 43051) /* Knorr Academy Greaves */
+     , (31404, 8, 49230) /* Frost Skeleton Bushi Essence (125) */
+     , (31404, 8, 20256) /* Scroll of Bolstered Will */
+     , (31404, 8, 27235) /* Scroll of Eradicate Item Magic */
+     , (31404, 8, 49548) /* Lightning Phyntos Wasp Essence (125) */
+     , (31404, 8, 20527) /* Scroll of Odif's Boon */
+     , (31404, 8, 29260) /* Blunt Sceptre */
+     , (31404, 8, 142) /* Chalice */
+     , (31404, 8, 31764) /* Lugian Hammer */
+     , (31404, 8, 41485) /* Pocket Watch */
+     , (31404, 8, 41052) /* Greataxe */
+     , (31404, 8, 296) /* Crown */
+     , (31404, 8, 23107) /* Mangled Dark Key */
+     , (31404, 8, 7793) /* Acid Trident */
+     , (31404, 8, 25647) /* Leather Pants */
+     , (31404, 8, 107) /* Sollerets */
+     , (31404, 8, 6004) /* Koujia Leggings */
+     , (31404, 8, 20404) /* Scroll of Swordsman's Bane */
+     , (31404, 8, 44849) /* Chevron Cloak */
+     , (31404, 8, 121) /* Gloves */
+     , (31404, 8, 7897) /* Steel Toed Boots */
+     , (31404, 8, 118) /* Cloth Cap */
+     , (31404, 8, 40635) /* Tetsubo */
+     , (31404, 8, 20543) /* Scroll of Yoshi's Blessing */
+     , (31404, 8, 40621) /* Flaming Spadone */
+     , (31404, 8, 415) /* Chainmail Girth */
+     , (31404, 8, 2596) /* Doublet */
+     , (31404, 8, 63) /* Studded Leather Girth */
+     , (31404, 8, 31796) /* Lightning Lancet */
+     , (31404, 8, 624) /* Ring */
+     , (31404, 8, 414) /* Chainmail Breastplate */
+     , (31404, 8, 49374) /* Lightning Grievver Essence (80) */
+     , (31404, 8, 49250) /* Fire Zombie Essence (125) */
+     , (31404, 8, 295) /* Bracelet */
+     , (31404, 8, 28015) /* Scroll of Spirit Pacification */
+     , (31404, 8, 94) /* Diamond Shield */
+     , (31404, 8, 27230) /* Nariyid Helm */
+     , (31404, 8, 25646) /* Long Leather Gauntlets */
+     , (31404, 8, 42635) /* Aetheria */
+     , (31404, 8, 49335) /* Frost Wisp Essence (150) */
+     , (31404, 8, 83) /* Scalemail Leggings */
+     , (31404, 8, 29261) /* Electric Sceptre */
+     , (31404, 8, 29238) /* Acid Bow */
+     , (31404, 8, 49306) /* Frost K'nath Essence (125) */
+     , (31404, 8, 20526) /* Scroll of Sashi Mu's Kiss */
+     , (31404, 8, 84) /* Studded  Leggings */
+     , (31404, 8, 2419) /* Gem */
+     , (31404, 8, 2415) /* Gem */
+     , (31404, 8, 8329) /* Lead Pea */
+     , (31404, 8, 40699) /* Covenant Girth */
+     , (31404, 8, 44977) /* Lyceum Hood */
+     , (31404, 8, 49264) /* Acid Child Essence (125) */
+     , (31404, 8, 45099) /* Epee */
+     , (31404, 8, 21153) /* Covenant Gauntlets */;
+

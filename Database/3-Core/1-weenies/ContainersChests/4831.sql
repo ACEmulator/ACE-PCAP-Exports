@@ -37,3 +37,10 @@ VALUES (4831, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4831, 19, True) /* ATTACKABLE_BOOL */
      , (4831, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4831, 8, 2590) /* Baggy Shirt */
+     , (4831, 8, 2435) /* Mana Stone */
+     , (4831, 8, 273) /* Pyreal */;
+

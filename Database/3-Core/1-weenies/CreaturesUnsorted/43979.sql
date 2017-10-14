@@ -51,3 +51,16 @@ VALUES (43979, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43979, 64, 12250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43979, 8, 49233) /* Frigid Zombie Essence */
+     , (43979, 8, 273) /* Pyreal */
+     , (43979, 8, 45426) /* Jambiya */
+     , (43979, 8, 2409) /* Gem */
+     , (43979, 8, 45401) /* Simi */
+     , (43979, 8, 41046) /* Pike */
+     , (43979, 8, 37201) /* Olthoi Amuli Leggings */
+     , (43979, 8, 83) /* Scalemail Leggings */
+     , (43979, 8, 154) /* Goblet */;
+

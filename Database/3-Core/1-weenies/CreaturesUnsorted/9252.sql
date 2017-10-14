@@ -58,3 +58,46 @@ VALUES (9252, 2, 28) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9252, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9252, 8, 31796) /* Lightning Lancet */
+     , (9252, 8, 273) /* Pyreal */
+     , (9252, 8, 22162) /* Frost Nabut */
+     , (9252, 8, 49359) /* Frost Moar Essence (50) */
+     , (9252, 8, 2547) /* Staff */
+     , (9252, 8, 2434) /* Lesser Mana Stone */
+     , (9252, 8, 2595) /* Baggy Tunic */
+     , (9252, 8, 28606) /* Viamontian Pants */
+     , (9252, 8, 21291) /* Scroll of Acid Arc IV */
+     , (9252, 8, 2548) /* Sceptre */
+     , (9252, 8, 2588) /* Flared Shirt */
+     , (9252, 8, 31794) /* Lancet */
+     , (9252, 8, 43312) /* Scroll of Nether Streak III */
+     , (9252, 8, 95) /* Tower Shield */
+     , (9252, 8, 379) /* Mana Potion */
+     , (9252, 8, 41485) /* Pocket Watch */
+     , (9252, 8, 38) /* Studded Leather Bracers */
+     , (9252, 8, 2599) /* Trousers */
+     , (9252, 8, 2417) /* Gem */
+     , (9252, 8, 312) /* Light Crossbow */
+     , (9252, 8, 41488) /* Top */
+     , (9252, 8, 7787) /* Frost Spiked Club */
+     , (9252, 8, 3039) /* Scroll of Fire Protection Self III */
+     , (9252, 8, 2435) /* Mana Stone */
+     , (9252, 8, 25641) /* Leather Cuirass */
+     , (9252, 8, 12253) /* Monougat */
+     , (9252, 8, 42518) /* Coalesced Mana */
+     , (9252, 8, 307) /* Shortbow */
+     , (9252, 8, 2788) /* Scroll of Blood Loather III */
+     , (9252, 8, 413) /* Chainmail Bracers */
+     , (9252, 8, 45320) /* Scroll of Shield Mastery Other V */
+     , (9252, 8, 4197) /* Acid Nekode */
+     , (9252, 8, 8329) /* Lead Pea */
+     , (9252, 8, 43281) /* Scroll of Corrosion IV */
+     , (9252, 8, 306) /* Longbow */
+     , (9252, 8, 297) /* Ring */
+     , (9252, 8, 628) /* Handy Healing Kit */
+     , (9252, 8, 49303) /* Frost K'nath Essence (50) */
+     , (9252, 8, 40) /* Platemail Breastplate */;
+

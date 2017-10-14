@@ -36,3 +36,9 @@ VALUES (28649, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28649, 67116327, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28649, 8, 28605) /* Beret */
+     , (28649, 8, 273) /* Pyreal */;
+

@@ -56,3 +56,18 @@ VALUES (27799, 2, 16792427)
      , (27799, 14, 16792451)
      , (27799, 16, 16792458);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27799, 8, 20420) /* Scroll of Astyrrian's Bane */
+     , (27799, 8, 30614) /* Frost Knuckles */
+     , (27799, 8, 297) /* Ring */
+     , (27799, 8, 4195) /* Nekode */
+     , (27799, 8, 40711) /* Covenant Helm */
+     , (27799, 8, 130) /* Shirt */
+     , (27799, 8, 312) /* Light Crossbow */
+     , (27799, 8, 622) /* Necklace */
+     , (27799, 8, 43381) /* Nether Sceptre */
+     , (27799, 8, 31772) /* Flaming War Axe */
+     , (27799, 8, 28623) /* Diforsa Pauldrons */;
+

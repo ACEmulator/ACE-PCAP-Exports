@@ -49,3 +49,33 @@ VALUES (1924, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1924, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1924, 8, 2406) /* Gem */
+     , (1924, 8, 8328) /* Iron Pea */
+     , (1924, 8, 31774) /* Board with Nail */
+     , (1924, 8, 273) /* Pyreal */
+     , (1924, 8, 5983) /* Scroll of Alchemy Ineptitude Other IV */
+     , (1924, 8, 2434) /* Lesser Mana Stone */
+     , (1924, 8, 2739) /* Scroll of Strength Other IV */
+     , (1924, 8, 360) /* Yag */
+     , (1924, 8, 2420) /* Gem */
+     , (1924, 8, 2432) /* Gem */
+     , (1924, 8, 28612) /* Bandana */
+     , (1924, 8, 8949) /* Scroll of Shock Wave Streak III */
+     , (1924, 8, 9626) /* Scroll of Jumping Ineptitude III */
+     , (1924, 8, 40621) /* Flaming Spadone */
+     , (1924, 8, 8329) /* Lead Pea */
+     , (1924, 8, 7791) /* Frost Trident */
+     , (1924, 8, 22165) /* Lightning Quarter Staff */
+     , (1924, 8, 2435) /* Mana Stone */
+     , (1924, 8, 116) /* Studded Leather Boots */
+     , (1924, 8, 27331) /* Minor Mana Stone */
+     , (1924, 8, 2414) /* Gem */
+     , (1924, 8, 68) /* Studded Leather Greaves */
+     , (1924, 8, 148) /* Cup */
+     , (1924, 8, 7940) /* Empty Flask */
+     , (1924, 8, 31865) /* Circlet */
+     , (1924, 8, 3390) /* Scroll of Lockpick Mastery Self IV */;
+

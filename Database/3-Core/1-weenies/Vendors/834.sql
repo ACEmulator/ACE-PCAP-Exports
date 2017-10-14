@@ -126,35 +126,35 @@ VALUES (834, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (834, 4, 4728)
-     , (834, 4, 4732)
-     , (834, 4, 620)
-     , (834, 4, 4709)
-     , (834, 4, 2467)
-     , (834, 4, 2469)
-     , (834, 4, 2451)
-     , (834, 4, 2455)
-     , (834, 4, 2456)
-     , (834, 4, 8378)
-     , (834, 4, 26001)
-     , (834, 4, 26483)
-     , (834, 4, 26487)
-     , (834, 4, 1225)
-     , (834, 4, 1509)
-     , (834, 4, 1493)
-     , (834, 4, 4210)
-     , (834, 4, 5602)
-     , (834, 4, 6419)
-     , (834, 4, 25997)
-     , (834, 4, 25998)
-     , (834, 4, 25999)
-     , (834, 4, 26480)
-     , (834, 4, 26481)
-     , (834, 4, 26000)
-     , (834, 4, 26482)
-     , (834, 4, 26484)
-     , (834, 4, 26486)
-     , (834, 4, 26002)
-     , (834, 4, 26003)
-     , (834, 4, 26644);
+VALUES (834, 4, 4728) /* Fried Chicken */
+     , (834, 4, 4732) /* Fried Steak */
+     , (834, 4, 620) /* Cake */
+     , (834, 4, 4709) /* Apple Pie */
+     , (834, 4, 2467) /* Red Wine */
+     , (834, 4, 2469) /* Small Beer */
+     , (834, 4, 2451) /* Ale */
+     , (834, 4, 2455) /* Grape Juice */
+     , (834, 4, 2456) /* Green Tea */
+     , (834, 4, 8378) /* Beer Stein */
+     , (834, 4, 26001) /* Braid Manor Ruin */
+     , (834, 4, 26483) /* Directions to Nen Ai's House */
+     , (834, 4, 26487) /* Directions to the Shreth Hive */
+     , (834, 4, 1225) /* Shoushi Grotto Directions */
+     , (834, 4, 1509) /* Drudge Rumor */
+     , (834, 4, 1493) /* Green Mire Camp Directions */
+     , (834, 4, 4210) /* Dungeon Mei Directions */
+     , (834, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (834, 4, 6419) /* The Meeting Halls */
+     , (834, 4, 25997) /* The Broken Hall */
+     , (834, 4, 25998) /* The Cursed Swamp */
+     , (834, 4, 25999) /* Caves in the Foothills */
+     , (834, 4, 26480) /* Fort Aimaru */
+     , (834, 4, 26481) /* Ancient Warrior's Tower */
+     , (834, 4, 26000) /* Mosswart Hangout */
+     , (834, 4, 26482) /* Mosswart Temple */
+     , (834, 4, 26484) /* Rat Cave */
+     , (834, 4, 26486) /* Bulletin */
+     , (834, 4, 26002) /* Shoushi Drudge Temple */
+     , (834, 4, 26003) /* Shoushi Banderling Camp */
+     , (834, 4, 26644) /* Skeleton Castle Rumor */;
 

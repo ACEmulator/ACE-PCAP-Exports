@@ -96,3 +96,13 @@ VALUES (32833, 5, 16777299)
      , (32833, 8, 16781839)
      , (32833, 16, 16791893);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32833, 8, 29244) /* Slashing Bow */
+     , (32833, 8, 22440) /* Dirk */
+     , (32833, 8, 32832) /* The Sword of Bellenesse */
+     , (32833, 8, 21152) /* Covenant Breastplate */
+     , (32833, 8, 42) /* Studded Leather Breastplate */
+     , (32833, 8, 307) /* Shortbow */;
+

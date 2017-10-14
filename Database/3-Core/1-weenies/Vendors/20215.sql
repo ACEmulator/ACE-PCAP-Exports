@@ -124,63 +124,63 @@ VALUES (20215, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20215, 4, 15269)
-     , (20215, 4, 15271)
-     , (20215, 4, 1875)
-     , (20215, 4, 1876)
-     , (20215, 4, 46843)
-     , (20215, 4, 1588)
-     , (20215, 4, 46844)
-     , (20215, 4, 1880)
-     , (20215, 4, 46845)
-     , (20215, 4, 1885)
-     , (20215, 4, 46848)
-     , (20215, 4, 1896)
-     , (20215, 4, 46846)
-     , (20215, 4, 28002)
-     , (20215, 4, 46847)
-     , (20215, 4, 1895)
-     , (20215, 4, 1552)
-     , (20215, 4, 1553)
-     , (20215, 4, 1589)
-     , (20215, 4, 1877)
-     , (20215, 4, 1878)
-     , (20215, 4, 1879)
-     , (20215, 4, 1881)
-     , (20215, 4, 1882)
-     , (20215, 4, 1883)
-     , (20215, 4, 1884)
-     , (20215, 4, 1886)
-     , (20215, 4, 1887)
-     , (20215, 4, 1888)
-     , (20215, 4, 1889)
-     , (20215, 4, 1890)
-     , (20215, 4, 1891)
-     , (20215, 4, 1892)
-     , (20215, 4, 1893)
-     , (20215, 4, 28009)
-     , (20215, 4, 1894)
-     , (20215, 4, 1897)
-     , (20215, 4, 1898)
-     , (20215, 4, 8914)
-     , (20215, 4, 1638)
-     , (20215, 4, 21288)
-     , (20215, 4, 1569)
-     , (20215, 4, 8920)
-     , (20215, 4, 21302)
-     , (20215, 4, 1639)
-     , (20215, 4, 8929)
-     , (20215, 4, 21309)
-     , (20215, 4, 1573)
-     , (20215, 4, 8935)
-     , (20215, 4, 21316)
-     , (20215, 4, 1640)
-     , (20215, 4, 8941)
-     , (20215, 4, 21323)
-     , (20215, 4, 1641)
-     , (20215, 4, 8947)
-     , (20215, 4, 21330)
-     , (20215, 4, 1642)
-     , (20215, 4, 8953)
-     , (20215, 4, 21295);
+VALUES (20215, 4, 15269) /* Foci of Artifice */
+     , (20215, 4, 15271) /* Foci of Strife */
+     , (20215, 4, 1875) /* Scroll of Acid Bane */
+     , (20215, 4, 1876) /* Scroll of Acid Lure */
+     , (20215, 4, 46843) /* Aura of Blood Drinker Other */
+     , (20215, 4, 1588) /* Aura of Blood Drinker Self */
+     , (20215, 4, 46844) /* Aura of Defender Other */
+     , (20215, 4, 1880) /* Aura of Defender Self */
+     , (20215, 4, 46845) /* Aura of Heartseeker Other */
+     , (20215, 4, 1885) /* Aura of Heartseeker Self */
+     , (20215, 4, 46848) /* Aura of Hermetic Link Other */
+     , (20215, 4, 1896) /* Aura of Hermetic Link Self */
+     , (20215, 4, 46846) /* Aura of Spirit Drinker Other */
+     , (20215, 4, 28002) /* Aura of Spirit Drinker Self */
+     , (20215, 4, 46847) /* Aura of Swift Killer Other */
+     , (20215, 4, 1895) /* Aura of Swift Killer Self */
+     , (20215, 4, 1552) /* Scroll of Blade Bane */
+     , (20215, 4, 1553) /* Scroll of Blade Lure */
+     , (20215, 4, 1589) /* Scroll of Blood Loather */
+     , (20215, 4, 1877) /* Scroll of Bludgeon Bane */
+     , (20215, 4, 1878) /* Scroll of Bludgeon Lure */
+     , (20215, 4, 1879) /* Scroll of Brittlemail */
+     , (20215, 4, 1881) /* Scroll of Flame Bane */
+     , (20215, 4, 1882) /* Scroll of Flame Lure */
+     , (20215, 4, 1883) /* Scroll of Frost Bane */
+     , (20215, 4, 1884) /* Scroll of Frost Lure */
+     , (20215, 4, 1886) /* Scroll of Hermetic Void */
+     , (20215, 4, 1887) /* Scroll of Impenetrability */
+     , (20215, 4, 1888) /* Scroll of Leaden Weapon */
+     , (20215, 4, 1889) /* Scroll of Lightning Bane */
+     , (20215, 4, 1890) /* Scroll of Lightning Lure */
+     , (20215, 4, 1891) /* Scroll of Lure Blade */
+     , (20215, 4, 1892) /* Scroll of Piercing Bane */
+     , (20215, 4, 1893) /* Scroll of Piercing Lure */
+     , (20215, 4, 28009) /* Scroll of Spirit Loather */
+     , (20215, 4, 1894) /* Scroll of Strengthen Lock */
+     , (20215, 4, 1897) /* Scroll of Turn Blade */
+     , (20215, 4, 1898) /* Scroll of Weaken Lock */
+     , (20215, 4, 8914) /* Scroll of Acid Streak */
+     , (20215, 4, 1638) /* Scroll of Acid Stream */
+     , (20215, 4, 21288) /* Scroll of Acid Arc I */
+     , (20215, 4, 1569) /* Scroll of Flame Bolt */
+     , (20215, 4, 8920) /* Scroll of Flame Streak */
+     , (20215, 4, 21302) /* Scroll of Flame Arc I */
+     , (20215, 4, 1639) /* Scroll of Force Bolt */
+     , (20215, 4, 8929) /* Scroll of Force Streak */
+     , (20215, 4, 21309) /* Scroll of Force Arc I */
+     , (20215, 4, 1573) /* Scroll of Frost Bolt */
+     , (20215, 4, 8935) /* Scroll of Frost Streak */
+     , (20215, 4, 21316) /* Scroll of Frost Arc I */
+     , (20215, 4, 1640) /* Scroll of Lightning Bolt */
+     , (20215, 4, 8941) /* Scroll of Lightning Streak */
+     , (20215, 4, 21323) /* Scroll of Lightning Arc I */
+     , (20215, 4, 1641) /* Scroll of Shock Wave */
+     , (20215, 4, 8947) /* Scroll of Shock Wave Streak */
+     , (20215, 4, 21330) /* Scroll of Shock Arc I */
+     , (20215, 4, 1642) /* Scroll of Whirling Blade */
+     , (20215, 4, 8953) /* Scroll of Whirling Blade Streak */
+     , (20215, 4, 21295) /* Scroll of Blade Arc I */;
 

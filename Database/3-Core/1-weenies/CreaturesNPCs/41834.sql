@@ -110,6 +110,6 @@ VALUES (41834, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41834, 2, 24200)
-     , (41834, 2, 38851);
+VALUES (41834, 2, 24200) /* Weeping Claw */
+     , (41834, 2, 38851) /* Celestial Hand Shield */;
 

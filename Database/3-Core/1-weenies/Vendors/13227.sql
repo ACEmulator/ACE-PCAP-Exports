@@ -125,24 +125,24 @@ VALUES (13227, 37, 0.9) /* BUY_PRICE_FLOAT */
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (13227, 4, 244)
-     , (13227, 4, 22852)
-     , (13227, 4, 25757)
-     , (13227, 4, 25760)
-     , (13227, 4, 22844)
-     , (13227, 4, 22874)
-     , (13227, 4, 25766)
-     , (13227, 4, 22845)
-     , (13227, 4, 15403)
-     , (13227, 4, 15404)
-     , (13227, 4, 25759)
-     , (13227, 4, 13199)
-     , (13227, 4, 13228)
-     , (13227, 4, 13209)
-     , (13227, 4, 36922);
+VALUES (13227, 4, 244) /* Wood */
+     , (13227, 4, 22852) /* Treated Wood */
+     , (13227, 4, 25757) /* Barrel */
+     , (13227, 4, 25760) /* Cask */
+     , (13227, 4, 22844) /* Log Stool */
+     , (13227, 4, 22874) /* Log Chair */
+     , (13227, 4, 25766) /* Tumerok Chair */
+     , (13227, 4, 22845) /* Log Table */
+     , (13227, 4, 15403) /* Small Pine Tree */
+     , (13227, 4, 15404) /* Large Pine Tree */
+     , (13227, 4, 25759) /* Shrubbery */
+     , (13227, 4, 13199) /* Small Pine Tree */
+     , (13227, 4, 13228) /* Large Pine Tree */
+     , (13227, 4, 13209) /* Wreath */
+     , (13227, 4, 36922) /* Big Wreath */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (13227, 2, 301);
+VALUES (13227, 2, 301) /* Battle Axe */;
 

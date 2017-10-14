@@ -53,3 +53,20 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (22568, 2, 0) /* OPEN_BOOL */
      , (22568, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22568, 8, 3881) /* Acid Long Sword */
+     , (22568, 8, 46851) /* Aura of Heartseeker Other V */
+     , (22568, 8, 49275) /* Frost Elemental Essence (50) */
+     , (22568, 8, 2435) /* Mana Stone */
+     , (22568, 8, 332) /* Morning Star */
+     , (22568, 8, 49435) /* Fire Spectre Essence (50) */
+     , (22568, 8, 308) /* Budiaq */
+     , (22568, 8, 2594) /* Flared Tunic */
+     , (22568, 8, 54) /* Yoroi Cuirass */
+     , (22568, 8, 622) /* Necklace */
+     , (22568, 8, 20640) /* Royal Atlatl */
+     , (22568, 8, 2429) /* Gem */
+     , (22568, 8, 8329) /* Lead Pea */;
+

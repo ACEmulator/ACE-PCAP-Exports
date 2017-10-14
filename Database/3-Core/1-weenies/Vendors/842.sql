@@ -124,49 +124,49 @@ VALUES (842, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (842, 4, 41509)
-     , (842, 4, 41507)
-     , (842, 4, 41419)
-     , (842, 4, 41423)
-     , (842, 4, 41396)
-     , (842, 4, 41420)
-     , (842, 4, 41418)
-     , (842, 4, 41744)
-     , (842, 4, 321)
-     , (842, 4, 343)
-     , (842, 4, 342)
-     , (842, 4, 329)
-     , (842, 4, 22158)
-     , (842, 4, 361)
-     , (842, 4, 362)
-     , (842, 4, 312)
-     , (842, 4, 341)
-     , (842, 4, 300)
-     , (842, 4, 305)
-     , (842, 4, 4586)
-     , (842, 4, 4585)
-     , (842, 4, 5339)
-     , (842, 4, 45)
-     , (842, 4, 551)
-     , (842, 4, 458)
-     , (842, 4, 39)
-     , (842, 4, 86)
-     , (842, 4, 36)
-     , (842, 4, 56)
-     , (842, 4, 60)
-     , (842, 4, 81)
-     , (842, 4, 65)
-     , (842, 4, 109)
-     , (842, 4, 115)
-     , (842, 4, 44)
-     , (842, 4, 365)
-     , (842, 4, 151)
-     , (842, 4, 293)
-     , (842, 4, 136)
-     , (842, 4, 258)
-     , (842, 4, 4761)
-     , (842, 4, 4746)
-     , (842, 4, 4754)
-     , (842, 4, 7824)
-     , (842, 4, 5778);
+VALUES (842, 4, 41509) /* Minor Item Tinkering Armature */
+     , (842, 4, 41507) /* Moderate Item Tinkering Armature */
+     , (842, 4, 41419) /* Sheet Metal Form */
+     , (842, 4, 41423) /* Medal Mold */
+     , (842, 4, 41396) /* Handle Mold */
+     , (842, 4, 41420) /* Hammer */
+     , (842, 4, 41418) /* Leather Strap */
+     , (842, 4, 41744) /* A Comprehensive Guide to Gearcrafting */
+     , (842, 4, 321) /* Jitte */
+     , (842, 4, 343) /* Shouken */
+     , (842, 4, 342) /* Shou-ono */
+     , (842, 4, 329) /* Knife */
+     , (842, 4, 22158) /* Jo */
+     , (842, 4, 361) /* Yaoji */
+     , (842, 4, 362) /* Yari */
+     , (842, 4, 312) /* Light Crossbow */
+     , (842, 4, 341) /* Shouyumi */
+     , (842, 4, 300) /* Arrow */
+     , (842, 4, 305) /* Quarrel */
+     , (842, 4, 4586) /* Bundle of Arrowheads */
+     , (842, 4, 4585) /* Bundle of Arrowshafts */
+     , (842, 4, 5339) /* Bundle of Quarrelshafts */
+     , (842, 4, 45) /* Leather Cap */
+     , (842, 4, 551) /* Basinet */
+     , (842, 4, 458) /* Leather Cowl */
+     , (842, 4, 39) /* Leather Breastplate */
+     , (842, 4, 86) /* Leather Pauldrons */
+     , (842, 4, 36) /* Leather Bracers */
+     , (842, 4, 56) /* Leather Gauntlets */
+     , (842, 4, 60) /* Olthoi Celdon Girth */
+     , (842, 4, 81) /* Leggings */
+     , (842, 4, 65) /* Olthoi Greaves */
+     , (842, 4, 109) /* Olthoi Tassets */
+     , (842, 4, 115) /* Leather Boots */
+     , (842, 4, 44) /* Buckler */
+     , (842, 4, 365) /* Parchment */
+     , (842, 4, 151) /* Empty Flask */
+     , (842, 4, 293) /* Torch */
+     , (842, 4, 136) /* Pack */
+     , (842, 4, 258) /* Apple */
+     , (842, 4, 4761) /* Flour */
+     , (842, 4, 4746) /* Water */
+     , (842, 4, 4754) /* Baking Pan */
+     , (842, 4, 7824) /* Metal Press */
+     , (842, 4, 5778) /* Whittling Knife */;
 

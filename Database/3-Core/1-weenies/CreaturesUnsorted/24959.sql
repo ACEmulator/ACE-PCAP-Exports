@@ -50,3 +50,42 @@ VALUES (24959, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24959, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24959, 8, 30606) /* Bastone */
+     , (24959, 8, 108) /* Chainmail Tassets */
+     , (24959, 8, 154) /* Goblet */
+     , (24959, 8, 514) /* Excellent Lockpick */
+     , (24959, 8, 49380) /* Fire Grievver Essence (50) */
+     , (24959, 8, 53) /* Studded Leather Cuirass */
+     , (24959, 8, 311) /* Heavy Crossbow */
+     , (24959, 8, 28633) /* Diforsa Girth */
+     , (24959, 8, 545) /* Reliable Lockpick */
+     , (24959, 8, 63) /* Studded Leather Girth */
+     , (24959, 8, 49442) /* Frost Spectre Essence (50) */
+     , (24959, 8, 43) /* Yoroi Breastplate */
+     , (24959, 8, 28630) /* Diforsa Cuirass */
+     , (24959, 8, 42518) /* Coalesced Mana */
+     , (24959, 8, 121) /* Gloves */
+     , (24959, 8, 8328) /* Iron Pea */
+     , (24959, 8, 49345) /* Lightning Moar Essence (50) */
+     , (24959, 8, 107) /* Sollerets */
+     , (24959, 8, 8326) /* Copper Pea */
+     , (24959, 8, 7897) /* Steel Toed Boots */
+     , (24959, 8, 45113) /* Hammer */
+     , (24959, 8, 2587) /* Shirt */
+     , (24959, 8, 8939) /* Scroll of Frost Streak V */
+     , (24959, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (24959, 8, 2367) /* Gorget */
+     , (24959, 8, 20451) /* Scroll of Sudden Frost */
+     , (24959, 8, 630) /* Gifted Healing Kit */
+     , (24959, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (24959, 8, 22159) /* Acid Nabut */
+     , (24959, 8, 2604) /* Wide Breeches */
+     , (24959, 8, 512) /* Good Lockpick */
+     , (24959, 8, 295) /* Bracelet */
+     , (24959, 8, 356) /* Tofun */
+     , (24959, 8, 94) /* Diamond Shield */
+     , (24959, 8, 82) /* Platemail Leggings */;
+

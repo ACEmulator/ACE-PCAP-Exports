@@ -44,3 +44,9 @@ VALUES (43218, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43218, 64, 808) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43218, 8, 41036) /* Assagai */
+     , (43218, 8, 31766) /* Lightning Lugian Hammer */;
+

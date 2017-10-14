@@ -78,3 +78,14 @@ VALUES (35482, 64, 800) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (35482, 128, 1500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (35482, 256, 240) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35482, 8, 27232) /* Nariyid Sleeves */
+     , (35482, 8, 46882) /* Aura of Spirit Drinker Other VII */
+     , (35482, 8, 40764) /* Frost Nodachi */
+     , (35482, 8, 49217) /* Acid Skeleton Bushi Essence (150) */
+     , (35482, 8, 28633) /* Diforsa Girth */
+     , (35482, 8, 2548) /* Sceptre */
+     , (35482, 8, 28610) /* Loafers */;
+

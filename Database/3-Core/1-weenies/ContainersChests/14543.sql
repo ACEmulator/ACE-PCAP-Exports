@@ -49,3 +49,8 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14543, 0, 16778639)
      , (14543, 1, 16778642);
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14543, 8, 14507) /* Frigid Bracelet */;
+

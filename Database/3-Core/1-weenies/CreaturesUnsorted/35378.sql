@@ -72,3 +72,48 @@ VALUES (35378, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35378, 64, 200250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35378, 8, 43829) /* Sedgemail Leather Cowl */
+     , (35378, 8, 116) /* Studded Leather Boots */
+     , (35378, 8, 623) /* Heavy Necklace */
+     , (35378, 8, 20450) /* Scroll of Icy Torment */
+     , (35378, 8, 2424) /* Gem */
+     , (35378, 8, 31800) /* Blunt Compound Bow */
+     , (35378, 8, 326) /* Katar */
+     , (35378, 8, 25661) /* Leather Boots */
+     , (35378, 8, 31820) /* Acid Baton */
+     , (35378, 8, 49257) /* Frost Zombie Essence (125) */
+     , (35378, 8, 22163) /* Nabut */
+     , (35378, 8, 2404) /* Gem */
+     , (35378, 8, 351) /* Long Sword */
+     , (35378, 8, 44803) /* Empyrean Over-robe */
+     , (35378, 8, 45432) /* Acid Khanjar */
+     , (35378, 8, 35105) /* Pyre Shroud */
+     , (35378, 8, 20613) /* Scroll of Energize Vigor */
+     , (35378, 8, 31807) /* Blunt Compound Crossbow */
+     , (35378, 8, 121) /* Gloves */
+     , (35378, 8, 6047) /* Amuli Leggings */
+     , (35378, 8, 31026) /* Tenassa Breastplate */
+     , (35378, 8, 35383) /* Ancient Mhoire Coin */
+     , (35378, 8, 20522) /* Scroll of Hearts on Sleeves */
+     , (35378, 8, 624) /* Ring */
+     , (35378, 8, 20418) /* Scroll of Brogard's Defiance */
+     , (35378, 8, 5901) /* Kasa */
+     , (35378, 8, 27217) /* Chiran Helm */
+     , (35378, 8, 3893) /* Acid Takuba */
+     , (35378, 8, 28623) /* Diforsa Pauldrons */
+     , (35378, 8, 22166) /* Flaming Quarter Staff */
+     , (35378, 8, 37251) /* Five of Eyes */
+     , (35378, 8, 27231) /* Nariyid Leggings */
+     , (35378, 8, 31867) /* Diadem */
+     , (35378, 8, 273) /* Pyreal */
+     , (35378, 8, 41487) /* Mechanical Scarab */
+     , (35378, 8, 31795) /* Acid Lancet */
+     , (35378, 8, 37290) /* Jester's Token */
+     , (35378, 8, 20417) /* Scroll of Cabalastic Ostracism */
+     , (35378, 8, 163) /* Ornamental Bowl */
+     , (35378, 8, 20585) /* Scroll of Heavy Weapon Mastery Other VII */
+     , (35378, 8, 31779) /* Spine Glaive */;
+

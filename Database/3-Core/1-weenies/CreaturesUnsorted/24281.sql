@@ -55,3 +55,61 @@ VALUES (24281, 14, 16784286)
      , (24281, 2, 16784265)
      , (24281, 5, 16784269);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24281, 8, 49311) /* Acid Wisp Essence (80) */
+     , (24281, 8, 20509) /* Scroll of Missile Weapon Mastery Self VII */
+     , (24281, 8, 622) /* Necklace */
+     , (24281, 8, 31866) /* Coronet */
+     , (24281, 8, 116) /* Studded Leather Boots */
+     , (24281, 8, 129) /* Sandals */
+     , (24281, 8, 30610) /* Acid Bastone */
+     , (24281, 8, 6005) /* Koujia Sleeves */
+     , (24281, 8, 121) /* Gloves */
+     , (24281, 8, 20640) /* Royal Atlatl */
+     , (24281, 8, 22166) /* Flaming Quarter Staff */
+     , (24281, 8, 29251) /* Slashing Crossbow */
+     , (24281, 8, 4191) /* Flaming Cestus */
+     , (24281, 8, 793) /* Scalemail Coif */
+     , (24281, 8, 295) /* Bracelet */
+     , (24281, 8, 44) /* Buckler */
+     , (24281, 8, 20421) /* Scroll of Astyrrian Bait */
+     , (24281, 8, 49444) /* Frost Spectre Essence (100) */
+     , (24281, 8, 25644) /* Leather Greaves */
+     , (24281, 8, 29265) /* Winter Orb */
+     , (24281, 8, 25647) /* Leather Pants */
+     , (24281, 8, 154) /* Goblet */
+     , (24281, 8, 3835) /* Lightning Mace */
+     , (24281, 8, 24839) /* Mystic Drudge Charm */
+     , (24281, 8, 20608) /* Scroll of Gift of Essence */
+     , (24281, 8, 414) /* Chainmail Breastplate */
+     , (24281, 8, 2595) /* Baggy Tunic */
+     , (24281, 8, 48961) /* Fire Elemental Essence (80) */
+     , (24281, 8, 40708) /* Covenant Gauntlets */
+     , (24281, 8, 2407) /* Gem */
+     , (24281, 8, 49283) /* Acid K'nath Essence (80) */
+     , (24281, 8, 334) /* Nayin */
+     , (24281, 8, 31823) /* Fire Baton */
+     , (24281, 8, 20422) /* Scroll of Wi's Folly */
+     , (24281, 8, 45433) /* Lightning Khanjar */
+     , (24281, 8, 22160) /* Lightning Nabut */
+     , (24281, 8, 84) /* Studded  Leggings */
+     , (24281, 8, 91) /* Kite Shield */
+     , (24281, 8, 67) /* Scalemail Greaves */
+     , (24281, 8, 5901) /* Kasa */
+     , (24281, 8, 31792) /* Frost Stick */
+     , (24281, 8, 30951) /* Alduressa Gauntlets */
+     , (24281, 8, 20413) /* Scroll of Inferno Bait */
+     , (24281, 8, 2421) /* Gem */
+     , (24281, 8, 621) /* Heavy Bracelet */
+     , (24281, 8, 20528) /* Scroll of Odif's Blessing */
+     , (24281, 8, 7772) /* Trident */
+     , (24281, 8, 49526) /* Acid Phyntos Wasp Essence (100) */
+     , (24281, 8, 22443) /* Flaming Dirk */
+     , (24281, 8, 20519) /* Scroll of Finesse Weapon Ineptitude Other VII */
+     , (24281, 8, 6003) /* Koujia Breastplate */
+     , (24281, 8, 321) /* Jitte */
+     , (24281, 8, 44802) /* Vestiri Over-robe */
+     , (24281, 8, 40710) /* Covenant Greaves */;
+

@@ -130,22 +130,22 @@ VALUES (38575, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (38575, 4, 38545)
-     , (38575, 4, 38721)
-     , (38575, 4, 38727)
-     , (38575, 4, 38718)
-     , (38575, 4, 44888)
-     , (38575, 4, 44445)
-     , (38575, 4, 44980)
-     , (38575, 4, 44981)
-     , (38575, 4, 44467)
-     , (38575, 4, 44589)
-     , (38575, 4, 44604)
-     , (38575, 4, 44606)
-     , (38575, 4, 44595)
-     , (38575, 4, 44597)
-     , (38575, 4, 44610)
-     , (38575, 4, 44592)
-     , (38575, 4, 44601)
-     , (38575, 4, 41508);
+VALUES (38575, 4, 38545) /* Eldrytch Web Armor Writ */
+     , (38575, 4, 38721) /* Writ of Authorization */
+     , (38575, 4, 38727) /* Society Gem of Dispelling */
+     , (38575, 4, 38718) /* Eldrytch Web Banner */
+     , (38575, 4, 44888) /* Eldrytch Web Cloak */
+     , (38575, 4, 44445) /* Eldrytch Web Robe */
+     , (38575, 4, 44980) /* Society Breastplate Restorer */
+     , (38575, 4, 44981) /* Society Breastplate Cloth Remover */
+     , (38575, 4, 44467) /* Eldrytch Web Kite Shield Cover */
+     , (38575, 4, 44589) /* Eldrytch Web Buckler Cover */
+     , (38575, 4, 44604) /* Eldrytch Web Round Shield Cover */
+     , (38575, 4, 44606) /* Eldrytch Web Large Round Shield Cover */
+     , (38575, 4, 44595) /* Eldrytch Web Kite Shield Cover */
+     , (38575, 4, 44597) /* Eldrytch Web Large Kite Shield Cover */
+     , (38575, 4, 44610) /* Eldrytch Web Tower Shield Cover */
+     , (38575, 4, 44592) /* Eldrytch Web Covenant Shield Cover */
+     , (38575, 4, 44601) /* Eldrytch Web Olthoi Shield Cover */
+     , (38575, 4, 41508) /* Major Item Tinkering Armature */;
 

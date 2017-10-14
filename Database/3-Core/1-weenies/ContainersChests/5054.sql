@@ -51,3 +51,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (5054, 2, 0) /* OPEN_BOOL */
      , (5054, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5054, 8, 8741) /* Yanshi Town Stamp */
+     , (5054, 8, 5059) /* Writings */;
+

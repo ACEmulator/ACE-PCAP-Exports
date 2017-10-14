@@ -37,3 +37,24 @@ VALUES (51751, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (51751, 67114320, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51751, 8, 31782) /* Fire Spine Glaive */
+     , (51751, 8, 42754) /* Haebrean Pauldrons */
+     , (51751, 8, 273) /* Pyreal */
+     , (51751, 8, 623) /* Heavy Necklace */
+     , (51751, 8, 105) /* Studded Leather Sleeves */
+     , (51751, 8, 632) /* Peerless Healing Kit */
+     , (51751, 8, 2588) /* Flared Shirt */
+     , (51751, 8, 27221) /* Lorica Breastplate */
+     , (51751, 8, 49476) /* Scroll of Summoning Mastery Self VII */
+     , (51751, 8, 20419) /* Scroll of Lugian's Speed */
+     , (51751, 8, 37213) /* Olthoi Bracers */
+     , (51751, 8, 154) /* Goblet */
+     , (51751, 8, 20509) /* Scroll of Missile Weapon Mastery Self VII */
+     , (51751, 8, 31867) /* Diadem */
+     , (51751, 8, 295) /* Bracelet */
+     , (51751, 8, 20446) /* Scroll of Outlander's Insolence */
+     , (51751, 8, 37344) /* Glyph of Arcane Lore */;
+

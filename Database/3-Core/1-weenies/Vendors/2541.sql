@@ -122,31 +122,31 @@ VALUES (2541, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2541, 4, 35)
-     , (2541, 4, 554)
-     , (2541, 4, 413)
-     , (2541, 4, 414)
-     , (2541, 4, 55)
-     , (2541, 4, 415)
-     , (2541, 4, 2605)
-     , (2541, 4, 108)
-     , (2541, 4, 80)
-     , (2541, 4, 416)
-     , (2541, 4, 85)
-     , (2541, 4, 77)
-     , (2541, 4, 78)
-     , (2541, 4, 116)
-     , (2541, 4, 43)
-     , (2541, 4, 64)
-     , (2541, 4, 2437)
-     , (2541, 4, 94)
-     , (2541, 4, 95)
-     , (2541, 4, 2621)
-     , (2541, 4, 2622)
-     , (2541, 4, 2623);
+VALUES (2541, 4, 35) /* Chainmail Basinet */
+     , (2541, 4, 554) /* Studded Leather Basinet */
+     , (2541, 4, 413) /* Chainmail Bracers */
+     , (2541, 4, 414) /* Chainmail Breastplate */
+     , (2541, 4, 55) /* Chainmail Gauntlets */
+     , (2541, 4, 415) /* Chainmail Girth */
+     , (2541, 4, 2605) /* Chainmail Greaves */
+     , (2541, 4, 108) /* Chainmail Tassets */
+     , (2541, 4, 80) /* Chainmail Leggings */
+     , (2541, 4, 416) /* Chainmail Pauldrons */
+     , (2541, 4, 85) /* Chainmail Coif */
+     , (2541, 4, 77) /* Kabuton */
+     , (2541, 4, 78) /* Kote */
+     , (2541, 4, 116) /* Studded Leather Boots */
+     , (2541, 4, 43) /* Yoroi Breastplate */
+     , (2541, 4, 64) /* Yoroi Girth */
+     , (2541, 4, 2437) /* Yoroi Leggings */
+     , (2541, 4, 94) /* Diamond Shield */
+     , (2541, 4, 95) /* Tower Shield */
+     , (2541, 4, 2621) /* Trade Note (100) */
+     , (2541, 4, 2622) /* Trade Note (500) */
+     , (2541, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2541, 2, 356);
+VALUES (2541, 2, 356) /* Tofun */;
 

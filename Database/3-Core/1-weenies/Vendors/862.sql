@@ -122,40 +122,40 @@ VALUES (862, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (862, 4, 554)
-     , (862, 4, 35)
-     , (862, 4, 77)
-     , (862, 4, 85)
-     , (862, 4, 96)
-     , (862, 4, 414)
-     , (862, 4, 43)
-     , (862, 4, 55)
-     , (862, 4, 2605)
-     , (862, 4, 108)
-     , (862, 4, 415)
-     , (862, 4, 90)
-     , (862, 4, 416)
-     , (862, 4, 413)
-     , (862, 4, 78)
-     , (862, 4, 64)
-     , (862, 4, 2437)
-     , (862, 4, 80)
-     , (862, 4, 116)
-     , (862, 4, 94)
-     , (862, 4, 95)
-     , (862, 4, 2621)
-     , (862, 4, 2622)
-     , (862, 4, 2623)
-     , (862, 4, 2624)
-     , (862, 4, 2625)
-     , (862, 4, 2626)
-     , (862, 4, 2627)
-     , (862, 4, 20628)
-     , (862, 4, 20629)
-     , (862, 4, 20630);
+VALUES (862, 4, 554) /* Studded Leather Basinet */
+     , (862, 4, 35) /* Chainmail Basinet */
+     , (862, 4, 77) /* Kabuton */
+     , (862, 4, 85) /* Chainmail Coif */
+     , (862, 4, 96) /* Chainmail Shirt */
+     , (862, 4, 414) /* Chainmail Breastplate */
+     , (862, 4, 43) /* Yoroi Breastplate */
+     , (862, 4, 55) /* Chainmail Gauntlets */
+     , (862, 4, 2605) /* Chainmail Greaves */
+     , (862, 4, 108) /* Chainmail Tassets */
+     , (862, 4, 415) /* Chainmail Girth */
+     , (862, 4, 90) /* Yoroi Pauldrons */
+     , (862, 4, 416) /* Chainmail Pauldrons */
+     , (862, 4, 413) /* Chainmail Bracers */
+     , (862, 4, 78) /* Kote */
+     , (862, 4, 64) /* Yoroi Girth */
+     , (862, 4, 2437) /* Yoroi Leggings */
+     , (862, 4, 80) /* Chainmail Leggings */
+     , (862, 4, 116) /* Studded Leather Boots */
+     , (862, 4, 94) /* Diamond Shield */
+     , (862, 4, 95) /* Tower Shield */
+     , (862, 4, 2621) /* Trade Note (100) */
+     , (862, 4, 2622) /* Trade Note (500) */
+     , (862, 4, 2623) /* Trade Note (1,000) */
+     , (862, 4, 2624) /* Trade Note (5,000) */
+     , (862, 4, 2625) /* Trade Note (10,000) */
+     , (862, 4, 2626) /* Trade Note (50,000) */
+     , (862, 4, 2627) /* Trade Note (100,000) */
+     , (862, 4, 20628) /* Trade Note (150,000) */
+     , (862, 4, 20629) /* Trade Note (200,000) */
+     , (862, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (862, 2, 303);
+VALUES (862, 2, 303) /* Hand Axe */;
 

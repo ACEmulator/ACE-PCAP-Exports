@@ -79,3 +79,19 @@ VALUES (36846, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36846, 64, 1955) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36846, 8, 3868) /* Frost Silifi */
+     , (36846, 8, 45421) /* Dagger */
+     , (36846, 8, 43052) /* Knorr Academy Pauldrons */
+     , (36846, 8, 36867) /* Dire Champion Token */
+     , (36846, 8, 28620) /* Alduressa Leggings */
+     , (36846, 8, 31796) /* Lightning Lancet */
+     , (36846, 8, 20476) /* Scroll of Gelidite's Gift */
+     , (36846, 8, 30576) /* Flamberge */
+     , (36846, 8, 29242) /* Frost Bow */
+     , (36846, 8, 38) /* Studded Leather Bracers */
+     , (36846, 8, 2595) /* Baggy Tunic */
+     , (36846, 8, 27232) /* Nariyid Sleeves */;
+

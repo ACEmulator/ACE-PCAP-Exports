@@ -128,18 +128,18 @@ VALUES (840, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (840, 4, 364)
-     , (840, 4, 365)
-     , (840, 4, 367)
-     , (840, 4, 5585)
-     , (840, 4, 5856)
-     , (840, 4, 7884)
-     , (840, 4, 14797)
-     , (840, 4, 5586)
-     , (840, 4, 24855)
-     , (840, 4, 5587)
-     , (840, 4, 9319)
-     , (840, 4, 9118)
-     , (840, 4, 9124)
-     , (840, 4, 27851);
+VALUES (840, 4, 364) /* Book */
+     , (840, 4, 365) /* Parchment */
+     , (840, 4, 367) /* Tome */
+     , (840, 4, 5585) /* Sho Cookbook */
+     , (840, 4, 5856) /* Specialty Cookbook */
+     , (840, 4, 7884) /* Chocolate Cookbook */
+     , (840, 4, 14797) /* Festival Cookbook */
+     , (840, 4, 5586) /* Alchemy Guide */
+     , (840, 4, 24855) /* The New Alchemy */
+     , (840, 4, 5587) /* Fletching Guide */
+     , (840, 4, 9319) /* Mnemosynes and the Art of Lockpicking */
+     , (840, 4, 9118) /* Puppet Show */
+     , (840, 4, 9124) /* The Beginning */
+     , (840, 4, 27851) /* The Weapons of the Singularity */;
 

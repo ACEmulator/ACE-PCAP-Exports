@@ -136,16 +136,16 @@ VALUES (866, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (866, 4, 264)
-     , (866, 4, 263)
-     , (866, 4, 4761)
-     , (866, 4, 2463)
-     , (866, 4, 4766)
-     , (866, 4, 4746)
-     , (866, 4, 4754)
-     , (866, 4, 4764)
-     , (866, 4, 7823)
-     , (866, 4, 513)
-     , (866, 4, 545)
-     , (866, 4, 512);
+VALUES (866, 4, 264) /* Grapes */
+     , (866, 4, 263) /* Fish */
+     , (866, 4, 4761) /* Flour */
+     , (866, 4, 2463) /* Milk */
+     , (866, 4, 4766) /* Rennet */
+     , (866, 4, 4746) /* Water */
+     , (866, 4, 4754) /* Baking Pan */
+     , (866, 4, 4764) /* Noodle Cutter */
+     , (866, 4, 7823) /* Heavy Grinder */
+     , (866, 4, 513) /* Plain Lockpick */
+     , (866, 4, 545) /* Reliable Lockpick */
+     , (866, 4, 512) /* Good Lockpick */;
 

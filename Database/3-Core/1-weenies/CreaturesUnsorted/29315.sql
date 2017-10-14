@@ -35,3 +35,21 @@ VALUES (29315, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29315, 19, True) /* ATTACKABLE_BOOL */
      , (29315, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29315, 8, 2597) /* Flared Pants */
+     , (29315, 8, 8328) /* Iron Pea */
+     , (29315, 8, 8326) /* Copper Pea */
+     , (29315, 8, 5789) /* Brown Lump */
+     , (29315, 8, 45099) /* Epee */
+     , (29315, 8, 273) /* Pyreal */
+     , (29315, 8, 6876) /* Sturdy Iron Key */
+     , (29315, 8, 2428) /* Gem */
+     , (29315, 8, 2435) /* Mana Stone */
+     , (29315, 8, 31222) /* K'nath Key */
+     , (29315, 8, 41038) /* Lightning Assagai */
+     , (29315, 8, 2434) /* Lesser Mana Stone */
+     , (29315, 8, 45875) /* Lucky Gold Letter */
+     , (29315, 8, 4192) /* Acid Cestus */;
+

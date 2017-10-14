@@ -37,3 +37,8 @@ VALUES (25755, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25755, 19, True) /* ATTACKABLE_BOOL */
      , (25755, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25755, 8, 25798) /* Scold's Heart */;
+

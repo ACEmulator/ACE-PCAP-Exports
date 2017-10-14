@@ -68,3 +68,63 @@ VALUES (25804, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25804, 64, 478) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25804, 8, 2409) /* Gem */
+     , (25804, 8, 142) /* Chalice */
+     , (25804, 8, 31759) /* Dericost Blade */
+     , (25804, 8, 20585) /* Scroll of Heavy Weapon Mastery Other VII */
+     , (25804, 8, 6048) /* Celdon Sleeves */
+     , (25804, 8, 45406) /* Yaoji */
+     , (25804, 8, 30599) /* Frost Poniard */
+     , (25804, 8, 40711) /* Covenant Helm */
+     , (25804, 8, 41483) /* Compass */
+     , (25804, 8, 20255) /* Scroll of Senescence */
+     , (25804, 8, 21101) /* Scroll of Martyr's Hecatomb VII */
+     , (25804, 8, 3687) /* Skeleton's Skull */
+     , (25804, 8, 25651) /* Leather Sleeves */
+     , (25804, 8, 40714) /* Covenant Tassets */
+     , (25804, 8, 20486) /* Scroll of Enervation */
+     , (25804, 8, 29261) /* Electric Sceptre */
+     , (25804, 8, 2423) /* Gem */
+     , (25804, 8, 9310) /* A Large Mnemosyne */
+     , (25804, 8, 22440) /* Dirk */
+     , (25804, 8, 49485) /* Encapsulated Spirit */
+     , (25804, 8, 7897) /* Steel Toed Boots */
+     , (25804, 8, 45314) /* Scroll of Shield Ineptitude Other VII */
+     , (25804, 8, 31789) /* Acid Stick */
+     , (25804, 8, 49422) /* Acid Spectre Essence (80) */
+     , (25804, 8, 27222) /* Lorica Gauntlets */
+     , (25804, 8, 133) /* Slippers */
+     , (25804, 8, 20573) /* Scroll of Introversion */
+     , (25804, 8, 20553) /* Scroll of Harlune's Boon */
+     , (25804, 8, 2393) /* Gem */
+     , (25804, 8, 350) /* Broad Sword */
+     , (25804, 8, 20533) /* Scroll of Avalenne's Boon */
+     , (25804, 8, 31790) /* Lightning Stick */
+     , (25804, 8, 40696) /* Covenant Bracers */
+     , (25804, 8, 7790) /* Electric Spiked Club */
+     , (25804, 8, 41049) /* Flaming Pike */
+     , (25804, 8, 3937) /* Flaming Morning Star */
+     , (25804, 8, 20525) /* Scroll of Broadside of a Barn */
+     , (25804, 8, 27231) /* Nariyid Leggings */
+     , (25804, 8, 6003) /* Koujia Breastplate */
+     , (25804, 8, 45118) /* Hand Wraps */
+     , (25804, 8, 20492) /* Scroll of Robustify */
+     , (25804, 8, 27232) /* Nariyid Sleeves */
+     , (25804, 8, 49374) /* Lightning Grievver Essence (80) */
+     , (25804, 8, 2589) /* Smock */
+     , (25804, 8, 29241) /* Fire Bow */
+     , (25804, 8, 94) /* Diamond Shield */
+     , (25804, 8, 7793) /* Acid Trident */
+     , (25804, 8, 6043) /* Celdon Girth */
+     , (25804, 8, 360) /* Yag */
+     , (25804, 8, 2396) /* Gem */
+     , (25804, 8, 49256) /* Frost Zombie Essence (100) */
+     , (25804, 8, 31798) /* Slashing Compound Bow */
+     , (25804, 8, 243) /* Dinner Plate */
+     , (25804, 8, 154) /* Goblet */
+     , (25804, 8, 20234) /* Scroll of Boon of Refinement */
+     , (25804, 8, 8328) /* Iron Pea */;
+

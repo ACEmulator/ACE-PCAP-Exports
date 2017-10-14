@@ -124,30 +124,30 @@ VALUES (867, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (867, 4, 2457)
-     , (867, 4, 377)
-     , (867, 4, 27319)
-     , (867, 4, 2460)
-     , (867, 4, 379)
-     , (867, 4, 27322)
-     , (867, 4, 378)
-     , (867, 4, 27326)
-     , (867, 4, 2470)
-     , (867, 4, 628)
-     , (867, 4, 629)
-     , (867, 4, 630)
-     , (867, 4, 4611)
-     , (867, 4, 4609)
-     , (867, 4, 4607)
-     , (867, 4, 4605)
-     , (867, 4, 4603)
-     , (867, 4, 4601)
-     , (867, 4, 4600)
-     , (867, 4, 4598)
-     , (867, 4, 4596)
-     , (867, 4, 4593)
-     , (867, 4, 4590)
-     , (867, 4, 4587)
-     , (867, 4, 2621)
-     , (867, 4, 2622);
+VALUES (867, 4, 2457) /* Health Draught */
+     , (867, 4, 377) /* Potion of Healing */
+     , (867, 4, 27319) /* Health Tincture */
+     , (867, 4, 2460) /* Mana Draught */
+     , (867, 4, 379) /* Mana Potion */
+     , (867, 4, 27322) /* Mana Tincture */
+     , (867, 4, 378) /* Stamina Potion */
+     , (867, 4, 27326) /* Stamina Tincture */
+     , (867, 4, 2470) /* Stamina Elixir */
+     , (867, 4, 628) /* Handy Healing Kit */
+     , (867, 4, 629) /* Adept Healing Kit */
+     , (867, 4, 630) /* Gifted Healing Kit */
+     , (867, 4, 4611) /* Willpower Other II */
+     , (867, 4, 4609) /* Focus Other II */
+     , (867, 4, 4607) /* Quickness Other II */
+     , (867, 4, 4605) /* Coordination Other II */
+     , (867, 4, 4603) /* Endurance Other II */
+     , (867, 4, 4601) /* Strength Other II */
+     , (867, 4, 4600) /* Mana Renewal Other II */
+     , (867, 4, 4598) /* Rejuvenation Other II */
+     , (867, 4, 4596) /* Regeneration Other II */
+     , (867, 4, 4593) /* Mana Boost Other II */
+     , (867, 4, 4590) /* Revitalize Other II */
+     , (867, 4, 4587) /* Heal Other II */
+     , (867, 4, 2621) /* Trade Note (100) */
+     , (867, 4, 2622) /* Trade Note (500) */;
 

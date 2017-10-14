@@ -39,3 +39,36 @@ VALUES (26015, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26015, 67114920, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26015, 8, 49387) /* Frost Grievver Essence (50) */
+     , (26015, 8, 31778) /* Frost Spine Glaive */
+     , (26015, 8, 90) /* Yoroi Pauldrons */
+     , (26015, 8, 631) /* Excellent Healing Kit */
+     , (26015, 8, 30187) /* Hunter's Crystal */
+     , (26015, 8, 31792) /* Frost Stick */
+     , (26015, 8, 331) /* Mace */
+     , (26015, 8, 2547) /* Staff */
+     , (26015, 8, 28984) /* Bloodied Burun Hide */
+     , (26015, 8, 44800) /* Dho Vest and Over-Robe */
+     , (26015, 8, 2602) /* Loose Breeches */
+     , (26015, 8, 311) /* Heavy Crossbow */
+     , (26015, 8, 273) /* Pyreal */
+     , (26015, 8, 3822) /* Acid Ken */
+     , (26015, 8, 44976) /* Hood */
+     , (26015, 8, 150) /* Flagon */
+     , (26015, 8, 149) /* Ewer */
+     , (26015, 8, 42) /* Studded Leather Breastplate */
+     , (26015, 8, 46881) /* Aura of Heartseeker Other VII */
+     , (26015, 8, 21150) /* Covenant Sollerets */
+     , (26015, 8, 25661) /* Leather Boots */
+     , (26015, 8, 30949) /* Diforsa Sleeves */
+     , (26015, 8, 106) /* Yoroi Sleeves */
+     , (26015, 8, 161) /* Mug */
+     , (26015, 8, 28624) /* Tenassa Sleeves */
+     , (26015, 8, 2596) /* Doublet */
+     , (26015, 8, 41485) /* Pocket Watch */
+     , (26015, 8, 25645) /* Leather Leggings */
+     , (26015, 8, 312) /* Light Crossbow */;
+

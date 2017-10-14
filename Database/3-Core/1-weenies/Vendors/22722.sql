@@ -112,40 +112,40 @@ VALUES (22722, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (22722, 4, 35)
-     , (22722, 4, 551)
-     , (22722, 4, 554)
-     , (22722, 4, 413)
-     , (22722, 4, 414)
-     , (22722, 4, 55)
-     , (22722, 4, 415)
-     , (22722, 4, 2605)
-     , (22722, 4, 108)
-     , (22722, 4, 80)
-     , (22722, 4, 416)
-     , (22722, 4, 85)
-     , (22722, 4, 46)
-     , (22722, 4, 116)
-     , (22722, 4, 38)
-     , (22722, 4, 42)
-     , (22722, 4, 723)
-     , (22722, 4, 59)
-     , (22722, 4, 63)
-     , (22722, 4, 68)
-     , (22722, 4, 112)
-     , (22722, 4, 84)
-     , (22722, 4, 89)
-     , (22722, 4, 91)
-     , (22722, 4, 4190)
-     , (22722, 4, 314)
-     , (22722, 4, 316)
-     , (22722, 4, 303)
-     , (22722, 4, 331)
-     , (22722, 4, 22168)
-     , (22722, 4, 352)
-     , (22722, 4, 348)
-     , (22722, 4, 315)
-     , (22722, 4, 2621)
-     , (22722, 4, 2622)
-     , (22722, 4, 2623);
+VALUES (22722, 4, 35) /* Chainmail Basinet */
+     , (22722, 4, 551) /* Basinet */
+     , (22722, 4, 554) /* Studded Leather Basinet */
+     , (22722, 4, 413) /* Chainmail Bracers */
+     , (22722, 4, 414) /* Chainmail Breastplate */
+     , (22722, 4, 55) /* Chainmail Gauntlets */
+     , (22722, 4, 415) /* Chainmail Girth */
+     , (22722, 4, 2605) /* Chainmail Greaves */
+     , (22722, 4, 108) /* Chainmail Tassets */
+     , (22722, 4, 80) /* Chainmail Leggings */
+     , (22722, 4, 416) /* Chainmail Pauldrons */
+     , (22722, 4, 85) /* Chainmail Coif */
+     , (22722, 4, 46) /* Metal Cap */
+     , (22722, 4, 116) /* Studded Leather Boots */
+     , (22722, 4, 38) /* Studded Leather Bracers */
+     , (22722, 4, 42) /* Studded Leather Breastplate */
+     , (22722, 4, 723) /* Studded Leather Cowl */
+     , (22722, 4, 59) /* Studded Leather Gauntlets */
+     , (22722, 4, 63) /* Studded Leather Girth */
+     , (22722, 4, 68) /* Studded Leather Greaves */
+     , (22722, 4, 112) /* Studded Leather Tassets */
+     , (22722, 4, 84) /* Studded  Leggings */
+     , (22722, 4, 89) /* Studded Leather Pauldrons */
+     , (22722, 4, 91) /* Kite Shield */
+     , (22722, 4, 4190) /* Cestus */
+     , (22722, 4, 314) /* Dagger */
+     , (22722, 4, 316) /* Throwing Dart */
+     , (22722, 4, 303) /* Hand Axe */
+     , (22722, 4, 331) /* Mace */
+     , (22722, 4, 22168) /* Hefty Walking Cane */
+     , (22722, 4, 352) /* Short Sword */
+     , (22722, 4, 348) /* Spear */
+     , (22722, 4, 315) /* Throwing Dagger */
+     , (22722, 4, 2621) /* Trade Note (100) */
+     , (22722, 4, 2622) /* Trade Note (500) */
+     , (22722, 4, 2623) /* Trade Note (1,000) */;
 

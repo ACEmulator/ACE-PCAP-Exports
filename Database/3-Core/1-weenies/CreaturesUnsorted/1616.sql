@@ -50,3 +50,21 @@ VALUES (1616, 2, 15) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1616, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1616, 8, 243) /* Dinner Plate */
+     , (1616, 8, 154) /* Goblet */
+     , (1616, 8, 168) /* Tankard */
+     , (1616, 8, 8329) /* Lead Pea */
+     , (1616, 8, 31795) /* Acid Lancet */
+     , (1616, 8, 295) /* Bracelet */
+     , (1616, 8, 21324) /* Scroll of Lightning Arc II */
+     , (1616, 8, 294) /* Amulet */
+     , (1616, 8, 2413) /* Gem */
+     , (1616, 8, 2605) /* Chainmail Greaves */
+     , (1616, 8, 545) /* Reliable Lockpick */
+     , (1616, 8, 2592) /* Puffy Tunic */
+     , (1616, 8, 297) /* Ring */
+     , (1616, 8, 793) /* Scalemail Coif */;
+

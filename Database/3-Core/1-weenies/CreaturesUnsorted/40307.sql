@@ -45,3 +45,16 @@ VALUES (40307, 2, 45) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40307, 64, 3800) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40307, 8, 49308) /* Frost K'nath Essence (180) */
+     , (40307, 8, 49439) /* Fire Spectre Essence (150) */
+     , (40307, 8, 29253) /* Blunt Atlatl */
+     , (40307, 8, 149) /* Ewer */
+     , (40307, 8, 41488) /* Top */
+     , (40307, 8, 20251) /* Scroll of Robustification */
+     , (40307, 8, 132) /* Shoes */
+     , (40307, 8, 516) /* Peerless Lockpick */
+     , (40307, 8, 27328) /* Major Mana Stone */;
+

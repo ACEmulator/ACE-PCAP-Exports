@@ -130,55 +130,55 @@ VALUES (966, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (966, 4, 365)
-     , (966, 4, 513)
-     , (966, 4, 545)
-     , (966, 4, 151)
-     , (966, 4, 166)
-     , (966, 4, 136)
-     , (966, 4, 137)
-     , (966, 4, 258)
-     , (966, 4, 259)
-     , (966, 4, 261)
-     , (966, 4, 2457)
-     , (966, 4, 377)
-     , (966, 4, 2460)
-     , (966, 4, 379)
-     , (966, 4, 378)
-     , (966, 4, 27326)
-     , (966, 4, 2470)
-     , (966, 4, 628)
-     , (966, 4, 629)
-     , (966, 4, 4612)
-     , (966, 4, 4613)
-     , (966, 4, 4614)
-     , (966, 4, 4615)
-     , (966, 4, 27331)
-     , (966, 4, 2434)
-     , (966, 4, 4611)
-     , (966, 4, 4610)
-     , (966, 4, 4609)
-     , (966, 4, 4608)
-     , (966, 4, 4607)
-     , (966, 4, 4606)
-     , (966, 4, 4605)
-     , (966, 4, 4604)
-     , (966, 4, 4603)
-     , (966, 4, 4602)
-     , (966, 4, 4601)
-     , (966, 4, 4384)
-     , (966, 4, 4600)
-     , (966, 4, 4599)
-     , (966, 4, 4598)
-     , (966, 4, 4597)
-     , (966, 4, 4596)
-     , (966, 4, 4595)
-     , (966, 4, 4593)
-     , (966, 4, 4592)
-     , (966, 4, 4590)
-     , (966, 4, 4589)
-     , (966, 4, 4587)
-     , (966, 4, 4450)
-     , (966, 4, 49485)
-     , (966, 4, 755);
+VALUES (966, 4, 365) /* Parchment */
+     , (966, 4, 513) /* Plain Lockpick */
+     , (966, 4, 545) /* Reliable Lockpick */
+     , (966, 4, 151) /* Empty Flask */
+     , (966, 4, 166) /* Sack */
+     , (966, 4, 136) /* Pack */
+     , (966, 4, 137) /* Basket */
+     , (966, 4, 258) /* Apple */
+     , (966, 4, 259) /* Bread */
+     , (966, 4, 261) /* Cheese */
+     , (966, 4, 2457) /* Health Draught */
+     , (966, 4, 377) /* Potion of Healing */
+     , (966, 4, 2460) /* Mana Draught */
+     , (966, 4, 379) /* Mana Potion */
+     , (966, 4, 378) /* Stamina Potion */
+     , (966, 4, 27326) /* Stamina Tincture */
+     , (966, 4, 2470) /* Stamina Elixir */
+     , (966, 4, 628) /* Handy Healing Kit */
+     , (966, 4, 629) /* Adept Healing Kit */
+     , (966, 4, 4612) /* Tiny Mana Charge */
+     , (966, 4, 4613) /* Small Mana Charge */
+     , (966, 4, 4614) /* Moderate Mana Charge */
+     , (966, 4, 4615) /* High Mana Charge */
+     , (966, 4, 27331) /* Minor Mana Stone */
+     , (966, 4, 2434) /* Lesser Mana Stone */
+     , (966, 4, 4611) /* Willpower Other II */
+     , (966, 4, 4610) /* Willpower Other I */
+     , (966, 4, 4609) /* Focus Other II */
+     , (966, 4, 4608) /* Focus Other I */
+     , (966, 4, 4607) /* Quickness Other II */
+     , (966, 4, 4606) /* Quickness Other I */
+     , (966, 4, 4605) /* Coordination Other II */
+     , (966, 4, 4604) /* Coordination Other I */
+     , (966, 4, 4603) /* Endurance Other II */
+     , (966, 4, 4602) /* Endurance Other I */
+     , (966, 4, 4601) /* Strength Other II */
+     , (966, 4, 4384) /* Strength Other I */
+     , (966, 4, 4600) /* Mana Renewal Other II */
+     , (966, 4, 4599) /* Mana Renewal Other I */
+     , (966, 4, 4598) /* Rejuvenation Other II */
+     , (966, 4, 4597) /* Rejuvenation Other I */
+     , (966, 4, 4596) /* Regeneration Other II */
+     , (966, 4, 4595) /* Regeneration Other I */
+     , (966, 4, 4593) /* Mana Boost Other II */
+     , (966, 4, 4592) /* Mana Boost Other I */
+     , (966, 4, 4590) /* Revitalize Other II */
+     , (966, 4, 4589) /* Revitalize Other I */
+     , (966, 4, 4587) /* Heal Other II */
+     , (966, 4, 4450) /* Heal Other I */
+     , (966, 4, 49485) /* Encapsulated Spirit */
+     , (966, 4, 755) /* Cinnabar */;
 

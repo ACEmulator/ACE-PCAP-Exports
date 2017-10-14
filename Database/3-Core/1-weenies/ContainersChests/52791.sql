@@ -54,3 +54,8 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (52791, 2, 0) /* OPEN_BOOL */
      , (52791, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52791, 8, 53) /* Studded Leather Cuirass */;
+

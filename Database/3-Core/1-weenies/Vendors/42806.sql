@@ -125,35 +125,35 @@ VALUES (42806, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42806, 4, 2453)
-     , (42806, 4, 2462)
-     , (42806, 4, 2451)
-     , (42806, 4, 2471)
-     , (42806, 4, 2452)
-     , (42806, 4, 4746)
-     , (42806, 4, 4713)
-     , (42806, 4, 549)
-     , (42806, 4, 4741)
-     , (42806, 4, 4725)
-     , (42806, 4, 620)
-     , (42806, 4, 261)
-     , (42806, 4, 259)
-     , (42806, 4, 4745)
-     , (42806, 4, 258)
-     , (42806, 4, 260)
-     , (42806, 4, 8378)
-     , (42806, 4, 262)
-     , (42806, 4, 263)
-     , (42806, 4, 46746)
-     , (42806, 4, 46747)
-     , (42806, 4, 46748)
-     , (42806, 4, 46749)
-     , (42806, 4, 46750)
-     , (42806, 4, 46751)
-     , (42806, 4, 46752)
-     , (42806, 4, 46753)
-     , (42806, 4, 46754)
-     , (42806, 4, 51337)
-     , (42806, 4, 51438)
-     , (42806, 4, 51437);
+VALUES (42806, 4, 2453) /* Cider */
+     , (42806, 4, 2462) /* Mead */
+     , (42806, 4, 2451) /* Ale */
+     , (42806, 4, 2471) /* Stout */
+     , (42806, 4, 2452) /* Apple Juice */
+     , (42806, 4, 4746) /* Water */
+     , (42806, 4, 4713) /* Beef Stew */
+     , (42806, 4, 549) /* Bowl of Stew */
+     , (42806, 4, 4741) /* Pizza */
+     , (42806, 4, 4725) /* Fish Pie */
+     , (42806, 4, 620) /* Cake */
+     , (42806, 4, 261) /* Cheese */
+     , (42806, 4, 259) /* Bread */
+     , (42806, 4, 4745) /* Viamont Toast */
+     , (42806, 4, 258) /* Apple */
+     , (42806, 4, 260) /* Cabbage */
+     , (42806, 4, 8378) /* Beer Stein */
+     , (42806, 4, 262) /* Chicken */
+     , (42806, 4, 263) /* Fish */
+     , (42806, 4, 46746) /* Contract for Hoshino Fortress */
+     , (42806, 4, 46747) /* Contract for Kill: Spectral Archers */
+     , (42806, 4, 46748) /* Contract for Kill: Spectral Minions */
+     , (42806, 4, 46749) /* Contract for Kill: Spectral Blades and Claws */
+     , (42806, 4, 46750) /* Contract for Kill: Spectral Bushi */
+     , (42806, 4, 46751) /* Contract for Kill: Spectral Samurai */
+     , (42806, 4, 46752) /* Contract for Kill: Spectral Samurai Golems */
+     , (42806, 4, 46753) /* Contract for Kill: Spectral Mages */
+     , (42806, 4, 46754) /* Contract for Kill: Spectral Nanjou Shou-jen */
+     , (42806, 4, 51337) /* Contract for Behind The Mask */
+     , (42806, 4, 51438) /* Contract for Olthoi Hive Eviscerator Pincer */
+     , (42806, 4, 51437) /* Contract for Olthoi Hive Warrior Pincer */;
 

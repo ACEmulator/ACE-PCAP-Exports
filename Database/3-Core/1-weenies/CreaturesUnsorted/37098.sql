@@ -51,3 +51,35 @@ VALUES (37098, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (37098, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37098, 8, 295) /* Bracelet */
+     , (37098, 8, 45411) /* Spada */
+     , (37098, 8, 44801) /* Suikan Over-robe */
+     , (37098, 8, 116) /* Studded Leather Boots */
+     , (37098, 8, 40700) /* Covenant Greaves */
+     , (37098, 8, 30746) /* Dart Flinger */
+     , (37098, 8, 29243) /* Piercing Bow */
+     , (37098, 8, 624) /* Ring */
+     , (37098, 8, 622) /* Necklace */
+     , (37098, 8, 96) /* Chainmail Shirt */
+     , (37098, 8, 41068) /* Acid Shashqa */
+     , (37098, 8, 20476) /* Scroll of Gelidite's Gift */
+     , (37098, 8, 3889) /* Acid Tachi */
+     , (37098, 8, 48) /* Studded Leather Coat */
+     , (37098, 8, 40821) /* Flaming Corsesca */
+     , (37098, 8, 149) /* Ewer */
+     , (37098, 8, 7795) /* Frost Naginata */
+     , (37098, 8, 20575) /* Scroll of Aura of Resistance */
+     , (37098, 8, 2423) /* Gem */
+     , (37098, 8, 25637) /* Leather Bracers */
+     , (37098, 8, 48961) /* Fire Elemental Essence (80) */
+     , (37098, 8, 243) /* Dinner Plate */
+     , (37098, 8, 30570) /* Acid Sabra */
+     , (37098, 8, 3775) /* Lightning Dabus */
+     , (37098, 8, 2410) /* Gem */
+     , (37098, 8, 44857) /* Quartered Cloak */
+     , (37098, 8, 416) /* Chainmail Pauldrons */
+     , (37098, 8, 154) /* Goblet */;
+

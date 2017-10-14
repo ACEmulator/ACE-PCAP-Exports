@@ -118,5 +118,5 @@ VALUES (46682, 0, 16777294)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (46682, 2, 45527);
+VALUES (46682, 2, 45527) /* Soul Bound Spear */;
 

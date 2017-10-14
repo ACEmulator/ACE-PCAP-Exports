@@ -50,3 +50,18 @@ VALUES (24908, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24908, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24908, 8, 44851) /* Chevron Cloak */
+     , (24908, 8, 8331) /* Silver Pea */
+     , (24908, 8, 24924) /* Brood Matron Nymph Tibia */
+     , (24908, 8, 25661) /* Leather Boots */
+     , (24908, 8, 24920) /* Brood Matron Nymph Tail */
+     , (24908, 8, 30594) /* Acid Partizan */
+     , (24908, 8, 49387) /* Frost Grievver Essence (50) */
+     , (24908, 8, 2409) /* Gem */
+     , (24908, 8, 350) /* Broad Sword */
+     , (24908, 8, 8326) /* Copper Pea */
+     , (24908, 8, 142) /* Chalice */;
+

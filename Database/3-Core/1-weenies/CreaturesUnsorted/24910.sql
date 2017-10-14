@@ -50,3 +50,32 @@ VALUES (24910, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24910, 64, 2000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24910, 8, 3492) /* Scroll of Sprint Other VI */
+     , (24910, 8, 622) /* Necklace */
+     , (24910, 8, 3141) /* Scroll of Arcane Enlightenment Self V */
+     , (24910, 8, 25647) /* Leather Pants */
+     , (24910, 8, 49421) /* Acid Spectre Essence (50) */
+     , (24910, 8, 2596) /* Doublet */
+     , (24910, 8, 28621) /* Diforsa Leggings */
+     , (24910, 8, 163) /* Ornamental Bowl */
+     , (24910, 8, 24936) /* Brood Queen Nymph Metathorax */
+     , (24910, 8, 24934) /* Brood Queen Nymph Head */
+     , (24910, 8, 3112) /* Scroll of Regenerate Other VI */
+     , (24910, 8, 311) /* Heavy Crossbow */
+     , (24910, 8, 49247) /* Fire Zombie Essence (50) */
+     , (24910, 8, 103) /* Platemail Sleeves */
+     , (24910, 8, 45116) /* Flaming Hammer */
+     , (24910, 8, 45113) /* Hammer */
+     , (24910, 8, 28612) /* Bandana */
+     , (24910, 8, 27319) /* Health Tincture */
+     , (24910, 8, 20446) /* Scroll of Outlander's Insolence */
+     , (24910, 8, 327) /* Ken */
+     , (24910, 8, 3072) /* Scroll of Piercing Protection Self VI */
+     , (24910, 8, 21155) /* Covenant Greaves */
+     , (24910, 8, 22159) /* Acid Nabut */
+     , (24910, 8, 69) /* Yoroi Greaves */
+     , (24910, 8, 24930) /* Brood Queen Nymph Crest */;
+

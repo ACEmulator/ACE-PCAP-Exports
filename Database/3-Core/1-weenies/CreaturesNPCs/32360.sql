@@ -113,5 +113,5 @@ VALUES (32360, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (32360, 2, 352);
+VALUES (32360, 2, 352) /* Short Sword */;
 

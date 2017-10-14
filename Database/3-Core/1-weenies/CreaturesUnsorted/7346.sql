@@ -48,3 +48,31 @@ VALUES (7346, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7346, 64, 413) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7346, 8, 31764) /* Lugian Hammer */
+     , (7346, 8, 631) /* Excellent Healing Kit */
+     , (7346, 8, 621) /* Heavy Bracelet */
+     , (7346, 8, 49353) /* Fire Moar Essence (80) */
+     , (7346, 8, 25661) /* Leather Boots */
+     , (7346, 8, 121) /* Gloves */
+     , (7346, 8, 45121) /* Flaming Hand Wraps */
+     , (7346, 8, 133) /* Slippers */
+     , (7346, 8, 43382) /* Nefane Pearl */
+     , (7346, 8, 31759) /* Dericost Blade */
+     , (7346, 8, 2881) /* Scroll of Strengthen Lock VI */
+     , (7346, 8, 8328) /* Iron Pea */
+     , (7346, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (7346, 8, 71) /* Chainmail Hauberk */
+     , (7346, 8, 27324) /* Stamina Brew */
+     , (7346, 8, 49345) /* Lightning Moar Essence (50) */
+     , (7346, 8, 2367) /* Gorget */
+     , (7346, 8, 28608) /* Poet's Shirt */
+     , (7346, 8, 632) /* Peerless Healing Kit */
+     , (7346, 8, 21307) /* Scroll of Flame Arc VI */
+     , (7346, 8, 31786) /* Lightning Claw */
+     , (7346, 8, 45099) /* Epee */
+     , (7346, 8, 3082) /* Scroll of Exhaustion Other VI */
+     , (7346, 8, 273) /* Pyreal */;
+

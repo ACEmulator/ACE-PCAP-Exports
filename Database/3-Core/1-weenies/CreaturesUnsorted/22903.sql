@@ -60,3 +60,17 @@ VALUES (22903, 2, 8) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22903, 64, 50000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22903, 8, 31788) /* Stick */
+     , (22903, 8, 41052) /* Greataxe */
+     , (22903, 8, 20557) /* Scroll of Oswald's Blessing */
+     , (22903, 8, 40761) /* Acid Nodachi */
+     , (22903, 8, 4195) /* Nekode */
+     , (22903, 8, 25637) /* Leather Bracers */
+     , (22903, 8, 89) /* Studded Leather Pauldrons */
+     , (22903, 8, 40700) /* Covenant Greaves */
+     , (22903, 8, 40702) /* Covenant Pauldrons */
+     , (22903, 8, 2421) /* Gem */;
+

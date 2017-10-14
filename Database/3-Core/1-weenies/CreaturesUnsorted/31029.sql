@@ -55,3 +55,11 @@ VALUES (31029, 64, 750) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (31029, 128, 1200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (31029, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31029, 8, 40709) /* Covenant Girth */
+     , (31029, 8, 20405) /* Scroll of Swordsman Bait */
+     , (31029, 8, 44855) /* Halved Cloak */
+     , (31029, 8, 20529) /* Scroll of Twisted Digits */;
+

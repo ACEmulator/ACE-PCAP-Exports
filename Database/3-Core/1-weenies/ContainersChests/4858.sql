@@ -52,3 +52,11 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4858, 2, 0) /* OPEN_BOOL */
      , (4858, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4858, 8, 254) /* Stoup */
+     , (4858, 8, 161) /* Mug */
+     , (4858, 8, 40706) /* Covenant Bracers */
+     , (4858, 8, 2435) /* Mana Stone */;
+

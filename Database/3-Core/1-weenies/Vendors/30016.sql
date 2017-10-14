@@ -123,60 +123,60 @@ VALUES (30016, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30016, 4, 15270)
-     , (30016, 4, 4387)
-     , (30016, 4, 4392)
-     , (30016, 4, 2666)
-     , (30016, 4, 2689)
-     , (30016, 4, 2694)
-     , (30016, 4, 2699)
-     , (30016, 4, 2704)
-     , (30016, 4, 2709)
-     , (30016, 4, 2724)
-     , (30016, 4, 2729)
-     , (30016, 4, 2975)
-     , (30016, 4, 2980)
-     , (30016, 4, 2985)
-     , (30016, 4, 2990)
-     , (30016, 4, 2995)
-     , (30016, 4, 3000)
-     , (30016, 4, 3005)
-     , (30016, 4, 3010)
-     , (30016, 4, 3015)
-     , (30016, 4, 3020)
-     , (30016, 4, 3025)
-     , (30016, 4, 3030)
-     , (30016, 4, 3035)
-     , (30016, 4, 3040)
-     , (30016, 4, 3045)
-     , (30016, 4, 3050)
-     , (30016, 4, 3055)
-     , (30016, 4, 3060)
-     , (30016, 4, 3065)
-     , (30016, 4, 3070)
-     , (30016, 4, 3075)
-     , (30016, 4, 3080)
-     , (30016, 4, 3085)
-     , (30016, 4, 3095)
-     , (30016, 4, 3100)
-     , (30016, 4, 3105)
-     , (30016, 4, 3110)
-     , (30016, 4, 3115)
-     , (30016, 4, 3120)
-     , (30016, 4, 3125)
-     , (30016, 4, 4220)
-     , (30016, 4, 9663)
-     , (30016, 4, 3728)
-     , (30016, 4, 9632)
-     , (30016, 4, 9637)
-     , (30016, 4, 3733)
-     , (30016, 4, 3738)
-     , (30016, 4, 3743)
-     , (30016, 4, 9642)
-     , (30016, 4, 9647)
-     , (30016, 4, 9652)
-     , (30016, 4, 9657)
-     , (30016, 4, 21105)
-     , (30016, 4, 21112)
-     , (30016, 4, 21098);
+VALUES (30016, 4, 15270) /* Foci of Verdancy */
+     , (30016, 4, 4387) /* Scroll of Armor Other IV */
+     , (30016, 4, 4392) /* Scroll of Armor Self IV */
+     , (30016, 4, 2666) /* Scroll of Enfeeble Other IV */
+     , (30016, 4, 2689) /* Scroll of Harm Other IV */
+     , (30016, 4, 2694) /* Scroll of Heal Other IV */
+     , (30016, 4, 2699) /* Scroll of Heal Self IV */
+     , (30016, 4, 2704) /* Scroll of Imperil Other IV */
+     , (30016, 4, 2709) /* Scroll of Mana Drain Other IV */
+     , (30016, 4, 2724) /* Scroll of Revitalize Other IV */
+     , (30016, 4, 2729) /* Scroll of Revitalize Self IV */
+     , (30016, 4, 2975) /* Scroll of Acid Protection Other IV */
+     , (30016, 4, 2980) /* Scroll of Acid Protection Self IV */
+     , (30016, 4, 2985) /* Scroll of Acid Vulnerability Other IV */
+     , (30016, 4, 2990) /* Scroll of Blade Protection Other IV */
+     , (30016, 4, 2995) /* Scroll of Blade Protection Self IV */
+     , (30016, 4, 3000) /* Scroll of Blade Vulnerability Other IV */
+     , (30016, 4, 3005) /* Scroll of Bludgeon Protection Other IV */
+     , (30016, 4, 3010) /* Scroll of Bludgeon Protection Self IV */
+     , (30016, 4, 3015) /* Scroll of Bludgeoning Vulnerability Other IV */
+     , (30016, 4, 3020) /* Scroll of Cold Protection Other IV */
+     , (30016, 4, 3025) /* Scroll of Cold Protection Self IV */
+     , (30016, 4, 3030) /* Scroll of Cold Vulnerability Other IV */
+     , (30016, 4, 3035) /* Scroll of Fire Protection Other IV */
+     , (30016, 4, 3040) /* Scroll of Fire Protection Self IV */
+     , (30016, 4, 3045) /* Scroll of Fire Vulnerability Other IV */
+     , (30016, 4, 3050) /* Scroll of Lightning Protection Other IV */
+     , (30016, 4, 3055) /* Scroll of Lightning Protection Self IV */
+     , (30016, 4, 3060) /* Scroll of Lightning Vulnerability Other IV */
+     , (30016, 4, 3065) /* Scroll of Piercing Protection Other IV */
+     , (30016, 4, 3070) /* Scroll of Piercing Protection Self IV */
+     , (30016, 4, 3075) /* Scroll of Piercing Vulnerability Other IV */
+     , (30016, 4, 3080) /* Scroll of Exhaustion Other IV */
+     , (30016, 4, 3085) /* Scroll of Fester Other IV */
+     , (30016, 4, 3095) /* Scroll of Mana Depletion Other IV */
+     , (30016, 4, 3100) /* Scroll of Mana Renewal Other IV */
+     , (30016, 4, 3105) /* Scroll of Mana Renewal Self IV */
+     , (30016, 4, 3110) /* Scroll of Regenerate Other IV */
+     , (30016, 4, 3115) /* Scroll of Regenerate Self IV */
+     , (30016, 4, 3120) /* Scroll of Rejuvenate Other IV */
+     , (30016, 4, 3125) /* Scroll of Rejuvenate Self IV */
+     , (30016, 4, 4220) /* Scroll of Drain Health Other IV */
+     , (30016, 4, 9663) /* Scroll of Drain Mana Other IV */
+     , (30016, 4, 3728) /* Scroll of Drain Stamina Other IV */
+     , (30016, 4, 9632) /* Scroll of Health to Mana Self IV */
+     , (30016, 4, 9637) /* Scroll of Health to Stamina Self IV */
+     , (30016, 4, 3733) /* Scroll of Infuse Health IV */
+     , (30016, 4, 3738) /* Scroll of Infuse Mana IV */
+     , (30016, 4, 3743) /* Scroll of Infuse Stamina IV */
+     , (30016, 4, 9642) /* Scroll of Mana to Health Self IV */
+     , (30016, 4, 9647) /* Scroll of Mana to Stamina Self IV */
+     , (30016, 4, 9652) /* Scroll of Stamina to Health Self IV */
+     , (30016, 4, 9657) /* Scroll of Stamina to Mana Self IV */
+     , (30016, 4, 21105) /* Scroll of Martyr's Blight IV */
+     , (30016, 4, 21112) /* Scroll of Martyr's Tenacity IV */
+     , (30016, 4, 21098) /* Scroll of Martyr's Hecatomb IV */;
 

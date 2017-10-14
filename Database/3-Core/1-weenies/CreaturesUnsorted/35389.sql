@@ -77,3 +77,29 @@ VALUES (35389, 0, 16787248)
      , (35389, 15, 16787257)
      , (35389, 16, 16787256);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35389, 8, 30606) /* Bastone */
+     , (35389, 8, 295) /* Bracelet */
+     , (35389, 8, 2435) /* Mana Stone */
+     , (35389, 8, 25643) /* Leather Girth */
+     , (35389, 8, 20404) /* Scroll of Swordsman's Bane */
+     , (35389, 8, 624) /* Ring */
+     , (35389, 8, 3730) /* Scroll of Drain Stamina Other VI */
+     , (35389, 8, 25637) /* Leather Bracers */
+     , (35389, 8, 31783) /* Frost Claw */
+     , (35389, 8, 41052) /* Greataxe */
+     , (35389, 8, 30625) /* War Bow */
+     , (35389, 8, 2599) /* Trousers */
+     , (35389, 8, 7825) /* Brown Beans */
+     , (35389, 8, 5961) /* Scroll of Cooking Mastery Self VI */
+     , (35389, 8, 30616) /* Arbalest */
+     , (35389, 8, 22159) /* Acid Nabut */
+     , (35389, 8, 25638) /* Leather Vest */
+     , (35389, 8, 273) /* Pyreal */
+     , (35389, 8, 30595) /* Frost Partizan */
+     , (35389, 8, 150) /* Flagon */
+     , (35389, 8, 49485) /* Encapsulated Spirit */
+     , (35389, 8, 629) /* Adept Healing Kit */;
+

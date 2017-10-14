@@ -39,3 +39,14 @@ VALUES (25870, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25870, 67115132, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25870, 8, 150) /* Flagon */
+     , (25870, 8, 623) /* Heavy Necklace */
+     , (25870, 8, 41487) /* Mechanical Scarab */
+     , (25870, 8, 30607) /* Lightning Bastone */
+     , (25870, 8, 7771) /* Naginata */
+     , (25870, 8, 3802) /* Acid Jitte */
+     , (25870, 8, 40624) /* Acid Quadrelle */;
+

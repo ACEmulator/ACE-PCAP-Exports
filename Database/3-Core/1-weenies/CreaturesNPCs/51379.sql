@@ -45,3 +45,8 @@ VALUES (51379, 67116890, 0, 24)
      , (51379, 67116901, 24, 8)
      , (51379, 67116901, 32, 8);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51379, 8, 51558) /* Legendary Key */;
+

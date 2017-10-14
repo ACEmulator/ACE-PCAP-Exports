@@ -83,3 +83,31 @@ VALUES (19543, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (19543, 64, 18000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19543, 8, 28629) /* Alduressa Coat */
+     , (19543, 8, 48967) /* Fire Child Essence (150) */
+     , (19543, 8, 297) /* Ring */
+     , (19543, 8, 112) /* Studded Leather Tassets */
+     , (19543, 8, 80) /* Chainmail Leggings */
+     , (19543, 8, 20604) /* Scroll of Cannibalize */
+     , (19543, 8, 621) /* Heavy Bracelet */
+     , (19543, 8, 3940) /* Lightning Morning Star */
+     , (19543, 8, 31811) /* Piercing Compound Crossbow */
+     , (19543, 8, 49314) /* Acid Wisp Essence (150) */
+     , (19543, 8, 41488) /* Top */
+     , (19543, 8, 3850) /* Lightning Scimitar */
+     , (19543, 8, 49462) /* Scroll of Summoning Ineptitude Other VII */
+     , (19543, 8, 31801) /* Electric Compound Bow */
+     , (19543, 8, 20429) /* Scroll of Vagabond's Gift */
+     , (19543, 8, 135) /* Turban */
+     , (19543, 8, 9229) /* Treated Healing Kit */
+     , (19543, 8, 41483) /* Compass */
+     , (19543, 8, 7792) /* Fire Trident */
+     , (19543, 8, 121) /* Gloves */
+     , (19543, 8, 127) /* Pants */
+     , (19543, 8, 554) /* Studded Leather Basinet */
+     , (19543, 8, 3836) /* Flaming Mace */
+     , (19543, 8, 118) /* Cloth Cap */;
+

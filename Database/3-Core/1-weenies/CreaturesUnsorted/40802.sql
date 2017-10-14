@@ -36,3 +36,10 @@ VALUES (40802, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40802, 67114287, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40802, 8, 41485) /* Pocket Watch */
+     , (40802, 8, 49485) /* Encapsulated Spirit */
+     , (40802, 8, 2411) /* Gem */;
+

@@ -48,3 +48,42 @@ VALUES (949, 2, 10) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (949, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (949, 8, 42518) /* Coalesced Mana */
+     , (949, 8, 132) /* Shoes */
+     , (949, 8, 3684) /* Red Rat Tail */
+     , (949, 8, 2431) /* Gem */
+     , (949, 8, 45416) /* Knife */
+     , (949, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (949, 8, 25661) /* Leather Boots */
+     , (949, 8, 2605) /* Chainmail Greaves */
+     , (949, 8, 41487) /* Mechanical Scarab */
+     , (949, 8, 27331) /* Minor Mana Stone */
+     , (949, 8, 149) /* Ewer */
+     , (949, 8, 2366) /* Orb */
+     , (949, 8, 2460) /* Mana Draught */
+     , (949, 8, 44856) /* Trimmed Cloak */
+     , (949, 8, 2434) /* Lesser Mana Stone */
+     , (949, 8, 30746) /* Dart Flinger */
+     , (949, 8, 40761) /* Acid Nodachi */
+     , (949, 8, 148) /* Cup */
+     , (949, 8, 2548) /* Sceptre */
+     , (949, 8, 127) /* Pants */
+     , (949, 8, 118) /* Cloth Cap */
+     , (949, 8, 2419) /* Gem */
+     , (949, 8, 44851) /* Chevron Cloak */
+     , (949, 8, 254) /* Stoup */
+     , (949, 8, 49247) /* Fire Zombie Essence (50) */
+     , (949, 8, 297) /* Ring */
+     , (949, 8, 22168) /* Hefty Walking Cane */
+     , (949, 8, 49366) /* Acid Grievver Essence (50) */
+     , (949, 8, 2416) /* Gem */
+     , (949, 8, 41060) /* Flaming Great Star Mace */
+     , (949, 8, 273) /* Pyreal */
+     , (949, 8, 49324) /* Fire Wisp Essence (50) */
+     , (949, 8, 40620) /* Lightning Spadone */
+     , (949, 8, 7940) /* Empty Flask */
+     , (949, 8, 312) /* Light Crossbow */;
+

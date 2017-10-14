@@ -40,3 +40,45 @@ VALUES (46815, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (46815, 67113362, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46815, 8, 21154) /* Covenant Girth */
+     , (46815, 8, 27328) /* Major Mana Stone */
+     , (46815, 8, 9229) /* Treated Healing Kit */
+     , (46815, 8, 112) /* Studded Leather Tassets */
+     , (46815, 8, 27321) /* Mana Philtre */
+     , (46815, 8, 273) /* Pyreal */
+     , (46815, 8, 35105) /* Pyre Shroud */
+     , (46815, 8, 96) /* Chainmail Shirt */
+     , (46815, 8, 516) /* Peerless Lockpick */
+     , (46815, 8, 27217) /* Chiran Helm */
+     , (46815, 8, 2410) /* Gem */
+     , (46815, 8, 624) /* Ring */
+     , (46815, 8, 8330) /* Pyreal Pea */
+     , (46815, 8, 45322) /* Scroll of Shield Mastery Other VII */
+     , (46815, 8, 154) /* Goblet */
+     , (46815, 8, 20423) /* Scroll of Archer's Bane */
+     , (46815, 8, 150) /* Flagon */
+     , (46815, 8, 37189) /* Olthoi Celdon Gauntlets */
+     , (46815, 8, 515) /* Superb Lockpick */
+     , (46815, 8, 49261) /* Acid Elemental Essence (50) */
+     , (46815, 8, 30949) /* Diforsa Sleeves */
+     , (46815, 8, 113) /* Yoroi Tassets */
+     , (46815, 8, 7940) /* Empty Flask */
+     , (46815, 8, 8326) /* Copper Pea */
+     , (46815, 8, 20242) /* Scroll of Brittle Bones */
+     , (46815, 8, 623) /* Heavy Necklace */
+     , (46815, 8, 93) /* Round Shield */
+     , (46815, 8, 45193) /* Red Veined Grub */
+     , (46815, 8, 45151) /* Mhoire Oubliette Portal Glyph */
+     , (46815, 8, 2402) /* Gem */
+     , (46815, 8, 27323) /* Mana Tonic */
+     , (46815, 8, 44976) /* Hood */
+     , (46815, 8, 27320) /* Health Tonic */
+     , (46815, 8, 2436) /* Greater Mana Stone */
+     , (46815, 8, 163) /* Ornamental Bowl */
+     , (46815, 8, 22166) /* Flaming Quarter Staff */
+     , (46815, 8, 37326) /* Glyph of Person Appraisal */
+     , (46815, 8, 22444) /* Frost Dirk */;
+

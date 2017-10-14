@@ -52,3 +52,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4806, 2, 0) /* OPEN_BOOL */
      , (4806, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4806, 8, 49525) /* Acid Phyntos Wasp Essence (80) */
+     , (4806, 8, 93) /* Round Shield */
+     , (4806, 8, 2594) /* Flared Tunic */
+     , (4806, 8, 2597) /* Flared Pants */
+     , (4806, 8, 5991) /* Scroll of Alchemy Mastery Other VI */
+     , (4806, 8, 2436) /* Greater Mana Stone */
+     , (4806, 8, 306) /* Longbow */
+     , (4806, 8, 7793) /* Acid Trident */
+     , (4806, 8, 254) /* Stoup */;
+

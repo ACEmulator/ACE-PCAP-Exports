@@ -49,9 +49,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (11717, 4, False) /* ROT_PROOF_BOOL */;
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
-VALUES (11717, 16, 273, 2000000) /* Pyreal */
-     , (11717, 16, 11710, 5) /* Writ of Refuge */
-     , (11717, 16, 3700, 1) /* Gold Phyntos Wasp Wing */
-     , (11717, 32, 273, 100000) /* Pyreal */
-     , (11717, 32, 11710, 2) /* Writ of Refuge */;
+VALUES (11717, 16, 273, 2000000) /* Buy Cost - Pyreal (x2,000,000) */
+     , (11717, 16, 11710, 5) /* Buy Cost - Writ of Refuge (x5) */
+     , (11717, 16, 3700, 1) /* Buy Cost - Gold Phyntos Wasp Wing (x1) */
+     , (11717, 32, 273, 100000) /* Rent Cost - Pyreal (x100,000) */
+     , (11717, 32, 11710, 2) /* Rent Cost - Writ of Refuge (x2) */;
 

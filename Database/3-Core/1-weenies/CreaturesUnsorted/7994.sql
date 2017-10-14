@@ -48,3 +48,49 @@ VALUES (7994, 2, 46) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7994, 64, 215) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7994, 8, 2896) /* Scroll of Turn Blade V */
+     , (7994, 8, 621) /* Heavy Bracelet */
+     , (7994, 8, 2589) /* Smock */
+     , (7994, 8, 379) /* Mana Potion */
+     , (7994, 8, 2413) /* Gem */
+     , (7994, 8, 309) /* Club */
+     , (7994, 8, 2685) /* Scroll of Frailty Other V */
+     , (7994, 8, 2980) /* Scroll of Acid Protection Self IV */
+     , (7994, 8, 363) /* Yumi */
+     , (7994, 8, 629) /* Adept Healing Kit */
+     , (7994, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (7994, 8, 41483) /* Compass */
+     , (7994, 8, 2431) /* Gem */
+     , (7994, 8, 254) /* Stoup */
+     , (7994, 8, 2754) /* Scroll of Willpower Other IV */
+     , (7994, 8, 31865) /* Circlet */
+     , (7994, 8, 9261) /* Ursuin Fang */
+     , (7994, 8, 12463) /* Atlatl */
+     , (7994, 8, 127) /* Pants */
+     , (7994, 8, 49338) /* Acid Moar Essence (50) */
+     , (7994, 8, 2419) /* Gem */
+     , (7994, 8, 83) /* Scalemail Leggings */
+     , (7994, 8, 94) /* Diamond Shield */
+     , (7994, 8, 512) /* Good Lockpick */
+     , (7994, 8, 8665) /* Ursuin Scalp */
+     , (7994, 8, 414) /* Chainmail Breastplate */
+     , (7994, 8, 2435) /* Mana Stone */
+     , (7994, 8, 2591) /* Puffy Shirt */
+     , (7994, 8, 2657) /* Scroll of Endurance Other V */
+     , (7994, 8, 294) /* Amulet */
+     , (7994, 8, 2427) /* Gem */
+     , (7994, 8, 59) /* Studded Leather Gauntlets */
+     , (7994, 8, 148) /* Cup */
+     , (7994, 8, 413) /* Chainmail Bracers */
+     , (7994, 8, 2595) /* Baggy Tunic */
+     , (7994, 8, 2587) /* Shirt */
+     , (7994, 8, 27322) /* Mana Tincture */
+     , (7994, 8, 48959) /* Fire Elemental Essence (50) */
+     , (7994, 8, 2592) /* Puffy Tunic */
+     , (7994, 8, 296) /* Crown */
+     , (7994, 8, 2598) /* Baggy Pants */
+     , (7994, 8, 154) /* Goblet */;
+

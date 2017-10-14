@@ -39,3 +39,29 @@ VALUES (1241, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1241, 67114030, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1241, 8, 243) /* Dinner Plate */
+     , (1241, 8, 8328) /* Iron Pea */
+     , (1241, 8, 1249) /* Key */
+     , (1241, 8, 49303) /* Frost K'nath Essence (50) */
+     , (1241, 8, 630) /* Gifted Healing Kit */
+     , (1241, 8, 45345) /* Scroll of Sneak Attack Mastery Other VI */
+     , (1241, 8, 2470) /* Stamina Elixir */
+     , (1241, 8, 48) /* Studded Leather Coat */
+     , (1241, 8, 2426) /* Gem */
+     , (1241, 8, 312) /* Light Crossbow */
+     , (1241, 8, 2424) /* Gem */
+     , (1241, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (1241, 8, 2589) /* Smock */
+     , (1241, 8, 20608) /* Scroll of Gift of Essence */
+     , (1241, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (1241, 8, 2435) /* Mana Stone */
+     , (1241, 8, 629) /* Adept Healing Kit */
+     , (1241, 8, 2432) /* Gem */
+     , (1241, 8, 49247) /* Fire Zombie Essence (50) */
+     , (1241, 8, 624) /* Ring */
+     , (1241, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (1241, 8, 273) /* Pyreal */;
+

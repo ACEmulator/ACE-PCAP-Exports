@@ -49,3 +49,10 @@ VALUES (26516, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (26516, 64, 950) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26516, 8, 40709) /* Covenant Girth */
+     , (26516, 8, 2402) /* Gem */
+     , (26516, 8, 43055) /* Knorr Academy Vambraces */;
+

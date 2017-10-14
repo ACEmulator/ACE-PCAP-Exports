@@ -52,3 +52,19 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4826, 2, 0) /* OPEN_BOOL */
      , (4826, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4826, 8, 150) /* Flagon */
+     , (4826, 8, 2433) /* Gem */
+     , (4826, 8, 27330) /* Moderate Mana Stone */
+     , (4826, 8, 31865) /* Circlet */
+     , (4826, 8, 294) /* Amulet */
+     , (4826, 8, 512) /* Good Lockpick */
+     , (4826, 8, 2605) /* Chainmail Greaves */
+     , (4826, 8, 2435) /* Mana Stone */
+     , (4826, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (4826, 8, 45405) /* Frost Simi */
+     , (4826, 8, 161) /* Mug */
+     , (4826, 8, 163) /* Ornamental Bowl */;
+

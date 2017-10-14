@@ -124,20 +124,20 @@ VALUES (865, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (865, 4, 263)
-     , (865, 4, 2463)
-     , (865, 4, 546)
-     , (865, 4, 547)
-     , (865, 4, 4746)
-     , (865, 4, 4755)
-     , (865, 4, 4768)
-     , (865, 4, 5758)
-     , (865, 4, 23327)
-     , (865, 4, 23326)
-     , (865, 4, 4759)
-     , (865, 4, 4764)
-     , (865, 4, 7823)
-     , (865, 4, 513)
-     , (865, 4, 545)
-     , (865, 4, 512);
+VALUES (865, 4, 263) /* Fish */
+     , (865, 4, 2463) /* Milk */
+     , (865, 4, 546) /* Egg */
+     , (865, 4, 547) /* Brimstone-cap Mushroom */
+     , (865, 4, 4746) /* Water */
+     , (865, 4, 4755) /* Brine */
+     , (865, 4, 4768) /* Uncooked Rice */
+     , (865, 4, 5758) /* Carrot */
+     , (865, 4, 23327) /* Simple Dried Rations */
+     , (865, 4, 23326) /* Elaborate Dried Rations */
+     , (865, 4, 4759) /* Cooking Pot */
+     , (865, 4, 4764) /* Noodle Cutter */
+     , (865, 4, 7823) /* Heavy Grinder */
+     , (865, 4, 513) /* Plain Lockpick */
+     , (865, 4, 545) /* Reliable Lockpick */
+     , (865, 4, 512) /* Good Lockpick */;
 

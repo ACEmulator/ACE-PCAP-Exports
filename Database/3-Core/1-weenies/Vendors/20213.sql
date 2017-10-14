@@ -124,48 +124,48 @@ VALUES (20213, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20213, 4, 15269)
-     , (20213, 4, 2763)
-     , (20213, 4, 2768)
-     , (20213, 4, 46861)
-     , (20213, 4, 2783)
-     , (20213, 4, 46862)
-     , (20213, 4, 2808)
-     , (20213, 4, 46863)
-     , (20213, 4, 2833)
-     , (20213, 4, 46864)
-     , (20213, 4, 2888)
-     , (20213, 4, 46865)
-     , (20213, 4, 28004)
-     , (20213, 4, 46866)
-     , (20213, 4, 2883)
-     , (20213, 4, 2773)
-     , (20213, 4, 2778)
-     , (20213, 4, 2788)
-     , (20213, 4, 2793)
-     , (20213, 4, 2798)
-     , (20213, 4, 2803)
-     , (20213, 4, 2813)
-     , (20213, 4, 2818)
-     , (20213, 4, 2823)
-     , (20213, 4, 2828)
-     , (20213, 4, 2838)
-     , (20213, 4, 2843)
-     , (20213, 4, 2848)
-     , (20213, 4, 2853)
-     , (20213, 4, 2858)
-     , (20213, 4, 2863)
-     , (20213, 4, 2868)
-     , (20213, 4, 2873)
-     , (20213, 4, 28011)
-     , (20213, 4, 2878)
-     , (20213, 4, 2894)
-     , (20213, 4, 2899)
-     , (20213, 4, 2903)
-     , (20213, 4, 20618)
-     , (20213, 4, 1564)
-     , (20213, 4, 1565)
-     , (20213, 4, 20619)
-     , (20213, 4, 20620)
-     , (20213, 4, 20621);
+VALUES (20213, 4, 15269) /* Foci of Artifice */
+     , (20213, 4, 2763) /* Scroll of Acid Bane III */
+     , (20213, 4, 2768) /* Scroll of Acid Lure III */
+     , (20213, 4, 46861) /* Aura of Blood Drinker Other III */
+     , (20213, 4, 2783) /* Aura of Blood Drinker Self III */
+     , (20213, 4, 46862) /* Aura of Defender Other III */
+     , (20213, 4, 2808) /* Aura of Defender Self III */
+     , (20213, 4, 46863) /* Aura of Heartseeker Other III */
+     , (20213, 4, 2833) /* Aura of Heartseeker Self III */
+     , (20213, 4, 46864) /* Aura of Hermetic Link Other III */
+     , (20213, 4, 2888) /* Aura of Hermetic Link Self III */
+     , (20213, 4, 46865) /* Aura of Spirit Drinker Other III */
+     , (20213, 4, 28004) /* Aura of Spirit Drinker Self III */
+     , (20213, 4, 46866) /* Aura of Swift Killer Other III */
+     , (20213, 4, 2883) /* Aura of Swift Killer Self III */
+     , (20213, 4, 2773) /* Scroll of Blade Bane III */
+     , (20213, 4, 2778) /* Scroll of Blade Lure III */
+     , (20213, 4, 2788) /* Scroll of Blood Loather III */
+     , (20213, 4, 2793) /* Scroll of Bludgeon Bane III */
+     , (20213, 4, 2798) /* Scroll of Bludgeon Lure III */
+     , (20213, 4, 2803) /* Scroll of Brittlemail III */
+     , (20213, 4, 2813) /* Scroll of Flame Bane III */
+     , (20213, 4, 2818) /* Scroll of Flame Lure III */
+     , (20213, 4, 2823) /* Scroll of Frost Bane III */
+     , (20213, 4, 2828) /* Scroll of Frost Lure III */
+     , (20213, 4, 2838) /* Scroll of Hermetic Void III */
+     , (20213, 4, 2843) /* Scroll of Impenetrability III */
+     , (20213, 4, 2848) /* Scroll of Leaden Weapon III */
+     , (20213, 4, 2853) /* Scroll of Lightning Bane III */
+     , (20213, 4, 2858) /* Scroll of Lightning Lure III */
+     , (20213, 4, 2863) /* Scroll of Lure Blade III */
+     , (20213, 4, 2868) /* Scroll of Piercing Bane III */
+     , (20213, 4, 2873) /* Scroll of Piercing Lure III */
+     , (20213, 4, 28011) /* Scroll of Spirit Loather III */
+     , (20213, 4, 2878) /* Scroll of Strengthen Lock III */
+     , (20213, 4, 2894) /* Scroll of Turn Blade III */
+     , (20213, 4, 2899) /* Scroll of Weaken Lock III */
+     , (20213, 4, 2903) /* Scroll of Lifestone Recall */
+     , (20213, 4, 20618) /* Scroll of Lifestone Tie */
+     , (20213, 4, 1564) /* Scroll of Portal Recall */
+     , (20213, 4, 1565) /* Scroll of Primary Portal Tie */
+     , (20213, 4, 20619) /* Scroll of Secondary Portal Tie */
+     , (20213, 4, 20620) /* Scroll of Primary Portal Recall */
+     , (20213, 4, 20621) /* Scroll of Secondary Portal Recall */;
 

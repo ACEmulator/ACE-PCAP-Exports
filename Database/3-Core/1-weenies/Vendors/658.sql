@@ -124,11 +124,11 @@ VALUES (658, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (658, 4, 2604)
-     , (658, 4, 134)
-     , (658, 4, 118)
-     , (658, 4, 132)
-     , (658, 4, 5851)
-     , (658, 4, 5850)
-     , (658, 4, 8371);
+VALUES (658, 4, 2604) /* Wide Breeches */
+     , (658, 4, 134) /* Tunic */
+     , (658, 4, 118) /* Cloth Cap */
+     , (658, 4, 132) /* Shoes */
+     , (658, 4, 5851) /* Faran Robe with Hood */
+     , (658, 4, 5850) /* Faran Robe */
+     , (658, 4, 8371) /* Kireth Gown with Band */;
 

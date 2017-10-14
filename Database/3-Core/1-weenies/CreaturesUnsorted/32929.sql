@@ -58,3 +58,19 @@ VALUES (32929, 64, 445) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (32929, 128, 640) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (32929, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32929, 8, 2425) /* Gem */
+     , (32929, 8, 8327) /* Gold Pea */
+     , (32929, 8, 273) /* Pyreal */
+     , (32929, 8, 621) /* Heavy Bracelet */
+     , (32929, 8, 8331) /* Silver Pea */
+     , (32929, 8, 2412) /* Gem */
+     , (32929, 8, 243) /* Dinner Plate */
+     , (32929, 8, 2436) /* Greater Mana Stone */
+     , (32929, 8, 20467) /* Scroll of Olthoi's Gift */
+     , (32929, 8, 27330) /* Moderate Mana Stone */
+     , (32929, 8, 2424) /* Gem */
+     , (32929, 8, 2397) /* Gem */;
+

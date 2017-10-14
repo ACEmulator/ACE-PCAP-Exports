@@ -48,3 +48,39 @@ VALUES (13, 2, 10) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (13, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (13, 8, 20640) /* Royal Atlatl */
+     , (13, 8, 25643) /* Leather Girth */
+     , (13, 8, 513) /* Plain Lockpick */
+     , (13, 8, 2414) /* Gem */
+     , (13, 8, 148) /* Cup */
+     , (13, 8, 132) /* Shoes */
+     , (13, 8, 3685) /* White Rat Tail */
+     , (13, 8, 7771) /* Naginata */
+     , (13, 8, 130) /* Shirt */
+     , (13, 8, 7897) /* Steel Toed Boots */
+     , (13, 8, 297) /* Ring */
+     , (13, 8, 545) /* Reliable Lockpick */
+     , (13, 8, 28608) /* Poet's Shirt */
+     , (13, 8, 273) /* Pyreal */
+     , (13, 8, 3019) /* Scroll of Cold Protection Other III */
+     , (13, 8, 49282) /* Acid K'nath Essence (50) */
+     , (13, 8, 20396) /* Scroll of Evaporate Life Magic Self */
+     , (13, 8, 121) /* Gloves */
+     , (13, 8, 2601) /* Loose Pants */
+     , (13, 8, 243) /* Dinner Plate */
+     , (13, 8, 27331) /* Minor Mana Stone */
+     , (13, 8, 624) /* Ring */
+     , (13, 8, 7940) /* Empty Flask */
+     , (13, 8, 2605) /* Chainmail Greaves */
+     , (13, 8, 2426) /* Gem */
+     , (13, 8, 45318) /* Scroll of Shield Mastery Other III */
+     , (13, 8, 2460) /* Mana Draught */
+     , (13, 8, 3899) /* Flaming Tofun */
+     , (13, 8, 8329) /* Lead Pea */
+     , (13, 8, 311) /* Heavy Crossbow */
+     , (13, 8, 43294) /* Scroll of Corruption */
+     , (13, 8, 2419) /* Gem */;
+

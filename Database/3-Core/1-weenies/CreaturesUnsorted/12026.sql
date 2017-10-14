@@ -41,3 +41,17 @@ VALUES (12026, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12026, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12026, 8, 105) /* Studded Leather Sleeves */
+     , (12026, 8, 23537) /* Osseous Mace */
+     , (12026, 8, 42) /* Studded Leather Breastplate */
+     , (12026, 8, 9310) /* A Large Mnemosyne */
+     , (12026, 8, 44855) /* Halved Cloak */
+     , (12026, 8, 31865) /* Circlet */
+     , (12026, 8, 49324) /* Fire Wisp Essence (50) */
+     , (12026, 8, 273) /* Pyreal */
+     , (12026, 8, 7772) /* Trident */
+     , (12026, 8, 112) /* Studded Leather Tassets */;
+

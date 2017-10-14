@@ -54,3 +54,16 @@ VALUES (30883, 1, 16785073)
      , (30883, 6, 16785063)
      , (30883, 14, 16785088);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30883, 8, 150) /* Flagon */
+     , (30883, 8, 3172) /* Scroll of Light Weapon Mastery Self VI */
+     , (30883, 8, 297) /* Ring */
+     , (30883, 8, 30861) /* Banished Point */
+     , (30883, 8, 8946) /* Scroll of Lightning Streak VI */
+     , (30883, 8, 630) /* Gifted Healing Kit */
+     , (30883, 8, 127) /* Pants */
+     , (30883, 8, 25646) /* Long Leather Gauntlets */
+     , (30883, 8, 8147) /* Tusker Head */;
+

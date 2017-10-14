@@ -48,3 +48,20 @@ VALUES (34611, 2, 12) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (34611, 64, 10500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34611, 8, 41486) /* Puzzle Box */
+     , (34611, 8, 43375) /* Scroll of Void Magic Mastery Other VII */
+     , (34611, 8, 31868) /* Signet Crown */
+     , (34611, 8, 2410) /* Gem */
+     , (34611, 8, 624) /* Ring */
+     , (34611, 8, 46884) /* Aura of Hermetic Link Other VII */
+     , (34611, 8, 118) /* Cloth Cap */
+     , (34611, 8, 20244) /* Scroll of Adja's Gift */
+     , (34611, 8, 25650) /* Leather Shorts */
+     , (34611, 8, 273) /* Pyreal */
+     , (34611, 8, 34458) /* Very Mad Cow Token */
+     , (34611, 8, 7798) /* Electric Naginata */
+     , (34611, 8, 2416) /* Gem */;
+

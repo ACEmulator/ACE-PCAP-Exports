@@ -126,17 +126,17 @@ VALUES (42808, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42808, 4, 44397)
-     , (42808, 4, 44586)
-     , (42808, 4, 44583)
-     , (42808, 4, 44587)
-     , (42808, 4, 44657)
-     , (42808, 4, 51222)
-     , (42808, 4, 51223)
-     , (42808, 4, 51224)
-     , (42808, 4, 51225)
-     , (42808, 4, 51226)
-     , (42808, 4, 51227)
-     , (42808, 4, 42979)
-     , (42808, 4, 43022);
+VALUES (42808, 4, 44397) /* Contract for Aerbax's Defeat */
+     , (42808, 4, 44586) /* Contract for Harlune's Diplomacy */
+     , (42808, 4, 44583) /* Contract for Menhir Research */
+     , (42808, 4, 44587) /* Contract for Saving Asheron */
+     , (42808, 4, 44657) /* Contract for Nexus Crawl */
+     , (42808, 4, 51222) /* Contract for Golem Hunters: Mud Golem Sludge Lord */
+     , (42808, 4, 51223) /* Contract for Golem Hunters: Copper Golem Kingpin */
+     , (42808, 4, 51224) /* Contract for Golem Hunters: Glacial Golem Margrave */
+     , (42808, 4, 51225) /* Contract for Golem Hunters: Magma Golem Exarch */
+     , (42808, 4, 51226) /* Contract for Golem Hunters: Coral Golem Viceroy */
+     , (42808, 4, 51227) /* Contract for Golem Hunters: Platinum Golem Mountain King */
+     , (42808, 4, 42979) /* Core Plating Integrator */
+     , (42808, 4, 43022) /* Core Plating Deintegrator */;
 

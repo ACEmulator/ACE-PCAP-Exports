@@ -48,3 +48,52 @@ VALUES (1668, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1668, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1668, 8, 38) /* Studded Leather Bracers */
+     , (1668, 8, 94) /* Diamond Shield */
+     , (1668, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (1668, 8, 414) /* Chainmail Breastplate */
+     , (1668, 8, 44) /* Buckler */
+     , (1668, 8, 628) /* Handy Healing Kit */
+     , (1668, 8, 49366) /* Acid Grievver Essence (50) */
+     , (1668, 8, 2590) /* Baggy Shirt */
+     , (1668, 8, 2547) /* Staff */
+     , (1668, 8, 121) /* Gloves */
+     , (1668, 8, 22442) /* Lightning Dirk */
+     , (1668, 8, 296) /* Crown */
+     , (1668, 8, 307) /* Shortbow */
+     , (1668, 8, 357) /* Tungi */
+     , (1668, 8, 2460) /* Mana Draught */
+     , (1668, 8, 154) /* Goblet */
+     , (1668, 8, 3693) /* Banderling Scalp */
+     , (1668, 8, 339) /* Scimitar */
+     , (1668, 8, 45404) /* Shadow Blade of Flame */
+     , (1668, 8, 25641) /* Leather Cuirass */
+     , (1668, 8, 80) /* Chainmail Leggings */
+     , (1668, 8, 273) /* Pyreal */
+     , (1668, 8, 22168) /* Hefty Walking Cane */
+     , (1668, 8, 49247) /* Fire Zombie Essence (50) */
+     , (1668, 8, 25648) /* Leather Pauldrons */
+     , (1668, 8, 723) /* Studded Leather Cowl */
+     , (1668, 8, 2416) /* Gem */
+     , (1668, 8, 28612) /* Bandana */
+     , (1668, 8, 7825) /* Brown Beans */
+     , (1668, 8, 45433) /* Lightning Khanjar */
+     , (1668, 8, 2413) /* Gem */
+     , (1668, 8, 141) /* Bowl */
+     , (1668, 8, 27331) /* Minor Mana Stone */
+     , (1668, 8, 2418) /* Gem */
+     , (1668, 8, 2420) /* Gem */
+     , (1668, 8, 7787) /* Frost Spiked Club */
+     , (1668, 8, 49421) /* Acid Spectre Essence (50) */
+     , (1668, 8, 20354) /* Scroll of Evaporate Item Magic */
+     , (1668, 8, 130) /* Shirt */
+     , (1668, 8, 63) /* Studded Leather Girth */
+     , (1668, 8, 2594) /* Flared Tunic */
+     , (1668, 8, 132) /* Shoes */
+     , (1668, 8, 353) /* Tachi */
+     , (1668, 8, 350) /* Broad Sword */
+     , (1668, 8, 7771) /* Naginata */;
+

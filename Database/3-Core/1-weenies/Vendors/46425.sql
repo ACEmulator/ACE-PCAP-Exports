@@ -151,17 +151,17 @@ VALUES (46425, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (46425, 4, 46441)
-     , (46425, 4, 46421)
-     , (46425, 4, 46420)
-     , (46425, 4, 46422)
-     , (46425, 4, 46418)
-     , (46425, 4, 46419)
-     , (46425, 4, 46417)
-     , (46425, 4, 46416)
-     , (46425, 4, 53406)
-     , (46425, 4, 53407)
-     , (46425, 4, 46414)
-     , (46425, 4, 46415)
-     , (46425, 4, 46435);
+VALUES (46425, 4, 46441) /* Boxed Augmentation Gem */
+     , (46425, 4, 46421) /* Attribute Reset Certificate */
+     , (46425, 4, 46420) /* Skill Reset Certificate */
+     , (46425, 4, 46422) /* Mastery Reset Certificate */
+     , (46425, 4, 46418) /* Item Spells Certificate */
+     , (46425, 4, 46419) /* Life Spells Certificate */
+     , (46425, 4, 46417) /* Creature Spells Certificate */
+     , (46425, 4, 46416) /* Combat Spells Certificate */
+     , (46425, 4, 53406) /* Ring Spells Certificate */
+     , (46425, 4, 53407) /* Wall Spells Certificate */
+     , (46425, 4, 46414) /* Luminance Certificate */
+     , (46425, 4, 46415) /* Experience Certificate */
+     , (46425, 4, 46435) /* Box Of Ten Promissory Notes */;
 

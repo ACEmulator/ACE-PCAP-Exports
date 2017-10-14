@@ -44,5 +44,5 @@ VALUES (24578, 67113368, 0, 0);
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24578, 2, 311);
+VALUES (24578, 2, 311) /* Heavy Crossbow */;
 

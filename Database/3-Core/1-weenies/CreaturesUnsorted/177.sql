@@ -48,3 +48,24 @@ VALUES (177, 2, 17) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (177, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (177, 8, 2988) /* Scroll of Blade Protection Other II */
+     , (177, 8, 415) /* Chainmail Girth */
+     , (177, 8, 295) /* Bracelet */
+     , (177, 8, 296) /* Crown */
+     , (177, 8, 135) /* Turban */
+     , (177, 8, 121) /* Gloves */
+     , (177, 8, 2415) /* Gem */
+     , (177, 8, 119) /* Cowl */
+     , (177, 8, 20319) /* Scroll of Extinguish Creature Magic Other */
+     , (177, 8, 1737) /* Scroll of Sprint Self */
+     , (177, 8, 312) /* Light Crossbow */
+     , (177, 8, 8329) /* Lead Pea */
+     , (177, 8, 3434) /* Scroll of Mana Mastery Self III */
+     , (177, 8, 3768) /* Flaming Club */
+     , (177, 8, 628) /* Handy Healing Kit */
+     , (177, 8, 2596) /* Doublet */
+     , (177, 8, 53) /* Studded Leather Cuirass */;
+

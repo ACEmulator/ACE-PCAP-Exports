@@ -39,3 +39,32 @@ VALUES (7986, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7986, 67112942, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7986, 8, 38) /* Studded Leather Bracers */
+     , (7986, 8, 27331) /* Minor Mana Stone */
+     , (7986, 8, 8329) /* Lead Pea */
+     , (7986, 8, 141) /* Bowl */
+     , (7986, 8, 354) /* Takuba */
+     , (7986, 8, 273) /* Pyreal */
+     , (7986, 8, 624) /* Ring */
+     , (7986, 8, 2420) /* Gem */
+     , (7986, 8, 148) /* Cup */
+     , (7986, 8, 25642) /* Leather Gauntlets */
+     , (7986, 8, 295) /* Bracelet */
+     , (7986, 8, 297) /* Ring */
+     , (7986, 8, 348) /* Spear */
+     , (7986, 8, 44976) /* Hood */
+     , (7986, 8, 101) /* Chainmail Sleeves */
+     , (7986, 8, 2434) /* Lesser Mana Stone */
+     , (7986, 8, 118) /* Cloth Cap */
+     , (7986, 8, 2418) /* Gem */
+     , (7986, 8, 3233) /* Scroll of Deception Ineptitude II */
+     , (7986, 8, 254) /* Stoup */
+     , (7986, 8, 161) /* Mug */
+     , (7986, 8, 1584) /* Scroll of Invulnerability Other */
+     , (7986, 8, 414) /* Chainmail Breastplate */
+     , (7986, 8, 2416) /* Gem */
+     , (7986, 8, 40624) /* Acid Quadrelle */;
+

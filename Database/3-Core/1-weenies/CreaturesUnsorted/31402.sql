@@ -114,3 +114,72 @@ VALUES (31402, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31402, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31402, 8, 142) /* Chalice */
+     , (31402, 8, 31812) /* Slashing Slingshot */
+     , (31402, 8, 20565) /* Scroll of Nuhmudira's Boon */
+     , (31402, 8, 29243) /* Piercing Bow */
+     , (31402, 8, 112) /* Studded Leather Tassets */
+     , (31402, 8, 2421) /* Gem */
+     , (31402, 8, 31394) /* Circle of Raven Might */
+     , (31402, 8, 2594) /* Flared Tunic */
+     , (31402, 8, 6046) /* Amuli Coat */
+     , (31402, 8, 22440) /* Dirk */
+     , (31402, 8, 37088) /* Invitation to the Battle Burrows */
+     , (31402, 8, 2412) /* Gem */
+     , (31402, 8, 413) /* Chainmail Bracers */
+     , (31402, 8, 154) /* Goblet */
+     , (31402, 8, 20411) /* Aura of Cragstone's Will */
+     , (31402, 8, 2409) /* Gem */
+     , (31402, 8, 20412) /* Scroll of Inferno's Bane */
+     , (31402, 8, 2411) /* Gem */
+     , (31402, 8, 133) /* Slippers */
+     , (31402, 8, 295) /* Bracelet */
+     , (31402, 8, 623) /* Heavy Necklace */
+     , (31402, 8, 40701) /* Covenant Helm */
+     , (31402, 8, 41484) /* Goggles */
+     , (31402, 8, 621) /* Heavy Bracelet */
+     , (31402, 8, 31791) /* Flaming Stick */
+     , (31402, 8, 20551) /* Scroll of Ar-Pei's Blessing */
+     , (31402, 8, 121) /* Gloves */
+     , (31402, 8, 135) /* Turban */
+     , (31402, 8, 30823) /* Broken Black Marrow Key */
+     , (31402, 8, 20463) /* Scroll of Evisceration */
+     , (31402, 8, 20562) /* Scroll of Celdiseth's Blessing */
+     , (31402, 8, 31803) /* Frost Compound Bow */
+     , (31402, 8, 49432) /* Lightning Spectre Essence (150) */
+     , (31402, 8, 31767) /* Flaming Lugian Hammer */
+     , (31402, 8, 296) /* Crown */
+     , (31402, 8, 22444) /* Frost Dirk */
+     , (31402, 8, 84) /* Studded  Leggings */
+     , (31402, 8, 7791) /* Frost Trident */
+     , (31402, 8, 49270) /* Lightning Elemental Essence (100) */
+     , (31402, 8, 94) /* Diamond Shield */
+     , (31402, 8, 43326) /* Scroll of Destructive Curse VII */
+     , (31402, 8, 20593) /* Scroll of Gravity Well */
+     , (31402, 8, 29254) /* Electric Atlatl */
+     , (31402, 8, 40700) /* Covenant Greaves */
+     , (31402, 8, 40714) /* Covenant Tassets */
+     , (31402, 8, 20416) /* Aura of Elysa's Sight */
+     , (31402, 8, 42635) /* Aetheria */
+     , (31402, 8, 31810) /* Frost Compound Crossbow */
+     , (31402, 8, 20500) /* Scroll of Aliester's Blessing */
+     , (31402, 8, 31788) /* Stick */
+     , (31402, 8, 134) /* Tunic */
+     , (31402, 8, 31794) /* Lancet */
+     , (31402, 8, 49376) /* Lightning Grievver Essence (125) */
+     , (31402, 8, 624) /* Ring */
+     , (31402, 8, 31809) /* Fire Compound Crossbow */
+     , (31402, 8, 40635) /* Tetsubo */
+     , (31402, 8, 2410) /* Gem */
+     , (31402, 8, 30612) /* Lightning Knuckles */
+     , (31402, 8, 31820) /* Acid Baton */
+     , (31402, 8, 6004) /* Koujia Leggings */
+     , (31402, 8, 28608) /* Poet's Shirt */
+     , (31402, 8, 22442) /* Lightning Dirk */
+     , (31402, 8, 31867) /* Diadem */
+     , (31402, 8, 150) /* Flagon */
+     , (31402, 8, 20515) /* Scroll of Adja's Blessing */;
+

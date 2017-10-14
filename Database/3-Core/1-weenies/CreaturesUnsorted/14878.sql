@@ -45,3 +45,56 @@ VALUES (14878, 2, 62) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14878, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14878, 8, 142) /* Chalice */
+     , (14878, 8, 273) /* Pyreal */
+     , (14878, 8, 621) /* Heavy Bracelet */
+     , (14878, 8, 8331) /* Silver Pea */
+     , (14878, 8, 20257) /* Scroll of Mind Blossom */
+     , (14878, 8, 27330) /* Moderate Mana Stone */
+     , (14878, 8, 80) /* Chainmail Leggings */
+     , (14878, 8, 354) /* Takuba */
+     , (14878, 8, 2436) /* Greater Mana Stone */
+     , (14878, 8, 45419) /* Flaming Knife */
+     , (14878, 8, 24477) /* Sturdy Steel Key */
+     , (14878, 8, 31866) /* Coronet */
+     , (14878, 8, 14882) /* Ring of a Singularity Key */
+     , (14878, 8, 150) /* Flagon */
+     , (14878, 8, 5901) /* Kasa */
+     , (14878, 8, 20487) /* Scroll of Decrepitude's Grasp */
+     , (14878, 8, 2590) /* Baggy Shirt */
+     , (14878, 8, 28610) /* Loafers */
+     , (14878, 8, 41483) /* Compass */
+     , (14878, 8, 134) /* Tunic */
+     , (14878, 8, 27328) /* Major Mana Stone */
+     , (14878, 8, 7897) /* Steel Toed Boots */
+     , (14878, 8, 2404) /* Gem */
+     , (14878, 8, 28628) /* Diforsa Breastplate */
+     , (14878, 8, 624) /* Ring */
+     , (14878, 8, 53) /* Studded Leather Cuirass */
+     , (14878, 8, 31781) /* Electric Spine Glaive */
+     , (14878, 8, 20429) /* Scroll of Vagabond's Gift */
+     , (14878, 8, 103) /* Platemail Sleeves */
+     , (14878, 8, 2407) /* Gem */
+     , (14878, 8, 44977) /* Lyceum Hood */
+     , (14878, 8, 31797) /* Flaming Lancet */
+     , (14878, 8, 31802) /* Fire Compound Bow */
+     , (14878, 8, 30602) /* Lightning Stiletto */
+     , (14878, 8, 2594) /* Flared Tunic */
+     , (14878, 8, 40620) /* Lightning Spadone */
+     , (14878, 8, 2403) /* Gem */
+     , (14878, 8, 42) /* Studded Leather Breastplate */
+     , (14878, 8, 27235) /* Scroll of Eradicate Item Magic */
+     , (14878, 8, 29252) /* Acid Atlatl */
+     , (14878, 8, 7788) /* Fire Spiked Club */
+     , (14878, 8, 2411) /* Gem */
+     , (14878, 8, 49339) /* Acid Moar Essence (80) */
+     , (14878, 8, 101) /* Chainmail Sleeves */
+     , (14878, 8, 339) /* Scimitar */
+     , (14878, 8, 2424) /* Gem */
+     , (14878, 8, 28608) /* Poet's Shirt */
+     , (14878, 8, 20441) /* Scroll of Sizzling Fury */
+     , (14878, 8, 22578) /* Bunch of Nanners */;
+

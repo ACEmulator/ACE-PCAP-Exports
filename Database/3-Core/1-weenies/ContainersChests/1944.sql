@@ -49,3 +49,20 @@ VALUES (1944, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1944, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1944, 8, 49261) /* Acid Elemental Essence (50) */
+     , (1944, 8, 31785) /* Acid Claw */
+     , (1944, 8, 3882) /* Stormwood Sword */
+     , (1944, 8, 327) /* Ken */
+     , (1944, 8, 49380) /* Fire Grievver Essence (50) */
+     , (1944, 8, 154) /* Goblet */
+     , (1944, 8, 30603) /* Flaming Stiletto */
+     , (1944, 8, 25646) /* Long Leather Gauntlets */
+     , (1944, 8, 40760) /* Nodachi */
+     , (1944, 8, 297) /* Ring */
+     , (1944, 8, 311) /* Heavy Crossbow */
+     , (1944, 8, 3803) /* Lightning Jitte */
+     , (1944, 8, 141) /* Bowl */;
+

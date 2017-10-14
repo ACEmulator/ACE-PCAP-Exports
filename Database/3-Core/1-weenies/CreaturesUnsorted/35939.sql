@@ -64,3 +64,10 @@ VALUES (35939, 2, 8) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35939, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35939, 8, 134) /* Tunic */
+     , (35939, 8, 2367) /* Gorget */
+     , (35939, 8, 29249) /* Frost Crossbow */;
+

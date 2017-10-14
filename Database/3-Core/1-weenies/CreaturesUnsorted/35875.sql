@@ -49,3 +49,17 @@ VALUES (35875, 2, 92) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35875, 64, 20250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35875, 8, 49431) /* Lightning Spectre Essence (125) */
+     , (35875, 8, 22164) /* Acid Quarter Staff */
+     , (35875, 8, 45338) /* Scroll of Sneak Attack Ineptitude Other VII */
+     , (35875, 8, 35876) /* Coruscating Olthoi Scent Gland */
+     , (35875, 8, 49370) /* Acid Grievver Essence (150) */
+     , (35875, 8, 22165) /* Lightning Quarter Staff */
+     , (35875, 8, 40620) /* Lightning Spadone */
+     , (35875, 8, 59) /* Studded Leather Gauntlets */
+     , (35875, 8, 2592) /* Puffy Tunic */
+     , (35875, 8, 623) /* Heavy Necklace */;
+

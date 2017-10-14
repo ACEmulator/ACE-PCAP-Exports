@@ -49,3 +49,14 @@ VALUES (4805, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4805, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4805, 8, 2423) /* Gem */
+     , (4805, 8, 5894) /* Fez */
+     , (4805, 8, 6004) /* Koujia Leggings */
+     , (4805, 8, 40697) /* Covenant Breastplate */
+     , (4805, 8, 30746) /* Dart Flinger */
+     , (4805, 8, 45423) /* Lightning Dagger */
+     , (4805, 8, 27323) /* Mana Tonic */;
+

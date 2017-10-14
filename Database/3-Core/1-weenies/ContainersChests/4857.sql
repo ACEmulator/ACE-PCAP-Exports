@@ -49,3 +49,9 @@ VALUES (4857, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4857, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4857, 8, 111) /* Scalemail Tassets */
+     , (4857, 8, 103) /* Platemail Sleeves */;
+

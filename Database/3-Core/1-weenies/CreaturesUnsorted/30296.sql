@@ -91,3 +91,11 @@ VALUES (30296, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30296, 64, 473) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30296, 8, 2597) /* Flared Pants */
+     , (30296, 8, 273) /* Pyreal */
+     , (30296, 8, 28622) /* Tenassa Leggings */
+     , (30296, 8, 40524) /* Contact Instructions */;
+

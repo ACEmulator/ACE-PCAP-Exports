@@ -52,3 +52,18 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (1238, 2, 0) /* OPEN_BOOL */
      , (1238, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1238, 8, 7940) /* Empty Flask */
+     , (1238, 8, 134) /* Tunic */
+     , (1238, 8, 254) /* Stoup */
+     , (1238, 8, 49345) /* Lightning Moar Essence (50) */
+     , (1238, 8, 49324) /* Fire Wisp Essence (50) */
+     , (1238, 8, 163) /* Ornamental Bowl */
+     , (1238, 8, 31868) /* Signet Crown */
+     , (1238, 8, 2399) /* Gem */
+     , (1238, 8, 161) /* Mug */
+     , (1238, 8, 621) /* Heavy Bracelet */
+     , (1238, 8, 2599) /* Trousers */;
+

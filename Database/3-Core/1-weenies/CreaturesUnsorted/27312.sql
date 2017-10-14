@@ -66,3 +66,30 @@ VALUES (27312, 2, 8) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27312, 64, 760) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27312, 8, 294) /* Amulet */
+     , (27312, 8, 45314) /* Scroll of Shield Ineptitude Other VII */
+     , (27312, 8, 154) /* Goblet */
+     , (27312, 8, 49311) /* Acid Wisp Essence (80) */
+     , (27312, 8, 2399) /* Gem */
+     , (27312, 8, 28607) /* Lace Shirt */
+     , (27312, 8, 27314) /* Rusted Brass Key */
+     , (27312, 8, 2409) /* Gem */
+     , (27312, 8, 142) /* Chalice */
+     , (27312, 8, 2424) /* Gem */
+     , (27312, 8, 27233) /* Scroll of Eradicate Creature Magic Other */
+     , (27312, 8, 2411) /* Gem */
+     , (27312, 8, 20532) /* Scroll of Unsteady Hands */
+     , (27312, 8, 99) /* Studded Leather Shirt */
+     , (27312, 8, 150) /* Flagon */
+     , (27312, 8, 2396) /* Gem */
+     , (27312, 8, 413) /* Chainmail Bracers */
+     , (27312, 8, 29204) /* Tusker Spit */
+     , (27312, 8, 2421) /* Gem */
+     , (27312, 8, 118) /* Cloth Cap */
+     , (27312, 8, 163) /* Ornamental Bowl */
+     , (27312, 8, 2422) /* Gem */
+     , (27312, 8, 2472) /* Wand */;
+

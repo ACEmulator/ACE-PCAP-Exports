@@ -48,3 +48,15 @@ VALUES (29410, 2, 83) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (29410, 64, 680) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29410, 8, 20515) /* Scroll of Adja's Blessing */
+     , (29410, 8, 3756) /* Flaming Hand Axe */
+     , (29410, 8, 42752) /* Haebrean Greaves */
+     , (29410, 8, 2409) /* Gem */
+     , (29410, 8, 154) /* Goblet */
+     , (29410, 8, 2599) /* Trousers */
+     , (29410, 8, 49285) /* Acid K'nath Essence (125) */
+     , (29410, 8, 40) /* Platemail Breastplate */;
+

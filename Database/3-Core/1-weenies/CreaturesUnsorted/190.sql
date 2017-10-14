@@ -121,3 +121,33 @@ VALUES (190, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (190, 128, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (190, 256, 320) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (190, 8, 96) /* Chainmail Shirt */
+     , (190, 8, 3176) /* Scroll of Missile Weapon Ineptitude Other V */
+     , (190, 8, 7897) /* Steel Toed Boots */
+     , (190, 8, 8328) /* Iron Pea */
+     , (190, 8, 48959) /* Fire Elemental Essence (50) */
+     , (190, 8, 630) /* Gifted Healing Kit */
+     , (190, 8, 55) /* Chainmail Gauntlets */
+     , (190, 8, 7798) /* Electric Naginata */
+     , (190, 8, 20542) /* Scroll of Yoshi's Boon */
+     , (190, 8, 339) /* Scimitar */
+     , (190, 8, 2435) /* Mana Stone */
+     , (190, 8, 45876) /* Scarlet Red Letter */
+     , (190, 8, 28633) /* Diforsa Girth */
+     , (190, 8, 31865) /* Circlet */
+     , (190, 8, 545) /* Reliable Lockpick */
+     , (190, 8, 2771) /* Scroll of Acid Lure VI */
+     , (190, 8, 295) /* Bracelet */
+     , (190, 8, 2419) /* Gem */
+     , (190, 8, 20532) /* Scroll of Unsteady Hands */
+     , (190, 8, 130) /* Shirt */
+     , (190, 8, 273) /* Pyreal */
+     , (190, 8, 3056) /* Scroll of Lightning Protection Self V */
+     , (190, 8, 87) /* Platemail Pauldrons */
+     , (190, 8, 93) /* Round Shield */
+     , (190, 8, 49247) /* Fire Zombie Essence (50) */
+     , (190, 8, 31788) /* Stick */;
+

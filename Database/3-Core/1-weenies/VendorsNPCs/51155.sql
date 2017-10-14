@@ -122,13 +122,13 @@ VALUES (51155, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (51155, 4, 49782)
-     , (51155, 4, 49783)
-     , (51155, 4, 49784)
-     , (51155, 4, 49785)
-     , (51155, 4, 49786)
-     , (51155, 4, 49787)
-     , (51155, 4, 49788)
-     , (51155, 4, 49789)
-     , (51155, 4, 49772);
+VALUES (51155, 4, 49782) /* Shadow Bracers */
+     , (51155, 4, 49783) /* Shadow Breastplate */
+     , (51155, 4, 49784) /* Shadow Gauntlets */
+     , (51155, 4, 49785) /* Shadow Girth */
+     , (51155, 4, 49786) /* Shadow Greaves */
+     , (51155, 4, 49787) /* Shadow Helm */
+     , (51155, 4, 49788) /* Shadow Pauldrons */
+     , (51155, 4, 49789) /* Shadow Sollerets */
+     , (51155, 4, 49772) /* Shadow Tassets */;
 

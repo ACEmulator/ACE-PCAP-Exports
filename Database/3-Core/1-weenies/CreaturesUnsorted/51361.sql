@@ -48,3 +48,18 @@ VALUES (51361, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51361, 64, 3000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51361, 8, 624) /* Ring */
+     , (51361, 8, 2548) /* Sceptre */
+     , (51361, 8, 41057) /* Great Star Mace */
+     , (51361, 8, 20464) /* Scroll of Rending Wind */
+     , (51361, 8, 22164) /* Acid Quarter Staff */
+     , (51361, 8, 20407) /* Scroll of Pacification */
+     , (51361, 8, 29264) /* Piercing Sceptre */
+     , (51361, 8, 121) /* Gloves */
+     , (51361, 8, 25661) /* Leather Boots */
+     , (51361, 8, 20414) /* Scroll of Gelidite's Bane */
+     , (51361, 8, 31769) /* Lugian Axe */;
+

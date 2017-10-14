@@ -50,3 +50,42 @@ VALUES (23607, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (23607, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23607, 8, 49310) /* Acid Wisp Essence (50) */
+     , (23607, 8, 25637) /* Leather Bracers */
+     , (23607, 8, 49435) /* Fire Spectre Essence (50) */
+     , (23607, 8, 273) /* Pyreal */
+     , (23607, 8, 25651) /* Leather Sleeves */
+     , (23607, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (23607, 8, 48972) /* Acid Zombie Essence (50) */
+     , (23607, 8, 2430) /* Gem */
+     , (23607, 8, 37) /* Scalemail Bracers */
+     , (23607, 8, 28610) /* Loafers */
+     , (23607, 8, 295) /* Bracelet */
+     , (23607, 8, 96) /* Chainmail Shirt */
+     , (23607, 8, 45101) /* Lightning Epee */
+     , (23607, 8, 49538) /* Frost Phyntos Wasp Essence (50) */
+     , (23607, 8, 31764) /* Lugian Hammer */
+     , (23607, 8, 44840) /* Cloak */
+     , (23607, 8, 2427) /* Gem */
+     , (23607, 8, 49359) /* Frost Moar Essence (50) */
+     , (23607, 8, 2434) /* Lesser Mana Stone */
+     , (23607, 8, 2604) /* Wide Breeches */
+     , (23607, 8, 89) /* Studded Leather Pauldrons */
+     , (23607, 8, 5959) /* Scroll of Cooking Mastery Self IV */
+     , (23607, 8, 8328) /* Iron Pea */
+     , (23607, 8, 25645) /* Leather Leggings */
+     , (23607, 8, 22159) /* Acid Nabut */
+     , (23607, 8, 3820) /* Flaming Katar */
+     , (23607, 8, 28632) /* Diforsa Gauntlets */
+     , (23607, 8, 49345) /* Lightning Moar Essence (50) */
+     , (23607, 8, 49387) /* Frost Grievver Essence (50) */
+     , (23607, 8, 49303) /* Frost K'nath Essence (50) */
+     , (23607, 8, 30616) /* Arbalest */
+     , (23607, 8, 25661) /* Leather Boots */
+     , (23607, 8, 45240) /* Scroll of Dirty Fighting Ineptitude Other V */
+     , (23607, 8, 12463) /* Atlatl */
+     , (23607, 8, 25642) /* Leather Gauntlets */;
+

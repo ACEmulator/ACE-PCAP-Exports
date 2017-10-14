@@ -32,3 +32,17 @@ VALUES (14428, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (14428, 19, True) /* ATTACKABLE_BOOL */
      , (14428, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14428, 8, 295) /* Bracelet */
+     , (14428, 8, 14438) /* Menacet's Orders */
+     , (14428, 8, 20607) /* Scroll of Gift of Vitality */
+     , (14428, 8, 8328) /* Iron Pea */
+     , (14428, 8, 45266) /* Scroll of Dual Wield Ineptitude Other VII */
+     , (14428, 8, 416) /* Chainmail Pauldrons */
+     , (14428, 8, 622) /* Necklace */
+     , (14428, 8, 132) /* Shoes */
+     , (14428, 8, 127) /* Pants */
+     , (14428, 8, 49317) /* Lightning Wisp Essence (50) */;
+

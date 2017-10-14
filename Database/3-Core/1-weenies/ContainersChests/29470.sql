@@ -53,3 +53,13 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (29470, 2, 0) /* OPEN_BOOL */
      , (29470, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29470, 8, 21154) /* Covenant Girth */
+     , (29470, 8, 3916) /* Frost Yari */
+     , (29470, 8, 311) /* Heavy Crossbow */
+     , (29470, 8, 514) /* Excellent Lockpick */
+     , (29470, 8, 29475) /* Seven Habits of Effective Adventurers */
+     , (29470, 8, 29474) /* Oswald's Prison Journal */;
+

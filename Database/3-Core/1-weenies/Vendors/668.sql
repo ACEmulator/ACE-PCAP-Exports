@@ -128,21 +128,21 @@ VALUES (668, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (668, 4, 4190)
-     , (668, 4, 314)
-     , (668, 4, 316)
-     , (668, 4, 303)
-     , (668, 4, 331)
-     , (668, 4, 22168)
-     , (668, 4, 352)
-     , (668, 4, 348)
-     , (668, 4, 315)
-     , (668, 4, 2621)
-     , (668, 4, 2622)
-     , (668, 4, 2623);
+VALUES (668, 4, 4190) /* Cestus */
+     , (668, 4, 314) /* Dagger */
+     , (668, 4, 316) /* Throwing Dart */
+     , (668, 4, 303) /* Hand Axe */
+     , (668, 4, 331) /* Mace */
+     , (668, 4, 22168) /* Hefty Walking Cane */
+     , (668, 4, 352) /* Short Sword */
+     , (668, 4, 348) /* Spear */
+     , (668, 4, 315) /* Throwing Dagger */
+     , (668, 4, 2621) /* Trade Note (100) */
+     , (668, 4, 2622) /* Trade Note (500) */
+     , (668, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (668, 2, 352);
+VALUES (668, 2, 352) /* Short Sword */;
 

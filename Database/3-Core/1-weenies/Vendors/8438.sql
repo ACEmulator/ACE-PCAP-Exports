@@ -126,16 +126,16 @@ VALUES (8438, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (8438, 4, 166)
-     , (8438, 4, 262)
-     , (8438, 4, 4763)
-     , (8438, 4, 264)
-     , (8438, 4, 547)
-     , (8438, 4, 5758)
-     , (8438, 4, 4761)
-     , (8438, 4, 4746)
-     , (8438, 4, 14779)
-     , (8438, 4, 4754)
-     , (8438, 4, 7823)
-     , (8438, 4, 4757);
+VALUES (8438, 4, 166) /* Sack */
+     , (8438, 4, 262) /* Chicken */
+     , (8438, 4, 4763) /* Honey */
+     , (8438, 4, 264) /* Grapes */
+     , (8438, 4, 547) /* Brimstone-cap Mushroom */
+     , (8438, 4, 5758) /* Carrot */
+     , (8438, 4, 4761) /* Flour */
+     , (8438, 4, 4746) /* Water */
+     , (8438, 4, 14779) /* Cookie Cutter */
+     , (8438, 4, 4754) /* Baking Pan */
+     , (8438, 4, 7823) /* Heavy Grinder */
+     , (8438, 4, 4757) /* Carving Knife */;
 

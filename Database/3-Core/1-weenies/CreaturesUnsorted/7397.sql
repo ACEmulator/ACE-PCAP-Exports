@@ -48,3 +48,19 @@ VALUES (7397, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7397, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7397, 8, 29265) /* Winter Orb */
+     , (7397, 8, 2403) /* Gem */
+     , (7397, 8, 154) /* Goblet */
+     , (7397, 8, 621) /* Heavy Bracelet */
+     , (7397, 8, 20521) /* Scroll of Finesse Weapon Mastery Self VII */
+     , (7397, 8, 30612) /* Lightning Knuckles */
+     , (7397, 8, 7398) /* Laboratory Key */
+     , (7397, 8, 2421) /* Gem */
+     , (7397, 8, 112) /* Studded Leather Tassets */
+     , (7397, 8, 27330) /* Moderate Mana Stone */
+     , (7397, 8, 121) /* Gloves */
+     , (7397, 8, 311) /* Heavy Crossbow */;
+

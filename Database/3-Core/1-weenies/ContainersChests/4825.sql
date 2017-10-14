@@ -49,3 +49,11 @@ VALUES (4825, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4825, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4825, 8, 20640) /* Royal Atlatl */
+     , (4825, 8, 22158) /* Jo */
+     , (4825, 8, 624) /* Ring */
+     , (4825, 8, 22168) /* Hefty Walking Cane */;
+

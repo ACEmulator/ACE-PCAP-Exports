@@ -93,3 +93,18 @@ VALUES (43271, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43271, 64, 150000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43271, 8, 30591) /* Partizan */
+     , (43271, 8, 20490) /* Scroll of Battlemage's Blessing */
+     , (43271, 8, 29263) /* Frost Sceptre */
+     , (43271, 8, 21157) /* Covenant Pauldrons */
+     , (43271, 8, 149) /* Ewer */
+     , (43271, 8, 2599) /* Trousers */
+     , (43271, 8, 31820) /* Acid Baton */
+     , (43271, 8, 45314) /* Scroll of Shield Ineptitude Other VII */
+     , (43271, 8, 2410) /* Gem */
+     , (43271, 8, 27221) /* Lorica Breastplate */
+     , (43271, 8, 22123) /* Empyrean Robe */;
+

@@ -53,3 +53,15 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (7889, 2, 0) /* OPEN_BOOL */
      , (7889, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7889, 8, 41488) /* Top */
+     , (7889, 8, 2435) /* Mana Stone */
+     , (7889, 8, 3341) /* Scroll of Jumping Mastery Self V */
+     , (7889, 8, 273) /* Pyreal */
+     , (7889, 8, 8329) /* Lead Pea */
+     , (7889, 8, 121) /* Gloves */
+     , (7889, 8, 8328) /* Iron Pea */
+     , (7889, 8, 2430) /* Gem */;
+

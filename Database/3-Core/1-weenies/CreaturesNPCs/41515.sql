@@ -136,6 +136,6 @@ VALUES (41515, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41515, 2, 25547)
-     , (41515, 2, 351);
+VALUES (41515, 2, 25547) /* Greater Olthoi Shield */
+     , (41515, 2, 351) /* Long Sword */;
 

@@ -49,3 +49,41 @@ VALUES (27243, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27243, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27243, 8, 296) /* Crown */
+     , (27243, 8, 93) /* Round Shield */
+     , (27243, 8, 132) /* Shoes */
+     , (27243, 8, 7940) /* Empty Flask */
+     , (27243, 8, 2596) /* Doublet */
+     , (27243, 8, 312) /* Light Crossbow */
+     , (27243, 8, 2414) /* Gem */
+     , (27243, 8, 121) /* Gloves */
+     , (27243, 8, 326) /* Katar */
+     , (27243, 8, 101) /* Chainmail Sleeves */
+     , (27243, 8, 141) /* Bowl */
+     , (27243, 8, 2587) /* Shirt */
+     , (27243, 8, 2602) /* Loose Breeches */
+     , (27243, 8, 148) /* Cup */
+     , (27243, 8, 149) /* Ewer */
+     , (27243, 8, 59) /* Studded Leather Gauntlets */
+     , (27243, 8, 3273) /* Scroll of Healing Mastery Other II */
+     , (27243, 8, 45325) /* Scroll of Shield Mastery Self II */
+     , (27243, 8, 116) /* Studded Leather Boots */
+     , (27243, 8, 161) /* Mug */
+     , (27243, 8, 31783) /* Frost Claw */
+     , (27243, 8, 28610) /* Loafers */
+     , (27243, 8, 294) /* Amulet */
+     , (27243, 8, 168) /* Tankard */
+     , (27243, 8, 513) /* Plain Lockpick */
+     , (27243, 8, 5944) /* Scroll of Cooking Ineptitude Other */
+     , (27243, 8, 46878) /* Aura of Swift Killer Other II */
+     , (27243, 8, 27326) /* Stamina Tincture */
+     , (27243, 8, 307) /* Shortbow */
+     , (27243, 8, 254) /* Stoup */
+     , (27243, 8, 413) /* Chainmail Bracers */
+     , (27243, 8, 27331) /* Minor Mana Stone */
+     , (27243, 8, 44975) /* Hood */
+     , (27243, 8, 91) /* Kite Shield */;
+

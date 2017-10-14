@@ -86,3 +86,11 @@ VALUES (45198, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (45198, 64, 150250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (45198, 8, 623) /* Heavy Necklace */
+     , (45198, 8, 9229) /* Treated Healing Kit */
+     , (45198, 8, 27328) /* Major Mana Stone */
+     , (45198, 8, 45200) /* Corrupted Spectral Page */;
+

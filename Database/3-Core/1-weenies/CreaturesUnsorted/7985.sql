@@ -48,3 +48,49 @@ VALUES (7985, 2, 45) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7985, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7985, 8, 31784) /* Claw */
+     , (7985, 8, 273) /* Pyreal */
+     , (7985, 8, 38) /* Studded Leather Bracers */
+     , (7985, 8, 8329) /* Lead Pea */
+     , (7985, 8, 3219) /* Scroll of Finesse Weapon Ineptitude Other III */
+     , (7985, 8, 68) /* Studded Leather Greaves */
+     , (7985, 8, 27331) /* Minor Mana Stone */
+     , (7985, 8, 2415) /* Gem */
+     , (7985, 8, 295) /* Bracelet */
+     , (7985, 8, 2434) /* Lesser Mana Stone */
+     , (7985, 8, 10704) /* Small Niffis Shell */
+     , (7985, 8, 2417) /* Gem */
+     , (7985, 8, 124) /* Jerkin */
+     , (7985, 8, 2419) /* Gem */
+     , (7985, 8, 25652) /* Leather Tassets */
+     , (7985, 8, 154) /* Goblet */
+     , (7985, 8, 621) /* Heavy Bracelet */
+     , (7985, 8, 297) /* Ring */
+     , (7985, 8, 5901) /* Kasa */
+     , (7985, 8, 28607) /* Lace Shirt */
+     , (7985, 8, 41486) /* Puzzle Box */
+     , (7985, 8, 25650) /* Leather Shorts */
+     , (7985, 8, 2591) /* Puffy Shirt */
+     , (7985, 8, 45) /* Leather Cap */
+     , (7985, 8, 3818) /* Acid Katar */
+     , (7985, 8, 40764) /* Frost Nodachi */
+     , (7985, 8, 2727) /* Scroll of Revitalize Self II */
+     , (7985, 8, 360) /* Yag */
+     , (7985, 8, 2877) /* Scroll of Strengthen Lock II */
+     , (7985, 8, 2418) /* Gem */
+     , (7985, 8, 311) /* Heavy Crossbow */
+     , (7985, 8, 161) /* Mug */
+     , (7985, 8, 416) /* Chainmail Pauldrons */
+     , (7985, 8, 296) /* Crown */
+     , (7985, 8, 20640) /* Royal Atlatl */
+     , (7985, 8, 25642) /* Leather Gauntlets */
+     , (7985, 8, 294) /* Amulet */
+     , (7985, 8, 25637) /* Leather Bracers */
+     , (7985, 8, 2605) /* Chainmail Greaves */
+     , (7985, 8, 7897) /* Steel Toed Boots */
+     , (7985, 8, 31794) /* Lancet */
+     , (7985, 8, 1844) /* Scroll of Bludgeon Protection Other */;
+

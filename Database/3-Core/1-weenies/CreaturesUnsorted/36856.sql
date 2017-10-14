@@ -45,3 +45,10 @@ VALUES (36856, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36856, 64, 433) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36856, 8, 25637) /* Leather Bracers */
+     , (36856, 8, 20248) /* Scroll of Ogfoot */
+     , (36856, 8, 2592) /* Puffy Tunic */;
+

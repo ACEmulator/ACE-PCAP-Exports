@@ -44,3 +44,10 @@ VALUES (41578, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41578, 64, 365) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41578, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (41578, 8, 84) /* Studded  Leggings */
+     , (41578, 8, 311) /* Heavy Crossbow */;
+

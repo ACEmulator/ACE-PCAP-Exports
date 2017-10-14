@@ -60,3 +60,12 @@ VALUES (25662, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25662, 64, 385) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25662, 8, 163) /* Ornamental Bowl */
+     , (25662, 8, 273) /* Pyreal */
+     , (25662, 8, 27330) /* Moderate Mana Stone */
+     , (25662, 8, 31803) /* Frost Compound Bow */
+     , (25662, 8, 2436) /* Greater Mana Stone */;
+

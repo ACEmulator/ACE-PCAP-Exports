@@ -58,3 +58,15 @@ VALUES (8514, 2, 0) /* OPEN_BOOL */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (8514, 1432) /* FocusOther6_SpellID */;
 
+/* Corpse Treasure List */
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8514, 8, 8530) /* Scroll of Sanctuary Recall */
+     , (8514, 8, 8552) /* The Healer's Heart */
+     , (8514, 8, 8505) /* Damp Scroll */
+     , (8514, 8, 8509) /* Tear-Stained Parchment */
+     , (8514, 8, 130) /* Shirt */
+     , (8514, 8, 8326) /* Copper Pea */;
+

@@ -48,3 +48,18 @@ VALUES (22901, 2, 23) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22901, 64, 8000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22901, 8, 23096) /* Swarthy Mattekar Hide */
+     , (22901, 8, 49369) /* Acid Grievver Essence (125) */
+     , (22901, 8, 150) /* Flagon */
+     , (22901, 8, 142) /* Chalice */
+     , (22901, 8, 42755) /* Haebrean Boots */
+     , (22901, 8, 2404) /* Gem */
+     , (22901, 8, 2412) /* Gem */
+     , (22901, 8, 624) /* Ring */
+     , (22901, 8, 2407) /* Gem */
+     , (22901, 8, 107) /* Sollerets */
+     , (22901, 8, 7787) /* Frost Spiked Club */;
+

@@ -49,3 +49,8 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14545, 0, 16778639)
      , (14545, 1, 16778642);
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14545, 8, 14505) /* Incalescent Bracelet */;
+

@@ -122,43 +122,43 @@ VALUES (2226, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2226, 4, 35)
-     , (2226, 4, 554)
-     , (2226, 4, 413)
-     , (2226, 4, 414)
-     , (2226, 4, 55)
-     , (2226, 4, 415)
-     , (2226, 4, 2605)
-     , (2226, 4, 108)
-     , (2226, 4, 80)
-     , (2226, 4, 416)
-     , (2226, 4, 85)
-     , (2226, 4, 8489)
-     , (2226, 4, 8488)
-     , (2226, 4, 75)
-     , (2226, 4, 76)
-     , (2226, 4, 40)
-     , (2226, 4, 57)
-     , (2226, 4, 61)
-     , (2226, 4, 66)
-     , (2226, 4, 110)
-     , (2226, 4, 82)
-     , (2226, 4, 114)
-     , (2226, 4, 92)
-     , (2226, 4, 95)
-     , (2226, 4, 2621)
-     , (2226, 4, 2622)
-     , (2226, 4, 2623)
-     , (2226, 4, 2624)
-     , (2226, 4, 2625)
-     , (2226, 4, 2626)
-     , (2226, 4, 2627)
-     , (2226, 4, 20628)
-     , (2226, 4, 20629)
-     , (2226, 4, 20630);
+VALUES (2226, 4, 35) /* Chainmail Basinet */
+     , (2226, 4, 554) /* Studded Leather Basinet */
+     , (2226, 4, 413) /* Chainmail Bracers */
+     , (2226, 4, 414) /* Chainmail Breastplate */
+     , (2226, 4, 55) /* Chainmail Gauntlets */
+     , (2226, 4, 415) /* Chainmail Girth */
+     , (2226, 4, 2605) /* Chainmail Greaves */
+     , (2226, 4, 108) /* Chainmail Tassets */
+     , (2226, 4, 80) /* Chainmail Leggings */
+     , (2226, 4, 416) /* Chainmail Pauldrons */
+     , (2226, 4, 85) /* Chainmail Coif */
+     , (2226, 4, 8489) /* Heaume */
+     , (2226, 4, 8488) /* Armet */
+     , (2226, 4, 75) /* Helmet */
+     , (2226, 4, 76) /* Qafiya */
+     , (2226, 4, 40) /* Platemail Breastplate */
+     , (2226, 4, 57) /* Platemail Gauntlets */
+     , (2226, 4, 61) /* Platemail Girth */
+     , (2226, 4, 66) /* Platemail Greaves */
+     , (2226, 4, 110) /* Platemail Tassets */
+     , (2226, 4, 82) /* Platemail Leggings */
+     , (2226, 4, 114) /* Platemail Vambraces */
+     , (2226, 4, 92) /* Large Kite Shield */
+     , (2226, 4, 95) /* Tower Shield */
+     , (2226, 4, 2621) /* Trade Note (100) */
+     , (2226, 4, 2622) /* Trade Note (500) */
+     , (2226, 4, 2623) /* Trade Note (1,000) */
+     , (2226, 4, 2624) /* Trade Note (5,000) */
+     , (2226, 4, 2625) /* Trade Note (10,000) */
+     , (2226, 4, 2626) /* Trade Note (50,000) */
+     , (2226, 4, 2627) /* Trade Note (100,000) */
+     , (2226, 4, 20628) /* Trade Note (150,000) */
+     , (2226, 4, 20629) /* Trade Note (200,000) */
+     , (2226, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2226, 2, 301);
+VALUES (2226, 2, 301) /* Battle Axe */;
 

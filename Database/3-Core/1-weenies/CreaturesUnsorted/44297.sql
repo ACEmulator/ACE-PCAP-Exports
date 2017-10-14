@@ -35,3 +35,12 @@ VALUES (44297, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (44297, 19, True) /* ATTACKABLE_BOOL */
      , (44297, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44297, 8, 44298) /* Broken Stone Tablet */
+     , (44297, 8, 142) /* Chalice */
+     , (44297, 8, 27325) /* Stamina Philtre */
+     , (44297, 8, 20473) /* Scroll of Tusker's Gift */
+     , (44297, 8, 516) /* Peerless Lockpick */;
+

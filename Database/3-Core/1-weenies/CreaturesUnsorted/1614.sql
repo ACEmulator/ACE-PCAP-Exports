@@ -50,3 +50,59 @@ VALUES (1614, 2, 15) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1614, 64, 68) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1614, 8, 2431) /* Gem */
+     , (1614, 8, 263) /* Fish */
+     , (1614, 8, 45121) /* Flaming Hand Wraps */
+     , (1614, 8, 101) /* Chainmail Sleeves */
+     , (1614, 8, 5963) /* Scroll of Fletching Ineptitude Other II */
+     , (1614, 8, 71) /* Chainmail Hauberk */
+     , (1614, 8, 49338) /* Acid Moar Essence (50) */
+     , (1614, 8, 2596) /* Doublet */
+     , (1614, 8, 2414) /* Gem */
+     , (1614, 8, 2883) /* Aura of Swift Killer Self III */
+     , (1614, 8, 41050) /* Frost Pike */
+     , (1614, 8, 628) /* Handy Healing Kit */
+     , (1614, 8, 49421) /* Acid Spectre Essence (50) */
+     , (1614, 8, 3149) /* Scroll of Armor Tinkering Expertise Self III */
+     , (1614, 8, 2457) /* Health Draught */
+     , (1614, 8, 59) /* Studded Leather Gauntlets */
+     , (1614, 8, 25641) /* Leather Cuirass */
+     , (1614, 8, 27331) /* Minor Mana Stone */
+     , (1614, 8, 2601) /* Loose Pants */
+     , (1614, 8, 30613) /* Flaming Knuckles */
+     , (1614, 8, 7940) /* Empty Flask */
+     , (1614, 8, 273) /* Pyreal */
+     , (1614, 8, 168) /* Tankard */
+     , (1614, 8, 2415) /* Gem */
+     , (1614, 8, 622) /* Necklace */
+     , (1614, 8, 25652) /* Leather Tassets */
+     , (1614, 8, 161) /* Mug */
+     , (1614, 8, 513) /* Plain Lockpick */
+     , (1614, 8, 44) /* Buckler */
+     , (1614, 8, 297) /* Ring */
+     , (1614, 8, 49282) /* Acid K'nath Essence (50) */
+     , (1614, 8, 8329) /* Lead Pea */
+     , (1614, 8, 3676) /* Jade Gromnie Tooth */
+     , (1614, 8, 7771) /* Naginata */
+     , (1614, 8, 621) /* Heavy Bracelet */
+     , (1614, 8, 2590) /* Baggy Shirt */
+     , (1614, 8, 2599) /* Trousers */
+     , (1614, 8, 150) /* Flagon */
+     , (1614, 8, 2597) /* Flared Pants */
+     , (1614, 8, 295) /* Bracelet */
+     , (1614, 8, 154) /* Goblet */
+     , (1614, 8, 28608) /* Poet's Shirt */
+     , (1614, 8, 148) /* Cup */
+     , (1614, 8, 28202) /* Durable Gromnie Hide */
+     , (1614, 8, 25650) /* Leather Shorts */
+     , (1614, 8, 243) /* Dinner Plate */
+     , (1614, 8, 25645) /* Leather Leggings */
+     , (1614, 8, 2419) /* Gem */
+     , (1614, 8, 8915) /* Scroll of Acid Streak II */
+     , (1614, 8, 2418) /* Gem */
+     , (1614, 8, 45286) /* Scroll of Recklessness Ineptitude Other III */
+     , (1614, 8, 378) /* Stamina Potion */;
+

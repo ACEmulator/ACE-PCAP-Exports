@@ -41,3 +41,11 @@ VALUES (40787, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40787, 64, 3120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40787, 8, 31818) /* Piercing Slingshot */
+     , (40787, 8, 28622) /* Tenassa Leggings */
+     , (40787, 8, 31769) /* Lugian Axe */
+     , (40787, 8, 40788) /* Progenitor Crystal */;
+

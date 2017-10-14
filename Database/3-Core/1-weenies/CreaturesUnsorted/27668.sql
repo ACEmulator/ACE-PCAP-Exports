@@ -44,3 +44,12 @@ VALUES (27668, 67116650, 1, 48)
      , (27668, 67116641, 200, 8)
      , (27668, 67116641, 208, 48);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27668, 8, 42516) /* Coalesced Mana */
+     , (27668, 8, 2433) /* Gem */
+     , (27668, 8, 49485) /* Encapsulated Spirit */
+     , (27668, 8, 27330) /* Moderate Mana Stone */
+     , (27668, 8, 27687) /* Strong Iron Key */;
+

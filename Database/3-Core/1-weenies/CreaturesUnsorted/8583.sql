@@ -35,3 +35,39 @@ VALUES (8583, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8583, 19, True) /* ATTACKABLE_BOOL */
      , (8583, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8583, 8, 168) /* Tankard */
+     , (8583, 8, 3311) /* Scroll of Item Enchantment Mastery Other V */
+     , (8583, 8, 141) /* Bowl */
+     , (8583, 8, 2399) /* Gem */
+     , (8583, 8, 8328) /* Iron Pea */
+     , (8583, 8, 30558) /* Lightning Hatchet */
+     , (8583, 8, 41485) /* Pocket Watch */
+     , (8583, 8, 91) /* Kite Shield */
+     , (8583, 8, 28621) /* Diforsa Leggings */
+     , (8583, 8, 2412) /* Gem */
+     , (8583, 8, 624) /* Ring */
+     , (8583, 8, 41484) /* Goggles */
+     , (8583, 8, 49435) /* Fire Spectre Essence (50) */
+     , (8583, 8, 297) /* Ring */
+     , (8583, 8, 273) /* Pyreal */
+     , (8583, 8, 25641) /* Leather Cuirass */
+     , (8583, 8, 45876) /* Scarlet Red Letter */
+     , (8583, 8, 339) /* Scimitar */
+     , (8583, 8, 7794) /* Electric Trident */
+     , (8583, 8, 20446) /* Scroll of Outlander's Insolence */
+     , (8583, 8, 29241) /* Fire Bow */
+     , (8583, 8, 49223) /* Lightning Skeleton Bushi Essence (125) */
+     , (8583, 8, 41062) /* Khanda-handled Mace */
+     , (8583, 8, 6005) /* Koujia Sleeves */
+     , (8583, 8, 116) /* Studded Leather Boots */
+     , (8583, 8, 31793) /* Frost Lancet */
+     , (8583, 8, 25648) /* Leather Pauldrons */
+     , (8583, 8, 8331) /* Silver Pea */
+     , (8583, 8, 27330) /* Moderate Mana Stone */
+     , (8583, 8, 31868) /* Signet Crown */
+     , (8583, 8, 22440) /* Dirk */
+     , (8583, 8, 44799) /* Faran Over-robe */;
+

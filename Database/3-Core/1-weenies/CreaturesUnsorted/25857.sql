@@ -45,3 +45,16 @@ VALUES (25857, 2, 53) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25857, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25857, 8, 142) /* Chalice */
+     , (25857, 8, 20466) /* Scroll of Caustic Blessing */
+     , (25857, 8, 2600) /* Pantaloons */
+     , (25857, 8, 41043) /* Lightning Magari Yari */
+     , (25857, 8, 2403) /* Gem */
+     , (25857, 8, 20461) /* Scroll of Cameron's Curse */
+     , (25857, 8, 28617) /* Alduressa Helm */
+     , (25857, 8, 295) /* Bracelet */
+     , (25857, 8, 21154) /* Covenant Girth */;
+

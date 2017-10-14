@@ -53,3 +53,13 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (37411, 2, 0) /* OPEN_BOOL */
      , (37411, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37411, 8, 41044) /* Flaming Magari Yari */
+     , (37411, 8, 2410) /* Gem */
+     , (37411, 8, 37447) /* Huge Tainted Egg */
+     , (37411, 8, 44800) /* Dho Vest and Over-Robe */
+     , (37411, 8, 7897) /* Steel Toed Boots */
+     , (37411, 8, 6047) /* Amuli Leggings */;
+

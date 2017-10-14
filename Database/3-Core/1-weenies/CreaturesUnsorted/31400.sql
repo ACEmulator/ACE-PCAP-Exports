@@ -113,3 +113,84 @@ VALUES (31400, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31400, 64, 680) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31400, 8, 27224) /* Lorica Leggings */
+     , (31400, 8, 3905) /* Acid War Hammer */
+     , (31400, 8, 3939) /* Acid Morning Star */
+     , (31400, 8, 20599) /* Scroll of Eye of the Grunt */
+     , (31400, 8, 2410) /* Gem */
+     , (31400, 8, 71) /* Chainmail Hauberk */
+     , (31400, 8, 7768) /* Spiked Club */
+     , (31400, 8, 31815) /* Electric Slingshot */
+     , (31400, 8, 29248) /* Fire Crossbow */
+     , (31400, 8, 104) /* Scalemail Sleeves */
+     , (31400, 8, 2412) /* Gem */
+     , (31400, 8, 3812) /* Flaming Kaskara */
+     , (31400, 8, 43052) /* Knorr Academy Pauldrons */
+     , (31400, 8, 20553) /* Scroll of Harlune's Boon */
+     , (31400, 8, 149) /* Ewer */
+     , (31400, 8, 163) /* Ornamental Bowl */
+     , (31400, 8, 2425) /* Gem */
+     , (31400, 8, 41484) /* Goggles */
+     , (31400, 8, 20515) /* Scroll of Adja's Blessing */
+     , (31400, 8, 29243) /* Piercing Bow */
+     , (31400, 8, 40707) /* Covenant Breastplate */
+     , (31400, 8, 31760) /* Acid Dericost Blade */
+     , (31400, 8, 45282) /* Scroll of Dual Wield Mastery Self VII */
+     , (31400, 8, 20411) /* Aura of Cragstone's Will */
+     , (31400, 8, 28620) /* Alduressa Leggings */
+     , (31400, 8, 121) /* Gloves */
+     , (31400, 8, 49349) /* Lightning Moar Essence (150) */
+     , (31400, 8, 133) /* Slippers */
+     , (31400, 8, 20463) /* Scroll of Evisceration */
+     , (31400, 8, 49243) /* Lightning Zombie Essence (125) */
+     , (31400, 8, 45274) /* Scroll of Dual Wield Mastery Other VII */
+     , (31400, 8, 621) /* Heavy Bracelet */
+     , (31400, 8, 31868) /* Signet Crown */
+     , (31400, 8, 48) /* Studded Leather Coat */
+     , (31400, 8, 45411) /* Spada */
+     , (31400, 8, 41070) /* Flaming Shashqa */
+     , (31400, 8, 2597) /* Flared Pants */
+     , (31400, 8, 45415) /* Frost Spada */
+     , (31400, 8, 2588) /* Flared Shirt */
+     , (31400, 8, 31865) /* Circlet */
+     , (31400, 8, 129) /* Sandals */
+     , (31400, 8, 2367) /* Gorget */
+     , (31400, 8, 2603) /* Baggy Breeches */
+     , (31400, 8, 2407) /* Gem */
+     , (31400, 8, 20607) /* Scroll of Gift of Vitality */
+     , (31400, 8, 119) /* Cowl */
+     , (31400, 8, 311) /* Heavy Crossbow */
+     , (31400, 8, 25647) /* Leather Pants */
+     , (31400, 8, 2436) /* Greater Mana Stone */
+     , (31400, 8, 359) /* War Hammer */
+     , (31400, 8, 55) /* Chainmail Gauntlets */
+     , (31400, 8, 624) /* Ring */
+     , (31400, 8, 49278) /* Frost Child Essence (125) */
+     , (31400, 8, 45119) /* Acid Hand Wraps */
+     , (31400, 8, 29256) /* Frost Atlatl */
+     , (31400, 8, 42755) /* Haebrean Boots */
+     , (31400, 8, 49277) /* Frost Elemental Essence (100) */
+     , (31400, 8, 413) /* Chainmail Bracers */
+     , (31400, 8, 31792) /* Frost Stick */
+     , (31400, 8, 20539) /* Scroll of Wrath of Celcynd */
+     , (31400, 8, 2402) /* Gem */
+     , (31400, 8, 49312) /* Acid Wisp Essence (100) */
+     , (31400, 8, 22161) /* Flaming Nabut */
+     , (31400, 8, 20477) /* Scroll of Fiery Boon */
+     , (31400, 8, 20615) /* Scroll of Rushed Recovery */
+     , (31400, 8, 41486) /* Puzzle Box */
+     , (31400, 8, 31769) /* Lugian Axe */
+     , (31400, 8, 93) /* Round Shield */
+     , (31400, 8, 49367) /* Acid Grievver Essence (80) */
+     , (31400, 8, 49257) /* Frost Zombie Essence (125) */
+     , (31400, 8, 89) /* Studded Leather Pauldrons */
+     , (31400, 8, 2411) /* Gem */
+     , (31400, 8, 95) /* Tower Shield */
+     , (31400, 8, 20468) /* Scroll of Boon of the Blade Turner */
+     , (31400, 8, 118) /* Cloth Cap */
+     , (31400, 8, 31864) /* Teardrop Crown */
+     , (31400, 8, 20403) /* Scroll of Olthoi Bait */;
+

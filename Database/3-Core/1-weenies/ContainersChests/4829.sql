@@ -49,3 +49,14 @@ VALUES (4829, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4829, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4829, 8, 94) /* Diamond Shield */
+     , (4829, 8, 27331) /* Minor Mana Stone */
+     , (4829, 8, 273) /* Pyreal */
+     , (4829, 8, 132) /* Shoes */
+     , (4829, 8, 2435) /* Mana Stone */
+     , (4829, 8, 254) /* Stoup */
+     , (4829, 8, 8328) /* Iron Pea */;
+

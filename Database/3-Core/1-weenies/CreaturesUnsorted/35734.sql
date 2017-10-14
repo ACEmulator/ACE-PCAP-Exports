@@ -50,3 +50,18 @@ VALUES (35734, 2, 92) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35734, 64, 815) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35734, 8, 89) /* Studded Leather Pauldrons */
+     , (35734, 8, 297) /* Ring */
+     , (35734, 8, 163) /* Ornamental Bowl */
+     , (35734, 8, 2422) /* Gem */
+     , (35734, 8, 63) /* Studded Leather Girth */
+     , (35734, 8, 624) /* Ring */
+     , (35734, 8, 40698) /* Covenant Gauntlets */
+     , (35734, 8, 31783) /* Frost Claw */
+     , (35734, 8, 57) /* Platemail Gauntlets */
+     , (35734, 8, 30655) /* Drudge Key */
+     , (35734, 8, 121) /* Gloves */;
+

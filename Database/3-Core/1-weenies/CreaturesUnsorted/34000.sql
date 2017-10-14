@@ -39,3 +39,12 @@ VALUES (34000, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34000, 67113360, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34000, 8, 20512) /* Scroll of Morimoto's Blessing */
+     , (34000, 8, 2400) /* Gem */
+     , (34000, 8, 31791) /* Flaming Stick */
+     , (34000, 8, 34001) /* Cartilage of Old Scratchy */
+     , (34000, 8, 30229) /* Dodger's Crystal */;
+

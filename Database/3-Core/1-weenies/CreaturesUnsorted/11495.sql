@@ -48,3 +48,11 @@ VALUES (11495, 2, 55) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11495, 64, 265) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11495, 8, 31865) /* Circlet */
+     , (11495, 8, 20640) /* Royal Atlatl */
+     , (11495, 8, 512) /* Good Lockpick */
+     , (11495, 8, 30625) /* War Bow */;
+

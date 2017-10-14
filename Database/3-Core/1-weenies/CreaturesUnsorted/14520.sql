@@ -61,3 +61,76 @@ VALUES (14520, 0, 16784123)
      , (14520, 11, 16784119)
      , (14520, 12, 16784114);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14520, 8, 294) /* Amulet */
+     , (14520, 8, 8327) /* Gold Pea */
+     , (14520, 8, 6353) /* Pyreal Mote */
+     , (14520, 8, 31865) /* Circlet */
+     , (14520, 8, 27330) /* Moderate Mana Stone */
+     , (14520, 8, 5901) /* Kasa */
+     , (14520, 8, 273) /* Pyreal */
+     , (14520, 8, 2367) /* Gorget */
+     , (14520, 8, 8331) /* Silver Pea */
+     , (14520, 8, 27328) /* Major Mana Stone */
+     , (14520, 8, 40819) /* Acid Corsesca */
+     , (14520, 8, 31774) /* Board with Nail */
+     , (14520, 8, 8326) /* Copper Pea */
+     , (14520, 8, 124) /* Jerkin */
+     , (14520, 8, 2411) /* Gem */
+     , (14520, 8, 45314) /* Scroll of Shield Ineptitude Other VII */
+     , (14520, 8, 30615) /* Acid Knuckles */
+     , (14520, 8, 2436) /* Greater Mana Stone */
+     , (14520, 8, 27224) /* Lorica Leggings */
+     , (14520, 8, 28939) /* Scroll of Arcanum Salvaging VII */
+     , (14520, 8, 25650) /* Leather Shorts */
+     , (14520, 8, 22157) /* Frost Jo */
+     , (14520, 8, 20511) /* Scroll of Morimoto's Boon */
+     , (14520, 8, 8488) /* Armet */
+     , (14520, 8, 118) /* Cloth Cap */
+     , (14520, 8, 20508) /* Scroll of Missile Weapon Mastery Other VII */
+     , (14520, 8, 31868) /* Signet Crown */
+     , (14520, 8, 621) /* Heavy Bracelet */
+     , (14520, 8, 149) /* Ewer */
+     , (14520, 8, 2410) /* Gem */
+     , (14520, 8, 20252) /* Scroll of Belly of Lead */
+     , (14520, 8, 20562) /* Scroll of Celdiseth's Blessing */
+     , (14520, 8, 2421) /* Gem */
+     , (14520, 8, 2599) /* Trousers */
+     , (14520, 8, 134) /* Tunic */
+     , (14520, 8, 2598) /* Baggy Pants */
+     , (14520, 8, 23203) /* Pyreal Golem Heart */
+     , (14520, 8, 243) /* Dinner Plate */
+     , (14520, 8, 71) /* Chainmail Hauberk */
+     , (14520, 8, 28620) /* Alduressa Leggings */
+     , (14520, 8, 84) /* Studded  Leggings */
+     , (14520, 8, 28610) /* Loafers */
+     , (14520, 8, 31811) /* Piercing Compound Crossbow */
+     , (14520, 8, 6876) /* Sturdy Iron Key */
+     , (14520, 8, 127) /* Pants */
+     , (14520, 8, 20594) /* Scroll of Wrath of the Hieromancer */
+     , (14520, 8, 2404) /* Gem */
+     , (14520, 8, 3899) /* Flaming Tofun */
+     , (14520, 8, 2587) /* Shirt */
+     , (14520, 8, 40696) /* Covenant Bracers */
+     , (14520, 8, 3819) /* Lightning Katar */
+     , (14520, 8, 142) /* Chalice */
+     , (14520, 8, 20478) /* Scroll of Fiery Blessing */
+     , (14520, 8, 31781) /* Electric Spine Glaive */
+     , (14520, 8, 20609) /* Scroll of Gift of Vigor */
+     , (14520, 8, 25651) /* Leather Sleeves */
+     , (14520, 8, 2592) /* Puffy Tunic */
+     , (14520, 8, 2422) /* Gem */
+     , (14520, 8, 20234) /* Scroll of Boon of Refinement */
+     , (14520, 8, 20482) /* Scroll of Astyrrian's Gift */
+     , (14520, 8, 20489) /* Scroll of Battlemage's Boon */
+     , (14520, 8, 87) /* Platemail Pauldrons */
+     , (14520, 8, 132) /* Shoes */
+     , (14520, 8, 295) /* Bracelet */
+     , (14520, 8, 3937) /* Flaming Morning Star */
+     , (14520, 8, 2595) /* Baggy Tunic */
+     , (14520, 8, 41063) /* Acid Khanda-handled Mace */
+     , (14520, 8, 44801) /* Suikan Over-robe */
+     , (14520, 8, 43284) /* Scroll of Corrosion VII */;
+

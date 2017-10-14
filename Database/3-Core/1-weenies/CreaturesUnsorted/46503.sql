@@ -61,3 +61,18 @@ VALUES (46503, 2, 77) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46503, 64, 2200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46503, 8, 30557) /* Acid Hatchet */
+     , (46503, 8, 21301) /* Scroll of Blade Arc VII */
+     , (46503, 8, 28610) /* Loafers */
+     , (46503, 8, 49390) /* Frost Grievver Essence (125) */
+     , (46503, 8, 149) /* Ewer */
+     , (46503, 8, 150) /* Flagon */
+     , (46503, 8, 163) /* Ornamental Bowl */
+     , (46503, 8, 77) /* Kabuton */
+     , (46503, 8, 20244) /* Scroll of Adja's Gift */
+     , (46503, 8, 31787) /* Flaming Claw */
+     , (46503, 8, 8328) /* Iron Pea */;
+

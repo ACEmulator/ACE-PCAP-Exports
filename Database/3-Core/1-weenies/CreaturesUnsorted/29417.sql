@@ -48,3 +48,19 @@ VALUES (29417, 2, 83) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (29417, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29417, 8, 44852) /* Chevron Cloak */
+     , (29417, 8, 48967) /* Fire Child Essence (150) */
+     , (29417, 8, 297) /* Ring */
+     , (29417, 8, 359) /* War Hammer */
+     , (29417, 8, 43336) /* Scroll of Weakening Curse VII */
+     , (29417, 8, 20469) /* Scroll of Blessing of the Blade Turner */
+     , (29417, 8, 127) /* Pants */
+     , (29417, 8, 20608) /* Scroll of Gift of Essence */
+     , (29417, 8, 40696) /* Covenant Bracers */
+     , (29417, 8, 29389) /* Dispatch to General Corcima */
+     , (29417, 8, 30545) /* Shard of Corcima's Armor */
+     , (29417, 8, 29372) /* Royal Blood */;
+

@@ -39,3 +39,5 @@ VALUES (35268, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35268, 67115254, 0, 0);
 
+/* Corpse Treasure List */
+

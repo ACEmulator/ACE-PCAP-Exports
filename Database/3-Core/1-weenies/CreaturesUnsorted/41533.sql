@@ -44,3 +44,11 @@ VALUES (41533, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41533, 64, 680) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41533, 8, 3938) /* Frost Morning Star */
+     , (41533, 8, 29255) /* Fire Atlatl */
+     , (41533, 8, 42114) /* Aetherium-infused Gear */
+     , (41533, 8, 41528) /* Aetherium Power Core */;
+

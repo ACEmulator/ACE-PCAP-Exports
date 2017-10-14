@@ -58,3 +58,8 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (20907, 2, 0) /* OPEN_BOOL */
      , (20907, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (20907, 8, 20909) /* Unfashioned Prismatic Stone */;
+

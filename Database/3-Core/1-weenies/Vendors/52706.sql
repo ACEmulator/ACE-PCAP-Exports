@@ -141,37 +141,37 @@ VALUES (52706, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (52706, 4, 52735)
-     , (52706, 4, 53409)
-     , (52706, 4, 52798)
-     , (52706, 4, 52799)
-     , (52706, 4, 53411)
-     , (52706, 4, 52752)
-     , (52706, 4, 52753)
-     , (52706, 4, 52751)
-     , (52706, 4, 52754)
-     , (52706, 4, 52740)
-     , (52706, 4, 53353)
-     , (52706, 4, 52742)
-     , (52706, 4, 52743)
-     , (52706, 4, 52744)
-     , (52706, 4, 52741)
-     , (52706, 4, 52745)
-     , (52706, 4, 52783)
-     , (52706, 4, 52810)
-     , (52706, 4, 52809)
-     , (52706, 4, 52807)
-     , (52706, 4, 52805)
-     , (52706, 4, 52803)
-     , (52706, 4, 52812)
-     , (52706, 4, 52750)
-     , (52706, 4, 52748)
-     , (52706, 4, 52749)
-     , (52706, 4, 52757)
-     , (52706, 4, 52756)
-     , (52706, 4, 52758)
-     , (52706, 4, 53415)
-     , (52706, 4, 52737)
-     , (52706, 4, 52739)
-     , (52706, 4, 52738);
+VALUES (52706, 4, 52735) /* Gauntlet Backpack */
+     , (52706, 4, 53409) /* Eldrytch Web Gauntlet Writ */
+     , (52706, 4, 52798) /* Gauntlet Leggings */
+     , (52706, 4, 52799) /* Gauntlet Tunic */
+     , (52706, 4, 53411) /* Bracelet of Constitution */
+     , (52706, 4, 52752) /* Spectral Armor Tinkering Mastery Crystal */
+     , (52706, 4, 52753) /* Spectral Weapon Tinkering Mastery Crystal */
+     , (52706, 4, 52751) /* Spectral Item Tinkering Mastery Crystal */
+     , (52706, 4, 52754) /* Spectral Magic Item Tinkering Mastery Crystal */
+     , (52706, 4, 52740) /* Gem of Brilliance */
+     , (52706, 4, 53353) /* Wishbone */
+     , (52706, 4, 52742) /* Crushing Society Orb */
+     , (52706, 4, 52743) /* Piercing Society Orb */
+     , (52706, 4, 52744) /* Nether Society Orb */
+     , (52706, 4, 52741) /* Slicing Society Orb */
+     , (52706, 4, 52745) /* Exquisite Casino Key */
+     , (52706, 4, 52783) /* Gauntlet Treasure Key */
+     , (52706, 4, 52810) /* Gear Knight Invasion Area Portal Gem */
+     , (52706, 4, 52809) /* Mhoire Forge Portal Gem */
+     , (52706, 4, 52807) /* Neftet Portal Gem */
+     , (52706, 4, 52805) /* Paradox-touched Olthoi Portal Gem */
+     , (52706, 4, 52803) /* Rynthid Portal Gem */
+     , (52706, 4, 52812) /* Hoshino Fortress Portal Gem */
+     , (52706, 4, 52750) /* Gauntlet Gem of Luminance */
+     , (52706, 4, 52748) /* Gauntlet Gem of Knowledge */
+     , (52706, 4, 52749) /* Gauntlet Gem of Vast Knowledge */
+     , (52706, 4, 52757) /* Gauntlet Brutality Amplification */
+     , (52706, 4, 52756) /* Nature's Wrath Amplification */
+     , (52706, 4, 52758) /* Gauntlet Defense Amplification */
+     , (52706, 4, 53415) /* Horizon's Edge Amplification */
+     , (52706, 4, 52737) /* Gauntlet Health Kit */
+     , (52706, 4, 52739) /* Gauntlet Stamina Kit */
+     , (52706, 4, 52738) /* Gauntlet Mana Kit */;
 

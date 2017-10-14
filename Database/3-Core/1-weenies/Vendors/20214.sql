@@ -124,43 +124,43 @@ VALUES (20214, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20214, 4, 15269)
-     , (20214, 4, 2764)
-     , (20214, 4, 2769)
-     , (20214, 4, 46867)
-     , (20214, 4, 2784)
-     , (20214, 4, 46868)
-     , (20214, 4, 2809)
-     , (20214, 4, 46869)
-     , (20214, 4, 2834)
-     , (20214, 4, 46870)
-     , (20214, 4, 2889)
-     , (20214, 4, 46871)
-     , (20214, 4, 28005)
-     , (20214, 4, 46872)
-     , (20214, 4, 2884)
-     , (20214, 4, 2774)
-     , (20214, 4, 2779)
-     , (20214, 4, 2789)
-     , (20214, 4, 2794)
-     , (20214, 4, 2799)
-     , (20214, 4, 2804)
-     , (20214, 4, 2814)
-     , (20214, 4, 2819)
-     , (20214, 4, 2824)
-     , (20214, 4, 2829)
-     , (20214, 4, 2839)
-     , (20214, 4, 2844)
-     , (20214, 4, 2849)
-     , (20214, 4, 2854)
-     , (20214, 4, 2859)
-     , (20214, 4, 2864)
-     , (20214, 4, 2869)
-     , (20214, 4, 2874)
-     , (20214, 4, 28012)
-     , (20214, 4, 2879)
-     , (20214, 4, 2895)
-     , (20214, 4, 2900)
-     , (20214, 4, 2904)
-     , (20214, 4, 20622);
+VALUES (20214, 4, 15269) /* Foci of Artifice */
+     , (20214, 4, 2764) /* Scroll of Acid Bane IV */
+     , (20214, 4, 2769) /* Scroll of Acid Lure IV */
+     , (20214, 4, 46867) /* Aura of Blood Drinker Other IV */
+     , (20214, 4, 2784) /* Aura of Blood Drinker Self IV */
+     , (20214, 4, 46868) /* Aura of Defender Other IV */
+     , (20214, 4, 2809) /* Aura of Defender Self IV */
+     , (20214, 4, 46869) /* Aura of Heartseeker Other IV */
+     , (20214, 4, 2834) /* Aura of Heartseeker Self IV */
+     , (20214, 4, 46870) /* Aura of Hermetic Link Other IV */
+     , (20214, 4, 2889) /* Aura of Hermetic Link Self IV */
+     , (20214, 4, 46871) /* Aura of Spirit Drinker Other IV */
+     , (20214, 4, 28005) /* Aura of Spirit Drinker Self IV */
+     , (20214, 4, 46872) /* Aura of Swift Killer Other IV */
+     , (20214, 4, 2884) /* Aura of Swift Killer Self IV */
+     , (20214, 4, 2774) /* Scroll of Blade Bane IV */
+     , (20214, 4, 2779) /* Scroll of Blade Lure IV */
+     , (20214, 4, 2789) /* Scroll of Blood Loather IV */
+     , (20214, 4, 2794) /* Scroll of Bludgeon Bane IV */
+     , (20214, 4, 2799) /* Scroll of Bludgeon Lure IV */
+     , (20214, 4, 2804) /* Scroll of Brittlemail IV */
+     , (20214, 4, 2814) /* Scroll of Flame Bane IV */
+     , (20214, 4, 2819) /* Scroll of Flame Lure IV */
+     , (20214, 4, 2824) /* Scroll of Frost Bane IV */
+     , (20214, 4, 2829) /* Scroll of Frost Lure IV */
+     , (20214, 4, 2839) /* Scroll of Hermetic Void IV */
+     , (20214, 4, 2844) /* Scroll of Impenetrability IV */
+     , (20214, 4, 2849) /* Scroll of Leaden Weapon IV */
+     , (20214, 4, 2854) /* Scroll of Lightning Bane IV */
+     , (20214, 4, 2859) /* Scroll of Lightning Lure IV */
+     , (20214, 4, 2864) /* Scroll of Lure Blade IV */
+     , (20214, 4, 2869) /* Scroll of Piercing Bane IV */
+     , (20214, 4, 2874) /* Scroll of Piercing Lure IV */
+     , (20214, 4, 28012) /* Scroll of Spirit Loather IV */
+     , (20214, 4, 2879) /* Scroll of Strengthen Lock IV */
+     , (20214, 4, 2895) /* Scroll of Turn Blade IV */
+     , (20214, 4, 2900) /* Scroll of Weaken Lock IV */
+     , (20214, 4, 2904) /* Scroll of Summon Primary Portal I */
+     , (20214, 4, 20622) /* Scroll of Summon Secondary Portal I */;
 

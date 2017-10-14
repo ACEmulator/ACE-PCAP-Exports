@@ -63,3 +63,17 @@ VALUES (6882, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6882, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6882, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6882, 8, 94) /* Diamond Shield */
+     , (6882, 8, 12463) /* Atlatl */
+     , (6882, 8, 630) /* Gifted Healing Kit */
+     , (6882, 8, 35) /* Chainmail Basinet */
+     , (6882, 8, 6880) /* Bone Engraved Key */
+     , (6882, 8, 44801) /* Suikan Over-robe */
+     , (6882, 8, 621) /* Heavy Bracelet */
+     , (6882, 8, 80) /* Chainmail Leggings */
+     , (6882, 8, 2435) /* Mana Stone */
+     , (6882, 8, 30949) /* Diforsa Sleeves */;
+

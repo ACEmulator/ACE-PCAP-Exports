@@ -107,5 +107,5 @@ VALUES (43006, 64, 3000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43006, 2, 22776);
+VALUES (43006, 2, 22776) /* Bandit Dagger */;
 

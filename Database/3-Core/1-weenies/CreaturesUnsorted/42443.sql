@@ -34,3 +34,10 @@ VALUES (42443, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (42443, 19, True) /* ATTACKABLE_BOOL */
      , (42443, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42443, 8, 7940) /* Empty Flask */
+     , (42443, 8, 273) /* Pyreal */
+     , (42443, 8, 31784) /* Claw */;
+

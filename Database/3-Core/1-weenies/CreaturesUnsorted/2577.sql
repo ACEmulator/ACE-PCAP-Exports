@@ -48,3 +48,11 @@ VALUES (2577, 2, 27) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2577, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2577, 8, 25648) /* Leather Pauldrons */
+     , (2577, 8, 2713) /* Scroll of Quickness Other III */
+     , (2577, 8, 22161) /* Flaming Nabut */
+     , (2577, 8, 273) /* Pyreal */;
+

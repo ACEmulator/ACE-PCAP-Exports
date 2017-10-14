@@ -52,3 +52,25 @@ VALUES (53348, 2, 15) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (53348, 64, 15200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (53348, 8, 92) /* Large Kite Shield */
+     , (53348, 8, 37223) /* Slashing Staff */
+     , (53348, 8, 49548) /* Lightning Phyntos Wasp Essence (125) */
+     , (53348, 8, 163) /* Ornamental Bowl */
+     , (53348, 8, 62) /* Scalemail Girth */
+     , (53348, 8, 37200) /* Olthoi Alduressa Leggings */
+     , (53348, 8, 53) /* Studded Leather Cuirass */
+     , (53348, 8, 28610) /* Loafers */
+     , (53348, 8, 52968) /* Infused Amber Shard */
+     , (53348, 8, 52970) /* Viridian Essence */
+     , (53348, 8, 2423) /* Gem */
+     , (53348, 8, 20422) /* Scroll of Wi's Folly */
+     , (53348, 8, 49279) /* Frost Child Essence (150) */
+     , (53348, 8, 31764) /* Lugian Hammer */
+     , (53348, 8, 4192) /* Acid Cestus */
+     , (53348, 8, 27328) /* Major Mana Stone */
+     , (53348, 8, 27218) /* Chiran Leggings */
+     , (53348, 8, 37214) /* Olthoi Celdon Breastplate */;
+

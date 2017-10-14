@@ -128,16 +128,16 @@ VALUES (5641, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5641, 4, 314)
-     , (5641, 4, 22158)
-     , (5641, 4, 4195)
-     , (5641, 4, 343)
-     , (5641, 4, 342)
-     , (5641, 4, 315)
-     , (5641, 4, 356)
-     , (5641, 4, 361)
-     , (5641, 4, 362)
-     , (5641, 4, 2621)
-     , (5641, 4, 2622)
-     , (5641, 4, 2623);
+VALUES (5641, 4, 314) /* Dagger */
+     , (5641, 4, 22158) /* Jo */
+     , (5641, 4, 4195) /* Nekode */
+     , (5641, 4, 343) /* Shouken */
+     , (5641, 4, 342) /* Shou-ono */
+     , (5641, 4, 315) /* Throwing Dagger */
+     , (5641, 4, 356) /* Tofun */
+     , (5641, 4, 361) /* Yaoji */
+     , (5641, 4, 362) /* Yari */
+     , (5641, 4, 2621) /* Trade Note (100) */
+     , (5641, 4, 2622) /* Trade Note (500) */
+     , (5641, 4, 2623) /* Trade Note (1,000) */;
 

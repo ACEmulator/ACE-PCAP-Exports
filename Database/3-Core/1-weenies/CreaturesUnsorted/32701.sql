@@ -36,3 +36,16 @@ VALUES (32701, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32701, 67115520, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32701, 8, 89) /* Studded Leather Pauldrons */
+     , (32701, 8, 20421) /* Scroll of Astyrrian Bait */
+     , (32701, 8, 32670) /* Viamontian Pennant */
+     , (32701, 8, 20640) /* Royal Atlatl */
+     , (32701, 8, 22444) /* Frost Dirk */
+     , (32701, 8, 154) /* Goblet */
+     , (32701, 8, 2851) /* Scroll of Leaden Weapon VI */
+     , (32701, 8, 31784) /* Claw */
+     , (32701, 8, 413) /* Chainmail Bracers */;
+

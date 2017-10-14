@@ -39,3 +39,19 @@ VALUES (1522, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (1522, 67111342, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1522, 8, 311) /* Heavy Crossbow */
+     , (1522, 8, 27330) /* Moderate Mana Stone */
+     , (1522, 8, 621) /* Heavy Bracelet */
+     , (1522, 8, 8328) /* Iron Pea */
+     , (1522, 8, 25646) /* Long Leather Gauntlets */
+     , (1522, 8, 273) /* Pyreal */
+     , (1522, 8, 2434) /* Lesser Mana Stone */
+     , (1522, 8, 243) /* Dinner Plate */
+     , (1522, 8, 8326) /* Copper Pea */
+     , (1522, 8, 20497) /* Scroll of Silencia's Blessing */
+     , (1522, 8, 297) /* Ring */
+     , (1522, 8, 2435) /* Mana Stone */;
+

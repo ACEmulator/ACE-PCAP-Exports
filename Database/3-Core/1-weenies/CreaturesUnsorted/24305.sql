@@ -46,3 +46,23 @@ VALUES (24305, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24305, 64, 740) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24305, 8, 20549) /* Scroll of Kwipetian Vision */
+     , (24305, 8, 154) /* Goblet */
+     , (24305, 8, 38) /* Studded Leather Bracers */
+     , (24305, 8, 2424) /* Gem */
+     , (24305, 8, 30246) /* Artist's Crystal */
+     , (24305, 8, 6048) /* Celdon Sleeves */
+     , (24305, 8, 2593) /* Loose Tunic */
+     , (24305, 8, 27220) /* Lorica Boots */
+     , (24305, 8, 41) /* Scalemail Breastplate */
+     , (24305, 8, 40818) /* Corsesca */
+     , (24305, 8, 45425) /* Frost Dagger */
+     , (24305, 8, 40763) /* Flaming Nodachi */
+     , (24305, 8, 57) /* Platemail Gauntlets */
+     , (24305, 8, 43308) /* Scroll of Nether Bolt VII */
+     , (24305, 8, 40699) /* Covenant Girth */
+     , (24305, 8, 3915) /* Flaming Yari */;
+

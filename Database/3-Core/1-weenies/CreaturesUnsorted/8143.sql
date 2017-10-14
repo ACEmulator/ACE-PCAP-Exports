@@ -67,3 +67,80 @@ VALUES (8143, 2, 70) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8143, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8143, 8, 116) /* Studded Leather Boots */
+     , (8143, 8, 41484) /* Goggles */
+     , (8143, 8, 5894) /* Fez */
+     , (8143, 8, 49421) /* Acid Spectre Essence (50) */
+     , (8143, 8, 168) /* Tankard */
+     , (8143, 8, 119) /* Cowl */
+     , (8143, 8, 4753) /* Side of Beef */
+     , (8143, 8, 31782) /* Fire Spine Glaive */
+     , (8143, 8, 25643) /* Leather Girth */
+     , (8143, 8, 379) /* Mana Potion */
+     , (8143, 8, 2590) /* Baggy Shirt */
+     , (8143, 8, 311) /* Heavy Crossbow */
+     , (8143, 8, 2827) /* Scroll of Frost Lure II */
+     , (8143, 8, 3558) /* Scroll of Vulnerability II */
+     , (8143, 8, 30611) /* Knuckles */
+     , (8143, 8, 49345) /* Lightning Moar Essence (50) */
+     , (8143, 8, 312) /* Light Crossbow */
+     , (8143, 8, 25661) /* Leather Boots */
+     , (8143, 8, 1730) /* Scroll of Person Attunement Other */
+     , (8143, 8, 1878) /* Scroll of Bludgeon Lure */
+     , (8143, 8, 628) /* Handy Healing Kit */
+     , (8143, 8, 7549) /* Lugian Pick Axe */
+     , (8143, 8, 49359) /* Frost Moar Essence (50) */
+     , (8143, 8, 296) /* Crown */
+     , (8143, 8, 41487) /* Mechanical Scarab */
+     , (8143, 8, 41070) /* Flaming Shashqa */
+     , (8143, 8, 21290) /* Scroll of Acid Arc III */
+     , (8143, 8, 3253) /* Scroll of Faithlessness II */
+     , (8143, 8, 130) /* Shirt */
+     , (8143, 8, 48) /* Studded Leather Coat */
+     , (8143, 8, 30608) /* Flaming Bastone */
+     , (8143, 8, 357) /* Tungi */
+     , (8143, 8, 360) /* Yag */
+     , (8143, 8, 49366) /* Acid Grievver Essence (50) */
+     , (8143, 8, 45325) /* Scroll of Shield Mastery Self II */
+     , (8143, 8, 2547) /* Staff */
+     , (8143, 8, 27331) /* Minor Mana Stone */
+     , (8143, 8, 46862) /* Aura of Defender Other III */
+     , (8143, 8, 7790) /* Electric Spiked Club */
+     , (8143, 8, 150) /* Flagon */
+     , (8143, 8, 3183) /* Scroll of Missile Weapon Mastery Self II */
+     , (8143, 8, 5994) /* Scroll of Alchemy Mastery Self III */
+     , (8143, 8, 92) /* Large Kite Shield */
+     , (8143, 8, 20640) /* Royal Atlatl */
+     , (8143, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (8143, 8, 91) /* Kite Shield */
+     , (8143, 8, 49442) /* Frost Spectre Essence (50) */
+     , (8143, 8, 41067) /* Shashqa */
+     , (8143, 8, 25645) /* Leather Leggings */
+     , (8143, 8, 128) /* Qafiya */
+     , (8143, 8, 7794) /* Electric Trident */
+     , (8143, 8, 22158) /* Jo */
+     , (8143, 8, 513) /* Plain Lockpick */
+     , (8143, 8, 43357) /* Scroll of Void Magic Mastery Self */
+     , (8143, 8, 7897) /* Steel Toed Boots */
+     , (8143, 8, 80) /* Chainmail Leggings */
+     , (8143, 8, 21296) /* Scroll of Blade Arc II */
+     , (8143, 8, 3074) /* Scroll of Piercing Vulnerability Other III */
+     , (8143, 8, 135) /* Turban */
+     , (8143, 8, 84) /* Studded  Leggings */
+     , (8143, 8, 2942) /* Scroll of Frost Bolt III */
+     , (8143, 8, 25642) /* Leather Gauntlets */
+     , (8143, 8, 44856) /* Trimmed Cloak */
+     , (8143, 8, 2414) /* Gem */
+     , (8143, 8, 2591) /* Puffy Shirt */
+     , (8143, 8, 8329) /* Lead Pea */
+     , (8143, 8, 28610) /* Loafers */
+     , (8143, 8, 273) /* Pyreal */
+     , (8143, 8, 49435) /* Fire Spectre Essence (50) */
+     , (8143, 8, 68) /* Studded Leather Greaves */
+     , (8143, 8, 7793) /* Acid Trident */
+     , (8143, 8, 41059) /* Lightning Great Star Mace */
+     , (8143, 8, 45420) /* Frost Knife */;
+

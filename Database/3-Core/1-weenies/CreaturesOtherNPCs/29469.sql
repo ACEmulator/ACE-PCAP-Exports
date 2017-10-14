@@ -52,5 +52,14 @@ VALUES (29469, 64, 495) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (29469, 2, 29975);
+VALUES (29469, 2, 29975) /* Spadone */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29469, 8, 31762) /* Flaming Dericost Blade */
+     , (29469, 8, 28618) /* Diforsa Helm */
+     , (29469, 8, 28015) /* Scroll of Spirit Pacification */
+     , (29469, 8, 29479) /* Prison Warden's Orders */
+     , (29469, 8, 29480) /* Prison Warden's Key */;
 

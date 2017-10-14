@@ -49,3 +49,12 @@ VALUES (4867, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4867, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4867, 8, 42) /* Studded Leather Breastplate */
+     , (4867, 8, 154) /* Goblet */
+     , (4867, 8, 297) /* Ring */
+     , (4867, 8, 31778) /* Frost Spine Glaive */
+     , (4867, 8, 25661) /* Leather Boots */;
+

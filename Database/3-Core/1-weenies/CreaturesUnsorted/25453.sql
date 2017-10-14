@@ -36,3 +36,10 @@ VALUES (25453, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25453, 19, True) /* ATTACKABLE_BOOL */
      , (25453, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25453, 8, 49235) /* Acid Zombie Essence (100) */
+     , (25453, 8, 2605) /* Chainmail Greaves */
+     , (25453, 8, 25498) /* Olthoi Chitin */;
+

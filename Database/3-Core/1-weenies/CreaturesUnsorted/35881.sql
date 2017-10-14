@@ -50,3 +50,9 @@ VALUES (35881, 2, 92) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35881, 64, 2090) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35881, 8, 49371) /* Acid Grievver Essence (180) */
+     , (35881, 8, 43054) /* Knorr Academy Tassets */;
+

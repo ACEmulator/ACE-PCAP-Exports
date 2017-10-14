@@ -52,12 +52,12 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (14937, 4, False) /* ROT_PROOF_BOOL */;
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
-VALUES (14937, 16, 273, 10000000) /* Pyreal */
-     , (14937, 16, 11710, 20) /* Writ of Refuge */
-     , (14937, 16, 9511, 20) /* Golden Gromnie */
-     , (14937, 16, 45875, 15) /* Lucky Gold Letter */
-     , (14937, 16, 8425, 7) /* Idol Gem */
-     , (14937, 16, 9413, 2) /* Dread Mattekar Paw */
-     , (14937, 32, 273, 1000000) /* Pyreal */
-     , (14937, 32, 11710, 10) /* Writ of Refuge */;
+VALUES (14937, 16, 273, 10000000) /* Buy Cost - Pyreal (x10,000,000) */
+     , (14937, 16, 11710, 20) /* Buy Cost - Writ of Refuge (x20) */
+     , (14937, 16, 9511, 20) /* Buy Cost - Golden Gromnie (x20) */
+     , (14937, 16, 45875, 15) /* Buy Cost - Lucky Gold Letter (x15) */
+     , (14937, 16, 8425, 7) /* Buy Cost - Idol Gem (x7) */
+     , (14937, 16, 9413, 2) /* Buy Cost - Dread Mattekar Paw (x2) */
+     , (14937, 32, 273, 1000000) /* Rent Cost - Pyreal (x1,000,000) */
+     , (14937, 32, 11710, 10) /* Rent Cost - Writ of Refuge (x10) */;
 

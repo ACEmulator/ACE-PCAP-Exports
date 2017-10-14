@@ -49,3 +49,16 @@ VALUES (24325, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24325, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24325, 8, 42635) /* Aetheria */
+     , (24325, 8, 2603) /* Baggy Breeches */
+     , (24325, 8, 41294) /* Scroll of Greased Palms */
+     , (24325, 8, 7792) /* Fire Trident */
+     , (24325, 8, 49312) /* Acid Wisp Essence (100) */
+     , (24325, 8, 20584) /* Scroll of Heavy Weapon Ineptitude Other VII */
+     , (24325, 8, 20532) /* Scroll of Unsteady Hands */
+     , (24325, 8, 6047) /* Amuli Leggings */
+     , (24325, 8, 2589) /* Smock */;
+

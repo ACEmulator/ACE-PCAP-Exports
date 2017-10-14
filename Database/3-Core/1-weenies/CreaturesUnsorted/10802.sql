@@ -45,3 +45,14 @@ VALUES (10802, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (10802, 64, 320) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (10802, 8, 118) /* Cloth Cap */
+     , (10802, 8, 8331) /* Silver Pea */
+     , (10802, 8, 2602) /* Loose Breeches */
+     , (10802, 8, 2595) /* Baggy Tunic */
+     , (10802, 8, 27330) /* Moderate Mana Stone */
+     , (10802, 8, 21114) /* Scroll of Martyr's Tenacity VI */
+     , (10802, 8, 6046) /* Amuli Coat */;
+

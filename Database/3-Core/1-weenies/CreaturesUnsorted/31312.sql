@@ -58,3 +58,11 @@ VALUES (31312, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (31312, 128, 5000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (31312, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31312, 8, 44840) /* Cloak */
+     , (31312, 8, 2403) /* Gem */
+     , (31312, 8, 2599) /* Trousers */
+     , (31312, 8, 31309) /* Darling's Collar */;
+

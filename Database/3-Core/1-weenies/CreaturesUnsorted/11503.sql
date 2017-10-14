@@ -102,3 +102,56 @@ VALUES (11503, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11503, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11503, 8, 2605) /* Chainmail Greaves */
+     , (11503, 8, 41484) /* Goggles */
+     , (11503, 8, 4199) /* Lightning Nekode */
+     , (11503, 8, 628) /* Handy Healing Kit */
+     , (11503, 8, 55) /* Chainmail Gauntlets */
+     , (11503, 8, 85) /* Chainmail Coif */
+     , (11503, 8, 3349) /* Scroll of Leadership Ineptitude III */
+     , (11503, 8, 2470) /* Stamina Elixir */
+     , (11503, 8, 49366) /* Acid Grievver Essence (50) */
+     , (11503, 8, 2366) /* Orb */
+     , (11503, 8, 2437) /* Yoroi Leggings */
+     , (11503, 8, 3776) /* Flaming Dabus */
+     , (11503, 8, 99) /* Studded Leather Shirt */
+     , (11503, 8, 130) /* Shirt */
+     , (11503, 8, 22166) /* Flaming Quarter Staff */
+     , (11503, 8, 3326) /* Scroll of Item Tinkering Expertise Self V */
+     , (11503, 8, 294) /* Amulet */
+     , (11503, 8, 45421) /* Dagger */
+     , (11503, 8, 49324) /* Fire Wisp Essence (50) */
+     , (11503, 8, 141) /* Bowl */
+     , (11503, 8, 3819) /* Lightning Katar */
+     , (11503, 8, 8328) /* Iron Pea */
+     , (11503, 8, 296) /* Crown */
+     , (11503, 8, 415) /* Chainmail Girth */
+     , (11503, 8, 95) /* Tower Shield */
+     , (11503, 8, 2460) /* Mana Draught */
+     , (11503, 8, 91) /* Kite Shield */
+     , (11503, 8, 4391) /* Scroll of Armor Self III */
+     , (11503, 8, 793) /* Scalemail Coif */
+     , (11503, 8, 107) /* Sollerets */
+     , (11503, 8, 40624) /* Acid Quadrelle */
+     , (11503, 8, 2415) /* Gem */
+     , (11503, 8, 132) /* Shoes */
+     , (11503, 8, 25645) /* Leather Leggings */
+     , (11503, 8, 5894) /* Fez */
+     , (11503, 8, 112) /* Studded Leather Tassets */
+     , (11503, 8, 378) /* Stamina Potion */
+     , (11503, 8, 49442) /* Frost Spectre Essence (50) */
+     , (11503, 8, 25643) /* Leather Girth */
+     , (11503, 8, 273) /* Pyreal */
+     , (11503, 8, 44854) /* Halved Cloak */
+     , (11503, 8, 513) /* Plain Lockpick */
+     , (11503, 8, 2601) /* Loose Pants */
+     , (11503, 8, 38) /* Studded Leather Bracers */
+     , (11503, 8, 80) /* Chainmail Leggings */
+     , (11503, 8, 545) /* Reliable Lockpick */
+     , (11503, 8, 25641) /* Leather Cuirass */
+     , (11503, 8, 31760) /* Acid Dericost Blade */
+     , (11503, 8, 7792) /* Fire Trident */;
+

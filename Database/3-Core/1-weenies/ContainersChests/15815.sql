@@ -50,3 +50,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (15815, 2, 0) /* OPEN_BOOL */
      , (15815, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (15815, 8, 15799) /* A Letter of Grief */
+     , (15815, 8, 15807) /* A tightly scrawled Note */;
+

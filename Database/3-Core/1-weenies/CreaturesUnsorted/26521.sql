@@ -52,3 +52,11 @@ VALUES (26521, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (26521, 64, 490) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26521, 8, 130) /* Shirt */
+     , (26521, 8, 21150) /* Covenant Sollerets */
+     , (26521, 8, 306) /* Longbow */
+     , (26521, 8, 2407) /* Gem */;
+

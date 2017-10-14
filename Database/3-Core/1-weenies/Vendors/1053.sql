@@ -129,16 +129,16 @@ VALUES (1053, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1053, 4, 138)
-     , (1053, 4, 139)
-     , (1053, 4, 136)
-     , (1053, 4, 4763)
-     , (1053, 4, 260)
-     , (1053, 4, 4766)
-     , (1053, 4, 4753)
-     , (1053, 4, 23327)
-     , (1053, 4, 23326)
-     , (1053, 4, 4755)
-     , (1053, 4, 4759)
-     , (1053, 4, 4767);
+VALUES (1053, 4, 138) /* Belt Pouch */
+     , (1053, 4, 139) /* Small Belt Pouch */
+     , (1053, 4, 136) /* Pack */
+     , (1053, 4, 4763) /* Honey */
+     , (1053, 4, 260) /* Cabbage */
+     , (1053, 4, 4766) /* Rennet */
+     , (1053, 4, 4753) /* Side of Beef */
+     , (1053, 4, 23327) /* Simple Dried Rations */
+     , (1053, 4, 23326) /* Elaborate Dried Rations */
+     , (1053, 4, 4755) /* Brine */
+     , (1053, 4, 4759) /* Cooking Pot */
+     , (1053, 4, 4767) /* Skewer */;
 

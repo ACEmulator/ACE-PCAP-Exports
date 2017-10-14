@@ -92,5 +92,5 @@ VALUES (30981, 12, 16778423)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30981, 2, 14917);
+VALUES (30981, 2, 14917) /* Elegant Flower Bouquet */;
 

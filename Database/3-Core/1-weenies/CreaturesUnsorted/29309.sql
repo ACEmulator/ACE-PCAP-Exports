@@ -35,3 +35,12 @@ VALUES (29309, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29309, 19, True) /* ATTACKABLE_BOOL */
      , (29309, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29309, 8, 2423) /* Gem */
+     , (29309, 8, 2436) /* Greater Mana Stone */
+     , (29309, 8, 5789) /* Brown Lump */
+     , (29309, 8, 2399) /* Gem */
+     , (29309, 8, 273) /* Pyreal */;
+

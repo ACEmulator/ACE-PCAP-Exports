@@ -34,3 +34,11 @@ VALUES (41970, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (41970, 19, True) /* ATTACKABLE_BOOL */
      , (41970, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41970, 8, 163) /* Ornamental Bowl */
+     , (41970, 8, 2436) /* Greater Mana Stone */
+     , (41970, 8, 45193) /* Red Veined Grub */
+     , (41970, 8, 45151) /* Mhoire Oubliette Portal Glyph */;
+

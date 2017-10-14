@@ -111,3 +111,46 @@ VALUES (35869, 384, 0) /*  */
      , (35869, 382, 0) /*  */
      , (35869, 383, 0) /*  */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35869, 8, 3819) /* Lightning Katar */
+     , (35869, 8, 3937) /* Flaming Morning Star */
+     , (35869, 8, 44803) /* Empyrean Over-robe */
+     , (35869, 8, 45426) /* Jambiya */
+     , (35869, 8, 295) /* Bracelet */
+     , (35869, 8, 2404) /* Gem */
+     , (35869, 8, 21150) /* Covenant Sollerets */
+     , (35869, 8, 31769) /* Lugian Axe */
+     , (35869, 8, 34452) /* Gladiator Diemos Token */
+     , (35869, 8, 27223) /* Lorica Helm */
+     , (35869, 8, 8331) /* Silver Pea */
+     , (35869, 8, 20477) /* Scroll of Fiery Boon */
+     , (35869, 8, 29243) /* Piercing Bow */
+     , (35869, 8, 154) /* Goblet */
+     , (35869, 8, 20466) /* Scroll of Caustic Blessing */
+     , (35869, 8, 3851) /* Flaming Scimitar */
+     , (35869, 8, 3754) /* Acid Hand Axe */
+     , (35869, 8, 31794) /* Lancet */
+     , (35869, 8, 28607) /* Lace Shirt */
+     , (35869, 8, 28617) /* Alduressa Helm */
+     , (35869, 8, 40705) /* Covenant Sollerets */
+     , (35869, 8, 31778) /* Frost Spine Glaive */
+     , (35869, 8, 27328) /* Major Mana Stone */
+     , (35869, 8, 7790) /* Electric Spiked Club */
+     , (35869, 8, 43829) /* Sedgemail Leather Cowl */
+     , (35869, 8, 7795) /* Frost Naginata */
+     , (35869, 8, 149) /* Ewer */
+     , (35869, 8, 49485) /* Encapsulated Spirit */
+     , (35869, 8, 105) /* Studded Leather Sleeves */
+     , (35869, 8, 31795) /* Acid Lancet */
+     , (35869, 8, 6003) /* Koujia Breastplate */
+     , (35869, 8, 2591) /* Puffy Shirt */
+     , (35869, 8, 28612) /* Bandana */
+     , (35869, 8, 20534) /* Scroll of Avalenne's Blessing */
+     , (35869, 8, 40696) /* Covenant Bracers */
+     , (35869, 8, 31867) /* Diadem */
+     , (35869, 8, 31814) /* Dark Blunt Slingshot */
+     , (35869, 8, 130) /* Shirt */
+     , (35869, 8, 20470) /* Scroll of Swordsman's Gift */;
+

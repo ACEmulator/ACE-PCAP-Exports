@@ -113,136 +113,136 @@ VALUES (30024, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30024, 4, 15268)
-     , (30024, 4, 28945)
-     , (30024, 4, 28938)
-     , (30024, 4, 2638)
-     , (30024, 4, 2643)
-     , (30024, 4, 2648)
-     , (30024, 4, 2653)
-     , (30024, 4, 2658)
-     , (30024, 4, 2663)
-     , (30024, 4, 2673)
-     , (30024, 4, 2678)
-     , (30024, 4, 2681)
-     , (30024, 4, 2686)
-     , (30024, 4, 2716)
-     , (30024, 4, 2721)
-     , (30024, 4, 2736)
-     , (30024, 4, 2741)
-     , (30024, 4, 2746)
-     , (30024, 4, 2751)
-     , (30024, 4, 2756)
-     , (30024, 4, 2761)
-     , (30024, 4, 5985)
-     , (30024, 4, 5991)
-     , (30024, 4, 5997)
-     , (30024, 4, 3132)
-     , (30024, 4, 3137)
-     , (30024, 4, 3142)
-     , (30024, 4, 3147)
-     , (30024, 4, 3152)
-     , (30024, 4, 3157)
-     , (30024, 4, 3162)
-     , (30024, 4, 3167)
-     , (30024, 4, 3172)
-     , (30024, 4, 5949)
-     , (30024, 4, 5955)
-     , (30024, 4, 5961)
-     , (30024, 4, 3192)
-     , (30024, 4, 3197)
-     , (30024, 4, 3202)
-     , (30024, 4, 3237)
-     , (30024, 4, 3242)
-     , (30024, 4, 3247)
-     , (30024, 4, 3252)
-     , (30024, 4, 45241)
-     , (30024, 4, 45249)
-     , (30024, 4, 45257)
-     , (30024, 4, 45265)
-     , (30024, 4, 45273)
-     , (30024, 4, 45281)
-     , (30024, 4, 3257)
-     , (30024, 4, 3262)
-     , (30024, 4, 3267)
-     , (30024, 4, 3222)
-     , (30024, 4, 3227)
-     , (30024, 4, 3232)
-     , (30024, 4, 5967)
-     , (30024, 4, 5973)
-     , (30024, 4, 5979)
-     , (30024, 4, 3272)
-     , (30024, 4, 3277)
-     , (30024, 4, 3282)
-     , (30024, 4, 3517)
-     , (30024, 4, 3522)
-     , (30024, 4, 3527)
-     , (30024, 4, 3287)
-     , (30024, 4, 3292)
-     , (30024, 4, 3297)
-     , (30024, 4, 3302)
-     , (30024, 4, 3307)
-     , (30024, 4, 3312)
-     , (30024, 4, 3317)
-     , (30024, 4, 3322)
-     , (30024, 4, 3327)
-     , (30024, 4, 3332)
-     , (30024, 4, 9629)
-     , (30024, 4, 3337)
-     , (30024, 4, 3342)
-     , (30024, 4, 3347)
-     , (30024, 4, 3352)
-     , (30024, 4, 3357)
-     , (30024, 4, 3362)
-     , (30024, 4, 3367)
-     , (30024, 4, 3372)
-     , (30024, 4, 3377)
-     , (30024, 4, 3382)
-     , (30024, 4, 3387)
-     , (30024, 4, 3392)
-     , (30024, 4, 3412)
-     , (30024, 4, 3417)
-     , (30024, 4, 3422)
-     , (30024, 4, 3427)
-     , (30024, 4, 3432)
-     , (30024, 4, 3437)
-     , (30024, 4, 9613)
-     , (30024, 4, 3177)
-     , (30024, 4, 3182)
-     , (30024, 4, 3187)
-     , (30024, 4, 3442)
-     , (30024, 4, 5547)
-     , (30024, 4, 3447)
-     , (30024, 4, 3452)
-     , (30024, 4, 3457)
-     , (30024, 4, 3462)
-     , (30024, 4, 45289)
-     , (30024, 4, 45297)
-     , (30024, 4, 45305)
-     , (30024, 4, 3467)
-     , (30024, 4, 3472)
-     , (30024, 4, 45313)
-     , (30024, 4, 45321)
-     , (30024, 4, 45329)
-     , (30024, 4, 45337)
-     , (30024, 4, 45345)
-     , (30024, 4, 45353)
-     , (30024, 4, 3492)
-     , (30024, 4, 3497)
-     , (30024, 4, 49461)
-     , (30024, 4, 49468)
-     , (30024, 4, 49475)
-     , (30024, 4, 3562)
-     , (30024, 4, 3567)
-     , (30024, 4, 3572)
-     , (30024, 4, 3577)
-     , (30024, 4, 3582)
-     , (30024, 4, 3587)
-     , (30024, 4, 3592)
-     , (30024, 4, 41293)
-     , (30024, 4, 41301)
-     , (30024, 4, 41261)
-     , (30024, 4, 43364)
-     , (30024, 4, 43365)
-     , (30024, 4, 43366);
+VALUES (30024, 4, 15268) /* Foci of Enchantment */
+     , (30024, 4, 28945) /* Scroll of Arcanum Enlightenment VI */
+     , (30024, 4, 28938) /* Scroll of Arcanum Salvaging VI */
+     , (30024, 4, 2638) /* Scroll of Bafflement Other VI */
+     , (30024, 4, 2643) /* Scroll of Clumsiness Other VI */
+     , (30024, 4, 2648) /* Scroll of Coordination Other VI */
+     , (30024, 4, 2653) /* Scroll of Coordination Self VI */
+     , (30024, 4, 2658) /* Scroll of Endurance Other VI */
+     , (30024, 4, 2663) /* Scroll of Endurance Self VI */
+     , (30024, 4, 2673) /* Scroll of Feeblemind Other VI */
+     , (30024, 4, 2678) /* Scroll of Focus Other VI */
+     , (30024, 4, 2681) /* Scroll of Focus Self VI */
+     , (30024, 4, 2686) /* Scroll of Frailty Other VI */
+     , (30024, 4, 2716) /* Scroll of Quickness Other VI */
+     , (30024, 4, 2721) /* Scroll of Quickness Self VI */
+     , (30024, 4, 2736) /* Scroll of Slowness Other VI */
+     , (30024, 4, 2741) /* Scroll of Strength Other VI */
+     , (30024, 4, 2746) /* Scroll of Self Strength VI */
+     , (30024, 4, 2751) /* Scroll of Weakness Other VI */
+     , (30024, 4, 2756) /* Scroll of Willpower Other VI */
+     , (30024, 4, 2761) /* Scroll of Willpower Self VI */
+     , (30024, 4, 5985) /* Scroll of Alchemy Ineptitude Other VI */
+     , (30024, 4, 5991) /* Scroll of Alchemy Mastery Other VI */
+     , (30024, 4, 5997) /* Scroll of Alchemy Mastery Self VI */
+     , (30024, 4, 3132) /* Scroll of Arcane Benightedness VI */
+     , (30024, 4, 3137) /* Scroll of Arcane Enlightenment VI */
+     , (30024, 4, 3142) /* Scroll of Arcane Enlightenment Self VI */
+     , (30024, 4, 3147) /* Scroll of Armor Tinkering Expertise Other VI */
+     , (30024, 4, 3152) /* Scroll of Armor Tinkering Expertise Self VI */
+     , (30024, 4, 3157) /* Scroll of Armor Tinkering Ignorance VI */
+     , (30024, 4, 3162) /* Scroll of Light Weapon Ineptitude Other VI */
+     , (30024, 4, 3167) /* Scroll of Light Weapon Mastery Other VI */
+     , (30024, 4, 3172) /* Scroll of Light Weapon Mastery Self VI */
+     , (30024, 4, 5949) /* Scroll of Cooking Ineptitude Other VI */
+     , (30024, 4, 5955) /* Scroll of Cooking Mastery Other VI */
+     , (30024, 4, 5961) /* Scroll of Cooking Mastery Self VI */
+     , (30024, 4, 3192) /* Scroll of Creature Enchantment Ineptitude VI */
+     , (30024, 4, 3197) /* Scroll of Creature Enchantment Mastery Other VI */
+     , (30024, 4, 3202) /* Scroll of Creature Enchantment Mastery Self VI */
+     , (30024, 4, 3237) /* Scroll of Deception Ineptitude VI */
+     , (30024, 4, 3242) /* Scroll of Deception Mastery Other VI */
+     , (30024, 4, 3247) /* Scroll of Deception Mastery Self VI */
+     , (30024, 4, 3252) /* Scroll of Defenselessness VI */
+     , (30024, 4, 45241) /* Scroll of Dirty Fighting Ineptitude Other VI */
+     , (30024, 4, 45249) /* Scroll of Dirty Fighting Mastery Other VI */
+     , (30024, 4, 45257) /* Scroll of Dirty Fighting Mastery Self VI */
+     , (30024, 4, 45265) /* Scroll of Dual Wield Ineptitude Other VI */
+     , (30024, 4, 45273) /* Scroll of Dual Wield Mastery Other VI */
+     , (30024, 4, 45281) /* Scroll of Dual Wield Mastery Self VI */
+     , (30024, 4, 3257) /* Scroll of Faithlessness VI */
+     , (30024, 4, 3262) /* Scroll of Fealty Other VI */
+     , (30024, 4, 3267) /* Scroll of Fealty Self VI */
+     , (30024, 4, 3222) /* Scroll of Finesse Weapon Ineptitude Other VI */
+     , (30024, 4, 3227) /* Scroll of Finesse Weapon Mastery Other VI */
+     , (30024, 4, 3232) /* Scroll of Finesse Weapon Mastery Self VI */
+     , (30024, 4, 5967) /* Scroll of Fletching Ineptitude Other VI */
+     , (30024, 4, 5973) /* Scroll of Fletching Mastery Other VI */
+     , (30024, 4, 5979) /* Scroll of Fletching Mastery Self VI */
+     , (30024, 4, 3272) /* Scroll of Healing Ineptitude VI */
+     , (30024, 4, 3277) /* Scroll of Healing Mastery Other VI */
+     , (30024, 4, 3282) /* Scroll of Healing Mastery Self VI */
+     , (30024, 4, 3517) /* Scroll of Heavy Weapon Ineptitude Other VI */
+     , (30024, 4, 3522) /* Scroll of Heavy Weapon Mastery Other VI */
+     , (30024, 4, 3527) /* Scroll of Heavy Weapon Mastery Self VI */
+     , (30024, 4, 3287) /* Scroll of Impregnability Other VI */
+     , (30024, 4, 3292) /* Scroll of Impregnability Self VI */
+     , (30024, 4, 3297) /* Scroll of Invulnerability Other VI */
+     , (30024, 4, 3302) /* Scroll of Invulnerability Self VI */
+     , (30024, 4, 3307) /* Scroll of Item Enchantment Ineptitude VI */
+     , (30024, 4, 3312) /* Scroll of Item Enchantment Mastery Other VI */
+     , (30024, 4, 3317) /* Scroll of Item Enchantment Mastery Self VI */
+     , (30024, 4, 3322) /* Scroll of Item Tinkering Expertise Other VI */
+     , (30024, 4, 3327) /* Scroll of Item Tinkering Expertise Self VI */
+     , (30024, 4, 3332) /* Scroll of Item Tinkering Ignorance VI */
+     , (30024, 4, 9629) /* Scroll of Jumping Ineptitude VI */
+     , (30024, 4, 3337) /* Scroll of Jumping Mastery Other VI */
+     , (30024, 4, 3342) /* Scroll of Jumping Mastery Self VI */
+     , (30024, 4, 3347) /* Scroll of Leaden Feet VI */
+     , (30024, 4, 3352) /* Scroll of Leadership Ineptitude VI */
+     , (30024, 4, 3357) /* Scroll of Leadership Mastery Other VI */
+     , (30024, 4, 3362) /* Scroll of Leadership Mastery Self VI */
+     , (30024, 4, 3367) /* Scroll of Life Magic Ineptitude VI */
+     , (30024, 4, 3372) /* Scroll of Life Magic Mastery Other VI */
+     , (30024, 4, 3377) /* Scroll of Life Magic Mastery Self VI */
+     , (30024, 4, 3382) /* Scroll of Lockpick Ineptitude VI */
+     , (30024, 4, 3387) /* Scroll of Lockpick Mastery Other VI */
+     , (30024, 4, 3392) /* Scroll of Lockpick Mastery Self VI */
+     , (30024, 4, 3412) /* Scroll of Magic Item Tinkering Expertise Other VI */
+     , (30024, 4, 3417) /* Scroll of Magic Item Tinkering Expertise Self VI */
+     , (30024, 4, 3422) /* Scroll of Magic Item Tinkering Ignorance VI */
+     , (30024, 4, 3427) /* Scroll of Magic Yield Other VI */
+     , (30024, 4, 3432) /* Scroll of Mana Mastery Other VI */
+     , (30024, 4, 3437) /* Scroll of Mana Mastery Self VI */
+     , (30024, 4, 9613) /* Scroll of Mana Ineptitude Other VI */
+     , (30024, 4, 3177) /* Scroll of Missile Weapon Ineptitude Other VI */
+     , (30024, 4, 3182) /* Scroll of Missile Weapon Mastery Other VI */
+     , (30024, 4, 3187) /* Scroll of Missile Weapon Mastery Self VI */
+     , (30024, 4, 3442) /* Scroll of Monster Attunement Other VI */
+     , (30024, 4, 5547) /* Scroll of Monster Attunement Self VI */
+     , (30024, 4, 3447) /* Scroll of Monster Unfamiliarity VI */
+     , (30024, 4, 3452) /* Scroll of Person Attunement Other VI */
+     , (30024, 4, 3457) /* Scroll of Person Attunement Self VI */
+     , (30024, 4, 3462) /* Scroll of Person Unfamiliarity VI */
+     , (30024, 4, 45289) /* Scroll of Recklessness Ineptitude Other VI */
+     , (30024, 4, 45297) /* Scroll of Recklessness Mastery Other VI */
+     , (30024, 4, 45305) /* Scroll of Recklessness Mastery Self VI */
+     , (30024, 4, 3467) /* Scroll of Resist Magic Other VI */
+     , (30024, 4, 3472) /* Scroll of Resist Magic Self VI */
+     , (30024, 4, 45313) /* Scroll of Shield Ineptitude Other VI */
+     , (30024, 4, 45321) /* Scroll of Shield Mastery Other VI */
+     , (30024, 4, 45329) /* Scroll of Shield Mastery Self VI */
+     , (30024, 4, 45337) /* Scroll of Sneak Attack Ineptitude Other VI */
+     , (30024, 4, 45345) /* Scroll of Sneak Attack Mastery Other VI */
+     , (30024, 4, 45353) /* Scroll of Sneak Attack Mastery Self VI */
+     , (30024, 4, 3492) /* Scroll of Sprint Other VI */
+     , (30024, 4, 3497) /* Scroll of Sprint Self VI */
+     , (30024, 4, 49461) /* Scroll of Summoning Ineptitude Other VI */
+     , (30024, 4, 49468) /* Scroll of Summoning Mastery Other VI */
+     , (30024, 4, 49475) /* Scroll of Summoning Mastery Self VI */
+     , (30024, 4, 3562) /* Scroll of Vulnerability VI */
+     , (30024, 4, 3567) /* Scroll of War Magic Ineptitude VI */
+     , (30024, 4, 3572) /* Scroll of War Magic Mastery Other VI */
+     , (30024, 4, 3577) /* Scroll of War Magic Mastery Self VI */
+     , (30024, 4, 3582) /* Scroll of Weapon Tinkering Expertise Other VI */
+     , (30024, 4, 3587) /* Scroll of Weapon Tinkering Expertise Self VI */
+     , (30024, 4, 3592) /* Scroll of Weapon Tinkering Ignorance VI */
+     , (30024, 4, 41293) /* Scroll of Two Handed Weapons Ineptitude VI */
+     , (30024, 4, 41301) /* Scroll of Two Handed Weapon Mastery Other VI */
+     , (30024, 4, 41261) /* Scroll of Two Handed Weapon Mastery Self VI */
+     , (30024, 4, 43364) /* Scroll of Void Magic Ineptitude VI */
+     , (30024, 4, 43365) /* Scroll of Void Magic Mastery Other VI */
+     , (30024, 4, 43366) /* Scroll of Void Magic Mastery Self VI */;
 

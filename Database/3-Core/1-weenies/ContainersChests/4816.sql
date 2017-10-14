@@ -52,3 +52,11 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4816, 2, 0) /* OPEN_BOOL */
      , (4816, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4816, 8, 7940) /* Empty Flask */
+     , (4816, 8, 135) /* Turban */
+     , (4816, 8, 31868) /* Signet Crown */
+     , (4816, 8, 150) /* Flagon */;
+

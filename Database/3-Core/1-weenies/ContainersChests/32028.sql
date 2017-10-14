@@ -49,3 +49,15 @@ VALUES (32028, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32028, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32028, 8, 25650) /* Leather Shorts */
+     , (32028, 8, 309) /* Club */
+     , (32028, 8, 6004) /* Koujia Leggings */
+     , (32028, 8, 25644) /* Leather Greaves */
+     , (32028, 8, 40696) /* Covenant Bracers */
+     , (32028, 8, 2412) /* Gem */
+     , (32028, 8, 20179) /* Superb Mana Charge */
+     , (32028, 8, 414) /* Chainmail Breastplate */;
+

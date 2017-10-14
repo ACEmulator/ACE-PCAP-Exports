@@ -52,3 +52,24 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (28437, 2, 0) /* OPEN_BOOL */
      , (28437, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28437, 8, 49284) /* Acid K'nath Essence (100) */
+     , (28437, 8, 41485) /* Pocket Watch */
+     , (28437, 8, 2424) /* Gem */
+     , (28437, 8, 4196) /* Flaming Nekode */
+     , (28437, 8, 22154) /* Acid Jo */
+     , (28437, 8, 554) /* Studded Leather Basinet */
+     , (28437, 8, 45434) /* Flaming Khanjar */
+     , (28437, 8, 20551) /* Scroll of Ar-Pei's Blessing */
+     , (28437, 8, 29260) /* Blunt Sceptre */
+     , (28437, 8, 150) /* Flagon */
+     , (28437, 8, 3905) /* Acid War Hammer */
+     , (28437, 8, 28605) /* Beret */
+     , (28437, 8, 28606) /* Viamontian Pants */
+     , (28437, 8, 130) /* Shirt */
+     , (28437, 8, 31764) /* Lugian Hammer */
+     , (28437, 8, 40714) /* Covenant Tassets */
+     , (28437, 8, 28494) /* Noble Katar */;
+

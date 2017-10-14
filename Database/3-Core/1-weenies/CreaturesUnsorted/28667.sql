@@ -48,3 +48,11 @@ VALUES (28667, 2, 81) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28667, 64, 305) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28667, 8, 307) /* Shortbow */
+     , (28667, 8, 71) /* Chainmail Hauberk */
+     , (28667, 8, 297) /* Ring */
+     , (28667, 8, 273) /* Pyreal */;
+

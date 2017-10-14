@@ -86,3 +86,44 @@ VALUES (1258, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1258, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1258, 8, 30581) /* Mazule */
+     , (1258, 8, 8329) /* Lead Pea */
+     , (1258, 8, 63) /* Studded Leather Girth */
+     , (1258, 8, 1266) /* Key */
+     , (1258, 8, 2888) /* Aura of Hermetic Link Self III */
+     , (1258, 8, 84) /* Studded  Leggings */
+     , (1258, 8, 273) /* Pyreal */
+     , (1258, 8, 25638) /* Leather Vest */
+     , (1258, 8, 254) /* Stoup */
+     , (1258, 8, 2587) /* Shirt */
+     , (1258, 8, 2602) /* Loose Breeches */
+     , (1258, 8, 628) /* Handy Healing Kit */
+     , (1258, 8, 141) /* Bowl */
+     , (1258, 8, 96) /* Chainmail Shirt */
+     , (1258, 8, 5945) /* Scroll of Cooking Ineptitude Other II */
+     , (1258, 8, 4195) /* Nekode */
+     , (1258, 8, 2654) /* Scroll of Endurance Other II */
+     , (1258, 8, 42518) /* Coalesced Mana */
+     , (1258, 8, 2882) /* Aura of Swift Killer Self II */
+     , (1258, 8, 116) /* Studded Leather Boots */
+     , (1258, 8, 629) /* Adept Healing Kit */
+     , (1258, 8, 2782) /* Aura of Blood Drinker Self II */
+     , (1258, 8, 513) /* Plain Lockpick */
+     , (1258, 8, 31779) /* Spine Glaive */
+     , (1258, 8, 30611) /* Knuckles */
+     , (1258, 8, 43355) /* Scroll of Void Magic Ineptitude */
+     , (1258, 8, 7940) /* Empty Flask */
+     , (1258, 8, 12463) /* Atlatl */
+     , (1258, 8, 71) /* Chainmail Hauberk */
+     , (1258, 8, 353) /* Tachi */
+     , (1258, 8, 30589) /* Flaming Flanged Mace */
+     , (1258, 8, 334) /* Nayin */
+     , (1258, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (1258, 8, 31783) /* Frost Claw */
+     , (1258, 8, 2416) /* Gem */
+     , (1258, 8, 38) /* Studded Leather Bracers */
+     , (1258, 8, 25642) /* Leather Gauntlets */;
+

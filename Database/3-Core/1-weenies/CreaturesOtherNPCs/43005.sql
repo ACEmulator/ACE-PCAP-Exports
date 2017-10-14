@@ -132,6 +132,6 @@ VALUES (43005, 64, 6130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43005, 2, 32637)
-     , (43005, 2, 32852);
+VALUES (43005, 2, 32637) /* Shield of Elysa's Royal Guard */
+     , (43005, 2, 32852) /* Blade of the Realm */;
 

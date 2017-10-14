@@ -37,3 +37,21 @@ VALUES (22802, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22802, 19, True) /* ATTACKABLE_BOOL */
      , (22802, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22802, 8, 49345) /* Lightning Moar Essence (50) */
+     , (22802, 8, 3310) /* Scroll of Item Enchantment Mastery Other IV */
+     , (22802, 8, 31778) /* Frost Spine Glaive */
+     , (22802, 8, 3938) /* Frost Morning Star */
+     , (22802, 8, 21305) /* Scroll of Flame Arc IV */
+     , (22802, 8, 25645) /* Leather Leggings */
+     , (22802, 8, 45421) /* Dagger */
+     , (22802, 8, 629) /* Adept Healing Kit */
+     , (22802, 8, 297) /* Ring */
+     , (22802, 8, 363) /* Yumi */
+     , (22802, 8, 25638) /* Leather Vest */
+     , (22802, 8, 2601) /* Loose Pants */
+     , (22802, 8, 31792) /* Frost Stick */
+     , (22802, 8, 379) /* Mana Potion */;
+

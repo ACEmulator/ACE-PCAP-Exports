@@ -86,3 +86,145 @@ VALUES (19262, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (19262, 64, 47) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19262, 8, 91) /* Kite Shield */
+     , (19262, 8, 42) /* Studded Leather Breastplate */
+     , (19262, 8, 31774) /* Board with Nail */
+     , (19262, 8, 2419) /* Gem */
+     , (19262, 8, 3777) /* Frost Dabus */
+     , (19262, 8, 27331) /* Minor Mana Stone */
+     , (19262, 8, 3249) /* Scroll of Defenselessness III */
+     , (19262, 8, 1887) /* Scroll of Impenetrability */
+     , (19262, 8, 513) /* Plain Lockpick */
+     , (19262, 8, 40635) /* Tetsubo */
+     , (19262, 8, 296) /* Crown */
+     , (19262, 8, 28605) /* Beret */
+     , (19262, 8, 49366) /* Acid Grievver Essence (50) */
+     , (19262, 8, 118) /* Cloth Cap */
+     , (19262, 8, 25647) /* Leather Pants */
+     , (19262, 8, 31767) /* Flaming Lugian Hammer */
+     , (19262, 8, 294) /* Amulet */
+     , (19262, 8, 49380) /* Fire Grievver Essence (50) */
+     , (19262, 8, 25642) /* Leather Gauntlets */
+     , (19262, 8, 2591) /* Puffy Shirt */
+     , (19262, 8, 59) /* Studded Leather Gauntlets */
+     , (19262, 8, 2817) /* Scroll of Flame Lure II */
+     , (19262, 8, 25639) /* Leather Jerkin */
+     , (19262, 8, 3123) /* Scroll of Rejuvenate Self II */
+     , (19262, 8, 25643) /* Leather Girth */
+     , (19262, 8, 25661) /* Leather Boots */
+     , (19262, 8, 273) /* Pyreal */
+     , (19262, 8, 3338) /* Scroll of Jumping Mastery Self II */
+     , (19262, 8, 2418) /* Gem */
+     , (19262, 8, 363) /* Yumi */
+     , (19262, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (19262, 8, 25651) /* Leather Sleeves */
+     , (19262, 8, 22159) /* Acid Nabut */
+     , (19262, 8, 40636) /* Acid Tetsubo */
+     , (19262, 8, 44) /* Buckler */
+     , (19262, 8, 121) /* Gloves */
+     , (19262, 8, 13222) /* Peppermint Stick */
+     , (19262, 8, 311) /* Heavy Crossbow */
+     , (19262, 8, 41488) /* Top */
+     , (19262, 8, 25638) /* Leather Vest */
+     , (19262, 8, 133) /* Slippers */
+     , (19262, 8, 22167) /* Frost Quarter Staff */
+     , (19262, 8, 2589) /* Smock */
+     , (19262, 8, 49338) /* Acid Moar Essence (50) */
+     , (19262, 8, 2737) /* Scroll of Strength Other II */
+     , (19262, 8, 45112) /* Shadow Blade of Frost */
+     , (19262, 8, 2366) /* Orb */
+     , (19262, 8, 45119) /* Acid Hand Wraps */
+     , (19262, 8, 628) /* Handy Healing Kit */
+     , (19262, 8, 2417) /* Gem */
+     , (19262, 8, 41485) /* Pocket Watch */
+     , (19262, 8, 108) /* Chainmail Tassets */
+     , (19262, 8, 25646) /* Long Leather Gauntlets */
+     , (19262, 8, 49435) /* Fire Spectre Essence (50) */
+     , (19262, 8, 40763) /* Flaming Nodachi */
+     , (19262, 8, 45115) /* Lightning Hammer */
+     , (19262, 8, 168) /* Tankard */
+     , (19262, 8, 20854) /* Academy Stamp */
+     , (19262, 8, 41487) /* Mechanical Scarab */
+     , (19262, 8, 378) /* Stamina Potion */
+     , (19262, 8, 45122) /* Frost Hand Wraps */
+     , (19262, 8, 415) /* Chainmail Girth */
+     , (19262, 8, 7796) /* Fire Naginata */
+     , (19262, 8, 42518) /* Coalesced Mana */
+     , (19262, 8, 297) /* Ring */
+     , (19262, 8, 25649) /* Leather Shirt */
+     , (19262, 8, 2599) /* Trousers */
+     , (19262, 8, 413) /* Chainmail Bracers */
+     , (19262, 8, 1889) /* Scroll of Lightning Bane */
+     , (19262, 8, 21316) /* Scroll of Frost Arc I */
+     , (19262, 8, 3916) /* Frost Yari */
+     , (19262, 8, 4385) /* Scroll of Armor Other II */
+     , (19262, 8, 339) /* Scimitar */
+     , (19262, 8, 45286) /* Scroll of Recklessness Ineptitude Other III */
+     , (19262, 8, 3259) /* Scroll of Fealty Other III */
+     , (19262, 8, 1683) /* Scroll of Armor Tinkering Expertise Self */
+     , (19262, 8, 8329) /* Lead Pea */
+     , (19262, 8, 30242) /* Ben Ten's Crystal */
+     , (19262, 8, 49538) /* Frost Phyntos Wasp Essence (50) */
+     , (19262, 8, 624) /* Ring */
+     , (19262, 8, 31795) /* Acid Lancet */
+     , (19262, 8, 85) /* Chainmail Coif */
+     , (19262, 8, 31769) /* Lugian Axe */
+     , (19262, 8, 2457) /* Health Draught */
+     , (19262, 8, 49296) /* Fire K'nath Essence (50) */
+     , (19262, 8, 25645) /* Leather Leggings */
+     , (19262, 8, 31793) /* Frost Lancet */
+     , (19262, 8, 41484) /* Goggles */
+     , (19262, 8, 254) /* Stoup */
+     , (19262, 8, 48972) /* Acid Zombie Essence (50) */
+     , (19262, 8, 96) /* Chainmail Shirt */
+     , (19262, 8, 49485) /* Encapsulated Spirit */
+     , (19262, 8, 2605) /* Chainmail Greaves */
+     , (19262, 8, 92) /* Large Kite Shield */
+     , (19262, 8, 3908) /* Frost War Hammer */
+     , (19262, 8, 1890) /* Scroll of Lightning Lure */
+     , (19262, 8, 41046) /* Pike */
+     , (19262, 8, 243) /* Dinner Plate */
+     , (19262, 8, 41060) /* Flaming Great Star Mace */
+     , (19262, 8, 45285) /* Scroll of Recklessness Ineptitude Other II */
+     , (19262, 8, 25637) /* Leather Bracers */
+     , (19262, 8, 4190) /* Cestus */
+     , (19262, 8, 49310) /* Acid Wisp Essence (50) */
+     , (19262, 8, 116) /* Studded Leather Boots */
+     , (19262, 8, 80) /* Chainmail Leggings */
+     , (19262, 8, 2415) /* Gem */
+     , (19262, 8, 49331) /* Frost Wisp Essence (50) */
+     , (19262, 8, 7940) /* Empty Flask */
+     , (19262, 8, 45) /* Leather Cap */
+     , (19262, 8, 45121) /* Flaming Hand Wraps */
+     , (19262, 8, 30612) /* Lightning Knuckles */
+     , (19262, 8, 2595) /* Baggy Tunic */
+     , (19262, 8, 9661) /* Scroll of Drain Mana Other II */
+     , (19262, 8, 22168) /* Hefty Walking Cane */
+     , (19262, 8, 9609) /* Scroll of Mana Ineptitude Other II */
+     , (19262, 8, 334) /* Nayin */
+     , (19262, 8, 41052) /* Greataxe */
+     , (19262, 8, 28609) /* Vest */
+     , (19262, 8, 416) /* Chainmail Pauldrons */
+     , (19262, 8, 5901) /* Kasa */
+     , (19262, 8, 7768) /* Spiked Club */
+     , (19262, 8, 63) /* Studded Leather Girth */
+     , (19262, 8, 28612) /* Bandana */
+     , (19262, 8, 49359) /* Frost Moar Essence (50) */
+     , (19262, 8, 12463) /* Atlatl */
+     , (19262, 8, 45114) /* Acid Hammer */
+     , (19262, 8, 31763) /* Frost Lugian Hammer */
+     , (19262, 8, 2604) /* Wide Breeches */
+     , (19262, 8, 112) /* Studded Leather Tassets */
+     , (19262, 8, 2460) /* Mana Draught */
+     , (19262, 8, 148) /* Cup */
+     , (19262, 8, 31784) /* Claw */
+     , (19262, 8, 40820) /* Lightning Corsesca */
+     , (19262, 8, 545) /* Reliable Lockpick */
+     , (19262, 8, 3193) /* Scroll of Creature Enchantment Mastery Other II */
+     , (19262, 8, 3804) /* Flaming Jitte */
+     , (19262, 8, 25648) /* Leather Pauldrons */
+     , (19262, 8, 2434) /* Lesser Mana Stone */;
+

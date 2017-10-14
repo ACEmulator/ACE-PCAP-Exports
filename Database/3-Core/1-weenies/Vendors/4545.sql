@@ -124,17 +124,17 @@ VALUES (4545, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4545, 4, 364)
-     , (4545, 4, 365)
-     , (4545, 4, 367)
-     , (4545, 4, 5585)
-     , (4545, 4, 5856)
-     , (4545, 4, 7884)
-     , (4545, 4, 14797)
-     , (4545, 4, 5586)
-     , (4545, 4, 24855)
-     , (4545, 4, 5587)
-     , (4545, 4, 5601)
-     , (4545, 4, 5602)
-     , (4545, 4, 6419);
+VALUES (4545, 4, 364) /* Book */
+     , (4545, 4, 365) /* Parchment */
+     , (4545, 4, 367) /* Tome */
+     , (4545, 4, 5585) /* Sho Cookbook */
+     , (4545, 4, 5856) /* Specialty Cookbook */
+     , (4545, 4, 7884) /* Chocolate Cookbook */
+     , (4545, 4, 14797) /* Festival Cookbook */
+     , (4545, 4, 5586) /* Alchemy Guide */
+     , (4545, 4, 24855) /* The New Alchemy */
+     , (4545, 4, 5587) /* Fletching Guide */
+     , (4545, 4, 5601) /* Altar of Asheron Rumor */
+     , (4545, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (4545, 4, 6419) /* The Meeting Halls */;
 

@@ -123,136 +123,136 @@ VALUES (30023, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30023, 4, 15268)
-     , (30023, 4, 28944)
-     , (30023, 4, 28937)
-     , (30023, 4, 2637)
-     , (30023, 4, 2642)
-     , (30023, 4, 2647)
-     , (30023, 4, 2652)
-     , (30023, 4, 2657)
-     , (30023, 4, 2662)
-     , (30023, 4, 2672)
-     , (30023, 4, 2677)
-     , (30023, 4, 2680)
-     , (30023, 4, 2685)
-     , (30023, 4, 2715)
-     , (30023, 4, 2720)
-     , (30023, 4, 2735)
-     , (30023, 4, 2740)
-     , (30023, 4, 2745)
-     , (30023, 4, 2750)
-     , (30023, 4, 2755)
-     , (30023, 4, 2760)
-     , (30023, 4, 5984)
-     , (30023, 4, 5990)
-     , (30023, 4, 5996)
-     , (30023, 4, 3131)
-     , (30023, 4, 3136)
-     , (30023, 4, 3141)
-     , (30023, 4, 3146)
-     , (30023, 4, 3151)
-     , (30023, 4, 3156)
-     , (30023, 4, 3161)
-     , (30023, 4, 3166)
-     , (30023, 4, 3171)
-     , (30023, 4, 5948)
-     , (30023, 4, 5954)
-     , (30023, 4, 5960)
-     , (30023, 4, 3191)
-     , (30023, 4, 3196)
-     , (30023, 4, 3201)
-     , (30023, 4, 3236)
-     , (30023, 4, 3241)
-     , (30023, 4, 3246)
-     , (30023, 4, 3251)
-     , (30023, 4, 45240)
-     , (30023, 4, 45248)
-     , (30023, 4, 45256)
-     , (30023, 4, 45264)
-     , (30023, 4, 45272)
-     , (30023, 4, 45280)
-     , (30023, 4, 3256)
-     , (30023, 4, 3261)
-     , (30023, 4, 3266)
-     , (30023, 4, 3221)
-     , (30023, 4, 3226)
-     , (30023, 4, 3231)
-     , (30023, 4, 5966)
-     , (30023, 4, 5972)
-     , (30023, 4, 5978)
-     , (30023, 4, 3271)
-     , (30023, 4, 3276)
-     , (30023, 4, 3281)
-     , (30023, 4, 3516)
-     , (30023, 4, 3521)
-     , (30023, 4, 3526)
-     , (30023, 4, 3286)
-     , (30023, 4, 3291)
-     , (30023, 4, 3296)
-     , (30023, 4, 3301)
-     , (30023, 4, 3306)
-     , (30023, 4, 3311)
-     , (30023, 4, 3316)
-     , (30023, 4, 3321)
-     , (30023, 4, 3326)
-     , (30023, 4, 3331)
-     , (30023, 4, 9628)
-     , (30023, 4, 3336)
-     , (30023, 4, 3341)
-     , (30023, 4, 3346)
-     , (30023, 4, 3351)
-     , (30023, 4, 3356)
-     , (30023, 4, 3361)
-     , (30023, 4, 3366)
-     , (30023, 4, 3371)
-     , (30023, 4, 3376)
-     , (30023, 4, 3381)
-     , (30023, 4, 3386)
-     , (30023, 4, 3391)
-     , (30023, 4, 3411)
-     , (30023, 4, 3416)
-     , (30023, 4, 3421)
-     , (30023, 4, 3426)
-     , (30023, 4, 3431)
-     , (30023, 4, 3436)
-     , (30023, 4, 9612)
-     , (30023, 4, 3176)
-     , (30023, 4, 3181)
-     , (30023, 4, 3186)
-     , (30023, 4, 3441)
-     , (30023, 4, 5546)
-     , (30023, 4, 3446)
-     , (30023, 4, 3451)
-     , (30023, 4, 3456)
-     , (30023, 4, 3461)
-     , (30023, 4, 45288)
-     , (30023, 4, 45296)
-     , (30023, 4, 45304)
-     , (30023, 4, 3466)
-     , (30023, 4, 3471)
-     , (30023, 4, 45312)
-     , (30023, 4, 45320)
-     , (30023, 4, 45328)
-     , (30023, 4, 45336)
-     , (30023, 4, 45344)
-     , (30023, 4, 45352)
-     , (30023, 4, 3491)
-     , (30023, 4, 3496)
-     , (30023, 4, 49460)
-     , (30023, 4, 49467)
-     , (30023, 4, 49474)
-     , (30023, 4, 3561)
-     , (30023, 4, 3566)
-     , (30023, 4, 3571)
-     , (30023, 4, 3576)
-     , (30023, 4, 3581)
-     , (30023, 4, 3586)
-     , (30023, 4, 3591)
-     , (30023, 4, 41292)
-     , (30023, 4, 41300)
-     , (30023, 4, 41260)
-     , (30023, 4, 43361)
-     , (30023, 4, 43362)
-     , (30023, 4, 43363);
+VALUES (30023, 4, 15268) /* Foci of Enchantment */
+     , (30023, 4, 28944) /* Scroll of Arcanum Enlightenment V */
+     , (30023, 4, 28937) /* Scroll of Arcanum Salvaging V */
+     , (30023, 4, 2637) /* Scroll of Bafflement Other V */
+     , (30023, 4, 2642) /* Scroll of Clumsiness Other V */
+     , (30023, 4, 2647) /* Scroll of Coordination Other V */
+     , (30023, 4, 2652) /* Scroll of Coordination Self V */
+     , (30023, 4, 2657) /* Scroll of Endurance Other V */
+     , (30023, 4, 2662) /* Scroll of Endurance Self V */
+     , (30023, 4, 2672) /* Scroll of Feeblemind Other V */
+     , (30023, 4, 2677) /* Scroll of Focus Other V */
+     , (30023, 4, 2680) /* Scroll of Focus Self V */
+     , (30023, 4, 2685) /* Scroll of Frailty Other V */
+     , (30023, 4, 2715) /* Scroll of Quickness Other V */
+     , (30023, 4, 2720) /* Scroll of Quickness Self V */
+     , (30023, 4, 2735) /* Scroll of Slowness Other V */
+     , (30023, 4, 2740) /* Scroll of Strength Other V */
+     , (30023, 4, 2745) /* Scroll of Self Strength V */
+     , (30023, 4, 2750) /* Scroll of Weakness Other V */
+     , (30023, 4, 2755) /* Scroll of Willpower Other V */
+     , (30023, 4, 2760) /* Scroll of Willpower Self V */
+     , (30023, 4, 5984) /* Scroll of Alchemy Ineptitude Other V */
+     , (30023, 4, 5990) /* Scroll of Alchemy Mastery Other V */
+     , (30023, 4, 5996) /* Scroll of Alchemy Mastery Self V */
+     , (30023, 4, 3131) /* Scroll of Arcane Benightedness V */
+     , (30023, 4, 3136) /* Scroll of Arcane Enlightenment V */
+     , (30023, 4, 3141) /* Scroll of Arcane Enlightenment Self V */
+     , (30023, 4, 3146) /* Scroll of Armor Tinkering Expertise Other V */
+     , (30023, 4, 3151) /* Scroll of Armor Tinkering Expertise Self V */
+     , (30023, 4, 3156) /* Scroll of Armor Tinkering Ignorance V */
+     , (30023, 4, 3161) /* Scroll of Light Weapon Ineptitude Other V */
+     , (30023, 4, 3166) /* Scroll of Light Weapon Mastery Other V */
+     , (30023, 4, 3171) /* Scroll of Light Weapon Mastery Self V */
+     , (30023, 4, 5948) /* Scroll of Cooking Ineptitude Other V */
+     , (30023, 4, 5954) /* Scroll of Cooking Mastery Other V */
+     , (30023, 4, 5960) /* Scroll of Cooking Mastery Self V */
+     , (30023, 4, 3191) /* Scroll of Creature Enchantment Ineptitude V */
+     , (30023, 4, 3196) /* Scroll of Creature Enchantment Mastery Other V */
+     , (30023, 4, 3201) /* Scroll of Creature Enchantment Mastery Self V */
+     , (30023, 4, 3236) /* Scroll of Deception Ineptitude V */
+     , (30023, 4, 3241) /* Scroll of Deception Mastery Other V */
+     , (30023, 4, 3246) /* Scroll of Deception Mastery Self V */
+     , (30023, 4, 3251) /* Scroll of Defenselessness V */
+     , (30023, 4, 45240) /* Scroll of Dirty Fighting Ineptitude Other V */
+     , (30023, 4, 45248) /* Scroll of Dirty Fighting Mastery Other V */
+     , (30023, 4, 45256) /* Scroll of Dirty Fighting Mastery Self V */
+     , (30023, 4, 45264) /* Scroll of Dual Wield Ineptitude Other V */
+     , (30023, 4, 45272) /* Scroll of Dual Wield Mastery Other V */
+     , (30023, 4, 45280) /* Scroll of Dual Wield Mastery Self V */
+     , (30023, 4, 3256) /* Scroll of Faithlessness V */
+     , (30023, 4, 3261) /* Scroll of Fealty Other V */
+     , (30023, 4, 3266) /* Scroll of Fealty Self V */
+     , (30023, 4, 3221) /* Scroll of Finesse Weapon Ineptitude Other V */
+     , (30023, 4, 3226) /* Scroll of Finesse Weapon Mastery Other V */
+     , (30023, 4, 3231) /* Scroll of Finesse Weapon Mastery Self V */
+     , (30023, 4, 5966) /* Scroll of Fletching Ineptitude Other V */
+     , (30023, 4, 5972) /* Scroll of Fletching Mastery Other V */
+     , (30023, 4, 5978) /* Scroll of Fletching Mastery Self V */
+     , (30023, 4, 3271) /* Scroll of Healing Ineptitude V */
+     , (30023, 4, 3276) /* Scroll of Healing Mastery Other V */
+     , (30023, 4, 3281) /* Scroll of Healing Mastery Self V */
+     , (30023, 4, 3516) /* Scroll of Heavy Weapon Ineptitude Other V */
+     , (30023, 4, 3521) /* Scroll of Heavy Weapon Mastery Other V */
+     , (30023, 4, 3526) /* Scroll of Heavy Weapon Mastery Self V */
+     , (30023, 4, 3286) /* Scroll of Impregnability Other V */
+     , (30023, 4, 3291) /* Scroll of Impregnability Self V */
+     , (30023, 4, 3296) /* Scroll of Invulnerability Other V */
+     , (30023, 4, 3301) /* Scroll of Invulnerability Self V */
+     , (30023, 4, 3306) /* Scroll of Item Enchantment Ineptitude V */
+     , (30023, 4, 3311) /* Scroll of Item Enchantment Mastery Other V */
+     , (30023, 4, 3316) /* Scroll of Item Enchantment Mastery Self V */
+     , (30023, 4, 3321) /* Scroll of Item Tinkering Expertise Other V */
+     , (30023, 4, 3326) /* Scroll of Item Tinkering Expertise Self V */
+     , (30023, 4, 3331) /* Scroll of Item Tinkering Ignorance V */
+     , (30023, 4, 9628) /* Scroll of Jumping Ineptitude V */
+     , (30023, 4, 3336) /* Scroll of Jumping Mastery Other V */
+     , (30023, 4, 3341) /* Scroll of Jumping Mastery Self V */
+     , (30023, 4, 3346) /* Scroll of Leaden Feet V */
+     , (30023, 4, 3351) /* Scroll of Leadership Ineptitude V */
+     , (30023, 4, 3356) /* Scroll of Leadership Mastery Other V */
+     , (30023, 4, 3361) /* Scroll of Leadership Mastery Self V */
+     , (30023, 4, 3366) /* Scroll of Life Magic Ineptitude V */
+     , (30023, 4, 3371) /* Scroll of Life Magic Mastery Other V */
+     , (30023, 4, 3376) /* Scroll of Life Magic Mastery Self V */
+     , (30023, 4, 3381) /* Scroll of Lockpick Ineptitude V */
+     , (30023, 4, 3386) /* Scroll of Lockpick Mastery Other V */
+     , (30023, 4, 3391) /* Scroll of Lockpick Mastery Self V */
+     , (30023, 4, 3411) /* Scroll of Magic Item Tinkering Expertise Other V */
+     , (30023, 4, 3416) /* Scroll of Magic Item Tinkering Expertise Self V */
+     , (30023, 4, 3421) /* Scroll of Magic Item Tinkering Ignorance V */
+     , (30023, 4, 3426) /* Scroll of Magic Yield Other V */
+     , (30023, 4, 3431) /* Scroll of Mana Mastery Other V */
+     , (30023, 4, 3436) /* Scroll of Mana Mastery Self V */
+     , (30023, 4, 9612) /* Scroll of Mana Ineptitude Other V */
+     , (30023, 4, 3176) /* Scroll of Missile Weapon Ineptitude Other V */
+     , (30023, 4, 3181) /* Scroll of Missile Weapon Mastery Other V */
+     , (30023, 4, 3186) /* Scroll of Missile Weapon Mastery Self V */
+     , (30023, 4, 3441) /* Scroll of Monster Attunement Other V */
+     , (30023, 4, 5546) /* Scroll of Monster Attunement Self V */
+     , (30023, 4, 3446) /* Scroll of Monster Unfamiliarity V */
+     , (30023, 4, 3451) /* Scroll of Person Attunement Other V */
+     , (30023, 4, 3456) /* Scroll of Person Attunement Self V */
+     , (30023, 4, 3461) /* Scroll of Person Unfamiliarity V */
+     , (30023, 4, 45288) /* Scroll of Recklessness Ineptitude Other V */
+     , (30023, 4, 45296) /* Scroll of Recklessness Mastery Other V */
+     , (30023, 4, 45304) /* Scroll of Recklessness Mastery Self V */
+     , (30023, 4, 3466) /* Scroll of Resist Magic Other V */
+     , (30023, 4, 3471) /* Scroll of Resist Magic Self V */
+     , (30023, 4, 45312) /* Scroll of Shield Ineptitude Other V */
+     , (30023, 4, 45320) /* Scroll of Shield Mastery Other V */
+     , (30023, 4, 45328) /* Scroll of Shield Mastery Self V */
+     , (30023, 4, 45336) /* Scroll of Sneak Attack Ineptitude Other V */
+     , (30023, 4, 45344) /* Scroll of Sneak Attack Mastery Other V */
+     , (30023, 4, 45352) /* Scroll of Sneak Attack Mastery Self V */
+     , (30023, 4, 3491) /* Scroll of Sprint Other V */
+     , (30023, 4, 3496) /* Scroll of Sprint Self V */
+     , (30023, 4, 49460) /* Scroll of Summoning Ineptitude Other V */
+     , (30023, 4, 49467) /* Scroll of Summoning Mastery Other V */
+     , (30023, 4, 49474) /* Scroll of Summoning Mastery Self V */
+     , (30023, 4, 3561) /* Scroll of Vulnerability V */
+     , (30023, 4, 3566) /* Scroll of War Magic Ineptitude V */
+     , (30023, 4, 3571) /* Scroll of War Magic Mastery Other V */
+     , (30023, 4, 3576) /* Scroll of War Magic Mastery Self V */
+     , (30023, 4, 3581) /* Scroll of Weapon Tinkering Expertise Other V */
+     , (30023, 4, 3586) /* Scroll of Weapon Tinkering Expertise Self V */
+     , (30023, 4, 3591) /* Scroll of Weapon Tinkering Ignorance V */
+     , (30023, 4, 41292) /* Scroll of Two Handed Weapons Ineptitude V */
+     , (30023, 4, 41300) /* Scroll of Two Handed Weapon Mastery Other V */
+     , (30023, 4, 41260) /* Scroll of Two Handed Weapon Mastery Self V */
+     , (30023, 4, 43361) /* Scroll of Void Magic Ineptitude V */
+     , (30023, 4, 43362) /* Scroll of Void Magic Mastery Other V */
+     , (30023, 4, 43363) /* Scroll of Void Magic Mastery Self V */;
 

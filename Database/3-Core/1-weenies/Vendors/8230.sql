@@ -128,26 +128,26 @@ VALUES (8230, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (8230, 4, 136)
-     , (8230, 4, 139)
-     , (8230, 4, 262)
-     , (8230, 4, 4763)
-     , (8230, 4, 264)
-     , (8230, 4, 547)
-     , (8230, 4, 5758)
-     , (8230, 4, 1449)
-     , (8230, 4, 4761)
-     , (8230, 4, 4746)
-     , (8230, 4, 14777)
-     , (8230, 4, 4754)
-     , (8230, 4, 4757)
-     , (8230, 4, 2457)
-     , (8230, 4, 377)
-     , (8230, 4, 2460)
-     , (8230, 4, 379)
-     , (8230, 4, 378)
-     , (8230, 4, 27326)
-     , (8230, 4, 628)
-     , (8230, 4, 629)
-     , (8230, 4, 293);
+VALUES (8230, 4, 136) /* Pack */
+     , (8230, 4, 139) /* Small Belt Pouch */
+     , (8230, 4, 262) /* Chicken */
+     , (8230, 4, 4763) /* Honey */
+     , (8230, 4, 264) /* Grapes */
+     , (8230, 4, 547) /* Brimstone-cap Mushroom */
+     , (8230, 4, 5758) /* Carrot */
+     , (8230, 4, 1449) /* Royal Cabbage */
+     , (8230, 4, 4761) /* Flour */
+     , (8230, 4, 4746) /* Water */
+     , (8230, 4, 14777) /* Cookie Cutter */
+     , (8230, 4, 4754) /* Baking Pan */
+     , (8230, 4, 4757) /* Carving Knife */
+     , (8230, 4, 2457) /* Health Draught */
+     , (8230, 4, 377) /* Potion of Healing */
+     , (8230, 4, 2460) /* Mana Draught */
+     , (8230, 4, 379) /* Mana Potion */
+     , (8230, 4, 378) /* Stamina Potion */
+     , (8230, 4, 27326) /* Stamina Tincture */
+     , (8230, 4, 628) /* Handy Healing Kit */
+     , (8230, 4, 629) /* Adept Healing Kit */
+     , (8230, 4, 293) /* Torch */;
 

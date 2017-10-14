@@ -41,3 +41,12 @@ VALUES (12681, 2, 48) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12681, 64, 205) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12681, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (12681, 8, 2393) /* Gem */
+     , (12681, 8, 2588) /* Flared Shirt */
+     , (12681, 8, 5901) /* Kasa */
+     , (12681, 8, 2422) /* Gem */;
+

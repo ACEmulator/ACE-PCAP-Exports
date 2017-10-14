@@ -48,3 +48,37 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (36173, 0, 16778207)
      , (36173, 1, 16778211);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36173, 8, 621) /* Heavy Bracelet */
+     , (36173, 8, 21159) /* Covenant Tassets */
+     , (36173, 8, 28605) /* Beret */
+     , (36173, 8, 20469) /* Scroll of Blessing of the Blade Turner */
+     , (36173, 8, 31771) /* Lightning War Axe */
+     , (36173, 8, 2587) /* Shirt */
+     , (36173, 8, 31865) /* Circlet */
+     , (36173, 8, 516) /* Peerless Lockpick */
+     , (36173, 8, 3835) /* Lightning Mace */
+     , (36173, 8, 95) /* Tower Shield */
+     , (36173, 8, 27328) /* Major Mana Stone */
+     , (36173, 8, 35383) /* Ancient Mhoire Coin */
+     , (36173, 8, 36171) /* DeathTail's Fang */
+     , (36173, 8, 20403) /* Scroll of Olthoi Bait */
+     , (36173, 8, 25637) /* Leather Bracers */
+     , (36173, 8, 25636) /* Leather Helm */
+     , (36173, 8, 2410) /* Gem */
+     , (36173, 8, 2409) /* Gem */
+     , (36173, 8, 25638) /* Leather Vest */
+     , (36173, 8, 27223) /* Lorica Helm */
+     , (36173, 8, 22164) /* Acid Quarter Staff */
+     , (36173, 8, 142) /* Chalice */
+     , (36173, 8, 20486) /* Scroll of Enervation */
+     , (36173, 8, 297) /* Ring */
+     , (36173, 8, 6046) /* Amuli Coat */
+     , (36173, 8, 723) /* Studded Leather Cowl */
+     , (36173, 8, 20531) /* Scroll of Lilitha's Blessing */
+     , (36173, 8, 20491) /* Scroll of Hydra's Head */
+     , (36173, 8, 20585) /* Scroll of Heavy Weapon Mastery Other VII */
+     , (36173, 8, 106) /* Yoroi Sleeves */;
+

@@ -50,3 +50,23 @@ VALUES (12000, 2, 23) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12000, 64, 186) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12000, 8, 42518) /* Coalesced Mana */
+     , (12000, 8, 45422) /* Acid Dagger */
+     , (12000, 8, 631) /* Excellent Healing Kit */
+     , (12000, 8, 9412) /* Dire Mattekar Paw */
+     , (12000, 8, 49310) /* Acid Wisp Essence (50) */
+     , (12000, 8, 2588) /* Flared Shirt */
+     , (12000, 8, 27322) /* Mana Tincture */
+     , (12000, 8, 8934) /* Scroll of Force Streak VI */
+     , (12000, 8, 2401) /* Gem */
+     , (12000, 8, 332) /* Morning Star */
+     , (12000, 8, 23593) /* Robe of the Tundra */
+     , (12000, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (12000, 8, 30600) /* Acid Poniard */
+     , (12000, 8, 2458) /* Health Elixir */
+     , (12000, 8, 40708) /* Covenant Gauntlets */
+     , (12000, 8, 112) /* Studded Leather Tassets */;
+
