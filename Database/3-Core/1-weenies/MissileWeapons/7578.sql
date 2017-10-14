@@ -51,5 +51,3 @@ VALUES (7578, 5, 500) /* ENCUMB_VAL_INT */
      , (7578, 12, 1) /* STACK_SIZE_INT */
      , (7578, 19, 1) /* VALUE_INT */;
 
-/* Corpse Treasure List */
-

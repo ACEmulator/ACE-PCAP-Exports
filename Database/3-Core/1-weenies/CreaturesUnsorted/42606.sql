@@ -91,5 +91,3 @@ VALUES (42606, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (42606, 64, 890) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Corpse Treasure List */
-

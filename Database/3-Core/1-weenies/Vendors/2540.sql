@@ -251,5 +251,3 @@ VALUES (2540, 4, 5940) /* Smelting Pot */
      , (2540, 4, 9060) /* Titan Mana Charge */
      , (2540, 4, 27329) /* Massive Mana Charge */;
 
-/* Corpse Treasure List */
-

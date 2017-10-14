@@ -38,5 +38,3 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (42881, 19, 125) /* VALUE_INT */
      , (42881, 5, 9000) /* ENCUMB_VAL_INT */;
 
-/* Corpse Treasure List */
-

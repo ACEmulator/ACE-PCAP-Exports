@@ -49,5 +49,3 @@ VALUES (23594, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (23594, 2, 0) /* OPEN_BOOL */;
 
-/* Chest Treasure List */
-

@@ -37,5 +37,3 @@ VALUES (4876, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4876, 19, True) /* ATTACKABLE_BOOL */
      , (4876, 1, True) /* STUCK_BOOL */;
 
-/* Chest Treasure List */
-

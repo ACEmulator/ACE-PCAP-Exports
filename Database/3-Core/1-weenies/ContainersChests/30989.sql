@@ -49,8 +49,6 @@ VALUES (30989, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30989, 2, 0) /* OPEN_BOOL */;
 
-/* Corpse Treasure List */
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

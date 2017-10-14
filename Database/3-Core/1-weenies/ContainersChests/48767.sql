@@ -49,5 +49,3 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (48767, 0, 16778639)
      , (48767, 1, 16778642);
 
-/* Chest Treasure List */
-

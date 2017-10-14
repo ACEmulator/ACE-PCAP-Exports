@@ -46,5 +46,3 @@ VALUES (51378, 67113366, 0, 0);
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
 VALUES (51378, 2, 11971) /* Buadren */;
 
-/* Corpse Treasure List */
-

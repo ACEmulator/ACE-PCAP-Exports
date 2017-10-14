@@ -58,8 +58,6 @@ VALUES (8514, 2, 0) /* OPEN_BOOL */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (8514, 1432) /* FocusOther6_SpellID */;
 
-/* Corpse Treasure List */
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

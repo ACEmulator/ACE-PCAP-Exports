@@ -36,5 +36,3 @@ VALUES (41807, 13, True) /* ETHEREAL_BOOL */
      , (41807, 19, True) /* ATTACKABLE_BOOL */
      , (41807, 1, True) /* STUCK_BOOL */;
 
-/* Chest Treasure List */
-

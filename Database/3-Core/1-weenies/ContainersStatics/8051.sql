@@ -50,5 +50,3 @@ VALUES (8051, 19, 0) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8051, 2, 0) /* OPEN_BOOL */;
 
-/* Chest Treasure List */
-

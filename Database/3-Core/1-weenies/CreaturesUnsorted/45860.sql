@@ -45,5 +45,3 @@ VALUES (45860, 2, 48) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (45860, 64, 1300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Corpse Treasure List */
-

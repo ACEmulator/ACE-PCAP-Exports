@@ -53,5 +53,3 @@ VALUES (47205, 64, 9540) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
 VALUES (47205, 2, 47187) /* Khopesh */;
 
-/* Corpse Treasure List */
-

@@ -44,5 +44,3 @@ VALUES (29415, 67115468, 0, 0);
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
 VALUES (29415, 2, 29976) /* Spadone */;
 
-/* Corpse Treasure List */
-

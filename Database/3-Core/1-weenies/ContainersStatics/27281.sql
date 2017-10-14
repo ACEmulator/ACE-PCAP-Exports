@@ -49,5 +49,3 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (27281, 2, 0) /* OPEN_BOOL */
      , (27281, 3, 1) /* LOCKED_BOOL */;
 
-/* Chest Treasure List */
-

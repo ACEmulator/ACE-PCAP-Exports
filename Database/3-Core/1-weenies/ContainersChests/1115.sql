@@ -40,5 +40,3 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (1115, 19, 0) /* VALUE_INT */
      , (1115, 5, 900) /* ENCUMB_VAL_INT */;
 
-/* Chest Treasure List */
-
