@@ -25,7 +25,7 @@ VALUES (29084, 1, 512) /* ITEM_TYPE_INT */
      , (29084, 16, 48) /* ITEM_USEABLE_INT */
      , (29084, 19, 200) /* VALUE_INT */
      , (29084, 93, 1048) /* PHYSICS_STATE_INT */
-     , (29084, 9007, 21) /* Container_WeenieType */;
+     , (29084, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29084, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -48,4 +48,9 @@ VALUES (29084, 19, 200) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29084, 2, 0) /* OPEN_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29084, 8, 29085) /* Stolen Frying Pan */;
 

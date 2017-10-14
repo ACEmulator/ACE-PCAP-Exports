@@ -23,7 +23,7 @@ VALUES (4382, 1, 512) /* ITEM_TYPE_INT */
      , (4382, 6, 120) /* ITEMS_CAPACITY_INT */
      , (4382, 16, 48) /* ITEM_USEABLE_INT */
      , (4382, 93, 1052) /* PHYSICS_STATE_INT */
-     , (4382, 9007, 21) /* Container_WeenieType */;
+     , (4382, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (4382, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -35,4 +35,19 @@ VALUES (4382, 13, True) /* ETHEREAL_BOOL */
      , (4382, 14, True) /* GRAVITY_STATUS_BOOL */
      , (4382, 19, True) /* ATTACKABLE_BOOL */
      , (4382, 1, True) /* STUCK_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4382, 8, 5961) /* Scroll of Cooking Mastery Self VI */
+     , (4382, 8, 8326) /* Copper Pea */
+     , (4382, 8, 40704) /* Covenant Tassets */
+     , (4382, 8, 30608) /* Flaming Bastone */
+     , (4382, 8, 49296) /* Fire K'nath Essence (50) */
+     , (4382, 8, 31865) /* Circlet */
+     , (4382, 8, 22442) /* Lightning Dirk */
+     , (4382, 8, 3267) /* Scroll of Fealty Self VI */
+     , (4382, 8, 25661) /* Leather Boots */
+     , (4382, 8, 621) /* Heavy Bracelet */
+     , (4382, 8, 8331) /* Silver Pea */;
 

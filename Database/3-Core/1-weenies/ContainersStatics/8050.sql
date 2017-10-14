@@ -24,7 +24,7 @@ VALUES (8050, 1, 512) /* ITEM_TYPE_INT */
      , (8050, 6, 120) /* ITEMS_CAPACITY_INT */
      , (8050, 16, 48) /* ITEM_USEABLE_INT */
      , (8050, 93, 1052) /* PHYSICS_STATE_INT */
-     , (8050, 9007, 21) /* Container_WeenieType */;
+     , (8050, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8050, 54, 1) /* USE_RADIUS_FLOAT */
@@ -52,4 +52,14 @@ VALUES (8050, 19, 0) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8050, 2, 1) /* OPEN_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8050, 8, 306) /* Longbow */
+     , (8050, 8, 25646) /* Long Leather Gauntlets */
+     , (8050, 8, 295) /* Bracelet */
+     , (8050, 8, 622) /* Necklace */
+     , (8050, 8, 2434) /* Lesser Mana Stone */
+     , (8050, 8, 307) /* Shortbow */;
 

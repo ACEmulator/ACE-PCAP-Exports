@@ -24,7 +24,7 @@ VALUES (5865, 1, 512) /* ITEM_TYPE_INT */
      , (5865, 16, 48) /* ITEM_USEABLE_INT */
      , (5865, 19, 2500) /* VALUE_INT */
      , (5865, 93, 66584) /* PHYSICS_STATE_INT */
-     , (5865, 9007, 21) /* Container_WeenieType */;
+     , (5865, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (5865, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -47,4 +47,9 @@ VALUES (5865, 19, 2500) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5865, 2, 0) /* OPEN_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5865, 8, 5847) /* Neydisa Rune Transcription */;
 

@@ -25,7 +25,7 @@ VALUES (32928, 1, 512) /* ITEM_TYPE_INT */
      , (32928, 16, 48) /* ITEM_USEABLE_INT */
      , (32928, 19, 2500) /* VALUE_INT */
      , (32928, 93, 1048) /* PHYSICS_STATE_INT */
-     , (32928, 9007, 21) /* Container_WeenieType */;
+     , (32928, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (32928, 54, 2) /* USE_RADIUS_FLOAT */
@@ -53,4 +53,26 @@ VALUES (32928, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32928, 2, 0) /* OPEN_BOOL */
      , (32928, 3, 1) /* LOCKED_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32928, 8, 31799) /* Acid Compound Bow */
+     , (32928, 8, 43053) /* Knorr Academy Boots */
+     , (32928, 8, 623) /* Heavy Necklace */
+     , (32928, 8, 32935) /* Scroll of Ring around the Rabbit */
+     , (32928, 8, 42750) /* Haebrean Gauntlets */
+     , (32928, 8, 63) /* Studded Leather Girth */
+     , (32928, 8, 28015) /* Scroll of Spirit Pacification */
+     , (32928, 8, 41067) /* Shashqa */
+     , (32928, 8, 32927) /* White Rabbit Girth */
+     , (32928, 8, 20503) /* Scroll of Jibril's Vitae */
+     , (32928, 8, 2588) /* Flared Shirt */
+     , (32928, 8, 42757) /* Haebrean Vambraces */
+     , (32928, 8, 20553) /* Scroll of Harlune's Boon */
+     , (32928, 8, 2411) /* Gem */
+     , (32928, 8, 2412) /* Gem */
+     , (32928, 8, 4198) /* Frost Nekode */
+     , (32928, 8, 27219) /* Chiran Sandals */
+     , (32928, 8, 413) /* Chainmail Bracers */;
 

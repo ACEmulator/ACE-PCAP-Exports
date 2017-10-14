@@ -23,7 +23,7 @@ VALUES (29473, 1, 512) /* ITEM_TYPE_INT */
      , (29473, 6, 120) /* ITEMS_CAPACITY_INT */
      , (29473, 16, 48) /* ITEM_USEABLE_INT */
      , (29473, 93, 1048) /* PHYSICS_STATE_INT */
-     , (29473, 9007, 21) /* Container_WeenieType */;
+     , (29473, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (29473, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -47,4 +47,9 @@ VALUES (29473, 19, 0) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29473, 2, 0) /* OPEN_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29473, 8, 29477) /* Varette's Orders */;
 

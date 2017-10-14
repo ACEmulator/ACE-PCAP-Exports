@@ -25,7 +25,7 @@ VALUES (27281, 1, 512) /* ITEM_TYPE_INT */
      , (27281, 16, 48) /* ITEM_USEABLE_INT */
      , (27281, 19, 2500) /* VALUE_INT */
      , (27281, 93, 1048) /* PHYSICS_STATE_INT */
-     , (27281, 9007, 21) /* Container_WeenieType */;
+     , (27281, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (27281, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -48,4 +48,6 @@ VALUES (27281, 5, 12787) /* ENCUMB_VAL_INT */;
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27281, 2, 0) /* OPEN_BOOL */
      , (27281, 3, 1) /* LOCKED_BOOL */;
+
+/* Chest Treasure List */
 

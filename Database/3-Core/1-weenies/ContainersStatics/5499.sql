@@ -25,7 +25,7 @@ VALUES (5499, 53, 101) /* PLACEMENT_POSITION_INT */
      , (5499, 16, 48) /* ITEM_USEABLE_INT */
      , (5499, 19, 2500) /* VALUE_INT */
      , (5499, 93, 66584) /* PHYSICS_STATE_INT */
-     , (5499, 9007, 21) /* Container_WeenieType */;
+     , (5499, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (5499, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -48,4 +48,9 @@ VALUES (5499, 19, 2500) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5499, 2, 0) /* OPEN_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5499, 8, 5498) /* Water of Lethe */;
 

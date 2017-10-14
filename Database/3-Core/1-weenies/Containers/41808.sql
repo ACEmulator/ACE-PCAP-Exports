@@ -23,7 +23,7 @@ VALUES (41808, 1, 512) /* ITEM_TYPE_INT */
      , (41808, 6, 120) /* ITEMS_CAPACITY_INT */
      , (41808, 16, 48) /* ITEM_USEABLE_INT */
      , (41808, 93, 1052) /* PHYSICS_STATE_INT */
-     , (41808, 9007, 21) /* Container_WeenieType */;
+     , (41808, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (41808, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -35,4 +35,6 @@ VALUES (41808, 13, True) /* ETHEREAL_BOOL */
      , (41808, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41808, 19, True) /* ATTACKABLE_BOOL */
      , (41808, 1, True) /* STUCK_BOOL */;
+
+/* Chest Treasure List */
 
