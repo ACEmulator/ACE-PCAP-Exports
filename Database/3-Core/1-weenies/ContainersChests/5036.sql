@@ -49,3 +49,8 @@ VALUES (5036, 19, 3000) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5036, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5036, 8, 5032) /* Wedding Band */;
+

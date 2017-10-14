@@ -52,3 +52,13 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3974, 2, 0) /* OPEN_BOOL */
      , (3974, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3974, 8, 49296) /* Fire K'nath Essence (50) */
+     , (3974, 8, 296) /* Crown */
+     , (3974, 8, 154) /* Goblet */
+     , (3974, 8, 49345) /* Lightning Moar Essence (50) */
+     , (3974, 8, 7940) /* Empty Flask */
+     , (3974, 8, 2431) /* Gem */;
+

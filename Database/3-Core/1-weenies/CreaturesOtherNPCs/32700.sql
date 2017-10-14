@@ -104,5 +104,13 @@ VALUES (32700, 64, 430) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (32700, 2, 30946);
+VALUES (32700, 2, 30946) /* Poniard */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32700, 8, 31868) /* Signet Crown */
+     , (32700, 8, 273) /* Pyreal */
+     , (32700, 8, 28607) /* Lace Shirt */
+     , (32700, 8, 32703) /* Bracelet of Passage */;
 

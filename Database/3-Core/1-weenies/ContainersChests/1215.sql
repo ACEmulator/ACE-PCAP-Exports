@@ -52,3 +52,15 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (1215, 2, 0) /* OPEN_BOOL */
      , (1215, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1215, 8, 45322) /* Scroll of Shield Mastery Other VII */
+     , (1215, 8, 161) /* Mug */
+     , (1215, 8, 273) /* Pyreal */
+     , (1215, 8, 295) /* Bracelet */
+     , (1215, 8, 20431) /* Scroll of Corrosive Flash */
+     , (1215, 8, 149) /* Ewer */
+     , (1215, 8, 27330) /* Moderate Mana Stone */
+     , (1215, 8, 150) /* Flagon */;
+

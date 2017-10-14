@@ -73,3 +73,18 @@ VALUES (27255, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27255, 64, 270) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27255, 8, 311) /* Heavy Crossbow */
+     , (27255, 8, 27331) /* Minor Mana Stone */
+     , (27255, 8, 148) /* Cup */
+     , (27255, 8, 273) /* Pyreal */
+     , (27255, 8, 89) /* Studded Leather Pauldrons */
+     , (27255, 8, 11351) /* Mud Golem Heart */
+     , (27255, 8, 28010) /* Scroll of Spirit Loather II */
+     , (27255, 8, 28002) /* Aura of Spirit Drinker Self */
+     , (27255, 8, 8329) /* Lead Pea */
+     , (27255, 8, 2547) /* Staff */
+     , (27255, 8, 3731) /* Scroll of Infuse Health II */;
+

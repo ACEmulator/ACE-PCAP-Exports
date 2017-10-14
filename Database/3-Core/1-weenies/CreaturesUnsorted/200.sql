@@ -73,3 +73,54 @@ VALUES (200, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (200, 64, 61) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (200, 8, 25649) /* Leather Shirt */
+     , (200, 8, 273) /* Pyreal */
+     , (200, 8, 8329) /* Lead Pea */
+     , (200, 8, 296) /* Crown */
+     , (200, 8, 150) /* Flagon */
+     , (200, 8, 27331) /* Minor Mana Stone */
+     , (200, 8, 28003) /* Aura of Spirit Drinker Self II */
+     , (200, 8, 28610) /* Loafers */
+     , (200, 8, 3109) /* Scroll of Regenerate Other III */
+     , (200, 8, 148) /* Cup */
+     , (200, 8, 2419) /* Gem */
+     , (200, 8, 2418) /* Gem */
+     , (200, 8, 2434) /* Lesser Mana Stone */
+     , (200, 8, 45) /* Leather Cap */
+     , (200, 8, 121) /* Gloves */
+     , (200, 8, 45119) /* Acid Hand Wraps */
+     , (200, 8, 3173) /* Scroll of Missile Weapon Ineptitude Other II */
+     , (200, 8, 11351) /* Mud Golem Heart */
+     , (200, 8, 2787) /* Scroll of Blood Loather II */
+     , (200, 8, 348) /* Spear */
+     , (200, 8, 1704) /* Scroll of Item Enchantment Mastery Other */
+     , (200, 8, 71) /* Chainmail Hauberk */
+     , (200, 8, 45253) /* Scroll of Dirty Fighting Mastery Self II */
+     , (200, 8, 2599) /* Trousers */
+     , (200, 8, 25661) /* Leather Boots */
+     , (200, 8, 168) /* Tankard */
+     , (200, 8, 12463) /* Atlatl */
+     , (200, 8, 4195) /* Nekode */
+     , (200, 8, 89) /* Studded Leather Pauldrons */
+     , (200, 8, 312) /* Light Crossbow */
+     , (200, 8, 30581) /* Mazule */
+     , (200, 8, 254) /* Stoup */
+     , (200, 8, 22168) /* Hefty Walking Cane */
+     , (200, 8, 41485) /* Pocket Watch */
+     , (200, 8, 297) /* Ring */
+     , (200, 8, 25643) /* Leather Girth */
+     , (200, 8, 622) /* Necklace */
+     , (200, 8, 7768) /* Spiked Club */
+     , (200, 8, 2732) /* Scroll of Slowness Other II */
+     , (200, 8, 31779) /* Spine Glaive */
+     , (200, 8, 25639) /* Leather Jerkin */
+     , (200, 8, 28605) /* Beret */
+     , (200, 8, 132) /* Shoes */
+     , (200, 8, 624) /* Ring */
+     , (200, 8, 3069) /* Scroll of Piercing Protection Self III */
+     , (200, 8, 49485) /* Encapsulated Spirit */
+     , (200, 8, 10759) /* Muddy Towel */;
+

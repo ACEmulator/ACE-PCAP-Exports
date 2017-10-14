@@ -48,3 +48,25 @@ VALUES (4132, 2, 10) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4132, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4132, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (4132, 8, 132) /* Shoes */
+     , (4132, 8, 2426) /* Gem */
+     , (4132, 8, 513) /* Plain Lockpick */
+     , (4132, 8, 44849) /* Chevron Cloak */
+     , (4132, 8, 30606) /* Bastone */
+     , (4132, 8, 49338) /* Acid Moar Essence (50) */
+     , (4132, 8, 296) /* Crown */
+     , (4132, 8, 45416) /* Knife */
+     , (4132, 8, 27331) /* Minor Mana Stone */
+     , (4132, 8, 2418) /* Gem */
+     , (4132, 8, 3308) /* Scroll of Item Enchantment Mastery Other II */
+     , (4132, 8, 2421) /* Gem */
+     , (4132, 8, 2436) /* Greater Mana Stone */
+     , (4132, 8, 27330) /* Moderate Mana Stone */
+     , (4132, 8, 2419) /* Gem */
+     , (4132, 8, 360) /* Yag */
+     , (4132, 8, 42) /* Studded Leather Breastplate */;
+

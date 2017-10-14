@@ -37,3 +37,13 @@ VALUES (37588, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (37588, 19, True) /* ATTACKABLE_BOOL */
      , (37588, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37588, 8, 20548) /* Scroll of Gears Unwound */
+     , (37588, 8, 3824) /* Flaming Ken */
+     , (37588, 8, 7771) /* Naginata */
+     , (37588, 8, 37252) /* Six of Eyes */
+     , (37588, 8, 37492) /* Spectral Ingot */
+     , (37588, 8, 35383) /* Ancient Mhoire Coin */;
+

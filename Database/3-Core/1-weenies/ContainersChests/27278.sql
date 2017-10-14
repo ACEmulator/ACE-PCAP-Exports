@@ -37,3 +37,16 @@ VALUES (27278, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27278, 19, True) /* ATTACKABLE_BOOL */
      , (27278, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27278, 8, 31762) /* Flaming Dericost Blade */
+     , (27278, 8, 624) /* Ring */
+     , (27278, 8, 42750) /* Haebrean Gauntlets */
+     , (27278, 8, 2424) /* Gem */
+     , (27278, 8, 29254) /* Electric Atlatl */
+     , (27278, 8, 92) /* Large Kite Shield */
+     , (27278, 8, 20501) /* Scroll of Jibril's Boon */
+     , (27278, 8, 21153) /* Covenant Gauntlets */
+     , (27278, 8, 27215) /* Chiran Coat */;
+

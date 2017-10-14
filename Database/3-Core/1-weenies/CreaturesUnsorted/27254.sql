@@ -73,3 +73,27 @@ VALUES (27254, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27254, 64, 1100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27254, 8, 2599) /* Trousers */
+     , (27254, 8, 2435) /* Mana Stone */
+     , (27254, 8, 8328) /* Iron Pea */
+     , (27254, 8, 325) /* Kasrullah */
+     , (27254, 8, 273) /* Pyreal */
+     , (27254, 8, 2434) /* Lesser Mana Stone */
+     , (27254, 8, 2594) /* Flared Tunic */
+     , (27254, 8, 8326) /* Copper Pea */
+     , (27254, 8, 2427) /* Gem */
+     , (27254, 8, 297) /* Ring */
+     , (27254, 8, 2600) /* Pantaloons */
+     , (27254, 8, 124) /* Jerkin */
+     , (27254, 8, 2430) /* Gem */
+     , (27254, 8, 41302) /* Scroll of Boon of T'ing */
+     , (27254, 8, 27330) /* Moderate Mana Stone */
+     , (27254, 8, 3735) /* Scroll of Infuse Health VI */
+     , (27254, 8, 141) /* Bowl */
+     , (27254, 8, 8329) /* Lead Pea */
+     , (27254, 8, 2605) /* Chainmail Greaves */
+     , (27254, 8, 49485) /* Encapsulated Spirit */;
+

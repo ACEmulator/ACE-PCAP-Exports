@@ -49,3 +49,8 @@ VALUES (21529, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (21529, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (21529, 8, 21379) /* Seal Fragment */;
+

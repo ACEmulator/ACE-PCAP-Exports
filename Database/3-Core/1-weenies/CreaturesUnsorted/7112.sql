@@ -48,3 +48,12 @@ VALUES (7112, 2, 26) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7112, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7112, 8, 25661) /* Leather Boots */
+     , (7112, 8, 297) /* Ring */
+     , (7112, 8, 30605) /* Acid Stiletto */
+     , (7112, 8, 116) /* Studded Leather Boots */
+     , (7112, 8, 38) /* Studded Leather Bracers */;
+

@@ -77,3 +77,12 @@ VALUES (9165, 0, 16787248)
      , (9165, 15, 16787257)
      , (9165, 16, 16787256);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9165, 8, 31759) /* Dericost Blade */
+     , (9165, 8, 150) /* Flagon */
+     , (9165, 8, 9121) /* Storytelling */
+     , (9165, 8, 9128) /* Torn Mosswart Shroud */
+     , (9165, 8, 3694) /* Swamp Stone */;
+

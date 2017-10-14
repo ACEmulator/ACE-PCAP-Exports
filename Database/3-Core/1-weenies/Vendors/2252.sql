@@ -126,18 +126,18 @@ VALUES (2252, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2252, 4, 261)
-     , (2252, 4, 4733)
-     , (2252, 4, 4740)
-     , (2252, 4, 4731)
-     , (2252, 4, 2456)
-     , (2252, 4, 2452)
-     , (2252, 4, 2467)
-     , (2252, 4, 2469)
-     , (2252, 4, 2468)
-     , (2252, 4, 8378)
-     , (2252, 4, 2219)
-     , (2252, 4, 4210)
-     , (2252, 4, 28242)
-     , (2252, 4, 24222);
+VALUES (2252, 4, 261) /* Cheese */
+     , (2252, 4, 4733) /* Kimchi */
+     , (2252, 4, 4740) /* Pickled Fish */
+     , (2252, 4, 4731) /* Fried Mushroom */
+     , (2252, 4, 2456) /* Green Tea */
+     , (2252, 4, 2452) /* Apple Juice */
+     , (2252, 4, 2467) /* Red Wine */
+     , (2252, 4, 2469) /* Small Beer */
+     , (2252, 4, 2468) /* Sake */
+     , (2252, 4, 8378) /* Beer Stein */
+     , (2252, 4, 2219) /* Directions to Web Maze */
+     , (2252, 4, 4210) /* Dungeon Mei Directions */
+     , (2252, 4, 28242) /* Directions to the Lugian Citadels */
+     , (2252, 4, 24222) /* Duplicated Portals */;
 

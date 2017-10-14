@@ -48,3 +48,17 @@ VALUES (4258, 2, 36) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4258, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4258, 8, 2430) /* Gem */
+     , (4258, 8, 8328) /* Iron Pea */
+     , (4258, 8, 341) /* Shouyumi */
+     , (4258, 8, 273) /* Pyreal */
+     , (4258, 8, 2429) /* Gem */
+     , (4258, 8, 2434) /* Lesser Mana Stone */
+     , (4258, 8, 128) /* Qafiya */
+     , (4258, 8, 8329) /* Lead Pea */
+     , (4258, 8, 45114) /* Acid Hammer */
+     , (4258, 8, 27331) /* Minor Mana Stone */;
+

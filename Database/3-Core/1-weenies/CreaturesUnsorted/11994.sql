@@ -36,3 +36,21 @@ VALUES (11994, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11994, 67113371, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11994, 8, 30602) /* Lightning Stiletto */
+     , (11994, 8, 2815) /* Scroll of Flame Bane V */
+     , (11994, 8, 622) /* Necklace */
+     , (11994, 8, 379) /* Mana Potion */
+     , (11994, 8, 40764) /* Frost Nodachi */
+     , (11994, 8, 621) /* Heavy Bracelet */
+     , (11994, 8, 49538) /* Frost Phyntos Wasp Essence (50) */
+     , (11994, 8, 31794) /* Lancet */
+     , (11994, 8, 2435) /* Mana Stone */
+     , (11994, 8, 9324) /* Obsidian Heart */
+     , (11994, 8, 6354) /* Pyreal Nugget */
+     , (11994, 8, 49303) /* Frost K'nath Essence (50) */
+     , (11994, 8, 20640) /* Royal Atlatl */
+     , (11994, 8, 23538) /* Basalt Blade */;
+

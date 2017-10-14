@@ -131,20 +131,20 @@ VALUES (654, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (654, 4, 364)
-     , (654, 4, 365)
-     , (654, 4, 367)
-     , (654, 4, 4169)
-     , (654, 4, 5602)
-     , (654, 4, 6419)
-     , (654, 4, 5603)
-     , (654, 4, 5583)
-     , (654, 4, 5856)
-     , (654, 4, 7884)
-     , (654, 4, 14797)
-     , (654, 4, 5586)
-     , (654, 4, 24855)
-     , (654, 4, 5587)
-     , (654, 4, 15808)
-     , (654, 4, 20229);
+VALUES (654, 4, 364) /* Book */
+     , (654, 4, 365) /* Parchment */
+     , (654, 4, 367) /* Tome */
+     , (654, 4, 4169) /* Path of Strife Rumor */
+     , (654, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (654, 4, 6419) /* The Meeting Halls */
+     , (654, 4, 5603) /* Directions to Eastham Sewer */
+     , (654, 4, 5583) /* Aluvian Cookbook */
+     , (654, 4, 5856) /* Specialty Cookbook */
+     , (654, 4, 7884) /* Chocolate Cookbook */
+     , (654, 4, 14797) /* Festival Cookbook */
+     , (654, 4, 5586) /* Alchemy Guide */
+     , (654, 4, 24855) /* The New Alchemy */
+     , (654, 4, 5587) /* Fletching Guide */
+     , (654, 4, 15808) /* Plea for Help */
+     , (654, 4, 20229) /* Rumor of an Artifact */;
 

@@ -55,3 +55,16 @@ VALUES (46936, 64, 8600) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (46936, 128, 6500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (46936, 256, 7590) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46936, 8, 5901) /* Kasa */
+     , (46936, 8, 31774) /* Board with Nail */
+     , (46936, 8, 6353) /* Pyreal Mote */
+     , (46936, 8, 30614) /* Frost Knuckles */
+     , (46936, 8, 2425) /* Gem */
+     , (46936, 8, 20249) /* Scroll of Hastening */
+     , (46936, 8, 41488) /* Top */
+     , (46936, 8, 2410) /* Gem */
+     , (46936, 8, 295) /* Bracelet */;
+

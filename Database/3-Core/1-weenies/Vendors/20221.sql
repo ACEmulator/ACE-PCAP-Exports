@@ -124,60 +124,60 @@ VALUES (20221, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20221, 4, 15270)
-     , (20221, 4, 4386)
-     , (20221, 4, 4391)
-     , (20221, 4, 2665)
-     , (20221, 4, 2688)
-     , (20221, 4, 2693)
-     , (20221, 4, 2698)
-     , (20221, 4, 2703)
-     , (20221, 4, 2708)
-     , (20221, 4, 2723)
-     , (20221, 4, 2728)
-     , (20221, 4, 2974)
-     , (20221, 4, 2979)
-     , (20221, 4, 2984)
-     , (20221, 4, 2989)
-     , (20221, 4, 2994)
-     , (20221, 4, 2999)
-     , (20221, 4, 3004)
-     , (20221, 4, 3009)
-     , (20221, 4, 3014)
-     , (20221, 4, 3019)
-     , (20221, 4, 3024)
-     , (20221, 4, 3029)
-     , (20221, 4, 3034)
-     , (20221, 4, 3039)
-     , (20221, 4, 3044)
-     , (20221, 4, 3049)
-     , (20221, 4, 3054)
-     , (20221, 4, 3059)
-     , (20221, 4, 3064)
-     , (20221, 4, 3069)
-     , (20221, 4, 3074)
-     , (20221, 4, 3079)
-     , (20221, 4, 3084)
-     , (20221, 4, 3094)
-     , (20221, 4, 3099)
-     , (20221, 4, 3104)
-     , (20221, 4, 3109)
-     , (20221, 4, 3114)
-     , (20221, 4, 3119)
-     , (20221, 4, 3124)
-     , (20221, 4, 3934)
-     , (20221, 4, 9662)
-     , (20221, 4, 3727)
-     , (20221, 4, 9631)
-     , (20221, 4, 9636)
-     , (20221, 4, 3732)
-     , (20221, 4, 3737)
-     , (20221, 4, 3742)
-     , (20221, 4, 9641)
-     , (20221, 4, 9646)
-     , (20221, 4, 9651)
-     , (20221, 4, 9656)
-     , (20221, 4, 21104)
-     , (20221, 4, 21111)
-     , (20221, 4, 21097);
+VALUES (20221, 4, 15270) /* Foci of Verdancy */
+     , (20221, 4, 4386) /* Scroll of Armor Other III */
+     , (20221, 4, 4391) /* Scroll of Armor Self III */
+     , (20221, 4, 2665) /* Scroll of Enfeeble Other III */
+     , (20221, 4, 2688) /* Scroll of Harm Other III */
+     , (20221, 4, 2693) /* Scroll of Heal Other III */
+     , (20221, 4, 2698) /* Scroll of Heal Self III */
+     , (20221, 4, 2703) /* Scroll of Imperil Other III */
+     , (20221, 4, 2708) /* Scroll of Mana Drain Other III */
+     , (20221, 4, 2723) /* Scroll of Revitalize Other III */
+     , (20221, 4, 2728) /* Scroll of Revitalize Self III */
+     , (20221, 4, 2974) /* Scroll of Acid Protection Other III */
+     , (20221, 4, 2979) /* Scroll of Acid Protection Self III */
+     , (20221, 4, 2984) /* Scroll of Acid Vulnerability Other III */
+     , (20221, 4, 2989) /* Scroll of Blade Protection Other III */
+     , (20221, 4, 2994) /* Scroll of Blade Protection Self III */
+     , (20221, 4, 2999) /* Scroll of Blade Vulnerability Other III */
+     , (20221, 4, 3004) /* Scroll of Bludgeon Protection Other III */
+     , (20221, 4, 3009) /* Scroll of Bludgeon Protection Self III */
+     , (20221, 4, 3014) /* Scroll of Bludgeoning Vulnerability Other III */
+     , (20221, 4, 3019) /* Scroll of Cold Protection Other III */
+     , (20221, 4, 3024) /* Scroll of Cold Protection Self III */
+     , (20221, 4, 3029) /* Scroll of Cold Vulnerability Other III */
+     , (20221, 4, 3034) /* Scroll of Fire Protection Other III */
+     , (20221, 4, 3039) /* Scroll of Fire Protection Self III */
+     , (20221, 4, 3044) /* Scroll of Fire Vulnerability Other III */
+     , (20221, 4, 3049) /* Scroll of Lightning Protection Other III */
+     , (20221, 4, 3054) /* Scroll of Lightning Protection Self III */
+     , (20221, 4, 3059) /* Scroll of Lightning Vulnerability Other III */
+     , (20221, 4, 3064) /* Scroll of Piercing Protection Other III */
+     , (20221, 4, 3069) /* Scroll of Piercing Protection Self III */
+     , (20221, 4, 3074) /* Scroll of Piercing Vulnerability Other III */
+     , (20221, 4, 3079) /* Scroll of Exhaustion Other III */
+     , (20221, 4, 3084) /* Scroll of Fester Other III */
+     , (20221, 4, 3094) /* Scroll of Mana Depletion Other III */
+     , (20221, 4, 3099) /* Scroll of Mana Renewal Other III */
+     , (20221, 4, 3104) /* Scroll of Mana Renewal Self III */
+     , (20221, 4, 3109) /* Scroll of Regenerate Other III */
+     , (20221, 4, 3114) /* Scroll of Regenerate Self III */
+     , (20221, 4, 3119) /* Scroll of Rejuvenate Other III */
+     , (20221, 4, 3124) /* Scroll of Rejuvenate Self III */
+     , (20221, 4, 3934) /* Scroll of Drain Health Other III */
+     , (20221, 4, 9662) /* Scroll of Drain Mana Other III */
+     , (20221, 4, 3727) /* Scroll of Drain Stamina Other III */
+     , (20221, 4, 9631) /* Scroll of Health to Mana Self III */
+     , (20221, 4, 9636) /* Scroll of Health to Stamina Self III */
+     , (20221, 4, 3732) /* Scroll of Infuse Health III */
+     , (20221, 4, 3737) /* Scroll of Infuse Mana III */
+     , (20221, 4, 3742) /* Scroll of Infuse Stamina III */
+     , (20221, 4, 9641) /* Scroll of Mana to Health Self III */
+     , (20221, 4, 9646) /* Scroll of Mana to Stamina Self III */
+     , (20221, 4, 9651) /* Scroll of Stamina to Health Self III */
+     , (20221, 4, 9656) /* Scroll of Stamina to Mana Self III */
+     , (20221, 4, 21104) /* Scroll of Martyr's Blight III */
+     , (20221, 4, 21111) /* Scroll of Martyr's Tenacity III */
+     , (20221, 4, 21097) /* Scroll of Martyr's Hecatomb III */;
 

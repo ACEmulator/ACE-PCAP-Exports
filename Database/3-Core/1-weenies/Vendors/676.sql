@@ -124,51 +124,51 @@ VALUES (676, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (676, 4, 41509)
-     , (676, 4, 41507)
-     , (676, 4, 41419)
-     , (676, 4, 41423)
-     , (676, 4, 41396)
-     , (676, 4, 41420)
-     , (676, 4, 41418)
-     , (676, 4, 41744)
-     , (676, 4, 309)
-     , (676, 4, 316)
-     , (676, 4, 303)
-     , (676, 4, 329)
-     , (676, 4, 22168)
-     , (676, 4, 352)
-     , (676, 4, 348)
-     , (676, 4, 300)
-     , (676, 4, 305)
-     , (676, 4, 4585)
-     , (676, 4, 5339)
-     , (676, 4, 312)
-     , (676, 4, 307)
-     , (676, 4, 551)
-     , (676, 4, 115)
-     , (676, 4, 36)
-     , (676, 4, 39)
-     , (676, 4, 45)
-     , (676, 4, 119)
-     , (676, 4, 56)
-     , (676, 4, 60)
-     , (676, 4, 65)
-     , (676, 4, 109)
-     , (676, 4, 81)
-     , (676, 4, 86)
-     , (676, 4, 44)
-     , (676, 4, 258)
-     , (676, 4, 4761)
-     , (676, 4, 4746)
-     , (676, 4, 4754)
-     , (676, 4, 5778)
-     , (676, 4, 7823)
-     , (676, 4, 151)
-     , (676, 4, 365)
-     , (676, 4, 136)
-     , (676, 4, 293)
-     , (676, 4, 513)
-     , (676, 4, 545)
-     , (676, 4, 512);
+VALUES (676, 4, 41509) /* Minor Item Tinkering Armature */
+     , (676, 4, 41507) /* Moderate Item Tinkering Armature */
+     , (676, 4, 41419) /* Sheet Metal Form */
+     , (676, 4, 41423) /* Medal Mold */
+     , (676, 4, 41396) /* Handle Mold */
+     , (676, 4, 41420) /* Hammer */
+     , (676, 4, 41418) /* Leather Strap */
+     , (676, 4, 41744) /* A Comprehensive Guide to Gearcrafting */
+     , (676, 4, 309) /* Club */
+     , (676, 4, 316) /* Throwing Dart */
+     , (676, 4, 303) /* Hand Axe */
+     , (676, 4, 329) /* Knife */
+     , (676, 4, 22168) /* Hefty Walking Cane */
+     , (676, 4, 352) /* Short Sword */
+     , (676, 4, 348) /* Spear */
+     , (676, 4, 300) /* Arrow */
+     , (676, 4, 305) /* Quarrel */
+     , (676, 4, 4585) /* Bundle of Arrowshafts */
+     , (676, 4, 5339) /* Bundle of Quarrelshafts */
+     , (676, 4, 312) /* Light Crossbow */
+     , (676, 4, 307) /* Shortbow */
+     , (676, 4, 551) /* Basinet */
+     , (676, 4, 115) /* Leather Boots */
+     , (676, 4, 36) /* Leather Bracers */
+     , (676, 4, 39) /* Leather Breastplate */
+     , (676, 4, 45) /* Leather Cap */
+     , (676, 4, 119) /* Cowl */
+     , (676, 4, 56) /* Leather Gauntlets */
+     , (676, 4, 60) /* Olthoi Celdon Girth */
+     , (676, 4, 65) /* Olthoi Greaves */
+     , (676, 4, 109) /* Olthoi Tassets */
+     , (676, 4, 81) /* Leggings */
+     , (676, 4, 86) /* Leather Pauldrons */
+     , (676, 4, 44) /* Buckler */
+     , (676, 4, 258) /* Apple */
+     , (676, 4, 4761) /* Flour */
+     , (676, 4, 4746) /* Water */
+     , (676, 4, 4754) /* Baking Pan */
+     , (676, 4, 5778) /* Whittling Knife */
+     , (676, 4, 7823) /* Heavy Grinder */
+     , (676, 4, 151) /* Empty Flask */
+     , (676, 4, 365) /* Parchment */
+     , (676, 4, 136) /* Pack */
+     , (676, 4, 293) /* Torch */
+     , (676, 4, 513) /* Plain Lockpick */
+     , (676, 4, 545) /* Reliable Lockpick */
+     , (676, 4, 512) /* Good Lockpick */;
 

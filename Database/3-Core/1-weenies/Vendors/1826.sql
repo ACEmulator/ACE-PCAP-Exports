@@ -129,18 +129,18 @@ VALUES (1826, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1826, 4, 2454)
-     , (1826, 4, 2469)
-     , (1826, 4, 2452)
-     , (1826, 4, 2465)
-     , (1826, 4, 2463)
-     , (1826, 4, 8378)
-     , (1826, 4, 4731)
-     , (1826, 4, 4727)
-     , (1826, 4, 620)
-     , (1826, 4, 4732)
-     , (1826, 4, 8209)
-     , (1826, 4, 12146)
-     , (1826, 4, 23031)
-     , (1826, 4, 6418);
+VALUES (1826, 4, 2454) /* Coffee */
+     , (1826, 4, 2469) /* Small Beer */
+     , (1826, 4, 2452) /* Apple Juice */
+     , (1826, 4, 2465) /* Palm Wine */
+     , (1826, 4, 2463) /* Milk */
+     , (1826, 4, 8378) /* Beer Stein */
+     , (1826, 4, 4731) /* Fried Mushroom */
+     , (1826, 4, 4727) /* Flat Bread */
+     , (1826, 4, 620) /* Cake */
+     , (1826, 4, 4732) /* Fried Steak */
+     , (1826, 4, 8209) /* Call for Adventurers! */
+     , (1826, 4, 12146) /* Simulacra Rumor */
+     , (1826, 4, 23031) /* The Silifi of Crimson Stars */
+     , (1826, 4, 6418) /* A Fiery Stone */;
 

@@ -39,3 +39,18 @@ VALUES (2608, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2608, 67112518, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2608, 8, 45103) /* Frost Epee */
+     , (2608, 8, 273) /* Pyreal */
+     , (2608, 8, 45117) /* Frost Hammer */
+     , (2608, 8, 2434) /* Lesser Mana Stone */
+     , (2608, 8, 8329) /* Lead Pea */
+     , (2608, 8, 42) /* Studded Leather Breastplate */
+     , (2608, 8, 7795) /* Frost Naginata */
+     , (2608, 8, 55) /* Chainmail Gauntlets */
+     , (2608, 8, 27331) /* Minor Mana Stone */
+     , (2608, 8, 3083) /* Scroll of Fester Other II */
+     , (2608, 8, 41488) /* Top */;
+

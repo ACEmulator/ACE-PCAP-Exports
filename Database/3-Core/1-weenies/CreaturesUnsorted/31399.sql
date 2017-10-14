@@ -41,3 +41,10 @@ VALUES (31399, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31399, 67116699, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31399, 8, 28606) /* Viamontian Pants */
+     , (31399, 8, 31380) /* Iniquitous Fragment */
+     , (31399, 8, 42753) /* Haebrean Helm */;
+

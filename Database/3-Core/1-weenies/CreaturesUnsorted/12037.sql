@@ -39,3 +39,35 @@ VALUES (12037, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (12037, 67113362, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12037, 8, 21308) /* Scroll of Flame Arc VII */
+     , (12037, 8, 294) /* Amulet */
+     , (12037, 8, 93) /* Round Shield */
+     , (12037, 8, 8328) /* Iron Pea */
+     , (12037, 8, 7045) /* Dark Revenant Thighbone */
+     , (12037, 8, 6876) /* Sturdy Iron Key */
+     , (12037, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (12037, 8, 22442) /* Lightning Dirk */
+     , (12037, 8, 25638) /* Leather Vest */
+     , (12037, 8, 45241) /* Scroll of Dirty Fighting Ineptitude Other VI */
+     , (12037, 8, 4199) /* Lightning Nekode */
+     , (12037, 8, 324) /* Kaskara */
+     , (12037, 8, 9310) /* A Large Mnemosyne */
+     , (12037, 8, 23611) /* Dark Sorcerer's Phylactery */
+     , (12037, 8, 7940) /* Empty Flask */
+     , (12037, 8, 3844) /* Flaming Ono */
+     , (12037, 8, 514) /* Excellent Lockpick */
+     , (12037, 8, 49282) /* Acid K'nath Essence (50) */
+     , (12037, 8, 3422) /* Scroll of Magic Item Tinkering Ignorance VI */
+     , (12037, 8, 2647) /* Scroll of Coordination Other V */
+     , (12037, 8, 30616) /* Arbalest */
+     , (12037, 8, 149) /* Ewer */
+     , (12037, 8, 2885) /* Aura of Swift Killer Self V */
+     , (12037, 8, 273) /* Pyreal */
+     , (12037, 8, 2405) /* Gem */
+     , (12037, 8, 2594) /* Flared Tunic */
+     , (12037, 8, 7789) /* Acid Spiked Club */
+     , (12037, 8, 2601) /* Loose Pants */;
+

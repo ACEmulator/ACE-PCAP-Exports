@@ -44,3 +44,23 @@ VALUES (41572, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41572, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41572, 8, 127) /* Pants */
+     , (41572, 8, 631) /* Excellent Healing Kit */
+     , (41572, 8, 2603) /* Baggy Breeches */
+     , (41572, 8, 55) /* Chainmail Gauntlets */
+     , (41572, 8, 2419) /* Gem */
+     , (41572, 8, 25645) /* Leather Leggings */
+     , (41572, 8, 21152) /* Covenant Breastplate */
+     , (41572, 8, 132) /* Shoes */
+     , (41572, 8, 49460) /* Scroll of Summoning Ineptitude Other V */
+     , (41572, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (41572, 8, 2472) /* Wand */
+     , (41572, 8, 621) /* Heavy Bracelet */
+     , (41572, 8, 312) /* Light Crossbow */
+     , (41572, 8, 723) /* Studded Leather Cowl */
+     , (41572, 8, 12463) /* Atlatl */
+     , (41572, 8, 27322) /* Mana Tincture */;
+

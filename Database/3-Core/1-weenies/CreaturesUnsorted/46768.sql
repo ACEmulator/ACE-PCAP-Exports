@@ -53,3 +53,40 @@ VALUES (46768, 2, 6) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46768, 64, 465) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46768, 8, 49277) /* Frost Elemental Essence (100) */
+     , (46768, 8, 624) /* Ring */
+     , (46768, 8, 31784) /* Claw */
+     , (46768, 8, 723) /* Studded Leather Cowl */
+     , (46768, 8, 24477) /* Sturdy Steel Key */
+     , (46768, 8, 31763) /* Frost Lugian Hammer */
+     , (46768, 8, 49257) /* Frost Zombie Essence (125) */
+     , (46768, 8, 27223) /* Lorica Helm */
+     , (46768, 8, 20481) /* Scroll of Storm's Blessing */
+     , (46768, 8, 132) /* Shoes */
+     , (46768, 8, 128) /* Qafiya */
+     , (46768, 8, 2410) /* Gem */
+     , (46768, 8, 28607) /* Lace Shirt */
+     , (46768, 8, 20248) /* Scroll of Ogfoot */
+     , (46768, 8, 20555) /* Scroll of Fat Fingers */
+     , (46768, 8, 41486) /* Puzzle Box */
+     , (46768, 8, 45113) /* Hammer */
+     , (46768, 8, 2437) /* Yoroi Leggings */
+     , (46768, 8, 127) /* Pants */
+     , (46768, 8, 48945) /* Fire Skeleton Minion Essence (100) */
+     , (46768, 8, 43316) /* Scroll of Nether Streak VII */
+     , (46768, 8, 313) /* Dabus */
+     , (46768, 8, 20501) /* Scroll of Jibril's Boon */
+     , (46768, 8, 27236) /* Scroll of Eradicate Life Magic Other */
+     , (46768, 8, 41488) /* Top */
+     , (46768, 8, 163) /* Ornamental Bowl */
+     , (46768, 8, 45414) /* Flaming Spada */
+     , (46768, 8, 413) /* Chainmail Bracers */
+     , (46768, 8, 31818) /* Piercing Slingshot */
+     , (46768, 8, 7772) /* Trident */
+     , (46768, 8, 49348) /* Lightning Moar Essence (125) */
+     , (46768, 8, 7795) /* Frost Naginata */
+     , (46768, 8, 53) /* Studded Leather Cuirass */;
+

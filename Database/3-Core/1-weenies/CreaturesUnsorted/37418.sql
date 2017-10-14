@@ -42,3 +42,45 @@ VALUES (37418, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37418, 67113029, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37418, 8, 121) /* Gloves */
+     , (37418, 8, 49320) /* Lightning Wisp Essence (125) */
+     , (37418, 8, 49286) /* Acid K'nath Essence (150) */
+     , (37418, 8, 40635) /* Tetsubo */
+     , (37418, 8, 295) /* Bracelet */
+     , (37418, 8, 43382) /* Nefane Pearl */
+     , (37418, 8, 40706) /* Covenant Bracers */
+     , (37418, 8, 39012) /* Grimy Sea Invasion Key */
+     , (37418, 8, 20427) /* Aura of Mystic's Blessing */
+     , (37418, 8, 2595) /* Baggy Tunic */
+     , (37418, 8, 3876) /* Frost Spear */
+     , (37418, 8, 3939) /* Acid Morning Star */
+     , (37418, 8, 20415) /* Scroll of Geledite Bait */
+     , (37418, 8, 134) /* Tunic */
+     , (37418, 8, 101) /* Chainmail Sleeves */
+     , (37418, 8, 49430) /* Lightning Spectre Essence (100) */
+     , (37418, 8, 93) /* Round Shield */
+     , (37418, 8, 49216) /* Acid Skeleton Bushi Essence (125) */
+     , (37418, 8, 21157) /* Covenant Pauldrons */
+     , (37418, 8, 2596) /* Doublet */
+     , (37418, 8, 41052) /* Greataxe */
+     , (37418, 8, 25646) /* Long Leather Gauntlets */
+     , (37418, 8, 28608) /* Poet's Shirt */
+     , (37418, 8, 49348) /* Lightning Moar Essence (125) */
+     , (37418, 8, 28609) /* Vest */
+     , (37418, 8, 150) /* Flagon */
+     , (37418, 8, 31866) /* Coronet */
+     , (37418, 8, 27232) /* Nariyid Sleeves */
+     , (37418, 8, 31818) /* Piercing Slingshot */
+     , (37418, 8, 40620) /* Lightning Spadone */
+     , (37418, 8, 22158) /* Jo */
+     , (37418, 8, 31808) /* Electric Crossbow */
+     , (37418, 8, 49299) /* Fire K'nath Essence (125) */
+     , (37418, 8, 7791) /* Frost Trident */
+     , (37418, 8, 2421) /* Gem */
+     , (37418, 8, 20411) /* Aura of Cragstone's Will */
+     , (37418, 8, 3857) /* Acid Shou-ono */
+     , (37418, 8, 29242) /* Frost Bow */;
+

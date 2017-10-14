@@ -61,3 +61,28 @@ VALUES (46511, 2, 77) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46511, 64, 5200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46511, 8, 41487) /* Mechanical Scarab */
+     , (46511, 8, 2436) /* Greater Mana Stone */
+     , (46511, 8, 20249) /* Scroll of Hastening */
+     , (46511, 8, 273) /* Pyreal */
+     , (46511, 8, 96) /* Chainmail Shirt */
+     , (46511, 8, 20455) /* Scroll of Alset's Coil */
+     , (46511, 8, 516) /* Peerless Lockpick */
+     , (46511, 8, 41058) /* Acid Great Star Mace */
+     , (46511, 8, 37197) /* Olthoi Celdon Helm */
+     , (46511, 8, 45113) /* Hammer */
+     , (46511, 8, 25644) /* Leather Greaves */
+     , (46511, 8, 27217) /* Chiran Helm */
+     , (46511, 8, 37205) /* Olthoi Celdon Sleeves */
+     , (46511, 8, 2587) /* Shirt */
+     , (46511, 8, 25652) /* Leather Tassets */
+     , (46511, 8, 9229) /* Treated Healing Kit */
+     , (46511, 8, 2410) /* Gem */
+     , (46511, 8, 2367) /* Gorget */
+     , (46511, 8, 308) /* Budiaq */
+     , (46511, 8, 27321) /* Mana Philtre */
+     , (46511, 8, 37302) /* Glyph of Fletching */;
+

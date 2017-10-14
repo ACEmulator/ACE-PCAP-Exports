@@ -39,3 +39,35 @@ VALUES (11486, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11486, 67113293, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11486, 8, 134) /* Tunic */
+     , (11486, 8, 296) /* Crown */
+     , (11486, 8, 8328) /* Iron Pea */
+     , (11486, 8, 3366) /* Scroll of Life Magic Ineptitude V */
+     , (11486, 8, 92) /* Large Kite Shield */
+     , (11486, 8, 630) /* Gifted Healing Kit */
+     , (11486, 8, 3192) /* Scroll of Creature Enchantment Ineptitude VI */
+     , (11486, 8, 2429) /* Gem */
+     , (11486, 8, 108) /* Chainmail Tassets */
+     , (11486, 8, 243) /* Dinner Plate */
+     , (11486, 8, 2406) /* Gem */
+     , (11486, 8, 2470) /* Stamina Elixir */
+     , (11486, 8, 22156) /* Flaming Jo */
+     , (11486, 8, 294) /* Amulet */
+     , (11486, 8, 150) /* Flagon */
+     , (11486, 8, 20595) /* Scroll of Hieromancer's Boon */
+     , (11486, 8, 28610) /* Loafers */
+     , (11486, 8, 2394) /* Gem */
+     , (11486, 8, 2590) /* Baggy Shirt */
+     , (11486, 8, 7788) /* Fire Spiked Club */
+     , (11486, 8, 45425) /* Frost Dagger */
+     , (11486, 8, 2400) /* Gem */
+     , (11486, 8, 49254) /* Frost Zombie Essence (50) */
+     , (11486, 8, 149) /* Ewer */
+     , (11486, 8, 623) /* Heavy Necklace */
+     , (11486, 8, 254) /* Stoup */
+     , (11486, 8, 2415) /* Gem */
+     , (11486, 8, 2434) /* Lesser Mana Stone */;
+

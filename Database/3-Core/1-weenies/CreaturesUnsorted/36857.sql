@@ -53,3 +53,19 @@ VALUES (36857, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36857, 64, 1551) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36857, 8, 31817) /* Frost Slingshot */
+     , (36857, 8, 28608) /* Poet's Shirt */
+     , (36857, 8, 2425) /* Gem */
+     , (36857, 8, 36867) /* Dire Champion Token */
+     , (36857, 8, 31792) /* Frost Stick */
+     , (36857, 8, 40762) /* Lightning Nodachi */
+     , (36857, 8, 20604) /* Scroll of Cannibalize */
+     , (36857, 8, 20511) /* Scroll of Morimoto's Boon */
+     , (36857, 8, 31824) /* Ice Wand */
+     , (36857, 8, 20456) /* Scroll of Lhen's Flare */
+     , (36857, 8, 7798) /* Electric Naginata */
+     , (36857, 8, 41) /* Scalemail Breastplate */;
+

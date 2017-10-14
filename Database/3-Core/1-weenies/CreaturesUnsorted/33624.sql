@@ -49,3 +49,30 @@ VALUES (33624, 2, 89) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33624, 64, 618) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33624, 8, 154) /* Goblet */
+     , (33624, 8, 515) /* Superb Lockpick */
+     , (33624, 8, 163) /* Ornamental Bowl */
+     , (33624, 8, 9229) /* Treated Healing Kit */
+     , (33624, 8, 3853) /* Acid Shamshir */
+     , (33624, 8, 37353) /* Ink of Formation */
+     , (33624, 8, 621) /* Heavy Bracelet */
+     , (33624, 8, 27320) /* Health Tonic */
+     , (33624, 8, 2404) /* Gem */
+     , (33624, 8, 27328) /* Major Mana Stone */
+     , (33624, 8, 297) /* Ring */
+     , (33624, 8, 2436) /* Greater Mana Stone */
+     , (33624, 8, 27321) /* Mana Philtre */
+     , (33624, 8, 37215) /* Olthoi Koujia Breastplate */
+     , (33624, 8, 45373) /* Glyph of Shield */
+     , (33624, 8, 516) /* Peerless Lockpick */
+     , (33624, 8, 2411) /* Gem */
+     , (33624, 8, 37363) /* Quill of Infliction */
+     , (33624, 8, 27318) /* Health Philtre */
+     , (33624, 8, 2409) /* Gem */
+     , (33624, 8, 37364) /* Quill of Introspection */
+     , (33624, 8, 29250) /* Piercing Crossbow */
+     , (33624, 8, 273) /* Pyreal */;
+

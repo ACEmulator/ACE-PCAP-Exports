@@ -41,3 +41,11 @@ VALUES (40786, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40786, 64, 3120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40786, 8, 31802) /* Fire Compound Bow */
+     , (40786, 8, 45412) /* Acid Spada */
+     , (40786, 8, 28629) /* Alduressa Coat */
+     , (40786, 8, 40795) /* Progenitor Crystal */;
+

@@ -51,3 +51,61 @@ VALUES (237, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (237, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (237, 8, 8949) /* Scroll of Shock Wave Streak III */
+     , (237, 8, 8328) /* Iron Pea */
+     , (237, 8, 2596) /* Doublet */
+     , (237, 8, 2434) /* Lesser Mana Stone */
+     , (237, 8, 141) /* Bowl */
+     , (237, 8, 2597) /* Flared Pants */
+     , (237, 8, 2435) /* Mana Stone */
+     , (237, 8, 154) /* Goblet */
+     , (237, 8, 21292) /* Scroll of Acid Arc V */
+     , (237, 8, 8329) /* Lead Pea */
+     , (237, 8, 2602) /* Loose Breeches */
+     , (237, 8, 2931) /* Scroll of Force Bolt III */
+     , (237, 8, 273) /* Pyreal */
+     , (237, 8, 28633) /* Diforsa Girth */
+     , (237, 8, 624) /* Ring */
+     , (237, 8, 27331) /* Minor Mana Stone */
+     , (237, 8, 41050) /* Frost Pike */
+     , (237, 8, 341) /* Shouyumi */
+     , (237, 8, 2414) /* Gem */
+     , (237, 8, 89) /* Studded Leather Pauldrons */
+     , (237, 8, 28607) /* Lace Shirt */
+     , (237, 8, 3270) /* Scroll of Healing Ineptitude IV */
+     , (237, 8, 2432) /* Gem */
+     , (237, 8, 351) /* Long Sword */
+     , (237, 8, 2599) /* Trousers */
+     , (237, 8, 3697) /* Red Jewel */
+     , (237, 8, 3180) /* Scroll of Missile Weapon Mastery Other IV */
+     , (237, 8, 296) /* Crown */
+     , (237, 8, 149) /* Ewer */
+     , (237, 8, 31777) /* Fire Board with Nail */
+     , (237, 8, 2598) /* Baggy Pants */
+     , (237, 8, 84) /* Studded  Leggings */
+     , (237, 8, 2429) /* Gem */
+     , (237, 8, 38) /* Studded Leather Bracers */
+     , (237, 8, 3696) /* Blue Jewel */
+     , (237, 8, 105) /* Studded Leather Sleeves */
+     , (237, 8, 2835) /* Aura of Heartseeker Self V */
+     , (237, 8, 2366) /* Orb */
+     , (237, 8, 49485) /* Encapsulated Spirit */
+     , (237, 8, 64) /* Yoroi Girth */
+     , (237, 8, 2603) /* Baggy Breeches */
+     , (237, 8, 25636) /* Leather Helm */
+     , (237, 8, 621) /* Heavy Bracelet */
+     , (237, 8, 93) /* Round Shield */
+     , (237, 8, 7604) /* Yellow Jewel */
+     , (237, 8, 2415) /* Gem */
+     , (237, 8, 101) /* Chainmail Sleeves */
+     , (237, 8, 28606) /* Viamontian Pants */
+     , (237, 8, 150) /* Flagon */
+     , (237, 8, 8154) /* Broken Virindi Mask */
+     , (237, 8, 2400) /* Gem */
+     , (237, 8, 41486) /* Puzzle Box */
+     , (237, 8, 133) /* Slippers */
+     , (237, 8, 307) /* Shortbow */;
+

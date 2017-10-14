@@ -45,3 +45,28 @@ VALUES (8269, 2, 48) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8269, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8269, 8, 296) /* Crown */
+     , (8269, 8, 273) /* Pyreal */
+     , (8269, 8, 8328) /* Iron Pea */
+     , (8269, 8, 2413) /* Gem */
+     , (8269, 8, 141) /* Bowl */
+     , (8269, 8, 2434) /* Lesser Mana Stone */
+     , (8269, 8, 41486) /* Puzzle Box */
+     , (8269, 8, 8329) /* Lead Pea */
+     , (8269, 8, 61) /* Platemail Girth */
+     , (8269, 8, 168) /* Tankard */
+     , (8269, 8, 27331) /* Minor Mana Stone */
+     , (8269, 8, 2601) /* Loose Pants */
+     , (8269, 8, 254) /* Stoup */
+     , (8269, 8, 9292) /* Virindi Singularity Key */
+     , (8269, 8, 148) /* Cup */
+     , (8269, 8, 2426) /* Gem */
+     , (8269, 8, 41068) /* Acid Shashqa */
+     , (8269, 8, 31772) /* Flaming War Axe */
+     , (8269, 8, 7940) /* Empty Flask */
+     , (8269, 8, 3753) /* Frost Battle Axe */
+     , (8269, 8, 295) /* Bracelet */;
+

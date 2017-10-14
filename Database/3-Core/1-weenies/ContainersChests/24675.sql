@@ -50,3 +50,23 @@ VALUES (24675, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24675, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24675, 8, 25639) /* Leather Jerkin */
+     , (24675, 8, 21335) /* Scroll of Shock Arc VI */
+     , (24675, 8, 2605) /* Chainmail Greaves */
+     , (24675, 8, 2711) /* Scroll of Mana Drain Other VI */
+     , (24675, 8, 3352) /* Scroll of Leadership Ineptitude VI */
+     , (24675, 8, 45431) /* Khanjar */
+     , (24675, 8, 43307) /* Scroll of Nether Bolt VI */
+     , (24675, 8, 2393) /* Gem */
+     , (24675, 8, 95) /* Tower Shield */
+     , (24675, 8, 3849) /* Acid Scimitar */
+     , (24675, 8, 55) /* Chainmail Gauntlets */
+     , (24675, 8, 21159) /* Covenant Tassets */
+     , (24675, 8, 273) /* Pyreal */
+     , (24675, 8, 243) /* Dinner Plate */
+     , (24675, 8, 2593) /* Loose Tunic */
+     , (24675, 8, 514) /* Excellent Lockpick */;
+

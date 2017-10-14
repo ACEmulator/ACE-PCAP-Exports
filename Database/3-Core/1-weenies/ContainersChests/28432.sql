@@ -36,3 +36,19 @@ VALUES (28432, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28432, 19, True) /* ATTACKABLE_BOOL */
      , (28432, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28432, 8, 31798) /* Slashing Compound Bow */
+     , (28432, 8, 6046) /* Amuli Coat */
+     , (28432, 8, 46882) /* Aura of Spirit Drinker Other VII */
+     , (28432, 8, 6043) /* Celdon Girth */
+     , (28432, 8, 20423) /* Scroll of Archer's Bane */
+     , (28432, 8, 154) /* Goblet */
+     , (28432, 8, 30596) /* Poniard */
+     , (28432, 8, 28490) /* Noble War Maul */
+     , (28432, 8, 621) /* Heavy Bracelet */
+     , (28432, 8, 6005) /* Koujia Sleeves */
+     , (28432, 8, 243) /* Dinner Plate */
+     , (28432, 8, 110) /* Platemail Tassets */;
+

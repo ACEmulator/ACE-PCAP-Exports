@@ -144,62 +144,62 @@ VALUES (44076, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (44076, 4, 306)
-     , (44076, 4, 311)
-     , (44076, 4, 12463)
-     , (44076, 4, 300)
-     , (44076, 4, 305)
-     , (44076, 4, 12464)
-     , (44076, 4, 44070)
-     , (44076, 4, 44069)
-     , (44076, 4, 44068)
-     , (44076, 4, 44359)
-     , (44076, 4, 44360)
-     , (44076, 4, 44361)
-     , (44076, 4, 44362)
-     , (44076, 4, 44363)
-     , (44076, 4, 4586)
-     , (44076, 4, 4585)
-     , (44076, 4, 5339)
-     , (44076, 4, 15296)
-     , (44076, 4, 23857)
-     , (44076, 4, 3599)
-     , (44076, 4, 3603)
-     , (44076, 4, 3601)
-     , (44076, 4, 3605)
-     , (44076, 4, 3598)
-     , (44076, 4, 3602)
-     , (44076, 4, 44071)
-     , (44076, 4, 44073)
-     , (44076, 4, 44072)
-     , (44076, 4, 44364)
-     , (44076, 4, 44224)
-     , (44076, 4, 44365)
-     , (44076, 4, 44366)
-     , (44076, 4, 44367)
-     , (44076, 4, 9359)
-     , (44076, 4, 9363)
-     , (44076, 4, 9362)
-     , (44076, 4, 9361)
-     , (44076, 4, 9366)
-     , (44076, 4, 9377)
-     , (44076, 4, 9378)
-     , (44076, 4, 23858)
-     , (44076, 4, 15298)
-     , (44076, 4, 2621)
-     , (44076, 4, 2622)
-     , (44076, 4, 2623)
-     , (44076, 4, 2624)
-     , (44076, 4, 2625)
-     , (44076, 4, 2626)
-     , (44076, 4, 2627)
-     , (44076, 4, 20628)
-     , (44076, 4, 20629)
-     , (44076, 4, 20630)
-     , (44076, 4, 44074);
+VALUES (44076, 4, 306) /* Longbow */
+     , (44076, 4, 311) /* Heavy Crossbow */
+     , (44076, 4, 12463) /* Atlatl */
+     , (44076, 4, 300) /* Arrow */
+     , (44076, 4, 305) /* Quarrel */
+     , (44076, 4, 12464) /* Atlatl Dart */
+     , (44076, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (44076, 4, 44069) /* Bundle of Greater Prismatic Arrowheads */
+     , (44076, 4, 44068) /* Bundle of Deadly Prismatic Arrowheads */
+     , (44076, 4, 44359) /* Bundle of Greater Deadly Arrowheads */
+     , (44076, 4, 44360) /* Bundle of Greater Deadly Blunt Arrowheads */
+     , (44076, 4, 44361) /* Bundle of Greater Deadly Broad Arrowheads */
+     , (44076, 4, 44362) /* Bundle of Greater Deadly Armor Piercing Arrowheads */
+     , (44076, 4, 44363) /* Bundle of Greater Deadly Frog Crotch Arrowheads */
+     , (44076, 4, 4586) /* Bundle of Arrowheads */
+     , (44076, 4, 4585) /* Bundle of Arrowshafts */
+     , (44076, 4, 5339) /* Bundle of Quarrelshafts */
+     , (44076, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (44076, 4, 23857) /* Bundle of Spiketails */
+     , (44076, 4, 3599) /* Blunt Arrow */
+     , (44076, 4, 3603) /* Blunt Quarrel */
+     , (44076, 4, 3601) /* Frog Crotch Arrow */
+     , (44076, 4, 3605) /* Frog Crotch Quarrel */
+     , (44076, 4, 3598) /* Armor Piercing Arrow */
+     , (44076, 4, 3602) /* Armor Piercing Quarrel */
+     , (44076, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */
+     , (44076, 4, 44073) /* Wrapped Bundle of Greater Prismatic Arrowheads */
+     , (44076, 4, 44072) /* Wrapped Bundle of Deadly Prismatic Arrowheads */
+     , (44076, 4, 44364) /* Wrapped Bundle of Greater Deadly Arrowheads */
+     , (44076, 4, 44224) /* Wrapped Bundle of Greater Deadly Blunt Arrowheads */
+     , (44076, 4, 44365) /* Wrapped Bundle of Greater Deadly Broad Arrowheads */
+     , (44076, 4, 44366) /* Wrapped Bundle of Greater Deadly Armor Piercing Arrowheads */
+     , (44076, 4, 44367) /* Wrapped Bundle of Greater Deadly Frog Crotch Arrowheads */
+     , (44076, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (44076, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (44076, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (44076, 4, 9361) /* Wrapped Bundle of Armor Piercing Arrowheads */
+     , (44076, 4, 9366) /* Wrapped Bundle of Frog Crotch Arrowheads */
+     , (44076, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (44076, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (44076, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (44076, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (44076, 4, 2621) /* Trade Note (100) */
+     , (44076, 4, 2622) /* Trade Note (500) */
+     , (44076, 4, 2623) /* Trade Note (1,000) */
+     , (44076, 4, 2624) /* Trade Note (5,000) */
+     , (44076, 4, 2625) /* Trade Note (10,000) */
+     , (44076, 4, 2626) /* Trade Note (50,000) */
+     , (44076, 4, 2627) /* Trade Note (100,000) */
+     , (44076, 4, 20628) /* Trade Note (150,000) */
+     , (44076, 4, 20629) /* Trade Note (200,000) */
+     , (44076, 4, 20630) /* Trade Note (250,000) */
+     , (44076, 4, 44074) /* Invitation to Master Fletchers */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (44076, 2, 38848);
+VALUES (44076, 2, 38848) /* Lightning Longbow */;
 

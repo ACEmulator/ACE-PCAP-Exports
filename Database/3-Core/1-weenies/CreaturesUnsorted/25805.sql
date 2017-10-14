@@ -55,3 +55,10 @@ VALUES (25805, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25805, 64, 551) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25805, 8, 30612) /* Lightning Knuckles */
+     , (25805, 8, 20238) /* Scroll of Anemia */
+     , (25805, 8, 2423) /* Gem */;
+

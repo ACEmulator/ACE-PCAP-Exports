@@ -39,3 +39,17 @@ VALUES (10950, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (10950, 67113368, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (10950, 8, 2428) /* Gem */
+     , (10950, 8, 20640) /* Royal Atlatl */
+     , (10950, 8, 62) /* Scalemail Girth */
+     , (10950, 8, 2458) /* Health Elixir */
+     , (10950, 8, 45876) /* Scarlet Red Letter */
+     , (10950, 8, 9413) /* Dread Mattekar Paw */
+     , (10950, 8, 4237) /* Thick Gromnie Hide */
+     , (10950, 8, 10960) /* Clay Figurine */
+     , (10950, 8, 10996) /* Ebon Spine Harpoon */
+     , (10950, 8, 10997) /* Ebon Spine Harpoon */;
+

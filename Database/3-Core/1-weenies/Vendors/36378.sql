@@ -125,37 +125,37 @@ VALUES (36378, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (36378, 4, 41508)
-     , (36378, 4, 36632)
-     , (36378, 4, 36633)
-     , (36378, 4, 36364)
-     , (36378, 4, 36365)
-     , (36378, 4, 36366)
-     , (36378, 4, 36367)
-     , (36378, 4, 36368)
-     , (36378, 4, 36369)
-     , (36378, 4, 36370)
-     , (36378, 4, 36371)
-     , (36378, 4, 36372)
-     , (36378, 4, 36373)
-     , (36378, 4, 41855)
-     , (36378, 4, 36374)
-     , (36378, 4, 36377)
-     , (36378, 4, 36375)
-     , (36378, 4, 36634)
-     , (36378, 4, 36635)
-     , (36378, 4, 36636)
-     , (36378, 4, 38887)
-     , (36378, 4, 41876)
-     , (36378, 4, 41861)
-     , (36378, 4, 41864)
-     , (36378, 4, 41867)
-     , (36378, 4, 41870)
-     , (36378, 4, 41873)
-     , (36378, 4, 39981)
-     , (36378, 4, 39982)
-     , (36378, 4, 40139)
-     , (36378, 4, 40607)
-     , (36378, 4, 41919)
-     , (36378, 4, 40514);
+VALUES (36378, 4, 41508) /* Major Item Tinkering Armature */
+     , (36378, 4, 36632) /* Olthoi Shield Armor Augmentation */
+     , (36378, 4, 36633) /* Missile Defense Weapon Augmentation */
+     , (36378, 4, 36364) /* Chimeric Atlatl of the Quiddity Summoning Gem */
+     , (36378, 4, 36365) /* Chimeric Axe of the Quiddity Summoning Gem */
+     , (36378, 4, 36366) /* Chimeric Bow of the Quiddity Summoning Gem */
+     , (36378, 4, 36367) /* Chimeric Balister of the Quiddity Summoning Gem */
+     , (36378, 4, 36368) /* Chimeric Dagger of the Quiddity Summoning Gem */
+     , (36378, 4, 36369) /* Chimeric Mace of the Quiddity Summoning Gem */
+     , (36378, 4, 36370) /* Chimeric Eye of the Quiddity Summoning Gem */
+     , (36378, 4, 36371) /* Chimeric Lance of the Quiddity Summoning Gem */
+     , (36378, 4, 36372) /* Chimeric Stave of the Quiddity Summoning Gem */
+     , (36378, 4, 36373) /* Chimeric Blade of the Quiddity Summoning Gem */
+     , (36378, 4, 41855) /* Chimeric Two Handed Blade of the Quiddity Summoning Gem */
+     , (36378, 4, 36374) /* Chimeric Fist of the Quiddity Summoning Gem */
+     , (36378, 4, 36377) /* Scroll of 'Infested Area' Recall */
+     , (36378, 4, 36375) /* Crate of Olthoi Acid Arrowheads */
+     , (36378, 4, 36634) /* Foolproof */
+     , (36378, 4, 36635) /* Foolproof Yellow Topaz */
+     , (36378, 4, 36636) /* Foolproof Zircon */
+     , (36378, 4, 38887) /* Olthoi Veteran's Medal */
+     , (36378, 4, 41876) /* Sealed Bag of Salvaged Sapphire */
+     , (36378, 4, 41861) /* Sealed Bag of Salvaged Amber */
+     , (36378, 4, 41864) /* Sealed Bag of Salvaged Diamond */
+     , (36378, 4, 41867) /* Sealed Bag of Salvaged Gromnie Hide */
+     , (36378, 4, 41870) /* Sealed Bag of Salvaged Pyreal */
+     , (36378, 4, 41873) /* Sealed Bag of Salvaged Ruby */
+     , (36378, 4, 39981) /* Protective Leggings */
+     , (36378, 4, 39982) /* Protective Tunic */
+     , (36378, 4, 40139) /* Tome of Caustics */
+     , (36378, 4, 40607) /* Armor Upgrade Kit Containment Gem */
+     , (36378, 4, 41919) /* Weapon Upgrade Kit Containment Gem */
+     , (36378, 4, 40514) /* Inert Olthoibane Infusion */;
 

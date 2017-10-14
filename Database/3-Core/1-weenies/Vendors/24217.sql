@@ -126,18 +126,18 @@ VALUES (24217, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24217, 4, 2451)
-     , (24217, 4, 2463)
-     , (24217, 4, 2468)
-     , (24217, 4, 2456)
-     , (24217, 4, 4746)
-     , (24217, 4, 8378)
-     , (24217, 4, 4738)
-     , (24217, 4, 4711)
-     , (24217, 4, 4733)
-     , (24217, 4, 32781)
-     , (24217, 4, 30742)
-     , (24217, 4, 30743)
-     , (24217, 4, 33181)
-     , (24217, 4, 35043);
+VALUES (24217, 4, 2451) /* Ale */
+     , (24217, 4, 2463) /* Milk */
+     , (24217, 4, 2468) /* Sake */
+     , (24217, 4, 2456) /* Green Tea */
+     , (24217, 4, 4746) /* Water */
+     , (24217, 4, 8378) /* Beer Stein */
+     , (24217, 4, 4738) /* Mushroom Rice */
+     , (24217, 4, 4711) /* Beef Noodle */
+     , (24217, 4, 4733) /* Kimchi */
+     , (24217, 4, 32781) /* The Bandits of the Creepy Chambers */
+     , (24217, 4, 30742) /* The Littlest Niffis */
+     , (24217, 4, 30743) /* Suzuhara Baijin's Delivery */
+     , (24217, 4, 33181) /* A Shadow Spire on the Caul */
+     , (24217, 4, 35043) /* Halls of Metos */;
 

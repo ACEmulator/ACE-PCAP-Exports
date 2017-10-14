@@ -126,45 +126,45 @@ VALUES (11382, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (11382, 4, 35)
-     , (11382, 4, 551)
-     , (11382, 4, 554)
-     , (11382, 4, 413)
-     , (11382, 4, 414)
-     , (11382, 4, 55)
-     , (11382, 4, 415)
-     , (11382, 4, 2605)
-     , (11382, 4, 108)
-     , (11382, 4, 80)
-     , (11382, 4, 416)
-     , (11382, 4, 85)
-     , (11382, 4, 46)
-     , (11382, 4, 116)
-     , (11382, 4, 38)
-     , (11382, 4, 42)
-     , (11382, 4, 723)
-     , (11382, 4, 59)
-     , (11382, 4, 63)
-     , (11382, 4, 68)
-     , (11382, 4, 112)
-     , (11382, 4, 84)
-     , (11382, 4, 89)
-     , (11382, 4, 91)
-     , (11382, 4, 4190)
-     , (11382, 4, 314)
-     , (11382, 4, 316)
-     , (11382, 4, 303)
-     , (11382, 4, 331)
-     , (11382, 4, 22168)
-     , (11382, 4, 352)
-     , (11382, 4, 348)
-     , (11382, 4, 315)
-     , (11382, 4, 2621)
-     , (11382, 4, 2622)
-     , (11382, 4, 2623);
+VALUES (11382, 4, 35) /* Chainmail Basinet */
+     , (11382, 4, 551) /* Basinet */
+     , (11382, 4, 554) /* Studded Leather Basinet */
+     , (11382, 4, 413) /* Chainmail Bracers */
+     , (11382, 4, 414) /* Chainmail Breastplate */
+     , (11382, 4, 55) /* Chainmail Gauntlets */
+     , (11382, 4, 415) /* Chainmail Girth */
+     , (11382, 4, 2605) /* Chainmail Greaves */
+     , (11382, 4, 108) /* Chainmail Tassets */
+     , (11382, 4, 80) /* Chainmail Leggings */
+     , (11382, 4, 416) /* Chainmail Pauldrons */
+     , (11382, 4, 85) /* Chainmail Coif */
+     , (11382, 4, 46) /* Metal Cap */
+     , (11382, 4, 116) /* Studded Leather Boots */
+     , (11382, 4, 38) /* Studded Leather Bracers */
+     , (11382, 4, 42) /* Studded Leather Breastplate */
+     , (11382, 4, 723) /* Studded Leather Cowl */
+     , (11382, 4, 59) /* Studded Leather Gauntlets */
+     , (11382, 4, 63) /* Studded Leather Girth */
+     , (11382, 4, 68) /* Studded Leather Greaves */
+     , (11382, 4, 112) /* Studded Leather Tassets */
+     , (11382, 4, 84) /* Studded  Leggings */
+     , (11382, 4, 89) /* Studded Leather Pauldrons */
+     , (11382, 4, 91) /* Kite Shield */
+     , (11382, 4, 4190) /* Cestus */
+     , (11382, 4, 314) /* Dagger */
+     , (11382, 4, 316) /* Throwing Dart */
+     , (11382, 4, 303) /* Hand Axe */
+     , (11382, 4, 331) /* Mace */
+     , (11382, 4, 22168) /* Hefty Walking Cane */
+     , (11382, 4, 352) /* Short Sword */
+     , (11382, 4, 348) /* Spear */
+     , (11382, 4, 315) /* Throwing Dagger */
+     , (11382, 4, 2621) /* Trade Note (100) */
+     , (11382, 4, 2622) /* Trade Note (500) */
+     , (11382, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (11382, 2, 352);
+VALUES (11382, 2, 352) /* Short Sword */;
 

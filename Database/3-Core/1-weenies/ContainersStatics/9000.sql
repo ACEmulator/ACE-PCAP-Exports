@@ -24,7 +24,7 @@ VALUES (9000, 1, 512) /* ITEM_TYPE_INT */
      , (9000, 6, 120) /* ITEMS_CAPACITY_INT */
      , (9000, 16, 48) /* ITEM_USEABLE_INT */
      , (9000, 93, 66584) /* PHYSICS_STATE_INT */
-     , (9000, 9007, 21) /* Container_WeenieType */;
+     , (9000, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (9000, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -56,4 +56,9 @@ VALUES (9000, 19, 0) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (9000, 2, 0) /* OPEN_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9000, 8, 8909) /* Blood of the Hopeslayer */;
 

@@ -39,3 +39,14 @@ VALUES (618, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (618, 67116472, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (618, 8, 2605) /* Chainmail Greaves */
+     , (618, 8, 27330) /* Moderate Mana Stone */
+     , (618, 8, 31792) /* Frost Stick */
+     , (618, 8, 295) /* Bracelet */
+     , (618, 8, 142) /* Chalice */
+     , (618, 8, 59) /* Studded Leather Gauntlets */
+     , (618, 8, 128) /* Qafiya */;
+

@@ -36,3 +36,13 @@ VALUES (31837, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31837, 67116726, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31837, 8, 624) /* Ring */
+     , (31837, 8, 2410) /* Gem */
+     , (31837, 8, 45433) /* Lightning Khanjar */
+     , (31837, 8, 621) /* Heavy Bracelet */
+     , (31837, 8, 20543) /* Scroll of Yoshi's Blessing */
+     , (31837, 8, 2402) /* Gem */;
+

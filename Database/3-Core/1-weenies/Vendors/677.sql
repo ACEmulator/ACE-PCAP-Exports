@@ -124,37 +124,37 @@ VALUES (677, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (677, 4, 4190)
-     , (677, 4, 301)
-     , (677, 4, 350)
-     , (677, 4, 351)
-     , (677, 4, 331)
-     , (677, 4, 332)
-     , (677, 4, 339)
-     , (677, 4, 359)
-     , (677, 4, 303)
-     , (677, 4, 309)
-     , (677, 4, 314)
-     , (677, 4, 316)
-     , (677, 4, 329)
-     , (677, 4, 22168)
-     , (677, 4, 348)
-     , (677, 4, 320)
-     , (677, 4, 2621)
-     , (677, 4, 2622)
-     , (677, 4, 2623)
-     , (677, 4, 2624)
-     , (677, 4, 2625)
-     , (677, 4, 2626)
-     , (677, 4, 2627)
-     , (677, 4, 20628)
-     , (677, 4, 20629)
-     , (677, 4, 20630)
-     , (677, 4, 45683)
-     , (677, 4, 45684);
+VALUES (677, 4, 4190) /* Cestus */
+     , (677, 4, 301) /* Battle Axe */
+     , (677, 4, 350) /* Broad Sword */
+     , (677, 4, 351) /* Long Sword */
+     , (677, 4, 331) /* Mace */
+     , (677, 4, 332) /* Morning Star */
+     , (677, 4, 339) /* Scimitar */
+     , (677, 4, 359) /* War Hammer */
+     , (677, 4, 303) /* Hand Axe */
+     , (677, 4, 309) /* Club */
+     , (677, 4, 314) /* Dagger */
+     , (677, 4, 316) /* Throwing Dart */
+     , (677, 4, 329) /* Knife */
+     , (677, 4, 22168) /* Hefty Walking Cane */
+     , (677, 4, 348) /* Spear */
+     , (677, 4, 320) /* Javelin */
+     , (677, 4, 2621) /* Trade Note (100) */
+     , (677, 4, 2622) /* Trade Note (500) */
+     , (677, 4, 2623) /* Trade Note (1,000) */
+     , (677, 4, 2624) /* Trade Note (5,000) */
+     , (677, 4, 2625) /* Trade Note (10,000) */
+     , (677, 4, 2626) /* Trade Note (50,000) */
+     , (677, 4, 2627) /* Trade Note (100,000) */
+     , (677, 4, 20628) /* Trade Note (150,000) */
+     , (677, 4, 20629) /* Trade Note (200,000) */
+     , (677, 4, 20630) /* Trade Note (250,000) */
+     , (677, 4, 45683) /* Left-hand Tether */
+     , (677, 4, 45684) /* Left-hand Tether Remover */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (677, 2, 352);
+VALUES (677, 2, 352) /* Short Sword */;
 

@@ -53,3 +53,62 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (1540, 2, 0) /* OPEN_BOOL */
      , (1540, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1540, 8, 297) /* Ring */
+     , (1540, 8, 154) /* Goblet */
+     , (1540, 8, 2596) /* Doublet */
+     , (1540, 8, 168) /* Tankard */
+     , (1540, 8, 295) /* Bracelet */
+     , (1540, 8, 3491) /* Scroll of Sprint Other V */
+     , (1540, 8, 149) /* Ewer */
+     , (1540, 8, 7886) /* Baron's Amulet of Life Giving */
+     , (1540, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (1540, 8, 294) /* Amulet */
+     , (1540, 8, 49247) /* Fire Zombie Essence (50) */
+     , (1540, 8, 296) /* Crown */
+     , (1540, 8, 30616) /* Arbalest */
+     , (1540, 8, 2417) /* Gem */
+     , (1540, 8, 46858) /* Aura of Hermetic Link Other VI */
+     , (1540, 8, 621) /* Heavy Bracelet */
+     , (1540, 8, 2399) /* Gem */
+     , (1540, 8, 99) /* Studded Leather Shirt */
+     , (1540, 8, 41488) /* Top */
+     , (1540, 8, 45296) /* Scroll of Recklessness Mastery Other V */
+     , (1540, 8, 130) /* Shirt */
+     , (1540, 8, 132) /* Shoes */
+     , (1540, 8, 49303) /* Frost K'nath Essence (50) */
+     , (1540, 8, 48972) /* Acid Zombie Essence (50) */
+     , (1540, 8, 49261) /* Acid Elemental Essence (50) */
+     , (1540, 8, 2401) /* Gem */
+     , (1540, 8, 340) /* Shamshir */
+     , (1540, 8, 134) /* Tunic */
+     , (1540, 8, 133) /* Slippers */
+     , (1540, 8, 2431) /* Gem */
+     , (1540, 8, 49442) /* Frost Spectre Essence (50) */
+     , (1540, 8, 28606) /* Viamontian Pants */
+     , (1540, 8, 31865) /* Circlet */
+     , (1540, 8, 243) /* Dinner Plate */
+     , (1540, 8, 21156) /* Covenant Helm */
+     , (1540, 8, 161) /* Mug */
+     , (1540, 8, 141) /* Bowl */
+     , (1540, 8, 2393) /* Gem */
+     , (1540, 8, 2590) /* Baggy Shirt */
+     , (1540, 8, 49331) /* Frost Wisp Essence (50) */
+     , (1540, 8, 28607) /* Lace Shirt */
+     , (1540, 8, 414) /* Chainmail Breastplate */
+     , (1540, 8, 41055) /* Flaming Greataxe */
+     , (1540, 8, 2429) /* Gem */
+     , (1540, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (1540, 8, 2406) /* Gem */
+     , (1540, 8, 20511) /* Scroll of Morimoto's Boon */
+     , (1540, 8, 2396) /* Gem */
+     , (1540, 8, 2594) /* Flared Tunic */
+     , (1540, 8, 624) /* Ring */
+     , (1540, 8, 49485) /* Encapsulated Spirit */
+     , (1540, 8, 121) /* Gloves */
+     , (1540, 8, 25661) /* Leather Boots */
+     , (1540, 8, 307) /* Shortbow */
+     , (1540, 8, 163) /* Ornamental Bowl */;
+

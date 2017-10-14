@@ -81,3 +81,15 @@ VALUES (28877, 2, 49) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28877, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28877, 8, 3433) /* Scroll of Mana Mastery Self II */
+     , (28877, 8, 27331) /* Minor Mana Stone */
+     , (28877, 8, 273) /* Pyreal */
+     , (28877, 8, 45334) /* Scroll of Sneak Attack Ineptitude Other III */
+     , (28877, 8, 168) /* Tankard */
+     , (28877, 8, 2434) /* Lesser Mana Stone */
+     , (28877, 8, 8329) /* Lead Pea */
+     , (28877, 8, 8943) /* Scroll of Lightning Streak III */;
+

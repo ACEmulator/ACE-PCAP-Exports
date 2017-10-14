@@ -72,3 +72,13 @@ VALUES (46506, 2, 77) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46506, 64, 2675) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46506, 8, 29238) /* Acid Bow */
+     , (46506, 8, 515) /* Superb Lockpick */
+     , (46506, 8, 273) /* Pyreal */
+     , (46506, 8, 20476) /* Scroll of Gelidite's Gift */
+     , (46506, 8, 9229) /* Treated Healing Kit */
+     , (46506, 8, 516) /* Peerless Lockpick */;
+

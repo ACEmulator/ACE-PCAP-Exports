@@ -44,3 +44,24 @@ VALUES (32186, 2, 93) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (32186, 64, 1400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32186, 8, 40705) /* Covenant Sollerets */
+     , (32186, 8, 27330) /* Moderate Mana Stone */
+     , (32186, 8, 273) /* Pyreal */
+     , (32186, 8, 8232) /* Pumpkin */
+     , (32186, 8, 414) /* Chainmail Breastplate */
+     , (32186, 8, 2435) /* Mana Stone */
+     , (32186, 8, 161) /* Mug */
+     , (32186, 8, 2602) /* Loose Breeches */
+     , (32186, 8, 8329) /* Lead Pea */
+     , (32186, 8, 2430) /* Gem */
+     , (32186, 8, 44975) /* Hood */
+     , (32186, 8, 8326) /* Copper Pea */
+     , (32186, 8, 154) /* Goblet */
+     , (32186, 8, 3351) /* Scroll of Leadership Ineptitude V */
+     , (32186, 8, 30588) /* Lightning Flanged Mace */
+     , (32186, 8, 8328) /* Iron Pea */
+     , (32186, 8, 2605) /* Chainmail Greaves */;
+

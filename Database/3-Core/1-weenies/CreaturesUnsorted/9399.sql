@@ -67,3 +67,12 @@ VALUES (9399, 2, 70) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9399, 64, 660) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9399, 8, 2433) /* Gem */
+     , (9399, 8, 27330) /* Moderate Mana Stone */
+     , (9399, 8, 28610) /* Loafers */
+     , (9399, 8, 40714) /* Covenant Tassets */
+     , (9399, 8, 9390) /* Lugian Armor */;
+

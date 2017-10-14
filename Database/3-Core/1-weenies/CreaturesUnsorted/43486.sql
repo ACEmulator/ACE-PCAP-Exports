@@ -49,3 +49,10 @@ VALUES (43486, 2, 44) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43486, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43486, 8, 43491) /* Pitted Slag */
+     , (43486, 8, 2411) /* Gem */
+     , (43486, 8, 4198) /* Frost Nekode */;
+

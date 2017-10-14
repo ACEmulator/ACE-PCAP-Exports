@@ -101,3 +101,10 @@ VALUES (29489, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29489, 69, 1) /* IS_SELLABLE_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29489, 8, 624) /* Ring */
+     , (29489, 8, 31780) /* Acid Spine Glaive */
+     , (29489, 8, 29493) /* Ring of Karlun */;
+

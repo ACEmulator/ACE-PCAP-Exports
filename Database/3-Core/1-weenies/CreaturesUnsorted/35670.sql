@@ -64,3 +64,43 @@ VALUES (35670, 0, 16784123)
      , (35670, 11, 16784119)
      , (35670, 12, 16784114);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35670, 8, 43053) /* Knorr Academy Boots */
+     , (35670, 8, 2408) /* Gem */
+     , (35670, 8, 25651) /* Leather Sleeves */
+     , (35670, 8, 25644) /* Leather Greaves */
+     , (35670, 8, 273) /* Pyreal */
+     , (35670, 8, 31866) /* Coronet */
+     , (35670, 8, 55) /* Chainmail Gauntlets */
+     , (35670, 8, 27328) /* Major Mana Stone */
+     , (35670, 8, 624) /* Ring */
+     , (35670, 8, 40699) /* Covenant Girth */
+     , (35670, 8, 45116) /* Flaming Hammer */
+     , (35670, 8, 2411) /* Gem */
+     , (35670, 8, 21156) /* Covenant Helm */
+     , (35670, 8, 4190) /* Cestus */
+     , (35670, 8, 22160) /* Lightning Nabut */
+     , (35670, 8, 6048) /* Celdon Sleeves */
+     , (35670, 8, 25661) /* Leather Boots */
+     , (35670, 8, 8327) /* Gold Pea */
+     , (35670, 8, 6005) /* Koujia Sleeves */
+     , (35670, 8, 43052) /* Knorr Academy Pauldrons */
+     , (35670, 8, 25643) /* Leather Girth */
+     , (35670, 8, 163) /* Ornamental Bowl */
+     , (35670, 8, 41044) /* Flaming Magari Yari */
+     , (35670, 8, 40714) /* Covenant Tassets */
+     , (35670, 8, 116) /* Studded Leather Boots */
+     , (35670, 8, 30609) /* Frost Bastone */
+     , (35670, 8, 41047) /* Acid Pike */
+     , (35670, 8, 31779) /* Spine Glaive */
+     , (35670, 8, 29250) /* Piercing Crossbow */
+     , (35670, 8, 29252) /* Acid Atlatl */
+     , (35670, 8, 31868) /* Signet Crown */
+     , (35670, 8, 621) /* Heavy Bracelet */
+     , (35670, 8, 2605) /* Chainmail Greaves */
+     , (35670, 8, 7787) /* Frost Spiked Club */
+     , (35670, 8, 43308) /* Scroll of Nether Bolt VII */
+     , (35670, 8, 9229) /* Treated Healing Kit */;
+

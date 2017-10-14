@@ -126,47 +126,47 @@ VALUES (713, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (713, 4, 307)
-     , (713, 4, 300)
-     , (713, 4, 312)
-     , (713, 4, 305)
-     , (713, 4, 12463)
-     , (713, 4, 12464)
-     , (713, 4, 15296)
-     , (713, 4, 15298)
-     , (713, 4, 23858)
-     , (713, 4, 23857)
-     , (713, 4, 4586)
-     , (713, 4, 4585)
-     , (713, 4, 5339)
-     , (713, 4, 5344)
-     , (713, 4, 5345)
-     , (713, 4, 9378)
-     , (713, 4, 9377)
-     , (713, 4, 9359)
-     , (713, 4, 9362)
-     , (713, 4, 9363)
-     , (713, 4, 2621)
-     , (713, 4, 2622)
-     , (713, 4, 2623)
-     , (713, 4, 304)
-     , (713, 4, 3758)
-     , (713, 4, 3759)
-     , (713, 4, 3760)
-     , (713, 4, 3761)
-     , (713, 4, 310)
-     , (713, 4, 320)
-     , (713, 4, 316)
-     , (713, 4, 3786)
-     , (713, 4, 3787)
-     , (713, 4, 3788)
-     , (713, 4, 3789)
-     , (713, 4, 44074)
-     , (713, 4, 44070)
-     , (713, 4, 44071);
+VALUES (713, 4, 307) /* Shortbow */
+     , (713, 4, 300) /* Arrow */
+     , (713, 4, 312) /* Light Crossbow */
+     , (713, 4, 305) /* Quarrel */
+     , (713, 4, 12463) /* Atlatl */
+     , (713, 4, 12464) /* Atlatl Dart */
+     , (713, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (713, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (713, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (713, 4, 23857) /* Bundle of Spiketails */
+     , (713, 4, 4586) /* Bundle of Arrowheads */
+     , (713, 4, 4585) /* Bundle of Arrowshafts */
+     , (713, 4, 5339) /* Bundle of Quarrelshafts */
+     , (713, 4, 5344) /* Bundle of Blunt Arrowheads */
+     , (713, 4, 5345) /* Bundle of Broad Arrowheads */
+     , (713, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (713, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (713, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (713, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (713, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (713, 4, 2621) /* Trade Note (100) */
+     , (713, 4, 2622) /* Trade Note (500) */
+     , (713, 4, 2623) /* Trade Note (1,000) */
+     , (713, 4, 304) /* Throwing Axe */
+     , (713, 4, 3758) /* Acid Throwing Axe */
+     , (713, 4, 3759) /* Lightning Throwing Axe */
+     , (713, 4, 3760) /* Flaming Throwing Axe */
+     , (713, 4, 3761) /* Frost Throwing Axe */
+     , (713, 4, 310) /* Throwing Club */
+     , (713, 4, 320) /* Javelin */
+     , (713, 4, 316) /* Throwing Dart */
+     , (713, 4, 3786) /* Throwing Acid Dart */
+     , (713, 4, 3787) /* Throwing Lightning Dart */
+     , (713, 4, 3788) /* Throwing Fire Dart */
+     , (713, 4, 3789) /* Throwing Frost Dart */
+     , (713, 4, 44074) /* Invitation to Master Fletchers */
+     , (713, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (713, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (713, 2, 307);
+VALUES (713, 2, 307) /* Shortbow */;
 

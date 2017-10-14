@@ -48,3 +48,14 @@ VALUES (30507, 2, 54) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30507, 64, 43) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30507, 8, 150) /* Flagon */
+     , (30507, 8, 273) /* Pyreal */
+     , (30507, 8, 27331) /* Minor Mana Stone */
+     , (30507, 8, 30506) /* Mad Star Marionette's Head */
+     , (30507, 8, 45113) /* Hammer */
+     , (30507, 8, 2602) /* Loose Breeches */
+     , (30507, 8, 30613) /* Flaming Knuckles */;
+

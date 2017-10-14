@@ -45,3 +45,27 @@ VALUES (22052, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22052, 64, 283) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22052, 8, 49310) /* Acid Wisp Essence (50) */
+     , (22052, 8, 92) /* Large Kite Shield */
+     , (22052, 8, 28606) /* Viamontian Pants */
+     , (22052, 8, 416) /* Chainmail Pauldrons */
+     , (22052, 8, 621) /* Heavy Bracelet */
+     , (22052, 8, 30563) /* Lightning Dolabra */
+     , (22052, 8, 295) /* Bracelet */
+     , (22052, 8, 20414) /* Scroll of Gelidite's Bane */
+     , (22052, 8, 25644) /* Leather Greaves */
+     , (22052, 8, 8331) /* Silver Pea */
+     , (22052, 8, 3859) /* Flaming Shou-ono */
+     , (22052, 8, 45876) /* Scarlet Red Letter */
+     , (22052, 8, 30746) /* Dart Flinger */
+     , (22052, 8, 20640) /* Royal Atlatl */
+     , (22052, 8, 59) /* Studded Leather Gauntlets */
+     , (22052, 8, 20420) /* Scroll of Astyrrian's Bane */
+     , (22052, 8, 3687) /* Skeleton's Skull */
+     , (22052, 8, 2367) /* Gorget */
+     , (22052, 8, 2596) /* Doublet */
+     , (22052, 8, 515) /* Superb Lockpick */;
+

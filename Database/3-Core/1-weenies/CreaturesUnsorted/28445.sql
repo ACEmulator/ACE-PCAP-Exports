@@ -48,3 +48,20 @@ VALUES (28445, 2, 75) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28445, 64, 7500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28445, 8, 20237) /* Scroll of Perseverance */
+     , (28445, 8, 2422) /* Gem */
+     , (28445, 8, 30612) /* Lightning Knuckles */
+     , (28445, 8, 21158) /* Covenant Shield */
+     , (28445, 8, 414) /* Chainmail Breastplate */
+     , (28445, 8, 273) /* Pyreal */
+     , (28445, 8, 29248) /* Fire Crossbow */
+     , (28445, 8, 127) /* Pants */
+     , (28445, 8, 416) /* Chainmail Pauldrons */
+     , (28445, 8, 21152) /* Covenant Breastplate */
+     , (28445, 8, 28487) /* Morgluuk's Head */
+     , (28445, 8, 27318) /* Health Philtre */
+     , (28445, 8, 28488) /* Morgluuk's Flesh */;
+

@@ -115,26 +115,26 @@ VALUES (30032, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30032, 4, 365)
-     , (30032, 4, 367)
-     , (30032, 4, 364)
-     , (30032, 4, 5856)
-     , (30032, 4, 7884)
-     , (30032, 4, 5586)
-     , (30032, 4, 5587)
-     , (30032, 4, 2621)
-     , (30032, 4, 2622)
-     , (30032, 4, 2623)
-     , (30032, 4, 2624)
-     , (30032, 4, 2625)
-     , (30032, 4, 2626)
-     , (30032, 4, 2627)
-     , (30032, 4, 20628)
-     , (30032, 4, 20629)
-     , (30032, 4, 20630);
+VALUES (30032, 4, 365) /* Parchment */
+     , (30032, 4, 367) /* Tome */
+     , (30032, 4, 364) /* Book */
+     , (30032, 4, 5856) /* Specialty Cookbook */
+     , (30032, 4, 7884) /* Chocolate Cookbook */
+     , (30032, 4, 5586) /* Alchemy Guide */
+     , (30032, 4, 5587) /* Fletching Guide */
+     , (30032, 4, 2621) /* Trade Note (100) */
+     , (30032, 4, 2622) /* Trade Note (500) */
+     , (30032, 4, 2623) /* Trade Note (1,000) */
+     , (30032, 4, 2624) /* Trade Note (5,000) */
+     , (30032, 4, 2625) /* Trade Note (10,000) */
+     , (30032, 4, 2626) /* Trade Note (50,000) */
+     , (30032, 4, 2627) /* Trade Note (100,000) */
+     , (30032, 4, 20628) /* Trade Note (150,000) */
+     , (30032, 4, 20629) /* Trade Note (200,000) */
+     , (30032, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30032, 2, 2547);
+VALUES (30032, 2, 2547) /* Staff */;
 

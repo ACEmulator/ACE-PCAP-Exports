@@ -36,3 +36,24 @@ VALUES (41193, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41193, 67113145, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41193, 8, 142) /* Chalice */
+     , (41193, 8, 2402) /* Gem */
+     , (41193, 8, 332) /* Morning Star */
+     , (41193, 8, 2423) /* Gem */
+     , (41193, 8, 30582) /* Lightning Mazule */
+     , (41193, 8, 624) /* Ring */
+     , (41193, 8, 3905) /* Acid War Hammer */
+     , (41193, 8, 3883) /* Flaming Long Sword */
+     , (41193, 8, 25652) /* Leather Tassets */
+     , (41193, 8, 127) /* Pants */
+     , (41193, 8, 25646) /* Long Leather Gauntlets */
+     , (41193, 8, 163) /* Ornamental Bowl */
+     , (41193, 8, 49485) /* Encapsulated Spirit */
+     , (41193, 8, 28607) /* Lace Shirt */
+     , (41193, 8, 354) /* Takuba */
+     , (41193, 8, 149) /* Ewer */
+     , (41193, 8, 621) /* Heavy Bracelet */;
+

@@ -50,3 +50,33 @@ VALUES (27379, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27379, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27379, 8, 3084) /* Scroll of Fester Other III */
+     , (27379, 8, 44854) /* Halved Cloak */
+     , (27379, 8, 49442) /* Frost Spectre Essence (50) */
+     , (27379, 8, 45303) /* Scroll of Recklessness Mastery Self IV */
+     , (27379, 8, 628) /* Handy Healing Kit */
+     , (27379, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (27379, 8, 25637) /* Leather Bracers */
+     , (27379, 8, 95) /* Tower Shield */
+     , (27379, 8, 55) /* Chainmail Gauntlets */
+     , (27379, 8, 92) /* Large Kite Shield */
+     , (27379, 8, 7940) /* Empty Flask */
+     , (27379, 8, 89) /* Studded Leather Pauldrons */
+     , (27379, 8, 132) /* Shoes */
+     , (27379, 8, 25642) /* Leather Gauntlets */
+     , (27379, 8, 82) /* Platemail Leggings */
+     , (27379, 8, 45416) /* Knife */
+     , (27379, 8, 2839) /* Scroll of Hermetic Void IV */
+     , (27379, 8, 44856) /* Trimmed Cloak */
+     , (27379, 8, 106) /* Yoroi Sleeves */
+     , (27379, 8, 512) /* Good Lockpick */
+     , (27379, 8, 48959) /* Fire Elemental Essence (50) */
+     , (27379, 8, 254) /* Stoup */
+     , (27379, 8, 30576) /* Flamberge */
+     , (27379, 8, 80) /* Chainmail Leggings */
+     , (27379, 8, 2599) /* Trousers */
+     , (27379, 8, 297) /* Ring */;
+

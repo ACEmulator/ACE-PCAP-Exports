@@ -125,11 +125,11 @@ VALUES (989, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (989, 4, 166)
-     , (989, 4, 4763)
-     , (989, 4, 2463)
-     , (989, 4, 4753)
-     , (989, 4, 264)
-     , (989, 4, 5758)
-     , (989, 4, 4754);
+VALUES (989, 4, 166) /* Sack */
+     , (989, 4, 4763) /* Honey */
+     , (989, 4, 2463) /* Milk */
+     , (989, 4, 4753) /* Side of Beef */
+     , (989, 4, 264) /* Grapes */
+     , (989, 4, 5758) /* Carrot */
+     , (989, 4, 4754) /* Baking Pan */;
 

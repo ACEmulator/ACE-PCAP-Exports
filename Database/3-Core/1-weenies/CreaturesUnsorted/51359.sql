@@ -45,3 +45,13 @@ VALUES (51359, 2, 100) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51359, 64, 1900) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51359, 8, 31767) /* Flaming Lugian Hammer */
+     , (51359, 8, 40680) /* Olthoi Helm */
+     , (51359, 8, 37191) /* Olthoi Gauntlets */
+     , (51359, 8, 22167) /* Frost Quarter Staff */
+     , (51359, 8, 31776) /* Electric Board with Nail */
+     , (51359, 8, 623) /* Heavy Necklace */;
+

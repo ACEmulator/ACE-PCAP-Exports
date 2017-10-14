@@ -39,3 +39,18 @@ VALUES (8121, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8121, 67112860, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8121, 8, 6004) /* Koujia Leggings */
+     , (8121, 8, 132) /* Shoes */
+     , (8121, 8, 30563) /* Lightning Dolabra */
+     , (8121, 8, 630) /* Gifted Healing Kit */
+     , (8121, 8, 8085) /* Oozing Lump */
+     , (8121, 8, 2911) /* Scroll of Acid Stream VI */
+     , (8121, 8, 622) /* Necklace */
+     , (8121, 8, 2668) /* Scroll of Enfeeble Other VI */
+     , (8121, 8, 49310) /* Acid Wisp Essence (50) */
+     , (8121, 8, 69) /* Yoroi Greaves */
+     , (8121, 8, 135) /* Turban */;
+

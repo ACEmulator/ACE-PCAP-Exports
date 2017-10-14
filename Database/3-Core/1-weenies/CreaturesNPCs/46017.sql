@@ -142,6 +142,6 @@ VALUES (46017, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (46017, 2, 42717)
-     , (46017, 2, 24611);
+VALUES (46017, 2, 42717) /* Shield of Borelean's Royal Guard */
+     , (46017, 2, 24611) /* Sword of Lost Light */;
 

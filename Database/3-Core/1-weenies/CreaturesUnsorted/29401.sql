@@ -48,3 +48,13 @@ VALUES (29401, 2, 83) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (29401, 64, 1872) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29401, 8, 30611) /* Knuckles */
+     , (29401, 8, 12463) /* Atlatl */
+     , (29401, 8, 29393) /* Dispatch to Captain Argenne */
+     , (29401, 8, 25646) /* Long Leather Gauntlets */
+     , (29401, 8, 29447) /* Corcima Castle Silver Ward Portal Gem */
+     , (29401, 8, 29364) /* Silver Invader Lord Helm */;
+

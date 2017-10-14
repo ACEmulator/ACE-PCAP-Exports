@@ -44,3 +44,19 @@ VALUES (41576, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41576, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41576, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (41576, 8, 30610) /* Acid Bastone */
+     , (41576, 8, 2547) /* Staff */
+     , (41576, 8, 78) /* Kote */
+     , (41576, 8, 629) /* Adept Healing Kit */
+     , (41576, 8, 42517) /* Coalesced Mana */
+     , (41576, 8, 40761) /* Acid Nodachi */
+     , (41576, 8, 512) /* Good Lockpick */
+     , (41576, 8, 41563) /* Gear Knight Core Fragment */
+     , (41576, 8, 25649) /* Leather Shirt */
+     , (41576, 8, 31769) /* Lugian Axe */
+     , (41576, 8, 45434) /* Flaming Khanjar */;
+

@@ -44,3 +44,11 @@ VALUES (51355, 2, 47) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51355, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51355, 8, 2367) /* Gorget */
+     , (51355, 8, 9229) /* Treated Healing Kit */
+     , (51355, 8, 31790) /* Lightning Stick */
+     , (51355, 8, 37364) /* Quill of Introspection */;
+

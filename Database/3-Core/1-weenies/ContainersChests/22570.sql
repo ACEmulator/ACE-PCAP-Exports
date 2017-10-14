@@ -53,3 +53,61 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (22570, 2, 0) /* OPEN_BOOL */
      , (22570, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22570, 8, 9634) /* Scroll of Health to Mana Self VI */
+     , (22570, 8, 8925) /* Scroll of Flame Streak VI */
+     , (22570, 8, 80) /* Chainmail Leggings */
+     , (22570, 8, 48942) /* Fire Skeleton Minion Essence (50) */
+     , (22570, 8, 7796) /* Fire Naginata */
+     , (22570, 8, 20526) /* Scroll of Sashi Mu's Kiss */
+     , (22570, 8, 40623) /* Quadrelle */
+     , (22570, 8, 31784) /* Claw */
+     , (22570, 8, 27330) /* Moderate Mana Stone */
+     , (22570, 8, 2548) /* Sceptre */
+     , (22570, 8, 25642) /* Leather Gauntlets */
+     , (22570, 8, 42518) /* Coalesced Mana */
+     , (22570, 8, 42517) /* Coalesced Mana */
+     , (22570, 8, 4190) /* Cestus */
+     , (22570, 8, 623) /* Heavy Necklace */
+     , (22570, 8, 2590) /* Baggy Shirt */
+     , (22570, 8, 514) /* Excellent Lockpick */
+     , (22570, 8, 359) /* War Hammer */
+     , (22570, 8, 41487) /* Mechanical Scarab */
+     , (22570, 8, 68) /* Studded Leather Greaves */
+     , (22570, 8, 2599) /* Trousers */
+     , (22570, 8, 2604) /* Wide Breeches */
+     , (22570, 8, 25643) /* Leather Girth */
+     , (22570, 8, 2470) /* Stamina Elixir */
+     , (22570, 8, 40820) /* Lightning Corsesca */
+     , (22570, 8, 48972) /* Acid Zombie Essence (50) */
+     , (22570, 8, 49282) /* Acid K'nath Essence (50) */
+     , (22570, 8, 69) /* Yoroi Greaves */
+     , (22570, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (22570, 8, 273) /* Pyreal */
+     , (22570, 8, 82) /* Platemail Leggings */
+     , (22570, 8, 2605) /* Chainmail Greaves */
+     , (22570, 8, 7771) /* Naginata */
+     , (22570, 8, 25652) /* Leather Tassets */
+     , (22570, 8, 295) /* Bracelet */
+     , (22570, 8, 624) /* Ring */
+     , (22570, 8, 25645) /* Leather Leggings */
+     , (22570, 8, 31781) /* Electric Spine Glaive */
+     , (22570, 8, 45421) /* Dagger */
+     , (22570, 8, 142) /* Chalice */
+     , (22570, 8, 3592) /* Scroll of Weapon Tinkering Ignorance VI */
+     , (22570, 8, 49331) /* Frost Wisp Essence (50) */
+     , (22570, 8, 41036) /* Assagai */
+     , (22570, 8, 3291) /* Scroll of Impregnability Self V */
+     , (22570, 8, 108) /* Chainmail Tassets */
+     , (22570, 8, 416) /* Chainmail Pauldrons */
+     , (22570, 8, 31794) /* Lancet */
+     , (22570, 8, 2434) /* Lesser Mana Stone */
+     , (22570, 8, 161) /* Mug */
+     , (22570, 8, 28623) /* Diforsa Pauldrons */
+     , (22570, 8, 95) /* Tower Shield */
+     , (22570, 8, 40698) /* Covenant Gauntlets */
+     , (22570, 8, 31778) /* Frost Spine Glaive */
+     , (22570, 8, 630) /* Gifted Healing Kit */;
+

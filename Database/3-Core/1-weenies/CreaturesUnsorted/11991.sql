@@ -82,3 +82,53 @@ VALUES (11991, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11991, 64, 645) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11991, 8, 2393) /* Gem */
+     , (11991, 8, 362) /* Yari */
+     , (11991, 8, 94) /* Diamond Shield */
+     , (11991, 8, 6876) /* Sturdy Iron Key */
+     , (11991, 8, 7338) /* Diamond Heart */
+     , (11991, 8, 9639) /* Scroll of Health to Stamina Self VI */
+     , (11991, 8, 154) /* Goblet */
+     , (11991, 8, 621) /* Heavy Bracelet */
+     , (11991, 8, 12689) /* Diamond Powder */
+     , (11991, 8, 6353) /* Pyreal Mote */
+     , (11991, 8, 31775) /* Acid Board with Nail */
+     , (11991, 8, 295) /* Bracelet */
+     , (11991, 8, 273) /* Pyreal */
+     , (11991, 8, 341) /* Shouyumi */
+     , (11991, 8, 20410) /* Scroll of Tattercoat */
+     , (11991, 8, 27330) /* Moderate Mana Stone */
+     , (11991, 8, 3818) /* Acid Katar */
+     , (11991, 8, 312) /* Light Crossbow */
+     , (11991, 8, 62) /* Scalemail Girth */
+     , (11991, 8, 2398) /* Gem */
+     , (11991, 8, 5894) /* Fez */
+     , (11991, 8, 515) /* Superb Lockpick */
+     , (11991, 8, 27237) /* Scroll of Eradicate Life Magic Self */
+     , (11991, 8, 101) /* Chainmail Sleeves */
+     , (11991, 8, 23615) /* Diamond Shield */
+     , (11991, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (11991, 8, 21158) /* Covenant Shield */
+     , (11991, 8, 25652) /* Leather Tassets */
+     , (11991, 8, 2397) /* Gem */
+     , (11991, 8, 21100) /* Scroll of Martyr's Hecatomb VI */
+     , (11991, 8, 7797) /* Acid Naginata */
+     , (11991, 8, 48972) /* Acid Zombie Essence (50) */
+     , (11991, 8, 68) /* Studded Leather Greaves */
+     , (11991, 8, 2598) /* Baggy Pants */
+     , (11991, 8, 630) /* Gifted Healing Kit */
+     , (11991, 8, 2982) /* Scroll of Acid Protection Self VI */
+     , (11991, 8, 514) /* Excellent Lockpick */
+     , (11991, 8, 25661) /* Leather Boots */
+     , (11991, 8, 359) /* War Hammer */
+     , (11991, 8, 3882) /* Stormwood Sword */
+     , (11991, 8, 2638) /* Scroll of Bafflement Other VI */
+     , (11991, 8, 2435) /* Mana Stone */
+     , (11991, 8, 4196) /* Flaming Nekode */
+     , (11991, 8, 2592) /* Puffy Tunic */
+     , (11991, 8, 20477) /* Scroll of Fiery Boon */
+     , (11991, 8, 108) /* Chainmail Tassets */;
+

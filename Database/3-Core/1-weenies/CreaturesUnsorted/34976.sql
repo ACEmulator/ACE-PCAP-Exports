@@ -83,3 +83,30 @@ VALUES (34976, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (34976, 64, 3500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34976, 8, 21315) /* Scroll of Force Arc VII */
+     , (34976, 8, 31782) /* Fire Spine Glaive */
+     , (34976, 8, 27220) /* Lorica Boots */
+     , (34976, 8, 20579) /* Scroll of Saladur's Boon */
+     , (34976, 8, 2596) /* Doublet */
+     , (34976, 8, 27222) /* Lorica Gauntlets */
+     , (34976, 8, 3874) /* Lightning Spear */
+     , (34976, 8, 27231) /* Nariyid Leggings */
+     , (34976, 8, 273) /* Pyreal */
+     , (34976, 8, 8327) /* Gold Pea */
+     , (34976, 8, 34962) /* Infused Blood Golem Heart */
+     , (34976, 8, 42637) /* Aetheria */
+     , (34976, 8, 45426) /* Jambiya */
+     , (34976, 8, 2599) /* Trousers */
+     , (34976, 8, 43382) /* Nefane Pearl */
+     , (34976, 8, 2595) /* Baggy Tunic */
+     , (34976, 8, 28609) /* Vest */
+     , (34976, 8, 2403) /* Gem */
+     , (34976, 8, 45421) /* Dagger */
+     , (34976, 8, 29250) /* Piercing Crossbow */
+     , (34976, 8, 27328) /* Major Mana Stone */
+     , (34976, 8, 9229) /* Treated Healing Kit */
+     , (34976, 8, 6353) /* Pyreal Mote */;
+

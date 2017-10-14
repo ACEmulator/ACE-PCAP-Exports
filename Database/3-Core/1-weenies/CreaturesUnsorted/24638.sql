@@ -50,3 +50,29 @@ VALUES (24638, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24638, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24638, 8, 20428) /* Scroll of Clouded Motives */
+     , (24638, 8, 8327) /* Gold Pea */
+     , (24638, 8, 112) /* Studded Leather Tassets */
+     , (24638, 8, 22158) /* Jo */
+     , (24638, 8, 24647) /* Young Brood Matron Tibia */
+     , (24638, 8, 30614) /* Frost Knuckles */
+     , (24638, 8, 2408) /* Gem */
+     , (24638, 8, 2411) /* Gem */
+     , (24638, 8, 334) /* Nayin */
+     , (24638, 8, 41262) /* Scroll of Blessing of T'ing */
+     , (24638, 8, 3803) /* Lightning Jitte */
+     , (24638, 8, 8331) /* Silver Pea */
+     , (24638, 8, 24643) /* Young Brood Matron Tail */
+     , (24638, 8, 20411) /* Aura of Cragstone's Will */
+     , (24638, 8, 49381) /* Fire Grievver Essence (80) */
+     , (24638, 8, 2422) /* Gem */
+     , (24638, 8, 154) /* Goblet */
+     , (24638, 8, 41488) /* Top */
+     , (24638, 8, 24645) /* Young Brood Matron Tarsus */
+     , (24638, 8, 40762) /* Lightning Nodachi */
+     , (24638, 8, 21336) /* Scroll of Shock Arc VII */
+     , (24638, 8, 20474) /* Scroll of Icy Boon */;
+

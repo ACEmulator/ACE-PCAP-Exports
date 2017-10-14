@@ -51,3 +51,12 @@ VALUES (8265, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8265, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8265, 8, 41486) /* Puzzle Box */
+     , (8265, 8, 2408) /* Gem */
+     , (8265, 8, 28605) /* Beret */
+     , (8265, 8, 273) /* Pyreal */
+     , (8265, 8, 45876) /* Scarlet Red Letter */;
+

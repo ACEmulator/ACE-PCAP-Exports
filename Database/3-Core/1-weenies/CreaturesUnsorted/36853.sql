@@ -59,3 +59,20 @@ VALUES (36853, 0, 16778359)
      , (36853, 15, 16777307)
      , (36853, 16, 16778407);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36853, 8, 142) /* Chalice */
+     , (36853, 8, 273) /* Pyreal */
+     , (36853, 8, 8326) /* Copper Pea */
+     , (36853, 8, 30245) /* Hieromancer's Crystal */
+     , (36853, 8, 31866) /* Coronet */
+     , (36853, 8, 8331) /* Silver Pea */
+     , (36853, 8, 2410) /* Gem */
+     , (36853, 8, 6058) /* Dark Shard */
+     , (36853, 8, 3938) /* Frost Morning Star */
+     , (36853, 8, 121) /* Gloves */
+     , (36853, 8, 20469) /* Scroll of Blessing of the Blade Turner */
+     , (36853, 8, 2436) /* Greater Mana Stone */
+     , (36853, 8, 31867) /* Diadem */;
+

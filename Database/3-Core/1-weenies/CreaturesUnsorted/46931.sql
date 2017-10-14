@@ -48,3 +48,39 @@ VALUES (46931, 2, 62) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46931, 64, 3500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46931, 8, 621) /* Heavy Bracelet */
+     , (46931, 8, 632) /* Peerless Healing Kit */
+     , (46931, 8, 45401) /* Simi */
+     , (46931, 8, 273) /* Pyreal */
+     , (46931, 8, 516) /* Peerless Lockpick */
+     , (46931, 8, 20428) /* Scroll of Clouded Motives */
+     , (46931, 8, 37358) /* Ink of Separation */
+     , (46931, 8, 2421) /* Gem */
+     , (46931, 8, 2436) /* Greater Mana Stone */
+     , (46931, 8, 2408) /* Gem */
+     , (46931, 8, 27323) /* Mana Tonic */
+     , (46931, 8, 356) /* Tofun */
+     , (46931, 8, 37363) /* Quill of Infliction */
+     , (46931, 8, 27229) /* Nariyid Girth */
+     , (46931, 8, 27321) /* Mana Philtre */
+     , (46931, 8, 27328) /* Major Mana Stone */
+     , (46931, 8, 121) /* Gloves */
+     , (46931, 8, 37353) /* Ink of Formation */
+     , (46931, 8, 41747) /* Glyph of Two Handed Combat */
+     , (46931, 8, 20511) /* Scroll of Morimoto's Boon */
+     , (46931, 8, 46880) /* Aura of Defender Other VII */
+     , (46931, 8, 31865) /* Circlet */
+     , (46931, 8, 27325) /* Stamina Philtre */
+     , (46931, 8, 42753) /* Haebrean Helm */
+     , (46931, 8, 515) /* Superb Lockpick */
+     , (46931, 8, 20572) /* Scroll of Kaluhc's Blessing */
+     , (46931, 8, 127) /* Pants */
+     , (46931, 8, 9229) /* Treated Healing Kit */
+     , (46931, 8, 31866) /* Coronet */
+     , (46931, 8, 25646) /* Long Leather Gauntlets */
+     , (46931, 8, 254) /* Stoup */
+     , (46931, 8, 2424) /* Gem */;
+

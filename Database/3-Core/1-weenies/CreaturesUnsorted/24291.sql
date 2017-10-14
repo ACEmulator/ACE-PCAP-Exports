@@ -58,3 +58,53 @@ VALUES (24291, 2, 28) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24291, 64, 475) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24291, 8, 3127) /* Scroll of Rejuvenate Self VI */
+     , (24291, 8, 622) /* Necklace */
+     , (24291, 8, 27324) /* Stamina Brew */
+     , (24291, 8, 40702) /* Covenant Pauldrons */
+     , (24291, 8, 6044) /* Celdon Breastplate */
+     , (24291, 8, 515) /* Superb Lockpick */
+     , (24291, 8, 45121) /* Flaming Hand Wraps */
+     , (24291, 8, 20417) /* Scroll of Cabalastic Ostracism */
+     , (24291, 8, 45421) /* Dagger */
+     , (24291, 8, 2436) /* Greater Mana Stone */
+     , (24291, 8, 2399) /* Gem */
+     , (24291, 8, 307) /* Shortbow */
+     , (24291, 8, 2589) /* Smock */
+     , (24291, 8, 55) /* Chainmail Gauntlets */
+     , (24291, 8, 20245) /* Scroll of Adja's Intervention */
+     , (24291, 8, 20465) /* Scroll of Caustic Boon */
+     , (24291, 8, 297) /* Ring */
+     , (24291, 8, 5901) /* Kasa */
+     , (24291, 8, 149) /* Ewer */
+     , (24291, 8, 44800) /* Dho Vest and Over-Robe */
+     , (24291, 8, 108) /* Chainmail Tassets */
+     , (24291, 8, 27319) /* Health Tincture */
+     , (24291, 8, 49214) /* Acid Skeleton Minion Essence (80) */
+     , (24291, 8, 25652) /* Leather Tassets */
+     , (24291, 8, 273) /* Pyreal */
+     , (24291, 8, 21107) /* Scroll of Martyr's Blight VI */
+     , (24291, 8, 119) /* Cowl */
+     , (24291, 8, 53) /* Studded Leather Cuirass */
+     , (24291, 8, 631) /* Excellent Healing Kit */
+     , (24291, 8, 42516) /* Coalesced Mana */
+     , (24291, 8, 41484) /* Goggles */
+     , (24291, 8, 40636) /* Acid Tetsubo */
+     , (24291, 8, 6003) /* Koujia Breastplate */
+     , (24291, 8, 8331) /* Silver Pea */
+     , (24291, 8, 20512) /* Scroll of Morimoto's Blessing */
+     , (24291, 8, 2395) /* Gem */
+     , (24291, 8, 49469) /* Scroll of Summoning Mastery Other VII */
+     , (24291, 8, 83) /* Scalemail Leggings */
+     , (24291, 8, 295) /* Bracelet */
+     , (24291, 8, 623) /* Heavy Necklace */
+     , (24291, 8, 31766) /* Lightning Lugian Hammer */
+     , (24291, 8, 12253) /* Monougat */
+     , (24291, 8, 25641) /* Leather Cuirass */
+     , (24291, 8, 514) /* Excellent Lockpick */
+     , (24291, 8, 2603) /* Baggy Breeches */
+     , (24291, 8, 28007) /* Aura of Spirit Drinker Self VI */;
+

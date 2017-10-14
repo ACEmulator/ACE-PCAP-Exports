@@ -122,5 +122,5 @@ VALUES (24246, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24246, 2, 24241);
+VALUES (24246, 2, 24241) /* Olthoi Spear */;
 

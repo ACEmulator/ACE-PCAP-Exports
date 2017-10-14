@@ -52,3 +52,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (8999, 2, 0) /* OPEN_BOOL */
      , (8999, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8999, 8, 41070) /* Flaming Shashqa */
+     , (8999, 8, 45306) /* Scroll of Recklessness Mastery Self VII */
+     , (8999, 8, 20513) /* Scroll of Wrath of Adja */
+     , (8999, 8, 20179) /* Superb Mana Charge */
+     , (8999, 8, 29243) /* Piercing Bow */
+     , (8999, 8, 20537) /* Scroll of Web of Defense */
+     , (8999, 8, 9060) /* Titan Mana Charge */
+     , (8999, 8, 41039) /* Flaming Assagai */
+     , (8999, 8, 20236) /* Scroll of Temeritous Touch */;
+

@@ -45,3 +45,29 @@ VALUES (10824, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (10824, 64, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (10824, 8, 20555) /* Scroll of Fat Fingers */
+     , (10824, 8, 49263) /* Acid Elemental Essence (100) */
+     , (10824, 8, 20606) /* Scroll of Self Sacrifice */
+     , (10824, 8, 163) /* Ornamental Bowl */
+     , (10824, 8, 273) /* Pyreal */
+     , (10824, 8, 2423) /* Gem */
+     , (10824, 8, 28610) /* Loafers */
+     , (10824, 8, 25949) /* Quintessence Sickle */
+     , (10824, 8, 132) /* Shoes */
+     , (10824, 8, 2425) /* Gem */
+     , (10824, 8, 44840) /* Cloak */
+     , (10824, 8, 20515) /* Scroll of Adja's Blessing */
+     , (10824, 8, 622) /* Necklace */
+     , (10824, 8, 49360) /* Frost Moar Essence (80) */
+     , (10824, 8, 20536) /* Scroll of Aura of Deflection */
+     , (10824, 8, 20497) /* Scroll of Silencia's Blessing */
+     , (10824, 8, 2436) /* Greater Mana Stone */
+     , (10824, 8, 8326) /* Copper Pea */
+     , (10824, 8, 119) /* Cowl */
+     , (10824, 8, 4196) /* Flaming Nekode */
+     , (10824, 8, 38) /* Studded Leather Bracers */
+     , (10824, 8, 49532) /* Fire Phyntos Wasp Essence (80) */;
+

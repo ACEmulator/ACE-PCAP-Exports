@@ -45,3 +45,11 @@ VALUES (30895, 2, 53) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30895, 64, 1550) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30895, 8, 624) /* Ring */
+     , (30895, 8, 30870) /* Katar of the Fallen */
+     , (30895, 8, 30857) /* Sezzherei's Lair */
+     , (30895, 8, 28015) /* Scroll of Spirit Pacification */;
+

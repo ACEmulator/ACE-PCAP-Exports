@@ -88,5 +88,42 @@ VALUES (35273, 64, 900000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35273, 2, 35297);
+VALUES (35273, 2, 35297) /* Greatsword of Flame and Light */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35273, 8, 40637) /* Lightning Tetsubo */
+     , (35273, 8, 27234) /* Scroll of Eradicate Creature Magic Self */
+     , (35273, 8, 7768) /* Spiked Club */
+     , (35273, 8, 624) /* Ring */
+     , (35273, 8, 309) /* Club */
+     , (35273, 8, 30611) /* Knuckles */
+     , (35273, 8, 45434) /* Flaming Khanjar */
+     , (35273, 8, 53) /* Studded Leather Cuirass */
+     , (35273, 8, 30184) /* Scholar's Crystal */
+     , (35273, 8, 128) /* Qafiya */
+     , (35273, 8, 40704) /* Covenant Tassets */
+     , (35273, 8, 2421) /* Gem */
+     , (35273, 8, 31779) /* Spine Glaive */
+     , (35273, 8, 273) /* Pyreal */
+     , (35273, 8, 2589) /* Smock */
+     , (35273, 8, 133) /* Slippers */
+     , (35273, 8, 29251) /* Slashing Crossbow */
+     , (35273, 8, 135) /* Turban */
+     , (35273, 8, 46) /* Metal Cap */
+     , (35273, 8, 6043) /* Celdon Girth */
+     , (35273, 8, 27328) /* Major Mana Stone */
+     , (35273, 8, 49292) /* Lightning K'nath Essence (125) */
+     , (35273, 8, 27221) /* Lorica Breastplate */
+     , (35273, 8, 40701) /* Covenant Helm */
+     , (35273, 8, 3818) /* Acid Katar */
+     , (35273, 8, 2412) /* Gem */
+     , (35273, 8, 21150) /* Covenant Sollerets */
+     , (35273, 8, 31791) /* Flaming Stick */
+     , (35273, 8, 31807) /* Blunt Compound Crossbow */
+     , (35273, 8, 62) /* Scalemail Girth */
+     , (35273, 8, 40707) /* Covenant Breastplate */
+     , (35273, 8, 40622) /* Frost Nodachi */
+     , (35273, 8, 150) /* Flagon */;
 

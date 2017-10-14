@@ -53,3 +53,45 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (22566, 2, 0) /* OPEN_BOOL */
      , (22566, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22566, 8, 31776) /* Electric Board with Nail */
+     , (22566, 8, 40714) /* Covenant Tassets */
+     , (22566, 8, 20579) /* Scroll of Saladur's Boon */
+     , (22566, 8, 621) /* Heavy Bracelet */
+     , (22566, 8, 96) /* Chainmail Shirt */
+     , (22566, 8, 2596) /* Doublet */
+     , (22566, 8, 20528) /* Scroll of Odif's Blessing */
+     , (22566, 8, 29248) /* Fire Crossbow */
+     , (22566, 8, 20525) /* Scroll of Broadside of a Barn */
+     , (22566, 8, 46) /* Metal Cap */
+     , (22566, 8, 20490) /* Scroll of Battlemage's Blessing */
+     , (22566, 8, 31769) /* Lugian Axe */
+     , (22566, 8, 2604) /* Wide Breeches */
+     , (22566, 8, 2600) /* Pantaloons */
+     , (22566, 8, 134) /* Tunic */
+     , (22566, 8, 20422) /* Scroll of Wi's Folly */
+     , (22566, 8, 27231) /* Nariyid Leggings */
+     , (22566, 8, 3895) /* Flaming Takuba */
+     , (22566, 8, 21153) /* Covenant Gauntlets */
+     , (22566, 8, 49276) /* Frost Elemental Essence (80) */
+     , (22566, 8, 49311) /* Acid Wisp Essence (80) */
+     , (22566, 8, 29259) /* Acid Sceptre */
+     , (22566, 8, 28606) /* Viamontian Pants */
+     , (22566, 8, 128) /* Qafiya */
+     , (22566, 8, 142) /* Chalice */
+     , (22566, 8, 42) /* Studded Leather Breastplate */
+     , (22566, 8, 4195) /* Nekode */
+     , (22566, 8, 2472) /* Wand */
+     , (22566, 8, 31820) /* Acid Baton */
+     , (22566, 8, 416) /* Chainmail Pauldrons */
+     , (22566, 8, 44851) /* Chevron Cloak */
+     , (22566, 8, 44840) /* Cloak */
+     , (22566, 8, 49381) /* Fire Grievver Essence (80) */
+     , (22566, 8, 28627) /* Diforsa Bracers */
+     , (22566, 8, 127) /* Pants */
+     , (22566, 8, 112) /* Studded Leather Tassets */
+     , (22566, 8, 22156) /* Flaming Jo */
+     , (22566, 8, 43373) /* Scroll of Void Magic Ineptitude Other VII */;
+

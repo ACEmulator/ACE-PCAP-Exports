@@ -69,3 +69,58 @@ VALUES (27564, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27564, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27564, 8, 107) /* Sollerets */
+     , (27564, 8, 8489) /* Heaume */
+     , (27564, 8, 7791) /* Frost Trident */
+     , (27564, 8, 2402) /* Gem */
+     , (27564, 8, 2412) /* Gem */
+     , (27564, 8, 142) /* Chalice */
+     , (27564, 8, 7771) /* Naginata */
+     , (27564, 8, 27330) /* Moderate Mana Stone */
+     , (27564, 8, 121) /* Gloves */
+     , (27564, 8, 45421) /* Dagger */
+     , (27564, 8, 632) /* Peerless Healing Kit */
+     , (27564, 8, 49241) /* Lightning Zombie Essence (80) */
+     , (27564, 8, 31764) /* Lugian Hammer */
+     , (27564, 8, 30609) /* Frost Bastone */
+     , (27564, 8, 28612) /* Bandana */
+     , (27564, 8, 28633) /* Diforsa Girth */
+     , (27564, 8, 45099) /* Epee */
+     , (27564, 8, 3940) /* Lightning Morning Star */
+     , (27564, 8, 27228) /* Nariyid Gauntlets */
+     , (27564, 8, 621) /* Heavy Bracelet */
+     , (27564, 8, 273) /* Pyreal */
+     , (27564, 8, 31779) /* Spine Glaive */
+     , (27564, 8, 41488) /* Top */
+     , (27564, 8, 20527) /* Scroll of Odif's Boon */
+     , (27564, 8, 130) /* Shirt */
+     , (27564, 8, 72) /* Platemail Hauberk */
+     , (27564, 8, 150) /* Flagon */
+     , (27564, 8, 20255) /* Scroll of Senescence */
+     , (27564, 8, 29264) /* Piercing Sceptre */
+     , (27564, 8, 22442) /* Lightning Dirk */
+     , (27564, 8, 624) /* Ring */
+     , (27564, 8, 7605) /* Coral Heart */
+     , (27564, 8, 413) /* Chainmail Bracers */
+     , (27564, 8, 25637) /* Leather Bracers */
+     , (27564, 8, 20607) /* Scroll of Gift of Vitality */
+     , (27564, 8, 20488) /* Scroll of Energy Flux */
+     , (27564, 8, 6003) /* Koujia Breastplate */
+     , (27564, 8, 41058) /* Acid Great Star Mace */
+     , (27564, 8, 793) /* Scalemail Coif */
+     , (27564, 8, 116) /* Studded Leather Boots */
+     , (27564, 8, 27223) /* Lorica Helm */
+     , (27564, 8, 295) /* Bracelet */
+     , (27564, 8, 30604) /* Frost Stiletto */
+     , (27564, 8, 40705) /* Covenant Sollerets */
+     , (27564, 8, 2422) /* Gem */
+     , (27564, 8, 45434) /* Flaming Khanjar */
+     , (27564, 8, 2367) /* Gorget */
+     , (27564, 8, 29239) /* Bone Bow */
+     , (27564, 8, 71) /* Chainmail Hauberk */
+     , (27564, 8, 45406) /* Yaoji */
+     , (27564, 8, 22444) /* Frost Dirk */;
+

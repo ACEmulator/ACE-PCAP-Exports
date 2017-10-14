@@ -68,3 +68,24 @@ VALUES (46933, 2, 62) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46933, 64, 3500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46933, 8, 3851) /* Flaming Scimitar */
+     , (46933, 8, 27328) /* Major Mana Stone */
+     , (46933, 8, 37332) /* Glyph of Slashing */
+     , (46933, 8, 28607) /* Lace Shirt */
+     , (46933, 8, 515) /* Superb Lockpick */
+     , (46933, 8, 624) /* Ring */
+     , (46933, 8, 37363) /* Quill of Infliction */
+     , (46933, 8, 2411) /* Gem */
+     , (46933, 8, 516) /* Peerless Lockpick */
+     , (46933, 8, 37197) /* Olthoi Celdon Helm */
+     , (46933, 8, 37364) /* Quill of Introspection */
+     , (46933, 8, 2424) /* Gem */
+     , (46933, 8, 27323) /* Mana Tonic */
+     , (46933, 8, 91) /* Kite Shield */
+     , (46933, 8, 9229) /* Treated Healing Kit */
+     , (46933, 8, 163) /* Ornamental Bowl */
+     , (46933, 8, 37355) /* Ink of Objectification */;
+

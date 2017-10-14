@@ -123,30 +123,30 @@ VALUES (1835, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1835, 4, 308)
-     , (1835, 4, 310)
-     , (1835, 4, 317)
-     , (1835, 4, 324)
-     , (1835, 4, 326)
-     , (1835, 4, 328)
-     , (1835, 4, 22163)
-     , (1835, 4, 340)
-     , (1835, 4, 345)
-     , (1835, 4, 354)
-     , (1835, 4, 359)
-     , (1835, 4, 2621)
-     , (1835, 4, 2622)
-     , (1835, 4, 2623)
-     , (1835, 4, 2624)
-     , (1835, 4, 2625)
-     , (1835, 4, 2626)
-     , (1835, 4, 2627)
-     , (1835, 4, 20628)
-     , (1835, 4, 20629)
-     , (1835, 4, 20630);
+VALUES (1835, 4, 308) /* Budiaq */
+     , (1835, 4, 310) /* Throwing Club */
+     , (1835, 4, 317) /* Djarid */
+     , (1835, 4, 324) /* Kaskara */
+     , (1835, 4, 326) /* Katar */
+     , (1835, 4, 328) /* Khanjar */
+     , (1835, 4, 22163) /* Nabut */
+     , (1835, 4, 340) /* Shamshir */
+     , (1835, 4, 345) /* Simi */
+     , (1835, 4, 354) /* Takuba */
+     , (1835, 4, 359) /* War Hammer */
+     , (1835, 4, 2621) /* Trade Note (100) */
+     , (1835, 4, 2622) /* Trade Note (500) */
+     , (1835, 4, 2623) /* Trade Note (1,000) */
+     , (1835, 4, 2624) /* Trade Note (5,000) */
+     , (1835, 4, 2625) /* Trade Note (10,000) */
+     , (1835, 4, 2626) /* Trade Note (50,000) */
+     , (1835, 4, 2627) /* Trade Note (100,000) */
+     , (1835, 4, 20628) /* Trade Note (150,000) */
+     , (1835, 4, 20629) /* Trade Note (200,000) */
+     , (1835, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1835, 2, 359);
+VALUES (1835, 2, 359) /* War Hammer */;
 

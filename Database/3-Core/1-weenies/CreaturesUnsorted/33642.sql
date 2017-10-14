@@ -52,3 +52,33 @@ VALUES (33642, 64, 980) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (33642, 128, 1260) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (33642, 256, 415) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33642, 8, 129) /* Sandals */
+     , (33642, 8, 45282) /* Scroll of Dual Wield Mastery Self VII */
+     , (33642, 8, 621) /* Heavy Bracelet */
+     , (33642, 8, 20611) /* Scroll of Energize Vitality */
+     , (33642, 8, 49377) /* Lightning Grievver Essence (150) */
+     , (33642, 8, 37201) /* Olthoi Amuli Leggings */
+     , (33642, 8, 49391) /* Frost Grievver Essence (150) */
+     , (33642, 8, 134) /* Tunic */
+     , (33642, 8, 2367) /* Gorget */
+     , (33642, 8, 2601) /* Loose Pants */
+     , (33642, 8, 21308) /* Scroll of Flame Arc VII */
+     , (33642, 8, 31784) /* Claw */
+     , (33642, 8, 49384) /* Fire Grievver Essence (150) */
+     , (33642, 8, 149) /* Ewer */
+     , (33642, 8, 22155) /* Lightning Jo */
+     , (33642, 8, 20530) /* Scroll of Lilitha's Boon */
+     , (33642, 8, 49485) /* Encapsulated Spirit */
+     , (33642, 8, 44850) /* Chevron Cloak */
+     , (33642, 8, 40692) /* Olthoi Tassets */
+     , (33642, 8, 20543) /* Scroll of Yoshi's Blessing */
+     , (33642, 8, 324) /* Kaskara */
+     , (33642, 8, 2407) /* Gem */
+     , (33642, 8, 45427) /* Acid Jambiya */
+     , (33642, 8, 42750) /* Haebrean Gauntlets */
+     , (33642, 8, 29249) /* Frost Crossbow */
+     , (33642, 8, 57) /* Platemail Gauntlets */;
+

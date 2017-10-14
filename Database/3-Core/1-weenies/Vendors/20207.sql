@@ -124,136 +124,136 @@ VALUES (20207, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20207, 4, 15268)
-     , (20207, 4, 28944)
-     , (20207, 4, 28937)
-     , (20207, 4, 2637)
-     , (20207, 4, 2642)
-     , (20207, 4, 2647)
-     , (20207, 4, 2652)
-     , (20207, 4, 2657)
-     , (20207, 4, 2662)
-     , (20207, 4, 2672)
-     , (20207, 4, 2677)
-     , (20207, 4, 2680)
-     , (20207, 4, 2685)
-     , (20207, 4, 2715)
-     , (20207, 4, 2720)
-     , (20207, 4, 2735)
-     , (20207, 4, 2740)
-     , (20207, 4, 2745)
-     , (20207, 4, 2750)
-     , (20207, 4, 2755)
-     , (20207, 4, 2760)
-     , (20207, 4, 5984)
-     , (20207, 4, 5990)
-     , (20207, 4, 5996)
-     , (20207, 4, 3131)
-     , (20207, 4, 3136)
-     , (20207, 4, 3141)
-     , (20207, 4, 3146)
-     , (20207, 4, 3151)
-     , (20207, 4, 3156)
-     , (20207, 4, 3161)
-     , (20207, 4, 3166)
-     , (20207, 4, 3171)
-     , (20207, 4, 5948)
-     , (20207, 4, 5954)
-     , (20207, 4, 5960)
-     , (20207, 4, 3191)
-     , (20207, 4, 3196)
-     , (20207, 4, 3201)
-     , (20207, 4, 3236)
-     , (20207, 4, 3241)
-     , (20207, 4, 3246)
-     , (20207, 4, 3251)
-     , (20207, 4, 45240)
-     , (20207, 4, 45248)
-     , (20207, 4, 45256)
-     , (20207, 4, 45264)
-     , (20207, 4, 45272)
-     , (20207, 4, 45280)
-     , (20207, 4, 3256)
-     , (20207, 4, 3261)
-     , (20207, 4, 3266)
-     , (20207, 4, 3221)
-     , (20207, 4, 3226)
-     , (20207, 4, 3231)
-     , (20207, 4, 5966)
-     , (20207, 4, 5972)
-     , (20207, 4, 5978)
-     , (20207, 4, 3271)
-     , (20207, 4, 3276)
-     , (20207, 4, 3281)
-     , (20207, 4, 3516)
-     , (20207, 4, 3521)
-     , (20207, 4, 3526)
-     , (20207, 4, 3286)
-     , (20207, 4, 3291)
-     , (20207, 4, 3296)
-     , (20207, 4, 3301)
-     , (20207, 4, 3306)
-     , (20207, 4, 3311)
-     , (20207, 4, 3316)
-     , (20207, 4, 3321)
-     , (20207, 4, 3326)
-     , (20207, 4, 3331)
-     , (20207, 4, 9628)
-     , (20207, 4, 3336)
-     , (20207, 4, 3341)
-     , (20207, 4, 3346)
-     , (20207, 4, 3351)
-     , (20207, 4, 3356)
-     , (20207, 4, 3361)
-     , (20207, 4, 3366)
-     , (20207, 4, 3371)
-     , (20207, 4, 3376)
-     , (20207, 4, 3381)
-     , (20207, 4, 3386)
-     , (20207, 4, 3391)
-     , (20207, 4, 3411)
-     , (20207, 4, 3416)
-     , (20207, 4, 3421)
-     , (20207, 4, 3426)
-     , (20207, 4, 3431)
-     , (20207, 4, 3436)
-     , (20207, 4, 9612)
-     , (20207, 4, 3176)
-     , (20207, 4, 3181)
-     , (20207, 4, 3186)
-     , (20207, 4, 3441)
-     , (20207, 4, 5546)
-     , (20207, 4, 3446)
-     , (20207, 4, 3451)
-     , (20207, 4, 3456)
-     , (20207, 4, 3461)
-     , (20207, 4, 45288)
-     , (20207, 4, 45296)
-     , (20207, 4, 45304)
-     , (20207, 4, 3466)
-     , (20207, 4, 3471)
-     , (20207, 4, 45312)
-     , (20207, 4, 45320)
-     , (20207, 4, 45328)
-     , (20207, 4, 45336)
-     , (20207, 4, 45344)
-     , (20207, 4, 45352)
-     , (20207, 4, 3491)
-     , (20207, 4, 3496)
-     , (20207, 4, 49460)
-     , (20207, 4, 49467)
-     , (20207, 4, 49474)
-     , (20207, 4, 3561)
-     , (20207, 4, 3566)
-     , (20207, 4, 3571)
-     , (20207, 4, 3576)
-     , (20207, 4, 3581)
-     , (20207, 4, 3586)
-     , (20207, 4, 3591)
-     , (20207, 4, 41292)
-     , (20207, 4, 41300)
-     , (20207, 4, 41260)
-     , (20207, 4, 43361)
-     , (20207, 4, 43362)
-     , (20207, 4, 43363);
+VALUES (20207, 4, 15268) /* Foci of Enchantment */
+     , (20207, 4, 28944) /* Scroll of Arcanum Enlightenment V */
+     , (20207, 4, 28937) /* Scroll of Arcanum Salvaging V */
+     , (20207, 4, 2637) /* Scroll of Bafflement Other V */
+     , (20207, 4, 2642) /* Scroll of Clumsiness Other V */
+     , (20207, 4, 2647) /* Scroll of Coordination Other V */
+     , (20207, 4, 2652) /* Scroll of Coordination Self V */
+     , (20207, 4, 2657) /* Scroll of Endurance Other V */
+     , (20207, 4, 2662) /* Scroll of Endurance Self V */
+     , (20207, 4, 2672) /* Scroll of Feeblemind Other V */
+     , (20207, 4, 2677) /* Scroll of Focus Other V */
+     , (20207, 4, 2680) /* Scroll of Focus Self V */
+     , (20207, 4, 2685) /* Scroll of Frailty Other V */
+     , (20207, 4, 2715) /* Scroll of Quickness Other V */
+     , (20207, 4, 2720) /* Scroll of Quickness Self V */
+     , (20207, 4, 2735) /* Scroll of Slowness Other V */
+     , (20207, 4, 2740) /* Scroll of Strength Other V */
+     , (20207, 4, 2745) /* Scroll of Self Strength V */
+     , (20207, 4, 2750) /* Scroll of Weakness Other V */
+     , (20207, 4, 2755) /* Scroll of Willpower Other V */
+     , (20207, 4, 2760) /* Scroll of Willpower Self V */
+     , (20207, 4, 5984) /* Scroll of Alchemy Ineptitude Other V */
+     , (20207, 4, 5990) /* Scroll of Alchemy Mastery Other V */
+     , (20207, 4, 5996) /* Scroll of Alchemy Mastery Self V */
+     , (20207, 4, 3131) /* Scroll of Arcane Benightedness V */
+     , (20207, 4, 3136) /* Scroll of Arcane Enlightenment V */
+     , (20207, 4, 3141) /* Scroll of Arcane Enlightenment Self V */
+     , (20207, 4, 3146) /* Scroll of Armor Tinkering Expertise Other V */
+     , (20207, 4, 3151) /* Scroll of Armor Tinkering Expertise Self V */
+     , (20207, 4, 3156) /* Scroll of Armor Tinkering Ignorance V */
+     , (20207, 4, 3161) /* Scroll of Light Weapon Ineptitude Other V */
+     , (20207, 4, 3166) /* Scroll of Light Weapon Mastery Other V */
+     , (20207, 4, 3171) /* Scroll of Light Weapon Mastery Self V */
+     , (20207, 4, 5948) /* Scroll of Cooking Ineptitude Other V */
+     , (20207, 4, 5954) /* Scroll of Cooking Mastery Other V */
+     , (20207, 4, 5960) /* Scroll of Cooking Mastery Self V */
+     , (20207, 4, 3191) /* Scroll of Creature Enchantment Ineptitude V */
+     , (20207, 4, 3196) /* Scroll of Creature Enchantment Mastery Other V */
+     , (20207, 4, 3201) /* Scroll of Creature Enchantment Mastery Self V */
+     , (20207, 4, 3236) /* Scroll of Deception Ineptitude V */
+     , (20207, 4, 3241) /* Scroll of Deception Mastery Other V */
+     , (20207, 4, 3246) /* Scroll of Deception Mastery Self V */
+     , (20207, 4, 3251) /* Scroll of Defenselessness V */
+     , (20207, 4, 45240) /* Scroll of Dirty Fighting Ineptitude Other V */
+     , (20207, 4, 45248) /* Scroll of Dirty Fighting Mastery Other V */
+     , (20207, 4, 45256) /* Scroll of Dirty Fighting Mastery Self V */
+     , (20207, 4, 45264) /* Scroll of Dual Wield Ineptitude Other V */
+     , (20207, 4, 45272) /* Scroll of Dual Wield Mastery Other V */
+     , (20207, 4, 45280) /* Scroll of Dual Wield Mastery Self V */
+     , (20207, 4, 3256) /* Scroll of Faithlessness V */
+     , (20207, 4, 3261) /* Scroll of Fealty Other V */
+     , (20207, 4, 3266) /* Scroll of Fealty Self V */
+     , (20207, 4, 3221) /* Scroll of Finesse Weapon Ineptitude Other V */
+     , (20207, 4, 3226) /* Scroll of Finesse Weapon Mastery Other V */
+     , (20207, 4, 3231) /* Scroll of Finesse Weapon Mastery Self V */
+     , (20207, 4, 5966) /* Scroll of Fletching Ineptitude Other V */
+     , (20207, 4, 5972) /* Scroll of Fletching Mastery Other V */
+     , (20207, 4, 5978) /* Scroll of Fletching Mastery Self V */
+     , (20207, 4, 3271) /* Scroll of Healing Ineptitude V */
+     , (20207, 4, 3276) /* Scroll of Healing Mastery Other V */
+     , (20207, 4, 3281) /* Scroll of Healing Mastery Self V */
+     , (20207, 4, 3516) /* Scroll of Heavy Weapon Ineptitude Other V */
+     , (20207, 4, 3521) /* Scroll of Heavy Weapon Mastery Other V */
+     , (20207, 4, 3526) /* Scroll of Heavy Weapon Mastery Self V */
+     , (20207, 4, 3286) /* Scroll of Impregnability Other V */
+     , (20207, 4, 3291) /* Scroll of Impregnability Self V */
+     , (20207, 4, 3296) /* Scroll of Invulnerability Other V */
+     , (20207, 4, 3301) /* Scroll of Invulnerability Self V */
+     , (20207, 4, 3306) /* Scroll of Item Enchantment Ineptitude V */
+     , (20207, 4, 3311) /* Scroll of Item Enchantment Mastery Other V */
+     , (20207, 4, 3316) /* Scroll of Item Enchantment Mastery Self V */
+     , (20207, 4, 3321) /* Scroll of Item Tinkering Expertise Other V */
+     , (20207, 4, 3326) /* Scroll of Item Tinkering Expertise Self V */
+     , (20207, 4, 3331) /* Scroll of Item Tinkering Ignorance V */
+     , (20207, 4, 9628) /* Scroll of Jumping Ineptitude V */
+     , (20207, 4, 3336) /* Scroll of Jumping Mastery Other V */
+     , (20207, 4, 3341) /* Scroll of Jumping Mastery Self V */
+     , (20207, 4, 3346) /* Scroll of Leaden Feet V */
+     , (20207, 4, 3351) /* Scroll of Leadership Ineptitude V */
+     , (20207, 4, 3356) /* Scroll of Leadership Mastery Other V */
+     , (20207, 4, 3361) /* Scroll of Leadership Mastery Self V */
+     , (20207, 4, 3366) /* Scroll of Life Magic Ineptitude V */
+     , (20207, 4, 3371) /* Scroll of Life Magic Mastery Other V */
+     , (20207, 4, 3376) /* Scroll of Life Magic Mastery Self V */
+     , (20207, 4, 3381) /* Scroll of Lockpick Ineptitude V */
+     , (20207, 4, 3386) /* Scroll of Lockpick Mastery Other V */
+     , (20207, 4, 3391) /* Scroll of Lockpick Mastery Self V */
+     , (20207, 4, 3411) /* Scroll of Magic Item Tinkering Expertise Other V */
+     , (20207, 4, 3416) /* Scroll of Magic Item Tinkering Expertise Self V */
+     , (20207, 4, 3421) /* Scroll of Magic Item Tinkering Ignorance V */
+     , (20207, 4, 3426) /* Scroll of Magic Yield Other V */
+     , (20207, 4, 3431) /* Scroll of Mana Mastery Other V */
+     , (20207, 4, 3436) /* Scroll of Mana Mastery Self V */
+     , (20207, 4, 9612) /* Scroll of Mana Ineptitude Other V */
+     , (20207, 4, 3176) /* Scroll of Missile Weapon Ineptitude Other V */
+     , (20207, 4, 3181) /* Scroll of Missile Weapon Mastery Other V */
+     , (20207, 4, 3186) /* Scroll of Missile Weapon Mastery Self V */
+     , (20207, 4, 3441) /* Scroll of Monster Attunement Other V */
+     , (20207, 4, 5546) /* Scroll of Monster Attunement Self V */
+     , (20207, 4, 3446) /* Scroll of Monster Unfamiliarity V */
+     , (20207, 4, 3451) /* Scroll of Person Attunement Other V */
+     , (20207, 4, 3456) /* Scroll of Person Attunement Self V */
+     , (20207, 4, 3461) /* Scroll of Person Unfamiliarity V */
+     , (20207, 4, 45288) /* Scroll of Recklessness Ineptitude Other V */
+     , (20207, 4, 45296) /* Scroll of Recklessness Mastery Other V */
+     , (20207, 4, 45304) /* Scroll of Recklessness Mastery Self V */
+     , (20207, 4, 3466) /* Scroll of Resist Magic Other V */
+     , (20207, 4, 3471) /* Scroll of Resist Magic Self V */
+     , (20207, 4, 45312) /* Scroll of Shield Ineptitude Other V */
+     , (20207, 4, 45320) /* Scroll of Shield Mastery Other V */
+     , (20207, 4, 45328) /* Scroll of Shield Mastery Self V */
+     , (20207, 4, 45336) /* Scroll of Sneak Attack Ineptitude Other V */
+     , (20207, 4, 45344) /* Scroll of Sneak Attack Mastery Other V */
+     , (20207, 4, 45352) /* Scroll of Sneak Attack Mastery Self V */
+     , (20207, 4, 3491) /* Scroll of Sprint Other V */
+     , (20207, 4, 3496) /* Scroll of Sprint Self V */
+     , (20207, 4, 49460) /* Scroll of Summoning Ineptitude Other V */
+     , (20207, 4, 49467) /* Scroll of Summoning Mastery Other V */
+     , (20207, 4, 49474) /* Scroll of Summoning Mastery Self V */
+     , (20207, 4, 3561) /* Scroll of Vulnerability V */
+     , (20207, 4, 3566) /* Scroll of War Magic Ineptitude V */
+     , (20207, 4, 3571) /* Scroll of War Magic Mastery Other V */
+     , (20207, 4, 3576) /* Scroll of War Magic Mastery Self V */
+     , (20207, 4, 3581) /* Scroll of Weapon Tinkering Expertise Other V */
+     , (20207, 4, 3586) /* Scroll of Weapon Tinkering Expertise Self V */
+     , (20207, 4, 3591) /* Scroll of Weapon Tinkering Ignorance V */
+     , (20207, 4, 41292) /* Scroll of Two Handed Weapons Ineptitude V */
+     , (20207, 4, 41300) /* Scroll of Two Handed Weapon Mastery Other V */
+     , (20207, 4, 41260) /* Scroll of Two Handed Weapon Mastery Self V */
+     , (20207, 4, 43361) /* Scroll of Void Magic Ineptitude V */
+     , (20207, 4, 43362) /* Scroll of Void Magic Mastery Other V */
+     , (20207, 4, 43363) /* Scroll of Void Magic Mastery Self V */;
 

@@ -53,3 +53,17 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (37414, 2, 0) /* OPEN_BOOL */
      , (37414, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37414, 8, 49388) /* Frost Grievver Essence (80) */
+     , (37414, 8, 2367) /* Gorget */
+     , (37414, 8, 2470) /* Stamina Elixir */
+     , (37414, 8, 37450) /* Large Tainted Egg */
+     , (37414, 8, 25652) /* Leather Tassets */
+     , (37414, 8, 2472) /* Wand */
+     , (37414, 8, 630) /* Gifted Healing Kit */
+     , (37414, 8, 3836) /* Flaming Mace */
+     , (37414, 8, 49303) /* Frost K'nath Essence (50) */
+     , (37414, 8, 127) /* Pants */;
+

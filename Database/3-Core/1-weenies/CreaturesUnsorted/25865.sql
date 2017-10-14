@@ -45,3 +45,51 @@ VALUES (25865, 2, 54) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25865, 64, 6000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25865, 8, 49255) /* Frost Zombie Essence (80) */
+     , (25865, 8, 69) /* Yoroi Greaves */
+     , (25865, 8, 2411) /* Gem */
+     , (25865, 8, 31865) /* Circlet */
+     , (25865, 8, 41064) /* Lightning Khanda-handled Mace */
+     , (25865, 8, 27227) /* Nariyid Breastplate */
+     , (25865, 8, 27215) /* Chiran Coat */
+     , (25865, 8, 150) /* Flagon */
+     , (25865, 8, 105) /* Studded Leather Sleeves */
+     , (25865, 8, 31819) /* Staff */
+     , (25865, 8, 22161) /* Flaming Nabut */
+     , (25865, 8, 49430) /* Lightning Spectre Essence (100) */
+     , (25865, 8, 20473) /* Scroll of Tusker's Gift */
+     , (25865, 8, 121) /* Gloves */
+     , (25865, 8, 2425) /* Gem */
+     , (25865, 8, 29260) /* Blunt Sceptre */
+     , (25865, 8, 29264) /* Piercing Sceptre */
+     , (25865, 8, 28620) /* Alduressa Leggings */
+     , (25865, 8, 49383) /* Fire Grievver Essence (125) */
+     , (25865, 8, 48946) /* Fire Skeleton Bushi Essence (125) */
+     , (25865, 8, 20561) /* Scroll of Celdiseth's Boon */
+     , (25865, 8, 20478) /* Scroll of Fiery Blessing */
+     , (25865, 8, 30595) /* Frost Partizan */
+     , (25865, 8, 3868) /* Frost Silifi */
+     , (25865, 8, 20491) /* Scroll of Hydra's Head */
+     , (25865, 8, 2410) /* Gem */
+     , (25865, 8, 20465) /* Scroll of Caustic Boon */
+     , (25865, 8, 75) /* Helmet */
+     , (25865, 8, 22163) /* Nabut */
+     , (25865, 8, 45115) /* Lightning Hammer */
+     , (25865, 8, 414) /* Chainmail Breastplate */
+     , (25865, 8, 21156) /* Covenant Helm */
+     , (25865, 8, 2408) /* Gem */
+     , (25865, 8, 45338) /* Scroll of Sneak Attack Ineptitude Other VII */
+     , (25865, 8, 20600) /* Scroll of Vitality Siphon */
+     , (25865, 8, 28624) /* Tenassa Sleeves */
+     , (25865, 8, 43382) /* Nefane Pearl */
+     , (25865, 8, 31783) /* Frost Claw */
+     , (25865, 8, 20593) /* Scroll of Gravity Well */
+     , (25865, 8, 49230) /* Frost Skeleton Bushi Essence (125) */
+     , (25865, 8, 40709) /* Covenant Girth */
+     , (25865, 8, 2592) /* Puffy Tunic */
+     , (25865, 8, 295) /* Bracelet */
+     , (25865, 8, 28608) /* Poet's Shirt */;
+

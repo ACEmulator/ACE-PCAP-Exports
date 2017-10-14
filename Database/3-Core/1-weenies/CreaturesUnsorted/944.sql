@@ -45,3 +45,24 @@ VALUES (944, 2, 7) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (944, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (944, 8, 163) /* Ornamental Bowl */
+     , (944, 8, 8331) /* Silver Pea */
+     , (944, 8, 624) /* Ring */
+     , (944, 8, 273) /* Pyreal */
+     , (944, 8, 7797) /* Acid Naginata */
+     , (944, 8, 2436) /* Greater Mana Stone */
+     , (944, 8, 2596) /* Doublet */
+     , (944, 8, 2399) /* Gem */
+     , (944, 8, 2420) /* Gem */
+     , (944, 8, 243) /* Dinner Plate */
+     , (944, 8, 49275) /* Frost Elemental Essence (50) */
+     , (944, 8, 297) /* Ring */
+     , (944, 8, 168) /* Tankard */
+     , (944, 8, 8329) /* Lead Pea */
+     , (944, 8, 2429) /* Gem */
+     , (944, 8, 161) /* Mug */
+     , (944, 8, 2460) /* Mana Draught */;
+

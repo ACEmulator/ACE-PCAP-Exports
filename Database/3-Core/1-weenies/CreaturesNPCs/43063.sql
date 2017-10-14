@@ -121,5 +121,5 @@ VALUES (43063, 64, 88) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43063, 2, 43043);
+VALUES (43063, 2, 43043) /* Paradox-touched Olthoi Wand */;
 

@@ -48,3 +48,11 @@ VALUES (32301, 2, 83) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (32301, 64, 1360) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32301, 8, 49348) /* Lightning Moar Essence (125) */
+     , (32301, 8, 28623) /* Diforsa Pauldrons */
+     , (32301, 8, 32300) /* Nexus Commander's Helm */
+     , (32301, 8, 32302) /* Nexus Commander's Orders */;
+

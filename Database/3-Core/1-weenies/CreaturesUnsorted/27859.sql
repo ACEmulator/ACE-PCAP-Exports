@@ -49,3 +49,16 @@ VALUES (27859, 2, 34) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27859, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27859, 8, 80) /* Chainmail Leggings */
+     , (27859, 8, 9648) /* Scroll of Mana to Stamina Self V */
+     , (27859, 8, 30566) /* Sabra */
+     , (27859, 8, 294) /* Amulet */
+     , (27859, 8, 132) /* Shoes */
+     , (27859, 8, 8329) /* Lead Pea */
+     , (27859, 8, 45352) /* Scroll of Sneak Attack Mastery Self V */
+     , (27859, 8, 2434) /* Lesser Mana Stone */
+     , (27859, 8, 30588) /* Lightning Flanged Mace */;
+

@@ -49,3 +49,29 @@ VALUES (1914, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1914, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1914, 8, 49247) /* Fire Zombie Essence (50) */
+     , (1914, 8, 31866) /* Coronet */
+     , (1914, 8, 514) /* Excellent Lockpick */
+     , (1914, 8, 31791) /* Flaming Stick */
+     , (1914, 8, 624) /* Ring */
+     , (1914, 8, 27330) /* Moderate Mana Stone */
+     , (1914, 8, 2588) /* Flared Shirt */
+     , (1914, 8, 2400) /* Gem */
+     , (1914, 8, 38) /* Studded Leather Bracers */
+     , (1914, 8, 22155) /* Lightning Jo */
+     , (1914, 8, 723) /* Studded Leather Cowl */
+     , (1914, 8, 41301) /* Scroll of Two Handed Weapon Mastery Other VI */
+     , (1914, 8, 8326) /* Copper Pea */
+     , (1914, 8, 295) /* Bracelet */
+     , (1914, 8, 43315) /* Scroll of Nether Streak VI */
+     , (1914, 8, 326) /* Katar */
+     , (1914, 8, 2598) /* Baggy Pants */
+     , (1914, 8, 30570) /* Acid Sabra */
+     , (1914, 8, 2398) /* Gem */
+     , (1914, 8, 334) /* Nayin */
+     , (1914, 8, 127) /* Pants */
+     , (1914, 8, 149) /* Ewer */;
+

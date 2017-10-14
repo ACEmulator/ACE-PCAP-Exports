@@ -125,42 +125,42 @@ VALUES (2294, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2294, 4, 554)
-     , (2294, 4, 35)
-     , (2294, 4, 77)
-     , (2294, 4, 85)
-     , (2294, 4, 96)
-     , (2294, 4, 414)
-     , (2294, 4, 43)
-     , (2294, 4, 55)
-     , (2294, 4, 2605)
-     , (2294, 4, 108)
-     , (2294, 4, 415)
-     , (2294, 4, 90)
-     , (2294, 4, 416)
-     , (2294, 4, 413)
-     , (2294, 4, 78)
-     , (2294, 4, 64)
-     , (2294, 4, 2437)
-     , (2294, 4, 80)
-     , (2294, 4, 116)
-     , (2294, 4, 94)
-     , (2294, 4, 95)
-     , (2294, 4, 2621)
-     , (2294, 4, 2622)
-     , (2294, 4, 2623)
-     , (2294, 4, 2624)
-     , (2294, 4, 2625)
-     , (2294, 4, 2626)
-     , (2294, 4, 2627)
-     , (2294, 4, 20628)
-     , (2294, 4, 20629)
-     , (2294, 4, 20630)
-     , (2294, 4, 2602)
-     , (2294, 4, 161);
+VALUES (2294, 4, 554) /* Studded Leather Basinet */
+     , (2294, 4, 35) /* Chainmail Basinet */
+     , (2294, 4, 77) /* Kabuton */
+     , (2294, 4, 85) /* Chainmail Coif */
+     , (2294, 4, 96) /* Chainmail Shirt */
+     , (2294, 4, 414) /* Chainmail Breastplate */
+     , (2294, 4, 43) /* Yoroi Breastplate */
+     , (2294, 4, 55) /* Chainmail Gauntlets */
+     , (2294, 4, 2605) /* Chainmail Greaves */
+     , (2294, 4, 108) /* Chainmail Tassets */
+     , (2294, 4, 415) /* Chainmail Girth */
+     , (2294, 4, 90) /* Yoroi Pauldrons */
+     , (2294, 4, 416) /* Chainmail Pauldrons */
+     , (2294, 4, 413) /* Chainmail Bracers */
+     , (2294, 4, 78) /* Kote */
+     , (2294, 4, 64) /* Yoroi Girth */
+     , (2294, 4, 2437) /* Yoroi Leggings */
+     , (2294, 4, 80) /* Chainmail Leggings */
+     , (2294, 4, 116) /* Studded Leather Boots */
+     , (2294, 4, 94) /* Diamond Shield */
+     , (2294, 4, 95) /* Tower Shield */
+     , (2294, 4, 2621) /* Trade Note (100) */
+     , (2294, 4, 2622) /* Trade Note (500) */
+     , (2294, 4, 2623) /* Trade Note (1,000) */
+     , (2294, 4, 2624) /* Trade Note (5,000) */
+     , (2294, 4, 2625) /* Trade Note (10,000) */
+     , (2294, 4, 2626) /* Trade Note (50,000) */
+     , (2294, 4, 2627) /* Trade Note (100,000) */
+     , (2294, 4, 20628) /* Trade Note (150,000) */
+     , (2294, 4, 20629) /* Trade Note (200,000) */
+     , (2294, 4, 20630) /* Trade Note (250,000) */
+     , (2294, 4, 2602) /* Loose Breeches */
+     , (2294, 4, 161) /* Mug */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2294, 2, 310);
+VALUES (2294, 2, 310) /* Throwing Club */;
 

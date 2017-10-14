@@ -39,3 +39,9 @@ VALUES (25886, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25886, 67114711, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25886, 8, 2408) /* Gem */
+     , (25886, 8, 27328) /* Major Mana Stone */;
+

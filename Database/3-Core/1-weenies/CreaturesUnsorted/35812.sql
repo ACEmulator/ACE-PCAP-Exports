@@ -50,3 +50,13 @@ VALUES (35812, 2, 92) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35812, 64, 30250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35812, 8, 44976) /* Hood */
+     , (35812, 8, 49236) /* Acid Zombie Essence (125) */
+     , (35812, 8, 84) /* Studded  Leggings */
+     , (35812, 8, 91) /* Kite Shield */
+     , (35812, 8, 297) /* Ring */
+     , (35812, 8, 2411) /* Gem */;
+

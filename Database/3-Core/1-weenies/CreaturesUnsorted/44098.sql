@@ -81,3 +81,10 @@ VALUES (44098, 0, 16777294)
      , (44098, 15, 16777307)
      , (44098, 16, 16781779);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44098, 8, 2411) /* Gem */
+     , (44098, 8, 2436) /* Greater Mana Stone */
+     , (44098, 8, 516) /* Peerless Lockpick */;
+

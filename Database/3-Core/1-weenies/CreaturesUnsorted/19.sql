@@ -45,3 +45,17 @@ VALUES (19, 2, 17) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (19, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19, 8, 2849) /* Scroll of Leaden Weapon IV */
+     , (19, 8, 127) /* Pants */
+     , (19, 8, 63) /* Studded Leather Girth */
+     , (19, 8, 101) /* Chainmail Sleeves */
+     , (19, 8, 2684) /* Scroll of Frailty Other IV */
+     , (19, 8, 2433) /* Gem */
+     , (19, 8, 2416) /* Gem */
+     , (19, 8, 414) /* Chainmail Breastplate */
+     , (19, 8, 141) /* Bowl */
+     , (19, 8, 377) /* Potion of Healing */;
+

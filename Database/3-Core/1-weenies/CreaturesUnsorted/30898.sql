@@ -62,3 +62,15 @@ VALUES (30898, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30898, 64, 760) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30898, 8, 112) /* Studded Leather Tassets */
+     , (30898, 8, 45415) /* Frost Spada */
+     , (30898, 8, 31785) /* Acid Claw */
+     , (30898, 8, 30876) /* Banished Blade */
+     , (30898, 8, 8326) /* Copper Pea */
+     , (30898, 8, 3431) /* Scroll of Mana Mastery Other V */
+     , (30898, 8, 40622) /* Frost Nodachi */
+     , (30898, 8, 121) /* Gloves */;
+

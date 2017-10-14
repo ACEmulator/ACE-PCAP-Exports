@@ -66,5 +66,5 @@ VALUES (36767, 64, 900) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (36767, 2, 36947);
+VALUES (36767, 2, 36947) /* Deru Limb */;
 

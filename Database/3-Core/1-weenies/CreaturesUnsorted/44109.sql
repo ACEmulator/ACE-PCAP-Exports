@@ -90,3 +90,10 @@ VALUES (44109, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (44109, 64, 4600) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44109, 8, 25643) /* Leather Girth */
+     , (44109, 8, 37327) /* Glyph of Piercing */
+     , (44109, 8, 44135) /* Yellow Destabilizing Crystal */;
+

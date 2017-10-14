@@ -123,43 +123,43 @@ VALUES (30028, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30028, 4, 15269)
-     , (30028, 4, 2766)
-     , (30028, 4, 2771)
-     , (30028, 4, 46855)
-     , (30028, 4, 2786)
-     , (30028, 4, 46856)
-     , (30028, 4, 2811)
-     , (30028, 4, 46857)
-     , (30028, 4, 2836)
-     , (30028, 4, 46858)
-     , (30028, 4, 2892)
-     , (30028, 4, 46859)
-     , (30028, 4, 28007)
-     , (30028, 4, 46860)
-     , (30028, 4, 2886)
-     , (30028, 4, 2776)
-     , (30028, 4, 2781)
-     , (30028, 4, 2791)
-     , (30028, 4, 2796)
-     , (30028, 4, 2801)
-     , (30028, 4, 2806)
-     , (30028, 4, 2816)
-     , (30028, 4, 2821)
-     , (30028, 4, 2826)
-     , (30028, 4, 2831)
-     , (30028, 4, 2841)
-     , (30028, 4, 2846)
-     , (30028, 4, 2851)
-     , (30028, 4, 2856)
-     , (30028, 4, 2861)
-     , (30028, 4, 2866)
-     , (30028, 4, 2871)
-     , (30028, 4, 2876)
-     , (30028, 4, 28014)
-     , (30028, 4, 2881)
-     , (30028, 4, 2897)
-     , (30028, 4, 2902)
-     , (30028, 4, 2906)
-     , (30028, 4, 20624);
+VALUES (30028, 4, 15269) /* Foci of Artifice */
+     , (30028, 4, 2766) /* Scroll of Acid Bane VI */
+     , (30028, 4, 2771) /* Scroll of Acid Lure VI */
+     , (30028, 4, 46855) /* Aura of Blood Drinker Other VI */
+     , (30028, 4, 2786) /* Aura of Blood Drinker Self VI */
+     , (30028, 4, 46856) /* Aura of Defender Other VI */
+     , (30028, 4, 2811) /* Aura of Defender Self VI */
+     , (30028, 4, 46857) /* Aura of Heartseeker Other VI */
+     , (30028, 4, 2836) /* Aura of Heartseeker Self VI */
+     , (30028, 4, 46858) /* Aura of Hermetic Link Other VI */
+     , (30028, 4, 2892) /* Aura of Hermetic Link Self VI */
+     , (30028, 4, 46859) /* Aura of Spirit Drinker Other VI */
+     , (30028, 4, 28007) /* Aura of Spirit Drinker Self VI */
+     , (30028, 4, 46860) /* Aura of Swift Killer Other VI */
+     , (30028, 4, 2886) /* Aura of Swift Killer Self VI */
+     , (30028, 4, 2776) /* Scroll of Blade Bane VI */
+     , (30028, 4, 2781) /* Scroll of Blade Lure VI */
+     , (30028, 4, 2791) /* Scroll of Blood Loather VI */
+     , (30028, 4, 2796) /* Scroll of Bludgeon Bane VI */
+     , (30028, 4, 2801) /* Scroll of Bludgeon Lure VI */
+     , (30028, 4, 2806) /* Scroll of Brittlemail VI */
+     , (30028, 4, 2816) /* Scroll of Flame Bane VI */
+     , (30028, 4, 2821) /* Scroll of Flame Lure VI */
+     , (30028, 4, 2826) /* Scroll of Frost Bane VI */
+     , (30028, 4, 2831) /* Scroll of Frost Lure VI */
+     , (30028, 4, 2841) /* Scroll of Hermetic Void VI */
+     , (30028, 4, 2846) /* Scroll of Impenetrability VI */
+     , (30028, 4, 2851) /* Scroll of Leaden Weapon VI */
+     , (30028, 4, 2856) /* Scroll of Lightning Bane VI */
+     , (30028, 4, 2861) /* Scroll of Lightning Lure VI */
+     , (30028, 4, 2866) /* Scroll of Lure Blade VI */
+     , (30028, 4, 2871) /* Scroll of Piercing Bane VI */
+     , (30028, 4, 2876) /* Scroll of Piercing Lure VI */
+     , (30028, 4, 28014) /* Scroll of Spirit Loather VI */
+     , (30028, 4, 2881) /* Scroll of Strengthen Lock VI */
+     , (30028, 4, 2897) /* Scroll of Turn Blade VI */
+     , (30028, 4, 2902) /* Scroll of Weaken Lock VI */
+     , (30028, 4, 2906) /* Scroll of Summon Primary Portal III */
+     , (30028, 4, 20624) /* Scroll of Summon Secondary Portal III */;
 

@@ -58,3 +58,8 @@ VALUES (47179, 0, 16785699)
      , (47179, 19, 16785704)
      , (47179, 20, 16785705);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (47179, 8, 20613) /* Scroll of Energize Vigor */;
+

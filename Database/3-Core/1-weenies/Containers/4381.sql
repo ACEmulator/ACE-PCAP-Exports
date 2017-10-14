@@ -23,7 +23,7 @@ VALUES (4381, 1, 512) /* ITEM_TYPE_INT */
      , (4381, 6, 120) /* ITEMS_CAPACITY_INT */
      , (4381, 16, 48) /* ITEM_USEABLE_INT */
      , (4381, 93, 1052) /* PHYSICS_STATE_INT */
-     , (4381, 9007, 21) /* Container_WeenieType */;
+     , (4381, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (4381, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -35,4 +35,9 @@ VALUES (4381, 13, True) /* ETHEREAL_BOOL */
      , (4381, 14, True) /* GRAVITY_STATUS_BOOL */
      , (4381, 19, True) /* ATTACKABLE_BOOL */
      , (4381, 1, True) /* STUCK_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4381, 8, 5339) /* Bundle of Quarrelshafts */;
 

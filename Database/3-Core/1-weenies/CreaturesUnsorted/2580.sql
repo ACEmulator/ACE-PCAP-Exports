@@ -44,3 +44,35 @@ VALUES (2580, 2, 23) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2580, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2580, 8, 49359) /* Frost Moar Essence (50) */
+     , (2580, 8, 1719) /* Scroll of Lockpick Ineptitude */
+     , (2580, 8, 3568) /* Scroll of War Magic Mastery Other II */
+     , (2580, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (2580, 8, 296) /* Crown */
+     , (2580, 8, 22165) /* Lightning Quarter Staff */
+     , (2580, 8, 336) /* Ono */
+     , (2580, 8, 2428) /* Gem */
+     , (2580, 8, 31778) /* Frost Spine Glaive */
+     , (2580, 8, 132) /* Shoes */
+     , (2580, 8, 378) /* Stamina Potion */
+     , (2580, 8, 141) /* Bowl */
+     , (2580, 8, 513) /* Plain Lockpick */
+     , (2580, 8, 41488) /* Top */
+     , (2580, 8, 622) /* Necklace */
+     , (2580, 8, 2415) /* Gem */
+     , (2580, 8, 31784) /* Claw */
+     , (2580, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (2580, 8, 2418) /* Gem */
+     , (2580, 8, 1721) /* Scroll of Lockpick Mastery Self */
+     , (2580, 8, 259) /* Bread */
+     , (2580, 8, 5964) /* Scroll of Fletching Ineptitude Other III */
+     , (2580, 8, 294) /* Amulet */
+     , (2580, 8, 161) /* Mug */
+     , (2580, 8, 168) /* Tankard */
+     , (2580, 8, 1684) /* Scroll of Armor Tinkering Ignorance */
+     , (2580, 8, 121) /* Gloves */
+     , (2580, 8, 273) /* Pyreal */;
+

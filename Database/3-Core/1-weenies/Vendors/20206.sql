@@ -124,136 +124,136 @@ VALUES (20206, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20206, 4, 15268)
-     , (20206, 4, 28941)
-     , (20206, 4, 28934)
-     , (20206, 4, 2634)
-     , (20206, 4, 2639)
-     , (20206, 4, 2644)
-     , (20206, 4, 2649)
-     , (20206, 4, 2654)
-     , (20206, 4, 2659)
-     , (20206, 4, 2669)
-     , (20206, 4, 2674)
-     , (20206, 4, 1782)
-     , (20206, 4, 2682)
-     , (20206, 4, 2712)
-     , (20206, 4, 2717)
-     , (20206, 4, 2732)
-     , (20206, 4, 2737)
-     , (20206, 4, 2742)
-     , (20206, 4, 2747)
-     , (20206, 4, 2752)
-     , (20206, 4, 2757)
-     , (20206, 4, 5981)
-     , (20206, 4, 5987)
-     , (20206, 4, 5993)
-     , (20206, 4, 3128)
-     , (20206, 4, 3133)
-     , (20206, 4, 3138)
-     , (20206, 4, 3143)
-     , (20206, 4, 3148)
-     , (20206, 4, 3153)
-     , (20206, 4, 3158)
-     , (20206, 4, 3163)
-     , (20206, 4, 3168)
-     , (20206, 4, 5945)
-     , (20206, 4, 5951)
-     , (20206, 4, 5957)
-     , (20206, 4, 3188)
-     , (20206, 4, 3193)
-     , (20206, 4, 3198)
-     , (20206, 4, 3233)
-     , (20206, 4, 3238)
-     , (20206, 4, 3243)
-     , (20206, 4, 3248)
-     , (20206, 4, 45237)
-     , (20206, 4, 45245)
-     , (20206, 4, 45253)
-     , (20206, 4, 45261)
-     , (20206, 4, 45269)
-     , (20206, 4, 45277)
-     , (20206, 4, 3253)
-     , (20206, 4, 3258)
-     , (20206, 4, 3263)
-     , (20206, 4, 3218)
-     , (20206, 4, 3223)
-     , (20206, 4, 3228)
-     , (20206, 4, 5963)
-     , (20206, 4, 5969)
-     , (20206, 4, 5975)
-     , (20206, 4, 3268)
-     , (20206, 4, 3273)
-     , (20206, 4, 3278)
-     , (20206, 4, 3513)
-     , (20206, 4, 3518)
-     , (20206, 4, 3523)
-     , (20206, 4, 3283)
-     , (20206, 4, 3288)
-     , (20206, 4, 3293)
-     , (20206, 4, 3298)
-     , (20206, 4, 3303)
-     , (20206, 4, 3308)
-     , (20206, 4, 3313)
-     , (20206, 4, 3318)
-     , (20206, 4, 3323)
-     , (20206, 4, 3328)
-     , (20206, 4, 9625)
-     , (20206, 4, 3333)
-     , (20206, 4, 3338)
-     , (20206, 4, 3343)
-     , (20206, 4, 3348)
-     , (20206, 4, 3353)
-     , (20206, 4, 3358)
-     , (20206, 4, 3363)
-     , (20206, 4, 3368)
-     , (20206, 4, 3373)
-     , (20206, 4, 3378)
-     , (20206, 4, 3383)
-     , (20206, 4, 3388)
-     , (20206, 4, 3408)
-     , (20206, 4, 3413)
-     , (20206, 4, 3418)
-     , (20206, 4, 3423)
-     , (20206, 4, 3428)
-     , (20206, 4, 3433)
-     , (20206, 4, 9609)
-     , (20206, 4, 3173)
-     , (20206, 4, 3178)
-     , (20206, 4, 3183)
-     , (20206, 4, 3438)
-     , (20206, 4, 5543)
-     , (20206, 4, 3443)
-     , (20206, 4, 3448)
-     , (20206, 4, 3453)
-     , (20206, 4, 3458)
-     , (20206, 4, 45285)
-     , (20206, 4, 45293)
-     , (20206, 4, 45301)
-     , (20206, 4, 3463)
-     , (20206, 4, 3468)
-     , (20206, 4, 45309)
-     , (20206, 4, 45317)
-     , (20206, 4, 45325)
-     , (20206, 4, 45333)
-     , (20206, 4, 45341)
-     , (20206, 4, 45349)
-     , (20206, 4, 3488)
-     , (20206, 4, 3493)
-     , (20206, 4, 49457)
-     , (20206, 4, 49464)
-     , (20206, 4, 49471)
-     , (20206, 4, 3558)
-     , (20206, 4, 3563)
-     , (20206, 4, 3568)
-     , (20206, 4, 3573)
-     , (20206, 4, 3578)
-     , (20206, 4, 3583)
-     , (20206, 4, 3588)
-     , (20206, 4, 41289)
-     , (20206, 4, 41297)
-     , (20206, 4, 41305)
-     , (20206, 4, 43358)
-     , (20206, 4, 43359)
-     , (20206, 4, 43360);
+VALUES (20206, 4, 15268) /* Foci of Enchantment */
+     , (20206, 4, 28941) /* Scroll of Arcanum Enlightenment II */
+     , (20206, 4, 28934) /* Scroll of Arcanum Salvaging II */
+     , (20206, 4, 2634) /* Scroll of Bafflement Other II */
+     , (20206, 4, 2639) /* Scroll of Clumsiness Other II */
+     , (20206, 4, 2644) /* Scroll of Coordination Other II */
+     , (20206, 4, 2649) /* Scroll of Coordination Self II */
+     , (20206, 4, 2654) /* Scroll of Endurance Other II */
+     , (20206, 4, 2659) /* Scroll of Endurance Self II */
+     , (20206, 4, 2669) /* Scroll of Feeblemind Other II */
+     , (20206, 4, 2674) /* Scroll of Focus Other II */
+     , (20206, 4, 1782) /* Scroll of Focus Self II */
+     , (20206, 4, 2682) /* Scroll of Frailty Other II */
+     , (20206, 4, 2712) /* Scroll of Quickness Other II */
+     , (20206, 4, 2717) /* Scroll of Quickness Self II */
+     , (20206, 4, 2732) /* Scroll of Slowness Other II */
+     , (20206, 4, 2737) /* Scroll of Strength Other II */
+     , (20206, 4, 2742) /* Scroll of Self Strength II */
+     , (20206, 4, 2747) /* Scroll of Weakness Other II */
+     , (20206, 4, 2752) /* Scroll of Willpower Other II */
+     , (20206, 4, 2757) /* Scroll of Willpower Self II */
+     , (20206, 4, 5981) /* Scroll of Alchemy Ineptitude Other II */
+     , (20206, 4, 5987) /* Scroll of Alchemy Mastery Other II */
+     , (20206, 4, 5993) /* Scroll of Alchemy Mastery Self II */
+     , (20206, 4, 3128) /* Scroll of Arcane Benightedness II */
+     , (20206, 4, 3133) /* Scroll of Arcane Enlightenment II */
+     , (20206, 4, 3138) /* Scroll of Arcane Enlightenment Self II */
+     , (20206, 4, 3143) /* Scroll of Armor Tinkering Expertise Other II */
+     , (20206, 4, 3148) /* Scroll of Armor Tinkering Expertise Self II */
+     , (20206, 4, 3153) /* Scroll of Armor Tinkering Ignorance II */
+     , (20206, 4, 3158) /* Scroll of Light Weapon Ineptitude Other II */
+     , (20206, 4, 3163) /* Scroll of Light Weapon Mastery Other II */
+     , (20206, 4, 3168) /* Scroll of Light Weapon Mastery Self II */
+     , (20206, 4, 5945) /* Scroll of Cooking Ineptitude Other II */
+     , (20206, 4, 5951) /* Scroll of Cooking Mastery Other II */
+     , (20206, 4, 5957) /* Scroll of Cooking Mastery Self II */
+     , (20206, 4, 3188) /* Scroll of Creature Enchantment Ineptitude II */
+     , (20206, 4, 3193) /* Scroll of Creature Enchantment Mastery Other II */
+     , (20206, 4, 3198) /* Scroll of Creature Enchantment Mastery Self II */
+     , (20206, 4, 3233) /* Scroll of Deception Ineptitude II */
+     , (20206, 4, 3238) /* Scroll of Deception Mastery Other II */
+     , (20206, 4, 3243) /* Scroll of Deception Mastery Self II */
+     , (20206, 4, 3248) /* Scroll of Defenselessness II */
+     , (20206, 4, 45237) /* Scroll of Dirty Fighting Ineptitude Other II */
+     , (20206, 4, 45245) /* Scroll of Dirty Fighting Mastery Other II */
+     , (20206, 4, 45253) /* Scroll of Dirty Fighting Mastery Self II */
+     , (20206, 4, 45261) /* Scroll of Dual Wield Ineptitude Other II */
+     , (20206, 4, 45269) /* Scroll of Dual Wield Mastery Other II */
+     , (20206, 4, 45277) /* Scroll of Dual Wield Mastery Self II */
+     , (20206, 4, 3253) /* Scroll of Faithlessness II */
+     , (20206, 4, 3258) /* Scroll of Fealty Other II */
+     , (20206, 4, 3263) /* Scroll of Fealty Self II */
+     , (20206, 4, 3218) /* Scroll of Finesse Weapon Ineptitude Other II */
+     , (20206, 4, 3223) /* Scroll of Finesse Weapon Mastery Other II */
+     , (20206, 4, 3228) /* Scroll of Finesse Weapon Mastery Self II */
+     , (20206, 4, 5963) /* Scroll of Fletching Ineptitude Other II */
+     , (20206, 4, 5969) /* Scroll of Fletching Mastery Other II */
+     , (20206, 4, 5975) /* Scroll of Fletching Mastery Self II */
+     , (20206, 4, 3268) /* Scroll of Healing Ineptitude II */
+     , (20206, 4, 3273) /* Scroll of Healing Mastery Other II */
+     , (20206, 4, 3278) /* Scroll of Healing Mastery Self II */
+     , (20206, 4, 3513) /* Scroll of Heavy Weapon Ineptitude Other II */
+     , (20206, 4, 3518) /* Scroll of Heavy Weapon Mastery Other II */
+     , (20206, 4, 3523) /* Scroll of Heavy Weapon Mastery Self II */
+     , (20206, 4, 3283) /* Scroll of Impregnability Other II */
+     , (20206, 4, 3288) /* Scroll of Impregnability Self II */
+     , (20206, 4, 3293) /* Scroll of Invulnerability Other II */
+     , (20206, 4, 3298) /* Scroll of Invulnerability Self II */
+     , (20206, 4, 3303) /* Scroll of Item Enchantment Ineptitude II */
+     , (20206, 4, 3308) /* Scroll of Item Enchantment Mastery Other II */
+     , (20206, 4, 3313) /* Scroll of Item Enchantment Mastery Self II */
+     , (20206, 4, 3318) /* Scroll of Item Tinkering Expertise Other II */
+     , (20206, 4, 3323) /* Scroll of Item Tinkering Expertise Self II */
+     , (20206, 4, 3328) /* Scroll of Item Tinkering Ignorance II */
+     , (20206, 4, 9625) /* Scroll of Jumping Ineptitude II */
+     , (20206, 4, 3333) /* Scroll of Jumping Mastery Other II */
+     , (20206, 4, 3338) /* Scroll of Jumping Mastery Self II */
+     , (20206, 4, 3343) /* Scroll of Leaden Feet II */
+     , (20206, 4, 3348) /* Scroll of Leadership Ineptitude II */
+     , (20206, 4, 3353) /* Scroll of Leadership Mastery Other II */
+     , (20206, 4, 3358) /* Scroll of Leadership Mastery Self II */
+     , (20206, 4, 3363) /* Scroll of Life Magic Ineptitude II */
+     , (20206, 4, 3368) /* Scroll of Life Magic Mastery Other II */
+     , (20206, 4, 3373) /* Scroll of Life Magic Mastery Self II */
+     , (20206, 4, 3378) /* Scroll of Lockpick Ineptitude II */
+     , (20206, 4, 3383) /* Scroll of Lockpick Mastery Other II */
+     , (20206, 4, 3388) /* Scroll of Lockpick Mastery Self II */
+     , (20206, 4, 3408) /* Scroll of Magic Item Tinkering Expertise Other II */
+     , (20206, 4, 3413) /* Scroll of Magic Item Tinkering Expertise Self II */
+     , (20206, 4, 3418) /* Scroll of Magic Item Tinkering Ignorance II */
+     , (20206, 4, 3423) /* Scroll of Magic Yield Other II */
+     , (20206, 4, 3428) /* Scroll of Mana Mastery Other II */
+     , (20206, 4, 3433) /* Scroll of Mana Mastery Self II */
+     , (20206, 4, 9609) /* Scroll of Mana Ineptitude Other II */
+     , (20206, 4, 3173) /* Scroll of Missile Weapon Ineptitude Other II */
+     , (20206, 4, 3178) /* Scroll of Missile Weapon Mastery Other II */
+     , (20206, 4, 3183) /* Scroll of Missile Weapon Mastery Self II */
+     , (20206, 4, 3438) /* Scroll of Monster Attunement Other II */
+     , (20206, 4, 5543) /* Scroll of Monster Attunement Self II */
+     , (20206, 4, 3443) /* Scroll of Monster Unfamiliarity II */
+     , (20206, 4, 3448) /* Scroll of Person Attunement Other II */
+     , (20206, 4, 3453) /* Scroll of Person Attunement Self II */
+     , (20206, 4, 3458) /* Scroll of Person Unfamiliarity II */
+     , (20206, 4, 45285) /* Scroll of Recklessness Ineptitude Other II */
+     , (20206, 4, 45293) /* Scroll of Recklessness Mastery Other II */
+     , (20206, 4, 45301) /* Scroll of Recklessness Mastery Self II */
+     , (20206, 4, 3463) /* Scroll of Resist Magic Other II */
+     , (20206, 4, 3468) /* Scroll of Resist Magic Self II */
+     , (20206, 4, 45309) /* Scroll of Shield Ineptitude Other II */
+     , (20206, 4, 45317) /* Scroll of Shield Mastery Other II */
+     , (20206, 4, 45325) /* Scroll of Shield Mastery Self II */
+     , (20206, 4, 45333) /* Scroll of Sneak Attack Ineptitude Other II */
+     , (20206, 4, 45341) /* Scroll of Sneak Attack Mastery Other II */
+     , (20206, 4, 45349) /* Scroll of Sneak Attack Mastery Self II */
+     , (20206, 4, 3488) /* Scroll of Sprint Other II */
+     , (20206, 4, 3493) /* Scroll of Sprint Self II */
+     , (20206, 4, 49457) /* Scroll of Summoning Ineptitude Other II */
+     , (20206, 4, 49464) /* Scroll of Summoning Mastery Other II */
+     , (20206, 4, 49471) /* Scroll of Summoning Mastery Self II */
+     , (20206, 4, 3558) /* Scroll of Vulnerability II */
+     , (20206, 4, 3563) /* Scroll of War Magic Ineptitude II */
+     , (20206, 4, 3568) /* Scroll of War Magic Mastery Other II */
+     , (20206, 4, 3573) /* Scroll of War Magic Mastery Self II */
+     , (20206, 4, 3578) /* Scroll of Weapon Tinkering Expertise Other II */
+     , (20206, 4, 3583) /* Scroll of Weapon Tinkering Expertise Self II */
+     , (20206, 4, 3588) /* Scroll of Weapon Tinkering Ignorance II */
+     , (20206, 4, 41289) /* Scroll of Two Handed Weapons Ineptitude II */
+     , (20206, 4, 41297) /* Scroll of Two Handed Weapon Mastery Other II */
+     , (20206, 4, 41305) /* Scroll of Two Handed Weapon Mastery Self II */
+     , (20206, 4, 43358) /* Scroll of Void Magic Ineptitude II */
+     , (20206, 4, 43359) /* Scroll of Void Magic Mastery Other II */
+     , (20206, 4, 43360) /* Scroll of Void Magic Mastery Self II */;
 

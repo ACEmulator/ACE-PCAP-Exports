@@ -48,3 +48,17 @@ VALUES (29353, 2, 23) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (29353, 64, 475) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29353, 8, 2406) /* Gem */
+     , (29353, 8, 21300) /* Scroll of Blade Arc VI */
+     , (29353, 8, 40820) /* Lightning Corsesca */
+     , (29353, 8, 2461) /* Mana Elixir */
+     , (29353, 8, 2725) /* Scroll of Revitalize Other V */
+     , (29353, 8, 41301) /* Scroll of Two Handed Weapon Mastery Other VI */
+     , (29353, 8, 4191) /* Flaming Cestus */
+     , (29353, 8, 514) /* Excellent Lockpick */
+     , (29353, 8, 25638) /* Leather Vest */
+     , (29353, 8, 28606) /* Viamontian Pants */;
+

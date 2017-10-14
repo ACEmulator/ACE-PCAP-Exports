@@ -50,3 +50,20 @@ VALUES (11981, 2, 11) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11981, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11981, 8, 42) /* Studded Leather Breastplate */
+     , (11981, 8, 2807) /* Aura of Defender Self II */
+     , (11981, 8, 2596) /* Doublet */
+     , (11981, 8, 273) /* Pyreal */
+     , (11981, 8, 295) /* Bracelet */
+     , (11981, 8, 334) /* Nayin */
+     , (11981, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (11981, 8, 2418) /* Gem */
+     , (11981, 8, 161) /* Mug */
+     , (11981, 8, 513) /* Plain Lockpick */
+     , (11981, 8, 45416) /* Knife */
+     , (11981, 8, 30611) /* Knuckles */
+     , (11981, 8, 7039) /* Fire Auroch Horn */;
+

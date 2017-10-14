@@ -123,43 +123,43 @@ VALUES (2315, 37, 0.8) /* BUY_PRICE_FLOAT */
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2315, 4, 35)
-     , (2315, 4, 413)
-     , (2315, 4, 414)
-     , (2315, 4, 55)
-     , (2315, 4, 415)
-     , (2315, 4, 71)
-     , (2315, 4, 80)
-     , (2315, 4, 416)
-     , (2315, 4, 85)
-     , (2315, 4, 8489)
-     , (2315, 4, 8488)
-     , (2315, 4, 75)
-     , (2315, 4, 76)
-     , (2315, 4, 40)
-     , (2315, 4, 57)
-     , (2315, 4, 61)
-     , (2315, 4, 66)
-     , (2315, 4, 110)
-     , (2315, 4, 82)
-     , (2315, 4, 87)
-     , (2315, 4, 114)
-     , (2315, 4, 92)
-     , (2315, 4, 95)
-     , (2315, 4, 2621)
-     , (2315, 4, 2622)
-     , (2315, 4, 2623)
-     , (2315, 4, 2624)
-     , (2315, 4, 2625)
-     , (2315, 4, 2626)
-     , (2315, 4, 2627)
-     , (2315, 4, 20628)
-     , (2315, 4, 20629)
-     , (2315, 4, 20630)
-     , (2315, 4, 31808);
+VALUES (2315, 4, 35) /* Chainmail Basinet */
+     , (2315, 4, 413) /* Chainmail Bracers */
+     , (2315, 4, 414) /* Chainmail Breastplate */
+     , (2315, 4, 55) /* Chainmail Gauntlets */
+     , (2315, 4, 415) /* Chainmail Girth */
+     , (2315, 4, 71) /* Chainmail Hauberk */
+     , (2315, 4, 80) /* Chainmail Leggings */
+     , (2315, 4, 416) /* Chainmail Pauldrons */
+     , (2315, 4, 85) /* Chainmail Coif */
+     , (2315, 4, 8489) /* Heaume */
+     , (2315, 4, 8488) /* Armet */
+     , (2315, 4, 75) /* Helmet */
+     , (2315, 4, 76) /* Qafiya */
+     , (2315, 4, 40) /* Platemail Breastplate */
+     , (2315, 4, 57) /* Platemail Gauntlets */
+     , (2315, 4, 61) /* Platemail Girth */
+     , (2315, 4, 66) /* Platemail Greaves */
+     , (2315, 4, 110) /* Platemail Tassets */
+     , (2315, 4, 82) /* Platemail Leggings */
+     , (2315, 4, 87) /* Platemail Pauldrons */
+     , (2315, 4, 114) /* Platemail Vambraces */
+     , (2315, 4, 92) /* Large Kite Shield */
+     , (2315, 4, 95) /* Tower Shield */
+     , (2315, 4, 2621) /* Trade Note (100) */
+     , (2315, 4, 2622) /* Trade Note (500) */
+     , (2315, 4, 2623) /* Trade Note (1,000) */
+     , (2315, 4, 2624) /* Trade Note (5,000) */
+     , (2315, 4, 2625) /* Trade Note (10,000) */
+     , (2315, 4, 2626) /* Trade Note (50,000) */
+     , (2315, 4, 2627) /* Trade Note (100,000) */
+     , (2315, 4, 20628) /* Trade Note (150,000) */
+     , (2315, 4, 20629) /* Trade Note (200,000) */
+     , (2315, 4, 20630) /* Trade Note (250,000) */
+     , (2315, 4, 31808) /* Electric Crossbow */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2315, 2, 356);
+VALUES (2315, 2, 356) /* Tofun */;
 

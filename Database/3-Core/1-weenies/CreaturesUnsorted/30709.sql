@@ -79,3 +79,12 @@ VALUES (30709, 64, 4120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (30709, 128, 4240) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (30709, 256, 135) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30709, 8, 44849) /* Chevron Cloak */
+     , (30709, 8, 2986) /* Scroll of Acid Vulnerability Other V */
+     , (30709, 8, 254) /* Stoup */
+     , (30709, 8, 512) /* Good Lockpick */
+     , (30709, 8, 30700) /* Tursh Totem Shard */;
+

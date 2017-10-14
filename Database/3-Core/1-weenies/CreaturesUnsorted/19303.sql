@@ -73,3 +73,37 @@ VALUES (19303, 0, 16783897)
      , (19303, 14, 16783855)
      , (19303, 16, 16783891);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19303, 8, 43342) /* Scroll of Weakening Curse V */
+     , (19303, 8, 3590) /* Scroll of Weapon Tinkering Ignorance IV */
+     , (19303, 8, 2434) /* Lesser Mana Stone */
+     , (19303, 8, 42518) /* Coalesced Mana */
+     , (19303, 8, 3939) /* Acid Morning Star */
+     , (19303, 8, 297) /* Ring */
+     , (19303, 8, 116) /* Studded Leather Boots */
+     , (19303, 8, 44) /* Buckler */
+     , (19303, 8, 22162) /* Frost Nabut */
+     , (19303, 8, 25637) /* Leather Bracers */
+     , (19303, 8, 2602) /* Loose Breeches */
+     , (19303, 8, 31767) /* Flaming Lugian Hammer */
+     , (19303, 8, 98) /* Scalemail Shirt */
+     , (19303, 8, 2666) /* Scroll of Enfeeble Other IV */
+     , (19303, 8, 5988) /* Scroll of Alchemy Mastery Other III */
+     , (19303, 8, 273) /* Pyreal */
+     , (19303, 8, 49473) /* Scroll of Summoning Mastery Self IV */
+     , (19303, 8, 341) /* Shouyumi */
+     , (19303, 8, 93) /* Round Shield */
+     , (19303, 8, 107) /* Sollerets */
+     , (19303, 8, 49275) /* Frost Elemental Essence (50) */
+     , (19303, 8, 25645) /* Leather Leggings */
+     , (19303, 8, 41041) /* Magari Yari */
+     , (19303, 8, 96) /* Chainmail Shirt */
+     , (19303, 8, 28606) /* Viamontian Pants */
+     , (19303, 8, 545) /* Reliable Lockpick */
+     , (19303, 8, 95) /* Tower Shield */
+     , (19303, 8, 68) /* Studded Leather Greaves */
+     , (19303, 8, 121) /* Gloves */
+     , (19303, 8, 20640) /* Royal Atlatl */;
+

@@ -36,3 +36,18 @@ VALUES (31919, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (31919, 19, True) /* ATTACKABLE_BOOL */
      , (31919, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31919, 8, 31803) /* Frost Compound Bow */
+     , (31919, 8, 516) /* Peerless Lockpick */
+     , (31919, 8, 27328) /* Major Mana Stone */
+     , (31919, 8, 43048) /* Knorr Academy Breastplate */
+     , (31919, 8, 2436) /* Greater Mana Stone */
+     , (31919, 8, 2411) /* Gem */
+     , (31919, 8, 273) /* Pyreal */
+     , (31919, 8, 150) /* Flagon */
+     , (31919, 8, 515) /* Superb Lockpick */
+     , (31919, 8, 37364) /* Quill of Introspection */
+     , (31919, 8, 624) /* Ring */;
+

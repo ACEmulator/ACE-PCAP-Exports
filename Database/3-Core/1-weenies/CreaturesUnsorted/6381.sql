@@ -42,3 +42,9 @@ VALUES (6381, 2, 42) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (6381, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6381, 8, 295) /* Bracelet */
+     , (6381, 8, 273) /* Pyreal */;
+

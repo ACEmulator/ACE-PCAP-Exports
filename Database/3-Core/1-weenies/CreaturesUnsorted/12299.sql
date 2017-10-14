@@ -51,3 +51,18 @@ VALUES (12299, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12299, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12299, 8, 40709) /* Covenant Girth */
+     , (12299, 8, 273) /* Pyreal */
+     , (12299, 8, 2589) /* Smock */
+     , (12299, 8, 2435) /* Mana Stone */
+     , (12299, 8, 2420) /* Gem */
+     , (12299, 8, 149) /* Ewer */
+     , (12299, 8, 2408) /* Gem */
+     , (12299, 8, 327) /* Ken */
+     , (12299, 8, 27330) /* Moderate Mana Stone */
+     , (12299, 8, 2430) /* Gem */
+     , (12299, 8, 8326) /* Copper Pea */;
+

@@ -36,3 +36,37 @@ VALUES (946, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (946, 67115124, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (946, 8, 295) /* Bracelet */
+     , (946, 8, 2420) /* Gem */
+     , (946, 8, 312) /* Light Crossbow */
+     , (946, 8, 161) /* Mug */
+     , (946, 8, 297) /* Ring */
+     , (946, 8, 513) /* Plain Lockpick */
+     , (946, 8, 294) /* Amulet */
+     , (946, 8, 2436) /* Greater Mana Stone */
+     , (946, 8, 2416) /* Gem */
+     , (946, 8, 311) /* Heavy Crossbow */
+     , (946, 8, 8214) /* Guard Post Key */
+     , (946, 8, 49352) /* Fire Moar Essence (50) */
+     , (946, 8, 101) /* Chainmail Sleeves */
+     , (946, 8, 2596) /* Doublet */
+     , (946, 8, 3369) /* Scroll of Life Magic Mastery Other III */
+     , (946, 8, 121) /* Gloves */
+     , (946, 8, 2366) /* Orb */
+     , (946, 8, 8329) /* Lead Pea */
+     , (946, 8, 59) /* Studded Leather Gauntlets */
+     , (946, 8, 30615) /* Acid Knuckles */
+     , (946, 8, 2414) /* Gem */
+     , (946, 8, 30616) /* Arbalest */
+     , (946, 8, 1768) /* Scroll of Clumsiness Other */
+     , (946, 8, 2419) /* Gem */
+     , (946, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (946, 8, 2427) /* Gem */
+     , (946, 8, 2457) /* Health Draught */
+     , (946, 8, 105) /* Studded Leather Sleeves */
+     , (946, 8, 2413) /* Gem */
+     , (946, 8, 27331) /* Minor Mana Stone */;
+

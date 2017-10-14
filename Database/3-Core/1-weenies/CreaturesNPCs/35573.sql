@@ -66,5 +66,5 @@ VALUES (35573, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35573, 2, 35672);
+VALUES (35573, 2, 35672) /* Fork */;
 

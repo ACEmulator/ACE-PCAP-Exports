@@ -99,3 +99,12 @@ VALUES (38146, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38146, 64, 370) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38146, 8, 31759) /* Dericost Blade */
+     , (38146, 8, 25641) /* Leather Cuirass */
+     , (38146, 8, 311) /* Heavy Crossbow */
+     , (38146, 8, 38172) /* The Creation of Blighted Moarsmen */
+     , (38146, 8, 38160) /* Tattered Rank Moarsman Ritual */;
+

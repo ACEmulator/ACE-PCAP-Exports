@@ -78,3 +78,9 @@ VALUES (7100, 64, 390) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7100, 128, 410) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7100, 256, 170) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7100, 8, 624) /* Ring */
+     , (7100, 8, 35) /* Chainmail Basinet */;
+

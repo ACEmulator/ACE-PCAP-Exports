@@ -114,3 +114,14 @@ VALUES (12131, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12131, 64, 845) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12131, 8, 20580) /* Scroll of Saladur's Blessing */
+     , (12131, 8, 29250) /* Piercing Crossbow */
+     , (12131, 8, 132) /* Shoes */
+     , (12131, 8, 6047) /* Amuli Leggings */
+     , (12131, 8, 6046) /* Amuli Coat */
+     , (12131, 8, 12143) /* Northern Infiltrator Message Shard */
+     , (12131, 8, 12155) /* Shield of the Simulacra */;
+

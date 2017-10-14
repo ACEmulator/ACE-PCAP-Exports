@@ -102,6 +102,6 @@ VALUES (35825, 5, 16789351)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35825, 2, 32698)
-     , (35825, 2, 21435);
+VALUES (35825, 2, 32698) /* Shield of Strathelar */
+     , (35825, 2, 21435) /* Shauraloi */;
 

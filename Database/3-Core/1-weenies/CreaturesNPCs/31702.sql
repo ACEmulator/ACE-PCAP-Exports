@@ -89,5 +89,5 @@ VALUES (31702, 10, 16777301)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (31702, 2, 359);
+VALUES (31702, 2, 359) /* War Hammer */;
 

@@ -44,3 +44,18 @@ VALUES (11497, 2, 55) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11497, 64, 204) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11497, 8, 127) /* Pants */
+     , (11497, 8, 623) /* Heavy Necklace */
+     , (11497, 8, 31795) /* Acid Lancet */
+     , (11497, 8, 6005) /* Koujia Sleeves */
+     , (11497, 8, 514) /* Excellent Lockpick */
+     , (11497, 8, 2599) /* Trousers */
+     , (11497, 8, 416) /* Chainmail Pauldrons */
+     , (11497, 8, 7940) /* Empty Flask */
+     , (11497, 8, 150) /* Flagon */
+     , (11497, 8, 25649) /* Leather Shirt */
+     , (11497, 8, 12235) /* Carenzi Stalker Pelt */;
+

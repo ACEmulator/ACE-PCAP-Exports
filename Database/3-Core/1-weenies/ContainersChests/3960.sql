@@ -50,3 +50,21 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3960, 2, 0) /* OPEN_BOOL */
      , (3960, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3960, 8, 49352) /* Fire Moar Essence (50) */
+     , (3960, 8, 2398) /* Gem */
+     , (3960, 8, 22162) /* Frost Nabut */
+     , (3960, 8, 2424) /* Gem */
+     , (3960, 8, 127) /* Pants */
+     , (3960, 8, 2403) /* Gem */
+     , (3960, 8, 631) /* Excellent Healing Kit */
+     , (3960, 8, 49338) /* Acid Moar Essence (50) */
+     , (3960, 8, 2426) /* Gem */
+     , (3960, 8, 48959) /* Fire Elemental Essence (50) */
+     , (3960, 8, 2395) /* Gem */
+     , (3960, 8, 27330) /* Moderate Mana Stone */
+     , (3960, 8, 25646) /* Long Leather Gauntlets */
+     , (3960, 8, 415) /* Chainmail Girth */;
+

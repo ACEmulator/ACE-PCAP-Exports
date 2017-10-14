@@ -113,43 +113,43 @@ VALUES (30030, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30030, 4, 15269)
-     , (30030, 4, 2764)
-     , (30030, 4, 2769)
-     , (30030, 4, 46867)
-     , (30030, 4, 2784)
-     , (30030, 4, 46868)
-     , (30030, 4, 2809)
-     , (30030, 4, 46869)
-     , (30030, 4, 2834)
-     , (30030, 4, 46870)
-     , (30030, 4, 2889)
-     , (30030, 4, 46871)
-     , (30030, 4, 28005)
-     , (30030, 4, 46872)
-     , (30030, 4, 2884)
-     , (30030, 4, 2774)
-     , (30030, 4, 2779)
-     , (30030, 4, 2789)
-     , (30030, 4, 2794)
-     , (30030, 4, 2799)
-     , (30030, 4, 2804)
-     , (30030, 4, 2814)
-     , (30030, 4, 2819)
-     , (30030, 4, 2824)
-     , (30030, 4, 2829)
-     , (30030, 4, 2839)
-     , (30030, 4, 2844)
-     , (30030, 4, 2849)
-     , (30030, 4, 2854)
-     , (30030, 4, 2859)
-     , (30030, 4, 2864)
-     , (30030, 4, 2869)
-     , (30030, 4, 2874)
-     , (30030, 4, 28012)
-     , (30030, 4, 2879)
-     , (30030, 4, 2895)
-     , (30030, 4, 2900)
-     , (30030, 4, 2904)
-     , (30030, 4, 20622);
+VALUES (30030, 4, 15269) /* Foci of Artifice */
+     , (30030, 4, 2764) /* Scroll of Acid Bane IV */
+     , (30030, 4, 2769) /* Scroll of Acid Lure IV */
+     , (30030, 4, 46867) /* Aura of Blood Drinker Other IV */
+     , (30030, 4, 2784) /* Aura of Blood Drinker Self IV */
+     , (30030, 4, 46868) /* Aura of Defender Other IV */
+     , (30030, 4, 2809) /* Aura of Defender Self IV */
+     , (30030, 4, 46869) /* Aura of Heartseeker Other IV */
+     , (30030, 4, 2834) /* Aura of Heartseeker Self IV */
+     , (30030, 4, 46870) /* Aura of Hermetic Link Other IV */
+     , (30030, 4, 2889) /* Aura of Hermetic Link Self IV */
+     , (30030, 4, 46871) /* Aura of Spirit Drinker Other IV */
+     , (30030, 4, 28005) /* Aura of Spirit Drinker Self IV */
+     , (30030, 4, 46872) /* Aura of Swift Killer Other IV */
+     , (30030, 4, 2884) /* Aura of Swift Killer Self IV */
+     , (30030, 4, 2774) /* Scroll of Blade Bane IV */
+     , (30030, 4, 2779) /* Scroll of Blade Lure IV */
+     , (30030, 4, 2789) /* Scroll of Blood Loather IV */
+     , (30030, 4, 2794) /* Scroll of Bludgeon Bane IV */
+     , (30030, 4, 2799) /* Scroll of Bludgeon Lure IV */
+     , (30030, 4, 2804) /* Scroll of Brittlemail IV */
+     , (30030, 4, 2814) /* Scroll of Flame Bane IV */
+     , (30030, 4, 2819) /* Scroll of Flame Lure IV */
+     , (30030, 4, 2824) /* Scroll of Frost Bane IV */
+     , (30030, 4, 2829) /* Scroll of Frost Lure IV */
+     , (30030, 4, 2839) /* Scroll of Hermetic Void IV */
+     , (30030, 4, 2844) /* Scroll of Impenetrability IV */
+     , (30030, 4, 2849) /* Scroll of Leaden Weapon IV */
+     , (30030, 4, 2854) /* Scroll of Lightning Bane IV */
+     , (30030, 4, 2859) /* Scroll of Lightning Lure IV */
+     , (30030, 4, 2864) /* Scroll of Lure Blade IV */
+     , (30030, 4, 2869) /* Scroll of Piercing Bane IV */
+     , (30030, 4, 2874) /* Scroll of Piercing Lure IV */
+     , (30030, 4, 28012) /* Scroll of Spirit Loather IV */
+     , (30030, 4, 2879) /* Scroll of Strengthen Lock IV */
+     , (30030, 4, 2895) /* Scroll of Turn Blade IV */
+     , (30030, 4, 2900) /* Scroll of Weaken Lock IV */
+     , (30030, 4, 2904) /* Scroll of Summon Primary Portal I */
+     , (30030, 4, 20622) /* Scroll of Summon Secondary Portal I */;
 

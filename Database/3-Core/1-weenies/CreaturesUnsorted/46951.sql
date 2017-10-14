@@ -53,3 +53,19 @@ VALUES (46951, 64, 18125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (46951, 128, 5250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (46951, 256, 6490) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46951, 8, 163) /* Ornamental Bowl */
+     , (46951, 8, 43308) /* Scroll of Nether Bolt VII */
+     , (46951, 8, 44803) /* Empyrean Over-robe */
+     , (46951, 8, 150) /* Flagon */
+     , (46951, 8, 29258) /* Slashing Atlatl */
+     , (46951, 8, 20569) /* Scroll of Topheron's Blessing */
+     , (46951, 8, 27221) /* Lorica Breastplate */
+     , (46951, 8, 2423) /* Gem */
+     , (46951, 8, 624) /* Ring */
+     , (46951, 8, 154) /* Goblet */
+     , (46951, 8, 142) /* Chalice */
+     , (46951, 8, 53) /* Studded Leather Cuirass */;
+

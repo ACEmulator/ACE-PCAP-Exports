@@ -82,3 +82,12 @@ VALUES (9057, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9057, 64, 61) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9057, 8, 41057) /* Great Star Mace */
+     , (9057, 8, 2434) /* Lesser Mana Stone */
+     , (9057, 8, 27331) /* Minor Mana Stone */
+     , (9057, 8, 45102) /* Flaming Epee */
+     , (9057, 8, 8329) /* Lead Pea */;
+

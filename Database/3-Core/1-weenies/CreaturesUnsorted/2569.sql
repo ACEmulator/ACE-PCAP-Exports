@@ -44,3 +44,19 @@ VALUES (2569, 2, 21) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2569, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2569, 8, 2414) /* Gem */
+     , (2569, 8, 273) /* Pyreal */
+     , (2569, 8, 5789) /* Brown Lump */
+     , (2569, 8, 94) /* Diamond Shield */
+     , (2569, 8, 8329) /* Lead Pea */
+     , (2569, 8, 89) /* Studded Leather Pauldrons */
+     , (2569, 8, 45285) /* Scroll of Recklessness Ineptitude Other II */
+     , (2569, 8, 27331) /* Minor Mana Stone */
+     , (2569, 8, 2415) /* Gem */
+     , (2569, 8, 8954) /* Scroll of Whirling Blade Streak II */
+     , (2569, 8, 25637) /* Leather Bracers */
+     , (2569, 8, 31222) /* K'nath Key */;
+

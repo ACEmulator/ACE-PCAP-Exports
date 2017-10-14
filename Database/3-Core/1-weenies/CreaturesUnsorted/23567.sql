@@ -53,3 +53,21 @@ VALUES (23567, 2, 6) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (23567, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23567, 8, 3905) /* Acid War Hammer */
+     , (23567, 8, 28624) /* Tenassa Sleeves */
+     , (23567, 8, 3695) /* Gold Tumerok Insignia */
+     , (23567, 8, 54) /* Yoroi Cuirass */
+     , (23567, 8, 29242) /* Frost Bow */
+     , (23567, 8, 45416) /* Knife */
+     , (23567, 8, 84) /* Studded  Leggings */
+     , (23567, 8, 30603) /* Flaming Stiletto */
+     , (23567, 8, 20477) /* Scroll of Fiery Boon */
+     , (23567, 8, 132) /* Shoes */
+     , (23567, 8, 25638) /* Leather Vest */
+     , (23567, 8, 22168) /* Hefty Walking Cane */
+     , (23567, 8, 80) /* Chainmail Leggings */
+     , (23567, 8, 38) /* Studded Leather Bracers */;
+

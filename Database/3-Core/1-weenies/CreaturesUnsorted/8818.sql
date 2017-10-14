@@ -59,3 +59,10 @@ VALUES (8818, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8818, 64, 480) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8818, 8, 40699) /* Covenant Girth */
+     , (8818, 8, 27330) /* Moderate Mana Stone */
+     , (8818, 8, 8787) /* Shadow Captain's Heaume */;
+

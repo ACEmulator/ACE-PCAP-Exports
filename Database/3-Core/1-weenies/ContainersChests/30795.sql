@@ -50,3 +50,28 @@ VALUES (30795, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30795, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30795, 8, 20488) /* Scroll of Energy Flux */
+     , (30795, 8, 2403) /* Gem */
+     , (30795, 8, 42752) /* Haebrean Greaves */
+     , (30795, 8, 96) /* Chainmail Shirt */
+     , (30795, 8, 21155) /* Covenant Greaves */
+     , (30795, 8, 2599) /* Trousers */
+     , (30795, 8, 9229) /* Treated Healing Kit */
+     , (30795, 8, 108) /* Chainmail Tassets */
+     , (30795, 8, 29256) /* Frost Atlatl */
+     , (30795, 8, 20474) /* Scroll of Icy Boon */
+     , (30795, 8, 29255) /* Fire Atlatl */
+     , (30795, 8, 2627) /* Trade Note (100,000) */
+     , (30795, 8, 49445) /* Frost Spectre Essence (125) */
+     , (30795, 8, 40696) /* Covenant Bracers */
+     , (30795, 8, 301) /* Battle Axe */
+     , (30795, 8, 25639) /* Leather Jerkin */
+     , (30795, 8, 415) /* Chainmail Girth */
+     , (30795, 8, 40695) /* Covenant Sollerets */
+     , (30795, 8, 38) /* Studded Leather Bracers */
+     , (30795, 8, 20630) /* Trade Note (250,000) */
+     , (30795, 8, 8331) /* Silver Pea */;
+

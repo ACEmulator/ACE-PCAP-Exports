@@ -119,5 +119,5 @@ VALUES (46885, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (46885, 2, 7580);
+VALUES (46885, 2, 7580) /* Pickaxe */;
 

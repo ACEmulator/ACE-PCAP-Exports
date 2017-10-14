@@ -128,11 +128,11 @@ VALUES (4445, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4445, 4, 2599)
-     , (4445, 4, 2595)
-     , (4445, 4, 119)
-     , (4445, 4, 132)
-     , (4445, 4, 5851)
-     , (4445, 4, 5850)
-     , (4445, 4, 8371);
+VALUES (4445, 4, 2599) /* Trousers */
+     , (4445, 4, 2595) /* Baggy Tunic */
+     , (4445, 4, 119) /* Cowl */
+     , (4445, 4, 132) /* Shoes */
+     , (4445, 4, 5851) /* Faran Robe with Hood */
+     , (4445, 4, 5850) /* Faran Robe */
+     , (4445, 4, 8371) /* Kireth Gown with Band */;
 

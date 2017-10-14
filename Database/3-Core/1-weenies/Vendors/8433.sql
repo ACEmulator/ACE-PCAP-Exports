@@ -124,35 +124,35 @@ VALUES (8433, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (8433, 4, 554)
-     , (8433, 4, 35)
-     , (8433, 4, 77)
-     , (8433, 4, 85)
-     , (8433, 4, 96)
-     , (8433, 4, 414)
-     , (8433, 4, 43)
-     , (8433, 4, 55)
-     , (8433, 4, 2605)
-     , (8433, 4, 108)
-     , (8433, 4, 415)
-     , (8433, 4, 90)
-     , (8433, 4, 416)
-     , (8433, 4, 413)
-     , (8433, 4, 78)
-     , (8433, 4, 64)
-     , (8433, 4, 2437)
-     , (8433, 4, 80)
-     , (8433, 4, 116)
-     , (8433, 4, 94)
-     , (8433, 4, 95)
-     , (8433, 4, 2621)
-     , (8433, 4, 2622)
-     , (8433, 4, 2623)
-     , (8433, 4, 2624)
-     , (8433, 4, 2625)
-     , (8433, 4, 2626)
-     , (8433, 4, 2627)
-     , (8433, 4, 20628)
-     , (8433, 4, 20629)
-     , (8433, 4, 20630);
+VALUES (8433, 4, 554) /* Studded Leather Basinet */
+     , (8433, 4, 35) /* Chainmail Basinet */
+     , (8433, 4, 77) /* Kabuton */
+     , (8433, 4, 85) /* Chainmail Coif */
+     , (8433, 4, 96) /* Chainmail Shirt */
+     , (8433, 4, 414) /* Chainmail Breastplate */
+     , (8433, 4, 43) /* Yoroi Breastplate */
+     , (8433, 4, 55) /* Chainmail Gauntlets */
+     , (8433, 4, 2605) /* Chainmail Greaves */
+     , (8433, 4, 108) /* Chainmail Tassets */
+     , (8433, 4, 415) /* Chainmail Girth */
+     , (8433, 4, 90) /* Yoroi Pauldrons */
+     , (8433, 4, 416) /* Chainmail Pauldrons */
+     , (8433, 4, 413) /* Chainmail Bracers */
+     , (8433, 4, 78) /* Kote */
+     , (8433, 4, 64) /* Yoroi Girth */
+     , (8433, 4, 2437) /* Yoroi Leggings */
+     , (8433, 4, 80) /* Chainmail Leggings */
+     , (8433, 4, 116) /* Studded Leather Boots */
+     , (8433, 4, 94) /* Diamond Shield */
+     , (8433, 4, 95) /* Tower Shield */
+     , (8433, 4, 2621) /* Trade Note (100) */
+     , (8433, 4, 2622) /* Trade Note (500) */
+     , (8433, 4, 2623) /* Trade Note (1,000) */
+     , (8433, 4, 2624) /* Trade Note (5,000) */
+     , (8433, 4, 2625) /* Trade Note (10,000) */
+     , (8433, 4, 2626) /* Trade Note (50,000) */
+     , (8433, 4, 2627) /* Trade Note (100,000) */
+     , (8433, 4, 20628) /* Trade Note (150,000) */
+     , (8433, 4, 20629) /* Trade Note (200,000) */
+     , (8433, 4, 20630) /* Trade Note (250,000) */;
 

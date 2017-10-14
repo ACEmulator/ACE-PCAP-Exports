@@ -41,3 +41,24 @@ VALUES (1987, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1987, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1987, 8, 168) /* Tankard */
+     , (1987, 8, 273) /* Pyreal */
+     , (1987, 8, 21290) /* Scroll of Acid Arc III */
+     , (1987, 8, 27331) /* Minor Mana Stone */
+     , (1987, 8, 41070) /* Flaming Shashqa */
+     , (1987, 8, 8329) /* Lead Pea */
+     , (1987, 8, 243) /* Dinner Plate */
+     , (1987, 8, 2436) /* Greater Mana Stone */
+     , (1987, 8, 332) /* Morning Star */
+     , (1987, 8, 2434) /* Lesser Mana Stone */
+     , (1987, 8, 295) /* Bracelet */
+     , (1987, 8, 3763) /* Lightning Budiaq */
+     , (1987, 8, 40763) /* Flaming Nodachi */
+     , (1987, 8, 297) /* Ring */
+     , (1987, 8, 2418) /* Gem */
+     , (1987, 8, 1559) /* Scroll of Weakness Other */
+     , (1987, 8, 30584) /* Frost Mazule */;
+

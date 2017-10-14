@@ -124,26 +124,26 @@ VALUES (4552, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4552, 4, 2457)
-     , (4552, 4, 377)
-     , (4552, 4, 2460)
-     , (4552, 4, 379)
-     , (4552, 4, 378)
-     , (4552, 4, 27326)
-     , (4552, 4, 628)
-     , (4552, 4, 629)
-     , (4552, 4, 4450)
-     , (4552, 4, 4589)
-     , (4552, 4, 4592)
-     , (4552, 4, 4595)
-     , (4552, 4, 4597)
-     , (4552, 4, 4599)
-     , (4552, 4, 4384)
-     , (4552, 4, 4602)
-     , (4552, 4, 4604)
-     , (4552, 4, 4606)
-     , (4552, 4, 4608)
-     , (4552, 4, 4610)
-     , (4552, 4, 2621)
-     , (4552, 4, 2622);
+VALUES (4552, 4, 2457) /* Health Draught */
+     , (4552, 4, 377) /* Potion of Healing */
+     , (4552, 4, 2460) /* Mana Draught */
+     , (4552, 4, 379) /* Mana Potion */
+     , (4552, 4, 378) /* Stamina Potion */
+     , (4552, 4, 27326) /* Stamina Tincture */
+     , (4552, 4, 628) /* Handy Healing Kit */
+     , (4552, 4, 629) /* Adept Healing Kit */
+     , (4552, 4, 4450) /* Heal Other I */
+     , (4552, 4, 4589) /* Revitalize Other I */
+     , (4552, 4, 4592) /* Mana Boost Other I */
+     , (4552, 4, 4595) /* Regeneration Other I */
+     , (4552, 4, 4597) /* Rejuvenation Other I */
+     , (4552, 4, 4599) /* Mana Renewal Other I */
+     , (4552, 4, 4384) /* Strength Other I */
+     , (4552, 4, 4602) /* Endurance Other I */
+     , (4552, 4, 4604) /* Coordination Other I */
+     , (4552, 4, 4606) /* Quickness Other I */
+     , (4552, 4, 4608) /* Focus Other I */
+     , (4552, 4, 4610) /* Willpower Other I */
+     , (4552, 4, 2621) /* Trade Note (100) */
+     , (4552, 4, 2622) /* Trade Note (500) */;
 

@@ -49,3 +49,15 @@ VALUES (1941, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1941, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1941, 8, 31759) /* Dericost Blade */
+     , (1941, 8, 20506) /* Scroll of Light Weapon Mastery Self VII */
+     , (1941, 8, 22165) /* Lightning Quarter Staff */
+     , (1941, 8, 7796) /* Fire Naginata */
+     , (1941, 8, 41039) /* Flaming Assagai */
+     , (1941, 8, 326) /* Katar */
+     , (1941, 8, 45108) /* Schlager */
+     , (1941, 8, 2430) /* Gem */;
+

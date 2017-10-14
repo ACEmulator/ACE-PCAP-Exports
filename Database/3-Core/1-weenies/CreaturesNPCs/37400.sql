@@ -57,5 +57,5 @@ VALUES (37400, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (37400, 2, 37402);
+VALUES (37400, 2, 37402) /* Club of Surprising Cunning */;
 

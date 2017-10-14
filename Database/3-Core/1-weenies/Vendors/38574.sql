@@ -142,22 +142,22 @@ VALUES (38574, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (38574, 4, 38544)
-     , (38574, 4, 38721)
-     , (38574, 4, 38727)
-     , (38574, 4, 38717)
-     , (38574, 4, 44887)
-     , (38574, 4, 44444)
-     , (38574, 4, 44980)
-     , (38574, 4, 44981)
-     , (38574, 4, 44466)
-     , (38574, 4, 44588)
-     , (38574, 4, 44603)
-     , (38574, 4, 44605)
-     , (38574, 4, 44594)
-     , (38574, 4, 44596)
-     , (38574, 4, 44609)
-     , (38574, 4, 44591)
-     , (38574, 4, 44600)
-     , (38574, 4, 41508);
+VALUES (38574, 4, 38544) /* Celestial Hand Armor Writ */
+     , (38574, 4, 38721) /* Writ of Authorization */
+     , (38574, 4, 38727) /* Society Gem of Dispelling */
+     , (38574, 4, 38717) /* Celestial Hand Banner */
+     , (38574, 4, 44887) /* Celestial Hand Cloak */
+     , (38574, 4, 44444) /* Celestial Hand Robe */
+     , (38574, 4, 44980) /* Society Breastplate Restorer */
+     , (38574, 4, 44981) /* Society Breastplate Cloth Remover */
+     , (38574, 4, 44466) /* Celestial Hand Shield Cover */
+     , (38574, 4, 44588) /* Celestial Hand Buckler Cover */
+     , (38574, 4, 44603) /* Celestial Hand Round Shield Cover */
+     , (38574, 4, 44605) /* Celestial Hand Large Round Shield Cover */
+     , (38574, 4, 44594) /* Celestial Hand Kite Shield Cover */
+     , (38574, 4, 44596) /* Celestial Hand Large Kite Shield Cover */
+     , (38574, 4, 44609) /* Celestial Hand Tower Shield Cover */
+     , (38574, 4, 44591) /* Celestial Hand Covenant Shield Cover */
+     , (38574, 4, 44600) /* Celestial Hand Olthoi Shield Cover */
+     , (38574, 4, 41508) /* Major Item Tinkering Armature */;
 

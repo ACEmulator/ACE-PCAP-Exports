@@ -48,3 +48,22 @@ VALUES (18, 2, 16) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (18, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (18, 8, 25638) /* Leather Vest */
+     , (18, 8, 49485) /* Encapsulated Spirit */
+     , (18, 8, 2589) /* Smock */
+     , (18, 8, 96) /* Chainmail Shirt */
+     , (18, 8, 132) /* Shoes */
+     , (18, 8, 377) /* Potion of Healing */
+     , (18, 8, 2639) /* Scroll of Clumsiness Other II */
+     , (18, 8, 295) /* Bracelet */
+     , (18, 8, 628) /* Handy Healing Kit */
+     , (18, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (18, 8, 7772) /* Trident */
+     , (18, 8, 2842) /* Scroll of Impenetrability II */
+     , (18, 8, 7792) /* Fire Trident */
+     , (18, 8, 1786) /* Scroll of Slowness Other */
+     , (18, 8, 8329) /* Lead Pea */;
+

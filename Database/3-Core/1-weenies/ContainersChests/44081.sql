@@ -53,3 +53,14 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (44081, 2, 0) /* OPEN_BOOL */
      , (44081, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44081, 8, 27230) /* Nariyid Helm */
+     , (44081, 8, 42757) /* Haebrean Vambraces */
+     , (44081, 8, 25646) /* Long Leather Gauntlets */
+     , (44081, 8, 132) /* Shoes */
+     , (44081, 8, 37198) /* Olthoi Koujia Kabuton */
+     , (44081, 8, 28624) /* Tenassa Sleeves */
+     , (44081, 8, 96) /* Chainmail Shirt */;
+

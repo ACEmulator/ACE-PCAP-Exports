@@ -53,3 +53,44 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (24476, 2, 0) /* OPEN_BOOL */
      , (24476, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24476, 8, 27223) /* Lorica Helm */
+     , (24476, 8, 28610) /* Loafers */
+     , (24476, 8, 135) /* Turban */
+     , (24476, 8, 31865) /* Circlet */
+     , (24476, 8, 25640) /* Leather Cowl */
+     , (24476, 8, 49271) /* Lightning Child Essence (125) */
+     , (24476, 8, 25638) /* Leather Vest */
+     , (24476, 8, 32983) /* Princely Runed Knuckles */
+     , (24476, 8, 49534) /* Fire Phyntos Wasp Essence (125) */
+     , (24476, 8, 40763) /* Flaming Nodachi */
+     , (24476, 8, 621) /* Heavy Bracelet */
+     , (24476, 8, 2599) /* Trousers */
+     , (24476, 8, 359) /* War Hammer */
+     , (24476, 8, 295) /* Bracelet */
+     , (24476, 8, 32984) /* Princely Runed Slashing Baton */
+     , (24476, 8, 93) /* Round Shield */
+     , (24476, 8, 154) /* Goblet */
+     , (24476, 8, 31815) /* Electric Slingshot */
+     , (24476, 8, 20527) /* Scroll of Odif's Boon */
+     , (24476, 8, 49424) /* Acid Spectre Essence (125) */
+     , (24476, 8, 28612) /* Bandana */
+     , (24476, 8, 723) /* Studded Leather Cowl */
+     , (24476, 8, 20440) /* Scroll of Ilservian's Flame */
+     , (24476, 8, 243) /* Dinner Plate */
+     , (24476, 8, 45113) /* Hammer */
+     , (24476, 8, 49362) /* Frost Moar Essence (125) */
+     , (24476, 8, 43052) /* Knorr Academy Pauldrons */
+     , (24476, 8, 163) /* Ornamental Bowl */
+     , (24476, 8, 150) /* Flagon */
+     , (24476, 8, 31760) /* Acid Dericost Blade */
+     , (24476, 8, 49368) /* Acid Grievver Essence (100) */
+     , (24476, 8, 29244) /* Slashing Bow */
+     , (24476, 8, 41070) /* Flaming Shashqa */
+     , (24476, 8, 124) /* Jerkin */
+     , (24476, 8, 25647) /* Leather Pants */
+     , (24476, 8, 31758) /* Frost Dericost Blade */
+     , (24476, 8, 31867) /* Diadem */;
+

@@ -100,5 +100,5 @@ VALUES (27317, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (27317, 2, 22546);
+VALUES (27317, 2, 22546) /* Coconut */;
 

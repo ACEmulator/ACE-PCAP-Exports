@@ -61,3 +61,8 @@ VALUES (35941, 64, 200000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (35941, 128, 90000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (35941, 256, 200000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35941, 8, 35953) /* Prodigal Tusker's Token */;
+

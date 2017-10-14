@@ -41,3 +41,12 @@ VALUES (51356, 2, 47) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51356, 64, 3000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51356, 8, 20537) /* Scroll of Web of Defense */
+     , (51356, 8, 516) /* Peerless Lockpick */
+     , (51356, 8, 27328) /* Major Mana Stone */
+     , (51356, 8, 2422) /* Gem */
+     , (51356, 8, 37362) /* Quill of Extraction */;
+

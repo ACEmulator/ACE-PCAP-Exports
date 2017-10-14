@@ -76,3 +76,54 @@ VALUES (5868, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (5868, 64, 380) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5868, 8, 49277) /* Frost Elemental Essence (100) */
+     , (5868, 8, 28612) /* Bandana */
+     , (5868, 8, 2605) /* Chainmail Greaves */
+     , (5868, 8, 31867) /* Diadem */
+     , (5868, 8, 114) /* Platemail Vambraces */
+     , (5868, 8, 101) /* Chainmail Sleeves */
+     , (5868, 8, 28610) /* Loafers */
+     , (5868, 8, 20546) /* Scroll of Jahannan's Boon */
+     , (5868, 8, 20574) /* Scroll of Web of Resistance */
+     , (5868, 8, 25661) /* Leather Boots */
+     , (5868, 8, 2408) /* Gem */
+     , (5868, 8, 243) /* Dinner Plate */
+     , (5868, 8, 31817) /* Frost Slingshot */
+     , (5868, 8, 25639) /* Leather Jerkin */
+     , (5868, 8, 49368) /* Acid Grievver Essence (100) */
+     , (5868, 8, 142) /* Chalice */
+     , (5868, 8, 154) /* Goblet */
+     , (5868, 8, 49381) /* Fire Grievver Essence (80) */
+     , (5868, 8, 41485) /* Pocket Watch */
+     , (5868, 8, 20429) /* Scroll of Vagabond's Gift */
+     , (5868, 8, 45099) /* Epee */
+     , (5868, 8, 621) /* Heavy Bracelet */
+     , (5868, 8, 31769) /* Lugian Axe */
+     , (5868, 8, 2366) /* Orb */
+     , (5868, 8, 40702) /* Covenant Pauldrons */
+     , (5868, 8, 35) /* Chainmail Basinet */
+     , (5868, 8, 40695) /* Covenant Sollerets */
+     , (5868, 8, 30601) /* Stiletto */
+     , (5868, 8, 25651) /* Leather Sleeves */
+     , (5868, 8, 40710) /* Covenant Greaves */
+     , (5868, 8, 28015) /* Scroll of Spirit Pacification */
+     , (5868, 8, 28620) /* Alduressa Leggings */
+     , (5868, 8, 45298) /* Scroll of Recklessness Mastery Other VII */
+     , (5868, 8, 44) /* Buckler */
+     , (5868, 8, 20480) /* Scroll of Storm's Boon */
+     , (5868, 8, 20494) /* Scroll of Unflinching Persistence */
+     , (5868, 8, 163) /* Ornamental Bowl */
+     , (5868, 8, 45367) /* Warrior's Crystal */
+     , (5868, 8, 31792) /* Frost Stick */
+     , (5868, 8, 107) /* Sollerets */
+     , (5868, 8, 2409) /* Gem */
+     , (5868, 8, 95) /* Tower Shield */
+     , (5868, 8, 22164) /* Acid Quarter Staff */
+     , (5868, 8, 20487) /* Scroll of Decrepitude's Grasp */
+     , (5868, 8, 21151) /* Covenant Bracers */
+     , (5868, 8, 49234) /* Acid Zombie Essence (80) */
+     , (5868, 8, 30613) /* Flaming Knuckles */;
+

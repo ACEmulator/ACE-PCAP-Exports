@@ -129,3 +129,81 @@ VALUES (45708, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (45708, 64, 200000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (45708, 8, 2472) /* Wand */
+     , (45708, 8, 3818) /* Acid Katar */
+     , (45708, 8, 2604) /* Wide Breeches */
+     , (45708, 8, 41049) /* Flaming Pike */
+     , (45708, 8, 149) /* Ewer */
+     , (45708, 8, 45790) /* Geraine's Crushed Heart */
+     , (45708, 8, 29263) /* Frost Sceptre */
+     , (45708, 8, 31864) /* Teardrop Crown */
+     , (45708, 8, 45734) /* Geraine's Tome (3) */
+     , (45708, 8, 621) /* Heavy Bracelet */
+     , (45708, 8, 29255) /* Fire Atlatl */
+     , (45708, 8, 624) /* Ring */
+     , (45708, 8, 27321) /* Mana Philtre */
+     , (45708, 8, 130) /* Shirt */
+     , (45708, 8, 56) /* Leather Gauntlets */
+     , (45708, 8, 127) /* Pants */
+     , (45708, 8, 20527) /* Scroll of Odif's Boon */
+     , (45708, 8, 49535) /* Fire Phyntos Wasp Essence (150) */
+     , (45708, 8, 121) /* Gloves */
+     , (45708, 8, 2587) /* Shirt */
+     , (45708, 8, 622) /* Necklace */
+     , (45708, 8, 45787) /* Geraine's Halved Heart */
+     , (45708, 8, 28629) /* Alduressa Coat */
+     , (45708, 8, 40701) /* Covenant Helm */
+     , (45708, 8, 3820) /* Flaming Katar */
+     , (45708, 8, 2596) /* Doublet */
+     , (45708, 8, 45730) /* Geraine's Tome (4) */
+     , (45708, 8, 20542) /* Scroll of Yoshi's Boon */
+     , (45708, 8, 49438) /* Fire Spectre Essence (125) */
+     , (45708, 8, 94) /* Diamond Shield */
+     , (45708, 8, 45114) /* Acid Hammer */
+     , (45708, 8, 29243) /* Piercing Bow */
+     , (45708, 8, 4196) /* Flaming Nekode */
+     , (45708, 8, 41042) /* Acid Magari Yari */
+     , (45708, 8, 45786) /* Geraine's Decaying Heart */
+     , (45708, 8, 80) /* Chainmail Leggings */
+     , (45708, 8, 22163) /* Nabut */
+     , (45708, 8, 45729) /* Geraine's Tome (5) */
+     , (45708, 8, 2591) /* Puffy Shirt */
+     , (45708, 8, 2410) /* Gem */
+     , (45708, 8, 2366) /* Orb */
+     , (45708, 8, 27220) /* Lorica Boots */
+     , (45708, 8, 623) /* Heavy Necklace */
+     , (45708, 8, 29246) /* Ultimate Singularity Crossbow */
+     , (45708, 8, 45416) /* Knife */
+     , (45708, 8, 45733) /* Geraine's Tome (6) */
+     , (45708, 8, 88) /* Scalemail Pauldrons */
+     , (45708, 8, 21154) /* Covenant Girth */
+     , (45708, 8, 20485) /* Scroll of Archer's Gift */
+     , (45708, 8, 45421) /* Dagger */
+     , (45708, 8, 135) /* Turban */
+     , (45708, 8, 45789) /* Geraine's Blackened Heart */
+     , (45708, 8, 20515) /* Scroll of Adja's Blessing */
+     , (45708, 8, 297) /* Ring */
+     , (45708, 8, 42) /* Studded Leather Breastplate */
+     , (45708, 8, 45422) /* Acid Dagger */
+     , (45708, 8, 45788) /* Geraine's Rotting Heart */
+     , (45708, 8, 31868) /* Signet Crown */
+     , (45708, 8, 40764) /* Frost Nodachi */
+     , (45708, 8, 45732) /* Geraine's Tome (7) */
+     , (45708, 8, 95) /* Tower Shield */
+     , (45708, 8, 21150) /* Covenant Sollerets */
+     , (45708, 8, 45731) /* Geraine's Tome (1) */
+     , (45708, 8, 31774) /* Board with Nail */
+     , (45708, 8, 31789) /* Acid Stick */
+     , (45708, 8, 31768) /* Frost War Axe */
+     , (45708, 8, 44802) /* Vestiri Over-robe */
+     , (45708, 8, 2600) /* Pantaloons */
+     , (45708, 8, 20540) /* Scroll of Celcynd's Boon */
+     , (45708, 8, 5894) /* Fez */
+     , (45708, 8, 3898) /* Lightning Tofun */
+     , (45708, 8, 45784) /* Geraine's Still Beating Heart */
+     , (45708, 8, 154) /* Goblet */
+     , (45708, 8, 31778) /* Frost Spine Glaive */;
+

@@ -70,32 +70,32 @@ VALUES (24593, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24593, 4, 2457)
-     , (24593, 4, 377)
-     , (24593, 4, 27319)
-     , (24593, 4, 2460)
-     , (24593, 4, 379)
-     , (24593, 4, 27322)
-     , (24593, 4, 378)
-     , (24593, 4, 27326)
-     , (24593, 4, 2470)
-     , (24593, 4, 628)
-     , (24593, 4, 629)
-     , (24593, 4, 630)
-     , (24593, 4, 631)
-     , (24593, 4, 632)
-     , (24593, 4, 4587)
-     , (24593, 4, 4596)
-     , (24593, 4, 4593)
-     , (24593, 4, 4601)
-     , (24593, 4, 4607)
-     , (24593, 4, 4605)
-     , (24593, 4, 4609)
-     , (24593, 4, 4611)
-     , (24593, 4, 2621)
-     , (24593, 4, 2622)
-     , (24593, 4, 2623)
-     , (24593, 4, 2624)
-     , (24593, 4, 2625)
-     , (24593, 4, 2626);
+VALUES (24593, 4, 2457) /* Health Draught */
+     , (24593, 4, 377) /* Potion of Healing */
+     , (24593, 4, 27319) /* Health Tincture */
+     , (24593, 4, 2460) /* Mana Draught */
+     , (24593, 4, 379) /* Mana Potion */
+     , (24593, 4, 27322) /* Mana Tincture */
+     , (24593, 4, 378) /* Stamina Potion */
+     , (24593, 4, 27326) /* Stamina Tincture */
+     , (24593, 4, 2470) /* Stamina Elixir */
+     , (24593, 4, 628) /* Handy Healing Kit */
+     , (24593, 4, 629) /* Adept Healing Kit */
+     , (24593, 4, 630) /* Gifted Healing Kit */
+     , (24593, 4, 631) /* Excellent Healing Kit */
+     , (24593, 4, 632) /* Peerless Healing Kit */
+     , (24593, 4, 4587) /* Heal Other II */
+     , (24593, 4, 4596) /* Regeneration Other II */
+     , (24593, 4, 4593) /* Mana Boost Other II */
+     , (24593, 4, 4601) /* Strength Other II */
+     , (24593, 4, 4607) /* Quickness Other II */
+     , (24593, 4, 4605) /* Coordination Other II */
+     , (24593, 4, 4609) /* Focus Other II */
+     , (24593, 4, 4611) /* Willpower Other II */
+     , (24593, 4, 2621) /* Trade Note (100) */
+     , (24593, 4, 2622) /* Trade Note (500) */
+     , (24593, 4, 2623) /* Trade Note (1,000) */
+     , (24593, 4, 2624) /* Trade Note (5,000) */
+     , (24593, 4, 2625) /* Trade Note (10,000) */
+     , (24593, 4, 2626) /* Trade Note (50,000) */;
 

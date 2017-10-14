@@ -51,3 +51,38 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (25878, 0, 16778207)
      , (25878, 1, 16778211);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25878, 8, 296) /* Crown */
+     , (25878, 8, 21101) /* Scroll of Martyr's Hecatomb VII */
+     , (25878, 8, 416) /* Chainmail Pauldrons */
+     , (25878, 8, 297) /* Ring */
+     , (25878, 8, 49269) /* Lightning Elemental Essence (80) */
+     , (25878, 8, 45116) /* Flaming Hammer */
+     , (25878, 8, 6047) /* Amuli Leggings */
+     , (25878, 8, 80) /* Chainmail Leggings */
+     , (25878, 8, 20480) /* Scroll of Storm's Boon */
+     , (25878, 8, 154) /* Goblet */
+     , (25878, 8, 28008) /* Aura of Infected Spirit Caress Scroll */
+     , (25878, 8, 25646) /* Long Leather Gauntlets */
+     , (25878, 8, 28632) /* Diforsa Gauntlets */
+     , (25878, 8, 295) /* Bracelet */
+     , (25878, 8, 42635) /* Aetheria */
+     , (25878, 8, 2403) /* Gem */
+     , (25878, 8, 2425) /* Gem */
+     , (25878, 8, 118) /* Cloth Cap */
+     , (25878, 8, 20411) /* Aura of Cragstone's Will */
+     , (25878, 8, 414) /* Chainmail Breastplate */
+     , (25878, 8, 150) /* Flagon */
+     , (25878, 8, 31867) /* Diadem */
+     , (25878, 8, 2604) /* Wide Breeches */
+     , (25878, 8, 31793) /* Frost Lancet */
+     , (25878, 8, 20455) /* Scroll of Alset's Coil */
+     , (25878, 8, 20506) /* Scroll of Light Weapon Mastery Self VII */
+     , (25878, 8, 243) /* Dinner Plate */
+     , (25878, 8, 29255) /* Fire Atlatl */
+     , (25878, 8, 95) /* Tower Shield */
+     , (25878, 8, 2421) /* Gem */
+     , (25878, 8, 45395) /* Rapier */;
+

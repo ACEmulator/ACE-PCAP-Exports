@@ -45,3 +45,20 @@ VALUES (24295, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24295, 64, 410) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24295, 8, 49290) /* Lightning K'nath Essence (80) */
+     , (24295, 8, 2437) /* Yoroi Leggings */
+     , (24295, 8, 43382) /* Nefane Pearl */
+     , (24295, 8, 20245) /* Scroll of Adja's Intervention */
+     , (24295, 8, 40703) /* Covenant Shield */
+     , (24295, 8, 49263) /* Acid Elemental Essence (100) */
+     , (24295, 8, 29257) /* Piercing Atlatl */
+     , (24295, 8, 2595) /* Baggy Tunic */
+     , (24295, 8, 45102) /* Flaming Epee */
+     , (24295, 8, 30615) /* Acid Knuckles */
+     , (24295, 8, 21159) /* Covenant Tassets */
+     , (24295, 8, 45118) /* Hand Wraps */
+     , (24295, 8, 24234) /* Olthoi Crest */;
+

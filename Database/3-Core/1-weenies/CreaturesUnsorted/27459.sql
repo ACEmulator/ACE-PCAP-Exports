@@ -58,3 +58,29 @@ VALUES (27459, 0, 16785699)
      , (27459, 19, 16785704)
      , (27459, 20, 16785705);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27459, 8, 49254) /* Frost Zombie Essence (50) */
+     , (27459, 8, 49248) /* Fire Zombie Essence (80) */
+     , (27459, 8, 95) /* Tower Shield */
+     , (27459, 8, 31866) /* Coronet */
+     , (27459, 8, 31868) /* Signet Crown */
+     , (27459, 8, 7771) /* Naginata */
+     , (27459, 8, 31769) /* Lugian Axe */
+     , (27459, 8, 40705) /* Covenant Sollerets */
+     , (27459, 8, 621) /* Heavy Bracelet */
+     , (27459, 8, 8328) /* Iron Pea */
+     , (27459, 8, 295) /* Bracelet */
+     , (27459, 8, 27454) /* Renegade Leggings */
+     , (27459, 8, 48972) /* Acid Zombie Essence (50) */
+     , (27459, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (27459, 8, 41042) /* Acid Magari Yari */
+     , (27459, 8, 31788) /* Stick */
+     , (27459, 8, 2426) /* Gem */
+     , (27459, 8, 22160) /* Lightning Nabut */
+     , (27459, 8, 148) /* Cup */
+     , (27459, 8, 514) /* Excellent Lockpick */
+     , (27459, 8, 2461) /* Mana Elixir */
+     , (27459, 8, 27453) /* Renegade Hauberk */;
+

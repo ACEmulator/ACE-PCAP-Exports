@@ -66,3 +66,16 @@ VALUES (48764, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (48764, 64, 11878) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (48764, 8, 118) /* Cloth Cap */
+     , (48764, 8, 20596) /* Scroll of Hieromancer's Blessing */
+     , (48764, 8, 295) /* Bracelet */
+     , (48764, 8, 45306) /* Scroll of Recklessness Mastery Self VII */
+     , (48764, 8, 49245) /* Lightning Zombie Essence (180) */
+     , (48764, 8, 25637) /* Leather Bracers */
+     , (48764, 8, 30611) /* Knuckles */
+     , (48764, 8, 31807) /* Blunt Compound Crossbow */
+     , (48764, 8, 621) /* Heavy Bracelet */;
+

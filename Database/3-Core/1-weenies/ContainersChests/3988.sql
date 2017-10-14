@@ -53,3 +53,11 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3988, 2, 0) /* OPEN_BOOL */
      , (3988, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3988, 8, 307) /* Shortbow */
+     , (3988, 8, 30608) /* Flaming Bastone */
+     , (3988, 8, 44799) /* Faran Over-robe */
+     , (3988, 8, 20640) /* Royal Atlatl */;
+

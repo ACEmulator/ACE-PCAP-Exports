@@ -49,3 +49,38 @@ VALUES (33515, 2, 89) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33515, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33515, 8, 154) /* Goblet */
+     , (33515, 8, 25638) /* Leather Vest */
+     , (33515, 8, 20414) /* Scroll of Gelidite's Bane */
+     , (33515, 8, 163) /* Ornamental Bowl */
+     , (33515, 8, 621) /* Heavy Bracelet */
+     , (33515, 8, 49370) /* Acid Grievver Essence (150) */
+     , (33515, 8, 554) /* Studded Leather Basinet */
+     , (33515, 8, 49230) /* Frost Skeleton Bushi Essence (125) */
+     , (33515, 8, 118) /* Cloth Cap */
+     , (33515, 8, 40704) /* Covenant Tassets */
+     , (33515, 8, 3907) /* Flaming War Hammer */
+     , (33515, 8, 21157) /* Covenant Pauldrons */
+     , (33515, 8, 22440) /* Dirk */
+     , (33515, 8, 2367) /* Gorget */
+     , (33515, 8, 20243) /* Scroll of Heart Rend */
+     , (33515, 8, 44853) /* Bordered Cloak */
+     , (33515, 8, 27231) /* Nariyid Leggings */
+     , (33515, 8, 20484) /* Scroll of Blessing of the Arrow Turner */
+     , (33515, 8, 129) /* Sandals */
+     , (33515, 8, 31779) /* Spine Glaive */
+     , (33515, 8, 31864) /* Teardrop Crown */
+     , (33515, 8, 20550) /* Scroll of Ar-Pei's Boon */
+     , (33515, 8, 6047) /* Amuli Leggings */
+     , (33515, 8, 111) /* Scalemail Tassets */
+     , (33515, 8, 30566) /* Sabra */
+     , (33515, 8, 49369) /* Acid Grievver Essence (125) */
+     , (33515, 8, 49313) /* Acid Wisp Essence (125) */
+     , (33515, 8, 31819) /* Staff */
+     , (33515, 8, 3873) /* Acid Spear */
+     , (33515, 8, 40764) /* Frost Nodachi */
+     , (33515, 8, 28622) /* Tenassa Leggings */;
+

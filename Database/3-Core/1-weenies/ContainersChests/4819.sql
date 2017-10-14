@@ -49,3 +49,10 @@ VALUES (4819, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4819, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4819, 8, 2589) /* Smock */
+     , (4819, 8, 2426) /* Gem */
+     , (4819, 8, 2429) /* Gem */;
+

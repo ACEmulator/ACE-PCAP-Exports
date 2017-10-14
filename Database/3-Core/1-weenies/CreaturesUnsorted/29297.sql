@@ -48,3 +48,18 @@ VALUES (29297, 2, 82) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (29297, 64, 218) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29297, 8, 148) /* Cup */
+     , (29297, 8, 2399) /* Gem */
+     , (29297, 8, 49275) /* Frost Elemental Essence (50) */
+     , (29297, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (29297, 8, 297) /* Ring */
+     , (29297, 8, 2415) /* Gem */
+     , (29297, 8, 41486) /* Puzzle Box */
+     , (29297, 8, 134) /* Tunic */
+     , (29297, 8, 2418) /* Gem */
+     , (29297, 8, 2413) /* Gem */
+     , (29297, 8, 2416) /* Gem */;
+

@@ -50,3 +50,13 @@ VALUES (35879, 2, 92) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35879, 64, 2090) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35879, 8, 6046) /* Amuli Coat */
+     , (35879, 8, 31771) /* Lightning War Axe */
+     , (35879, 8, 414) /* Chainmail Breastplate */
+     , (35879, 8, 20474) /* Scroll of Icy Boon */
+     , (35879, 8, 48947) /* Fire Skeleton Bushi Essence (150) */
+     , (35879, 8, 20556) /* Scroll of Oswald's Boon */;
+

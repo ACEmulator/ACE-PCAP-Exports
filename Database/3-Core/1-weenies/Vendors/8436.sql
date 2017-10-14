@@ -122,33 +122,33 @@ VALUES (8436, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (8436, 4, 2457)
-     , (8436, 4, 377)
-     , (8436, 4, 27319)
-     , (8436, 4, 2460)
-     , (8436, 4, 379)
-     , (8436, 4, 27322)
-     , (8436, 4, 378)
-     , (8436, 4, 27326)
-     , (8436, 4, 2470)
-     , (8436, 4, 628)
-     , (8436, 4, 629)
-     , (8436, 4, 630)
-     , (8436, 4, 4587)
-     , (8436, 4, 4596)
-     , (8436, 4, 4593)
-     , (8436, 4, 753)
-     , (8436, 4, 754)
-     , (8436, 4, 755)
-     , (8436, 4, 756)
-     , (8436, 4, 757)
-     , (8436, 4, 758)
-     , (8436, 4, 759)
-     , (8436, 4, 760)
-     , (8436, 4, 761)
-     , (8436, 4, 762)
-     , (8436, 4, 763)
-     , (8436, 4, 764)
-     , (8436, 4, 2621)
-     , (8436, 4, 2622);
+VALUES (8436, 4, 2457) /* Health Draught */
+     , (8436, 4, 377) /* Potion of Healing */
+     , (8436, 4, 27319) /* Health Tincture */
+     , (8436, 4, 2460) /* Mana Draught */
+     , (8436, 4, 379) /* Mana Potion */
+     , (8436, 4, 27322) /* Mana Tincture */
+     , (8436, 4, 378) /* Stamina Potion */
+     , (8436, 4, 27326) /* Stamina Tincture */
+     , (8436, 4, 2470) /* Stamina Elixir */
+     , (8436, 4, 628) /* Handy Healing Kit */
+     , (8436, 4, 629) /* Adept Healing Kit */
+     , (8436, 4, 630) /* Gifted Healing Kit */
+     , (8436, 4, 4587) /* Heal Other II */
+     , (8436, 4, 4596) /* Regeneration Other II */
+     , (8436, 4, 4593) /* Mana Boost Other II */
+     , (8436, 4, 753) /* Brimstone */
+     , (8436, 4, 754) /* Cadmia */
+     , (8436, 4, 755) /* Cinnabar */
+     , (8436, 4, 756) /* Cobalt */
+     , (8436, 4, 757) /* Colcothar */
+     , (8436, 4, 758) /* Gypsum */
+     , (8436, 4, 759) /* Quicksilver */
+     , (8436, 4, 760) /* Realgar */
+     , (8436, 4, 761) /* Stibnite */
+     , (8436, 4, 762) /* Turpeth */
+     , (8436, 4, 763) /* Verdigris */
+     , (8436, 4, 764) /* Vitriol */
+     , (8436, 4, 2621) /* Trade Note (100) */
+     , (8436, 4, 2622) /* Trade Note (500) */;
 

@@ -54,3 +54,13 @@ VALUES (1536, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1536, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1536, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1536, 8, 2413) /* Gem */
+     , (1536, 8, 8329) /* Lead Pea */
+     , (1536, 8, 3742) /* Scroll of Infuse Stamina III */
+     , (1536, 8, 273) /* Pyreal */
+     , (1536, 8, 25644) /* Leather Greaves */
+     , (1536, 8, 27331) /* Minor Mana Stone */;
+

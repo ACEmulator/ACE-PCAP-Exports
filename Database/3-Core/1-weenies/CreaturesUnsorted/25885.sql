@@ -48,3 +48,68 @@ VALUES (25885, 2, 29) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25885, 64, 1200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25885, 8, 40709) /* Covenant Girth */
+     , (25885, 8, 2404) /* Gem */
+     , (25885, 8, 2548) /* Sceptre */
+     , (25885, 8, 25637) /* Leather Bracers */
+     , (25885, 8, 12463) /* Atlatl */
+     , (25885, 8, 624) /* Ring */
+     , (25885, 8, 413) /* Chainmail Bracers */
+     , (25885, 8, 516) /* Peerless Lockpick */
+     , (25885, 8, 9229) /* Treated Healing Kit */
+     , (25885, 8, 20238) /* Scroll of Anemia */
+     , (25885, 8, 84) /* Studded  Leggings */
+     , (25885, 8, 41052) /* Greataxe */
+     , (25885, 8, 27330) /* Moderate Mana Stone */
+     , (25885, 8, 31764) /* Lugian Hammer */
+     , (25885, 8, 31026) /* Tenassa Breastplate */
+     , (25885, 8, 40760) /* Nodachi */
+     , (25885, 8, 30565) /* Frost Dolabra */
+     , (25885, 8, 20500) /* Scroll of Aliester's Blessing */
+     , (25885, 8, 49221) /* Lightning Skeleton Minion Essence (80) */
+     , (25885, 8, 2410) /* Gem */
+     , (25885, 8, 49430) /* Lightning Spectre Essence (100) */
+     , (25885, 8, 2425) /* Gem */
+     , (25885, 8, 31823) /* Fire Baton */
+     , (25885, 8, 25649) /* Leather Shirt */
+     , (25885, 8, 414) /* Chainmail Breastplate */
+     , (25885, 8, 27318) /* Health Philtre */
+     , (25885, 8, 40697) /* Covenant Breastplate */
+     , (25885, 8, 2597) /* Flared Pants */
+     , (25885, 8, 55) /* Chainmail Gauntlets */
+     , (25885, 8, 20601) /* Scroll of Essence Void */
+     , (25885, 8, 118) /* Cloth Cap */
+     , (25885, 8, 25641) /* Leather Cuirass */
+     , (25885, 8, 273) /* Pyreal */
+     , (25885, 8, 31802) /* Fire Compound Bow */
+     , (25885, 8, 2601) /* Loose Pants */
+     , (25885, 8, 8327) /* Gold Pea */
+     , (25885, 8, 20403) /* Scroll of Olthoi Bait */
+     , (25885, 8, 3914) /* Lightning Yari */
+     , (25885, 8, 20409) /* Scroll of Tusker Bait */
+     , (25885, 8, 49297) /* Fire K'nath Essence (80) */
+     , (25885, 8, 22168) /* Hefty Walking Cane */
+     , (25885, 8, 621) /* Heavy Bracelet */
+     , (25885, 8, 101) /* Chainmail Sleeves */
+     , (25885, 8, 20505) /* Scroll of Light Weapon Mastery Other VII */
+     , (25885, 8, 415) /* Chainmail Girth */
+     , (25885, 8, 20494) /* Scroll of Unflinching Persistence */
+     , (25885, 8, 40706) /* Covenant Bracers */
+     , (25885, 8, 8331) /* Silver Pea */
+     , (25885, 8, 134) /* Tunic */
+     , (25885, 8, 41043) /* Lightning Magari Yari */
+     , (25885, 8, 105) /* Studded Leather Sleeves */
+     , (25885, 8, 27323) /* Mana Tonic */
+     , (25885, 8, 28629) /* Alduressa Coat */
+     , (25885, 8, 27328) /* Major Mana Stone */
+     , (25885, 8, 80) /* Chainmail Leggings */
+     , (25885, 8, 20514) /* Scroll of Adja's Boon */
+     , (25885, 8, 49442) /* Frost Spectre Essence (50) */
+     , (25885, 8, 49360) /* Frost Moar Essence (80) */
+     , (25885, 8, 31822) /* Aerbax's Defeat */
+     , (25885, 8, 334) /* Nayin */
+     , (25885, 8, 150) /* Flagon */;
+

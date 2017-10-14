@@ -55,3 +55,15 @@ VALUES (41530, 64, 808) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (41530, 128, 1415) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (41530, 256, 85) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41530, 8, 31820) /* Acid Baton */
+     , (41530, 8, 20441) /* Scroll of Sizzling Fury */
+     , (41530, 8, 621) /* Heavy Bracelet */
+     , (41530, 8, 41528) /* Aetherium Power Core */
+     , (41530, 8, 49370) /* Acid Grievver Essence (150) */
+     , (41530, 8, 20543) /* Scroll of Yoshi's Blessing */
+     , (41530, 8, 30610) /* Acid Bastone */
+     , (41530, 8, 51266) /* Pile of Gearknight Parts */;
+

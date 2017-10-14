@@ -91,3 +91,39 @@ VALUES (15300, 12, 16777304)
      , (15300, 14, 16783855)
      , (15300, 16, 16779630);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (15300, 8, 49227) /* Frost Skeleton Minion Essence (50) */
+     , (15300, 8, 44975) /* Hood */
+     , (15300, 8, 21112) /* Scroll of Martyr's Tenacity IV */
+     , (15300, 8, 273) /* Pyreal */
+     , (15300, 8, 25646) /* Long Leather Gauntlets */
+     , (15300, 8, 295) /* Bracelet */
+     , (15300, 8, 31780) /* Acid Spine Glaive */
+     , (15300, 8, 307) /* Shortbow */
+     , (15300, 8, 43333) /* Scroll of Festering Curse V */
+     , (15300, 8, 49331) /* Frost Wisp Essence (50) */
+     , (15300, 8, 22154) /* Acid Jo */
+     , (15300, 8, 2420) /* Gem */
+     , (15300, 8, 6876) /* Sturdy Iron Key */
+     , (15300, 8, 30580) /* Lightning Flamberge */
+     , (15300, 8, 40763) /* Flaming Nodachi */
+     , (15300, 8, 22155) /* Lightning Jo */
+     , (15300, 8, 80) /* Chainmail Leggings */
+     , (15300, 8, 40638) /* Flaming Tetsubo */
+     , (15300, 8, 545) /* Reliable Lockpick */
+     , (15300, 8, 49303) /* Frost K'nath Essence (50) */
+     , (15300, 8, 27331) /* Minor Mana Stone */
+     , (15300, 8, 49282) /* Acid K'nath Essence (50) */
+     , (15300, 8, 64) /* Yoroi Girth */
+     , (15300, 8, 254) /* Stoup */
+     , (15300, 8, 2548) /* Sceptre */
+     , (15300, 8, 2599) /* Trousers */
+     , (15300, 8, 114) /* Platemail Vambraces */
+     , (15300, 8, 45421) /* Dagger */
+     , (15300, 8, 2596) /* Doublet */
+     , (15300, 8, 3584) /* Scroll of Weapon Tinkering Expertise Self III */
+     , (15300, 8, 621) /* Heavy Bracelet */
+     , (15300, 8, 41052) /* Greataxe */;
+

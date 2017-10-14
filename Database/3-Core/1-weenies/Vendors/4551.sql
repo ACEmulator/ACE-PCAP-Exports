@@ -126,14 +126,14 @@ VALUES (4551, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4551, 4, 4763)
-     , (4551, 4, 2463)
-     , (4551, 4, 4746)
-     , (4551, 4, 546)
-     , (4551, 4, 260)
-     , (4551, 4, 5758)
-     , (4551, 4, 23327)
-     , (4551, 4, 23326)
-     , (4551, 4, 4754)
-     , (4551, 4, 4759);
+VALUES (4551, 4, 4763) /* Honey */
+     , (4551, 4, 2463) /* Milk */
+     , (4551, 4, 4746) /* Water */
+     , (4551, 4, 546) /* Egg */
+     , (4551, 4, 260) /* Cabbage */
+     , (4551, 4, 5758) /* Carrot */
+     , (4551, 4, 23327) /* Simple Dried Rations */
+     , (4551, 4, 23326) /* Elaborate Dried Rations */
+     , (4551, 4, 4754) /* Baking Pan */
+     , (4551, 4, 4759) /* Cooking Pot */;
 

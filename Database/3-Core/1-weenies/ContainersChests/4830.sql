@@ -52,3 +52,15 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4830, 2, 0) /* OPEN_BOOL */
      , (4830, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4830, 8, 622) /* Necklace */
+     , (4830, 8, 8328) /* Iron Pea */
+     , (4830, 8, 80) /* Chainmail Leggings */
+     , (4830, 8, 2434) /* Lesser Mana Stone */
+     , (4830, 8, 41299) /* Scroll of Two Handed Weapon Mastery Other IV */
+     , (4830, 8, 27331) /* Minor Mana Stone */
+     , (4830, 8, 2596) /* Doublet */
+     , (4830, 8, 273) /* Pyreal */;
+

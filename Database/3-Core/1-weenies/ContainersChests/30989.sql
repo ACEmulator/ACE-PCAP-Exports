@@ -49,3 +49,10 @@ VALUES (30989, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (30989, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30989, 8, 31196) /* Mana Potion */
+     , (30989, 8, 31197) /* Stamina Potion */
+     , (30989, 8, 31198) /* Potion of Healing */;
+

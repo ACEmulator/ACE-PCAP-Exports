@@ -126,48 +126,48 @@ VALUES (702, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (702, 4, 41509)
-     , (702, 4, 41507)
-     , (702, 4, 41419)
-     , (702, 4, 41423)
-     , (702, 4, 41396)
-     , (702, 4, 41420)
-     , (702, 4, 41418)
-     , (702, 4, 41744)
-     , (702, 4, 309)
-     , (702, 4, 316)
-     , (702, 4, 303)
-     , (702, 4, 329)
-     , (702, 4, 22168)
-     , (702, 4, 352)
-     , (702, 4, 348)
-     , (702, 4, 300)
-     , (702, 4, 305)
-     , (702, 4, 4585)
-     , (702, 4, 5339)
-     , (702, 4, 312)
-     , (702, 4, 307)
-     , (702, 4, 551)
-     , (702, 4, 115)
-     , (702, 4, 36)
-     , (702, 4, 39)
-     , (702, 4, 45)
-     , (702, 4, 119)
-     , (702, 4, 56)
-     , (702, 4, 60)
-     , (702, 4, 65)
-     , (702, 4, 109)
-     , (702, 4, 81)
-     , (702, 4, 86)
-     , (702, 4, 44)
-     , (702, 4, 258)
-     , (702, 4, 4761)
-     , (702, 4, 4746)
-     , (702, 4, 4754)
-     , (702, 4, 5778)
-     , (702, 4, 151)
-     , (702, 4, 365)
-     , (702, 4, 293)
-     , (702, 4, 136)
-     , (702, 4, 139);
+VALUES (702, 4, 41509) /* Minor Item Tinkering Armature */
+     , (702, 4, 41507) /* Moderate Item Tinkering Armature */
+     , (702, 4, 41419) /* Sheet Metal Form */
+     , (702, 4, 41423) /* Medal Mold */
+     , (702, 4, 41396) /* Handle Mold */
+     , (702, 4, 41420) /* Hammer */
+     , (702, 4, 41418) /* Leather Strap */
+     , (702, 4, 41744) /* A Comprehensive Guide to Gearcrafting */
+     , (702, 4, 309) /* Club */
+     , (702, 4, 316) /* Throwing Dart */
+     , (702, 4, 303) /* Hand Axe */
+     , (702, 4, 329) /* Knife */
+     , (702, 4, 22168) /* Hefty Walking Cane */
+     , (702, 4, 352) /* Short Sword */
+     , (702, 4, 348) /* Spear */
+     , (702, 4, 300) /* Arrow */
+     , (702, 4, 305) /* Quarrel */
+     , (702, 4, 4585) /* Bundle of Arrowshafts */
+     , (702, 4, 5339) /* Bundle of Quarrelshafts */
+     , (702, 4, 312) /* Light Crossbow */
+     , (702, 4, 307) /* Shortbow */
+     , (702, 4, 551) /* Basinet */
+     , (702, 4, 115) /* Leather Boots */
+     , (702, 4, 36) /* Leather Bracers */
+     , (702, 4, 39) /* Leather Breastplate */
+     , (702, 4, 45) /* Leather Cap */
+     , (702, 4, 119) /* Cowl */
+     , (702, 4, 56) /* Leather Gauntlets */
+     , (702, 4, 60) /* Olthoi Celdon Girth */
+     , (702, 4, 65) /* Olthoi Greaves */
+     , (702, 4, 109) /* Olthoi Tassets */
+     , (702, 4, 81) /* Leggings */
+     , (702, 4, 86) /* Leather Pauldrons */
+     , (702, 4, 44) /* Buckler */
+     , (702, 4, 258) /* Apple */
+     , (702, 4, 4761) /* Flour */
+     , (702, 4, 4746) /* Water */
+     , (702, 4, 4754) /* Baking Pan */
+     , (702, 4, 5778) /* Whittling Knife */
+     , (702, 4, 151) /* Empty Flask */
+     , (702, 4, 365) /* Parchment */
+     , (702, 4, 293) /* Torch */
+     , (702, 4, 136) /* Pack */
+     , (702, 4, 139) /* Small Belt Pouch */;
 

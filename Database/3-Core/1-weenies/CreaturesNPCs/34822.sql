@@ -46,5 +46,5 @@ VALUES (34822, 67114928, 0, 0);
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (34822, 2, 26046);
+VALUES (34822, 2, 26046) /* Stone Mace */;
 

@@ -90,3 +90,17 @@ VALUES (8431, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8431, 64, 375) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8431, 8, 621) /* Heavy Bracelet */
+     , (8431, 8, 2436) /* Greater Mana Stone */
+     , (8431, 8, 2424) /* Gem */
+     , (8431, 8, 273) /* Pyreal */
+     , (8431, 8, 2404) /* Gem */
+     , (8431, 8, 8331) /* Silver Pea */
+     , (8431, 8, 2408) /* Gem */
+     , (8431, 8, 31794) /* Lancet */
+     , (8431, 8, 27330) /* Moderate Mana Stone */
+     , (8431, 8, 8327) /* Gold Pea */;
+

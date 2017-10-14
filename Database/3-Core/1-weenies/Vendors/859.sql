@@ -126,30 +126,30 @@ VALUES (859, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (859, 4, 4739)
-     , (859, 4, 4718)
-     , (859, 4, 4730)
-     , (859, 4, 4728)
-     , (859, 4, 4744)
-     , (859, 4, 2466)
-     , (859, 4, 2456)
-     , (859, 4, 4746)
-     , (859, 4, 2451)
-     , (859, 4, 2468)
-     , (859, 4, 8378)
-     , (859, 4, 8135)
-     , (859, 4, 6630)
-     , (859, 4, 7936)
-     , (859, 4, 6417)
-     , (859, 4, 5881)
-     , (859, 4, 5601)
-     , (859, 4, 5675)
-     , (859, 4, 5147)
-     , (859, 4, 6421)
-     , (859, 4, 8397)
-     , (859, 4, 11929)
-     , (859, 4, 5602)
-     , (859, 4, 6419)
-     , (859, 4, 13202)
-     , (859, 4, 22730);
+VALUES (859, 4, 4739) /* Pickled Egg */
+     , (859, 4, 4718) /* Chicken Rice */
+     , (859, 4, 4730) /* Fried Fish Filet */
+     , (859, 4, 4728) /* Fried Chicken */
+     , (859, 4, 4744) /* Sushi */
+     , (859, 4, 2466) /* Red Tea */
+     , (859, 4, 2456) /* Green Tea */
+     , (859, 4, 4746) /* Water */
+     , (859, 4, 2451) /* Ale */
+     , (859, 4, 2468) /* Sake */
+     , (859, 4, 8378) /* Beer Stein */
+     , (859, 4, 8135) /* Zarea's Notes on Geomancy */
+     , (859, 4, 6630) /* A Treatise on the Properties of Fused Gems */
+     , (859, 4, 7936) /* Aliester's Corollary */
+     , (859, 4, 6417) /* A Stinging Stone */
+     , (859, 4, 5881) /* The Book of Minesh */
+     , (859, 4, 5601) /* Altar of Asheron Rumor */
+     , (859, 4, 5675) /* Mount Lethe Rumor */
+     , (859, 4, 5147) /* Return to Frore */
+     , (859, 4, 6421) /* The Lost City of Frore */
+     , (859, 4, 8397) /* The Breaking of the Crystal Core */
+     , (859, 4, 11929) /* A Call To Arms */
+     , (859, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (859, 4, 6419) /* The Meeting Halls */
+     , (859, 4, 13202) /* Sho Festival Light */
+     , (859, 4, 22730) /* Holiday Pole */;
 

@@ -46,3 +46,41 @@ VALUES (24326, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24326, 64, 655) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24326, 8, 49462) /* Scroll of Summoning Ineptitude Other VII */
+     , (24326, 8, 149) /* Ewer */
+     , (24326, 8, 45427) /* Acid Jambiya */
+     , (24326, 8, 6044) /* Celdon Breastplate */
+     , (24326, 8, 45406) /* Yaoji */
+     , (24326, 8, 31804) /* Piercing Compound Bow */
+     , (24326, 8, 28622) /* Tenassa Leggings */
+     , (24326, 8, 49346) /* Lightning Moar Essence (80) */
+     , (24326, 8, 6047) /* Amuli Leggings */
+     , (24326, 8, 20494) /* Scroll of Unflinching Persistence */
+     , (24326, 8, 295) /* Bracelet */
+     , (24326, 8, 624) /* Ring */
+     , (24326, 8, 49276) /* Frost Elemental Essence (80) */
+     , (24326, 8, 3900) /* Frost Tofun */
+     , (24326, 8, 49476) /* Scroll of Summoning Mastery Self VII */
+     , (24326, 8, 243) /* Dinner Plate */
+     , (24326, 8, 2423) /* Gem */
+     , (24326, 8, 49444) /* Frost Spectre Essence (100) */
+     , (24326, 8, 623) /* Heavy Necklace */
+     , (24326, 8, 22165) /* Lightning Quarter Staff */
+     , (24326, 8, 21158) /* Covenant Shield */
+     , (24326, 8, 30746) /* Dart Flinger */
+     , (24326, 8, 30229) /* Dodger's Crystal */
+     , (24326, 8, 5965) /* Scroll of Fletching Ineptitude Other IV */
+     , (24326, 8, 30625) /* War Bow */
+     , (24326, 8, 41262) /* Scroll of Blessing of T'ing */
+     , (24326, 8, 40764) /* Frost Nodachi */
+     , (24326, 8, 49318) /* Lightning Wisp Essence (80) */
+     , (24326, 8, 40696) /* Covenant Bracers */
+     , (24326, 8, 359) /* War Hammer */
+     , (24326, 8, 20251) /* Scroll of Robustification */
+     , (24326, 8, 20415) /* Scroll of Geledite Bait */
+     , (24326, 8, 25648) /* Leather Pauldrons */
+     , (24326, 8, 45274) /* Scroll of Dual Wield Mastery Other VII */;
+

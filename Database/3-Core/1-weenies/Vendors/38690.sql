@@ -139,90 +139,90 @@ VALUES (38690, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (38690, 4, 46744)
-     , (38690, 4, 44394)
-     , (38690, 4, 44515)
-     , (38690, 4, 44516)
-     , (38690, 4, 44517)
-     , (38690, 4, 44518)
-     , (38690, 4, 44519)
-     , (38690, 4, 44520)
-     , (38690, 4, 44521)
-     , (38690, 4, 44522)
-     , (38690, 4, 44523)
-     , (38690, 4, 44524)
-     , (38690, 4, 44525)
-     , (38690, 4, 44526)
-     , (38690, 4, 44527)
-     , (38690, 4, 44528)
-     , (38690, 4, 44529)
-     , (38690, 4, 44530)
-     , (38690, 4, 44531)
-     , (38690, 4, 44532)
-     , (38690, 4, 44533)
-     , (38690, 4, 44534)
-     , (38690, 4, 44535)
-     , (38690, 4, 44536)
-     , (38690, 4, 44537)
-     , (38690, 4, 44538)
-     , (38690, 4, 44539)
-     , (38690, 4, 44540)
-     , (38690, 4, 44541)
-     , (38690, 4, 44542)
-     , (38690, 4, 44543)
-     , (38690, 4, 44544)
-     , (38690, 4, 51330)
-     , (38690, 4, 51331)
-     , (38690, 4, 51332)
-     , (38690, 4, 41509)
-     , (38690, 4, 41507)
-     , (38690, 4, 41419)
-     , (38690, 4, 41423)
-     , (38690, 4, 41396)
-     , (38690, 4, 41420)
-     , (38690, 4, 41418)
-     , (38690, 4, 41744)
-     , (38690, 4, 30571)
-     , (38690, 4, 30591)
-     , (38690, 4, 329)
-     , (38690, 4, 30606)
-     , (38690, 4, 309)
-     , (38690, 4, 30556)
-     , (38690, 4, 316)
-     , (38690, 4, 307)
-     , (38690, 4, 312)
-     , (38690, 4, 300)
-     , (38690, 4, 305)
-     , (38690, 4, 25636)
-     , (38690, 4, 25640)
-     , (38690, 4, 45)
-     , (38690, 4, 25638)
-     , (38690, 4, 25648)
-     , (38690, 4, 25637)
-     , (38690, 4, 25642)
-     , (38690, 4, 25643)
-     , (38690, 4, 25652)
-     , (38690, 4, 25645)
-     , (38690, 4, 25644)
-     , (38690, 4, 25661)
-     , (38690, 4, 44)
-     , (38690, 4, 4585)
-     , (38690, 4, 5339)
-     , (38690, 4, 151)
-     , (38690, 4, 365)
-     , (38690, 4, 513)
-     , (38690, 4, 545)
-     , (38690, 4, 512)
-     , (38690, 4, 293)
-     , (38690, 4, 2621)
-     , (38690, 4, 2622)
-     , (38690, 4, 2623)
-     , (38690, 4, 2624)
-     , (38690, 4, 2625)
-     , (38690, 4, 2626)
-     , (38690, 4, 2627)
-     , (38690, 4, 20628)
-     , (38690, 4, 20629)
-     , (38690, 4, 20630)
-     , (38690, 4, 136);
+VALUES (38690, 4, 46744) /* Contract for Stipend: Eldrytch Web */
+     , (38690, 4, 44394) /* Contract for Aug Gem: Society */
+     , (38690, 4, 44515) /* Contract for Forgotten Tunnels of Nyr'leha */
+     , (38690, 4, 44516) /* Contract for Graveyard Delivery */
+     , (38690, 4, 44517) /* Contract for Mana-Infused Jungle Flowers */
+     , (38690, 4, 44518) /* Contract for Jungle Lilies */
+     , (38690, 4, 44519) /* Contract for Magshuth Moarsmen */
+     , (38690, 4, 44520) /* Contract for Moar Glands */
+     , (38690, 4, 44521) /* Contract for Moarsman High Priest */
+     , (38690, 4, 44522) /* Contract for Moguth Moarsmen */
+     , (38690, 4, 44523) /* Contract for Palm Fort */
+     , (38690, 4, 44524) /* Contract for Phyntos Hive Splinters */
+     , (38690, 4, 44525) /* Contract for Phyntos Honey */
+     , (38690, 4, 44526) /* Contract for Phyntos Larvae */
+     , (38690, 4, 44527) /* Contract for Phyntos Queen */
+     , (38690, 4, 44528) /* Contract for Killer Phyntos Wasps */
+     , (38690, 4, 44529) /* Contract for Shambling Archivist */
+     , (38690, 4, 44530) /* Contract for Shoguth Moarsmen */
+     , (38690, 4, 44531) /* Contract for Spawning Pools */
+     , (38690, 4, 44532) /* Contract for Stone Tracings */
+     , (38690, 4, 44533) /* Contract for Supply Saboteur */
+     , (38690, 4, 44534) /* Contract for Undead Jaw Collection */
+     , (38690, 4, 44535) /* Contract for Vaeshok */
+     , (38690, 4, 44536) /* Contract for Wight Blade Sorcerers */
+     , (38690, 4, 44537) /* Contract for Artifact Collection */
+     , (38690, 4, 44538) /* Contract for Bandit Mana Hunter Boss */
+     , (38690, 4, 44539) /* Contract for Black Coral Collection */
+     , (38690, 4, 44540) /* Contract for Blessed Moarsmen */
+     , (38690, 4, 44541) /* Contract for Coral Towers */
+     , (38690, 4, 44542) /* Contract for Dark Isle Delivery */
+     , (38690, 4, 44543) /* Contract for Dark Isle Scouting */
+     , (38690, 4, 44544) /* Contract for Falatacot Reports */
+     , (38690, 4, 51330) /* Contract for Soc: Mana Siphon Destruction */
+     , (38690, 4, 51331) /* Contract for Soc: Destroy the Phalanx */
+     , (38690, 4, 51332) /* Contract for Soc: Collect Gear Knight Parts */
+     , (38690, 4, 41509) /* Minor Item Tinkering Armature */
+     , (38690, 4, 41507) /* Moderate Item Tinkering Armature */
+     , (38690, 4, 41419) /* Sheet Metal Form */
+     , (38690, 4, 41423) /* Medal Mold */
+     , (38690, 4, 41396) /* Handle Mold */
+     , (38690, 4, 41420) /* Hammer */
+     , (38690, 4, 41418) /* Leather Strap */
+     , (38690, 4, 41744) /* A Comprehensive Guide to Gearcrafting */
+     , (38690, 4, 30571) /* Spada */
+     , (38690, 4, 30591) /* Partizan */
+     , (38690, 4, 329) /* Knife */
+     , (38690, 4, 30606) /* Bastone */
+     , (38690, 4, 309) /* Club */
+     , (38690, 4, 30556) /* Hatchet */
+     , (38690, 4, 316) /* Throwing Dart */
+     , (38690, 4, 307) /* Shortbow */
+     , (38690, 4, 312) /* Light Crossbow */
+     , (38690, 4, 300) /* Arrow */
+     , (38690, 4, 305) /* Quarrel */
+     , (38690, 4, 25636) /* Leather Helm */
+     , (38690, 4, 25640) /* Leather Cowl */
+     , (38690, 4, 45) /* Leather Cap */
+     , (38690, 4, 25638) /* Leather Vest */
+     , (38690, 4, 25648) /* Leather Pauldrons */
+     , (38690, 4, 25637) /* Leather Bracers */
+     , (38690, 4, 25642) /* Leather Gauntlets */
+     , (38690, 4, 25643) /* Leather Girth */
+     , (38690, 4, 25652) /* Leather Tassets */
+     , (38690, 4, 25645) /* Leather Leggings */
+     , (38690, 4, 25644) /* Leather Greaves */
+     , (38690, 4, 25661) /* Leather Boots */
+     , (38690, 4, 44) /* Buckler */
+     , (38690, 4, 4585) /* Bundle of Arrowshafts */
+     , (38690, 4, 5339) /* Bundle of Quarrelshafts */
+     , (38690, 4, 151) /* Empty Flask */
+     , (38690, 4, 365) /* Parchment */
+     , (38690, 4, 513) /* Plain Lockpick */
+     , (38690, 4, 545) /* Reliable Lockpick */
+     , (38690, 4, 512) /* Good Lockpick */
+     , (38690, 4, 293) /* Torch */
+     , (38690, 4, 2621) /* Trade Note (100) */
+     , (38690, 4, 2622) /* Trade Note (500) */
+     , (38690, 4, 2623) /* Trade Note (1,000) */
+     , (38690, 4, 2624) /* Trade Note (5,000) */
+     , (38690, 4, 2625) /* Trade Note (10,000) */
+     , (38690, 4, 2626) /* Trade Note (50,000) */
+     , (38690, 4, 2627) /* Trade Note (100,000) */
+     , (38690, 4, 20628) /* Trade Note (150,000) */
+     , (38690, 4, 20629) /* Trade Note (200,000) */
+     , (38690, 4, 20630) /* Trade Note (250,000) */
+     , (38690, 4, 136) /* Pack */;
 

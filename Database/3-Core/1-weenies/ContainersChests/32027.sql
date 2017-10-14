@@ -49,3 +49,15 @@ VALUES (32027, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32027, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32027, 8, 20544) /* Scroll of Unfortunate Appraisal */
+     , (32027, 8, 29242) /* Frost Bow */
+     , (32027, 8, 116) /* Studded Leather Boots */
+     , (32027, 8, 31784) /* Claw */
+     , (32027, 8, 621) /* Heavy Bracelet */
+     , (32027, 8, 2589) /* Smock */
+     , (32027, 8, 22162) /* Frost Nabut */
+     , (32027, 8, 9060) /* Titan Mana Charge */;
+

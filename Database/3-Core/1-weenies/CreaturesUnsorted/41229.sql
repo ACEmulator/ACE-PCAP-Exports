@@ -45,3 +45,22 @@ VALUES (41229, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41229, 64, 8000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41229, 8, 49424) /* Acid Spectre Essence (125) */
+     , (41229, 8, 31810) /* Frost Compound Crossbow */
+     , (41229, 8, 351) /* Long Sword */
+     , (41229, 8, 142) /* Chalice */
+     , (41229, 8, 31759) /* Dericost Blade */
+     , (41229, 8, 2587) /* Shirt */
+     , (41229, 8, 29247) /* Electric Crossbow */
+     , (41229, 8, 41230) /* Arrival Chamber Key */
+     , (41229, 8, 339) /* Scimitar */
+     , (41229, 8, 7768) /* Spiked Club */
+     , (41229, 8, 623) /* Heavy Necklace */
+     , (41229, 8, 31783) /* Frost Claw */
+     , (41229, 8, 6045) /* Celdon Leggings */
+     , (41229, 8, 624) /* Ring */
+     , (41229, 8, 30602) /* Lightning Stiletto */;
+

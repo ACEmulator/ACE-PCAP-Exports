@@ -45,3 +45,16 @@ VALUES (52240, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (52240, 64, 12000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52240, 8, 2410) /* Gem */
+     , (52240, 8, 31779) /* Spine Glaive */
+     , (52240, 8, 20497) /* Scroll of Silencia's Blessing */
+     , (52240, 8, 621) /* Heavy Bracelet */
+     , (52240, 8, 163) /* Ornamental Bowl */
+     , (52240, 8, 22443) /* Flaming Dirk */
+     , (52240, 8, 3821) /* Frost Katar */
+     , (52240, 8, 118) /* Cloth Cap */
+     , (52240, 8, 52241) /* Chilled Key */;
+

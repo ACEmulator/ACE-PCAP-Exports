@@ -55,3 +55,29 @@ VALUES (23623, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23623, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23623, 256, 10) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23623, 8, 116) /* Studded Leather Boots */
+     , (23623, 8, 40703) /* Covenant Shield */
+     , (23623, 8, 2428) /* Gem */
+     , (23623, 8, 27327) /* Stamina Tonic */
+     , (23623, 8, 2410) /* Gem */
+     , (23623, 8, 20248) /* Scroll of Ogfoot */
+     , (23623, 8, 2401) /* Gem */
+     , (23623, 8, 2902) /* Scroll of Weaken Lock VI */
+     , (23623, 8, 27330) /* Moderate Mana Stone */
+     , (23623, 8, 45258) /* Scroll of Dirty Fighting Mastery Self VII */
+     , (23623, 8, 20256) /* Scroll of Bolstered Will */
+     , (23623, 8, 12463) /* Atlatl */
+     , (23623, 8, 273) /* Pyreal */
+     , (23623, 8, 25648) /* Leather Pauldrons */
+     , (23623, 8, 8328) /* Iron Pea */
+     , (23623, 8, 20450) /* Scroll of Icy Torment */
+     , (23623, 8, 20415) /* Scroll of Geledite Bait */
+     , (23623, 8, 31868) /* Signet Crown */
+     , (23623, 8, 624) /* Ring */
+     , (23623, 8, 40714) /* Covenant Tassets */
+     , (23623, 8, 7768) /* Spiked Club */
+     , (23623, 8, 6004) /* Koujia Leggings */;
+

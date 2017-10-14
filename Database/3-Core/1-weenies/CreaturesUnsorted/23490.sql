@@ -42,3 +42,37 @@ VALUES (23490, 9, 83890028, 83890027);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23490, 9, 16780702);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23490, 8, 161) /* Mug */
+     , (23490, 8, 8328) /* Iron Pea */
+     , (23490, 8, 30616) /* Arbalest */
+     , (23490, 8, 2435) /* Mana Stone */
+     , (23490, 8, 27331) /* Minor Mana Stone */
+     , (23490, 8, 7604) /* Yellow Jewel */
+     , (23490, 8, 21104) /* Scroll of Martyr's Blight III */
+     , (23490, 8, 273) /* Pyreal */
+     , (23490, 8, 254) /* Stoup */
+     , (23490, 8, 133) /* Slippers */
+     , (23490, 8, 2420) /* Gem */
+     , (23490, 8, 31769) /* Lugian Axe */
+     , (23490, 8, 8329) /* Lead Pea */
+     , (23490, 8, 2414) /* Gem */
+     , (23490, 8, 3696) /* Blue Jewel */
+     , (23490, 8, 622) /* Necklace */
+     , (23490, 8, 295) /* Bracelet */
+     , (23490, 8, 2431) /* Gem */
+     , (23490, 8, 2434) /* Lesser Mana Stone */
+     , (23490, 8, 2419) /* Gem */
+     , (23490, 8, 9290) /* Virindi Directive Key */
+     , (23490, 8, 22166) /* Flaming Quarter Staff */
+     , (23490, 8, 723) /* Studded Leather Cowl */
+     , (23490, 8, 25638) /* Leather Vest */
+     , (23490, 8, 45875) /* Lucky Gold Letter */
+     , (23490, 8, 243) /* Dinner Plate */
+     , (23490, 8, 2366) /* Orb */
+     , (23490, 8, 3698) /* White Jewel */
+     , (23490, 8, 154) /* Goblet */
+     , (23490, 8, 119) /* Cowl */;
+

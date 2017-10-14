@@ -53,3 +53,64 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (22567, 2, 0) /* OPEN_BOOL */
      , (22567, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22567, 8, 2435) /* Mana Stone */
+     , (22567, 8, 29264) /* Piercing Sceptre */
+     , (22567, 8, 6046) /* Amuli Coat */
+     , (22567, 8, 273) /* Pyreal */
+     , (22567, 8, 71) /* Chainmail Hauberk */
+     , (22567, 8, 73) /* Scalemail Hauberk */
+     , (22567, 8, 356) /* Tofun */
+     , (22567, 8, 31785) /* Acid Claw */
+     , (22567, 8, 2400) /* Gem */
+     , (22567, 8, 49247) /* Fire Zombie Essence (50) */
+     , (22567, 8, 2599) /* Trousers */
+     , (22567, 8, 341) /* Shouyumi */
+     , (22567, 8, 93) /* Round Shield */
+     , (22567, 8, 311) /* Heavy Crossbow */
+     , (22567, 8, 2587) /* Shirt */
+     , (22567, 8, 127) /* Pants */
+     , (22567, 8, 6047) /* Amuli Leggings */
+     , (22567, 8, 31765) /* Acid Lugian Hammer */
+     , (22567, 8, 82) /* Platemail Leggings */
+     , (22567, 8, 631) /* Excellent Healing Kit */
+     , (22567, 8, 30608) /* Flaming Bastone */
+     , (22567, 8, 2638) /* Scroll of Bafflement Other VI */
+     , (22567, 8, 40620) /* Lightning Spadone */
+     , (22567, 8, 7897) /* Steel Toed Boots */
+     , (22567, 8, 312) /* Light Crossbow */
+     , (22567, 8, 101) /* Chainmail Sleeves */
+     , (22567, 8, 21157) /* Covenant Pauldrons */
+     , (22567, 8, 48) /* Studded Leather Coat */
+     , (22567, 8, 44800) /* Dho Vest and Over-Robe */
+     , (22567, 8, 22167) /* Frost Quarter Staff */
+     , (22567, 8, 40709) /* Covenant Girth */
+     , (22567, 8, 49422) /* Acid Spectre Essence (80) */
+     , (22567, 8, 63) /* Studded Leather Girth */
+     , (22567, 8, 28627) /* Diforsa Bracers */
+     , (22567, 8, 8488) /* Armet */
+     , (22567, 8, 2548) /* Sceptre */
+     , (22567, 8, 40711) /* Covenant Helm */
+     , (22567, 8, 414) /* Chainmail Breastplate */
+     , (22567, 8, 363) /* Yumi */
+     , (22567, 8, 294) /* Amulet */
+     , (22567, 8, 514) /* Excellent Lockpick */
+     , (22567, 8, 149) /* Ewer */
+     , (22567, 8, 243) /* Dinner Plate */
+     , (22567, 8, 2648) /* Scroll of Coordination Other VI */
+     , (22567, 8, 12463) /* Atlatl */
+     , (22567, 8, 48959) /* Fire Elemental Essence (50) */
+     , (22567, 8, 49275) /* Frost Elemental Essence (50) */
+     , (22567, 8, 21155) /* Covenant Greaves */
+     , (22567, 8, 45118) /* Hand Wraps */
+     , (22567, 8, 21300) /* Scroll of Blade Arc VI */
+     , (22567, 8, 44857) /* Quartered Cloak */
+     , (22567, 8, 96) /* Chainmail Shirt */
+     , (22567, 8, 296) /* Crown */
+     , (22567, 8, 8326) /* Copper Pea */
+     , (22567, 8, 87) /* Platemail Pauldrons */
+     , (22567, 8, 630) /* Gifted Healing Kit */
+     , (22567, 8, 45108) /* Schlager */;
+

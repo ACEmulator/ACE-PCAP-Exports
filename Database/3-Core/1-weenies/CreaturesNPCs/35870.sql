@@ -128,5 +128,18 @@ VALUES (35870, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35870, 2, 34017);
+VALUES (35870, 2, 34017) /* Tachi */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35870, 8, 6043) /* Celdon Girth */
+     , (35870, 8, 27219) /* Chiran Sandals */
+     , (35870, 8, 8331) /* Silver Pea */
+     , (35870, 8, 25641) /* Leather Cuirass */
+     , (35870, 8, 40699) /* Covenant Girth */
+     , (35870, 8, 31789) /* Acid Stick */
+     , (35870, 8, 621) /* Heavy Bracelet */
+     , (35870, 8, 35871) /* The Master Token */
+     , (35870, 8, 2587) /* Shirt */;
 

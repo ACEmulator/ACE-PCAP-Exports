@@ -60,3 +60,30 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (9286, 2, 0) /* OPEN_BOOL */
      , (9286, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9286, 8, 2408) /* Gem */
+     , (9286, 8, 45403) /* Lightning Simi */
+     , (9286, 8, 3889) /* Acid Tachi */
+     , (9286, 8, 2426) /* Gem */
+     , (9286, 8, 30746) /* Dart Flinger */
+     , (9286, 8, 2402) /* Gem */
+     , (9286, 8, 2598) /* Baggy Pants */
+     , (9286, 8, 31774) /* Board with Nail */
+     , (9286, 8, 135) /* Turban */
+     , (9286, 8, 92) /* Large Kite Shield */
+     , (9286, 8, 3818) /* Acid Katar */
+     , (9286, 8, 41062) /* Khanda-handled Mace */
+     , (9286, 8, 94) /* Diamond Shield */
+     , (9286, 8, 25648) /* Leather Pauldrons */
+     , (9286, 8, 360) /* Yag */
+     , (9286, 8, 20640) /* Royal Atlatl */
+     , (9286, 8, 53) /* Studded Leather Cuirass */
+     , (9286, 8, 3517) /* Scroll of Heavy Weapon Ineptitude Other VI */
+     , (9286, 8, 3766) /* Acid Club */
+     , (9286, 8, 8934) /* Scroll of Force Streak VI */
+     , (9286, 8, 6004) /* Koujia Leggings */
+     , (9286, 8, 334) /* Nayin */
+     , (9286, 8, 71) /* Chainmail Hauberk */;
+

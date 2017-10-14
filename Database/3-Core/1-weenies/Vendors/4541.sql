@@ -126,32 +126,32 @@ VALUES (4541, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4541, 4, 2451)
-     , (4541, 4, 2463)
-     , (4541, 4, 2468)
-     , (4541, 4, 2456)
-     , (4541, 4, 4746)
-     , (4541, 4, 8378)
-     , (4541, 4, 4738)
-     , (4541, 4, 4711)
-     , (4541, 4, 4733)
-     , (4541, 4, 513)
-     , (4541, 4, 545)
-     , (4541, 4, 512)
-     , (4541, 4, 5601)
-     , (4541, 4, 5602)
-     , (4541, 4, 6419)
-     , (4541, 4, 5657)
-     , (4541, 4, 28242)
-     , (4541, 4, 11929)
-     , (4541, 4, 24223)
-     , (4541, 4, 24222)
-     , (4541, 4, 27991)
-     , (4541, 4, 27992)
-     , (4541, 4, 27993)
-     , (4541, 4, 27994)
-     , (4541, 4, 27995)
-     , (4541, 4, 27996)
-     , (4541, 4, 27997)
-     , (4541, 4, 27998);
+VALUES (4541, 4, 2451) /* Ale */
+     , (4541, 4, 2463) /* Milk */
+     , (4541, 4, 2468) /* Sake */
+     , (4541, 4, 2456) /* Green Tea */
+     , (4541, 4, 4746) /* Water */
+     , (4541, 4, 8378) /* Beer Stein */
+     , (4541, 4, 4738) /* Mushroom Rice */
+     , (4541, 4, 4711) /* Beef Noodle */
+     , (4541, 4, 4733) /* Kimchi */
+     , (4541, 4, 513) /* Plain Lockpick */
+     , (4541, 4, 545) /* Reliable Lockpick */
+     , (4541, 4, 512) /* Good Lockpick */
+     , (4541, 4, 5601) /* Altar of Asheron Rumor */
+     , (4541, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (4541, 4, 6419) /* The Meeting Halls */
+     , (4541, 4, 5657) /* Directions to the Thieves' Galleries */
+     , (4541, 4, 28242) /* Directions to the Lugian Citadels */
+     , (4541, 4, 11929) /* A Call To Arms */
+     , (4541, 4, 24223) /* A Sparking Stone */
+     , (4541, 4, 24222) /* Duplicated Portals */
+     , (4541, 4, 27991) /* Golem Burial Grounds */
+     , (4541, 4, 27992) /* Rocky Crypt Directions */
+     , (4541, 4, 27993) /* Small Ruin Directions */
+     , (4541, 4, 27994) /* Empyrean Shrine */
+     , (4541, 4, 27995) /* The Golem Spire */
+     , (4541, 4, 27996) /* The Old Keep */
+     , (4541, 4, 27997) /* The Abandoned Training Camp */
+     , (4541, 4, 27998) /* The Dead Cave */;
 

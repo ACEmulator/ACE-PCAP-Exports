@@ -67,3 +67,9 @@ VALUES (206, 2, 5) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (206, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (206, 8, 43332) /* Scroll of Festering Curse IV */
+     , (206, 8, 31773) /* Frost Board with Nail */;
+

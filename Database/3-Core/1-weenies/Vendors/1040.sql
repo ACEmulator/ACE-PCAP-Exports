@@ -130,13 +130,13 @@ VALUES (1040, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1040, 4, 4755)
-     , (1040, 4, 263)
-     , (1040, 4, 260)
-     , (1040, 4, 258)
-     , (1040, 4, 5758)
-     , (1040, 4, 30734)
-     , (1040, 4, 4761)
-     , (1040, 4, 4746)
-     , (1040, 4, 4757);
+VALUES (1040, 4, 4755) /* Brine */
+     , (1040, 4, 263) /* Fish */
+     , (1040, 4, 260) /* Cabbage */
+     , (1040, 4, 258) /* Apple */
+     , (1040, 4, 5758) /* Carrot */
+     , (1040, 4, 30734) /* Bowl of Black-Eyed Peas */
+     , (1040, 4, 4761) /* Flour */
+     , (1040, 4, 4746) /* Water */
+     , (1040, 4, 4757) /* Carving Knife */;
 

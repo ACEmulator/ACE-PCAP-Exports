@@ -64,3 +64,8 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (14537, 2, 0) /* OPEN_BOOL */
      , (14537, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14537, 8, 14511) /* Hammer of Lightning */;
+

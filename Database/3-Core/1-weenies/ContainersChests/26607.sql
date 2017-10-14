@@ -53,3 +53,20 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (26607, 2, 0) /* OPEN_BOOL */
      , (26607, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26607, 8, 49310) /* Acid Wisp Essence (50) */
+     , (26607, 8, 49352) /* Fire Moar Essence (50) */
+     , (26607, 8, 413) /* Chainmail Bracers */
+     , (26607, 8, 273) /* Pyreal */
+     , (26607, 8, 71) /* Chainmail Hauberk */
+     , (26607, 8, 3110) /* Scroll of Regenerate Other IV */
+     , (26607, 8, 2548) /* Sceptre */
+     , (26607, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (26607, 8, 45421) /* Dagger */
+     , (26607, 8, 25645) /* Leather Leggings */
+     , (26607, 8, 3876) /* Frost Spear */
+     , (26607, 8, 105) /* Studded Leather Sleeves */
+     , (26607, 8, 30606) /* Bastone */;
+

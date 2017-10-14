@@ -40,3 +40,10 @@ VALUES (48713, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (48713, 67111921, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (48713, 8, 2426) /* Gem */
+     , (48713, 8, 27330) /* Moderate Mana Stone */
+     , (48713, 8, 48714) /* Blazing Shard */;
+

@@ -49,3 +49,61 @@ VALUES (1912, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1912, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1912, 8, 20487) /* Scroll of Decrepitude's Grasp */
+     , (1912, 8, 49475) /* Scroll of Summoning Mastery Self VI */
+     , (1912, 8, 273) /* Pyreal */
+     , (1912, 8, 2399) /* Gem */
+     , (1912, 8, 3877) /* Acid Broad Sword */
+     , (1912, 8, 20593) /* Scroll of Gravity Well */
+     , (1912, 8, 2421) /* Gem */
+     , (1912, 8, 312) /* Light Crossbow */
+     , (1912, 8, 161) /* Mug */
+     , (1912, 8, 28610) /* Loafers */
+     , (1912, 8, 254) /* Stoup */
+     , (1912, 8, 40637) /* Lightning Tetsubo */
+     , (1912, 8, 20445) /* Scroll of The Spike */
+     , (1912, 8, 624) /* Ring */
+     , (1912, 8, 21322) /* Scroll of Frost Arc VII */
+     , (1912, 8, 243) /* Dinner Plate */
+     , (1912, 8, 2601) /* Loose Pants */
+     , (1912, 8, 43291) /* Scroll of Corruption VI */
+     , (1912, 8, 630) /* Gifted Healing Kit */
+     , (1912, 8, 121) /* Gloves */
+     , (1912, 8, 512) /* Good Lockpick */
+     , (1912, 8, 132) /* Shoes */
+     , (1912, 8, 43334) /* Scroll of Festering Curse VI */
+     , (1912, 8, 49435) /* Fire Spectre Essence (50) */
+     , (1912, 8, 2458) /* Health Elixir */
+     , (1912, 8, 30594) /* Acid Partizan */
+     , (1912, 8, 2424) /* Gem */
+     , (1912, 8, 515) /* Superb Lockpick */
+     , (1912, 8, 2686) /* Scroll of Frailty Other VI */
+     , (1912, 8, 142) /* Chalice */
+     , (1912, 8, 793) /* Scalemail Coif */
+     , (1912, 8, 2400) /* Gem */
+     , (1912, 8, 49254) /* Frost Zombie Essence (50) */
+     , (1912, 8, 2706) /* Scroll of Imperil Other VI */
+     , (1912, 8, 2590) /* Baggy Shirt */
+     , (1912, 8, 2404) /* Gem */
+     , (1912, 8, 28630) /* Diforsa Cuirass */
+     , (1912, 8, 2427) /* Gem */
+     , (1912, 8, 150) /* Flagon */
+     , (1912, 8, 20465) /* Scroll of Caustic Boon */
+     , (1912, 8, 49247) /* Fire Zombie Essence (50) */
+     , (1912, 8, 45265) /* Scroll of Dual Wield Ineptitude Other VI */
+     , (1912, 8, 49227) /* Frost Skeleton Minion Essence (50) */
+     , (1912, 8, 141) /* Bowl */
+     , (1912, 8, 2401) /* Gem */
+     , (1912, 8, 43284) /* Scroll of Corrosion VII */
+     , (1912, 8, 25642) /* Leather Gauntlets */
+     , (1912, 8, 44976) /* Hood */
+     , (1912, 8, 2433) /* Gem */
+     , (1912, 8, 27324) /* Stamina Brew */
+     , (1912, 8, 2588) /* Flared Shirt */
+     , (1912, 8, 2422) /* Gem */
+     , (1912, 8, 54) /* Yoroi Cuirass */
+     , (1912, 8, 20521) /* Scroll of Finesse Weapon Mastery Self VII */;
+

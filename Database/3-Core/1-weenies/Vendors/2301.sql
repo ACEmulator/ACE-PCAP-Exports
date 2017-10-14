@@ -130,11 +130,11 @@ VALUES (2301, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2301, 4, 118)
-     , (2301, 4, 2594)
-     , (2301, 4, 2602)
-     , (2301, 4, 132)
-     , (2301, 4, 5854)
-     , (2301, 4, 5901)
-     , (2301, 4, 8372);
+VALUES (2301, 4, 118) /* Cloth Cap */
+     , (2301, 4, 2594) /* Flared Tunic */
+     , (2301, 4, 2602) /* Loose Breeches */
+     , (2301, 4, 132) /* Shoes */
+     , (2301, 4, 5854) /* Suikan Robe */
+     , (2301, 4, 5901) /* Kasa */
+     , (2301, 4, 8372) /* Yifan Dress */;
 

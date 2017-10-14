@@ -49,3 +49,34 @@ VALUES (1936, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1936, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1936, 8, 121) /* Gloves */
+     , (1936, 8, 27330) /* Moderate Mana Stone */
+     , (1936, 8, 150) /* Flagon */
+     , (1936, 8, 45417) /* Acid Knife */
+     , (1936, 8, 59) /* Studded Leather Gauntlets */
+     , (1936, 8, 512) /* Good Lockpick */
+     , (1936, 8, 2396) /* Gem */
+     , (1936, 8, 31865) /* Circlet */
+     , (1936, 8, 2399) /* Gem */
+     , (1936, 8, 130) /* Shirt */
+     , (1936, 8, 28632) /* Diforsa Gauntlets */
+     , (1936, 8, 273) /* Pyreal */
+     , (1936, 8, 40697) /* Covenant Breastplate */
+     , (1936, 8, 28633) /* Diforsa Girth */
+     , (1936, 8, 631) /* Excellent Healing Kit */
+     , (1936, 8, 2597) /* Flared Pants */
+     , (1936, 8, 296) /* Crown */
+     , (1936, 8, 2425) /* Gem */
+     , (1936, 8, 2596) /* Doublet */
+     , (1936, 8, 2404) /* Gem */
+     , (1936, 8, 360) /* Yag */
+     , (1936, 8, 2367) /* Gorget */
+     , (1936, 8, 8328) /* Iron Pea */
+     , (1936, 8, 2600) /* Pantaloons */
+     , (1936, 8, 514) /* Excellent Lockpick */
+     , (1936, 8, 6044) /* Celdon Breastplate */
+     , (1936, 8, 154) /* Goblet */;
+

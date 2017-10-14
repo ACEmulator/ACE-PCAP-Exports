@@ -124,37 +124,37 @@ VALUES (42807, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42807, 4, 2453)
-     , (42807, 4, 2462)
-     , (42807, 4, 2451)
-     , (42807, 4, 2471)
-     , (42807, 4, 2452)
-     , (42807, 4, 4746)
-     , (42807, 4, 4713)
-     , (42807, 4, 549)
-     , (42807, 4, 4741)
-     , (42807, 4, 4725)
-     , (42807, 4, 620)
-     , (42807, 4, 261)
-     , (42807, 4, 259)
-     , (42807, 4, 4745)
-     , (42807, 4, 258)
-     , (42807, 4, 260)
-     , (42807, 4, 8378)
-     , (42807, 4, 262)
-     , (42807, 4, 263)
-     , (42807, 4, 45559)
-     , (42807, 4, 45560)
-     , (42807, 4, 45561)
-     , (42807, 4, 45562)
-     , (42807, 4, 45563)
-     , (42807, 4, 51336)
-     , (42807, 4, 48725)
-     , (42807, 4, 48726)
-     , (42807, 4, 48729);
+VALUES (42807, 4, 2453) /* Cider */
+     , (42807, 4, 2462) /* Mead */
+     , (42807, 4, 2451) /* Ale */
+     , (42807, 4, 2471) /* Stout */
+     , (42807, 4, 2452) /* Apple Juice */
+     , (42807, 4, 4746) /* Water */
+     , (42807, 4, 4713) /* Beef Stew */
+     , (42807, 4, 549) /* Bowl of Stew */
+     , (42807, 4, 4741) /* Pizza */
+     , (42807, 4, 4725) /* Fish Pie */
+     , (42807, 4, 620) /* Cake */
+     , (42807, 4, 261) /* Cheese */
+     , (42807, 4, 259) /* Bread */
+     , (42807, 4, 4745) /* Viamont Toast */
+     , (42807, 4, 258) /* Apple */
+     , (42807, 4, 260) /* Cabbage */
+     , (42807, 4, 8378) /* Beer Stein */
+     , (42807, 4, 262) /* Chicken */
+     , (42807, 4, 263) /* Fish */
+     , (42807, 4, 45559) /* Contract for Aetherium Ore Collection */
+     , (42807, 4, 45560) /* Contract for Aetherium Power Core Collection */
+     , (42807, 4, 45561) /* Contract for Aetherium Raid (High) */
+     , (42807, 4, 45562) /* Contract for Kill: Gear Knight Commander */
+     , (42807, 4, 45563) /* Contract for Kill: Gear Knight Knights */
+     , (42807, 4, 51336) /* Contract for Kill: Gear Knight Squires */
+     , (42807, 4, 48725) /* Contract for Lunnum's Pyre */
+     , (42807, 4, 48726) /* Contract for Lunnum's Disappearance */
+     , (42807, 4, 48729) /* Contract for Lunnum's Return */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42807, 2, 161);
+VALUES (42807, 2, 161) /* Mug */;
 

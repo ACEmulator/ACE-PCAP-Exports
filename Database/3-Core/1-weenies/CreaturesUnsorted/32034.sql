@@ -39,3 +39,18 @@ VALUES (32034, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32034, 67116786, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32034, 8, 49437) /* Fire Spectre Essence (100) */
+     , (32034, 8, 132) /* Shoes */
+     , (32034, 8, 22154) /* Acid Jo */
+     , (32034, 8, 45330) /* Scroll of Shield Mastery Self VII */
+     , (32034, 8, 29246) /* Ultimate Singularity Crossbow */
+     , (32034, 8, 28605) /* Beret */
+     , (32034, 8, 20237) /* Scroll of Perseverance */
+     , (32034, 8, 2601) /* Loose Pants */
+     , (32034, 8, 154) /* Goblet */
+     , (32034, 8, 32036) /* Gold Niffis Tentacle */
+     , (32034, 8, 2548) /* Sceptre */;
+

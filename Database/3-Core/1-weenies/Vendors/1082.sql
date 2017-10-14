@@ -134,19 +134,19 @@ VALUES (1082, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1082, 4, 4746)
-     , (1082, 4, 2455)
-     , (1082, 4, 2471)
-     , (1082, 4, 2462)
-     , (1082, 4, 2453)
-     , (1082, 4, 8378)
-     , (1082, 4, 4709)
-     , (1082, 4, 259)
-     , (1082, 4, 4739)
-     , (1082, 4, 4719)
-     , (1082, 4, 1223)
-     , (1082, 4, 1511)
-     , (1082, 4, 1402)
-     , (1082, 4, 2053)
-     , (1082, 4, 5004);
+VALUES (1082, 4, 4746) /* Water */
+     , (1082, 4, 2455) /* Grape Juice */
+     , (1082, 4, 2471) /* Stout */
+     , (1082, 4, 2462) /* Mead */
+     , (1082, 4, 2453) /* Cider */
+     , (1082, 4, 8378) /* Beer Stein */
+     , (1082, 4, 4709) /* Apple Pie */
+     , (1082, 4, 259) /* Bread */
+     , (1082, 4, 4739) /* Pickled Egg */
+     , (1082, 4, 4719) /* Chicken Stew */
+     , (1082, 4, 1223) /* Rithwic Portal Directions */
+     , (1082, 4, 1511) /* Drudge Camp Rumor */
+     , (1082, 4, 1402) /* Rithwic Crypt Directions */
+     , (1082, 4, 2053) /* Directions to Fort Witshire */
+     , (1082, 4, 5004) /* Warehouse Directions */;
 

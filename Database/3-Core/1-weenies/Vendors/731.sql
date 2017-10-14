@@ -126,29 +126,29 @@ VALUES (731, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (731, 4, 4746)
-     , (731, 4, 2453)
-     , (731, 4, 2462)
-     , (731, 4, 2469)
-     , (731, 4, 2471)
-     , (731, 4, 8378)
-     , (731, 4, 4731)
-     , (731, 4, 4737)
-     , (731, 4, 4739)
-     , (731, 4, 4740)
-     , (731, 4, 1490)
-     , (731, 4, 1508)
-     , (731, 4, 2053)
-     , (731, 4, 4211)
-     , (731, 4, 2059)
-     , (731, 4, 15808)
-     , (731, 4, 20229)
-     , (731, 4, 24222)
-     , (731, 4, 5583)
-     , (731, 4, 5856)
-     , (731, 4, 7884)
-     , (731, 4, 14797)
-     , (731, 4, 5586)
-     , (731, 4, 24855)
-     , (731, 4, 5587);
+VALUES (731, 4, 4746) /* Water */
+     , (731, 4, 2453) /* Cider */
+     , (731, 4, 2462) /* Mead */
+     , (731, 4, 2469) /* Small Beer */
+     , (731, 4, 2471) /* Stout */
+     , (731, 4, 8378) /* Beer Stein */
+     , (731, 4, 4731) /* Fried Mushroom */
+     , (731, 4, 4737) /* Mushroom Pie */
+     , (731, 4, 4739) /* Pickled Egg */
+     , (731, 4, 4740) /* Pickled Fish */
+     , (731, 4, 1490) /* Glenden Dungeon Directions */
+     , (731, 4, 1508) /* Alphus Range Directions */
+     , (731, 4, 2053) /* Directions to Fort Witshire */
+     , (731, 4, 4211) /* Daiklos Legend */
+     , (731, 4, 2059) /* History of Fort Witshire */
+     , (731, 4, 15808) /* Plea for Help */
+     , (731, 4, 20229) /* Rumor of an Artifact */
+     , (731, 4, 24222) /* Duplicated Portals */
+     , (731, 4, 5583) /* Aluvian Cookbook */
+     , (731, 4, 5856) /* Specialty Cookbook */
+     , (731, 4, 7884) /* Chocolate Cookbook */
+     , (731, 4, 14797) /* Festival Cookbook */
+     , (731, 4, 5586) /* Alchemy Guide */
+     , (731, 4, 24855) /* The New Alchemy */
+     , (731, 4, 5587) /* Fletching Guide */;
 

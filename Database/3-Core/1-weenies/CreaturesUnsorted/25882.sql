@@ -45,3 +45,14 @@ VALUES (25882, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25882, 64, 1100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25882, 8, 7789) /* Acid Spiked Club */
+     , (25882, 8, 31784) /* Claw */
+     , (25882, 8, 31864) /* Teardrop Crown */
+     , (25882, 8, 31355) /* Olthoi Slasher Carapace */
+     , (25882, 8, 2407) /* Gem */
+     , (25882, 8, 150) /* Flagon */
+     , (25882, 8, 27223) /* Lorica Helm */;
+

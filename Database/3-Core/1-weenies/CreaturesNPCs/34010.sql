@@ -123,5 +123,5 @@ VALUES (34010, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (34010, 2, 34024);
+VALUES (34010, 2, 34024) /* Silifi of Crimson Night */;
 

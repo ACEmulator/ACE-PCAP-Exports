@@ -49,3 +49,13 @@ VALUES (7498, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7498, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7498, 8, 3385) /* Scroll of Lockpick Mastery Other IV */
+     , (7498, 8, 28610) /* Loafers */
+     , (7498, 8, 45113) /* Hammer */
+     , (7498, 8, 344) /* Silifi */
+     , (7498, 8, 3878) /* Lightning Broad Sword */
+     , (7498, 8, 2594) /* Flared Tunic */;
+

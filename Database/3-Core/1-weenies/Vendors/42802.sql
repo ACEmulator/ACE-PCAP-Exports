@@ -124,25 +124,25 @@ VALUES (42802, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42802, 4, 4746)
-     , (42802, 4, 5136)
-     , (42802, 4, 2465)
-     , (42802, 4, 2459)
-     , (42802, 4, 2469)
-     , (42802, 4, 8378)
-     , (42802, 4, 4723)
-     , (42802, 4, 4730)
-     , (42802, 4, 4726)
-     , (42802, 4, 4740)
-     , (42802, 4, 5163)
-     , (42802, 4, 44399)
-     , (42802, 4, 44391)
-     , (42802, 4, 44395)
-     , (42802, 4, 44392)
-     , (42802, 4, 44655)
-     , (42802, 4, 48779)
-     , (42802, 4, 48780)
-     , (42802, 4, 48781)
-     , (42802, 4, 48782)
-     , (42802, 4, 48783);
+VALUES (42802, 4, 4746) /* Water */
+     , (42802, 4, 5136) /* Cove Apple Cider */
+     , (42802, 4, 2465) /* Palm Wine */
+     , (42802, 4, 2459) /* Kumiss */
+     , (42802, 4, 2469) /* Small Beer */
+     , (42802, 4, 8378) /* Beer Stein */
+     , (42802, 4, 4723) /* Fish Kebab */
+     , (42802, 4, 4730) /* Fried Fish Filet */
+     , (42802, 4, 4726) /* Fish Stew */
+     , (42802, 4, 4740) /* Pickled Fish */
+     , (42802, 4, 5163) /* Directions to the Sea Temple Catacombs */
+     , (42802, 4, 44399) /* Contract for Uncovering the Renegades */
+     , (42802, 4, 44391) /* Contract for Colosseum */
+     , (42802, 4, 44395) /* Contract for Aug Gem: Diemos */
+     , (42802, 4, 44392) /* Contract for Tumerok Salted Meat */
+     , (42802, 4, 44655) /* Contract for Gear Knight Excavation */
+     , (42802, 4, 48779) /* Contract for Lost Lore */
+     , (42802, 4, 48780) /* Contract for Sisters of Light */
+     , (42802, 4, 48781) /* Contract for First Sister */
+     , (42802, 4, 48782) /* Contract for Second Sister */
+     , (42802, 4, 48783) /* Contract for Third Sister */;
 

@@ -39,3 +39,38 @@ VALUES (38076, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38076, 67114309, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38076, 8, 49389) /* Frost Grievver Essence (100) */
+     , (38076, 8, 41042) /* Acid Magari Yari */
+     , (38076, 8, 2412) /* Gem */
+     , (38076, 8, 20429) /* Scroll of Vagabond's Gift */
+     , (38076, 8, 30598) /* Flaming Poniard */
+     , (38076, 8, 624) /* Ring */
+     , (38076, 8, 127) /* Pants */
+     , (38076, 8, 243) /* Dinner Plate */
+     , (38076, 8, 31801) /* Electric Compound Bow */
+     , (38076, 8, 43051) /* Knorr Academy Greaves */
+     , (38076, 8, 20521) /* Scroll of Finesse Weapon Mastery Self VII */
+     , (38076, 8, 163) /* Ornamental Bowl */
+     , (38076, 8, 49272) /* Lightning Child Essence (150) */
+     , (38076, 8, 7792) /* Fire Trident */
+     , (38076, 8, 20534) /* Scroll of Avalenne's Blessing */
+     , (38076, 8, 40710) /* Covenant Greaves */
+     , (38076, 8, 27215) /* Chiran Coat */
+     , (38076, 8, 44852) /* Chevron Cloak */
+     , (38076, 8, 7897) /* Steel Toed Boots */
+     , (38076, 8, 27230) /* Nariyid Helm */
+     , (38076, 8, 4197) /* Acid Nekode */
+     , (38076, 8, 5901) /* Kasa */
+     , (38076, 8, 45417) /* Acid Knife */
+     , (38076, 8, 28610) /* Loafers */
+     , (38076, 8, 37188) /* Olthoi Amuli Gauntlets */
+     , (38076, 8, 21153) /* Covenant Gauntlets */
+     , (38076, 8, 29247) /* Electric Crossbow */
+     , (38076, 8, 90) /* Yoroi Pauldrons */
+     , (38076, 8, 40693) /* Olthoi Bracers */
+     , (38076, 8, 20546) /* Scroll of Jahannan's Boon */
+     , (38076, 8, 116) /* Studded Leather Boots */;
+

@@ -118,5 +118,5 @@ VALUES (35487, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35487, 2, 359);
+VALUES (35487, 2, 359) /* War Hammer */;
 

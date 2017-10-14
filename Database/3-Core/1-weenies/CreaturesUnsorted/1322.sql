@@ -68,3 +68,16 @@ VALUES (1322, 2, 3) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1322, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1322, 8, 49387) /* Frost Grievver Essence (50) */
+     , (1322, 8, 55) /* Chainmail Gauntlets */
+     , (1322, 8, 30568) /* Flaming Sabra */
+     , (1322, 8, 2434) /* Lesser Mana Stone */
+     , (1322, 8, 1319) /* Key */
+     , (1322, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (1322, 8, 273) /* Pyreal */
+     , (1322, 8, 73) /* Scalemail Hauberk */
+     , (1322, 8, 2595) /* Baggy Tunic */;
+

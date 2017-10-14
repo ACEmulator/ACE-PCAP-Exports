@@ -49,3 +49,27 @@ VALUES (1945, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1945, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1945, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (1945, 8, 7795) /* Frost Naginata */
+     , (1945, 8, 7768) /* Spiked Club */
+     , (1945, 8, 2424) /* Gem */
+     , (1945, 8, 7772) /* Trident */
+     , (1945, 8, 356) /* Tofun */
+     , (1945, 8, 41483) /* Compass */
+     , (1945, 8, 332) /* Morning Star */
+     , (1945, 8, 45118) /* Hand Wraps */
+     , (1945, 8, 2589) /* Smock */
+     , (1945, 8, 38) /* Studded Leather Bracers */
+     , (1945, 8, 49381) /* Fire Grievver Essence (80) */
+     , (1945, 8, 29260) /* Blunt Sceptre */
+     , (1945, 8, 31759) /* Dericost Blade */
+     , (1945, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (1945, 8, 325) /* Kasrullah */
+     , (1945, 8, 67) /* Scalemail Greaves */
+     , (1945, 8, 295) /* Bracelet */
+     , (1945, 8, 415) /* Chainmail Girth */
+     , (1945, 8, 2394) /* Gem */;
+

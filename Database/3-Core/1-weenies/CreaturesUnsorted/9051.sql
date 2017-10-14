@@ -41,3 +41,33 @@ VALUES (9051, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9051, 64, 565) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9051, 8, 149) /* Ewer */
+     , (9051, 8, 27328) /* Major Mana Stone */
+     , (9051, 8, 20254) /* Scroll of Might of the Lugians */
+     , (9051, 8, 2436) /* Greater Mana Stone */
+     , (9051, 8, 273) /* Pyreal */
+     , (9051, 8, 9043) /* Large Pale Crystal */
+     , (9051, 8, 103) /* Platemail Sleeves */
+     , (9051, 8, 2604) /* Wide Breeches */
+     , (9051, 8, 624) /* Ring */
+     , (9051, 8, 8331) /* Silver Pea */
+     , (9051, 8, 2404) /* Gem */
+     , (9051, 8, 8327) /* Gold Pea */
+     , (9051, 8, 49485) /* Encapsulated Spirit */
+     , (9051, 8, 163) /* Ornamental Bowl */
+     , (9051, 8, 9046) /* Sunstone Geode */
+     , (9051, 8, 28629) /* Alduressa Coat */
+     , (9051, 8, 132) /* Shoes */
+     , (9051, 8, 2409) /* Gem */
+     , (9051, 8, 20409) /* Scroll of Tusker Bait */
+     , (9051, 8, 133) /* Slippers */
+     , (9051, 8, 31867) /* Diadem */
+     , (9051, 8, 27330) /* Moderate Mana Stone */
+     , (9051, 8, 28624) /* Tenassa Sleeves */
+     , (9051, 8, 8326) /* Copper Pea */
+     , (9051, 8, 20464) /* Scroll of Rending Wind */
+     , (9051, 8, 112) /* Studded Leather Tassets */;
+

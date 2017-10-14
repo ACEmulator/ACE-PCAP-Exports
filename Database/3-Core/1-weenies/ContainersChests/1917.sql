@@ -49,3 +49,37 @@ VALUES (1917, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1917, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1917, 8, 2422) /* Gem */
+     , (1917, 8, 42517) /* Coalesced Mana */
+     , (1917, 8, 149) /* Ewer */
+     , (1917, 8, 28609) /* Vest */
+     , (1917, 8, 2595) /* Baggy Tunic */
+     , (1917, 8, 168) /* Tankard */
+     , (1917, 8, 124) /* Jerkin */
+     , (1917, 8, 2395) /* Gem */
+     , (1917, 8, 2421) /* Gem */
+     , (1917, 8, 31868) /* Signet Crown */
+     , (1917, 8, 31865) /* Circlet */
+     , (1917, 8, 134) /* Tunic */
+     , (1917, 8, 161) /* Mug */
+     , (1917, 8, 41486) /* Puzzle Box */
+     , (1917, 8, 2429) /* Gem */
+     , (1917, 8, 297) /* Ring */
+     , (1917, 8, 49346) /* Lightning Moar Essence (80) */
+     , (1917, 8, 141) /* Bowl */
+     , (1917, 8, 2587) /* Shirt */
+     , (1917, 8, 2433) /* Gem */
+     , (1917, 8, 624) /* Ring */
+     , (1917, 8, 2400) /* Gem */
+     , (1917, 8, 2397) /* Gem */
+     , (1917, 8, 49485) /* Encapsulated Spirit */
+     , (1917, 8, 2604) /* Wide Breeches */
+     , (1917, 8, 2404) /* Gem */
+     , (1917, 8, 163) /* Ornamental Bowl */
+     , (1917, 8, 49310) /* Acid Wisp Essence (50) */
+     , (1917, 8, 121) /* Gloves */
+     , (1917, 8, 623) /* Heavy Necklace */;
+

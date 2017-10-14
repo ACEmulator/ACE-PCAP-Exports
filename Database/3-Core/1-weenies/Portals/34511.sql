@@ -73,3 +73,40 @@ VALUES (34511, 14, 'If you have been honored with this champion''s password you 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34511, 111, 49) /* PORTAL_BITMASK_INT */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34511, 8, 40763) /* Flaming Nodachi */
+     , (34511, 8, 2436) /* Greater Mana Stone */
+     , (34511, 8, 34455) /* Azaxis Token */
+     , (34511, 8, 21336) /* Scroll of Shock Arc VII */
+     , (34511, 8, 2435) /* Mana Stone */
+     , (34511, 8, 20523) /* Scroll of Ketnan's Boon */
+     , (34511, 8, 27330) /* Moderate Mana Stone */
+     , (34511, 8, 148) /* Cup */
+     , (34511, 8, 20237) /* Scroll of Perseverance */
+     , (34511, 8, 273) /* Pyreal */
+     , (34511, 8, 149) /* Ewer */
+     , (34511, 8, 163) /* Ornamental Bowl */
+     , (34511, 8, 132) /* Shoes */
+     , (34511, 8, 2596) /* Doublet */
+     , (34511, 8, 243) /* Dinner Plate */
+     , (34511, 8, 8326) /* Copper Pea */
+     , (34511, 8, 21329) /* Scroll of Lightning Arc VII */
+     , (34511, 8, 8328) /* Iron Pea */
+     , (34511, 8, 133) /* Slippers */
+     , (34511, 8, 621) /* Heavy Bracelet */
+     , (34511, 8, 49374) /* Lightning Grievver Essence (80) */
+     , (34511, 8, 624) /* Ring */
+     , (34511, 8, 93) /* Round Shield */
+     , (34511, 8, 49353) /* Fire Moar Essence (80) */
+     , (34511, 8, 99) /* Studded Leather Shirt */
+     , (34511, 8, 311) /* Heavy Crossbow */
+     , (34511, 8, 118) /* Cloth Cap */
+     , (34511, 8, 2399) /* Gem */
+     , (34511, 8, 31759) /* Dericost Blade */
+     , (34511, 8, 3077) /* Scroll of Piercing Vulnerability Other VI */
+     , (34511, 8, 3072) /* Scroll of Piercing Protection Self VI */
+     , (34511, 8, 25650) /* Leather Shorts */
+     , (34511, 8, 2599) /* Trousers */;
+

@@ -48,3 +48,27 @@ VALUES (43691, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43691, 64, 3500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43691, 8, 624) /* Ring */
+     , (43691, 8, 273) /* Pyreal */
+     , (43691, 8, 31799) /* Acid Compound Bow */
+     , (43691, 8, 27328) /* Major Mana Stone */
+     , (43691, 8, 45024) /* Door Key */
+     , (43691, 8, 2422) /* Gem */
+     , (43691, 8, 9229) /* Treated Healing Kit */
+     , (43691, 8, 45025) /* Door Key */
+     , (43691, 8, 2410) /* Gem */
+     , (43691, 8, 27325) /* Stamina Philtre */
+     , (43691, 8, 46883) /* Aura of Swift Killer Other VII */
+     , (43691, 8, 621) /* Heavy Bracelet */
+     , (43691, 8, 37200) /* Olthoi Alduressa Leggings */
+     , (43691, 8, 27321) /* Mana Philtre */
+     , (43691, 8, 37301) /* Glyph of Flame */
+     , (43691, 8, 40685) /* Olthoi Gauntlets */
+     , (43691, 8, 515) /* Superb Lockpick */
+     , (43691, 8, 27318) /* Health Philtre */
+     , (43691, 8, 25638) /* Leather Vest */
+     , (43691, 8, 37358) /* Ink of Separation */;
+

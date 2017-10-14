@@ -39,3 +39,34 @@ VALUES (29052, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29052, 67116363, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29052, 8, 40622) /* Frost Nodachi */
+     , (29052, 8, 112) /* Studded Leather Tassets */
+     , (29052, 8, 512) /* Good Lockpick */
+     , (29052, 8, 2592) /* Puffy Tunic */
+     , (29052, 8, 29054) /* Fledgemaster's Tusk */
+     , (29052, 8, 116) /* Studded Leather Boots */
+     , (29052, 8, 51) /* Platemail Cuirass */
+     , (29052, 8, 273) /* Pyreal */
+     , (29052, 8, 25651) /* Leather Sleeves */
+     , (29052, 8, 3898) /* Lightning Tofun */
+     , (29052, 8, 3110) /* Scroll of Regenerate Other IV */
+     , (29052, 8, 8329) /* Lead Pea */
+     , (29052, 8, 312) /* Light Crossbow */
+     , (29052, 8, 28610) /* Loafers */
+     , (29052, 8, 43323) /* Scroll of Destructive Curse IV */
+     , (29052, 8, 2854) /* Scroll of Lightning Bane IV */
+     , (29052, 8, 44975) /* Hood */
+     , (29052, 8, 31865) /* Circlet */
+     , (29052, 8, 254) /* Stoup */
+     , (29052, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (29052, 8, 2824) /* Scroll of Frost Bane IV */
+     , (29052, 8, 93) /* Round Shield */
+     , (29052, 8, 2435) /* Mana Stone */
+     , (29052, 8, 31779) /* Spine Glaive */
+     , (29052, 8, 108) /* Chainmail Tassets */
+     , (29052, 8, 103) /* Platemail Sleeves */
+     , (29052, 8, 545) /* Reliable Lockpick */;
+

@@ -53,3 +53,9 @@ VALUES (24498, 2, 6) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24498, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24498, 8, 93) /* Round Shield */
+     , (24498, 8, 49461) /* Scroll of Summoning Ineptitude Other VI */;
+

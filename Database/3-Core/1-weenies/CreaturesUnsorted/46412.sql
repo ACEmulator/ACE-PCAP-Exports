@@ -48,3 +48,13 @@ VALUES (46412, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46412, 64, 3400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46412, 8, 49362) /* Frost Moar Essence (125) */
+     , (46412, 8, 116) /* Studded Leather Boots */
+     , (46412, 8, 22166) /* Flaming Quarter Staff */
+     , (46412, 8, 31762) /* Flaming Dericost Blade */
+     , (46412, 8, 28622) /* Tenassa Leggings */
+     , (46412, 8, 25641) /* Leather Cuirass */;
+

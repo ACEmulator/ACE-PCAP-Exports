@@ -49,3 +49,23 @@ VALUES (8013, 2, 47) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8013, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8013, 8, 49303) /* Frost K'nath Essence (50) */
+     , (8013, 8, 5972) /* Scroll of Fletching Mastery Other V */
+     , (8013, 8, 2976) /* Scroll of Acid Protection Other V */
+     , (8013, 8, 41484) /* Goggles */
+     , (8013, 8, 3315) /* Scroll of Item Enchantment Mastery Self IV */
+     , (8013, 8, 84) /* Studded  Leggings */
+     , (8013, 8, 2435) /* Mana Stone */
+     , (8013, 8, 8113) /* Fenmalain Gem */
+     , (8013, 8, 40618) /* Spadone */
+     , (8013, 8, 2427) /* Gem */
+     , (8013, 8, 49366) /* Acid Grievver Essence (50) */
+     , (8013, 8, 545) /* Reliable Lockpick */
+     , (8013, 8, 7794) /* Electric Trident */
+     , (8013, 8, 40821) /* Flaming Corsesca */
+     , (8013, 8, 101) /* Chainmail Sleeves */
+     , (8013, 8, 25645) /* Leather Leggings */;
+

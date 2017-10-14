@@ -93,5 +93,5 @@ VALUES (31841, 12, 16777304)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (31841, 2, 12463);
+VALUES (31841, 2, 12463) /* Atlatl */;
 

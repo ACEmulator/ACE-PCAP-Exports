@@ -53,3 +53,10 @@ VALUES (29351, 14, 16788538)
      , (29351, 5, 16788484)
      , (29351, 0, 16788470);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29351, 8, 30746) /* Dart Flinger */
+     , (29351, 8, 297) /* Ring */
+     , (29351, 8, 4197) /* Acid Nekode */;
+

@@ -48,3 +48,11 @@ VALUES (4259, 2, 36) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4259, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4259, 8, 2413) /* Gem */
+     , (4259, 8, 8329) /* Lead Pea */
+     , (4259, 8, 2426) /* Gem */
+     , (4259, 8, 2434) /* Lesser Mana Stone */;
+

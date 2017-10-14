@@ -113,43 +113,43 @@ VALUES (30027, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30027, 4, 15269)
-     , (30027, 4, 2765)
-     , (30027, 4, 2770)
-     , (30027, 4, 46849)
-     , (30027, 4, 2785)
-     , (30027, 4, 46850)
-     , (30027, 4, 2810)
-     , (30027, 4, 46851)
-     , (30027, 4, 2835)
-     , (30027, 4, 46852)
-     , (30027, 4, 2891)
-     , (30027, 4, 46853)
-     , (30027, 4, 28006)
-     , (30027, 4, 46854)
-     , (30027, 4, 2885)
-     , (30027, 4, 2775)
-     , (30027, 4, 2780)
-     , (30027, 4, 2790)
-     , (30027, 4, 2795)
-     , (30027, 4, 2800)
-     , (30027, 4, 2805)
-     , (30027, 4, 2815)
-     , (30027, 4, 2820)
-     , (30027, 4, 2825)
-     , (30027, 4, 2830)
-     , (30027, 4, 2840)
-     , (30027, 4, 2845)
-     , (30027, 4, 2850)
-     , (30027, 4, 2855)
-     , (30027, 4, 2860)
-     , (30027, 4, 2865)
-     , (30027, 4, 2870)
-     , (30027, 4, 2875)
-     , (30027, 4, 28013)
-     , (30027, 4, 2880)
-     , (30027, 4, 2896)
-     , (30027, 4, 2901)
-     , (30027, 4, 2905)
-     , (30027, 4, 20623);
+VALUES (30027, 4, 15269) /* Foci of Artifice */
+     , (30027, 4, 2765) /* Scroll of Acid Bane V */
+     , (30027, 4, 2770) /* Scroll of Acid Lure V */
+     , (30027, 4, 46849) /* Aura of Blood Drinker Other V */
+     , (30027, 4, 2785) /* Aura of Blood Drinker Self V */
+     , (30027, 4, 46850) /* Aura of Defender Other V */
+     , (30027, 4, 2810) /* Aura of Defender Self V */
+     , (30027, 4, 46851) /* Aura of Heartseeker Other V */
+     , (30027, 4, 2835) /* Aura of Heartseeker Self V */
+     , (30027, 4, 46852) /* Aura of Hermetic Link Other V */
+     , (30027, 4, 2891) /* Aura of Hermetic Link Self V */
+     , (30027, 4, 46853) /* Aura of Spirit Drinker Other V */
+     , (30027, 4, 28006) /* Aura of Spirit Drinker Self V */
+     , (30027, 4, 46854) /* Aura of Swift Killer Other V */
+     , (30027, 4, 2885) /* Aura of Swift Killer Self V */
+     , (30027, 4, 2775) /* Scroll of Blade Bane V */
+     , (30027, 4, 2780) /* Scroll of Blade Lure V */
+     , (30027, 4, 2790) /* Scroll of Blood Loather V */
+     , (30027, 4, 2795) /* Scroll of Bludgeon Bane V */
+     , (30027, 4, 2800) /* Scroll of Bludgeon Lure V */
+     , (30027, 4, 2805) /* Scroll of Brittlemail V */
+     , (30027, 4, 2815) /* Scroll of Flame Bane V */
+     , (30027, 4, 2820) /* Scroll of Flame Lure V */
+     , (30027, 4, 2825) /* Scroll of Frost Bane V */
+     , (30027, 4, 2830) /* Scroll of Frost Lure V */
+     , (30027, 4, 2840) /* Scroll of Hermetic Void V */
+     , (30027, 4, 2845) /* Scroll of Impenetrability V */
+     , (30027, 4, 2850) /* Scroll of Leaden Weapon V */
+     , (30027, 4, 2855) /* Scroll of Lightning Bane V */
+     , (30027, 4, 2860) /* Scroll of Lightning Lure V */
+     , (30027, 4, 2865) /* Scroll of Lure Blade V */
+     , (30027, 4, 2870) /* Scroll of Piercing Bane V */
+     , (30027, 4, 2875) /* Scroll of Piercing Lure V */
+     , (30027, 4, 28013) /* Scroll of Spirit Loather V */
+     , (30027, 4, 2880) /* Scroll of Strengthen Lock V */
+     , (30027, 4, 2896) /* Scroll of Turn Blade V */
+     , (30027, 4, 2901) /* Scroll of Weaken Lock V */
+     , (30027, 4, 2905) /* Scroll of Summon Primary Portal II */
+     , (30027, 4, 20623) /* Scroll of Summon Secondary Portal II */;
 

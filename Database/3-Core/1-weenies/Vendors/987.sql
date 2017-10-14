@@ -128,47 +128,47 @@ VALUES (987, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (987, 4, 35)
-     , (987, 4, 551)
-     , (987, 4, 554)
-     , (987, 4, 413)
-     , (987, 4, 414)
-     , (987, 4, 55)
-     , (987, 4, 415)
-     , (987, 4, 2605)
-     , (987, 4, 108)
-     , (987, 4, 80)
-     , (987, 4, 416)
-     , (987, 4, 85)
-     , (987, 4, 46)
-     , (987, 4, 116)
-     , (987, 4, 38)
-     , (987, 4, 42)
-     , (987, 4, 723)
-     , (987, 4, 59)
-     , (987, 4, 63)
-     , (987, 4, 68)
-     , (987, 4, 112)
-     , (987, 4, 84)
-     , (987, 4, 89)
-     , (987, 4, 93)
-     , (987, 4, 308)
-     , (987, 4, 313)
-     , (987, 4, 316)
-     , (987, 4, 326)
-     , (987, 4, 328)
-     , (987, 4, 22163)
-     , (987, 4, 345)
-     , (987, 4, 315)
-     , (987, 4, 357)
-     , (987, 4, 2621)
-     , (987, 4, 2622)
-     , (987, 4, 2623)
-     , (987, 4, 45683)
-     , (987, 4, 45684);
+VALUES (987, 4, 35) /* Chainmail Basinet */
+     , (987, 4, 551) /* Basinet */
+     , (987, 4, 554) /* Studded Leather Basinet */
+     , (987, 4, 413) /* Chainmail Bracers */
+     , (987, 4, 414) /* Chainmail Breastplate */
+     , (987, 4, 55) /* Chainmail Gauntlets */
+     , (987, 4, 415) /* Chainmail Girth */
+     , (987, 4, 2605) /* Chainmail Greaves */
+     , (987, 4, 108) /* Chainmail Tassets */
+     , (987, 4, 80) /* Chainmail Leggings */
+     , (987, 4, 416) /* Chainmail Pauldrons */
+     , (987, 4, 85) /* Chainmail Coif */
+     , (987, 4, 46) /* Metal Cap */
+     , (987, 4, 116) /* Studded Leather Boots */
+     , (987, 4, 38) /* Studded Leather Bracers */
+     , (987, 4, 42) /* Studded Leather Breastplate */
+     , (987, 4, 723) /* Studded Leather Cowl */
+     , (987, 4, 59) /* Studded Leather Gauntlets */
+     , (987, 4, 63) /* Studded Leather Girth */
+     , (987, 4, 68) /* Studded Leather Greaves */
+     , (987, 4, 112) /* Studded Leather Tassets */
+     , (987, 4, 84) /* Studded  Leggings */
+     , (987, 4, 89) /* Studded Leather Pauldrons */
+     , (987, 4, 93) /* Round Shield */
+     , (987, 4, 308) /* Budiaq */
+     , (987, 4, 313) /* Dabus */
+     , (987, 4, 316) /* Throwing Dart */
+     , (987, 4, 326) /* Katar */
+     , (987, 4, 328) /* Khanjar */
+     , (987, 4, 22163) /* Nabut */
+     , (987, 4, 345) /* Simi */
+     , (987, 4, 315) /* Throwing Dagger */
+     , (987, 4, 357) /* Tungi */
+     , (987, 4, 2621) /* Trade Note (100) */
+     , (987, 4, 2622) /* Trade Note (500) */
+     , (987, 4, 2623) /* Trade Note (1,000) */
+     , (987, 4, 45683) /* Left-hand Tether */
+     , (987, 4, 45684) /* Left-hand Tether Remover */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (987, 2, 313);
+VALUES (987, 2, 313) /* Dabus */;
 

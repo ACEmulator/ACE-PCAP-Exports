@@ -45,3 +45,18 @@ VALUES (19537, 2, 62) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (19537, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19537, 8, 30616) /* Arbalest */
+     , (19537, 8, 2436) /* Greater Mana Stone */
+     , (19537, 8, 27330) /* Moderate Mana Stone */
+     , (19537, 8, 2421) /* Gem */
+     , (19537, 8, 273) /* Pyreal */
+     , (19537, 8, 2412) /* Gem */
+     , (19537, 8, 31864) /* Teardrop Crown */
+     , (19537, 8, 20421) /* Scroll of Astyrrian Bait */
+     , (19537, 8, 29204) /* Tusker Spit */
+     , (19537, 8, 49355) /* Fire Moar Essence (125) */
+     , (19537, 8, 49485) /* Encapsulated Spirit */;
+

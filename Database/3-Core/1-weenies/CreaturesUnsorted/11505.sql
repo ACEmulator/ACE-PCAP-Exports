@@ -86,3 +86,16 @@ VALUES (11505, 12, 16777304)
      , (11505, 8, 16781839)
      , (11505, 16, 16789596);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11505, 8, 3766) /* Acid Club */
+     , (11505, 8, 49485) /* Encapsulated Spirit */
+     , (11505, 8, 49345) /* Lightning Moar Essence (50) */
+     , (11505, 8, 46882) /* Aura of Spirit Drinker Other VII */
+     , (11505, 8, 25641) /* Leather Cuirass */
+     , (11505, 8, 4199) /* Lightning Nekode */
+     , (11505, 8, 512) /* Good Lockpick */
+     , (11505, 8, 31788) /* Stick */
+     , (11505, 8, 40636) /* Acid Tetsubo */;
+

@@ -25,7 +25,7 @@ VALUES (31986, 1, 512) /* ITEM_TYPE_INT */
      , (31986, 16, 48) /* ITEM_USEABLE_INT */
      , (31986, 19, 2500) /* VALUE_INT */
      , (31986, 93, 1048) /* PHYSICS_STATE_INT */
-     , (31986, 9007, 21) /* Container_WeenieType */;
+     , (31986, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (31986, 54, 1) /* USE_RADIUS_FLOAT */
@@ -53,4 +53,23 @@ VALUES (31986, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31986, 2, 0) /* OPEN_BOOL */
      , (31986, 3, 1) /* LOCKED_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31986, 8, 273) /* Pyreal */
+     , (31986, 8, 20555) /* Scroll of Fat Fingers */
+     , (31986, 8, 20467) /* Scroll of Olthoi's Gift */
+     , (31986, 8, 25649) /* Leather Shirt */
+     , (31986, 8, 93) /* Round Shield */
+     , (31986, 8, 62) /* Scalemail Girth */
+     , (31986, 8, 3818) /* Acid Katar */
+     , (31986, 8, 3817) /* Frost Kasrullah */
+     , (31986, 8, 2407) /* Gem */
+     , (31986, 8, 25646) /* Long Leather Gauntlets */
+     , (31986, 8, 2410) /* Gem */
+     , (31986, 8, 41483) /* Compass */
+     , (31986, 8, 9229) /* Treated Healing Kit */
+     , (31986, 8, 31992) /* Cerulean Pigmentation Apparatus */
+     , (31986, 8, 31991) /* Heliotropic Pigmentation Apparatus */;
 

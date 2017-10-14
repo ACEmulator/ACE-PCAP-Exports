@@ -36,3 +36,10 @@ VALUES (7401, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7401, 67116527, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7401, 8, 49539) /* Frost Phyntos Wasp Essence (80) */
+     , (7401, 8, 128) /* Qafiya */
+     , (7401, 8, 7379) /* Singed Note */;
+

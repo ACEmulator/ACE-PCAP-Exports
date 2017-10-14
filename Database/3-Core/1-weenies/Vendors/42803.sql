@@ -124,23 +124,23 @@ VALUES (42803, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42803, 4, 4746)
-     , (42803, 4, 5136)
-     , (42803, 4, 2465)
-     , (42803, 4, 2459)
-     , (42803, 4, 2469)
-     , (42803, 4, 8378)
-     , (42803, 4, 4723)
-     , (42803, 4, 4730)
-     , (42803, 4, 4726)
-     , (42803, 4, 4740)
-     , (42803, 4, 5163)
-     , (42803, 4, 45028)
-     , (42803, 4, 45026)
-     , (42803, 4, 45027)
-     , (42803, 4, 45029)
-     , (42803, 4, 46905)
-     , (42803, 4, 46906)
-     , (42803, 4, 46907)
-     , (42803, 4, 47163);
+VALUES (42803, 4, 4746) /* Water */
+     , (42803, 4, 5136) /* Cove Apple Cider */
+     , (42803, 4, 2465) /* Palm Wine */
+     , (42803, 4, 2459) /* Kumiss */
+     , (42803, 4, 2469) /* Small Beer */
+     , (42803, 4, 8378) /* Beer Stein */
+     , (42803, 4, 4723) /* Fish Kebab */
+     , (42803, 4, 4730) /* Fried Fish Filet */
+     , (42803, 4, 4726) /* Fish Stew */
+     , (42803, 4, 4740) /* Pickled Fish */
+     , (42803, 4, 5163) /* Directions to the Sea Temple Catacombs */
+     , (42803, 4, 45028) /* Contract for Jailbreak: General Population */
+     , (42803, 4, 45026) /* Contract for Jailbreak: Ardent Leader */
+     , (42803, 4, 45027) /* Contract for Jailbreak: Blessed Leader */
+     , (42803, 4, 45029) /* Contract for Jailbreak: Verdant Leader */
+     , (42803, 4, 46905) /* Contract for Ninja Academy */
+     , (42803, 4, 46906) /* Contract for Tanada Intercept */
+     , (42803, 4, 46907) /* Contract for Tanada Slaughter */
+     , (42803, 4, 47163) /* Contract for Nanjou Stockade */;
 

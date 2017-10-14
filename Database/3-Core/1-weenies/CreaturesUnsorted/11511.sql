@@ -39,3 +39,27 @@ VALUES (11511, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11511, 67113369, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11511, 8, 71) /* Chainmail Hauberk */
+     , (11511, 8, 2396) /* Gem */
+     , (11511, 8, 95) /* Tower Shield */
+     , (11511, 8, 630) /* Gifted Healing Kit */
+     , (11511, 8, 45417) /* Acid Knife */
+     , (11511, 8, 629) /* Adept Healing Kit */
+     , (11511, 8, 31791) /* Flaming Stick */
+     , (11511, 8, 107) /* Sollerets */
+     , (11511, 8, 40821) /* Flaming Corsesca */
+     , (11511, 8, 273) /* Pyreal */
+     , (11511, 8, 295) /* Bracelet */
+     , (11511, 8, 2414) /* Gem */
+     , (11511, 8, 3270) /* Scroll of Healing Ineptitude IV */
+     , (11511, 8, 2589) /* Smock */
+     , (11511, 8, 512) /* Good Lockpick */
+     , (11511, 8, 38) /* Studded Leather Bracers */
+     , (11511, 8, 119) /* Cowl */
+     , (11511, 8, 545) /* Reliable Lockpick */
+     , (11511, 8, 49331) /* Frost Wisp Essence (50) */
+     , (11511, 8, 254) /* Stoup */;
+

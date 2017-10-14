@@ -51,3 +51,50 @@ VALUES (11504, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11504, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11504, 8, 31865) /* Circlet */
+     , (11504, 8, 20408) /* Scroll of Tusker's Bane */
+     , (11504, 8, 41064) /* Lightning Khanda-handled Mace */
+     , (11504, 8, 631) /* Excellent Healing Kit */
+     , (11504, 8, 55) /* Chainmail Gauntlets */
+     , (11504, 8, 25636) /* Leather Helm */
+     , (11504, 8, 273) /* Pyreal */
+     , (11504, 8, 3803) /* Lightning Jitte */
+     , (11504, 8, 25652) /* Leather Tassets */
+     , (11504, 8, 40701) /* Covenant Helm */
+     , (11504, 8, 415) /* Chainmail Girth */
+     , (11504, 8, 27322) /* Mana Tincture */
+     , (11504, 8, 2598) /* Baggy Pants */
+     , (11504, 8, 49485) /* Encapsulated Spirit */
+     , (11504, 8, 53) /* Studded Leather Cuirass */
+     , (11504, 8, 49442) /* Frost Spectre Essence (50) */
+     , (11504, 8, 624) /* Ring */
+     , (11504, 8, 2672) /* Scroll of Feeblemind Other V */
+     , (11504, 8, 40713) /* Covenant Shield */
+     , (11504, 8, 30601) /* Stiletto */
+     , (11504, 8, 2470) /* Stamina Elixir */
+     , (11504, 8, 49310) /* Acid Wisp Essence (50) */
+     , (11504, 8, 148) /* Cup */
+     , (11504, 8, 512) /* Good Lockpick */
+     , (11504, 8, 40524) /* Contact Instructions */
+     , (11504, 8, 307) /* Shortbow */
+     , (11504, 8, 31774) /* Board with Nail */
+     , (11504, 8, 28607) /* Lace Shirt */
+     , (11504, 8, 25646) /* Long Leather Gauntlets */
+     , (11504, 8, 2547) /* Staff */
+     , (11504, 8, 27330) /* Moderate Mana Stone */
+     , (11504, 8, 413) /* Chainmail Bracers */
+     , (11504, 8, 414) /* Chainmail Breastplate */
+     , (11504, 8, 25638) /* Leather Vest */
+     , (11504, 8, 2472) /* Wand */
+     , (11504, 8, 8489) /* Heaume */
+     , (11504, 8, 3227) /* Scroll of Finesse Weapon Mastery Other VI */
+     , (11504, 8, 45875) /* Lucky Gold Letter */
+     , (11504, 8, 43299) /* Scroll of Nether Arc VI */
+     , (11504, 8, 68) /* Studded Leather Greaves */
+     , (11504, 8, 49324) /* Fire Wisp Essence (50) */
+     , (11504, 8, 30746) /* Dart Flinger */
+     , (11504, 8, 44853) /* Bordered Cloak */;
+

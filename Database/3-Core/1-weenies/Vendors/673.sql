@@ -128,22 +128,22 @@ VALUES (673, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (673, 4, 2457)
-     , (673, 4, 377)
-     , (673, 4, 27319)
-     , (673, 4, 2460)
-     , (673, 4, 379)
-     , (673, 4, 27322)
-     , (673, 4, 378)
-     , (673, 4, 27326)
-     , (673, 4, 2470)
-     , (673, 4, 628)
-     , (673, 4, 629)
-     , (673, 4, 630)
-     , (673, 4, 4607)
-     , (673, 4, 4610)
-     , (673, 4, 4597)
-     , (673, 4, 4589)
-     , (673, 4, 2621)
-     , (673, 4, 2622);
+VALUES (673, 4, 2457) /* Health Draught */
+     , (673, 4, 377) /* Potion of Healing */
+     , (673, 4, 27319) /* Health Tincture */
+     , (673, 4, 2460) /* Mana Draught */
+     , (673, 4, 379) /* Mana Potion */
+     , (673, 4, 27322) /* Mana Tincture */
+     , (673, 4, 378) /* Stamina Potion */
+     , (673, 4, 27326) /* Stamina Tincture */
+     , (673, 4, 2470) /* Stamina Elixir */
+     , (673, 4, 628) /* Handy Healing Kit */
+     , (673, 4, 629) /* Adept Healing Kit */
+     , (673, 4, 630) /* Gifted Healing Kit */
+     , (673, 4, 4607) /* Quickness Other II */
+     , (673, 4, 4610) /* Willpower Other I */
+     , (673, 4, 4597) /* Rejuvenation Other I */
+     , (673, 4, 4589) /* Revitalize Other I */
+     , (673, 4, 2621) /* Trade Note (100) */
+     , (673, 4, 2622) /* Trade Note (500) */;
 

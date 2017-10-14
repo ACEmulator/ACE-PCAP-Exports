@@ -53,3 +53,10 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3994, 2, 0) /* OPEN_BOOL */
      , (3994, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3994, 8, 3072) /* Scroll of Piercing Protection Self VI */
+     , (3994, 8, 30586) /* Flanged Mace */
+     , (3994, 8, 7940) /* Empty Flask */;
+

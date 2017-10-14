@@ -127,36 +127,36 @@ VALUES (1816, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1816, 4, 35)
-     , (1816, 4, 551)
-     , (1816, 4, 554)
-     , (1816, 4, 413)
-     , (1816, 4, 414)
-     , (1816, 4, 55)
-     , (1816, 4, 415)
-     , (1816, 4, 2605)
-     , (1816, 4, 108)
-     , (1816, 4, 80)
-     , (1816, 4, 416)
-     , (1816, 4, 85)
-     , (1816, 4, 46)
-     , (1816, 4, 116)
-     , (1816, 4, 38)
-     , (1816, 4, 42)
-     , (1816, 4, 723)
-     , (1816, 4, 59)
-     , (1816, 4, 63)
-     , (1816, 4, 68)
-     , (1816, 4, 112)
-     , (1816, 4, 84)
-     , (1816, 4, 89)
-     , (1816, 4, 93)
-     , (1816, 4, 2621)
-     , (1816, 4, 2622)
-     , (1816, 4, 2623);
+VALUES (1816, 4, 35) /* Chainmail Basinet */
+     , (1816, 4, 551) /* Basinet */
+     , (1816, 4, 554) /* Studded Leather Basinet */
+     , (1816, 4, 413) /* Chainmail Bracers */
+     , (1816, 4, 414) /* Chainmail Breastplate */
+     , (1816, 4, 55) /* Chainmail Gauntlets */
+     , (1816, 4, 415) /* Chainmail Girth */
+     , (1816, 4, 2605) /* Chainmail Greaves */
+     , (1816, 4, 108) /* Chainmail Tassets */
+     , (1816, 4, 80) /* Chainmail Leggings */
+     , (1816, 4, 416) /* Chainmail Pauldrons */
+     , (1816, 4, 85) /* Chainmail Coif */
+     , (1816, 4, 46) /* Metal Cap */
+     , (1816, 4, 116) /* Studded Leather Boots */
+     , (1816, 4, 38) /* Studded Leather Bracers */
+     , (1816, 4, 42) /* Studded Leather Breastplate */
+     , (1816, 4, 723) /* Studded Leather Cowl */
+     , (1816, 4, 59) /* Studded Leather Gauntlets */
+     , (1816, 4, 63) /* Studded Leather Girth */
+     , (1816, 4, 68) /* Studded Leather Greaves */
+     , (1816, 4, 112) /* Studded Leather Tassets */
+     , (1816, 4, 84) /* Studded  Leggings */
+     , (1816, 4, 89) /* Studded Leather Pauldrons */
+     , (1816, 4, 93) /* Round Shield */
+     , (1816, 4, 2621) /* Trade Note (100) */
+     , (1816, 4, 2622) /* Trade Note (500) */
+     , (1816, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1816, 2, 313);
+VALUES (1816, 2, 313) /* Dabus */;
 

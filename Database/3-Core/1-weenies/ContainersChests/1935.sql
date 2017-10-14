@@ -49,3 +49,34 @@ VALUES (1935, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1935, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1935, 8, 129) /* Sandals */
+     , (1935, 8, 2604) /* Wide Breeches */
+     , (1935, 8, 2400) /* Gem */
+     , (1935, 8, 2431) /* Gem */
+     , (1935, 8, 119) /* Cowl */
+     , (1935, 8, 49421) /* Acid Spectre Essence (50) */
+     , (1935, 8, 2429) /* Gem */
+     , (1935, 8, 2589) /* Smock */
+     , (1935, 8, 2432) /* Gem */
+     , (1935, 8, 2428) /* Gem */
+     , (1935, 8, 622) /* Necklace */
+     , (1935, 8, 49442) /* Frost Spectre Essence (50) */
+     , (1935, 8, 624) /* Ring */
+     , (1935, 8, 2413) /* Gem */
+     , (1935, 8, 2594) /* Flared Tunic */
+     , (1935, 8, 148) /* Cup */
+     , (1935, 8, 49303) /* Frost K'nath Essence (50) */
+     , (1935, 8, 2597) /* Flared Pants */
+     , (1935, 8, 161) /* Mug */
+     , (1935, 8, 2433) /* Gem */
+     , (1935, 8, 2414) /* Gem */
+     , (1935, 8, 49310) /* Acid Wisp Essence (50) */
+     , (1935, 8, 2417) /* Gem */
+     , (1935, 8, 2427) /* Gem */
+     , (1935, 8, 7940) /* Empty Flask */
+     , (1935, 8, 127) /* Pants */
+     , (1935, 8, 2430) /* Gem */;
+

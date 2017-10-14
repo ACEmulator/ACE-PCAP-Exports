@@ -47,3 +47,26 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (40930, 0, 16789208)
      , (40930, 1, 16789209);
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40930, 8, 9010) /* Unreadable Scroll */
+     , (40930, 8, 40909) /* Mana-infused Acid War Staff of Aerfalle */
+     , (40930, 8, 40907) /* Aerfalle's Mana-infused Pallium */
+     , (40930, 8, 40908) /* Reforged Ashbane */
+     , (40930, 8, 40912) /* Aerfalle's Embossed Token */
+     , (40930, 8, 27230) /* Nariyid Helm */
+     , (40930, 8, 49222) /* Lightning Skeleton Minion Essence (100) */
+     , (40930, 8, 7796) /* Fire Naginata */
+     , (40930, 8, 37353) /* Ink of Formation */
+     , (40930, 8, 37329) /* Glyph of Run */
+     , (40930, 8, 37301) /* Glyph of Flame */
+     , (40930, 8, 46035) /* Enhanced Black Fire Atlan Stone */
+     , (40930, 8, 4198) /* Frost Nekode */
+     , (40930, 8, 73) /* Scalemail Hauberk */
+     , (40930, 8, 43833) /* Sedgemail Leather Sleeves */
+     , (40930, 8, 37360) /* Ink of Conveyance */
+     , (40930, 8, 37364) /* Quill of Introspection */
+     , (40930, 8, 37318) /* Glyph of Mana */
+     , (40930, 8, 37363) /* Quill of Infliction */;
+

@@ -45,5 +45,5 @@ VALUES (34826, 67114922, 0, 0);
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (34826, 2, 26055);
+VALUES (34826, 2, 26055) /* Bone Sword */;
 

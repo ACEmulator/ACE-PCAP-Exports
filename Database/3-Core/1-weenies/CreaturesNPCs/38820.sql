@@ -111,5 +111,5 @@ VALUES (38820, 5, 16789351)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (38820, 2, 30625);
+VALUES (38820, 2, 30625) /* War Bow */;
 

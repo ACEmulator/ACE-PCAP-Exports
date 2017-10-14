@@ -33,3 +33,13 @@ VALUES (51880, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (51880, 19, True) /* ATTACKABLE_BOOL */
      , (51880, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51880, 8, 621) /* Heavy Bracelet */
+     , (51880, 8, 9229) /* Treated Healing Kit */
+     , (51880, 8, 273) /* Pyreal */
+     , (51880, 8, 2597) /* Flared Pants */
+     , (51880, 8, 27328) /* Major Mana Stone */
+     , (51880, 8, 149) /* Ewer */;
+

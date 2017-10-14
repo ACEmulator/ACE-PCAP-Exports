@@ -127,12 +127,12 @@ VALUES (978, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (978, 4, 546)
-     , (978, 4, 259)
-     , (978, 4, 5758)
-     , (978, 4, 4761)
-     , (978, 4, 4746)
-     , (978, 4, 4754)
-     , (978, 4, 136)
-     , (978, 4, 139);
+VALUES (978, 4, 546) /* Egg */
+     , (978, 4, 259) /* Bread */
+     , (978, 4, 5758) /* Carrot */
+     , (978, 4, 4761) /* Flour */
+     , (978, 4, 4746) /* Water */
+     , (978, 4, 4754) /* Baking Pan */
+     , (978, 4, 136) /* Pack */
+     , (978, 4, 139) /* Small Belt Pouch */;
 

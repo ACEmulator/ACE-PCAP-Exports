@@ -132,3 +132,13 @@ VALUES (34513, 14, 'If you have been honored with this champion''s password you 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34513, 111, 49) /* PORTAL_BITMASK_INT */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34513, 8, 624) /* Ring */
+     , (34513, 8, 34451) /* Demon Swarm Matron Token */
+     , (34513, 8, 42) /* Studded Leather Breastplate */
+     , (34513, 8, 49221) /* Lightning Skeleton Minion Essence (80) */
+     , (34513, 8, 45112) /* Shadow Blade of Frost */
+     , (34513, 8, 20413) /* Scroll of Inferno Bait */;
+

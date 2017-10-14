@@ -59,3 +59,11 @@ VALUES (1466, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1466, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1466, 256, 205) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1466, 8, 105) /* Studded Leather Sleeves */
+     , (1466, 8, 31865) /* Circlet */
+     , (1466, 8, 359) /* War Hammer */
+     , (1466, 8, 6661) /* The Ruby Al-Khur */;
+

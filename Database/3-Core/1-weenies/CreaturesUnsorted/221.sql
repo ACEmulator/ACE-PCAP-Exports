@@ -48,3 +48,35 @@ VALUES (221, 2, 16) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (221, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (221, 8, 306) /* Longbow */
+     , (221, 8, 297) /* Ring */
+     , (221, 8, 168) /* Tankard */
+     , (221, 8, 3008) /* Scroll of Bludgeon Protection Self II */
+     , (221, 8, 2457) /* Health Draught */
+     , (221, 8, 2415) /* Gem */
+     , (221, 8, 3219) /* Scroll of Finesse Weapon Ineptitude Other III */
+     , (221, 8, 45119) /* Acid Hand Wraps */
+     , (221, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (221, 8, 2418) /* Gem */
+     , (221, 8, 45400) /* Frost Short Sword */
+     , (221, 8, 5894) /* Fez */
+     , (221, 8, 45115) /* Lightning Hammer */
+     , (221, 8, 27331) /* Minor Mana Stone */
+     , (221, 8, 41488) /* Top */
+     , (221, 8, 254) /* Stoup */
+     , (221, 8, 273) /* Pyreal */
+     , (221, 8, 296) /* Crown */
+     , (221, 8, 7792) /* Fire Trident */
+     , (221, 8, 112) /* Studded Leather Tassets */
+     , (221, 8, 295) /* Bracelet */
+     , (221, 8, 622) /* Necklace */
+     , (221, 8, 2602) /* Loose Breeches */
+     , (221, 8, 49442) /* Frost Spectre Essence (50) */
+     , (221, 8, 43279) /* Scroll of Corrosion II */
+     , (221, 8, 27326) /* Stamina Tincture */
+     , (221, 8, 49254) /* Frost Zombie Essence (50) */
+     , (221, 8, 2420) /* Gem */;
+

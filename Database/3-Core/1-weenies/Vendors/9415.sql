@@ -85,42 +85,42 @@ VALUES (9415, 37, 0.9) /* BUY_PRICE_FLOAT */
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (9415, 4, 35)
-     , (9415, 4, 413)
-     , (9415, 4, 414)
-     , (9415, 4, 55)
-     , (9415, 4, 415)
-     , (9415, 4, 71)
-     , (9415, 4, 80)
-     , (9415, 4, 416)
-     , (9415, 4, 85)
-     , (9415, 4, 8489)
-     , (9415, 4, 8488)
-     , (9415, 4, 75)
-     , (9415, 4, 76)
-     , (9415, 4, 540)
-     , (9415, 4, 543)
-     , (9415, 4, 541)
-     , (9415, 4, 544)
-     , (9415, 4, 7765)
-     , (9415, 4, 40)
-     , (9415, 4, 57)
-     , (9415, 4, 61)
-     , (9415, 4, 66)
-     , (9415, 4, 110)
-     , (9415, 4, 82)
-     , (9415, 4, 87)
-     , (9415, 4, 114)
-     , (9415, 4, 92)
-     , (9415, 4, 95)
-     , (9415, 4, 2621)
-     , (9415, 4, 2622)
-     , (9415, 4, 2623)
-     , (9415, 4, 2624)
-     , (9415, 4, 2625)
-     , (9415, 4, 2626)
-     , (9415, 4, 2627)
-     , (9415, 4, 20628)
-     , (9415, 4, 20629)
-     , (9415, 4, 20630);
+VALUES (9415, 4, 35) /* Chainmail Basinet */
+     , (9415, 4, 413) /* Chainmail Bracers */
+     , (9415, 4, 414) /* Chainmail Breastplate */
+     , (9415, 4, 55) /* Chainmail Gauntlets */
+     , (9415, 4, 415) /* Chainmail Girth */
+     , (9415, 4, 71) /* Chainmail Hauberk */
+     , (9415, 4, 80) /* Chainmail Leggings */
+     , (9415, 4, 416) /* Chainmail Pauldrons */
+     , (9415, 4, 85) /* Chainmail Coif */
+     , (9415, 4, 8489) /* Heaume */
+     , (9415, 4, 8488) /* Armet */
+     , (9415, 4, 75) /* Helmet */
+     , (9415, 4, 76) /* Qafiya */
+     , (9415, 4, 540) /* Lugian Axe */
+     , (9415, 4, 543) /* Lugian Mace */
+     , (9415, 4, 541) /* Lugian Club */
+     , (9415, 4, 544) /* Lugian Morning Star */
+     , (9415, 4, 7765) /* Lugian Board with Nail */
+     , (9415, 4, 40) /* Platemail Breastplate */
+     , (9415, 4, 57) /* Platemail Gauntlets */
+     , (9415, 4, 61) /* Platemail Girth */
+     , (9415, 4, 66) /* Platemail Greaves */
+     , (9415, 4, 110) /* Platemail Tassets */
+     , (9415, 4, 82) /* Platemail Leggings */
+     , (9415, 4, 87) /* Platemail Pauldrons */
+     , (9415, 4, 114) /* Platemail Vambraces */
+     , (9415, 4, 92) /* Large Kite Shield */
+     , (9415, 4, 95) /* Tower Shield */
+     , (9415, 4, 2621) /* Trade Note (100) */
+     , (9415, 4, 2622) /* Trade Note (500) */
+     , (9415, 4, 2623) /* Trade Note (1,000) */
+     , (9415, 4, 2624) /* Trade Note (5,000) */
+     , (9415, 4, 2625) /* Trade Note (10,000) */
+     , (9415, 4, 2626) /* Trade Note (50,000) */
+     , (9415, 4, 2627) /* Trade Note (100,000) */
+     , (9415, 4, 20628) /* Trade Note (150,000) */
+     , (9415, 4, 20629) /* Trade Note (200,000) */
+     , (9415, 4, 20630) /* Trade Note (250,000) */;
 

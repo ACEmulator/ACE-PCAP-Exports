@@ -91,6 +91,16 @@ VALUES (34970, 64, 2505) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (34970, 2, 48105)
-     , (34970, 2, 48104);
+VALUES (34970, 2, 48105) /* Sickle */
+     , (34970, 2, 48104) /* Khopesh */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34970, 8, 20480) /* Scroll of Storm's Boon */
+     , (34970, 8, 59) /* Studded Leather Gauntlets */
+     , (34970, 8, 35002) /* Lower Catacomb Prison Key */
+     , (34970, 8, 42755) /* Haebrean Boots */
+     , (34970, 8, 20515) /* Scroll of Adja's Blessing */
+     , (34970, 8, 4198) /* Frost Nekode */;
 

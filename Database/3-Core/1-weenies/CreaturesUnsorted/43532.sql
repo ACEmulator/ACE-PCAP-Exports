@@ -93,3 +93,105 @@ VALUES (43532, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43532, 64, 20000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43532, 8, 91) /* Kite Shield */
+     , (43532, 8, 7791) /* Frost Trident */
+     , (43532, 8, 621) /* Heavy Bracelet */
+     , (43532, 8, 20456) /* Scroll of Lhen's Flare */
+     , (43532, 8, 2590) /* Baggy Shirt */
+     , (43532, 8, 414) /* Chainmail Breastplate */
+     , (43532, 8, 54) /* Yoroi Cuirass */
+     , (43532, 8, 25647) /* Leather Pants */
+     , (43532, 8, 154) /* Goblet */
+     , (43532, 8, 22123) /* Empyrean Robe */
+     , (43532, 8, 43533) /* Battle Lord Gregor's Mnemosyne */
+     , (43532, 8, 294) /* Amulet */
+     , (43532, 8, 20595) /* Scroll of Hieromancer's Boon */
+     , (43532, 8, 53) /* Studded Leather Cuirass */
+     , (43532, 8, 41067) /* Shashqa */
+     , (43532, 8, 132) /* Shoes */
+     , (43532, 8, 163) /* Ornamental Bowl */
+     , (43532, 8, 20405) /* Scroll of Swordsman Bait */
+     , (43532, 8, 20481) /* Scroll of Storm's Blessing */
+     , (43532, 8, 295) /* Bracelet */
+     , (43532, 8, 43831) /* Sedgemail Leather Pants */
+     , (43532, 8, 20521) /* Scroll of Finesse Weapon Mastery Self VII */
+     , (43532, 8, 31794) /* Lancet */
+     , (43532, 8, 348) /* Spear */
+     , (43532, 8, 43377) /* Scroll of Void Mastery Self VII */
+     , (43532, 8, 31767) /* Flaming Lugian Hammer */
+     , (43532, 8, 42) /* Studded Leather Breastplate */
+     , (43532, 8, 27234) /* Scroll of Eradicate Creature Magic Self */
+     , (43532, 8, 22158) /* Jo */
+     , (43532, 8, 623) /* Heavy Necklace */
+     , (43532, 8, 2595) /* Baggy Tunic */
+     , (43532, 8, 9229) /* Treated Healing Kit */
+     , (43532, 8, 273) /* Pyreal */
+     , (43532, 8, 40622) /* Frost Nodachi */
+     , (43532, 8, 28629) /* Alduressa Coat */
+     , (43532, 8, 29239) /* Bone Bow */
+     , (43532, 8, 27328) /* Major Mana Stone */
+     , (43532, 8, 31779) /* Spine Glaive */
+     , (43532, 8, 2409) /* Gem */
+     , (43532, 8, 2402) /* Gem */
+     , (43532, 8, 108) /* Chainmail Tassets */
+     , (43532, 8, 8331) /* Silver Pea */
+     , (43532, 8, 21154) /* Covenant Girth */
+     , (43532, 8, 27232) /* Nariyid Sleeves */
+     , (43532, 8, 25661) /* Leather Boots */
+     , (43532, 8, 30558) /* Lightning Hatchet */
+     , (43532, 8, 25641) /* Leather Cuirass */
+     , (43532, 8, 20250) /* Scroll of Replenish */
+     , (43532, 8, 25636) /* Leather Helm */
+     , (43532, 8, 29240) /* Electric Bow */
+     , (43532, 8, 2591) /* Puffy Shirt */
+     , (43532, 8, 49541) /* Frost Phyntos Wasp Essence (125) */
+     , (43532, 8, 25649) /* Leather Shirt */
+     , (43532, 8, 2436) /* Greater Mana Stone */
+     , (43532, 8, 2412) /* Gem */
+     , (43532, 8, 2596) /* Doublet */
+     , (43532, 8, 3906) /* Lightning War Hammer */
+     , (43532, 8, 2589) /* Smock */
+     , (43532, 8, 28627) /* Diforsa Bracers */
+     , (43532, 8, 6005) /* Koujia Sleeves */
+     , (43532, 8, 28622) /* Tenassa Leggings */
+     , (43532, 8, 2601) /* Loose Pants */
+     , (43532, 8, 20414) /* Scroll of Gelidite's Bane */
+     , (43532, 8, 27230) /* Nariyid Helm */
+     , (43532, 8, 8327) /* Gold Pea */
+     , (43532, 8, 27227) /* Nariyid Breastplate */
+     , (43532, 8, 25646) /* Long Leather Gauntlets */
+     , (43532, 8, 7795) /* Frost Naginata */
+     , (43532, 8, 31774) /* Board with Nail */
+     , (43532, 8, 416) /* Chainmail Pauldrons */
+     , (43532, 8, 27217) /* Chiran Helm */
+     , (43532, 8, 516) /* Peerless Lockpick */
+     , (43532, 8, 142) /* Chalice */
+     , (43532, 8, 20575) /* Scroll of Aura of Resistance */
+     , (43532, 8, 43326) /* Scroll of Destructive Curse VII */
+     , (43532, 8, 29265) /* Winter Orb */
+     , (43532, 8, 84) /* Studded  Leggings */
+     , (43532, 8, 624) /* Ring */
+     , (43532, 8, 31803) /* Frost Compound Bow */
+     , (43532, 8, 27325) /* Stamina Philtre */
+     , (43532, 8, 41) /* Scalemail Breastplate */
+     , (43532, 8, 321) /* Jitte */
+     , (43532, 8, 31026) /* Tenassa Breastplate */
+     , (43532, 8, 31865) /* Circlet */
+     , (43532, 8, 2599) /* Trousers */
+     , (43532, 8, 31813) /* Acid Slingshot */
+     , (43532, 8, 116) /* Studded Leather Boots */
+     , (43532, 8, 40712) /* Covenant Pauldrons */
+     , (43532, 8, 43049) /* Knorr Academy Gauntlets */
+     , (43532, 8, 2410) /* Gem */
+     , (43532, 8, 20445) /* Scroll of The Spike */
+     , (43532, 8, 43053) /* Knorr Academy Boots */
+     , (43532, 8, 45266) /* Scroll of Dual Wield Ineptitude Other VII */
+     , (43532, 8, 128) /* Qafiya */
+     , (43532, 8, 8488) /* Armet */
+     , (43532, 8, 63) /* Studded Leather Girth */
+     , (43532, 8, 31759) /* Dericost Blade */
+     , (43532, 8, 31780) /* Acid Spine Glaive */;
+

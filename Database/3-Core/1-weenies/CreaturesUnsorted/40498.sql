@@ -51,3 +51,32 @@ VALUES (40498, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40498, 64, 6000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40498, 8, 27215) /* Chiran Coat */
+     , (40498, 8, 49355) /* Fire Moar Essence (125) */
+     , (40498, 8, 22440) /* Dirk */
+     , (40498, 8, 49368) /* Acid Grievver Essence (100) */
+     , (40498, 8, 49256) /* Frost Zombie Essence (100) */
+     , (40498, 8, 2402) /* Gem */
+     , (40498, 8, 29243) /* Piercing Bow */
+     , (40498, 8, 40489) /* Apostate Message Shard */
+     , (40498, 8, 40705) /* Covenant Sollerets */
+     , (40498, 8, 25647) /* Leather Pants */
+     , (40498, 8, 49369) /* Acid Grievver Essence (125) */
+     , (40498, 8, 20527) /* Scroll of Odif's Boon */
+     , (40498, 8, 44850) /* Chevron Cloak */
+     , (40498, 8, 621) /* Heavy Bracelet */
+     , (40498, 8, 3939) /* Acid Morning Star */
+     , (40498, 8, 46883) /* Aura of Swift Killer Other VII */
+     , (40498, 8, 27217) /* Chiran Helm */
+     , (40498, 8, 20533) /* Scroll of Avalenne's Boon */
+     , (40498, 8, 2598) /* Baggy Pants */
+     , (40498, 8, 42752) /* Haebrean Greaves */
+     , (40498, 8, 49235) /* Acid Zombie Essence (100) */
+     , (40498, 8, 28605) /* Beret */
+     , (40498, 8, 2589) /* Smock */
+     , (40498, 8, 2603) /* Baggy Breeches */
+     , (40498, 8, 2605) /* Chainmail Greaves */;
+

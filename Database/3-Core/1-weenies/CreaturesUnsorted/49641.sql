@@ -99,3 +99,9 @@ VALUES (49641, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (49641, 64, 26335) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (49641, 8, 5853) /* Dho Vest and Robe */
+     , (49641, 8, 49644) /* Door Key */;
+

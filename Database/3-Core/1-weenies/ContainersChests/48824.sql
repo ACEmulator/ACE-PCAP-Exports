@@ -65,3 +65,14 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (48824, 2, 0) /* OPEN_BOOL */
      , (48824, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (48824, 8, 49372) /* Caustic Grievver Essence */
+     , (48824, 8, 27226) /* Nariyid Boots */
+     , (48824, 8, 41486) /* Puzzle Box */
+     , (48824, 8, 621) /* Heavy Bracelet */
+     , (48824, 8, 37198) /* Olthoi Koujia Kabuton */
+     , (48824, 8, 25651) /* Leather Sleeves */
+     , (48824, 8, 130) /* Shirt */;
+

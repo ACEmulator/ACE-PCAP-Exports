@@ -118,22 +118,22 @@ VALUES (45501, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (45501, 4, 45502)
-     , (45501, 4, 45503)
-     , (45501, 4, 45504)
-     , (45501, 4, 45505)
-     , (45501, 4, 45506)
-     , (45501, 4, 45507)
-     , (45501, 4, 45508)
-     , (45501, 4, 45509)
-     , (45501, 4, 45510)
-     , (45501, 4, 45511)
-     , (45501, 4, 45515)
-     , (45501, 4, 45512)
-     , (45501, 4, 45513)
-     , (45501, 4, 45514)
-     , (45501, 4, 45498)
-     , (45501, 4, 45499)
-     , (45501, 4, 45500)
-     , (45501, 4, 45516);
+VALUES (45501, 4, 45502) /* Foolproof Aquamarine Gem */
+     , (45501, 4, 45503) /* Foolproof Black Garnet Gem */
+     , (45501, 4, 45504) /* Foolproof Black Opal Gem */
+     , (45501, 4, 45505) /* Foolproof Emerald Gem */
+     , (45501, 4, 45506) /* Foolproof Fire Opal Gem */
+     , (45501, 4, 45507) /* Foolproof Imperial Topaz Gem */
+     , (45501, 4, 45508) /* Foolproof Jet Gem */
+     , (45501, 4, 45509) /* Foolproof Red Garnet Gem */
+     , (45501, 4, 45510) /* Foolproof Sunstone Gem */
+     , (45501, 4, 45511) /* Foolproof White Sapphire Gem */
+     , (45501, 4, 45515) /* A'nekshay Slayer Stone Gem */
+     , (45501, 4, 45512) /* Greater Mukkir Slayer Stone Gem */
+     , (45501, 4, 45513) /* Spectral Skull Gem */
+     , (45501, 4, 45514) /* Black Skull of Xikma Gem */
+     , (45501, 4, 45498) /* Spectral Force Gem */
+     , (45501, 4, 45499) /* Magic Defense Weapon Augmentation Gem */
+     , (45501, 4, 45500) /* Missile Defense Weapon Augmentation Gem */
+     , (45501, 4, 45516) /* Lucky White Rabbit's Foot Gem */;
 

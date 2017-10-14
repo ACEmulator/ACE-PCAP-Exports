@@ -36,3 +36,32 @@ VALUES (36864, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36864, 67114253, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36864, 8, 21107) /* Scroll of Martyr's Blight VI */
+     , (36864, 8, 154) /* Goblet */
+     , (36864, 8, 8326) /* Copper Pea */
+     , (36864, 8, 2399) /* Gem */
+     , (36864, 8, 2416) /* Gem */
+     , (36864, 8, 2422) /* Gem */
+     , (36864, 8, 273) /* Pyreal */
+     , (36864, 8, 2397) /* Gem */
+     , (36864, 8, 311) /* Heavy Crossbow */
+     , (36864, 8, 8331) /* Silver Pea */
+     , (36864, 8, 41060) /* Flaming Great Star Mace */
+     , (36864, 8, 2589) /* Smock */
+     , (36864, 8, 27330) /* Moderate Mana Stone */
+     , (36864, 8, 31866) /* Coronet */
+     , (36864, 8, 2366) /* Orb */
+     , (36864, 8, 2596) /* Doublet */
+     , (36864, 8, 360) /* Yag */
+     , (36864, 8, 2367) /* Gorget */
+     , (36864, 8, 43334) /* Scroll of Festering Curse VI */
+     , (36864, 8, 2472) /* Wand */
+     , (36864, 8, 40700) /* Covenant Greaves */
+     , (36864, 8, 2421) /* Gem */
+     , (36864, 8, 22158) /* Jo */
+     , (36864, 8, 20248) /* Scroll of Ogfoot */
+     , (36864, 8, 46881) /* Aura of Heartseeker Other VII */;
+

@@ -58,3 +58,49 @@ VALUES (24292, 2, 28) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24292, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24292, 8, 3752) /* Flaming Battle Axe */
+     , (24292, 8, 4199) /* Lightning Nekode */
+     , (24292, 8, 8326) /* Copper Pea */
+     , (24292, 8, 12253) /* Monougat */
+     , (24292, 8, 44854) /* Halved Cloak */
+     , (24292, 8, 512) /* Good Lockpick */
+     , (24292, 8, 2430) /* Gem */
+     , (24292, 8, 2393) /* Gem */
+     , (24292, 8, 20241) /* Scroll of Inner Calm */
+     , (24292, 8, 31868) /* Signet Crown */
+     , (24292, 8, 31763) /* Frost Lugian Hammer */
+     , (24292, 8, 6047) /* Amuli Leggings */
+     , (24292, 8, 336) /* Ono */
+     , (24292, 8, 40618) /* Spadone */
+     , (24292, 8, 273) /* Pyreal */
+     , (24292, 8, 3422) /* Scroll of Magic Item Tinkering Ignorance VI */
+     , (24292, 8, 514) /* Excellent Lockpick */
+     , (24292, 8, 3587) /* Scroll of Weapon Tinkering Expertise Self VI */
+     , (24292, 8, 112) /* Studded Leather Tassets */
+     , (24292, 8, 45101) /* Lightning Epee */
+     , (24292, 8, 96) /* Chainmail Shirt */
+     , (24292, 8, 119) /* Cowl */
+     , (24292, 8, 8328) /* Iron Pea */
+     , (24292, 8, 3892) /* Frost Tachi */
+     , (24292, 8, 43375) /* Scroll of Void Magic Mastery Other VII */
+     , (24292, 8, 2435) /* Mana Stone */
+     , (24292, 8, 40819) /* Acid Corsesca */
+     , (24292, 8, 41053) /* Acid Greataxe */
+     , (24292, 8, 2547) /* Staff */
+     , (24292, 8, 20530) /* Scroll of Lilitha's Boon */
+     , (24292, 8, 6048) /* Celdon Sleeves */
+     , (24292, 8, 42) /* Studded Leather Breastplate */
+     , (24292, 8, 21154) /* Covenant Girth */
+     , (24292, 8, 312) /* Light Crossbow */
+     , (24292, 8, 27330) /* Moderate Mana Stone */
+     , (24292, 8, 40700) /* Covenant Greaves */
+     , (24292, 8, 84) /* Studded  Leggings */
+     , (24292, 8, 30746) /* Dart Flinger */
+     , (24292, 8, 631) /* Excellent Healing Kit */
+     , (24292, 8, 48972) /* Acid Zombie Essence (50) */
+     , (24292, 8, 121) /* Gloves */
+     , (24292, 8, 25648) /* Leather Pauldrons */;
+

@@ -49,3 +49,17 @@ VALUES (31660, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31660, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31660, 8, 9060) /* Titan Mana Charge */
+     , (31660, 8, 45266) /* Scroll of Dual Wield Ineptitude Other VII */
+     , (31660, 8, 41065) /* Flaming Nodachi */
+     , (31660, 8, 29258) /* Slashing Atlatl */
+     , (31660, 8, 25638) /* Leather Vest */
+     , (31660, 8, 621) /* Heavy Bracelet */
+     , (31660, 8, 149) /* Ewer */
+     , (31660, 8, 8330) /* Pyreal Pea */
+     , (31660, 8, 27215) /* Chiran Coat */
+     , (31660, 8, 29245) /* Acid Crossbow */;
+

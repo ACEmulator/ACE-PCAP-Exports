@@ -110,5 +110,5 @@ VALUES (51959, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (51959, 2, 12236);
+VALUES (51959, 2, 12236) /* Energy Crystal */;
 

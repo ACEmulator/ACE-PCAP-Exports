@@ -45,3 +45,13 @@ VALUES (41584, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41584, 64, 560) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41584, 8, 297) /* Ring */
+     , (41584, 8, 41045) /* Frost Magari Yari */
+     , (41584, 8, 41564) /* Gold Aetherium Core Fragment */
+     , (41584, 8, 45242) /* Scroll of Dirty Fighting Ineptitude Other VII */
+     , (41584, 8, 41565) /* Large Gold Aetherium Core Fragment */
+     , (41584, 8, 119) /* Cowl */;
+

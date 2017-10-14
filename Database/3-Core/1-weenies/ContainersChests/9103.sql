@@ -52,3 +52,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (9103, 2, 0) /* OPEN_BOOL */
      , (9103, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9103, 8, 9102) /* Another Boot */
+     , (9103, 8, 9101) /* A Boot */;
+

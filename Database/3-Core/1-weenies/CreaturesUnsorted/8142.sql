@@ -45,3 +45,35 @@ VALUES (8142, 2, 70) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8142, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8142, 8, 95) /* Tower Shield */
+     , (8142, 8, 3763) /* Lightning Budiaq */
+     , (8142, 8, 377) /* Potion of Healing */
+     , (8142, 8, 45294) /* Scroll of Recklessness Mastery Other III */
+     , (8142, 8, 54) /* Yoroi Cuirass */
+     , (8142, 8, 2714) /* Scroll of Quickness Other IV */
+     , (8142, 8, 45113) /* Hammer */
+     , (8142, 8, 7549) /* Lugian Pick Axe */
+     , (8142, 8, 307) /* Shortbow */
+     , (8142, 8, 40818) /* Corsesca */
+     , (8142, 8, 45424) /* Flaming Dagger */
+     , (8142, 8, 353) /* Tachi */
+     , (8142, 8, 28606) /* Viamontian Pants */
+     , (8142, 8, 71) /* Chainmail Hauberk */
+     , (8142, 8, 89) /* Studded Leather Pauldrons */
+     , (8142, 8, 41048) /* Lightning Pike */
+     , (8142, 8, 31774) /* Board with Nail */
+     , (8142, 8, 8328) /* Iron Pea */
+     , (8142, 8, 49296) /* Fire K'nath Essence (50) */
+     , (8142, 8, 254) /* Stoup */
+     , (8142, 8, 31790) /* Lightning Stick */
+     , (8142, 8, 7940) /* Empty Flask */
+     , (8142, 8, 545) /* Reliable Lockpick */
+     , (8142, 8, 2415) /* Gem */
+     , (8142, 8, 628) /* Handy Healing Kit */
+     , (8142, 8, 334) /* Nayin */
+     , (8142, 8, 31787) /* Flaming Claw */
+     , (8142, 8, 116) /* Studded Leather Boots */;
+

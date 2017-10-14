@@ -130,11 +130,11 @@ VALUES (870, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (870, 4, 2593)
-     , (870, 4, 2602)
-     , (870, 4, 118)
-     , (870, 4, 129)
-     , (870, 4, 5854)
-     , (870, 4, 5901)
-     , (870, 4, 8372);
+VALUES (870, 4, 2593) /* Loose Tunic */
+     , (870, 4, 2602) /* Loose Breeches */
+     , (870, 4, 118) /* Cloth Cap */
+     , (870, 4, 129) /* Sandals */
+     , (870, 4, 5854) /* Suikan Robe */
+     , (870, 4, 5901) /* Kasa */
+     , (870, 4, 8372) /* Yifan Dress */;
 

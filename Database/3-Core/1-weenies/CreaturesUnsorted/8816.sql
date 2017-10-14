@@ -49,3 +49,12 @@ VALUES (8816, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8816, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8816, 8, 3821) /* Frost Katar */
+     , (8816, 8, 41483) /* Compass */
+     , (8816, 8, 8786) /* Barbed Fletching Tool */
+     , (8816, 8, 8788) /* Obsidian Dagger */
+     , (8816, 8, 8785) /* Empyrean Scalemail Shirt */;
+

@@ -45,3 +45,18 @@ VALUES (7373, 2, 38) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7373, 64, 575) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7373, 8, 2588) /* Flared Shirt */
+     , (7373, 8, 273) /* Pyreal */
+     , (7373, 8, 7442) /* Red Fire Infusion */
+     , (7373, 8, 622) /* Necklace */
+     , (7373, 8, 53) /* Studded Leather Cuirass */
+     , (7373, 8, 8331) /* Silver Pea */
+     , (7373, 8, 41487) /* Mechanical Scarab */
+     , (7373, 8, 2436) /* Greater Mana Stone */
+     , (7373, 8, 29240) /* Electric Bow */
+     , (7373, 8, 7790) /* Electric Spiked Club */
+     , (7373, 8, 8327) /* Gold Pea */;
+

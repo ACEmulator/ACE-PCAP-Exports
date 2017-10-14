@@ -64,3 +64,58 @@ VALUES (24278, 2, 3) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24278, 64, 608) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24278, 8, 49325) /* Fire Wisp Essence (80) */
+     , (24278, 8, 2402) /* Gem */
+     , (24278, 8, 24477) /* Sturdy Steel Key */
+     , (24278, 8, 31824) /* Ice Wand */
+     , (24278, 8, 132) /* Shoes */
+     , (24278, 8, 42752) /* Haebrean Greaves */
+     , (24278, 8, 20510) /* Scroll of Challenger's Legacy */
+     , (24278, 8, 6047) /* Amuli Leggings */
+     , (24278, 8, 40623) /* Quadrelle */
+     , (24278, 8, 28609) /* Vest */
+     , (24278, 8, 27330) /* Moderate Mana Stone */
+     , (24278, 8, 8326) /* Copper Pea */
+     , (24278, 8, 45115) /* Lightning Hammer */
+     , (24278, 8, 3811) /* Lightning Kaskara */
+     , (24278, 8, 6004) /* Koujia Leggings */
+     , (24278, 8, 25641) /* Leather Cuirass */
+     , (24278, 8, 243) /* Dinner Plate */
+     , (24278, 8, 20584) /* Scroll of Heavy Weapon Ineptitude Other VII */
+     , (24278, 8, 43308) /* Scroll of Nether Bolt VII */
+     , (24278, 8, 27219) /* Chiran Sandals */
+     , (24278, 8, 45435) /* Frost Khanjar */
+     , (24278, 8, 22155) /* Lightning Jo */
+     , (24278, 8, 2603) /* Baggy Breeches */
+     , (24278, 8, 621) /* Heavy Bracelet */
+     , (24278, 8, 20514) /* Scroll of Adja's Boon */
+     , (24278, 8, 28629) /* Alduressa Coat */
+     , (24278, 8, 49236) /* Acid Zombie Essence (125) */
+     , (24278, 8, 43829) /* Sedgemail Leather Cowl */
+     , (24278, 8, 49376) /* Lightning Grievver Essence (125) */
+     , (24278, 8, 21155) /* Covenant Greaves */
+     , (24278, 8, 29262) /* Fire Sceptre */
+     , (24278, 8, 45099) /* Epee */
+     , (24278, 8, 20450) /* Scroll of Icy Torment */
+     , (24278, 8, 49341) /* Acid Moar Essence (125) */
+     , (24278, 8, 142) /* Chalice */
+     , (24278, 8, 41061) /* Frost Great Star Mace */
+     , (24278, 8, 297) /* Ring */
+     , (24278, 8, 49437) /* Fire Spectre Essence (100) */
+     , (24278, 8, 20538) /* Scroll of Aura of Defense */
+     , (24278, 8, 114) /* Platemail Vambraces */
+     , (24278, 8, 110) /* Platemail Tassets */
+     , (24278, 8, 112) /* Studded Leather Tassets */
+     , (24278, 8, 31865) /* Circlet */
+     , (24278, 8, 27220) /* Lorica Boots */
+     , (24278, 8, 22164) /* Acid Quarter Staff */
+     , (24278, 8, 41049) /* Flaming Pike */
+     , (24278, 8, 49216) /* Acid Skeleton Bushi Essence (125) */
+     , (24278, 8, 49390) /* Frost Grievver Essence (125) */
+     , (24278, 8, 150) /* Flagon */
+     , (24278, 8, 48) /* Studded Leather Coat */
+     , (24278, 8, 30948) /* Diforsa Hauberk */;
+

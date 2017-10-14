@@ -132,11 +132,11 @@ VALUES (843, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (843, 4, 2588)
-     , (843, 4, 2602)
-     , (843, 4, 118)
-     , (843, 4, 129)
-     , (843, 4, 5854)
-     , (843, 4, 5901)
-     , (843, 4, 8372);
+VALUES (843, 4, 2588) /* Flared Shirt */
+     , (843, 4, 2602) /* Loose Breeches */
+     , (843, 4, 118) /* Cloth Cap */
+     , (843, 4, 129) /* Sandals */
+     , (843, 4, 5854) /* Suikan Robe */
+     , (843, 4, 5901) /* Kasa */
+     , (843, 4, 8372) /* Yifan Dress */;
 

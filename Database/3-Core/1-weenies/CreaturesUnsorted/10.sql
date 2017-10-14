@@ -45,3 +45,22 @@ VALUES (10, 2, 7) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (10, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (10, 8, 154) /* Goblet */
+     , (10, 8, 46874) /* Aura of Defender Other II */
+     , (10, 8, 2402) /* Gem */
+     , (10, 8, 28818) /* Abayar's Research Notes */
+     , (10, 8, 3836) /* Flaming Mace */
+     , (10, 8, 116) /* Studded Leather Boots */
+     , (10, 8, 41488) /* Top */
+     , (10, 8, 25648) /* Leather Pauldrons */
+     , (10, 8, 2419) /* Gem */
+     , (10, 8, 148) /* Cup */
+     , (10, 8, 414) /* Chainmail Breastplate */
+     , (10, 8, 7787) /* Frost Spiked Club */
+     , (10, 8, 22444) /* Frost Dirk */
+     , (10, 8, 27331) /* Minor Mana Stone */
+     , (10, 8, 101) /* Chainmail Sleeves */;
+

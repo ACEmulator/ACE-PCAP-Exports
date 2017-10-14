@@ -49,3 +49,9 @@ VALUES (7785, 5, 9903) /* ENCUMB_VAL_INT */;
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7785, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7785, 8, 312) /* Light Crossbow */
+     , (7785, 8, 8329) /* Lead Pea */;
+

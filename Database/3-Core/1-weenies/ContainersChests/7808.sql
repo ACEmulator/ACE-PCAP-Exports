@@ -49,3 +49,10 @@ VALUES (7808, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7808, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7808, 8, 141) /* Bowl */
+     , (7808, 8, 273) /* Pyreal */
+     , (7808, 8, 2414) /* Gem */;
+

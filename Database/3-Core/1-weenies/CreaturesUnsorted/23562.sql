@@ -77,3 +77,34 @@ VALUES (23562, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (23562, 64, 480) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23562, 8, 21329) /* Scroll of Lightning Arc VII */
+     , (23562, 8, 2436) /* Greater Mana Stone */
+     , (23562, 8, 8327) /* Gold Pea */
+     , (23562, 8, 20481) /* Scroll of Storm's Blessing */
+     , (23562, 8, 27328) /* Major Mana Stone */
+     , (23562, 8, 121) /* Gloves */
+     , (23562, 8, 8331) /* Silver Pea */
+     , (23562, 8, 273) /* Pyreal */
+     , (23562, 8, 2402) /* Gem */
+     , (23562, 8, 6058) /* Dark Shard */
+     , (23562, 8, 2424) /* Gem */
+     , (23562, 8, 135) /* Turban */
+     , (23562, 8, 150) /* Flagon */
+     , (23562, 8, 44975) /* Hood */
+     , (23562, 8, 2412) /* Gem */
+     , (23562, 8, 624) /* Ring */
+     , (23562, 8, 27330) /* Moderate Mana Stone */
+     , (23562, 8, 2425) /* Gem */
+     , (23562, 8, 21301) /* Scroll of Blade Arc VII */
+     , (23562, 8, 2395) /* Gem */
+     , (23562, 8, 416) /* Chainmail Pauldrons */
+     , (23562, 8, 8326) /* Copper Pea */
+     , (23562, 8, 142) /* Chalice */
+     , (23562, 8, 163) /* Ornamental Bowl */
+     , (23562, 8, 20567) /* Scroll of Inefficient Investment */
+     , (23562, 8, 6876) /* Sturdy Iron Key */
+     , (23562, 8, 41483) /* Compass */;
+

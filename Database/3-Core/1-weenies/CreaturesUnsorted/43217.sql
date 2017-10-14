@@ -55,3 +55,11 @@ VALUES (43217, 64, 808) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (43217, 128, 1415) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (43217, 256, 85) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43217, 8, 7792) /* Fire Trident */
+     , (43217, 8, 29259) /* Acid Sceptre */
+     , (43217, 8, 20465) /* Scroll of Caustic Boon */
+     , (43217, 8, 20495) /* Scroll of Bottle Breaker */;
+

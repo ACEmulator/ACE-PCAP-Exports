@@ -45,3 +45,25 @@ VALUES (30893, 2, 54) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30893, 64, 8500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30893, 8, 49214) /* Acid Skeleton Minion Essence (80) */
+     , (30893, 8, 20242) /* Scroll of Brittle Bones */
+     , (30893, 8, 621) /* Heavy Bracelet */
+     , (30893, 8, 129) /* Sandals */
+     , (30893, 8, 40706) /* Covenant Bracers */
+     , (30893, 8, 31868) /* Signet Crown */
+     , (30893, 8, 4198) /* Frost Nekode */
+     , (30893, 8, 30857) /* Sezzherei's Lair */
+     , (30893, 8, 30867) /* Bow of the Fallen */
+     , (30893, 8, 20526) /* Scroll of Sashi Mu's Kiss */
+     , (30893, 8, 20548) /* Scroll of Gears Unwound */
+     , (30893, 8, 49438) /* Fire Spectre Essence (125) */
+     , (30893, 8, 45330) /* Scroll of Shield Mastery Self VII */
+     , (30893, 8, 20253) /* Scroll of Might of the 5 Mules */
+     , (30893, 8, 29260) /* Blunt Sceptre */
+     , (30893, 8, 624) /* Ring */
+     , (30893, 8, 2593) /* Loose Tunic */
+     , (30893, 8, 7798) /* Electric Naginata */;
+

@@ -69,3 +69,10 @@ VALUES (28643, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
      , (28643, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
      , (28643, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28643, 8, 2587) /* Shirt */
+     , (28643, 8, 8327) /* Gold Pea */
+     , (28643, 8, 273) /* Pyreal */;
+

@@ -48,3 +48,16 @@ VALUES (4257, 2, 36) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4257, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4257, 8, 31790) /* Lightning Stick */
+     , (4257, 8, 8329) /* Lead Pea */
+     , (4257, 8, 141) /* Bowl */
+     , (4257, 8, 27331) /* Minor Mana Stone */
+     , (4257, 8, 2413) /* Gem */
+     , (4257, 8, 273) /* Pyreal */
+     , (4257, 8, 80) /* Chainmail Leggings */
+     , (4257, 8, 2434) /* Lesser Mana Stone */
+     , (4257, 8, 5980) /* Scroll of Alchemy Ineptitude Other */;
+

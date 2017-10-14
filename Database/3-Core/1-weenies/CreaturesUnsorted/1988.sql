@@ -41,3 +41,30 @@ VALUES (1988, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1988, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1988, 8, 7940) /* Empty Flask */
+     , (1988, 8, 27331) /* Minor Mana Stone */
+     , (1988, 8, 554) /* Studded Leather Basinet */
+     , (1988, 8, 273) /* Pyreal */
+     , (1988, 8, 30209) /* Physician's Crystal */
+     , (1988, 8, 41486) /* Puzzle Box */
+     , (1988, 8, 28610) /* Loafers */
+     , (1988, 8, 8329) /* Lead Pea */
+     , (1988, 8, 243) /* Dinner Plate */
+     , (1988, 8, 2434) /* Lesser Mana Stone */
+     , (1988, 8, 296) /* Crown */
+     , (1988, 8, 2427) /* Gem */
+     , (1988, 8, 2472) /* Wand */
+     , (1988, 8, 254) /* Stoup */
+     , (1988, 8, 45285) /* Scroll of Recklessness Ineptitude Other II */
+     , (1988, 8, 45418) /* Lightning Knife */
+     , (1988, 8, 41487) /* Mechanical Scarab */
+     , (1988, 8, 2418) /* Gem */
+     , (1988, 8, 25649) /* Leather Shirt */
+     , (1988, 8, 134) /* Tunic */
+     , (1988, 8, 168) /* Tankard */
+     , (1988, 8, 2419) /* Gem */
+     , (1988, 8, 130) /* Shirt */;
+

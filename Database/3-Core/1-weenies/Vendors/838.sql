@@ -124,44 +124,44 @@ VALUES (838, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (838, 4, 2457)
-     , (838, 4, 377)
-     , (838, 4, 2460)
-     , (838, 4, 379)
-     , (838, 4, 378)
-     , (838, 4, 27326)
-     , (838, 4, 628)
-     , (838, 4, 629)
-     , (838, 4, 4450)
-     , (838, 4, 4589)
-     , (838, 4, 4592)
-     , (838, 4, 4595)
-     , (838, 4, 4597)
-     , (838, 4, 4599)
-     , (838, 4, 4604)
-     , (838, 4, 4605)
-     , (838, 4, 30668)
-     , (838, 4, 30669)
-     , (838, 4, 4602)
-     , (838, 4, 4603)
-     , (838, 4, 30670)
-     , (838, 4, 30671)
-     , (838, 4, 4608)
-     , (838, 4, 4609)
-     , (838, 4, 30672)
-     , (838, 4, 30673)
-     , (838, 4, 4606)
-     , (838, 4, 4607)
-     , (838, 4, 30674)
-     , (838, 4, 30663)
-     , (838, 4, 4384)
-     , (838, 4, 4601)
-     , (838, 4, 30664)
-     , (838, 4, 30665)
-     , (838, 4, 4610)
-     , (838, 4, 4611)
-     , (838, 4, 30666)
-     , (838, 4, 30667)
-     , (838, 4, 2621)
-     , (838, 4, 2622);
+VALUES (838, 4, 2457) /* Health Draught */
+     , (838, 4, 377) /* Potion of Healing */
+     , (838, 4, 2460) /* Mana Draught */
+     , (838, 4, 379) /* Mana Potion */
+     , (838, 4, 378) /* Stamina Potion */
+     , (838, 4, 27326) /* Stamina Tincture */
+     , (838, 4, 628) /* Handy Healing Kit */
+     , (838, 4, 629) /* Adept Healing Kit */
+     , (838, 4, 4450) /* Heal Other I */
+     , (838, 4, 4589) /* Revitalize Other I */
+     , (838, 4, 4592) /* Mana Boost Other I */
+     , (838, 4, 4595) /* Regeneration Other I */
+     , (838, 4, 4597) /* Rejuvenation Other I */
+     , (838, 4, 4599) /* Mana Renewal Other I */
+     , (838, 4, 4604) /* Coordination Other I */
+     , (838, 4, 4605) /* Coordination Other II */
+     , (838, 4, 30668) /* Coordination Other III */
+     , (838, 4, 30669) /* Coordination Other IV */
+     , (838, 4, 4602) /* Endurance Other I */
+     , (838, 4, 4603) /* Endurance Other II */
+     , (838, 4, 30670) /* Endurance Other III */
+     , (838, 4, 30671) /* Endurance Other IV */
+     , (838, 4, 4608) /* Focus Other I */
+     , (838, 4, 4609) /* Focus Other II */
+     , (838, 4, 30672) /* Focus Other III */
+     , (838, 4, 30673) /* Focus Other IV */
+     , (838, 4, 4606) /* Quickness Other I */
+     , (838, 4, 4607) /* Quickness Other II */
+     , (838, 4, 30674) /* Quickness Other III */
+     , (838, 4, 30663) /* Quickness Other IV */
+     , (838, 4, 4384) /* Strength Other I */
+     , (838, 4, 4601) /* Strength Other II */
+     , (838, 4, 30664) /* Strength Other III */
+     , (838, 4, 30665) /* Strength Other IV */
+     , (838, 4, 4610) /* Willpower Other I */
+     , (838, 4, 4611) /* Willpower Other II */
+     , (838, 4, 30666) /* Willpower Other III */
+     , (838, 4, 30667) /* Willpower Other IV */
+     , (838, 4, 2621) /* Trade Note (100) */
+     , (838, 4, 2622) /* Trade Note (500) */;
 

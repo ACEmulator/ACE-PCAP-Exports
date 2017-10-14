@@ -45,3 +45,23 @@ VALUES (7780, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7780, 64, 198) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7780, 8, 2425) /* Gem */
+     , (7780, 8, 41484) /* Goggles */
+     , (7780, 8, 112) /* Studded Leather Tassets */
+     , (7780, 8, 2902) /* Scroll of Weaken Lock VI */
+     , (7780, 8, 41065) /* Flaming Nodachi */
+     , (7780, 8, 31761) /* Lightning Dericost Blade */
+     , (7780, 8, 45421) /* Dagger */
+     , (7780, 8, 554) /* Studded Leather Basinet */
+     , (7780, 8, 3687) /* Skeleton's Skull */
+     , (7780, 8, 98) /* Scalemail Shirt */
+     , (7780, 8, 254) /* Stoup */
+     , (7780, 8, 22158) /* Jo */
+     , (7780, 8, 7940) /* Empty Flask */
+     , (7780, 8, 2430) /* Gem */
+     , (7780, 8, 25647) /* Leather Pants */
+     , (7780, 8, 2458) /* Health Elixir */;
+

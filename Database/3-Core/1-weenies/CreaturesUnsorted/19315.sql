@@ -79,3 +79,44 @@ VALUES (19315, 0, 16783894)
      , (19315, 15, 16777335)
      , (19315, 16, 16787671);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19315, 8, 624) /* Ring */
+     , (19315, 8, 416) /* Chainmail Pauldrons */
+     , (19315, 8, 628) /* Handy Healing Kit */
+     , (19315, 8, 25652) /* Leather Tassets */
+     , (19315, 8, 49296) /* Fire K'nath Essence (50) */
+     , (19315, 8, 311) /* Heavy Crossbow */
+     , (19315, 8, 45426) /* Jambiya */
+     , (19315, 8, 43288) /* Scroll of Corruption III */
+     , (19315, 8, 545) /* Reliable Lockpick */
+     , (19315, 8, 38) /* Studded Leather Bracers */
+     , (19315, 8, 30746) /* Dart Flinger */
+     , (19315, 8, 53) /* Studded Leather Cuirass */
+     , (19315, 8, 25644) /* Leather Greaves */
+     , (19315, 8, 49303) /* Frost K'nath Essence (50) */
+     , (19315, 8, 28625) /* Diforsa Sollerets */
+     , (19315, 8, 3940) /* Lightning Morning Star */
+     , (19315, 8, 2970) /* Scroll of Whirling Blade IV */
+     , (19315, 8, 28610) /* Loafers */
+     , (19315, 8, 2593) /* Loose Tunic */
+     , (19315, 8, 629) /* Adept Healing Kit */
+     , (19315, 8, 45421) /* Dagger */
+     , (19315, 8, 161) /* Mug */
+     , (19315, 8, 41486) /* Puzzle Box */
+     , (19315, 8, 621) /* Heavy Bracelet */
+     , (19315, 8, 108) /* Chainmail Tassets */
+     , (19315, 8, 22442) /* Lightning Dirk */
+     , (19315, 8, 2433) /* Gem */
+     , (19315, 8, 121) /* Gloves */
+     , (19315, 8, 297) /* Ring */
+     , (19315, 8, 2419) /* Gem */
+     , (19315, 8, 2416) /* Gem */
+     , (19315, 8, 41041) /* Magari Yari */
+     , (19315, 8, 107) /* Sollerets */
+     , (19315, 8, 43289) /* Scroll of Corruption IV */
+     , (19315, 8, 2434) /* Lesser Mana Stone */
+     , (19315, 8, 2587) /* Shirt */
+     , (19315, 8, 8932) /* Scroll of Force Streak IV */;
+

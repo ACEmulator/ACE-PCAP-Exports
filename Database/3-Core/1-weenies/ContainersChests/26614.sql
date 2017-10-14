@@ -53,3 +53,22 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (26614, 2, 0) /* OPEN_BOOL */
      , (26614, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26614, 8, 363) /* Yumi */
+     , (26614, 8, 49282) /* Acid K'nath Essence (50) */
+     , (26614, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (26614, 8, 30586) /* Flanged Mace */
+     , (26614, 8, 21324) /* Scroll of Lightning Arc II */
+     , (26614, 8, 3835) /* Lightning Mace */
+     , (26614, 8, 312) /* Light Crossbow */
+     , (26614, 8, 25652) /* Leather Tassets */
+     , (26614, 8, 4192) /* Acid Cestus */
+     , (26614, 8, 22168) /* Hefty Walking Cane */
+     , (26614, 8, 3825) /* Frost Ken */
+     , (26614, 8, 25646) /* Long Leather Gauntlets */
+     , (26614, 8, 2598) /* Baggy Pants */
+     , (26614, 8, 35) /* Chainmail Basinet */
+     , (26614, 8, 513) /* Plain Lockpick */;
+

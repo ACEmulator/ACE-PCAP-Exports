@@ -50,3 +50,10 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (27656, 2, 0) /* OPEN_BOOL */
      , (27656, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27656, 8, 27653) /* Chorizite Veined Shield */
+     , (27656, 8, 27703) /* Chorizite Ore */
+     , (27656, 8, 27660) /* Refined Chorizite Chunk */;
+

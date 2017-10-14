@@ -97,3 +97,31 @@ VALUES (45805, 2, 101) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (45805, 64, 3000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (45805, 8, 20451) /* Scroll of Sudden Frost */
+     , (45805, 8, 9229) /* Treated Healing Kit */
+     , (45805, 8, 163) /* Ornamental Bowl */
+     , (45805, 8, 27325) /* Stamina Philtre */
+     , (45805, 8, 37318) /* Glyph of Mana */
+     , (45805, 8, 621) /* Heavy Bracelet */
+     , (45805, 8, 27328) /* Major Mana Stone */
+     , (45805, 8, 28609) /* Vest */
+     , (45805, 8, 295) /* Bracelet */
+     , (45805, 8, 273) /* Pyreal */
+     , (45805, 8, 133) /* Slippers */
+     , (45805, 8, 149) /* Ewer */
+     , (45805, 8, 27321) /* Mana Philtre */
+     , (45805, 8, 21308) /* Scroll of Flame Arc VII */
+     , (45805, 8, 37302) /* Glyph of Fletching */
+     , (45805, 8, 2423) /* Gem */
+     , (45805, 8, 6045) /* Celdon Leggings */
+     , (45805, 8, 142) /* Chalice */
+     , (45805, 8, 515) /* Superb Lockpick */
+     , (45805, 8, 2436) /* Greater Mana Stone */
+     , (45805, 8, 37300) /* Glyph of Endurance */
+     , (45805, 8, 27226) /* Nariyid Boots */
+     , (45805, 8, 28617) /* Alduressa Helm */
+     , (45805, 8, 27318) /* Health Philtre */;
+

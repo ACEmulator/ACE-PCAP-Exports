@@ -48,3 +48,41 @@ VALUES (4212, 2, 28) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4212, 64, 100000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4212, 8, 41041) /* Magari Yari */
+     , (4212, 8, 41038) /* Lightning Assagai */
+     , (4212, 8, 20571) /* Scroll of Kaluhc's Boon */
+     , (4212, 8, 30605) /* Acid Stiletto */
+     , (4212, 8, 7771) /* Naginata */
+     , (4212, 8, 4199) /* Lightning Nekode */
+     , (4212, 8, 20524) /* Scroll of Ketnan's Blessing */
+     , (4212, 8, 110) /* Platemail Tassets */
+     , (4212, 8, 71) /* Chainmail Hauberk */
+     , (4212, 8, 22440) /* Dirk */
+     , (4212, 8, 27321) /* Mana Philtre */
+     , (4212, 8, 12253) /* Monougat */
+     , (4212, 8, 45418) /* Lightning Knife */
+     , (4212, 8, 21155) /* Covenant Greaves */
+     , (4212, 8, 3775) /* Lightning Dabus */
+     , (4212, 8, 8489) /* Heaume */
+     , (4212, 8, 6043) /* Celdon Girth */
+     , (4212, 8, 27220) /* Lorica Boots */
+     , (4212, 8, 20425) /* Scroll of Fortified Lock */
+     , (4212, 8, 554) /* Studded Leather Basinet */
+     , (4212, 8, 134) /* Tunic */
+     , (4212, 8, 27325) /* Stamina Philtre */
+     , (4212, 8, 515) /* Superb Lockpick */
+     , (4212, 8, 49223) /* Lightning Skeleton Bushi Essence (125) */
+     , (4212, 8, 21154) /* Covenant Girth */
+     , (4212, 8, 20472) /* Scroll of Blessing of the Mace Turner */
+     , (4212, 8, 2423) /* Gem */
+     , (4212, 8, 7794) /* Electric Trident */
+     , (4212, 8, 28622) /* Tenassa Leggings */
+     , (4212, 8, 2436) /* Greater Mana Stone */
+     , (4212, 8, 624) /* Ring */
+     , (4212, 8, 163) /* Ornamental Bowl */
+     , (4212, 8, 23108) /* Twisted Dark Key */
+     , (4212, 8, 27320) /* Health Tonic */;
+

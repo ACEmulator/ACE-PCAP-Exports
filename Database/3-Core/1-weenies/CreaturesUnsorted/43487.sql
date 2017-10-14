@@ -50,3 +50,17 @@ VALUES (43487, 2, 44) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43487, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43487, 8, 43491) /* Pitted Slag */
+     , (43487, 8, 142) /* Chalice */
+     , (43487, 8, 27234) /* Scroll of Eradicate Creature Magic Self */
+     , (43487, 8, 71) /* Chainmail Hauberk */
+     , (43487, 8, 20563) /* Scroll of Eyes Clouded */
+     , (43487, 8, 83) /* Scalemail Leggings */
+     , (43487, 8, 41486) /* Puzzle Box */
+     , (43487, 8, 297) /* Ring */
+     , (43487, 8, 20431) /* Scroll of Corrosive Flash */
+     , (43487, 8, 9098) /* Vial of Organic Acid */;
+

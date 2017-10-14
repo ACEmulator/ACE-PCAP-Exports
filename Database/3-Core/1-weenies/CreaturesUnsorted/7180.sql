@@ -44,3 +44,32 @@ VALUES (7180, 2, 34) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7180, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7180, 8, 7897) /* Steel Toed Boots */
+     , (7180, 8, 332) /* Morning Star */
+     , (7180, 8, 2599) /* Trousers */
+     , (7180, 8, 111) /* Scalemail Tassets */
+     , (7180, 8, 25642) /* Leather Gauntlets */
+     , (7180, 8, 2396) /* Gem */
+     , (7180, 8, 132) /* Shoes */
+     , (7180, 8, 25661) /* Leather Boots */
+     , (7180, 8, 80) /* Chainmail Leggings */
+     , (7180, 8, 2434) /* Lesser Mana Stone */
+     , (7180, 8, 92) /* Large Kite Shield */
+     , (7180, 8, 30949) /* Diforsa Sleeves */
+     , (7180, 8, 21098) /* Scroll of Martyr's Hecatomb IV */
+     , (7180, 8, 307) /* Shortbow */
+     , (7180, 8, 3200) /* Scroll of Creature Enchantment Mastery Self IV */
+     , (7180, 8, 273) /* Pyreal */
+     , (7180, 8, 96) /* Chainmail Shirt */
+     , (7180, 8, 42518) /* Coalesced Mana */
+     , (7180, 8, 2418) /* Gem */
+     , (7180, 8, 2979) /* Scroll of Acid Protection Self III */
+     , (7180, 8, 312) /* Light Crossbow */
+     , (7180, 8, 360) /* Yag */
+     , (7180, 8, 49387) /* Frost Grievver Essence (50) */
+     , (7180, 8, 2431) /* Gem */
+     , (7180, 8, 512) /* Good Lockpick */;
+

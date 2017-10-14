@@ -44,3 +44,10 @@ VALUES (52583, 67110361, 72, 8)
      , (52583, 67116870, 206, 10)
      , (52583, 67116870, 250, 6);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52583, 8, 621) /* Heavy Bracelet */
+     , (52583, 8, 516) /* Peerless Lockpick */
+     , (52583, 8, 52970) /* Viridian Essence */;
+

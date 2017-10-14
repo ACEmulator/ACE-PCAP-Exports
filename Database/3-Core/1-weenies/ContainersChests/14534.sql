@@ -49,3 +49,8 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (14534, 0, 16778639)
      , (14534, 1, 16778642);
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14534, 8, 14508) /* Hammer of Acid */;
+

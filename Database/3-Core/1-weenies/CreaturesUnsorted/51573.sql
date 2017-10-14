@@ -48,3 +48,10 @@ VALUES (51573, 2, 48) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51573, 64, 10000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51573, 8, 2599) /* Trousers */
+     , (51573, 8, 27328) /* Major Mana Stone */
+     , (51573, 8, 515) /* Superb Lockpick */;
+

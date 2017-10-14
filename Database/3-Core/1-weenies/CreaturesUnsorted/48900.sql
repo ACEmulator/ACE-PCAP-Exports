@@ -41,3 +41,15 @@ VALUES (48900, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (48900, 64, 6100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (48900, 8, 48898) /* Cracked Key */
+     , (48900, 8, 2411) /* Gem */
+     , (48900, 8, 273) /* Pyreal */
+     , (48900, 8, 9229) /* Treated Healing Kit */
+     , (48900, 8, 25652) /* Leather Tassets */
+     , (48900, 8, 516) /* Peerless Lockpick */
+     , (48900, 8, 27318) /* Health Philtre */
+     , (48900, 8, 163) /* Ornamental Bowl */;
+

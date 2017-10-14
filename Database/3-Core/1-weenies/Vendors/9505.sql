@@ -129,14 +129,14 @@ VALUES (9505, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (9505, 4, 9517)
-     , (9505, 4, 2625)
-     , (9505, 4, 2626)
-     , (9505, 4, 2627)
-     , (9505, 4, 20628)
-     , (9505, 4, 20629)
-     , (9505, 4, 20630)
-     , (9505, 4, 2468)
-     , (9505, 4, 2453)
-     , (9505, 4, 2456);
+VALUES (9505, 4, 9517) /* A Guide to Gan-Zo's Den of Iniquity */
+     , (9505, 4, 2625) /* Trade Note (10,000) */
+     , (9505, 4, 2626) /* Trade Note (50,000) */
+     , (9505, 4, 2627) /* Trade Note (100,000) */
+     , (9505, 4, 20628) /* Trade Note (150,000) */
+     , (9505, 4, 20629) /* Trade Note (200,000) */
+     , (9505, 4, 20630) /* Trade Note (250,000) */
+     , (9505, 4, 2468) /* Sake */
+     , (9505, 4, 2453) /* Cider */
+     , (9505, 4, 2456) /* Green Tea */;
 

@@ -41,3 +41,11 @@ VALUES (9099, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9099, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9099, 8, 624) /* Ring */
+     , (9099, 8, 8328) /* Iron Pea */
+     , (9099, 8, 20538) /* Scroll of Aura of Defense */
+     , (9099, 8, 273) /* Pyreal */;
+

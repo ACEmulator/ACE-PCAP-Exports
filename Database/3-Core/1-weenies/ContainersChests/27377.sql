@@ -50,3 +50,26 @@ VALUES (27377, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27377, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27377, 8, 49235) /* Acid Zombie Essence (100) */
+     , (27377, 8, 25647) /* Leather Pants */
+     , (27377, 8, 22444) /* Frost Dirk */
+     , (27377, 8, 48972) /* Acid Zombie Essence (50) */
+     , (27377, 8, 22154) /* Acid Jo */
+     , (27377, 8, 29253) /* Blunt Atlatl */
+     , (27377, 8, 7897) /* Steel Toed Boots */
+     , (27377, 8, 119) /* Cowl */
+     , (27377, 8, 8489) /* Heaume */
+     , (27377, 8, 6003) /* Koujia Breastplate */
+     , (27377, 8, 31759) /* Dericost Blade */
+     , (27377, 8, 31780) /* Acid Spine Glaive */
+     , (27377, 8, 40708) /* Covenant Gauntlets */
+     , (27377, 8, 29263) /* Frost Sceptre */
+     , (27377, 8, 20546) /* Scroll of Jahannan's Boon */
+     , (27377, 8, 41485) /* Pocket Watch */
+     , (27377, 8, 27222) /* Lorica Gauntlets */
+     , (27377, 8, 624) /* Ring */
+     , (27377, 8, 27226) /* Nariyid Boots */;
+

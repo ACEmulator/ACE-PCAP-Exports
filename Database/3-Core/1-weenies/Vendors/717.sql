@@ -126,20 +126,20 @@ VALUES (717, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (717, 4, 364)
-     , (717, 4, 365)
-     , (717, 4, 367)
-     , (717, 4, 9118)
-     , (717, 4, 9124)
-     , (717, 4, 27851)
-     , (717, 4, 9319)
-     , (717, 4, 5602)
-     , (717, 4, 6419)
-     , (717, 4, 5583)
-     , (717, 4, 5856)
-     , (717, 4, 7884)
-     , (717, 4, 14797)
-     , (717, 4, 5586)
-     , (717, 4, 24855)
-     , (717, 4, 5587);
+VALUES (717, 4, 364) /* Book */
+     , (717, 4, 365) /* Parchment */
+     , (717, 4, 367) /* Tome */
+     , (717, 4, 9118) /* Puppet Show */
+     , (717, 4, 9124) /* The Beginning */
+     , (717, 4, 27851) /* The Weapons of the Singularity */
+     , (717, 4, 9319) /* Mnemosynes and the Art of Lockpicking */
+     , (717, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (717, 4, 6419) /* The Meeting Halls */
+     , (717, 4, 5583) /* Aluvian Cookbook */
+     , (717, 4, 5856) /* Specialty Cookbook */
+     , (717, 4, 7884) /* Chocolate Cookbook */
+     , (717, 4, 14797) /* Festival Cookbook */
+     , (717, 4, 5586) /* Alchemy Guide */
+     , (717, 4, 24855) /* The New Alchemy */
+     , (717, 4, 5587) /* Fletching Guide */;
 

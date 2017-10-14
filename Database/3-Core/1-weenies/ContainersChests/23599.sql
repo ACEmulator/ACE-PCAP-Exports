@@ -53,3 +53,18 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (23599, 2, 0) /* OPEN_BOOL */
      , (23599, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23599, 8, 6045) /* Celdon Leggings */
+     , (23599, 8, 49366) /* Acid Grievver Essence (50) */
+     , (23599, 8, 273) /* Pyreal */
+     , (23599, 8, 49290) /* Lightning K'nath Essence (80) */
+     , (23599, 8, 43343) /* Scroll of Weakening Curse VI */
+     , (23599, 8, 25642) /* Leather Gauntlets */
+     , (23599, 8, 7768) /* Spiked Club */
+     , (23599, 8, 3851) /* Flaming Scimitar */
+     , (23599, 8, 28610) /* Loafers */
+     , (23599, 8, 103) /* Platemail Sleeves */
+     , (23599, 8, 45422) /* Acid Dagger */;
+

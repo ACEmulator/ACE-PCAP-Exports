@@ -50,3 +50,18 @@ VALUES (33623, 2, 89) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33623, 64, 12205) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33623, 8, 84) /* Studded  Leggings */
+     , (33623, 8, 92) /* Large Kite Shield */
+     , (33623, 8, 49272) /* Lightning Child Essence (150) */
+     , (33623, 8, 20478) /* Scroll of Fiery Blessing */
+     , (33623, 8, 43336) /* Scroll of Weakening Curse VII */
+     , (33623, 8, 20233) /* Scroll of Ataxia */
+     , (33623, 8, 20537) /* Scroll of Web of Defense */
+     , (33623, 8, 44) /* Buckler */
+     , (33623, 8, 516) /* Peerless Lockpick */
+     , (33623, 8, 27328) /* Major Mana Stone */
+     , (33623, 8, 44470) /* Corrupted Essence */;
+

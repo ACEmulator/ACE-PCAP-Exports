@@ -156,5 +156,5 @@ VALUES (41548, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41548, 2, 40760);
+VALUES (41548, 2, 40760) /* Nodachi */;
 

@@ -48,3 +48,34 @@ VALUES (28651, 2, 83) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28651, 64, 360) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28651, 8, 45118) /* Hand Wraps */
+     , (28651, 8, 8329) /* Lead Pea */
+     , (28651, 8, 7897) /* Steel Toed Boots */
+     , (28651, 8, 22444) /* Frost Dirk */
+     , (28651, 8, 49275) /* Frost Elemental Essence (50) */
+     , (28651, 8, 130) /* Shirt */
+     , (28651, 8, 101) /* Chainmail Sleeves */
+     , (28651, 8, 161) /* Mug */
+     , (28651, 8, 624) /* Ring */
+     , (28651, 8, 25661) /* Leather Boots */
+     , (28651, 8, 3302) /* Scroll of Invulnerability Self VI */
+     , (28651, 8, 45119) /* Acid Hand Wraps */
+     , (28651, 8, 49310) /* Acid Wisp Essence (50) */
+     , (28651, 8, 106) /* Yoroi Sleeves */
+     , (28651, 8, 273) /* Pyreal */
+     , (28651, 8, 326) /* Katar */
+     , (28651, 8, 54) /* Yoroi Cuirass */
+     , (28651, 8, 92) /* Large Kite Shield */
+     , (28651, 8, 3421) /* Scroll of Magic Item Tinkering Ignorance V */
+     , (28651, 8, 45399) /* Flaming Short Sword */
+     , (28651, 8, 30613) /* Flaming Knuckles */
+     , (28651, 8, 4191) /* Flaming Cestus */
+     , (28651, 8, 2470) /* Stamina Elixir */
+     , (28651, 8, 25651) /* Leather Sleeves */
+     , (28651, 8, 2901) /* Scroll of Weaken Lock V */
+     , (28651, 8, 41487) /* Mechanical Scarab */
+     , (28651, 8, 27330) /* Moderate Mana Stone */;
+

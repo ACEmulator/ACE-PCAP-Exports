@@ -91,5 +91,5 @@ VALUES (24243, 2, 16777293)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24243, 2, 24239);
+VALUES (24243, 2, 24239) /* Acid Olthoi Axe */;
 

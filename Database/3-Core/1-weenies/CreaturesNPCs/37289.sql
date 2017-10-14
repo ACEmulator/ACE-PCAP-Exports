@@ -82,5 +82,5 @@ VALUES (37289, 0, 16793888)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (37289, 2, 37540);
+VALUES (37289, 2, 37540) /* Jester's Baton */;
 

@@ -48,3 +48,29 @@ VALUES (33798, 2, 83) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33798, 64, 15000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33798, 8, 2412) /* Gem */
+     , (33798, 8, 31759) /* Dericost Blade */
+     , (33798, 8, 2421) /* Gem */
+     , (33798, 8, 20463) /* Scroll of Evisceration */
+     , (33798, 8, 2591) /* Puffy Shirt */
+     , (33798, 8, 25638) /* Leather Vest */
+     , (33798, 8, 6044) /* Celdon Breastplate */
+     , (33798, 8, 33758) /* Shadow Vault Key */
+     , (33798, 8, 25641) /* Leather Cuirass */
+     , (33798, 8, 27323) /* Mana Tonic */
+     , (33798, 8, 27231) /* Nariyid Leggings */
+     , (33798, 8, 22163) /* Nabut */
+     , (33798, 8, 20239) /* Scroll of Self Loathing */
+     , (33798, 8, 27216) /* Chiran Gauntlets */
+     , (33798, 8, 621) /* Heavy Bracelet */
+     , (33798, 8, 3853) /* Acid Shamshir */
+     , (33798, 8, 121) /* Gloves */
+     , (33798, 8, 29263) /* Frost Sceptre */
+     , (33798, 8, 632) /* Peerless Healing Kit */
+     , (33798, 8, 134) /* Tunic */
+     , (33798, 8, 25650) /* Leather Shorts */
+     , (33798, 8, 9229) /* Treated Healing Kit */;
+

@@ -67,3 +67,10 @@ VALUES (1617, 2, 5) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1617, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1617, 8, 92) /* Large Kite Shield */
+     , (1617, 8, 307) /* Shortbow */
+     , (1617, 8, 513) /* Plain Lockpick */;
+

@@ -41,3 +41,28 @@ VALUES (31361, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31361, 64, 198) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31361, 8, 55) /* Chainmail Gauntlets */
+     , (31361, 8, 2589) /* Smock */
+     , (31361, 8, 31362) /* Jacob's Axe */
+     , (31361, 8, 2461) /* Mana Elixir */
+     , (31361, 8, 3687) /* Skeleton's Skull */
+     , (31361, 8, 40706) /* Covenant Bracers */
+     , (31361, 8, 631) /* Excellent Healing Kit */
+     , (31361, 8, 7771) /* Naginata */
+     , (31361, 8, 22159) /* Acid Nabut */
+     , (31361, 8, 9659) /* Scroll of Stamina to Mana Self VI */
+     , (31361, 8, 273) /* Pyreal */
+     , (31361, 8, 43381) /* Nether Sceptre */
+     , (31361, 8, 6003) /* Koujia Breastplate */
+     , (31361, 8, 44850) /* Chevron Cloak */
+     , (31361, 8, 6046) /* Amuli Coat */
+     , (31361, 8, 25638) /* Leather Vest */
+     , (31361, 8, 4191) /* Flaming Cestus */
+     , (31361, 8, 4197) /* Acid Nekode */
+     , (31361, 8, 311) /* Heavy Crossbow */
+     , (31361, 8, 93) /* Round Shield */
+     , (31361, 8, 25641) /* Leather Cuirass */;
+

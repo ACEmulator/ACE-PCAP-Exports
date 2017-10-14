@@ -49,3 +49,24 @@ VALUES (27860, 2, 34) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27860, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27860, 8, 49331) /* Frost Wisp Essence (50) */
+     , (27860, 8, 25638) /* Leather Vest */
+     , (27860, 8, 49380) /* Fire Grievver Essence (50) */
+     , (27860, 8, 87) /* Platemail Pauldrons */
+     , (27860, 8, 512) /* Good Lockpick */
+     , (27860, 8, 624) /* Ring */
+     , (27860, 8, 7940) /* Empty Flask */
+     , (27860, 8, 8329) /* Lead Pea */
+     , (27860, 8, 311) /* Heavy Crossbow */
+     , (27860, 8, 89) /* Studded Leather Pauldrons */
+     , (27860, 8, 168) /* Tankard */
+     , (27860, 8, 45120) /* Lightning Hand Wraps */
+     , (27860, 8, 3819) /* Lightning Katar */
+     , (27860, 8, 27326) /* Stamina Tincture */
+     , (27860, 8, 22158) /* Jo */
+     , (27860, 8, 25641) /* Leather Cuirass */
+     , (27860, 8, 2714) /* Scroll of Quickness Other IV */;
+

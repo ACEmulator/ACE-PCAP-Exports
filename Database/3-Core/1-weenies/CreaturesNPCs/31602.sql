@@ -100,5 +100,5 @@ VALUES (31602, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (31602, 2, 161);
+VALUES (31602, 2, 161) /* Mug */;
 

@@ -24,7 +24,7 @@ VALUES (8046, 1, 512) /* ITEM_TYPE_INT */
      , (8046, 6, 120) /* ITEMS_CAPACITY_INT */
      , (8046, 16, 48) /* ITEM_USEABLE_INT */
      , (8046, 93, 1052) /* PHYSICS_STATE_INT */
-     , (8046, 9007, 21) /* Container_WeenieType */;
+     , (8046, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (8046, 54, 1) /* USE_RADIUS_FLOAT */
@@ -49,4 +49,10 @@ VALUES (8046, 19, 0) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (8046, 2, 0) /* OPEN_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8046, 8, 3751) /* Lightning Battle Axe */
+     , (8046, 8, 41066) /* Frost Khanda-handled Mace */;
 

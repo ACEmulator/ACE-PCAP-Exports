@@ -48,3 +48,13 @@ VALUES (25809, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25809, 64, 585) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25809, 8, 7045) /* Dark Revenant Thighbone */
+     , (25809, 8, 49353) /* Fire Moar Essence (80) */
+     , (25809, 8, 307) /* Shortbow */
+     , (25809, 8, 91) /* Kite Shield */
+     , (25809, 8, 20537) /* Scroll of Web of Defense */
+     , (25809, 8, 45431) /* Khanjar */;
+

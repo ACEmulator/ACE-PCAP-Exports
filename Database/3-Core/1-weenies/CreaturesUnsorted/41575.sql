@@ -44,3 +44,11 @@ VALUES (41575, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41575, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41575, 8, 161) /* Mug */
+     , (41575, 8, 2598) /* Baggy Pants */
+     , (41575, 8, 3027) /* Scroll of Cold Protection Self VI */
+     , (41575, 8, 631) /* Excellent Healing Kit */;
+

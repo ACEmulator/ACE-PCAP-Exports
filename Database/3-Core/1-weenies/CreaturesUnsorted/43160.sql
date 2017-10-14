@@ -43,3 +43,10 @@ VALUES (43160, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43160, 64, 2125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43160, 8, 2422) /* Gem */
+     , (43160, 8, 45406) /* Yaoji */
+     , (43160, 8, 2408) /* Gem */;
+

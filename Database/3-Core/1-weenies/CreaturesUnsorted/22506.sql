@@ -48,3 +48,19 @@ VALUES (22506, 2, 33) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22506, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22506, 8, 624) /* Ring */
+     , (22506, 8, 2590) /* Baggy Shirt */
+     , (22506, 8, 28607) /* Lace Shirt */
+     , (22506, 8, 127) /* Pants */
+     , (22506, 8, 2423) /* Gem */
+     , (22506, 8, 20432) /* Scroll of Disintegration */
+     , (22506, 8, 6043) /* Celdon Girth */
+     , (22506, 8, 25661) /* Leather Boots */
+     , (22506, 8, 28609) /* Vest */
+     , (22506, 8, 2600) /* Pantaloons */
+     , (22506, 8, 20640) /* Royal Atlatl */
+     , (22506, 8, 22155) /* Lightning Jo */;
+

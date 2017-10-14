@@ -48,3 +48,18 @@ VALUES (20, 2, 11) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (20, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (20, 8, 168) /* Tankard */
+     , (20, 8, 2597) /* Flared Pants */
+     , (20, 8, 254) /* Stoup */
+     , (20, 8, 628) /* Handy Healing Kit */
+     , (20, 8, 80) /* Chainmail Leggings */
+     , (20, 8, 150) /* Flagon */
+     , (20, 8, 27326) /* Stamina Tincture */
+     , (20, 8, 53) /* Studded Leather Cuirass */
+     , (20, 8, 49359) /* Frost Moar Essence (50) */
+     , (20, 8, 31786) /* Lightning Claw */
+     , (20, 8, 513) /* Plain Lockpick */;
+

@@ -90,3 +90,53 @@ VALUES (1764, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1764, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1764, 8, 5894) /* Fez */
+     , (1764, 8, 273) /* Pyreal */
+     , (1764, 8, 2434) /* Lesser Mana Stone */
+     , (1764, 8, 624) /* Ring */
+     , (1764, 8, 8328) /* Iron Pea */
+     , (1764, 8, 161) /* Mug */
+     , (1764, 8, 27331) /* Minor Mana Stone */
+     , (1764, 8, 9314) /* A Tiny Mnemosyne */
+     , (1764, 8, 295) /* Bracelet */
+     , (1764, 8, 2435) /* Mana Stone */
+     , (1764, 8, 8329) /* Lead Pea */
+     , (1764, 8, 622) /* Necklace */
+     , (1764, 8, 168) /* Tankard */
+     , (1764, 8, 243) /* Dinner Plate */
+     , (1764, 8, 2413) /* Gem */
+     , (1764, 8, 80) /* Chainmail Leggings */
+     , (1764, 8, 2415) /* Gem */
+     , (1764, 8, 6662) /* The Ruby Mahwan */
+     , (1764, 8, 3275) /* Scroll of Healing Mastery Other IV */
+     , (1764, 8, 59) /* Studded Leather Gauntlets */
+     , (1764, 8, 297) /* Ring */
+     , (1764, 8, 2414) /* Gem */
+     , (1764, 8, 30606) /* Bastone */
+     , (1764, 8, 2592) /* Puffy Tunic */
+     , (1764, 8, 2401) /* Gem */
+     , (1764, 8, 132) /* Shoes */
+     , (1764, 8, 2745) /* Scroll of Self Strength V */
+     , (1764, 8, 28608) /* Poet's Shirt */
+     , (1764, 8, 130) /* Shirt */
+     , (1764, 8, 31786) /* Lightning Claw */
+     , (1764, 8, 2590) /* Baggy Shirt */
+     , (1764, 8, 148) /* Cup */
+     , (1764, 8, 118) /* Cloth Cap */
+     , (1764, 8, 2834) /* Aura of Heartseeker Self IV */
+     , (1764, 8, 44) /* Buckler */
+     , (1764, 8, 31865) /* Circlet */
+     , (1764, 8, 68) /* Studded Leather Greaves */
+     , (1764, 8, 28607) /* Lace Shirt */
+     , (1764, 8, 41066) /* Frost Khanda-handled Mace */
+     , (1764, 8, 150) /* Flagon */
+     , (1764, 8, 7940) /* Empty Flask */
+     , (1764, 8, 149) /* Ewer */
+     , (1764, 8, 45421) /* Dagger */
+     , (1764, 8, 40626) /* Flaming Quadrelle */
+     , (1764, 8, 31758) /* Frost Dericost Blade */
+     , (1764, 8, 41487) /* Mechanical Scarab */;
+

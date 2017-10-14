@@ -50,3 +50,43 @@ VALUES (24681, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24681, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24681, 8, 273) /* Pyreal */
+     , (24681, 8, 340) /* Shamshir */
+     , (24681, 8, 414) /* Chainmail Breastplate */
+     , (24681, 8, 2425) /* Gem */
+     , (24681, 8, 363) /* Yumi */
+     , (24681, 8, 41060) /* Flaming Great Star Mace */
+     , (24681, 8, 2548) /* Sceptre */
+     , (24681, 8, 793) /* Scalemail Coif */
+     , (24681, 8, 28628) /* Diforsa Breastplate */
+     , (24681, 8, 55) /* Chainmail Gauntlets */
+     , (24681, 8, 31868) /* Signet Crown */
+     , (24681, 8, 45114) /* Acid Hammer */
+     , (24681, 8, 12463) /* Atlatl */
+     , (24681, 8, 8329) /* Lead Pea */
+     , (24681, 8, 416) /* Chainmail Pauldrons */
+     , (24681, 8, 5948) /* Scroll of Cooking Ineptitude Other V */
+     , (24681, 8, 49352) /* Fire Moar Essence (50) */
+     , (24681, 8, 80) /* Chainmail Leggings */
+     , (24681, 8, 25637) /* Leather Bracers */
+     , (24681, 8, 2593) /* Loose Tunic */
+     , (24681, 8, 112) /* Studded Leather Tassets */
+     , (24681, 8, 45412) /* Acid Spada */
+     , (24681, 8, 2601) /* Loose Pants */
+     , (24681, 8, 45119) /* Acid Hand Wraps */
+     , (24681, 8, 94) /* Diamond Shield */
+     , (24681, 8, 4194) /* Lightning Cestus */
+     , (24681, 8, 3567) /* Scroll of War Magic Ineptitude VI */
+     , (24681, 8, 42517) /* Coalesced Mana */
+     , (24681, 8, 25646) /* Long Leather Gauntlets */
+     , (24681, 8, 30607) /* Lightning Bastone */
+     , (24681, 8, 3939) /* Acid Morning Star */
+     , (24681, 8, 629) /* Adept Healing Kit */
+     , (24681, 8, 2603) /* Baggy Breeches */
+     , (24681, 8, 25651) /* Leather Sleeves */
+     , (24681, 8, 621) /* Heavy Bracelet */
+     , (24681, 8, 30625) /* War Bow */;
+

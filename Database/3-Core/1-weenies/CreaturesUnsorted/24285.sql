@@ -68,3 +68,45 @@ VALUES (24285, 2, 70) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24285, 64, 513) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24285, 8, 49532) /* Fire Phyntos Wasp Essence (80) */
+     , (24285, 8, 2399) /* Gem */
+     , (24285, 8, 624) /* Ring */
+     , (24285, 8, 22162) /* Frost Nabut */
+     , (24285, 8, 3821) /* Frost Katar */
+     , (24285, 8, 94) /* Diamond Shield */
+     , (24285, 8, 49339) /* Acid Moar Essence (80) */
+     , (24285, 8, 2408) /* Gem */
+     , (24285, 8, 58) /* Scalemail Gauntlets */
+     , (24285, 8, 243) /* Dinner Plate */
+     , (24285, 8, 101) /* Chainmail Sleeves */
+     , (24285, 8, 21159) /* Covenant Tassets */
+     , (24285, 8, 4198) /* Frost Nekode */
+     , (24285, 8, 2602) /* Loose Breeches */
+     , (24285, 8, 28610) /* Loafers */
+     , (24285, 8, 31784) /* Claw */
+     , (24285, 8, 414) /* Chainmail Breastplate */
+     , (24285, 8, 357) /* Tungi */
+     , (24285, 8, 45428) /* Lightning Jambiya */
+     , (24285, 8, 20486) /* Scroll of Enervation */
+     , (24285, 8, 49346) /* Lightning Moar Essence (80) */
+     , (24285, 8, 31818) /* Piercing Slingshot */
+     , (24285, 8, 111) /* Scalemail Tassets */
+     , (24285, 8, 30611) /* Knuckles */
+     , (24285, 8, 20609) /* Scroll of Gift of Vigor */
+     , (24285, 8, 3891) /* Flaming Tachi */
+     , (24285, 8, 359) /* War Hammer */
+     , (24285, 8, 21301) /* Scroll of Blade Arc VII */
+     , (24285, 8, 127) /* Pants */
+     , (24285, 8, 63) /* Studded Leather Girth */
+     , (24285, 8, 96) /* Chainmail Shirt */
+     , (24285, 8, 3883) /* Flaming Long Sword */
+     , (24285, 8, 312) /* Light Crossbow */
+     , (24285, 8, 311) /* Heavy Crossbow */
+     , (24285, 8, 45099) /* Epee */
+     , (24285, 8, 2589) /* Smock */
+     , (24285, 8, 29253) /* Blunt Atlatl */
+     , (24285, 8, 108) /* Chainmail Tassets */;
+

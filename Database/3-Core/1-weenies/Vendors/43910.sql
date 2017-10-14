@@ -141,14 +141,14 @@ VALUES (43910, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43910, 4, 46802)
-     , (43910, 4, 43906)
-     , (43910, 4, 43907)
-     , (43910, 4, 43905)
-     , (43910, 4, 43904)
-     , (43910, 4, 46803)
-     , (43910, 4, 43903)
-     , (43910, 4, 43908)
-     , (43910, 4, 43902)
-     , (43910, 4, 43909);
+VALUES (43910, 4, 46802) /* Boxed A'nekshay Token */
+     , (43910, 4, 43906) /* Boxed Ancient Mhoire Coin */
+     , (43910, 4, 43907) /* Boxed Small Olthoi Venom Sac */
+     , (43910, 4, 43905) /* Boxed Ornate Gear Marker */
+     , (43910, 4, 43904) /* Boxed Colosseum Coin */
+     , (43910, 4, 46803) /* Box Of Ten A'nekshay Tokens */
+     , (43910, 4, 43903) /* Box Of Ten Ancient Mhoire Coins */
+     , (43910, 4, 43908) /* Box Of Ten Small Olthoi Venom Sacs */
+     , (43910, 4, 43902) /* Box Of Ten Ornate Gear Markers */
+     , (43910, 4, 43909) /* Box Of Ten Colosseum Coins */;
 

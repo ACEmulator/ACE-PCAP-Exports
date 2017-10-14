@@ -50,3 +50,24 @@ VALUES (26619, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (26619, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26619, 8, 107) /* Sollerets */
+     , (26619, 8, 49324) /* Fire Wisp Essence (50) */
+     , (26619, 8, 116) /* Studded Leather Boots */
+     , (26619, 8, 273) /* Pyreal */
+     , (26619, 8, 49247) /* Fire Zombie Essence (50) */
+     , (26619, 8, 25646) /* Long Leather Gauntlets */
+     , (26619, 8, 413) /* Chainmail Bracers */
+     , (26619, 8, 2548) /* Sceptre */
+     , (26619, 8, 3355) /* Scroll of Leadership Mastery Other IV */
+     , (26619, 8, 2641) /* Scroll of Clumsiness Other IV */
+     , (26619, 8, 132) /* Shoes */
+     , (26619, 8, 22440) /* Dirk */
+     , (26619, 8, 46) /* Metal Cap */
+     , (26619, 8, 9656) /* Scroll of Stamina to Mana Self III */
+     , (26619, 8, 25652) /* Leather Tassets */
+     , (26619, 8, 40761) /* Acid Nodachi */
+     , (26619, 8, 363) /* Yumi */;
+

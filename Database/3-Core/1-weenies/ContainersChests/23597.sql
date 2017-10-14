@@ -53,3 +53,20 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (23597, 2, 0) /* OPEN_BOOL */
      , (23597, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23597, 8, 6005) /* Koujia Sleeves */
+     , (23597, 8, 48) /* Studded Leather Coat */
+     , (23597, 8, 42635) /* Aetheria */
+     , (23597, 8, 25643) /* Leather Girth */
+     , (23597, 8, 95) /* Tower Shield */
+     , (23597, 8, 45428) /* Lightning Jambiya */
+     , (23597, 8, 48944) /* Fire Skeleton Minion Essence (80) */
+     , (23597, 8, 49261) /* Acid Elemental Essence (50) */
+     , (23597, 8, 30612) /* Lightning Knuckles */
+     , (23597, 8, 6048) /* Celdon Sleeves */
+     , (23597, 8, 129) /* Sandals */
+     , (23597, 8, 2409) /* Gem */
+     , (23597, 8, 20446) /* Scroll of Outlander's Insolence */;
+

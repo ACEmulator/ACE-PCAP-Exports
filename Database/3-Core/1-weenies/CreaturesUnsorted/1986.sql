@@ -41,3 +41,24 @@ VALUES (1986, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1986, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1986, 8, 307) /* Shortbow */
+     , (1986, 8, 27331) /* Minor Mana Stone */
+     , (1986, 8, 2417) /* Gem */
+     , (1986, 8, 8329) /* Lead Pea */
+     , (1986, 8, 71) /* Chainmail Hauberk */
+     , (1986, 8, 2434) /* Lesser Mana Stone */
+     , (1986, 8, 31760) /* Acid Dericost Blade */
+     , (1986, 8, 273) /* Pyreal */
+     , (1986, 8, 1858) /* Scroll of Mana Depletion Other */
+     , (1986, 8, 1786) /* Scroll of Slowness Other */
+     , (1986, 8, 31793) /* Frost Lancet */
+     , (1986, 8, 25643) /* Leather Girth */
+     , (1986, 8, 243) /* Dinner Plate */
+     , (1986, 8, 2413) /* Gem */
+     , (1986, 8, 3368) /* Scroll of Life Magic Mastery Other II */
+     , (1986, 8, 622) /* Necklace */
+     , (1986, 8, 38) /* Studded Leather Bracers */;
+

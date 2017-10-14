@@ -89,7 +89,7 @@ VALUES (35948, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35948, 4, 35938)
-     , (35948, 4, 35949)
-     , (35948, 4, 35950);
+VALUES (35948, 4, 35938) /* Tusker Skull Helm */
+     , (35948, 4, 35949) /* Tusker Bone Sword */
+     , (35948, 4, 35950) /* Tusker Paw Wand */;
 

@@ -128,20 +128,20 @@ VALUES (1044, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1044, 4, 364)
-     , (1044, 4, 365)
-     , (1044, 4, 367)
-     , (1044, 4, 9118)
-     , (1044, 4, 9124)
-     , (1044, 4, 9319)
-     , (1044, 4, 27851)
-     , (1044, 4, 5602)
-     , (1044, 4, 6419)
-     , (1044, 4, 5584)
-     , (1044, 4, 5856)
-     , (1044, 4, 7884)
-     , (1044, 4, 14797)
-     , (1044, 4, 5586)
-     , (1044, 4, 24855)
-     , (1044, 4, 5587);
+VALUES (1044, 4, 364) /* Book */
+     , (1044, 4, 365) /* Parchment */
+     , (1044, 4, 367) /* Tome */
+     , (1044, 4, 9118) /* Puppet Show */
+     , (1044, 4, 9124) /* The Beginning */
+     , (1044, 4, 9319) /* Mnemosynes and the Art of Lockpicking */
+     , (1044, 4, 27851) /* The Weapons of the Singularity */
+     , (1044, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (1044, 4, 6419) /* The Meeting Halls */
+     , (1044, 4, 5584) /* Gharu'ndim Cookbook */
+     , (1044, 4, 5856) /* Specialty Cookbook */
+     , (1044, 4, 7884) /* Chocolate Cookbook */
+     , (1044, 4, 14797) /* Festival Cookbook */
+     , (1044, 4, 5586) /* Alchemy Guide */
+     , (1044, 4, 24855) /* The New Alchemy */
+     , (1044, 4, 5587) /* Fletching Guide */;
 

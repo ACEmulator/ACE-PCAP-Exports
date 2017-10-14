@@ -48,3 +48,10 @@ VALUES (29358, 2, 9) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (29358, 64, 238) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29358, 8, 132) /* Shoes */
+     , (29358, 8, 2602) /* Loose Breeches */
+     , (29358, 8, 8331) /* Silver Pea */;
+

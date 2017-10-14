@@ -45,3 +45,10 @@ VALUES (20186, 2, 60) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (20186, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (20186, 8, 2367) /* Gorget */
+     , (20186, 8, 45113) /* Hammer */
+     , (20186, 8, 8328) /* Iron Pea */;
+

@@ -86,3 +86,93 @@ VALUES (35013, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35013, 64, 15000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35013, 8, 42637) /* Aetheria */
+     , (35013, 8, 416) /* Chainmail Pauldrons */
+     , (35013, 8, 20244) /* Scroll of Adja's Gift */
+     , (35013, 8, 623) /* Heavy Necklace */
+     , (35013, 8, 49217) /* Acid Skeleton Bushi Essence (150) */
+     , (35013, 8, 20513) /* Scroll of Wrath of Adja */
+     , (35013, 8, 31867) /* Diadem */
+     , (35013, 8, 119) /* Cowl */
+     , (35013, 8, 515) /* Superb Lockpick */
+     , (35013, 8, 516) /* Peerless Lockpick */
+     , (35013, 8, 35014) /* 1st Locked Gate Key */
+     , (35013, 8, 154) /* Goblet */
+     , (35013, 8, 20426) /* Aura of Atlan's Alacrity */
+     , (35013, 8, 344) /* Silifi */
+     , (35013, 8, 20254) /* Scroll of Might of the Lugians */
+     , (35013, 8, 22159) /* Acid Nabut */
+     , (35013, 8, 2604) /* Wide Breeches */
+     , (35013, 8, 31780) /* Acid Spine Glaive */
+     , (35013, 8, 149) /* Ewer */
+     , (35013, 8, 9229) /* Treated Healing Kit */
+     , (35013, 8, 25652) /* Leather Tassets */
+     , (35013, 8, 35016) /* 2nd Locked Gate Key */
+     , (35013, 8, 20501) /* Scroll of Jibril's Boon */
+     , (35013, 8, 49425) /* Acid Spectre Essence (150) */
+     , (35013, 8, 21294) /* Scroll of Acid Arc VII */
+     , (35013, 8, 2587) /* Shirt */
+     , (35013, 8, 6004) /* Koujia Leggings */
+     , (35013, 8, 25638) /* Leather Vest */
+     , (35013, 8, 348) /* Spear */
+     , (35013, 8, 632) /* Peerless Healing Kit */
+     , (35013, 8, 35018) /* 3rd Locked Gate Key */
+     , (35013, 8, 2411) /* Gem */
+     , (35013, 8, 31807) /* Blunt Compound Crossbow */
+     , (35013, 8, 44840) /* Cloak */
+     , (35013, 8, 27328) /* Major Mana Stone */
+     , (35013, 8, 90) /* Yoroi Pauldrons */
+     , (35013, 8, 41063) /* Acid Khanda-handled Mace */
+     , (35013, 8, 2407) /* Gem */
+     , (35013, 8, 2437) /* Yoroi Leggings */
+     , (35013, 8, 29251) /* Slashing Crossbow */
+     , (35013, 8, 35020) /* 4th Locked Gate Key */
+     , (35013, 8, 142) /* Chalice */
+     , (35013, 8, 38) /* Studded Leather Bracers */
+     , (35013, 8, 31782) /* Fire Spine Glaive */
+     , (35013, 8, 2472) /* Wand */
+     , (35013, 8, 273) /* Pyreal */
+     , (35013, 8, 7772) /* Trident */
+     , (35013, 8, 121) /* Gloves */
+     , (35013, 8, 35022) /* 5th Locked Gate Key */
+     , (35013, 8, 29246) /* Ultimate Singularity Crossbow */
+     , (35013, 8, 41038) /* Lightning Assagai */
+     , (35013, 8, 49258) /* Frost Zombie Essence (150) */
+     , (35013, 8, 37200) /* Olthoi Alduressa Leggings */
+     , (35013, 8, 25650) /* Leather Shorts */
+     , (35013, 8, 31779) /* Spine Glaive */
+     , (35013, 8, 3914) /* Lightning Yari */
+     , (35013, 8, 27320) /* Health Tonic */
+     , (35013, 8, 22166) /* Flaming Quarter Staff */
+     , (35013, 8, 27217) /* Chiran Helm */
+     , (35013, 8, 7787) /* Frost Spiked Club */
+     , (35013, 8, 31798) /* Slashing Compound Bow */
+     , (35013, 8, 359) /* War Hammer */
+     , (35013, 8, 301) /* Battle Axe */
+     , (35013, 8, 91) /* Kite Shield */
+     , (35013, 8, 29263) /* Frost Sceptre */
+     , (35013, 8, 20253) /* Scroll of Might of the 5 Mules */
+     , (35013, 8, 624) /* Ring */
+     , (35013, 8, 31801) /* Electric Compound Bow */
+     , (35013, 8, 3856) /* Frost Shamshir */
+     , (35013, 8, 40638) /* Flaming Tetsubo */
+     , (35013, 8, 41483) /* Compass */
+     , (35013, 8, 49433) /* Lightning Spectre Essence (180) */
+     , (35013, 8, 49392) /* Frost Grievver Essence (180) */
+     , (35013, 8, 41044) /* Flaming Magari Yari */
+     , (35013, 8, 2592) /* Puffy Tunic */
+     , (35013, 8, 59) /* Studded Leather Gauntlets */
+     , (35013, 8, 40635) /* Tetsubo */
+     , (35013, 8, 45419) /* Flaming Knife */
+     , (35013, 8, 49363) /* Frost Moar Essence (150) */
+     , (35013, 8, 43300) /* Scroll of Nether Arc VII */
+     , (35013, 8, 49277) /* Frost Elemental Essence (100) */
+     , (35013, 8, 25647) /* Leather Pants */
+     , (35013, 8, 2402) /* Gem */
+     , (35013, 8, 2410) /* Gem */
+     , (35013, 8, 124) /* Jerkin */
+     , (35013, 8, 22154) /* Acid Jo */;
+

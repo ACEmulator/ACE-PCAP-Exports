@@ -36,3 +36,9 @@ VALUES (27981, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27981, 67115201, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27981, 8, 20525) /* Scroll of Broadside of a Barn */
+     , (27981, 8, 84) /* Studded  Leggings */;
+

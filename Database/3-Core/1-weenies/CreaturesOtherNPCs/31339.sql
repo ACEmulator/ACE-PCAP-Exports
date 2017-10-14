@@ -61,3 +61,30 @@ VALUES (31339, 64, 293) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (31339, 128, 1245) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (31339, 256, 146) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31339, 8, 149) /* Ewer */
+     , (31339, 8, 55) /* Chainmail Gauntlets */
+     , (31339, 8, 5901) /* Kasa */
+     , (31339, 8, 49243) /* Lightning Zombie Essence (125) */
+     , (31339, 8, 27216) /* Chiran Gauntlets */
+     , (31339, 8, 45426) /* Jambiya */
+     , (31339, 8, 154) /* Goblet */
+     , (31339, 8, 46881) /* Aura of Heartseeker Other VII */
+     , (31339, 8, 163) /* Ornamental Bowl */
+     , (31339, 8, 2412) /* Gem */
+     , (31339, 8, 150) /* Flagon */
+     , (31339, 8, 49348) /* Lightning Moar Essence (125) */
+     , (31339, 8, 31821) /* Staff of Aerfalle */
+     , (31339, 8, 41069) /* Lightning Shashqa */
+     , (31339, 8, 20411) /* Aura of Cragstone's Will */
+     , (31339, 8, 2588) /* Flared Shirt */
+     , (31339, 8, 297) /* Ring */
+     , (31339, 8, 624) /* Ring */
+     , (31339, 8, 118) /* Cloth Cap */
+     , (31339, 8, 21108) /* Scroll of Martyr's Blight VII */
+     , (31339, 8, 2587) /* Shirt */
+     , (31339, 8, 40821) /* Flaming Corsesca */
+     , (31339, 8, 29249) /* Frost Crossbow */;
+

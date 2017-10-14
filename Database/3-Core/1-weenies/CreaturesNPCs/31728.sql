@@ -118,5 +118,5 @@ VALUES (31728, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (31728, 2, 2547);
+VALUES (31728, 2, 2547) /* Staff */;
 

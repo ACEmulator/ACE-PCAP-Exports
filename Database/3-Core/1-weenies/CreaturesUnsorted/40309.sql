@@ -48,3 +48,30 @@ VALUES (40309, 2, 26) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40309, 64, 1215) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40309, 8, 49425) /* Acid Spectre Essence (150) */
+     , (40309, 8, 2409) /* Gem */
+     , (40309, 8, 623) /* Heavy Necklace */
+     , (40309, 8, 43049) /* Knorr Academy Gauntlets */
+     , (40309, 8, 2599) /* Trousers */
+     , (40309, 8, 7793) /* Acid Trident */
+     , (40309, 8, 31799) /* Acid Compound Bow */
+     , (40309, 8, 41067) /* Shashqa */
+     , (40309, 8, 25661) /* Leather Boots */
+     , (40309, 8, 49251) /* Fire Zombie Essence (150) */
+     , (40309, 8, 27220) /* Lorica Boots */
+     , (40309, 8, 49549) /* Lightning Phyntos Wasp Essence (150) */
+     , (40309, 8, 2589) /* Smock */
+     , (40309, 8, 163) /* Ornamental Bowl */
+     , (40309, 8, 42637) /* Aetheria */
+     , (40309, 8, 31865) /* Circlet */
+     , (40309, 8, 30584) /* Frost Mazule */
+     , (40309, 8, 3905) /* Acid War Hammer */
+     , (40309, 8, 49328) /* Fire Wisp Essence (150) */
+     , (40309, 8, 22161) /* Flaming Nabut */
+     , (40309, 8, 130) /* Shirt */
+     , (40309, 8, 49369) /* Acid Grievver Essence (125) */
+     , (40309, 8, 37210) /* White Bunny Slippers */;
+

@@ -123,15 +123,15 @@ VALUES (42801, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42801, 4, 45848)
-     , (42801, 4, 45849)
-     , (42801, 4, 45847)
-     , (42801, 4, 45846)
-     , (42801, 4, 45845)
-     , (42801, 4, 48727)
-     , (42801, 4, 48728)
-     , (42801, 4, 51279)
-     , (42801, 4, 52171)
-     , (42801, 4, 52172)
-     , (42801, 4, 52174);
+VALUES (42801, 4, 45848) /* Contract for Splitting Grael (Low) */
+     , (42801, 4, 45849) /* Contract for Splitting Grael (Mid) */
+     , (42801, 4, 45847) /* Contract for Splitting Grael (High) */
+     , (42801, 4, 45846) /* Contract for Geraine's Study */
+     , (42801, 4, 45845) /* Contract for Geraine's Hosts */
+     , (42801, 4, 48727) /* Contract for Mage Academy */
+     , (42801, 4, 48728) /* Contract for Apostate Finale */
+     , (42801, 4, 51279) /* Contract for Olthoi Hive Queen */
+     , (42801, 4, 52171) /* Contract for End of Days */
+     , (42801, 4, 52172) /* Contract for Lugian Assault */
+     , (42801, 4, 52174) /* Contract for Rynthid Training */;
 

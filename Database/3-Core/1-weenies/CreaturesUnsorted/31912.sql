@@ -41,3 +41,23 @@ VALUES (31912, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31912, 67116781, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31912, 8, 43373) /* Scroll of Void Magic Ineptitude Other VII */
+     , (31912, 8, 28617) /* Alduressa Helm */
+     , (31912, 8, 297) /* Ring */
+     , (31912, 8, 31774) /* Board with Nail */
+     , (31912, 8, 43068) /* Knorr Academy Helm */
+     , (31912, 8, 20418) /* Scroll of Brogard's Defiance */
+     , (31912, 8, 4192) /* Acid Cestus */
+     , (31912, 8, 20241) /* Scroll of Inner Calm */
+     , (31912, 8, 41066) /* Frost Khanda-handled Mace */
+     , (31912, 8, 20550) /* Scroll of Ar-Pei's Boon */
+     , (31912, 8, 40713) /* Covenant Shield */
+     , (31912, 8, 31798) /* Slashing Compound Bow */
+     , (31912, 8, 49376) /* Lightning Grievver Essence (125) */
+     , (31912, 8, 40760) /* Nodachi */
+     , (31912, 8, 20598) /* Scroll of Koga's Blessing */
+     , (31912, 8, 21301) /* Scroll of Blade Arc VII */;
+

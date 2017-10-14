@@ -131,12 +131,12 @@ VALUES (4681, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4681, 4, 4755)
-     , (4681, 4, 4753)
-     , (4681, 4, 5758)
-     , (4681, 4, 23327)
-     , (4681, 4, 23326)
-     , (4681, 4, 4759)
-     , (4681, 4, 4746)
-     , (4681, 4, 4768);
+VALUES (4681, 4, 4755) /* Brine */
+     , (4681, 4, 4753) /* Side of Beef */
+     , (4681, 4, 5758) /* Carrot */
+     , (4681, 4, 23327) /* Simple Dried Rations */
+     , (4681, 4, 23326) /* Elaborate Dried Rations */
+     , (4681, 4, 4759) /* Cooking Pot */
+     , (4681, 4, 4746) /* Water */
+     , (4681, 4, 4768) /* Uncooked Rice */;
 

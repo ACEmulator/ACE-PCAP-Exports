@@ -49,3 +49,39 @@ VALUES (1937, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1937, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1937, 8, 295) /* Bracelet */
+     , (1937, 8, 63) /* Studded Leather Girth */
+     , (1937, 8, 2636) /* Scroll of Bafflement Other IV */
+     , (1937, 8, 20640) /* Royal Atlatl */
+     , (1937, 8, 3569) /* Scroll of War Magic Mastery Other III */
+     , (1937, 8, 45302) /* Scroll of Recklessness Mastery Self III */
+     , (1937, 8, 127) /* Pants */
+     , (1937, 8, 3939) /* Acid Morning Star */
+     , (1937, 8, 2417) /* Gem */
+     , (1937, 8, 28605) /* Beret */
+     , (1937, 8, 254) /* Stoup */
+     , (1937, 8, 2414) /* Gem */
+     , (1937, 8, 20358) /* Scroll of Purge Item Magic */
+     , (1937, 8, 2428) /* Gem */
+     , (1937, 8, 7940) /* Empty Flask */
+     , (1937, 8, 118) /* Cloth Cap */
+     , (1937, 8, 273) /* Pyreal */
+     , (1937, 8, 28606) /* Viamontian Pants */
+     , (1937, 8, 2420) /* Gem */
+     , (1937, 8, 360) /* Yag */
+     , (1937, 8, 2999) /* Scroll of Blade Vulnerability Other III */
+     , (1937, 8, 49254) /* Frost Zombie Essence (50) */
+     , (1937, 8, 2430) /* Gem */
+     , (1937, 8, 49338) /* Acid Moar Essence (50) */
+     , (1937, 8, 3280) /* Scroll of Healing Mastery Self IV */
+     , (1937, 8, 2366) /* Orb */
+     , (1937, 8, 621) /* Heavy Bracelet */
+     , (1937, 8, 3016) /* Scroll of Bludgeoning Vulnerability Other V */
+     , (1937, 8, 3245) /* Scroll of Deception Mastery Self IV */
+     , (1937, 8, 5901) /* Kasa */
+     , (1937, 8, 168) /* Tankard */
+     , (1937, 8, 41488) /* Top */;
+

@@ -115,5 +115,5 @@ VALUES (7241, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (7241, 2, 363);
+VALUES (7241, 2, 363) /* Yumi */;
 

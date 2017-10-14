@@ -23,7 +23,7 @@ VALUES (4180, 1, 512) /* ITEM_TYPE_INT */
      , (4180, 6, 120) /* ITEMS_CAPACITY_INT */
      , (4180, 16, 48) /* ITEM_USEABLE_INT */
      , (4180, 93, 1052) /* PHYSICS_STATE_INT */
-     , (4180, 9007, 21) /* Container_WeenieType */;
+     , (4180, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (4180, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -35,4 +35,36 @@ VALUES (4180, 13, True) /* ETHEREAL_BOOL */
      , (4180, 14, True) /* GRAVITY_STATUS_BOOL */
      , (4180, 19, True) /* ATTACKABLE_BOOL */
      , (4180, 1, True) /* STUCK_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4180, 8, 4767) /* Skewer */
+     , (4180, 8, 2868) /* Scroll of Piercing Bane III */
+     , (4180, 8, 5958) /* Scroll of Cooking Mastery Self III */
+     , (4180, 8, 341) /* Shouyumi */
+     , (4180, 8, 49247) /* Fire Zombie Essence (50) */
+     , (4180, 8, 25649) /* Leather Shirt */
+     , (4180, 8, 3774) /* Acid Dabus */
+     , (4180, 8, 132) /* Shoes */
+     , (4180, 8, 516) /* Peerless Lockpick */
+     , (4180, 8, 8330) /* Pyreal Pea */
+     , (4180, 8, 2415) /* Gem */
+     , (4180, 8, 2426) /* Gem */
+     , (4180, 8, 2417) /* Gem */
+     , (4180, 8, 134) /* Tunic */
+     , (4180, 8, 28608) /* Poet's Shirt */
+     , (4180, 8, 2434) /* Lesser Mana Stone */
+     , (4180, 8, 12463) /* Atlatl */
+     , (4180, 8, 31865) /* Circlet */
+     , (4180, 8, 2429) /* Gem */
+     , (4180, 8, 309) /* Club */
+     , (4180, 8, 41058) /* Acid Great Star Mace */
+     , (4180, 8, 628) /* Handy Healing Kit */
+     , (4180, 8, 2432) /* Gem */
+     , (4180, 8, 168) /* Tankard */
+     , (4180, 8, 2470) /* Stamina Elixir */
+     , (4180, 8, 624) /* Ring */
+     , (4180, 8, 2589) /* Smock */
+     , (4180, 8, 4748) /* Aqua Incanta */;
 

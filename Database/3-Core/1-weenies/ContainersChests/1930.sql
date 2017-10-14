@@ -51,3 +51,87 @@ VALUES (1930, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1930, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1930, 8, 133) /* Slippers */
+     , (1930, 8, 49442) /* Frost Spectre Essence (50) */
+     , (1930, 8, 148) /* Cup */
+     , (1930, 8, 2398) /* Gem */
+     , (1930, 8, 161) /* Mug */
+     , (1930, 8, 149) /* Ewer */
+     , (1930, 8, 150) /* Flagon */
+     , (1930, 8, 2400) /* Gem */
+     , (1930, 8, 5894) /* Fez */
+     , (1930, 8, 297) /* Ring */
+     , (1930, 8, 168) /* Tankard */
+     , (1930, 8, 7940) /* Empty Flask */
+     , (1930, 8, 31865) /* Circlet */
+     , (1930, 8, 2417) /* Gem */
+     , (1930, 8, 2429) /* Gem */
+     , (1930, 8, 48942) /* Fire Skeleton Minion Essence (50) */
+     , (1930, 8, 135) /* Turban */
+     , (1930, 8, 154) /* Goblet */
+     , (1930, 8, 2598) /* Baggy Pants */
+     , (1930, 8, 624) /* Ring */
+     , (1930, 8, 295) /* Bracelet */
+     , (1930, 8, 622) /* Necklace */
+     , (1930, 8, 254) /* Stoup */
+     , (1930, 8, 2405) /* Gem */
+     , (1930, 8, 49359) /* Frost Moar Essence (50) */
+     , (1930, 8, 2430) /* Gem */
+     , (1930, 8, 127) /* Pants */
+     , (1930, 8, 296) /* Crown */
+     , (1930, 8, 49352) /* Fire Moar Essence (50) */
+     , (1930, 8, 2416) /* Gem */
+     , (1930, 8, 118) /* Cloth Cap */
+     , (1930, 8, 141) /* Bowl */
+     , (1930, 8, 2433) /* Gem */
+     , (1930, 8, 41487) /* Mechanical Scarab */
+     , (1930, 8, 49303) /* Frost K'nath Essence (50) */
+     , (1930, 8, 2590) /* Baggy Shirt */
+     , (1930, 8, 2413) /* Gem */
+     , (1930, 8, 243) /* Dinner Plate */
+     , (1930, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (1930, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (1930, 8, 41486) /* Puzzle Box */
+     , (1930, 8, 2595) /* Baggy Tunic */
+     , (1930, 8, 2396) /* Gem */
+     , (1930, 8, 28609) /* Vest */
+     , (1930, 8, 2419) /* Gem */
+     , (1930, 8, 28605) /* Beret */
+     , (1930, 8, 621) /* Heavy Bracelet */
+     , (1930, 8, 2415) /* Gem */
+     , (1930, 8, 42518) /* Coalesced Mana */
+     , (1930, 8, 49485) /* Encapsulated Spirit */
+     , (1930, 8, 49338) /* Acid Moar Essence (50) */
+     , (1930, 8, 44858) /* Quartered Cloak */
+     , (1930, 8, 2589) /* Smock */
+     , (1930, 8, 28608) /* Poet's Shirt */
+     , (1930, 8, 132) /* Shoes */
+     , (1930, 8, 2397) /* Gem */
+     , (1930, 8, 121) /* Gloves */
+     , (1930, 8, 2420) /* Gem */
+     , (1930, 8, 41485) /* Pocket Watch */
+     , (1930, 8, 2428) /* Gem */
+     , (1930, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (1930, 8, 2600) /* Pantaloons */
+     , (1930, 8, 2414) /* Gem */
+     , (1930, 8, 49380) /* Fire Grievver Essence (50) */
+     , (1930, 8, 2596) /* Doublet */
+     , (1930, 8, 2431) /* Gem */
+     , (1930, 8, 2432) /* Gem */
+     , (1930, 8, 41488) /* Top */
+     , (1930, 8, 28612) /* Bandana */
+     , (1930, 8, 294) /* Amulet */
+     , (1930, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (1930, 8, 49387) /* Frost Grievver Essence (50) */
+     , (1930, 8, 2588) /* Flared Shirt */
+     , (1930, 8, 49345) /* Lightning Moar Essence (50) */
+     , (1930, 8, 2587) /* Shirt */
+     , (1930, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (1930, 8, 2418) /* Gem */
+     , (1930, 8, 49261) /* Acid Elemental Essence (50) */
+     , (1930, 8, 49296) /* Fire K'nath Essence (50) */
+     , (1930, 8, 2426) /* Gem */;
+

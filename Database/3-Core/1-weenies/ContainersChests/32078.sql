@@ -49,3 +49,28 @@ VALUES (32078, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32078, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32078, 8, 49436) /* Fire Spectre Essence (80) */
+     , (32078, 8, 31766) /* Lightning Lugian Hammer */
+     , (32078, 8, 31779) /* Spine Glaive */
+     , (32078, 8, 622) /* Necklace */
+     , (32078, 8, 2423) /* Gem */
+     , (32078, 8, 130) /* Shirt */
+     , (32078, 8, 415) /* Chainmail Girth */
+     , (32078, 8, 273) /* Pyreal */
+     , (32078, 8, 41485) /* Pocket Watch */
+     , (32078, 8, 142) /* Chalice */
+     , (32078, 8, 32083) /* Instructions */
+     , (32078, 8, 31026) /* Tenassa Breastplate */
+     , (32078, 8, 40696) /* Covenant Bracers */
+     , (32078, 8, 20514) /* Scroll of Adja's Boon */
+     , (32078, 8, 621) /* Heavy Bracelet */
+     , (32078, 8, 22159) /* Acid Nabut */
+     , (32078, 8, 30949) /* Diforsa Sleeves */
+     , (32078, 8, 31782) /* Fire Spine Glaive */
+     , (32078, 8, 22157) /* Frost Jo */
+     , (32078, 8, 29262) /* Fire Sceptre */
+     , (32078, 8, 22164) /* Acid Quarter Staff */;
+

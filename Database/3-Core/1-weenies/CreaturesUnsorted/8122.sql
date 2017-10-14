@@ -40,3 +40,14 @@ VALUES (8122, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8122, 67111341, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8122, 8, 3521) /* Scroll of Heavy Weapon Mastery Other V */
+     , (8122, 8, 297) /* Ring */
+     , (8122, 8, 8087) /* Urgently Written Note */
+     , (8122, 8, 7797) /* Acid Naginata */
+     , (8122, 8, 3041) /* Scroll of Fire Protection Self V */
+     , (8122, 8, 31865) /* Circlet */
+     , (8122, 8, 12463) /* Atlatl */;
+

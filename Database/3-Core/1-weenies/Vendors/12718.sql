@@ -141,12 +141,12 @@ VALUES (12718, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (12718, 4, 20631)
-     , (12718, 4, 691)
-     , (12718, 4, 136)
-     , (12718, 4, 4728)
-     , (12718, 4, 4732)
-     , (12718, 4, 620)
-     , (12718, 4, 4709)
-     , (12718, 4, 513);
+VALUES (12718, 4, 20631) /* Prismatic Taper */
+     , (12718, 4, 691) /* Lead Scarab */
+     , (12718, 4, 136) /* Pack */
+     , (12718, 4, 4728) /* Fried Chicken */
+     , (12718, 4, 4732) /* Fried Steak */
+     , (12718, 4, 620) /* Cake */
+     , (12718, 4, 4709) /* Apple Pie */
+     , (12718, 4, 513) /* Plain Lockpick */;
 

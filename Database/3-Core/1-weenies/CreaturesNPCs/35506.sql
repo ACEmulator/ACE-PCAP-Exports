@@ -107,3 +107,22 @@ VALUES (35506, 0, 16789775)
      , (35506, 23, 16789781)
      , (35506, 24, 16789780);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35506, 8, 20585) /* Scroll of Heavy Weapon Mastery Other VII */
+     , (35506, 8, 20572) /* Scroll of Kaluhc's Blessing */
+     , (35506, 8, 22442) /* Lightning Dirk */
+     , (35506, 8, 20549) /* Scroll of Kwipetian Vision */
+     , (35506, 8, 31766) /* Lightning Lugian Hammer */
+     , (35506, 8, 31780) /* Acid Spine Glaive */
+     , (35506, 8, 22155) /* Lightning Jo */
+     , (35506, 8, 49357) /* Fire Moar Essence (180) */
+     , (35506, 8, 37187) /* Olthoi Alduressa Gauntlets */
+     , (35506, 8, 621) /* Heavy Bracelet */
+     , (35506, 8, 20491) /* Scroll of Hydra's Head */
+     , (35506, 8, 2409) /* Gem */
+     , (35506, 8, 20465) /* Scroll of Caustic Boon */
+     , (35506, 8, 49290) /* Lightning K'nath Essence (80) */
+     , (35506, 8, 141) /* Bowl */;
+

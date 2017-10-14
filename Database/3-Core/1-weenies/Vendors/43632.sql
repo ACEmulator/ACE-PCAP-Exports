@@ -86,54 +86,54 @@ VALUES (43632, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43632, 4, 43677)
-     , (43632, 4, 43678)
-     , (43632, 4, 43679)
-     , (43632, 4, 43680)
-     , (43632, 4, 43673)
-     , (43632, 4, 43674)
-     , (43632, 4, 43675)
-     , (43632, 4, 43676)
-     , (43632, 4, 43668)
-     , (43632, 4, 43669)
-     , (43632, 4, 43670)
-     , (43632, 4, 43671)
-     , (43632, 4, 43636)
-     , (43632, 4, 43637)
-     , (43632, 4, 43638)
-     , (43632, 4, 43639)
-     , (43632, 4, 43640)
-     , (43632, 4, 43641)
-     , (43632, 4, 43642)
-     , (43632, 4, 43643)
-     , (43632, 4, 43644)
-     , (43632, 4, 43645)
-     , (43632, 4, 43646)
-     , (43632, 4, 43647)
-     , (43632, 4, 43648)
-     , (43632, 4, 43649)
-     , (43632, 4, 43650)
-     , (43632, 4, 43651)
-     , (43632, 4, 43652)
-     , (43632, 4, 43653)
-     , (43632, 4, 43654)
-     , (43632, 4, 43655)
-     , (43632, 4, 43656)
-     , (43632, 4, 43657)
-     , (43632, 4, 43658)
-     , (43632, 4, 43659)
-     , (43632, 4, 43660)
-     , (43632, 4, 43661)
-     , (43632, 4, 43662)
-     , (43632, 4, 43663)
-     , (43632, 4, 43664)
-     , (43632, 4, 43665)
-     , (43632, 4, 43666)
-     , (43632, 4, 43667)
-     , (43632, 4, 43732)
-     , (43632, 4, 43633)
-     , (43632, 4, 43635)
-     , (43632, 4, 43634)
-     , (43632, 4, 43701)
-     , (43632, 4, 43819);
+VALUES (43632, 4, 43677) /* Lower Exoskeleton Metamorphi */
+     , (43632, 4, 43678) /* Lower Exoskeleton Metamorphi */
+     , (43632, 4, 43679) /* Lower Exoskeleton Metamorphi */
+     , (43632, 4, 43680) /* Lower Exoskeleton Metamorphi */
+     , (43632, 4, 43673) /* Upper Exoskeleton Metamorphi */
+     , (43632, 4, 43674) /* Upper Exoskeleton Metamorphi */
+     , (43632, 4, 43675) /* Upper Exoskeleton Metamorphi */
+     , (43632, 4, 43676) /* Upper Exoskeleton Metamorphi */
+     , (43632, 4, 43668) /* Spitter Pedipalp Metamorphi */
+     , (43632, 4, 43669) /* Spitter Pedipalp Metamorphi */
+     , (43632, 4, 43670) /* Spitter Pedipalp Metamorphi */
+     , (43632, 4, 43671) /* Spitter Pedipalp Metamorphi */
+     , (43632, 4, 43636) /* Spitter Thorax Metamorphi */
+     , (43632, 4, 43637) /* Spitter Thorax Metamorphi */
+     , (43632, 4, 43638) /* Spitter Thorax Metamorphi */
+     , (43632, 4, 43639) /* Spitter Thorax Metamorphi */
+     , (43632, 4, 43640) /* Spitter Pincer Metamorphi */
+     , (43632, 4, 43641) /* Spitter Pincer Metamorphi */
+     , (43632, 4, 43642) /* Spitter Pincer Metamorphi */
+     , (43632, 4, 43643) /* Spitter Pincer Metamorphi */
+     , (43632, 4, 43644) /* Spitter Abdomen Metamorphi */
+     , (43632, 4, 43645) /* Spitter Abdomen Metamorphi */
+     , (43632, 4, 43646) /* Spitter Abdomen Metamorphi */
+     , (43632, 4, 43647) /* Spitter Abdomen Metamorphi */
+     , (43632, 4, 43648) /* Spitter Tibia Metamorphi */
+     , (43632, 4, 43649) /* Spitter Tibia Metamorphi */
+     , (43632, 4, 43650) /* Spitter Tibia Metamorphi */
+     , (43632, 4, 43651) /* Spitter Tibia Metamorphi */
+     , (43632, 4, 43652) /* Spitter Head Metamorphi */
+     , (43632, 4, 43653) /* Spitter Head Metamorphi */
+     , (43632, 4, 43654) /* Spitter Head Metamorphi */
+     , (43632, 4, 43655) /* Spitter Head Metamorphi */
+     , (43632, 4, 43656) /* Spitter Trochanter Metamorphi */
+     , (43632, 4, 43657) /* Spitter Trochanter Metamorphi */
+     , (43632, 4, 43658) /* Spitter Trochanter Metamorphi */
+     , (43632, 4, 43659) /* Spitter Trochanter Metamorphi */
+     , (43632, 4, 43660) /* Spitter Foot Metamorphi */
+     , (43632, 4, 43661) /* Spitter Foot Metamorphi */
+     , (43632, 4, 43662) /* Spitter Foot Metamorphi */
+     , (43632, 4, 43663) /* Spitter Foot Metamorphi */
+     , (43632, 4, 43664) /* Spitter Femur Metamorphi */
+     , (43632, 4, 43665) /* Spitter Femur Metamorphi */
+     , (43632, 4, 43666) /* Spitter Femur Metamorphi */
+     , (43632, 4, 43667) /* Spitter Femur Metamorphi */
+     , (43632, 4, 43732) /* Enchanted Olthoi Egg */
+     , (43632, 4, 43633) /* Acidic Rejuvenation */
+     , (43632, 4, 43635) /* Saliva Invigorator */
+     , (43632, 4, 43634) /* Acidic Infusion */
+     , (43632, 4, 43701) /* Olthoi Fibrous Healing Tissue */
+     , (43632, 4, 43819) /* Olthoi Coarse Healing Tissue */;
 

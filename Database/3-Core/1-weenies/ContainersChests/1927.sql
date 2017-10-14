@@ -49,3 +49,16 @@ VALUES (1927, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1927, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1927, 8, 296) /* Crown */
+     , (1927, 8, 295) /* Bracelet */
+     , (1927, 8, 297) /* Ring */
+     , (1927, 8, 49485) /* Encapsulated Spirit */
+     , (1927, 8, 254) /* Stoup */
+     , (1927, 8, 2430) /* Gem */
+     , (1927, 8, 2414) /* Gem */
+     , (1927, 8, 624) /* Ring */
+     , (1927, 8, 148) /* Cup */;
+

@@ -47,3 +47,18 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (43031, 0, 16789208)
      , (43031, 1, 16789209);
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43031, 8, 38083) /* Visage of Menilesh */
+     , (43031, 8, 38082) /* Rytheran's Mnemosyne */
+     , (43031, 8, 35383) /* Ancient Mhoire Coin */
+     , (43031, 8, 35504) /* Ornate Bone Key */
+     , (43031, 8, 7792) /* Fire Trident */
+     , (43031, 8, 31786) /* Lightning Claw */
+     , (43031, 8, 3767) /* Lightning Club */
+     , (43031, 8, 37363) /* Quill of Infliction */
+     , (43031, 8, 37307) /* Glyph of Regeneration */
+     , (43031, 8, 37314) /* Glyph of Lightning */
+     , (43031, 8, 37371) /* Glyph of Missile Weapons */;
+

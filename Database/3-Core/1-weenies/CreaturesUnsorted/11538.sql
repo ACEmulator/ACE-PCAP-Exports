@@ -58,3 +58,16 @@ VALUES (11538, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (11538, 128, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (11538, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11538, 8, 2589) /* Smock */
+     , (11538, 8, 44) /* Buckler */
+     , (11538, 8, 132) /* Shoes */
+     , (11538, 8, 161) /* Mug */
+     , (11538, 8, 254) /* Stoup */
+     , (11538, 8, 512) /* Good Lockpick */
+     , (11538, 8, 2814) /* Scroll of Flame Bane IV */
+     , (11538, 8, 116) /* Studded Leather Boots */
+     , (11538, 8, 25638) /* Leather Vest */;
+

@@ -44,3 +44,18 @@ VALUES (11489, 2, 56) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11489, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11489, 8, 49254) /* Frost Zombie Essence (50) */
+     , (11489, 8, 67) /* Scalemail Greaves */
+     , (11489, 8, 161) /* Mug */
+     , (11489, 8, 512) /* Good Lockpick */
+     , (11489, 8, 3100) /* Scroll of Mana Renewal Other IV */
+     , (11489, 8, 2592) /* Puffy Tunic */
+     , (11489, 8, 41062) /* Khanda-handled Mace */
+     , (11489, 8, 12463) /* Atlatl */
+     , (11489, 8, 7797) /* Acid Naginata */
+     , (11489, 8, 31773) /* Frost Board with Nail */
+     , (11489, 8, 28610) /* Loafers */;
+

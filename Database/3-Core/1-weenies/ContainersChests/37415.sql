@@ -53,3 +53,11 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (37415, 2, 0) /* OPEN_BOOL */
      , (37415, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37415, 8, 37451) /* Extra Large Tainted Egg */
+     , (37415, 8, 27220) /* Lorica Boots */
+     , (37415, 8, 40706) /* Covenant Bracers */
+     , (37415, 8, 4195) /* Nekode */;
+

@@ -51,3 +51,10 @@ VALUES (36969, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36969, 64, 7000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36969, 8, 37060) /* North Gate Harmonic Crystal */
+     , (36969, 8, 37059) /* East Gate Harmonic Crystal */
+     , (36969, 8, 37061) /* West Gate Harmonic Crystal */;
+

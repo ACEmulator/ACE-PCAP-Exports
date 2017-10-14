@@ -128,21 +128,21 @@ VALUES (663, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (663, 4, 546)
-     , (663, 4, 4753)
-     , (663, 4, 4766)
-     , (663, 4, 262)
-     , (663, 4, 2463)
-     , (663, 4, 4762)
-     , (663, 4, 4757)
-     , (663, 4, 7824)
-     , (663, 4, 513)
-     , (663, 4, 545)
-     , (663, 4, 9295)
-     , (663, 4, 20646)
-     , (663, 4, 21093)
-     , (663, 4, 23044)
-     , (663, 4, 23204)
-     , (663, 4, 42979)
-     , (663, 4, 43022);
+VALUES (663, 4, 546) /* Egg */
+     , (663, 4, 4753) /* Side of Beef */
+     , (663, 4, 4766) /* Rennet */
+     , (663, 4, 262) /* Chicken */
+     , (663, 4, 2463) /* Milk */
+     , (663, 4, 4762) /* Frying Pan */
+     , (663, 4, 4757) /* Carving Knife */
+     , (663, 4, 7824) /* Metal Press */
+     , (663, 4, 513) /* Plain Lockpick */
+     , (663, 4, 545) /* Reliable Lockpick */
+     , (663, 4, 9295) /* Intricate Carving Tool */
+     , (663, 4, 20646) /* Ust */
+     , (663, 4, 21093) /* Tinkering */
+     , (663, 4, 23044) /* On the Abilities of Salvaged Ivory */
+     , (663, 4, 23204) /* Carving Keys and Keyrings */
+     , (663, 4, 42979) /* Core Plating Integrator */
+     , (663, 4, 43022) /* Core Plating Deintegrator */;
 

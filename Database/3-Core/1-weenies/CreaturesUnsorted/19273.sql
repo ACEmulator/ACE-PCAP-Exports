@@ -64,3 +64,26 @@ VALUES (19273, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (19273, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (19273, 256, 750) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19273, 8, 89) /* Studded Leather Pauldrons */
+     , (19273, 8, 121) /* Gloves */
+     , (19273, 8, 4199) /* Lightning Nekode */
+     , (19273, 8, 42516) /* Coalesced Mana */
+     , (19273, 8, 25636) /* Leather Helm */
+     , (19273, 8, 30559) /* Flaming Hatchet */
+     , (19273, 8, 68) /* Studded Leather Greaves */
+     , (19273, 8, 31865) /* Circlet */
+     , (19273, 8, 94) /* Diamond Shield */
+     , (19273, 8, 2428) /* Gem */
+     , (19273, 8, 8326) /* Copper Pea */
+     , (19273, 8, 59) /* Studded Leather Gauntlets */
+     , (19273, 8, 20640) /* Royal Atlatl */
+     , (19273, 8, 48972) /* Acid Zombie Essence (50) */
+     , (19273, 8, 2595) /* Baggy Tunic */
+     , (19273, 8, 8328) /* Iron Pea */
+     , (19273, 8, 45330) /* Scroll of Shield Mastery Self VII */
+     , (19273, 8, 631) /* Excellent Healing Kit */
+     , (19273, 8, 63) /* Studded Leather Girth */;
+

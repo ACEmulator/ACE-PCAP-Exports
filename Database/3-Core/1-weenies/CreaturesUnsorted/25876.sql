@@ -48,3 +48,10 @@ VALUES (25876, 2, 45) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25876, 64, 2000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25876, 8, 28609) /* Vest */
+     , (25876, 8, 21108) /* Scroll of Martyr's Blight VII */
+     , (25876, 8, 163) /* Ornamental Bowl */;
+

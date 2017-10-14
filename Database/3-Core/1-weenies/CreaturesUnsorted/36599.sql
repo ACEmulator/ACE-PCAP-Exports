@@ -91,3 +91,9 @@ VALUES (36599, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36599, 64, 890) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36599, 8, 41485) /* Pocket Watch */
+     , (36599, 8, 2591) /* Puffy Shirt */;
+

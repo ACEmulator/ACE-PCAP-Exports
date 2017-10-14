@@ -39,3 +39,15 @@ VALUES (28636, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28636, 67115514, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28636, 8, 25643) /* Leather Girth */
+     , (28636, 8, 28734) /* Sho Brain */
+     , (28636, 8, 142) /* Chalice */
+     , (28636, 8, 116) /* Studded Leather Boots */
+     , (28636, 8, 28610) /* Loafers */
+     , (28636, 8, 150) /* Flagon */
+     , (28636, 8, 2403) /* Gem */
+     , (28636, 8, 2407) /* Gem */;
+

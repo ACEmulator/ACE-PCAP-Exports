@@ -117,5 +117,5 @@ VALUES (24250, 0, 16783894)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24250, 2, 301);
+VALUES (24250, 2, 301) /* Battle Axe */;
 

@@ -85,3 +85,11 @@ VALUES (37084, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (37084, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37084, 8, 2411) /* Gem */
+     , (37084, 8, 2407) /* Gem */
+     , (37084, 8, 31761) /* Lightning Dericost Blade */
+     , (37084, 8, 21150) /* Covenant Sollerets */;
+

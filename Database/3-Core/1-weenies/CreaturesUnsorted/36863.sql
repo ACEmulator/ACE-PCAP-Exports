@@ -48,3 +48,12 @@ VALUES (36863, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36863, 64, 1800) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36863, 8, 84) /* Studded  Leggings */
+     , (36863, 8, 36867) /* Dire Champion Token */
+     , (36863, 8, 20246) /* Scroll of Gossamer Flesh */
+     , (36863, 8, 2587) /* Shirt */
+     , (36863, 8, 3897) /* Acid Tofun */;
+

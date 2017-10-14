@@ -66,10 +66,17 @@ VALUES (11524, 64, 163) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (11524, 2, 11892)
-     , (11524, 2, 306)
-     , (11524, 2, 363)
-     , (11524, 2, 312)
-     , (11524, 2, 311)
-     , (11524, 2, 307);
+VALUES (11524, 2, 11892) /* Balister of the Quiddity */
+     , (11524, 2, 306) /* Longbow */
+     , (11524, 2, 363) /* Yumi */
+     , (11524, 2, 312) /* Light Crossbow */
+     , (11524, 2, 311) /* Heavy Crossbow */
+     , (11524, 2, 307) /* Shortbow */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11524, 8, 135) /* Turban */
+     , (11524, 8, 45114) /* Acid Hammer */
+     , (11524, 8, 513) /* Plain Lockpick */;
 

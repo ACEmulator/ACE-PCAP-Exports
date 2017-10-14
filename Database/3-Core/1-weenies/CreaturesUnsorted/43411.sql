@@ -41,3 +41,21 @@ VALUES (43411, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43411, 64, 1100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43411, 8, 243) /* Dinner Plate */
+     , (43411, 8, 44803) /* Empyrean Over-robe */
+     , (43411, 8, 121) /* Gloves */
+     , (43411, 8, 2402) /* Gem */
+     , (43411, 8, 27224) /* Lorica Leggings */
+     , (43411, 8, 149) /* Ewer */
+     , (43411, 8, 41487) /* Mechanical Scarab */
+     , (43411, 8, 2605) /* Chainmail Greaves */
+     , (43411, 8, 31768) /* Frost War Axe */
+     , (43411, 8, 163) /* Ornamental Bowl */
+     , (43411, 8, 4190) /* Cestus */
+     , (43411, 8, 6353) /* Pyreal Mote */
+     , (43411, 8, 624) /* Ring */
+     , (43411, 8, 40698) /* Covenant Gauntlets */;
+

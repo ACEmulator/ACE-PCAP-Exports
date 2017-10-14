@@ -54,3 +54,50 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (48742, 2, 0) /* OPEN_BOOL */
      , (48742, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (48742, 8, 42635) /* Aetheria */
+     , (48742, 8, 44849) /* Chevron Cloak */
+     , (48742, 8, 49351) /* Electrified Moar Essence */
+     , (48742, 8, 42637) /* Aetheria */
+     , (48742, 8, 49225) /* Lightning Skeleton Bushi Essence (180) */
+     , (48742, 8, 295) /* Bracelet */
+     , (48742, 8, 132) /* Shoes */
+     , (48742, 8, 621) /* Heavy Bracelet */
+     , (48742, 8, 44858) /* Quartered Cloak */
+     , (48742, 8, 44854) /* Halved Cloak */
+     , (48742, 8, 49386) /* Scorched Grievver Essence */
+     , (48742, 8, 118) /* Cloth Cap */
+     , (48742, 8, 2367) /* Gorget */
+     , (48742, 8, 48956) /* Fire Skeleton Samurai Essence */
+     , (48742, 8, 49315) /* Acid Wisp Essence (180) */
+     , (48742, 8, 41484) /* Goggles */
+     , (48742, 8, 624) /* Ring */
+     , (48742, 8, 44840) /* Cloak */
+     , (48742, 8, 49309) /* Blizzard Wisp Essence */
+     , (48742, 8, 49219) /* Acid Skeleton Samurai Essence */
+     , (48742, 8, 44852) /* Chevron Cloak */
+     , (48742, 8, 121) /* Gloves */
+     , (48742, 8, 49344) /* Blistering Moar Essence */
+     , (48742, 8, 49252) /* Fire Zombie Essence (180) */
+     , (48742, 8, 42636) /* Aetheria */
+     , (48742, 8, 49274) /* Galvanic Knight Essence */
+     , (48742, 8, 28610) /* Loafers */
+     , (48742, 8, 119) /* Cowl */
+     , (48742, 8, 44855) /* Halved Cloak */
+     , (48742, 8, 49336) /* Frost Wisp Essence (180) */
+     , (48742, 8, 28605) /* Beret */
+     , (48742, 8, 2590) /* Baggy Shirt */
+     , (48742, 8, 44857) /* Quartered Cloak */
+     , (48742, 8, 44850) /* Chevron Cloak */
+     , (48742, 8, 44856) /* Trimmed Cloak */
+     , (48742, 8, 2595) /* Baggy Tunic */
+     , (48742, 8, 2604) /* Wide Breeches */
+     , (48742, 8, 49232) /* Frost Skeleton Bushi Essence (180) */
+     , (48742, 8, 44853) /* Bordered Cloak */
+     , (48742, 8, 49253) /* Charred Zombie Essence */
+     , (48742, 8, 41483) /* Compass */
+     , (48742, 8, 134) /* Tunic */
+     , (48742, 8, 5901) /* Kasa */;
+

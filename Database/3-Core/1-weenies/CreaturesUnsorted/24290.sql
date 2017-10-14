@@ -46,3 +46,22 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (24290, 0, 16780603)
      , (24290, 1, 16780619);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24290, 8, 49421) /* Acid Spectre Essence (50) */
+     , (24290, 8, 41036) /* Assagai */
+     , (24290, 8, 20541) /* Scroll of Celcynd's Blessing */
+     , (24290, 8, 8326) /* Copper Pea */
+     , (24290, 8, 42516) /* Coalesced Mana */
+     , (24290, 8, 2589) /* Smock */
+     , (24290, 8, 8328) /* Iron Pea */
+     , (24290, 8, 42518) /* Coalesced Mana */
+     , (24290, 8, 31774) /* Board with Nail */
+     , (24290, 8, 2424) /* Gem */
+     , (24290, 8, 632) /* Peerless Healing Kit */
+     , (24290, 8, 12253) /* Monougat */
+     , (24290, 8, 311) /* Heavy Crossbow */
+     , (24290, 8, 30579) /* Acid Flamberge */
+     , (24290, 8, 31789) /* Acid Stick */;
+

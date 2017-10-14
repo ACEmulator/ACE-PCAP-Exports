@@ -62,3 +62,41 @@ VALUES (37085, 64, 680) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (37085, 128, 910) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (37085, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37085, 8, 45119) /* Acid Hand Wraps */
+     , (37085, 8, 28610) /* Loafers */
+     , (37085, 8, 49376) /* Lightning Grievver Essence (125) */
+     , (37085, 8, 2408) /* Gem */
+     , (37085, 8, 31807) /* Blunt Compound Crossbow */
+     , (37085, 8, 31784) /* Claw */
+     , (37085, 8, 29262) /* Fire Sceptre */
+     , (37085, 8, 2410) /* Gem */
+     , (37085, 8, 163) /* Ornamental Bowl */
+     , (37085, 8, 2412) /* Gem */
+     , (37085, 8, 49229) /* Frost Skeleton Minion Essence (100) */
+     , (37085, 8, 31765) /* Acid Lugian Hammer */
+     , (37085, 8, 2367) /* Gorget */
+     , (37085, 8, 31806) /* Acid Compound Crossbow */
+     , (37085, 8, 45105) /* Lightning Rapier */
+     , (37085, 8, 2411) /* Gem */
+     , (37085, 8, 41045) /* Frost Magari Yari */
+     , (37085, 8, 40822) /* Frost Corsesca */
+     , (37085, 8, 44975) /* Hood */
+     , (37085, 8, 31352) /* Olthoi Slayer Carapace */
+     , (37085, 8, 624) /* Ring */
+     , (37085, 8, 29264) /* Piercing Sceptre */
+     , (37085, 8, 46880) /* Aura of Defender Other VII */
+     , (37085, 8, 30950) /* Alduressa Boots */
+     , (37085, 8, 28624) /* Tenassa Sleeves */
+     , (37085, 8, 2424) /* Gem */
+     , (37085, 8, 2423) /* Gem */
+     , (37085, 8, 31786) /* Lightning Claw */
+     , (37085, 8, 49284) /* Acid K'nath Essence (100) */
+     , (37085, 8, 28633) /* Diforsa Girth */
+     , (37085, 8, 6046) /* Amuli Coat */
+     , (37085, 8, 150) /* Flagon */
+     , (37085, 8, 622) /* Necklace */
+     , (37085, 8, 31785) /* Acid Claw */;
+

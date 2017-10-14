@@ -106,5 +106,5 @@ VALUES (32834, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (32834, 2, 32782);
+VALUES (32834, 2, 32782) /* Shield of Sanamar */;
 

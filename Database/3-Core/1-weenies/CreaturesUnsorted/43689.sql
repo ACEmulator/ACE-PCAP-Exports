@@ -48,3 +48,31 @@ VALUES (43689, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43689, 64, 4120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43689, 8, 2403) /* Gem */
+     , (43689, 8, 27328) /* Major Mana Stone */
+     , (43689, 8, 243) /* Dinner Plate */
+     , (43689, 8, 273) /* Pyreal */
+     , (43689, 8, 2412) /* Gem */
+     , (43689, 8, 516) /* Peerless Lockpick */
+     , (43689, 8, 3821) /* Frost Katar */
+     , (43689, 8, 154) /* Goblet */
+     , (43689, 8, 31803) /* Frost Compound Bow */
+     , (43689, 8, 45017) /* Door Key */
+     , (43689, 8, 3820) /* Flaming Katar */
+     , (43689, 8, 9229) /* Treated Healing Kit */
+     , (43689, 8, 20484) /* Scroll of Blessing of the Arrow Turner */
+     , (43689, 8, 621) /* Heavy Bracelet */
+     , (43689, 8, 37359) /* Alacritous Ink */
+     , (43689, 8, 45018) /* Door Key */
+     , (43689, 8, 2411) /* Gem */
+     , (43689, 8, 27318) /* Health Philtre */
+     , (43689, 8, 163) /* Ornamental Bowl */
+     , (43689, 8, 2421) /* Gem */
+     , (43689, 8, 2408) /* Gem */
+     , (43689, 8, 37357) /* Ink of Partition */
+     , (43689, 8, 2407) /* Gem */
+     , (43689, 8, 27320) /* Health Tonic */;
+

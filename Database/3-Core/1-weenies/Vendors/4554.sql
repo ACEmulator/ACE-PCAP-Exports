@@ -126,27 +126,27 @@ VALUES (4554, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4554, 4, 364)
-     , (4554, 4, 365)
-     , (4554, 4, 367)
-     , (4554, 4, 513)
-     , (4554, 4, 545)
-     , (4554, 4, 9295)
-     , (4554, 4, 20646)
-     , (4554, 4, 21093)
-     , (4554, 4, 23044)
-     , (4554, 4, 23204)
-     , (4554, 4, 9118)
-     , (4554, 4, 9124)
-     , (4554, 4, 27851)
-     , (4554, 4, 9319)
-     , (4554, 4, 5585)
-     , (4554, 4, 5856)
-     , (4554, 4, 7884)
-     , (4554, 4, 14797)
-     , (4554, 4, 5586)
-     , (4554, 4, 24855)
-     , (4554, 4, 5587)
-     , (4554, 4, 5602)
-     , (4554, 4, 6419);
+VALUES (4554, 4, 364) /* Book */
+     , (4554, 4, 365) /* Parchment */
+     , (4554, 4, 367) /* Tome */
+     , (4554, 4, 513) /* Plain Lockpick */
+     , (4554, 4, 545) /* Reliable Lockpick */
+     , (4554, 4, 9295) /* Intricate Carving Tool */
+     , (4554, 4, 20646) /* Ust */
+     , (4554, 4, 21093) /* Tinkering */
+     , (4554, 4, 23044) /* On the Abilities of Salvaged Ivory */
+     , (4554, 4, 23204) /* Carving Keys and Keyrings */
+     , (4554, 4, 9118) /* Puppet Show */
+     , (4554, 4, 9124) /* The Beginning */
+     , (4554, 4, 27851) /* The Weapons of the Singularity */
+     , (4554, 4, 9319) /* Mnemosynes and the Art of Lockpicking */
+     , (4554, 4, 5585) /* Sho Cookbook */
+     , (4554, 4, 5856) /* Specialty Cookbook */
+     , (4554, 4, 7884) /* Chocolate Cookbook */
+     , (4554, 4, 14797) /* Festival Cookbook */
+     , (4554, 4, 5586) /* Alchemy Guide */
+     , (4554, 4, 24855) /* The New Alchemy */
+     , (4554, 4, 5587) /* Fletching Guide */
+     , (4554, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (4554, 4, 6419) /* The Meeting Halls */;
 

@@ -48,3 +48,10 @@ VALUES (38386, 2, 26) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38386, 64, 6000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38386, 8, 31788) /* Stick */
+     , (38386, 8, 45) /* Leather Cap */
+     , (38386, 8, 38374) /* Skith'Kirit's Severed Head */;
+

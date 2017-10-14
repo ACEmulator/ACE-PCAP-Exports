@@ -36,3 +36,8 @@ VALUES (25856, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25856, 19, True) /* ATTACKABLE_BOOL */
      , (25856, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25856, 8, 142) /* Chalice */;
+

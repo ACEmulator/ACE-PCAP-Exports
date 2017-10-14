@@ -53,3 +53,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (7887, 2, 0) /* OPEN_BOOL */
      , (7887, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7887, 8, 28008) /* Aura of Infected Spirit Caress Scroll */
+     , (7887, 8, 95) /* Tower Shield */
+     , (7887, 8, 351) /* Long Sword */
+     , (7887, 8, 130) /* Shirt */
+     , (7887, 8, 25640) /* Leather Cowl */
+     , (7887, 8, 4195) /* Nekode */
+     , (7887, 8, 108) /* Chainmail Tassets */
+     , (7887, 8, 40710) /* Covenant Greaves */
+     , (7887, 8, 40703) /* Covenant Shield */;
+

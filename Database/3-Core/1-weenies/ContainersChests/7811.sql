@@ -53,3 +53,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (7811, 2, 0) /* OPEN_BOOL */
      , (7811, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7811, 8, 27330) /* Moderate Mana Stone */
+     , (7811, 8, 31795) /* Acid Lancet */
+     , (7811, 8, 2590) /* Baggy Shirt */
+     , (7811, 8, 273) /* Pyreal */
+     , (7811, 8, 168) /* Tankard */
+     , (7811, 8, 20586) /* Scroll of Heavy Weapon Mastery Self VII */
+     , (7811, 8, 2678) /* Scroll of Focus Other VI */
+     , (7811, 8, 8326) /* Copper Pea */
+     , (7811, 8, 6048) /* Celdon Sleeves */;
+

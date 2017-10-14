@@ -99,3 +99,19 @@ VALUES (38147, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38147, 64, 495) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38147, 8, 20564) /* Scroll of Futility */
+     , (38147, 8, 4195) /* Nekode */
+     , (38147, 8, 20640) /* Royal Atlatl */
+     , (38147, 8, 38172) /* The Creation of Blighted Moarsmen */
+     , (38147, 8, 38161) /* Tattered Disgusting Moarsman Ritual */
+     , (38147, 8, 30220) /* Astyrrian's Jewel */
+     , (38147, 8, 2406) /* Gem */
+     , (38147, 8, 129) /* Sandals */
+     , (38147, 8, 27319) /* Health Tincture */
+     , (38147, 8, 45406) /* Yaoji */
+     , (38147, 8, 7790) /* Electric Spiked Club */
+     , (38147, 8, 273) /* Pyreal */;
+

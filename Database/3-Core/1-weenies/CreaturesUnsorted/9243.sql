@@ -65,3 +65,18 @@ VALUES (9243, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (9243, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (9243, 256, 350) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9243, 8, 110) /* Platemail Tassets */
+     , (9243, 8, 273) /* Pyreal */
+     , (9243, 8, 297) /* Ring */
+     , (9243, 8, 2435) /* Mana Stone */
+     , (9243, 8, 8328) /* Iron Pea */
+     , (9243, 8, 8329) /* Lead Pea */
+     , (9243, 8, 554) /* Studded Leather Basinet */
+     , (9243, 8, 7940) /* Empty Flask */
+     , (9243, 8, 326) /* Katar */
+     , (9243, 8, 7795) /* Frost Naginata */
+     , (9243, 8, 2434) /* Lesser Mana Stone */;
+

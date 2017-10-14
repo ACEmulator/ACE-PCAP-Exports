@@ -126,5 +126,5 @@ VALUES (49515, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (49515, 2, 48991);
+VALUES (49515, 2, 48991) /* Flaming Hatchet */;
 

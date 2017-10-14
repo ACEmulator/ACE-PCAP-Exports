@@ -39,3 +39,16 @@ VALUES (11983, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11983, 67114030, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11983, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (11983, 8, 723) /* Studded Leather Cowl */
+     , (11983, 8, 2419) /* Gem */
+     , (11983, 8, 513) /* Plain Lockpick */
+     , (11983, 8, 3693) /* Banderling Scalp */
+     , (11983, 8, 25661) /* Leather Boots */
+     , (11983, 8, 25644) /* Leather Greaves */
+     , (11983, 8, 116) /* Studded Leather Boots */
+     , (11983, 8, 27331) /* Minor Mana Stone */;
+

@@ -121,5 +121,5 @@ VALUES (24069, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24069, 2, 314);
+VALUES (24069, 2, 314) /* Dagger */;
 

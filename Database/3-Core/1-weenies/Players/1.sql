@@ -151,3 +151,61 @@ VALUES (1, 64, 345) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1, 128, 497) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1, 256, 536) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1, 8, 48746) /* Aged Legendary Key */
+     , (1, 8, 25946) /* Dark Sapphire Ring */
+     , (1, 8, 2436) /* Greater Mana Stone */
+     , (1, 8, 34276) /* Ancient Empyrean Trinket */
+     , (1, 8, 59) /* Studded Leather Gauntlets */
+     , (1, 8, 49358) /* Volcanic Moar Essence */
+     , (1, 8, 42637) /* Aetheria */
+     , (1, 8, 38917) /* Braced Mana Forge Key */
+     , (1, 8, 25947) /* Dark Ruby Ring */
+     , (1, 8, 31807) /* Blunt Compound Crossbow */
+     , (1, 8, 44799) /* Faran Over-robe */
+     , (1, 8, 29262) /* Fire Sceptre */
+     , (1, 8, 44977) /* Lyceum Hood */
+     , (1, 8, 30225) /* Imbuer's Crystal */
+     , (1, 8, 30245) /* Hieromancer's Crystal */
+     , (1, 8, 30194) /* Elysa's Crystal */
+     , (1, 8, 49385) /* Fire Grievver Essence (180) */
+     , (1, 8, 42636) /* Aetheria */
+     , (1, 8, 38456) /* Mana Forge Key */
+     , (1, 8, 41487) /* Mechanical Scarab */
+     , (1, 8, 2472) /* Wand */
+     , (1, 8, 74) /* Heaume */
+     , (1, 8, 42635) /* Aetheria */
+     , (1, 8, 49349) /* Lightning Moar Essence (150) */
+     , (1, 8, 49370) /* Acid Grievver Essence (150) */
+     , (1, 8, 26007) /* Gelidite Robe */
+     , (1, 8, 26009) /* Hammer of Frore */
+     , (1, 8, 2587) /* Shirt */
+     , (1, 8, 6046) /* Amuli Coat */
+     , (1, 8, 24099) /* Dagger of Frozen Fury */
+     , (1, 8, 34277) /* Ancient Falatacot Trinket */
+     , (1, 8, 623) /* Heavy Necklace */
+     , (1, 8, 43053) /* Knorr Academy Boots */
+     , (1, 8, 27328) /* Major Mana Stone */
+     , (1, 8, 31823) /* Fire Baton */
+     , (1, 8, 5911) /* Suikan War Master Robe */
+     , (1, 8, 5916) /* Dho Creature Master Robe */
+     , (1, 8, 101) /* Chainmail Sleeves */
+     , (1, 8, 49255) /* Frost Zombie Essence (80) */
+     , (1, 8, 5910) /* Dho War Master Robe */
+     , (1, 8, 5913) /* Dho Item Master Robe */
+     , (1, 8, 5893) /* Hoary Mattekar Robe */
+     , (1, 8, 49324) /* Fire Wisp Essence (50) */
+     , (1, 8, 23774) /* Casting Stein */
+     , (1, 8, 22013) /* Olthoi Helm */
+     , (1, 8, 9393) /* Mattekar Arm Guard */
+     , (1, 8, 27250) /* Realaidain Raiment */
+     , (1, 8, 1481) /* Quarter Staff of Fire */
+     , (1, 8, 107) /* Sollerets */
+     , (1, 8, 12019) /* Robe of the Tundra */
+     , (1, 8, 49376) /* Lightning Grievver Essence (125) */
+     , (1, 8, 49369) /* Acid Grievver Essence (125) */
+     , (1, 8, 12016) /* Dark Sorcerer's Phylactery */
+     , (1, 8, 25949) /* Quintessence Sickle */;
+

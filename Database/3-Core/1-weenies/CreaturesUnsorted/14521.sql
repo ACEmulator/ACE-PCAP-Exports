@@ -45,3 +45,33 @@ VALUES (14521, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14521, 64, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14521, 8, 7897) /* Steel Toed Boots */
+     , (14521, 8, 2435) /* Mana Stone */
+     , (14521, 8, 273) /* Pyreal */
+     , (14521, 8, 6003) /* Koujia Breastplate */
+     , (14521, 8, 7940) /* Empty Flask */
+     , (14521, 8, 8328) /* Iron Pea */
+     , (14521, 8, 45431) /* Khanjar */
+     , (14521, 8, 2431) /* Gem */
+     , (14521, 8, 8326) /* Copper Pea */
+     , (14521, 8, 107) /* Sollerets */
+     , (14521, 8, 30616) /* Arbalest */
+     , (14521, 8, 622) /* Necklace */
+     , (14521, 8, 40703) /* Covenant Shield */
+     , (14521, 8, 130) /* Shirt */
+     , (14521, 8, 21308) /* Scroll of Flame Arc VII */
+     , (14521, 8, 27330) /* Moderate Mana Stone */
+     , (14521, 8, 132) /* Shoes */
+     , (14521, 8, 8329) /* Lead Pea */
+     , (14521, 8, 25645) /* Leather Leggings */
+     , (14521, 8, 25647) /* Leather Pants */
+     , (14521, 8, 21335) /* Scroll of Shock Arc VI */
+     , (14521, 8, 2393) /* Gem */
+     , (14521, 8, 2548) /* Sceptre */
+     , (14521, 8, 2434) /* Lesser Mana Stone */
+     , (14521, 8, 161) /* Mug */
+     , (14521, 8, 45290) /* Scroll of Recklessness Ineptitude Other VII */;
+

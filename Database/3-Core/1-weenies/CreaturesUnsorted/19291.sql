@@ -41,3 +41,29 @@ VALUES (19291, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19291, 67113812, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19291, 8, 295) /* Bracelet */
+     , (19291, 8, 3751) /* Lightning Battle Axe */
+     , (19291, 8, 8329) /* Lead Pea */
+     , (19291, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (19291, 8, 154) /* Goblet */
+     , (19291, 8, 118) /* Cloth Cap */
+     , (19291, 8, 628) /* Handy Healing Kit */
+     , (19291, 8, 45115) /* Lightning Hammer */
+     , (19291, 8, 40635) /* Tetsubo */
+     , (19291, 8, 49380) /* Fire Grievver Essence (50) */
+     , (19291, 8, 30746) /* Dart Flinger */
+     , (19291, 8, 27331) /* Minor Mana Stone */
+     , (19291, 8, 554) /* Studded Leather Basinet */
+     , (19291, 8, 513) /* Plain Lockpick */
+     , (19291, 8, 2599) /* Trousers */
+     , (19291, 8, 28609) /* Vest */
+     , (19291, 8, 20640) /* Royal Atlatl */
+     , (19291, 8, 3463) /* Scroll of Resist Magic Other II */
+     , (19291, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (19291, 8, 2416) /* Gem */
+     , (19291, 8, 25652) /* Leather Tassets */
+     , (19291, 8, 273) /* Pyreal */;
+

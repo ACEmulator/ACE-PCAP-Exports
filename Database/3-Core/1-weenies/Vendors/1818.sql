@@ -128,10 +128,10 @@ VALUES (1818, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1818, 4, 136)
-     , (1818, 4, 547)
-     , (1818, 4, 4753)
-     , (1818, 4, 4755)
-     , (1818, 4, 4754)
-     , (1818, 4, 4746);
+VALUES (1818, 4, 136) /* Pack */
+     , (1818, 4, 547) /* Brimstone-cap Mushroom */
+     , (1818, 4, 4753) /* Side of Beef */
+     , (1818, 4, 4755) /* Brine */
+     , (1818, 4, 4754) /* Baking Pan */
+     , (1818, 4, 4746) /* Water */;
 

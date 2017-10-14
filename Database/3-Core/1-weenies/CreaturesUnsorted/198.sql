@@ -45,3 +45,28 @@ VALUES (198, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (198, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (198, 8, 2416) /* Gem */
+     , (198, 8, 273) /* Pyreal */
+     , (198, 8, 8329) /* Lead Pea */
+     , (198, 8, 25640) /* Leather Cowl */
+     , (198, 8, 1728) /* Scroll of Monster Attunement Self */
+     , (198, 8, 2434) /* Lesser Mana Stone */
+     , (198, 8, 296) /* Crown */
+     , (198, 8, 2406) /* Gem */
+     , (198, 8, 129) /* Sandals */
+     , (198, 8, 2418) /* Gem */
+     , (198, 8, 27331) /* Minor Mana Stone */
+     , (198, 8, 297) /* Ring */
+     , (198, 8, 41064) /* Lightning Khanda-handled Mace */
+     , (198, 8, 148) /* Cup */
+     , (198, 8, 2366) /* Orb */
+     , (198, 8, 2589) /* Smock */
+     , (198, 8, 2683) /* Scroll of Frailty Other III */
+     , (198, 8, 254) /* Stoup */
+     , (198, 8, 93) /* Round Shield */
+     , (198, 8, 21304) /* Scroll of Flame Arc III */
+     , (198, 8, 68) /* Studded Leather Greaves */;
+

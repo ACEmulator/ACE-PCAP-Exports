@@ -59,3 +59,10 @@ VALUES (33037, 64, 2703) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (33037, 128, 2405) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (33037, 256, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33037, 8, 31794) /* Lancet */
+     , (33037, 8, 2402) /* Gem */
+     , (33037, 8, 149) /* Ewer */;
+

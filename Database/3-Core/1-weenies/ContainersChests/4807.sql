@@ -49,3 +49,11 @@ VALUES (4807, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4807, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4807, 8, 7897) /* Steel Toed Boots */
+     , (4807, 8, 2591) /* Puffy Shirt */
+     , (4807, 8, 297) /* Ring */
+     , (4807, 8, 22159) /* Acid Nabut */;
+

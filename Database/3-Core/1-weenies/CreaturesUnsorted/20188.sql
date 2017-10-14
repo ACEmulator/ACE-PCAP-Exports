@@ -45,3 +45,9 @@ VALUES (20188, 2, 60) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (20188, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (20188, 8, 28608) /* Poet's Shirt */
+     , (20188, 8, 2434) /* Lesser Mana Stone */;
+

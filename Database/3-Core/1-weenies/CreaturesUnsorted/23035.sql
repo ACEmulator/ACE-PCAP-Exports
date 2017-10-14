@@ -42,3 +42,42 @@ VALUES (23035, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (23035, 64, 1100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23035, 8, 2402) /* Gem */
+     , (23035, 8, 23038) /* Valara Crystal */
+     , (23035, 8, 149) /* Ewer */
+     , (23035, 8, 9324) /* Obsidian Heart */
+     , (23035, 8, 163) /* Ornamental Bowl */
+     , (23035, 8, 2412) /* Gem */
+     , (23035, 8, 6045) /* Celdon Leggings */
+     , (23035, 8, 621) /* Heavy Bracelet */
+     , (23035, 8, 297) /* Ring */
+     , (23035, 8, 22155) /* Lightning Jo */
+     , (23035, 8, 154) /* Goblet */
+     , (23035, 8, 20539) /* Scroll of Wrath of Celcynd */
+     , (23035, 8, 21154) /* Covenant Girth */
+     , (23035, 8, 3692) /* Black Stone */
+     , (23035, 8, 339) /* Scimitar */
+     , (23035, 8, 20476) /* Scroll of Gelidite's Gift */
+     , (23035, 8, 3764) /* Flaming Budiaq */
+     , (23035, 8, 20231) /* Scroll of Executor's Blessing */
+     , (23035, 8, 128) /* Qafiya */
+     , (23035, 8, 295) /* Bracelet */
+     , (23035, 8, 2367) /* Gorget */
+     , (23035, 8, 31026) /* Tenassa Breastplate */
+     , (23035, 8, 43049) /* Knorr Academy Gauntlets */
+     , (23035, 8, 416) /* Chainmail Pauldrons */
+     , (23035, 8, 623) /* Heavy Necklace */
+     , (23035, 8, 28605) /* Beret */
+     , (23035, 8, 2422) /* Gem */
+     , (23035, 8, 49485) /* Encapsulated Spirit */
+     , (23035, 8, 31799) /* Acid Compound Bow */
+     , (23035, 8, 27228) /* Nariyid Gauntlets */
+     , (23035, 8, 6353) /* Pyreal Mote */
+     , (23035, 8, 3874) /* Lightning Spear */
+     , (23035, 8, 2410) /* Gem */
+     , (23035, 8, 2407) /* Gem */
+     , (23035, 8, 31778) /* Frost Spine Glaive */;
+

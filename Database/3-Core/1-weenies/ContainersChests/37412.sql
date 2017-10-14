@@ -53,3 +53,19 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (37412, 2, 0) /* OPEN_BOOL */
      , (37412, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37412, 8, 20640) /* Royal Atlatl */
+     , (37412, 8, 22164) /* Acid Quarter Staff */
+     , (37412, 8, 629) /* Adept Healing Kit */
+     , (37412, 8, 416) /* Chainmail Pauldrons */
+     , (37412, 8, 37448) /* Small Tainted Egg */
+     , (37412, 8, 49352) /* Fire Moar Essence (50) */
+     , (37412, 8, 40635) /* Tetsubo */
+     , (37412, 8, 161) /* Mug */
+     , (37412, 8, 307) /* Shortbow */
+     , (37412, 8, 12463) /* Atlatl */
+     , (37412, 8, 58) /* Scalemail Gauntlets */
+     , (37412, 8, 46861) /* Aura of Blood Drinker Other III */;
+

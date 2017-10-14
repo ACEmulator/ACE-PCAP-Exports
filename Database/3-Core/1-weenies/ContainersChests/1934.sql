@@ -49,3 +49,13 @@ VALUES (1934, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1934, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1934, 8, 294) /* Amulet */
+     , (1934, 8, 41487) /* Mechanical Scarab */
+     , (1934, 8, 2414) /* Gem */
+     , (1934, 8, 2431) /* Gem */
+     , (1934, 8, 2433) /* Gem */
+     , (1934, 8, 148) /* Cup */;
+

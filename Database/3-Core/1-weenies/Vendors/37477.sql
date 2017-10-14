@@ -135,21 +135,21 @@ VALUES (37477, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (37477, 4, 37465)
-     , (37477, 4, 37469)
-     , (37477, 4, 37471)
-     , (37477, 4, 37472)
-     , (37477, 4, 37474)
-     , (37477, 4, 37473)
-     , (37477, 4, 37475)
-     , (37477, 4, 41925)
-     , (37477, 4, 37467)
-     , (37477, 4, 37470)
-     , (37477, 4, 37464)
-     , (37477, 4, 37468);
+VALUES (37477, 4, 37465) /* Axe Stamped Spectral Ingot */
+     , (37477, 4, 37469) /* Claw Stamped Spectral Ingot */
+     , (37477, 4, 37471) /* Dagger Stamped Spectral Ingot */
+     , (37477, 4, 37472) /* Mace Stamped Spectral Ingot */
+     , (37477, 4, 37474) /* Staff Stamped Spectral Ingot */
+     , (37477, 4, 37473) /* Spear Stamped Spectral Ingot */
+     , (37477, 4, 37475) /* Sword Stamped Spectral Ingot */
+     , (37477, 4, 41925) /* Greatsword Stamped Spectral Ingot */
+     , (37477, 4, 37467) /* Bow Stamped Spectral Ingot */
+     , (37477, 4, 37470) /* Crossbow Stamped Spectral Ingot */
+     , (37477, 4, 37464) /* Atlatl Stamped Spectral Ingot */
+     , (37477, 4, 37468) /* Casting Staff Stamped Spectral Ingot */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (37477, 2, 359);
+VALUES (37477, 2, 359) /* War Hammer */;
 

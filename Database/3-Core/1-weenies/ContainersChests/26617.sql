@@ -50,3 +50,30 @@ VALUES (26617, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (26617, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26617, 8, 85) /* Chainmail Coif */
+     , (26617, 8, 28624) /* Tenassa Sleeves */
+     , (26617, 8, 49227) /* Frost Skeleton Minion Essence (50) */
+     , (26617, 8, 273) /* Pyreal */
+     , (26617, 8, 108) /* Chainmail Tassets */
+     , (26617, 8, 40703) /* Covenant Shield */
+     , (26617, 8, 28610) /* Loafers */
+     , (26617, 8, 141) /* Bowl */
+     , (26617, 8, 297) /* Ring */
+     , (26617, 8, 135) /* Turban */
+     , (26617, 8, 311) /* Heavy Crossbow */
+     , (26617, 8, 31790) /* Lightning Stick */
+     , (26617, 8, 161) /* Mug */
+     , (26617, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (26617, 8, 43381) /* Nether Sceptre */
+     , (26617, 8, 20247) /* Scroll of Void's Call */
+     , (26617, 8, 90) /* Yoroi Pauldrons */
+     , (26617, 8, 48944) /* Fire Skeleton Minion Essence (80) */
+     , (26617, 8, 20548) /* Scroll of Gears Unwound */
+     , (26617, 8, 630) /* Gifted Healing Kit */
+     , (26617, 8, 31788) /* Stick */
+     , (26617, 8, 112) /* Studded Leather Tassets */
+     , (26617, 8, 45412) /* Acid Spada */;
+

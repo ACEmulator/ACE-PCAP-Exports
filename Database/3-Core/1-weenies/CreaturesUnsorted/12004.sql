@@ -48,3 +48,13 @@ VALUES (12004, 2, 28) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12004, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12004, 8, 2366) /* Orb */
+     , (12004, 8, 127) /* Pants */
+     , (12004, 8, 101) /* Chainmail Sleeves */
+     , (12004, 8, 2413) /* Gem */
+     , (12004, 8, 45349) /* Scroll of Sneak Attack Mastery Self II */
+     , (12004, 8, 296) /* Crown */;
+

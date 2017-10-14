@@ -53,3 +53,17 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (26612, 2, 0) /* OPEN_BOOL */
      , (26612, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26612, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (26612, 8, 25649) /* Leather Shirt */
+     , (26612, 8, 45396) /* Short Sword */
+     , (26612, 8, 28942) /* Scroll of Arcanum Enlightenment III */
+     , (26612, 8, 41046) /* Pike */
+     , (26612, 8, 3064) /* Scroll of Piercing Protection Other III */
+     , (26612, 8, 38) /* Studded Leather Bracers */
+     , (26612, 8, 622) /* Necklace */
+     , (26612, 8, 2434) /* Lesser Mana Stone */
+     , (26612, 8, 378) /* Stamina Potion */;
+

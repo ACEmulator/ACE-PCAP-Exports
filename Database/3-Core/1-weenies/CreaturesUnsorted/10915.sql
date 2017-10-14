@@ -50,3 +50,37 @@ VALUES (10915, 2, 35) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (10915, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (10915, 8, 295) /* Bracelet */
+     , (10915, 8, 134) /* Tunic */
+     , (10915, 8, 154) /* Goblet */
+     , (10915, 8, 513) /* Plain Lockpick */
+     , (10915, 8, 161) /* Mug */
+     , (10915, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (10915, 8, 624) /* Ring */
+     , (10915, 8, 297) /* Ring */
+     , (10915, 8, 545) /* Reliable Lockpick */
+     , (10915, 8, 95) /* Tower Shield */
+     , (10915, 8, 296) /* Crown */
+     , (10915, 8, 2414) /* Gem */
+     , (10915, 8, 20321) /* Scroll of Devour Creature Magic Other */
+     , (10915, 8, 2980) /* Scroll of Acid Protection Self IV */
+     , (10915, 8, 2460) /* Mana Draught */
+     , (10915, 8, 6005) /* Koujia Sleeves */
+     , (10915, 8, 37358) /* Ink of Separation */
+     , (10915, 8, 34277) /* Ancient Falatacot Trinket */
+     , (10915, 8, 44852) /* Chevron Cloak */
+     , (10915, 8, 512) /* Good Lockpick */
+     , (10915, 8, 5894) /* Fez */
+     , (10915, 8, 2433) /* Gem */
+     , (10915, 8, 3490) /* Scroll of Sprint Other IV */
+     , (10915, 8, 2416) /* Gem */
+     , (10915, 8, 8923) /* Scroll of Flame Streak IV */
+     , (10915, 8, 44849) /* Chevron Cloak */
+     , (10915, 8, 629) /* Adept Healing Kit */
+     , (10915, 8, 25640) /* Leather Cowl */
+     , (10915, 8, 2587) /* Shirt */
+     , (10915, 8, 96) /* Chainmail Shirt */;
+

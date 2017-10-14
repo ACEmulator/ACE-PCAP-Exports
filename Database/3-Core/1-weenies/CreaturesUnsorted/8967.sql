@@ -60,3 +60,20 @@ VALUES (8967, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (8967, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (8967, 256, 315) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8967, 8, 3497) /* Scroll of Sprint Self VI */
+     , (8967, 8, 98) /* Scalemail Shirt */
+     , (8967, 8, 49247) /* Fire Zombie Essence (50) */
+     , (8967, 8, 2547) /* Staff */
+     , (8967, 8, 42) /* Studded Leather Breastplate */
+     , (8967, 8, 2602) /* Loose Breeches */
+     , (8967, 8, 31026) /* Tenassa Breastplate */
+     , (8967, 8, 631) /* Excellent Healing Kit */
+     , (8967, 8, 415) /* Chainmail Girth */
+     , (8967, 8, 132) /* Shoes */
+     , (8967, 8, 38) /* Studded Leather Bracers */
+     , (8967, 8, 21150) /* Covenant Sollerets */
+     , (8967, 8, 30606) /* Bastone */;
+

@@ -36,3 +36,10 @@ VALUES (27988, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27988, 67115208, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27988, 8, 142) /* Chalice */
+     , (27988, 8, 84) /* Studded  Leggings */
+     , (27988, 8, 631) /* Excellent Healing Kit */;
+

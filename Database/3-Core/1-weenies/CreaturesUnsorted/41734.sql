@@ -44,3 +44,14 @@ VALUES (41734, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41734, 64, 9975) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41734, 8, 49369) /* Acid Grievver Essence (125) */
+     , (41734, 8, 6045) /* Celdon Leggings */
+     , (41734, 8, 21294) /* Scroll of Acid Arc VII */
+     , (41734, 8, 40699) /* Covenant Girth */
+     , (41734, 8, 2602) /* Loose Breeches */
+     , (41734, 8, 30567) /* Lightning Sabra */
+     , (41734, 8, 3913) /* Acid Yari */;
+

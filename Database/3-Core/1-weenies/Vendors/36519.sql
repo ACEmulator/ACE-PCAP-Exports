@@ -122,65 +122,65 @@ VALUES (36519, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (36519, 4, 36515)
-     , (36519, 4, 36517)
-     , (36519, 4, 36516)
-     , (36519, 4, 41508)
-     , (36519, 4, 34449)
-     , (36519, 4, 36544)
-     , (36519, 4, 36543)
-     , (36519, 4, 36565)
-     , (36519, 4, 36575)
-     , (36519, 4, 36564)
-     , (36519, 4, 36569)
-     , (36519, 4, 36567)
-     , (36519, 4, 36563)
-     , (36519, 4, 36566)
-     , (36519, 4, 36568)
-     , (36519, 4, 36619)
-     , (36519, 4, 36620)
-     , (36519, 4, 36621)
-     , (36519, 4, 36622)
-     , (36519, 4, 36623)
-     , (36519, 4, 36624)
-     , (36519, 4, 36625)
-     , (36519, 4, 36626)
-     , (36519, 4, 36627)
-     , (36519, 4, 36628)
-     , (36519, 4, 36618)
-     , (36519, 4, 36510)
-     , (36519, 4, 43185)
-     , (36519, 4, 43189)
-     , (36519, 4, 43188)
-     , (36519, 4, 43187)
-     , (36519, 4, 43186)
-     , (36519, 4, 36509)
-     , (36519, 4, 36498)
-     , (36519, 4, 36501)
-     , (36519, 4, 36503)
-     , (36519, 4, 36505)
-     , (36519, 4, 36506)
-     , (36519, 4, 36500)
-     , (36519, 4, 36502)
-     , (36519, 4, 36504)
-     , (36519, 4, 36507)
-     , (36519, 4, 36499)
-     , (36519, 4, 36561)
-     , (36519, 4, 42399)
-     , (36519, 4, 36542)
-     , (36519, 4, 36537)
-     , (36519, 4, 38886)
-     , (36519, 4, 39914)
-     , (36519, 4, 39977)
-     , (36519, 4, 39978)
-     , (36519, 4, 40140)
-     , (36519, 4, 40605)
-     , (36519, 4, 41917)
-     , (36519, 4, 40515)
-     , (36519, 4, 41875)
-     , (36519, 4, 41860)
-     , (36519, 4, 41863)
-     , (36519, 4, 41866)
-     , (36519, 4, 41869)
-     , (36519, 4, 41872);
+VALUES (36519, 4, 36515) /* Wrapped Pyreal Sliver */
+     , (36519, 4, 36517) /* Wrapped Dark Sliver */
+     , (36519, 4, 36516) /* Wrapped Cracked Shard */
+     , (36519, 4, 41508) /* Major Item Tinkering Armature */
+     , (36519, 4, 34449) /* Colosseum Ticket */
+     , (36519, 4, 36544) /* The Master Pass */
+     , (36519, 4, 36543) /* Gladiator Diemos Pass */
+     , (36519, 4, 36565) /* Sealed Bag of Salvaged Green Garnet */
+     , (36519, 4, 36575) /* Sealed Bag of Salvaged Opal */
+     , (36519, 4, 36564) /* Sealed Bag of Salvaged Granite */
+     , (36519, 4, 36569) /* Sealed Bag of Salvaged Velvet */
+     , (36519, 4, 36567) /* Sealed Bag of Salvaged Mahogany */
+     , (36519, 4, 36563) /* Sealed Bag of Salvaged Brass */
+     , (36519, 4, 36566) /* Sealed Bag of Salvaged Iron */
+     , (36519, 4, 36568) /* Sealed Bag of Salvaged Steel */
+     , (36519, 4, 36619) /* Foolproof Aquamarine */
+     , (36519, 4, 36620) /* Foolproof */
+     , (36519, 4, 36621) /* Foolproof */
+     , (36519, 4, 36622) /* Foolproof Emerald */
+     , (36519, 4, 36623) /* Foolproof */
+     , (36519, 4, 36624) /* Foolproof */
+     , (36519, 4, 36625) /* Foolproof Jet */
+     , (36519, 4, 36626) /* Foolproof */
+     , (36519, 4, 36627) /* Foolproof Sunstone */
+     , (36519, 4, 36628) /* Foolproof */
+     , (36519, 4, 36618) /* Gladiator's Defense Armor Augmentation */
+     , (36519, 4, 36510) /* Gem of Knowledge */
+     , (36519, 4, 43185) /* Gem of Knowledge */
+     , (36519, 4, 43189) /* Gem of Knowledge */
+     , (36519, 4, 43188) /* Gem of Knowledge */
+     , (36519, 4, 43187) /* Gem of Knowledge */
+     , (36519, 4, 43186) /* Gem of Knowledge */
+     , (36519, 4, 36509) /* Greater Gem of Knowledge */
+     , (36519, 4, 36498) /* Gold Hill Ruins */
+     , (36519, 4, 36501) /* Drudge Fight */
+     , (36519, 4, 36503) /* Lair of The Homunculus */
+     , (36519, 4, 36505) /* Mukkir Nest Portal Gem */
+     , (36519, 4, 36506) /* Resting Place */
+     , (36519, 4, 36500) /* Dark Towers */
+     , (36519, 4, 36502) /* Oubliette */
+     , (36519, 4, 36504) /* Niffis Fighting Pits */
+     , (36519, 4, 36507) /* Son of Pooky's Den */
+     , (36519, 4, 36499) /* Dark Monolith Caverns */
+     , (36519, 4, 36561) /* Colosseum Backpack */
+     , (36519, 4, 42399) /* Crate of Greater Deadly Blunt Arrowheads */
+     , (36519, 4, 36542) /* Scroll of Tusker Fists */
+     , (36519, 4, 36537) /* Scroll of Colosseum Recall */
+     , (36519, 4, 38886) /* Colosseum Medallion of Honor */
+     , (36519, 4, 39914) /* Empyrean Crystal */
+     , (36519, 4, 39977) /* Gladiatorial Leggings */
+     , (36519, 4, 39978) /* Gladiatorial Tunic */
+     , (36519, 4, 40140) /* Tome of Flame */
+     , (36519, 4, 40605) /* Armor Upgrade Kit Containment Gem */
+     , (36519, 4, 41917) /* Weapon Upgrade Kit Containment Gem */
+     , (36519, 4, 40515) /* Inert Shadowfire Infusion */
+     , (36519, 4, 41875) /* Sealed Bag of Salvaged Sapphire */
+     , (36519, 4, 41860) /* Sealed Bag of Salvaged Amber */
+     , (36519, 4, 41863) /* Sealed Bag of Salvaged Diamond */
+     , (36519, 4, 41866) /* Sealed Bag of Salvaged Gromnie Hide */
+     , (36519, 4, 41869) /* Sealed Bag of Salvaged Pyreal */
+     , (36519, 4, 41872) /* Sealed Bag of Salvaged Ruby */;
 

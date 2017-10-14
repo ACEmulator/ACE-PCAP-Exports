@@ -44,3 +44,20 @@ VALUES (2571, 2, 21) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2571, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2571, 8, 25636) /* Leather Helm */
+     , (2571, 8, 8329) /* Lead Pea */
+     , (2571, 8, 25644) /* Leather Greaves */
+     , (2571, 8, 273) /* Pyreal */
+     , (2571, 8, 31222) /* K'nath Key */
+     , (2571, 8, 28609) /* Vest */
+     , (2571, 8, 27331) /* Minor Mana Stone */
+     , (2571, 8, 297) /* Ring */
+     , (2571, 8, 148) /* Cup */
+     , (2571, 8, 99) /* Studded Leather Shirt */
+     , (2571, 8, 723) /* Studded Leather Cowl */
+     , (2571, 8, 2762) /* Scroll of Acid Bane II */
+     , (2571, 8, 5789) /* Brown Lump */;
+

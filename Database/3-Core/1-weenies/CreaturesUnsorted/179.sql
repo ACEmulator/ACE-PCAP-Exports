@@ -48,3 +48,38 @@ VALUES (179, 2, 17) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (179, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (179, 8, 294) /* Amulet */
+     , (179, 8, 128) /* Qafiya */
+     , (179, 8, 55) /* Chainmail Gauntlets */
+     , (179, 8, 378) /* Stamina Potion */
+     , (179, 8, 49310) /* Acid Wisp Essence (50) */
+     , (179, 8, 68) /* Studded Leather Greaves */
+     , (179, 8, 2420) /* Gem */
+     , (179, 8, 2772) /* Scroll of Blade Bane II */
+     , (179, 8, 243) /* Dinner Plate */
+     , (179, 8, 273) /* Pyreal */
+     , (179, 8, 49380) /* Fire Grievver Essence (50) */
+     , (179, 8, 295) /* Bracelet */
+     , (179, 8, 132) /* Shoes */
+     , (179, 8, 8329) /* Lead Pea */
+     , (179, 8, 148) /* Cup */
+     , (179, 8, 622) /* Necklace */
+     , (179, 8, 31797) /* Flaming Lancet */
+     , (179, 8, 49282) /* Acid K'nath Essence (50) */
+     , (179, 8, 141) /* Bowl */
+     , (179, 8, 2968) /* Scroll of Whirling Blade II */
+     , (179, 8, 2596) /* Doublet */
+     , (179, 8, 4233) /* Armoredillo Hide */
+     , (179, 8, 49254) /* Frost Zombie Essence (50) */
+     , (179, 8, 416) /* Chainmail Pauldrons */
+     , (179, 8, 3463) /* Scroll of Resist Magic Other II */
+     , (179, 8, 9645) /* Scroll of Mana to Stamina Self II */
+     , (179, 8, 2416) /* Gem */
+     , (179, 8, 261) /* Cheese */
+     , (179, 8, 3374) /* Scroll of Life Magic Mastery Self III */
+     , (179, 8, 3588) /* Scroll of Weapon Tinkering Ignorance II */
+     , (179, 8, 513) /* Plain Lockpick */;
+

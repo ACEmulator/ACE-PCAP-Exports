@@ -58,3 +58,13 @@ VALUES (43269, 64, 60250) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (43269, 128, 60500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (43269, 256, 4450) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43269, 8, 49385) /* Fire Grievver Essence (180) */
+     , (43269, 8, 20418) /* Scroll of Brogard's Defiance */
+     , (43269, 8, 41262) /* Scroll of Blessing of T'ing */
+     , (43269, 8, 27217) /* Chiran Helm */
+     , (43269, 8, 99) /* Studded Leather Shirt */
+     , (43269, 8, 623) /* Heavy Necklace */;
+

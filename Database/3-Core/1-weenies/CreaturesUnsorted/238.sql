@@ -51,3 +51,52 @@ VALUES (238, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (238, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (238, 8, 168) /* Tankard */
+     , (238, 8, 27331) /* Minor Mana Stone */
+     , (238, 8, 273) /* Pyreal */
+     , (238, 8, 2416) /* Gem */
+     , (238, 8, 148) /* Cup */
+     , (238, 8, 8329) /* Lead Pea */
+     , (238, 8, 297) /* Ring */
+     , (238, 8, 3810) /* Acid Kaskara */
+     , (238, 8, 154) /* Goblet */
+     , (238, 8, 124) /* Jerkin */
+     , (238, 8, 2434) /* Lesser Mana Stone */
+     , (238, 8, 7604) /* Yellow Jewel */
+     , (238, 8, 243) /* Dinner Plate */
+     , (238, 8, 9630) /* Scroll of Health to Mana Self II */
+     , (238, 8, 31790) /* Lightning Stick */
+     , (238, 8, 161) /* Mug */
+     , (238, 8, 341) /* Shouyumi */
+     , (238, 8, 112) /* Studded Leather Tassets */
+     , (238, 8, 3164) /* Scroll of Light Weapon Mastery Other III */
+     , (238, 8, 2587) /* Shirt */
+     , (238, 8, 68) /* Studded Leather Greaves */
+     , (238, 8, 2599) /* Trousers */
+     , (238, 8, 28610) /* Loafers */
+     , (238, 8, 331) /* Mace */
+     , (238, 8, 3697) /* Red Jewel */
+     , (238, 8, 2697) /* Scroll of Heal Self II */
+     , (238, 8, 2596) /* Doublet */
+     , (238, 8, 40626) /* Flaming Quadrelle */
+     , (238, 8, 295) /* Bracelet */
+     , (238, 8, 141) /* Bowl */
+     , (238, 8, 7940) /* Empty Flask */
+     , (238, 8, 3268) /* Scroll of Healing Ineptitude II */
+     , (238, 8, 2418) /* Gem */
+     , (238, 8, 45113) /* Hammer */
+     , (238, 8, 2414) /* Gem */
+     , (238, 8, 4199) /* Lightning Nekode */
+     , (238, 8, 28941) /* Scroll of Arcanum Enlightenment II */
+     , (238, 8, 416) /* Chainmail Pauldrons */
+     , (238, 8, 3696) /* Blue Jewel */
+     , (238, 8, 150) /* Flagon */
+     , (238, 8, 127) /* Pants */
+     , (238, 8, 296) /* Crown */
+     , (238, 8, 45101) /* Lightning Epee */
+     , (238, 8, 3348) /* Scroll of Leadership Ineptitude II */
+     , (238, 8, 93) /* Round Shield */;
+

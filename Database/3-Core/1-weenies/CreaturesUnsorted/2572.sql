@@ -44,3 +44,17 @@ VALUES (2572, 2, 21) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2572, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2572, 8, 161) /* Mug */
+     , (2572, 8, 273) /* Pyreal */
+     , (2572, 8, 5789) /* Brown Lump */
+     , (2572, 8, 25642) /* Leather Gauntlets */
+     , (2572, 8, 8329) /* Lead Pea */
+     , (2572, 8, 41484) /* Goggles */
+     , (2572, 8, 31222) /* K'nath Key */
+     , (2572, 8, 2548) /* Sceptre */
+     , (2572, 8, 2604) /* Wide Breeches */
+     , (2572, 8, 2434) /* Lesser Mana Stone */;
+

@@ -124,17 +124,17 @@ VALUES (2044, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2044, 4, 364)
-     , (2044, 4, 365)
-     , (2044, 4, 367)
-     , (2044, 4, 5699)
-     , (2044, 4, 5700)
-     , (2044, 4, 8079)
-     , (2044, 4, 8080)
-     , (2044, 4, 8081)
-     , (2044, 4, 9122)
-     , (2044, 4, 10700)
-     , (2044, 4, 9006)
-     , (2044, 4, 7775)
-     , (2044, 4, 7774);
+VALUES (2044, 4, 364) /* Book */
+     , (2044, 4, 365) /* Parchment */
+     , (2044, 4, 367) /* Tome */
+     , (2044, 4, 5699) /* On the Four Stones and Three Elders */
+     , (2044, 4, 5700) /* The Story of Koji's Sword */
+     , (2044, 4, 8079) /* Loka Jii Learns to Hunt */
+     , (2044, 4, 8080) /* The Emperor's Blade */
+     , (2044, 4, 8081) /* The Journal of Nandesu Ka */
+     , (2044, 4, 9122) /* Interlude */
+     , (2044, 4, 10700) /* Book of Seasons */
+     , (2044, 4, 9006) /* Excerpts from the Zharalim */
+     , (2044, 4, 7775) /* Practical Applications of Chorizite */
+     , (2044, 4, 7774) /* Concerning the Revelations of Anti-Magic */;
 

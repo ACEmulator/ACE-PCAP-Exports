@@ -68,3 +68,13 @@ VALUES (24951, 2, 70) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24951, 64, 565) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24951, 8, 20531) /* Scroll of Lilitha's Blessing */
+     , (24951, 8, 30951) /* Alduressa Gauntlets */
+     , (24951, 8, 49389) /* Frost Grievver Essence (100) */
+     , (24951, 8, 30606) /* Bastone */
+     , (24951, 8, 31794) /* Lancet */
+     , (24951, 8, 31800) /* Blunt Compound Bow */;
+

@@ -49,3 +49,18 @@ VALUES (32026, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (32026, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32026, 8, 20179) /* Superb Mana Charge */
+     , (32026, 8, 273) /* Pyreal */
+     , (32026, 8, 27221) /* Lorica Breastplate */
+     , (32026, 8, 2422) /* Gem */
+     , (32026, 8, 20600) /* Scroll of Vitality Siphon */
+     , (32026, 8, 108) /* Chainmail Tassets */
+     , (32026, 8, 327) /* Ken */
+     , (32026, 8, 632) /* Peerless Healing Kit */
+     , (32026, 8, 6046) /* Amuli Coat */
+     , (32026, 8, 30949) /* Diforsa Sleeves */
+     , (32026, 8, 40621) /* Flaming Spadone */;
+

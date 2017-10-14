@@ -46,3 +46,16 @@ VALUES (51611, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51611, 64, 7675) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51611, 8, 295) /* Bracelet */
+     , (51611, 8, 27323) /* Mana Tonic */
+     , (51611, 8, 163) /* Ornamental Bowl */
+     , (51611, 8, 37364) /* Quill of Introspection */
+     , (51611, 8, 27328) /* Major Mana Stone */
+     , (51611, 8, 134) /* Tunic */
+     , (51611, 8, 9229) /* Treated Healing Kit */
+     , (51611, 8, 49485) /* Encapsulated Spirit */
+     , (51611, 8, 27325) /* Stamina Philtre */;
+

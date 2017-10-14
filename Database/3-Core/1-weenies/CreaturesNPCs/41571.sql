@@ -115,6 +115,6 @@ VALUES (41571, 16, 16795675)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41571, 2, 32698)
-     , (41571, 2, 351);
+VALUES (41571, 2, 32698) /* Shield of Strathelar */
+     , (41571, 2, 351) /* Long Sword */;
 

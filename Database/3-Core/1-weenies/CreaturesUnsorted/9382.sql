@@ -42,3 +42,14 @@ VALUES (9382, 9, 83890028, 83890027);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9382, 9, 16780702);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9382, 8, 312) /* Light Crossbow */
+     , (9382, 8, 118) /* Cloth Cap */
+     , (9382, 8, 273) /* Pyreal */
+     , (9382, 8, 2591) /* Puffy Shirt */
+     , (9382, 8, 2600) /* Pantaloons */
+     , (9382, 8, 294) /* Amulet */
+     , (9382, 8, 8810) /* Geraux's Life Magic Scroll */;
+

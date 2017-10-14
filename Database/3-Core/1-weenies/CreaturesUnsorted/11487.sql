@@ -36,3 +36,18 @@ VALUES (11487, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11487, 67113291, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11487, 8, 296) /* Crown */
+     , (11487, 8, 154) /* Goblet */
+     , (11487, 8, 30600) /* Acid Poniard */
+     , (11487, 8, 27331) /* Minor Mana Stone */
+     , (11487, 8, 161) /* Mug */
+     , (11487, 8, 2420) /* Gem */
+     , (11487, 8, 53) /* Studded Leather Cuirass */
+     , (11487, 8, 629) /* Adept Healing Kit */
+     , (11487, 8, 127) /* Pants */
+     , (11487, 8, 63) /* Studded Leather Girth */
+     , (11487, 8, 294) /* Amulet */;
+

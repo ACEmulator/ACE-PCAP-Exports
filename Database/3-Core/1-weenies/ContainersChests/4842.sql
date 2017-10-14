@@ -54,3 +54,13 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4842, 2, 0) /* OPEN_BOOL */
      , (4842, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4842, 8, 128) /* Qafiya */
+     , (4842, 8, 624) /* Ring */
+     , (4842, 8, 168) /* Tankard */
+     , (4842, 8, 297) /* Ring */
+     , (4842, 8, 2397) /* Gem */
+     , (4842, 8, 2415) /* Gem */;
+

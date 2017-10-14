@@ -53,3 +53,20 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (24671, 2, 0) /* OPEN_BOOL */
      , (24671, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24671, 8, 3111) /* Scroll of Regenerate Other V */
+     , (24671, 8, 31779) /* Spine Glaive */
+     , (24671, 8, 71) /* Chainmail Hauberk */
+     , (24671, 8, 49310) /* Acid Wisp Essence (50) */
+     , (24671, 8, 3067) /* Scroll of Piercing Protection Other VI */
+     , (24671, 8, 629) /* Adept Healing Kit */
+     , (24671, 8, 342) /* Shou-ono */
+     , (24671, 8, 254) /* Stoup */
+     , (24671, 8, 512) /* Good Lockpick */
+     , (24671, 8, 621) /* Heavy Bracelet */
+     , (24671, 8, 31772) /* Flaming War Axe */
+     , (24671, 8, 359) /* War Hammer */
+     , (24671, 8, 68) /* Studded Leather Greaves */;
+

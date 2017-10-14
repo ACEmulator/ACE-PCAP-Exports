@@ -49,3 +49,19 @@ VALUES (31901, 2, 89) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31901, 64, 2703) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31901, 8, 29254) /* Electric Atlatl */
+     , (31901, 8, 2548) /* Sceptre */
+     , (31901, 8, 20609) /* Scroll of Gift of Vigor */
+     , (31901, 8, 621) /* Heavy Bracelet */
+     , (31901, 8, 2410) /* Gem */
+     , (31901, 8, 2403) /* Gem */
+     , (31901, 8, 31819) /* Staff */
+     , (31901, 8, 150) /* Flagon */
+     , (31901, 8, 130) /* Shirt */
+     , (31901, 8, 30586) /* Flanged Mace */
+     , (31901, 8, 20606) /* Scroll of Self Sacrifice */
+     , (31901, 8, 27225) /* Lorica Sleeves */;
+

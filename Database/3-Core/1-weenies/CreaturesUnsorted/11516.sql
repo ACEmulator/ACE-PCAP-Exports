@@ -53,3 +53,26 @@ VALUES (11516, 2, 58) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11516, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11516, 8, 295) /* Bracelet */
+     , (11516, 8, 622) /* Necklace */
+     , (11516, 8, 28609) /* Vest */
+     , (11516, 8, 2415) /* Gem */
+     , (11516, 8, 2418) /* Gem */
+     , (11516, 8, 336) /* Ono */
+     , (11516, 8, 273) /* Pyreal */
+     , (11516, 8, 132) /* Shoes */
+     , (11516, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (11516, 8, 80) /* Chainmail Leggings */
+     , (11516, 8, 7792) /* Fire Trident */
+     , (11516, 8, 8329) /* Lead Pea */
+     , (11516, 8, 48942) /* Fire Skeleton Minion Essence (50) */
+     , (11516, 8, 48) /* Studded Leather Coat */
+     , (11516, 8, 27331) /* Minor Mana Stone */
+     , (11516, 8, 2837) /* Scroll of Hermetic Void II */
+     , (11516, 8, 624) /* Ring */
+     , (11516, 8, 297) /* Ring */
+     , (11516, 8, 629) /* Adept Healing Kit */;
+

@@ -65,3 +65,17 @@ VALUES (25803, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25803, 64, 3300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25803, 8, 20243) /* Scroll of Heart Rend */
+     , (25803, 8, 20495) /* Scroll of Bottle Breaker */
+     , (25803, 8, 40704) /* Covenant Tassets */
+     , (25803, 8, 20230) /* Scroll of Executor's Boon */
+     , (25803, 8, 49527) /* Acid Phyntos Wasp Essence (125) */
+     , (25803, 8, 31864) /* Teardrop Crown */
+     , (25803, 8, 130) /* Shirt */
+     , (25803, 8, 30579) /* Acid Flamberge */
+     , (25803, 8, 21154) /* Covenant Girth */
+     , (25803, 8, 6048) /* Celdon Sleeves */;
+

@@ -127,5 +127,5 @@ VALUES (22818, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (22818, 2, 339);
+VALUES (22818, 2, 339) /* Scimitar */;
 

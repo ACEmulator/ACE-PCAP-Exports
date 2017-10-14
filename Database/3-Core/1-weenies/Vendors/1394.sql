@@ -126,23 +126,23 @@ VALUES (1394, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1394, 4, 308)
-     , (1394, 4, 313)
-     , (1394, 4, 317)
-     , (1394, 4, 324)
-     , (1394, 4, 326)
-     , (1394, 4, 328)
-     , (1394, 4, 22163)
-     , (1394, 4, 340)
-     , (1394, 4, 345)
-     , (1394, 4, 354)
-     , (1394, 4, 359)
-     , (1394, 4, 2621)
-     , (1394, 4, 2622)
-     , (1394, 4, 2623);
+VALUES (1394, 4, 308) /* Budiaq */
+     , (1394, 4, 313) /* Dabus */
+     , (1394, 4, 317) /* Djarid */
+     , (1394, 4, 324) /* Kaskara */
+     , (1394, 4, 326) /* Katar */
+     , (1394, 4, 328) /* Khanjar */
+     , (1394, 4, 22163) /* Nabut */
+     , (1394, 4, 340) /* Shamshir */
+     , (1394, 4, 345) /* Simi */
+     , (1394, 4, 354) /* Takuba */
+     , (1394, 4, 359) /* War Hammer */
+     , (1394, 4, 2621) /* Trade Note (100) */
+     , (1394, 4, 2622) /* Trade Note (500) */
+     , (1394, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1394, 2, 304);
+VALUES (1394, 2, 304) /* Throwing Axe */;
 

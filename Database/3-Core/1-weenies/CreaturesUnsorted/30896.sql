@@ -41,3 +41,16 @@ VALUES (30896, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30896, 67114731, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30896, 8, 2412) /* Gem */
+     , (30896, 8, 49423) /* Acid Spectre Essence (100) */
+     , (30896, 8, 3762) /* Acid Budiaq */
+     , (30896, 8, 44858) /* Quartered Cloak */
+     , (30896, 8, 31765) /* Acid Lugian Hammer */
+     , (30896, 8, 6043) /* Celdon Girth */
+     , (30896, 8, 42754) /* Haebrean Pauldrons */
+     , (30896, 8, 30857) /* Sezzherei's Lair */
+     , (30896, 8, 30873) /* Spear of the Fallen */;
+

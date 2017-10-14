@@ -134,22 +134,22 @@ VALUES (4543, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4543, 4, 2457)
-     , (4543, 4, 377)
-     , (4543, 4, 27319)
-     , (4543, 4, 2460)
-     , (4543, 4, 379)
-     , (4543, 4, 27322)
-     , (4543, 4, 378)
-     , (4543, 4, 27326)
-     , (4543, 4, 2470)
-     , (4543, 4, 628)
-     , (4543, 4, 629)
-     , (4543, 4, 630)
-     , (4543, 4, 4606)
-     , (4543, 4, 4587)
-     , (4543, 4, 4592)
-     , (4543, 4, 4602)
-     , (4543, 4, 2621)
-     , (4543, 4, 2622);
+VALUES (4543, 4, 2457) /* Health Draught */
+     , (4543, 4, 377) /* Potion of Healing */
+     , (4543, 4, 27319) /* Health Tincture */
+     , (4543, 4, 2460) /* Mana Draught */
+     , (4543, 4, 379) /* Mana Potion */
+     , (4543, 4, 27322) /* Mana Tincture */
+     , (4543, 4, 378) /* Stamina Potion */
+     , (4543, 4, 27326) /* Stamina Tincture */
+     , (4543, 4, 2470) /* Stamina Elixir */
+     , (4543, 4, 628) /* Handy Healing Kit */
+     , (4543, 4, 629) /* Adept Healing Kit */
+     , (4543, 4, 630) /* Gifted Healing Kit */
+     , (4543, 4, 4606) /* Quickness Other I */
+     , (4543, 4, 4587) /* Heal Other II */
+     , (4543, 4, 4592) /* Mana Boost Other I */
+     , (4543, 4, 4602) /* Endurance Other I */
+     , (4543, 4, 2621) /* Trade Note (100) */
+     , (4543, 4, 2622) /* Trade Note (500) */;
 

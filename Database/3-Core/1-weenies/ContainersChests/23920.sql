@@ -52,3 +52,10 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (23920, 2, 0) /* OPEN_BOOL */
      , (23920, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23920, 8, 2471) /* Stout */
+     , (23920, 8, 23126) /* Wah Chon's Winter Lager */
+     , (23920, 8, 8378) /* Beer Stein */;
+

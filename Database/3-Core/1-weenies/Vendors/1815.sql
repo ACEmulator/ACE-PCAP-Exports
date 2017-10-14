@@ -128,52 +128,52 @@ VALUES (1815, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1815, 4, 550)
-     , (1815, 4, 35)
-     , (1815, 4, 552)
-     , (1815, 4, 554)
-     , (1815, 4, 413)
-     , (1815, 4, 414)
-     , (1815, 4, 55)
-     , (1815, 4, 415)
-     , (1815, 4, 2605)
-     , (1815, 4, 108)
-     , (1815, 4, 80)
-     , (1815, 4, 416)
-     , (1815, 4, 85)
-     , (1815, 4, 116)
-     , (1815, 4, 37)
-     , (1815, 4, 41)
-     , (1815, 4, 58)
-     , (1815, 4, 62)
-     , (1815, 4, 67)
-     , (1815, 4, 111)
-     , (1815, 4, 83)
-     , (1815, 4, 88)
-     , (1815, 4, 94)
-     , (1815, 4, 95)
-     , (1815, 4, 308)
-     , (1815, 4, 313)
-     , (1815, 4, 304)
-     , (1815, 4, 326)
-     , (1815, 4, 328)
-     , (1815, 4, 22163)
-     , (1815, 4, 340)
-     , (1815, 4, 354)
-     , (1815, 4, 359)
-     , (1815, 4, 2621)
-     , (1815, 4, 2622)
-     , (1815, 4, 2623)
-     , (1815, 4, 2624)
-     , (1815, 4, 2625)
-     , (1815, 4, 2626)
-     , (1815, 4, 2627)
-     , (1815, 4, 20628)
-     , (1815, 4, 20629)
-     , (1815, 4, 20630);
+VALUES (1815, 4, 550) /* Baigha */
+     , (1815, 4, 35) /* Chainmail Basinet */
+     , (1815, 4, 552) /* Scale Mail Basinet */
+     , (1815, 4, 554) /* Studded Leather Basinet */
+     , (1815, 4, 413) /* Chainmail Bracers */
+     , (1815, 4, 414) /* Chainmail Breastplate */
+     , (1815, 4, 55) /* Chainmail Gauntlets */
+     , (1815, 4, 415) /* Chainmail Girth */
+     , (1815, 4, 2605) /* Chainmail Greaves */
+     , (1815, 4, 108) /* Chainmail Tassets */
+     , (1815, 4, 80) /* Chainmail Leggings */
+     , (1815, 4, 416) /* Chainmail Pauldrons */
+     , (1815, 4, 85) /* Chainmail Coif */
+     , (1815, 4, 116) /* Studded Leather Boots */
+     , (1815, 4, 37) /* Scalemail Bracers */
+     , (1815, 4, 41) /* Scalemail Breastplate */
+     , (1815, 4, 58) /* Scalemail Gauntlets */
+     , (1815, 4, 62) /* Scalemail Girth */
+     , (1815, 4, 67) /* Scalemail Greaves */
+     , (1815, 4, 111) /* Scalemail Tassets */
+     , (1815, 4, 83) /* Scalemail Leggings */
+     , (1815, 4, 88) /* Scalemail Pauldrons */
+     , (1815, 4, 94) /* Diamond Shield */
+     , (1815, 4, 95) /* Tower Shield */
+     , (1815, 4, 308) /* Budiaq */
+     , (1815, 4, 313) /* Dabus */
+     , (1815, 4, 304) /* Throwing Axe */
+     , (1815, 4, 326) /* Katar */
+     , (1815, 4, 328) /* Khanjar */
+     , (1815, 4, 22163) /* Nabut */
+     , (1815, 4, 340) /* Shamshir */
+     , (1815, 4, 354) /* Takuba */
+     , (1815, 4, 359) /* War Hammer */
+     , (1815, 4, 2621) /* Trade Note (100) */
+     , (1815, 4, 2622) /* Trade Note (500) */
+     , (1815, 4, 2623) /* Trade Note (1,000) */
+     , (1815, 4, 2624) /* Trade Note (5,000) */
+     , (1815, 4, 2625) /* Trade Note (10,000) */
+     , (1815, 4, 2626) /* Trade Note (50,000) */
+     , (1815, 4, 2627) /* Trade Note (100,000) */
+     , (1815, 4, 20628) /* Trade Note (150,000) */
+     , (1815, 4, 20629) /* Trade Note (200,000) */
+     , (1815, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1815, 2, 313);
+VALUES (1815, 2, 313) /* Dabus */;
 

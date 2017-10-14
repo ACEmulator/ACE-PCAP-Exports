@@ -45,5 +45,5 @@ VALUES (10979, 67113367, 0, 0);
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (10979, 2, 312);
+VALUES (10979, 2, 312) /* Light Crossbow */;
 

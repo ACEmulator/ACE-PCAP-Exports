@@ -131,14 +131,14 @@ VALUES (652, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (652, 4, 136)
-     , (652, 4, 139)
-     , (652, 4, 260)
-     , (652, 4, 262)
-     , (652, 4, 263)
-     , (652, 4, 4763)
-     , (652, 4, 546)
-     , (652, 4, 4761)
-     , (652, 4, 4746)
-     , (652, 4, 4762);
+VALUES (652, 4, 136) /* Pack */
+     , (652, 4, 139) /* Small Belt Pouch */
+     , (652, 4, 260) /* Cabbage */
+     , (652, 4, 262) /* Chicken */
+     , (652, 4, 263) /* Fish */
+     , (652, 4, 4763) /* Honey */
+     , (652, 4, 546) /* Egg */
+     , (652, 4, 4761) /* Flour */
+     , (652, 4, 4746) /* Water */
+     , (652, 4, 4762) /* Frying Pan */;
 

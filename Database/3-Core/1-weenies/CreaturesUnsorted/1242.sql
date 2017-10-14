@@ -54,3 +54,27 @@ VALUES (1242, 1, 16784273)
      , (1242, 9, 16784289)
      , (1242, 12, 16784289);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1242, 8, 2588) /* Flared Shirt */
+     , (1242, 8, 2599) /* Trousers */
+     , (1242, 8, 1248) /* Key */
+     , (1242, 8, 7825) /* Brown Beans */
+     , (1242, 8, 415) /* Chainmail Girth */
+     , (1242, 8, 629) /* Adept Healing Kit */
+     , (1242, 8, 49282) /* Acid K'nath Essence (50) */
+     , (1242, 8, 49261) /* Acid Elemental Essence (50) */
+     , (1242, 8, 545) /* Reliable Lockpick */
+     , (1242, 8, 513) /* Plain Lockpick */
+     , (1242, 8, 273) /* Pyreal */
+     , (1242, 8, 49275) /* Frost Elemental Essence (50) */
+     , (1242, 8, 2604) /* Wide Breeches */
+     , (1242, 8, 2435) /* Mana Stone */
+     , (1242, 8, 8329) /* Lead Pea */
+     , (1242, 8, 12463) /* Atlatl */
+     , (1242, 8, 630) /* Gifted Healing Kit */
+     , (1242, 8, 20854) /* Academy Stamp */
+     , (1242, 8, 41483) /* Compass */
+     , (1242, 8, 3669) /* Drudge Charm */;
+

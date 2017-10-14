@@ -130,16 +130,16 @@ VALUES (41731, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41731, 4, 41718)
-     , (41731, 4, 41719)
-     , (41731, 4, 41721)
-     , (41731, 4, 41722)
-     , (41731, 4, 41723)
-     , (41731, 4, 41724)
-     , (41731, 4, 41720)
-     , (41731, 4, 41725)
-     , (41731, 4, 41726)
-     , (41731, 4, 41727)
-     , (41731, 4, 41728)
-     , (41731, 4, 41729);
+VALUES (41731, 4, 41718) /* Atlatl Stamped Silveran Ingot */
+     , (41731, 4, 41719) /* Axe Stamped Silveran Ingot */
+     , (41731, 4, 41721) /* Casting Staff Stamped Silveran Ingot */
+     , (41731, 4, 41722) /* Claw Stamped Silveran Ingot */
+     , (41731, 4, 41723) /* Crossbow Stamped Silveran Ingot */
+     , (41731, 4, 41724) /* Dagger Stamped Silveran Ingot */
+     , (41731, 4, 41720) /* Bow Stamped Silveran Ingot */
+     , (41731, 4, 41725) /* Mace Stamped Silveran Ingot */
+     , (41731, 4, 41726) /* Spear Stamped Silveran Ingot */
+     , (41731, 4, 41727) /* Staff Stamped Silveran Ingot */
+     , (41731, 4, 41728) /* Sword Stamped Silveran Ingot */
+     , (41731, 4, 41729) /* Two Handed Sword Stamped Silveran Ingot */;
 

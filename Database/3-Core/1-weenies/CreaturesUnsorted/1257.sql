@@ -86,3 +86,31 @@ VALUES (1257, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1257, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1257, 8, 127) /* Pants */
+     , (1257, 8, 28609) /* Vest */
+     , (1257, 8, 273) /* Pyreal */
+     , (1257, 8, 1264) /* Key */
+     , (1257, 8, 43330) /* Scroll of Festering Curse II */
+     , (1257, 8, 7897) /* Steel Toed Boots */
+     , (1257, 8, 42518) /* Coalesced Mana */
+     , (1257, 8, 55) /* Chainmail Gauntlets */
+     , (1257, 8, 31773) /* Frost Board with Nail */
+     , (1257, 8, 22440) /* Dirk */
+     , (1257, 8, 3338) /* Scroll of Jumping Mastery Self II */
+     , (1257, 8, 41488) /* Top */
+     , (1257, 8, 8329) /* Lead Pea */
+     , (1257, 8, 25647) /* Leather Pants */
+     , (1257, 8, 46) /* Metal Cap */
+     , (1257, 8, 43322) /* Scroll of Destructive Curse III */
+     , (1257, 8, 40624) /* Acid Quadrelle */
+     , (1257, 8, 312) /* Light Crossbow */
+     , (1257, 8, 2366) /* Orb */
+     , (1257, 8, 3463) /* Scroll of Resist Magic Other II */
+     , (1257, 8, 22156) /* Flaming Jo */
+     , (1257, 8, 7790) /* Electric Spiked Club */
+     , (1257, 8, 3103) /* Scroll of Mana Renewal Self II */
+     , (1257, 8, 31774) /* Board with Nail */;
+

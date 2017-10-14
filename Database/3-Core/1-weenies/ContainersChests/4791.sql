@@ -53,3 +53,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4791, 2, 0) /* OPEN_BOOL */
      , (4791, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4791, 8, 8738) /* Rithwic Town Stamp */
+     , (4791, 8, 4797) /* Letter to Celcynd */;
+

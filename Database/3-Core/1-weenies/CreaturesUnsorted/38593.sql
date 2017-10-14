@@ -61,3 +61,37 @@ VALUES (38593, 64, 1800) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (38593, 128, 2300) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (38593, 256, 1360) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38593, 8, 2412) /* Gem */
+     , (38593, 8, 20608) /* Scroll of Gift of Essence */
+     , (38593, 8, 135) /* Turban */
+     , (38593, 8, 30561) /* Dolabra */
+     , (38593, 8, 30612) /* Lightning Knuckles */
+     , (38593, 8, 25648) /* Leather Pauldrons */
+     , (38593, 8, 28622) /* Tenassa Leggings */
+     , (38593, 8, 27236) /* Scroll of Eradicate Life Magic Other */
+     , (38593, 8, 95) /* Tower Shield */
+     , (38593, 8, 40698) /* Covenant Gauntlets */
+     , (38593, 8, 49360) /* Frost Moar Essence (80) */
+     , (38593, 8, 121) /* Gloves */
+     , (38593, 8, 28008) /* Aura of Infected Spirit Caress Scroll */
+     , (38593, 8, 331) /* Mace */
+     , (38593, 8, 40623) /* Quadrelle */
+     , (38593, 8, 31788) /* Stick */
+     , (38593, 8, 41057) /* Great Star Mace */
+     , (38593, 8, 25650) /* Leather Shorts */
+     , (38593, 8, 20245) /* Scroll of Adja's Intervention */
+     , (38593, 8, 25661) /* Leather Boots */
+     , (38593, 8, 7794) /* Electric Trident */
+     , (38593, 8, 27237) /* Scroll of Eradicate Life Magic Self */
+     , (38593, 8, 46881) /* Aura of Heartseeker Other VII */
+     , (38593, 8, 30581) /* Mazule */
+     , (38593, 8, 2395) /* Gem */
+     , (38593, 8, 30218) /* Life Giver's Crystal */
+     , (38593, 8, 43284) /* Scroll of Corrosion VII */
+     , (38593, 8, 45419) /* Flaming Knife */
+     , (38593, 8, 42635) /* Aetheria */
+     , (38593, 8, 28624) /* Tenassa Sleeves */;
+

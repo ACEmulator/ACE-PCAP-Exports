@@ -82,3 +82,46 @@ VALUES (46531, 2, 77) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46531, 64, 2500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46531, 8, 20552) /* Scroll of Wrath of Harlune */
+     , (46531, 8, 25642) /* Leather Gauntlets */
+     , (46531, 8, 29246) /* Ultimate Singularity Crossbow */
+     , (46531, 8, 22155) /* Lightning Jo */
+     , (46531, 8, 622) /* Necklace */
+     , (46531, 8, 30581) /* Mazule */
+     , (46531, 8, 20520) /* Scroll of Finesse Weapon Mastery Other VII */
+     , (46531, 8, 27222) /* Lorica Gauntlets */
+     , (46531, 8, 49439) /* Fire Spectre Essence (150) */
+     , (46531, 8, 415) /* Chainmail Girth */
+     , (46531, 8, 20451) /* Scroll of Sudden Frost */
+     , (46531, 8, 108) /* Chainmail Tassets */
+     , (46531, 8, 28617) /* Alduressa Helm */
+     , (46531, 8, 49389) /* Frost Grievver Essence (100) */
+     , (46531, 8, 624) /* Ring */
+     , (46531, 8, 2423) /* Gem */
+     , (46531, 8, 2403) /* Gem */
+     , (46531, 8, 44803) /* Empyrean Over-robe */
+     , (46531, 8, 37207) /* Olthoi Alduressa Boots */
+     , (46531, 8, 40712) /* Covenant Pauldrons */
+     , (46531, 8, 105) /* Studded Leather Sleeves */
+     , (46531, 8, 308) /* Budiaq */
+     , (46531, 8, 3821) /* Frost Katar */
+     , (46531, 8, 107) /* Sollerets */
+     , (46531, 8, 2411) /* Gem */
+     , (46531, 8, 48908) /* Shattered Legendary Key */
+     , (46531, 8, 49328) /* Fire Wisp Essence (150) */
+     , (46531, 8, 31820) /* Acid Baton */
+     , (46531, 8, 49307) /* Frost K'nath Essence (150) */
+     , (46531, 8, 71) /* Chainmail Hauberk */
+     , (46531, 8, 49391) /* Frost Grievver Essence (150) */
+     , (46531, 8, 45411) /* Spada */
+     , (46531, 8, 20534) /* Scroll of Avalenne's Blessing */
+     , (46531, 8, 37187) /* Olthoi Alduressa Gauntlets */
+     , (46531, 8, 20526) /* Scroll of Sashi Mu's Kiss */
+     , (46531, 8, 20422) /* Scroll of Wi's Folly */
+     , (46531, 8, 20493) /* Scroll of Tenaciousness */
+     , (46531, 8, 133) /* Slippers */
+     , (46531, 8, 37299) /* Olthoi Amuli Coat */;
+

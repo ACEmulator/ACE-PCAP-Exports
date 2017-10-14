@@ -112,23 +112,23 @@ VALUES (22725, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (22725, 4, 2457)
-     , (22725, 4, 377)
-     , (22725, 4, 27319)
-     , (22725, 4, 2460)
-     , (22725, 4, 379)
-     , (22725, 4, 27322)
-     , (22725, 4, 378)
-     , (22725, 4, 27326)
-     , (22725, 4, 2470)
-     , (22725, 4, 628)
-     , (22725, 4, 629)
-     , (22725, 4, 630)
-     , (22725, 4, 4450)
-     , (22725, 4, 4602)
-     , (22725, 4, 4589)
-     , (22725, 4, 4599)
-     , (22725, 4, 4595)
-     , (22725, 4, 2621)
-     , (22725, 4, 2622);
+VALUES (22725, 4, 2457) /* Health Draught */
+     , (22725, 4, 377) /* Potion of Healing */
+     , (22725, 4, 27319) /* Health Tincture */
+     , (22725, 4, 2460) /* Mana Draught */
+     , (22725, 4, 379) /* Mana Potion */
+     , (22725, 4, 27322) /* Mana Tincture */
+     , (22725, 4, 378) /* Stamina Potion */
+     , (22725, 4, 27326) /* Stamina Tincture */
+     , (22725, 4, 2470) /* Stamina Elixir */
+     , (22725, 4, 628) /* Handy Healing Kit */
+     , (22725, 4, 629) /* Adept Healing Kit */
+     , (22725, 4, 630) /* Gifted Healing Kit */
+     , (22725, 4, 4450) /* Heal Other I */
+     , (22725, 4, 4602) /* Endurance Other I */
+     , (22725, 4, 4589) /* Revitalize Other I */
+     , (22725, 4, 4599) /* Mana Renewal Other I */
+     , (22725, 4, 4595) /* Regeneration Other I */
+     , (22725, 4, 2621) /* Trade Note (100) */
+     , (22725, 4, 2622) /* Trade Note (500) */;
 

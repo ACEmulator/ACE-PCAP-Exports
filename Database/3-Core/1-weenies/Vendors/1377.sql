@@ -85,5 +85,5 @@ VALUES (1377, 2, 16777293)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1377, 2, 321);
+VALUES (1377, 2, 321) /* Jitte */;
 

@@ -125,21 +125,21 @@ VALUES (976, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (976, 4, 308)
-     , (976, 4, 313)
-     , (976, 4, 316)
-     , (976, 4, 326)
-     , (976, 4, 328)
-     , (976, 4, 22163)
-     , (976, 4, 345)
-     , (976, 4, 315)
-     , (976, 4, 357)
-     , (976, 4, 2621)
-     , (976, 4, 2622)
-     , (976, 4, 2623);
+VALUES (976, 4, 308) /* Budiaq */
+     , (976, 4, 313) /* Dabus */
+     , (976, 4, 316) /* Throwing Dart */
+     , (976, 4, 326) /* Katar */
+     , (976, 4, 328) /* Khanjar */
+     , (976, 4, 22163) /* Nabut */
+     , (976, 4, 345) /* Simi */
+     , (976, 4, 315) /* Throwing Dagger */
+     , (976, 4, 357) /* Tungi */
+     , (976, 4, 2621) /* Trade Note (100) */
+     , (976, 4, 2622) /* Trade Note (500) */
+     , (976, 4, 2623) /* Trade Note (1,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (976, 2, 313);
+VALUES (976, 2, 313) /* Dabus */;
 

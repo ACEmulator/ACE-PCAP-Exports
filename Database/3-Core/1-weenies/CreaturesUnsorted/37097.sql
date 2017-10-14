@@ -115,3 +115,10 @@ VALUES (37097, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (37097, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37097, 8, 20505) /* Scroll of Light Weapon Mastery Other VII */
+     , (37097, 8, 37103) /* Node-Leech's Orders */
+     , (37097, 8, 37092) /* Node Leech's Medallion */;
+

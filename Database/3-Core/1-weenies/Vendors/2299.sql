@@ -136,17 +136,17 @@ VALUES (2299, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2299, 4, 364)
-     , (2299, 4, 365)
-     , (2299, 4, 367)
-     , (2299, 4, 4169)
-     , (2299, 4, 5602)
-     , (2299, 4, 6419)
-     , (2299, 4, 5584)
-     , (2299, 4, 5856)
-     , (2299, 4, 7884)
-     , (2299, 4, 14797)
-     , (2299, 4, 5586)
-     , (2299, 4, 24855)
-     , (2299, 4, 5587);
+VALUES (2299, 4, 364) /* Book */
+     , (2299, 4, 365) /* Parchment */
+     , (2299, 4, 367) /* Tome */
+     , (2299, 4, 4169) /* Path of Strife Rumor */
+     , (2299, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (2299, 4, 6419) /* The Meeting Halls */
+     , (2299, 4, 5584) /* Gharu'ndim Cookbook */
+     , (2299, 4, 5856) /* Specialty Cookbook */
+     , (2299, 4, 7884) /* Chocolate Cookbook */
+     , (2299, 4, 14797) /* Festival Cookbook */
+     , (2299, 4, 5586) /* Alchemy Guide */
+     , (2299, 4, 24855) /* The New Alchemy */
+     , (2299, 4, 5587) /* Fletching Guide */;
 

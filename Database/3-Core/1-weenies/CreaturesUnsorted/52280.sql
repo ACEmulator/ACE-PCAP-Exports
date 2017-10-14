@@ -46,3 +46,14 @@ VALUES (52280, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (52280, 64, 6175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52280, 8, 621) /* Heavy Bracelet */
+     , (52280, 8, 2436) /* Greater Mana Stone */
+     , (52280, 8, 632) /* Peerless Healing Kit */
+     , (52280, 8, 31868) /* Signet Crown */
+     , (52280, 8, 27327) /* Stamina Tonic */
+     , (52280, 8, 31811) /* Piercing Compound Crossbow */
+     , (52280, 8, 8327) /* Gold Pea */;
+

@@ -41,3 +41,23 @@ VALUES (38179, 2, 48) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38179, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38179, 8, 31787) /* Flaming Claw */
+     , (38179, 8, 8328) /* Iron Pea */
+     , (38179, 8, 38222) /* Blighted Mana Crystal */
+     , (38179, 8, 95) /* Tower Shield */
+     , (38179, 8, 273) /* Pyreal */
+     , (38179, 8, 2420) /* Gem */
+     , (38179, 8, 28610) /* Loafers */
+     , (38179, 8, 8329) /* Lead Pea */
+     , (38179, 8, 2434) /* Lesser Mana Stone */
+     , (38179, 8, 2588) /* Flared Shirt */
+     , (38179, 8, 2595) /* Baggy Tunic */
+     , (38179, 8, 44976) /* Hood */
+     , (38179, 8, 27331) /* Minor Mana Stone */
+     , (38179, 8, 28607) /* Lace Shirt */
+     , (38179, 8, 31790) /* Lightning Stick */
+     , (38179, 8, 341) /* Shouyumi */;
+

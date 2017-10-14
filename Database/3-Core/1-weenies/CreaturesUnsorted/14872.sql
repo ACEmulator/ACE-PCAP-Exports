@@ -205,3 +205,74 @@ VALUES (14872, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14872, 64, 355) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14872, 8, 20640) /* Royal Atlatl */
+     , (14872, 8, 44800) /* Dho Vest and Over-Robe */
+     , (14872, 8, 25643) /* Leather Girth */
+     , (14872, 8, 57) /* Platemail Gauntlets */
+     , (14872, 8, 30606) /* Bastone */
+     , (14872, 8, 25639) /* Leather Jerkin */
+     , (14872, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (14872, 8, 31792) /* Frost Stick */
+     , (14872, 8, 2461) /* Mana Elixir */
+     , (14872, 8, 14883) /* Teeth of a Singularity Key */
+     , (14872, 8, 49345) /* Lightning Moar Essence (50) */
+     , (14872, 8, 30949) /* Diforsa Sleeves */
+     , (14872, 8, 3327) /* Scroll of Item Tinkering Expertise Self VI */
+     , (14872, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (14872, 8, 59) /* Studded Leather Gauntlets */
+     , (14872, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (14872, 8, 31820) /* Acid Baton */
+     , (14872, 8, 3813) /* Sword of Frozen Fury */
+     , (14872, 8, 415) /* Chainmail Girth */
+     , (14872, 8, 2399) /* Gem */
+     , (14872, 8, 273) /* Pyreal */
+     , (14872, 8, 2424) /* Gem */
+     , (14872, 8, 130) /* Shirt */
+     , (14872, 8, 2806) /* Scroll of Brittlemail VI */
+     , (14872, 8, 8326) /* Copper Pea */
+     , (14872, 8, 43316) /* Scroll of Nether Streak VII */
+     , (14872, 8, 20418) /* Scroll of Brogard's Defiance */
+     , (14872, 8, 40707) /* Covenant Breastplate */
+     , (14872, 8, 127) /* Pants */
+     , (14872, 8, 514) /* Excellent Lockpick */
+     , (14872, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (14872, 8, 623) /* Heavy Necklace */
+     , (14872, 8, 413) /* Chainmail Bracers */
+     , (14872, 8, 27330) /* Moderate Mana Stone */
+     , (14872, 8, 3377) /* Scroll of Life Magic Mastery Self VI */
+     , (14872, 8, 30591) /* Partizan */
+     , (14872, 8, 621) /* Heavy Bracelet */
+     , (14872, 8, 515) /* Superb Lockpick */
+     , (14872, 8, 119) /* Cowl */
+     , (14872, 8, 40706) /* Covenant Bracers */
+     , (14872, 8, 150) /* Flagon */
+     , (14872, 8, 43300) /* Scroll of Nether Arc VII */
+     , (14872, 8, 8331) /* Silver Pea */
+     , (14872, 8, 622) /* Necklace */
+     , (14872, 8, 4198) /* Frost Nekode */
+     , (14872, 8, 45406) /* Yaoji */
+     , (14872, 8, 49262) /* Acid Elemental Essence (80) */
+     , (14872, 8, 12463) /* Atlatl */
+     , (14872, 8, 45400) /* Frost Short Sword */
+     , (14872, 8, 106) /* Yoroi Sleeves */
+     , (14872, 8, 43) /* Yoroi Breastplate */
+     , (14872, 8, 28945) /* Scroll of Arcanum Enlightenment VI */
+     , (14872, 8, 2601) /* Loose Pants */
+     , (14872, 8, 28633) /* Diforsa Girth */
+     , (14872, 8, 31866) /* Coronet */
+     , (14872, 8, 3047) /* Scroll of Fire Vulnerability Other VI */
+     , (14872, 8, 20429) /* Scroll of Vagabond's Gift */
+     , (14872, 8, 308) /* Budiaq */
+     , (14872, 8, 21114) /* Scroll of Martyr's Tenacity VI */
+     , (14872, 8, 46858) /* Aura of Hermetic Link Other VI */
+     , (14872, 8, 28611) /* Viamontian Laced Boots */
+     , (14872, 8, 6876) /* Sturdy Iron Key */
+     , (14872, 8, 2405) /* Gem */
+     , (14872, 8, 3037) /* Scroll of Fire Protection Other VI */
+     , (14872, 8, 89) /* Studded Leather Pauldrons */
+     , (14872, 8, 20432) /* Scroll of Disintegration */
+     , (14872, 8, 3182) /* Scroll of Missile Weapon Mastery Other VI */;
+

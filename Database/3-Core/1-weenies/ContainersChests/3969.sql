@@ -53,3 +53,28 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3969, 2, 0) /* OPEN_BOOL */
      , (3969, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3969, 8, 161) /* Mug */
+     , (3969, 8, 2435) /* Mana Stone */
+     , (3969, 8, 28606) /* Viamontian Pants */
+     , (3969, 8, 8326) /* Copper Pea */
+     , (3969, 8, 2590) /* Baggy Shirt */
+     , (3969, 8, 8328) /* Iron Pea */
+     , (3969, 8, 2425) /* Gem */
+     , (3969, 8, 273) /* Pyreal */
+     , (3969, 8, 40618) /* Spadone */
+     , (3969, 8, 132) /* Shoes */
+     , (3969, 8, 326) /* Katar */
+     , (3969, 8, 2746) /* Scroll of Self Strength VI */
+     , (3969, 8, 2400) /* Gem */
+     , (3969, 8, 301) /* Battle Axe */
+     , (3969, 8, 163) /* Ornamental Bowl */
+     , (3969, 8, 5901) /* Kasa */
+     , (3969, 8, 45420) /* Frost Knife */
+     , (3969, 8, 2397) /* Gem */
+     , (3969, 8, 20593) /* Scroll of Gravity Well */
+     , (3969, 8, 20252) /* Scroll of Belly of Lead */
+     , (3969, 8, 40696) /* Covenant Bracers */;
+

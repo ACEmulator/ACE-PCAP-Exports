@@ -49,3 +49,13 @@ VALUES (5155, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5155, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5155, 8, 5158) /* Rusted Knife */
+     , (5155, 8, 134) /* Tunic */
+     , (5155, 8, 297) /* Ring */
+     , (5155, 8, 2599) /* Trousers */
+     , (5155, 8, 3495) /* Scroll of Sprint Self IV */
+     , (5155, 8, 83) /* Scalemail Leggings */;
+

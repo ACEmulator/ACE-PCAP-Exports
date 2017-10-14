@@ -49,3 +49,48 @@ VALUES (28551, 2, 47) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28551, 64, 380) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28551, 8, 312) /* Light Crossbow */
+     , (28551, 8, 2434) /* Lesser Mana Stone */
+     , (28551, 8, 45330) /* Scroll of Shield Mastery Self VII */
+     , (28551, 8, 3527) /* Scroll of Heavy Weapon Mastery Self VI */
+     , (28551, 8, 273) /* Pyreal */
+     , (28551, 8, 2431) /* Gem */
+     , (28551, 8, 2435) /* Mana Stone */
+     , (28551, 8, 22441) /* Acid Dirk */
+     , (28551, 8, 8328) /* Iron Pea */
+     , (28551, 8, 2437) /* Yoroi Leggings */
+     , (28551, 8, 20423) /* Scroll of Archer's Bane */
+     , (28551, 8, 163) /* Ornamental Bowl */
+     , (28551, 8, 6056) /* Small Shard */
+     , (28551, 8, 414) /* Chainmail Breastplate */
+     , (28551, 8, 624) /* Ring */
+     , (28551, 8, 2395) /* Gem */
+     , (28551, 8, 2405) /* Gem */
+     , (28551, 8, 161) /* Mug */
+     , (28551, 8, 111) /* Scalemail Tassets */
+     , (28551, 8, 8329) /* Lead Pea */
+     , (28551, 8, 149) /* Ewer */
+     , (28551, 8, 27330) /* Moderate Mana Stone */
+     , (28551, 8, 297) /* Ring */
+     , (28551, 8, 41485) /* Pocket Watch */
+     , (28551, 8, 254) /* Stoup */
+     , (28551, 8, 31769) /* Lugian Axe */
+     , (28551, 8, 130) /* Shirt */
+     , (28551, 8, 30586) /* Flanged Mace */
+     , (28551, 8, 121) /* Gloves */
+     , (28551, 8, 21293) /* Scroll of Acid Arc VI */
+     , (28551, 8, 8326) /* Copper Pea */
+     , (28551, 8, 295) /* Bracelet */
+     , (28551, 8, 38) /* Studded Leather Bracers */
+     , (28551, 8, 51) /* Platemail Cuirass */
+     , (28551, 8, 116) /* Studded Leather Boots */
+     , (28551, 8, 2429) /* Gem */
+     , (28551, 8, 154) /* Goblet */
+     , (28551, 8, 2426) /* Gem */
+     , (28551, 8, 621) /* Heavy Bracelet */
+     , (28551, 8, 25661) /* Leather Boots */
+     , (28551, 8, 41483) /* Compass */;
+

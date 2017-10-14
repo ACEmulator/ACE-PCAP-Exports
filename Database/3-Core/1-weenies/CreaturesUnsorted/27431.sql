@@ -77,3 +77,17 @@ VALUES (27431, 2, 40) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27431, 64, 3500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27431, 8, 296) /* Crown */
+     , (27431, 8, 21108) /* Scroll of Martyr's Blight VII */
+     , (27431, 8, 25642) /* Leather Gauntlets */
+     , (27431, 8, 59) /* Studded Leather Gauntlets */
+     , (27431, 8, 48) /* Studded Leather Coat */
+     , (27431, 8, 121) /* Gloves */
+     , (27431, 8, 55) /* Chainmail Gauntlets */
+     , (27431, 8, 631) /* Excellent Healing Kit */
+     , (27431, 8, 41040) /* Frost Assagai */
+     , (27431, 8, 27438) /* Head of the Homunculus */;
+

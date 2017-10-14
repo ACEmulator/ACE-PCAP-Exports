@@ -43,3 +43,19 @@ VALUES (21550, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (21550, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (21550, 8, 40705) /* Covenant Sollerets */
+     , (21550, 8, 148) /* Cup */
+     , (21550, 8, 8326) /* Copper Pea */
+     , (21550, 8, 2394) /* Gem */
+     , (21550, 8, 2589) /* Smock */
+     , (21550, 8, 2435) /* Mana Stone */
+     , (21550, 8, 621) /* Heavy Bracelet */
+     , (21550, 8, 2595) /* Baggy Tunic */
+     , (21550, 8, 2436) /* Greater Mana Stone */
+     , (21550, 8, 55) /* Chainmail Gauntlets */
+     , (21550, 8, 8331) /* Silver Pea */
+     , (21550, 8, 295) /* Bracelet */;
+

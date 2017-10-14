@@ -45,3 +45,22 @@ VALUES (36216, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36216, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36216, 8, 416) /* Chainmail Pauldrons */
+     , (36216, 8, 49270) /* Lightning Elemental Essence (100) */
+     , (36216, 8, 154) /* Goblet */
+     , (36216, 8, 44977) /* Lyceum Hood */
+     , (36216, 8, 2425) /* Gem */
+     , (36216, 8, 294) /* Amulet */
+     , (36216, 8, 25647) /* Leather Pants */
+     , (36216, 8, 36212) /* Message to the Elemental Artifex */
+     , (36216, 8, 20510) /* Scroll of Challenger's Legacy */
+     , (36216, 8, 28624) /* Tenassa Sleeves */
+     , (36216, 8, 42637) /* Aetheria */
+     , (36216, 8, 49230) /* Frost Skeleton Bushi Essence (125) */
+     , (36216, 8, 142) /* Chalice */
+     , (36216, 8, 28617) /* Alduressa Helm */
+     , (36216, 8, 31802) /* Fire Compound Bow */;
+

@@ -126,18 +126,18 @@ VALUES (693, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (693, 4, 2451)
-     , (693, 4, 2471)
-     , (693, 4, 2462)
-     , (693, 4, 2463)
-     , (693, 4, 4746)
-     , (693, 4, 261)
-     , (693, 4, 620)
-     , (693, 4, 4732)
-     , (693, 4, 4734)
-     , (693, 4, 6420)
-     , (693, 4, 11929)
-     , (693, 4, 24034)
-     , (693, 4, 6416)
-     , (693, 4, 31982);
+VALUES (693, 4, 2451) /* Ale */
+     , (693, 4, 2471) /* Stout */
+     , (693, 4, 2462) /* Mead */
+     , (693, 4, 2463) /* Milk */
+     , (693, 4, 4746) /* Water */
+     , (693, 4, 261) /* Cheese */
+     , (693, 4, 620) /* Cake */
+     , (693, 4, 4732) /* Fried Steak */
+     , (693, 4, 4734) /* Meat Pie */
+     , (693, 4, 6420) /* The Obsidian Span */
+     , (693, 4, 11929) /* A Call To Arms */
+     , (693, 4, 24034) /* The Lost Wish Lovers */
+     , (693, 4, 6416) /* A Shivering Stone */
+     , (693, 4, 31982) /* Branwyn's Tears */;
 

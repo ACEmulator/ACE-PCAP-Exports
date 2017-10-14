@@ -67,3 +67,19 @@ VALUES (9465, 2, 70) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9465, 64, 550) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9465, 8, 254) /* Stoup */
+     , (9465, 8, 630) /* Gifted Healing Kit */
+     , (9465, 8, 414) /* Chainmail Breastplate */
+     , (9465, 8, 113) /* Yoroi Tassets */
+     , (9465, 8, 9468) /* Blade of the Heart */
+     , (9465, 8, 30616) /* Arbalest */
+     , (9465, 8, 116) /* Studded Leather Boots */
+     , (9465, 8, 31784) /* Claw */
+     , (9465, 8, 2435) /* Mana Stone */
+     , (9465, 8, 31868) /* Signet Crown */
+     , (9465, 8, 2420) /* Gem */
+     , (9465, 8, 44) /* Buckler */;
+

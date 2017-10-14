@@ -44,3 +44,27 @@ VALUES (7127, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7127, 64, 360) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7127, 8, 5894) /* Fez */
+     , (7127, 8, 2436) /* Greater Mana Stone */
+     , (7127, 8, 8331) /* Silver Pea */
+     , (7127, 8, 41485) /* Pocket Watch */
+     , (7127, 8, 8326) /* Copper Pea */
+     , (7127, 8, 8327) /* Gold Pea */
+     , (7127, 8, 21157) /* Covenant Pauldrons */
+     , (7127, 8, 27330) /* Moderate Mana Stone */
+     , (7127, 8, 2425) /* Gem */
+     , (7127, 8, 27328) /* Major Mana Stone */
+     , (7127, 8, 624) /* Ring */
+     , (7127, 8, 273) /* Pyreal */
+     , (7127, 8, 28608) /* Poet's Shirt */
+     , (7127, 8, 295) /* Bracelet */
+     , (7127, 8, 5901) /* Kasa */
+     , (7127, 8, 29263) /* Frost Sceptre */
+     , (7127, 8, 45429) /* Flaming Weeping Dagger */
+     , (7127, 8, 25650) /* Leather Shorts */
+     , (7127, 8, 243) /* Dinner Plate */
+     , (7127, 8, 356) /* Tofun */;
+

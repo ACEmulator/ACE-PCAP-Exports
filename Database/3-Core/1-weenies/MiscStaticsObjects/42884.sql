@@ -38,3 +38,54 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (42884, 19, 125) /* VALUE_INT */
      , (42884, 5, 9000) /* ENCUMB_VAL_INT */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (42884, 8, 2420) /* Gem */
+     , (42884, 8, 297) /* Ring */
+     , (42884, 8, 149) /* Ewer */
+     , (42884, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (42884, 8, 119) /* Cowl */
+     , (42884, 8, 243) /* Dinner Plate */
+     , (42884, 8, 2595) /* Baggy Tunic */
+     , (42884, 8, 148) /* Cup */
+     , (42884, 8, 41484) /* Goggles */
+     , (42884, 8, 622) /* Necklace */
+     , (42884, 8, 134) /* Tunic */
+     , (42884, 8, 294) /* Amulet */
+     , (42884, 8, 2417) /* Gem */
+     , (42884, 8, 161) /* Mug */
+     , (42884, 8, 2406) /* Gem */
+     , (42884, 8, 2419) /* Gem */
+     , (42884, 8, 150) /* Flagon */
+     , (42884, 8, 28610) /* Loafers */
+     , (42884, 8, 168) /* Tankard */
+     , (42884, 8, 141) /* Bowl */
+     , (42884, 8, 295) /* Bracelet */
+     , (42884, 8, 296) /* Crown */
+     , (42884, 8, 7940) /* Empty Flask */
+     , (42884, 8, 2415) /* Gem */
+     , (42884, 8, 5634) /* Stamina Draught */
+     , (42884, 8, 42518) /* Coalesced Mana */
+     , (42884, 8, 2427) /* Gem */
+     , (42884, 8, 2418) /* Gem */
+     , (42884, 8, 41483) /* Compass */
+     , (42884, 8, 2590) /* Baggy Shirt */
+     , (42884, 8, 49366) /* Acid Grievver Essence (50) */
+     , (42884, 8, 2414) /* Gem */
+     , (42884, 8, 127) /* Pants */
+     , (42884, 8, 2413) /* Gem */
+     , (42884, 8, 254) /* Stoup */
+     , (42884, 8, 49331) /* Frost Wisp Essence (50) */
+     , (42884, 8, 41487) /* Mechanical Scarab */
+     , (42884, 8, 2457) /* Health Draught */
+     , (42884, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (42884, 8, 28605) /* Beret */
+     , (42884, 8, 2602) /* Loose Breeches */
+     , (42884, 8, 624) /* Ring */
+     , (42884, 8, 2460) /* Mana Draught */
+     , (42884, 8, 121) /* Gloves */
+     , (42884, 8, 49303) /* Frost K'nath Essence (50) */
+     , (42884, 8, 49324) /* Fire Wisp Essence (50) */
+     , (42884, 8, 44850) /* Chevron Cloak */;
+

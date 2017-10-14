@@ -48,3 +48,45 @@ VALUES (34044, 2, 26) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (34044, 64, 820) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34044, 8, 331) /* Mace */
+     , (34044, 8, 142) /* Chalice */
+     , (34044, 8, 22156) /* Flaming Jo */
+     , (34044, 8, 94) /* Diamond Shield */
+     , (34044, 8, 163) /* Ornamental Bowl */
+     , (34044, 8, 31772) /* Flaming War Axe */
+     , (34044, 8, 44800) /* Dho Vest and Over-Robe */
+     , (34044, 8, 49341) /* Acid Moar Essence (125) */
+     , (34044, 8, 49485) /* Encapsulated Spirit */
+     , (34044, 8, 20502) /* Scroll of Jibril's Blessing */
+     , (34044, 8, 2409) /* Gem */
+     , (34044, 8, 29244) /* Slashing Bow */
+     , (34044, 8, 351) /* Long Sword */
+     , (34044, 8, 41041) /* Magari Yari */
+     , (34044, 8, 89) /* Studded Leather Pauldrons */
+     , (34044, 8, 621) /* Heavy Bracelet */
+     , (34044, 8, 332) /* Morning Star */
+     , (34044, 8, 20567) /* Scroll of Inefficient Investment */
+     , (34044, 8, 20861) /* Moons Stamp */
+     , (34044, 8, 31794) /* Lancet */
+     , (34044, 8, 294) /* Amulet */
+     , (34044, 8, 53) /* Studded Leather Cuirass */
+     , (34044, 8, 44803) /* Empyrean Over-robe */
+     , (34044, 8, 101) /* Chainmail Sleeves */
+     , (34044, 8, 45410) /* Frost Yaoji */
+     , (34044, 8, 27230) /* Nariyid Helm */
+     , (34044, 8, 121) /* Gloves */
+     , (34044, 8, 27227) /* Nariyid Breastplate */
+     , (34044, 8, 28630) /* Diforsa Cuirass */
+     , (34044, 8, 154) /* Goblet */
+     , (34044, 8, 20240) /* Scroll of Calming Gaze */
+     , (34044, 8, 31780) /* Acid Spine Glaive */
+     , (34044, 8, 20542) /* Scroll of Yoshi's Boon */
+     , (34044, 8, 48963) /* Fire Elemental Essence (100) */
+     , (34044, 8, 41059) /* Lightning Great Star Mace */
+     , (34044, 8, 2407) /* Gem */
+     , (34044, 8, 41049) /* Flaming Pike */
+     , (34044, 8, 134) /* Tunic */;
+

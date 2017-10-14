@@ -124,43 +124,43 @@ VALUES (649, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (649, 4, 35)
-     , (649, 4, 554)
-     , (649, 4, 413)
-     , (649, 4, 414)
-     , (649, 4, 55)
-     , (649, 4, 415)
-     , (649, 4, 2605)
-     , (649, 4, 108)
-     , (649, 4, 80)
-     , (649, 4, 416)
-     , (649, 4, 85)
-     , (649, 4, 8489)
-     , (649, 4, 8488)
-     , (649, 4, 75)
-     , (649, 4, 76)
-     , (649, 4, 40)
-     , (649, 4, 57)
-     , (649, 4, 61)
-     , (649, 4, 66)
-     , (649, 4, 110)
-     , (649, 4, 82)
-     , (649, 4, 114)
-     , (649, 4, 92)
-     , (649, 4, 95)
-     , (649, 4, 2621)
-     , (649, 4, 2622)
-     , (649, 4, 2623)
-     , (649, 4, 2624)
-     , (649, 4, 2625)
-     , (649, 4, 2626)
-     , (649, 4, 2627)
-     , (649, 4, 20628)
-     , (649, 4, 20629)
-     , (649, 4, 20630);
+VALUES (649, 4, 35) /* Chainmail Basinet */
+     , (649, 4, 554) /* Studded Leather Basinet */
+     , (649, 4, 413) /* Chainmail Bracers */
+     , (649, 4, 414) /* Chainmail Breastplate */
+     , (649, 4, 55) /* Chainmail Gauntlets */
+     , (649, 4, 415) /* Chainmail Girth */
+     , (649, 4, 2605) /* Chainmail Greaves */
+     , (649, 4, 108) /* Chainmail Tassets */
+     , (649, 4, 80) /* Chainmail Leggings */
+     , (649, 4, 416) /* Chainmail Pauldrons */
+     , (649, 4, 85) /* Chainmail Coif */
+     , (649, 4, 8489) /* Heaume */
+     , (649, 4, 8488) /* Armet */
+     , (649, 4, 75) /* Helmet */
+     , (649, 4, 76) /* Qafiya */
+     , (649, 4, 40) /* Platemail Breastplate */
+     , (649, 4, 57) /* Platemail Gauntlets */
+     , (649, 4, 61) /* Platemail Girth */
+     , (649, 4, 66) /* Platemail Greaves */
+     , (649, 4, 110) /* Platemail Tassets */
+     , (649, 4, 82) /* Platemail Leggings */
+     , (649, 4, 114) /* Platemail Vambraces */
+     , (649, 4, 92) /* Large Kite Shield */
+     , (649, 4, 95) /* Tower Shield */
+     , (649, 4, 2621) /* Trade Note (100) */
+     , (649, 4, 2622) /* Trade Note (500) */
+     , (649, 4, 2623) /* Trade Note (1,000) */
+     , (649, 4, 2624) /* Trade Note (5,000) */
+     , (649, 4, 2625) /* Trade Note (10,000) */
+     , (649, 4, 2626) /* Trade Note (50,000) */
+     , (649, 4, 2627) /* Trade Note (100,000) */
+     , (649, 4, 20628) /* Trade Note (150,000) */
+     , (649, 4, 20629) /* Trade Note (200,000) */
+     , (649, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (649, 2, 303);
+VALUES (649, 2, 303) /* Hand Axe */;
 

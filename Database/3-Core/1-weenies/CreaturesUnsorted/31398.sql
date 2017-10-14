@@ -50,3 +50,15 @@ VALUES (31398, 2, 44) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (31398, 64, 1310) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31398, 8, 2409) /* Gem */
+     , (31398, 8, 25643) /* Leather Girth */
+     , (31398, 8, 45298) /* Scroll of Recklessness Mastery Other VII */
+     , (31398, 8, 98) /* Scalemail Shirt */
+     , (31398, 8, 30823) /* Broken Black Marrow Key */
+     , (31398, 8, 149) /* Ewer */
+     , (31398, 8, 2410) /* Gem */
+     , (31398, 8, 6003) /* Koujia Breastplate */;
+

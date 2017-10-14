@@ -118,39 +118,39 @@ VALUES (45485, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (45485, 4, 45436)
-     , (45485, 4, 45437)
-     , (45485, 4, 45438)
-     , (45485, 4, 45439)
-     , (45485, 4, 45440)
-     , (45485, 4, 45441)
-     , (45485, 4, 45442)
-     , (45485, 4, 45443)
-     , (45485, 4, 45444)
-     , (45485, 4, 45445)
-     , (45485, 4, 45446)
-     , (45485, 4, 45447)
-     , (45485, 4, 45448)
-     , (45485, 4, 45449)
-     , (45485, 4, 45450)
-     , (45485, 4, 45451)
-     , (45485, 4, 45452)
-     , (45485, 4, 45453)
-     , (45485, 4, 45454)
-     , (45485, 4, 45455)
-     , (45485, 4, 45456)
-     , (45485, 4, 45457)
-     , (45485, 4, 45458)
-     , (45485, 4, 45459)
-     , (45485, 4, 45460)
-     , (45485, 4, 45461)
-     , (45485, 4, 45462)
-     , (45485, 4, 45463)
-     , (45485, 4, 45464)
-     , (45485, 4, 45465)
-     , (45485, 4, 45466)
-     , (45485, 4, 45467)
-     , (45485, 4, 45468)
-     , (45485, 4, 45469)
-     , (45485, 4, 45470);
+VALUES (45485, 4, 45436) /* Bearded Axe of Souia-Vey */
+     , (45485, 4, 45437) /* Canfield Cleaver */
+     , (45485, 4, 45438) /* Count Renari's Equalizer */
+     , (45485, 4, 45439) /* Smite */
+     , (45485, 4, 45440) /* Tusked Axe of Ayan Baqur */
+     , (45485, 4, 45441) /* Black Thistle */
+     , (45485, 4, 45442) /* Moriharu's Kitchen Knife */
+     , (45485, 4, 45443) /* Pitfighter's Edge */
+     , (45485, 4, 45444) /* Ridgeback Dagger */
+     , (45485, 4, 45445) /* Zharalim Crookblade */
+     , (45485, 4, 45446) /* Baton of Tirethas */
+     , (45485, 4, 45447) /* Dripping Death */
+     , (45485, 4, 45448) /* Star of Tukal */
+     , (45485, 4, 45449) /* Subjugator */
+     , (45485, 4, 45450) /* Thunderhead */
+     , (45485, 4, 45451) /* Champion's Demise */
+     , (45485, 4, 45452) /* Pillar of Fearlessness */
+     , (45485, 4, 45453) /* Squire's Glaive */
+     , (45485, 4, 45454) /* Star of Gharu'n */
+     , (45485, 4, 45455) /* Tri-Blade Spear */
+     , (45485, 4, 45456) /* Staff of All Aspects */
+     , (45485, 4, 45457) /* Death's Grip Staff */
+     , (45485, 4, 45458) /* Staff of Fettered Souls */
+     , (45485, 4, 45459) /* Spirit Shifting Staff */
+     , (45485, 4, 45460) /* Staff of Tendrils */
+     , (45485, 4, 45461) /* Brador's Frozen Eye */
+     , (45485, 4, 45462) /* Defiler of Milantos */
+     , (45485, 4, 45463) /* Desert Wyrm */
+     , (45485, 4, 45464) /* Guardian of Pwyll */
+     , (45485, 4, 45465) /* Morrigan's Vanity */
+     , (45485, 4, 45466) /* Fist of Three Principles */
+     , (45485, 4, 45467) /* Hevelio's Half-Moon */
+     , (45485, 4, 45468) /* Malachite Slasher */
+     , (45485, 4, 45469) /* Skullpuncher */
+     , (45485, 4, 45470) /* Steel Butterfly */;
 

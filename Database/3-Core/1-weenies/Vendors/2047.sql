@@ -126,9 +126,9 @@ VALUES (2047, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2047, 4, 137)
-     , (2047, 4, 258)
-     , (2047, 4, 1447)
-     , (2047, 4, 2193)
-     , (2047, 4, 2327);
+VALUES (2047, 4, 137) /* Basket */
+     , (2047, 4, 258) /* Apple */
+     , (2047, 4, 1447) /* Tart Apple */
+     , (2047, 4, 2193) /* Trothyr's Rest Key */
+     , (2047, 4, 2327) /* Trothyr's Rest Rumor */;
 

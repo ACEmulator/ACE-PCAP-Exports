@@ -45,3 +45,22 @@ VALUES (32593, 2, 82) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (32593, 64, 448) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32593, 8, 2409) /* Gem */
+     , (32593, 8, 49485) /* Encapsulated Spirit */
+     , (32593, 8, 154) /* Goblet */
+     , (32593, 8, 41484) /* Goggles */
+     , (32593, 8, 2402) /* Gem */
+     , (32593, 8, 163) /* Ornamental Bowl */
+     , (32593, 8, 31867) /* Diadem */
+     , (32593, 8, 2597) /* Flared Pants */
+     , (32593, 8, 297) /* Ring */
+     , (32593, 8, 44853) /* Bordered Cloak */
+     , (32593, 8, 2423) /* Gem */
+     , (32593, 8, 621) /* Heavy Bracelet */
+     , (32593, 8, 2411) /* Gem */
+     , (32593, 8, 149) /* Ewer */
+     , (32593, 8, 41486) /* Puzzle Box */;
+

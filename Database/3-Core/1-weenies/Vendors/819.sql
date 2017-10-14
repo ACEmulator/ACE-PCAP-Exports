@@ -126,22 +126,22 @@ VALUES (819, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (819, 4, 364)
-     , (819, 4, 365)
-     , (819, 4, 367)
-     , (819, 4, 9118)
-     , (819, 4, 9124)
-     , (819, 4, 9319)
-     , (819, 4, 1494)
-     , (819, 4, 24338)
-     , (819, 4, 5602)
-     , (819, 4, 6419)
-     , (819, 4, 27851)
-     , (819, 4, 5585)
-     , (819, 4, 5856)
-     , (819, 4, 7884)
-     , (819, 4, 14797)
-     , (819, 4, 5586)
-     , (819, 4, 24855)
-     , (819, 4, 5587);
+VALUES (819, 4, 364) /* Book */
+     , (819, 4, 365) /* Parchment */
+     , (819, 4, 367) /* Tome */
+     , (819, 4, 9118) /* Puppet Show */
+     , (819, 4, 9124) /* The Beginning */
+     , (819, 4, 9319) /* Mnemosynes and the Art of Lockpicking */
+     , (819, 4, 1494) /* Yanshi Ruin Directions */
+     , (819, 4, 24338) /* Blackmire Swamp Temple */
+     , (819, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (819, 4, 6419) /* The Meeting Halls */
+     , (819, 4, 27851) /* The Weapons of the Singularity */
+     , (819, 4, 5585) /* Sho Cookbook */
+     , (819, 4, 5856) /* Specialty Cookbook */
+     , (819, 4, 7884) /* Chocolate Cookbook */
+     , (819, 4, 14797) /* Festival Cookbook */
+     , (819, 4, 5586) /* Alchemy Guide */
+     , (819, 4, 24855) /* The New Alchemy */
+     , (819, 4, 5587) /* Fletching Guide */;
 

@@ -65,3 +65,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (14435, 2, 0) /* OPEN_BOOL */
      , (14435, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14435, 8, 14425) /* Folded Guard's Uniform */
+     , (14435, 8, 14446) /* A Folded Note */;
+

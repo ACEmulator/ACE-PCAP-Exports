@@ -48,3 +48,35 @@ VALUES (7992, 2, 46) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7992, 64, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7992, 8, 297) /* Ring */
+     , (7992, 8, 2600) /* Pantaloons */
+     , (7992, 8, 3733) /* Scroll of Infuse Health IV */
+     , (7992, 8, 45113) /* Hammer */
+     , (7992, 8, 2413) /* Gem */
+     , (7992, 8, 38) /* Studded Leather Bracers */
+     , (7992, 8, 49254) /* Frost Zombie Essence (50) */
+     , (7992, 8, 2548) /* Sceptre */
+     , (7992, 8, 133) /* Slippers */
+     , (7992, 8, 629) /* Adept Healing Kit */
+     , (7992, 8, 254) /* Stoup */
+     , (7992, 8, 41069) /* Lightning Shashqa */
+     , (7992, 8, 273) /* Pyreal */
+     , (7992, 8, 2419) /* Gem */
+     , (7992, 8, 2595) /* Baggy Tunic */
+     , (7992, 8, 20326) /* Scroll of Cleanse Creature Magic Self */
+     , (7992, 8, 295) /* Bracelet */
+     , (7992, 8, 118) /* Cloth Cap */
+     , (7992, 8, 8328) /* Iron Pea */
+     , (7992, 8, 49485) /* Encapsulated Spirit */
+     , (7992, 8, 7897) /* Steel Toed Boots */
+     , (7992, 8, 27319) /* Health Tincture */
+     , (7992, 8, 69) /* Yoroi Greaves */
+     , (7992, 8, 150) /* Flagon */
+     , (7992, 8, 45271) /* Scroll of Dual Wield Mastery Other IV */
+     , (7992, 8, 5976) /* Scroll of Fletching Mastery Self III */
+     , (7992, 8, 31764) /* Lugian Hammer */
+     , (7992, 8, 3059) /* Scroll of Lightning Vulnerability Other III */;
+

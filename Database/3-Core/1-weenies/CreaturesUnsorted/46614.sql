@@ -74,3 +74,23 @@ VALUES (46614, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46614, 64, 5250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46614, 8, 22168) /* Hefty Walking Cane */
+     , (46614, 8, 49233) /* Frigid Zombie Essence */
+     , (46614, 8, 116) /* Studded Leather Boots */
+     , (46614, 8, 27215) /* Chiran Coat */
+     , (46614, 8, 2407) /* Gem */
+     , (46614, 8, 336) /* Ono */
+     , (46614, 8, 28610) /* Loafers */
+     , (46614, 8, 107) /* Sollerets */
+     , (46614, 8, 49379) /* Excited Grievver Essence */
+     , (46614, 8, 45428) /* Lightning Jambiya */
+     , (46614, 8, 163) /* Ornamental Bowl */
+     , (46614, 8, 2367) /* Gorget */
+     , (46614, 8, 351) /* Long Sword */
+     , (46614, 8, 49316) /* Corrosion Wisp Essence */
+     , (46614, 8, 46) /* Metal Cap */
+     , (46614, 8, 348) /* Spear */;
+

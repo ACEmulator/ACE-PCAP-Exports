@@ -41,3 +41,29 @@ VALUES (31915, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31915, 67116782, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31915, 8, 42637) /* Aetheria */
+     , (31915, 8, 243) /* Dinner Plate */
+     , (31915, 8, 356) /* Tofun */
+     , (31915, 8, 20427) /* Aura of Mystic's Blessing */
+     , (31915, 8, 2587) /* Shirt */
+     , (31915, 8, 359) /* War Hammer */
+     , (31915, 8, 22444) /* Frost Dirk */
+     , (31915, 8, 31817) /* Frost Slingshot */
+     , (31915, 8, 142) /* Chalice */
+     , (31915, 8, 32274) /* Moarsmuck */
+     , (31915, 8, 21155) /* Covenant Greaves */
+     , (31915, 8, 416) /* Chainmail Pauldrons */
+     , (31915, 8, 25651) /* Leather Sleeves */
+     , (31915, 8, 49300) /* Fire K'nath Essence (150) */
+     , (31915, 8, 2367) /* Gorget */
+     , (31915, 8, 29252) /* Acid Atlatl */
+     , (31915, 8, 27220) /* Lorica Boots */
+     , (31915, 8, 49532) /* Fire Phyntos Wasp Essence (80) */
+     , (31915, 8, 91) /* Kite Shield */
+     , (31915, 8, 41063) /* Acid Khanda-handled Mace */
+     , (31915, 8, 163) /* Ornamental Bowl */
+     , (31915, 8, 2410) /* Gem */;
+

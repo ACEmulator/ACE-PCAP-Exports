@@ -113,60 +113,60 @@ VALUES (30014, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30014, 4, 15270)
-     , (30014, 4, 4389)
-     , (30014, 4, 4394)
-     , (30014, 4, 2668)
-     , (30014, 4, 2691)
-     , (30014, 4, 2696)
-     , (30014, 4, 2701)
-     , (30014, 4, 2706)
-     , (30014, 4, 2711)
-     , (30014, 4, 2726)
-     , (30014, 4, 2731)
-     , (30014, 4, 2977)
-     , (30014, 4, 2982)
-     , (30014, 4, 2987)
-     , (30014, 4, 2992)
-     , (30014, 4, 2997)
-     , (30014, 4, 3002)
-     , (30014, 4, 3007)
-     , (30014, 4, 3012)
-     , (30014, 4, 3017)
-     , (30014, 4, 3022)
-     , (30014, 4, 3027)
-     , (30014, 4, 3032)
-     , (30014, 4, 3037)
-     , (30014, 4, 3042)
-     , (30014, 4, 3047)
-     , (30014, 4, 3052)
-     , (30014, 4, 3057)
-     , (30014, 4, 3062)
-     , (30014, 4, 3067)
-     , (30014, 4, 3072)
-     , (30014, 4, 3077)
-     , (30014, 4, 3082)
-     , (30014, 4, 3087)
-     , (30014, 4, 3097)
-     , (30014, 4, 3102)
-     , (30014, 4, 3107)
-     , (30014, 4, 3112)
-     , (30014, 4, 3117)
-     , (30014, 4, 3122)
-     , (30014, 4, 3127)
-     , (30014, 4, 4221)
-     , (30014, 4, 9665)
-     , (30014, 4, 3730)
-     , (30014, 4, 9634)
-     , (30014, 4, 9639)
-     , (30014, 4, 3735)
-     , (30014, 4, 3740)
-     , (30014, 4, 3745)
-     , (30014, 4, 9644)
-     , (30014, 4, 9649)
-     , (30014, 4, 9654)
-     , (30014, 4, 9659)
-     , (30014, 4, 21107)
-     , (30014, 4, 21114)
-     , (30014, 4, 21100);
+VALUES (30014, 4, 15270) /* Foci of Verdancy */
+     , (30014, 4, 4389) /* Scroll of Armor Other VI */
+     , (30014, 4, 4394) /* Scroll of Armor Self VI */
+     , (30014, 4, 2668) /* Scroll of Enfeeble Other VI */
+     , (30014, 4, 2691) /* Scroll of Harm Other VI */
+     , (30014, 4, 2696) /* Scroll of Heal Other VI */
+     , (30014, 4, 2701) /* Scroll of Heal Self VI */
+     , (30014, 4, 2706) /* Scroll of Imperil Other VI */
+     , (30014, 4, 2711) /* Scroll of Mana Drain Other VI */
+     , (30014, 4, 2726) /* Scroll of Revitalize Other VI */
+     , (30014, 4, 2731) /* Scroll of Revitalize Self VI */
+     , (30014, 4, 2977) /* Scroll of Acid Protection Other VI */
+     , (30014, 4, 2982) /* Scroll of Acid Protection Self VI */
+     , (30014, 4, 2987) /* Scroll of Acid Vulnerability Other VI */
+     , (30014, 4, 2992) /* Scroll of Blade Protection Other VI */
+     , (30014, 4, 2997) /* Scroll of Blade Protection Self VI */
+     , (30014, 4, 3002) /* Scroll of Blade Vulnerability Other VI */
+     , (30014, 4, 3007) /* Scroll of Bludgeon Protection Other VI */
+     , (30014, 4, 3012) /* Scroll of Bludgeon Protection Self VI */
+     , (30014, 4, 3017) /* Scroll of Bludgeoning Vulnerability Other VI */
+     , (30014, 4, 3022) /* Scroll of Cold Protection Other VI */
+     , (30014, 4, 3027) /* Scroll of Cold Protection Self VI */
+     , (30014, 4, 3032) /* Scroll of Cold Vulnerability Other VI */
+     , (30014, 4, 3037) /* Scroll of Fire Protection Other VI */
+     , (30014, 4, 3042) /* Scroll of Fire Protection Self VI */
+     , (30014, 4, 3047) /* Scroll of Fire Vulnerability Other VI */
+     , (30014, 4, 3052) /* Scroll of Lightning Protection Other VI */
+     , (30014, 4, 3057) /* Scroll of Lightning Protection Self VI */
+     , (30014, 4, 3062) /* Scroll of Lightning Vulnerability Other VI */
+     , (30014, 4, 3067) /* Scroll of Piercing Protection Other VI */
+     , (30014, 4, 3072) /* Scroll of Piercing Protection Self VI */
+     , (30014, 4, 3077) /* Scroll of Piercing Vulnerability Other VI */
+     , (30014, 4, 3082) /* Scroll of Exhaustion Other VI */
+     , (30014, 4, 3087) /* Scroll of Fester Other VI */
+     , (30014, 4, 3097) /* Scroll of Mana Depletion Other VI */
+     , (30014, 4, 3102) /* Scroll of Mana Renewal Other VI */
+     , (30014, 4, 3107) /* Scroll of Mana Renewal Self VI */
+     , (30014, 4, 3112) /* Scroll of Regenerate Other VI */
+     , (30014, 4, 3117) /* Scroll of Regenerate Self VI */
+     , (30014, 4, 3122) /* Scroll of Rejuvenate Other VI */
+     , (30014, 4, 3127) /* Scroll of Rejuvenate Self VI */
+     , (30014, 4, 4221) /* Scroll of Drain Health Other VI */
+     , (30014, 4, 9665) /* Scroll of Drain Mana Other VI */
+     , (30014, 4, 3730) /* Scroll of Drain Stamina Other VI */
+     , (30014, 4, 9634) /* Scroll of Health to Mana Self VI */
+     , (30014, 4, 9639) /* Scroll of Health to Stamina Self VI */
+     , (30014, 4, 3735) /* Scroll of Infuse Health VI */
+     , (30014, 4, 3740) /* Scroll of Infuse Mana VI */
+     , (30014, 4, 3745) /* Scroll of Infuse Stamina VI */
+     , (30014, 4, 9644) /* Scroll of Mana to Health Self VI */
+     , (30014, 4, 9649) /* Scroll of Mana to Stamina Self VI */
+     , (30014, 4, 9654) /* Scroll of Stamina to Health Self VI */
+     , (30014, 4, 9659) /* Scroll of Stamina to Mana Self VI */
+     , (30014, 4, 21107) /* Scroll of Martyr's Blight VI */
+     , (30014, 4, 21114) /* Scroll of Martyr's Tenacity VI */
+     , (30014, 4, 21100) /* Scroll of Martyr's Hecatomb VI */;
 

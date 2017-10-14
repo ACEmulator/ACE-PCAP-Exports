@@ -78,3 +78,26 @@ VALUES (28054, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28054, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28054, 8, 21151) /* Covenant Bracers */
+     , (28054, 8, 45423) /* Lightning Dagger */
+     , (28054, 8, 311) /* Heavy Crossbow */
+     , (28054, 8, 25649) /* Leather Shirt */
+     , (28054, 8, 49255) /* Frost Zombie Essence (80) */
+     , (28054, 8, 2588) /* Flared Shirt */
+     , (28054, 8, 3937) /* Flaming Morning Star */
+     , (28054, 8, 27236) /* Scroll of Eradicate Life Magic Other */
+     , (28054, 8, 8327) /* Gold Pea */
+     , (28054, 8, 28057) /* Ornate Ashen Key */
+     , (28054, 8, 29263) /* Frost Sceptre */
+     , (28054, 8, 20255) /* Scroll of Senescence */
+     , (28054, 8, 49359) /* Frost Moar Essence (50) */
+     , (28054, 8, 514) /* Excellent Lockpick */
+     , (28054, 8, 108) /* Chainmail Tassets */
+     , (28054, 8, 31868) /* Signet Crown */
+     , (28054, 8, 631) /* Excellent Healing Kit */
+     , (28054, 8, 414) /* Chainmail Breastplate */
+     , (28054, 8, 25661) /* Leather Boots */;
+

@@ -48,3 +48,51 @@ VALUES (40775, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40775, 64, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40775, 8, 7897) /* Steel Toed Boots */
+     , (40775, 8, 9229) /* Treated Healing Kit */
+     , (40775, 8, 516) /* Peerless Lockpick */
+     , (40775, 8, 27328) /* Major Mana Stone */
+     , (40775, 8, 20556) /* Scroll of Oswald's Boon */
+     , (40775, 8, 27318) /* Health Philtre */
+     , (40775, 8, 40635) /* Tetsubo */
+     , (40775, 8, 2436) /* Greater Mana Stone */
+     , (40775, 8, 2412) /* Gem */
+     , (40775, 8, 27327) /* Stamina Tonic */
+     , (40775, 8, 37361) /* Ink of Direction */
+     , (40775, 8, 2411) /* Gem */
+     , (40775, 8, 515) /* Superb Lockpick */
+     , (40775, 8, 273) /* Pyreal */
+     , (40775, 8, 163) /* Ornamental Bowl */
+     , (40775, 8, 20233) /* Scroll of Ataxia */
+     , (40775, 8, 20515) /* Scroll of Adja's Blessing */
+     , (40775, 8, 37363) /* Quill of Infliction */
+     , (40775, 8, 20594) /* Scroll of Wrath of the Hieromancer */
+     , (40775, 8, 28624) /* Tenassa Sleeves */
+     , (40775, 8, 28610) /* Loafers */
+     , (40775, 8, 37333) /* Glyph of Stamina */
+     , (40775, 8, 2592) /* Puffy Tunic */
+     , (40775, 8, 43380) /* Glyph of Void Magic */
+     , (40775, 8, 22154) /* Acid Jo */
+     , (40775, 8, 632) /* Peerless Healing Kit */
+     , (40775, 8, 3765) /* Frost Budiaq */
+     , (40775, 8, 21150) /* Covenant Sollerets */
+     , (40775, 8, 41483) /* Compass */
+     , (40775, 8, 28607) /* Lace Shirt */
+     , (40775, 8, 2408) /* Gem */
+     , (40775, 8, 42754) /* Haebrean Pauldrons */
+     , (40775, 8, 294) /* Amulet */
+     , (40775, 8, 621) /* Heavy Bracelet */
+     , (40775, 8, 37342) /* Glyph of Corrosion */
+     , (40775, 8, 37360) /* Ink of Conveyance */
+     , (40775, 8, 149) /* Ewer */
+     , (40775, 8, 154) /* Goblet */
+     , (40775, 8, 27321) /* Mana Philtre */
+     , (40775, 8, 37364) /* Quill of Introspection */
+     , (40775, 8, 20508) /* Scroll of Missile Weapon Mastery Other VII */
+     , (40775, 8, 2425) /* Gem */
+     , (40775, 8, 45108) /* Schlager */
+     , (40775, 8, 27325) /* Stamina Philtre */;
+

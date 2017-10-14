@@ -53,3 +53,47 @@ VALUES (229, 2, 6) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (229, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (229, 8, 127) /* Pants */
+     , (229, 8, 31760) /* Acid Dericost Blade */
+     , (229, 8, 135) /* Turban */
+     , (229, 8, 2366) /* Orb */
+     , (229, 8, 25661) /* Leather Boots */
+     , (229, 8, 25642) /* Leather Gauntlets */
+     , (229, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (229, 8, 552) /* Scale Mail Basinet */
+     , (229, 8, 350) /* Broad Sword */
+     , (229, 8, 20320) /* Scroll of Cleanse Creature Magic Other */
+     , (229, 8, 296) /* Crown */
+     , (229, 8, 2435) /* Mana Stone */
+     , (229, 8, 3455) /* Scroll of Person Attunement Self IV */
+     , (229, 8, 5970) /* Scroll of Fletching Mastery Other III */
+     , (229, 8, 297) /* Ring */
+     , (229, 8, 3890) /* Lightning Tachi */
+     , (229, 8, 3245) /* Scroll of Deception Mastery Self IV */
+     , (229, 8, 415) /* Chainmail Girth */
+     , (229, 8, 7940) /* Empty Flask */
+     , (229, 8, 311) /* Heavy Crossbow */
+     , (229, 8, 243) /* Dinner Plate */
+     , (229, 8, 31781) /* Electric Spine Glaive */
+     , (229, 8, 49338) /* Acid Moar Essence (50) */
+     , (229, 8, 105) /* Studded Leather Sleeves */
+     , (229, 8, 306) /* Longbow */
+     , (229, 8, 30746) /* Dart Flinger */
+     , (229, 8, 413) /* Chainmail Bracers */
+     , (229, 8, 324) /* Kaskara */
+     , (229, 8, 31794) /* Lancet */
+     , (229, 8, 2810) /* Aura of Defender Self V */
+     , (229, 8, 22155) /* Lightning Jo */
+     , (229, 8, 3695) /* Gold Tumerok Insignia */
+     , (229, 8, 21327) /* Scroll of Lightning Arc V */
+     , (229, 8, 40635) /* Tetsubo */
+     , (229, 8, 25640) /* Leather Cowl */
+     , (229, 8, 273) /* Pyreal */
+     , (229, 8, 63) /* Studded Leather Girth */
+     , (229, 8, 28606) /* Viamontian Pants */
+     , (229, 8, 2472) /* Wand */
+     , (229, 8, 3811) /* Lightning Kaskara */;
+

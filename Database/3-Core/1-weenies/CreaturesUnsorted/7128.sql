@@ -48,3 +48,18 @@ VALUES (7128, 2, 29) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7128, 64, 90) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7128, 8, 3435) /* Scroll of Mana Mastery Self IV */
+     , (7128, 8, 2434) /* Lesser Mana Stone */
+     , (7128, 8, 273) /* Pyreal */
+     , (7128, 8, 622) /* Necklace */
+     , (7128, 8, 168) /* Tankard */
+     , (7128, 8, 8328) /* Iron Pea */
+     , (7128, 8, 2824) /* Scroll of Frost Bane IV */
+     , (7128, 8, 21105) /* Scroll of Martyr's Blight IV */
+     , (7128, 8, 8329) /* Lead Pea */
+     , (7128, 8, 108) /* Chainmail Tassets */
+     , (7128, 8, 2435) /* Mana Stone */;
+

@@ -128,15 +128,15 @@ VALUES (5832, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5832, 4, 2453)
-     , (5832, 4, 2462)
-     , (5832, 4, 2463)
-     , (5832, 4, 4746)
-     , (5832, 4, 2471)
-     , (5832, 4, 8378)
-     , (5832, 4, 4713)
-     , (5832, 4, 4741)
-     , (5832, 4, 4725)
-     , (5832, 4, 259)
-     , (5832, 4, 22765);
+VALUES (5832, 4, 2453) /* Cider */
+     , (5832, 4, 2462) /* Mead */
+     , (5832, 4, 2463) /* Milk */
+     , (5832, 4, 4746) /* Water */
+     , (5832, 4, 2471) /* Stout */
+     , (5832, 4, 8378) /* Beer Stein */
+     , (5832, 4, 4713) /* Beef Stew */
+     , (5832, 4, 4741) /* Pizza */
+     , (5832, 4, 4725) /* Fish Pie */
+     , (5832, 4, 259) /* Bread */
+     , (5832, 4, 22765) /* The Empyrean Temples */;
 

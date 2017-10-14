@@ -52,3 +52,11 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3990, 2, 0) /* OPEN_BOOL */
      , (3990, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3990, 8, 21150) /* Covenant Sollerets */
+     , (3990, 8, 2765) /* Scroll of Acid Bane V */
+     , (3990, 8, 49303) /* Frost K'nath Essence (50) */
+     , (3990, 8, 25637) /* Leather Bracers */;
+

@@ -41,3 +41,12 @@ VALUES (40784, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40784, 64, 3120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40784, 8, 41039) /* Flaming Assagai */
+     , (40784, 8, 2424) /* Gem */
+     , (40784, 8, 30561) /* Dolabra */
+     , (40784, 8, 40796) /* Progenitor Crystal */
+     , (40784, 8, 40100) /* Crystalline Shard */;
+

@@ -62,3 +62,41 @@ VALUES (7086, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7086, 64, 438) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7086, 8, 21328) /* Scroll of Lightning Arc VI */
+     , (7086, 8, 514) /* Excellent Lockpick */
+     , (7086, 8, 31779) /* Spine Glaive */
+     , (7086, 8, 6876) /* Sturdy Iron Key */
+     , (7086, 8, 414) /* Chainmail Breastplate */
+     , (7086, 8, 6003) /* Koujia Breastplate */
+     , (7086, 8, 515) /* Superb Lockpick */
+     , (7086, 8, 95) /* Tower Shield */
+     , (7086, 8, 31026) /* Tenassa Breastplate */
+     , (7086, 8, 40624) /* Acid Quadrelle */
+     , (7086, 8, 163) /* Ornamental Bowl */
+     , (7086, 8, 8326) /* Copper Pea */
+     , (7086, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (7086, 8, 40709) /* Covenant Girth */
+     , (7086, 8, 7825) /* Brown Beans */
+     , (7086, 8, 45105) /* Lightning Rapier */
+     , (7086, 8, 312) /* Light Crossbow */
+     , (7086, 8, 512) /* Good Lockpick */
+     , (7086, 8, 25641) /* Leather Cuirass */
+     , (7086, 8, 31866) /* Coronet */
+     , (7086, 8, 30194) /* Elysa's Crystal */
+     , (7086, 8, 28609) /* Vest */
+     , (7086, 8, 27330) /* Moderate Mana Stone */
+     , (7086, 8, 22163) /* Nabut */
+     , (7086, 8, 45289) /* Scroll of Recklessness Ineptitude Other VI */
+     , (7086, 8, 28611) /* Viamontian Laced Boots */
+     , (7086, 8, 2425) /* Gem */
+     , (7086, 8, 21322) /* Scroll of Frost Arc VII */
+     , (7086, 8, 31791) /* Flaming Stick */
+     , (7086, 8, 273) /* Pyreal */
+     , (7086, 8, 49435) /* Fire Spectre Essence (50) */
+     , (7086, 8, 44802) /* Vestiri Over-robe */
+     , (7086, 8, 49254) /* Frost Zombie Essence (50) */
+     , (7086, 8, 2398) /* Gem */;
+

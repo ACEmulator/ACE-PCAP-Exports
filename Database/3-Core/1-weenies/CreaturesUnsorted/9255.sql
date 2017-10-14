@@ -81,3 +81,21 @@ VALUES (9255, 0, 16777294)
      , (9255, 15, 16777307)
      , (9255, 16, 16781779);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9255, 8, 3162) /* Scroll of Light Weapon Ineptitude Other VI */
+     , (9255, 8, 7796) /* Fire Naginata */
+     , (9255, 8, 2436) /* Greater Mana Stone */
+     , (9255, 8, 2472) /* Wand */
+     , (9255, 8, 8331) /* Silver Pea */
+     , (9255, 8, 6004) /* Koujia Leggings */
+     , (9255, 8, 27330) /* Moderate Mana Stone */
+     , (9255, 8, 31866) /* Coronet */
+     , (9255, 8, 312) /* Light Crossbow */
+     , (9255, 8, 8326) /* Copper Pea */
+     , (9255, 8, 273) /* Pyreal */
+     , (9255, 8, 2548) /* Sceptre */
+     , (9255, 8, 621) /* Heavy Bracelet */
+     , (9255, 8, 2604) /* Wide Breeches */;
+

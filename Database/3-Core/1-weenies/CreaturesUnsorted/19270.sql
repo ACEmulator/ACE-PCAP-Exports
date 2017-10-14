@@ -49,3 +49,21 @@ VALUES (19270, 2, 63) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (19270, 64, 620) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19270, 8, 49387) /* Frost Grievver Essence (50) */
+     , (19270, 8, 273) /* Pyreal */
+     , (19270, 8, 2422) /* Gem */
+     , (19270, 8, 40636) /* Acid Tetsubo */
+     , (19270, 8, 99) /* Studded Leather Shirt */
+     , (19270, 8, 20585) /* Scroll of Heavy Weapon Mastery Other VII */
+     , (19270, 8, 42516) /* Coalesced Mana */
+     , (19270, 8, 45401) /* Simi */
+     , (19270, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (19270, 8, 324) /* Kaskara */
+     , (19270, 8, 31866) /* Coronet */
+     , (19270, 8, 44802) /* Vestiri Over-robe */
+     , (19270, 8, 35) /* Chainmail Basinet */
+     , (19270, 8, 40705) /* Covenant Sollerets */;
+

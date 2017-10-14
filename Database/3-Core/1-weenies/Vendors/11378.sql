@@ -71,35 +71,35 @@ VALUES (11378, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (11378, 4, 2623)
-     , (11378, 4, 2622)
-     , (11378, 4, 2621)
-     , (11378, 4, 4586)
-     , (11378, 4, 4585)
-     , (11378, 4, 5339)
-     , (11378, 4, 3599)
-     , (11378, 4, 3603)
-     , (11378, 4, 3601)
-     , (11378, 4, 3605)
-     , (11378, 4, 3598)
-     , (11378, 4, 3602)
-     , (11378, 4, 9359)
-     , (11378, 4, 9363)
-     , (11378, 4, 9362)
-     , (11378, 4, 9361)
-     , (11378, 4, 9366)
-     , (11378, 4, 9377)
-     , (11378, 4, 9378)
-     , (11378, 4, 23858)
-     , (11378, 4, 23857)
-     , (11378, 4, 12463)
-     , (11378, 4, 12464)
-     , (11378, 4, 15296)
-     , (11378, 4, 15298)
-     , (11378, 4, 305)
-     , (11378, 4, 300)
-     , (11378, 4, 311)
-     , (11378, 4, 44074)
-     , (11378, 4, 44070)
-     , (11378, 4, 44071);
+VALUES (11378, 4, 2623) /* Trade Note (1,000) */
+     , (11378, 4, 2622) /* Trade Note (500) */
+     , (11378, 4, 2621) /* Trade Note (100) */
+     , (11378, 4, 4586) /* Bundle of Arrowheads */
+     , (11378, 4, 4585) /* Bundle of Arrowshafts */
+     , (11378, 4, 5339) /* Bundle of Quarrelshafts */
+     , (11378, 4, 3599) /* Blunt Arrow */
+     , (11378, 4, 3603) /* Blunt Quarrel */
+     , (11378, 4, 3601) /* Frog Crotch Arrow */
+     , (11378, 4, 3605) /* Frog Crotch Quarrel */
+     , (11378, 4, 3598) /* Armor Piercing Arrow */
+     , (11378, 4, 3602) /* Armor Piercing Quarrel */
+     , (11378, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (11378, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (11378, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (11378, 4, 9361) /* Wrapped Bundle of Armor Piercing Arrowheads */
+     , (11378, 4, 9366) /* Wrapped Bundle of Frog Crotch Arrowheads */
+     , (11378, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (11378, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (11378, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (11378, 4, 23857) /* Bundle of Spiketails */
+     , (11378, 4, 12463) /* Atlatl */
+     , (11378, 4, 12464) /* Atlatl Dart */
+     , (11378, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (11378, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (11378, 4, 305) /* Quarrel */
+     , (11378, 4, 300) /* Arrow */
+     , (11378, 4, 311) /* Heavy Crossbow */
+     , (11378, 4, 44074) /* Invitation to Master Fletchers */
+     , (11378, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (11378, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 

@@ -112,42 +112,42 @@ VALUES (22723, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (22723, 4, 307)
-     , (22723, 4, 300)
-     , (22723, 4, 312)
-     , (22723, 4, 305)
-     , (22723, 4, 12463)
-     , (22723, 4, 12464)
-     , (22723, 4, 15296)
-     , (22723, 4, 15298)
-     , (22723, 4, 4586)
-     , (22723, 4, 4585)
-     , (22723, 4, 5339)
-     , (22723, 4, 5344)
-     , (22723, 4, 5345)
-     , (22723, 4, 9378)
-     , (22723, 4, 9377)
-     , (22723, 4, 9359)
-     , (22723, 4, 9362)
-     , (22723, 4, 9363)
-     , (22723, 4, 23858)
-     , (22723, 4, 23857)
-     , (22723, 4, 2621)
-     , (22723, 4, 2622)
-     , (22723, 4, 2623)
-     , (22723, 4, 304)
-     , (22723, 4, 3758)
-     , (22723, 4, 3759)
-     , (22723, 4, 3760)
-     , (22723, 4, 3761)
-     , (22723, 4, 310)
-     , (22723, 4, 320)
-     , (22723, 4, 316)
-     , (22723, 4, 3786)
-     , (22723, 4, 3787)
-     , (22723, 4, 3788)
-     , (22723, 4, 3789)
-     , (22723, 4, 44074)
-     , (22723, 4, 44070)
-     , (22723, 4, 44071);
+VALUES (22723, 4, 307) /* Shortbow */
+     , (22723, 4, 300) /* Arrow */
+     , (22723, 4, 312) /* Light Crossbow */
+     , (22723, 4, 305) /* Quarrel */
+     , (22723, 4, 12463) /* Atlatl */
+     , (22723, 4, 12464) /* Atlatl Dart */
+     , (22723, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (22723, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (22723, 4, 4586) /* Bundle of Arrowheads */
+     , (22723, 4, 4585) /* Bundle of Arrowshafts */
+     , (22723, 4, 5339) /* Bundle of Quarrelshafts */
+     , (22723, 4, 5344) /* Bundle of Blunt Arrowheads */
+     , (22723, 4, 5345) /* Bundle of Broad Arrowheads */
+     , (22723, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (22723, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (22723, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (22723, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (22723, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (22723, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (22723, 4, 23857) /* Bundle of Spiketails */
+     , (22723, 4, 2621) /* Trade Note (100) */
+     , (22723, 4, 2622) /* Trade Note (500) */
+     , (22723, 4, 2623) /* Trade Note (1,000) */
+     , (22723, 4, 304) /* Throwing Axe */
+     , (22723, 4, 3758) /* Acid Throwing Axe */
+     , (22723, 4, 3759) /* Lightning Throwing Axe */
+     , (22723, 4, 3760) /* Flaming Throwing Axe */
+     , (22723, 4, 3761) /* Frost Throwing Axe */
+     , (22723, 4, 310) /* Throwing Club */
+     , (22723, 4, 320) /* Javelin */
+     , (22723, 4, 316) /* Throwing Dart */
+     , (22723, 4, 3786) /* Throwing Acid Dart */
+     , (22723, 4, 3787) /* Throwing Lightning Dart */
+     , (22723, 4, 3788) /* Throwing Fire Dart */
+     , (22723, 4, 3789) /* Throwing Frost Dart */
+     , (22723, 4, 44074) /* Invitation to Master Fletchers */
+     , (22723, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (22723, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 

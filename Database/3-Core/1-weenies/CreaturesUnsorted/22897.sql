@@ -48,3 +48,10 @@ VALUES (22897, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22897, 64, 2000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22897, 8, 121) /* Gloves */
+     , (22897, 8, 7825) /* Brown Beans */
+     , (22897, 8, 150) /* Flagon */;
+

@@ -59,3 +59,9 @@ VALUES (52027, 64, 4355) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (52027, 128, 4410) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (52027, 256, 9450) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52027, 8, 295) /* Bracelet */
+     , (52027, 8, 273) /* Pyreal */;
+

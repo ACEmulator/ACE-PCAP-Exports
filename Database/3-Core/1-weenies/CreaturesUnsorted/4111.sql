@@ -55,3 +55,131 @@ VALUES (4111, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4111, 128, 260) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4111, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4111, 8, 68) /* Studded Leather Greaves */
+     , (4111, 8, 2419) /* Gem */
+     , (4111, 8, 25639) /* Leather Jerkin */
+     , (4111, 8, 297) /* Ring */
+     , (4111, 8, 30625) /* War Bow */
+     , (4111, 8, 28610) /* Loafers */
+     , (4111, 8, 127) /* Pants */
+     , (4111, 8, 295) /* Bracelet */
+     , (4111, 8, 1870) /* Scroll of Mana to Stamina Self */
+     , (4111, 8, 339) /* Scimitar */
+     , (4111, 8, 1767) /* Scroll of Bafflement Other */
+     , (4111, 8, 3818) /* Acid Katar */
+     , (4111, 8, 11689) /* Little Green Seeds */
+     , (4111, 8, 93) /* Round Shield */
+     , (4111, 8, 2414) /* Gem */
+     , (4111, 8, 91) /* Kite Shield */
+     , (4111, 8, 7897) /* Steel Toed Boots */
+     , (4111, 8, 3763) /* Lightning Budiaq */
+     , (4111, 8, 3008) /* Scroll of Bludgeon Protection Self II */
+     , (4111, 8, 148) /* Cup */
+     , (4111, 8, 42518) /* Coalesced Mana */
+     , (4111, 8, 2418) /* Gem */
+     , (4111, 8, 48) /* Studded Leather Coat */
+     , (4111, 8, 621) /* Heavy Bracelet */
+     , (4111, 8, 628) /* Handy Healing Kit */
+     , (4111, 8, 41038) /* Lightning Assagai */
+     , (4111, 8, 3524) /* Scroll of Heavy Weapon Mastery Self III */
+     , (4111, 8, 2415) /* Gem */
+     , (4111, 8, 2890) /* Scroll of Drain Health Other II */
+     , (4111, 8, 132) /* Shoes */
+     , (4111, 8, 133) /* Slippers */
+     , (4111, 8, 41483) /* Compass */
+     , (4111, 8, 25644) /* Leather Greaves */
+     , (4111, 8, 49303) /* Frost K'nath Essence (50) */
+     , (4111, 8, 154) /* Goblet */
+     , (4111, 8, 45423) /* Lightning Dagger */
+     , (4111, 8, 99) /* Studded Leather Shirt */
+     , (4111, 8, 116) /* Studded Leather Boots */
+     , (4111, 8, 1728) /* Scroll of Monster Attunement Self */
+     , (4111, 8, 7940) /* Empty Flask */
+     , (4111, 8, 11688) /* Little Green Seeds */
+     , (4111, 8, 112) /* Studded Leather Tassets */
+     , (4111, 8, 254) /* Stoup */
+     , (4111, 8, 2598) /* Baggy Pants */
+     , (4111, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (4111, 8, 3448) /* Scroll of Person Attunement Other II */
+     , (4111, 8, 2460) /* Mana Draught */
+     , (4111, 8, 55) /* Chainmail Gauntlets */
+     , (4111, 8, 108) /* Chainmail Tassets */
+     , (4111, 8, 129) /* Sandals */
+     , (4111, 8, 273) /* Pyreal */
+     , (4111, 8, 141) /* Bowl */
+     , (4111, 8, 28612) /* Bandana */
+     , (4111, 8, 121) /* Gloves */
+     , (4111, 8, 119) /* Cowl */
+     , (4111, 8, 294) /* Amulet */
+     , (4111, 8, 161) /* Mug */
+     , (4111, 8, 31796) /* Lightning Lancet */
+     , (4111, 8, 149) /* Ewer */
+     , (4111, 8, 296) /* Crown */
+     , (4111, 8, 96) /* Chainmail Shirt */
+     , (4111, 8, 2417) /* Gem */
+     , (4111, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (4111, 8, 30612) /* Lightning Knuckles */
+     , (4111, 8, 2683) /* Scroll of Frailty Other III */
+     , (4111, 8, 84) /* Studded  Leggings */
+     , (4111, 8, 3934) /* Scroll of Drain Health Other III */
+     , (4111, 8, 31793) /* Frost Lancet */
+     , (4111, 8, 2420) /* Gem */
+     , (4111, 8, 2763) /* Scroll of Acid Bane III */
+     , (4111, 8, 27331) /* Minor Mana Stone */
+     , (4111, 8, 1898) /* Scroll of Weaken Lock */
+     , (4111, 8, 2589) /* Smock */
+     , (4111, 8, 101) /* Chainmail Sleeves */
+     , (4111, 8, 25638) /* Leather Vest */
+     , (4111, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (4111, 8, 327) /* Ken */
+     , (4111, 8, 41036) /* Assagai */
+     , (4111, 8, 377) /* Potion of Healing */
+     , (4111, 8, 59) /* Studded Leather Gauntlets */
+     , (4111, 8, 22159) /* Acid Nabut */
+     , (4111, 8, 2413) /* Gem */
+     , (4111, 8, 30576) /* Flamberge */
+     , (4111, 8, 3463) /* Scroll of Resist Magic Other II */
+     , (4111, 8, 8329) /* Lead Pea */
+     , (4111, 8, 2597) /* Flared Pants */
+     , (4111, 8, 629) /* Adept Healing Kit */
+     , (4111, 8, 30606) /* Bastone */
+     , (4111, 8, 49366) /* Acid Grievver Essence (50) */
+     , (4111, 8, 22157) /* Frost Jo */
+     , (4111, 8, 2416) /* Gem */
+     , (4111, 8, 2430) /* Gem */
+     , (4111, 8, 105) /* Studded Leather Sleeves */
+     , (4111, 8, 413) /* Chainmail Bracers */
+     , (4111, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (4111, 8, 168) /* Tankard */
+     , (4111, 8, 379) /* Mana Potion */
+     , (4111, 8, 41484) /* Goggles */
+     , (4111, 8, 31787) /* Flaming Claw */
+     , (4111, 8, 49359) /* Frost Moar Essence (50) */
+     , (4111, 8, 2432) /* Gem */
+     , (4111, 8, 2434) /* Lesser Mana Stone */
+     , (4111, 8, 43312) /* Scroll of Nether Streak III */
+     , (4111, 8, 2428) /* Gem */
+     , (4111, 8, 22440) /* Dirk */
+     , (4111, 8, 624) /* Ring */
+     , (4111, 8, 25645) /* Leather Leggings */
+     , (4111, 8, 150) /* Flagon */
+     , (4111, 8, 40636) /* Acid Tetsubo */
+     , (4111, 8, 45421) /* Dagger */
+     , (4111, 8, 5901) /* Kasa */
+     , (4111, 8, 40623) /* Quadrelle */
+     , (4111, 8, 2457) /* Health Draught */
+     , (4111, 8, 1727) /* Scroll of Monster Attunement Other */
+     , (4111, 8, 41043) /* Lightning Magari Yari */
+     , (4111, 8, 3043) /* Scroll of Fire Vulnerability Other II */
+     , (4111, 8, 2547) /* Staff */
+     , (4111, 8, 545) /* Reliable Lockpick */
+     , (4111, 8, 311) /* Heavy Crossbow */
+     , (4111, 8, 243) /* Dinner Plate */
+     , (4111, 8, 3244) /* Scroll of Deception Mastery Self III */
+     , (4111, 8, 22164) /* Acid Quarter Staff */
+     , (4111, 8, 513) /* Plain Lockpick */
+     , (4111, 8, 25646) /* Long Leather Gauntlets */;
+

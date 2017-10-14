@@ -48,3 +48,9 @@ VALUES (7993, 2, 46) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7993, 64, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7993, 8, 295) /* Bracelet */
+     , (7993, 8, 2415) /* Gem */;
+

@@ -39,3 +39,10 @@ VALUES (34312, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34312, 67113042, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34312, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (34312, 8, 45420) /* Frost Knife */
+     , (34312, 8, 45406) /* Yaoji */;
+

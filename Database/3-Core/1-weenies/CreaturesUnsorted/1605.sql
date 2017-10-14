@@ -50,3 +50,16 @@ VALUES (1605, 2, 11) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1605, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1605, 8, 2767) /* Scroll of Acid Lure II */
+     , (1605, 8, 2594) /* Flared Tunic */
+     , (1605, 8, 295) /* Bracelet */
+     , (1605, 8, 2405) /* Gem */
+     , (1605, 8, 2417) /* Gem */
+     , (1605, 8, 266) /* Auroch Horn */
+     , (1605, 8, 49380) /* Fire Grievver Essence (50) */
+     , (1605, 8, 3328) /* Scroll of Item Tinkering Ignorance II */
+     , (1605, 8, 629) /* Adept Healing Kit */;
+

@@ -45,3 +45,10 @@ VALUES (14514, 2, 60) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14514, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14514, 8, 20402) /* Scroll of Olthoi's Bane */
+     , (14514, 8, 273) /* Pyreal */
+     , (14514, 8, 8326) /* Copper Pea */;
+

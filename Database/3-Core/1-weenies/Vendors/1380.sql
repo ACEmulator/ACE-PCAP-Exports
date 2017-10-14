@@ -130,32 +130,32 @@ VALUES (1380, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1380, 4, 311)
-     , (1380, 4, 305)
-     , (1380, 4, 363)
-     , (1380, 4, 300)
-     , (1380, 4, 4586)
-     , (1380, 4, 4585)
-     , (1380, 4, 5339)
-     , (1380, 4, 3599)
-     , (1380, 4, 3603)
-     , (1380, 4, 3601)
-     , (1380, 4, 3605)
-     , (1380, 4, 3598)
-     , (1380, 4, 3602)
-     , (1380, 4, 9359)
-     , (1380, 4, 9363)
-     , (1380, 4, 9362)
-     , (1380, 4, 9361)
-     , (1380, 4, 9366)
-     , (1380, 4, 9377)
-     , (1380, 4, 9378)
-     , (1380, 4, 44074)
-     , (1380, 4, 44070)
-     , (1380, 4, 44071);
+VALUES (1380, 4, 311) /* Heavy Crossbow */
+     , (1380, 4, 305) /* Quarrel */
+     , (1380, 4, 363) /* Yumi */
+     , (1380, 4, 300) /* Arrow */
+     , (1380, 4, 4586) /* Bundle of Arrowheads */
+     , (1380, 4, 4585) /* Bundle of Arrowshafts */
+     , (1380, 4, 5339) /* Bundle of Quarrelshafts */
+     , (1380, 4, 3599) /* Blunt Arrow */
+     , (1380, 4, 3603) /* Blunt Quarrel */
+     , (1380, 4, 3601) /* Frog Crotch Arrow */
+     , (1380, 4, 3605) /* Frog Crotch Quarrel */
+     , (1380, 4, 3598) /* Armor Piercing Arrow */
+     , (1380, 4, 3602) /* Armor Piercing Quarrel */
+     , (1380, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (1380, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (1380, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (1380, 4, 9361) /* Wrapped Bundle of Armor Piercing Arrowheads */
+     , (1380, 4, 9366) /* Wrapped Bundle of Frog Crotch Arrowheads */
+     , (1380, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (1380, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (1380, 4, 44074) /* Invitation to Master Fletchers */
+     , (1380, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (1380, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1380, 2, 363);
+VALUES (1380, 2, 363) /* Yumi */;
 

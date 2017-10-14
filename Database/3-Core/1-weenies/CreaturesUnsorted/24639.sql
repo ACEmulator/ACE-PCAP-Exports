@@ -50,3 +50,44 @@ VALUES (24639, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24639, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24639, 8, 44853) /* Bordered Cloak */
+     , (24639, 8, 31766) /* Lightning Lugian Hammer */
+     , (24639, 8, 31797) /* Flaming Lancet */
+     , (24639, 8, 25642) /* Leather Gauntlets */
+     , (24639, 8, 45416) /* Knife */
+     , (24639, 8, 20420) /* Scroll of Astyrrian's Bane */
+     , (24639, 8, 3914) /* Lightning Yari */
+     , (24639, 8, 2599) /* Trousers */
+     , (24639, 8, 24650) /* Adolescent Brood Queen Claw */
+     , (24639, 8, 27325) /* Stamina Philtre */
+     , (24639, 8, 24648) /* Adolescent Brood Queen Carapace */
+     , (24639, 8, 44850) /* Chevron Cloak */
+     , (24639, 8, 415) /* Chainmail Girth */
+     , (24639, 8, 25648) /* Leather Pauldrons */
+     , (24639, 8, 20557) /* Scroll of Oswald's Blessing */
+     , (24639, 8, 7789) /* Acid Spiked Club */
+     , (24639, 8, 309) /* Club */
+     , (24639, 8, 24654) /* Adolescent Brood Queen Femur */
+     , (24639, 8, 24658) /* Adolescent Brood Queen Metathorax */
+     , (24639, 8, 554) /* Studded Leather Basinet */
+     , (24639, 8, 20565) /* Scroll of Nuhmudira's Boon */
+     , (24639, 8, 2367) /* Gorget */
+     , (24639, 8, 22440) /* Dirk */
+     , (24639, 8, 38) /* Studded Leather Bracers */
+     , (24639, 8, 24652) /* Adolescent Brood Queen Crest */
+     , (24639, 8, 94) /* Diamond Shield */
+     , (24639, 8, 2403) /* Gem */
+     , (24639, 8, 44) /* Buckler */
+     , (24639, 8, 24656) /* Adolescent Brood Queen Head */
+     , (24639, 8, 29261) /* Electric Sceptre */
+     , (24639, 8, 96) /* Chainmail Shirt */
+     , (24639, 8, 49333) /* Frost Wisp Essence (100) */
+     , (24639, 8, 105) /* Studded Leather Sleeves */
+     , (24639, 8, 243) /* Dinner Plate */
+     , (24639, 8, 28624) /* Tenassa Sleeves */
+     , (24639, 8, 723) /* Studded Leather Cowl */
+     , (24639, 8, 31868) /* Signet Crown */;
+

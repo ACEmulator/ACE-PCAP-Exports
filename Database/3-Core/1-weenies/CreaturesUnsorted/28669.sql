@@ -39,3 +39,17 @@ VALUES (28669, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28669, 67115447, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28669, 8, 3320) /* Scroll of Item Tinkering Expertise Other IV */
+     , (28669, 8, 168) /* Tankard */
+     , (28669, 8, 273) /* Pyreal */
+     , (28669, 8, 2599) /* Trousers */
+     , (28669, 8, 3411) /* Scroll of Magic Item Tinkering Expertise Other V */
+     , (28669, 8, 512) /* Good Lockpick */
+     , (28669, 8, 22440) /* Dirk */
+     , (28669, 8, 40638) /* Flaming Tetsubo */
+     , (28669, 8, 2436) /* Greater Mana Stone */
+     , (28669, 8, 8327) /* Gold Pea */;
+

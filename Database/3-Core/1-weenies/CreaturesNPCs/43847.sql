@@ -142,5 +142,5 @@ VALUES (43847, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43847, 2, 43814);
+VALUES (43847, 2, 43814) /* Delicate Bloodstone Wand */;
 

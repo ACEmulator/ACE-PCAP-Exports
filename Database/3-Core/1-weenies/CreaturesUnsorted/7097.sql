@@ -61,3 +61,45 @@ VALUES (7097, 0, 16784123)
      , (7097, 11, 16784119)
      , (7097, 12, 16784114);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7097, 8, 163) /* Ornamental Bowl */
+     , (7097, 8, 31820) /* Acid Baton */
+     , (7097, 8, 20602) /* Scroll of Vigor Siphon */
+     , (7097, 8, 2412) /* Gem */
+     , (7097, 8, 45354) /* Scroll of Sneak Attack Mastery Self VII */
+     , (7097, 8, 27224) /* Lorica Leggings */
+     , (7097, 8, 20598) /* Scroll of Koga's Blessing */
+     , (7097, 8, 6355) /* Pyreal Sliver */
+     , (7097, 8, 2410) /* Gem */
+     , (7097, 8, 28610) /* Loafers */
+     , (7097, 8, 31866) /* Coronet */
+     , (7097, 8, 297) /* Ring */
+     , (7097, 8, 25650) /* Leather Shorts */
+     , (7097, 8, 2402) /* Gem */
+     , (7097, 8, 2603) /* Baggy Breeches */
+     , (7097, 8, 2589) /* Smock */
+     , (7097, 8, 23202) /* Platinum Golem Heart */
+     , (7097, 8, 42752) /* Haebrean Greaves */
+     , (7097, 8, 31762) /* Flaming Dericost Blade */
+     , (7097, 8, 28620) /* Alduressa Leggings */
+     , (7097, 8, 6876) /* Sturdy Iron Key */
+     , (7097, 8, 31864) /* Teardrop Crown */
+     , (7097, 8, 624) /* Ring */
+     , (7097, 8, 118) /* Cloth Cap */
+     , (7097, 8, 30607) /* Lightning Bastone */
+     , (7097, 8, 2423) /* Gem */
+     , (7097, 8, 21152) /* Covenant Breastplate */
+     , (7097, 8, 30224) /* Resister's Crystal */
+     , (7097, 8, 20600) /* Scroll of Vitality Siphon */
+     , (7097, 8, 29256) /* Frost Atlatl */
+     , (7097, 8, 621) /* Heavy Bracelet */
+     , (7097, 8, 2600) /* Pantaloons */
+     , (7097, 8, 2403) /* Gem */
+     , (7097, 8, 31779) /* Spine Glaive */
+     , (7097, 8, 3940) /* Lightning Morning Star */
+     , (7097, 8, 43292) /* Scroll of Corruption VII */
+     , (7097, 8, 149) /* Ewer */
+     , (7097, 8, 2599) /* Trousers */;
+

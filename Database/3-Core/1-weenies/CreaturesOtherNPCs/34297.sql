@@ -88,5 +88,10 @@ VALUES (34297, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (34297, 2, 34345);
+VALUES (34297, 2, 34345) /* Yumi */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34297, 8, 43491) /* Pitted Slag */;
 

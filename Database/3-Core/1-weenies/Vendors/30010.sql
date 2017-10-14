@@ -65,63 +65,63 @@ VALUES (30010, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30010, 4, 15269)
-     , (30010, 4, 15271)
-     , (30010, 4, 2762)
-     , (30010, 4, 2767)
-     , (30010, 4, 46873)
-     , (30010, 4, 2782)
-     , (30010, 4, 46874)
-     , (30010, 4, 2807)
-     , (30010, 4, 46875)
-     , (30010, 4, 2832)
-     , (30010, 4, 46876)
-     , (30010, 4, 2887)
-     , (30010, 4, 46877)
-     , (30010, 4, 28003)
-     , (30010, 4, 46878)
-     , (30010, 4, 2882)
-     , (30010, 4, 2772)
-     , (30010, 4, 2777)
-     , (30010, 4, 2787)
-     , (30010, 4, 2792)
-     , (30010, 4, 2797)
-     , (30010, 4, 2802)
-     , (30010, 4, 2812)
-     , (30010, 4, 2817)
-     , (30010, 4, 2822)
-     , (30010, 4, 2827)
-     , (30010, 4, 2837)
-     , (30010, 4, 2842)
-     , (30010, 4, 2847)
-     , (30010, 4, 2852)
-     , (30010, 4, 2857)
-     , (30010, 4, 2862)
-     , (30010, 4, 2867)
-     , (30010, 4, 2872)
-     , (30010, 4, 28010)
-     , (30010, 4, 2877)
-     , (30010, 4, 2893)
-     , (30010, 4, 2898)
-     , (30010, 4, 8915)
-     , (30010, 4, 2907)
-     , (30010, 4, 21289)
-     , (30010, 4, 5998)
-     , (30010, 4, 8921)
-     , (30010, 4, 21303)
-     , (30010, 4, 4395)
-     , (30010, 4, 21310)
-     , (30010, 4, 8930)
-     , (30010, 4, 2941)
-     , (30010, 4, 8936)
-     , (30010, 4, 21317)
-     , (30010, 4, 2955)
-     , (30010, 4, 8942)
-     , (30010, 4, 21324)
-     , (30010, 4, 2963)
-     , (30010, 4, 8948)
-     , (30010, 4, 21331)
-     , (30010, 4, 2968)
-     , (30010, 4, 8954)
-     , (30010, 4, 21296);
+VALUES (30010, 4, 15269) /* Foci of Artifice */
+     , (30010, 4, 15271) /* Foci of Strife */
+     , (30010, 4, 2762) /* Scroll of Acid Bane II */
+     , (30010, 4, 2767) /* Scroll of Acid Lure II */
+     , (30010, 4, 46873) /* Aura of Blood Drinker Other II */
+     , (30010, 4, 2782) /* Aura of Blood Drinker Self II */
+     , (30010, 4, 46874) /* Aura of Defender Other II */
+     , (30010, 4, 2807) /* Aura of Defender Self II */
+     , (30010, 4, 46875) /* Aura of Heartseeker Other II */
+     , (30010, 4, 2832) /* Aura of Heartseeker Self II */
+     , (30010, 4, 46876) /* Aura of Hermetic Link Other II */
+     , (30010, 4, 2887) /* Aura of Hermetic Link Self II */
+     , (30010, 4, 46877) /* Aura of Spirit Drinker Other II */
+     , (30010, 4, 28003) /* Aura of Spirit Drinker Self II */
+     , (30010, 4, 46878) /* Aura of Swift Killer Other II */
+     , (30010, 4, 2882) /* Aura of Swift Killer Self II */
+     , (30010, 4, 2772) /* Scroll of Blade Bane II */
+     , (30010, 4, 2777) /* Scroll of Blade Lure II */
+     , (30010, 4, 2787) /* Scroll of Blood Loather II */
+     , (30010, 4, 2792) /* Scroll of Bludgeon Bane II */
+     , (30010, 4, 2797) /* Scroll of Bludgeon Lure II */
+     , (30010, 4, 2802) /* Scroll of Brittlemail II */
+     , (30010, 4, 2812) /* Scroll of Flame Bane II */
+     , (30010, 4, 2817) /* Scroll of Flame Lure II */
+     , (30010, 4, 2822) /* Scroll of Frost Bane II */
+     , (30010, 4, 2827) /* Scroll of Frost Lure II */
+     , (30010, 4, 2837) /* Scroll of Hermetic Void II */
+     , (30010, 4, 2842) /* Scroll of Impenetrability II */
+     , (30010, 4, 2847) /* Scroll of Leaden Weapon II */
+     , (30010, 4, 2852) /* Scroll of Lightning Bane II */
+     , (30010, 4, 2857) /* Scroll of Lightning Lure II */
+     , (30010, 4, 2862) /* Scroll of Lure Blade II */
+     , (30010, 4, 2867) /* Scroll of Piercing Bane II */
+     , (30010, 4, 2872) /* Scroll of Piercing Lure II */
+     , (30010, 4, 28010) /* Scroll of Spirit Loather II */
+     , (30010, 4, 2877) /* Scroll of Strengthen Lock II */
+     , (30010, 4, 2893) /* Scroll of Turn Blade II */
+     , (30010, 4, 2898) /* Scroll of Weaken Lock II */
+     , (30010, 4, 8915) /* Scroll of Acid Streak II */
+     , (30010, 4, 2907) /* Scroll of Acid Stream II */
+     , (30010, 4, 21289) /* Scroll of Acid Arc II */
+     , (30010, 4, 5998) /* Scroll of Flame Bolt II */
+     , (30010, 4, 8921) /* Scroll of Flame Streak II */
+     , (30010, 4, 21303) /* Scroll of Flame Arc II */
+     , (30010, 4, 4395) /* Scroll of Force Bolt II */
+     , (30010, 4, 21310) /* Scroll of Force Arc II */
+     , (30010, 4, 8930) /* Scroll of Force Streak II */
+     , (30010, 4, 2941) /* Scroll of Frost Bolt II */
+     , (30010, 4, 8936) /* Scroll of Frost Streak II */
+     , (30010, 4, 21317) /* Scroll of Frost Arc II */
+     , (30010, 4, 2955) /* Scroll of Lightning Bolt II */
+     , (30010, 4, 8942) /* Scroll of Lightning Streak II */
+     , (30010, 4, 21324) /* Scroll of Lightning Arc II */
+     , (30010, 4, 2963) /* Scroll of Shock Wave II */
+     , (30010, 4, 8948) /* Scroll of Shock Wave Streak II */
+     , (30010, 4, 21331) /* Scroll of Shock Arc II */
+     , (30010, 4, 2968) /* Scroll of Whirling Blade II */
+     , (30010, 4, 8954) /* Scroll of Whirling Blade Streak II */
+     , (30010, 4, 21296) /* Scroll of Blade Arc II */;
 

@@ -123,10 +123,10 @@ VALUES (31863, 37, 0.8) /* BUY_PRICE_FLOAT */
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (31863, 4, 2463)
-     , (31863, 4, 29129)
-     , (31863, 4, 29127)
-     , (31863, 4, 29160)
-     , (31863, 4, 29159)
-     , (31863, 4, 29126);
+VALUES (31863, 4, 2463) /* Milk */
+     , (31863, 4, 29129) /* Ruined Hops */
+     , (31863, 4, 29127) /* Brown Hops */
+     , (31863, 4, 29160) /* Rancid Yeast */
+     , (31863, 4, 29159) /* Liquid Yeast */
+     , (31863, 4, 29126) /* Spoiled Barley */;
 

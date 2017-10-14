@@ -49,3 +49,19 @@ VALUES (5162, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5162, 2, 1) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5162, 8, 149) /* Ewer */
+     , (5162, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (5162, 8, 2416) /* Gem */
+     , (5162, 8, 150) /* Flagon */
+     , (5162, 8, 5175) /* Perfectly Aged Cider */
+     , (5162, 8, 41484) /* Goggles */
+     , (5162, 8, 28612) /* Bandana */
+     , (5162, 8, 141) /* Bowl */
+     , (5162, 8, 7940) /* Empty Flask */
+     , (5162, 8, 31865) /* Circlet */
+     , (5162, 8, 2413) /* Gem */
+     , (5162, 8, 2418) /* Gem */;
+

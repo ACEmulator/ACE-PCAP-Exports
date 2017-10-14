@@ -49,3 +49,13 @@ VALUES (30884, 2, 28) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30884, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30884, 8, 30587) /* Acid Flanged Mace */
+     , (30884, 8, 69) /* Yoroi Greaves */
+     , (30884, 8, 45876) /* Scarlet Red Letter */
+     , (30884, 8, 30862) /* Banished Nekode */
+     , (30884, 8, 49254) /* Frost Zombie Essence (50) */
+     , (30884, 8, 25643) /* Leather Girth */;
+

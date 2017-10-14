@@ -50,3 +50,35 @@ VALUES (31417, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (31417, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31417, 8, 2599) /* Trousers */
+     , (31417, 8, 29241) /* Fire Bow */
+     , (31417, 8, 25642) /* Leather Gauntlets */
+     , (31417, 8, 27225) /* Lorica Sleeves */
+     , (31417, 8, 41067) /* Shashqa */
+     , (31417, 8, 154) /* Goblet */
+     , (31417, 8, 43336) /* Scroll of Weakening Curse VII */
+     , (31417, 8, 31806) /* Acid Compound Crossbow */
+     , (31417, 8, 2627) /* Trade Note (100,000) */
+     , (31417, 8, 49534) /* Fire Phyntos Wasp Essence (125) */
+     , (31417, 8, 163) /* Ornamental Bowl */
+     , (31417, 8, 25651) /* Leather Sleeves */
+     , (31417, 8, 80) /* Chainmail Leggings */
+     , (31417, 8, 20565) /* Scroll of Nuhmudira's Boon */
+     , (31417, 8, 7788) /* Fire Spiked Club */
+     , (31417, 8, 150) /* Flagon */
+     , (31417, 8, 121) /* Gloves */
+     , (31417, 8, 31808) /* Electric Crossbow */
+     , (31417, 8, 20630) /* Trade Note (250,000) */
+     , (31417, 8, 2625) /* Trade Note (10,000) */
+     , (31417, 8, 20494) /* Scroll of Unflinching Persistence */
+     , (31417, 8, 20553) /* Scroll of Harlune's Boon */
+     , (31417, 8, 29260) /* Blunt Sceptre */
+     , (31417, 8, 31789) /* Acid Stick */
+     , (31417, 8, 6004) /* Koujia Leggings */
+     , (31417, 8, 414) /* Chainmail Breastplate */
+     , (31417, 8, 31803) /* Frost Compound Bow */
+     , (31417, 8, 22156) /* Flaming Jo */;
+

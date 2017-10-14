@@ -64,3 +64,17 @@ VALUES (22521, 2, 8) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22521, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22521, 8, 622) /* Necklace */
+     , (22521, 8, 297) /* Ring */
+     , (22521, 8, 22159) /* Acid Nabut */
+     , (22521, 8, 71) /* Chainmail Hauberk */
+     , (22521, 8, 273) /* Pyreal */
+     , (22521, 8, 2400) /* Gem */
+     , (22521, 8, 624) /* Ring */
+     , (22521, 8, 2435) /* Mana Stone */
+     , (22521, 8, 295) /* Bracelet */
+     , (22521, 8, 29204) /* Tusker Spit */;
+

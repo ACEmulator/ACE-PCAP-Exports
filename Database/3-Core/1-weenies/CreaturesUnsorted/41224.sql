@@ -44,3 +44,22 @@ VALUES (41224, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41224, 64, 25000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41224, 8, 27225) /* Lorica Sleeves */
+     , (41224, 8, 30556) /* Hatchet */
+     , (41224, 8, 297) /* Ring */
+     , (41224, 8, 20551) /* Scroll of Ar-Pei's Blessing */
+     , (41224, 8, 31791) /* Flaming Stick */
+     , (41224, 8, 29238) /* Acid Bow */
+     , (41224, 8, 31819) /* Staff */
+     , (41224, 8, 41226) /* Aetherium Core Fragment */
+     , (41224, 8, 2604) /* Wide Breeches */
+     , (41224, 8, 2425) /* Gem */
+     , (41224, 8, 7793) /* Acid Trident */
+     , (41224, 8, 273) /* Pyreal */
+     , (41224, 8, 25647) /* Leather Pants */
+     , (41224, 8, 63) /* Studded Leather Girth */
+     , (41224, 8, 2596) /* Doublet */;
+

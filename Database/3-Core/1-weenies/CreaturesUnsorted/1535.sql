@@ -51,3 +51,20 @@ VALUES (1535, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1535, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1535, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1535, 8, 63) /* Studded Leather Girth */
+     , (1535, 8, 273) /* Pyreal */
+     , (1535, 8, 43286) /* Scroll of Corrosion */
+     , (1535, 8, 41488) /* Top */
+     , (1535, 8, 27331) /* Minor Mana Stone */
+     , (1535, 8, 294) /* Amulet */
+     , (1535, 8, 8329) /* Lead Pea */
+     , (1535, 8, 1698) /* Scroll of Fealty Other */
+     , (1535, 8, 168) /* Tankard */
+     , (1535, 8, 2434) /* Lesser Mana Stone */
+     , (1535, 8, 134) /* Tunic */
+     , (1535, 8, 80) /* Chainmail Leggings */
+     , (1535, 8, 416) /* Chainmail Pauldrons */;
+

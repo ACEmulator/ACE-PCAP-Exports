@@ -49,3 +49,12 @@ VALUES (7493, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7493, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7493, 8, 49442) /* Frost Spectre Essence (50) */
+     , (7493, 8, 129) /* Sandals */
+     , (7493, 8, 49331) /* Frost Wisp Essence (50) */
+     , (7493, 8, 2596) /* Doublet */
+     , (7493, 8, 71) /* Chainmail Hauberk */;
+

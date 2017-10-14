@@ -127,3 +127,29 @@ VALUES (33168, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33168, 64, 2750) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33168, 8, 6047) /* Amuli Leggings */
+     , (33168, 8, 7772) /* Trident */
+     , (33168, 8, 45114) /* Acid Hammer */
+     , (33168, 8, 30588) /* Lightning Flanged Mace */
+     , (33168, 8, 20562) /* Scroll of Celdiseth's Blessing */
+     , (33168, 8, 30607) /* Lightning Bastone */
+     , (33168, 8, 118) /* Cloth Cap */
+     , (33168, 8, 132) /* Shoes */
+     , (33168, 8, 2458) /* Health Elixir */
+     , (33168, 8, 21157) /* Covenant Pauldrons */
+     , (33168, 8, 149) /* Ewer */
+     , (33168, 8, 363) /* Yumi */
+     , (33168, 8, 154) /* Goblet */
+     , (33168, 8, 28199) /* Rugged Gromnie Hide */
+     , (33168, 8, 31799) /* Acid Compound Bow */
+     , (33168, 8, 28608) /* Poet's Shirt */
+     , (33168, 8, 8328) /* Iron Pea */
+     , (33168, 8, 31804) /* Piercing Compound Bow */
+     , (33168, 8, 127) /* Pants */
+     , (33168, 8, 29242) /* Frost Bow */
+     , (33168, 8, 723) /* Studded Leather Cowl */
+     , (33168, 8, 2410) /* Gem */;
+

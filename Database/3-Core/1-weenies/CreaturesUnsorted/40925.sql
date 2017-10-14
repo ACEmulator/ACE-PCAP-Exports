@@ -36,3 +36,8 @@ VALUES (40925, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (40925, 19, True) /* ATTACKABLE_BOOL */
      , (40925, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40925, 8, 154) /* Goblet */;
+

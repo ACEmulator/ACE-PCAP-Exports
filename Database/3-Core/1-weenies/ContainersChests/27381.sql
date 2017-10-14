@@ -50,3 +50,29 @@ VALUES (27381, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27381, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27381, 8, 46) /* Metal Cap */
+     , (27381, 8, 20540) /* Scroll of Celcynd's Boon */
+     , (27381, 8, 42635) /* Aetheria */
+     , (27381, 8, 20555) /* Scroll of Fat Fingers */
+     , (27381, 8, 31809) /* Fire Compound Crossbow */
+     , (27381, 8, 2592) /* Puffy Tunic */
+     , (27381, 8, 415) /* Chainmail Girth */
+     , (27381, 8, 297) /* Ring */
+     , (27381, 8, 3906) /* Lightning War Hammer */
+     , (27381, 8, 27227) /* Nariyid Breastplate */
+     , (27381, 8, 360) /* Yag */
+     , (27381, 8, 31799) /* Acid Compound Bow */
+     , (27381, 8, 20488) /* Scroll of Energy Flux */
+     , (27381, 8, 45420) /* Frost Knife */
+     , (27381, 8, 49249) /* Fire Zombie Essence (100) */
+     , (27381, 8, 49540) /* Frost Phyntos Wasp Essence (100) */
+     , (27381, 8, 28622) /* Tenassa Leggings */
+     , (27381, 8, 621) /* Heavy Bracelet */
+     , (27381, 8, 4194) /* Lightning Cestus */
+     , (27381, 8, 3939) /* Acid Morning Star */
+     , (27381, 8, 127) /* Pants */
+     , (27381, 8, 45434) /* Flaming Khanjar */;
+

@@ -98,3 +98,11 @@ VALUES (25969, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25969, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25969, 8, 44) /* Buckler */
+     , (25969, 8, 45105) /* Lightning Rapier */
+     , (25969, 8, 44975) /* Hood */
+     , (25969, 8, 25959) /* Woven Tassel of Discord */;
+

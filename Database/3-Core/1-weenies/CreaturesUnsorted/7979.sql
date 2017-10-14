@@ -49,3 +49,16 @@ VALUES (7979, 2, 44) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7979, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7979, 8, 2418) /* Gem */
+     , (7979, 8, 8329) /* Lead Pea */
+     , (7979, 8, 273) /* Pyreal */
+     , (7979, 8, 161) /* Mug */
+     , (7979, 8, 2433) /* Gem */
+     , (7979, 8, 8328) /* Iron Pea */
+     , (7979, 8, 28609) /* Vest */
+     , (7979, 8, 8326) /* Copper Pea */
+     , (7979, 8, 9098) /* Vial of Organic Acid */;
+

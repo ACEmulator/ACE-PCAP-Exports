@@ -42,3 +42,29 @@ VALUES (43081, 9, 83890028, 83898250);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43081, 9, 16780702);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43081, 8, 25636) /* Leather Helm */
+     , (43081, 8, 273) /* Pyreal */
+     , (43081, 8, 168) /* Tankard */
+     , (43081, 8, 8328) /* Iron Pea */
+     , (43081, 8, 31865) /* Circlet */
+     , (43081, 8, 2416) /* Gem */
+     , (43081, 8, 2437) /* Yoroi Leggings */
+     , (43081, 8, 8329) /* Lead Pea */
+     , (43081, 8, 28609) /* Vest */
+     , (43081, 8, 8326) /* Copper Pea */
+     , (43081, 8, 149) /* Ewer */
+     , (43081, 8, 27330) /* Moderate Mana Stone */
+     , (43081, 8, 7793) /* Acid Trident */
+     , (43081, 8, 3127) /* Scroll of Rejuvenate Self VI */
+     , (43081, 8, 20863) /* Virindi Stamp */
+     , (43081, 8, 2595) /* Baggy Tunic */
+     , (43081, 8, 2435) /* Mana Stone */
+     , (43081, 8, 9292) /* Virindi Singularity Key */
+     , (43081, 8, 2604) /* Wide Breeches */
+     , (43081, 8, 40760) /* Nodachi */
+     , (43081, 8, 43292) /* Scroll of Corruption VII */
+     , (43081, 8, 28632) /* Diforsa Gauntlets */;
+

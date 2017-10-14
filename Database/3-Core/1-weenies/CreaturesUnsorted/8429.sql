@@ -86,3 +86,44 @@ VALUES (8429, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8429, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8429, 8, 3071) /* Scroll of Piercing Protection Self V */
+     , (8429, 8, 3835) /* Lightning Mace */
+     , (8429, 8, 8328) /* Iron Pea */
+     , (8429, 8, 2881) /* Scroll of Strengthen Lock VI */
+     , (8429, 8, 20432) /* Scroll of Disintegration */
+     , (8429, 8, 306) /* Longbow */
+     , (8429, 8, 49310) /* Acid Wisp Essence (50) */
+     , (8429, 8, 85) /* Chainmail Coif */
+     , (8429, 8, 30610) /* Acid Bastone */
+     , (8429, 8, 273) /* Pyreal */
+     , (8429, 8, 3694) /* Swamp Stone */
+     , (8429, 8, 44840) /* Cloak */
+     , (8429, 8, 243) /* Dinner Plate */
+     , (8429, 8, 28624) /* Tenassa Sleeves */
+     , (8429, 8, 2433) /* Gem */
+     , (8429, 8, 2432) /* Gem */
+     , (8429, 8, 2405) /* Gem */
+     , (8429, 8, 48972) /* Acid Zombie Essence (50) */
+     , (8429, 8, 95) /* Tower Shield */
+     , (8429, 8, 631) /* Excellent Healing Kit */
+     , (8429, 8, 119) /* Cowl */
+     , (8429, 8, 3938) /* Frost Morning Star */
+     , (8429, 8, 118) /* Cloth Cap */
+     , (8429, 8, 6047) /* Amuli Leggings */
+     , (8429, 8, 6001) /* Scroll of Flame Bolt V */
+     , (8429, 8, 30611) /* Knuckles */
+     , (8429, 8, 2548) /* Sceptre */
+     , (8429, 8, 113) /* Yoroi Tassets */
+     , (8429, 8, 2603) /* Baggy Breeches */
+     , (8429, 8, 2587) /* Shirt */
+     , (8429, 8, 3236) /* Scroll of Deception Ineptitude V */
+     , (8429, 8, 353) /* Tachi */
+     , (8429, 8, 3566) /* Scroll of War Magic Ineptitude V */
+     , (8429, 8, 108) /* Chainmail Tassets */
+     , (8429, 8, 41048) /* Lightning Pike */
+     , (8429, 8, 49359) /* Frost Moar Essence (50) */
+     , (8429, 8, 2416) /* Gem */;
+

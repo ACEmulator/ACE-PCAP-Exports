@@ -74,3 +74,22 @@ VALUES (1255, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1255, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1255, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1255, 8, 629) /* Adept Healing Kit */
+     , (1255, 8, 1265) /* Key */
+     , (1255, 8, 27331) /* Minor Mana Stone */
+     , (1255, 8, 378) /* Stamina Potion */
+     , (1255, 8, 2416) /* Gem */
+     , (1255, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (1255, 8, 513) /* Plain Lockpick */
+     , (1255, 8, 28625) /* Diforsa Sollerets */
+     , (1255, 8, 273) /* Pyreal */
+     , (1255, 8, 134) /* Tunic */
+     , (1255, 8, 2470) /* Stamina Elixir */
+     , (1255, 8, 2414) /* Gem */
+     , (1255, 8, 2460) /* Mana Draught */
+     , (1255, 8, 49359) /* Frost Moar Essence (50) */
+     , (1255, 8, 3324) /* Scroll of Item Tinkering Expertise Self III */;
+

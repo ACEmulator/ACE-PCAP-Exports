@@ -49,3 +49,18 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3964, 2, 0) /* OPEN_BOOL */
      , (3964, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3964, 8, 243) /* Dinner Plate */
+     , (3964, 8, 48972) /* Acid Zombie Essence (50) */
+     , (3964, 8, 2405) /* Gem */
+     , (3964, 8, 2413) /* Gem */
+     , (3964, 8, 2593) /* Loose Tunic */
+     , (3964, 8, 7940) /* Empty Flask */
+     , (3964, 8, 295) /* Bracelet */
+     , (3964, 8, 2394) /* Gem */
+     , (3964, 8, 2604) /* Wide Breeches */
+     , (3964, 8, 254) /* Stoup */
+     , (3964, 8, 2419) /* Gem */;
+

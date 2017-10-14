@@ -45,3 +45,17 @@ VALUES (6379, 2, 42) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (6379, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6379, 8, 27237) /* Scroll of Eradicate Life Magic Self */
+     , (6379, 8, 8326) /* Copper Pea */
+     , (6379, 8, 8327) /* Gold Pea */
+     , (6379, 8, 31808) /* Electric Crossbow */
+     , (6379, 8, 273) /* Pyreal */
+     , (6379, 8, 20460) /* Scroll of Crushing Shame */
+     , (6379, 8, 45423) /* Lightning Dagger */
+     , (6379, 8, 326) /* Katar */
+     , (6379, 8, 8331) /* Silver Pea */
+     , (6379, 8, 6876) /* Sturdy Iron Key */;
+

@@ -50,3 +50,16 @@ VALUES (30900, 2, 44) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30900, 64, 1295) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30900, 8, 621) /* Heavy Bracelet */
+     , (30900, 8, 8329) /* Lead Pea */
+     , (30900, 8, 8326) /* Copper Pea */
+     , (30900, 8, 30877) /* Banished Atlatl */
+     , (30900, 8, 16921) /* Silk */
+     , (30900, 8, 25639) /* Leather Jerkin */
+     , (30900, 8, 273) /* Pyreal */
+     , (30900, 8, 43324) /* Scroll of Destructive Curse V */
+     , (30900, 8, 2435) /* Mana Stone */;
+

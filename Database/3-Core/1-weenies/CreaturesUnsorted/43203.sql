@@ -45,3 +45,45 @@ VALUES (43203, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43203, 64, 10000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43203, 8, 43208) /* Scintillating Apostate Shard */
+     , (43203, 8, 43209) /* Shimmering Apostate Shard */
+     , (43203, 8, 43261) /* Dark Apostate Shard */
+     , (43203, 8, 43207) /* Sparkling Apostate Shard */
+     , (43203, 8, 49286) /* Acid K'nath Essence (150) */
+     , (43203, 8, 49369) /* Acid Grievver Essence (125) */
+     , (43203, 8, 20252) /* Scroll of Belly of Lead */
+     , (43203, 8, 40805) /* Aetherium Vault Key */
+     , (43203, 8, 31776) /* Electric Board with Nail */
+     , (43203, 8, 45250) /* Scroll of Dirty Fighting Mastery Other VII */
+     , (43203, 8, 30592) /* Flaming Partizan */
+     , (43203, 8, 27227) /* Nariyid Breastplate */
+     , (43203, 8, 6045) /* Celdon Leggings */
+     , (43203, 8, 40804) /* Apostate Master's Broken Mask */
+     , (43203, 8, 3857) /* Acid Shou-ono */
+     , (43203, 8, 49388) /* Frost Grievver Essence (80) */
+     , (43203, 8, 28939) /* Scroll of Arcanum Salvaging VII */
+     , (43203, 8, 49264) /* Acid Child Essence (125) */
+     , (43203, 8, 31799) /* Acid Compound Bow */
+     , (43203, 8, 29254) /* Electric Atlatl */
+     , (43203, 8, 2589) /* Smock */
+     , (43203, 8, 295) /* Bracelet */
+     , (43203, 8, 25651) /* Leather Sleeves */
+     , (43203, 8, 49215) /* Acid Skeleton Minion Essence (100) */
+     , (43203, 8, 54) /* Yoroi Cuirass */
+     , (43203, 8, 49348) /* Lightning Moar Essence (125) */
+     , (43203, 8, 42635) /* Aetheria */
+     , (43203, 8, 135) /* Turban */
+     , (43203, 8, 29262) /* Fire Sceptre */
+     , (43203, 8, 31785) /* Acid Claw */
+     , (43203, 8, 30948) /* Diforsa Hauberk */
+     , (43203, 8, 40635) /* Tetsubo */
+     , (43203, 8, 2410) /* Gem */
+     , (43203, 8, 31774) /* Board with Nail */
+     , (43203, 8, 121) /* Gloves */
+     , (43203, 8, 40712) /* Covenant Pauldrons */
+     , (43203, 8, 25641) /* Leather Cuirass */
+     , (43203, 8, 6047) /* Amuli Leggings */;
+

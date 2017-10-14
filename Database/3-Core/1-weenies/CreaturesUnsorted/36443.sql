@@ -84,3 +84,27 @@ VALUES (36443, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36443, 64, 3300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36443, 8, 45121) /* Flaming Hand Wraps */
+     , (36443, 8, 22164) /* Acid Quarter Staff */
+     , (36443, 8, 39109) /* Gummy Golem */
+     , (36443, 8, 39108) /* Chocolate Gromnie */
+     , (36443, 8, 42635) /* Aetheria */
+     , (36443, 8, 2587) /* Shirt */
+     , (36443, 8, 34089) /* Floating Candle */
+     , (36443, 8, 39107) /* Caramel Kukuur */
+     , (36443, 8, 20608) /* Scroll of Gift of Essence */
+     , (36443, 8, 31794) /* Lancet */
+     , (36443, 8, 154) /* Goblet */
+     , (36443, 8, 32207) /* Candy Corn */
+     , (36443, 8, 49424) /* Acid Spectre Essence (125) */
+     , (36443, 8, 25641) /* Leather Cuirass */
+     , (36443, 8, 6004) /* Koujia Leggings */
+     , (36443, 8, 34198) /* Gummy Ghoul */
+     , (36443, 8, 27226) /* Nariyid Boots */
+     , (36443, 8, 40708) /* Covenant Gauntlets */
+     , (36443, 8, 416) /* Chainmail Pauldrons */
+     , (36443, 8, 32201) /* Pumpkin Cookie Cutter */;
+

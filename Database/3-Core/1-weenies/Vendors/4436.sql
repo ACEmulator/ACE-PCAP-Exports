@@ -128,19 +128,19 @@ VALUES (4436, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4436, 4, 2467)
-     , (4436, 4, 4746)
-     , (4436, 4, 2452)
-     , (4436, 4, 2453)
-     , (4436, 4, 2471)
-     , (4436, 4, 8378)
-     , (4436, 4, 259)
-     , (4436, 4, 4737)
-     , (4436, 4, 4713)
-     , (4436, 4, 4709)
-     , (4436, 4, 5001)
-     , (4436, 4, 5007)
-     , (4436, 4, 25996)
-     , (4436, 4, 25700)
-     , (4436, 4, 35043);
+VALUES (4436, 4, 2467) /* Red Wine */
+     , (4436, 4, 4746) /* Water */
+     , (4436, 4, 2452) /* Apple Juice */
+     , (4436, 4, 2453) /* Cider */
+     , (4436, 4, 2471) /* Stout */
+     , (4436, 4, 8378) /* Beer Stein */
+     , (4436, 4, 259) /* Bread */
+     , (4436, 4, 4737) /* Mushroom Pie */
+     , (4436, 4, 4713) /* Beef Stew */
+     , (4436, 4, 4709) /* Apple Pie */
+     , (4436, 4, 5001) /* Lytelthorpe Portal Directions */
+     , (4436, 4, 5007) /* Lost Distillery Directions */
+     , (4436, 4, 25996) /* Farmer Larry's Problem */
+     , (4436, 4, 25700) /* Olthoi Tunnels Rumor */
+     , (4436, 4, 35043) /* Halls of Metos */;
 

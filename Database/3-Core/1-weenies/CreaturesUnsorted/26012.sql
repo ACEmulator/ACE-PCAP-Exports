@@ -45,3 +45,45 @@ VALUES (26012, 2, 75) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (26012, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26012, 8, 2599) /* Trousers */
+     , (26012, 8, 112) /* Studded Leather Tassets */
+     , (26012, 8, 2405) /* Gem */
+     , (26012, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (26012, 8, 379) /* Mana Potion */
+     , (26012, 8, 45) /* Leather Cap */
+     , (26012, 8, 107) /* Sollerets */
+     , (26012, 8, 52) /* Scalemail Cuirass */
+     , (26012, 8, 25642) /* Leather Gauntlets */
+     , (26012, 8, 31759) /* Dericost Blade */
+     , (26012, 8, 273) /* Pyreal */
+     , (26012, 8, 95) /* Tower Shield */
+     , (26012, 8, 45239) /* Scroll of Dirty Fighting Ineptitude Other IV */
+     , (26012, 8, 63) /* Studded Leather Girth */
+     , (26012, 8, 295) /* Bracelet */
+     , (26012, 8, 30612) /* Lightning Knuckles */
+     , (26012, 8, 31784) /* Claw */
+     , (26012, 8, 311) /* Heavy Crossbow */
+     , (26012, 8, 7940) /* Empty Flask */
+     , (26012, 8, 89) /* Studded Leather Pauldrons */
+     , (26012, 8, 8328) /* Iron Pea */
+     , (26012, 8, 27118) /* Foul-Smelling Hide */
+     , (26012, 8, 4195) /* Nekode */
+     , (26012, 8, 2594) /* Flared Tunic */
+     , (26012, 8, 161) /* Mug */
+     , (26012, 8, 28632) /* Diforsa Gauntlets */
+     , (26012, 8, 25661) /* Leather Boots */
+     , (26012, 8, 42518) /* Coalesced Mana */
+     , (26012, 8, 2366) /* Orb */
+     , (26012, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (26012, 8, 2472) /* Wand */
+     , (26012, 8, 25651) /* Leather Sleeves */
+     , (26012, 8, 2428) /* Gem */
+     , (26012, 8, 38) /* Studded Leather Bracers */
+     , (26012, 8, 28609) /* Vest */
+     , (26012, 8, 44) /* Buckler */
+     , (26012, 8, 41047) /* Acid Pike */
+     , (26012, 8, 28612) /* Bandana */;
+

@@ -60,3 +60,12 @@ VALUES (23988, 64, 410) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (23988, 128, 610) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (23988, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23988, 8, 3107) /* Scroll of Mana Renewal Self VI */
+     , (23988, 8, 80) /* Chainmail Leggings */
+     , (23988, 8, 20246) /* Scroll of Gossamer Flesh */
+     , (23988, 8, 43326) /* Scroll of Destructive Curse VII */
+     , (23988, 8, 30614) /* Frost Knuckles */;
+

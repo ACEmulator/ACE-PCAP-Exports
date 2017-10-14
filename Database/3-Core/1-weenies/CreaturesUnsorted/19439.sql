@@ -44,3 +44,14 @@ VALUES (19439, 2, 46) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (19439, 64, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (19439, 8, 49421) /* Acid Spectre Essence (50) */
+     , (19439, 8, 2599) /* Trousers */
+     , (19439, 8, 545) /* Reliable Lockpick */
+     , (19439, 8, 2724) /* Scroll of Revitalize Other IV */
+     , (19439, 8, 63) /* Studded Leather Girth */
+     , (19439, 8, 8329) /* Lead Pea */
+     , (19439, 8, 30948) /* Diforsa Hauberk */;
+

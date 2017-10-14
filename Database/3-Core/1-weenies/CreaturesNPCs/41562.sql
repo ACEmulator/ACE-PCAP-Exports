@@ -122,5 +122,5 @@ VALUES (41562, 9, 16794074)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41562, 2, 40760);
+VALUES (41562, 2, 40760) /* Nodachi */;
 

@@ -83,3 +83,14 @@ VALUES (46934, 64, 8820) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (46934, 128, 6900) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (46934, 256, 5590) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46934, 8, 45120) /* Lightning Hand Wraps */
+     , (46934, 8, 154) /* Goblet */
+     , (46934, 8, 2415) /* Gem */
+     , (46934, 8, 78) /* Kote */
+     , (46934, 8, 2601) /* Loose Pants */
+     , (46934, 8, 341) /* Shouyumi */
+     , (46934, 8, 273) /* Pyreal */;
+

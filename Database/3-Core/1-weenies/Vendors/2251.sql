@@ -124,35 +124,35 @@ VALUES (2251, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2251, 4, 554)
-     , (2251, 4, 35)
-     , (2251, 4, 77)
-     , (2251, 4, 85)
-     , (2251, 4, 96)
-     , (2251, 4, 414)
-     , (2251, 4, 43)
-     , (2251, 4, 55)
-     , (2251, 4, 2605)
-     , (2251, 4, 108)
-     , (2251, 4, 415)
-     , (2251, 4, 90)
-     , (2251, 4, 416)
-     , (2251, 4, 413)
-     , (2251, 4, 78)
-     , (2251, 4, 64)
-     , (2251, 4, 2437)
-     , (2251, 4, 80)
-     , (2251, 4, 116)
-     , (2251, 4, 94)
-     , (2251, 4, 95)
-     , (2251, 4, 2621)
-     , (2251, 4, 2622)
-     , (2251, 4, 2623)
-     , (2251, 4, 2624)
-     , (2251, 4, 2625)
-     , (2251, 4, 2626)
-     , (2251, 4, 2627)
-     , (2251, 4, 20628)
-     , (2251, 4, 20629)
-     , (2251, 4, 20630);
+VALUES (2251, 4, 554) /* Studded Leather Basinet */
+     , (2251, 4, 35) /* Chainmail Basinet */
+     , (2251, 4, 77) /* Kabuton */
+     , (2251, 4, 85) /* Chainmail Coif */
+     , (2251, 4, 96) /* Chainmail Shirt */
+     , (2251, 4, 414) /* Chainmail Breastplate */
+     , (2251, 4, 43) /* Yoroi Breastplate */
+     , (2251, 4, 55) /* Chainmail Gauntlets */
+     , (2251, 4, 2605) /* Chainmail Greaves */
+     , (2251, 4, 108) /* Chainmail Tassets */
+     , (2251, 4, 415) /* Chainmail Girth */
+     , (2251, 4, 90) /* Yoroi Pauldrons */
+     , (2251, 4, 416) /* Chainmail Pauldrons */
+     , (2251, 4, 413) /* Chainmail Bracers */
+     , (2251, 4, 78) /* Kote */
+     , (2251, 4, 64) /* Yoroi Girth */
+     , (2251, 4, 2437) /* Yoroi Leggings */
+     , (2251, 4, 80) /* Chainmail Leggings */
+     , (2251, 4, 116) /* Studded Leather Boots */
+     , (2251, 4, 94) /* Diamond Shield */
+     , (2251, 4, 95) /* Tower Shield */
+     , (2251, 4, 2621) /* Trade Note (100) */
+     , (2251, 4, 2622) /* Trade Note (500) */
+     , (2251, 4, 2623) /* Trade Note (1,000) */
+     , (2251, 4, 2624) /* Trade Note (5,000) */
+     , (2251, 4, 2625) /* Trade Note (10,000) */
+     , (2251, 4, 2626) /* Trade Note (50,000) */
+     , (2251, 4, 2627) /* Trade Note (100,000) */
+     , (2251, 4, 20628) /* Trade Note (150,000) */
+     , (2251, 4, 20629) /* Trade Note (200,000) */
+     , (2251, 4, 20630) /* Trade Note (250,000) */;
 

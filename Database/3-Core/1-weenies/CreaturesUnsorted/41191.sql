@@ -36,3 +36,40 @@ VALUES (41191, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41191, 67113145, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41191, 8, 2547) /* Staff */
+     , (41191, 8, 49327) /* Fire Wisp Essence (125) */
+     , (41191, 8, 6046) /* Amuli Coat */
+     , (41191, 8, 29242) /* Frost Bow */
+     , (41191, 8, 31867) /* Diadem */
+     , (41191, 8, 354) /* Takuba */
+     , (41191, 8, 41192) /* Apostate Excavation Laboratory Key */
+     , (41191, 8, 130) /* Shirt */
+     , (41191, 8, 49297) /* Fire K'nath Essence (80) */
+     , (41191, 8, 49299) /* Fire K'nath Essence (125) */
+     , (41191, 8, 49382) /* Fire Grievver Essence (100) */
+     , (41191, 8, 49257) /* Frost Zombie Essence (125) */
+     , (41191, 8, 20505) /* Scroll of Light Weapon Mastery Other VII */
+     , (41191, 8, 624) /* Ring */
+     , (41191, 8, 45120) /* Lightning Hand Wraps */
+     , (41191, 8, 20499) /* Scroll of Aliester's Boon */
+     , (41191, 8, 49291) /* Lightning K'nath Essence (100) */
+     , (41191, 8, 44851) /* Chevron Cloak */
+     , (41191, 8, 49356) /* Fire Moar Essence (150) */
+     , (41191, 8, 28610) /* Loafers */
+     , (41191, 8, 20247) /* Scroll of Void's Call */
+     , (41191, 8, 35) /* Chainmail Basinet */
+     , (41191, 8, 414) /* Chainmail Breastplate */
+     , (41191, 8, 2602) /* Loose Breeches */
+     , (41191, 8, 30567) /* Lightning Sabra */
+     , (41191, 8, 49258) /* Frost Zombie Essence (150) */
+     , (41191, 8, 6047) /* Amuli Leggings */
+     , (41191, 8, 2422) /* Gem */
+     , (41191, 8, 20594) /* Scroll of Wrath of the Hieromancer */
+     , (41191, 8, 30576) /* Flamberge */
+     , (41191, 8, 43373) /* Scroll of Void Magic Ineptitude Other VII */
+     , (41191, 8, 28632) /* Diforsa Gauntlets */
+     , (41191, 8, 2601) /* Loose Pants */;
+

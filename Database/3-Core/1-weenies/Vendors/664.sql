@@ -127,18 +127,18 @@ VALUES (664, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (664, 4, 2457)
-     , (664, 4, 377)
-     , (664, 4, 2460)
-     , (664, 4, 379)
-     , (664, 4, 378)
-     , (664, 4, 27326)
-     , (664, 4, 628)
-     , (664, 4, 629)
-     , (664, 4, 4450)
-     , (664, 4, 4589)
-     , (664, 4, 4592)
-     , (664, 4, 4384)
-     , (664, 4, 2621)
-     , (664, 4, 2622);
+VALUES (664, 4, 2457) /* Health Draught */
+     , (664, 4, 377) /* Potion of Healing */
+     , (664, 4, 2460) /* Mana Draught */
+     , (664, 4, 379) /* Mana Potion */
+     , (664, 4, 378) /* Stamina Potion */
+     , (664, 4, 27326) /* Stamina Tincture */
+     , (664, 4, 628) /* Handy Healing Kit */
+     , (664, 4, 629) /* Adept Healing Kit */
+     , (664, 4, 4450) /* Heal Other I */
+     , (664, 4, 4589) /* Revitalize Other I */
+     , (664, 4, 4592) /* Mana Boost Other I */
+     , (664, 4, 4384) /* Strength Other I */
+     , (664, 4, 2621) /* Trade Note (100) */
+     , (664, 4, 2622) /* Trade Note (500) */;
 

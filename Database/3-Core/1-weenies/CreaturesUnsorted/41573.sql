@@ -44,3 +44,25 @@ VALUES (41573, 2, 99) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41573, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41573, 8, 20401) /* Scroll of Nullify Life Magic Self */
+     , (41573, 8, 2548) /* Sceptre */
+     , (41573, 8, 31794) /* Lancet */
+     , (41573, 8, 3867) /* Flaming Silifi */
+     , (41573, 8, 45116) /* Flaming Hammer */
+     , (41573, 8, 8326) /* Copper Pea */
+     , (41573, 8, 2417) /* Gem */
+     , (41573, 8, 25643) /* Leather Girth */
+     , (41573, 8, 545) /* Reliable Lockpick */
+     , (41573, 8, 4195) /* Nekode */
+     , (41573, 8, 116) /* Studded Leather Boots */
+     , (41573, 8, 25661) /* Leather Boots */
+     , (41573, 8, 21315) /* Scroll of Force Arc VII */
+     , (41573, 8, 30746) /* Dart Flinger */
+     , (41573, 8, 45336) /* Scroll of Sneak Attack Ineptitude Other V */
+     , (41573, 8, 41563) /* Gear Knight Core Fragment */
+     , (41573, 8, 306) /* Longbow */
+     , (41573, 8, 21156) /* Covenant Helm */;
+

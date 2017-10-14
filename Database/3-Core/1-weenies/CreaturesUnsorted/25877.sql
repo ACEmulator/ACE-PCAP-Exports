@@ -60,3 +60,31 @@ VALUES (25877, 2, 10) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25877, 64, 6000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25877, 8, 49216) /* Acid Skeleton Bushi Essence (125) */
+     , (25877, 8, 20502) /* Scroll of Jibril's Blessing */
+     , (25877, 8, 21152) /* Covenant Breastplate */
+     , (25877, 8, 414) /* Chainmail Breastplate */
+     , (25877, 8, 49243) /* Lightning Zombie Essence (125) */
+     , (25877, 8, 45412) /* Acid Spada */
+     , (25877, 8, 297) /* Ring */
+     , (25877, 8, 31799) /* Acid Compound Bow */
+     , (25877, 8, 45113) /* Hammer */
+     , (25877, 8, 20466) /* Scroll of Caustic Blessing */
+     , (25877, 8, 326) /* Katar */
+     , (25877, 8, 31764) /* Lugian Hammer */
+     , (25877, 8, 2412) /* Gem */
+     , (25877, 8, 21308) /* Scroll of Flame Arc VII */
+     , (25877, 8, 7771) /* Naginata */
+     , (25877, 8, 294) /* Amulet */
+     , (25877, 8, 83) /* Scalemail Leggings */
+     , (25877, 8, 22160) /* Lightning Nabut */
+     , (25877, 8, 49256) /* Frost Zombie Essence (100) */
+     , (25877, 8, 49548) /* Lightning Phyntos Wasp Essence (125) */
+     , (25877, 8, 22440) /* Dirk */
+     , (25877, 8, 2605) /* Chainmail Greaves */
+     , (25877, 8, 20486) /* Scroll of Enervation */
+     , (25877, 8, 42) /* Studded Leather Breastplate */;
+

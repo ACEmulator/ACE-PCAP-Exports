@@ -82,3 +82,75 @@ VALUES (34977, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (34977, 64, 1200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34977, 8, 49546) /* Lightning Phyntos Wasp Essence (80) */
+     , (34977, 8, 31788) /* Stick */
+     , (34977, 8, 28015) /* Scroll of Spirit Pacification */
+     , (34977, 8, 43308) /* Scroll of Nether Bolt VII */
+     , (34977, 8, 49527) /* Acid Phyntos Wasp Essence (125) */
+     , (34977, 8, 41041) /* Magari Yari */
+     , (34977, 8, 31814) /* Dark Blunt Slingshot */
+     , (34977, 8, 5901) /* Kasa */
+     , (34977, 8, 40708) /* Covenant Gauntlets */
+     , (34977, 8, 21155) /* Covenant Greaves */
+     , (34977, 8, 119) /* Cowl */
+     , (34977, 8, 354) /* Takuba */
+     , (34977, 8, 41483) /* Compass */
+     , (34977, 8, 415) /* Chainmail Girth */
+     , (34977, 8, 4191) /* Flaming Cestus */
+     , (34977, 8, 21329) /* Scroll of Lightning Arc VII */
+     , (34977, 8, 49361) /* Frost Moar Essence (100) */
+     , (34977, 8, 6047) /* Amuli Leggings */
+     , (34977, 8, 41040) /* Frost Assagai */
+     , (34977, 8, 40764) /* Frost Nodachi */
+     , (34977, 8, 44975) /* Hood */
+     , (34977, 8, 6353) /* Pyreal Mote */
+     , (34977, 8, 42751) /* Haebrean Girth */
+     , (34977, 8, 20408) /* Scroll of Tusker's Bane */
+     , (34977, 8, 20472) /* Scroll of Blessing of the Mace Turner */
+     , (34977, 8, 49236) /* Acid Zombie Essence (125) */
+     , (34977, 8, 49321) /* Lightning Wisp Essence (150) */
+     , (34977, 8, 43830) /* Sedgemail Leather Gauntlets */
+     , (34977, 8, 29250) /* Piercing Crossbow */
+     , (34977, 8, 27224) /* Lorica Leggings */
+     , (34977, 8, 49320) /* Lightning Wisp Essence (125) */
+     , (34977, 8, 7789) /* Acid Spiked Club */
+     , (34977, 8, 20574) /* Scroll of Web of Resistance */
+     , (34977, 8, 20597) /* Scroll of Koga's Boon */
+     , (34977, 8, 30611) /* Knuckles */
+     , (34977, 8, 40698) /* Covenant Gauntlets */
+     , (34977, 8, 44) /* Buckler */
+     , (34977, 8, 20446) /* Scroll of Outlander's Insolence */
+     , (34977, 8, 2402) /* Gem */
+     , (34977, 8, 29255) /* Fire Atlatl */
+     , (34977, 8, 49548) /* Lightning Phyntos Wasp Essence (125) */
+     , (34977, 8, 63) /* Studded Leather Girth */
+     , (34977, 8, 121) /* Gloves */
+     , (34977, 8, 624) /* Ring */
+     , (34977, 8, 2404) /* Gem */
+     , (34977, 8, 25648) /* Leather Pauldrons */
+     , (34977, 8, 49292) /* Lightning K'nath Essence (125) */
+     , (34977, 8, 49276) /* Frost Elemental Essence (80) */
+     , (34977, 8, 72) /* Platemail Hauberk */
+     , (34977, 8, 27222) /* Lorica Gauntlets */
+     , (34977, 8, 22163) /* Nabut */
+     , (34977, 8, 20494) /* Scroll of Unflinching Persistence */
+     , (34977, 8, 49424) /* Acid Spectre Essence (125) */
+     , (34977, 8, 42635) /* Aetheria */
+     , (34977, 8, 20410) /* Scroll of Tattercoat */
+     , (34977, 8, 20506) /* Scroll of Light Weapon Mastery Self VII */
+     , (34977, 8, 27225) /* Lorica Sleeves */
+     , (34977, 8, 25644) /* Leather Greaves */
+     , (34977, 8, 46882) /* Aura of Spirit Drinker Other VII */
+     , (34977, 8, 6003) /* Koujia Breastplate */
+     , (34977, 8, 49534) /* Fire Phyntos Wasp Essence (125) */
+     , (34977, 8, 49255) /* Frost Zombie Essence (80) */
+     , (34977, 8, 45338) /* Scroll of Sneak Attack Ineptitude Other VII */
+     , (34977, 8, 29248) /* Fire Crossbow */
+     , (34977, 8, 42749) /* Haebrean Breastplate */
+     , (34977, 8, 40712) /* Covenant Pauldrons */
+     , (34977, 8, 29251) /* Slashing Crossbow */
+     , (34977, 8, 31787) /* Flaming Claw */;
+

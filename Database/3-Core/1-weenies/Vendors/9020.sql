@@ -139,51 +139,51 @@ VALUES (9020, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (9020, 4, 4195)
-     , (9020, 4, 314)
-     , (9020, 4, 22158)
-     , (9020, 4, 327)
-     , (9020, 4, 336)
-     , (9020, 4, 353)
-     , (9020, 4, 356)
-     , (9020, 4, 362)
-     , (9020, 4, 359)
-     , (9020, 4, 310)
-     , (9020, 4, 9026)
-     , (9020, 4, 554)
-     , (9020, 4, 35)
-     , (9020, 4, 77)
-     , (9020, 4, 85)
-     , (9020, 4, 96)
-     , (9020, 4, 414)
-     , (9020, 4, 43)
-     , (9020, 4, 55)
-     , (9020, 4, 2605)
-     , (9020, 4, 108)
-     , (9020, 4, 415)
-     , (9020, 4, 90)
-     , (9020, 4, 416)
-     , (9020, 4, 413)
-     , (9020, 4, 78)
-     , (9020, 4, 64)
-     , (9020, 4, 2437)
-     , (9020, 4, 80)
-     , (9020, 4, 116)
-     , (9020, 4, 94)
-     , (9020, 4, 95)
-     , (9020, 4, 2621)
-     , (9020, 4, 2622)
-     , (9020, 4, 2623)
-     , (9020, 4, 2624)
-     , (9020, 4, 2625)
-     , (9020, 4, 2626)
-     , (9020, 4, 2627)
-     , (9020, 4, 20628)
-     , (9020, 4, 20629)
-     , (9020, 4, 20630);
+VALUES (9020, 4, 4195) /* Nekode */
+     , (9020, 4, 314) /* Dagger */
+     , (9020, 4, 22158) /* Jo */
+     , (9020, 4, 327) /* Ken */
+     , (9020, 4, 336) /* Ono */
+     , (9020, 4, 353) /* Tachi */
+     , (9020, 4, 356) /* Tofun */
+     , (9020, 4, 362) /* Yari */
+     , (9020, 4, 359) /* War Hammer */
+     , (9020, 4, 310) /* Throwing Club */
+     , (9020, 4, 9026) /* Peculiar Old Dagger */
+     , (9020, 4, 554) /* Studded Leather Basinet */
+     , (9020, 4, 35) /* Chainmail Basinet */
+     , (9020, 4, 77) /* Kabuton */
+     , (9020, 4, 85) /* Chainmail Coif */
+     , (9020, 4, 96) /* Chainmail Shirt */
+     , (9020, 4, 414) /* Chainmail Breastplate */
+     , (9020, 4, 43) /* Yoroi Breastplate */
+     , (9020, 4, 55) /* Chainmail Gauntlets */
+     , (9020, 4, 2605) /* Chainmail Greaves */
+     , (9020, 4, 108) /* Chainmail Tassets */
+     , (9020, 4, 415) /* Chainmail Girth */
+     , (9020, 4, 90) /* Yoroi Pauldrons */
+     , (9020, 4, 416) /* Chainmail Pauldrons */
+     , (9020, 4, 413) /* Chainmail Bracers */
+     , (9020, 4, 78) /* Kote */
+     , (9020, 4, 64) /* Yoroi Girth */
+     , (9020, 4, 2437) /* Yoroi Leggings */
+     , (9020, 4, 80) /* Chainmail Leggings */
+     , (9020, 4, 116) /* Studded Leather Boots */
+     , (9020, 4, 94) /* Diamond Shield */
+     , (9020, 4, 95) /* Tower Shield */
+     , (9020, 4, 2621) /* Trade Note (100) */
+     , (9020, 4, 2622) /* Trade Note (500) */
+     , (9020, 4, 2623) /* Trade Note (1,000) */
+     , (9020, 4, 2624) /* Trade Note (5,000) */
+     , (9020, 4, 2625) /* Trade Note (10,000) */
+     , (9020, 4, 2626) /* Trade Note (50,000) */
+     , (9020, 4, 2627) /* Trade Note (100,000) */
+     , (9020, 4, 20628) /* Trade Note (150,000) */
+     , (9020, 4, 20629) /* Trade Note (200,000) */
+     , (9020, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (9020, 2, 3905);
+VALUES (9020, 2, 3905) /* Acid War Hammer */;
 

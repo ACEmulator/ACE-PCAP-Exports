@@ -52,3 +52,19 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3981, 2, 0) /* OPEN_BOOL */
      , (3981, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3981, 8, 623) /* Heavy Necklace */
+     , (3981, 8, 44858) /* Quartered Cloak */
+     , (3981, 8, 149) /* Ewer */
+     , (3981, 8, 150) /* Flagon */
+     , (3981, 8, 624) /* Ring */
+     , (3981, 8, 2417) /* Gem */
+     , (3981, 8, 49338) /* Acid Moar Essence (50) */
+     , (3981, 8, 28610) /* Loafers */
+     , (3981, 8, 243) /* Dinner Plate */
+     , (3981, 8, 168) /* Tankard */
+     , (3981, 8, 2423) /* Gem */
+     , (3981, 8, 49303) /* Frost K'nath Essence (50) */;
+

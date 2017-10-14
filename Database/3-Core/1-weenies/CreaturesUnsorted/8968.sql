@@ -53,3 +53,47 @@ VALUES (8968, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8968, 64, 263) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8968, 8, 3417) /* Scroll of Magic Item Tinkering Expertise Self VI */
+     , (8968, 8, 40699) /* Covenant Girth */
+     , (8968, 8, 273) /* Pyreal */
+     , (8968, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (8968, 8, 2400) /* Gem */
+     , (8968, 8, 8331) /* Silver Pea */
+     , (8968, 8, 49387) /* Frost Grievver Essence (50) */
+     , (8968, 8, 40695) /* Covenant Sollerets */
+     , (8968, 8, 2424) /* Gem */
+     , (8968, 8, 80) /* Chainmail Leggings */
+     , (8968, 8, 45418) /* Lightning Knife */
+     , (8968, 8, 514) /* Excellent Lockpick */
+     , (8968, 8, 49421) /* Acid Spectre Essence (50) */
+     , (8968, 8, 2595) /* Baggy Tunic */
+     , (8968, 8, 154) /* Goblet */
+     , (8968, 8, 311) /* Heavy Crossbow */
+     , (8968, 8, 20503) /* Scroll of Jibril's Vitae */
+     , (8968, 8, 55) /* Chainmail Gauntlets */
+     , (8968, 8, 2423) /* Gem */
+     , (8968, 8, 6047) /* Amuli Leggings */
+     , (8968, 8, 631) /* Excellent Healing Kit */
+     , (8968, 8, 31769) /* Lugian Axe */
+     , (8968, 8, 20601) /* Scroll of Essence Void */
+     , (8968, 8, 554) /* Studded Leather Basinet */
+     , (8968, 8, 25642) /* Leather Gauntlets */
+     , (8968, 8, 3257) /* Scroll of Faithlessness VI */
+     , (8968, 8, 41488) /* Top */
+     , (8968, 8, 294) /* Amulet */
+     , (8968, 8, 45876) /* Scarlet Red Letter */
+     , (8968, 8, 30949) /* Diforsa Sleeves */
+     , (8968, 8, 3097) /* Scroll of Mana Depletion Other VI */
+     , (8968, 8, 630) /* Gifted Healing Kit */
+     , (8968, 8, 4191) /* Flaming Cestus */
+     , (8968, 8, 22157) /* Frost Jo */
+     , (8968, 8, 40696) /* Covenant Bracers */
+     , (8968, 8, 40820) /* Lightning Corsesca */
+     , (8968, 8, 142) /* Chalice */
+     , (8968, 8, 40712) /* Covenant Pauldrons */
+     , (8968, 8, 2404) /* Gem */
+     , (8968, 8, 45428) /* Lightning Jambiya */;
+

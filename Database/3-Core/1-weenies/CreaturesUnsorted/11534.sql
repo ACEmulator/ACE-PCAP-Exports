@@ -48,3 +48,79 @@ VALUES (11534, 2, 29) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11534, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11534, 8, 121) /* Gloves */
+     , (11534, 8, 3377) /* Scroll of Life Magic Mastery Self VI */
+     , (11534, 8, 273) /* Pyreal */
+     , (11534, 8, 2398) /* Gem */
+     , (11534, 8, 41483) /* Compass */
+     , (11534, 8, 2436) /* Greater Mana Stone */
+     , (11534, 8, 2422) /* Gem */
+     , (11534, 8, 2721) /* Scroll of Quickness Self VI */
+     , (11534, 8, 149) /* Ewer */
+     , (11534, 8, 2424) /* Gem */
+     , (11534, 8, 134) /* Tunic */
+     , (11534, 8, 8326) /* Copper Pea */
+     , (11534, 8, 5961) /* Scroll of Cooking Mastery Self VI */
+     , (11534, 8, 161) /* Mug */
+     , (11534, 8, 8331) /* Silver Pea */
+     , (11534, 8, 20329) /* Scroll of Nullify Creature Magic Self */
+     , (11534, 8, 2592) /* Puffy Tunic */
+     , (11534, 8, 2598) /* Baggy Pants */
+     , (11534, 8, 2435) /* Mana Stone */
+     , (11534, 8, 8925) /* Scroll of Flame Streak VI */
+     , (11534, 8, 84) /* Studded  Leggings */
+     , (11534, 8, 31868) /* Signet Crown */
+     , (11534, 8, 3382) /* Scroll of Lockpick Ineptitude VI */
+     , (11534, 8, 40701) /* Covenant Helm */
+     , (11534, 8, 124) /* Jerkin */
+     , (11534, 8, 7940) /* Empty Flask */
+     , (11534, 8, 4196) /* Flaming Nekode */
+     , (11534, 8, 150) /* Flagon */
+     , (11534, 8, 27330) /* Moderate Mana Stone */
+     , (11534, 8, 2408) /* Gem */
+     , (11534, 8, 20451) /* Scroll of Sudden Frost */
+     , (11534, 8, 41488) /* Top */
+     , (11534, 8, 2404) /* Gem */
+     , (11534, 8, 25649) /* Leather Shirt */
+     , (11534, 8, 2851) /* Scroll of Leaden Weapon VI */
+     , (11534, 8, 2643) /* Scroll of Clumsiness Other VI */
+     , (11534, 8, 357) /* Tungi */
+     , (11534, 8, 148) /* Cup */
+     , (11534, 8, 25647) /* Leather Pants */
+     , (11534, 8, 31760) /* Acid Dericost Blade */
+     , (11534, 8, 3562) /* Scroll of Vulnerability VI */
+     , (11534, 8, 163) /* Ornamental Bowl */
+     , (11534, 8, 48) /* Studded Leather Coat */
+     , (11534, 8, 31794) /* Lancet */
+     , (11534, 8, 2596) /* Doublet */
+     , (11534, 8, 28610) /* Loafers */
+     , (11534, 8, 2547) /* Staff */
+     , (11534, 8, 20519) /* Scroll of Finesse Weapon Ineptitude Other VII */
+     , (11534, 8, 20446) /* Scroll of Outlander's Insolence */
+     , (11534, 8, 127) /* Pants */
+     , (11534, 8, 8328) /* Iron Pea */
+     , (11534, 8, 154) /* Goblet */
+     , (11534, 8, 40695) /* Covenant Sollerets */
+     , (11534, 8, 2429) /* Gem */
+     , (11534, 8, 2431) /* Gem */
+     , (11534, 8, 20531) /* Scroll of Lilitha's Blessing */
+     , (11534, 8, 297) /* Ring */
+     , (11534, 8, 21153) /* Covenant Gauntlets */
+     , (11534, 8, 28608) /* Poet's Shirt */
+     , (11534, 8, 6005) /* Koujia Sleeves */
+     , (11534, 8, 3332) /* Scroll of Item Tinkering Ignorance VI */
+     , (11534, 8, 41294) /* Scroll of Greased Palms */
+     , (11534, 8, 312) /* Light Crossbow */
+     , (11534, 8, 20572) /* Scroll of Kaluhc's Blessing */
+     , (11534, 8, 21158) /* Covenant Shield */
+     , (11534, 8, 622) /* Necklace */
+     , (11534, 8, 20252) /* Scroll of Belly of Lead */
+     , (11534, 8, 49468) /* Scroll of Summoning Mastery Other VI */
+     , (11534, 8, 45345) /* Scroll of Sneak Attack Mastery Other VI */
+     , (11534, 8, 31866) /* Coronet */
+     , (11534, 8, 2396) /* Gem */
+     , (11534, 8, 339) /* Scimitar */;
+

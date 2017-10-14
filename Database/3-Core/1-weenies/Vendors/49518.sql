@@ -126,11 +126,11 @@ VALUES (49518, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (49518, 4, 48886)
-     , (49518, 4, 48890)
-     , (49518, 4, 48878)
-     , (49518, 4, 48888)
-     , (49518, 4, 48882)
-     , (49518, 4, 48880)
-     , (49518, 4, 48884);
+VALUES (49518, 4, 48886) /* Mud Golem Essence */
+     , (49518, 4, 48890) /* Sandstone Golem Essence */
+     , (49518, 4, 48878) /* Copper Golem Essence */
+     , (49518, 4, 48888) /* Oak Golem Essence */
+     , (49518, 4, 48882) /* Gold Golem Essence */
+     , (49518, 4, 48880) /* Coral Golem Essence */
+     , (49518, 4, 48884) /* Iron Golem Essence */;
 

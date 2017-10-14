@@ -55,3 +55,10 @@ VALUES (34974, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (34974, 64, 1834) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34974, 8, 20494) /* Scroll of Unflinching Persistence */
+     , (34974, 8, 7795) /* Frost Naginata */
+     , (34974, 8, 34963) /* Misshapen Bone Fragment */;
+

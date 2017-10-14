@@ -45,3 +45,16 @@ VALUES (2578, 2, 27) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2578, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2578, 8, 154) /* Goblet */
+     , (2578, 8, 513) /* Plain Lockpick */
+     , (2578, 8, 150) /* Flagon */
+     , (2578, 8, 2590) /* Baggy Shirt */
+     , (2578, 8, 27331) /* Minor Mana Stone */
+     , (2578, 8, 28612) /* Bandana */
+     , (2578, 8, 2415) /* Gem */
+     , (2578, 8, 42518) /* Coalesced Mana */
+     , (2578, 8, 21303) /* Scroll of Flame Arc II */;
+

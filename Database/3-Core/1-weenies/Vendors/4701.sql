@@ -125,19 +125,19 @@ VALUES (4701, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4701, 4, 364)
-     , (4701, 4, 365)
-     , (4701, 4, 367)
-     , (4701, 4, 5534)
-     , (4701, 4, 5538)
-     , (4701, 4, 5602)
-     , (4701, 4, 6419)
-     , (4701, 4, 5601)
-     , (4701, 4, 5584)
-     , (4701, 4, 5856)
-     , (4701, 4, 7884)
-     , (4701, 4, 14797)
-     , (4701, 4, 5586)
-     , (4701, 4, 24855)
-     , (4701, 4, 5587);
+VALUES (4701, 4, 364) /* Book */
+     , (4701, 4, 365) /* Parchment */
+     , (4701, 4, 367) /* Tome */
+     , (4701, 4, 5534) /* Enkindled Souls Directions */
+     , (4701, 4, 5538) /* Story of Winthura's Gardens */
+     , (4701, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (4701, 4, 6419) /* The Meeting Halls */
+     , (4701, 4, 5601) /* Altar of Asheron Rumor */
+     , (4701, 4, 5584) /* Gharu'ndim Cookbook */
+     , (4701, 4, 5856) /* Specialty Cookbook */
+     , (4701, 4, 7884) /* Chocolate Cookbook */
+     , (4701, 4, 14797) /* Festival Cookbook */
+     , (4701, 4, 5586) /* Alchemy Guide */
+     , (4701, 4, 24855) /* The New Alchemy */
+     , (4701, 4, 5587) /* Fletching Guide */;
 

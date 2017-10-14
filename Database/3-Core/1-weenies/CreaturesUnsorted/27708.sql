@@ -48,3 +48,10 @@ VALUES (27708, 2, 55) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27708, 64, 410) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27708, 8, 49332) /* Frost Wisp Essence (80) */
+     , (27708, 8, 2411) /* Gem */
+     , (27708, 8, 3764) /* Flaming Budiaq */;
+

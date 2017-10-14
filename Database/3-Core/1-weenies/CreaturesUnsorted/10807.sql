@@ -53,3 +53,49 @@ VALUES (10807, 2, 6) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (10807, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (10807, 8, 43306) /* Scroll of Nether Bolt V */
+     , (10807, 8, 20492) /* Scroll of Robustify */
+     , (10807, 8, 8328) /* Iron Pea */
+     , (10807, 8, 3695) /* Gold Tumerok Insignia */
+     , (10807, 8, 7897) /* Steel Toed Boots */
+     , (10807, 8, 94) /* Diamond Shield */
+     , (10807, 8, 41485) /* Pocket Watch */
+     , (10807, 8, 22156) /* Flaming Jo */
+     , (10807, 8, 2435) /* Mana Stone */
+     , (10807, 8, 31771) /* Lightning War Axe */
+     , (10807, 8, 2426) /* Gem */
+     , (10807, 8, 55) /* Chainmail Gauntlets */
+     , (10807, 8, 630) /* Gifted Healing Kit */
+     , (10807, 8, 49331) /* Frost Wisp Essence (50) */
+     , (10807, 8, 30616) /* Arbalest */
+     , (10807, 8, 311) /* Heavy Crossbow */
+     , (10807, 8, 363) /* Yumi */
+     , (10807, 8, 7790) /* Electric Spiked Club */
+     , (10807, 8, 793) /* Scalemail Coif */
+     , (10807, 8, 45322) /* Scroll of Shield Mastery Other VII */
+     , (10807, 8, 20493) /* Scroll of Tenaciousness */
+     , (10807, 8, 312) /* Light Crossbow */
+     , (10807, 8, 273) /* Pyreal */
+     , (10807, 8, 91) /* Kite Shield */
+     , (10807, 8, 31769) /* Lugian Axe */
+     , (10807, 8, 49475) /* Scroll of Summoning Mastery Self VI */
+     , (10807, 8, 45114) /* Acid Hammer */
+     , (10807, 8, 359) /* War Hammer */
+     , (10807, 8, 3311) /* Scroll of Item Enchantment Mastery Other V */
+     , (10807, 8, 631) /* Excellent Healing Kit */
+     , (10807, 8, 622) /* Necklace */
+     , (10807, 8, 63) /* Studded Leather Girth */
+     , (10807, 8, 28607) /* Lace Shirt */
+     , (10807, 8, 3852) /* Frost Scimitar */
+     , (10807, 8, 31759) /* Dericost Blade */
+     , (10807, 8, 25652) /* Leather Tassets */
+     , (10807, 8, 2599) /* Trousers */
+     , (10807, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (10807, 8, 2595) /* Baggy Tunic */
+     , (10807, 8, 43362) /* Scroll of Void Magic Mastery Other V */
+     , (10807, 8, 25638) /* Leather Vest */
+     , (10807, 8, 31787) /* Flaming Claw */;
+

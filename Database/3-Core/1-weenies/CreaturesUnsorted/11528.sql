@@ -41,3 +41,23 @@ VALUES (11528, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11528, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11528, 8, 53) /* Studded Leather Cuirass */
+     , (11528, 8, 8329) /* Lead Pea */
+     , (11528, 8, 622) /* Necklace */
+     , (11528, 8, 48) /* Studded Leather Coat */
+     , (11528, 8, 11350) /* Elaniwood Golem Heart */
+     , (11528, 8, 2547) /* Staff */
+     , (11528, 8, 273) /* Pyreal */
+     , (11528, 8, 2415) /* Gem */
+     , (11528, 8, 148) /* Cup */
+     , (11528, 8, 2434) /* Lesser Mana Stone */
+     , (11528, 8, 5974) /* Scroll of Fletching Mastery Self */
+     , (11528, 8, 27331) /* Minor Mana Stone */
+     , (11528, 8, 41486) /* Puzzle Box */
+     , (11528, 8, 25652) /* Leather Tassets */
+     , (11528, 8, 7940) /* Empty Flask */
+     , (11528, 8, 254) /* Stoup */;
+

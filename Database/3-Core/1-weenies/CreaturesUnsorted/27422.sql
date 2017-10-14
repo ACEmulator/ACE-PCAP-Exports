@@ -86,3 +86,9 @@ VALUES (27422, 2, 4) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27422, 64, 395) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27422, 8, 28622) /* Tenassa Leggings */
+     , (27422, 8, 93) /* Round Shield */;
+

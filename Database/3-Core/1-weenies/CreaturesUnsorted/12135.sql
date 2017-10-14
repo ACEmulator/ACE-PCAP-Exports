@@ -98,3 +98,41 @@ VALUES (12135, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12135, 64, 154) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12135, 8, 312) /* Light Crossbow */
+     , (12135, 8, 7791) /* Frost Trident */
+     , (12135, 8, 2597) /* Flared Pants */
+     , (12135, 8, 2435) /* Mana Stone */
+     , (12135, 8, 5850) /* Faran Robe */
+     , (12135, 8, 49247) /* Fire Zombie Essence (50) */
+     , (12135, 8, 20640) /* Royal Atlatl */
+     , (12135, 8, 134) /* Tunic */
+     , (12135, 8, 27319) /* Health Tincture */
+     , (12135, 8, 295) /* Bracelet */
+     , (12135, 8, 25641) /* Leather Cuirass */
+     , (12135, 8, 2600) /* Pantaloons */
+     , (12135, 8, 629) /* Adept Healing Kit */
+     , (12135, 8, 363) /* Yumi */
+     , (12135, 8, 44) /* Buckler */
+     , (12135, 8, 294) /* Amulet */
+     , (12135, 8, 377) /* Potion of Healing */
+     , (12135, 8, 2417) /* Gem */
+     , (12135, 8, 30609) /* Frost Bastone */
+     , (12135, 8, 8329) /* Lead Pea */
+     , (12135, 8, 42518) /* Coalesced Mana */
+     , (12135, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (12135, 8, 622) /* Necklace */
+     , (12135, 8, 379) /* Mana Potion */
+     , (12135, 8, 49442) /* Frost Spectre Essence (50) */
+     , (12135, 8, 8328) /* Iron Pea */
+     , (12135, 8, 341) /* Shouyumi */
+     , (12135, 8, 25647) /* Leather Pants */
+     , (12135, 8, 2599) /* Trousers */
+     , (12135, 8, 30625) /* War Bow */
+     , (12135, 8, 630) /* Gifted Healing Kit */
+     , (12135, 8, 243) /* Dinner Plate */
+     , (12135, 8, 49310) /* Acid Wisp Essence (50) */
+     , (12135, 8, 351) /* Long Sword */;
+

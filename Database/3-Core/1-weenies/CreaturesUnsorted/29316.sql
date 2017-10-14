@@ -35,3 +35,15 @@ VALUES (29316, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29316, 19, True) /* ATTACKABLE_BOOL */
      , (29316, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29316, 8, 9612) /* Scroll of Mana Ineptitude Other V */
+     , (29316, 8, 27330) /* Moderate Mana Stone */
+     , (29316, 8, 273) /* Pyreal */
+     , (29316, 8, 84) /* Studded  Leggings */
+     , (29316, 8, 8326) /* Copper Pea */
+     , (29316, 8, 8328) /* Iron Pea */
+     , (29316, 8, 45875) /* Lucky Gold Letter */
+     , (29316, 8, 9654) /* Scroll of Stamina to Health Self VI */;
+

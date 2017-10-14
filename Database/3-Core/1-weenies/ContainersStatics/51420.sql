@@ -23,7 +23,7 @@ VALUES (51420, 53, 101) /* PLACEMENT_POSITION_INT */
      , (51420, 6, 11) /* ITEMS_CAPACITY_INT */
      , (51420, 16, 48) /* ITEM_USEABLE_INT */
      , (51420, 93, 66576) /* PHYSICS_STATE_INT */
-     , (51420, 9007, 21) /* Container_WeenieType */;
+     , (51420, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (51420, 54, 1) /* USE_RADIUS_FLOAT */;

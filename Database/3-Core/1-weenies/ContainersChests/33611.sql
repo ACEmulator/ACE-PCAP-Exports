@@ -52,3 +52,15 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (33611, 2, 0) /* OPEN_BOOL */
      , (33611, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33611, 8, 41513) /* Pathwarden Trinket */
+     , (33611, 8, 40455) /* Pathwarden Robe */
+     , (33611, 8, 4616) /* Great Mana Charge */
+     , (33611, 8, 33607) /* Pathwarden Helm */
+     , (33611, 8, 33606) /* Pathwarden Gauntlets */
+     , (33611, 8, 33605) /* Pathwarden Sollerets */
+     , (33611, 8, 33603) /* Pathwarden Yoroi Leggings */
+     , (33611, 8, 33599) /* Pathwarden Yoroi Hauberk */;
+

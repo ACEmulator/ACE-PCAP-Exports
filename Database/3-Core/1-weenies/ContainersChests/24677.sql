@@ -50,3 +50,22 @@ VALUES (24677, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (24677, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24677, 8, 42518) /* Coalesced Mana */
+     , (24677, 8, 91) /* Kite Shield */
+     , (24677, 8, 2435) /* Mana Stone */
+     , (24677, 8, 31791) /* Flaming Stick */
+     , (24677, 8, 2749) /* Scroll of Weakness Other IV */
+     , (24677, 8, 622) /* Necklace */
+     , (24677, 8, 20640) /* Royal Atlatl */
+     , (24677, 8, 76) /* Qafiya */
+     , (24677, 8, 8488) /* Armet */
+     , (24677, 8, 7772) /* Trident */
+     , (24677, 8, 49366) /* Acid Grievver Essence (50) */
+     , (24677, 8, 44) /* Buckler */
+     , (24677, 8, 45421) /* Dagger */
+     , (24677, 8, 27331) /* Minor Mana Stone */
+     , (24677, 8, 334) /* Nayin */;
+

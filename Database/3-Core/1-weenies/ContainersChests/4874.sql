@@ -52,3 +52,17 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4874, 2, 0) /* OPEN_BOOL */
      , (4874, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4874, 8, 4197) /* Acid Nekode */
+     , (4874, 8, 31787) /* Flaming Claw */
+     , (4874, 8, 40760) /* Nodachi */
+     , (4874, 8, 31782) /* Fire Spine Glaive */
+     , (4874, 8, 312) /* Light Crossbow */
+     , (4874, 8, 99) /* Studded Leather Shirt */
+     , (4874, 8, 31788) /* Stick */
+     , (4874, 8, 2635) /* Scroll of Bafflement Other III */
+     , (4874, 8, 25652) /* Leather Tassets */
+     , (4874, 8, 9641) /* Scroll of Mana to Health Self III */;
+

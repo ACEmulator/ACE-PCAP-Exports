@@ -131,55 +131,55 @@ VALUES (982, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (982, 4, 41509)
-     , (982, 4, 41507)
-     , (982, 4, 41419)
-     , (982, 4, 41423)
-     , (982, 4, 41396)
-     , (982, 4, 41420)
-     , (982, 4, 41418)
-     , (982, 4, 41744)
-     , (982, 4, 308)
-     , (982, 4, 316)
-     , (982, 4, 325)
-     , (982, 4, 329)
-     , (982, 4, 22163)
-     , (982, 4, 345)
-     , (982, 4, 357)
-     , (982, 4, 551)
-     , (982, 4, 115)
-     , (982, 4, 36)
-     , (982, 4, 39)
-     , (982, 4, 45)
-     , (982, 4, 458)
-     , (982, 4, 56)
-     , (982, 4, 60)
-     , (982, 4, 65)
-     , (982, 4, 109)
-     , (982, 4, 81)
-     , (982, 4, 86)
-     , (982, 4, 44)
-     , (982, 4, 360)
-     , (982, 4, 300)
-     , (982, 4, 4586)
-     , (982, 4, 4585)
-     , (982, 4, 5778)
-     , (982, 4, 258)
-     , (982, 4, 4761)
-     , (982, 4, 4746)
-     , (982, 4, 4762)
-     , (982, 4, 365)
-     , (982, 4, 293)
-     , (982, 4, 513)
-     , (982, 4, 545)
-     , (982, 4, 9295)
-     , (982, 4, 20646)
-     , (982, 4, 21093)
-     , (982, 4, 23044)
-     , (982, 4, 23204)
-     , (982, 4, 136)
-     , (982, 4, 139)
-     , (982, 4, 2621)
-     , (982, 4, 42979)
-     , (982, 4, 43022);
+VALUES (982, 4, 41509) /* Minor Item Tinkering Armature */
+     , (982, 4, 41507) /* Moderate Item Tinkering Armature */
+     , (982, 4, 41419) /* Sheet Metal Form */
+     , (982, 4, 41423) /* Medal Mold */
+     , (982, 4, 41396) /* Handle Mold */
+     , (982, 4, 41420) /* Hammer */
+     , (982, 4, 41418) /* Leather Strap */
+     , (982, 4, 41744) /* A Comprehensive Guide to Gearcrafting */
+     , (982, 4, 308) /* Budiaq */
+     , (982, 4, 316) /* Throwing Dart */
+     , (982, 4, 325) /* Kasrullah */
+     , (982, 4, 329) /* Knife */
+     , (982, 4, 22163) /* Nabut */
+     , (982, 4, 345) /* Simi */
+     , (982, 4, 357) /* Tungi */
+     , (982, 4, 551) /* Basinet */
+     , (982, 4, 115) /* Leather Boots */
+     , (982, 4, 36) /* Leather Bracers */
+     , (982, 4, 39) /* Leather Breastplate */
+     , (982, 4, 45) /* Leather Cap */
+     , (982, 4, 458) /* Leather Cowl */
+     , (982, 4, 56) /* Leather Gauntlets */
+     , (982, 4, 60) /* Olthoi Celdon Girth */
+     , (982, 4, 65) /* Olthoi Greaves */
+     , (982, 4, 109) /* Olthoi Tassets */
+     , (982, 4, 81) /* Leggings */
+     , (982, 4, 86) /* Leather Pauldrons */
+     , (982, 4, 44) /* Buckler */
+     , (982, 4, 360) /* Yag */
+     , (982, 4, 300) /* Arrow */
+     , (982, 4, 4586) /* Bundle of Arrowheads */
+     , (982, 4, 4585) /* Bundle of Arrowshafts */
+     , (982, 4, 5778) /* Whittling Knife */
+     , (982, 4, 258) /* Apple */
+     , (982, 4, 4761) /* Flour */
+     , (982, 4, 4746) /* Water */
+     , (982, 4, 4762) /* Frying Pan */
+     , (982, 4, 365) /* Parchment */
+     , (982, 4, 293) /* Torch */
+     , (982, 4, 513) /* Plain Lockpick */
+     , (982, 4, 545) /* Reliable Lockpick */
+     , (982, 4, 9295) /* Intricate Carving Tool */
+     , (982, 4, 20646) /* Ust */
+     , (982, 4, 21093) /* Tinkering */
+     , (982, 4, 23044) /* On the Abilities of Salvaged Ivory */
+     , (982, 4, 23204) /* Carving Keys and Keyrings */
+     , (982, 4, 136) /* Pack */
+     , (982, 4, 139) /* Small Belt Pouch */
+     , (982, 4, 2621) /* Trade Note (100) */
+     , (982, 4, 42979) /* Core Plating Integrator */
+     , (982, 4, 43022) /* Core Plating Deintegrator */;
 

@@ -35,3 +35,8 @@ VALUES (53376, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (53376, 19, True) /* ATTACKABLE_BOOL */
      , (53376, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (53376, 8, 40700) /* Covenant Greaves */;
+

@@ -46,3 +46,10 @@ VALUES (8815, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8815, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8815, 8, 49421) /* Acid Spectre Essence (50) */
+     , (8815, 8, 149) /* Ewer */
+     , (8815, 8, 21158) /* Covenant Shield */;
+

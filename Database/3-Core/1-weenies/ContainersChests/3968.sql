@@ -52,3 +52,21 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3968, 2, 0) /* OPEN_BOOL */
      , (3968, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3968, 8, 20554) /* Scroll of Harlune's Blessing */
+     , (3968, 8, 20440) /* Scroll of Ilservian's Flame */
+     , (3968, 8, 2434) /* Lesser Mana Stone */
+     , (3968, 8, 3734) /* Scroll of Infuse Health V */
+     , (3968, 8, 273) /* Pyreal */
+     , (3968, 8, 28610) /* Loafers */
+     , (3968, 8, 2422) /* Gem */
+     , (3968, 8, 2406) /* Gem */
+     , (3968, 8, 243) /* Dinner Plate */
+     , (3968, 8, 254) /* Stoup */
+     , (3968, 8, 2601) /* Loose Pants */
+     , (3968, 8, 2603) /* Baggy Breeches */
+     , (3968, 8, 41483) /* Compass */
+     , (3968, 8, 312) /* Light Crossbow */;
+

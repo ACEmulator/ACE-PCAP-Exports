@@ -35,3 +35,14 @@ VALUES (29313, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29313, 19, True) /* ATTACKABLE_BOOL */
      , (29313, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29313, 8, 2601) /* Loose Pants */
+     , (29313, 8, 2590) /* Baggy Shirt */
+     , (29313, 8, 8331) /* Silver Pea */
+     , (29313, 8, 22158) /* Jo */
+     , (29313, 8, 127) /* Pants */
+     , (29313, 8, 273) /* Pyreal */
+     , (29313, 8, 5789) /* Brown Lump */;
+

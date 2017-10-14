@@ -45,3 +45,10 @@ VALUES (25855, 2, 53) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25855, 64, 950) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25855, 8, 6043) /* Celdon Girth */
+     , (25855, 8, 273) /* Pyreal */
+     , (25855, 8, 8331) /* Silver Pea */;
+

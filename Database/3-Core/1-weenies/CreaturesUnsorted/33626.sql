@@ -41,3 +41,38 @@ VALUES (33626, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33626, 67116774, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33626, 8, 25648) /* Leather Pauldrons */
+     , (33626, 8, 621) /* Heavy Bracelet */
+     , (33626, 8, 49431) /* Lightning Spectre Essence (125) */
+     , (33626, 8, 49535) /* Fire Phyntos Wasp Essence (150) */
+     , (33626, 8, 49370) /* Acid Grievver Essence (150) */
+     , (33626, 8, 37209) /* Olthoi Celdon Sollerets */
+     , (33626, 8, 6005) /* Koujia Sleeves */
+     , (33626, 8, 41488) /* Top */
+     , (33626, 8, 130) /* Shirt */
+     , (33626, 8, 44469) /* Lesser Corrupted Essence */
+     , (33626, 8, 27325) /* Stamina Philtre */
+     , (33626, 8, 20533) /* Scroll of Avalenne's Boon */
+     , (33626, 8, 44852) /* Chevron Cloak */
+     , (33626, 8, 27320) /* Health Tonic */
+     , (33626, 8, 142) /* Chalice */
+     , (33626, 8, 7796) /* Fire Naginata */
+     , (33626, 8, 6047) /* Amuli Leggings */
+     , (33626, 8, 28620) /* Alduressa Leggings */
+     , (33626, 8, 30582) /* Lightning Mazule */
+     , (33626, 8, 30609) /* Frost Bastone */
+     , (33626, 8, 27229) /* Nariyid Girth */
+     , (33626, 8, 27321) /* Mana Philtre */
+     , (33626, 8, 20512) /* Scroll of Morimoto's Blessing */
+     , (33626, 8, 31794) /* Lancet */
+     , (33626, 8, 31788) /* Stick */
+     , (33626, 8, 31802) /* Fire Compound Bow */
+     , (33626, 8, 20526) /* Scroll of Sashi Mu's Kiss */
+     , (33626, 8, 20240) /* Scroll of Calming Gaze */
+     , (33626, 8, 3905) /* Acid War Hammer */
+     , (33626, 8, 27328) /* Major Mana Stone */
+     , (33626, 8, 516) /* Peerless Lockpick */;
+

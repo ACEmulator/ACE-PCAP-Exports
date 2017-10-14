@@ -51,3 +51,15 @@ VALUES (37099, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (37099, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37099, 8, 41070) /* Flaming Shashqa */
+     , (37099, 8, 37090) /* Raider Captain's Resonator */
+     , (37099, 8, 414) /* Chainmail Breastplate */
+     , (37099, 8, 20407) /* Scroll of Pacification */
+     , (37099, 8, 28632) /* Diforsa Gauntlets */
+     , (37099, 8, 624) /* Ring */
+     , (37099, 8, 20461) /* Scroll of Cameron's Curse */
+     , (37099, 8, 28634) /* Diforsa Greaves */;
+

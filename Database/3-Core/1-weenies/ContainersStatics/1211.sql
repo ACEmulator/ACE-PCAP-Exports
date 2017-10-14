@@ -23,7 +23,7 @@ VALUES (1211, 1, 512) /* ITEM_TYPE_INT */
      , (1211, 6, 120) /* ITEMS_CAPACITY_INT */
      , (1211, 16, 48) /* ITEM_USEABLE_INT */
      , (1211, 93, 1048) /* PHYSICS_STATE_INT */
-     , (1211, 9007, 21) /* Container_WeenieType */;
+     , (1211, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (1211, 54, 1) /* USE_RADIUS_FLOAT */
@@ -47,4 +47,9 @@ VALUES (1211, 19, 0) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1211, 2, 0) /* OPEN_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1211, 8, 6843) /* Mysterious Note */;
 

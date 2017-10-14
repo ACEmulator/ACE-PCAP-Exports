@@ -95,3 +95,9 @@ VALUES (31408, 16, 16795640)
      , (31408, 4, 16781816)
      , (31408, 8, 16781817);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31408, 8, 21154) /* Covenant Girth */
+     , (31408, 8, 31393) /* Mitts of the Hunter */;
+

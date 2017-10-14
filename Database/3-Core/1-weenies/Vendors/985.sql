@@ -128,24 +128,24 @@ VALUES (985, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (985, 4, 2464)
-     , (985, 4, 2465)
-     , (985, 4, 2469)
-     , (985, 4, 2463)
-     , (985, 4, 2454)
-     , (985, 4, 8378)
-     , (985, 4, 4712)
-     , (985, 4, 4723)
-     , (985, 4, 4718)
-     , (985, 4, 261)
-     , (985, 4, 1506)
-     , (985, 4, 1508)
-     , (985, 4, 11929)
-     , (985, 4, 12146)
-     , (985, 4, 15808)
-     , (985, 4, 20229)
-     , (985, 4, 24222)
-     , (985, 4, 35043)
-     , (985, 4, 13201)
-     , (985, 4, 22730);
+VALUES (985, 4, 2464) /* Orange Juice */
+     , (985, 4, 2465) /* Palm Wine */
+     , (985, 4, 2469) /* Small Beer */
+     , (985, 4, 2463) /* Milk */
+     , (985, 4, 2454) /* Coffee */
+     , (985, 4, 8378) /* Beer Stein */
+     , (985, 4, 4712) /* Beef Rice */
+     , (985, 4, 4723) /* Fish Kebab */
+     , (985, 4, 4718) /* Chicken Rice */
+     , (985, 4, 261) /* Cheese */
+     , (985, 4, 1506) /* Legend of the Undead Defender */
+     , (985, 4, 1508) /* Alphus Range Directions */
+     , (985, 4, 11929) /* A Call To Arms */
+     , (985, 4, 12146) /* Simulacra Rumor */
+     , (985, 4, 15808) /* Plea for Help */
+     , (985, 4, 20229) /* Rumor of an Artifact */
+     , (985, 4, 24222) /* Duplicated Portals */
+     , (985, 4, 35043) /* Halls of Metos */
+     , (985, 4, 13201) /* Gharu'ndim Festival Light */
+     , (985, 4, 22730) /* Holiday Pole */;
 

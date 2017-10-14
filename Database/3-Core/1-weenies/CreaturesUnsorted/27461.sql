@@ -53,3 +53,19 @@ VALUES (27461, 2, 6) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27461, 64, 2000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27461, 8, 41041) /* Magari Yari */
+     , (27461, 8, 108) /* Chainmail Tassets */
+     , (27461, 8, 3820) /* Flaming Katar */
+     , (27461, 8, 7772) /* Trident */
+     , (27461, 8, 83) /* Scalemail Leggings */
+     , (27461, 8, 29265) /* Winter Orb */
+     , (27461, 8, 515) /* Superb Lockpick */
+     , (27461, 8, 40709) /* Covenant Girth */
+     , (27461, 8, 71) /* Chainmail Hauberk */
+     , (27461, 8, 2408) /* Gem */
+     , (27461, 8, 27456) /* A Broken Insignia Ring */
+     , (27461, 8, 6876) /* Sturdy Iron Key */;
+

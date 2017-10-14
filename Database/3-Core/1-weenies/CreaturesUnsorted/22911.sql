@@ -79,3 +79,47 @@ VALUES (22911, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22911, 64, 535) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22911, 8, 55) /* Chainmail Gauntlets */
+     , (22911, 8, 27330) /* Moderate Mana Stone */
+     , (22911, 8, 135) /* Turban */
+     , (22911, 8, 2436) /* Greater Mana Stone */
+     , (22911, 8, 2395) /* Gem */
+     , (22911, 8, 8327) /* Gold Pea */
+     , (22911, 8, 28610) /* Loafers */
+     , (22911, 8, 8331) /* Silver Pea */
+     , (22911, 8, 624) /* Ring */
+     , (22911, 8, 27328) /* Major Mana Stone */
+     , (22911, 8, 2398) /* Gem */
+     , (22911, 8, 2396) /* Gem */
+     , (22911, 8, 8326) /* Copper Pea */
+     , (22911, 8, 72) /* Platemail Hauberk */
+     , (22911, 8, 273) /* Pyreal */
+     , (22911, 8, 106) /* Yoroi Sleeves */
+     , (22911, 8, 130) /* Shirt */
+     , (22911, 8, 22440) /* Dirk */
+     , (22911, 8, 2598) /* Baggy Pants */
+     , (22911, 8, 149) /* Ewer */
+     , (22911, 8, 20542) /* Scroll of Yoshi's Boon */
+     , (22911, 8, 40713) /* Covenant Shield */
+     , (22911, 8, 142) /* Chalice */
+     , (22911, 8, 7768) /* Spiked Club */
+     , (22911, 8, 41484) /* Goggles */
+     , (22911, 8, 22160) /* Lightning Nabut */
+     , (22911, 8, 45425) /* Frost Dagger */
+     , (22911, 8, 2403) /* Gem */
+     , (22911, 8, 31868) /* Signet Crown */
+     , (22911, 8, 118) /* Cloth Cap */
+     , (22911, 8, 295) /* Bracelet */
+     , (22911, 8, 59) /* Studded Leather Gauntlets */
+     , (22911, 8, 5901) /* Kasa */
+     , (22911, 8, 413) /* Chainmail Bracers */
+     , (22911, 8, 20496) /* Scroll of Silencia's Boon */
+     , (22911, 8, 20522) /* Scroll of Hearts on Sleeves */
+     , (22911, 8, 154) /* Goblet */
+     , (22911, 8, 20255) /* Scroll of Senescence */
+     , (22911, 8, 2589) /* Smock */
+     , (22911, 8, 150) /* Flagon */;
+

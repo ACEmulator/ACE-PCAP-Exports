@@ -41,3 +41,24 @@ VALUES (181, 2, 11) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (181, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (181, 8, 7897) /* Steel Toed Boots */
+     , (181, 8, 49485) /* Encapsulated Spirit */
+     , (181, 8, 49352) /* Fire Moar Essence (50) */
+     , (181, 8, 3438) /* Scroll of Monster Attunement Other II */
+     , (181, 8, 45108) /* Schlager */
+     , (181, 8, 379) /* Mana Potion */
+     , (181, 8, 148) /* Cup */
+     , (181, 8, 45120) /* Lightning Hand Wraps */
+     , (181, 8, 132) /* Shoes */
+     , (181, 8, 25643) /* Leather Girth */
+     , (181, 8, 273) /* Pyreal */
+     , (181, 8, 118) /* Cloth Cap */
+     , (181, 8, 2595) /* Baggy Tunic */
+     , (181, 8, 297) /* Ring */
+     , (181, 8, 45396) /* Short Sword */
+     , (181, 8, 2604) /* Wide Breeches */
+     , (181, 8, 2434) /* Lesser Mana Stone */;
+

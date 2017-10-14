@@ -41,3 +41,10 @@ VALUES (12027, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12027, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12027, 8, 2770) /* Scroll of Acid Lure V */
+     , (12027, 8, 7771) /* Naginata */
+     , (12027, 8, 378) /* Stamina Potion */;
+

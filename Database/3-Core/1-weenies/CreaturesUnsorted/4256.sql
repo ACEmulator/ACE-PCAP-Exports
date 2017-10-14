@@ -48,3 +48,19 @@ VALUES (4256, 2, 36) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4256, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4256, 8, 2414) /* Gem */
+     , (4256, 8, 27331) /* Minor Mana Stone */
+     , (4256, 8, 273) /* Pyreal */
+     , (4256, 8, 295) /* Bracelet */
+     , (4256, 8, 30615) /* Acid Knuckles */
+     , (4256, 8, 8329) /* Lead Pea */
+     , (4256, 8, 297) /* Ring */
+     , (4256, 8, 2434) /* Lesser Mana Stone */
+     , (4256, 8, 2366) /* Orb */
+     , (4256, 8, 2417) /* Gem */
+     , (4256, 8, 296) /* Crown */
+     , (4256, 8, 168) /* Tankard */;
+

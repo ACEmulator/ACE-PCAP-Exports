@@ -41,3 +41,22 @@ VALUES (47153, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (47153, 64, 5985) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (47153, 8, 20463) /* Scroll of Evisceration */
+     , (47153, 8, 27222) /* Lorica Gauntlets */
+     , (47153, 8, 2407) /* Gem */
+     , (47153, 8, 63) /* Studded Leather Girth */
+     , (47153, 8, 20532) /* Scroll of Unsteady Hands */
+     , (47153, 8, 5901) /* Kasa */
+     , (47153, 8, 40635) /* Tetsubo */
+     , (47153, 8, 27318) /* Health Philtre */
+     , (47153, 8, 43335) /* Scroll of Festering Curse VII */
+     , (47153, 8, 31769) /* Lugian Axe */
+     , (47153, 8, 20252) /* Scroll of Belly of Lead */
+     , (47153, 8, 28622) /* Tenassa Leggings */
+     , (47153, 8, 21159) /* Covenant Tassets */
+     , (47153, 8, 31796) /* Lightning Lancet */
+     , (47153, 8, 6005) /* Koujia Sleeves */;
+

@@ -39,3 +39,13 @@ VALUES (4112, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (4112, 67112468, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4112, 8, 42518) /* Coalesced Mana */
+     , (4112, 8, 2416) /* Gem */
+     , (4112, 8, 161) /* Mug */
+     , (4112, 8, 27331) /* Minor Mana Stone */
+     , (4112, 8, 295) /* Bracelet */
+     , (4112, 8, 296) /* Crown */;
+

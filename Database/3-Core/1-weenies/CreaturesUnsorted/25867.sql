@@ -45,3 +45,16 @@ VALUES (25867, 2, 54) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25867, 64, 4000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25867, 8, 45423) /* Lightning Dagger */
+     , (25867, 8, 2599) /* Trousers */
+     , (25867, 8, 243) /* Dinner Plate */
+     , (25867, 8, 41062) /* Khanda-handled Mace */
+     , (25867, 8, 31779) /* Spine Glaive */
+     , (25867, 8, 43052) /* Knorr Academy Pauldrons */
+     , (25867, 8, 154) /* Goblet */
+     , (25867, 8, 295) /* Bracelet */
+     , (25867, 8, 2422) /* Gem */;
+

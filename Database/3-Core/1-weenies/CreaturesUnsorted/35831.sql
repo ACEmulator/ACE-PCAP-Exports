@@ -64,3 +64,30 @@ VALUES (35831, 2, 3) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35831, 64, 2500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35831, 8, 621) /* Heavy Bracelet */
+     , (35831, 8, 55) /* Chainmail Gauntlets */
+     , (35831, 8, 49277) /* Frost Elemental Essence (100) */
+     , (35831, 8, 28610) /* Loafers */
+     , (35831, 8, 29257) /* Piercing Atlatl */
+     , (35831, 8, 41488) /* Top */
+     , (35831, 8, 45118) /* Hand Wraps */
+     , (35831, 8, 3805) /* Frost Jitte */
+     , (35831, 8, 27225) /* Lorica Sleeves */
+     , (35831, 8, 29250) /* Piercing Crossbow */
+     , (35831, 8, 2589) /* Smock */
+     , (35831, 8, 41061) /* Frost Great Star Mace */
+     , (35831, 8, 6043) /* Celdon Girth */
+     , (35831, 8, 46883) /* Aura of Swift Killer Other VII */
+     , (35831, 8, 20554) /* Scroll of Harlune's Blessing */
+     , (35831, 8, 27222) /* Lorica Gauntlets */
+     , (35831, 8, 40704) /* Covenant Tassets */
+     , (35831, 8, 2411) /* Gem */
+     , (35831, 8, 25639) /* Leather Jerkin */
+     , (35831, 8, 25651) /* Leather Sleeves */
+     , (35831, 8, 121) /* Gloves */
+     , (35831, 8, 29244) /* Slashing Bow */
+     , (35831, 8, 353) /* Tachi */;
+

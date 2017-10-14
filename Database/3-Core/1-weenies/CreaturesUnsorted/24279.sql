@@ -64,3 +64,37 @@ VALUES (24279, 2, 3) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24279, 64, 413) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24279, 8, 2404) /* Gem */
+     , (24279, 8, 45115) /* Lightning Hammer */
+     , (24279, 8, 2412) /* Gem */
+     , (24279, 8, 49242) /* Lightning Zombie Essence (100) */
+     , (24279, 8, 20248) /* Scroll of Ogfoot */
+     , (24279, 8, 45395) /* Rapier */
+     , (24279, 8, 2424) /* Gem */
+     , (24279, 8, 20519) /* Scroll of Finesse Weapon Ineptitude Other VII */
+     , (24279, 8, 25638) /* Leather Vest */
+     , (24279, 8, 30915) /* Halaetan Magic Page 10 */
+     , (24279, 8, 7897) /* Steel Toed Boots */
+     , (24279, 8, 623) /* Heavy Necklace */
+     , (24279, 8, 6044) /* Celdon Breastplate */
+     , (24279, 8, 2425) /* Gem */
+     , (24279, 8, 2421) /* Gem */
+     , (24279, 8, 20463) /* Scroll of Evisceration */
+     , (24279, 8, 20431) /* Scroll of Corrosive Flash */
+     , (24279, 8, 49422) /* Acid Spectre Essence (80) */
+     , (24279, 8, 27228) /* Nariyid Gauntlets */
+     , (24279, 8, 20543) /* Scroll of Yoshi's Blessing */
+     , (24279, 8, 6005) /* Koujia Sleeves */
+     , (24279, 8, 20596) /* Scroll of Hieromancer's Blessing */
+     , (24279, 8, 31782) /* Fire Spine Glaive */
+     , (24279, 8, 20481) /* Scroll of Storm's Blessing */
+     , (24279, 8, 24837) /* Gloom Drudge Charm */
+     , (24279, 8, 46) /* Metal Cap */
+     , (24279, 8, 2596) /* Doublet */
+     , (24279, 8, 142) /* Chalice */
+     , (24279, 8, 31778) /* Frost Spine Glaive */
+     , (24279, 8, 2591) /* Puffy Shirt */;
+

@@ -117,3 +117,11 @@ VALUES (189, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (189, 64, 245) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (189, 8, 723) /* Studded Leather Cowl */
+     , (189, 8, 20536) /* Scroll of Aura of Deflection */
+     , (189, 8, 12463) /* Atlatl */
+     , (189, 8, 2436) /* Greater Mana Stone */;
+

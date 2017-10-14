@@ -49,3 +49,26 @@ VALUES (11527, 2, 15) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11527, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11527, 8, 20640) /* Royal Atlatl */
+     , (11527, 8, 512) /* Good Lockpick */
+     , (11527, 8, 132) /* Shoes */
+     , (11527, 8, 49485) /* Encapsulated Spirit */
+     , (11527, 8, 296) /* Crown */
+     , (11527, 8, 84) /* Studded  Leggings */
+     , (11527, 8, 67) /* Scalemail Greaves */
+     , (11527, 8, 2548) /* Sceptre */
+     , (11527, 8, 3060) /* Scroll of Lightning Vulnerability Other IV */
+     , (11527, 8, 2591) /* Puffy Shirt */
+     , (11527, 8, 2601) /* Loose Pants */
+     , (11527, 8, 4220) /* Scroll of Drain Health Other IV */
+     , (11527, 8, 64) /* Yoroi Girth */
+     , (11527, 8, 629) /* Adept Healing Kit */
+     , (11527, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (11527, 8, 46870) /* Aura of Hermetic Link Other IV */
+     , (11527, 8, 4194) /* Lightning Cestus */
+     , (11527, 8, 3236) /* Scroll of Deception Ineptitude V */
+     , (11527, 8, 31779) /* Spine Glaive */;
+

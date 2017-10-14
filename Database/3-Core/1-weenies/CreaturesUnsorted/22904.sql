@@ -49,3 +49,15 @@ VALUES (22904, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22904, 64, 2840) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22904, 8, 42757) /* Haebrean Vambraces */
+     , (22904, 8, 6047) /* Amuli Leggings */
+     , (22904, 8, 89) /* Studded Leather Pauldrons */
+     , (22904, 8, 2587) /* Shirt */
+     , (22904, 8, 9310) /* A Large Mnemosyne */
+     , (22904, 8, 49300) /* Fire K'nath Essence (150) */
+     , (22904, 8, 2422) /* Gem */
+     , (22904, 8, 6044) /* Celdon Breastplate */;
+

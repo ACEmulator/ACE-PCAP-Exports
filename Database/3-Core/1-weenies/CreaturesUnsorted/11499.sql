@@ -105,3 +105,46 @@ VALUES (11499, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11499, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11499, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (11499, 8, 413) /* Chainmail Bracers */
+     , (11499, 8, 5894) /* Fez */
+     , (11499, 8, 2366) /* Orb */
+     , (11499, 8, 25637) /* Leather Bracers */
+     , (11499, 8, 273) /* Pyreal */
+     , (11499, 8, 59) /* Studded Leather Gauntlets */
+     , (11499, 8, 2605) /* Chainmail Greaves */
+     , (11499, 8, 312) /* Light Crossbow */
+     , (11499, 8, 49366) /* Acid Grievver Essence (50) */
+     , (11499, 8, 148) /* Cup */
+     , (11499, 8, 27331) /* Minor Mana Stone */
+     , (11499, 8, 130) /* Shirt */
+     , (11499, 8, 2590) /* Baggy Shirt */
+     , (11499, 8, 3756) /* Flaming Hand Axe */
+     , (11499, 8, 38) /* Studded Leather Bracers */
+     , (11499, 8, 154) /* Goblet */
+     , (11499, 8, 31774) /* Board with Nail */
+     , (11499, 8, 7792) /* Fire Trident */
+     , (11499, 8, 31794) /* Lancet */
+     , (11499, 8, 377) /* Potion of Healing */
+     , (11499, 8, 2417) /* Gem */
+     , (11499, 8, 25646) /* Long Leather Gauntlets */
+     , (11499, 8, 12463) /* Atlatl */
+     , (11499, 8, 132) /* Shoes */
+     , (11499, 8, 25644) /* Leather Greaves */
+     , (11499, 8, 3063) /* Scroll of Piercing Protection Other II */
+     , (11499, 8, 545) /* Reliable Lockpick */
+     , (11499, 8, 1686) /* Scroll of Missile Weapon Mastery Other */
+     , (11499, 8, 63) /* Studded Leather Girth */
+     , (11499, 8, 628) /* Handy Healing Kit */
+     , (11499, 8, 341) /* Shouyumi */
+     , (11499, 8, 30616) /* Arbalest */
+     , (11499, 8, 629) /* Adept Healing Kit */
+     , (11499, 8, 3428) /* Scroll of Mana Mastery Other II */
+     , (11499, 8, 2416) /* Gem */
+     , (11499, 8, 92) /* Large Kite Shield */
+     , (11499, 8, 45417) /* Acid Knife */
+     , (11499, 8, 45426) /* Jambiya */;
+

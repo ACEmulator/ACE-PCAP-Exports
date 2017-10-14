@@ -45,3 +45,16 @@ VALUES (7987, 2, 45) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7987, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7987, 8, 40623) /* Quadrelle */
+     , (7987, 8, 273) /* Pyreal */
+     , (7987, 8, 311) /* Heavy Crossbow */
+     , (7987, 8, 2435) /* Mana Stone */
+     , (7987, 8, 621) /* Heavy Bracelet */
+     , (7987, 8, 2434) /* Lesser Mana Stone */
+     , (7987, 8, 10705) /* Niffis Pearl */
+     , (7987, 8, 148) /* Cup */
+     , (7987, 8, 8329) /* Lead Pea */;
+

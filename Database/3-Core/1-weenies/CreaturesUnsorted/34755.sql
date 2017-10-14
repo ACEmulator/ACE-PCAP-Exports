@@ -54,3 +54,15 @@ VALUES (34755, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (34755, 64, 9000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34755, 8, 3767) /* Lightning Club */
+     , (34755, 8, 49446) /* Frost Spectre Essence (150) */
+     , (34755, 8, 45242) /* Scroll of Dirty Fighting Ineptitude Other VII */
+     , (34755, 8, 6004) /* Koujia Leggings */
+     , (34755, 8, 31868) /* Signet Crown */
+     , (34755, 8, 516) /* Peerless Lockpick */
+     , (34755, 8, 31779) /* Spine Glaive */
+     , (34755, 8, 34747) /* Ornate Falatacot Medallion */;
+

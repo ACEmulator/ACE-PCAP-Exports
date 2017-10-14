@@ -50,3 +50,18 @@ VALUES (24907, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24907, 64, 1710) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24907, 8, 42635) /* Aetheria */
+     , (24907, 8, 20431) /* Scroll of Corrosive Flash */
+     , (24907, 8, 28622) /* Tenassa Leggings */
+     , (24907, 8, 2399) /* Gem */
+     , (24907, 8, 8327) /* Gold Pea */
+     , (24907, 8, 24923) /* Brood Matron Elder Tibia */
+     , (24907, 8, 45405) /* Frost Simi */
+     , (24907, 8, 2425) /* Gem */
+     , (24907, 8, 2367) /* Gorget */
+     , (24907, 8, 8331) /* Silver Pea */
+     , (24907, 8, 24919) /* Brood Matron Elder Tail */;
+

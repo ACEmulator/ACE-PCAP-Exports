@@ -124,37 +124,37 @@ VALUES (4695, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4695, 4, 550)
-     , (4695, 4, 35)
-     , (4695, 4, 551)
-     , (4695, 4, 552)
-     , (4695, 4, 554)
-     , (4695, 4, 413)
-     , (4695, 4, 414)
-     , (4695, 4, 55)
-     , (4695, 4, 415)
-     , (4695, 4, 80)
-     , (4695, 4, 416)
-     , (4695, 4, 85)
-     , (4695, 4, 116)
-     , (4695, 4, 37)
-     , (4695, 4, 41)
-     , (4695, 4, 58)
-     , (4695, 4, 62)
-     , (4695, 4, 67)
-     , (4695, 4, 111)
-     , (4695, 4, 83)
-     , (4695, 4, 88)
-     , (4695, 4, 94)
-     , (4695, 4, 95)
-     , (4695, 4, 2621)
-     , (4695, 4, 2622)
-     , (4695, 4, 2623)
-     , (4695, 4, 2624)
-     , (4695, 4, 2625)
-     , (4695, 4, 2626)
-     , (4695, 4, 2627)
-     , (4695, 4, 20628)
-     , (4695, 4, 20629)
-     , (4695, 4, 20630);
+VALUES (4695, 4, 550) /* Baigha */
+     , (4695, 4, 35) /* Chainmail Basinet */
+     , (4695, 4, 551) /* Basinet */
+     , (4695, 4, 552) /* Scale Mail Basinet */
+     , (4695, 4, 554) /* Studded Leather Basinet */
+     , (4695, 4, 413) /* Chainmail Bracers */
+     , (4695, 4, 414) /* Chainmail Breastplate */
+     , (4695, 4, 55) /* Chainmail Gauntlets */
+     , (4695, 4, 415) /* Chainmail Girth */
+     , (4695, 4, 80) /* Chainmail Leggings */
+     , (4695, 4, 416) /* Chainmail Pauldrons */
+     , (4695, 4, 85) /* Chainmail Coif */
+     , (4695, 4, 116) /* Studded Leather Boots */
+     , (4695, 4, 37) /* Scalemail Bracers */
+     , (4695, 4, 41) /* Scalemail Breastplate */
+     , (4695, 4, 58) /* Scalemail Gauntlets */
+     , (4695, 4, 62) /* Scalemail Girth */
+     , (4695, 4, 67) /* Scalemail Greaves */
+     , (4695, 4, 111) /* Scalemail Tassets */
+     , (4695, 4, 83) /* Scalemail Leggings */
+     , (4695, 4, 88) /* Scalemail Pauldrons */
+     , (4695, 4, 94) /* Diamond Shield */
+     , (4695, 4, 95) /* Tower Shield */
+     , (4695, 4, 2621) /* Trade Note (100) */
+     , (4695, 4, 2622) /* Trade Note (500) */
+     , (4695, 4, 2623) /* Trade Note (1,000) */
+     , (4695, 4, 2624) /* Trade Note (5,000) */
+     , (4695, 4, 2625) /* Trade Note (10,000) */
+     , (4695, 4, 2626) /* Trade Note (50,000) */
+     , (4695, 4, 2627) /* Trade Note (100,000) */
+     , (4695, 4, 20628) /* Trade Note (150,000) */
+     , (4695, 4, 20629) /* Trade Note (200,000) */
+     , (4695, 4, 20630) /* Trade Note (250,000) */;
 

@@ -124,11 +124,11 @@ VALUES (1080, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1080, 4, 2599)
-     , (1080, 4, 2596)
-     , (1080, 4, 119)
-     , (1080, 4, 132)
-     , (1080, 4, 5851)
-     , (1080, 4, 5850)
-     , (1080, 4, 8371);
+VALUES (1080, 4, 2599) /* Trousers */
+     , (1080, 4, 2596) /* Doublet */
+     , (1080, 4, 119) /* Cowl */
+     , (1080, 4, 132) /* Shoes */
+     , (1080, 4, 5851) /* Faran Robe with Hood */
+     , (1080, 4, 5850) /* Faran Robe */
+     , (1080, 4, 8371) /* Kireth Gown with Band */;
 

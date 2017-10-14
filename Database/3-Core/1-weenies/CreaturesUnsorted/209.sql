@@ -48,3 +48,24 @@ VALUES (209, 2, 7) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (209, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (209, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (209, 8, 363) /* Yumi */
+     , (209, 8, 27331) /* Minor Mana Stone */
+     , (209, 8, 25637) /* Leather Bracers */
+     , (209, 8, 44975) /* Hood */
+     , (209, 8, 134) /* Tunic */
+     , (209, 8, 273) /* Pyreal */
+     , (209, 8, 341) /* Shouyumi */
+     , (209, 8, 8331) /* Silver Pea */
+     , (209, 8, 2436) /* Greater Mana Stone */
+     , (209, 8, 149) /* Ewer */
+     , (209, 8, 8326) /* Copper Pea */
+     , (209, 8, 45113) /* Hammer */
+     , (209, 8, 25643) /* Leather Girth */
+     , (209, 8, 2472) /* Wand */
+     , (209, 8, 297) /* Ring */
+     , (209, 8, 22168) /* Hefty Walking Cane */;
+

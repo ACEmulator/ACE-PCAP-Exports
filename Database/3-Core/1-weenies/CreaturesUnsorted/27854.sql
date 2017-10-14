@@ -60,3 +60,25 @@ VALUES (27854, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (27854, 128, 280) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (27854, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27854, 8, 6044) /* Celdon Breastplate */
+     , (27854, 8, 42) /* Studded Leather Breastplate */
+     , (27854, 8, 5901) /* Kasa */
+     , (27854, 8, 25649) /* Leather Shirt */
+     , (27854, 8, 132) /* Shoes */
+     , (27854, 8, 110) /* Platemail Tassets */
+     , (27854, 8, 55) /* Chainmail Gauntlets */
+     , (27854, 8, 2673) /* Scroll of Feeblemind Other VI */
+     , (27854, 8, 8328) /* Iron Pea */
+     , (27854, 8, 49282) /* Acid K'nath Essence (50) */
+     , (27854, 8, 545) /* Reliable Lockpick */
+     , (27854, 8, 2601) /* Loose Pants */
+     , (27854, 8, 3905) /* Acid War Hammer */
+     , (27854, 8, 630) /* Gifted Healing Kit */
+     , (27854, 8, 2595) /* Baggy Tunic */
+     , (27854, 8, 7825) /* Brown Beans */
+     , (27854, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (27854, 8, 4221) /* Scroll of Drain Health Other VI */;
+

@@ -48,3 +48,11 @@ VALUES (47043, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (47043, 64, 7675) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (47043, 8, 2407) /* Gem */
+     , (47043, 8, 273) /* Pyreal */
+     , (47043, 8, 128) /* Qafiya */
+     , (47043, 8, 2436) /* Greater Mana Stone */;
+

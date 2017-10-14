@@ -76,3 +76,8 @@ VALUES (38080, 0, 16783894)
      , (38080, 12, 16789483)
      , (38080, 15, 16789487);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38080, 8, 43032) /* Engraved Ashen Key */;
+

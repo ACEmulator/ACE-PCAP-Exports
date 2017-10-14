@@ -48,3 +48,16 @@ VALUES (25283, 2, 69) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25283, 64, 3) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25283, 8, 262) /* Chicken */
+     , (25283, 8, 41) /* Scalemail Breastplate */
+     , (25283, 8, 132) /* Shoes */
+     , (25283, 8, 8331) /* Silver Pea */
+     , (25283, 8, 20579) /* Scroll of Saladur's Boon */
+     , (25283, 8, 141) /* Bowl */
+     , (25283, 8, 8326) /* Copper Pea */
+     , (25283, 8, 40695) /* Covenant Sollerets */
+     , (25283, 8, 2435) /* Mana Stone */;
+

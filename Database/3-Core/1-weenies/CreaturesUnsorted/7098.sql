@@ -41,3 +41,23 @@ VALUES (7098, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7098, 64, 465) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7098, 8, 20410) /* Scroll of Tattercoat */
+     , (7098, 8, 8326) /* Copper Pea */
+     , (7098, 8, 2425) /* Gem */
+     , (7098, 8, 2436) /* Greater Mana Stone */
+     , (7098, 8, 8331) /* Silver Pea */
+     , (7098, 8, 7798) /* Electric Naginata */
+     , (7098, 8, 150) /* Flagon */
+     , (7098, 8, 4190) /* Cestus */
+     , (7098, 8, 44975) /* Hood */
+     , (7098, 8, 273) /* Pyreal */
+     , (7098, 8, 2401) /* Gem */
+     , (7098, 8, 8327) /* Gold Pea */
+     , (7098, 8, 621) /* Heavy Bracelet */
+     , (7098, 8, 3686) /* Black Rock */
+     , (7098, 8, 3823) /* Lightning Ken */
+     , (7098, 8, 4196) /* Flaming Nekode */;
+

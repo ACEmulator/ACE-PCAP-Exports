@@ -72,3 +72,16 @@ VALUES (46533, 2, 77) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46533, 64, 3175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46533, 8, 45421) /* Dagger */
+     , (46533, 8, 44853) /* Bordered Cloak */
+     , (46533, 8, 49315) /* Acid Wisp Essence (180) */
+     , (46533, 8, 2599) /* Trousers */
+     , (46533, 8, 622) /* Necklace */
+     , (46533, 8, 2596) /* Doublet */
+     , (46533, 8, 21336) /* Scroll of Shock Arc VII */
+     , (46533, 8, 31864) /* Teardrop Crown */
+     , (46533, 8, 273) /* Pyreal */;
+

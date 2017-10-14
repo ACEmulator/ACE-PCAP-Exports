@@ -65,3 +65,68 @@ VALUES (8140, 2, 70) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8140, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8140, 8, 2689) /* Scroll of Harm Other IV */
+     , (8140, 8, 28633) /* Diforsa Girth */
+     , (8140, 8, 8328) /* Iron Pea */
+     , (8140, 8, 624) /* Ring */
+     , (8140, 8, 42) /* Studded Leather Breastplate */
+     , (8140, 8, 27319) /* Health Tincture */
+     , (8140, 8, 7549) /* Lugian Pick Axe */
+     , (8140, 8, 53) /* Studded Leather Cuirass */
+     , (8140, 8, 46) /* Metal Cap */
+     , (8140, 8, 49275) /* Frost Elemental Essence (50) */
+     , (8140, 8, 30596) /* Poniard */
+     , (8140, 8, 2419) /* Gem */
+     , (8140, 8, 2763) /* Scroll of Acid Bane III */
+     , (8140, 8, 41487) /* Mechanical Scarab */
+     , (8140, 8, 8329) /* Lead Pea */
+     , (8140, 8, 48) /* Studded Leather Coat */
+     , (8140, 8, 44) /* Buckler */
+     , (8140, 8, 41041) /* Magari Yari */
+     , (8140, 8, 49380) /* Fire Grievver Essence (50) */
+     , (8140, 8, 2665) /* Scroll of Enfeeble Other III */
+     , (8140, 8, 141) /* Bowl */
+     , (8140, 8, 629) /* Adept Healing Kit */
+     , (8140, 8, 296) /* Crown */
+     , (8140, 8, 25644) /* Leather Greaves */
+     , (8140, 8, 2435) /* Mana Stone */
+     , (8140, 8, 48972) /* Acid Zombie Essence (50) */
+     , (8140, 8, 2420) /* Gem */
+     , (8140, 8, 30586) /* Flanged Mace */
+     , (8140, 8, 30606) /* Bastone */
+     , (8140, 8, 2415) /* Gem */
+     , (8140, 8, 621) /* Heavy Bracelet */
+     , (8140, 8, 49373) /* Lightning Grievver Essence (50) */
+     , (8140, 8, 3141) /* Scroll of Arcane Enlightenment Self V */
+     , (8140, 8, 8488) /* Armet */
+     , (8140, 8, 273) /* Pyreal */
+     , (8140, 8, 4198) /* Frost Nekode */
+     , (8140, 8, 80) /* Chainmail Leggings */
+     , (8140, 8, 2605) /* Chainmail Greaves */
+     , (8140, 8, 513) /* Plain Lockpick */
+     , (8140, 8, 121) /* Gloves */
+     , (8140, 8, 414) /* Chainmail Breastplate */
+     , (8140, 8, 25643) /* Leather Girth */
+     , (8140, 8, 95) /* Tower Shield */
+     , (8140, 8, 21098) /* Scroll of Martyr's Hecatomb IV */
+     , (8140, 8, 295) /* Bracelet */
+     , (8140, 8, 45416) /* Knife */
+     , (8140, 8, 311) /* Heavy Crossbow */
+     , (8140, 8, 128) /* Qafiya */
+     , (8140, 8, 294) /* Amulet */
+     , (8140, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (8140, 8, 297) /* Ring */
+     , (8140, 8, 3389) /* Scroll of Lockpick Mastery Self III */
+     , (8140, 8, 628) /* Handy Healing Kit */
+     , (8140, 8, 2587) /* Shirt */
+     , (8140, 8, 342) /* Shou-ono */
+     , (8140, 8, 8326) /* Copper Pea */
+     , (8140, 8, 29204) /* Tusker Spit */
+     , (8140, 8, 2430) /* Gem */
+     , (8140, 8, 49359) /* Frost Moar Essence (50) */
+     , (8140, 8, 150) /* Flagon */
+     , (8140, 8, 2406) /* Gem */;
+

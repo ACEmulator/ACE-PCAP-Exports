@@ -41,3 +41,26 @@ VALUES (31914, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31914, 67116780, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31914, 8, 44850) /* Chevron Cloak */
+     , (31914, 8, 41484) /* Goggles */
+     , (31914, 8, 2424) /* Gem */
+     , (31914, 8, 32274) /* Moarsmuck */
+     , (31914, 8, 51) /* Platemail Cuirass */
+     , (31914, 8, 621) /* Heavy Bracelet */
+     , (31914, 8, 2592) /* Puffy Tunic */
+     , (31914, 8, 20476) /* Scroll of Gelidite's Gift */
+     , (31914, 8, 20416) /* Aura of Elysa's Sight */
+     , (31914, 8, 25643) /* Leather Girth */
+     , (31914, 8, 25646) /* Long Leather Gauntlets */
+     , (31914, 8, 40698) /* Covenant Gauntlets */
+     , (31914, 8, 94) /* Diamond Shield */
+     , (31914, 8, 20586) /* Scroll of Heavy Weapon Mastery Self VII */
+     , (31914, 8, 45122) /* Frost Hand Wraps */
+     , (31914, 8, 44851) /* Chevron Cloak */
+     , (31914, 8, 28607) /* Lace Shirt */
+     , (31914, 8, 49313) /* Acid Wisp Essence (125) */
+     , (31914, 8, 41070) /* Flaming Shashqa */;
+

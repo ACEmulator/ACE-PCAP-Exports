@@ -49,3 +49,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3970, 2, 0) /* OPEN_BOOL */
      , (3970, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3970, 8, 2415) /* Gem */
+     , (3970, 8, 273) /* Pyreal */
+     , (3970, 8, 2400) /* Gem */
+     , (3970, 8, 8329) /* Lead Pea */
+     , (3970, 8, 141) /* Bowl */
+     , (3970, 8, 25644) /* Leather Greaves */
+     , (3970, 8, 2435) /* Mana Stone */
+     , (3970, 8, 254) /* Stoup */
+     , (3970, 8, 7792) /* Fire Trident */;
+

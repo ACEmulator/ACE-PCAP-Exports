@@ -39,3 +39,14 @@ VALUES (11488, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11488, 67113292, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11488, 8, 2955) /* Scroll of Lightning Bolt II */
+     , (11488, 8, 308) /* Budiaq */
+     , (11488, 8, 622) /* Necklace */
+     , (11488, 8, 297) /* Ring */
+     , (11488, 8, 295) /* Bracelet */
+     , (11488, 8, 27331) /* Minor Mana Stone */
+     , (11488, 8, 11367) /* Marsh Siraluun Claw */;
+

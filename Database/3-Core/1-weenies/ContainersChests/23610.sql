@@ -50,3 +50,21 @@ VALUES (23610, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (23610, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23610, 8, 20230) /* Scroll of Executor's Boon */
+     , (23610, 8, 273) /* Pyreal */
+     , (23610, 8, 31783) /* Frost Claw */
+     , (23610, 8, 99) /* Studded Leather Shirt */
+     , (23610, 8, 22154) /* Acid Jo */
+     , (23610, 8, 363) /* Yumi */
+     , (23610, 8, 512) /* Good Lockpick */
+     , (23610, 8, 9628) /* Scroll of Jumping Ineptitude V */
+     , (23610, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (23610, 8, 2366) /* Orb */
+     , (23610, 8, 30949) /* Diforsa Sleeves */
+     , (23610, 8, 20600) /* Scroll of Vitality Siphon */
+     , (23610, 8, 295) /* Bracelet */
+     , (23610, 8, 25641) /* Leather Cuirass */;
+

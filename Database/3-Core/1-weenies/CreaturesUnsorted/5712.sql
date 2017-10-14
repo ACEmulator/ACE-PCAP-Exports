@@ -45,3 +45,29 @@ VALUES (5712, 2, 38) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (5712, 64, 575) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5712, 8, 133) /* Slippers */
+     , (5712, 8, 27330) /* Moderate Mana Stone */
+     , (5712, 8, 33959) /* Crystal of Fiery Elemental Essence */
+     , (5712, 8, 20512) /* Scroll of Morimoto's Blessing */
+     , (5712, 8, 273) /* Pyreal */
+     , (5712, 8, 41062) /* Khanda-handled Mace */
+     , (5712, 8, 27328) /* Major Mana Stone */
+     , (5712, 8, 20409) /* Scroll of Tusker Bait */
+     , (5712, 8, 8331) /* Silver Pea */
+     , (5712, 8, 2410) /* Gem */
+     , (5712, 8, 154) /* Goblet */
+     , (5712, 8, 2423) /* Gem */
+     , (5712, 8, 2436) /* Greater Mana Stone */
+     , (5712, 8, 8327) /* Gold Pea */
+     , (5712, 8, 112) /* Studded Leather Tassets */
+     , (5712, 8, 623) /* Heavy Necklace */
+     , (5712, 8, 119) /* Cowl */
+     , (5712, 8, 2425) /* Gem */
+     , (5712, 8, 2594) /* Flared Tunic */
+     , (5712, 8, 31868) /* Signet Crown */
+     , (5712, 8, 29253) /* Blunt Atlatl */
+     , (5712, 8, 25661) /* Leather Boots */;
+

@@ -49,9 +49,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (11978, 4, False) /* ROT_PROOF_BOOL */;
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
-VALUES (11978, 16, 273, 2000000) /* Pyreal */
-     , (11978, 16, 11710, 5) /* Writ of Refuge */
-     , (11978, 16, 3674, 1) /* Ash Gromnie Tooth */
-     , (11978, 32, 273, 100000) /* Pyreal */
-     , (11978, 32, 11710, 2) /* Writ of Refuge */;
+VALUES (11978, 16, 273, 2000000) /* Buy Cost - Pyreal (x2,000,000) */
+     , (11978, 16, 11710, 5) /* Buy Cost - Writ of Refuge (x5) */
+     , (11978, 16, 3674, 1) /* Buy Cost - Ash Gromnie Tooth (x1) */
+     , (11978, 32, 273, 100000) /* Rent Cost - Pyreal (x100,000) */
+     , (11978, 32, 11710, 2) /* Rent Cost - Writ of Refuge (x2) */;
 

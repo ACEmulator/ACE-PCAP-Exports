@@ -39,3 +39,9 @@ VALUES (4131, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (4131, 67111662, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4131, 8, 621) /* Heavy Bracelet */
+     , (4131, 8, 1870) /* Scroll of Mana to Stamina Self */;
+

@@ -130,5 +130,5 @@ VALUES (30997, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30997, 4, 12711);
+VALUES (30997, 4, 12711) /* Oil of Rendering */;
 

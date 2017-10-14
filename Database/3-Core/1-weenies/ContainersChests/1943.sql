@@ -49,3 +49,20 @@ VALUES (1943, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1943, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1943, 8, 55) /* Chainmail Gauntlets */
+     , (1943, 8, 416) /* Chainmail Pauldrons */
+     , (1943, 8, 49359) /* Frost Moar Essence (50) */
+     , (1943, 8, 95) /* Tower Shield */
+     , (1943, 8, 71) /* Chainmail Hauberk */
+     , (1943, 8, 2693) /* Scroll of Heal Other III */
+     , (1943, 8, 311) /* Heavy Crossbow */
+     , (1943, 8, 21319) /* Scroll of Frost Arc IV */
+     , (1943, 8, 25642) /* Leather Gauntlets */
+     , (1943, 8, 44858) /* Quartered Cloak */
+     , (1943, 8, 154) /* Goblet */
+     , (1943, 8, 45116) /* Flaming Hammer */
+     , (1943, 8, 31865) /* Circlet */;
+

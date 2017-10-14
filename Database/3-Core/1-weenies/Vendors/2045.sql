@@ -128,16 +128,16 @@ VALUES (2045, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2045, 4, 364)
-     , (2045, 4, 365)
-     , (2045, 4, 367)
-     , (2045, 4, 5696)
-     , (2045, 4, 8076)
-     , (2045, 4, 8077)
-     , (2045, 4, 8078)
-     , (2045, 4, 9122)
-     , (2045, 4, 10700)
-     , (2045, 4, 9006)
-     , (2045, 4, 7775)
-     , (2045, 4, 7774);
+VALUES (2045, 4, 364) /* Book */
+     , (2045, 4, 365) /* Parchment */
+     , (2045, 4, 367) /* Tome */
+     , (2045, 4, 5696) /* Lashanda's Hand */
+     , (2045, 4, 8076) /* Midnight Revelation */
+     , (2045, 4, 8077) /* Recalling the Calling */
+     , (2045, 4, 8078) /* Derethian Skies */
+     , (2045, 4, 9122) /* Interlude */
+     , (2045, 4, 10700) /* Book of Seasons */
+     , (2045, 4, 9006) /* Excerpts from the Zharalim */
+     , (2045, 4, 7775) /* Practical Applications of Chorizite */
+     , (2045, 4, 7774) /* Concerning the Revelations of Anti-Magic */;
 

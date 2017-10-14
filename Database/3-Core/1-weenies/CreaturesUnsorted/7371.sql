@@ -45,3 +45,16 @@ VALUES (7371, 2, 38) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7371, 64, 575) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7371, 8, 623) /* Heavy Necklace */
+     , (7371, 8, 8331) /* Silver Pea */
+     , (7371, 8, 7420) /* Blue Fire Infusion */
+     , (7371, 8, 2425) /* Gem */
+     , (7371, 8, 31865) /* Circlet */
+     , (7371, 8, 20509) /* Scroll of Missile Weapon Mastery Self VII */
+     , (7371, 8, 273) /* Pyreal */
+     , (7371, 8, 118) /* Cloth Cap */
+     , (7371, 8, 27328) /* Major Mana Stone */;
+

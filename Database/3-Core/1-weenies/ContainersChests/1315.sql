@@ -53,3 +53,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (1315, 2, 0) /* OPEN_BOOL */
      , (1315, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1315, 8, 43417) /* Slimy Broad Sword */
+     , (1315, 8, 1313) /* Metal Round Shield */;
+

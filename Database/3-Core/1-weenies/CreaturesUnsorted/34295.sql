@@ -66,3 +66,12 @@ VALUES (34295, 16, 16795638)
      , (34295, 7, 16793202)
      , (34295, 8, 16793203);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34295, 8, 22162) /* Frost Nabut */
+     , (34295, 8, 624) /* Ring */
+     , (34295, 8, 43373) /* Scroll of Void Magic Ineptitude Other VII */
+     , (34295, 8, 43491) /* Pitted Slag */
+     , (34295, 8, 40703) /* Covenant Shield */;
+

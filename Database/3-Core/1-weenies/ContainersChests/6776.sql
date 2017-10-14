@@ -58,3 +58,11 @@ VALUES (6776, 2, 0) /* OPEN_BOOL */
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (6776, 1089) /* LightningVulnerabilityOther6_SpellID */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6776, 8, 7897) /* Steel Toed Boots */
+     , (6776, 8, 273) /* Pyreal */
+     , (6776, 8, 254) /* Stoup */
+     , (6776, 8, 8331) /* Silver Pea */;
+

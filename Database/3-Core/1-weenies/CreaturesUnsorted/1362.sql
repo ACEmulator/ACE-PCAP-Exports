@@ -55,3 +55,17 @@ VALUES (1362, 1, 16785073)
      , (1362, 23, 16777708)
      , (1362, 24, 16777708);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1362, 8, 41297) /* Scroll of Two Handed Weapon Mastery Other II */
+     , (1362, 8, 112) /* Studded Leather Tassets */
+     , (1362, 8, 44975) /* Hood */
+     , (1362, 8, 1361) /* Worn Key */
+     , (1362, 8, 80) /* Chainmail Leggings */
+     , (1362, 8, 2547) /* Staff */
+     , (1362, 8, 25651) /* Leather Sleeves */
+     , (1362, 8, 25641) /* Leather Cuirass */
+     , (1362, 8, 2419) /* Gem */
+     , (1362, 8, 629) /* Adept Healing Kit */;
+

@@ -49,3 +49,19 @@ VALUES (1933, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1933, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1933, 8, 49220) /* Lightning Skeleton Minion Essence (50) */
+     , (1933, 8, 168) /* Tankard */
+     , (1933, 8, 2401) /* Gem */
+     , (1933, 8, 149) /* Ewer */
+     , (1933, 8, 31868) /* Signet Crown */
+     , (1933, 8, 2394) /* Gem */
+     , (1933, 8, 2397) /* Gem */
+     , (1933, 8, 161) /* Mug */
+     , (1933, 8, 28610) /* Loafers */
+     , (1933, 8, 2590) /* Baggy Shirt */
+     , (1933, 8, 2399) /* Gem */
+     , (1933, 8, 141) /* Bowl */;
+

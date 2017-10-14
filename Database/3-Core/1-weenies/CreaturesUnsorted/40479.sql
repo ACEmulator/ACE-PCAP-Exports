@@ -49,3 +49,10 @@ VALUES (40479, 2, 98) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40479, 64, 1115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40479, 8, 43491) /* Pitted Slag */
+     , (40479, 8, 20520) /* Scroll of Finesse Weapon Mastery Other VII */
+     , (40479, 8, 31822) /* Aerbax's Defeat */;
+

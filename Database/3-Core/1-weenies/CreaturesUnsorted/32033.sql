@@ -39,3 +39,12 @@ VALUES (32033, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32033, 67116788, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32033, 8, 623) /* Heavy Necklace */
+     , (32033, 8, 20489) /* Scroll of Battlemage's Boon */
+     , (32033, 8, 31787) /* Flaming Claw */
+     , (32033, 8, 2596) /* Doublet */
+     , (32033, 8, 21151) /* Covenant Bracers */;
+

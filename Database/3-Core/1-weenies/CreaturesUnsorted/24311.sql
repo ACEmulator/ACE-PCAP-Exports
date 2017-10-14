@@ -39,3 +39,24 @@ VALUES (24311, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24311, 67114298, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24311, 8, 44852) /* Chevron Cloak */
+     , (24311, 8, 134) /* Tunic */
+     , (24311, 8, 514) /* Excellent Lockpick */
+     , (24311, 8, 45876) /* Scarlet Red Letter */
+     , (24311, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (24311, 8, 622) /* Necklace */
+     , (24311, 8, 2422) /* Gem */
+     , (24311, 8, 273) /* Pyreal */
+     , (24311, 8, 2911) /* Scroll of Acid Stream VI */
+     , (24311, 8, 40637) /* Lightning Tetsubo */
+     , (24311, 8, 37) /* Scalemail Bracers */
+     , (24311, 8, 3427) /* Scroll of Magic Yield Other VI */
+     , (24311, 8, 43366) /* Scroll of Void Magic Mastery Self VI */
+     , (24311, 8, 45875) /* Lucky Gold Letter */
+     , (24311, 8, 2588) /* Flared Shirt */
+     , (24311, 8, 512) /* Good Lockpick */
+     , (24311, 8, 31026) /* Tenassa Breastplate */;
+

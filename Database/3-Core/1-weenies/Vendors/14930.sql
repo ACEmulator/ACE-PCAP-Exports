@@ -134,17 +134,17 @@ VALUES (14930, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (14930, 4, 14931)
-     , (14930, 4, 14913)
-     , (14930, 4, 14914)
-     , (14930, 4, 14915)
-     , (14930, 4, 14917)
-     , (14930, 4, 14916)
-     , (14930, 4, 14897)
-     , (14930, 4, 14898)
-     , (14930, 4, 14912)
-     , (14930, 4, 14905)
-     , (14930, 4, 14904)
-     , (14930, 4, 14906)
-     , (14930, 4, 15714);
+VALUES (14930, 4, 14931) /* Wedding Handbook */
+     , (14930, 4, 14913) /* Invitation Wedding Hall */
+     , (14930, 4, 14914) /* Invitation Plateau */
+     , (14930, 4, 14915) /* Invitation Ithaenc Cathedral */
+     , (14930, 4, 14917) /* Elegant Flower Bouquet */
+     , (14930, 4, 14916) /* Simple Flower Bouquet */
+     , (14930, 4, 14897) /* Wedding Cake Figures */
+     , (14930, 4, 14898) /* Wedding Cake Knife */
+     , (14930, 4, 14912) /* Bottle of Champagne */
+     , (14930, 4, 14905) /* Wedding Gown */
+     , (14930, 4, 14904) /* Wedding Cyclas */
+     , (14930, 4, 14906) /* Wedding Raiment */
+     , (14930, 4, 15714) /* Wedding Raiment */;
 

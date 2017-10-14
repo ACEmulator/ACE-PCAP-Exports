@@ -50,3 +50,12 @@ VALUES (35883, 2, 92) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35883, 64, 1570) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35883, 8, 622) /* Necklace */
+     , (35883, 8, 40702) /* Covenant Pauldrons */
+     , (35883, 8, 31804) /* Piercing Compound Bow */
+     , (35883, 8, 7768) /* Spiked Club */
+     , (35883, 8, 21308) /* Scroll of Flame Arc VII */;
+

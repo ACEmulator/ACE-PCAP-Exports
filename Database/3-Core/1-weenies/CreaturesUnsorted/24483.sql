@@ -44,3 +44,20 @@ VALUES (24483, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24483, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24483, 8, 41488) /* Top */
+     , (24483, 8, 2436) /* Greater Mana Stone */
+     , (24483, 8, 29261) /* Electric Sceptre */
+     , (24483, 8, 8327) /* Gold Pea */
+     , (24483, 8, 27328) /* Major Mana Stone */
+     , (24483, 8, 154) /* Goblet */
+     , (24483, 8, 8331) /* Silver Pea */
+     , (24483, 8, 142) /* Chalice */
+     , (24483, 8, 27330) /* Moderate Mana Stone */
+     , (24483, 8, 9324) /* Obsidian Heart */
+     , (24483, 8, 107) /* Sollerets */
+     , (24483, 8, 273) /* Pyreal */
+     , (24483, 8, 8326) /* Copper Pea */;
+

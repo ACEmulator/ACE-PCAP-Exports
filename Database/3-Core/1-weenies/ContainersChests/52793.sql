@@ -54,3 +54,20 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (52793, 2, 0) /* OPEN_BOOL */
      , (52793, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (52793, 8, 42637) /* Aetheria */
+     , (52793, 8, 42635) /* Aetheria */
+     , (52793, 8, 48948) /* Fire Skeleton Bushi Essence (180) */
+     , (52793, 8, 49426) /* Acid Spectre Essence (180) */
+     , (52793, 8, 2594) /* Flared Tunic */
+     , (52793, 8, 121) /* Gloves */
+     , (52793, 8, 127) /* Pants */
+     , (52793, 8, 49274) /* Galvanic Knight Essence */
+     , (52793, 8, 42636) /* Aetheria */
+     , (52793, 8, 49219) /* Acid Skeleton Samurai Essence */
+     , (52793, 8, 2598) /* Baggy Pants */
+     , (52793, 8, 295) /* Bracelet */
+     , (52793, 8, 2588) /* Flared Shirt */;
+

@@ -50,3 +50,19 @@ VALUES (24637, 2, 1) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24637, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24637, 8, 49443) /* Frost Spectre Essence (80) */
+     , (24637, 8, 8326) /* Copper Pea */
+     , (24637, 8, 24646) /* Adolescent Brood Matron Tibia */
+     , (24637, 8, 20491) /* Scroll of Hydra's Head */
+     , (24637, 8, 29265) /* Winter Orb */
+     , (24637, 8, 20600) /* Scroll of Vitality Siphon */
+     , (24637, 8, 294) /* Amulet */
+     , (24637, 8, 31789) /* Acid Stick */
+     , (24637, 8, 24644) /* Adolescent Brood Matron Tarsus */
+     , (24637, 8, 82) /* Platemail Leggings */
+     , (24637, 8, 21157) /* Covenant Pauldrons */
+     , (24637, 8, 8327) /* Gold Pea */;
+

@@ -51,3 +51,10 @@ VALUES (4841, 19, 200) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4841, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4841, 8, 7940) /* Empty Flask */
+     , (4841, 8, 254) /* Stoup */
+     , (4841, 8, 621) /* Heavy Bracelet */;
+

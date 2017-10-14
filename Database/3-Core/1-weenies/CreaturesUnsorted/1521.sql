@@ -54,3 +54,23 @@ VALUES (1521, 1, 16784273)
      , (1521, 9, 16784289)
      , (1521, 12, 16784289);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1521, 8, 44851) /* Chevron Cloak */
+     , (1521, 8, 27331) /* Minor Mana Stone */
+     , (1521, 8, 1531) /* Cell Key */
+     , (1521, 8, 3059) /* Scroll of Lightning Vulnerability Other III */
+     , (1521, 8, 57) /* Platemail Gauntlets */
+     , (1521, 8, 30611) /* Knuckles */
+     , (1521, 8, 77) /* Kabuton */
+     , (1521, 8, 2739) /* Scroll of Strength Other IV */
+     , (1521, 8, 630) /* Gifted Healing Kit */
+     , (1521, 8, 8328) /* Iron Pea */
+     , (1521, 8, 72) /* Platemail Hauberk */
+     , (1521, 8, 629) /* Adept Healing Kit */
+     , (1521, 8, 545) /* Reliable Lockpick */
+     , (1521, 8, 622) /* Necklace */
+     , (1521, 8, 377) /* Potion of Healing */
+     , (1521, 8, 273) /* Pyreal */;
+

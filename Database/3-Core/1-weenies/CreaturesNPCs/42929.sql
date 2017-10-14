@@ -66,5 +66,5 @@ VALUES (42929, 0, 16785699)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42929, 2, 23754);
+VALUES (42929, 2, 23754) /* Lugian Hammer */;
 

@@ -96,6 +96,6 @@ VALUES (35401, 0, 16789995)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (35401, 2, 35394)
-     , (35401, 2, 35395);
+VALUES (35401, 2, 35394) /* BloodScorch */
+     , (35401, 2, 35395) /* House Mhoire Shield */;
 

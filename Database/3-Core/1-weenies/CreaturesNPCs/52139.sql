@@ -125,5 +125,5 @@ VALUES (52139, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (52139, 2, 23356);
+VALUES (52139, 2, 23356) /* Sanguinary Aegis */;
 

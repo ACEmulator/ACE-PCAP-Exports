@@ -48,3 +48,13 @@ VALUES (40471, 2, 27) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40471, 64, 1700) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40471, 8, 43491) /* Pitted Slag */
+     , (40471, 8, 49444) /* Frost Spectre Essence (100) */
+     , (40471, 8, 2408) /* Gem */
+     , (40471, 8, 2422) /* Gem */
+     , (40471, 8, 20488) /* Scroll of Energy Flux */
+     , (40471, 8, 2367) /* Gorget */;
+

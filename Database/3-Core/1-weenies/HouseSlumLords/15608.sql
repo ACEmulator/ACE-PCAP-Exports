@@ -49,7 +49,7 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (15608, 4, False) /* ROT_PROOF_BOOL */;
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
-VALUES (15608, 16, 273, 100000) /* Pyreal */
-     , (15608, 16, 11710, 1) /* Writ of Refuge */
-     , (15608, 32, 273, 10000) /* Pyreal */;
+VALUES (15608, 16, 273, 100000) /* Buy Cost - Pyreal (x100,000) */
+     , (15608, 16, 11710, 1) /* Buy Cost - Writ of Refuge (x1) */
+     , (15608, 32, 273, 10000) /* Rent Cost - Pyreal (x10,000) */;
 

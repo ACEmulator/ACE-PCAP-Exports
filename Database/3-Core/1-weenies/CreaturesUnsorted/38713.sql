@@ -69,3 +69,16 @@ VALUES (38713, 0, 16783894)
      , (38713, 13, 16783871)
      , (38713, 14, 16783855);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38713, 8, 95) /* Tower Shield */
+     , (38713, 8, 632) /* Peerless Healing Kit */
+     , (38713, 8, 31864) /* Teardrop Crown */
+     , (38713, 8, 37363) /* Quill of Infliction */
+     , (38713, 8, 516) /* Peerless Lockpick */
+     , (38713, 8, 127) /* Pants */
+     , (38713, 8, 9229) /* Treated Healing Kit */
+     , (38713, 8, 621) /* Heavy Bracelet */
+     , (38713, 8, 37353) /* Ink of Formation */;
+

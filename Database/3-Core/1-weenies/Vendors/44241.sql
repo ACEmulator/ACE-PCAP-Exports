@@ -128,19 +128,19 @@ VALUES (44241, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (44241, 4, 41508)
-     , (44241, 4, 44211)
-     , (44241, 4, 40607)
-     , (44241, 4, 41919)
-     , (44241, 4, 44282)
-     , (44241, 4, 44283)
-     , (44241, 4, 44284)
-     , (44241, 4, 44285)
-     , (44241, 4, 44286)
-     , (44241, 4, 44281)
-     , (44241, 4, 44312)
-     , (44241, 4, 47055)
-     , (44241, 4, 47156)
-     , (44241, 4, 47157)
-     , (44241, 4, 47158);
+VALUES (44241, 4, 41508) /* Major Item Tinkering Armature */
+     , (44241, 4, 44211) /* Crate of Burning Sands Arrowheads */
+     , (44241, 4, 40607) /* Armor Upgrade Kit Containment Gem */
+     , (44241, 4, 41919) /* Weapon Upgrade Kit Containment Gem */
+     , (44241, 4, 44282) /* Bracelet of Coordination */
+     , (44241, 4, 44283) /* Bracelet of Endurance */
+     , (44241, 4, 44284) /* Bracelet of Focus */
+     , (44241, 4, 44285) /* Bracelet of Quickness */
+     , (44241, 4, 44286) /* Bracelet of Self */
+     , (44241, 4, 44281) /* Bracelet of Strength */
+     , (44241, 4, 44312) /* Scroll of Lost City of Neftet Recall */
+     , (44241, 4, 47055) /* Spirit of Izexi Gem */
+     , (44241, 4, 47156) /* A'nekshay Gem of Knowledge */
+     , (44241, 4, 47157) /* A'nekshay Gem of Lesser Knowledge */
+     , (44241, 4, 47158) /* A'nekshay Luminance Certificate */;
 

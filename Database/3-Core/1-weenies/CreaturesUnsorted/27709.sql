@@ -39,3 +39,18 @@ VALUES (27709, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27709, 67115186, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27709, 8, 2590) /* Baggy Shirt */
+     , (27709, 8, 8331) /* Silver Pea */
+     , (27709, 8, 273) /* Pyreal */
+     , (27709, 8, 150) /* Flagon */
+     , (27709, 8, 8326) /* Copper Pea */
+     , (27709, 8, 6353) /* Pyreal Mote */
+     , (27709, 8, 28610) /* Loafers */
+     , (27709, 8, 27330) /* Moderate Mana Stone */
+     , (27709, 8, 6876) /* Sturdy Iron Key */
+     , (27709, 8, 121) /* Gloves */
+     , (27709, 8, 2436) /* Greater Mana Stone */;
+

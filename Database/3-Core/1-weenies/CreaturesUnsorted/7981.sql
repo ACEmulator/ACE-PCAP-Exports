@@ -41,3 +41,43 @@ VALUES (7981, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7981, 67112938, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7981, 8, 41485) /* Pocket Watch */
+     , (7981, 8, 27330) /* Moderate Mana Stone */
+     , (7981, 8, 22155) /* Lightning Jo */
+     , (7981, 8, 8327) /* Gold Pea */
+     , (7981, 8, 45421) /* Dagger */
+     , (7981, 8, 8326) /* Copper Pea */
+     , (7981, 8, 31792) /* Frost Stick */
+     , (7981, 8, 312) /* Light Crossbow */
+     , (7981, 8, 8331) /* Silver Pea */
+     , (7981, 8, 163) /* Ornamental Bowl */
+     , (7981, 8, 27328) /* Major Mana Stone */
+     , (7981, 8, 273) /* Pyreal */
+     , (7981, 8, 21108) /* Scroll of Martyr's Blight VII */
+     , (7981, 8, 621) /* Heavy Bracelet */
+     , (7981, 8, 624) /* Ring */
+     , (7981, 8, 20422) /* Scroll of Wi's Folly */
+     , (7981, 8, 2436) /* Greater Mana Stone */
+     , (7981, 8, 2395) /* Gem */
+     , (7981, 8, 20236) /* Scroll of Temeritous Touch */
+     , (7981, 8, 9098) /* Vial of Organic Acid */
+     , (7981, 8, 25641) /* Leather Cuirass */
+     , (7981, 8, 2588) /* Flared Shirt */
+     , (7981, 8, 43308) /* Scroll of Nether Bolt VII */
+     , (7981, 8, 149) /* Ewer */
+     , (7981, 8, 121) /* Gloves */
+     , (7981, 8, 2587) /* Shirt */
+     , (7981, 8, 554) /* Studded Leather Basinet */
+     , (7981, 8, 28608) /* Poet's Shirt */
+     , (7981, 8, 31779) /* Spine Glaive */
+     , (7981, 8, 2398) /* Gem */
+     , (7981, 8, 2548) /* Sceptre */
+     , (7981, 8, 2596) /* Doublet */
+     , (7981, 8, 25644) /* Leather Greaves */
+     , (7981, 8, 80) /* Chainmail Leggings */
+     , (7981, 8, 2425) /* Gem */
+     , (7981, 8, 20465) /* Scroll of Caustic Boon */;
+

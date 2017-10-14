@@ -104,5 +104,5 @@ VALUES (46684, 1, 16777708)
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (46684, 2, 46829);
+VALUES (46684, 2, 46829) /* Purified Mouryou Nanjou-tachi */;
 

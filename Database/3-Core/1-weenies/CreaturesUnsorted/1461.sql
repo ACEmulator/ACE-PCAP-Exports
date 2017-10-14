@@ -74,3 +74,57 @@ VALUES (1461, 0, 16787248)
      , (1461, 15, 16787257)
      , (1461, 16, 16787256);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1461, 8, 45395) /* Rapier */
+     , (1461, 8, 2670) /* Scroll of Feeblemind Other III */
+     , (1461, 8, 80) /* Chainmail Leggings */
+     , (1461, 8, 1435) /* Ice Tachi */
+     , (1461, 8, 4191) /* Flaming Cestus */
+     , (1461, 8, 628) /* Handy Healing Kit */
+     , (1461, 8, 295) /* Bracelet */
+     , (1461, 8, 121) /* Gloves */
+     , (1461, 8, 84) /* Studded  Leggings */
+     , (1461, 8, 40820) /* Lightning Corsesca */
+     , (1461, 8, 1723) /* Scroll of Magic Item Tinkering Expertise Self */
+     , (1461, 8, 296) /* Crown */
+     , (1461, 8, 2418) /* Gem */
+     , (1461, 8, 2605) /* Chainmail Greaves */
+     , (1461, 8, 273) /* Pyreal */
+     , (1461, 8, 31760) /* Acid Dericost Blade */
+     , (1461, 8, 30576) /* Flamberge */
+     , (1461, 8, 118) /* Cloth Cap */
+     , (1461, 8, 25661) /* Leather Boots */
+     , (1461, 8, 350) /* Broad Sword */
+     , (1461, 8, 3014) /* Scroll of Bludgeoning Vulnerability Other III */
+     , (1461, 8, 45416) /* Knife */
+     , (1461, 8, 7768) /* Spiked Club */
+     , (1461, 8, 357) /* Tungi */
+     , (1461, 8, 31771) /* Lightning War Axe */
+     , (1461, 8, 27331) /* Minor Mana Stone */
+     , (1461, 8, 3694) /* Swamp Stone */
+     , (1461, 8, 622) /* Necklace */
+     , (1461, 8, 513) /* Plain Lockpick */
+     , (1461, 8, 413) /* Chainmail Bracers */
+     , (1461, 8, 108) /* Chainmail Tassets */
+     , (1461, 8, 25652) /* Leather Tassets */
+     , (1461, 8, 45261) /* Scroll of Dual Wield Ineptitude Other II */
+     , (1461, 8, 1673) /* Scroll of Finesse Weapon Mastery Other */
+     , (1461, 8, 3816) /* Flaming Kasrullah */
+     , (1461, 8, 45) /* Leather Cap */
+     , (1461, 8, 2413) /* Gem */
+     , (1461, 8, 22156) /* Flaming Jo */
+     , (1461, 8, 45103) /* Frost Epee */
+     , (1461, 8, 1698) /* Scroll of Fealty Other */
+     , (1461, 8, 2434) /* Lesser Mana Stone */
+     , (1461, 8, 312) /* Light Crossbow */
+     , (1461, 8, 25641) /* Leather Cuirass */
+     , (1461, 8, 7940) /* Empty Flask */
+     , (1461, 8, 44) /* Buckler */
+     , (1461, 8, 3428) /* Scroll of Mana Mastery Other II */
+     , (1461, 8, 31772) /* Flaming War Axe */
+     , (1461, 8, 49345) /* Lightning Moar Essence (50) */
+     , (1461, 8, 415) /* Chainmail Girth */
+     , (1461, 8, 1573) /* Scroll of Frost Bolt */;
+

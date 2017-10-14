@@ -48,3 +48,38 @@ VALUES (22745, 2, 16) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22745, 64, 126) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22745, 8, 149) /* Ewer */
+     , (22745, 8, 30576) /* Flamberge */
+     , (22745, 8, 297) /* Ring */
+     , (22745, 8, 108) /* Chainmail Tassets */
+     , (22745, 8, 273) /* Pyreal */
+     , (22745, 8, 28945) /* Scroll of Arcanum Enlightenment VI */
+     , (22745, 8, 2599) /* Trousers */
+     , (22745, 8, 2416) /* Gem */
+     , (22745, 8, 2602) /* Loose Breeches */
+     , (22745, 8, 2418) /* Gem */
+     , (22745, 8, 31868) /* Signet Crown */
+     , (22745, 8, 7897) /* Steel Toed Boots */
+     , (22745, 8, 22156) /* Flaming Jo */
+     , (22745, 8, 93) /* Round Shield */
+     , (22745, 8, 8328) /* Iron Pea */
+     , (22745, 8, 28607) /* Lace Shirt */
+     , (22745, 8, 2434) /* Lesser Mana Stone */
+     , (22745, 8, 25648) /* Leather Pauldrons */
+     , (22745, 8, 624) /* Ring */
+     , (22745, 8, 2419) /* Gem */
+     , (22745, 8, 296) /* Crown */
+     , (22745, 8, 512) /* Good Lockpick */
+     , (22745, 8, 311) /* Heavy Crossbow */
+     , (22745, 8, 3457) /* Scroll of Person Attunement Self VI */
+     , (22745, 8, 7771) /* Naginata */
+     , (22745, 8, 294) /* Amulet */
+     , (22745, 8, 2428) /* Gem */
+     , (22745, 8, 2796) /* Scroll of Bludgeon Bane VI */
+     , (22745, 8, 45272) /* Scroll of Dual Wield Mastery Other V */
+     , (22745, 8, 20407) /* Scroll of Pacification */
+     , (22745, 8, 41042) /* Acid Magari Yari */;
+

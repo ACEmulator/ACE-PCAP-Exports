@@ -54,3 +54,26 @@ VALUES (196, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (196, 128, 170) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (196, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (196, 8, 121) /* Gloves */
+     , (196, 8, 8329) /* Lead Pea */
+     , (196, 8, 119) /* Cowl */
+     , (196, 8, 27331) /* Minor Mana Stone */
+     , (196, 8, 28609) /* Vest */
+     , (196, 8, 311) /* Heavy Crossbow */
+     , (196, 8, 297) /* Ring */
+     , (196, 8, 273) /* Pyreal */
+     , (196, 8, 41046) /* Pike */
+     , (196, 8, 254) /* Stoup */
+     , (196, 8, 624) /* Ring */
+     , (196, 8, 3284) /* Scroll of Impregnability Other III */
+     , (196, 8, 2596) /* Doublet */
+     , (196, 8, 2434) /* Lesser Mana Stone */
+     , (196, 8, 49471) /* Scroll of Summoning Mastery Self II */
+     , (196, 8, 25641) /* Leather Cuirass */
+     , (196, 8, 28612) /* Bandana */
+     , (196, 8, 296) /* Crown */
+     , (196, 8, 1862) /* Scroll of Health to Mana Self */;
+

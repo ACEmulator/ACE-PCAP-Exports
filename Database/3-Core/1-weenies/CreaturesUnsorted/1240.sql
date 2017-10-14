@@ -59,3 +59,17 @@ VALUES (1240, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (1240, 128, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (1240, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1240, 8, 1446) /* Fire Auroch Meat */
+     , (1240, 8, 42121) /* Platemail Hauberk of the Ogre */
+     , (1240, 8, 1437) /* Fire Arrow */
+     , (1240, 8, 1247) /* Key */
+     , (1240, 8, 31790) /* Lightning Stick */
+     , (1240, 8, 25646) /* Long Leather Gauntlets */
+     , (1240, 8, 42518) /* Coalesced Mana */
+     , (1240, 8, 273) /* Pyreal */
+     , (1240, 8, 2414) /* Gem */
+     , (1240, 8, 27322) /* Mana Tincture */;
+

@@ -46,3 +46,23 @@ VALUES (26005, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (26005, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26005, 8, 40709) /* Covenant Girth */
+     , (26005, 8, 2547) /* Staff */
+     , (26005, 8, 45423) /* Lightning Dagger */
+     , (26005, 8, 26004) /* Crown of Bone */
+     , (26005, 8, 20428) /* Scroll of Clouded Motives */
+     , (26005, 8, 2731) /* Scroll of Revitalize Self VI */
+     , (26005, 8, 31784) /* Claw */
+     , (26005, 8, 630) /* Gifted Healing Kit */
+     , (26005, 8, 624) /* Ring */
+     , (26005, 8, 57) /* Platemail Gauntlets */
+     , (26005, 8, 25651) /* Leather Sleeves */
+     , (26005, 8, 40626) /* Flaming Quadrelle */
+     , (26005, 8, 2548) /* Sceptre */
+     , (26005, 8, 27319) /* Health Tincture */
+     , (26005, 8, 49296) /* Fire K'nath Essence (50) */
+     , (26005, 8, 31780) /* Acid Spine Glaive */;
+

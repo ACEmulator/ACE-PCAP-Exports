@@ -119,3 +119,14 @@ VALUES (24475, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24475, 64, 400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24475, 8, 45314) /* Scroll of Shield Ineptitude Other VII */
+     , (24475, 8, 30625) /* War Bow */
+     , (24475, 8, 624) /* Ring */
+     , (24475, 8, 20495) /* Scroll of Bottle Breaker */
+     , (24475, 8, 3820) /* Flaming Katar */
+     , (24475, 8, 24473) /* Virindi Shard */
+     , (24475, 8, 24470) /* Harker's Head */;
+

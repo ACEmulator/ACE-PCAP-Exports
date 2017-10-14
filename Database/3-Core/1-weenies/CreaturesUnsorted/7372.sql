@@ -56,3 +56,14 @@ VALUES (7372, 64, 443) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (7372, 128, 535) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (7372, 256, 295) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7372, 8, 46880) /* Aura of Defender Other VII */
+     , (7372, 8, 621) /* Heavy Bracelet */
+     , (7372, 8, 142) /* Chalice */
+     , (7372, 8, 28056) /* Ring of the Watchman */
+     , (7372, 8, 3687) /* Skeleton's Skull */
+     , (7372, 8, 49214) /* Acid Skeleton Minion Essence (80) */
+     , (7372, 8, 51) /* Platemail Cuirass */;
+

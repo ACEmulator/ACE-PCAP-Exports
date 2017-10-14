@@ -44,3 +44,10 @@ VALUES (11517, 67116628, 1, 48)
      , (11517, 67116642, 200, 8)
      , (11517, 67116641, 208, 48);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11517, 8, 38) /* Studded Leather Bracers */
+     , (11517, 8, 41487) /* Mechanical Scarab */
+     , (11517, 8, 25646) /* Long Leather Gauntlets */;
+

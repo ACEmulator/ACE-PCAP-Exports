@@ -130,13 +130,13 @@ VALUES (1058, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1058, 4, 2600)
-     , (1058, 4, 124)
-     , (1058, 4, 128)
-     , (1058, 4, 115)
-     , (1058, 4, 5852)
-     , (1058, 4, 5894)
-     , (1058, 4, 8373)
-     , (1058, 4, 25984)
-     , (1058, 4, 25983);
+VALUES (1058, 4, 2600) /* Pantaloons */
+     , (1058, 4, 124) /* Jerkin */
+     , (1058, 4, 128) /* Qafiya */
+     , (1058, 4, 115) /* Leather Boots */
+     , (1058, 4, 5852) /* Dho Vest and Robe */
+     , (1058, 4, 5894) /* Fez */
+     , (1058, 4, 8373) /* Kiyafa Robe */
+     , (1058, 4, 25984) /* Sparring Shirt */
+     , (1058, 4, 25983) /* Sparring Pants */;
 

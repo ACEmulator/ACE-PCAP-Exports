@@ -48,3 +48,17 @@ VALUES (47053, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (47053, 64, 12278) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (47053, 8, 49424) /* Acid Spectre Essence (125) */
+     , (47053, 8, 49244) /* Lightning Zombie Essence (150) */
+     , (47053, 8, 28610) /* Loafers */
+     , (47053, 8, 43383) /* Nether Staff */
+     , (47053, 8, 49425) /* Acid Spectre Essence (150) */
+     , (47053, 8, 2421) /* Gem */
+     , (47053, 8, 75) /* Helmet */
+     , (47053, 8, 336) /* Ono */
+     , (47053, 8, 2410) /* Gem */
+     , (47053, 8, 9229) /* Treated Healing Kit */;
+

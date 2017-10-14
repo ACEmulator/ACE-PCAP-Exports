@@ -52,3 +52,16 @@ VALUES (51286, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51286, 64, 26375) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51286, 8, 20473) /* Scroll of Tusker's Gift */
+     , (51286, 8, 49321) /* Lightning Wisp Essence (150) */
+     , (51286, 8, 2408) /* Gem */
+     , (51286, 8, 44850) /* Chevron Cloak */
+     , (51286, 8, 354) /* Takuba */
+     , (51286, 8, 40686) /* Olthoi Girth */
+     , (51286, 8, 37188) /* Olthoi Amuli Gauntlets */
+     , (51286, 8, 37197) /* Olthoi Celdon Helm */
+     , (51286, 8, 51302) /* Virindi Sentinel's Message Shard */;
+

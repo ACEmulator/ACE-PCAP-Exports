@@ -39,3 +39,19 @@ VALUES (41801, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41801, 67115264, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41801, 8, 28612) /* Bandana */
+     , (41801, 8, 9229) /* Treated Healing Kit */
+     , (41801, 8, 37300) /* Glyph of Endurance */
+     , (41801, 8, 41814) /* Phyntos Honey */
+     , (41801, 8, 2599) /* Trousers */
+     , (41801, 8, 37362) /* Quill of Extraction */
+     , (41801, 8, 2423) /* Gem */
+     , (41801, 8, 516) /* Peerless Lockpick */
+     , (41801, 8, 2588) /* Flared Shirt */
+     , (41801, 8, 37363) /* Quill of Infliction */
+     , (41801, 8, 121) /* Gloves */
+     , (41801, 8, 27325) /* Stamina Philtre */;
+

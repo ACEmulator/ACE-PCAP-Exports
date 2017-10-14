@@ -25,7 +25,7 @@ VALUES (27281, 1, 512) /* ITEM_TYPE_INT */
      , (27281, 16, 48) /* ITEM_USEABLE_INT */
      , (27281, 19, 2500) /* VALUE_INT */
      , (27281, 93, 1048) /* PHYSICS_STATE_INT */
-     , (27281, 9007, 21) /* Container_WeenieType */;
+     , (27281, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (27281, 54, 1) /* USE_RADIUS_FLOAT */;

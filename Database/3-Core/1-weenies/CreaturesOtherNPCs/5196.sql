@@ -52,5 +52,12 @@ VALUES (5196, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5196, 2, 47248);
+VALUES (5196, 2, 47248) /* Board with Nail */;
+
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5196, 8, 25661) /* Leather Boots */
+     , (5196, 8, 2419) /* Gem */
+     , (5196, 8, 84) /* Studded  Leggings */;
 

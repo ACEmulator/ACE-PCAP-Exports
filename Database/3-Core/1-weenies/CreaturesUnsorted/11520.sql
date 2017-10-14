@@ -44,3 +44,19 @@ VALUES (11520, 67116629, 1, 48)
      , (11520, 67116625, 200, 8)
      , (11520, 67116640, 208, 48);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11520, 8, 44799) /* Faran Over-robe */
+     , (11520, 8, 6046) /* Amuli Coat */
+     , (11520, 8, 27322) /* Mana Tincture */
+     , (11520, 8, 11455) /* Totem of Tanae */
+     , (11520, 8, 48972) /* Acid Zombie Essence (50) */
+     , (11520, 8, 723) /* Studded Leather Cowl */
+     , (11520, 8, 96) /* Chainmail Shirt */
+     , (11520, 8, 53) /* Studded Leather Cuirass */
+     , (11520, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (11520, 8, 154) /* Goblet */
+     , (11520, 8, 28632) /* Diforsa Gauntlets */
+     , (11520, 8, 2435) /* Mana Stone */;
+

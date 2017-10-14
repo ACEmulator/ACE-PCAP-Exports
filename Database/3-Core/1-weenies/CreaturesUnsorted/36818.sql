@@ -48,3 +48,57 @@ VALUES (36818, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36818, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36818, 8, 49462) /* Scroll of Summoning Ineptitude Other VII */
+     , (36818, 8, 40707) /* Covenant Breastplate */
+     , (36818, 8, 28610) /* Loafers */
+     , (36818, 8, 41487) /* Mechanical Scarab */
+     , (36818, 8, 297) /* Ring */
+     , (36818, 8, 25637) /* Leather Bracers */
+     , (36818, 8, 2395) /* Gem */
+     , (36818, 8, 46879) /* Aura of Blood Drinker Other VII */
+     , (36818, 8, 20239) /* Scroll of Self Loathing */
+     , (36818, 8, 20469) /* Scroll of Blessing of the Blade Turner */
+     , (36818, 8, 44) /* Buckler */
+     , (36818, 8, 142) /* Chalice */
+     , (36818, 8, 118) /* Cloth Cap */
+     , (36818, 8, 31761) /* Lightning Dericost Blade */
+     , (36818, 8, 2425) /* Gem */
+     , (36818, 8, 413) /* Chainmail Bracers */
+     , (36818, 8, 20574) /* Scroll of Web of Resistance */
+     , (36818, 8, 49241) /* Lightning Zombie Essence (80) */
+     , (36818, 8, 31779) /* Spine Glaive */
+     , (36818, 8, 132) /* Shoes */
+     , (36818, 8, 40695) /* Covenant Sollerets */
+     , (36818, 8, 45423) /* Lightning Dagger */
+     , (36818, 8, 334) /* Nayin */
+     , (36818, 8, 89) /* Studded Leather Pauldrons */
+     , (36818, 8, 92) /* Large Kite Shield */
+     , (36818, 8, 40705) /* Covenant Sollerets */
+     , (36818, 8, 20257) /* Scroll of Mind Blossom */
+     , (36818, 8, 108) /* Chainmail Tassets */
+     , (36818, 8, 8326) /* Copper Pea */
+     , (36818, 8, 27328) /* Major Mana Stone */
+     , (36818, 8, 20481) /* Scroll of Storm's Blessing */
+     , (36818, 8, 44975) /* Hood */
+     , (36818, 8, 49444) /* Frost Spectre Essence (100) */
+     , (36818, 8, 20501) /* Scroll of Jibril's Boon */
+     , (36818, 8, 31867) /* Diadem */
+     , (36818, 8, 24833) /* Banderling Predator Scalp */
+     , (36818, 8, 48944) /* Fire Skeleton Minion Essence (80) */
+     , (36818, 8, 295) /* Bracelet */
+     , (36818, 8, 28607) /* Lace Shirt */
+     , (36818, 8, 20534) /* Scroll of Avalenne's Blessing */
+     , (36818, 8, 116) /* Studded Leather Boots */
+     , (36818, 8, 62) /* Scalemail Girth */
+     , (36818, 8, 331) /* Mace */
+     , (36818, 8, 327) /* Ken */
+     , (36818, 8, 2472) /* Wand */
+     , (36818, 8, 27226) /* Nariyid Boots */
+     , (36818, 8, 20463) /* Scroll of Evisceration */
+     , (36818, 8, 25644) /* Leather Greaves */
+     , (36818, 8, 30616) /* Arbalest */
+     , (36818, 8, 357) /* Tungi */;
+

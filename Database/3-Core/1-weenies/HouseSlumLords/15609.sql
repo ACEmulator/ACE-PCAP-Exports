@@ -43,8 +43,8 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (15609, 4, False) /* ROT_PROOF_BOOL */;
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`, `stackSize`)
-VALUES (15609, 16, 273, 300000) /* Pyreal */
-     , (15609, 16, 11710, 1) /* Writ of Refuge */
-     , (15609, 16, 4227, 1) /* Gromnie Hide Shirt */
-     , (15609, 32, 273, 30000) /* Pyreal */;
+VALUES (15609, 16, 273, 300000) /* Buy Cost - Pyreal (x300,000) */
+     , (15609, 16, 11710, 1) /* Buy Cost - Writ of Refuge (x1) */
+     , (15609, 16, 4227, 1) /* Buy Cost - Gromnie Hide Shirt (x1) */
+     , (15609, 32, 273, 30000) /* Rent Cost - Pyreal (x30,000) */;
 

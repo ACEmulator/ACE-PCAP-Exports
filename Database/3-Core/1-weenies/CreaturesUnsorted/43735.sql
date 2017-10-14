@@ -44,3 +44,24 @@ VALUES (43735, 2, 8) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43735, 64, 2470) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43735, 8, 44977) /* Lyceum Hood */
+     , (43735, 8, 2411) /* Gem */
+     , (43735, 8, 2410) /* Gem */
+     , (43735, 8, 2412) /* Gem */
+     , (43735, 8, 2601) /* Loose Pants */
+     , (43735, 8, 154) /* Goblet */
+     , (43735, 8, 31867) /* Diadem */
+     , (43735, 8, 163) /* Ornamental Bowl */
+     , (43735, 8, 2603) /* Baggy Breeches */
+     , (43735, 8, 362) /* Yari */
+     , (43735, 8, 37194) /* Olthoi Greaves */
+     , (43735, 8, 40819) /* Acid Corsesca */
+     , (43735, 8, 624) /* Ring */
+     , (43735, 8, 55) /* Chainmail Gauntlets */
+     , (43735, 8, 41488) /* Top */
+     , (43735, 8, 41045) /* Frost Magari Yari */
+     , (43735, 8, 43742) /* Snow Tusker Blood Sample */;
+

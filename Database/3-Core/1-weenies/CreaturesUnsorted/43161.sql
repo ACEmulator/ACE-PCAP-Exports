@@ -43,3 +43,14 @@ VALUES (43161, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43161, 64, 2125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43161, 8, 40698) /* Covenant Gauntlets */
+     , (43161, 8, 2599) /* Trousers */
+     , (43161, 8, 149) /* Ewer */
+     , (43161, 8, 297) /* Ring */
+     , (43161, 8, 142) /* Chalice */
+     , (43161, 8, 3836) /* Flaming Mace */
+     , (43161, 8, 2411) /* Gem */;
+

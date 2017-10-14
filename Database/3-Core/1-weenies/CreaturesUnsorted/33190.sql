@@ -115,3 +115,74 @@ VALUES (33190, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33190, 64, 293) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33190, 8, 31800) /* Blunt Compound Bow */
+     , (33190, 8, 20493) /* Scroll of Tenaciousness */
+     , (33190, 8, 3940) /* Lightning Morning Star */
+     , (33190, 8, 49216) /* Acid Skeleton Bushi Essence (125) */
+     , (33190, 8, 149) /* Ewer */
+     , (33190, 8, 2425) /* Gem */
+     , (33190, 8, 243) /* Dinner Plate */
+     , (33190, 8, 3818) /* Acid Katar */
+     , (33190, 8, 48963) /* Fire Elemental Essence (100) */
+     , (33190, 8, 621) /* Heavy Bracelet */
+     , (33190, 8, 2366) /* Orb */
+     , (33190, 8, 93) /* Round Shield */
+     , (33190, 8, 41488) /* Top */
+     , (33190, 8, 121) /* Gloves */
+     , (33190, 8, 326) /* Katar */
+     , (33190, 8, 49340) /* Acid Moar Essence (100) */
+     , (33190, 8, 20466) /* Scroll of Caustic Blessing */
+     , (33190, 8, 20512) /* Scroll of Morimoto's Blessing */
+     , (33190, 8, 20533) /* Scroll of Avalenne's Boon */
+     , (33190, 8, 414) /* Chainmail Breastplate */
+     , (33190, 8, 142) /* Chalice */
+     , (33190, 8, 127) /* Pants */
+     , (33190, 8, 31866) /* Coronet */
+     , (33190, 8, 49354) /* Fire Moar Essence (100) */
+     , (33190, 8, 49326) /* Fire Wisp Essence (100) */
+     , (33190, 8, 20497) /* Scroll of Silencia's Blessing */
+     , (33190, 8, 20256) /* Scroll of Bolstered Will */
+     , (33190, 8, 623) /* Heavy Necklace */
+     , (33190, 8, 46883) /* Aura of Swift Killer Other VII */
+     , (33190, 8, 2408) /* Gem */
+     , (33190, 8, 297) /* Ring */
+     , (33190, 8, 31818) /* Piercing Slingshot */
+     , (33190, 8, 624) /* Ring */
+     , (33190, 8, 43326) /* Scroll of Destructive Curse VII */
+     , (33190, 8, 43382) /* Nefane Pearl */
+     , (33190, 8, 49269) /* Lightning Elemental Essence (80) */
+     , (33190, 8, 40618) /* Spadone */
+     , (33190, 8, 40698) /* Covenant Gauntlets */
+     , (33190, 8, 2599) /* Trousers */
+     , (33190, 8, 41487) /* Mechanical Scarab */
+     , (33190, 8, 49261) /* Acid Elemental Essence (50) */
+     , (33190, 8, 31767) /* Flaming Lugian Hammer */
+     , (33190, 8, 49242) /* Lightning Zombie Essence (100) */
+     , (33190, 8, 21322) /* Scroll of Frost Arc VII */
+     , (33190, 8, 49485) /* Encapsulated Spirit */
+     , (33190, 8, 20584) /* Scroll of Heavy Weapon Ineptitude Other VII */
+     , (33190, 8, 2598) /* Baggy Pants */
+     , (33190, 8, 295) /* Bracelet */
+     , (33190, 8, 20600) /* Scroll of Vitality Siphon */
+     , (33190, 8, 49320) /* Lightning Wisp Essence (125) */
+     , (33190, 8, 20510) /* Scroll of Challenger's Legacy */
+     , (33190, 8, 49348) /* Lightning Moar Essence (125) */
+     , (33190, 8, 20550) /* Scroll of Ar-Pei's Boon */
+     , (33190, 8, 49438) /* Fire Spectre Essence (125) */
+     , (33190, 8, 40697) /* Covenant Breastplate */
+     , (33190, 8, 40695) /* Covenant Sollerets */
+     , (33190, 8, 41046) /* Pike */
+     , (33190, 8, 42751) /* Haebrean Girth */
+     , (33190, 8, 6046) /* Amuli Coat */
+     , (33190, 8, 49435) /* Fire Spectre Essence (50) */
+     , (33190, 8, 2587) /* Shirt */
+     , (33190, 8, 2404) /* Gem */
+     , (33190, 8, 20492) /* Scroll of Robustify */
+     , (33190, 8, 40710) /* Covenant Greaves */
+     , (33190, 8, 25646) /* Long Leather Gauntlets */
+     , (33190, 8, 20425) /* Scroll of Fortified Lock */
+     , (33190, 8, 30951) /* Alduressa Gauntlets */;
+

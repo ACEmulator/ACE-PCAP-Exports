@@ -114,3 +114,15 @@ VALUES (12132, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (12132, 64, 845) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (12132, 8, 359) /* War Hammer */
+     , (12132, 8, 29238) /* Acid Bow */
+     , (12132, 8, 2408) /* Gem */
+     , (12132, 8, 132) /* Shoes */
+     , (12132, 8, 6046) /* Amuli Coat */
+     , (12132, 8, 6047) /* Amuli Leggings */
+     , (12132, 8, 12145) /* Southern Infiltrator Message Shard */
+     , (12132, 8, 12138) /* Helm of the Simulacra */;
+

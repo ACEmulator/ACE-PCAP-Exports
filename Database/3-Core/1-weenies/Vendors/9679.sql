@@ -128,48 +128,48 @@ VALUES (9679, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (9679, 4, 35)
-     , (9679, 4, 554)
-     , (9679, 4, 413)
-     , (9679, 4, 414)
-     , (9679, 4, 55)
-     , (9679, 4, 415)
-     , (9679, 4, 2605)
-     , (9679, 4, 108)
-     , (9679, 4, 80)
-     , (9679, 4, 416)
-     , (9679, 4, 85)
-     , (9679, 4, 77)
-     , (9679, 4, 78)
-     , (9679, 4, 116)
-     , (9679, 4, 43)
-     , (9679, 4, 64)
-     , (9679, 4, 2437)
-     , (9679, 4, 94)
-     , (9679, 4, 95)
-     , (9679, 4, 314)
-     , (9679, 4, 310)
-     , (9679, 4, 22158)
-     , (9679, 4, 327)
-     , (9679, 4, 4195)
-     , (9679, 4, 336)
-     , (9679, 4, 353)
-     , (9679, 4, 356)
-     , (9679, 4, 359)
-     , (9679, 4, 362)
-     , (9679, 4, 2621)
-     , (9679, 4, 2622)
-     , (9679, 4, 2623)
-     , (9679, 4, 2624)
-     , (9679, 4, 2625)
-     , (9679, 4, 2626)
-     , (9679, 4, 2627)
-     , (9679, 4, 20628)
-     , (9679, 4, 20629)
-     , (9679, 4, 20630);
+VALUES (9679, 4, 35) /* Chainmail Basinet */
+     , (9679, 4, 554) /* Studded Leather Basinet */
+     , (9679, 4, 413) /* Chainmail Bracers */
+     , (9679, 4, 414) /* Chainmail Breastplate */
+     , (9679, 4, 55) /* Chainmail Gauntlets */
+     , (9679, 4, 415) /* Chainmail Girth */
+     , (9679, 4, 2605) /* Chainmail Greaves */
+     , (9679, 4, 108) /* Chainmail Tassets */
+     , (9679, 4, 80) /* Chainmail Leggings */
+     , (9679, 4, 416) /* Chainmail Pauldrons */
+     , (9679, 4, 85) /* Chainmail Coif */
+     , (9679, 4, 77) /* Kabuton */
+     , (9679, 4, 78) /* Kote */
+     , (9679, 4, 116) /* Studded Leather Boots */
+     , (9679, 4, 43) /* Yoroi Breastplate */
+     , (9679, 4, 64) /* Yoroi Girth */
+     , (9679, 4, 2437) /* Yoroi Leggings */
+     , (9679, 4, 94) /* Diamond Shield */
+     , (9679, 4, 95) /* Tower Shield */
+     , (9679, 4, 314) /* Dagger */
+     , (9679, 4, 310) /* Throwing Club */
+     , (9679, 4, 22158) /* Jo */
+     , (9679, 4, 327) /* Ken */
+     , (9679, 4, 4195) /* Nekode */
+     , (9679, 4, 336) /* Ono */
+     , (9679, 4, 353) /* Tachi */
+     , (9679, 4, 356) /* Tofun */
+     , (9679, 4, 359) /* War Hammer */
+     , (9679, 4, 362) /* Yari */
+     , (9679, 4, 2621) /* Trade Note (100) */
+     , (9679, 4, 2622) /* Trade Note (500) */
+     , (9679, 4, 2623) /* Trade Note (1,000) */
+     , (9679, 4, 2624) /* Trade Note (5,000) */
+     , (9679, 4, 2625) /* Trade Note (10,000) */
+     , (9679, 4, 2626) /* Trade Note (50,000) */
+     , (9679, 4, 2627) /* Trade Note (100,000) */
+     , (9679, 4, 20628) /* Trade Note (150,000) */
+     , (9679, 4, 20629) /* Trade Note (200,000) */
+     , (9679, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (9679, 2, 356);
+VALUES (9679, 2, 356) /* Tofun */;
 

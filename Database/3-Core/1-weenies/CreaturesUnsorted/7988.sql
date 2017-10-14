@@ -48,3 +48,26 @@ VALUES (7988, 2, 45) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7988, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7988, 8, 416) /* Chainmail Pauldrons */
+     , (7988, 8, 2434) /* Lesser Mana Stone */
+     , (7988, 8, 3017) /* Scroll of Bludgeoning Vulnerability Other VI */
+     , (7988, 8, 273) /* Pyreal */
+     , (7988, 8, 41064) /* Lightning Khanda-handled Mace */
+     , (7988, 8, 25637) /* Leather Bracers */
+     , (7988, 8, 8328) /* Iron Pea */
+     , (7988, 8, 2367) /* Gorget */
+     , (7988, 8, 28608) /* Poet's Shirt */
+     , (7988, 8, 2435) /* Mana Stone */
+     , (7988, 8, 3116) /* Scroll of Regenerate Self V */
+     , (7988, 8, 312) /* Light Crossbow */
+     , (7988, 8, 7787) /* Frost Spiked Club */
+     , (7988, 8, 8326) /* Copper Pea */
+     , (7988, 8, 2588) /* Flared Shirt */
+     , (7988, 8, 45424) /* Flaming Dagger */
+     , (7988, 8, 2395) /* Gem */
+     , (7988, 8, 8329) /* Lead Pea */
+     , (7988, 8, 2415) /* Gem */;
+

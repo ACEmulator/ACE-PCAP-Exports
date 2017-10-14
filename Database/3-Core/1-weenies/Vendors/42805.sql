@@ -124,48 +124,48 @@ VALUES (42805, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42805, 4, 2453)
-     , (42805, 4, 2462)
-     , (42805, 4, 2451)
-     , (42805, 4, 2471)
-     , (42805, 4, 2452)
-     , (42805, 4, 4746)
-     , (42805, 4, 4713)
-     , (42805, 4, 549)
-     , (42805, 4, 4741)
-     , (42805, 4, 4725)
-     , (42805, 4, 620)
-     , (42805, 4, 261)
-     , (42805, 4, 259)
-     , (42805, 4, 4745)
-     , (42805, 4, 258)
-     , (42805, 4, 260)
-     , (42805, 4, 8378)
-     , (42805, 4, 262)
-     , (42805, 4, 263)
-     , (42805, 4, 2621)
-     , (42805, 4, 2622)
-     , (42805, 4, 2623)
-     , (42805, 4, 2624)
-     , (42805, 4, 2625)
-     , (42805, 4, 2626)
-     , (42805, 4, 2627)
-     , (42805, 4, 20628)
-     , (42805, 4, 20629)
-     , (42805, 4, 20630)
-     , (42805, 4, 44393)
-     , (42805, 4, 44447)
-     , (42805, 4, 44584)
-     , (42805, 4, 44585)
-     , (42805, 4, 44656)
-     , (42805, 4, 44818)
-     , (42805, 4, 45686)
-     , (42805, 4, 45687)
-     , (42805, 4, 45689)
-     , (42805, 4, 45690)
-     , (42805, 4, 52300)
-     , (42805, 4, 52301)
-     , (42805, 4, 52302)
-     , (42805, 4, 52303)
-     , (42805, 4, 52304);
+VALUES (42805, 4, 2453) /* Cider */
+     , (42805, 4, 2462) /* Mead */
+     , (42805, 4, 2451) /* Ale */
+     , (42805, 4, 2471) /* Stout */
+     , (42805, 4, 2452) /* Apple Juice */
+     , (42805, 4, 4746) /* Water */
+     , (42805, 4, 4713) /* Beef Stew */
+     , (42805, 4, 549) /* Bowl of Stew */
+     , (42805, 4, 4741) /* Pizza */
+     , (42805, 4, 4725) /* Fish Pie */
+     , (42805, 4, 620) /* Cake */
+     , (42805, 4, 261) /* Cheese */
+     , (42805, 4, 259) /* Bread */
+     , (42805, 4, 4745) /* Viamont Toast */
+     , (42805, 4, 258) /* Apple */
+     , (42805, 4, 260) /* Cabbage */
+     , (42805, 4, 8378) /* Beer Stein */
+     , (42805, 4, 262) /* Chicken */
+     , (42805, 4, 263) /* Fish */
+     , (42805, 4, 2621) /* Trade Note (100) */
+     , (42805, 4, 2622) /* Trade Note (500) */
+     , (42805, 4, 2623) /* Trade Note (1,000) */
+     , (42805, 4, 2624) /* Trade Note (5,000) */
+     , (42805, 4, 2625) /* Trade Note (10,000) */
+     , (42805, 4, 2626) /* Trade Note (50,000) */
+     , (42805, 4, 2627) /* Trade Note (100,000) */
+     , (42805, 4, 20628) /* Trade Note (150,000) */
+     , (42805, 4, 20629) /* Trade Note (200,000) */
+     , (42805, 4, 20630) /* Trade Note (250,000) */
+     , (42805, 4, 44393) /* Contract for Aug Gem: Sir Bellas */
+     , (42805, 4, 44447) /* Contract for Deewain's Dark Cavern */
+     , (42805, 4, 44584) /* Contract for Kill: Tenebrous Rifts */
+     , (42805, 4, 44585) /* Contract for Kill: Umbral Rifts */
+     , (42805, 4, 44656) /* Contract for Jester Released */
+     , (42805, 4, 44818) /* Contract for Death's Allure */
+     , (42805, 4, 45686) /* Contract for Aerbax's Prodigal Drudge */
+     , (42805, 4, 45687) /* Contract for Aerbax's Prodigal Human */
+     , (42805, 4, 45689) /* Contract for Chasing Oswald */
+     , (42805, 4, 45690) /* Contract for Hunting Aun Ralirea */
+     , (42805, 4, 52300) /* Contract for Kill: Tou-Tou Shadow Flyers */
+     , (42805, 4, 52301) /* Contract for Kill: Tou-Tou Grievver Shredders */
+     , (42805, 4, 52302) /* Contract for Kill: Tou-Tou Devourer Marguls */
+     , (42805, 4, 52303) /* Contract for Kill: Tou-Tou Shadows */
+     , (42805, 4, 52304) /* Contract for Kill: Tou-Tou Void Lords */;
 

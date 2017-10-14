@@ -124,40 +124,40 @@ VALUES (20226, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20226, 4, 15271)
-     , (20226, 4, 5494)
-     , (20226, 4, 8917)
-     , (20226, 4, 2909)
-     , (20226, 4, 2913)
-     , (20226, 4, 21291)
-     , (20226, 4, 2916)
-     , (20226, 4, 2919)
-     , (20226, 4, 21298)
-     , (20226, 4, 2922)
-     , (20226, 4, 2925)
-     , (20226, 4, 6000)
-     , (20226, 4, 8923)
-     , (20226, 4, 2928)
-     , (20226, 4, 21305)
-     , (20226, 4, 8926)
-     , (20226, 4, 2932)
-     , (20226, 4, 8932)
-     , (20226, 4, 2935)
-     , (20226, 4, 21312)
-     , (20226, 4, 2938)
-     , (20226, 4, 2943)
-     , (20226, 4, 8938)
-     , (20226, 4, 2946)
-     , (20226, 4, 21319)
-     , (20226, 4, 2952)
-     , (20226, 4, 2957)
-     , (20226, 4, 8944)
-     , (20226, 4, 9012)
-     , (20226, 4, 21326)
-     , (20226, 4, 2960)
-     , (20226, 4, 2965)
-     , (20226, 4, 8950)
-     , (20226, 4, 21333)
-     , (20226, 4, 2970)
-     , (20226, 4, 8956);
+VALUES (20226, 4, 15271) /* Foci of Strife */
+     , (20226, 4, 5494) /* Scroll of Acid Blast IV */
+     , (20226, 4, 8917) /* Scroll of Acid Streak IV */
+     , (20226, 4, 2909) /* Scroll of Acid Stream IV */
+     , (20226, 4, 2913) /* Scroll of Acid Volley IV */
+     , (20226, 4, 21291) /* Scroll of Acid Arc IV */
+     , (20226, 4, 2916) /* Scroll of Blade Blast IV */
+     , (20226, 4, 2919) /* Scroll of Blade Volley IV */
+     , (20226, 4, 21298) /* Scroll of Blade Arc IV */
+     , (20226, 4, 2922) /* Scroll of Bludgeoning Volley IV */
+     , (20226, 4, 2925) /* Scroll of Flame Blast IV */
+     , (20226, 4, 6000) /* Scroll of Flame Bolt IV */
+     , (20226, 4, 8923) /* Scroll of Flame Streak IV */
+     , (20226, 4, 2928) /* Scroll of Flame Volley IV */
+     , (20226, 4, 21305) /* Scroll of Flame Arc IV */
+     , (20226, 4, 8926) /* Scroll of Force Blast IV */
+     , (20226, 4, 2932) /* Scroll of Force Bolt IV */
+     , (20226, 4, 8932) /* Scroll of Force Streak IV */
+     , (20226, 4, 2935) /* Scroll of Force Volley IV */
+     , (20226, 4, 21312) /* Scroll of Force Arc IV */
+     , (20226, 4, 2938) /* Scroll of Frost Blast IV */
+     , (20226, 4, 2943) /* Scroll of Frost Bolt IV */
+     , (20226, 4, 8938) /* Scroll of Frost Streak IV */
+     , (20226, 4, 2946) /* Scroll of Frost Volley IV */
+     , (20226, 4, 21319) /* Scroll of Frost Arc IV */
+     , (20226, 4, 2952) /* Scroll of Lightning Blast IV */
+     , (20226, 4, 2957) /* Scroll of Lightning Bolt IV */
+     , (20226, 4, 8944) /* Scroll of Lightning Streak IV */
+     , (20226, 4, 9012) /* Scroll of Lightning Volley IV */
+     , (20226, 4, 21326) /* Scroll of Lightning Arc IV */
+     , (20226, 4, 2960) /* Scroll of Shock Blast IV */
+     , (20226, 4, 2965) /* Scroll of Shock Wave IV */
+     , (20226, 4, 8950) /* Scroll of Shock Wave Streak IV */
+     , (20226, 4, 21333) /* Scroll of Shock Arc IV */
+     , (20226, 4, 2970) /* Scroll of Whirling Blade IV */
+     , (20226, 4, 8956) /* Scroll of Whirling Blade Streak IV */;
 

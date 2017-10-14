@@ -55,3 +55,11 @@ VALUES (33539, 64, 920) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (33539, 128, 1090) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (33539, 256, 780) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33539, 8, 118) /* Cloth Cap */
+     , (33539, 8, 45411) /* Spada */
+     , (33539, 8, 49231) /* Frost Skeleton Bushi Essence (150) */
+     , (33539, 8, 37208) /* Olthoi Amuli Sollerets */;
+

@@ -48,3 +48,15 @@ VALUES (4260, 2, 36) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4260, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4260, 8, 2814) /* Scroll of Flame Bane IV */
+     , (4260, 8, 273) /* Pyreal */
+     , (4260, 8, 295) /* Bracelet */
+     , (4260, 8, 2435) /* Mana Stone */
+     , (4260, 8, 127) /* Pants */
+     , (4260, 8, 2434) /* Lesser Mana Stone */
+     , (4260, 8, 45) /* Leather Cap */
+     , (4260, 8, 8329) /* Lead Pea */;
+

@@ -38,3 +38,66 @@ VALUES (23569, 9, 83890028, 83890027);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23569, 9, 16780702);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (23569, 8, 3844) /* Flaming Ono */
+     , (23569, 8, 273) /* Pyreal */
+     , (23569, 8, 8327) /* Gold Pea */
+     , (23569, 8, 64) /* Yoroi Girth */
+     , (23569, 8, 27330) /* Moderate Mana Stone */
+     , (23569, 8, 2587) /* Shirt */
+     , (23569, 8, 2436) /* Greater Mana Stone */
+     , (23569, 8, 20480) /* Scroll of Storm's Boon */
+     , (23569, 8, 8331) /* Silver Pea */
+     , (23569, 8, 31797) /* Flaming Lancet */
+     , (23569, 8, 2425) /* Gem */
+     , (23569, 8, 142) /* Chalice */
+     , (23569, 8, 27328) /* Major Mana Stone */
+     , (23569, 8, 2604) /* Wide Breeches */
+     , (23569, 8, 2589) /* Smock */
+     , (23569, 8, 9292) /* Virindi Singularity Key */
+     , (23569, 8, 4195) /* Nekode */
+     , (23569, 8, 2410) /* Gem */
+     , (23569, 8, 2408) /* Gem */
+     , (23569, 8, 154) /* Goblet */
+     , (23569, 8, 110) /* Platemail Tassets */
+     , (23569, 8, 2404) /* Gem */
+     , (23569, 8, 2421) /* Gem */
+     , (23569, 8, 8326) /* Copper Pea */
+     , (23569, 8, 2367) /* Gorget */
+     , (23569, 8, 29241) /* Fire Bow */
+     , (23569, 8, 416) /* Chainmail Pauldrons */
+     , (23569, 8, 31784) /* Claw */
+     , (23569, 8, 2401) /* Gem */
+     , (23569, 8, 7604) /* Yellow Jewel */
+     , (23569, 8, 2403) /* Gem */
+     , (23569, 8, 41470) /* Purple Jewel */
+     , (23569, 8, 20240) /* Scroll of Calming Gaze */
+     , (23569, 8, 28606) /* Viamontian Pants */
+     , (23569, 8, 297) /* Ring */
+     , (23569, 8, 3696) /* Blue Jewel */
+     , (23569, 8, 163) /* Ornamental Bowl */
+     , (23569, 8, 3698) /* White Jewel */
+     , (23569, 8, 149) /* Ewer */
+     , (23569, 8, 41054) /* Lightning Greataxe */
+     , (23569, 8, 20604) /* Scroll of Cannibalize */
+     , (23569, 8, 134) /* Tunic */
+     , (23569, 8, 49485) /* Encapsulated Spirit */
+     , (23569, 8, 22440) /* Dirk */
+     , (23569, 8, 2596) /* Doublet */
+     , (23569, 8, 32939) /* Dark Monolith Caverns */
+     , (23569, 8, 68) /* Studded Leather Greaves */
+     , (23569, 8, 30584) /* Frost Mazule */
+     , (23569, 8, 41040) /* Frost Assagai */
+     , (23569, 8, 20579) /* Scroll of Saladur's Boon */
+     , (23569, 8, 624) /* Ring */
+     , (23569, 8, 41039) /* Flaming Assagai */
+     , (23569, 8, 621) /* Heavy Bracelet */
+     , (23569, 8, 31780) /* Acid Spine Glaive */
+     , (23569, 8, 31803) /* Frost Compound Bow */
+     , (23569, 8, 31769) /* Lugian Axe */
+     , (23569, 8, 20470) /* Scroll of Swordsman's Gift */
+     , (23569, 8, 2423) /* Gem */
+     , (23569, 8, 20402) /* Scroll of Olthoi's Bane */;
+

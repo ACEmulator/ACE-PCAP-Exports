@@ -48,3 +48,62 @@ VALUES (32333, 2, 83) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (32333, 64, 468) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32333, 8, 110) /* Platemail Tassets */
+     , (32333, 8, 312) /* Light Crossbow */
+     , (32333, 8, 8328) /* Iron Pea */
+     , (32333, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (32333, 8, 20640) /* Royal Atlatl */
+     , (32333, 8, 133) /* Slippers */
+     , (32333, 8, 7897) /* Steel Toed Boots */
+     , (32333, 8, 296) /* Crown */
+     , (32333, 8, 414) /* Chainmail Breastplate */
+     , (32333, 8, 514) /* Excellent Lockpick */
+     , (32333, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (32333, 8, 41483) /* Compass */
+     , (32333, 8, 334) /* Nayin */
+     , (32333, 8, 2595) /* Baggy Tunic */
+     , (32333, 8, 43283) /* Scroll of Corrosion VI */
+     , (32333, 8, 119) /* Cowl */
+     , (32333, 8, 49247) /* Fire Zombie Essence (50) */
+     , (32333, 8, 130) /* Shirt */
+     , (32333, 8, 629) /* Adept Healing Kit */
+     , (32333, 8, 31865) /* Circlet */
+     , (32333, 8, 132) /* Shoes */
+     , (32333, 8, 3087) /* Scroll of Fester Other VI */
+     , (32333, 8, 624) /* Ring */
+     , (32333, 8, 545) /* Reliable Lockpick */
+     , (32333, 8, 2428) /* Gem */
+     , (32333, 8, 107) /* Sollerets */
+     , (32333, 8, 3897) /* Acid Tofun */
+     , (32333, 8, 630) /* Gifted Healing Kit */
+     , (32333, 8, 28612) /* Bandana */
+     , (32333, 8, 2470) /* Stamina Elixir */
+     , (32333, 8, 25638) /* Leather Vest */
+     , (32333, 8, 2548) /* Sceptre */
+     , (32333, 8, 20495) /* Scroll of Bottle Breaker */
+     , (32333, 8, 58) /* Scalemail Gauntlets */
+     , (32333, 8, 99) /* Studded Leather Shirt */
+     , (32333, 8, 2547) /* Staff */
+     , (32333, 8, 20401) /* Scroll of Nullify Life Magic Self */
+     , (32333, 8, 20593) /* Scroll of Gravity Well */
+     , (32333, 8, 3292) /* Scroll of Impregnability Self VI */
+     , (32333, 8, 25652) /* Leather Tassets */
+     , (32333, 8, 2436) /* Greater Mana Stone */
+     , (32333, 8, 49282) /* Acid K'nath Essence (50) */
+     , (32333, 8, 150) /* Flagon */
+     , (32333, 8, 515) /* Superb Lockpick */
+     , (32333, 8, 44976) /* Hood */
+     , (32333, 8, 3906) /* Lightning War Hammer */
+     , (32333, 8, 27323) /* Mana Tonic */
+     , (32333, 8, 49254) /* Frost Zombie Essence (50) */
+     , (32333, 8, 621) /* Heavy Bracelet */
+     , (32333, 8, 6044) /* Celdon Breastplate */
+     , (32333, 8, 44851) /* Chevron Cloak */
+     , (32333, 8, 7940) /* Empty Flask */
+     , (32333, 8, 631) /* Excellent Healing Kit */
+     , (32333, 8, 4195) /* Nekode */
+     , (32333, 8, 2435) /* Mana Stone */;
+

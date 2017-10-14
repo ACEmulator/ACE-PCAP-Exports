@@ -70,3 +70,23 @@ VALUES (36827, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36827, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36827, 8, 2422) /* Gem */
+     , (36827, 8, 8331) /* Silver Pea */
+     , (36827, 8, 41065) /* Flaming Nodachi */
+     , (36827, 8, 273) /* Pyreal */
+     , (36827, 8, 30909) /* Halaetan Magic Page 4 */
+     , (36827, 8, 624) /* Ring */
+     , (36827, 8, 27330) /* Moderate Mana Stone */
+     , (36827, 8, 2436) /* Greater Mana Stone */
+     , (36827, 8, 130) /* Shirt */
+     , (36827, 8, 8326) /* Copper Pea */
+     , (36827, 8, 27328) /* Major Mana Stone */
+     , (36827, 8, 142) /* Chalice */
+     , (36827, 8, 6353) /* Pyreal Mote */
+     , (36827, 8, 2603) /* Baggy Breeches */
+     , (36827, 8, 621) /* Heavy Bracelet */
+     , (36827, 8, 311) /* Heavy Crossbow */;
+

@@ -45,5 +45,5 @@ VALUES (36113, 67113367, 0, 0);
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (36113, 2, 11971);
+VALUES (36113, 2, 11971) /* Buadren */;
 

@@ -46,3 +46,16 @@ VALUES (51936, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51936, 64, 6175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51936, 8, 2423) /* Gem */
+     , (51936, 8, 273) /* Pyreal */
+     , (51936, 8, 154) /* Goblet */
+     , (51936, 8, 27320) /* Health Tonic */
+     , (51936, 8, 2421) /* Gem */
+     , (51936, 8, 27325) /* Stamina Philtre */
+     , (51936, 8, 2411) /* Gem */
+     , (51936, 8, 27321) /* Mana Philtre */
+     , (51936, 8, 27328) /* Major Mana Stone */;
+

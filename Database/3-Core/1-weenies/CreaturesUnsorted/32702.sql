@@ -36,3 +36,14 @@ VALUES (32702, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32702, 67115520, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32702, 8, 2596) /* Doublet */
+     , (32702, 8, 32671) /* Viamontian Pennant */
+     , (32702, 8, 41041) /* Magari Yari */
+     , (32702, 8, 124) /* Jerkin */
+     , (32702, 8, 31865) /* Circlet */
+     , (32702, 8, 5901) /* Kasa */
+     , (32702, 8, 80) /* Chainmail Leggings */;
+

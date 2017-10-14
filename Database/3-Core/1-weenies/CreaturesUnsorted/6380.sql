@@ -45,3 +45,29 @@ VALUES (6380, 2, 42) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (6380, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6380, 8, 6046) /* Amuli Coat */
+     , (6380, 8, 8326) /* Copper Pea */
+     , (6380, 8, 121) /* Gloves */
+     , (6380, 8, 3302) /* Scroll of Invulnerability Self VI */
+     , (6380, 8, 8328) /* Iron Pea */
+     , (6380, 8, 154) /* Goblet */
+     , (6380, 8, 295) /* Bracelet */
+     , (6380, 8, 20575) /* Scroll of Aura of Resistance */
+     , (6380, 8, 2436) /* Greater Mana Stone */
+     , (6380, 8, 92) /* Large Kite Shield */
+     , (6380, 8, 2589) /* Smock */
+     , (6380, 8, 27330) /* Moderate Mana Stone */
+     , (6380, 8, 2401) /* Gem */
+     , (6380, 8, 8331) /* Silver Pea */
+     , (6380, 8, 161) /* Mug */
+     , (6380, 8, 40713) /* Covenant Shield */
+     , (6380, 8, 273) /* Pyreal */
+     , (6380, 8, 327) /* Ken */
+     , (6380, 8, 45290) /* Scroll of Recklessness Ineptitude Other VII */
+     , (6380, 8, 2435) /* Mana Stone */
+     , (6380, 8, 20593) /* Scroll of Gravity Well */
+     , (6380, 8, 43326) /* Scroll of Destructive Curse VII */;
+

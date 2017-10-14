@@ -24,7 +24,7 @@ VALUES (5866, 1, 512) /* ITEM_TYPE_INT */
      , (5866, 16, 48) /* ITEM_USEABLE_INT */
      , (5866, 19, 2500) /* VALUE_INT */
      , (5866, 93, 66584) /* PHYSICS_STATE_INT */
-     , (5866, 9007, 21) /* Container_WeenieType */;
+     , (5866, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (5866, 54, 1) /* USE_RADIUS_FLOAT */;
@@ -47,4 +47,9 @@ VALUES (5866, 19, 2500) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (5866, 2, 0) /* OPEN_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5866, 8, 5846) /* Stonehold Rune Transcription */;
 

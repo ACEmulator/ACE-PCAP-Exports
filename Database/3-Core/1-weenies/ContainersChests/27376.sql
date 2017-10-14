@@ -50,3 +50,27 @@ VALUES (27376, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27376, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27376, 8, 40700) /* Covenant Greaves */
+     , (27376, 8, 30951) /* Alduressa Gauntlets */
+     , (27376, 8, 29265) /* Winter Orb */
+     , (27376, 8, 2407) /* Gem */
+     , (27376, 8, 7897) /* Steel Toed Boots */
+     , (27376, 8, 25636) /* Leather Helm */
+     , (27376, 8, 40708) /* Covenant Gauntlets */
+     , (27376, 8, 621) /* Heavy Bracelet */
+     , (27376, 8, 20535) /* Scroll of Web of Deflection */
+     , (27376, 8, 49485) /* Encapsulated Spirit */
+     , (27376, 8, 12463) /* Atlatl */
+     , (27376, 8, 624) /* Ring */
+     , (27376, 8, 84) /* Studded  Leggings */
+     , (27376, 8, 29258) /* Slashing Atlatl */
+     , (27376, 8, 49429) /* Lightning Spectre Essence (80) */
+     , (27376, 8, 49374) /* Lightning Grievver Essence (80) */
+     , (27376, 8, 45258) /* Scroll of Dirty Fighting Mastery Self VII */
+     , (27376, 8, 312) /* Light Crossbow */
+     , (27376, 8, 163) /* Ornamental Bowl */
+     , (27376, 8, 25649) /* Leather Shirt */;
+

@@ -58,3 +58,11 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (22906, 2, 0) /* OPEN_BOOL */
      , (22906, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22906, 8, 23111) /* Aerbax's Message Shard */
+     , (22906, 8, 23113) /* Corroding Message Shard */
+     , (22906, 8, 23115) /* Pristine Message Shard */
+     , (22906, 8, 22924) /* Asylum Key */;
+

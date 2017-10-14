@@ -48,3 +48,16 @@ VALUES (30894, 2, 7) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30894, 64, 5500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30894, 8, 49327) /* Fire Wisp Essence (125) */
+     , (30894, 8, 45099) /* Epee */
+     , (30894, 8, 25637) /* Leather Bracers */
+     , (30894, 8, 3849) /* Acid Scimitar */
+     , (30894, 8, 20416) /* Aura of Elysa's Sight */
+     , (30894, 8, 2410) /* Gem */
+     , (30894, 8, 2590) /* Baggy Shirt */
+     , (30894, 8, 30869) /* Dirk of the Fallen */
+     , (30894, 8, 30857) /* Sezzherei's Lair */;
+

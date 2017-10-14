@@ -52,3 +52,14 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (3993, 2, 0) /* OPEN_BOOL */
      , (3993, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (3993, 8, 416) /* Chainmail Pauldrons */
+     , (3993, 8, 163) /* Ornamental Bowl */
+     , (3993, 8, 25644) /* Leather Greaves */
+     , (3993, 8, 2945) /* Scroll of Frost Bolt VI */
+     , (3993, 8, 25645) /* Leather Leggings */
+     , (3993, 8, 6005) /* Koujia Sleeves */
+     , (3993, 8, 112) /* Studded Leather Tassets */;
+

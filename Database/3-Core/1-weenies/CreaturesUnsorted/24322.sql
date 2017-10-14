@@ -37,3 +37,50 @@ VALUES (24322, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24322, 67114312, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24322, 8, 20473) /* Scroll of Tusker's Gift */
+     , (24322, 8, 30611) /* Knuckles */
+     , (24322, 8, 89) /* Studded Leather Pauldrons */
+     , (24322, 8, 73) /* Scalemail Hauberk */
+     , (24322, 8, 49540) /* Frost Phyntos Wasp Essence (100) */
+     , (24322, 8, 4191) /* Flaming Cestus */
+     , (24322, 8, 41057) /* Great Star Mace */
+     , (24322, 8, 41484) /* Goggles */
+     , (24322, 8, 45434) /* Flaming Khanjar */
+     , (24322, 8, 3893) /* Acid Takuba */
+     , (24322, 8, 4192) /* Acid Cestus */
+     , (24322, 8, 2404) /* Gem */
+     , (24322, 8, 45108) /* Schlager */
+     , (24322, 8, 20530) /* Scroll of Lilitha's Boon */
+     , (24322, 8, 49375) /* Lightning Grievver Essence (100) */
+     , (24322, 8, 2425) /* Gem */
+     , (24322, 8, 49332) /* Frost Wisp Essence (80) */
+     , (24322, 8, 622) /* Necklace */
+     , (24322, 8, 31790) /* Lightning Stick */
+     , (24322, 8, 31764) /* Lugian Hammer */
+     , (24322, 8, 2600) /* Pantaloons */
+     , (24322, 8, 163) /* Ornamental Bowl */
+     , (24322, 8, 38) /* Studded Leather Bracers */
+     , (24322, 8, 43) /* Yoroi Breastplate */
+     , (24322, 8, 4194) /* Lightning Cestus */
+     , (24322, 8, 41063) /* Acid Khanda-handled Mace */
+     , (24322, 8, 20450) /* Scroll of Icy Torment */
+     , (24322, 8, 84) /* Studded  Leggings */
+     , (24322, 8, 723) /* Studded Leather Cowl */
+     , (24322, 8, 7796) /* Fire Naginata */
+     , (24322, 8, 22157) /* Frost Jo */
+     , (24322, 8, 3894) /* Lightning Takuba */
+     , (24322, 8, 20471) /* Scroll of Boon of the Mace Turner */
+     , (24322, 8, 3913) /* Acid Yari */
+     , (24322, 8, 149) /* Ewer */
+     , (24322, 8, 49436) /* Fire Spectre Essence (80) */
+     , (24322, 8, 621) /* Heavy Bracelet */
+     , (24322, 8, 45429) /* Flaming Weeping Dagger */
+     , (24322, 8, 40707) /* Covenant Breastplate */
+     , (24322, 8, 2396) /* Gem */
+     , (24322, 8, 20640) /* Royal Atlatl */
+     , (24322, 8, 40702) /* Covenant Pauldrons */
+     , (24322, 8, 49317) /* Lightning Wisp Essence (50) */;
+

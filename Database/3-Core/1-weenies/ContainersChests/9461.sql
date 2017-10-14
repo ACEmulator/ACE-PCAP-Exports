@@ -66,3 +66,35 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (9461, 2, 0) /* OPEN_BOOL */
      , (9461, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9461, 8, 42635) /* Aetheria */
+     , (9461, 8, 127) /* Pants */
+     , (9461, 8, 20514) /* Scroll of Adja's Boon */
+     , (9461, 8, 43375) /* Scroll of Void Magic Mastery Other VII */
+     , (9461, 8, 45) /* Leather Cap */
+     , (9461, 8, 3820) /* Flaming Katar */
+     , (9461, 8, 2412) /* Gem */
+     , (9461, 8, 30596) /* Poniard */
+     , (9461, 8, 30561) /* Dolabra */
+     , (9461, 8, 20451) /* Scroll of Sudden Frost */
+     , (9461, 8, 4198) /* Frost Nekode */
+     , (9461, 8, 2587) /* Shirt */
+     , (9461, 8, 31779) /* Spine Glaive */
+     , (9461, 8, 29250) /* Piercing Crossbow */
+     , (9461, 8, 49313) /* Acid Wisp Essence (125) */
+     , (9461, 8, 48963) /* Fire Elemental Essence (100) */
+     , (9461, 8, 7768) /* Spiked Club */
+     , (9461, 8, 21294) /* Scroll of Acid Arc VII */
+     , (9461, 8, 3834) /* Acid Mace */
+     , (9461, 8, 20502) /* Scroll of Jibril's Blessing */
+     , (9461, 8, 6046) /* Amuli Coat */
+     , (9461, 8, 20422) /* Scroll of Wi's Folly */
+     , (9461, 8, 45416) /* Knife */
+     , (9461, 8, 31026) /* Tenassa Breastplate */
+     , (9461, 8, 2590) /* Baggy Shirt */
+     , (9461, 8, 42756) /* Haebrean Tassets */
+     , (9461, 8, 20630) /* Trade Note (250,000) */
+     , (9461, 8, 36574) /* Salvage */;
+

@@ -124,18 +124,18 @@ VALUES (648, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (648, 4, 2465)
-     , (648, 4, 2463)
-     , (648, 4, 4746)
-     , (648, 4, 2453)
-     , (648, 4, 2469)
-     , (648, 4, 8378)
-     , (648, 4, 261)
-     , (648, 4, 4730)
-     , (648, 4, 4725)
-     , (648, 4, 4734)
-     , (648, 4, 513)
-     , (648, 4, 545)
-     , (648, 4, 512)
-     , (648, 4, 33181);
+VALUES (648, 4, 2465) /* Palm Wine */
+     , (648, 4, 2463) /* Milk */
+     , (648, 4, 4746) /* Water */
+     , (648, 4, 2453) /* Cider */
+     , (648, 4, 2469) /* Small Beer */
+     , (648, 4, 8378) /* Beer Stein */
+     , (648, 4, 261) /* Cheese */
+     , (648, 4, 4730) /* Fried Fish Filet */
+     , (648, 4, 4725) /* Fish Pie */
+     , (648, 4, 4734) /* Meat Pie */
+     , (648, 4, 513) /* Plain Lockpick */
+     , (648, 4, 545) /* Reliable Lockpick */
+     , (648, 4, 512) /* Good Lockpick */
+     , (648, 4, 33181) /* A Shadow Spire on the Caul */;
 

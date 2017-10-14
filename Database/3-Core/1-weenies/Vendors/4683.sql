@@ -126,24 +126,24 @@ VALUES (4683, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (4683, 4, 297)
-     , (4683, 4, 294)
-     , (4683, 4, 41402)
-     , (4683, 4, 41403)
-     , (4683, 4, 41400)
-     , (4683, 4, 41397)
-     , (4683, 4, 41393)
-     , (4683, 4, 41395)
-     , (4683, 4, 2414)
-     , (4683, 4, 2420)
-     , (4683, 4, 513)
-     , (4683, 4, 545)
-     , (4683, 4, 9295)
-     , (4683, 4, 20646)
-     , (4683, 4, 21093)
-     , (4683, 4, 23044)
-     , (4683, 4, 23204)
-     , (4683, 4, 2621)
-     , (4683, 4, 2622)
-     , (4683, 4, 2623);
+VALUES (4683, 4, 297) /* Ring */
+     , (4683, 4, 294) /* Amulet */
+     , (4683, 4, 41402) /* Jeweler's Saw Blade */
+     , (4683, 4, 41403) /* Jeweler's Saw Frame */
+     , (4683, 4, 41400) /* Lapping Plate */
+     , (4683, 4, 41397) /* Abrasive Polish */
+     , (4683, 4, 41393) /* Lense Frame */
+     , (4683, 4, 41395) /* Unfinished Lense */
+     , (4683, 4, 2414) /* Gem */
+     , (4683, 4, 2420) /* Gem */
+     , (4683, 4, 513) /* Plain Lockpick */
+     , (4683, 4, 545) /* Reliable Lockpick */
+     , (4683, 4, 9295) /* Intricate Carving Tool */
+     , (4683, 4, 20646) /* Ust */
+     , (4683, 4, 21093) /* Tinkering */
+     , (4683, 4, 23044) /* On the Abilities of Salvaged Ivory */
+     , (4683, 4, 23204) /* Carving Keys and Keyrings */
+     , (4683, 4, 2621) /* Trade Note (100) */
+     , (4683, 4, 2622) /* Trade Note (500) */
+     , (4683, 4, 2623) /* Trade Note (1,000) */;
 

@@ -42,3 +42,11 @@ VALUES (34315, 67114481, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34315, 16, 16789500);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (34315, 8, 3835) /* Lightning Mace */
+     , (34315, 8, 40708) /* Covenant Gauntlets */
+     , (34315, 8, 554) /* Studded Leather Basinet */
+     , (34315, 8, 34310) /* Soul Hunter's Untranslated Orders */;
+

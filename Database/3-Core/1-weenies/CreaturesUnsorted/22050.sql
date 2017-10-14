@@ -45,3 +45,17 @@ VALUES (22050, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22050, 64, 953) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22050, 8, 49285) /* Acid K'nath Essence (125) */
+     , (22050, 8, 41485) /* Pocket Watch */
+     , (22050, 8, 5679) /* Torn Journal */
+     , (22050, 8, 49290) /* Lightning K'nath Essence (80) */
+     , (22050, 8, 621) /* Heavy Bracelet */
+     , (22050, 8, 3818) /* Acid Katar */
+     , (22050, 8, 68) /* Studded Leather Greaves */
+     , (22050, 8, 297) /* Ring */
+     , (22050, 8, 20230) /* Scroll of Executor's Boon */
+     , (22050, 8, 121) /* Gloves */;
+

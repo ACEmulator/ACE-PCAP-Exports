@@ -106,6 +106,6 @@ VALUES (30073, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (30073, 2, 92)
-     , (30073, 2, 30561);
+VALUES (30073, 2, 92) /* Large Kite Shield */
+     , (30073, 2, 30561) /* Dolabra */;
 

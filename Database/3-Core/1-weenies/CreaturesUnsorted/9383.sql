@@ -42,3 +42,14 @@ VALUES (9383, 9, 83890028, 83890027);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9383, 9, 16780702);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9383, 8, 42) /* Studded Leather Breastplate */
+     , (9383, 8, 40710) /* Covenant Greaves */
+     , (9383, 8, 8331) /* Silver Pea */
+     , (9383, 8, 8811) /* Nelamar's War Magic Scroll */
+     , (9383, 8, 108) /* Chainmail Tassets */
+     , (9383, 8, 273) /* Pyreal */
+     , (9383, 8, 44800) /* Dho Vest and Over-Robe */;
+

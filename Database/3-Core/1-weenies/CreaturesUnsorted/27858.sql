@@ -50,3 +50,16 @@ VALUES (27858, 2, 34) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (27858, 64, 195) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27858, 8, 351) /* Long Sword */
+     , (27858, 8, 2436) /* Greater Mana Stone */
+     , (27858, 8, 3777) /* Frost Dabus */
+     , (27858, 8, 7771) /* Naginata */
+     , (27858, 8, 2367) /* Gorget */
+     , (27858, 8, 135) /* Turban */
+     , (27858, 8, 312) /* Light Crossbow */
+     , (27858, 8, 30594) /* Acid Partizan */
+     , (27858, 8, 43375) /* Scroll of Void Magic Mastery Other VII */;
+

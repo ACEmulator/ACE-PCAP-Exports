@@ -43,3 +43,13 @@ VALUES (43415, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43415, 64, 1100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43415, 8, 149) /* Ewer */
+     , (43415, 8, 2410) /* Gem */
+     , (43415, 8, 2412) /* Gem */
+     , (43415, 8, 121) /* Gloves */
+     , (43415, 8, 132) /* Shoes */
+     , (43415, 8, 6876) /* Sturdy Iron Key */;
+

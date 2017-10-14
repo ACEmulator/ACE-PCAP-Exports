@@ -73,3 +73,30 @@ VALUES (24482, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24482, 64, 540) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24482, 8, 20240) /* Scroll of Calming Gaze */
+     , (24482, 8, 273) /* Pyreal */
+     , (24482, 8, 2436) /* Greater Mana Stone */
+     , (24482, 8, 150) /* Flagon */
+     , (24482, 8, 27328) /* Major Mana Stone */
+     , (24482, 8, 45421) /* Dagger */
+     , (24482, 8, 11351) /* Mud Golem Heart */
+     , (24482, 8, 44975) /* Hood */
+     , (24482, 8, 8331) /* Silver Pea */
+     , (24482, 8, 2599) /* Trousers */
+     , (24482, 8, 2410) /* Gem */
+     , (24482, 8, 8327) /* Gold Pea */
+     , (24482, 8, 20607) /* Scroll of Gift of Vitality */
+     , (24482, 8, 46) /* Metal Cap */
+     , (24482, 8, 21154) /* Covenant Girth */
+     , (24482, 8, 31814) /* Dark Blunt Slingshot */
+     , (24482, 8, 41487) /* Mechanical Scarab */
+     , (24482, 8, 297) /* Ring */
+     , (24482, 8, 28610) /* Loafers */
+     , (24482, 8, 6047) /* Amuli Leggings */
+     , (24482, 8, 8326) /* Copper Pea */
+     , (24482, 8, 2367) /* Gorget */
+     , (24482, 8, 43300) /* Scroll of Nether Arc VII */;
+

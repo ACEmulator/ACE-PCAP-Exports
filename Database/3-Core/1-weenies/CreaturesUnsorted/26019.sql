@@ -39,3 +39,43 @@ VALUES (26019, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26019, 67114925, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26019, 8, 2395) /* Gem */
+     , (26019, 8, 30625) /* War Bow */
+     , (26019, 8, 4198) /* Frost Nekode */
+     , (26019, 8, 31769) /* Lugian Axe */
+     , (26019, 8, 41486) /* Puzzle Box */
+     , (26019, 8, 53) /* Studded Leather Cuirass */
+     , (26019, 8, 6043) /* Celdon Girth */
+     , (26019, 8, 414) /* Chainmail Breastplate */
+     , (26019, 8, 8326) /* Copper Pea */
+     , (26019, 8, 2816) /* Scroll of Flame Bane VI */
+     , (26019, 8, 28606) /* Viamontian Pants */
+     , (26019, 8, 723) /* Studded Leather Cowl */
+     , (26019, 8, 27327) /* Stamina Tonic */
+     , (26019, 8, 48972) /* Acid Zombie Essence (50) */
+     , (26019, 8, 41037) /* Acidic Weeping Two Handed Spear */
+     , (26019, 8, 2470) /* Stamina Elixir */
+     , (26019, 8, 59) /* Studded Leather Gauntlets */
+     , (26019, 8, 6005) /* Koujia Sleeves */
+     , (26019, 8, 30569) /* Frost Sabra */
+     , (26019, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (26019, 8, 2405) /* Gem */
+     , (26019, 8, 141) /* Bowl */
+     , (26019, 8, 46) /* Metal Cap */
+     , (26019, 8, 243) /* Dinner Plate */
+     , (26019, 8, 514) /* Excellent Lockpick */
+     , (26019, 8, 71) /* Chainmail Hauberk */
+     , (26019, 8, 73) /* Scalemail Hauberk */
+     , (26019, 8, 31795) /* Acid Lancet */
+     , (26019, 8, 107) /* Sollerets */
+     , (26019, 8, 41041) /* Magari Yari */
+     , (26019, 8, 27324) /* Stamina Brew */
+     , (26019, 8, 20233) /* Scroll of Ataxia */
+     , (26019, 8, 80) /* Chainmail Leggings */
+     , (26019, 8, 25642) /* Leather Gauntlets */
+     , (26019, 8, 2414) /* Gem */
+     , (26019, 8, 554) /* Studded Leather Basinet */;
+

@@ -53,3 +53,15 @@ VALUES (30885, 2, 6) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (30885, 64, 530) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (30885, 8, 2835) /* Aura of Heartseeker Self V */
+     , (30885, 8, 27319) /* Health Tincture */
+     , (30885, 8, 7897) /* Steel Toed Boots */
+     , (30885, 8, 30863) /* Banished Spear */
+     , (30885, 8, 3695) /* Gold Tumerok Insignia */
+     , (30885, 8, 414) /* Chainmail Breastplate */
+     , (30885, 8, 2424) /* Gem */
+     , (30885, 8, 512) /* Good Lockpick */;
+

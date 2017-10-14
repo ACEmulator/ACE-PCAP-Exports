@@ -49,3 +49,31 @@ VALUES (1923, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1923, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1923, 8, 29265) /* Winter Orb */
+     , (1923, 8, 273) /* Pyreal */
+     , (1923, 8, 149) /* Ewer */
+     , (1923, 8, 3752) /* Flaming Battle Axe */
+     , (1923, 8, 8326) /* Copper Pea */
+     , (1923, 8, 133) /* Slippers */
+     , (1923, 8, 332) /* Morning Star */
+     , (1923, 8, 2435) /* Mana Stone */
+     , (1923, 8, 20579) /* Scroll of Saladur's Boon */
+     , (1923, 8, 8328) /* Iron Pea */
+     , (1923, 8, 41484) /* Goggles */
+     , (1923, 8, 27330) /* Moderate Mana Stone */
+     , (1923, 8, 41065) /* Flaming Nodachi */
+     , (1923, 8, 28630) /* Diforsa Cuirass */
+     , (1923, 8, 161) /* Mug */
+     , (1923, 8, 20640) /* Royal Atlatl */
+     , (1923, 8, 621) /* Heavy Bracelet */
+     , (1923, 8, 334) /* Nayin */
+     , (1923, 8, 416) /* Chainmail Pauldrons */
+     , (1923, 8, 28605) /* Beret */
+     , (1923, 8, 8331) /* Silver Pea */
+     , (1923, 8, 2997) /* Scroll of Blade Protection Self VI */
+     , (1923, 8, 168) /* Tankard */
+     , (1923, 8, 2436) /* Greater Mana Stone */;
+

@@ -48,3 +48,34 @@ VALUES (11496, 2, 55) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11496, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11496, 8, 25641) /* Leather Cuirass */
+     , (11496, 8, 2787) /* Scroll of Blood Loather II */
+     , (11496, 8, 295) /* Bracelet */
+     , (11496, 8, 25649) /* Leather Shirt */
+     , (11496, 8, 621) /* Heavy Bracelet */
+     , (11496, 8, 2460) /* Mana Draught */
+     , (11496, 8, 49275) /* Frost Elemental Essence (50) */
+     , (11496, 8, 45285) /* Scroll of Recklessness Ineptitude Other II */
+     , (11496, 8, 27331) /* Minor Mana Stone */
+     , (11496, 8, 31790) /* Lightning Stick */
+     , (11496, 8, 7787) /* Frost Spiked Club */
+     , (11496, 8, 129) /* Sandals */
+     , (11496, 8, 53) /* Studded Leather Cuirass */
+     , (11496, 8, 416) /* Chainmail Pauldrons */
+     , (11496, 8, 49485) /* Encapsulated Spirit */
+     , (11496, 8, 3824) /* Flaming Ken */
+     , (11496, 8, 273) /* Pyreal */
+     , (11496, 8, 148) /* Cup */
+     , (11496, 8, 2964) /* Scroll of Shock Wave III */
+     , (11496, 8, 161) /* Mug */
+     , (11496, 8, 624) /* Ring */
+     , (11496, 8, 254) /* Stoup */
+     , (11496, 8, 132) /* Shoes */
+     , (11496, 8, 2599) /* Trousers */
+     , (11496, 8, 312) /* Light Crossbow */
+     , (11496, 8, 8329) /* Lead Pea */
+     , (11496, 8, 11342) /* Carenzi Sentry Pelt */;
+

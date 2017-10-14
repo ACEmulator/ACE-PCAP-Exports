@@ -45,3 +45,20 @@ VALUES (14877, 2, 62) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14877, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14877, 8, 142) /* Chalice */
+     , (14877, 8, 273) /* Pyreal */
+     , (14877, 8, 128) /* Qafiya */
+     , (14877, 8, 2436) /* Greater Mana Stone */
+     , (14877, 8, 20246) /* Scroll of Gossamer Flesh */
+     , (14877, 8, 8331) /* Silver Pea */
+     , (14877, 8, 2421) /* Gem */
+     , (14877, 8, 28607) /* Lace Shirt */
+     , (14877, 8, 27328) /* Major Mana Stone */
+     , (14877, 8, 133) /* Slippers */
+     , (14877, 8, 8326) /* Copper Pea */
+     , (14877, 8, 40704) /* Covenant Tassets */
+     , (14877, 8, 20510) /* Scroll of Challenger's Legacy */;
+

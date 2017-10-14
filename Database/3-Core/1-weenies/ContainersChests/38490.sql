@@ -51,3 +51,8 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (38490, 2, 0) /* OPEN_BOOL */
      , (38490, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38490, 8, 38463) /* Celestial Hand Breastplate */;
+

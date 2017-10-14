@@ -52,3 +52,11 @@ VALUES (27310, 1, 16785073)
      , (27310, 23, 16777708)
      , (27310, 24, 16777708);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (27310, 8, 31813) /* Acid Slingshot */
+     , (27310, 8, 41486) /* Puzzle Box */
+     , (27310, 8, 2596) /* Doublet */
+     , (27310, 8, 29204) /* Tusker Spit */;
+

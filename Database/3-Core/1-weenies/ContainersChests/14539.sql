@@ -50,3 +50,8 @@ VALUES (14539, 0, 16784246)
      , (14539, 1, 16784196)
      , (14539, 2, 16784180);
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14539, 8, 14524) /* Fragment of the Fire Prism */;
+

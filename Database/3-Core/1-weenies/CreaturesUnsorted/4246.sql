@@ -60,3 +60,29 @@ VALUES (4246, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (4246, 128, 235) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (4246, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4246, 8, 312) /* Light Crossbow */
+     , (4246, 8, 311) /* Heavy Crossbow */
+     , (4246, 8, 8329) /* Lead Pea */
+     , (4246, 8, 106) /* Yoroi Sleeves */
+     , (4246, 8, 2417) /* Gem */
+     , (4246, 8, 41067) /* Shashqa */
+     , (4246, 8, 20640) /* Royal Atlatl */
+     , (4246, 8, 25647) /* Leather Pants */
+     , (4246, 8, 49324) /* Fire Wisp Essence (50) */
+     , (4246, 8, 31795) /* Acid Lancet */
+     , (4246, 8, 132) /* Shoes */
+     , (4246, 8, 22440) /* Dirk */
+     , (4246, 8, 22168) /* Hefty Walking Cane */
+     , (4246, 8, 379) /* Mana Potion */
+     , (4246, 8, 2750) /* Scroll of Weakness Other V */
+     , (4246, 8, 301) /* Battle Axe */
+     , (4246, 8, 38) /* Studded Leather Bracers */
+     , (4246, 8, 297) /* Ring */
+     , (4246, 8, 128) /* Qafiya */
+     , (4246, 8, 27331) /* Minor Mana Stone */
+     , (4246, 8, 2472) /* Wand */
+     , (4246, 8, 3170) /* Scroll of Light Weapon Mastery Self IV */;
+

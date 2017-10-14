@@ -36,3 +36,12 @@ VALUES (31920, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (31920, 19, True) /* ATTACKABLE_BOOL */
      , (31920, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31920, 8, 415) /* Chainmail Girth */
+     , (31920, 8, 516) /* Peerless Lockpick */
+     , (31920, 8, 37363) /* Quill of Infliction */
+     , (31920, 8, 2407) /* Gem */
+     , (31920, 8, 27325) /* Stamina Philtre */;
+

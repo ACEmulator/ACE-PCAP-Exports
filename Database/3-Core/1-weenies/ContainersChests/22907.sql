@@ -58,3 +58,33 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (22907, 2, 0) /* OPEN_BOOL */
      , (22907, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22907, 8, 49360) /* Frost Moar Essence (80) */
+     , (22907, 8, 63) /* Studded Leather Girth */
+     , (22907, 8, 43336) /* Scroll of Weakening Curse VII */
+     , (22907, 8, 30590) /* Frost Flanged Mace */
+     , (22907, 8, 621) /* Heavy Bracelet */
+     , (22907, 8, 25652) /* Leather Tassets */
+     , (22907, 8, 2595) /* Baggy Tunic */
+     , (22907, 8, 7790) /* Electric Spiked Club */
+     , (22907, 8, 7897) /* Steel Toed Boots */
+     , (22907, 8, 133) /* Slippers */
+     , (22907, 8, 2548) /* Sceptre */
+     , (22907, 8, 22932) /* Recall to the Singularity Caul */
+     , (22907, 8, 29255) /* Fire Atlatl */
+     , (22907, 8, 12463) /* Atlatl */
+     , (22907, 8, 31867) /* Diadem */
+     , (22907, 8, 6047) /* Amuli Leggings */
+     , (22907, 8, 20501) /* Scroll of Jibril's Boon */
+     , (22907, 8, 118) /* Cloth Cap */
+     , (22907, 8, 40698) /* Covenant Gauntlets */
+     , (22907, 8, 55) /* Chainmail Gauntlets */
+     , (22907, 8, 25644) /* Leather Greaves */
+     , (22907, 8, 41036) /* Assagai */
+     , (22907, 8, 154) /* Goblet */
+     , (22907, 8, 359) /* War Hammer */
+     , (22907, 8, 142) /* Chalice */
+     , (22907, 8, 25648) /* Leather Pauldrons */;
+

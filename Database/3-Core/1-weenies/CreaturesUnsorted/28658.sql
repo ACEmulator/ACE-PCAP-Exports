@@ -58,3 +58,25 @@ VALUES (28658, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (28658, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (28658, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28658, 8, 7940) /* Empty Flask */
+     , (28658, 8, 2595) /* Baggy Tunic */
+     , (28658, 8, 8329) /* Lead Pea */
+     , (28658, 8, 59) /* Studded Leather Gauntlets */
+     , (28658, 8, 628) /* Handy Healing Kit */
+     , (28658, 8, 45) /* Leather Cap */
+     , (28658, 8, 2420) /* Gem */
+     , (28658, 8, 49261) /* Acid Elemental Essence (50) */
+     , (28658, 8, 49485) /* Encapsulated Spirit */
+     , (28658, 8, 161) /* Mug */
+     , (28658, 8, 297) /* Ring */
+     , (28658, 8, 28608) /* Poet's Shirt */
+     , (28658, 8, 2703) /* Scroll of Imperil Other III */
+     , (28658, 8, 41041) /* Magari Yari */
+     , (28658, 8, 121) /* Gloves */
+     , (28658, 8, 513) /* Plain Lockpick */
+     , (28658, 8, 25652) /* Leather Tassets */
+     , (28658, 8, 9661) /* Scroll of Drain Mana Other II */;
+

@@ -127,56 +127,56 @@ VALUES (1039, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1039, 4, 2623)
-     , (1039, 4, 2622)
-     , (1039, 4, 2621)
-     , (1039, 4, 513)
-     , (1039, 4, 545)
-     , (1039, 4, 9295)
-     , (1039, 4, 20646)
-     , (1039, 4, 21093)
-     , (1039, 4, 23044)
-     , (1039, 4, 23204)
-     , (1039, 4, 4586)
-     , (1039, 4, 4585)
-     , (1039, 4, 5339)
-     , (1039, 4, 5344)
-     , (1039, 4, 5345)
-     , (1039, 4, 9378)
-     , (1039, 4, 9377)
-     , (1039, 4, 9359)
-     , (1039, 4, 9362)
-     , (1039, 4, 9363)
-     , (1039, 4, 23858)
-     , (1039, 4, 23857)
-     , (1039, 4, 305)
-     , (1039, 4, 300)
-     , (1039, 4, 312)
-     , (1039, 4, 360)
-     , (1039, 4, 12463)
-     , (1039, 4, 12464)
-     , (1039, 4, 15296)
-     , (1039, 4, 15298)
-     , (1039, 4, 304)
-     , (1039, 4, 3758)
-     , (1039, 4, 3759)
-     , (1039, 4, 3760)
-     , (1039, 4, 3761)
-     , (1039, 4, 310)
-     , (1039, 4, 320)
-     , (1039, 4, 316)
-     , (1039, 4, 3786)
-     , (1039, 4, 3787)
-     , (1039, 4, 3788)
-     , (1039, 4, 3789)
-     , (1039, 4, 42979)
-     , (1039, 4, 43022)
-     , (1039, 4, 44074)
-     , (1039, 4, 44070)
-     , (1039, 4, 44071);
+VALUES (1039, 4, 2623) /* Trade Note (1,000) */
+     , (1039, 4, 2622) /* Trade Note (500) */
+     , (1039, 4, 2621) /* Trade Note (100) */
+     , (1039, 4, 513) /* Plain Lockpick */
+     , (1039, 4, 545) /* Reliable Lockpick */
+     , (1039, 4, 9295) /* Intricate Carving Tool */
+     , (1039, 4, 20646) /* Ust */
+     , (1039, 4, 21093) /* Tinkering */
+     , (1039, 4, 23044) /* On the Abilities of Salvaged Ivory */
+     , (1039, 4, 23204) /* Carving Keys and Keyrings */
+     , (1039, 4, 4586) /* Bundle of Arrowheads */
+     , (1039, 4, 4585) /* Bundle of Arrowshafts */
+     , (1039, 4, 5339) /* Bundle of Quarrelshafts */
+     , (1039, 4, 5344) /* Bundle of Blunt Arrowheads */
+     , (1039, 4, 5345) /* Bundle of Broad Arrowheads */
+     , (1039, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (1039, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (1039, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (1039, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (1039, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (1039, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (1039, 4, 23857) /* Bundle of Spiketails */
+     , (1039, 4, 305) /* Quarrel */
+     , (1039, 4, 300) /* Arrow */
+     , (1039, 4, 312) /* Light Crossbow */
+     , (1039, 4, 360) /* Yag */
+     , (1039, 4, 12463) /* Atlatl */
+     , (1039, 4, 12464) /* Atlatl Dart */
+     , (1039, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (1039, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (1039, 4, 304) /* Throwing Axe */
+     , (1039, 4, 3758) /* Acid Throwing Axe */
+     , (1039, 4, 3759) /* Lightning Throwing Axe */
+     , (1039, 4, 3760) /* Flaming Throwing Axe */
+     , (1039, 4, 3761) /* Frost Throwing Axe */
+     , (1039, 4, 310) /* Throwing Club */
+     , (1039, 4, 320) /* Javelin */
+     , (1039, 4, 316) /* Throwing Dart */
+     , (1039, 4, 3786) /* Throwing Acid Dart */
+     , (1039, 4, 3787) /* Throwing Lightning Dart */
+     , (1039, 4, 3788) /* Throwing Fire Dart */
+     , (1039, 4, 3789) /* Throwing Frost Dart */
+     , (1039, 4, 42979) /* Core Plating Integrator */
+     , (1039, 4, 43022) /* Core Plating Deintegrator */
+     , (1039, 4, 44074) /* Invitation to Master Fletchers */
+     , (1039, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (1039, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1039, 2, 360);
+VALUES (1039, 2, 360) /* Yag */;
 

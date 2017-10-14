@@ -93,82 +93,82 @@ VALUES (24596, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24596, 4, 75)
-     , (24596, 4, 8489)
-     , (24596, 4, 8488)
-     , (24596, 4, 76)
-     , (24596, 4, 40)
-     , (24596, 4, 57)
-     , (24596, 4, 61)
-     , (24596, 4, 66)
-     , (24596, 4, 110)
-     , (24596, 4, 82)
-     , (24596, 4, 87)
-     , (24596, 4, 114)
-     , (24596, 4, 107)
-     , (24596, 4, 92)
-     , (24596, 4, 95)
-     , (24596, 4, 350)
-     , (24596, 4, 351)
-     , (24596, 4, 353)
-     , (24596, 4, 331)
-     , (24596, 4, 309)
-     , (24596, 4, 332)
-     , (24596, 4, 359)
-     , (24596, 4, 301)
-     , (24596, 4, 540)
-     , (24596, 4, 543)
-     , (24596, 4, 541)
-     , (24596, 4, 544)
-     , (24596, 4, 306)
-     , (24596, 4, 311)
-     , (24596, 4, 12463)
-     , (24596, 4, 300)
-     , (24596, 4, 305)
-     , (24596, 4, 12464)
-     , (24596, 4, 4586)
-     , (24596, 4, 4585)
-     , (24596, 4, 5339)
-     , (24596, 4, 15296)
-     , (24596, 4, 23857)
-     , (24596, 4, 3599)
-     , (24596, 4, 3603)
-     , (24596, 4, 3601)
-     , (24596, 4, 3605)
-     , (24596, 4, 3598)
-     , (24596, 4, 3602)
-     , (24596, 4, 9359)
-     , (24596, 4, 9363)
-     , (24596, 4, 9362)
-     , (24596, 4, 9361)
-     , (24596, 4, 9366)
-     , (24596, 4, 9377)
-     , (24596, 4, 9378)
-     , (24596, 4, 23858)
-     , (24596, 4, 15298)
-     , (24596, 4, 2621)
-     , (24596, 4, 2622)
-     , (24596, 4, 2623)
-     , (24596, 4, 2624)
-     , (24596, 4, 2625)
-     , (24596, 4, 2626)
-     , (24596, 4, 2627)
-     , (24596, 4, 20628)
-     , (24596, 4, 20629)
-     , (24596, 4, 20630)
-     , (24596, 4, 28607)
-     , (24596, 4, 30948)
-     , (24596, 4, 7897)
-     , (24596, 4, 31026)
-     , (24596, 4, 40711)
-     , (24596, 4, 37205)
-     , (24596, 4, 2589)
-     , (24596, 4, 135)
-     , (24596, 4, 44850)
-     , (24596, 4, 6047);
+VALUES (24596, 4, 75) /* Helmet */
+     , (24596, 4, 8489) /* Heaume */
+     , (24596, 4, 8488) /* Armet */
+     , (24596, 4, 76) /* Qafiya */
+     , (24596, 4, 40) /* Platemail Breastplate */
+     , (24596, 4, 57) /* Platemail Gauntlets */
+     , (24596, 4, 61) /* Platemail Girth */
+     , (24596, 4, 66) /* Platemail Greaves */
+     , (24596, 4, 110) /* Platemail Tassets */
+     , (24596, 4, 82) /* Platemail Leggings */
+     , (24596, 4, 87) /* Platemail Pauldrons */
+     , (24596, 4, 114) /* Platemail Vambraces */
+     , (24596, 4, 107) /* Sollerets */
+     , (24596, 4, 92) /* Large Kite Shield */
+     , (24596, 4, 95) /* Tower Shield */
+     , (24596, 4, 350) /* Broad Sword */
+     , (24596, 4, 351) /* Long Sword */
+     , (24596, 4, 353) /* Tachi */
+     , (24596, 4, 331) /* Mace */
+     , (24596, 4, 309) /* Club */
+     , (24596, 4, 332) /* Morning Star */
+     , (24596, 4, 359) /* War Hammer */
+     , (24596, 4, 301) /* Battle Axe */
+     , (24596, 4, 540) /* Lugian Axe */
+     , (24596, 4, 543) /* Lugian Mace */
+     , (24596, 4, 541) /* Lugian Club */
+     , (24596, 4, 544) /* Lugian Morning Star */
+     , (24596, 4, 306) /* Longbow */
+     , (24596, 4, 311) /* Heavy Crossbow */
+     , (24596, 4, 12463) /* Atlatl */
+     , (24596, 4, 300) /* Arrow */
+     , (24596, 4, 305) /* Quarrel */
+     , (24596, 4, 12464) /* Atlatl Dart */
+     , (24596, 4, 4586) /* Bundle of Arrowheads */
+     , (24596, 4, 4585) /* Bundle of Arrowshafts */
+     , (24596, 4, 5339) /* Bundle of Quarrelshafts */
+     , (24596, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (24596, 4, 23857) /* Bundle of Spiketails */
+     , (24596, 4, 3599) /* Blunt Arrow */
+     , (24596, 4, 3603) /* Blunt Quarrel */
+     , (24596, 4, 3601) /* Frog Crotch Arrow */
+     , (24596, 4, 3605) /* Frog Crotch Quarrel */
+     , (24596, 4, 3598) /* Armor Piercing Arrow */
+     , (24596, 4, 3602) /* Armor Piercing Quarrel */
+     , (24596, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (24596, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (24596, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (24596, 4, 9361) /* Wrapped Bundle of Armor Piercing Arrowheads */
+     , (24596, 4, 9366) /* Wrapped Bundle of Frog Crotch Arrowheads */
+     , (24596, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (24596, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (24596, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (24596, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (24596, 4, 2621) /* Trade Note (100) */
+     , (24596, 4, 2622) /* Trade Note (500) */
+     , (24596, 4, 2623) /* Trade Note (1,000) */
+     , (24596, 4, 2624) /* Trade Note (5,000) */
+     , (24596, 4, 2625) /* Trade Note (10,000) */
+     , (24596, 4, 2626) /* Trade Note (50,000) */
+     , (24596, 4, 2627) /* Trade Note (100,000) */
+     , (24596, 4, 20628) /* Trade Note (150,000) */
+     , (24596, 4, 20629) /* Trade Note (200,000) */
+     , (24596, 4, 20630) /* Trade Note (250,000) */
+     , (24596, 4, 28607) /* Lace Shirt */
+     , (24596, 4, 30948) /* Diforsa Hauberk */
+     , (24596, 4, 7897) /* Steel Toed Boots */
+     , (24596, 4, 31026) /* Tenassa Breastplate */
+     , (24596, 4, 40711) /* Covenant Helm */
+     , (24596, 4, 37205) /* Olthoi Celdon Sleeves */
+     , (24596, 4, 2589) /* Smock */
+     , (24596, 4, 135) /* Turban */
+     , (24596, 4, 44850) /* Chevron Cloak */
+     , (24596, 4, 6047) /* Amuli Leggings */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (24596, 2, 23757);
+VALUES (24596, 2, 23757) /* Lugian Mace */;
 

@@ -50,3 +50,49 @@ VALUES (28553, 2, 44) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28553, 64, 240) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28553, 8, 2408) /* Gem */
+     , (28553, 8, 273) /* Pyreal */
+     , (28553, 8, 2397) /* Gem */
+     , (28553, 8, 2435) /* Mana Stone */
+     , (28553, 8, 2421) /* Gem */
+     , (28553, 8, 27330) /* Moderate Mana Stone */
+     , (28553, 8, 297) /* Ring */
+     , (28553, 8, 21158) /* Covenant Shield */
+     , (28553, 8, 31761) /* Lightning Dericost Blade */
+     , (28553, 8, 334) /* Nayin */
+     , (28553, 8, 295) /* Bracelet */
+     , (28553, 8, 8326) /* Copper Pea */
+     , (28553, 8, 45875) /* Lucky Gold Letter */
+     , (28553, 8, 2424) /* Gem */
+     , (28553, 8, 20596) /* Scroll of Hieromancer's Blessing */
+     , (28553, 8, 2395) /* Gem */
+     , (28553, 8, 3865) /* Acid Silifi */
+     , (28553, 8, 2599) /* Trousers */
+     , (28553, 8, 93) /* Round Shield */
+     , (28553, 8, 8328) /* Iron Pea */
+     , (28553, 8, 2892) /* Aura of Hermetic Link Self VI */
+     , (28553, 8, 2426) /* Gem */
+     , (28553, 8, 45876) /* Scarlet Red Letter */
+     , (28553, 8, 8331) /* Silver Pea */
+     , (28553, 8, 30908) /* Halaetan Magic Page 3 */
+     , (28553, 8, 25645) /* Leather Leggings */
+     , (28553, 8, 294) /* Amulet */
+     , (28553, 8, 624) /* Ring */
+     , (28553, 8, 148) /* Cup */
+     , (28553, 8, 622) /* Necklace */
+     , (28553, 8, 31868) /* Signet Crown */
+     , (28553, 8, 31772) /* Flaming War Axe */
+     , (28553, 8, 2741) /* Scroll of Strength Other VI */
+     , (28553, 8, 303) /* Hand Axe */
+     , (28553, 8, 2394) /* Gem */
+     , (28553, 8, 2407) /* Gem */
+     , (28553, 8, 20410) /* Scroll of Tattercoat */
+     , (28553, 8, 28610) /* Loafers */
+     , (28553, 8, 2431) /* Gem */
+     , (28553, 8, 243) /* Dinner Plate */
+     , (28553, 8, 2425) /* Gem */
+     , (28553, 8, 2436) /* Greater Mana Stone */;
+

@@ -48,3 +48,12 @@ VALUES (45016, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (45016, 64, 18255) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (45016, 8, 621) /* Heavy Bracelet */
+     , (45016, 8, 27328) /* Major Mana Stone */
+     , (45016, 8, 45021) /* Wardley's Shirt */
+     , (45016, 8, 45020) /* Wardley's Boots */
+     , (45016, 8, 45019) /* Wardley's Necklace */;
+

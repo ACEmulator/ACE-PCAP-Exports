@@ -130,68 +130,68 @@ VALUES (5833, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5833, 4, 35)
-     , (5833, 4, 551)
-     , (5833, 4, 554)
-     , (5833, 4, 413)
-     , (5833, 4, 414)
-     , (5833, 4, 55)
-     , (5833, 4, 415)
-     , (5833, 4, 71)
-     , (5833, 4, 80)
-     , (5833, 4, 416)
-     , (5833, 4, 96)
-     , (5833, 4, 101)
-     , (5833, 4, 85)
-     , (5833, 4, 77)
-     , (5833, 4, 78)
-     , (5833, 4, 115)
-     , (5833, 4, 36)
-     , (5833, 4, 39)
-     , (5833, 4, 45)
-     , (5833, 4, 47)
-     , (5833, 4, 458)
-     , (5833, 4, 50)
-     , (5833, 4, 56)
-     , (5833, 4, 60)
-     , (5833, 4, 65)
-     , (5833, 4, 109)
-     , (5833, 4, 81)
-     , (5833, 4, 86)
-     , (5833, 4, 97)
-     , (5833, 4, 102)
-     , (5833, 4, 46)
-     , (5833, 4, 116)
-     , (5833, 4, 38)
-     , (5833, 4, 42)
-     , (5833, 4, 48)
-     , (5833, 4, 723)
-     , (5833, 4, 53)
-     , (5833, 4, 59)
-     , (5833, 4, 63)
-     , (5833, 4, 68)
-     , (5833, 4, 112)
-     , (5833, 4, 84)
-     , (5833, 4, 89)
-     , (5833, 4, 99)
-     , (5833, 4, 105)
-     , (5833, 4, 43)
-     , (5833, 4, 54)
-     , (5833, 4, 64)
-     , (5833, 4, 2437)
-     , (5833, 4, 90)
-     , (5833, 4, 106)
-     , (5833, 4, 44)
-     , (5833, 4, 93)
-     , (5833, 4, 94)
-     , (5833, 4, 95)
-     , (5833, 4, 513)
-     , (5833, 4, 545)
-     , (5833, 4, 512)
-     , (5833, 4, 514);
+VALUES (5833, 4, 35) /* Chainmail Basinet */
+     , (5833, 4, 551) /* Basinet */
+     , (5833, 4, 554) /* Studded Leather Basinet */
+     , (5833, 4, 413) /* Chainmail Bracers */
+     , (5833, 4, 414) /* Chainmail Breastplate */
+     , (5833, 4, 55) /* Chainmail Gauntlets */
+     , (5833, 4, 415) /* Chainmail Girth */
+     , (5833, 4, 71) /* Chainmail Hauberk */
+     , (5833, 4, 80) /* Chainmail Leggings */
+     , (5833, 4, 416) /* Chainmail Pauldrons */
+     , (5833, 4, 96) /* Chainmail Shirt */
+     , (5833, 4, 101) /* Chainmail Sleeves */
+     , (5833, 4, 85) /* Chainmail Coif */
+     , (5833, 4, 77) /* Kabuton */
+     , (5833, 4, 78) /* Kote */
+     , (5833, 4, 115) /* Leather Boots */
+     , (5833, 4, 36) /* Leather Bracers */
+     , (5833, 4, 39) /* Leather Breastplate */
+     , (5833, 4, 45) /* Leather Cap */
+     , (5833, 4, 47) /* Leather Coat */
+     , (5833, 4, 458) /* Leather Cowl */
+     , (5833, 4, 50) /* Leather Cuirass */
+     , (5833, 4, 56) /* Leather Gauntlets */
+     , (5833, 4, 60) /* Olthoi Celdon Girth */
+     , (5833, 4, 65) /* Olthoi Greaves */
+     , (5833, 4, 109) /* Olthoi Tassets */
+     , (5833, 4, 81) /* Leggings */
+     , (5833, 4, 86) /* Leather Pauldrons */
+     , (5833, 4, 97) /* Shirt */
+     , (5833, 4, 102) /* Leather Sleeves */
+     , (5833, 4, 46) /* Metal Cap */
+     , (5833, 4, 116) /* Studded Leather Boots */
+     , (5833, 4, 38) /* Studded Leather Bracers */
+     , (5833, 4, 42) /* Studded Leather Breastplate */
+     , (5833, 4, 48) /* Studded Leather Coat */
+     , (5833, 4, 723) /* Studded Leather Cowl */
+     , (5833, 4, 53) /* Studded Leather Cuirass */
+     , (5833, 4, 59) /* Studded Leather Gauntlets */
+     , (5833, 4, 63) /* Studded Leather Girth */
+     , (5833, 4, 68) /* Studded Leather Greaves */
+     , (5833, 4, 112) /* Studded Leather Tassets */
+     , (5833, 4, 84) /* Studded  Leggings */
+     , (5833, 4, 89) /* Studded Leather Pauldrons */
+     , (5833, 4, 99) /* Studded Leather Shirt */
+     , (5833, 4, 105) /* Studded Leather Sleeves */
+     , (5833, 4, 43) /* Yoroi Breastplate */
+     , (5833, 4, 54) /* Yoroi Cuirass */
+     , (5833, 4, 64) /* Yoroi Girth */
+     , (5833, 4, 2437) /* Yoroi Leggings */
+     , (5833, 4, 90) /* Yoroi Pauldrons */
+     , (5833, 4, 106) /* Yoroi Sleeves */
+     , (5833, 4, 44) /* Buckler */
+     , (5833, 4, 93) /* Round Shield */
+     , (5833, 4, 94) /* Diamond Shield */
+     , (5833, 4, 95) /* Tower Shield */
+     , (5833, 4, 513) /* Plain Lockpick */
+     , (5833, 4, 545) /* Reliable Lockpick */
+     , (5833, 4, 512) /* Good Lockpick */
+     , (5833, 4, 514) /* Excellent Lockpick */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (5833, 2, 352);
+VALUES (5833, 2, 352) /* Short Sword */;
 

@@ -45,3 +45,38 @@ VALUES (41190, 2, 19) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41190, 64, 6000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41190, 8, 49340) /* Acid Moar Essence (100) */
+     , (41190, 8, 46881) /* Aura of Heartseeker Other VII */
+     , (41190, 8, 49548) /* Lightning Phyntos Wasp Essence (125) */
+     , (41190, 8, 49526) /* Acid Phyntos Wasp Essence (100) */
+     , (41190, 8, 20484) /* Scroll of Blessing of the Arrow Turner */
+     , (41190, 8, 105) /* Studded Leather Sleeves */
+     , (41190, 8, 28620) /* Alduressa Leggings */
+     , (41190, 8, 41187) /* Excavation Master's Message Shard */
+     , (41190, 8, 49347) /* Lightning Moar Essence (100) */
+     , (41190, 8, 49285) /* Acid K'nath Essence (125) */
+     , (41190, 8, 27221) /* Lorica Breastplate */
+     , (41190, 8, 624) /* Ring */
+     , (41190, 8, 31816) /* Fire Slingshot */
+     , (41190, 8, 2601) /* Loose Pants */
+     , (41190, 8, 27235) /* Scroll of Eradicate Item Magic */
+     , (41190, 8, 31781) /* Electric Spine Glaive */
+     , (41190, 8, 6005) /* Koujia Sleeves */
+     , (41190, 8, 20568) /* Scroll of Topheron's Boon */
+     , (41190, 8, 294) /* Amulet */
+     , (41190, 8, 40711) /* Covenant Helm */
+     , (41190, 8, 31780) /* Acid Spine Glaive */
+     , (41190, 8, 22158) /* Jo */
+     , (41190, 8, 92) /* Large Kite Shield */
+     , (41190, 8, 21152) /* Covenant Breastplate */
+     , (41190, 8, 22162) /* Frost Nabut */
+     , (41190, 8, 20504) /* Scroll of Light Weapon Ineptitude Other VII */
+     , (41190, 8, 45411) /* Spada */
+     , (41190, 8, 80) /* Chainmail Leggings */
+     , (41190, 8, 29243) /* Piercing Bow */
+     , (41190, 8, 31815) /* Electric Slingshot */
+     , (41190, 8, 49485) /* Encapsulated Spirit */;
+

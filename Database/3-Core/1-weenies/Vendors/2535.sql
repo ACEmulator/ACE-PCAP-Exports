@@ -127,23 +127,23 @@ VALUES (2535, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2535, 4, 2457)
-     , (2535, 4, 377)
-     , (2535, 4, 27319)
-     , (2535, 4, 2460)
-     , (2535, 4, 379)
-     , (2535, 4, 27322)
-     , (2535, 4, 378)
-     , (2535, 4, 27326)
-     , (2535, 4, 2470)
-     , (2535, 4, 628)
-     , (2535, 4, 629)
-     , (2535, 4, 630)
-     , (2535, 4, 631)
-     , (2535, 4, 632)
-     , (2535, 4, 4587)
-     , (2535, 4, 4596)
-     , (2535, 4, 4593)
-     , (2535, 4, 2621)
-     , (2535, 4, 2622);
+VALUES (2535, 4, 2457) /* Health Draught */
+     , (2535, 4, 377) /* Potion of Healing */
+     , (2535, 4, 27319) /* Health Tincture */
+     , (2535, 4, 2460) /* Mana Draught */
+     , (2535, 4, 379) /* Mana Potion */
+     , (2535, 4, 27322) /* Mana Tincture */
+     , (2535, 4, 378) /* Stamina Potion */
+     , (2535, 4, 27326) /* Stamina Tincture */
+     , (2535, 4, 2470) /* Stamina Elixir */
+     , (2535, 4, 628) /* Handy Healing Kit */
+     , (2535, 4, 629) /* Adept Healing Kit */
+     , (2535, 4, 630) /* Gifted Healing Kit */
+     , (2535, 4, 631) /* Excellent Healing Kit */
+     , (2535, 4, 632) /* Peerless Healing Kit */
+     , (2535, 4, 4587) /* Heal Other II */
+     , (2535, 4, 4596) /* Regeneration Other II */
+     , (2535, 4, 4593) /* Mana Boost Other II */
+     , (2535, 4, 2621) /* Trade Note (100) */
+     , (2535, 4, 2622) /* Trade Note (500) */;
 

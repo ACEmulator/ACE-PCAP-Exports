@@ -124,63 +124,63 @@ VALUES (20216, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20216, 4, 15269)
-     , (20216, 4, 15271)
-     , (20216, 4, 2762)
-     , (20216, 4, 2767)
-     , (20216, 4, 46873)
-     , (20216, 4, 2782)
-     , (20216, 4, 46874)
-     , (20216, 4, 2807)
-     , (20216, 4, 46875)
-     , (20216, 4, 2832)
-     , (20216, 4, 46876)
-     , (20216, 4, 2887)
-     , (20216, 4, 46877)
-     , (20216, 4, 28003)
-     , (20216, 4, 46878)
-     , (20216, 4, 2882)
-     , (20216, 4, 2772)
-     , (20216, 4, 2777)
-     , (20216, 4, 2787)
-     , (20216, 4, 2792)
-     , (20216, 4, 2797)
-     , (20216, 4, 2802)
-     , (20216, 4, 2812)
-     , (20216, 4, 2817)
-     , (20216, 4, 2822)
-     , (20216, 4, 2827)
-     , (20216, 4, 2837)
-     , (20216, 4, 2842)
-     , (20216, 4, 2847)
-     , (20216, 4, 2852)
-     , (20216, 4, 2857)
-     , (20216, 4, 2862)
-     , (20216, 4, 2867)
-     , (20216, 4, 2872)
-     , (20216, 4, 28010)
-     , (20216, 4, 2877)
-     , (20216, 4, 2893)
-     , (20216, 4, 2898)
-     , (20216, 4, 8915)
-     , (20216, 4, 2907)
-     , (20216, 4, 21289)
-     , (20216, 4, 5998)
-     , (20216, 4, 8921)
-     , (20216, 4, 21303)
-     , (20216, 4, 4395)
-     , (20216, 4, 21310)
-     , (20216, 4, 8930)
-     , (20216, 4, 2941)
-     , (20216, 4, 8936)
-     , (20216, 4, 21317)
-     , (20216, 4, 2955)
-     , (20216, 4, 8942)
-     , (20216, 4, 21324)
-     , (20216, 4, 2963)
-     , (20216, 4, 8948)
-     , (20216, 4, 21331)
-     , (20216, 4, 2968)
-     , (20216, 4, 8954)
-     , (20216, 4, 21296);
+VALUES (20216, 4, 15269) /* Foci of Artifice */
+     , (20216, 4, 15271) /* Foci of Strife */
+     , (20216, 4, 2762) /* Scroll of Acid Bane II */
+     , (20216, 4, 2767) /* Scroll of Acid Lure II */
+     , (20216, 4, 46873) /* Aura of Blood Drinker Other II */
+     , (20216, 4, 2782) /* Aura of Blood Drinker Self II */
+     , (20216, 4, 46874) /* Aura of Defender Other II */
+     , (20216, 4, 2807) /* Aura of Defender Self II */
+     , (20216, 4, 46875) /* Aura of Heartseeker Other II */
+     , (20216, 4, 2832) /* Aura of Heartseeker Self II */
+     , (20216, 4, 46876) /* Aura of Hermetic Link Other II */
+     , (20216, 4, 2887) /* Aura of Hermetic Link Self II */
+     , (20216, 4, 46877) /* Aura of Spirit Drinker Other II */
+     , (20216, 4, 28003) /* Aura of Spirit Drinker Self II */
+     , (20216, 4, 46878) /* Aura of Swift Killer Other II */
+     , (20216, 4, 2882) /* Aura of Swift Killer Self II */
+     , (20216, 4, 2772) /* Scroll of Blade Bane II */
+     , (20216, 4, 2777) /* Scroll of Blade Lure II */
+     , (20216, 4, 2787) /* Scroll of Blood Loather II */
+     , (20216, 4, 2792) /* Scroll of Bludgeon Bane II */
+     , (20216, 4, 2797) /* Scroll of Bludgeon Lure II */
+     , (20216, 4, 2802) /* Scroll of Brittlemail II */
+     , (20216, 4, 2812) /* Scroll of Flame Bane II */
+     , (20216, 4, 2817) /* Scroll of Flame Lure II */
+     , (20216, 4, 2822) /* Scroll of Frost Bane II */
+     , (20216, 4, 2827) /* Scroll of Frost Lure II */
+     , (20216, 4, 2837) /* Scroll of Hermetic Void II */
+     , (20216, 4, 2842) /* Scroll of Impenetrability II */
+     , (20216, 4, 2847) /* Scroll of Leaden Weapon II */
+     , (20216, 4, 2852) /* Scroll of Lightning Bane II */
+     , (20216, 4, 2857) /* Scroll of Lightning Lure II */
+     , (20216, 4, 2862) /* Scroll of Lure Blade II */
+     , (20216, 4, 2867) /* Scroll of Piercing Bane II */
+     , (20216, 4, 2872) /* Scroll of Piercing Lure II */
+     , (20216, 4, 28010) /* Scroll of Spirit Loather II */
+     , (20216, 4, 2877) /* Scroll of Strengthen Lock II */
+     , (20216, 4, 2893) /* Scroll of Turn Blade II */
+     , (20216, 4, 2898) /* Scroll of Weaken Lock II */
+     , (20216, 4, 8915) /* Scroll of Acid Streak II */
+     , (20216, 4, 2907) /* Scroll of Acid Stream II */
+     , (20216, 4, 21289) /* Scroll of Acid Arc II */
+     , (20216, 4, 5998) /* Scroll of Flame Bolt II */
+     , (20216, 4, 8921) /* Scroll of Flame Streak II */
+     , (20216, 4, 21303) /* Scroll of Flame Arc II */
+     , (20216, 4, 4395) /* Scroll of Force Bolt II */
+     , (20216, 4, 21310) /* Scroll of Force Arc II */
+     , (20216, 4, 8930) /* Scroll of Force Streak II */
+     , (20216, 4, 2941) /* Scroll of Frost Bolt II */
+     , (20216, 4, 8936) /* Scroll of Frost Streak II */
+     , (20216, 4, 21317) /* Scroll of Frost Arc II */
+     , (20216, 4, 2955) /* Scroll of Lightning Bolt II */
+     , (20216, 4, 8942) /* Scroll of Lightning Streak II */
+     , (20216, 4, 21324) /* Scroll of Lightning Arc II */
+     , (20216, 4, 2963) /* Scroll of Shock Wave II */
+     , (20216, 4, 8948) /* Scroll of Shock Wave Streak II */
+     , (20216, 4, 21331) /* Scroll of Shock Arc II */
+     , (20216, 4, 2968) /* Scroll of Whirling Blade II */
+     , (20216, 4, 8954) /* Scroll of Whirling Blade Streak II */
+     , (20216, 4, 21296) /* Scroll of Blade Arc II */;
 

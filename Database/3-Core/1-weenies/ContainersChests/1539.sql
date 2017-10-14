@@ -52,3 +52,9 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (1539, 2, 0) /* OPEN_BOOL */
      , (1539, 3, 1) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1539, 8, 1532) /* The Baron's Key */
+     , (1539, 8, 1537) /* Treasure Chest Key */;
+

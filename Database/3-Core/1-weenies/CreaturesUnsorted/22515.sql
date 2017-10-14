@@ -88,3 +88,171 @@ VALUES (22515, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (22515, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22515, 8, 415) /* Chainmail Girth */
+     , (22515, 8, 414) /* Chainmail Breastplate */
+     , (22515, 8, 44976) /* Hood */
+     , (22515, 8, 48959) /* Fire Elemental Essence (50) */
+     , (22515, 8, 49485) /* Encapsulated Spirit */
+     , (22515, 8, 20496) /* Scroll of Silencia's Boon */
+     , (22515, 8, 21154) /* Covenant Girth */
+     , (22515, 8, 2470) /* Stamina Elixir */
+     , (22515, 8, 2427) /* Gem */
+     , (22515, 8, 5973) /* Scroll of Fletching Mastery Other VI */
+     , (22515, 8, 31776) /* Electric Board with Nail */
+     , (22515, 8, 630) /* Gifted Healing Kit */
+     , (22515, 8, 621) /* Heavy Bracelet */
+     , (22515, 8, 49352) /* Fire Moar Essence (50) */
+     , (22515, 8, 107) /* Sollerets */
+     , (22515, 8, 27322) /* Mana Tincture */
+     , (22515, 8, 88) /* Scalemail Pauldrons */
+     , (22515, 8, 8328) /* Iron Pea */
+     , (22515, 8, 31764) /* Lugian Hammer */
+     , (22515, 8, 416) /* Chainmail Pauldrons */
+     , (22515, 8, 28633) /* Diforsa Girth */
+     , (22515, 8, 20243) /* Scroll of Heart Rend */
+     , (22515, 8, 55) /* Chainmail Gauntlets */
+     , (22515, 8, 28606) /* Viamontian Pants */
+     , (22515, 8, 8329) /* Lead Pea */
+     , (22515, 8, 3442) /* Scroll of Monster Attunement Other VI */
+     , (22515, 8, 118) /* Cloth Cap */
+     , (22515, 8, 84) /* Studded  Leggings */
+     , (22515, 8, 28630) /* Diforsa Cuirass */
+     , (22515, 8, 46884) /* Aura of Hermetic Link Other VII */
+     , (22515, 8, 5901) /* Kasa */
+     , (22515, 8, 31771) /* Lightning War Axe */
+     , (22515, 8, 243) /* Dinner Plate */
+     , (22515, 8, 12463) /* Atlatl */
+     , (22515, 8, 2435) /* Mana Stone */
+     , (22515, 8, 110) /* Platemail Tassets */
+     , (22515, 8, 135) /* Turban */
+     , (22515, 8, 2472) /* Wand */
+     , (22515, 8, 2420) /* Gem */
+     , (22515, 8, 512) /* Good Lockpick */
+     , (22515, 8, 2397) /* Gem */
+     , (22515, 8, 9612) /* Scroll of Mana Ineptitude Other V */
+     , (22515, 8, 133) /* Slippers */
+     , (22515, 8, 273) /* Pyreal */
+     , (22515, 8, 43290) /* Scroll of Corruption V */
+     , (22515, 8, 45875) /* Lucky Gold Letter */
+     , (22515, 8, 2431) /* Gem */
+     , (22515, 8, 42) /* Studded Leather Breastplate */
+     , (22515, 8, 21114) /* Scroll of Martyr's Tenacity VI */
+     , (22515, 8, 3367) /* Scroll of Life Magic Ineptitude VI */
+     , (22515, 8, 2678) /* Scroll of Focus Other VI */
+     , (22515, 8, 45876) /* Scarlet Red Letter */
+     , (22515, 8, 49268) /* Lightning Elemental Essence (50) */
+     , (22515, 8, 723) /* Studded Leather Cowl */
+     , (22515, 8, 311) /* Heavy Crossbow */
+     , (22515, 8, 62) /* Scalemail Girth */
+     , (22515, 8, 28623) /* Diforsa Pauldrons */
+     , (22515, 8, 20256) /* Scroll of Bolstered Will */
+     , (22515, 8, 52) /* Scalemail Cuirass */
+     , (22515, 8, 20482) /* Scroll of Astyrrian's Gift */
+     , (22515, 8, 43326) /* Scroll of Destructive Curse VII */
+     , (22515, 8, 30625) /* War Bow */
+     , (22515, 8, 294) /* Amulet */
+     , (22515, 8, 624) /* Ring */
+     , (22515, 8, 163) /* Ornamental Bowl */
+     , (22515, 8, 3012) /* Scroll of Bludgeon Protection Self VI */
+     , (22515, 8, 413) /* Chainmail Bracers */
+     , (22515, 8, 2432) /* Gem */
+     , (22515, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (22515, 8, 2595) /* Baggy Tunic */
+     , (22515, 8, 49442) /* Frost Spectre Essence (50) */
+     , (22515, 8, 45305) /* Scroll of Recklessness Mastery Self VI */
+     , (22515, 8, 3753) /* Frost Battle Axe */
+     , (22515, 8, 8326) /* Copper Pea */
+     , (22515, 8, 45113) /* Hammer */
+     , (22515, 8, 3352) /* Scroll of Leadership Ineptitude VI */
+     , (22515, 8, 25636) /* Leather Helm */
+     , (22515, 8, 40626) /* Flaming Quadrelle */
+     , (22515, 8, 2434) /* Lesser Mana Stone */
+     , (22515, 8, 3437) /* Scroll of Mana Mastery Self VI */
+     , (22515, 8, 4191) /* Flaming Cestus */
+     , (22515, 8, 41050) /* Frost Pike */
+     , (22515, 8, 3007) /* Scroll of Bludgeon Protection Other VI */
+     , (22515, 8, 116) /* Studded Leather Boots */
+     , (22515, 8, 3377) /* Scroll of Life Magic Mastery Self VI */
+     , (22515, 8, 545) /* Reliable Lockpick */
+     , (22515, 8, 297) /* Ring */
+     , (22515, 8, 40627) /* Frost Quadrelle */
+     , (22515, 8, 31790) /* Lightning Stick */
+     , (22515, 8, 95) /* Tower Shield */
+     , (22515, 8, 49240) /* Lightning Zombie Essence (50) */
+     , (22515, 8, 3572) /* Scroll of War Magic Mastery Other VI */
+     , (22515, 8, 31865) /* Circlet */
+     , (22515, 8, 45248) /* Scroll of Dirty Fighting Mastery Other V */
+     , (22515, 8, 3362) /* Scroll of Leadership Mastery Self VI */
+     , (22515, 8, 2547) /* Staff */
+     , (22515, 8, 121) /* Gloves */
+     , (22515, 8, 148) /* Cup */
+     , (22515, 8, 2415) /* Gem */
+     , (22515, 8, 2367) /* Gorget */
+     , (22515, 8, 49468) /* Scroll of Summoning Mastery Other VI */
+     , (22515, 8, 351) /* Long Sword */
+     , (22515, 8, 22154) /* Acid Jo */
+     , (22515, 8, 2796) /* Scroll of Bludgeon Bane VI */
+     , (22515, 8, 150) /* Flagon */
+     , (22515, 8, 3157) /* Scroll of Armor Tinkering Ignorance VI */
+     , (22515, 8, 25646) /* Long Leather Gauntlets */
+     , (22515, 8, 20415) /* Scroll of Geledite Bait */
+     , (22515, 8, 3412) /* Scroll of Magic Item Tinkering Expertise Other VI */
+     , (22515, 8, 105) /* Studded Leather Sleeves */
+     , (22515, 8, 25644) /* Leather Greaves */
+     , (22515, 8, 49282) /* Acid K'nath Essence (50) */
+     , (22515, 8, 2430) /* Gem */
+     , (22515, 8, 2589) /* Smock */
+     , (22515, 8, 27324) /* Stamina Brew */
+     , (22515, 8, 20535) /* Scroll of Web of Deflection */
+     , (22515, 8, 307) /* Shortbow */
+     , (22515, 8, 2811) /* Aura of Defender Self VI */
+     , (22515, 8, 629) /* Adept Healing Kit */
+     , (22515, 8, 20640) /* Royal Atlatl */
+     , (22515, 8, 3002) /* Scroll of Blade Vulnerability Other VI */
+     , (22515, 8, 142) /* Chalice */
+     , (22515, 8, 2590) /* Baggy Shirt */
+     , (22515, 8, 49303) /* Frost K'nath Essence (50) */
+     , (22515, 8, 4195) /* Nekode */
+     , (22515, 8, 3472) /* Scroll of Resist Magic Self VI */
+     , (22515, 8, 40763) /* Flaming Nodachi */
+     , (22515, 8, 4197) /* Acid Nekode */
+     , (22515, 8, 326) /* Katar */
+     , (22515, 8, 27319) /* Health Tincture */
+     , (22515, 8, 25649) /* Leather Shirt */
+     , (22515, 8, 7797) /* Acid Naginata */
+     , (22515, 8, 45100) /* Acid Epee */
+     , (22515, 8, 25651) /* Leather Sleeves */
+     , (22515, 8, 49387) /* Frost Grievver Essence (50) */
+     , (22515, 8, 53) /* Studded Leather Cuirass */
+     , (22515, 8, 49421) /* Acid Spectre Essence (50) */
+     , (22515, 8, 87) /* Platemail Pauldrons */
+     , (22515, 8, 631) /* Excellent Healing Kit */
+     , (22515, 8, 41487) /* Mechanical Scarab */
+     , (22515, 8, 2587) /* Shirt */
+     , (22515, 8, 68) /* Studded Leather Greaves */
+     , (22515, 8, 20487) /* Scroll of Decrepitude's Grasp */
+     , (22515, 8, 3076) /* Scroll of Piercing Vulnerability Other V */
+     , (22515, 8, 20557) /* Scroll of Oswald's Blessing */
+     , (22515, 8, 22167) /* Frost Quarter Staff */
+     , (22515, 8, 49310) /* Acid Wisp Essence (50) */
+     , (22515, 8, 3874) /* Lightning Spear */
+     , (22515, 8, 28610) /* Loafers */
+     , (22515, 8, 31026) /* Tenassa Breastplate */
+     , (22515, 8, 2417) /* Gem */
+     , (22515, 8, 5894) /* Fez */
+     , (22515, 8, 306) /* Longbow */
+     , (22515, 8, 2429) /* Gem */
+     , (22515, 8, 25648) /* Leather Pauldrons */
+     , (22515, 8, 296) /* Crown */
+     , (22515, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (22515, 8, 22163) /* Nabut */
+     , (22515, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (22515, 8, 554) /* Studded Leather Basinet */
+     , (22515, 8, 25661) /* Leather Boots */
+     , (22515, 8, 2598) /* Baggy Pants */
+     , (22515, 8, 40761) /* Acid Nodachi */
+     , (22515, 8, 2592) /* Puffy Tunic */;
+

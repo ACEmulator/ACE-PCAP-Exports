@@ -46,3 +46,10 @@ VALUES (49613, 2, 48) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (49613, 64, 1800) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (49613, 8, 37215) /* Olthoi Koujia Breastplate */
+     , (49613, 8, 273) /* Pyreal */
+     , (49613, 8, 30186) /* Smithy's Crystal */;
+

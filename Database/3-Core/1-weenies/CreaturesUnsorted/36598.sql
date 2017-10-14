@@ -114,3 +114,14 @@ VALUES (36598, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (36598, 64, 1200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36598, 8, 2412) /* Gem */
+     , (36598, 8, 25647) /* Leather Pants */
+     , (36598, 8, 2410) /* Gem */
+     , (36598, 8, 59) /* Studded Leather Gauntlets */
+     , (36598, 8, 20431) /* Scroll of Corrosive Flash */
+     , (36598, 8, 41488) /* Top */
+     , (36598, 8, 163) /* Ornamental Bowl */;
+

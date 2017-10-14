@@ -109,3 +109,12 @@ VALUES (38634, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38634, 64, 2000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (38634, 8, 45423) /* Lightning Dagger */
+     , (38634, 8, 2424) /* Gem */
+     , (38634, 8, 31762) /* Flaming Dericost Blade */
+     , (38634, 8, 38648) /* Lens of the Filinuvekta */
+     , (38634, 8, 38649) /* Benedino's Letter */;
+

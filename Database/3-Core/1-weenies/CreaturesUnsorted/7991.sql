@@ -48,3 +48,20 @@ VALUES (7991, 2, 46) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7991, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7991, 8, 2788) /* Scroll of Blood Loather III */
+     , (7991, 8, 243) /* Dinner Plate */
+     , (7991, 8, 629) /* Adept Healing Kit */
+     , (7991, 8, 295) /* Bracelet */
+     , (7991, 8, 294) /* Amulet */
+     , (7991, 8, 48) /* Studded Leather Coat */
+     , (7991, 8, 21318) /* Scroll of Frost Arc III */
+     , (7991, 8, 2405) /* Gem */
+     , (7991, 8, 622) /* Necklace */
+     , (7991, 8, 150) /* Flagon */
+     , (7991, 8, 49282) /* Acid K'nath Essence (50) */
+     , (7991, 8, 45122) /* Frost Hand Wraps */
+     , (7991, 8, 2457) /* Health Draught */;
+

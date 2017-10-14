@@ -136,42 +136,42 @@ VALUES (715, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (715, 4, 2457)
-     , (715, 4, 377)
-     , (715, 4, 2460)
-     , (715, 4, 379)
-     , (715, 4, 378)
-     , (715, 4, 27326)
-     , (715, 4, 628)
-     , (715, 4, 629)
-     , (715, 4, 4450)
-     , (715, 4, 4589)
-     , (715, 4, 4599)
-     , (715, 4, 4595)
-     , (715, 4, 4604)
-     , (715, 4, 4605)
-     , (715, 4, 30668)
-     , (715, 4, 30669)
-     , (715, 4, 4602)
-     , (715, 4, 4603)
-     , (715, 4, 30670)
-     , (715, 4, 30671)
-     , (715, 4, 4608)
-     , (715, 4, 4609)
-     , (715, 4, 30672)
-     , (715, 4, 30673)
-     , (715, 4, 4606)
-     , (715, 4, 4607)
-     , (715, 4, 30674)
-     , (715, 4, 30663)
-     , (715, 4, 4384)
-     , (715, 4, 4601)
-     , (715, 4, 30664)
-     , (715, 4, 30665)
-     , (715, 4, 4610)
-     , (715, 4, 4611)
-     , (715, 4, 30666)
-     , (715, 4, 30667)
-     , (715, 4, 2621)
-     , (715, 4, 2622);
+VALUES (715, 4, 2457) /* Health Draught */
+     , (715, 4, 377) /* Potion of Healing */
+     , (715, 4, 2460) /* Mana Draught */
+     , (715, 4, 379) /* Mana Potion */
+     , (715, 4, 378) /* Stamina Potion */
+     , (715, 4, 27326) /* Stamina Tincture */
+     , (715, 4, 628) /* Handy Healing Kit */
+     , (715, 4, 629) /* Adept Healing Kit */
+     , (715, 4, 4450) /* Heal Other I */
+     , (715, 4, 4589) /* Revitalize Other I */
+     , (715, 4, 4599) /* Mana Renewal Other I */
+     , (715, 4, 4595) /* Regeneration Other I */
+     , (715, 4, 4604) /* Coordination Other I */
+     , (715, 4, 4605) /* Coordination Other II */
+     , (715, 4, 30668) /* Coordination Other III */
+     , (715, 4, 30669) /* Coordination Other IV */
+     , (715, 4, 4602) /* Endurance Other I */
+     , (715, 4, 4603) /* Endurance Other II */
+     , (715, 4, 30670) /* Endurance Other III */
+     , (715, 4, 30671) /* Endurance Other IV */
+     , (715, 4, 4608) /* Focus Other I */
+     , (715, 4, 4609) /* Focus Other II */
+     , (715, 4, 30672) /* Focus Other III */
+     , (715, 4, 30673) /* Focus Other IV */
+     , (715, 4, 4606) /* Quickness Other I */
+     , (715, 4, 4607) /* Quickness Other II */
+     , (715, 4, 30674) /* Quickness Other III */
+     , (715, 4, 30663) /* Quickness Other IV */
+     , (715, 4, 4384) /* Strength Other I */
+     , (715, 4, 4601) /* Strength Other II */
+     , (715, 4, 30664) /* Strength Other III */
+     , (715, 4, 30665) /* Strength Other IV */
+     , (715, 4, 4610) /* Willpower Other I */
+     , (715, 4, 4611) /* Willpower Other II */
+     , (715, 4, 30666) /* Willpower Other III */
+     , (715, 4, 30667) /* Willpower Other IV */
+     , (715, 4, 2621) /* Trade Note (100) */
+     , (715, 4, 2622) /* Trade Note (500) */;
 

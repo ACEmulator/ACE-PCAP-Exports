@@ -45,3 +45,17 @@ VALUES (14875, 2, 61) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (14875, 64, 575) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14875, 8, 621) /* Heavy Bracelet */
+     , (14875, 8, 273) /* Pyreal */
+     , (14875, 8, 8331) /* Silver Pea */
+     , (14875, 8, 20550) /* Scroll of Ar-Pei's Boon */
+     , (14875, 8, 31799) /* Acid Compound Bow */
+     , (14875, 8, 28606) /* Viamontian Pants */
+     , (14875, 8, 8326) /* Copper Pea */
+     , (14875, 8, 27330) /* Moderate Mana Stone */
+     , (14875, 8, 33958) /* Crystal of Frozen Elemental Essence */
+     , (14875, 8, 49485) /* Encapsulated Spirit */;
+

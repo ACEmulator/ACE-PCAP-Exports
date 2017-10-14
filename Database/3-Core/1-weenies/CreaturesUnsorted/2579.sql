@@ -48,3 +48,14 @@ VALUES (2579, 2, 27) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (2579, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2579, 8, 22160) /* Lightning Nabut */
+     , (2579, 8, 35) /* Chainmail Basinet */
+     , (2579, 8, 7772) /* Trident */
+     , (2579, 8, 49317) /* Lightning Wisp Essence (50) */
+     , (2579, 8, 2420) /* Gem */
+     , (2579, 8, 2417) /* Gem */
+     , (2579, 8, 628) /* Handy Healing Kit */;
+

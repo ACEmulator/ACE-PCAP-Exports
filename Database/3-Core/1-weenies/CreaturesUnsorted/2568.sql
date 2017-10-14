@@ -41,3 +41,10 @@ VALUES (2568, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2568, 67111338, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2568, 8, 6876) /* Sturdy Iron Key */
+     , (2568, 8, 8400) /* Orb of the Bunny Booty */
+     , (2568, 8, 12128) /* White Rabbit Carcass */;
+

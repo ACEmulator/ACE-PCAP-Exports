@@ -44,3 +44,16 @@ VALUES (11519, 67116644, 1, 48)
      , (11519, 67116625, 200, 8)
      , (11519, 67116638, 208, 48);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11519, 8, 21153) /* Covenant Gauntlets */
+     , (11519, 8, 20640) /* Royal Atlatl */
+     , (11519, 8, 8328) /* Iron Pea */
+     , (11519, 8, 30606) /* Bastone */
+     , (11519, 8, 414) /* Chainmail Breastplate */
+     , (11519, 8, 27324) /* Stamina Brew */
+     , (11519, 8, 53) /* Studded Leather Cuirass */
+     , (11519, 8, 103) /* Platemail Sleeves */
+     , (11519, 8, 49485) /* Encapsulated Spirit */;
+

@@ -35,3 +35,8 @@ VALUES (51703, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (51703, 19, True) /* ATTACKABLE_BOOL */
      , (51703, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51703, 8, 51707) /* Shroud of Apathy */;
+

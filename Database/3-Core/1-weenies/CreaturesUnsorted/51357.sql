@@ -45,3 +45,18 @@ VALUES (51357, 2, 100) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51357, 64, 1900) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51357, 8, 25645) /* Leather Leggings */
+     , (51357, 8, 359) /* War Hammer */
+     , (51357, 8, 31866) /* Coronet */
+     , (51357, 8, 37189) /* Olthoi Celdon Gauntlets */
+     , (51357, 8, 2410) /* Gem */
+     , (51357, 8, 29245) /* Acid Crossbow */
+     , (51357, 8, 6047) /* Amuli Leggings */
+     , (51357, 8, 37200) /* Olthoi Alduressa Leggings */
+     , (51357, 8, 20596) /* Scroll of Hieromancer's Blessing */
+     , (51357, 8, 30949) /* Diforsa Sleeves */
+     , (51357, 8, 25641) /* Leather Cuirass */;
+

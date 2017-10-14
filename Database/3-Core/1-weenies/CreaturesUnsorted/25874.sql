@@ -48,3 +48,14 @@ VALUES (25874, 2, 45) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25874, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25874, 8, 40710) /* Covenant Greaves */
+     , (25874, 8, 2436) /* Greater Mana Stone */
+     , (25874, 8, 27330) /* Moderate Mana Stone */
+     , (25874, 8, 297) /* Ring */
+     , (25874, 8, 273) /* Pyreal */
+     , (25874, 8, 8326) /* Copper Pea */
+     , (25874, 8, 31801) /* Electric Compound Bow */;
+

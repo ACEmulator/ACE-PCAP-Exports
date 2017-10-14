@@ -45,3 +45,20 @@ VALUES (24313, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24313, 64, 433) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24313, 8, 20480) /* Scroll of Storm's Boon */
+     , (24313, 8, 31784) /* Claw */
+     , (24313, 8, 20427) /* Aura of Mystic's Blessing */
+     , (24313, 8, 331) /* Mace */
+     , (24313, 8, 44) /* Buckler */
+     , (24313, 8, 7790) /* Electric Spiked Club */
+     , (24313, 8, 3858) /* Lightning Shou-ono */
+     , (24313, 8, 31823) /* Fire Baton */
+     , (24313, 8, 3821) /* Frost Katar */
+     , (24313, 8, 49311) /* Acid Wisp Essence (80) */
+     , (24313, 8, 25644) /* Leather Greaves */
+     , (24313, 8, 20553) /* Scroll of Harlune's Boon */
+     , (24313, 8, 163) /* Ornamental Bowl */;
+

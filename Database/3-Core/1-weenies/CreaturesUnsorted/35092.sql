@@ -39,3 +39,23 @@ VALUES (35092, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35092, 67111664, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35092, 8, 37215) /* Olthoi Koujia Breastplate */
+     , (35092, 8, 37364) /* Quill of Introspection */
+     , (35092, 8, 31777) /* Fire Board with Nail */
+     , (35092, 8, 27328) /* Major Mana Stone */
+     , (35092, 8, 273) /* Pyreal */
+     , (35092, 8, 35105) /* Pyre Shroud */
+     , (35092, 8, 42754) /* Haebrean Pauldrons */
+     , (35092, 8, 8327) /* Gold Pea */
+     , (35092, 8, 134) /* Tunic */
+     , (35092, 8, 515) /* Superb Lockpick */
+     , (35092, 8, 243) /* Dinner Plate */
+     , (35092, 8, 22156) /* Flaming Jo */
+     , (35092, 8, 516) /* Peerless Lockpick */
+     , (35092, 8, 45193) /* Red Veined Grub */
+     , (35092, 8, 20446) /* Scroll of Outlander's Insolence */
+     , (35092, 8, 45151) /* Mhoire Oubliette Portal Glyph */;
+

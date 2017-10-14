@@ -48,3 +48,16 @@ VALUES (1622, 2, 9) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1622, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1622, 8, 31787) /* Flaming Claw */
+     , (1622, 8, 8329) /* Lead Pea */
+     , (1622, 8, 168) /* Tankard */
+     , (1622, 8, 27331) /* Minor Mana Stone */
+     , (1622, 8, 297) /* Ring */
+     , (1622, 8, 273) /* Pyreal */
+     , (1622, 8, 2413) /* Gem */
+     , (1622, 8, 3073) /* Scroll of Piercing Vulnerability Other II */
+     , (1622, 8, 415) /* Chainmail Girth */;
+

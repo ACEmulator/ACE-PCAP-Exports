@@ -50,3 +50,64 @@ VALUES (4248, 2, 34) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4248, 64, 405) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4248, 8, 49368) /* Acid Grievver Essence (100) */
+     , (4248, 8, 40705) /* Covenant Sollerets */
+     , (4248, 8, 21315) /* Scroll of Force Arc VII */
+     , (4248, 8, 2422) /* Gem */
+     , (4248, 8, 31789) /* Acid Stick */
+     , (4248, 8, 296) /* Crown */
+     , (4248, 8, 45410) /* Frost Yaoji */
+     , (4248, 8, 2593) /* Loose Tunic */
+     , (4248, 8, 20598) /* Scroll of Koga's Blessing */
+     , (4248, 8, 2400) /* Gem */
+     , (4248, 8, 20431) /* Scroll of Corrosive Flash */
+     , (4248, 8, 20573) /* Scroll of Introversion */
+     , (4248, 8, 31810) /* Frost Compound Crossbow */
+     , (4248, 8, 127) /* Pants */
+     , (4248, 8, 40711) /* Covenant Helm */
+     , (4248, 8, 30949) /* Diforsa Sleeves */
+     , (4248, 8, 3852) /* Frost Scimitar */
+     , (4248, 8, 25645) /* Leather Leggings */
+     , (4248, 8, 49255) /* Frost Zombie Essence (80) */
+     , (4248, 8, 2589) /* Smock */
+     , (4248, 8, 28610) /* Loafers */
+     , (4248, 8, 49339) /* Acid Moar Essence (80) */
+     , (4248, 8, 40713) /* Covenant Shield */
+     , (4248, 8, 413) /* Chainmail Bracers */
+     , (4248, 8, 20571) /* Scroll of Kaluhc's Boon */
+     , (4248, 8, 624) /* Ring */
+     , (4248, 8, 243) /* Dinner Plate */
+     , (4248, 8, 20234) /* Scroll of Boon of Refinement */
+     , (4248, 8, 4192) /* Acid Cestus */
+     , (4248, 8, 20419) /* Scroll of Lugian's Speed */
+     , (4248, 8, 20554) /* Scroll of Harlune's Blessing */
+     , (4248, 8, 48945) /* Fire Skeleton Minion Essence (100) */
+     , (4248, 8, 5901) /* Kasa */
+     , (4248, 8, 20477) /* Scroll of Fiery Boon */
+     , (4248, 8, 621) /* Heavy Bracelet */
+     , (4248, 8, 29251) /* Slashing Crossbow */
+     , (4248, 8, 49525) /* Acid Phyntos Wasp Essence (80) */
+     , (4248, 8, 45423) /* Lightning Dagger */
+     , (4248, 8, 8511) /* Ancient Key */
+     , (4248, 8, 297) /* Ring */
+     , (4248, 8, 20574) /* Scroll of Web of Resistance */
+     , (4248, 8, 29249) /* Frost Crossbow */
+     , (4248, 8, 20251) /* Scroll of Robustification */
+     , (4248, 8, 110) /* Platemail Tassets */
+     , (4248, 8, 2407) /* Gem */
+     , (4248, 8, 20607) /* Scroll of Gift of Vitality */
+     , (4248, 8, 49283) /* Acid K'nath Essence (80) */
+     , (4248, 8, 31771) /* Lightning War Axe */
+     , (4248, 8, 42635) /* Aetheria */
+     , (4248, 8, 28632) /* Diforsa Gauntlets */
+     , (4248, 8, 59) /* Studded Leather Gauntlets */
+     , (4248, 8, 20466) /* Scroll of Caustic Blessing */
+     , (4248, 8, 3894) /* Lightning Takuba */
+     , (4248, 8, 30221) /* Thief's Crystal */
+     , (4248, 8, 20479) /* Scroll of Inferno's Gift */
+     , (4248, 8, 41037) /* Acidic Weeping Two Handed Spear */
+     , (4248, 8, 113) /* Yoroi Tassets */;
+

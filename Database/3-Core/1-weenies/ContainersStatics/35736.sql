@@ -23,7 +23,7 @@ VALUES (35736, 1, 512) /* ITEM_TYPE_INT */
      , (35736, 6, 120) /* ITEMS_CAPACITY_INT */
      , (35736, 16, 48) /* ITEM_USEABLE_INT */
      , (35736, 93, 1052) /* PHYSICS_STATE_INT */
-     , (35736, 9007, 21) /* Container_WeenieType */;
+     , (35736, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (35736, 54, 1) /* USE_RADIUS_FLOAT */;

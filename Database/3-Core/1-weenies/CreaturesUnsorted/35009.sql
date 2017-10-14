@@ -99,3 +99,16 @@ VALUES (35009, 64, 60250) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (35009, 128, 60500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (35009, 256, 4450) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35009, 8, 49235) /* Acid Zombie Essence (100) */
+     , (35009, 8, 20575) /* Scroll of Aura of Resistance */
+     , (35009, 8, 31800) /* Blunt Compound Bow */
+     , (35009, 8, 41488) /* Top */
+     , (35009, 8, 45106) /* Flaming Rapier */
+     , (35009, 8, 31762) /* Flaming Dericost Blade */
+     , (35009, 8, 3878) /* Lightning Broad Sword */
+     , (35009, 8, 2436) /* Greater Mana Stone */
+     , (35009, 8, 27328) /* Major Mana Stone */;
+

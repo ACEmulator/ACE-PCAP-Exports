@@ -92,3 +92,12 @@ VALUES (31340, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (31340, 128, 20000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (31340, 256, 1500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31340, 8, 68) /* Studded Leather Greaves */
+     , (31340, 8, 31335) /* Blue Coral */
+     , (31340, 8, 31865) /* Circlet */
+     , (31340, 8, 2402) /* Gem */
+     , (31340, 8, 2411) /* Gem */;
+

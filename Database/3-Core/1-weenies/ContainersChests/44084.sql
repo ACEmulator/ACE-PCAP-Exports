@@ -37,3 +37,14 @@ VALUES (44084, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (44084, 19, True) /* ATTACKABLE_BOOL */
      , (44084, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44084, 8, 43381) /* Nether Sceptre */
+     , (44084, 8, 296) /* Crown */
+     , (44084, 8, 31794) /* Lancet */
+     , (44084, 8, 41062) /* Khanda-handled Mace */
+     , (44084, 8, 45099) /* Epee */
+     , (44084, 8, 37371) /* Glyph of Missile Weapons */
+     , (44084, 8, 37365) /* Quill of Benevolence */;
+

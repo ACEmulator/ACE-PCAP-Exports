@@ -50,3 +50,25 @@ VALUES (1273, 2, 10) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1273, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1273, 8, 49338) /* Acid Moar Essence (50) */
+     , (1273, 8, 20556) /* Scroll of Oswald's Boon */
+     , (1273, 8, 631) /* Excellent Healing Kit */
+     , (1273, 8, 1278) /* Key */
+     , (1273, 8, 30557) /* Acid Hatchet */
+     , (1273, 8, 127) /* Pants */
+     , (1273, 8, 31865) /* Circlet */
+     , (1273, 8, 40818) /* Corsesca */
+     , (1273, 8, 163) /* Ornamental Bowl */
+     , (1273, 8, 2427) /* Gem */
+     , (1273, 8, 3572) /* Scroll of War Magic Mastery Other VI */
+     , (1273, 8, 89) /* Studded Leather Pauldrons */
+     , (1273, 8, 20239) /* Scroll of Self Loathing */
+     , (1273, 8, 629) /* Adept Healing Kit */
+     , (1273, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (1273, 8, 5894) /* Fez */
+     , (1273, 8, 2406) /* Gem */
+     , (1273, 8, 379) /* Mana Potion */;
+

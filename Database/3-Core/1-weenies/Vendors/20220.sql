@@ -124,60 +124,60 @@ VALUES (20220, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (20220, 4, 15270)
-     , (20220, 4, 4389)
-     , (20220, 4, 4394)
-     , (20220, 4, 2668)
-     , (20220, 4, 2691)
-     , (20220, 4, 2696)
-     , (20220, 4, 2701)
-     , (20220, 4, 2706)
-     , (20220, 4, 2711)
-     , (20220, 4, 2726)
-     , (20220, 4, 2731)
-     , (20220, 4, 2977)
-     , (20220, 4, 2982)
-     , (20220, 4, 2987)
-     , (20220, 4, 2992)
-     , (20220, 4, 2997)
-     , (20220, 4, 3002)
-     , (20220, 4, 3007)
-     , (20220, 4, 3012)
-     , (20220, 4, 3017)
-     , (20220, 4, 3022)
-     , (20220, 4, 3027)
-     , (20220, 4, 3032)
-     , (20220, 4, 3037)
-     , (20220, 4, 3042)
-     , (20220, 4, 3047)
-     , (20220, 4, 3052)
-     , (20220, 4, 3057)
-     , (20220, 4, 3062)
-     , (20220, 4, 3067)
-     , (20220, 4, 3072)
-     , (20220, 4, 3077)
-     , (20220, 4, 3082)
-     , (20220, 4, 3087)
-     , (20220, 4, 3097)
-     , (20220, 4, 3102)
-     , (20220, 4, 3107)
-     , (20220, 4, 3112)
-     , (20220, 4, 3117)
-     , (20220, 4, 3122)
-     , (20220, 4, 3127)
-     , (20220, 4, 4221)
-     , (20220, 4, 9665)
-     , (20220, 4, 3730)
-     , (20220, 4, 9634)
-     , (20220, 4, 9639)
-     , (20220, 4, 3735)
-     , (20220, 4, 3740)
-     , (20220, 4, 3745)
-     , (20220, 4, 9644)
-     , (20220, 4, 9649)
-     , (20220, 4, 9654)
-     , (20220, 4, 9659)
-     , (20220, 4, 21107)
-     , (20220, 4, 21114)
-     , (20220, 4, 21100);
+VALUES (20220, 4, 15270) /* Foci of Verdancy */
+     , (20220, 4, 4389) /* Scroll of Armor Other VI */
+     , (20220, 4, 4394) /* Scroll of Armor Self VI */
+     , (20220, 4, 2668) /* Scroll of Enfeeble Other VI */
+     , (20220, 4, 2691) /* Scroll of Harm Other VI */
+     , (20220, 4, 2696) /* Scroll of Heal Other VI */
+     , (20220, 4, 2701) /* Scroll of Heal Self VI */
+     , (20220, 4, 2706) /* Scroll of Imperil Other VI */
+     , (20220, 4, 2711) /* Scroll of Mana Drain Other VI */
+     , (20220, 4, 2726) /* Scroll of Revitalize Other VI */
+     , (20220, 4, 2731) /* Scroll of Revitalize Self VI */
+     , (20220, 4, 2977) /* Scroll of Acid Protection Other VI */
+     , (20220, 4, 2982) /* Scroll of Acid Protection Self VI */
+     , (20220, 4, 2987) /* Scroll of Acid Vulnerability Other VI */
+     , (20220, 4, 2992) /* Scroll of Blade Protection Other VI */
+     , (20220, 4, 2997) /* Scroll of Blade Protection Self VI */
+     , (20220, 4, 3002) /* Scroll of Blade Vulnerability Other VI */
+     , (20220, 4, 3007) /* Scroll of Bludgeon Protection Other VI */
+     , (20220, 4, 3012) /* Scroll of Bludgeon Protection Self VI */
+     , (20220, 4, 3017) /* Scroll of Bludgeoning Vulnerability Other VI */
+     , (20220, 4, 3022) /* Scroll of Cold Protection Other VI */
+     , (20220, 4, 3027) /* Scroll of Cold Protection Self VI */
+     , (20220, 4, 3032) /* Scroll of Cold Vulnerability Other VI */
+     , (20220, 4, 3037) /* Scroll of Fire Protection Other VI */
+     , (20220, 4, 3042) /* Scroll of Fire Protection Self VI */
+     , (20220, 4, 3047) /* Scroll of Fire Vulnerability Other VI */
+     , (20220, 4, 3052) /* Scroll of Lightning Protection Other VI */
+     , (20220, 4, 3057) /* Scroll of Lightning Protection Self VI */
+     , (20220, 4, 3062) /* Scroll of Lightning Vulnerability Other VI */
+     , (20220, 4, 3067) /* Scroll of Piercing Protection Other VI */
+     , (20220, 4, 3072) /* Scroll of Piercing Protection Self VI */
+     , (20220, 4, 3077) /* Scroll of Piercing Vulnerability Other VI */
+     , (20220, 4, 3082) /* Scroll of Exhaustion Other VI */
+     , (20220, 4, 3087) /* Scroll of Fester Other VI */
+     , (20220, 4, 3097) /* Scroll of Mana Depletion Other VI */
+     , (20220, 4, 3102) /* Scroll of Mana Renewal Other VI */
+     , (20220, 4, 3107) /* Scroll of Mana Renewal Self VI */
+     , (20220, 4, 3112) /* Scroll of Regenerate Other VI */
+     , (20220, 4, 3117) /* Scroll of Regenerate Self VI */
+     , (20220, 4, 3122) /* Scroll of Rejuvenate Other VI */
+     , (20220, 4, 3127) /* Scroll of Rejuvenate Self VI */
+     , (20220, 4, 4221) /* Scroll of Drain Health Other VI */
+     , (20220, 4, 9665) /* Scroll of Drain Mana Other VI */
+     , (20220, 4, 3730) /* Scroll of Drain Stamina Other VI */
+     , (20220, 4, 9634) /* Scroll of Health to Mana Self VI */
+     , (20220, 4, 9639) /* Scroll of Health to Stamina Self VI */
+     , (20220, 4, 3735) /* Scroll of Infuse Health VI */
+     , (20220, 4, 3740) /* Scroll of Infuse Mana VI */
+     , (20220, 4, 3745) /* Scroll of Infuse Stamina VI */
+     , (20220, 4, 9644) /* Scroll of Mana to Health Self VI */
+     , (20220, 4, 9649) /* Scroll of Mana to Stamina Self VI */
+     , (20220, 4, 9654) /* Scroll of Stamina to Health Self VI */
+     , (20220, 4, 9659) /* Scroll of Stamina to Mana Self VI */
+     , (20220, 4, 21107) /* Scroll of Martyr's Blight VI */
+     , (20220, 4, 21114) /* Scroll of Martyr's Tenacity VI */
+     , (20220, 4, 21100) /* Scroll of Martyr's Hecatomb VI */;
 

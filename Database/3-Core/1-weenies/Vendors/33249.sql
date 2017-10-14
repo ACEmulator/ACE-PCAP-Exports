@@ -122,13 +122,13 @@ VALUES (33249, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (33249, 4, 8983)
-     , (33249, 4, 26639)
-     , (33249, 4, 8976)
-     , (33249, 4, 8981)
-     , (33249, 4, 8984)
-     , (33249, 4, 30268)
-     , (33249, 4, 43020)
-     , (33249, 4, 32943)
-     , (33249, 4, 36210);
+VALUES (33249, 4, 8983) /* Yanshi Portal Gem */
+     , (33249, 4, 26639) /* Xarabydun Portal Summoning Gem */
+     , (33249, 4, 8976) /* Holtburg Portal Gem */
+     , (33249, 4, 8981) /* Shoushi Portal Gem */
+     , (33249, 4, 8984) /* Yaraq Portal Gem */
+     , (33249, 4, 30268) /* Sanamar Portal Gem */
+     , (33249, 4, 43020) /* Town Network Portal Gem */
+     , (33249, 4, 32943) /* Decanter of Nullified Essence */
+     , (33249, 4, 36210) /* Guide to Fighting the Harbinger */;
 

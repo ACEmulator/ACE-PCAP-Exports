@@ -40,3 +40,13 @@ VALUES (40132, 2, 20) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (40132, 64, 1520) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40132, 8, 40620) /* Lightning Spadone */
+     , (40132, 8, 45119) /* Acid Hand Wraps */
+     , (40132, 8, 40101) /* Aggregate Crystalline Shard */
+     , (40132, 8, 45116) /* Flaming Hammer */
+     , (40132, 8, 3898) /* Lightning Tofun */
+     , (40132, 8, 31814) /* Dark Blunt Slingshot */;
+

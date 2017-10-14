@@ -39,3 +39,23 @@ VALUES (40311, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40311, 67113361, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (40311, 8, 29243) /* Piercing Bow */
+     , (40311, 8, 42749) /* Haebrean Breastplate */
+     , (40311, 8, 623) /* Heavy Necklace */
+     , (40311, 8, 29248) /* Fire Crossbow */
+     , (40311, 8, 43316) /* Scroll of Nether Streak VII */
+     , (40311, 8, 3868) /* Frost Silifi */
+     , (40311, 8, 27223) /* Lorica Helm */
+     , (40311, 8, 621) /* Heavy Bracelet */
+     , (40311, 8, 49440) /* Fire Spectre Essence (180) */
+     , (40311, 8, 295) /* Bracelet */
+     , (40311, 8, 3939) /* Acid Morning Star */
+     , (40311, 8, 25636) /* Leather Helm */
+     , (40311, 8, 150) /* Flagon */
+     , (40311, 8, 296) /* Crown */
+     , (40311, 8, 31802) /* Fire Compound Bow */
+     , (40311, 8, 45103) /* Frost Epee */;
+

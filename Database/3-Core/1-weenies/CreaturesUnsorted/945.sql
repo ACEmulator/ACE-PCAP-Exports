@@ -36,3 +36,22 @@ VALUES (945, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (945, 67115128, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (945, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (945, 8, 622) /* Necklace */
+     , (945, 8, 20544) /* Scroll of Unfortunate Appraisal */
+     , (945, 8, 273) /* Pyreal */
+     , (945, 8, 150) /* Flagon */
+     , (945, 8, 2436) /* Greater Mana Stone */
+     , (945, 8, 8331) /* Silver Pea */
+     , (945, 8, 2423) /* Gem */
+     , (945, 8, 8327) /* Gold Pea */
+     , (945, 8, 49421) /* Acid Spectre Essence (50) */
+     , (945, 8, 161) /* Mug */
+     , (945, 8, 154) /* Goblet */
+     , (945, 8, 49213) /* Acid Skeleton Minion Essence (50) */
+     , (945, 8, 121) /* Gloves */
+     , (945, 8, 84) /* Studded  Leggings */;
+

@@ -64,3 +64,18 @@ VALUES (35176, 64, 150000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (35176, 128, 5000) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (35176, 256, 1000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35176, 8, 40688) /* Olthoi Helm */
+     , (35176, 8, 20522) /* Scroll of Hearts on Sleeves */
+     , (35176, 8, 55) /* Chainmail Gauntlets */
+     , (35176, 8, 40692) /* Olthoi Tassets */
+     , (35176, 8, 632) /* Peerless Healing Kit */
+     , (35176, 8, 40) /* Platemail Breastplate */
+     , (35176, 8, 31811) /* Piercing Compound Crossbow */
+     , (35176, 8, 40818) /* Corsesca */
+     , (35176, 8, 27227) /* Nariyid Breastplate */
+     , (35176, 8, 40680) /* Olthoi Helm */
+     , (35176, 8, 622) /* Necklace */;
+

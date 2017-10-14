@@ -49,3 +49,9 @@ VALUES (4790, 19, 3000) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (4790, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4790, 8, 273) /* Pyreal */
+     , (4790, 8, 4793) /* Brentsella's Key */;
+

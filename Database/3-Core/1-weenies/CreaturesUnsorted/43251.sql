@@ -44,3 +44,14 @@ VALUES (43251, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (43251, 64, 6831) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43251, 8, 84) /* Studded  Leggings */
+     , (43251, 8, 321) /* Jitte */
+     , (43251, 8, 49390) /* Frost Grievver Essence (125) */
+     , (43251, 8, 31824) /* Ice Wand */
+     , (43251, 8, 21157) /* Covenant Pauldrons */
+     , (43251, 8, 29243) /* Piercing Bow */
+     , (43251, 8, 93) /* Round Shield */;
+

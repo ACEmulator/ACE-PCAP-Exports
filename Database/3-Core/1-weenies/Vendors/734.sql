@@ -126,13 +126,13 @@ VALUES (734, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (734, 4, 547)
-     , (734, 4, 260)
-     , (734, 4, 264)
-     , (734, 4, 4753)
-     , (734, 4, 4746)
-     , (734, 4, 4761)
-     , (734, 4, 23327)
-     , (734, 4, 23326)
-     , (734, 4, 4759);
+VALUES (734, 4, 547) /* Brimstone-cap Mushroom */
+     , (734, 4, 260) /* Cabbage */
+     , (734, 4, 264) /* Grapes */
+     , (734, 4, 4753) /* Side of Beef */
+     , (734, 4, 4746) /* Water */
+     , (734, 4, 4761) /* Flour */
+     , (734, 4, 23327) /* Simple Dried Rations */
+     , (734, 4, 23326) /* Elaborate Dried Rations */
+     , (734, 4, 4759) /* Cooking Pot */;
 

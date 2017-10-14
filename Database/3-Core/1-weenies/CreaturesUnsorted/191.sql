@@ -126,3 +126,12 @@ VALUES (191, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (191, 128, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (191, 256, 320) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (191, 8, 40713) /* Covenant Shield */
+     , (191, 8, 43283) /* Scroll of Corrosion VI */
+     , (191, 8, 49324) /* Fire Wisp Essence (50) */
+     , (191, 8, 22167) /* Frost Quarter Staff */
+     , (191, 8, 8946) /* Scroll of Lightning Streak VI */;
+

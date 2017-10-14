@@ -48,3 +48,34 @@ VALUES (7183, 2, 9) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7183, 64, 138) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7183, 8, 31868) /* Signet Crown */
+     , (7183, 8, 273) /* Pyreal */
+     , (7183, 8, 3426) /* Scroll of Magic Yield Other V */
+     , (7183, 8, 8328) /* Iron Pea */
+     , (7183, 8, 142) /* Chalice */
+     , (7183, 8, 2435) /* Mana Stone */
+     , (7183, 8, 94) /* Diamond Shield */
+     , (7183, 8, 621) /* Heavy Bracelet */
+     , (7183, 8, 359) /* War Hammer */
+     , (7183, 8, 27330) /* Moderate Mana Stone */
+     , (7183, 8, 2434) /* Lesser Mana Stone */
+     , (7183, 8, 49485) /* Encapsulated Spirit */
+     , (7183, 8, 28605) /* Beret */
+     , (7183, 8, 8326) /* Copper Pea */
+     , (7183, 8, 2398) /* Gem */
+     , (7183, 8, 107) /* Sollerets */
+     , (7183, 8, 2592) /* Puffy Tunic */
+     , (7183, 8, 161) /* Mug */
+     , (7183, 8, 5901) /* Kasa */
+     , (7183, 8, 8329) /* Lead Pea */
+     , (7183, 8, 723) /* Studded Leather Cowl */
+     , (7183, 8, 8426) /* Jungle Phyntos Wasp Wing */
+     , (7183, 8, 20530) /* Scroll of Lilitha's Boon */
+     , (7183, 8, 150) /* Flagon */
+     , (7183, 8, 297) /* Ring */
+     , (7183, 8, 31792) /* Frost Stick */
+     , (7183, 8, 121) /* Gloves */;
+

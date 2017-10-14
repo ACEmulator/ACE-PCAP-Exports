@@ -40,3 +40,65 @@ VALUES (24321, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24321, 67114312, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24321, 8, 21159) /* Covenant Tassets */
+     , (24321, 8, 20531) /* Scroll of Lilitha's Blessing */
+     , (24321, 8, 28008) /* Aura of Infected Spirit Caress Scroll */
+     , (24321, 8, 20472) /* Scroll of Blessing of the Mace Turner */
+     , (24321, 8, 29263) /* Frost Sceptre */
+     , (24321, 8, 20547) /* Scroll of Jahannan's Blessing */
+     , (24321, 8, 31774) /* Board with Nail */
+     , (24321, 8, 40696) /* Covenant Bracers */
+     , (24321, 8, 27217) /* Chiran Helm */
+     , (24321, 8, 20515) /* Scroll of Adja's Blessing */
+     , (24321, 8, 31866) /* Coronet */
+     , (24321, 8, 28630) /* Diforsa Cuirass */
+     , (24321, 8, 42635) /* Aetheria */
+     , (24321, 8, 43051) /* Knorr Academy Greaves */
+     , (24321, 8, 31769) /* Lugian Axe */
+     , (24321, 8, 20421) /* Scroll of Astyrrian Bait */
+     , (24321, 8, 20549) /* Scroll of Kwipetian Vision */
+     , (24321, 8, 3916) /* Frost Yari */
+     , (24321, 8, 30580) /* Lightning Flamberge */
+     , (24321, 8, 29238) /* Acid Bow */
+     , (24321, 8, 30611) /* Knuckles */
+     , (24321, 8, 49383) /* Fire Grievver Essence (125) */
+     , (24321, 8, 339) /* Scimitar */
+     , (24321, 8, 25647) /* Leather Pants */
+     , (24321, 8, 7771) /* Naginata */
+     , (24321, 8, 331) /* Mace */
+     , (24321, 8, 31779) /* Spine Glaive */
+     , (24321, 8, 25642) /* Leather Gauntlets */
+     , (24321, 8, 121) /* Gloves */
+     , (24321, 8, 40623) /* Quadrelle */
+     , (24321, 8, 49526) /* Acid Phyntos Wasp Essence (100) */
+     , (24321, 8, 28624) /* Tenassa Sleeves */
+     , (24321, 8, 49384) /* Fire Grievver Essence (150) */
+     , (24321, 8, 41042) /* Acid Magari Yari */
+     , (24321, 8, 25648) /* Leather Pauldrons */
+     , (24321, 8, 21155) /* Covenant Greaves */
+     , (24321, 8, 7768) /* Spiked Club */
+     , (24321, 8, 49469) /* Scroll of Summoning Mastery Other VII */
+     , (24321, 8, 20570) /* Scroll of Ignorance's Bliss */
+     , (24321, 8, 45421) /* Dagger */
+     , (24321, 8, 20246) /* Scroll of Gossamer Flesh */
+     , (24321, 8, 20256) /* Scroll of Bolstered Will */
+     , (24321, 8, 325) /* Kasrullah */
+     , (24321, 8, 41483) /* Compass */
+     , (24321, 8, 2425) /* Gem */
+     , (24321, 8, 359) /* War Hammer */
+     , (24321, 8, 49262) /* Acid Elemental Essence (80) */
+     , (24321, 8, 356) /* Tofun */
+     , (24321, 8, 295) /* Bracelet */
+     , (24321, 8, 20414) /* Scroll of Gelidite's Bane */
+     , (24321, 8, 31787) /* Flaming Claw */
+     , (24321, 8, 21151) /* Covenant Bracers */
+     , (24321, 8, 621) /* Heavy Bracelet */
+     , (24321, 8, 25649) /* Leather Shirt */
+     , (24321, 8, 2590) /* Baggy Shirt */
+     , (24321, 8, 42) /* Studded Leather Breastplate */
+     , (24321, 8, 49305) /* Frost K'nath Essence (100) */
+     , (24321, 8, 45101) /* Lightning Epee */;
+

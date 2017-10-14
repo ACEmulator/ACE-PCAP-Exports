@@ -36,3 +36,24 @@ VALUES (14518, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (14518, 19, True) /* ATTACKABLE_BOOL */
      , (14518, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (14518, 8, 621) /* Heavy Bracelet */
+     , (14518, 8, 8326) /* Copper Pea */
+     , (14518, 8, 149) /* Ewer */
+     , (14518, 8, 27330) /* Moderate Mana Stone */
+     , (14518, 8, 295) /* Bracelet */
+     , (14518, 8, 154) /* Goblet */
+     , (14518, 8, 2435) /* Mana Stone */
+     , (14518, 8, 2395) /* Gem */
+     , (14518, 8, 297) /* Ring */
+     , (14518, 8, 273) /* Pyreal */
+     , (14518, 8, 2421) /* Gem */
+     , (14518, 8, 44) /* Buckler */
+     , (14518, 8, 68) /* Studded Leather Greaves */
+     , (14518, 8, 2428) /* Gem */
+     , (14518, 8, 2751) /* Scroll of Weakness Other VI */
+     , (14518, 8, 2405) /* Gem */
+     , (14518, 8, 8328) /* Iron Pea */;
+

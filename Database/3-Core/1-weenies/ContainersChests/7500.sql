@@ -49,3 +49,9 @@ VALUES (7500, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7500, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7500, 8, 48942) /* Fire Skeleton Minion Essence (50) */
+     , (7500, 8, 2393) /* Gem */;
+

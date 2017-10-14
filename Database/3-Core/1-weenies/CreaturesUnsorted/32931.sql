@@ -44,3 +44,18 @@ VALUES (32931, 2, 25) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (32931, 64, 430) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (32931, 8, 20563) /* Scroll of Eyes Clouded */
+     , (32931, 8, 31785) /* Acid Claw */
+     , (32931, 8, 3880) /* Frost Broad Sword */
+     , (32931, 8, 30950) /* Alduressa Boots */
+     , (32931, 8, 29265) /* Winter Orb */
+     , (32931, 8, 624) /* Ring */
+     , (32931, 8, 27328) /* Major Mana Stone */
+     , (32931, 8, 273) /* Pyreal */
+     , (32931, 8, 20640) /* Royal Atlatl */
+     , (32931, 8, 8331) /* Silver Pea */
+     , (32931, 8, 295) /* Bracelet */;
+

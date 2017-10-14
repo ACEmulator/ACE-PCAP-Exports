@@ -35,3 +35,17 @@ VALUES (5760, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5760, 19, True) /* ATTACKABLE_BOOL */
      , (5760, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (5760, 8, 297) /* Ring */
+     , (5760, 8, 273) /* Pyreal */
+     , (5760, 8, 22825) /* A Lump of Coal */
+     , (5760, 8, 7835) /* Magic Iceball */
+     , (5760, 8, 5768) /* Poofy Snowball */
+     , (5760, 8, 5758) /* Carrot */
+     , (5760, 8, 2413) /* Gem */
+     , (5760, 8, 2434) /* Lesser Mana Stone */
+     , (5760, 8, 161) /* Mug */
+     , (5760, 8, 27331) /* Minor Mana Stone */;
+

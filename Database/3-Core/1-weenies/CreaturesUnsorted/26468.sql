@@ -45,3 +45,38 @@ VALUES (26468, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (26468, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26468, 8, 295) /* Bracelet */
+     , (26468, 8, 273) /* Pyreal */
+     , (26468, 8, 2435) /* Mana Stone */
+     , (26468, 8, 163) /* Ornamental Bowl */
+     , (26468, 8, 8328) /* Iron Pea */
+     , (26468, 8, 297) /* Ring */
+     , (26468, 8, 3587) /* Scroll of Weapon Tinkering Expertise Self VI */
+     , (26468, 8, 2472) /* Wand */
+     , (26468, 8, 45876) /* Scarlet Red Letter */
+     , (26468, 8, 2433) /* Gem */
+     , (26468, 8, 2597) /* Flared Pants */
+     , (26468, 8, 2605) /* Chainmail Greaves */
+     , (26468, 8, 148) /* Cup */
+     , (26468, 8, 132) /* Shoes */
+     , (26468, 8, 8326) /* Copper Pea */
+     , (26468, 8, 78) /* Kote */
+     , (26468, 8, 243) /* Dinner Plate */
+     , (26468, 8, 3197) /* Scroll of Creature Enchantment Mastery Other VI */
+     , (26468, 8, 8329) /* Lead Pea */
+     , (26468, 8, 2418) /* Gem */
+     , (26468, 8, 621) /* Heavy Bracelet */
+     , (26468, 8, 2434) /* Lesser Mana Stone */
+     , (26468, 8, 114) /* Platemail Vambraces */
+     , (26468, 8, 5547) /* Scroll of Monster Attunement Self VI */
+     , (26468, 8, 623) /* Heavy Necklace */
+     , (26468, 8, 95) /* Tower Shield */
+     , (26468, 8, 149) /* Ewer */
+     , (26468, 8, 27330) /* Moderate Mana Stone */
+     , (26468, 8, 130) /* Shirt */
+     , (26468, 8, 2367) /* Gorget */
+     , (26468, 8, 2396) /* Gem */;
+

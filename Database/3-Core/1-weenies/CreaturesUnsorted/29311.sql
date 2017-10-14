@@ -35,3 +35,11 @@ VALUES (29311, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29311, 19, True) /* ATTACKABLE_BOOL */
      , (29311, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29311, 8, 149) /* Ewer */
+     , (29311, 8, 273) /* Pyreal */
+     , (29311, 8, 624) /* Ring */
+     , (29311, 8, 45289) /* Scroll of Recklessness Ineptitude Other VI */;
+

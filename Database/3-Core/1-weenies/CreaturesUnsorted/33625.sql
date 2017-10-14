@@ -59,3 +59,23 @@ VALUES (33625, 64, 620) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (33625, 128, 910) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (33625, 256, 505) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33625, 8, 2411) /* Gem */
+     , (33625, 8, 273) /* Pyreal */
+     , (33625, 8, 2596) /* Doublet */
+     , (33625, 8, 9229) /* Treated Healing Kit */
+     , (33625, 8, 37353) /* Ink of Formation */
+     , (33625, 8, 41487) /* Mechanical Scarab */
+     , (33625, 8, 27321) /* Mana Philtre */
+     , (33625, 8, 27323) /* Mana Tonic */
+     , (33625, 8, 30594) /* Acid Partizan */
+     , (33625, 8, 632) /* Peerless Healing Kit */
+     , (33625, 8, 624) /* Ring */
+     , (33625, 8, 27327) /* Stamina Tonic */
+     , (33625, 8, 2367) /* Gorget */
+     , (33625, 8, 31820) /* Acid Baton */
+     , (33625, 8, 53) /* Studded Leather Cuirass */
+     , (33625, 8, 37364) /* Quill of Introspection */;
+

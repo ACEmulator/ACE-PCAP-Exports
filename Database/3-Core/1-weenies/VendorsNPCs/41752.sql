@@ -130,10 +130,10 @@ VALUES (41752, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41752, 4, 41766)
-     , (41752, 4, 41767)
-     , (41752, 4, 41768)
-     , (41752, 4, 41769)
-     , (41752, 4, 41770)
-     , (41752, 4, 41771);
+VALUES (41752, 4, 41766) /* Sealed Bag of Salvaged Amber */
+     , (41752, 4, 41767) /* Sealed Bag of Salvaged Diamond */
+     , (41752, 4, 41768) /* Sealed Bag of Salvaged Gromnie Hide */
+     , (41752, 4, 41769) /* Sealed Bag of Salvaged Pyreal */
+     , (41752, 4, 41770) /* Sealed Bag of Salvaged Ruby */
+     , (41752, 4, 41771) /* Sealed Bag of Salvaged Sapphire */;
 

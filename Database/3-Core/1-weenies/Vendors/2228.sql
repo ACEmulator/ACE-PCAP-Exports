@@ -126,14 +126,14 @@ VALUES (2228, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2228, 4, 138)
-     , (2228, 4, 139)
-     , (2228, 4, 136)
-     , (2228, 4, 5090)
-     , (2228, 4, 5759)
-     , (2228, 4, 5089)
-     , (2228, 4, 5088)
-     , (2228, 4, 4761)
-     , (2228, 4, 4762)
-     , (2228, 4, 4767);
+VALUES (2228, 4, 138) /* Belt Pouch */
+     , (2228, 4, 139) /* Small Belt Pouch */
+     , (2228, 4, 136) /* Pack */
+     , (2228, 4, 5090) /* Bruised Apple */
+     , (2228, 4, 5759) /* Fruitcake */
+     , (2228, 4, 5089) /* Old Cheese */
+     , (2228, 4, 5088) /* Stale Bread */
+     , (2228, 4, 4761) /* Flour */
+     , (2228, 4, 4762) /* Frying Pan */
+     , (2228, 4, 4767) /* Skewer */;
 

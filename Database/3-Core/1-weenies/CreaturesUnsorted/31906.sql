@@ -36,3 +36,16 @@ VALUES (31906, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31906, 67116732, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31906, 8, 2411) /* Gem */
+     , (31906, 8, 31864) /* Teardrop Crown */
+     , (31906, 8, 45431) /* Khanjar */
+     , (31906, 8, 25648) /* Leather Pauldrons */
+     , (31906, 8, 20250) /* Scroll of Replenish */
+     , (31906, 8, 45105) /* Lightning Rapier */
+     , (31906, 8, 42) /* Studded Leather Breastplate */
+     , (31906, 8, 2402) /* Gem */
+     , (31906, 8, 30614) /* Frost Knuckles */;
+

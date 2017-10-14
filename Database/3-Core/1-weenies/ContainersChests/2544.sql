@@ -53,3 +53,16 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (2544, 2, 0) /* OPEN_BOOL */
      , (2544, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2544, 8, 132) /* Shoes */
+     , (2544, 8, 8326) /* Copper Pea */
+     , (2544, 8, 2419) /* Gem */
+     , (2544, 8, 2395) /* Gem */
+     , (2544, 8, 9659) /* Scroll of Stamina to Mana Self VI */
+     , (2544, 8, 273) /* Pyreal */
+     , (2544, 8, 3939) /* Acid Morning Star */
+     , (2544, 8, 20409) /* Scroll of Tusker Bait */
+     , (2544, 8, 27330) /* Moderate Mana Stone */;
+

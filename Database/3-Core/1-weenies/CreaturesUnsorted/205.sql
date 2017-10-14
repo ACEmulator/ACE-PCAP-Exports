@@ -45,3 +45,11 @@ VALUES (205, 2, 5) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (205, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (205, 8, 25646) /* Long Leather Gauntlets */
+     , (205, 8, 31760) /* Acid Dericost Blade */
+     , (205, 8, 25652) /* Leather Tassets */
+     , (205, 8, 30217) /* Monarch's Crystal */;
+

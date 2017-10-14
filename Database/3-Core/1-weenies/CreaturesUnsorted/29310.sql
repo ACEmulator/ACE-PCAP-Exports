@@ -35,3 +35,15 @@ VALUES (29310, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29310, 19, True) /* ATTACKABLE_BOOL */
      , (29310, 1, True) /* STUCK_BOOL */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29310, 8, 43373) /* Scroll of Void Magic Ineptitude Other VII */
+     , (29310, 8, 273) /* Pyreal */
+     , (29310, 8, 2428) /* Gem */
+     , (29310, 8, 41301) /* Scroll of Two Handed Weapon Mastery Other VI */
+     , (29310, 8, 20510) /* Scroll of Challenger's Legacy */
+     , (29310, 8, 27330) /* Moderate Mana Stone */
+     , (29310, 8, 3836) /* Flaming Mace */
+     , (29310, 8, 55) /* Chainmail Gauntlets */;
+

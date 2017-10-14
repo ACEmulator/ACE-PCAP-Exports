@@ -39,3 +39,48 @@ VALUES (26014, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26014, 67114921, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26014, 8, 20555) /* Scroll of Fat Fingers */
+     , (26014, 8, 98) /* Scalemail Shirt */
+     , (26014, 8, 27217) /* Chiran Helm */
+     , (26014, 8, 31822) /* Aerbax's Defeat */
+     , (26014, 8, 31774) /* Board with Nail */
+     , (26014, 8, 2395) /* Gem */
+     , (26014, 8, 356) /* Tofun */
+     , (26014, 8, 66) /* Platemail Greaves */
+     , (26014, 8, 28984) /* Bloodied Burun Hide */
+     , (26014, 8, 49339) /* Acid Moar Essence (80) */
+     , (26014, 8, 297) /* Ring */
+     , (26014, 8, 25640) /* Leather Cowl */
+     , (26014, 8, 163) /* Ornamental Bowl */
+     , (26014, 8, 43381) /* Nether Sceptre */
+     , (26014, 8, 20431) /* Scroll of Corrosive Flash */
+     , (26014, 8, 40714) /* Covenant Tassets */
+     , (26014, 8, 21152) /* Covenant Breastplate */
+     , (26014, 8, 49277) /* Frost Elemental Essence (100) */
+     , (26014, 8, 25651) /* Leather Sleeves */
+     , (26014, 8, 20513) /* Scroll of Wrath of Adja */
+     , (26014, 8, 49221) /* Lightning Skeleton Minion Essence (80) */
+     , (26014, 8, 91) /* Kite Shield */
+     , (26014, 8, 28318) /* Untranslated Writing */
+     , (26014, 8, 6046) /* Amuli Coat */
+     , (26014, 8, 129) /* Sandals */
+     , (26014, 8, 20602) /* Scroll of Vigor Siphon */
+     , (26014, 8, 12463) /* Atlatl */
+     , (26014, 8, 134) /* Tunic */
+     , (26014, 8, 21151) /* Covenant Bracers */
+     , (26014, 8, 2425) /* Gem */
+     , (26014, 8, 2367) /* Gorget */
+     , (26014, 8, 118) /* Cloth Cap */
+     , (26014, 8, 142) /* Chalice */
+     , (26014, 8, 332) /* Morning Star */
+     , (26014, 8, 30608) /* Flaming Bastone */
+     , (26014, 8, 31866) /* Coronet */
+     , (26014, 8, 416) /* Chainmail Pauldrons */
+     , (26014, 8, 621) /* Heavy Bracelet */
+     , (26014, 8, 49271) /* Lightning Child Essence (125) */
+     , (26014, 8, 43052) /* Knorr Academy Pauldrons */
+     , (26014, 8, 34015) /* Golden Shuriken of Tanada */;
+

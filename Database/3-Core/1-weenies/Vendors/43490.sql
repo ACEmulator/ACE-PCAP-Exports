@@ -86,54 +86,54 @@ VALUES (43490, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43490, 4, 43685)
-     , (43490, 4, 43686)
-     , (43490, 4, 43687)
-     , (43490, 4, 43672)
-     , (43490, 4, 43681)
-     , (43490, 4, 43682)
-     , (43490, 4, 43683)
-     , (43490, 4, 43684)
-     , (43490, 4, 43627)
-     , (43490, 4, 43628)
-     , (43490, 4, 43629)
-     , (43490, 4, 43630)
-     , (43490, 4, 43595)
-     , (43490, 4, 43596)
-     , (43490, 4, 43597)
-     , (43490, 4, 43598)
-     , (43490, 4, 43599)
-     , (43490, 4, 43600)
-     , (43490, 4, 43601)
-     , (43490, 4, 43602)
-     , (43490, 4, 43603)
-     , (43490, 4, 43604)
-     , (43490, 4, 43605)
-     , (43490, 4, 43606)
-     , (43490, 4, 43607)
-     , (43490, 4, 43608)
-     , (43490, 4, 43609)
-     , (43490, 4, 43610)
-     , (43490, 4, 43611)
-     , (43490, 4, 43612)
-     , (43490, 4, 43613)
-     , (43490, 4, 43614)
-     , (43490, 4, 43615)
-     , (43490, 4, 43616)
-     , (43490, 4, 43617)
-     , (43490, 4, 43618)
-     , (43490, 4, 43619)
-     , (43490, 4, 43620)
-     , (43490, 4, 43621)
-     , (43490, 4, 43622)
-     , (43490, 4, 43623)
-     , (43490, 4, 43624)
-     , (43490, 4, 43625)
-     , (43490, 4, 43626)
-     , (43490, 4, 43732)
-     , (43490, 4, 43633)
-     , (43490, 4, 43635)
-     , (43490, 4, 43634)
-     , (43490, 4, 43701)
-     , (43490, 4, 43819);
+VALUES (43490, 4, 43685) /* Lower Exoskeleton Metamorphi */
+     , (43490, 4, 43686) /* Lower Exoskeleton Metamorphi */
+     , (43490, 4, 43687) /* Lower Exoskeleton Metamorphi */
+     , (43490, 4, 43672) /* Lower Exoskeleton Metamorphi */
+     , (43490, 4, 43681) /* Upper Exoskeleton Metamorphi */
+     , (43490, 4, 43682) /* Upper Exoskeleton Metamorphi */
+     , (43490, 4, 43683) /* Upper Exoskeleton Metamorphi */
+     , (43490, 4, 43684) /* Upper Exoskeleton Metamorphi */
+     , (43490, 4, 43627) /* Soldier Pedipalp Metamorphi */
+     , (43490, 4, 43628) /* Soldier Pedipalp Metamorphi */
+     , (43490, 4, 43629) /* Soldier Pedipalp Metamorphi */
+     , (43490, 4, 43630) /* Soldier Pedipalp Metamorphi */
+     , (43490, 4, 43595) /* Soldier Thorax Metamorphi */
+     , (43490, 4, 43596) /* Soldier Thorax Metamorphi */
+     , (43490, 4, 43597) /* Soldier Thorax Metamorphi */
+     , (43490, 4, 43598) /* Soldier Thorax Metamorphi */
+     , (43490, 4, 43599) /* Soldier Pincer Metamorphi */
+     , (43490, 4, 43600) /* Soldier Pincer Metamorphi */
+     , (43490, 4, 43601) /* Soldier Pincer Metamorphi */
+     , (43490, 4, 43602) /* Soldier Pincer Metamorphi */
+     , (43490, 4, 43603) /* Soldier Abdomen Metamorphi */
+     , (43490, 4, 43604) /* Soldier Abdomen Metamorphi */
+     , (43490, 4, 43605) /* Soldier Abdomen Metamorphi */
+     , (43490, 4, 43606) /* Soldier Abdomen Metamorphi */
+     , (43490, 4, 43607) /* Soldier Tibia Metamorphi */
+     , (43490, 4, 43608) /* Soldier Tibia Metamorphi */
+     , (43490, 4, 43609) /* Soldier Tibia Metamorphi */
+     , (43490, 4, 43610) /* Soldier Tibia Metamorphi */
+     , (43490, 4, 43611) /* Soldier Head Metamorphi */
+     , (43490, 4, 43612) /* Soldier Head Metamorphi */
+     , (43490, 4, 43613) /* Soldier Head Metamorphi */
+     , (43490, 4, 43614) /* Soldier Head Metamorphi */
+     , (43490, 4, 43615) /* Soldier Trochanter Metamorphi */
+     , (43490, 4, 43616) /* Soldier Trochanter Metamorphi */
+     , (43490, 4, 43617) /* Soldier Trochanter Metamorphi */
+     , (43490, 4, 43618) /* Soldier Trochanter Metamorphi */
+     , (43490, 4, 43619) /* Soldier Foot Metamorphi */
+     , (43490, 4, 43620) /* Soldier Foot Metamorphi */
+     , (43490, 4, 43621) /* Soldier Foot Metamorphi */
+     , (43490, 4, 43622) /* Soldier Foot Metamorphi */
+     , (43490, 4, 43623) /* Soldier Femur Metamorphi */
+     , (43490, 4, 43624) /* Soldier Femur Metamorphi */
+     , (43490, 4, 43625) /* Soldier Femur Metamorphi */
+     , (43490, 4, 43626) /* Soldier Femur Metamorphi */
+     , (43490, 4, 43732) /* Enchanted Olthoi Egg */
+     , (43490, 4, 43633) /* Acidic Rejuvenation */
+     , (43490, 4, 43635) /* Saliva Invigorator */
+     , (43490, 4, 43634) /* Acidic Infusion */
+     , (43490, 4, 43701) /* Olthoi Fibrous Healing Tissue */
+     , (43490, 4, 43819) /* Olthoi Coarse Healing Tissue */;
 

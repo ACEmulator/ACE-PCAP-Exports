@@ -96,3 +96,11 @@ VALUES (46662, 2, 77) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46662, 64, 2850) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46662, 8, 20493) /* Scroll of Tenaciousness */
+     , (46662, 8, 2436) /* Greater Mana Stone */
+     , (46662, 8, 27321) /* Mana Philtre */
+     , (46662, 8, 46599) /* Broken Key */;
+

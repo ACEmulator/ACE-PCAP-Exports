@@ -121,33 +121,33 @@ VALUES (400, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (400, 4, 301)
-     , (400, 4, 350)
-     , (400, 4, 4190)
-     , (400, 4, 314)
-     , (400, 4, 351)
-     , (400, 4, 331)
-     , (400, 4, 332)
-     , (400, 4, 22168)
-     , (400, 4, 339)
-     , (400, 4, 348)
-     , (400, 4, 359)
-     , (400, 4, 304)
-     , (400, 4, 93)
-     , (400, 4, 94)
-     , (400, 4, 2621)
-     , (400, 4, 2622)
-     , (400, 4, 2623)
-     , (400, 4, 2624)
-     , (400, 4, 2625)
-     , (400, 4, 2626)
-     , (400, 4, 2627)
-     , (400, 4, 20628)
-     , (400, 4, 20629)
-     , (400, 4, 20630);
+VALUES (400, 4, 301) /* Battle Axe */
+     , (400, 4, 350) /* Broad Sword */
+     , (400, 4, 4190) /* Cestus */
+     , (400, 4, 314) /* Dagger */
+     , (400, 4, 351) /* Long Sword */
+     , (400, 4, 331) /* Mace */
+     , (400, 4, 332) /* Morning Star */
+     , (400, 4, 22168) /* Hefty Walking Cane */
+     , (400, 4, 339) /* Scimitar */
+     , (400, 4, 348) /* Spear */
+     , (400, 4, 359) /* War Hammer */
+     , (400, 4, 304) /* Throwing Axe */
+     , (400, 4, 93) /* Round Shield */
+     , (400, 4, 94) /* Diamond Shield */
+     , (400, 4, 2621) /* Trade Note (100) */
+     , (400, 4, 2622) /* Trade Note (500) */
+     , (400, 4, 2623) /* Trade Note (1,000) */
+     , (400, 4, 2624) /* Trade Note (5,000) */
+     , (400, 4, 2625) /* Trade Note (10,000) */
+     , (400, 4, 2626) /* Trade Note (50,000) */
+     , (400, 4, 2627) /* Trade Note (100,000) */
+     , (400, 4, 20628) /* Trade Note (150,000) */
+     , (400, 4, 20629) /* Trade Note (200,000) */
+     , (400, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (400, 2, 359);
+VALUES (400, 2, 359) /* War Hammer */;
 

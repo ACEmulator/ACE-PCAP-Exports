@@ -39,3 +39,18 @@ VALUES (11533, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11533, 67113038, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11533, 8, 624) /* Ring */
+     , (11533, 8, 273) /* Pyreal */
+     , (11533, 8, 45876) /* Scarlet Red Letter */
+     , (11533, 8, 311) /* Heavy Crossbow */
+     , (11533, 8, 8328) /* Iron Pea */
+     , (11533, 8, 163) /* Ornamental Bowl */
+     , (11533, 8, 21150) /* Covenant Sollerets */
+     , (11533, 8, 2435) /* Mana Stone */
+     , (11533, 8, 31868) /* Signet Crown */
+     , (11533, 8, 2434) /* Lesser Mana Stone */
+     , (11533, 8, 2367) /* Gorget */;
+

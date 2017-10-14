@@ -49,3 +49,20 @@ VALUES (1949, 19, 2500) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (1949, 2, 0) /* OPEN_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1949, 8, 312) /* Light Crossbow */
+     , (1949, 8, 43371) /* Scroll of Void Magic Mastery Other IV */
+     , (1949, 8, 84) /* Studded  Leggings */
+     , (1949, 8, 41484) /* Goggles */
+     , (1949, 8, 51) /* Platemail Cuirass */
+     , (1949, 8, 25643) /* Leather Girth */
+     , (1949, 8, 148) /* Cup */
+     , (1949, 8, 116) /* Studded Leather Boots */
+     , (1949, 8, 295) /* Bracelet */
+     , (1949, 8, 75) /* Helmet */
+     , (1949, 8, 3908) /* Frost War Hammer */
+     , (1949, 8, 25652) /* Leather Tassets */
+     , (1949, 8, 90) /* Yoroi Pauldrons */;
+

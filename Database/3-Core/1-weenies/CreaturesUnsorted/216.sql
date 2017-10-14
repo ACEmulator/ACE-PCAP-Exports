@@ -48,3 +48,33 @@ VALUES (216, 2, 9) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (216, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (216, 8, 161) /* Mug */
+     , (216, 8, 2434) /* Lesser Mana Stone */
+     , (216, 8, 243) /* Dinner Plate */
+     , (216, 8, 273) /* Pyreal */
+     , (216, 8, 148) /* Cup */
+     , (216, 8, 168) /* Tankard */
+     , (216, 8, 2416) /* Gem */
+     , (216, 8, 27331) /* Minor Mana Stone */
+     , (216, 8, 8329) /* Lead Pea */
+     , (216, 8, 80) /* Chainmail Leggings */
+     , (216, 8, 3199) /* Scroll of Creature Enchantment Mastery Self III */
+     , (216, 8, 3741) /* Scroll of Infuse Stamina II */
+     , (216, 8, 31768) /* Frost War Axe */
+     , (216, 8, 132) /* Shoes */
+     , (216, 8, 3701) /* Green Phyntos Wasp Wing */
+     , (216, 8, 312) /* Light Crossbow */
+     , (216, 8, 30598) /* Flaming Poniard */
+     , (216, 8, 2413) /* Gem */
+     , (216, 8, 45413) /* Lightning Spada */
+     , (216, 8, 59) /* Studded Leather Gauntlets */
+     , (216, 8, 2420) /* Gem */
+     , (216, 8, 30606) /* Bastone */
+     , (216, 8, 149) /* Ewer */
+     , (216, 8, 3118) /* Scroll of Rejuvenate Other II */
+     , (216, 8, 296) /* Crown */
+     , (216, 8, 124) /* Jerkin */;
+

@@ -49,3 +49,34 @@ VALUES (24293, 2, 28) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24293, 64, 355) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24293, 8, 21154) /* Covenant Girth */
+     , (24293, 8, 55) /* Chainmail Gauntlets */
+     , (24293, 8, 2590) /* Baggy Shirt */
+     , (24293, 8, 30606) /* Bastone */
+     , (24293, 8, 30222) /* Adherent's Crystal */
+     , (24293, 8, 38) /* Studded Leather Bracers */
+     , (24293, 8, 42) /* Studded Leather Breastplate */
+     , (24293, 8, 624) /* Ring */
+     , (24293, 8, 59) /* Studded Leather Gauntlets */
+     , (24293, 8, 27324) /* Stamina Brew */
+     , (24293, 8, 303) /* Hand Axe */
+     , (24293, 8, 25638) /* Leather Vest */
+     , (24293, 8, 49352) /* Fire Moar Essence (50) */
+     , (24293, 8, 2592) /* Puffy Tunic */
+     , (24293, 8, 30608) /* Flaming Bastone */
+     , (24293, 8, 3843) /* Lightning Ono */
+     , (24293, 8, 25637) /* Leather Bracers */
+     , (24293, 8, 273) /* Pyreal */
+     , (24293, 8, 2911) /* Scroll of Acid Stream VI */
+     , (24293, 8, 7897) /* Steel Toed Boots */
+     , (24293, 8, 142) /* Chalice */
+     , (24293, 8, 3362) /* Scroll of Leadership Mastery Self VI */
+     , (24293, 8, 12253) /* Monougat */
+     , (24293, 8, 21335) /* Scroll of Shock Arc VI */
+     , (24293, 8, 341) /* Shouyumi */
+     , (24293, 8, 20415) /* Scroll of Geledite Bait */
+     , (24293, 8, 2397) /* Gem */;
+

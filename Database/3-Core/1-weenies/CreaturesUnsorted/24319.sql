@@ -48,3 +48,46 @@ VALUES (24319, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24319, 64, 440) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24319, 8, 40701) /* Covenant Helm */
+     , (24319, 8, 2409) /* Gem */
+     , (24319, 8, 118) /* Cloth Cap */
+     , (24319, 8, 42635) /* Aetheria */
+     , (24319, 8, 154) /* Goblet */
+     , (24319, 8, 31868) /* Signet Crown */
+     , (24319, 8, 311) /* Heavy Crossbow */
+     , (24319, 8, 20504) /* Scroll of Light Weapon Ineptitude Other VII */
+     , (24319, 8, 22164) /* Acid Quarter Staff */
+     , (24319, 8, 6048) /* Celdon Sleeves */
+     , (24319, 8, 45114) /* Acid Hammer */
+     , (24319, 8, 45314) /* Scroll of Shield Ineptitude Other VII */
+     , (24319, 8, 59) /* Studded Leather Gauntlets */
+     , (24319, 8, 49360) /* Frost Moar Essence (80) */
+     , (24319, 8, 30604) /* Frost Stiletto */
+     , (24319, 8, 41069) /* Lightning Shashqa */
+     , (24319, 8, 121) /* Gloves */
+     , (24319, 8, 8488) /* Armet */
+     , (24319, 8, 20530) /* Scroll of Lilitha's Boon */
+     , (24319, 8, 27222) /* Lorica Gauntlets */
+     , (24319, 8, 41483) /* Compass */
+     , (24319, 8, 2423) /* Gem */
+     , (24319, 8, 95) /* Tower Shield */
+     , (24319, 8, 31867) /* Diadem */
+     , (24319, 8, 5901) /* Kasa */
+     , (24319, 8, 22440) /* Dirk */
+     , (24319, 8, 294) /* Amulet */
+     , (24319, 8, 2424) /* Gem */
+     , (24319, 8, 297) /* Ring */
+     , (24319, 8, 31866) /* Coronet */
+     , (24319, 8, 25648) /* Leather Pauldrons */
+     , (24319, 8, 48) /* Studded Leather Coat */
+     , (24319, 8, 3892) /* Frost Tachi */
+     , (24319, 8, 3820) /* Flaming Katar */
+     , (24319, 8, 49366) /* Acid Grievver Essence (50) */
+     , (24319, 8, 132) /* Shoes */
+     , (24319, 8, 96) /* Chainmail Shirt */
+     , (24319, 8, 45406) /* Yaoji */
+     , (24319, 8, 20419) /* Scroll of Lugian's Speed */;
+

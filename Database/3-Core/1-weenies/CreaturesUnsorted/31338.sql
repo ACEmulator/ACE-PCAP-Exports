@@ -116,3 +116,18 @@ VALUES (31338, 64, 1623) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (31338, 128, 1245) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (31338, 256, 146) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (31338, 8, 621) /* Heavy Bracelet */
+     , (31338, 8, 57) /* Platemail Gauntlets */
+     , (31338, 8, 20596) /* Scroll of Hieromancer's Blessing */
+     , (31338, 8, 40) /* Platemail Breastplate */
+     , (31338, 8, 10701) /* Niffis Shell Helm */
+     , (31338, 8, 133) /* Slippers */
+     , (31338, 8, 2601) /* Loose Pants */
+     , (31338, 8, 31334) /* Crate of Fake Niffis Pearls */
+     , (31338, 8, 10702) /* Niffis Shell */
+     , (31338, 8, 2409) /* Gem */
+     , (31338, 8, 2410) /* Gem */;
+

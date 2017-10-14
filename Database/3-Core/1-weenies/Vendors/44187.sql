@@ -128,25 +128,25 @@ VALUES (44187, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (44187, 4, 44386)
-     , (44187, 4, 44164)
-     , (44187, 4, 44168)
-     , (44187, 4, 44182)
-     , (44187, 4, 44169)
-     , (44187, 4, 44179)
-     , (44187, 4, 44152)
-     , (44187, 4, 44161)
-     , (44187, 4, 44162)
-     , (44187, 4, 44167)
-     , (44187, 4, 44184)
-     , (44187, 4, 2621)
-     , (44187, 4, 2622)
-     , (44187, 4, 2623)
-     , (44187, 4, 2624)
-     , (44187, 4, 2625)
-     , (44187, 4, 2626)
-     , (44187, 4, 2627)
-     , (44187, 4, 20628)
-     , (44187, 4, 20629)
-     , (44187, 4, 20630);
+VALUES (44187, 4, 44386) /* Contract for Broker Contracts */
+     , (44187, 4, 44164) /* Contract for Southern Shroud Cabal */
+     , (44187, 4, 44168) /* Contract for Crafting Forges (Low) */
+     , (44187, 4, 44182) /* Contract for Northern Shroud Cabal */
+     , (44187, 4, 44169) /* Contract for Crafting Forges (Mid) */
+     , (44187, 4, 44179) /* Contract for Ishaq's Lost Key */
+     , (44187, 4, 44152) /* Contract for The Legend of the Tusker Paw */
+     , (44187, 4, 44161) /* Contract for Infiltration */
+     , (44187, 4, 44162) /* Contract for Sawato Extortion */
+     , (44187, 4, 44167) /* Contract for Crafting Forges (High) */
+     , (44187, 4, 44184) /* Contract for Raising Grael's Island */
+     , (44187, 4, 2621) /* Trade Note (100) */
+     , (44187, 4, 2622) /* Trade Note (500) */
+     , (44187, 4, 2623) /* Trade Note (1,000) */
+     , (44187, 4, 2624) /* Trade Note (5,000) */
+     , (44187, 4, 2625) /* Trade Note (10,000) */
+     , (44187, 4, 2626) /* Trade Note (50,000) */
+     , (44187, 4, 2627) /* Trade Note (100,000) */
+     , (44187, 4, 20628) /* Trade Note (150,000) */
+     , (44187, 4, 20629) /* Trade Note (200,000) */
+     , (44187, 4, 20630) /* Trade Note (250,000) */;
 

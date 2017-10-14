@@ -90,3 +90,23 @@ VALUES (7116, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7116, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7116, 8, 297) /* Ring */
+     , (7116, 8, 8331) /* Silver Pea */
+     , (7116, 8, 149) /* Ewer */
+     , (7116, 8, 8326) /* Copper Pea */
+     , (7116, 8, 27234) /* Scroll of Eradicate Creature Magic Self */
+     , (7116, 8, 107) /* Sollerets */
+     , (7116, 8, 273) /* Pyreal */
+     , (7116, 8, 2396) /* Gem */
+     , (7116, 8, 2435) /* Mana Stone */
+     , (7116, 8, 2394) /* Gem */
+     , (7116, 8, 45421) /* Dagger */
+     , (7116, 8, 28610) /* Loafers */
+     , (7116, 8, 621) /* Heavy Bracelet */
+     , (7116, 8, 22443) /* Flaming Dirk */
+     , (7116, 8, 142) /* Chalice */
+     , (7116, 8, 12463) /* Atlatl */;
+

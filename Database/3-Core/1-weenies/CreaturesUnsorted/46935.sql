@@ -45,3 +45,26 @@ VALUES (46935, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46935, 64, 9000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46935, 8, 2409) /* Gem */
+     , (46935, 8, 2588) /* Flared Shirt */
+     , (46935, 8, 6353) /* Pyreal Mote */
+     , (46935, 8, 45113) /* Hammer */
+     , (46935, 8, 5901) /* Kasa */
+     , (46935, 8, 621) /* Heavy Bracelet */
+     , (46935, 8, 20250) /* Scroll of Replenish */
+     , (46935, 8, 20446) /* Scroll of Outlander's Insolence */
+     , (46935, 8, 43336) /* Scroll of Weakening Curse VII */
+     , (46935, 8, 31864) /* Teardrop Crown */
+     , (46935, 8, 142) /* Chalice */
+     , (46935, 8, 25641) /* Leather Cuirass */
+     , (46935, 8, 2603) /* Baggy Breeches */
+     , (46935, 8, 154) /* Goblet */
+     , (46935, 8, 273) /* Pyreal */
+     , (46935, 8, 2410) /* Gem */
+     , (46935, 8, 20498) /* Scroll of Hands of Chorizite */
+     , (46935, 8, 31865) /* Circlet */
+     , (46935, 8, 29249) /* Frost Crossbow */;
+

@@ -58,3 +58,28 @@ VALUES (35191, 64, 200000) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (35191, 128, 4500) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (35191, 256, 4500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35191, 8, 38) /* Studded Leather Bracers */
+     , (35191, 8, 294) /* Amulet */
+     , (35191, 8, 34457) /* Thunder Chicken Token */
+     , (35191, 8, 31814) /* Dark Blunt Slingshot */
+     , (35191, 8, 3835) /* Lightning Mace */
+     , (35191, 8, 42635) /* Aetheria */
+     , (35191, 8, 31790) /* Lightning Stick */
+     , (35191, 8, 40635) /* Tetsubo */
+     , (35191, 8, 31801) /* Electric Compound Bow */
+     , (35191, 8, 28624) /* Tenassa Sleeves */
+     , (35191, 8, 2598) /* Baggy Pants */
+     , (35191, 8, 25650) /* Leather Shorts */
+     , (35191, 8, 45338) /* Scroll of Sneak Attack Ineptitude Other VII */
+     , (35191, 8, 2412) /* Gem */
+     , (35191, 8, 42637) /* Aetheria */
+     , (35191, 8, 27236) /* Scroll of Eradicate Life Magic Other */
+     , (35191, 8, 621) /* Heavy Bracelet */
+     , (35191, 8, 342) /* Shou-ono */
+     , (35191, 8, 37) /* Scalemail Bracers */
+     , (35191, 8, 31866) /* Coronet */
+     , (35191, 8, 2367) /* Gorget */;
+

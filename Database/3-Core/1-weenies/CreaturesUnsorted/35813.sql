@@ -50,3 +50,10 @@ VALUES (35813, 2, 92) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (35813, 64, 940) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35813, 8, 332) /* Morning Star */
+     , (35813, 8, 22165) /* Lightning Quarter Staff */
+     , (35813, 8, 41488) /* Top */;
+

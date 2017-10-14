@@ -48,3 +48,10 @@ VALUES (25756, 2, 39) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25756, 64, 650) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25756, 8, 5758) /* Carrot */
+     , (25756, 8, 5769) /* Iceball */
+     , (25756, 8, 5768) /* Poofy Snowball */;
+

@@ -50,3 +50,35 @@ VALUES (1613, 2, 15) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (1613, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1613, 8, 150) /* Flagon */
+     , (1613, 8, 2417) /* Gem */
+     , (1613, 8, 91) /* Kite Shield */
+     , (1613, 8, 2419) /* Gem */
+     , (1613, 8, 130) /* Shirt */
+     , (1613, 8, 3876) /* Frost Spear */
+     , (1613, 8, 101) /* Chainmail Sleeves */
+     , (1613, 8, 273) /* Pyreal */
+     , (1613, 8, 2548) /* Sceptre */
+     , (1613, 8, 4236) /* Ivory Gromnie Hide */
+     , (1613, 8, 297) /* Ring */
+     , (1613, 8, 2430) /* Gem */
+     , (1613, 8, 25644) /* Leather Greaves */
+     , (1613, 8, 2415) /* Gem */
+     , (1613, 8, 295) /* Bracelet */
+     , (1613, 8, 2598) /* Baggy Pants */
+     , (1613, 8, 2427) /* Gem */
+     , (1613, 8, 168) /* Tankard */
+     , (1613, 8, 2596) /* Doublet */
+     , (1613, 8, 44976) /* Hood */
+     , (1613, 8, 513) /* Plain Lockpick */
+     , (1613, 8, 254) /* Stoup */
+     , (1613, 8, 243) /* Dinner Plate */
+     , (1613, 8, 1854) /* Scroll of Piercing Protection Self */
+     , (1613, 8, 132) /* Shoes */
+     , (1613, 8, 2460) /* Mana Draught */
+     , (1613, 8, 25639) /* Leather Jerkin */
+     , (1613, 8, 28609) /* Vest */;
+

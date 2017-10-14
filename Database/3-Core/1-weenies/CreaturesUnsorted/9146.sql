@@ -53,3 +53,15 @@ VALUES (9146, 2, 6) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (9146, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9146, 8, 414) /* Chainmail Breastplate */
+     , (9146, 8, 2404) /* Gem */
+     , (9146, 8, 108) /* Chainmail Tassets */
+     , (9146, 8, 2435) /* Mana Stone */
+     , (9146, 8, 305) /* Quarrel */
+     , (9146, 8, 43419) /* Southern Tumerok Insignia */
+     , (9146, 8, 9136) /* Vanguard Leader's Amulet */
+     , (9146, 8, 9137) /* Vanguard Leader's Crossbow */;
+

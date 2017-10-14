@@ -39,3 +39,16 @@ VALUES (41799, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41799, 67115264, 0, 0);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41799, 8, 31769) /* Lugian Axe */
+     , (41799, 8, 515) /* Superb Lockpick */
+     , (41799, 8, 27321) /* Mana Philtre */
+     , (41799, 8, 41816) /* Phyntos Queen's Abdomen */
+     , (41799, 8, 27328) /* Major Mana Stone */
+     , (41799, 8, 49485) /* Encapsulated Spirit */
+     , (41799, 8, 130) /* Shirt */
+     , (41799, 8, 9229) /* Treated Healing Kit */
+     , (41799, 8, 516) /* Peerless Lockpick */;
+

@@ -45,3 +45,23 @@ VALUES (51358, 2, 100) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (51358, 64, 1750) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (51358, 8, 27229) /* Nariyid Girth */
+     , (51358, 8, 45101) /* Lightning Epee */
+     , (51358, 8, 2411) /* Gem */
+     , (51358, 8, 31770) /* Acid War Axe */
+     , (51358, 8, 130) /* Shirt */
+     , (51358, 8, 42636) /* Aetheria */
+     , (51358, 8, 21294) /* Scroll of Acid Arc VII */
+     , (51358, 8, 37205) /* Olthoi Celdon Sleeves */
+     , (51358, 8, 2423) /* Gem */
+     , (51358, 8, 121) /* Gloves */
+     , (51358, 8, 43382) /* Nefane Pearl */
+     , (51358, 8, 2425) /* Gem */
+     , (51358, 8, 2421) /* Gem */
+     , (51358, 8, 25637) /* Leather Bracers */
+     , (51358, 8, 43300) /* Scroll of Nether Arc VII */
+     , (51358, 8, 2367) /* Gorget */;
+

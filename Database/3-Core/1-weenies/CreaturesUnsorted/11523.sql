@@ -53,3 +53,20 @@ VALUES (11523, 2, 58) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (11523, 64, 123) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11523, 8, 624) /* Ring */
+     , (11523, 8, 3009) /* Scroll of Bludgeon Protection Self III */
+     , (11523, 8, 11321) /* Vault Key */
+     , (11523, 8, 2429) /* Gem */
+     , (11523, 8, 2884) /* Aura of Swift Killer Self IV */
+     , (11523, 8, 324) /* Kaskara */
+     , (11523, 8, 295) /* Bracelet */
+     , (11523, 8, 31794) /* Lancet */
+     , (11523, 8, 11456) /* Totem of Volkama */
+     , (11523, 8, 2598) /* Baggy Pants */
+     , (11523, 8, 31791) /* Flaming Stick */
+     , (11523, 8, 28605) /* Beret */
+     , (11523, 8, 545) /* Reliable Lockpick */;
+

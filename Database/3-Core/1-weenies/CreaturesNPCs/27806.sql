@@ -115,5 +115,5 @@ VALUES (27806, 64, 435) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (27806, 2, 312);
+VALUES (27806, 2, 312) /* Light Crossbow */;
 

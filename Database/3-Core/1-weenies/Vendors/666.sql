@@ -126,22 +126,22 @@ VALUES (666, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (666, 4, 364)
-     , (666, 4, 365)
-     , (666, 4, 367)
-     , (666, 4, 9118)
-     , (666, 4, 9124)
-     , (666, 4, 9319)
-     , (666, 4, 27851)
-     , (666, 4, 1491)
-     , (666, 4, 5676)
-     , (666, 4, 5602)
-     , (666, 4, 6419)
-     , (666, 4, 5583)
-     , (666, 4, 5856)
-     , (666, 4, 7884)
-     , (666, 4, 14797)
-     , (666, 4, 5586)
-     , (666, 4, 24855)
-     , (666, 4, 5587);
+VALUES (666, 4, 364) /* Book */
+     , (666, 4, 365) /* Parchment */
+     , (666, 4, 367) /* Tome */
+     , (666, 4, 9118) /* Puppet Show */
+     , (666, 4, 9124) /* The Beginning */
+     , (666, 4, 9319) /* Mnemosynes and the Art of Lockpicking */
+     , (666, 4, 27851) /* The Weapons of the Singularity */
+     , (666, 4, 1491) /* Arwic Mines Rumor */
+     , (666, 4, 5676) /* Of Celcynd the Dour */
+     , (666, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (666, 4, 6419) /* The Meeting Halls */
+     , (666, 4, 5583) /* Aluvian Cookbook */
+     , (666, 4, 5856) /* Specialty Cookbook */
+     , (666, 4, 7884) /* Chocolate Cookbook */
+     , (666, 4, 14797) /* Festival Cookbook */
+     , (666, 4, 5586) /* Alchemy Guide */
+     , (666, 4, 24855) /* The New Alchemy */
+     , (666, 4, 5587) /* Fletching Guide */;
 

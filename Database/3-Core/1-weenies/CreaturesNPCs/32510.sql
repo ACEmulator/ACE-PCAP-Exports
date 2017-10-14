@@ -136,5 +136,5 @@ VALUES (32510, 64, 215) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (32510, 2, 32511);
+VALUES (32510, 2, 32511) /* Shield of Yanshi */;
 

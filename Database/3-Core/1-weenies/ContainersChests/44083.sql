@@ -37,3 +37,14 @@ VALUES (44083, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (44083, 19, True) /* ATTACKABLE_BOOL */
      , (44083, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (44083, 8, 348) /* Spear */
+     , (44083, 8, 31788) /* Stick */
+     , (44083, 8, 3881) /* Acid Long Sword */
+     , (44083, 8, 29244) /* Slashing Bow */
+     , (44083, 8, 31769) /* Lugian Axe */
+     , (44083, 8, 3843) /* Lightning Ono */
+     , (44083, 8, 40819) /* Acid Corsesca */;
+

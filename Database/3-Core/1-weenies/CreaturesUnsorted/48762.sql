@@ -53,3 +53,16 @@ VALUES (48762, 2, 30) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (48762, 64, 3300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (48762, 8, 20513) /* Scroll of Wrath of Adja */
+     , (48762, 8, 37197) /* Olthoi Celdon Helm */
+     , (48762, 8, 40708) /* Covenant Gauntlets */
+     , (48762, 8, 43377) /* Scroll of Void Mastery Self VII */
+     , (48762, 8, 20408) /* Scroll of Tusker's Bane */
+     , (48762, 8, 89) /* Studded Leather Pauldrons */
+     , (48762, 8, 27230) /* Nariyid Helm */
+     , (48762, 8, 6045) /* Celdon Leggings */
+     , (48762, 8, 49485) /* Encapsulated Spirit */;
+

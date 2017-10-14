@@ -42,3 +42,10 @@ VALUES (9381, 9, 83890028, 83890027);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9381, 9, 16780702);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (9381, 8, 132) /* Shoes */
+     , (9381, 8, 8812) /* Esard's Life Magic Scroll */
+     , (9381, 8, 133) /* Slippers */;
+

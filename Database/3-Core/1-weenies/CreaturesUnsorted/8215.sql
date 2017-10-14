@@ -56,3 +56,13 @@ VALUES (8215, 2, 7) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8215, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8215, 8, 45117) /* Frost Hammer */
+     , (8215, 8, 45421) /* Dagger */
+     , (8215, 8, 8211) /* Discus */
+     , (8215, 8, 49485) /* Encapsulated Spirit */
+     , (8215, 8, 154) /* Goblet */
+     , (8215, 8, 2738) /* Scroll of Strength Other III */;
+

@@ -74,3 +74,23 @@ VALUES (46603, 2, 13) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46603, 64, 5250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (46603, 8, 49530) /* Acid Phyntos Swarm Essence */
+     , (46603, 8, 94) /* Diamond Shield */
+     , (46603, 8, 273) /* Pyreal */
+     , (46603, 8, 2437) /* Yoroi Leggings */
+     , (46603, 8, 31780) /* Acid Spine Glaive */
+     , (46603, 8, 9229) /* Treated Healing Kit */
+     , (46603, 8, 150) /* Flagon */
+     , (46603, 8, 149) /* Ewer */
+     , (46603, 8, 49321) /* Lightning Wisp Essence (150) */
+     , (46603, 8, 132) /* Shoes */
+     , (46603, 8, 49377) /* Lightning Grievver Essence (150) */
+     , (46603, 8, 49383) /* Fire Grievver Essence (125) */
+     , (46603, 8, 49278) /* Frost Child Essence (125) */
+     , (46603, 8, 624) /* Ring */
+     , (46603, 8, 58) /* Scalemail Gauntlets */
+     , (46603, 8, 2367) /* Gorget */;
+

@@ -48,3 +48,15 @@ VALUES (4124, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (4124, 64, 89) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4124, 8, 3851) /* Flaming Scimitar */
+     , (4124, 8, 621) /* Heavy Bracelet */
+     , (4124, 8, 2593) /* Loose Tunic */
+     , (4124, 8, 27322) /* Mana Tincture */
+     , (4124, 8, 8903) /* Focusing Stone */
+     , (4124, 8, 25640) /* Leather Cowl */
+     , (4124, 8, 3755) /* Lightning Hand Axe */
+     , (4124, 8, 8945) /* Scroll of Lightning Streak V */;
+

@@ -123,22 +123,22 @@ VALUES (42800, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (42800, 4, 2471)
-     , (42800, 4, 2463)
-     , (42800, 4, 2453)
-     , (42800, 4, 4746)
-     , (42800, 4, 2467)
-     , (42800, 4, 8378)
-     , (42800, 4, 261)
-     , (42800, 4, 4716)
-     , (42800, 4, 4739)
-     , (42800, 4, 620)
-     , (42800, 4, 44883)
-     , (42800, 4, 44884)
-     , (42800, 4, 44882)
-     , (42800, 4, 45565)
-     , (42800, 4, 45566)
-     , (42800, 4, 46904)
-     , (42800, 4, 46908)
-     , (42800, 4, 46909);
+VALUES (42800, 4, 2471) /* Stout */
+     , (42800, 4, 2463) /* Milk */
+     , (42800, 4, 2453) /* Cider */
+     , (42800, 4, 4746) /* Water */
+     , (42800, 4, 2467) /* Red Wine */
+     , (42800, 4, 8378) /* Beer Stein */
+     , (42800, 4, 261) /* Cheese */
+     , (42800, 4, 4716) /* Chicken Pie */
+     , (42800, 4, 4739) /* Pickled Egg */
+     , (42800, 4, 620) /* Cake */
+     , (42800, 4, 44883) /* Contract for Killtask: Gurog Minions */
+     , (42800, 4, 44884) /* Contract for Killtask: Gurog Soldiers */
+     , (42800, 4, 44882) /* Contract for Killtask: Gurog Henchmen */
+     , (42800, 4, 45565) /* Contract for Gurog Creation */
+     , (42800, 4, 45566) /* Contract for Wardley and the Wights */
+     , (42800, 4, 46904) /* Contract for Jester Focuses */
+     , (42800, 4, 46908) /* Contract for Unleash the Gearknights */
+     , (42800, 4, 46909) /* Contract for Virindi Rescue */;
 

@@ -112,3 +112,14 @@ VALUES (37177, 64, 890) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (37177, 128, 910) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (37177, 256, 1000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (37177, 8, 20498) /* Scroll of Hands of Chorizite */
+     , (37177, 8, 2411) /* Gem */
+     , (37177, 8, 3845) /* Frost Ono */
+     , (37177, 8, 20500) /* Scroll of Aliester's Blessing */
+     , (37177, 8, 20489) /* Scroll of Battlemage's Boon */
+     , (37177, 8, 3878) /* Lightning Broad Sword */
+     , (37177, 8, 31784) /* Claw */;
+

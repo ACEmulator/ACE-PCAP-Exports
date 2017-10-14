@@ -48,3 +48,43 @@ VALUES (182, 2, 11) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (182, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (182, 8, 121) /* Gloves */
+     , (182, 8, 31762) /* Flaming Dericost Blade */
+     , (182, 8, 25661) /* Leather Boots */
+     , (182, 8, 2419) /* Gem */
+     , (182, 8, 22168) /* Hefty Walking Cane */
+     , (182, 8, 134) /* Tunic */
+     , (182, 8, 273) /* Pyreal */
+     , (182, 8, 45406) /* Yaoji */
+     , (182, 8, 44976) /* Hood */
+     , (182, 8, 68) /* Studded Leather Greaves */
+     , (182, 8, 2601) /* Loose Pants */
+     , (182, 8, 25636) /* Leather Helm */
+     , (182, 8, 25645) /* Leather Leggings */
+     , (182, 8, 622) /* Necklace */
+     , (182, 8, 42518) /* Coalesced Mana */
+     , (182, 8, 168) /* Tankard */
+     , (182, 8, 149) /* Ewer */
+     , (182, 8, 49331) /* Frost Wisp Essence (50) */
+     , (182, 8, 2984) /* Scroll of Acid Vulnerability Other III */
+     , (182, 8, 38) /* Studded Leather Bracers */
+     , (182, 8, 2460) /* Mana Draught */
+     , (182, 8, 2598) /* Baggy Pants */
+     , (182, 8, 294) /* Amulet */
+     , (182, 8, 243) /* Dinner Plate */
+     , (182, 8, 133) /* Slippers */
+     , (182, 8, 296) /* Crown */
+     , (182, 8, 254) /* Stoup */
+     , (182, 8, 2457) /* Health Draught */
+     , (182, 8, 93) /* Round Shield */
+     , (182, 8, 28607) /* Lace Shirt */
+     , (182, 8, 132) /* Shoes */
+     , (182, 8, 80) /* Chainmail Leggings */
+     , (182, 8, 28606) /* Viamontian Pants */
+     , (182, 8, 2857) /* Scroll of Lightning Lure II */
+     , (182, 8, 48) /* Studded Leather Coat */
+     , (182, 8, 25637) /* Leather Bracers */;
+

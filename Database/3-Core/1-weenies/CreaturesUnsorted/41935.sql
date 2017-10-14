@@ -61,3 +61,8 @@ VALUES (41935, 64, 12175) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (41935, 128, 3350) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (41935, 256, 5280) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41935, 8, 41932) /* Lord Hendrel's Brand */;
+

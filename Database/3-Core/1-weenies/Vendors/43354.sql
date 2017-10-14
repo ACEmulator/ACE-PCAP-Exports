@@ -126,39 +126,39 @@ VALUES (43354, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43354, 4, 43173)
-     , (43354, 4, 43310)
-     , (43354, 4, 43303)
-     , (43354, 4, 43304)
-     , (43354, 4, 43305)
-     , (43354, 4, 43302)
-     , (43354, 4, 43295)
-     , (43354, 4, 43296)
-     , (43354, 4, 43297)
-     , (43354, 4, 43318)
-     , (43354, 4, 43311)
-     , (43354, 4, 43312)
-     , (43354, 4, 43313)
-     , (43354, 4, 43286)
-     , (43354, 4, 43279)
-     , (43354, 4, 43280)
-     , (43354, 4, 43281)
-     , (43354, 4, 43294)
-     , (43354, 4, 43287)
-     , (43354, 4, 43288)
-     , (43354, 4, 43289)
-     , (43354, 4, 43320)
-     , (43354, 4, 43321)
-     , (43354, 4, 43322)
-     , (43354, 4, 43323)
-     , (43354, 4, 43329)
-     , (43354, 4, 43330)
-     , (43354, 4, 43331)
-     , (43354, 4, 43332)
-     , (43354, 4, 43338)
-     , (43354, 4, 43339)
-     , (43354, 4, 43340)
-     , (43354, 4, 43341)
-     , (43354, 4, 44621)
-     , (43354, 4, 44622);
+VALUES (43354, 4, 43173) /* Foci of Shadow */
+     , (43354, 4, 43310) /* Scroll of Nether Bolt */
+     , (43354, 4, 43303) /* Scroll of Nether Bolt II */
+     , (43354, 4, 43304) /* Scroll of Nether Bolt III */
+     , (43354, 4, 43305) /* Scroll of Nether Bolt IV */
+     , (43354, 4, 43302) /* Scroll of Nether Arc */
+     , (43354, 4, 43295) /* Scroll of Nether Arc II */
+     , (43354, 4, 43296) /* Scroll of Nether Arc III */
+     , (43354, 4, 43297) /* Scroll of Nether Arc IV */
+     , (43354, 4, 43318) /* Scroll of Nether Streak */
+     , (43354, 4, 43311) /* Scroll of Nether Streak II */
+     , (43354, 4, 43312) /* Scroll of Nether Streak III */
+     , (43354, 4, 43313) /* Scroll of Nether Streak IV */
+     , (43354, 4, 43286) /* Scroll of Corrosion */
+     , (43354, 4, 43279) /* Scroll of Corrosion II */
+     , (43354, 4, 43280) /* Scroll of Corrosion III */
+     , (43354, 4, 43281) /* Scroll of Corrosion IV */
+     , (43354, 4, 43294) /* Scroll of Corruption */
+     , (43354, 4, 43287) /* Scroll of Corruption II */
+     , (43354, 4, 43288) /* Scroll of Corruption III */
+     , (43354, 4, 43289) /* Scroll of Corruption IV */
+     , (43354, 4, 43320) /* Scroll of Destructive Curse */
+     , (43354, 4, 43321) /* Scroll of Destructive Curse II */
+     , (43354, 4, 43322) /* Scroll of Destructive Curse III */
+     , (43354, 4, 43323) /* Scroll of Destructive Curse IV */
+     , (43354, 4, 43329) /* Scroll of Festering Curse  */
+     , (43354, 4, 43330) /* Scroll of Festering Curse II */
+     , (43354, 4, 43331) /* Scroll of Festering Curse III */
+     , (43354, 4, 43332) /* Scroll of Festering Curse IV */
+     , (43354, 4, 43338) /* Scroll of Weakening Curse */
+     , (43354, 4, 43339) /* Scroll of Weakening Curse II */
+     , (43354, 4, 43340) /* Scroll of Weakening Curse III */
+     , (43354, 4, 43341) /* Scroll of Weakening Curse IV */
+     , (43354, 4, 44621) /* Scroll of Nether Blast III */
+     , (43354, 4, 44622) /* Scroll of Nether Blast IV */;
 

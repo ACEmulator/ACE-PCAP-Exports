@@ -49,3 +49,26 @@ VALUES (8010, 2, 47) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8010, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8010, 8, 7897) /* Steel Toed Boots */
+     , (8010, 8, 8329) /* Lead Pea */
+     , (8010, 8, 2413) /* Gem */
+     , (8010, 8, 273) /* Pyreal */
+     , (8010, 8, 254) /* Stoup */
+     , (8010, 8, 27331) /* Minor Mana Stone */
+     , (8010, 8, 41483) /* Compass */
+     , (8010, 8, 311) /* Heavy Crossbow */
+     , (8010, 8, 2602) /* Loose Breeches */
+     , (8010, 8, 2428) /* Gem */
+     , (8010, 8, 2434) /* Lesser Mana Stone */
+     , (8010, 8, 2420) /* Gem */
+     , (8010, 8, 161) /* Mug */
+     , (8010, 8, 295) /* Bracelet */
+     , (8010, 8, 6055) /* Cracked Shard */
+     , (8010, 8, 63) /* Studded Leather Girth */
+     , (8010, 8, 3889) /* Acid Tachi */
+     , (8010, 8, 20860) /* Herald Stamp */
+     , (8010, 8, 624) /* Ring */;
+

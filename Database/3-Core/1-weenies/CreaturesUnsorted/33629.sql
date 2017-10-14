@@ -48,3 +48,56 @@ VALUES (33629, 2, 84) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (33629, 64, 9160) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33629, 8, 624) /* Ring */
+     , (33629, 8, 49328) /* Fire Wisp Essence (150) */
+     , (33629, 8, 31816) /* Fire Slingshot */
+     , (33629, 8, 27227) /* Nariyid Breastplate */
+     , (33629, 8, 45404) /* Shadow Blade of Flame */
+     , (33629, 8, 2411) /* Gem */
+     , (33629, 8, 554) /* Studded Leather Basinet */
+     , (33629, 8, 44469) /* Lesser Corrupted Essence */
+     , (33629, 8, 49263) /* Acid Elemental Essence (100) */
+     , (33629, 8, 49291) /* Lightning K'nath Essence (100) */
+     , (33629, 8, 20512) /* Scroll of Morimoto's Blessing */
+     , (33629, 8, 20410) /* Scroll of Tattercoat */
+     , (33629, 8, 154) /* Goblet */
+     , (33629, 8, 27221) /* Lorica Breastplate */
+     , (33629, 8, 515) /* Superb Lockpick */
+     , (33629, 8, 55) /* Chainmail Gauntlets */
+     , (33629, 8, 31769) /* Lugian Axe */
+     , (33629, 8, 29241) /* Fire Bow */
+     , (33629, 8, 25645) /* Leather Leggings */
+     , (33629, 8, 273) /* Pyreal */
+     , (33629, 8, 7768) /* Spiked Club */
+     , (33629, 8, 22154) /* Acid Jo */
+     , (33629, 8, 9229) /* Treated Healing Kit */
+     , (33629, 8, 116) /* Studded Leather Boots */
+     , (33629, 8, 27218) /* Chiran Leggings */
+     , (33629, 8, 49485) /* Encapsulated Spirit */
+     , (33629, 8, 31794) /* Lancet */
+     , (33629, 8, 31793) /* Frost Lancet */
+     , (33629, 8, 31784) /* Claw */
+     , (33629, 8, 31783) /* Frost Claw */
+     , (33629, 8, 20406) /* Aura of Infected Caress */
+     , (33629, 8, 2402) /* Gem */
+     , (33629, 8, 49265) /* Acid Child Essence (150) */
+     , (33629, 8, 20609) /* Scroll of Gift of Vigor */
+     , (33629, 8, 43828) /* Sedgemail Leather Vest */
+     , (33629, 8, 45116) /* Flaming Hammer */
+     , (33629, 8, 516) /* Peerless Lockpick */
+     , (33629, 8, 95) /* Tower Shield */
+     , (33629, 8, 27323) /* Mana Tonic */
+     , (33629, 8, 41052) /* Greataxe */
+     , (33629, 8, 622) /* Necklace */
+     , (33629, 8, 20541) /* Scroll of Celcynd's Blessing */
+     , (33629, 8, 119) /* Cowl */
+     , (33629, 8, 20509) /* Scroll of Missile Weapon Mastery Self VII */
+     , (33629, 8, 25637) /* Leather Bracers */
+     , (33629, 8, 20522) /* Scroll of Hearts on Sleeves */
+     , (33629, 8, 124) /* Jerkin */
+     , (33629, 8, 38) /* Studded Leather Bracers */
+     , (33629, 8, 40701) /* Covenant Helm */;
+

@@ -62,3 +62,39 @@ VALUES (24275, 2, 2) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24275, 64, 413) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24275, 8, 41052) /* Greataxe */
+     , (24275, 8, 30557) /* Acid Hatchet */
+     , (24275, 8, 40703) /* Covenant Shield */
+     , (24275, 8, 40698) /* Covenant Gauntlets */
+     , (24275, 8, 45250) /* Scroll of Dirty Fighting Mastery Other VII */
+     , (24275, 8, 24832) /* Banderling Antagonist Scalp */
+     , (24275, 8, 40699) /* Covenant Girth */
+     , (24275, 8, 2431) /* Gem */
+     , (24275, 8, 30613) /* Flaming Knuckles */
+     , (24275, 8, 49524) /* Acid Phyntos Wasp Essence (50) */
+     , (24275, 8, 30601) /* Stiletto */
+     , (24275, 8, 514) /* Excellent Lockpick */
+     , (24275, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (24275, 8, 40707) /* Covenant Breastplate */
+     , (24275, 8, 8326) /* Copper Pea */
+     , (24275, 8, 40712) /* Covenant Pauldrons */
+     , (24275, 8, 25636) /* Leather Helm */
+     , (24275, 8, 254) /* Stoup */
+     , (24275, 8, 31770) /* Acid War Axe */
+     , (24275, 8, 20403) /* Scroll of Olthoi Bait */
+     , (24275, 8, 21159) /* Covenant Tassets */
+     , (24275, 8, 44) /* Buckler */
+     , (24275, 8, 31780) /* Acid Spine Glaive */
+     , (24275, 8, 20506) /* Scroll of Light Weapon Mastery Self VII */
+     , (24275, 8, 623) /* Heavy Necklace */
+     , (24275, 8, 30616) /* Arbalest */
+     , (24275, 8, 512) /* Good Lockpick */
+     , (24275, 8, 150) /* Flagon */
+     , (24275, 8, 134) /* Tunic */
+     , (24275, 8, 2945) /* Scroll of Frost Bolt VI */
+     , (24275, 8, 20640) /* Royal Atlatl */
+     , (24275, 8, 2436) /* Greater Mana Stone */;
+

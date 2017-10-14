@@ -124,26 +124,26 @@ VALUES (869, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (869, 4, 364)
-     , (869, 4, 365)
-     , (869, 4, 367)
-     , (869, 4, 5856)
-     , (869, 4, 5585)
-     , (869, 4, 7884)
-     , (869, 4, 14797)
-     , (869, 4, 5586)
-     , (869, 4, 24855)
-     , (869, 4, 5587)
-     , (869, 4, 8135)
-     , (869, 4, 6630)
-     , (869, 4, 7936)
-     , (869, 4, 6417)
-     , (869, 4, 5881)
-     , (869, 4, 5601)
-     , (869, 4, 5675)
-     , (869, 4, 5147)
-     , (869, 4, 6421)
-     , (869, 4, 8397)
-     , (869, 4, 5602)
-     , (869, 4, 6419);
+VALUES (869, 4, 364) /* Book */
+     , (869, 4, 365) /* Parchment */
+     , (869, 4, 367) /* Tome */
+     , (869, 4, 5856) /* Specialty Cookbook */
+     , (869, 4, 5585) /* Sho Cookbook */
+     , (869, 4, 7884) /* Chocolate Cookbook */
+     , (869, 4, 14797) /* Festival Cookbook */
+     , (869, 4, 5586) /* Alchemy Guide */
+     , (869, 4, 24855) /* The New Alchemy */
+     , (869, 4, 5587) /* Fletching Guide */
+     , (869, 4, 8135) /* Zarea's Notes on Geomancy */
+     , (869, 4, 6630) /* A Treatise on the Properties of Fused Gems */
+     , (869, 4, 7936) /* Aliester's Corollary */
+     , (869, 4, 6417) /* A Stinging Stone */
+     , (869, 4, 5881) /* The Book of Minesh */
+     , (869, 4, 5601) /* Altar of Asheron Rumor */
+     , (869, 4, 5675) /* Mount Lethe Rumor */
+     , (869, 4, 5147) /* Return to Frore */
+     , (869, 4, 6421) /* The Lost City of Frore */
+     , (869, 4, 8397) /* The Breaking of the Crystal Core */
+     , (869, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (869, 4, 6419) /* The Meeting Halls */;
 

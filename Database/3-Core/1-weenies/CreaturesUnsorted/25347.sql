@@ -54,3 +54,25 @@ VALUES (25347, 2, 14) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (25347, 64, 1800) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (25347, 8, 44849) /* Chevron Cloak */
+     , (25347, 8, 22165) /* Lightning Quarter Staff */
+     , (25347, 8, 41069) /* Lightning Shashqa */
+     , (25347, 8, 49271) /* Lightning Child Essence (125) */
+     , (25347, 8, 40699) /* Covenant Girth */
+     , (25347, 8, 31764) /* Lugian Hammer */
+     , (25347, 8, 59) /* Studded Leather Gauntlets */
+     , (25347, 8, 512) /* Good Lockpick */
+     , (25347, 8, 25647) /* Leather Pants */
+     , (25347, 8, 2425) /* Gem */
+     , (25347, 8, 49362) /* Frost Moar Essence (125) */
+     , (25347, 8, 103) /* Platemail Sleeves */
+     , (25347, 8, 20548) /* Scroll of Gears Unwound */
+     , (25347, 8, 20473) /* Scroll of Tusker's Gift */
+     , (25347, 8, 7768) /* Spiked Club */
+     , (25347, 8, 49332) /* Frost Wisp Essence (80) */
+     , (25347, 8, 351) /* Long Sword */
+     , (25347, 8, 25645) /* Leather Leggings */;
+

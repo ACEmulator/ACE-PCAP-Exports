@@ -136,21 +136,21 @@ VALUES (697, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
 /* Vendor Shop Selection List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (697, 4, 2457)
-     , (697, 4, 377)
-     , (697, 4, 27319)
-     , (697, 4, 2460)
-     , (697, 4, 379)
-     , (697, 4, 27322)
-     , (697, 4, 378)
-     , (697, 4, 27326)
-     , (697, 4, 2470)
-     , (697, 4, 628)
-     , (697, 4, 629)
-     , (697, 4, 630)
-     , (697, 4, 4587)
-     , (697, 4, 4596)
-     , (697, 4, 4593)
-     , (697, 4, 2621)
-     , (697, 4, 2622);
+VALUES (697, 4, 2457) /* Health Draught */
+     , (697, 4, 377) /* Potion of Healing */
+     , (697, 4, 27319) /* Health Tincture */
+     , (697, 4, 2460) /* Mana Draught */
+     , (697, 4, 379) /* Mana Potion */
+     , (697, 4, 27322) /* Mana Tincture */
+     , (697, 4, 378) /* Stamina Potion */
+     , (697, 4, 27326) /* Stamina Tincture */
+     , (697, 4, 2470) /* Stamina Elixir */
+     , (697, 4, 628) /* Handy Healing Kit */
+     , (697, 4, 629) /* Adept Healing Kit */
+     , (697, 4, 630) /* Gifted Healing Kit */
+     , (697, 4, 4587) /* Heal Other II */
+     , (697, 4, 4596) /* Regeneration Other II */
+     , (697, 4, 4593) /* Mana Boost Other II */
+     , (697, 4, 2621) /* Trade Note (100) */
+     , (697, 4, 2622) /* Trade Note (500) */;
 

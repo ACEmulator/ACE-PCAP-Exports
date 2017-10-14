@@ -1,4 +1,4 @@
-/* Weenie - Containers - Basket (137) */
+/* Weenie - ContainersPacks - Basket (137) */
 DELETE FROM ace_weenie_class WHERE weenieClassId = 137;
 
 INSERT INTO ace_weenie_class (`weenieClassId`, `weenieClassDescription`)

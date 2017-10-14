@@ -52,3 +52,15 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (4832, 2, 0) /* OPEN_BOOL */
      , (4832, 3, 0) /* LOCKED_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (4832, 8, 295) /* Bracelet */
+     , (4832, 8, 27330) /* Moderate Mana Stone */
+     , (4832, 8, 8328) /* Iron Pea */
+     , (4832, 8, 30607) /* Lightning Bastone */
+     , (4832, 8, 57) /* Platemail Gauntlets */
+     , (4832, 8, 2435) /* Mana Stone */
+     , (4832, 8, 273) /* Pyreal */
+     , (4832, 8, 2604) /* Wide Breeches */;
+

@@ -48,3 +48,29 @@ VALUES (28657, 2, 83) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (28657, 64, 460) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (28657, 8, 31825) /* Piercing Baton */
+     , (28657, 8, 30608) /* Flaming Bastone */
+     , (28657, 8, 40) /* Platemail Breastplate */
+     , (28657, 8, 632) /* Peerless Healing Kit */
+     , (28657, 8, 31861) /* Fort Tethana Portal Gem */
+     , (28657, 8, 31286) /* Tethana's Response */
+     , (28657, 8, 3775) /* Lightning Dabus */
+     , (28657, 8, 41069) /* Lightning Shashqa */
+     , (28657, 8, 6005) /* Koujia Sleeves */
+     , (28657, 8, 297) /* Ring */
+     , (28657, 8, 243) /* Dinner Plate */
+     , (28657, 8, 8331) /* Silver Pea */
+     , (28657, 8, 48) /* Studded Leather Coat */
+     , (28657, 8, 20475) /* Scroll of Icy Blessing */
+     , (28657, 8, 2435) /* Mana Stone */
+     , (28657, 8, 312) /* Light Crossbow */
+     , (28657, 8, 20504) /* Scroll of Light Weapon Ineptitude Other VII */
+     , (28657, 8, 5973) /* Scroll of Fletching Mastery Other VI */
+     , (28657, 8, 38) /* Studded Leather Bracers */
+     , (28657, 8, 133) /* Slippers */
+     , (28657, 8, 30607) /* Lightning Bastone */
+     , (28657, 8, 514) /* Excellent Lockpick */;
+

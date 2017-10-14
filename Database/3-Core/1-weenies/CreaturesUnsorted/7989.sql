@@ -44,3 +44,42 @@ VALUES (7989, 2, 46) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (7989, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (7989, 8, 2415) /* Gem */
+     , (7989, 8, 254) /* Stoup */
+     , (7989, 8, 59) /* Studded Leather Gauntlets */
+     , (7989, 8, 1848) /* Scroll of Cold Protection Self */
+     , (7989, 8, 31797) /* Flaming Lancet */
+     , (7989, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (7989, 8, 1755) /* Scroll of Weapon Tinkering Ignorance */
+     , (7989, 8, 68) /* Studded Leather Greaves */
+     , (7989, 8, 8329) /* Lead Pea */
+     , (7989, 8, 622) /* Necklace */
+     , (7989, 8, 105) /* Studded Leather Sleeves */
+     , (7989, 8, 8674) /* Small Ursuin Hide */
+     , (7989, 8, 295) /* Bracelet */
+     , (7989, 8, 3737) /* Scroll of Infuse Mana III */
+     , (7989, 8, 99) /* Studded Leather Shirt */
+     , (7989, 8, 7940) /* Empty Flask */
+     , (7989, 8, 30594) /* Acid Partizan */
+     , (7989, 8, 49303) /* Frost K'nath Essence (50) */
+     , (7989, 8, 85) /* Chainmail Coif */
+     , (7989, 8, 2416) /* Gem */
+     , (7989, 8, 2434) /* Lesser Mana Stone */
+     , (7989, 8, 296) /* Crown */
+     , (7989, 8, 112) /* Studded Leather Tassets */
+     , (7989, 8, 545) /* Reliable Lockpick */
+     , (7989, 8, 2598) /* Baggy Pants */
+     , (7989, 8, 25647) /* Leather Pants */
+     , (7989, 8, 25643) /* Leather Girth */
+     , (7989, 8, 3762) /* Acid Budiaq */
+     , (7989, 8, 1642) /* Scroll of Whirling Blade */
+     , (7989, 8, 341) /* Shouyumi */
+     , (7989, 8, 27331) /* Minor Mana Stone */
+     , (7989, 8, 49345) /* Lightning Moar Essence (50) */
+     , (7989, 8, 416) /* Chainmail Pauldrons */
+     , (7989, 8, 2431) /* Gem */
+     , (7989, 8, 132) /* Shoes */;
+

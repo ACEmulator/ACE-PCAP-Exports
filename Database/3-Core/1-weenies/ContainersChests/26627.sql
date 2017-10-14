@@ -37,3 +37,21 @@ VALUES (26627, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (26627, 19, True) /* ATTACKABLE_BOOL */
      , (26627, 1, True) /* STUCK_BOOL */;
 
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (26627, 8, 3128) /* Scroll of Arcane Benightedness II */
+     , (26627, 8, 43331) /* Scroll of Festering Curse III */
+     , (26627, 8, 25647) /* Leather Pants */
+     , (26627, 8, 311) /* Heavy Crossbow */
+     , (26627, 8, 49303) /* Frost K'nath Essence (50) */
+     , (26627, 8, 49247) /* Fire Zombie Essence (50) */
+     , (26627, 8, 49331) /* Frost Wisp Essence (50) */
+     , (26627, 8, 96) /* Chainmail Shirt */
+     , (26627, 8, 45318) /* Scroll of Shield Mastery Other III */
+     , (26627, 8, 296) /* Crown */
+     , (26627, 8, 8329) /* Lead Pea */
+     , (26627, 8, 359) /* War Hammer */
+     , (26627, 8, 2414) /* Gem */
+     , (26627, 8, 2413) /* Gem */;
+

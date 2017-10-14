@@ -23,7 +23,7 @@ VALUES (36641, 1, 512) /* ITEM_TYPE_INT */
      , (36641, 6, 120) /* ITEMS_CAPACITY_INT */
      , (36641, 16, 48) /* ITEM_USEABLE_INT */
      , (36641, 93, 1052) /* PHYSICS_STATE_INT */
-     , (36641, 9007, 21) /* Container_WeenieType */;
+     , (36641, 9007, 20) /* Chest_WeenieType */;
 
 INSERT INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (36641, 54, 2) /* USE_RADIUS_FLOAT */;
@@ -47,4 +47,10 @@ VALUES (36641, 19, 0) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (36641, 2, 0) /* OPEN_BOOL */;
+
+/* Chest Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36641, 8, 36707) /* Hidden Note */
+     , (36641, 8, 36704) /* Phial of Chorizite */;
 

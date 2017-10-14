@@ -60,3 +60,10 @@ VALUES (33538, 64, 5406) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (33538, 128, 2405) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (33538, 256, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33538, 8, 7788) /* Fire Spiked Club */
+     , (33538, 8, 33541) /* Locked Gate Key */
+     , (33538, 8, 21155) /* Covenant Greaves */;
+

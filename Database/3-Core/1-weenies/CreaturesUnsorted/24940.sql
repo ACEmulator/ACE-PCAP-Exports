@@ -67,3 +67,127 @@ VALUES (24940, 2, 70) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (24940, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (24940, 8, 7798) /* Electric Naginata */
+     , (24940, 8, 273) /* Pyreal */
+     , (24940, 8, 2991) /* Scroll of Blade Protection Other V */
+     , (24940, 8, 45311) /* Scroll of Shield Ineptitude Other IV */
+     , (24940, 8, 2418) /* Gem */
+     , (24940, 8, 8328) /* Iron Pea */
+     , (24940, 8, 2400) /* Gem */
+     , (24940, 8, 3346) /* Scroll of Leaden Feet V */
+     , (24940, 8, 49545) /* Lightning Phyntos Wasp Essence (50) */
+     , (24940, 8, 2735) /* Scroll of Slowness Other V */
+     , (24940, 8, 2434) /* Lesser Mana Stone */
+     , (24940, 8, 25638) /* Leather Vest */
+     , (24940, 8, 49485) /* Encapsulated Spirit */
+     , (24940, 8, 8489) /* Heaume */
+     , (24940, 8, 379) /* Mana Potion */
+     , (24940, 8, 49442) /* Frost Spectre Essence (50) */
+     , (24940, 8, 55) /* Chainmail Gauntlets */
+     , (24940, 8, 51) /* Platemail Cuirass */
+     , (24940, 8, 3279) /* Scroll of Healing Mastery Self III */
+     , (24940, 8, 2785) /* Aura of Blood Drinker Self V */
+     , (24940, 8, 2393) /* Gem */
+     , (24940, 8, 48972) /* Acid Zombie Essence (50) */
+     , (24940, 8, 30949) /* Diforsa Sleeves */
+     , (24940, 8, 2596) /* Doublet */
+     , (24940, 8, 295) /* Bracelet */
+     , (24940, 8, 3777) /* Frost Dabus */
+     , (24940, 8, 629) /* Adept Healing Kit */
+     , (24940, 8, 312) /* Light Crossbow */
+     , (24940, 8, 25645) /* Leather Leggings */
+     , (24940, 8, 414) /* Chainmail Breastplate */
+     , (24940, 8, 413) /* Chainmail Bracers */
+     , (24940, 8, 49254) /* Frost Zombie Essence (50) */
+     , (24940, 8, 31771) /* Lightning War Axe */
+     , (24940, 8, 2416) /* Gem */
+     , (24940, 8, 31794) /* Lancet */
+     , (24940, 8, 49428) /* Lightning Spectre Essence (50) */
+     , (24940, 8, 25644) /* Leather Greaves */
+     , (24940, 8, 31764) /* Lugian Hammer */
+     , (24940, 8, 132) /* Shoes */
+     , (24940, 8, 360) /* Yag */
+     , (24940, 8, 303) /* Hand Axe */
+     , (24940, 8, 8329) /* Lead Pea */
+     , (24940, 8, 28610) /* Loafers */
+     , (24940, 8, 68) /* Studded Leather Greaves */
+     , (24940, 8, 4193) /* Frost Cestus */
+     , (24940, 8, 40621) /* Flaming Spadone */
+     , (24940, 8, 2844) /* Scroll of Impenetrability IV */
+     , (24940, 8, 63) /* Studded Leather Girth */
+     , (24940, 8, 45417) /* Acid Knife */
+     , (24940, 8, 91) /* Kite Shield */
+     , (24940, 8, 3728) /* Scroll of Drain Stamina Other IV */
+     , (24940, 8, 49296) /* Fire K'nath Essence (50) */
+     , (24940, 8, 31789) /* Acid Stick */
+     , (24940, 8, 41488) /* Top */
+     , (24940, 8, 2470) /* Stamina Elixir */
+     , (24940, 8, 49435) /* Fire Spectre Essence (50) */
+     , (24940, 8, 45122) /* Frost Hand Wraps */
+     , (24940, 8, 7772) /* Trident */
+     , (24940, 8, 3264) /* Scroll of Fealty Self III */
+     , (24940, 8, 49467) /* Scroll of Summoning Mastery Other V */
+     , (24940, 8, 41065) /* Flaming Nodachi */
+     , (24940, 8, 334) /* Nayin */
+     , (24940, 8, 8945) /* Scroll of Lightning Streak V */
+     , (24940, 8, 377) /* Potion of Healing */
+     , (24940, 8, 30616) /* Arbalest */
+     , (24940, 8, 630) /* Gifted Healing Kit */
+     , (24940, 8, 30576) /* Flamberge */
+     , (24940, 8, 326) /* Katar */
+     , (24940, 8, 3164) /* Scroll of Light Weapon Mastery Other III */
+     , (24940, 8, 2597) /* Flared Pants */
+     , (24940, 8, 624) /* Ring */
+     , (24940, 8, 49303) /* Frost K'nath Essence (50) */
+     , (24940, 8, 128) /* Qafiya */
+     , (24940, 8, 49531) /* Fire Phyntos Wasp Essence (50) */
+     , (24940, 8, 108) /* Chainmail Tassets */
+     , (24940, 8, 105) /* Studded Leather Sleeves */
+     , (24940, 8, 297) /* Ring */
+     , (24940, 8, 41041) /* Magari Yari */
+     , (24940, 8, 116) /* Studded Leather Boots */
+     , (24940, 8, 45114) /* Acid Hammer */
+     , (24940, 8, 378) /* Stamina Potion */
+     , (24940, 8, 7797) /* Acid Naginata */
+     , (24940, 8, 31865) /* Circlet */
+     , (24940, 8, 45413) /* Lightning Spada */
+     , (24940, 8, 57) /* Platemail Gauntlets */
+     , (24940, 8, 27326) /* Stamina Tincture */
+     , (24940, 8, 49289) /* Lightning K'nath Essence (50) */
+     , (24940, 8, 622) /* Necklace */
+     , (24940, 8, 101) /* Chainmail Sleeves */
+     , (24940, 8, 2718) /* Scroll of Quickness Self III */
+     , (24940, 8, 296) /* Crown */
+     , (24940, 8, 49282) /* Acid K'nath Essence (50) */
+     , (24940, 8, 45409) /* Flaming Yaoji */
+     , (24940, 8, 45112) /* Shadow Blade of Frost */
+     , (24940, 8, 45121) /* Flaming Hand Wraps */
+     , (24940, 8, 49345) /* Lightning Moar Essence (50) */
+     , (24940, 8, 294) /* Amulet */
+     , (24940, 8, 45423) /* Lightning Dagger */
+     , (24940, 8, 43) /* Yoroi Breastplate */
+     , (24940, 8, 22165) /* Lightning Quarter Staff */
+     , (24940, 8, 49352) /* Fire Moar Essence (50) */
+     , (24940, 8, 4392) /* Scroll of Armor Self IV */
+     , (24940, 8, 95) /* Tower Shield */
+     , (24940, 8, 25647) /* Leather Pants */
+     , (24940, 8, 307) /* Shortbow */
+     , (24940, 8, 2700) /* Scroll of Heal Self V */
+     , (24940, 8, 2599) /* Trousers */
+     , (24940, 8, 40620) /* Lightning Spadone */
+     , (24940, 8, 254) /* Stoup */
+     , (24940, 8, 628) /* Handy Healing Kit */
+     , (24940, 8, 2548) /* Sceptre */
+     , (24940, 8, 3435) /* Scroll of Mana Mastery Self IV */
+     , (24940, 8, 45416) /* Knife */
+     , (24940, 8, 25652) /* Leather Tassets */
+     , (24940, 8, 130) /* Shirt */
+     , (24940, 8, 31797) /* Flaming Lancet */
+     , (24940, 8, 42518) /* Coalesced Mana */
+     , (24940, 8, 7794) /* Electric Trident */
+     , (24940, 8, 3515) /* Scroll of Heavy Weapon Ineptitude Other IV */
+     , (24940, 8, 311) /* Heavy Crossbow */;
+

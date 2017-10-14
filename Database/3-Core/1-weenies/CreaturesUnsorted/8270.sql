@@ -41,3 +41,34 @@ VALUES (8270, 2, 48) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (8270, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (8270, 8, 2599) /* Trousers */
+     , (8270, 8, 2434) /* Lesser Mana Stone */
+     , (8270, 8, 312) /* Light Crossbow */
+     , (8270, 8, 130) /* Shirt */
+     , (8270, 8, 2435) /* Mana Stone */
+     , (8270, 8, 8329) /* Lead Pea */
+     , (8270, 8, 7940) /* Empty Flask */
+     , (8270, 8, 42) /* Studded Leather Breastplate */
+     , (8270, 8, 41048) /* Lightning Pike */
+     , (8270, 8, 8328) /* Iron Pea */
+     , (8270, 8, 273) /* Pyreal */
+     , (8270, 8, 2432) /* Gem */
+     , (8270, 8, 2603) /* Baggy Breeches */
+     , (8270, 8, 295) /* Bracelet */
+     , (8270, 8, 31765) /* Acid Lugian Hammer */
+     , (8270, 8, 243) /* Dinner Plate */
+     , (8270, 8, 2419) /* Gem */
+     , (8270, 8, 2415) /* Gem */
+     , (8270, 8, 141) /* Bowl */
+     , (8270, 8, 3732) /* Scroll of Infuse Health III */
+     , (8270, 8, 2429) /* Gem */
+     , (8270, 8, 2594) /* Flared Tunic */
+     , (8270, 8, 554) /* Studded Leather Basinet */
+     , (8270, 8, 2676) /* Scroll of Focus Other IV */
+     , (8270, 8, 150) /* Flagon */
+     , (8270, 8, 624) /* Ring */
+     , (8270, 8, 148) /* Cup */;
+

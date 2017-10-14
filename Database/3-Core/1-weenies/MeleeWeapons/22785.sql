@@ -49,3 +49,22 @@ VALUES (22785, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22785, 0, 16777925);
 
+/* Corpse Treasure List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (22785, 8, 45294) /* Scroll of Recklessness Mastery Other III */
+     , (22785, 8, 28633) /* Diforsa Girth */
+     , (22785, 8, 28607) /* Lace Shirt */
+     , (22785, 8, 25649) /* Leather Shirt */
+     , (22785, 8, 2472) /* Wand */
+     , (22785, 8, 312) /* Light Crossbow */
+     , (22785, 8, 273) /* Pyreal */
+     , (22785, 8, 49254) /* Frost Zombie Essence (50) */
+     , (22785, 8, 45296) /* Scroll of Recklessness Mastery Other V */
+     , (22785, 8, 80) /* Chainmail Leggings */
+     , (22785, 8, 20357) /* Scroll of Devour Item Magic */
+     , (22785, 8, 57) /* Platemail Gauntlets */
+     , (22785, 8, 340) /* Shamshir */
+     , (22785, 8, 96) /* Chainmail Shirt */
+     , (22785, 8, 28630) /* Diforsa Cuirass */;
+
