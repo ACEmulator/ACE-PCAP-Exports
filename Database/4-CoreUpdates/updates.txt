@@ -1,3 +1,6 @@
+10/17/2017
+- 08-Contracts.sql contains USE_CREATES_CONTRACT_ID_INT values and LONG_DESC_STRING content for contract items pulled from the client_portal.dat
+
 09/15/2017
 ----------
 - Added 04-Books - Book contents and data - Very special thank you to the ACEmu Discord #data_mining crew, especially "Howard (Oberon)" and "Immportal Bob" for compiling much of this
