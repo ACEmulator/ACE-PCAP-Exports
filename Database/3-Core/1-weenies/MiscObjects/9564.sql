@@ -47,7 +47,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (9564, 16, 'A Bow skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Bow skill to assemble.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9564, 33, 4294967294) /* BONDED_INT */
+VALUES (9564, 33, -2) /* BONDED_INT */
      , (9564, 114, 1) /* ATTUNED_INT */
      , (9564, 19, 10000) /* VALUE_INT */
      , (9564, 5, 10) /* ENCUMB_VAL_INT */;

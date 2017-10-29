@@ -54,7 +54,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (35556, 16, 'This green, intricately carved crossbow bears a striking resemblance to crossbows that were widely used as a devastating first-strike weapon by Rossu Morta assassins in Ispar, but it is filled with an unstable energy that suggests it is not long for this world.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35556, 33, 4294967295) /* BONDED_INT */
+VALUES (35556, 33, -1) /* BONDED_INT */
      , (35556, 353, 9) /* WEAPON_TYPE_INT */
      , (35556, 98, 1485827789) /* CREATION_TIMESTAMP_INT */
      , (35556, 114, 0) /* ATTUNED_INT */

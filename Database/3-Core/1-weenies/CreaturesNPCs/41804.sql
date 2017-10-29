@@ -87,7 +87,7 @@ VALUES (41804, 384, 0) /*  */
      , (41804, 267, 300) /* LIFESPAN_INT */
      , (41804, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (41804, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (41804, 268, 4294967289) /* REMAINING_LIFESPAN_INT */
+     , (41804, 268, -7) /* REMAINING_LIFESPAN_INT */
      , (41804, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
      , (41804, 381, 0) /*  */
      , (41804, 382, 0) /*  */

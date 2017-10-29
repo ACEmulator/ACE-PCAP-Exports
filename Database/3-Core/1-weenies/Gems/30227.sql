@@ -56,7 +56,7 @@ VALUES (30227, 16, 'Using this gem will increase your Mana Regeneration by 1000%
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30227, 17, 44) /* RARE_ID_INT */
-     , (30227, 33, 4294967295) /* BONDED_INT */
+     , (30227, 33, -1) /* BONDED_INT */
      , (30227, 19, 0) /* VALUE_INT */
      , (30227, 5, 5) /* ENCUMB_VAL_INT */
      , (30227, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */

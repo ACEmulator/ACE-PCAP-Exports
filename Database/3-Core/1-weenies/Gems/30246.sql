@@ -52,7 +52,7 @@ VALUES (30246, 16, 'Using this gem will increase your Weapon Tinkering skill by 
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30246, 17, 41) /* RARE_ID_INT */
-     , (30246, 33, 4294967295) /* BONDED_INT */
+     , (30246, 33, -1) /* BONDED_INT */
      , (30246, 19, 0) /* VALUE_INT */
      , (30246, 5, 5) /* ENCUMB_VAL_INT */
      , (30246, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */

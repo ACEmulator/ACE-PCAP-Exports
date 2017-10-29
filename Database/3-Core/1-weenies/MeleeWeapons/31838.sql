@@ -39,7 +39,7 @@ VALUES (31838, 13, True) /* ETHEREAL_BOOL */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31838, 160, 370) /* WIELD_DIFFICULTY_INT */
      , (31838, 353, 3) /* WEAPON_TYPE_INT */
-     , (31838, 33, 4294967294) /* BONDED_INT */
+     , (31838, 33, -2) /* BONDED_INT */
      , (31838, 5, 800) /* ENCUMB_VAL_INT */
      , (31838, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (31838, 159, 45) /* WIELD_SKILLTYPE_INT */

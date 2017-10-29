@@ -55,7 +55,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30205, 16, 'Using this gem will increase your Fletching skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30205, 33, 4294967295) /* BONDED_INT */
+VALUES (30205, 33, -1) /* BONDED_INT */
      , (30205, 17, 19) /* RARE_ID_INT */
      , (30205, 19, 0) /* VALUE_INT */
      , (30205, 5, 10) /* ENCUMB_VAL_INT */

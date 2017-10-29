@@ -55,7 +55,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (45366, 16, 'Using this gem will increase your Dirty Fighting skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45366, 33, 4294967295) /* BONDED_INT */
+VALUES (45366, 33, -1) /* BONDED_INT */
      , (45366, 17, 7) /* RARE_ID_INT */
      , (45366, 19, 0) /* VALUE_INT */
      , (45366, 5, 5) /* ENCUMB_VAL_INT */

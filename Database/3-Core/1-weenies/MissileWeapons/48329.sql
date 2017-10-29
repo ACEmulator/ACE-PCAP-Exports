@@ -54,7 +54,7 @@ VALUES (48329, 0, 16777887);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48329, 33, 4294967294) /* BONDED_INT */
+VALUES (48329, 33, -2) /* BONDED_INT */
      , (48329, 19, 162) /* VALUE_INT */
      , (48329, 5, 810) /* ENCUMB_VAL_INT */
      , (48329, 45, 32) /* DAMAGE_TYPE_INT */

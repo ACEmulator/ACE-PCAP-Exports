@@ -46,7 +46,7 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (29108, 19, 10) /* VALUE_INT */
      , (29108, 5, 50) /* ENCUMB_VAL_INT */
      , (29108, 89, 4) /* BOOSTER_ENUM_INT */
-     , (29108, 90, 4294957297) /* BOOST_VALUE_INT */;
+     , (29108, 90, -9999) /* BOOST_VALUE_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (29108, 69, 0) /* IS_SELLABLE_BOOL */;

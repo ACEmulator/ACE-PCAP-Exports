@@ -52,7 +52,7 @@ VALUES (30217, 16, 'Using this gem will increase your Leadership skill by 250 fo
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30217, 17, 24) /* RARE_ID_INT */
-     , (30217, 33, 4294967295) /* BONDED_INT */
+     , (30217, 33, -1) /* BONDED_INT */
      , (30217, 19, 0) /* VALUE_INT */
      , (30217, 5, 5) /* ENCUMB_VAL_INT */
      , (30217, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */

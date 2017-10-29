@@ -54,7 +54,7 @@ REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `prope
 VALUES (35551, 55, 2070) /* PROC_SPELL_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35551, 33, 4294967295) /* BONDED_INT */
+VALUES (35551, 33, -1) /* BONDED_INT */
      , (35551, 353, 5) /* WEAPON_TYPE_INT */
      , (35551, 98, 1485866115) /* CREATION_TIMESTAMP_INT */
      , (35551, 114, 0) /* ATTUNED_INT */

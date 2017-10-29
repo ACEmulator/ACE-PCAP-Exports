@@ -56,7 +56,7 @@ VALUES (30213, 16, 'Using this gem will increase the Armor Level of all equipped
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30213, 17, 66) /* RARE_ID_INT */
-     , (30213, 33, 4294967295) /* BONDED_INT */
+     , (30213, 33, -1) /* BONDED_INT */
      , (30213, 19, 0) /* VALUE_INT */
      , (30213, 5, 5) /* ENCUMB_VAL_INT */
      , (30213, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */

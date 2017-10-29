@@ -41,7 +41,7 @@ VALUES (5903, 16, 'A magical key of crystal and iron, which unlocks the coffers 
      , (5903, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5903, 33, 4294967295) /* BONDED_INT */
+VALUES (5903, 33, -1) /* BONDED_INT */
      , (5903, 19, 20) /* VALUE_INT */
      , (5903, 5, 25) /* ENCUMB_VAL_INT */
      , (5903, 91, 1) /* MAX_STRUCTURE_INT */;

@@ -55,7 +55,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30208, 16, 'Using this gem will increase your natural resistance to Cold damage by 99.9% for 15 minutes.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30208, 33, 4294967295) /* BONDED_INT */
+VALUES (30208, 33, -1) /* BONDED_INT */
      , (30208, 17, 50) /* RARE_ID_INT */
      , (30208, 19, 0) /* VALUE_INT */
      , (30208, 5, 5) /* ENCUMB_VAL_INT */

@@ -56,7 +56,7 @@ VALUES (30240, 16, 'Using this gem will increase your Strength by 250 for 15 min
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30240, 17, 1) /* RARE_ID_INT */
-     , (30240, 33, 4294967295) /* BONDED_INT */
+     , (30240, 33, -1) /* BONDED_INT */
      , (30240, 19, 0) /* VALUE_INT */
      , (30240, 5, 5) /* ENCUMB_VAL_INT */
      , (30240, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */

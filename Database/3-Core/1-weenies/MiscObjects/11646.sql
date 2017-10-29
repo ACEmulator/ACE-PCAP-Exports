@@ -47,7 +47,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (11646, 16, 'An Advanced Creature Enchantment skill puzzle piece.  Combine it with a Skill Puzzle Base Piece.  This item requires Creature Enchantment skill to assemble.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11646, 33, 4294967294) /* BONDED_INT */
+VALUES (11646, 33, -2) /* BONDED_INT */
      , (11646, 114, 1) /* ATTUNED_INT */
      , (11646, 19, 10000) /* VALUE_INT */
      , (11646, 5, 10) /* ENCUMB_VAL_INT */;

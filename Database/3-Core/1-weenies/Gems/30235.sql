@@ -51,7 +51,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30235, 16, 'Using this gem will increase your natural resistance to Slashing damage by 99.9% for 15 minutes.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30235, 33, 4294967295) /* BONDED_INT */
+VALUES (30235, 33, -1) /* BONDED_INT */
      , (30235, 17, 45) /* RARE_ID_INT */
      , (30235, 19, 0) /* VALUE_INT */
      , (30235, 5, 25) /* ENCUMB_VAL_INT */

@@ -55,7 +55,7 @@ VALUES (15870, 0, 16787488);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (15870, 353, 10) /* WEAPON_TYPE_INT */
-     , (15870, 33, 4294967294) /* BONDED_INT */
+     , (15870, 33, -2) /* BONDED_INT */
      , (15870, 114, 1) /* ATTUNED_INT */
      , (15870, 5, 500) /* ENCUMB_VAL_INT */
      , (15870, 45, 0) /* DAMAGE_TYPE_INT */

@@ -52,7 +52,7 @@ VALUES (30223, 16, 'Using this gem will increase your Light Weapon skill by 250 
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30223, 17, 12) /* RARE_ID_INT */
-     , (30223, 33, 4294967295) /* BONDED_INT */
+     , (30223, 33, -1) /* BONDED_INT */
      , (30223, 19, 0) /* VALUE_INT */
      , (30223, 5, 5) /* ENCUMB_VAL_INT */
      , (30223, 106, 325) /* ITEM_SPELLCRAFT_INT */

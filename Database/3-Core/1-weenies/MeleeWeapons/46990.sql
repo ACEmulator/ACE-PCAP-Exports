@@ -48,7 +48,7 @@ VALUES (46990, 15, 'A sword crafted by Gaerlan using techniques stolen from the 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46990, 160, 51) /* WIELD_DIFFICULTY_INT */
      , (46990, 353, 2) /* WEAPON_TYPE_INT */
-     , (46990, 33, 4294967294) /* BONDED_INT */
+     , (46990, 33, -2) /* BONDED_INT */
      , (46990, 114, 0) /* ATTUNED_INT */
      , (46990, 19, 50000) /* VALUE_INT */
      , (46990, 179, 4) /* IMBUED_EFFECT_INT */
