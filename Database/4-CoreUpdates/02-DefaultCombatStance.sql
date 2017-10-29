@@ -16,7 +16,7 @@ SET SQL_SAFE_UPDATES = 1;
 SELECT
    weenieClassId
    , 46
-   , CONV('8000003c', 16, 10)
+   , CONV('00001', 16, 10)
 FROM
    vw_ace_weenie_class wc
    LEFT OUTER JOIN ace_object_properties_int aopi
@@ -52,7 +52,7 @@ INSERT INTO ace_world.ace_object_properties_int (
  SELECT
     weenieClassId
    , 46
-   , CONV('80000044', 16, 10)
+   , CONV('00008', 16, 10)
 FROM
    vw_ace_weenie_class wc
    LEFT OUTER JOIN ace_object_properties_int aopi
@@ -72,7 +72,7 @@ INSERT INTO ace_world.ace_object_properties_int (
  SELECT
     weenieClassId
    , 46
-   , CONV('80000044', 16, 10)
+   , CONV('00008', 16, 10)
 FROM
    vw_ace_weenie_class wc
    LEFT OUTER JOIN ace_object_properties_int aopi
@@ -92,7 +92,7 @@ ORDER BY wc.weenieClassId;
 SELECT
    weenieClassId
    , 46
-   , CONV('80000041', 16, 10)
+   , CONV('00020', 16, 10)
 FROM
    vw_ace_weenie_class wc
    LEFT OUTER JOIN ace_object_properties_int aopi
@@ -122,7 +122,7 @@ ORDER BY weenieClassid;
 SELECT
    weenieClassId
    , 46
-   , CONV('80000138', 16, 10)
+   , CONV('00400', 16, 10)
 FROM
    vw_ace_weenie_class wc
    LEFT OUTER JOIN ace_object_properties_int aopi
@@ -147,7 +147,7 @@ ORDER BY weenieClassid;
 SELECT
    weenieClassId
    , 46
-   , CONV('80000047', 16, 10)
+   , CONV('00080', 16, 10)
 FROM
    vw_ace_weenie_class wc
    LEFT OUTER JOIN ace_object_properties_int aopi
@@ -199,7 +199,7 @@ ORDER BY weenieClassid;
 SELECT
    weenieClassId
    , 46
-   , CONV('8000003f', 16, 10)
+   , CONV('00010', 16, 10)
 FROM
    vw_ace_weenie_class wc
    LEFT OUTER JOIN ace_object_properties_int aopi
@@ -222,7 +222,7 @@ ORDER BY wc.weenieClassId;
 SELECT
    weenieClassId
    , 46
-   , CONV('8000003e', 16, 10)
+   , CONV('00002', 16, 10)
    FROM
    vw_ace_weenie_class wc
    LEFT OUTER JOIN ace_object_properties_int aopi
