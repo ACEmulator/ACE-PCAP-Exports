@@ -49,7 +49,7 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (4181, 19, 470) /* VALUE_INT */
      , (4181, 5, 470) /* ENCUMB_VAL_INT */
      , (4181, 45, 32) /* DAMAGE_TYPE_INT */
-     , (4181, 49, 4294967295) /* WEAPON_TIME_INT */
+     , (4181, 49, -1) /* WEAPON_TIME_INT */
      , (4181, 48, 0) /* WEAPON_SKILL_INT */
      , (4181, 44, 9) /* DAMAGE_INT */;
 

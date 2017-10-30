@@ -57,7 +57,7 @@ VALUES (15280, 33, -2) /* BONDED_INT */
      , (15280, 19, 84) /* VALUE_INT */
      , (15280, 5, 105) /* ENCUMB_VAL_INT */
      , (15280, 45, 2) /* DAMAGE_TYPE_INT */
-     , (15280, 49, 4294967295) /* WEAPON_TIME_INT */
+     , (15280, 49, -1) /* WEAPON_TIME_INT */
      , (15280, 48, 0) /* WEAPON_SKILL_INT */
      , (15280, 44, 13) /* DAMAGE_INT */;
 

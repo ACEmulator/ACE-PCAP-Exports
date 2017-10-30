@@ -56,9 +56,9 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (47513, 33, -2) /* BONDED_INT */
      , (47513, 5, 1250) /* ENCUMB_VAL_INT */
      , (47513, 45, 0) /* DAMAGE_TYPE_INT */
-     , (47513, 49, 4294967295) /* WEAPON_TIME_INT */
+     , (47513, 49, -1) /* WEAPON_TIME_INT */
      , (47513, 48, 0) /* WEAPON_SKILL_INT */
-     , (47513, 44, 4294967295) /* DAMAGE_INT */;
+     , (47513, 44, -1) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (47513, 29, 1) /* WEAPON_DEFENSE_FLOAT */

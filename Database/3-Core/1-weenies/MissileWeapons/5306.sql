@@ -59,7 +59,7 @@ VALUES (5306, 33, -2) /* BONDED_INT */
      , (5306, 19, 231) /* VALUE_INT */
      , (5306, 5, 105) /* ENCUMB_VAL_INT */
      , (5306, 45, 32) /* DAMAGE_TYPE_INT */
-     , (5306, 49, 4294967295) /* WEAPON_TIME_INT */
+     , (5306, 49, -1) /* WEAPON_TIME_INT */
      , (5306, 48, 0) /* WEAPON_SKILL_INT */
      , (5306, 44, 14) /* DAMAGE_INT */;
 

@@ -45,9 +45,9 @@ VALUES (31838, 160, 370) /* WIELD_DIFFICULTY_INT */
      , (31838, 159, 45) /* WIELD_SKILLTYPE_INT */
      , (31838, 47, 4) /* ATTACK_TYPE_INT */
      , (31838, 45, 0) /* DAMAGE_TYPE_INT */
-     , (31838, 49, 4294967295) /* WEAPON_TIME_INT */
+     , (31838, 49, -1) /* WEAPON_TIME_INT */
      , (31838, 48, 45) /* WEAPON_SKILL_INT */
-     , (31838, 44, 4294967295) /* DAMAGE_INT */;
+     , (31838, 44, -1) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (31838, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */

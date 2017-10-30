@@ -58,7 +58,7 @@ VALUES (48329, 33, -2) /* BONDED_INT */
      , (48329, 19, 162) /* VALUE_INT */
      , (48329, 5, 810) /* ENCUMB_VAL_INT */
      , (48329, 45, 32) /* DAMAGE_TYPE_INT */
-     , (48329, 49, 4294967295) /* WEAPON_TIME_INT */
+     , (48329, 49, -1) /* WEAPON_TIME_INT */
      , (48329, 48, 0) /* WEAPON_SKILL_INT */
      , (48329, 44, 33) /* DAMAGE_INT */;
 

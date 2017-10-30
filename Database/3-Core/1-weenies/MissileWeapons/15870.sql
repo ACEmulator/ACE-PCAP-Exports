@@ -59,9 +59,9 @@ VALUES (15870, 353, 10) /* WEAPON_TYPE_INT */
      , (15870, 114, 1) /* ATTUNED_INT */
      , (15870, 5, 500) /* ENCUMB_VAL_INT */
      , (15870, 45, 0) /* DAMAGE_TYPE_INT */
-     , (15870, 49, 4294967295) /* WEAPON_TIME_INT */
+     , (15870, 49, -1) /* WEAPON_TIME_INT */
      , (15870, 48, 47) /* WEAPON_SKILL_INT */
-     , (15870, 44, 4294967295) /* DAMAGE_INT */;
+     , (15870, 44, -1) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (15870, 29, 1) /* WEAPON_DEFENSE_FLOAT */

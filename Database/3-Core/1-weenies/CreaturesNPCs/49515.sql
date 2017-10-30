@@ -112,7 +112,7 @@ VALUES (49515, 384, 0) /*  */
      , (49515, 47, 4) /* ATTACK_TYPE_INT */
      , (49515, 383, 0) /*  */
      , (49515, 45, 16) /* DAMAGE_TYPE_INT */
-     , (49515, 49, 4294967295) /* WEAPON_TIME_INT */
+     , (49515, 49, -1) /* WEAPON_TIME_INT */
      , (49515, 48, 45) /* WEAPON_SKILL_INT */
      , (49515, 44, 0) /* DAMAGE_INT */;
 
