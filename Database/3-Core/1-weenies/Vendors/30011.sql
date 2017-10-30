@@ -19,8 +19,8 @@ VALUES (30011, 8, 100667446) /* ICON_DID */
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30011, 1, 16) /* ITEM_TYPE_INT */
-     , (30011, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (30011, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (30011, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (30011, 6, -1) /* ITEMS_CAPACITY_INT */
      , (30011, 133, 4) /* SHOWABLE_ON_RADAR_INT */
      , (30011, 16, 32) /* ITEM_USEABLE_INT */
      , (30011, 93, 2098200) /* PHYSICS_STATE_INT */

@@ -20,8 +20,8 @@ VALUES (48723, 8, 100667386) /* ICON_DID */
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (48723, 1, 16) /* ITEM_TYPE_INT */
      , (48723, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (48723, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (48723, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (48723, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (48723, 6, -1) /* ITEMS_CAPACITY_INT */
      , (48723, 16, 32) /* ITEM_USEABLE_INT */
      , (48723, 93, 6292508) /* PHYSICS_STATE_INT */
      , (48723, 9007, 10) /* Creature_WeenieType */;

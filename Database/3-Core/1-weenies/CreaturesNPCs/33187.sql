@@ -20,8 +20,8 @@ VALUES (33187, 8, 100667377) /* ICON_DID */
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33187, 1, 16) /* ITEM_TYPE_INT */
      , (33187, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (33187, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (33187, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (33187, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (33187, 6, -1) /* ITEMS_CAPACITY_INT */
      , (33187, 133, 4) /* SHOWABLE_ON_RADAR_INT */
      , (33187, 16, 32) /* ITEM_USEABLE_INT */
      , (33187, 93, 6292504) /* PHYSICS_STATE_INT */

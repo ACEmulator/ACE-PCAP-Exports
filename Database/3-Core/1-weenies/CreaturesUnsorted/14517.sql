@@ -19,8 +19,8 @@ VALUES (14517, 8, 100672514) /* ICON_DID */
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14517, 1, 16) /* ITEM_TYPE_INT */
-     , (14517, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (14517, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (14517, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (14517, 6, -1) /* ITEMS_CAPACITY_INT */
      , (14517, 133, 2) /* SHOWABLE_ON_RADAR_INT */
      , (14517, 16, 1) /* ITEM_USEABLE_INT */
      , (14517, 93, 3080) /* PHYSICS_STATE_INT */

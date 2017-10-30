@@ -20,8 +20,8 @@ VALUES (31329, 8, 100687947) /* ICON_DID */
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31329, 1, 16) /* ITEM_TYPE_INT */
      , (31329, 95, 3) /* RADARBLIP_COLOR_INT */
-     , (31329, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (31329, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (31329, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (31329, 6, -1) /* ITEMS_CAPACITY_INT */
      , (31329, 16, 32) /* ITEM_USEABLE_INT */
      , (31329, 93, 6292504) /* PHYSICS_STATE_INT */
      , (31329, 9007, 10) /* Creature_WeenieType */;
