@@ -19,7 +19,7 @@ INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `proper
 VALUES (11697, 1, 512) /* ITEM_TYPE_INT */
      , (11697, 5, 5) /* ENCUMB_VAL_INT */
      , (11697, 151, 1) /* HOOK_TYPE_INT */
-     , (11697, 152, 4294967295) /* HOOK_ITEM_TYPE_INT */
+     , (11697, 152, -1) /* HOOK_ITEM_TYPE_INT */
      , (11697, 6, 1) /* ITEMS_CAPACITY_INT */
      , (11697, 16, 48) /* ITEM_USEABLE_INT */
      , (11697, 19, 10) /* VALUE_INT */
