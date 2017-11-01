@@ -21,8 +21,8 @@ VALUES (36796, 8, 100667446) /* ICON_DID */
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36796, 1, 16) /* ITEM_TYPE_INT */
      , (36796, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (36796, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (36796, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (36796, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (36796, 6, -1) /* ITEMS_CAPACITY_INT */
      , (36796, 133, 4) /* SHOWABLE_ON_RADAR_INT */
      , (36796, 16, 1) /* ITEM_USEABLE_INT */
      , (36796, 93, 2098196) /* PHYSICS_STATE_INT */

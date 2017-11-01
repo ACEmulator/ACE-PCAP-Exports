@@ -20,8 +20,8 @@ VALUES (41804, 8, 100667504) /* ICON_DID */
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41804, 1, 16) /* ITEM_TYPE_INT */
      , (41804, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (41804, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (41804, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (41804, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (41804, 6, -1) /* ITEMS_CAPACITY_INT */
      , (41804, 133, 4) /* SHOWABLE_ON_RADAR_INT */
      , (41804, 16, 32) /* ITEM_USEABLE_INT */
      , (41804, 93, 6292492) /* PHYSICS_STATE_INT */
@@ -87,7 +87,7 @@ VALUES (41804, 384, 0) /*  */
      , (41804, 267, 300) /* LIFESPAN_INT */
      , (41804, 315, 0) /* CRIT_RESIST_RATING_INT */
      , (41804, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (41804, 268, 4294967289) /* REMAINING_LIFESPAN_INT */
+     , (41804, 268, -7) /* REMAINING_LIFESPAN_INT */
      , (41804, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
      , (41804, 381, 0) /*  */
      , (41804, 382, 0) /*  */

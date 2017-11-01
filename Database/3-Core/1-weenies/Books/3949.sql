@@ -38,7 +38,7 @@ VALUES (3949, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3949, 33, 4294967295) /* BONDED_INT */
+VALUES (3949, 33, -1) /* BONDED_INT */
      , (3949, 19, 25) /* VALUE_INT */
      , (3949, 5, 25) /* ENCUMB_VAL_INT */
      , (3949, 174, 1) /* APPRAISAL_PAGES_INT */

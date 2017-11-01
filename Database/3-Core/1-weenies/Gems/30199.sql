@@ -52,7 +52,7 @@ VALUES (30199, 16, 'Using this gem will increase your Finesse Weapon skill by 25
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30199, 17, 17) /* RARE_ID_INT */
-     , (30199, 33, 4294967295) /* BONDED_INT */
+     , (30199, 33, -1) /* BONDED_INT */
      , (30199, 19, 0) /* VALUE_INT */
      , (30199, 5, 5) /* ENCUMB_VAL_INT */
      , (30199, 106, 325) /* ITEM_SPELLCRAFT_INT */

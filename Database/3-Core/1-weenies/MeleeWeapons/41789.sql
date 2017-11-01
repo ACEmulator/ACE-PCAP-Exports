@@ -56,7 +56,7 @@ VALUES (41789, 15, 'A two handed sword imbued with Singularity energy.') /* SHOR
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41789, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (41789, 33, 4294967294) /* BONDED_INT */
+     , (41789, 33, -2) /* BONDED_INT */
      , (41789, 353, 11) /* WEAPON_TYPE_INT */
      , (41789, 114, 1) /* ATTUNED_INT */
      , (41789, 19, 0) /* VALUE_INT */

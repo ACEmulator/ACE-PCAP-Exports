@@ -19,8 +19,8 @@ VALUES (46303, 8, 100676956) /* ICON_DID */
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46303, 1, 16) /* ITEM_TYPE_INT */
-     , (46303, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (46303, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (46303, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (46303, 6, -1) /* ITEMS_CAPACITY_INT */
      , (46303, 16, 1) /* ITEM_USEABLE_INT */
      , (46303, 93, 66568) /* PHYSICS_STATE_INT */
      , (46303, 9007, 10) /* Creature_WeenieType */;

@@ -60,7 +60,7 @@ VALUES (35550, 55, 2078) /* PROC_SPELL_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35550, 353, 7) /* WEAPON_TYPE_INT */
-     , (35550, 33, 4294967295) /* BONDED_INT */
+     , (35550, 33, -1) /* BONDED_INT */
      , (35550, 114, 0) /* ATTUNED_INT */
      , (35550, 98, 1485043308) /* CREATION_TIMESTAMP_INT */
      , (35550, 19, 0) /* VALUE_INT */

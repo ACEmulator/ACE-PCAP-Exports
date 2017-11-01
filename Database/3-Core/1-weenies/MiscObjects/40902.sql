@@ -19,8 +19,8 @@ VALUES (40902, 8, 100686422) /* ICON_DID */
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (40902, 1, 128) /* ITEM_TYPE_INT */
      , (40902, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (40902, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (40902, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (40902, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (40902, 6, -1) /* ITEMS_CAPACITY_INT */
      , (40902, 16, 32) /* ITEM_USEABLE_INT */
      , (40902, 93, 6292508) /* PHYSICS_STATE_INT */
      , (40902, 9007, 1) /* Generic_WeenieType */;

@@ -15,7 +15,7 @@ VALUES (14341, 8, 100673558) /* ICON_DID */
      , (14341, 1, 33558037) /* SETUP_DID */;
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14341, 1, 2147483648) /* ITEM_TYPE_INT */
+VALUES (14341, 1, -2147483648) /* ITEM_TYPE_INT */
      , (14341, 93, 1040) /* PHYSICS_STATE_INT */
      , (14341, 9007, 60) /* Game_WeenieType */;
 

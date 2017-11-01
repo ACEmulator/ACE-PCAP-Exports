@@ -55,7 +55,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30197, 16, 'Using this gem will increase your Creature Enchantment skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30197, 33, 4294967295) /* BONDED_INT */
+VALUES (30197, 33, -1) /* BONDED_INT */
      , (30197, 17, 15) /* RARE_ID_INT */
      , (30197, 19, 0) /* VALUE_INT */
      , (30197, 5, 10) /* ENCUMB_VAL_INT */

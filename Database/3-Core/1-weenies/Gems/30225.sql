@@ -55,7 +55,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30225, 16, 'Using this gem will increase your Magic Item Tinkering skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30225, 33, 4294967295) /* BONDED_INT */
+VALUES (30225, 33, -1) /* BONDED_INT */
      , (30225, 17, 30) /* RARE_ID_INT */
      , (30225, 19, 0) /* VALUE_INT */
      , (30225, 5, 5) /* ENCUMB_VAL_INT */

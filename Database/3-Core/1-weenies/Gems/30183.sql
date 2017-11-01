@@ -55,7 +55,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30183, 16, 'Using this gem will increase your Alchemy skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30183, 33, 4294967295) /* BONDED_INT */
+VALUES (30183, 33, -1) /* BONDED_INT */
      , (30183, 17, 7) /* RARE_ID_INT */
      , (30183, 19, 0) /* VALUE_INT */
      , (30183, 5, 5) /* ENCUMB_VAL_INT */

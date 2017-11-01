@@ -58,7 +58,7 @@ VALUES (36387, 16, 'A powerful but unstable weapon made from congealed Portal En
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36387, 160, 120) /* WIELD_DIFFICULTY_INT */
      , (36387, 353, 2) /* WEAPON_TYPE_INT */
-     , (36387, 33, 4294967295) /* BONDED_INT */
+     , (36387, 33, -1) /* BONDED_INT */
      , (36387, 114, 0) /* ATTUNED_INT */
      , (36387, 98, 1485830497) /* CREATION_TIMESTAMP_INT */
      , (36387, 19, 0) /* VALUE_INT */

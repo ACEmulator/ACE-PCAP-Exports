@@ -3,10 +3,10 @@ USE `ace_world`;
 /* Missing Lifestone location data provided by Miach */
 
 /* 0111 */ 
- 
+ /*
 INSERT INTO `ace_landblock` (`weenieClassId`, `preassignedGuid`, `landblockRaw`, `posX`, `posY`, `posZ`, `qW`, `qX`, `qY`, `qZ`)
 VALUES (509, 1880166413, 17891593, 6.3421, -20.8759, 0, 0.015485, 0, 0, -0.9998801);
-
+*/
  
 /* 0F87 */ 
  

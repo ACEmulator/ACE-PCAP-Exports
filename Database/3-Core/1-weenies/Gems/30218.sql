@@ -56,7 +56,7 @@ VALUES (30218, 16, 'Using this gem will increase your Life Magic skill by 250 fo
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30218, 17, 25) /* RARE_ID_INT */
-     , (30218, 33, 4294967295) /* BONDED_INT */
+     , (30218, 33, -1) /* BONDED_INT */
      , (30218, 19, 0) /* VALUE_INT */
      , (30218, 5, 5) /* ENCUMB_VAL_INT */
      , (30218, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */

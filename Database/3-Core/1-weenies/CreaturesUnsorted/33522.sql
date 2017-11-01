@@ -21,8 +21,8 @@ VALUES (33522, 8, 100669122) /* ICON_DID */
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33522, 1, 16) /* ITEM_TYPE_INT */
-     , (33522, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (33522, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (33522, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (33522, 6, -1) /* ITEMS_CAPACITY_INT */
      , (33522, 16, 1) /* ITEM_USEABLE_INT */
      , (33522, 93, 2098196) /* PHYSICS_STATE_INT */
      , (33522, 9007, 10) /* Creature_WeenieType */;

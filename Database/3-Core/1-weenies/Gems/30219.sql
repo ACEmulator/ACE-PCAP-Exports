@@ -57,7 +57,7 @@ VALUES (30219, 16, 'Using this gem will increase the resistance to Lightning dam
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30219, 17, 65) /* RARE_ID_INT */
-     , (30219, 33, 4294967295) /* BONDED_INT */
+     , (30219, 33, -1) /* BONDED_INT */
      , (30219, 19, 0) /* VALUE_INT */
      , (30219, 5, 5) /* ENCUMB_VAL_INT */
      , (30219, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */

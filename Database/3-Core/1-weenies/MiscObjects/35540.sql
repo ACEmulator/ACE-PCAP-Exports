@@ -54,7 +54,7 @@ VALUES (35540, 16, 'A gem, seemingly made of congealed portal energy.  You know 
      , (35540, 14, 'Use this gem to summon the weapon it is bound to.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35540, 33, 4294967295) /* BONDED_INT */
+VALUES (35540, 33, -1) /* BONDED_INT */
      , (35540, 114, 0) /* ATTUNED_INT */
      , (35540, 19, 1) /* VALUE_INT */
      , (35540, 5, 10) /* ENCUMB_VAL_INT */;

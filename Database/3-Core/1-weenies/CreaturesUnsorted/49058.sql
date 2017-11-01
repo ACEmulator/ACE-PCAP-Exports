@@ -21,8 +21,8 @@ VALUES (49058, 8, 100670960) /* ICON_DID */
 
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49058, 1, 16) /* ITEM_TYPE_INT */
-     , (49058, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (49058, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (49058, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (49058, 6, -1) /* ITEMS_CAPACITY_INT */
      , (49058, 133, 1) /* SHOWABLE_ON_RADAR_INT */
      , (49058, 16, 1) /* ITEM_USEABLE_INT */
      , (49058, 93, 1036) /* PHYSICS_STATE_INT */

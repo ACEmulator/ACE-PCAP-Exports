@@ -49,13 +49,13 @@ VALUES (38937, 0, 16792135);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38937, 353, 4) /* WEAPON_TYPE_INT */
-     , (38937, 33, 4294967294) /* BONDED_INT */
+     , (38937, 33, -2) /* BONDED_INT */
      , (38937, 5, 50) /* ENCUMB_VAL_INT */
      , (38937, 47, 4) /* ATTACK_TYPE_INT */
      , (38937, 45, 0) /* DAMAGE_TYPE_INT */
-     , (38937, 49, 4294967295) /* WEAPON_TIME_INT */
+     , (38937, 49, -1) /* WEAPON_TIME_INT */
      , (38937, 48, 44) /* WEAPON_SKILL_INT */
-     , (38937, 44, 4294967295) /* DAMAGE_INT */;
+     , (38937, 44, -1) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (38937, 29, 1) /* WEAPON_DEFENSE_FLOAT */

@@ -19,8 +19,8 @@ VALUES (35870, 8, 100667446) /* ICON_DID */
 INSERT INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35870, 1, 16) /* ITEM_TYPE_INT */
      , (35870, 95, 8) /* RADARBLIP_COLOR_INT */
-     , (35870, 7, 255) /* CONTAINERS_CAPACITY_INT */
-     , (35870, 6, 255) /* ITEMS_CAPACITY_INT */
+     , (35870, 7, -1) /* CONTAINERS_CAPACITY_INT */
+     , (35870, 6, -1) /* ITEMS_CAPACITY_INT */
      , (35870, 133, 4) /* SHOWABLE_ON_RADAR_INT */
      , (35870, 16, 32) /* ITEM_USEABLE_INT */
      , (35870, 93, 2098200) /* PHYSICS_STATE_INT */
@@ -114,7 +114,7 @@ VALUES (35870, 384, 0) /*  */
      , (35870, 47, 6) /* ATTACK_TYPE_INT */
      , (35870, 383, 0) /*  */
      , (35870, 45, 3) /* DAMAGE_TYPE_INT */
-     , (35870, 49, 4294967295) /* WEAPON_TIME_INT */
+     , (35870, 49, -1) /* WEAPON_TIME_INT */
      , (35870, 48, 44) /* WEAPON_SKILL_INT */
      , (35870, 44, 0) /* DAMAGE_INT */;
 

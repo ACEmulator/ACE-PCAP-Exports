@@ -48,7 +48,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (35943, 16, 'An infusion, created by Jilna Fullgood, for the Tusker King, Oolutanga.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35943, 33, 4294967294) /* BONDED_INT */
+VALUES (35943, 33, -2) /* BONDED_INT */
      , (35943, 114, 1) /* ATTUNED_INT */
      , (35943, 19, 0) /* VALUE_INT */
      , (35943, 5, 250) /* ENCUMB_VAL_INT */;
