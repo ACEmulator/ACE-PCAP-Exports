@@ -65,8 +65,8 @@ VALUES (27092, 160, 40) /* WIELD_DIFFICULTY_INT */
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (27092, 144, 0.06) /* MANA_CONVERSION_MOD_FLOAT */
-     , (27092, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (27092, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */;
+     , (27092, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (27092, 5, -0.033) /* MANA_RATE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (27092, 69, 0) /* IS_SELLABLE_BOOL */;

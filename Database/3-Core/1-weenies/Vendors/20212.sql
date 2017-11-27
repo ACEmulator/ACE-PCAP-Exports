@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (20212, 5, 'Master Archmage') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (20212, 16, 67110062) /* EYES_PALETTE_DID */
-     , (20212, 9, 83890278) /* EYES_TEXTURE_DID */
+VALUES (20212, 16, 67110063) /* EYES_PALETTE_DID */
+     , (20212, 9, 83890276) /* EYES_TEXTURE_DID */
      , (20212, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (20212, 10, 83890295) /* NOSE_TEXTURE_DID */
-     , (20212, 11, 83890358) /* MOUTH_TEXTURE_DID */
-     , (20212, 15, 67116981) /* HAIR_PALETTE_DID */;
+     , (20212, 10, 83890308) /* NOSE_TEXTURE_DID */
+     , (20212, 11, 83890349) /* MOUTH_TEXTURE_DID */
+     , (20212, 15, 67117077) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20212, 113, 2) /* GENDER_INT */
@@ -104,8 +104,18 @@ VALUES (20212, 113, 2) /* GENDER_INT */
      , (20212, 25, 14) /* LEVEL_INT */
      , (20212, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (20212, 1, 90) /* STRENGTH_ATTRIBUTE */
+     , (20212, 2, 80) /* ENDURANCE_ATTRIBUTE */
+     , (20212, 4, 75) /* COORDINATION_ATTRIBUTE */
+     , (20212, 8, 90) /* QUICKNESS_ATTRIBUTE */
+     , (20212, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (20212, 32, 85) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (20212, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (20212, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (20212, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (20212, 256, 215) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 

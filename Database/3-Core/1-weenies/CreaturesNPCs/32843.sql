@@ -113,11 +113,11 @@ VALUES (32843, 5, 'Spymaster') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (32843, 16, 67110065) /* EYES_PALETTE_DID */
-     , (32843, 9, 83890482) /* EYES_TEXTURE_DID */
-     , (32843, 17, 67115905) /* SKIN_PALETTE_DID */
-     , (32843, 10, 83890558) /* NOSE_TEXTURE_DID */
-     , (32843, 11, 83890635) /* MOUTH_TEXTURE_DID */
-     , (32843, 15, 67117028) /* HAIR_PALETTE_DID */;
+     , (32843, 9, 83890515) /* EYES_TEXTURE_DID */
+     , (32843, 17, 67115908) /* SKIN_PALETTE_DID */
+     , (32843, 10, 83890546) /* NOSE_TEXTURE_DID */
+     , (32843, 11, 83890566) /* MOUTH_TEXTURE_DID */
+     , (32843, 15, 67117071) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32843, 113, 1) /* GENDER_INT */

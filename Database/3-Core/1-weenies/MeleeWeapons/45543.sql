@@ -53,8 +53,8 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (45543, 15, 'An enhanced budiaq crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45543, 33, 1) /* BONDED_INT */
-     , (45543, 353, 5) /* WEAPON_TYPE_INT */
+VALUES (45543, 353, 5) /* WEAPON_TYPE_INT */
+     , (45543, 33, 1) /* BONDED_INT */
      , (45543, 19, 200) /* VALUE_INT */
      , (45543, 5, 150) /* ENCUMB_VAL_INT */
      , (45543, 47, 2) /* ATTACK_TYPE_INT */

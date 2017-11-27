@@ -90,23 +90,9 @@ VALUES (20918, 11, 16777302)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20918, 5, 'Farmer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (20918, 16, 67109567) /* EYES_PALETTE_DID */
-     , (20918, 9, 83890483) /* EYES_TEXTURE_DID */
-     , (20918, 17, 67109553) /* SKIN_PALETTE_DID */
-     , (20918, 10, 83890531) /* NOSE_TEXTURE_DID */
-     , (20918, 11, 83890616) /* MOUTH_TEXTURE_DID */
-     , (20918, 15, 67117016) /* HAIR_PALETTE_DID */;
+VALUES (20918, 16, 'Killed by Callaway.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20918, 113, 1) /* GENDER_INT */
-     , (20918, 2, 31) /* CREATURE_TYPE_INT */
-     , (20918, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (20918, 25, 16) /* LEVEL_INT */
-     , (20918, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (20918, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (20918, 19, 0) /* VALUE_INT */
+     , (20918, 5, 6505) /* ENCUMB_VAL_INT */;
 

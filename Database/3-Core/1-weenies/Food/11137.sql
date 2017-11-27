@@ -35,6 +35,26 @@ VALUES (11137, 13, True) /* ETHEREAL_BOOL */
      , (11137, 14, True) /* GRAVITY_STATUS_BOOL */
      , (11137, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11137, 16, 'A hard-boiled Olthoi Egg.') /* LONG_DESC_STRING */
+     , (11137, 14, 'Use this item to eat it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11137, 19, 2500) /* VALUE_INT */
+     , (11137, 5, 25) /* ENCUMB_VAL_INT */
+     , (11137, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (11137, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (11137, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (11137, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11137, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (11137, 2435) /* LightningWard_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

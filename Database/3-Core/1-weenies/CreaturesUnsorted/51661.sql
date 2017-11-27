@@ -45,12 +45,12 @@ VALUES (51661, 67116865, 0, 24)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (51661, 16, 67116875) /* EYES_PALETTE_DID */
+VALUES (51661, 16, 67116885) /* EYES_PALETTE_DID */
      , (51661, 9, 83891927) /* EYES_TEXTURE_DID */
-     , (51661, 17, 67116875) /* SKIN_PALETTE_DID */
+     , (51661, 17, 67116921) /* SKIN_PALETTE_DID */
      , (51661, 10, 83891927) /* NOSE_TEXTURE_DID */
      , (51661, 11, 83891927) /* MOUTH_TEXTURE_DID */
-     , (51661, 15, 67116892) /* HAIR_PALETTE_DID */;
+     , (51661, 15, 67116867) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51661, 113, 1) /* GENDER_INT */

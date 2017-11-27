@@ -50,7 +50,7 @@ VALUES (166, 14, 'Use this item to close it.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (166, 19, 65) /* VALUE_INT */
-     , (166, 5, 15) /* ENCUMB_VAL_INT */;
+     , (166, 5, 125) /* ENCUMB_VAL_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (166, 2, 1) /* OPEN_BOOL */;

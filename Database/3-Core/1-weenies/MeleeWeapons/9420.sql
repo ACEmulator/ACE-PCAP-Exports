@@ -36,3 +36,26 @@ VALUES (9420, 13, True) /* ETHEREAL_BOOL */
      , (9420, 19, True) /* ATTACKABLE_BOOL */
      , (9420, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9420, 16, 'A Large Dread Mattekar Claw, fitted for human use, its claws are a deep red.  When you clench your hand, the claws light with a crimson flame.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9420, 353, 1) /* WEAPON_TYPE_INT */
+     , (9420, 19, 1100) /* VALUE_INT */
+     , (9420, 5, 250) /* ENCUMB_VAL_INT */
+     , (9420, 47, 1) /* ATTACK_TYPE_INT */
+     , (9420, 45, 17) /* DAMAGE_TYPE_INT */
+     , (9420, 49, 25) /* WEAPON_TIME_INT */
+     , (9420, 48, 44) /* WEAPON_SKILL_INT */
+     , (9420, 44, 18) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9420, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (9420, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
+     , (9420, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (9420, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (9420, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (9420, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */;
+

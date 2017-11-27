@@ -92,11 +92,11 @@ VALUES (14921, 5, 'Marriage Facilitator') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (14921, 16, 67109567) /* EYES_PALETTE_DID */
-     , (14921, 9, 83890483) /* EYES_TEXTURE_DID */
-     , (14921, 17, 67109556) /* SKIN_PALETTE_DID */
-     , (14921, 10, 83890534) /* NOSE_TEXTURE_DID */
-     , (14921, 11, 83890575) /* MOUTH_TEXTURE_DID */
-     , (14921, 15, 67116997) /* HAIR_PALETTE_DID */;
+     , (14921, 9, 83890456) /* EYES_TEXTURE_DID */
+     , (14921, 17, 67109551) /* SKIN_PALETTE_DID */
+     , (14921, 10, 83890559) /* NOSE_TEXTURE_DID */
+     , (14921, 11, 83890658) /* MOUTH_TEXTURE_DID */
+     , (14921, 15, 67117027) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14921, 113, 1) /* GENDER_INT */

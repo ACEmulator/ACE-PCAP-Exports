@@ -51,3 +51,46 @@ VALUES (22444, 0, 83886739, 83886739)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22444, 0, 16788591);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22444, 16, 'Frost Dirk of Swiftkiller') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22444, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (22444, 160, 420) /* WIELD_DIFFICULTY_INT */
+     , (22444, 353, 6) /* WEAPON_TYPE_INT */
+     , (22444, 177, 2) /* GEM_COUNT_INT */
+     , (22444, 178, 20) /* GEM_TYPE_INT */
+     , (22444, 19, 24892) /* VALUE_INT */
+     , (22444, 131, 21) /* MATERIAL_TYPE_INT */
+     , (22444, 115, 390) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (22444, 5, 95) /* ENCUMB_VAL_INT */
+     , (22444, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (22444, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (22444, 108, 934) /* ITEM_MAX_MANA_INT */
+     , (22444, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (22444, 109, 112) /* ITEM_DIFFICULTY_INT */
+     , (22444, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (22444, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (22444, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (22444, 47, 6) /* ATTACK_TYPE_INT */
+     , (22444, 45, 8) /* DAMAGE_TYPE_INT */
+     , (22444, 49, 30) /* WEAPON_TIME_INT */
+     , (22444, 48, 44) /* WEAPON_SKILL_INT */
+     , (22444, 44, 64) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22444, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (22444, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (22444, 22, 0.53) /* DAMAGE_VARIANCE_FLOAT */
+     , (22444, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (22444, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (22444, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (22444, 62, 1.17) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (22444, 2116) /* Swiftkiller7_SpellID */
+     , (22444, 4395) /* Blooddrinker8_SpellID */
+     , (22444, 6072) /* CantripSwordAptitude4_SpellID */;
+

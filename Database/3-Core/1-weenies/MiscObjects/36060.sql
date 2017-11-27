@@ -32,3 +32,24 @@ VALUES (36060, 13, True) /* ETHEREAL_BOOL */
      , (36060, 19, True) /* ATTACKABLE_BOOL */
      , (36060, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36060, 16, 'Gem of Willpower') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36060, 19, 2206) /* VALUE_INT */
+     , (36060, 131, 29) /* MATERIAL_TYPE_INT */
+     , (36060, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (36060, 5, 5) /* ENCUMB_VAL_INT */
+     , (36060, 117, 250) /* ITEM_MANA_COST_INT */
+     , (36060, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (36060, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (36060, 108, 389) /* ITEM_MAX_MANA_INT */
+     , (36060, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (36060, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (36060, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (36060, 1448) /* WillpowerSelf4_SpellID */;
+

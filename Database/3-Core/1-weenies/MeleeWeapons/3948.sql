@@ -49,3 +49,24 @@ VALUES (3948, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3948, 0, 16777932);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3948, 353, 4) /* WEAPON_TYPE_INT */
+     , (3948, 33, -2) /* BONDED_INT */
+     , (3948, 19, 770) /* VALUE_INT */
+     , (3948, 5, 1380) /* ENCUMB_VAL_INT */
+     , (3948, 47, 4) /* ATTACK_TYPE_INT */
+     , (3948, 45, 4) /* DAMAGE_TYPE_INT */
+     , (3948, 49, 70) /* WEAPON_TIME_INT */
+     , (3948, 48, 44) /* WEAPON_SKILL_INT */
+     , (3948, 44, 10) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3948, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (3948, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (3948, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3948, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3948, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3948, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

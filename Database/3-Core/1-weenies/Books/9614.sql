@@ -45,3 +45,29 @@ VALUES (9614, 19, 1) /* VALUE_INT */
      , (9614, 174, 1) /* APPRAISAL_PAGES_INT */
      , (9614, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9614, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (9614, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (9614, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (9614, 0, 'Cragstone Farms', 'prewritten', 4294967295, 0, '     Cragstone Farms Purchasing Form
+-----------------------------------------------------------
+Item                                            Amount   Cost
+-----------------------------------------------------------
+Rabbit Kebabs                               100        15
+Kegs of Rabbit Noodle Soup          5        10
+Rabbit Pies                                       18        12
+
+------------------------------------------
+                           Sub Total: 1766
+------------------------------------------
+                  Shipping Total:  100
+------------------------------------------
+                        Grand Total: 1866
+');
+

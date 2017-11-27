@@ -97,11 +97,11 @@ VALUES (14460, 5, 'Guard') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (14460, 16, 67110062) /* EYES_PALETTE_DID */
-     , (14460, 9, 83890446) /* EYES_TEXTURE_DID */
-     , (14460, 17, 67110056) /* SKIN_PALETTE_DID */
-     , (14460, 10, 83890528) /* NOSE_TEXTURE_DID */
+     , (14460, 9, 83890457) /* EYES_TEXTURE_DID */
+     , (14460, 17, 67110059) /* SKIN_PALETTE_DID */
+     , (14460, 10, 83890548) /* NOSE_TEXTURE_DID */
      , (14460, 11, 83890634) /* MOUTH_TEXTURE_DID */
-     , (14460, 15, 67116999) /* HAIR_PALETTE_DID */;
+     , (14460, 15, 67116992) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14460, 113, 1) /* GENDER_INT */

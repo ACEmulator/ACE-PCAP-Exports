@@ -48,8 +48,8 @@ VALUES (27821, 15, 'A bow imbued with Singularity energy.') /* SHORT_DESC_STRING
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27821, 160, 290) /* WIELD_DIFFICULTY_INT */
-     , (27821, 353, 8) /* WEAPON_TYPE_INT */
      , (27821, 33, 1) /* BONDED_INT */
+     , (27821, 353, 8) /* WEAPON_TYPE_INT */
      , (27821, 114, 1) /* ATTUNED_INT */
      , (27821, 19, 0) /* VALUE_INT */
      , (27821, 5, 980) /* ENCUMB_VAL_INT */
@@ -62,13 +62,13 @@ VALUES (27821, 160, 290) /* WIELD_DIFFICULTY_INT */
      , (27821, 45, 0) /* DAMAGE_TYPE_INT */
      , (27821, 49, 50) /* WEAPON_TIME_INT */
      , (27821, 48, 47) /* WEAPON_SKILL_INT */
-     , (27821, 44, 32) /* DAMAGE_INT */;
+     , (27821, 44, 12) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (27821, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
      , (27821, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (27821, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
      , (27821, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (27821, 29, 1.25) /* WEAPON_DEFENSE_FLOAT */
      , (27821, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
      , (27821, 63, 2.25) /* DAMAGE_MOD_FLOAT */
      , (27821, 21, 0) /* WEAPON_LENGTH_FLOAT */

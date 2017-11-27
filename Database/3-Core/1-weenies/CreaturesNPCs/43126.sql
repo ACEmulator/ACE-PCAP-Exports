@@ -98,9 +98,9 @@ REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `prope
 VALUES (43126, 16, 67109565) /* EYES_PALETTE_DID */
      , (43126, 9, 83890244) /* EYES_TEXTURE_DID */
      , (43126, 17, 67110045) /* SKIN_PALETTE_DID */
-     , (43126, 10, 83890290) /* NOSE_TEXTURE_DID */
-     , (43126, 11, 83890318) /* MOUTH_TEXTURE_DID */
-     , (43126, 15, 67117024) /* HAIR_PALETTE_DID */;
+     , (43126, 10, 83890297) /* NOSE_TEXTURE_DID */
+     , (43126, 11, 83890349) /* MOUTH_TEXTURE_DID */
+     , (43126, 15, 67117002) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43126, 113, 2) /* GENDER_INT */

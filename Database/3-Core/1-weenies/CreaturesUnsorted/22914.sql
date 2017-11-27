@@ -38,10 +38,31 @@ VALUES (22914, 67114253, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22914, 2, 19) /* CREATURE_TYPE_INT */
-     , (22914, 25, 100) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22914, 16, 'Ring of Endurance') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22914, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22914, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (22914, 177, 1) /* GEM_COUNT_INT */
+     , (22914, 178, 16) /* GEM_TYPE_INT */
+     , (22914, 19, 13122) /* VALUE_INT */
+     , (22914, 131, 51) /* MATERIAL_TYPE_INT */
+     , (22914, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (22914, 5, 30) /* ENCUMB_VAL_INT */
+     , (22914, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (22914, 106, 319) /* ITEM_SPELLCRAFT_INT */
+     , (22914, 379, 1) /* GEAR_MAX_HEALTH_INT */
+     , (22914, 108, 1525) /* ITEM_MAX_MANA_INT */
+     , (22914, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (22914, 109, 331) /* ITEM_DIFFICULTY_INT */
+     , (22914, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (22914, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (22914, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22914, 5, -0.05555556) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (22914, 2061) /* EnduranceSelf7_SpellID */
+     , (22914, 2517) /* CANTRIPITEMEXPERTISE2_SpellID */;
 

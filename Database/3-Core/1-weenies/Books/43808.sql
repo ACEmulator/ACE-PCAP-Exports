@@ -34,3 +34,19 @@ VALUES (43808, 13, True) /* ETHEREAL_BOOL */
      , (43808, 19, True) /* ATTACKABLE_BOOL */
      , (43808, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43808, 16, 'A carefully rolled scroll, covered in meticulously written Dericostian script.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43808, 33, 1) /* BONDED_INT */
+     , (43808, 114, 1) /* ATTUNED_INT */
+     , (43808, 19, 0) /* VALUE_INT */
+     , (43808, 5, 100) /* ENCUMB_VAL_INT */
+     , (43808, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (43808, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43808, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -41,12 +41,45 @@ VALUES (46412, 67111665, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46412, 2, 14) /* CREATURE_TYPE_INT */
-     , (46412, 25, 240) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46412, 16, 'Haebrean Breastplate') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46412, 64, 3400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46412, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (46412, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (46412, 177, 3) /* GEM_COUNT_INT */
+     , (46412, 178, 21) /* GEM_TYPE_INT */
+     , (46412, 19, 23428) /* VALUE_INT */
+     , (46412, 131, 60) /* MATERIAL_TYPE_INT */
+     , (46412, 115, 204) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (46412, 5, 1821) /* ENCUMB_VAL_INT */
+     , (46412, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (46412, 106, 272) /* ITEM_SPELLCRAFT_INT */
+     , (46412, 28, 277) /* ARMOR_LEVEL_INT */
+     , (46412, 108, 911) /* ITEM_MAX_MANA_INT */
+     , (46412, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (46412, 109, 141) /* ITEM_DIFFICULTY_INT */
+     , (46412, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (46412, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (46412, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46412, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (46412, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (46412, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (46412, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (46412, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (46412, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (46412, 18, 1.010814) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (46412, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (46412, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46412, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46412, 4912) /* CANTRIPWEAPONEXPERTISE3_SpellID */
+     , (46412, 2108) /* Impenetrability7_SpellID */;
 
 /* Corpse Treasure List */
 

@@ -35,3 +35,17 @@ VALUES (6000, 13, True) /* ETHEREAL_BOOL */
      , (6000, 19, True) /* ATTACKABLE_BOOL */
      , (6000, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6000, 16, 'Inscribed spell: Flame Bolt IV
+Shoots a bolt of flame at the target.  The bolt does 52-105 points of fire damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (6000, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6000, 19, 100) /* VALUE_INT */
+     , (6000, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (6000, 83) /* FlameBolt4_SpellID */;
+

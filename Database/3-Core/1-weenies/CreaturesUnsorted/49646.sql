@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (49646, 5, 'Armorer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (49646, 16, 67110063) /* EYES_PALETTE_DID */
-     , (49646, 9, 83890262) /* EYES_TEXTURE_DID */
-     , (49646, 17, 67109555) /* SKIN_PALETTE_DID */
-     , (49646, 10, 83890297) /* NOSE_TEXTURE_DID */
-     , (49646, 11, 83890341) /* MOUTH_TEXTURE_DID */
-     , (49646, 15, 67117077) /* HAIR_PALETTE_DID */;
+VALUES (49646, 16, 67109567) /* EYES_PALETTE_DID */
+     , (49646, 9, 83890264) /* EYES_TEXTURE_DID */
+     , (49646, 17, 67109551) /* SKIN_PALETTE_DID */
+     , (49646, 10, 83890286) /* NOSE_TEXTURE_DID */
+     , (49646, 11, 83890344) /* MOUTH_TEXTURE_DID */
+     , (49646, 15, 67117026) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49646, 113, 2) /* GENDER_INT */

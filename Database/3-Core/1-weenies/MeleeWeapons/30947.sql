@@ -47,3 +47,39 @@ VALUES (30947, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30947, 0, 16777993);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30947, 16, 'Flagon of Item Tinkering') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30947, 353, 10) /* WEAPON_TYPE_INT */
+     , (30947, 177, 5) /* GEM_COUNT_INT */
+     , (30947, 178, 34) /* GEM_TYPE_INT */
+     , (30947, 19, 5599) /* VALUE_INT */
+     , (30947, 131, 68) /* MATERIAL_TYPE_INT */
+     , (30947, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30947, 5, 40) /* ENCUMB_VAL_INT */
+     , (30947, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (30947, 106, 247) /* ITEM_SPELLCRAFT_INT */
+     , (30947, 108, 817) /* ITEM_MAX_MANA_INT */
+     , (30947, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30947, 109, 247) /* ITEM_DIFFICULTY_INT */
+     , (30947, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30947, 45, 4) /* DAMAGE_TYPE_INT */
+     , (30947, 49, 10) /* WEAPON_TIME_INT */
+     , (30947, 48, 47) /* WEAPON_SKILL_INT */
+     , (30947, 44, 12) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30947, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (30947, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (30947, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (30947, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30947, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30947, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30947, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30947, 731) /* ItemExpertiseSelf6_SpellID */;
+

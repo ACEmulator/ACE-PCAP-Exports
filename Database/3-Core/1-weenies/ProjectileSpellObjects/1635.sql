@@ -37,3 +37,17 @@ VALUES (1635, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1635, 1, True) /* STUCK_BOOL */
      , (1635, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1635, 16, 'Killed by Rainwolf.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1635, 19, 0) /* VALUE_INT */
+     , (1635, 5, 6000) /* ENCUMB_VAL_INT */;
+
+/* Object Wield List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1635, 2, 33459) /* Shadow Bolt */;
+

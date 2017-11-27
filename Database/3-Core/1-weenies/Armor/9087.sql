@@ -48,3 +48,45 @@ VALUES (9087, 0, 83889072, 83893044)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9087, 0, 16778376);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9087, 16, 'A heavily enchanted crystalline girth, of the type once worn into battle by mages of the Yalaini Order of Hieromancers.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9087, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
+     , (9087, 115, 270) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (9087, 19, 2400) /* VALUE_INT */
+     , (9087, 5, 50) /* ENCUMB_VAL_INT */
+     , (9087, 106, 270) /* ITEM_SPELLCRAFT_INT */
+     , (9087, 108, 2000) /* ITEM_MAX_MANA_INT */
+     , (9087, 28, 0) /* ARMOR_LEVEL_INT */
+     , (9087, 109, 50) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9087, 5, -0.125) /* MANA_RATE_FLOAT */
+     , (9087, 13, 0) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (9087, 14, 0) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (9087, 15, 0) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (9087, 16, 0) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (9087, 17, 0) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (9087, 18, 0) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (9087, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (9087, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9087, 69, 0) /* IS_SELLABLE_BOOL */
+     , (9087, 94, 1) /* APPRAISAL_HAS_ALLOWED_ACTIVATOR_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9087, 2381) /* InstrumentalityTouch_SpellID */
+     , (9087, 273) /* MagicResistanceOther6_SpellID */
+     , (9087, 2349) /* HieroWard_SpellID */
+     , (9087, 2350) /* DecayDurance_SpellID */
+     , (9087, 2351) /* ConsumptionDurance_SpellID */
+     , (9087, 2352) /* StasisDurance_SpellID */
+     , (9087, 2353) /* StimulationDurance_SpellID */
+     , (9087, 2354) /* PiercingDuranceLess_SpellID */
+     , (9087, 2355) /* SlashingDuranceLess_SpellID */
+     , (9087, 2356) /* BludgeoningDuranceLess_SpellID */;
+

@@ -34,3 +34,30 @@ VALUES (5029, 13, True) /* ETHEREAL_BOOL */
      , (5029, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5029, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5029, 16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5029, 19, 5) /* VALUE_INT */
+     , (5029, 5, 5) /* ENCUMB_VAL_INT */
+     , (5029, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (5029, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5029, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (5029, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (5029, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (5029, 0, 'Wilomine', 'prewritten', 4294967295, 0, '
+It''s said that the Tumeroks who laid siege to Holtburg in the year 6 used the Cave of Alabree as their base of operations. The cave sits in the lowlands just south of the road that runs west out of town, at 41.8N 32.0E.
+
+Some folks go up there looking for loot that might have been left behind. It''s rumored that one of Brogord''s axes ended up there. The cave is also used by the Explorer Society these days. But beware of the Shreth pack that moved in!
+');
+

@@ -35,3 +35,17 @@ VALUES (46872, 13, True) /* ETHEREAL_BOOL */
      , (46872, 19, True) /* ATTACKABLE_BOOL */
      , (46872, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46872, 16, 'Inscribed spell: Aura of Swift Killer Other IV
+Improves a weapon''s speed by 40 points.') /* LONG_DESC_STRING */
+     , (46872, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46872, 19, 100) /* VALUE_INT */
+     , (46872, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46872, 6027) /* swiftkillerOther4_SpellID */;
+

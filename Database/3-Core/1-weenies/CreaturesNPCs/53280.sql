@@ -60,6 +60,16 @@ VALUES (53280, 113, 2) /* GENDER_INT */
      , (53280, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (53280, 25, 200) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (53280, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (53280, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (53280, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (53280, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (53280, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (53280, 32, 90) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (53280, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (53280, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (53280, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (53280, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -45,3 +45,48 @@ VALUES (27230, 67115062, 250, 6)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27230, 0, 16790022);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27230, 16, 'Nariyid Helm') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27230, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (27230, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (27230, 177, 2) /* GEM_COUNT_INT */
+     , (27230, 178, 33) /* GEM_TYPE_INT */
+     , (27230, 19, 20815) /* VALUE_INT */
+     , (27230, 131, 60) /* MATERIAL_TYPE_INT */
+     , (27230, 115, 209) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (27230, 5, 445) /* ENCUMB_VAL_INT */
+     , (27230, 265, 20) /* EQUIPMENT_SET_ID_INT */
+     , (27230, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (27230, 106, 279) /* ITEM_SPELLCRAFT_INT */
+     , (27230, 28, 299) /* ARMOR_LEVEL_INT */
+     , (27230, 108, 872) /* ITEM_MAX_MANA_INT */
+     , (27230, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (27230, 109, 152) /* ITEM_DIFFICULTY_INT */
+     , (27230, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (27230, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (27230, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27230, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (27230, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (27230, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (27230, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (27230, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (27230, 17, 1.038538) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (27230, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (27230, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (27230, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27230, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27230, 6104) /* CantripEndurance4_SpellID */
+     , (27230, 2092) /* AcidBane7_SpellID */
+     , (27230, 2094) /* BladeBane7_SpellID */
+     , (27230, 2108) /* Impenetrability7_SpellID */;
+

@@ -55,50 +55,44 @@ VALUES (41039, 0, 16794405);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41039, 16, 'Flaming Assagai of Blooddrinker') /* LONG_DESC_STRING */;
+VALUES (41039, 16, 'Flaming Assagai of Swiftkiller') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41039, 160, 430) /* WIELD_DIFFICULTY_INT */
-     , (41039, 176, 41) /* APPRAISAL_ITEM_SKILL_INT */
-     , (41039, 177, 2) /* GEM_COUNT_INT */
+VALUES (41039, 176, 41) /* APPRAISAL_ITEM_SKILL_INT */
+     , (41039, 160, 325) /* WIELD_DIFFICULTY_INT */
      , (41039, 353, 11) /* WEAPON_TYPE_INT */
-     , (41039, 178, 16) /* GEM_TYPE_INT */
-     , (41039, 115, 381) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (41039, 131, 77) /* MATERIAL_TYPE_INT */
-     , (41039, 179, 512) /* IMBUED_EFFECT_INT */
-     , (41039, 19, 10742) /* VALUE_INT */
-     , (41039, 5, 538) /* ENCUMB_VAL_INT */
-     , (41039, 166, 14) /* SLAYER_CREATURE_TYPE_INT */
-     , (41039, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (41039, 106, 361) /* ITEM_SPELLCRAFT_INT */
-     , (41039, 171, 10) /* NUM_TIMES_TINKERED_INT */
+     , (41039, 177, 2) /* GEM_COUNT_INT */
+     , (41039, 178, 43) /* GEM_TYPE_INT */
+     , (41039, 19, 5862) /* VALUE_INT */
+     , (41039, 131, 73) /* MATERIAL_TYPE_INT */
+     , (41039, 115, 304) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (41039, 5, 558) /* ENCUMB_VAL_INT */
+     , (41039, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (41039, 106, 284) /* ITEM_SPELLCRAFT_INT */
+     , (41039, 108, 926) /* ITEM_MAX_MANA_INT */
      , (41039, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (41039, 108, 1369) /* ITEM_MAX_MANA_INT */
-     , (41039, 109, 119) /* ITEM_DIFFICULTY_INT */
-     , (41039, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41039, 109, 137) /* ITEM_DIFFICULTY_INT */
      , (41039, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (41039, 47, 2) /* ATTACK_TYPE_INT */
+     , (41039, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (41039, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (41039, 47, 2) /* ATTACK_TYPE_INT */
      , (41039, 45, 16) /* DAMAGE_TYPE_INT */
-     , (41039, 49, 0) /* WEAPON_TIME_INT */
+     , (41039, 49, 45) /* WEAPON_TIME_INT */
      , (41039, 48, 41) /* WEAPON_SKILL_INT */
-     , (41039, 44, 76) /* DAMAGE_INT */;
+     , (41039, 44, 28) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (41039, 29, 1.45) /* WEAPON_DEFENSE_FLOAT */
-     , (41039, 5, -0.06666667) /* MANA_RATE_FLOAT */
-     , (41039, 150, 1.015) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (41039, 22, 0.131072) /* DAMAGE_VARIANCE_FLOAT */
+VALUES (41039, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (41039, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
+     , (41039, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
      , (41039, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (41039, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (41039, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (41039, 62, 1.39) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (41039, 91, 1) /* RETAINED_BOOL */
-     , (41039, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+     , (41039, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (41039, 4395) /* Blooddrinker8_SpellID */
-     , (41039, 4663) /* CANTRIPDEFENDER3_SpellID */;
+VALUES (41039, 2116) /* Swiftkiller7_SpellID */
+     , (41039, 1616) /* BloodDrinker6_SpellID */
+     , (41039, 2081) /* QuicknessSelf7_SpellID */
+     , (41039, 2548) /* CANTRIPHEALINGPROWESS1_SpellID */;
 

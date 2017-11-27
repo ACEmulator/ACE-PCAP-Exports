@@ -37,6 +37,17 @@ VALUES (32937, 13, True) /* ETHEREAL_BOOL */
      , (32937, 19, True) /* ATTACKABLE_BOOL */
      , (32937, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32937, 16, 'A beautiful white rabbit''s foot.') /* LONG_DESC_STRING */
+     , (32937, 14, 'Attach this rabbit foot to a treasure-generated weapon to improve the weapon''s variance by 20%. You may only attach one rabbit foot to a weapon.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32937, 33, 1) /* BONDED_INT */
+     , (32937, 19, 0) /* VALUE_INT */
+     , (32937, 5, 25) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -42,6 +42,16 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (30440, 2, 13) /* CREATURE_TYPE_INT */
      , (30440, 25, 8) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (30440, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (30440, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (30440, 4, 20) /* COORDINATION_ATTRIBUTE */
+     , (30440, 8, 20) /* QUICKNESS_ATTRIBUTE */
+     , (30440, 16, 60) /* FOCUS_ATTRIBUTE */
+     , (30440, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30440, 64, 61) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (30440, 64, 61) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30440, 128, 121) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30440, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 

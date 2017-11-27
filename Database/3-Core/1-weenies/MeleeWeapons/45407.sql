@@ -41,46 +41,43 @@ VALUES (45407, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45407, 16, 'Acid Yaoji of Swiftkiller') /* LONG_DESC_STRING */;
+VALUES (45407, 16, 'Acid Yaoji of Defender') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45407, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
-     , (45407, 160, 430) /* WIELD_DIFFICULTY_INT */
+     , (45407, 160, 325) /* WIELD_DIFFICULTY_INT */
      , (45407, 353, 2) /* WEAPON_TYPE_INT */
      , (45407, 177, 2) /* GEM_COUNT_INT */
-     , (45407, 178, 21) /* GEM_TYPE_INT */
-     , (45407, 19, 30017) /* VALUE_INT */
-     , (45407, 179, 64) /* IMBUED_EFFECT_INT */
-     , (45407, 131, 38) /* MATERIAL_TYPE_INT */
-     , (45407, 115, 390) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (45407, 5, 236) /* ENCUMB_VAL_INT */
-     , (45407, 105, 9) /* ITEM_WORKMANSHIP_INT */
-     , (45407, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (45407, 171, 1) /* NUM_TIMES_TINKERED_INT */
-     , (45407, 108, 1361) /* ITEM_MAX_MANA_INT */
+     , (45407, 178, 33) /* GEM_TYPE_INT */
+     , (45407, 19, 4707) /* VALUE_INT */
+     , (45407, 131, 63) /* MATERIAL_TYPE_INT */
+     , (45407, 115, 222) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (45407, 5, 239) /* ENCUMB_VAL_INT */
+     , (45407, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (45407, 106, 202) /* ITEM_SPELLCRAFT_INT */
+     , (45407, 108, 1067) /* ITEM_MAX_MANA_INT */
      , (45407, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (45407, 109, 208) /* ITEM_DIFFICULTY_INT */
+     , (45407, 109, 91) /* ITEM_DIFFICULTY_INT */
      , (45407, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (45407, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (45407, 159, 46) /* WIELD_SKILLTYPE_INT */
      , (45407, 47, 6) /* ATTACK_TYPE_INT */
      , (45407, 45, 32) /* DAMAGE_TYPE_INT */
-     , (45407, 49, 27) /* WEAPON_TIME_INT */
+     , (45407, 49, 28) /* WEAPON_TIME_INT */
      , (45407, 48, 46) /* WEAPON_SKILL_INT */
-     , (45407, 44, 55) /* DAMAGE_INT */;
+     , (45407, 44, 35) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45407, 5, -0.06666667) /* MANA_RATE_FLOAT */
-     , (45407, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
-     , (45407, 22, 0.52) /* DAMAGE_VARIANCE_FLOAT */
+VALUES (45407, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (45407, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (45407, 22, 0.47) /* DAMAGE_VARIANCE_FLOAT */
      , (45407, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (45407, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (45407, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45407, 62, 1.16) /* WEAPON_OFFENSE_FLOAT */;
+     , (45407, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (45407, 4417) /* Swiftkiller8_SpellID */
-     , (45407, 4226) /* CANTRIPENDURANCE3_SpellID */
-     , (45407, 4395) /* Blooddrinker8_SpellID */
-     , (45407, 4400) /* Defender8_SpellID */;
+VALUES (45407, 1604) /* Defender5_SpellID */
+     , (45407, 1615) /* BloodDrinker5_SpellID */
+     , (45407, 1591) /* HeartSeeker5_SpellID */;
 

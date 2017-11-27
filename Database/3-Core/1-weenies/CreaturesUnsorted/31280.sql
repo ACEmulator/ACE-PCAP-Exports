@@ -60,6 +60,42 @@ VALUES (31280, 0, 16778359)
      , (31280, 15, 16777307)
      , (31280, 16, 16778407);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31280, 16, 'Fire Sceptre of Shockwave') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31280, 160, 310) /* WIELD_DIFFICULTY_INT */
+     , (31280, 177, 4) /* GEM_COUNT_INT */
+     , (31280, 178, 39) /* GEM_TYPE_INT */
+     , (31280, 19, 16491) /* VALUE_INT */
+     , (31280, 131, 33) /* MATERIAL_TYPE_INT */
+     , (31280, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31280, 5, 50) /* ENCUMB_VAL_INT */
+     , (31280, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (31280, 106, 275) /* ITEM_SPELLCRAFT_INT */
+     , (31280, 108, 2042) /* ITEM_MAX_MANA_INT */
+     , (31280, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31280, 109, 290) /* ITEM_DIFFICULTY_INT */
+     , (31280, 45, 16) /* DAMAGE_TYPE_INT */
+     , (31280, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31280, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31280, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31280, 144, 0.06) /* MANA_CONVERSION_MOD_FLOAT */
+     , (31280, 152, 1.05) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (31280, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (31280, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31280, 2144) /* Shockwave7_SpellID */
+     , (31280, 1480) /* TrueValue6_SpellID */
+     , (31280, 2323) /* WarMagicMasterySelf7_SpellID */
+     , (31280, 2600) /* CANTRIPDEFENDER1_SpellID */
+     , (31280, 2559) /* CANTRIPMAGICRESISTANCE1_SpellID */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -41,3 +41,18 @@ VALUES (24870, 19, 0) /* VALUE_INT */
      , (24870, 174, 16) /* APPRAISAL_PAGES_INT */
      , (24870, 175, 16) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24870, 174, 16) /* APPRAISAL_PAGES_INT */
+     , (24870, 175, 16) /* APPRAISAL_MAX_PAGES_INT */
+     , (24870, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (24870, 0, 'Aerbax', 'prewritten', 4294967295, 0, 'Greetings. If you are in possession of this missive then you have chosen to assist in the collection of the entity known as the Harbinger. I thank you for your offer and welcome any assistance that you may be able to provide.
+
+I am sure that my colleague, Vincadi, has imparted the details of the challenges we face in regards to this endeavor, and I am pleased to see that you still possess the gumption to stand by our side.
+');
+

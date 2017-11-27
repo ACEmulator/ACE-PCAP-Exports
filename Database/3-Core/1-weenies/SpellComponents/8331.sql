@@ -53,8 +53,8 @@ VALUES (8331, 16, 'A concentrated silver pea.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8331, 33, 1) /* BONDED_INT */
-     , (8331, 19, 1225000) /* VALUE_INT */
-     , (8331, 5, 980) /* ENCUMB_VAL_INT */;
+     , (8331, 19, 12500) /* VALUE_INT */
+     , (8331, 5, 10) /* ENCUMB_VAL_INT */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

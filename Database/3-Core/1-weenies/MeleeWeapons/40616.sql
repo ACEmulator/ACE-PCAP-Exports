@@ -45,3 +45,27 @@ VALUES (40616, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40616, 0, 16791762);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40616, 16, 'Ring of Regeneration') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40616, 19, 16711) /* VALUE_INT */
+     , (40616, 131, 47) /* MATERIAL_TYPE_INT */
+     , (40616, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (40616, 5, 15) /* ENCUMB_VAL_INT */
+     , (40616, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (40616, 106, 271) /* ITEM_SPELLCRAFT_INT */
+     , (40616, 108, 1992) /* ITEM_MAX_MANA_INT */
+     , (40616, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40616, 109, 278) /* ITEM_DIFFICULTY_INT */
+     , (40616, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40616, 5, -0.05555556) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40616, 170) /* RegenerationSelf6_SpellID */
+     , (40616, 2542) /* CANTRIPCREATUREENCHANTMENTAPTITUDE1_SpellID */;
+

@@ -51,6 +51,37 @@ VALUES (48284, 67111923, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48284, 0, 16777887);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48284, 16, 'Acid Sabra') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48284, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (48284, 353, 2) /* WEAPON_TYPE_INT */
+     , (48284, 177, 6) /* GEM_COUNT_INT */
+     , (48284, 178, 22) /* GEM_TYPE_INT */
+     , (48284, 19, 4837) /* VALUE_INT */
+     , (48284, 131, 58) /* MATERIAL_TYPE_INT */
+     , (48284, 5, 289) /* ENCUMB_VAL_INT */
+     , (48284, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (48284, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (48284, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (48284, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (48284, 47, 6) /* ATTACK_TYPE_INT */
+     , (48284, 45, 32) /* DAMAGE_TYPE_INT */
+     , (48284, 49, 31) /* WEAPON_TIME_INT */
+     , (48284, 48, 46) /* WEAPON_SKILL_INT */
+     , (48284, 44, 41) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (48284, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */
+     , (48284, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */
+     , (48284, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (48284, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (48284, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (48284, 62, 1.14) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

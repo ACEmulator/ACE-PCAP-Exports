@@ -41,3 +41,13 @@ VALUES (35852, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35852, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35852, 16, 'This small gem, originally created by Prince Borelean, was given to you by Corporal Liao Chen. He has asked you to attempt to attune this gem to the bells within the Monouga Feeding Pit') /* LONG_DESC_STRING */
+     , (35852, 14, 'Place the gem on the bells in the Monouga Feeding Pit to attune it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35852, 19, 0) /* VALUE_INT */
+     , (35852, 5, 25) /* ENCUMB_VAL_INT */;
+

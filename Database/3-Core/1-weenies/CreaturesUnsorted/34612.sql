@@ -64,10 +64,15 @@ VALUES (34612, 14, 16784286)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34612, 2, 3) /* CREATURE_TYPE_INT */
-     , (34612, 25, 100) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34612, 16, 'Inscribed spell: Festering Curse V
+The heal rating of the target is decreased by 25.') /* LONG_DESC_STRING */
+     , (34612, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34612, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34612, 19, 200) /* VALUE_INT */
+     , (34612, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (34612, 5375) /* CurseFestering5_SpellID */;
 

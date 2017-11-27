@@ -48,3 +48,13 @@ VALUES (5541, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5541, 0, 16783514);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5541, 19, 100) /* VALUE_INT */
+     , (5541, 5, 125) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (5541, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (5541, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+

@@ -35,6 +35,19 @@ VALUES (40443, 13, True) /* ETHEREAL_BOOL */
      , (40443, 19, True) /* ATTACKABLE_BOOL */
      , (40443, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40443, 16, 'An armor upgrade kit.') /* LONG_DESC_STRING */
+     , (40443, 14, 'Use this upgrade kit to enhance various types of non-loot armor. As time goes on more armor may be adapted to work with these kits.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40443, 19, 15) /* VALUE_INT */
+     , (40443, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40443, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

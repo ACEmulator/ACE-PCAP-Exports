@@ -76,12 +76,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (41838, 5, 'Palm Fort Commander') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (41838, 16, 67110062) /* EYES_PALETTE_DID */
-     , (41838, 9, 83890456) /* EYES_TEXTURE_DID */
-     , (41838, 17, 67110053) /* SKIN_PALETTE_DID */
-     , (41838, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (41838, 11, 83890664) /* MOUTH_TEXTURE_DID */
-     , (41838, 15, 67117073) /* HAIR_PALETTE_DID */;
+VALUES (41838, 16, 67110063) /* EYES_PALETTE_DID */
+     , (41838, 9, 83890447) /* EYES_TEXTURE_DID */
+     , (41838, 17, 67110047) /* SKIN_PALETTE_DID */
+     , (41838, 10, 83890530) /* NOSE_TEXTURE_DID */
+     , (41838, 11, 83890567) /* MOUTH_TEXTURE_DID */
+     , (41838, 15, 67117028) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41838, 113, 1) /* GENDER_INT */

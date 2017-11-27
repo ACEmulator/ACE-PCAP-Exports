@@ -98,12 +98,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (49651, 5, 'Grocer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (49651, 16, 67109567) /* EYES_PALETTE_DID */
-     , (49651, 9, 83890241) /* EYES_TEXTURE_DID */
-     , (49651, 17, 67109550) /* SKIN_PALETTE_DID */
-     , (49651, 10, 83890302) /* NOSE_TEXTURE_DID */
-     , (49651, 11, 83890338) /* MOUTH_TEXTURE_DID */
-     , (49651, 15, 67117026) /* HAIR_PALETTE_DID */;
+VALUES (49651, 16, 67110063) /* EYES_PALETTE_DID */
+     , (49651, 9, 83890261) /* EYES_TEXTURE_DID */
+     , (49651, 17, 67109554) /* SKIN_PALETTE_DID */
+     , (49651, 10, 83890286) /* NOSE_TEXTURE_DID */
+     , (49651, 11, 83890352) /* MOUTH_TEXTURE_DID */
+     , (49651, 15, 67116994) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49651, 113, 2) /* GENDER_INT */

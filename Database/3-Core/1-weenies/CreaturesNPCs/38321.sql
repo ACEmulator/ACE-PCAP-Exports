@@ -70,3 +70,9 @@ VALUES (38321, 5, 16794156)
      , (38321, 22, 16777708)
      , (38321, 21, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38321, 19, 25000) /* VALUE_INT */
+     , (38321, 5, 0) /* ENCUMB_VAL_INT */;
+

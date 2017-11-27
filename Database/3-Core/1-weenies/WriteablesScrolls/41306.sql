@@ -35,3 +35,17 @@ VALUES (41306, 13, True) /* ETHEREAL_BOOL */
      , (41306, 19, True) /* ATTACKABLE_BOOL */
      , (41306, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41306, 16, 'Inscribed spell: Two Handed Combat Mastery Self III
+Increases the caster''s Two Handed Combat skill by 20 points.') /* LONG_DESC_STRING */
+     , (41306, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41306, 19, 20) /* VALUE_INT */
+     , (41306, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41306, 5101) /* twohandedmasteryself3_SpellID */;
+

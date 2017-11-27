@@ -49,3 +49,12 @@ VALUES (3946, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3946, 0, 16777923);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3946, 16, 'Killed by High-Voltage X.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3946, 19, 0) /* VALUE_INT */
+     , (3946, 5, 6608) /* ENCUMB_VAL_INT */;
+

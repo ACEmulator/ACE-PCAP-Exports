@@ -50,3 +50,50 @@ VALUES (23637, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23637, 0, 16783508);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23637, 16, 'Deadly, crystaline arrows that draw the elemental energies from elementally attuned bows to damage their target.') /* LONG_DESC_STRING */
+     , (23637, 14, 'You must be a specialized fletcher of great skill to use these potentially volatile arrows.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23637, 160, 3) /* WIELD_DIFFICULTY_INT */
+     , (23637, 272, 375) /* WIELD_DIFFICULTY_2_INT */
+     , (23637, 304, 8) /* IMBUED_EFFECT_3_INT */
+     , (23637, 273, 2) /* WIELD_REQUIREMENTS_3_INT */
+     , (23637, 305, 8) /* IMBUED_EFFECT_4_INT */
+     , (23637, 274, 47) /* WIELD_SKILLTYPE_3_INT */
+     , (23637, 306, 8) /* IMBUED_EFFECT_5_INT */
+     , (23637, 386, 0) /*  */
+     , (23637, 19, 100) /* VALUE_INT */
+     , (23637, 275, 300) /* WIELD_DIFFICULTY_3_INT */
+     , (23637, 179, 8) /* IMBUED_EFFECT_INT */
+     , (23637, 307, 32) /* DAMAGE_RATING_INT */
+     , (23637, 5, 1) /* ENCUMB_VAL_INT */
+     , (23637, 313, 1) /* CRIT_RATING_INT */
+     , (23637, 314, 14) /* CRIT_DAMAGE_RATING_INT */
+     , (23637, 158, 8) /* WIELD_REQUIREMENTS_INT */
+     , (23637, 270, 2) /* WIELD_REQUIREMENTS_2_INT */
+     , (23637, 159, 37) /* WIELD_SKILLTYPE_INT */
+     , (23637, 271, 37) /* WIELD_SKILLTYPE_2_INT */
+     , (23637, 303, 8) /* IMBUED_EFFECT_2_INT */
+     , (23637, 45, 1) /* DAMAGE_TYPE_INT */
+     , (23637, 49, -1) /* WEAPON_TIME_INT */
+     , (23637, 48, 0) /* WEAPON_SKILL_INT */
+     , (23637, 44, 40) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23637, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (23637, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (23637, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (23637, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (23637, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (23637, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
+     , (23637, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (23637, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (23637, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (23637, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23637, 69, 0) /* IS_SELLABLE_BOOL */;
+

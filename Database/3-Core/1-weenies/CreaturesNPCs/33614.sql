@@ -98,11 +98,11 @@ VALUES (33614, 5, 'Pathwarden Greeter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (33614, 16, 67110063) /* EYES_PALETTE_DID */
-     , (33614, 9, 83890500) /* EYES_TEXTURE_DID */
+     , (33614, 9, 83890487) /* EYES_TEXTURE_DID */
      , (33614, 17, 67110045) /* SKIN_PALETTE_DID */
-     , (33614, 10, 83890521) /* NOSE_TEXTURE_DID */
-     , (33614, 11, 83890568) /* MOUTH_TEXTURE_DID */
-     , (33614, 15, 67117017) /* HAIR_PALETTE_DID */;
+     , (33614, 10, 83890527) /* NOSE_TEXTURE_DID */
+     , (33614, 11, 83890583) /* MOUTH_TEXTURE_DID */
+     , (33614, 15, 67116997) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33614, 113, 1) /* GENDER_INT */
@@ -111,6 +111,16 @@ VALUES (33614, 113, 1) /* GENDER_INT */
      , (33614, 25, 5) /* LEVEL_INT */
      , (33614, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33614, 1, 100) /* STRENGTH_ATTRIBUTE */
+     , (33614, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (33614, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (33614, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (33614, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (33614, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33614, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (33614, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33614, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33614, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 

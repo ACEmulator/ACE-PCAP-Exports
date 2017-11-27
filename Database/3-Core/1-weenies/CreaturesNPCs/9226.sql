@@ -94,11 +94,11 @@ VALUES (9226, 5, 'Undead Hunter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (9226, 16, 67110063) /* EYES_PALETTE_DID */
-     , (9226, 9, 83890511) /* EYES_TEXTURE_DID */
-     , (9226, 17, 67109557) /* SKIN_PALETTE_DID */
-     , (9226, 10, 83890560) /* NOSE_TEXTURE_DID */
-     , (9226, 11, 83890630) /* MOUTH_TEXTURE_DID */
-     , (9226, 15, 67117079) /* HAIR_PALETTE_DID */;
+     , (9226, 9, 83890480) /* EYES_TEXTURE_DID */
+     , (9226, 17, 67109551) /* SKIN_PALETTE_DID */
+     , (9226, 10, 83890543) /* NOSE_TEXTURE_DID */
+     , (9226, 11, 83890636) /* MOUTH_TEXTURE_DID */
+     , (9226, 15, 67117073) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9226, 113, 1) /* GENDER_INT */

@@ -37,6 +37,11 @@ VALUES (7885, 12, True) /* REPORT_COLLISIONS_BOOL */
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (7885, 14, 'Use this item to open it.') /* USE_STRING */;
 
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7885, 19, 0) /* VALUE_INT */
+     , (7885, 38, 400) /* RESIST_LOCKPICK_INT */
+     , (7885, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7885, 2, 0) /* OPEN_BOOL */
      , (7885, 3, 1) /* LOCKED_BOOL */;

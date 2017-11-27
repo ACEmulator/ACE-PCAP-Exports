@@ -37,3 +37,30 @@ VALUES (47388, 13, True) /* ETHEREAL_BOOL */
      , (47388, 19, True) /* ATTACKABLE_BOOL */
      , (47388, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47388, 14, 'Use this essence to summon or dismiss your Acid Skeleton Bushi.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47388, 33, 0) /* BONDED_INT */
+     , (47388, 369, 170) /* USE_REQUIRES_LEVEL_INT */
+     , (47388, 114, 0) /* ATTUNED_INT */
+     , (47388, 370, 15) /* GEAR_DAMAGE_INT */
+     , (47388, 19, 9000) /* VALUE_INT */
+     , (47388, 5, 50) /* ENCUMB_VAL_INT */
+     , (47388, 373, 12) /* GEAR_CRIT_RESIST_INT */
+     , (47388, 374, 3) /* GEAR_CRIT_DAMAGE_INT */
+     , (47388, 375, 12) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (47388, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (47388, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (47388, 91, 50) /* MAX_STRUCTURE_INT */
+     , (47388, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (47388, 367, 530) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (47388, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47388, 69, 1) /* IS_SELLABLE_BOOL */;
+

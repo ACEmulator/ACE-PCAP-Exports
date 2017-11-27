@@ -35,6 +35,15 @@ VALUES (8020, 13, True) /* ETHEREAL_BOOL */
      , (8020, 19, True) /* ATTACKABLE_BOOL */
      , (8020, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8020, 14, 'Use this item on the Fenmalain Gate.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8020, 19, 0) /* VALUE_INT */
+     , (8020, 5, 50) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

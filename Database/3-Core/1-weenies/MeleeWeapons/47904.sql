@@ -37,3 +37,28 @@ VALUES (47904, 13, True) /* ETHEREAL_BOOL */
      , (47904, 19, True) /* ATTACKABLE_BOOL */
      , (47904, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47904, 16, 'Gorget of Fire Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47904, 177, 2) /* GEM_COUNT_INT */
+     , (47904, 178, 11) /* GEM_TYPE_INT */
+     , (47904, 19, 4325) /* VALUE_INT */
+     , (47904, 131, 60) /* MATERIAL_TYPE_INT */
+     , (47904, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (47904, 5, 150) /* ENCUMB_VAL_INT */
+     , (47904, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (47904, 106, 192) /* ITEM_SPELLCRAFT_INT */
+     , (47904, 108, 1681) /* ITEM_MAX_MANA_INT */
+     , (47904, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (47904, 109, 192) /* ITEM_DIFFICULTY_INT */
+     , (47904, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (47904, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (47904, 1093) /* FireProtectionSelf5_SpellID */;
+

@@ -51,3 +51,49 @@ VALUES (22154, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22154, 0, 16788504);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22154, 16, 'Acid Jo of Strength') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22154, 160, 430) /* WIELD_DIFFICULTY_INT */
+     , (22154, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (22154, 177, 4) /* GEM_COUNT_INT */
+     , (22154, 353, 7) /* WEAPON_TYPE_INT */
+     , (22154, 178, 21) /* GEM_TYPE_INT */
+     , (22154, 115, 343) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (22154, 131, 23) /* MATERIAL_TYPE_INT */
+     , (22154, 179, 4) /* IMBUED_EFFECT_INT */
+     , (22154, 19, 21918) /* VALUE_INT */
+     , (22154, 5, 254) /* ENCUMB_VAL_INT */
+     , (22154, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (22154, 106, 323) /* ITEM_SPELLCRAFT_INT */
+     , (22154, 171, 10) /* NUM_TIMES_TINKERED_INT */
+     , (22154, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (22154, 108, 817) /* ITEM_MAX_MANA_INT */
+     , (22154, 109, 102) /* ITEM_DIFFICULTY_INT */
+     , (22154, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (22154, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (22154, 47, 6) /* ATTACK_TYPE_INT */
+     , (22154, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (22154, 45, 32) /* DAMAGE_TYPE_INT */
+     , (22154, 49, 22) /* WEAPON_TIME_INT */
+     , (22154, 48, 46) /* WEAPON_SKILL_INT */
+     , (22154, 44, 57) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22154, 29, 1.3) /* WEAPON_DEFENSE_FLOAT */
+     , (22154, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (22154, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (22154, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (22154, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (22154, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (22154, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (22154, 6091) /* CantripDefender4_SpellID */
+     , (22154, 2087) /* StrengthSelf7_SpellID */
+     , (22154, 2096) /* BloodDrinker7_SpellID */
+     , (22154, 2101) /* Defender7_SpellID */;
+

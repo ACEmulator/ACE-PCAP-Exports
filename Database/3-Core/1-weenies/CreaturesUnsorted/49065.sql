@@ -44,10 +44,12 @@ VALUES (49065, 67113742, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49065, 2, 44) /* CREATURE_TYPE_INT */
-     , (49065, 25, 200) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49065, 16, 'Give this to the Master Arbitor for a new Title.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49065, 64, 1370) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49065, 33, 1) /* BONDED_INT */
+     , (49065, 114, 1) /* ATTUNED_INT */
+     , (49065, 19, 0) /* VALUE_INT */
+     , (49065, 5, 10) /* ENCUMB_VAL_INT */;
 

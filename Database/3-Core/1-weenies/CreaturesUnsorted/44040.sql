@@ -81,6 +81,52 @@ VALUES (44040, 0, 16777294)
      , (44040, 15, 16777307)
      , (44040, 16, 16781779);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44040, 16, 'Electric Slingshot of Coordination') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44040, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
+     , (44040, 160, 385) /* WIELD_DIFFICULTY_INT */
+     , (44040, 353, 10) /* WEAPON_TYPE_INT */
+     , (44040, 177, 4) /* GEM_COUNT_INT */
+     , (44040, 178, 41) /* GEM_TYPE_INT */
+     , (44040, 19, 13486) /* VALUE_INT */
+     , (44040, 131, 63) /* MATERIAL_TYPE_INT */
+     , (44040, 115, 335) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (44040, 5, 300) /* ENCUMB_VAL_INT */
+     , (44040, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (44040, 106, 315) /* ITEM_SPELLCRAFT_INT */
+     , (44040, 108, 794) /* ITEM_MAX_MANA_INT */
+     , (44040, 204, 22) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (44040, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (44040, 109, 123) /* ITEM_DIFFICULTY_INT */
+     , (44040, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (44040, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (44040, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (44040, 45, 64) /* DAMAGE_TYPE_INT */
+     , (44040, 49, 21) /* WEAPON_TIME_INT */
+     , (44040, 48, 47) /* WEAPON_SKILL_INT */
+     , (44040, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (44040, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (44040, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (44040, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (44040, 63, 2.57) /* DAMAGE_MOD_FLOAT */
+     , (44040, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (44040, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (44040, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (44040, 4678) /* CANTRIPSLASHINGWARD3_SpellID */
+     , (44040, 2059) /* CoordinationSelf7_SpellID */
+     , (44040, 2575) /* CANTRIPQUICKNESS2_SpellID */
+     , (44040, 2576) /* CANTRIPSTRENGTH2_SpellID */
+     , (44040, 2096) /* BloodDrinker7_SpellID */
+     , (44040, 2101) /* Defender7_SpellID */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

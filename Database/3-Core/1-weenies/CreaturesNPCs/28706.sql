@@ -91,12 +91,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (28706, 5, 'Brewmaster') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (28706, 16, 67110063) /* EYES_PALETTE_DID */
-     , (28706, 9, 83890480) /* EYES_TEXTURE_DID */
-     , (28706, 17, 67115908) /* SKIN_PALETTE_DID */
-     , (28706, 10, 83890551) /* NOSE_TEXTURE_DID */
-     , (28706, 11, 83890630) /* MOUTH_TEXTURE_DID */
-     , (28706, 15, 67117017) /* HAIR_PALETTE_DID */;
+VALUES (28706, 16, 67110065) /* EYES_PALETTE_DID */
+     , (28706, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (28706, 17, 67115902) /* SKIN_PALETTE_DID */
+     , (28706, 10, 83890553) /* NOSE_TEXTURE_DID */
+     , (28706, 11, 83890657) /* MOUTH_TEXTURE_DID */
+     , (28706, 15, 67117096) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28706, 113, 1) /* GENDER_INT */
@@ -105,6 +105,16 @@ VALUES (28706, 113, 1) /* GENDER_INT */
      , (28706, 25, 235) /* LEVEL_INT */
      , (28706, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (28706, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (28706, 2, 164) /* ENDURANCE_ATTRIBUTE */
+     , (28706, 4, 174) /* COORDINATION_ATTRIBUTE */
+     , (28706, 8, 132) /* QUICKNESS_ATTRIBUTE */
+     , (28706, 16, 123) /* FOCUS_ATTRIBUTE */
+     , (28706, 32, 145) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28706, 64, 456) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (28706, 64, 456) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28706, 128, 515) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28706, 256, 360) /* MAX_MANA_ATTRIBUTE_2ND */;
 

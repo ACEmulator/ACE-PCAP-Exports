@@ -81,11 +81,22 @@ VALUES (34615, 0, 16788885)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34615, 2, 13) /* CREATURE_TYPE_INT */
-     , (34615, 25, 750) /* LEVEL_INT */;
+VALUES (34615, 2, 81) /* CREATURE_TYPE_INT */
+     , (34615, 307, 5) /* DAMAGE_RATING_INT */
+     , (34615, 25, 220) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (34615, 1, 500) /* STRENGTH_ATTRIBUTE */
+     , (34615, 2, 450) /* ENDURANCE_ATTRIBUTE */
+     , (34615, 4, 420) /* COORDINATION_ATTRIBUTE */
+     , (34615, 8, 400) /* QUICKNESS_ATTRIBUTE */
+     , (34615, 16, 320) /* FOCUS_ATTRIBUTE */
+     , (34615, 32, 320) /* SELF_ATTRIBUTE */;
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34615, 64, 20000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (34615, 64, 3225) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (34615, 128, 2950) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (34615, 256, 570) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Corpse Treasure List */
 

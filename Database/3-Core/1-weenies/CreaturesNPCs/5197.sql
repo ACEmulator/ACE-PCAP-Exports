@@ -91,12 +91,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5197, 5, 'A Compassionate Woman') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5197, 16, 67110062) /* EYES_PALETTE_DID */
-     , (5197, 9, 83890236) /* EYES_TEXTURE_DID */
-     , (5197, 17, 67110045) /* SKIN_PALETTE_DID */
-     , (5197, 10, 83890292) /* NOSE_TEXTURE_DID */
-     , (5197, 11, 83890344) /* MOUTH_TEXTURE_DID */
-     , (5197, 15, 67117002) /* HAIR_PALETTE_DID */;
+VALUES (5197, 16, 67110063) /* EYES_PALETTE_DID */
+     , (5197, 9, 83890237) /* EYES_TEXTURE_DID */
+     , (5197, 17, 67110048) /* SKIN_PALETTE_DID */
+     , (5197, 10, 83890317) /* NOSE_TEXTURE_DID */
+     , (5197, 11, 83890351) /* MOUTH_TEXTURE_DID */
+     , (5197, 15, 67116994) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5197, 113, 2) /* GENDER_INT */
@@ -105,6 +105,16 @@ VALUES (5197, 113, 2) /* GENDER_INT */
      , (5197, 25, 5) /* LEVEL_INT */
      , (5197, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (5197, 1, 70) /* STRENGTH_ATTRIBUTE */
+     , (5197, 2, 80) /* ENDURANCE_ATTRIBUTE */
+     , (5197, 4, 70) /* COORDINATION_ATTRIBUTE */
+     , (5197, 8, 70) /* QUICKNESS_ATTRIBUTE */
+     , (5197, 16, 45) /* FOCUS_ATTRIBUTE */
+     , (5197, 32, 65) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5197, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (5197, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5197, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5197, 256, 65) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -96,12 +96,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (42981, 5, 'Traitor to the Crown') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42981, 16, 67110062) /* EYES_PALETTE_DID */
-     , (42981, 9, 83890451) /* EYES_TEXTURE_DID */
-     , (42981, 17, 67110057) /* SKIN_PALETTE_DID */
-     , (42981, 10, 83890528) /* NOSE_TEXTURE_DID */
-     , (42981, 11, 83890590) /* MOUTH_TEXTURE_DID */
-     , (42981, 15, 67116991) /* HAIR_PALETTE_DID */;
+VALUES (42981, 16, 67109565) /* EYES_PALETTE_DID */
+     , (42981, 9, 83890449) /* EYES_TEXTURE_DID */
+     , (42981, 17, 67110049) /* SKIN_PALETTE_DID */
+     , (42981, 10, 83890547) /* NOSE_TEXTURE_DID */
+     , (42981, 11, 83890585) /* MOUTH_TEXTURE_DID */
+     , (42981, 15, 67117070) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42981, 113, 1) /* GENDER_INT */
@@ -110,6 +110,16 @@ VALUES (42981, 113, 1) /* GENDER_INT */
      , (42981, 25, 174) /* LEVEL_INT */
      , (42981, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (42981, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (42981, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (42981, 4, 150) /* COORDINATION_ATTRIBUTE */
+     , (42981, 8, 150) /* QUICKNESS_ATTRIBUTE */
+     , (42981, 16, 80) /* FOCUS_ATTRIBUTE */
+     , (42981, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42981, 64, 256) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (42981, 64, 256) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (42981, 128, 316) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (42981, 256, 256) /* MAX_MANA_ATTRIBUTE_2ND */;
 

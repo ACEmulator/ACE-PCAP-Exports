@@ -96,12 +96,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31224, 5, 'Traveling Salesman') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31224, 16, 67110065) /* EYES_PALETTE_DID */
-     , (31224, 9, 83890506) /* EYES_TEXTURE_DID */
-     , (31224, 17, 67115902) /* SKIN_PALETTE_DID */
-     , (31224, 10, 83890549) /* NOSE_TEXTURE_DID */
-     , (31224, 11, 83890645) /* MOUTH_TEXTURE_DID */
-     , (31224, 15, 67117095) /* HAIR_PALETTE_DID */;
+VALUES (31224, 16, 67110063) /* EYES_PALETTE_DID */
+     , (31224, 9, 83890448) /* EYES_TEXTURE_DID */
+     , (31224, 17, 67115907) /* SKIN_PALETTE_DID */
+     , (31224, 10, 83890556) /* NOSE_TEXTURE_DID */
+     , (31224, 11, 83890642) /* MOUTH_TEXTURE_DID */
+     , (31224, 15, 67116982) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31224, 113, 1) /* GENDER_INT */
@@ -110,8 +110,18 @@ VALUES (31224, 113, 1) /* GENDER_INT */
      , (31224, 25, 10) /* LEVEL_INT */
      , (31224, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31224, 1, 75) /* STRENGTH_ATTRIBUTE */
+     , (31224, 2, 65) /* ENDURANCE_ATTRIBUTE */
+     , (31224, 4, 63) /* COORDINATION_ATTRIBUTE */
+     , (31224, 8, 60) /* QUICKNESS_ATTRIBUTE */
+     , (31224, 16, 72) /* FOCUS_ATTRIBUTE */
+     , (31224, 32, 89) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31224, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (31224, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31224, 128, 175) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31224, 256, 169) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 

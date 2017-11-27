@@ -47,3 +47,13 @@ VALUES (47973, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47973, 0, 16777885);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47973, 16, 'A concentrated silver pea.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47973, 33, 1) /* BONDED_INT */
+     , (47973, 19, 12500) /* VALUE_INT */
+     , (47973, 5, 10) /* ENCUMB_VAL_INT */;
+

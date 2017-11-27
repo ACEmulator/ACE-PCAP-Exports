@@ -48,3 +48,21 @@ VALUES (8748, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8748, 0, 16778603);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8748, 19, 1) /* VALUE_INT */
+     , (8748, 5, 100) /* ENCUMB_VAL_INT */
+     , (8748, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (8748, 108, 600) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8748, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (8748, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (8748, 5, -0.025) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8748, 82) /* FlameBolt3_SpellID */
+     , (8748, 583) /* ItemEnchantmentMasterySelf3_SpellID */
+     , (8748, 655) /* ManaMasterySelf3_SpellID */;
+

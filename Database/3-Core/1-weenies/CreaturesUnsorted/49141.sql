@@ -42,10 +42,13 @@ VALUES (49141, 67115265, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49141, 2, 9) /* CREATURE_TYPE_INT */
-     , (49141, 25, 180) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49141, 14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* USE_STRING */
+     , (49141, 38, 'Gateway') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49141, 64, 1020) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49141, 86, 20) /* MIN_LEVEL_INT */
+     , (49141, 87, -1) /* MAX_LEVEL_INT */
+     , (49141, 26, 0) /* ACCOUNT_REQUIREMENTS_INT */
+     , (49141, 111, 17) /* PORTAL_BITMASK_INT */;
 

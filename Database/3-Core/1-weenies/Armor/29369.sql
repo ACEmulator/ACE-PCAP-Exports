@@ -39,3 +39,42 @@ VALUES (29369, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29369, 0, 16791971);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29369, 16, 'A helm taken from one of the Knights of the Viamontian Gold Legion and fortified with royal blood.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29369, 160, 80) /* WIELD_DIFFICULTY_INT */
+     , (29369, 33, 0) /* BONDED_INT */
+     , (29369, 114, 0) /* ATTUNED_INT */
+     , (29369, 19, 3500) /* VALUE_INT */
+     , (29369, 5, 500) /* ENCUMB_VAL_INT */
+     , (29369, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (29369, 108, 900) /* ITEM_MAX_MANA_INT */
+     , (29369, 28, 500) /* ARMOR_LEVEL_INT */
+     , (29369, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (29369, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (29369, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (29369, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29369, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (29369, 13, 2.7) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (29369, 14, 2.7) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (29369, 15, 2.9) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (29369, 16, 2.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (29369, 17, 2.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (29369, 18, 2.4) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (29369, 19, 2.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (29369, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (29369, 261) /* ImpregnabilitySelf6_SpellID */
+     , (29369, 2573) /* CANTRIPENDURANCE2_SpellID */
+     , (29369, 1486) /* Impenetrability6_SpellID */
+     , (29369, 2576) /* CANTRIPSTRENGTH2_SpellID */
+     , (29369, 279) /* MagicResistanceSelf6_SpellID */
+     , (29369, 683) /* ArcaneEnlightenmentSelf6_SpellID */
+     , (29369, 249) /* InvulnerabilitySelf6_SpellID */;
+

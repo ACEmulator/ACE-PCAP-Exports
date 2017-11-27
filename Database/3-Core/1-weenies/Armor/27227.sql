@@ -46,3 +46,44 @@ VALUES (27227, 67115094, 198, 18)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27227, 0, 16790016);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27227, 16, 'Nariyid Breastplate of Regeneration') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27227, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (27227, 177, 2) /* GEM_COUNT_INT */
+     , (27227, 178, 21) /* GEM_TYPE_INT */
+     , (27227, 19, 20644) /* VALUE_INT */
+     , (27227, 131, 60) /* MATERIAL_TYPE_INT */
+     , (27227, 115, 229) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (27227, 5, 2003) /* ENCUMB_VAL_INT */
+     , (27227, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (27227, 106, 308) /* ITEM_SPELLCRAFT_INT */
+     , (27227, 28, 283) /* ARMOR_LEVEL_INT */
+     , (27227, 108, 872) /* ITEM_MAX_MANA_INT */
+     , (27227, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (27227, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (27227, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27227, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (27227, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (27227, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (27227, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (27227, 16, 0.8345137) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (27227, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (27227, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (27227, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (27227, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27227, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27227, 2185) /* RegenerationSelf7_SpellID */
+     , (27227, 2578) /* CANTRIPARMOR1_SpellID */
+     , (27227, 2098) /* BludgeonBane7_SpellID */
+     , (27227, 2108) /* Impenetrability7_SpellID */;
+

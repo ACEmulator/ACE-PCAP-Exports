@@ -94,12 +94,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (1381, 5, 'Farmer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (1381, 16, 67109565) /* EYES_PALETTE_DID */
+VALUES (1381, 16, 67109564) /* EYES_PALETTE_DID */
      , (1381, 9, 83890509) /* EYES_TEXTURE_DID */
-     , (1381, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (1381, 10, 83890559) /* NOSE_TEXTURE_DID */
-     , (1381, 11, 83890659) /* MOUTH_TEXTURE_DID */
-     , (1381, 15, 67116993) /* HAIR_PALETTE_DID */;
+     , (1381, 17, 67109559) /* SKIN_PALETTE_DID */
+     , (1381, 10, 83890560) /* NOSE_TEXTURE_DID */
+     , (1381, 11, 83890629) /* MOUTH_TEXTURE_DID */
+     , (1381, 15, 67117075) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1381, 113, 1) /* GENDER_INT */
@@ -108,8 +108,18 @@ VALUES (1381, 113, 1) /* GENDER_INT */
      , (1381, 25, 7) /* LEVEL_INT */
      , (1381, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (1381, 1, 75) /* STRENGTH_ATTRIBUTE */
+     , (1381, 2, 80) /* ENDURANCE_ATTRIBUTE */
+     , (1381, 4, 60) /* COORDINATION_ATTRIBUTE */
+     , (1381, 8, 65) /* QUICKNESS_ATTRIBUTE */
+     , (1381, 16, 35) /* FOCUS_ATTRIBUTE */
+     , (1381, 32, 40) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1381, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (1381, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1381, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1381, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 

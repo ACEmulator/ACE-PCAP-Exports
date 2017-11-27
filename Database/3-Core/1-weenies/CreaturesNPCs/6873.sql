@@ -106,22 +106,33 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (6873, 5, 'Grand Poobah of the Empty Mug') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (6873, 16, 67109564) /* EYES_PALETTE_DID */
-     , (6873, 9, 83890508) /* EYES_TEXTURE_DID */
+VALUES (6873, 16, 67110064) /* EYES_PALETTE_DID */
+     , (6873, 9, 83890495) /* EYES_TEXTURE_DID */
      , (6873, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (6873, 10, 83890548) /* NOSE_TEXTURE_DID */
-     , (6873, 11, 83890613) /* MOUTH_TEXTURE_DID */
-     , (6873, 15, 67116997) /* HAIR_PALETTE_DID */;
+     , (6873, 10, 83890550) /* NOSE_TEXTURE_DID */
+     , (6873, 11, 83890635) /* MOUTH_TEXTURE_DID */
+     , (6873, 15, 67116999) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6873, 113, 1) /* GENDER_INT */
      , (6873, 2, 31) /* CREATURE_TYPE_INT */
+     , (6873, 307, 5) /* DAMAGE_RATING_INT */
      , (6873, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (6873, 25, 50) /* LEVEL_INT */
      , (6873, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (6873, 1, 160) /* STRENGTH_ATTRIBUTE */
+     , (6873, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (6873, 4, 110) /* COORDINATION_ATTRIBUTE */
+     , (6873, 8, 120) /* QUICKNESS_ATTRIBUTE */
+     , (6873, 16, 180) /* FOCUS_ATTRIBUTE */
+     , (6873, 32, 165) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6873, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (6873, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6873, 128, 230) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6873, 256, 265) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

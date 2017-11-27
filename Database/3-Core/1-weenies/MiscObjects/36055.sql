@@ -32,3 +32,15 @@ VALUES (36055, 13, True) /* ETHEREAL_BOOL */
      , (36055, 19, True) /* ATTACKABLE_BOOL */
      , (36055, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36055, 16, 'Amulet') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36055, 19, 329) /* VALUE_INT */
+     , (36055, 131, 59) /* MATERIAL_TYPE_INT */
+     , (36055, 5, 100) /* ENCUMB_VAL_INT */
+     , (36055, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (36055, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+

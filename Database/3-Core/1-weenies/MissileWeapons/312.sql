@@ -61,3 +61,44 @@ VALUES (312, 0, 16779440)
      , (312, 7, 16777708)
      , (312, 8, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (312, 16, 'Light Crossbow of Endurance') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (312, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
+     , (312, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (312, 353, 9) /* WEAPON_TYPE_INT */
+     , (312, 177, 1) /* GEM_COUNT_INT */
+     , (312, 178, 32) /* GEM_TYPE_INT */
+     , (312, 19, 2048) /* VALUE_INT */
+     , (312, 131, 51) /* MATERIAL_TYPE_INT */
+     , (312, 115, 209) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (312, 5, 960) /* ENCUMB_VAL_INT */
+     , (312, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (312, 106, 189) /* ITEM_SPELLCRAFT_INT */
+     , (312, 108, 521) /* ITEM_MAX_MANA_INT */
+     , (312, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (312, 109, 84) /* ITEM_DIFFICULTY_INT */
+     , (312, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (312, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (312, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (312, 45, 0) /* DAMAGE_TYPE_INT */
+     , (312, 49, 58) /* WEAPON_TIME_INT */
+     , (312, 48, 47) /* WEAPON_SKILL_INT */
+     , (312, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (312, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (312, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (312, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (312, 63, 2.45) /* DAMAGE_MOD_FLOAT */
+     , (312, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (312, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (312, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (312, 1353) /* EnduranceSelf5_SpellID */
+     , (312, 1615) /* BloodDrinker5_SpellID */;
+

@@ -106,12 +106,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (41179, 5, 'Prison Guard') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (41179, 16, 67110062) /* EYES_PALETTE_DID */
-     , (41179, 9, 83890448) /* EYES_TEXTURE_DID */
+VALUES (41179, 16, 67109565) /* EYES_PALETTE_DID */
+     , (41179, 9, 83890451) /* EYES_TEXTURE_DID */
      , (41179, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (41179, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (41179, 11, 83890656) /* MOUTH_TEXTURE_DID */
-     , (41179, 15, 67117026) /* HAIR_PALETTE_DID */;
+     , (41179, 10, 83890518) /* NOSE_TEXTURE_DID */
+     , (41179, 11, 83890652) /* MOUTH_TEXTURE_DID */
+     , (41179, 15, 67117025) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41179, 113, 1) /* GENDER_INT */

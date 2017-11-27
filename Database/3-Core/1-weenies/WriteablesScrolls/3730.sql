@@ -35,3 +35,17 @@ VALUES (3730, 13, True) /* ETHEREAL_BOOL */
      , (3730, 19, True) /* ATTACKABLE_BOOL */
      , (3730, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3730, 16, 'Inscribed spell: Drain Stamina Other VI
+Drains 40% of the target''s Stamina and gives it to the caster.') /* LONG_DESC_STRING */
+     , (3730, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3730, 19, 1000) /* VALUE_INT */
+     , (3730, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3730, 1254) /* DrainStamina6_SpellID */;
+

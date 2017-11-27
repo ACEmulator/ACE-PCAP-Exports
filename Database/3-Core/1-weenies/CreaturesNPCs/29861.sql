@@ -52,6 +52,16 @@ VALUES (29861, 2, 6) /* CREATURE_TYPE_INT */
      , (29861, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (29861, 25, 35) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (29861, 1, 120) /* STRENGTH_ATTRIBUTE */
+     , (29861, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (29861, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (29861, 8, 140) /* QUICKNESS_ATTRIBUTE */
+     , (29861, 16, 130) /* FOCUS_ATTRIBUTE */
+     , (29861, 32, 130) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29861, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (29861, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29861, 128, 240) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29861, 256, 180) /* MAX_MANA_ATTRIBUTE_2ND */;
 

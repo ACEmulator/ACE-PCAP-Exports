@@ -95,12 +95,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (49649, 5, 'Bowyer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (49649, 16, 67110062) /* EYES_PALETTE_DID */
-     , (49649, 9, 83890454) /* EYES_TEXTURE_DID */
-     , (49649, 17, 67109552) /* SKIN_PALETTE_DID */
-     , (49649, 10, 83890531) /* NOSE_TEXTURE_DID */
-     , (49649, 11, 83890619) /* MOUTH_TEXTURE_DID */
-     , (49649, 15, 67117021) /* HAIR_PALETTE_DID */;
+VALUES (49649, 16, 67109567) /* EYES_PALETTE_DID */
+     , (49649, 9, 83890511) /* EYES_TEXTURE_DID */
+     , (49649, 17, 67109553) /* SKIN_PALETTE_DID */
+     , (49649, 10, 83890547) /* NOSE_TEXTURE_DID */
+     , (49649, 11, 83890596) /* MOUTH_TEXTURE_DID */
+     , (49649, 15, 67116994) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49649, 113, 1) /* GENDER_INT */

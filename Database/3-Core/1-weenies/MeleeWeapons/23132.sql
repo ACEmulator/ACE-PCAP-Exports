@@ -40,3 +40,12 @@ VALUES (23132, 13, True) /* ETHEREAL_BOOL */
      , (23132, 19, True) /* ATTACKABLE_BOOL */
      , (23132, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23132, 16, 'Killed by Cat Devnull.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23132, 19, 0) /* VALUE_INT */
+     , (23132, 5, 6055) /* ENCUMB_VAL_INT */;
+

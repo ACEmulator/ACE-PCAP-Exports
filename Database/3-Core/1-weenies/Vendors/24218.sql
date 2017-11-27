@@ -98,12 +98,23 @@ VALUES (24218, 16, 67110063) /* EYES_PALETTE_DID */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24218, 113, 2) /* GENDER_INT */
      , (24218, 2, 31) /* CREATURE_TYPE_INT */
+     , (24218, 307, 5) /* DAMAGE_RATING_INT */
      , (24218, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (24218, 25, 8) /* LEVEL_INT */
      , (24218, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (24218, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (24218, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (24218, 4, 70) /* COORDINATION_ATTRIBUTE */
+     , (24218, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (24218, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (24218, 32, 40) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24218, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (24218, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24218, 128, 170) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24218, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 

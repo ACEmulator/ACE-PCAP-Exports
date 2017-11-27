@@ -32,3 +32,17 @@ VALUES (36063, 13, True) /* ETHEREAL_BOOL */
      , (36063, 19, True) /* ATTACKABLE_BOOL */
      , (36063, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36063, 16, 'Inscribed spell: Adja''s Gift
+Restores 80-150 points of the target''s Health.') /* LONG_DESC_STRING */
+     , (36063, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36063, 19, 2000) /* VALUE_INT */
+     , (36063, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (36063, 2072) /* healother7_SpellID */;
+

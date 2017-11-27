@@ -47,3 +47,30 @@ VALUES (12755, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12755, 0, 16777923);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12755, 15, 'An enhanced mace crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12755, 33, 1) /* BONDED_INT */
+     , (12755, 353, 4) /* WEAPON_TYPE_INT */
+     , (12755, 19, 200) /* VALUE_INT */
+     , (12755, 5, 200) /* ENCUMB_VAL_INT */
+     , (12755, 47, 4) /* ATTACK_TYPE_INT */
+     , (12755, 45, 4) /* DAMAGE_TYPE_INT */
+     , (12755, 49, 35) /* WEAPON_TIME_INT */
+     , (12755, 48, 44) /* WEAPON_SKILL_INT */
+     , (12755, 44, 18) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12755, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
+     , (12755, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (12755, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (12755, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12755, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12755, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12755, 69, 0) /* IS_SELLABLE_BOOL */;
+

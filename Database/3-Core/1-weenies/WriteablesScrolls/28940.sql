@@ -35,3 +35,17 @@ VALUES (28940, 13, True) /* ETHEREAL_BOOL */
      , (28940, 19, True) /* ATTACKABLE_BOOL */
      , (28940, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28940, 16, 'Inscribed spell: Arcanum Enlightenment I
+Increases the target''s Salvaging skill by 10 points.') /* LONG_DESC_STRING */
+     , (28940, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28940, 19, 1) /* VALUE_INT */
+     , (28940, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28940, 3506) /* ArcanumSalvagingOther1_SpellID */;
+

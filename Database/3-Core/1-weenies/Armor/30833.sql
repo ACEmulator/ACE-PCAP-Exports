@@ -42,3 +42,36 @@ VALUES (30833, 0, 83895780, 83895780)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30833, 0, 16791371);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30833, 16, 'A shield looted from the corpse of the Shadow Lugian Shoktok.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30833, 160, 80) /* WIELD_DIFFICULTY_INT */
+     , (30833, 19, 8000) /* VALUE_INT */
+     , (30833, 36, 9999) /* RESIST_MAGIC_INT */
+     , (30833, 5, 1000) /* ENCUMB_VAL_INT */
+     , (30833, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (30833, 28, 425) /* ARMOR_LEVEL_INT */
+     , (30833, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (30833, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (30833, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30833, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (30833, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (30833, 14, 1.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (30833, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (30833, 16, 1.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (30833, 17, 1.3) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (30833, 18, 1.2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (30833, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (30833, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30833, 3801) /* CantripShadowTouch_SpellID */
+     , (30833, 1114) /* BladeProtectionSelf6_SpellID */
+     , (30833, 1138) /* PiercingProtectionSelf6_SpellID */
+     , (30833, 1023) /* BludgeonProtectionSelf6_SpellID */;
+

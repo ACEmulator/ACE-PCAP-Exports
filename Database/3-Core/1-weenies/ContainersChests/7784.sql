@@ -44,7 +44,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (7784, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7784, 5, 9015) /* ENCUMB_VAL_INT */;
+VALUES (7784, 5, 9005) /* ENCUMB_VAL_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (7784, 2, 0) /* OPEN_BOOL */;

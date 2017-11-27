@@ -50,6 +50,20 @@ VALUES (21073, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21073, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21073, 14, 'Apply this material to a treasure-generated item in order to remove that item''s "Retained" status.') /* USE_STRING */
+     , (21073, 15, 'A brick of sandstone material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21073, 33, 1) /* BONDED_INT */
+     , (21073, 19, 915) /* VALUE_INT */
+     , (21073, 131, 70) /* MATERIAL_TYPE_INT */
+     , (21073, 5, 100) /* ENCUMB_VAL_INT */
+     , (21073, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (21073, 170, 1) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

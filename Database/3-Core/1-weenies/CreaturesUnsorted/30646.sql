@@ -56,12 +56,29 @@ VALUES (30646, 1, 16784273)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30646, 2, 3) /* CREATURE_TYPE_INT */
-     , (30646, 25, 115) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30646, 16, 'Amulet of Focus') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30646, 64, 503) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30646, 177, 3) /* GEM_COUNT_INT */
+     , (30646, 178, 49) /* GEM_TYPE_INT */
+     , (30646, 19, 6784) /* VALUE_INT */
+     , (30646, 131, 51) /* MATERIAL_TYPE_INT */
+     , (30646, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30646, 5, 100) /* ENCUMB_VAL_INT */
+     , (30646, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (30646, 106, 289) /* ITEM_SPELLCRAFT_INT */
+     , (30646, 108, 1416) /* ITEM_MAX_MANA_INT */
+     , (30646, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30646, 109, 297) /* ITEM_DIFFICULTY_INT */
+     , (30646, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30646, 5, -0.05555556) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30646, 2067) /* FocusSelf7_SpellID */
+     , (30646, 2619) /* CANTRIPFROSTWARD1_SpellID */;
 
 /* Corpse Treasure List */
 

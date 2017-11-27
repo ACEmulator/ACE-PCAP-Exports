@@ -43,8 +43,19 @@ VALUES (44054, 67114044, 0, 0);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44054, 2, 16) /* CREATURE_TYPE_INT */
-     , (44054, 25, 240) /* LEVEL_INT */;
+     , (44054, 25, 240) /* LEVEL_INT */
+     , (44054, 313, 40) /* CRIT_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (44054, 1, 260) /* STRENGTH_ATTRIBUTE */
+     , (44054, 2, 310) /* ENDURANCE_ATTRIBUTE */
+     , (44054, 4, 260) /* COORDINATION_ATTRIBUTE */
+     , (44054, 8, 280) /* QUICKNESS_ATTRIBUTE */
+     , (44054, 16, 220) /* FOCUS_ATTRIBUTE */
+     , (44054, 32, 200) /* SELF_ATTRIBUTE */;
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (44054, 64, 2755) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (44054, 64, 2755) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (44054, 128, 3310) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (44054, 256, 700) /* MAX_MANA_ATTRIBUTE_2ND */;
 

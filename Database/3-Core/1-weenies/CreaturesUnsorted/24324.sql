@@ -41,10 +41,15 @@ VALUES (24324, 67114311, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24324, 2, 14) /* CREATURE_TYPE_INT */
-     , (24324, 25, 100) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24324, 16, 'Inscribed spell: Energize Vigor
+Drains one-half of the caster''s Mana and gives 175% of that to his/her Stamina.') /* LONG_DESC_STRING */
+     , (24324, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24324, 64, 475) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24324, 19, 2000) /* VALUE_INT */
+     , (24324, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (24324, 2341) /* ManatoStaminaSelf7_SpellID */;
 

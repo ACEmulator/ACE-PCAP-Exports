@@ -45,3 +45,12 @@ VALUES (21919, 67114015, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21919, 0, 16788386);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21919, 16, 'Killed by Gareth the Wanderer.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21919, 19, 0) /* VALUE_INT */
+     , (21919, 5, 6205) /* ENCUMB_VAL_INT */;
+

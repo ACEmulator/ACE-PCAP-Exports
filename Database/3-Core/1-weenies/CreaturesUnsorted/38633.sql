@@ -97,20 +97,38 @@ VALUES (38633, 5, 16789351)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38633, 16, 67110063) /* EYES_PALETTE_DID */
-     , (38633, 9, 83890514) /* EYES_TEXTURE_DID */
-     , (38633, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (38633, 10, 83890560) /* NOSE_TEXTURE_DID */
-     , (38633, 11, 83890643) /* MOUTH_TEXTURE_DID */
-     , (38633, 15, 67117078) /* HAIR_PALETTE_DID */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38633, 16, 'Leather Sleeves') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38633, 113, 1) /* GENDER_INT */
-     , (38633, 2, 31) /* CREATURE_TYPE_INT */
-     , (38633, 25, 200) /* LEVEL_INT */
-     , (38633, 188, 1) /* HERITAGE_GROUP_INT */;
+VALUES (38633, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
+     , (38633, 19, 10940) /* VALUE_INT */
+     , (38633, 131, 52) /* MATERIAL_TYPE_INT */
+     , (38633, 115, 275) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (38633, 5, 509) /* ENCUMB_VAL_INT */
+     , (38633, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (38633, 106, 255) /* ITEM_SPELLCRAFT_INT */
+     , (38633, 28, 228) /* ARMOR_LEVEL_INT */
+     , (38633, 108, 801) /* ITEM_MAX_MANA_INT */
+     , (38633, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (38633, 109, 117) /* ITEM_DIFFICULTY_INT */
+     , (38633, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38633, 64, 1200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (38633, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (38633, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (38633, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (38633, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (38633, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (38633, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (38633, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (38633, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (38633, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38633, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (38633, 1540) /* LightningBane6_SpellID */
+     , (38633, 1484) /* Impenetrability4_SpellID */;
 

@@ -79,12 +79,12 @@ VALUES (1258, 0, 16787248)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1258, 2, 4) /* CREATURE_TYPE_INT */
-     , (1258, 25, 15) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1258, 16, 'Killed by Cabello.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1258, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1258, 19, 0) /* VALUE_INT */
+     , (1258, 5, 6462) /* ENCUMB_VAL_INT */;
 
 /* Corpse Treasure List */
 

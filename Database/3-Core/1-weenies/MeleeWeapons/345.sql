@@ -47,3 +47,44 @@ VALUES (345, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (345, 0, 16777945);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (345, 16, 'Simi') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (345, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (345, 177, 1) /* GEM_COUNT_INT */
+     , (345, 353, 2) /* WEAPON_TYPE_INT */
+     , (345, 178, 16) /* GEM_TYPE_INT */
+     , (345, 115, 219) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (345, 131, 51) /* MATERIAL_TYPE_INT */
+     , (345, 19, 3929) /* VALUE_INT */
+     , (345, 5, 330) /* ENCUMB_VAL_INT */
+     , (345, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (345, 106, 199) /* ITEM_SPELLCRAFT_INT */
+     , (345, 172, 7) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (345, 108, 667) /* ITEM_MAX_MANA_INT */
+     , (345, 109, 89) /* ITEM_DIFFICULTY_INT */
+     , (345, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (345, 47, 6) /* ATTACK_TYPE_INT */
+     , (345, 45, 3) /* DAMAGE_TYPE_INT */
+     , (345, 49, 27) /* WEAPON_TIME_INT */
+     , (345, 48, 44) /* WEAPON_SKILL_INT */
+     , (345, 44, 8) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (345, 29, 1.06301) /* WEAPON_DEFENSE_FLOAT */
+     , (345, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (345, 22, 0.5874971) /* DAMAGE_VARIANCE_FLOAT */
+     , (345, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (345, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (345, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (345, 62, 1.06666) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (345, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (345, 1615) /* BloodDrinker5_SpellID */;
+

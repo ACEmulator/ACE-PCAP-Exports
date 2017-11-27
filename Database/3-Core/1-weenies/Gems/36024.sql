@@ -46,6 +46,27 @@ VALUES (36024, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36024, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36024, 16, 'Using this gem will increase your War Magic skill by 150 for 9 minutes.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36024, 33, 1) /* BONDED_INT */
+     , (36024, 114, 1) /* ATTUNED_INT */
+     , (36024, 19, 5) /* VALUE_INT */
+     , (36024, 5, 5) /* ENCUMB_VAL_INT */
+     , (36024, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (36024, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (36024, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36024, 108, 1) /* RARE_USES_TIMER_BOOL */
+     , (36024, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (36024, 4142) /* WarMagicMasterySpectral_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

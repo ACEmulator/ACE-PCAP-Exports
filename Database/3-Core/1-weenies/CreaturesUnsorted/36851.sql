@@ -40,6 +40,36 @@ VALUES (36851, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36851, 67112860, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (36851, 16, 67109567) /* EYES_PALETTE_DID */
+     , (36851, 9, 83890508) /* EYES_TEXTURE_DID */
+     , (36851, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (36851, 10, 83890554) /* NOSE_TEXTURE_DID */
+     , (36851, 11, 83890666) /* MOUTH_TEXTURE_DID */
+     , (36851, 15, 67116996) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36851, 113, 1) /* GENDER_INT */
+     , (36851, 2, 22) /* CREATURE_TYPE_INT */
+     , (36851, 307, 5) /* DAMAGE_RATING_INT */
+     , (36851, 25, 100) /* LEVEL_INT */
+     , (36851, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (36851, 1, 140) /* STRENGTH_ATTRIBUTE */
+     , (36851, 2, 160) /* ENDURANCE_ATTRIBUTE */
+     , (36851, 4, 180) /* COORDINATION_ATTRIBUTE */
+     , (36851, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (36851, 16, 160) /* FOCUS_ATTRIBUTE */
+     , (36851, 32, 110) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (36851, 64, 385) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (36851, 128, 530) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (36851, 256, 490) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

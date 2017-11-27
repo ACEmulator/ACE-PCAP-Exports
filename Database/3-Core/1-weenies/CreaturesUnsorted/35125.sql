@@ -61,20 +61,10 @@ VALUES (35125, 0, 16793218)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (35125, 16, 67109565) /* EYES_PALETTE_DID */
-     , (35125, 9, 83890434) /* EYES_TEXTURE_DID */
-     , (35125, 17, 67110049) /* SKIN_PALETTE_DID */
-     , (35125, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (35125, 11, 83890624) /* MOUTH_TEXTURE_DID */
-     , (35125, 15, 67117022) /* HAIR_PALETTE_DID */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35125, 16, 'Killed by Mag-six.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35125, 113, 1) /* GENDER_INT */
-     , (35125, 2, 31) /* CREATURE_TYPE_INT */
-     , (35125, 25, 160) /* LEVEL_INT */
-     , (35125, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35125, 64, 1400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (35125, 19, 0) /* VALUE_INT */
+     , (35125, 5, 6803) /* ENCUMB_VAL_INT */;
 

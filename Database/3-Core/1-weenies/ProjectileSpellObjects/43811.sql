@@ -38,3 +38,12 @@ VALUES (43811, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43811, 1, True) /* STUCK_BOOL */
      , (43811, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43811, 16, 'Killed by Hydroptic.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43811, 19, 0) /* VALUE_INT */
+     , (43811, 5, 6838) /* ENCUMB_VAL_INT */;
+

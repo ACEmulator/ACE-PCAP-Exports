@@ -31,3 +31,14 @@ VALUES (45733, 13, True) /* ETHEREAL_BOOL */
      , (45733, 19, True) /* ATTACKABLE_BOOL */
      , (45733, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45733, 16, 'A large book who''s contents seem unreadable.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45733, 33, 1) /* BONDED_INT */
+     , (45733, 114, 1) /* ATTUNED_INT */
+     , (45733, 19, 0) /* VALUE_INT */
+     , (45733, 5, 50) /* ENCUMB_VAL_INT */;
+

@@ -46,3 +46,48 @@ VALUES (12188, 0, 83886747, 83886747)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12188, 0, 16777986);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12188, 16, 'Acid Crossbow of Endurance') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12188, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
+     , (12188, 160, 360) /* WIELD_DIFFICULTY_INT */
+     , (12188, 353, 9) /* WEAPON_TYPE_INT */
+     , (12188, 177, 4) /* GEM_COUNT_INT */
+     , (12188, 178, 26) /* GEM_TYPE_INT */
+     , (12188, 19, 14901) /* VALUE_INT */
+     , (12188, 131, 62) /* MATERIAL_TYPE_INT */
+     , (12188, 115, 325) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (12188, 5, 1190) /* ENCUMB_VAL_INT */
+     , (12188, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (12188, 106, 305) /* ITEM_SPELLCRAFT_INT */
+     , (12188, 108, 1984) /* ITEM_MAX_MANA_INT */
+     , (12188, 204, 10) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (12188, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (12188, 109, 156) /* ITEM_DIFFICULTY_INT */
+     , (12188, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (12188, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (12188, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (12188, 45, 32) /* DAMAGE_TYPE_INT */
+     , (12188, 49, 99) /* WEAPON_TIME_INT */
+     , (12188, 48, 47) /* WEAPON_SKILL_INT */
+     , (12188, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12188, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (12188, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */
+     , (12188, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (12188, 63, 2.65) /* DAMAGE_MOD_FLOAT */
+     , (12188, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12188, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12188, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12188, 2061) /* EnduranceSelf7_SpellID */
+     , (12188, 1627) /* SwiftKiller6_SpellID */
+     , (12188, 2598) /* CANTRIPBLOODTHIRST1_SpellID */
+     , (12188, 2608) /* CANTRIPSWIFTHUNTER1_SpellID */
+     , (12188, 2096) /* BloodDrinker7_SpellID */;
+

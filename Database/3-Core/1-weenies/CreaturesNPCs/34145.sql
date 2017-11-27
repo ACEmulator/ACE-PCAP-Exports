@@ -93,12 +93,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (34145, 5, 'Mask Maker') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (34145, 16, 67110063) /* EYES_PALETTE_DID */
-     , (34145, 9, 83890516) /* EYES_TEXTURE_DID */
-     , (34145, 17, 67115907) /* SKIN_PALETTE_DID */
-     , (34145, 10, 83890546) /* NOSE_TEXTURE_DID */
-     , (34145, 11, 83890663) /* MOUTH_TEXTURE_DID */
-     , (34145, 15, 67117016) /* HAIR_PALETTE_DID */;
+VALUES (34145, 16, 67110065) /* EYES_PALETTE_DID */
+     , (34145, 9, 83890451) /* EYES_TEXTURE_DID */
+     , (34145, 17, 67115904) /* SKIN_PALETTE_DID */
+     , (34145, 10, 83890561) /* NOSE_TEXTURE_DID */
+     , (34145, 11, 83890630) /* MOUTH_TEXTURE_DID */
+     , (34145, 15, 67116980) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34145, 113, 1) /* GENDER_INT */

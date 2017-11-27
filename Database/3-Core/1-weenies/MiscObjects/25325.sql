@@ -30,3 +30,14 @@ VALUES (25325, 13, True) /* ETHEREAL_BOOL */
      , (25325, 19, True) /* ATTACKABLE_BOOL */
      , (25325, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25325, 16, 'This mechanism appears to be made of some unknown alloy. Perhaps an Agent of the Arcanum would know what it is?') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25325, 33, 1) /* BONDED_INT */
+     , (25325, 114, 1) /* ATTUNED_INT */
+     , (25325, 19, 0) /* VALUE_INT */
+     , (25325, 5, 25) /* ENCUMB_VAL_INT */;
+

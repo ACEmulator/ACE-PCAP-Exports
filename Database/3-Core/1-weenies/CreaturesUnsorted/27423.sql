@@ -77,6 +77,37 @@ VALUES (27423, 0, 16787248)
      , (27423, 15, 16787257)
      , (27423, 16, 16787256);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27423, 16, 'A statue that transports those who are Masters of their Society to the Ruins of Degar''Alesh.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27423, 384, 0) /*  */
+     , (27423, 370, 0) /* GEAR_DAMAGE_INT */
+     , (27423, 386, 0) /*  */
+     , (27423, 307, 0) /* DAMAGE_RATING_INT */
+     , (27423, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (27423, 387, 0) /*  */
+     , (27423, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (27423, 372, 0) /* GEAR_CRIT_INT */
+     , (27423, 388, 0) /*  */
+     , (27423, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (27423, 389, 0) /*  */
+     , (27423, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (27423, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (27423, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (27423, 313, 0) /* CRIT_RATING_INT */
+     , (27423, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (27423, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (27423, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (27423, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (27423, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (27423, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (27423, 381, 0) /*  */
+     , (27423, 382, 0) /*  */
+     , (27423, 383, 0) /*  */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

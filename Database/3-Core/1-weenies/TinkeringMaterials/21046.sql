@@ -50,6 +50,20 @@ VALUES (21046, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21046, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21046, 14, 'Apply this material to a Minor, Moderate or Major Armature to prepare it. Then apply this material to the prepared Armature. This Armature can then be used on a magical loot-generated Trinket to add Minor, Moderate or Major Augmented Damage. This also increases the Spellcraft and Arcane Lore of the trinket by 25.') /* USE_STRING */
+     , (21046, 15, 'Chips of diamond material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21046, 33, 1) /* BONDED_INT */
+     , (21046, 131, 20) /* MATERIAL_TYPE_INT */
+     , (21046, 19, 18766) /* VALUE_INT */
+     , (21046, 5, 100) /* ENCUMB_VAL_INT */
+     , (21046, 105, 71) /* ITEM_WORKMANSHIP_INT */
+     , (21046, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

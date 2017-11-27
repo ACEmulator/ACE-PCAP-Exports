@@ -39,8 +39,19 @@ VALUES (24479, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24479, 2, 13) /* CREATURE_TYPE_INT */
+     , (24479, 307, 2) /* DAMAGE_RATING_INT */
      , (24479, 25, 115) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (24479, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (24479, 2, 290) /* ENDURANCE_ATTRIBUTE */
+     , (24479, 4, 190) /* COORDINATION_ATTRIBUTE */
+     , (24479, 8, 190) /* QUICKNESS_ATTRIBUTE */
+     , (24479, 16, 190) /* FOCUS_ATTRIBUTE */
+     , (24479, 32, 190) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24479, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (24479, 64, 555) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24479, 128, 520) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24479, 256, 475) /* MAX_MANA_ATTRIBUTE_2ND */;
 

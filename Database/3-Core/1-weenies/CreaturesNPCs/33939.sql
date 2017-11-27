@@ -91,12 +91,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (33939, 5, 'Pet Store Manager') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (33939, 16, 67110064) /* EYES_PALETTE_DID */
-     , (33939, 9, 83890277) /* EYES_TEXTURE_DID */
-     , (33939, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (33939, 10, 83890314) /* NOSE_TEXTURE_DID */
-     , (33939, 11, 83890326) /* MOUTH_TEXTURE_DID */
-     , (33939, 15, 67117075) /* HAIR_PALETTE_DID */;
+VALUES (33939, 16, 67110063) /* EYES_PALETTE_DID */
+     , (33939, 9, 83890276) /* EYES_TEXTURE_DID */
+     , (33939, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (33939, 10, 83890292) /* NOSE_TEXTURE_DID */
+     , (33939, 11, 83890356) /* MOUTH_TEXTURE_DID */
+     , (33939, 15, 67116981) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33939, 113, 2) /* GENDER_INT */
@@ -105,6 +105,16 @@ VALUES (33939, 113, 2) /* GENDER_INT */
      , (33939, 25, 15) /* LEVEL_INT */
      , (33939, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33939, 1, 50) /* STRENGTH_ATTRIBUTE */
+     , (33939, 2, 50) /* ENDURANCE_ATTRIBUTE */
+     , (33939, 4, 60) /* COORDINATION_ATTRIBUTE */
+     , (33939, 8, 40) /* QUICKNESS_ATTRIBUTE */
+     , (33939, 16, 130) /* FOCUS_ATTRIBUTE */
+     , (33939, 32, 135) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33939, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (33939, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33939, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33939, 256, 185) /* MAX_MANA_ATTRIBUTE_2ND */;
 

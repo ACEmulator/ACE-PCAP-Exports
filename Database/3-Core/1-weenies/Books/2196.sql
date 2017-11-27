@@ -42,3 +42,19 @@ VALUES (2196, 19, 3) /* VALUE_INT */
      , (2196, 174, 1) /* APPRAISAL_PAGES_INT */
      , (2196, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2196, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (2196, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (2196, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (2196, 0, '', 'prewritten', 4294967295, 0, 'Personal Note:
+
+Note to myself: Dungeon found in Green Mire wherein Sho hero was killed; now called Green Mire Grave.  Don''t know what lies in deepest levels.  Must leave now; will come back and seek the other keys.  Surely some monster has picked up the key for the lowest door, too.  Dratted, wretched beasts!
+ 
+');
+

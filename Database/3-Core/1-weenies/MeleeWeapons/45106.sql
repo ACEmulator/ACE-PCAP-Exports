@@ -52,3 +52,41 @@ VALUES (45106, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45106, 0, 16777934);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45106, 16, 'Flaming Rapier of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45106, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (45106, 353, 2) /* WEAPON_TYPE_INT */
+     , (45106, 115, 129) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (45106, 131, 59) /* MATERIAL_TYPE_INT */
+     , (45106, 19, 1559) /* VALUE_INT */
+     , (45106, 5, 450) /* ENCUMB_VAL_INT */
+     , (45106, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (45106, 106, 109) /* ITEM_SPELLCRAFT_INT */
+     , (45106, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (45106, 108, 601) /* ITEM_MAX_MANA_INT */
+     , (45106, 109, 44) /* ITEM_DIFFICULTY_INT */
+     , (45106, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (45106, 47, 160) /* ATTACK_TYPE_INT */
+     , (45106, 45, 16) /* DAMAGE_TYPE_INT */
+     , (45106, 49, 27) /* WEAPON_TIME_INT */
+     , (45106, 48, 46) /* WEAPON_SKILL_INT */
+     , (45106, 44, 5) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45106, 149, 1.01) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (45106, 29, 1.01) /* WEAPON_DEFENSE_FLOAT */
+     , (45106, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (45106, 22, 0.28) /* DAMAGE_VARIANCE_FLOAT */
+     , (45106, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (45106, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (45106, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (45106, 62, 1.01) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (45106, 1612) /* BloodDrinker2_SpellID */
+     , (45106, 1589) /* HeartSeeker3_SpellID */;
+

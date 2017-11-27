@@ -35,6 +35,29 @@ VALUES (8583, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8583, 19, True) /* ATTACKABLE_BOOL */
      , (8583, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8583, 16, 'Piercing Sceptre') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8583, 160, 310) /* WIELD_DIFFICULTY_INT */
+     , (8583, 177, 2) /* GEM_COUNT_INT */
+     , (8583, 178, 50) /* GEM_TYPE_INT */
+     , (8583, 19, 2073) /* VALUE_INT */
+     , (8583, 131, 63) /* MATERIAL_TYPE_INT */
+     , (8583, 5, 50) /* ENCUMB_VAL_INT */
+     , (8583, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (8583, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (8583, 45, 2) /* DAMAGE_TYPE_INT */
+     , (8583, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (8583, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8583, 144, 0.07) /* MANA_CONVERSION_MOD_FLOAT */
+     , (8583, 152, 1.04) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (8583, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

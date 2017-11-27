@@ -48,3 +48,12 @@ VALUES (48039, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48039, 0, 16777920);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48039, 16, 'Killed by Timthos.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48039, 19, 0) /* VALUE_INT */
+     , (48039, 5, 6075) /* ENCUMB_VAL_INT */;
+

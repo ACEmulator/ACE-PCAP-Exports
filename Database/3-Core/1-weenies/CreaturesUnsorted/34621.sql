@@ -41,10 +41,12 @@ VALUES (34621, 67113048, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34621, 2, 4) /* CREATURE_TYPE_INT */
-     , (34621, 25, 125) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34621, 16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34621, 64, 100000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34621, 33, 1) /* BONDED_INT */
+     , (34621, 114, 1) /* ATTUNED_INT */
+     , (34621, 19, 0) /* VALUE_INT */
+     , (34621, 5, 10) /* ENCUMB_VAL_INT */;
 

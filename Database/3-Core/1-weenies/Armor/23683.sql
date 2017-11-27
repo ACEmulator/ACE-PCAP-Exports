@@ -47,3 +47,29 @@ VALUES (23683, 0, 83890141, 83890141);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23683, 0, 16777989);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23683, 16, 'Leather Pauldrons') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23683, 19, 5123) /* VALUE_INT */
+     , (23683, 131, 52) /* MATERIAL_TYPE_INT */
+     , (23683, 5, 356) /* ENCUMB_VAL_INT */
+     , (23683, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (23683, 28, 235) /* ARMOR_LEVEL_INT */
+     , (23683, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23683, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (23683, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (23683, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (23683, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (23683, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (23683, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (23683, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (23683, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23683, 100, 1) /* DYABLE_BOOL */;
+

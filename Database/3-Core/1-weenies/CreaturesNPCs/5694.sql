@@ -97,12 +97,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5694, 5, 'Translator') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5694, 16, 67110062) /* EYES_PALETTE_DID */
-     , (5694, 9, 83890446) /* EYES_TEXTURE_DID */
-     , (5694, 17, 67110045) /* SKIN_PALETTE_DID */
-     , (5694, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (5694, 11, 83890636) /* MOUTH_TEXTURE_DID */
-     , (5694, 15, 67117077) /* HAIR_PALETTE_DID */;
+VALUES (5694, 16, 67110063) /* EYES_PALETTE_DID */
+     , (5694, 9, 83890452) /* EYES_TEXTURE_DID */
+     , (5694, 17, 67110048) /* SKIN_PALETTE_DID */
+     , (5694, 10, 83890527) /* NOSE_TEXTURE_DID */
+     , (5694, 11, 83890566) /* MOUTH_TEXTURE_DID */
+     , (5694, 15, 67117076) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5694, 113, 1) /* GENDER_INT */
@@ -111,6 +111,16 @@ VALUES (5694, 113, 1) /* GENDER_INT */
      , (5694, 25, 63) /* LEVEL_INT */
      , (5694, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (5694, 1, 140) /* STRENGTH_ATTRIBUTE */
+     , (5694, 2, 180) /* ENDURANCE_ATTRIBUTE */
+     , (5694, 4, 165) /* COORDINATION_ATTRIBUTE */
+     , (5694, 8, 160) /* QUICKNESS_ATTRIBUTE */
+     , (5694, 16, 250) /* FOCUS_ATTRIBUTE */
+     , (5694, 32, 270) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5694, 64, 265) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (5694, 64, 265) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5694, 128, 290) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5694, 256, 525) /* MAX_MANA_ATTRIBUTE_2ND */;
 

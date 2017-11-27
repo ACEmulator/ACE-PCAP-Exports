@@ -38,11 +38,11 @@ VALUES (40490, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40490, 14, 'Use this item to drink it.') /* USE_STRING */;
+VALUES (40490, 15, 'A translation of a Virindi message shard found in the Apostate Citadel.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40490, 19, 500) /* VALUE_INT */
-     , (40490, 5, 50) /* ENCUMB_VAL_INT */
-     , (40490, 89, 2) /* BOOSTER_ENUM_INT */
-     , (40490, 90, 50) /* BOOST_VALUE_INT */;
+VALUES (40490, 19, 0) /* VALUE_INT */
+     , (40490, 5, 5) /* ENCUMB_VAL_INT */
+     , (40490, 174, 4) /* APPRAISAL_PAGES_INT */
+     , (40490, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
 

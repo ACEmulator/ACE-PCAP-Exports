@@ -39,6 +39,23 @@ VALUES (28453, 13, True) /* ETHEREAL_BOOL */
      , (28453, 14, True) /* GRAVITY_STATUS_BOOL */
      , (28453, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28453, 16, 'A hefty loaf of hardtack bread.') /* LONG_DESC_STRING */
+     , (28453, 14, 'Eat this bread to utilize the bread''s magical qualities.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28453, 19, 100) /* VALUE_INT */
+     , (28453, 5, 125) /* ENCUMB_VAL_INT */
+     , (28453, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (28453, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (28453, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (28453, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28453, 3440) /* LugianHealth_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

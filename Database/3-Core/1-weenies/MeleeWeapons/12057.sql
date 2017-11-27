@@ -46,3 +46,30 @@ VALUES (12057, 0, 83886747, 83886747)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12057, 0, 16777986);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12057, 14, 'Use this essence to summon or dismiss your Frost Moar.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12057, 33, 0) /* BONDED_INT */
+     , (12057, 369, 40) /* USE_REQUIRES_LEVEL_INT */
+     , (12057, 114, 0) /* ATTUNED_INT */
+     , (12057, 370, 6) /* GEAR_DAMAGE_INT */
+     , (12057, 19, 4000) /* VALUE_INT */
+     , (12057, 372, 17) /* GEAR_CRIT_INT */
+     , (12057, 5, 50) /* ENCUMB_VAL_INT */
+     , (12057, 374, 15) /* GEAR_CRIT_DAMAGE_INT */
+     , (12057, 375, 19) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (12057, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (12057, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (12057, 91, 50) /* MAX_STRUCTURE_INT */
+     , (12057, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (12057, 367, 310) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12057, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12057, 69, 1) /* IS_SELLABLE_BOOL */;
+

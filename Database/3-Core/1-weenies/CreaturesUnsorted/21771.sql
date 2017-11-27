@@ -100,10 +100,12 @@ VALUES (21771, 0, 16782756)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21771, 2, 62) /* CREATURE_TYPE_INT */
-     , (21771, 25, 999) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21771, 14, 'Use this item to drink it.') /* USE_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (21771, 64, 15001) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21771, 19, 500) /* VALUE_INT */
+     , (21771, 5, 150) /* ENCUMB_VAL_INT */
+     , (21771, 89, 4) /* BOOSTER_ENUM_INT */
+     , (21771, 90, 100) /* BOOST_VALUE_INT */;
 

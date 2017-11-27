@@ -43,7 +43,10 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (35467, 14, 'A mysterious vault.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35467, 5, 12062) /* ENCUMB_VAL_INT */;
+VALUES (35467, 19, 2500) /* VALUE_INT */
+     , (35467, 5, 13950) /* ENCUMB_VAL_INT */
+     , (35467, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (35467, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (35467, 2, 0) /* OPEN_BOOL */

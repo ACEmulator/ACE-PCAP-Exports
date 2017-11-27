@@ -34,3 +34,25 @@ VALUES (1221, 13, True) /* ETHEREAL_BOOL */
      , (1221, 14, True) /* GRAVITY_STATUS_BOOL */
      , (1221, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1221, 19, 5) /* VALUE_INT */
+     , (1221, 5, 25) /* ENCUMB_VAL_INT */
+     , (1221, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (1221, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1221, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (1221, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (1221, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (1221, 0, 'Holtburg Dungeon Directions', 'prewritten', 4294967295, 0, '
+A portal to an old dungeon, dating back centuries, lies in the marsh northwest of Holtburg. Rats, drudges, and other fell beasts dwell within. Rumors say the deepest sections are dangerous for the inexperienced (I know not what lurks there), but thankfully that area has apparently been locked off. Only the hardy should dare go into those depths.  By the way, you may find a strange key in your explorations.  No one here quite knows what it''s for, but a woman named Iquba was asking an awful lot of questions about it recently. She lives in Qalaba''r, and she may know more.
+');
+

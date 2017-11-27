@@ -61,9 +61,11 @@ VALUES (46068, 0, 16787898)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46068, 2, 3) /* CREATURE_TYPE_INT */
-     , (46068, 25, 80) /* LEVEL_INT */;
+VALUES (46068, 19, 120) /* VALUE_INT */
+     , (46068, 5, 50) /* ENCUMB_VAL_INT */
+     , (46068, 90, 100) /* BOOST_VALUE_INT */
+     , (46068, 91, 30) /* MAX_STRUCTURE_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46068, 64, 258) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46068, 100, 1) /* HEALKIT_MOD_FLOAT */;
 

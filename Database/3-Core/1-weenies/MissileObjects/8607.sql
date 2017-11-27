@@ -37,3 +37,46 @@ VALUES (8607, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8607, 1, True) /* STUCK_BOOL */
      , (8607, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8607, 384, 0) /*  */
+     , (8607, 370, 0) /* GEAR_DAMAGE_INT */
+     , (8607, 386, 0) /*  */
+     , (8607, 307, 0) /* DAMAGE_RATING_INT */
+     , (8607, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (8607, 387, 0) /*  */
+     , (8607, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (8607, 372, 0) /* GEAR_CRIT_INT */
+     , (8607, 388, 0) /*  */
+     , (8607, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (8607, 389, 0) /*  */
+     , (8607, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (8607, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (8607, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (8607, 313, 0) /* CRIT_RATING_INT */
+     , (8607, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (8607, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (8607, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (8607, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (8607, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (8607, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (8607, 381, 0) /*  */
+     , (8607, 382, 0) /*  */
+     , (8607, 383, 0) /*  */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8607, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (8607, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (8607, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (8607, 0, 'Unknown author, translated by Akyafi ibn Sumwar', 'prewritten', 4294967295, 0, '
+you that come after here we meet air walkers say come from between-place made strong us made dark us want strong wait you here come be strong never fear small eyes with hit things never be run away made come they leave talking-star to call you 
+
+');
+

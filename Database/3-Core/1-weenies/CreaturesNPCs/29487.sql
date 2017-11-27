@@ -81,23 +81,13 @@ VALUES (29487, 12, 16777304)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29487, 5, 'Knight of Karlun') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (29487, 16, 67110064) /* EYES_PALETTE_DID */
-     , (29487, 9, 83890445) /* EYES_TEXTURE_DID */
-     , (29487, 17, 67115906) /* SKIN_PALETTE_DID */
-     , (29487, 10, 83890546) /* NOSE_TEXTURE_DID */
-     , (29487, 11, 83890662) /* MOUTH_TEXTURE_DID */
-     , (29487, 15, 67116988) /* HAIR_PALETTE_DID */;
+VALUES (29487, 15, 'A bright red piece of paper with some writing on it.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29487, 113, 1) /* GENDER_INT */
-     , (29487, 2, 31) /* CREATURE_TYPE_INT */
-     , (29487, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (29487, 25, 29) /* LEVEL_INT */
-     , (29487, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29487, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (29487, 33, 0) /* BONDED_INT */
+     , (29487, 114, 0) /* ATTUNED_INT */
+     , (29487, 19, 1) /* VALUE_INT */
+     , (29487, 5, 10) /* ENCUMB_VAL_INT */
+     , (29487, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (29487, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 

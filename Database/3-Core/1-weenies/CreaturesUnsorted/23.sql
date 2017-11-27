@@ -34,12 +34,24 @@ VALUES (23, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23, 2, 19) /* CREATURE_TYPE_INT */
-     , (23, 25, 40) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23, 16, 'Gem of Protection') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (23, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23, 19, 999) /* VALUE_INT */
+     , (23, 131, 28) /* MATERIAL_TYPE_INT */
+     , (23, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (23, 5, 5) /* ENCUMB_VAL_INT */
+     , (23, 117, 300) /* ITEM_MANA_COST_INT */
+     , (23, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (23, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (23, 108, 467) /* ITEM_MAX_MANA_INT */
+     , (23, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (23, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (23, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23, 1311) /* ArmorSelf5_SpellID */;
 
 /* Corpse Treasure List */
 

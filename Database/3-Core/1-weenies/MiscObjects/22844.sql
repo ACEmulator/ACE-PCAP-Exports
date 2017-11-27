@@ -34,3 +34,13 @@ VALUES (22844, 13, True) /* ETHEREAL_BOOL */
      , (22844, 19, True) /* ATTACKABLE_BOOL */
      , (22844, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22844, 14, 'This item can be used on floor and yard hooks.') /* USE_STRING */
+     , (22844, 15, 'A log that can be used as a stool.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22844, 19, 5000) /* VALUE_INT */
+     , (22844, 5, 200) /* ENCUMB_VAL_INT */;
+

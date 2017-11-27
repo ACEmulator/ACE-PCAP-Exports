@@ -42,6 +42,17 @@ VALUES (9540, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9540, 67113187, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9540, 14, 'Use this item to eat it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9540, 19, 1) /* VALUE_INT */
+     , (9540, 5, 2) /* ENCUMB_VAL_INT */
+     , (9540, 89, 4) /* BOOSTER_ENUM_INT */
+     , (9540, 90, 4) /* BOOST_VALUE_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

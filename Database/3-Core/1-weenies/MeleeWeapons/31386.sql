@@ -45,3 +45,14 @@ VALUES (31386, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31386, 0, 16791843);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31386, 15, 'A collection of fragments that appears to have once been a key. Use an intricate carving tool to reassemble the pieces.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31386, 33, 1) /* BONDED_INT */
+     , (31386, 114, 1) /* ATTUNED_INT */
+     , (31386, 19, 0) /* VALUE_INT */
+     , (31386, 5, 50) /* ENCUMB_VAL_INT */;
+

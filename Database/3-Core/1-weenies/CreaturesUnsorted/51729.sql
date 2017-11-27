@@ -38,10 +38,10 @@ VALUES (51729, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51729, 2, 19) /* CREATURE_TYPE_INT */
-     , (51729, 25, 250) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51729, 16, 'Killed by Jakka''s Wisp.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51729, 64, 10100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51729, 19, 0) /* VALUE_INT */
+     , (51729, 5, 6129) /* ENCUMB_VAL_INT */;
 

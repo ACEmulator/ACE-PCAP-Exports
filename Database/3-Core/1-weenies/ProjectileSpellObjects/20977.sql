@@ -38,3 +38,12 @@ VALUES (20977, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (20977, 1, True) /* STUCK_BOOL */
      , (20977, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20977, 16, 'Killed by Mentel Mage.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20977, 19, 0) /* VALUE_INT */
+     , (20977, 5, 6000) /* ENCUMB_VAL_INT */;
+

@@ -32,6 +32,36 @@ VALUES (14426, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (14426, 19, True) /* ATTACKABLE_BOOL */
      , (14426, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (14426, 16, 67110063) /* EYES_PALETTE_DID */
+     , (14426, 9, 83890514) /* EYES_TEXTURE_DID */
+     , (14426, 17, 67110055) /* SKIN_PALETTE_DID */
+     , (14426, 10, 83890518) /* NOSE_TEXTURE_DID */
+     , (14426, 11, 83890587) /* MOUTH_TEXTURE_DID */
+     , (14426, 15, 67117022) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14426, 113, 1) /* GENDER_INT */
+     , (14426, 2, 59) /* CREATURE_TYPE_INT */
+     , (14426, 307, 5) /* DAMAGE_RATING_INT */
+     , (14426, 25, 40) /* LEVEL_INT */
+     , (14426, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (14426, 1, 250) /* STRENGTH_ATTRIBUTE */
+     , (14426, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (14426, 4, 115) /* COORDINATION_ATTRIBUTE */
+     , (14426, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (14426, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (14426, 32, 120) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (14426, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (14426, 128, 350) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (14426, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

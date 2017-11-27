@@ -44,3 +44,12 @@ VALUES (10949, 67116630, 1, 48)
      , (10949, 67116625, 200, 8)
      , (10949, 67116640, 208, 48);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10949, 2, 58) /* CREATURE_TYPE_INT */
+     , (10949, 25, 80) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (10949, 64, 330) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

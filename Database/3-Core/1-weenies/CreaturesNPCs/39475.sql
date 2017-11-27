@@ -82,12 +82,24 @@ VALUES (39475, 16, 67110063) /* EYES_PALETTE_DID */
      , (39475, 15, 67117069) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39475, 113, 1) /* GENDER_INT */
+VALUES (39475, 288, 1001) /* SOCIETY_RANK_ELDWEB_INT */
+     , (39475, 113, 1) /* GENDER_INT */
      , (39475, 2, 31) /* CREATURE_TYPE_INT */
      , (39475, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (39475, 25, 180) /* LEVEL_INT */
+     , (39475, 281, 2) /* FACTION1_BITS_INT */
      , (39475, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (39475, 1, 240) /* STRENGTH_ATTRIBUTE */
+     , (39475, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (39475, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (39475, 8, 250) /* QUICKNESS_ATTRIBUTE */
+     , (39475, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (39475, 32, 290) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (39475, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (39475, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (39475, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (39475, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
 

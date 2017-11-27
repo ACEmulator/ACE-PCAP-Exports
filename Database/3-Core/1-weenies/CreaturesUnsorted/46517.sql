@@ -69,12 +69,17 @@ VALUES (46517, 0, 16796693)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46517, 2, 77) /* CREATURE_TYPE_INT */
-     , (46517, 25, 220) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46517, 16, 'Inscribed spell: Weaken Lock VI
+Decreases a lock''s resistance to picking by 150 points.') /* LONG_DESC_STRING */
+     , (46517, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46517, 64, 2850) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46517, 19, 1000) /* VALUE_INT */
+     , (46517, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46517, 1586) /* WeakenLock6_SpellID */;
 
 /* Corpse Treasure List */
 

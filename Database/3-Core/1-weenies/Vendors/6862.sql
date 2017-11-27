@@ -91,22 +91,71 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (6862, 5, 'Weaponsmith') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (6862, 16, 67110063) /* EYES_PALETTE_DID */
-     , (6862, 9, 83890277) /* EYES_TEXTURE_DID */
-     , (6862, 17, 67110055) /* SKIN_PALETTE_DID */
+VALUES (6862, 16, 67109565) /* EYES_PALETTE_DID */
+     , (6862, 9, 83890283) /* EYES_TEXTURE_DID */
+     , (6862, 17, 67110059) /* SKIN_PALETTE_DID */
      , (6862, 10, 83890317) /* NOSE_TEXTURE_DID */
-     , (6862, 11, 83890324) /* MOUTH_TEXTURE_DID */
-     , (6862, 15, 67117075) /* HAIR_PALETTE_DID */;
+     , (6862, 11, 83890318) /* MOUTH_TEXTURE_DID */
+     , (6862, 15, 67116991) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (6862, 113, 2) /* GENDER_INT */
      , (6862, 2, 31) /* CREATURE_TYPE_INT */
+     , (6862, 307, 5) /* DAMAGE_RATING_INT */
      , (6862, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (6862, 25, 23) /* LEVEL_INT */
      , (6862, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (6862, 1, 140) /* STRENGTH_ATTRIBUTE */
+     , (6862, 2, 130) /* ENDURANCE_ATTRIBUTE */
+     , (6862, 4, 150) /* COORDINATION_ATTRIBUTE */
+     , (6862, 8, 130) /* QUICKNESS_ATTRIBUTE */
+     , (6862, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (6862, 32, 95) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6862, 64, 185) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (6862, 64, 185) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (6862, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (6862, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6862, 74, 1074004225) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (6862, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (6862, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6862, 37, 0.7) /* BUY_PRICE_FLOAT */
+     , (6862, 38, 1.9) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6862, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6862, 4, 4195) /* Nekode */
+     , (6862, 4, 314) /* Dagger */
+     , (6862, 4, 22158) /* Jo */
+     , (6862, 4, 327) /* Ken */
+     , (6862, 4, 336) /* Ono */
+     , (6862, 4, 353) /* Tachi */
+     , (6862, 4, 356) /* Tofun */
+     , (6862, 4, 362) /* Yari */
+     , (6862, 4, 359) /* War Hammer */
+     , (6862, 4, 310) /* Throwing Club */
+     , (6862, 4, 2621) /* Trade Note (100) */
+     , (6862, 4, 2622) /* Trade Note (500) */
+     , (6862, 4, 2623) /* Trade Note (1,000) */
+     , (6862, 4, 2624) /* Trade Note (5,000) */
+     , (6862, 4, 2625) /* Trade Note (10,000) */
+     , (6862, 4, 2626) /* Trade Note (50,000) */
+     , (6862, 4, 2627) /* Trade Note (100,000) */
+     , (6862, 4, 20628) /* Trade Note (150,000) */
+     , (6862, 4, 20629) /* Trade Note (200,000) */
+     , (6862, 4, 20630) /* Trade Note (250,000) */;
 
 /* Object Wield List */
 

@@ -35,3 +35,15 @@ VALUES (22635, 13, True) /* ETHEREAL_BOOL */
      , (22635, 14, True) /* GRAVITY_STATUS_BOOL */
      , (22635, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22635, 15, 'This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22635, 33, 1) /* BONDED_INT */
+     , (22635, 19, 5000) /* VALUE_INT */
+     , (22635, 5, 60) /* ENCUMB_VAL_INT */
+     , (22635, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (22635, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

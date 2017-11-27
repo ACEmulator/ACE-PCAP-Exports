@@ -34,3 +34,13 @@ VALUES (9468, 13, True) /* ETHEREAL_BOOL */
      , (9468, 19, True) /* ATTACKABLE_BOOL */
      , (9468, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9468, 16, 'The Blade of the Heart has the longest and saddest histories of the three totems symbolizing the Lugian traditions.  The blade is meant to symbolize the power and the danger of a pure heart.  In the past it has been used literally to demonstrate these truths.  This blade has known blood.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9468, 33, 1) /* BONDED_INT */
+     , (9468, 19, 0) /* VALUE_INT */
+     , (9468, 5, 400) /* ENCUMB_VAL_INT */;
+

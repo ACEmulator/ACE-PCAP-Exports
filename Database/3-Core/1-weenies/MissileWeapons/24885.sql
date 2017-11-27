@@ -42,6 +42,15 @@ VALUES (24885, 13, True) /* ETHEREAL_BOOL */
      , (24885, 19, True) /* ATTACKABLE_BOOL */
      , (24885, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24885, 16, 'Killed by Callaway.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24885, 19, 0) /* VALUE_INT */
+     , (24885, 5, 7797) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -92,12 +92,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31652, 5, 'Dire Mattekar Dispatcher') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31652, 16, 67110065) /* EYES_PALETTE_DID */
-     , (31652, 9, 83890482) /* EYES_TEXTURE_DID */
-     , (31652, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (31652, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (31652, 11, 83890667) /* MOUTH_TEXTURE_DID */
-     , (31652, 15, 67116999) /* HAIR_PALETTE_DID */;
+VALUES (31652, 16, 67109566) /* EYES_PALETTE_DID */
+     , (31652, 9, 83890457) /* EYES_TEXTURE_DID */
+     , (31652, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (31652, 10, 83890556) /* NOSE_TEXTURE_DID */
+     , (31652, 11, 83890639) /* MOUTH_TEXTURE_DID */
+     , (31652, 15, 67117071) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31652, 113, 1) /* GENDER_INT */
@@ -106,6 +106,16 @@ VALUES (31652, 113, 1) /* GENDER_INT */
      , (31652, 25, 21) /* LEVEL_INT */
      , (31652, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31652, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (31652, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (31652, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (31652, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (31652, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (31652, 32, 130) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31652, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (31652, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31652, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31652, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 

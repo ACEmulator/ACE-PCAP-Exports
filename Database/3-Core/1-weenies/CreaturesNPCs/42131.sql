@@ -57,11 +57,22 @@ VALUES (42131, 5, 'Friendly Drudge') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42131, 2, 3) /* CREATURE_TYPE_INT */
+     , (42131, 307, 5) /* DAMAGE_RATING_INT */
      , (42131, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (42131, 25, 14) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (42131, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (42131, 2, 110) /* ENDURANCE_ATTRIBUTE */
+     , (42131, 4, 150) /* COORDINATION_ATTRIBUTE */
+     , (42131, 8, 130) /* QUICKNESS_ATTRIBUTE */
+     , (42131, 16, 150) /* FOCUS_ATTRIBUTE */
+     , (42131, 32, 190) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42131, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (42131, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (42131, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (42131, 256, 190) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

@@ -63,6 +63,7 @@ VALUES (36717, 384, 0) /*  */
      , (36717, 308, 0) /* DAMAGE_RESIST_RATING_INT */
      , (36717, 372, 0) /* GEAR_CRIT_INT */
      , (36717, 388, 0) /*  */
+     , (36717, 5, 0) /* ENCUMB_VAL_INT */
      , (36717, 373, 0) /* GEAR_CRIT_RESIST_INT */
      , (36717, 389, 0) /*  */
      , (36717, 374, 0) /* GEAR_CRIT_DAMAGE_INT */

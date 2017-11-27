@@ -104,6 +104,16 @@ VALUES (22461, 113, 2) /* GENDER_INT */
      , (22461, 25, 47) /* LEVEL_INT */
      , (22461, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (22461, 1, 120) /* STRENGTH_ATTRIBUTE */
+     , (22461, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (22461, 4, 115) /* COORDINATION_ATTRIBUTE */
+     , (22461, 8, 110) /* QUICKNESS_ATTRIBUTE */
+     , (22461, 16, 250) /* FOCUS_ATTRIBUTE */
+     , (22461, 32, 250) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22461, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (22461, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (22461, 128, 230) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (22461, 256, 505) /* MAX_MANA_ATTRIBUTE_2ND */;
 

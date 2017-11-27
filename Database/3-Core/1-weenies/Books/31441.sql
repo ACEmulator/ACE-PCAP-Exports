@@ -36,3 +36,54 @@ VALUES (31441, 13, True) /* ETHEREAL_BOOL */
      , (31441, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31441, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31441, 16, 'A translation of the Song of Grael.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31441, 19, 10) /* VALUE_INT */
+     , (31441, 5, 100) /* ENCUMB_VAL_INT */
+     , (31441, 174, 6) /* APPRAISAL_PAGES_INT */
+     , (31441, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31441, 174, 6) /* APPRAISAL_PAGES_INT */
+     , (31441, 175, 6) /* APPRAISAL_MAX_PAGES_INT */
+     , (31441, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (31441, 0, 'Unknown author', 'prewritten', 4294967295, 0, 'Grael was once a Spear of the Mukkir
+He was a Blood-Warrior of Chief Daemal
+His arm was the strongest of the Blood-Warriors
+His beads of victory were many
+He took many wives and many slaves
+He fought at the Chief''s left hand as they sang songs of rage
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (31441, 1, 'Unknown author', 'prewritten', 4294967295, 0, 'Grael failed Chief Daemal
+The Shining Ones from the south attacked the Mukkir
+Chief Daemal led the Blood-Warriors to battle
+Grael was overwhelmed by sorcerous light
+He failed to protect the back of his Chief
+He saw his Chief fall, singing a song of rage
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (31441, 2, 'Unknown author', 'prewritten', 4294967295, 0, 'Grael became a prisoner of the Shining Ones
+In their Great Circle, his war became their sport
+Every day, he raged for the fall of his Chief
+He slew all who came before him
+He took their heads and ate their hearts
+Every night, among the slaves, he sang songs of rage
+');
+

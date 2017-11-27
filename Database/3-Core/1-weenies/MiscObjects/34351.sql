@@ -45,3 +45,12 @@ VALUES (34351, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34351, 0, 16784015);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34351, 16, 'Killed by Mag-lite.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34351, 19, 0) /* VALUE_INT */
+     , (34351, 5, 6150) /* ENCUMB_VAL_INT */;
+

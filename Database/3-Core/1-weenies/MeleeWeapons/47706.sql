@@ -48,3 +48,12 @@ VALUES (47706, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47706, 0, 16777955);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47706, 16, 'Killed by Interim Mad Axe.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47706, 19, 0) /* VALUE_INT */
+     , (47706, 5, 6085) /* ENCUMB_VAL_INT */;
+

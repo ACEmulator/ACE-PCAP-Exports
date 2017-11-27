@@ -89,3 +89,14 @@ VALUES (38571, 12, 16777304)
      , (38571, 4, 16781838)
      , (38571, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38571, 16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38571, 33, 1) /* BONDED_INT */
+     , (38571, 114, 1) /* ATTUNED_INT */
+     , (38571, 19, 0) /* VALUE_INT */
+     , (38571, 5, 10) /* ENCUMB_VAL_INT */;
+

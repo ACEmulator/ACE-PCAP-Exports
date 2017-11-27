@@ -100,3 +100,26 @@ VALUES (41177, 16, 16795640)
      , (41177, 4, 16781816)
      , (41177, 8, 16781817);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41177, 5, 'Prison Guard') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (41177, 16, 67110063) /* EYES_PALETTE_DID */
+     , (41177, 9, 83890448) /* EYES_TEXTURE_DID */
+     , (41177, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (41177, 10, 83890560) /* NOSE_TEXTURE_DID */
+     , (41177, 11, 83890614) /* MOUTH_TEXTURE_DID */
+     , (41177, 15, 67116980) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41177, 113, 1) /* GENDER_INT */
+     , (41177, 2, 31) /* CREATURE_TYPE_INT */
+     , (41177, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (41177, 25, 250) /* LEVEL_INT */
+     , (41177, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (41177, 64, 365) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

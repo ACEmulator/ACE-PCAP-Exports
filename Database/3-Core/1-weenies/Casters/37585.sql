@@ -52,3 +52,45 @@ VALUES (37585, 0, 83889688, 83889688);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37585, 0, 16787396);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37585, 16, 'A ghostly blue casting staff, bound to your soul.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37585, 160, 160) /* WIELD_DIFFICULTY_INT */
+     , (37585, 33, 1) /* BONDED_INT */
+     , (37585, 114, 0) /* ATTUNED_INT */
+     , (37585, 19, 0) /* VALUE_INT */
+     , (37585, 5, 50) /* ENCUMB_VAL_INT */
+     , (37585, 166, 77) /* SLAYER_CREATURE_TYPE_INT */
+     , (37585, 263, 2) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (37585, 106, 475) /* ITEM_SPELLCRAFT_INT */
+     , (37585, 108, 2700) /* ITEM_MAX_MANA_INT */
+     , (37585, 45, 2) /* DAMAGE_TYPE_INT */
+     , (37585, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (37585, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (37585, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (37585, 144, 0.255) /* MANA_CONVERSION_MOD_FLOAT */
+     , (37585, 152, 1.27) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (37585, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (37585, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (37585, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (37585, 29, 1.37) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37585, 99, 0) /* IVORYABLE_BOOL */
+     , (37585, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */
+     , (37585, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (37585, 2132) /* ForceBolt7_SpellID */
+     , (37585, 2117) /* Truevalue7_SpellID */
+     , (37585, 2581) /* CANTRIPFOCUS1_SpellID */
+     , (37585, 2584) /* CANTRIPWILLPOWER1_SpellID */
+     , (37585, 2534) /* CANTRIPWARMAGICAPTITUDE2_SpellID */
+     , (37585, 2101) /* Defender7_SpellID */
+     , (37585, 3259) /* SpiritDrinker7_SpellID */;
+

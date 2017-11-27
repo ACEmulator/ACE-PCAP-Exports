@@ -83,10 +83,10 @@ VALUES (32950, 0, 16792997)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32950, 2, 62) /* CREATURE_TYPE_INT */
-     , (32950, 25, 115) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32950, 16, 'Killed by Mag-one.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32950, 64, 780) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32950, 19, 0) /* VALUE_INT */
+     , (32950, 5, 10464) /* ENCUMB_VAL_INT */;
 

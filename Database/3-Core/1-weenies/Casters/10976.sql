@@ -38,3 +38,25 @@ VALUES (10976, 13, True) /* ETHEREAL_BOOL */
      , (10976, 19, True) /* ATTACKABLE_BOOL */
      , (10976, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10976, 16, 'A purplish, veined lump, pulled from the chest cavity of a Hea Tumerok hunting reedshark named Utelari.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10976, 176, 31) /* APPRAISAL_ITEM_SKILL_INT */
+     , (10976, 19, 11450) /* VALUE_INT */
+     , (10976, 115, 225) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (10976, 5, 50) /* ENCUMB_VAL_INT */
+     , (10976, 106, 270) /* ITEM_SPELLCRAFT_INT */
+     , (10976, 108, 600) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (10976, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
+     , (10976, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (10976, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (10976, 2421) /* ParalyzingFear_SpellID */
+     , (10976, 2475) /* Torrent_SpellID */;
+

@@ -34,3 +34,32 @@ VALUES (6028, 13, True) /* ETHEREAL_BOOL */
      , (6028, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6028, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6028, 16, 'A note from Devana bint Hamudi to her father, Hamud ibn Rafik.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6028, 19, 5) /* VALUE_INT */
+     , (6028, 5, 25) /* ENCUMB_VAL_INT */
+     , (6028, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (6028, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6028, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (6028, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (6028, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (6028, 0, 'Devana bint Hamudi', 'prewritten', 4294967295, 0, '
+Father, why have you stopped sending me letters? Is there something wrong? Something involving those dark ones who lurk near your chambers? Please write me a letter and send it back with one of your Tenebrous Edge recruits. I begin to worry about you.
+
+Your daughter,
+Devana
+
+');
+

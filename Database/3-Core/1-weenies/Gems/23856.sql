@@ -35,6 +35,18 @@ VALUES (23856, 13, True) /* ETHEREAL_BOOL */
      , (23856, 19, True) /* ATTACKABLE_BOOL */
      , (23856, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23856, 16, 'A hardened shard.') /* LONG_DESC_STRING */
+     , (23856, 14, 'Combine with existing Enhanced Shadow Armor to create a Hardened piece of Enhanced Shadow Armor.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23856, 33, 1) /* BONDED_INT */
+     , (23856, 114, 1) /* ATTUNED_INT */
+     , (23856, 19, 0) /* VALUE_INT */
+     , (23856, 5, 150) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

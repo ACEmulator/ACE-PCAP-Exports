@@ -93,12 +93,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (9228, 5, 'Undead Hunter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (9228, 16, 67110063) /* EYES_PALETTE_DID */
-     , (9228, 9, 83890277) /* EYES_TEXTURE_DID */
-     , (9228, 17, 67109556) /* SKIN_PALETTE_DID */
-     , (9228, 10, 83890295) /* NOSE_TEXTURE_DID */
-     , (9228, 11, 83890326) /* MOUTH_TEXTURE_DID */
-     , (9228, 15, 67116995) /* HAIR_PALETTE_DID */;
+VALUES (9228, 16, 67110062) /* EYES_PALETTE_DID */
+     , (9228, 9, 83890275) /* EYES_TEXTURE_DID */
+     , (9228, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (9228, 10, 83890296) /* NOSE_TEXTURE_DID */
+     , (9228, 11, 83890333) /* MOUTH_TEXTURE_DID */
+     , (9228, 15, 67117079) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (9228, 113, 2) /* GENDER_INT */

@@ -42,3 +42,41 @@ VALUES (28634, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28634, 67116148, 136, 16);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28634, 16, 'Diforsa Greaves') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28634, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (28634, 19, 8333) /* VALUE_INT */
+     , (28634, 131, 64) /* MATERIAL_TYPE_INT */
+     , (28634, 115, 160) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (28634, 5, 786) /* ENCUMB_VAL_INT */
+     , (28634, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (28634, 106, 209) /* ITEM_SPELLCRAFT_INT */
+     , (28634, 28, 241) /* ARMOR_LEVEL_INT */
+     , (28634, 108, 1012) /* ITEM_MAX_MANA_INT */
+     , (28634, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (28634, 109, 129) /* ITEM_DIFFICULTY_INT */
+     , (28634, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28634, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (28634, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28634, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28634, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28634, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28634, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28634, 18, 0.7352237) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28634, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28634, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28634, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28634, 1539) /* LightningBane5_SpellID */
+     , (28634, 1485) /* Impenetrability5_SpellID */
+     , (28634, 1572) /* PiercingBane4_SpellID */;
+

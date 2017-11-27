@@ -44,3 +44,18 @@ VALUES (23880, 19, 0) /* VALUE_INT */
      , (23880, 174, 1) /* APPRAISAL_PAGES_INT */
      , (23880, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23880, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (23880, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (23880, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (23880, 0, 'Oswald', 'prewritten', 4294967295, 0, '
+Now, now my children you didn''t think that old Oswald had forgotten about the misbegotten and wayward, lost on this world far from home? Tsk tsk. I hope you enjoy the latest gift I''ve left behind. I''m sure that the savvy fletchers amongst you will divine the secrets of their creation. Use them well and be wary of the eyes in the shadow, they might be mine.
+
+');
+

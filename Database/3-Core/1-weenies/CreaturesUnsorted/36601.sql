@@ -38,10 +38,44 @@ VALUES (36601, 67114251, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36601, 2, 19) /* CREATURE_TYPE_INT */
-     , (36601, 25, 240) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36601, 16, 'Fire Crossbow of Blood Drinker') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36601, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36601, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
+     , (36601, 160, 360) /* WIELD_DIFFICULTY_INT */
+     , (36601, 353, 9) /* WEAPON_TYPE_INT */
+     , (36601, 177, 4) /* GEM_COUNT_INT */
+     , (36601, 178, 38) /* GEM_TYPE_INT */
+     , (36601, 19, 12102) /* VALUE_INT */
+     , (36601, 131, 51) /* MATERIAL_TYPE_INT */
+     , (36601, 115, 332) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (36601, 5, 1066) /* ENCUMB_VAL_INT */
+     , (36601, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (36601, 106, 312) /* ITEM_SPELLCRAFT_INT */
+     , (36601, 108, 1012) /* ITEM_MAX_MANA_INT */
+     , (36601, 204, 15) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (36601, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (36601, 109, 165) /* ITEM_DIFFICULTY_INT */
+     , (36601, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (36601, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (36601, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (36601, 45, 16) /* DAMAGE_TYPE_INT */
+     , (36601, 49, 106) /* WEAPON_TIME_INT */
+     , (36601, 48, 47) /* WEAPON_SKILL_INT */
+     , (36601, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (36601, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (36601, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (36601, 150, 1.02) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (36601, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (36601, 63, 2.55) /* DAMAGE_MOD_FLOAT */
+     , (36601, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (36601, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (36601, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (36601, 2505) /* CANTRIPBOWAPTITUDE2_SpellID */
+     , (36601, 2096) /* BloodDrinker7_SpellID */;
 

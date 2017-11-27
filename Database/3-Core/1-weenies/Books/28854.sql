@@ -48,3 +48,25 @@ VALUES (28854, 33, 1) /* BONDED_INT */
      , (28854, 174, 1) /* APPRAISAL_PAGES_INT */
      , (28854, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28854, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (28854, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (28854, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (28854, 0, 'Anton Silezzi', 'prewritten', 4294967295, 0, 'Greetings Gonjoku Den
+
+My name is Anton Silezzi and I represent a consortium of merchants in Sanamar. It is with great pride that I invite you to join with us to establish trade between our two great cities. 
+
+It is without question that a person of your venerable stature and renown can see the benefits and profits in such an alliance. Looking forward to your favorable response.
+
+
+Respectfully,
+
+Anton Silezzi
+');
+

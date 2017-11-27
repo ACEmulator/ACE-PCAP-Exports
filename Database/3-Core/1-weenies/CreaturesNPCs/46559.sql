@@ -98,3 +98,30 @@ VALUES (46559, 0, 16777294)
      , (46559, 12, 16796687)
      , (46559, 16, 16796806);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46559, 5, 'Recruiter of Souls') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46559, 2, 77) /* CREATURE_TYPE_INT */
+     , (46559, 307, 30) /* DAMAGE_RATING_INT */
+     , (46559, 308, 30) /* DAMAGE_RESIST_RATING_INT */
+     , (46559, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (46559, 25, 275) /* LEVEL_INT */
+     , (46559, 314, 30) /* CRIT_DAMAGE_RATING_INT */
+     , (46559, 316, 30) /* CRIT_DAMAGE_RESIST_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (46559, 1, 250) /* STRENGTH_ATTRIBUTE */
+     , (46559, 2, 270) /* ENDURANCE_ATTRIBUTE */
+     , (46559, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (46559, 8, 280) /* QUICKNESS_ATTRIBUTE */
+     , (46559, 16, 220) /* FOCUS_ATTRIBUTE */
+     , (46559, 32, 220) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46559, 64, 14410) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (46559, 128, 15480) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (46559, 256, 11395) /* MAX_MANA_ATTRIBUTE_2ND */;
+

@@ -58,10 +58,10 @@ VALUES (49026, 5, 16794677)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49026, 2, 14) /* CREATURE_TYPE_INT */
-     , (49026, 25, 125) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49026, 16, 'Killed by Arctos.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49026, 64, 870) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49026, 19, 0) /* VALUE_INT */
+     , (49026, 5, 6758) /* ENCUMB_VAL_INT */;
 

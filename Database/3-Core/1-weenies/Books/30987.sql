@@ -47,3 +47,18 @@ VALUES (30987, 33, 1) /* BONDED_INT */
      , (30987, 174, 1) /* APPRAISAL_PAGES_INT */
      , (30987, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30987, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (30987, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (30987, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (30987, 0, '', 'prewritten', 4294967295, 0, 'The last vestiges of the rebellion are all but eradicated. The Duke''s influence lasted much longer than he could have imagined. His followers did their part to distract the King from his various campaigns. But now that he has defeated them, our King once again turns his gaze to the Bloodless lands of Ispar.
+
+I know not what lies beyond the portal you have chosen to take, but I am certain you will attain the glory which you seek. You have done all you can here on Ispar. The world before you stands not a chance.
+');
+

@@ -86,12 +86,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (32834, 5, 'Royal Agent') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32834, 16, 67110065) /* EYES_PALETTE_DID */
-     , (32834, 9, 83890448) /* EYES_TEXTURE_DID */
-     , (32834, 17, 67115901) /* SKIN_PALETTE_DID */
-     , (32834, 10, 83890557) /* NOSE_TEXTURE_DID */
-     , (32834, 11, 83890655) /* MOUTH_TEXTURE_DID */
-     , (32834, 15, 67117024) /* HAIR_PALETTE_DID */;
+VALUES (32834, 16, 67110063) /* EYES_PALETTE_DID */
+     , (32834, 9, 83890514) /* EYES_TEXTURE_DID */
+     , (32834, 17, 67115902) /* SKIN_PALETTE_DID */
+     , (32834, 10, 83890556) /* NOSE_TEXTURE_DID */
+     , (32834, 11, 83890662) /* MOUTH_TEXTURE_DID */
+     , (32834, 15, 67117095) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32834, 113, 1) /* GENDER_INT */
@@ -100,8 +100,18 @@ VALUES (32834, 113, 1) /* GENDER_INT */
      , (32834, 25, 100) /* LEVEL_INT */
      , (32834, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (32834, 1, 230) /* STRENGTH_ATTRIBUTE */
+     , (32834, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (32834, 4, 230) /* COORDINATION_ATTRIBUTE */
+     , (32834, 8, 220) /* QUICKNESS_ATTRIBUTE */
+     , (32834, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (32834, 32, 120) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32834, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (32834, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (32834, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (32834, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

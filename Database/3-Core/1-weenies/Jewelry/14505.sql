@@ -53,7 +53,7 @@ VALUES (14505, 16, 'A golden bracelet fitted with a glowing red gem. The band is
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14505, 160, 25) /* WIELD_DIFFICULTY_INT */
      , (14505, 33, 1) /* BONDED_INT */
-     , (14505, 114, 1) /* ATTUNED_INT */
+     , (14505, 114, 0) /* ATTUNED_INT */
      , (14505, 19, 8500) /* VALUE_INT */
      , (14505, 36, 9999) /* RESIST_MAGIC_INT */
      , (14505, 5, 80) /* ENCUMB_VAL_INT */
@@ -67,7 +67,8 @@ REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `pr
 VALUES (14505, 5, -0.033333) /* MANA_RATE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14505, 99, 1) /* IVORYABLE_BOOL */;
+VALUES (14505, 99, 1) /* IVORYABLE_BOOL */
+     , (14505, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (14505, 1095) /* FireProtectionOther5_SpellID */

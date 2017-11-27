@@ -55,8 +55,8 @@ VALUES (7835, 14, 'This item is used in cooking.') /* USE_STRING */
      , (7835, 15, 'A loosely packed ball of clean, sparkling ice and snow particles, oddly resistant to melting.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7835, 19, 125) /* VALUE_INT */
-     , (7835, 5, 150) /* ENCUMB_VAL_INT */;
+VALUES (7835, 19, 25) /* VALUE_INT */
+     , (7835, 5, 30) /* ENCUMB_VAL_INT */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

@@ -76,12 +76,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (41840, 5, 'Palm Fort Commander') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (41840, 16, 67110062) /* EYES_PALETTE_DID */
-     , (41840, 9, 83890478) /* EYES_TEXTURE_DID */
-     , (41840, 17, 67110059) /* SKIN_PALETTE_DID */
-     , (41840, 10, 83890519) /* NOSE_TEXTURE_DID */
-     , (41840, 11, 83890572) /* MOUTH_TEXTURE_DID */
-     , (41840, 15, 67117074) /* HAIR_PALETTE_DID */;
+VALUES (41840, 16, 67109565) /* EYES_PALETTE_DID */
+     , (41840, 9, 83890447) /* EYES_TEXTURE_DID */
+     , (41840, 17, 67110050) /* SKIN_PALETTE_DID */
+     , (41840, 10, 83890562) /* NOSE_TEXTURE_DID */
+     , (41840, 11, 83890628) /* MOUTH_TEXTURE_DID */
+     , (41840, 15, 67117023) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41840, 113, 1) /* GENDER_INT */
@@ -92,12 +92,4 @@ VALUES (41840, 113, 1) /* GENDER_INT */
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41840, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Object Wield List */
-
-/* Object Wield List */
-
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (41840, 2, 24200) /* Weeping Claw */
-     , (41840, 2, 38852) /* Eldrytch Web Shield */;
 

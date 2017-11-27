@@ -49,3 +49,12 @@ VALUES (12067, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12067, 0, 16777925);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12067, 16, 'Killed by Mag-nus.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12067, 19, 0) /* VALUE_INT */
+     , (12067, 5, 6718) /* ENCUMB_VAL_INT */;
+

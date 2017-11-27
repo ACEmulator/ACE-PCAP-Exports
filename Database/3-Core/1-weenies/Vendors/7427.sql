@@ -112,8 +112,18 @@ VALUES (7427, 113, 1) /* GENDER_INT */
      , (7427, 25, 43) /* LEVEL_INT */
      , (7427, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (7427, 1, 140) /* STRENGTH_ATTRIBUTE */
+     , (7427, 2, 130) /* ENDURANCE_ATTRIBUTE */
+     , (7427, 4, 140) /* COORDINATION_ATTRIBUTE */
+     , (7427, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (7427, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (7427, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7427, 64, 245) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (7427, 64, 245) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7427, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7427, 256, 170) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 

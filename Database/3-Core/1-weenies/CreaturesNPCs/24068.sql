@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (24068, 5, 'Aluvian Female') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (24068, 16, 67109564) /* EYES_PALETTE_DID */
-     , (24068, 9, 83890262) /* EYES_TEXTURE_DID */
-     , (24068, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (24068, 10, 83890295) /* NOSE_TEXTURE_DID */
+VALUES (24068, 16, 67110063) /* EYES_PALETTE_DID */
+     , (24068, 9, 83890284) /* EYES_TEXTURE_DID */
+     , (24068, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (24068, 10, 83890309) /* NOSE_TEXTURE_DID */
      , (24068, 11, 83890331) /* MOUTH_TEXTURE_DID */
-     , (24068, 15, 67116978) /* HAIR_PALETTE_DID */;
+     , (24068, 15, 67116984) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (24068, 113, 2) /* GENDER_INT */

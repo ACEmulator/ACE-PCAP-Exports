@@ -43,6 +43,5 @@ VALUES (52514, 19, 200) /* VALUE_INT */
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (52514, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (52514, 152, 1.08) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (52514, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */;
+     , (52514, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
 

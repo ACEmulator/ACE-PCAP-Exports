@@ -37,3 +37,34 @@ VALUES (8605, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8605, 1, True) /* STUCK_BOOL */
      , (8605, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8605, 16, 'Electric Atlatl') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8605, 160, 315) /* WIELD_DIFFICULTY_INT */
+     , (8605, 353, 10) /* WEAPON_TYPE_INT */
+     , (8605, 177, 2) /* GEM_COUNT_INT */
+     , (8605, 178, 26) /* GEM_TYPE_INT */
+     , (8605, 19, 4499) /* VALUE_INT */
+     , (8605, 131, 73) /* MATERIAL_TYPE_INT */
+     , (8605, 5, 262) /* ENCUMB_VAL_INT */
+     , (8605, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (8605, 204, 3) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (8605, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (8605, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (8605, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (8605, 45, 64) /* DAMAGE_TYPE_INT */
+     , (8605, 49, 21) /* WEAPON_TIME_INT */
+     , (8605, 48, 47) /* WEAPON_SKILL_INT */
+     , (8605, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8605, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (8605, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (8605, 63, 2.43) /* DAMAGE_MOD_FLOAT */
+     , (8605, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (8605, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (8605, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

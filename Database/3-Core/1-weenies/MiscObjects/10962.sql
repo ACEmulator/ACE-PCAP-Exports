@@ -36,3 +36,12 @@ VALUES (10962, 13, True) /* ETHEREAL_BOOL */
      , (10962, 19, True) /* ATTACKABLE_BOOL */
      , (10962, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10962, 16, 'A small, pale gold Tumerok Insignia, of the type given to veteran warriors of the Hea xuta. This particular one came from Hea Temenua.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10962, 19, 15) /* VALUE_INT */
+     , (10962, 5, 5) /* ENCUMB_VAL_INT */;
+

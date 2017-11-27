@@ -47,6 +47,27 @@ VALUES (2415, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2415, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2415, 16, 'Gem of Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2415, 19, 906) /* VALUE_INT */
+     , (2415, 131, 28) /* MATERIAL_TYPE_INT */
+     , (2415, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (2415, 5, 5) /* ENCUMB_VAL_INT */
+     , (2415, 117, 250) /* ITEM_MANA_COST_INT */
+     , (2415, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (2415, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (2415, 108, 417) /* ITEM_MAX_MANA_INT */
+     , (2415, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (2415, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (2415, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2415, 1310) /* ArmorSelf4_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -57,6 +57,19 @@ VALUES (52309, 2, 16792427)
      , (52309, 13, 16792439)
      , (52309, 14, 16792451);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52309, 14, 'Use on a magic item to destroy that item and drain its Mana.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52309, 19, 5000) /* VALUE_INT */
+     , (52309, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (52309, 137, 0.2) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
+     , (52309, 87, 2) /* ITEM_EFFICIENCY_FLOAT */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

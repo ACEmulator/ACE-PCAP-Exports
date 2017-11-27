@@ -39,3 +39,27 @@ VALUES (41797, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41797, 67115264, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41797, 2, 13) /* CREATURE_TYPE_INT */
+     , (41797, 25, 240) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (41797, 1, 380) /* STRENGTH_ATTRIBUTE */
+     , (41797, 2, 400) /* ENDURANCE_ATTRIBUTE */
+     , (41797, 4, 350) /* COORDINATION_ATTRIBUTE */
+     , (41797, 8, 500) /* QUICKNESS_ATTRIBUTE */
+     , (41797, 16, 490) /* FOCUS_ATTRIBUTE */
+     , (41797, 32, 490) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (41797, 64, 9000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (41797, 128, 6400) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (41797, 256, 7690) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Object Wield List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41797, 2, 33459) /* Shadow Bolt */;
+

@@ -34,22 +34,6 @@ VALUES (38721, 13, True) /* ETHEREAL_BOOL */
      , (38721, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38721, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38721, 16, 'An writ authorizing the Vault Keeper to give you a key to the society vaults.') /* LONG_DESC_STRING */
-     , (38721, 14, 'Give this writ to the Vault Keeper for a key to the society vault chests.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38721, 33, 1) /* BONDED_INT */
-     , (38721, 114, 1) /* ATTUNED_INT */
-     , (38721, 19, 50) /* VALUE_INT */
-     , (38721, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38721, 99, 0) /* IVORYABLE_BOOL */
-     , (38721, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

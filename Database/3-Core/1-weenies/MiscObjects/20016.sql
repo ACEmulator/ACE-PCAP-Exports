@@ -41,3 +41,12 @@ VALUES (20016, 0, 83888861, 83894095);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20016, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20016, 16, 'A fluffy wad of silk taken from a grievver.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20016, 19, 100) /* VALUE_INT */
+     , (20016, 5, 50) /* ENCUMB_VAL_INT */;
+

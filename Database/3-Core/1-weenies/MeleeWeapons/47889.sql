@@ -37,3 +37,12 @@ VALUES (47889, 13, True) /* ETHEREAL_BOOL */
      , (47889, 19, True) /* ATTACKABLE_BOOL */
      , (47889, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47889, 16, 'Killed by Tierra Zatha.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47889, 19, 0) /* VALUE_INT */
+     , (47889, 5, 6230) /* ENCUMB_VAL_INT */;
+

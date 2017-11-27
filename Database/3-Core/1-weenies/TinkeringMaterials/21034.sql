@@ -50,6 +50,20 @@ VALUES (21034, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21034, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21034, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Focus. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.') /* USE_STRING */
+     , (21034, 15, 'Chips of agate material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21034, 33, 1) /* BONDED_INT */
+     , (21034, 131, 10) /* MATERIAL_TYPE_INT */
+     , (21034, 19, 387) /* VALUE_INT */
+     , (21034, 5, 100) /* ENCUMB_VAL_INT */
+     , (21034, 105, 41) /* ITEM_WORKMANSHIP_INT */
+     , (21034, 170, 9) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

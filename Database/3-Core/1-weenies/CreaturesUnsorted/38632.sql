@@ -96,20 +96,10 @@ VALUES (38632, 5, 16789351)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38632, 16, 67110063) /* EYES_PALETTE_DID */
-     , (38632, 9, 83890488) /* EYES_TEXTURE_DID */
-     , (38632, 17, 67110050) /* SKIN_PALETTE_DID */
-     , (38632, 10, 83890519) /* NOSE_TEXTURE_DID */
-     , (38632, 11, 83890660) /* MOUTH_TEXTURE_DID */
-     , (38632, 15, 67117016) /* HAIR_PALETTE_DID */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38632, 16, 'Killed by Mag-nus.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38632, 113, 1) /* GENDER_INT */
-     , (38632, 2, 31) /* CREATURE_TYPE_INT */
-     , (38632, 25, 200) /* LEVEL_INT */
-     , (38632, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38632, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (38632, 19, 0) /* VALUE_INT */
+     , (38632, 5, 6015) /* ENCUMB_VAL_INT */;
 

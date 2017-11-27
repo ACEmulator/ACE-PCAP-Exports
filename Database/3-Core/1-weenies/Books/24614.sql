@@ -34,3 +34,40 @@ VALUES (24614, 13, True) /* ETHEREAL_BOOL */
      , (24614, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24614, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24614, 19, 5) /* VALUE_INT */
+     , (24614, 5, 25) /* ENCUMB_VAL_INT */
+     , (24614, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (24614, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24614, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (24614, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
+     , (24614, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (24614, 0, 'Instructions', 'prewritten', 4294967295, 0, '
+First, the components of his binding must be gathered. 
+
+Journey to the Empyrean Cloister, located almost directly east of Yaraq along the boundary of warning stones set out for younger adventurers, and retrieve the Skull of Avoren Palacost. 
+
+Journey to the Shade Stronghold, located northwest of Crater Lake and directly east of the Essence of Strife, and retrieve the Heart of Shadow. 
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (24614, 1, 'Instructions', 'prewritten', 4294967295, 0, '
+Journey to the Chakron Flux, on the northern rim of the Obsidian Plains, and retrieve the Fragment of the Singularity.
+
+Combine these powerful relics into a Dark Crucible, and return the Crucible to the Chosen of Asheron. The Chosen will provide you with a way into the Sepulcher. 
+
+Thus may you pay your respects.
+');
+

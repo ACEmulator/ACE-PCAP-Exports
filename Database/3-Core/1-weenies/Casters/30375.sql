@@ -54,19 +54,17 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (30375, 16, 'A mage who wandered through the northern mountains, researching ley lines, found a piece of unnaturally cold crystal in the middle of a set of standing stones.  He affixed the crystal to his wand, and found that the wand suddenly became unbearably cold to touch.  Rather than drop the wand, he held on for dear life.  He finally mastered the wand well enough to wield it, but not before it had frozen his hand so thoroughly as to render it permanently useless.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30375, 384, 1) /*  */
-     , (30375, 320, 1) /* ITEM_XP_STYLE_INT */
+VALUES (30375, 320, 1) /* ITEM_XP_STYLE_INT */
      , (30375, 17, 240) /* RARE_ID_INT */
-     , (30375, 179, 128) /* IMBUED_EFFECT_INT */
      , (30375, 19, 50000) /* VALUE_INT */
+     , (30375, 179, 128) /* IMBUED_EFFECT_INT */
      , (30375, 5, 100) /* ENCUMB_VAL_INT */
      , (30375, 265, 41) /* EQUIPMENT_SET_ID_INT */
-     , (30375, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
      , (30375, 106, 335) /* ITEM_SPELLCRAFT_INT */
+     , (30375, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
      , (30375, 108, 8000) /* ITEM_MAX_MANA_INT */
-     , (30375, 45, 8) /* DAMAGE_TYPE_INT */
      , (30375, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (30375, 383, 1) /*  */
+     , (30375, 45, 8) /* DAMAGE_TYPE_INT */
      , (30375, 319, 50) /* ITEM_MAX_LEVEL_INT */;
 
 REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
@@ -74,11 +72,11 @@ VALUES (30375, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */
      , (30375, 5, 2000000000) /* ITEM_BASE_XP_INT64 */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30375, 152, 1.27) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (30375, 144, 0.18) /* MANA_CONVERSION_MOD_FLOAT */
+VALUES (30375, 144, 0.18) /* MANA_CONVERSION_MOD_FLOAT */
+     , (30375, 152, 1.22) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
      , (30375, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (30375, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
-     , (30375, 5, -0.0333333) /* MANA_RATE_FLOAT */;
+     , (30375, 5, -0.0333333) /* MANA_RATE_FLOAT */
+     , (30375, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (30375, 2136) /* FrostBolt7_SpellID */

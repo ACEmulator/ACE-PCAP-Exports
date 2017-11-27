@@ -53,3 +53,44 @@ VALUES (49527, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49527, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49527, 16, 'Tenassa Leggings of Summoning Mastery') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49527, 160, 150) /* WIELD_DIFFICULTY_INT */
+     , (49527, 19, 14665) /* VALUE_INT */
+     , (49527, 131, 63) /* MATERIAL_TYPE_INT */
+     , (49527, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (49527, 5, 1764) /* ENCUMB_VAL_INT */
+     , (49527, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (49527, 106, 363) /* ITEM_SPELLCRAFT_INT */
+     , (49527, 28, 259) /* ARMOR_LEVEL_INT */
+     , (49527, 108, 854) /* ITEM_MAX_MANA_INT */
+     , (49527, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (49527, 109, 382) /* ITEM_DIFFICULTY_INT */
+     , (49527, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (49527, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (49527, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49527, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (49527, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (49527, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (49527, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (49527, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (49527, 17, 0.6803579) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (49527, 18, 1.339942) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (49527, 19, 1.134287) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (49527, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49527, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (49527, 2505) /* CANTRIPBOWAPTITUDE2_SpellID */
+     , (49527, 1552) /* FlameBane6_SpellID */
+     , (49527, 6122) /* SummoningMasterySelf7_SpellID */
+     , (49527, 4407) /* Impenetrability8_SpellID */;
+

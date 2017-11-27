@@ -54,8 +54,8 @@ VALUES (3645, 353, 5) /* WEAPON_TYPE_INT */
      , (3645, 44, 28) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3645, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (3645, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+VALUES (3645, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (3645, 5, -0.033) /* MANA_RATE_FLOAT */
      , (3645, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
      , (3645, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (3645, 21, 0) /* WEAPON_LENGTH_FLOAT */

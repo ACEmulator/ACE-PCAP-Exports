@@ -35,3 +35,17 @@ VALUES (9648, 13, True) /* ETHEREAL_BOOL */
      , (9648, 19, True) /* ATTACKABLE_BOOL */
      , (9648, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9648, 16, 'Inscribed spell: Mana to Stamina Self V
+Drains one-half of the caster''s Mana and gives 135% of that to his/her Stamina.') /* LONG_DESC_STRING */
+     , (9648, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9648, 19, 200) /* VALUE_INT */
+     , (9648, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9648, 1300) /* ManatoStaminaSelf5_SpellID */;
+

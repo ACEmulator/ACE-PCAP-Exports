@@ -39,3 +39,35 @@ VALUES (12064, 13, True) /* ETHEREAL_BOOL */
      , (12064, 19, True) /* ATTACKABLE_BOOL */
      , (12064, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12064, 304, 0) /* IMBUED_EFFECT_3_INT */
+     , (12064, 305, 0) /* IMBUED_EFFECT_4_INT */
+     , (12064, 306, 0) /* IMBUED_EFFECT_5_INT */
+     , (12064, 386, 0) /*  */
+     , (12064, 19, 5) /* VALUE_INT */
+     , (12064, 179, 0) /* IMBUED_EFFECT_INT */
+     , (12064, 307, 5) /* DAMAGE_RATING_INT */
+     , (12064, 5, 5) /* ENCUMB_VAL_INT */
+     , (12064, 313, 0) /* CRIT_RATING_INT */
+     , (12064, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (12064, 303, 0) /* IMBUED_EFFECT_2_INT */
+     , (12064, 45, 2) /* DAMAGE_TYPE_INT */
+     , (12064, 49, -1) /* WEAPON_TIME_INT */
+     , (12064, 48, 0) /* WEAPON_SKILL_INT */
+     , (12064, 44, 14) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12064, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (12064, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (12064, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (12064, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (12064, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (12064, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12064, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12064, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12064, 69, 0) /* IS_SELLABLE_BOOL */;
+

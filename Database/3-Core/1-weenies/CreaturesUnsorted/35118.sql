@@ -39,3 +39,24 @@ VALUES (35118, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35118, 67111927, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35118, 16, 'Gem of Regeneration') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35118, 19, 1032) /* VALUE_INT */
+     , (35118, 131, 27) /* MATERIAL_TYPE_INT */
+     , (35118, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (35118, 5, 5) /* ENCUMB_VAL_INT */
+     , (35118, 117, 300) /* ITEM_MANA_COST_INT */
+     , (35118, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (35118, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (35118, 108, 434) /* ITEM_MAX_MANA_INT */
+     , (35118, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (35118, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (35118, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35118, 169) /* RegenerationSelf5_SpellID */;
+

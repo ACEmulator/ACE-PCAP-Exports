@@ -38,3 +38,12 @@ VALUES (33843, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (33843, 1, True) /* STUCK_BOOL */
      , (33843, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33843, 16, 'A crystal with intricate imperfections in it''s core. It hums quietly in your hand.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33843, 19, 10) /* VALUE_INT */
+     , (33843, 5, 10) /* ENCUMB_VAL_INT */;
+

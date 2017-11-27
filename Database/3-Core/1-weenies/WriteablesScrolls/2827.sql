@@ -35,3 +35,17 @@ VALUES (2827, 13, True) /* ETHEREAL_BOOL */
      , (2827, 19, True) /* ATTACKABLE_BOOL */
      , (2827, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2827, 16, 'Inscribed spell: Frost Lure II
+Decreases a shield or piece of armor''s resistance to cold damage by 25%.') /* LONG_DESC_STRING */
+     , (2827, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2827, 19, 5) /* VALUE_INT */
+     , (2827, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2827, 1518) /* FrostLure2_SpellID */;
+

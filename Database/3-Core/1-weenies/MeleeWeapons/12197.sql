@@ -36,3 +36,24 @@ VALUES (12197, 13, True) /* ETHEREAL_BOOL */
      , (12197, 19, True) /* ATTACKABLE_BOOL */
      , (12197, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12197, 16, 'Gem of Mana Renewal') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12197, 19, 816) /* VALUE_INT */
+     , (12197, 131, 31) /* MATERIAL_TYPE_INT */
+     , (12197, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (12197, 5, 5) /* ENCUMB_VAL_INT */
+     , (12197, 117, 250) /* ITEM_MANA_COST_INT */
+     , (12197, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (12197, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (12197, 108, 334) /* ITEM_MAX_MANA_INT */
+     , (12197, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (12197, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (12197, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12197, 215) /* ManaRenewalSelf4_SpellID */;
+

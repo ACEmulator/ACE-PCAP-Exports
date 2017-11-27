@@ -60,12 +60,15 @@ VALUES (29349, 0, 16785699)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29349, 2, 5) /* CREATURE_TYPE_INT */
-     , (29349, 25, 115) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29349, 16, 'Gem') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29349, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29349, 19, 797) /* VALUE_INT */
+     , (29349, 131, 49) /* MATERIAL_TYPE_INT */
+     , (29349, 5, 5) /* ENCUMB_VAL_INT */
+     , (29349, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (29349, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
 
 /* Corpse Treasure List */
 

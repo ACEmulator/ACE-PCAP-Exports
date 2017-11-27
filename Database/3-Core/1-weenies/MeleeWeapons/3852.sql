@@ -38,3 +38,50 @@ VALUES (3852, 13, True) /* ETHEREAL_BOOL */
      , (3852, 19, True) /* ATTACKABLE_BOOL */
      , (3852, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3852, 16, 'Frost Scimitar of Coordination') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3852, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (3852, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3852, 177, 6) /* GEM_COUNT_INT */
+     , (3852, 353, 2) /* WEAPON_TYPE_INT */
+     , (3852, 178, 49) /* GEM_TYPE_INT */
+     , (3852, 115, 285) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3852, 131, 61) /* MATERIAL_TYPE_INT */
+     , (3852, 179, 128) /* IMBUED_EFFECT_INT */
+     , (3852, 19, 4737) /* VALUE_INT */
+     , (3852, 5, 293) /* ENCUMB_VAL_INT */
+     , (3852, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (3852, 106, 265) /* ITEM_SPELLCRAFT_INT */
+     , (3852, 171, 1) /* NUM_TIMES_TINKERED_INT */
+     , (3852, 172, 7) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3852, 108, 1089) /* ITEM_MAX_MANA_INT */
+     , (3852, 109, 127) /* ITEM_DIFFICULTY_INT */
+     , (3852, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3852, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3852, 47, 6) /* ATTACK_TYPE_INT */
+     , (3852, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (3852, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3852, 49, 27) /* WEAPON_TIME_INT */
+     , (3852, 48, 44) /* WEAPON_SKILL_INT */
+     , (3852, 44, 50) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3852, 149, 1.025) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (3852, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (3852, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (3852, 150, 1.015) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (3852, 22, 0.4699977) /* DAMAGE_VARIANCE_FLOAT */
+     , (3852, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3852, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3852, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3852, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3852, 1616) /* BloodDrinker6_SpellID */
+     , (3852, 1378) /* CoordinationSelf6_SpellID */
+     , (3852, 2598) /* CANTRIPBLOODTHIRST1_SpellID */;
+

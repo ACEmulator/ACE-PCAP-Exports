@@ -34,3 +34,31 @@ VALUES (30986, 13, True) /* ETHEREAL_BOOL */
      , (30986, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30986, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30986, 16, 'Double-click this note to read it.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30986, 33, 1) /* BONDED_INT */
+     , (30986, 114, 0) /* ATTUNED_INT */
+     , (30986, 19, 10) /* VALUE_INT */
+     , (30986, 5, 5) /* ENCUMB_VAL_INT */
+     , (30986, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (30986, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30986, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (30986, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (30986, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (30986, 0, '', 'prewritten', 4294967295, 0, 'This war takes its toll. Roulea is no more. Aluvia''s fall is but a matter of time. Our own desert realm exists entirely at the whim of the Viamontian King. He knows full well that our defense is but a show. Should he choose to press his attack, I fear that the Malika''s glorious army will fall like wheat to the scythe.
+
+I know not what lies beyond the portal you have chosen to take. Perhaps a life of joy and peace; perhaps not. Whatever lies out there, I wish you luck. This old world is too full of death and pain. You deserve better than that.
+');
+

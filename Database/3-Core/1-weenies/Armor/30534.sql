@@ -39,19 +39,22 @@ VALUES (30534, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30534, 16, 'Using a combination of chain, scale and plate armor, these gauntlets are the ultimate in comfort and protection.  They were built to protect the wearer from fire.') /* LONG_DESC_STRING */;
+VALUES (30534, 16, '') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30534, 320, 1) /* ITEM_XP_STYLE_INT */
      , (30534, 17, 264) /* RARE_ID_INT */
+     , (30534, 370, 1) /* GEAR_DAMAGE_INT */
      , (30534, 19, 50000) /* VALUE_INT */
      , (30534, 5, 270) /* ENCUMB_VAL_INT */
      , (30534, 265, 40) /* EQUIPMENT_SET_ID_INT */
-     , (30534, 106, 350) /* ITEM_SPELLCRAFT_INT */
      , (30534, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (30534, 28, 500) /* ARMOR_LEVEL_INT */
+     , (30534, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (30534, 379, 1) /* GEAR_MAX_HEALTH_INT */
      , (30534, 108, 2600) /* ITEM_MAX_MANA_INT */
+     , (30534, 28, 740) /* ARMOR_LEVEL_INT */
      , (30534, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30534, 383, 1) /*  */
      , (30534, 319, 50) /* ITEM_MAX_LEVEL_INT */;
 
 REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
@@ -68,6 +71,9 @@ VALUES (30534, 5, -0.0333333) /* MANA_RATE_FLOAT */
      , (30534, 18, 0.9) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (30534, 19, 0.9) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (30534, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30534, 100, 1) /* DYABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
 VALUES (30534, 4694) /* CANTRIPHEALINGPROWESS3_SpellID */

@@ -45,3 +45,14 @@ VALUES (5032, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5032, 0, 16778344);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5032, 16, 'A silver wedding band, found in the Holtburg Redoubt. This ring belonged to Hardunna''s mother, Hope, before she was slain by Tumeroks in the Holtburg Redoubt.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5032, 33, 1) /* BONDED_INT */
+     , (5032, 114, 1) /* ATTUNED_INT */
+     , (5032, 19, 0) /* VALUE_INT */
+     , (5032, 5, 10) /* ENCUMB_VAL_INT */;
+

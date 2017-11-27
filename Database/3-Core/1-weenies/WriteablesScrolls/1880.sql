@@ -35,3 +35,17 @@ VALUES (1880, 13, True) /* ETHEREAL_BOOL */
      , (1880, 19, True) /* ATTACKABLE_BOOL */
      , (1880, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1880, 16, 'Inscribed spell: Aura of Defender Self I
+Increases the Melee Defense skill modifier of a weapon or magic caster by 3%.') /* LONG_DESC_STRING */
+     , (1880, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1880, 19, 1) /* VALUE_INT */
+     , (1880, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1880, 1599) /* Defender1_SpellID */;
+

@@ -62,20 +62,10 @@ VALUES (31572, 0, 16778359)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31572, 16, 67109565) /* EYES_PALETTE_DID */
-     , (31572, 9, 83890262) /* EYES_TEXTURE_DID */
-     , (31572, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (31572, 10, 83890314) /* NOSE_TEXTURE_DID */
-     , (31572, 11, 83890342) /* MOUTH_TEXTURE_DID */
-     , (31572, 15, 67116983) /* HAIR_PALETTE_DID */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31572, 16, 'Killed by Mag-lite.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31572, 113, 2) /* GENDER_INT */
-     , (31572, 2, 22) /* CREATURE_TYPE_INT */
-     , (31572, 25, 135) /* LEVEL_INT */
-     , (31572, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31572, 64, 525) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (31572, 19, 0) /* VALUE_INT */
+     , (31572, 5, 6035) /* ENCUMB_VAL_INT */;
 

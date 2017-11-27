@@ -54,8 +54,8 @@ VALUES (38839, 0, 16794124)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38839, 16, 67110063) /* EYES_PALETTE_DID */
-     , (38839, 9, 83890482) /* EYES_TEXTURE_DID */
+VALUES (38839, 16, 67110065) /* EYES_PALETTE_DID */
+     , (38839, 9, 83890481) /* EYES_TEXTURE_DID */
      , (38839, 17, 67109561) /* SKIN_PALETTE_DID */
      , (38839, 10, 83890521) /* NOSE_TEXTURE_DID */
      , (38839, 11, 83890646) /* MOUTH_TEXTURE_DID */

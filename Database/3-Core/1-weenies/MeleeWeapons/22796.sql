@@ -50,3 +50,30 @@ VALUES (22796, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22796, 0, 16777968);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22796, 14, 'Use this essence to summon or dismiss your Frost Spectre.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22796, 33, 0) /* BONDED_INT */
+     , (22796, 369, 40) /* USE_REQUIRES_LEVEL_INT */
+     , (22796, 114, 0) /* ATTUNED_INT */
+     , (22796, 370, 12) /* GEAR_DAMAGE_INT */
+     , (22796, 19, 4000) /* VALUE_INT */
+     , (22796, 371, 17) /* GEAR_DAMAGE_RESIST_INT */
+     , (22796, 5, 50) /* ENCUMB_VAL_INT */
+     , (22796, 373, 18) /* GEAR_CRIT_RESIST_INT */
+     , (22796, 375, 15) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (22796, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (22796, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (22796, 91, 50) /* MAX_STRUCTURE_INT */
+     , (22796, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (22796, 367, 310) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22796, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22796, 69, 1) /* IS_SELLABLE_BOOL */;
+

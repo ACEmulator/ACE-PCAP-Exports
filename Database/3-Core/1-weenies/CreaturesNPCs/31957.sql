@@ -87,12 +87,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31957, 5, 'Entrepreneur') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31957, 16, 67110064) /* EYES_PALETTE_DID */
-     , (31957, 9, 83890284) /* EYES_TEXTURE_DID */
-     , (31957, 17, 67115902) /* SKIN_PALETTE_DID */
-     , (31957, 10, 83890287) /* NOSE_TEXTURE_DID */
-     , (31957, 11, 83890326) /* MOUTH_TEXTURE_DID */
-     , (31957, 15, 67117019) /* HAIR_PALETTE_DID */;
+VALUES (31957, 16, 67110063) /* EYES_PALETTE_DID */
+     , (31957, 9, 83890277) /* EYES_TEXTURE_DID */
+     , (31957, 17, 67115905) /* SKIN_PALETTE_DID */
+     , (31957, 10, 83890307) /* NOSE_TEXTURE_DID */
+     , (31957, 11, 83890347) /* MOUTH_TEXTURE_DID */
+     , (31957, 15, 67117075) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31957, 113, 2) /* GENDER_INT */
@@ -101,6 +101,16 @@ VALUES (31957, 113, 2) /* GENDER_INT */
      , (31957, 25, 16) /* LEVEL_INT */
      , (31957, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31957, 1, 70) /* STRENGTH_ATTRIBUTE */
+     , (31957, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (31957, 4, 100) /* COORDINATION_ATTRIBUTE */
+     , (31957, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (31957, 16, 25) /* FOCUS_ATTRIBUTE */
+     , (31957, 32, 25) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31957, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (31957, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31957, 128, 120) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31957, 256, 35) /* MAX_MANA_ATTRIBUTE_2ND */;
 

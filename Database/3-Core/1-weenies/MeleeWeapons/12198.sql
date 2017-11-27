@@ -36,3 +36,41 @@ VALUES (12198, 13, True) /* ETHEREAL_BOOL */
      , (12198, 19, True) /* ATTACKABLE_BOOL */
      , (12198, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12198, 16, 'Shortbow of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12198, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
+     , (12198, 160, 270) /* WIELD_DIFFICULTY_INT */
+     , (12198, 353, 8) /* WEAPON_TYPE_INT */
+     , (12198, 19, 2769) /* VALUE_INT */
+     , (12198, 131, 63) /* MATERIAL_TYPE_INT */
+     , (12198, 115, 223) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (12198, 5, 358) /* ENCUMB_VAL_INT */
+     , (12198, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (12198, 106, 203) /* ITEM_SPELLCRAFT_INT */
+     , (12198, 108, 1084) /* ITEM_MAX_MANA_INT */
+     , (12198, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (12198, 109, 91) /* ITEM_DIFFICULTY_INT */
+     , (12198, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (12198, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (12198, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (12198, 45, 0) /* DAMAGE_TYPE_INT */
+     , (12198, 49, 33) /* WEAPON_TIME_INT */
+     , (12198, 48, 47) /* WEAPON_SKILL_INT */
+     , (12198, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12198, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (12198, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (12198, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (12198, 63, 2.25) /* DAMAGE_MOD_FLOAT */
+     , (12198, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12198, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12198, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12198, 1615) /* BloodDrinker5_SpellID */;
+

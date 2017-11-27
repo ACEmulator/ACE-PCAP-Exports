@@ -68,3 +68,38 @@ VALUES (41830, 16, 16795665)
      , (41830, 4, 16794154)
      , (41830, 8, 16794155);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41830, 5, 'Society Collector') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (41830, 16, 67109565) /* EYES_PALETTE_DID */
+     , (41830, 9, 83890516) /* EYES_TEXTURE_DID */
+     , (41830, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (41830, 10, 83890561) /* NOSE_TEXTURE_DID */
+     , (41830, 11, 83890643) /* MOUTH_TEXTURE_DID */
+     , (41830, 15, 67117025) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41830, 113, 1) /* GENDER_INT */
+     , (41830, 289, 1001) /* SOCIETY_RANK_RADBLO_INT */
+     , (41830, 2, 31) /* CREATURE_TYPE_INT */
+     , (41830, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (41830, 25, 180) /* LEVEL_INT */
+     , (41830, 281, 4) /* FACTION1_BITS_INT */
+     , (41830, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (41830, 1, 240) /* STRENGTH_ATTRIBUTE */
+     , (41830, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (41830, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (41830, 8, 250) /* QUICKNESS_ATTRIBUTE */
+     , (41830, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (41830, 32, 290) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (41830, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (41830, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (41830, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
+

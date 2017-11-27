@@ -30,3 +30,9 @@ VALUES (43785, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43785, 1, True) /* STUCK_BOOL */
      , (43785, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43785, 19, 3226) /* VALUE_INT */
+     , (43785, 5, 50) /* ENCUMB_VAL_INT */;
+

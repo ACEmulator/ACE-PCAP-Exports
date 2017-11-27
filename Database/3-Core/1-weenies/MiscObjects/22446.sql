@@ -44,6 +44,21 @@ VALUES (22446, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22446, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22446, 14, 'Use a bundle of bandages with these herbs to make a Plentiful Healing Kit.') /* USE_STRING */
+     , (22446, 15, 'A pile of crushed leaves having a malodorous scent.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22446, 33, 0) /* BONDED_INT */
+     , (22446, 114, 0) /* ATTUNED_INT */
+     , (22446, 19, 0) /* VALUE_INT */
+     , (22446, 5, 25) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22446, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

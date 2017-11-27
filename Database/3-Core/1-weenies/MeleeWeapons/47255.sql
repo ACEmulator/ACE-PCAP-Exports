@@ -47,3 +47,12 @@ VALUES (47255, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47255, 0, 16792613);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47255, 16, 'Killed by High-Voltage II.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47255, 19, 0) /* VALUE_INT */
+     , (47255, 5, 6080) /* ENCUMB_VAL_INT */;
+

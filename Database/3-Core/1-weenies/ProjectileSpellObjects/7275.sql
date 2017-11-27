@@ -34,3 +34,15 @@ VALUES (7275, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7275, 1, True) /* STUCK_BOOL */
      , (7275, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7275, 16, 'A golden coin imprinted with the mark of the Colosseum.') /* LONG_DESC_STRING */
+     , (7275, 14, 'Use this coin to buy items from the Colosseum Vendor.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7275, 33, 1) /* BONDED_INT */
+     , (7275, 114, 1) /* ATTUNED_INT */
+     , (7275, 19, 0) /* VALUE_INT */
+     , (7275, 5, 10) /* ENCUMB_VAL_INT */;
+

@@ -38,3 +38,24 @@ VALUES (35395, 13, True) /* ETHEREAL_BOOL */
      , (35395, 19, True) /* ATTACKABLE_BOOL */
      , (35395, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35395, 16, 'Gem of Regeneration') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35395, 19, 1385) /* VALUE_INT */
+     , (35395, 131, 32) /* MATERIAL_TYPE_INT */
+     , (35395, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (35395, 5, 5) /* ENCUMB_VAL_INT */
+     , (35395, 117, 350) /* ITEM_MANA_COST_INT */
+     , (35395, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (35395, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (35395, 108, 584) /* ITEM_MAX_MANA_INT */
+     , (35395, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (35395, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (35395, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35395, 170) /* RegenerationSelf6_SpellID */;
+

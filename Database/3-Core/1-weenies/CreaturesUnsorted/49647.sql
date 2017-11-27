@@ -98,11 +98,11 @@ VALUES (49647, 5, 'Archmage') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (49647, 16, 67110062) /* EYES_PALETTE_DID */
-     , (49647, 9, 83890453) /* EYES_TEXTURE_DID */
-     , (49647, 17, 67109552) /* SKIN_PALETTE_DID */
-     , (49647, 10, 83890539) /* NOSE_TEXTURE_DID */
-     , (49647, 11, 83890630) /* MOUTH_TEXTURE_DID */
-     , (49647, 15, 67116999) /* HAIR_PALETTE_DID */;
+     , (49647, 9, 83890479) /* EYES_TEXTURE_DID */
+     , (49647, 17, 67109553) /* SKIN_PALETTE_DID */
+     , (49647, 10, 83890526) /* NOSE_TEXTURE_DID */
+     , (49647, 11, 83890614) /* MOUTH_TEXTURE_DID */
+     , (49647, 15, 67117070) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49647, 113, 1) /* GENDER_INT */

@@ -42,11 +42,21 @@ VALUES (33286, 67115243, 0, 0);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33286, 2, 14) /* CREATURE_TYPE_INT */
-     , (33286, 25, 185) /* LEVEL_INT */;
+VALUES (33286, 2, 82) /* CREATURE_TYPE_INT */
+     , (33286, 25, 200) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33286, 1, 565) /* STRENGTH_ATTRIBUTE */
+     , (33286, 2, 252) /* ENDURANCE_ATTRIBUTE */
+     , (33286, 4, 575) /* COORDINATION_ATTRIBUTE */
+     , (33286, 8, 262) /* QUICKNESS_ATTRIBUTE */
+     , (33286, 16, 373) /* FOCUS_ATTRIBUTE */
+     , (33286, 32, 404) /* SELF_ATTRIBUTE */;
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33286, 64, 2420) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (33286, 64, 929) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33286, 128, 812) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33286, 256, 767) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Corpse Treasure List */
 

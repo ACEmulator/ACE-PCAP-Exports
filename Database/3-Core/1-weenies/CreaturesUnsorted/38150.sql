@@ -42,3 +42,24 @@ VALUES (38150, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38150, 67113029, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38150, 16, 'Gem of Acid Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38150, 19, 3389) /* VALUE_INT */
+     , (38150, 131, 38) /* MATERIAL_TYPE_INT */
+     , (38150, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (38150, 5, 5) /* ENCUMB_VAL_INT */
+     , (38150, 117, 300) /* ITEM_MANA_COST_INT */
+     , (38150, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (38150, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (38150, 108, 501) /* ITEM_MAX_MANA_INT */
+     , (38150, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (38150, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (38150, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (38150, 519) /* AcidProtectionSelf5_SpellID */;
+

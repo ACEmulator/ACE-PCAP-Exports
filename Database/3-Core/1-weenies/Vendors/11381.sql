@@ -51,6 +51,56 @@ VALUES (11381, 2, 6) /* CREATURE_TYPE_INT */
      , (11381, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (11381, 25, 11) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (11381, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (11381, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (11381, 4, 95) /* COORDINATION_ATTRIBUTE */
+     , (11381, 8, 95) /* QUICKNESS_ATTRIBUTE */
+     , (11381, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (11381, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11381, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (11381, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11381, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11381, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
+
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11381, 74, 1078215328) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (11381, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (11381, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (11381, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (11381, 38, 1.55) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11381, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (11381, 4, 139) /* Small Belt Pouch */
+     , (11381, 4, 136) /* Pack */
+     , (11381, 4, 41509) /* Minor Item Tinkering Armature */
+     , (11381, 4, 41507) /* Moderate Item Tinkering Armature */
+     , (11381, 4, 41419) /* Sheet Metal Form */
+     , (11381, 4, 41423) /* Medal Mold */
+     , (11381, 4, 41396) /* Handle Mold */
+     , (11381, 4, 41420) /* Hammer */
+     , (11381, 4, 41418) /* Leather Strap */
+     , (11381, 4, 41744) /* A Comprehensive Guide to Gearcrafting */
+     , (11381, 4, 547) /* Brimstone-cap Mushroom */
+     , (11381, 4, 5758) /* Carrot */
+     , (11381, 4, 4768) /* Uncooked Rice */
+     , (11381, 4, 4755) /* Brine */
+     , (11381, 4, 263) /* Fish */
+     , (11381, 4, 546) /* Egg */
+     , (11381, 4, 4761) /* Flour */
+     , (11381, 4, 4746) /* Water */
+     , (11381, 4, 4757) /* Carving Knife */
+     , (11381, 4, 513) /* Plain Lockpick */
+     , (11381, 4, 545) /* Reliable Lockpick */
+     , (11381, 4, 512) /* Good Lockpick */;
 

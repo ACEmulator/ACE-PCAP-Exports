@@ -46,3 +46,43 @@ VALUES (36688, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36688, 0, 16780142);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36688, 15, 'When you must strike, do not leave room for a return blow.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36688, 160, 120) /* WIELD_DIFFICULTY_INT */
+     , (36688, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
+     , (36688, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (36688, 19, 2000) /* VALUE_INT */
+     , (36688, 5, 200) /* ENCUMB_VAL_INT */
+     , (36688, 263, 4) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (36688, 265, 10) /* EQUIPMENT_SET_ID_INT */
+     , (36688, 106, 230) /* ITEM_SPELLCRAFT_INT */
+     , (36688, 108, 960) /* ITEM_MAX_MANA_INT */
+     , (36688, 45, 4) /* DAMAGE_TYPE_INT */
+     , (36688, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (36688, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (36688, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (36688, 152, 1.15) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (36688, 144, 0.12) /* MANA_CONVERSION_MOD_FLOAT */
+     , (36688, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (36688, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (36688, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (36688, 5, -0.033) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36688, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (36688, 2182) /* ManaRenewalOther7_SpellID */
+     , (36688, 2322) /* WarMagicMasteryOther7_SpellID */
+     , (36688, 2387) /* Determination_SpellID */
+     , (36688, 2392) /* Serenity_SpellID */
+     , (36688, 2525) /* CANTRIPMANACONVERSIONPROWESS2_SpellID */
+     , (36688, 2534) /* CANTRIPWARMAGICAPTITUDE2_SpellID */
+     , (36688, 2286) /* ManaMasteryOther7_SpellID */;
+

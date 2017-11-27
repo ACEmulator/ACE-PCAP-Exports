@@ -41,6 +41,16 @@ VALUES (11835, 0, 83893727, 83893727);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11835, 0, 16787134);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11835, 16, 'A durable banner haft with a worn handle.  If joined with either a Gromnie or Mask banner, it will raise its value.') /* LONG_DESC_STRING */
+     , (11835, 14, 'Use this on a Gromnie or Mask Banner.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11835, 19, 0) /* VALUE_INT */
+     , (11835, 5, 100) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

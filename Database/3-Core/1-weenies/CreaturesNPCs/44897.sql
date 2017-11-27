@@ -98,12 +98,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (44897, 5, 'Lifestone Greeter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (44897, 16, 67110062) /* EYES_PALETTE_DID */
-     , (44897, 9, 83890439) /* EYES_TEXTURE_DID */
-     , (44897, 17, 67110053) /* SKIN_PALETTE_DID */
-     , (44897, 10, 83890561) /* NOSE_TEXTURE_DID */
-     , (44897, 11, 83890660) /* MOUTH_TEXTURE_DID */
-     , (44897, 15, 67116996) /* HAIR_PALETTE_DID */;
+VALUES (44897, 16, 67110063) /* EYES_PALETTE_DID */
+     , (44897, 9, 83890500) /* EYES_TEXTURE_DID */
+     , (44897, 17, 67110057) /* SKIN_PALETTE_DID */
+     , (44897, 10, 83890521) /* NOSE_TEXTURE_DID */
+     , (44897, 11, 83890570) /* MOUTH_TEXTURE_DID */
+     , (44897, 15, 67117018) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44897, 113, 1) /* GENDER_INT */
@@ -112,6 +112,16 @@ VALUES (44897, 113, 1) /* GENDER_INT */
      , (44897, 25, 5) /* LEVEL_INT */
      , (44897, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (44897, 1, 100) /* STRENGTH_ATTRIBUTE */
+     , (44897, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (44897, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (44897, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (44897, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (44897, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (44897, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (44897, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (44897, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (44897, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -74,6 +74,51 @@ VALUES (35124, 0, 16784246)
      , (35124, 11, 16784204)
      , (35124, 12, 16784196);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35124, 16, 'Frost Hammer of Coordination') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35124, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (35124, 160, 370) /* WIELD_DIFFICULTY_INT */
+     , (35124, 353, 3) /* WEAPON_TYPE_INT */
+     , (35124, 177, 3) /* GEM_COUNT_INT */
+     , (35124, 178, 49) /* GEM_TYPE_INT */
+     , (35124, 19, 5857) /* VALUE_INT */
+     , (35124, 131, 57) /* MATERIAL_TYPE_INT */
+     , (35124, 115, 321) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (35124, 5, 335) /* ENCUMB_VAL_INT */
+     , (35124, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (35124, 106, 301) /* ITEM_SPELLCRAFT_INT */
+     , (35124, 108, 872) /* ITEM_MAX_MANA_INT */
+     , (35124, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (35124, 109, 79) /* ITEM_DIFFICULTY_INT */
+     , (35124, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (35124, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (35124, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (35124, 47, 4) /* ATTACK_TYPE_INT */
+     , (35124, 45, 8) /* DAMAGE_TYPE_INT */
+     , (35124, 49, 40) /* WEAPON_TIME_INT */
+     , (35124, 48, 46) /* WEAPON_SKILL_INT */
+     , (35124, 44, 44) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35124, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (35124, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (35124, 22, 0.83) /* DAMAGE_VARIANCE_FLOAT */
+     , (35124, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (35124, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (35124, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (35124, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35124, 2059) /* CoordinationSelf7_SpellID */
+     , (35124, 1616) /* BloodDrinker6_SpellID */
+     , (35124, 2598) /* CANTRIPBLOODTHIRST1_SpellID */
+     , (35124, 2600) /* CANTRIPDEFENDER1_SpellID */
+     , (35124, 1592) /* HeartSeeker6_SpellID */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

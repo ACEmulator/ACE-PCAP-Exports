@@ -33,17 +33,6 @@ VALUES (31359, 13, True) /* ETHEREAL_BOOL */
      , (31359, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31359, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31359, 16, 'A delicate wing from a Kirit Zefir.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31359, 33, 1) /* BONDED_INT */
-     , (31359, 114, 1) /* ATTUNED_INT */
-     , (31359, 19, 10000) /* VALUE_INT */
-     , (31359, 5, 100) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

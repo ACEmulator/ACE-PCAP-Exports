@@ -35,6 +35,16 @@ VALUES (41424, 13, True) /* ETHEREAL_BOOL */
      , (41424, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41424, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41424, 16, 'A refining polish used on metal.') /* LONG_DESC_STRING */
+     , (41424, 14, 'This item is used in Item Tinkering.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41424, 19, 15000) /* VALUE_INT */
+     , (41424, 5, 150) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

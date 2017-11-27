@@ -96,11 +96,11 @@ VALUES (49648, 5, 'Barkeeper') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (49648, 16, 67110063) /* EYES_PALETTE_DID */
-     , (49648, 9, 83890275) /* EYES_TEXTURE_DID */
-     , (49648, 17, 67109551) /* SKIN_PALETTE_DID */
-     , (49648, 10, 83890288) /* NOSE_TEXTURE_DID */
+     , (49648, 9, 83890241) /* EYES_TEXTURE_DID */
+     , (49648, 17, 67109553) /* SKIN_PALETTE_DID */
+     , (49648, 10, 83890311) /* NOSE_TEXTURE_DID */
      , (49648, 11, 83890344) /* MOUTH_TEXTURE_DID */
-     , (49648, 15, 67117026) /* HAIR_PALETTE_DID */;
+     , (49648, 15, 67116994) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49648, 113, 2) /* GENDER_INT */

@@ -46,12 +46,12 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (52010, 33, 0) /* BONDED_INT */
      , (52010, 369, 150) /* USE_REQUIRES_LEVEL_INT */
      , (52010, 114, 0) /* ATTUNED_INT */
-     , (52010, 98, 1485719927) /* CREATION_TIMESTAMP_INT */
+     , (52010, 98, 1485719928) /* CREATION_TIMESTAMP_INT */
      , (52010, 19, 10000) /* VALUE_INT */
      , (52010, 5, 30) /* ENCUMB_VAL_INT */
      , (52010, 267, 86400) /* LIFESPAN_INT */
      , (52010, 91, 5) /* MAX_STRUCTURE_INT */
-     , (52010, 268, 83199) /* REMAINING_LIFESPAN_INT */;
+     , (52010, 268, 83211) /* REMAINING_LIFESPAN_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (52010, 99, 0) /* IVORYABLE_BOOL */

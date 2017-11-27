@@ -80,12 +80,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (22644, 5, 'Tusker Emporium Hawker') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (22644, 16, 67109565) /* EYES_PALETTE_DID */
-     , (22644, 9, 83890513) /* EYES_TEXTURE_DID */
-     , (22644, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (22644, 10, 83890558) /* NOSE_TEXTURE_DID */
-     , (22644, 11, 83890630) /* MOUTH_TEXTURE_DID */
-     , (22644, 15, 67117023) /* HAIR_PALETTE_DID */;
+VALUES (22644, 16, 67109566) /* EYES_PALETTE_DID */
+     , (22644, 9, 83890485) /* EYES_TEXTURE_DID */
+     , (22644, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (22644, 10, 83890554) /* NOSE_TEXTURE_DID */
+     , (22644, 11, 83890632) /* MOUTH_TEXTURE_DID */
+     , (22644, 15, 67116977) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (22644, 113, 1) /* GENDER_INT */

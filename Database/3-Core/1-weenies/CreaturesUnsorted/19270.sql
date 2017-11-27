@@ -42,12 +42,39 @@ VALUES (19270, 67113866, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19270, 2, 63) /* CREATURE_TYPE_INT */
-     , (19270, 25, 160) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19270, 16, 'Yoroi Tassets') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (19270, 64, 620) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19270, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (19270, 19, 7042) /* VALUE_INT */
+     , (19270, 131, 64) /* MATERIAL_TYPE_INT */
+     , (19270, 115, 154) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (19270, 5, 349) /* ENCUMB_VAL_INT */
+     , (19270, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (19270, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (19270, 28, 241) /* ARMOR_LEVEL_INT */
+     , (19270, 108, 801) /* ITEM_MAX_MANA_INT */
+     , (19270, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (19270, 109, 123) /* ITEM_DIFFICULTY_INT */
+     , (19270, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (19270, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (19270, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (19270, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (19270, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (19270, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (19270, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (19270, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (19270, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (19270, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19270, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (19270, 1485) /* Impenetrability5_SpellID */;
 
 /* Corpse Treasure List */
 

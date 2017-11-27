@@ -64,3 +64,12 @@ VALUES (23666, 0, 16779464)
      , (23666, 7, 16777708)
      , (23666, 8, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23666, 16, 'Killed by Mag-three.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23666, 19, 0) /* VALUE_INT */
+     , (23666, 5, 7474) /* ENCUMB_VAL_INT */;
+

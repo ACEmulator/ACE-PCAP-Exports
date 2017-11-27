@@ -47,3 +47,20 @@ VALUES (46122, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46122, 0, 16787901);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46122, 16, 'This weapon seems tough to master.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46122, 33, 1) /* BONDED_INT */
+     , (46122, 19, 4000) /* VALUE_INT */
+     , (46122, 5, 150) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46122, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (46122, 29, 1.25) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46122, 69, 0) /* IS_SELLABLE_BOOL */;
+

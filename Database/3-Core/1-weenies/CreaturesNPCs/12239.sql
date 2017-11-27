@@ -93,12 +93,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (12239, 5, 'Wall Hanging Master') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (12239, 16, 67110063) /* EYES_PALETTE_DID */
-     , (12239, 9, 83890457) /* EYES_TEXTURE_DID */
-     , (12239, 17, 67109557) /* SKIN_PALETTE_DID */
-     , (12239, 10, 83890538) /* NOSE_TEXTURE_DID */
-     , (12239, 11, 83890606) /* MOUTH_TEXTURE_DID */
-     , (12239, 15, 67117018) /* HAIR_PALETTE_DID */;
+VALUES (12239, 16, 67110062) /* EYES_PALETTE_DID */
+     , (12239, 9, 83890514) /* EYES_TEXTURE_DID */
+     , (12239, 17, 67109551) /* SKIN_PALETTE_DID */
+     , (12239, 10, 83890517) /* NOSE_TEXTURE_DID */
+     , (12239, 11, 83890601) /* MOUTH_TEXTURE_DID */
+     , (12239, 15, 67117019) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (12239, 113, 1) /* GENDER_INT */
@@ -107,6 +107,16 @@ VALUES (12239, 113, 1) /* GENDER_INT */
      , (12239, 25, 28) /* LEVEL_INT */
      , (12239, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (12239, 1, 120) /* STRENGTH_ATTRIBUTE */
+     , (12239, 2, 100) /* ENDURANCE_ATTRIBUTE */
+     , (12239, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (12239, 8, 140) /* QUICKNESS_ATTRIBUTE */
+     , (12239, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (12239, 32, 120) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12239, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (12239, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (12239, 128, 210) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (12239, 256, 175) /* MAX_MANA_ATTRIBUTE_2ND */;
 

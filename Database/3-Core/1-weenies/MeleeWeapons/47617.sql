@@ -49,3 +49,24 @@ VALUES (47617, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47617, 0, 16777915);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47617, 16, 'Gem of Quickness') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47617, 19, 1200) /* VALUE_INT */
+     , (47617, 131, 15) /* MATERIAL_TYPE_INT */
+     , (47617, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (47617, 5, 5) /* ENCUMB_VAL_INT */
+     , (47617, 117, 300) /* ITEM_MANA_COST_INT */
+     , (47617, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (47617, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (47617, 108, 467) /* ITEM_MAX_MANA_INT */
+     , (47617, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (47617, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (47617, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (47617, 1401) /* QuicknessSelf5_SpellID */;
+

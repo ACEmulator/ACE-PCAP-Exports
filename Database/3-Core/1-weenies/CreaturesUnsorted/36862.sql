@@ -36,3 +36,12 @@ VALUES (36862, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36862, 67114252, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36862, 2, 19) /* CREATURE_TYPE_INT */
+     , (36862, 25, 125) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (36862, 64, 505) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

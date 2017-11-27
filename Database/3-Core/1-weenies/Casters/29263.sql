@@ -52,3 +52,39 @@ VALUES (29263, 0, 83895592, 83895592)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29263, 0, 16791340);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29263, 16, 'Frost Sceptre of Blades') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29263, 160, 290) /* WIELD_DIFFICULTY_INT */
+     , (29263, 177, 1) /* GEM_COUNT_INT */
+     , (29263, 178, 48) /* GEM_TYPE_INT */
+     , (29263, 19, 4391) /* VALUE_INT */
+     , (29263, 131, 58) /* MATERIAL_TYPE_INT */
+     , (29263, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (29263, 5, 50) /* ENCUMB_VAL_INT */
+     , (29263, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (29263, 106, 263) /* ITEM_SPELLCRAFT_INT */
+     , (29263, 108, 1734) /* ITEM_MAX_MANA_INT */
+     , (29263, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (29263, 109, 281) /* ITEM_DIFFICULTY_INT */
+     , (29263, 45, 8) /* DAMAGE_TYPE_INT */
+     , (29263, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (29263, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (29263, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29263, 144, 0.04) /* MANA_CONVERSION_MOD_FLOAT */
+     , (29263, 152, 1.01) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (29263, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (29263, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (29263, 97) /* WhirlingBlade6_SpellID */
+     , (29263, 1479) /* TrueValue5_SpellID */
+     , (29263, 5427) /* CantripVoidMagicAptitude1_SpellID */
+     , (29263, 3257) /* SpiritDrinker5_SpellID */
+     , (29263, 2555) /* CANTRIPLIFEMAGICAPTITUDE1_SpellID */;
+

@@ -36,6 +36,19 @@ VALUES (29123, 13, True) /* ETHEREAL_BOOL */
      , (29123, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29123, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29123, 16, 'This barley has a nice amber color. It can be used to produced a fine amber ale.') /* LONG_DESC_STRING */
+     , (29123, 14, 'Add barley to a full brew kettle to create wort.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29123, 19, 320) /* VALUE_INT */
+     , (29123, 5, 320) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29123, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

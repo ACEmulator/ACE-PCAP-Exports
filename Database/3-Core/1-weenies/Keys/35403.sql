@@ -33,3 +33,16 @@ VALUES (35403, 13, True) /* ETHEREAL_BOOL */
      , (35403, 19, True) /* ATTACKABLE_BOOL */
      , (35403, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35403, 16, 'An ancient silver key scarred and covered with ash.') /* LONG_DESC_STRING */
+     , (35403, 14, 'Use this key on Lady Tairla''s royal treasure cache.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35403, 33, 1) /* BONDED_INT */
+     , (35403, 114, 1) /* ATTUNED_INT */
+     , (35403, 19, 0) /* VALUE_INT */
+     , (35403, 5, 50) /* ENCUMB_VAL_INT */
+     , (35403, 91, 1) /* MAX_STRUCTURE_INT */;
+

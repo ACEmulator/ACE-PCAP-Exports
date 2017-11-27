@@ -57,15 +57,15 @@ VALUES (21362, 16, 'A staff crafted from low-quality chorizite, seemingly imperv
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21362, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (21362, 353, 7) /* WEAPON_TYPE_INT */
      , (21362, 33, 1) /* BONDED_INT */
+     , (21362, 353, 7) /* WEAPON_TYPE_INT */
      , (21362, 114, 1) /* ATTUNED_INT */
      , (21362, 19, 2000) /* VALUE_INT */
      , (21362, 36, 9999) /* RESIST_MAGIC_INT */
      , (21362, 5, 450) /* ENCUMB_VAL_INT */
      , (21362, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (21362, 159, 44) /* WIELD_SKILLTYPE_INT */
      , (21362, 47, 6) /* ATTACK_TYPE_INT */
+     , (21362, 159, 44) /* WIELD_SKILLTYPE_INT */
      , (21362, 45, 4) /* DAMAGE_TYPE_INT */
      , (21362, 49, 20) /* WEAPON_TIME_INT */
      , (21362, 48, 44) /* WEAPON_SKILL_INT */

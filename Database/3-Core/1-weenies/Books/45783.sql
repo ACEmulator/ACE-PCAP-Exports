@@ -46,3 +46,17 @@ VALUES (45783, 33, 1) /* BONDED_INT */
      , (45783, 174, 1) /* APPRAISAL_PAGES_INT */
      , (45783, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45783, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (45783, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (45783, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (45783, 0, 'Untranslated Text', 'prewritten', 4294967295, 0, '
+[You cannot translate this text]
+');
+

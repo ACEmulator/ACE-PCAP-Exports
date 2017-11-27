@@ -60,10 +60,30 @@ VALUES (7552, 0, 16785699)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7552, 2, 70) /* CREATURE_TYPE_INT */
-     , (7552, 25, 60) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7552, 16, 'Staff of Blades') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7552, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7552, 177, 2) /* GEM_COUNT_INT */
+     , (7552, 178, 16) /* GEM_TYPE_INT */
+     , (7552, 19, 8912) /* VALUE_INT */
+     , (7552, 131, 46) /* MATERIAL_TYPE_INT */
+     , (7552, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (7552, 5, 50) /* ENCUMB_VAL_INT */
+     , (7552, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (7552, 106, 257) /* ITEM_SPELLCRAFT_INT */
+     , (7552, 108, 3034) /* ITEM_MAX_MANA_INT */
+     , (7552, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (7552, 109, 257) /* ITEM_DIFFICULTY_INT */
+     , (7552, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7552, 144, 0.04) /* MANA_CONVERSION_MOD_FLOAT */
+     , (7552, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (7552, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7552, 97) /* WhirlingBlade6_SpellID */
+     , (7552, 1605) /* Defender6_SpellID */
+     , (7552, 1479) /* TrueValue5_SpellID */;
 

@@ -95,12 +95,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (28920, 5, 'Apprentice Cook') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (28920, 16, 67110064) /* EYES_PALETTE_DID */
-     , (28920, 9, 83890482) /* EYES_TEXTURE_DID */
-     , (28920, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (28920, 10, 83890554) /* NOSE_TEXTURE_DID */
-     , (28920, 11, 83890628) /* MOUTH_TEXTURE_DID */
-     , (28920, 15, 67116989) /* HAIR_PALETTE_DID */;
+VALUES (28920, 16, 67109567) /* EYES_PALETTE_DID */
+     , (28920, 9, 83890509) /* EYES_TEXTURE_DID */
+     , (28920, 17, 67109558) /* SKIN_PALETTE_DID */
+     , (28920, 10, 83890521) /* NOSE_TEXTURE_DID */
+     , (28920, 11, 83890566) /* MOUTH_TEXTURE_DID */
+     , (28920, 15, 67117074) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28920, 113, 1) /* GENDER_INT */
@@ -109,6 +109,16 @@ VALUES (28920, 113, 1) /* GENDER_INT */
      , (28920, 25, 5) /* LEVEL_INT */
      , (28920, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (28920, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (28920, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (28920, 4, 70) /* COORDINATION_ATTRIBUTE */
+     , (28920, 8, 70) /* QUICKNESS_ATTRIBUTE */
+     , (28920, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (28920, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28920, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (28920, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28920, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28920, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 

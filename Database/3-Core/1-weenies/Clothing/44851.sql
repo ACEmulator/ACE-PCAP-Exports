@@ -49,19 +49,19 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (44851, 16, 'Chevron Cloak') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (44851, 55, 1787) /* PROC_SPELL_DID */;
+VALUES (44851, 55, 5753) /* PROC_SPELL_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44851, 352, 1) /* CLOAK_WEAVE_PROC_INT */
      , (44851, 160, 180) /* WIELD_DIFFICULTY_INT */
      , (44851, 320, 2) /* ITEM_XP_STYLE_INT */
-     , (44851, 370, 3) /* GEAR_DAMAGE_INT */
-     , (44851, 19, 4006) /* VALUE_INT */
-     , (44851, 131, 4) /* MATERIAL_TYPE_INT */
+     , (44851, 19, 3815) /* VALUE_INT */
+     , (44851, 131, 5) /* MATERIAL_TYPE_INT */
+     , (44851, 371, 2) /* GEAR_DAMAGE_RESIST_INT */
      , (44851, 36, 9999) /* RESIST_MAGIC_INT */
      , (44851, 5, 75) /* ENCUMB_VAL_INT */
-     , (44851, 265, 50) /* EQUIPMENT_SET_ID_INT */
-     , (44851, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (44851, 265, 83) /* EQUIPMENT_SET_ID_INT */
+     , (44851, 105, 8) /* ITEM_WORKMANSHIP_INT */
      , (44851, 28, 0) /* ARMOR_LEVEL_INT */
      , (44851, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
      , (44851, 158, 7) /* WIELD_REQUIREMENTS_INT */
@@ -86,5 +86,5 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (44851, 100, 0) /* DYABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (44851, 1787) /* FrostRing_SpellID */;
+VALUES (44851, 5753) /* CloakAllSkill_SpellID */;
 

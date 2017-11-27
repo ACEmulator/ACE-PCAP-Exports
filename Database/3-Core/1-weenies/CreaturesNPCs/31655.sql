@@ -89,23 +89,9 @@ VALUES (31655, 12, 16777304)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31655, 5, 'Polardillo Pummeler') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31655, 16, 67110064) /* EYES_PALETTE_DID */
-     , (31655, 9, 83890445) /* EYES_TEXTURE_DID */
-     , (31655, 17, 67115906) /* SKIN_PALETTE_DID */
-     , (31655, 10, 83890547) /* NOSE_TEXTURE_DID */
-     , (31655, 11, 83890662) /* MOUTH_TEXTURE_DID */
-     , (31655, 15, 67116988) /* HAIR_PALETTE_DID */;
+VALUES (31655, 16, 'Killed by Fquicker.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31655, 113, 1) /* GENDER_INT */
-     , (31655, 2, 31) /* CREATURE_TYPE_INT */
-     , (31655, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31655, 25, 14) /* LEVEL_INT */
-     , (31655, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31655, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (31655, 19, 0) /* VALUE_INT */
+     , (31655, 5, 6171) /* ENCUMB_VAL_INT */;
 

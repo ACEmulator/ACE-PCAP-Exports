@@ -35,3 +35,17 @@ VALUES (3423, 13, True) /* ETHEREAL_BOOL */
      , (3423, 19, True) /* ATTACKABLE_BOOL */
      , (3423, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3423, 16, 'Inscribed spell: Magic Yield Other II
+Decreases the target''s Magic Defense skill by 15 points.') /* LONG_DESC_STRING */
+     , (3423, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3423, 19, 5) /* VALUE_INT */
+     , (3423, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3423, 281) /* MagicYieldOther2_SpellID */;
+

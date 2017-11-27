@@ -43,12 +43,34 @@ VALUES (35151, 67116813, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35151, 2, 1) /* CREATURE_TYPE_INT */
-     , (35151, 25, 200) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35151, 16, 'Frost Morning Star') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35151, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35151, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (35151, 353, 4) /* WEAPON_TYPE_INT */
+     , (35151, 177, 3) /* GEM_COUNT_INT */
+     , (35151, 178, 20) /* GEM_TYPE_INT */
+     , (35151, 19, 8629) /* VALUE_INT */
+     , (35151, 131, 63) /* MATERIAL_TYPE_INT */
+     , (35151, 5, 622) /* ENCUMB_VAL_INT */
+     , (35151, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (35151, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (35151, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (35151, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (35151, 47, 4) /* ATTACK_TYPE_INT */
+     , (35151, 45, 8) /* DAMAGE_TYPE_INT */
+     , (35151, 49, 55) /* WEAPON_TIME_INT */
+     , (35151, 48, 44) /* WEAPON_SKILL_INT */
+     , (35151, 44, 45) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35151, 29, 1.13) /* WEAPON_DEFENSE_FLOAT */
+     , (35151, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
+     , (35151, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (35151, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (35151, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (35151, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
 
 /* Corpse Treasure List */
 

@@ -59,8 +59,8 @@ VALUES (5769, 16, 'A ball made of densely packed snow, once partially melted and
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5769, 353, 10) /* WEAPON_TYPE_INT */
-     , (5769, 19, 120) /* VALUE_INT */
-     , (5769, 5, 600) /* ENCUMB_VAL_INT */
+     , (5769, 19, 5) /* VALUE_INT */
+     , (5769, 5, 25) /* ENCUMB_VAL_INT */
      , (5769, 45, 8) /* DAMAGE_TYPE_INT */
      , (5769, 49, 20) /* WEAPON_TIME_INT */
      , (5769, 48, 47) /* WEAPON_SKILL_INT */

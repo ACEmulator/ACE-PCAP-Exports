@@ -34,3 +34,14 @@ VALUES (45384, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45384, 67111923, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45384, 14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Sneak Attack skill. ') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45384, 33, 1) /* BONDED_INT */
+     , (45384, 114, 1) /* ATTUNED_INT */
+     , (45384, 19, 0) /* VALUE_INT */
+     , (45384, 5, 10) /* ENCUMB_VAL_INT */;
+

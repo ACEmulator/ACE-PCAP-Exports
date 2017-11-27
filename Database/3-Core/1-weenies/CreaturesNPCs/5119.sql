@@ -96,11 +96,11 @@ VALUES (5119, 5, 'Enchanter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (5119, 16, 67109565) /* EYES_PALETTE_DID */
-     , (5119, 9, 83890452) /* EYES_TEXTURE_DID */
-     , (5119, 17, 67110045) /* SKIN_PALETTE_DID */
-     , (5119, 10, 83890520) /* NOSE_TEXTURE_DID */
-     , (5119, 11, 83890665) /* MOUTH_TEXTURE_DID */
-     , (5119, 15, 67117024) /* HAIR_PALETTE_DID */;
+     , (5119, 9, 83890435) /* EYES_TEXTURE_DID */
+     , (5119, 17, 67110049) /* SKIN_PALETTE_DID */
+     , (5119, 10, 83890517) /* NOSE_TEXTURE_DID */
+     , (5119, 11, 83890630) /* MOUTH_TEXTURE_DID */
+     , (5119, 15, 67117022) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5119, 113, 1) /* GENDER_INT */

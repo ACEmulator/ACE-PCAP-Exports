@@ -34,12 +34,17 @@ VALUES (1989, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1989, 2, 20) /* CREATURE_TYPE_INT */
-     , (1989, 25, 50) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1989, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Acid Rending. Acid Rending gives the weapon the ability to make its opponent vulnerable to acid attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Acid Vulnerability spells.') /* USE_STRING */
+     , (1989, 15, 'Chips of emerald material salvaged from old items.') /* SHORT_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1989, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1989, 33, 1) /* BONDED_INT */
+     , (1989, 131, 21) /* MATERIAL_TYPE_INT */
+     , (1989, 19, 10) /* VALUE_INT */
+     , (1989, 5, 100) /* ENCUMB_VAL_INT */
+     , (1989, 105, 100) /* ITEM_WORKMANSHIP_INT */
+     , (1989, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
 
 /* Corpse Treasure List */
 

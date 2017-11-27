@@ -92,12 +92,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (36236, 5, 'Rat Catcher') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (36236, 16, 67109565) /* EYES_PALETTE_DID */
-     , (36236, 9, 83890449) /* EYES_TEXTURE_DID */
-     , (36236, 17, 67110048) /* SKIN_PALETTE_DID */
+VALUES (36236, 16, 67110063) /* EYES_PALETTE_DID */
+     , (36236, 9, 83890488) /* EYES_TEXTURE_DID */
+     , (36236, 17, 67110056) /* SKIN_PALETTE_DID */
      , (36236, 10, 83890544) /* NOSE_TEXTURE_DID */
-     , (36236, 11, 83890577) /* MOUTH_TEXTURE_DID */
-     , (36236, 15, 67117016) /* HAIR_PALETTE_DID */;
+     , (36236, 11, 83890660) /* MOUTH_TEXTURE_DID */
+     , (36236, 15, 67117068) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36236, 113, 1) /* GENDER_INT */

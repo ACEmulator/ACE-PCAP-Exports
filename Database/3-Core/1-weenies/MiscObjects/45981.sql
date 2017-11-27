@@ -37,6 +37,20 @@ VALUES (45981, 13, True) /* ETHEREAL_BOOL */
      , (45981, 19, True) /* ATTACKABLE_BOOL */
      , (45981, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45981, 14, 'Use this gem on an Explorer Weapon Cast to create a Light Weapon.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45981, 33, 1) /* BONDED_INT */
+     , (45981, 114, 1) /* ATTUNED_INT */
+     , (45981, 19, 0) /* VALUE_INT */
+     , (45981, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45981, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

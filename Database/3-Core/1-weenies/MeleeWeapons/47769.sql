@@ -48,3 +48,12 @@ VALUES (47769, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47769, 0, 16777955);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47769, 2, 13) /* CREATURE_TYPE_INT */
+     , (47769, 25, 185) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (47769, 64, 2805) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

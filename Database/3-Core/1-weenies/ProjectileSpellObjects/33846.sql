@@ -35,3 +35,12 @@ VALUES (33846, 13, True) /* ETHEREAL_BOOL */
      , (33846, 1, True) /* STUCK_BOOL */
      , (33846, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33846, 16, 'Killed by Asdfasdfasdfaa.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33846, 19, 0) /* VALUE_INT */
+     , (33846, 5, 6661) /* ENCUMB_VAL_INT */;
+

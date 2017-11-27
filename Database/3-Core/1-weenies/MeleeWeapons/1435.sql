@@ -48,3 +48,38 @@ VALUES (1435, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1435, 0, 16777915);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1435, 15, 'An icy sword, its hilt inlaid with ivory and lapis lazuli.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1435, 353, 2) /* WEAPON_TYPE_INT */
+     , (1435, 19, 1300) /* VALUE_INT */
+     , (1435, 5, 450) /* ENCUMB_VAL_INT */
+     , (1435, 106, 15) /* ITEM_SPELLCRAFT_INT */
+     , (1435, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (1435, 109, 20) /* ITEM_DIFFICULTY_INT */
+     , (1435, 47, 6) /* ATTACK_TYPE_INT */
+     , (1435, 45, 8) /* DAMAGE_TYPE_INT */
+     , (1435, 49, 35) /* WEAPON_TIME_INT */
+     , (1435, 48, 44) /* WEAPON_SKILL_INT */
+     , (1435, 44, 16) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (1435, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (1435, 5, -0.022) /* MANA_RATE_FLOAT */
+     , (1435, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (1435, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (1435, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (1435, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (1435, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (1435, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1435, 1601) /* Defender2_SpellID */
+     , (1435, 1032) /* ColdProtectionSelf3_SpellID */
+     , (1435, 1612) /* BloodDrinker2_SpellID */
+     , (1435, 49) /* SwiftKiller1_SpellID */
+     , (1435, 1588) /* HeartSeeker2_SpellID */;
+

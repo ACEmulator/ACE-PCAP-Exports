@@ -38,12 +38,33 @@ VALUES (23570, 67114251, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23570, 2, 19) /* CREATURE_TYPE_INT */
-     , (23570, 25, 220) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23570, 16, 'Nariyid Boots') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (23570, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23570, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (23570, 19, 18510) /* VALUE_INT */
+     , (23570, 131, 63) /* MATERIAL_TYPE_INT */
+     , (23570, 5, 298) /* ENCUMB_VAL_INT */
+     , (23570, 265, 16) /* EQUIPMENT_SET_ID_INT */
+     , (23570, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (23570, 28, 315) /* ARMOR_LEVEL_INT */
+     , (23570, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (23570, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (23570, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23570, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (23570, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (23570, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (23570, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (23570, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (23570, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (23570, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (23570, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23570, 100, 1) /* DYABLE_BOOL */;
 
 /* Corpse Treasure List */
 

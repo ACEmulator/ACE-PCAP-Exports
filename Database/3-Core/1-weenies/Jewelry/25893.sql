@@ -37,3 +37,25 @@ VALUES (25893, 13, True) /* ETHEREAL_BOOL */
      , (25893, 19, True) /* ATTACKABLE_BOOL */
      , (25893, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25893, 15, 'The doll''s mask shattered when it was slain, but this circular piece that was once its eye remained intact.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25893, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (25893, 19, 6000) /* VALUE_INT */
+     , (25893, 5, 225) /* ENCUMB_VAL_INT */
+     , (25893, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (25893, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (25893, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (25893, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (25893, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25893, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (25893, 2999) /* EnduranceAbyss_SpellID */
+     , (25893, 3002) /* WillpowerQuiddity_SpellID */;
+

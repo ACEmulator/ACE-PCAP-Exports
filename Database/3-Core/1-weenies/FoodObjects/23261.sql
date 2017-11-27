@@ -47,6 +47,37 @@ VALUES (23261, 0, 83894506, 83894506);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23261, 0, 16788968);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23261, 16, 'War Hammer') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23261, 160, 370) /* WIELD_DIFFICULTY_INT */
+     , (23261, 353, 3) /* WEAPON_TYPE_INT */
+     , (23261, 177, 4) /* GEM_COUNT_INT */
+     , (23261, 178, 39) /* GEM_TYPE_INT */
+     , (23261, 19, 26903) /* VALUE_INT */
+     , (23261, 131, 39) /* MATERIAL_TYPE_INT */
+     , (23261, 5, 369) /* ENCUMB_VAL_INT */
+     , (23261, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (23261, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (23261, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (23261, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (23261, 47, 4) /* ATTACK_TYPE_INT */
+     , (23261, 45, 4) /* DAMAGE_TYPE_INT */
+     , (23261, 49, 43) /* WEAPON_TIME_INT */
+     , (23261, 48, 45) /* WEAPON_SKILL_INT */
+     , (23261, 44, 46) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23261, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
+     , (23261, 22, 0.85) /* DAMAGE_VARIANCE_FLOAT */
+     , (23261, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (23261, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (23261, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (23261, 62, 1.14) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

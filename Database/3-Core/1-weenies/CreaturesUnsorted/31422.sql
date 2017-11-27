@@ -56,6 +56,19 @@ VALUES (31422, 1, 16785073)
      , (31422, 23, 16777708)
      , (31422, 24, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31422, 15, 'A bright red piece of paper with some writing on it.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31422, 33, 0) /* BONDED_INT */
+     , (31422, 114, 0) /* ATTUNED_INT */
+     , (31422, 19, 1) /* VALUE_INT */
+     , (31422, 5, 10) /* ENCUMB_VAL_INT */
+     , (31422, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (31422, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

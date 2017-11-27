@@ -58,26 +58,24 @@ VALUES (29252, 0, 16791353);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29252, 16, 'Acid Atlatl of Defender') /* LONG_DESC_STRING */;
+VALUES (29252, 16, 'Acid Atlatl of Coordination') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29252, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
-     , (29252, 160, 375) /* WIELD_DIFFICULTY_INT */
+     , (29252, 160, 315) /* WIELD_DIFFICULTY_INT */
      , (29252, 353, 10) /* WEAPON_TYPE_INT */
-     , (29252, 177, 4) /* GEM_COUNT_INT */
-     , (29252, 178, 38) /* GEM_TYPE_INT */
-     , (29252, 19, 11652) /* VALUE_INT */
-     , (29252, 179, 64) /* IMBUED_EFFECT_INT */
-     , (29252, 131, 73) /* MATERIAL_TYPE_INT */
-     , (29252, 115, 390) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (29252, 5, 261) /* ENCUMB_VAL_INT */
-     , (29252, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (29252, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (29252, 171, 1) /* NUM_TIMES_TINKERED_INT */
-     , (29252, 108, 809) /* ITEM_MAX_MANA_INT */
-     , (29252, 204, 18) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (29252, 177, 3) /* GEM_COUNT_INT */
+     , (29252, 178, 39) /* GEM_TYPE_INT */
+     , (29252, 19, 12230) /* VALUE_INT */
+     , (29252, 131, 51) /* MATERIAL_TYPE_INT */
+     , (29252, 115, 294) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (29252, 5, 333) /* ENCUMB_VAL_INT */
+     , (29252, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (29252, 106, 274) /* ITEM_SPELLCRAFT_INT */
+     , (29252, 108, 1167) /* ITEM_MAX_MANA_INT */
+     , (29252, 204, 4) /* ELEMENTAL_DAMAGE_BONUS_INT */
      , (29252, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (29252, 109, 110) /* ITEM_DIFFICULTY_INT */
+     , (29252, 109, 81) /* ITEM_DIFFICULTY_INT */
      , (29252, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (29252, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (29252, 159, 47) /* WIELD_SKILLTYPE_INT */
@@ -87,20 +85,18 @@ VALUES (29252, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
      , (29252, 44, 0) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29252, 5, -0.06666667) /* MANA_RATE_FLOAT */
-     , (29252, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
-     , (29252, 149, 1.02) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+VALUES (29252, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (29252, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
+     , (29252, 149, 1.015) /* WEAPON_MISSILE_DEFENSE_FLOAT */
      , (29252, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (29252, 63, 2.57) /* DAMAGE_MOD_FLOAT */
+     , (29252, 63, 2.45) /* DAMAGE_MOD_FLOAT */
      , (29252, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (29252, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
      , (29252, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (29252, 1605) /* Defender6_SpellID */
-     , (29252, 4299) /* EnduranceSelf8_SpellID */
-     , (29252, 2572) /* CANTRIPCOORDINATION2_SpellID */
-     , (29252, 1627) /* SwiftKiller6_SpellID */
-     , (29252, 2596) /* CANTRIPSWIFTHUNTER2_SpellID */
-     , (29252, 2096) /* BloodDrinker7_SpellID */;
+VALUES (29252, 2059) /* CoordinationSelf7_SpellID */
+     , (29252, 1616) /* BloodDrinker6_SpellID */
+     , (29252, 2588) /* CANTRIPDEFENDER2_SpellID */
+     , (29252, 2608) /* CANTRIPSWIFTHUNTER1_SpellID */;
 

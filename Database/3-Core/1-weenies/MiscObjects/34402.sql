@@ -30,3 +30,14 @@ VALUES (34402, 13, True) /* ETHEREAL_BOOL */
      , (34402, 19, True) /* ATTACKABLE_BOOL */
      , (34402, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34402, 16, 'A snow globe of Neydisa Castle.') /* LONG_DESC_STRING */
+     , (34402, 14, 'This item may be placed on floor and yard hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34402, 33, 1) /* BONDED_INT */
+     , (34402, 19, 1000) /* VALUE_INT */
+     , (34402, 5, 15) /* ENCUMB_VAL_INT */;
+

@@ -49,3 +49,47 @@ VALUES (37214, 0, 83894653, 83894686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37214, 0, 16789304);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37214, 16, '') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37214, 160, 150) /* WIELD_DIFFICULTY_INT */
+     , (37214, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (37214, 177, 4) /* GEM_COUNT_INT */
+     , (37214, 178, 47) /* GEM_TYPE_INT */
+     , (37214, 115, 233) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (37214, 131, 60) /* MATERIAL_TYPE_INT */
+     , (37214, 19, 8828) /* VALUE_INT */
+     , (37214, 5, 1973) /* ENCUMB_VAL_INT */
+     , (37214, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (37214, 106, 313) /* ITEM_SPELLCRAFT_INT */
+     , (37214, 172, 7) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (37214, 108, 981) /* ITEM_MAX_MANA_INT */
+     , (37214, 28, 462) /* ARMOR_LEVEL_INT */
+     , (37214, 109, 234) /* ITEM_DIFFICULTY_INT */
+     , (37214, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (37214, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (37214, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (37214, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (37214, 13, 3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (37214, 14, 2.7) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (37214, 15, 2.7) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (37214, 16, 2.1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (37214, 17, 2.42717) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (37214, 18, 2.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (37214, 19, 2.688747) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (37214, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37214, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (37214, 2087) /* StrengthSelf7_SpellID */
+     , (37214, 2092) /* AcidBane7_SpellID */
+     , (37214, 2108) /* Impenetrability7_SpellID */
+     , (37214, 3965) /* CANTRIPSTRENGTH3_SpellID */;
+

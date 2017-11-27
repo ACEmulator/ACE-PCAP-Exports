@@ -48,6 +48,18 @@ VALUES (20185, 0, 83889682, 83890391)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20185, 0, 16779994);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20185, 14, 'This item is used to obtain a construction diagram of an object or device.') /* USE_STRING */
+     , (20185, 15, 'A blank Imaging Crystal') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20185, 33, 1) /* BONDED_INT */
+     , (20185, 114, 1) /* ATTUNED_INT */
+     , (20185, 19, 0) /* VALUE_INT */
+     , (20185, 5, 200) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

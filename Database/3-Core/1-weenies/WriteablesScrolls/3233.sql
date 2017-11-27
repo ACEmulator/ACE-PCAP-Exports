@@ -38,9 +38,14 @@ VALUES (3233, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3233, 16, 'Killed by Fquick.') /* LONG_DESC_STRING */;
+VALUES (3233, 16, 'Inscribed spell: Deception Ineptitude Other II
+Decreases the target''s Deception skill by 15 points.') /* LONG_DESC_STRING */
+     , (3233, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3233, 19, 0) /* VALUE_INT */
-     , (3233, 5, 6085) /* ENCUMB_VAL_INT */;
+VALUES (3233, 19, 5) /* VALUE_INT */
+     , (3233, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3233, 869) /* DeceptionIneptitudeOther2_SpellID */;
 

@@ -45,22 +45,25 @@ VALUES (44840, 0, 16795839);
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (44840, 16, 'Cloak') /* LONG_DESC_STRING */;
 
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (44840, 55, 5753) /* PROC_SPELL_DID */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44840, 352, 2) /* CLOAK_WEAVE_PROC_INT */
+VALUES (44840, 352, 1) /* CLOAK_WEAVE_PROC_INT */
      , (44840, 160, 180) /* WIELD_DIFFICULTY_INT */
      , (44840, 320, 2) /* ITEM_XP_STYLE_INT */
-     , (44840, 370, 3) /* GEAR_DAMAGE_INT */
-     , (44840, 19, 5336) /* VALUE_INT */
-     , (44840, 131, 6) /* MATERIAL_TYPE_INT */
+     , (44840, 370, 1) /* GEAR_DAMAGE_INT */
+     , (44840, 19, 4944) /* VALUE_INT */
+     , (44840, 131, 4) /* MATERIAL_TYPE_INT */
      , (44840, 36, 9999) /* RESIST_MAGIC_INT */
      , (44840, 5, 75) /* ENCUMB_VAL_INT */
-     , (44840, 265, 78) /* EQUIPMENT_SET_ID_INT */
-     , (44840, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (44840, 265, 63) /* EQUIPMENT_SET_ID_INT */
+     , (44840, 105, 8) /* ITEM_WORKMANSHIP_INT */
      , (44840, 28, 0) /* ARMOR_LEVEL_INT */
      , (44840, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
      , (44840, 158, 7) /* WIELD_REQUIREMENTS_INT */
      , (44840, 159, 1) /* WIELD_SKILLTYPE_INT */
-     , (44840, 319, 3) /* ITEM_MAX_LEVEL_INT */;
+     , (44840, 319, 2) /* ITEM_MAX_LEVEL_INT */;
 
 REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
 VALUES (44840, 4, 0) /* ITEM_TOTAL_XP_INT64 */
@@ -78,4 +81,7 @@ VALUES (44840, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (44840, 100, 0) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (44840, 5753) /* CloakAllSkill_SpellID */;
 

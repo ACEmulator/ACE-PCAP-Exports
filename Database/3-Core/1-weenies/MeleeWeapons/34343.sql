@@ -47,3 +47,42 @@ VALUES (34343, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34343, 0, 16777915);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34343, 16, 'Leather Shirt of Strength') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34343, 177, 4) /* GEM_COUNT_INT */
+     , (34343, 178, 39) /* GEM_TYPE_INT */
+     , (34343, 19, 41546) /* VALUE_INT */
+     , (34343, 131, 54) /* MATERIAL_TYPE_INT */
+     , (34343, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (34343, 5, 625) /* ENCUMB_VAL_INT */
+     , (34343, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (34343, 106, 298) /* ITEM_SPELLCRAFT_INT */
+     , (34343, 28, 237) /* ARMOR_LEVEL_INT */
+     , (34343, 108, 1416) /* ITEM_MAX_MANA_INT */
+     , (34343, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (34343, 109, 298) /* ITEM_DIFFICULTY_INT */
+     , (34343, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (34343, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (34343, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (34343, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (34343, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (34343, 16, 0.7972534) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (34343, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (34343, 18, 0.8949088) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (34343, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (34343, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34343, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (34343, 2087) /* StrengthSelf7_SpellID */
+     , (34343, 2094) /* BladeBane7_SpellID */
+     , (34343, 2108) /* Impenetrability7_SpellID */;
+

@@ -44,6 +44,28 @@ VALUES (14917, 13, True) /* ETHEREAL_BOOL */
      , (14917, 19, True) /* ATTACKABLE_BOOL */
      , (14917, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14917, 16, 'A large and beautiful floral arrangement.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14917, 353, 10) /* WEAPON_TYPE_INT */
+     , (14917, 19, 3000) /* VALUE_INT */
+     , (14917, 5, 45) /* ENCUMB_VAL_INT */
+     , (14917, 45, 4) /* DAMAGE_TYPE_INT */
+     , (14917, 49, 10) /* WEAPON_TIME_INT */
+     , (14917, 48, 47) /* WEAPON_SKILL_INT */
+     , (14917, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (14917, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (14917, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (14917, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (14917, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (14917, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (14917, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

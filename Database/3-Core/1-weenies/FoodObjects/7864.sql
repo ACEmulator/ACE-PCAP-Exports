@@ -45,8 +45,8 @@ VALUES (7864, 14, 'Use this item to eat it.') /* USE_STRING */
      , (7864, 15, 'A juicy Holtburger, on bread.  Said to be old Foster''s favorite.') /* SHORT_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7864, 19, 1419) /* VALUE_INT */
-     , (7864, 5, 440) /* ENCUMB_VAL_INT */
+VALUES (7864, 19, 129) /* VALUE_INT */
+     , (7864, 5, 40) /* ENCUMB_VAL_INT */
      , (7864, 89, 2) /* BOOSTER_ENUM_INT */
      , (7864, 90, 40) /* BOOST_VALUE_INT */;
 

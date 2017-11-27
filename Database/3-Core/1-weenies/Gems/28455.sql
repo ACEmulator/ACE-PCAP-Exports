@@ -51,6 +51,25 @@ VALUES (28455, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28455, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28455, 14, 'Double Click on this portal gem to transport yourself to the Reward Vault.') /* USE_STRING */
+     , (28455, 15, 'A portal gem that will whisk the user into a treasure hold within High Queen Elysa''s castle.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28455, 33, 1) /* BONDED_INT */
+     , (28455, 114, 1) /* ATTUNED_INT */
+     , (28455, 19, 50) /* VALUE_INT */
+     , (28455, 5, 50) /* ENCUMB_VAL_INT */
+     , (28455, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (28455, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (28455, 109, 1) /* ITEM_DIFFICULTY_INT */
+     , (28455, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28455, 3411) /* PortalSendingMorgluukReward_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

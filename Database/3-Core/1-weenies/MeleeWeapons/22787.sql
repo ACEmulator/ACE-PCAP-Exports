@@ -49,3 +49,38 @@ VALUES (22787, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22787, 0, 16777925);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22787, 16, 'Piercing Baton of Flame') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22787, 160, 290) /* WIELD_DIFFICULTY_INT */
+     , (22787, 177, 1) /* GEM_COUNT_INT */
+     , (22787, 178, 22) /* GEM_TYPE_INT */
+     , (22787, 19, 15707) /* VALUE_INT */
+     , (22787, 131, 49) /* MATERIAL_TYPE_INT */
+     , (22787, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (22787, 5, 50) /* ENCUMB_VAL_INT */
+     , (22787, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (22787, 106, 288) /* ITEM_SPELLCRAFT_INT */
+     , (22787, 108, 3467) /* ITEM_MAX_MANA_INT */
+     , (22787, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (22787, 109, 288) /* ITEM_DIFFICULTY_INT */
+     , (22787, 45, 2) /* DAMAGE_TYPE_INT */
+     , (22787, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (22787, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (22787, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22787, 144, 0.08) /* MANA_CONVERSION_MOD_FLOAT */
+     , (22787, 152, 1.03) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (22787, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (22787, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (22787, 85) /* FlameBolt6_SpellID */
+     , (22787, 1605) /* Defender6_SpellID */
+     , (22787, 2117) /* Truevalue7_SpellID */
+     , (22787, 2287) /* ManaMasterySelf7_SpellID */;
+

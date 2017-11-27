@@ -55,27 +55,24 @@ VALUES (37291, 0, 16794102);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37291, 16, '') /* LONG_DESC_STRING */;
+VALUES (37291, 16, 'Olthoi Shield of Strength') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37291, 160, 300) /* WIELD_DIFFICULTY_INT */
+VALUES (37291, 160, 250) /* WIELD_DIFFICULTY_INT */
      , (37291, 272, 150) /* WIELD_DIFFICULTY_2_INT */
-     , (37291, 177, 2) /* GEM_COUNT_INT */
-     , (37291, 178, 38) /* GEM_TYPE_INT */
-     , (37291, 19, 48452) /* VALUE_INT */
-     , (37291, 131, 57) /* MATERIAL_TYPE_INT */
+     , (37291, 177, 4) /* GEM_COUNT_INT */
+     , (37291, 178, 39) /* GEM_TYPE_INT */
+     , (37291, 19, 27172) /* VALUE_INT */
+     , (37291, 131, 60) /* MATERIAL_TYPE_INT */
      , (37291, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (37291, 276, 0) /* WIELD_REQUIREMENTS_4_INT */
      , (37291, 36, 9999) /* RESIST_MAGIC_INT */
-     , (37291, 5, 1152) /* ENCUMB_VAL_INT */
-     , (37291, 277, 0) /* WIELD_SKILLTYPE_4_INT */
-     , (37291, 278, 0) /* WIELD_DIFFICULTY_4_INT */
-     , (37291, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (37291, 5, 1039) /* ENCUMB_VAL_INT */
+     , (37291, 105, 6) /* ITEM_WORKMANSHIP_INT */
      , (37291, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (37291, 28, 359) /* ARMOR_LEVEL_INT */
-     , (37291, 108, 2134) /* ITEM_MAX_MANA_INT */
+     , (37291, 28, 519) /* ARMOR_LEVEL_INT */
+     , (37291, 108, 1494) /* ITEM_MAX_MANA_INT */
      , (37291, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (37291, 109, 391) /* ITEM_DIFFICULTY_INT */
+     , (37291, 109, 287) /* ITEM_DIFFICULTY_INT */
      , (37291, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (37291, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (37291, 270, 7) /* WIELD_REQUIREMENTS_2_INT */
@@ -84,21 +81,18 @@ VALUES (37291, 160, 300) /* WIELD_DIFFICULTY_INT */
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (37291, 5, -0.06666667) /* MANA_RATE_FLOAT */
-     , (37291, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (37291, 14, 1.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (37291, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (37291, 16, 1.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (37291, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (37291, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (37291, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (37291, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (37291, 14, 2.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (37291, 15, 1.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (37291, 16, 1.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (37291, 17, 1.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (37291, 18, 1.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (37291, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (37291, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
 
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (37291, 100, 1) /* DYABLE_BOOL */;
-
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (37291, 4679) /* CANTRIPSTORMWARD3_SpellID */
-     , (37291, 2092) /* AcidBane7_SpellID */
-     , (37291, 4407) /* Impenetrability8_SpellID */
-     , (37291, 4409) /* LightningBane8_SpellID */;
+VALUES (37291, 2592) /* CANTRIPIMPENETRABILITY2_SpellID */
+     , (37291, 4325) /* StrengthSelf8_SpellID */
+     , (37291, 1574) /* PiercingBane6_SpellID */
+     , (37291, 2108) /* Impenetrability7_SpellID */;
 

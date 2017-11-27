@@ -43,8 +43,8 @@ VALUES (45494, 15, 'An elegant coin. ') /* SHORT_DESC_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45494, 33, 1) /* BONDED_INT */
      , (45494, 114, 0) /* ATTUNED_INT */
-     , (45494, 19, 6) /* VALUE_INT */
-     , (45494, 5, 6) /* ENCUMB_VAL_INT */;
+     , (45494, 19, 29) /* VALUE_INT */
+     , (45494, 5, 29) /* ENCUMB_VAL_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (45494, 69, 0) /* IS_SELLABLE_BOOL */;

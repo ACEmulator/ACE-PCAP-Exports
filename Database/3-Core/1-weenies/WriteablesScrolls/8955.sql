@@ -35,3 +35,17 @@ VALUES (8955, 13, True) /* ETHEREAL_BOOL */
      , (8955, 19, True) /* ATTACKABLE_BOOL */
      , (8955, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8955, 16, 'Inscribed spell: Whirling Blade Streak III
+Sends a magical blade streaking towards the target. The bolt does 21-42 points of slashing damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (8955, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8955, 19, 20) /* VALUE_INT */
+     , (8955, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8955, 1828) /* WhirlingBladeStreak3_SpellID */;
+

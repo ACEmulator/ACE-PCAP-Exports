@@ -93,11 +93,11 @@ VALUES (49653, 5, 'Scribe') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (49653, 16, 67110063) /* EYES_PALETTE_DID */
-     , (49653, 9, 83890482) /* EYES_TEXTURE_DID */
-     , (49653, 17, 67109555) /* SKIN_PALETTE_DID */
-     , (49653, 10, 83890534) /* NOSE_TEXTURE_DID */
-     , (49653, 11, 83890563) /* MOUTH_TEXTURE_DID */
-     , (49653, 15, 67116996) /* HAIR_PALETTE_DID */;
+     , (49653, 9, 83890454) /* EYES_TEXTURE_DID */
+     , (49653, 17, 67109553) /* SKIN_PALETTE_DID */
+     , (49653, 10, 83890559) /* NOSE_TEXTURE_DID */
+     , (49653, 11, 83890600) /* MOUTH_TEXTURE_DID */
+     , (49653, 15, 67117069) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49653, 113, 1) /* GENDER_INT */

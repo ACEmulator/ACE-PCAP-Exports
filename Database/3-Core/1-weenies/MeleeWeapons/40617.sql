@@ -45,3 +45,17 @@ VALUES (40617, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40617, 0, 16791762);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40617, 16, 'Gorget') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40617, 177, 4) /* GEM_COUNT_INT */
+     , (40617, 178, 21) /* GEM_TYPE_INT */
+     , (40617, 19, 9685) /* VALUE_INT */
+     , (40617, 131, 60) /* MATERIAL_TYPE_INT */
+     , (40617, 5, 150) /* ENCUMB_VAL_INT */
+     , (40617, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (40617, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+

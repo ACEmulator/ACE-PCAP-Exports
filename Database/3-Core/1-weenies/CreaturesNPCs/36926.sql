@@ -111,11 +111,22 @@ VALUES (36926, 5, 'Walker of Dreams') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36926, 2, 22) /* CREATURE_TYPE_INT */
+     , (36926, 307, 5) /* DAMAGE_RATING_INT */
      , (36926, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (36926, 25, 800) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (36926, 1, 1000) /* STRENGTH_ATTRIBUTE */
+     , (36926, 2, 1000) /* ENDURANCE_ATTRIBUTE */
+     , (36926, 4, 500) /* COORDINATION_ATTRIBUTE */
+     , (36926, 8, 500) /* QUICKNESS_ATTRIBUTE */
+     , (36926, 16, 800) /* FOCUS_ATTRIBUTE */
+     , (36926, 32, 800) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36926, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (36926, 64, 600) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (36926, 128, 1150) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (36926, 256, 950) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

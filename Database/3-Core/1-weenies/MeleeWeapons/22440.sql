@@ -51,3 +51,47 @@ VALUES (22440, 0, 83886739, 83886739)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22440, 0, 16788591);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22440, 16, 'Dirk of Dual Wield Mastery') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22440, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (22440, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (22440, 353, 6) /* WEAPON_TYPE_INT */
+     , (22440, 177, 2) /* GEM_COUNT_INT */
+     , (22440, 178, 20) /* GEM_TYPE_INT */
+     , (22440, 19, 10282) /* VALUE_INT */
+     , (22440, 131, 60) /* MATERIAL_TYPE_INT */
+     , (22440, 115, 343) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (22440, 5, 123) /* ENCUMB_VAL_INT */
+     , (22440, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (22440, 106, 323) /* ITEM_SPELLCRAFT_INT */
+     , (22440, 108, 934) /* ITEM_MAX_MANA_INT */
+     , (22440, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (22440, 109, 103) /* ITEM_DIFFICULTY_INT */
+     , (22440, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (22440, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (22440, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (22440, 47, 6) /* ATTACK_TYPE_INT */
+     , (22440, 45, 3) /* DAMAGE_TYPE_INT */
+     , (22440, 49, 32) /* WEAPON_TIME_INT */
+     , (22440, 48, 44) /* WEAPON_SKILL_INT */
+     , (22440, 44, 48) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22440, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (22440, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (22440, 22, 0.53) /* DAMAGE_VARIANCE_FLOAT */
+     , (22440, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (22440, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (22440, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (22440, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (22440, 2576) /* CANTRIPSTRENGTH2_SpellID */
+     , (22440, 5808) /* dualwieldmasteryself6_SpellID */
+     , (22440, 2096) /* BloodDrinker7_SpellID */
+     , (22440, 2613) /* CANTRIPPIERCINGWARD2_SpellID */;
+

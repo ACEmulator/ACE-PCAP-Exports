@@ -57,41 +57,41 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (4195, 16, 'Nekode of Defender') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4195, 160, 430) /* WIELD_DIFFICULTY_INT */
-     , (4195, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
-     , (4195, 177, 2) /* GEM_COUNT_INT */
+VALUES (4195, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (4195, 160, 325) /* WIELD_DIFFICULTY_INT */
      , (4195, 353, 1) /* WEAPON_TYPE_INT */
-     , (4195, 178, 21) /* GEM_TYPE_INT */
-     , (4195, 115, 347) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (4195, 131, 51) /* MATERIAL_TYPE_INT */
-     , (4195, 19, 18213) /* VALUE_INT */
-     , (4195, 5, 100) /* ENCUMB_VAL_INT */
+     , (4195, 177, 1) /* GEM_COUNT_INT */
+     , (4195, 178, 43) /* GEM_TYPE_INT */
+     , (4195, 19, 5745) /* VALUE_INT */
+     , (4195, 131, 62) /* MATERIAL_TYPE_INT */
+     , (4195, 115, 325) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (4195, 5, 80) /* ENCUMB_VAL_INT */
      , (4195, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (4195, 106, 327) /* ITEM_SPELLCRAFT_INT */
+     , (4195, 106, 305) /* ITEM_SPELLCRAFT_INT */
+     , (4195, 108, 1051) /* ITEM_MAX_MANA_INT */
      , (4195, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (4195, 108, 1201) /* ITEM_MAX_MANA_INT */
-     , (4195, 109, 183) /* ITEM_DIFFICULTY_INT */
-     , (4195, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (4195, 109, 66) /* ITEM_DIFFICULTY_INT */
      , (4195, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (4195, 47, 1) /* ATTACK_TYPE_INT */
+     , (4195, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (4195, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (4195, 47, 1) /* ATTACK_TYPE_INT */
      , (4195, 45, 3) /* DAMAGE_TYPE_INT */
-     , (4195, 49, 16) /* WEAPON_TIME_INT */
+     , (4195, 49, 18) /* WEAPON_TIME_INT */
      , (4195, 48, 44) /* WEAPON_SKILL_INT */
-     , (4195, 44, 59) /* DAMAGE_INT */;
+     , (4195, 44, 34) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (4195, 29, 1.16) /* WEAPON_DEFENSE_FLOAT */
-     , (4195, 5, -0.06666667) /* MANA_RATE_FLOAT */
-     , (4195, 22, 0.53) /* DAMAGE_VARIANCE_FLOAT */
+VALUES (4195, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (4195, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (4195, 22, 0.48) /* DAMAGE_VARIANCE_FLOAT */
      , (4195, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (4195, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (4195, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (4195, 62, 1.2) /* WEAPON_OFFENSE_FLOAT */;
+     , (4195, 62, 1.14) /* WEAPON_OFFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (4195, 2096) /* BloodDrinker7_SpellID */
-     , (4195, 4400) /* Defender8_SpellID */
+VALUES (4195, 1605) /* Defender6_SpellID */
+     , (4195, 1615) /* BloodDrinker5_SpellID */
      , (4195, 5809) /* dualwieldmasteryself7_SpellID */
-     , (4195, 4663) /* CANTRIPDEFENDER3_SpellID */;
+     , (4195, 1592) /* HeartSeeker6_SpellID */;
 

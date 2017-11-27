@@ -40,12 +40,12 @@ VALUES (8820, 9, 16780702);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8820, 2, 19) /* CREATURE_TYPE_INT */
-     , (8820, 25, 115) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8820, 16, 'Killed by Callaway.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8820, 64, 350) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8820, 19, 0) /* VALUE_INT */
+     , (8820, 5, 6015) /* ENCUMB_VAL_INT */;
 
 /* Corpse Treasure List */
 

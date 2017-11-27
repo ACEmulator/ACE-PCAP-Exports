@@ -40,11 +40,11 @@ VALUES (51462, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51462, 16, '') /* LONG_DESC_STRING */;
+VALUES (51462, 16, 'Killed by Ripley.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51462, 19, 653) /* VALUE_INT */
-     , (51462, 5, 919) /* ENCUMB_VAL_INT */;
+VALUES (51462, 19, 0) /* VALUE_INT */
+     , (51462, 5, 6546) /* ENCUMB_VAL_INT */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

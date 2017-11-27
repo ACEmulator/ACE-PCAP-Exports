@@ -45,3 +45,9 @@ VALUES (42541, 1, 16794585)
      , (42541, 5, 16794585)
      , (42541, 6, 16794585);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42541, 19, 0) /* VALUE_INT */
+     , (42541, 5, 9000) /* ENCUMB_VAL_INT */;
+

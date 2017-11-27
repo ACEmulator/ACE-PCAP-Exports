@@ -89,3 +89,39 @@ VALUES (38567, 12, 16777304)
      , (38567, 4, 16781838)
      , (38567, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38567, 16, 'Goblet of Alchemy Mastery') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38567, 353, 10) /* WEAPON_TYPE_INT */
+     , (38567, 177, 5) /* GEM_COUNT_INT */
+     , (38567, 178, 47) /* GEM_TYPE_INT */
+     , (38567, 19, 8498) /* VALUE_INT */
+     , (38567, 131, 67) /* MATERIAL_TYPE_INT */
+     , (38567, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (38567, 5, 50) /* ENCUMB_VAL_INT */
+     , (38567, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (38567, 106, 263) /* ITEM_SPELLCRAFT_INT */
+     , (38567, 108, 1167) /* ITEM_MAX_MANA_INT */
+     , (38567, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (38567, 109, 197) /* ITEM_DIFFICULTY_INT */
+     , (38567, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (38567, 45, 4) /* DAMAGE_TYPE_INT */
+     , (38567, 49, 10) /* WEAPON_TIME_INT */
+     , (38567, 48, 47) /* WEAPON_SKILL_INT */
+     , (38567, 44, 14) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (38567, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (38567, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (38567, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (38567, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (38567, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (38567, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (38567, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (38567, 1768) /* AlchemyMasterySelf6_SpellID */;
+

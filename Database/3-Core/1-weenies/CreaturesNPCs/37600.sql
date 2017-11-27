@@ -89,12 +89,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (37600, 5, 'Blood Recruiter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (37600, 16, 67110065) /* EYES_PALETTE_DID */
-     , (37600, 9, 83890283) /* EYES_TEXTURE_DID */
-     , (37600, 17, 67115907) /* SKIN_PALETTE_DID */
-     , (37600, 10, 83890294) /* NOSE_TEXTURE_DID */
-     , (37600, 11, 83890347) /* MOUTH_TEXTURE_DID */
-     , (37600, 15, 67117070) /* HAIR_PALETTE_DID */;
+VALUES (37600, 16, 67110063) /* EYES_PALETTE_DID */
+     , (37600, 9, 83890260) /* EYES_TEXTURE_DID */
+     , (37600, 17, 67115904) /* SKIN_PALETTE_DID */
+     , (37600, 10, 83890309) /* NOSE_TEXTURE_DID */
+     , (37600, 11, 83890358) /* MOUTH_TEXTURE_DID */
+     , (37600, 15, 67116987) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37600, 113, 2) /* GENDER_INT */
@@ -103,6 +103,16 @@ VALUES (37600, 113, 2) /* GENDER_INT */
      , (37600, 25, 100) /* LEVEL_INT */
      , (37600, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (37600, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (37600, 2, 160) /* ENDURANCE_ATTRIBUTE */
+     , (37600, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (37600, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (37600, 16, 170) /* FOCUS_ATTRIBUTE */
+     , (37600, 32, 170) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37600, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (37600, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (37600, 128, 270) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (37600, 256, 225) /* MAX_MANA_ATTRIBUTE_2ND */;
 

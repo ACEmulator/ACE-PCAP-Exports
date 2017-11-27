@@ -35,3 +35,17 @@ VALUES (43340, 13, True) /* ETHEREAL_BOOL */
      , (43340, 19, True) /* ATTACKABLE_BOOL */
      , (43340, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43340, 16, 'Inscribed spell: Weakening Curse III
+Decreases the target''s damage rating by 4.') /* LONG_DESC_STRING */
+     , (43340, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43340, 19, 20) /* VALUE_INT */
+     , (43340, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43340, 5381) /* CurseWeakness3_SpellID */;
+

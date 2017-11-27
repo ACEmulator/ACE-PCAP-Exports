@@ -52,3 +52,34 @@ VALUES (4190, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4190, 0, 16783508);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4190, 16, 'Cestus') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4190, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (4190, 353, 1) /* WEAPON_TYPE_INT */
+     , (4190, 177, 1) /* GEM_COUNT_INT */
+     , (4190, 178, 15) /* GEM_TYPE_INT */
+     , (4190, 19, 1038) /* VALUE_INT */
+     , (4190, 131, 51) /* MATERIAL_TYPE_INT */
+     , (4190, 5, 105) /* ENCUMB_VAL_INT */
+     , (4190, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (4190, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (4190, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (4190, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (4190, 47, 1) /* ATTACK_TYPE_INT */
+     , (4190, 45, 4) /* DAMAGE_TYPE_INT */
+     , (4190, 49, 18) /* WEAPON_TIME_INT */
+     , (4190, 48, 44) /* WEAPON_SKILL_INT */
+     , (4190, 44, 36) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (4190, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (4190, 22, 0.58) /* DAMAGE_VARIANCE_FLOAT */
+     , (4190, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (4190, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (4190, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (4190, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */;
+

@@ -38,3 +38,34 @@ VALUES (34350, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (34350, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (34350, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34350, 16, 'This altar has two holders for what would appears to be motes of some sort. The altar has seams which indicate that it will turn into a golem if certain conditions are met.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34350, 384, 0) /*  */
+     , (34350, 370, 0) /* GEAR_DAMAGE_INT */
+     , (34350, 386, 0) /*  */
+     , (34350, 307, 0) /* DAMAGE_RATING_INT */
+     , (34350, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (34350, 387, 0) /*  */
+     , (34350, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (34350, 372, 0) /* GEAR_CRIT_INT */
+     , (34350, 388, 0) /*  */
+     , (34350, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (34350, 389, 0) /*  */
+     , (34350, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (34350, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (34350, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (34350, 313, 0) /* CRIT_RATING_INT */
+     , (34350, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (34350, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (34350, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (34350, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (34350, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (34350, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (34350, 381, 0) /*  */
+     , (34350, 382, 0) /*  */
+     , (34350, 383, 0) /*  */;
+

@@ -37,10 +37,10 @@ VALUES (41577, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41577, 2, 99) /* CREATURE_TYPE_INT */
-     , (41577, 25, 80) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41577, 16, 'Killed by Mag-nus.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (41577, 64, 365) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41577, 19, 0) /* VALUE_INT */
+     , (41577, 5, 6000) /* ENCUMB_VAL_INT */;
 

@@ -35,3 +35,17 @@ VALUES (9657, 13, True) /* ETHEREAL_BOOL */
      , (9657, 19, True) /* ATTACKABLE_BOOL */
      , (9657, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9657, 16, 'Inscribed spell: Stamina to Mana Self IV
+Drains one-half of the caster''s Stamina and gives 120% of that to his/her Mana (maximum of 200).') /* LONG_DESC_STRING */
+     , (9657, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9657, 19, 100) /* VALUE_INT */
+     , (9657, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9657, 1679) /* StaminatoManaSelf4_SpellID */;
+

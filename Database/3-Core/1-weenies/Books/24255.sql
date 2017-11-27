@@ -33,3 +33,16 @@ VALUES (24255, 13, True) /* ETHEREAL_BOOL */
      , (24255, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24255, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24255, 16, 'A note left by one of the High Queen''s Scouts') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24255, 33, 1) /* BONDED_INT */
+     , (24255, 114, 1) /* ATTUNED_INT */
+     , (24255, 19, 0) /* VALUE_INT */
+     , (24255, 5, 25) /* ENCUMB_VAL_INT */
+     , (24255, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (24255, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

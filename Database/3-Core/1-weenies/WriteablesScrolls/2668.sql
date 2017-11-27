@@ -35,3 +35,17 @@ VALUES (2668, 13, True) /* ETHEREAL_BOOL */
      , (2668, 19, True) /* ATTACKABLE_BOOL */
      , (2668, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2668, 16, 'Inscribed spell: Enfeeble Other VI
+Drains 39-79 points of the target''s Stamina.') /* LONG_DESC_STRING */
+     , (2668, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2668, 19, 1000) /* VALUE_INT */
+     , (2668, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2668, 1200) /* EnfeebleOther6_SpellID */;
+

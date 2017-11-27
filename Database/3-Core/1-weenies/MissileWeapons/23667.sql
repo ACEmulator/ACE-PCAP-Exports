@@ -64,3 +64,17 @@ VALUES (23667, 0, 16779464)
      , (23667, 7, 16777708)
      , (23667, 8, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23667, 14, 'Use this key on locked Black Marrow Reliquaries.') /* USE_STRING */
+     , (23667, 15, 'A plain looking black key, with signs of professional repair marking the handle and teeth.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23667, 19, 0) /* VALUE_INT */
+     , (23667, 5, 50) /* ENCUMB_VAL_INT */
+     , (23667, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23667, 69, 0) /* IS_SELLABLE_BOOL */;
+

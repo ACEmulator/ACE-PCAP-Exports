@@ -35,3 +35,17 @@ VALUES (43306, 13, True) /* ETHEREAL_BOOL */
      , (43306, 19, True) /* ATTACKABLE_BOOL */
      , (43306, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43306, 16, 'Inscribed spell: Nether Bolt V
+Shoots a bolt of nether at the target. The bolt does 84-178 points of nether damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (43306, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43306, 19, 200) /* VALUE_INT */
+     , (43306, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43306, 5353) /* netherbolt5_SpellID */;
+

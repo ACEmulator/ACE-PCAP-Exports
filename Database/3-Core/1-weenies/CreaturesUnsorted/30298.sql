@@ -76,10 +76,10 @@ VALUES (30298, 15, 16792141)
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (30298, 16, 67110063) /* EYES_PALETTE_DID */
-     , (30298, 9, 83890482) /* EYES_TEXTURE_DID */
-     , (30298, 17, 67115901) /* SKIN_PALETTE_DID */
-     , (30298, 10, 83890561) /* NOSE_TEXTURE_DID */
-     , (30298, 11, 83890663) /* MOUTH_TEXTURE_DID */
+     , (30298, 9, 83890496) /* EYES_TEXTURE_DID */
+     , (30298, 17, 67115902) /* SKIN_PALETTE_DID */
+     , (30298, 10, 83890546) /* NOSE_TEXTURE_DID */
+     , (30298, 11, 83890628) /* MOUTH_TEXTURE_DID */
      , (30298, 15, 67116985) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

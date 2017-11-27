@@ -106,21 +106,32 @@ VALUES (43862, 5, 'Isin Dule''s Personal Guard') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (43862, 16, 67116856) /* EYES_PALETTE_DID */
-     , (43862, 9, 83890255) /* EYES_TEXTURE_DID */
-     , (43862, 17, 67116848) /* SKIN_PALETTE_DID */
-     , (43862, 10, 83890291) /* NOSE_TEXTURE_DID */
-     , (43862, 11, 83890331) /* MOUTH_TEXTURE_DID */
-     , (43862, 15, 67117073) /* HAIR_PALETTE_DID */;
+     , (43862, 9, 83890283) /* EYES_TEXTURE_DID */
+     , (43862, 17, 67116850) /* SKIN_PALETTE_DID */
+     , (43862, 10, 83890292) /* NOSE_TEXTURE_DID */
+     , (43862, 11, 83890345) /* MOUTH_TEXTURE_DID */
+     , (43862, 15, 67117016) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43862, 113, 2) /* GENDER_INT */
      , (43862, 2, 31) /* CREATURE_TYPE_INT */
+     , (43862, 307, 5) /* DAMAGE_RATING_INT */
      , (43862, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (43862, 25, 275) /* LEVEL_INT */
      , (43862, 188, 5) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (43862, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (43862, 2, 260) /* ENDURANCE_ATTRIBUTE */
+     , (43862, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (43862, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (43862, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (43862, 32, 200) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43862, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (43862, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (43862, 128, 456) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (43862, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

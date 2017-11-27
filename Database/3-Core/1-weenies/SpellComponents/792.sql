@@ -47,8 +47,8 @@ VALUES (792, 0, 16780681);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (792, 19, 200) /* VALUE_INT */
-     , (792, 5, 160) /* ENCUMB_VAL_INT */;
+VALUES (792, 19, 25) /* VALUE_INT */
+     , (792, 5, 20) /* ENCUMB_VAL_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (792, 69, 0) /* IS_SELLABLE_BOOL */;

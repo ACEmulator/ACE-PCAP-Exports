@@ -40,3 +40,43 @@ VALUES (33121, 13, True) /* ETHEREAL_BOOL */
      , (33121, 19, True) /* ATTACKABLE_BOOL */
      , (33121, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33121, 15, 'A crossbow crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33121, 160, 140) /* WIELD_DIFFICULTY_INT */
+     , (33121, 353, 9) /* WEAPON_TYPE_INT */
+     , (33121, 19, 20000) /* VALUE_INT */
+     , (33121, 5, 400) /* ENCUMB_VAL_INT */
+     , (33121, 263, 2) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (33121, 106, 500) /* ITEM_SPELLCRAFT_INT */
+     , (33121, 108, 8000) /* ITEM_MAX_MANA_INT */
+     , (33121, 109, 180) /* ITEM_DIFFICULTY_INT */
+     , (33121, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (33121, 159, 1) /* WIELD_SKILLTYPE_INT */
+     , (33121, 45, 0) /* DAMAGE_TYPE_INT */
+     , (33121, 49, 60) /* WEAPON_TIME_INT */
+     , (33121, 48, 47) /* WEAPON_SKILL_INT */
+     , (33121, 44, 12) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33121, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (33121, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (33121, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (33121, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (33121, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (33121, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (33121, 63, 2.7) /* DAMAGE_MOD_FLOAT */
+     , (33121, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (33121, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (33121, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (33121, 2688) /* ModerateCrossbowAptitude_SpellID */
+     , (33121, 2116) /* Swiftkiller7_SpellID */
+     , (33121, 2059) /* CoordinationSelf7_SpellID */
+     , (33121, 2096) /* BloodDrinker7_SpellID */
+     , (33121, 2101) /* Defender7_SpellID */;
+

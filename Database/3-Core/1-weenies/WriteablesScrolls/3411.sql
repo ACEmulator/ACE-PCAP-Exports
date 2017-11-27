@@ -37,7 +37,15 @@ VALUES (3411, 13, True) /* ETHEREAL_BOOL */
 
 /* Extended Appraisal Data */
 
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3411, 16, 'Inscribed spell: Magic Item Tinkering Expertise Other V
+Increases the target''s Magic Item Tinkering skill by 30 points.') /* LONG_DESC_STRING */
+     , (3411, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3411, 19, 1436) /* VALUE_INT */
-     , (3411, 5, 0) /* ENCUMB_VAL_INT */;
+VALUES (3411, 19, 200) /* VALUE_INT */
+     , (3411, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3411, 760) /* MagicItemExpertiseOther5_SpellID */;
 

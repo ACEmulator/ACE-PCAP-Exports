@@ -43,3 +43,29 @@ VALUES (27370, 0, 83893670, 83893699)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27370, 0, 16790095);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27370, 16, 'A beautifully carved cestus. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27370, 33, 1) /* BONDED_INT */
+     , (27370, 353, 1) /* WEAPON_TYPE_INT */
+     , (27370, 114, 1) /* ATTUNED_INT */
+     , (27370, 19, 10000) /* VALUE_INT */
+     , (27370, 5, 135) /* ENCUMB_VAL_INT */
+     , (27370, 47, 1) /* ATTACK_TYPE_INT */
+     , (27370, 45, 4) /* DAMAGE_TYPE_INT */
+     , (27370, 49, 20) /* WEAPON_TIME_INT */
+     , (27370, 48, 45) /* WEAPON_SKILL_INT */
+     , (27370, 44, 27) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27370, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (27370, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (27370, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (27370, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (27370, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (27370, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (27370, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

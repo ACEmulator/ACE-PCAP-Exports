@@ -38,3 +38,12 @@ VALUES (46405, 13, True) /* ETHEREAL_BOOL */
      , (46405, 19, True) /* ATTACKABLE_BOOL */
      , (46405, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46405, 2, 47) /* CREATURE_TYPE_INT */
+     , (46405, 25, 80) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46405, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

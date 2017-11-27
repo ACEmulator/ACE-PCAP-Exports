@@ -37,3 +37,12 @@ VALUES (7264, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7264, 1, True) /* STUCK_BOOL */
      , (7264, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7264, 16, 'Killed by Euphorization.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7264, 19, 0) /* VALUE_INT */
+     , (7264, 5, 6022) /* ENCUMB_VAL_INT */;
+

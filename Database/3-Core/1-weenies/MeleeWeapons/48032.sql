@@ -47,3 +47,12 @@ VALUES (48032, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48032, 0, 16777885);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48032, 16, 'Killed by Soquelo.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48032, 19, 0) /* VALUE_INT */
+     , (48032, 5, 7100) /* ENCUMB_VAL_INT */;
+

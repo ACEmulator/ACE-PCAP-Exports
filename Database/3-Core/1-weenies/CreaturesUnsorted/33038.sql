@@ -42,12 +42,12 @@ VALUES (33038, 67116778, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33038, 2, 89) /* CREATURE_TYPE_INT */
-     , (33038, 25, 180) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33038, 16, 'Killed by Fenn.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33038, 64, 2703) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33038, 19, 0) /* VALUE_INT */
+     , (33038, 5, 6355) /* ENCUMB_VAL_INT */;
 
 /* Corpse Treasure List */
 

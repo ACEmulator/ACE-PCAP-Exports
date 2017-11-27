@@ -33,3 +33,12 @@ VALUES (33726, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (33726, 1, True) /* STUCK_BOOL */
      , (33726, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33726, 16, 'Killed by Makor.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33726, 19, 0) /* VALUE_INT */
+     , (33726, 5, 6099) /* ENCUMB_VAL_INT */;
+

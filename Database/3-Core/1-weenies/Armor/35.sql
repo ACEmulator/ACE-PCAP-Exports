@@ -48,3 +48,44 @@ VALUES (35, 0, 83889859, 83889859)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35, 0, 16780294);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35, 16, 'Chainmail Basinet') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (35, 177, 1) /* GEM_COUNT_INT */
+     , (35, 178, 12) /* GEM_TYPE_INT */
+     , (35, 19, 12412) /* VALUE_INT */
+     , (35, 131, 59) /* MATERIAL_TYPE_INT */
+     , (35, 115, 147) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (35, 5, 320) /* ENCUMB_VAL_INT */
+     , (35, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (35, 106, 191) /* ITEM_SPELLCRAFT_INT */
+     , (35, 28, 254) /* ARMOR_LEVEL_INT */
+     , (35, 108, 701) /* ITEM_MAX_MANA_INT */
+     , (35, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (35, 109, 125) /* ITEM_DIFFICULTY_INT */
+     , (35, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (35, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (35, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (35, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (35, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (35, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (35, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (35, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (35, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35, 1485) /* Impenetrability5_SpellID */
+     , (35, 1561) /* BladeBane5_SpellID */
+     , (35, 1573) /* PiercingBane5_SpellID */
+     , (35, 2552) /* CANTRIPITEMEXPERTISE1_SpellID */;
+

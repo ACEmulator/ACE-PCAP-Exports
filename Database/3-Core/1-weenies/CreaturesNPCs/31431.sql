@@ -82,11 +82,11 @@ VALUES (31431, 5, 'Royal Scholar') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (31431, 16, 67110064) /* EYES_PALETTE_DID */
-     , (31431, 9, 83890277) /* EYES_TEXTURE_DID */
-     , (31431, 17, 67115901) /* SKIN_PALETTE_DID */
-     , (31431, 10, 83890302) /* NOSE_TEXTURE_DID */
-     , (31431, 11, 83890330) /* MOUTH_TEXTURE_DID */
-     , (31431, 15, 67117078) /* HAIR_PALETTE_DID */;
+     , (31431, 9, 83890262) /* EYES_TEXTURE_DID */
+     , (31431, 17, 67115903) /* SKIN_PALETTE_DID */
+     , (31431, 10, 83890310) /* NOSE_TEXTURE_DID */
+     , (31431, 11, 83890358) /* MOUTH_TEXTURE_DID */
+     , (31431, 15, 67117102) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31431, 113, 2) /* GENDER_INT */

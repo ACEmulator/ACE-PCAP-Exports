@@ -47,3 +47,13 @@ VALUES (47444, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47444, 0, 16777923);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47444, 16, 'A concentrated copper pea.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47444, 33, 1) /* BONDED_INT */
+     , (47444, 19, 5000) /* VALUE_INT */
+     , (47444, 5, 10) /* ENCUMB_VAL_INT */;
+

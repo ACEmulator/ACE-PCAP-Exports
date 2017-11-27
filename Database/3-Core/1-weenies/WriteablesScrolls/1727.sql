@@ -35,3 +35,17 @@ VALUES (1727, 13, True) /* ETHEREAL_BOOL */
      , (1727, 19, True) /* ATTACKABLE_BOOL */
      , (1727, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1727, 16, 'Inscribed spell: Monster Attunement Other I
+Increases the target''s Assess Monster skill by 10 points.') /* LONG_DESC_STRING */
+     , (1727, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1727, 19, 1) /* VALUE_INT */
+     , (1727, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1727, 804) /* MonsterAttunementOther1_SpellID */;
+

@@ -37,3 +37,16 @@ VALUES (44718, 13, True) /* ETHEREAL_BOOL */
      , (44718, 19, True) /* ATTACKABLE_BOOL */
      , (44718, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44718, 16, 'A large, garish, golden key, a prize from the casinos.') /* LONG_DESC_STRING */
+     , (44718, 14, 'Use this item on a locked chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44718, 33, 1) /* BONDED_INT */
+     , (44718, 114, 1) /* ATTUNED_INT */
+     , (44718, 19, 0) /* VALUE_INT */
+     , (44718, 5, 500) /* ENCUMB_VAL_INT */
+     , (44718, 91, 1) /* MAX_STRUCTURE_INT */;
+

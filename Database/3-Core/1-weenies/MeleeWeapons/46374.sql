@@ -50,3 +50,29 @@ VALUES (46374, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46374, 0, 16783509);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46374, 16, 'Heavy Necklace of Lightning Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46374, 177, 4) /* GEM_COUNT_INT */
+     , (46374, 178, 26) /* GEM_TYPE_INT */
+     , (46374, 19, 6739) /* VALUE_INT */
+     , (46374, 131, 59) /* MATERIAL_TYPE_INT */
+     , (46374, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (46374, 5, 90) /* ENCUMB_VAL_INT */
+     , (46374, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (46374, 106, 185) /* ITEM_SPELLCRAFT_INT */
+     , (46374, 108, 1701) /* ITEM_MAX_MANA_INT */
+     , (46374, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (46374, 109, 193) /* ITEM_DIFFICULTY_INT */
+     , (46374, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46374, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46374, 1070) /* LightningProtectionSelf5_SpellID */
+     , (46374, 5884) /* CantripDualWieldAptitude1_SpellID */;
+

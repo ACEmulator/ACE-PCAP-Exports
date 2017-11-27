@@ -61,3 +61,29 @@ VALUES (12760, 0, 16779440)
      , (12760, 7, 16777708)
      , (12760, 8, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12760, 15, 'An enhanced crossbow crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12760, 33, 1) /* BONDED_INT */
+     , (12760, 353, 9) /* WEAPON_TYPE_INT */
+     , (12760, 19, 275) /* VALUE_INT */
+     , (12760, 5, 300) /* ENCUMB_VAL_INT */
+     , (12760, 45, 0) /* DAMAGE_TYPE_INT */
+     , (12760, 49, 55) /* WEAPON_TIME_INT */
+     , (12760, 48, 47) /* WEAPON_SKILL_INT */
+     , (12760, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12760, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
+     , (12760, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (12760, 63, 1.1) /* DAMAGE_MOD_FLOAT */
+     , (12760, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12760, 26, 26) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12760, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12760, 69, 0) /* IS_SELLABLE_BOOL */;
+

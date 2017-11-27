@@ -36,3 +36,12 @@ VALUES (26022, 13, True) /* ETHEREAL_BOOL */
      , (26022, 19, True) /* ATTACKABLE_BOOL */
      , (26022, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (26022, 16, 'Killed by Sunrise Adams.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (26022, 19, 0) /* VALUE_INT */
+     , (26022, 5, 6140) /* ENCUMB_VAL_INT */;
+

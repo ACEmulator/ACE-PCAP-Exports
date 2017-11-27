@@ -52,21 +52,32 @@ VALUES (22158, 0, 16788504);
 
 /* Extended Appraisal Data */
 
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22158, 16, 'Jo') /* LONG_DESC_STRING */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22158, 353, 7) /* WEAPON_TYPE_INT */
-     , (22158, 19, 100) /* VALUE_INT */
-     , (22158, 5, 400) /* ENCUMB_VAL_INT */
+VALUES (22158, 160, 370) /* WIELD_DIFFICULTY_INT */
+     , (22158, 353, 7) /* WEAPON_TYPE_INT */
+     , (22158, 177, 4) /* GEM_COUNT_INT */
+     , (22158, 178, 34) /* GEM_TYPE_INT */
+     , (22158, 19, 16714) /* VALUE_INT */
+     , (22158, 131, 39) /* MATERIAL_TYPE_INT */
+     , (22158, 5, 310) /* ENCUMB_VAL_INT */
+     , (22158, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (22158, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (22158, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (22158, 159, 46) /* WIELD_SKILLTYPE_INT */
      , (22158, 47, 6) /* ATTACK_TYPE_INT */
      , (22158, 45, 4) /* DAMAGE_TYPE_INT */
-     , (22158, 49, 25) /* WEAPON_TIME_INT */
+     , (22158, 49, 20) /* WEAPON_TIME_INT */
      , (22158, 48, 46) /* WEAPON_SKILL_INT */
-     , (22158, 44, 7) /* DAMAGE_INT */;
+     , (22158, 44, 43) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (22158, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (22158, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+VALUES (22158, 29, 1.19) /* WEAPON_DEFENSE_FLOAT */
+     , (22158, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
      , (22158, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (22158, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (22158, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (22158, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+     , (22158, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
 

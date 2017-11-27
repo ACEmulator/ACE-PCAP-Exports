@@ -64,12 +64,12 @@ VALUES (41895, 160, 360) /* WIELD_DIFFICULTY_INT */
      , (41895, 45, 0) /* DAMAGE_TYPE_INT */
      , (41895, 49, 60) /* WEAPON_TIME_INT */
      , (41895, 48, 47) /* WEAPON_SKILL_INT */
-     , (41895, 44, 36) /* DAMAGE_INT */;
+     , (41895, 44, 14) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (41895, 5, -0.025) /* MANA_RATE_FLOAT */
+VALUES (41895, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
      , (41895, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
-     , (41895, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (41895, 5, -0.025) /* MANA_RATE_FLOAT */
      , (41895, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
      , (41895, 63, 2.55) /* DAMAGE_MOD_FLOAT */
      , (41895, 21, 0) /* WEAPON_LENGTH_FLOAT */

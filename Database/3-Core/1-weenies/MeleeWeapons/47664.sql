@@ -49,3 +49,45 @@ VALUES (47664, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47664, 0, 16777915);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47664, 16, 'Loafers of Heavy Weapon Mastery') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47664, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (47664, 177, 2) /* GEM_COUNT_INT */
+     , (47664, 178, 39) /* GEM_TYPE_INT */
+     , (47664, 19, 34299) /* VALUE_INT */
+     , (47664, 131, 54) /* MATERIAL_TYPE_INT */
+     , (47664, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (47664, 5, 63) /* ENCUMB_VAL_INT */
+     , (47664, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (47664, 106, 281) /* ITEM_SPELLCRAFT_INT */
+     , (47664, 28, 300) /* ARMOR_LEVEL_INT */
+     , (47664, 108, 1051) /* ITEM_MAX_MANA_INT */
+     , (47664, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (47664, 109, 295) /* ITEM_DIFFICULTY_INT */
+     , (47664, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (47664, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (47664, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (47664, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (47664, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (47664, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (47664, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (47664, 16, 0.8575491) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (47664, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (47664, 18, 0.6330053) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (47664, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (47664, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47664, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (47664, 2309) /* SwordMasterySelf7_SpellID */
+     , (47664, 2574) /* CANTRIPFOCUS2_SpellID */
+     , (47664, 2108) /* Impenetrability7_SpellID */;
+

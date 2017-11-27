@@ -86,3 +86,36 @@ VALUES (29488, 12, 16777304)
      , (29488, 4, 16781838)
      , (29488, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29488, 5, 'Eyes of Karlun') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (29488, 16, 67110063) /* EYES_PALETTE_DID */
+     , (29488, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (29488, 17, 67115902) /* SKIN_PALETTE_DID */
+     , (29488, 10, 83890553) /* NOSE_TEXTURE_DID */
+     , (29488, 11, 83890651) /* MOUTH_TEXTURE_DID */
+     , (29488, 15, 67117095) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29488, 113, 1) /* GENDER_INT */
+     , (29488, 2, 31) /* CREATURE_TYPE_INT */
+     , (29488, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (29488, 25, 36) /* LEVEL_INT */
+     , (29488, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (29488, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (29488, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (29488, 4, 190) /* COORDINATION_ATTRIBUTE */
+     , (29488, 8, 180) /* QUICKNESS_ATTRIBUTE */
+     , (29488, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (29488, 32, 120) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (29488, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (29488, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (29488, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
+

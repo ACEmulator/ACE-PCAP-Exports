@@ -44,3 +44,17 @@ VALUES (52142, 0, 83890137, 83890134);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52142, 0, 16778320);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52142, 16, 'Inscribed spell: Heavy Weapon Mastery Self VII
+Increases the caster''s Heavy Weapons skill by 40 points.') /* LONG_DESC_STRING */
+     , (52142, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52142, 19, 2000) /* VALUE_INT */
+     , (52142, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (52142, 2309) /* SwordMasterySelf7_SpellID */;
+

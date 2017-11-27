@@ -32,3 +32,13 @@ VALUES (52582, 13, True) /* ETHEREAL_BOOL */
      , (52582, 19, True) /* ATTACKABLE_BOOL */
      , (52582, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52582, 14, 'You can use this item on roof hooks. ') /* USE_STRING */
+     , (52582, 15, 'A Holiday Chimney. It appears to be currently occupied. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52582, 19, 100) /* VALUE_INT */
+     , (52582, 5, 2500) /* ENCUMB_VAL_INT */;
+

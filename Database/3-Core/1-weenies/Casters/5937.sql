@@ -48,3 +48,32 @@ VALUES (5937, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5937, 0, 16780142);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5937, 16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5937, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
+     , (5937, 33, 1) /* BONDED_INT */
+     , (5937, 114, 1) /* ATTUNED_INT */
+     , (5937, 19, 12000) /* VALUE_INT */
+     , (5937, 115, 270) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (5937, 5, 50) /* ENCUMB_VAL_INT */
+     , (5937, 117, 150) /* ITEM_MANA_COST_INT */
+     , (5937, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (5937, 108, 3600) /* ITEM_MAX_MANA_INT */
+     , (5937, 188, 2) /* HERITAGE_GROUP_INT */
+     , (5937, 109, 50) /* ITEM_DIFFICULTY_INT */
+     , (5937, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (5937, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (5937, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5937, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (5937, 91) /* ForceBolt6_SpellID */;
+

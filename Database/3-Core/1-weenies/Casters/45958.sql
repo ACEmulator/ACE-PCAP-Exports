@@ -52,3 +52,36 @@ VALUES (45958, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45958, 0, 16792610);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45958, 160, 290) /* WIELD_DIFFICULTY_INT */
+     , (45958, 33, 1) /* BONDED_INT */
+     , (45958, 114, 1) /* ATTUNED_INT */
+     , (45958, 19, 100) /* VALUE_INT */
+     , (45958, 5, 50) /* ENCUMB_VAL_INT */
+     , (45958, 263, 1) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (45958, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (45958, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (45958, 45, 1) /* DAMAGE_TYPE_INT */
+     , (45958, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (45958, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (45958, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45958, 152, 1.1) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (45958, 144, 0.08) /* MANA_CONVERSION_MOD_FLOAT */
+     , (45958, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (45958, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (45958, 5, -0.025) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45958, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (45958, 2560) /* CANTRIPMANACONVERSIONPROWESS1_SpellID */
+     , (45958, 1605) /* Defender6_SpellID */
+     , (45958, 2569) /* CANTRIPWARMAGICAPTITUDE1_SpellID */
+     , (45958, 664) /* ManaMasteryOther6_SpellID */
+     , (45958, 3258) /* SpiritDrinker6_SpellID */;
+

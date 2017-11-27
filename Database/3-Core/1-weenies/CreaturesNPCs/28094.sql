@@ -96,12 +96,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (28094, 5, 'High Queen''s Emissary') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (28094, 16, 67110064) /* EYES_PALETTE_DID */
-     , (28094, 9, 83890277) /* EYES_TEXTURE_DID */
-     , (28094, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (28094, 10, 83890286) /* NOSE_TEXTURE_DID */
-     , (28094, 11, 83890344) /* MOUTH_TEXTURE_DID */
-     , (28094, 15, 67117020) /* HAIR_PALETTE_DID */;
+VALUES (28094, 16, 67110063) /* EYES_PALETTE_DID */
+     , (28094, 9, 83890284) /* EYES_TEXTURE_DID */
+     , (28094, 17, 67109559) /* SKIN_PALETTE_DID */
+     , (28094, 10, 83890289) /* NOSE_TEXTURE_DID */
+     , (28094, 11, 83890331) /* MOUTH_TEXTURE_DID */
+     , (28094, 15, 67117022) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28094, 113, 2) /* GENDER_INT */
@@ -110,6 +110,16 @@ VALUES (28094, 113, 2) /* GENDER_INT */
      , (28094, 25, 125) /* LEVEL_INT */
      , (28094, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (28094, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (28094, 2, 140) /* ENDURANCE_ATTRIBUTE */
+     , (28094, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (28094, 8, 180) /* QUICKNESS_ATTRIBUTE */
+     , (28094, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (28094, 32, 90) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28094, 64, 195) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (28094, 64, 195) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28094, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28094, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
 

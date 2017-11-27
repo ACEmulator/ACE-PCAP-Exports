@@ -49,6 +49,20 @@ VALUES (29582, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29582, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29582, 14, 'Apply this material to a treasure-generated weapon to imbue the target with Armor Rending. Armor Rending gives the item the ability to ignore some of its opponent''s armor. The amount of armor it ignores depends on the attack skill of the wielder.') /* USE_STRING */
+     , (29582, 15, 'Chips of sunstone material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29582, 33, 1) /* BONDED_INT */
+     , (29582, 19, 10) /* VALUE_INT */
+     , (29582, 131, 41) /* MATERIAL_TYPE_INT */
+     , (29582, 5, 100) /* ENCUMB_VAL_INT */
+     , (29582, 105, 100) /* ITEM_WORKMANSHIP_INT */
+     , (29582, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

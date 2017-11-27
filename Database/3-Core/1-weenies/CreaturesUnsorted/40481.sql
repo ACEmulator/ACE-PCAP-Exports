@@ -40,3 +40,39 @@ VALUES (40481, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40481, 67113030, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40481, 16, 'Steel Toed Boots') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40481, 19, 16485) /* VALUE_INT */
+     , (40481, 131, 52) /* MATERIAL_TYPE_INT */
+     , (40481, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (40481, 5, 682) /* ENCUMB_VAL_INT */
+     , (40481, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (40481, 106, 208) /* ITEM_SPELLCRAFT_INT */
+     , (40481, 28, 185) /* ARMOR_LEVEL_INT */
+     , (40481, 108, 934) /* ITEM_MAX_MANA_INT */
+     , (40481, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40481, 109, 208) /* ITEM_DIFFICULTY_INT */
+     , (40481, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40481, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (40481, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (40481, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (40481, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (40481, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (40481, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (40481, 18, 0.2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (40481, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (40481, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40481, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40481, 1484) /* Impenetrability4_SpellID */
+     , (40481, 1515) /* BludgeonBane5_SpellID */;
+

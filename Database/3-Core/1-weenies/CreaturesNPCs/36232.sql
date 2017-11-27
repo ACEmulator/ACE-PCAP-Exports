@@ -87,12 +87,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (36232, 5, 'Rift Walker') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (36232, 16, 67109564) /* EYES_PALETTE_DID */
-     , (36232, 9, 83890263) /* EYES_TEXTURE_DID */
-     , (36232, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (36232, 10, 83890317) /* NOSE_TEXTURE_DID */
-     , (36232, 11, 83890348) /* MOUTH_TEXTURE_DID */
-     , (36232, 15, 67117000) /* HAIR_PALETTE_DID */;
+VALUES (36232, 16, 67109565) /* EYES_PALETTE_DID */
+     , (36232, 9, 83890280) /* EYES_TEXTURE_DID */
+     , (36232, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (36232, 10, 83890302) /* NOSE_TEXTURE_DID */
+     , (36232, 11, 83890319) /* MOUTH_TEXTURE_DID */
+     , (36232, 15, 67117071) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (36232, 113, 2) /* GENDER_INT */
@@ -101,6 +101,16 @@ VALUES (36232, 113, 2) /* GENDER_INT */
      , (36232, 25, 135) /* LEVEL_INT */
      , (36232, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (36232, 1, 100) /* STRENGTH_ATTRIBUTE */
+     , (36232, 2, 245) /* ENDURANCE_ATTRIBUTE */
+     , (36232, 4, 100) /* COORDINATION_ATTRIBUTE */
+     , (36232, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (36232, 16, 245) /* FOCUS_ATTRIBUTE */
+     , (36232, 32, 245) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36232, 64, 323) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (36232, 64, 323) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (36232, 128, 445) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (36232, 256, 445) /* MAX_MANA_ATTRIBUTE_2ND */;
 

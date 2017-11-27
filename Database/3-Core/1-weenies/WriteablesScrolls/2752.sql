@@ -35,3 +35,17 @@ VALUES (2752, 13, True) /* ETHEREAL_BOOL */
      , (2752, 19, True) /* ATTACKABLE_BOOL */
      , (2752, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2752, 16, 'Inscribed spell: Willpower Other II
+Increases the target''s Self by 15 points.') /* LONG_DESC_STRING */
+     , (2752, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2752, 19, 5) /* VALUE_INT */
+     , (2752, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2752, 1452) /* WillpowerOther2_SpellID */;
+

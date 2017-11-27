@@ -39,3 +39,16 @@ VALUES (37462, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37462, 67111342, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37462, 14, 'Use on a magic item to destroy that item and drain its Mana.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37462, 19, 2500) /* VALUE_INT */
+     , (37462, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (37462, 137, 0.15) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
+     , (37462, 87, 1.2) /* ITEM_EFFICIENCY_FLOAT */;
+

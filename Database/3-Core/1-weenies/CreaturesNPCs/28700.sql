@@ -86,12 +86,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (28700, 5, 'Protector of Sanamar') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (28700, 16, 67110065) /* EYES_PALETTE_DID */
-     , (28700, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (28700, 17, 67115906) /* SKIN_PALETTE_DID */
-     , (28700, 10, 83890558) /* NOSE_TEXTURE_DID */
-     , (28700, 11, 83890639) /* MOUTH_TEXTURE_DID */
-     , (28700, 15, 67117069) /* HAIR_PALETTE_DID */;
+VALUES (28700, 16, 67110063) /* EYES_PALETTE_DID */
+     , (28700, 9, 83890482) /* EYES_TEXTURE_DID */
+     , (28700, 17, 67115904) /* SKIN_PALETTE_DID */
+     , (28700, 10, 83890550) /* NOSE_TEXTURE_DID */
+     , (28700, 11, 83890660) /* MOUTH_TEXTURE_DID */
+     , (28700, 15, 67117074) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28700, 113, 1) /* GENDER_INT */

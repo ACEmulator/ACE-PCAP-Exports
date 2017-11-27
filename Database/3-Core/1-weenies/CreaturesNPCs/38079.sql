@@ -76,16 +76,3 @@ VALUES (38079, 0, 16783897)
      , (38079, 12, 16789483)
      , (38079, 15, 16789487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38079, 5, 'Lady of Aerlinthe') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38079, 2, 14) /* CREATURE_TYPE_INT */
-     , (38079, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38079, 25, 730) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38079, 64, 200250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

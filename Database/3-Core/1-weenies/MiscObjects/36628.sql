@@ -50,6 +50,21 @@ VALUES (36628, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36628, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36628, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Bludgeon Rending. Bludgeon Rending gives the weapon the ability to make its opponent vulnerable to bludgeoning attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Bludgeoning Vulnerability spells. ') /* USE_STRING */
+     , (36628, 15, 'Chips of white sapphire. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36628, 33, 1) /* BONDED_INT */
+     , (36628, 131, 47) /* MATERIAL_TYPE_INT */
+     , (36628, 19, 30) /* VALUE_INT */
+     , (36628, 5, 5) /* ENCUMB_VAL_INT */
+     , (36628, 105, 100) /* ITEM_WORKMANSHIP_INT */
+     , (36628, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */
+     , (36628, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

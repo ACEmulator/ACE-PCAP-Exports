@@ -54,63 +54,32 @@ VALUES (40760, 0, 16794261);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40760, 16, 'Nodachi of Blood Drinker') /* LONG_DESC_STRING */;
+VALUES (40760, 16, 'Nodachi') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40760, 384, 1) /*  */
-     , (40760, 320, 1) /* ITEM_XP_STYLE_INT */
-     , (40760, 160, 430) /* WIELD_DIFFICULTY_INT */
-     , (40760, 176, 41) /* APPRAISAL_ITEM_SKILL_INT */
-     , (40760, 177, 4) /* GEM_COUNT_INT */
+VALUES (40760, 160, 325) /* WIELD_DIFFICULTY_INT */
      , (40760, 353, 11) /* WEAPON_TYPE_INT */
-     , (40760, 114, 0) /* ATTUNED_INT */
-     , (40760, 178, 16) /* GEM_TYPE_INT */
-     , (40760, 115, 314) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (40760, 131, 57) /* MATERIAL_TYPE_INT */
-     , (40760, 179, 8) /* IMBUED_EFFECT_INT */
-     , (40760, 19, 13170) /* VALUE_INT */
+     , (40760, 177, 3) /* GEM_COUNT_INT */
+     , (40760, 178, 29) /* GEM_TYPE_INT */
+     , (40760, 19, 1122) /* VALUE_INT */
+     , (40760, 131, 58) /* MATERIAL_TYPE_INT */
      , (40760, 292, 2) /* CLEAVING_INT */
-     , (40760, 5, 383) /* ENCUMB_VAL_INT */
-     , (40760, 166, 30) /* SLAYER_CREATURE_TYPE_INT */
-     , (40760, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (40760, 265, 140) /* EQUIPMENT_SET_ID_INT */
-     , (40760, 106, 294) /* ITEM_SPELLCRAFT_INT */
-     , (40760, 171, 10) /* NUM_TIMES_TINKERED_INT */
+     , (40760, 5, 458) /* ENCUMB_VAL_INT */
+     , (40760, 105, 6) /* ITEM_WORKMANSHIP_INT */
      , (40760, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (40760, 108, 1245) /* ITEM_MAX_MANA_INT */
-     , (40760, 109, 101) /* ITEM_DIFFICULTY_INT */
      , (40760, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (40760, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (40760, 383, 1) /*  */
-     , (40760, 47, 4) /* ATTACK_TYPE_INT */
-     , (40760, 319, 50) /* ITEM_MAX_LEVEL_INT */
      , (40760, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (40760, 47, 4) /* ATTACK_TYPE_INT */
      , (40760, 45, 1) /* DAMAGE_TYPE_INT */
-     , (40760, 49, 38) /* WEAPON_TIME_INT */
+     , (40760, 49, 45) /* WEAPON_TIME_INT */
      , (40760, 48, 41) /* WEAPON_SKILL_INT */
-     , (40760, 44, 49) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
-VALUES (40760, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */
-     , (40760, 5, 2000000000) /* ITEM_BASE_XP_INT64 */;
+     , (40760, 44, 25) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (40760, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
-     , (40760, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (40760, 150, 1.005) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (40760, 22, 0.147456) /* DAMAGE_VARIANCE_FLOAT */
+VALUES (40760, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (40760, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
      , (40760, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (40760, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (40760, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (40760, 62, 1.22) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40760, 99, 0) /* IVORYABLE_BOOL */
-     , (40760, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (40760, 6089) /* CantripBloodThirst4_SpellID */
-     , (40760, 2096) /* BloodDrinker7_SpellID */
-     , (40760, 2101) /* Defender7_SpellID */
-     , (40760, 2106) /* Heartseeker7_SpellID */;
+     , (40760, 62, 1.14) /* WEAPON_OFFENSE_FLOAT */;
 

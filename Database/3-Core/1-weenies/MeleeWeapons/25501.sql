@@ -50,8 +50,8 @@ VALUES (25501, 160, 325) /* WIELD_DIFFICULTY_INT */
      , (25501, 108, 480) /* ITEM_MAX_MANA_INT */
      , (25501, 109, 180) /* ITEM_DIFFICULTY_INT */
      , (25501, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (25501, 159, 46) /* WIELD_SKILLTYPE_INT */
      , (25501, 47, 4) /* ATTACK_TYPE_INT */
+     , (25501, 159, 46) /* WIELD_SKILLTYPE_INT */
      , (25501, 45, 32) /* DAMAGE_TYPE_INT */
      , (25501, 49, 40) /* WEAPON_TIME_INT */
      , (25501, 48, 46) /* WEAPON_SKILL_INT */
@@ -60,8 +60,8 @@ VALUES (25501, 160, 325) /* WIELD_DIFFICULTY_INT */
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (25501, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
      , (25501, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (25501, 5, -0.0166) /* MANA_RATE_FLOAT */
      , (25501, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (25501, 5, -0.0166) /* MANA_RATE_FLOAT */
      , (25501, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
      , (25501, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (25501, 21, 0) /* WEAPON_LENGTH_FLOAT */

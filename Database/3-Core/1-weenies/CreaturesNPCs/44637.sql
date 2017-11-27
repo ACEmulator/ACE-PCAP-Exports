@@ -83,3 +83,14 @@ VALUES (44637, 0, 16777294)
      , (44637, 15, 16777307)
      , (44637, 16, 16781779);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44637, 14, 'Use this item on a locked door or chest to pick the lock.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44637, 19, 3000) /* VALUE_INT */
+     , (44637, 5, 50) /* ENCUMB_VAL_INT */
+     , (44637, 91, 50) /* MAX_STRUCTURE_INT */
+     , (44637, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+

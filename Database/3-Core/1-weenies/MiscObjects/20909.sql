@@ -40,6 +40,18 @@ VALUES (20909, 0, 83889688, 83892492);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20909, 0, 16783974);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20909, 16, 'A shimmering stone that houses the power of all elements within. The stone is rough shod, and covered in jutting crystal shards.') /* LONG_DESC_STRING */
+     , (20909, 14, 'This stone can be modified by scraping the extraneous shards from its surface. Perhaps an intricate carving tool can do the trick. ') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20909, 33, 1) /* BONDED_INT */
+     , (20909, 114, 1) /* ATTUNED_INT */
+     , (20909, 19, 0) /* VALUE_INT */
+     , (20909, 5, 5) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

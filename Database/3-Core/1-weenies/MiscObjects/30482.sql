@@ -44,3 +44,14 @@ VALUES (30482, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30482, 0, 16778749);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30482, 16, 'A fine porcelain goblet, painted with delicate Sho designs in indigo. This goblet belonged to Worcer''s mother, June, before she was slain by Tumeroks in the Holtburg Redoubt.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30482, 33, 1) /* BONDED_INT */
+     , (30482, 114, 1) /* ATTUNED_INT */
+     , (30482, 19, 0) /* VALUE_INT */
+     , (30482, 5, 10) /* ENCUMB_VAL_INT */;
+

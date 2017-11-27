@@ -81,25 +81,28 @@ VALUES (30073, 5, 16791918)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30073, 5, 'Viamontian Guard') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (30073, 16, 67109564) /* EYES_PALETTE_DID */
-     , (30073, 9, 83890480) /* EYES_TEXTURE_DID */
-     , (30073, 17, 67115906) /* SKIN_PALETTE_DID */
-     , (30073, 10, 83890520) /* NOSE_TEXTURE_DID */
-     , (30073, 11, 83890646) /* MOUTH_TEXTURE_DID */
-     , (30073, 15, 67116982) /* HAIR_PALETTE_DID */;
+VALUES (30073, 16, 'Studded Leather Leggings') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30073, 113, 1) /* GENDER_INT */
-     , (30073, 2, 31) /* CREATURE_TYPE_INT */
-     , (30073, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (30073, 25, 124) /* LEVEL_INT */
-     , (30073, 188, 4) /* HERITAGE_GROUP_INT */;
+VALUES (30073, 19, 5829) /* VALUE_INT */
+     , (30073, 131, 54) /* MATERIAL_TYPE_INT */
+     , (30073, 5, 577) /* ENCUMB_VAL_INT */
+     , (30073, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (30073, 28, 264) /* ARMOR_LEVEL_INT */
+     , (30073, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30073, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30073, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (30073, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (30073, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (30073, 16, 1.144278) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (30073, 17, 0.9537249) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (30073, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (30073, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (30073, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30073, 100, 1) /* DYABLE_BOOL */;
 
 /* Object Wield List */
 

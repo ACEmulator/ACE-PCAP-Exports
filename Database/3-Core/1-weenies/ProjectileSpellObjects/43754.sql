@@ -38,3 +38,23 @@ VALUES (43754, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43754, 1, True) /* STUCK_BOOL */
      , (43754, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43754, 14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* USE_STRING */
+     , (43754, 38, 'Gateway') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43754, 86, -1) /* MIN_LEVEL_INT */
+     , (43754, 87, -1) /* MAX_LEVEL_INT */
+     , (43754, 26, 0) /* ACCOUNT_REQUIREMENTS_INT */
+     , (43754, 111, 17) /* PORTAL_BITMASK_INT */;
+
+/* Object Wield List */
+
+/* Object Wield List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (43754, 2, 33106) /* Shield of Isin Dule */
+     , (43754, 2, 33080) /* Shadow Blade */;
+

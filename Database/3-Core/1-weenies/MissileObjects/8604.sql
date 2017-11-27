@@ -37,3 +37,12 @@ VALUES (8604, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8604, 1, True) /* STUCK_BOOL */
      , (8604, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8604, 16, 'Killed by Mag-three.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8604, 19, 0) /* VALUE_INT */
+     , (8604, 5, 6100) /* ENCUMB_VAL_INT */;
+

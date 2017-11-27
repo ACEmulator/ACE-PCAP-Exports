@@ -106,22 +106,33 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (33293, 5, 'Emissary of Isin Dule') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (33293, 16, 67109567) /* EYES_PALETTE_DID */
-     , (33293, 9, 83890516) /* EYES_TEXTURE_DID */
-     , (33293, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (33293, 10, 83890546) /* NOSE_TEXTURE_DID */
-     , (33293, 11, 83890662) /* MOUTH_TEXTURE_DID */
-     , (33293, 15, 67116989) /* HAIR_PALETTE_DID */;
+VALUES (33293, 16, 67110062) /* EYES_PALETTE_DID */
+     , (33293, 9, 83890445) /* EYES_TEXTURE_DID */
+     , (33293, 17, 67109559) /* SKIN_PALETTE_DID */
+     , (33293, 10, 83890521) /* NOSE_TEXTURE_DID */
+     , (33293, 11, 83890639) /* MOUTH_TEXTURE_DID */
+     , (33293, 15, 67117021) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33293, 113, 1) /* GENDER_INT */
      , (33293, 2, 31) /* CREATURE_TYPE_INT */
+     , (33293, 307, 5) /* DAMAGE_RATING_INT */
      , (33293, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (33293, 25, 150) /* LEVEL_INT */
      , (33293, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33293, 1, 250) /* STRENGTH_ATTRIBUTE */
+     , (33293, 2, 160) /* ENDURANCE_ATTRIBUTE */
+     , (33293, 4, 250) /* COORDINATION_ATTRIBUTE */
+     , (33293, 8, 250) /* QUICKNESS_ATTRIBUTE */
+     , (33293, 16, 160) /* FOCUS_ATTRIBUTE */
+     , (33293, 32, 160) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33293, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (33293, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33293, 128, 260) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33293, 256, 280) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

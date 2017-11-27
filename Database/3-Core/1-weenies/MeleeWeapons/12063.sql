@@ -39,3 +39,12 @@ VALUES (12063, 13, True) /* ETHEREAL_BOOL */
      , (12063, 19, True) /* ATTACKABLE_BOOL */
      , (12063, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12063, 16, 'Killed by Ujiio.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12063, 19, 0) /* VALUE_INT */
+     , (12063, 5, 6257) /* ENCUMB_VAL_INT */;
+

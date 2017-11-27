@@ -35,3 +35,14 @@ VALUES (33845, 13, True) /* ETHEREAL_BOOL */
      , (33845, 1, True) /* STUCK_BOOL */
      , (33845, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33845, 19, 500) /* VALUE_INT */
+     , (33845, 5, 50) /* ENCUMB_VAL_INT */
+     , (33845, 90, 10) /* BOOST_VALUE_INT */
+     , (33845, 91, 35) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33845, 100, 1.5) /* HEALKIT_MOD_FLOAT */;
+

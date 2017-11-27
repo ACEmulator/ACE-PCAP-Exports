@@ -57,11 +57,22 @@ VALUES (35573, 5, 'Guard') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35573, 2, 3) /* CREATURE_TYPE_INT */
+     , (35573, 307, 5) /* DAMAGE_RATING_INT */
      , (35573, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (35573, 25, 54) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (35573, 1, 350) /* STRENGTH_ATTRIBUTE */
+     , (35573, 2, 310) /* ENDURANCE_ATTRIBUTE */
+     , (35573, 4, 250) /* COORDINATION_ATTRIBUTE */
+     , (35573, 8, 330) /* QUICKNESS_ATTRIBUTE */
+     , (35573, 16, 250) /* FOCUS_ATTRIBUTE */
+     , (35573, 32, 290) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35573, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (35573, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (35573, 128, 310) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (35573, 256, 290) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

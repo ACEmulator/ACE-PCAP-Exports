@@ -55,21 +55,32 @@ VALUES (43958, 16, 'Crystaline quarrels that draw the elemental energies from el
      , (43958, 14, 'You must be a trained fletcher of considerable skill to use these potentially volatile quarrels.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43958, 272, 250) /* WIELD_DIFFICULTY_2_INT */
-     , (43958, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (43958, 19, 29900) /* VALUE_INT */
-     , (43958, 5, 299) /* ENCUMB_VAL_INT */
-     , (43958, 270, 2) /* WIELD_REQUIREMENTS_2_INT */
+VALUES (43958, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (43958, 272, 250) /* WIELD_DIFFICULTY_2_INT */
+     , (43958, 304, 32) /* IMBUED_EFFECT_3_INT */
+     , (43958, 305, 32) /* IMBUED_EFFECT_4_INT */
+     , (43958, 306, 32) /* IMBUED_EFFECT_5_INT */
+     , (43958, 386, 0) /*  */
+     , (43958, 19, 100) /* VALUE_INT */
+     , (43958, 179, 32) /* IMBUED_EFFECT_INT */
+     , (43958, 307, 8) /* DAMAGE_RATING_INT */
+     , (43958, 5, 1) /* ENCUMB_VAL_INT */
+     , (43958, 313, 0) /* CRIT_RATING_INT */
+     , (43958, 314, 0) /* CRIT_DAMAGE_RATING_INT */
      , (43958, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (43958, 271, 47) /* WIELD_SKILLTYPE_2_INT */
+     , (43958, 270, 2) /* WIELD_REQUIREMENTS_2_INT */
      , (43958, 159, 37) /* WIELD_SKILLTYPE_INT */
-     , (43958, 45, 268435456) /* DAMAGE_TYPE_INT */
+     , (43958, 271, 47) /* WIELD_SKILLTYPE_2_INT */
+     , (43958, 303, 32) /* IMBUED_EFFECT_2_INT */
+     , (43958, 45, 4) /* DAMAGE_TYPE_INT */
      , (43958, 49, -1) /* WEAPON_TIME_INT */
      , (43958, 48, 0) /* WEAPON_SKILL_INT */
      , (43958, 44, 35) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (43958, 29, 1.17) /* WEAPON_DEFENSE_FLOAT */
+VALUES (43958, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (43958, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (43958, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
      , (43958, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
      , (43958, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (43958, 21, 0) /* WEAPON_LENGTH_FLOAT */

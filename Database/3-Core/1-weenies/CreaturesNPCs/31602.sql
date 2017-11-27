@@ -90,12 +90,23 @@ VALUES (31602, 16, 67110062) /* EYES_PALETTE_DID */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31602, 113, 1) /* GENDER_INT */
      , (31602, 2, 31) /* CREATURE_TYPE_INT */
+     , (31602, 307, 5) /* DAMAGE_RATING_INT */
      , (31602, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (31602, 25, 2) /* LEVEL_INT */
      , (31602, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31602, 1, 10) /* STRENGTH_ATTRIBUTE */
+     , (31602, 2, 10) /* ENDURANCE_ATTRIBUTE */
+     , (31602, 4, 10) /* COORDINATION_ATTRIBUTE */
+     , (31602, 8, 10) /* QUICKNESS_ATTRIBUTE */
+     , (31602, 16, 10) /* FOCUS_ATTRIBUTE */
+     , (31602, 32, 10) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31602, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (31602, 64, 15) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31602, 128, 20) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31602, 256, 20) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

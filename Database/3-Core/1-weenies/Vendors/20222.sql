@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (20222, 5, 'Master Archmage') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (20222, 16, 67110062) /* EYES_PALETTE_DID */
-     , (20222, 9, 83890507) /* EYES_TEXTURE_DID */
+VALUES (20222, 16, 67109566) /* EYES_PALETTE_DID */
+     , (20222, 9, 83890509) /* EYES_TEXTURE_DID */
      , (20222, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (20222, 10, 83890553) /* NOSE_TEXTURE_DID */
-     , (20222, 11, 83890667) /* MOUTH_TEXTURE_DID */
-     , (20222, 15, 67117023) /* HAIR_PALETTE_DID */;
+     , (20222, 10, 83890561) /* NOSE_TEXTURE_DID */
+     , (20222, 11, 83890639) /* MOUTH_TEXTURE_DID */
+     , (20222, 15, 67116987) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20222, 113, 1) /* GENDER_INT */
@@ -104,8 +104,18 @@ VALUES (20222, 113, 1) /* GENDER_INT */
      , (20222, 25, 14) /* LEVEL_INT */
      , (20222, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (20222, 1, 90) /* STRENGTH_ATTRIBUTE */
+     , (20222, 2, 80) /* ENDURANCE_ATTRIBUTE */
+     , (20222, 4, 75) /* COORDINATION_ATTRIBUTE */
+     , (20222, 8, 90) /* QUICKNESS_ATTRIBUTE */
+     , (20222, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (20222, 32, 85) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (20222, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (20222, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (20222, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (20222, 256, 215) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Extended Vendor Data */
 

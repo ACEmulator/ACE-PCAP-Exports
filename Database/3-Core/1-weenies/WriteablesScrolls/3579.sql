@@ -35,3 +35,17 @@ VALUES (3579, 13, True) /* ETHEREAL_BOOL */
      , (3579, 19, True) /* ATTACKABLE_BOOL */
      , (3579, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3579, 16, 'Inscribed spell: Weapon Tinkering Expertise Other III
+Increases the target''s Weapon Tinkering skill by 20 points.') /* LONG_DESC_STRING */
+     , (3579, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3579, 19, 20) /* VALUE_INT */
+     , (3579, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3579, 782) /* WeaponExpertiseOther3_SpellID */;
+

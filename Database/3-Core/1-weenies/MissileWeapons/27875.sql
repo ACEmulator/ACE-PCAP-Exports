@@ -44,42 +44,22 @@ VALUES (27875, 13, True) /* ETHEREAL_BOOL */
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27875, 16, 'Pants of Lightning Protection') /* LONG_DESC_STRING */;
-
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27875, 160, 150) /* WIELD_DIFFICULTY_INT */
-     , (27875, 19, 7146) /* VALUE_INT */
-     , (27875, 131, 5) /* MATERIAL_TYPE_INT */
-     , (27875, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (27875, 5, 135) /* ENCUMB_VAL_INT */
-     , (27875, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (27875, 106, 281) /* ITEM_SPELLCRAFT_INT */
-     , (27875, 28, 0) /* ARMOR_LEVEL_INT */
-     , (27875, 108, 1245) /* ITEM_MAX_MANA_INT */
-     , (27875, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (27875, 109, 305) /* ITEM_DIFFICULTY_INT */
-     , (27875, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (27875, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (27875, 159, 1) /* WIELD_SKILLTYPE_INT */;
+VALUES (27875, 2, 82) /* CREATURE_TYPE_INT */
+     , (27875, 25, 60) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27875, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (27875, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (27875, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (27875, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (27875, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (27875, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (27875, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (27875, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (27875, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (27875, 1, 220) /* STRENGTH_ATTRIBUTE */
+     , (27875, 2, 85) /* ENDURANCE_ATTRIBUTE */
+     , (27875, 4, 235) /* COORDINATION_ATTRIBUTE */
+     , (27875, 8, 85) /* QUICKNESS_ATTRIBUTE */
+     , (27875, 16, 140) /* FOCUS_ATTRIBUTE */
+     , (27875, 32, 155) /* SELF_ATTRIBUTE */;
 
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27875, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27875, 4703) /* CANTRIPMAGICITEMEXPERTISE3_SpellID */
-     , (27875, 2159) /* LightningProtectionSelf7_SpellID */;
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (27875, 64, 178) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27875, 128, 340) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27875, 256, 235) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

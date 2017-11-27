@@ -50,3 +50,49 @@ VALUES (47985, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47985, 0, 16777950);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47985, 16, 'Coronet of Attunement') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47985, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (47985, 177, 7) /* GEM_COUNT_INT */
+     , (47985, 178, 38) /* GEM_TYPE_INT */
+     , (47985, 19, 94597) /* VALUE_INT */
+     , (47985, 131, 60) /* MATERIAL_TYPE_INT */
+     , (47985, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (47985, 5, 67) /* ENCUMB_VAL_INT */
+     , (47985, 375, 1) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (47985, 265, 14) /* EQUIPMENT_SET_ID_INT */
+     , (47985, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (47985, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (47985, 28, 295) /* ARMOR_LEVEL_INT */
+     , (47985, 108, 2489) /* ITEM_MAX_MANA_INT */
+     , (47985, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (47985, 109, 411) /* ITEM_DIFFICULTY_INT */
+     , (47985, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (47985, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (47985, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (47985, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (47985, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (47985, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (47985, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (47985, 16, 0.8400801) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (47985, 17, 0.8755441) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (47985, 18, 0.8636113) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (47985, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (47985, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47985, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (47985, 4608) /* PersonAttunementSelf8_SpellID */
+     , (47985, 2513) /* CANTRIPHEALINGPROWESS2_SpellID */
+     , (47985, 4707) /* CANTRIPPERSONATTUNEMENT3_SpellID */
+     , (47985, 2104) /* FrostBane7_SpellID */
+     , (47985, 2108) /* Impenetrability7_SpellID */;
+

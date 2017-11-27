@@ -35,3 +35,17 @@ VALUES (2678, 13, True) /* ETHEREAL_BOOL */
      , (2678, 19, True) /* ATTACKABLE_BOOL */
      , (2678, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2678, 16, 'Inscribed spell: Focus Other VI
+Increases the target''s Focus by 35 points.') /* LONG_DESC_STRING */
+     , (2678, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2678, 19, 1000) /* VALUE_INT */
+     , (2678, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2678, 1432) /* FocusOther6_SpellID */;
+

@@ -35,3 +35,17 @@ VALUES (2711, 13, True) /* ETHEREAL_BOOL */
      , (2711, 19, True) /* ATTACKABLE_BOOL */
      , (2711, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2711, 16, 'Inscribed spell: Mana Drain Other VI
+Drains 32-63 points of the target''s Mana.') /* LONG_DESC_STRING */
+     , (2711, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2711, 19, 1000) /* VALUE_INT */
+     , (2711, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2711, 1224) /* ManaDrainOther6_SpellID */;
+

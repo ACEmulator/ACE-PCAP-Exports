@@ -35,3 +35,15 @@ VALUES (23115, 13, True) /* ETHEREAL_BOOL */
      , (23115, 14, True) /* GRAVITY_STATUS_BOOL */
      , (23115, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23115, 16, 'A piece of obsidian etched with arcane symbols.') /* LONG_DESC_STRING */
+     , (23115, 14, 'This item cannot be read.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23115, 19, 20) /* VALUE_INT */
+     , (23115, 5, 50) /* ENCUMB_VAL_INT */
+     , (23115, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (23115, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

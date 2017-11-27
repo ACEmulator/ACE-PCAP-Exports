@@ -40,9 +40,33 @@ VALUES (49086, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49086, 2, 21) /* CREATURE_TYPE_INT */
-     , (49086, 25, 200) /* LEVEL_INT */;
+VALUES (49086, 304, 0) /* IMBUED_EFFECT_3_INT */
+     , (49086, 305, 0) /* IMBUED_EFFECT_4_INT */
+     , (49086, 33, -2) /* BONDED_INT */
+     , (49086, 306, 0) /* IMBUED_EFFECT_5_INT */
+     , (49086, 386, 0) /*  */
+     , (49086, 19, 1) /* VALUE_INT */
+     , (49086, 179, 0) /* IMBUED_EFFECT_INT */
+     , (49086, 307, 5) /* DAMAGE_RATING_INT */
+     , (49086, 5, 5) /* ENCUMB_VAL_INT */
+     , (49086, 313, 0) /* CRIT_RATING_INT */
+     , (49086, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (49086, 303, 0) /* IMBUED_EFFECT_2_INT */
+     , (49086, 45, 2) /* DAMAGE_TYPE_INT */
+     , (49086, 49, -1) /* WEAPON_TIME_INT */
+     , (49086, 48, 0) /* WEAPON_SKILL_INT */
+     , (49086, 44, 114) /* DAMAGE_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49086, 64, 1370) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49086, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (49086, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (49086, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (49086, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
+     , (49086, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (49086, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (49086, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (49086, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49086, 69, 0) /* IS_SELLABLE_BOOL */;
 

@@ -35,3 +35,16 @@ VALUES (39508, 13, True) /* ETHEREAL_BOOL */
      , (39508, 19, True) /* ATTACKABLE_BOOL */
      , (39508, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39508, 16, 'A small igloo that an equally small Pet Polar Ursuin Cub lives in.') /* LONG_DESC_STRING */
+     , (39508, 14, 'Use this Igloo to summon or dismiss your Pet Polar Ursuin Cub.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39508, 19, 10) /* VALUE_INT */
+     , (39508, 5, 5) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39508, 69, 0) /* IS_SELLABLE_BOOL */;
+

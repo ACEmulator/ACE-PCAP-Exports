@@ -42,15 +42,3 @@ VALUES (36604, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36604, 0, 16778345);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36604, 14, 'Bring this ring to Ryukai Hiro in Candeth Keep for a reward.') /* USE_STRING */
-     , (36604, 15, 'A simple ring, given to you by Dojiro Sangi, when you gave him the Paradox-infused Potion, in order to save him from becoming the "Prodigal Isparian".') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36604, 33, 1) /* BONDED_INT */
-     , (36604, 114, 1) /* ATTUNED_INT */
-     , (36604, 19, 0) /* VALUE_INT */
-     , (36604, 5, 10) /* ENCUMB_VAL_INT */;
-

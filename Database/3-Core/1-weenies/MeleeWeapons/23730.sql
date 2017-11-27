@@ -46,3 +46,24 @@ VALUES (23730, 0, 83886737, 83886737)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23730, 0, 16777983);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23730, 16, 'Gem of Cold Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23730, 19, 2650) /* VALUE_INT */
+     , (23730, 131, 47) /* MATERIAL_TYPE_INT */
+     , (23730, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (23730, 5, 5) /* ENCUMB_VAL_INT */
+     , (23730, 117, 350) /* ITEM_MANA_COST_INT */
+     , (23730, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (23730, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (23730, 108, 623) /* ITEM_MAX_MANA_INT */
+     , (23730, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (23730, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (23730, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23730, 1035) /* ColdProtectionSelf6_SpellID */;
+

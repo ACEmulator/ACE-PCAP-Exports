@@ -63,14 +63,11 @@ VALUES (35378, 2, 16792427)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35378, 5, 'Cursed Lord of House Mhoire') /* TEMPLATE_STRING */;
+VALUES (35378, 16, 'Killed by High-Voltage II.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35378, 2, 30) /* CREATURE_TYPE_INT */
-     , (35378, 25, 300) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35378, 64, 200250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (35378, 19, 0) /* VALUE_INT */
+     , (35378, 5, 6010) /* ENCUMB_VAL_INT */;
 
 /* Corpse Treasure List */
 

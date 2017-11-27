@@ -89,23 +89,31 @@ VALUES (31646, 12, 16777304)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31646, 5, 'Repugnant Eater Ripper') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31646, 16, 67110063) /* EYES_PALETTE_DID */
-     , (31646, 9, 83890486) /* EYES_TEXTURE_DID */
-     , (31646, 17, 67110045) /* SKIN_PALETTE_DID */
-     , (31646, 10, 83890548) /* NOSE_TEXTURE_DID */
-     , (31646, 11, 83890606) /* MOUTH_TEXTURE_DID */
-     , (31646, 15, 67117078) /* HAIR_PALETTE_DID */;
+VALUES (31646, 16, 'Acid Bastone') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31646, 113, 1) /* GENDER_INT */
-     , (31646, 2, 31) /* CREATURE_TYPE_INT */
-     , (31646, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31646, 25, 94) /* LEVEL_INT */
-     , (31646, 188, 3) /* HERITAGE_GROUP_INT */;
+VALUES (31646, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (31646, 353, 7) /* WEAPON_TYPE_INT */
+     , (31646, 177, 1) /* GEM_COUNT_INT */
+     , (31646, 178, 13) /* GEM_TYPE_INT */
+     , (31646, 19, 1161) /* VALUE_INT */
+     , (31646, 131, 75) /* MATERIAL_TYPE_INT */
+     , (31646, 5, 381) /* ENCUMB_VAL_INT */
+     , (31646, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (31646, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31646, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31646, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (31646, 47, 6) /* ATTACK_TYPE_INT */
+     , (31646, 45, 32) /* DAMAGE_TYPE_INT */
+     , (31646, 49, 26) /* WEAPON_TIME_INT */
+     , (31646, 48, 46) /* WEAPON_SKILL_INT */
+     , (31646, 44, 29) /* DAMAGE_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31646, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31646, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
+     , (31646, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (31646, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (31646, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31646, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31646, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
 

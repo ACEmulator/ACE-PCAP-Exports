@@ -46,8 +46,18 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (8672, 2, 14) /* CREATURE_TYPE_INT */
      , (8672, 25, 30) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (8672, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (8672, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (8672, 4, 100) /* COORDINATION_ATTRIBUTE */
+     , (8672, 8, 60) /* QUICKNESS_ATTRIBUTE */
+     , (8672, 16, 105) /* FOCUS_ATTRIBUTE */
+     , (8672, 32, 95) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8672, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (8672, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (8672, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (8672, 256, 135) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Corpse Treasure List */
 

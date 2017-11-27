@@ -55,3 +55,31 @@ VALUES (53, 0, 83887061, 83886694)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53, 16, 'Studded Leather Cuirass') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53, 177, 3) /* GEM_COUNT_INT */
+     , (53, 178, 48) /* GEM_TYPE_INT */
+     , (53, 19, 16642) /* VALUE_INT */
+     , (53, 131, 54) /* MATERIAL_TYPE_INT */
+     , (53, 5, 634) /* ENCUMB_VAL_INT */
+     , (53, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (53, 28, 253) /* ARMOR_LEVEL_INT */
+     , (53, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (53, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (53, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (53, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (53, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (53, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (53, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (53, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (53, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53, 100, 1) /* DYABLE_BOOL */;
+

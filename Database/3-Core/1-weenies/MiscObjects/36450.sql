@@ -41,3 +41,13 @@ VALUES (36450, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36450, 67115254, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36450, 16, 'A friendly spirit who tends to wander.') /* LONG_DESC_STRING */
+     , (36450, 14, 'This item can be used on all hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36450, 19, 1650) /* VALUE_INT */
+     , (36450, 5, 1650) /* ENCUMB_VAL_INT */;
+

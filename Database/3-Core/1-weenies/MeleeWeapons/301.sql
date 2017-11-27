@@ -51,3 +51,46 @@ VALUES (301, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (301, 0, 16777885);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (301, 16, 'Battle Axe of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (301, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (301, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (301, 353, 3) /* WEAPON_TYPE_INT */
+     , (301, 177, 1) /* GEM_COUNT_INT */
+     , (301, 178, 48) /* GEM_TYPE_INT */
+     , (301, 19, 4524) /* VALUE_INT */
+     , (301, 131, 60) /* MATERIAL_TYPE_INT */
+     , (301, 115, 239) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (301, 5, 634) /* ENCUMB_VAL_INT */
+     , (301, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (301, 106, 219) /* ITEM_SPELLCRAFT_INT */
+     , (301, 108, 1301) /* ITEM_MAX_MANA_INT */
+     , (301, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (301, 109, 44) /* ITEM_DIFFICULTY_INT */
+     , (301, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (301, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (301, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (301, 47, 4) /* ATTACK_TYPE_INT */
+     , (301, 45, 1) /* DAMAGE_TYPE_INT */
+     , (301, 49, 55) /* WEAPON_TIME_INT */
+     , (301, 48, 44) /* WEAPON_SKILL_INT */
+     , (301, 44, 48) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (301, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (301, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (301, 149, 1.01) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (301, 22, 0.95) /* DAMAGE_VARIANCE_FLOAT */
+     , (301, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (301, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (301, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (301, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (301, 1615) /* BloodDrinker5_SpellID */
+     , (301, 1331) /* StrengthSelf5_SpellID */;
+

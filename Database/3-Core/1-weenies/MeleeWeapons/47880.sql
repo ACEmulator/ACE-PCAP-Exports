@@ -50,3 +50,16 @@ VALUES (47880, 0, 83886725, 83886725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47880, 0, 16777950);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47880, 14, 'Use on a magic item to destroy that item and drain its Mana.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47880, 19, 2500) /* VALUE_INT */
+     , (47880, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (47880, 137, 0.15) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
+     , (47880, 87, 1.2) /* ITEM_EFFICIENCY_FLOAT */;
+

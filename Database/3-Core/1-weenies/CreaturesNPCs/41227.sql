@@ -91,11 +91,11 @@ VALUES (41227, 5, 'Arcanum Researcher') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (41227, 16, 67110062) /* EYES_PALETTE_DID */
-     , (41227, 9, 83890277) /* EYES_TEXTURE_DID */
-     , (41227, 17, 67110061) /* SKIN_PALETTE_DID */
-     , (41227, 10, 83890297) /* NOSE_TEXTURE_DID */
-     , (41227, 11, 83890328) /* MOUTH_TEXTURE_DID */
-     , (41227, 15, 67117079) /* HAIR_PALETTE_DID */;
+     , (41227, 9, 83890235) /* EYES_TEXTURE_DID */
+     , (41227, 17, 67110050) /* SKIN_PALETTE_DID */
+     , (41227, 10, 83890292) /* NOSE_TEXTURE_DID */
+     , (41227, 11, 83890344) /* MOUTH_TEXTURE_DID */
+     , (41227, 15, 67117002) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41227, 113, 2) /* GENDER_INT */
@@ -104,6 +104,16 @@ VALUES (41227, 113, 2) /* GENDER_INT */
      , (41227, 25, 150) /* LEVEL_INT */
      , (41227, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (41227, 1, 180) /* STRENGTH_ATTRIBUTE */
+     , (41227, 2, 190) /* ENDURANCE_ATTRIBUTE */
+     , (41227, 4, 140) /* COORDINATION_ATTRIBUTE */
+     , (41227, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (41227, 16, 220) /* FOCUS_ATTRIBUTE */
+     , (41227, 32, 220) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (41227, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (41227, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (41227, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (41227, 256, 375) /* MAX_MANA_ATTRIBUTE_2ND */;
 

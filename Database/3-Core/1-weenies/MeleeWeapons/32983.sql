@@ -43,3 +43,45 @@ VALUES (32983, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32983, 67116440, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32983, 15, 'A set of fighting knuckles crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (32983, 55, 2074) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32983, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (32983, 353, 1) /* WEAPON_TYPE_INT */
+     , (32983, 19, 10000) /* VALUE_INT */
+     , (32983, 5, 200) /* ENCUMB_VAL_INT */
+     , (32983, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (32983, 108, 5000) /* ITEM_MAX_MANA_INT */
+     , (32983, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (32983, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (32983, 47, 1) /* ATTACK_TYPE_INT */
+     , (32983, 159, 1) /* WIELD_SKILLTYPE_INT */
+     , (32983, 45, 4) /* DAMAGE_TYPE_INT */
+     , (32983, 49, 20) /* WEAPON_TIME_INT */
+     , (32983, 48, 46) /* WEAPON_SKILL_INT */
+     , (32983, 44, 46) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32983, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (32983, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (32983, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
+     , (32983, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (32983, 22, 0.55) /* DAMAGE_VARIANCE_FLOAT */
+     , (32983, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (32983, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (32983, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (32983, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (32983, 2074) /* ImperilOther7_SpellID */
+     , (32983, 2116) /* Swiftkiller7_SpellID */
+     , (32983, 2096) /* BloodDrinker7_SpellID */
+     , (32983, 2101) /* Defender7_SpellID */
+     , (32983, 2106) /* Heartseeker7_SpellID */;
+

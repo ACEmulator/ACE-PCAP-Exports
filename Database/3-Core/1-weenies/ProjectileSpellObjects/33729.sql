@@ -33,3 +33,12 @@ VALUES (33729, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (33729, 1, True) /* STUCK_BOOL */
      , (33729, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33729, 16, 'Killed by Fenn.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33729, 19, 0) /* VALUE_INT */
+     , (33729, 5, 8072) /* ENCUMB_VAL_INT */;
+

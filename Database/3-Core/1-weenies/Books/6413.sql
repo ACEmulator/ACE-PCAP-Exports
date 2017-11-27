@@ -35,3 +35,14 @@ VALUES (6413, 13, True) /* ETHEREAL_BOOL */
      , (6413, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6413, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6413, 16, 'A small hardbound book, with blossoms pressed into its paper. The writing within is flowery and delicate, in a the High Empyrean language of the Era of Lore.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6413, 19, 40) /* VALUE_INT */
+     , (6413, 5, 80) /* ENCUMB_VAL_INT */
+     , (6413, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (6413, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

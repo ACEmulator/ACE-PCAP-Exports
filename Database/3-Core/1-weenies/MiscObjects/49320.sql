@@ -53,3 +53,46 @@ VALUES (49320, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49320, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49320, 16, 'Frost Lugian Hammer of Swiftkiller') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49320, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (49320, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (49320, 353, 3) /* WEAPON_TYPE_INT */
+     , (49320, 177, 2) /* GEM_COUNT_INT */
+     , (49320, 178, 21) /* GEM_TYPE_INT */
+     , (49320, 19, 9592) /* VALUE_INT */
+     , (49320, 131, 63) /* MATERIAL_TYPE_INT */
+     , (49320, 115, 327) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (49320, 5, 394) /* ENCUMB_VAL_INT */
+     , (49320, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (49320, 106, 307) /* ITEM_SPELLCRAFT_INT */
+     , (49320, 108, 747) /* ITEM_MAX_MANA_INT */
+     , (49320, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (49320, 109, 157) /* ITEM_DIFFICULTY_INT */
+     , (49320, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (49320, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (49320, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (49320, 47, 4) /* ATTACK_TYPE_INT */
+     , (49320, 45, 8) /* DAMAGE_TYPE_INT */
+     , (49320, 49, 40) /* WEAPON_TIME_INT */
+     , (49320, 48, 44) /* WEAPON_SKILL_INT */
+     , (49320, 44, 62) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49320, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (49320, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (49320, 22, 0.95) /* DAMAGE_VARIANCE_FLOAT */
+     , (49320, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (49320, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (49320, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (49320, 62, 1.18) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (49320, 5889) /* CantripDualWieldAptitude2_SpellID */
+     , (49320, 2116) /* Swiftkiller7_SpellID */
+     , (49320, 1616) /* BloodDrinker6_SpellID */;
+

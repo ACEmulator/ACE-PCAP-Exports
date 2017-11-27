@@ -47,8 +47,8 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (27656, 5, 6875) /* ENCUMB_VAL_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27656, 2, 0) /* OPEN_BOOL */
-     , (27656, 3, 1) /* LOCKED_BOOL */;
+VALUES (27656, 2, 1) /* OPEN_BOOL */
+     , (27656, 3, 0) /* LOCKED_BOOL */;
 
 /* Chest Treasure List */
 

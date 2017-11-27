@@ -42,10 +42,31 @@ VALUES (35989, 67115540, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35989, 2, 22) /* CREATURE_TYPE_INT */
-     , (35989, 25, 185) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35989, 16, 'Staff of Shockwave') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35989, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35989, 177, 5) /* GEM_COUNT_INT */
+     , (35989, 178, 50) /* GEM_TYPE_INT */
+     , (35989, 19, 9771) /* VALUE_INT */
+     , (35989, 131, 58) /* MATERIAL_TYPE_INT */
+     , (35989, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (35989, 5, 50) /* ENCUMB_VAL_INT */
+     , (35989, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (35989, 106, 245) /* ITEM_SPELLCRAFT_INT */
+     , (35989, 108, 3501) /* ITEM_MAX_MANA_INT */
+     , (35989, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (35989, 109, 190) /* ITEM_DIFFICULTY_INT */
+     , (35989, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35989, 144, 0.06) /* MANA_CONVERSION_MOD_FLOAT */
+     , (35989, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (35989, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35989, 69) /* ShockWave6_SpellID */
+     , (35989, 1479) /* TrueValue5_SpellID */
+     , (35989, 2537) /* CANTRIPARCANEPROWESS1_SpellID */
+     , (35989, 3258) /* SpiritDrinker6_SpellID */;
 

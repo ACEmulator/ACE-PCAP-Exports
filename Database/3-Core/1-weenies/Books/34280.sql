@@ -31,3 +31,31 @@ VALUES (34280, 13, True) /* ETHEREAL_BOOL */
      , (34280, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34280, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34280, 16, 'A small red notebook carried by Explorer Society members.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34280, 19, 10) /* VALUE_INT */
+     , (34280, 5, 30) /* ENCUMB_VAL_INT */
+     , (34280, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (34280, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34280, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (34280, 175, 5) /* APPRAISAL_MAX_PAGES_INT */
+     , (34280, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (34280, 0, 'Madam Ainea Besu, Explorer of the Society', 'prewritten', 4294967295, 0, '
+After living with the Lugians of Linvak Tukal for that past four years writing my book, "Lugian Society and Customs", I have decided to return to active participation in the Exploration Society. I have missed the visceral thrill of uncovering hidden tombs and valleys no human has ever laid eyes on. Also things have been changing at Linvak Tukal recently and they unnerve me. Lord Kresovus has retreated from public life and the few chances I have to engage him about the growing unrest in Linvak he has waved away as a human''s confusion over the differences between Human and Lugian society.
+
+But I digress, my findings and recent concerns will be covered in my soon to be completed book. This journal focuses on my new travels and discoveries.
+
+');
+

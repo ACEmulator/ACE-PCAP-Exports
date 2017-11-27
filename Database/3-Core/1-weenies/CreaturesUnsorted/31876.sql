@@ -47,10 +47,10 @@ VALUES (31876, 16, 16789500);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31876, 2, 14) /* CREATURE_TYPE_INT */
-     , (31876, 25, 160) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31876, 16, 'Killed by Zedura.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31876, 64, 8000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31876, 19, 0) /* VALUE_INT */
+     , (31876, 5, 6070) /* ENCUMB_VAL_INT */;
 

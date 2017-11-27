@@ -92,12 +92,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31645, 5, 'Iron-Spined Chittick Immolator') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31645, 16, 67109564) /* EYES_PALETTE_DID */
-     , (31645, 9, 83890262) /* EYES_TEXTURE_DID */
-     , (31645, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (31645, 10, 83890291) /* NOSE_TEXTURE_DID */
-     , (31645, 11, 83890357) /* MOUTH_TEXTURE_DID */
-     , (31645, 15, 67116996) /* HAIR_PALETTE_DID */;
+VALUES (31645, 16, 67110064) /* EYES_PALETTE_DID */
+     , (31645, 9, 83890282) /* EYES_TEXTURE_DID */
+     , (31645, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (31645, 10, 83890287) /* NOSE_TEXTURE_DID */
+     , (31645, 11, 83890336) /* MOUTH_TEXTURE_DID */
+     , (31645, 15, 67117077) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31645, 113, 2) /* GENDER_INT */
@@ -106,6 +106,16 @@ VALUES (31645, 113, 2) /* GENDER_INT */
      , (31645, 25, 86) /* LEVEL_INT */
      , (31645, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31645, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (31645, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (31645, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (31645, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (31645, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (31645, 32, 130) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31645, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (31645, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31645, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31645, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 

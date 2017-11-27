@@ -49,3 +49,30 @@ VALUES (15877, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15877, 0, 16777932);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15877, 14, 'Use this essence to summon or dismiss your Fire Elemental.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15877, 33, 0) /* BONDED_INT */
+     , (15877, 369, 40) /* USE_REQUIRES_LEVEL_INT */
+     , (15877, 114, 0) /* ATTUNED_INT */
+     , (15877, 19, 4000) /* VALUE_INT */
+     , (15877, 371, 10) /* GEAR_DAMAGE_RESIST_INT */
+     , (15877, 372, 14) /* GEAR_CRIT_INT */
+     , (15877, 5, 50) /* ENCUMB_VAL_INT */
+     , (15877, 374, 4) /* GEAR_CRIT_DAMAGE_INT */
+     , (15877, 375, 12) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (15877, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (15877, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (15877, 91, 50) /* MAX_STRUCTURE_INT */
+     , (15877, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (15877, 367, 310) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (15877, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (15877, 69, 1) /* IS_SELLABLE_BOOL */;
+

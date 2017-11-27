@@ -42,12 +42,12 @@ VALUES (22904, 67114349, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22904, 2, 14) /* CREATURE_TYPE_INT */
-     , (22904, 25, 160) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22904, 16, 'Killed by Ripley''s Grievver.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22904, 64, 2840) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22904, 19, 0) /* VALUE_INT */
+     , (22904, 5, 6250) /* ENCUMB_VAL_INT */;
 
 /* Corpse Treasure List */
 

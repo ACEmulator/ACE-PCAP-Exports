@@ -62,20 +62,14 @@ VALUES (43856, 0, 16778359)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43856, 16, 67110064) /* EYES_PALETTE_DID */
-     , (43856, 9, 83890263) /* EYES_TEXTURE_DID */
-     , (43856, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (43856, 10, 83890286) /* NOSE_TEXTURE_DID */
-     , (43856, 11, 83890349) /* MOUTH_TEXTURE_DID */
-     , (43856, 15, 67117028) /* HAIR_PALETTE_DID */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43856, 14, 'Use on a magic item to destroy that item and drain its Mana.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43856, 113, 2) /* GENDER_INT */
-     , (43856, 2, 22) /* CREATURE_TYPE_INT */
-     , (43856, 25, 240) /* LEVEL_INT */
-     , (43856, 188, 1) /* HERITAGE_GROUP_INT */;
+VALUES (43856, 19, 7500) /* VALUE_INT */
+     , (43856, 5, 50) /* ENCUMB_VAL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43856, 64, 2250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43856, 137, 0.25) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
+     , (43856, 87, 3) /* ITEM_EFFICIENCY_FLOAT */;
 

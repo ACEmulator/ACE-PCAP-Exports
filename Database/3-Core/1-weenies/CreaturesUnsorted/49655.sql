@@ -98,12 +98,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (49655, 5, 'Tailor') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (49655, 16, 67110063) /* EYES_PALETTE_DID */
-     , (49655, 9, 83890282) /* EYES_TEXTURE_DID */
-     , (49655, 17, 67109557) /* SKIN_PALETTE_DID */
-     , (49655, 10, 83890300) /* NOSE_TEXTURE_DID */
-     , (49655, 11, 83890335) /* MOUTH_TEXTURE_DID */
-     , (49655, 15, 67116998) /* HAIR_PALETTE_DID */;
+VALUES (49655, 16, 67109567) /* EYES_PALETTE_DID */
+     , (49655, 9, 83890275) /* EYES_TEXTURE_DID */
+     , (49655, 17, 67109552) /* SKIN_PALETTE_DID */
+     , (49655, 10, 83890290) /* NOSE_TEXTURE_DID */
+     , (49655, 11, 83890349) /* MOUTH_TEXTURE_DID */
+     , (49655, 15, 67117028) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49655, 113, 2) /* GENDER_INT */

@@ -96,11 +96,11 @@ VALUES (27748, 5, 'Apprentice Fletcher') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (27748, 16, 67110062) /* EYES_PALETTE_DID */
-     , (27748, 9, 83890502) /* EYES_TEXTURE_DID */
-     , (27748, 17, 67110052) /* SKIN_PALETTE_DID */
-     , (27748, 10, 83890548) /* NOSE_TEXTURE_DID */
-     , (27748, 11, 83890660) /* MOUTH_TEXTURE_DID */
-     , (27748, 15, 67117027) /* HAIR_PALETTE_DID */;
+     , (27748, 9, 83890453) /* EYES_TEXTURE_DID */
+     , (27748, 17, 67110047) /* SKIN_PALETTE_DID */
+     , (27748, 10, 83890550) /* NOSE_TEXTURE_DID */
+     , (27748, 11, 83890581) /* MOUTH_TEXTURE_DID */
+     , (27748, 15, 67117001) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (27748, 113, 1) /* GENDER_INT */
@@ -109,6 +109,16 @@ VALUES (27748, 113, 1) /* GENDER_INT */
      , (27748, 25, 5) /* LEVEL_INT */
      , (27748, 188, 3) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (27748, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (27748, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (27748, 4, 70) /* COORDINATION_ATTRIBUTE */
+     , (27748, 8, 70) /* QUICKNESS_ATTRIBUTE */
+     , (27748, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (27748, 32, 60) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27748, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (27748, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (27748, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (27748, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
 

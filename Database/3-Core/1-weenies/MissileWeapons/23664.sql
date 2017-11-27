@@ -64,3 +64,23 @@ VALUES (23664, 0, 16779464)
      , (23664, 7, 16777708)
      , (23664, 8, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23664, 16, 'A festival treat. A little rat shaped licorice candy. It jumps and squeaks like the real thing! But it''s much safer to eat.') /* LONG_DESC_STRING */
+     , (23664, 14, 'Use this item to eat it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23664, 19, 10) /* VALUE_INT */
+     , (23664, 5, 1) /* ENCUMB_VAL_INT */
+     , (23664, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (23664, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (23664, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (23664, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23664, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23664, 4211) /* LicoriceLeap_SpellID */;
+

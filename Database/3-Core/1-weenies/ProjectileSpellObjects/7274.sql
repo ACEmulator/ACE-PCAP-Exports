@@ -33,3 +33,26 @@ VALUES (7274, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7274, 1, True) /* STUCK_BOOL */
      , (7274, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7274, 16, 'Killed by Porcelina.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7274, 19, 0) /* VALUE_INT */
+     , (7274, 5, 6271) /* ENCUMB_VAL_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7274, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (7274, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (7274, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (7274, 0, 'Unknown', 'prewritten', 4294967295, 0, '
+[You cannot read this, and must bring it to a translator.]
+');
+

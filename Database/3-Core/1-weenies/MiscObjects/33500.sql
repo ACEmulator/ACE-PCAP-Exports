@@ -31,14 +31,3 @@ VALUES (33500, 13, True) /* ETHEREAL_BOOL */
      , (33500, 19, True) /* ATTACKABLE_BOOL */
      , (33500, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33500, 16, 'This is the head of the fearsome Ruschk elder, Harrak the White Spear.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33500, 33, 1) /* BONDED_INT */
-     , (33500, 114, 1) /* ATTUNED_INT */
-     , (33500, 19, 0) /* VALUE_INT */
-     , (33500, 5, 200) /* ENCUMB_VAL_INT */;
-

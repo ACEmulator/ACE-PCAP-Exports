@@ -35,3 +35,17 @@ VALUES (3738, 13, True) /* ETHEREAL_BOOL */
      , (3738, 19, True) /* ATTACKABLE_BOOL */
      , (3738, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3738, 16, 'Inscribed spell: Infuse Mana Other IV
+Drains one-quarter of the caster''s Mana and gives 120% of that to the target.') /* LONG_DESC_STRING */
+     , (3738, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3738, 19, 100) /* VALUE_INT */
+     , (3738, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3738, 1257) /* InfuseMana4_SpellID */;
+

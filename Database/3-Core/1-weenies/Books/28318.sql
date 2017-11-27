@@ -33,3 +33,14 @@ VALUES (28318, 13, True) /* ETHEREAL_BOOL */
      , (28318, 14, True) /* GRAVITY_STATUS_BOOL */
      , (28318, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28318, 16, 'A letter scrawled in strange characters.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28318, 19, 0) /* VALUE_INT */
+     , (28318, 5, 10) /* ENCUMB_VAL_INT */
+     , (28318, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (28318, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

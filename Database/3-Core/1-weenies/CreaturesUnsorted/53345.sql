@@ -45,12 +45,30 @@ VALUES (53345, 67116465, 0, 0);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53345, 2, 15) /* CREATURE_TYPE_INT */
-     , (53345, 386, 20) /*  */
-     , (53345, 25, 300) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (53345, 64, 8200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (53345, 384, 0) /*  */
+     , (53345, 370, 0) /* GEAR_DAMAGE_INT */
+     , (53345, 386, 0) /*  */
+     , (53345, 307, 0) /* DAMAGE_RATING_INT */
+     , (53345, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (53345, 387, 0) /*  */
+     , (53345, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (53345, 372, 0) /* GEAR_CRIT_INT */
+     , (53345, 388, 0) /*  */
+     , (53345, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (53345, 389, 0) /*  */
+     , (53345, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (53345, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (53345, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (53345, 313, 0) /* CRIT_RATING_INT */
+     , (53345, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (53345, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (53345, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (53345, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (53345, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (53345, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (53345, 381, 0) /*  */
+     , (53345, 382, 0) /*  */
+     , (53345, 383, 0) /*  */;
 
 /* Corpse Treasure List */
 

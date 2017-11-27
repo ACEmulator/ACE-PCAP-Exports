@@ -90,10 +90,10 @@ VALUES (49174, 0, 16796693)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49174, 2, 30) /* CREATURE_TYPE_INT */
-     , (49174, 25, 125) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49174, 16, 'Killed by Ferah Palacost.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49174, 64, 870) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49174, 19, 0) /* VALUE_INT */
+     , (49174, 5, 7210) /* ENCUMB_VAL_INT */;
 

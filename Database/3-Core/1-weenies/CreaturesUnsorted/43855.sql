@@ -62,20 +62,28 @@ VALUES (43855, 0, 16778359)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43855, 16, 67109564) /* EYES_PALETTE_DID */
-     , (43855, 9, 83890255) /* EYES_TEXTURE_DID */
-     , (43855, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (43855, 10, 83890314) /* NOSE_TEXTURE_DID */
-     , (43855, 11, 83890350) /* MOUTH_TEXTURE_DID */
-     , (43855, 15, 67116981) /* HAIR_PALETTE_DID */;
-
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43855, 113, 2) /* GENDER_INT */
-     , (43855, 2, 22) /* CREATURE_TYPE_INT */
-     , (43855, 25, 240) /* LEVEL_INT */
-     , (43855, 188, 1) /* HERITAGE_GROUP_INT */;
+VALUES (43855, 353, 10) /* WEAPON_TYPE_INT */
+     , (43855, 33, -2) /* BONDED_INT */
+     , (43855, 386, 0) /*  */
+     , (43855, 19, 0) /* VALUE_INT */
+     , (43855, 307, 5) /* DAMAGE_RATING_INT */
+     , (43855, 5, 0) /* ENCUMB_VAL_INT */
+     , (43855, 313, 0) /* CRIT_RATING_INT */
+     , (43855, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (43855, 45, 2) /* DAMAGE_TYPE_INT */
+     , (43855, 49, 10) /* WEAPON_TIME_INT */
+     , (43855, 48, 47) /* WEAPON_SKILL_INT */
+     , (43855, 44, 610) /* DAMAGE_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43855, 64, 2380) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43855, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (43855, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (43855, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (43855, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (43855, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (43855, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (43855, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (43855, 26, 23.2) /* MAXIMUM_VELOCITY_FLOAT */
+     , (43855, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
 

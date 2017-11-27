@@ -55,3 +55,23 @@ VALUES (7602, 0, 83888956, 83888956)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7602, 0, 16788873);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7602, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
+     , (7602, 115, 225) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (7602, 19, 12000) /* VALUE_INT */
+     , (7602, 5, 50) /* ENCUMB_VAL_INT */
+     , (7602, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (7602, 108, 2000) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7602, 144, 0.07) /* MANA_CONVERSION_MOD_FLOAT */
+     , (7602, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (7602, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7602, 85) /* FlameBolt6_SpellID */
+     , (7602, 1094) /* FireProtectionSelf6_SpellID */
+     , (7602, 2618) /* CANTRIPFLAMEWARD1_SpellID */;
+

@@ -43,10 +43,10 @@ VALUES (51213, 67116823, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51213, 2, 1) /* CREATURE_TYPE_INT */
-     , (51213, 25, 240) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51213, 16, 'Killed by Jak Sv.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51213, 64, 6400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51213, 19, 0) /* VALUE_INT */
+     , (51213, 5, 7743) /* ENCUMB_VAL_INT */;
 

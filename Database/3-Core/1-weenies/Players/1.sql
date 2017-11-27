@@ -108,48 +108,40 @@ VALUES (1, 16, 16778398)
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1, 35, 'Nan-chueh Angwyshaunce') /* PATRONS_TITLE_STRING */
-     , (1, 43, '22 September 2001') /* DATE_OF_BIRTH_STRING */
-     , (1, 21, 'Jo-ou Tika Waylen') /* MONARCHS_TITLE_STRING */;
+VALUES (1, 35, 'Aetheling Legits Vengeance') /* PATRONS_TITLE_STRING */
+     , (1, 21, 'King Oompa Loompa') /* MONARCHS_TITLE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (1, 16, 67109564) /* EYES_PALETTE_DID */
+VALUES (1, 16, 67110064) /* EYES_PALETTE_DID */
+     , (1, 9, 83890515) /* EYES_TEXTURE_DID */
      , (1, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (1, 9, 83890509) /* EYES_TEXTURE_DID */
-     , (1, 10, 83890561) /* NOSE_TEXTURE_DID */
-     , (1, 11, 83890640) /* MOUTH_TEXTURE_DID */
-     , (1, 15, 67109614) /* HAIR_PALETTE_DID */;
+     , (1, 10, 83890551) /* NOSE_TEXTURE_DID */
+     , (1, 11, 83890642) /* MOUTH_TEXTURE_DID */
+     , (1, 15, 67116989) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1, 192, 23) /* FAKE_FISHING_SKILL_INT */
-     , (1, 113, 1) /* GENDER_INT */
+VALUES (1, 113, 1) /* GENDER_INT */
      , (1, 2, 31) /* CREATURE_TYPE_INT */
-     , (1, 307, 6) /* DAMAGE_RATING_INT */
-     , (1, 261, 85) /* CHARACTER_TITLE_ID_INT */
-     , (1, 181, 1300) /* CHESS_RANK_INT */
-     , (1, 134, 2) /* PLAYER_KILLER_STATUS_INT */
-     , (1, 262, 26) /* NUM_CHARACTER_TITLES_INT */
+     , (1, 307, 5) /* DAMAGE_RATING_INT */
+     , (1, 261, 1) /* CHARACTER_TITLE_ID_INT */
      , (1, 390, 0) /*  */
-     , (1, 25, 275) /* LEVEL_INT */
-     , (1, 314, 1) /* CRIT_DAMAGE_RATING_INT */
-     , (1, 43, 83) /* NUM_DEATHS_INT */
+     , (1, 134, 2) /* PLAYER_KILLER_STATUS_INT */
+     , (1, 25, 146) /* LEVEL_INT */
      , (1, 188, 1) /* HERITAGE_GROUP_INT */
-     , (1, 125, 1561268) /* AGE_INT */
-     , (1, 30, 2) /* ALLEGIANCE_RANK_INT */
-     , (1, 351, 4) /* LIFE_RESIST_RATING_INT */;
+     , (1, 30, 7) /* ALLEGIANCE_RANK_INT */;
 
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (1, 1, 285) /* STRENGTH_ATTRIBUTE */
-     , (1, 2, 296) /* ENDURANCE_ATTRIBUTE */
-     , (1, 4, 245) /* COORDINATION_ATTRIBUTE */
-     , (1, 8, 245) /* QUICKNESS_ATTRIBUTE */
-     , (1, 16, 335) /* FOCUS_ATTRIBUTE */
-     , (1, 32, 335) /* SELF_ATTRIBUTE */;
+VALUES (1, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (1, 2, 250) /* ENDURANCE_ATTRIBUTE */
+     , (1, 4, 250) /* COORDINATION_ATTRIBUTE */
+     , (1, 8, 180) /* QUICKNESS_ATTRIBUTE */
+     , (1, 16, 160) /* FOCUS_ATTRIBUTE */
+     , (1, 32, 250) /* SELF_ATTRIBUTE */;
 
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1, 64, 345) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (1, 128, 497) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (1, 256, 536) /* MAX_MANA_ATTRIBUTE_2ND */;
+VALUES (1, 64, 288) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (1, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (1, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Corpse Treasure List */
 

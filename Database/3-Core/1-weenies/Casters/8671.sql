@@ -51,3 +51,26 @@ VALUES (8671, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8671, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8671, 16, 'A flickering essence formerly trapped in a wisp.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8671, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
+     , (8671, 115, 60) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (8671, 19, 200) /* VALUE_INT */
+     , (8671, 5, 50) /* ENCUMB_VAL_INT */
+     , (8671, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (8671, 108, 600) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8671, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (8671, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (8671, 5, -0.025) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8671, 215) /* ManaRenewalSelf4_SpellID */
+     , (8671, 168) /* RegenerationSelf4_SpellID */
+     , (8671, 191) /* RejuvenationSelf4_SpellID */;
+

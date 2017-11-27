@@ -48,3 +48,36 @@ VALUES (91, 0, 83890141, 83890141);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (91, 0, 16777989);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (91, 16, 'Kite Shield') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (91, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (91, 19, 1090) /* VALUE_INT */
+     , (91, 131, 64) /* MATERIAL_TYPE_INT */
+     , (91, 115, 48) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (91, 5, 614) /* ENCUMB_VAL_INT */
+     , (91, 105, 2) /* ITEM_WORKMANSHIP_INT */
+     , (91, 106, 49) /* ITEM_SPELLCRAFT_INT */
+     , (91, 28, 112) /* ARMOR_LEVEL_INT */
+     , (91, 108, 134) /* ITEM_MAX_MANA_INT */
+     , (91, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (91, 109, 25) /* ITEM_DIFFICULTY_INT */
+     , (91, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (91, 5, -0.01666667) /* MANA_RATE_FLOAT */
+     , (91, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (91, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (91, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (91, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (91, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (91, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (91, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (91, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (91, 1482) /* Impenetrability2_SpellID */;
+

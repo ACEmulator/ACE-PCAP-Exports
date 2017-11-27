@@ -42,10 +42,24 @@ VALUES (32739, 67113870, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32739, 2, 38) /* CREATURE_TYPE_INT */
-     , (32739, 25, 160) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32739, 14, 'Use this essence to summon or dismiss your Fire Phyntos Wasp.') /* USE_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32739, 64, 20000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32739, 33, 0) /* BONDED_INT */
+     , (32739, 369, 115) /* USE_REQUIRES_LEVEL_INT */
+     , (32739, 114, 0) /* ATTUNED_INT */
+     , (32739, 19, 7000) /* VALUE_INT */
+     , (32739, 5, 50) /* ENCUMB_VAL_INT */
+     , (32739, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (32739, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (32739, 91, 50) /* MAX_STRUCTURE_INT */
+     , (32739, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (32739, 367, 430) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32739, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32739, 69, 1) /* IS_SELLABLE_BOOL */;
 

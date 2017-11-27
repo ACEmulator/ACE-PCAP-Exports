@@ -37,3 +37,17 @@ VALUES (1634, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1634, 1, True) /* STUCK_BOOL */
      , (1634, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1634, 16, 'Killed by Manda Molak.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1634, 19, 0) /* VALUE_INT */
+     , (1634, 5, 6000) /* ENCUMB_VAL_INT */;
+
+/* Object Wield List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (1634, 2, 29976) /* Spadone */;
+

@@ -50,6 +50,17 @@ VALUES (48020, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48020, 0, 16777895);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48020, 14, 'Use this item on a locked door or chest to pick the lock.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48020, 19, 500) /* VALUE_INT */
+     , (48020, 5, 50) /* ENCUMB_VAL_INT */
+     , (48020, 91, 35) /* MAX_STRUCTURE_INT */
+     , (48020, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

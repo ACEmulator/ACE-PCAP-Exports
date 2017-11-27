@@ -35,3 +35,24 @@ VALUES (32637, 13, True) /* ETHEREAL_BOOL */
      , (32637, 19, True) /* ATTACKABLE_BOOL */
      , (32637, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32637, 16, 'Gem of Strength') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32637, 19, 1202) /* VALUE_INT */
+     , (32637, 131, 12) /* MATERIAL_TYPE_INT */
+     , (32637, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (32637, 5, 5) /* ENCUMB_VAL_INT */
+     , (32637, 117, 300) /* ITEM_MANA_COST_INT */
+     , (32637, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (32637, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (32637, 108, 434) /* ITEM_MAX_MANA_INT */
+     , (32637, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (32637, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (32637, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (32637, 1331) /* StrengthSelf5_SpellID */;
+

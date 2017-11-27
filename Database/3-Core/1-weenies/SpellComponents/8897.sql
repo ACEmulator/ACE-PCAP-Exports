@@ -48,8 +48,8 @@ VALUES (8897, 0, 16780734);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8897, 33, 1) /* BONDED_INT */
-     , (8897, 19, 200000) /* VALUE_INT */
-     , (8897, 5, 80) /* ENCUMB_VAL_INT */;
+     , (8897, 19, 10000) /* VALUE_INT */
+     , (8897, 5, 4) /* ENCUMB_VAL_INT */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

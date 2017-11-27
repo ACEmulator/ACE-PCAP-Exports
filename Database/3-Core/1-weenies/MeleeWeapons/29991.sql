@@ -34,3 +34,29 @@ VALUES (29991, 13, True) /* ETHEREAL_BOOL */
      , (29991, 19, True) /* ATTACKABLE_BOOL */
      , (29991, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29991, 16, 'Heavy Bracelet of Bludgeon Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29991, 177, 2) /* GEM_COUNT_INT */
+     , (29991, 178, 39) /* GEM_TYPE_INT */
+     , (29991, 19, 17456) /* VALUE_INT */
+     , (29991, 131, 13) /* MATERIAL_TYPE_INT */
+     , (29991, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (29991, 5, 150) /* ENCUMB_VAL_INT */
+     , (29991, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (29991, 106, 294) /* ITEM_SPELLCRAFT_INT */
+     , (29991, 108, 1867) /* ITEM_MAX_MANA_INT */
+     , (29991, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (29991, 109, 303) /* ITEM_DIFFICULTY_INT */
+     , (29991, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29991, 5, -0.05555556) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (29991, 2153) /* BludgeonProtectionSelf7_SpellID */
+     , (29991, 2553) /* CANTRIPJUMPINGPROWESS1_SpellID */;
+

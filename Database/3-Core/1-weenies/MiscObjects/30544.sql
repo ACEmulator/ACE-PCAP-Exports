@@ -34,3 +34,14 @@ VALUES (30544, 13, True) /* ETHEREAL_BOOL */
      , (30544, 19, True) /* ATTACKABLE_BOOL */
      , (30544, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30544, 16, 'This paring knife was made by Lubziklan al-Luq specifically to cut cove apples for his delicious cove apple pies. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30544, 33, 1) /* BONDED_INT */
+     , (30544, 114, 1) /* ATTUNED_INT */
+     , (30544, 19, 0) /* VALUE_INT */
+     , (30544, 5, 10) /* ENCUMB_VAL_INT */;
+

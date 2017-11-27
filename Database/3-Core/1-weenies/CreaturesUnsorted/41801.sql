@@ -39,6 +39,23 @@ VALUES (41801, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41801, 67115264, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41801, 14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* USE_STRING */
+     , (41801, 38, 'Gateway') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41801, 86, 25) /* MIN_LEVEL_INT */
+     , (41801, 87, -1) /* MAX_LEVEL_INT */
+     , (41801, 26, 0) /* ACCOUNT_REQUIREMENTS_INT */
+     , (41801, 111, 17) /* PORTAL_BITMASK_INT */;
+
+/* Object Wield List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41801, 2, 33459) /* Shadow Bolt */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

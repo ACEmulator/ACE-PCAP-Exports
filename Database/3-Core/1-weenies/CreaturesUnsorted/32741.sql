@@ -42,10 +42,10 @@ VALUES (32741, 67113872, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32741, 2, 42) /* CREATURE_TYPE_INT */
-     , (32741, 25, 160) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32741, 16, 'Killed by Mag-four.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32741, 64, 19800) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32741, 19, 0) /* VALUE_INT */
+     , (32741, 5, 6306) /* ENCUMB_VAL_INT */;
 

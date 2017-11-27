@@ -47,3 +47,38 @@ VALUES (47898, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47898, 0, 16777885);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47898, 16, 'Nether Baton of Curse Destruction') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47898, 160, 310) /* WIELD_DIFFICULTY_INT */
+     , (47898, 177, 3) /* GEM_COUNT_INT */
+     , (47898, 178, 34) /* GEM_TYPE_INT */
+     , (47898, 19, 10995) /* VALUE_INT */
+     , (47898, 131, 23) /* MATERIAL_TYPE_INT */
+     , (47898, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (47898, 5, 50) /* ENCUMB_VAL_INT */
+     , (47898, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (47898, 106, 309) /* ITEM_SPELLCRAFT_INT */
+     , (47898, 108, 3001) /* ITEM_MAX_MANA_INT */
+     , (47898, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (47898, 109, 309) /* ITEM_DIFFICULTY_INT */
+     , (47898, 45, 1024) /* DAMAGE_TYPE_INT */
+     , (47898, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (47898, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (47898, 159, 43) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (47898, 144, 0.08) /* MANA_CONVERSION_MOD_FLOAT */
+     , (47898, 152, 1.04) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (47898, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (47898, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (47898, 150, 1.02) /* WEAPON_MAGIC_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (47898, 5343) /* CurseDestructionOther5_SpellID */
+     , (47898, 1479) /* TrueValue5_SpellID */
+     , (47898, 3259) /* SpiritDrinker7_SpellID */;
+

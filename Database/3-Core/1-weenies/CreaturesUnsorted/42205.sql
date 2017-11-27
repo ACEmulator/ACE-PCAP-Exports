@@ -87,3 +87,27 @@ VALUES (42205, 16, 16795662)
      , (42205, 4, 16781838)
      , (42205, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42205, 16, 'Slashing Baton') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42205, 160, 290) /* WIELD_DIFFICULTY_INT */
+     , (42205, 177, 1) /* GEM_COUNT_INT */
+     , (42205, 178, 29) /* GEM_TYPE_INT */
+     , (42205, 19, 977) /* VALUE_INT */
+     , (42205, 131, 63) /* MATERIAL_TYPE_INT */
+     , (42205, 5, 50) /* ENCUMB_VAL_INT */
+     , (42205, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (42205, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (42205, 45, 1) /* DAMAGE_TYPE_INT */
+     , (42205, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (42205, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42205, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
+     , (42205, 152, 1.03) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (42205, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (42205, 149, 1.01) /* WEAPON_MISSILE_DEFENSE_FLOAT */;
+

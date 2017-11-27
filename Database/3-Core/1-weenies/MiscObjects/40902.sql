@@ -34,3 +34,36 @@ VALUES (40902, 13, True) /* ETHEREAL_BOOL */
      , (40902, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (40902, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40902, 16, 'An ancient Empyrean machine. It appears to be locking something.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40902, 384, 0) /*  */
+     , (40902, 370, 0) /* GEAR_DAMAGE_INT */
+     , (40902, 386, 0) /*  */
+     , (40902, 19, 0) /* VALUE_INT */
+     , (40902, 307, 0) /* DAMAGE_RATING_INT */
+     , (40902, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (40902, 387, 0) /*  */
+     , (40902, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (40902, 372, 0) /* GEAR_CRIT_INT */
+     , (40902, 388, 0) /*  */
+     , (40902, 5, 500) /* ENCUMB_VAL_INT */
+     , (40902, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (40902, 389, 0) /*  */
+     , (40902, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (40902, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (40902, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (40902, 313, 0) /* CRIT_RATING_INT */
+     , (40902, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (40902, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (40902, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (40902, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (40902, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (40902, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (40902, 381, 0) /*  */
+     , (40902, 382, 0) /*  */
+     , (40902, 383, 0) /*  */;
+

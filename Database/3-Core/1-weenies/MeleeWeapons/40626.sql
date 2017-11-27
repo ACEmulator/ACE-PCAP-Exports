@@ -50,3 +50,41 @@ VALUES (40626, 0, 83898004, 83898004);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40626, 0, 16791977);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40626, 16, 'Flaming Quadrelle of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40626, 176, 41) /* APPRAISAL_ITEM_SKILL_INT */
+     , (40626, 353, 11) /* WEAPON_TYPE_INT */
+     , (40626, 19, 1448) /* VALUE_INT */
+     , (40626, 131, 76) /* MATERIAL_TYPE_INT */
+     , (40626, 115, 121) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (40626, 292, 2) /* CLEAVING_INT */
+     , (40626, 5, 675) /* ENCUMB_VAL_INT */
+     , (40626, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (40626, 106, 101) /* ITEM_SPELLCRAFT_INT */
+     , (40626, 108, 551) /* ITEM_MAX_MANA_INT */
+     , (40626, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40626, 109, 40) /* ITEM_DIFFICULTY_INT */
+     , (40626, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (40626, 47, 4) /* ATTACK_TYPE_INT */
+     , (40626, 45, 16) /* DAMAGE_TYPE_INT */
+     , (40626, 49, 40) /* WEAPON_TIME_INT */
+     , (40626, 48, 41) /* WEAPON_SKILL_INT */
+     , (40626, 44, 10) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40626, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (40626, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (40626, 150, 1.015) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (40626, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (40626, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (40626, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (40626, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (40626, 62, 1.02) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40626, 1613) /* BloodDrinker3_SpellID */;
+

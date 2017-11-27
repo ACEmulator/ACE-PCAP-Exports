@@ -53,3 +53,39 @@ VALUES (49335, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49335, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49335, 16, 'Dinner Plate of Fletching Mastery') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49335, 353, 10) /* WEAPON_TYPE_INT */
+     , (49335, 177, 4) /* GEM_COUNT_INT */
+     , (49335, 178, 20) /* GEM_TYPE_INT */
+     , (49335, 19, 13549) /* VALUE_INT */
+     , (49335, 131, 2) /* MATERIAL_TYPE_INT */
+     , (49335, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (49335, 5, 50) /* ENCUMB_VAL_INT */
+     , (49335, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (49335, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (49335, 108, 1121) /* ITEM_MAX_MANA_INT */
+     , (49335, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (49335, 109, 300) /* ITEM_DIFFICULTY_INT */
+     , (49335, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (49335, 45, 1) /* DAMAGE_TYPE_INT */
+     , (49335, 49, 10) /* WEAPON_TIME_INT */
+     , (49335, 48, 47) /* WEAPON_SKILL_INT */
+     , (49335, 44, 20) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49335, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (49335, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (49335, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (49335, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (49335, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (49335, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (49335, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (49335, 2237) /* FletchingMasterySelf7_SpellID */;
+

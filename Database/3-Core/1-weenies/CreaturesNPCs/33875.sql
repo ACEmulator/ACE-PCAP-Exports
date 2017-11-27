@@ -95,11 +95,11 @@ VALUES (33875, 5, 'Operative') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (33875, 16, 67110064) /* EYES_PALETTE_DID */
-     , (33875, 9, 83890259) /* EYES_TEXTURE_DID */
+     , (33875, 9, 83890255) /* EYES_TEXTURE_DID */
      , (33875, 17, 67115906) /* SKIN_PALETTE_DID */
-     , (33875, 10, 83890317) /* NOSE_TEXTURE_DID */
+     , (33875, 10, 83890316) /* NOSE_TEXTURE_DID */
      , (33875, 11, 83890354) /* MOUTH_TEXTURE_DID */
-     , (33875, 15, 67117023) /* HAIR_PALETTE_DID */;
+     , (33875, 15, 67117076) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33875, 113, 2) /* GENDER_INT */
@@ -108,6 +108,16 @@ VALUES (33875, 113, 2) /* GENDER_INT */
      , (33875, 25, 99) /* LEVEL_INT */
      , (33875, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33875, 1, 180) /* STRENGTH_ATTRIBUTE */
+     , (33875, 2, 160) /* ENDURANCE_ATTRIBUTE */
+     , (33875, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (33875, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (33875, 16, 160) /* FOCUS_ATTRIBUTE */
+     , (33875, 32, 120) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33875, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (33875, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33875, 128, 160) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33875, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 

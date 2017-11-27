@@ -38,10 +38,10 @@ VALUES (45860, 67114794, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45860, 2, 48) /* CREATURE_TYPE_INT */
-     , (45860, 25, 210) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45860, 16, 'Killed by Thrillhouse''s Golem.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (45860, 64, 1300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45860, 19, 0) /* VALUE_INT */
+     , (45860, 5, 7562) /* ENCUMB_VAL_INT */;
 

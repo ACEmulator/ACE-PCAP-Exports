@@ -95,12 +95,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5838, 5, 'MacDugal''s Lieutenant') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5838, 16, 67109565) /* EYES_PALETTE_DID */
-     , (5838, 9, 83890451) /* EYES_TEXTURE_DID */
-     , (5838, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (5838, 10, 83890518) /* NOSE_TEXTURE_DID */
-     , (5838, 11, 83890652) /* MOUTH_TEXTURE_DID */
-     , (5838, 15, 67117025) /* HAIR_PALETTE_DID */;
+VALUES (5838, 16, 67109566) /* EYES_PALETTE_DID */
+     , (5838, 9, 83890516) /* EYES_TEXTURE_DID */
+     , (5838, 17, 67109558) /* SKIN_PALETTE_DID */
+     , (5838, 10, 83890549) /* NOSE_TEXTURE_DID */
+     , (5838, 11, 83890634) /* MOUTH_TEXTURE_DID */
+     , (5838, 15, 67117074) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5838, 113, 1) /* GENDER_INT */
@@ -109,6 +109,16 @@ VALUES (5838, 113, 1) /* GENDER_INT */
      , (5838, 25, 16) /* LEVEL_INT */
      , (5838, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (5838, 1, 180) /* STRENGTH_ATTRIBUTE */
+     , (5838, 2, 170) /* ENDURANCE_ATTRIBUTE */
+     , (5838, 4, 165) /* COORDINATION_ATTRIBUTE */
+     , (5838, 8, 140) /* QUICKNESS_ATTRIBUTE */
+     , (5838, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (5838, 32, 40) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5838, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (5838, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5838, 128, 370) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5838, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
 

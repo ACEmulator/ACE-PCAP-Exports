@@ -35,3 +35,34 @@ VALUES (12011, 13, True) /* ETHEREAL_BOOL */
      , (12011, 19, True) /* ATTACKABLE_BOOL */
      , (12011, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12011, 16, 'A large chunk of volcanic rock with a middle thin enough to grasp.  There is a slot in the rock that you think a haft may be able to fit into.  (Give it to a trophy collector to transform it into an axe)') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12011, 353, 1) /* WEAPON_TYPE_INT */
+     , (12011, 19, 2700) /* VALUE_INT */
+     , (12011, 5, 200) /* ENCUMB_VAL_INT */
+     , (12011, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (12011, 108, 350) /* ITEM_MAX_MANA_INT */
+     , (12011, 109, 110) /* ITEM_DIFFICULTY_INT */
+     , (12011, 47, 1) /* ATTACK_TYPE_INT */
+     , (12011, 45, 1) /* DAMAGE_TYPE_INT */
+     , (12011, 49, 20) /* WEAPON_TIME_INT */
+     , (12011, 48, 45) /* WEAPON_SKILL_INT */
+     , (12011, 44, 25) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12011, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (12011, 5, -0.017) /* MANA_RATE_FLOAT */
+     , (12011, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
+     , (12011, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (12011, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12011, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12011, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12011, 1625) /* SwiftKiller4_SpellID */
+     , (12011, 1021) /* BludgeonProtectionSelf4_SpellID */;
+

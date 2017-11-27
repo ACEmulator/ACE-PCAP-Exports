@@ -49,17 +49,26 @@ VALUES (129, 0, 16778416);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (129, 16, 'Well-crafted Leather Sandals ') /* LONG_DESC_STRING */;
+VALUES (129, 16, 'Sandals of Arcane Enlightenment') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (129, 131, 52) /* MATERIAL_TYPE_INT */
-     , (129, 19, 57) /* VALUE_INT */
-     , (129, 5, 90) /* ENCUMB_VAL_INT */
-     , (129, 105, 2) /* ITEM_WORKMANSHIP_INT */
-     , (129, 28, 20) /* ARMOR_LEVEL_INT */;
+VALUES (129, 177, 2) /* GEM_COUNT_INT */
+     , (129, 178, 45) /* GEM_TYPE_INT */
+     , (129, 19, 10176) /* VALUE_INT */
+     , (129, 131, 52) /* MATERIAL_TYPE_INT */
+     , (129, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (129, 5, 61) /* ENCUMB_VAL_INT */
+     , (129, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (129, 106, 212) /* ITEM_SPELLCRAFT_INT */
+     , (129, 28, 257) /* ARMOR_LEVEL_INT */
+     , (129, 108, 481) /* ITEM_MAX_MANA_INT */
+     , (129, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (129, 109, 212) /* ITEM_DIFFICULTY_INT */
+     , (129, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (129, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+VALUES (129, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (129, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (129, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
      , (129, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
      , (129, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
@@ -70,4 +79,10 @@ VALUES (129, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (129, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (129, 1539) /* LightningBane5_SpellID */
+     , (129, 1485) /* Impenetrability5_SpellID */
+     , (129, 1551) /* FlameBane5_SpellID */
+     , (129, 682) /* ArcaneEnlightenmentSelf5_SpellID */;
 

@@ -35,3 +35,17 @@ VALUES (28008, 13, True) /* ETHEREAL_BOOL */
      , (28008, 19, True) /* ATTACKABLE_BOOL */
      , (28008, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28008, 16, 'Inscribed spell: Aura of Infected Spirit Caress
+Increases the elemental damage bonus of an elemental magic caster by 7%.') /* LONG_DESC_STRING */
+     , (28008, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28008, 19, 2000) /* VALUE_INT */
+     , (28008, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28008, 3259) /* SpiritDrinker7_SpellID */;
+

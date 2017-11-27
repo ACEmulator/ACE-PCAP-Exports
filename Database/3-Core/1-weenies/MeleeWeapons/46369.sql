@@ -38,3 +38,13 @@ VALUES (46369, 13, True) /* ETHEREAL_BOOL */
      , (46369, 19, True) /* ATTACKABLE_BOOL */
      , (46369, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46369, 16, 'A concentrated copper pea.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46369, 33, 1) /* BONDED_INT */
+     , (46369, 19, 5000) /* VALUE_INT */
+     , (46369, 5, 10) /* ENCUMB_VAL_INT */;
+

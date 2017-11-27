@@ -54,3 +54,42 @@ VALUES (41916, 0, 83893489, 83893489)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41916, 0, 16786132);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41916, 16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41916, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (41916, 353, 3) /* WEAPON_TYPE_INT */
+     , (41916, 19, 25000) /* VALUE_INT */
+     , (41916, 5, 600) /* ENCUMB_VAL_INT */
+     , (41916, 166, 6) /* SLAYER_CREATURE_TYPE_INT */
+     , (41916, 263, 1) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (41916, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (41916, 108, 600) /* ITEM_MAX_MANA_INT */
+     , (41916, 109, 120) /* ITEM_DIFFICULTY_INT */
+     , (41916, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41916, 47, 4) /* ATTACK_TYPE_INT */
+     , (41916, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (41916, 45, 1) /* DAMAGE_TYPE_INT */
+     , (41916, 49, 40) /* WEAPON_TIME_INT */
+     , (41916, 48, 44) /* WEAPON_SKILL_INT */
+     , (41916, 44, 58) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41916, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (41916, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (41916, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (41916, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (41916, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (41916, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41916, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41916, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41916, 2004) /* WarriorsVitality_SpellID */
+     , (41916, 2087) /* StrengthSelf7_SpellID */
+     , (41916, 2096) /* BloodDrinker7_SpellID */
+     , (41916, 2106) /* Heartseeker7_SpellID */;
+

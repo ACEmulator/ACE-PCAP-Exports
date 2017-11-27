@@ -34,3 +34,11 @@ VALUES (3606, 13, True) /* ETHEREAL_BOOL */
      , (3606, 14, True) /* GRAVITY_STATUS_BOOL */
      , (3606, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3606, 19, 5) /* VALUE_INT */
+     , (3606, 5, 25) /* ENCUMB_VAL_INT */
+     , (3606, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (3606, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

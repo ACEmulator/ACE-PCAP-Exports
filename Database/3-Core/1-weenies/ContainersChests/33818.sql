@@ -43,7 +43,7 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (33818, 14, 'Use the Shadow Chest Key to unlock this cache.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33818, 5, 13006) /* ENCUMB_VAL_INT */;
+VALUES (33818, 5, 11916) /* ENCUMB_VAL_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (33818, 2, 0) /* OPEN_BOOL */

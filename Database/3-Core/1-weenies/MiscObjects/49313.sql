@@ -53,3 +53,17 @@ VALUES (49313, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49313, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49313, 14, 'Apply this material to a Minor, Moderate or Major Armature to prepare it. Then apply this material to the prepared Armature. This Armature can then be used on a magical loot-generated Trinket to add Minor, Moderate or Major Augmented Health. This also increases the Spellcraft and Arcane Lore of the trinket by 25.') /* USE_STRING */
+     , (49313, 15, 'Chips of ruby material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49313, 33, 1) /* BONDED_INT */
+     , (49313, 131, 38) /* MATERIAL_TYPE_INT */
+     , (49313, 19, 15733) /* VALUE_INT */
+     , (49313, 5, 100) /* ENCUMB_VAL_INT */
+     , (49313, 105, 73) /* ITEM_WORKMANSHIP_INT */
+     , (49313, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
+

@@ -37,12 +37,14 @@ VALUES (44480, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44480, 2, 22) /* CREATURE_TYPE_INT */
-     , (44480, 25, 240) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44480, 14, 'Use this item on a locked door or chest to pick the lock.') /* USE_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (44480, 64, 1828) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44480, 19, 3000) /* VALUE_INT */
+     , (44480, 5, 50) /* ENCUMB_VAL_INT */
+     , (44480, 91, 50) /* MAX_STRUCTURE_INT */
+     , (44480, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
 
 /* Corpse Treasure List */
 

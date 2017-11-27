@@ -45,8 +45,8 @@ VALUES (37155, 0, 16780734);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37155, 33, 1) /* BONDED_INT */
-     , (37155, 19, 300000) /* VALUE_INT */
-     , (37155, 5, 80) /* ENCUMB_VAL_INT */;
+     , (37155, 19, 90000) /* VALUE_INT */
+     , (37155, 5, 24) /* ENCUMB_VAL_INT */;
 
 /* Calculated Burden/Value and Adjusted StackSize Data */
 

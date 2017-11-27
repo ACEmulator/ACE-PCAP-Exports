@@ -35,3 +35,17 @@ VALUES (43365, 13, True) /* ETHEREAL_BOOL */
      , (43365, 19, True) /* ATTACKABLE_BOOL */
      , (43365, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43365, 16, 'Inscribed spell: Void Magic Mastery Other VI
+Increases the target''s Void Magic skill by 35 points.') /* LONG_DESC_STRING */
+     , (43365, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43365, 19, 1000) /* VALUE_INT */
+     , (43365, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43365, 5408) /* VoidMagicMasteryOther6_SpellID */;
+

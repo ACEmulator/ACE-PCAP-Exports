@@ -51,3 +51,31 @@ VALUES (23593, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23593, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23593, 16, 'A robe crafted from a mattekar hide.  It has some natural padding in it that makes it stronger and more resistant to damage.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23593, 19, 6000) /* VALUE_INT */
+     , (23593, 5, 500) /* ENCUMB_VAL_INT */
+     , (23593, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (23593, 108, 1320) /* ITEM_MAX_MANA_INT */
+     , (23593, 28, 100) /* ARMOR_LEVEL_INT */
+     , (23593, 109, 100) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23593, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (23593, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (23593, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (23593, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (23593, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (23593, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (23593, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (23593, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (23593, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23593, 1484) /* Impenetrability4_SpellID */
+     , (23593, 1330) /* StrengthSelf4_SpellID */;
+

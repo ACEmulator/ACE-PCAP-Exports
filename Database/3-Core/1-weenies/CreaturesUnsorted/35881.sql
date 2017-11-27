@@ -43,12 +43,12 @@ VALUES (35881, 67116825, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35881, 2, 92) /* CREATURE_TYPE_INT */
-     , (35881, 25, 200) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35881, 16, 'Killed by Porcelina.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35881, 64, 2090) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35881, 19, 0) /* VALUE_INT */
+     , (35881, 5, 6729) /* ENCUMB_VAL_INT */;
 
 /* Corpse Treasure List */
 

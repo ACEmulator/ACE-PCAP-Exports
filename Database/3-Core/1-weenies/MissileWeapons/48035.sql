@@ -50,6 +50,17 @@ VALUES (48035, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48035, 0, 16777895);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48035, 19, 120) /* VALUE_INT */
+     , (48035, 5, 50) /* ENCUMB_VAL_INT */
+     , (48035, 90, 100) /* BOOST_VALUE_INT */
+     , (48035, 91, 30) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (48035, 100, 1) /* HEALKIT_MOD_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

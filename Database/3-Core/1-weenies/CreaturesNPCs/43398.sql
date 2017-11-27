@@ -102,12 +102,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (43398, 5, 'Seer of the Yalain') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43398, 16, 67116856) /* EYES_PALETTE_DID */
-     , (43398, 9, 83890281) /* EYES_TEXTURE_DID */
-     , (43398, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (43398, 10, 83890308) /* NOSE_TEXTURE_DID */
-     , (43398, 11, 83890336) /* MOUTH_TEXTURE_DID */
-     , (43398, 15, 67117026) /* HAIR_PALETTE_DID */;
+VALUES (43398, 16, 67116855) /* EYES_PALETTE_DID */
+     , (43398, 9, 83890282) /* EYES_TEXTURE_DID */
+     , (43398, 17, 67116958) /* SKIN_PALETTE_DID */
+     , (43398, 10, 83890302) /* NOSE_TEXTURE_DID */
+     , (43398, 11, 83890357) /* MOUTH_TEXTURE_DID */
+     , (43398, 15, 67117016) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43398, 113, 2) /* GENDER_INT */
@@ -116,6 +116,16 @@ VALUES (43398, 113, 2) /* GENDER_INT */
      , (43398, 25, 600) /* LEVEL_INT */
      , (43398, 188, 9) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (43398, 1, 400) /* STRENGTH_ATTRIBUTE */
+     , (43398, 2, 610) /* ENDURANCE_ATTRIBUTE */
+     , (43398, 4, 300) /* COORDINATION_ATTRIBUTE */
+     , (43398, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (43398, 16, 500) /* FOCUS_ATTRIBUTE */
+     , (43398, 32, 600) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43398, 64, 700) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (43398, 64, 700) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (43398, 128, 900) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (43398, 256, 4000) /* MAX_MANA_ATTRIBUTE_2ND */;
 

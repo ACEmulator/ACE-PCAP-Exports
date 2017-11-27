@@ -46,12 +46,12 @@ VALUES (30687, 67116650, 1, 48)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30687, 2, 6) /* CREATURE_TYPE_INT */
-     , (30687, 25, 160) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30687, 16, 'Killed by Ferah Palacost.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30687, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30687, 19, 0) /* VALUE_INT */
+     , (30687, 5, 6319) /* ENCUMB_VAL_INT */;
 
 /* Corpse Treasure List */
 

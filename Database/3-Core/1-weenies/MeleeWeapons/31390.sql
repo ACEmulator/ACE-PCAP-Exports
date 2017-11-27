@@ -45,3 +45,43 @@ VALUES (31390, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31390, 0, 16791843);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31390, 16, 'Chainmail Shirt') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31390, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31390, 19, 22804) /* VALUE_INT */
+     , (31390, 131, 58) /* MATERIAL_TYPE_INT */
+     , (31390, 115, 230) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31390, 5, 1132) /* ENCUMB_VAL_INT */
+     , (31390, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (31390, 106, 310) /* ITEM_SPELLCRAFT_INT */
+     , (31390, 28, 263) /* ARMOR_LEVEL_INT */
+     , (31390, 108, 934) /* ITEM_MAX_MANA_INT */
+     , (31390, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31390, 109, 203) /* ITEM_DIFFICULTY_INT */
+     , (31390, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31390, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (31390, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (31390, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (31390, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (31390, 16, 1.087336) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (31390, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (31390, 18, 0.9919782) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (31390, 19, 0.9228958) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (31390, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31390, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31390, 1540) /* LightningBane6_SpellID */
+     , (31390, 2579) /* CANTRIPCOORDINATION1_SpellID */
+     , (31390, 1498) /* AcidBane6_SpellID */
+     , (31390, 1574) /* PiercingBane6_SpellID */
+     , (31390, 2108) /* Impenetrability7_SpellID */;
+

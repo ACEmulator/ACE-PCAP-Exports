@@ -49,6 +49,27 @@ VALUES (3600, 67111925, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3600, 0, 16777887);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3600, 19, 1180) /* VALUE_INT */
+     , (3600, 5, 2950) /* ENCUMB_VAL_INT */
+     , (3600, 45, 1) /* DAMAGE_TYPE_INT */
+     , (3600, 49, -1) /* WEAPON_TIME_INT */
+     , (3600, 48, 0) /* WEAPON_SKILL_INT */
+     , (3600, 44, 9) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3600, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (3600, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (3600, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3600, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3600, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3600, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (3600, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

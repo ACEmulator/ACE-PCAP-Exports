@@ -35,3 +35,17 @@ VALUES (3035, 13, True) /* ETHEREAL_BOOL */
      , (3035, 19, True) /* ATTACKABLE_BOOL */
      , (3035, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3035, 16, 'Inscribed spell: Fire Protection Other IV
+Reduces damage the target takes from fire by 43%.') /* LONG_DESC_STRING */
+     , (3035, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3035, 19, 100) /* VALUE_INT */
+     , (3035, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3035, 849) /* FireProtectionOther4_SpellID */;
+

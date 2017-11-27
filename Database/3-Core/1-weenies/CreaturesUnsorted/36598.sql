@@ -97,22 +97,17 @@ VALUES (36598, 16, 16795665)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (36598, 16, 67109567) /* EYES_PALETTE_DID */
-     , (36598, 9, 83890457) /* EYES_TEXTURE_DID */
-     , (36598, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (36598, 10, 83890557) /* NOSE_TEXTURE_DID */
-     , (36598, 11, 83890642) /* MOUTH_TEXTURE_DID */
-     , (36598, 15, 67117072) /* HAIR_PALETTE_DID */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36598, 16, 'Inscribed spell: Avalenne''s Blessing
+Increases the caster''s Healing skill by 40 points.') /* LONG_DESC_STRING */
+     , (36598, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36598, 113, 1) /* GENDER_INT */
-     , (36598, 2, 59) /* CREATURE_TYPE_INT */
-     , (36598, 25, 185) /* LEVEL_INT */
-     , (36598, 188, 1) /* HERITAGE_GROUP_INT */;
+VALUES (36598, 19, 2000) /* VALUE_INT */
+     , (36598, 5, 30) /* ENCUMB_VAL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36598, 64, 1200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (36598, 2241) /* HealingMasterySelf7_SpellID */;
 
 /* Corpse Treasure List */
 

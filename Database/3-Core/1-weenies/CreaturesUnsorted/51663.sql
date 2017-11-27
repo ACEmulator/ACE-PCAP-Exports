@@ -47,10 +47,10 @@ VALUES (51663, 67116865, 0, 24)
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (51663, 16, 67116892) /* EYES_PALETTE_DID */
      , (51663, 9, 83891927) /* EYES_TEXTURE_DID */
-     , (51663, 17, 67116921) /* SKIN_PALETTE_DID */
+     , (51663, 17, 67116897) /* SKIN_PALETTE_DID */
      , (51663, 10, 83891927) /* NOSE_TEXTURE_DID */
      , (51663, 11, 83891927) /* MOUTH_TEXTURE_DID */
-     , (51663, 15, 67116861) /* HAIR_PALETTE_DID */;
+     , (51663, 15, 67116875) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51663, 113, 1) /* GENDER_INT */

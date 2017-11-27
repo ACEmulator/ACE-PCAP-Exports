@@ -111,20 +111,10 @@ VALUES (32791, 5, 16788087)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32791, 16, 67109564) /* EYES_PALETTE_DID */
-     , (32791, 9, 83890258) /* EYES_TEXTURE_DID */
-     , (32791, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (32791, 10, 83890302) /* NOSE_TEXTURE_DID */
-     , (32791, 11, 83890352) /* MOUTH_TEXTURE_DID */
-     , (32791, 15, 67117021) /* HAIR_PALETTE_DID */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32791, 16, 'Killed by Mag-five.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32791, 113, 2) /* GENDER_INT */
-     , (32791, 2, 22) /* CREATURE_TYPE_INT */
-     , (32791, 25, 160) /* LEVEL_INT */
-     , (32791, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32791, 64, 750) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (32791, 19, 0) /* VALUE_INT */
+     , (32791, 5, 6105) /* ENCUMB_VAL_INT */;
 

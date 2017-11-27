@@ -47,3 +47,30 @@ VALUES (47731, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47731, 0, 16777955);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47731, 14, 'Use this essence to summon or dismiss your Acid Moar.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47731, 33, 0) /* BONDED_INT */
+     , (47731, 369, 90) /* USE_REQUIRES_LEVEL_INT */
+     , (47731, 114, 0) /* ATTUNED_INT */
+     , (47731, 370, 10) /* GEAR_DAMAGE_INT */
+     , (47731, 19, 6000) /* VALUE_INT */
+     , (47731, 371, 9) /* GEAR_DAMAGE_RESIST_INT */
+     , (47731, 372, 15) /* GEAR_CRIT_INT */
+     , (47731, 5, 50) /* ENCUMB_VAL_INT */
+     , (47731, 375, 8) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (47731, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (47731, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (47731, 91, 50) /* MAX_STRUCTURE_INT */
+     , (47731, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (47731, 367, 400) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (47731, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47731, 69, 1) /* IS_SELLABLE_BOOL */;
+

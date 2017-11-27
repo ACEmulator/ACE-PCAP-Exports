@@ -50,3 +50,14 @@ VALUES (12076, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12076, 0, 16777934);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12076, 16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12076, 33, 1) /* BONDED_INT */
+     , (12076, 114, 1) /* ATTUNED_INT */
+     , (12076, 19, 0) /* VALUE_INT */
+     , (12076, 5, 10) /* ENCUMB_VAL_INT */;
+

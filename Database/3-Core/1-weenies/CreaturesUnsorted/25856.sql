@@ -36,6 +36,15 @@ VALUES (25856, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25856, 19, True) /* ATTACKABLE_BOOL */
      , (25856, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25856, 16, 'Killed by fate.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25856, 19, 0) /* VALUE_INT */
+     , (25856, 5, 6110) /* ENCUMB_VAL_INT */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -75,7 +75,10 @@ VALUES (29491, 12, 16777304)
 
 /* Extended Appraisal Data */
 
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29491, 16, 'Killed by Mag-nus.') /* LONG_DESC_STRING */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29491, 19, 5) /* VALUE_INT */
-     , (29491, 5, 75) /* ENCUMB_VAL_INT */;
+VALUES (29491, 19, 0) /* VALUE_INT */
+     , (29491, 5, 7001) /* ENCUMB_VAL_INT */;
 

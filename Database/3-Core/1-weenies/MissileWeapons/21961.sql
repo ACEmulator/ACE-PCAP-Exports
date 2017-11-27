@@ -61,3 +61,32 @@ VALUES (21961, 0, 16779360)
      , (21961, 3, 16779362)
      , (21961, 4, 16779357);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21961, 16, 'A bow crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21961, 33, 1) /* BONDED_INT */
+     , (21961, 353, 8) /* WEAPON_TYPE_INT */
+     , (21961, 114, 0) /* ATTUNED_INT */
+     , (21961, 19, 4000) /* VALUE_INT */
+     , (21961, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21961, 5, 450) /* ENCUMB_VAL_INT */
+     , (21961, 45, 0) /* DAMAGE_TYPE_INT */
+     , (21961, 49, 30) /* WEAPON_TIME_INT */
+     , (21961, 48, 47) /* WEAPON_SKILL_INT */
+     , (21961, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21961, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (21961, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (21961, 63, 3) /* DAMAGE_MOD_FLOAT */
+     , (21961, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (21961, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (21961, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21961, 99, 1) /* IVORYABLE_BOOL */
+     , (21961, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+

@@ -36,6 +36,18 @@ VALUES (43817, 13, True) /* ETHEREAL_BOOL */
      , (43817, 19, True) /* ATTACKABLE_BOOL */
      , (43817, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43817, 16, 'A fragile black crystal enshrouded in nether. It looks like it can be fitted into a Perfect Isparian Wand.') /* LONG_DESC_STRING */
+     , (43817, 14, 'Use this stone on a Perfect Isparian Wand to create a Shadownether Isparian Wand. *Note: This change is permanent, and cannot be undone.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43817, 33, 1) /* BONDED_INT */
+     , (43817, 114, 1) /* ATTUNED_INT */
+     , (43817, 19, 5000) /* VALUE_INT */
+     , (43817, 5, 5) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

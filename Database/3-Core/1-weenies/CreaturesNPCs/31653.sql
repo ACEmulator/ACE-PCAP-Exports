@@ -92,12 +92,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31653, 5, 'Mosswart Worshipper Whipper') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31653, 16, 67110064) /* EYES_PALETTE_DID */
-     , (31653, 9, 83890445) /* EYES_TEXTURE_DID */
-     , (31653, 17, 67115903) /* SKIN_PALETTE_DID */
-     , (31653, 10, 83890558) /* NOSE_TEXTURE_DID */
-     , (31653, 11, 83890666) /* MOUTH_TEXTURE_DID */
-     , (31653, 15, 67117095) /* HAIR_PALETTE_DID */;
+VALUES (31653, 16, 67109564) /* EYES_PALETTE_DID */
+     , (31653, 9, 83890494) /* EYES_TEXTURE_DID */
+     , (31653, 17, 67115904) /* SKIN_PALETTE_DID */
+     , (31653, 10, 83890553) /* NOSE_TEXTURE_DID */
+     , (31653, 11, 83890663) /* MOUTH_TEXTURE_DID */
+     , (31653, 15, 67117020) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31653, 113, 1) /* GENDER_INT */
@@ -106,6 +106,16 @@ VALUES (31653, 113, 1) /* GENDER_INT */
      , (31653, 25, 142) /* LEVEL_INT */
      , (31653, 188, 4) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31653, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (31653, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (31653, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (31653, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (31653, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (31653, 32, 130) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31653, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (31653, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31653, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31653, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 

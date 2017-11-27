@@ -34,3 +34,25 @@ VALUES (1514, 13, True) /* ETHEREAL_BOOL */
      , (1514, 14, True) /* GRAVITY_STATUS_BOOL */
      , (1514, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1514, 19, 5) /* VALUE_INT */
+     , (1514, 5, 25) /* ENCUMB_VAL_INT */
+     , (1514, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (1514, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1514, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (1514, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (1514, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (1514, 0, 'Rumor', 'prewritten', 4294967295, 0, '
+One of the barkeeps in one of the towns knows more about the keys newcomers collect, or so I hear. I don''t recall which town, though. I know only that it is not one of the towns where newcomers arrive, nor was it a capital city, but it was very prosperous, and I seem to remember that it was a Gharu town.
+');
+

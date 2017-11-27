@@ -33,3 +33,13 @@ VALUES (34963, 13, True) /* ETHEREAL_BOOL */
      , (34963, 19, True) /* ATTACKABLE_BOOL */
      , (34963, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34963, 16, 'A strange piece of bone and dirt with strange dark red stains.') /* LONG_DESC_STRING */
+     , (34963, 14, 'Use an intricate carving tool to carve this into something useful.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34963, 19, 0) /* VALUE_INT */
+     , (34963, 5, 20) /* ENCUMB_VAL_INT */;
+

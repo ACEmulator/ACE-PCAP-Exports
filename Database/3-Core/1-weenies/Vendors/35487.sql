@@ -115,6 +115,65 @@ VALUES (35487, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (35487, 128, 165) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (35487, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35487, 57, 35383) /* ALTERNATE_CURRENCY_DID - Ancient Mhoire Coins */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35487, 74, 0) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (35487, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (35487, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35487, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (35487, 38, 1) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35487, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (35487, 4, 41508) /* Major Item Tinkering Armature */
+     , (35487, 4, 35500) /* Spectral Chill Arrow Bundle */
+     , (35487, 4, 35619) /* Spectral Chill Atlatl Dart Bundle */
+     , (35487, 4, 35620) /* Spectral Chill Bolt Bundle */
+     , (35487, 4, 35491) /* Maelstrom of Souls Gem */
+     , (35487, 4, 35492) /* Gem of Spectral Force */
+     , (35487, 4, 36629) /* Spectral Shield Armor Augmentation */
+     , (35487, 4, 36631) /* Magic Defense Weapon Augmentation */
+     , (35487, 4, 37539) /* Spectral Binding Stone */
+     , (35487, 4, 36013) /* Spectral Light Weapon Mastery Crystal */
+     , (35487, 4, 36015) /* Spectral Missile Weapon Mastery Crystal */
+     , (35487, 4, 36017) /* Spectral Finesse Weapon Mastery Crystal */
+     , (35487, 4, 36021) /* Spectral Heavy Weapon Mastery Crystal */
+     , (35487, 4, 36024) /* Spectral Crystal of the Hieromancer */
+     , (35487, 4, 36708) /* Spectral Crystal of the Life Giver */
+     , (35487, 4, 41745) /* Spectral Two Handed Mastery Crystal */
+     , (35487, 4, 43408) /* Spectral Crystal of the Corruptor */
+     , (35487, 4, 45356) /* Spectral Dirty Fighting Mastery Crystal */
+     , (35487, 4, 45358) /* Spectral Recklessness Mastery Crystal */
+     , (35487, 4, 45357) /* Spectral Dual Wield Mastery Crystal */
+     , (35487, 4, 45359) /* Spectral Sneak Attack Mastery Crystal */
+     , (35487, 4, 42038) /* Spectral Skull */
+     , (35487, 4, 41877) /* Sealed Bag of Salvaged Sapphire */
+     , (35487, 4, 41862) /* Sealed Bag of Salvaged Amber */
+     , (35487, 4, 41865) /* Sealed Bag of Salvaged Diamond */
+     , (35487, 4, 41868) /* Sealed Bag of Salvaged Gromnie Hide */
+     , (35487, 4, 41871) /* Sealed Bag of Salvaged Pyreal */
+     , (35487, 4, 41874) /* Sealed Bag of Salvaged Ruby */
+     , (35487, 4, 35981) /* Scroll of Ancient Graveyard Recall */
+     , (35487, 4, 35377) /* Replica BloodScorch */
+     , (35487, 4, 40652) /* Great BloodScorch */
+     , (35487, 4, 38809) /* Ancient Emblem of Mhoire */
+     , (35487, 4, 39979) /* Ceremonial Leggings */
+     , (35487, 4, 39980) /* Ceremonial Tunic */
+     , (35487, 4, 40141) /* Tome of Chill */
+     , (35487, 4, 40606) /* Armor Upgrade Kit Containment Gem */
+     , (35487, 4, 41918) /* Weapon Upgrade Kit Containment Gem */
+     , (35487, 4, 40516) /* Inert Skeletonbane Infusion */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

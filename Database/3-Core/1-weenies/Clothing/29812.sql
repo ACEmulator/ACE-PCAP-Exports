@@ -58,8 +58,8 @@ VALUES (29812, 16, 'A formal gown woven from the plumes of a Littoral Siraluun.'
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29812, 19, 3000) /* VALUE_INT */
      , (29812, 5, 750) /* ENCUMB_VAL_INT */
-     , (29812, 108, 800) /* ITEM_MAX_MANA_INT */
      , (29812, 28, 100) /* ARMOR_LEVEL_INT */
+     , (29812, 108, 800) /* ITEM_MAX_MANA_INT */
      , (29812, 109, 80) /* ITEM_DIFFICULTY_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)

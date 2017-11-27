@@ -46,6 +46,21 @@ VALUES (35492, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35492, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35492, 16, 'A gem imbued with spectral energy. An angry red core can be seen swirling within.') /* LONG_DESC_STRING */
+     , (35492, 14, 'Use this gem on any loot-generated melee weapon to raise its damage by 1. This effect stacks with tinkering effects.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35492, 33, 1) /* BONDED_INT */
+     , (35492, 114, 1) /* ATTUNED_INT */
+     , (35492, 19, 25) /* VALUE_INT */
+     , (35492, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35492, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

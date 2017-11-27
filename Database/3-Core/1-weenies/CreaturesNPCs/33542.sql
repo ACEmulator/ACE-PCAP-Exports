@@ -111,17 +111,20 @@ VALUES (33542, 5, 'Emissary of Isin Dule') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (33542, 2, 22) /* CREATURE_TYPE_INT */
+     , (33542, 307, 5) /* DAMAGE_RATING_INT */
      , (33542, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (33542, 25, 150) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33542, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (33542, 2, 165) /* ENDURANCE_ATTRIBUTE */
+     , (33542, 4, 255) /* COORDINATION_ATTRIBUTE */
+     , (33542, 8, 255) /* QUICKNESS_ATTRIBUTE */
+     , (33542, 16, 165) /* FOCUS_ATTRIBUTE */
+     , (33542, 32, 165) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33542, 64, 233) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Object Wield List */
-
-/* Object Wield List */
-
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (33542, 2, 33106) /* Shield of Isin Dule */
-     , (33542, 2, 33080) /* Shadow Blade */;
+VALUES (33542, 64, 233) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33542, 128, 280) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33542, 256, 290) /* MAX_MANA_ATTRIBUTE_2ND */;
 

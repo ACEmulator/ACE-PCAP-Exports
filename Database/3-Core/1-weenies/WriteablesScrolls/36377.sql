@@ -38,16 +38,9 @@ VALUES (36377, 13, True) /* ETHEREAL_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36377, 16, 'Inscribed spell: Paradox-touched Olthoi Infested Area Recall
-Transports the caster to the area infested by the Paradox-touched Olthoi.') /* LONG_DESC_STRING */
-     , (36377, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+VALUES (36377, 16, 'Killed by Sheetguys.') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36377, 33, 1) /* BONDED_INT */
-     , (36377, 114, 1) /* ATTUNED_INT */
-     , (36377, 19, 5) /* VALUE_INT */
-     , (36377, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (36377, 4198) /* InfestedAreaRecall_SpellID */;
+VALUES (36377, 19, 0) /* VALUE_INT */
+     , (36377, 5, 6702) /* ENCUMB_VAL_INT */;
 

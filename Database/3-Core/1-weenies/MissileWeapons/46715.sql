@@ -43,6 +43,20 @@ VALUES (46715, 13, True) /* ETHEREAL_BOOL */
      , (46715, 19, True) /* ATTACKABLE_BOOL */
      , (46715, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46715, 16, 'Inscribed spell: Heavy Weapon Ineptitude Other IV
+Decreases the target''s Heavy Weapons skill by 25 points.') /* LONG_DESC_STRING */
+     , (46715, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46715, 19, 100) /* VALUE_INT */
+     , (46715, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46715, 427) /* SwordIneptitudeOther4_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

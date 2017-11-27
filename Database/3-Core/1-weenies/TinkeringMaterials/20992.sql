@@ -50,6 +50,20 @@ VALUES (20992, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20992, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20992, 14, 'Apply this material to a magical, treasure-generated item with a heritage activation requirement to change that activation requirement to Viamontian.') /* USE_STRING */
+     , (20992, 15, 'A bolt of satin material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20992, 33, 1) /* BONDED_INT */
+     , (20992, 131, 5) /* MATERIAL_TYPE_INT */
+     , (20992, 19, 127) /* VALUE_INT */
+     , (20992, 5, 100) /* ENCUMB_VAL_INT */
+     , (20992, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (20992, 170, 1) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

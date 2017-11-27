@@ -65,12 +65,13 @@ VALUES (46533, 0, 16793218)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46533, 2, 77) /* CREATURE_TYPE_INT */
-     , (46533, 25, 260) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46533, 16, 'A concentrated copper pea.') /* LONG_DESC_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46533, 64, 3175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46533, 33, 1) /* BONDED_INT */
+     , (46533, 19, 5000) /* VALUE_INT */
+     , (46533, 5, 10) /* ENCUMB_VAL_INT */;
 
 /* Corpse Treasure List */
 

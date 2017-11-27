@@ -36,6 +36,16 @@ VALUES (41419, 13, True) /* ETHEREAL_BOOL */
      , (41419, 19, True) /* ATTACKABLE_BOOL */
      , (41419, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41419, 16, 'A form used to create sheets of metal.') /* LONG_DESC_STRING */
+     , (41419, 14, 'This item is used in Item Tinkering.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41419, 19, 10000) /* VALUE_INT */
+     , (41419, 5, 500) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

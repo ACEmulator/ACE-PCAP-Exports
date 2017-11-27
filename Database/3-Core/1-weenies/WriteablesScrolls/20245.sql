@@ -35,3 +35,17 @@ VALUES (20245, 13, True) /* ETHEREAL_BOOL */
      , (20245, 19, True) /* ATTACKABLE_BOOL */
      , (20245, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20245, 16, 'Inscribed spell: Adja''s Intervention
+Restores 80-150 points of the caster''s Health.') /* LONG_DESC_STRING */
+     , (20245, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20245, 19, 2000) /* VALUE_INT */
+     , (20245, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20245, 2073) /* healself7_SpellID */;
+

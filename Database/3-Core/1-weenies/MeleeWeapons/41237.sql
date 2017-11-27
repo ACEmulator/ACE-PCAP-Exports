@@ -35,3 +35,15 @@ VALUES (41237, 13, True) /* ETHEREAL_BOOL */
      , (41237, 19, True) /* ATTACKABLE_BOOL */
      , (41237, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41237, 16, 'Killed by Chatlin.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41237, 19, 0) /* VALUE_INT */
+     , (41237, 5, 6270) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41237, 2, 0) /* OPEN_BOOL */;
+

@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5763, 5, 'Planar Mage') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5763, 16, 67109567) /* EYES_PALETTE_DID */
-     , (5763, 9, 83890496) /* EYES_TEXTURE_DID */
-     , (5763, 17, 67109550) /* SKIN_PALETTE_DID */
-     , (5763, 10, 83890541) /* NOSE_TEXTURE_DID */
-     , (5763, 11, 83890621) /* MOUTH_TEXTURE_DID */
-     , (5763, 15, 67117026) /* HAIR_PALETTE_DID */;
+VALUES (5763, 16, 67110063) /* EYES_PALETTE_DID */
+     , (5763, 9, 83890454) /* EYES_TEXTURE_DID */
+     , (5763, 17, 67109553) /* SKIN_PALETTE_DID */
+     , (5763, 10, 83890532) /* NOSE_TEXTURE_DID */
+     , (5763, 11, 83890629) /* MOUTH_TEXTURE_DID */
+     , (5763, 15, 67117075) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5763, 113, 1) /* GENDER_INT */

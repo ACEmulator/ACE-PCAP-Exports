@@ -43,7 +43,10 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (3964, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3964, 5, 9161) /* ENCUMB_VAL_INT */;
+VALUES (3964, 19, 2500) /* VALUE_INT */
+     , (3964, 5, 9138) /* ENCUMB_VAL_INT */
+     , (3964, 38, 20) /* RESIST_LOCKPICK_INT */
+     , (3964, 173, 68) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
 
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (3964, 2, 0) /* OPEN_BOOL */

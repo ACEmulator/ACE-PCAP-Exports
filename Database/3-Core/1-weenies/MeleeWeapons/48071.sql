@@ -48,3 +48,29 @@ VALUES (48071, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48071, 0, 16783509);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48071, 16, 'Cloth Gloves') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48071, 19, 9119) /* VALUE_INT */
+     , (48071, 131, 5) /* MATERIAL_TYPE_INT */
+     , (48071, 5, 31) /* ENCUMB_VAL_INT */
+     , (48071, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (48071, 28, 269) /* ARMOR_LEVEL_INT */
+     , (48071, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (48071, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (48071, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (48071, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (48071, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (48071, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (48071, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (48071, 19, 1.077281) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (48071, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48071, 100, 1) /* DYABLE_BOOL */;
+

@@ -35,3 +35,30 @@ VALUES (12145, 13, True) /* ETHEREAL_BOOL */
      , (12145, 14, True) /* GRAVITY_STATUS_BOOL */
      , (12145, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12145, 16, 'A piece of obsidian etched with arcane symbols.') /* LONG_DESC_STRING */
+     , (12145, 14, 'This item cannot be read.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12145, 33, 1) /* BONDED_INT */
+     , (12145, 114, 1) /* ATTUNED_INT */
+     , (12145, 19, 20) /* VALUE_INT */
+     , (12145, 5, 50) /* ENCUMB_VAL_INT */
+     , (12145, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (12145, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12145, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (12145, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (12145, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (12145, 0, '', 'prewritten', 4294967295, 0, '[This item is unreadable and must be translated by Diyas al-Yat in Zaikhal.]
+');
+

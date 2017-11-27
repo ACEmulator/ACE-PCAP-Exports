@@ -34,6 +34,17 @@ VALUES (6812, 13, True) /* ETHEREAL_BOOL */
      , (6812, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6812, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6812, 16, 'A partially burned piece of paper left by an adventurer in the Nexus dungeon.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6812, 19, 5) /* VALUE_INT */
+     , (6812, 5, 25) /* ENCUMB_VAL_INT */
+     , (6812, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (6812, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -45,11 +45,22 @@ VALUES (46015, 5, 'Grievver Shredder Hunter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46015, 2, 99) /* CREATURE_TYPE_INT */
+     , (46015, 307, 5) /* DAMAGE_RATING_INT */
      , (46015, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (46015, 25, 275) /* LEVEL_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (46015, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (46015, 2, 260) /* ENDURANCE_ATTRIBUTE */
+     , (46015, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (46015, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (46015, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (46015, 32, 200) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46015, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (46015, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (46015, 128, 456) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (46015, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

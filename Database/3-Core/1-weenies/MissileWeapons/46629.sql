@@ -53,6 +53,43 @@ VALUES (46629, 67111923, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46629, 0, 16777887);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46629, 16, 'Studded Leather Greaves') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46629, 19, 2454) /* VALUE_INT */
+     , (46629, 131, 52) /* MATERIAL_TYPE_INT */
+     , (46629, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (46629, 5, 450) /* ENCUMB_VAL_INT */
+     , (46629, 105, 1) /* ITEM_WORKMANSHIP_INT */
+     , (46629, 106, 103) /* ITEM_SPELLCRAFT_INT */
+     , (46629, 28, 170) /* ARMOR_LEVEL_INT */
+     , (46629, 108, 360) /* ITEM_MAX_MANA_INT */
+     , (46629, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (46629, 109, 77) /* ITEM_DIFFICULTY_INT */
+     , (46629, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46629, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (46629, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (46629, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (46629, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (46629, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (46629, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (46629, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (46629, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (46629, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46629, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46629, 1483) /* Impenetrability3_SpellID */
+     , (46629, 1571) /* PiercingBane3_SpellID */
+     , (46629, 1524) /* FrostBane2_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

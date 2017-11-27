@@ -38,3 +38,12 @@ VALUES (7265, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7265, 1, True) /* STUCK_BOOL */
      , (7265, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7265, 16, 'Killed by Callaway.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7265, 19, 0) /* VALUE_INT */
+     , (7265, 5, 6215) /* ENCUMB_VAL_INT */;
+

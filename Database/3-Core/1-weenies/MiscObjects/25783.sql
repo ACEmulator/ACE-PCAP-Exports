@@ -36,3 +36,12 @@ VALUES (25783, 13, True) /* ETHEREAL_BOOL */
      , (25783, 19, True) /* ATTACKABLE_BOOL */
      , (25783, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25783, 16, 'A huge snowflake. It''s intricate beauty is breathtaking. A unique and delicate piece of artwork.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25783, 19, 50) /* VALUE_INT */
+     , (25783, 5, 1) /* ENCUMB_VAL_INT */;
+

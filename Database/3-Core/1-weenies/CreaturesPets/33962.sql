@@ -42,11 +42,15 @@ VALUES (33962, 67112817, 0, 0);
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33962, 2, 3) /* CREATURE_TYPE_INT */
-     , (33962, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (33962, 25, 4) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33962, 16, 'Inscribed spell: Blessing of the Arrow Turner
+Reduces damage the caster takes from Piercing by 65%.') /* LONG_DESC_STRING */
+     , (33962, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33962, 64, 20) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33962, 19, 2000) /* VALUE_INT */
+     , (33962, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (33962, 2161) /* PiercingProtectionSelf7_SpellID */;
 

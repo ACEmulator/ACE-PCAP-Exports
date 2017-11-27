@@ -88,22 +88,13 @@ VALUES (11499, 11, 16777302)
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (11499, 16, 67110063) /* EYES_PALETTE_DID */
-     , (11499, 9, 83890485) /* EYES_TEXTURE_DID */
-     , (11499, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (11499, 10, 83890560) /* NOSE_TEXTURE_DID */
-     , (11499, 11, 83890642) /* MOUTH_TEXTURE_DID */
-     , (11499, 15, 67116990) /* HAIR_PALETTE_DID */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11499, 16, 'The saliva from a creature of the Tusker persuasion.') /* LONG_DESC_STRING */
+     , (11499, 14, 'This item is used in brewing.') /* USE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11499, 113, 1) /* GENDER_INT */
-     , (11499, 2, 31) /* CREATURE_TYPE_INT */
-     , (11499, 25, 8) /* LEVEL_INT */
-     , (11499, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11499, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (11499, 19, 0) /* VALUE_INT */
+     , (11499, 5, 20) /* ENCUMB_VAL_INT */;
 
 /* Corpse Treasure List */
 

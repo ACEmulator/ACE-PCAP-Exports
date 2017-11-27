@@ -35,3 +35,17 @@ VALUES (1862, 13, True) /* ETHEREAL_BOOL */
      , (1862, 19, True) /* ATTACKABLE_BOOL */
      , (1862, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1862, 16, 'Inscribed spell: Health to Mana Self I
+Drains one-half of the caster''s Health and gives 90% of that to his/her Mana (maximum of 50).') /* LONG_DESC_STRING */
+     , (1862, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1862, 19, 1) /* VALUE_INT */
+     , (1862, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1862, 1278) /* HealthtoManaSelf1_SpellID */;
+

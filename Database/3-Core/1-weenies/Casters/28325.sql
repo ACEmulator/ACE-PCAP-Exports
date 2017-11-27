@@ -51,3 +51,26 @@ VALUES (28325, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28325, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28325, 15, 'An orb imbued with the power of the Fenmalain Crystal.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28325, 19, 1000) /* VALUE_INT */
+     , (28325, 5, 50) /* ENCUMB_VAL_INT */
+     , (28325, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (28325, 108, 2000) /* ITEM_MAX_MANA_INT */
+     , (28325, 109, 120) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28325, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (28325, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (28325, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (28325, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28325, 583) /* ItemEnchantmentMasterySelf3_SpellID */
+     , (28325, 2011) /* WizardsLesserIntellect_SpellID */
+     , (28325, 559) /* CreatureEnchantmentMasterySelf3_SpellID */;
+

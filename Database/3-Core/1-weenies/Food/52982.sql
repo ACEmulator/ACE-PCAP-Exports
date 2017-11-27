@@ -38,6 +38,21 @@ VALUES (52982, 13, True) /* ETHEREAL_BOOL */
      , (52982, 14, True) /* GRAVITY_STATUS_BOOL */
      , (52982, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52982, 14, 'This item is used in cooking.') /* USE_STRING */
+     , (52982, 15, 'A cutting of blossoming Nightbloom infused with life magic. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52982, 33, 1) /* BONDED_INT */
+     , (52982, 114, 1) /* ATTUNED_INT */
+     , (52982, 19, 40) /* VALUE_INT */
+     , (52982, 5, 40) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52982, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

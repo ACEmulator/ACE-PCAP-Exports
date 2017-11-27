@@ -35,3 +35,12 @@ VALUES (33851, 13, True) /* ETHEREAL_BOOL */
      , (33851, 1, True) /* STUCK_BOOL */
      , (33851, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33851, 2, 44) /* CREATURE_TYPE_INT */
+     , (33851, 25, 115) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (33851, 64, 465) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
