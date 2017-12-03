@@ -33,6 +33,22 @@ VALUES (42114, 13, True) /* ETHEREAL_BOOL */
      , (42114, 14, True) /* GRAVITY_STATUS_BOOL */
      , (42114, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42114, 16, 'An Aetherium-infused Gear,  dropped by the Gear Knights in the Gear Knight invasion area in the northern Direlands.') /* LONG_DESC_STRING */
+     , (42114, 14, 'The Arcanum in Xarabydun may be interested in this.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42114, 33, 1) /* BONDED_INT */
+     , (42114, 114, 1) /* ATTUNED_INT */
+     , (42114, 19, 0) /* VALUE_INT */
+     , (42114, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42114, 99, 0) /* IVORYABLE_BOOL */
+     , (42114, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

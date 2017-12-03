@@ -33,3 +33,20 @@ VALUES (38316, 13, True) /* ETHEREAL_BOOL */
      , (38316, 19, True) /* ATTACKABLE_BOOL */
      , (38316, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38316, 16, 'A key, rewarded to you for achieving the Rank of Knight within your Society.') /* LONG_DESC_STRING */
+     , (38316, 14, 'Use this key on one of the chests located near to the Promotions Officer within the Society Stronghold.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38316, 33, 1) /* BONDED_INT */
+     , (38316, 114, 1) /* ATTUNED_INT */
+     , (38316, 19, 0) /* VALUE_INT */
+     , (38316, 5, 50) /* ENCUMB_VAL_INT */
+     , (38316, 91, 3) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38316, 99, 0) /* IVORYABLE_BOOL */
+     , (38316, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -35,6 +35,19 @@ VALUES (5782, 13, True) /* ETHEREAL_BOOL */
      , (5782, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5782, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5782, 14, 'This item is used in cooking.') /* USE_STRING */
+     , (5782, 15, 'Apples coated in spicy sweet flavorings.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5782, 19, 5) /* VALUE_INT */
+     , (5782, 5, 35) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5782, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

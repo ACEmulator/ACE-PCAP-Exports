@@ -36,3 +36,12 @@ VALUES (642, 0, 83891055, 83889908);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (642, 0, 16780409);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (642, 16, 'The Leaping Stallion') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (642, 19, 125) /* VALUE_INT */
+     , (642, 5, 9000) /* ENCUMB_VAL_INT */;
+

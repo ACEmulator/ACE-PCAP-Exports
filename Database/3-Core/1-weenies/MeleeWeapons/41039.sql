@@ -52,3 +52,47 @@ VALUES (41039, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41039, 0, 16794405);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41039, 16, 'Flaming Assagai of Swiftkiller') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41039, 176, 41) /* APPRAISAL_ITEM_SKILL_INT */
+     , (41039, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (41039, 353, 11) /* WEAPON_TYPE_INT */
+     , (41039, 177, 2) /* GEM_COUNT_INT */
+     , (41039, 178, 43) /* GEM_TYPE_INT */
+     , (41039, 19, 5862) /* VALUE_INT */
+     , (41039, 131, 73) /* MATERIAL_TYPE_INT */
+     , (41039, 115, 304) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (41039, 5, 558) /* ENCUMB_VAL_INT */
+     , (41039, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (41039, 106, 284) /* ITEM_SPELLCRAFT_INT */
+     , (41039, 108, 926) /* ITEM_MAX_MANA_INT */
+     , (41039, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (41039, 109, 137) /* ITEM_DIFFICULTY_INT */
+     , (41039, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (41039, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41039, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (41039, 47, 2) /* ATTACK_TYPE_INT */
+     , (41039, 45, 16) /* DAMAGE_TYPE_INT */
+     , (41039, 49, 45) /* WEAPON_TIME_INT */
+     , (41039, 48, 41) /* WEAPON_SKILL_INT */
+     , (41039, 44, 28) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41039, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (41039, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
+     , (41039, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (41039, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (41039, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41039, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41039, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41039, 2116) /* Swiftkiller7_SpellID */
+     , (41039, 1616) /* BloodDrinker6_SpellID */
+     , (41039, 2081) /* QuicknessSelf7_SpellID */
+     , (41039, 2548) /* CANTRIPHEALINGPROWESS1_SpellID */;
+

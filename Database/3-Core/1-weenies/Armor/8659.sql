@@ -47,3 +47,23 @@ VALUES (8659, 0, 83887064, 83892992)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8659, 0, 16778829);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8659, 16, 'Pants made from the hide of a shreth.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8659, 19, 3300) /* VALUE_INT */
+     , (8659, 5, 900) /* ENCUMB_VAL_INT */
+     , (8659, 28, 110) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8659, 13, 1.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8659, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8659, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8659, 16, 0.45) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8659, 17, 0.75) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8659, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8659, 19, 0.9) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8659, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

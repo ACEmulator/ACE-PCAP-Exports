@@ -35,3 +35,17 @@ VALUES (5999, 13, True) /* ETHEREAL_BOOL */
      , (5999, 19, True) /* ATTACKABLE_BOOL */
      , (5999, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5999, 16, 'Inscribed spell: Flame Bolt III
+Shoots a bolt of flame at the target.  The bolt does 42-84 points of fire damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (5999, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5999, 19, 20) /* VALUE_INT */
+     , (5999, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (5999, 82) /* FlameBolt3_SpellID */;
+

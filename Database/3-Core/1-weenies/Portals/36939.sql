@@ -29,3 +29,11 @@ VALUES (36939, 13, True) /* ETHEREAL_BOOL */
      , (36939, 19, True) /* ATTACKABLE_BOOL */
      , (36939, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36939, 38, 'Planar Academy Lecture Hall') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36939, 111, 49) /* PORTAL_BITMASK_INT */;
+

@@ -35,3 +35,13 @@ VALUES (36922, 13, True) /* ETHEREAL_BOOL */
      , (36922, 19, True) /* ATTACKABLE_BOOL */
      , (36922, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36922, 16, 'A Holiday decoration you can hang on your wall.') /* LONG_DESC_STRING */
+     , (36922, 14, 'This item may be placed on wall hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36922, 19, 1000) /* VALUE_INT */
+     , (36922, 5, 100) /* ENCUMB_VAL_INT */;
+

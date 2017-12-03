@@ -36,3 +36,13 @@ VALUES (34407, 13, True) /* ETHEREAL_BOOL */
      , (34407, 19, True) /* ATTACKABLE_BOOL */
      , (34407, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34407, 16, 'An Abominable Snowman Pack Doll with bounce.') /* LONG_DESC_STRING */
+     , (34407, 14, 'This pack doll can be placed on floor and yard hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34407, 19, 10) /* VALUE_INT */
+     , (34407, 5, 10) /* ENCUMB_VAL_INT */;
+

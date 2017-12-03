@@ -40,3 +40,28 @@ VALUES (3826, 13, True) /* ETHEREAL_BOOL */
      , (3826, 19, True) /* ATTACKABLE_BOOL */
      , (3826, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3826, 16, 'Finely crafted Black Opal Acid Khanjar , set with 2 Rubies') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3826, 353, 6) /* WEAPON_TYPE_INT */
+     , (3826, 131, 16) /* MATERIAL_TYPE_INT */
+     , (3826, 19, 2988) /* VALUE_INT */
+     , (3826, 5, 120) /* ENCUMB_VAL_INT */
+     , (3826, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (3826, 47, 4) /* ATTACK_TYPE_INT */
+     , (3826, 45, 32) /* DAMAGE_TYPE_INT */
+     , (3826, 49, 18) /* WEAPON_TIME_INT */
+     , (3826, 48, 46) /* WEAPON_SKILL_INT */
+     , (3826, 44, 9) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3826, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (3826, 22, 0.99) /* DAMAGE_VARIANCE_FLOAT */
+     , (3826, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3826, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3826, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3826, 62, 1.073729) /* WEAPON_OFFENSE_FLOAT */;
+

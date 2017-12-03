@@ -34,6 +34,18 @@ VALUES (5174, 13, True) /* ETHEREAL_BOOL */
      , (5174, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5174, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5174, 16, 'A Cove Apple pie baked by Mara al-Luq, with healing properties.') /* LONG_DESC_STRING */
+     , (5174, 14, 'Use this item to eat it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5174, 19, 12) /* VALUE_INT */
+     , (5174, 5, 75) /* ENCUMB_VAL_INT */
+     , (5174, 89, 2) /* BOOSTER_ENUM_INT */
+     , (5174, 90, 15) /* BOOST_VALUE_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

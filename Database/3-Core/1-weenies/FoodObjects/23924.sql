@@ -45,6 +45,18 @@ VALUES (23924, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23924, 0, 16778735);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23924, 16, 'Ulgrim''s guaranteed Hangover Cure.') /* LONG_DESC_STRING */
+     , (23924, 14, 'Use this potion at your own risk. Any claims or guarantees are completely without merit.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23924, 19, 1000) /* VALUE_INT */
+     , (23924, 5, 75) /* ENCUMB_VAL_INT */
+     , (23924, 89, 2) /* BOOSTER_ENUM_INT */
+     , (23924, 90, 65) /* BOOST_VALUE_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

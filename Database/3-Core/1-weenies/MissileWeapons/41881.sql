@@ -64,3 +64,47 @@ VALUES (41881, 0, 16779440)
      , (41881, 7, 16777708)
      , (41881, 8, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41881, 15, 'A crossbow imbued with Singularity energy.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41881, 160, 360) /* WIELD_DIFFICULTY_INT */
+     , (41881, 33, 1) /* BONDED_INT */
+     , (41881, 353, 9) /* WEAPON_TYPE_INT */
+     , (41881, 114, 1) /* ATTUNED_INT */
+     , (41881, 19, 0) /* VALUE_INT */
+     , (41881, 5, 1920) /* ENCUMB_VAL_INT */
+     , (41881, 166, 19) /* SLAYER_CREATURE_TYPE_INT */
+     , (41881, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (41881, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (41881, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (41881, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41881, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (41881, 45, 0) /* DAMAGE_TYPE_INT */
+     , (41881, 49, 100) /* WEAPON_TIME_INT */
+     , (41881, 48, 47) /* WEAPON_SKILL_INT */
+     , (41881, 44, 12) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41881, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (41881, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (41881, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (41881, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (41881, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (41881, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (41881, 63, 2.55) /* DAMAGE_MOD_FLOAT */
+     , (41881, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41881, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41881, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41881, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41881, 2058) /* CoordinationOther7_SpellID */
+     , (41881, 2572) /* CANTRIPCOORDINATION2_SpellID */
+     , (41881, 2096) /* BloodDrinker7_SpellID */
+     , (41881, 2101) /* Defender7_SpellID */;
+

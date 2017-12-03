@@ -33,3 +33,9 @@ VALUES (7504, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (7504, 67112888, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7504, 19, 0) /* VALUE_INT */
+     , (7504, 5, 900) /* ENCUMB_VAL_INT */;
+

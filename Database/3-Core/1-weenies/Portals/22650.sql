@@ -33,3 +33,12 @@ VALUES (22650, 13, True) /* ETHEREAL_BOOL */
      , (22650, 19, True) /* ATTACKABLE_BOOL */
      , (22650, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22650, 38, 'Legend of the Tusker King') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22650, 86, 80) /* MIN_LEVEL_INT */
+     , (22650, 111, 49) /* PORTAL_BITMASK_INT */;
+

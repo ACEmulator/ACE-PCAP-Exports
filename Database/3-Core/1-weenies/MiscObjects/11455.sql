@@ -35,6 +35,18 @@ VALUES (11455, 13, True) /* ETHEREAL_BOOL */
      , (11455, 19, True) /* ATTACKABLE_BOOL */
      , (11455, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11455, 16, 'A beautifully carved greenstone totem of Tanae. ') /* LONG_DESC_STRING */
+     , (11455, 14, 'Use this on either a totem of Audetaunga or Volkama to create a combination double totem. Use this on another totem of Tanae to create a pure double totem. ') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11455, 33, 0) /* BONDED_INT */
+     , (11455, 114, 0) /* ATTUNED_INT */
+     , (11455, 19, 0) /* VALUE_INT */
+     , (11455, 5, 100) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

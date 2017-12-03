@@ -41,3 +41,14 @@ VALUES (15814, 0, 83888936, 83886763);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15814, 0, 16778599);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15814, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */
+     , (15814, 15, 'A crudely fashioned key with strange symbols carved into it.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15814, 19, 100) /* VALUE_INT */
+     , (15814, 5, 50) /* ENCUMB_VAL_INT */
+     , (15814, 91, 3) /* MAX_STRUCTURE_INT */;
+

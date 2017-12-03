@@ -33,3 +33,14 @@ VALUES (41011, 13, True) /* ETHEREAL_BOOL */
      , (41011, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41011, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41011, 16, 'This book describes the operating principles and ethics of the Celestial Hand.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41011, 19, 0) /* VALUE_INT */
+     , (41011, 5, 300) /* ENCUMB_VAL_INT */
+     , (41011, 174, 4) /* APPRAISAL_PAGES_INT */
+     , (41011, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
+

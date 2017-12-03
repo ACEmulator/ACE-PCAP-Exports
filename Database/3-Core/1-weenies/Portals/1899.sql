@@ -33,3 +33,11 @@ VALUES (1899, 13, True) /* ETHEREAL_BOOL */
      , (1899, 19, True) /* ATTACKABLE_BOOL */
      , (1899, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1899, 38, 'Beachside (23.6N, 63.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1899, 111, 1) /* PORTAL_BITMASK_INT */;
+

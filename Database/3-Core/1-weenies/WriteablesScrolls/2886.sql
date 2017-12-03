@@ -35,3 +35,17 @@ VALUES (2886, 13, True) /* ETHEREAL_BOOL */
      , (2886, 19, True) /* ATTACKABLE_BOOL */
      , (2886, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2886, 16, 'Inscribed spell: Aura of Swift Killer Self VI
+Improves a weapon''s speed by 60 points.') /* LONG_DESC_STRING */
+     , (2886, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2886, 19, 1000) /* VALUE_INT */
+     , (2886, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2886, 1627) /* SwiftKiller6_SpellID */;
+

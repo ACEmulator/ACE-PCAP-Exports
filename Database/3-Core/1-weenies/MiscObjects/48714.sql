@@ -40,3 +40,14 @@ VALUES (48714, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48714, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48714, 16, 'A cracked piece of the Blazing Crystal. It feels warm and glows brightly. Bring this to David in Frost Haven.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48714, 33, 1) /* BONDED_INT */
+     , (48714, 114, 1) /* ATTUNED_INT */
+     , (48714, 19, 0) /* VALUE_INT */
+     , (48714, 5, 1) /* ENCUMB_VAL_INT */;
+

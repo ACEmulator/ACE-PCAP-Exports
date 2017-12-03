@@ -36,3 +36,13 @@ VALUES (34401, 13, True) /* ETHEREAL_BOOL */
      , (34401, 19, True) /* ATTACKABLE_BOOL */
      , (34401, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34401, 14, 'This item can be used on wall hooks.') /* USE_STRING */
+     , (34401, 15, 'A string of small reflective baubles shining with colored light.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34401, 19, 5000) /* VALUE_INT */
+     , (34401, 5, 50) /* ENCUMB_VAL_INT */;
+

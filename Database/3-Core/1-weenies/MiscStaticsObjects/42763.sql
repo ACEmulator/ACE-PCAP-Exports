@@ -29,3 +29,12 @@ VALUES (42763, 13, True) /* ETHEREAL_BOOL */
      , (42763, 19, True) /* ATTACKABLE_BOOL */
      , (42763, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42763, 16, 'The village of Qalaba''r is the most southern of the Gharu''ndim settlements, located beyond the Yushad Ridge on the edge of the Linvak Mountains. Treasure hunters looking to raid the dungeons and citadels of the renegade Gotrok Lugians often use Qalaba''r as a staging ground for their expeditions, as do explorers venturing to the southern landbridge, and the Direlands beyond.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42763, 19, 125) /* VALUE_INT */
+     , (42763, 5, 9000) /* ENCUMB_VAL_INT */;
+

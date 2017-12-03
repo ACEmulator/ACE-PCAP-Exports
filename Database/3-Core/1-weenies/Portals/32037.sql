@@ -33,3 +33,12 @@ VALUES (32037, 13, True) /* ETHEREAL_BOOL */
      , (32037, 19, True) /* ATTACKABLE_BOOL */
      , (32037, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32037, 38, 'Exit (73.3N, 69.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32037, 86, 130) /* MIN_LEVEL_INT */
+     , (32037, 111, 49) /* PORTAL_BITMASK_INT */;
+

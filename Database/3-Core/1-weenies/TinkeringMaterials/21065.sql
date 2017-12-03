@@ -50,6 +50,20 @@ VALUES (21065, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21065, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21065, 14, 'Apply this material to a treasure-generated magic caster to increase the its mana conversion bonus by 1%.') /* USE_STRING */
+     , (21065, 15, 'Chips of opal material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21065, 33, 1) /* BONDED_INT */
+     , (21065, 19, 11296) /* VALUE_INT */
+     , (21065, 131, 33) /* MATERIAL_TYPE_INT */
+     , (21065, 5, 100) /* ENCUMB_VAL_INT */
+     , (21065, 105, 136) /* ITEM_WORKMANSHIP_INT */
+     , (21065, 170, 23) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

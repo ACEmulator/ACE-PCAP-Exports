@@ -45,3 +45,34 @@ VALUES (1518, 0, 83887048, 83887048);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1518, 0, 16778349);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1518, 16, 'A superior helm from the Halls of Helm.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1518, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
+     , (1518, 19, 5500) /* VALUE_INT */
+     , (1518, 115, 153) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (1518, 5, 600) /* ENCUMB_VAL_INT */
+     , (1518, 106, 133) /* ITEM_SPELLCRAFT_INT */
+     , (1518, 28, 200) /* ARMOR_LEVEL_INT */
+     , (1518, 108, 432) /* ITEM_MAX_MANA_INT */
+     , (1518, 109, 57) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (1518, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (1518, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (1518, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (1518, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (1518, 16, 0.3) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (1518, 17, 0.3) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (1518, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (1518, 19, 0.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (1518, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1518, 1483) /* Impenetrability3_SpellID */
+     , (1518, 1549) /* FlameBane3_SpellID */
+     , (1518, 242) /* InvulnerabilityOther4_SpellID */;
+

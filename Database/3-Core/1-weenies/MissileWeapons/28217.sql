@@ -46,6 +46,24 @@ VALUES (28217, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28217, 0, 16787489);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28217, 19, 600) /* VALUE_INT */
+     , (28217, 5, 100) /* ENCUMB_VAL_INT */
+     , (28217, 45, 2) /* DAMAGE_TYPE_INT */
+     , (28217, 49, -1) /* WEAPON_TIME_INT */
+     , (28217, 48, 0) /* WEAPON_SKILL_INT */
+     , (28217, 44, 20) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28217, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (28217, 22, 0.2) /* DAMAGE_VARIANCE_FLOAT */
+     , (28217, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (28217, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (28217, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (28217, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

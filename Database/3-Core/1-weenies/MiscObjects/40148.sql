@@ -32,3 +32,14 @@ VALUES (40148, 13, True) /* ETHEREAL_BOOL */
      , (40148, 19, True) /* ATTACKABLE_BOOL */
      , (40148, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40148, 16, 'A chunk of coral from a Black Coral Golem Viceroy.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40148, 33, 0) /* BONDED_INT */
+     , (40148, 114, 0) /* ATTUNED_INT */
+     , (40148, 19, 0) /* VALUE_INT */
+     , (40148, 5, 50) /* ENCUMB_VAL_INT */;
+

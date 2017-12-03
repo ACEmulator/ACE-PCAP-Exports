@@ -37,3 +37,34 @@ VALUES (12156, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (12156, 67113775, 160, 8);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12156, 16, 'A pair of white bunny slippers. This item can be used on an item hook.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12156, 19, 0) /* VALUE_INT */
+     , (12156, 5, 350) /* ENCUMB_VAL_INT */
+     , (12156, 106, 30) /* ITEM_SPELLCRAFT_INT */
+     , (12156, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (12156, 28, 30) /* ARMOR_LEVEL_INT */
+     , (12156, 109, 225) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12156, 5, -0.05555) /* MANA_RATE_FLOAT */
+     , (12156, 13, 0.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (12156, 14, 0.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (12156, 15, 0.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (12156, 16, 1.3) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (12156, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (12156, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (12156, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (12156, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12156, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12156, 975) /* JumpingMasterySelf6_SpellID */
+     , (12156, 987) /* SprintSelf6_SpellID */;
+

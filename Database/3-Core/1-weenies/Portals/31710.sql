@@ -33,3 +33,13 @@ VALUES (31710, 13, True) /* ETHEREAL_BOOL */
      , (31710, 19, True) /* ATTACKABLE_BOOL */
      , (31710, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31710, 16, 'This dungeon is quest restricted.  The Hunter Kassoka in Ahurenga might know something about it.') /* LONG_DESC_STRING */
+     , (31710, 38, 'Hagra''s Holdfast') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31710, 86, 35) /* MIN_LEVEL_INT */
+     , (31710, 111, 49) /* PORTAL_BITMASK_INT */;
+

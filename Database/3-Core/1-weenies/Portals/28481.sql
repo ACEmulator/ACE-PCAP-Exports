@@ -34,3 +34,12 @@ VALUES (28481, 13, True) /* ETHEREAL_BOOL */
      , (28481, 1, True) /* STUCK_BOOL */
      , (28481, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28481, 38, 'Vile-Smelling Refuse') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28481, 86, 60) /* MIN_LEVEL_INT */
+     , (28481, 111, 49) /* PORTAL_BITMASK_INT */;
+

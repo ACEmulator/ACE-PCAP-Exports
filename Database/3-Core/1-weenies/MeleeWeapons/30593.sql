@@ -47,3 +47,47 @@ VALUES (30593, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30593, 0, 16791842);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30593, 16, 'Lightning Partizan of Defender') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30593, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30593, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (30593, 353, 5) /* WEAPON_TYPE_INT */
+     , (30593, 177, 2) /* GEM_COUNT_INT */
+     , (30593, 178, 45) /* GEM_TYPE_INT */
+     , (30593, 19, 3716) /* VALUE_INT */
+     , (30593, 131, 75) /* MATERIAL_TYPE_INT */
+     , (30593, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30593, 5, 540) /* ENCUMB_VAL_INT */
+     , (30593, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (30593, 106, 230) /* ITEM_SPELLCRAFT_INT */
+     , (30593, 108, 1214) /* ITEM_MAX_MANA_INT */
+     , (30593, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30593, 109, 54) /* ITEM_DIFFICULTY_INT */
+     , (30593, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30593, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30593, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (30593, 47, 2) /* ATTACK_TYPE_INT */
+     , (30593, 45, 64) /* DAMAGE_TYPE_INT */
+     , (30593, 49, 27) /* WEAPON_TIME_INT */
+     , (30593, 48, 44) /* WEAPON_SKILL_INT */
+     , (30593, 44, 43) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30593, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (30593, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (30593, 22, 0.68) /* DAMAGE_VARIANCE_FLOAT */
+     , (30593, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30593, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30593, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30593, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30593, 1605) /* Defender6_SpellID */
+     , (30593, 1615) /* BloodDrinker5_SpellID */
+     , (30593, 1591) /* HeartSeeker5_SpellID */
+     , (30593, 2556) /* CANTRIPLOCKPICKPROWESS1_SpellID */;
+

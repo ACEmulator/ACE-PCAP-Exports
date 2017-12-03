@@ -84,3 +84,26 @@ VALUES (12050, 12, 16777304)
      , (12050, 13, 16783871)
      , (12050, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12050, 5, 'Mage') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (12050, 16, 67109567) /* EYES_PALETTE_DID */
+     , (12050, 9, 83890505) /* EYES_TEXTURE_DID */
+     , (12050, 17, 67109553) /* SKIN_PALETTE_DID */
+     , (12050, 10, 83890536) /* NOSE_TEXTURE_DID */
+     , (12050, 11, 83890624) /* MOUTH_TEXTURE_DID */
+     , (12050, 15, 67117028) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12050, 113, 1) /* GENDER_INT */
+     , (12050, 2, 31) /* CREATURE_TYPE_INT */
+     , (12050, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (12050, 25, 75) /* LEVEL_INT */
+     , (12050, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (12050, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

@@ -48,3 +48,40 @@ VALUES (3834, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3834, 0, 16777923);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3834, 16, 'Acid Mace of Defender') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3834, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3834, 353, 4) /* WEAPON_TYPE_INT */
+     , (3834, 19, 1666) /* VALUE_INT */
+     , (3834, 131, 75) /* MATERIAL_TYPE_INT */
+     , (3834, 115, 68) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3834, 5, 675) /* ENCUMB_VAL_INT */
+     , (3834, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (3834, 106, 48) /* ITEM_SPELLCRAFT_INT */
+     , (3834, 108, 374) /* ITEM_MAX_MANA_INT */
+     , (3834, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3834, 109, 14) /* ITEM_DIFFICULTY_INT */
+     , (3834, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3834, 47, 4) /* ATTACK_TYPE_INT */
+     , (3834, 45, 32) /* DAMAGE_TYPE_INT */
+     , (3834, 49, 38) /* WEAPON_TIME_INT */
+     , (3834, 48, 44) /* WEAPON_SKILL_INT */
+     , (3834, 44, 18) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3834, 5, -0.01666667) /* MANA_RATE_FLOAT */
+     , (3834, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
+     , (3834, 22, 0.37) /* DAMAGE_VARIANCE_FLOAT */
+     , (3834, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3834, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3834, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3834, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3834, 1601) /* Defender2_SpellID */
+     , (3834, 1612) /* BloodDrinker2_SpellID */;
+

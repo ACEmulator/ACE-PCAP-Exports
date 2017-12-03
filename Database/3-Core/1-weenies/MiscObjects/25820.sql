@@ -34,6 +34,21 @@ VALUES (25820, 13, True) /* ETHEREAL_BOOL */
      , (25820, 19, True) /* ATTACKABLE_BOOL */
      , (25820, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25820, 14, 'As explained by Honshu, you may anoint this with the water of purity to obtain a new object.') /* USE_STRING */
+     , (25820, 15, 'The splendor of the Firebird, grace of the Unicorn and power of the Dragon have joined in this object.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25820, 33, 1) /* BONDED_INT */
+     , (25820, 114, 1) /* ATTUNED_INT */
+     , (25820, 19, 16000) /* VALUE_INT */
+     , (25820, 5, 1500) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25820, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

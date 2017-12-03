@@ -46,6 +46,32 @@ VALUES (22727, 0, 83892147, 83894376);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22727, 0, 16783343);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22727, 14, 'Duck!') /* USE_STRING */
+     , (22727, 15, 'A nanner cream pie.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22727, 353, 10) /* WEAPON_TYPE_INT */
+     , (22727, 19, 200) /* VALUE_INT */
+     , (22727, 5, 120) /* ENCUMB_VAL_INT */
+     , (22727, 45, 4) /* DAMAGE_TYPE_INT */
+     , (22727, 49, 20) /* WEAPON_TIME_INT */
+     , (22727, 48, 47) /* WEAPON_SKILL_INT */
+     , (22727, 44, 2) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22727, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (22727, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (22727, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (22727, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (22727, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (22727, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22727, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

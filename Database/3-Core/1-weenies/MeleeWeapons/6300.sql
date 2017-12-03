@@ -43,3 +43,27 @@ VALUES (6300, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6300, 0, 16783995);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6300, 33, 1) /* BONDED_INT */
+     , (6300, 353, 2) /* WEAPON_TYPE_INT */
+     , (6300, 19, 4000) /* VALUE_INT */
+     , (6300, 5, 450) /* ENCUMB_VAL_INT */
+     , (6300, 47, 6) /* ATTACK_TYPE_INT */
+     , (6300, 45, 3) /* DAMAGE_TYPE_INT */
+     , (6300, 49, 35) /* WEAPON_TIME_INT */
+     , (6300, 48, 44) /* WEAPON_SKILL_INT */
+     , (6300, 44, 29) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6300, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
+     , (6300, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (6300, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (6300, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (6300, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (6300, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6300, 69, 0) /* IS_SELLABLE_BOOL */;
+

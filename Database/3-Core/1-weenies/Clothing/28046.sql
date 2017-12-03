@@ -52,3 +52,37 @@ VALUES (28046, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28046, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28046, 16, 'A black robe obtained from the Lady of Aerlinthe''s personal treasure chest.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28046, 33, 1) /* BONDED_INT */
+     , (28046, 114, 1) /* ATTUNED_INT */
+     , (28046, 19, 12710) /* VALUE_INT */
+     , (28046, 5, 200) /* ENCUMB_VAL_INT */
+     , (28046, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (28046, 28, 190) /* ARMOR_LEVEL_INT */
+     , (28046, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (28046, 109, 300) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28046, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (28046, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28046, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28046, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28046, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28046, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28046, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28046, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28046, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28046, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28046, 2066) /* FocusOther7_SpellID */
+     , (28046, 2015) /* AerfallesWard_SpellID */
+     , (28046, 2090) /* WillPowerOther7_SpellID */;
+

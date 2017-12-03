@@ -49,3 +49,45 @@ VALUES (21159, 0, 83887064, 83894182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21159, 0, 16778365);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21159, 16, 'Covenant Tassets of Quickness') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21159, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
+     , (21159, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (21159, 19, 28225) /* VALUE_INT */
+     , (21159, 131, 63) /* MATERIAL_TYPE_INT */
+     , (21159, 115, 345) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (21159, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21159, 5, 568) /* ENCUMB_VAL_INT */
+     , (21159, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (21159, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (21159, 28, 272) /* ARMOR_LEVEL_INT */
+     , (21159, 108, 1525) /* ITEM_MAX_MANA_INT */
+     , (21159, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (21159, 109, 71) /* ITEM_DIFFICULTY_INT */
+     , (21159, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (21159, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (21159, 159, 6) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21159, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (21159, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (21159, 14, 1.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (21159, 15, 1.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (21159, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (21159, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (21159, 18, 1.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (21159, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (21159, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21159, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21159, 2081) /* QuicknessSelf7_SpellID */
+     , (21159, 2094) /* BladeBane7_SpellID */
+     , (21159, 2108) /* Impenetrability7_SpellID */;
+

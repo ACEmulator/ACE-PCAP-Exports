@@ -91,3 +91,26 @@ VALUES (52992, 12, 16778423)
      , (52992, 16, 16788193)
      , (52992, 29, 16797056);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52992, 5, 'Crystal of Increasing Pain Trader') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (52992, 16, 67110063) /* EYES_PALETTE_DID */
+     , (52992, 9, 83890277) /* EYES_TEXTURE_DID */
+     , (52992, 17, 67109555) /* SKIN_PALETTE_DID */
+     , (52992, 10, 83890301) /* NOSE_TEXTURE_DID */
+     , (52992, 11, 83890344) /* MOUTH_TEXTURE_DID */
+     , (52992, 15, 67117076) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52992, 113, 2) /* GENDER_INT */
+     , (52992, 2, 31) /* CREATURE_TYPE_INT */
+     , (52992, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (52992, 25, 250) /* LEVEL_INT */
+     , (52992, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (52992, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

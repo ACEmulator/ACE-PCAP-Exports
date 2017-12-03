@@ -37,3 +37,23 @@ VALUES (44101, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (44101, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (44101, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44101, 2, 101) /* CREATURE_TYPE_INT */
+     , (44101, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (44101, 25, 220) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (44101, 1, 90) /* STRENGTH_ATTRIBUTE */
+     , (44101, 2, 85) /* ENDURANCE_ATTRIBUTE */
+     , (44101, 4, 85) /* COORDINATION_ATTRIBUTE */
+     , (44101, 8, 75) /* QUICKNESS_ATTRIBUTE */
+     , (44101, 16, 160) /* FOCUS_ATTRIBUTE */
+     , (44101, 32, 180) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44101, 64, 133) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (44101, 128, 185) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (44101, 256, 220) /* MAX_MANA_ATTRIBUTE_2ND */;
+

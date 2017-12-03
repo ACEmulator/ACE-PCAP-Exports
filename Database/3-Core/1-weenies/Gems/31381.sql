@@ -30,3 +30,15 @@ VALUES (31381, 13, True) /* ETHEREAL_BOOL */
      , (31381, 19, True) /* ATTACKABLE_BOOL */
      , (31381, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31381, 16, 'An ancient looking Shadow artifact. The distinct pattern on the front of the artifact reminds you of something, but you cannot place what exactly that is.') /* LONG_DESC_STRING */
+     , (31381, 14, 'Bring this artifact to Shadow Hunter Sarkin Killcrane in Wai Jhou.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31381, 33, 1) /* BONDED_INT */
+     , (31381, 114, 1) /* ATTUNED_INT */
+     , (31381, 19, 0) /* VALUE_INT */
+     , (31381, 5, 50) /* ENCUMB_VAL_INT */;
+

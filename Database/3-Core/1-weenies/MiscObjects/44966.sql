@@ -37,6 +37,20 @@ VALUES (44966, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44966, 67111924, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44966, 14, 'Combine this gem with an attribute raising gem to transfer up to 10 points of strength to another attribute. ') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44966, 33, 1) /* BONDED_INT */
+     , (44966, 98, 1485832998) /* CREATION_TIMESTAMP_INT */
+     , (44966, 114, 1) /* ATTUNED_INT */
+     , (44966, 19, 0) /* VALUE_INT */
+     , (44966, 5, 10) /* ENCUMB_VAL_INT */
+     , (44966, 267, 900) /* LIFESPAN_INT */
+     , (44966, 268, 900) /* REMAINING_LIFESPAN_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

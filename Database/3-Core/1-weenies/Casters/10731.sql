@@ -51,3 +51,32 @@ VALUES (10731, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10731, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10731, 16, 'A spellcasting orb pulsing with the mickle energies of the Virindi.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10731, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
+     , (10731, 114, 1) /* ATTUNED_INT */
+     , (10731, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (10731, 19, 2000) /* VALUE_INT */
+     , (10731, 5, 50) /* ENCUMB_VAL_INT */
+     , (10731, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (10731, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (10731, 109, 200) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (10731, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (10731, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (10731, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10731, 99, 1) /* IVORYABLE_BOOL */
+     , (10731, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (10731, 585) /* ItemEnchantmentMasterySelf5_SpellID */
+     , (10731, 658) /* ManaMasterySelf6_SpellID */
+     , (10731, 610) /* LifeMagicMasterySelf6_SpellID */;
+

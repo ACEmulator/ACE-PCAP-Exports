@@ -36,6 +36,21 @@ VALUES (27773, 13, True) /* ETHEREAL_BOOL */
      , (27773, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27773, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27773, 16, 'A large blue Mana Stone. While it looks similar to every day mana stones, you can tell it is different just by looking at it.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27773, 19, 50000) /* VALUE_INT */
+     , (27773, 5, 125) /* ENCUMB_VAL_INT */
+     , (27773, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (27773, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (27773, 109, 150) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27773, 3249) /* ManaRenewalAdja_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

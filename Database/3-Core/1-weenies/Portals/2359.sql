@@ -33,3 +33,11 @@ VALUES (2359, 13, True) /* ETHEREAL_BOOL */
      , (2359, 19, True) /* ATTACKABLE_BOOL */
      , (2359, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2359, 38, 'Slaughterhouse (0.4S, 80.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2359, 111, 1) /* PORTAL_BITMASK_INT */;
+

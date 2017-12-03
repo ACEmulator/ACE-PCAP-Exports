@@ -33,3 +33,12 @@ VALUES (42819, 13, True) /* ETHEREAL_BOOL */
      , (42819, 19, True) /* ATTACKABLE_BOOL */
      , (42819, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42819, 16, 'This portal goes to Arwic, a walled Aluvian town that has fully recovered from a devastating attack by a Shadow Spire. This is a good town for characters over level 20.') /* LONG_DESC_STRING */
+     , (42819, 38, 'Portal to Arwic (33.3N, 56.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42819, 111, 1) /* PORTAL_BITMASK_INT */;
+

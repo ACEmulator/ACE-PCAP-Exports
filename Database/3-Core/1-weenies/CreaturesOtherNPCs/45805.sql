@@ -88,6 +88,15 @@ VALUES (45805, 0, 16795526)
      , (45805, 15, 16795541)
      , (45805, 16, 16795542);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45805, 2, 101) /* CREATURE_TYPE_INT */
+     , (45805, 25, 220) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (45805, 64, 3000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

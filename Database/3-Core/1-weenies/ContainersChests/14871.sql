@@ -43,6 +43,22 @@ VALUES (14871, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14871, 9, 16785621);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14871, 16, 'A trove belonging to Martine lies here.') /* LONG_DESC_STRING */
+     , (14871, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14871, 19, 0) /* VALUE_INT */
+     , (14871, 5, 19180) /* ENCUMB_VAL_INT */
+     , (14871, 38, 5000) /* RESIST_LOCKPICK_INT */
+     , (14871, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14871, 2, 0) /* OPEN_BOOL */
+     , (14871, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -38,6 +38,22 @@ VALUES (31986, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (31986, 19, True) /* ATTACKABLE_BOOL */
      , (31986, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31986, 16, 'A simple grey chest used by Xik Minru and her followers to house their wealth.') /* LONG_DESC_STRING */
+     , (31986, 14, 'Use a Key to Xik Minru''s Reserve to unlock this cache.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31986, 19, 2500) /* VALUE_INT */
+     , (31986, 5, 11509) /* ENCUMB_VAL_INT */
+     , (31986, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (31986, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31986, 2, 0) /* OPEN_BOOL */
+     , (31986, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

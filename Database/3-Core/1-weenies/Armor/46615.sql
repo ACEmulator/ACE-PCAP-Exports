@@ -49,3 +49,43 @@ VALUES (46615, 67110021, 80, 12)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46615, 0, 16796664);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46615, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (46615, 33, 1) /* BONDED_INT */
+     , (46615, 19, 1738) /* VALUE_INT */
+     , (46615, 5, 1665) /* ENCUMB_VAL_INT */
+     , (46615, 265, 14) /* EQUIPMENT_SET_ID_INT */
+     , (46615, 106, 100) /* ITEM_SPELLCRAFT_INT */
+     , (46615, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (46615, 28, 660) /* ARMOR_LEVEL_INT */
+     , (46615, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (46615, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (46615, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46615, 5, -0.0333333) /* MANA_RATE_FLOAT */
+     , (46615, 13, 2.9) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (46615, 14, 3.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (46615, 15, 2.9) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (46615, 16, 2.3) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (46615, 17, 2.3) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (46615, 18, 2.5) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (46615, 19, 2.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (46615, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46615, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46615, 4696) /* CANTRIPINVULNERABILITY3_SpellID */
+     , (46615, 4391) /* AcidBane8_SpellID */
+     , (46615, 4393) /* BladeBane8_SpellID */
+     , (46615, 4397) /* BludgeonBane8_SpellID */
+     , (46615, 4401) /* FlameBane8_SpellID */
+     , (46615, 4403) /* FrostBane8_SpellID */
+     , (46615, 4407) /* Impenetrability8_SpellID */
+     , (46615, 4409) /* LightningBane8_SpellID */
+     , (46615, 4412) /* PiercingBane8_SpellID */;
+

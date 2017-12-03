@@ -33,3 +33,11 @@ VALUES (12553, 13, True) /* ETHEREAL_BOOL */
      , (12553, 19, True) /* ATTACKABLE_BOOL */
      , (12553, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12553, 38, 'South Victory Harbor Portal (17.4N, 48.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12553, 111, 1) /* PORTAL_BITMASK_INT */;
+

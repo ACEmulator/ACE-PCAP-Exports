@@ -33,6 +33,20 @@ VALUES (19523, 13, True) /* ETHEREAL_BOOL */
      , (19523, 19, True) /* ATTACKABLE_BOOL */
      , (19523, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19523, 16, 'A diamond infused ingot, enhanced and stamped with a heavy weapons glyph.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19523, 33, 1) /* BONDED_INT */
+     , (19523, 114, 1) /* ATTUNED_INT */
+     , (19523, 19, 0) /* VALUE_INT */
+     , (19523, 5, 1000) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19523, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

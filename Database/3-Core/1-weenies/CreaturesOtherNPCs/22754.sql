@@ -38,3 +38,34 @@ VALUES (22754, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22754, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (22754, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22754, 15, 'A very large empyrean head. It appears to be watching you.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22754, 384, 0) /*  */
+     , (22754, 370, 0) /* GEAR_DAMAGE_INT */
+     , (22754, 386, 0) /*  */
+     , (22754, 307, 0) /* DAMAGE_RATING_INT */
+     , (22754, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (22754, 387, 0) /*  */
+     , (22754, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (22754, 372, 0) /* GEAR_CRIT_INT */
+     , (22754, 388, 0) /*  */
+     , (22754, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (22754, 389, 0) /*  */
+     , (22754, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (22754, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (22754, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (22754, 313, 0) /* CRIT_RATING_INT */
+     , (22754, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (22754, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (22754, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (22754, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (22754, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (22754, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (22754, 381, 0) /*  */
+     , (22754, 382, 0) /*  */
+     , (22754, 383, 0) /*  */;
+

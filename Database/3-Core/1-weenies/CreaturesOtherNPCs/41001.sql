@@ -39,3 +39,34 @@ VALUES (41001, 13, True) /* ETHEREAL_BOOL */
      , (41001, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (41001, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41001, 16, 'This portal cannot be recalled, linked nor summoned.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41001, 384, 0) /*  */
+     , (41001, 370, 0) /* GEAR_DAMAGE_INT */
+     , (41001, 386, 0) /*  */
+     , (41001, 307, 0) /* DAMAGE_RATING_INT */
+     , (41001, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (41001, 387, 0) /*  */
+     , (41001, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (41001, 372, 0) /* GEAR_CRIT_INT */
+     , (41001, 388, 0) /*  */
+     , (41001, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (41001, 389, 0) /*  */
+     , (41001, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (41001, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (41001, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (41001, 313, 0) /* CRIT_RATING_INT */
+     , (41001, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (41001, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (41001, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (41001, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (41001, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (41001, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (41001, 381, 0) /*  */
+     , (41001, 382, 0) /*  */
+     , (41001, 383, 0) /*  */;
+

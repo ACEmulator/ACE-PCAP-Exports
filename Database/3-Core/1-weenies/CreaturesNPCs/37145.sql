@@ -85,3 +85,16 @@ VALUES (37145, 0, 16783894)
      , (37145, 14, 16788202)
      , (37145, 16, 16783891);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37145, 5, 'Jester''s Prison Jailer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37145, 2, 77) /* CREATURE_TYPE_INT */
+     , (37145, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (37145, 25, 180) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (37145, 64, 525) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

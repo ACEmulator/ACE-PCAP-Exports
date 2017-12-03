@@ -35,3 +35,15 @@ VALUES (35309, 13, True) /* ETHEREAL_BOOL */
      , (35309, 19, True) /* ATTACKABLE_BOOL */
      , (35309, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35309, 14, 'This medallion is used to mark members of the Tanada House of Water.  It is enchanted with magic, but the magic is not tuned properly to humans who have not been corrupted by chaotic Virindi.') /* USE_STRING */
+     , (35309, 15, 'This medallion once belonged to a member of the Tanada clan of Nanjou Shou-Jen.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35309, 33, 1) /* BONDED_INT */
+     , (35309, 114, 1) /* ATTUNED_INT */
+     , (35309, 19, 0) /* VALUE_INT */
+     , (35309, 5, 50) /* ENCUMB_VAL_INT */;
+

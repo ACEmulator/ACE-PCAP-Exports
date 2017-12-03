@@ -33,3 +33,13 @@ VALUES (19721, 13, True) /* ETHEREAL_BOOL */
      , (19721, 19, True) /* ATTACKABLE_BOOL */
      , (19721, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19721, 38, 'Fathomless Chasm Clough') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19721, 86, 40) /* MIN_LEVEL_INT */
+     , (19721, 87, 49) /* MAX_LEVEL_INT */
+     , (19721, 111, 49) /* PORTAL_BITMASK_INT */;
+

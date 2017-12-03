@@ -33,3 +33,12 @@ VALUES (38156, 13, True) /* ETHEREAL_BOOL */
      , (38156, 19, True) /* ATTACKABLE_BOOL */
      , (38156, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38156, 38, 'Blighted Putrid Moarsman Tunnels') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38156, 86, 55) /* MIN_LEVEL_INT */
+     , (38156, 111, 49) /* PORTAL_BITMASK_INT */;
+

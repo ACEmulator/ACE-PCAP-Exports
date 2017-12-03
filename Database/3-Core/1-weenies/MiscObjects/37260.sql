@@ -34,6 +34,15 @@ VALUES (37260, 13, True) /* ETHEREAL_BOOL */
      , (37260, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37260, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37260, 16, 'The Jester card is wild. Use this card in place of any other card for any deck.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37260, 19, 0) /* VALUE_INT */
+     , (37260, 5, 2) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -35,3 +35,11 @@ VALUES (11974, 13, True) /* ETHEREAL_BOOL */
      , (11974, 19, True) /* ATTACKABLE_BOOL */
      , (11974, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11974, 19, 50) /* VALUE_INT */
+     , (11974, 5, 160) /* ENCUMB_VAL_INT */
+     , (11974, 174, 39) /* APPRAISAL_PAGES_INT */
+     , (11974, 175, 39) /* APPRAISAL_MAX_PAGES_INT */;
+

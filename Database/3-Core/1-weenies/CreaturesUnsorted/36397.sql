@@ -44,3 +44,14 @@ VALUES (36397, 67116649, 1, 48)
      , (36397, 67116625, 200, 8)
      , (36397, 67116638, 208, 48);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36397, 113, 1) /* GENDER_INT */
+     , (36397, 2, 58) /* CREATURE_TYPE_INT */
+     , (36397, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (36397, 25, 275) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (36397, 64, 310) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

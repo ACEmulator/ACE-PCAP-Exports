@@ -35,3 +35,17 @@ VALUES (21315, 13, True) /* ETHEREAL_BOOL */
      , (21315, 19, True) /* ATTACKABLE_BOOL */
      , (21315, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21315, 16, 'Inscribed spell: Force Arc VII
+Shoots a bolt of force at the target. The bolt does 115-189 points of piercing damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (21315, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21315, 19, 2000) /* VALUE_INT */
+     , (21315, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21315, 2724) /* ForceArc7_SpellID */;
+

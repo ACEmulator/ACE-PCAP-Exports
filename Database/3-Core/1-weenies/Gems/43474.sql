@@ -53,6 +53,30 @@ VALUES (43474, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43474, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43474, 16, 'Using this gem will cast Towering Defense, which increases your Damage Resistance Rating by 30 for 15 seconds.  This gem has a 1 hour cooldown.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43474, 33, 1) /* BONDED_INT */
+     , (43474, 114, 1) /* ATTUNED_INT */
+     , (43474, 19, 0) /* VALUE_INT */
+     , (43474, 5, 40) /* ENCUMB_VAL_INT */
+     , (43474, 280, 11) /* SHARED_COOLDOWN_INT */
+     , (43474, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (43474, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (43474, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43474, 167, 3600) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43474, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43474, 5450) /* LuminanceRewardDamageReduction_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

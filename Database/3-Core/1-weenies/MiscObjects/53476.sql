@@ -37,3 +37,17 @@ VALUES (53476, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53476, 0, 16796807);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53476, 15, 'A tattered nanjou mask that once belonged to the spectral Daimyo, Idah.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53476, 33, 1) /* BONDED_INT */
+     , (53476, 114, 1) /* ATTUNED_INT */
+     , (53476, 19, 1) /* VALUE_INT */
+     , (53476, 5, 150) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53476, 69, 0) /* IS_SELLABLE_BOOL */;
+

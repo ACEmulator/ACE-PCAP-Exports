@@ -51,6 +51,25 @@ VALUES (27512, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27512, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27512, 14, 'Double-click on this portal gem to transport yourself to exotic and dangerous Nanner Island.') /* USE_STRING */
+     , (27512, 15, 'A nanner-colored portal gem, teeming with energy. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27512, 33, 0) /* BONDED_INT */
+     , (27512, 114, 0) /* ATTUNED_INT */
+     , (27512, 19, 2000) /* VALUE_INT */
+     , (27512, 5, 100) /* ENCUMB_VAL_INT */
+     , (27512, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (27512, 108, 70) /* ITEM_MAX_MANA_INT */
+     , (27512, 109, 10) /* ITEM_DIFFICULTY_INT */
+     , (27512, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27512, 3238) /* PortalSendingNannerIsland_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

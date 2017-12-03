@@ -47,6 +47,22 @@ VALUES (9427, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9427, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9427, 15, 'A gem of bludgeoning protection.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9427, 19, 200) /* VALUE_INT */
+     , (9427, 5, 10) /* ENCUMB_VAL_INT */
+     , (9427, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (9427, 108, 200) /* ITEM_MAX_MANA_INT */
+     , (9427, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (9427, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9427, 2398) /* BludgeonShield_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

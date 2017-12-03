@@ -46,3 +46,15 @@ VALUES (31976, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31976, 0, 16778344);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31976, 16, 'A simple gold wedding ring worn by Geowulf the Stonehearted.') /* LONG_DESC_STRING */
+     , (31976, 14, 'Bring Geowulf''s Wedding Ring to his wife Branwyn in Arwic.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31976, 33, 1) /* BONDED_INT */
+     , (31976, 114, 1) /* ATTUNED_INT */
+     , (31976, 19, 1000) /* VALUE_INT */
+     , (31976, 5, 10) /* ENCUMB_VAL_INT */;
+

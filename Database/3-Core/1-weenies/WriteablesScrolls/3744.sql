@@ -35,3 +35,17 @@ VALUES (3744, 13, True) /* ETHEREAL_BOOL */
      , (3744, 19, True) /* ATTACKABLE_BOOL */
      , (3744, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3744, 16, 'Inscribed spell: Infuse Stamina Other V
+Drains one-quarter of the caster''s Stamina and gives 135% of that to the target.') /* LONG_DESC_STRING */
+     , (3744, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3744, 19, 200) /* VALUE_INT */
+     , (3744, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3744, 1247) /* InfuseStamina5_SpellID */;
+

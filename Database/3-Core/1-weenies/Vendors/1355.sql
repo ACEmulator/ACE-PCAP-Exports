@@ -89,3 +89,26 @@ VALUES (1355, 11, 16777302)
      , (1355, 8, 16781859)
      , (1355, 16, 16778476);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1355, 5, 'Shopkeeper') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (1355, 16, 67109567) /* EYES_PALETTE_DID */
+     , (1355, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (1355, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (1355, 10, 83890540) /* NOSE_TEXTURE_DID */
+     , (1355, 11, 83890619) /* MOUTH_TEXTURE_DID */
+     , (1355, 15, 67117025) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1355, 113, 1) /* GENDER_INT */
+     , (1355, 2, 31) /* CREATURE_TYPE_INT */
+     , (1355, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (1355, 25, 10) /* LEVEL_INT */
+     , (1355, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (1355, 64, 168) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

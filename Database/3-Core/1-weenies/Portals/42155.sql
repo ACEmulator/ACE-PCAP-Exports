@@ -34,3 +34,13 @@ VALUES (42155, 13, True) /* ETHEREAL_BOOL */
      , (42155, 19, True) /* ATTACKABLE_BOOL */
      , (42155, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42155, 16, 'A portal leading to near The Dark Lair outside Greenspire where the Gardener Pincer may be found.') /* LONG_DESC_STRING */
+     , (42155, 38, 'The Dark Lair (43.7N, 68.4W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42155, 86, 20) /* MIN_LEVEL_INT */
+     , (42155, 111, 49) /* PORTAL_BITMASK_INT */;
+

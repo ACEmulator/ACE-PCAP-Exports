@@ -46,6 +46,19 @@ VALUES (30108, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30108, 0, 16778735);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30108, 16, 'This elixir was brewed by Ulgrim the Unpleasant, who had no idea what he was doing at the time.') /* LONG_DESC_STRING */
+     , (30108, 14, 'Use this item to drink it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30108, 17, 69) /* RARE_ID_INT */
+     , (30108, 19, 0) /* VALUE_INT */
+     , (30108, 5, 5) /* ENCUMB_VAL_INT */
+     , (30108, 89, 6) /* BOOSTER_ENUM_INT */
+     , (30108, 90, 500) /* BOOST_VALUE_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

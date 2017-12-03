@@ -40,3 +40,36 @@ VALUES (35180, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35180, 67113750, 160, 8);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35180, 16, 'A pair of hulking bunny slippers.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35180, 19, 0) /* VALUE_INT */
+     , (35180, 5, 500) /* ENCUMB_VAL_INT */
+     , (35180, 106, 30) /* ITEM_SPELLCRAFT_INT */
+     , (35180, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (35180, 28, 50) /* ARMOR_LEVEL_INT */
+     , (35180, 109, 225) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35180, 5, -0.03333) /* MANA_RATE_FLOAT */
+     , (35180, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (35180, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (35180, 15, 0.5) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (35180, 16, 1.3) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (35180, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (35180, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (35180, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (35180, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35180, 100, 1) /* DYABLE_BOOL */
+     , (35180, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35180, 2257) /* JumpingMasterySelf7_SpellID */
+     , (35180, 2529) /* CANTRIPSPRINT2_SpellID */
+     , (35180, 2301) /* SprintSelf7_SpellID */;
+

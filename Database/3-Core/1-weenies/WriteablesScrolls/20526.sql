@@ -35,3 +35,17 @@ VALUES (20526, 13, True) /* ETHEREAL_BOOL */
      , (20526, 19, True) /* ATTACKABLE_BOOL */
      , (20526, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20526, 16, 'Inscribed spell: Sashi Mu''s Kiss
+Decreases the target''s Loyalty skill by 40 points.') /* LONG_DESC_STRING */
+     , (20526, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20526, 19, 2000) /* VALUE_INT */
+     , (20526, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20526, 2230) /* FaithlessnessOther7_SpellID */;
+

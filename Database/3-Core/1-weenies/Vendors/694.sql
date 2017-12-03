@@ -85,3 +85,36 @@ VALUES (694, 2, 16778436)
      , (694, 8, 16778428)
      , (694, 16, 16779635);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (694, 5, 'Barkeeper') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (694, 16, 67109566) /* EYES_PALETTE_DID */
+     , (694, 9, 83890283) /* EYES_TEXTURE_DID */
+     , (694, 17, 67109558) /* SKIN_PALETTE_DID */
+     , (694, 10, 83890317) /* NOSE_TEXTURE_DID */
+     , (694, 11, 83890319) /* MOUTH_TEXTURE_DID */
+     , (694, 15, 67116992) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (694, 113, 2) /* GENDER_INT */
+     , (694, 2, 31) /* CREATURE_TYPE_INT */
+     , (694, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (694, 25, 7) /* LEVEL_INT */
+     , (694, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (694, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (694, 2, 40) /* ENDURANCE_ATTRIBUTE */
+     , (694, 4, 80) /* COORDINATION_ATTRIBUTE */
+     , (694, 8, 70) /* QUICKNESS_ATTRIBUTE */
+     , (694, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (694, 32, 30) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (694, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (694, 128, 140) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (694, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
+

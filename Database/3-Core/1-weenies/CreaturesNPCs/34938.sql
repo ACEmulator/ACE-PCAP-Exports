@@ -79,3 +79,26 @@ VALUES (34938, 0, 16788885)
      , (34938, 12, 16788891)
      , (34938, 16, 16789125);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34938, 5, 'Representative of Asheron') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34938, 2, 13) /* CREATURE_TYPE_INT */
+     , (34938, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (34938, 25, 500) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (34938, 1, 900) /* STRENGTH_ATTRIBUTE */
+     , (34938, 2, 850) /* ENDURANCE_ATTRIBUTE */
+     , (34938, 4, 900) /* COORDINATION_ATTRIBUTE */
+     , (34938, 8, 800) /* QUICKNESS_ATTRIBUTE */
+     , (34938, 16, 850) /* FOCUS_ATTRIBUTE */
+     , (34938, 32, 890) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34938, 64, 1625) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (34938, 128, 1905) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (34938, 256, 2100) /* MAX_MANA_ATTRIBUTE_2ND */;
+

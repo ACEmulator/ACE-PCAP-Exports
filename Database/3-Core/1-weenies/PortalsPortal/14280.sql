@@ -33,3 +33,11 @@ VALUES (14280, 13, True) /* ETHEREAL_BOOL */
      , (14280, 19, True) /* ATTACKABLE_BOOL */
      , (14280, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14280, 38, 'Sai-Nan Portal (44.6S, 75.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14280, 111, 1) /* PORTAL_BITMASK_INT */;
+

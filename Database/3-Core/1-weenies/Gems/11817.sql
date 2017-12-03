@@ -38,6 +38,16 @@ VALUES (11817, 13, True) /* ETHEREAL_BOOL */
      , (11817, 19, True) /* ATTACKABLE_BOOL */
      , (11817, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11817, 16, 'A Shreth Crest.') /* LONG_DESC_STRING */
+     , (11817, 14, 'You can combine this with a hafted Shreth Banner.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11817, 19, 0) /* VALUE_INT */
+     , (11817, 5, 50) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

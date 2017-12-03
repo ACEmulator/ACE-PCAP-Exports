@@ -34,3 +34,20 @@ VALUES (38374, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38374, 0, 16787383);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38374, 16, 'The severed head of T''thuun''s Sclavus servant, Skith''Kirit.') /* LONG_DESC_STRING */
+     , (38374, 14, 'Bring this head to Alicia Bladesworn.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38374, 33, 1) /* BONDED_INT */
+     , (38374, 114, 1) /* ATTUNED_INT */
+     , (38374, 19, 0) /* VALUE_INT */
+     , (38374, 5, 200) /* ENCUMB_VAL_INT */
+     , (38374, 279, 1) /* UNIQUE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38374, 99, 0) /* IVORYABLE_BOOL */
+     , (38374, 69, 0) /* IS_SELLABLE_BOOL */;
+

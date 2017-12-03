@@ -35,3 +35,17 @@ VALUES (20399, 13, True) /* ETHEREAL_BOOL */
      , (20399, 19, True) /* ATTACKABLE_BOOL */
      , (20399, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20399, 16, 'Inscribed spell: Devour Life Magic Self
+Dispels 3-6 negative Life Magic enchantments of level 4 or lower from the caster.') /* LONG_DESC_STRING */
+     , (20399, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20399, 19, 100) /* VALUE_INT */
+     , (20399, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20399, 1978) /* DispelLifeBadSelf4_SpellID */;
+

@@ -56,3 +56,23 @@ VALUES (11985, 0, 83887061, 83892990)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11985, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11985, 16, 'Some tattered shreds of the Dread Ursuin''s pelt that you have managed to assemble into a coat.  The creature''s healing ability seems to have not gone away with its death, allowing for the coat to seal itself as you watch.  It''s actually quite morbid.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11985, 19, 3500) /* VALUE_INT */
+     , (11985, 5, 1100) /* ENCUMB_VAL_INT */
+     , (11985, 28, 150) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (11985, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (11985, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (11985, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (11985, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (11985, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (11985, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (11985, 19, 2.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (11985, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

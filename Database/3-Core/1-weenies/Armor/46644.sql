@@ -50,3 +50,47 @@ VALUES (46644, 0, 83887064, 83899099)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46644, 0, 16778358);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46644, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (46644, 33, 1) /* BONDED_INT */
+     , (46644, 179, 4096) /* IMBUED_EFFECT_INT */
+     , (46644, 19, 18000) /* VALUE_INT */
+     , (46644, 5, 350) /* ENCUMB_VAL_INT */
+     , (46644, 265, 89) /* EQUIPMENT_SET_ID_INT */
+     , (46644, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (46644, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (46644, 28, 420) /* ARMOR_LEVEL_INT */
+     , (46644, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (46644, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (46644, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46644, 5, -0.0167) /* MANA_RATE_FLOAT */
+     , (46644, 13, 0.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (46644, 14, 0.6) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (46644, 15, 0.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (46644, 16, 1.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (46644, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (46644, 18, 1.2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (46644, 19, 1.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (46644, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46644, 100, 1) /* DYABLE_BOOL */
+     , (46644, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46644, 4299) /* EnduranceSelf8_SpellID */
+     , (46644, 4699) /* CANTRIPJUMPINGPROWESS3_SpellID */
+     , (46644, 4572) /* JumpingMasterySelf8_SpellID */
+     , (46644, 4391) /* AcidBane8_SpellID */
+     , (46644, 4393) /* BladeBane8_SpellID */
+     , (46644, 4397) /* BludgeonBane8_SpellID */
+     , (46644, 4401) /* FlameBane8_SpellID */
+     , (46644, 4403) /* FrostBane8_SpellID */
+     , (46644, 4407) /* Impenetrability8_SpellID */
+     , (46644, 4409) /* LightningBane8_SpellID */
+     , (46644, 4412) /* PiercingBane8_SpellID */;
+

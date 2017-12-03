@@ -40,3 +40,26 @@ VALUES (8473, 13, True) /* ETHEREAL_BOOL */
      , (8473, 19, True) /* ATTACKABLE_BOOL */
      , (8473, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8473, 16, 'A battle axe shaped out of an armoredillo spine. A cool sea breeze washes over you as you wield it.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8473, 353, 3) /* WEAPON_TYPE_INT */
+     , (8473, 19, 2000) /* VALUE_INT */
+     , (8473, 5, 675) /* ENCUMB_VAL_INT */
+     , (8473, 47, 4) /* ATTACK_TYPE_INT */
+     , (8473, 45, 8) /* DAMAGE_TYPE_INT */
+     , (8473, 49, 40) /* WEAPON_TIME_INT */
+     , (8473, 48, 46) /* WEAPON_SKILL_INT */
+     , (8473, 44, 20) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8473, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (8473, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (8473, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (8473, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (8473, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (8473, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */;
+

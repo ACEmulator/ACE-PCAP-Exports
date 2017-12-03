@@ -51,6 +51,27 @@ VALUES (41456, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41456, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41456, 16, 'This essence is eternal. Use this essence to increase your Arcane Lore by 32.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41456, 176, 20) /* APPRAISAL_ITEM_SKILL_INT */
+     , (41456, 115, 175) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (41456, 19, 0) /* VALUE_INT */
+     , (41456, 5, 10) /* ENCUMB_VAL_INT */
+     , (41456, 280, 9) /* SHARED_COOLDOWN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41456, 167, 30) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41456, 63, 1) /* UNLIMITED_USE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41456, 5155) /* DeceptionArcane4_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

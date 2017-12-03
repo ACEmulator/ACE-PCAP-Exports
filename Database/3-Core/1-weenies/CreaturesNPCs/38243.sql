@@ -95,3 +95,38 @@ VALUES (38243, 12, 16777304)
      , (38243, 4, 16781838)
      , (38243, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38243, 5, 'High Priest Task Master') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38243, 16, 67110062) /* EYES_PALETTE_DID */
+     , (38243, 9, 83890485) /* EYES_TEXTURE_DID */
+     , (38243, 17, 67109554) /* SKIN_PALETTE_DID */
+     , (38243, 10, 83890543) /* NOSE_TEXTURE_DID */
+     , (38243, 11, 83890600) /* MOUTH_TEXTURE_DID */
+     , (38243, 15, 67117023) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38243, 288, 1001) /* SOCIETY_RANK_ELDWEB_INT */
+     , (38243, 113, 1) /* GENDER_INT */
+     , (38243, 2, 31) /* CREATURE_TYPE_INT */
+     , (38243, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38243, 25, 220) /* LEVEL_INT */
+     , (38243, 281, 2) /* FACTION1_BITS_INT */
+     , (38243, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38243, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (38243, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (38243, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (38243, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (38243, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (38243, 32, 90) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38243, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38243, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38243, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
+

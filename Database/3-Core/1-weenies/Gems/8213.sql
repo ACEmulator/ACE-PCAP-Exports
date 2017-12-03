@@ -41,6 +41,24 @@ VALUES (8213, 13, True) /* ETHEREAL_BOOL */
      , (8213, 19, True) /* ATTACKABLE_BOOL */
      , (8213, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8213, 16, 'A spherical blue gem, made from the egg of a Knath''taed.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8213, 33, 1) /* BONDED_INT */
+     , (8213, 114, 1) /* ATTUNED_INT */
+     , (8213, 19, 1000) /* VALUE_INT */
+     , (8213, 5, 5) /* ENCUMB_VAL_INT */
+     , (8213, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (8213, 108, 70) /* ITEM_MAX_MANA_INT */
+     , (8213, 109, 40) /* ITEM_DIFFICULTY_INT */
+     , (8213, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8213, 2016) /* Impulse_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

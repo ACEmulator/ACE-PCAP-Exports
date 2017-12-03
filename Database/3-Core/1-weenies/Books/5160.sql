@@ -33,6 +33,17 @@ VALUES (5160, 13, True) /* ETHEREAL_BOOL */
      , (5160, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5160, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5160, 16, 'A letter of introduction, addressed to Jilsaya bint Dah in al-Arqas from Sarqah bint Ak in the North Outpost.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5160, 19, 0) /* VALUE_INT */
+     , (5160, 5, 25) /* ENCUMB_VAL_INT */
+     , (5160, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (5160, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

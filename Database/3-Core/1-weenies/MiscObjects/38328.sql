@@ -45,3 +45,18 @@ VALUES (38328, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38328, 0, 16778735);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38328, 16, 'Holding this bottle is a bad idea. It burns or freezes your skin and a whispers wash over you in volume, urging you to pop the stopper and drink the disgusting ichor. Best if you keep it in your backpack and handle it with thick gloves.') /* LONG_DESC_STRING */
+     , (38328, 14, 'Return this to your faction.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38328, 33, 1) /* BONDED_INT */
+     , (38328, 114, 1) /* ATTUNED_INT */
+     , (38328, 19, 0) /* VALUE_INT */
+     , (38328, 5, 25) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38328, 69, 0) /* IS_SELLABLE_BOOL */;
+

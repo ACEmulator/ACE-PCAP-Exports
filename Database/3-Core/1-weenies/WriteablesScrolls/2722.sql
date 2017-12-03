@@ -35,3 +35,17 @@ VALUES (2722, 13, True) /* ETHEREAL_BOOL */
      , (2722, 19, True) /* ATTACKABLE_BOOL */
      , (2722, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2722, 16, 'Inscribed spell: Revitalize Other II
+Restores 20-45 points of the target''s Stamina.') /* LONG_DESC_STRING */
+     , (2722, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2722, 19, 5) /* VALUE_INT */
+     , (2722, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2722, 1184) /* RevitalizeOther2_SpellID */;
+

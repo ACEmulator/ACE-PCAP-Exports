@@ -38,3 +38,37 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (40456, 67116018, 207, 33)
      , (40456, 67116026, 174, 33);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40456, 33, 1) /* BONDED_INT */
+     , (40456, 114, 1) /* ATTUNED_INT */
+     , (40456, 19, 0) /* VALUE_INT */
+     , (40456, 5, 250) /* ENCUMB_VAL_INT */
+     , (40456, 106, 100) /* ITEM_SPELLCRAFT_INT */
+     , (40456, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (40456, 28, 50) /* ARMOR_LEVEL_INT */
+     , (40456, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40456, 5, -0.0333333) /* MANA_RATE_FLOAT */
+     , (40456, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (40456, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (40456, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (40456, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (40456, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (40456, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (40456, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (40456, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40456, 99, 1) /* IVORYABLE_BOOL */
+     , (40456, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40456, 1350) /* EnduranceSelf2_SpellID */
+     , (40456, 1482) /* Impenetrability2_SpellID */
+     , (40456, 1422) /* FocusSelf2_SpellID */
+     , (40456, 1446) /* WillpowerSelf2_SpellID */
+     , (40456, 1328) /* StrengthSelf2_SpellID */;
+

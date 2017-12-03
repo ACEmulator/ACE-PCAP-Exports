@@ -47,3 +47,25 @@ VALUES (51374, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51374, 0, 16778334);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51374, 15, 'A bracelet of lightning protection, given by Behdo Yii for completing the Hive Warrior quest.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51374, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (51374, 19, 20000) /* VALUE_INT */
+     , (51374, 5, 60) /* ENCUMB_VAL_INT */
+     , (51374, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (51374, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (51374, 109, 300) /* ITEM_DIFFICULTY_INT */
+     , (51374, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (51374, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (51374, 5, -0.04) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (51374, 4469) /* LightningProtectionOther8_SpellID */
+     , (51374, 6079) /* CantripStormWard4_SpellID */;
+

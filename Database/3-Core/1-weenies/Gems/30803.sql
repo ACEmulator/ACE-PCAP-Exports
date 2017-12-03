@@ -39,6 +39,29 @@ VALUES (30803, 13, True) /* ETHEREAL_BOOL */
      , (30803, 15, True) /* LIGHTS_STATUS_BOOL */
      , (30803, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30803, 14, 'Double Click on this item to summon a portal to the Singularity Caul.') /* USE_STRING */
+     , (30803, 15, 'A small, blackened seed with golden runes etched into its side.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30803, 33, 0) /* BONDED_INT */
+     , (30803, 114, 0) /* ATTUNED_INT */
+     , (30803, 19, 400) /* VALUE_INT */
+     , (30803, 5, 50) /* ENCUMB_VAL_INT */
+     , (30803, 280, 1000) /* SHARED_COOLDOWN_INT */
+     , (30803, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (30803, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (30803, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30803, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30803, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30803, 157) /* SummonPortal1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

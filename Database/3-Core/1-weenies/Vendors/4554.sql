@@ -86,6 +86,29 @@ VALUES (4554, 11, 16777302)
      , (4554, 4, 16777291)
      , (4554, 8, 16777298);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4554, 5, 'Scribe') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (4554, 16, 67110063) /* EYES_PALETTE_DID */
+     , (4554, 9, 83890448) /* EYES_TEXTURE_DID */
+     , (4554, 17, 67110054) /* SKIN_PALETTE_DID */
+     , (4554, 10, 83890555) /* NOSE_TEXTURE_DID */
+     , (4554, 11, 83890582) /* MOUTH_TEXTURE_DID */
+     , (4554, 15, 67117069) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4554, 113, 1) /* GENDER_INT */
+     , (4554, 2, 31) /* CREATURE_TYPE_INT */
+     , (4554, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (4554, 25, 6) /* LEVEL_INT */
+     , (4554, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (4554, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -45,3 +45,41 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (29259, 67115360, 1, 55)
      , (29259, 67115363, 56, 200);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29259, 16, 'Acid Sceptre of Flame') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29259, 160, 355) /* WIELD_DIFFICULTY_INT */
+     , (29259, 177, 4) /* GEM_COUNT_INT */
+     , (29259, 178, 34) /* GEM_TYPE_INT */
+     , (29259, 19, 12365) /* VALUE_INT */
+     , (29259, 179, 1) /* IMBUED_EFFECT_INT */
+     , (29259, 131, 59) /* MATERIAL_TYPE_INT */
+     , (29259, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (29259, 5, 50) /* ENCUMB_VAL_INT */
+     , (29259, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (29259, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (29259, 171, 10) /* NUM_TIMES_TINKERED_INT */
+     , (29259, 108, 4045) /* ITEM_MAX_MANA_INT */
+     , (29259, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (29259, 109, 324) /* ITEM_DIFFICULTY_INT */
+     , (29259, 45, 32) /* DAMAGE_TYPE_INT */
+     , (29259, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (29259, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (29259, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29259, 144, 0.162) /* MANA_CONVERSION_MOD_FLOAT */
+     , (29259, 152, 1.37) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (29259, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (29259, 29, 1.37) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (29259, 4439) /* FlameBolt8_SpellID */
+     , (29259, 4418) /* TrueValue8_SpellID */
+     , (29259, 6098) /* CantripSpiritThirst4_SpellID */
+     , (29259, 4638) /* WarMagicMasterySelf8_SpellID */
+     , (29259, 3259) /* SpiritDrinker7_SpellID */;
+

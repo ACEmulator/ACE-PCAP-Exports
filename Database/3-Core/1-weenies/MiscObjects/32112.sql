@@ -37,3 +37,17 @@ VALUES (32112, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32112, 67111924, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32112, 16, 'The owner of this plaque is a verified "Voracious Hunter"!') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32112, 33, 1) /* BONDED_INT */
+     , (32112, 114, 1) /* ATTUNED_INT */
+     , (32112, 19, 0) /* VALUE_INT */
+     , (32112, 5, 5) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32112, 99, 1) /* IVORYABLE_BOOL */;
+

@@ -31,3 +31,14 @@ VALUES (37168, 13, True) /* ETHEREAL_BOOL */
      , (37168, 19, True) /* ATTACKABLE_BOOL */
      , (37168, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37168, 16, 'This heavy, golden seal is moldy with grave dust and engraved with the runes of Dericost.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37168, 33, 1) /* BONDED_INT */
+     , (37168, 114, 1) /* ATTUNED_INT */
+     , (37168, 19, 0) /* VALUE_INT */
+     , (37168, 5, 50) /* ENCUMB_VAL_INT */;
+

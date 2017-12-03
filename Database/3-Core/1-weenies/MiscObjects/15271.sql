@@ -49,3 +49,17 @@ VALUES (15271, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15271, 0, 16778611);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15271, 15, 'A foci used to cast spells from the School of the Arm.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15271, 33, 1) /* BONDED_INT */
+     , (15271, 114, 1) /* ATTUNED_INT */
+     , (15271, 19, 500) /* VALUE_INT */
+     , (15271, 5, 400) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (15271, 69, 0) /* IS_SELLABLE_BOOL */;
+

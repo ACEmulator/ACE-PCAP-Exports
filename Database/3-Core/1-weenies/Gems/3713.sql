@@ -47,6 +47,22 @@ VALUES (3713, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3713, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3713, 16, 'Swamp Gem of Quickness.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3713, 19, 750) /* VALUE_INT */
+     , (3713, 5, 10) /* ENCUMB_VAL_INT */
+     , (3713, 106, 100) /* ITEM_SPELLCRAFT_INT */
+     , (3713, 108, 30) /* ITEM_MAX_MANA_INT */
+     , (3713, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (3713, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3713, 1405) /* QuicknessOther3_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -34,3 +34,18 @@ VALUES (38382, 13, True) /* ETHEREAL_BOOL */
      , (38382, 19, True) /* ATTACKABLE_BOOL */
      , (38382, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38382, 16, 'A solid, heavy key that has seen a lot of recent use.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38382, 33, 0) /* BONDED_INT */
+     , (38382, 114, 0) /* ATTUNED_INT */
+     , (38382, 19, 0) /* VALUE_INT */
+     , (38382, 5, 15) /* ENCUMB_VAL_INT */
+     , (38382, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38382, 69, 0) /* IS_SELLABLE_BOOL */;
+

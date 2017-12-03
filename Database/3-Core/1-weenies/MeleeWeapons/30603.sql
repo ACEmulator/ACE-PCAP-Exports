@@ -47,3 +47,44 @@ VALUES (30603, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30603, 0, 16792137);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30603, 16, 'Flaming Stiletto of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30603, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30603, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (30603, 353, 6) /* WEAPON_TYPE_INT */
+     , (30603, 19, 1315) /* VALUE_INT */
+     , (30603, 131, 63) /* MATERIAL_TYPE_INT */
+     , (30603, 115, 182) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30603, 5, 158) /* ENCUMB_VAL_INT */
+     , (30603, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (30603, 106, 162) /* ITEM_SPELLCRAFT_INT */
+     , (30603, 108, 434) /* ITEM_MAX_MANA_INT */
+     , (30603, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30603, 109, 45) /* ITEM_DIFFICULTY_INT */
+     , (30603, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30603, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30603, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (30603, 47, 160) /* ATTACK_TYPE_INT */
+     , (30603, 45, 16) /* DAMAGE_TYPE_INT */
+     , (30603, 49, 35) /* WEAPON_TIME_INT */
+     , (30603, 48, 44) /* WEAPON_SKILL_INT */
+     , (30603, 44, 19) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30603, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (30603, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (30603, 22, 0.58) /* DAMAGE_VARIANCE_FLOAT */
+     , (30603, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30603, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30603, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30603, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30603, 1614) /* BloodDrinker4_SpellID */
+     , (30603, 2588) /* CANTRIPDEFENDER2_SpellID */
+     , (30603, 5806) /* dualwieldmasteryself4_SpellID */;
+

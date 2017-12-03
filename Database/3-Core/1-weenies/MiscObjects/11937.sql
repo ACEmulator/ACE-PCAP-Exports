@@ -31,3 +31,12 @@ VALUES (11937, 13, True) /* ETHEREAL_BOOL */
      , (11937, 19, True) /* ATTACKABLE_BOOL */
      , (11937, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11937, 15, 'This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11937, 19, 100000) /* VALUE_INT */
+     , (11937, 5, 50) /* ENCUMB_VAL_INT */;
+

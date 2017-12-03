@@ -88,6 +88,26 @@ VALUES (44241, 0, 16795526)
      , (44241, 15, 16795541)
      , (44241, 16, 16795542);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44241, 2, 101) /* CREATURE_TYPE_INT */
+     , (44241, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (44241, 25, 250) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (44241, 1, 220) /* STRENGTH_ATTRIBUTE */
+     , (44241, 2, 270) /* ENDURANCE_ATTRIBUTE */
+     , (44241, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (44241, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (44241, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (44241, 32, 290) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44241, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (44241, 128, 466) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (44241, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)

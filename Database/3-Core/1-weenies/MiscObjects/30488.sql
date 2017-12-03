@@ -44,3 +44,14 @@ VALUES (30488, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30488, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30488, 16, 'A bulging bag of rye seed, stolen from Alfrin the farmer.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30488, 33, 1) /* BONDED_INT */
+     , (30488, 114, 1) /* ATTUNED_INT */
+     , (30488, 19, 0) /* VALUE_INT */
+     , (30488, 5, 10) /* ENCUMB_VAL_INT */;
+

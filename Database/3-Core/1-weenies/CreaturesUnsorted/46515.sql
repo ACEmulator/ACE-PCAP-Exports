@@ -87,3 +87,35 @@ VALUES (46515, 0, 16796693)
      , (46515, 12, 16796687)
      , (46515, 16, 16796691);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46515, 2, 77) /* CREATURE_TYPE_INT */
+     , (46515, 25, 220) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46515, 64, 2850) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46515, 2, 77) /* CREATURE_TYPE_INT */
+     , (46515, 307, 10) /* DAMAGE_RATING_INT */
+     , (46515, 308, 10) /* DAMAGE_RESIST_RATING_INT */
+     , (46515, 25, 220) /* LEVEL_INT */
+     , (46515, 313, 5) /* CRIT_RATING_INT */
+     , (46515, 316, 5) /* CRIT_DAMAGE_RESIST_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (46515, 1, 500) /* STRENGTH_ATTRIBUTE */
+     , (46515, 2, 500) /* ENDURANCE_ATTRIBUTE */
+     , (46515, 4, 350) /* COORDINATION_ATTRIBUTE */
+     , (46515, 8, 350) /* QUICKNESS_ATTRIBUTE */
+     , (46515, 16, 300) /* FOCUS_ATTRIBUTE */
+     , (46515, 32, 300) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46515, 64, 2850) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (46515, 128, 3100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (46515, 256, 3000) /* MAX_MANA_ATTRIBUTE_2ND */;
+

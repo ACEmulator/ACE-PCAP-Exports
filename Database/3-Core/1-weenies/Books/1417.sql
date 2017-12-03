@@ -34,6 +34,14 @@ VALUES (1417, 13, True) /* ETHEREAL_BOOL */
      , (1417, 14, True) /* GRAVITY_STATUS_BOOL */
      , (1417, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1417, 19, 5) /* VALUE_INT */
+     , (1417, 5, 25) /* ENCUMB_VAL_INT */
+     , (1417, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (1417, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

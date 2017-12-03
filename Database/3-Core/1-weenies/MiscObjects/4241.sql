@@ -46,3 +46,9 @@ VALUES (4241, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4241, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4241, 19, 75) /* VALUE_INT */
+     , (4241, 5, 900) /* ENCUMB_VAL_INT */;
+

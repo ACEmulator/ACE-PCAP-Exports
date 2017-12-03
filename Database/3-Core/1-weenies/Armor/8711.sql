@@ -49,3 +49,28 @@ VALUES (8711, 0, 83886796, 83886791)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8711, 0, 16778363);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8711, 19, 1) /* VALUE_INT */
+     , (8711, 5, 400) /* ENCUMB_VAL_INT */
+     , (8711, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (8711, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (8711, 28, 100) /* ARMOR_LEVEL_INT */
+     , (8711, 109, 15) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8711, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (8711, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8711, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8711, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8711, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8711, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8711, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8711, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8711, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8711, 1483) /* Impenetrability3_SpellID */
+     , (8711, 686) /* ArcaneEnlightenmentOther3_SpellID */;
+

@@ -79,3 +79,26 @@ VALUES (34498, 0, 16788885)
      , (34498, 12, 16788891)
      , (34498, 16, 16789125);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34498, 5, 'Custodian of Artifacts') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34498, 2, 13) /* CREATURE_TYPE_INT */
+     , (34498, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (34498, 25, 720) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (34498, 1, 980) /* STRENGTH_ATTRIBUTE */
+     , (34498, 2, 940) /* ENDURANCE_ATTRIBUTE */
+     , (34498, 4, 930) /* COORDINATION_ATTRIBUTE */
+     , (34498, 8, 850) /* QUICKNESS_ATTRIBUTE */
+     , (34498, 16, 850) /* FOCUS_ATTRIBUTE */
+     , (34498, 32, 885) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34498, 64, 1870) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (34498, 128, 2291) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (34498, 256, 2286) /* MAX_MANA_ATTRIBUTE_2ND */;
+

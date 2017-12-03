@@ -31,3 +31,14 @@ VALUES (24925, 13, True) /* ETHEREAL_BOOL */
      , (24925, 19, True) /* ATTACKABLE_BOOL */
      , (24925, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24925, 15, 'The carapace of a departed Olthoi Brood Queen Elder.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24925, 33, 1) /* BONDED_INT */
+     , (24925, 114, 1) /* ATTUNED_INT */
+     , (24925, 19, 0) /* VALUE_INT */
+     , (24925, 5, 50) /* ENCUMB_VAL_INT */;
+

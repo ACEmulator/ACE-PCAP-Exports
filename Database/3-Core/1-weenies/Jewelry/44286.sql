@@ -46,3 +46,25 @@ VALUES (44286, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44286, 0, 16778334);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44286, 16, 'This bracelet increases self.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44286, 160, 150) /* WIELD_DIFFICULTY_INT */
+     , (44286, 19, 20) /* VALUE_INT */
+     , (44286, 5, 60) /* ENCUMB_VAL_INT */
+     , (44286, 106, 450) /* ITEM_SPELLCRAFT_INT */
+     , (44286, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (44286, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (44286, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (44286, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (44286, 5, -0.0333333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (44286, 4227) /* CANTRIPWILLPOWER3_SpellID */
+     , (44286, 4328) /* WillpowerOther8_SpellID */;
+

@@ -38,3 +38,23 @@ VALUES (8152, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8152, 0, 16784996);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8152, 16, 'A mask that is finely stitched, managing to keep the fur looking natural, while maneuvering the natural features to fit a human head.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8152, 19, 1000) /* VALUE_INT */
+     , (8152, 5, 600) /* ENCUMB_VAL_INT */
+     , (8152, 28, 10) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8152, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8152, 14, 0.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8152, 15, 0.5) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8152, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8152, 17, 0.35) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8152, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8152, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8152, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

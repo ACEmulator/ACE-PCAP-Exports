@@ -50,3 +50,39 @@ VALUES (8029, 0, 83890137, 83890134);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8029, 0, 16778320);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8029, 16, 'A shield imbued with the power of the Fenmalain Crystal.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8029, 176, 48) /* APPRAISAL_ITEM_SKILL_INT */
+     , (8029, 114, 1) /* ATTUNED_INT */
+     , (8029, 115, 190) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (8029, 19, 1000) /* VALUE_INT */
+     , (8029, 36, 9999) /* RESIST_MAGIC_INT */
+     , (8029, 5, 690) /* ENCUMB_VAL_INT */
+     , (8029, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (8029, 108, 250) /* ITEM_MAX_MANA_INT */
+     , (8029, 28, 90) /* ARMOR_LEVEL_INT */
+     , (8029, 109, 1) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8029, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (8029, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8029, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8029, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8029, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8029, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8029, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8029, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8029, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8029, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8029, 2003) /* WarriorsLesserVitality_SpellID */
+     , (8029, 2007) /* WarriorsLesserVigor_SpellID */
+     , (8029, 246) /* InvulnerabilitySelf3_SpellID */;
+

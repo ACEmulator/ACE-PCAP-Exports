@@ -33,3 +33,19 @@ VALUES (35876, 13, True) /* ETHEREAL_BOOL */
      , (35876, 19, True) /* ATTACKABLE_BOOL */
      , (35876, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35876, 16, 'A small spherical gland retrieved from a Paradox-touched Olthoi.  It smells absolutely horrible.') /* LONG_DESC_STRING */
+     , (35876, 14, 'Use this gland to bypass the Sealed Olthoi Passage in the bottom of the Deeper Catacombs of the Paradox-touched Olthoi.  Once used, this gland should mask your scent for 2 hours.  (**Note:  This gland will not work for characters below 120th level.)') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35876, 33, 1) /* BONDED_INT */
+     , (35876, 114, 1) /* ATTUNED_INT */
+     , (35876, 19, 0) /* VALUE_INT */
+     , (35876, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35876, 99, 0) /* IVORYABLE_BOOL */
+     , (35876, 69, 0) /* IS_SELLABLE_BOOL */;
+

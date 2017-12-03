@@ -33,3 +33,9 @@ VALUES (22221, 13, True) /* ETHEREAL_BOOL */
      , (22221, 19, True) /* ATTACKABLE_BOOL */
      , (22221, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22221, 19, 3226) /* VALUE_INT */
+     , (22221, 5, 50) /* ENCUMB_VAL_INT */;
+

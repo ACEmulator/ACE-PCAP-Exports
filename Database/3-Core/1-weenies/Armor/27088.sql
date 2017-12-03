@@ -43,3 +43,40 @@ VALUES (27088, 67109944, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27088, 0, 16785648);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27088, 16, 'A large horned helm with the horns of a large mattekar.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27088, 160, 40) /* WIELD_DIFFICULTY_INT */
+     , (27088, 19, 2000) /* VALUE_INT */
+     , (27088, 5, 900) /* ENCUMB_VAL_INT */
+     , (27088, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (27088, 28, 300) /* ARMOR_LEVEL_INT */
+     , (27088, 108, 200) /* ITEM_MAX_MANA_INT */
+     , (27088, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (27088, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27088, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (27088, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (27088, 14, 0.7) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (27088, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (27088, 16, 0.7) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (27088, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (27088, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (27088, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (27088, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27088, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27088, 1538) /* LightningBane4_SpellID */
+     , (27088, 1027) /* BludgeonProtectionOther4_SpellID */
+     , (27088, 1550) /* FlameBane4_SpellID */
+     , (27088, 1496) /* AcidBane4_SpellID */
+     , (27088, 883) /* HealingMasteryOther4_SpellID */
+     , (27088, 1526) /* FrostBane4_SpellID */;
+

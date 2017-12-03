@@ -35,6 +35,15 @@ VALUES (4747, 13, True) /* ETHEREAL_BOOL */
      , (4747, 14, True) /* GRAVITY_STATUS_BOOL */
      , (4747, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4747, 14, 'This item is used in alchemy.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4747, 19, 500) /* VALUE_INT */
+     , (4747, 5, 25) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

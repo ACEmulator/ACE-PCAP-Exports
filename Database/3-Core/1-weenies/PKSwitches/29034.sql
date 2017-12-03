@@ -32,3 +32,12 @@ VALUES (29034, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (29034, 19, True) /* ATTACKABLE_BOOL */
      , (29034, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29034, 15, 'Using this eye will sever the protection granted to you by Asheron, you will become a Player Killer. This means that you can attack others freed in this manner, and they can attack you.  Be warned: returning to Asheron''s protection is difficult.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29034, 19, 0) /* VALUE_INT */
+     , (29034, 5, 50) /* ENCUMB_VAL_INT */;
+

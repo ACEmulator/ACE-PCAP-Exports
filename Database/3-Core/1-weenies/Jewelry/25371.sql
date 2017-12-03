@@ -44,3 +44,32 @@ VALUES (25371, 0, 83888956, 83893821);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25371, 0, 16778334);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25371, 16, 'A bracelet, forged in pyreal, stained dark with the taint of corruption. Several diamonds and oddly shaped crystals adorn the thick band of this bracelet. A palpable taint of corruption emanates from within a large white opal that is set into the metal.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25371, 160, 60) /* WIELD_DIFFICULTY_INT */
+     , (25371, 33, 1) /* BONDED_INT */
+     , (25371, 114, 1) /* ATTUNED_INT */
+     , (25371, 19, 8000) /* VALUE_INT */
+     , (25371, 36, 9999) /* RESIST_MAGIC_INT */
+     , (25371, 5, 150) /* ENCUMB_VAL_INT */
+     , (25371, 106, 320) /* ITEM_SPELLCRAFT_INT */
+     , (25371, 108, 1200) /* ITEM_MAX_MANA_INT */
+     , (25371, 109, 50) /* ITEM_DIFFICULTY_INT */
+     , (25371, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (25371, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25371, 5, -0.033) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25371, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (25371, 2625) /* CANTRIPSTAMINAGAIN2_SpellID */
+     , (25371, 1450) /* WillpowerSelf6_SpellID */
+     , (25371, 2623) /* CANTRIPHEALTHGAIN2_SpellID */;
+

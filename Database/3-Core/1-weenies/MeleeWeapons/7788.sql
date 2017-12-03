@@ -50,3 +50,29 @@ VALUES (7788, 0, 83889088, 83889088)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7788, 0, 16784596);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7788, 16, 'Fire Spiked Club') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7788, 353, 4) /* WEAPON_TYPE_INT */
+     , (7788, 19, 589) /* VALUE_INT */
+     , (7788, 131, 76) /* MATERIAL_TYPE_INT */
+     , (7788, 5, 722) /* ENCUMB_VAL_INT */
+     , (7788, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (7788, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (7788, 47, 4) /* ATTACK_TYPE_INT */
+     , (7788, 45, 16) /* DAMAGE_TYPE_INT */
+     , (7788, 49, 37) /* WEAPON_TIME_INT */
+     , (7788, 48, 45) /* WEAPON_SKILL_INT */
+     , (7788, 44, 11) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7788, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (7788, 22, 0.32) /* DAMAGE_VARIANCE_FLOAT */
+     , (7788, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (7788, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (7788, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (7788, 62, 1.02) /* WEAPON_OFFENSE_FLOAT */;
+

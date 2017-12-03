@@ -35,3 +35,17 @@ VALUES (45272, 13, True) /* ETHEREAL_BOOL */
      , (45272, 19, True) /* ATTACKABLE_BOOL */
      , (45272, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45272, 16, 'Inscribed spell: Dual Wield Mastery Other V
+Increases the target''s Dual Wield skill by 30 points.') /* LONG_DESC_STRING */
+     , (45272, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45272, 19, 200) /* VALUE_INT */
+     , (45272, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (45272, 5799) /* dualwieldmasteryother5_SpellID */;
+

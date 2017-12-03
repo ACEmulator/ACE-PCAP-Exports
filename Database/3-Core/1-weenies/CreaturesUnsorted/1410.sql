@@ -54,3 +54,12 @@ VALUES (1410, 1, 16784273)
      , (1410, 9, 16784289)
      , (1410, 12, 16784289);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1410, 2, 3) /* CREATURE_TYPE_INT */
+     , (1410, 25, 15) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (1410, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

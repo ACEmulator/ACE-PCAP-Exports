@@ -35,3 +35,17 @@ VALUES (7518, 13, True) /* ETHEREAL_BOOL */
      , (7518, 19, True) /* ATTACKABLE_BOOL */
      , (7518, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7518, 16, 'Inscribed spell: Slithering Flames
+Sends a wall of five balls of fire, two high, slowly towards the target. Each ball does 35-70 points of fire damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* LONG_DESC_STRING */
+     , (7518, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7518, 19, 200) /* VALUE_INT */
+     , (7518, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7518, 1841) /* FlameWall_SpellID */;
+

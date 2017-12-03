@@ -47,6 +47,22 @@ VALUES (25543, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25543, 0, 16778735);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25543, 14, 'Use this item to drink it.') /* USE_STRING */
+     , (25543, 15, 'A potion assembled by alchemists of Xarabydun. The exact process for the creation of this potion is still unknown.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25543, 19, 500) /* VALUE_INT */
+     , (25543, 5, 5) /* ENCUMB_VAL_INT */
+     , (25543, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (25543, 108, 100) /* ITEM_MAX_MANA_INT */
+     , (25543, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (25543, 2979) /* DestinyWind_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

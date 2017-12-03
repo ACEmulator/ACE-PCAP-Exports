@@ -103,3 +103,26 @@ VALUES (40460, 5, 16789351)
      , (40460, 8, 16781839)
      , (40460, 16, 16789648);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40460, 5, 'Rare Items Collector') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (40460, 16, 67110063) /* EYES_PALETTE_DID */
+     , (40460, 9, 83890515) /* EYES_TEXTURE_DID */
+     , (40460, 17, 67109559) /* SKIN_PALETTE_DID */
+     , (40460, 10, 83890518) /* NOSE_TEXTURE_DID */
+     , (40460, 11, 83890637) /* MOUTH_TEXTURE_DID */
+     , (40460, 15, 67117022) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40460, 113, 1) /* GENDER_INT */
+     , (40460, 2, 31) /* CREATURE_TYPE_INT */
+     , (40460, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (40460, 25, 185) /* LEVEL_INT */
+     , (40460, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (40460, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

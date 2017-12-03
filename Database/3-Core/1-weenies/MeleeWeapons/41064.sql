@@ -48,3 +48,35 @@ VALUES (41064, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41064, 0, 16794407);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41064, 16, 'Lightning Khanda-handled Mace') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41064, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (41064, 353, 11) /* WEAPON_TYPE_INT */
+     , (41064, 177, 3) /* GEM_COUNT_INT */
+     , (41064, 178, 20) /* GEM_TYPE_INT */
+     , (41064, 19, 7011) /* VALUE_INT */
+     , (41064, 131, 60) /* MATERIAL_TYPE_INT */
+     , (41064, 292, 2) /* CLEAVING_INT */
+     , (41064, 5, 438) /* ENCUMB_VAL_INT */
+     , (41064, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (41064, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (41064, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41064, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (41064, 47, 4) /* ATTACK_TYPE_INT */
+     , (41064, 45, 64) /* DAMAGE_TYPE_INT */
+     , (41064, 49, 33) /* WEAPON_TIME_INT */
+     , (41064, 48, 41) /* WEAPON_SKILL_INT */
+     , (41064, 44, 34) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41064, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (41064, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (41064, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (41064, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41064, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41064, 62, 1.14) /* WEAPON_OFFENSE_FLOAT */;
+

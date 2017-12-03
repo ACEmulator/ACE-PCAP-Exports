@@ -50,3 +50,39 @@ VALUES (45411, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45411, 0, 16791839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45411, 16, 'Spada of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45411, 176, 45) /* APPRAISAL_ITEM_SKILL_INT */
+     , (45411, 353, 2) /* WEAPON_TYPE_INT */
+     , (45411, 115, 74) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (45411, 131, 64) /* MATERIAL_TYPE_INT */
+     , (45411, 19, 665) /* VALUE_INT */
+     , (45411, 5, 325) /* ENCUMB_VAL_INT */
+     , (45411, 105, 1) /* ITEM_WORKMANSHIP_INT */
+     , (45411, 106, 54) /* ITEM_SPELLCRAFT_INT */
+     , (45411, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (45411, 108, 240) /* ITEM_MAX_MANA_INT */
+     , (45411, 109, 3) /* ITEM_DIFFICULTY_INT */
+     , (45411, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (45411, 47, 6) /* ATTACK_TYPE_INT */
+     , (45411, 45, 3) /* DAMAGE_TYPE_INT */
+     , (45411, 49, 30) /* WEAPON_TIME_INT */
+     , (45411, 48, 45) /* WEAPON_SKILL_INT */
+     , (45411, 44, 11) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45411, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (45411, 5, -0.01666667) /* MANA_RATE_FLOAT */
+     , (45411, 22, 0.52) /* DAMAGE_VARIANCE_FLOAT */
+     , (45411, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (45411, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (45411, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (45411, 62, 1.02) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (45411, 1612) /* BloodDrinker2_SpellID */;
+

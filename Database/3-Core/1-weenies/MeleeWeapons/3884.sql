@@ -40,3 +40,47 @@ VALUES (3884, 13, True) /* ETHEREAL_BOOL */
      , (3884, 19, True) /* ATTACKABLE_BOOL */
      , (3884, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3884, 16, 'Frost Long Sword of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3884, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3884, 160, 420) /* WIELD_DIFFICULTY_INT */
+     , (3884, 353, 2) /* WEAPON_TYPE_INT */
+     , (3884, 177, 4) /* GEM_COUNT_INT */
+     , (3884, 178, 26) /* GEM_TYPE_INT */
+     , (3884, 19, 18036) /* VALUE_INT */
+     , (3884, 131, 60) /* MATERIAL_TYPE_INT */
+     , (3884, 115, 390) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3884, 5, 371) /* ENCUMB_VAL_INT */
+     , (3884, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (3884, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (3884, 108, 1734) /* ITEM_MAX_MANA_INT */
+     , (3884, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3884, 109, 201) /* ITEM_DIFFICULTY_INT */
+     , (3884, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3884, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3884, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (3884, 47, 6) /* ATTACK_TYPE_INT */
+     , (3884, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3884, 49, 30) /* WEAPON_TIME_INT */
+     , (3884, 48, 44) /* WEAPON_SKILL_INT */
+     , (3884, 44, 66) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3884, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (3884, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (3884, 22, 0.57) /* DAMAGE_VARIANCE_FLOAT */
+     , (3884, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3884, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3884, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3884, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3884, 1616) /* BloodDrinker6_SpellID */
+     , (3884, 4325) /* StrengthSelf8_SpellID */
+     , (3884, 4400) /* Defender8_SpellID */
+     , (3884, 4666) /* CANTRIPHEARTTHIRST3_SpellID */;
+

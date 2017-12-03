@@ -44,6 +44,30 @@ VALUES (5305, 13, True) /* ETHEREAL_BOOL */
      , (5305, 17, True) /* INELASTIC_BOOL */
      , (5305, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5305, 16, 'A flaming arrow that appears to do fire damage.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5305, 19, 55) /* VALUE_INT */
+     , (5305, 5, 25) /* ENCUMB_VAL_INT */
+     , (5305, 45, 16) /* DAMAGE_TYPE_INT */
+     , (5305, 49, -1) /* WEAPON_TIME_INT */
+     , (5305, 48, 0) /* WEAPON_SKILL_INT */
+     , (5305, 44, 14) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (5305, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (5305, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (5305, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (5305, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (5305, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (5305, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5305, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

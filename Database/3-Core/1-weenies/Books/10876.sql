@@ -33,6 +33,17 @@ VALUES (10876, 13, True) /* ETHEREAL_BOOL */
      , (10876, 14, True) /* GRAVITY_STATUS_BOOL */
      , (10876, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10876, 15, 'A new book by Martine') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10876, 19, 0) /* VALUE_INT */
+     , (10876, 5, 10) /* ENCUMB_VAL_INT */
+     , (10876, 174, 63) /* APPRAISAL_PAGES_INT */
+     , (10876, 175, 63) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

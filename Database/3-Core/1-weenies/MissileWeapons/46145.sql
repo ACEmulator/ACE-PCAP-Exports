@@ -53,3 +53,28 @@ VALUES (46145, 0, 16787900)
      , (46145, 1, 16787899)
      , (46145, 2, 16787899);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46145, 16, 'This weapon seems tough to master.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46145, 33, 1) /* BONDED_INT */
+     , (46145, 19, 8000) /* VALUE_INT */
+     , (46145, 5, 1400) /* ENCUMB_VAL_INT */
+     , (46145, 45, 0) /* DAMAGE_TYPE_INT */
+     , (46145, 49, 40) /* WEAPON_TIME_INT */
+     , (46145, 48, 47) /* WEAPON_SKILL_INT */
+     , (46145, 44, 2) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46145, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (46145, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (46145, 63, 2.1) /* DAMAGE_MOD_FLOAT */
+     , (46145, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (46145, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (46145, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46145, 69, 0) /* IS_SELLABLE_BOOL */;
+

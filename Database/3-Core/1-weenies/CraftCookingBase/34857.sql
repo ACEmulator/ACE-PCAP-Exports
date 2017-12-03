@@ -37,6 +37,16 @@ VALUES (34857, 13, True) /* ETHEREAL_BOOL */
      , (34857, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34857, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34857, 16, 'This is a handful of spores from the Tiriun Mushroom.') /* LONG_DESC_STRING */
+     , (34857, 14, 'These spores can be roasted and ground into a useful powder.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34857, 19, 5000) /* VALUE_INT */
+     , (34857, 5, 5000) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

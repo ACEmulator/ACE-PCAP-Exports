@@ -47,6 +47,28 @@ VALUES (25705, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25705, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25705, 14, 'Use this to enter the hidden bandit lair.') /* USE_STRING */
+     , (25705, 15, 'Gentleman Jake told me this gem would take me to a dark dungeon that hides the bandit''s lair. Part of me is terrified to use it.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25705, 33, 1) /* BONDED_INT */
+     , (25705, 114, 1) /* ATTUNED_INT */
+     , (25705, 19, 0) /* VALUE_INT */
+     , (25705, 5, 10) /* ENCUMB_VAL_INT */
+     , (25705, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (25705, 108, 100) /* ITEM_MAX_MANA_INT */
+     , (25705, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (25705, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25705, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (25705, 2989) /* PortalSendingDarkNoir1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

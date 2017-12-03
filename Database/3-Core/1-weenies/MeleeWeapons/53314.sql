@@ -40,3 +40,43 @@ VALUES (53314, 13, True) /* ETHEREAL_BOOL */
      , (53314, 19, True) /* ATTACKABLE_BOOL */
      , (53314, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53314, 16, 'A staff imbued with the energies of the Viridian Rise.') /* LONG_DESC_STRING */
+     , (53314, 14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53314, 160, 430) /* WIELD_DIFFICULTY_INT */
+     , (53314, 131, 75) /* MATERIAL_TYPE_INT */
+     , (53314, 19, 325) /* VALUE_INT */
+     , (53314, 5, 450) /* ENCUMB_VAL_INT */
+     , (53314, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (53314, 106, 450) /* ITEM_SPELLCRAFT_INT */
+     , (53314, 108, 5000) /* ITEM_MAX_MANA_INT */
+     , (53314, 109, 300) /* ITEM_DIFFICULTY_INT */
+     , (53314, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (53314, 47, 6) /* ATTACK_TYPE_INT */
+     , (53314, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (53314, 45, 64) /* DAMAGE_TYPE_INT */
+     , (53314, 49, 30) /* WEAPON_TIME_INT */
+     , (53314, 48, 45) /* WEAPON_SKILL_INT */
+     , (53314, 44, 57) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (53314, 29, 1.23) /* WEAPON_DEFENSE_FLOAT */
+     , (53314, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (53314, 22, 0.35) /* DAMAGE_VARIANCE_FLOAT */
+     , (53314, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (53314, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (53314, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (53314, 62, 1.13) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (53314, 4417) /* Swiftkiller8_SpellID */
+     , (53314, 6043) /* CantripAxeAptitude4_SpellID */
+     , (53314, 4518) /* AxeMasterySelf8_SpellID */
+     , (53314, 4395) /* Blooddrinker8_SpellID */
+     , (53314, 4400) /* Defender8_SpellID */
+     , (53314, 4405) /* Heartseeker8_SpellID */;
+

@@ -52,3 +52,33 @@ VALUES (8904, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8904, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8904, 16, 'A small stone with strange markings on the side. The stone has been imbued with strong magical abilities.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8904, 33, 1) /* BONDED_INT */
+     , (8904, 114, 1) /* ATTUNED_INT */
+     , (8904, 19, 3000) /* VALUE_INT */
+     , (8904, 5, 10) /* ENCUMB_VAL_INT */
+     , (8904, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (8904, 108, 13131) /* ITEM_MAX_MANA_INT */
+     , (8904, 109, 121) /* ITEM_DIFFICULTY_INT */
+     , (8904, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8904, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (8904, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (8904, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8904, 99, 1) /* IVORYABLE_BOOL */
+     , (8904, 69, 0) /* IS_SELLABLE_BOOL */
+     , (8904, 94, 1) /* APPRAISAL_HAS_ALLOWED_ACTIVATOR_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8904, 2348) /* BrillianceOther_SpellID */
+     , (8904, 2346) /* MaledictionSelf_SpellID */
+     , (8904, 2347) /* ConcentrationSelf_SpellID */;
+

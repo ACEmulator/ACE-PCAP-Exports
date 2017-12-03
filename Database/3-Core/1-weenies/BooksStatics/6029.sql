@@ -36,6 +36,17 @@ VALUES (6029, 13, True) /* ETHEREAL_BOOL */
      , (6029, 19, True) /* ATTACKABLE_BOOL */
      , (6029, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6029, 16, 'A book from the private chambers of Hamud ibn Rafik.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6029, 19, 25) /* VALUE_INT */
+     , (6029, 5, 100) /* ENCUMB_VAL_INT */
+     , (6029, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (6029, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

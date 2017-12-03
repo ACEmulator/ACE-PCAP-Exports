@@ -48,3 +48,23 @@ VALUES (5854, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5854, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5854, 19, 50) /* VALUE_INT */
+     , (5854, 5, 200) /* ENCUMB_VAL_INT */
+     , (5854, 28, 0) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (5854, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (5854, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (5854, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (5854, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (5854, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (5854, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (5854, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (5854, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5854, 100, 1) /* DYABLE_BOOL */;
+

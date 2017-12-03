@@ -33,3 +33,14 @@ VALUES (47211, 13, True) /* ETHEREAL_BOOL */
      , (47211, 19, True) /* ATTACKABLE_BOOL */
      , (47211, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47211, 14, 'Use this item to close it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47211, 19, 0) /* VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (47211, 2, 1) /* OPEN_BOOL */;
+

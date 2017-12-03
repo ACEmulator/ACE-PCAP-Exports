@@ -35,3 +35,17 @@ VALUES (1557, 13, True) /* ETHEREAL_BOOL */
      , (1557, 19, True) /* ATTACKABLE_BOOL */
      , (1557, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1557, 16, 'Inscribed spell: Strength Other I
+Increases the target''s Strength by 10 points.') /* LONG_DESC_STRING */
+     , (1557, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1557, 19, 1) /* VALUE_INT */
+     , (1557, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1557, 1) /* StrengthOther1_SpellID */;
+

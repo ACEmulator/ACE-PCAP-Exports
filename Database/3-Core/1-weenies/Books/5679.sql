@@ -35,6 +35,17 @@ VALUES (5679, 13, True) /* ETHEREAL_BOOL */
      , (5679, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5679, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5679, 16, 'The latter half of a small, handwritten journal.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5679, 19, 40) /* VALUE_INT */
+     , (5679, 5, 60) /* ENCUMB_VAL_INT */
+     , (5679, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (5679, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

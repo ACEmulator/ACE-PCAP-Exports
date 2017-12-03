@@ -33,3 +33,11 @@ VALUES (12562, 13, True) /* ETHEREAL_BOOL */
      , (12562, 19, True) /* ATTACKABLE_BOOL */
      , (12562, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12562, 38, 'Vesayan Overlook Portal (68.0S, 78.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12562, 111, 1) /* PORTAL_BITMASK_INT */;
+

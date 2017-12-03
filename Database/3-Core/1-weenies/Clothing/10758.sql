@@ -46,3 +46,23 @@ VALUES (10758, 0, 83889342, 83893326)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10758, 0, 16778376);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10758, 16, 'A thick and luxuriantly plush towel made of the finest, most absorbent cloth.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10758, 19, 10) /* VALUE_INT */
+     , (10758, 5, 50) /* ENCUMB_VAL_INT */
+     , (10758, 28, 0) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (10758, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (10758, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (10758, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (10758, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (10758, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (10758, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (10758, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (10758, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

@@ -34,6 +34,17 @@ VALUES (34349, 13, True) /* ETHEREAL_BOOL */
      , (34349, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34349, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34349, 16, 'A letter sent from Asheron Realaidain to Bretself the Translator') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34349, 19, 5000) /* VALUE_INT */
+     , (34349, 5, 15) /* ENCUMB_VAL_INT */
+     , (34349, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (34349, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

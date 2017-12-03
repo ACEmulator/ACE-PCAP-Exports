@@ -36,3 +36,13 @@ VALUES (34406, 13, True) /* ETHEREAL_BOOL */
      , (34406, 19, True) /* ATTACKABLE_BOOL */
      , (34406, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34406, 16, 'A Scold Pack Doll with angry eyes.') /* LONG_DESC_STRING */
+     , (34406, 14, 'This pack doll can be placed on floor and yard hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34406, 19, 10) /* VALUE_INT */
+     , (34406, 5, 10) /* ENCUMB_VAL_INT */;
+

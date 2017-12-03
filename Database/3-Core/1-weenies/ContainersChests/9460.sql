@@ -50,6 +50,22 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (9460, 0, 16778639)
      , (9460, 1, 16778642);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9460, 16, 'A large, garish golden chest, accessible to those who have enjoyed great good fortune at Monty''s Den of Iniquity.') /* LONG_DESC_STRING */
+     , (9460, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9460, 19, 2500) /* VALUE_INT */
+     , (9460, 5, 17483) /* ENCUMB_VAL_INT */
+     , (9460, 38, 5000) /* RESIST_LOCKPICK_INT */
+     , (9460, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9460, 2, 0) /* OPEN_BOOL */
+     , (9460, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

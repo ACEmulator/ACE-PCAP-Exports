@@ -41,6 +41,22 @@ VALUES (30813, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30813, 67114793, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30813, 15, 'A large black pearl that appears to come from an unknown creature. Wisps of dark energy flail out from the pearl, compelling you to hold it in your hands.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30813, 19, 5000) /* VALUE_INT */
+     , (30813, 5, 50) /* ENCUMB_VAL_INT */
+     , (30813, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (30813, 108, 200) /* ITEM_MAX_MANA_INT */
+     , (30813, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30813, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30813, 3800) /* BurningSpiritReliquary_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

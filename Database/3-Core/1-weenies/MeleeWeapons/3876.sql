@@ -48,3 +48,34 @@ VALUES (3876, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3876, 0, 16777955);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3876, 16, 'Frost Spear') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3876, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (3876, 353, 5) /* WEAPON_TYPE_INT */
+     , (3876, 177, 2) /* GEM_COUNT_INT */
+     , (3876, 178, 41) /* GEM_TYPE_INT */
+     , (3876, 19, 5934) /* VALUE_INT */
+     , (3876, 131, 63) /* MATERIAL_TYPE_INT */
+     , (3876, 5, 395) /* ENCUMB_VAL_INT */
+     , (3876, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (3876, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3876, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3876, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (3876, 47, 6) /* ATTACK_TYPE_INT */
+     , (3876, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3876, 49, 24) /* WEAPON_TIME_INT */
+     , (3876, 48, 45) /* WEAPON_SKILL_INT */
+     , (3876, 44, 41) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3876, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (3876, 22, 0.8) /* DAMAGE_VARIANCE_FLOAT */
+     , (3876, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3876, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3876, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3876, 62, 1.16) /* WEAPON_OFFENSE_FLOAT */;
+

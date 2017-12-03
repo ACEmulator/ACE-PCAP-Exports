@@ -34,6 +34,17 @@ VALUES (5147, 13, True) /* ETHEREAL_BOOL */
      , (5147, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5147, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5147, 16, 'A book written by Abrim of Morningthaw, one of the adventurers who rediscovered the Lost City of Frore, and destroyed the powerful magical artifact at its heart.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5147, 19, 35) /* VALUE_INT */
+     , (5147, 5, 100) /* ENCUMB_VAL_INT */
+     , (5147, 174, 8) /* APPRAISAL_PAGES_INT */
+     , (5147, 175, 8) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

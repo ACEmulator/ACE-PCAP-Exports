@@ -38,3 +38,34 @@ VALUES (28976, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28976, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (28976, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28976, 16, 'A well carved statue of Aurlanna. It is masterfully crafted and looks very well made. Kir Loz may know more about this.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28976, 384, 0) /*  */
+     , (28976, 370, 0) /* GEAR_DAMAGE_INT */
+     , (28976, 386, 0) /*  */
+     , (28976, 307, 0) /* DAMAGE_RATING_INT */
+     , (28976, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (28976, 387, 0) /*  */
+     , (28976, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (28976, 372, 0) /* GEAR_CRIT_INT */
+     , (28976, 388, 0) /*  */
+     , (28976, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (28976, 389, 0) /*  */
+     , (28976, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (28976, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (28976, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (28976, 313, 0) /* CRIT_RATING_INT */
+     , (28976, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (28976, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (28976, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (28976, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (28976, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (28976, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (28976, 381, 0) /*  */
+     , (28976, 382, 0) /*  */
+     , (28976, 383, 0) /*  */;
+

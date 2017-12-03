@@ -39,6 +39,24 @@ VALUES (51869, 13, True) /* ETHEREAL_BOOL */
      , (51869, 19, True) /* ATTACKABLE_BOOL */
      , (51869, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51869, 16, 'Kill 25 Rynthid Minions.') /* LONG_DESC_STRING */
+     , (51869, 14, 'Recommended Level: 180') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51869, 33, 1) /* BONDED_INT */
+     , (51869, 19, 100) /* VALUE_INT */
+     , (51869, 5, 0) /* ENCUMB_VAL_INT */
+     , (51869, 280, 100) /* SHARED_COOLDOWN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (51869, 167, 2) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51869, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

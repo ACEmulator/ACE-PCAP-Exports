@@ -53,3 +53,47 @@ VALUES (31785, 0, 83897338, 83897338);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31785, 0, 16792615);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31785, 16, 'Acid Claw of Defender') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31785, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31785, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (31785, 353, 1) /* WEAPON_TYPE_INT */
+     , (31785, 177, 2) /* GEM_COUNT_INT */
+     , (31785, 178, 40) /* GEM_TYPE_INT */
+     , (31785, 19, 2369) /* VALUE_INT */
+     , (31785, 131, 63) /* MATERIAL_TYPE_INT */
+     , (31785, 115, 226) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31785, 5, 115) /* ENCUMB_VAL_INT */
+     , (31785, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (31785, 106, 206) /* ITEM_SPELLCRAFT_INT */
+     , (31785, 108, 939) /* ITEM_MAX_MANA_INT */
+     , (31785, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31785, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (31785, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31785, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31785, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (31785, 47, 1) /* ATTACK_TYPE_INT */
+     , (31785, 45, 32) /* DAMAGE_TYPE_INT */
+     , (31785, 49, 19) /* WEAPON_TIME_INT */
+     , (31785, 48, 46) /* WEAPON_SKILL_INT */
+     , (31785, 44, 19) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31785, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (31785, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (31785, 22, 0.43) /* DAMAGE_VARIANCE_FLOAT */
+     , (31785, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (31785, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31785, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31785, 62, 1.02) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31785, 1604) /* Defender5_SpellID */
+     , (31785, 1613) /* BloodDrinker3_SpellID */
+     , (31785, 1625) /* SwiftKiller4_SpellID */
+     , (31785, 2537) /* CANTRIPARCANEPROWESS1_SpellID */;
+

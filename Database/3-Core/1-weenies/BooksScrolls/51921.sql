@@ -31,3 +31,14 @@ VALUES (51921, 13, True) /* ETHEREAL_BOOL */
      , (51921, 19, True) /* ATTACKABLE_BOOL */
      , (51921, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51921, 16, 'A sealed scroll given to you by Raksaa. Deliver this to Commander Presk inside of his bunker.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51921, 33, 1) /* BONDED_INT */
+     , (51921, 114, 1) /* ATTUNED_INT */
+     , (51921, 19, 0) /* VALUE_INT */
+     , (51921, 5, 25) /* ENCUMB_VAL_INT */;
+

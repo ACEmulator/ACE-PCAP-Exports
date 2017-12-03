@@ -43,3 +43,35 @@ VALUES (24559, 13, True) /* ETHEREAL_BOOL */
      , (24559, 19, True) /* ATTACKABLE_BOOL */
      , (24559, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24559, 16, 'Picked up from a defeated Renegade Tumerok Commander') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24559, 160, 290) /* WIELD_DIFFICULTY_INT */
+     , (24559, 353, 9) /* WEAPON_TYPE_INT */
+     , (24559, 19, 8000) /* VALUE_INT */
+     , (24559, 5, 1250) /* ENCUMB_VAL_INT */
+     , (24559, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (24559, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (24559, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (24559, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (24559, 45, 0) /* DAMAGE_TYPE_INT */
+     , (24559, 49, 60) /* WEAPON_TIME_INT */
+     , (24559, 48, 47) /* WEAPON_SKILL_INT */
+     , (24559, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (24559, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (24559, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (24559, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (24559, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (24559, 63, 2.75) /* DAMAGE_MOD_FLOAT */
+     , (24559, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (24559, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (24559, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (24559, 1616) /* BloodDrinker6_SpellID */;
+

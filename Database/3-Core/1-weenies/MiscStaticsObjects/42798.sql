@@ -29,3 +29,12 @@ VALUES (42798, 13, True) /* ETHEREAL_BOOL */
      , (42798, 19, True) /* ATTACKABLE_BOOL */
      , (42798, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42798, 16, 'A fortress forever besieged by Hea Tumeroks, Dryreach can be a dangerous location for an inexperienced adventurer. The Hea Tumeroks use this fortress as a training ground for their warriors, ensuring that the stalemate involving this fortress will never be resolved. Be careful on wandering out the front gates without a key, as they are locked to prevent the Tumerok from gaining entry. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42798, 19, 125) /* VALUE_INT */
+     , (42798, 5, 9000) /* ENCUMB_VAL_INT */;
+

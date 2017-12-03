@@ -47,3 +47,34 @@ VALUES (41041, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41041, 0, 16794282);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41041, 16, 'Magari Yari') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41041, 160, 370) /* WIELD_DIFFICULTY_INT */
+     , (41041, 353, 11) /* WEAPON_TYPE_INT */
+     , (41041, 177, 2) /* GEM_COUNT_INT */
+     , (41041, 178, 26) /* GEM_TYPE_INT */
+     , (41041, 19, 7011) /* VALUE_INT */
+     , (41041, 131, 51) /* MATERIAL_TYPE_INT */
+     , (41041, 5, 493) /* ENCUMB_VAL_INT */
+     , (41041, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (41041, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (41041, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41041, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (41041, 47, 2) /* ATTACK_TYPE_INT */
+     , (41041, 45, 2) /* DAMAGE_TYPE_INT */
+     , (41041, 49, 37) /* WEAPON_TIME_INT */
+     , (41041, 48, 41) /* WEAPON_SKILL_INT */
+     , (41041, 44, 36) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41041, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (41041, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (41041, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (41041, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41041, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41041, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+

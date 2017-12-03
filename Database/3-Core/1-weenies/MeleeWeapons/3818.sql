@@ -38,3 +38,45 @@ VALUES (3818, 13, True) /* ETHEREAL_BOOL */
      , (3818, 19, True) /* ATTACKABLE_BOOL */
      , (3818, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3818, 16, 'Acid Katar of Swift Killer') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3818, 176, 45) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3818, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (3818, 353, 1) /* WEAPON_TYPE_INT */
+     , (3818, 177, 1) /* GEM_COUNT_INT */
+     , (3818, 178, 23) /* GEM_TYPE_INT */
+     , (3818, 19, 3038) /* VALUE_INT */
+     , (3818, 131, 57) /* MATERIAL_TYPE_INT */
+     , (3818, 115, 304) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3818, 5, 90) /* ENCUMB_VAL_INT */
+     , (3818, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (3818, 106, 284) /* ITEM_SPELLCRAFT_INT */
+     , (3818, 108, 701) /* ITEM_MAX_MANA_INT */
+     , (3818, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3818, 109, 132) /* ITEM_DIFFICULTY_INT */
+     , (3818, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3818, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3818, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (3818, 47, 1) /* ATTACK_TYPE_INT */
+     , (3818, 45, 32) /* DAMAGE_TYPE_INT */
+     , (3818, 49, 15) /* WEAPON_TIME_INT */
+     , (3818, 48, 45) /* WEAPON_SKILL_INT */
+     , (3818, 44, 32) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3818, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (3818, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
+     , (3818, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */
+     , (3818, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3818, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3818, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3818, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3818, 1626) /* SwiftKiller5_SpellID */
+     , (3818, 2096) /* BloodDrinker7_SpellID */;
+

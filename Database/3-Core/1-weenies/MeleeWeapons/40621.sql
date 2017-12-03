@@ -47,3 +47,35 @@ VALUES (40621, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40621, 0, 16791762);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40621, 16, 'Flaming Spadone') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40621, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (40621, 353, 11) /* WEAPON_TYPE_INT */
+     , (40621, 177, 5) /* GEM_COUNT_INT */
+     , (40621, 178, 16) /* GEM_TYPE_INT */
+     , (40621, 19, 7947) /* VALUE_INT */
+     , (40621, 131, 63) /* MATERIAL_TYPE_INT */
+     , (40621, 292, 2) /* CLEAVING_INT */
+     , (40621, 5, 368) /* ENCUMB_VAL_INT */
+     , (40621, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (40621, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40621, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40621, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (40621, 47, 4) /* ATTACK_TYPE_INT */
+     , (40621, 45, 16) /* DAMAGE_TYPE_INT */
+     , (40621, 49, 40) /* WEAPON_TIME_INT */
+     , (40621, 48, 41) /* WEAPON_SKILL_INT */
+     , (40621, 44, 24) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40621, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
+     , (40621, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (40621, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (40621, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (40621, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (40621, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
+

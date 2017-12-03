@@ -35,3 +35,21 @@ VALUES (2143, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2143, 19, True) /* ATTACKABLE_BOOL */
      , (2143, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2143, 16, 'Though plain, this tomb radiates an aura of power and majesty.  Surely Thorsten Cragstone''s presence can be felt here.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2143, 19, 300) /* VALUE_INT */
+     , (2143, 5, 7000) /* ENCUMB_VAL_INT */
+     , (2143, 38, 90) /* RESIST_LOCKPICK_INT */
+     , (2143, 173, 8) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2143, 2, 0) /* OPEN_BOOL */
+     , (2143, 3, 0) /* LOCKED_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2143, 1163) /* HealOther3_SpellID */;
+

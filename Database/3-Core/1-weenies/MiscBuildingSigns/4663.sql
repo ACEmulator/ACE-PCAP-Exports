@@ -34,3 +34,12 @@ VALUES (4663, 0, 83892071, 83892180);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4663, 0, 16783205);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4663, 16, 'The Blade of the Desert') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4663, 19, 125) /* VALUE_INT */
+     , (4663, 5, 9000) /* ENCUMB_VAL_INT */;
+

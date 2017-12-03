@@ -33,3 +33,12 @@ VALUES (42843, 13, True) /* ETHEREAL_BOOL */
      , (42843, 19, True) /* ATTACKABLE_BOOL */
      , (42843, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42843, 16, 'This portal goes to Nanto, a sleepy Sho town. This is a good town for characters over level 10.') /* LONG_DESC_STRING */
+     , (42843, 38, 'Portal to Nanto (52.2S, 82.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42843, 111, 1) /* PORTAL_BITMASK_INT */;
+

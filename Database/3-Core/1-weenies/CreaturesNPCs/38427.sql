@@ -89,3 +89,38 @@ VALUES (38427, 12, 16777304)
      , (38427, 4, 16781838)
      , (38427, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38427, 5, 'Bandit Boss Taskmaster') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38427, 16, 67110063) /* EYES_PALETTE_DID */
+     , (38427, 9, 83890511) /* EYES_TEXTURE_DID */
+     , (38427, 17, 67115903) /* SKIN_PALETTE_DID */
+     , (38427, 10, 83890561) /* NOSE_TEXTURE_DID */
+     , (38427, 11, 83890613) /* MOUTH_TEXTURE_DID */
+     , (38427, 15, 67117073) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38427, 113, 1) /* GENDER_INT */
+     , (38427, 289, 301) /* SOCIETY_RANK_RADBLO_INT */
+     , (38427, 2, 31) /* CREATURE_TYPE_INT */
+     , (38427, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38427, 25, 185) /* LEVEL_INT */
+     , (38427, 281, 4) /* FACTION1_BITS_INT */
+     , (38427, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38427, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (38427, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (38427, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (38427, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (38427, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (38427, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38427, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38427, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38427, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
+

@@ -47,3 +47,42 @@ VALUES (46137, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46137, 0, 16787901);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46137, 16, 'This weapon seems tough to master.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46137, 160, 355) /* WIELD_DIFFICULTY_INT */
+     , (46137, 33, 1) /* BONDED_INT */
+     , (46137, 114, 1) /* ATTUNED_INT */
+     , (46137, 19, 4000) /* VALUE_INT */
+     , (46137, 5, 150) /* ENCUMB_VAL_INT */
+     , (46137, 263, 64) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (46137, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (46137, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (46137, 45, 64) /* DAMAGE_TYPE_INT */
+     , (46137, 109, 250) /* ITEM_DIFFICULTY_INT */
+     , (46137, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (46137, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46137, 152, 1.19) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (46137, 144, 0.08) /* MANA_CONVERSION_MOD_FLOAT */
+     , (46137, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (46137, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (46137, 5, -0.025) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46137, 99, 1) /* IVORYABLE_BOOL */
+     , (46137, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46137, 2061) /* EnduranceSelf7_SpellID */
+     , (46137, 2534) /* CANTRIPWARMAGICAPTITUDE2_SpellID */
+     , (46137, 2287) /* ManaMasterySelf7_SpellID */
+     , (46137, 2159) /* LightningProtectionSelf7_SpellID */
+     , (46137, 3250) /* CantripSpiritThirst2_SpellID */
+     , (46137, 2101) /* Defender7_SpellID */
+     , (46137, 3259) /* SpiritDrinker7_SpellID */;
+

@@ -37,6 +37,21 @@ VALUES (5864, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5864, 19, True) /* ATTACKABLE_BOOL */
      , (5864, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5864, 16, 'A standing stone. There is a circular indentation in the center, which would seem to form the outline of an amulet or seal.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5864, 19, 2500) /* VALUE_INT */
+     , (5864, 5, 9025) /* ENCUMB_VAL_INT */
+     , (5864, 38, 999) /* RESIST_LOCKPICK_INT */
+     , (5864, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5864, 2, 0) /* OPEN_BOOL */
+     , (5864, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

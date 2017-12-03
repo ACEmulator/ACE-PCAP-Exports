@@ -33,3 +33,12 @@ VALUES (8383, 13, True) /* ETHEREAL_BOOL */
      , (8383, 19, True) /* ATTACKABLE_BOOL */
      , (8383, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8383, 38, 'Direlands Desert Northeast Portal (82.1S, 59.0W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8383, 86, 25) /* MIN_LEVEL_INT */
+     , (8383, 111, 1) /* PORTAL_BITMASK_INT */;
+

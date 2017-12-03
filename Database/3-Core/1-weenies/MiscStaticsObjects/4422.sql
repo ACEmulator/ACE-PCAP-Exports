@@ -35,3 +35,12 @@ VALUES (4422, 0, 83889909, 83891060);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4422, 0, 16782239);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4422, 16, 'The Roasted Shreth') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4422, 19, 125) /* VALUE_INT */
+     , (4422, 5, 9000) /* ENCUMB_VAL_INT */;
+

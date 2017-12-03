@@ -35,3 +35,17 @@ VALUES (3182, 13, True) /* ETHEREAL_BOOL */
      , (3182, 19, True) /* ATTACKABLE_BOOL */
      , (3182, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3182, 16, 'Inscribed spell: Missile Weapon Mastery Other VI
+Increases the target''s Missile Weapons skill by 35 points.') /* LONG_DESC_STRING */
+     , (3182, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3182, 19, 1000) /* VALUE_INT */
+     , (3182, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3182, 466) /* BowMasteryOther6_SpellID */;
+

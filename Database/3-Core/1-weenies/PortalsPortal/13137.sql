@@ -33,3 +33,11 @@ VALUES (13137, 13, True) /* ETHEREAL_BOOL */
      , (13137, 19, True) /* ATTACKABLE_BOOL */
      , (13137, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (13137, 38, 'Tou-Tou Road Villas Portal (42.2S, 90.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13137, 111, 1) /* PORTAL_BITMASK_INT */;
+

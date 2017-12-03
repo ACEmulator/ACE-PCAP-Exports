@@ -68,3 +68,26 @@ VALUES (41828, 16, 16795662)
      , (41828, 4, 16794154)
      , (41828, 8, 16794155);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41828, 5, 'Society Collector') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (41828, 16, 67110063) /* EYES_PALETTE_DID */
+     , (41828, 9, 83890473) /* EYES_TEXTURE_DID */
+     , (41828, 17, 67110055) /* SKIN_PALETTE_DID */
+     , (41828, 10, 83890562) /* NOSE_TEXTURE_DID */
+     , (41828, 11, 83890583) /* MOUTH_TEXTURE_DID */
+     , (41828, 15, 67117022) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41828, 113, 1) /* GENDER_INT */
+     , (41828, 2, 31) /* CREATURE_TYPE_INT */
+     , (41828, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (41828, 25, 180) /* LEVEL_INT */
+     , (41828, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (41828, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

@@ -37,3 +37,34 @@ VALUES (35927, 13, True) /* ETHEREAL_BOOL */
      , (35927, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (35927, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35927, 384, 0) /*  */
+     , (35927, 98, 1485568672) /* CREATION_TIMESTAMP_INT */
+     , (35927, 370, 0) /* GEAR_DAMAGE_INT */
+     , (35927, 386, 0) /*  */
+     , (35927, 307, 0) /* DAMAGE_RATING_INT */
+     , (35927, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (35927, 387, 0) /*  */
+     , (35927, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (35927, 372, 0) /* GEAR_CRIT_INT */
+     , (35927, 388, 0) /*  */
+     , (35927, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (35927, 389, 0) /*  */
+     , (35927, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (35927, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (35927, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (35927, 313, 0) /* CRIT_RATING_INT */
+     , (35927, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (35927, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (35927, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (35927, 267, 30) /* LIFESPAN_INT */
+     , (35927, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (35927, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (35927, 268, 30) /* REMAINING_LIFESPAN_INT */
+     , (35927, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (35927, 381, 0) /*  */
+     , (35927, 382, 0) /*  */
+     , (35927, 383, 0) /*  */;
+

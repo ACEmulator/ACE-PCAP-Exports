@@ -34,3 +34,14 @@ VALUES (51214, 13, True) /* ETHEREAL_BOOL */
      , (51214, 19, True) /* ATTACKABLE_BOOL */
      , (51214, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51214, 16, 'The pincer off of an Olthoi Hive Warrior, desired by Behdo Yii, in Redspire.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51214, 33, 1) /* BONDED_INT */
+     , (51214, 114, 1) /* ATTUNED_INT */
+     , (51214, 19, 0) /* VALUE_INT */
+     , (51214, 5, 100) /* ENCUMB_VAL_INT */;
+

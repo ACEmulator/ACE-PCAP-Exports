@@ -30,3 +30,14 @@ VALUES (35003, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (35003, 19, True) /* ATTACKABLE_BOOL */
      , (35003, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35003, 38, 'The Colosseum') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35003, 98, 1485735841) /* CREATION_TIMESTAMP_INT */
+     , (35003, 267, 180) /* LIFESPAN_INT */
+     , (35003, 268, 179) /* REMAINING_LIFESPAN_INT */
+     , (35003, 111, 49) /* PORTAL_BITMASK_INT */;
+

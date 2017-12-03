@@ -33,3 +33,12 @@ VALUES (42831, 13, True) /* ETHEREAL_BOOL */
      , (42831, 19, True) /* ATTACKABLE_BOOL */
      , (42831, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42831, 16, 'This portal goes to the Gharu''ndim capital, Zaikhal. This is a good town for characters over level 20.') /* LONG_DESC_STRING */
+     , (42831, 38, 'Portal to Zaikhal (13.5N, 0.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42831, 111, 1) /* PORTAL_BITMASK_INT */;
+

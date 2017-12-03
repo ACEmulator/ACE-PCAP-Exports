@@ -50,3 +50,28 @@ VALUES (25894, 0, 83894476, 83894476);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25894, 0, 16788882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25894, 16, 'A pearl carefully removed from the corpse of a nefane.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25894, 160, 240) /* WIELD_DIFFICULTY_INT */
+     , (25894, 19, 7500) /* VALUE_INT */
+     , (25894, 5, 75) /* ENCUMB_VAL_INT */
+     , (25894, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (25894, 108, 1400) /* ITEM_MAX_MANA_INT */
+     , (25894, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (25894, 158, 1) /* WIELD_REQUIREMENTS_INT */
+     , (25894, 159, 16) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25894, 144, 0.11) /* MANA_CONVERSION_MOD_FLOAT */
+     , (25894, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (25894, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (25894, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (25894, 2624) /* CANTRIPMANAGAIN2_SpellID */
+     , (25894, 1478) /* TrueValue4_SpellID */;
+

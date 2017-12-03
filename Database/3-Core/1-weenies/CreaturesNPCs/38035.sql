@@ -46,3 +46,26 @@ VALUES (38035, 67114483, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38035, 16, 16789500);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38035, 5, 'Herald') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38035, 2, 14) /* CREATURE_TYPE_INT */
+     , (38035, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38035, 25, 129) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38035, 1, 380) /* STRENGTH_ATTRIBUTE */
+     , (38035, 2, 400) /* ENDURANCE_ATTRIBUTE */
+     , (38035, 4, 340) /* COORDINATION_ATTRIBUTE */
+     , (38035, 8, 340) /* QUICKNESS_ATTRIBUTE */
+     , (38035, 16, 420) /* FOCUS_ATTRIBUTE */
+     , (38035, 32, 420) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38035, 64, 4000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38035, 128, 4000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38035, 256, 3500) /* MAX_MANA_ATTRIBUTE_2ND */;
+

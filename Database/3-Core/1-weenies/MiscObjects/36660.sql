@@ -56,3 +56,17 @@ VALUES (36660, 0, 83887061, 83893262)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36660, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36660, 16, 'A chestplate with the seal of Linvak Tukal on the chest.  The armor is elegant yet simple, and sturdily crafted.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36660, 33, 1) /* BONDED_INT */
+     , (36660, 114, 1) /* ATTUNED_INT */
+     , (36660, 19, 100) /* VALUE_INT */
+     , (36660, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36660, 69, 1) /* IS_SELLABLE_BOOL */;
+

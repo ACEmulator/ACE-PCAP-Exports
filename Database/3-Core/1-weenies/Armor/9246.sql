@@ -56,3 +56,23 @@ VALUES (9246, 0, 83887061, 83892990)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9246, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9246, 16, 'A coat made out of the hide of an ursuin.  It is thick and vibrant, showing the colors of spring.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9246, 19, 2700) /* VALUE_INT */
+     , (9246, 5, 810) /* ENCUMB_VAL_INT */
+     , (9246, 28, 80) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9246, 13, 1.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (9246, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (9246, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (9246, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (9246, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (9246, 18, 1.1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (9246, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (9246, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

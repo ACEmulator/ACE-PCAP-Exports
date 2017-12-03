@@ -34,3 +34,13 @@ VALUES (42178, 13, True) /* ETHEREAL_BOOL */
      , (42178, 19, True) /* ATTACKABLE_BOOL */
      , (42178, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42178, 16, 'A portal leading to Aphus Lassel near the Tusker Cave where the Tusker Crimsonback Tusk may be found.') /* LONG_DESC_STRING */
+     , (42178, 38, 'Tusker Cave (0.4S, 97.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42178, 86, 15) /* MIN_LEVEL_INT */
+     , (42178, 111, 49) /* PORTAL_BITMASK_INT */;
+

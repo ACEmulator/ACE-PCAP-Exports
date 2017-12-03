@@ -34,6 +34,17 @@ VALUES (6405, 13, True) /* ETHEREAL_BOOL */
      , (6405, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6405, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6405, 16, 'A carefully scribed message in the High Empyrean language of the Era of Lore.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6405, 19, 3) /* VALUE_INT */
+     , (6405, 5, 25) /* ENCUMB_VAL_INT */
+     , (6405, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (6405, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

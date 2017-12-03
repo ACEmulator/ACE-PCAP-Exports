@@ -35,3 +35,17 @@ VALUES (20404, 13, True) /* ETHEREAL_BOOL */
      , (20404, 19, True) /* ATTACKABLE_BOOL */
      , (20404, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20404, 16, 'Inscribed spell: Swordsman''s Bane
+Increases a shield or piece of armor''s resistance to slashing damage by 170%. Target yourself to cast this spell on all of your equipped armor.') /* LONG_DESC_STRING */
+     , (20404, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20404, 19, 2000) /* VALUE_INT */
+     , (20404, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20404, 2094) /* BladeBane7_SpellID */;
+

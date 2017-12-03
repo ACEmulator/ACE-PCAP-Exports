@@ -35,6 +35,16 @@ VALUES (29180, 13, True) /* ETHEREAL_BOOL */
      , (29180, 19, True) /* ATTACKABLE_BOOL */
      , (29180, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29180, 16, 'A pack of empty bottles.') /* LONG_DESC_STRING */
+     , (29180, 14, 'Use these bottles on a Full Stopped Keg to serve up your brew to guests.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29180, 19, 150) /* VALUE_INT */
+     , (29180, 5, 150) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

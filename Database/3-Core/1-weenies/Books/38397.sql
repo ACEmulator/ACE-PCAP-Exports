@@ -33,3 +33,20 @@ VALUES (38397, 13, True) /* ETHEREAL_BOOL */
      , (38397, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38397, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38397, 16, 'A handbook outlining the basic information needed when joining the Society of the Celestial Hand.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38397, 33, 0) /* BONDED_INT */
+     , (38397, 114, 0) /* ATTUNED_INT */
+     , (38397, 19, 0) /* VALUE_INT */
+     , (38397, 5, 100) /* ENCUMB_VAL_INT */
+     , (38397, 174, 10) /* APPRAISAL_PAGES_INT */
+     , (38397, 175, 10) /* APPRAISAL_MAX_PAGES_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38397, 99, 0) /* IVORYABLE_BOOL */
+     , (38397, 69, 1) /* IS_SELLABLE_BOOL */;
+

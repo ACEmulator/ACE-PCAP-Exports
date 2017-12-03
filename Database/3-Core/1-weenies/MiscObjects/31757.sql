@@ -33,3 +33,12 @@ VALUES (31757, 13, True) /* ETHEREAL_BOOL */
      , (31757, 19, True) /* ATTACKABLE_BOOL */
      , (31757, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31757, 15, 'A *MONSTER* Pitcher Plant. It twitches gently as you watch it, but it seems ... sated. Thank goodness for that -- it could eat you whole!') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31757, 19, 100) /* VALUE_INT */
+     , (31757, 5, 100) /* ENCUMB_VAL_INT */;
+

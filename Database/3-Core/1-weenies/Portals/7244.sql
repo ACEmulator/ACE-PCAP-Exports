@@ -33,3 +33,12 @@ VALUES (7244, 13, True) /* ETHEREAL_BOOL */
      , (7244, 19, True) /* ATTACKABLE_BOOL */
      , (7244, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7244, 38, 'Black Spawn Den') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7244, 86, 20) /* MIN_LEVEL_INT */
+     , (7244, 111, 17) /* PORTAL_BITMASK_INT */;
+

@@ -36,3 +36,15 @@ VALUES (32846, 13, True) /* ETHEREAL_BOOL */
      , (32846, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32846, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32846, 14, 'If this item is hooked, it may be used to cast Honor of the Bull, a Loyalty spell which stacks with normal spells.') /* USE_STRING */
+     , (32846, 15, 'A banner of the Viamontian kingdom, given to those who have performed a special service.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32846, 33, 0) /* BONDED_INT */
+     , (32846, 114, 0) /* ATTUNED_INT */
+     , (32846, 19, 5000) /* VALUE_INT */
+     , (32846, 5, 50) /* ENCUMB_VAL_INT */;
+

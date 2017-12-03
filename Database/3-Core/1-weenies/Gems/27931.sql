@@ -32,6 +32,17 @@ VALUES (27931, 13, True) /* ETHEREAL_BOOL */
      , (27931, 19, True) /* ATTACKABLE_BOOL */
      , (27931, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27931, 15, 'A plate with a relief carved into the face. The relief is of a distant star.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27931, 33, 1) /* BONDED_INT */
+     , (27931, 114, 1) /* ATTUNED_INT */
+     , (27931, 19, 0) /* VALUE_INT */
+     , (27931, 5, 100) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

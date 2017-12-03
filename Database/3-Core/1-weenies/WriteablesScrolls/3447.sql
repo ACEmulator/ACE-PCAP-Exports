@@ -35,3 +35,17 @@ VALUES (3447, 13, True) /* ETHEREAL_BOOL */
      , (3447, 19, True) /* ATTACKABLE_BOOL */
      , (3447, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3447, 16, 'Inscribed spell: Monster Unfamiliarity Other VI
+Decreases the target''s Assess Monster skill by 35 points.') /* LONG_DESC_STRING */
+     , (3447, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3447, 19, 1000) /* VALUE_INT */
+     , (3447, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3447, 822) /* MonsterUnfamiliarityOther6_SpellID */;
+

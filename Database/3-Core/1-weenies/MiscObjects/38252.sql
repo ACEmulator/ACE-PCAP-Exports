@@ -31,3 +31,18 @@ VALUES (38252, 13, True) /* ETHEREAL_BOOL */
      , (38252, 19, True) /* ATTACKABLE_BOOL */
      , (38252, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38252, 16, 'A necklace made from the teeth of the monstrous Hagrafash. Long ago Hagrafash fed on our people and destroyed our great works. Our people could not fight such a beast as the Hagrafash and they suffered greatly. Then, from among the hunters came a savior, Baalfroth, to whom The Whispering One had bestowed great strength. He went forth and slew the great beast with only his spear.') /* LONG_DESC_STRING */
+     , (38252, 14, 'Return this and the other nine artifacts to your Task Master to complete the quest.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38252, 33, 1) /* BONDED_INT */
+     , (38252, 114, 1) /* ATTUNED_INT */
+     , (38252, 19, 0) /* VALUE_INT */
+     , (38252, 5, 25) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38252, 69, 0) /* IS_SELLABLE_BOOL */;
+

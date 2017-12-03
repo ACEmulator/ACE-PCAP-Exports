@@ -33,3 +33,11 @@ VALUES (14656, 13, True) /* ETHEREAL_BOOL */
      , (14656, 19, True) /* ATTACKABLE_BOOL */
      , (14656, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14656, 38, 'Pine Deep Portal (58.6N, 41.6W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14656, 111, 1) /* PORTAL_BITMASK_INT */;
+

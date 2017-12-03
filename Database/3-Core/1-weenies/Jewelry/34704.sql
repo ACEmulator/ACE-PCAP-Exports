@@ -47,3 +47,34 @@ VALUES (34704, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34704, 0, 16778344);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34704, 16, 'A ring of pyreal fitted with a band of glowing blue metal.') /* LONG_DESC_STRING */
+     , (34704, 14, 'One of the five Empyrean Rings. Any two combine for an additional spell set.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34704, 160, 150) /* WIELD_DIFFICULTY_INT */
+     , (34704, 33, 1) /* BONDED_INT */
+     , (34704, 114, 1) /* ATTUNED_INT */
+     , (34704, 19, 5000) /* VALUE_INT */
+     , (34704, 5, 50) /* ENCUMB_VAL_INT */
+     , (34704, 265, 9) /* EQUIPMENT_SET_ID_INT */
+     , (34704, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (34704, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (34704, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (34704, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (34704, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (34704, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34704, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (34704, 3981) /* ManarenewalOtherIncantation_SpellID */
+     , (34704, 4070) /* EmpyreanManaAbsorbtion_SpellID */
+     , (34704, 4077) /* ManaConvertMasteryIncantation_SpellID */
+     , (34704, 2613) /* CANTRIPPIERCINGWARD2_SpellID */;
+

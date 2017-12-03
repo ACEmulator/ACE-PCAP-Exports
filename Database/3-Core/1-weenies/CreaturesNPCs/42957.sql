@@ -88,6 +88,40 @@ VALUES (42957, 12, 16778423)
      , (42957, 8, 16777708)
      , (42957, 16, 16791338);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42957, 5, 'Hoshino Kei''s Sister') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (42957, 16, 67109565) /* EYES_PALETTE_DID */
+     , (42957, 9, 83890275) /* EYES_TEXTURE_DID */
+     , (42957, 17, 67110053) /* SKIN_PALETTE_DID */
+     , (42957, 10, 83890304) /* NOSE_TEXTURE_DID */
+     , (42957, 11, 83890355) /* MOUTH_TEXTURE_DID */
+     , (42957, 15, 67116990) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42957, 113, 2) /* GENDER_INT */
+     , (42957, 2, 31) /* CREATURE_TYPE_INT */
+     , (42957, 307, 5) /* DAMAGE_RATING_INT */
+     , (42957, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (42957, 25, 107) /* LEVEL_INT */
+     , (42957, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (42957, 1, 180) /* STRENGTH_ATTRIBUTE */
+     , (42957, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (42957, 4, 180) /* COORDINATION_ATTRIBUTE */
+     , (42957, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (42957, 16, 260) /* FOCUS_ATTRIBUTE */
+     , (42957, 32, 260) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (42957, 64, 260) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (42957, 128, 370) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (42957, 256, 440) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

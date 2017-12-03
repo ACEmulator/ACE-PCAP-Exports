@@ -35,6 +35,16 @@ VALUES (11841, 13, True) /* ETHEREAL_BOOL */
      , (11841, 19, True) /* ATTACKABLE_BOOL */
      , (11841, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11841, 16, 'A Mask Spear-Head.') /* LONG_DESC_STRING */
+     , (11841, 14, 'You can combine this with a hafted Mask Banner.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11841, 19, 0) /* VALUE_INT */
+     , (11841, 5, 50) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

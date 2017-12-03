@@ -39,3 +39,14 @@ VALUES (36784, 67111919, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36784, 0, 16777887);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36784, 16, 'This arrow has a small amount of a black substance dotting its tip. You cannot shoot this arrow - it will not nock in any bow, nor can you throw it away.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36784, 33, 1) /* BONDED_INT */
+     , (36784, 114, 1) /* ATTUNED_INT */
+     , (36784, 19, 0) /* VALUE_INT */
+     , (36784, 5, 5) /* ENCUMB_VAL_INT */;
+

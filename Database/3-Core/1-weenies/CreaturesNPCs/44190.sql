@@ -88,3 +88,53 @@ VALUES (44190, 16, 16795640)
      , (44190, 4, 16795223)
      , (44190, 8, 16795224);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (44190, 16, 67110063) /* EYES_PALETTE_DID */
+     , (44190, 9, 83890445) /* EYES_TEXTURE_DID */
+     , (44190, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (44190, 10, 83890555) /* NOSE_TEXTURE_DID */
+     , (44190, 11, 83890642) /* MOUTH_TEXTURE_DID */
+     , (44190, 15, 67116983) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44190, 113, 1) /* GENDER_INT */
+     , (44190, 2, 31) /* CREATURE_TYPE_INT */
+     , (44190, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (44190, 25, 200) /* LEVEL_INT */
+     , (44190, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44190, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (44190, 16, 67110063) /* EYES_PALETTE_DID */
+     , (44190, 9, 83890445) /* EYES_TEXTURE_DID */
+     , (44190, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (44190, 10, 83890555) /* NOSE_TEXTURE_DID */
+     , (44190, 11, 83890642) /* MOUTH_TEXTURE_DID */
+     , (44190, 15, 67116983) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44190, 113, 1) /* GENDER_INT */
+     , (44190, 2, 31) /* CREATURE_TYPE_INT */
+     , (44190, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (44190, 25, 200) /* LEVEL_INT */
+     , (44190, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (44190, 1, 100) /* STRENGTH_ATTRIBUTE */
+     , (44190, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (44190, 4, 60) /* COORDINATION_ATTRIBUTE */
+     , (44190, 8, 40) /* QUICKNESS_ATTRIBUTE */
+     , (44190, 16, 30) /* FOCUS_ATTRIBUTE */
+     , (44190, 32, 30) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44190, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (44190, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (44190, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
+

@@ -86,3 +86,26 @@ VALUES (48777, 1, 16777708)
      , (48777, 14, 16781862)
      , (48777, 11, 16781861);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48777, 5, 'Artifact Collector') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (48777, 16, 67116845) /* EYES_PALETTE_DID */
+     , (48777, 9, 83890445) /* EYES_TEXTURE_DID */
+     , (48777, 17, 67116849) /* SKIN_PALETTE_DID */
+     , (48777, 10, 83890559) /* NOSE_TEXTURE_DID */
+     , (48777, 11, 83890630) /* MOUTH_TEXTURE_DID */
+     , (48777, 15, 67117060) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48777, 113, 1) /* GENDER_INT */
+     , (48777, 2, 31) /* CREATURE_TYPE_INT */
+     , (48777, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (48777, 25, 210) /* LEVEL_INT */
+     , (48777, 188, 5) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (48777, 64, 346) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

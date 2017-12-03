@@ -43,3 +43,28 @@ VALUES (14568, 67113784, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14568, 0, 16787230);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14568, 15, 'A Tumerok drum enhanced with the Heart of Oak spell by Aun Tikakhe.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14568, 160, 50) /* WIELD_DIFFICULTY_INT */
+     , (14568, 33, 1) /* BONDED_INT */
+     , (14568, 19, 0) /* VALUE_INT */
+     , (14568, 5, 20) /* ENCUMB_VAL_INT */
+     , (14568, 106, 320) /* ITEM_SPELLCRAFT_INT */
+     , (14568, 108, 2000) /* ITEM_MAX_MANA_INT */
+     , (14568, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (14568, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (14568, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (14568, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (14568, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (14568, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (14568, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (14568, 2638) /* HeartofOak_SpellID */;
+

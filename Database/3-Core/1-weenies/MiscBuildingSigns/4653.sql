@@ -34,3 +34,12 @@ VALUES (4653, 0, 83892071, 83892184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4653, 0, 16783205);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4653, 16, 'Wisdom''s Way') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4653, 19, 125) /* VALUE_INT */
+     , (4653, 5, 9000) /* ENCUMB_VAL_INT */;
+

@@ -90,6 +90,39 @@ VALUES (5877, 12, 16777304)
      , (5877, 8, 16781839)
      , (5877, 16, 16779630);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5877, 5, 'Peddler') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (5877, 16, 67110063) /* EYES_PALETTE_DID */
+     , (5877, 9, 83890511) /* EYES_TEXTURE_DID */
+     , (5877, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (5877, 10, 83890550) /* NOSE_TEXTURE_DID */
+     , (5877, 11, 83890627) /* MOUTH_TEXTURE_DID */
+     , (5877, 15, 67116982) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5877, 113, 1) /* GENDER_INT */
+     , (5877, 2, 31) /* CREATURE_TYPE_INT */
+     , (5877, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (5877, 25, 7) /* LEVEL_INT */
+     , (5877, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (5877, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (5877, 2, 77) /* ENDURANCE_ATTRIBUTE */
+     , (5877, 4, 60) /* COORDINATION_ATTRIBUTE */
+     , (5877, 8, 60) /* QUICKNESS_ATTRIBUTE */
+     , (5877, 16, 40) /* FOCUS_ATTRIBUTE */
+     , (5877, 32, 40) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (5877, 64, 89) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5877, 128, 177) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5877, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

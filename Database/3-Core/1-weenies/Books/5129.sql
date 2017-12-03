@@ -35,6 +35,19 @@ VALUES (5129, 13, True) /* ETHEREAL_BOOL */
      , (5129, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5129, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5129, 16, 'A faded copy of Volume 7 of The Hundred Trackless Paths by Khaymahlai.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5129, 33, 1) /* BONDED_INT */
+     , (5129, 114, 1) /* ATTUNED_INT */
+     , (5129, 19, 90) /* VALUE_INT */
+     , (5129, 5, 160) /* ENCUMB_VAL_INT */
+     , (5129, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (5129, 175, 8) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

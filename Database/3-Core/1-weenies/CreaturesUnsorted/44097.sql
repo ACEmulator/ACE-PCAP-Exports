@@ -81,3 +81,12 @@ VALUES (44097, 0, 16777294)
      , (44097, 15, 16777307)
      , (44097, 16, 16781779);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44097, 2, 14) /* CREATURE_TYPE_INT */
+     , (44097, 25, 240) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44097, 64, 14600) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

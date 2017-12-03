@@ -34,3 +34,13 @@ VALUES (42147, 13, True) /* ETHEREAL_BOOL */
      , (42147, 19, True) /* ATTACKABLE_BOOL */
      , (42147, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42147, 16, 'A portal leading to a location near Suntik where the Acid Axe may be found.') /* LONG_DESC_STRING */
+     , (42147, 38, 'Suntik (16.5N, 3.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42147, 86, 35) /* MIN_LEVEL_INT */
+     , (42147, 111, 49) /* PORTAL_BITMASK_INT */;
+

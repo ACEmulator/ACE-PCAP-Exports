@@ -35,3 +35,17 @@ VALUES (20438, 13, True) /* ETHEREAL_BOOL */
      , (20438, 19, True) /* ATTACKABLE_BOOL */
      , (20438, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20438, 16, 'Inscribed spell: Thousand Fists
+Shoots five shock waves toward the target. Each wave does 42-84 points of bludgeoning damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (20438, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20438, 19, 2000) /* VALUE_INT */
+     , (20438, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20438, 2126) /* BludgeoningVolley7_SpellID */;
+

@@ -32,3 +32,12 @@ VALUES (34096, 13, True) /* ETHEREAL_BOOL */
      , (34096, 19, True) /* ATTACKABLE_BOOL */
      , (34096, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34096, 14, 'Turn this item into Ungrim in Glendenwood.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34096, 19, 0) /* VALUE_INT */
+     , (34096, 5, 250) /* ENCUMB_VAL_INT */;
+

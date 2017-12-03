@@ -50,3 +50,40 @@ VALUES (2587, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2587, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2587, 16, 'Loose Shirt of Piercing Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2587, 177, 1) /* GEM_COUNT_INT */
+     , (2587, 178, 25) /* GEM_TYPE_INT */
+     , (2587, 19, 1289) /* VALUE_INT */
+     , (2587, 131, 4) /* MATERIAL_TYPE_INT */
+     , (2587, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (2587, 5, 75) /* ENCUMB_VAL_INT */
+     , (2587, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (2587, 106, 155) /* ITEM_SPELLCRAFT_INT */
+     , (2587, 28, 0) /* ARMOR_LEVEL_INT */
+     , (2587, 108, 501) /* ITEM_MAX_MANA_INT */
+     , (2587, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (2587, 109, 155) /* ITEM_DIFFICULTY_INT */
+     , (2587, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2587, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (2587, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (2587, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (2587, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (2587, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (2587, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (2587, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (2587, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (2587, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2587, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2587, 1136) /* PiercingProtectionSelf4_SpellID */;
+

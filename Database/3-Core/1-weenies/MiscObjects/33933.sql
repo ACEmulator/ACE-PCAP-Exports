@@ -34,3 +34,17 @@ VALUES (33933, 13, True) /* ETHEREAL_BOOL */
      , (33933, 19, True) /* ATTACKABLE_BOOL */
      , (33933, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33933, 16, 'A closed scroll, addressed to Larinne Kerendova, located at 35.2N 39.4E, between Holtburg and Cragstone.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33933, 33, 1) /* BONDED_INT */
+     , (33933, 114, 1) /* ATTUNED_INT */
+     , (33933, 19, 0) /* VALUE_INT */
+     , (33933, 5, 15) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33933, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -51,3 +51,52 @@ VALUES (35916, 0, 83886174, 83886174)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35916, 0, 16784513);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35916, 16, 'A sword, crafted from the remains of the stronger Paradox-touched Olthoi.  Something about the nature of these creatures makes the weapon naturally deadlier versus normal Olthoi.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35916, 55, 67) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35916, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (35916, 353, 2) /* WEAPON_TYPE_INT */
+     , (35916, 33, 1) /* BONDED_INT */
+     , (35916, 114, 1) /* ATTUNED_INT */
+     , (35916, 19, 10000) /* VALUE_INT */
+     , (35916, 5, 450) /* ENCUMB_VAL_INT */
+     , (35916, 166, 1) /* SLAYER_CREATURE_TYPE_INT */
+     , (35916, 263, 1) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (35916, 106, 450) /* ITEM_SPELLCRAFT_INT */
+     , (35916, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (35916, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (35916, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (35916, 47, 6) /* ATTACK_TYPE_INT */
+     , (35916, 45, 3) /* DAMAGE_TYPE_INT */
+     , (35916, 49, 0) /* WEAPON_TIME_INT */
+     , (35916, 48, 44) /* WEAPON_SKILL_INT */
+     , (35916, 44, 86) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35916, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (35916, 5, -0.0333) /* MANA_RATE_FLOAT */
+     , (35916, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (35916, 29, 1.35) /* WEAPON_DEFENSE_FLOAT */
+     , (35916, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (35916, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (35916, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (35916, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (35916, 62, 1.35) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35916, 99, 1) /* IVORYABLE_BOOL */
+     , (35916, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35916, 67) /* ShockWave4_SpellID */
+     , (35916, 2116) /* Swiftkiller7_SpellID */
+     , (35916, 2096) /* BloodDrinker7_SpellID */
+     , (35916, 2101) /* Defender7_SpellID */
+     , (35916, 2106) /* Heartseeker7_SpellID */;
+

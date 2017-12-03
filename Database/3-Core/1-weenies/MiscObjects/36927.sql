@@ -31,3 +31,14 @@ VALUES (36927, 13, True) /* ETHEREAL_BOOL */
      , (36927, 19, True) /* ATTACKABLE_BOOL */
      , (36927, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36927, 16, 'This claw belonged to the shade of Bael''Zharon found in the Ithaenc Quiddity Seed dream realm.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36927, 33, 1) /* BONDED_INT */
+     , (36927, 114, 1) /* ATTUNED_INT */
+     , (36927, 19, 0) /* VALUE_INT */
+     , (36927, 5, 200) /* ENCUMB_VAL_INT */;
+

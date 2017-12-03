@@ -29,3 +29,12 @@ VALUES (42858, 13, True) /* ETHEREAL_BOOL */
      , (42858, 19, True) /* ATTACKABLE_BOOL */
      , (42858, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42858, 16, 'Wisps are strange, magical creatures that resemble dancing balls of light. Their origins are unknown: some scholars speculate that they are tied to the vanished Empyrean, or to the forces of magic. They are unpredictable in battle, often relying on magic to harm or hinder opponents, but sometimes darting at a target to inflict electrical damage. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42858, 19, 125) /* VALUE_INT */
+     , (42858, 5, 9000) /* ENCUMB_VAL_INT */;
+

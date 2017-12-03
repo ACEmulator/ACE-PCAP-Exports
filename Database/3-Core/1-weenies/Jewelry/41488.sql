@@ -47,3 +47,15 @@ VALUES (41488, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41488, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41488, 16, 'Top') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41488, 19, 162) /* VALUE_INT */
+     , (41488, 131, 59) /* MATERIAL_TYPE_INT */
+     , (41488, 5, 100) /* ENCUMB_VAL_INT */
+     , (41488, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (41488, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+

@@ -48,3 +48,45 @@ VALUES (3938, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3938, 0, 16777932);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3938, 16, 'Frost Morning Star of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3938, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3938, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (3938, 353, 4) /* WEAPON_TYPE_INT */
+     , (3938, 177, 2) /* GEM_COUNT_INT */
+     , (3938, 178, 45) /* GEM_TYPE_INT */
+     , (3938, 19, 3025) /* VALUE_INT */
+     , (3938, 131, 59) /* MATERIAL_TYPE_INT */
+     , (3938, 115, 172) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3938, 5, 900) /* ENCUMB_VAL_INT */
+     , (3938, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (3938, 106, 152) /* ITEM_SPELLCRAFT_INT */
+     , (3938, 108, 809) /* ITEM_MAX_MANA_INT */
+     , (3938, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3938, 109, 74) /* ITEM_DIFFICULTY_INT */
+     , (3938, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3938, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3938, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (3938, 47, 4) /* ATTACK_TYPE_INT */
+     , (3938, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3938, 49, 64) /* WEAPON_TIME_INT */
+     , (3938, 48, 44) /* WEAPON_SKILL_INT */
+     , (3938, 44, 30) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3938, 5, -0.03333334) /* MANA_RATE_FLOAT */
+     , (3938, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
+     , (3938, 22, 0.46) /* DAMAGE_VARIANCE_FLOAT */
+     , (3938, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3938, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3938, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3938, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3938, 1614) /* BloodDrinker4_SpellID */
+     , (3938, 2600) /* CANTRIPDEFENDER1_SpellID */;
+

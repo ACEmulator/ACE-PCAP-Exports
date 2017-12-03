@@ -39,3 +39,35 @@ VALUES (34022, 0, 16793227)
      , (34022, 2, 16793229)
      , (34022, 3, 16793230);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34022, 16, 'A pair of clean white bunny slippers.') /* LONG_DESC_STRING */
+     , (34022, 14, 'This item can be placed on floor hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34022, 19, 0) /* VALUE_INT */
+     , (34022, 5, 350) /* ENCUMB_VAL_INT */
+     , (34022, 106, 30) /* ITEM_SPELLCRAFT_INT */
+     , (34022, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (34022, 28, 30) /* ARMOR_LEVEL_INT */
+     , (34022, 109, 225) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (34022, 5, -0.05555) /* MANA_RATE_FLOAT */
+     , (34022, 13, 0.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (34022, 14, 0.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (34022, 15, 0.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (34022, 16, 1.3) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (34022, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (34022, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (34022, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (34022, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34022, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (34022, 975) /* JumpingMasterySelf6_SpellID */
+     , (34022, 987) /* SprintSelf6_SpellID */;
+

@@ -34,3 +34,12 @@ VALUES (44992, 13, True) /* ETHEREAL_BOOL */
      , (44992, 19, True) /* ATTACKABLE_BOOL */
      , (44992, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44992, 38, 'Frozen Wight Lair') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44992, 86, 180) /* MIN_LEVEL_INT */
+     , (44992, 111, 49) /* PORTAL_BITMASK_INT */;
+

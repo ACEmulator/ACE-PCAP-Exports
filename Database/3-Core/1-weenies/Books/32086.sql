@@ -32,6 +32,17 @@ VALUES (32086, 13, True) /* ETHEREAL_BOOL */
      , (32086, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32086, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32086, 15, 'A list of items that the Arcanum Refurbisher can repair for you.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32086, 19, 0) /* VALUE_INT */
+     , (32086, 5, 0) /* ENCUMB_VAL_INT */
+     , (32086, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (32086, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -40,6 +40,21 @@ VALUES (35890, 0, 83893723, 83893850)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35890, 0, 16787203);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35890, 16, 'A token given by Ethan Wintermaine for aiding in the defeat of the Paradox-touched Olthoi Queen.') /* LONG_DESC_STRING */
+     , (35890, 14, 'Give this token to one of the Olthoi Weapon Crafters for a weapon of their design.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35890, 33, 1) /* BONDED_INT */
+     , (35890, 114, 1) /* ATTUNED_INT */
+     , (35890, 19, 0) /* VALUE_INT */
+     , (35890, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35890, 99, 0) /* IVORYABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

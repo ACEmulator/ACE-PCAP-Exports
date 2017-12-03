@@ -33,3 +33,13 @@ VALUES (35739, 13, True) /* ETHEREAL_BOOL */
      , (35739, 19, True) /* ATTACKABLE_BOOL */
      , (35739, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35739, 16, 'This portal seems warded by a strange mix of energies.  You have no idea how to access it directly.') /* LONG_DESC_STRING */
+     , (35739, 14, 'Destroy the Paradox-touched Olthoi Ward Guardian to weaken the wards around this portal for a time.') /* USE_STRING */
+     , (35739, 38, 'Deeper Catacombs') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35739, 111, 49) /* PORTAL_BITMASK_INT */;
+

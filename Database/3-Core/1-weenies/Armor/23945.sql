@@ -42,3 +42,37 @@ VALUES (23945, 67114179, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23945, 0, 16788899);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23945, 15, 'This helm was worn by Initiates of Perfect Light. They are modeled after the helms worn by the armies of Lord Atlan against the swelling darkness. The helm has a single setting for an orb.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23945, 33, 1) /* BONDED_INT */
+     , (23945, 114, 1) /* ATTUNED_INT */
+     , (23945, 19, 3200) /* VALUE_INT */
+     , (23945, 5, 325) /* ENCUMB_VAL_INT */
+     , (23945, 106, 275) /* ITEM_SPELLCRAFT_INT */
+     , (23945, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (23945, 28, 250) /* ARMOR_LEVEL_INT */
+     , (23945, 109, 185) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23945, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (23945, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (23945, 14, 0.75) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (23945, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (23945, 16, 0.75) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (23945, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (23945, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (23945, 19, 0.75) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (23945, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23945, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23945, 2950) /* MaidensKiss_SpellID */
+     , (23945, 1485) /* Impenetrability5_SpellID */
+     , (23945, 244) /* InvulnerabilityOther6_SpellID */;
+

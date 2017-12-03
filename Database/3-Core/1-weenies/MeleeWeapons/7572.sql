@@ -40,3 +40,32 @@ VALUES (7572, 13, True) /* ETHEREAL_BOOL */
      , (7572, 19, True) /* ATTACKABLE_BOOL */
      , (7572, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7572, 16, 'A staff crafted from pure chorizite, imbued with powerful magic, but resistant to further enchantment. (Note: This weapon is unenchantable.)') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7572, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (7572, 33, 1) /* BONDED_INT */
+     , (7572, 353, 7) /* WEAPON_TYPE_INT */
+     , (7572, 114, 1) /* ATTUNED_INT */
+     , (7572, 19, 3000) /* VALUE_INT */
+     , (7572, 36, 9999) /* RESIST_MAGIC_INT */
+     , (7572, 5, 450) /* ENCUMB_VAL_INT */
+     , (7572, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (7572, 47, 6) /* ATTACK_TYPE_INT */
+     , (7572, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (7572, 45, 4) /* DAMAGE_TYPE_INT */
+     , (7572, 49, 20) /* WEAPON_TIME_INT */
+     , (7572, 48, 45) /* WEAPON_SKILL_INT */
+     , (7572, 44, 41) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7572, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (7572, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (7572, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (7572, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (7572, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (7572, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+

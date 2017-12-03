@@ -37,3 +37,16 @@ VALUES (27383, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27383, 19, True) /* ATTACKABLE_BOOL */
      , (27383, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27383, 16, 'A heavy iron chest. There are strange runes carved around the lid.') /* LONG_DESC_STRING */
+     , (27383, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27383, 19, 2500) /* VALUE_INT */
+     , (27383, 5, 12830) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27383, 2, 0) /* OPEN_BOOL */;
+

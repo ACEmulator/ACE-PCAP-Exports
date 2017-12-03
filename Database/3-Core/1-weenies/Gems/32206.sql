@@ -36,3 +36,12 @@ VALUES (32206, 13, True) /* ETHEREAL_BOOL */
      , (32206, 19, True) /* ATTACKABLE_BOOL */
      , (32206, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32206, 16, 'The vile and naughty Pumpkin Lord. He was grown from a bad seed.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32206, 19, 10) /* VALUE_INT */
+     , (32206, 5, 10) /* ENCUMB_VAL_INT */;
+

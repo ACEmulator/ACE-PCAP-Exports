@@ -32,3 +32,16 @@ VALUES (36065, 13, True) /* ETHEREAL_BOOL */
      , (36065, 19, True) /* ATTACKABLE_BOOL */
      , (36065, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36065, 16, 'Looking into this vaguely gem-like object, you perceive the swirling eddies of portal space and, within them, the vague image of Ayan Baqur.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36065, 33, 1) /* BONDED_INT */
+     , (36065, 19, 0) /* VALUE_INT */
+     , (36065, 5, 1) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36065, 69, 0) /* IS_SELLABLE_BOOL */;
+

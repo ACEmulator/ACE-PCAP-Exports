@@ -33,3 +33,11 @@ VALUES (2076, 13, True) /* ETHEREAL_BOOL */
      , (2076, 19, True) /* ATTACKABLE_BOOL */
      , (2076, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2076, 38, 'Dungeon Gallery Tower') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2076, 111, 1) /* PORTAL_BITMASK_INT */;
+

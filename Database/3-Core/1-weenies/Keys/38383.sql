@@ -34,3 +34,18 @@ VALUES (38383, 13, True) /* ETHEREAL_BOOL */
      , (38383, 19, True) /* ATTACKABLE_BOOL */
      , (38383, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38383, 16, 'An intricate key covered in Falatacot markings.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38383, 33, 0) /* BONDED_INT */
+     , (38383, 114, 0) /* ATTUNED_INT */
+     , (38383, 19, 0) /* VALUE_INT */
+     , (38383, 5, 15) /* ENCUMB_VAL_INT */
+     , (38383, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38383, 69, 0) /* IS_SELLABLE_BOOL */;
+

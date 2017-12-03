@@ -31,3 +31,12 @@ VALUES (35889, 13, True) /* ETHEREAL_BOOL */
      , (35889, 19, True) /* ATTACKABLE_BOOL */
      , (35889, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35889, 16, 'The plaque-mounted head of the Paradox-touched Olthoi Queen, given to you by Ethan Wintermaine for the slaying of said Paradox-touched Olthoi Queen.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35889, 19, 0) /* VALUE_INT */
+     , (35889, 5, 2100) /* ENCUMB_VAL_INT */;
+

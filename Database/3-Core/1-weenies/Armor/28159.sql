@@ -44,3 +44,35 @@ VALUES (28159, 0, 83890391, 83895497);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28159, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28159, 16, 'A solidifed ruby gromnie eye.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28159, 160, 50) /* WIELD_DIFFICULTY_INT */
+     , (28159, 19, 4500) /* VALUE_INT */
+     , (28159, 5, 325) /* ENCUMB_VAL_INT */
+     , (28159, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (28159, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (28159, 28, 225) /* ARMOR_LEVEL_INT */
+     , (28159, 109, 150) /* ITEM_DIFFICULTY_INT */
+     , (28159, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (28159, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28159, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (28159, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28159, 14, 1.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28159, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28159, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28159, 17, 1.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28159, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28159, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28159, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28159, 1096) /* FireProtectionOther6_SpellID */
+     , (28159, 1997) /* LifeGiver_SpellID */
+     , (28159, 2618) /* CANTRIPFLAMEWARD1_SpellID */;
+

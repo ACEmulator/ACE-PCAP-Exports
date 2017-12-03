@@ -33,6 +33,14 @@ VALUES (5702, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (5702, 19, True) /* ATTACKABLE_BOOL */
      , (5702, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5702, 19, 10) /* VALUE_INT */
+     , (5702, 5, 25) /* ENCUMB_VAL_INT */
+     , (5702, 174, 14) /* APPRAISAL_PAGES_INT */
+     , (5702, 175, 14) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

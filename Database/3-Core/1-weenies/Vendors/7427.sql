@@ -92,6 +92,39 @@ VALUES (7427, 11, 16777302)
      , (7427, 8, 16781839)
      , (7427, 16, 16783954);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7427, 5, 'Souvenir Hawker') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (7427, 16, 67109565) /* EYES_PALETTE_DID */
+     , (7427, 9, 83890453) /* EYES_TEXTURE_DID */
+     , (7427, 17, 67110056) /* SKIN_PALETTE_DID */
+     , (7427, 10, 83890548) /* NOSE_TEXTURE_DID */
+     , (7427, 11, 83890665) /* MOUTH_TEXTURE_DID */
+     , (7427, 15, 67117075) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7427, 113, 1) /* GENDER_INT */
+     , (7427, 2, 31) /* CREATURE_TYPE_INT */
+     , (7427, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (7427, 25, 43) /* LEVEL_INT */
+     , (7427, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (7427, 1, 140) /* STRENGTH_ATTRIBUTE */
+     , (7427, 2, 130) /* ENDURANCE_ATTRIBUTE */
+     , (7427, 4, 140) /* COORDINATION_ATTRIBUTE */
+     , (7427, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (7427, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (7427, 32, 60) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (7427, 64, 245) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (7427, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (7427, 256, 170) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

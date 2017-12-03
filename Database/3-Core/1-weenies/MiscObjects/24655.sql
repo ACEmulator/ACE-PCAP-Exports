@@ -31,3 +31,14 @@ VALUES (24655, 13, True) /* ETHEREAL_BOOL */
      , (24655, 19, True) /* ATTACKABLE_BOOL */
      , (24655, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24655, 15, 'The femur of a departed young Olthoi Brood Queen.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24655, 33, 1) /* BONDED_INT */
+     , (24655, 114, 1) /* ATTUNED_INT */
+     , (24655, 19, 0) /* VALUE_INT */
+     , (24655, 5, 50) /* ENCUMB_VAL_INT */;
+

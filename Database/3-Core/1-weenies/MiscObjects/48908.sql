@@ -32,3 +32,22 @@ VALUES (48908, 13, True) /* ETHEREAL_BOOL */
      , (48908, 19, True) /* ATTACKABLE_BOOL */
      , (48908, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48908, 16, 'A severely damaged and cracked Legendary Key') /* LONG_DESC_STRING */
+     , (48908, 14, 'Use an intricate carving tool to carve this into something useful.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48908, 33, 1) /* BONDED_INT */
+     , (48908, 114, 1) /* ATTUNED_INT */
+     , (48908, 98, 1485748853) /* CREATION_TIMESTAMP_INT */
+     , (48908, 19, 0) /* VALUE_INT */
+     , (48908, 5, 20) /* ENCUMB_VAL_INT */
+     , (48908, 267, 86400) /* LIFESPAN_INT */
+     , (48908, 268, 85664) /* REMAINING_LIFESPAN_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48908, 99, 0) /* IVORYABLE_BOOL */
+     , (48908, 69, 0) /* IS_SELLABLE_BOOL */;
+

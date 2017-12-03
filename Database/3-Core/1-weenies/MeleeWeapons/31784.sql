@@ -53,3 +53,40 @@ VALUES (31784, 0, 83897338, 83897338);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31784, 0, 16792615);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31784, 16, 'Claw of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31784, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31784, 353, 1) /* WEAPON_TYPE_INT */
+     , (31784, 19, 949) /* VALUE_INT */
+     , (31784, 131, 59) /* MATERIAL_TYPE_INT */
+     , (31784, 115, 68) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31784, 5, 116) /* ENCUMB_VAL_INT */
+     , (31784, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (31784, 106, 48) /* ITEM_SPELLCRAFT_INT */
+     , (31784, 108, 401) /* ITEM_MAX_MANA_INT */
+     , (31784, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31784, 109, 14) /* ITEM_DIFFICULTY_INT */
+     , (31784, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31784, 47, 1) /* ATTACK_TYPE_INT */
+     , (31784, 45, 3) /* DAMAGE_TYPE_INT */
+     , (31784, 49, 20) /* WEAPON_TIME_INT */
+     , (31784, 48, 46) /* WEAPON_SKILL_INT */
+     , (31784, 44, 13) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31784, 5, -0.01666667) /* MANA_RATE_FLOAT */
+     , (31784, 29, 1.01) /* WEAPON_DEFENSE_FLOAT */
+     , (31784, 22, 0.58) /* DAMAGE_VARIANCE_FLOAT */
+     , (31784, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (31784, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31784, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31784, 62, 1.01) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31784, 1612) /* BloodDrinker2_SpellID */
+     , (31784, 1623) /* SwiftKiller2_SpellID */;
+

@@ -35,3 +35,17 @@ VALUES (27314, 13, True) /* ETHEREAL_BOOL */
      , (27314, 19, True) /* ATTACKABLE_BOOL */
      , (27314, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27314, 15, 'A dull, rusty key.  It looks like the type used to unlock shackles or stocks.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27314, 33, 1) /* BONDED_INT */
+     , (27314, 114, 1) /* ATTUNED_INT */
+     , (27314, 19, 10) /* VALUE_INT */
+     , (27314, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27314, 69, 0) /* IS_SELLABLE_BOOL */;
+

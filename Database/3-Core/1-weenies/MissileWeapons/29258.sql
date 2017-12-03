@@ -54,3 +54,34 @@ VALUES (29258, 0, 83895603, 83895603)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29258, 0, 16791354);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29258, 16, 'Slashing Atlatl') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29258, 160, 360) /* WIELD_DIFFICULTY_INT */
+     , (29258, 353, 10) /* WEAPON_TYPE_INT */
+     , (29258, 177, 1) /* GEM_COUNT_INT */
+     , (29258, 178, 26) /* GEM_TYPE_INT */
+     , (29258, 19, 5375) /* VALUE_INT */
+     , (29258, 131, 51) /* MATERIAL_TYPE_INT */
+     , (29258, 5, 329) /* ENCUMB_VAL_INT */
+     , (29258, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (29258, 204, 8) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (29258, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (29258, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (29258, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (29258, 45, 1) /* DAMAGE_TYPE_INT */
+     , (29258, 49, 22) /* WEAPON_TIME_INT */
+     , (29258, 48, 47) /* WEAPON_SKILL_INT */
+     , (29258, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29258, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
+     , (29258, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (29258, 63, 2.55) /* DAMAGE_MOD_FLOAT */
+     , (29258, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (29258, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (29258, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

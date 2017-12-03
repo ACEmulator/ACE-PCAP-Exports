@@ -36,3 +36,30 @@ VALUES (9491, 13, True) /* ETHEREAL_BOOL */
      , (9491, 19, True) /* ATTACKABLE_BOOL */
      , (9491, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9491, 15, 'When you must strike, do not leave room for a return blow. [Note: You must have Mana Conversion specialized to use the magic on this item, in addition to the other requirements]') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (9491, 41, 16) /* ITEM_SPECIALIZED_ONLY_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9491, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
+     , (9491, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (9491, 19, 2000) /* VALUE_INT */
+     , (9491, 5, 450) /* ENCUMB_VAL_INT */
+     , (9491, 106, 65) /* ITEM_SPELLCRAFT_INT */
+     , (9491, 108, 700) /* ITEM_MAX_MANA_INT */
+     , (9491, 109, 100) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9491, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (9491, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (9491, 5, -0.033) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9491, 640) /* WarMagicMasteryOther6_SpellID */
+     , (9491, 211) /* ManaRenewalOther6_SpellID */
+     , (9491, 664) /* ManaMasteryOther6_SpellID */;
+

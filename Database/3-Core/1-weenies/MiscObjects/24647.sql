@@ -31,3 +31,14 @@ VALUES (24647, 13, True) /* ETHEREAL_BOOL */
      , (24647, 19, True) /* ATTACKABLE_BOOL */
      , (24647, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24647, 15, 'The tibia of a departed Young Olthoi Brood Matron.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24647, 33, 1) /* BONDED_INT */
+     , (24647, 114, 1) /* ATTUNED_INT */
+     , (24647, 19, 0) /* VALUE_INT */
+     , (24647, 5, 50) /* ENCUMB_VAL_INT */;
+

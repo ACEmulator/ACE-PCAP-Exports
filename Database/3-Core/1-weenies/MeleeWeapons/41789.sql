@@ -49,3 +49,44 @@ VALUES (41789, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41789, 0, 16777880);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41789, 15, 'A two handed sword imbued with Singularity energy.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41789, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (41789, 33, -2) /* BONDED_INT */
+     , (41789, 353, 11) /* WEAPON_TYPE_INT */
+     , (41789, 114, 1) /* ATTUNED_INT */
+     , (41789, 19, 0) /* VALUE_INT */
+     , (41789, 292, 2) /* CLEAVING_INT */
+     , (41789, 5, 450) /* ENCUMB_VAL_INT */
+     , (41789, 166, 19) /* SLAYER_CREATURE_TYPE_INT */
+     , (41789, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (41789, 108, 700) /* ITEM_MAX_MANA_INT */
+     , (41789, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (41789, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41789, 47, 4) /* ATTACK_TYPE_INT */
+     , (41789, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (41789, 45, 1) /* DAMAGE_TYPE_INT */
+     , (41789, 49, 40) /* WEAPON_TIME_INT */
+     , (41789, 48, 41) /* WEAPON_SKILL_INT */
+     , (41789, 44, 25) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41789, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (41789, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (41789, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (41789, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (41789, 22, 0.51) /* DAMAGE_VARIANCE_FLOAT */
+     , (41789, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (41789, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41789, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41789, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41789, 1616) /* BloodDrinker6_SpellID */
+     , (41789, 1592) /* HeartSeeker6_SpellID */
+     , (41789, 1337) /* StrengthOther6_SpellID */;
+

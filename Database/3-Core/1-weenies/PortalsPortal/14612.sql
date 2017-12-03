@@ -33,3 +33,11 @@ VALUES (14612, 13, True) /* ETHEREAL_BOOL */
      , (14612, 19, True) /* ATTACKABLE_BOOL */
      , (14612, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14612, 38, 'Bellig Mesa Cottages Portal (14.7N, 19.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14612, 111, 1) /* PORTAL_BITMASK_INT */;
+

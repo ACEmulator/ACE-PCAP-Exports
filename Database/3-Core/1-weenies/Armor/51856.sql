@@ -38,3 +38,42 @@ VALUES (51856, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51856, 0, 16797004);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51856, 15, 'A mask crafted from the damaged mask of a Rynthid Berserker.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51856, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (51856, 33, 1) /* BONDED_INT */
+     , (51856, 114, 1) /* ATTUNED_INT */
+     , (51856, 19, 0) /* VALUE_INT */
+     , (51856, 5, 200) /* ENCUMB_VAL_INT */
+     , (51856, 265, 19) /* EQUIPMENT_SET_ID_INT */
+     , (51856, 106, 500) /* ITEM_SPELLCRAFT_INT */
+     , (51856, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (51856, 28, 440) /* ARMOR_LEVEL_INT */
+     , (51856, 109, 240) /* ITEM_DIFFICULTY_INT */
+     , (51856, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (51856, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (51856, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (51856, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (51856, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (51856, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (51856, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (51856, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (51856, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (51856, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (51856, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51856, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (51856, 6082) /* CantripFlameWard4_SpellID */
+     , (51856, 5895) /* CantripRecklessnessProwess3_SpellID */
+     , (51856, 6059) /* CantripLeadership4_SpellID */
+     , (51856, 4407) /* Impenetrability8_SpellID */;
+

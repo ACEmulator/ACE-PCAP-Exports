@@ -33,3 +33,12 @@ VALUES (2364, 13, True) /* ETHEREAL_BOOL */
      , (2364, 19, True) /* ATTACKABLE_BOOL */
      , (2364, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2364, 38, 'Tumerok Fortress Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2364, 86, 20) /* MIN_LEVEL_INT */
+     , (2364, 111, 17) /* PORTAL_BITMASK_INT */;
+

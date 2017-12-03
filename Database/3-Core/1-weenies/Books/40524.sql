@@ -33,6 +33,25 @@ VALUES (40524, 13, True) /* ETHEREAL_BOOL */
      , (40524, 14, True) /* GRAVITY_STATUS_BOOL */
      , (40524, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40524, 15, 'This message will soon self destruct! Commit it to memory. You have less than a week to make contact before this will become invalid. You''ll want to bring MMD trade notes if you''re interested in purchasing any services. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40524, 33, 1) /* BONDED_INT */
+     , (40524, 114, 1) /* ATTUNED_INT */
+     , (40524, 98, 1485747299) /* CREATION_TIMESTAMP_INT */
+     , (40524, 19, 0) /* VALUE_INT */
+     , (40524, 5, 10) /* ENCUMB_VAL_INT */
+     , (40524, 267, 600) /* LIFESPAN_INT */
+     , (40524, 268, 420) /* REMAINING_LIFESPAN_INT */
+     , (40524, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (40524, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40524, 69, 1) /* IS_SELLABLE_BOOL */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

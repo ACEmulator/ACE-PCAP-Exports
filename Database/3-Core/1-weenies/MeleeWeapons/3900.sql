@@ -51,3 +51,47 @@ VALUES (3900, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3900, 0, 16777923);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3900, 16, 'Frost Tofun of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3900, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3900, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (3900, 353, 4) /* WEAPON_TYPE_INT */
+     , (3900, 177, 2) /* GEM_COUNT_INT */
+     , (3900, 178, 47) /* GEM_TYPE_INT */
+     , (3900, 19, 3737) /* VALUE_INT */
+     , (3900, 131, 76) /* MATERIAL_TYPE_INT */
+     , (3900, 115, 281) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3900, 5, 392) /* ENCUMB_VAL_INT */
+     , (3900, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (3900, 106, 261) /* ITEM_SPELLCRAFT_INT */
+     , (3900, 108, 654) /* ITEM_MAX_MANA_INT */
+     , (3900, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3900, 109, 144) /* ITEM_DIFFICULTY_INT */
+     , (3900, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3900, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3900, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (3900, 47, 4) /* ATTACK_TYPE_INT */
+     , (3900, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3900, 49, 26) /* WEAPON_TIME_INT */
+     , (3900, 48, 46) /* WEAPON_SKILL_INT */
+     , (3900, 44, 33) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3900, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (3900, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (3900, 22, 0.37) /* DAMAGE_VARIANCE_FLOAT */
+     , (3900, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3900, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3900, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3900, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3900, 2575) /* CANTRIPQUICKNESS2_SpellID */
+     , (3900, 1616) /* BloodDrinker6_SpellID */
+     , (3900, 2578) /* CANTRIPARMOR1_SpellID */
+     , (3900, 1332) /* StrengthSelf6_SpellID */;
+

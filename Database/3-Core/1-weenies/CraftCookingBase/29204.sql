@@ -35,6 +35,16 @@ VALUES (29204, 13, True) /* ETHEREAL_BOOL */
      , (29204, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29204, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29204, 16, 'The saliva from a creature of the Tusker persuasion.') /* LONG_DESC_STRING */
+     , (29204, 14, 'This item is used in brewing.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29204, 19, 0) /* VALUE_INT */
+     , (29204, 5, 20) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

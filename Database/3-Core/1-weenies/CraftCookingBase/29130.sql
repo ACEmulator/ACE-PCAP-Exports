@@ -36,6 +36,19 @@ VALUES (29130, 13, True) /* ETHEREAL_BOOL */
      , (29130, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29130, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29130, 16, 'These hops are incredibly green.') /* LONG_DESC_STRING */
+     , (29130, 14, 'Add hops to wort to create finished wort.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29130, 19, 480) /* VALUE_INT */
+     , (29130, 5, 240) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29130, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

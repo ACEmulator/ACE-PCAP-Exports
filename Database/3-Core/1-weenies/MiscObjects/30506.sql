@@ -34,3 +34,14 @@ VALUES (30506, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30506, 0, 16787385);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30506, 16, 'A rather nasty head from a rather nasty marionette. It sounds like something is sloshing inside.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30506, 33, 1) /* BONDED_INT */
+     , (30506, 114, 1) /* ATTUNED_INT */
+     , (30506, 19, 0) /* VALUE_INT */
+     , (30506, 5, 10) /* ENCUMB_VAL_INT */;
+

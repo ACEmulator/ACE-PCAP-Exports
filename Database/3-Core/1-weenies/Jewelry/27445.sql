@@ -45,3 +45,25 @@ VALUES (27445, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27445, 0, 16778348);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27445, 16, 'The focus of the Consumed Wraith''s power, the Shadow Stone crackles with abyssal energy.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27445, 160, 225) /* WIELD_DIFFICULTY_INT */
+     , (27445, 19, 6000) /* VALUE_INT */
+     , (27445, 5, 40) /* ENCUMB_VAL_INT */
+     , (27445, 106, 500) /* ITEM_SPELLCRAFT_INT */
+     , (27445, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (27445, 109, 225) /* ITEM_DIFFICULTY_INT */
+     , (27445, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (27445, 159, 14) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27445, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27445, 2182) /* ManaRenewalOther7_SpellID */
+     , (27445, 2184) /* RegenerationOther7_SpellID */;
+

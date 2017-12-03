@@ -114,6 +114,39 @@ VALUES (42984, 5, 16788087)
      , (42984, 22, 16777708)
      , (42984, 21, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42984, 5, 'Royal Knight') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (42984, 16, 67110064) /* EYES_PALETTE_DID */
+     , (42984, 9, 83890480) /* EYES_TEXTURE_DID */
+     , (42984, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (42984, 10, 83890520) /* NOSE_TEXTURE_DID */
+     , (42984, 11, 83890648) /* MOUTH_TEXTURE_DID */
+     , (42984, 15, 67116996) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42984, 113, 1) /* GENDER_INT */
+     , (42984, 2, 31) /* CREATURE_TYPE_INT */
+     , (42984, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (42984, 25, 275) /* LEVEL_INT */
+     , (42984, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (42984, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (42984, 2, 250) /* ENDURANCE_ATTRIBUTE */
+     , (42984, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (42984, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (42984, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (42984, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (42984, 64, 321) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (42984, 128, 446) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (42984, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

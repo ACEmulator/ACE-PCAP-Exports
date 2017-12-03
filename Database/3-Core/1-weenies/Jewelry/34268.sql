@@ -36,3 +36,33 @@ VALUES (34268, 13, True) /* ETHEREAL_BOOL */
      , (34268, 19, True) /* ATTACKABLE_BOOL */
      , (34268, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34268, 16, 'A thick leather collar studded with black metal rings. It bears a strange falatacot symbol.') /* LONG_DESC_STRING */
+     , (34268, 14, 'Perhaps a translator could make something of the symbol on the collar.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34268, 160, 90) /* WIELD_DIFFICULTY_INT */
+     , (34268, 33, 0) /* BONDED_INT */
+     , (34268, 114, 0) /* ATTUNED_INT */
+     , (34268, 19, 10000) /* VALUE_INT */
+     , (34268, 5, 90) /* ENCUMB_VAL_INT */
+     , (34268, 106, 600) /* ITEM_SPELLCRAFT_INT */
+     , (34268, 108, 960) /* ITEM_MAX_MANA_INT */
+     , (34268, 109, 210) /* ITEM_DIFFICULTY_INT */
+     , (34268, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (34268, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (34268, 5, -0.0333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34268, 69, 1) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (34268, 3312) /* LesserFlangeAegis_SpellID */
+     , (34268, 3313) /* LesserLanceAegis_SpellID */
+     , (34268, 4026) /* HematicVerdure_SpellID */
+     , (34268, 4027) /* MessengersStride_SpellID */;
+

@@ -33,3 +33,16 @@ VALUES (15799, 13, True) /* ETHEREAL_BOOL */
      , (15799, 14, True) /* GRAVITY_STATUS_BOOL */
      , (15799, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15799, 15, 'A letter from Elysa Strathelar to Lania Cartoth.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15799, 33, 1) /* BONDED_INT */
+     , (15799, 114, 1) /* ATTUNED_INT */
+     , (15799, 19, 0) /* VALUE_INT */
+     , (15799, 5, 25) /* ENCUMB_VAL_INT */
+     , (15799, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (15799, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
+

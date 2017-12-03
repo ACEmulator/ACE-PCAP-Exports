@@ -85,3 +85,26 @@ VALUES (15809, 2, 16777293)
      , (15809, 4, 16777291)
      , (15809, 8, 16777298);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15809, 5, 'Historian') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (15809, 16, 67110063) /* EYES_PALETTE_DID */
+     , (15809, 9, 83890513) /* EYES_TEXTURE_DID */
+     , (15809, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (15809, 10, 83890551) /* NOSE_TEXTURE_DID */
+     , (15809, 11, 83890627) /* MOUTH_TEXTURE_DID */
+     , (15809, 15, 67116982) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15809, 113, 1) /* GENDER_INT */
+     , (15809, 2, 31) /* CREATURE_TYPE_INT */
+     , (15809, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (15809, 25, 15) /* LEVEL_INT */
+     , (15809, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (15809, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

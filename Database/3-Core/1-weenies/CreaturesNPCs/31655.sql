@@ -86,3 +86,36 @@ VALUES (31655, 12, 16777304)
      , (31655, 13, 16783871)
      , (31655, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31655, 5, 'Polardillo Pummeler') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (31655, 16, 67110064) /* EYES_PALETTE_DID */
+     , (31655, 9, 83890445) /* EYES_TEXTURE_DID */
+     , (31655, 17, 67115902) /* SKIN_PALETTE_DID */
+     , (31655, 10, 83890557) /* NOSE_TEXTURE_DID */
+     , (31655, 11, 83890658) /* MOUTH_TEXTURE_DID */
+     , (31655, 15, 67117078) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31655, 113, 1) /* GENDER_INT */
+     , (31655, 2, 31) /* CREATURE_TYPE_INT */
+     , (31655, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (31655, 25, 14) /* LEVEL_INT */
+     , (31655, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31655, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (31655, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (31655, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (31655, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (31655, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (31655, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (31655, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31655, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31655, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
+

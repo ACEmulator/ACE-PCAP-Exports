@@ -86,6 +86,15 @@ VALUES (34261, 13, 16781879)
      , (34261, 7, 16777296)
      , (34261, 8, 16777298);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34261, 19, 0) /* VALUE_INT */
+     , (34261, 5, 3030) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34261, 2, 0) /* OPEN_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

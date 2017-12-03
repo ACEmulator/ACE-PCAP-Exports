@@ -49,3 +49,31 @@ VALUES (7429, 0, 83887061, 83892586)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7429, 0, 16779351);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7429, 16, 'A shirt purchased on Aerlinthe Island.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7429, 19, 2449) /* VALUE_INT */
+     , (7429, 5, 57) /* ENCUMB_VAL_INT */
+     , (7429, 106, 155) /* ITEM_SPELLCRAFT_INT */
+     , (7429, 108, 467) /* ITEM_MAX_MANA_INT */
+     , (7429, 28, 0) /* ARMOR_LEVEL_INT */
+     , (7429, 109, 155) /* ITEM_DIFFICULTY_INT */
+     , (7429, 110, 1) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7429, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (7429, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (7429, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (7429, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (7429, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (7429, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (7429, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (7429, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (7429, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7429, 955) /* FealtyOther4_SpellID */;
+

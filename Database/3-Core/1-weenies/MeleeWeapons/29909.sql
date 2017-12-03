@@ -39,3 +39,41 @@ VALUES (29909, 13, True) /* ETHEREAL_BOOL */
      , (29909, 19, True) /* ATTACKABLE_BOOL */
      , (29909, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29909, 16, 'A beautifully detailed okane crafted from the claw of a Badlands Siraluun.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29909, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (29909, 353, 6) /* WEAPON_TYPE_INT */
+     , (29909, 19, 6250) /* VALUE_INT */
+     , (29909, 5, 150) /* ENCUMB_VAL_INT */
+     , (29909, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (29909, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (29909, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (29909, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (29909, 47, 6) /* ATTACK_TYPE_INT */
+     , (29909, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (29909, 45, 3) /* DAMAGE_TYPE_INT */
+     , (29909, 49, 20) /* WEAPON_TIME_INT */
+     , (29909, 48, 44) /* WEAPON_SKILL_INT */
+     , (29909, 44, 38) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29909, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (29909, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (29909, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (29909, 5, -0.03333) /* MANA_RATE_FLOAT */
+     , (29909, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (29909, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (29909, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (29909, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (29909, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (29909, 1604) /* Defender5_SpellID */
+     , (29909, 1616) /* BloodDrinker6_SpellID */
+     , (29909, 1624) /* SwiftKiller3_SpellID */
+     , (29909, 1592) /* HeartSeeker6_SpellID */;
+

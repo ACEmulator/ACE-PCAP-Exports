@@ -33,3 +33,11 @@ VALUES (33558, 13, True) /* ETHEREAL_BOOL */
      , (33558, 19, True) /* ATTACKABLE_BOOL */
      , (33558, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33558, 38, 'Asheron''s Island (16.1N, 69.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33558, 111, 49) /* PORTAL_BITMASK_INT */;
+

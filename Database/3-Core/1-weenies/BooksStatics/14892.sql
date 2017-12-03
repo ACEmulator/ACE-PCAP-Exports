@@ -32,6 +32,17 @@ VALUES (14892, 13, True) /* ETHEREAL_BOOL */
      , (14892, 19, True) /* ATTACKABLE_BOOL */
      , (14892, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14892, 16, 'A strange looking book with the words Don''t Panic inscribed in big friendly letters on the cover.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14892, 19, 1) /* VALUE_INT */
+     , (14892, 5, 25) /* ENCUMB_VAL_INT */
+     , (14892, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (14892, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

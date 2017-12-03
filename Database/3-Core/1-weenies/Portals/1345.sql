@@ -33,3 +33,11 @@ VALUES (1345, 13, True) /* ETHEREAL_BOOL */
      , (1345, 19, True) /* ATTACKABLE_BOOL */
      , (1345, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1345, 38, 'A Red Rat Lair') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1345, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -44,3 +44,33 @@ VALUES (25671, 0, 83888956, 83893821);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25671, 0, 16778334);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25671, 16, 'A sparkling bangle cleansed in the waters of Ithaenc. Clasping it around your wrist seems to drive affliction from you and boost your resilience.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25671, 160, 35) /* WIELD_DIFFICULTY_INT */
+     , (25671, 33, 1) /* BONDED_INT */
+     , (25671, 114, 1) /* ATTUNED_INT */
+     , (25671, 19, 6000) /* VALUE_INT */
+     , (25671, 36, 9999) /* RESIST_MAGIC_INT */
+     , (25671, 5, 40) /* ENCUMB_VAL_INT */
+     , (25671, 106, 320) /* ITEM_SPELLCRAFT_INT */
+     , (25671, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (25671, 109, 150) /* ITEM_DIFFICULTY_INT */
+     , (25671, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (25671, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25671, 5, -0.033) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25671, 99, 1) /* IVORYABLE_BOOL */
+     , (25671, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (25671, 2985) /* Ardence_SpellID */
+     , (25671, 2986) /* Vim_SpellID */
+     , (25671, 2987) /* Volition_SpellID */;
+

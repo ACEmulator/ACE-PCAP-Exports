@@ -42,6 +42,29 @@ VALUES (14915, 13, True) /* ETHEREAL_BOOL */
      , (14915, 19, True) /* ATTACKABLE_BOOL */
      , (14915, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14915, 16, 'A wedding invitation.') /* LONG_DESC_STRING */
+     , (14915, 14, 'Use this invitation at the time of your friends'' wedding to be transported to their celebration overlooking the waterfalls at the Ithaenc Cathedral.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14915, 33, 1) /* BONDED_INT */
+     , (14915, 114, 0) /* ATTUNED_INT */
+     , (14915, 19, 10000) /* VALUE_INT */
+     , (14915, 5, 5) /* ENCUMB_VAL_INT */
+     , (14915, 280, 1000) /* SHARED_COOLDOWN_INT */
+     , (14915, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (14915, 108, 70) /* ITEM_MAX_MANA_INT */
+     , (14915, 109, 10) /* ITEM_DIFFICULTY_INT */
+     , (14915, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (14915, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (14915, 157) /* SummonPortal1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

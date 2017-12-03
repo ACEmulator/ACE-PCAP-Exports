@@ -35,3 +35,16 @@ VALUES (7409, 13, True) /* ETHEREAL_BOOL */
      , (7409, 19, True) /* ATTACKABLE_BOOL */
      , (7409, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7409, 16, 'A key found in Aerfalle''s Keep, smudged with ash.') /* LONG_DESC_STRING */
+     , (7409, 14, 'Use this item on a locked chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7409, 33, 1) /* BONDED_INT */
+     , (7409, 114, 1) /* ATTUNED_INT */
+     , (7409, 19, 3) /* VALUE_INT */
+     , (7409, 5, 20) /* ENCUMB_VAL_INT */
+     , (7409, 91, 1) /* MAX_STRUCTURE_INT */;
+

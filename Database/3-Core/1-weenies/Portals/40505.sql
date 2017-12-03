@@ -33,3 +33,13 @@ VALUES (40505, 13, True) /* ETHEREAL_BOOL */
      , (40505, 19, True) /* ATTACKABLE_BOOL */
      , (40505, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40505, 16, 'This portal leads to the mines of the Apostate Citadel.') /* LONG_DESC_STRING */
+     , (40505, 38, 'Apostate Citadel Mines') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40505, 86, 150) /* MIN_LEVEL_INT */
+     , (40505, 111, 49) /* PORTAL_BITMASK_INT */;
+

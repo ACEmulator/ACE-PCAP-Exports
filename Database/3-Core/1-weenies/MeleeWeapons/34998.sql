@@ -40,3 +40,44 @@ VALUES (34998, 13, True) /* ETHEREAL_BOOL */
      , (34998, 19, True) /* ATTACKABLE_BOOL */
      , (34998, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34998, 16, 'This normal Burun fist has had mucor-altered granite applied to it, resulting in a magically enhanced weapon with unique magical properties.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (34998, 55, 4069) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34998, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (34998, 353, 1) /* WEAPON_TYPE_INT */
+     , (34998, 19, 2500) /* VALUE_INT */
+     , (34998, 5, 135) /* ENCUMB_VAL_INT */
+     , (34998, 106, 800) /* ITEM_SPELLCRAFT_INT */
+     , (34998, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (34998, 109, 250) /* ITEM_DIFFICULTY_INT */
+     , (34998, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (34998, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (34998, 47, 1) /* ATTACK_TYPE_INT */
+     , (34998, 45, 4) /* DAMAGE_TYPE_INT */
+     , (34998, 49, 20) /* WEAPON_TIME_INT */
+     , (34998, 48, 44) /* WEAPON_SKILL_INT */
+     , (34998, 44, 74) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (34998, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (34998, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (34998, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
+     , (34998, 22, 0.8) /* DAMAGE_VARIANCE_FLOAT */
+     , (34998, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (34998, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (34998, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (34998, 62, 1.17) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (34998, 4069) /* MucorJolt_SpellID */
+     , (34998, 2116) /* Swiftkiller7_SpellID */
+     , (34998, 2096) /* BloodDrinker7_SpellID */
+     , (34998, 2101) /* Defender7_SpellID */
+     , (34998, 2106) /* Heartseeker7_SpellID */;
+

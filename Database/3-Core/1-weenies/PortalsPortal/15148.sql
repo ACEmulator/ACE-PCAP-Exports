@@ -33,3 +33,11 @@ VALUES (15148, 13, True) /* ETHEREAL_BOOL */
      , (15148, 19, True) /* ATTACKABLE_BOOL */
      , (15148, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15148, 38, 'Caerlin Cottages Portal (55.2N, 49.6W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15148, 111, 1) /* PORTAL_BITMASK_INT */;
+

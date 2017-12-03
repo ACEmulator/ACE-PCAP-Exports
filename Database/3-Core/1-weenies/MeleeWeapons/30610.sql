@@ -47,3 +47,47 @@ VALUES (30610, 0, 83897173, 83897173);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30610, 0, 16792138);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30610, 16, 'Acid Bastone of Coordination') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30610, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30610, 160, 370) /* WIELD_DIFFICULTY_INT */
+     , (30610, 353, 7) /* WEAPON_TYPE_INT */
+     , (30610, 177, 3) /* GEM_COUNT_INT */
+     , (30610, 178, 26) /* GEM_TYPE_INT */
+     , (30610, 19, 12641) /* VALUE_INT */
+     , (30610, 131, 73) /* MATERIAL_TYPE_INT */
+     , (30610, 115, 345) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30610, 5, 247) /* ENCUMB_VAL_INT */
+     , (30610, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (30610, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (30610, 108, 1587) /* ITEM_MAX_MANA_INT */
+     , (30610, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30610, 109, 80) /* ITEM_DIFFICULTY_INT */
+     , (30610, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30610, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30610, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (30610, 47, 6) /* ATTACK_TYPE_INT */
+     , (30610, 45, 32) /* DAMAGE_TYPE_INT */
+     , (30610, 49, 27) /* WEAPON_TIME_INT */
+     , (30610, 48, 46) /* WEAPON_SKILL_INT */
+     , (30610, 44, 44) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30610, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (30610, 29, 1.17) /* WEAPON_DEFENSE_FLOAT */
+     , (30610, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */
+     , (30610, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30610, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30610, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30610, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30610, 2059) /* CoordinationSelf7_SpellID */
+     , (30610, 1616) /* BloodDrinker6_SpellID */
+     , (30610, 1627) /* SwiftKiller6_SpellID */
+     , (30610, 2598) /* CANTRIPBLOODTHIRST1_SpellID */;
+

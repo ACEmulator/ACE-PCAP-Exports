@@ -33,3 +33,12 @@ VALUES (30382, 13, True) /* ETHEREAL_BOOL */
      , (30382, 19, True) /* ATTACKABLE_BOOL */
      , (30382, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30382, 38, 'Plains of Ruin (90.7N, 51.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30382, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (30382, 111, 1) /* PORTAL_BITMASK_INT */;
+

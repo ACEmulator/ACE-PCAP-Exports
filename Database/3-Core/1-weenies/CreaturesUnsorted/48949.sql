@@ -88,3 +88,26 @@ VALUES (48949, 0, 16796693)
      , (48949, 12, 16796687)
      , (48949, 16, 16796691);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48949, 2, 30) /* CREATURE_TYPE_INT */
+     , (48949, 307, 20) /* DAMAGE_RATING_INT */
+     , (48949, 308, 17) /* DAMAGE_RESIST_RATING_INT */
+     , (48949, 25, 180) /* LEVEL_INT */
+     , (48949, 313, 13) /* CRIT_RATING_INT */
+     , (48949, 315, 12) /* CRIT_RESIST_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (48949, 1, 210) /* STRENGTH_ATTRIBUTE */
+     , (48949, 2, 240) /* ENDURANCE_ATTRIBUTE */
+     , (48949, 4, 160) /* COORDINATION_ATTRIBUTE */
+     , (48949, 8, 250) /* QUICKNESS_ATTRIBUTE */
+     , (48949, 16, 170) /* FOCUS_ATTRIBUTE */
+     , (48949, 32, 170) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (48949, 64, 1020) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (48949, 128, 1340) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (48949, 256, 920) /* MAX_MANA_ATTRIBUTE_2ND */;
+

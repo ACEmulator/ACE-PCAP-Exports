@@ -52,3 +52,36 @@ VALUES (33598, 0, 83887061, 83886695)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33598, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33598, 16, 'This piece of armor has been provided to newcomers to Dereth by the Pathwardens.  Once you have found superior armor, you can turn this piece back in to the Pathwardens in Holtburg, Yaraq, Shoushi and Sanamar for additional useful items.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33598, 33, 1) /* BONDED_INT */
+     , (33598, 114, 1) /* ATTUNED_INT */
+     , (33598, 19, 0) /* VALUE_INT */
+     , (33598, 5, 2100) /* ENCUMB_VAL_INT */
+     , (33598, 106, 100) /* ITEM_SPELLCRAFT_INT */
+     , (33598, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (33598, 28, 95) /* ARMOR_LEVEL_INT */
+     , (33598, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33598, 5, -0.0333333) /* MANA_RATE_FLOAT */
+     , (33598, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (33598, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (33598, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (33598, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (33598, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (33598, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (33598, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (33598, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33598, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (33598, 1482) /* Impenetrability2_SpellID */
+     , (33598, 1328) /* StrengthSelf2_SpellID */;
+

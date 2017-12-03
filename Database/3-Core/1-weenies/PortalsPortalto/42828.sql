@@ -33,3 +33,12 @@ VALUES (42828, 13, True) /* ETHEREAL_BOOL */
      , (42828, 19, True) /* ATTACKABLE_BOOL */
      , (42828, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42828, 16, 'This portal goes to Neydisa Castle, northeast of Mt. Esper. This is a good town for characters over level 40.') /* LONG_DESC_STRING */
+     , (42828, 38, 'Portal to Neydisa Castle (69.5N, 17.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42828, 111, 1) /* PORTAL_BITMASK_INT */;
+

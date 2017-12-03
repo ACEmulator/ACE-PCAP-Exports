@@ -33,3 +33,11 @@ VALUES (19163, 13, True) /* ETHEREAL_BOOL */
      , (19163, 19, True) /* ATTACKABLE_BOOL */
      , (19163, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19163, 38, 'Two Hills Cottages Portal (39.2N, 32.6W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19163, 111, 1) /* PORTAL_BITMASK_INT */;
+

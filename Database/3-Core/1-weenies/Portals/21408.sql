@@ -33,3 +33,13 @@ VALUES (21408, 13, True) /* ETHEREAL_BOOL */
      , (21408, 19, True) /* ATTACKABLE_BOOL */
      , (21408, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21408, 38, 'Entropic Decay') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21408, 86, 60) /* MIN_LEVEL_INT */
+     , (21408, 87, 79) /* MAX_LEVEL_INT */
+     , (21408, 111, 49) /* PORTAL_BITMASK_INT */;
+

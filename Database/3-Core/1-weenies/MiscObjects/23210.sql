@@ -33,3 +33,12 @@ VALUES (23210, 13, True) /* ETHEREAL_BOOL */
      , (23210, 19, True) /* ATTACKABLE_BOOL */
      , (23210, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23210, 16, 'A trunk full of bones and treasure. A very disturbing yet intriguing object that was pulled out of a local fishing hole.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23210, 19, 1000) /* VALUE_INT */
+     , (23210, 5, 1400) /* ENCUMB_VAL_INT */;
+

@@ -48,3 +48,42 @@ VALUES (25907, 0, 83892431, 83892431)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25907, 0, 16789796);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25907, 16, 'This staff belonged to Gikar. The fell beast used the staff as a focus of some kind, but out of its hands has become fairly mundane.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25907, 160, 370) /* WIELD_DIFFICULTY_INT */
+     , (25907, 353, 7) /* WEAPON_TYPE_INT */
+     , (25907, 19, 9500) /* VALUE_INT */
+     , (25907, 5, 425) /* ENCUMB_VAL_INT */
+     , (25907, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (25907, 108, 2000) /* ITEM_MAX_MANA_INT */
+     , (25907, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (25907, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (25907, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (25907, 47, 6) /* ATTACK_TYPE_INT */
+     , (25907, 45, 4) /* DAMAGE_TYPE_INT */
+     , (25907, 49, 0) /* WEAPON_TIME_INT */
+     , (25907, 48, 45) /* WEAPON_SKILL_INT */
+     , (25907, 44, 57) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25907, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (25907, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (25907, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (25907, 29, 1.26) /* WEAPON_DEFENSE_FLOAT */
+     , (25907, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (25907, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (25907, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (25907, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (25907, 62, 1.32) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (25907, 1616) /* BloodDrinker6_SpellID */
+     , (25907, 1625) /* SwiftKiller4_SpellID */
+     , (25907, 2598) /* CANTRIPBLOODTHIRST1_SpellID */
+     , (25907, 2603) /* CANTRIPHEARTTHIRST1_SpellID */
+     , (25907, 1592) /* HeartSeeker6_SpellID */;
+

@@ -35,3 +35,17 @@ VALUES (3085, 13, True) /* ETHEREAL_BOOL */
      , (3085, 19, True) /* ATTACKABLE_BOOL */
      , (3085, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3085, 16, 'Inscribed spell: Fester Other IV
+Decrease target''s natural healing rate by 35%.') /* LONG_DESC_STRING */
+     , (3085, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3085, 19, 100) /* VALUE_INT */
+     , (3085, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3085, 174) /* FesterOther4_SpellID */;
+

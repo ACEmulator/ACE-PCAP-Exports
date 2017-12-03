@@ -30,3 +30,12 @@ VALUES (929, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (929, 19, True) /* ATTACKABLE_BOOL */
      , (929, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (929, 16, 'Welcome to the town of Shoushi.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (929, 19, 125) /* VALUE_INT */
+     , (929, 5, 9000) /* ENCUMB_VAL_INT */;
+

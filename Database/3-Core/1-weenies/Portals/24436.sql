@@ -33,3 +33,12 @@ VALUES (24436, 13, True) /* ETHEREAL_BOOL */
      , (24436, 19, True) /* ATTACKABLE_BOOL */
      , (24436, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24436, 38, 'Matron Hive North') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24436, 86, 60) /* MIN_LEVEL_INT */
+     , (24436, 111, 1) /* PORTAL_BITMASK_INT */;
+

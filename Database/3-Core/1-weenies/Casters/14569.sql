@@ -44,3 +44,30 @@ VALUES (14569, 67113784, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14569, 0, 16787230);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14569, 16, 'A buadren fashioned by Aun Aulakhe to invoke the spirit of Aun Tanua from his Virindi prison in portal space.') /* LONG_DESC_STRING */
+     , (14569, 14, 'This item can be used on floor and wall hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14569, 160, 50) /* WIELD_DIFFICULTY_INT */
+     , (14569, 33, 1) /* BONDED_INT */
+     , (14569, 19, 0) /* VALUE_INT */
+     , (14569, 5, 20) /* ENCUMB_VAL_INT */
+     , (14569, 106, 320) /* ITEM_SPELLCRAFT_INT */
+     , (14569, 108, 12500) /* ITEM_MAX_MANA_INT */
+     , (14569, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (14569, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (14569, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (14569, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (14569, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (14569, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (14569, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (14569, 2637) /* InvokingAunTanua_SpellID */
+     , (14569, 2638) /* HeartofOak_SpellID */;
+

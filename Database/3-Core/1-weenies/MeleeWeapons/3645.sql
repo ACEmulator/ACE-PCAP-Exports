@@ -35,3 +35,37 @@ VALUES (3645, 13, True) /* ETHEREAL_BOOL */
      , (3645, 19, True) /* ATTACKABLE_BOOL */
      , (3645, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3645, 16, 'Tibri''s flaming spear does fire damage.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3645, 353, 5) /* WEAPON_TYPE_INT */
+     , (3645, 19, 2500) /* VALUE_INT */
+     , (3645, 5, 700) /* ENCUMB_VAL_INT */
+     , (3645, 106, 55) /* ITEM_SPELLCRAFT_INT */
+     , (3645, 108, 1440) /* ITEM_MAX_MANA_INT */
+     , (3645, 109, 25) /* ITEM_DIFFICULTY_INT */
+     , (3645, 47, 2) /* ATTACK_TYPE_INT */
+     , (3645, 45, 16) /* DAMAGE_TYPE_INT */
+     , (3645, 49, 30) /* WEAPON_TIME_INT */
+     , (3645, 48, 44) /* WEAPON_SKILL_INT */
+     , (3645, 44, 28) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3645, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (3645, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (3645, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
+     , (3645, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3645, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3645, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3645, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3645, 1602) /* Defender3_SpellID */
+     , (3645, 1091) /* FireProtectionSelf3_SpellID */
+     , (3645, 1613) /* BloodDrinker3_SpellID */
+     , (3645, 1624) /* SwiftKiller3_SpellID */
+     , (3645, 1589) /* HeartSeeker3_SpellID */;
+

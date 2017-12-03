@@ -32,3 +32,17 @@ VALUES (2210, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (2210, 19, True) /* ATTACKABLE_BOOL */
      , (2210, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2210, 14, 'Use this item to open it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2210, 19, 0) /* VALUE_INT */
+     , (2210, 38, 425) /* RESIST_LOCKPICK_INT */
+     , (2210, 173, 1) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2210, 2, 0) /* OPEN_BOOL */
+     , (2210, 3, 1) /* LOCKED_BOOL */;
+

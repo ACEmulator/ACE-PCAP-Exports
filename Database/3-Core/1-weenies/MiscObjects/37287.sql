@@ -33,6 +33,16 @@ VALUES (37287, 13, True) /* ETHEREAL_BOOL */
      , (37287, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37287, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37287, 16, 'A complete Deck of Hands. Still, the deck seems somehow incomplete.') /* LONG_DESC_STRING */
+     , (37287, 14, 'Return these to the Jester.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37287, 19, 0) /* VALUE_INT */
+     , (37287, 5, 13) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -52,6 +52,28 @@ VALUES (23275, 0, 83894505, 83894505);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23275, 0, 16778976);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23275, 16, 'Not as damaging as darts since minnows are more squishy.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23275, 353, 10) /* WEAPON_TYPE_INT */
+     , (23275, 19, 0) /* VALUE_INT */
+     , (23275, 5, 5) /* ENCUMB_VAL_INT */
+     , (23275, 45, 2) /* DAMAGE_TYPE_INT */
+     , (23275, 49, 10) /* WEAPON_TIME_INT */
+     , (23275, 48, 47) /* WEAPON_SKILL_INT */
+     , (23275, 44, 3) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23275, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (23275, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (23275, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (23275, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (23275, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (23275, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -33,3 +33,12 @@ VALUES (11227, 13, True) /* ETHEREAL_BOOL */
      , (11227, 19, True) /* ATTACKABLE_BOOL */
      , (11227, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11227, 38, 'New Hive Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11227, 86, 70) /* MIN_LEVEL_INT */
+     , (11227, 111, 49) /* PORTAL_BITMASK_INT */;
+

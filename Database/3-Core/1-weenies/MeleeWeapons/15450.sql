@@ -40,3 +40,36 @@ VALUES (15450, 13, True) /* ETHEREAL_BOOL */
      , (15450, 19, True) /* ATTACKABLE_BOOL */
      , (15450, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15450, 16, 'A sword crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15450, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (15450, 353, 2) /* WEAPON_TYPE_INT */
+     , (15450, 33, 1) /* BONDED_INT */
+     , (15450, 114, 1) /* ATTUNED_INT */
+     , (15450, 19, 4000) /* VALUE_INT */
+     , (15450, 36, 9999) /* RESIST_MAGIC_INT */
+     , (15450, 5, 450) /* ENCUMB_VAL_INT */
+     , (15450, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (15450, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (15450, 47, 6) /* ATTACK_TYPE_INT */
+     , (15450, 45, 3) /* DAMAGE_TYPE_INT */
+     , (15450, 49, 30) /* WEAPON_TIME_INT */
+     , (15450, 48, 45) /* WEAPON_SKILL_INT */
+     , (15450, 44, 67) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (15450, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (15450, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (15450, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (15450, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (15450, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (15450, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (15450, 99, 1) /* IVORYABLE_BOOL */
+     , (15450, 69, 0) /* IS_SELLABLE_BOOL */;
+

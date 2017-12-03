@@ -34,6 +34,17 @@ VALUES (15808, 13, True) /* ETHEREAL_BOOL */
      , (15808, 14, True) /* GRAVITY_STATUS_BOOL */
      , (15808, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15808, 15, 'Have you seen this girl?') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15808, 19, 10) /* VALUE_INT */
+     , (15808, 5, 25) /* ENCUMB_VAL_INT */
+     , (15808, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (15808, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

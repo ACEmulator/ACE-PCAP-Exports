@@ -47,3 +47,23 @@ VALUES (27895, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27895, 0, 16778348);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27895, 16, 'A replica of the fabled Mosswart hero''s necklace. There is a small stamp that reads: A Ketnan Product.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27895, 19, 600) /* VALUE_INT */
+     , (27895, 5, 10) /* ENCUMB_VAL_INT */
+     , (27895, 106, 75) /* ITEM_SPELLCRAFT_INT */
+     , (27895, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (27895, 109, 60) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27895, 5, -0.034) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27895, 160) /* RegenerationOther2_SpellID */
+     , (27895, 1313) /* ArmorOther2_SpellID */
+     , (27895, 1452) /* WillpowerOther2_SpellID */;
+

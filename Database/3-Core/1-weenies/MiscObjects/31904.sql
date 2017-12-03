@@ -31,3 +31,14 @@ VALUES (31904, 13, True) /* ETHEREAL_BOOL */
      , (31904, 19, True) /* ATTACKABLE_BOOL */
      , (31904, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31904, 16, 'A glistening Gold Shallows Shredder Fin that used to be attached to the rare endangered Gold Shallows Shredder.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31904, 33, 0) /* BONDED_INT */
+     , (31904, 114, 0) /* ATTUNED_INT */
+     , (31904, 19, 0) /* VALUE_INT */
+     , (31904, 5, 50) /* ENCUMB_VAL_INT */;
+

@@ -34,3 +34,18 @@ VALUES (33541, 13, True) /* ETHEREAL_BOOL */
      , (33541, 19, True) /* ATTACKABLE_BOOL */
      , (33541, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33541, 16, 'An ancient key, used to open the locked Gate in the Deep Mukkir Nest.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33541, 33, 1) /* BONDED_INT */
+     , (33541, 114, 1) /* ATTUNED_INT */
+     , (33541, 19, 0) /* VALUE_INT */
+     , (33541, 5, 15) /* ENCUMB_VAL_INT */
+     , (33541, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33541, 69, 0) /* IS_SELLABLE_BOOL */;
+

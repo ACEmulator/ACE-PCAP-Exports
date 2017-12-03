@@ -31,3 +31,14 @@ VALUES (33511, 13, True) /* ETHEREAL_BOOL */
      , (33511, 19, True) /* ATTACKABLE_BOOL */
      , (33511, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33511, 16, 'This token represents a Silveran Axe.  You may only pick up one Silveran weapon token.  Turn it in to the Whispering Blade Chamberlain to receive your reward.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33511, 33, 1) /* BONDED_INT */
+     , (33511, 114, 1) /* ATTUNED_INT */
+     , (33511, 19, 0) /* VALUE_INT */
+     , (33511, 5, 10) /* ENCUMB_VAL_INT */;
+

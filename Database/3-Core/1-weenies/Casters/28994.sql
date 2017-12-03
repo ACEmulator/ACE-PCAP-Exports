@@ -37,3 +37,32 @@ VALUES (28994, 13, True) /* ETHEREAL_BOOL */
      , (28994, 19, True) /* ATTACKABLE_BOOL */
      , (28994, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28994, 160, 240) /* WIELD_DIFFICULTY_INT */
+     , (28994, 19, 6000) /* VALUE_INT */
+     , (28994, 5, 50) /* ENCUMB_VAL_INT */
+     , (28994, 166, 75) /* SLAYER_CREATURE_TYPE_INT */
+     , (28994, 106, 280) /* ITEM_SPELLCRAFT_INT */
+     , (28994, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (28994, 109, 125) /* ITEM_DIFFICULTY_INT */
+     , (28994, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (28994, 159, 16) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28994, 144, 0.06) /* MANA_CONVERSION_MOD_FLOAT */
+     , (28994, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (28994, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */
+     , (28994, 5, -0.0334) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28994, 94, 1) /* APPRAISAL_HAS_ALLOWED_ACTIVATOR_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28994, 640) /* WarMagicMasteryOther6_SpellID */
+     , (28994, 1479) /* TrueValue5_SpellID */
+     , (28994, 1354) /* EnduranceSelf6_SpellID */
+     , (28994, 616) /* LifeMagicMasteryOther6_SpellID */
+     , (28994, 248) /* InvulnerabilitySelf5_SpellID */;
+

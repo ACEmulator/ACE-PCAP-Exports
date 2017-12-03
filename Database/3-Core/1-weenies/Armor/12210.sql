@@ -38,3 +38,23 @@ VALUES (12210, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12210, 0, 16787384);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12210, 16, 'A finely stitched and cured Ursuin head, complete with cushions around the neck for active use.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12210, 19, 200) /* VALUE_INT */
+     , (12210, 5, 300) /* ENCUMB_VAL_INT */
+     , (12210, 28, 10) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12210, 13, 0.29) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (12210, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (12210, 15, 0.29) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (12210, 16, 0.29) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (12210, 17, 0.43) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (12210, 18, 0.29) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (12210, 19, 0.29) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (12210, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

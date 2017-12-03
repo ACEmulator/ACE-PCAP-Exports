@@ -35,3 +35,17 @@ VALUES (2702, 13, True) /* ETHEREAL_BOOL */
      , (2702, 19, True) /* ATTACKABLE_BOOL */
      , (2702, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2702, 16, 'Inscribed spell: Imperil Other II
+Decreases the target''s natural armor by 50 points.') /* LONG_DESC_STRING */
+     , (2702, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2702, 19, 5) /* VALUE_INT */
+     , (2702, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2702, 1323) /* ImperilOther2_SpellID */;
+

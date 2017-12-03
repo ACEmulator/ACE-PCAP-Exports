@@ -36,6 +36,21 @@ VALUES (38810, 13, True) /* ETHEREAL_BOOL */
      , (38810, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38810, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38810, 16, 'This bronze medallion bears the symbol of the ancient house of Mhoire.  It might be of interest to the Arcanum, in specific the Mana-smiths.') /* LONG_DESC_STRING */
+     , (38810, 14, 'Bring this brooch to an Arcanum Mana-smith.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38810, 33, 1) /* BONDED_INT */
+     , (38810, 114, 1) /* ATTUNED_INT */
+     , (38810, 19, 10) /* VALUE_INT */
+     , (38810, 5, 5) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38810, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

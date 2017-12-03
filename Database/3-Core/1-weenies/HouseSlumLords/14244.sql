@@ -32,6 +32,15 @@ VALUES (14244, 13, True) /* ETHEREAL_BOOL */
      , (14244, 19, True) /* ATTACKABLE_BOOL */
      , (14244, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14244, 16, 'This house is available for purchase.
+') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14244, 86, 20) /* MIN_LEVEL_INT */;
+
 /* Slumlord Extended Properties */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

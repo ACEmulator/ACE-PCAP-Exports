@@ -33,3 +33,11 @@ VALUES (23891, 13, True) /* ETHEREAL_BOOL */
      , (23891, 19, True) /* ATTACKABLE_BOOL */
      , (23891, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23891, 38, 'Falcon Clan Training Camp') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23891, 111, 1) /* PORTAL_BITMASK_INT */;
+

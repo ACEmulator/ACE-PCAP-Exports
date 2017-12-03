@@ -53,3 +53,47 @@ VALUES (31818, 0, 83897339, 83897339);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31818, 0, 16792617);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31818, 16, 'Piercing Slingshot of Recklessness') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31818, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31818, 160, 315) /* WIELD_DIFFICULTY_INT */
+     , (31818, 353, 10) /* WEAPON_TYPE_INT */
+     , (31818, 177, 4) /* GEM_COUNT_INT */
+     , (31818, 178, 23) /* GEM_TYPE_INT */
+     , (31818, 19, 7511) /* VALUE_INT */
+     , (31818, 131, 63) /* MATERIAL_TYPE_INT */
+     , (31818, 115, 311) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31818, 5, 227) /* ENCUMB_VAL_INT */
+     , (31818, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (31818, 106, 291) /* ITEM_SPELLCRAFT_INT */
+     , (31818, 108, 1369) /* ITEM_MAX_MANA_INT */
+     , (31818, 204, 2) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (31818, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31818, 109, 142) /* ITEM_DIFFICULTY_INT */
+     , (31818, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31818, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31818, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (31818, 45, 2) /* DAMAGE_TYPE_INT */
+     , (31818, 49, 20) /* WEAPON_TIME_INT */
+     , (31818, 48, 47) /* WEAPON_SKILL_INT */
+     , (31818, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31818, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (31818, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
+     , (31818, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (31818, 63, 2.55) /* DAMAGE_MOD_FLOAT */
+     , (31818, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31818, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31818, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31818, 5831) /* recklessnessmasteryself5_SpellID */
+     , (31818, 1616) /* BloodDrinker6_SpellID */
+     , (31818, 2598) /* CANTRIPBLOODTHIRST1_SpellID */
+     , (31818, 2101) /* Defender7_SpellID */;
+

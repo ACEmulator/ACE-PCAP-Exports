@@ -47,3 +47,28 @@ VALUES (552, 0, 83889859, 83889862)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (552, 0, 16780294);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (552, 16, 'Utterly flawless Gold Scale Mail Basinet ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (552, 131, 60) /* MATERIAL_TYPE_INT */
+     , (552, 19, 3365) /* VALUE_INT */
+     , (552, 5, 407) /* ENCUMB_VAL_INT */
+     , (552, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (552, 28, 152) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (552, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (552, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (552, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (552, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (552, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (552, 18, 0.5203716) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (552, 19, 0.4189374) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (552, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (552, 100, 1) /* DYABLE_BOOL */;
+

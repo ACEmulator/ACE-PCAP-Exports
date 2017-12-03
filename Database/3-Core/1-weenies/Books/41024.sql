@@ -34,6 +34,22 @@ VALUES (41024, 13, True) /* ETHEREAL_BOOL */
      , (41024, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41024, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41024, 16, 'Notes describing the use of Aetherium with the experiments in Mar''uun.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41024, 33, 1) /* BONDED_INT */
+     , (41024, 114, 1) /* ATTUNED_INT */
+     , (41024, 19, 0) /* VALUE_INT */
+     , (41024, 5, 10) /* ENCUMB_VAL_INT */
+     , (41024, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (41024, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41024, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -33,6 +33,22 @@ VALUES (41541, 13, True) /* ETHEREAL_BOOL */
      , (41541, 19, True) /* ATTACKABLE_BOOL */
      , (41541, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41541, 16, 'A shattered piece of the Aetherium Core that powered the Gear Knight called the Overseer.') /* LONG_DESC_STRING */
+     , (41541, 14, 'Bring this to T''ing Douzen for a reward.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41541, 33, 1) /* BONDED_INT */
+     , (41541, 114, 1) /* ATTUNED_INT */
+     , (41541, 19, 0) /* VALUE_INT */
+     , (41541, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41541, 99, 0) /* IVORYABLE_BOOL */
+     , (41541, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

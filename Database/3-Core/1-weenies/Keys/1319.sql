@@ -34,3 +34,14 @@ VALUES (1319, 13, True) /* ETHEREAL_BOOL */
      , (1319, 19, True) /* ATTACKABLE_BOOL */
      , (1319, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1319, 16, 'This key opens a chest in the Eastham Sewer.') /* LONG_DESC_STRING */
+     , (1319, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1319, 19, 90) /* VALUE_INT */
+     , (1319, 5, 50) /* ENCUMB_VAL_INT */
+     , (1319, 91, 5) /* MAX_STRUCTURE_INT */;
+

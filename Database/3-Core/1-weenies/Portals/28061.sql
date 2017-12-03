@@ -33,3 +33,12 @@ VALUES (28061, 13, True) /* ETHEREAL_BOOL */
      , (28061, 19, True) /* ATTACKABLE_BOOL */
      , (28061, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28061, 38, 'Coral Tunnels') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28061, 86, 40) /* MIN_LEVEL_INT */
+     , (28061, 111, 49) /* PORTAL_BITMASK_INT */;
+

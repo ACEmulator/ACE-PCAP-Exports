@@ -48,3 +48,46 @@ VALUES (12139, 0, 83892881, 83893325)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12139, 0, 16785361);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12139, 16, 'A helm imbued with the power of the Asteliary Gem.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12139, 160, 85) /* WIELD_DIFFICULTY_INT */
+     , (12139, 33, 1) /* BONDED_INT */
+     , (12139, 114, 1) /* ATTUNED_INT */
+     , (12139, 19, 5000) /* VALUE_INT */
+     , (12139, 5, 600) /* ENCUMB_VAL_INT */
+     , (12139, 106, 220) /* ITEM_SPELLCRAFT_INT */
+     , (12139, 108, 750) /* ITEM_MAX_MANA_INT */
+     , (12139, 28, 300) /* ARMOR_LEVEL_INT */
+     , (12139, 109, 225) /* ITEM_DIFFICULTY_INT */
+     , (12139, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (12139, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12139, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (12139, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (12139, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (12139, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (12139, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (12139, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (12139, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (12139, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (12139, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12139, 99, 1) /* IVORYABLE_BOOL */
+     , (12139, 69, 0) /* IS_SELLABLE_BOOL */
+     , (12139, 94, 1) /* APPRAISAL_HAS_ALLOWED_ACTIVATOR_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12139, 2243) /* ImpregnabilitySelf7_SpellID */
+     , (12139, 2245) /* InvulnerabilitySelf7_SpellID */
+     , (12139, 2510) /* CANTRIPDECEPTIONPROWESS2_SpellID */
+     , (12139, 2592) /* CANTRIPIMPENETRABILITY2_SpellID */
+     , (12139, 2281) /* MagicResistanceSelf7_SpellID */
+     , (12139, 2226) /* DeceptionMasteryOther7_SpellID */
+     , (12139, 2108) /* Impenetrability7_SpellID */;
+

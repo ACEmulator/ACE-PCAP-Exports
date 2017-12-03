@@ -51,3 +51,32 @@ VALUES (22165, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22165, 0, 16788502);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22165, 16, 'Lightning Quarter Staff') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22165, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (22165, 353, 7) /* WEAPON_TYPE_INT */
+     , (22165, 19, 850) /* VALUE_INT */
+     , (22165, 131, 73) /* MATERIAL_TYPE_INT */
+     , (22165, 5, 340) /* ENCUMB_VAL_INT */
+     , (22165, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (22165, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (22165, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (22165, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (22165, 47, 6) /* ATTACK_TYPE_INT */
+     , (22165, 45, 64) /* DAMAGE_TYPE_INT */
+     , (22165, 49, 28) /* WEAPON_TIME_INT */
+     , (22165, 48, 45) /* WEAPON_SKILL_INT */
+     , (22165, 44, 28) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22165, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (22165, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (22165, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (22165, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (22165, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (22165, 62, 1.02) /* WEAPON_OFFENSE_FLOAT */;
+

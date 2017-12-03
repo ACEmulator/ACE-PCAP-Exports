@@ -35,3 +35,17 @@ VALUES (20546, 13, True) /* ETHEREAL_BOOL */
      , (20546, 19, True) /* ATTACKABLE_BOOL */
      , (20546, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20546, 16, 'Inscribed spell: Jahannan''s Boon
+Increases the target''s Jump skill by 40 points.') /* LONG_DESC_STRING */
+     , (20546, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20546, 19, 2000) /* VALUE_INT */
+     , (20546, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20546, 2256) /* JumpingMasteryOther7_SpellID */;
+

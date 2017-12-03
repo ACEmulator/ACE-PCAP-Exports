@@ -61,3 +61,44 @@ VALUES (48, 0, 83887061, 83886694)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48, 16, 'Studded Leather Coat') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (48, 177, 1) /* GEM_COUNT_INT */
+     , (48, 178, 44) /* GEM_TYPE_INT */
+     , (48, 19, 19252) /* VALUE_INT */
+     , (48, 131, 52) /* MATERIAL_TYPE_INT */
+     , (48, 115, 142) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (48, 5, 1042) /* ENCUMB_VAL_INT */
+     , (48, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (48, 106, 183) /* ITEM_SPELLCRAFT_INT */
+     , (48, 28, 234) /* ARMOR_LEVEL_INT */
+     , (48, 108, 917) /* ITEM_MAX_MANA_INT */
+     , (48, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (48, 109, 112) /* ITEM_DIFFICULTY_INT */
+     , (48, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (48, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (48, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (48, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (48, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (48, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (48, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (48, 18, 0.5934998) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (48, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (48, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (48, 1484) /* Impenetrability4_SpellID */
+     , (48, 1551) /* FlameBane5_SpellID */
+     , (48, 1572) /* PiercingBane4_SpellID */
+     , (48, 1527) /* FrostBane5_SpellID */;
+

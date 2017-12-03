@@ -32,3 +32,19 @@ VALUES (38392, 13, True) /* ETHEREAL_BOOL */
      , (38392, 19, True) /* ATTACKABLE_BOOL */
      , (38392, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38392, 16, 'This is an Armor Writ, granted to you as an Initiate of the Celestial Hand.  These writs are normally purchased with Trade Tokens from the Armor Writ Quartermaster in your Stronghold for 25 Tokens, and can only be purchased once a day.') /* LONG_DESC_STRING */
+     , (38392, 14, 'Bring this writ to one of the Celestial Hand Armor Quartermasters, to trade for an Armor Chest Key.  Your rank within the Society will restrict which Armor Quartermasters you can get keys from, and which Armor pieces you can wear.  For more information, see your Initiate''s Handbook.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38392, 33, 1) /* BONDED_INT */
+     , (38392, 114, 1) /* ATTUNED_INT */
+     , (38392, 19, 0) /* VALUE_INT */
+     , (38392, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38392, 99, 0) /* IVORYABLE_BOOL */
+     , (38392, 69, 0) /* IS_SELLABLE_BOOL */;
+

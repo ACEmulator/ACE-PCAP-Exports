@@ -34,3 +34,14 @@ VALUES (32014, 13, True) /* ETHEREAL_BOOL */
      , (32014, 19, True) /* ATTACKABLE_BOOL */
      , (32014, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32014, 14, 'Use this key on Xik Minru''s Reserve to unlock it.') /* USE_STRING */
+     , (32014, 15, 'A glittering gold key found upon the corpse of Priestess Xik Minru.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32014, 19, 0) /* VALUE_INT */
+     , (32014, 5, 100) /* ENCUMB_VAL_INT */
+     , (32014, 91, 1) /* MAX_STRUCTURE_INT */;
+

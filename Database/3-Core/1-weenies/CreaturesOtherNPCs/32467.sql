@@ -38,3 +38,31 @@ VALUES (32467, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (32467, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (32467, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32467, 384, 0) /*  */
+     , (32467, 370, 0) /* GEAR_DAMAGE_INT */
+     , (32467, 386, 0) /*  */
+     , (32467, 307, 0) /* DAMAGE_RATING_INT */
+     , (32467, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (32467, 387, 0) /*  */
+     , (32467, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (32467, 372, 0) /* GEAR_CRIT_INT */
+     , (32467, 388, 0) /*  */
+     , (32467, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (32467, 389, 0) /*  */
+     , (32467, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (32467, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (32467, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (32467, 313, 0) /* CRIT_RATING_INT */
+     , (32467, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (32467, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (32467, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (32467, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (32467, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (32467, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (32467, 381, 0) /*  */
+     , (32467, 382, 0) /*  */
+     , (32467, 383, 0) /*  */;
+

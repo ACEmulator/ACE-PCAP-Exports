@@ -36,3 +36,12 @@ VALUES (244, 13, True) /* ETHEREAL_BOOL */
      , (244, 19, True) /* ATTACKABLE_BOOL */
      , (244, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (244, 15, 'You can use this item on floor and yard hooks.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (244, 19, 500) /* VALUE_INT */
+     , (244, 5, 500) /* ENCUMB_VAL_INT */;
+

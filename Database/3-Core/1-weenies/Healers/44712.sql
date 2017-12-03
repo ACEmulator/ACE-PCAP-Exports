@@ -40,3 +40,21 @@ VALUES (44712, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44712, 0, 16779994);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44712, 14, 'Use this item on a person to restore mana.') /* USE_STRING */
+     , (44712, 15, 'A mana kit which provides substanial restoration.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44712, 19, 3000) /* VALUE_INT */
+     , (44712, 5, 200) /* ENCUMB_VAL_INT */
+     , (44712, 90, 200) /* BOOST_VALUE_INT */
+     , (44712, 91, 50) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (44712, 100, 1.1) /* HEALKIT_MOD_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44712, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -80,6 +80,29 @@ VALUES (34062, 16, 16795655)
      , (34062, 4, 16791954)
      , (34062, 8, 16791955);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34062, 5, 'Royal Hunter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (34062, 16, 67110063) /* EYES_PALETTE_DID */
+     , (34062, 9, 83890278) /* EYES_TEXTURE_DID */
+     , (34062, 17, 67115901) /* SKIN_PALETTE_DID */
+     , (34062, 10, 83890312) /* NOSE_TEXTURE_DID */
+     , (34062, 11, 83890356) /* MOUTH_TEXTURE_DID */
+     , (34062, 15, 67117019) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34062, 113, 2) /* GENDER_INT */
+     , (34062, 2, 31) /* CREATURE_TYPE_INT */
+     , (34062, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (34062, 25, 150) /* LEVEL_INT */
+     , (34062, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34062, 64, 255) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

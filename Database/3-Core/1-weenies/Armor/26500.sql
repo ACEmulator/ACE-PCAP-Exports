@@ -38,3 +38,37 @@ VALUES (26500, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26500, 67114950, 240, 16);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (26500, 15, 'This veiled crown was likely used during the rites of the Falatacot.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (26500, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (26500, 19, 7500) /* VALUE_INT */
+     , (26500, 5, 150) /* ENCUMB_VAL_INT */
+     , (26500, 106, 335) /* ITEM_SPELLCRAFT_INT */
+     , (26500, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (26500, 28, 380) /* ARMOR_LEVEL_INT */
+     , (26500, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (26500, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (26500, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (26500, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (26500, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (26500, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (26500, 15, 1.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (26500, 16, 0.65) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (26500, 17, 0.65) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (26500, 18, 1.4) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (26500, 19, 0.65) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (26500, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (26500, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (26500, 3034) /* BenedictionImmortality_SpellID */
+     , (26500, 3035) /* ClosingGreatDivide_SpellID */;
+

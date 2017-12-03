@@ -46,3 +46,42 @@ VALUES (32520, 0, 83894333, 83894841);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32520, 0, 16778374);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32520, 16, 'A pair of bright leather gauntlets infused with magics to speed your actions.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32520, 160, 130) /* WIELD_DIFFICULTY_INT */
+     , (32520, 19, 4000) /* VALUE_INT */
+     , (32520, 5, 270) /* ENCUMB_VAL_INT */
+     , (32520, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (32520, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (32520, 28, 400) /* ARMOR_LEVEL_INT */
+     , (32520, 109, 190) /* ITEM_DIFFICULTY_INT */
+     , (32520, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (32520, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (32520, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32520, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (32520, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (32520, 14, 1.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (32520, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (32520, 16, 0.7) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (32520, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (32520, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (32520, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (32520, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (32520, 2625) /* CANTRIPSTAMINAGAIN2_SpellID */
+     , (32520, 1540) /* LightningBane6_SpellID */
+     , (32520, 2575) /* CANTRIPQUICKNESS2_SpellID */
+     , (32520, 1552) /* FlameBane6_SpellID */
+     , (32520, 1498) /* AcidBane6_SpellID */
+     , (32520, 2080) /* QuicknessOther7_SpellID */
+     , (32520, 1528) /* FrostBane6_SpellID */
+     , (32520, 2108) /* Impenetrability7_SpellID */
+     , (32520, 2623) /* CANTRIPHEALTHGAIN2_SpellID */;
+

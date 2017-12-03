@@ -34,3 +34,14 @@ VALUES (30505, 13, True) /* ETHEREAL_BOOL */
      , (30505, 19, True) /* ATTACKABLE_BOOL */
      , (30505, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30505, 16, 'A bottle a fine apple wine. No corkscrew required!') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30505, 33, 1) /* BONDED_INT */
+     , (30505, 114, 1) /* ATTUNED_INT */
+     , (30505, 19, 0) /* VALUE_INT */
+     , (30505, 5, 10) /* ENCUMB_VAL_INT */;
+

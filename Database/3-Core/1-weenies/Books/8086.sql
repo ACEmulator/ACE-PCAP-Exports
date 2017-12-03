@@ -34,6 +34,18 @@ VALUES (8086, 13, True) /* ETHEREAL_BOOL */
      , (8086, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8086, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8086, 16, 'A translated missive, taken from the hands of an undead at the Fenmalain Facility.') /* LONG_DESC_STRING */
+     , (8086, 14, 'Use this item to read it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8086, 19, 90) /* VALUE_INT */
+     , (8086, 5, 160) /* ENCUMB_VAL_INT */
+     , (8086, 174, 7) /* APPRAISAL_PAGES_INT */
+     , (8086, 175, 7) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

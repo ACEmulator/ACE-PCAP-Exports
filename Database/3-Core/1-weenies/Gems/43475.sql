@@ -49,6 +49,26 @@ VALUES (43475, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43475, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43475, 16, 'Using this gem will cast Incantation of Defender upon your equipped melee or missile weapon.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43475, 33, 1) /* BONDED_INT */
+     , (43475, 114, 1) /* ATTUNED_INT */
+     , (43475, 19, 0) /* VALUE_INT */
+     , (43475, 5, 20) /* ENCUMB_VAL_INT */
+     , (43475, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (43475, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (43475, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43475, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43475, 4400) /* Defender8_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

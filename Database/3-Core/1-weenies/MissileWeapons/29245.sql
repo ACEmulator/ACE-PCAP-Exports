@@ -47,3 +47,34 @@ VALUES (29245, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29245, 67115372, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29245, 16, 'Acid Crossbow') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29245, 160, 335) /* WIELD_DIFFICULTY_INT */
+     , (29245, 353, 9) /* WEAPON_TYPE_INT */
+     , (29245, 177, 4) /* GEM_COUNT_INT */
+     , (29245, 178, 21) /* GEM_TYPE_INT */
+     , (29245, 19, 13984) /* VALUE_INT */
+     , (29245, 131, 63) /* MATERIAL_TYPE_INT */
+     , (29245, 5, 873) /* ENCUMB_VAL_INT */
+     , (29245, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (29245, 204, 6) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (29245, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (29245, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (29245, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (29245, 45, 32) /* DAMAGE_TYPE_INT */
+     , (29245, 49, 106) /* WEAPON_TIME_INT */
+     , (29245, 48, 47) /* WEAPON_SKILL_INT */
+     , (29245, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29245, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (29245, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (29245, 63, 2.65) /* DAMAGE_MOD_FLOAT */
+     , (29245, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (29245, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (29245, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

@@ -51,3 +51,35 @@ VALUES (11299, 0, 83893244, 83893244)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11299, 0, 16786971);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11299, 16, 'The Stave of Palenqual, an Aun Tumerok relic. This magic caster was given to the Aun xuta by spirits called the Deru. It is the embodiment of Marae Lassel''s spirit - a single great totem for the island as a whole. Three Tumerok fetishes are attached to this weapon; those of Timaru, Siraluun, and Storm.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11299, 33, 1) /* BONDED_INT */
+     , (11299, 114, 0) /* ATTUNED_INT */
+     , (11299, 19, 0) /* VALUE_INT */
+     , (11299, 5, 200) /* ENCUMB_VAL_INT */
+     , (11299, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (11299, 108, 8544) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (11299, 144, 0.07) /* MANA_CONVERSION_MOD_FLOAT */
+     , (11299, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (11299, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11299, 99, 0) /* IVORYABLE_BOOL */
+     , (11299, 69, 0) /* IS_SELLABLE_BOOL */
+     , (11299, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */
+     , (11299, 94, 1) /* APPRAISAL_HAS_ALLOWED_ACTIVATOR_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (11299, 1836) /* FrostStrike_SpellID */
+     , (11299, 1480) /* TrueValue6_SpellID */
+     , (11299, 658) /* ManaMasterySelf6_SpellID */
+     , (11299, 2581) /* CANTRIPFOCUS1_SpellID */
+     , (11299, 217) /* ManaRenewalSelf6_SpellID */
+     , (11299, 2428) /* TimaruShelterMagic_SpellID */;
+

@@ -32,3 +32,12 @@ VALUES (20625, 13, True) /* ETHEREAL_BOOL */
      , (20625, 19, True) /* ATTACKABLE_BOOL */
      , (20625, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20625, 38, 'Precarious Sojourn Portal (38.1S, 60.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */
+     , (20625, 15, 'You must visit Slithe Tradittor before using this portal!') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20625, 111, 1) /* PORTAL_BITMASK_INT */;
+

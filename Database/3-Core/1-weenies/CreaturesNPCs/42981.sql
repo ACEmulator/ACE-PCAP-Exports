@@ -90,3 +90,26 @@ VALUES (42981, 12, 16777304)
      , (42981, 4, 16777291)
      , (42981, 8, 16777298);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42981, 5, 'Traitor to the Crown') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (42981, 16, 67110062) /* EYES_PALETTE_DID */
+     , (42981, 9, 83890451) /* EYES_TEXTURE_DID */
+     , (42981, 17, 67110057) /* SKIN_PALETTE_DID */
+     , (42981, 10, 83890528) /* NOSE_TEXTURE_DID */
+     , (42981, 11, 83890590) /* MOUTH_TEXTURE_DID */
+     , (42981, 15, 67116991) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42981, 113, 1) /* GENDER_INT */
+     , (42981, 2, 31) /* CREATURE_TYPE_INT */
+     , (42981, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (42981, 25, 174) /* LEVEL_INT */
+     , (42981, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (42981, 64, 256) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

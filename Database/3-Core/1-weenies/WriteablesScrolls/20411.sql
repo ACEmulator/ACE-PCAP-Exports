@@ -35,3 +35,17 @@ VALUES (20411, 13, True) /* ETHEREAL_BOOL */
      , (20411, 19, True) /* ATTACKABLE_BOOL */
      , (20411, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20411, 16, 'Inscribed spell: Aura of Cragstone''s Will
+Increases the Melee Defense skill modifier of a weapon or magic caster by 17%.') /* LONG_DESC_STRING */
+     , (20411, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20411, 19, 2000) /* VALUE_INT */
+     , (20411, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20411, 2101) /* Defender7_SpellID */;
+

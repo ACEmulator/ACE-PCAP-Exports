@@ -51,3 +51,47 @@ VALUES (22162, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22162, 0, 16788503);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22162, 16, 'Frost Nabut of Swiftkiller') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22162, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (22162, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (22162, 353, 7) /* WEAPON_TYPE_INT */
+     , (22162, 177, 4) /* GEM_COUNT_INT */
+     , (22162, 178, 23) /* GEM_TYPE_INT */
+     , (22162, 19, 8636) /* VALUE_INT */
+     , (22162, 131, 75) /* MATERIAL_TYPE_INT */
+     , (22162, 115, 316) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (22162, 5, 400) /* ENCUMB_VAL_INT */
+     , (22162, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (22162, 106, 296) /* ITEM_SPELLCRAFT_INT */
+     , (22162, 108, 701) /* ITEM_MAX_MANA_INT */
+     , (22162, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (22162, 109, 168) /* ITEM_DIFFICULTY_INT */
+     , (22162, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (22162, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (22162, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (22162, 47, 6) /* ATTACK_TYPE_INT */
+     , (22162, 45, 8) /* DAMAGE_TYPE_INT */
+     , (22162, 49, 35) /* WEAPON_TIME_INT */
+     , (22162, 48, 44) /* WEAPON_SKILL_INT */
+     , (22162, 44, 63) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22162, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (22162, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
+     , (22162, 150, 1.02) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (22162, 22, 0.42) /* DAMAGE_VARIANCE_FLOAT */
+     , (22162, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (22162, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (22162, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (22162, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (22162, 2116) /* Swiftkiller7_SpellID */
+     , (22162, 4708) /* CANTRIPSALVAGING3_SpellID */
+     , (22162, 2096) /* BloodDrinker7_SpellID */;
+

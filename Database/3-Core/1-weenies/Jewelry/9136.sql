@@ -47,3 +47,24 @@ VALUES (9136, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9136, 0, 16778348);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9136, 16, 'A ceremonial amulet, glowing with strange magical energies.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9136, 19, 1500) /* VALUE_INT */
+     , (9136, 36, 9999) /* RESIST_MAGIC_INT */
+     , (9136, 5, 200) /* ENCUMB_VAL_INT */
+     , (9136, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (9136, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (9136, 109, 10) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9136, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9136, 909) /* LeadershipMasteryOther6_SpellID */
+     , (9136, 1432) /* FocusOther6_SpellID */
+     , (9136, 957) /* FealtyOther6_SpellID */;
+

@@ -43,6 +43,29 @@ VALUES (8525, 13, True) /* ETHEREAL_BOOL */
      , (8525, 17, True) /* INELASTIC_BOOL */
      , (8525, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8525, 16, 'An ancient throwing dagger of Dericostian design. This weapon appears to be totally unreactive to spellcraft.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8525, 353, 10) /* WEAPON_TYPE_INT */
+     , (8525, 19, 105) /* VALUE_INT */
+     , (8525, 36, 9999) /* RESIST_MAGIC_INT */
+     , (8525, 5, 105) /* ENCUMB_VAL_INT */
+     , (8525, 45, 2) /* DAMAGE_TYPE_INT */
+     , (8525, 49, 20) /* WEAPON_TIME_INT */
+     , (8525, 48, 47) /* WEAPON_SKILL_INT */
+     , (8525, 44, 14) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8525, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (8525, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (8525, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (8525, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (8525, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (8525, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

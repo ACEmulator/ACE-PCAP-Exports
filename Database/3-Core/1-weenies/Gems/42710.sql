@@ -38,6 +38,21 @@ VALUES (42710, 13, True) /* ETHEREAL_BOOL */
      , (42710, 19, True) /* ATTACKABLE_BOOL */
      , (42710, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42710, 16, 'This mana stone is incapable of holding a charge. Using this stone creates a conduit between the wielder and Dereth''s mana field.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42710, 33, 1) /* BONDED_INT */
+     , (42710, 114, 1) /* ATTUNED_INT */
+     , (42710, 19, 0) /* VALUE_INT */
+     , (42710, 5, 0) /* ENCUMB_VAL_INT */
+     , (42710, 280, 51) /* SHARED_COOLDOWN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42710, 167, 10) /* COOLDOWN_DURATION_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

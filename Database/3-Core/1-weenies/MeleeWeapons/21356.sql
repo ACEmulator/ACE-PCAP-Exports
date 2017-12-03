@@ -39,3 +39,37 @@ VALUES (21356, 13, True) /* ETHEREAL_BOOL */
      , (21356, 19, True) /* ATTACKABLE_BOOL */
      , (21356, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21356, 16, 'A mace with a ghostly head crafted from pure chorizite.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21356, 160, 275) /* WIELD_DIFFICULTY_INT */
+     , (21356, 33, 1) /* BONDED_INT */
+     , (21356, 353, 4) /* WEAPON_TYPE_INT */
+     , (21356, 114, 1) /* ATTUNED_INT */
+     , (21356, 179, -2147483648) /* IMBUED_EFFECT_INT */
+     , (21356, 19, 5000) /* VALUE_INT */
+     , (21356, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21356, 5, 900) /* ENCUMB_VAL_INT */
+     , (21356, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (21356, 47, 4) /* ATTACK_TYPE_INT */
+     , (21356, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (21356, 45, 4) /* DAMAGE_TYPE_INT */
+     , (21356, 49, 30) /* WEAPON_TIME_INT */
+     , (21356, 48, 44) /* WEAPON_SKILL_INT */
+     , (21356, 44, 11) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21356, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (21356, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (21356, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (21356, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (21356, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (21356, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21356, 99, 1) /* IVORYABLE_BOOL */
+     , (21356, 69, 0) /* IS_SELLABLE_BOOL */;
+

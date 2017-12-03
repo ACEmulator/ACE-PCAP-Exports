@@ -34,6 +34,21 @@ VALUES (49580, 13, True) /* ETHEREAL_BOOL */
      , (49580, 19, True) /* ATTACKABLE_BOOL */
      , (49580, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49580, 14, 'This fragment appears to be one piece from a larger version. Use this on another fragment to combine them.') /* USE_STRING */
+     , (49580, 15, 'A signet fragment that looks extremely corroded.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49580, 33, 1) /* BONDED_INT */
+     , (49580, 114, 1) /* ATTUNED_INT */
+     , (49580, 19, 0) /* VALUE_INT */
+     , (49580, 5, 200) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49580, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

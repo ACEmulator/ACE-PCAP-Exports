@@ -50,3 +50,17 @@ VALUES (51704, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51704, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51704, 16, 'A scrap of cloth torn from the Apparition of Envy. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51704, 33, 1) /* BONDED_INT */
+     , (51704, 114, 1) /* ATTUNED_INT */
+     , (51704, 19, 0) /* VALUE_INT */
+     , (51704, 5, 450) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51704, 69, 0) /* IS_SELLABLE_BOOL */;
+

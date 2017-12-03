@@ -91,3 +91,36 @@ VALUES (4122, 12, 16777304)
      , (4122, 8, 16777298)
      , (4122, 16, 16779630);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4122, 5, 'Old Man') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (4122, 16, 67110063) /* EYES_PALETTE_DID */
+     , (4122, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (4122, 17, 67110045) /* SKIN_PALETTE_DID */
+     , (4122, 10, 83890529) /* NOSE_TEXTURE_DID */
+     , (4122, 11, 83890585) /* MOUTH_TEXTURE_DID */
+     , (4122, 15, 67116996) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4122, 113, 1) /* GENDER_INT */
+     , (4122, 2, 31) /* CREATURE_TYPE_INT */
+     , (4122, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (4122, 25, 33) /* LEVEL_INT */
+     , (4122, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (4122, 1, 120) /* STRENGTH_ATTRIBUTE */
+     , (4122, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (4122, 4, 190) /* COORDINATION_ATTRIBUTE */
+     , (4122, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (4122, 16, 220) /* FOCUS_ATTRIBUTE */
+     , (4122, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (4122, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4122, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4122, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
+

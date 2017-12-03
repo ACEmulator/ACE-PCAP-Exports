@@ -44,3 +44,29 @@ VALUES (12759, 0, 83894467, 83894467);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12759, 0, 16788860);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12759, 15, 'An enhanced wand crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12759, 33, 1) /* BONDED_INT */
+     , (12759, 19, 200) /* VALUE_INT */
+     , (12759, 5, 50) /* ENCUMB_VAL_INT */
+     , (12759, 106, 15) /* ITEM_SPELLCRAFT_INT */
+     , (12759, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (12759, 109, 15) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12759, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (12759, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (12759, 5, -0.03333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12759, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12759, 659) /* ManaMasteryOther1_SpellID */
+     , (12759, 1427) /* FocusOther1_SpellID */
+     , (12759, 1451) /* WillpowerOther1_SpellID */;
+

@@ -49,3 +49,31 @@ VALUES (42, 0, 83887061, 83886694)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42, 0, 16778382);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42, 16, 'Studded Leather Breastplate') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42, 177, 1) /* GEM_COUNT_INT */
+     , (42, 178, 25) /* GEM_TYPE_INT */
+     , (42, 19, 12737) /* VALUE_INT */
+     , (42, 131, 54) /* MATERIAL_TYPE_INT */
+     , (42, 5, 469) /* ENCUMB_VAL_INT */
+     , (42, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (42, 28, 254) /* ARMOR_LEVEL_INT */
+     , (42, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (42, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (42, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (42, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (42, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (42, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (42, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (42, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42, 100, 1) /* DYABLE_BOOL */;
+

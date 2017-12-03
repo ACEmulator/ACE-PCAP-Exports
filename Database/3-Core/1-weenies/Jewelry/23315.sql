@@ -48,3 +48,11 @@ VALUES (23315, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23315, 0, 16778348);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23315, 131, 60) /* MATERIAL_TYPE_INT */
+     , (23315, 19, 50) /* VALUE_INT */
+     , (23315, 5, 100) /* ENCUMB_VAL_INT */
+     , (23315, 105, 6) /* ITEM_WORKMANSHIP_INT */;
+

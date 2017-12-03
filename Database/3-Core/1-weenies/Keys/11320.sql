@@ -34,3 +34,16 @@ VALUES (11320, 13, True) /* ETHEREAL_BOOL */
      , (11320, 19, True) /* ATTACKABLE_BOOL */
      , (11320, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11320, 16, 'The key to the Tumerok Figurine Vault') /* LONG_DESC_STRING */
+     , (11320, 14, 'Use this item to open the Tumerok Figurine Vault') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11320, 33, 1) /* BONDED_INT */
+     , (11320, 114, 1) /* ATTUNED_INT */
+     , (11320, 19, 0) /* VALUE_INT */
+     , (11320, 5, 50) /* ENCUMB_VAL_INT */
+     , (11320, 91, 1) /* MAX_STRUCTURE_INT */;
+

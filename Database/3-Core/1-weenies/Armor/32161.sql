@@ -35,3 +35,23 @@ VALUES (32161, 13, True) /* ETHEREAL_BOOL */
      , (32161, 19, True) /* ATTACKABLE_BOOL */
      , (32161, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32161, 16, 'A fearsome mask made from the head of a barbaric Ruschk.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32161, 19, 200) /* VALUE_INT */
+     , (32161, 5, 150) /* ENCUMB_VAL_INT */
+     , (32161, 28, 10) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32161, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (32161, 14, 0.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (32161, 15, 0.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (32161, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (32161, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (32161, 18, 0.75) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (32161, 19, 0.35) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (32161, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

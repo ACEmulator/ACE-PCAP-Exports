@@ -34,3 +34,12 @@ VALUES (1804, 0, 83892071, 83892188);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1804, 0, 16783205);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1804, 16, 'Bows and Arrows') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1804, 19, 125) /* VALUE_INT */
+     , (1804, 5, 9000) /* ENCUMB_VAL_INT */;
+

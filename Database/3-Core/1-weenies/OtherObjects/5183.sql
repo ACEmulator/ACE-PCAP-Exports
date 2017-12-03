@@ -43,3 +43,14 @@ VALUES (5183, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5183, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5183, 16, 'A small grey stone, smoothed by thousands of years of gently flowing water. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5183, 33, 1) /* BONDED_INT */
+     , (5183, 114, 1) /* ATTUNED_INT */
+     , (5183, 19, 0) /* VALUE_INT */
+     , (5183, 5, 10) /* ENCUMB_VAL_INT */;
+

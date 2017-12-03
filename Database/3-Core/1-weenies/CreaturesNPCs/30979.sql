@@ -75,3 +75,36 @@ VALUES (30979, 12, 16778423)
      , (30979, 14, 16783855)
      , (30979, 16, 16791907);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30979, 5, 'Tormented Soul') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (30979, 16, 67110063) /* EYES_PALETTE_DID */
+     , (30979, 9, 83890281) /* EYES_TEXTURE_DID */
+     , (30979, 17, 67115903) /* SKIN_PALETTE_DID */
+     , (30979, 10, 83890317) /* NOSE_TEXTURE_DID */
+     , (30979, 11, 83890326) /* MOUTH_TEXTURE_DID */
+     , (30979, 15, 67117073) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30979, 113, 2) /* GENDER_INT */
+     , (30979, 2, 31) /* CREATURE_TYPE_INT */
+     , (30979, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (30979, 25, 200) /* LEVEL_INT */
+     , (30979, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (30979, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (30979, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (30979, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (30979, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (30979, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (30979, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (30979, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30979, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30979, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
+

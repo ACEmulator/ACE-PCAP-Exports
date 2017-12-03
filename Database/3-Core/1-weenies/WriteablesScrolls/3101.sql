@@ -35,3 +35,17 @@ VALUES (3101, 13, True) /* ETHEREAL_BOOL */
      , (3101, 19, True) /* ATTACKABLE_BOOL */
      , (3101, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3101, 16, 'Inscribed spell: Mana Renewal Other V
+Increases the target''s natural mana rate by 70%.') /* LONG_DESC_STRING */
+     , (3101, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3101, 19, 200) /* VALUE_INT */
+     , (3101, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3101, 210) /* ManaRenewalOther5_SpellID */;
+

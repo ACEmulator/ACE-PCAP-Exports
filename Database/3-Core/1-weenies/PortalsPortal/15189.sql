@@ -33,3 +33,11 @@ VALUES (15189, 13, True) /* ETHEREAL_BOOL */
      , (15189, 19, True) /* ATTACKABLE_BOOL */
      , (15189, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15189, 38, 'Shore Vista Cottages Portal (12.0N, 15.9W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15189, 111, 1) /* PORTAL_BITMASK_INT */;
+

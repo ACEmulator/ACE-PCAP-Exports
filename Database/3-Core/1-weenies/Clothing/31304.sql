@@ -51,3 +51,44 @@ VALUES (31304, 0, 83887061, 83892357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31304, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31304, 257, 6) /* ITEM_ATTRIBUTE_LIMIT_INT */
+     , (31304, 258, 295) /* ITEM_ATTRIBUTE_LEVEL_LIMIT_INT */
+     , (31304, 19, 13000) /* VALUE_INT */
+     , (31304, 5, 150) /* ENCUMB_VAL_INT */
+     , (31304, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (31304, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (31304, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (31304, 28, 100) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31304, 5, -0.03333) /* MANA_RATE_FLOAT */
+     , (31304, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (31304, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (31304, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (31304, 16, 1.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (31304, 17, 0.9) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (31304, 18, 0.9) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (31304, 19, 0.9) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (31304, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31304, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31304, 2624) /* CANTRIPMANAGAIN2_SpellID */
+     , (31304, 2113) /* PiercingBane7_SpellID */
+     , (31304, 2245) /* InvulnerabilitySelf7_SpellID */
+     , (31304, 261) /* ImpregnabilitySelf6_SpellID */
+     , (31304, 1035) /* ColdProtectionSelf6_SpellID */
+     , (31304, 279) /* MagicResistanceSelf6_SpellID */
+     , (31304, 217) /* ManaRenewalSelf6_SpellID */
+     , (31304, 2661) /* ModerateFocus_SpellID */
+     , (31304, 2664) /* ModerateWillpower_SpellID */
+     , (31304, 2094) /* BladeBane7_SpellID */
+     , (31304, 2098) /* BludgeonBane7_SpellID */
+     , (31304, 3827) /* ImpenetrabilityLunnumsPyre_SpellID */
+     , (31304, 2104) /* FrostBane7_SpellID */;
+

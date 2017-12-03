@@ -84,3 +84,26 @@ VALUES (46445, 12, 16777304)
      , (46445, 13, 16783871)
      , (46445, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46445, 5, 'Arcanum Researcher') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (46445, 16, 67110064) /* EYES_PALETTE_DID */
+     , (46445, 9, 83890511) /* EYES_TEXTURE_DID */
+     , (46445, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (46445, 10, 83890551) /* NOSE_TEXTURE_DID */
+     , (46445, 11, 83890639) /* MOUTH_TEXTURE_DID */
+     , (46445, 15, 67116999) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46445, 113, 1) /* GENDER_INT */
+     , (46445, 2, 31) /* CREATURE_TYPE_INT */
+     , (46445, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (46445, 25, 200) /* LEVEL_INT */
+     , (46445, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46445, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

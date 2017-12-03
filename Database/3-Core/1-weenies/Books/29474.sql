@@ -34,3 +34,16 @@ VALUES (29474, 13, True) /* ETHEREAL_BOOL */
      , (29474, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29474, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29474, 16, 'A journal. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29474, 33, 1) /* BONDED_INT */
+     , (29474, 114, 1) /* ATTUNED_INT */
+     , (29474, 19, 0) /* VALUE_INT */
+     , (29474, 5, 50) /* ENCUMB_VAL_INT */
+     , (29474, 174, 4) /* APPRAISAL_PAGES_INT */
+     , (29474, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
+

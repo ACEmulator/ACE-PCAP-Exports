@@ -37,6 +37,18 @@ VALUES (33818, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (33818, 19, True) /* ATTACKABLE_BOOL */
      , (33818, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33818, 14, 'Use the Shadow Chest Key to unlock this cache.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33818, 5, 13006) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33818, 2, 0) /* OPEN_BOOL */
+     , (33818, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -46,3 +46,39 @@ VALUES (40631, 0, 83887061, 83895001)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40631, 0, 16779351);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40631, 16, 'The cowl of Selaina the Subtle the leader of an unnamed fraternity of assassins.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40631, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (40631, 19, 20) /* VALUE_INT */
+     , (40631, 5, 800) /* ENCUMB_VAL_INT */
+     , (40631, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (40631, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (40631, 28, 420) /* ARMOR_LEVEL_INT */
+     , (40631, 109, 250) /* ITEM_DIFFICULTY_INT */
+     , (40631, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (40631, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40631, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (40631, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (40631, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (40631, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (40631, 16, 1.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (40631, 17, 1.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (40631, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (40631, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (40631, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40631, 2240) /* HealingMasteryOther7_SpellID */
+     , (40631, 2058) /* CoordinationOther7_SpellID */
+     , (40631, 2572) /* CANTRIPCOORDINATION2_SpellID */
+     , (40631, 2190) /* AlchemyMasteryOther7_SpellID */
+     , (40631, 2575) /* CANTRIPQUICKNESS2_SpellID */
+     , (40631, 2080) /* QuicknessOther7_SpellID */
+     , (40631, 4986) /* AlchemyPercentBoost1_SpellID */;
+

@@ -31,3 +31,14 @@ VALUES (28983, 13, True) /* ETHEREAL_BOOL */
      , (28983, 19, True) /* ATTACKABLE_BOOL */
      , (28983, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28983, 15, 'A hand-written journal written in a language that you cannot decipher.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28983, 33, 1) /* BONDED_INT */
+     , (28983, 114, 1) /* ATTUNED_INT */
+     , (28983, 19, 0) /* VALUE_INT */
+     , (28983, 5, 50) /* ENCUMB_VAL_INT */;
+

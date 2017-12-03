@@ -48,3 +48,33 @@ VALUES (28059, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28059, 0, 16780142);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28059, 16, 'A staff made from the petrified wood of Aerlinthe, taken from the Dark Magus of that island. This artifact is several centuries old.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28059, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
+     , (28059, 33, 1) /* BONDED_INT */
+     , (28059, 114, 1) /* ATTUNED_INT */
+     , (28059, 19, 12150) /* VALUE_INT */
+     , (28059, 115, 325) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (28059, 5, 250) /* ENCUMB_VAL_INT */
+     , (28059, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (28059, 108, 3500) /* ITEM_MAX_MANA_INT */
+     , (28059, 109, 120) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28059, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
+     , (28059, 5, -0.083) /* MANA_RATE_FLOAT */
+     , (28059, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28059, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28059, 2123) /* AcidVolley7_SpellID */
+     , (28059, 909) /* LeadershipMasteryOther6_SpellID */
+     , (28059, 2322) /* WarMagicMasteryOther7_SpellID */
+     , (28059, 616) /* LifeMagicMasteryOther6_SpellID */;
+

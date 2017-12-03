@@ -51,3 +51,42 @@ VALUES (21374, 0, 83887061, 83894216)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21374, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21374, 15, 'A black robe trimmed in red, it is lined with an unknown material but feels like the perfect insulator.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21374, 160, 30) /* WIELD_DIFFICULTY_INT */
+     , (21374, 19, 4000) /* VALUE_INT */
+     , (21374, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21374, 5, 450) /* ENCUMB_VAL_INT */
+     , (21374, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (21374, 108, 2000) /* ITEM_MAX_MANA_INT */
+     , (21374, 28, 80) /* ARMOR_LEVEL_INT */
+     , (21374, 109, 225) /* ITEM_DIFFICULTY_INT */
+     , (21374, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (21374, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21374, 5, -0.5) /* MANA_RATE_FLOAT */
+     , (21374, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (21374, 14, 0.75) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (21374, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (21374, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (21374, 17, 2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (21374, 18, 2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (21374, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (21374, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21374, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21374, 1486) /* Impenetrability6_SpellID */
+     , (21374, 1316) /* ArmorOther5_SpellID */
+     , (21374, 2616) /* CANTRIPACIDWARD1_SpellID */
+     , (21374, 2618) /* CANTRIPFLAMEWARD1_SpellID */
+     , (21374, 2619) /* CANTRIPFROSTWARD1_SpellID */
+     , (21374, 2622) /* CANTRIPSTORMWARD1_SpellID */;
+

@@ -34,3 +34,14 @@ VALUES (5134, 13, True) /* ETHEREAL_BOOL */
      , (5134, 19, True) /* ATTACKABLE_BOOL */
      , (5134, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5134, 16, 'A small iron key from the Dry Well near Samsur.') /* LONG_DESC_STRING */
+     , (5134, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5134, 19, 0) /* VALUE_INT */
+     , (5134, 5, 135) /* ENCUMB_VAL_INT */
+     , (5134, 91, 3) /* MAX_STRUCTURE_INT */;
+

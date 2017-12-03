@@ -32,3 +32,12 @@ VALUES (44758, 13, True) /* ETHEREAL_BOOL */
      , (44758, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (44758, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44758, 16, 'Usually found in brown and black, most rabbits found in Dereth are peaceful.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44758, 19, 125) /* VALUE_INT */
+     , (44758, 5, 200) /* ENCUMB_VAL_INT */;
+

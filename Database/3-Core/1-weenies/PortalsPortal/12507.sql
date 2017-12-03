@@ -33,3 +33,11 @@ VALUES (12507, 13, True) /* ETHEREAL_BOOL */
      , (12507, 19, True) /* ATTACKABLE_BOOL */
      , (12507, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12507, 38, 'Janaa Ridge Settlement Portal (7.0S, 22.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12507, 111, 1) /* PORTAL_BITMASK_INT */;
+

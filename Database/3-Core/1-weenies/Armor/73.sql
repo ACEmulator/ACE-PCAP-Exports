@@ -55,3 +55,40 @@ VALUES (73, 0, 83887061, 83886695)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (73, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (73, 16, 'Scalemail Hauberk') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (73, 177, 1) /* GEM_COUNT_INT */
+     , (73, 178, 10) /* GEM_TYPE_INT */
+     , (73, 19, 11842) /* VALUE_INT */
+     , (73, 131, 58) /* MATERIAL_TYPE_INT */
+     , (73, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (73, 5, 1533) /* ENCUMB_VAL_INT */
+     , (73, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (73, 106, 209) /* ITEM_SPELLCRAFT_INT */
+     , (73, 28, 216) /* ARMOR_LEVEL_INT */
+     , (73, 108, 978) /* ITEM_MAX_MANA_INT */
+     , (73, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (73, 109, 156) /* ITEM_DIFFICULTY_INT */
+     , (73, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (73, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (73, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (73, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (73, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (73, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (73, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (73, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (73, 19, 0.7587918) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (73, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (73, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (73, 1485) /* Impenetrability5_SpellID */;
+

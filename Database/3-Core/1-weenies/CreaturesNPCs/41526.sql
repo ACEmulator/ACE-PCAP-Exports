@@ -90,6 +90,40 @@ VALUES (41526, 11, 16778429)
      , (41526, 21, 16777708)
      , (41526, 22, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41526, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (41526, 16, 67110062) /* EYES_PALETTE_DID */
+     , (41526, 9, 83890255) /* EYES_TEXTURE_DID */
+     , (41526, 17, 67109556) /* SKIN_PALETTE_DID */
+     , (41526, 10, 83890317) /* NOSE_TEXTURE_DID */
+     , (41526, 11, 83890354) /* MOUTH_TEXTURE_DID */
+     , (41526, 15, 67117024) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41526, 113, 2) /* GENDER_INT */
+     , (41526, 2, 31) /* CREATURE_TYPE_INT */
+     , (41526, 307, 5) /* DAMAGE_RATING_INT */
+     , (41526, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (41526, 25, 199) /* LEVEL_INT */
+     , (41526, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (41526, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (41526, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (41526, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (41526, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (41526, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (41526, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (41526, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (41526, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (41526, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

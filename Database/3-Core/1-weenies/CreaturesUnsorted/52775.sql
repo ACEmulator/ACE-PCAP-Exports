@@ -35,3 +35,25 @@ VALUES (52775, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (52775, 19, True) /* ATTACKABLE_BOOL */
      , (52775, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52775, 2, 99) /* CREATURE_TYPE_INT */
+     , (52775, 386, 10) /*  */
+     , (52775, 307, 35) /* DAMAGE_RATING_INT */
+     , (52775, 25, 280) /* LEVEL_INT */
+     , (52775, 313, 30) /* CRIT_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (52775, 1, 600) /* STRENGTH_ATTRIBUTE */
+     , (52775, 2, 1000) /* ENDURANCE_ATTRIBUTE */
+     , (52775, 4, 450) /* COORDINATION_ATTRIBUTE */
+     , (52775, 8, 500) /* QUICKNESS_ATTRIBUTE */
+     , (52775, 16, 450) /* FOCUS_ATTRIBUTE */
+     , (52775, 32, 500) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (52775, 64, 53000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (52775, 128, 25000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (52775, 256, 1500) /* MAX_MANA_ATTRIBUTE_2ND */;
+

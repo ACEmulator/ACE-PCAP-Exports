@@ -38,3 +38,29 @@ VALUES (28395, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28395, 67114955, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28395, 16, 'A single red manacle with vicious looking spikes pointing inward.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28395, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (28395, 19, 7500) /* VALUE_INT */
+     , (28395, 5, 50) /* ENCUMB_VAL_INT */
+     , (28395, 106, 275) /* ITEM_SPELLCRAFT_INT */
+     , (28395, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (28395, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (28395, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (28395, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28395, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28395, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28395, 3404) /* EvilThirst_SpellID */
+     , (28395, 2280) /* MagicResistanceOther7_SpellID */
+     , (28395, 3378) /* VisionBeyondTheGrave_SpellID */;
+

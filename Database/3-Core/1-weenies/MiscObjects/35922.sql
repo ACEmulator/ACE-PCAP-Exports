@@ -47,6 +47,23 @@ VALUES (35922, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35922, 0, 16777963);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35922, 15, 'A toy sword. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35922, 33, 1) /* BONDED_INT */
+     , (35922, 98, 1483945768) /* CREATION_TIMESTAMP_INT */
+     , (35922, 114, 1) /* ATTUNED_INT */
+     , (35922, 19, 0) /* VALUE_INT */
+     , (35922, 5, 10) /* ENCUMB_VAL_INT */
+     , (35922, 267, 3600) /* LIFESPAN_INT */
+     , (35922, 268, 3599) /* REMAINING_LIFESPAN_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35922, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

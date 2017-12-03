@@ -33,3 +33,12 @@ VALUES (25496, 13, True) /* ETHEREAL_BOOL */
      , (25496, 19, True) /* ATTACKABLE_BOOL */
      , (25496, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25496, 38, 'Renegade Garrison') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25496, 86, 40) /* MIN_LEVEL_INT */
+     , (25496, 111, 1) /* PORTAL_BITMASK_INT */;
+

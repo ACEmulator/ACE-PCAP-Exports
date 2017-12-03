@@ -32,3 +32,12 @@ VALUES (19076, 13, True) /* ETHEREAL_BOOL */
      , (19076, 19, True) /* ATTACKABLE_BOOL */
      , (19076, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19076, 16, 'This house is available for purchase.
+') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19076, 86, 35) /* MIN_LEVEL_INT */;
+

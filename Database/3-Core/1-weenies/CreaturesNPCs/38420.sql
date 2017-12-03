@@ -89,3 +89,38 @@ VALUES (38420, 12, 16778423)
      , (38420, 4, 16783485)
      , (38420, 8, 16783487);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38420, 5, 'Moar Gland Collection Taskmaster') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38420, 16, 67109564) /* EYES_PALETTE_DID */
+     , (38420, 9, 83890282) /* EYES_TEXTURE_DID */
+     , (38420, 17, 67115908) /* SKIN_PALETTE_DID */
+     , (38420, 10, 83890308) /* NOSE_TEXTURE_DID */
+     , (38420, 11, 83890336) /* MOUTH_TEXTURE_DID */
+     , (38420, 15, 67117025) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38420, 113, 2) /* GENDER_INT */
+     , (38420, 2, 31) /* CREATURE_TYPE_INT */
+     , (38420, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38420, 25, 185) /* LEVEL_INT */
+     , (38420, 281, 1) /* FACTION1_BITS_INT */
+     , (38420, 188, 4) /* HERITAGE_GROUP_INT */
+     , (38420, 287, 301) /* SOCIETY_RANK_CELHAN_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38420, 1, 240) /* STRENGTH_ATTRIBUTE */
+     , (38420, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (38420, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (38420, 8, 250) /* QUICKNESS_ATTRIBUTE */
+     , (38420, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (38420, 32, 290) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38420, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38420, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38420, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
+

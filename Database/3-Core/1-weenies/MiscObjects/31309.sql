@@ -31,3 +31,17 @@ VALUES (31309, 13, True) /* ETHEREAL_BOOL */
      , (31309, 19, True) /* ATTACKABLE_BOOL */
      , (31309, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31309, 16, 'Darling XIII - Property of Xsao Lann') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31309, 33, 1) /* BONDED_INT */
+     , (31309, 114, 1) /* ATTUNED_INT */
+     , (31309, 19, 0) /* VALUE_INT */
+     , (31309, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31309, 69, 0) /* IS_SELLABLE_BOOL */;
+

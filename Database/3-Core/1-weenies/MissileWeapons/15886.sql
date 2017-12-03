@@ -43,3 +43,22 @@ VALUES (15886, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (15886, 67113835, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15886, 353, 8) /* WEAPON_TYPE_INT */
+     , (15886, 19, 0) /* VALUE_INT */
+     , (15886, 5, 9800) /* ENCUMB_VAL_INT */
+     , (15886, 45, 0) /* DAMAGE_TYPE_INT */
+     , (15886, 49, 370) /* WEAPON_TIME_INT */
+     , (15886, 48, 47) /* WEAPON_SKILL_INT */
+     , (15886, 44, 22) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (15886, 29, 1.17) /* WEAPON_DEFENSE_FLOAT */
+     , (15886, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (15886, 63, 1.33) /* DAMAGE_MOD_FLOAT */
+     , (15886, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (15886, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (15886, 62, 1.2) /* WEAPON_OFFENSE_FLOAT */;
+

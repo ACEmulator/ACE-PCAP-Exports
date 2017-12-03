@@ -32,6 +32,20 @@ VALUES (45193, 13, True) /* ETHEREAL_BOOL */
      , (45193, 14, True) /* GRAVITY_STATUS_BOOL */
      , (45193, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45193, 15, 'Guliant, the undead alchemist in Mhoire Castle, seeks these grubs for alchemical experiments. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45193, 33, 1) /* BONDED_INT */
+     , (45193, 114, 1) /* ATTUNED_INT */
+     , (45193, 19, 0) /* VALUE_INT */
+     , (45193, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45193, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

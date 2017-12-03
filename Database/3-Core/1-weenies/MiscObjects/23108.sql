@@ -34,3 +34,14 @@ VALUES (23108, 13, True) /* ETHEREAL_BOOL */
      , (23108, 19, True) /* ATTACKABLE_BOOL */
      , (23108, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23108, 15, 'This key appears to have been a light marble once, but the years have dulled the color to a deep grey. With some clever locksmithing, and perhaps an intricate carving tool, you may be able to clean it up.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23108, 33, 0) /* BONDED_INT */
+     , (23108, 114, 0) /* ATTUNED_INT */
+     , (23108, 19, 0) /* VALUE_INT */
+     , (23108, 5, 10) /* ENCUMB_VAL_INT */;
+

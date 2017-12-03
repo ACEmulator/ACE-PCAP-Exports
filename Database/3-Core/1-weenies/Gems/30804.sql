@@ -52,6 +52,26 @@ VALUES (30804, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30804, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30804, 14, 'Double click this gem to summon a portal to the Caul Asylum.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30804, 19, 10000) /* VALUE_INT */
+     , (30804, 5, 100) /* ENCUMB_VAL_INT */
+     , (30804, 280, 1000) /* SHARED_COOLDOWN_INT */
+     , (30804, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (30804, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (30804, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30804, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30804, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30804, 157) /* SummonPortal1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

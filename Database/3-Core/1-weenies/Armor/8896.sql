@@ -56,3 +56,23 @@ VALUES (8896, 0, 83887061, 83892990)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8896, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8896, 15, 'Coat crafted from the hide of a Mattekar, and energized by Yi Yo-Jin.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8896, 19, 4000) /* VALUE_INT */
+     , (8896, 5, 810) /* ENCUMB_VAL_INT */
+     , (8896, 28, 120) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8896, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8896, 14, 0.9) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8896, 15, 0.9) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8896, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8896, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8896, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8896, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8896, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

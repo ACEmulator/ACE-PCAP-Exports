@@ -43,3 +43,44 @@ VALUES (30372, 0, 83897135, 83897135)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30372, 0, 16792052);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30372, 16, 'At first glance this shield seems to be of primitive make. But when exposed to magic, the emblems on the shield writhe and glow, helping to resist any magic.  Its very presence on the arm seems to make the bearer more able to withstand magical attacks.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30372, 320, 1) /* ITEM_XP_STYLE_INT */
+     , (30372, 17, 272) /* RARE_ID_INT */
+     , (30372, 19, 50000) /* VALUE_INT */
+     , (30372, 36, 9999) /* RESIST_MAGIC_INT */
+     , (30372, 5, 800) /* ENCUMB_VAL_INT */
+     , (30372, 265, 40) /* EQUIPMENT_SET_ID_INT */
+     , (30372, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (30372, 28, 440) /* ARMOR_LEVEL_INT */
+     , (30372, 108, 3600) /* ITEM_MAX_MANA_INT */
+     , (30372, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30372, 319, 50) /* ITEM_MAX_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (30372, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */
+     , (30372, 5, 2000000000) /* ITEM_BASE_XP_INT64 */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30372, 5, -0.0333) /* MANA_RATE_FLOAT */
+     , (30372, 159, 1) /* ABSORB_MAGIC_DAMAGE_FLOAT */
+     , (30372, 13, 0.9) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (30372, 14, 0.9) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (30372, 15, 0.9) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (30372, 16, 1.1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (30372, 17, 1.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (30372, 18, 1.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (30372, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (30372, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30372, 91, 1) /* RETAINED_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30372, 4704) /* CANTRIPMAGICRESISTANCE3_SpellID */
+     , (30372, 4407) /* Impenetrability8_SpellID */;
+

@@ -33,3 +33,11 @@ VALUES (21400, 13, True) /* ETHEREAL_BOOL */
      , (21400, 19, True) /* ATTACKABLE_BOOL */
      , (21400, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21400, 38, 'Citadel Apex (56.9N, 47.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21400, 111, 49) /* PORTAL_BITMASK_INT */;
+

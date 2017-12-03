@@ -51,3 +51,34 @@ VALUES (22161, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22161, 0, 16788503);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22161, 16, 'Flaming Nabut') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22161, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (22161, 353, 7) /* WEAPON_TYPE_INT */
+     , (22161, 177, 3) /* GEM_COUNT_INT */
+     , (22161, 178, 21) /* GEM_TYPE_INT */
+     , (22161, 19, 11195) /* VALUE_INT */
+     , (22161, 131, 73) /* MATERIAL_TYPE_INT */
+     , (22161, 5, 357) /* ENCUMB_VAL_INT */
+     , (22161, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (22161, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (22161, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (22161, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (22161, 47, 6) /* ATTACK_TYPE_INT */
+     , (22161, 45, 16) /* DAMAGE_TYPE_INT */
+     , (22161, 49, 39) /* WEAPON_TIME_INT */
+     , (22161, 48, 44) /* WEAPON_SKILL_INT */
+     , (22161, 44, 47) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22161, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
+     , (22161, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */
+     , (22161, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (22161, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (22161, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (22161, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+

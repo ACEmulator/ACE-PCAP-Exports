@@ -48,3 +48,29 @@ VALUES (41484, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41484, 0, 16778348);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41484, 16, 'Goggles of Lightning Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41484, 177, 2) /* GEM_COUNT_INT */
+     , (41484, 178, 15) /* GEM_TYPE_INT */
+     , (41484, 19, 3093) /* VALUE_INT */
+     , (41484, 131, 61) /* MATERIAL_TYPE_INT */
+     , (41484, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (41484, 5, 100) /* ENCUMB_VAL_INT */
+     , (41484, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (41484, 106, 211) /* ITEM_SPELLCRAFT_INT */
+     , (41484, 108, 1121) /* ITEM_MAX_MANA_INT */
+     , (41484, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (41484, 109, 220) /* ITEM_DIFFICULTY_INT */
+     , (41484, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41484, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41484, 2539) /* CANTRIPAXEAPTITUDE1_SpellID */
+     , (41484, 1070) /* LightningProtectionSelf5_SpellID */;
+

@@ -32,6 +32,20 @@ VALUES (35105, 13, True) /* ETHEREAL_BOOL */
      , (35105, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35105, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35105, 15, 'An insubstantial ashen shroud. Though warm to the touch, you can barely tell you are holding anything. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35105, 33, 1) /* BONDED_INT */
+     , (35105, 114, 1) /* ATTUNED_INT */
+     , (35105, 19, 0) /* VALUE_INT */
+     , (35105, 5, 2) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35105, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -37,6 +37,19 @@ VALUES (22084, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22084, 19, True) /* ATTACKABLE_BOOL */
      , (22084, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22084, 16, 'A chest belonging to Frest Greelving') /* LONG_DESC_STRING */
+     , (22084, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22084, 19, 200) /* VALUE_INT */
+     , (22084, 5, 9075) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22084, 2, 0) /* OPEN_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

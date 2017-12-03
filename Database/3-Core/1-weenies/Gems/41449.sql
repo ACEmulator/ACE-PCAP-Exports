@@ -41,6 +41,27 @@ VALUES (41449, 13, True) /* ETHEREAL_BOOL */
      , (41449, 19, True) /* ATTACKABLE_BOOL */
      , (41449, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41449, 16, 'This medal is eternal. Use this medal to increase the Stamina of your Fellowship by 4.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41449, 176, 36) /* APPRAISAL_ITEM_SKILL_INT */
+     , (41449, 115, 75) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (41449, 19, 0) /* VALUE_INT */
+     , (41449, 5, 50) /* ENCUMB_VAL_INT */
+     , (41449, 280, 7) /* SHARED_COOLDOWN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41449, 167, 30) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41449, 63, 1) /* UNLIMITED_USE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41449, 5129) /* AnswerOfLoyaltyStam2_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

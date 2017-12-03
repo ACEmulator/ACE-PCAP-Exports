@@ -35,3 +35,17 @@ VALUES (53337, 13, True) /* ETHEREAL_BOOL */
      , (53337, 19, True) /* ATTACKABLE_BOOL */
      , (53337, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53337, 16, 'Inscribed spell: Horizon''s Blades II
+Shoots eight blades outward from the caster. Each blade does 49-98 points of slashing damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (53337, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53337, 19, 200) /* VALUE_INT */
+     , (53337, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (53337, 6190) /* HorizonsBladesII_SpellID */;
+

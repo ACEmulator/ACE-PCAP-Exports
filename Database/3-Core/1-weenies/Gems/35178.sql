@@ -48,6 +48,21 @@ VALUES (35178, 0, 83889680, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35178, 0, 16784015);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35178, 16, 'A stone shard empowered with Asheron''s essence, taken from the Falatacot Ritual Site on Bur.') /* LONG_DESC_STRING */
+     , (35178, 14, 'Give this to the Collector Golem in Kor-Gursha to be rewarded for aiding in the defense of Asheron.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35178, 33, 1) /* BONDED_INT */
+     , (35178, 114, 1) /* ATTUNED_INT */
+     , (35178, 19, 0) /* VALUE_INT */
+     , (35178, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35178, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

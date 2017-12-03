@@ -33,3 +33,12 @@ VALUES (46922, 13, True) /* ETHEREAL_BOOL */
      , (46922, 19, True) /* ATTACKABLE_BOOL */
      , (46922, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46922, 38, 'Prismatic Guardian Lair') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46922, 86, 150) /* MIN_LEVEL_INT */
+     , (46922, 111, 49) /* PORTAL_BITMASK_INT */;
+

@@ -84,6 +84,29 @@ VALUES (42804, 10, 16777301)
      , (42804, 4, 16781838)
      , (42804, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42804, 5, 'Barkeeper') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (42804, 16, 67110062) /* EYES_PALETTE_DID */
+     , (42804, 9, 83890475) /* EYES_TEXTURE_DID */
+     , (42804, 17, 67109557) /* SKIN_PALETTE_DID */
+     , (42804, 10, 83890539) /* NOSE_TEXTURE_DID */
+     , (42804, 11, 83890610) /* MOUTH_TEXTURE_DID */
+     , (42804, 15, 67117018) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42804, 113, 1) /* GENDER_INT */
+     , (42804, 2, 31) /* CREATURE_TYPE_INT */
+     , (42804, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (42804, 25, 5) /* LEVEL_INT */
+     , (42804, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (42804, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

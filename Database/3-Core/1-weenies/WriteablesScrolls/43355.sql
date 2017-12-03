@@ -35,3 +35,17 @@ VALUES (43355, 13, True) /* ETHEREAL_BOOL */
      , (43355, 19, True) /* ATTACKABLE_BOOL */
      , (43355, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43355, 16, 'Inscribed spell: Void Magic Ineptitude Other I
+Decreases the target''s Void Magic skill by 10 points.') /* LONG_DESC_STRING */
+     , (43355, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43355, 19, 1) /* VALUE_INT */
+     , (43355, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43355, 5419) /* VoidMagicIneptitudeOther1_SpellID */;
+

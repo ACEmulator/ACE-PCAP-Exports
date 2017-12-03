@@ -48,3 +48,26 @@ VALUES (297, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (297, 0, 16778344);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (297, 16, 'Ring of Coordination') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (297, 19, 4402) /* VALUE_INT */
+     , (297, 131, 64) /* MATERIAL_TYPE_INT */
+     , (297, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (297, 5, 15) /* ENCUMB_VAL_INT */
+     , (297, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (297, 106, 243) /* ITEM_SPELLCRAFT_INT */
+     , (297, 108, 1961) /* ITEM_MAX_MANA_INT */
+     , (297, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (297, 109, 243) /* ITEM_DIFFICULTY_INT */
+     , (297, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (297, 5, -0.05555556) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (297, 1378) /* CoordinationSelf6_SpellID */;
+

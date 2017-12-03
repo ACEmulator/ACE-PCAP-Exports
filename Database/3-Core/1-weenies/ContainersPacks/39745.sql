@@ -51,3 +51,20 @@ VALUES (39745, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39745, 0, 16778611);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39745, 16, 'An excellent backpack with extra storage for long hauls.') /* LONG_DESC_STRING */
+     , (39745, 14, 'Use this item to close it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39745, 33, 1) /* BONDED_INT */
+     , (39745, 114, 1) /* ATTUNED_INT */
+     , (39745, 19, 0) /* VALUE_INT */
+     , (39745, 5, 13975) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39745, 2, 1) /* OPEN_BOOL */
+     , (39745, 99, 0) /* IVORYABLE_BOOL */
+     , (39745, 69, 0) /* IS_SELLABLE_BOOL */;
+

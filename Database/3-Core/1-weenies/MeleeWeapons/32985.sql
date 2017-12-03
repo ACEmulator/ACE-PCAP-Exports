@@ -40,3 +40,45 @@ VALUES (32985, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32985, 67116426, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32985, 16, 'A poniard crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (32985, 55, 2074) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32985, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (32985, 353, 6) /* WEAPON_TYPE_INT */
+     , (32985, 19, 10000) /* VALUE_INT */
+     , (32985, 5, 250) /* ENCUMB_VAL_INT */
+     , (32985, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (32985, 108, 5000) /* ITEM_MAX_MANA_INT */
+     , (32985, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (32985, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (32985, 47, 320) /* ATTACK_TYPE_INT */
+     , (32985, 159, 1) /* WIELD_SKILLTYPE_INT */
+     , (32985, 45, 3) /* DAMAGE_TYPE_INT */
+     , (32985, 49, 30) /* WEAPON_TIME_INT */
+     , (32985, 48, 44) /* WEAPON_SKILL_INT */
+     , (32985, 44, 29) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32985, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (32985, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (32985, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (32985, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (32985, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (32985, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (32985, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (32985, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (32985, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (32985, 2074) /* ImperilOther7_SpellID */
+     , (32985, 2116) /* Swiftkiller7_SpellID */
+     , (32985, 2096) /* BloodDrinker7_SpellID */
+     , (32985, 2101) /* Defender7_SpellID */
+     , (32985, 2106) /* Heartseeker7_SpellID */;
+

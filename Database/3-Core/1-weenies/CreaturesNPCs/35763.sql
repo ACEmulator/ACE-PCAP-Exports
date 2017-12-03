@@ -38,3 +38,34 @@ VALUES (35763, 13, True) /* ETHEREAL_BOOL */
      , (35763, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (35763, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35763, 16, 'Quests originated from this bell are intended for characters of level 150 and above.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35763, 384, 0) /*  */
+     , (35763, 370, 0) /* GEAR_DAMAGE_INT */
+     , (35763, 386, 0) /*  */
+     , (35763, 307, 0) /* DAMAGE_RATING_INT */
+     , (35763, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (35763, 387, 0) /*  */
+     , (35763, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (35763, 372, 0) /* GEAR_CRIT_INT */
+     , (35763, 388, 0) /*  */
+     , (35763, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (35763, 389, 0) /*  */
+     , (35763, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (35763, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (35763, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (35763, 313, 0) /* CRIT_RATING_INT */
+     , (35763, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (35763, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (35763, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (35763, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (35763, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (35763, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (35763, 381, 0) /*  */
+     , (35763, 382, 0) /*  */
+     , (35763, 383, 0) /*  */;
+

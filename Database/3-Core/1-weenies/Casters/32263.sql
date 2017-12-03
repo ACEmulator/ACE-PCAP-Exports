@@ -47,3 +47,24 @@ VALUES (32263, 0, 83897375, 83897375);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32263, 0, 16792817);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32263, 16, 'A casting device fancifully crafted in the shape of a Mukkir''s head.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32263, 19, 3000) /* VALUE_INT */
+     , (32263, 5, 100) /* ENCUMB_VAL_INT */
+     , (32263, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (32263, 108, 1800) /* ITEM_MAX_MANA_INT */
+     , (32263, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32263, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (32263, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (32263, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (32263, 3861) /* CantripTasteForBlood_SpellID */
+     , (32263, 2195) /* ArcaneEnlightenmentSelf7_SpellID */;
+

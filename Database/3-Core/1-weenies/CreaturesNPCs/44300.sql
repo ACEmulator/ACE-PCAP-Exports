@@ -98,3 +98,36 @@ VALUES (44300, 12, 16777304)
      , (44300, 13, 16783871)
      , (44300, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44300, 5, 'Arcanum Cook') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (44300, 16, 67109567) /* EYES_PALETTE_DID */
+     , (44300, 9, 83890514) /* EYES_TEXTURE_DID */
+     , (44300, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (44300, 10, 83890562) /* NOSE_TEXTURE_DID */
+     , (44300, 11, 83890575) /* MOUTH_TEXTURE_DID */
+     , (44300, 15, 67116992) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44300, 113, 1) /* GENDER_INT */
+     , (44300, 2, 31) /* CREATURE_TYPE_INT */
+     , (44300, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (44300, 25, 200) /* LEVEL_INT */
+     , (44300, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (44300, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (44300, 2, 290) /* ENDURANCE_ATTRIBUTE */
+     , (44300, 4, 260) /* COORDINATION_ATTRIBUTE */
+     , (44300, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (44300, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (44300, 32, 290) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44300, 64, 341) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (44300, 128, 486) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (44300, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
+

@@ -31,6 +31,22 @@ VALUES (41528, 13, True) /* ETHEREAL_BOOL */
      , (41528, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41528, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41528, 16, 'An Aetherium Power Core,  dropped by the Gear Knights in the Gear Knight invasion area in the northern Direlands.') /* LONG_DESC_STRING */
+     , (41528, 14, 'Bring 10 of these to T''ing Douzen for a reward.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41528, 33, 1) /* BONDED_INT */
+     , (41528, 114, 1) /* ATTUNED_INT */
+     , (41528, 19, 0) /* VALUE_INT */
+     , (41528, 5, 700) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41528, 99, 0) /* IVORYABLE_BOOL */
+     , (41528, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -42,6 +42,23 @@ VALUES (35917, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35917, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35917, 15, 'A red ball. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35917, 33, 1) /* BONDED_INT */
+     , (35917, 98, 1483945697) /* CREATION_TIMESTAMP_INT */
+     , (35917, 114, 1) /* ATTUNED_INT */
+     , (35917, 19, 0) /* VALUE_INT */
+     , (35917, 5, 10) /* ENCUMB_VAL_INT */
+     , (35917, 267, 3600) /* LIFESPAN_INT */
+     , (35917, 268, 3600) /* REMAINING_LIFESPAN_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35917, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

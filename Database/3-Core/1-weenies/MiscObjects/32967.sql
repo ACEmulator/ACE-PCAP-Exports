@@ -50,3 +50,14 @@ VALUES (32967, 0, 16784246)
      , (32967, 1, 16784196)
      , (32967, 2, 16784180);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32967, 16, 'A small reflective shard dropped by the Reflection of the Harbinger.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32967, 33, 1) /* BONDED_INT */
+     , (32967, 114, 1) /* ATTUNED_INT */
+     , (32967, 19, 0) /* VALUE_INT */
+     , (32967, 5, 80) /* ENCUMB_VAL_INT */;
+

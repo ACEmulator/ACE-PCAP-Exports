@@ -47,3 +47,45 @@ VALUES (43832, 0, 83889344, 83898401)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43832, 0, 16778416);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43832, 16, 'Sedgemail Leather Shoes') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43832, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (43832, 177, 2) /* GEM_COUNT_INT */
+     , (43832, 178, 21) /* GEM_TYPE_INT */
+     , (43832, 19, 45443) /* VALUE_INT */
+     , (43832, 131, 54) /* MATERIAL_TYPE_INT */
+     , (43832, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (43832, 5, 333) /* ENCUMB_VAL_INT */
+     , (43832, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (43832, 106, 318) /* ITEM_SPELLCRAFT_INT */
+     , (43832, 28, 300) /* ARMOR_LEVEL_INT */
+     , (43832, 108, 996) /* ITEM_MAX_MANA_INT */
+     , (43832, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (43832, 109, 340) /* ITEM_DIFFICULTY_INT */
+     , (43832, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (43832, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (43832, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43832, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (43832, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (43832, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (43832, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (43832, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (43832, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (43832, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (43832, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (43832, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43832, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43832, 5893) /* CantripDirtyFightingProwess3_SpellID */
+     , (43832, 2102) /* FlameBane7_SpellID */
+     , (43832, 2108) /* Impenetrability7_SpellID */;
+

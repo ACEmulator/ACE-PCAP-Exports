@@ -44,3 +44,26 @@ VALUES (3708, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3708, 0, 16777993);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3708, 16, 'A dagger made from the tooth of an Ash Gromnie. Lightning flickers from the blade.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3708, 353, 6) /* WEAPON_TYPE_INT */
+     , (3708, 19, 400) /* VALUE_INT */
+     , (3708, 5, 105) /* ENCUMB_VAL_INT */
+     , (3708, 47, 6) /* ATTACK_TYPE_INT */
+     , (3708, 45, 64) /* DAMAGE_TYPE_INT */
+     , (3708, 49, 10) /* WEAPON_TIME_INT */
+     , (3708, 48, 45) /* WEAPON_SKILL_INT */
+     , (3708, 44, 12) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3708, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (3708, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (3708, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3708, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3708, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3708, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */;
+

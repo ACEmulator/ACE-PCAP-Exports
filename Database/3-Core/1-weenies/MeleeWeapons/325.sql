@@ -47,3 +47,29 @@ VALUES (325, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (325, 0, 16777987);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (325, 16, 'Kasrullah') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (325, 353, 4) /* WEAPON_TYPE_INT */
+     , (325, 19, 255) /* VALUE_INT */
+     , (325, 131, 76) /* MATERIAL_TYPE_INT */
+     , (325, 5, 251) /* ENCUMB_VAL_INT */
+     , (325, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (325, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (325, 47, 4) /* ATTACK_TYPE_INT */
+     , (325, 45, 4) /* DAMAGE_TYPE_INT */
+     , (325, 49, 33) /* WEAPON_TIME_INT */
+     , (325, 48, 45) /* WEAPON_SKILL_INT */
+     , (325, 44, 11) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (325, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (325, 22, 0.28) /* DAMAGE_VARIANCE_FLOAT */
+     , (325, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (325, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (325, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (325, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

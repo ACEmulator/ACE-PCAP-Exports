@@ -33,6 +33,17 @@ VALUES (32302, 13, True) /* ETHEREAL_BOOL */
      , (32302, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32302, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32302, 16, 'The Nexus Commander''s orders.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32302, 19, 0) /* VALUE_INT */
+     , (32302, 5, 25) /* ENCUMB_VAL_INT */
+     , (32302, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (32302, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

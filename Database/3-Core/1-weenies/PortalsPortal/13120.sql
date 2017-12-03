@@ -33,3 +33,11 @@ VALUES (13120, 13, True) /* ETHEREAL_BOOL */
      , (13120, 19, True) /* ATTACKABLE_BOOL */
      , (13120, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (13120, 38, 'Qalaba''r Seaside Villas Portal (67.6S, 14.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13120, 111, 1) /* PORTAL_BITMASK_INT */;
+

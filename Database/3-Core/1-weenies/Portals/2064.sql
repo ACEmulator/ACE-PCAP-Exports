@@ -33,3 +33,12 @@ VALUES (2064, 13, True) /* ETHEREAL_BOOL */
      , (2064, 19, True) /* ATTACKABLE_BOOL */
      , (2064, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2064, 38, 'East Direlands Swamp (39.7S, 54.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2064, 86, 12) /* MIN_LEVEL_INT */
+     , (2064, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -35,3 +35,12 @@ VALUES (39030, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39030, 0, 16794204);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39030, 16, 'The severed head of a Sclavus, with the Sclavus''es helm still attached.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39030, 19, 0) /* VALUE_INT */
+     , (39030, 5, 400) /* ENCUMB_VAL_INT */;
+

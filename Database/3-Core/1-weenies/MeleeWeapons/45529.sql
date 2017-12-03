@@ -48,3 +48,50 @@ VALUES (45529, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45529, 0, 16783995);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45529, 16, 'A ghostly blue sword, bound to your soul.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45529, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (45529, 353, 2) /* WEAPON_TYPE_INT */
+     , (45529, 33, 1) /* BONDED_INT */
+     , (45529, 114, 1) /* ATTUNED_INT */
+     , (45529, 19, 0) /* VALUE_INT */
+     , (45529, 5, 220) /* ENCUMB_VAL_INT */
+     , (45529, 166, 77) /* SLAYER_CREATURE_TYPE_INT */
+     , (45529, 106, 475) /* ITEM_SPELLCRAFT_INT */
+     , (45529, 108, 2700) /* ITEM_MAX_MANA_INT */
+     , (45529, 158, 1) /* WIELD_REQUIREMENTS_INT */
+     , (45529, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (45529, 47, 6) /* ATTACK_TYPE_INT */
+     , (45529, 45, 3) /* DAMAGE_TYPE_INT */
+     , (45529, 49, 0) /* WEAPON_TIME_INT */
+     , (45529, 48, 44) /* WEAPON_SKILL_INT */
+     , (45529, 44, 85) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45529, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (45529, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (45529, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (45529, 29, 1.32) /* WEAPON_DEFENSE_FLOAT */
+     , (45529, 22, 0.2) /* DAMAGE_VARIANCE_FLOAT */
+     , (45529, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (45529, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (45529, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (45529, 62, 1.4) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45529, 99, 1) /* IVORYABLE_BOOL */
+     , (45529, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (45529, 2116) /* Swiftkiller7_SpellID */
+     , (45529, 2579) /* CANTRIPCOORDINATION1_SpellID */
+     , (45529, 2583) /* CANTRIPSTRENGTH1_SpellID */
+     , (45529, 2531) /* CANTRIPSWORDAPTITUDE2_SpellID */
+     , (45529, 2096) /* BloodDrinker7_SpellID */
+     , (45529, 2101) /* Defender7_SpellID */
+     , (45529, 2106) /* Heartseeker7_SpellID */;
+

@@ -33,3 +33,14 @@ VALUES (29205, 13, True) /* ETHEREAL_BOOL */
      , (29205, 19, True) /* ATTACKABLE_BOOL */
      , (29205, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29205, 16, 'One-fourth of Rand''s Brewmaster''s Bible. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29205, 33, 1) /* BONDED_INT */
+     , (29205, 114, 1) /* ATTUNED_INT */
+     , (29205, 19, 0) /* VALUE_INT */
+     , (29205, 5, 25) /* ENCUMB_VAL_INT */;
+

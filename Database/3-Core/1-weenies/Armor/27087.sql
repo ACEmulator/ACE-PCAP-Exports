@@ -58,3 +58,36 @@ VALUES (27087, 0, 83887061, 83893262)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27087, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27087, 16, 'A chestplate with the seal of Linvak Tukal on the chest.  The armor is elegant yet simple, and sturdily crafted.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27087, 160, 40) /* WIELD_DIFFICULTY_INT */
+     , (27087, 19, 2500) /* VALUE_INT */
+     , (27087, 5, 2000) /* ENCUMB_VAL_INT */
+     , (27087, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (27087, 108, 200) /* ITEM_MAX_MANA_INT */
+     , (27087, 28, 210) /* ARMOR_LEVEL_INT */
+     , (27087, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (27087, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27087, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (27087, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (27087, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (27087, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (27087, 16, 0.9) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (27087, 17, 0.9) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (27087, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (27087, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (27087, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27087, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27087, 1484) /* Impenetrability4_SpellID */
+     , (27087, 1039) /* ColdProtectionOther4_SpellID */;
+

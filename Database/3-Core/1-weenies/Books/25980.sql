@@ -34,6 +34,17 @@ VALUES (25980, 13, True) /* ETHEREAL_BOOL */
      , (25980, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25980, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25980, 15, 'A journal written by Zharalim Master Yaral. Several pages have been damaged, but the bulk of the book appears intact.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25980, 19, 5) /* VALUE_INT */
+     , (25980, 5, 25) /* ENCUMB_VAL_INT */
+     , (25980, 174, 8) /* APPRAISAL_PAGES_INT */
+     , (25980, 175, 8) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

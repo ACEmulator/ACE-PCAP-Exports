@@ -48,3 +48,38 @@ VALUES (12158, 0, 83889688, 83889688);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12158, 0, 16787360);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12158, 16, 'An orb enchanted with powerful magic, taken from the Asteliary dungeon and imbued with the power of the Asteliary gem.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12158, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
+     , (12158, 33, 1) /* BONDED_INT */
+     , (12158, 114, 1) /* ATTUNED_INT */
+     , (12158, 115, 220) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (12158, 19, 3000) /* VALUE_INT */
+     , (12158, 5, 100) /* ENCUMB_VAL_INT */
+     , (12158, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (12158, 108, 750) /* ITEM_MAX_MANA_INT */
+     , (12158, 109, 225) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12158, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
+     , (12158, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (12158, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12158, 99, 1) /* IVORYABLE_BOOL */
+     , (12158, 69, 0) /* IS_SELLABLE_BOOL */
+     , (12158, 94, 1) /* APPRAISAL_HAS_ALLOWED_ACTIVATOR_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12158, 2507) /* CANTRIPCREATUREENCHANTMENTAPTITUDE2_SpellID */
+     , (12158, 2067) /* FocusSelf7_SpellID */
+     , (12158, 2520) /* CANTRIPLIFEMAGICAPTITUDE2_SpellID */
+     , (12158, 2266) /* LifeMagicMasteryOther7_SpellID */
+     , (12158, 2214) /* CreatureEnchantmentMasteryOther7_SpellID */
+     , (12158, 2091) /* WillpowerSelf7_SpellID */
+     , (12158, 2287) /* ManaMasterySelf7_SpellID */;
+

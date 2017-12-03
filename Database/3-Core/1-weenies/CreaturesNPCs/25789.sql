@@ -37,3 +37,26 @@ VALUES (25789, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25789, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (25789, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25789, 5, 'Gardener') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25789, 2, 39) /* CREATURE_TYPE_INT */
+     , (25789, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (25789, 25, 38) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (25789, 1, 25) /* STRENGTH_ATTRIBUTE */
+     , (25789, 2, 1) /* ENDURANCE_ATTRIBUTE */
+     , (25789, 4, 1) /* COORDINATION_ATTRIBUTE */
+     , (25789, 8, 5) /* QUICKNESS_ATTRIBUTE */
+     , (25789, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (25789, 32, 50) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (25789, 64, 10) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25789, 128, 71) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25789, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
+

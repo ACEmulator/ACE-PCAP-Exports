@@ -50,3 +50,17 @@ VALUES (40487, 0, 16784246)
      , (40487, 1, 16784196)
      , (40487, 2, 16784180);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40487, 16, 'A crystalline shard condensed from the remains of an aggregate crystalline wisp.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40487, 33, 1) /* BONDED_INT */
+     , (40487, 114, 1) /* ATTUNED_INT */
+     , (40487, 19, 0) /* VALUE_INT */
+     , (40487, 5, 120) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40487, 69, 0) /* IS_SELLABLE_BOOL */;
+

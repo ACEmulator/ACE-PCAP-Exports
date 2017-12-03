@@ -29,3 +29,12 @@ VALUES (12660, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12660, 19, True) /* ATTACKABLE_BOOL */
      , (12660, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12660, 16, 'Welcome to Southwest Hebian-To Settlement') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12660, 19, 125) /* VALUE_INT */
+     , (12660, 5, 9000) /* ENCUMB_VAL_INT */;
+

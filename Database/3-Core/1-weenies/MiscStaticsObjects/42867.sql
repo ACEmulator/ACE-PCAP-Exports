@@ -29,3 +29,12 @@ VALUES (42867, 13, True) /* ETHEREAL_BOOL */
      , (42867, 19, True) /* ATTACKABLE_BOOL */
      , (42867, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42867, 16, 'Sleech have come to Dereth from the same world as their relatives the Niffis. Scholars believe Sleech to be a different form of Niffis and has classified the creatures in the same family. Adventurers on the other hand have noticed significant differences between the two creatures, leading to the common belief that the two species are cousins at best.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42867, 19, 125) /* VALUE_INT */
+     , (42867, 5, 9000) /* ENCUMB_VAL_INT */;
+

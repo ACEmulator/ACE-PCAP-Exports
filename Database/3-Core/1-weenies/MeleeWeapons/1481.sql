@@ -38,3 +38,38 @@ VALUES (1481, 13, True) /* ETHEREAL_BOOL */
      , (1481, 19, True) /* ATTACKABLE_BOOL */
      , (1481, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1481, 16, 'A flaming staff wrestled from the grasp of a treacherous banderling bandit.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1481, 353, 7) /* WEAPON_TYPE_INT */
+     , (1481, 19, 3000) /* VALUE_INT */
+     , (1481, 5, 200) /* ENCUMB_VAL_INT */
+     , (1481, 106, 65) /* ITEM_SPELLCRAFT_INT */
+     , (1481, 108, 300) /* ITEM_MAX_MANA_INT */
+     , (1481, 109, 23) /* ITEM_DIFFICULTY_INT */
+     , (1481, 47, 6) /* ATTACK_TYPE_INT */
+     , (1481, 45, 16) /* DAMAGE_TYPE_INT */
+     , (1481, 49, 30) /* WEAPON_TIME_INT */
+     , (1481, 48, 46) /* WEAPON_SKILL_INT */
+     , (1481, 44, 14) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (1481, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (1481, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (1481, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (1481, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
+     , (1481, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (1481, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (1481, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (1481, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1481, 1602) /* Defender3_SpellID */
+     , (1481, 836) /* FireProtectionOther3_SpellID */
+     , (1481, 1613) /* BloodDrinker3_SpellID */
+     , (1481, 1624) /* SwiftKiller3_SpellID */
+     , (1481, 1589) /* HeartSeeker3_SpellID */;
+

@@ -53,3 +53,29 @@ VALUES (49232, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49232, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49232, 14, 'Use this essence to summon or dismiss your Frost Skeleton Bushi.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49232, 369, 170) /* USE_REQUIRES_LEVEL_INT */
+     , (49232, 33, 0) /* BONDED_INT */
+     , (49232, 114, 0) /* ATTUNED_INT */
+     , (49232, 19, 9000) /* VALUE_INT */
+     , (49232, 372, 13) /* GEAR_CRIT_INT */
+     , (49232, 5, 50) /* ENCUMB_VAL_INT */
+     , (49232, 374, 16) /* GEAR_CRIT_DAMAGE_INT */
+     , (49232, 375, 10) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (49232, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (49232, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (49232, 91, 50) /* MAX_STRUCTURE_INT */
+     , (49232, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (49232, 367, 530) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49232, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49232, 69, 1) /* IS_SELLABLE_BOOL */;
+

@@ -33,3 +33,11 @@ VALUES (12518, 13, True) /* ETHEREAL_BOOL */
      , (12518, 19, True) /* ATTACKABLE_BOOL */
      , (12518, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12518, 38, 'Majestic Hill Cottages Portal (30.9N, 9.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12518, 111, 1) /* PORTAL_BITMASK_INT */;
+

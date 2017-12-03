@@ -35,3 +35,17 @@ VALUES (3384, 13, True) /* ETHEREAL_BOOL */
      , (3384, 19, True) /* ATTACKABLE_BOOL */
      , (3384, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3384, 16, 'Inscribed spell: Lockpick Mastery Other III
+Increases the target''s Lockpick skill by 20 points.') /* LONG_DESC_STRING */
+     , (3384, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3384, 19, 20) /* VALUE_INT */
+     , (3384, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3384, 930) /* LockpickMasteryOther3_SpellID */;
+

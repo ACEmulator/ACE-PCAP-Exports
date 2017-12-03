@@ -89,6 +89,39 @@ VALUES (667, 11, 16777302)
      , (667, 8, 16777298)
      , (667, 16, 16779635);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (667, 5, 'Tailor') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (667, 16, 67110063) /* EYES_PALETTE_DID */
+     , (667, 9, 83890485) /* EYES_TEXTURE_DID */
+     , (667, 17, 67109558) /* SKIN_PALETTE_DID */
+     , (667, 10, 83890548) /* NOSE_TEXTURE_DID */
+     , (667, 11, 83890639) /* MOUTH_TEXTURE_DID */
+     , (667, 15, 67117080) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (667, 113, 1) /* GENDER_INT */
+     , (667, 2, 31) /* CREATURE_TYPE_INT */
+     , (667, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (667, 25, 4) /* LEVEL_INT */
+     , (667, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (667, 1, 30) /* STRENGTH_ATTRIBUTE */
+     , (667, 2, 30) /* ENDURANCE_ATTRIBUTE */
+     , (667, 4, 40) /* COORDINATION_ATTRIBUTE */
+     , (667, 8, 45) /* QUICKNESS_ATTRIBUTE */
+     , (667, 16, 40) /* FOCUS_ATTRIBUTE */
+     , (667, 32, 30) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (667, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (667, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (667, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

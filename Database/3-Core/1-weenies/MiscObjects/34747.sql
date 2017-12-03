@@ -31,3 +31,18 @@ VALUES (34747, 13, True) /* ETHEREAL_BOOL */
      , (34747, 19, True) /* ATTACKABLE_BOOL */
      , (34747, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34747, 16, 'A Falatacot Medallion, taken from the corpse of the Falatacot Matriarch, Mirta''kir') /* LONG_DESC_STRING */
+     , (34747, 14, 'Gruuk''lar, the Ruuk Village Guardian, may be interested in this.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34747, 33, 1) /* BONDED_INT */
+     , (34747, 114, 1) /* ATTUNED_INT */
+     , (34747, 19, 0) /* VALUE_INT */
+     , (34747, 5, 25) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34747, 69, 0) /* IS_SELLABLE_BOOL */;
+

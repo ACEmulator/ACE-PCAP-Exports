@@ -34,3 +34,12 @@ VALUES (4670, 0, 83892071, 83892183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4670, 0, 16783205);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4670, 16, 'The Skeleton''s Mug') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4670, 19, 125) /* VALUE_INT */
+     , (4670, 5, 9000) /* ENCUMB_VAL_INT */;
+

@@ -48,3 +48,22 @@ VALUES (36949, 0, 83897733, 83897733);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36949, 0, 16793817);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36949, 15, 'An orb crafted from a shard of Aerbax''s mask.  A palpable flux of conflicting energies swirls about the orb.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36949, 33, 1) /* BONDED_INT */
+     , (36949, 114, 1) /* ATTUNED_INT */
+     , (36949, 19, 100000) /* VALUE_INT */
+     , (36949, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (36949, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (36949, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36949, 99, 1) /* IVORYABLE_BOOL */
+     , (36949, 69, 0) /* IS_SELLABLE_BOOL */;
+

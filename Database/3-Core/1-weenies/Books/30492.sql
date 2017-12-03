@@ -33,6 +33,19 @@ VALUES (30492, 13, True) /* ETHEREAL_BOOL */
      , (30492, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30492, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30492, 16, 'A very old, torn and stained letter, penned in a hasty hand.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30492, 33, 1) /* BONDED_INT */
+     , (30492, 114, 1) /* ATTUNED_INT */
+     , (30492, 19, 0) /* VALUE_INT */
+     , (30492, 5, 10) /* ENCUMB_VAL_INT */
+     , (30492, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (30492, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

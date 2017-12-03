@@ -40,3 +40,42 @@ VALUES (3886, 13, True) /* ETHEREAL_BOOL */
      , (3886, 19, True) /* ATTACKABLE_BOOL */
      , (3886, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3886, 16, 'Lightning Short Sword') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3886, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3886, 177, 4) /* GEM_COUNT_INT */
+     , (3886, 353, 2) /* WEAPON_TYPE_INT */
+     , (3886, 178, 38) /* GEM_TYPE_INT */
+     , (3886, 115, 204) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3886, 131, 64) /* MATERIAL_TYPE_INT */
+     , (3886, 19, 18723) /* VALUE_INT */
+     , (3886, 5, 239) /* ENCUMB_VAL_INT */
+     , (3886, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (3886, 106, 184) /* ITEM_SPELLCRAFT_INT */
+     , (3886, 172, 7) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3886, 108, 1156) /* ITEM_MAX_MANA_INT */
+     , (3886, 109, 82) /* ITEM_DIFFICULTY_INT */
+     , (3886, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3886, 47, 6) /* ATTACK_TYPE_INT */
+     , (3886, 45, 64) /* DAMAGE_TYPE_INT */
+     , (3886, 49, 24) /* WEAPON_TIME_INT */
+     , (3886, 48, 44) /* WEAPON_SKILL_INT */
+     , (3886, 44, 13) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3886, 29, 1.096336) /* WEAPON_DEFENSE_FLOAT */
+     , (3886, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (3886, 22, 0.5874971) /* DAMAGE_VARIANCE_FLOAT */
+     , (3886, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3886, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3886, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3886, 62, 1.071824) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3886, 1615) /* BloodDrinker5_SpellID */
+     , (3886, 1591) /* HeartSeeker5_SpellID */;
+

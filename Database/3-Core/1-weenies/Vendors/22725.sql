@@ -72,6 +72,29 @@ VALUES (22725, 2, 16777293)
      , (22725, 1, 16783912)
      , (22725, 5, 16783916);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22725, 5, 'Healer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (22725, 16, 67110062) /* EYES_PALETTE_DID */
+     , (22725, 9, 83890502) /* EYES_TEXTURE_DID */
+     , (22725, 17, 67109551) /* SKIN_PALETTE_DID */
+     , (22725, 10, 83890544) /* NOSE_TEXTURE_DID */
+     , (22725, 11, 83890645) /* MOUTH_TEXTURE_DID */
+     , (22725, 15, 67117027) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22725, 113, 1) /* GENDER_INT */
+     , (22725, 2, 31) /* CREATURE_TYPE_INT */
+     , (22725, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (22725, 25, 8) /* LEVEL_INT */
+     , (22725, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (22725, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

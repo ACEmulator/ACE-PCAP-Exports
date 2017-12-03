@@ -33,3 +33,11 @@ VALUES (7250, 13, True) /* ETHEREAL_BOOL */
      , (7250, 19, True) /* ATTACKABLE_BOOL */
      , (7250, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7250, 38, 'Murk Warrens') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7250, 111, 1) /* PORTAL_BITMASK_INT */;
+

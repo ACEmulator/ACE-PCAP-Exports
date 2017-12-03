@@ -46,6 +46,17 @@ VALUES (10760, 0, 83889342, 83893326)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10760, 0, 16778376);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10760, 16, 'An old and well-used towel, water-logged and stained with travel adventures.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10760, 19, 10) /* VALUE_INT */
+     , (10760, 5, 50) /* ENCUMB_VAL_INT */
+     , (10760, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (10760, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

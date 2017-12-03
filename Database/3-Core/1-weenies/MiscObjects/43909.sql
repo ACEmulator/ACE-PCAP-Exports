@@ -37,6 +37,21 @@ VALUES (43909, 13, True) /* ETHEREAL_BOOL */
      , (43909, 14, True) /* GRAVITY_STATUS_BOOL */
      , (43909, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43909, 16, 'A box containing 10 Colosseum Coins') /* LONG_DESC_STRING */
+     , (43909, 14, 'Use this crate to retrieve its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43909, 33, 1) /* BONDED_INT */
+     , (43909, 114, 1) /* ATTUNED_INT */
+     , (43909, 19, 100) /* VALUE_INT */
+     , (43909, 5, 150) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43909, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

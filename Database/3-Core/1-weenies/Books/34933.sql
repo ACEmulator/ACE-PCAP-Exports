@@ -34,3 +34,14 @@ VALUES (34933, 13, True) /* ETHEREAL_BOOL */
      , (34933, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34933, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34933, 16, 'A list of locations where Imprinting Motes may be found.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34933, 19, 10) /* VALUE_INT */
+     , (34933, 5, 5) /* ENCUMB_VAL_INT */
+     , (34933, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (34933, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+

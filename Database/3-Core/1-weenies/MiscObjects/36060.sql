@@ -32,3 +32,20 @@ VALUES (36060, 13, True) /* ETHEREAL_BOOL */
      , (36060, 19, True) /* ATTACKABLE_BOOL */
      , (36060, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36060, 16, 'In the heart of this gem, you perceive the image of Leopold. As you watch the image, it seems to fluctuate in color.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36060, 33, 1) /* BONDED_INT */
+     , (36060, 114, 1) /* ATTUNED_INT */
+     , (36060, 98, 1484879508) /* CREATION_TIMESTAMP_INT */
+     , (36060, 19, 0) /* VALUE_INT */
+     , (36060, 5, 1) /* ENCUMB_VAL_INT */
+     , (36060, 267, 600) /* LIFESPAN_INT */
+     , (36060, 268, 445) /* REMAINING_LIFESPAN_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36060, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -33,3 +33,11 @@ VALUES (12476, 13, True) /* ETHEREAL_BOOL */
      , (12476, 19, True) /* ATTACKABLE_BOOL */
      , (12476, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12476, 38, 'Bay of Sands Portal (1.7N, 5.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12476, 111, 1) /* PORTAL_BITMASK_INT */;
+

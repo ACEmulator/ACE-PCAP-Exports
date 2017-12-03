@@ -41,3 +41,22 @@ VALUES (35988, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35988, 67112860, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35988, 16, 67110063) /* EYES_PALETTE_DID */
+     , (35988, 9, 83890457) /* EYES_TEXTURE_DID */
+     , (35988, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (35988, 10, 83890558) /* NOSE_TEXTURE_DID */
+     , (35988, 11, 83890657) /* MOUTH_TEXTURE_DID */
+     , (35988, 15, 67116984) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35988, 113, 1) /* GENDER_INT */
+     , (35988, 2, 22) /* CREATURE_TYPE_INT */
+     , (35988, 25, 200) /* LEVEL_INT */
+     , (35988, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (35988, 64, 2000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

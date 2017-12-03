@@ -47,3 +47,28 @@ VALUES (84, 0, 83887064, 83886820)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (84, 0, 16778829);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (84, 16, 'Studded Leather Leggings ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (84, 131, 52) /* MATERIAL_TYPE_INT */
+     , (84, 19, 391) /* VALUE_INT */
+     , (84, 5, 900) /* ENCUMB_VAL_INT */
+     , (84, 105, 1) /* ITEM_WORKMANSHIP_INT */
+     , (84, 28, 64) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (84, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (84, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (84, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (84, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (84, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (84, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (84, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (84, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (84, 100, 1) /* DYABLE_BOOL */;
+

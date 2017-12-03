@@ -34,3 +34,14 @@ VALUES (41192, 13, True) /* ETHEREAL_BOOL */
      , (41192, 19, True) /* ATTACKABLE_BOOL */
      , (41192, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41192, 16, 'A key taken from the Foreman of the Apostate Excavation.') /* LONG_DESC_STRING */
+     , (41192, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41192, 19, 0) /* VALUE_INT */
+     , (41192, 5, 20) /* ENCUMB_VAL_INT */
+     , (41192, 91, 1) /* MAX_STRUCTURE_INT */;
+

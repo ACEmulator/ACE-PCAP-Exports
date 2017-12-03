@@ -42,6 +42,27 @@ VALUES (37261, 13, True) /* ETHEREAL_BOOL */
      , (37261, 19, True) /* ATTACKABLE_BOOL */
      , (37261, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37261, 16, 'A deck of cards, glowing with inner power.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37261, 33, 1) /* BONDED_INT */
+     , (37261, 114, 1) /* ATTUNED_INT */
+     , (37261, 19, 130) /* VALUE_INT */
+     , (37261, 5, 50) /* ENCUMB_VAL_INT */
+     , (37261, 280, 1) /* SHARED_COOLDOWN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (37261, 167, 3600) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37261, 63, 1) /* UNLIMITED_USE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (37261, 4280) /* CoordinationJesterDeck_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

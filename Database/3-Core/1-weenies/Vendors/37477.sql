@@ -91,6 +91,30 @@ VALUES (37477, 0, 16781835)
      , (37477, 15, 16777335)
      , (37477, 16, 16791893);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37477, 5, 'Ghostly Blacksmith') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37477, 2, 77) /* CREATURE_TYPE_INT */
+     , (37477, 307, 5) /* DAMAGE_RATING_INT */
+     , (37477, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (37477, 25, 87) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (37477, 1, 75) /* STRENGTH_ATTRIBUTE */
+     , (37477, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (37477, 4, 70) /* COORDINATION_ATTRIBUTE */
+     , (37477, 8, 50) /* QUICKNESS_ATTRIBUTE */
+     , (37477, 16, 30) /* FOCUS_ATTRIBUTE */
+     , (37477, 32, 30) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (37477, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (37477, 128, 165) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (37477, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)

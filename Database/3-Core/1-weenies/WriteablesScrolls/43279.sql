@@ -35,3 +35,17 @@ VALUES (43279, 13, True) /* ETHEREAL_BOOL */
      , (43279, 19, True) /* ATTACKABLE_BOOL */
      , (43279, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43279, 16, 'Inscribed spell: Corrosion II
+Sends a bolt of corrosion towards the target. The bolt does 116 points of damage over 15 seconds.') /* LONG_DESC_STRING */
+     , (43279, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43279, 19, 5) /* VALUE_INT */
+     , (43279, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43279, 5388) /* Corrosion2_SpellID */;
+

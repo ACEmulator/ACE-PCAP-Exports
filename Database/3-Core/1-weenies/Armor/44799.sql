@@ -51,3 +51,41 @@ VALUES (44799, 0, 83887061, 83898632)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44799, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44799, 16, 'Faran Over-robe') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44799, 177, 4) /* GEM_COUNT_INT */
+     , (44799, 178, 18) /* GEM_TYPE_INT */
+     , (44799, 19, 19134) /* VALUE_INT */
+     , (44799, 131, 54) /* MATERIAL_TYPE_INT */
+     , (44799, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (44799, 5, 476) /* ENCUMB_VAL_INT */
+     , (44799, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (44799, 106, 219) /* ITEM_SPELLCRAFT_INT */
+     , (44799, 28, 237) /* ARMOR_LEVEL_INT */
+     , (44799, 108, 712) /* ITEM_MAX_MANA_INT */
+     , (44799, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (44799, 109, 219) /* ITEM_DIFFICULTY_INT */
+     , (44799, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (44799, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (44799, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (44799, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (44799, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (44799, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (44799, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (44799, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (44799, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (44799, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44799, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (44799, 1539) /* LightningBane5_SpellID */
+     , (44799, 1485) /* Impenetrability5_SpellID */;
+

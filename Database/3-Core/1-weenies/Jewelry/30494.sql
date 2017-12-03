@@ -38,3 +38,14 @@ VALUES (30494, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30494, 0, 16778334);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30494, 16, 'A lovely bronze bracelet inset with small flecks of turquoise. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30494, 33, 1) /* BONDED_INT */
+     , (30494, 114, 1) /* ATTUNED_INT */
+     , (30494, 19, 0) /* VALUE_INT */
+     , (30494, 5, 10) /* ENCUMB_VAL_INT */;
+

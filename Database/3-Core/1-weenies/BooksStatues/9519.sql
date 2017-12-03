@@ -81,6 +81,18 @@ VALUES (9519, 0, 16778359)
      , (9519, 15, 16777335)
      , (9519, 16, 16783677);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9519, 16, 'A memorial to those who served.') /* LONG_DESC_STRING */
+     , (9519, 14, 'Use this statue to read its inscription.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9519, 19, 0) /* VALUE_INT */
+     , (9519, 5, 4000) /* ENCUMB_VAL_INT */
+     , (9519, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (9519, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

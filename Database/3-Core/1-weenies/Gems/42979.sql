@@ -37,6 +37,31 @@ VALUES (42979, 13, True) /* ETHEREAL_BOOL */
      , (42979, 19, True) /* ATTACKABLE_BOOL */
      , (42979, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42979, 16, 'This Aetherium core integrator forges Gear Plating using the materials and magical essence derived from armor and clothing. Use this item on armor and clothing to convert the item to Armor Plating.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42979, 33, 1) /* BONDED_INT */
+     , (42979, 114, 0) /* ATTUNED_INT */
+     , (42979, 19, 10) /* VALUE_INT */
+     , (42979, 5, 10) /* ENCUMB_VAL_INT */
+     , (42979, 28, 0) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42979, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (42979, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (42979, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (42979, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (42979, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (42979, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (42979, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (42979, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42979, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

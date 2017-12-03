@@ -85,3 +85,26 @@ VALUES (5898, 2, 16777293)
      , (5898, 8, 16777298)
      , (5898, 16, 16779630);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5898, 5, 'Leather Crafter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (5898, 16, 67110062) /* EYES_PALETTE_DID */
+     , (5898, 9, 83890514) /* EYES_TEXTURE_DID */
+     , (5898, 17, 67110050) /* SKIN_PALETTE_DID */
+     , (5898, 10, 83890520) /* NOSE_TEXTURE_DID */
+     , (5898, 11, 83890662) /* MOUTH_TEXTURE_DID */
+     , (5898, 15, 67117002) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5898, 113, 1) /* GENDER_INT */
+     , (5898, 2, 31) /* CREATURE_TYPE_INT */
+     , (5898, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (5898, 25, 5) /* LEVEL_INT */
+     , (5898, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (5898, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

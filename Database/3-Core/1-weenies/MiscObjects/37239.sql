@@ -34,6 +34,15 @@ VALUES (37239, 13, True) /* ETHEREAL_BOOL */
      , (37239, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37239, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37239, 16, 'One card from the Deck of Hands. Combine it with the other cards to complete the deck.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37239, 19, 0) /* VALUE_INT */
+     , (37239, 5, 1) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

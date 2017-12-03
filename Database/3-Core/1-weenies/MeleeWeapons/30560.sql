@@ -47,3 +47,46 @@ VALUES (30560, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30560, 0, 16792134);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30560, 16, 'Frost Hatchet of Defender') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30560, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30560, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (30560, 353, 3) /* WEAPON_TYPE_INT */
+     , (30560, 177, 1) /* GEM_COUNT_INT */
+     , (30560, 178, 13) /* GEM_TYPE_INT */
+     , (30560, 19, 3873) /* VALUE_INT */
+     , (30560, 131, 77) /* MATERIAL_TYPE_INT */
+     , (30560, 115, 273) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30560, 5, 450) /* ENCUMB_VAL_INT */
+     , (30560, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (30560, 106, 253) /* ITEM_SPELLCRAFT_INT */
+     , (30560, 108, 1201) /* ITEM_MAX_MANA_INT */
+     , (30560, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30560, 109, 123) /* ITEM_DIFFICULTY_INT */
+     , (30560, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30560, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30560, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (30560, 47, 4) /* ATTACK_TYPE_INT */
+     , (30560, 45, 8) /* DAMAGE_TYPE_INT */
+     , (30560, 49, 27) /* WEAPON_TIME_INT */
+     , (30560, 48, 46) /* WEAPON_SKILL_INT */
+     , (30560, 44, 33) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30560, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (30560, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
+     , (30560, 22, 0.9) /* DAMAGE_VARIANCE_FLOAT */
+     , (30560, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30560, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30560, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30560, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30560, 1605) /* Defender6_SpellID */
+     , (30560, 1615) /* BloodDrinker5_SpellID */
+     , (30560, 2537) /* CANTRIPARCANEPROWESS1_SpellID */;
+

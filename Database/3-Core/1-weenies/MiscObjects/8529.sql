@@ -43,3 +43,14 @@ VALUES (8529, 0, 83886737, 83886737)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8529, 0, 16784358);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8529, 16, 'A broken staff.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8529, 33, 1) /* BONDED_INT */
+     , (8529, 114, 1) /* ATTUNED_INT */
+     , (8529, 19, 10) /* VALUE_INT */
+     , (8529, 5, 290) /* ENCUMB_VAL_INT */;
+

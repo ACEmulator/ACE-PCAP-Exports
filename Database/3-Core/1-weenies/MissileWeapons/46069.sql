@@ -57,3 +57,49 @@ VALUES (46069, 0, 16787898)
      , (46069, 1, 16787897)
      , (46069, 2, 16787897);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46069, 16, 'This weapon seems tough to master.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46069, 160, 360) /* WIELD_DIFFICULTY_INT */
+     , (46069, 33, 1) /* BONDED_INT */
+     , (46069, 114, 0) /* ATTUNED_INT */
+     , (46069, 19, 100) /* VALUE_INT */
+     , (46069, 5, 980) /* ENCUMB_VAL_INT */
+     , (46069, 263, 64) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (46069, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (46069, 204, 11) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (46069, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (46069, 109, 250) /* ITEM_DIFFICULTY_INT */
+     , (46069, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (46069, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (46069, 45, 64) /* DAMAGE_TYPE_INT */
+     , (46069, 49, 45) /* WEAPON_TIME_INT */
+     , (46069, 48, 47) /* WEAPON_SKILL_INT */
+     , (46069, 44, 8) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46069, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (46069, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (46069, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (46069, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (46069, 63, 2.3) /* DAMAGE_MOD_FLOAT */
+     , (46069, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (46069, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (46069, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46069, 99, 0) /* IVORYABLE_BOOL */
+     , (46069, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46069, 2116) /* Swiftkiller7_SpellID */
+     , (46069, 2505) /* CANTRIPBOWAPTITUDE2_SpellID */
+     , (46069, 2061) /* EnduranceSelf7_SpellID */
+     , (46069, 2586) /* CANTRIPBLOODTHIRST2_SpellID */
+     , (46069, 2159) /* LightningProtectionSelf7_SpellID */
+     , (46069, 2096) /* BloodDrinker7_SpellID */
+     , (46069, 2101) /* Defender7_SpellID */;
+

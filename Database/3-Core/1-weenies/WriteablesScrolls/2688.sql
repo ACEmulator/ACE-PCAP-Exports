@@ -35,3 +35,17 @@ VALUES (2688, 13, True) /* ETHEREAL_BOOL */
      , (2688, 19, True) /* ATTACKABLE_BOOL */
      , (2688, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2688, 16, 'Inscribed spell: Harm Other III
+Drains 10-19 points of the target''s Health.') /* LONG_DESC_STRING */
+     , (2688, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2688, 19, 20) /* VALUE_INT */
+     , (2688, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2688, 1173) /* HarmOther3_SpellID */;
+

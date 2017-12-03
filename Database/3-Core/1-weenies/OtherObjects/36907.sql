@@ -36,3 +36,13 @@ VALUES (36907, 13, True) /* ETHEREAL_BOOL */
      , (36907, 19, True) /* ATTACKABLE_BOOL */
      , (36907, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36907, 16, 'A pitiful twig of a tree with a single ornament too large for it.') /* LONG_DESC_STRING */
+     , (36907, 14, 'This item may be placed on floor and yard hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36907, 19, 5) /* VALUE_INT */
+     , (36907, 5, 500) /* ENCUMB_VAL_INT */;
+

@@ -48,3 +48,39 @@ VALUES (30832, 0, 83887061, 83895788)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30832, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30832, 16, 'A robe looted from the corpse of the Shadow Lugian Urleg.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30832, 160, 80) /* WIELD_DIFFICULTY_INT */
+     , (30832, 19, 8000) /* VALUE_INT */
+     , (30832, 5, 500) /* ENCUMB_VAL_INT */
+     , (30832, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (30832, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (30832, 28, 250) /* ARMOR_LEVEL_INT */
+     , (30832, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (30832, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30832, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (30832, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (30832, 14, 0.7) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (30832, 15, 0.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (30832, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (30832, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (30832, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (30832, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (30832, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30832, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30832, 1114) /* BladeProtectionSelf6_SpellID */
+     , (30832, 3802) /* CantripShadowReek_SpellID */
+     , (30832, 3803) /* CantripShadowShot_SpellID */
+     , (30832, 1138) /* PiercingProtectionSelf6_SpellID */
+     , (30832, 1023) /* BludgeonProtectionSelf6_SpellID */;
+

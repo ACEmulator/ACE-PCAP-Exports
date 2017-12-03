@@ -44,3 +44,28 @@ VALUES (46938, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46938, 0, 16778335);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46938, 15, 'An obsidian bracelet set with three sapphires.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46938, 33, 1) /* BONDED_INT */
+     , (46938, 114, 1) /* ATTUNED_INT */
+     , (46938, 19, 4000) /* VALUE_INT */
+     , (46938, 5, 250) /* ENCUMB_VAL_INT */
+     , (46938, 106, 225) /* ITEM_SPELLCRAFT_INT */
+     , (46938, 108, 750) /* ITEM_MAX_MANA_INT */
+     , (46938, 109, 150) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46938, 5, -0.0333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46938, 99, 1) /* IVORYABLE_BOOL */
+     , (46938, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46938, 4684) /* CANTRIPARCANEPROWESS3_SpellID */
+     , (46938, 4509) /* ArcaneEnlightenmentOther8_SpellID */;
+

@@ -88,3 +88,16 @@ VALUES (35933, 9, 16793660)
      , (35933, 8, 16777708)
      , (35933, 16, 16793659);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35933, 5, 'Ghostly Orphan') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35933, 2, 77) /* CREATURE_TYPE_INT */
+     , (35933, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (35933, 25, 1) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (35933, 64, 200250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

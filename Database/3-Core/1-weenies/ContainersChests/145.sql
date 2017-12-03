@@ -38,3 +38,15 @@ VALUES (145, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (145, 19, True) /* ATTACKABLE_BOOL */
      , (145, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (145, 19, 200) /* VALUE_INT */
+     , (145, 5, 6000) /* ENCUMB_VAL_INT */
+     , (145, 38, 50) /* RESIST_LOCKPICK_INT */
+     , (145, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (145, 2, 0) /* OPEN_BOOL */
+     , (145, 3, 0) /* LOCKED_BOOL */;
+

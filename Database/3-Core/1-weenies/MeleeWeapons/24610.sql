@@ -39,3 +39,45 @@ VALUES (24610, 13, True) /* ETHEREAL_BOOL */
      , (24610, 19, True) /* ATTACKABLE_BOOL */
      , (24610, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24610, 16, 'The Sword of Lost Light, infused with red fire from Mount Tenkarrdun.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24610, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (24610, 33, 1) /* BONDED_INT */
+     , (24610, 353, 2) /* WEAPON_TYPE_INT */
+     , (24610, 19, 11300) /* VALUE_INT */
+     , (24610, 5, 450) /* ENCUMB_VAL_INT */
+     , (24610, 106, 260) /* ITEM_SPELLCRAFT_INT */
+     , (24610, 108, 588) /* ITEM_MAX_MANA_INT */
+     , (24610, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (24610, 47, 6) /* ATTACK_TYPE_INT */
+     , (24610, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (24610, 45, 3) /* DAMAGE_TYPE_INT */
+     , (24610, 49, 30) /* WEAPON_TIME_INT */
+     , (24610, 48, 44) /* WEAPON_SKILL_INT */
+     , (24610, 44, 43) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (24610, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (24610, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (24610, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (24610, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (24610, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (24610, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (24610, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (24610, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24610, 69, 0) /* IS_SELLABLE_BOOL */
+     , (24610, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (24610, 1604) /* Defender5_SpellID */
+     , (24610, 1615) /* BloodDrinker5_SpellID */
+     , (24610, 1624) /* SwiftKiller3_SpellID */
+     , (24610, 422) /* SwordMasterySelf5_SpellID */
+     , (24610, 1591) /* HeartSeeker5_SpellID */;
+

@@ -35,3 +35,17 @@ VALUES (3277, 13, True) /* ETHEREAL_BOOL */
      , (3277, 19, True) /* ATTACKABLE_BOOL */
      , (3277, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3277, 16, 'Inscribed spell: Healing Mastery Other VI
+Increases the target''s Healing skill by 35 points.') /* LONG_DESC_STRING */
+     , (3277, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3277, 19, 1000) /* VALUE_INT */
+     , (3277, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3277, 885) /* HealingMasteryOther6_SpellID */;
+

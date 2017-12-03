@@ -36,3 +36,12 @@ VALUES (9683, 0, 83891055, 83893300);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9683, 0, 16780409);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9683, 16, 'Welcome to Danby''s Outpost') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9683, 19, 125) /* VALUE_INT */
+     , (9683, 5, 9000) /* ENCUMB_VAL_INT */;
+

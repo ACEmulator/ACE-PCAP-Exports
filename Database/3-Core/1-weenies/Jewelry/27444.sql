@@ -47,3 +47,27 @@ VALUES (27444, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27444, 0, 16778344);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27444, 14, 'You must be over Level 40 to use this ring.') /* USE_STRING */
+     , (27444, 15, 'A small green snake biting its tail making a ring.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27444, 160, 40) /* WIELD_DIFFICULTY_INT */
+     , (27444, 19, 3500) /* VALUE_INT */
+     , (27444, 5, 15) /* ENCUMB_VAL_INT */
+     , (27444, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (27444, 108, 750) /* ITEM_MAX_MANA_INT */
+     , (27444, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (27444, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (27444, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27444, 5, -0.033) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27444, 512) /* AcidProtectionOther4_SpellID */
+     , (27444, 1316) /* ArmorOther5_SpellID */
+     , (27444, 1455) /* WillpowerOther5_SpellID */;
+

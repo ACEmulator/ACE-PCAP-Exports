@@ -35,6 +35,21 @@ VALUES (40796, 13, True) /* ETHEREAL_BOOL */
      , (40796, 19, True) /* ATTACKABLE_BOOL */
      , (40796, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40796, 14, 'Combine a shadow crystal with this prismatic crystal to stabilize it.') /* USE_STRING */
+     , (40796, 15, 'A prismatic Progenitor crystal.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40796, 33, 1) /* BONDED_INT */
+     , (40796, 114, 1) /* ATTUNED_INT */
+     , (40796, 19, 0) /* VALUE_INT */
+     , (40796, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40796, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

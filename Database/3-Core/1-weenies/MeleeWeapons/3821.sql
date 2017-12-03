@@ -37,3 +37,40 @@ VALUES (3821, 13, True) /* ETHEREAL_BOOL */
      , (3821, 19, True) /* ATTACKABLE_BOOL */
      , (3821, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3821, 16, 'Frost Katar of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3821, 176, 45) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3821, 353, 1) /* WEAPON_TYPE_INT */
+     , (3821, 19, 835) /* VALUE_INT */
+     , (3821, 131, 59) /* MATERIAL_TYPE_INT */
+     , (3821, 115, 71) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3821, 5, 120) /* ENCUMB_VAL_INT */
+     , (3821, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (3821, 106, 51) /* ITEM_SPELLCRAFT_INT */
+     , (3821, 108, 318) /* ITEM_MAX_MANA_INT */
+     , (3821, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3821, 109, 15) /* ITEM_DIFFICULTY_INT */
+     , (3821, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3821, 47, 1) /* ATTACK_TYPE_INT */
+     , (3821, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3821, 49, 20) /* WEAPON_TIME_INT */
+     , (3821, 48, 45) /* WEAPON_SKILL_INT */
+     , (3821, 44, 8) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3821, 5, -0.01666667) /* MANA_RATE_FLOAT */
+     , (3821, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
+     , (3821, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */
+     , (3821, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3821, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3821, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3821, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3821, 1612) /* BloodDrinker2_SpellID */
+     , (3821, 49) /* SwiftKiller1_SpellID */;
+

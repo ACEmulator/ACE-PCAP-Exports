@@ -33,3 +33,11 @@ VALUES (5529, 13, True) /* ETHEREAL_BOOL */
      , (5529, 19, True) /* ATTACKABLE_BOOL */
      , (5529, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5529, 38, 'Surface Portal (34.9S, 84.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5529, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -41,3 +41,17 @@ VALUES (35931, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35931, 0, 16778348);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35931, 14, 'Grasp this amulet to summon or dismiss Amelia''s ghostly gargoyle.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35931, 33, 1) /* BONDED_INT */
+     , (35931, 114, 1) /* ATTUNED_INT */
+     , (35931, 19, 0) /* VALUE_INT */
+     , (35931, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35931, 69, 0) /* IS_SELLABLE_BOOL */;
+

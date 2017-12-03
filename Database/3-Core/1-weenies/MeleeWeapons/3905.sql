@@ -37,3 +37,34 @@ VALUES (3905, 13, True) /* ETHEREAL_BOOL */
      , (3905, 19, True) /* ATTACKABLE_BOOL */
      , (3905, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3905, 16, 'Acid War Hammer') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3905, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (3905, 353, 3) /* WEAPON_TYPE_INT */
+     , (3905, 177, 1) /* GEM_COUNT_INT */
+     , (3905, 178, 22) /* GEM_TYPE_INT */
+     , (3905, 19, 2777) /* VALUE_INT */
+     , (3905, 131, 58) /* MATERIAL_TYPE_INT */
+     , (3905, 5, 394) /* ENCUMB_VAL_INT */
+     , (3905, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (3905, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3905, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3905, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (3905, 47, 4) /* ATTACK_TYPE_INT */
+     , (3905, 45, 32) /* DAMAGE_TYPE_INT */
+     , (3905, 49, 42) /* WEAPON_TIME_INT */
+     , (3905, 48, 45) /* WEAPON_SKILL_INT */
+     , (3905, 44, 38) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3905, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
+     , (3905, 22, 0.8) /* DAMAGE_VARIANCE_FLOAT */
+     , (3905, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3905, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3905, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3905, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
+

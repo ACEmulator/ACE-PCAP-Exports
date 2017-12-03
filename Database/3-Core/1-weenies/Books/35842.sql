@@ -33,3 +33,20 @@ VALUES (35842, 13, True) /* ETHEREAL_BOOL */
      , (35842, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35842, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35842, 14, 'Use this item to read it.') /* USE_STRING */
+     , (35842, 15, 'A soft light that seems to emit a silent message in the back of your mind.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35842, 33, 1) /* BONDED_INT */
+     , (35842, 114, 1) /* ATTUNED_INT */
+     , (35842, 19, 0) /* VALUE_INT */
+     , (35842, 5, 5) /* ENCUMB_VAL_INT */
+     , (35842, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (35842, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35842, 69, 0) /* IS_SELLABLE_BOOL */;
+

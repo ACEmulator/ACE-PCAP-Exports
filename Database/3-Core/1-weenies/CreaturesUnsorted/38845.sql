@@ -51,3 +51,35 @@ VALUES (38845, 0, 16794124)
      , (38845, 15, 16794122)
      , (38845, 16, 16794129);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38845, 16, 67109567) /* EYES_PALETTE_DID */
+     , (38845, 9, 83890514) /* EYES_TEXTURE_DID */
+     , (38845, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (38845, 10, 83890521) /* NOSE_TEXTURE_DID */
+     , (38845, 11, 83890657) /* MOUTH_TEXTURE_DID */
+     , (38845, 15, 67116988) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38845, 113, 1) /* GENDER_INT */
+     , (38845, 2, 31) /* CREATURE_TYPE_INT */
+     , (38845, 307, 5) /* DAMAGE_RATING_INT */
+     , (38845, 25, 220) /* LEVEL_INT */
+     , (38845, 281, 1) /* FACTION1_BITS_INT */
+     , (38845, 188, 1) /* HERITAGE_GROUP_INT */
+     , (38845, 287, 1001) /* SOCIETY_RANK_CELHAN_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38845, 1, 320) /* STRENGTH_ATTRIBUTE */
+     , (38845, 2, 450) /* ENDURANCE_ATTRIBUTE */
+     , (38845, 4, 320) /* COORDINATION_ATTRIBUTE */
+     , (38845, 8, 320) /* QUICKNESS_ATTRIBUTE */
+     , (38845, 16, 320) /* FOCUS_ATTRIBUTE */
+     , (38845, 32, 320) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38845, 64, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38845, 128, 1650) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38845, 256, 2720) /* MAX_MANA_ATTRIBUTE_2ND */;
+

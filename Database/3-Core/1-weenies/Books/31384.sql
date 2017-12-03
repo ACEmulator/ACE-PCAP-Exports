@@ -34,3 +34,14 @@ VALUES (31384, 13, True) /* ETHEREAL_BOOL */
      , (31384, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31384, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31384, 16, 'A note that describes a task suitable for level 90 or greater characters.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31384, 19, 10) /* VALUE_INT */
+     , (31384, 5, 5) /* ENCUMB_VAL_INT */
+     , (31384, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (31384, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

@@ -37,3 +37,40 @@ VALUES (3912, 13, True) /* ETHEREAL_BOOL */
      , (3912, 19, True) /* ATTACKABLE_BOOL */
      , (3912, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3912, 16, 'Frost Yaoji') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3912, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3912, 353, 2) /* WEAPON_TYPE_INT */
+     , (3912, 115, 119) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3912, 131, 58) /* MATERIAL_TYPE_INT */
+     , (3912, 19, 1908) /* VALUE_INT */
+     , (3912, 5, 315) /* ENCUMB_VAL_INT */
+     , (3912, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (3912, 106, 99) /* ITEM_SPELLCRAFT_INT */
+     , (3912, 172, 3) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3912, 108, 564) /* ITEM_MAX_MANA_INT */
+     , (3912, 109, 39) /* ITEM_DIFFICULTY_INT */
+     , (3912, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3912, 47, 6) /* ATTACK_TYPE_INT */
+     , (3912, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3912, 49, 30) /* WEAPON_TIME_INT */
+     , (3912, 48, 44) /* WEAPON_SKILL_INT */
+     , (3912, 44, 11) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3912, 29, 1.021134) /* WEAPON_DEFENSE_FLOAT */
+     , (3912, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (3912, 22, 0.5874971) /* DAMAGE_VARIANCE_FLOAT */
+     , (3912, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3912, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3912, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3912, 62, 1.031193) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3912, 1613) /* BloodDrinker3_SpellID */
+     , (3912, 1624) /* SwiftKiller3_SpellID */;
+

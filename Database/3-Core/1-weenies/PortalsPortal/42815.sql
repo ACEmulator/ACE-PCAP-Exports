@@ -33,3 +33,12 @@ VALUES (42815, 13, True) /* ETHEREAL_BOOL */
      , (42815, 19, True) /* ATTACKABLE_BOOL */
      , (42815, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42815, 16, 'This portal goes to Eastham, a coastal Aluvian town that contains a portal to Asheron''s island home. This is a good town for characters over level 20.') /* LONG_DESC_STRING */
+     , (42815, 38, 'Eastham Portal (16.9N, 63.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42815, 111, 1) /* PORTAL_BITMASK_INT */;
+

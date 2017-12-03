@@ -30,3 +30,12 @@ VALUES (51410, 13, True) /* ETHEREAL_BOOL */
      , (51410, 1, True) /* STUCK_BOOL */
      , (51410, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51410, 16, 'A cage of shifting portal energy.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51410, 19, 0) /* VALUE_INT */
+     , (51410, 5, 0) /* ENCUMB_VAL_INT */;
+

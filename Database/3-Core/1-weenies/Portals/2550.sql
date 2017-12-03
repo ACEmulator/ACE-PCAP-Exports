@@ -33,3 +33,11 @@ VALUES (2550, 13, True) /* ETHEREAL_BOOL */
      , (2550, 19, True) /* ATTACKABLE_BOOL */
      , (2550, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2550, 38, 'Plateau Base (45.3N, 44.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2550, 111, 1) /* PORTAL_BITMASK_INT */;
+

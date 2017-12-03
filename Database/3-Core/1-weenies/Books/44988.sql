@@ -33,6 +33,17 @@ VALUES (44988, 13, True) /* ETHEREAL_BOOL */
      , (44988, 14, True) /* GRAVITY_STATUS_BOOL */
      , (44988, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44988, 16, 'A torn page of a journal.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44988, 19, 0) /* VALUE_INT */
+     , (44988, 5, 5) /* ENCUMB_VAL_INT */
+     , (44988, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (44988, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -37,6 +37,22 @@ VALUES (38447, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38447, 19, True) /* ATTACKABLE_BOOL */
      , (38447, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38447, 16, 'A chest with a higher chance of containing an even mix of weapons and armor. ') /* LONG_DESC_STRING */
+     , (38447, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38447, 19, 2500) /* VALUE_INT */
+     , (38447, 5, 10843) /* ENCUMB_VAL_INT */
+     , (38447, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (38447, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38447, 2, 1) /* OPEN_BOOL */
+     , (38447, 3, 0) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

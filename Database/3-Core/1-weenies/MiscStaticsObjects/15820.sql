@@ -34,3 +34,13 @@ VALUES (15820, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15820, 19, True) /* ATTACKABLE_BOOL */
      , (15820, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15820, 14, 'You are forbidden to take this historic armor.') /* USE_STRING */
+     , (15820, 15, 'Thorsten Cragstone''s suit of armor. You can see a small puncture hole where the Olthoi Queen pierced his heart.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15820, 19, 0) /* VALUE_INT */
+     , (15820, 5, 60000) /* ENCUMB_VAL_INT */;
+

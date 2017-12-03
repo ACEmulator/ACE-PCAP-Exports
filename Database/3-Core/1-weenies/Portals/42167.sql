@@ -34,3 +34,13 @@ VALUES (42167, 13, True) /* ETHEREAL_BOOL */
      , (42167, 19, True) /* ATTACKABLE_BOOL */
      , (42167, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42167, 16, 'A portal leading to the Mosswart Maze where part of the Explorer''s Mace may be found.') /* LONG_DESC_STRING */
+     , (42167, 38, 'Mosswart Maze (25.3S, 19.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42167, 86, 25) /* MIN_LEVEL_INT */
+     , (42167, 111, 49) /* PORTAL_BITMASK_INT */;
+

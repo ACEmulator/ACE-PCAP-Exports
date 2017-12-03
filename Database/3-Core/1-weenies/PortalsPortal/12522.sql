@@ -33,3 +33,11 @@ VALUES (12522, 13, True) /* ETHEREAL_BOOL */
      , (12522, 19, True) /* ATTACKABLE_BOOL */
      , (12522, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12522, 38, 'Mosswart Place Cottages Portal (22.2S, 73.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12522, 111, 1) /* PORTAL_BITMASK_INT */;
+

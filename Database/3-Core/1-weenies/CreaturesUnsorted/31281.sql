@@ -36,3 +36,32 @@ VALUES (31281, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (31281, 19, True) /* ATTACKABLE_BOOL */
      , (31281, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31281, 2, 22) /* CREATURE_TYPE_INT */
+     , (31281, 25, 135) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (31281, 64, 580) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31281, 2, 22) /* CREATURE_TYPE_INT */
+     , (31281, 307, 7) /* DAMAGE_RATING_INT */
+     , (31281, 25, 135) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31281, 1, 160) /* STRENGTH_ATTRIBUTE */
+     , (31281, 2, 180) /* ENDURANCE_ATTRIBUTE */
+     , (31281, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (31281, 8, 220) /* QUICKNESS_ATTRIBUTE */
+     , (31281, 16, 180) /* FOCUS_ATTRIBUTE */
+     , (31281, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (31281, 64, 580) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31281, 128, 700) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31281, 256, 630) /* MAX_MANA_ATTRIBUTE_2ND */;
+

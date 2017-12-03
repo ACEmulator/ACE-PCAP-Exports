@@ -92,3 +92,26 @@ VALUES (49655, 12, 16778423)
      , (49655, 8, 16783487)
      , (49655, 16, 16778476);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49655, 5, 'Tailor') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (49655, 16, 67110063) /* EYES_PALETTE_DID */
+     , (49655, 9, 83890282) /* EYES_TEXTURE_DID */
+     , (49655, 17, 67109557) /* SKIN_PALETTE_DID */
+     , (49655, 10, 83890300) /* NOSE_TEXTURE_DID */
+     , (49655, 11, 83890335) /* MOUTH_TEXTURE_DID */
+     , (49655, 15, 67116998) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49655, 113, 2) /* GENDER_INT */
+     , (49655, 2, 31) /* CREATURE_TYPE_INT */
+     , (49655, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (49655, 25, 12) /* LEVEL_INT */
+     , (49655, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (49655, 64, 148) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

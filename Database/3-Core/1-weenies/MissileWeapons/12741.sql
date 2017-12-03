@@ -60,3 +60,26 @@ VALUES (12741, 0, 16777708)
      , (12741, 7, 16779363)
      , (12741, 8, 16779364);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12741, 14, 'Use Oil of Rendering on this weapon to create an Academy Shortbow.') /* USE_STRING */
+     , (12741, 15, 'A basic shortbow forged in the Strathelar Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12741, 353, 8) /* WEAPON_TYPE_INT */
+     , (12741, 19, 25) /* VALUE_INT */
+     , (12741, 5, 100) /* ENCUMB_VAL_INT */
+     , (12741, 45, 0) /* DAMAGE_TYPE_INT */
+     , (12741, 49, 40) /* WEAPON_TIME_INT */
+     , (12741, 48, 47) /* WEAPON_SKILL_INT */
+     , (12741, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12741, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (12741, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (12741, 63, 0.8) /* DAMAGE_MOD_FLOAT */
+     , (12741, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12741, 26, 22.5) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12741, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

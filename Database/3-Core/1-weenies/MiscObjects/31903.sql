@@ -31,3 +31,14 @@ VALUES (31903, 13, True) /* ETHEREAL_BOOL */
      , (31903, 19, True) /* ATTACKABLE_BOOL */
      , (31903, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31903, 16, 'A Gold Moarsman Tooth. Is it gold or just really yellow?') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31903, 33, 0) /* BONDED_INT */
+     , (31903, 114, 0) /* ATTUNED_INT */
+     , (31903, 19, 0) /* VALUE_INT */
+     , (31903, 5, 10) /* ENCUMB_VAL_INT */;
+

@@ -66,6 +66,26 @@ VALUES (36446, 0, 16784123)
      , (36446, 11, 16784119)
      , (36446, 12, 16784114);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36446, 16, 'A festival treat. A gummy candy molded into the shape of a golem.') /* LONG_DESC_STRING */
+     , (36446, 14, 'Use this item to eat it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36446, 19, 10) /* VALUE_INT */
+     , (36446, 5, 1) /* ENCUMB_VAL_INT */
+     , (36446, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (36446, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (36446, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (36446, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36446, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (36446, 4209) /* GummyShield_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

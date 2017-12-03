@@ -33,3 +33,16 @@ VALUES (25695, 13, True) /* ETHEREAL_BOOL */
      , (25695, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25695, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25695, 16, 'A note written in Empyrean script. It appears to be Dericost in nature.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25695, 33, 1) /* BONDED_INT */
+     , (25695, 114, 1) /* ATTUNED_INT */
+     , (25695, 19, 0) /* VALUE_INT */
+     , (25695, 5, 25) /* ENCUMB_VAL_INT */
+     , (25695, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (25695, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

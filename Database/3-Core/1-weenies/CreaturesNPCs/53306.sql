@@ -49,3 +49,41 @@ VALUES (53306, 67110361, 72, 8)
      , (53306, 67116870, 206, 10)
      , (53306, 67116870, 250, 6);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53306, 5, 'Mead Brewer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53306, 113, 1) /* GENDER_INT */
+     , (53306, 2, 101) /* CREATURE_TYPE_INT */
+     , (53306, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (53306, 25, 200) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (53306, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53306, 5, 'Mead Brewer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53306, 113, 1) /* GENDER_INT */
+     , (53306, 2, 101) /* CREATURE_TYPE_INT */
+     , (53306, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (53306, 25, 200) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (53306, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (53306, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (53306, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (53306, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (53306, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (53306, 32, 90) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (53306, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (53306, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (53306, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
+

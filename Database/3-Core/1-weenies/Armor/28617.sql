@@ -41,3 +41,48 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (28617, 67116103, 250, 6)
      , (28617, 67116113, 240, 10);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28617, 16, 'Alduressa Helm of Invulnerability') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28617, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (28617, 177, 3) /* GEM_COUNT_INT */
+     , (28617, 178, 26) /* GEM_TYPE_INT */
+     , (28617, 19, 25603) /* VALUE_INT */
+     , (28617, 131, 63) /* MATERIAL_TYPE_INT */
+     , (28617, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (28617, 5, 399) /* ENCUMB_VAL_INT */
+     , (28617, 374, 1) /* GEAR_CRIT_DAMAGE_INT */
+     , (28617, 265, 24) /* EQUIPMENT_SET_ID_INT */
+     , (28617, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (28617, 106, 293) /* ITEM_SPELLCRAFT_INT */
+     , (28617, 28, 297) /* ARMOR_LEVEL_INT */
+     , (28617, 108, 794) /* ITEM_MAX_MANA_INT */
+     , (28617, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (28617, 109, 325) /* ITEM_DIFFICULTY_INT */
+     , (28617, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (28617, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (28617, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28617, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (28617, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28617, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28617, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28617, 16, 0.9011477) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28617, 17, 0.8500167) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28617, 18, 1.141275) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28617, 19, 1.291374) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28617, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28617, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28617, 2094) /* BladeBane7_SpellID */
+     , (28617, 4665) /* CANTRIPFROSTBANE3_SpellID */
+     , (28617, 249) /* InvulnerabilitySelf6_SpellID */
+     , (28617, 2108) /* Impenetrability7_SpellID */;
+

@@ -31,3 +31,14 @@ VALUES (28725, 13, True) /* ETHEREAL_BOOL */
      , (28725, 19, True) /* ATTACKABLE_BOOL */
      , (28725, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28725, 16, 'An engorged eater jaw. Large slabs of flesh hang loosely from the jaw. This eater has been feeding well.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28725, 33, 1) /* BONDED_INT */
+     , (28725, 114, 1) /* ATTUNED_INT */
+     , (28725, 19, 0) /* VALUE_INT */
+     , (28725, 5, 600) /* ENCUMB_VAL_INT */;
+

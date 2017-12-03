@@ -35,6 +35,18 @@ VALUES (46348, 13, True) /* ETHEREAL_BOOL */
      , (46348, 19, True) /* ATTACKABLE_BOOL */
      , (46348, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46348, 16, 'The left strip of a torn page. What little can be seen of the text looks to be written in ancient Falatacot symbols.') /* LONG_DESC_STRING */
+     , (46348, 14, 'To use this item, find the other pieces.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46348, 33, 1) /* BONDED_INT */
+     , (46348, 114, 1) /* ATTUNED_INT */
+     , (46348, 19, 20) /* VALUE_INT */
+     , (46348, 5, 25) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -46,3 +46,41 @@ VALUES (114, 0, 83886788, 83886797);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (114, 0, 16778411);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (114, 16, 'Platemail Vambraces of Magic Resistance') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (114, 177, 2) /* GEM_COUNT_INT */
+     , (114, 178, 33) /* GEM_TYPE_INT */
+     , (114, 19, 7035) /* VALUE_INT */
+     , (114, 131, 58) /* MATERIAL_TYPE_INT */
+     , (114, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (114, 5, 408) /* ENCUMB_VAL_INT */
+     , (114, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (114, 106, 218) /* ITEM_SPELLCRAFT_INT */
+     , (114, 28, 228) /* ARMOR_LEVEL_INT */
+     , (114, 108, 651) /* ITEM_MAX_MANA_INT */
+     , (114, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (114, 109, 218) /* ITEM_DIFFICULTY_INT */
+     , (114, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (114, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (114, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (114, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (114, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (114, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (114, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (114, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (114, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (114, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (114, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (114, 1485) /* Impenetrability5_SpellID */
+     , (114, 277) /* MagicResistanceSelf4_SpellID */;
+

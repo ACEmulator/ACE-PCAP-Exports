@@ -40,3 +40,34 @@ VALUES (40732, 13, True) /* ETHEREAL_BOOL */
      , (40732, 19, True) /* ATTACKABLE_BOOL */
      , (40732, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40732, 16, 'Flaming Knife') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40732, 160, 370) /* WIELD_DIFFICULTY_INT */
+     , (40732, 177, 2) /* GEM_COUNT_INT */
+     , (40732, 353, 6) /* WEAPON_TYPE_INT */
+     , (40732, 178, 22) /* GEM_TYPE_INT */
+     , (40732, 131, 60) /* MATERIAL_TYPE_INT */
+     , (40732, 19, 13083) /* VALUE_INT */
+     , (40732, 5, 24) /* ENCUMB_VAL_INT */
+     , (40732, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (40732, 172, 7) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40732, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40732, 47, 6) /* ATTACK_TYPE_INT */
+     , (40732, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (40732, 45, 16) /* DAMAGE_TYPE_INT */
+     , (40732, 49, 8) /* WEAPON_TIME_INT */
+     , (40732, 48, 46) /* WEAPON_SKILL_INT */
+     , (40732, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40732, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (40732, 22, 0.99) /* DAMAGE_VARIANCE_FLOAT */
+     , (40732, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (40732, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (40732, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (40732, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+

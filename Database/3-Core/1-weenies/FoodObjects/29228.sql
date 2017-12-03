@@ -34,6 +34,21 @@ VALUES (29228, 13, True) /* ETHEREAL_BOOL */
      , (29228, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29228, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29228, 14, 'Use this item to eat it.') /* USE_STRING */
+     , (29228, 15, 'An elaborate mix of reconstituted meats, nuts, and fruit. It''s very filling, and tastes a bit of cinnamon.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29228, 19, 0) /* VALUE_INT */
+     , (29228, 5, 3060) /* ENCUMB_VAL_INT */
+     , (29228, 89, 6) /* BOOSTER_ENUM_INT */
+     , (29228, 90, 70) /* BOOST_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29228, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

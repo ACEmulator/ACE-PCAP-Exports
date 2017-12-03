@@ -36,3 +36,13 @@ VALUES (39369, 13, True) /* ETHEREAL_BOOL */
      , (39369, 19, True) /* ATTACKABLE_BOOL */
      , (39369, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39369, 16, 'A miniature doll of what we have seen of T''thuun, the Whispering One.') /* LONG_DESC_STRING */
+     , (39369, 14, 'The Pack T''thuun can be placed on floor and yard hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39369, 19, 0) /* VALUE_INT */
+     , (39369, 5, 10) /* ENCUMB_VAL_INT */;
+

@@ -33,3 +33,11 @@ VALUES (12560, 13, True) /* ETHEREAL_BOOL */
      , (12560, 19, True) /* ATTACKABLE_BOOL */
      , (12560, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12560, 38, 'Tiofor Deeps Portal (40.7N, 5.5W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12560, 111, 1) /* PORTAL_BITMASK_INT */;
+

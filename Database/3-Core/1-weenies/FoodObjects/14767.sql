@@ -33,6 +33,21 @@ VALUES (14767, 13, True) /* ETHEREAL_BOOL */
      , (14767, 14, True) /* GRAVITY_STATUS_BOOL */
      , (14767, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14767, 14, 'Use this item to eat it.') /* USE_STRING */
+     , (14767, 15, 'Fried dough with fish meat in the center.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14767, 19, 30) /* VALUE_INT */
+     , (14767, 5, 30) /* ENCUMB_VAL_INT */
+     , (14767, 89, 4) /* BOOSTER_ENUM_INT */
+     , (14767, 90, 25) /* BOOST_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14767, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -53,3 +53,45 @@ VALUES (31799, 0, 83897331, 83897331);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31799, 0, 16792608);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31799, 16, 'Acid Compound Bow of Swiftkiller') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31799, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31799, 160, 360) /* WIELD_DIFFICULTY_INT */
+     , (31799, 353, 8) /* WEAPON_TYPE_INT */
+     , (31799, 19, 7318) /* VALUE_INT */
+     , (31799, 131, 63) /* MATERIAL_TYPE_INT */
+     , (31799, 115, 390) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31799, 5, 662) /* ENCUMB_VAL_INT */
+     , (31799, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (31799, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (31799, 108, 801) /* ITEM_MAX_MANA_INT */
+     , (31799, 204, 15) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (31799, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31799, 109, 215) /* ITEM_DIFFICULTY_INT */
+     , (31799, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31799, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31799, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (31799, 45, 32) /* DAMAGE_TYPE_INT */
+     , (31799, 49, 39) /* WEAPON_TIME_INT */
+     , (31799, 48, 47) /* WEAPON_SKILL_INT */
+     , (31799, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31799, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (31799, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (31799, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (31799, 63, 2.4) /* DAMAGE_MOD_FLOAT */
+     , (31799, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31799, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31799, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31799, 4417) /* Swiftkiller8_SpellID */
+     , (31799, 4299) /* EnduranceSelf8_SpellID */
+     , (31799, 6107) /* CantripStrength4_SpellID */
+     , (31799, 4395) /* Blooddrinker8_SpellID */;
+

@@ -33,3 +33,12 @@ VALUES (25685, 13, True) /* ETHEREAL_BOOL */
      , (25685, 19, True) /* ATTACKABLE_BOOL */
      , (25685, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25685, 38, 'Shallow Olthoi Chasm') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25685, 86, 40) /* MIN_LEVEL_INT */
+     , (25685, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -34,3 +34,14 @@ VALUES (10845, 13, True) /* ETHEREAL_BOOL */
      , (10845, 19, True) /* ATTACKABLE_BOOL */
      , (10845, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10845, 16, 'The pincer off of an Olthoi Harvester, desired by Behdo Yii at 40.8N, 83.3W in Redspire.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10845, 33, 1) /* BONDED_INT */
+     , (10845, 114, 1) /* ATTUNED_INT */
+     , (10845, 19, 0) /* VALUE_INT */
+     , (10845, 5, 100) /* ENCUMB_VAL_INT */;
+

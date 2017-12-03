@@ -30,3 +30,14 @@ VALUES (52915, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (52915, 19, True) /* ATTACKABLE_BOOL */
      , (52915, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52915, 38, 'Gauntlet Exit') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52915, 98, 1485832149) /* CREATION_TIMESTAMP_INT */
+     , (52915, 267, 60) /* LIFESPAN_INT */
+     , (52915, 268, 59) /* REMAINING_LIFESPAN_INT */
+     , (52915, 111, 49) /* PORTAL_BITMASK_INT */;
+

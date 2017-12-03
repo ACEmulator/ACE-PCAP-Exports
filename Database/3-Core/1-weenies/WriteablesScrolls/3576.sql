@@ -35,3 +35,17 @@ VALUES (3576, 13, True) /* ETHEREAL_BOOL */
      , (3576, 19, True) /* ATTACKABLE_BOOL */
      , (3576, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3576, 16, 'Inscribed spell: War Magic Mastery Self V
+Increases the caster''s War Magic skill by 30 points.') /* LONG_DESC_STRING */
+     , (3576, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3576, 19, 200) /* VALUE_INT */
+     , (3576, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3576, 633) /* WarMagicMasterySelf5_SpellID */;
+

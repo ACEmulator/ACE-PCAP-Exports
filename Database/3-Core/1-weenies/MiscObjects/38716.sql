@@ -31,3 +31,14 @@ VALUES (38716, 13, True) /* ETHEREAL_BOOL */
      , (38716, 19, True) /* ATTACKABLE_BOOL */
      , (38716, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38716, 16, 'A foul-smelling bag filled with mysterious supplies, intended for Massilor the Withered.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38716, 33, 1) /* BONDED_INT */
+     , (38716, 114, 1) /* ATTUNED_INT */
+     , (38716, 19, 0) /* VALUE_INT */
+     , (38716, 5, 500) /* ENCUMB_VAL_INT */;
+

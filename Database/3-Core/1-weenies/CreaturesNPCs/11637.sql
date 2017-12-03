@@ -84,3 +84,26 @@ VALUES (11637, 12, 16778423)
      , (11637, 13, 16783871)
      , (11637, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11637, 5, 'Herbalist') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (11637, 16, 67110063) /* EYES_PALETTE_DID */
+     , (11637, 9, 83890280) /* EYES_TEXTURE_DID */
+     , (11637, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (11637, 10, 83890304) /* NOSE_TEXTURE_DID */
+     , (11637, 11, 83890326) /* MOUTH_TEXTURE_DID */
+     , (11637, 15, 67116982) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11637, 113, 2) /* GENDER_INT */
+     , (11637, 2, 31) /* CREATURE_TYPE_INT */
+     , (11637, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (11637, 25, 5) /* LEVEL_INT */
+     , (11637, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (11637, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

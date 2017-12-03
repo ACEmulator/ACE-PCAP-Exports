@@ -33,6 +33,17 @@ VALUES (35112, 13, True) /* ETHEREAL_BOOL */
      , (35112, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35112, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35112, 16, 'This is a note given out by Kuurak, the weaponcrafter of the Burun village of Kor-Gursha. It details his latest experiments in the combination of salvaging materials and mucor.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35112, 19, 0) /* VALUE_INT */
+     , (35112, 5, 30) /* ENCUMB_VAL_INT */
+     , (35112, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (35112, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

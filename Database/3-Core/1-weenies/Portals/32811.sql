@@ -32,3 +32,12 @@ VALUES (32811, 13, True) /* ETHEREAL_BOOL */
      , (32811, 19, True) /* ATTACKABLE_BOOL */
      , (32811, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32811, 16, 'A simple bookcase.') /* LONG_DESC_STRING */
+     , (32811, 38, 'Bookcase') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32811, 111, 49) /* PORTAL_BITMASK_INT */;
+

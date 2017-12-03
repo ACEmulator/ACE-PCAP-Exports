@@ -30,3 +30,12 @@ VALUES (1910, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1910, 19, True) /* ATTACKABLE_BOOL */
      , (1910, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1910, 16, 'You are entering Tufa, flower of the desert.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1910, 19, 125) /* VALUE_INT */
+     , (1910, 5, 9000) /* ENCUMB_VAL_INT */;
+

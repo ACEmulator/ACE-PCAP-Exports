@@ -41,3 +41,36 @@ VALUES (46694, 67116627, 1, 48)
      , (46694, 67116641, 200, 8)
      , (46694, 67116641, 208, 48);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46694, 2, 6) /* CREATURE_TYPE_INT */
+     , (46694, 386, 5) /*  */
+     , (46694, 25, 265) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46694, 64, 82000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46694, 2, 6) /* CREATURE_TYPE_INT */
+     , (46694, 386, 5) /*  */
+     , (46694, 307, 15) /* DAMAGE_RATING_INT */
+     , (46694, 308, 10) /* DAMAGE_RESIST_RATING_INT */
+     , (46694, 25, 265) /* LEVEL_INT */
+     , (46694, 315, 10) /* CRIT_RESIST_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (46694, 1, 330) /* STRENGTH_ATTRIBUTE */
+     , (46694, 2, 300) /* ENDURANCE_ATTRIBUTE */
+     , (46694, 4, 350) /* COORDINATION_ATTRIBUTE */
+     , (46694, 8, 325) /* QUICKNESS_ATTRIBUTE */
+     , (46694, 16, 350) /* FOCUS_ATTRIBUTE */
+     , (46694, 32, 350) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46694, 64, 82000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (46694, 128, 10000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (46694, 256, 6000) /* MAX_MANA_ATTRIBUTE_2ND */;
+

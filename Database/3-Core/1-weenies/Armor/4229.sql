@@ -45,3 +45,23 @@ VALUES (4229, 0, 83887064, 83889914)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4229, 0, 16778829);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4229, 15, 'Leggings crafted from the hide of a Reed Shark.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4229, 19, 300) /* VALUE_INT */
+     , (4229, 5, 960) /* ENCUMB_VAL_INT */
+     , (4229, 28, 60) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (4229, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (4229, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (4229, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (4229, 16, 1.1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (4229, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (4229, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (4229, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (4229, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

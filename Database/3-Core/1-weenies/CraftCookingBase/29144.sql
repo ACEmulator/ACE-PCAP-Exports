@@ -35,6 +35,16 @@ VALUES (29144, 13, True) /* ETHEREAL_BOOL */
      , (29144, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29144, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29144, 16, 'This wooden keg has a slight cherry odor. Its wood is dry and healthy. It would make a perfect receptacle for a well-crafted brew.') /* LONG_DESC_STRING */
+     , (29144, 14, 'Use this keg on a fermented brew to fill it with tasty libations.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29144, 19, 200) /* VALUE_INT */
+     , (29144, 5, 4000) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

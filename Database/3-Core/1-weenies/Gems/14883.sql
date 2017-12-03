@@ -44,6 +44,18 @@ VALUES (14883, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14883, 9, 16785620);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14883, 16, 'The lower half of a green singularity key.') /* LONG_DESC_STRING */
+     , (14883, 14, 'Combine with Ring of a Singularity Key.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14883, 33, 1) /* BONDED_INT */
+     , (14883, 114, 1) /* ATTUNED_INT */
+     , (14883, 19, 0) /* VALUE_INT */
+     , (14883, 5, 40) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

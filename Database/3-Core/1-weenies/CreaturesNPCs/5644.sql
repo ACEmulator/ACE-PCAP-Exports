@@ -92,3 +92,26 @@ VALUES (5644, 12, 16778423)
      , (5644, 8, 16778428)
      , (5644, 16, 16779635);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5644, 5, 'Trophy Collector') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (5644, 16, 67109567) /* EYES_PALETTE_DID */
+     , (5644, 9, 83890276) /* EYES_TEXTURE_DID */
+     , (5644, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (5644, 10, 83890300) /* NOSE_TEXTURE_DID */
+     , (5644, 11, 83890328) /* MOUTH_TEXTURE_DID */
+     , (5644, 15, 67117026) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5644, 113, 2) /* GENDER_INT */
+     , (5644, 2, 31) /* CREATURE_TYPE_INT */
+     , (5644, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (5644, 25, 50) /* LEVEL_INT */
+     , (5644, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (5644, 64, 123) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

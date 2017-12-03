@@ -44,3 +44,40 @@ VALUES (41895, 13, True) /* ETHEREAL_BOOL */
      , (41895, 19, True) /* ATTACKABLE_BOOL */
      , (41895, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41895, 16, 'A reward for defeating the leaders of the Reedshark Clan.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41895, 160, 360) /* WIELD_DIFFICULTY_INT */
+     , (41895, 353, 9) /* WEAPON_TYPE_INT */
+     , (41895, 19, 25000) /* VALUE_INT */
+     , (41895, 5, 600) /* ENCUMB_VAL_INT */
+     , (41895, 166, 6) /* SLAYER_CREATURE_TYPE_INT */
+     , (41895, 263, 2) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (41895, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (41895, 108, 600) /* ITEM_MAX_MANA_INT */
+     , (41895, 109, 120) /* ITEM_DIFFICULTY_INT */
+     , (41895, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41895, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (41895, 45, 0) /* DAMAGE_TYPE_INT */
+     , (41895, 49, 60) /* WEAPON_TIME_INT */
+     , (41895, 48, 47) /* WEAPON_SKILL_INT */
+     , (41895, 44, 14) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41895, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (41895, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (41895, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (41895, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (41895, 63, 2.55) /* DAMAGE_MOD_FLOAT */
+     , (41895, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41895, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41895, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41895, 2059) /* CoordinationSelf7_SpellID */
+     , (41895, 2004) /* WarriorsVitality_SpellID */
+     , (41895, 2096) /* BloodDrinker7_SpellID */;
+

@@ -39,3 +39,42 @@ VALUES (28621, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28621, 67116181, 136, 24);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28621, 16, 'Diforsa Leggings') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28621, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
+     , (28621, 19, 8887) /* VALUE_INT */
+     , (28621, 131, 58) /* MATERIAL_TYPE_INT */
+     , (28621, 115, 280) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (28621, 5, 2054) /* ENCUMB_VAL_INT */
+     , (28621, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (28621, 106, 260) /* ITEM_SPELLCRAFT_INT */
+     , (28621, 28, 212) /* ARMOR_LEVEL_INT */
+     , (28621, 108, 934) /* ITEM_MAX_MANA_INT */
+     , (28621, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (28621, 109, 55) /* ITEM_DIFFICULTY_INT */
+     , (28621, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28621, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (28621, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28621, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28621, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28621, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28621, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28621, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28621, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28621, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28621, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28621, 1539) /* LightningBane5_SpellID */
+     , (28621, 1484) /* Impenetrability4_SpellID */
+     , (28621, 1496) /* AcidBane4_SpellID */
+     , (28621, 1528) /* FrostBane6_SpellID */;
+

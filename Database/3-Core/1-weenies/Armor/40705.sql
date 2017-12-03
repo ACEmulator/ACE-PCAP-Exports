@@ -47,3 +47,47 @@ VALUES (40705, 0, 83889344, 83894184)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40705, 0, 16778416);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40705, 16, 'Covenant Sollerets of Curing') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40705, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
+     , (40705, 160, 245) /* WIELD_DIFFICULTY_INT */
+     , (40705, 19, 36192) /* VALUE_INT */
+     , (40705, 131, 58) /* MATERIAL_TYPE_INT */
+     , (40705, 115, 311) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (40705, 36, 9999) /* RESIST_MAGIC_INT */
+     , (40705, 5, 193) /* ENCUMB_VAL_INT */
+     , (40705, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (40705, 106, 291) /* ITEM_SPELLCRAFT_INT */
+     , (40705, 28, 377) /* ARMOR_LEVEL_INT */
+     , (40705, 108, 1051) /* ITEM_MAX_MANA_INT */
+     , (40705, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40705, 109, 135) /* ITEM_DIFFICULTY_INT */
+     , (40705, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (40705, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40705, 159, 15) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40705, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (40705, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (40705, 14, 1.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (40705, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (40705, 16, 1.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (40705, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (40705, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (40705, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (40705, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40705, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40705, 1486) /* Impenetrability6_SpellID */
+     , (40705, 1574) /* PiercingBane6_SpellID */
+     , (40705, 879) /* HealingMasterySelf6_SpellID */
+     , (40705, 2098) /* BludgeonBane7_SpellID */
+     , (40705, 2102) /* FlameBane7_SpellID */;
+

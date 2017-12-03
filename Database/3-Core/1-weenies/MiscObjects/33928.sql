@@ -34,3 +34,17 @@ VALUES (33928, 13, True) /* ETHEREAL_BOOL */
      , (33928, 19, True) /* ATTACKABLE_BOOL */
      , (33928, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33928, 16, 'A closed scroll, addressed to Nen Ai, located at 34.8S 71.2E, southwest of the town of Shoushi.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33928, 33, 1) /* BONDED_INT */
+     , (33928, 114, 1) /* ATTUNED_INT */
+     , (33928, 19, 0) /* VALUE_INT */
+     , (33928, 5, 15) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33928, 69, 0) /* IS_SELLABLE_BOOL */;
+

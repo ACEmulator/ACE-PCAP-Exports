@@ -84,3 +84,26 @@ VALUES (40996, 12, 16777304)
      , (40996, 13, 16783871)
      , (40996, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40996, 5, 'Portal Researcher') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (40996, 16, 67109564) /* EYES_PALETTE_DID */
+     , (40996, 9, 83890448) /* EYES_TEXTURE_DID */
+     , (40996, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (40996, 10, 83890554) /* NOSE_TEXTURE_DID */
+     , (40996, 11, 83890613) /* MOUTH_TEXTURE_DID */
+     , (40996, 15, 67117017) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40996, 113, 1) /* GENDER_INT */
+     , (40996, 2, 31) /* CREATURE_TYPE_INT */
+     , (40996, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (40996, 25, 118) /* LEVEL_INT */
+     , (40996, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (40996, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

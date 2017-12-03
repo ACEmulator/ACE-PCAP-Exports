@@ -51,3 +51,16 @@ VALUES (52734, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52734, 0, 16778611);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52734, 16, 'A backpack with several side pouches.') /* LONG_DESC_STRING */
+     , (52734, 14, 'Use this item to close it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52734, 19, 35) /* VALUE_INT */
+     , (52734, 5, 14015) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52734, 2, 1) /* OPEN_BOOL */;
+

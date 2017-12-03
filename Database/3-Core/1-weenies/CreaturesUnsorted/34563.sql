@@ -32,6 +32,25 @@ VALUES (34563, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (34563, 19, True) /* ATTACKABLE_BOOL */
      , (34563, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (34563, 16, 67109565) /* EYES_PALETTE_DID */
+     , (34563, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (34563, 17, 67110053) /* SKIN_PALETTE_DID */
+     , (34563, 10, 83890530) /* NOSE_TEXTURE_DID */
+     , (34563, 11, 83890629) /* MOUTH_TEXTURE_DID */
+     , (34563, 15, 67117024) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34563, 113, 1) /* GENDER_INT */
+     , (34563, 2, 31) /* CREATURE_TYPE_INT */
+     , (34563, 25, 115) /* LEVEL_INT */
+     , (34563, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34563, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

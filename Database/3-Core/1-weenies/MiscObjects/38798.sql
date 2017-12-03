@@ -34,3 +34,14 @@ VALUES (38798, 13, True) /* ETHEREAL_BOOL */
      , (38798, 19, True) /* ATTACKABLE_BOOL */
      , (38798, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38798, 16, 'This sheet of paper has been imprinted with the relief of an ancient stone carving.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38798, 33, 1) /* BONDED_INT */
+     , (38798, 114, 1) /* ATTUNED_INT */
+     , (38798, 19, 0) /* VALUE_INT */
+     , (38798, 5, 5) /* ENCUMB_VAL_INT */;
+

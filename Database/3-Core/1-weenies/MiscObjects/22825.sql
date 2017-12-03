@@ -45,3 +45,13 @@ VALUES (22825, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22825, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22825, 14, 'You have no apparent use for this rock. Perhaps someone else might find it useful.') /* USE_STRING */
+     , (22825, 15, 'A Lump of Coal') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22825, 19, 10) /* VALUE_INT */
+     , (22825, 5, 5) /* ENCUMB_VAL_INT */;
+

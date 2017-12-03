@@ -48,3 +48,26 @@ VALUES (621, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (621, 0, 16778335);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (621, 16, 'Heavy Bracelet of Bludgeon Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (621, 19, 5029) /* VALUE_INT */
+     , (621, 131, 61) /* MATERIAL_TYPE_INT */
+     , (621, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (621, 5, 150) /* ENCUMB_VAL_INT */
+     , (621, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (621, 106, 234) /* ITEM_SPELLCRAFT_INT */
+     , (621, 108, 2101) /* ITEM_MAX_MANA_INT */
+     , (621, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (621, 109, 234) /* ITEM_DIFFICULTY_INT */
+     , (621, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (621, 5, -0.05555556) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (621, 1023) /* BludgeonProtectionSelf6_SpellID */;
+

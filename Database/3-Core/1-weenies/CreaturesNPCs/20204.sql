@@ -85,3 +85,26 @@ VALUES (20204, 2, 16777293)
      , (20204, 4, 16777291)
      , (20204, 8, 16777298);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20204, 5, 'Explorer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (20204, 16, 67109566) /* EYES_PALETTE_DID */
+     , (20204, 9, 83890448) /* EYES_TEXTURE_DID */
+     , (20204, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (20204, 10, 83890547) /* NOSE_TEXTURE_DID */
+     , (20204, 11, 83890663) /* MOUTH_TEXTURE_DID */
+     , (20204, 15, 67116988) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20204, 113, 1) /* GENDER_INT */
+     , (20204, 2, 31) /* CREATURE_TYPE_INT */
+     , (20204, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (20204, 25, 5) /* LEVEL_INT */
+     , (20204, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (20204, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

@@ -34,3 +34,13 @@ VALUES (42163, 13, True) /* ETHEREAL_BOOL */
      , (42163, 19, True) /* ATTACKABLE_BOOL */
      , (42163, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42163, 16, 'A portal leading to a Mosswart Camp where the Ice Tachi will be found.') /* LONG_DESC_STRING */
+     , (42163, 38, 'Mosswart Camp (27.5S, 70.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42163, 86, 10) /* MIN_LEVEL_INT */
+     , (42163, 111, 49) /* PORTAL_BITMASK_INT */;
+

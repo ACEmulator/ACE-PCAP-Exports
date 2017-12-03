@@ -31,3 +31,14 @@ VALUES (38081, 13, True) /* ETHEREAL_BOOL */
      , (38081, 19, True) /* ATTACKABLE_BOOL */
      , (38081, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38081, 16, 'This silver ring is graven with unreadable runes, but you think you might recognize the seal of Menilesh on it...') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38081, 33, 1) /* BONDED_INT */
+     , (38081, 114, 1) /* ATTUNED_INT */
+     , (38081, 19, 0) /* VALUE_INT */
+     , (38081, 5, 50) /* ENCUMB_VAL_INT */;
+

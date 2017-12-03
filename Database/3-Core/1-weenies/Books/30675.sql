@@ -33,6 +33,19 @@ VALUES (30675, 13, True) /* ETHEREAL_BOOL */
      , (30675, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30675, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30675, 16, 'List of items the Agents of Arcanum will take in trade for housing writs.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30675, 33, 0) /* BONDED_INT */
+     , (30675, 114, 0) /* ATTUNED_INT */
+     , (30675, 19, 0) /* VALUE_INT */
+     , (30675, 5, 25) /* ENCUMB_VAL_INT */
+     , (30675, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (30675, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

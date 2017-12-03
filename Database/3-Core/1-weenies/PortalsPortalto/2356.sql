@@ -33,3 +33,12 @@ VALUES (2356, 13, True) /* ETHEREAL_BOOL */
      , (2356, 19, True) /* ATTACKABLE_BOOL */
      , (2356, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2356, 38, 'Portal to Lighthouse (4.0N, 73.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2356, 86, 18) /* MIN_LEVEL_INT */
+     , (2356, 111, 17) /* PORTAL_BITMASK_INT */;
+

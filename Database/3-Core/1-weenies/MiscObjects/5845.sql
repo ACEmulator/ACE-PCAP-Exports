@@ -35,6 +35,18 @@ VALUES (5845, 13, True) /* ETHEREAL_BOOL */
      , (5845, 19, True) /* ATTACKABLE_BOOL */
      , (5845, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5845, 16, 'Written transcription of Dericostian runes discovered on a Standing Stone near the Bandit Castle. The runes appear to be cut off, as if most of the message were missing.') /* LONG_DESC_STRING */
+     , (5845, 14, 'To use this item, find the other pieces.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5845, 33, 1) /* BONDED_INT */
+     , (5845, 114, 1) /* ATTUNED_INT */
+     , (5845, 19, 20) /* VALUE_INT */
+     , (5845, 5, 25) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

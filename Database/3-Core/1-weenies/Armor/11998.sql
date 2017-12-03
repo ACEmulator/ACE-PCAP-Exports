@@ -43,3 +43,32 @@ VALUES (11998, 67113375, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11998, 0, 16787332);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11998, 16, 'A mask made out of some indeterminable metal. It seems to reflect light in a strange manner. Occasionally the eyes glow with a violet radiance.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11998, 19, 4000) /* VALUE_INT */
+     , (11998, 5, 300) /* ENCUMB_VAL_INT */
+     , (11998, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (11998, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (11998, 28, 200) /* ARMOR_LEVEL_INT */
+     , (11998, 109, 160) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (11998, 5, -0.0333) /* MANA_RATE_FLOAT */
+     , (11998, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (11998, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (11998, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (11998, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (11998, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (11998, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (11998, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (11998, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (11998, 1483) /* Impenetrability3_SpellID */
+     , (11998, 1311) /* ArmorSelf5_SpellID */
+     , (11998, 248) /* InvulnerabilitySelf5_SpellID */;
+

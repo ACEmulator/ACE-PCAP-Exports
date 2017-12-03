@@ -33,3 +33,12 @@ VALUES (29339, 13, True) /* ETHEREAL_BOOL */
      , (29339, 19, True) /* ATTACKABLE_BOOL */
      , (29339, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29339, 16, 'You must complete the Sentry''s quest before you may use this portal.') /* LONG_DESC_STRING */
+     , (29339, 38, 'Exit to Sanamar (72.4N, 61.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29339, 111, 49) /* PORTAL_BITMASK_INT */;
+

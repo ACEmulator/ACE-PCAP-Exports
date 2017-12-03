@@ -42,3 +42,17 @@ VALUES (36665, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36665, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36665, 16, 'Polished Fire Opal from the Lugian mines.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36665, 33, 1) /* BONDED_INT */
+     , (36665, 114, 1) /* ATTUNED_INT */
+     , (36665, 19, 100) /* VALUE_INT */
+     , (36665, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36665, 69, 1) /* IS_SELLABLE_BOOL */;
+

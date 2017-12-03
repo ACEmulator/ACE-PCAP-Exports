@@ -33,3 +33,11 @@ VALUES (12468, 13, True) /* ETHEREAL_BOOL */
      , (12468, 19, True) /* ATTACKABLE_BOOL */
      , (12468, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12468, 38, 'Aimaru Plains Cottages Portal (28.2S, 75.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12468, 111, 1) /* PORTAL_BITMASK_INT */;
+

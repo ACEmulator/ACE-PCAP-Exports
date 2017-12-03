@@ -48,3 +48,33 @@ VALUES (19551, 0, 83891219, 83891219);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19551, 0, 16778341);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19551, 16, 'A red gorget, crafted from a strong metal, imbued with an elixir of nimbleness and elixir of spring. As you hold the gorget in your hand you feel a soft vibration.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19551, 160, 45) /* WIELD_DIFFICULTY_INT */
+     , (19551, 33, 1) /* BONDED_INT */
+     , (19551, 114, 1) /* ATTUNED_INT */
+     , (19551, 19, 5000) /* VALUE_INT */
+     , (19551, 5, 150) /* ENCUMB_VAL_INT */
+     , (19551, 106, 225) /* ITEM_SPELLCRAFT_INT */
+     , (19551, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (19551, 109, 180) /* ITEM_DIFFICULTY_INT */
+     , (19551, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (19551, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (19551, 5, -0.033) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (19551, 99, 1) /* IVORYABLE_BOOL */
+     , (19551, 69, 0) /* IS_SELLABLE_BOOL */
+     , (19551, 94, 1) /* APPRAISAL_HAS_ALLOWED_ACTIVATOR_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (19551, 513) /* AcidProtectionOther5_SpellID */
+     , (19551, 1383) /* CoordinationOther5_SpellID */
+     , (19551, 2669) /* NuhmudirasBestowment_SpellID */;
+

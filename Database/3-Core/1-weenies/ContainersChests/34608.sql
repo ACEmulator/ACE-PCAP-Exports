@@ -37,6 +37,21 @@ VALUES (34608, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (34608, 19, True) /* ATTACKABLE_BOOL */
      , (34608, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34608, 14, 'Use the Colosseum Key to unlock this cache.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34608, 19, 2500) /* VALUE_INT */
+     , (34608, 5, 17856) /* ENCUMB_VAL_INT */
+     , (34608, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (34608, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34608, 2, 0) /* OPEN_BOOL */
+     , (34608, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

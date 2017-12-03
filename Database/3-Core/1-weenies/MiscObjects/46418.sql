@@ -31,3 +31,17 @@ VALUES (46418, 13, True) /* ETHEREAL_BOOL */
      , (46418, 14, True) /* GRAVITY_STATUS_BOOL */
      , (46418, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46418, 15, 'A certificate that grants the bearer all level 8 item spells. Bring this certificate to an Agent of the Arcanum. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46418, 33, 1) /* BONDED_INT */
+     , (46418, 114, 1) /* ATTUNED_INT */
+     , (46418, 19, 2) /* VALUE_INT */
+     , (46418, 5, 5) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46418, 69, 0) /* IS_SELLABLE_BOOL */;
+

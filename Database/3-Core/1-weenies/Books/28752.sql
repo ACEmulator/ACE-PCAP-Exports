@@ -33,3 +33,16 @@ VALUES (28752, 13, True) /* ETHEREAL_BOOL */
      , (28752, 14, True) /* GRAVITY_STATUS_BOOL */
      , (28752, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28752, 16, 'A page from the journal of Sir Binwas Loc.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28752, 33, 1) /* BONDED_INT */
+     , (28752, 114, 0) /* ATTUNED_INT */
+     , (28752, 19, 0) /* VALUE_INT */
+     , (28752, 5, 100) /* ENCUMB_VAL_INT */
+     , (28752, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (28752, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

@@ -49,3 +49,19 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (51643, 0, 16778639)
      , (51643, 1, 16778642);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51643, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51643, 19, 2500) /* VALUE_INT */
+     , (51643, 36, 9999) /* RESIST_MAGIC_INT */
+     , (51643, 5, 11249) /* ENCUMB_VAL_INT */
+     , (51643, 38, 600) /* RESIST_LOCKPICK_INT */
+     , (51643, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51643, 2, 0) /* OPEN_BOOL */
+     , (51643, 3, 1) /* LOCKED_BOOL */;
+

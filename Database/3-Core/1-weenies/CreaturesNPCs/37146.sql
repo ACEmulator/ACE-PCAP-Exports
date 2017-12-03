@@ -89,3 +89,16 @@ VALUES (37146, 9, 16793660)
      , (37146, 8, 16777708)
      , (37146, 16, 16793659);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37146, 5, 'Ghostly Maiden') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37146, 2, 77) /* CREATURE_TYPE_INT */
+     , (37146, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (37146, 25, 86) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (37146, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

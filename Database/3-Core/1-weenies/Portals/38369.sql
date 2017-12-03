@@ -31,3 +31,15 @@ VALUES (38369, 13, True) /* ETHEREAL_BOOL */
      , (38369, 19, True) /* ATTACKABLE_BOOL */
      , (38369, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38369, 38, 'Temple Door') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38369, 98, 1484898018) /* CREATION_TIMESTAMP_INT */
+     , (38369, 86, 180) /* MIN_LEVEL_INT */
+     , (38369, 267, 300) /* LIFESPAN_INT */
+     , (38369, 268, 166) /* REMAINING_LIFESPAN_INT */
+     , (38369, 111, 49) /* PORTAL_BITMASK_INT */;
+

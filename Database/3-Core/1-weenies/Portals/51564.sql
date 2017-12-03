@@ -33,3 +33,12 @@ VALUES (51564, 13, True) /* ETHEREAL_BOOL */
      , (51564, 19, True) /* ATTACKABLE_BOOL */
      , (51564, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51564, 38, 'Seed of Hatred') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51564, 86, 180) /* MIN_LEVEL_INT */
+     , (51564, 111, 49) /* PORTAL_BITMASK_INT */;
+

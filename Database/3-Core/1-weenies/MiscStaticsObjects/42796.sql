@@ -29,3 +29,13 @@ VALUES (42796, 13, True) /* ETHEREAL_BOOL */
      , (42796, 19, True) /* ATTACKABLE_BOOL */
      , (42796, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42796, 16, 'Eastham is an Aluvian town located on the coast along the road connecting Arwic to Rithwic. It is also the closest human settlement to Asheron''s Island, which for many years was closed to outsiders. Now however, one need only stroll over to the windmill to find a permanent portal to the Empyrean''s isle and his castle.') /* LONG_DESC_STRING */
+     , (42796, 14, 'The master smith of the Aluvians resides in Eastham, crafting powerful Celdon armor from the remains of Shadow and Crystal. People looking to craft costumes will also find a master mask crafter here.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42796, 19, 125) /* VALUE_INT */
+     , (42796, 5, 9000) /* ENCUMB_VAL_INT */;
+

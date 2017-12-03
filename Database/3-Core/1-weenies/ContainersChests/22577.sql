@@ -37,6 +37,22 @@ VALUES (22577, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22577, 19, True) /* ATTACKABLE_BOOL */
      , (22577, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22577, 16, 'A heavy iron chest. There are strange runes carved around the lid.') /* LONG_DESC_STRING */
+     , (22577, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22577, 19, 200) /* VALUE_INT */
+     , (22577, 5, 11735) /* ENCUMB_VAL_INT */
+     , (22577, 38, 100) /* RESIST_LOCKPICK_INT */
+     , (22577, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22577, 2, 0) /* OPEN_BOOL */
+     , (22577, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

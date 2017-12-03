@@ -49,3 +49,49 @@ VALUES (30377, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30377, 0, 16780142);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30377, 16, 'Rakhil al-Kur was the First Malik, the founder of the nation of Gharu''n.  He was the one who led the first wave of nomadic peoples in a campaign of conquest, sweeping the antiquated Roulean Empire out of Tirethas.  A great mage of Tirethas who sought to curry favor with the Malik crafted this wand for him, which bears the mark of Rakhil''s chosen symbol, the eagle.  Rakhil found the present pleasing enough, but he showed little patience for magical study and this wand soon ended up gathering dust in the royal storehouse of the al-Nafalt.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30377, 320, 1) /* ITEM_XP_STYLE_INT */
+     , (30377, 384, 1) /*  */
+     , (30377, 17, 278) /* RARE_ID_INT */
+     , (30377, 19, 50000) /* VALUE_INT */
+     , (30377, 179, 512) /* IMBUED_EFFECT_INT */
+     , (30377, 5, 100) /* ENCUMB_VAL_INT */
+     , (30377, 265, 41) /* EQUIPMENT_SET_ID_INT */
+     , (30377, 106, 500) /* ITEM_SPELLCRAFT_INT */
+     , (30377, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (30377, 108, 8000) /* ITEM_MAX_MANA_INT */
+     , (30377, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30377, 45, 16) /* DAMAGE_TYPE_INT */
+     , (30377, 319, 50) /* ITEM_MAX_LEVEL_INT */
+     , (30377, 383, 1) /*  */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (30377, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */
+     , (30377, 5, 2000000000) /* ITEM_BASE_XP_INT64 */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30377, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (30377, 144, 0.324) /* MANA_CONVERSION_MOD_FLOAT */
+     , (30377, 152, 1.35) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (30377, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (30377, 29, 1.38) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30377, 91, 1) /* RETAINED_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30377, 2128) /* FlameBolt7_SpellID */
+     , (30377, 4299) /* EnduranceSelf8_SpellID */
+     , (30377, 4494) /* ManaRenewalSelf8_SpellID */
+     , (30377, 4638) /* WarMagicMasterySelf8_SpellID */
+     , (30377, 4705) /* CANTRIPMANACONVERSIONPROWESS3_SpellID */
+     , (30377, 4578) /* LeadershipMasterySelf8_SpellID */
+     , (30377, 4329) /* WillpowerSelf8_SpellID */
+     , (30377, 4468) /* FireProtectionSelf8_SpellID */
+     , (30377, 4670) /* CANTRIPSPIRITTHIRST3_SpellID */;
+

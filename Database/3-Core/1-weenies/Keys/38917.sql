@@ -36,3 +36,20 @@ VALUES (38917, 13, True) /* ETHEREAL_BOOL */
      , (38917, 19, True) /* ATTACKABLE_BOOL */
      , (38917, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38917, 16, 'A crystalline key that coruscates with purple energies.') /* LONG_DESC_STRING */
+     , (38917, 14, 'Use this key to open any of the chests within the Mana Forges.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38917, 33, 0) /* BONDED_INT */
+     , (38917, 114, 0) /* ATTUNED_INT */
+     , (38917, 19, 20000) /* VALUE_INT */
+     , (38917, 5, 30) /* ENCUMB_VAL_INT */
+     , (38917, 91, 2) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38917, 99, 0) /* IVORYABLE_BOOL */
+     , (38917, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -43,3 +43,27 @@ VALUES (6963, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6963, 67112871, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6963, 33, 1) /* BONDED_INT */
+     , (6963, 353, 8) /* WEAPON_TYPE_INT */
+     , (6963, 114, 1) /* ATTUNED_INT */
+     , (6963, 19, 400) /* VALUE_INT */
+     , (6963, 5, 980) /* ENCUMB_VAL_INT */
+     , (6963, 45, 0) /* DAMAGE_TYPE_INT */
+     , (6963, 49, 35) /* WEAPON_TIME_INT */
+     , (6963, 48, 47) /* WEAPON_SKILL_INT */
+     , (6963, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6963, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (6963, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (6963, 63, 2.1) /* DAMAGE_MOD_FLOAT */
+     , (6963, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (6963, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (6963, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6963, 69, 0) /* IS_SELLABLE_BOOL */;
+

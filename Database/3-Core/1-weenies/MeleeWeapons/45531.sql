@@ -50,3 +50,30 @@ VALUES (45531, 0, 83886712, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45531, 0, 16777992);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45531, 15, 'An enhanced tungi crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45531, 33, 1) /* BONDED_INT */
+     , (45531, 353, 3) /* WEAPON_TYPE_INT */
+     , (45531, 19, 200) /* VALUE_INT */
+     , (45531, 5, 200) /* ENCUMB_VAL_INT */
+     , (45531, 47, 4) /* ATTACK_TYPE_INT */
+     , (45531, 45, 1) /* DAMAGE_TYPE_INT */
+     , (45531, 49, 0) /* WEAPON_TIME_INT */
+     , (45531, 48, 46) /* WEAPON_SKILL_INT */
+     , (45531, 44, 38) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45531, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
+     , (45531, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (45531, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (45531, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (45531, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (45531, 62, 1.23) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45531, 69, 0) /* IS_SELLABLE_BOOL */;
+

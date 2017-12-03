@@ -49,3 +49,51 @@ VALUES (30347, 0, 83897123, 83897123);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30347, 0, 16792027);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30347, 16, 'One of the more eccentric Maliks in the long history of Gharu''n was Qorsh the Cold, who had an unhealthy fascination with snakes.  One day, one of his young nephews was surprised in the great gardens of Nishadina by a large snake.  Thinking quickly, the youth killed the snake with a quick shot from his atlatl.  The snake turned out to be the favorite pet of Qorsh, the youth''s uncle.  Enraged, Qorsh had the child put to death, and the offending atlatl was given over to craftsmen to remake in the image of the Malik''s much-mourned pet.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30347, 320, 1) /* ITEM_XP_STYLE_INT */
+     , (30347, 353, 10) /* WEAPON_TYPE_INT */
+     , (30347, 17, 284) /* RARE_ID_INT */
+     , (30347, 19, 50000) /* VALUE_INT */
+     , (30347, 179, 16) /* IMBUED_EFFECT_INT */
+     , (30347, 5, 480) /* ENCUMB_VAL_INT */
+     , (30347, 265, 41) /* EQUIPMENT_SET_ID_INT */
+     , (30347, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (30347, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (30347, 204, 15) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (30347, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30347, 319, 50) /* ITEM_MAX_LEVEL_INT */
+     , (30347, 45, 2) /* DAMAGE_TYPE_INT */
+     , (30347, 49, 30) /* WEAPON_TIME_INT */
+     , (30347, 48, 47) /* WEAPON_SKILL_INT */
+     , (30347, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (30347, 4, 0) /* ITEM_TOTAL_XP_INT64 */
+     , (30347, 5, 2000000000) /* ITEM_BASE_XP_INT64 */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30347, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (30347, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (30347, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
+     , (30347, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (30347, 63, 2.9) /* DAMAGE_MOD_FLOAT */
+     , (30347, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30347, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30347, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30347, 4417) /* Swiftkiller8_SpellID */
+     , (30347, 4682) /* CANTRIPSTAMINAGAIN3_SpellID */
+     , (30347, 4299) /* EnduranceSelf8_SpellID */
+     , (30347, 4687) /* CANTRIPBOWAPTITUDE3_SpellID */
+     , (30347, 4522) /* BowMasterySelf8_SpellID */
+     , (30347, 4395) /* Blooddrinker8_SpellID */
+     , (30347, 4400) /* Defender8_SpellID */
+     , (30347, 4472) /* PiercingProtectionSelf8_SpellID */
+     , (30347, 3963) /* CANTRIPCOORDINATION3_SpellID */;
+

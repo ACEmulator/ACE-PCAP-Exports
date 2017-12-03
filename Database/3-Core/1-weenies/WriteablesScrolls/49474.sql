@@ -35,3 +35,17 @@ VALUES (49474, 13, True) /* ETHEREAL_BOOL */
      , (49474, 19, True) /* ATTACKABLE_BOOL */
      , (49474, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49474, 16, 'Inscribed spell: Summoning Mastery Self V
+Increases the caster''s Summoning skill by 30 points.') /* LONG_DESC_STRING */
+     , (49474, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49474, 19, 200) /* VALUE_INT */
+     , (49474, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (49474, 6120) /* SummoningMasterySelf5_SpellID */;
+

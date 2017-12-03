@@ -33,3 +33,12 @@ VALUES (7295, 13, True) /* ETHEREAL_BOOL */
      , (7295, 19, True) /* ATTACKABLE_BOOL */
      , (7295, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7295, 38, 'Halls of Metos') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7295, 86, 15) /* MIN_LEVEL_INT */
+     , (7295, 111, 1) /* PORTAL_BITMASK_INT */;
+

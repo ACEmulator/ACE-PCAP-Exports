@@ -47,3 +47,18 @@ VALUES (15854, 0, 83892962, 83893942)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15854, 0, 16785505);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15854, 16, 'A tome. The pages of this book have been hastily placed within the binding. The first page shows the picture of an altar, or dias') /* LONG_DESC_STRING */
+     , (15854, 14, 'Use this book on a dias to activate the magic within.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15854, 33, 0) /* BONDED_INT */
+     , (15854, 114, 0) /* ATTUNED_INT */
+     , (15854, 19, 0) /* VALUE_INT */
+     , (15854, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (15854, 69, 0) /* IS_SELLABLE_BOOL */;
+

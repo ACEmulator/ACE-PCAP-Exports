@@ -37,3 +37,31 @@ VALUES (11725, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11725, 19, True) /* ATTACKABLE_BOOL */
      , (11725, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11725, 2, 1) /* CREATURE_TYPE_INT */
+     , (11725, 25, 80) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (11725, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11725, 2, 1) /* CREATURE_TYPE_INT */
+     , (11725, 25, 80) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (11725, 1, 300) /* STRENGTH_ATTRIBUTE */
+     , (11725, 2, 300) /* ENDURANCE_ATTRIBUTE */
+     , (11725, 4, 130) /* COORDINATION_ATTRIBUTE */
+     , (11725, 8, 130) /* QUICKNESS_ATTRIBUTE */
+     , (11725, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (11725, 32, 50) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (11725, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (11725, 128, 550) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (11725, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
+

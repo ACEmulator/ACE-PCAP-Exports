@@ -30,3 +30,12 @@ VALUES (925, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (925, 19, True) /* ATTACKABLE_BOOL */
      , (925, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (925, 16, 'Welcome to the village of Mayoi. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (925, 19, 125) /* VALUE_INT */
+     , (925, 5, 9000) /* ENCUMB_VAL_INT */;
+

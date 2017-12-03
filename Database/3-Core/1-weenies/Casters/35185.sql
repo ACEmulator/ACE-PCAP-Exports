@@ -44,3 +44,29 @@ VALUES (35185, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35185, 67111338, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35185, 176, 31) /* APPRAISAL_ITEM_SKILL_INT */
+     , (35185, 33, 1) /* BONDED_INT */
+     , (35185, 114, 0) /* ATTUNED_INT */
+     , (35185, 19, 22114) /* VALUE_INT */
+     , (35185, 115, 315) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (35185, 5, 14) /* ENCUMB_VAL_INT */
+     , (35185, 106, 320) /* ITEM_SPELLCRAFT_INT */
+     , (35185, 108, 1800) /* ITEM_MAX_MANA_INT */
+     , (35185, 109, 121) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35185, 144, 0.25) /* MANA_CONVERSION_MOD_FLOAT */
+     , (35185, 5, -0.02) /* MANA_RATE_FLOAT */
+     , (35185, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35185, 99, 0) /* IVORYABLE_BOOL */
+     , (35185, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35185, 2348) /* BrillianceOther_SpellID */
+     , (35185, 2574) /* CANTRIPFOCUS2_SpellID */;
+

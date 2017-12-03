@@ -95,3 +95,16 @@ VALUES (43405, 0, 16783897)
      , (43405, 15, 16789333)
      , (43405, 16, 16794540);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43405, 5, 'Seer of the Light Falatacot') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43405, 2, 77) /* CREATURE_TYPE_INT */
+     , (43405, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (43405, 25, 600) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43405, 64, 700) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

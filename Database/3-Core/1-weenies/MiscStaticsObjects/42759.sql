@@ -29,3 +29,12 @@ VALUES (42759, 13, True) /* ETHEREAL_BOOL */
      , (42759, 19, True) /* ATTACKABLE_BOOL */
      , (42759, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42759, 16, 'Plateau Village is a remote settlement located on a large plateau in northwestern Osteth. Chefs looking to add some flavor to their dishes may wish to visit the spice merchant here, and adventurers looking to reach the legendary city of Frore will find a certain planar mage to be quite helpful.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42759, 19, 125) /* VALUE_INT */
+     , (42759, 5, 9000) /* ENCUMB_VAL_INT */;
+

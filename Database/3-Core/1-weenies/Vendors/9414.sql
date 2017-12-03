@@ -61,6 +61,16 @@ VALUES (9414, 0, 16785699)
      , (9414, 19, 16785704)
      , (9414, 20, 16785705);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9414, 2, 5) /* CREATURE_TYPE_INT */
+     , (9414, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (9414, 25, 66) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (9414, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

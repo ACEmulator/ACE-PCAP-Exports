@@ -33,3 +33,12 @@ VALUES (42837, 13, True) /* ETHEREAL_BOOL */
      , (42837, 19, True) /* ATTACKABLE_BOOL */
      , (42837, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42837, 16, 'This portal is tied to the Viamontian outpost of Westwatch. This outpost is a good place for characters above level 20.') /* LONG_DESC_STRING */
+     , (42837, 38, 'Portal to Westwatch (72.8N, 73.4W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42837, 111, 1) /* PORTAL_BITMASK_INT */;
+

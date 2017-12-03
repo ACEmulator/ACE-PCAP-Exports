@@ -47,6 +47,16 @@ VALUES (15751, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15751, 0, 16783325);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15751, 16, 'A phial filled with a thick, oily silver substance. The smell is too awful to possibly think of imbibing.') /* LONG_DESC_STRING */
+     , (15751, 14, 'This item is used in the infusing of precious metals.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15751, 19, 10) /* VALUE_INT */
+     , (15751, 5, 15) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

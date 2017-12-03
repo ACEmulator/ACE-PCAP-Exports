@@ -35,3 +35,17 @@ VALUES (2895, 13, True) /* ETHEREAL_BOOL */
      , (2895, 19, True) /* ATTACKABLE_BOOL */
      , (2895, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2895, 16, 'Inscribed spell: Turn Blade IV
+Decreases a weapon''s Attack Skill modifier by 10.0 percentage points.') /* LONG_DESC_STRING */
+     , (2895, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2895, 19, 100) /* VALUE_INT */
+     , (2895, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2895, 1596) /* TurnBlade4_SpellID */;
+

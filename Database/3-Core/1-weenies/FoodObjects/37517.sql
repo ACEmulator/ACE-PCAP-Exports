@@ -50,6 +50,24 @@ VALUES (37517, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37517, 0, 16778735);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37517, 14, 'Use this item to drink it.') /* USE_STRING */
+     , (37517, 15, 'This elixir has been enhanced by the Arcanum to be extra potent.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37517, 33, 1) /* BONDED_INT */
+     , (37517, 114, 1) /* ATTUNED_INT */
+     , (37517, 19, 1000) /* VALUE_INT */
+     , (37517, 5, 75) /* ENCUMB_VAL_INT */
+     , (37517, 280, 4) /* SHARED_COOLDOWN_INT */
+     , (37517, 89, 2) /* BOOSTER_ENUM_INT */
+     , (37517, 90, 200) /* BOOST_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (37517, 167, 30) /* COOLDOWN_DURATION_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

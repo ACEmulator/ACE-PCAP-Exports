@@ -35,3 +35,17 @@ VALUES (7520, 13, True) /* ETHEREAL_BOOL */
      , (7520, 19, True) /* ATTACKABLE_BOOL */
      , (7520, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7520, 16, 'Inscribed spell: Foon-Ki''s Glacial Floe
+Sends a wall of five balls of frost, two high, slowly towards the target. Each ball does 35-70 points of cold damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* LONG_DESC_STRING */
+     , (7520, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7520, 19, 200) /* VALUE_INT */
+     , (7520, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7520, 1843) /* FrostWall_SpellID */;
+

@@ -50,3 +50,34 @@ VALUES (45406, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45406, 0, 16777984);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45406, 16, 'Yaoji') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45406, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (45406, 353, 2) /* WEAPON_TYPE_INT */
+     , (45406, 177, 1) /* GEM_COUNT_INT */
+     , (45406, 178, 12) /* GEM_TYPE_INT */
+     , (45406, 19, 3410) /* VALUE_INT */
+     , (45406, 131, 48) /* MATERIAL_TYPE_INT */
+     , (45406, 5, 221) /* ENCUMB_VAL_INT */
+     , (45406, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (45406, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (45406, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (45406, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (45406, 47, 6) /* ATTACK_TYPE_INT */
+     , (45406, 45, 3) /* DAMAGE_TYPE_INT */
+     , (45406, 49, 27) /* WEAPON_TIME_INT */
+     , (45406, 48, 46) /* WEAPON_SKILL_INT */
+     , (45406, 44, 41) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45406, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (45406, 22, 0.52) /* DAMAGE_VARIANCE_FLOAT */
+     , (45406, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (45406, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (45406, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (45406, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+

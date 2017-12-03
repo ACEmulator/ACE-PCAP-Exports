@@ -47,3 +47,52 @@ VALUES (41927, 0, 83889235, 83892492)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41927, 0, 16783995);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41927, 16, 'A ghostly blue sword, bound to your soul.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41927, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (41927, 33, 1) /* BONDED_INT */
+     , (41927, 353, 11) /* WEAPON_TYPE_INT */
+     , (41927, 114, 0) /* ATTUNED_INT */
+     , (41927, 19, 0) /* VALUE_INT */
+     , (41927, 292, 2) /* CLEAVING_INT */
+     , (41927, 5, 220) /* ENCUMB_VAL_INT */
+     , (41927, 166, 77) /* SLAYER_CREATURE_TYPE_INT */
+     , (41927, 106, 475) /* ITEM_SPELLCRAFT_INT */
+     , (41927, 108, 2700) /* ITEM_MAX_MANA_INT */
+     , (41927, 158, 1) /* WIELD_REQUIREMENTS_INT */
+     , (41927, 47, 6) /* ATTACK_TYPE_INT */
+     , (41927, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (41927, 45, 3) /* DAMAGE_TYPE_INT */
+     , (41927, 49, 35) /* WEAPON_TIME_INT */
+     , (41927, 48, 41) /* WEAPON_SKILL_INT */
+     , (41927, 44, 36) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41927, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (41927, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (41927, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (41927, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (41927, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
+     , (41927, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (41927, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41927, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41927, 62, 1.2) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41927, 99, 0) /* IVORYABLE_BOOL */
+     , (41927, 69, 0) /* IS_SELLABLE_BOOL */
+     , (41927, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41927, 2116) /* Swiftkiller7_SpellID */
+     , (41927, 5070) /* CANTRIPTWOHANDEDAPTITUDE2_SpellID */
+     , (41927, 2579) /* CANTRIPCOORDINATION1_SpellID */
+     , (41927, 2583) /* CANTRIPSTRENGTH1_SpellID */
+     , (41927, 2096) /* BloodDrinker7_SpellID */
+     , (41927, 2101) /* Defender7_SpellID */
+     , (41927, 2106) /* Heartseeker7_SpellID */;
+

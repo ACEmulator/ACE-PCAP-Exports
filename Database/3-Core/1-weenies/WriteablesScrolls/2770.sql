@@ -35,3 +35,17 @@ VALUES (2770, 13, True) /* ETHEREAL_BOOL */
      , (2770, 19, True) /* ATTACKABLE_BOOL */
      , (2770, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2770, 16, 'Inscribed spell: Acid Lure V
+Decreases a shield or piece of armor''s resistance to acid damage by 100%.') /* LONG_DESC_STRING */
+     , (2770, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2770, 19, 200) /* VALUE_INT */
+     , (2770, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2770, 1503) /* AcidLure5_SpellID */;
+

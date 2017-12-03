@@ -37,6 +37,21 @@ VALUES (11358, 13, True) /* ETHEREAL_BOOL */
      , (11358, 19, True) /* ATTACKABLE_BOOL */
      , (11358, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11358, 14, 'Use this on a small bundle of Siraluun feathers.') /* USE_STRING */
+     , (11358, 15, 'A beautifully embroidered bag nearly filled with three bundles of Siraluun feathers.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11358, 33, 1) /* BONDED_INT */
+     , (11358, 114, 1) /* ATTUNED_INT */
+     , (11358, 19, 0) /* VALUE_INT */
+     , (11358, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11358, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

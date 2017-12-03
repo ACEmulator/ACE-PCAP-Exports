@@ -39,3 +39,34 @@ VALUES (12213, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12213, 0, 16787408);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12213, 16, 'A facial wrap that shields your face from sight. It is rumored that these were the same masks worn by the Elite Shagar Zharala that assassinated King Laszko.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12213, 19, 4000) /* VALUE_INT */
+     , (12213, 5, 600) /* ENCUMB_VAL_INT */
+     , (12213, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (12213, 28, 250) /* ARMOR_LEVEL_INT */
+     , (12213, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (12213, 188, 2) /* HERITAGE_GROUP_INT */
+     , (12213, 109, 100) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12213, 5, -0.0333) /* MANA_RATE_FLOAT */
+     , (12213, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (12213, 14, 1.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (12213, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (12213, 16, 1.35) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (12213, 17, 1.35) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (12213, 18, 1.35) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (12213, 19, 1.35) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (12213, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12213, 398) /* StaffMasterySelf5_SpellID */
+     , (12213, 1311) /* ArmorSelf5_SpellID */
+     , (12213, 876) /* HealingMasterySelf3_SpellID */
+     , (12213, 248) /* InvulnerabilitySelf5_SpellID */;
+

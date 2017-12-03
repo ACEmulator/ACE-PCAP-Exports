@@ -212,3 +212,12 @@ VALUES (24060, 0, 16777846)
      , (24060, 11, 16777856)
      , (24060, 12, 16777851);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24060, 16, 'A small decorative statue of a Reedshark crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24060, 19, 20000) /* VALUE_INT */
+     , (24060, 5, 5000) /* ENCUMB_VAL_INT */;
+

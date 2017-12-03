@@ -36,6 +36,17 @@ VALUES (32273, 13, True) /* ETHEREAL_BOOL */
      , (32273, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32273, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32273, 16, 'A book about new brewing recipes by Duke Raoul the Brewmaster.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32273, 19, 500) /* VALUE_INT */
+     , (32273, 5, 200) /* ENCUMB_VAL_INT */
+     , (32273, 174, 4) /* APPRAISAL_PAGES_INT */
+     , (32273, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

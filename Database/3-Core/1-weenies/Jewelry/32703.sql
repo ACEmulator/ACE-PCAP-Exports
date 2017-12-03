@@ -44,3 +44,12 @@ VALUES (32703, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32703, 0, 16778334);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32703, 15, 'A bracelet looted from the corpse of a Viamontian Mage.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32703, 19, 500) /* VALUE_INT */
+     , (32703, 5, 25) /* ENCUMB_VAL_INT */;
+

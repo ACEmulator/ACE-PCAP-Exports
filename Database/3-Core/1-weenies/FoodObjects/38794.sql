@@ -50,6 +50,24 @@ VALUES (38794, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38794, 0, 16778735);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38794, 14, 'Use this item to drink it.  After you drink it, you will not be able to use another Black Market or Enhanced health elixir for an hour.') /* USE_STRING */
+     , (38794, 15, 'A vial of very powerful Health potion.  Hazardous to use too often.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38794, 33, 1) /* BONDED_INT */
+     , (38794, 114, 1) /* ATTUNED_INT */
+     , (38794, 19, 2100000) /* VALUE_INT */
+     , (38794, 5, 1575) /* ENCUMB_VAL_INT */
+     , (38794, 280, 4) /* SHARED_COOLDOWN_INT */
+     , (38794, 89, 2) /* BOOSTER_ENUM_INT */
+     , (38794, 90, 300) /* BOOST_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (38794, 167, 300) /* COOLDOWN_DURATION_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

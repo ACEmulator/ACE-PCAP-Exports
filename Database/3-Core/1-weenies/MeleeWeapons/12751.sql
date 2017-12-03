@@ -49,3 +49,30 @@ VALUES (12751, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12751, 0, 16777885);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12751, 15, 'An enhanced battle axe crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12751, 353, 3) /* WEAPON_TYPE_INT */
+     , (12751, 33, 1) /* BONDED_INT */
+     , (12751, 19, 200) /* VALUE_INT */
+     , (12751, 5, 200) /* ENCUMB_VAL_INT */
+     , (12751, 47, 4) /* ATTACK_TYPE_INT */
+     , (12751, 45, 1) /* DAMAGE_TYPE_INT */
+     , (12751, 49, 25) /* WEAPON_TIME_INT */
+     , (12751, 48, 44) /* WEAPON_SKILL_INT */
+     , (12751, 44, 18) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12751, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
+     , (12751, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (12751, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (12751, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12751, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12751, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (12751, 69, 0) /* IS_SELLABLE_BOOL */;
+

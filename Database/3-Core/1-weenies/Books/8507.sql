@@ -34,6 +34,17 @@ VALUES (8507, 13, True) /* ETHEREAL_BOOL */
      , (8507, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8507, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8507, 16, 'A heavy bound book, filled with small, tight, neatly printed Dericostian runes.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8507, 19, 90) /* VALUE_INT */
+     , (8507, 5, 500) /* ENCUMB_VAL_INT */
+     , (8507, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (8507, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

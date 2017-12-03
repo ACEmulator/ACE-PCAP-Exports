@@ -33,3 +33,13 @@ VALUES (33302, 13, True) /* ETHEREAL_BOOL */
      , (33302, 19, True) /* ATTACKABLE_BOOL */
      , (33302, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33302, 16, 'This portal is warded against those who have not earned the right to access the sacred Vault of Eternal Slumber.') /* LONG_DESC_STRING */
+     , (33302, 38, 'Vault of Eternal Slumber') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33302, 86, 100) /* MIN_LEVEL_INT */
+     , (33302, 111, 49) /* PORTAL_BITMASK_INT */;
+

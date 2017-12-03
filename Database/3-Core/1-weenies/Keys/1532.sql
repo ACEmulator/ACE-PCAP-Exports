@@ -35,3 +35,14 @@ VALUES (1532, 13, True) /* ETHEREAL_BOOL */
      , (1532, 19, True) /* ATTACKABLE_BOOL */
      , (1532, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1532, 16, 'Using the Baron''s key, you can gain access to the ancient tunnels deep within Colier Mine.') /* LONG_DESC_STRING */
+     , (1532, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1532, 19, 80) /* VALUE_INT */
+     , (1532, 5, 50) /* ENCUMB_VAL_INT */
+     , (1532, 91, 10) /* MAX_STRUCTURE_INT */;
+

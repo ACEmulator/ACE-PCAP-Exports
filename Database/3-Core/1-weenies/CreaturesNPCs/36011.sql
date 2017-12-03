@@ -39,6 +39,19 @@ VALUES (36011, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (36011, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (36011, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36011, 5, 'Prodigal Shadow Child') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36011, 2, 22) /* CREATURE_TYPE_INT */
+     , (36011, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (36011, 25, 161) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (36011, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

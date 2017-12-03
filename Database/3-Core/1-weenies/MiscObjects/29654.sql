@@ -41,3 +41,12 @@ VALUES (29654, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29654, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29654, 16, 'A handful of black and white mixed marbles.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29654, 19, 0) /* VALUE_INT */
+     , (29654, 5, 1) /* ENCUMB_VAL_INT */;
+

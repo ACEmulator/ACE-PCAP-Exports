@@ -52,3 +52,36 @@ VALUES (21376, 0, 83887061, 83894259)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21376, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21376, 15, 'A purple robe once worn by the half-man, half-virindi, Candeth Martine.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21376, 160, 30) /* WIELD_DIFFICULTY_INT */
+     , (21376, 19, 5000) /* VALUE_INT */
+     , (21376, 5, 450) /* ENCUMB_VAL_INT */
+     , (21376, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (21376, 28, 30) /* ARMOR_LEVEL_INT */
+     , (21376, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (21376, 109, 150) /* ITEM_DIFFICULTY_INT */
+     , (21376, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (21376, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21376, 5, -0.0333) /* MANA_RATE_FLOAT */
+     , (21376, 13, 0.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (21376, 14, 0.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (21376, 15, 0.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (21376, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (21376, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (21376, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (21376, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (21376, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21376, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21376, 592) /* ItemEnchantmentMasteryOther6_SpellID */;
+

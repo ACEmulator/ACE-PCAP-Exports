@@ -35,3 +35,12 @@ VALUES (4421, 0, 83889909, 83889909);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4421, 0, 16782239);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4421, 16, 'Sarthagg''s Jewels and Gems') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4421, 19, 125) /* VALUE_INT */
+     , (4421, 5, 9000) /* ENCUMB_VAL_INT */;
+

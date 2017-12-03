@@ -53,3 +53,44 @@ VALUES (27974, 0, 83895105, 83895105)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27974, 0, 16790325);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27974, 16, 'A Crossbow crafted in Falatacot times. This weapon was crafted for the sole purpose of killing.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27974, 160, 335) /* WIELD_DIFFICULTY_INT */
+     , (27974, 353, 9) /* WEAPON_TYPE_INT */
+     , (27974, 19, 6000) /* VALUE_INT */
+     , (27974, 5, 1100) /* ENCUMB_VAL_INT */
+     , (27974, 106, 375) /* ITEM_SPELLCRAFT_INT */
+     , (27974, 108, 1200) /* ITEM_MAX_MANA_INT */
+     , (27974, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (27974, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (27974, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (27974, 45, 0) /* DAMAGE_TYPE_INT */
+     , (27974, 49, 100) /* WEAPON_TIME_INT */
+     , (27974, 48, 47) /* WEAPON_SKILL_INT */
+     , (27974, 44, 10) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27974, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (27974, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (27974, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (27974, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (27974, 63, 2.9) /* DAMAGE_MOD_FLOAT */
+     , (27974, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (27974, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (27974, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27974, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27974, 1605) /* Defender6_SpellID */
+     , (27974, 1616) /* BloodDrinker6_SpellID */
+     , (27974, 1627) /* SwiftKiller6_SpellID */
+     , (27974, 1384) /* CoordinationOther6_SpellID */
+     , (27974, 188) /* RejuvenationOther6_SpellID */
+     , (27974, 2687) /* ModerateBowAptitude_SpellID */;
+

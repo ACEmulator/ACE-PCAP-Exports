@@ -47,3 +47,48 @@ VALUES (27830, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27830, 0, 16777920);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27830, 15, 'A katar imbued with Singularity energy.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27830, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (27830, 33, 1) /* BONDED_INT */
+     , (27830, 353, 1) /* WEAPON_TYPE_INT */
+     , (27830, 114, 0) /* ATTUNED_INT */
+     , (27830, 19, 0) /* VALUE_INT */
+     , (27830, 5, 135) /* ENCUMB_VAL_INT */
+     , (27830, 166, 19) /* SLAYER_CREATURE_TYPE_INT */
+     , (27830, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (27830, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (27830, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (27830, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (27830, 47, 1) /* ATTACK_TYPE_INT */
+     , (27830, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (27830, 45, 3) /* DAMAGE_TYPE_INT */
+     , (27830, 49, 20) /* WEAPON_TIME_INT */
+     , (27830, 48, 46) /* WEAPON_SKILL_INT */
+     , (27830, 44, 41) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27830, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (27830, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (27830, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (27830, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (27830, 22, 0.71) /* DAMAGE_VARIANCE_FLOAT */
+     , (27830, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (27830, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (27830, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (27830, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27830, 99, 0) /* IVORYABLE_BOOL */
+     , (27830, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27830, 1616) /* BloodDrinker6_SpellID */
+     , (27830, 2583) /* CANTRIPSTRENGTH1_SpellID */
+     , (27830, 1592) /* HeartSeeker6_SpellID */
+     , (27830, 1337) /* StrengthOther6_SpellID */;
+

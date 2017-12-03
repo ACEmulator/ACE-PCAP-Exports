@@ -38,6 +38,22 @@ VALUES (48741, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (48741, 19, True) /* ATTACKABLE_BOOL */
      , (48741, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48741, 16, 'A chest containing the highest quality armor. ') /* LONG_DESC_STRING */
+     , (48741, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48741, 19, 2500) /* VALUE_INT */
+     , (48741, 5, 14639) /* ENCUMB_VAL_INT */
+     , (48741, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (48741, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48741, 2, 0) /* OPEN_BOOL */
+     , (48741, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

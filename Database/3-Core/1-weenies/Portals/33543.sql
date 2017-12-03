@@ -33,3 +33,12 @@ VALUES (33543, 13, True) /* ETHEREAL_BOOL */
      , (33543, 19, True) /* ATTACKABLE_BOOL */
      , (33543, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33543, 38, 'Deep Mukkir Nest') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33543, 86, 150) /* MIN_LEVEL_INT */
+     , (33543, 111, 49) /* PORTAL_BITMASK_INT */;
+

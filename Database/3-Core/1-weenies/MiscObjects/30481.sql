@@ -44,3 +44,14 @@ VALUES (30481, 0, 83888921, 83887050);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30481, 0, 16778771);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30481, 16, 'A fine porcelain bowl, painted with delicate Sho designs in indigo. This bowl belonged to Worcer''s mother, June, before she was slain by Tumeroks in the Holtburg Redoubt.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30481, 33, 1) /* BONDED_INT */
+     , (30481, 114, 1) /* ATTUNED_INT */
+     , (30481, 19, 0) /* VALUE_INT */
+     , (30481, 5, 10) /* ENCUMB_VAL_INT */;
+

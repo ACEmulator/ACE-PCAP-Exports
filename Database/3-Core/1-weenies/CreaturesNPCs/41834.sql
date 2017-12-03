@@ -70,6 +70,41 @@ VALUES (41834, 5, 16794136)
      , (41834, 22, 16777708)
      , (41834, 21, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41834, 5, 'Palm Fort Commander') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (41834, 16, 67110062) /* EYES_PALETTE_DID */
+     , (41834, 9, 83890447) /* EYES_TEXTURE_DID */
+     , (41834, 17, 67110052) /* SKIN_PALETTE_DID */
+     , (41834, 10, 83890528) /* NOSE_TEXTURE_DID */
+     , (41834, 11, 83890630) /* MOUTH_TEXTURE_DID */
+     , (41834, 15, 67117075) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41834, 113, 1) /* GENDER_INT */
+     , (41834, 2, 31) /* CREATURE_TYPE_INT */
+     , (41834, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (41834, 25, 200) /* LEVEL_INT */
+     , (41834, 281, 1) /* FACTION1_BITS_INT */
+     , (41834, 188, 3) /* HERITAGE_GROUP_INT */
+     , (41834, 287, 1001) /* SOCIETY_RANK_CELHAN_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (41834, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (41834, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (41834, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (41834, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (41834, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (41834, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (41834, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (41834, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (41834, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 /* Object Wield List */

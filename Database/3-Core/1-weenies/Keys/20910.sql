@@ -41,3 +41,16 @@ VALUES (20910, 67113868, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20910, 9, 16785620);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20910, 14, 'Use this item on a special singularity chest to unlock it.') /* USE_STRING */
+     , (20910, 15, 'A blue key coruscating with foreign energy.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20910, 33, 1) /* BONDED_INT */
+     , (20910, 114, 1) /* ATTUNED_INT */
+     , (20910, 19, 0) /* VALUE_INT */
+     , (20910, 5, 50) /* ENCUMB_VAL_INT */
+     , (20910, 91, 1) /* MAX_STRUCTURE_INT */;
+

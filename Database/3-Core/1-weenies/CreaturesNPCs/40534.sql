@@ -42,3 +42,34 @@ VALUES (40534, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40534, 67111926, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40534, 15, 'A small Crystal Array, designed to strengthen the defenses of those within the Society of the Celestial Hand that use it.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40534, 384, 0) /*  */
+     , (40534, 370, 0) /* GEAR_DAMAGE_INT */
+     , (40534, 386, 0) /*  */
+     , (40534, 307, 0) /* DAMAGE_RATING_INT */
+     , (40534, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (40534, 387, 0) /*  */
+     , (40534, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (40534, 372, 0) /* GEAR_CRIT_INT */
+     , (40534, 388, 0) /*  */
+     , (40534, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (40534, 389, 0) /*  */
+     , (40534, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (40534, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (40534, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (40534, 313, 0) /* CRIT_RATING_INT */
+     , (40534, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (40534, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (40534, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (40534, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (40534, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (40534, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (40534, 381, 0) /*  */
+     , (40534, 382, 0) /*  */
+     , (40534, 383, 0) /*  */;
+

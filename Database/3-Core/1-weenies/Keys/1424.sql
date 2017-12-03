@@ -35,3 +35,14 @@ VALUES (1424, 13, True) /* ETHEREAL_BOOL */
      , (1424, 19, True) /* ATTACKABLE_BOOL */
      , (1424, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1424, 16, 'An unidentified, mysterious key of unknown purpose.') /* LONG_DESC_STRING */
+     , (1424, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1424, 19, 50) /* VALUE_INT */
+     , (1424, 5, 50) /* ENCUMB_VAL_INT */
+     , (1424, 91, 3) /* MAX_STRUCTURE_INT */;
+

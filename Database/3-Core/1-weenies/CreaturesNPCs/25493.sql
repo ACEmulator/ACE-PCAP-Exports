@@ -65,3 +65,26 @@ VALUES (25493, 0, 16785699)
      , (25493, 19, 16785704)
      , (25493, 20, 16785705);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25493, 5, 'Gotrok Sergeant') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25493, 2, 70) /* CREATURE_TYPE_INT */
+     , (25493, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (25493, 25, 50) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (25493, 1, 260) /* STRENGTH_ATTRIBUTE */
+     , (25493, 2, 210) /* ENDURANCE_ATTRIBUTE */
+     , (25493, 4, 125) /* COORDINATION_ATTRIBUTE */
+     , (25493, 8, 130) /* QUICKNESS_ATTRIBUTE */
+     , (25493, 16, 110) /* FOCUS_ATTRIBUTE */
+     , (25493, 32, 150) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (25493, 64, 215) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25493, 128, 370) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25493, 256, 150) /* MAX_MANA_ATTRIBUTE_2ND */;
+

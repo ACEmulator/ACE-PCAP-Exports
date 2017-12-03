@@ -89,3 +89,36 @@ VALUES (5064, 12, 16778423)
      , (5064, 4, 16778426)
      , (5064, 8, 16778428);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5064, 5, 'Citizen of Yanshi') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (5064, 16, 67110063) /* EYES_PALETTE_DID */
+     , (5064, 9, 83890275) /* EYES_TEXTURE_DID */
+     , (5064, 17, 67110050) /* SKIN_PALETTE_DID */
+     , (5064, 10, 83890301) /* NOSE_TEXTURE_DID */
+     , (5064, 11, 83890349) /* MOUTH_TEXTURE_DID */
+     , (5064, 15, 67117077) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5064, 113, 2) /* GENDER_INT */
+     , (5064, 2, 31) /* CREATURE_TYPE_INT */
+     , (5064, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (5064, 25, 9) /* LEVEL_INT */
+     , (5064, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (5064, 1, 65) /* STRENGTH_ATTRIBUTE */
+     , (5064, 2, 75) /* ENDURANCE_ATTRIBUTE */
+     , (5064, 4, 65) /* COORDINATION_ATTRIBUTE */
+     , (5064, 8, 85) /* QUICKNESS_ATTRIBUTE */
+     , (5064, 16, 65) /* FOCUS_ATTRIBUTE */
+     , (5064, 32, 60) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (5064, 64, 68) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5064, 128, 105) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5064, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+

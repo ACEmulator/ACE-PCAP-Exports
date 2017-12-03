@@ -40,6 +40,27 @@ VALUES (31000, 13, True) /* ETHEREAL_BOOL */
      , (31000, 19, True) /* ATTACKABLE_BOOL */
      , (31000, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31000, 16, 'A gift from the late Antius Blackmoor and his Page in Arwic. This gem is eternal. You can use it as often as you like.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31000, 33, 1) /* BONDED_INT */
+     , (31000, 114, 1) /* ATTUNED_INT */
+     , (31000, 19, 0) /* VALUE_INT */
+     , (31000, 5, 0) /* ENCUMB_VAL_INT */
+     , (31000, 280, 3) /* SHARED_COOLDOWN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31000, 167, 30) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31000, 63, 1) /* UNLIMITED_USE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31000, 3811) /* BlackmoorsFavor_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

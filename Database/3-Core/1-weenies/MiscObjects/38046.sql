@@ -46,3 +46,19 @@ VALUES (38046, 0, 83887061, 83889766)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38046, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38046, 16, 'An old and timeworn Yoroi Cuirass, that once belonged to the famous Green Mire Warrior.') /* LONG_DESC_STRING */
+     , (38046, 14, 'Take this to Hiro Ishigame in Shoushi to be repaired.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38046, 33, 1) /* BONDED_INT */
+     , (38046, 114, 1) /* ATTUNED_INT */
+     , (38046, 19, 0) /* VALUE_INT */
+     , (38046, 5, 915) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38046, 99, 0) /* IVORYABLE_BOOL */
+     , (38046, 69, 0) /* IS_SELLABLE_BOOL */;
+

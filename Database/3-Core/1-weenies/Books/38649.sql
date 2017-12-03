@@ -34,3 +34,14 @@ VALUES (38649, 13, True) /* ETHEREAL_BOOL */
      , (38649, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38649, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38649, 16, 'A letter from the spy Benedino to his Master.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38649, 19, 5) /* VALUE_INT */
+     , (38649, 5, 25) /* ENCUMB_VAL_INT */
+     , (38649, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (38649, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
+

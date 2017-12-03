@@ -47,3 +47,47 @@ VALUES (9038, 0, 83887064, 83893050)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9038, 0, 16778829);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9038, 16, 'A heavily enchanted set of crystalline leggings, of the type once worn into battle by the Exarchs of the Yalaini Order of Hieromancers') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (9038, 41, 34) /* ITEM_SPECIALIZED_ONLY_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9038, 19, 4800) /* VALUE_INT */
+     , (9038, 5, 75) /* ENCUMB_VAL_INT */
+     , (9038, 106, 270) /* ITEM_SPELLCRAFT_INT */
+     , (9038, 28, 0) /* ARMOR_LEVEL_INT */
+     , (9038, 108, 2000) /* ITEM_MAX_MANA_INT */
+     , (9038, 109, 50) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9038, 5, -0.125) /* MANA_RATE_FLOAT */
+     , (9038, 13, 0) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (9038, 14, 0) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (9038, 15, 0) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (9038, 16, 0) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (9038, 17, 0) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (9038, 18, 0) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (9038, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (9038, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9038, 69, 0) /* IS_SELLABLE_BOOL */
+     , (9038, 94, 1) /* APPRAISAL_HAS_ALLOWED_ACTIVATOR_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9038, 2378) /* BeastMurmur_SpellID */
+     , (9038, 992) /* SprintOther5_SpellID */
+     , (9038, 2349) /* HieroWard_SpellID */
+     , (9038, 2350) /* DecayDurance_SpellID */
+     , (9038, 2351) /* ConsumptionDurance_SpellID */
+     , (9038, 2352) /* StasisDurance_SpellID */
+     , (9038, 2353) /* StimulationDurance_SpellID */
+     , (9038, 2354) /* PiercingDuranceLess_SpellID */
+     , (9038, 2355) /* SlashingDuranceLess_SpellID */
+     , (9038, 2356) /* BludgeoningDuranceLess_SpellID */
+     , (9038, 1337) /* StrengthOther6_SpellID */;
+

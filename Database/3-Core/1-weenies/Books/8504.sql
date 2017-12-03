@@ -31,6 +31,17 @@ VALUES (8504, 13, True) /* ETHEREAL_BOOL */
      , (8504, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8504, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8504, 16, 'The translation of a note carried by Asmolum the Worm near the Ithaenc Cathedral.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8504, 19, 90) /* VALUE_INT */
+     , (8504, 5, 25) /* ENCUMB_VAL_INT */
+     , (8504, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (8504, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

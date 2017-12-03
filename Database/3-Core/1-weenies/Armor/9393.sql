@@ -43,3 +43,32 @@ VALUES (9393, 67110024, 168, 6);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9393, 0, 16785725);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9393, 16, 'A Large Mattekar arm guard, it covers your hand while hanging over some of the rest of your arm.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9393, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
+     , (9393, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (9393, 19, 4500) /* VALUE_INT */
+     , (9393, 5, 500) /* ENCUMB_VAL_INT */
+     , (9393, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (9393, 108, 200) /* ITEM_MAX_MANA_INT */
+     , (9393, 28, 80) /* ARMOR_LEVEL_INT */
+     , (9393, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9393, 5, -0.01) /* MANA_RATE_FLOAT */
+     , (9393, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (9393, 14, 0.9) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (9393, 15, 0.9) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (9393, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (9393, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (9393, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (9393, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (9393, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9393, 247) /* InvulnerabilitySelf4_SpellID */;
+

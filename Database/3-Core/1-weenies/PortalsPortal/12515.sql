@@ -33,3 +33,11 @@ VALUES (12515, 13, True) /* ETHEREAL_BOOL */
      , (12515, 19, True) /* ATTACKABLE_BOOL */
      , (12515, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12515, 38, 'Lugian Meadows Settlement Portal (74.5S, 65.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12515, 111, 1) /* PORTAL_BITMASK_INT */;
+

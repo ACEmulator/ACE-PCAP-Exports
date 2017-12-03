@@ -35,6 +35,20 @@ VALUES (29162, 13, True) /* ETHEREAL_BOOL */
      , (29162, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29162, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29162, 16, 'A nice, amber wort.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29162, 33, 0) /* BONDED_INT */
+     , (29162, 114, 0) /* ATTUNED_INT */
+     , (29162, 19, 50) /* VALUE_INT */
+     , (29162, 5, 150) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29162, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -38,6 +38,24 @@ VALUES (41945, 13, True) /* ETHEREAL_BOOL */
      , (41945, 19, True) /* ATTACKABLE_BOOL */
      , (41945, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41945, 16, 'This crystal sometimes shows an anguished face within its facets.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41945, 33, 1) /* BONDED_INT */
+     , (41945, 114, 1) /* ATTUNED_INT */
+     , (41945, 19, 0) /* VALUE_INT */
+     , (41945, 5, 0) /* ENCUMB_VAL_INT */
+     , (41945, 280, 50) /* SHARED_COOLDOWN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41945, 167, 3) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41945, 63, 1) /* UNLIMITED_USE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

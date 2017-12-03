@@ -34,6 +34,20 @@ VALUES (35480, 13, True) /* ETHEREAL_BOOL */
      , (35480, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35480, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35480, 14, 'This item cannot be read.') /* USE_STRING */
+     , (35480, 15, 'This shard of black obsidian throbs with the unwholesome magical emanations of the chaotic Virindi.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35480, 33, 1) /* BONDED_INT */
+     , (35480, 114, 1) /* ATTUNED_INT */
+     , (35480, 19, 0) /* VALUE_INT */
+     , (35480, 5, 50) /* ENCUMB_VAL_INT */
+     , (35480, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (35480, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

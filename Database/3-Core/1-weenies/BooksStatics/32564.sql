@@ -32,3 +32,15 @@ VALUES (32564, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (32564, 19, True) /* ATTACKABLE_BOOL */
      , (32564, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32564, 16, 'A simple shrine to Xao Wu of Yanshi.') /* LONG_DESC_STRING */
+     , (32564, 14, 'Use this shrine to read its inscription.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32564, 19, 0) /* VALUE_INT */
+     , (32564, 5, 8000) /* ENCUMB_VAL_INT */
+     , (32564, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (32564, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

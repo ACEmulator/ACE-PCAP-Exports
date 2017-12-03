@@ -37,6 +37,19 @@ VALUES (23033, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23033, 19, True) /* ATTACKABLE_BOOL */
      , (23033, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23033, 16, 'A chest in which rare crystals have been stored') /* LONG_DESC_STRING */
+     , (23033, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23033, 19, 200) /* VALUE_INT */
+     , (23033, 5, 9050) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23033, 2, 0) /* OPEN_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

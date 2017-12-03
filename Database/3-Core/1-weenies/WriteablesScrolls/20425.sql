@@ -35,3 +35,17 @@ VALUES (20425, 13, True) /* ETHEREAL_BOOL */
      , (20425, 19, True) /* ATTACKABLE_BOOL */
      , (20425, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20425, 16, 'Inscribed spell: Fortified Lock
+Increases a lock''s resistance to picking by 200 points.') /* LONG_DESC_STRING */
+     , (20425, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20425, 19, 2000) /* VALUE_INT */
+     , (20425, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20425, 2115) /* Strengthenlock7_SpellID */;
+

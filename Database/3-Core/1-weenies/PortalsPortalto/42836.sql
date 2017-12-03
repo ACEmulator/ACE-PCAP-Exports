@@ -33,3 +33,12 @@ VALUES (42836, 13, True) /* ETHEREAL_BOOL */
      , (42836, 19, True) /* ATTACKABLE_BOOL */
      , (42836, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42836, 16, 'This portal goes to the town of Redspire on the island of Marae Lassel. This is a good town for characters over level 10.') /* LONG_DESC_STRING */
+     , (42836, 38, 'Portal to Redspire (40.6N, 83.0W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42836, 111, 1) /* PORTAL_BITMASK_INT */;
+

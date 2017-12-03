@@ -49,3 +49,29 @@ VALUES (27225, 0, 83886796, 83895217)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27225, 0, 16778363);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27225, 16, 'Lorica Sleeves') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27225, 19, 10081) /* VALUE_INT */
+     , (27225, 131, 53) /* MATERIAL_TYPE_INT */
+     , (27225, 5, 664) /* ENCUMB_VAL_INT */
+     , (27225, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (27225, 28, 271) /* ARMOR_LEVEL_INT */
+     , (27225, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27225, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (27225, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (27225, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (27225, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (27225, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (27225, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (27225, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (27225, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27225, 100, 1) /* DYABLE_BOOL */;
+

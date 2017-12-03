@@ -33,3 +33,11 @@ VALUES (12498, 13, True) /* ETHEREAL_BOOL */
      , (12498, 19, True) /* ATTACKABLE_BOOL */
      , (12498, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12498, 38, 'Forgotten Hills Portal (14.1N, 37.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12498, 111, 1) /* PORTAL_BITMASK_INT */;
+

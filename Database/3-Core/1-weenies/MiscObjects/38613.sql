@@ -35,6 +35,18 @@ VALUES (38613, 13, True) /* ETHEREAL_BOOL */
      , (38613, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38613, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38613, 16, 'A piece of coral, black with a faint glowing aura around it.') /* LONG_DESC_STRING */
+     , (38613, 14, 'May be taken by people with the proper protections upon them.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38613, 33, 1) /* BONDED_INT */
+     , (38613, 114, 1) /* ATTUNED_INT */
+     , (38613, 19, 0) /* VALUE_INT */
+     , (38613, 5, 50) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

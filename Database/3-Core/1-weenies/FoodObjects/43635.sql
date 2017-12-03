@@ -45,6 +45,19 @@ VALUES (43635, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43635, 0, 16778735);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43635, 14, 'Use this item to drink it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43635, 33, 1) /* BONDED_INT */
+     , (43635, 114, 1) /* ATTUNED_INT */
+     , (43635, 19, 99) /* VALUE_INT */
+     , (43635, 5, 4950) /* ENCUMB_VAL_INT */
+     , (43635, 89, 6) /* BOOSTER_ENUM_INT */
+     , (43635, 90, 100) /* BOOST_VALUE_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -85,6 +85,40 @@ VALUES (43062, 2, 16777293)
      , (43062, 14, 16789089)
      , (43062, 11, 16777302);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43062, 5, 'Olthoi Crossbow Crafter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (43062, 16, 67109567) /* EYES_PALETTE_DID */
+     , (43062, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (43062, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (43062, 10, 83890560) /* NOSE_TEXTURE_DID */
+     , (43062, 11, 83890659) /* MOUTH_TEXTURE_DID */
+     , (43062, 15, 67116991) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43062, 113, 1) /* GENDER_INT */
+     , (43062, 2, 31) /* CREATURE_TYPE_INT */
+     , (43062, 307, 5) /* DAMAGE_RATING_INT */
+     , (43062, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (43062, 25, 150) /* LEVEL_INT */
+     , (43062, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (43062, 1, 165) /* STRENGTH_ATTRIBUTE */
+     , (43062, 2, 105) /* ENDURANCE_ATTRIBUTE */
+     , (43062, 4, 165) /* COORDINATION_ATTRIBUTE */
+     , (43062, 8, 160) /* QUICKNESS_ATTRIBUTE */
+     , (43062, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (43062, 32, 50) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43062, 64, 103) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (43062, 128, 155) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (43062, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

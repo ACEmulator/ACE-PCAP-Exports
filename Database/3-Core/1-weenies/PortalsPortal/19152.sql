@@ -33,3 +33,11 @@ VALUES (19152, 13, True) /* ETHEREAL_BOOL */
      , (19152, 19, True) /* ATTACKABLE_BOOL */
      , (19152, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19152, 38, 'Majestic Saddle Cottages Portal (39.5N, 22.5W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19152, 111, 1) /* PORTAL_BITMASK_INT */;
+

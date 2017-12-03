@@ -56,3 +56,45 @@ VALUES (45975, 0, 16789640)
      , (45975, 4, 16781840)
      , (45975, 5, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45975, 16, '') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45975, 160, 40) /* WIELD_DIFFICULTY_INT */
+     , (45975, 33, 1) /* BONDED_INT */
+     , (45975, 114, 1) /* ATTUNED_INT */
+     , (45975, 19, 100) /* VALUE_INT */
+     , (45975, 5, 300) /* ENCUMB_VAL_INT */
+     , (45975, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (45975, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (45975, 28, 480) /* ARMOR_LEVEL_INT */
+     , (45975, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (45975, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (45975, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45975, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (45975, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (45975, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (45975, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (45975, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (45975, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (45975, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (45975, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (45975, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45975, 99, 1) /* IVORYABLE_BOOL */
+     , (45975, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (45975, 514) /* AcidProtectionOther6_SpellID */
+     , (45975, 1486) /* Impenetrability6_SpellID */
+     , (45975, 6113) /* SummoningMasteryOther6_SpellID */
+     , (45975, 2597) /* CANTRIPACIDBANE1_SpellID */
+     , (45975, 2537) /* CANTRIPARCANEPROWESS1_SpellID */
+     , (45975, 6127) /* CantripSummoningProwess1_SpellID */
+     , (45975, 689) /* ArcaneEnlightenmentOther6_SpellID */;
+

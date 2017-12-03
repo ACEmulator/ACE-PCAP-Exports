@@ -35,3 +35,17 @@ VALUES (7514, 13, True) /* ETHEREAL_BOOL */
      , (7514, 19, True) /* ATTACKABLE_BOOL */
      , (7514, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7514, 16, 'Inscribed spell: Eye of the Storm
+Shoots eight waves of lightning outward from the caster. Each wave does 42-84 points of electric damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (7514, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7514, 19, 200) /* VALUE_INT */
+     , (7514, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7514, 1788) /* LightningRing_SpellID */;
+

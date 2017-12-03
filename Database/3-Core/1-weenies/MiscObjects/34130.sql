@@ -30,3 +30,8 @@ VALUES (34130, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (34130, 19, True) /* ATTACKABLE_BOOL */
      , (34130, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34130, 16, 'Bergbottom Hooberstunk. PY.1- P.Y.28. Creator of Dereth''s first automated chopping device. Rest in Pieces.') /* LONG_DESC_STRING */;
+

@@ -49,3 +49,40 @@ VALUES (46941, 0, 83894279, 83894279)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46941, 0, 16788368);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46941, 15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46941, 160, 2) /* WIELD_DIFFICULTY_INT */
+     , (46941, 33, 1) /* BONDED_INT */
+     , (46941, 114, 1) /* ATTUNED_INT */
+     , (46941, 19, 4000) /* VALUE_INT */
+     , (46941, 5, 120) /* ENCUMB_VAL_INT */
+     , (46941, 263, 32) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (46941, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (46941, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (46941, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (46941, 45, 32) /* DAMAGE_TYPE_INT */
+     , (46941, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (46941, 158, 8) /* WIELD_REQUIREMENTS_INT */
+     , (46941, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46941, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
+     , (46941, 152, 1.1) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (46941, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (46941, 5, -1) /* MANA_RATE_FLOAT */
+     , (46941, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (46941, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46941, 99, 1) /* IVORYABLE_BOOL */
+     , (46941, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46941, 2781) /* LesserElementalFuryAcid_SpellID */
+     , (46941, 4637) /* WarMagicMasteryOther8_SpellID */
+     , (46941, 4715) /* CANTRIPWARMAGICAPTITUDE3_SpellID */;
+

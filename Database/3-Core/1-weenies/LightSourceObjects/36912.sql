@@ -33,3 +33,13 @@ VALUES (36912, 13, True) /* ETHEREAL_BOOL */
      , (36912, 19, True) /* ATTACKABLE_BOOL */
      , (36912, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36912, 16, 'A warm wood stove guaranteed to ward off cold winter nights. A slight hint of chestnut seems to linger around the stove.') /* LONG_DESC_STRING */
+     , (36912, 14, 'This item may be placed on floor hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36912, 19, 10000) /* VALUE_INT */
+     , (36912, 5, 5000) /* ENCUMB_VAL_INT */;
+

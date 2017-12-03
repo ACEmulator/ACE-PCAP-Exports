@@ -44,3 +44,49 @@ VALUES (22974, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22974, 67111921, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22974, 16, 'The Silifi of Crimson Stars, its blade repaired using the spine of a Hoary Armoredillo. It is fitted with the rubies Al-Khur, Mahwan, and Sulmada.') /* LONG_DESC_STRING */
+     , (22974, 14, 'This silifi has been modified to hold a fourth gem: the Ruby of Crimson Night.  It can only hold on Ruby of Crimson Night.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22974, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (22974, 33, 1) /* BONDED_INT */
+     , (22974, 353, 3) /* WEAPON_TYPE_INT */
+     , (22974, 114, 1) /* ATTUNED_INT */
+     , (22974, 19, 12100) /* VALUE_INT */
+     , (22974, 5, 950) /* ENCUMB_VAL_INT */
+     , (22974, 263, 64) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (22974, 106, 170) /* ITEM_SPELLCRAFT_INT */
+     , (22974, 108, 900) /* ITEM_MAX_MANA_INT */
+     , (22974, 109, 110) /* ITEM_DIFFICULTY_INT */
+     , (22974, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (22974, 47, 4) /* ATTACK_TYPE_INT */
+     , (22974, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (22974, 45, 64) /* DAMAGE_TYPE_INT */
+     , (22974, 49, 0) /* WEAPON_TIME_INT */
+     , (22974, 48, 44) /* WEAPON_SKILL_INT */
+     , (22974, 44, 74) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22974, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (22974, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (22974, 29, 1.29) /* WEAPON_DEFENSE_FLOAT */
+     , (22974, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (22974, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (22974, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (22974, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (22974, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (22974, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (22974, 62, 1.37) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22974, 99, 1) /* IVORYABLE_BOOL */
+     , (22974, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (22974, 1605) /* Defender6_SpellID */
+     , (22974, 1616) /* BloodDrinker6_SpellID */
+     , (22974, 1384) /* CoordinationOther6_SpellID */;
+

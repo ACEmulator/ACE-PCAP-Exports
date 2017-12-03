@@ -33,3 +33,12 @@ VALUES (42711, 13, True) /* ETHEREAL_BOOL */
      , (42711, 19, True) /* ATTACKABLE_BOOL */
      , (42711, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42711, 38, 'Empyrean Facility Upper Level') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42711, 86, 75) /* MIN_LEVEL_INT */
+     , (42711, 111, 1) /* PORTAL_BITMASK_INT */;
+

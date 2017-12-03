@@ -50,3 +50,43 @@ VALUES (7768, 0, 83889088, 83889088)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7768, 0, 16784596);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7768, 16, 'Spiked Club of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7768, 176, 45) /* APPRAISAL_ITEM_SKILL_INT */
+     , (7768, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (7768, 353, 4) /* WEAPON_TYPE_INT */
+     , (7768, 19, 2559) /* VALUE_INT */
+     , (7768, 131, 75) /* MATERIAL_TYPE_INT */
+     , (7768, 115, 249) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (7768, 5, 664) /* ENCUMB_VAL_INT */
+     , (7768, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (7768, 106, 229) /* ITEM_SPELLCRAFT_INT */
+     , (7768, 108, 881) /* ITEM_MAX_MANA_INT */
+     , (7768, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (7768, 109, 104) /* ITEM_DIFFICULTY_INT */
+     , (7768, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (7768, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (7768, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (7768, 47, 4) /* ATTACK_TYPE_INT */
+     , (7768, 45, 2) /* DAMAGE_TYPE_INT */
+     , (7768, 49, 35) /* WEAPON_TIME_INT */
+     , (7768, 48, 45) /* WEAPON_SKILL_INT */
+     , (7768, 44, 20) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7768, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (7768, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
+     , (7768, 22, 0.37) /* DAMAGE_VARIANCE_FLOAT */
+     , (7768, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (7768, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (7768, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (7768, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7768, 1616) /* BloodDrinker6_SpellID */
+     , (7768, 1625) /* SwiftKiller4_SpellID */;
+

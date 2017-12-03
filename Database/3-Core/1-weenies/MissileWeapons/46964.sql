@@ -37,3 +37,46 @@ VALUES (46964, 13, True) /* ETHEREAL_BOOL */
      , (46964, 19, True) /* ATTACKABLE_BOOL */
      , (46964, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46964, 15, 'A crossbow constructed from obsidian and cerulean colored stone.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (46964, 55, 2228) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46964, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (46964, 33, 1) /* BONDED_INT */
+     , (46964, 353, 9) /* WEAPON_TYPE_INT */
+     , (46964, 114, 1) /* ATTUNED_INT */
+     , (46964, 19, 4000) /* VALUE_INT */
+     , (46964, 36, 9999) /* RESIST_MAGIC_INT */
+     , (46964, 5, 900) /* ENCUMB_VAL_INT */
+     , (46964, 106, 450) /* ITEM_SPELLCRAFT_INT */
+     , (46964, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (46964, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (46964, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (46964, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (46964, 45, 0) /* DAMAGE_TYPE_INT */
+     , (46964, 49, 70) /* WEAPON_TIME_INT */
+     , (46964, 48, 47) /* WEAPON_SKILL_INT */
+     , (46964, 44, 18) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46964, 29, 1.25) /* WEAPON_DEFENSE_FLOAT */
+     , (46964, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (46964, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (46964, 63, 2.5) /* DAMAGE_MOD_FLOAT */
+     , (46964, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (46964, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (46964, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46964, 99, 1) /* IVORYABLE_BOOL */
+     , (46964, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (46964, 2228) /* DefenselessnessOther7_SpellID */
+     , (46964, 4521) /* BowMasteryOther8_SpellID */;
+

@@ -40,3 +40,43 @@ VALUES (53317, 13, True) /* ETHEREAL_BOOL */
      , (53317, 19, True) /* ATTACKABLE_BOOL */
      , (53317, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53317, 16, 'A claw imbued with the energies of the Viridian Rise.') /* LONG_DESC_STRING */
+     , (53317, 14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53317, 160, 430) /* WIELD_DIFFICULTY_INT */
+     , (53317, 131, 75) /* MATERIAL_TYPE_INT */
+     , (53317, 19, 50) /* VALUE_INT */
+     , (53317, 5, 135) /* ENCUMB_VAL_INT */
+     , (53317, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (53317, 106, 450) /* ITEM_SPELLCRAFT_INT */
+     , (53317, 108, 5000) /* ITEM_MAX_MANA_INT */
+     , (53317, 109, 300) /* ITEM_DIFFICULTY_INT */
+     , (53317, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (53317, 47, 1) /* ATTACK_TYPE_INT */
+     , (53317, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (53317, 45, 64) /* DAMAGE_TYPE_INT */
+     , (53317, 49, 20) /* WEAPON_TIME_INT */
+     , (53317, 48, 46) /* WEAPON_SKILL_INT */
+     , (53317, 44, 48) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (53317, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
+     , (53317, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (53317, 22, 0.48) /* DAMAGE_VARIANCE_FLOAT */
+     , (53317, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (53317, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (53317, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (53317, 62, 1.18) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (53317, 4417) /* Swiftkiller8_SpellID */
+     , (53317, 6047) /* CantripDaggerAptitude4_SpellID */
+     , (53317, 4395) /* Blooddrinker8_SpellID */
+     , (53317, 4400) /* Defender8_SpellID */
+     , (53317, 4405) /* Heartseeker8_SpellID */
+     , (53317, 4538) /* DaggerMasterySelf8_SpellID */;
+

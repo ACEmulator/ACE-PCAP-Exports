@@ -51,3 +51,39 @@ VALUES (22441, 0, 83886739, 83886739)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22441, 0, 16788591);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22441, 16, 'Acid Dirk of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22441, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (22441, 353, 6) /* WEAPON_TYPE_INT */
+     , (22441, 19, 1259) /* VALUE_INT */
+     , (22441, 131, 57) /* MATERIAL_TYPE_INT */
+     , (22441, 115, 114) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (22441, 5, 200) /* ENCUMB_VAL_INT */
+     , (22441, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (22441, 106, 94) /* ITEM_SPELLCRAFT_INT */
+     , (22441, 108, 551) /* ITEM_MAX_MANA_INT */
+     , (22441, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (22441, 109, 37) /* ITEM_DIFFICULTY_INT */
+     , (22441, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (22441, 47, 6) /* ATTACK_TYPE_INT */
+     , (22441, 45, 32) /* DAMAGE_TYPE_INT */
+     , (22441, 49, 40) /* WEAPON_TIME_INT */
+     , (22441, 48, 44) /* WEAPON_SKILL_INT */
+     , (22441, 44, 14) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (22441, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (22441, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
+     , (22441, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (22441, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (22441, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (22441, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (22441, 62, 1.02) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (22441, 1613) /* BloodDrinker3_SpellID */;
+

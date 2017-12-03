@@ -90,3 +90,38 @@ VALUES (51268, 12, 16778423)
      , (51268, 4, 16783485)
      , (51268, 8, 16783487);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51268, 5, 'Gearknight Phalanx Taskmaster') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (51268, 16, 67116856) /* EYES_PALETTE_DID */
+     , (51268, 9, 83890281) /* EYES_TEXTURE_DID */
+     , (51268, 17, 67116960) /* SKIN_PALETTE_DID */
+     , (51268, 10, 83890302) /* NOSE_TEXTURE_DID */
+     , (51268, 11, 83890358) /* MOUTH_TEXTURE_DID */
+     , (51268, 15, 67117069) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51268, 113, 2) /* GENDER_INT */
+     , (51268, 2, 31) /* CREATURE_TYPE_INT */
+     , (51268, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (51268, 25, 180) /* LEVEL_INT */
+     , (51268, 281, 1) /* FACTION1_BITS_INT */
+     , (51268, 188, 9) /* HERITAGE_GROUP_INT */
+     , (51268, 287, 1) /* SOCIETY_RANK_CELHAN_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (51268, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (51268, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (51268, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (51268, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (51268, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (51268, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (51268, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (51268, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (51268, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
+

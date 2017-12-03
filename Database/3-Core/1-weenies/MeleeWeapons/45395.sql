@@ -54,3 +54,52 @@ VALUES (45395, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45395, 0, 16777934);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45395, 16, 'Rapier') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45395, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (45395, 160, 420) /* WIELD_DIFFICULTY_INT */
+     , (45395, 353, 2) /* WEAPON_TYPE_INT */
+     , (45395, 177, 3) /* GEM_COUNT_INT */
+     , (45395, 178, 49) /* GEM_TYPE_INT */
+     , (45395, 19, 9467) /* VALUE_INT */
+     , (45395, 179, 4) /* IMBUED_EFFECT_INT */
+     , (45395, 131, 63) /* MATERIAL_TYPE_INT */
+     , (45395, 115, 302) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (45395, 5, 242) /* ENCUMB_VAL_INT */
+     , (45395, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (45395, 106, 282) /* ITEM_SPELLCRAFT_INT */
+     , (45395, 171, 9) /* NUM_TIMES_TINKERED_INT */
+     , (45395, 108, 817) /* ITEM_MAX_MANA_INT */
+     , (45395, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (45395, 109, 149) /* ITEM_DIFFICULTY_INT */
+     , (45395, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (45395, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (45395, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (45395, 47, 160) /* ATTACK_TYPE_INT */
+     , (45395, 45, 3) /* DAMAGE_TYPE_INT */
+     , (45395, 49, 25) /* WEAPON_TIME_INT */
+     , (45395, 48, 46) /* WEAPON_SKILL_INT */
+     , (45395, 44, 24) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45395, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (45395, 29, 1.25) /* WEAPON_DEFENSE_FLOAT */
+     , (45395, 149, 1.005) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (45395, 22, 0.24) /* DAMAGE_VARIANCE_FLOAT */
+     , (45395, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (45395, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (45395, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (45395, 62, 1.13) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45395, 91, 1) /* RETAINED_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (45395, 2116) /* Swiftkiller7_SpellID */
+     , (45395, 2596) /* CANTRIPSWIFTHUNTER2_SpellID */
+     , (45395, 2096) /* BloodDrinker7_SpellID */;
+

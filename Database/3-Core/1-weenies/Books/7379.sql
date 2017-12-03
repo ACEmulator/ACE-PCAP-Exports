@@ -34,6 +34,17 @@ VALUES (7379, 13, True) /* ETHEREAL_BOOL */
      , (7379, 14, True) /* GRAVITY_STATUS_BOOL */
      , (7379, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7379, 16, 'A hastily jotted note in the flowing script of Yalain. The paper is singed and crumbling from exposure to the heat of Mount Tenkarrdun.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7379, 19, 3) /* VALUE_INT */
+     , (7379, 5, 25) /* ENCUMB_VAL_INT */
+     , (7379, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (7379, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -40,3 +40,34 @@ VALUES (25799, 13, True) /* ETHEREAL_BOOL */
      , (25799, 19, True) /* ATTACKABLE_BOOL */
      , (25799, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25799, 16, 'A frozen Carrot, weighted perfectly for wielding like a dagger.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25799, 353, 6) /* WEAPON_TYPE_INT */
+     , (25799, 19, 300) /* VALUE_INT */
+     , (25799, 5, 135) /* ENCUMB_VAL_INT */
+     , (25799, 106, 115) /* ITEM_SPELLCRAFT_INT */
+     , (25799, 108, 580) /* ITEM_MAX_MANA_INT */
+     , (25799, 47, 6) /* ATTACK_TYPE_INT */
+     , (25799, 45, 8) /* DAMAGE_TYPE_INT */
+     , (25799, 49, 20) /* WEAPON_TIME_INT */
+     , (25799, 48, 46) /* WEAPON_SKILL_INT */
+     , (25799, 44, 31) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25799, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (25799, 5, -0.0334) /* MANA_RATE_FLOAT */
+     , (25799, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
+     , (25799, 22, 0.7) /* DAMAGE_VARIANCE_FLOAT */
+     , (25799, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (25799, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (25799, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (25799, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (25799, 1614) /* BloodDrinker4_SpellID */
+     , (25799, 1623) /* SwiftKiller2_SpellID */;
+

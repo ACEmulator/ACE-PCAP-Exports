@@ -33,3 +33,11 @@ VALUES (19140, 13, True) /* ETHEREAL_BOOL */
      , (19140, 19, True) /* ATTACKABLE_BOOL */
      , (19140, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19140, 38, 'Dame Tolani Villas Portal (42.5N, 26.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19140, 111, 1) /* PORTAL_BITMASK_INT */;
+

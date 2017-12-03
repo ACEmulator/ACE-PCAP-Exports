@@ -32,6 +32,20 @@ VALUES (41934, 13, True) /* ETHEREAL_BOOL */
      , (41934, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41934, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41934, 15, 'A burning brand with the champion mark of Lord Trimere.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41934, 33, 1) /* BONDED_INT */
+     , (41934, 114, 1) /* ATTUNED_INT */
+     , (41934, 19, 0) /* VALUE_INT */
+     , (41934, 5, 2) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41934, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

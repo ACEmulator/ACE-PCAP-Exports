@@ -38,6 +38,24 @@ VALUES (40344, 13, True) /* ETHEREAL_BOOL */
      , (40344, 19, True) /* ATTACKABLE_BOOL */
      , (40344, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40344, 16, 'This large clear crystal sometimes emits faint whispers. Use it to detect invisible ghosts under Mhoire Castle.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40344, 33, 1) /* BONDED_INT */
+     , (40344, 114, 1) /* ATTUNED_INT */
+     , (40344, 19, 0) /* VALUE_INT */
+     , (40344, 5, 0) /* ENCUMB_VAL_INT */
+     , (40344, 280, 50) /* SHARED_COOLDOWN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40344, 167, 3) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40344, 63, 1) /* UNLIMITED_USE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

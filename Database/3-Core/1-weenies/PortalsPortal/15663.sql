@@ -33,3 +33,11 @@ VALUES (15663, 13, True) /* ETHEREAL_BOOL */
      , (15663, 19, True) /* ATTACKABLE_BOOL */
      , (15663, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15663, 38, 'Ardent Realm Portal (39.9S, 33.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15663, 111, 1) /* PORTAL_BITMASK_INT */;
+

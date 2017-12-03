@@ -33,3 +33,11 @@ VALUES (13128, 13, True) /* ETHEREAL_BOOL */
      , (13128, 19, True) /* ATTACKABLE_BOOL */
      , (13128, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (13128, 38, 'Simda''r Villas Portal (81.9S, 17.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13128, 111, 1) /* PORTAL_BITMASK_INT */;
+

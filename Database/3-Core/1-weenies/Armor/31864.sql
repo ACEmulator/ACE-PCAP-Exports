@@ -42,3 +42,46 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (31864, 67110321, 240, 10)
      , (31864, 67110352, 250, 6);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31864, 16, 'Teardrop Crown of Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31864, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (31864, 177, 7) /* GEM_COUNT_INT */
+     , (31864, 178, 38) /* GEM_TYPE_INT */
+     , (31864, 19, 327503) /* VALUE_INT */
+     , (31864, 131, 60) /* MATERIAL_TYPE_INT */
+     , (31864, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31864, 5, 73) /* ENCUMB_VAL_INT */
+     , (31864, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (31864, 106, 302) /* ITEM_SPELLCRAFT_INT */
+     , (31864, 171, 5) /* NUM_TIMES_TINKERED_INT */
+     , (31864, 28, 300) /* ARMOR_LEVEL_INT */
+     , (31864, 108, 1494) /* ITEM_MAX_MANA_INT */
+     , (31864, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31864, 109, 319) /* ITEM_DIFFICULTY_INT */
+     , (31864, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31864, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (31864, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31864, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (31864, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (31864, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (31864, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (31864, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (31864, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (31864, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (31864, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (31864, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31864, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31864, 2053) /* ArmorSelf7_SpellID */
+     , (31864, 2518) /* CANTRIPJUMPINGPROWESS2_SpellID */
+     , (31864, 2108) /* Impenetrability7_SpellID */;
+

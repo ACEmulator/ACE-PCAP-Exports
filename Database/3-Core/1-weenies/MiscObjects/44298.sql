@@ -35,6 +35,21 @@ VALUES (44298, 13, True) /* ETHEREAL_BOOL */
      , (44298, 14, True) /* GRAVITY_STATUS_BOOL */
      , (44298, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44298, 14, 'Taylarn bint Tulani may be interested in this.') /* USE_STRING */
+     , (44298, 15, 'A piece of a stone tablet that looks to be broken off of a larger section.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44298, 33, 1) /* BONDED_INT */
+     , (44298, 114, 1) /* ATTUNED_INT */
+     , (44298, 19, 11) /* VALUE_INT */
+     , (44298, 5, 11) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44298, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -33,3 +33,9 @@ VALUES (44204, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (44204, 19, True) /* ATTACKABLE_BOOL */
      , (44204, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44204, 19, 0) /* VALUE_INT */
+     , (44204, 5, 6660) /* ENCUMB_VAL_INT */;
+

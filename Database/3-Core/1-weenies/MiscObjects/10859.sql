@@ -44,3 +44,14 @@ VALUES (10859, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10859, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10859, 15, 'A token of your completion of the Eviscerator Quest.  Please give this back to Behdo in order for him to change your title to Bug Butcher.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10859, 33, 1) /* BONDED_INT */
+     , (10859, 114, 1) /* ATTUNED_INT */
+     , (10859, 19, 0) /* VALUE_INT */
+     , (10859, 5, 10) /* ENCUMB_VAL_INT */;
+

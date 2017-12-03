@@ -44,3 +44,19 @@ VALUES (9288, 67113156, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9288, 9, 16785621);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9288, 16, 'A Virindi trove lies here.') /* LONG_DESC_STRING */
+     , (9288, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9288, 19, 2500) /* VALUE_INT */
+     , (9288, 5, 12987) /* ENCUMB_VAL_INT */
+     , (9288, 38, 5000) /* RESIST_LOCKPICK_INT */
+     , (9288, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9288, 2, 0) /* OPEN_BOOL */
+     , (9288, 3, 1) /* LOCKED_BOOL */;
+

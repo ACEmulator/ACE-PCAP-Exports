@@ -49,3 +49,46 @@ VALUES (42752, 0, 83886788, 83898158);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42752, 0, 16778411);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42752, 16, 'Haebrean Greaves') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42752, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (42752, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (42752, 131, 60) /* MATERIAL_TYPE_INT */
+     , (42752, 19, 10166) /* VALUE_INT */
+     , (42752, 5, 774) /* ENCUMB_VAL_INT */
+     , (42752, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (42752, 265, 20) /* EQUIPMENT_SET_ID_INT */
+     , (42752, 106, 309) /* ITEM_SPELLCRAFT_INT */
+     , (42752, 171, 10) /* NUM_TIMES_TINKERED_INT */
+     , (42752, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (42752, 108, 981) /* ITEM_MAX_MANA_INT */
+     , (42752, 28, 718) /* ARMOR_LEVEL_INT */
+     , (42752, 109, 377) /* ITEM_DIFFICULTY_INT */
+     , (42752, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (42752, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (42752, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42752, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (42752, 13, 3.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (42752, 14, 3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (42752, 15, 3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (42752, 16, 2.84476) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (42752, 17, 2.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (42752, 18, 2.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (42752, 19, 2.754318) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (42752, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (42752, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (42752, 2113) /* PiercingBane7_SpellID */
+     , (42752, 4683) /* CANTRIPALCHEMICALPROWESS3_SpellID */
+     , (42752, 6105) /* CantripFocus4_SpellID */
+     , (42752, 2108) /* Impenetrability7_SpellID */;
+

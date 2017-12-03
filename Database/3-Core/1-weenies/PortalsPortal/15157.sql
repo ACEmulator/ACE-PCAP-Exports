@@ -33,3 +33,11 @@ VALUES (15157, 13, True) /* ETHEREAL_BOOL */
      , (15157, 19, True) /* ATTACKABLE_BOOL */
      , (15157, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15157, 38, 'East Morntide Settlement Portal (35.3N, 15.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15157, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -36,6 +36,21 @@ VALUES (38490, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38490, 19, True) /* ATTACKABLE_BOOL */
      , (38490, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38490, 16, 'A Society Reward Chest, containing a randomly enchanted Celestial Hand Breastplate.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38490, 19, 0) /* VALUE_INT */
+     , (38490, 5, 8362) /* ENCUMB_VAL_INT */
+     , (38490, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (38490, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38490, 2, 0) /* OPEN_BOOL */
+     , (38490, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

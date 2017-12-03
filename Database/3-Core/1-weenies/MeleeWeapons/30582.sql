@@ -47,3 +47,39 @@ VALUES (30582, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30582, 0, 16792135);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30582, 16, 'Lightning Mazule of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30582, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30582, 353, 4) /* WEAPON_TYPE_INT */
+     , (30582, 19, 557) /* VALUE_INT */
+     , (30582, 131, 76) /* MATERIAL_TYPE_INT */
+     , (30582, 115, 127) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30582, 5, 350) /* ENCUMB_VAL_INT */
+     , (30582, 105, 2) /* ITEM_WORKMANSHIP_INT */
+     , (30582, 106, 107) /* ITEM_SPELLCRAFT_INT */
+     , (30582, 108, 201) /* ITEM_MAX_MANA_INT */
+     , (30582, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30582, 109, 16) /* ITEM_DIFFICULTY_INT */
+     , (30582, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30582, 47, 4) /* ATTACK_TYPE_INT */
+     , (30582, 45, 64) /* DAMAGE_TYPE_INT */
+     , (30582, 49, 38) /* WEAPON_TIME_INT */
+     , (30582, 48, 44) /* WEAPON_SKILL_INT */
+     , (30582, 44, 13) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30582, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (30582, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
+     , (30582, 22, 0.42) /* DAMAGE_VARIANCE_FLOAT */
+     , (30582, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30582, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30582, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30582, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30582, 1613) /* BloodDrinker3_SpellID */;
+

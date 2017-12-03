@@ -39,6 +39,29 @@ VALUES (30812, 13, True) /* ETHEREAL_BOOL */
      , (30812, 15, True) /* LIGHTS_STATUS_BOOL */
      , (30812, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30812, 14, 'Double Click on this item to summon a portal to the oasis of the Singularity Caul.') /* USE_STRING */
+     , (30812, 15, 'A masterfully crafted gold compass. The needles of the compass shiver with an unknown power.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30812, 33, 0) /* BONDED_INT */
+     , (30812, 114, 0) /* ATTUNED_INT */
+     , (30812, 19, 1600) /* VALUE_INT */
+     , (30812, 5, 200) /* ENCUMB_VAL_INT */
+     , (30812, 280, 1000) /* SHARED_COOLDOWN_INT */
+     , (30812, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (30812, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (30812, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30812, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30812, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30812, 157) /* SummonPortal1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -31,3 +31,17 @@ VALUES (22631, 13, True) /* ETHEREAL_BOOL */
      , (22631, 19, True) /* ATTACKABLE_BOOL */
      , (22631, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22631, 15, 'Handing in this token to the Leader of the Resistance will give you the title of Heart Ripper.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22631, 33, 1) /* BONDED_INT */
+     , (22631, 114, 1) /* ATTUNED_INT */
+     , (22631, 19, 0) /* VALUE_INT */
+     , (22631, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (22631, 69, 0) /* IS_SELLABLE_BOOL */;
+

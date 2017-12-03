@@ -34,3 +34,16 @@ VALUES (34448, 13, True) /* ETHEREAL_BOOL */
      , (34448, 19, True) /* ATTACKABLE_BOOL */
      , (34448, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34448, 16, 'A golden Empyrean key') /* LONG_DESC_STRING */
+     , (34448, 14, 'Use this key to open the Colosseum Vault.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34448, 33, 1) /* BONDED_INT */
+     , (34448, 114, 1) /* ATTUNED_INT */
+     , (34448, 19, 30) /* VALUE_INT */
+     , (34448, 5, 50) /* ENCUMB_VAL_INT */
+     , (34448, 91, 1) /* MAX_STRUCTURE_INT */;
+

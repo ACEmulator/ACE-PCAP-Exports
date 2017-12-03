@@ -33,3 +33,16 @@ VALUES (30909, 13, True) /* ETHEREAL_BOOL */
      , (30909, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30909, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30909, 16, 'A portion of Carlo di Cenza''s journal. This is the fourth of ten pages.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30909, 33, 0) /* BONDED_INT */
+     , (30909, 114, 0) /* ATTUNED_INT */
+     , (30909, 19, 0) /* VALUE_INT */
+     , (30909, 5, 5) /* ENCUMB_VAL_INT */
+     , (30909, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (30909, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

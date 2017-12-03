@@ -32,3 +32,15 @@ VALUES (33988, 13, True) /* ETHEREAL_BOOL */
      , (33988, 19, True) /* ATTACKABLE_BOOL */
      , (33988, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33988, 16, 'A large fossilized bone. You have no way of knowing how old it might be. The bone looks like it came from a huge bird''s wing. Its surface glows with an inner radiance.') /* LONG_DESC_STRING */
+     , (33988, 14, 'Hand this item into Yuan Hanzu in Ayan Baqur for a reward.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33988, 33, 1) /* BONDED_INT */
+     , (33988, 114, 1) /* ATTUNED_INT */
+     , (33988, 19, 0) /* VALUE_INT */
+     , (33988, 5, 200) /* ENCUMB_VAL_INT */;
+

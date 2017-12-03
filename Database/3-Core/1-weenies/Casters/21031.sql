@@ -37,3 +37,34 @@ VALUES (21031, 13, True) /* ETHEREAL_BOOL */
      , (21031, 19, True) /* ATTACKABLE_BOOL */
      , (21031, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21031, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
+     , (21031, 160, 50) /* WIELD_DIFFICULTY_INT */
+     , (21031, 33, 1) /* BONDED_INT */
+     , (21031, 19, 8000) /* VALUE_INT */
+     , (21031, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (21031, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21031, 5, 150) /* ENCUMB_VAL_INT */
+     , (21031, 166, 62) /* SLAYER_CREATURE_TYPE_INT */
+     , (21031, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (21031, 108, 1200) /* ITEM_MAX_MANA_INT */
+     , (21031, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (21031, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21031, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (21031, 5, -0.1) /* MANA_RATE_FLOAT */
+     , (21031, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21031, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21031, 2691) /* ModerateManaConversionProwess_SpellID */
+     , (21031, 1426) /* FocusSelf6_SpellID */
+     , (21031, 658) /* ManaMasterySelf6_SpellID */
+     , (21031, 1312) /* ArmorSelf6_SpellID */
+     , (21031, 1450) /* WillpowerSelf6_SpellID */;
+

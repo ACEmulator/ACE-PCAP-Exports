@@ -50,3 +50,26 @@ VALUES (45031, 0, 83887061, 83898632)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45031, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45031, 16, 'Rare, lightweight, but warm over-robe crafted from the hide of the elusive Hoary Mattekar, rumored to appear only under certain conditions.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45031, 19, 4000) /* VALUE_INT */
+     , (45031, 5, 620) /* ENCUMB_VAL_INT */
+     , (45031, 28, 150) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45031, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (45031, 14, 0.9) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (45031, 15, 0.9) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (45031, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (45031, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (45031, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (45031, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (45031, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45031, 100, 0) /* DYABLE_BOOL */;
+

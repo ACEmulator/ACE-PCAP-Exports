@@ -49,3 +49,27 @@ VALUES (45533, 0, 83886712, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45533, 0, 16777992);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45533, 14, 'Use Oil of Rendering on this weapon to create an Academy Tungi.') /* USE_STRING */
+     , (45533, 15, 'A basic tungi forged in the Strathelar Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45533, 353, 3) /* WEAPON_TYPE_INT */
+     , (45533, 19, 25) /* VALUE_INT */
+     , (45533, 5, 200) /* ENCUMB_VAL_INT */
+     , (45533, 47, 4) /* ATTACK_TYPE_INT */
+     , (45533, 45, 1) /* DAMAGE_TYPE_INT */
+     , (45533, 49, 35) /* WEAPON_TIME_INT */
+     , (45533, 48, 46) /* WEAPON_SKILL_INT */
+     , (45533, 44, 9) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45533, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (45533, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (45533, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (45533, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (45533, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (45533, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

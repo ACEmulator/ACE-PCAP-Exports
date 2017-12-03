@@ -41,3 +41,28 @@ VALUES (9601, 13, True) /* ETHEREAL_BOOL */
      , (9601, 19, True) /* ATTACKABLE_BOOL */
      , (9601, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9601, 16, 'An orb with a large purple eye in the middle.  Gazing at it makes you dizzy.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9601, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
+     , (9601, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (9601, 19, 2000) /* VALUE_INT */
+     , (9601, 5, 50) /* ENCUMB_VAL_INT */
+     , (9601, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (9601, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (9601, 109, 1) /* ITEM_DIFFICULTY_INT */
+     , (9601, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9601, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (9601, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (9601, 5, -0.025) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9601, 586) /* ItemEnchantmentMasterySelf6_SpellID */
+     , (9601, 658) /* ManaMasterySelf6_SpellID */
+     , (9601, 608) /* LifeMagicMasterySelf4_SpellID */;
+

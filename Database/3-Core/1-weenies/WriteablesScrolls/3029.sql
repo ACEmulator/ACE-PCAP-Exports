@@ -35,3 +35,17 @@ VALUES (3029, 13, True) /* ETHEREAL_BOOL */
      , (3029, 19, True) /* ATTACKABLE_BOOL */
      , (3029, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3029, 16, 'Inscribed spell: Cold Vulnerability Other III
+Increases damage the target takes from Cold by 50%.') /* LONG_DESC_STRING */
+     , (3029, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3029, 19, 20) /* VALUE_INT */
+     , (3029, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3029, 1062) /* ColdVulnerabilityOther3_SpellID */;
+

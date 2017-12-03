@@ -33,3 +33,12 @@ VALUES (3613, 13, True) /* ETHEREAL_BOOL */
      , (3613, 19, True) /* ATTACKABLE_BOOL */
      , (3613, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3613, 38, 'Direlands Midland Portal (88.3S, 64.5W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3613, 86, 21) /* MIN_LEVEL_INT */
+     , (3613, 111, 1) /* PORTAL_BITMASK_INT */;
+

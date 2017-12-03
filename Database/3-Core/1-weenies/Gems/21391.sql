@@ -50,6 +50,25 @@ VALUES (21391, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21391, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21391, 14, 'Double Click on this portal gem to transport yourself to the Citadel Surface.') /* USE_STRING */
+     , (21391, 15, 'A gem teeming with portal energy. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21391, 33, 1) /* BONDED_INT */
+     , (21391, 114, 1) /* ATTUNED_INT */
+     , (21391, 19, 0) /* VALUE_INT */
+     , (21391, 5, 10) /* ENCUMB_VAL_INT */
+     , (21391, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (21391, 108, 70) /* ITEM_MAX_MANA_INT */
+     , (21391, 109, 10) /* ITEM_DIFFICULTY_INT */
+     , (21391, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21391, 2796) /* PortalSendingCitadelSurface_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

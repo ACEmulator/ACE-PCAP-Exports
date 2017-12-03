@@ -35,3 +35,17 @@ VALUES (21318, 13, True) /* ETHEREAL_BOOL */
      , (21318, 19, True) /* ATTACKABLE_BOOL */
      , (21318, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21318, 16, 'Inscribed spell: Frost Arc III
+Shoots a bolt of cold at the target. The bolt does 42-84 points of cold damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (21318, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21318, 19, 20) /* VALUE_INT */
+     , (21318, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21318, 2727) /* FrostArc3_SpellID */;
+

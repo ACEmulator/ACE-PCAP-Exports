@@ -32,3 +32,22 @@ VALUES (41979, 13, True) /* ETHEREAL_BOOL */
      , (41979, 19, True) /* ATTACKABLE_BOOL */
      , (41979, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41979, 16, 'A severely damaged and cracked Mana Forge Key.') /* LONG_DESC_STRING */
+     , (41979, 14, 'Use an intricate carving tool to carve this into something useful.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41979, 33, 1) /* BONDED_INT */
+     , (41979, 114, 1) /* ATTUNED_INT */
+     , (41979, 98, 1485743592) /* CREATION_TIMESTAMP_INT */
+     , (41979, 19, 0) /* VALUE_INT */
+     , (41979, 5, 20) /* ENCUMB_VAL_INT */
+     , (41979, 267, 86400) /* LIFESPAN_INT */
+     , (41979, 268, 85998) /* REMAINING_LIFESPAN_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41979, 99, 0) /* IVORYABLE_BOOL */
+     , (41979, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -34,3 +34,9 @@ VALUES (10665, 13, True) /* ETHEREAL_BOOL */
      , (10665, 1, True) /* STUCK_BOOL */
      , (10665, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10665, 19, 0) /* VALUE_INT */
+     , (10665, 5, 10) /* ENCUMB_VAL_INT */;
+

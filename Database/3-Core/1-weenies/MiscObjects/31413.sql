@@ -31,3 +31,15 @@ VALUES (31413, 13, True) /* ETHEREAL_BOOL */
      , (31413, 19, True) /* ATTACKABLE_BOOL */
      , (31413, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31413, 16, 'A sealed translation of an Unreadable Dericost Tome written by Kuyiza bint Zayi of Zaikhal.') /* LONG_DESC_STRING */
+     , (31413, 14, 'Bring this tome to Sarkin Killcrane in Wai Jhou.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31413, 33, 1) /* BONDED_INT */
+     , (31413, 114, 1) /* ATTUNED_INT */
+     , (31413, 19, 0) /* VALUE_INT */
+     , (31413, 5, 50) /* ENCUMB_VAL_INT */;
+

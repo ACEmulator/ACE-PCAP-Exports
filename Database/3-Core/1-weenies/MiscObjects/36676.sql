@@ -42,3 +42,17 @@ VALUES (36676, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36676, 0, 16782860);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36676, 16, 'A bar of the purest pyreal.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36676, 33, 1) /* BONDED_INT */
+     , (36676, 114, 1) /* ATTUNED_INT */
+     , (36676, 19, 100) /* VALUE_INT */
+     , (36676, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36676, 69, 1) /* IS_SELLABLE_BOOL */;
+

@@ -48,3 +48,46 @@ VALUES (3765, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3765, 0, 16777955);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3765, 16, 'Frost Budiaq of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3765, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3765, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (3765, 353, 5) /* WEAPON_TYPE_INT */
+     , (3765, 177, 1) /* GEM_COUNT_INT */
+     , (3765, 178, 30) /* GEM_TYPE_INT */
+     , (3765, 19, 2842) /* VALUE_INT */
+     , (3765, 131, 61) /* MATERIAL_TYPE_INT */
+     , (3765, 115, 229) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3765, 5, 718) /* ENCUMB_VAL_INT */
+     , (3765, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (3765, 106, 209) /* ITEM_SPELLCRAFT_INT */
+     , (3765, 108, 1012) /* ITEM_MAX_MANA_INT */
+     , (3765, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3765, 109, 101) /* ITEM_DIFFICULTY_INT */
+     , (3765, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3765, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3765, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (3765, 47, 2) /* ATTACK_TYPE_INT */
+     , (3765, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3765, 49, 33) /* WEAPON_TIME_INT */
+     , (3765, 48, 46) /* WEAPON_SKILL_INT */
+     , (3765, 44, 25) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3765, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (3765, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (3765, 150, 1.02) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (3765, 22, 0.71) /* DAMAGE_VARIANCE_FLOAT */
+     , (3765, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3765, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3765, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3765, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3765, 1615) /* BloodDrinker5_SpellID */
+     , (3765, 2598) /* CANTRIPBLOODTHIRST1_SpellID */;
+

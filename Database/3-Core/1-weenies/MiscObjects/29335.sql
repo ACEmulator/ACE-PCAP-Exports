@@ -31,3 +31,14 @@ VALUES (29335, 13, True) /* ETHEREAL_BOOL */
      , (29335, 19, True) /* ATTACKABLE_BOOL */
      , (29335, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29335, 16, 'Give this token to Jonathan if you wish to leave the Training Academy early. You will receive all items and experience points that you would otherwise have earned through completing your training. However, be warned that once you leave the Academy, you can never return!') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29335, 33, 1) /* BONDED_INT */
+     , (29335, 114, 1) /* ATTUNED_INT */
+     , (29335, 19, 0) /* VALUE_INT */
+     , (29335, 5, 5) /* ENCUMB_VAL_INT */;
+

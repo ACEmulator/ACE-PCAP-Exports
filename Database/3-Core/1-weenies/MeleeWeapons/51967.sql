@@ -46,3 +46,50 @@ VALUES (51967, 0, 83899155, 83899155)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51967, 0, 16797051);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51967, 15, 'A one handed spear crafted from enchanted obsidian and Rynthid tentacles.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51967, 160, 420) /* WIELD_DIFFICULTY_INT */
+     , (51967, 33, 1) /* BONDED_INT */
+     , (51967, 114, 0) /* ATTUNED_INT */
+     , (51967, 19, 0) /* VALUE_INT */
+     , (51967, 5, 700) /* ENCUMB_VAL_INT */
+     , (51967, 166, 19) /* SLAYER_CREATURE_TYPE_INT */
+     , (51967, 106, 475) /* ITEM_SPELLCRAFT_INT */
+     , (51967, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (51967, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (51967, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (51967, 47, 2) /* ATTACK_TYPE_INT */
+     , (51967, 45, 16) /* DAMAGE_TYPE_INT */
+     , (51967, 49, 30) /* WEAPON_TIME_INT */
+     , (51967, 48, 44) /* WEAPON_SKILL_INT */
+     , (51967, 44, 66) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (51967, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (51967, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (51967, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (51967, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (51967, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (51967, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (51967, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (51967, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (51967, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (51967, 62, 1.25) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51967, 99, 0) /* IVORYABLE_BOOL */
+     , (51967, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (51967, 4417) /* Swiftkiller8_SpellID */
+     , (51967, 4395) /* Blooddrinker8_SpellID */
+     , (51967, 4400) /* Defender8_SpellID */
+     , (51967, 4405) /* Heartseeker8_SpellID */
+     , (51967, 6072) /* CantripSwordAptitude4_SpellID */
+     , (51967, 3963) /* CANTRIPCOORDINATION3_SpellID */
+     , (51967, 3965) /* CANTRIPSTRENGTH3_SpellID */;
+

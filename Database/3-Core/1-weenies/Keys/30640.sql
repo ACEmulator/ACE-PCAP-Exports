@@ -34,3 +34,15 @@ VALUES (30640, 13, True) /* ETHEREAL_BOOL */
      , (30640, 19, True) /* ATTACKABLE_BOOL */
      , (30640, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30640, 16, 'A crude holy symbol fashioned from a Ring of Vines, Murky Gem and Stone Emblem.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30640, 33, 1) /* BONDED_INT */
+     , (30640, 114, 1) /* ATTUNED_INT */
+     , (30640, 19, 0) /* VALUE_INT */
+     , (30640, 5, 200) /* ENCUMB_VAL_INT */
+     , (30640, 91, 3) /* MAX_STRUCTURE_INT */;
+

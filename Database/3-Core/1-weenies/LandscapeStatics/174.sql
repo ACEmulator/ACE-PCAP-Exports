@@ -36,3 +36,15 @@ VALUES (174, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (174, 19, True) /* ATTACKABLE_BOOL */
      , (174, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (174, 14, 'Use an empty flask on the well to fill it with water.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (174, 19, 200) /* VALUE_INT */
+     , (174, 5, 6000) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (174, 1183) /* RevitalizeOther1_SpellID */;
+

@@ -35,3 +35,17 @@ VALUES (20483, 13, True) /* ETHEREAL_BOOL */
      , (20483, 19, True) /* ATTACKABLE_BOOL */
      , (20483, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20483, 16, 'Inscribed spell: Boon of the Arrow Turner
+Reduces damage the target takes from Piercing by 65%.') /* LONG_DESC_STRING */
+     , (20483, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20483, 19, 2000) /* VALUE_INT */
+     , (20483, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20483, 2160) /* PiercingProtectionOther7_SpellID */;
+

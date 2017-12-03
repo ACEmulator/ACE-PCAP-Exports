@@ -35,3 +35,17 @@ VALUES (2837, 13, True) /* ETHEREAL_BOOL */
      , (2837, 19, True) /* ATTACKABLE_BOOL */
      , (2837, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2837, 16, 'Inscribed spell: Hermetic Void II
+Decreases a magic casting implement''s mana conversion bonus by 20%.') /* LONG_DESC_STRING */
+     , (2837, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2837, 19, 5) /* VALUE_INT */
+     , (2837, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2837, 1470) /* HideValue2_SpellID */;
+

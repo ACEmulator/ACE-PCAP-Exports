@@ -50,3 +50,36 @@ VALUES (11362, 0, 83887061, 83893736)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11362, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11362, 16, 'A formal gown woven from the plumes of a Kithless Siraluun.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11362, 33, 1) /* BONDED_INT */
+     , (11362, 114, 0) /* ATTUNED_INT */
+     , (11362, 19, 5000) /* VALUE_INT */
+     , (11362, 5, 1000) /* ENCUMB_VAL_INT */
+     , (11362, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (11362, 28, 40) /* ARMOR_LEVEL_INT */
+     , (11362, 109, 150) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (11362, 5, -0.03) /* MANA_RATE_FLOAT */
+     , (11362, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (11362, 14, 1.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (11362, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (11362, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (11362, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (11362, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (11362, 19, 1.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (11362, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11362, 99, 1) /* IVORYABLE_BOOL */
+     , (11362, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (11362, 902) /* LeadershipMasterySelf5_SpellID */
+     , (11362, 2013) /* WizardsGreaterIntellect_SpellID */;
+

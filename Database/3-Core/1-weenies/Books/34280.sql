@@ -31,6 +31,17 @@ VALUES (34280, 13, True) /* ETHEREAL_BOOL */
      , (34280, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34280, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34280, 16, 'A small red notebook carried by Explorer Society members.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34280, 19, 10) /* VALUE_INT */
+     , (34280, 5, 30) /* ENCUMB_VAL_INT */
+     , (34280, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (34280, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

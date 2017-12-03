@@ -52,6 +52,29 @@ VALUES (29447, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29447, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29447, 16, 'A gem that opens a portal to the Silver Ward of Corcima Castle.') /* LONG_DESC_STRING */
+     , (29447, 14, 'This portal summoning gem works best if used outside in a relatively flat area.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29447, 33, 0) /* BONDED_INT */
+     , (29447, 114, 0) /* ATTUNED_INT */
+     , (29447, 19, 0) /* VALUE_INT */
+     , (29447, 5, 10) /* ENCUMB_VAL_INT */
+     , (29447, 280, 1000) /* SHARED_COOLDOWN_INT */
+     , (29447, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (29447, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (29447, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (29447, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29447, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (29447, 157) /* SummonPortal1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -34,3 +34,23 @@ VALUES (28859, 13, True) /* ETHEREAL_BOOL */
      , (28859, 19, True) /* ATTACKABLE_BOOL */
      , (28859, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28859, 16, 'A finely-built armored undead costume.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28859, 19, 1000) /* VALUE_INT */
+     , (28859, 5, 1400) /* ENCUMB_VAL_INT */
+     , (28859, 28, 10) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28859, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28859, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28859, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28859, 16, 0.65) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28859, 17, 0.55) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28859, 18, 0.55) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28859, 19, 0.65) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28859, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

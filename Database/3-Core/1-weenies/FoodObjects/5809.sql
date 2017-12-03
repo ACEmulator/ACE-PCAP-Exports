@@ -35,6 +35,21 @@ VALUES (5809, 13, True) /* ETHEREAL_BOOL */
      , (5809, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5809, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5809, 14, 'Use this item to eat it.') /* USE_STRING */
+     , (5809, 15, 'An aromatic cheese pizza, liberally sprinkled with spicy oregano.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5809, 19, 3565) /* VALUE_INT */
+     , (5809, 5, 1150) /* ENCUMB_VAL_INT */
+     , (5809, 89, 6) /* BOOSTER_ENUM_INT */
+     , (5809, 90, 50) /* BOOST_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5809, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

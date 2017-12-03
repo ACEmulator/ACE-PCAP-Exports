@@ -35,3 +35,16 @@ VALUES (22087, 13, True) /* ETHEREAL_BOOL */
      , (22087, 19, True) /* ATTACKABLE_BOOL */
      , (22087, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22087, 16, 'An iron key') /* LONG_DESC_STRING */
+     , (22087, 14, 'Use this on the door to the portal chamber in Frest Greelving''s Mansion') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22087, 33, 1) /* BONDED_INT */
+     , (22087, 114, 1) /* ATTUNED_INT */
+     , (22087, 19, 25) /* VALUE_INT */
+     , (22087, 5, 50) /* ENCUMB_VAL_INT */
+     , (22087, 91, 3) /* MAX_STRUCTURE_INT */;
+

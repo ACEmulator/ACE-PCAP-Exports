@@ -52,6 +52,31 @@ VALUES (32484, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32484, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32484, 16, 'You have no apparent use for this rock. Perhaps a Snowman might find it useful.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32484, 353, 10) /* WEAPON_TYPE_INT */
+     , (32484, 19, 30) /* VALUE_INT */
+     , (32484, 5, 15) /* ENCUMB_VAL_INT */
+     , (32484, 45, 8) /* DAMAGE_TYPE_INT */
+     , (32484, 49, 20) /* WEAPON_TIME_INT */
+     , (32484, 48, 47) /* WEAPON_SKILL_INT */
+     , (32484, 44, 50) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32484, 29, 0.8) /* WEAPON_DEFENSE_FLOAT */
+     , (32484, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (32484, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (32484, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (32484, 26, 15) /* MAXIMUM_VELOCITY_FLOAT */
+     , (32484, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32484, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

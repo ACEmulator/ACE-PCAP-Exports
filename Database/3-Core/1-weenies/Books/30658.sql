@@ -33,3 +33,19 @@ VALUES (30658, 13, True) /* ETHEREAL_BOOL */
      , (30658, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30658, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30658, 16, 'Give these instructions to the Drudge Flying Machine in order to fly it.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30658, 33, 0) /* BONDED_INT */
+     , (30658, 114, 0) /* ATTUNED_INT */
+     , (30658, 19, 0) /* VALUE_INT */
+     , (30658, 5, 5) /* ENCUMB_VAL_INT */
+     , (30658, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (30658, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30658, 69, 0) /* IS_SELLABLE_BOOL */;
+

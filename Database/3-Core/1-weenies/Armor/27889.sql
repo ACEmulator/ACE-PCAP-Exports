@@ -37,3 +37,32 @@ VALUES (27889, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27889, 67115217, 174, 66);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27889, 19, 1500) /* VALUE_INT */
+     , (27889, 5, 100) /* ENCUMB_VAL_INT */
+     , (27889, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (27889, 108, 650) /* ITEM_MAX_MANA_INT */
+     , (27889, 28, 190) /* ARMOR_LEVEL_INT */
+     , (27889, 109, 145) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27889, 5, -0.0333) /* MANA_RATE_FLOAT */
+     , (27889, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (27889, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (27889, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (27889, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (27889, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (27889, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (27889, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (27889, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27889, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27889, 1484) /* Impenetrability4_SpellID */
+     , (27889, 1358) /* EnduranceOther4_SpellID */
+     , (27889, 271) /* MagicResistanceOther4_SpellID */;
+

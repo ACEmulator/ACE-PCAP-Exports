@@ -46,3 +46,23 @@ VALUES (25527, 0, 83887064, 83894816)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25527, 0, 16778829);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25527, 16, 'A pair of leather leggings crafted from the hide of Gauloth Shreth. The leggings have been reinforced with bands of metal and bony structures.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25527, 19, 4500) /* VALUE_INT */
+     , (25527, 5, 750) /* ENCUMB_VAL_INT */
+     , (25527, 28, 230) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25527, 13, 1.05) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (25527, 14, 1.25) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (25527, 15, 1.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (25527, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (25527, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (25527, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (25527, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (25527, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

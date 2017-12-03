@@ -50,6 +50,25 @@ VALUES (52700, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52700, 0, 16778735);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52700, 16, 'Drink to increase your maximum Health attribute by 20 for 3 hours.') /* LONG_DESC_STRING */
+     , (52700, 14, 'Use this item to drink it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52700, 19, 4300) /* VALUE_INT */
+     , (52700, 5, 4300) /* ENCUMB_VAL_INT */
+     , (52700, 106, 500) /* ITEM_SPELLCRAFT_INT */
+     , (52700, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (52700, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52700, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (52700, 6170) /* HoneyedLifeMead_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

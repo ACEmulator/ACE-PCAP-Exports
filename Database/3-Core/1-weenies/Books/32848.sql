@@ -33,3 +33,16 @@ VALUES (32848, 13, True) /* ETHEREAL_BOOL */
      , (32848, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32848, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32848, 16, 'This book almost seems to reek of the taint of the shadows and Mukkir who inhabit the Dark Spiral. The book begins in a strong hand, but descends into spidery illegibility.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32848, 33, 1) /* BONDED_INT */
+     , (32848, 114, 1) /* ATTUNED_INT */
+     , (32848, 19, 0) /* VALUE_INT */
+     , (32848, 5, 100) /* ENCUMB_VAL_INT */
+     , (32848, 174, 7) /* APPRAISAL_PAGES_INT */
+     , (32848, 175, 7) /* APPRAISAL_MAX_PAGES_INT */;
+

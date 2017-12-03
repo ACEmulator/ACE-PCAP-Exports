@@ -47,3 +47,18 @@ VALUES (27371, 0, 83893670, 83893699)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27371, 0, 16790086);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27371, 16, 'A beautifully carved buadren. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27371, 33, 1) /* BONDED_INT */
+     , (27371, 114, 1) /* ATTUNED_INT */
+     , (27371, 19, 10000) /* VALUE_INT */
+     , (27371, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27371, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (27371, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+

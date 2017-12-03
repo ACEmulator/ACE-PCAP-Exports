@@ -61,3 +61,39 @@ VALUES (38050, 0, 16777708)
      , (38050, 7, 16779363)
      , (38050, 8, 16779364);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38050, 16, 'One of Lilitha''s earlier Bows, recently repaired by Eldrista the Adventurer.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38050, 33, 1) /* BONDED_INT */
+     , (38050, 353, 8) /* WEAPON_TYPE_INT */
+     , (38050, 114, 1) /* ATTUNED_INT */
+     , (38050, 19, 875) /* VALUE_INT */
+     , (38050, 5, 350) /* ENCUMB_VAL_INT */
+     , (38050, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (38050, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (38050, 109, 40) /* ITEM_DIFFICULTY_INT */
+     , (38050, 45, 0) /* DAMAGE_TYPE_INT */
+     , (38050, 49, 0) /* WEAPON_TIME_INT */
+     , (38050, 48, 47) /* WEAPON_SKILL_INT */
+     , (38050, 44, 26) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (38050, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (38050, 29, 1.25) /* WEAPON_DEFENSE_FLOAT */
+     , (38050, 5, -0.03333333) /* MANA_RATE_FLOAT */
+     , (38050, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (38050, 63, 2.1) /* DAMAGE_MOD_FLOAT */
+     , (38050, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (38050, 26, 27.5) /* MAXIMUM_VELOCITY_FLOAT */
+     , (38050, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38050, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (38050, 1603) /* Defender4_SpellID */
+     , (38050, 1614) /* BloodDrinker4_SpellID */;
+

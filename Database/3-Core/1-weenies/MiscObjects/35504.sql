@@ -32,6 +32,20 @@ VALUES (35504, 13, True) /* ETHEREAL_BOOL */
      , (35504, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35504, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35504, 15, 'A strange key decorated with swirled grooves and made of bone.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35504, 33, 1) /* BONDED_INT */
+     , (35504, 114, 1) /* ATTUNED_INT */
+     , (35504, 19, 0) /* VALUE_INT */
+     , (35504, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35504, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -50,6 +50,22 @@ VALUES (22822, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22822, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22822, 16, 'Use this gem to dispel all negative spells') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22822, 19, 1000) /* VALUE_INT */
+     , (22822, 5, 10) /* ENCUMB_VAL_INT */
+     , (22822, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (22822, 108, 250) /* ITEM_MAX_MANA_INT */
+     , (22822, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (22822, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (22822, 3180) /* DispelAllBadSelf7_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

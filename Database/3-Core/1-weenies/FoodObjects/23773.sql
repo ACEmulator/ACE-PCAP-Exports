@@ -35,6 +35,18 @@ VALUES (23773, 13, True) /* ETHEREAL_BOOL */
      , (23773, 19, True) /* ATTACKABLE_BOOL */
      , (23773, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23773, 14, 'Use this item to drink it.') /* USE_STRING */
+     , (23773, 15, 'A heady drink that makes you feel like dancin.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23773, 19, 300) /* VALUE_INT */
+     , (23773, 5, 45) /* ENCUMB_VAL_INT */
+     , (23773, 89, 4) /* BOOSTER_ENUM_INT */
+     , (23773, 90, 60) /* BOOST_VALUE_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

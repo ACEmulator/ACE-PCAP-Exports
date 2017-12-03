@@ -98,6 +98,63 @@ VALUES (24249, 10, 16777301)
      , (24249, 8, 16777298)
      , (24249, 16, 16779630);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24249, 5, 'Scout') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (24249, 16, 67110062) /* EYES_PALETTE_DID */
+     , (24249, 9, 83890439) /* EYES_TEXTURE_DID */
+     , (24249, 17, 67110053) /* SKIN_PALETTE_DID */
+     , (24249, 10, 83890561) /* NOSE_TEXTURE_DID */
+     , (24249, 11, 83890662) /* MOUTH_TEXTURE_DID */
+     , (24249, 15, 67116996) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24249, 113, 1) /* GENDER_INT */
+     , (24249, 2, 31) /* CREATURE_TYPE_INT */
+     , (24249, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (24249, 25, 15) /* LEVEL_INT */
+     , (24249, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (24249, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24249, 5, 'Scout') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (24249, 16, 67110063) /* EYES_PALETTE_DID */
+     , (24249, 9, 83890488) /* EYES_TEXTURE_DID */
+     , (24249, 17, 67110056) /* SKIN_PALETTE_DID */
+     , (24249, 10, 83890544) /* NOSE_TEXTURE_DID */
+     , (24249, 11, 83890662) /* MOUTH_TEXTURE_DID */
+     , (24249, 15, 67117068) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24249, 113, 1) /* GENDER_INT */
+     , (24249, 2, 31) /* CREATURE_TYPE_INT */
+     , (24249, 307, 5) /* DAMAGE_RATING_INT */
+     , (24249, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (24249, 25, 15) /* LEVEL_INT */
+     , (24249, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (24249, 1, 85) /* STRENGTH_ATTRIBUTE */
+     , (24249, 2, 75) /* ENDURANCE_ATTRIBUTE */
+     , (24249, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (24249, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (24249, 16, 160) /* FOCUS_ATTRIBUTE */
+     , (24249, 32, 180) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (24249, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24249, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24249, 256, 180) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

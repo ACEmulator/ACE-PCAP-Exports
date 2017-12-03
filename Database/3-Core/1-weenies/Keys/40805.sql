@@ -34,3 +34,14 @@ VALUES (40805, 13, True) /* ETHEREAL_BOOL */
      , (40805, 19, True) /* ATTACKABLE_BOOL */
      , (40805, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40805, 16, 'A key to the Aetherium Vault within the Apostate Nexus dungeon.') /* LONG_DESC_STRING */
+     , (40805, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40805, 19, 0) /* VALUE_INT */
+     , (40805, 5, 50) /* ENCUMB_VAL_INT */
+     , (40805, 91, 1) /* MAX_STRUCTURE_INT */;
+

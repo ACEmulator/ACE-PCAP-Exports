@@ -37,3 +37,25 @@ VALUES (25542, 13, True) /* ETHEREAL_BOOL */
      , (25542, 19, True) /* ATTACKABLE_BOOL */
      , (25542, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25542, 16, 'A ring of bone once used as a body piercing for a Banderling Scalper. The magic within the bone is still active and small bits have been stripped away so the ring can now be worn on the finger.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25542, 160, 60) /* WIELD_DIFFICULTY_INT */
+     , (25542, 19, 2250) /* VALUE_INT */
+     , (25542, 5, 10) /* ENCUMB_VAL_INT */
+     , (25542, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (25542, 108, 1250) /* ITEM_MAX_MANA_INT */
+     , (25542, 109, 175) /* ITEM_DIFFICULTY_INT */
+     , (25542, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (25542, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25542, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (25542, 1432) /* FocusOther6_SpellID */
+     , (25542, 1337) /* StrengthOther6_SpellID */;
+

@@ -42,3 +42,12 @@ VALUES (36773, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36773, 67114505, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36773, 2, 95) /* CREATURE_TYPE_INT */
+     , (36773, 25, 161) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (36773, 64, 1200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

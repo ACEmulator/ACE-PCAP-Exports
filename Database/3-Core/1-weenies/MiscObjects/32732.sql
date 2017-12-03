@@ -42,3 +42,14 @@ VALUES (32732, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32732, 0, 16783325);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32732, 16, 'A mystically sealed decanter filled with the raw essence of Strife,') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32732, 33, 1) /* BONDED_INT */
+     , (32732, 114, 1) /* ATTUNED_INT */
+     , (32732, 19, 0) /* VALUE_INT */
+     , (32732, 5, 150) /* ENCUMB_VAL_INT */;
+

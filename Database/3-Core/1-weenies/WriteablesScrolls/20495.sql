@@ -35,3 +35,17 @@ VALUES (20495, 13, True) /* ETHEREAL_BOOL */
      , (20495, 19, True) /* ATTACKABLE_BOOL */
      , (20495, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20495, 16, 'Inscribed spell: Bottle Breaker
+Decreases the target''s Alchemy skill by 40 points.') /* LONG_DESC_STRING */
+     , (20495, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20495, 19, 2000) /* VALUE_INT */
+     , (20495, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20495, 2188) /* AlchemyIneptitudeOther7_SpellID */;
+

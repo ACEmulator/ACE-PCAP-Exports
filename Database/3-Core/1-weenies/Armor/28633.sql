@@ -38,3 +38,29 @@ VALUES (28633, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28633, 67116230, 72, 24);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28633, 16, 'Diforsa Girth') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28633, 19, 4637) /* VALUE_INT */
+     , (28633, 131, 63) /* MATERIAL_TYPE_INT */
+     , (28633, 5, 1099) /* ENCUMB_VAL_INT */
+     , (28633, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (28633, 28, 210) /* ARMOR_LEVEL_INT */
+     , (28633, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28633, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28633, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28633, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28633, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28633, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28633, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28633, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28633, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28633, 100, 1) /* DYABLE_BOOL */;
+

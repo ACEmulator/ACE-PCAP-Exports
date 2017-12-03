@@ -34,6 +34,17 @@ VALUES (24126, 13, True) /* ETHEREAL_BOOL */
      , (24126, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24126, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24126, 16, 'A gnawed and crumpled letter. It has been torn, folded, mutilated, and bears the marks of mite teeth, but the elegant handwriting is still legible.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24126, 19, 10) /* VALUE_INT */
+     , (24126, 5, 25) /* ENCUMB_VAL_INT */
+     , (24126, 174, 8) /* APPRAISAL_PAGES_INT */
+     , (24126, 175, 8) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

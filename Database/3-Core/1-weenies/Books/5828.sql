@@ -34,6 +34,17 @@ VALUES (5828, 13, True) /* ETHEREAL_BOOL */
      , (5828, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5828, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5828, 16, 'A piece of paper that seems covered in tentacle marks.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5828, 19, 50) /* VALUE_INT */
+     , (5828, 5, 25) /* ENCUMB_VAL_INT */
+     , (5828, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (5828, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

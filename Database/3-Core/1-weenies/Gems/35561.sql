@@ -36,6 +36,20 @@ VALUES (35561, 13, True) /* ETHEREAL_BOOL */
      , (35561, 19, True) /* ATTACKABLE_BOOL */
      , (35561, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35561, 16, 'A message shard retrieved from the corpse of the Virindi Archivist.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35561, 33, 1) /* BONDED_INT */
+     , (35561, 114, 1) /* ATTUNED_INT */
+     , (35561, 19, 0) /* VALUE_INT */
+     , (35561, 5, 20) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35561, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

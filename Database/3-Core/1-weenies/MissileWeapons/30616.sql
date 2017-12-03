@@ -51,3 +51,42 @@ VALUES (30616, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30616, 0, 16791758);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30616, 16, 'Arbalest of Recklessness') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30616, 176, 47) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30616, 160, 270) /* WIELD_DIFFICULTY_INT */
+     , (30616, 353, 9) /* WEAPON_TYPE_INT */
+     , (30616, 19, 2738) /* VALUE_INT */
+     , (30616, 131, 57) /* MATERIAL_TYPE_INT */
+     , (30616, 115, 246) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30616, 5, 1590) /* ENCUMB_VAL_INT */
+     , (30616, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (30616, 106, 226) /* ITEM_SPELLCRAFT_INT */
+     , (30616, 108, 809) /* ITEM_MAX_MANA_INT */
+     , (30616, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30616, 109, 103) /* ITEM_DIFFICULTY_INT */
+     , (30616, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30616, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30616, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (30616, 45, 0) /* DAMAGE_TYPE_INT */
+     , (30616, 49, 113) /* WEAPON_TIME_INT */
+     , (30616, 48, 47) /* WEAPON_SKILL_INT */
+     , (30616, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30616, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (30616, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */
+     , (30616, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (30616, 63, 2.53) /* DAMAGE_MOD_FLOAT */
+     , (30616, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30616, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30616, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30616, 5832) /* recklessnessmasteryself6_SpellID */
+     , (30616, 1616) /* BloodDrinker6_SpellID */;
+

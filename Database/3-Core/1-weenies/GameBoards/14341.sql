@@ -25,3 +25,12 @@ VALUES (14341, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (14341, 19, True) /* ATTACKABLE_BOOL */
      , (14341, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14341, 16, 'Use this item to play a game.
+
+This game board can be used to play Chess.
+
+') /* LONG_DESC_STRING */;
+

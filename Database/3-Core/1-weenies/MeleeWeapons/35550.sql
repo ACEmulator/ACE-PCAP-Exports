@@ -50,3 +50,46 @@ VALUES (35550, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35550, 0, 16777936);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35550, 16, 'This modest staff seems to be constructed primarily out of the enigmatic anti-magic ore known as chorizite.  However, the staff holds more powerful enchantments than should ordinarily be possible on chorizite weapons.  It seems to have crystallized out of a mysterious essence that has shown itself to be quite thirsty for the mana that runs through the blood of magically trained humans. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35550, 55, 2078) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35550, 353, 7) /* WEAPON_TYPE_INT */
+     , (35550, 33, -1) /* BONDED_INT */
+     , (35550, 114, 0) /* ATTUNED_INT */
+     , (35550, 98, 1485043308) /* CREATION_TIMESTAMP_INT */
+     , (35550, 19, 0) /* VALUE_INT */
+     , (35550, 36, 9999) /* RESIST_MAGIC_INT */
+     , (35550, 5, 450) /* ENCUMB_VAL_INT */
+     , (35550, 263, 4) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (35550, 267, 10800) /* LIFESPAN_INT */
+     , (35550, 268, 10071) /* REMAINING_LIFESPAN_INT */
+     , (35550, 47, 4) /* ATTACK_TYPE_INT */
+     , (35550, 45, 4) /* DAMAGE_TYPE_INT */
+     , (35550, 49, 10) /* WEAPON_TIME_INT */
+     , (35550, 48, 46) /* WEAPON_SKILL_INT */
+     , (35550, 44, 100) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35550, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (35550, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (35550, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (35550, 29, 1.4) /* WEAPON_DEFENSE_FLOAT */
+     , (35550, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (35550, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (35550, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (35550, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (35550, 62, 1.4) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35550, 99, 0) /* IVORYABLE_BOOL */
+     , (35550, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35550, 2078) /* ManaDrainOther7_SpellID */;
+

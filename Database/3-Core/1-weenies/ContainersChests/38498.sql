@@ -36,3 +36,18 @@ VALUES (38498, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38498, 19, True) /* ATTACKABLE_BOOL */
      , (38498, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38498, 16, 'A Society Reward Chest, containing a randomly enchanted Radiant Blood Girth.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38498, 19, 0) /* VALUE_INT */
+     , (38498, 5, 6423) /* ENCUMB_VAL_INT */
+     , (38498, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (38498, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38498, 2, 0) /* OPEN_BOOL */
+     , (38498, 3, 1) /* LOCKED_BOOL */;
+

@@ -33,3 +33,11 @@ VALUES (14289, 13, True) /* ETHEREAL_BOOL */
      , (14289, 19, True) /* ATTACKABLE_BOOL */
      , (14289, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14289, 38, 'Villalabar Portal (60.5S, 18.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14289, 111, 1) /* PORTAL_BITMASK_INT */;
+

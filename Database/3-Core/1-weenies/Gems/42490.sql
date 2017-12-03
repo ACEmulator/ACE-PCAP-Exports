@@ -38,6 +38,21 @@ VALUES (42490, 13, True) /* ETHEREAL_BOOL */
      , (42490, 19, True) /* ATTACKABLE_BOOL */
      , (42490, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42490, 16, 'A normal looking mana stone enchanted to pick up energy from the environment on use, but won''t hold a charge.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42490, 33, 1) /* BONDED_INT */
+     , (42490, 114, 1) /* ATTUNED_INT */
+     , (42490, 19, 0) /* VALUE_INT */
+     , (42490, 5, 0) /* ENCUMB_VAL_INT */
+     , (42490, 280, 51) /* SHARED_COOLDOWN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42490, 167, 10) /* COOLDOWN_DURATION_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

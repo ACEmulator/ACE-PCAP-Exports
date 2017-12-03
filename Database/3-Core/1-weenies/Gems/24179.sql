@@ -44,6 +44,18 @@ VALUES (24179, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24179, 0, 16783974);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24179, 14, 'Place this gem into a Weeping weapon cast to turn it into a Weeping Weapon.') /* USE_STRING */
+     , (24179, 15, 'This was once the heart of Jaleh al-Thani now it has become a hardened crystal that forever bleeds.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24179, 33, 1) /* BONDED_INT */
+     , (24179, 114, 1) /* ATTUNED_INT */
+     , (24179, 19, 0) /* VALUE_INT */
+     , (24179, 5, 5) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

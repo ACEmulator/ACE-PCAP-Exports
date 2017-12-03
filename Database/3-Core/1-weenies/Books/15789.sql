@@ -33,3 +33,15 @@ VALUES (15789, 13, True) /* ETHEREAL_BOOL */
      , (15789, 14, True) /* GRAVITY_STATUS_BOOL */
      , (15789, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15789, 16, 'A note hastily written by Nuhmudira. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15789, 114, 1) /* ATTUNED_INT */
+     , (15789, 19, 0) /* VALUE_INT */
+     , (15789, 5, 25) /* ENCUMB_VAL_INT */
+     , (15789, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (15789, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

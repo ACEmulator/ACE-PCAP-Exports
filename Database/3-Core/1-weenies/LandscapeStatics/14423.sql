@@ -49,3 +49,25 @@ VALUES (14423, 0, 83887061, 83893840)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14423, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14423, 15, 'A Strathelar Guards unifom.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14423, 33, 1) /* BONDED_INT */
+     , (14423, 114, 1) /* ATTUNED_INT */
+     , (14423, 19, 0) /* VALUE_INT */
+     , (14423, 5, 500) /* ENCUMB_VAL_INT */
+     , (14423, 28, 40) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (14423, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (14423, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (14423, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (14423, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (14423, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (14423, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (14423, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (14423, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

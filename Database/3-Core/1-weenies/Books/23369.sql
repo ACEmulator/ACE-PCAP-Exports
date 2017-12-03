@@ -33,3 +33,14 @@ VALUES (23369, 13, True) /* ETHEREAL_BOOL */
      , (23369, 14, True) /* GRAVITY_STATUS_BOOL */
      , (23369, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23369, 16, 'A few sheets of paper, filled with Leandra''s neat and concise handwriting. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23369, 19, 0) /* VALUE_INT */
+     , (23369, 5, 25) /* ENCUMB_VAL_INT */
+     , (23369, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (23369, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
+

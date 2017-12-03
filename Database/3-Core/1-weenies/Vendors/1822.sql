@@ -91,3 +91,26 @@ VALUES (1822, 12, 16777304)
      , (1822, 8, 16781839)
      , (1822, 16, 16778476);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1822, 5, 'Shopkeeper') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (1822, 16, 67110063) /* EYES_PALETTE_DID */
+     , (1822, 9, 83890481) /* EYES_TEXTURE_DID */
+     , (1822, 17, 67109555) /* SKIN_PALETTE_DID */
+     , (1822, 10, 83890560) /* NOSE_TEXTURE_DID */
+     , (1822, 11, 83890619) /* MOUTH_TEXTURE_DID */
+     , (1822, 15, 67117016) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1822, 113, 1) /* GENDER_INT */
+     , (1822, 2, 31) /* CREATURE_TYPE_INT */
+     , (1822, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (1822, 25, 9) /* LEVEL_INT */
+     , (1822, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (1822, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

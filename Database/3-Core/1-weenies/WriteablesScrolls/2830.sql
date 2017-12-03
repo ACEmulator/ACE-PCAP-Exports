@@ -35,3 +35,17 @@ VALUES (2830, 13, True) /* ETHEREAL_BOOL */
      , (2830, 19, True) /* ATTACKABLE_BOOL */
      , (2830, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2830, 16, 'Inscribed spell: Frost Lure V
+Decreases a shield or piece of armor''s resistance to cold damage by 100%.') /* LONG_DESC_STRING */
+     , (2830, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2830, 19, 200) /* VALUE_INT */
+     , (2830, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2830, 1521) /* FrostLure5_SpellID */;
+

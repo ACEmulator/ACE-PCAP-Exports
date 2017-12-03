@@ -31,3 +31,16 @@ VALUES (27791, 13, True) /* ETHEREAL_BOOL */
      , (27791, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27791, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27791, 15, 'A ancient, mud-caked tome.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27791, 33, 1) /* BONDED_INT */
+     , (27791, 114, 1) /* ATTUNED_INT */
+     , (27791, 19, 15) /* VALUE_INT */
+     , (27791, 5, 100) /* ENCUMB_VAL_INT */
+     , (27791, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (27791, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

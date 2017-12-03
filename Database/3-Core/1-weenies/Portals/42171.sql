@@ -34,3 +34,13 @@ VALUES (42171, 13, True) /* ETHEREAL_BOOL */
      , (42171, 19, True) /* ATTACKABLE_BOOL */
      , (42171, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42171, 16, 'A portal leading to Halls of Helm where the Superior Helm and Fiery Shield may be found.') /* LONG_DESC_STRING */
+     , (42171, 38, 'Halls of Helm (18.7N, 1.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42171, 86, 15) /* MIN_LEVEL_INT */
+     , (42171, 111, 49) /* PORTAL_BITMASK_INT */;
+

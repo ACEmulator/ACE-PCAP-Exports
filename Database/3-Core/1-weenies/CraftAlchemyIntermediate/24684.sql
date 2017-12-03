@@ -37,6 +37,16 @@ VALUES (24684, 13, True) /* ETHEREAL_BOOL */
      , (24684, 19, True) /* ATTACKABLE_BOOL */
      , (24684, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24684, 16, 'This simply crafted crucible is capable of holding acids, and withstanding intense heat. It is necessary for mixing several materials at once.') /* LONG_DESC_STRING */
+     , (24684, 14, 'This item is used in alchemy.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24684, 19, 500) /* VALUE_INT */
+     , (24684, 5, 50) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -35,3 +35,17 @@ VALUES (20561, 13, True) /* ETHEREAL_BOOL */
      , (20561, 19, True) /* ATTACKABLE_BOOL */
      , (20561, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20561, 16, 'Inscribed spell: Celdiseth''s Boon
+Increases the target''s Magic Item Tinkering skill by 40 points.') /* LONG_DESC_STRING */
+     , (20561, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20561, 19, 2000) /* VALUE_INT */
+     , (20561, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20561, 2276) /* MagicItemExpertiseOther7_SpellID */;
+

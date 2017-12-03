@@ -35,6 +35,19 @@ VALUES (36363, 13, True) /* ETHEREAL_BOOL */
      , (36363, 14, True) /* GRAVITY_STATUS_BOOL */
      , (36363, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36363, 14, 'This item is used in fletching.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36363, 33, 1) /* BONDED_INT */
+     , (36363, 19, 9) /* VALUE_INT */
+     , (36363, 5, 0) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36363, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

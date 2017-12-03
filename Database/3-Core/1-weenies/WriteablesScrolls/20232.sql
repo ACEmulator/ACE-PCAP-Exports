@@ -35,3 +35,17 @@ VALUES (20232, 13, True) /* ETHEREAL_BOOL */
      , (20232, 19, True) /* ATTACKABLE_BOOL */
      , (20232, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20232, 16, 'Inscribed spell: Synaptic Misfire
+Decreases the target''s Focus by 40 points.') /* LONG_DESC_STRING */
+     , (20232, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20232, 19, 2000) /* VALUE_INT */
+     , (20232, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20232, 2054) /* BafflementOther7_SpellID */;
+

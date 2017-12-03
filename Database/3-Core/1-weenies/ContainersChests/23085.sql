@@ -37,3 +37,19 @@ VALUES (23085, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (23085, 19, True) /* ATTACKABLE_BOOL */
      , (23085, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23085, 16, 'A chest carved from mahogany and reinforced with steel and iron bands.') /* LONG_DESC_STRING */
+     , (23085, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23085, 19, 2500) /* VALUE_INT */
+     , (23085, 5, 14562) /* ENCUMB_VAL_INT */
+     , (23085, 38, 5000) /* RESIST_LOCKPICK_INT */
+     , (23085, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23085, 2, 0) /* OPEN_BOOL */
+     , (23085, 3, 1) /* LOCKED_BOOL */;
+

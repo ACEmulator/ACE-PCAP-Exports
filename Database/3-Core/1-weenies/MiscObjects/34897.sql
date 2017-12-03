@@ -35,6 +35,16 @@ VALUES (34897, 13, True) /* ETHEREAL_BOOL */
      , (34897, 19, True) /* ATTACKABLE_BOOL */
      , (34897, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34897, 16, 'A small stone with a sigil for lockpicking carved into it.') /* LONG_DESC_STRING */
+     , (34897, 14, 'Use this item to imprint your Lockpicking skill on an Imprinting Mote.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34897, 19, 1000) /* VALUE_INT */
+     , (34897, 5, 5) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

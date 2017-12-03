@@ -41,3 +41,42 @@ VALUES (53307, 13, True) /* ETHEREAL_BOOL */
      , (53307, 19, True) /* ATTACKABLE_BOOL */
      , (53307, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53307, 16, 'An atlatl imbued with the energies of the Viridian Rise.') /* LONG_DESC_STRING */
+     , (53307, 14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53307, 160, 385) /* WIELD_DIFFICULTY_INT */
+     , (53307, 131, 75) /* MATERIAL_TYPE_INT */
+     , (53307, 19, 200) /* VALUE_INT */
+     , (53307, 5, 400) /* ENCUMB_VAL_INT */
+     , (53307, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (53307, 106, 450) /* ITEM_SPELLCRAFT_INT */
+     , (53307, 204, 22) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (53307, 108, 5000) /* ITEM_MAX_MANA_INT */
+     , (53307, 109, 300) /* ITEM_DIFFICULTY_INT */
+     , (53307, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (53307, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (53307, 45, 64) /* DAMAGE_TYPE_INT */
+     , (53307, 49, 25) /* WEAPON_TIME_INT */
+     , (53307, 48, 47) /* WEAPON_SKILL_INT */
+     , (53307, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (53307, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
+     , (53307, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (53307, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (53307, 63, 2.57) /* DAMAGE_MOD_FLOAT */
+     , (53307, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (53307, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (53307, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (53307, 4417) /* Swiftkiller8_SpellID */
+     , (53307, 6044) /* CantripBowAptitude4_SpellID */
+     , (53307, 4522) /* BowMasterySelf8_SpellID */
+     , (53307, 4395) /* Blooddrinker8_SpellID */
+     , (53307, 4400) /* Defender8_SpellID */;
+

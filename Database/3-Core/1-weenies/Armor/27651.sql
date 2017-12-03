@@ -46,3 +46,39 @@ VALUES (27651, 0, 83887061, 83895315)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27651, 0, 16778382);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27651, 15, 'This breastplate was taken from the Renegade Tumerok, General Amanua.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27651, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (27651, 19, 4500) /* VALUE_INT */
+     , (27651, 5, 800) /* ENCUMB_VAL_INT */
+     , (27651, 106, 275) /* ITEM_SPELLCRAFT_INT */
+     , (27651, 108, 1200) /* ITEM_MAX_MANA_INT */
+     , (27651, 28, 310) /* ARMOR_LEVEL_INT */
+     , (27651, 109, 125) /* ITEM_DIFFICULTY_INT */
+     , (27651, 158, 6) /* WIELD_REQUIREMENTS_INT */
+     , (27651, 159, 5) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27651, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (27651, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (27651, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (27651, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (27651, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (27651, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (27651, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (27651, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (27651, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27651, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27651, 2242) /* ImpregnabilityOther7_SpellID */
+     , (27651, 2244) /* InvulnerabilityOther7_SpellID */
+     , (27651, 2937) /* ModerateImpregnability_SpellID */
+     , (27651, 2938) /* ModerateInvulnerability_SpellID */;
+

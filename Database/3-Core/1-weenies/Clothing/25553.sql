@@ -42,3 +42,26 @@ VALUES (25553, 67114549, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25553, 0, 16789602);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25553, 16, 'A chicken that you put on your head.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25553, 19, 1000) /* VALUE_INT */
+     , (25553, 5, 23) /* ENCUMB_VAL_INT */
+     , (25553, 28, 0) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25553, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (25553, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (25553, 15, 0.5) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (25553, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (25553, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (25553, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (25553, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (25553, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25553, 100, 1) /* DYABLE_BOOL */;
+

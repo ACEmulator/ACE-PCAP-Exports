@@ -38,3 +38,14 @@ VALUES (43215, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43215, 67116923, 240, 16);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43215, 15, 'This broken mask shard was taken from the Grand Director at the heart of the Apostate Nexi.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43215, 33, 1) /* BONDED_INT */
+     , (43215, 114, 1) /* ATTUNED_INT */
+     , (43215, 19, 0) /* VALUE_INT */
+     , (43215, 5, 200) /* ENCUMB_VAL_INT */;
+

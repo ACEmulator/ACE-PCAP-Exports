@@ -32,6 +32,12 @@ VALUES (14243, 13, True) /* ETHEREAL_BOOL */
      , (14243, 19, True) /* ATTACKABLE_BOOL */
      , (14243, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14243, 16, 'The current maintenance has been paid.
+') /* LONG_DESC_STRING */;
+
 /* Slumlord Extended Properties */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

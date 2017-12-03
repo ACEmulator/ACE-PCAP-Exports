@@ -33,6 +33,19 @@ VALUES (27485, 13, True) /* ETHEREAL_BOOL */
      , (27485, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27485, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27485, 16, 'Orders sent to Commander Kamenua. These might have some worth if given to Aun Laokhe.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27485, 33, 1) /* BONDED_INT */
+     , (27485, 114, 1) /* ATTUNED_INT */
+     , (27485, 19, 0) /* VALUE_INT */
+     , (27485, 5, 25) /* ENCUMB_VAL_INT */
+     , (27485, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (27485, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

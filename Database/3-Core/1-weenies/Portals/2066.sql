@@ -33,3 +33,12 @@ VALUES (2066, 13, True) /* ETHEREAL_BOOL */
      , (2066, 19, True) /* ATTACKABLE_BOOL */
      , (2066, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2066, 16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LONG_DESC_STRING */
+     , (2066, 38, 'Braid Mansion Ruin') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2066, 111, 1) /* PORTAL_BITMASK_INT */;
+

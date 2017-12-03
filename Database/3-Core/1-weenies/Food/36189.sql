@@ -48,6 +48,26 @@ VALUES (36189, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36189, 0, 16778735);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36189, 16, 'A potion of multihued liquid. It glows with a soft white light.') /* LONG_DESC_STRING */
+     , (36189, 14, 'Drink me.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36189, 19, 20) /* VALUE_INT */
+     , (36189, 5, 10) /* ENCUMB_VAL_INT */
+     , (36189, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (36189, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (36189, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (36189, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36189, 69, 1) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (36189, 4169) /* ArmorProdigalHarbinger_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

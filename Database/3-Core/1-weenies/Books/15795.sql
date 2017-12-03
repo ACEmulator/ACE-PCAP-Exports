@@ -45,6 +45,19 @@ VALUES (15795, 0, 83892962, 83893942)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15795, 0, 16785505);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15795, 16, 'A tome of four distinct colors, fasted in an iron bound leather binding. Surprising light for such a large tome, the book bears no scent of age, though it is written in an old for of Empyrean. It can only be translated by one skilled in the Empyrean languages.') /* LONG_DESC_STRING */
+     , (15795, 14, 'This book is written in Yalaini and must be translated.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15795, 33, 0) /* BONDED_INT */
+     , (15795, 19, 0) /* VALUE_INT */
+     , (15795, 5, 25) /* ENCUMB_VAL_INT */
+     , (15795, 174, 33) /* APPRAISAL_PAGES_INT */
+     , (15795, 175, 50) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

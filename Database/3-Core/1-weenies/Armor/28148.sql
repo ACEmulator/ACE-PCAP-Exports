@@ -44,3 +44,26 @@ VALUES (28148, 0, 83894333, 83895482);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28148, 0, 16778374);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28148, 16, 'A pair of gauntlets crafted from the hide of an azure gromnie.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28148, 19, 300) /* VALUE_INT */
+     , (28148, 5, 200) /* ENCUMB_VAL_INT */
+     , (28148, 28, 100) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28148, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28148, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28148, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28148, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28148, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28148, 18, 1.4) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28148, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28148, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28148, 100, 1) /* DYABLE_BOOL */;
+

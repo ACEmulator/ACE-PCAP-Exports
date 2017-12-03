@@ -33,3 +33,15 @@ VALUES (33987, 13, True) /* ETHEREAL_BOOL */
      , (33987, 19, True) /* ATTACKABLE_BOOL */
      , (33987, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33987, 16, 'An ancient bone with many nicks and cuts. It resembles a gromnie leg bone in its size and shape.') /* LONG_DESC_STRING */
+     , (33987, 14, 'Hand this item into Yuan Hanzu in Ayan Baqur for a reward.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33987, 33, 1) /* BONDED_INT */
+     , (33987, 114, 1) /* ATTUNED_INT */
+     , (33987, 19, 0) /* VALUE_INT */
+     , (33987, 5, 80) /* ENCUMB_VAL_INT */;
+

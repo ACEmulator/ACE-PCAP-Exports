@@ -29,3 +29,12 @@ VALUES (42876, 13, True) /* ETHEREAL_BOOL */
      , (42876, 19, True) /* ATTACKABLE_BOOL */
      , (42876, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42876, 16, 'Golems are said to be remnants of Empyrean magic, left behind as guardians for their strongholds, both above and below ground. Once the Empyrean vanished, however, they became mindless automatons, attacking anything that comes near. They stand seven to eight feet tall, and are made of many materials, including earth, wood, water, ice, stone and metal. They bash with their club-like limbs, and also attack with magic.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42876, 19, 125) /* VALUE_INT */
+     , (42876, 5, 9000) /* ENCUMB_VAL_INT */;
+

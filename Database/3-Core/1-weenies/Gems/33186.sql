@@ -36,3 +36,13 @@ VALUES (33186, 13, True) /* ETHEREAL_BOOL */
      , (33186, 19, True) /* ATTACKABLE_BOOL */
      , (33186, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33186, 16, 'Pack Harbinger with world destroying action.') /* LONG_DESC_STRING */
+     , (33186, 14, 'The Pack Harbinger can be placed on floor hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33186, 19, 10) /* VALUE_INT */
+     , (33186, 5, 10) /* ENCUMB_VAL_INT */;
+

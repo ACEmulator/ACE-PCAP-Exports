@@ -45,3 +45,23 @@ VALUES (35188, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35188, 67114979, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35188, 16, 'A nervous hen.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35188, 33, 1) /* BONDED_INT */
+     , (35188, 19, 2300) /* VALUE_INT */
+     , (35188, 117, 10) /* ITEM_MANA_COST_INT */
+     , (35188, 5, 30) /* ENCUMB_VAL_INT */
+     , (35188, 106, 10) /* ITEM_SPELLCRAFT_INT */
+     , (35188, 108, 300) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35188, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (35188, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35188, 4078) /* EggBolt_SpellID */;
+

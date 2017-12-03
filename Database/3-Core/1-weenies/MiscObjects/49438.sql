@@ -53,3 +53,29 @@ VALUES (49438, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49438, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49438, 14, 'Use this essence to summon or dismiss your Fire Spectre.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49438, 33, 0) /* BONDED_INT */
+     , (49438, 369, 115) /* USE_REQUIRES_LEVEL_INT */
+     , (49438, 114, 0) /* ATTUNED_INT */
+     , (49438, 19, 7000) /* VALUE_INT */
+     , (49438, 371, 13) /* GEAR_DAMAGE_RESIST_INT */
+     , (49438, 372, 10) /* GEAR_CRIT_INT */
+     , (49438, 5, 50) /* ENCUMB_VAL_INT */
+     , (49438, 375, 12) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (49438, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (49438, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (49438, 91, 50) /* MAX_STRUCTURE_INT */
+     , (49438, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (49438, 367, 430) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49438, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49438, 69, 1) /* IS_SELLABLE_BOOL */;
+

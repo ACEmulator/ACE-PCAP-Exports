@@ -39,6 +39,25 @@ VALUES (34968, 13, True) /* ETHEREAL_BOOL */
      , (34968, 19, True) /* ATTACKABLE_BOOL */
      , (34968, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34968, 16, 'This is a bluish mushroom, originally given to you by Torgluuk and since enhanced by the power of a ley line. It glows with a light blue energy, but is not warm to the touch. It seems safe to eat.') /* LONG_DESC_STRING */
+     , (34968, 14, 'Use this item to eat it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34968, 19, 50000) /* VALUE_INT */
+     , (34968, 5, 30) /* ENCUMB_VAL_INT */
+     , (34968, 106, 1000) /* ITEM_SPELLCRAFT_INT */
+     , (34968, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (34968, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (34968, 69, 1) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (34968, 4068) /* MucorManaWell_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

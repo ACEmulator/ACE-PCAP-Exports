@@ -50,6 +50,22 @@ VALUES (14541, 0, 16784246)
      , (14541, 1, 16784196)
      , (14541, 2, 16784180);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14541, 16, 'A shattered prism containing vibrant purple highlights. Electricity moves beneath the surface of the prism and there is an odd scent in the air about it.') /* LONG_DESC_STRING */
+     , (14541, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14541, 19, 200) /* VALUE_INT */
+     , (14541, 5, 6001) /* ENCUMB_VAL_INT */
+     , (14541, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (14541, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (14541, 2, 0) /* OPEN_BOOL */
+     , (14541, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

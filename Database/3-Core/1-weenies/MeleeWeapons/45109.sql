@@ -54,3 +54,32 @@ VALUES (45109, 0, 83894357, 83894357)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45109, 0, 16795945);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45109, 16, 'Acid Schlager') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45109, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (45109, 353, 2) /* WEAPON_TYPE_INT */
+     , (45109, 19, 976) /* VALUE_INT */
+     , (45109, 131, 58) /* MATERIAL_TYPE_INT */
+     , (45109, 5, 450) /* ENCUMB_VAL_INT */
+     , (45109, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (45109, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (45109, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (45109, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (45109, 47, 160) /* ATTACK_TYPE_INT */
+     , (45109, 45, 32) /* DAMAGE_TYPE_INT */
+     , (45109, 49, 28) /* WEAPON_TIME_INT */
+     , (45109, 48, 44) /* WEAPON_SKILL_INT */
+     , (45109, 44, 22) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45109, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (45109, 22, 0.53) /* DAMAGE_VARIANCE_FLOAT */
+     , (45109, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (45109, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (45109, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (45109, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */;
+

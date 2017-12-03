@@ -89,3 +89,38 @@ VALUES (38605, 12, 16778423)
      , (38605, 4, 16783485)
      , (38605, 8, 16783487);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38605, 5, 'Black Coral Taskmaster') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38605, 16, 67109565) /* EYES_PALETTE_DID */
+     , (38605, 9, 83890283) /* EYES_TEXTURE_DID */
+     , (38605, 17, 67110048) /* SKIN_PALETTE_DID */
+     , (38605, 10, 83890289) /* NOSE_TEXTURE_DID */
+     , (38605, 11, 83890328) /* MOUTH_TEXTURE_DID */
+     , (38605, 15, 67117077) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38605, 288, 1) /* SOCIETY_RANK_ELDWEB_INT */
+     , (38605, 113, 2) /* GENDER_INT */
+     , (38605, 2, 31) /* CREATURE_TYPE_INT */
+     , (38605, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38605, 25, 187) /* LEVEL_INT */
+     , (38605, 281, 2) /* FACTION1_BITS_INT */
+     , (38605, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38605, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (38605, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (38605, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (38605, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (38605, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (38605, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38605, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38605, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38605, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
+

@@ -35,3 +35,17 @@ VALUES (53342, 13, True) /* ETHEREAL_BOOL */
      , (53342, 19, True) /* ATTACKABLE_BOOL */
      , (53342, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53342, 16, 'Inscribed spell: Tectonic Rifts II
+Shoots eight shock waves outward from the caster. Each wave does 49-96 points of bludgeoning damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (53342, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53342, 19, 200) /* VALUE_INT */
+     , (53342, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (53342, 6196) /* TectonicRiftsII_SpellID */;
+

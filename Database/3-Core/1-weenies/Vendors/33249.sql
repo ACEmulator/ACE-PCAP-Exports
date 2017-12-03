@@ -82,6 +82,39 @@ VALUES (33249, 12, 16777304)
      , (33249, 13, 16783871)
      , (33249, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33249, 5, 'Arcanum Vendor') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (33249, 16, 67110062) /* EYES_PALETTE_DID */
+     , (33249, 9, 83890486) /* EYES_TEXTURE_DID */
+     , (33249, 17, 67110049) /* SKIN_PALETTE_DID */
+     , (33249, 10, 83890517) /* NOSE_TEXTURE_DID */
+     , (33249, 11, 83890651) /* MOUTH_TEXTURE_DID */
+     , (33249, 15, 67117002) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33249, 113, 1) /* GENDER_INT */
+     , (33249, 2, 31) /* CREATURE_TYPE_INT */
+     , (33249, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (33249, 25, 137) /* LEVEL_INT */
+     , (33249, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33249, 1, 70) /* STRENGTH_ATTRIBUTE */
+     , (33249, 2, 65) /* ENDURANCE_ATTRIBUTE */
+     , (33249, 4, 60) /* COORDINATION_ATTRIBUTE */
+     , (33249, 8, 60) /* QUICKNESS_ATTRIBUTE */
+     , (33249, 16, 35) /* FOCUS_ATTRIBUTE */
+     , (33249, 32, 30) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (33249, 64, 128) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33249, 128, 155) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33249, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

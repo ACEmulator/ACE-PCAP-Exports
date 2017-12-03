@@ -51,3 +51,36 @@ VALUES (24033, 0, 83893927, 83893927)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24033, 0, 16788971);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24033, 16, 'An acidic quarterstaff, wrenched from the dying hands of the beautiful and wise Mite Warrior Queen after she was cruelly and maliciously slain in her own home by a wanton marauder.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24033, 353, 7) /* WEAPON_TYPE_INT */
+     , (24033, 19, 1000) /* VALUE_INT */
+     , (24033, 5, 200) /* ENCUMB_VAL_INT */
+     , (24033, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (24033, 108, 600) /* ITEM_MAX_MANA_INT */
+     , (24033, 109, 40) /* ITEM_DIFFICULTY_INT */
+     , (24033, 47, 6) /* ATTACK_TYPE_INT */
+     , (24033, 45, 32) /* DAMAGE_TYPE_INT */
+     , (24033, 49, 20) /* WEAPON_TIME_INT */
+     , (24033, 48, 44) /* WEAPON_SKILL_INT */
+     , (24033, 44, 28) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (24033, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (24033, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (24033, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (24033, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */
+     , (24033, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (24033, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (24033, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (24033, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (24033, 1603) /* Defender4_SpellID */
+     , (24033, 1614) /* BloodDrinker4_SpellID */
+     , (24033, 1590) /* HeartSeeker4_SpellID */;
+

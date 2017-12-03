@@ -43,3 +43,14 @@ VALUES (27900, 0, 83889072, 83895356)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27900, 0, 16778376);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27900, 16, 'This is a relic of the Mosswarts. It appears to be nothing more than a simple cloth loincloth. A foul smelling and uncared for, loincloth.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27900, 33, 1) /* BONDED_INT */
+     , (27900, 114, 1) /* ATTUNED_INT */
+     , (27900, 19, 10) /* VALUE_INT */
+     , (27900, 5, 10) /* ENCUMB_VAL_INT */;
+

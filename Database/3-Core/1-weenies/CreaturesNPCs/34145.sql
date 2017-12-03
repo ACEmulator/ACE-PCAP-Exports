@@ -87,3 +87,26 @@ VALUES (34145, 10, 16777301)
      , (34145, 4, 16781838)
      , (34145, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34145, 5, 'Mask Maker') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (34145, 16, 67110063) /* EYES_PALETTE_DID */
+     , (34145, 9, 83890516) /* EYES_TEXTURE_DID */
+     , (34145, 17, 67115907) /* SKIN_PALETTE_DID */
+     , (34145, 10, 83890546) /* NOSE_TEXTURE_DID */
+     , (34145, 11, 83890663) /* MOUTH_TEXTURE_DID */
+     , (34145, 15, 67117016) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34145, 113, 1) /* GENDER_INT */
+     , (34145, 2, 31) /* CREATURE_TYPE_INT */
+     , (34145, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (34145, 25, 150) /* LEVEL_INT */
+     , (34145, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34145, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

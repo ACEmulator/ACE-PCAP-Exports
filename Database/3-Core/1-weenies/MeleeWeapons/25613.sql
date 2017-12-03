@@ -47,3 +47,44 @@ VALUES (25613, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25613, 0, 16789573);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25613, 15, 'A claw infused with the Heart of the Innocent.The weapon appears to be guided by a preternatural force seeking flesh and blood with great tenacity.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25613, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (25613, 33, 1) /* BONDED_INT */
+     , (25613, 114, 0) /* ATTUNED_INT */
+     , (25613, 19, 8000) /* VALUE_INT */
+     , (25613, 36, 9999) /* RESIST_MAGIC_INT */
+     , (25613, 5, 125) /* ENCUMB_VAL_INT */
+     , (25613, 166, 31) /* SLAYER_CREATURE_TYPE_INT */
+     , (25613, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (25613, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (25613, 109, 50) /* ITEM_DIFFICULTY_INT */
+     , (25613, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (25613, 47, 1) /* ATTACK_TYPE_INT */
+     , (25613, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (25613, 45, 16) /* DAMAGE_TYPE_INT */
+     , (25613, 49, 1) /* WEAPON_TIME_INT */
+     , (25613, 48, 44) /* WEAPON_SKILL_INT */
+     , (25613, 44, 54) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25613, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (25613, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
+     , (25613, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (25613, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (25613, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (25613, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (25613, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (25613, 62, 1.23) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25613, 99, 0) /* IVORYABLE_BOOL */
+     , (25613, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (25613, 2694) /* ModerateSwordAptitude_SpellID */;
+

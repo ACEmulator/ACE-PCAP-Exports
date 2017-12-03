@@ -34,3 +34,12 @@ VALUES (13238, 13, True) /* ETHEREAL_BOOL */
      , (13238, 14, True) /* GRAVITY_STATUS_BOOL */
      , (13238, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13238, 33, 1) /* BONDED_INT */
+     , (13238, 19, 5) /* VALUE_INT */
+     , (13238, 5, 25) /* ENCUMB_VAL_INT */
+     , (13238, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (13238, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

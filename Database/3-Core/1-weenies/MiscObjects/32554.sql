@@ -34,3 +34,14 @@ VALUES (32554, 13, True) /* ETHEREAL_BOOL */
      , (32554, 19, True) /* ATTACKABLE_BOOL */
      , (32554, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32554, 16, 'A claw from the fearsome Olthoi Swarm Matron that once lurked beneath the rebuilt town of Yanshi.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32554, 33, 1) /* BONDED_INT */
+     , (32554, 114, 1) /* ATTUNED_INT */
+     , (32554, 19, 0) /* VALUE_INT */
+     , (32554, 5, 100) /* ENCUMB_VAL_INT */;
+

@@ -34,3 +34,16 @@ VALUES (52097, 13, True) /* ETHEREAL_BOOL */
      , (52097, 19, True) /* ATTACKABLE_BOOL */
      , (52097, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52097, 16, 'This is a key.') /* LONG_DESC_STRING */
+     , (52097, 14, 'Use this item on a locked door to unlock it. ') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52097, 33, 1) /* BONDED_INT */
+     , (52097, 114, 1) /* ATTUNED_INT */
+     , (52097, 19, 0) /* VALUE_INT */
+     , (52097, 5, 10) /* ENCUMB_VAL_INT */
+     , (52097, 91, 1) /* MAX_STRUCTURE_INT */;
+

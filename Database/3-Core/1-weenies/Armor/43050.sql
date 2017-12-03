@@ -47,3 +47,45 @@ VALUES (43050, 0, 83889072, 83894171)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43050, 0, 16778376);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43050, 16, '') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43050, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (43050, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (43050, 131, 52) /* MATERIAL_TYPE_INT */
+     , (43050, 19, 17350) /* VALUE_INT */
+     , (43050, 5, 121) /* ENCUMB_VAL_INT */
+     , (43050, 374, 1) /* GEAR_CRIT_DAMAGE_INT */
+     , (43050, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (43050, 265, 14) /* EQUIPMENT_SET_ID_INT */
+     , (43050, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (43050, 171, 6) /* NUM_TIMES_TINKERED_INT */
+     , (43050, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (43050, 108, 801) /* ITEM_MAX_MANA_INT */
+     , (43050, 28, 401) /* ARMOR_LEVEL_INT */
+     , (43050, 109, 307) /* ITEM_DIFFICULTY_INT */
+     , (43050, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (43050, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (43050, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43050, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (43050, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (43050, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (43050, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (43050, 16, 1.281282) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (43050, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (43050, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (43050, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (43050, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43050, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43050, 6082) /* CantripFlameWard4_SpellID */
+     , (43050, 4407) /* Impenetrability8_SpellID */;
+

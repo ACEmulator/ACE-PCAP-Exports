@@ -48,3 +48,27 @@ VALUES (27250, 0, 83887061, 83895231)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27250, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27250, 16, 'This raiment, emblazoned with the crest of the Realaidain family, is a gift from the High Queen and Asheron to those who have made Dereth their home by Morningthaw, PY 15.') /* LONG_DESC_STRING */
+     , (27250, 14, 'This raiment can be dyed.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27250, 19, 3000) /* VALUE_INT */
+     , (27250, 5, 300) /* ENCUMB_VAL_INT */
+     , (27250, 28, 240) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27250, 13, 2.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (27250, 14, 2.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (27250, 15, 3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (27250, 16, 2.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (27250, 17, 2.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (27250, 18, 2.1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (27250, 19, 2.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (27250, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27250, 100, 1) /* DYABLE_BOOL */;
+

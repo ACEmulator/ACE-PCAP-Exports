@@ -49,3 +49,29 @@ VALUES (33953, 0, 83893789, 83893789)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33953, 0, 16787342);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33953, 16, 'An orb with some sort of dark figure within. Gazing into its depths, you see the wretched face of a Dark Sorcerer, an undead from the Vesayen Islands. This orb has been enhanced by Belinda du Loc to unlock a greater magnitude of its true nature.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33953, 176, 33) /* APPRAISAL_ITEM_SKILL_INT */
+     , (33953, 19, 7000) /* VALUE_INT */
+     , (33953, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (33953, 5, 50) /* ENCUMB_VAL_INT */
+     , (33953, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (33953, 108, 2000) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33953, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
+     , (33953, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (33953, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (33953, 2178) /* FesterOther7_SpellID */
+     , (33953, 2249) /* ItemEnchantmentMasterySelf7_SpellID */
+     , (33953, 2267) /* LifeMagicMasterySelf7_SpellID */
+     , (33953, 2014) /* WizardsUltimateIntellect_SpellID */
+     , (33953, 2664) /* ModerateWillpower_SpellID */
+     , (33953, 2287) /* ManaMasterySelf7_SpellID */;
+

@@ -35,3 +35,17 @@ VALUES (9650, 13, True) /* ETHEREAL_BOOL */
      , (9650, 19, True) /* ATTACKABLE_BOOL */
      , (9650, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9650, 16, 'Inscribed spell: Stamina to Health Self II
+Drains one-half of the caster''s Stamina and gives 100% of that to his/her Health (maximum of 100).') /* LONG_DESC_STRING */
+     , (9650, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9650, 19, 5) /* VALUE_INT */
+     , (9650, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9650, 1665) /* StaminatoHealthSelf2_SpellID */;
+

@@ -35,3 +35,17 @@ VALUES (5983, 13, True) /* ETHEREAL_BOOL */
      , (5983, 19, True) /* ATTACKABLE_BOOL */
      , (5983, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5983, 16, 'Inscribed spell: Alchemy Ineptitude Other IV
+Decreases the target''s Alchemy skill by 25 points.') /* LONG_DESC_STRING */
+     , (5983, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5983, 19, 100) /* VALUE_INT */
+     , (5983, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (5983, 1772) /* AlchemyIneptitudeOther4_SpellID */;
+

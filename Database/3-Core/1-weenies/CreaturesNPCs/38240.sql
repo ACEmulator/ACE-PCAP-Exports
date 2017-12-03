@@ -81,3 +81,38 @@ VALUES (38240, 12, 16777304)
      , (38240, 4, 16791954)
      , (38240, 8, 16791955);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38240, 5, 'Moguth Hunt Task Master') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38240, 16, 67110063) /* EYES_PALETTE_DID */
+     , (38240, 9, 83890480) /* EYES_TEXTURE_DID */
+     , (38240, 17, 67115908) /* SKIN_PALETTE_DID */
+     , (38240, 10, 83890522) /* NOSE_TEXTURE_DID */
+     , (38240, 11, 83890589) /* MOUTH_TEXTURE_DID */
+     , (38240, 15, 67117078) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38240, 113, 1) /* GENDER_INT */
+     , (38240, 2, 31) /* CREATURE_TYPE_INT */
+     , (38240, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38240, 25, 180) /* LEVEL_INT */
+     , (38240, 281, 1) /* FACTION1_BITS_INT */
+     , (38240, 188, 4) /* HERITAGE_GROUP_INT */
+     , (38240, 287, 1001) /* SOCIETY_RANK_CELHAN_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38240, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (38240, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (38240, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (38240, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (38240, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (38240, 32, 90) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38240, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38240, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38240, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
+

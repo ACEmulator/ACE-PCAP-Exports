@@ -38,3 +38,16 @@ VALUES (1503, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1503, 1, True) /* STUCK_BOOL */
      , (1503, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1503, 16, 'A backpack with side pouches.') /* LONG_DESC_STRING */
+     , (1503, 14, 'Use this item to close it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1503, 19, 30) /* VALUE_INT */
+     , (1503, 5, 1315) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (1503, 2, 1) /* OPEN_BOOL */;
+

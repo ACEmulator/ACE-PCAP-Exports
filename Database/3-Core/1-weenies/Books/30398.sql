@@ -34,3 +34,16 @@ VALUES (30398, 13, True) /* ETHEREAL_BOOL */
      , (30398, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30398, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30398, 16, 'A sheaf of pages from the journal of Carlo di Cenza.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30398, 33, 0) /* BONDED_INT */
+     , (30398, 114, 0) /* ATTUNED_INT */
+     , (30398, 19, 10) /* VALUE_INT */
+     , (30398, 5, 100) /* ENCUMB_VAL_INT */
+     , (30398, 174, 11) /* APPRAISAL_PAGES_INT */
+     , (30398, 175, 11) /* APPRAISAL_MAX_PAGES_INT */;
+

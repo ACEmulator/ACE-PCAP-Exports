@@ -81,3 +81,12 @@ VALUES (33225, 0, 16792997)
      , (33225, 15, 16793012)
      , (33225, 16, 16793013);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33225, 2, 62) /* CREATURE_TYPE_INT */
+     , (33225, 25, 160) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (33225, 64, 10000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

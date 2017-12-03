@@ -51,3 +51,40 @@ VALUES (28068, 0, 83887061, 83893840)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28068, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28068, 16, 'A reward for your efforts to learn more of the Burun and their treaty with the Renegades.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28068, 160, 40) /* WIELD_DIFFICULTY_INT */
+     , (28068, 33, 1) /* BONDED_INT */
+     , (28068, 114, 1) /* ATTUNED_INT */
+     , (28068, 19, 16000) /* VALUE_INT */
+     , (28068, 5, 2200) /* ENCUMB_VAL_INT */
+     , (28068, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (28068, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (28068, 28, 200) /* ARMOR_LEVEL_INT */
+     , (28068, 109, 150) /* ITEM_DIFFICULTY_INT */
+     , (28068, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (28068, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28068, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (28068, 13, 0.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28068, 14, 0.6) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28068, 15, 0.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28068, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28068, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28068, 18, 0.2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28068, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28068, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28068, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28068, 1485) /* Impenetrability5_SpellID */
+     , (28068, 243) /* InvulnerabilityOther5_SpellID */
+     , (28068, 254) /* ImpregnabilityOther5_SpellID */;
+

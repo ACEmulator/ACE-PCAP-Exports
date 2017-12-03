@@ -29,3 +29,12 @@ VALUES (42995, 13, True) /* ETHEREAL_BOOL */
      , (42995, 19, True) /* ATTACKABLE_BOOL */
      , (42995, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42995, 16, 'An Aluvian outpost located within the Dires, Fort Tethana has been plagued with attacks from renegades. At one point the commander at Tethana reached out to the Viamontians in search of assistance. Instead of receiving help, the commander was turned mad and hope of the fort ever being freed seemed lost. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42995, 19, 125) /* VALUE_INT */
+     , (42995, 5, 9000) /* ENCUMB_VAL_INT */;
+

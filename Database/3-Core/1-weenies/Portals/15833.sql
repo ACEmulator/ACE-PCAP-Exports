@@ -33,3 +33,11 @@ VALUES (15833, 13, True) /* ETHEREAL_BOOL */
      , (15833, 19, True) /* ATTACKABLE_BOOL */
      , (15833, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15833, 38, 'Caerna Dwellings') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15833, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -50,3 +50,26 @@ VALUES (28324, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28324, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28324, 15, 'An orb imbued with the power of the Caulnalain Crystal.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28324, 19, 2000) /* VALUE_INT */
+     , (28324, 5, 50) /* ENCUMB_VAL_INT */
+     , (28324, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (28324, 108, 2000) /* ITEM_MAX_MANA_INT */
+     , (28324, 109, 200) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28324, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (28324, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (28324, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (28324, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28324, 584) /* ItemEnchantmentMasterySelf4_SpellID */
+     , (28324, 2012) /* WizardsIntellect_SpellID */
+     , (28324, 560) /* CreatureEnchantmentMasterySelf4_SpellID */;
+

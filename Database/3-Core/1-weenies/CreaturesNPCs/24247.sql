@@ -91,3 +91,26 @@ VALUES (24247, 12, 16778423)
      , (24247, 4, 16781838)
      , (24247, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24247, 5, 'Olthoi Fighter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (24247, 16, 67110065) /* EYES_PALETTE_DID */
+     , (24247, 9, 83890258) /* EYES_TEXTURE_DID */
+     , (24247, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (24247, 10, 83890294) /* NOSE_TEXTURE_DID */
+     , (24247, 11, 83890342) /* MOUTH_TEXTURE_DID */
+     , (24247, 15, 67117076) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24247, 113, 2) /* GENDER_INT */
+     , (24247, 2, 31) /* CREATURE_TYPE_INT */
+     , (24247, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (24247, 25, 122) /* LEVEL_INT */
+     , (24247, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (24247, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

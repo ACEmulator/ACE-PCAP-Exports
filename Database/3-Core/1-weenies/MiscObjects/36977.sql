@@ -29,3 +29,5 @@ VALUES (36977, 13, True) /* ETHEREAL_BOOL */
      , (36977, 1, True) /* STUCK_BOOL */
      , (36977, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+

@@ -53,6 +53,28 @@ VALUES (5770, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5770, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5770, 16, 'A ball made of densely packed snow, once partially melted and then re-frozen to form a hard ball of ice, then given a boost.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5770, 353, 10) /* WEAPON_TYPE_INT */
+     , (5770, 19, 270) /* VALUE_INT */
+     , (5770, 5, 675) /* ENCUMB_VAL_INT */
+     , (5770, 45, 8) /* DAMAGE_TYPE_INT */
+     , (5770, 49, 20) /* WEAPON_TIME_INT */
+     , (5770, 48, 47) /* WEAPON_SKILL_INT */
+     , (5770, 44, 9) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (5770, 29, 0.8) /* WEAPON_DEFENSE_FLOAT */
+     , (5770, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (5770, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (5770, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (5770, 26, 15) /* MAXIMUM_VELOCITY_FLOAT */
+     , (5770, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

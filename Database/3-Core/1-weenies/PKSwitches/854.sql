@@ -32,3 +32,12 @@ VALUES (854, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (854, 19, True) /* ATTACKABLE_BOOL */
      , (854, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (854, 15, 'Using this altar will convert you into one of Bael''Zharon''s Chosen, a Player Killer, freeing you from the protection of Asheron''s magic.  This means that you can attack others freed in this manner, and they can attack you.  Be warned: returning to Asheron''s protection is difficult.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (854, 19, 0) /* VALUE_INT */
+     , (854, 5, 50) /* ENCUMB_VAL_INT */;
+

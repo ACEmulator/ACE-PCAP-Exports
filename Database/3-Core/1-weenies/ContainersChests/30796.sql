@@ -37,6 +37,22 @@ VALUES (30796, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (30796, 19, True) /* ATTACKABLE_BOOL */
      , (30796, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30796, 16, 'A disturbing reliquary, charred black by the devastation of the Singularity Caul.') /* LONG_DESC_STRING */
+     , (30796, 14, 'Use a Black Marrow Key to unlock this cache.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30796, 19, 2500) /* VALUE_INT */
+     , (30796, 5, 11113) /* ENCUMB_VAL_INT */
+     , (30796, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (30796, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30796, 2, 0) /* OPEN_BOOL */
+     , (30796, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -46,3 +46,35 @@ VALUES (43481, 67116875, 0, 24)
 INSERT INTO `ace_object_texture_map_change` (`aceObjectId`, `index`, `oldId`, `newId`)
 VALUES (43481, 0, 83891927, 83891927);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (43481, 16, 67116855) /* EYES_PALETTE_DID */
+     , (43481, 9, 83891927) /* EYES_TEXTURE_DID */
+     , (43481, 17, 67116875) /* SKIN_PALETTE_DID */
+     , (43481, 10, 83891927) /* NOSE_TEXTURE_DID */
+     , (43481, 11, 83891927) /* MOUTH_TEXTURE_DID */
+     , (43481, 15, 67116886) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43481, 113, 2) /* GENDER_INT */
+     , (43481, 2, 1) /* CREATURE_TYPE_INT */
+     , (43481, 261, 712) /* CHARACTER_TITLE_ID_INT */
+     , (43481, 390, 0) /*  */
+     , (43481, 134, 4) /* PLAYER_KILLER_STATUS_INT */
+     , (43481, 25, 180) /* LEVEL_INT */
+     , (43481, 188, 13) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (43481, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (43481, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (43481, 4, 250) /* COORDINATION_ATTRIBUTE */
+     , (43481, 8, 300) /* QUICKNESS_ATTRIBUTE */
+     , (43481, 16, 400) /* FOCUS_ATTRIBUTE */
+     , (43481, 32, 400) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43481, 64, 500) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (43481, 128, 600) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (43481, 256, 800) /* MAX_MANA_ATTRIBUTE_2ND */;
+

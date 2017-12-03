@@ -52,3 +52,46 @@ VALUES (31758, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31758, 0, 16792612);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31758, 16, 'Frost Dericost Blade of Defender') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31758, 176, 45) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31758, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (31758, 353, 2) /* WEAPON_TYPE_INT */
+     , (31758, 177, 2) /* GEM_COUNT_INT */
+     , (31758, 178, 22) /* GEM_TYPE_INT */
+     , (31758, 19, 7515) /* VALUE_INT */
+     , (31758, 131, 63) /* MATERIAL_TYPE_INT */
+     , (31758, 115, 348) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31758, 5, 215) /* ENCUMB_VAL_INT */
+     , (31758, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (31758, 106, 328) /* ITEM_SPELLCRAFT_INT */
+     , (31758, 108, 1416) /* ITEM_MAX_MANA_INT */
+     , (31758, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31758, 109, 87) /* ITEM_DIFFICULTY_INT */
+     , (31758, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31758, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31758, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (31758, 47, 6) /* ATTACK_TYPE_INT */
+     , (31758, 45, 8) /* DAMAGE_TYPE_INT */
+     , (31758, 49, 27) /* WEAPON_TIME_INT */
+     , (31758, 48, 45) /* WEAPON_SKILL_INT */
+     , (31758, 44, 41) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31758, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (31758, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (31758, 22, 0.52) /* DAMAGE_VARIANCE_FLOAT */
+     , (31758, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (31758, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31758, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31758, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31758, 1605) /* Defender6_SpellID */
+     , (31758, 2519) /* CANTRIPLEADERSHIP2_SpellID */
+     , (31758, 2096) /* BloodDrinker7_SpellID */;
+

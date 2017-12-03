@@ -35,6 +35,17 @@ VALUES (6407, 13, True) /* ETHEREAL_BOOL */
      , (6407, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6407, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6407, 16, 'A book which shows a number of weaponry diagrams. It is printed in the High Empyrean language of the Era of Lore.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6407, 19, 40) /* VALUE_INT */
+     , (6407, 5, 80) /* ENCUMB_VAL_INT */
+     , (6407, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (6407, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

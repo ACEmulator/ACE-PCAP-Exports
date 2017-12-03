@@ -38,6 +38,22 @@ VALUES (52793, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (52793, 19, True) /* ATTACKABLE_BOOL */
      , (52793, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52793, 16, 'A chest containing the highest quality magic items. ') /* LONG_DESC_STRING */
+     , (52793, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52793, 19, 2500) /* VALUE_INT */
+     , (52793, 5, 9343) /* ENCUMB_VAL_INT */
+     , (52793, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (52793, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52793, 2, 0) /* OPEN_BOOL */
+     , (52793, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

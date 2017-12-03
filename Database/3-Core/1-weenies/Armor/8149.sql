@@ -38,3 +38,23 @@ VALUES (8149, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8149, 0, 16784983);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8149, 16, 'A mask made from the head of a Drudge Prowler.  Its skin is very well cured, and the mask is very well put together.  A faint odor still clings to it however...') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8149, 19, 75) /* VALUE_INT */
+     , (8149, 5, 150) /* ENCUMB_VAL_INT */
+     , (8149, 28, 10) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8149, 13, 0.45) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8149, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8149, 15, 0.55) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8149, 16, 0.3) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8149, 17, 0.3) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8149, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8149, 19, 0.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8149, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

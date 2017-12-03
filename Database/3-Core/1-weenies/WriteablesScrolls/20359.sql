@@ -35,3 +35,17 @@ VALUES (20359, 13, True) /* ETHEREAL_BOOL */
      , (20359, 19, True) /* ATTACKABLE_BOOL */
      , (20359, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20359, 16, 'Inscribed spell: Nullify Item Magic
+Dispels 3-6 negative Item Magic enchantments of level 6 or lower from the target.') /* LONG_DESC_STRING */
+     , (20359, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20359, 19, 1000) /* VALUE_INT */
+     , (20359, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20359, 1951) /* DispelItemBadOther6_SpellID */;
+

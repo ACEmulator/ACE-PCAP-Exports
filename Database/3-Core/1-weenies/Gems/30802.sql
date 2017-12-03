@@ -40,6 +40,29 @@ VALUES (30802, 13, True) /* ETHEREAL_BOOL */
      , (30802, 15, True) /* LIGHTS_STATUS_BOOL */
      , (30802, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30802, 14, 'Double Click on this item to summon a portal to the Panopticon.') /* USE_STRING */
+     , (30802, 15, 'A shimmering emerald chalice believed to hold the souls of the dead.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30802, 33, 0) /* BONDED_INT */
+     , (30802, 114, 0) /* ATTUNED_INT */
+     , (30802, 19, 400) /* VALUE_INT */
+     , (30802, 5, 50) /* ENCUMB_VAL_INT */
+     , (30802, 280, 1000) /* SHARED_COOLDOWN_INT */
+     , (30802, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (30802, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (30802, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30802, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30802, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30802, 157) /* SummonPortal1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

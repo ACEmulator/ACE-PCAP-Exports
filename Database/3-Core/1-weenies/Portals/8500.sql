@@ -33,3 +33,12 @@ VALUES (8500, 13, True) /* ETHEREAL_BOOL */
      , (8500, 19, True) /* ATTACKABLE_BOOL */
      , (8500, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8500, 38, 'River Mouth (55.9N, 52.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8500, 86, 12) /* MIN_LEVEL_INT */
+     , (8500, 111, 1) /* PORTAL_BITMASK_INT */;
+

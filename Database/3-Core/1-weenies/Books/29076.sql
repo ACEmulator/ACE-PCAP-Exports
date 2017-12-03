@@ -34,3 +34,16 @@ VALUES (29076, 13, True) /* ETHEREAL_BOOL */
      , (29076, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29076, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29076, 16, 'From the journal of Sir Binwas Loc - the first of four passages concerning the mysterious creature known as ''The Thrungus.'' This portion was found in the Steaming Hovel.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29076, 33, 0) /* BONDED_INT */
+     , (29076, 114, 0) /* ATTUNED_INT */
+     , (29076, 19, 5) /* VALUE_INT */
+     , (29076, 5, 100) /* ENCUMB_VAL_INT */
+     , (29076, 174, 7) /* APPRAISAL_PAGES_INT */
+     , (29076, 175, 7) /* APPRAISAL_MAX_PAGES_INT */;
+

@@ -40,3 +40,27 @@ VALUES (42709, 13, True) /* ETHEREAL_BOOL */
      , (42709, 19, True) /* ATTACKABLE_BOOL */
      , (42709, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42709, 16, 'A magical bouquet of flowers which casts it''s beneficial magic on others.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42709, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (42709, 19, 5400) /* VALUE_INT */
+     , (42709, 5, 50) /* ENCUMB_VAL_INT */
+     , (42709, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (42709, 108, 1200) /* ITEM_MAX_MANA_INT */
+     , (42709, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (42709, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42709, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
+     , (42709, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (42709, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (42709, 5314) /* BlessingOfUnity_SpellID */
+     , (42709, 170) /* RegenerationSelf6_SpellID */
+     , (42709, 879) /* HealingMasterySelf6_SpellID */;
+

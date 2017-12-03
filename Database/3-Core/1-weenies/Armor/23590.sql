@@ -56,3 +56,32 @@ VALUES (23590, 0, 83887061, 83892990)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23590, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23590, 16, 'Some tattered shreds of the Dread Ursuin''s pelt that you have managed to assemble into a coat.  The creature''s healing ability seems to have not gone away with its death, allowing for the coat to seal itself as you watch.  It''s actually quite morbid.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23590, 19, 3500) /* VALUE_INT */
+     , (23590, 5, 900) /* ENCUMB_VAL_INT */
+     , (23590, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (23590, 108, 1320) /* ITEM_MAX_MANA_INT */
+     , (23590, 28, 150) /* ARMOR_LEVEL_INT */
+     , (23590, 109, 150) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23590, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (23590, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (23590, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (23590, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (23590, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (23590, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (23590, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (23590, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (23590, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23590, 1353) /* EnduranceSelf5_SpellID */
+     , (23590, 1485) /* Impenetrability5_SpellID */
+     , (23590, 2660) /* ModerateEndurance_SpellID */;
+

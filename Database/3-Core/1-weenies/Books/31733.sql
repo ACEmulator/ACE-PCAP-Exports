@@ -34,6 +34,19 @@ VALUES (31733, 13, True) /* ETHEREAL_BOOL */
      , (31733, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31733, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31733, 16, 'This book describes the latest rumored sightings of Muldaveus') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31733, 33, 1) /* BONDED_INT */
+     , (31733, 114, 1) /* ATTUNED_INT */
+     , (31733, 19, 10) /* VALUE_INT */
+     , (31733, 5, 100) /* ENCUMB_VAL_INT */
+     , (31733, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (31733, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

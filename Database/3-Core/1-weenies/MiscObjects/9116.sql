@@ -44,3 +44,17 @@ VALUES (9116, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9116, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9116, 15, 'Enjoy the weapons.  While you can.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9116, 33, 1) /* BONDED_INT */
+     , (9116, 114, 1) /* ATTUNED_INT */
+     , (9116, 19, 0) /* VALUE_INT */
+     , (9116, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9116, 69, 0) /* IS_SELLABLE_BOOL */;
+

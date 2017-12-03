@@ -65,3 +65,34 @@ VALUES (28331, 0, 16777708)
      , (28331, 7, 16779363)
      , (28331, 8, 16779364);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28331, 15, 'A bow imbued with the essence of the Fenmalain Crystal. Uses crystal-tipped arrows.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28331, 353, 8) /* WEAPON_TYPE_INT */
+     , (28331, 19, 1000) /* VALUE_INT */
+     , (28331, 36, 9999) /* RESIST_MAGIC_INT */
+     , (28331, 5, 450) /* ENCUMB_VAL_INT */
+     , (28331, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (28331, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (28331, 109, 10) /* ITEM_DIFFICULTY_INT */
+     , (28331, 45, 0) /* DAMAGE_TYPE_INT */
+     , (28331, 49, 30) /* WEAPON_TIME_INT */
+     , (28331, 48, 47) /* WEAPON_SKILL_INT */
+     , (28331, 44, 8) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28331, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (28331, 29, 1.155) /* WEAPON_DEFENSE_FLOAT */
+     , (28331, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (28331, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (28331, 63, 2) /* DAMAGE_MOD_FLOAT */
+     , (28331, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (28331, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (28331, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28331, 463) /* BowMasteryOther3_SpellID */;
+

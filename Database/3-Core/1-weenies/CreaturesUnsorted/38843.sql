@@ -56,3 +56,54 @@ VALUES (38843, 0, 16795621)
      , (38843, 32, 16795833)
      , (38843, 33, 16795834);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38843, 16, 67110064) /* EYES_PALETTE_DID */
+     , (38843, 9, 83890262) /* EYES_TEXTURE_DID */
+     , (38843, 17, 67115907) /* SKIN_PALETTE_DID */
+     , (38843, 10, 83890307) /* NOSE_TEXTURE_DID */
+     , (38843, 11, 83890350) /* MOUTH_TEXTURE_DID */
+     , (38843, 15, 67116977) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38843, 113, 2) /* GENDER_INT */
+     , (38843, 2, 31) /* CREATURE_TYPE_INT */
+     , (38843, 25, 220) /* LEVEL_INT */
+     , (38843, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38843, 64, 890) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38843, 16, 67110064) /* EYES_PALETTE_DID */
+     , (38843, 9, 83890279) /* EYES_TEXTURE_DID */
+     , (38843, 17, 67115905) /* SKIN_PALETTE_DID */
+     , (38843, 10, 83890295) /* NOSE_TEXTURE_DID */
+     , (38843, 11, 83890357) /* MOUTH_TEXTURE_DID */
+     , (38843, 15, 67117097) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38843, 288, 1001) /* SOCIETY_RANK_ELDWEB_INT */
+     , (38843, 113, 2) /* GENDER_INT */
+     , (38843, 2, 31) /* CREATURE_TYPE_INT */
+     , (38843, 307, 5) /* DAMAGE_RATING_INT */
+     , (38843, 25, 220) /* LEVEL_INT */
+     , (38843, 281, 2) /* FACTION1_BITS_INT */
+     , (38843, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38843, 1, 270) /* STRENGTH_ATTRIBUTE */
+     , (38843, 2, 210) /* ENDURANCE_ATTRIBUTE */
+     , (38843, 4, 310) /* COORDINATION_ATTRIBUTE */
+     , (38843, 8, 320) /* QUICKNESS_ATTRIBUTE */
+     , (38843, 16, 470) /* FOCUS_ATTRIBUTE */
+     , (38843, 32, 470) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38843, 64, 890) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38843, 128, 910) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38843, 256, 1000) /* MAX_MANA_ATTRIBUTE_2ND */;
+

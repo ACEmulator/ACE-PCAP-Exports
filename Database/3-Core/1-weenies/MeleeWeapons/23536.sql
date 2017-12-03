@@ -36,3 +36,36 @@ VALUES (23536, 13, True) /* ETHEREAL_BOOL */
      , (23536, 19, True) /* ATTACKABLE_BOOL */
      , (23536, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23536, 16, 'A dirk fashioned from the fetid tooth of a reedshark.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23536, 353, 6) /* WEAPON_TYPE_INT */
+     , (23536, 19, 1000) /* VALUE_INT */
+     , (23536, 5, 150) /* ENCUMB_VAL_INT */
+     , (23536, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (23536, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (23536, 47, 6) /* ATTACK_TYPE_INT */
+     , (23536, 45, 32) /* DAMAGE_TYPE_INT */
+     , (23536, 49, 35) /* WEAPON_TIME_INT */
+     , (23536, 48, 44) /* WEAPON_SKILL_INT */
+     , (23536, 44, 32) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23536, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (23536, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (23536, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
+     , (23536, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (23536, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (23536, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (23536, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23536, 1602) /* Defender3_SpellID */
+     , (23536, 1614) /* BloodDrinker4_SpellID */
+     , (23536, 1624) /* SwiftKiller3_SpellID */
+     , (23536, 1135) /* PiercingProtectionSelf3_SpellID */
+     , (23536, 1589) /* HeartSeeker3_SpellID */;
+

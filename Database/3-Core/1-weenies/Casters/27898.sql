@@ -39,3 +39,28 @@ VALUES (27898, 13, True) /* ETHEREAL_BOOL */
      , (27898, 19, True) /* ATTACKABLE_BOOL */
      , (27898, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27898, 16, 'An overly large replica of the Mosswart hero Drageerg''s eye.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27898, 176, 33) /* APPRAISAL_ITEM_SKILL_INT */
+     , (27898, 19, 1100) /* VALUE_INT */
+     , (27898, 115, 110) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (27898, 5, 10) /* ENCUMB_VAL_INT */
+     , (27898, 106, 155) /* ITEM_SPELLCRAFT_INT */
+     , (27898, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (27898, 109, 15) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27898, 144, 0.03) /* MANA_CONVERSION_MOD_FLOAT */
+     , (27898, 5, -0.01) /* MANA_RATE_FLOAT */
+     , (27898, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27898, 1050) /* BludgeonVulnerabilityOther3_SpellID */
+     , (27898, 1477) /* TrueValue3_SpellID */
+     , (27898, 208) /* ManaRenewalOther3_SpellID */
+     , (27898, 565) /* CreatureEnchantmentMasteryOther3_SpellID */;
+

@@ -46,3 +46,25 @@ VALUES (44281, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44281, 0, 16778334);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44281, 16, 'This bracelet increases strength.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44281, 160, 150) /* WIELD_DIFFICULTY_INT */
+     , (44281, 19, 20) /* VALUE_INT */
+     , (44281, 5, 60) /* ENCUMB_VAL_INT */
+     , (44281, 106, 450) /* ITEM_SPELLCRAFT_INT */
+     , (44281, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (44281, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (44281, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (44281, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (44281, 5, -0.0333333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (44281, 4324) /* StrengthOther8_SpellID */
+     , (44281, 3965) /* CANTRIPSTRENGTH3_SpellID */;
+

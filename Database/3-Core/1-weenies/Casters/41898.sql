@@ -54,3 +54,34 @@ VALUES (41898, 0, 83893489, 83893489)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41898, 0, 16788842);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41898, 16, 'A reward for defeating the leaders of the Falcon Clan.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41898, 160, 130) /* WIELD_DIFFICULTY_INT */
+     , (41898, 19, 25000) /* VALUE_INT */
+     , (41898, 5, 200) /* ENCUMB_VAL_INT */
+     , (41898, 166, 6) /* SLAYER_CREATURE_TYPE_INT */
+     , (41898, 263, 1) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (41898, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (41898, 108, 600) /* ITEM_MAX_MANA_INT */
+     , (41898, 109, 120) /* ITEM_DIFFICULTY_INT */
+     , (41898, 45, 1) /* DAMAGE_TYPE_INT */
+     , (41898, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (41898, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41898, 144, 0.27) /* MANA_CONVERSION_MOD_FLOAT */
+     , (41898, 152, 1.18) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (41898, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (41898, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (41898, 29, 1.35) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41898, 2183) /* ManaRenewalSelf7_SpellID */
+     , (41898, 2067) /* FocusSelf7_SpellID */
+     , (41898, 2013) /* WizardsGreaterIntellect_SpellID */
+     , (41898, 2287) /* ManaMasterySelf7_SpellID */;
+

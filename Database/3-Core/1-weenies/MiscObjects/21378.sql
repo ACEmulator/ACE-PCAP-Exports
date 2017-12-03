@@ -33,6 +33,21 @@ VALUES (21378, 13, True) /* ETHEREAL_BOOL */
      , (21378, 19, True) /* ATTACKABLE_BOOL */
      , (21378, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21378, 14, 'This fragment appears to be a piece from a larger version. Use this on another fragment to combine them.') /* USE_STRING */
+     , (21378, 15, 'A seal fragment with odd glyphs and sigils.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21378, 33, 1) /* BONDED_INT */
+     , (21378, 114, 1) /* ATTUNED_INT */
+     , (21378, 19, 0) /* VALUE_INT */
+     , (21378, 5, 200) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21378, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

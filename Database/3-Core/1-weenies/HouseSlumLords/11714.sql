@@ -32,6 +32,14 @@ VALUES (11714, 13, True) /* ETHEREAL_BOOL */
      , (11714, 19, True) /* ATTACKABLE_BOOL */
      , (11714, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11714, 16, 'The current maintenance has been paid.
+You must be a monarch to purchase and maintain this dwelling.
+Restricted to characters of allegiance rank 6 or greater.
+') /* LONG_DESC_STRING */;
+
 /* Slumlord Extended Properties */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

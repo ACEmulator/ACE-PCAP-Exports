@@ -31,3 +31,17 @@ VALUES (29283, 13, True) /* ETHEREAL_BOOL */
      , (29283, 19, True) /* ATTACKABLE_BOOL */
      , (29283, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29283, 16, 'Using this gem will grant you 20% extra duration on the spells you cast.  You can augment yourself five times in this way, for a total effect of doubled spell duration, but you will need a new gem for each augmentation.  This does not affect spells cast on you using gems.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29283, 33, 1) /* BONDED_INT */
+     , (29283, 114, 1) /* ATTUNED_INT */
+     , (29283, 19, 0) /* VALUE_INT */
+     , (29283, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (29283, 3, 1000000000) /* AUGMENTATION_COST_INT64 */;
+

@@ -34,6 +34,23 @@ VALUES (35920, 13, True) /* ETHEREAL_BOOL */
      , (35920, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35920, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35920, 15, 'A snowman doll. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35920, 33, 1) /* BONDED_INT */
+     , (35920, 98, 1483945733) /* CREATION_TIMESTAMP_INT */
+     , (35920, 114, 1) /* ATTUNED_INT */
+     , (35920, 19, 0) /* VALUE_INT */
+     , (35920, 5, 10) /* ENCUMB_VAL_INT */
+     , (35920, 267, 3600) /* LIFESPAN_INT */
+     , (35920, 268, 3599) /* REMAINING_LIFESPAN_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35920, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

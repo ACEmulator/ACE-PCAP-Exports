@@ -38,3 +38,23 @@ VALUES (32148, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32148, 0, 16792870);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32148, 16, 'A modified Shadow Breastplate. Shadowy wings protrude from the shoulders.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32148, 19, 10000) /* VALUE_INT */
+     , (32148, 5, 3100) /* ENCUMB_VAL_INT */
+     , (32148, 28, 210) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32148, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (32148, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (32148, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (32148, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (32148, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (32148, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (32148, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (32148, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

@@ -30,3 +30,18 @@ VALUES (21921, 13, True) /* ETHEREAL_BOOL */
      , (21921, 19, True) /* ATTACKABLE_BOOL */
      , (21921, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21921, 14, 'Give this seal to a citadel''s pillar to gain access to the tower.') /* USE_STRING */
+     , (21921, 15, 'A glowing ornate seal with odd glyphs and sigils.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21921, 33, 1) /* BONDED_INT */
+     , (21921, 114, 1) /* ATTUNED_INT */
+     , (21921, 19, 0) /* VALUE_INT */
+     , (21921, 5, 200) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21921, 69, 1) /* IS_SELLABLE_BOOL */;
+

@@ -35,3 +35,17 @@ VALUES (43288, 13, True) /* ETHEREAL_BOOL */
      , (43288, 19, True) /* ATTACKABLE_BOOL */
      , (43288, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43288, 16, 'Inscribed spell: Corruption III
+Sends 3 bolts of corruption outward from the caster. Each bolt does 126 points of damage over 30 seconds.') /* LONG_DESC_STRING */
+     , (43288, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43288, 19, 20) /* VALUE_INT */
+     , (43288, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43288, 5397) /* Corruption3_SpellID */;
+

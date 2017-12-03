@@ -40,3 +40,32 @@ VALUES (45427, 13, True) /* ETHEREAL_BOOL */
      , (45427, 19, True) /* ATTACKABLE_BOOL */
      , (45427, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45427, 16, 'Acid Jambiya') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45427, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (45427, 353, 6) /* WEAPON_TYPE_INT */
+     , (45427, 19, 324) /* VALUE_INT */
+     , (45427, 131, 64) /* MATERIAL_TYPE_INT */
+     , (45427, 5, 30) /* ENCUMB_VAL_INT */
+     , (45427, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (45427, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (45427, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (45427, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (45427, 47, 160) /* ATTACK_TYPE_INT */
+     , (45427, 45, 32) /* DAMAGE_TYPE_INT */
+     , (45427, 49, 15) /* WEAPON_TIME_INT */
+     , (45427, 48, 44) /* WEAPON_SKILL_INT */
+     , (45427, 44, 20) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (45427, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (45427, 22, 0.53) /* DAMAGE_VARIANCE_FLOAT */
+     , (45427, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (45427, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (45427, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (45427, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+

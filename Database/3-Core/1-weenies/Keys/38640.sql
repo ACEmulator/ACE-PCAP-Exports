@@ -34,3 +34,16 @@ VALUES (38640, 13, True) /* ETHEREAL_BOOL */
      , (38640, 19, True) /* ATTACKABLE_BOOL */
      , (38640, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38640, 16, 'This gilded key still shines golden, even in the dim light of the dungeon.  It unlocks a door in the Rogue Delvings.') /* LONG_DESC_STRING */
+     , (38640, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38640, 33, 1) /* BONDED_INT */
+     , (38640, 114, 1) /* ATTUNED_INT */
+     , (38640, 19, 0) /* VALUE_INT */
+     , (38640, 5, 25) /* ENCUMB_VAL_INT */
+     , (38640, 91, 1) /* MAX_STRUCTURE_INT */;
+

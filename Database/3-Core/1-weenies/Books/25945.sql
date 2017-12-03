@@ -34,3 +34,14 @@ VALUES (25945, 13, True) /* ETHEREAL_BOOL */
      , (25945, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25945, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25945, 15, 'A well-written note.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25945, 19, 10) /* VALUE_INT */
+     , (25945, 5, 25) /* ENCUMB_VAL_INT */
+     , (25945, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (25945, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

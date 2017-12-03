@@ -43,6 +43,27 @@ VALUES (27771, 13, True) /* ETHEREAL_BOOL */
      , (27771, 19, True) /* ATTACKABLE_BOOL */
      , (27771, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27771, 14, 'Double-click on this portal gem to summon a portal. You must be level 40 or greater to enter the summoned portal.') /* USE_STRING */
+     , (27771, 15, 'A green portal gem surrounded by a clasp and held by an amethyst cradle.  ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27771, 19, 15000) /* VALUE_INT */
+     , (27771, 5, 25) /* ENCUMB_VAL_INT */
+     , (27771, 280, 1000) /* SHARED_COOLDOWN_INT */
+     , (27771, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (27771, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (27771, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (27771, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27771, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27771, 157) /* SummonPortal1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

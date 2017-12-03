@@ -35,3 +35,17 @@ VALUES (2658, 13, True) /* ETHEREAL_BOOL */
      , (2658, 19, True) /* ATTACKABLE_BOOL */
      , (2658, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2658, 16, 'Inscribed spell: Endurance Other VI
+Increases the target''s Endurance by 35 points.') /* LONG_DESC_STRING */
+     , (2658, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2658, 19, 1000) /* VALUE_INT */
+     , (2658, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2658, 1360) /* EnduranceOther6_SpellID */;
+

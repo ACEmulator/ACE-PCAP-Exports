@@ -57,3 +57,28 @@ VALUES (99, 0, 83887061, 83886694)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (99, 0, 16779351);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (99, 16, 'Magnificently crafted Gromnie Hide Studded Leather Shirt , set with 2 Fire Opals') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (99, 131, 54) /* MATERIAL_TYPE_INT */
+     , (99, 19, 6643) /* VALUE_INT */
+     , (99, 5, 621) /* ENCUMB_VAL_INT */
+     , (99, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (99, 28, 80) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (99, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (99, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (99, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (99, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (99, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (99, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (99, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (99, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (99, 100, 1) /* DYABLE_BOOL */;
+

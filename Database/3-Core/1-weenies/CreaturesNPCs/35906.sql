@@ -90,6 +90,39 @@ VALUES (35906, 2, 16778436)
      , (35906, 15, 16789333)
      , (35906, 12, 16789332);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35906, 5, 'Olthoi Shield Crafter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35906, 16, 67109565) /* EYES_PALETTE_DID */
+     , (35906, 9, 83890283) /* EYES_TEXTURE_DID */
+     , (35906, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (35906, 10, 83890307) /* NOSE_TEXTURE_DID */
+     , (35906, 11, 83890327) /* MOUTH_TEXTURE_DID */
+     , (35906, 15, 67116981) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35906, 113, 2) /* GENDER_INT */
+     , (35906, 2, 31) /* CREATURE_TYPE_INT */
+     , (35906, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (35906, 25, 150) /* LEVEL_INT */
+     , (35906, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (35906, 1, 145) /* STRENGTH_ATTRIBUTE */
+     , (35906, 2, 105) /* ENDURANCE_ATTRIBUTE */
+     , (35906, 4, 160) /* COORDINATION_ATTRIBUTE */
+     , (35906, 8, 150) /* QUICKNESS_ATTRIBUTE */
+     , (35906, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (35906, 32, 80) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (35906, 64, 103) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (35906, 128, 155) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (35906, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

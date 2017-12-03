@@ -86,3 +86,36 @@ VALUES (31651, 12, 16777304)
      , (31651, 13, 16783871)
      , (31651, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31651, 5, 'Arctic Mattekar Annihilator') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (31651, 16, 67110065) /* EYES_PALETTE_DID */
+     , (31651, 9, 83890506) /* EYES_TEXTURE_DID */
+     , (31651, 17, 67115902) /* SKIN_PALETTE_DID */
+     , (31651, 10, 83890557) /* NOSE_TEXTURE_DID */
+     , (31651, 11, 83890656) /* MOUTH_TEXTURE_DID */
+     , (31651, 15, 67117072) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31651, 113, 1) /* GENDER_INT */
+     , (31651, 2, 31) /* CREATURE_TYPE_INT */
+     , (31651, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (31651, 25, 52) /* LEVEL_INT */
+     , (31651, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31651, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (31651, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (31651, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (31651, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (31651, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (31651, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (31651, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31651, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31651, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
+

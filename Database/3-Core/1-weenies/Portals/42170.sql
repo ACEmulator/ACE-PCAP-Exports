@@ -34,3 +34,13 @@ VALUES (42170, 13, True) /* ETHEREAL_BOOL */
      , (42170, 19, True) /* ATTACKABLE_BOOL */
      , (42170, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42170, 16, 'A portal leading to the Marae Lassel Plateau near An Olthoi Soldier Nest where the Soldier Pincer may be found.') /* LONG_DESC_STRING */
+     , (42170, 38, 'An Olthoi Soldier Nest (45.0N, 76.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42170, 86, 35) /* MIN_LEVEL_INT */
+     , (42170, 111, 49) /* PORTAL_BITMASK_INT */;
+

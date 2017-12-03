@@ -36,3 +36,19 @@ VALUES (38312, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38312, 19, True) /* ATTACKABLE_BOOL */
      , (38312, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38312, 16, 'A Society Reward Chest, used to reward those who have achieved a new Rank in their Society for the first time.') /* LONG_DESC_STRING */
+     , (38312, 14, 'This reward chest has a higher likelihood of containing a number of items useful to a Mage.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38312, 19, 0) /* VALUE_INT */
+     , (38312, 5, 5550) /* ENCUMB_VAL_INT */
+     , (38312, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (38312, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38312, 2, 0) /* OPEN_BOOL */
+     , (38312, 3, 1) /* LOCKED_BOOL */;
+

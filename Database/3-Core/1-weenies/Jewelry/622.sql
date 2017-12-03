@@ -48,3 +48,26 @@ VALUES (622, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (622, 0, 16778506);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (622, 16, 'Necklace of Item Tinkering') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (622, 19, 4450) /* VALUE_INT */
+     , (622, 131, 57) /* MATERIAL_TYPE_INT */
+     , (622, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (622, 5, 45) /* ENCUMB_VAL_INT */
+     , (622, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (622, 106, 228) /* ITEM_SPELLCRAFT_INT */
+     , (622, 108, 2069) /* ITEM_MAX_MANA_INT */
+     , (622, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (622, 109, 228) /* ITEM_DIFFICULTY_INT */
+     , (622, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (622, 5, -0.05555556) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (622, 731) /* ItemExpertiseSelf6_SpellID */;
+

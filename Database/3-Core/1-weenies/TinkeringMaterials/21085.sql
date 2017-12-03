@@ -49,6 +49,20 @@ VALUES (21085, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21085, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21085, 14, 'This item has no apparent use.') /* USE_STRING */
+     , (21085, 15, 'Chips of white quartz material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21085, 33, 1) /* BONDED_INT */
+     , (21085, 131, 46) /* MATERIAL_TYPE_INT */
+     , (21085, 19, 2) /* VALUE_INT */
+     , (21085, 5, 100) /* ENCUMB_VAL_INT */
+     , (21085, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (21085, 170, 1) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

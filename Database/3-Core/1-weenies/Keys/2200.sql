@@ -34,3 +34,14 @@ VALUES (2200, 13, True) /* ETHEREAL_BOOL */
      , (2200, 19, True) /* ATTACKABLE_BOOL */
      , (2200, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2200, 16, 'A plain, simple key.') /* LONG_DESC_STRING */
+     , (2200, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2200, 19, 0) /* VALUE_INT */
+     , (2200, 5, 50) /* ENCUMB_VAL_INT */
+     , (2200, 91, 5) /* MAX_STRUCTURE_INT */;
+

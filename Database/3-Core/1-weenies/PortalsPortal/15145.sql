@@ -33,3 +33,11 @@ VALUES (15145, 13, True) /* ETHEREAL_BOOL */
      , (15145, 19, True) /* ATTACKABLE_BOOL */
      , (15145, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15145, 38, 'Azaroth Cottages Portal (84.1N, 31.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15145, 111, 1) /* PORTAL_BITMASK_INT */;
+

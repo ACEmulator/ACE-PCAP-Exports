@@ -32,3 +32,12 @@ VALUES (1013, 13, True) /* ETHEREAL_BOOL */
      , (1013, 19, True) /* ATTACKABLE_BOOL */
      , (1013, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1013, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LONG_DESC_STRING */
+     , (1013, 38, 'Destroyed Portal to Arwic (33.3N, 56.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1013, 111, 49) /* PORTAL_BITMASK_INT */;
+

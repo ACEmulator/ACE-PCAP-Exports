@@ -76,6 +76,35 @@ VALUES (35273, 0, 16788885)
      , (35273, 12, 16788891)
      , (35273, 16, 16789125);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35273, 2, 13) /* CREATURE_TYPE_INT */
+     , (35273, 25, 750) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (35273, 64, 900000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35273, 2, 13) /* CREATURE_TYPE_INT */
+     , (35273, 307, 5) /* DAMAGE_RATING_INT */
+     , (35273, 25, 750) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (35273, 1, 490) /* STRENGTH_ATTRIBUTE */
+     , (35273, 2, 1000) /* ENDURANCE_ATTRIBUTE */
+     , (35273, 4, 350) /* COORDINATION_ATTRIBUTE */
+     , (35273, 8, 430) /* QUICKNESS_ATTRIBUTE */
+     , (35273, 16, 450) /* FOCUS_ATTRIBUTE */
+     , (35273, 32, 500) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (35273, 64, 900000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (35273, 128, 20000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (35273, 256, 10000) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

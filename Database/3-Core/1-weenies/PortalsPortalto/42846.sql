@@ -33,3 +33,12 @@ VALUES (42846, 13, True) /* ETHEREAL_BOOL */
      , (42846, 19, True) /* ATTACKABLE_BOOL */
      , (42846, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42846, 16, 'This portal goes to the Sho capital, Hebian-To. This is a good town for characters over level 10.') /* LONG_DESC_STRING */
+     , (42846, 38, 'Portal to Hebian-To (38.9S, 82.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42846, 111, 1) /* PORTAL_BITMASK_INT */;
+

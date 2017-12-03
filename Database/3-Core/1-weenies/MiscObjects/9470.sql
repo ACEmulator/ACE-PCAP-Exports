@@ -34,3 +34,13 @@ VALUES (9470, 13, True) /* ETHEREAL_BOOL */
      , (9470, 19, True) /* ATTACKABLE_BOOL */
      , (9470, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9470, 16, 'The Sceptre of the Mind is the symbol for the Lugians who follow the way of the Mind.  Although they are not above using their awesome physical strength, they are well aware that they need to be ever focused and serene in order to keep Lugian society at its pinnacle.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9470, 33, 1) /* BONDED_INT */
+     , (9470, 19, 0) /* VALUE_INT */
+     , (9470, 5, 300) /* ENCUMB_VAL_INT */;
+

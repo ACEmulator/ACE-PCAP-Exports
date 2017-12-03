@@ -33,3 +33,12 @@ VALUES (8510, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (8510, 22, True) /* INSCRIBABLE_BOOL */
      , (8510, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8510, 15, 'Praying before this memorial will bring one back into the grace of Light, as a Non-Player Killer protected by Asheron''s magic. The supplicant may not have killed anyone for 15 minutes beforehand.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8510, 19, 0) /* VALUE_INT */
+     , (8510, 5, 100) /* ENCUMB_VAL_INT */;
+

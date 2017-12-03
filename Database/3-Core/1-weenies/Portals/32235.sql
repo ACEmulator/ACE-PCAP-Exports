@@ -33,3 +33,14 @@ VALUES (32235, 13, True) /* ETHEREAL_BOOL */
      , (32235, 19, True) /* ATTACKABLE_BOOL */
      , (32235, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32235, 16, 'This dungeon is quest-restricted.  Speak with Qath al-Haddash in Qalaba''r to learn more.') /* LONG_DESC_STRING */
+     , (32235, 38, 'Mistress Halmera''s Dig') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32235, 86, 60) /* MIN_LEVEL_INT */
+     , (32235, 87, 79) /* MAX_LEVEL_INT */
+     , (32235, 111, 49) /* PORTAL_BITMASK_INT */;
+

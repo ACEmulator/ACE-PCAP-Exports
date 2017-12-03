@@ -51,3 +51,41 @@ VALUES (54, 0, 83887061, 83889766)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (54, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (54, 16, 'Yoroi Cuirass') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (54, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (54, 177, 4) /* GEM_COUNT_INT */
+     , (54, 178, 22) /* GEM_TYPE_INT */
+     , (54, 19, 16826) /* VALUE_INT */
+     , (54, 131, 63) /* MATERIAL_TYPE_INT */
+     , (54, 115, 149) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (54, 5, 1265) /* ENCUMB_VAL_INT */
+     , (54, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (54, 106, 193) /* ITEM_SPELLCRAFT_INT */
+     , (54, 28, 281) /* ARMOR_LEVEL_INT */
+     , (54, 108, 834) /* ITEM_MAX_MANA_INT */
+     , (54, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (54, 109, 70) /* ITEM_DIFFICULTY_INT */
+     , (54, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (54, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (54, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (54, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (54, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (54, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (54, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (54, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (54, 19, 0.9760592) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (54, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (54, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (54, 1485) /* Impenetrability5_SpellID */;
+

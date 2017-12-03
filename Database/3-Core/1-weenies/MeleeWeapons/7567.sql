@@ -39,3 +39,29 @@ VALUES (7567, 13, True) /* ETHEREAL_BOOL */
      , (7567, 19, True) /* ATTACKABLE_BOOL */
      , (7567, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7567, 16, 'A katar crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7567, 353, 1) /* WEAPON_TYPE_INT */
+     , (7567, 33, 1) /* BONDED_INT */
+     , (7567, 114, 1) /* ATTUNED_INT */
+     , (7567, 19, 4000) /* VALUE_INT */
+     , (7567, 36, 9999) /* RESIST_MAGIC_INT */
+     , (7567, 5, 135) /* ENCUMB_VAL_INT */
+     , (7567, 47, 1) /* ATTACK_TYPE_INT */
+     , (7567, 45, 3) /* DAMAGE_TYPE_INT */
+     , (7567, 49, 20) /* WEAPON_TIME_INT */
+     , (7567, 48, 45) /* WEAPON_SKILL_INT */
+     , (7567, 44, 30) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7567, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (7567, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (7567, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (7567, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (7567, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (7567, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */;
+

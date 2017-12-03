@@ -51,3 +51,22 @@ VALUES (42269, 0, 16794164)
      , (42269, 15, 16794162)
      , (42269, 16, 16794169);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (42269, 16, 67109567) /* EYES_PALETTE_DID */
+     , (42269, 9, 83890485) /* EYES_TEXTURE_DID */
+     , (42269, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (42269, 10, 83890558) /* NOSE_TEXTURE_DID */
+     , (42269, 11, 83890627) /* MOUTH_TEXTURE_DID */
+     , (42269, 15, 67116987) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42269, 113, 1) /* GENDER_INT */
+     , (42269, 2, 31) /* CREATURE_TYPE_INT */
+     , (42269, 25, 220) /* LEVEL_INT */
+     , (42269, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (42269, 64, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

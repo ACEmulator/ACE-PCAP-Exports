@@ -37,3 +37,19 @@ VALUES (29232, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29232, 19, True) /* ATTACKABLE_BOOL */
      , (29232, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29232, 16, 'This is where Ishaq keeps the notes for his manuscript: Volume 12 of "The Peculiar Nature and Behavior of Derethian Fauna with Especial Emphasis on Cross-World Speciation". Ishaq has requested that you resist the urge to open this chest. ') /* LONG_DESC_STRING */
+     , (29232, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29232, 19, 200) /* VALUE_INT */
+     , (29232, 5, 6005) /* ENCUMB_VAL_INT */
+     , (29232, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (29232, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29232, 2, 0) /* OPEN_BOOL */
+     , (29232, 3, 1) /* LOCKED_BOOL */;
+

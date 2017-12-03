@@ -34,3 +34,13 @@ VALUES (42175, 13, True) /* ETHEREAL_BOOL */
      , (42175, 19, True) /* ATTACKABLE_BOOL */
      , (42175, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42175, 16, 'A portal leading to Aphus Lassel near the Tusker Abode where the Tusker Redeemer Tusk may be found.') /* LONG_DESC_STRING */
+     , (42175, 38, 'Tusker Abode (3.2S, 95.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42175, 86, 20) /* MIN_LEVEL_INT */
+     , (42175, 111, 49) /* PORTAL_BITMASK_INT */;
+

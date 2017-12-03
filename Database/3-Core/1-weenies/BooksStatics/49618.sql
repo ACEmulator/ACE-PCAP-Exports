@@ -35,3 +35,11 @@ VALUES (49618, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (49618, 19, True) /* ATTACKABLE_BOOL */
      , (49618, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49618, 19, 125) /* VALUE_INT */
+     , (49618, 5, 9000) /* ENCUMB_VAL_INT */
+     , (49618, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (49618, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

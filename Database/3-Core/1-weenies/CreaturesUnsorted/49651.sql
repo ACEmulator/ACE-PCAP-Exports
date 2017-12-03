@@ -92,3 +92,26 @@ VALUES (49651, 12, 16778423)
      , (49651, 8, 16783487)
      , (49651, 16, 16778476);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49651, 5, 'Grocer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (49651, 16, 67109567) /* EYES_PALETTE_DID */
+     , (49651, 9, 83890241) /* EYES_TEXTURE_DID */
+     , (49651, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (49651, 10, 83890302) /* NOSE_TEXTURE_DID */
+     , (49651, 11, 83890338) /* MOUTH_TEXTURE_DID */
+     , (49651, 15, 67117026) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49651, 113, 2) /* GENDER_INT */
+     , (49651, 2, 31) /* CREATURE_TYPE_INT */
+     , (49651, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (49651, 25, 13) /* LEVEL_INT */
+     , (49651, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (49651, 64, 170) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

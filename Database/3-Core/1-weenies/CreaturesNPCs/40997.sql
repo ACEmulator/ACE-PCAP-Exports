@@ -84,3 +84,59 @@ VALUES (40997, 12, 16777304)
      , (40997, 13, 16783871)
      , (40997, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40997, 5, 'Portal Researcher') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (40997, 16, 67109567) /* EYES_PALETTE_DID */
+     , (40997, 9, 83890481) /* EYES_TEXTURE_DID */
+     , (40997, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (40997, 10, 83890557) /* NOSE_TEXTURE_DID */
+     , (40997, 11, 83890589) /* MOUTH_TEXTURE_DID */
+     , (40997, 15, 67116986) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40997, 113, 1) /* GENDER_INT */
+     , (40997, 2, 31) /* CREATURE_TYPE_INT */
+     , (40997, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (40997, 25, 115) /* LEVEL_INT */
+     , (40997, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (40997, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40997, 5, 'Portal Researcher') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (40997, 16, 67109567) /* EYES_PALETTE_DID */
+     , (40997, 9, 83890481) /* EYES_TEXTURE_DID */
+     , (40997, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (40997, 10, 83890557) /* NOSE_TEXTURE_DID */
+     , (40997, 11, 83890589) /* MOUTH_TEXTURE_DID */
+     , (40997, 15, 67116986) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40997, 113, 1) /* GENDER_INT */
+     , (40997, 2, 31) /* CREATURE_TYPE_INT */
+     , (40997, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (40997, 25, 115) /* LEVEL_INT */
+     , (40997, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (40997, 1, 212) /* STRENGTH_ATTRIBUTE */
+     , (40997, 2, 170) /* ENDURANCE_ATTRIBUTE */
+     , (40997, 4, 195) /* COORDINATION_ATTRIBUTE */
+     , (40997, 8, 120) /* QUICKNESS_ATTRIBUTE */
+     , (40997, 16, 230) /* FOCUS_ATTRIBUTE */
+     , (40997, 32, 230) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (40997, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (40997, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (40997, 256, 230) /* MAX_MANA_ATTRIBUTE_2ND */;
+

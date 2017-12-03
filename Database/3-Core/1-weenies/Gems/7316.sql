@@ -46,6 +46,22 @@ VALUES (7316, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7316, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7316, 16, 'A powerful dark streak swirls within this rose quartz gem.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7316, 19, 1500) /* VALUE_INT */
+     , (7316, 5, 10) /* ENCUMB_VAL_INT */
+     , (7316, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (7316, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (7316, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (7316, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7316, 2645) /* PortalRecall_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

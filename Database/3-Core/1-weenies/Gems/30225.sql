@@ -49,6 +49,27 @@ VALUES (30225, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30225, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30225, 16, 'Using this gem will increase your Magic Item Tinkering skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30225, 33, -1) /* BONDED_INT */
+     , (30225, 17, 30) /* RARE_ID_INT */
+     , (30225, 19, 0) /* VALUE_INT */
+     , (30225, 5, 5) /* ENCUMB_VAL_INT */
+     , (30225, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (30225, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (30225, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (30225, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30225, 108, 1) /* RARE_USES_TIMER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30225, 3722) /* MagicItemExpertiseRare_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

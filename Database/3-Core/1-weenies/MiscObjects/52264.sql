@@ -31,3 +31,14 @@ VALUES (52264, 13, True) /* ETHEREAL_BOOL */
      , (52264, 19, True) /* ATTACKABLE_BOOL */
      , (52264, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52264, 16, 'An ancient idol given to you by the Mu-miyah Recluse. Return this to El''Yst Maggann.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52264, 33, 1) /* BONDED_INT */
+     , (52264, 114, 1) /* ATTUNED_INT */
+     , (52264, 19, 0) /* VALUE_INT */
+     , (52264, 5, 100) /* ENCUMB_VAL_INT */;
+

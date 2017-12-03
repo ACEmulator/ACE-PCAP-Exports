@@ -45,3 +45,30 @@ VALUES (8754, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8754, 67111920, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8754, 353, 10) /* WEAPON_TYPE_INT */
+     , (8754, 19, 1) /* VALUE_INT */
+     , (8754, 5, 980) /* ENCUMB_VAL_INT */
+     , (8754, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (8754, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (8754, 109, 15) /* ITEM_DIFFICULTY_INT */
+     , (8754, 45, 0) /* DAMAGE_TYPE_INT */
+     , (8754, 49, 45) /* WEAPON_TIME_INT */
+     , (8754, 48, 47) /* WEAPON_SKILL_INT */
+     , (8754, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8754, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (8754, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (8754, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (8754, 63, 1.9) /* DAMAGE_MOD_FLOAT */
+     , (8754, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (8754, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (8754, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8754, 1613) /* BloodDrinker3_SpellID */
+     , (8754, 463) /* BowMasteryOther3_SpellID */;
+

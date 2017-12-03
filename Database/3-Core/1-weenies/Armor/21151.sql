@@ -45,3 +45,35 @@ VALUES (21151, 0, 83886788, 83894172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21151, 0, 16778411);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21151, 16, 'Covenant Bracers') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21151, 160, 200) /* WIELD_DIFFICULTY_INT */
+     , (21151, 177, 2) /* GEM_COUNT_INT */
+     , (21151, 178, 41) /* GEM_TYPE_INT */
+     , (21151, 19, 11294) /* VALUE_INT */
+     , (21151, 131, 63) /* MATERIAL_TYPE_INT */
+     , (21151, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21151, 5, 292) /* ENCUMB_VAL_INT */
+     , (21151, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (21151, 28, 186) /* ARMOR_LEVEL_INT */
+     , (21151, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (21151, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (21151, 159, 6) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21151, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (21151, 14, 1.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (21151, 15, 1.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (21151, 16, 1.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (21151, 17, 1.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (21151, 18, 1.4) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (21151, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (21151, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21151, 100, 1) /* DYABLE_BOOL */;
+

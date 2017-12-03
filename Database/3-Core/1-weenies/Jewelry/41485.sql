@@ -48,3 +48,29 @@ VALUES (41485, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41485, 0, 16778348);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41485, 16, 'Pocket Watch of Blade Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41485, 177, 2) /* GEM_COUNT_INT */
+     , (41485, 178, 15) /* GEM_TYPE_INT */
+     , (41485, 19, 5069) /* VALUE_INT */
+     , (41485, 131, 57) /* MATERIAL_TYPE_INT */
+     , (41485, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (41485, 5, 100) /* ENCUMB_VAL_INT */
+     , (41485, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (41485, 106, 241) /* ITEM_SPELLCRAFT_INT */
+     , (41485, 108, 2101) /* ITEM_MAX_MANA_INT */
+     , (41485, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (41485, 109, 248) /* ITEM_DIFFICULTY_INT */
+     , (41485, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41485, 5, -0.05555556) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41485, 5072) /* CANTRIPTWOHANDEDAPTITUDE1_SpellID */
+     , (41485, 1114) /* BladeProtectionSelf6_SpellID */;
+

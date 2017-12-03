@@ -35,3 +35,17 @@ VALUES (20476, 13, True) /* ETHEREAL_BOOL */
      , (20476, 19, True) /* ATTACKABLE_BOOL */
      , (20476, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20476, 16, 'Inscribed spell: Gelidite''s Gift
+Increases damage the target takes from Cold by 185%.') /* LONG_DESC_STRING */
+     , (20476, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20476, 19, 2000) /* VALUE_INT */
+     , (20476, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20476, 2168) /* ColdVulnerabilityOther7_SpellID */;
+

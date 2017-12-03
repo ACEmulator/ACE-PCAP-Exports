@@ -37,3 +37,30 @@ VALUES (31310, 13, True) /* ETHEREAL_BOOL */
      , (31310, 19, True) /* ATTACKABLE_BOOL */
      , (31310, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31310, 16, 'Darling XIV - Property of Xsao Lann') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31310, 33, 0) /* BONDED_INT */
+     , (31310, 114, 0) /* ATTUNED_INT */
+     , (31310, 19, 10000) /* VALUE_INT */
+     , (31310, 5, 45) /* ENCUMB_VAL_INT */
+     , (31310, 106, 500) /* ITEM_SPELLCRAFT_INT */
+     , (31310, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (31310, 109, 250) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31310, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31310, 69, 1) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31310, 2059) /* CoordinationSelf7_SpellID */
+     , (31310, 2575) /* CANTRIPQUICKNESS2_SpellID */
+     , (31310, 2511) /* CANTRIPFEALTY2_SpellID */
+     , (31310, 2081) /* QuicknessSelf7_SpellID */
+     , (31310, 2233) /* FealtySelf7_SpellID */;
+

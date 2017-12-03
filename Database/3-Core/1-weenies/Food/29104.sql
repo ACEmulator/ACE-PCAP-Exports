@@ -37,6 +37,25 @@ VALUES (29104, 13, True) /* ETHEREAL_BOOL */
      , (29104, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29104, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29104, 16, 'A bottle of Amber Ape.') /* LONG_DESC_STRING */
+     , (29104, 14, 'Use this item to drink it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29104, 19, 10) /* VALUE_INT */
+     , (29104, 5, 50) /* ENCUMB_VAL_INT */
+     , (29104, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (29104, 108, 60) /* ITEM_MAX_MANA_INT */
+     , (29104, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29104, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (29104, 3533) /* BrighteyesFavor_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

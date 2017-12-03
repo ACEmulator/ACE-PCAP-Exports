@@ -45,3 +45,15 @@ VALUES (15798, 0, 83892962, 83893942)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15798, 0, 16785505);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15798, 16, 'A tome torn and charred. Several pages are still salvageable. The text has been translated from Empyrean.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15798, 33, 0) /* BONDED_INT */
+     , (15798, 19, 0) /* VALUE_INT */
+     , (15798, 5, 25) /* ENCUMB_VAL_INT */
+     , (15798, 174, 13) /* APPRAISAL_PAGES_INT */
+     , (15798, 175, 13) /* APPRAISAL_MAX_PAGES_INT */;
+

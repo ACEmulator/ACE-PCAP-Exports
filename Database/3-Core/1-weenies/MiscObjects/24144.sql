@@ -45,3 +45,14 @@ VALUES (24144, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24144, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24144, 15, 'A torn piece of silk, perhaps from one of the Sho tailors. It appears to be  of a quality that To-ping Ra would use.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24144, 33, 1) /* BONDED_INT */
+     , (24144, 114, 1) /* ATTUNED_INT */
+     , (24144, 19, 10) /* VALUE_INT */
+     , (24144, 5, 15) /* ENCUMB_VAL_INT */;
+

@@ -35,3 +35,17 @@ VALUES (21332, 13, True) /* ETHEREAL_BOOL */
      , (21332, 19, True) /* ATTACKABLE_BOOL */
      , (21332, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21332, 16, 'Inscribed spell: Shock Arc III
+Shoots a shock wave at the target. The wave does 42-84 points of bludgeoning damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (21332, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21332, 19, 20) /* VALUE_INT */
+     , (21332, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21332, 2748) /* ShockArc3_SpellID */;
+

@@ -34,6 +34,18 @@ VALUES (33192, 13, True) /* ETHEREAL_BOOL */
      , (33192, 14, True) /* GRAVITY_STATUS_BOOL */
      , (33192, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33192, 14, 'Use this item to read it.') /* USE_STRING */
+     , (33192, 15, 'A set of notes belonging to the Raven Hand Diviner, Pheraion.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33192, 19, 0) /* VALUE_INT */
+     , (33192, 5, 10) /* ENCUMB_VAL_INT */
+     , (33192, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (33192, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

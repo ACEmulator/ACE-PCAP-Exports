@@ -51,3 +51,26 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (49017, 0, 16781835)
      , (49017, 9, 16794667);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49017, 2, 14) /* CREATURE_TYPE_INT */
+     , (49017, 307, 5) /* DAMAGE_RATING_INT */
+     , (49017, 25, 80) /* LEVEL_INT */
+     , (49017, 313, 8) /* CRIT_RATING_INT */
+     , (49017, 314, 12) /* CRIT_DAMAGE_RATING_INT */
+     , (49017, 316, 11) /* CRIT_DAMAGE_RESIST_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (49017, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (49017, 2, 180) /* ENDURANCE_ATTRIBUTE */
+     , (49017, 4, 100) /* COORDINATION_ATTRIBUTE */
+     , (49017, 8, 90) /* QUICKNESS_ATTRIBUTE */
+     , (49017, 16, 110) /* FOCUS_ATTRIBUTE */
+     , (49017, 32, 110) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (49017, 64, 670) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (49017, 128, 930) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (49017, 256, 460) /* MAX_MANA_ATTRIBUTE_2ND */;
+

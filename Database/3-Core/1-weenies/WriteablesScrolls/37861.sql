@@ -35,3 +35,17 @@ VALUES (37861, 13, True) /* ETHEREAL_BOOL */
      , (37861, 19, True) /* ATTACKABLE_BOOL */
      , (37861, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37861, 16, 'Inscribed spell: Incantation of Lightning Protection Self
+Reduces damage the caster takes from Lightning by 68%') /* LONG_DESC_STRING */
+     , (37861, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37861, 19, 60000) /* VALUE_INT */
+     , (37861, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (37861, 4470) /* LightningProtectionSelf8_SpellID */;
+

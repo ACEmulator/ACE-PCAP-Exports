@@ -33,3 +33,11 @@ VALUES (14278, 13, True) /* ETHEREAL_BOOL */
      , (14278, 19, True) /* ATTACKABLE_BOOL */
      , (14278, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14278, 38, 'Plainsview Cottages Portal (56.9S, 32.2E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14278, 111, 1) /* PORTAL_BITMASK_INT */;
+

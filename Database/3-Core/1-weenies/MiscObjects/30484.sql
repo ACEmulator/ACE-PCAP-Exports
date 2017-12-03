@@ -32,3 +32,14 @@ VALUES (30484, 13, True) /* ETHEREAL_BOOL */
      , (30484, 19, True) /* ATTACKABLE_BOOL */
      , (30484, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30484, 16, 'A bronze candlestick, found in the Holtburg Redoubt. This candlestick belonged to Hardunna''s mother, Hope, before she was slain by Tumeroks in the Holtburg Redoubt.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30484, 33, 1) /* BONDED_INT */
+     , (30484, 114, 1) /* ATTUNED_INT */
+     , (30484, 19, 0) /* VALUE_INT */
+     , (30484, 5, 10) /* ENCUMB_VAL_INT */;
+

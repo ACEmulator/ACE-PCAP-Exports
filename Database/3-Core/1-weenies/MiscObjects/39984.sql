@@ -33,6 +33,18 @@ VALUES (39984, 13, True) /* ETHEREAL_BOOL */
      , (39984, 14, True) /* GRAVITY_STATUS_BOOL */
      , (39984, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39984, 16, 'A trophy granted for the completion of any number of tasks.') /* LONG_DESC_STRING */
+     , (39984, 14, 'Collect 10 of this trophy and turn them in to any NPC you receive these trophies from in exchange for one Mana Forge Key.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39984, 33, 1) /* BONDED_INT */
+     , (39984, 114, 1) /* ATTUNED_INT */
+     , (39984, 19, 1400) /* VALUE_INT */
+     , (39984, 5, 70) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

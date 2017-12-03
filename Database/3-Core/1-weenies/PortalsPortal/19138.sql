@@ -33,3 +33,11 @@ VALUES (19138, 13, True) /* ETHEREAL_BOOL */
      , (19138, 19, True) /* ATTACKABLE_BOOL */
      , (19138, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19138, 38, 'Amarand Villas Portal (38.7N, 9.6W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19138, 111, 1) /* PORTAL_BITMASK_INT */;
+

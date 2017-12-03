@@ -51,3 +51,45 @@ VALUES (37217, 0, 16794041)
      , (37217, 3, 16794047)
      , (37217, 4, 16794048);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37217, 16, 'Olthoi Alduressa Coat of Rejuvenation') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37217, 160, 150) /* WIELD_DIFFICULTY_INT */
+     , (37217, 177, 4) /* GEM_COUNT_INT */
+     , (37217, 178, 16) /* GEM_TYPE_INT */
+     , (37217, 19, 21954) /* VALUE_INT */
+     , (37217, 131, 63) /* MATERIAL_TYPE_INT */
+     , (37217, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (37217, 5, 1188) /* ENCUMB_VAL_INT */
+     , (37217, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (37217, 106, 280) /* ITEM_SPELLCRAFT_INT */
+     , (37217, 28, 253) /* ARMOR_LEVEL_INT */
+     , (37217, 108, 1307) /* ITEM_MAX_MANA_INT */
+     , (37217, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (37217, 109, 224) /* ITEM_DIFFICULTY_INT */
+     , (37217, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (37217, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (37217, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (37217, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (37217, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (37217, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (37217, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (37217, 16, 0.8917859) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (37217, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (37217, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (37217, 19, 0.8965665) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (37217, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (37217, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (37217, 193) /* RejuvenationSelf6_SpellID */
+     , (37217, 2572) /* CANTRIPCOORDINATION2_SpellID */
+     , (37217, 2108) /* Impenetrability7_SpellID */;
+

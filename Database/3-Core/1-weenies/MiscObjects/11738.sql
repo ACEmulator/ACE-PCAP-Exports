@@ -37,3 +37,14 @@ VALUES (11738, 0, 83893717, 83893718);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11738, 0, 16787125);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11738, 16, 'A banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11738, 33, 1) /* BONDED_INT */
+     , (11738, 114, 1) /* ATTUNED_INT */
+     , (11738, 19, 0) /* VALUE_INT */
+     , (11738, 5, 100) /* ENCUMB_VAL_INT */;
+

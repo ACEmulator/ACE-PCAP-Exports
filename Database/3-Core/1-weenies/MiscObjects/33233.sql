@@ -34,3 +34,14 @@ VALUES (33233, 13, True) /* ETHEREAL_BOOL */
      , (33233, 19, True) /* ATTACKABLE_BOOL */
      , (33233, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33233, 16, 'A token in the shape of the Harbinger''s Arm.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33233, 33, 1) /* BONDED_INT */
+     , (33233, 114, 1) /* ATTUNED_INT */
+     , (33233, 19, 0) /* VALUE_INT */
+     , (33233, 5, 500) /* ENCUMB_VAL_INT */;
+

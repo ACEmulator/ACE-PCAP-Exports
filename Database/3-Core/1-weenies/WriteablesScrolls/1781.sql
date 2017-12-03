@@ -35,3 +35,17 @@ VALUES (1781, 13, True) /* ETHEREAL_BOOL */
      , (1781, 19, True) /* ATTACKABLE_BOOL */
      , (1781, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1781, 16, 'Inscribed spell: Quickness Self I
+Increases the caster''s Quickness by 10 points.') /* LONG_DESC_STRING */
+     , (1781, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1781, 19, 1) /* VALUE_INT */
+     , (1781, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1781, 1397) /* QuicknessSelf1_SpellID */;
+

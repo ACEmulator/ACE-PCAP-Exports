@@ -51,3 +51,30 @@ VALUES (2366, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2366, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2366, 16, 'Orb of Strength') /* LONG_DESC_STRING */
+     , (2366, 14, 'Use this item to cast its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2366, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (2366, 131, 70) /* MATERIAL_TYPE_INT */
+     , (2366, 19, 1362) /* VALUE_INT */
+     , (2366, 5, 50) /* ENCUMB_VAL_INT */
+     , (2366, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (2366, 106, 1) /* ITEM_SPELLCRAFT_INT */
+     , (2366, 172, 3) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (2366, 108, 550) /* ITEM_MAX_MANA_INT */
+     , (2366, 109, 1) /* ITEM_DIFFICULTY_INT */
+     , (2366, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2366, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (2366, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (2366, 5, -0.0125) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2366, 1) /* StrengthOther1_SpellID */
+     , (2366, 605) /* LifeMagicMasterySelf1_SpellID */;
+

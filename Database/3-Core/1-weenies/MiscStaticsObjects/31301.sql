@@ -30,3 +30,14 @@ VALUES (31301, 13, True) /* ETHEREAL_BOOL */
      , (31301, 19, True) /* ATTACKABLE_BOOL */
      , (31301, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31301, 16, 'A strange fire made up of blue flames. Oddly this fire produces little to no heat.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31301, 33, 0) /* BONDED_INT */
+     , (31301, 114, 0) /* ATTUNED_INT */
+     , (31301, 19, 0) /* VALUE_INT */
+     , (31301, 5, 1000) /* ENCUMB_VAL_INT */;
+

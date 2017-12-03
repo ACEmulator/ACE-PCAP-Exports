@@ -47,6 +47,24 @@ VALUES (43208, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43208, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43208, 16, 'A shard of congealed energy, attuned to one of the Apostate Nexi.') /* LONG_DESC_STRING */
+     , (43208, 14, 'Use this item to search the immediate area for magical traces of its attuned target.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43208, 33, 1) /* BONDED_INT */
+     , (43208, 114, 1) /* ATTUNED_INT */
+     , (43208, 98, 1485672343) /* CREATION_TIMESTAMP_INT */
+     , (43208, 19, 0) /* VALUE_INT */
+     , (43208, 5, 0) /* ENCUMB_VAL_INT */
+     , (43208, 267, 3600) /* LIFESPAN_INT */
+     , (43208, 268, 3556) /* REMAINING_LIFESPAN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43208, 167, 10) /* COOLDOWN_DURATION_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -33,3 +33,5 @@ VALUES (34282, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (34282, 1, True) /* STUCK_BOOL */
      , (34282, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+

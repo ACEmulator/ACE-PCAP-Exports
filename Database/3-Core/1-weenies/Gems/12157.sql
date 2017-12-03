@@ -44,6 +44,16 @@ VALUES (12157, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12157, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12157, 16, 'A magical gem pulsing with the power of the Asteliary Crafter.') /* LONG_DESC_STRING */
+     , (12157, 14, 'Use this gem on the Asteliary Orb, the Simulacra Shield, or the Simulacra Helm.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12157, 19, 0) /* VALUE_INT */
+     , (12157, 5, 100) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

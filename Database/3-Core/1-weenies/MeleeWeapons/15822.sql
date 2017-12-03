@@ -45,3 +45,26 @@ VALUES (15822, 67111920, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15822, 0, 16787715);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15822, 15, 'An exactingly smithed replica of Thorsten Cragstone''s Axe.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15822, 353, 3) /* WEAPON_TYPE_INT */
+     , (15822, 19, 750) /* VALUE_INT */
+     , (15822, 5, 940) /* ENCUMB_VAL_INT */
+     , (15822, 47, 4) /* ATTACK_TYPE_INT */
+     , (15822, 45, 1) /* DAMAGE_TYPE_INT */
+     , (15822, 49, 80) /* WEAPON_TIME_INT */
+     , (15822, 48, 44) /* WEAPON_SKILL_INT */
+     , (15822, 44, 38) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (15822, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (15822, 22, 0.55) /* DAMAGE_VARIANCE_FLOAT */
+     , (15822, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (15822, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (15822, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (15822, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+

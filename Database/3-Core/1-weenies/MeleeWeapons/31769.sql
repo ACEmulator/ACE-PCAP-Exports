@@ -55,3 +55,43 @@ VALUES (31769, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31769, 0, 16777886);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31769, 16, 'War Axe of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31769, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31769, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (31769, 353, 3) /* WEAPON_TYPE_INT */
+     , (31769, 19, 3340) /* VALUE_INT */
+     , (31769, 131, 75) /* MATERIAL_TYPE_INT */
+     , (31769, 115, 265) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31769, 5, 686) /* ENCUMB_VAL_INT */
+     , (31769, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (31769, 106, 245) /* ITEM_SPELLCRAFT_INT */
+     , (31769, 108, 1214) /* ITEM_MAX_MANA_INT */
+     , (31769, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31769, 109, 51) /* ITEM_DIFFICULTY_INT */
+     , (31769, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31769, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31769, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (31769, 47, 4) /* ATTACK_TYPE_INT */
+     , (31769, 45, 1) /* DAMAGE_TYPE_INT */
+     , (31769, 49, 53) /* WEAPON_TIME_INT */
+     , (31769, 48, 44) /* WEAPON_SKILL_INT */
+     , (31769, 44, 41) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31769, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (31769, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (31769, 22, 0.93) /* DAMAGE_VARIANCE_FLOAT */
+     , (31769, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (31769, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31769, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31769, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31769, 1614) /* BloodDrinker4_SpellID */
+     , (31769, 1592) /* HeartSeeker6_SpellID */;
+

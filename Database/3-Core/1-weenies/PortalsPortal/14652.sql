@@ -33,3 +33,11 @@ VALUES (14652, 13, True) /* ETHEREAL_BOOL */
      , (14652, 19, True) /* ATTACKABLE_BOOL */
      , (14652, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14652, 38, 'Mistdweller Villas Portal (30.6N, 14.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14652, 111, 1) /* PORTAL_BITMASK_INT */;
+

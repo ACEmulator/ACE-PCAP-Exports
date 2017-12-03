@@ -29,3 +29,12 @@ VALUES (21475, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (21475, 19, True) /* ATTACKABLE_BOOL */
      , (21475, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21475, 16, 'Dulok Court') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21475, 19, 125) /* VALUE_INT */
+     , (21475, 5, 9000) /* ENCUMB_VAL_INT */;
+

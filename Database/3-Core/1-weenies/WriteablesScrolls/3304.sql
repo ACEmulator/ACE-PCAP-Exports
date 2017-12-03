@@ -35,3 +35,17 @@ VALUES (3304, 13, True) /* ETHEREAL_BOOL */
      , (3304, 19, True) /* ATTACKABLE_BOOL */
      , (3304, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3304, 16, 'Inscribed spell: Item Enchantment Ineptitude Other III
+Decreases the target''s Item Enchantment skill by 20 points.') /* LONG_DESC_STRING */
+     , (3304, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3304, 19, 20) /* VALUE_INT */
+     , (3304, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3304, 595) /* ItemEnchantmentIneptitudeOther3_SpellID */;
+

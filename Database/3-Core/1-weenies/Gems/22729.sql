@@ -49,6 +49,25 @@ VALUES (22729, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22729, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22729, 14, 'Double Click on this portal gem to transport yourself to Aphus Lassel.') /* USE_STRING */
+     , (22729, 15, 'A gem teeming with portal energy. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22729, 33, 0) /* BONDED_INT */
+     , (22729, 114, 0) /* ATTUNED_INT */
+     , (22729, 19, 0) /* VALUE_INT */
+     , (22729, 5, 10) /* ENCUMB_VAL_INT */
+     , (22729, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (22729, 108, 70) /* ITEM_MAX_MANA_INT */
+     , (22729, 109, 10) /* ITEM_DIFFICULTY_INT */
+     , (22729, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (22729, 2936) /* PortalSendingTuskerIsland_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

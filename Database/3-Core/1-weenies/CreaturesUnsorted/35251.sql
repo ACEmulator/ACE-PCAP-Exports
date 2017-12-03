@@ -35,3 +35,35 @@ VALUES (35251, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (35251, 19, True) /* ATTACKABLE_BOOL */
      , (35251, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35251, 15, 'A pile of blackened and corrupted bones.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35251, 384, 0) /*  */
+     , (35251, 370, 0) /* GEAR_DAMAGE_INT */
+     , (35251, 386, 0) /*  */
+     , (35251, 307, 0) /* DAMAGE_RATING_INT */
+     , (35251, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (35251, 387, 0) /*  */
+     , (35251, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (35251, 372, 0) /* GEAR_CRIT_INT */
+     , (35251, 388, 0) /*  */
+     , (35251, 5, 150) /* ENCUMB_VAL_INT */
+     , (35251, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (35251, 389, 0) /*  */
+     , (35251, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (35251, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (35251, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (35251, 313, 0) /* CRIT_RATING_INT */
+     , (35251, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (35251, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (35251, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (35251, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (35251, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (35251, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (35251, 381, 0) /*  */
+     , (35251, 382, 0) /*  */
+     , (35251, 383, 0) /*  */;
+

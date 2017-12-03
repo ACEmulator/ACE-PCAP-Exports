@@ -31,3 +31,17 @@ VALUES (53407, 13, True) /* ETHEREAL_BOOL */
      , (53407, 14, True) /* GRAVITY_STATUS_BOOL */
      , (53407, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53407, 15, 'A certificate that grants the bearer all wall spells. Bring this certificate to an Agent of the Arcanum. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53407, 33, 1) /* BONDED_INT */
+     , (53407, 114, 1) /* ATTUNED_INT */
+     , (53407, 19, 4) /* VALUE_INT */
+     , (53407, 5, 5) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53407, 69, 0) /* IS_SELLABLE_BOOL */;
+

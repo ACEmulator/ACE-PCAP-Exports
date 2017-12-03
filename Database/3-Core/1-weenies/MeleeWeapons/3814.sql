@@ -37,3 +37,45 @@ VALUES (3814, 13, True) /* ETHEREAL_BOOL */
      , (3814, 19, True) /* ATTACKABLE_BOOL */
      , (3814, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3814, 16, 'Acid Kasrullah of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3814, 176, 45) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3814, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (3814, 353, 4) /* WEAPON_TYPE_INT */
+     , (3814, 19, 4287) /* VALUE_INT */
+     , (3814, 131, 19) /* MATERIAL_TYPE_INT */
+     , (3814, 115, 212) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3814, 5, 275) /* ENCUMB_VAL_INT */
+     , (3814, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (3814, 106, 192) /* ITEM_SPELLCRAFT_INT */
+     , (3814, 108, 1067) /* ITEM_MAX_MANA_INT */
+     , (3814, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3814, 109, 93) /* ITEM_DIFFICULTY_INT */
+     , (3814, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3814, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3814, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (3814, 47, 4) /* ATTACK_TYPE_INT */
+     , (3814, 45, 32) /* DAMAGE_TYPE_INT */
+     , (3814, 49, 33) /* WEAPON_TIME_INT */
+     , (3814, 48, 45) /* WEAPON_SKILL_INT */
+     , (3814, 44, 28) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3814, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (3814, 29, 1.13) /* WEAPON_DEFENSE_FLOAT */
+     , (3814, 149, 1.015) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (3814, 22, 0.43) /* DAMAGE_VARIANCE_FLOAT */
+     , (3814, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3814, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3814, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3814, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3814, 2570) /* CANTRIPWEAPONEXPERTISE1_SpellID */
+     , (3814, 1615) /* BloodDrinker5_SpellID */
+     , (3814, 1591) /* HeartSeeker5_SpellID */;
+

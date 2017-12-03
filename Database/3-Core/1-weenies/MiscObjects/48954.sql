@@ -41,6 +41,23 @@ VALUES (48954, 13, True) /* ETHEREAL_BOOL */
      , (48954, 19, True) /* ATTACKABLE_BOOL */
      , (48954, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48954, 16, 'A crude keyring roughly carved out of a burning sands golem heart. ') /* LONG_DESC_STRING */
+     , (48954, 14, 'Use this ring on an Aged Legendary Key to add the key to the ring. Use an intricate carving tool on the keyring to pop a key off again. Adding a key uses up one of the ring''s remaining uses, but removing a key does not.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48954, 33, 0) /* BONDED_INT */
+     , (48954, 193, 24) /* NUM_KEYS_INT */
+     , (48954, 114, 0) /* ATTUNED_INT */
+     , (48954, 19, 500) /* VALUE_INT */
+     , (48954, 5, 40) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48954, 99, 0) /* IVORYABLE_BOOL */
+     , (48954, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

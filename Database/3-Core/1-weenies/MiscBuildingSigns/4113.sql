@@ -30,3 +30,12 @@ VALUES (4113, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4113, 19, True) /* ATTACKABLE_BOOL */
      , (4113, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4113, 16, 'Adventurers take heed: Many rats infest this dungeon. Attacking low is the only way to defend against these vermin.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4113, 19, 130) /* VALUE_INT */
+     , (4113, 5, 9000) /* ENCUMB_VAL_INT */;
+

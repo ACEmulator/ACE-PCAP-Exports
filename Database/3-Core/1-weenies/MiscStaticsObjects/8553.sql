@@ -37,3 +37,13 @@ VALUES (8553, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8553, 22, True) /* INSCRIBABLE_BOOL */
      , (8553, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8553, 16, 'An elaborate tomb, inscribed, "From northland to madness; from madness to grace; from grace to our verdurous home." You feel a strange sense of peace radiating from it.') /* LONG_DESC_STRING */
+     , (8553, 14, 'Do not disturb Lady Kelderam.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8553, 19, 200) /* VALUE_INT */
+     , (8553, 5, 6000) /* ENCUMB_VAL_INT */;
+

@@ -30,6 +30,12 @@ VALUES (273, 13, True) /* ETHEREAL_BOOL */
      , (273, 14, True) /* GRAVITY_STATUS_BOOL */
      , (273, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (273, 19, 25000) /* VALUE_INT */
+     , (273, 5, 0) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -47,6 +47,31 @@ VALUES (42635, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42635, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42635, 16, 'This aetheria''s sigil now shows on the surface.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (42635, 55, 5208) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42635, 320, 2) /* ITEM_XP_STYLE_INT */
+     , (42635, 160, 75) /* WIELD_DIFFICULTY_INT */
+     , (42635, 19, 10000) /* VALUE_INT */
+     , (42635, 5, 50) /* ENCUMB_VAL_INT */
+     , (42635, 265, 37) /* EQUIPMENT_SET_ID_INT */
+     , (42635, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (42635, 319, 4) /* ITEM_MAX_LEVEL_INT */
+     , (42635, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (42635, 4, 2141671909) /* ITEM_TOTAL_XP_INT64 */
+     , (42635, 5, 1000000000) /* ITEM_BASE_XP_INT64 */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (42635, 5208) /* AetheriaProcHealthOverTime_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

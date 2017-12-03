@@ -39,3 +39,26 @@ VALUES (21373, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21373, 0, 16787917);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21373, 15, 'A broken virindi mask. Flesh seems to be seared to the interior of the mask.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21373, 19, 2000) /* VALUE_INT */
+     , (21373, 5, 100) /* ENCUMB_VAL_INT */
+     , (21373, 28, 150) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21373, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (21373, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (21373, 15, 0.5) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (21373, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (21373, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (21373, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (21373, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (21373, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21373, 69, 0) /* IS_SELLABLE_BOOL */;
+

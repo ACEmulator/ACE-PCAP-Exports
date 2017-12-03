@@ -44,3 +44,14 @@ VALUES (30499, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30499, 0, 16778729);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30499, 16, 'Strong cider, with the faintest hint of swamp. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30499, 33, 1) /* BONDED_INT */
+     , (30499, 114, 1) /* ATTUNED_INT */
+     , (30499, 19, 0) /* VALUE_INT */
+     , (30499, 5, 10) /* ENCUMB_VAL_INT */;
+

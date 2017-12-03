@@ -88,6 +88,29 @@ VALUES (985, 11, 16777302)
      , (985, 8, 16781839)
      , (985, 16, 16778594);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (985, 5, 'Barkeeper') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (985, 16, 67110063) /* EYES_PALETTE_DID */
+     , (985, 9, 83890487) /* EYES_TEXTURE_DID */
+     , (985, 17, 67109555) /* SKIN_PALETTE_DID */
+     , (985, 10, 83890547) /* NOSE_TEXTURE_DID */
+     , (985, 11, 83890608) /* MOUTH_TEXTURE_DID */
+     , (985, 15, 67117077) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (985, 113, 1) /* GENDER_INT */
+     , (985, 2, 31) /* CREATURE_TYPE_INT */
+     , (985, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (985, 25, 10) /* LEVEL_INT */
+     , (985, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (985, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

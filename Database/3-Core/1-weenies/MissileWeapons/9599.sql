@@ -41,3 +41,35 @@ VALUES (9599, 13, True) /* ETHEREAL_BOOL */
      , (9599, 19, True) /* ATTACKABLE_BOOL */
      , (9599, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9599, 16, 'A weapon made of a strange pulsating energy.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9599, 353, 9) /* WEAPON_TYPE_INT */
+     , (9599, 19, 2000) /* VALUE_INT */
+     , (9599, 5, 650) /* ENCUMB_VAL_INT */
+     , (9599, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (9599, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (9599, 109, 50) /* ITEM_DIFFICULTY_INT */
+     , (9599, 45, 0) /* DAMAGE_TYPE_INT */
+     , (9599, 49, 120) /* WEAPON_TIME_INT */
+     , (9599, 48, 47) /* WEAPON_SKILL_INT */
+     , (9599, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9599, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (9599, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (9599, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (9599, 63, 2.5) /* DAMAGE_MOD_FLOAT */
+     , (9599, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (9599, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (9599, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9599, 1603) /* Defender4_SpellID */
+     , (9599, 1615) /* BloodDrinker5_SpellID */
+     , (9599, 1625) /* SwiftKiller4_SpellID */
+     , (9599, 1590) /* HeartSeeker4_SpellID */;
+

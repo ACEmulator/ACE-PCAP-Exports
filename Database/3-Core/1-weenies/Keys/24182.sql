@@ -35,3 +35,15 @@ VALUES (24182, 13, True) /* ETHEREAL_BOOL */
      , (24182, 19, True) /* ATTACKABLE_BOOL */
      , (24182, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24182, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24182, 33, 1) /* BONDED_INT */
+     , (24182, 114, 1) /* ATTUNED_INT */
+     , (24182, 19, 100) /* VALUE_INT */
+     , (24182, 5, 60) /* ENCUMB_VAL_INT */
+     , (24182, 91, 1) /* MAX_STRUCTURE_INT */;
+

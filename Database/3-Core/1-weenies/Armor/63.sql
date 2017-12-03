@@ -48,3 +48,41 @@ VALUES (63, 0, 83889072, 83886810)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (63, 0, 16778376);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (63, 16, 'Studded Leather Girth of Magic Resistance') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (63, 19, 23132) /* VALUE_INT */
+     , (63, 131, 55) /* MATERIAL_TYPE_INT */
+     , (63, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (63, 5, 196) /* ENCUMB_VAL_INT */
+     , (63, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (63, 106, 306) /* ITEM_SPELLCRAFT_INT */
+     , (63, 28, 263) /* ARMOR_LEVEL_INT */
+     , (63, 108, 1525) /* ITEM_MAX_MANA_INT */
+     , (63, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (63, 109, 306) /* ITEM_DIFFICULTY_INT */
+     , (63, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (63, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (63, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (63, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (63, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (63, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (63, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (63, 18, 0.7800539) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (63, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (63, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (63, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (63, 1486) /* Impenetrability6_SpellID */
+     , (63, 1561) /* BladeBane5_SpellID */
+     , (63, 2281) /* MagicResistanceSelf7_SpellID */
+     , (63, 1516) /* BludgeonBane6_SpellID */;
+

@@ -84,3 +84,26 @@ VALUES (53383, 12, 16777304)
      , (53383, 13, 16783871)
      , (53383, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53383, 5, 'Spell Instructor') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (53383, 16, 67110062) /* EYES_PALETTE_DID */
+     , (53383, 9, 83890482) /* EYES_TEXTURE_DID */
+     , (53383, 17, 67109554) /* SKIN_PALETTE_DID */
+     , (53383, 10, 83890531) /* NOSE_TEXTURE_DID */
+     , (53383, 11, 83890624) /* MOUTH_TEXTURE_DID */
+     , (53383, 15, 67117070) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53383, 113, 1) /* GENDER_INT */
+     , (53383, 2, 31) /* CREATURE_TYPE_INT */
+     , (53383, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (53383, 25, 200) /* LEVEL_INT */
+     , (53383, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (53383, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

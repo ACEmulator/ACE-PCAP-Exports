@@ -87,6 +87,41 @@ VALUES (38688, 12, 16778423)
      , (38688, 4, 16778426)
      , (38688, 8, 16778428);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38688, 5, 'Society Shopkeep') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38688, 16, 67110063) /* EYES_PALETTE_DID */
+     , (38688, 9, 83890264) /* EYES_TEXTURE_DID */
+     , (38688, 17, 67110052) /* SKIN_PALETTE_DID */
+     , (38688, 10, 83890295) /* NOSE_TEXTURE_DID */
+     , (38688, 11, 83890327) /* MOUTH_TEXTURE_DID */
+     , (38688, 15, 67117068) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38688, 113, 2) /* GENDER_INT */
+     , (38688, 2, 31) /* CREATURE_TYPE_INT */
+     , (38688, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38688, 25, 190) /* LEVEL_INT */
+     , (38688, 281, 1) /* FACTION1_BITS_INT */
+     , (38688, 188, 3) /* HERITAGE_GROUP_INT */
+     , (38688, 287, 601) /* SOCIETY_RANK_CELHAN_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38688, 1, 45) /* STRENGTH_ATTRIBUTE */
+     , (38688, 2, 50) /* ENDURANCE_ATTRIBUTE */
+     , (38688, 4, 55) /* COORDINATION_ATTRIBUTE */
+     , (38688, 8, 60) /* QUICKNESS_ATTRIBUTE */
+     , (38688, 16, 40) /* FOCUS_ATTRIBUTE */
+     , (38688, 32, 35) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38688, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38688, 128, 140) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38688, 256, 155) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -44,3 +44,14 @@ VALUES (9117, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9117, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9117, 15, 'Remember, no Virindi is immune to destruction.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9117, 33, 1) /* BONDED_INT */
+     , (9117, 114, 1) /* ATTUNED_INT */
+     , (9117, 19, 0) /* VALUE_INT */
+     , (9117, 5, 10) /* ENCUMB_VAL_INT */;
+

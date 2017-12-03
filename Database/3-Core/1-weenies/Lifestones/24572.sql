@@ -33,3 +33,8 @@ VALUES (24572, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (24572, 19, True) /* ATTACKABLE_BOOL */
      , (24572, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24572, 14, 'Use this item to set your resurrection point.') /* USE_STRING */;
+

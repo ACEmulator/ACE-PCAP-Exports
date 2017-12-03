@@ -91,3 +91,36 @@ VALUES (5836, 12, 16777304)
      , (5836, 8, 16781839)
      , (5836, 16, 16779630);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5836, 5, 'Lunatic') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (5836, 16, 67110065) /* EYES_PALETTE_DID */
+     , (5836, 9, 83890457) /* EYES_TEXTURE_DID */
+     , (5836, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (5836, 10, 83890555) /* NOSE_TEXTURE_DID */
+     , (5836, 11, 83890627) /* MOUTH_TEXTURE_DID */
+     , (5836, 15, 67116990) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5836, 113, 1) /* GENDER_INT */
+     , (5836, 2, 31) /* CREATURE_TYPE_INT */
+     , (5836, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (5836, 25, 8) /* LEVEL_INT */
+     , (5836, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (5836, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (5836, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (5836, 4, 65) /* COORDINATION_ATTRIBUTE */
+     , (5836, 8, 40) /* QUICKNESS_ATTRIBUTE */
+     , (5836, 16, 30) /* FOCUS_ATTRIBUTE */
+     , (5836, 32, 20) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (5836, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (5836, 128, 140) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (5836, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
+

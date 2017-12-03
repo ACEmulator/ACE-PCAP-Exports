@@ -91,3 +91,26 @@ VALUES (49647, 12, 16777304)
      , (49647, 8, 16781839)
      , (49647, 16, 16778594);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49647, 5, 'Archmage') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (49647, 16, 67110062) /* EYES_PALETTE_DID */
+     , (49647, 9, 83890453) /* EYES_TEXTURE_DID */
+     , (49647, 17, 67109552) /* SKIN_PALETTE_DID */
+     , (49647, 10, 83890539) /* NOSE_TEXTURE_DID */
+     , (49647, 11, 83890630) /* MOUTH_TEXTURE_DID */
+     , (49647, 15, 67116999) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49647, 113, 1) /* GENDER_INT */
+     , (49647, 2, 31) /* CREATURE_TYPE_INT */
+     , (49647, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (49647, 25, 16) /* LEVEL_INT */
+     , (49647, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (49647, 64, 183) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

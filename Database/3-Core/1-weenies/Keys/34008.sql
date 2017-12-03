@@ -34,3 +34,16 @@ VALUES (34008, 13, True) /* ETHEREAL_BOOL */
      , (34008, 19, True) /* ATTACKABLE_BOOL */
      , (34008, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34008, 16, 'A key to the Chest of Darayavaush, taken from Darayavaush himself.') /* LONG_DESC_STRING */
+     , (34008, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34008, 33, 1) /* BONDED_INT */
+     , (34008, 114, 1) /* ATTUNED_INT */
+     , (34008, 19, 0) /* VALUE_INT */
+     , (34008, 5, 50) /* ENCUMB_VAL_INT */
+     , (34008, 91, 1) /* MAX_STRUCTURE_INT */;
+

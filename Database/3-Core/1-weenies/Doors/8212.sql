@@ -32,3 +32,18 @@ VALUES (8212, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8212, 19, True) /* ATTACKABLE_BOOL */
      , (8212, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8212, 14, 'Use this item to open it.') /* USE_STRING */
+     , (8212, 15, 'A door wrought of stout iron. Its lock looks unpickable, but there may be a key around somewhere.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8212, 19, 0) /* VALUE_INT */
+     , (8212, 38, 5000) /* RESIST_LOCKPICK_INT */
+     , (8212, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8212, 2, 0) /* OPEN_BOOL */
+     , (8212, 3, 1) /* LOCKED_BOOL */;
+

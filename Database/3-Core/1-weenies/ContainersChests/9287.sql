@@ -44,3 +44,19 @@ VALUES (9287, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9287, 9, 16785621);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9287, 16, 'A Virindi holding lies here.') /* LONG_DESC_STRING */
+     , (9287, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9287, 19, 2500) /* VALUE_INT */
+     , (9287, 5, 14711) /* ENCUMB_VAL_INT */
+     , (9287, 38, 5000) /* RESIST_LOCKPICK_INT */
+     , (9287, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9287, 2, 0) /* OPEN_BOOL */
+     , (9287, 3, 1) /* LOCKED_BOOL */;
+

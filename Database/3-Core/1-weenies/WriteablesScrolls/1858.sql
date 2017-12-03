@@ -35,3 +35,17 @@ VALUES (1858, 13, True) /* ETHEREAL_BOOL */
      , (1858, 19, True) /* ATTACKABLE_BOOL */
      , (1858, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1858, 16, 'Inscribed spell: Mana Depletion Other I
+Decreases target''s natural mana rate by 9%.') /* LONG_DESC_STRING */
+     , (1858, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1858, 19, 1) /* VALUE_INT */
+     , (1858, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1858, 218) /* ManaDepletionOther1_SpellID */;
+

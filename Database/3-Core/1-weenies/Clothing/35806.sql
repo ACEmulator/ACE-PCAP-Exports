@@ -50,3 +50,44 @@ VALUES (35806, 0, 83887061, 83892367)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35806, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35806, 16, 'The elegant silken robes that once belonged to the fearsome Master of the Colosseum.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35806, 160, 150) /* WIELD_DIFFICULTY_INT */
+     , (35806, 33, 1) /* BONDED_INT */
+     , (35806, 114, 1) /* ATTUNED_INT */
+     , (35806, 19, 0) /* VALUE_INT */
+     , (35806, 5, 600) /* ENCUMB_VAL_INT */
+     , (35806, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (35806, 108, 6000) /* ITEM_MAX_MANA_INT */
+     , (35806, 28, 390) /* ARMOR_LEVEL_INT */
+     , (35806, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (35806, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35806, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (35806, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (35806, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (35806, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (35806, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (35806, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (35806, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (35806, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (35806, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35806, 99, 1) /* IVORYABLE_BOOL */
+     , (35806, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35806, 2243) /* ImpregnabilitySelf7_SpellID */
+     , (35806, 2245) /* InvulnerabilitySelf7_SpellID */
+     , (35806, 2053) /* ArmorSelf7_SpellID */
+     , (35806, 2572) /* CANTRIPCOORDINATION2_SpellID */
+     , (35806, 2573) /* CANTRIPENDURANCE2_SpellID */
+     , (35806, 2575) /* CANTRIPQUICKNESS2_SpellID */
+     , (35806, 2108) /* Impenetrability7_SpellID */;
+

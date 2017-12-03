@@ -33,3 +33,13 @@ VALUES (21750, 13, True) /* ETHEREAL_BOOL */
      , (21750, 19, True) /* ATTACKABLE_BOOL */
      , (21750, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21750, 38, 'Proving Grounds Mid') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21750, 86, 40) /* MIN_LEVEL_INT */
+     , (21750, 87, 59) /* MAX_LEVEL_INT */
+     , (21750, 111, 49) /* PORTAL_BITMASK_INT */;
+

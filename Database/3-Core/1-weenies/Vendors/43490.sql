@@ -43,6 +43,29 @@ VALUES (43490, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43490, 67114424, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43490, 5, 'Soldier Vendor') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43490, 2, 1) /* CREATURE_TYPE_INT */
+     , (43490, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (43490, 25, 586) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (43490, 1, 380) /* STRENGTH_ATTRIBUTE */
+     , (43490, 2, 420) /* ENDURANCE_ATTRIBUTE */
+     , (43490, 4, 260) /* COORDINATION_ATTRIBUTE */
+     , (43490, 8, 220) /* QUICKNESS_ATTRIBUTE */
+     , (43490, 16, 240) /* FOCUS_ATTRIBUTE */
+     , (43490, 32, 240) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43490, 64, 1710) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (43490, 128, 920) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (43490, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)

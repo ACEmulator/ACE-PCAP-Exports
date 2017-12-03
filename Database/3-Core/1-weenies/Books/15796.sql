@@ -33,6 +33,18 @@ VALUES (15796, 13, True) /* ETHEREAL_BOOL */
      , (15796, 14, True) /* GRAVITY_STATUS_BOOL */
      , (15796, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15796, 16, 'A tome of four distinct colors, fasted in an iron bound leather binding. Surprising light for such a large tome, the book bears no scent of age, though it is written in an old form of Empyrean. It has been translated for ease of reading.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15796, 33, 0) /* BONDED_INT */
+     , (15796, 19, 0) /* VALUE_INT */
+     , (15796, 5, 25) /* ENCUMB_VAL_INT */
+     , (15796, 174, 44) /* APPRAISAL_PAGES_INT */
+     , (15796, 175, 44) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

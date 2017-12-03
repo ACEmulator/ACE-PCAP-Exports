@@ -33,3 +33,11 @@ VALUES (14665, 13, True) /* ETHEREAL_BOOL */
      , (14665, 19, True) /* ATTACKABLE_BOOL */
      , (14665, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14665, 38, 'Shara Portal (54.4S, 43.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14665, 111, 1) /* PORTAL_BITMASK_INT */;
+

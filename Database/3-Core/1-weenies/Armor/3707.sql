@@ -49,3 +49,31 @@ VALUES (3707, 0, 83889687, 83889687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3707, 0, 16778337);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3707, 16, 'Obsidian Crown of Arcane Enlightenment.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3707, 19, 7000) /* VALUE_INT */
+     , (3707, 5, 800) /* ENCUMB_VAL_INT */
+     , (3707, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (3707, 108, 720) /* ITEM_MAX_MANA_INT */
+     , (3707, 28, 30) /* ARMOR_LEVEL_INT */
+     , (3707, 109, 250) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3707, 5, -0.2) /* MANA_RATE_FLOAT */
+     , (3707, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (3707, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (3707, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (3707, 16, 0) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (3707, 17, 0) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (3707, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (3707, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (3707, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3707, 1486) /* Impenetrability6_SpellID */
+     , (3707, 687) /* ArcaneEnlightenmentOther4_SpellID */;
+

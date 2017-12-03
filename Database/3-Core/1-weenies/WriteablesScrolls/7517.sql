@@ -35,3 +35,17 @@ VALUES (7517, 13, True) /* ETHEREAL_BOOL */
      , (7517, 19, True) /* ATTACKABLE_BOOL */
      , (7517, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7517, 16, 'Inscribed spell: Bed of Blades
+Sends a wall of five whirling blades, two high, slowly towards the target. Each blade does 35-70 points of slashing damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* LONG_DESC_STRING */
+     , (7517, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7517, 19, 200) /* VALUE_INT */
+     , (7517, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7517, 1840) /* BladeWall_SpellID */;
+

@@ -42,3 +42,31 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (31868, 67110321, 240, 10)
      , (31868, 67110343, 250, 6);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31868, 16, 'Signet Crown') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31868, 177, 2) /* GEM_COUNT_INT */
+     , (31868, 178, 28) /* GEM_TYPE_INT */
+     , (31868, 19, 3761) /* VALUE_INT */
+     , (31868, 131, 59) /* MATERIAL_TYPE_INT */
+     , (31868, 5, 83) /* ENCUMB_VAL_INT */
+     , (31868, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (31868, 28, 235) /* ARMOR_LEVEL_INT */
+     , (31868, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31868, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (31868, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (31868, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (31868, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (31868, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (31868, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (31868, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (31868, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31868, 100, 1) /* DYABLE_BOOL */;
+

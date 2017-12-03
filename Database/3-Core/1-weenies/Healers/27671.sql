@@ -33,3 +33,17 @@ VALUES (27671, 13, True) /* ETHEREAL_BOOL */
      , (27671, 19, True) /* ATTACKABLE_BOOL */
      , (27671, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27671, 16, 'A hard roll of foul smelling salts and ores that serve as healing agents for the renegades.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27671, 19, 1000) /* VALUE_INT */
+     , (27671, 5, 65) /* ENCUMB_VAL_INT */
+     , (27671, 90, 200) /* BOOST_VALUE_INT */
+     , (27671, 91, 50) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27671, 100, 1) /* HEALKIT_MOD_FLOAT */;
+

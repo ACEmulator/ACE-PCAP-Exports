@@ -29,3 +29,13 @@ VALUES (42788, 13, True) /* ETHEREAL_BOOL */
      , (42788, 19, True) /* ATTACKABLE_BOOL */
      , (42788, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42788, 16, 'Long ago, this place was called Foster''s Fort, an abandoned Empyrean structure found by a man named Foster in the years of the Olthoi enslavement. Foster, then a new arrival, had been fleeing the Olthoi for days when he glimpsed these spires in the distance. Initially elated, his joy turned to deep disappointment when he found the walls undefended and no one within. He spent years hiding here in the towers until the liberation came, and thereafter vowed to never return to such a forsaken place.') /* LONG_DESC_STRING */
+     , (42788, 14, 'Much later, a small Aluvian faction left the safety of Cragstone to come north (some say they were kicked out of the town). They sought shelter within the walls of Bandit Castle, where MacDugal and his band had lived for some time, but some disagreement split their ranks, and a number of them trekked down the road and wound up at Foster''s Fort. A woman called simply Neydisa led their ranks. She saw a grand palace in what looked otherwise like a ruined husk.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42788, 19, 125) /* VALUE_INT */
+     , (42788, 5, 9000) /* ENCUMB_VAL_INT */;
+

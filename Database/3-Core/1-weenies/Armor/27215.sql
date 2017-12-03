@@ -52,3 +52,45 @@ VALUES (27215, 0, 83887061, 83895192)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27215, 0, 16779535);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27215, 16, 'Chiran Coat') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27215, 177, 3) /* GEM_COUNT_INT */
+     , (27215, 178, 22) /* GEM_TYPE_INT */
+     , (27215, 19, 10635) /* VALUE_INT */
+     , (27215, 131, 6) /* MATERIAL_TYPE_INT */
+     , (27215, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (27215, 5, 1206) /* ENCUMB_VAL_INT */
+     , (27215, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (27215, 106, 295) /* ITEM_SPELLCRAFT_INT */
+     , (27215, 28, 258) /* ARMOR_LEVEL_INT */
+     , (27215, 108, 654) /* ITEM_MAX_MANA_INT */
+     , (27215, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (27215, 109, 332) /* ITEM_DIFFICULTY_INT */
+     , (27215, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27215, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (27215, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (27215, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (27215, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (27215, 16, 1.065766) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (27215, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (27215, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (27215, 19, 0.9647693) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (27215, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27215, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27215, 2570) /* CANTRIPWEAPONEXPERTISE1_SpellID */
+     , (27215, 2577) /* CANTRIPWILLPOWER2_SpellID */
+     , (27215, 1516) /* BludgeonBane6_SpellID */
+     , (27215, 5427) /* CantripVoidMagicAptitude1_SpellID */
+     , (27215, 2616) /* CANTRIPACIDWARD1_SpellID */
+     , (27215, 2108) /* Impenetrability7_SpellID */;
+

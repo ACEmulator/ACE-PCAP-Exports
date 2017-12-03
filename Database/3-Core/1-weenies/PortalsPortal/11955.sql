@@ -33,3 +33,11 @@ VALUES (11955, 13, True) /* ETHEREAL_BOOL */
      , (11955, 19, True) /* ATTACKABLE_BOOL */
      , (11955, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11955, 38, 'Karab Delta Portal (38.1N, 77.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11955, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -38,3 +38,14 @@ VALUES (12710, 0, 83888907, 83888872)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12710, 0, 16778823);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12710, 16, 'A pair of bellows.  If found, please return to the Academy Blacksmith.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12710, 33, 1) /* BONDED_INT */
+     , (12710, 114, 1) /* ATTUNED_INT */
+     , (12710, 19, 0) /* VALUE_INT */
+     , (12710, 5, 50) /* ENCUMB_VAL_INT */;
+

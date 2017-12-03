@@ -34,6 +34,17 @@ VALUES (38226, 13, True) /* ETHEREAL_BOOL */
      , (38226, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38226, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38226, 16, 'A book about the nature of the threat faced by the T''thuun-tainted nodes of Dereth. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38226, 19, 0) /* VALUE_INT */
+     , (38226, 5, 160) /* ENCUMB_VAL_INT */
+     , (38226, 174, 4) /* APPRAISAL_PAGES_INT */
+     , (38226, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

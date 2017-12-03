@@ -34,3 +34,17 @@ VALUES (48922, 13, True) /* ETHEREAL_BOOL */
      , (48922, 19, True) /* ATTACKABLE_BOOL */
      , (48922, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48922, 16, 'A heavy iron key.') /* LONG_DESC_STRING */
+     , (48922, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48922, 98, 1485168616) /* CREATION_TIMESTAMP_INT */
+     , (48922, 19, 0) /* VALUE_INT */
+     , (48922, 5, 500) /* ENCUMB_VAL_INT */
+     , (48922, 267, 7200) /* LIFESPAN_INT */
+     , (48922, 91, 1) /* MAX_STRUCTURE_INT */
+     , (48922, 268, 7187) /* REMAINING_LIFESPAN_INT */;
+

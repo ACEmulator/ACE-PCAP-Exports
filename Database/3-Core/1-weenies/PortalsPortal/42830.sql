@@ -33,3 +33,12 @@ VALUES (42830, 13, True) /* ETHEREAL_BOOL */
      , (42830, 19, True) /* ATTACKABLE_BOOL */
      , (42830, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42830, 16, 'This portal goes to Al-Jalima, the Gharu''ndim settlement located between the prominent cities of Zaikhal and Samsur. This is a good town for characters over level 20.') /* LONG_DESC_STRING */
+     , (42830, 38, 'Al-Jalima Portal (7.2N, 5.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42830, 111, 1) /* PORTAL_BITMASK_INT */;
+

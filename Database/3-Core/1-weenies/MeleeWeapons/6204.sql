@@ -39,3 +39,41 @@ VALUES (6204, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6204, 0, 16783993);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6204, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (6204, 33, 1) /* BONDED_INT */
+     , (6204, 353, 6) /* WEAPON_TYPE_INT */
+     , (6204, 19, 5000) /* VALUE_INT */
+     , (6204, 5, 135) /* ENCUMB_VAL_INT */
+     , (6204, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (6204, 108, 750) /* ITEM_MAX_MANA_INT */
+     , (6204, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (6204, 47, 6) /* ATTACK_TYPE_INT */
+     , (6204, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (6204, 45, 64) /* DAMAGE_TYPE_INT */
+     , (6204, 49, 15) /* WEAPON_TIME_INT */
+     , (6204, 48, 46) /* WEAPON_SKILL_INT */
+     , (6204, 44, 54) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6204, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (6204, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (6204, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */
+     , (6204, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (6204, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (6204, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (6204, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6204, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (6204, 1603) /* Defender4_SpellID */
+     , (6204, 1352) /* EnduranceSelf4_SpellID */
+     , (6204, 1614) /* BloodDrinker4_SpellID */
+     , (6204, 1625) /* SwiftKiller4_SpellID */
+     , (6204, 1069) /* LightningProtectionSelf4_SpellID */
+     , (6204, 1590) /* HeartSeeker4_SpellID */;
+

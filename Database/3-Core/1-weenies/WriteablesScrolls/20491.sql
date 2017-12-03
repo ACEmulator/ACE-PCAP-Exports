@@ -35,3 +35,17 @@ VALUES (20491, 13, True) /* ETHEREAL_BOOL */
      , (20491, 19, True) /* ATTACKABLE_BOOL */
      , (20491, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20491, 16, 'Inscribed spell: Hydra''s Head
+Increase target''s natural healing rate by 115%.') /* LONG_DESC_STRING */
+     , (20491, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20491, 19, 2000) /* VALUE_INT */
+     , (20491, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20491, 2184) /* RegenerationOther7_SpellID */;
+

@@ -87,3 +87,26 @@ VALUES (28856, 11, 16777302)
      , (28856, 4, 16777291)
      , (28856, 8, 16777298);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28856, 5, 'Wood Carver') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (28856, 16, 67109566) /* EYES_PALETTE_DID */
+     , (28856, 9, 83890506) /* EYES_TEXTURE_DID */
+     , (28856, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (28856, 10, 83890551) /* NOSE_TEXTURE_DID */
+     , (28856, 11, 83890662) /* MOUTH_TEXTURE_DID */
+     , (28856, 15, 67116995) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28856, 113, 1) /* GENDER_INT */
+     , (28856, 2, 31) /* CREATURE_TYPE_INT */
+     , (28856, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (28856, 25, 10) /* LEVEL_INT */
+     , (28856, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (28856, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

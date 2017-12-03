@@ -108,6 +108,29 @@ VALUES (28690, 5, 16789351)
      , (28690, 8, 16789358)
      , (28690, 16, 16789379);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28690, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (28690, 16, 67110062) /* EYES_PALETTE_DID */
+     , (28690, 9, 83890508) /* EYES_TEXTURE_DID */
+     , (28690, 17, 67109558) /* SKIN_PALETTE_DID */
+     , (28690, 10, 83890558) /* NOSE_TEXTURE_DID */
+     , (28690, 11, 83890659) /* MOUTH_TEXTURE_DID */
+     , (28690, 15, 67116993) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28690, 113, 1) /* GENDER_INT */
+     , (28690, 2, 31) /* CREATURE_TYPE_INT */
+     , (28690, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (28690, 25, 271) /* LEVEL_INT */
+     , (28690, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (28690, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 /* Object Wield List */

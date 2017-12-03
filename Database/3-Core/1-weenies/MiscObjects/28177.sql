@@ -38,3 +38,17 @@ VALUES (28177, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28177, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28177, 16, 'A pick made from the tooth of a brass gromnie.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28177, 33, 1) /* BONDED_INT */
+     , (28177, 114, 1) /* ATTUNED_INT */
+     , (28177, 19, 0) /* VALUE_INT */
+     , (28177, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28177, 69, 0) /* IS_SELLABLE_BOOL */;
+

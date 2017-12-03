@@ -34,3 +34,14 @@ VALUES (7412, 13, True) /* ETHEREAL_BOOL */
      , (7412, 19, True) /* ATTACKABLE_BOOL */
      , (7412, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7412, 16, 'A heavy titanium bar, used in pyreal forging mechanisms.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7412, 33, 1) /* BONDED_INT */
+     , (7412, 114, 1) /* ATTUNED_INT */
+     , (7412, 19, 200) /* VALUE_INT */
+     , (7412, 5, 1080) /* ENCUMB_VAL_INT */;
+

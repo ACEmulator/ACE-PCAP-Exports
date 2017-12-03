@@ -86,3 +86,26 @@ VALUES (40983, 10, 16778431)
      , (40983, 4, 16783485)
      , (40983, 8, 16783487);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40983, 5, 'Blacksmith') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (40983, 16, 67110062) /* EYES_PALETTE_DID */
+     , (40983, 9, 83890277) /* EYES_TEXTURE_DID */
+     , (40983, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (40983, 10, 83890304) /* NOSE_TEXTURE_DID */
+     , (40983, 11, 83890354) /* MOUTH_TEXTURE_DID */
+     , (40983, 15, 67116991) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40983, 113, 2) /* GENDER_INT */
+     , (40983, 2, 31) /* CREATURE_TYPE_INT */
+     , (40983, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (40983, 25, 16) /* LEVEL_INT */
+     , (40983, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (40983, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

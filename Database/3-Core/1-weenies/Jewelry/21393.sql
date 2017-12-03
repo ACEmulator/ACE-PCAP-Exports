@@ -47,3 +47,30 @@ VALUES (21393, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21393, 0, 16778506);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21393, 15, 'A black necklace with a blue stone setting.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21393, 160, 30) /* WIELD_DIFFICULTY_INT */
+     , (21393, 19, 4000) /* VALUE_INT */
+     , (21393, 5, 140) /* ENCUMB_VAL_INT */
+     , (21393, 106, 275) /* ITEM_SPELLCRAFT_INT */
+     , (21393, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (21393, 109, 125) /* ITEM_DIFFICULTY_INT */
+     , (21393, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (21393, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21393, 5, -0.0333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21393, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21393, 272) /* MagicResistanceOther5_SpellID */
+     , (21393, 2581) /* CANTRIPFOCUS1_SpellID */
+     , (21393, 2584) /* CANTRIPWILLPOWER1_SpellID */
+     , (21393, 2811) /* ModerateMagicResistance_SpellID */;
+

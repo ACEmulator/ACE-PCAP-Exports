@@ -33,3 +33,11 @@ VALUES (15138, 13, True) /* ETHEREAL_BOOL */
      , (15138, 19, True) /* ATTACKABLE_BOOL */
      , (15138, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15138, 38, 'Ahr-Zona Portal (21.7S, 18.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15138, 111, 1) /* PORTAL_BITMASK_INT */;
+

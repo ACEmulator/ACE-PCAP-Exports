@@ -87,3 +87,59 @@ VALUES (4796, 11, 16778429)
      , (4796, 4, 16778426)
      , (4796, 8, 16778428);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4796, 5, 'Citizen of Rithwic') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (4796, 16, 67110063) /* EYES_PALETTE_DID */
+     , (4796, 9, 83890259) /* EYES_TEXTURE_DID */
+     , (4796, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (4796, 10, 83890316) /* NOSE_TEXTURE_DID */
+     , (4796, 11, 83890351) /* MOUTH_TEXTURE_DID */
+     , (4796, 15, 67116980) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4796, 113, 2) /* GENDER_INT */
+     , (4796, 2, 31) /* CREATURE_TYPE_INT */
+     , (4796, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (4796, 25, 8) /* LEVEL_INT */
+     , (4796, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (4796, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4796, 5, 'Citizen of Rithwic') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (4796, 16, 67109567) /* EYES_PALETTE_DID */
+     , (4796, 9, 83890261) /* EYES_TEXTURE_DID */
+     , (4796, 17, 67109559) /* SKIN_PALETTE_DID */
+     , (4796, 10, 83890295) /* NOSE_TEXTURE_DID */
+     , (4796, 11, 83890339) /* MOUTH_TEXTURE_DID */
+     , (4796, 15, 67116995) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4796, 113, 2) /* GENDER_INT */
+     , (4796, 2, 31) /* CREATURE_TYPE_INT */
+     , (4796, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (4796, 25, 8) /* LEVEL_INT */
+     , (4796, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (4796, 1, 80) /* STRENGTH_ATTRIBUTE */
+     , (4796, 2, 80) /* ENDURANCE_ATTRIBUTE */
+     , (4796, 4, 65) /* COORDINATION_ATTRIBUTE */
+     , (4796, 8, 60) /* QUICKNESS_ATTRIBUTE */
+     , (4796, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (4796, 32, 50) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (4796, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (4796, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (4796, 256, 65) /* MAX_MANA_ATTRIBUTE_2ND */;
+

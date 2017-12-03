@@ -38,3 +38,29 @@ VALUES (9686, 13, True) /* ETHEREAL_BOOL */
      , (9686, 1, True) /* STUCK_BOOL */
      , (9686, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9686, 16, 'This hook is owned by Kalar Soarfire. It contains: 
+Hoary Mattekar Robe') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9686, 19, 4000) /* VALUE_INT */
+     , (9686, 5, 1300) /* ENCUMB_VAL_INT */
+     , (9686, 28, 150) /* ARMOR_LEVEL_INT */
+     , (9686, 9, 32512) /* LOCATIONS_INT */
+     , (9686, 50, 0) /* AMMO_TYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9686, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (9686, 14, 0.9) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (9686, 15, 0.9) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (9686, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (9686, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (9686, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (9686, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (9686, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9686, 22, True) /* INSCRIBABLE_BOOL */;
+

@@ -52,3 +52,34 @@ VALUES (25639, 0, 83887061, 83894835)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25639, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25639, 16, 'Leather Jerkin') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25639, 160, 150) /* WIELD_DIFFICULTY_INT */
+     , (25639, 177, 4) /* GEM_COUNT_INT */
+     , (25639, 178, 21) /* GEM_TYPE_INT */
+     , (25639, 19, 55022) /* VALUE_INT */
+     , (25639, 131, 54) /* MATERIAL_TYPE_INT */
+     , (25639, 5, 556) /* ENCUMB_VAL_INT */
+     , (25639, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (25639, 28, 255) /* ARMOR_LEVEL_INT */
+     , (25639, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (25639, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (25639, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (25639, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (25639, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (25639, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (25639, 16, 1.178205) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (25639, 17, 1.012561) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (25639, 18, 0.8279415) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (25639, 19, 1.075199) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (25639, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25639, 100, 1) /* DYABLE_BOOL */;
+

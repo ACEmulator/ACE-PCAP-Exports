@@ -47,3 +47,45 @@ VALUES (40396, 0, 83893670, 83893670)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40396, 0, 16790086);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40396, 16, 'A buadren fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40396, 160, 270) /* WIELD_DIFFICULTY_INT */
+     , (40396, 33, 1) /* BONDED_INT */
+     , (40396, 114, 0) /* ATTUNED_INT */
+     , (40396, 19, 20000) /* VALUE_INT */
+     , (40396, 5, 50) /* ENCUMB_VAL_INT */
+     , (40396, 263, 2) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (40396, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (40396, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (40396, 45, 2) /* DAMAGE_TYPE_INT */
+     , (40396, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (40396, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40396, 159, 16) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40396, 152, 1.1) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (40396, 144, 0.15) /* MANA_CONVERSION_MOD_FLOAT */
+     , (40396, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (40396, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
+     , (40396, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (40396, 5, -0.033333) /* MANA_RATE_FLOAT */
+     , (40396, 150, 1.025) /* WEAPON_MAGIC_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40396, 99, 0) /* IVORYABLE_BOOL */
+     , (40396, 69, 0) /* IS_SELLABLE_BOOL */
+     , (40396, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40396, 2441) /* StoneCliffsLesser_SpellID */
+     , (40396, 2444) /* StrengthofEarthLesser_SpellID */
+     , (40396, 2447) /* GrowthLesser_SpellID */
+     , (40396, 2450) /* HuntersAcumenLesser_SpellID */
+     , (40396, 3223) /* CascadeManaC_SpellID */
+     , (40396, 2472) /* StillWater_SpellID */
+     , (40396, 2475) /* Torrent_SpellID */;
+

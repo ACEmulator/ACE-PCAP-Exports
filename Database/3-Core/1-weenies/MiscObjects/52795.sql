@@ -34,3 +34,15 @@ VALUES (52795, 13, True) /* ETHEREAL_BOOL */
      , (52795, 19, True) /* ATTACKABLE_BOOL */
      , (52795, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52795, 16, 'A ticket stub showing the time your fellowship have left in the Gauntlet.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52795, 98, 1485828861) /* CREATION_TIMESTAMP_INT */
+     , (52795, 19, 0) /* VALUE_INT */
+     , (52795, 5, 5) /* ENCUMB_VAL_INT */
+     , (52795, 267, 3600) /* LIFESPAN_INT */
+     , (52795, 268, 3364) /* REMAINING_LIFESPAN_INT */;
+

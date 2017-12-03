@@ -87,3 +87,59 @@ VALUES (3929, 11, 16778429)
      , (3929, 4, 16783485)
      , (3929, 8, 16783487);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3929, 5, 'Trophy Collector') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (3929, 16, 67110065) /* EYES_PALETTE_DID */
+     , (3929, 9, 83890262) /* EYES_TEXTURE_DID */
+     , (3929, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (3929, 10, 83890312) /* NOSE_TEXTURE_DID */
+     , (3929, 11, 83890330) /* MOUTH_TEXTURE_DID */
+     , (3929, 15, 67117017) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3929, 113, 2) /* GENDER_INT */
+     , (3929, 2, 31) /* CREATURE_TYPE_INT */
+     , (3929, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (3929, 25, 6) /* LEVEL_INT */
+     , (3929, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (3929, 64, 123) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3929, 5, 'Trophy Collector') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (3929, 16, 67109567) /* EYES_PALETTE_DID */
+     , (3929, 9, 83890280) /* EYES_TEXTURE_DID */
+     , (3929, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (3929, 10, 83890300) /* NOSE_TEXTURE_DID */
+     , (3929, 11, 83890358) /* MOUTH_TEXTURE_DID */
+     , (3929, 15, 67117070) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3929, 113, 2) /* GENDER_INT */
+     , (3929, 2, 31) /* CREATURE_TYPE_INT */
+     , (3929, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (3929, 25, 6) /* LEVEL_INT */
+     , (3929, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (3929, 1, 75) /* STRENGTH_ATTRIBUTE */
+     , (3929, 2, 75) /* ENDURANCE_ATTRIBUTE */
+     , (3929, 4, 70) /* COORDINATION_ATTRIBUTE */
+     , (3929, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (3929, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (3929, 32, 40) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (3929, 64, 123) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (3929, 128, 187) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (3929, 256, 85) /* MAX_MANA_ATTRIBUTE_2ND */;
+

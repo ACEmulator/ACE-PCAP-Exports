@@ -49,3 +49,40 @@ VALUES (12250, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12250, 0, 16777929);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12250, 16, 'The ceremonial scepter of a Lugian warlord in league with the Virindi.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12250, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (12250, 353, 4) /* WEAPON_TYPE_INT */
+     , (12250, 19, 3000) /* VALUE_INT */
+     , (12250, 5, 1200) /* ENCUMB_VAL_INT */
+     , (12250, 106, 260) /* ITEM_SPELLCRAFT_INT */
+     , (12250, 108, 800) /* ITEM_MAX_MANA_INT */
+     , (12250, 109, 35) /* ITEM_DIFFICULTY_INT */
+     , (12250, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (12250, 47, 4) /* ATTACK_TYPE_INT */
+     , (12250, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (12250, 45, 4) /* DAMAGE_TYPE_INT */
+     , (12250, 49, 80) /* WEAPON_TIME_INT */
+     , (12250, 48, 44) /* WEAPON_SKILL_INT */
+     , (12250, 44, 60) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12250, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (12250, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (12250, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (12250, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (12250, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (12250, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (12250, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12250, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12250, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12250, 902) /* LeadershipMasterySelf5_SpellID */
+     , (12250, 1614) /* BloodDrinker4_SpellID */
+     , (12250, 1330) /* StrengthSelf4_SpellID */;
+

@@ -46,6 +46,27 @@ VALUES (36021, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36021, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36021, 16, 'Using this gem will increase your Heavy Weapons skill by 150 for 9 minutes.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36021, 33, 1) /* BONDED_INT */
+     , (36021, 114, 1) /* ATTUNED_INT */
+     , (36021, 19, 15) /* VALUE_INT */
+     , (36021, 5, 15) /* ENCUMB_VAL_INT */
+     , (36021, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (36021, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (36021, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36021, 108, 1) /* RARE_USES_TIMER_BOOL */
+     , (36021, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (36021, 4139) /* SwordMasterySpectral_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

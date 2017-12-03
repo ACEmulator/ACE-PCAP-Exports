@@ -46,3 +46,35 @@ VALUES (39978, 0, 83887061, 83897005)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39978, 0, 16779535);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39978, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (39978, 19, 25) /* VALUE_INT */
+     , (39978, 5, 50) /* ENCUMB_VAL_INT */
+     , (39978, 265, 31) /* EQUIPMENT_SET_ID_INT */
+     , (39978, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (39978, 108, 5000) /* ITEM_MAX_MANA_INT */
+     , (39978, 28, 220) /* ARMOR_LEVEL_INT */
+     , (39978, 109, 250) /* ITEM_DIFFICULTY_INT */
+     , (39978, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (39978, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (39978, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (39978, 13, 2.7) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (39978, 14, 2.7) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (39978, 15, 2.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (39978, 16, 2.7) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (39978, 17, 2.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (39978, 18, 2.2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (39978, 19, 2.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (39978, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (39978, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (39978, 2574) /* CANTRIPFOCUS2_SpellID */
+     , (39978, 2577) /* CANTRIPWILLPOWER2_SpellID */;
+

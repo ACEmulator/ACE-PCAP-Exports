@@ -35,3 +35,17 @@ VALUES (45314, 13, True) /* ETHEREAL_BOOL */
      , (45314, 19, True) /* ATTACKABLE_BOOL */
      , (45314, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45314, 16, 'Inscribed spell: Shield Ineptitude Other VII
+Decreases the target''s Shield skill by 40 points.') /* LONG_DESC_STRING */
+     , (45314, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45314, 19, 2000) /* VALUE_INT */
+     , (45314, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (45314, 5841) /* shieldineptitudeother7_SpellID */;
+

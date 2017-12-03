@@ -33,3 +33,12 @@ VALUES (22656, 13, True) /* ETHEREAL_BOOL */
      , (22656, 19, True) /* ATTACKABLE_BOOL */
      , (22656, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22656, 38, 'Arena of the Tusker Hero') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22656, 86, 80) /* MIN_LEVEL_INT */
+     , (22656, 111, 49) /* PORTAL_BITMASK_INT */;
+

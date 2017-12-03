@@ -54,3 +54,22 @@ VALUES (3748, 0, 83888956, 83888956)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3748, 0, 16788857);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3748, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3748, 19, 5700) /* VALUE_INT */
+     , (3748, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3748, 5, 50) /* ENCUMB_VAL_INT */
+     , (3748, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (3748, 108, 2000) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3748, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
+     , (3748, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (3748, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3748, 80) /* LightningBolt6_SpellID */
+     , (3748, 1071) /* LightningProtectionSelf6_SpellID */;
+

@@ -35,3 +35,17 @@ VALUES (2135, 13, True) /* ETHEREAL_BOOL */
      , (2135, 19, True) /* ATTACKABLE_BOOL */
      , (2135, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2135, 16, 'Inscribed spell: Flame Volley III
+Shoots three bolts of flame toward the target. Each bolt does 15-31 points of fire damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (2135, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2135, 19, 20) /* VALUE_INT */
+     , (2135, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2135, 143) /* FlameVolley3_SpellID */;
+

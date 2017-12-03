@@ -35,3 +35,17 @@ VALUES (8937, 13, True) /* ETHEREAL_BOOL */
      , (8937, 19, True) /* ATTACKABLE_BOOL */
      , (8937, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8937, 16, 'Inscribed spell: Frost Streak III
+Sends a bolt of cold streaking towards the target. The bolt does 21-42 points of cold damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (8937, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8937, 19, 20) /* VALUE_INT */
+     , (8937, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8937, 1810) /* FrostStreak3_SpellID */;
+

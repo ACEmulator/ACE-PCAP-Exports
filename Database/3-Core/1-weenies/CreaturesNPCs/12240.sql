@@ -87,3 +87,26 @@ VALUES (12240, 10, 16777301)
      , (12240, 4, 16781838)
      , (12240, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12240, 5, 'Master House Decorator') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (12240, 16, 67109565) /* EYES_PALETTE_DID */
+     , (12240, 9, 83890447) /* EYES_TEXTURE_DID */
+     , (12240, 17, 67110059) /* SKIN_PALETTE_DID */
+     , (12240, 10, 83890548) /* NOSE_TEXTURE_DID */
+     , (12240, 11, 83890657) /* MOUTH_TEXTURE_DID */
+     , (12240, 15, 67117025) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12240, 113, 1) /* GENDER_INT */
+     , (12240, 2, 31) /* CREATURE_TYPE_INT */
+     , (12240, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (12240, 25, 28) /* LEVEL_INT */
+     , (12240, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (12240, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

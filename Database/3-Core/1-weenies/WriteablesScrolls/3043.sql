@@ -35,3 +35,17 @@ VALUES (3043, 13, True) /* ETHEREAL_BOOL */
      , (3043, 19, True) /* ATTACKABLE_BOOL */
      , (3043, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3043, 16, 'Inscribed spell: Fire Vulnerability Other II
+Increases damage the target takes from Fire by 25%.') /* LONG_DESC_STRING */
+     , (3043, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3043, 19, 5) /* VALUE_INT */
+     , (3043, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3043, 1104) /* FireVulnerabilityOther2_SpellID */;
+

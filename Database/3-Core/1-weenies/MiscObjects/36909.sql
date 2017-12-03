@@ -31,3 +31,13 @@ VALUES (36909, 13, True) /* ETHEREAL_BOOL */
      , (36909, 19, True) /* ATTACKABLE_BOOL */
      , (36909, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36909, 16, 'A holiday rug for the rest of us.') /* LONG_DESC_STRING */
+     , (36909, 14, 'This item may be placed on floor hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36909, 19, 6000) /* VALUE_INT */
+     , (36909, 5, 1500) /* ENCUMB_VAL_INT */;
+

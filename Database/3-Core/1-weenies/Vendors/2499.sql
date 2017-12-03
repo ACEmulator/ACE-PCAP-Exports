@@ -84,6 +84,29 @@ VALUES (2499, 10, 16777301)
      , (2499, 4, 16777291)
      , (2499, 8, 16777298);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2499, 5, 'Weaponsmith') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (2499, 16, 67110062) /* EYES_PALETTE_DID */
+     , (2499, 9, 83890508) /* EYES_TEXTURE_DID */
+     , (2499, 17, 67109558) /* SKIN_PALETTE_DID */
+     , (2499, 10, 83890559) /* NOSE_TEXTURE_DID */
+     , (2499, 11, 83890665) /* MOUTH_TEXTURE_DID */
+     , (2499, 15, 67117020) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2499, 113, 1) /* GENDER_INT */
+     , (2499, 2, 31) /* CREATURE_TYPE_INT */
+     , (2499, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (2499, 25, 12) /* LEVEL_INT */
+     , (2499, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (2499, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

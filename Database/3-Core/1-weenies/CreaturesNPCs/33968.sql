@@ -86,3 +86,59 @@ VALUES (33968, 12, 16777304)
      , (33968, 13, 16783871)
      , (33968, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33968, 5, 'Tusker Blight') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (33968, 16, 67109565) /* EYES_PALETTE_DID */
+     , (33968, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (33968, 17, 67110061) /* SKIN_PALETTE_DID */
+     , (33968, 10, 83890561) /* NOSE_TEXTURE_DID */
+     , (33968, 11, 83890565) /* MOUTH_TEXTURE_DID */
+     , (33968, 15, 67116992) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33968, 113, 1) /* GENDER_INT */
+     , (33968, 2, 31) /* CREATURE_TYPE_INT */
+     , (33968, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (33968, 25, 50) /* LEVEL_INT */
+     , (33968, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (33968, 64, 108) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33968, 5, 'Tusker Blight') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (33968, 16, 67110062) /* EYES_PALETTE_DID */
+     , (33968, 9, 83890486) /* EYES_TEXTURE_DID */
+     , (33968, 17, 67110059) /* SKIN_PALETTE_DID */
+     , (33968, 10, 83890554) /* NOSE_TEXTURE_DID */
+     , (33968, 11, 83890638) /* MOUTH_TEXTURE_DID */
+     , (33968, 15, 67116991) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33968, 113, 1) /* GENDER_INT */
+     , (33968, 2, 31) /* CREATURE_TYPE_INT */
+     , (33968, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (33968, 25, 50) /* LEVEL_INT */
+     , (33968, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33968, 1, 210) /* STRENGTH_ATTRIBUTE */
+     , (33968, 2, 175) /* ENDURANCE_ATTRIBUTE */
+     , (33968, 4, 210) /* COORDINATION_ATTRIBUTE */
+     , (33968, 8, 175) /* QUICKNESS_ATTRIBUTE */
+     , (33968, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (33968, 32, 40) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (33968, 64, 108) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33968, 128, 205) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33968, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
+

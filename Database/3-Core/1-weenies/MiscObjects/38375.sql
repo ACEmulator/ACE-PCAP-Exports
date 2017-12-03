@@ -34,3 +34,20 @@ VALUES (38375, 13, True) /* ETHEREAL_BOOL */
      , (38375, 19, True) /* ATTACKABLE_BOOL */
      , (38375, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38375, 16, 'A truly titanic Mnemosyne, which virtually pulses with power and knowledge.') /* LONG_DESC_STRING */
+     , (38375, 14, 'Bring this to Hizuki Tama.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38375, 33, 1) /* BONDED_INT */
+     , (38375, 114, 1) /* ATTUNED_INT */
+     , (38375, 19, 0) /* VALUE_INT */
+     , (38375, 5, 200) /* ENCUMB_VAL_INT */
+     , (38375, 279, 1) /* UNIQUE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38375, 99, 0) /* IVORYABLE_BOOL */
+     , (38375, 69, 0) /* IS_SELLABLE_BOOL */;
+

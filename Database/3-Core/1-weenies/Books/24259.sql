@@ -32,6 +32,19 @@ VALUES (24259, 13, True) /* ETHEREAL_BOOL */
      , (24259, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (24259, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24259, 16, 'A Note from Scout Luzumin Abigwei') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24259, 33, 1) /* BONDED_INT */
+     , (24259, 114, 1) /* ATTUNED_INT */
+     , (24259, 19, 0) /* VALUE_INT */
+     , (24259, 5, 25) /* ENCUMB_VAL_INT */
+     , (24259, 174, 4) /* APPRAISAL_PAGES_INT */
+     , (24259, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

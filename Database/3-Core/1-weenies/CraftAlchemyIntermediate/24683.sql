@@ -36,6 +36,19 @@ VALUES (24683, 13, True) /* ETHEREAL_BOOL */
      , (24683, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24683, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24683, 16, 'This water has been enforce with the magical element, pyreal.') /* LONG_DESC_STRING */
+     , (24683, 14, 'This item is used in alchemy.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24683, 19, 20) /* VALUE_INT */
+     , (24683, 5, 15) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (24683, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

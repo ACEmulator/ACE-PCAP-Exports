@@ -33,6 +33,19 @@ VALUES (5362, 13, True) /* ETHEREAL_BOOL */
      , (5362, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5362, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5362, 16, 'A sheet of parchment, apparently torn from a bound book.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5362, 33, 1) /* BONDED_INT */
+     , (5362, 114, 1) /* ATTUNED_INT */
+     , (5362, 19, 0) /* VALUE_INT */
+     , (5362, 5, 10) /* ENCUMB_VAL_INT */
+     , (5362, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (5362, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

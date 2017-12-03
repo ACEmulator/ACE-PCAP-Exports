@@ -31,6 +31,17 @@ VALUES (8505, 13, True) /* ETHEREAL_BOOL */
      , (8505, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8505, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8505, 16, 'A damp, decayed parchment scroll. Although the letters are almost blurred away, you can see that a strong, flowing hand has written Yalaini script on it.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8505, 19, 90) /* VALUE_INT */
+     , (8505, 5, 25) /* ENCUMB_VAL_INT */
+     , (8505, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (8505, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

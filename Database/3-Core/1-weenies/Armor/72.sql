@@ -55,3 +55,38 @@ VALUES (72, 0, 83887061, 83886692)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (72, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (72, 16, 'Exquisitely crafted Gold Platemail Hauberk , set with 1 Rose Quartz') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (72, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (72, 131, 60) /* MATERIAL_TYPE_INT */
+     , (72, 19, 11230) /* VALUE_INT */
+     , (72, 5, 3596) /* ENCUMB_VAL_INT */
+     , (72, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (72, 106, 51) /* ITEM_SPELLCRAFT_INT */
+     , (72, 188, 1) /* HERITAGE_GROUP_INT */
+     , (72, 108, 214) /* ITEM_MAX_MANA_INT */
+     , (72, 28, 155) /* ARMOR_LEVEL_INT */
+     , (72, 109, 38) /* ITEM_DIFFICULTY_INT */
+     , (72, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (72, 5, -0.01666667) /* MANA_RATE_FLOAT */
+     , (72, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (72, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (72, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (72, 16, 0.6695048) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (72, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (72, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (72, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (72, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (72, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (72, 1482) /* Impenetrability2_SpellID */;
+

@@ -31,3 +31,17 @@ VALUES (46447, 13, True) /* ETHEREAL_BOOL */
      , (46447, 19, True) /* ATTACKABLE_BOOL */
      , (46447, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46447, 16, 'An ancient skull taken from the Venerable Mausoleum. You have attached two arm bones into the grooves inside of the skull. The bones are extremely old and brittle. They clearly will not last for long inside of your packs.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46447, 33, 1) /* BONDED_INT */
+     , (46447, 98, 1485732634) /* CREATION_TIMESTAMP_INT */
+     , (46447, 114, 1) /* ATTUNED_INT */
+     , (46447, 19, 0) /* VALUE_INT */
+     , (46447, 5, 15) /* ENCUMB_VAL_INT */
+     , (46447, 267, 7200) /* LIFESPAN_INT */
+     , (46447, 268, 7200) /* REMAINING_LIFESPAN_INT */;
+

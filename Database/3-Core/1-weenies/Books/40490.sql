@@ -35,3 +35,14 @@ VALUES (40490, 13, True) /* ETHEREAL_BOOL */
      , (40490, 14, True) /* GRAVITY_STATUS_BOOL */
      , (40490, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40490, 15, 'A translation of a Virindi message shard found in the Apostate Citadel.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40490, 19, 0) /* VALUE_INT */
+     , (40490, 5, 5) /* ENCUMB_VAL_INT */
+     , (40490, 174, 4) /* APPRAISAL_PAGES_INT */
+     , (40490, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
+

@@ -36,3 +36,21 @@ VALUES (48746, 13, True) /* ETHEREAL_BOOL */
      , (48746, 19, True) /* ATTACKABLE_BOOL */
      , (48746, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (48746, 16, 'This key has seen better days.') /* LONG_DESC_STRING */
+     , (48746, 14, 'Use this key to open a Legendary Chest.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (48746, 33, 0) /* BONDED_INT */
+     , (48746, 369, 150) /* USE_REQUIRES_LEVEL_INT */
+     , (48746, 114, 0) /* ATTUNED_INT */
+     , (48746, 19, 10000) /* VALUE_INT */
+     , (48746, 5, 30) /* ENCUMB_VAL_INT */
+     , (48746, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (48746, 99, 0) /* IVORYABLE_BOOL */
+     , (48746, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -37,3 +37,38 @@ VALUES (23540, 13, True) /* ETHEREAL_BOOL */
      , (23540, 19, True) /* ATTACKABLE_BOOL */
      , (23540, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23540, 16, 'A bleached staff with strange faces carved into it.  Some seem to be Lugian, some Isparian, and others simply have blackened out faces.  The staff seems to be a collection of the faces of the foes the former owner defeated in combat. Lightning crackles among the mouths and eyes of the carved faces.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23540, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (23540, 353, 7) /* WEAPON_TYPE_INT */
+     , (23540, 19, 2700) /* VALUE_INT */
+     , (23540, 5, 450) /* ENCUMB_VAL_INT */
+     , (23540, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (23540, 108, 1400) /* ITEM_MAX_MANA_INT */
+     , (23540, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (23540, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (23540, 47, 6) /* ATTACK_TYPE_INT */
+     , (23540, 45, 64) /* DAMAGE_TYPE_INT */
+     , (23540, 49, 0) /* WEAPON_TIME_INT */
+     , (23540, 48, 46) /* WEAPON_SKILL_INT */
+     , (23540, 44, 81) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23540, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (23540, 29, 1.28) /* WEAPON_DEFENSE_FLOAT */
+     , (23540, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (23540, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (23540, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (23540, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (23540, 62, 1.28) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23540, 1615) /* BloodDrinker5_SpellID */
+     , (23540, 1311) /* ArmorSelf5_SpellID */
+     , (23540, 1591) /* HeartSeeker5_SpellID */
+     , (23540, 2487) /* SPIRITSTRIKE_SpellID */;
+

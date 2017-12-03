@@ -33,3 +33,14 @@ VALUES (25762, 13, True) /* ETHEREAL_BOOL */
      , (25762, 19, True) /* ATTACKABLE_BOOL */
      , (25762, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25762, 16, 'A beautiful jade stone used by the Sho to help them meditate.') /* LONG_DESC_STRING */
+     , (25762, 14, 'This item can be used on wall, floor and yard hooks.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25762, 33, 1) /* BONDED_INT */
+     , (25762, 19, 50000) /* VALUE_INT */
+     , (25762, 5, 80) /* ENCUMB_VAL_INT */;
+

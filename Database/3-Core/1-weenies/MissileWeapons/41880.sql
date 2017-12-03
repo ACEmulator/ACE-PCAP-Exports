@@ -41,3 +41,48 @@ VALUES (41880, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41880, 67111922, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41880, 15, 'A bow imbued with Singularity energy.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41880, 160, 360) /* WIELD_DIFFICULTY_INT */
+     , (41880, 33, 1) /* BONDED_INT */
+     , (41880, 353, 8) /* WEAPON_TYPE_INT */
+     , (41880, 114, 0) /* ATTUNED_INT */
+     , (41880, 19, 0) /* VALUE_INT */
+     , (41880, 5, 980) /* ENCUMB_VAL_INT */
+     , (41880, 166, 19) /* SLAYER_CREATURE_TYPE_INT */
+     , (41880, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (41880, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (41880, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (41880, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41880, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (41880, 45, 0) /* DAMAGE_TYPE_INT */
+     , (41880, 49, 50) /* WEAPON_TIME_INT */
+     , (41880, 48, 47) /* WEAPON_SKILL_INT */
+     , (41880, 44, 12) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41880, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (41880, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (41880, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (41880, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (41880, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (41880, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (41880, 63, 2.3) /* DAMAGE_MOD_FLOAT */
+     , (41880, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41880, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41880, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41880, 99, 0) /* IVORYABLE_BOOL */
+     , (41880, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41880, 2058) /* CoordinationOther7_SpellID */
+     , (41880, 2572) /* CANTRIPCOORDINATION2_SpellID */
+     , (41880, 2096) /* BloodDrinker7_SpellID */
+     , (41880, 2101) /* Defender7_SpellID */;
+

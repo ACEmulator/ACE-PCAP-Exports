@@ -33,3 +33,12 @@ VALUES (51615, 13, True) /* ETHEREAL_BOOL */
      , (51615, 19, True) /* ATTACKABLE_BOOL */
      , (51615, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51615, 38, 'Rynthid Genesis') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51615, 86, 180) /* MIN_LEVEL_INT */
+     , (51615, 111, 49) /* PORTAL_BITMASK_INT */;
+

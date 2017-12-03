@@ -46,3 +46,46 @@ VALUES (41200, 0, 16794056)
      , (41200, 2, 16794055)
      , (41200, 3, 16794049);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41200, 16, 'This piece of armor once belonged to the unknown warrior. Touching this armor fills your head with chaotic thoughts.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41200, 160, 125) /* WIELD_DIFFICULTY_INT */
+     , (41200, 33, 1) /* BONDED_INT */
+     , (41200, 19, 0) /* VALUE_INT */
+     , (41200, 5, 2000) /* ENCUMB_VAL_INT */
+     , (41200, 265, 19) /* EQUIPMENT_SET_ID_INT */
+     , (41200, 106, 100) /* ITEM_SPELLCRAFT_INT */
+     , (41200, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (41200, 28, 660) /* ARMOR_LEVEL_INT */
+     , (41200, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (41200, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (41200, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41200, 5, -0.0333333) /* MANA_RATE_FLOAT */
+     , (41200, 13, 2.9) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (41200, 14, 3.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (41200, 15, 2.9) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (41200, 16, 2.3) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (41200, 17, 2.3) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (41200, 18, 2.5) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (41200, 19, 2.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (41200, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41200, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41200, 2113) /* PiercingBane7_SpellID */
+     , (41200, 2524) /* CANTRIPMAGICRESISTANCE2_SpellID */
+     , (41200, 2092) /* AcidBane7_SpellID */
+     , (41200, 2094) /* BladeBane7_SpellID */
+     , (41200, 2098) /* BludgeonBane7_SpellID */
+     , (41200, 2102) /* FlameBane7_SpellID */
+     , (41200, 2104) /* FrostBane7_SpellID */
+     , (41200, 2108) /* Impenetrability7_SpellID */
+     , (41200, 2110) /* LightningBane7_SpellID */;
+

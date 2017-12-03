@@ -35,3 +35,34 @@ VALUES (51972, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (51972, 19, True) /* ATTACKABLE_BOOL */
      , (51972, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51972, 16, 'A tall spire of black crystal, which hums with power.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51972, 384, 0) /*  */
+     , (51972, 370, 0) /* GEAR_DAMAGE_INT */
+     , (51972, 386, 0) /*  */
+     , (51972, 307, 0) /* DAMAGE_RATING_INT */
+     , (51972, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (51972, 387, 0) /*  */
+     , (51972, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (51972, 372, 0) /* GEAR_CRIT_INT */
+     , (51972, 388, 0) /*  */
+     , (51972, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (51972, 389, 0) /*  */
+     , (51972, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (51972, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (51972, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (51972, 313, 0) /* CRIT_RATING_INT */
+     , (51972, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (51972, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (51972, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (51972, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (51972, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (51972, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (51972, 381, 0) /*  */
+     , (51972, 382, 0) /*  */
+     , (51972, 383, 0) /*  */;
+

@@ -35,3 +35,17 @@ VALUES (1848, 13, True) /* ETHEREAL_BOOL */
      , (1848, 19, True) /* ATTACKABLE_BOOL */
      , (1848, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1848, 16, 'Inscribed spell: Cold Protection Self I
+Reduces damage the caster takes from Cold by 9%.') /* LONG_DESC_STRING */
+     , (1848, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1848, 19, 1) /* VALUE_INT */
+     , (1848, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (1848, 1030) /* ColdProtectionSelf1_SpellID */;
+

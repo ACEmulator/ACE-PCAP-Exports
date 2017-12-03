@@ -33,3 +33,14 @@ VALUES (44827, 13, True) /* ETHEREAL_BOOL */
      , (44827, 19, True) /* ATTACKABLE_BOOL */
      , (44827, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44827, 15, 'The crystal which powered the Attunement Device.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44827, 33, 1) /* BONDED_INT */
+     , (44827, 114, 1) /* ATTUNED_INT */
+     , (44827, 19, 0) /* VALUE_INT */
+     , (44827, 5, 10) /* ENCUMB_VAL_INT */;
+

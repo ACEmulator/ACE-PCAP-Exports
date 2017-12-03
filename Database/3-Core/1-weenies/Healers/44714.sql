@@ -40,3 +40,21 @@ VALUES (44714, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44714, 0, 16779994);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44714, 14, 'Use this item on a person to restore stamina.') /* USE_STRING */
+     , (44714, 15, 'A stamina kit which provides substanial restoration.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44714, 19, 3000) /* VALUE_INT */
+     , (44714, 5, 200) /* ENCUMB_VAL_INT */
+     , (44714, 90, 200) /* BOOST_VALUE_INT */
+     , (44714, 91, 50) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (44714, 100, 1.1) /* HEALKIT_MOD_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44714, 69, 0) /* IS_SELLABLE_BOOL */;
+

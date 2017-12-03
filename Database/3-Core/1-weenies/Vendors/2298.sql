@@ -90,6 +90,29 @@ VALUES (2298, 12, 16778423)
      , (2298, 8, 16778428)
      , (2298, 16, 16779630);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2298, 5, 'Jeweler') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (2298, 16, 67110063) /* EYES_PALETTE_DID */
+     , (2298, 9, 83890263) /* EYES_TEXTURE_DID */
+     , (2298, 17, 67110056) /* SKIN_PALETTE_DID */
+     , (2298, 10, 83890295) /* NOSE_TEXTURE_DID */
+     , (2298, 11, 83890328) /* MOUTH_TEXTURE_DID */
+     , (2298, 15, 67116992) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2298, 113, 2) /* GENDER_INT */
+     , (2298, 2, 31) /* CREATURE_TYPE_INT */
+     , (2298, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (2298, 25, 8) /* LEVEL_INT */
+     , (2298, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (2298, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

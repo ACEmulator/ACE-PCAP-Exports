@@ -33,3 +33,14 @@ VALUES (32229, 13, True) /* ETHEREAL_BOOL */
      , (32229, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32229, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32229, 15, 'The translated notes of the Viamontian explorer, Master Vaserio.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32229, 19, 0) /* VALUE_INT */
+     , (32229, 5, 5) /* ENCUMB_VAL_INT */
+     , (32229, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (32229, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
+

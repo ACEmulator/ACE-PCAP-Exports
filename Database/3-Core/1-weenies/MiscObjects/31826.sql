@@ -41,6 +41,20 @@ VALUES (31826, 13, True) /* ETHEREAL_BOOL */
      , (31826, 19, True) /* ATTACKABLE_BOOL */
      , (31826, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31826, 16, 'A glittering keyring roughly carved out of a gold golem heart. ') /* LONG_DESC_STRING */
+     , (31826, 14, 'Use this ring on a Black Marrow key to add the key to the ring. Use an intricate carving tool on the keyring to pop a key off again. Adding a key uses up one of the ring''s remaining uses, but removing a key does not.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31826, 193, 8) /* NUM_KEYS_INT */
+     , (31826, 19, 10) /* VALUE_INT */
+     , (31826, 5, 40) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31826, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

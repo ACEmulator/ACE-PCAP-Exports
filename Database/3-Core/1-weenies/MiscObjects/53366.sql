@@ -34,6 +34,16 @@ VALUES (53366, 13, True) /* ETHEREAL_BOOL */
      , (53366, 19, True) /* ATTACKABLE_BOOL */
      , (53366, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53366, 16, 'A powerful essence from a champion of the Viridian Rise.') /* LONG_DESC_STRING */
+     , (53366, 14, 'Kervim''telek of the Viridian Rise would be interested in this essence.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53366, 19, 0) /* VALUE_INT */
+     , (53366, 5, 1) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

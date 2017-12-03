@@ -44,3 +44,17 @@ VALUES (52817, 0, 83887049, 83887049)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52817, 0, 16778350);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52817, 16, 'The helmet ripped from the corpse of Tremb''Orh. Give this item to the Master of the Gauntlet for a reward.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52817, 33, 1) /* BONDED_INT */
+     , (52817, 114, 1) /* ATTUNED_INT */
+     , (52817, 19, 0) /* VALUE_INT */
+     , (52817, 5, 550) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (52817, 69, 0) /* IS_SELLABLE_BOOL */;
+

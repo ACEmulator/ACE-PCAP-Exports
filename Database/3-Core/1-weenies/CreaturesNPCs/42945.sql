@@ -38,6 +38,30 @@ VALUES (42945, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (42945, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (42945, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42945, 5, 'Borelean''s Royal Guard') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42945, 2, 99) /* CREATURE_TYPE_INT */
+     , (42945, 307, 5) /* DAMAGE_RATING_INT */
+     , (42945, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (42945, 25, 275) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (42945, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (42945, 2, 260) /* ENDURANCE_ATTRIBUTE */
+     , (42945, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (42945, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (42945, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (42945, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (42945, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (42945, 128, 456) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (42945, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 /* Object Wield List */

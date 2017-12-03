@@ -46,3 +46,37 @@ VALUES (21372, 67114018, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21372, 0, 16788394);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21372, 15, 'A crown made of some luminescent metal.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21372, 160, 2) /* WIELD_DIFFICULTY_INT */
+     , (21372, 19, 4000) /* VALUE_INT */
+     , (21372, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21372, 5, 300) /* ENCUMB_VAL_INT */
+     , (21372, 106, 225) /* ITEM_SPELLCRAFT_INT */
+     , (21372, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (21372, 28, 100) /* ARMOR_LEVEL_INT */
+     , (21372, 109, 125) /* ITEM_DIFFICULTY_INT */
+     , (21372, 158, 8) /* WIELD_REQUIREMENTS_INT */
+     , (21372, 159, 35) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21372, 5, -0.034) /* MANA_RATE_FLOAT */
+     , (21372, 13, 0.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (21372, 14, 0.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (21372, 15, 0.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (21372, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (21372, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (21372, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (21372, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (21372, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21372, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21372, 2787) /* Supremacy_SpellID */;
+

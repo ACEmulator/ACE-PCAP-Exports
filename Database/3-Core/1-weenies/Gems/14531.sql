@@ -47,6 +47,16 @@ VALUES (14531, 0, 16784246)
      , (14531, 1, 16784196)
      , (14531, 2, 16784180);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14531, 16, 'A fragment taken from a fire prism.') /* LONG_DESC_STRING */
+     , (14531, 14, 'Combine with the Craftable Prism of Ice.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14531, 19, 0) /* VALUE_INT */
+     , (14531, 5, 40) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

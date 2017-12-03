@@ -33,3 +33,12 @@ VALUES (30380, 13, True) /* ETHEREAL_BOOL */
      , (30380, 19, True) /* ATTACKABLE_BOOL */
      , (30380, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30380, 38, 'Cataracts of Sabella (82.2N, 74.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30380, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (30380, 111, 1) /* PORTAL_BITMASK_INT */;
+

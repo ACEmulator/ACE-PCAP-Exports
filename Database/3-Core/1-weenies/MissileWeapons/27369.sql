@@ -44,3 +44,28 @@ VALUES (27369, 0, 83893670, 83893699)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27369, 0, 16790080);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27369, 16, 'A beautifully carved bow. Fuse this with a triple totem to create one of Palenqual''s living weapons.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27369, 33, 1) /* BONDED_INT */
+     , (27369, 353, 8) /* WEAPON_TYPE_INT */
+     , (27369, 114, 1) /* ATTUNED_INT */
+     , (27369, 19, 10000) /* VALUE_INT */
+     , (27369, 5, 800) /* ENCUMB_VAL_INT */
+     , (27369, 45, 0) /* DAMAGE_TYPE_INT */
+     , (27369, 49, 45) /* WEAPON_TIME_INT */
+     , (27369, 48, 47) /* WEAPON_SKILL_INT */
+     , (27369, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27369, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (27369, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (27369, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (27369, 63, 1.5) /* DAMAGE_MOD_FLOAT */
+     , (27369, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (27369, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (27369, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

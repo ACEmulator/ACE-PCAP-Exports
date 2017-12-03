@@ -34,3 +34,23 @@ VALUES (43242, 13, True) /* ETHEREAL_BOOL */
      , (43242, 19, True) /* ATTACKABLE_BOOL */
      , (43242, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43242, 16, 'A finely-built scarecrow costume, using the latest in wood golem enchantments. The pumpkin head feels a bit restrictive, and you have to look out of two very tiny eye holes.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43242, 19, 1000) /* VALUE_INT */
+     , (43242, 5, 1400) /* ENCUMB_VAL_INT */
+     , (43242, 28, 10) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43242, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (43242, 14, 0.75) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (43242, 15, 0.5) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (43242, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (43242, 17, 0.3) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (43242, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (43242, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (43242, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

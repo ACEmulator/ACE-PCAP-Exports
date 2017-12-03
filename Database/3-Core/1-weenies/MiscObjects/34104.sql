@@ -30,3 +30,8 @@ VALUES (34104, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (34104, 19, True) /* ATTACKABLE_BOOL */
      , (34104, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34104, 16, 'Here lies Drago the Flat. He met a Tremendous Monouga before he found a lifestone.') /* LONG_DESC_STRING */;
+

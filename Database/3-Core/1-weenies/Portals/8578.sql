@@ -33,3 +33,11 @@ VALUES (8578, 13, True) /* ETHEREAL_BOOL */
      , (8578, 19, True) /* ATTACKABLE_BOOL */
      , (8578, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8578, 38, 'A Mosswart Hideout') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8578, 111, 1) /* PORTAL_BITMASK_INT */;
+

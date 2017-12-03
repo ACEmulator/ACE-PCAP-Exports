@@ -89,3 +89,26 @@ VALUES (11345, 12, 16778423)
      , (11345, 4, 16783485)
      , (11345, 8, 16783487);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11345, 5, 'Trophy Collector') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (11345, 16, 67109567) /* EYES_PALETTE_DID */
+     , (11345, 9, 83890282) /* EYES_TEXTURE_DID */
+     , (11345, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (11345, 10, 83890306) /* NOSE_TEXTURE_DID */
+     , (11345, 11, 83890324) /* MOUTH_TEXTURE_DID */
+     , (11345, 15, 67117071) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11345, 113, 2) /* GENDER_INT */
+     , (11345, 2, 31) /* CREATURE_TYPE_INT */
+     , (11345, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (11345, 25, 8) /* LEVEL_INT */
+     , (11345, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (11345, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

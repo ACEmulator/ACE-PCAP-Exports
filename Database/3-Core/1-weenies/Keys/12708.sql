@@ -34,3 +34,16 @@ VALUES (12708, 13, True) /* ETHEREAL_BOOL */
      , (12708, 19, True) /* ATTACKABLE_BOOL */
      , (12708, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12708, 14, 'Double-click on this key, click on the locked door, then double-click on the door to open it. ') /* USE_STRING */
+     , (12708, 15, 'The Greeter''s key to the Practice Area Doors.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12708, 33, 1) /* BONDED_INT */
+     , (12708, 114, 1) /* ATTUNED_INT */
+     , (12708, 19, 0) /* VALUE_INT */
+     , (12708, 5, 50) /* ENCUMB_VAL_INT */
+     , (12708, 91, 20) /* MAX_STRUCTURE_INT */;
+

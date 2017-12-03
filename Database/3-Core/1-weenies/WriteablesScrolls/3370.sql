@@ -35,3 +35,17 @@ VALUES (3370, 13, True) /* ETHEREAL_BOOL */
      , (3370, 19, True) /* ATTACKABLE_BOOL */
      , (3370, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3370, 16, 'Inscribed spell: Life Magic Mastery Other IV
+Increases the target''s Life Magic skill by 25 points.') /* LONG_DESC_STRING */
+     , (3370, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3370, 19, 100) /* VALUE_INT */
+     , (3370, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3370, 614) /* LifeMagicMasteryOther4_SpellID */;
+

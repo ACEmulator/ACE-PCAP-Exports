@@ -32,3 +32,14 @@ VALUES (31302, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (31302, 19, True) /* ATTACKABLE_BOOL */
      , (31302, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31302, 16, 'A large tree made entirely of ice.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31302, 33, 0) /* BONDED_INT */
+     , (31302, 114, 0) /* ATTUNED_INT */
+     , (31302, 19, 0) /* VALUE_INT */
+     , (31302, 5, 50000) /* ENCUMB_VAL_INT */;
+

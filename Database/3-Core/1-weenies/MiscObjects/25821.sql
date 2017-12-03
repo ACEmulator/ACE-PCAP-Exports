@@ -34,6 +34,21 @@ VALUES (25821, 13, True) /* ETHEREAL_BOOL */
      , (25821, 19, True) /* ATTACKABLE_BOOL */
      , (25821, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25821, 14, 'Something can be applied to this rock, but what that item is, is unclear.') /* USE_STRING */
+     , (25821, 15, 'This rock is a perfect sphere, rubbed smooth in hot magma currents.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25821, 33, 1) /* BONDED_INT */
+     , (25821, 114, 1) /* ATTUNED_INT */
+     , (25821, 19, 0) /* VALUE_INT */
+     , (25821, 5, 500) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25821, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

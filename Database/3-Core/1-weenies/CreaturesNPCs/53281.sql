@@ -56,6 +56,31 @@ VALUES (53281, 0, 16797129)
      , (53281, 10, 16797133)
      , (53281, 16, 16797134);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53281, 5, 'Viridian Stalker') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53281, 113, 1) /* GENDER_INT */
+     , (53281, 2, 101) /* CREATURE_TYPE_INT */
+     , (53281, 307, 5) /* DAMAGE_RATING_INT */
+     , (53281, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (53281, 25, 200) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (53281, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (53281, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (53281, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (53281, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (53281, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (53281, 32, 90) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (53281, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (53281, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (53281, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

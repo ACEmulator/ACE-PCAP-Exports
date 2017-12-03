@@ -43,3 +43,18 @@ VALUES (8400, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8400, 67111338, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8400, 33, 1) /* BONDED_INT */
+     , (8400, 114, 1) /* ATTUNED_INT */
+     , (8400, 19, 666) /* VALUE_INT */
+     , (8400, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8400, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (8400, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8400, 99, 1) /* IVORYABLE_BOOL */;
+

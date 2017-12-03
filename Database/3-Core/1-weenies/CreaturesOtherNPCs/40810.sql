@@ -36,3 +36,34 @@ VALUES (40810, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (40810, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (40810, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40810, 15, 'This strangely resonant crystal seems to thrum with portal magic...') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40810, 384, 0) /*  */
+     , (40810, 370, 0) /* GEAR_DAMAGE_INT */
+     , (40810, 386, 0) /*  */
+     , (40810, 307, 0) /* DAMAGE_RATING_INT */
+     , (40810, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (40810, 387, 0) /*  */
+     , (40810, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (40810, 372, 0) /* GEAR_CRIT_INT */
+     , (40810, 388, 0) /*  */
+     , (40810, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (40810, 389, 0) /*  */
+     , (40810, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (40810, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (40810, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (40810, 313, 0) /* CRIT_RATING_INT */
+     , (40810, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (40810, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (40810, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (40810, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (40810, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (40810, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (40810, 381, 0) /*  */
+     , (40810, 382, 0) /*  */
+     , (40810, 383, 0) /*  */;
+

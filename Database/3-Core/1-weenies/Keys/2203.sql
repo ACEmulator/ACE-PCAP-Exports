@@ -35,3 +35,14 @@ VALUES (2203, 13, True) /* ETHEREAL_BOOL */
      , (2203, 19, True) /* ATTACKABLE_BOOL */
      , (2203, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2203, 16, 'A plain key. There are coordinates scratched on the handle: 42S, 56W ') /* LONG_DESC_STRING */
+     , (2203, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2203, 19, 50) /* VALUE_INT */
+     , (2203, 5, 50) /* ENCUMB_VAL_INT */
+     , (2203, 91, 3) /* MAX_STRUCTURE_INT */;
+

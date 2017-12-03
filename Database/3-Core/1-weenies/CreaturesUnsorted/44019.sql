@@ -39,3 +39,32 @@ VALUES (44019, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44019, 67114260, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44019, 2, 17) /* CREATURE_TYPE_INT */
+     , (44019, 25, 265) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44019, 64, 2060) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44019, 2, 17) /* CREATURE_TYPE_INT */
+     , (44019, 25, 265) /* LEVEL_INT */
+     , (44019, 316, 15) /* CRIT_DAMAGE_RESIST_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (44019, 1, 360) /* STRENGTH_ATTRIBUTE */
+     , (44019, 2, 320) /* ENDURANCE_ATTRIBUTE */
+     , (44019, 4, 340) /* COORDINATION_ATTRIBUTE */
+     , (44019, 8, 340) /* QUICKNESS_ATTRIBUTE */
+     , (44019, 16, 130) /* FOCUS_ATTRIBUTE */
+     , (44019, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44019, 64, 2060) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (44019, 128, 2820) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (44019, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
+

@@ -35,3 +35,16 @@ VALUES (1537, 13, True) /* ETHEREAL_BOOL */
      , (1537, 19, True) /* ATTACKABLE_BOOL */
      , (1537, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1537, 16, 'This well crafted key opens the Baron''s treasure chest in the Colier Mine.') /* LONG_DESC_STRING */
+     , (1537, 14, 'Use this item on a locked chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1537, 33, 1) /* BONDED_INT */
+     , (1537, 114, 1) /* ATTUNED_INT */
+     , (1537, 19, 90) /* VALUE_INT */
+     , (1537, 5, 50) /* ENCUMB_VAL_INT */
+     , (1537, 91, 1) /* MAX_STRUCTURE_INT */;
+

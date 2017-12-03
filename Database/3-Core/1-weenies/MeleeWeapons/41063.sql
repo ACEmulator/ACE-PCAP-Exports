@@ -48,3 +48,41 @@ VALUES (41063, 0, 83896665, 83896665)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41063, 0, 16794407);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41063, 16, 'Acid Khanda-handled Mace of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41063, 176, 41) /* APPRAISAL_ITEM_SKILL_INT */
+     , (41063, 353, 11) /* WEAPON_TYPE_INT */
+     , (41063, 19, 1241) /* VALUE_INT */
+     , (41063, 131, 61) /* MATERIAL_TYPE_INT */
+     , (41063, 115, 123) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (41063, 292, 2) /* CLEAVING_INT */
+     , (41063, 5, 637) /* ENCUMB_VAL_INT */
+     , (41063, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (41063, 106, 103) /* ITEM_SPELLCRAFT_INT */
+     , (41063, 108, 441) /* ITEM_MAX_MANA_INT */
+     , (41063, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (41063, 109, 15) /* ITEM_DIFFICULTY_INT */
+     , (41063, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (41063, 47, 4) /* ATTACK_TYPE_INT */
+     , (41063, 45, 32) /* DAMAGE_TYPE_INT */
+     , (41063, 49, 38) /* WEAPON_TIME_INT */
+     , (41063, 48, 41) /* WEAPON_SKILL_INT */
+     , (41063, 44, 7) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41063, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (41063, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
+     , (41063, 22, 0.35) /* DAMAGE_VARIANCE_FLOAT */
+     , (41063, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (41063, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41063, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41063, 62, 1.02) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41063, 1612) /* BloodDrinker2_SpellID */
+     , (41063, 1624) /* SwiftKiller3_SpellID */;
+

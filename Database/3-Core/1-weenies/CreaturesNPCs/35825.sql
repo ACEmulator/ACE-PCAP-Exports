@@ -97,6 +97,29 @@ VALUES (35825, 5, 16789351)
      , (35825, 8, 16789358)
      , (35825, 16, 16789335);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35825, 5, 'Olthoi Hunter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35825, 16, 67109566) /* EYES_PALETTE_DID */
+     , (35825, 9, 83890276) /* EYES_TEXTURE_DID */
+     , (35825, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (35825, 10, 83890317) /* NOSE_TEXTURE_DID */
+     , (35825, 11, 83890344) /* MOUTH_TEXTURE_DID */
+     , (35825, 15, 67117072) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35825, 113, 2) /* GENDER_INT */
+     , (35825, 2, 31) /* CREATURE_TYPE_INT */
+     , (35825, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (35825, 25, 80) /* LEVEL_INT */
+     , (35825, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (35825, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 /* Object Wield List */

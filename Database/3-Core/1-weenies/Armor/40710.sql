@@ -49,3 +49,44 @@ VALUES (40710, 0, 83886788, 83894182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40710, 0, 16778411);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40710, 16, 'Covenant Greaves') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40710, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
+     , (40710, 160, 225) /* WIELD_DIFFICULTY_INT */
+     , (40710, 19, 19068) /* VALUE_INT */
+     , (40710, 131, 60) /* MATERIAL_TYPE_INT */
+     , (40710, 115, 213) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (40710, 36, 9999) /* RESIST_MAGIC_INT */
+     , (40710, 5, 919) /* ENCUMB_VAL_INT */
+     , (40710, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (40710, 106, 193) /* ITEM_SPELLCRAFT_INT */
+     , (40710, 28, 331) /* ARMOR_LEVEL_INT */
+     , (40710, 108, 1089) /* ITEM_MAX_MANA_INT */
+     , (40710, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40710, 109, 86) /* ITEM_DIFFICULTY_INT */
+     , (40710, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (40710, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40710, 159, 15) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40710, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (40710, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (40710, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (40710, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (40710, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (40710, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (40710, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (40710, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (40710, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40710, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40710, 1485) /* Impenetrability5_SpellID */
+     , (40710, 1527) /* FrostBane5_SpellID */;
+

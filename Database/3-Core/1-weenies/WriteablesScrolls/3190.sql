@@ -35,3 +35,17 @@ VALUES (3190, 13, True) /* ETHEREAL_BOOL */
      , (3190, 19, True) /* ATTACKABLE_BOOL */
      , (3190, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3190, 16, 'Inscribed spell: Creature Enchantment Ineptitude Other IV
+Decreases the target''s Creature Enchantment skill by 25 points.') /* LONG_DESC_STRING */
+     , (3190, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3190, 19, 100) /* VALUE_INT */
+     , (3190, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3190, 572) /* CreatureEnchantmentIneptitudeOther4_SpellID */;
+

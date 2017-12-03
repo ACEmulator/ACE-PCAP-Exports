@@ -35,3 +35,17 @@ VALUES (3245, 13, True) /* ETHEREAL_BOOL */
      , (3245, 19, True) /* ATTACKABLE_BOOL */
      , (3245, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3245, 16, 'Inscribed spell: Deception Mastery Self IV
+Increases the caster''s Deception skill by 25 points.') /* LONG_DESC_STRING */
+     , (3245, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3245, 19, 100) /* VALUE_INT */
+     , (3245, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3245, 853) /* DeceptionMasterySelf4_SpellID */;
+

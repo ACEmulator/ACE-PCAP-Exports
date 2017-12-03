@@ -38,3 +38,23 @@ VALUES (8148, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8148, 0, 16784979);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8148, 16, 'A finely sewed and maintained Banderling head, patched with utmost precision, and conveniently fitted for use.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8148, 19, 500) /* VALUE_INT */
+     , (8148, 5, 200) /* ENCUMB_VAL_INT */
+     , (8148, 28, 10) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8148, 13, 0.45) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8148, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8148, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8148, 16, 0.45) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8148, 17, 0.35) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8148, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8148, 19, 0.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8148, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

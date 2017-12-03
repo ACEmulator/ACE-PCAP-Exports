@@ -34,6 +34,17 @@ VALUES (45488, 13, True) /* ETHEREAL_BOOL */
      , (45488, 19, True) /* ATTACKABLE_BOOL */
      , (45488, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45488, 16, 'A summary of the combat skill changes for February 2012.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45488, 19, 0) /* VALUE_INT */
+     , (45488, 5, 2) /* ENCUMB_VAL_INT */
+     , (45488, 174, 8) /* APPRAISAL_PAGES_INT */
+     , (45488, 175, 8) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

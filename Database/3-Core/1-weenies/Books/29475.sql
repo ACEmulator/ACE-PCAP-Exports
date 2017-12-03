@@ -34,3 +34,16 @@ VALUES (29475, 13, True) /* ETHEREAL_BOOL */
      , (29475, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29475, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29475, 16, 'A sturdy leather book, written in a language you cannot decipher.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29475, 33, 1) /* BONDED_INT */
+     , (29475, 114, 1) /* ATTUNED_INT */
+     , (29475, 19, 0) /* VALUE_INT */
+     , (29475, 5, 50) /* ENCUMB_VAL_INT */
+     , (29475, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (29475, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

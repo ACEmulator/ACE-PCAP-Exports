@@ -44,3 +44,44 @@ VALUES (33203, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33203, 67116450, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33203, 15, 'A dart flinger crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (33203, 55, 2074) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33203, 160, 120) /* WIELD_DIFFICULTY_INT */
+     , (33203, 353, 10) /* WEAPON_TYPE_INT */
+     , (33203, 19, 15000) /* VALUE_INT */
+     , (33203, 5, 300) /* ENCUMB_VAL_INT */
+     , (33203, 106, 450) /* ITEM_SPELLCRAFT_INT */
+     , (33203, 108, 6000) /* ITEM_MAX_MANA_INT */
+     , (33203, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (33203, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (33203, 159, 1) /* WIELD_SKILLTYPE_INT */
+     , (33203, 45, 0) /* DAMAGE_TYPE_INT */
+     , (33203, 49, 50) /* WEAPON_TIME_INT */
+     , (33203, 48, 47) /* WEAPON_SKILL_INT */
+     , (33203, 44, 12) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33203, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (33203, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (33203, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (33203, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (33203, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (33203, 63, 2.65) /* DAMAGE_MOD_FLOAT */
+     , (33203, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (33203, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (33203, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (33203, 2074) /* ImperilOther7_SpellID */
+     , (33203, 2116) /* Swiftkiller7_SpellID */
+     , (33203, 2096) /* BloodDrinker7_SpellID */
+     , (33203, 2101) /* Defender7_SpellID */
+     , (33203, 2687) /* ModerateBowAptitude_SpellID */;
+

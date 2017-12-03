@@ -39,6 +39,24 @@ VALUES (44146, 13, True) /* ETHEREAL_BOOL */
      , (44146, 19, True) /* ATTACKABLE_BOOL */
      , (44146, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44146, 16, 'Syltyn Rillon has crafted a sword of great power. You must prove yourself to her in order to obtain this sword.') /* LONG_DESC_STRING */
+     , (44146, 14, 'Recommended Level 40') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44146, 33, 1) /* BONDED_INT */
+     , (44146, 19, 100) /* VALUE_INT */
+     , (44146, 5, 0) /* ENCUMB_VAL_INT */
+     , (44146, 280, 100) /* SHARED_COOLDOWN_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (44146, 167, 2) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (44146, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

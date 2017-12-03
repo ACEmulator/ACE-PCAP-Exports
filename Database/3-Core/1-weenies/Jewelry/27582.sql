@@ -47,3 +47,30 @@ VALUES (27582, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27582, 0, 16778344);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27582, 15, 'A ring of piercing protection, given by Behdo Yii for completing the Warrior quest.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27582, 160, 70) /* WIELD_DIFFICULTY_INT */
+     , (27582, 33, 1) /* BONDED_INT */
+     , (27582, 114, 1) /* ATTUNED_INT */
+     , (27582, 19, 0) /* VALUE_INT */
+     , (27582, 5, 10) /* ENCUMB_VAL_INT */
+     , (27582, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (27582, 108, 600) /* ITEM_MAX_MANA_INT */
+     , (27582, 109, 190) /* ITEM_DIFFICULTY_INT */
+     , (27582, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (27582, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27582, 5, -0.033) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27582, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27582, 2160) /* PiercingProtectionOther7_SpellID */
+     , (27582, 244) /* InvulnerabilityOther6_SpellID */;
+

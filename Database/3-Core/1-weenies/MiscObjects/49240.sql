@@ -53,3 +53,28 @@ VALUES (49240, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49240, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49240, 14, 'Use this essence to summon or dismiss your Lightning Zombie.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49240, 33, 0) /* BONDED_INT */
+     , (49240, 369, 40) /* USE_REQUIRES_LEVEL_INT */
+     , (49240, 114, 0) /* ATTUNED_INT */
+     , (49240, 370, 7) /* GEAR_DAMAGE_INT */
+     , (49240, 19, 4000) /* VALUE_INT */
+     , (49240, 5, 50) /* ENCUMB_VAL_INT */
+     , (49240, 375, 13) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (49240, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (49240, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (49240, 91, 50) /* MAX_STRUCTURE_INT */
+     , (49240, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (49240, 367, 310) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49240, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49240, 69, 1) /* IS_SELLABLE_BOOL */;
+

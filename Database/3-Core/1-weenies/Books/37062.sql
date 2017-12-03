@@ -33,6 +33,17 @@ VALUES (37062, 13, True) /* ETHEREAL_BOOL */
      , (37062, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37062, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37062, 16, 'A message from Asheron regarding the Virindi structures on the Obsidian Plain.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37062, 19, 0) /* VALUE_INT */
+     , (37062, 5, 5) /* ENCUMB_VAL_INT */
+     , (37062, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (37062, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

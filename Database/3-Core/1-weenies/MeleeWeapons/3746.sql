@@ -36,3 +36,26 @@ VALUES (3746, 13, True) /* ETHEREAL_BOOL */
      , (3746, 19, True) /* ATTACKABLE_BOOL */
      , (3746, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3746, 16, 'A spear made from the horn of an auroch. Mysterious electrical impulses flare along the shaft of the weapon.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3746, 353, 5) /* WEAPON_TYPE_INT */
+     , (3746, 19, 900) /* VALUE_INT */
+     , (3746, 5, 550) /* ENCUMB_VAL_INT */
+     , (3746, 47, 2) /* ATTACK_TYPE_INT */
+     , (3746, 45, 64) /* DAMAGE_TYPE_INT */
+     , (3746, 49, 20) /* WEAPON_TIME_INT */
+     , (3746, 48, 45) /* WEAPON_SKILL_INT */
+     , (3746, 44, 15) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3746, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (3746, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
+     , (3746, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3746, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3746, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3746, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
+

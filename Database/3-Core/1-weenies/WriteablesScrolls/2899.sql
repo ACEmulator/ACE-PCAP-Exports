@@ -35,3 +35,17 @@ VALUES (2899, 13, True) /* ETHEREAL_BOOL */
      , (2899, 19, True) /* ATTACKABLE_BOOL */
      , (2899, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2899, 16, 'Inscribed spell: Weaken Lock III
+Decreases a lock''s resistance to picking by 50 points.') /* LONG_DESC_STRING */
+     , (2899, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2899, 19, 20) /* VALUE_INT */
+     , (2899, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2899, 1583) /* WeakenLock3_SpellID */;
+

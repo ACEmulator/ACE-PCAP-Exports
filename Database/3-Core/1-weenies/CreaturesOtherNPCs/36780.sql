@@ -38,3 +38,31 @@ VALUES (36780, 0, 83893820, 83893819);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36780, 0, 16787401);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36780, 384, 0) /*  */
+     , (36780, 370, 0) /* GEAR_DAMAGE_INT */
+     , (36780, 386, 0) /*  */
+     , (36780, 307, 0) /* DAMAGE_RATING_INT */
+     , (36780, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (36780, 387, 0) /*  */
+     , (36780, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (36780, 372, 0) /* GEAR_CRIT_INT */
+     , (36780, 388, 0) /*  */
+     , (36780, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (36780, 389, 0) /*  */
+     , (36780, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (36780, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (36780, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (36780, 313, 0) /* CRIT_RATING_INT */
+     , (36780, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (36780, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (36780, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (36780, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (36780, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (36780, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (36780, 381, 0) /*  */
+     , (36780, 382, 0) /*  */
+     , (36780, 383, 0) /*  */;
+

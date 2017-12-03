@@ -39,3 +39,38 @@ VALUES (21359, 13, True) /* ETHEREAL_BOOL */
      , (21359, 19, True) /* ATTACKABLE_BOOL */
      , (21359, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21359, 16, 'A sword with a ghostly blade crafted from pure chorizite.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21359, 160, 275) /* WIELD_DIFFICULTY_INT */
+     , (21359, 33, 1) /* BONDED_INT */
+     , (21359, 353, 2) /* WEAPON_TYPE_INT */
+     , (21359, 114, 0) /* ATTUNED_INT */
+     , (21359, 179, -2147483648) /* IMBUED_EFFECT_INT */
+     , (21359, 19, 5000) /* VALUE_INT */
+     , (21359, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21359, 5, 450) /* ENCUMB_VAL_INT */
+     , (21359, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (21359, 47, 6) /* ATTACK_TYPE_INT */
+     , (21359, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (21359, 45, 3) /* DAMAGE_TYPE_INT */
+     , (21359, 49, 30) /* WEAPON_TIME_INT */
+     , (21359, 48, 44) /* WEAPON_SKILL_INT */
+     , (21359, 44, 12) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21359, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (21359, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (21359, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (21359, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (21359, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (21359, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21359, 99, 1) /* IVORYABLE_BOOL */
+     , (21359, 69, 0) /* IS_SELLABLE_BOOL */
+     , (21359, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+

@@ -34,3 +34,17 @@ VALUES (40873, 13, True) /* ETHEREAL_BOOL */
      , (40873, 19, True) /* ATTACKABLE_BOOL */
      , (40873, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40873, 16, 'A key marked for use with the western gate.') /* LONG_DESC_STRING */
+     , (40873, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40873, 19, 0) /* VALUE_INT */
+     , (40873, 5, 100) /* ENCUMB_VAL_INT */
+     , (40873, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40873, 69, 0) /* IS_SELLABLE_BOOL */;
+

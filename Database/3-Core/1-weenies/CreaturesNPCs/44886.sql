@@ -109,6 +109,63 @@ VALUES (44886, 9, 16789989)
      , (44886, 32, 16795818)
      , (44886, 33, 16795819);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44886, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (44886, 16, 67110063) /* EYES_PALETTE_DID */
+     , (44886, 9, 83890276) /* EYES_TEXTURE_DID */
+     , (44886, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (44886, 10, 83890307) /* NOSE_TEXTURE_DID */
+     , (44886, 11, 83890348) /* MOUTH_TEXTURE_DID */
+     , (44886, 15, 67117077) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44886, 113, 2) /* GENDER_INT */
+     , (44886, 2, 31) /* CREATURE_TYPE_INT */
+     , (44886, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (44886, 25, 253) /* LEVEL_INT */
+     , (44886, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44886, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44886, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (44886, 16, 67110064) /* EYES_PALETTE_DID */
+     , (44886, 9, 83890259) /* EYES_TEXTURE_DID */
+     , (44886, 17, 67109561) /* SKIN_PALETTE_DID */
+     , (44886, 10, 83890310) /* NOSE_TEXTURE_DID */
+     , (44886, 11, 83890327) /* MOUTH_TEXTURE_DID */
+     , (44886, 15, 67117017) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44886, 113, 2) /* GENDER_INT */
+     , (44886, 2, 31) /* CREATURE_TYPE_INT */
+     , (44886, 307, 5) /* DAMAGE_RATING_INT */
+     , (44886, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (44886, 25, 253) /* LEVEL_INT */
+     , (44886, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (44886, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (44886, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (44886, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (44886, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (44886, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (44886, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44886, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (44886, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (44886, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 /* Object Wield List */

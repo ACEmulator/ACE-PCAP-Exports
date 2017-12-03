@@ -47,3 +47,48 @@ VALUES (23936, 0, 83889072, 83894477)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23936, 0, 16778376);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23936, 16, 'A richly enchanted and ornate girth once worn by the Sentinels of Perfect Light, an order dedicated to aiding Lord Asheron against the darkness.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23936, 160, 315) /* WIELD_DIFFICULTY_INT */
+     , (23936, 19, 4400) /* VALUE_INT */
+     , (23936, 36, 9999) /* RESIST_MAGIC_INT */
+     , (23936, 5, 250) /* ENCUMB_VAL_INT */
+     , (23936, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (23936, 108, 4000) /* ITEM_MAX_MANA_INT */
+     , (23936, 28, 225) /* ARMOR_LEVEL_INT */
+     , (23936, 109, 50) /* ITEM_DIFFICULTY_INT */
+     , (23936, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (23936, 159, 34) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23936, 5, -0.5) /* MANA_RATE_FLOAT */
+     , (23936, 13, 0.75) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (23936, 14, 0.75) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (23936, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (23936, 16, 0.75) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (23936, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (23936, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (23936, 19, 0.75) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (23936, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (23936, 69, 0) /* IS_SELLABLE_BOOL */
+     , (23936, 94, 1) /* APPRAISAL_HAS_ALLOWED_ACTIVATOR_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23936, 2948) /* HieroWardGreat_SpellID */
+     , (23936, 2380) /* InstrumentalityGrip_SpellID */
+     , (23936, 2960) /* BludgeoningDurance_SpellID */
+     , (23936, 273) /* MagicResistanceOther6_SpellID */
+     , (23936, 2961) /* PiercingDurance_SpellID */
+     , (23936, 2962) /* SlashingDurance_SpellID */
+     , (23936, 211) /* ManaRenewalOther6_SpellID */
+     , (23936, 2350) /* DecayDurance_SpellID */
+     , (23936, 2351) /* ConsumptionDurance_SpellID */
+     , (23936, 2352) /* StasisDurance_SpellID */
+     , (23936, 2353) /* StimulationDurance_SpellID */;
+

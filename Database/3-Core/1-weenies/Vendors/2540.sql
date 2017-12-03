@@ -40,6 +40,25 @@ VALUES (2540, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (2540, 67111341, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2540, 2, 14) /* CREATURE_TYPE_INT */
+     , (2540, 25, 9) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (2540, 1, 120) /* STRENGTH_ATTRIBUTE */
+     , (2540, 2, 125) /* ENDURANCE_ATTRIBUTE */
+     , (2540, 4, 100) /* COORDINATION_ATTRIBUTE */
+     , (2540, 8, 90) /* QUICKNESS_ATTRIBUTE */
+     , (2540, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (2540, 32, 120) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (2540, 64, 73) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (2540, 128, 275) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (2540, 256, 390) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

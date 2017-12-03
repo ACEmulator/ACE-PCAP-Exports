@@ -50,3 +50,27 @@ VALUES (12742, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12742, 0, 16783508);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12742, 14, 'Use Oil of Rendering on this weapon to create an Academy Cestus.') /* USE_STRING */
+     , (12742, 15, 'A basic cestus forged in the Strathelar Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12742, 353, 1) /* WEAPON_TYPE_INT */
+     , (12742, 19, 25) /* VALUE_INT */
+     , (12742, 5, 50) /* ENCUMB_VAL_INT */
+     , (12742, 47, 1) /* ATTACK_TYPE_INT */
+     , (12742, 45, 4) /* DAMAGE_TYPE_INT */
+     , (12742, 49, 25) /* WEAPON_TIME_INT */
+     , (12742, 48, 44) /* WEAPON_SKILL_INT */
+     , (12742, 44, 8) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12742, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (12742, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (12742, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (12742, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (12742, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (12742, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

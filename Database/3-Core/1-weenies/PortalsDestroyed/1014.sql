@@ -32,3 +32,12 @@ VALUES (1014, 13, True) /* ETHEREAL_BOOL */
      , (1014, 19, True) /* ATTACKABLE_BOOL */
      , (1014, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1014, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LONG_DESC_STRING */
+     , (1014, 38, 'Destroyed Portal to Cragstone (26.0N, 48.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1014, 111, 49) /* PORTAL_BITMASK_INT */;
+

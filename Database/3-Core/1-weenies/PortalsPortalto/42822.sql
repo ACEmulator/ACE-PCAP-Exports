@@ -33,3 +33,12 @@ VALUES (42822, 13, True) /* ETHEREAL_BOOL */
      , (42822, 19, True) /* ATTACKABLE_BOOL */
      , (42822, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42822, 16, 'This portal goes to the town of Khayyaban on the Yushad Ridge. This is a good town for characters over level 20.') /* LONG_DESC_STRING */
+     , (42822, 38, 'Portal to Khayyaban (47.4S, 25.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42822, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -45,3 +45,24 @@ VALUES (27106, 0, 83888956, 83893821);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27106, 0, 16778334);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27106, 16, 'This bracelet is gifted for your service to the Queen. The information you gathered to obtain this bracelet will prove invaluable.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27106, 160, 35) /* WIELD_DIFFICULTY_INT */
+     , (27106, 19, 700) /* VALUE_INT */
+     , (27106, 5, 15) /* ENCUMB_VAL_INT */
+     , (27106, 106, 125) /* ITEM_SPELLCRAFT_INT */
+     , (27106, 108, 600) /* ITEM_MAX_MANA_INT */
+     , (27106, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (27106, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (27106, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27106, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27106, 271) /* MagicResistanceOther4_SpellID */;
+

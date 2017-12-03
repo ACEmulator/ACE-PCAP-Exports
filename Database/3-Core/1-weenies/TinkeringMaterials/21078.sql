@@ -50,6 +50,20 @@ VALUES (21078, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21078, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21078, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Coordination. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.') /* USE_STRING */
+     , (21078, 15, 'Chips of smoky quartz material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21078, 33, 1) /* BONDED_INT */
+     , (21078, 131, 40) /* MATERIAL_TYPE_INT */
+     , (21078, 19, 3968) /* VALUE_INT */
+     , (21078, 5, 100) /* ENCUMB_VAL_INT */
+     , (21078, 105, 127) /* ITEM_WORKMANSHIP_INT */
+     , (21078, 170, 24) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

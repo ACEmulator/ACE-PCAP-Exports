@@ -40,3 +40,35 @@ VALUES (46990, 13, True) /* ETHEREAL_BOOL */
      , (46990, 19, True) /* ATTACKABLE_BOOL */
      , (46990, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46990, 15, 'A sword crafted by Gaerlan using techniques stolen from the Arcanum.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46990, 160, 51) /* WIELD_DIFFICULTY_INT */
+     , (46990, 353, 2) /* WEAPON_TYPE_INT */
+     , (46990, 33, -2) /* BONDED_INT */
+     , (46990, 114, 0) /* ATTUNED_INT */
+     , (46990, 19, 50000) /* VALUE_INT */
+     , (46990, 179, 4) /* IMBUED_EFFECT_INT */
+     , (46990, 292, 3) /* CLEAVING_INT */
+     , (46990, 36, 9999) /* RESIST_MAGIC_INT */
+     , (46990, 5, 450) /* ENCUMB_VAL_INT */
+     , (46990, 166, 31) /* SLAYER_CREATURE_TYPE_INT */
+     , (46990, 158, 11) /* WIELD_REQUIREMENTS_INT */
+     , (46990, 159, 0) /* WIELD_SKILLTYPE_INT */
+     , (46990, 47, 66) /* ATTACK_TYPE_INT */
+     , (46990, 45, 16) /* DAMAGE_TYPE_INT */
+     , (46990, 49, 30) /* WEAPON_TIME_INT */
+     , (46990, 48, 44) /* WEAPON_SKILL_INT */
+     , (46990, 44, 60) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (46990, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
+     , (46990, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (46990, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (46990, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (46990, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (46990, 62, 1.2) /* WEAPON_OFFENSE_FLOAT */;
+

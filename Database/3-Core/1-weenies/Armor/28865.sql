@@ -35,3 +35,20 @@ VALUES (28865, 13, True) /* ETHEREAL_BOOL */
      , (28865, 19, True) /* ATTACKABLE_BOOL */
      , (28865, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28865, 19, 200) /* VALUE_INT */
+     , (28865, 5, 150) /* ENCUMB_VAL_INT */
+     , (28865, 28, 10) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28865, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28865, 14, 0.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28865, 15, 0.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28865, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28865, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28865, 18, 0.75) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28865, 19, 0.35) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28865, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

@@ -49,6 +49,27 @@ VALUES (30208, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30208, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30208, 16, 'Using this gem will increase your natural resistance to Cold damage by 99.9% for 15 minutes.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30208, 33, -1) /* BONDED_INT */
+     , (30208, 17, 50) /* RARE_ID_INT */
+     , (30208, 19, 0) /* VALUE_INT */
+     , (30208, 5, 5) /* ENCUMB_VAL_INT */
+     , (30208, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (30208, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (30208, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (30208, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30208, 108, 1) /* RARE_USES_TIMER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30208, 3692) /* ColdProtectionRare_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

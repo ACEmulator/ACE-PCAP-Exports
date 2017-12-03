@@ -79,3 +79,12 @@ VALUES (24064, 0, 16783894)
      , (24064, 15, 16777335)
      , (24064, 16, 16787671);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24064, 16, 'A small oxidized statue of a Zharalim crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24064, 19, 10000) /* VALUE_INT */
+     , (24064, 5, 5000) /* ENCUMB_VAL_INT */;
+

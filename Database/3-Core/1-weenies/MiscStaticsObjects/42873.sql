@@ -29,3 +29,12 @@ VALUES (42873, 13, True) /* ETHEREAL_BOOL */
      , (42873, 19, True) /* ATTACKABLE_BOOL */
      , (42873, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42873, 16, 'These mysterious deep-sea dwellers are able to glide effortlessly through both air and water via unknown means. First seen following the appearance and defeat of an enormous Remoran known as the Leviathan, they are found exclusively on Vissidal and Dark Isle. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42873, 19, 125) /* VALUE_INT */
+     , (42873, 5, 9000) /* ENCUMB_VAL_INT */;
+

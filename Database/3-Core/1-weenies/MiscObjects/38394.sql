@@ -32,3 +32,19 @@ VALUES (38394, 13, True) /* ETHEREAL_BOOL */
      , (38394, 19, True) /* ATTACKABLE_BOOL */
      , (38394, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38394, 16, 'This is an Armor Writ, granted to you as an Initiate of the Radiant Blood.  These writs are normally purchased with Trade Tokens from the Armor Writ Quartermaster in your Stronghold for 25 Tokens, and can only be purchased once a day.') /* LONG_DESC_STRING */
+     , (38394, 14, 'Bring this writ to one of the Radiant Blood Armor Quartermasters, to trade for an Armor Chest Key.  Your rank within the Society will restrict which Armor Quartermasters you can get keys from, and which Armor pieces you can wear.  For more information, see your Initiate''s Handbook.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38394, 33, 1) /* BONDED_INT */
+     , (38394, 114, 1) /* ATTUNED_INT */
+     , (38394, 19, 0) /* VALUE_INT */
+     , (38394, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38394, 99, 0) /* IVORYABLE_BOOL */
+     , (38394, 69, 0) /* IS_SELLABLE_BOOL */;
+

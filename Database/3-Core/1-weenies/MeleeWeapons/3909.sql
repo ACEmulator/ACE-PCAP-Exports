@@ -38,3 +38,41 @@ VALUES (3909, 13, True) /* ETHEREAL_BOOL */
      , (3909, 19, True) /* ATTACKABLE_BOOL */
      , (3909, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3909, 16, 'Acid Yaoji') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3909, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3909, 177, 2) /* GEM_COUNT_INT */
+     , (3909, 353, 2) /* WEAPON_TYPE_INT */
+     , (3909, 178, 15) /* GEM_TYPE_INT */
+     , (3909, 115, 172) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3909, 131, 63) /* MATERIAL_TYPE_INT */
+     , (3909, 19, 3623) /* VALUE_INT */
+     , (3909, 5, 313) /* ENCUMB_VAL_INT */
+     , (3909, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (3909, 106, 152) /* ITEM_SPELLCRAFT_INT */
+     , (3909, 172, 7) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3909, 108, 734) /* ITEM_MAX_MANA_INT */
+     , (3909, 109, 66) /* ITEM_DIFFICULTY_INT */
+     , (3909, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3909, 47, 6) /* ATTACK_TYPE_INT */
+     , (3909, 45, 32) /* DAMAGE_TYPE_INT */
+     , (3909, 49, 30) /* WEAPON_TIME_INT */
+     , (3909, 48, 44) /* WEAPON_SKILL_INT */
+     , (3909, 44, 11) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3909, 29, 1.046039) /* WEAPON_DEFENSE_FLOAT */
+     , (3909, 5, -0.03333334) /* MANA_RATE_FLOAT */
+     , (3909, 22, 0.5874971) /* DAMAGE_VARIANCE_FLOAT */
+     , (3909, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3909, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3909, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3909, 62, 1.02681) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3909, 1614) /* BloodDrinker4_SpellID */;
+

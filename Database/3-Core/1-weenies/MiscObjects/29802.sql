@@ -34,3 +34,12 @@ VALUES (29802, 13, True) /* ETHEREAL_BOOL */
      , (29802, 19, True) /* ATTACKABLE_BOOL */
      , (29802, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29802, 15, 'This item is very light, to the point that you believe it would drift away from you if it were not firmly attached to a stick. This can be hooked in your yard or on your roof, proving to the world that you have slain all Burun Kukuur that have found their way to Dereth.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29802, 19, 1000) /* VALUE_INT */
+     , (29802, 5, 10) /* ENCUMB_VAL_INT */;
+

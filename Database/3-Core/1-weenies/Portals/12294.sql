@@ -33,3 +33,12 @@ VALUES (12294, 13, True) /* ETHEREAL_BOOL */
      , (12294, 19, True) /* ATTACKABLE_BOOL */
      , (12294, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12294, 38, 'Singular Obsidian Repository') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12294, 86, 45) /* MIN_LEVEL_INT */
+     , (12294, 111, 17) /* PORTAL_BITMASK_INT */;
+

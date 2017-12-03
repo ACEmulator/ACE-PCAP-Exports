@@ -37,3 +37,35 @@ VALUES (3845, 13, True) /* ETHEREAL_BOOL */
      , (3845, 19, True) /* ATTACKABLE_BOOL */
      , (3845, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3845, 16, 'Frost Ono') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3845, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (3845, 353, 3) /* WEAPON_TYPE_INT */
+     , (3845, 177, 1) /* GEM_COUNT_INT */
+     , (3845, 178, 35) /* GEM_TYPE_INT */
+     , (3845, 19, 2569) /* VALUE_INT */
+     , (3845, 131, 51) /* MATERIAL_TYPE_INT */
+     , (3845, 5, 527) /* ENCUMB_VAL_INT */
+     , (3845, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (3845, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3845, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3845, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (3845, 47, 4) /* ATTACK_TYPE_INT */
+     , (3845, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3845, 49, 46) /* WEAPON_TIME_INT */
+     , (3845, 48, 45) /* WEAPON_SKILL_INT */
+     , (3845, 44, 36) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3845, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (3845, 150, 1.01) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (3845, 22, 0.85) /* DAMAGE_VARIANCE_FLOAT */
+     , (3845, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3845, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3845, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3845, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
+

@@ -49,3 +49,45 @@ VALUES (32982, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32982, 0, 16791760);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32982, 15, 'A flamberge crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (32982, 55, 2074) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32982, 160, 100) /* WIELD_DIFFICULTY_INT */
+     , (32982, 353, 2) /* WEAPON_TYPE_INT */
+     , (32982, 19, 10000) /* VALUE_INT */
+     , (32982, 5, 450) /* ENCUMB_VAL_INT */
+     , (32982, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (32982, 108, 5000) /* ITEM_MAX_MANA_INT */
+     , (32982, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (32982, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (32982, 159, 1) /* WIELD_SKILLTYPE_INT */
+     , (32982, 47, 6) /* ATTACK_TYPE_INT */
+     , (32982, 45, 3) /* DAMAGE_TYPE_INT */
+     , (32982, 49, 35) /* WEAPON_TIME_INT */
+     , (32982, 48, 45) /* WEAPON_SKILL_INT */
+     , (32982, 44, 52) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32982, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (32982, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (32982, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (32982, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (32982, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (32982, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (32982, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (32982, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (32982, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (32982, 2074) /* ImperilOther7_SpellID */
+     , (32982, 2116) /* Swiftkiller7_SpellID */
+     , (32982, 2096) /* BloodDrinker7_SpellID */
+     , (32982, 2101) /* Defender7_SpellID */
+     , (32982, 2106) /* Heartseeker7_SpellID */;
+

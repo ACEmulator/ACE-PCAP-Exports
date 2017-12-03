@@ -73,3 +73,59 @@ VALUES (51960, 12, 16778423)
      , (51960, 4, 16781816)
      , (51960, 8, 16781817);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51960, 5, 'Spirit Hunter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (51960, 16, 67110063) /* EYES_PALETTE_DID */
+     , (51960, 9, 83890283) /* EYES_TEXTURE_DID */
+     , (51960, 17, 67110053) /* SKIN_PALETTE_DID */
+     , (51960, 10, 83890300) /* NOSE_TEXTURE_DID */
+     , (51960, 11, 83890327) /* MOUTH_TEXTURE_DID */
+     , (51960, 15, 67116998) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51960, 113, 2) /* GENDER_INT */
+     , (51960, 2, 31) /* CREATURE_TYPE_INT */
+     , (51960, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (51960, 25, 150) /* LEVEL_INT */
+     , (51960, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (51960, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51960, 5, 'Spirit Hunter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (51960, 16, 67109565) /* EYES_PALETTE_DID */
+     , (51960, 9, 83890278) /* EYES_TEXTURE_DID */
+     , (51960, 17, 67110053) /* SKIN_PALETTE_DID */
+     , (51960, 10, 83890290) /* NOSE_TEXTURE_DID */
+     , (51960, 11, 83890345) /* MOUTH_TEXTURE_DID */
+     , (51960, 15, 67117019) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51960, 113, 2) /* GENDER_INT */
+     , (51960, 2, 31) /* CREATURE_TYPE_INT */
+     , (51960, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (51960, 25, 150) /* LEVEL_INT */
+     , (51960, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (51960, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (51960, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (51960, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (51960, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (51960, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (51960, 32, 90) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (51960, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (51960, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (51960, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
+

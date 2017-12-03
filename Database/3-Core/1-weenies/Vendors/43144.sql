@@ -36,6 +36,29 @@ VALUES (43144, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43144, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (43144, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43144, 5, 'Gear Knight Quartermaster') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43144, 2, 99) /* CREATURE_TYPE_INT */
+     , (43144, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (43144, 25, 250) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (43144, 1, 220) /* STRENGTH_ATTRIBUTE */
+     , (43144, 2, 270) /* ENDURANCE_ATTRIBUTE */
+     , (43144, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (43144, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (43144, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (43144, 32, 290) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43144, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (43144, 128, 466) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (43144, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)

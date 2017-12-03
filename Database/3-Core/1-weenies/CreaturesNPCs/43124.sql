@@ -90,3 +90,38 @@ VALUES (43124, 12, 16778423)
      , (43124, 4, 16788088)
      , (43124, 8, 16788089);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43124, 5, 'Forgotten Tunnels Investigator') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (43124, 16, 67109565) /* EYES_PALETTE_DID */
+     , (43124, 9, 83890263) /* EYES_TEXTURE_DID */
+     , (43124, 17, 67110057) /* SKIN_PALETTE_DID */
+     , (43124, 10, 83890300) /* NOSE_TEXTURE_DID */
+     , (43124, 11, 83890351) /* MOUTH_TEXTURE_DID */
+     , (43124, 15, 67117002) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43124, 113, 2) /* GENDER_INT */
+     , (43124, 2, 31) /* CREATURE_TYPE_INT */
+     , (43124, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (43124, 25, 200) /* LEVEL_INT */
+     , (43124, 281, 1) /* FACTION1_BITS_INT */
+     , (43124, 188, 3) /* HERITAGE_GROUP_INT */
+     , (43124, 287, 1001) /* SOCIETY_RANK_CELHAN_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (43124, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (43124, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (43124, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (43124, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (43124, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (43124, 32, 90) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43124, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (43124, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (43124, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
+

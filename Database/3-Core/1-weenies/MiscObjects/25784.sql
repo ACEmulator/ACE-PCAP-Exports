@@ -35,3 +35,15 @@ VALUES (25784, 13, True) /* ETHEREAL_BOOL */
      , (25784, 19, True) /* ATTACKABLE_BOOL */
      , (25784, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25784, 16, 'Turn this token into the Mayor of Frost Haven for the Title "Honorary Snowman".') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25784, 19, 0) /* VALUE_INT */
+     , (25784, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25784, 69, 0) /* IS_SELLABLE_BOOL */;
+

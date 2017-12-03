@@ -33,6 +33,17 @@ VALUES (38438, 13, True) /* ETHEREAL_BOOL */
      , (38438, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38438, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38438, 16, 'A perfectly intact stinger from a Giant Jungle Phyntos Wasp.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38438, 33, 1) /* BONDED_INT */
+     , (38438, 114, 1) /* ATTUNED_INT */
+     , (38438, 19, 20000) /* VALUE_INT */
+     , (38438, 5, 200) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

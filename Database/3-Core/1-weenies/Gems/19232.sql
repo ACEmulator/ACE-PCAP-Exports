@@ -78,3 +78,12 @@ VALUES (19232, 0, 16787248)
      , (19232, 15, 16787257)
      , (19232, 16, 16787256);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19232, 16, 'A small oxidized statue of a Mosswart crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19232, 19, 10000) /* VALUE_INT */
+     , (19232, 5, 5000) /* ENCUMB_VAL_INT */;
+

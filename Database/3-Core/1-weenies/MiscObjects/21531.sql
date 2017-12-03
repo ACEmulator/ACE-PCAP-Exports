@@ -46,3 +46,12 @@ VALUES (21531, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21531, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21531, 15, 'A glowing nugget of pyreal.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21531, 19, 100) /* VALUE_INT */
+     , (21531, 5, 50) /* ENCUMB_VAL_INT */;
+

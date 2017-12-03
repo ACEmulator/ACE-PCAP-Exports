@@ -36,3 +36,41 @@ VALUES (30369, 13, True) /* ETHEREAL_BOOL */
      , (30369, 19, True) /* ATTACKABLE_BOOL */
      , (30369, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30369, 16, 'These boots are made from finest Auroch leather. Soft and supple, they are the ultimate in style and comfort. Far from just being stylish, these boots allow the user to move speedily and effortlessly over any terrain.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30369, 320, 1) /* ITEM_XP_STYLE_INT */
+     , (30369, 17, 225) /* RARE_ID_INT */
+     , (30369, 19, 50000) /* VALUE_INT */
+     , (30369, 5, 200) /* ENCUMB_VAL_INT */
+     , (30369, 265, 40) /* EQUIPMENT_SET_ID_INT */
+     , (30369, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (30369, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (30369, 28, 500) /* ARMOR_LEVEL_INT */
+     , (30369, 108, 6000) /* ITEM_MAX_MANA_INT */
+     , (30369, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30369, 319, 50) /* ITEM_MAX_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (30369, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */
+     , (30369, 5, 2000000000) /* ITEM_BASE_XP_INT64 */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30369, 5, -0.0333333) /* MANA_RATE_FLOAT */
+     , (30369, 13, 1.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (30369, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (30369, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (30369, 16, 1.1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (30369, 17, 1.1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (30369, 18, 0.9) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (30369, 19, 0.9) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (30369, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30369, 4710) /* CANTRIPSPRINT3_SpellID */
+     , (30369, 4019) /* CANTRIPQUICKNESS3_SpellID */
+     , (30369, 4407) /* Impenetrability8_SpellID */;
+

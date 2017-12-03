@@ -32,3 +32,34 @@ VALUES (51646, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (51646, 19, True) /* ATTACKABLE_BOOL */
      , (51646, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51646, 16, 'A thick wall of cooled lava blocks the passage.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51646, 384, 0) /*  */
+     , (51646, 370, 0) /* GEAR_DAMAGE_INT */
+     , (51646, 386, 0) /*  */
+     , (51646, 307, 0) /* DAMAGE_RATING_INT */
+     , (51646, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (51646, 387, 0) /*  */
+     , (51646, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (51646, 372, 0) /* GEAR_CRIT_INT */
+     , (51646, 388, 0) /*  */
+     , (51646, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (51646, 389, 0) /*  */
+     , (51646, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (51646, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (51646, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (51646, 313, 0) /* CRIT_RATING_INT */
+     , (51646, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (51646, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (51646, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (51646, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (51646, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (51646, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (51646, 381, 0) /*  */
+     , (51646, 382, 0) /*  */
+     , (51646, 383, 0) /*  */;
+

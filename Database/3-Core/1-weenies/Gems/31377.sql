@@ -34,6 +34,18 @@ VALUES (31377, 13, True) /* ETHEREAL_BOOL */
      , (31377, 19, True) /* ATTACKABLE_BOOL */
      , (31377, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31377, 16, 'A fragment of an unknown artifact protected by the Margul Xaa Xiil. Its shape is oddly familiar.') /* LONG_DESC_STRING */
+     , (31377, 14, 'Use this on a Raven Fragment to combine the two.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31377, 33, 1) /* BONDED_INT */
+     , (31377, 114, 1) /* ATTUNED_INT */
+     , (31377, 19, 0) /* VALUE_INT */
+     , (31377, 5, 50) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

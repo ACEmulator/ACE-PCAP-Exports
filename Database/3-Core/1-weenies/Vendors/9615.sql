@@ -88,6 +88,29 @@ VALUES (9615, 11, 16777302)
      , (9615, 8, 16777298)
      , (9615, 16, 16779630);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9615, 5, 'Bestower Representative') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (9615, 16, 67110062) /* EYES_PALETTE_DID */
+     , (9615, 9, 83890485) /* EYES_TEXTURE_DID */
+     , (9615, 17, 67109558) /* SKIN_PALETTE_DID */
+     , (9615, 10, 83890518) /* NOSE_TEXTURE_DID */
+     , (9615, 11, 83890666) /* MOUTH_TEXTURE_DID */
+     , (9615, 15, 67116984) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9615, 113, 1) /* GENDER_INT */
+     , (9615, 2, 31) /* CREATURE_TYPE_INT */
+     , (9615, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (9615, 25, 7) /* LEVEL_INT */
+     , (9615, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (9615, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

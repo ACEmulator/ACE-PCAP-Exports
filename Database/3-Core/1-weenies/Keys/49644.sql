@@ -34,3 +34,16 @@ VALUES (49644, 13, True) /* ETHEREAL_BOOL */
      , (49644, 19, True) /* ATTACKABLE_BOOL */
      , (49644, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49644, 16, 'A key to the door the Simulacrum Shifter was guarding.') /* LONG_DESC_STRING */
+     , (49644, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49644, 33, 1) /* BONDED_INT */
+     , (49644, 114, 1) /* ATTUNED_INT */
+     , (49644, 19, 0) /* VALUE_INT */
+     , (49644, 5, 10) /* ENCUMB_VAL_INT */
+     , (49644, 91, 1) /* MAX_STRUCTURE_INT */;
+

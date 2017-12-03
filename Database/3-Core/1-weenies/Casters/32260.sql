@@ -37,3 +37,24 @@ VALUES (32260, 13, True) /* ETHEREAL_BOOL */
      , (32260, 19, True) /* ATTACKABLE_BOOL */
      , (32260, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32260, 16, 'A casting device fancifully crafted in the shape of a Mukkir''s head.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32260, 19, 1500) /* VALUE_INT */
+     , (32260, 5, 100) /* ENCUMB_VAL_INT */
+     , (32260, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (32260, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (32260, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32260, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (32260, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (32260, 5, -0.0333333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (32260, 3861) /* CantripTasteForBlood_SpellID */
+     , (32260, 681) /* ArcaneEnlightenmentSelf4_SpellID */;
+

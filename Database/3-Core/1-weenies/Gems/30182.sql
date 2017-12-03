@@ -49,6 +49,27 @@ VALUES (30182, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30182, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30182, 16, 'Using this gem will increase your natural resistance to Acid damage by 99.9% for 15 minutes.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30182, 17, 48) /* RARE_ID_INT */
+     , (30182, 33, -1) /* BONDED_INT */
+     , (30182, 19, 0) /* VALUE_INT */
+     , (30182, 5, 10) /* ENCUMB_VAL_INT */
+     , (30182, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (30182, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (30182, 108, 10000) /* ITEM_MAX_MANA_INT */
+     , (30182, 109, 0) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30182, 108, 1) /* RARE_USES_TIMER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30182, 3680) /* AcidProtectionRare_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -45,3 +45,47 @@ VALUES (40703, 0, 83894160, 83894160);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40703, 0, 16788049);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40703, 16, 'Covenant Shield of Endurance') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40703, 160, 270) /* WIELD_DIFFICULTY_INT */
+     , (40703, 177, 2) /* GEM_COUNT_INT */
+     , (40703, 178, 21) /* GEM_TYPE_INT */
+     , (40703, 19, 36391) /* VALUE_INT */
+     , (40703, 131, 64) /* MATERIAL_TYPE_INT */
+     , (40703, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (40703, 36, 9999) /* RESIST_MAGIC_INT */
+     , (40703, 5, 1300) /* ENCUMB_VAL_INT */
+     , (40703, 105, 10) /* ITEM_WORKMANSHIP_INT */
+     , (40703, 106, 275) /* ITEM_SPELLCRAFT_INT */
+     , (40703, 28, 399) /* ARMOR_LEVEL_INT */
+     , (40703, 108, 1121) /* ITEM_MAX_MANA_INT */
+     , (40703, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40703, 109, 303) /* ITEM_DIFFICULTY_INT */
+     , (40703, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (40703, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40703, 159, 7) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40703, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (40703, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (40703, 14, 1.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (40703, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (40703, 16, 1.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (40703, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (40703, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (40703, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (40703, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40703, 2113) /* PiercingBane7_SpellID */
+     , (40703, 1354) /* EnduranceSelf6_SpellID */
+     , (40703, 2580) /* CANTRIPENDURANCE1_SpellID */
+     , (40703, 2527) /* CANTRIPPERSONATTUNEMENT2_SpellID */
+     , (40703, 2601) /* CANTRIPFLAMEBANE1_SpellID */
+     , (40703, 2098) /* BludgeonBane7_SpellID */
+     , (40703, 2108) /* Impenetrability7_SpellID */;
+

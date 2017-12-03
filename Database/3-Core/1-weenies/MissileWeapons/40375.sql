@@ -45,3 +45,47 @@ VALUES (40375, 0, 83893670, 83893669)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40375, 0, 16790080);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40375, 16, 'A panaq fused to a triple totem. It almost seems as if the totem''s creatures are moving.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40375, 160, 360) /* WIELD_DIFFICULTY_INT */
+     , (40375, 33, 1) /* BONDED_INT */
+     , (40375, 353, 8) /* WEAPON_TYPE_INT */
+     , (40375, 114, 0) /* ATTUNED_INT */
+     , (40375, 19, 20000) /* VALUE_INT */
+     , (40375, 5, 800) /* ENCUMB_VAL_INT */
+     , (40375, 263, 2) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (40375, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (40375, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (40375, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (40375, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40375, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (40375, 45, 0) /* DAMAGE_TYPE_INT */
+     , (40375, 49, 45) /* WEAPON_TIME_INT */
+     , (40375, 48, 47) /* WEAPON_SKILL_INT */
+     , (40375, 44, 12) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40375, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (40375, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (40375, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (40375, 5, -0.033333) /* MANA_RATE_FLOAT */
+     , (40375, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (40375, 63, 2.4) /* DAMAGE_MOD_FLOAT */
+     , (40375, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (40375, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (40375, 62, 1.2) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40375, 99, 0) /* IVORYABLE_BOOL */
+     , (40375, 69, 0) /* IS_SELLABLE_BOOL */
+     , (40375, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (40375, 2446) /* GrowthGreater_SpellID */
+     , (40375, 2449) /* HuntersAcumenGreater_SpellID */
+     , (40375, 2452) /* ThornsGreater_SpellID */;
+

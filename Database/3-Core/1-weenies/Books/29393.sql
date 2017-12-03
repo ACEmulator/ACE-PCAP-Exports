@@ -33,6 +33,17 @@ VALUES (29393, 13, True) /* ETHEREAL_BOOL */
      , (29393, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29393, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29393, 16, 'A note to Captain Argenne of the Silver Legion from General Corcima. It appears to be rather old and crumpled.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29393, 19, 0) /* VALUE_INT */
+     , (29393, 5, 5) /* ENCUMB_VAL_INT */
+     , (29393, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (29393, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

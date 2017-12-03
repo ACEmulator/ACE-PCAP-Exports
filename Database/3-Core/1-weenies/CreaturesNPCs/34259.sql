@@ -75,3 +75,26 @@ VALUES (34259, 12, 16777304)
      , (34259, 14, 16783855)
      , (34259, 16, 16791907);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34259, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (34259, 16, 67109564) /* EYES_PALETTE_DID */
+     , (34259, 9, 83890510) /* EYES_TEXTURE_DID */
+     , (34259, 17, 67115908) /* SKIN_PALETTE_DID */
+     , (34259, 10, 83890558) /* NOSE_TEXTURE_DID */
+     , (34259, 11, 83890643) /* MOUTH_TEXTURE_DID */
+     , (34259, 15, 67116989) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34259, 113, 1) /* GENDER_INT */
+     , (34259, 2, 31) /* CREATURE_TYPE_INT */
+     , (34259, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (34259, 25, 267) /* LEVEL_INT */
+     , (34259, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34259, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

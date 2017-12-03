@@ -73,3 +73,52 @@ VALUES (35315, 0, 16793218)
      , (35315, 15, 16789333)
      , (35315, 16, 16793225);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35315, 16, 67109565) /* EYES_PALETTE_DID */
+     , (35315, 9, 83890486) /* EYES_TEXTURE_DID */
+     , (35315, 17, 67110053) /* SKIN_PALETTE_DID */
+     , (35315, 10, 83890519) /* NOSE_TEXTURE_DID */
+     , (35315, 11, 83890570) /* MOUTH_TEXTURE_DID */
+     , (35315, 15, 67117073) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35315, 113, 1) /* GENDER_INT */
+     , (35315, 2, 31) /* CREATURE_TYPE_INT */
+     , (35315, 25, 115) /* LEVEL_INT */
+     , (35315, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (35315, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (35315, 16, 67109565) /* EYES_PALETTE_DID */
+     , (35315, 9, 83890514) /* EYES_TEXTURE_DID */
+     , (35315, 17, 67110061) /* SKIN_PALETTE_DID */
+     , (35315, 10, 83890562) /* NOSE_TEXTURE_DID */
+     , (35315, 11, 83890567) /* MOUTH_TEXTURE_DID */
+     , (35315, 15, 67116991) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35315, 113, 1) /* GENDER_INT */
+     , (35315, 2, 31) /* CREATURE_TYPE_INT */
+     , (35315, 307, 5) /* DAMAGE_RATING_INT */
+     , (35315, 25, 115) /* LEVEL_INT */
+     , (35315, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (35315, 1, 220) /* STRENGTH_ATTRIBUTE */
+     , (35315, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (35315, 4, 220) /* COORDINATION_ATTRIBUTE */
+     , (35315, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (35315, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (35315, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (35315, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (35315, 128, 340) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (35315, 256, 320) /* MAX_MANA_ATTRIBUTE_2ND */;
+

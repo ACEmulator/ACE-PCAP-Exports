@@ -47,3 +47,27 @@ VALUES (10841, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10841, 0, 16778334);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10841, 15, 'A bracelet of piercing protection, given by Behdo Yii for completing the Soldier quest.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10841, 33, 1) /* BONDED_INT */
+     , (10841, 114, 1) /* ATTUNED_INT */
+     , (10841, 19, 0) /* VALUE_INT */
+     , (10841, 5, 60) /* ENCUMB_VAL_INT */
+     , (10841, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (10841, 108, 600) /* ITEM_MAX_MANA_INT */
+     , (10841, 109, 125) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (10841, 5, -0.04) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (10841, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (10841, 241) /* InvulnerabilityOther3_SpellID */
+     , (10841, 1142) /* PiercingProtectionOther4_SpellID */;
+

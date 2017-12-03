@@ -51,3 +51,23 @@ VALUES (8636, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8636, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8636, 15, 'A genuine artificial quality knockoff of the rare Hoary Mattekar Robe.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8636, 19, 1) /* VALUE_INT */
+     , (8636, 5, 300) /* ENCUMB_VAL_INT */
+     , (8636, 28, 250) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8636, 13, 2.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8636, 14, 2.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8636, 15, 2.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8636, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8636, 17, 2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8636, 18, 2) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8636, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8636, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

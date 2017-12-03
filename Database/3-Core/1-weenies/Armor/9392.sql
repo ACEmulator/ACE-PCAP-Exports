@@ -43,3 +43,26 @@ VALUES (9392, 67109944, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9392, 0, 16785648);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9392, 16, 'A large horned helm with the horns of a large mattekar.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9392, 19, 2000) /* VALUE_INT */
+     , (9392, 5, 900) /* ENCUMB_VAL_INT */
+     , (9392, 28, 240) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9392, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (9392, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (9392, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (9392, 16, 0) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (9392, 17, 0) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (9392, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (9392, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (9392, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (9392, 100, 1) /* DYABLE_BOOL */;
+

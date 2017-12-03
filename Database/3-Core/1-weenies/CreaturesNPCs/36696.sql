@@ -37,3 +37,35 @@ VALUES (36696, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (36696, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (36696, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36696, 16, 'To prove your clarity of mind you must use the stones provided to make each bag contain one color and you must use the remaining stones to balance the scales correctly.') /* LONG_DESC_STRING */
+     , (36696, 14, 'Red Stone = 3, Yellow Stone = 2, White Stone = 1') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36696, 384, 0) /*  */
+     , (36696, 370, 0) /* GEAR_DAMAGE_INT */
+     , (36696, 386, 0) /*  */
+     , (36696, 307, 0) /* DAMAGE_RATING_INT */
+     , (36696, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (36696, 387, 0) /*  */
+     , (36696, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (36696, 372, 0) /* GEAR_CRIT_INT */
+     , (36696, 388, 0) /*  */
+     , (36696, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (36696, 389, 0) /*  */
+     , (36696, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (36696, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (36696, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (36696, 313, 0) /* CRIT_RATING_INT */
+     , (36696, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (36696, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (36696, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (36696, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (36696, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (36696, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (36696, 381, 0) /*  */
+     , (36696, 382, 0) /*  */
+     , (36696, 383, 0) /*  */;
+

@@ -34,3 +34,16 @@ VALUES (28774, 13, True) /* ETHEREAL_BOOL */
      , (28774, 19, True) /* ATTACKABLE_BOOL */
      , (28774, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28774, 16, 'A key to Lubziklan al-Luc''s wine cellar.') /* LONG_DESC_STRING */
+     , (28774, 14, 'Use this item on a Wine Cellar Door to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28774, 33, 1) /* BONDED_INT */
+     , (28774, 114, 1) /* ATTUNED_INT */
+     , (28774, 19, 0) /* VALUE_INT */
+     , (28774, 5, 50) /* ENCUMB_VAL_INT */
+     , (28774, 91, 3) /* MAX_STRUCTURE_INT */;
+

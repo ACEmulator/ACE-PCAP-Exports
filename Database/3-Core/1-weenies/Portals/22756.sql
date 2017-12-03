@@ -33,3 +33,8 @@ VALUES (22756, 13, True) /* ETHEREAL_BOOL */
      , (22756, 19, True) /* ATTACKABLE_BOOL */
      , (22756, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22756, 111, 49) /* PORTAL_BITMASK_INT */;
+

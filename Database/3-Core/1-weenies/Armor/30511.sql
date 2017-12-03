@@ -40,3 +40,47 @@ VALUES (30511, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30511, 0, 16792970);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30511, 16, 'After the destruction of the Great Work, some human mages who followed the  Gelidite agenda returned to Frore in hopes of reviving the project. Finding only shattered fragments of the Great Work, they attempted to rebuild it by using the shards as a foundation. Years later, they had achieved little success, and the project was soon abandoned. Not wanting to waste their efforts, they took the remaining crystals and fashioned great suits of armor. This is one piece of one such suit of armor.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30511, 320, 1) /* ITEM_XP_STYLE_INT */
+     , (30511, 17, 262) /* RARE_ID_INT */
+     , (30511, 19, 50000) /* VALUE_INT */
+     , (30511, 5, 100) /* ENCUMB_VAL_INT */
+     , (30511, 376, 2) /* GEAR_HEALING_BOOST_INT */
+     , (30511, 265, 40) /* EQUIPMENT_SET_ID_INT */
+     , (30511, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (30511, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (30511, 379, 1) /* GEAR_MAX_HEALTH_INT */
+     , (30511, 108, 6000) /* ITEM_MAX_MANA_INT */
+     , (30511, 28, 765) /* ARMOR_LEVEL_INT */
+     , (30511, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30511, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30511, 319, 50) /* ITEM_MAX_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (30511, 4, 1215752192) /* ITEM_TOTAL_XP_INT64 */
+     , (30511, 5, 2000000000) /* ITEM_BASE_XP_INT64 */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30511, 5, -0.0333333) /* MANA_RATE_FLOAT */
+     , (30511, 13, 3.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (30511, 14, 3.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (30511, 15, 3.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (30511, 16, 3.1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (30511, 17, 2.9) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (30511, 18, 2.9) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (30511, 19, 2.9) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (30511, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30511, 91, 1) /* RETAINED_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30511, 4705) /* CANTRIPMANACONVERSIONPROWESS3_SpellID */
+     , (30511, 4407) /* Impenetrability8_SpellID */
+     , (30511, 3964) /* CANTRIPFOCUS3_SpellID */;
+

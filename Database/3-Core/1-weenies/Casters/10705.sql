@@ -47,3 +47,26 @@ VALUES (10705, 0, 83888861, 83893321);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10705, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10705, 16, 'A large niffis pearl that gleams with an inner light.  ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10705, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
+     , (10705, 115, 80) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (10705, 19, 1200) /* VALUE_INT */
+     , (10705, 5, 50) /* ENCUMB_VAL_INT */
+     , (10705, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (10705, 108, 600) /* ITEM_MAX_MANA_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (10705, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (10705, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (10705, 5, -0.025) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (10705, 1424) /* FocusSelf4_SpellID */
+     , (10705, 1310) /* ArmorSelf4_SpellID */
+     , (10705, 1448) /* WillpowerSelf4_SpellID */;
+

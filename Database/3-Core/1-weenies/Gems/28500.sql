@@ -35,6 +35,21 @@ VALUES (28500, 13, True) /* ETHEREAL_BOOL */
      , (28500, 19, True) /* ATTACKABLE_BOOL */
      , (28500, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28500, 16, 'A crate with five empty slots. Each are labeled for one of the different golem hearts that the crate is meant to hold. The first slot appears to be reserved for a Granite Golem heart.') /* LONG_DESC_STRING */
+     , (28500, 14, 'Place a Granite Golem heart into the slot assigned to the granite heart.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28500, 33, 1) /* BONDED_INT */
+     , (28500, 114, 1) /* ATTUNED_INT */
+     , (28500, 19, 0) /* VALUE_INT */
+     , (28500, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28500, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

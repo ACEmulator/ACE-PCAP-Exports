@@ -31,3 +31,18 @@ VALUES (28890, 13, True) /* ETHEREAL_BOOL */
      , (28890, 19, True) /* ATTACKABLE_BOOL */
      , (28890, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28890, 14, 'Armored skeletal legs can be added to this item.') /* USE_STRING */
+     , (28890, 15, 'An armored skeleton''s torso and head, with two arms attached.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28890, 33, 0) /* BONDED_INT */
+     , (28890, 114, 0) /* ATTUNED_INT */
+     , (28890, 19, 0) /* VALUE_INT */
+     , (28890, 5, 200) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28890, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -52,3 +52,39 @@ VALUES (8133, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8133, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8133, 16, 'A black robe which seems to have threads of chorizite woven into it. This item cannot be enchanted.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8133, 33, 1) /* BONDED_INT */
+     , (8133, 114, 1) /* ATTUNED_INT */
+     , (8133, 19, 10710) /* VALUE_INT */
+     , (8133, 36, 9999) /* RESIST_MAGIC_INT */
+     , (8133, 5, 200) /* ENCUMB_VAL_INT */
+     , (8133, 106, 275) /* ITEM_SPELLCRAFT_INT */
+     , (8133, 108, 855) /* ITEM_MAX_MANA_INT */
+     , (8133, 28, 0) /* ARMOR_LEVEL_INT */
+     , (8133, 109, 275) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8133, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (8133, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8133, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8133, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8133, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8133, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8133, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8133, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8133, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (8133, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8133, 1431) /* FocusOther5_SpellID */
+     , (8133, 2015) /* AerfallesWard_SpellID */
+     , (8133, 1455) /* WillpowerOther5_SpellID */
+     , (8133, 689) /* ArcaneEnlightenmentOther6_SpellID */;
+

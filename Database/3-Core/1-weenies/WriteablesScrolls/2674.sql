@@ -35,3 +35,17 @@ VALUES (2674, 13, True) /* ETHEREAL_BOOL */
      , (2674, 19, True) /* ATTACKABLE_BOOL */
      , (2674, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2674, 16, 'Inscribed spell: Focus Other II
+Increases the target''s Focus by 15 points.') /* LONG_DESC_STRING */
+     , (2674, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2674, 19, 5) /* VALUE_INT */
+     , (2674, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2674, 1428) /* FocusOther2_SpellID */;
+

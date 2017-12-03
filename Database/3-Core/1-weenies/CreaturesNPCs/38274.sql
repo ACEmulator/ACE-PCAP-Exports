@@ -89,3 +89,38 @@ VALUES (38274, 12, 16778423)
      , (38274, 4, 16781816)
      , (38274, 8, 16781817);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38274, 5, 'Coral Towers Task Master') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38274, 16, 67109565) /* EYES_PALETTE_DID */
+     , (38274, 9, 83890278) /* EYES_TEXTURE_DID */
+     , (38274, 17, 67110054) /* SKIN_PALETTE_DID */
+     , (38274, 10, 83890286) /* NOSE_TEXTURE_DID */
+     , (38274, 11, 83890325) /* MOUTH_TEXTURE_DID */
+     , (38274, 15, 67117076) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38274, 113, 2) /* GENDER_INT */
+     , (38274, 289, 1001) /* SOCIETY_RANK_RADBLO_INT */
+     , (38274, 2, 31) /* CREATURE_TYPE_INT */
+     , (38274, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38274, 25, 200) /* LEVEL_INT */
+     , (38274, 281, 4) /* FACTION1_BITS_INT */
+     , (38274, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38274, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (38274, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (38274, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (38274, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (38274, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (38274, 32, 90) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38274, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38274, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38274, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
+

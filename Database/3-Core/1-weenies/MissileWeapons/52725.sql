@@ -53,6 +53,38 @@ VALUES (52725, 0, 83888861, 83888944);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52725, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (52725, 55, 4312) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52725, 353, 10) /* WEAPON_TYPE_INT */
+     , (52725, 33, -2) /* BONDED_INT */
+     , (52725, 386, 5) /*  */
+     , (52725, 19, 1) /* VALUE_INT */
+     , (52725, 307, 35) /* DAMAGE_RATING_INT */
+     , (52725, 5, 20) /* ENCUMB_VAL_INT */
+     , (52725, 313, 30) /* CRIT_RATING_INT */
+     , (52725, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (52725, 45, 4) /* DAMAGE_TYPE_INT */
+     , (52725, 49, 10) /* WEAPON_TIME_INT */
+     , (52725, 48, 47) /* WEAPON_SKILL_INT */
+     , (52725, 44, 425) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (52725, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (52725, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (52725, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (52725, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (52725, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (52725, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (52725, 26, 45) /* MAXIMUM_VELOCITY_FLOAT */
+     , (52725, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (52725, 4312) /* ImperilOther8_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

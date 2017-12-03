@@ -35,6 +35,21 @@ VALUES (11450, 13, True) /* ETHEREAL_BOOL */
      , (11450, 19, True) /* ATTACKABLE_BOOL */
      , (11450, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11450, 16, 'A double totem representing Tanae.  ') /* LONG_DESC_STRING */
+     , (11450, 14, 'Use a single totem of Tanae on this pure double totem to create Tanae''s Triple Totem of the Forests.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11450, 33, 0) /* BONDED_INT */
+     , (11450, 114, 0) /* ATTUNED_INT */
+     , (11450, 19, 0) /* VALUE_INT */
+     , (11450, 5, 200) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (11450, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

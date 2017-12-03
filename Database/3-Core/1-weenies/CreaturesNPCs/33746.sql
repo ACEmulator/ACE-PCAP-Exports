@@ -63,6 +63,30 @@ VALUES (33746, 0, 16778359)
      , (33746, 15, 16777307)
      , (33746, 16, 16778407);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33746, 5, 'Emissary of Isin Dule') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33746, 2, 22) /* CREATURE_TYPE_INT */
+     , (33746, 307, 5) /* DAMAGE_RATING_INT */
+     , (33746, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (33746, 25, 200) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33746, 1, 340) /* STRENGTH_ATTRIBUTE */
+     , (33746, 2, 520) /* ENDURANCE_ATTRIBUTE */
+     , (33746, 4, 340) /* COORDINATION_ATTRIBUTE */
+     , (33746, 8, 320) /* QUICKNESS_ATTRIBUTE */
+     , (33746, 16, 400) /* FOCUS_ATTRIBUTE */
+     , (33746, 32, 400) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (33746, 64, 4010) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33746, 128, 870) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33746, 256, 700) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 /* Object Wield List */

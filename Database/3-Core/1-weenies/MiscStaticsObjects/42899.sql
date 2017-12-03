@@ -29,3 +29,12 @@ VALUES (42899, 13, True) /* ETHEREAL_BOOL */
      , (42899, 19, True) /* ATTACKABLE_BOOL */
      , (42899, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42899, 16, 'It could be argued that Isparians of Dereth will be both your greatest allies as well as your greatest enemies. Not all Isparians joined the new kingdom as it was formed on Dereth. Some became plain thieves and bandits, others decided to follow and worship other creatures of these lands. When you see a fellow Isparian off in the distance, do not be so sure that he is your ally.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42899, 19, 125) /* VALUE_INT */
+     , (42899, 5, 9000) /* ENCUMB_VAL_INT */;
+

@@ -33,3 +33,13 @@ VALUES (37163, 13, True) /* ETHEREAL_BOOL */
      , (37163, 19, True) /* ATTACKABLE_BOOL */
      , (37163, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37163, 16, 'You must be a member of the Society of the Radiant Blood to enter this Portal.') /* LONG_DESC_STRING */
+     , (37163, 38, 'Radiant Blood Stronghold') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37163, 86, 180) /* MIN_LEVEL_INT */
+     , (37163, 111, 49) /* PORTAL_BITMASK_INT */;
+

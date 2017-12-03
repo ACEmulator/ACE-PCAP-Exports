@@ -37,6 +37,17 @@ VALUES (38711, 13, True) /* ETHEREAL_BOOL */
      , (38711, 19, True) /* ATTACKABLE_BOOL */
      , (38711, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38711, 16, 'This thin sheet of paper is useful for tracing solid objects.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38711, 33, 1) /* BONDED_INT */
+     , (38711, 114, 1) /* ATTUNED_INT */
+     , (38711, 19, 0) /* VALUE_INT */
+     , (38711, 5, 5) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

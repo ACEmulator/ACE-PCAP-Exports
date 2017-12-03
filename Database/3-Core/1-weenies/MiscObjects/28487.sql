@@ -35,3 +35,14 @@ VALUES (28487, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28487, 67114922, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28487, 16, 'This severed head of the once feared and powerful Morgluuk, is lifeless and foul smelling. Perhaps if you brought it to the Noble Guardians stationed at the capital cities you could garner a reward.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28487, 33, 1) /* BONDED_INT */
+     , (28487, 114, 1) /* ATTUNED_INT */
+     , (28487, 19, 0) /* VALUE_INT */
+     , (28487, 5, 250) /* ENCUMB_VAL_INT */;
+

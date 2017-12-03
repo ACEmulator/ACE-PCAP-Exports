@@ -38,3 +38,26 @@ VALUES (24576, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24576, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (24576, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24576, 5, 'Trophy Collector') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24576, 2, 57) /* CREATURE_TYPE_INT */
+     , (24576, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (24576, 25, 78) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (24576, 1, 190) /* STRENGTH_ATTRIBUTE */
+     , (24576, 2, 125) /* ENDURANCE_ATTRIBUTE */
+     , (24576, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (24576, 8, 139) /* QUICKNESS_ATTRIBUTE */
+     , (24576, 16, 130) /* FOCUS_ATTRIBUTE */
+     , (24576, 32, 60) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (24576, 64, 203) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24576, 128, 285) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24576, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
+

@@ -41,3 +41,37 @@ VALUES (49057, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (49057, 67112939, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49057, 2, 44) /* CREATURE_TYPE_INT */
+     , (49057, 25, 180) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (49057, 64, 1020) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49057, 2, 44) /* CREATURE_TYPE_INT */
+     , (49057, 307, 11) /* DAMAGE_RATING_INT */
+     , (49057, 308, 15) /* DAMAGE_RESIST_RATING_INT */
+     , (49057, 25, 180) /* LEVEL_INT */
+     , (49057, 313, 14) /* CRIT_RATING_INT */
+     , (49057, 314, 8) /* CRIT_DAMAGE_RATING_INT */
+     , (49057, 315, 15) /* CRIT_RESIST_RATING_INT */
+     , (49057, 316, 11) /* CRIT_DAMAGE_RESIST_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (49057, 1, 210) /* STRENGTH_ATTRIBUTE */
+     , (49057, 2, 240) /* ENDURANCE_ATTRIBUTE */
+     , (49057, 4, 160) /* COORDINATION_ATTRIBUTE */
+     , (49057, 8, 250) /* QUICKNESS_ATTRIBUTE */
+     , (49057, 16, 170) /* FOCUS_ATTRIBUTE */
+     , (49057, 32, 170) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (49057, 64, 1020) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (49057, 128, 1340) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (49057, 256, 920) /* MAX_MANA_ATTRIBUTE_2ND */;
+

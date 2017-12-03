@@ -35,3 +35,17 @@ VALUES (20238, 13, True) /* ETHEREAL_BOOL */
      , (20238, 19, True) /* ATTACKABLE_BOOL */
      , (20238, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20238, 16, 'Inscribed spell: Anemia
+Drains 52-105 points of the target''s Stamina.') /* LONG_DESC_STRING */
+     , (20238, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20238, 19, 2000) /* VALUE_INT */
+     , (20238, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20238, 2062) /* EnfeebleOther7_SpellID */;
+

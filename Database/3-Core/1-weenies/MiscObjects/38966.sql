@@ -35,6 +35,19 @@ VALUES (38966, 13, True) /* ETHEREAL_BOOL */
      , (38966, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38966, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38966, 16, 'A Casino Ticket used to bet on a single Monster Fighter.') /* LONG_DESC_STRING */
+     , (38966, 14, 'Hand this ticket to one of the Monster Fighters in the Betting Cage to bet on that fighter.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38966, 19, 0) /* VALUE_INT */
+     , (38966, 5, 5) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38966, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

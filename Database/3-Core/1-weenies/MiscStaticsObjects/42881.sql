@@ -29,3 +29,12 @@ VALUES (42881, 13, True) /* ETHEREAL_BOOL */
      , (42881, 19, True) /* ATTACKABLE_BOOL */
      , (42881, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42881, 16, 'Small flightless birds, these creatures are found mostly in the colder snow covered Halaetan Island. Do not be fooled by their cute nature, these birds can quicly attack an unsuspecting traveller with their belly slide. ') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42881, 19, 125) /* VALUE_INT */
+     , (42881, 5, 9000) /* ENCUMB_VAL_INT */;
+

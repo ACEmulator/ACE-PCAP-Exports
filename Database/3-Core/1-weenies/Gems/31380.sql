@@ -30,3 +30,15 @@ VALUES (31380, 13, True) /* ETHEREAL_BOOL */
      , (31380, 19, True) /* ATTACKABLE_BOOL */
      , (31380, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31380, 16, 'A fragment of an unknown artifact protected by a Greater Penumbral Horror. Its shape is oddly familiar.') /* LONG_DESC_STRING */
+     , (31380, 14, 'Use a Combined Artifact Fragment on this to complete the Vestibule Lock.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31380, 33, 1) /* BONDED_INT */
+     , (31380, 114, 1) /* ATTUNED_INT */
+     , (31380, 19, 0) /* VALUE_INT */
+     , (31380, 5, 50) /* ENCUMB_VAL_INT */;
+

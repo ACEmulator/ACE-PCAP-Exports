@@ -76,3 +76,13 @@ VALUES (35807, 0, 16788885)
      , (35807, 12, 16788891)
      , (35807, 16, 16789125);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35807, 16, 'A statue sculpted in the likeness of the vanquished Colosseum Champion, Gladiator Diemos.') /* LONG_DESC_STRING */
+     , (35807, 14, 'On use, will cast the spell Strength of Diemos.  This item does not count against the maximum number of casters that can be hooked in a residence.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35807, 19, 0) /* VALUE_INT */
+     , (35807, 5, 3000) /* ENCUMB_VAL_INT */;
+

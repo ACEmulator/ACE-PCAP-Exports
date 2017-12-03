@@ -33,6 +33,19 @@ VALUES (14442, 13, True) /* ETHEREAL_BOOL */
      , (14442, 14, True) /* GRAVITY_STATUS_BOOL */
      , (14442, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14442, 15, 'A letter from Sir Tenshin to Dame Tsaya, in Yaraq.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14442, 33, 1) /* BONDED_INT */
+     , (14442, 114, 1) /* ATTUNED_INT */
+     , (14442, 19, 0) /* VALUE_INT */
+     , (14442, 5, 5) /* ENCUMB_VAL_INT */
+     , (14442, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (14442, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -47,3 +47,44 @@ VALUES (30599, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30599, 0, 16792136);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30599, 16, 'Frost Poniard of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30599, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30599, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (30599, 353, 6) /* WEAPON_TYPE_INT */
+     , (30599, 177, 1) /* GEM_COUNT_INT */
+     , (30599, 178, 37) /* GEM_TYPE_INT */
+     , (30599, 19, 4043) /* VALUE_INT */
+     , (30599, 131, 63) /* MATERIAL_TYPE_INT */
+     , (30599, 115, 229) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30599, 5, 180) /* ENCUMB_VAL_INT */
+     , (30599, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (30599, 106, 209) /* ITEM_SPELLCRAFT_INT */
+     , (30599, 108, 1334) /* ITEM_MAX_MANA_INT */
+     , (30599, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30599, 109, 94) /* ITEM_DIFFICULTY_INT */
+     , (30599, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30599, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30599, 159, 46) /* WIELD_SKILLTYPE_INT */
+     , (30599, 47, 6) /* ATTACK_TYPE_INT */
+     , (30599, 45, 8) /* DAMAGE_TYPE_INT */
+     , (30599, 49, 40) /* WEAPON_TIME_INT */
+     , (30599, 48, 46) /* WEAPON_SKILL_INT */
+     , (30599, 44, 34) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30599, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (30599, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (30599, 22, 0.47) /* DAMAGE_VARIANCE_FLOAT */
+     , (30599, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30599, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30599, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30599, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30599, 1615) /* BloodDrinker5_SpellID */;
+

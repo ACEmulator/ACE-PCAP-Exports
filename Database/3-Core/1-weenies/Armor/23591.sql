@@ -43,3 +43,33 @@ VALUES (23591, 67113383, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23591, 0, 16787336);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23591, 16, 'A crown made of some sort of solidified energy.  When you wear it, you feel revitalized and protected.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23591, 19, 3000) /* VALUE_INT */
+     , (23591, 5, 200) /* ENCUMB_VAL_INT */
+     , (23591, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (23591, 28, 130) /* ARMOR_LEVEL_INT */
+     , (23591, 108, 1320) /* ITEM_MAX_MANA_INT */
+     , (23591, 109, 100) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23591, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (23591, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (23591, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (23591, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (23591, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (23591, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (23591, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (23591, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (23591, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23591, 1484) /* Impenetrability4_SpellID */
+     , (23591, 277) /* MagicResistanceSelf4_SpellID */
+     , (23591, 1069) /* LightningProtectionSelf4_SpellID */
+     , (23591, 191) /* RejuvenationSelf4_SpellID */;
+

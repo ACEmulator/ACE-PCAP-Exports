@@ -52,3 +52,45 @@ VALUES (41037, 0, 83894777, 83894777)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41037, 0, 16789568);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41037, 16, 'Acid Assagai of Endurance') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41037, 176, 41) /* APPRAISAL_ITEM_SKILL_INT */
+     , (41037, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (41037, 353, 11) /* WEAPON_TYPE_INT */
+     , (41037, 177, 1) /* GEM_COUNT_INT */
+     , (41037, 178, 11) /* GEM_TYPE_INT */
+     , (41037, 19, 3037) /* VALUE_INT */
+     , (41037, 131, 75) /* MATERIAL_TYPE_INT */
+     , (41037, 115, 230) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (41037, 5, 709) /* ENCUMB_VAL_INT */
+     , (41037, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (41037, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (41037, 108, 1121) /* ITEM_MAX_MANA_INT */
+     , (41037, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (41037, 109, 42) /* ITEM_DIFFICULTY_INT */
+     , (41037, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (41037, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41037, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (41037, 47, 2) /* ATTACK_TYPE_INT */
+     , (41037, 45, 32) /* DAMAGE_TYPE_INT */
+     , (41037, 49, 50) /* WEAPON_TIME_INT */
+     , (41037, 48, 41) /* WEAPON_SKILL_INT */
+     , (41037, 44, 26) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41037, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (41037, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
+     , (41037, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */
+     , (41037, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (41037, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41037, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41037, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41037, 1353) /* EnduranceSelf5_SpellID */
+     , (41037, 1615) /* BloodDrinker5_SpellID */;
+

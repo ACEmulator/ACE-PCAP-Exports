@@ -35,3 +35,11 @@ VALUES (11639, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11639, 1, True) /* STUCK_BOOL */
      , (11639, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11639, 19, 0) /* VALUE_INT */
+     , (11639, 5, 9000) /* ENCUMB_VAL_INT */
+     , (11639, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (11639, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+

@@ -41,3 +41,14 @@ VALUES (15813, 0, 83888936, 83886763);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15813, 0, 16778599);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15813, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */
+     , (15813, 15, 'A Key to Brontynn Marshad''s Chest.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15813, 19, 66) /* VALUE_INT */
+     , (15813, 5, 50) /* ENCUMB_VAL_INT */
+     , (15813, 91, 3) /* MAX_STRUCTURE_INT */;
+

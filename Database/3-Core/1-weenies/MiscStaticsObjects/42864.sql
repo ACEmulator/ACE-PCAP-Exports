@@ -29,3 +29,12 @@ VALUES (42864, 13, True) /* ETHEREAL_BOOL */
      , (42864, 19, True) /* ATTACKABLE_BOOL */
      , (42864, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42864, 16, 'The moar were deliberately brought to this world by the Falatacot in an attempt to undo the damage caused by the Dark Sisters. After taming the moars, the Falatacot used their magic to evolve many of the moars into the warrior creatures known as Moarsmen. There are only a handful of places on Dereth that one can still find the original unaltered moars.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42864, 19, 125) /* VALUE_INT */
+     , (42864, 5, 9000) /* ENCUMB_VAL_INT */;
+

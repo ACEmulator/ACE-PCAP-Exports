@@ -37,6 +37,22 @@ VALUES (5670, 13, True) /* ETHEREAL_BOOL */
      , (5670, 19, True) /* ATTACKABLE_BOOL */
      , (5670, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5670, 16, 'An apple of an uncommonly deep red, seeming to promise obscure knowledge. It would probably spoil if used in baking.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5670, 19, 125) /* VALUE_INT */
+     , (5670, 5, 50) /* ENCUMB_VAL_INT */
+     , (5670, 106, 50) /* ITEM_SPELLCRAFT_INT */
+     , (5670, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (5670, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (5670, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (5670, 678) /* ArcaneEnlightenmentSelf1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

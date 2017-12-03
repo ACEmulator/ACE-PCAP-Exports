@@ -37,3 +37,30 @@ VALUES (3781, 13, True) /* ETHEREAL_BOOL */
      , (3781, 19, True) /* ATTACKABLE_BOOL */
      , (3781, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3781, 16, 'Frost Dagger') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3781, 33, 1) /* BONDED_INT */
+     , (3781, 353, 6) /* WEAPON_TYPE_INT */
+     , (3781, 114, 1) /* ATTUNED_INT */
+     , (3781, 131, 51) /* MATERIAL_TYPE_INT */
+     , (3781, 19, 0) /* VALUE_INT */
+     , (3781, 5, 135) /* ENCUMB_VAL_INT */
+     , (3781, 105, 1) /* ITEM_WORKMANSHIP_INT */
+     , (3781, 47, 486) /* ATTACK_TYPE_INT */
+     , (3781, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3781, 49, 20) /* WEAPON_TIME_INT */
+     , (3781, 48, 46) /* WEAPON_SKILL_INT */
+     , (3781, 44, 7) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3781, 29, 1.077934) /* WEAPON_DEFENSE_FLOAT */
+     , (3781, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
+     , (3781, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3781, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3781, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3781, 62, 1.068972) /* WEAPON_OFFENSE_FLOAT */;
+

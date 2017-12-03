@@ -39,3 +39,29 @@ VALUES (7573, 13, True) /* ETHEREAL_BOOL */
      , (7573, 19, True) /* ATTACKABLE_BOOL */
      , (7573, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7573, 16, 'A spear crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7573, 353, 5) /* WEAPON_TYPE_INT */
+     , (7573, 33, 1) /* BONDED_INT */
+     , (7573, 114, 1) /* ATTUNED_INT */
+     , (7573, 19, 4000) /* VALUE_INT */
+     , (7573, 36, 9999) /* RESIST_MAGIC_INT */
+     , (7573, 5, 700) /* ENCUMB_VAL_INT */
+     , (7573, 47, 2) /* ATTACK_TYPE_INT */
+     , (7573, 45, 2) /* DAMAGE_TYPE_INT */
+     , (7573, 49, 30) /* WEAPON_TIME_INT */
+     , (7573, 48, 46) /* WEAPON_SKILL_INT */
+     , (7573, 44, 38) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7573, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (7573, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (7573, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (7573, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (7573, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (7573, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */;
+

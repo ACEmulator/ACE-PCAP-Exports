@@ -46,3 +46,40 @@ VALUES (21158, 0, 83894160, 83894160);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21158, 0, 16788049);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21158, 16, 'Covenant Shield') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21158, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (21158, 160, 200) /* WIELD_DIFFICULTY_INT */
+     , (21158, 19, 16599) /* VALUE_INT */
+     , (21158, 131, 59) /* MATERIAL_TYPE_INT */
+     , (21158, 115, 128) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (21158, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21158, 5, 2040) /* ENCUMB_VAL_INT */
+     , (21158, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (21158, 106, 164) /* ITEM_SPELLCRAFT_INT */
+     , (21158, 28, 114) /* ARMOR_LEVEL_INT */
+     , (21158, 108, 809) /* ITEM_MAX_MANA_INT */
+     , (21158, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (21158, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (21158, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (21158, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (21158, 159, 6) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21158, 5, -0.03333334) /* MANA_RATE_FLOAT */
+     , (21158, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (21158, 14, 1.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (21158, 15, 1.5) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (21158, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (21158, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (21158, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (21158, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (21158, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21158, 1484) /* Impenetrability4_SpellID */;
+

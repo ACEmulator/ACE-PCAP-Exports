@@ -35,6 +35,21 @@ VALUES (46285, 13, True) /* ETHEREAL_BOOL */
      , (46285, 14, True) /* GRAVITY_STATUS_BOOL */
      , (46285, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46285, 14, 'Lady Mashal Trianna may be interested in this.') /* USE_STRING */
+     , (46285, 15, 'A small, delicate cactus flower found only in the Lost City of Neftet.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46285, 33, 1) /* BONDED_INT */
+     , (46285, 114, 1) /* ATTUNED_INT */
+     , (46285, 19, 7) /* VALUE_INT */
+     , (46285, 5, 7) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46285, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

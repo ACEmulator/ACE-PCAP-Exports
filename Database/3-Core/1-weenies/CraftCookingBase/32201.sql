@@ -36,6 +36,16 @@ VALUES (32201, 13, True) /* ETHEREAL_BOOL */
      , (32201, 19, True) /* ATTACKABLE_BOOL */
      , (32201, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32201, 14, 'This item is used in cooking.') /* USE_STRING */
+     , (32201, 15, 'A pumpkin shaped cookie cutter.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32201, 19, 25) /* VALUE_INT */
+     , (32201, 5, 50) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

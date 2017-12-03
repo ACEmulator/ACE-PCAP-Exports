@@ -36,3 +36,40 @@ VALUES (32497, 13, True) /* ETHEREAL_BOOL */
      , (32497, 19, True) /* ATTACKABLE_BOOL */
      , (32497, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32497, 16, 'A spear once wielded by the ancient slave Baranaith, and touched by the seething energies of his brother Farelaith.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32497, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (32497, 353, 5) /* WEAPON_TYPE_INT */
+     , (32497, 19, 5000) /* VALUE_INT */
+     , (32497, 5, 350) /* ENCUMB_VAL_INT */
+     , (32497, 166, 22) /* SLAYER_CREATURE_TYPE_INT */
+     , (32497, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (32497, 108, 2000) /* ITEM_MAX_MANA_INT */
+     , (32497, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (32497, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (32497, 47, 2) /* ATTACK_TYPE_INT */
+     , (32497, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (32497, 45, 16) /* DAMAGE_TYPE_INT */
+     , (32497, 49, 50) /* WEAPON_TIME_INT */
+     , (32497, 48, 44) /* WEAPON_SKILL_INT */
+     , (32497, 44, 62) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32497, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (32497, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (32497, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (32497, 5, -0.033333) /* MANA_RATE_FLOAT */
+     , (32497, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (32497, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (32497, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (32497, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (32497, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (32497, 1616) /* BloodDrinker6_SpellID */
+     , (32497, 1626) /* SwiftKiller5_SpellID */;
+

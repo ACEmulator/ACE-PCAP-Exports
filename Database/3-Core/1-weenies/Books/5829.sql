@@ -34,6 +34,17 @@ VALUES (5829, 13, True) /* ETHEREAL_BOOL */
      , (5829, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5829, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5829, 16, 'An almost black piece of paper with shadowy writing.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5829, 19, 50) /* VALUE_INT */
+     , (5829, 5, 25) /* ENCUMB_VAL_INT */
+     , (5829, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (5829, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

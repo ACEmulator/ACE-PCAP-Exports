@@ -31,3 +31,14 @@ VALUES (30486, 13, True) /* ETHEREAL_BOOL */
      , (30486, 19, True) /* ATTACKABLE_BOOL */
      , (30486, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30486, 16, 'A stinking, smelly, decapitated Drudge head. This one came from the Robber Baron of Holtburg.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30486, 33, 1) /* BONDED_INT */
+     , (30486, 114, 1) /* ATTUNED_INT */
+     , (30486, 19, 0) /* VALUE_INT */
+     , (30486, 5, 10) /* ENCUMB_VAL_INT */;
+

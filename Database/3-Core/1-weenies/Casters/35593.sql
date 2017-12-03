@@ -44,3 +44,36 @@ VALUES (35593, 13, True) /* ETHEREAL_BOOL */
      , (35593, 19, True) /* ATTACKABLE_BOOL */
      , (35593, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35593, 16, 'It is said that Drudge Mystics can see the future in these orbs. Allowing them to prepare for battles to come.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35593, 160, 355) /* WIELD_DIFFICULTY_INT */
+     , (35593, 33, 1) /* BONDED_INT */
+     , (35593, 114, 0) /* ATTUNED_INT */
+     , (35593, 19, 7930) /* VALUE_INT */
+     , (35593, 5, 100) /* ENCUMB_VAL_INT */
+     , (35593, 106, 325) /* ITEM_SPELLCRAFT_INT */
+     , (35593, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (35593, 45, 1) /* DAMAGE_TYPE_INT */
+     , (35593, 109, 280) /* ITEM_DIFFICULTY_INT */
+     , (35593, 158, 1) /* WIELD_REQUIREMENTS_INT */
+     , (35593, 159, 31) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35593, 152, 1.2) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
+     , (35593, 144, 0.3) /* MANA_CONVERSION_MOD_FLOAT */
+     , (35593, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (35593, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35593, 2076) /* ManaBoostOther7_SpellID */
+     , (35593, 2242) /* ImpregnabilityOther7_SpellID */
+     , (35593, 2244) /* InvulnerabilityOther7_SpellID */
+     , (35593, 2507) /* CANTRIPCREATUREENCHANTMENTAPTITUDE2_SpellID */
+     , (35593, 2577) /* CANTRIPWILLPOWER2_SpellID */
+     , (35593, 2581) /* CANTRIPFOCUS1_SpellID */
+     , (35593, 2101) /* Defender7_SpellID */;
+

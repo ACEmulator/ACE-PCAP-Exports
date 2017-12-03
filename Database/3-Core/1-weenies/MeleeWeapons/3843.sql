@@ -37,3 +37,46 @@ VALUES (3843, 13, True) /* ETHEREAL_BOOL */
      , (3843, 19, True) /* ATTACKABLE_BOOL */
      , (3843, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3843, 16, 'Lightning Ono of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3843, 176, 45) /* APPRAISAL_ITEM_SKILL_INT */
+     , (3843, 160, 400) /* WIELD_DIFFICULTY_INT */
+     , (3843, 353, 3) /* WEAPON_TYPE_INT */
+     , (3843, 177, 1) /* GEM_COUNT_INT */
+     , (3843, 178, 21) /* GEM_TYPE_INT */
+     , (3843, 19, 12932) /* VALUE_INT */
+     , (3843, 131, 75) /* MATERIAL_TYPE_INT */
+     , (3843, 115, 314) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3843, 5, 496) /* ENCUMB_VAL_INT */
+     , (3843, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (3843, 106, 294) /* ITEM_SPELLCRAFT_INT */
+     , (3843, 108, 1984) /* ITEM_MAX_MANA_INT */
+     , (3843, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3843, 109, 170) /* ITEM_DIFFICULTY_INT */
+     , (3843, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (3843, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (3843, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (3843, 47, 4) /* ATTACK_TYPE_INT */
+     , (3843, 45, 64) /* DAMAGE_TYPE_INT */
+     , (3843, 49, 42) /* WEAPON_TIME_INT */
+     , (3843, 48, 45) /* WEAPON_SKILL_INT */
+     , (3843, 44, 49) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3843, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (3843, 29, 1.13) /* WEAPON_DEFENSE_FLOAT */
+     , (3843, 22, 0.85) /* DAMAGE_VARIANCE_FLOAT */
+     , (3843, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3843, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3843, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3843, 62, 1.19) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3843, 1616) /* BloodDrinker6_SpellID */
+     , (3843, 4661) /* CANTRIPBLOODTHIRST3_SpellID */
+     , (3843, 2101) /* Defender7_SpellID */;
+

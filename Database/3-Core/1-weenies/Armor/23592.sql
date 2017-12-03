@@ -45,3 +45,32 @@ VALUES (23592, 0, 83887059, 83889343);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23592, 0, 16778374);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23592, 16, 'It seems these gauntlets were crafted in order to aid the wearer in firing any type of missile weapon.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23592, 19, 6000) /* VALUE_INT */
+     , (23592, 5, 450) /* ENCUMB_VAL_INT */
+     , (23592, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (23592, 108, 1350) /* ITEM_MAX_MANA_INT */
+     , (23592, 28, 130) /* ARMOR_LEVEL_INT */
+     , (23592, 109, 170) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23592, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (23592, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (23592, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (23592, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (23592, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (23592, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (23592, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (23592, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (23592, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23592, 471) /* BowMasterySelf5_SpellID */
+     , (23592, 1377) /* CoordinationSelf5_SpellID */
+     , (23592, 248) /* InvulnerabilitySelf5_SpellID */;
+

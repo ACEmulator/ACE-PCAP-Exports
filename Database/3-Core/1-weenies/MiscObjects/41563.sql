@@ -31,6 +31,18 @@ VALUES (41563, 13, True) /* ETHEREAL_BOOL */
      , (41563, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41563, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41563, 16, 'A complicated amalgamation of Aetherium ore and forged metal parts, apparently part of the power core of some kind of mechanical creature.') /* LONG_DESC_STRING */
+     , (41563, 14, 'Deliver this trophy to Agents near 33.4S 6.3E') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41563, 33, 1) /* BONDED_INT */
+     , (41563, 114, 1) /* ATTUNED_INT */
+     , (41563, 19, 0) /* VALUE_INT */
+     , (41563, 5, 4) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

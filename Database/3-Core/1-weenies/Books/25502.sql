@@ -33,6 +33,17 @@ VALUES (25502, 13, True) /* ETHEREAL_BOOL */
      , (25502, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25502, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25502, 15, 'A receipt for funds due at a tavern') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25502, 19, 0) /* VALUE_INT */
+     , (25502, 5, 25) /* ENCUMB_VAL_INT */
+     , (25502, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (25502, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

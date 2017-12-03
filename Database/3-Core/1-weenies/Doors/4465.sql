@@ -33,3 +33,17 @@ VALUES (4465, 13, True) /* ETHEREAL_BOOL */
      , (4465, 19, True) /* ATTACKABLE_BOOL */
      , (4465, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4465, 14, 'Use this item to open it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4465, 19, 0) /* VALUE_INT */
+     , (4465, 38, 322) /* RESIST_LOCKPICK_INT */
+     , (4465, 173, 99) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (4465, 2, 0) /* OPEN_BOOL */
+     , (4465, 3, 1) /* LOCKED_BOOL */;
+

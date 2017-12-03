@@ -75,3 +75,36 @@ VALUES (28699, 12, 16778423)
      , (28699, 13, 16791903)
      , (28699, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28699, 5, 'Mother of Silyun') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (28699, 16, 67110063) /* EYES_PALETTE_DID */
+     , (28699, 9, 83890284) /* EYES_TEXTURE_DID */
+     , (28699, 17, 67115903) /* SKIN_PALETTE_DID */
+     , (28699, 10, 83890302) /* NOSE_TEXTURE_DID */
+     , (28699, 11, 83890354) /* MOUTH_TEXTURE_DID */
+     , (28699, 15, 67116985) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28699, 113, 2) /* GENDER_INT */
+     , (28699, 2, 31) /* CREATURE_TYPE_INT */
+     , (28699, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (28699, 25, 43) /* LEVEL_INT */
+     , (28699, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (28699, 1, 110) /* STRENGTH_ATTRIBUTE */
+     , (28699, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (28699, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (28699, 8, 96) /* QUICKNESS_ATTRIBUTE */
+     , (28699, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (28699, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (28699, 64, 162) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (28699, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (28699, 256, 273) /* MAX_MANA_ATTRIBUTE_2ND */;
+

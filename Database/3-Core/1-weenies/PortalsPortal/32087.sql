@@ -33,3 +33,12 @@ VALUES (32087, 13, True) /* ETHEREAL_BOOL */
      , (32087, 19, True) /* ATTACKABLE_BOOL */
      , (32087, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32087, 16, 'This portal seems to have become unstable. It would be very unwise to use a portal in this state.') /* LONG_DESC_STRING */
+     , (32087, 38, 'Unstable Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32087, 111, 0) /* PORTAL_BITMASK_INT */;
+

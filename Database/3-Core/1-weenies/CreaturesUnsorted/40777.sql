@@ -32,6 +32,34 @@ VALUES (40777, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (40777, 19, True) /* ATTACKABLE_BOOL */
      , (40777, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40777, 2, 20) /* CREATURE_TYPE_INT */
+     , (40777, 25, 135) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (40777, 64, 1120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40777, 2, 20) /* CREATURE_TYPE_INT */
+     , (40777, 25, 135) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (40777, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (40777, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (40777, 4, 150) /* COORDINATION_ATTRIBUTE */
+     , (40777, 8, 220) /* QUICKNESS_ATTRIBUTE */
+     , (40777, 16, 370) /* FOCUS_ATTRIBUTE */
+     , (40777, 32, 370) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (40777, 64, 1120) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (40777, 128, 1220) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (40777, 256, 490) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

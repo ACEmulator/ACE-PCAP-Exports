@@ -69,3 +69,31 @@ VALUES (21962, 0, 16779464)
      , (21962, 7, 16777708)
      , (21962, 8, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21962, 16, 'A crossbow crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21962, 353, 9) /* WEAPON_TYPE_INT */
+     , (21962, 33, 1) /* BONDED_INT */
+     , (21962, 114, 1) /* ATTUNED_INT */
+     , (21962, 19, 4000) /* VALUE_INT */
+     , (21962, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21962, 5, 980) /* ENCUMB_VAL_INT */
+     , (21962, 45, 0) /* DAMAGE_TYPE_INT */
+     , (21962, 49, 60) /* WEAPON_TIME_INT */
+     , (21962, 48, 47) /* WEAPON_SKILL_INT */
+     , (21962, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21962, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (21962, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (21962, 63, 3.75) /* DAMAGE_MOD_FLOAT */
+     , (21962, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (21962, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (21962, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21962, 99, 1) /* IVORYABLE_BOOL */;
+

@@ -44,3 +44,17 @@ VALUES (25482, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25482, 0, 16783934);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25482, 16, 'A smelly, slimy olthoi gland.') /* LONG_DESC_STRING */
+     , (25482, 14, 'This gland can be used to open an Olthoi door.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25482, 19, 10) /* VALUE_INT */
+     , (25482, 5, 50) /* ENCUMB_VAL_INT */
+     , (25482, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25482, 69, 0) /* IS_SELLABLE_BOOL */;
+

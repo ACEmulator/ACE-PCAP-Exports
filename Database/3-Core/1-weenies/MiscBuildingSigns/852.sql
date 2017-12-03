@@ -29,3 +29,12 @@ VALUES (852, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (852, 19, True) /* ATTACKABLE_BOOL */
      , (852, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (852, 16, 'Spire of Serenity') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (852, 19, 125) /* VALUE_INT */
+     , (852, 5, 9000) /* ENCUMB_VAL_INT */;
+

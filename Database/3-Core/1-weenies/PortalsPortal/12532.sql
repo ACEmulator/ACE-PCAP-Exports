@@ -33,3 +33,11 @@ VALUES (12532, 13, True) /* ETHEREAL_BOOL */
      , (12532, 19, True) /* ATTACKABLE_BOOL */
      , (12532, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12532, 38, 'North Baishi Cottages Portal (45.0S, 63.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12532, 111, 1) /* PORTAL_BITMASK_INT */;
+

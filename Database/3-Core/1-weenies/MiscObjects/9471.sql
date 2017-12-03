@@ -34,3 +34,14 @@ VALUES (9471, 13, True) /* ETHEREAL_BOOL */
      , (9471, 19, True) /* ATTACKABLE_BOOL */
      , (9471, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9471, 15, 'A Lugian gift, traded in return for the Blade of the Heart') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9471, 33, 1) /* BONDED_INT */
+     , (9471, 114, 1) /* ATTUNED_INT */
+     , (9471, 19, 0) /* VALUE_INT */
+     , (9471, 5, 200) /* ENCUMB_VAL_INT */;
+

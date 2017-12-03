@@ -47,3 +47,44 @@ VALUES (135, 0, 83886825, 83886825);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (135, 0, 16778601);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (135, 16, 'Turban of Recklessness') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (135, 177, 3) /* GEM_COUNT_INT */
+     , (135, 178, 43) /* GEM_TYPE_INT */
+     , (135, 19, 24263) /* VALUE_INT */
+     , (135, 131, 5) /* MATERIAL_TYPE_INT */
+     , (135, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (135, 5, 15) /* ENCUMB_VAL_INT */
+     , (135, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (135, 106, 275) /* ITEM_SPELLCRAFT_INT */
+     , (135, 28, 278) /* ARMOR_LEVEL_INT */
+     , (135, 108, 1284) /* ITEM_MAX_MANA_INT */
+     , (135, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (135, 109, 275) /* ITEM_DIFFICULTY_INT */
+     , (135, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (135, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (135, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (135, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (135, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (135, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (135, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (135, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (135, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (135, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (135, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (135, 5832) /* recklessnessmasteryself6_SpellID */
+     , (135, 1485) /* Impenetrability5_SpellID */
+     , (135, 1552) /* FlameBane6_SpellID */
+     , (135, 1497) /* AcidBane5_SpellID */
+     , (135, 1562) /* BladeBane6_SpellID */;
+

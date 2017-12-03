@@ -34,3 +34,18 @@ VALUES (40269, 13, True) /* ETHEREAL_BOOL */
      , (40269, 19, True) /* ATTACKABLE_BOOL */
      , (40269, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40269, 16, 'A surprisingly intricate key.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40269, 33, 1) /* BONDED_INT */
+     , (40269, 114, 1) /* ATTUNED_INT */
+     , (40269, 19, 0) /* VALUE_INT */
+     , (40269, 5, 20) /* ENCUMB_VAL_INT */
+     , (40269, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (40269, 69, 0) /* IS_SELLABLE_BOOL */;
+

@@ -102,3 +102,36 @@ VALUES (49584, 12, 16778423)
      , (49584, 21, 16777708)
      , (49584, 22, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49584, 5, 'Seeker of Ancient Knowledge') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (49584, 16, 67109565) /* EYES_PALETTE_DID */
+     , (49584, 9, 83890260) /* EYES_TEXTURE_DID */
+     , (49584, 17, 67110045) /* SKIN_PALETTE_DID */
+     , (49584, 10, 83890298) /* NOSE_TEXTURE_DID */
+     , (49584, 11, 83890350) /* MOUTH_TEXTURE_DID */
+     , (49584, 15, 67117002) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49584, 113, 2) /* GENDER_INT */
+     , (49584, 2, 31) /* CREATURE_TYPE_INT */
+     , (49584, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (49584, 25, 250) /* LEVEL_INT */
+     , (49584, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (49584, 1, 330) /* STRENGTH_ATTRIBUTE */
+     , (49584, 2, 305) /* ENDURANCE_ATTRIBUTE */
+     , (49584, 4, 380) /* COORDINATION_ATTRIBUTE */
+     , (49584, 8, 350) /* QUICKNESS_ATTRIBUTE */
+     , (49584, 16, 350) /* FOCUS_ATTRIBUTE */
+     , (49584, 32, 290) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (49584, 64, 408) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (49584, 128, 505) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (49584, 256, 1045) /* MAX_MANA_ATTRIBUTE_2ND */;
+

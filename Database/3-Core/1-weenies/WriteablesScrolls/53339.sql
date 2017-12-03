@@ -35,3 +35,17 @@ VALUES (53339, 13, True) /* ETHEREAL_BOOL */
      , (53339, 19, True) /* ATTACKABLE_BOOL */
      , (53339, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53339, 16, 'Inscribed spell: Nuhmudira''s Spines II
+Shoots eight waves of force outward from the caster. Each wave does 49-98 points of piercing damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (53339, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53339, 19, 200) /* VALUE_INT */
+     , (53339, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (53339, 6192) /* NuhmudirasSpinesII_SpellID */;
+

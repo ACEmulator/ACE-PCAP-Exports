@@ -41,3 +41,31 @@ VALUES (3829, 13, True) /* ETHEREAL_BOOL */
      , (3829, 19, True) /* ATTACKABLE_BOOL */
      , (3829, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3829, 16, 'Frost Khanjar') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3829, 177, 2) /* GEM_COUNT_INT */
+     , (3829, 353, 6) /* WEAPON_TYPE_INT */
+     , (3829, 178, 49) /* GEM_TYPE_INT */
+     , (3829, 131, 64) /* MATERIAL_TYPE_INT */
+     , (3829, 19, 2925) /* VALUE_INT */
+     , (3829, 5, 96) /* ENCUMB_VAL_INT */
+     , (3829, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (3829, 172, 7) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (3829, 47, 4) /* ATTACK_TYPE_INT */
+     , (3829, 45, 8) /* DAMAGE_TYPE_INT */
+     , (3829, 49, 16) /* WEAPON_TIME_INT */
+     , (3829, 48, 46) /* WEAPON_SKILL_INT */
+     , (3829, 44, 9) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (3829, 29, 1.038769) /* WEAPON_DEFENSE_FLOAT */
+     , (3829, 22, 0.99) /* DAMAGE_VARIANCE_FLOAT */
+     , (3829, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (3829, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (3829, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (3829, 62, 1.087531) /* WEAPON_OFFENSE_FLOAT */;
+

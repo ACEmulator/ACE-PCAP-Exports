@@ -34,3 +34,14 @@ VALUES (10846, 13, True) /* ETHEREAL_BOOL */
      , (10846, 19, True) /* ATTACKABLE_BOOL */
      , (10846, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10846, 16, 'The pincer off of an Olthoi Legionary, desired by Behdo Yii at 40.8N, 83.3W in Redspire.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10846, 33, 1) /* BONDED_INT */
+     , (10846, 114, 1) /* ATTUNED_INT */
+     , (10846, 19, 0) /* VALUE_INT */
+     , (10846, 5, 100) /* ENCUMB_VAL_INT */;
+

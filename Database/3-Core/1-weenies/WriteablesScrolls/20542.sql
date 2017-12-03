@@ -35,3 +35,17 @@ VALUES (20542, 13, True) /* ETHEREAL_BOOL */
      , (20542, 19, True) /* ATTACKABLE_BOOL */
      , (20542, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20542, 16, 'Inscribed spell: Yoshi''s Boon
+Increases the target''s Item Tinkering skill by 40 points.') /* LONG_DESC_STRING */
+     , (20542, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20542, 19, 2000) /* VALUE_INT */
+     , (20542, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20542, 2250) /* ItemExpertiseOther7_SpellID */;
+

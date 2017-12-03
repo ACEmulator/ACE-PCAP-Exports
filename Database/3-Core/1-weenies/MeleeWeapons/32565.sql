@@ -37,3 +37,28 @@ VALUES (32565, 13, True) /* ETHEREAL_BOOL */
      , (32565, 19, True) /* ATTACKABLE_BOOL */
      , (32565, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32565, 15, 'A sword forged in commemoration of the slain hero, Antius Blackmoor.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32565, 353, 2) /* WEAPON_TYPE_INT */
+     , (32565, 5, 4500) /* ENCUMB_VAL_INT */
+     , (32565, 47, 6) /* ATTACK_TYPE_INT */
+     , (32565, 45, 0) /* DAMAGE_TYPE_INT */
+     , (32565, 49, -1) /* WEAPON_TIME_INT */
+     , (32565, 48, 44) /* WEAPON_SKILL_INT */
+     , (32565, 44, -1) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32565, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (32565, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (32565, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (32565, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (32565, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (32565, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (32565, 69, 0) /* IS_SELLABLE_BOOL */;
+

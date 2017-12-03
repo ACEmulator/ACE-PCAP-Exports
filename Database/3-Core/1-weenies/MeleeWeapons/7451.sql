@@ -43,3 +43,43 @@ VALUES (7451, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7451, 0, 16783999);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7451, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (7451, 33, 1) /* BONDED_INT */
+     , (7451, 353, 1) /* WEAPON_TYPE_INT */
+     , (7451, 114, 1) /* ATTUNED_INT */
+     , (7451, 19, 5000) /* VALUE_INT */
+     , (7451, 5, 135) /* ENCUMB_VAL_INT */
+     , (7451, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (7451, 108, 750) /* ITEM_MAX_MANA_INT */
+     , (7451, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (7451, 47, 1) /* ATTACK_TYPE_INT */
+     , (7451, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (7451, 45, 1) /* DAMAGE_TYPE_INT */
+     , (7451, 49, 0) /* WEAPON_TIME_INT */
+     , (7451, 48, 44) /* WEAPON_SKILL_INT */
+     , (7451, 44, 85) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7451, 29, 1.31) /* WEAPON_DEFENSE_FLOAT */
+     , (7451, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (7451, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
+     , (7451, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (7451, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (7451, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (7451, 62, 1.26) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7451, 99, 1) /* IVORYABLE_BOOL */
+     , (7451, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7451, 1605) /* Defender6_SpellID */
+     , (7451, 1616) /* BloodDrinker6_SpellID */
+     , (7451, 1627) /* SwiftKiller6_SpellID */
+     , (7451, 423) /* SwordMasterySelf6_SpellID */
+     , (7451, 1846) /* MagicYieldBlackFire_SpellID */
+     , (7451, 1592) /* HeartSeeker6_SpellID */;
+

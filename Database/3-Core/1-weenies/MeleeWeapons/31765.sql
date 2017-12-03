@@ -52,3 +52,45 @@ VALUES (31765, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31765, 0, 16792609);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31765, 16, 'Acid Lugian Hammer of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31765, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31765, 160, 430) /* WIELD_DIFFICULTY_INT */
+     , (31765, 353, 3) /* WEAPON_TYPE_INT */
+     , (31765, 177, 3) /* GEM_COUNT_INT */
+     , (31765, 178, 38) /* GEM_TYPE_INT */
+     , (31765, 19, 17813) /* VALUE_INT */
+     , (31765, 131, 73) /* MATERIAL_TYPE_INT */
+     , (31765, 115, 308) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31765, 5, 389) /* ENCUMB_VAL_INT */
+     , (31765, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (31765, 106, 288) /* ITEM_SPELLCRAFT_INT */
+     , (31765, 108, 1517) /* ITEM_MAX_MANA_INT */
+     , (31765, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31765, 109, 72) /* ITEM_DIFFICULTY_INT */
+     , (31765, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31765, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31765, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (31765, 47, 4) /* ATTACK_TYPE_INT */
+     , (31765, 45, 32) /* DAMAGE_TYPE_INT */
+     , (31765, 49, 41) /* WEAPON_TIME_INT */
+     , (31765, 48, 44) /* WEAPON_SKILL_INT */
+     , (31765, 44, 71) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31765, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (31765, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
+     , (31765, 22, 0.97) /* DAMAGE_VARIANCE_FLOAT */
+     , (31765, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (31765, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31765, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31765, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31765, 2521) /* CANTRIPLOCKPICKPROWESS2_SpellID */
+     , (31765, 2096) /* BloodDrinker7_SpellID */;
+

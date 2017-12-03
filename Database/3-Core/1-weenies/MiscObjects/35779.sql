@@ -35,3 +35,9 @@ VALUES (35779, 13, True) /* ETHEREAL_BOOL */
      , (35779, 19, True) /* ATTACKABLE_BOOL */
      , (35779, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35779, 19, 165) /* VALUE_INT */
+     , (35779, 5, 10) /* ENCUMB_VAL_INT */;
+

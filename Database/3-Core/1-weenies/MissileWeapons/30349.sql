@@ -47,3 +47,49 @@ VALUES (30349, 0, 83897125, 83897125);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30349, 0, 16792029);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30349, 16, 'Oddly enough, this was used as a kitchen ladle before it was pressed into service as an atlatl.  Apparently due to the ladle''s resemblance to a serpent it was deemed inappropriate for use in the kitchen. After all, serpents are synonymous with poison.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30349, 320, 1) /* ITEM_XP_STYLE_INT */
+     , (30349, 17, 252) /* RARE_ID_INT */
+     , (30349, 353, 10) /* WEAPON_TYPE_INT */
+     , (30349, 179, 128) /* IMBUED_EFFECT_INT */
+     , (30349, 19, 50000) /* VALUE_INT */
+     , (30349, 5, 500) /* ENCUMB_VAL_INT */
+     , (30349, 166, 31) /* SLAYER_CREATURE_TYPE_INT */
+     , (30349, 265, 41) /* EQUIPMENT_SET_ID_INT */
+     , (30349, 106, 350) /* ITEM_SPELLCRAFT_INT */
+     , (30349, 204, 15) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (30349, 108, 2500) /* ITEM_MAX_MANA_INT */
+     , (30349, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (30349, 319, 50) /* ITEM_MAX_LEVEL_INT */
+     , (30349, 45, 8) /* DAMAGE_TYPE_INT */
+     , (30349, 49, 0) /* WEAPON_TIME_INT */
+     , (30349, 48, 47) /* WEAPON_SKILL_INT */
+     , (30349, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (30349, 4, 1488265263) /* ITEM_TOTAL_XP_INT64 */
+     , (30349, 5, 2000000000) /* ITEM_BASE_XP_INT64 */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30349, 29, 1.38) /* WEAPON_DEFENSE_FLOAT */
+     , (30349, 5, -0.0333333) /* MANA_RATE_FLOAT */
+     , (30349, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (30349, 63, 2.9) /* DAMAGE_MOD_FLOAT */
+     , (30349, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30349, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30349, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30349, 4417) /* Swiftkiller8_SpellID */
+     , (30349, 4687) /* CANTRIPBOWAPTITUDE3_SpellID */
+     , (30349, 4688) /* CANTRIPCOOKINGPROWESS3_SpellID */
+     , (30349, 4460) /* AcidProtectionSelf8_SpellID */
+     , (30349, 4526) /* CookingMasterySelf8_SpellID */
+     , (30349, 4400) /* Defender8_SpellID */
+     , (30349, 4596) /* MagicResistanceSelf8_SpellID */;
+

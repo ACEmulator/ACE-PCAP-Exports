@@ -32,3 +32,13 @@ VALUES (51593, 13, True) /* ETHEREAL_BOOL */
      , (51593, 19, True) /* ATTACKABLE_BOOL */
      , (51593, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51593, 14, 'You can use this item on roof hooks. ') /* USE_STRING */
+     , (51593, 15, 'A cloud swirling with electric energy.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51593, 19, 1) /* VALUE_INT */
+     , (51593, 5, 2500) /* ENCUMB_VAL_INT */;
+

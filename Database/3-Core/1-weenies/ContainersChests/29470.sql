@@ -37,6 +37,22 @@ VALUES (29470, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29470, 19, True) /* ATTACKABLE_BOOL */
      , (29470, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29470, 14, 'Use this item to open it and see its contents.') /* USE_STRING */
+     , (29470, 15, 'A chest in the Prison Warden''s quarters, presumably meant to contain items confiscated from prisoners.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29470, 19, 2500) /* VALUE_INT */
+     , (29470, 5, 11796) /* ENCUMB_VAL_INT */
+     , (29470, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (29470, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (29470, 2, 0) /* OPEN_BOOL */
+     , (29470, 3, 1) /* LOCKED_BOOL */;
+
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

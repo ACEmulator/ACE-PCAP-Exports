@@ -34,3 +34,20 @@ VALUES (43533, 13, True) /* ETHEREAL_BOOL */
      , (43533, 19, True) /* ATTACKABLE_BOOL */
      , (43533, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43533, 16, 'A Mnemosyne, plucked from the decomposing form of Battle Lord Gregor, the Undead General overseeing the Gurog.') /* LONG_DESC_STRING */
+     , (43533, 14, 'Bring this to Nalicana.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43533, 33, 1) /* BONDED_INT */
+     , (43533, 114, 1) /* ATTUNED_INT */
+     , (43533, 19, 0) /* VALUE_INT */
+     , (43533, 5, 200) /* ENCUMB_VAL_INT */
+     , (43533, 279, 1) /* UNIQUE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43533, 99, 0) /* IVORYABLE_BOOL */
+     , (43533, 69, 0) /* IS_SELLABLE_BOOL */;
+

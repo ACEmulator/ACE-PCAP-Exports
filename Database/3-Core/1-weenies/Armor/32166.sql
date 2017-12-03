@@ -35,3 +35,23 @@ VALUES (32166, 13, True) /* ETHEREAL_BOOL */
      , (32166, 19, True) /* ATTACKABLE_BOOL */
      , (32166, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32166, 16, 'A Snowman Mask accessorized with a stylish hat.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32166, 19, 200) /* VALUE_INT */
+     , (32166, 5, 300) /* ENCUMB_VAL_INT */
+     , (32166, 28, 10) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32166, 13, 0.29) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (32166, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (32166, 15, 0.29) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (32166, 16, 0.29) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (32166, 17, 0.43) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (32166, 18, 0.29) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (32166, 19, 0.29) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (32166, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

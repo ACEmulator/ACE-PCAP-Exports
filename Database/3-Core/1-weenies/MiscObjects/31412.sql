@@ -31,3 +31,15 @@ VALUES (31412, 13, True) /* ETHEREAL_BOOL */
      , (31412, 19, True) /* ATTACKABLE_BOOL */
      , (31412, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31412, 16, 'An unreadable tome written in the runic language of the Dericost.') /* LONG_DESC_STRING */
+     , (31412, 14, 'Bring this tome to Kuyiza bint Zayi in Zaikhal for translation.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31412, 33, 1) /* BONDED_INT */
+     , (31412, 114, 1) /* ATTUNED_INT */
+     , (31412, 19, 0) /* VALUE_INT */
+     , (31412, 5, 50) /* ENCUMB_VAL_INT */;
+

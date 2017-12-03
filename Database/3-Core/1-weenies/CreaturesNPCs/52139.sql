@@ -89,6 +89,39 @@ VALUES (52139, 12, 16778423)
      , (52139, 16, 16795674)
      , (52139, 22, 16792793);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52139, 5, 'Keeper of Whispered Lore') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (52139, 16, 67116845) /* EYES_PALETTE_DID */
+     , (52139, 9, 83890277) /* EYES_TEXTURE_DID */
+     , (52139, 17, 67116850) /* SKIN_PALETTE_DID */
+     , (52139, 10, 83890317) /* NOSE_TEXTURE_DID */
+     , (52139, 11, 83890342) /* MOUTH_TEXTURE_DID */
+     , (52139, 15, 67117070) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52139, 113, 2) /* GENDER_INT */
+     , (52139, 2, 31) /* CREATURE_TYPE_INT */
+     , (52139, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (52139, 25, 30) /* LEVEL_INT */
+     , (52139, 188, 10) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (52139, 1, 110) /* STRENGTH_ATTRIBUTE */
+     , (52139, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (52139, 4, 120) /* COORDINATION_ATTRIBUTE */
+     , (52139, 8, 120) /* QUICKNESS_ATTRIBUTE */
+     , (52139, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (52139, 32, 100) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (52139, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (52139, 128, 230) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (52139, 256, 105) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

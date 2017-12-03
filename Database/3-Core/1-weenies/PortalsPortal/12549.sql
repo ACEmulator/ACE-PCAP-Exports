@@ -33,3 +33,11 @@ VALUES (12549, 13, True) /* ETHEREAL_BOOL */
      , (12549, 19, True) /* ATTACKABLE_BOOL */
      , (12549, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12549, 38, 'Southeast Arwic Settlement Portal (28.7N, 59.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12549, 111, 1) /* PORTAL_BITMASK_INT */;
+

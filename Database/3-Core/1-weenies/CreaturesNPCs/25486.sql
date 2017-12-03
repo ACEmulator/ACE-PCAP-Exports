@@ -89,3 +89,36 @@ VALUES (25486, 12, 16777304)
      , (25486, 4, 16777291)
      , (25486, 8, 16777298);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25486, 5, 'Drunken Miner') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (25486, 16, 67110063) /* EYES_PALETTE_DID */
+     , (25486, 9, 83890516) /* EYES_TEXTURE_DID */
+     , (25486, 17, 67110057) /* SKIN_PALETTE_DID */
+     , (25486, 10, 83890561) /* NOSE_TEXTURE_DID */
+     , (25486, 11, 83890638) /* MOUTH_TEXTURE_DID */
+     , (25486, 15, 67117079) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25486, 113, 1) /* GENDER_INT */
+     , (25486, 2, 31) /* CREATURE_TYPE_INT */
+     , (25486, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (25486, 25, 15) /* LEVEL_INT */
+     , (25486, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (25486, 1, 85) /* STRENGTH_ATTRIBUTE */
+     , (25486, 2, 75) /* ENDURANCE_ATTRIBUTE */
+     , (25486, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (25486, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (25486, 16, 160) /* FOCUS_ATTRIBUTE */
+     , (25486, 32, 180) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (25486, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (25486, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (25486, 256, 180) /* MAX_MANA_ATTRIBUTE_2ND */;
+

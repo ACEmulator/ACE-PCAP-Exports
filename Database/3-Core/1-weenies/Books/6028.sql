@@ -34,6 +34,17 @@ VALUES (6028, 13, True) /* ETHEREAL_BOOL */
      , (6028, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6028, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6028, 16, 'A note from Devana bint Hamudi to her father, Hamud ibn Rafik.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6028, 19, 5) /* VALUE_INT */
+     , (6028, 5, 25) /* ENCUMB_VAL_INT */
+     , (6028, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (6028, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -42,3 +42,16 @@ VALUES (10968, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10968, 9, 16785620);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10968, 16, 'A key of Virindi origin, taken from the Tumerok raider Hea Karenua.') /* LONG_DESC_STRING */
+     , (10968, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10968, 33, 1) /* BONDED_INT */
+     , (10968, 114, 1) /* ATTUNED_INT */
+     , (10968, 19, 5) /* VALUE_INT */
+     , (10968, 5, 10) /* ENCUMB_VAL_INT */
+     , (10968, 91, 1) /* MAX_STRUCTURE_INT */;
+

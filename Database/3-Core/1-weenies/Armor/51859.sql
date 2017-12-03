@@ -38,3 +38,42 @@ VALUES (51859, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51859, 0, 16797001);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51859, 15, 'A mask crafted from the damaged mask of a Rynthid Sorcerer of Rage.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51859, 160, 180) /* WIELD_DIFFICULTY_INT */
+     , (51859, 33, 1) /* BONDED_INT */
+     , (51859, 114, 1) /* ATTUNED_INT */
+     , (51859, 19, 0) /* VALUE_INT */
+     , (51859, 5, 200) /* ENCUMB_VAL_INT */
+     , (51859, 265, 14) /* EQUIPMENT_SET_ID_INT */
+     , (51859, 106, 500) /* ITEM_SPELLCRAFT_INT */
+     , (51859, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (51859, 28, 440) /* ARMOR_LEVEL_INT */
+     , (51859, 109, 240) /* ITEM_DIFFICULTY_INT */
+     , (51859, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (51859, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (51859, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (51859, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (51859, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (51859, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (51859, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (51859, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (51859, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (51859, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (51859, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51859, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (51859, 4227) /* CANTRIPWILLPOWER3_SpellID */
+     , (51859, 6105) /* CantripFocus4_SpellID */
+     , (51859, 6051) /* CantripFealty4_SpellID */
+     , (51859, 4407) /* Impenetrability8_SpellID */;
+

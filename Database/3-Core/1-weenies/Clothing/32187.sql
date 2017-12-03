@@ -49,3 +49,23 @@ VALUES (32187, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32187, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32187, 16, 'A robe celebrating the Festival Season.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32187, 19, 42) /* VALUE_INT */
+     , (32187, 5, 200) /* ENCUMB_VAL_INT */
+     , (32187, 28, 0) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (32187, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (32187, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (32187, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (32187, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (32187, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (32187, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (32187, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (32187, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

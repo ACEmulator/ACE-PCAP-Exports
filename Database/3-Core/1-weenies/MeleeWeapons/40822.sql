@@ -47,3 +47,34 @@ VALUES (40822, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40822, 0, 16794281);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40822, 16, 'Frost Corsesca') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40822, 160, 350) /* WIELD_DIFFICULTY_INT */
+     , (40822, 353, 11) /* WEAPON_TYPE_INT */
+     , (40822, 177, 2) /* GEM_COUNT_INT */
+     , (40822, 178, 16) /* GEM_TYPE_INT */
+     , (40822, 19, 6974) /* VALUE_INT */
+     , (40822, 131, 51) /* MATERIAL_TYPE_INT */
+     , (40822, 5, 569) /* ENCUMB_VAL_INT */
+     , (40822, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (40822, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40822, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40822, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (40822, 47, 2) /* ATTACK_TYPE_INT */
+     , (40822, 45, 8) /* DAMAGE_TYPE_INT */
+     , (40822, 49, 44) /* WEAPON_TIME_INT */
+     , (40822, 48, 41) /* WEAPON_SKILL_INT */
+     , (40822, 44, 31) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40822, 29, 1.13) /* WEAPON_DEFENSE_FLOAT */
+     , (40822, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */
+     , (40822, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (40822, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (40822, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (40822, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
+

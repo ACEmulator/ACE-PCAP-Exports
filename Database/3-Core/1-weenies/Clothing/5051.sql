@@ -49,3 +49,23 @@ VALUES (5051, 0, 83887061, 83886686)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5051, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5051, 15, 'An attractively cut green shirt with yellow embroidery on the collar.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5051, 19, 15) /* VALUE_INT */
+     , (5051, 5, 75) /* ENCUMB_VAL_INT */
+     , (5051, 28, 0) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (5051, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (5051, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (5051, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (5051, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (5051, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (5051, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (5051, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (5051, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

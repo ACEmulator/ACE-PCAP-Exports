@@ -34,3 +34,13 @@ VALUES (42164, 13, True) /* ETHEREAL_BOOL */
      , (42164, 19, True) /* ATTACKABLE_BOOL */
      , (42164, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42164, 16, 'A portal leading to a fort where Jacob''s Axe may be found.') /* LONG_DESC_STRING */
+     , (42164, 38, 'Skeleton Fort (32.3N, 66.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42164, 86, 35) /* MIN_LEVEL_INT */
+     , (42164, 111, 49) /* PORTAL_BITMASK_INT */;
+

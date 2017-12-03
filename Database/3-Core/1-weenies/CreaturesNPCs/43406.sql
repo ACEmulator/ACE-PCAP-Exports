@@ -100,3 +100,59 @@ VALUES (43406, 5, 16794677)
      , (43406, 8, 16794679)
      , (43406, 16, 16794673);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43406, 5, 'Seer of the Haebraen') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (43406, 16, 67116856) /* EYES_PALETTE_DID */
+     , (43406, 9, 83890516) /* EYES_TEXTURE_DID */
+     , (43406, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (43406, 10, 83890549) /* NOSE_TEXTURE_DID */
+     , (43406, 11, 83890636) /* MOUTH_TEXTURE_DID */
+     , (43406, 15, 67117101) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43406, 113, 1) /* GENDER_INT */
+     , (43406, 2, 31) /* CREATURE_TYPE_INT */
+     , (43406, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (43406, 25, 600) /* LEVEL_INT */
+     , (43406, 188, 9) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43406, 64, 700) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43406, 5, 'Seer of the Haebraen') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (43406, 16, 67116854) /* EYES_PALETTE_DID */
+     , (43406, 9, 83890479) /* EYES_TEXTURE_DID */
+     , (43406, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (43406, 10, 83890553) /* NOSE_TEXTURE_DID */
+     , (43406, 11, 83890640) /* MOUTH_TEXTURE_DID */
+     , (43406, 15, 67117073) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43406, 113, 1) /* GENDER_INT */
+     , (43406, 2, 31) /* CREATURE_TYPE_INT */
+     , (43406, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (43406, 25, 600) /* LEVEL_INT */
+     , (43406, 188, 9) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (43406, 1, 400) /* STRENGTH_ATTRIBUTE */
+     , (43406, 2, 610) /* ENDURANCE_ATTRIBUTE */
+     , (43406, 4, 300) /* COORDINATION_ATTRIBUTE */
+     , (43406, 8, 300) /* QUICKNESS_ATTRIBUTE */
+     , (43406, 16, 400) /* FOCUS_ATTRIBUTE */
+     , (43406, 32, 500) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43406, 64, 700) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (43406, 128, 900) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (43406, 256, 3500) /* MAX_MANA_ATTRIBUTE_2ND */;
+

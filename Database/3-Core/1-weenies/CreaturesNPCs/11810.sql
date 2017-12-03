@@ -114,3 +114,26 @@ VALUES (11810, 0, 16783894)
      , (11810, 8, 16781817)
      , (11810, 16, 16779635);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11810, 5, 'Quartermaster') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (11810, 16, 67110062) /* EYES_PALETTE_DID */
+     , (11810, 9, 83890482) /* EYES_TEXTURE_DID */
+     , (11810, 17, 67109553) /* SKIN_PALETTE_DID */
+     , (11810, 10, 83890539) /* NOSE_TEXTURE_DID */
+     , (11810, 11, 83890658) /* MOUTH_TEXTURE_DID */
+     , (11810, 15, 67117022) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11810, 113, 1) /* GENDER_INT */
+     , (11810, 2, 31) /* CREATURE_TYPE_INT */
+     , (11810, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (11810, 25, 33) /* LEVEL_INT */
+     , (11810, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (11810, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

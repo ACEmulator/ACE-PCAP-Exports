@@ -35,3 +35,17 @@ VALUES (43297, 13, True) /* ETHEREAL_BOOL */
      , (43297, 19, True) /* ATTACKABLE_BOOL */
      , (43297, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43297, 16, 'Inscribed spell: Nether Arc IV
+Shoots a bolt of nether at the target. The bolt does 73-147 points of nether damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (43297, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43297, 19, 100) /* VALUE_INT */
+     , (43297, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43297, 5364) /* NetherArc4_SpellID */;
+

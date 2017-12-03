@@ -48,3 +48,26 @@ VALUES (26452, 0, 83887061, 83895144)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (26452, 0, 16778367);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (26452, 16, 'A plush and comfy bathrobe. There is a small label on the inside of the robe.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (26452, 19, 1000) /* VALUE_INT */
+     , (26452, 5, 200) /* ENCUMB_VAL_INT */
+     , (26452, 28, 50) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (26452, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (26452, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (26452, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (26452, 16, 1.5) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (26452, 17, 0) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (26452, 18, 0) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (26452, 19, 0.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (26452, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (26452, 100, 1) /* DYABLE_BOOL */;
+

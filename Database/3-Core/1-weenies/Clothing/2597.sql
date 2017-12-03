@@ -47,3 +47,38 @@ VALUES (2597, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2597, 0, 16778358);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2597, 16, 'Flared Pants of Cold Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2597, 19, 3152) /* VALUE_INT */
+     , (2597, 131, 4) /* MATERIAL_TYPE_INT */
+     , (2597, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (2597, 5, 135) /* ENCUMB_VAL_INT */
+     , (2597, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (2597, 106, 184) /* ITEM_SPELLCRAFT_INT */
+     , (2597, 28, 0) /* ARMOR_LEVEL_INT */
+     , (2597, 108, 1401) /* ITEM_MAX_MANA_INT */
+     , (2597, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (2597, 109, 184) /* ITEM_DIFFICULTY_INT */
+     , (2597, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2597, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (2597, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (2597, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (2597, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (2597, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (2597, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (2597, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (2597, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (2597, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2597, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2597, 1034) /* ColdProtectionSelf5_SpellID */;
+

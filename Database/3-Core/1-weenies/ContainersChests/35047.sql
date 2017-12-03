@@ -38,3 +38,19 @@ VALUES (35047, 13, True) /* ETHEREAL_BOOL */
      , (35047, 19, True) /* ATTACKABLE_BOOL */
      , (35047, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35047, 16, 'A reliquary made of the skeletal remnants of the victims of Falatacot sacrifices.') /* LONG_DESC_STRING */
+     , (35047, 14, 'Use a Skeletal Falatacot Key to unlock this cache.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35047, 19, 2500) /* VALUE_INT */
+     , (35047, 5, 12888) /* ENCUMB_VAL_INT */
+     , (35047, 38, 9999) /* RESIST_LOCKPICK_INT */
+     , (35047, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35047, 2, 0) /* OPEN_BOOL */
+     , (35047, 3, 1) /* LOCKED_BOOL */;
+

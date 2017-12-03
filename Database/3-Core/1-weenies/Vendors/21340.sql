@@ -84,3 +84,36 @@ VALUES (21340, 12, 16778423)
      , (21340, 7, 16777708)
      , (21340, 8, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21340, 5, 'Planner of Weddings') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (21340, 16, 67110063) /* EYES_PALETTE_DID */
+     , (21340, 9, 83890260) /* EYES_TEXTURE_DID */
+     , (21340, 17, 67110049) /* SKIN_PALETTE_DID */
+     , (21340, 10, 83890310) /* NOSE_TEXTURE_DID */
+     , (21340, 11, 83890326) /* MOUTH_TEXTURE_DID */
+     , (21340, 15, 67117016) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21340, 113, 2) /* GENDER_INT */
+     , (21340, 2, 31) /* CREATURE_TYPE_INT */
+     , (21340, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (21340, 25, 9) /* LEVEL_INT */
+     , (21340, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (21340, 1, 90) /* STRENGTH_ATTRIBUTE */
+     , (21340, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (21340, 4, 95) /* COORDINATION_ATTRIBUTE */
+     , (21340, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (21340, 16, 40) /* FOCUS_ATTRIBUTE */
+     , (21340, 32, 50) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (21340, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (21340, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (21340, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
+

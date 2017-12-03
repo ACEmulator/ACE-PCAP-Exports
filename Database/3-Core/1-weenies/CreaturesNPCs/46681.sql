@@ -119,3 +119,26 @@ VALUES (46681, 5, 16788087)
      , (46681, 32, 16795843)
      , (46681, 33, 16795844);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46681, 5, 'Royal Soldier') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (46681, 16, 67110062) /* EYES_PALETTE_DID */
+     , (46681, 9, 83890242) /* EYES_TEXTURE_DID */
+     , (46681, 17, 67110055) /* SKIN_PALETTE_DID */
+     , (46681, 10, 83890300) /* NOSE_TEXTURE_DID */
+     , (46681, 11, 83890318) /* MOUTH_TEXTURE_DID */
+     , (46681, 15, 67116999) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46681, 113, 2) /* GENDER_INT */
+     , (46681, 2, 31) /* CREATURE_TYPE_INT */
+     , (46681, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (46681, 25, 275) /* LEVEL_INT */
+     , (46681, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46681, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

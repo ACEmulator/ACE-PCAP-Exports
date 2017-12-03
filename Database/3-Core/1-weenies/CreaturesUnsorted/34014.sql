@@ -59,6 +59,25 @@ VALUES (34014, 0, 16793218)
      , (34014, 15, 16789333)
      , (34014, 16, 16793225);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (34014, 16, 67110063) /* EYES_PALETTE_DID */
+     , (34014, 9, 83890446) /* EYES_TEXTURE_DID */
+     , (34014, 17, 67110053) /* SKIN_PALETTE_DID */
+     , (34014, 10, 83890523) /* NOSE_TEXTURE_DID */
+     , (34014, 11, 83890582) /* MOUTH_TEXTURE_DID */
+     , (34014, 15, 67117019) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34014, 113, 1) /* GENDER_INT */
+     , (34014, 2, 31) /* CREATURE_TYPE_INT */
+     , (34014, 25, 160) /* LEVEL_INT */
+     , (34014, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34014, 64, 1400) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

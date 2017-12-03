@@ -31,3 +31,17 @@ VALUES (43167, 13, True) /* ETHEREAL_BOOL */
      , (43167, 19, True) /* ATTACKABLE_BOOL */
      , (43167, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43167, 16, 'Your versatility is increased. All of your skills are increased by 5. This augmentation cannot be repeated.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43167, 33, 1) /* BONDED_INT */
+     , (43167, 114, 1) /* ATTUNED_INT */
+     , (43167, 19, 0) /* VALUE_INT */
+     , (43167, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (43167, 3, 4000000000) /* AUGMENTATION_COST_INT64 */;
+

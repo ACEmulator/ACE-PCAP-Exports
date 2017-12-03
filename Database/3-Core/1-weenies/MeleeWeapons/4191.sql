@@ -42,3 +42,47 @@ VALUES (4191, 13, True) /* ETHEREAL_BOOL */
      , (4191, 19, True) /* ATTACKABLE_BOOL */
      , (4191, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4191, 16, 'Flaming Cestus of Endurance') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4191, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (4191, 160, 420) /* WIELD_DIFFICULTY_INT */
+     , (4191, 353, 1) /* WEAPON_TYPE_INT */
+     , (4191, 177, 2) /* GEM_COUNT_INT */
+     , (4191, 178, 21) /* GEM_TYPE_INT */
+     , (4191, 19, 9601) /* VALUE_INT */
+     , (4191, 131, 59) /* MATERIAL_TYPE_INT */
+     , (4191, 115, 390) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (4191, 5, 84) /* ENCUMB_VAL_INT */
+     , (4191, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (4191, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (4191, 108, 1601) /* ITEM_MAX_MANA_INT */
+     , (4191, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (4191, 109, 181) /* ITEM_DIFFICULTY_INT */
+     , (4191, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (4191, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (4191, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (4191, 47, 1) /* ATTACK_TYPE_INT */
+     , (4191, 45, 16) /* DAMAGE_TYPE_INT */
+     , (4191, 49, 16) /* WEAPON_TIME_INT */
+     , (4191, 48, 44) /* WEAPON_SKILL_INT */
+     , (4191, 44, 52) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (4191, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (4191, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (4191, 22, 0.53) /* DAMAGE_VARIANCE_FLOAT */
+     , (4191, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (4191, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (4191, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (4191, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (4191, 4299) /* EnduranceSelf8_SpellID */
+     , (4191, 2096) /* BloodDrinker7_SpellID */
+     , (4191, 4400) /* Defender8_SpellID */
+     , (4191, 2559) /* CANTRIPMAGICRESISTANCE1_SpellID */;
+

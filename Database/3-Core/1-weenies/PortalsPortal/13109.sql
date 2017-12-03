@@ -33,3 +33,11 @@ VALUES (13109, 13, True) /* ETHEREAL_BOOL */
      , (13109, 19, True) /* ATTACKABLE_BOOL */
      , (13109, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (13109, 38, 'Iceea Hills Estates Portal (25.8N, 30.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13109, 111, 1) /* PORTAL_BITMASK_INT */;
+

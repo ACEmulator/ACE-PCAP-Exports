@@ -52,3 +52,27 @@ VALUES (8670, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8670, 0, 16778862);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8670, 16, 'The Dark Heart of a powerful wisp.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8670, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
+     , (8670, 115, 140) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (8670, 19, 2000) /* VALUE_INT */
+     , (8670, 5, 50) /* ENCUMB_VAL_INT */
+     , (8670, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (8670, 108, 600) /* ITEM_MAX_MANA_INT */
+     , (8670, 109, 140) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8670, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (8670, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (8670, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8670, 2007) /* WarriorsLesserVigor_SpellID */
+     , (8670, 216) /* ManaRenewalSelf5_SpellID */
+     , (8670, 2011) /* WizardsLesserIntellect_SpellID */;
+

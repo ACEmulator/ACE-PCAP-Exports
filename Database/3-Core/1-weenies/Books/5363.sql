@@ -33,6 +33,19 @@ VALUES (5363, 13, True) /* ETHEREAL_BOOL */
      , (5363, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5363, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5363, 16, 'A note in an unknown language, found on a Drudge.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5363, 33, 1) /* BONDED_INT */
+     , (5363, 114, 1) /* ATTUNED_INT */
+     , (5363, 19, 0) /* VALUE_INT */
+     , (5363, 5, 10) /* ENCUMB_VAL_INT */
+     , (5363, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (5363, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

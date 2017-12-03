@@ -40,3 +40,12 @@ VALUES (9413, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (9413, 67113172, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9413, 16, 'A Large Dread Mattekar paw.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9413, 19, 500) /* VALUE_INT */
+     , (9413, 5, 500) /* ENCUMB_VAL_INT */;
+

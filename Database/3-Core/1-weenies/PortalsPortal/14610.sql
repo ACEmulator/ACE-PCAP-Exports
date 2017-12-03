@@ -33,3 +33,11 @@ VALUES (14610, 13, True) /* ETHEREAL_BOOL */
      , (14610, 19, True) /* ATTACKABLE_BOOL */
      , (14610, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (14610, 38, 'Al-Arqis Cottages Portal (12.1S, 2.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14610, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -114,6 +114,29 @@ VALUES (24250, 0, 16783894)
      , (24250, 8, 16781817)
      , (24250, 16, 16779635);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24250, 5, 'Scout') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (24250, 16, 67109567) /* EYES_PALETTE_DID */
+     , (24250, 9, 83890480) /* EYES_TEXTURE_DID */
+     , (24250, 17, 67109551) /* SKIN_PALETTE_DID */
+     , (24250, 10, 83890537) /* NOSE_TEXTURE_DID */
+     , (24250, 11, 83890621) /* MOUTH_TEXTURE_DID */
+     , (24250, 15, 67116992) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24250, 113, 1) /* GENDER_INT */
+     , (24250, 2, 31) /* CREATURE_TYPE_INT */
+     , (24250, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (24250, 25, 15) /* LEVEL_INT */
+     , (24250, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (24250, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

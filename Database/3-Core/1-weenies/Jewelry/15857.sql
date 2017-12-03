@@ -48,3 +48,27 @@ VALUES (15857, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15857, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15857, 16, 'A jewel carved from Bloodstone that has a slick, sticky coating. A thin copper necklace can be seen beneath the sheen. Perhaps it is a necklace?') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15857, 33, 1) /* BONDED_INT */
+     , (15857, 114, 1) /* ATTUNED_INT */
+     , (15857, 19, 8000) /* VALUE_INT */
+     , (15857, 36, 9999) /* RESIST_MAGIC_INT */
+     , (15857, 5, 100) /* ENCUMB_VAL_INT */
+     , (15857, 106, 300) /* ITEM_SPELLCRAFT_INT */
+     , (15857, 108, 230) /* ITEM_MAX_MANA_INT */
+     , (15857, 109, 150) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (15857, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (15857, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (15857, 2667) /* EssenceSpike_SpellID */;
+

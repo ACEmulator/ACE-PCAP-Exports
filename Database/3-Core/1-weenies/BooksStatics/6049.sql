@@ -34,6 +34,17 @@ VALUES (6049, 13, True) /* ETHEREAL_BOOL */
      , (6049, 19, True) /* ATTACKABLE_BOOL */
      , (6049, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6049, 16, 'A pedestal which bears the final journals of the Tremblant party.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6049, 19, 10) /* VALUE_INT */
+     , (6049, 5, 25) /* ENCUMB_VAL_INT */
+     , (6049, 174, 20) /* APPRAISAL_PAGES_INT */
+     , (6049, 175, 20) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

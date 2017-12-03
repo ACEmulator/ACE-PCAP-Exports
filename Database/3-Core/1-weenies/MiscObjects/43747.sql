@@ -46,6 +46,21 @@ VALUES (43747, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43747, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43747, 14, 'These glands may be traded with Kaneth al-Evv on Olthoi Isle for rewards.') /* USE_STRING */
+     , (43747, 15, 'A small, mutated gland from one of the self-aware Olthoi Soldiers or Spitters.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43747, 33, 1) /* BONDED_INT */
+     , (43747, 114, 1) /* ATTUNED_INT */
+     , (43747, 19, 10) /* VALUE_INT */
+     , (43747, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43747, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

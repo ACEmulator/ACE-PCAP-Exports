@@ -52,6 +52,34 @@ VALUES (8395, 0, 83892725, 83892725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8395, 0, 16784961);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8395, 15, 'A finely crafted jack o'' lantern, made with a whittling knife.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8395, 353, 10) /* WEAPON_TYPE_INT */
+     , (8395, 386, 0) /*  */
+     , (8395, 19, 50) /* VALUE_INT */
+     , (8395, 307, 5) /* DAMAGE_RATING_INT */
+     , (8395, 5, 20) /* ENCUMB_VAL_INT */
+     , (8395, 313, 0) /* CRIT_RATING_INT */
+     , (8395, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (8395, 45, 4) /* DAMAGE_TYPE_INT */
+     , (8395, 49, 10) /* WEAPON_TIME_INT */
+     , (8395, 48, 47) /* WEAPON_SKILL_INT */
+     , (8395, 44, 9) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8395, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (8395, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (8395, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (8395, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (8395, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (8395, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (8395, 26, 23.2) /* MAXIMUM_VELOCITY_FLOAT */
+     , (8395, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

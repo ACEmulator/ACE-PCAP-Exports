@@ -35,3 +35,13 @@ VALUES (52699, 13, True) /* ETHEREAL_BOOL */
      , (52699, 19, True) /* ATTACKABLE_BOOL */
      , (52699, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52699, 19, 200) /* VALUE_INT */
+     , (52699, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (52699, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
+     , (52699, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
+

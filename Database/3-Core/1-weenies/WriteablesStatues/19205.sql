@@ -79,3 +79,12 @@ VALUES (19205, 9, 16781837)
      , (19205, 15, 16777335)
      , (19205, 16, 16778313);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19205, 15, 'This nullified shell is all that remains of the living Statue of Thorsten Cragstone that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19205, 19, 0) /* VALUE_INT */
+     , (19205, 5, 1800) /* ENCUMB_VAL_INT */;
+

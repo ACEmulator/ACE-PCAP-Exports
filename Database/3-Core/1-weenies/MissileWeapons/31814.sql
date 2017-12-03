@@ -49,3 +49,34 @@ VALUES (31814, 67116700, 1, 100)
      , (31814, 67116709, 101, 100)
      , (31814, 67116710, 201, 55);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31814, 16, 'Blunt Slingshot') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31814, 160, 375) /* WIELD_DIFFICULTY_INT */
+     , (31814, 177, 4) /* GEM_COUNT_INT */
+     , (31814, 353, 10) /* WEAPON_TYPE_INT */
+     , (31814, 178, 16) /* GEM_TYPE_INT */
+     , (31814, 131, 60) /* MATERIAL_TYPE_INT */
+     , (31814, 19, 25455) /* VALUE_INT */
+     , (31814, 5, 308) /* ENCUMB_VAL_INT */
+     , (31814, 105, 10) /* ITEM_WORKMANSHIP_INT */
+     , (31814, 172, 7) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31814, 204, 13) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (31814, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31814, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (31814, 45, 4) /* DAMAGE_TYPE_INT */
+     , (31814, 49, 19) /* WEAPON_TIME_INT */
+     , (31814, 48, 47) /* WEAPON_SKILL_INT */
+     , (31814, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31814, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (31814, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (31814, 63, 2.43) /* DAMAGE_MOD_FLOAT */
+     , (31814, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31814, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31814, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

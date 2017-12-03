@@ -32,3 +32,14 @@ VALUES (15301, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15301, 19, True) /* ATTACKABLE_BOOL */
      , (15301, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15301, 15, 'A bookcase filled with well kept tomes.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15301, 19, 0) /* VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (15301, 2, 0) /* OPEN_BOOL */;
+

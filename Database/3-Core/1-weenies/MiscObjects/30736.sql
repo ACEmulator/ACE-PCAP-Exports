@@ -30,3 +30,16 @@ VALUES (30736, 13, True) /* ETHEREAL_BOOL */
      , (30736, 19, True) /* ATTACKABLE_BOOL */
      , (30736, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30736, 16, 'If you see this decorative bottle of champagne, you know a party is going on!') /* LONG_DESC_STRING */
+     , (30736, 14, 'You can hook this item on floor and yard hooks. It''s far too much to try and drink.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30736, 19, 50000) /* VALUE_INT */
+     , (30736, 5, 20) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (30736, 69, 1) /* IS_SELLABLE_BOOL */;
+

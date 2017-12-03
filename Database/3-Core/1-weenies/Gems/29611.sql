@@ -33,3 +33,12 @@ VALUES (29611, 13, True) /* ETHEREAL_BOOL */
      , (29611, 19, True) /* ATTACKABLE_BOOL */
      , (29611, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29611, 16, 'This device was fashioned by Shoyanen Kenchu under the direction of High Queen Elysa Strathelar. The magic of the device can only be activated if placed on a mansion hook. The magic has yet to be perfected so the device may deliver the user to one of three locations: Neydisa Castle, Base of the Marescent Plateau, Kara Wetlands.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29611, 19, 10000) /* VALUE_INT */
+     , (29611, 5, 3500) /* ENCUMB_VAL_INT */;
+

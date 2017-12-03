@@ -81,3 +81,26 @@ VALUES (34441, 0, 16788885)
      , (34441, 12, 16788891)
      , (34441, 16, 16789125);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34441, 5, 'Empyrean Servant') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34441, 2, 13) /* CREATURE_TYPE_INT */
+     , (34441, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (34441, 25, 200) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (34441, 1, 680) /* STRENGTH_ATTRIBUTE */
+     , (34441, 2, 640) /* ENDURANCE_ATTRIBUTE */
+     , (34441, 4, 630) /* COORDINATION_ATTRIBUTE */
+     , (34441, 8, 550) /* QUICKNESS_ATTRIBUTE */
+     , (34441, 16, 550) /* FOCUS_ATTRIBUTE */
+     , (34441, 32, 585) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34441, 64, 1120) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (34441, 128, 1491) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (34441, 256, 1085) /* MAX_MANA_ATTRIBUTE_2ND */;
+

@@ -47,3 +47,42 @@ VALUES (43, 0, 83887061, 83889766)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43, 0, 16778382);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43, 16, 'Yoroi Breastplate') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43, 177, 4) /* GEM_COUNT_INT */
+     , (43, 178, 26) /* GEM_TYPE_INT */
+     , (43, 19, 12788) /* VALUE_INT */
+     , (43, 131, 64) /* MATERIAL_TYPE_INT */
+     , (43, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (43, 5, 837) /* ENCUMB_VAL_INT */
+     , (43, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (43, 106, 205) /* ITEM_SPELLCRAFT_INT */
+     , (43, 28, 230) /* ARMOR_LEVEL_INT */
+     , (43, 108, 889) /* ITEM_MAX_MANA_INT */
+     , (43, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (43, 109, 212) /* ITEM_DIFFICULTY_INT */
+     , (43, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (43, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (43, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (43, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (43, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (43, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (43, 17, 0.8308223) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (43, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (43, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (43, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (43, 1485) /* Impenetrability5_SpellID */
+     , (43, 1561) /* BladeBane5_SpellID */
+     , (43, 2622) /* CANTRIPSTORMWARD1_SpellID */;
+

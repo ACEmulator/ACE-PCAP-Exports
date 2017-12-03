@@ -84,6 +84,29 @@ VALUES (51959, 12, 16777304)
      , (51959, 13, 16783871)
      , (51959, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51959, 5, 'Frost Golem Hunter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (51959, 16, 67110065) /* EYES_PALETTE_DID */
+     , (51959, 9, 83890465) /* EYES_TEXTURE_DID */
+     , (51959, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (51959, 10, 83890549) /* NOSE_TEXTURE_DID */
+     , (51959, 11, 83890663) /* MOUTH_TEXTURE_DID */
+     , (51959, 15, 67117077) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51959, 113, 1) /* GENDER_INT */
+     , (51959, 2, 31) /* CREATURE_TYPE_INT */
+     , (51959, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (51959, 25, 150) /* LEVEL_INT */
+     , (51959, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (51959, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

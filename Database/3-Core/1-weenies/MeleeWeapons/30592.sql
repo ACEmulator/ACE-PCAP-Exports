@@ -47,3 +47,40 @@ VALUES (30592, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30592, 0, 16791842);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30592, 16, 'Flaming Partizan of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30592, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30592, 353, 5) /* WEAPON_TYPE_INT */
+     , (30592, 19, 1485) /* VALUE_INT */
+     , (30592, 131, 75) /* MATERIAL_TYPE_INT */
+     , (30592, 115, 209) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30592, 5, 600) /* ENCUMB_VAL_INT */
+     , (30592, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (30592, 106, 189) /* ITEM_SPELLCRAFT_INT */
+     , (30592, 108, 551) /* ITEM_MAX_MANA_INT */
+     , (30592, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30592, 109, 37) /* ITEM_DIFFICULTY_INT */
+     , (30592, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30592, 47, 2) /* ATTACK_TYPE_INT */
+     , (30592, 45, 16) /* DAMAGE_TYPE_INT */
+     , (30592, 49, 29) /* WEAPON_TIME_INT */
+     , (30592, 48, 44) /* WEAPON_SKILL_INT */
+     , (30592, 44, 25) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30592, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (30592, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (30592, 22, 0.63) /* DAMAGE_VARIANCE_FLOAT */
+     , (30592, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30592, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30592, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30592, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30592, 1615) /* BloodDrinker5_SpellID */
+     , (30592, 1625) /* SwiftKiller4_SpellID */;
+

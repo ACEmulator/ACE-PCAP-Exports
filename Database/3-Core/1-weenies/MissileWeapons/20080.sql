@@ -37,3 +37,36 @@ VALUES (20080, 13, True) /* ETHEREAL_BOOL */
      , (20080, 19, True) /* ATTACKABLE_BOOL */
      , (20080, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20080, 160, 270) /* WIELD_DIFFICULTY_INT */
+     , (20080, 33, 1) /* BONDED_INT */
+     , (20080, 353, 8) /* WEAPON_TYPE_INT */
+     , (20080, 19, 8000) /* VALUE_INT */
+     , (20080, 36, 9999) /* RESIST_MAGIC_INT */
+     , (20080, 5, 950) /* ENCUMB_VAL_INT */
+     , (20080, 106, 100) /* ITEM_SPELLCRAFT_INT */
+     , (20080, 108, 1200) /* ITEM_MAX_MANA_INT */
+     , (20080, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (20080, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (20080, 45, 0) /* DAMAGE_TYPE_INT */
+     , (20080, 49, 40) /* WEAPON_TIME_INT */
+     , (20080, 48, 47) /* WEAPON_SKILL_INT */
+     , (20080, 44, 30) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (20080, 29, 1.25) /* WEAPON_DEFENSE_FLOAT */
+     , (20080, 5, -0.1) /* MANA_RATE_FLOAT */
+     , (20080, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (20080, 63, 2.3) /* DAMAGE_MOD_FLOAT */
+     , (20080, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (20080, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (20080, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (20080, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20080, 2687) /* ModerateBowAptitude_SpellID */;
+

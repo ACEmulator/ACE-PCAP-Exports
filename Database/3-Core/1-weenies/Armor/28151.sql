@@ -46,3 +46,38 @@ VALUES (28151, 0, 83887064, 83895496)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28151, 0, 16778829);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28151, 16, 'A pair of amullian leggings crafted from the hide of an ebon gromnie.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28151, 160, 35) /* WIELD_DIFFICULTY_INT */
+     , (28151, 19, 4575) /* VALUE_INT */
+     , (28151, 5, 1200) /* ENCUMB_VAL_INT */
+     , (28151, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (28151, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (28151, 28, 250) /* ARMOR_LEVEL_INT */
+     , (28151, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (28151, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (28151, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28151, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (28151, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28151, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28151, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28151, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28151, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28151, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28151, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28151, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28151, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28151, 1538) /* LightningBane4_SpellID */
+     , (28151, 1484) /* Impenetrability4_SpellID */
+     , (28151, 1315) /* ArmorOther4_SpellID */;
+

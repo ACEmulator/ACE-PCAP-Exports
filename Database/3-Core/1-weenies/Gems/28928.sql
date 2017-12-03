@@ -44,6 +44,21 @@ VALUES (28928, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28928, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28928, 16, 'This stone has been coated in the blood of a Burun. The gem appears to have absorbed the blood into itself.') /* LONG_DESC_STRING */
+     , (28928, 14, 'Apply this is a Noble Weapon to give the weapon a Burun slaying property.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28928, 33, 1) /* BONDED_INT */
+     , (28928, 114, 1) /* ATTUNED_INT */
+     , (28928, 19, 0) /* VALUE_INT */
+     , (28928, 5, 10) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28928, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

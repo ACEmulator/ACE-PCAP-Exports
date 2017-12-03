@@ -41,3 +41,37 @@ VALUES (53011, 13, True) /* ETHEREAL_BOOL */
      , (53011, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (53011, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53011, 16, 'Fallen shards of amber imbedded in the ground. You will need to infuse the shards with Viridian Essence to harvest the infused amber within.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53011, 384, 0) /*  */
+     , (53011, 98, 1485848528) /* CREATION_TIMESTAMP_INT */
+     , (53011, 370, 0) /* GEAR_DAMAGE_INT */
+     , (53011, 386, 0) /*  */
+     , (53011, 307, 0) /* DAMAGE_RATING_INT */
+     , (53011, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (53011, 387, 0) /*  */
+     , (53011, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (53011, 372, 0) /* GEAR_CRIT_INT */
+     , (53011, 388, 0) /*  */
+     , (53011, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (53011, 389, 0) /*  */
+     , (53011, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (53011, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (53011, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (53011, 313, 0) /* CRIT_RATING_INT */
+     , (53011, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (53011, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (53011, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (53011, 267, 3600) /* LIFESPAN_INT */
+     , (53011, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (53011, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (53011, 268, 3496) /* REMAINING_LIFESPAN_INT */
+     , (53011, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (53011, 381, 0) /*  */
+     , (53011, 382, 0) /*  */
+     , (53011, 383, 0) /*  */;
+

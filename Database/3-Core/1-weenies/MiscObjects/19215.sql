@@ -32,3 +32,13 @@ VALUES (19215, 13, True) /* ETHEREAL_BOOL */
      , (19215, 19, True) /* ATTACKABLE_BOOL */
      , (19215, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19215, 15, 'A bronze gear taken from the ruins of a living Bronze Statue of a Drudge. The Arcanum Tinker or the Arcanum Researcher might find this item of great interest.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19215, 114, 1) /* ATTUNED_INT */
+     , (19215, 19, 0) /* VALUE_INT */
+     , (19215, 5, 40) /* ENCUMB_VAL_INT */;
+

@@ -35,6 +35,17 @@ VALUES (5888, 13, True) /* ETHEREAL_BOOL */
      , (5888, 19, True) /* ATTACKABLE_BOOL */
      , (5888, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5888, 16, 'A sheet of parchment, apparently torn from a bound book.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5888, 19, 20) /* VALUE_INT */
+     , (5888, 5, 25) /* ENCUMB_VAL_INT */
+     , (5888, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (5888, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

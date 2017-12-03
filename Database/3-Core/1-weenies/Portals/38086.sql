@@ -33,3 +33,13 @@ VALUES (38086, 13, True) /* ETHEREAL_BOOL */
      , (38086, 19, True) /* ATTACKABLE_BOOL */
      , (38086, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38086, 16, 'This portal leads to the ancient, ruined Gardens of Menilesh.') /* LONG_DESC_STRING */
+     , (38086, 38, 'Gardens of Menilesh') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38086, 86, 150) /* MIN_LEVEL_INT */
+     , (38086, 111, 49) /* PORTAL_BITMASK_INT */;
+

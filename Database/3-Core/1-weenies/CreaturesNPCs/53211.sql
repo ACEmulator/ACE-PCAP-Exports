@@ -39,3 +39,34 @@ VALUES (53211, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (53211, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (53211, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53211, 16, 'An ancient statue infused with the magic of the Viridian Rise.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53211, 384, 0) /*  */
+     , (53211, 370, 0) /* GEAR_DAMAGE_INT */
+     , (53211, 386, 0) /*  */
+     , (53211, 307, 0) /* DAMAGE_RATING_INT */
+     , (53211, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (53211, 387, 0) /*  */
+     , (53211, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (53211, 372, 0) /* GEAR_CRIT_INT */
+     , (53211, 388, 0) /*  */
+     , (53211, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (53211, 389, 0) /*  */
+     , (53211, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (53211, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (53211, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (53211, 313, 0) /* CRIT_RATING_INT */
+     , (53211, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (53211, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (53211, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (53211, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (53211, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (53211, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (53211, 381, 0) /*  */
+     , (53211, 382, 0) /*  */
+     , (53211, 383, 0) /*  */;
+

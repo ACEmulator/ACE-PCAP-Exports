@@ -48,3 +48,29 @@ VALUES (41487, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41487, 0, 16780734);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41487, 16, 'Mechanical Scarab of Lightning Protection') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41487, 177, 1) /* GEM_COUNT_INT */
+     , (41487, 178, 28) /* GEM_TYPE_INT */
+     , (41487, 19, 2939) /* VALUE_INT */
+     , (41487, 131, 63) /* MATERIAL_TYPE_INT */
+     , (41487, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (41487, 5, 100) /* ENCUMB_VAL_INT */
+     , (41487, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (41487, 106, 147) /* ITEM_SPELLCRAFT_INT */
+     , (41487, 108, 1301) /* ITEM_MAX_MANA_INT */
+     , (41487, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (41487, 109, 155) /* ITEM_DIFFICULTY_INT */
+     , (41487, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41487, 5, -0.04166667) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (41487, 1069) /* LightningProtectionSelf4_SpellID */
+     , (41487, 2554) /* CANTRIPLEADERSHIP1_SpellID */;
+

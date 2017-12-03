@@ -100,3 +100,26 @@ VALUES (42145, 0, 16794061)
      , (42145, 8, 16789358)
      , (42145, 16, 16794064);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42145, 5, 'Portal Warden') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (42145, 16, 67110063) /* EYES_PALETTE_DID */
+     , (42145, 9, 83890255) /* EYES_TEXTURE_DID */
+     , (42145, 17, 67109557) /* SKIN_PALETTE_DID */
+     , (42145, 10, 83890295) /* NOSE_TEXTURE_DID */
+     , (42145, 11, 83890343) /* MOUTH_TEXTURE_DID */
+     , (42145, 15, 67117018) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42145, 113, 2) /* GENDER_INT */
+     , (42145, 2, 31) /* CREATURE_TYPE_INT */
+     , (42145, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (42145, 25, 145) /* LEVEL_INT */
+     , (42145, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (42145, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

@@ -46,3 +46,49 @@ VALUES (51966, 0, 83899155, 83899155)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51966, 0, 16797053);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51966, 15, 'A mace crafted from enchanted obsidian and Rynthid tentacles.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51966, 160, 420) /* WIELD_DIFFICULTY_INT */
+     , (51966, 33, 1) /* BONDED_INT */
+     , (51966, 114, 1) /* ATTUNED_INT */
+     , (51966, 19, 0) /* VALUE_INT */
+     , (51966, 5, 700) /* ENCUMB_VAL_INT */
+     , (51966, 166, 19) /* SLAYER_CREATURE_TYPE_INT */
+     , (51966, 106, 475) /* ITEM_SPELLCRAFT_INT */
+     , (51966, 108, 3000) /* ITEM_MAX_MANA_INT */
+     , (51966, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (51966, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (51966, 47, 4) /* ATTACK_TYPE_INT */
+     , (51966, 45, 16) /* DAMAGE_TYPE_INT */
+     , (51966, 49, 40) /* WEAPON_TIME_INT */
+     , (51966, 48, 45) /* WEAPON_SKILL_INT */
+     , (51966, 44, 50) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (51966, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (51966, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (51966, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (51966, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (51966, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (51966, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
+     , (51966, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (51966, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (51966, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (51966, 62, 1.25) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (51966, 99, 1) /* IVORYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (51966, 4417) /* Swiftkiller8_SpellID */
+     , (51966, 6043) /* CantripAxeAptitude4_SpellID */
+     , (51966, 4395) /* Blooddrinker8_SpellID */
+     , (51966, 4400) /* Defender8_SpellID */
+     , (51966, 4405) /* Heartseeker8_SpellID */
+     , (51966, 3963) /* CANTRIPCOORDINATION3_SpellID */
+     , (51966, 3965) /* CANTRIPSTRENGTH3_SpellID */;
+

@@ -34,6 +34,16 @@ VALUES (7825, 13, True) /* ETHEREAL_BOOL */
      , (7825, 14, True) /* GRAVITY_STATUS_BOOL */
      , (7825, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7825, 16, 'A heap of brown beans, smelling somewhat fermented.') /* LONG_DESC_STRING */
+     , (7825, 14, 'This item is used in cooking.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7825, 19, 40) /* VALUE_INT */
+     , (7825, 5, 40) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

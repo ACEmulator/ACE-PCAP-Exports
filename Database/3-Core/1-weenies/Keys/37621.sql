@@ -35,3 +35,13 @@ VALUES (37621, 13, True) /* ETHEREAL_BOOL */
      , (37621, 19, True) /* ATTACKABLE_BOOL */
      , (37621, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (37621, 16, 'This key will open the Grand Casino Chest in any of the casinos. The employee who dropped this is certainly in a heap of trouble.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (37621, 19, 0) /* VALUE_INT */
+     , (37621, 5, 5) /* ENCUMB_VAL_INT */
+     , (37621, 91, 25) /* MAX_STRUCTURE_INT */;
+

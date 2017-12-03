@@ -75,3 +75,36 @@ VALUES (33937, 12, 16778423)
      , (33937, 13, 16791903)
      , (33937, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33937, 5, 'Pet Thrungus Vendor') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (33937, 16, 67109564) /* EYES_PALETTE_DID */
+     , (33937, 9, 83890282) /* EYES_TEXTURE_DID */
+     , (33937, 17, 67115908) /* SKIN_PALETTE_DID */
+     , (33937, 10, 83890308) /* NOSE_TEXTURE_DID */
+     , (33937, 11, 83890336) /* MOUTH_TEXTURE_DID */
+     , (33937, 15, 67117025) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33937, 113, 2) /* GENDER_INT */
+     , (33937, 2, 31) /* CREATURE_TYPE_INT */
+     , (33937, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (33937, 25, 10) /* LEVEL_INT */
+     , (33937, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33937, 1, 50) /* STRENGTH_ATTRIBUTE */
+     , (33937, 2, 60) /* ENDURANCE_ATTRIBUTE */
+     , (33937, 4, 40) /* COORDINATION_ATTRIBUTE */
+     , (33937, 8, 20) /* QUICKNESS_ATTRIBUTE */
+     , (33937, 16, 110) /* FOCUS_ATTRIBUTE */
+     , (33937, 32, 110) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (33937, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33937, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33937, 256, 135) /* MAX_MANA_ATTRIBUTE_2ND */;
+

@@ -41,6 +41,21 @@ VALUES (7858, 0, 83888869, 83888868)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7858, 0, 16778864);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7858, 14, 'Use this item to eat it.') /* USE_STRING */
+     , (7858, 15, 'Dark, moist, chocolate cake.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7858, 19, 50) /* VALUE_INT */
+     , (7858, 5, 35) /* ENCUMB_VAL_INT */
+     , (7858, 89, 4) /* BOOSTER_ENUM_INT */
+     , (7858, 90, 12) /* BOOST_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (7858, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

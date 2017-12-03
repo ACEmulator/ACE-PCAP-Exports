@@ -35,3 +35,17 @@ VALUES (3429, 13, True) /* ETHEREAL_BOOL */
      , (3429, 19, True) /* ATTACKABLE_BOOL */
      , (3429, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3429, 16, 'Inscribed spell: Mana Conversion Mastery Other III
+Increases the target''s Mana Conversion skill by 20 points.') /* LONG_DESC_STRING */
+     , (3429, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3429, 19, 20) /* VALUE_INT */
+     , (3429, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3429, 661) /* ManaMasteryOther3_SpellID */;
+

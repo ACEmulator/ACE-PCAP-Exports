@@ -49,3 +49,46 @@ VALUES (21155, 0, 83886788, 83894182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21155, 0, 16778411);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21155, 16, 'Covenant Greaves') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21155, 160, 200) /* WIELD_DIFFICULTY_INT */
+     , (21155, 19, 25796) /* VALUE_INT */
+     , (21155, 131, 58) /* MATERIAL_TYPE_INT */
+     , (21155, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (21155, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21155, 5, 352) /* ENCUMB_VAL_INT */
+     , (21155, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (21155, 106, 291) /* ITEM_SPELLCRAFT_INT */
+     , (21155, 28, 154) /* ARMOR_LEVEL_INT */
+     , (21155, 108, 1634) /* ITEM_MAX_MANA_INT */
+     , (21155, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (21155, 109, 226) /* ITEM_DIFFICULTY_INT */
+     , (21155, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (21155, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (21155, 159, 6) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21155, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (21155, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (21155, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (21155, 15, 1.5) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (21155, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (21155, 17, 1.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (21155, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (21155, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (21155, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21155, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (21155, 2113) /* PiercingBane7_SpellID */
+     , (21155, 2538) /* CANTRIPARMOREXPERTISE1_SpellID */
+     , (21155, 2092) /* AcidBane7_SpellID */
+     , (21155, 2094) /* BladeBane7_SpellID */
+     , (21155, 2108) /* Impenetrability7_SpellID */;
+

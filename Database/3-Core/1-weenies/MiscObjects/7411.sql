@@ -35,3 +35,14 @@ VALUES (7411, 13, True) /* ETHEREAL_BOOL */
      , (7411, 19, True) /* ATTACKABLE_BOOL */
      , (7411, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7411, 16, 'A set of large bellows, once used to forge pyreal.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7411, 33, 1) /* BONDED_INT */
+     , (7411, 114, 1) /* ATTUNED_INT */
+     , (7411, 19, 200) /* VALUE_INT */
+     , (7411, 5, 600) /* ENCUMB_VAL_INT */;
+

@@ -35,3 +35,17 @@ VALUES (20431, 13, True) /* ETHEREAL_BOOL */
      , (20431, 19, True) /* ATTACKABLE_BOOL */
      , (20431, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20431, 16, 'Inscribed spell: Corrosive Flash
+Sends a stream of acid streaking towards the target. The stream does 42-84 points of acid damage to the first thing it hits.') /* LONG_DESC_STRING */
+     , (20431, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20431, 19, 2000) /* VALUE_INT */
+     , (20431, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20431, 2121) /* AcidStreak7_SpellID */;
+

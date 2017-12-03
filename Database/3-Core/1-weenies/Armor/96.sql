@@ -52,3 +52,31 @@ VALUES (96, 0, 83887061, 83886774)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (96, 0, 16779351);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (96, 16, 'Chainmail Shirt') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (96, 177, 3) /* GEM_COUNT_INT */
+     , (96, 178, 29) /* GEM_TYPE_INT */
+     , (96, 19, 14264) /* VALUE_INT */
+     , (96, 131, 57) /* MATERIAL_TYPE_INT */
+     , (96, 5, 1132) /* ENCUMB_VAL_INT */
+     , (96, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (96, 28, 227) /* ARMOR_LEVEL_INT */
+     , (96, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (96, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (96, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (96, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (96, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (96, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (96, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (96, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (96, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (96, 100, 1) /* DYABLE_BOOL */;
+

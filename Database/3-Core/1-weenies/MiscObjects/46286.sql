@@ -35,6 +35,21 @@ VALUES (46286, 13, True) /* ETHEREAL_BOOL */
      , (46286, 14, True) /* GRAVITY_STATUS_BOOL */
      , (46286, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46286, 14, 'Lady Dan''eel Trianna may be interested in this.') /* USE_STRING */
+     , (46286, 15, 'A small stone found in the Gearknight Invasion Area on the Inner Sea.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46286, 33, 1) /* BONDED_INT */
+     , (46286, 114, 1) /* ATTUNED_INT */
+     , (46286, 19, 7) /* VALUE_INT */
+     , (46286, 5, 7) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46286, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

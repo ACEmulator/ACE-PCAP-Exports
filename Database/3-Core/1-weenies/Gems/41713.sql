@@ -31,3 +31,14 @@ VALUES (41713, 13, True) /* ETHEREAL_BOOL */
      , (41713, 19, True) /* ATTACKABLE_BOOL */
      , (41713, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41713, 16, 'This token represents a Silveran weapon. Use this token to purchase a Silveran weapon from the Whispering Blade Quatermaster.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41713, 33, 1) /* BONDED_INT */
+     , (41713, 114, 1) /* ATTUNED_INT */
+     , (41713, 19, 0) /* VALUE_INT */
+     , (41713, 5, 10) /* ENCUMB_VAL_INT */;
+

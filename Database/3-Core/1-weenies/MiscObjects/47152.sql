@@ -32,3 +32,15 @@ VALUES (47152, 13, True) /* ETHEREAL_BOOL */
      , (47152, 19, True) /* ATTACKABLE_BOOL */
      , (47152, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (47152, 16, 'A metallic symbol taken from the Dark Falatacot, Izexi. The symbol is crafted from a material unlike any you have ever seen. ') /* LONG_DESC_STRING */
+     , (47152, 14, 'Fahneph will be very interested in this item.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47152, 33, 1) /* BONDED_INT */
+     , (47152, 114, 1) /* ATTUNED_INT */
+     , (47152, 19, 100) /* VALUE_INT */
+     , (47152, 5, 10) /* ENCUMB_VAL_INT */;
+

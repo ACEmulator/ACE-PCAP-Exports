@@ -34,6 +34,22 @@ VALUES (41023, 13, True) /* ETHEREAL_BOOL */
      , (41023, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41023, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41023, 16, 'Research notes describing Marcus''s experiments in Mar''uun.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41023, 33, 1) /* BONDED_INT */
+     , (41023, 114, 1) /* ATTUNED_INT */
+     , (41023, 19, 0) /* VALUE_INT */
+     , (41023, 5, 10) /* ENCUMB_VAL_INT */
+     , (41023, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (41023, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41023, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

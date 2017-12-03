@@ -48,3 +48,33 @@ VALUES (27092, 0, 83893255, 83893255)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27092, 0, 16785711);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (27092, 15, 'When you must strike, do not leave room for a return blow.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27092, 160, 40) /* WIELD_DIFFICULTY_INT */
+     , (27092, 19, 2000) /* VALUE_INT */
+     , (27092, 5, 200) /* ENCUMB_VAL_INT */
+     , (27092, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (27092, 108, 700) /* ITEM_MAX_MANA_INT */
+     , (27092, 109, 100) /* ITEM_DIFFICULTY_INT */
+     , (27092, 158, 7) /* WIELD_REQUIREMENTS_INT */
+     , (27092, 159, 1) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (27092, 144, 0.06) /* MANA_CONVERSION_MOD_FLOAT */
+     , (27092, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (27092, 5, -0.033) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (27092, 69, 0) /* IS_SELLABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (27092, 640) /* WarMagicMasteryOther6_SpellID */
+     , (27092, 211) /* ManaRenewalOther6_SpellID */
+     , (27092, 2387) /* Determination_SpellID */
+     , (27092, 664) /* ManaMasteryOther6_SpellID */
+     , (27092, 2392) /* Serenity_SpellID */;
+

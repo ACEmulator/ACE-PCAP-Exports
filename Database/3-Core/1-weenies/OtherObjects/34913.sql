@@ -30,3 +30,15 @@ VALUES (34913, 13, True) /* ETHEREAL_BOOL */
      , (34913, 19, True) /* ATTACKABLE_BOOL */
      , (34913, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34913, 16, 'One of three mysterious empyrean stones required to create an Empyrean Golem Stone.') /* LONG_DESC_STRING */
+     , (34913, 14, 'Use one of the Empyrean Moon Stones on this.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34913, 33, 1) /* BONDED_INT */
+     , (34913, 114, 1) /* ATTUNED_INT */
+     , (34913, 19, 0) /* VALUE_INT */
+     , (34913, 5, 50) /* ENCUMB_VAL_INT */;
+

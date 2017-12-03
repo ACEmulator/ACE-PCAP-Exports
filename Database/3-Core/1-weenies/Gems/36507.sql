@@ -53,6 +53,27 @@ VALUES (36507, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36507, 0, 16779181);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36507, 16, 'A gem teeming with portal energy.') /* LONG_DESC_STRING */
+     , (36507, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 100+ Group)(Warning: You may not be able to recover your corpse.)') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36507, 19, 8) /* VALUE_INT */
+     , (36507, 5, 10) /* ENCUMB_VAL_INT */
+     , (36507, 280, 1000) /* SHARED_COOLDOWN_INT */
+     , (36507, 106, 210) /* ITEM_SPELLCRAFT_INT */
+     , (36507, 108, 50) /* ITEM_MAX_MANA_INT */
+     , (36507, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (36507, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (36507, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (36507, 157) /* SummonPortal1_SpellID */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

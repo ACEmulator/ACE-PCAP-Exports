@@ -43,3 +43,32 @@ VALUES (8787, 67110556, 240, 10);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8787, 0, 16785361);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8787, 16, 'A magical heaume taken from a Shadow in the Heart of Darkness dungeon.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8787, 19, 4000) /* VALUE_INT */
+     , (8787, 5, 500) /* ENCUMB_VAL_INT */
+     , (8787, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (8787, 28, 250) /* ARMOR_LEVEL_INT */
+     , (8787, 108, 350) /* ITEM_MAX_MANA_INT */
+     , (8787, 109, 1) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8787, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (8787, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8787, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8787, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8787, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8787, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8787, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8787, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8787, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8787, 1486) /* Impenetrability6_SpellID */
+     , (8787, 242) /* InvulnerabilityOther4_SpellID */
+     , (8787, 253) /* ImpregnabilityOther4_SpellID */;
+

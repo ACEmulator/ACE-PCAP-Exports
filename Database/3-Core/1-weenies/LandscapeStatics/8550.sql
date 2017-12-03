@@ -38,3 +38,16 @@ VALUES (8550, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8550, 22, True) /* INSCRIBABLE_BOOL */
      , (8550, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8550, 16, 'An enchanted well.') /* LONG_DESC_STRING */
+     , (8550, 14, 'Lower a bucket into the well to get some water.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8550, 19, 200) /* VALUE_INT */
+     , (8550, 5, 6000) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8550, 686) /* ArcaneEnlightenmentOther3_SpellID */;
+

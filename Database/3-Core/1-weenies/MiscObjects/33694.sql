@@ -40,3 +40,18 @@ VALUES (33694, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33694, 0, 16783934);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (33694, 16, 'A token given to you by Varetha, the Emissary of Isin Dule, so that you can prove your assistance in defeating the Mukkir Aspect of Grael.') /* LONG_DESC_STRING */
+     , (33694, 14, 'Give this token to Hoshar ibn Jalaq to receive the Slayer of the Black Spear Title, as well as other rewards.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33694, 33, 1) /* BONDED_INT */
+     , (33694, 114, 1) /* ATTUNED_INT */
+     , (33694, 19, 0) /* VALUE_INT */
+     , (33694, 5, 20) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33694, 69, 0) /* IS_SELLABLE_BOOL */;
+

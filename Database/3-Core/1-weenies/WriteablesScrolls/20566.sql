@@ -35,3 +35,17 @@ VALUES (20566, 13, True) /* ETHEREAL_BOOL */
      , (20566, 19, True) /* ATTACKABLE_BOOL */
      , (20566, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20566, 16, 'Inscribed spell: Nuhmudira''s Blessing
+Increases the caster''s Mana Conversion skill by 40 points.') /* LONG_DESC_STRING */
+     , (20566, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20566, 19, 2000) /* VALUE_INT */
+     , (20566, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (20566, 2287) /* ManaMasterySelf7_SpellID */;
+

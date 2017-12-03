@@ -35,3 +35,14 @@ VALUES (1277, 13, True) /* ETHEREAL_BOOL */
      , (1277, 19, True) /* ATTACKABLE_BOOL */
      , (1277, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1277, 16, 'This key opens a chest in the Bandit Caslte Prison.') /* LONG_DESC_STRING */
+     , (1277, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1277, 19, 200) /* VALUE_INT */
+     , (1277, 5, 50) /* ENCUMB_VAL_INT */
+     , (1277, 91, 3) /* MAX_STRUCTURE_INT */;
+

@@ -45,3 +45,17 @@ VALUES (36658, 0, 83894333, 83895681);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36658, 0, 16778374);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36658, 16, 'Great power is bestowed on the Lugian who wields these gauntlets.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36658, 33, 1) /* BONDED_INT */
+     , (36658, 114, 1) /* ATTUNED_INT */
+     , (36658, 19, 100) /* VALUE_INT */
+     , (36658, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (36658, 69, 1) /* IS_SELLABLE_BOOL */;
+

@@ -33,3 +33,11 @@ VALUES (15669, 13, True) /* ETHEREAL_BOOL */
      , (15669, 19, True) /* ATTACKABLE_BOOL */
      , (15669, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (15669, 38, 'Broken Haft Vale Portal (72.1N, 55.2E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15669, 111, 1) /* PORTAL_BITMASK_INT */;
+

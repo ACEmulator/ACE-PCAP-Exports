@@ -45,3 +45,35 @@ VALUES (12024, 0, 83893321, 83892492);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12024, 0, 16785844);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12024, 16, 'A shield made of diamond.  It is incredibly resilient, and seems to be nigh unbreakable.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12024, 176, 48) /* APPRAISAL_ITEM_SKILL_INT */
+     , (12024, 115, 360) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (12024, 19, 8000) /* VALUE_INT */
+     , (12024, 5, 690) /* ENCUMB_VAL_INT */
+     , (12024, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (12024, 108, 700) /* ITEM_MAX_MANA_INT */
+     , (12024, 28, 180) /* ARMOR_LEVEL_INT */
+     , (12024, 109, 140) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (12024, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (12024, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (12024, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (12024, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (12024, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (12024, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (12024, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (12024, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (12024, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (12024, 1114) /* BladeProtectionSelf6_SpellID */
+     , (12024, 1137) /* PiercingProtectionSelf5_SpellID */
+     , (12024, 248) /* InvulnerabilitySelf5_SpellID */
+     , (12024, 1022) /* BludgeonProtectionSelf5_SpellID */;
+

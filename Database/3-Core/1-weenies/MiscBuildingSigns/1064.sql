@@ -34,3 +34,12 @@ VALUES (1064, 0, 83892071, 83892187);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1064, 0, 16783205);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1064, 16, 'Food and Clothing') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1064, 19, 125) /* VALUE_INT */
+     , (1064, 5, 9000) /* ENCUMB_VAL_INT */;
+

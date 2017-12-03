@@ -34,3 +34,12 @@ VALUES (8377, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8377, 19, True) /* ATTACKABLE_BOOL */
      , (8377, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8377, 14, 'Use the beer stein on the keg to fill it with beer. Visit the barkeep for a beer stein.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8377, 19, 0) /* VALUE_INT */
+     , (8377, 5, 1000) /* ENCUMB_VAL_INT */;
+

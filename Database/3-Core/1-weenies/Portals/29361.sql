@@ -33,3 +33,12 @@ VALUES (29361, 13, True) /* ETHEREAL_BOOL */
      , (29361, 19, True) /* ATTACKABLE_BOOL */
      , (29361, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29361, 38, 'Marauder''s Lair') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29361, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (29361, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -33,3 +33,11 @@ VALUES (13112, 13, True) /* ETHEREAL_BOOL */
      , (13112, 19, True) /* ATTACKABLE_BOOL */
      , (13112, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (13112, 38, 'Nan-Zari Portal (48.9S, 88.5E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13112, 111, 1) /* PORTAL_BITMASK_INT */;
+

@@ -41,3 +41,42 @@ VALUES (28622, 67116298, 152, 8)
      , (28622, 67116319, 72, 24)
      , (28622, 67116319, 136, 16);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28622, 16, 'Tenassa Leggings') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28622, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
+     , (28622, 19, 8923) /* VALUE_INT */
+     , (28622, 131, 58) /* MATERIAL_TYPE_INT */
+     , (28622, 115, 208) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (28622, 5, 1995) /* ENCUMB_VAL_INT */
+     , (28622, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (28622, 106, 188) /* ITEM_SPELLCRAFT_INT */
+     , (28622, 28, 266) /* ARMOR_LEVEL_INT */
+     , (28622, 108, 778) /* ITEM_MAX_MANA_INT */
+     , (28622, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (28622, 109, 42) /* ITEM_DIFFICULTY_INT */
+     , (28622, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28622, 5, -0.04166667) /* MANA_RATE_FLOAT */
+     , (28622, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (28622, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (28622, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (28622, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (28622, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (28622, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (28622, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (28622, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28622, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28622, 1485) /* Impenetrability5_SpellID */
+     , (28622, 1551) /* FlameBane5_SpellID */
+     , (28622, 1561) /* BladeBane5_SpellID */
+     , (28622, 3833) /* CantripSalvaging1_SpellID */;
+

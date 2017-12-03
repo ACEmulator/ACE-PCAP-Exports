@@ -33,3 +33,14 @@ VALUES (31432, 13, True) /* ETHEREAL_BOOL */
      , (31432, 19, True) /* ATTACKABLE_BOOL */
      , (31432, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31432, 16, 'This dungeon is quest restricted.  Royal scholars in Cragstone or Sanamar might be interested in the secrets it holds.') /* LONG_DESC_STRING */
+     , (31432, 38, 'Frozen Cenotaph') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31432, 86, 40) /* MIN_LEVEL_INT */
+     , (31432, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (31432, 111, 49) /* PORTAL_BITMASK_INT */;
+

@@ -35,6 +35,20 @@ VALUES (45491, 13, True) /* ETHEREAL_BOOL */
      , (45491, 14, True) /* GRAVITY_STATUS_BOOL */
      , (45491, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45491, 15, 'An elegant coin. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45491, 33, 1) /* BONDED_INT */
+     , (45491, 114, 1) /* ATTUNED_INT */
+     , (45491, 19, 1) /* VALUE_INT */
+     , (45491, 5, 1) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (45491, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

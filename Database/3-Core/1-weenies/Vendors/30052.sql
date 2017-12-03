@@ -79,6 +79,63 @@ VALUES (30052, 10, 16777301)
      , (30052, 4, 16791881)
      , (30052, 8, 16791882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30052, 5, 'Blacksmith') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (30052, 16, 67110065) /* EYES_PALETTE_DID */
+     , (30052, 9, 83890445) /* EYES_TEXTURE_DID */
+     , (30052, 17, 67115901) /* SKIN_PALETTE_DID */
+     , (30052, 10, 83890518) /* NOSE_TEXTURE_DID */
+     , (30052, 11, 83890575) /* MOUTH_TEXTURE_DID */
+     , (30052, 15, 67117106) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30052, 113, 1) /* GENDER_INT */
+     , (30052, 2, 31) /* CREATURE_TYPE_INT */
+     , (30052, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (30052, 25, 11) /* LEVEL_INT */
+     , (30052, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (30052, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30052, 5, 'Blacksmith') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (30052, 16, 67110065) /* EYES_PALETTE_DID */
+     , (30052, 9, 83890445) /* EYES_TEXTURE_DID */
+     , (30052, 17, 67115901) /* SKIN_PALETTE_DID */
+     , (30052, 10, 83890518) /* NOSE_TEXTURE_DID */
+     , (30052, 11, 83890575) /* MOUTH_TEXTURE_DID */
+     , (30052, 15, 67117106) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30052, 113, 1) /* GENDER_INT */
+     , (30052, 2, 31) /* CREATURE_TYPE_INT */
+     , (30052, 307, 5) /* DAMAGE_RATING_INT */
+     , (30052, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (30052, 25, 11) /* LEVEL_INT */
+     , (30052, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (30052, 1, 130) /* STRENGTH_ATTRIBUTE */
+     , (30052, 2, 110) /* ENDURANCE_ATTRIBUTE */
+     , (30052, 4, 90) /* COORDINATION_ATTRIBUTE */
+     , (30052, 8, 60) /* QUICKNESS_ATTRIBUTE */
+     , (30052, 16, 40) /* FOCUS_ATTRIBUTE */
+     , (30052, 32, 20) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (30052, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30052, 128, 210) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30052, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

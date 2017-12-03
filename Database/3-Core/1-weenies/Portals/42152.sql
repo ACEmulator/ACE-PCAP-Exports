@@ -34,3 +34,13 @@ VALUES (42152, 13, True) /* ETHEREAL_BOOL */
      , (42152, 19, True) /* ATTACKABLE_BOOL */
      , (42152, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42152, 16, 'A portal leading to the the Lost Wish Mountains near the Mite Maze where Branith''s stolen possessions may be found.') /* LONG_DESC_STRING */
+     , (42152, 38, 'Mite Maze (41.1N, 57.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42152, 86, 30) /* MIN_LEVEL_INT */
+     , (42152, 111, 49) /* PORTAL_BITMASK_INT */;
+

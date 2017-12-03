@@ -34,6 +34,22 @@ VALUES (46598, 13, True) /* ETHEREAL_BOOL */
      , (46598, 19, True) /* ATTACKABLE_BOOL */
      , (46598, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46598, 14, 'Combine this with the middle key portion.') /* USE_STRING */
+     , (46598, 15, 'The lower portion of a broken key.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46598, 98, 1485727622) /* CREATION_TIMESTAMP_INT */
+     , (46598, 19, 0) /* VALUE_INT */
+     , (46598, 5, 100) /* ENCUMB_VAL_INT */
+     , (46598, 267, 3600) /* LIFESPAN_INT */
+     , (46598, 268, 3594) /* REMAINING_LIFESPAN_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (46598, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -34,3 +34,12 @@ VALUES (1011, 0, 83892071, 83892185);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1011, 0, 16783205);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1011, 16, 'Djusufa''s Stones') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1011, 19, 125) /* VALUE_INT */
+     , (1011, 5, 9000) /* ENCUMB_VAL_INT */;
+

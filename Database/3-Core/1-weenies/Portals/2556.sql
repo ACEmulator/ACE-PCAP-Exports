@@ -33,3 +33,12 @@ VALUES (2556, 13, True) /* ETHEREAL_BOOL */
      , (2556, 19, True) /* ATTACKABLE_BOOL */
      , (2556, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2556, 38, 'Swamp Temple') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2556, 86, 15) /* MIN_LEVEL_INT */
+     , (2556, 111, 1) /* PORTAL_BITMASK_INT */;
+

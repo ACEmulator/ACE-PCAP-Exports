@@ -53,3 +53,50 @@ VALUES (31790, 0, 83897334, 83897334);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31790, 0, 16792611);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31790, 16, 'Lightning Stick of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31790, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (31790, 160, 430) /* WIELD_DIFFICULTY_INT */
+     , (31790, 353, 7) /* WEAPON_TYPE_INT */
+     , (31790, 177, 2) /* GEM_COUNT_INT */
+     , (31790, 178, 21) /* GEM_TYPE_INT */
+     , (31790, 19, 12186) /* VALUE_INT */
+     , (31790, 131, 76) /* MATERIAL_TYPE_INT */
+     , (31790, 115, 305) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (31790, 5, 260) /* ENCUMB_VAL_INT */
+     , (31790, 105, 9) /* ITEM_WORKMANSHIP_INT */
+     , (31790, 106, 285) /* ITEM_SPELLCRAFT_INT */
+     , (31790, 171, 10) /* NUM_TIMES_TINKERED_INT */
+     , (31790, 108, 1719) /* ITEM_MAX_MANA_INT */
+     , (31790, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (31790, 109, 162) /* ITEM_DIFFICULTY_INT */
+     , (31790, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (31790, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (31790, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (31790, 47, 6) /* ATTACK_TYPE_INT */
+     , (31790, 45, 64) /* DAMAGE_TYPE_INT */
+     , (31790, 49, 0) /* WEAPON_TIME_INT */
+     , (31790, 48, 44) /* WEAPON_SKILL_INT */
+     , (31790, 44, 93) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (31790, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (31790, 29, 1.64) /* WEAPON_DEFENSE_FLOAT */
+     , (31790, 22, 0.38) /* DAMAGE_VARIANCE_FLOAT */
+     , (31790, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (31790, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (31790, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (31790, 62, 1.33) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (31790, 91, 1) /* RETAINED_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (31790, 6091) /* CantripDefender4_SpellID */
+     , (31790, 1616) /* BloodDrinker6_SpellID */
+     , (31790, 5809) /* dualwieldmasteryself7_SpellID */;
+

@@ -42,3 +42,40 @@ VALUES (23912, 13, True) /* ETHEREAL_BOOL */
      , (23912, 19, True) /* ATTACKABLE_BOOL */
      , (23912, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23912, 16, 'A reward for defeating the leaders of the Shreth Clan.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23912, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (23912, 353, 6) /* WEAPON_TYPE_INT */
+     , (23912, 19, 5000) /* VALUE_INT */
+     , (23912, 5, 200) /* ENCUMB_VAL_INT */
+     , (23912, 166, 6) /* SLAYER_CREATURE_TYPE_INT */
+     , (23912, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (23912, 108, 600) /* ITEM_MAX_MANA_INT */
+     , (23912, 109, 120) /* ITEM_DIFFICULTY_INT */
+     , (23912, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (23912, 47, 6) /* ATTACK_TYPE_INT */
+     , (23912, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (23912, 45, 3) /* DAMAGE_TYPE_INT */
+     , (23912, 49, 25) /* WEAPON_TIME_INT */
+     , (23912, 48, 45) /* WEAPON_SKILL_INT */
+     , (23912, 44, 44) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (23912, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (23912, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (23912, 22, 0.7) /* DAMAGE_VARIANCE_FLOAT */
+     , (23912, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (23912, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (23912, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (23912, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (23912, 1614) /* BloodDrinker4_SpellID */
+     , (23912, 2004) /* WarriorsVitality_SpellID */
+     , (23912, 1377) /* CoordinationSelf5_SpellID */
+     , (23912, 1590) /* HeartSeeker4_SpellID */;
+

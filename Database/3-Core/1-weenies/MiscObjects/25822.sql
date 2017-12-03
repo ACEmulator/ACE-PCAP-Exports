@@ -33,6 +33,21 @@ VALUES (25822, 13, True) /* ETHEREAL_BOOL */
      , (25822, 19, True) /* ATTACKABLE_BOOL */
      , (25822, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25822, 14, 'The water is pure, and meant to anoint the trappings of those who have walked the path of Honshu Takeda.') /* USE_STRING */
+     , (25822, 15, 'This water appears to be perfect in every way. It appears clear, cool and refreshing.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25822, 33, 1) /* BONDED_INT */
+     , (25822, 114, 1) /* ATTUNED_INT */
+     , (25822, 19, 0) /* VALUE_INT */
+     , (25822, 5, 500) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (25822, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

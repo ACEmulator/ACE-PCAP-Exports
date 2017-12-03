@@ -29,3 +29,13 @@ VALUES (42778, 13, True) /* ETHEREAL_BOOL */
      , (42778, 19, True) /* ATTACKABLE_BOOL */
      , (42778, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42778, 16, 'Hebian-To, built at the mouth of the River Prosper, was the first settlement of the Sho people on Dereth and as such became the capital for their lands. The Sho library is located here, along the road leading west to Shoushi. Inside this library one may find the translator of texts from the most ancient of the Empyrean people, the Falatacot. ') /* LONG_DESC_STRING */
+     , (42778, 14, 'The Celestial Hand, one of the Societies of Dereth, has established their stronghold here. One of the three powerful Mana Forges, run by the Arcanum, may be found near the Library.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42778, 19, 125) /* VALUE_INT */
+     , (42778, 5, 9000) /* ENCUMB_VAL_INT */;
+

@@ -35,3 +35,34 @@ VALUES (52295, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (52295, 19, True) /* ATTACKABLE_BOOL */
      , (52295, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52295, 15, 'A sarcophagus containing the bones of a recently deceased warrior.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52295, 384, 0) /*  */
+     , (52295, 370, 0) /* GEAR_DAMAGE_INT */
+     , (52295, 386, 0) /*  */
+     , (52295, 307, 0) /* DAMAGE_RATING_INT */
+     , (52295, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (52295, 387, 0) /*  */
+     , (52295, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (52295, 372, 0) /* GEAR_CRIT_INT */
+     , (52295, 388, 0) /*  */
+     , (52295, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (52295, 389, 0) /*  */
+     , (52295, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (52295, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (52295, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (52295, 313, 0) /* CRIT_RATING_INT */
+     , (52295, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (52295, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (52295, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (52295, 315, 9999) /* CRIT_RESIST_RATING_INT */
+     , (52295, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (52295, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (52295, 381, 0) /*  */
+     , (52295, 382, 0) /*  */
+     , (52295, 383, 0) /*  */;
+

@@ -37,6 +37,14 @@ VALUES (53478, 13, True) /* ETHEREAL_BOOL */
      , (53478, 19, True) /* ATTACKABLE_BOOL */
      , (53478, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53478, 19, 90) /* VALUE_INT */
+     , (53478, 5, 160) /* ENCUMB_VAL_INT */
+     , (53478, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (53478, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

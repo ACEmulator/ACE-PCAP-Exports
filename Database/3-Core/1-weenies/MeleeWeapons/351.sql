@@ -51,3 +51,35 @@ VALUES (351, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (351, 0, 16777961);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (351, 16, 'Long Sword') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (351, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (351, 353, 2) /* WEAPON_TYPE_INT */
+     , (351, 177, 2) /* GEM_COUNT_INT */
+     , (351, 178, 34) /* GEM_TYPE_INT */
+     , (351, 19, 1102) /* VALUE_INT */
+     , (351, 131, 59) /* MATERIAL_TYPE_INT */
+     , (351, 5, 375) /* ENCUMB_VAL_INT */
+     , (351, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (351, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (351, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (351, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (351, 47, 6) /* ATTACK_TYPE_INT */
+     , (351, 45, 3) /* DAMAGE_TYPE_INT */
+     , (351, 49, 40) /* WEAPON_TIME_INT */
+     , (351, 48, 44) /* WEAPON_SKILL_INT */
+     , (351, 44, 39) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (351, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (351, 150, 1.025) /* WEAPON_MAGIC_DEFENSE_FLOAT */
+     , (351, 22, 0.57) /* DAMAGE_VARIANCE_FLOAT */
+     , (351, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (351, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (351, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (351, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+

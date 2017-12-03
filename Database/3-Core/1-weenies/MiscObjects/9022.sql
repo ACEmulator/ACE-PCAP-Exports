@@ -51,3 +51,9 @@ VALUES (9022, 0, 16779360)
      , (9022, 3, 16779362)
      , (9022, 4, 16779357);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9022, 19, 5) /* VALUE_INT */
+     , (9022, 5, 400) /* ENCUMB_VAL_INT */;
+

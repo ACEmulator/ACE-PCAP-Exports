@@ -45,3 +45,12 @@ VALUES (29899, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29899, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29899, 15, 'A small bundle of Littoral Siraluun Feathers.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29899, 19, 150) /* VALUE_INT */
+     , (29899, 5, 100) /* ENCUMB_VAL_INT */;
+

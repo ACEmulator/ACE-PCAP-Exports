@@ -33,3 +33,12 @@ VALUES (2068, 13, True) /* ETHEREAL_BOOL */
      , (2068, 19, True) /* ATTACKABLE_BOOL */
      , (2068, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2068, 16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LONG_DESC_STRING */
+     , (2068, 38, 'Drudge Hideout') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2068, 111, 1) /* PORTAL_BITMASK_INT */;
+

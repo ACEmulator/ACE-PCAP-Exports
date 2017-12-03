@@ -34,6 +34,20 @@ VALUES (35383, 13, True) /* ETHEREAL_BOOL */
      , (35383, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35383, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35383, 15, 'An elegant but charred coin, used in ancient times by House Mhoire. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35383, 33, 1) /* BONDED_INT */
+     , (35383, 114, 1) /* ATTUNED_INT */
+     , (35383, 19, 100) /* VALUE_INT */
+     , (35383, 5, 100) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35383, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

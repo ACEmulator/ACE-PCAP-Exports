@@ -61,3 +61,33 @@ VALUES (43860, 0, 16778359)
      , (43860, 15, 16777307)
      , (43860, 16, 16778407);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43860, 2, 22) /* CREATURE_TYPE_INT */
+     , (43860, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (43860, 25, 600) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43860, 64, 20000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43860, 2, 22) /* CREATURE_TYPE_INT */
+     , (43860, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (43860, 25, 600) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (43860, 1, 600) /* STRENGTH_ATTRIBUTE */
+     , (43860, 2, 620) /* ENDURANCE_ATTRIBUTE */
+     , (43860, 4, 300) /* COORDINATION_ATTRIBUTE */
+     , (43860, 8, 400) /* QUICKNESS_ATTRIBUTE */
+     , (43860, 16, 400) /* FOCUS_ATTRIBUTE */
+     , (43860, 32, 400) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43860, 64, 20000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (43860, 128, 5000) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (43860, 256, 3000) /* MAX_MANA_ATTRIBUTE_2ND */;
+

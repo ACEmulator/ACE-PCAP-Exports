@@ -33,3 +33,11 @@ VALUES (19148, 13, True) /* ETHEREAL_BOOL */
      , (19148, 19, True) /* ATTACKABLE_BOOL */
      , (19148, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19148, 38, 'Hopevale Portal (32.8N, 34.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19148, 111, 1) /* PORTAL_BITMASK_INT */;
+

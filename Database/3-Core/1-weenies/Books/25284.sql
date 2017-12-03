@@ -35,6 +35,18 @@ VALUES (25284, 13, True) /* ETHEREAL_BOOL */
      , (25284, 19, True) /* ATTACKABLE_BOOL */
      , (25284, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25284, 16, 'A Chalk Board that anyone can write on.  The last person to write on this will be listed as the author.  This item may be placed on wall hooks.  Mansions may only have 3 Chalk Boards, Villas and Cottages may only have 1.  You may not hook this in an apartment.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25284, 33, 1) /* BONDED_INT */
+     , (25284, 19, 50000) /* VALUE_INT */
+     , (25284, 5, 15) /* ENCUMB_VAL_INT */
+     , (25284, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (25284, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -84,6 +84,29 @@ VALUES (20222, 10, 16777301)
      , (20222, 4, 16781838)
      , (20222, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (20222, 5, 'Master Archmage') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (20222, 16, 67110062) /* EYES_PALETTE_DID */
+     , (20222, 9, 83890507) /* EYES_TEXTURE_DID */
+     , (20222, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (20222, 10, 83890553) /* NOSE_TEXTURE_DID */
+     , (20222, 11, 83890667) /* MOUTH_TEXTURE_DID */
+     , (20222, 15, 67117023) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (20222, 113, 1) /* GENDER_INT */
+     , (20222, 2, 31) /* CREATURE_TYPE_INT */
+     , (20222, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (20222, 25, 14) /* LEVEL_INT */
+     , (20222, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (20222, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

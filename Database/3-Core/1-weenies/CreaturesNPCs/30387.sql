@@ -89,3 +89,26 @@ VALUES (30387, 12, 16777304)
      , (30387, 4, 16777291)
      , (30387, 8, 16777298);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30387, 5, 'Adventurer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (30387, 16, 67109565) /* EYES_PALETTE_DID */
+     , (30387, 9, 83890488) /* EYES_TEXTURE_DID */
+     , (30387, 17, 67110054) /* SKIN_PALETTE_DID */
+     , (30387, 10, 83890548) /* NOSE_TEXTURE_DID */
+     , (30387, 11, 83890570) /* MOUTH_TEXTURE_DID */
+     , (30387, 15, 67116993) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30387, 113, 1) /* GENDER_INT */
+     , (30387, 2, 31) /* CREATURE_TYPE_INT */
+     , (30387, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (30387, 25, 47) /* LEVEL_INT */
+     , (30387, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (30387, 64, 173) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

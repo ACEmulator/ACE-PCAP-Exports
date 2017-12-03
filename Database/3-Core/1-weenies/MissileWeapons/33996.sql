@@ -45,3 +45,49 @@ VALUES (33996, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33996, 67112871, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (33996, 55, 2100) /* PROC_SPELL_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33996, 160, 360) /* WIELD_DIFFICULTY_INT */
+     , (33996, 353, 8) /* WEAPON_TYPE_INT */
+     , (33996, 19, 400) /* VALUE_INT */
+     , (33996, 5, 400) /* ENCUMB_VAL_INT */
+     , (33996, 106, 450) /* ITEM_SPELLCRAFT_INT */
+     , (33996, 108, 500) /* ITEM_MAX_MANA_INT */
+     , (33996, 109, 250) /* ITEM_DIFFICULTY_INT */
+     , (33996, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (33996, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (33996, 45, 0) /* DAMAGE_TYPE_INT */
+     , (33996, 49, 1) /* WEAPON_TIME_INT */
+     , (33996, 48, 47) /* WEAPON_SKILL_INT */
+     , (33996, 44, 10) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (33996, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (33996, 155, 1) /* IGNORE_ARMOR_FLOAT */
+     , (33996, 29, 1.17) /* WEAPON_DEFENSE_FLOAT */
+     , (33996, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (33996, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (33996, 63, 2.5) /* DAMAGE_MOD_FLOAT */
+     , (33996, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (33996, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (33996, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (33996, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (33996, 2100) /* Brittlemail7_SpellID */
+     , (33996, 2116) /* Swiftkiller7_SpellID */
+     , (33996, 2244) /* InvulnerabilityOther7_SpellID */
+     , (33996, 2505) /* CANTRIPBOWAPTITUDE2_SpellID */
+     , (33996, 2058) /* CoordinationOther7_SpellID */
+     , (33996, 2572) /* CANTRIPCOORDINATION2_SpellID */
+     , (33996, 2206) /* BowMasteryOther7_SpellID */
+     , (33996, 2280) /* MagicResistanceOther7_SpellID */
+     , (33996, 2096) /* BloodDrinker7_SpellID */
+     , (33996, 2101) /* Defender7_SpellID */;
+

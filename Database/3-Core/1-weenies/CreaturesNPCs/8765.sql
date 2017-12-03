@@ -37,3 +37,16 @@ VALUES (8765, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8765, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (8765, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8765, 5, 'Emissary') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8765, 2, 62) /* CREATURE_TYPE_INT */
+     , (8765, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (8765, 25, 50) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (8765, 64, 188) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

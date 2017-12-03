@@ -86,6 +86,29 @@ VALUES (11394, 11, 16778429)
      , (11394, 4, 16778426)
      , (11394, 8, 16778428);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11394, 5, 'Armorer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (11394, 16, 67110063) /* EYES_PALETTE_DID */
+     , (11394, 9, 83890235) /* EYES_TEXTURE_DID */
+     , (11394, 17, 67110047) /* SKIN_PALETTE_DID */
+     , (11394, 10, 83890289) /* NOSE_TEXTURE_DID */
+     , (11394, 11, 83890327) /* MOUTH_TEXTURE_DID */
+     , (11394, 15, 67117075) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11394, 113, 2) /* GENDER_INT */
+     , (11394, 2, 31) /* CREATURE_TYPE_INT */
+     , (11394, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (11394, 25, 17) /* LEVEL_INT */
+     , (11394, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (11394, 64, 195) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -66,3 +66,40 @@ VALUES (9137, 0, 16779464)
      , (9137, 7, 16777708)
      , (9137, 8, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9137, 16, 'A Tumerok leader''s heavy crossbow, studded with unidentifiable gems.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9137, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (9137, 353, 9) /* WEAPON_TYPE_INT */
+     , (9137, 19, 1200) /* VALUE_INT */
+     , (9137, 5, 1500) /* ENCUMB_VAL_INT */
+     , (9137, 263, 8) /* RESISTANCE_MODIFIER_TYPE_INT */
+     , (9137, 106, 150) /* ITEM_SPELLCRAFT_INT */
+     , (9137, 108, 400) /* ITEM_MAX_MANA_INT */
+     , (9137, 109, 225) /* ITEM_DIFFICULTY_INT */
+     , (9137, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (9137, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (9137, 45, 0) /* DAMAGE_TYPE_INT */
+     , (9137, 49, 90) /* WEAPON_TIME_INT */
+     , (9137, 48, 47) /* WEAPON_SKILL_INT */
+     , (9137, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (9137, 5, -0.025) /* MANA_RATE_FLOAT */
+     , (9137, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
+     , (9137, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
+     , (9137, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (9137, 63, 1.6) /* DAMAGE_MOD_FLOAT */
+     , (9137, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (9137, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
+     , (9137, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (9137, 1616) /* BloodDrinker6_SpellID */
+     , (9137, 1625) /* SwiftKiller4_SpellID */
+     , (9137, 1384) /* CoordinationOther6_SpellID */
+     , (9137, 1591) /* HeartSeeker5_SpellID */;
+

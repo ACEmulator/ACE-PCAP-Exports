@@ -29,3 +29,17 @@ VALUES (28904, 13, True) /* ETHEREAL_BOOL */
      , (28904, 19, True) /* ATTACKABLE_BOOL */
      , (28904, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28904, 16, 'A small lead lodestone.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28904, 33, 1) /* BONDED_INT */
+     , (28904, 114, 1) /* ATTUNED_INT */
+     , (28904, 19, 10) /* VALUE_INT */
+     , (28904, 5, 25) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (28904, 69, 0) /* IS_SELLABLE_BOOL */;
+

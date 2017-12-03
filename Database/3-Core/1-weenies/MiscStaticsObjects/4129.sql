@@ -36,3 +36,12 @@ VALUES (4129, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4129, 19, True) /* ATTACKABLE_BOOL */
      , (4129, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4129, 19, 200) /* VALUE_INT */
+     , (4129, 5, 6000) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (4129, 1) /* StrengthOther1_SpellID */;
+

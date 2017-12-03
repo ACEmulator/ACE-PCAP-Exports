@@ -51,3 +51,31 @@ VALUES (21960, 67111923, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21960, 0, 16787488);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21960, 16, 'An atlatl crafted from high-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21960, 33, 1) /* BONDED_INT */
+     , (21960, 353, 10) /* WEAPON_TYPE_INT */
+     , (21960, 114, 1) /* ATTUNED_INT */
+     , (21960, 19, 4000) /* VALUE_INT */
+     , (21960, 36, 9999) /* RESIST_MAGIC_INT */
+     , (21960, 5, 200) /* ENCUMB_VAL_INT */
+     , (21960, 45, 0) /* DAMAGE_TYPE_INT */
+     , (21960, 49, 30) /* WEAPON_TIME_INT */
+     , (21960, 48, 47) /* WEAPON_SKILL_INT */
+     , (21960, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (21960, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
+     , (21960, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (21960, 63, 3.75) /* DAMAGE_MOD_FLOAT */
+     , (21960, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (21960, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (21960, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (21960, 99, 1) /* IVORYABLE_BOOL */;
+

@@ -34,3 +34,16 @@ VALUES (29480, 13, True) /* ETHEREAL_BOOL */
      , (29480, 19, True) /* ATTACKABLE_BOOL */
      , (29480, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29480, 16, 'A key to the Royal Prison Warden''s chest.') /* LONG_DESC_STRING */
+     , (29480, 14, 'Use this item on a locked chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29480, 33, 1) /* BONDED_INT */
+     , (29480, 114, 1) /* ATTUNED_INT */
+     , (29480, 19, 0) /* VALUE_INT */
+     , (29480, 5, 10) /* ENCUMB_VAL_INT */
+     , (29480, 91, 1) /* MAX_STRUCTURE_INT */;
+

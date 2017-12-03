@@ -79,3 +79,16 @@ VALUES (42144, 0, 16787248)
      , (42144, 15, 16787257)
      , (42144, 16, 16787256);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42144, 5, 'Portal Warden') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42144, 2, 4) /* CREATURE_TYPE_INT */
+     , (42144, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (42144, 25, 92) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (42144, 64, 130) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

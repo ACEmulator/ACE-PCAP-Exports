@@ -83,6 +83,39 @@ VALUES (40966, 12, 16777304)
      , (40966, 14, 16783855)
      , (40966, 16, 16785778);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40966, 5, 'Master Alchemist') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (40966, 16, 67110062) /* EYES_PALETTE_DID */
+     , (40966, 9, 83890457) /* EYES_TEXTURE_DID */
+     , (40966, 17, 67109552) /* SKIN_PALETTE_DID */
+     , (40966, 10, 83890560) /* NOSE_TEXTURE_DID */
+     , (40966, 11, 83890600) /* MOUTH_TEXTURE_DID */
+     , (40966, 15, 67117068) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40966, 113, 1) /* GENDER_INT */
+     , (40966, 2, 31) /* CREATURE_TYPE_INT */
+     , (40966, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (40966, 25, 200) /* LEVEL_INT */
+     , (40966, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (40966, 1, 110) /* STRENGTH_ATTRIBUTE */
+     , (40966, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (40966, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (40966, 8, 190) /* QUICKNESS_ATTRIBUTE */
+     , (40966, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (40966, 32, 220) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (40966, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (40966, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (40966, 256, 340) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

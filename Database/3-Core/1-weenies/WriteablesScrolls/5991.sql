@@ -35,3 +35,17 @@ VALUES (5991, 13, True) /* ETHEREAL_BOOL */
      , (5991, 19, True) /* ATTACKABLE_BOOL */
      , (5991, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5991, 16, 'Inscribed spell: Alchemy Mastery Other VI
+Increases the target''s Alchemy skill by 35 points.') /* LONG_DESC_STRING */
+     , (5991, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5991, 19, 1000) /* VALUE_INT */
+     , (5991, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (5991, 1762) /* AlchemyMasteryOther6_SpellID */;
+

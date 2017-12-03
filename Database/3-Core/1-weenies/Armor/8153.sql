@@ -43,3 +43,30 @@ VALUES (8153, 67116922, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8153, 0, 16787332);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8153, 16, 'A mask made out of some indeterminable metal. It seems to reflect light in a strange manner.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8153, 19, 2000) /* VALUE_INT */
+     , (8153, 5, 300) /* ENCUMB_VAL_INT */
+     , (8153, 106, 200) /* ITEM_SPELLCRAFT_INT */
+     , (8153, 108, 200) /* ITEM_MAX_MANA_INT */
+     , (8153, 28, 180) /* ARMOR_LEVEL_INT */
+     , (8153, 109, 120) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (8153, 5, -0.0333) /* MANA_RATE_FLOAT */
+     , (8153, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (8153, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (8153, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (8153, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (8153, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (8153, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (8153, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (8153, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (8153, 247) /* InvulnerabilitySelf4_SpellID */;
+

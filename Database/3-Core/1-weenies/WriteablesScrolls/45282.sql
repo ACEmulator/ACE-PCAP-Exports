@@ -35,3 +35,17 @@ VALUES (45282, 13, True) /* ETHEREAL_BOOL */
      , (45282, 19, True) /* ATTACKABLE_BOOL */
      , (45282, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (45282, 16, 'Inscribed spell: Dual Wield Mastery Self VII
+Increases the caster''s Dual Wield skill by 40 points.') /* LONG_DESC_STRING */
+     , (45282, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45282, 19, 2000) /* VALUE_INT */
+     , (45282, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (45282, 5809) /* dualwieldmasteryself7_SpellID */;
+

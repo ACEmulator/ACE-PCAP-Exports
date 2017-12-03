@@ -76,6 +76,23 @@ VALUES (35921, 0, 16788885)
      , (35921, 12, 16788891)
      , (35921, 16, 16789125);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35921, 15, 'A golem doll. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35921, 33, 1) /* BONDED_INT */
+     , (35921, 98, 1483945802) /* CREATION_TIMESTAMP_INT */
+     , (35921, 114, 1) /* ATTUNED_INT */
+     , (35921, 19, 0) /* VALUE_INT */
+     , (35921, 5, 10) /* ENCUMB_VAL_INT */
+     , (35921, 267, 3600) /* LIFESPAN_INT */
+     , (35921, 268, 3600) /* REMAINING_LIFESPAN_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (35921, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

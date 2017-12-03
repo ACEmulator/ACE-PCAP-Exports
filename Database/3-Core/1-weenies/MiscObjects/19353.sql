@@ -33,6 +33,15 @@ VALUES (19353, 13, True) /* ETHEREAL_BOOL */
      , (19353, 19, True) /* ATTACKABLE_BOOL */
      , (19353, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (19353, 14, 'Use this seal on a town pedestal to dissolve the stone.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (19353, 19, 0) /* VALUE_INT */
+     , (19353, 5, 50) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

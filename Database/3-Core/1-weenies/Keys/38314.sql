@@ -33,3 +33,20 @@ VALUES (38314, 13, True) /* ETHEREAL_BOOL */
      , (38314, 19, True) /* ATTACKABLE_BOOL */
      , (38314, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38314, 16, 'A key, rewarded to you for achieving the Rank of Initiate within your Society.') /* LONG_DESC_STRING */
+     , (38314, 14, 'Use this key on one of the chests located near to the Promotions Officer within the Society Stronghold.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38314, 33, 1) /* BONDED_INT */
+     , (38314, 114, 1) /* ATTUNED_INT */
+     , (38314, 19, 0) /* VALUE_INT */
+     , (38314, 5, 50) /* ENCUMB_VAL_INT */
+     , (38314, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38314, 99, 0) /* IVORYABLE_BOOL */
+     , (38314, 69, 0) /* IS_SELLABLE_BOOL */;
+

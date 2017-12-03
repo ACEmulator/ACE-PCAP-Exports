@@ -35,3 +35,28 @@ VALUES (11237, 13, True) /* ETHEREAL_BOOL */
      , (11237, 19, True) /* ATTACKABLE_BOOL */
      , (11237, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11237, 16, 'A mace with a small loop at the end, allowing it to be hung from something. There is a fine inscription along its length - "Marae Edare," in the script of Yalain.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11237, 353, 4) /* WEAPON_TYPE_INT */
+     , (11237, 33, 1) /* BONDED_INT */
+     , (11237, 114, 1) /* ATTUNED_INT */
+     , (11237, 19, 50) /* VALUE_INT */
+     , (11237, 5, 200) /* ENCUMB_VAL_INT */
+     , (11237, 47, 4) /* ATTACK_TYPE_INT */
+     , (11237, 45, 4) /* DAMAGE_TYPE_INT */
+     , (11237, 49, 0) /* WEAPON_TIME_INT */
+     , (11237, 48, 46) /* WEAPON_SKILL_INT */
+     , (11237, 44, 44) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (11237, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
+     , (11237, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (11237, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (11237, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (11237, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (11237, 62, 1.2) /* WEAPON_OFFENSE_FLOAT */;
+

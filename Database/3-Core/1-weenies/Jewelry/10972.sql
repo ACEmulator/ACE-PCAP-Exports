@@ -37,3 +37,23 @@ VALUES (10972, 13, True) /* ETHEREAL_BOOL */
      , (10972, 19, True) /* ATTACKABLE_BOOL */
      , (10972, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (10972, 16, 'A spiked collar, smelling faintly of Reedshark.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10972, 19, 5800) /* VALUE_INT */
+     , (10972, 5, 50) /* ENCUMB_VAL_INT */
+     , (10972, 106, 225) /* ITEM_SPELLCRAFT_INT */
+     , (10972, 108, 1400) /* ITEM_MAX_MANA_INT */
+     , (10972, 109, 0) /* ITEM_DIFFICULTY_INT */
+     , (10972, 110, 1) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (10972, 5, -0.01) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (10972, 1384) /* CoordinationOther6_SpellID */
+     , (10972, 957) /* FealtyOther6_SpellID */;
+

@@ -31,3 +31,18 @@ VALUES (38245, 13, True) /* ETHEREAL_BOOL */
      , (38245, 19, True) /* ATTACKABLE_BOOL */
      , (38245, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38245, 16, 'He is always watching. He knows the great secrets of the world and he whispers them to his servants.') /* LONG_DESC_STRING */
+     , (38245, 14, 'Return this and the other nine artifacts to your Task Master to complete the quest.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38245, 33, 1) /* BONDED_INT */
+     , (38245, 114, 1) /* ATTUNED_INT */
+     , (38245, 19, 0) /* VALUE_INT */
+     , (38245, 5, 25) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38245, 69, 0) /* IS_SELLABLE_BOOL */;
+

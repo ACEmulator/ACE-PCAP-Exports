@@ -41,3 +41,36 @@ VALUES (40625, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40625, 67116842, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40625, 16, 'Lightning Quadrelle') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40625, 160, 300) /* WIELD_DIFFICULTY_INT */
+     , (40625, 353, 11) /* WEAPON_TYPE_INT */
+     , (40625, 177, 2) /* GEM_COUNT_INT */
+     , (40625, 178, 25) /* GEM_TYPE_INT */
+     , (40625, 19, 397) /* VALUE_INT */
+     , (40625, 131, 75) /* MATERIAL_TYPE_INT */
+     , (40625, 292, 2) /* CLEAVING_INT */
+     , (40625, 5, 579) /* ENCUMB_VAL_INT */
+     , (40625, 105, 3) /* ITEM_WORKMANSHIP_INT */
+     , (40625, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (40625, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (40625, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (40625, 47, 4) /* ATTACK_TYPE_INT */
+     , (40625, 45, 64) /* DAMAGE_TYPE_INT */
+     , (40625, 49, 38) /* WEAPON_TIME_INT */
+     , (40625, 48, 41) /* WEAPON_SKILL_INT */
+     , (40625, 44, 19) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (40625, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
+     , (40625, 149, 1.015) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (40625, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */
+     , (40625, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (40625, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (40625, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (40625, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
+

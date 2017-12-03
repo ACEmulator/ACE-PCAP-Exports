@@ -32,3 +32,12 @@ VALUES (5662, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5662, 19, True) /* ATTACKABLE_BOOL */
      , (5662, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5662, 14, 'Use this item to open it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (5662, 2, 0) /* OPEN_BOOL */
+     , (5662, 3, 1) /* LOCKED_BOOL */;
+

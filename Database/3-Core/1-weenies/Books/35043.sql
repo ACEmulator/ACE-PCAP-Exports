@@ -34,6 +34,17 @@ VALUES (35043, 13, True) /* ETHEREAL_BOOL */
      , (35043, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35043, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35043, 16, 'A rumor regarding the existence of strange halls containing golems.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35043, 19, 5) /* VALUE_INT */
+     , (35043, 5, 5) /* ENCUMB_VAL_INT */
+     , (35043, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (35043, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
+
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

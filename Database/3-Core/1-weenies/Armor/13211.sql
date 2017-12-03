@@ -55,3 +55,24 @@ VALUES (13211, 0, 83887061, 83892990)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (13211, 0, 16778356);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (13211, 16, 'A fur coat awarded by the Academy to those who complete their training.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13211, 33, 1) /* BONDED_INT */
+     , (13211, 19, 150) /* VALUE_INT */
+     , (13211, 5, 30) /* ENCUMB_VAL_INT */
+     , (13211, 28, 250) /* ARMOR_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (13211, 13, 2.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (13211, 14, 2.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (13211, 15, 2.45) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (13211, 16, 2.7) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (13211, 17, 1.73) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (13211, 18, 2.45) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (13211, 19, 2.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (13211, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+

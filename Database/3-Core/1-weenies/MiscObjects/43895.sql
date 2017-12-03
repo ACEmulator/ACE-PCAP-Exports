@@ -31,3 +31,14 @@ VALUES (43895, 13, True) /* ETHEREAL_BOOL */
      , (43895, 19, True) /* ATTACKABLE_BOOL */
      , (43895, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43895, 15, 'The crystal seems to radiate dark energy.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43895, 33, 1) /* BONDED_INT */
+     , (43895, 114, 1) /* ATTUNED_INT */
+     , (43895, 19, 0) /* VALUE_INT */
+     , (43895, 5, 10) /* ENCUMB_VAL_INT */;
+

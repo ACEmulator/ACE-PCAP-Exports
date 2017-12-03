@@ -29,3 +29,12 @@ VALUES (42786, 13, True) /* ETHEREAL_BOOL */
      , (42786, 19, True) /* ATTACKABLE_BOOL */
      , (42786, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42786, 16, 'Ahurenga is the capital of the Hea Tumeroks. Led by Hea Arantah, this Xuta of Tumeroks have abandoned the the traditions that the Aun cling to, and have given themselves to the masters they call the "Atual Arutoa" - Virindi. As part of their service, Hea Tumeroks have had their bodies altered into something more human.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42786, 19, 125) /* VALUE_INT */
+     , (42786, 5, 9000) /* ENCUMB_VAL_INT */;
+

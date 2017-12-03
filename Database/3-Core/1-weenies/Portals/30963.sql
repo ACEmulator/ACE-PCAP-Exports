@@ -33,3 +33,13 @@ VALUES (30963, 13, True) /* ETHEREAL_BOOL */
      , (30963, 19, True) /* ATTACKABLE_BOOL */
      , (30963, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30963, 38, 'Thrungus Hole') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30963, 86, 126) /* MIN_LEVEL_INT */
+     , (30963, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (30963, 111, 1) /* PORTAL_BITMASK_INT */;
+

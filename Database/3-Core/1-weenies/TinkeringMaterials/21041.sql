@@ -50,6 +50,20 @@ VALUES (21041, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21041, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (21041, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Endurance. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.') /* USE_STRING */
+     , (21041, 15, 'Chips of bloodstone material salvaged from old items.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21041, 33, 1) /* BONDED_INT */
+     , (21041, 131, 17) /* MATERIAL_TYPE_INT */
+     , (21041, 19, 2986) /* VALUE_INT */
+     , (21041, 5, 100) /* ENCUMB_VAL_INT */
+     , (21041, 105, 56) /* ITEM_WORKMANSHIP_INT */
+     , (21041, 170, 11) /* NUM_ITEMS_IN_MATERIAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

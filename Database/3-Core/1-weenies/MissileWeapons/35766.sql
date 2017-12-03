@@ -37,3 +37,42 @@ VALUES (35766, 13, True) /* ETHEREAL_BOOL */
      , (35766, 19, True) /* ATTACKABLE_BOOL */
      , (35766, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35766, 16, 'This atlatl was carved from the giant rib of a monouga, and this origin has given the atlatl an attunement against other monougas.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35766, 160, 315) /* WIELD_DIFFICULTY_INT */
+     , (35766, 353, 10) /* WEAPON_TYPE_INT */
+     , (35766, 19, 6500) /* VALUE_INT */
+     , (35766, 5, 600) /* ENCUMB_VAL_INT */
+     , (35766, 166, 28) /* SLAYER_CREATURE_TYPE_INT */
+     , (35766, 106, 400) /* ITEM_SPELLCRAFT_INT */
+     , (35766, 204, 14) /* ELEMENTAL_DAMAGE_BONUS_INT */
+     , (35766, 108, 700) /* ITEM_MAX_MANA_INT */
+     , (35766, 109, 200) /* ITEM_DIFFICULTY_INT */
+     , (35766, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (35766, 159, 47) /* WIELD_SKILLTYPE_INT */
+     , (35766, 45, 2) /* DAMAGE_TYPE_INT */
+     , (35766, 49, 30) /* WEAPON_TIME_INT */
+     , (35766, 48, 47) /* WEAPON_SKILL_INT */
+     , (35766, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (35766, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (35766, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (35766, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (35766, 5, -0.033) /* MANA_RATE_FLOAT */
+     , (35766, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (35766, 63, 2.85) /* DAMAGE_MOD_FLOAT */
+     , (35766, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (35766, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
+     , (35766, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (35766, 2116) /* Swiftkiller7_SpellID */
+     , (35766, 2540) /* CANTRIPBOWAPTITUDE1_SpellID */
+     , (35766, 2096) /* BloodDrinker7_SpellID */
+     , (35766, 2101) /* Defender7_SpellID */;
+

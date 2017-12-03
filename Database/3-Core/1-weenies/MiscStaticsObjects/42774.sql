@@ -29,3 +29,12 @@ VALUES (42774, 13, True) /* ETHEREAL_BOOL */
      , (42774, 19, True) /* ATTACKABLE_BOOL */
      , (42774, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42774, 16, 'Mayoi is a quiet town nestled in the base of the Tou peninsula. Many weary Sho come to this secluded village to meditate be the bay as the calm waves endlessly roll into the sands. Southeast of Mayoi, you may find the spire of Shoyanen Kenchu, the master archmage of the Sho people. From Shoyanen''s tower, one can view the distant archipelago known as the Vesayen Isles. Though the strait is too deep and its currents are too strong to cross, rumors speak of a portal to the islands along the beach, south of the master mage''s spire.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42774, 19, 125) /* VALUE_INT */
+     , (42774, 5, 9000) /* ENCUMB_VAL_INT */;
+

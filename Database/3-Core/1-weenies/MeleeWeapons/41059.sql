@@ -49,3 +49,36 @@ VALUES (41059, 0, 83897966, 83897966)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41059, 0, 16794292);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41059, 16, 'Lightning Great Star Mace') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41059, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (41059, 353, 11) /* WEAPON_TYPE_INT */
+     , (41059, 177, 1) /* GEM_COUNT_INT */
+     , (41059, 178, 49) /* GEM_TYPE_INT */
+     , (41059, 19, 1248) /* VALUE_INT */
+     , (41059, 131, 75) /* MATERIAL_TYPE_INT */
+     , (41059, 292, 2) /* CLEAVING_INT */
+     , (41059, 5, 555) /* ENCUMB_VAL_INT */
+     , (41059, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (41059, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (41059, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (41059, 159, 41) /* WIELD_SKILLTYPE_INT */
+     , (41059, 47, 4) /* ATTACK_TYPE_INT */
+     , (41059, 45, 64) /* DAMAGE_TYPE_INT */
+     , (41059, 49, 37) /* WEAPON_TIME_INT */
+     , (41059, 48, 41) /* WEAPON_SKILL_INT */
+     , (41059, 44, 26) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (41059, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
+     , (41059, 149, 1.015) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (41059, 22, 0.35) /* DAMAGE_VARIANCE_FLOAT */
+     , (41059, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (41059, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (41059, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (41059, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
+

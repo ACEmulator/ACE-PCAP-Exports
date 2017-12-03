@@ -29,3 +29,12 @@ VALUES (24024, 13, True) /* ETHEREAL_BOOL */
      , (24024, 19, True) /* ATTACKABLE_BOOL */
      , (24024, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24024, 38, 'Collegium Planar Abstraction Conveyance') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24024, 86, 130) /* MIN_LEVEL_INT */
+     , (24024, 111, 49) /* PORTAL_BITMASK_INT */;
+

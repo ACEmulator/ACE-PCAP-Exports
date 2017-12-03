@@ -53,3 +53,32 @@ VALUES (49295, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49295, 0, 16777882);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49295, 14, 'Use this essence to summon or dismiss your K''nath T''soct.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49295, 368, 54) /* USE_REQUIRES_SKILL_SPEC_INT */
+     , (49295, 369, 185) /* USE_REQUIRES_LEVEL_INT */
+     , (49295, 33, 0) /* BONDED_INT */
+     , (49295, 370, 17) /* GEAR_DAMAGE_INT */
+     , (49295, 114, 0) /* ATTUNED_INT */
+     , (49295, 371, 8) /* GEAR_DAMAGE_RESIST_INT */
+     , (49295, 19, 10000) /* VALUE_INT */
+     , (49295, 372, 18) /* GEAR_CRIT_INT */
+     , (49295, 373, 18) /* GEAR_CRIT_RESIST_INT */
+     , (49295, 5, 50) /* ENCUMB_VAL_INT */
+     , (49295, 375, 10) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (49295, 280, 213) /* SHARED_COOLDOWN_INT */
+     , (49295, 105, 8) /* ITEM_WORKMANSHIP_INT */
+     , (49295, 91, 50) /* MAX_STRUCTURE_INT */
+     , (49295, 366, 54) /* USE_REQUIRES_SKILL_INT */
+     , (49295, 367, 570) /* USE_REQUIRES_SKILL_LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49295, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (49295, 69, 1) /* IS_SELLABLE_BOOL */;
+

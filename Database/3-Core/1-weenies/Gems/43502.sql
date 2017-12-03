@@ -38,3 +38,15 @@ VALUES (43502, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43502, 0, 16787203);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43502, 14, 'This token may be traded to Nalicana, the Seer of the Yalain, in Asheron''s Castle, in order to spend Luminance to gain or increase the Aura of Mana Infusion augmentation.  This augmentation may be bought up to 5 times.  Cost for each level: 100,000, 150,000, 200,000, 250,000, 300,000.  This augmentation increases the mana provided by mana stones to your items. The mana is increased by a rating of 1 per level.') /* USE_STRING */
+     , (43502, 15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43502, 33, 1) /* BONDED_INT */
+     , (43502, 114, 1) /* ATTUNED_INT */
+     , (43502, 19, 0) /* VALUE_INT */
+     , (43502, 5, 5) /* ENCUMB_VAL_INT */;
+

@@ -35,3 +35,12 @@ VALUES (22713, 0, 83894424, 83894435);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22713, 0, 16788729);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (22713, 16, 'A picture of a Tusker wearing a crown and munching on Chittick.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22713, 19, 125) /* VALUE_INT */
+     , (22713, 5, 9000) /* ENCUMB_VAL_INT */;
+

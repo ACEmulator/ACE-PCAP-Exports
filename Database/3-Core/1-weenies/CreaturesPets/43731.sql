@@ -103,3 +103,13 @@ VALUES (43731, 0, 16795138)
      , (43731, 23, 16795137)
      , (43731, 24, 16795136);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43731, 2, 1) /* CREATURE_TYPE_INT */
+     , (43731, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (43731, 25, 125) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (43731, 64, 255) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

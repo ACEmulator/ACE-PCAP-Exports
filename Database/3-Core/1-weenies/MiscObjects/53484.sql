@@ -35,6 +35,23 @@ VALUES (53484, 13, True) /* ETHEREAL_BOOL */
      , (53484, 14, True) /* GRAVITY_STATUS_BOOL */
      , (53484, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (53484, 15, 'Hand this to the entrance statue of the Viridian Rise to enter the sixth area of the Viridian Rise. ') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53484, 33, 1) /* BONDED_INT */
+     , (53484, 98, 1485849095) /* CREATION_TIMESTAMP_INT */
+     , (53484, 114, 1) /* ATTUNED_INT */
+     , (53484, 19, 1) /* VALUE_INT */
+     , (53484, 5, 1) /* ENCUMB_VAL_INT */
+     , (53484, 267, 15000) /* LIFESPAN_INT */
+     , (53484, 268, 14998) /* REMAINING_LIFESPAN_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (53484, 69, 0) /* IS_SELLABLE_BOOL */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

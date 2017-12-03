@@ -31,3 +31,17 @@ VALUES (41481, 13, True) /* ETHEREAL_BOOL */
      , (41481, 19, True) /* ATTACKABLE_BOOL */
      , (41481, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41481, 16, 'Using this gem increases critical damage by 3%. This augmentation cannot be repeated.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41481, 33, 1) /* BONDED_INT */
+     , (41481, 114, 1) /* ATTUNED_INT */
+     , (41481, 19, 0) /* VALUE_INT */
+     , (41481, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
+VALUES (41481, 3, 4000000000) /* AUGMENTATION_COST_INT64 */;
+

@@ -47,3 +47,46 @@ VALUES (30590, 0, 83896666, 83896666);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30590, 0, 16791841);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30590, 16, 'Frost Flanged Mace of Blood Drinker') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30590, 176, 44) /* APPRAISAL_ITEM_SKILL_INT */
+     , (30590, 160, 325) /* WIELD_DIFFICULTY_INT */
+     , (30590, 353, 4) /* WEAPON_TYPE_INT */
+     , (30590, 177, 3) /* GEM_COUNT_INT */
+     , (30590, 178, 49) /* GEM_TYPE_INT */
+     , (30590, 19, 4698) /* VALUE_INT */
+     , (30590, 131, 63) /* MATERIAL_TYPE_INT */
+     , (30590, 115, 287) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (30590, 5, 492) /* ENCUMB_VAL_INT */
+     , (30590, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (30590, 106, 267) /* ITEM_SPELLCRAFT_INT */
+     , (30590, 108, 817) /* ITEM_MAX_MANA_INT */
+     , (30590, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (30590, 109, 73) /* ITEM_DIFFICULTY_INT */
+     , (30590, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (30590, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (30590, 159, 44) /* WIELD_SKILLTYPE_INT */
+     , (30590, 47, 4) /* ATTACK_TYPE_INT */
+     , (30590, 45, 8) /* DAMAGE_TYPE_INT */
+     , (30590, 49, 34) /* WEAPON_TIME_INT */
+     , (30590, 48, 44) /* WEAPON_SKILL_INT */
+     , (30590, 44, 40) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (30590, 5, -0.05555556) /* MANA_RATE_FLOAT */
+     , (30590, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
+     , (30590, 22, 0.37) /* DAMAGE_VARIANCE_FLOAT */
+     , (30590, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (30590, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (30590, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (30590, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (30590, 1615) /* BloodDrinker5_SpellID */
+     , (30590, 2515) /* CANTRIPINVULNERABILITY2_SpellID */
+     , (30590, 1378) /* CoordinationSelf6_SpellID */;
+

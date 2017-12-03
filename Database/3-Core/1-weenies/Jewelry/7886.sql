@@ -43,3 +43,22 @@ VALUES (7886, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7886, 0, 16778348);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (7886, 15, 'In life, this object was the Baron of Colier''s most coveted item.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (7886, 19, 2300) /* VALUE_INT */
+     , (7886, 5, 30) /* ENCUMB_VAL_INT */
+     , (7886, 106, 45) /* ITEM_SPELLCRAFT_INT */
+     , (7886, 108, 230) /* ITEM_MAX_MANA_INT */
+     , (7886, 109, 45) /* ITEM_DIFFICULTY_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (7886, 5, -0.033333) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (7886, 1997) /* LifeGiver_SpellID */
+     , (7886, 1313) /* ArmorOther2_SpellID */;
+

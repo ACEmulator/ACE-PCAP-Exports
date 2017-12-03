@@ -33,3 +33,11 @@ VALUES (30395, 13, True) /* ETHEREAL_BOOL */
      , (30395, 19, True) /* ATTACKABLE_BOOL */
      , (30395, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30395, 38, 'Portal to the Beach Fort (76.0N, 49.0W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30395, 111, 49) /* PORTAL_BITMASK_INT */;
+

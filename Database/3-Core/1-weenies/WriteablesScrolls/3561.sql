@@ -35,3 +35,17 @@ VALUES (3561, 13, True) /* ETHEREAL_BOOL */
      , (3561, 19, True) /* ATTACKABLE_BOOL */
      , (3561, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (3561, 16, 'Inscribed spell: Vulnerability Other V
+Decrease the target''s Melee Defense skill by 30 points.') /* LONG_DESC_STRING */
+     , (3561, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (3561, 19, 200) /* VALUE_INT */
+     , (3561, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (3561, 233) /* VulnerabilityOther5_SpellID */;
+

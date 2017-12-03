@@ -66,3 +66,52 @@ VALUES (34561, 16, 16795662)
      , (34561, 7, 16793202)
      , (34561, 8, 16793203);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (34561, 16, 67110063) /* EYES_PALETTE_DID */
+     , (34561, 9, 83890447) /* EYES_TEXTURE_DID */
+     , (34561, 17, 67110053) /* SKIN_PALETTE_DID */
+     , (34561, 10, 83890548) /* NOSE_TEXTURE_DID */
+     , (34561, 11, 83890642) /* MOUTH_TEXTURE_DID */
+     , (34561, 15, 67116997) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34561, 113, 1) /* GENDER_INT */
+     , (34561, 2, 31) /* CREATURE_TYPE_INT */
+     , (34561, 25, 115) /* LEVEL_INT */
+     , (34561, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34561, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (34561, 16, 67109565) /* EYES_PALETTE_DID */
+     , (34561, 9, 83890478) /* EYES_TEXTURE_DID */
+     , (34561, 17, 67110057) /* SKIN_PALETTE_DID */
+     , (34561, 10, 83890525) /* NOSE_TEXTURE_DID */
+     , (34561, 11, 83890581) /* MOUTH_TEXTURE_DID */
+     , (34561, 15, 67117024) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34561, 113, 1) /* GENDER_INT */
+     , (34561, 2, 31) /* CREATURE_TYPE_INT */
+     , (34561, 307, 5) /* DAMAGE_RATING_INT */
+     , (34561, 25, 115) /* LEVEL_INT */
+     , (34561, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (34561, 1, 220) /* STRENGTH_ATTRIBUTE */
+     , (34561, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (34561, 4, 220) /* COORDINATION_ATTRIBUTE */
+     , (34561, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (34561, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (34561, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34561, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (34561, 128, 340) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (34561, 256, 320) /* MAX_MANA_ATTRIBUTE_2ND */;
+

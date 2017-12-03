@@ -40,3 +40,40 @@ VALUES (28219, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28219, 67115301, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28219, 15, 'A katar crafted from the tooth of an ebon gromnie.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28219, 160, 250) /* WIELD_DIFFICULTY_INT */
+     , (28219, 353, 1) /* WEAPON_TYPE_INT */
+     , (28219, 19, 3000) /* VALUE_INT */
+     , (28219, 5, 150) /* ENCUMB_VAL_INT */
+     , (28219, 106, 250) /* ITEM_SPELLCRAFT_INT */
+     , (28219, 108, 1000) /* ITEM_MAX_MANA_INT */
+     , (28219, 158, 2) /* WIELD_REQUIREMENTS_INT */
+     , (28219, 47, 1) /* ATTACK_TYPE_INT */
+     , (28219, 159, 45) /* WIELD_SKILLTYPE_INT */
+     , (28219, 45, 3) /* DAMAGE_TYPE_INT */
+     , (28219, 49, 35) /* WEAPON_TIME_INT */
+     , (28219, 48, 45) /* WEAPON_SKILL_INT */
+     , (28219, 44, 25) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (28219, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (28219, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (28219, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
+     , (28219, 5, -0.04) /* MANA_RATE_FLOAT */
+     , (28219, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
+     , (28219, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (28219, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (28219, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (28219, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (28219, 1603) /* Defender4_SpellID */
+     , (28219, 1615) /* BloodDrinker5_SpellID */
+     , (28219, 1624) /* SwiftKiller3_SpellID */
+     , (28219, 1591) /* HeartSeeker5_SpellID */;
+

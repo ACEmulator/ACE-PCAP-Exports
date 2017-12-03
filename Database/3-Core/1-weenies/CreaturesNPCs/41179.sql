@@ -100,3 +100,36 @@ VALUES (41179, 16, 16795638)
      , (41179, 4, 16781816)
      , (41179, 8, 16781817);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41179, 5, 'Prison Guard') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (41179, 16, 67109565) /* EYES_PALETTE_DID */
+     , (41179, 9, 83890451) /* EYES_TEXTURE_DID */
+     , (41179, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (41179, 10, 83890518) /* NOSE_TEXTURE_DID */
+     , (41179, 11, 83890652) /* MOUTH_TEXTURE_DID */
+     , (41179, 15, 67117025) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41179, 113, 1) /* GENDER_INT */
+     , (41179, 2, 31) /* CREATURE_TYPE_INT */
+     , (41179, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (41179, 25, 250) /* LEVEL_INT */
+     , (41179, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (41179, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (41179, 2, 170) /* ENDURANCE_ATTRIBUTE */
+     , (41179, 4, 280) /* COORDINATION_ATTRIBUTE */
+     , (41179, 8, 280) /* QUICKNESS_ATTRIBUTE */
+     , (41179, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (41179, 32, 180) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (41179, 64, 365) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (41179, 128, 670) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (41179, 256, 530) /* MAX_MANA_ATTRIBUTE_2ND */;
+

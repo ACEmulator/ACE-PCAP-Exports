@@ -35,3 +35,17 @@ VALUES (2721, 13, True) /* ETHEREAL_BOOL */
      , (2721, 19, True) /* ATTACKABLE_BOOL */
      , (2721, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2721, 16, 'Inscribed spell: Quickness Self VI
+Increases the caster''s Quickness by 35 points.') /* LONG_DESC_STRING */
+     , (2721, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2721, 19, 1000) /* VALUE_INT */
+     , (2721, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2721, 1402) /* QuicknessSelf6_SpellID */;
+

@@ -30,3 +30,14 @@ VALUES (31872, 13, True) /* ETHEREAL_BOOL */
      , (31872, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31872, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31872, 16, 'Give this token to one of the Watchers on Aerlinthe in exchange for passage to the Ruined or Devastated Falatacot Temple.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31872, 33, 1) /* BONDED_INT */
+     , (31872, 114, 1) /* ATTUNED_INT */
+     , (31872, 19, 0) /* VALUE_INT */
+     , (31872, 5, 50) /* ENCUMB_VAL_INT */;
+

@@ -42,3 +42,28 @@ VALUES (6778, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6778, 67111921, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6778, 16, 'A reddish steel silifi haft, with obvious repairs made on the blade end. There are three notches on the original length of the haft, though there may have been more previously. It awaits the addition of a permanent blade.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6778, 33, 1) /* BONDED_INT */
+     , (6778, 353, 7) /* WEAPON_TYPE_INT */
+     , (6778, 114, 1) /* ATTUNED_INT */
+     , (6778, 19, 250) /* VALUE_INT */
+     , (6778, 5, 700) /* ENCUMB_VAL_INT */
+     , (6778, 47, 6) /* ATTACK_TYPE_INT */
+     , (6778, 45, 4) /* DAMAGE_TYPE_INT */
+     , (6778, 49, 10) /* WEAPON_TIME_INT */
+     , (6778, 48, 45) /* WEAPON_SKILL_INT */
+     , (6778, 44, 2) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6778, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (6778, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
+     , (6778, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (6778, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (6778, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (6778, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

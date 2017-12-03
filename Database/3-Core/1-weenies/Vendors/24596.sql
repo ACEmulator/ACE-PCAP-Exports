@@ -63,6 +63,30 @@ VALUES (24596, 0, 16785699)
      , (24596, 19, 16785704)
      , (24596, 20, 16785705);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (24596, 5, 'Weapons Master') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24596, 2, 5) /* CREATURE_TYPE_INT */
+     , (24596, 307, 5) /* DAMAGE_RATING_INT */
+     , (24596, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (24596, 25, 126) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (24596, 1, 259) /* STRENGTH_ATTRIBUTE */
+     , (24596, 2, 178) /* ENDURANCE_ATTRIBUTE */
+     , (24596, 4, 208) /* COORDINATION_ATTRIBUTE */
+     , (24596, 8, 196) /* QUICKNESS_ATTRIBUTE */
+     , (24596, 16, 30) /* FOCUS_ATTRIBUTE */
+     , (24596, 32, 25) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (24596, 64, 254) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (24596, 128, 348) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (24596, 256, 35) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

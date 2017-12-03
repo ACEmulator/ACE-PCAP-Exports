@@ -35,3 +35,17 @@ VALUES (41614, 13, True) /* ETHEREAL_BOOL */
      , (41614, 19, True) /* ATTACKABLE_BOOL */
      , (41614, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41614, 14, 'Use this gear to summon or dismiss your Bronze Wind-up Gear Knight.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41614, 33, 0) /* BONDED_INT */
+     , (41614, 114, 0) /* ATTUNED_INT */
+     , (41614, 19, 0) /* VALUE_INT */
+     , (41614, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (41614, 69, 0) /* IS_SELLABLE_BOOL */;
+

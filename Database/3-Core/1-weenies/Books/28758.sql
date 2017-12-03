@@ -34,3 +34,16 @@ VALUES (28758, 13, True) /* ETHEREAL_BOOL */
      , (28758, 14, True) /* GRAVITY_STATUS_BOOL */
      , (28758, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (28758, 16, 'Herein lie the arcane secrets of that most magical craft known to all Isparian-kind as Brewing!') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28758, 33, 0) /* BONDED_INT */
+     , (28758, 114, 0) /* ATTUNED_INT */
+     , (28758, 19, 1500) /* VALUE_INT */
+     , (28758, 5, 100) /* ENCUMB_VAL_INT */
+     , (28758, 174, 8) /* APPRAISAL_PAGES_INT */
+     , (28758, 175, 8) /* APPRAISAL_MAX_PAGES_INT */;
+

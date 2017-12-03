@@ -42,6 +42,28 @@ VALUES (6887, 13, True) /* ETHEREAL_BOOL */
      , (6887, 17, True) /* INELASTIC_BOOL */
      , (6887, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6887, 16, 'An electric throwing dagger that once belonged to the infamous assassin Oswald.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6887, 353, 10) /* WEAPON_TYPE_INT */
+     , (6887, 19, 400) /* VALUE_INT */
+     , (6887, 5, 120) /* ENCUMB_VAL_INT */
+     , (6887, 45, 64) /* DAMAGE_TYPE_INT */
+     , (6887, 49, 10) /* WEAPON_TIME_INT */
+     , (6887, 48, 47) /* WEAPON_SKILL_INT */
+     , (6887, 44, 20) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6887, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (6887, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (6887, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (6887, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (6887, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (6887, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

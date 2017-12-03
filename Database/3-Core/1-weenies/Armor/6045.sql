@@ -48,3 +48,41 @@ VALUES (6045, 0, 83887064, 83886494)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6045, 0, 16778829);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6045, 16, 'Celdon Leggings of Quickness') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6045, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
+     , (6045, 19, 11276) /* VALUE_INT */
+     , (6045, 131, 58) /* MATERIAL_TYPE_INT */
+     , (6045, 115, 162) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (6045, 5, 2400) /* ENCUMB_VAL_INT */
+     , (6045, 105, 6) /* ITEM_WORKMANSHIP_INT */
+     , (6045, 106, 212) /* ITEM_SPELLCRAFT_INT */
+     , (6045, 28, 238) /* ARMOR_LEVEL_INT */
+     , (6045, 108, 1121) /* ITEM_MAX_MANA_INT */
+     , (6045, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (6045, 109, 138) /* ITEM_DIFFICULTY_INT */
+     , (6045, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6045, 5, -0.05) /* MANA_RATE_FLOAT */
+     , (6045, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (6045, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (6045, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (6045, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (6045, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (6045, 18, 0.9496686) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (6045, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (6045, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6045, 100, 1) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (6045, 1485) /* Impenetrability5_SpellID */
+     , (6045, 1401) /* QuicknessSelf5_SpellID */
+     , (6045, 2622) /* CANTRIPSTORMWARD1_SpellID */;
+

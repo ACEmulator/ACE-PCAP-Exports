@@ -43,3 +43,47 @@ VALUES (38483, 0, 83889072, 83897935)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38483, 0, 16778376);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38483, 16, 'Radiant Blood Girth of Regeneration') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38483, 160, 601) /* WIELD_DIFFICULTY_INT */
+     , (38483, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (38483, 131, 60) /* MATERIAL_TYPE_INT */
+     , (38483, 19, 25792) /* VALUE_INT */
+     , (38483, 5, 862) /* ENCUMB_VAL_INT */
+     , (38483, 374, 1) /* GEAR_CRIT_DAMAGE_INT */
+     , (38483, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (38483, 265, 30) /* EQUIPMENT_SET_ID_INT */
+     , (38483, 106, 370) /* ITEM_SPELLCRAFT_INT */
+     , (38483, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (38483, 108, 1867) /* ITEM_MAX_MANA_INT */
+     , (38483, 28, 313) /* ARMOR_LEVEL_INT */
+     , (38483, 109, 435) /* ITEM_DIFFICULTY_INT */
+     , (38483, 158, 9) /* WIELD_REQUIREMENTS_INT */
+     , (38483, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
+     , (38483, 159, 289) /* WIELD_SKILLTYPE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (38483, 5, -0.06666667) /* MANA_RATE_FLOAT */
+     , (38483, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (38483, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (38483, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (38483, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (38483, 17, 1.293629) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (38483, 18, 1.440102) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (38483, 19, 0.9894398) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
+     , (38483, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38483, 100, 0) /* DYABLE_BOOL */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (38483, 2185) /* RegenerationSelf7_SpellID */
+     , (38483, 4409) /* LightningBane8_SpellID */
+     , (38483, 2108) /* Impenetrability7_SpellID */
+     , (38483, 3964) /* CANTRIPFOCUS3_SpellID */
+     , (38483, 6079) /* CantripStormWard4_SpellID */;
+

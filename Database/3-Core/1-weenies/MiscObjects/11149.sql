@@ -31,3 +31,12 @@ VALUES (11149, 13, True) /* ETHEREAL_BOOL */
      , (11149, 19, True) /* ATTACKABLE_BOOL */
      , (11149, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (11149, 16, 'The head of the Olthoi Queen.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (11149, 19, 0) /* VALUE_INT */
+     , (11149, 5, 2100) /* ENCUMB_VAL_INT */;
+

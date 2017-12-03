@@ -34,3 +34,14 @@ VALUES (12707, 13, True) /* ETHEREAL_BOOL */
      , (12707, 19, True) /* ATTACKABLE_BOOL */
      , (12707, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (12707, 14, 'Double-click on this key, click on the Workshop door, then double-click on the door to open it. ') /* USE_STRING */
+     , (12707, 15, 'A key to the Academy Quartersmith''s Workshop.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12707, 19, 0) /* VALUE_INT */
+     , (12707, 5, 15) /* ENCUMB_VAL_INT */
+     , (12707, 91, 5) /* MAX_STRUCTURE_INT */;
+

@@ -53,6 +53,18 @@ VALUES (9101, 0, 16784627)
      , (9101, 4, 16781840)
      , (9101, 5, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (9101, 16, 'A boot for the left foot.') /* LONG_DESC_STRING */
+     , (9101, 14, 'You can''t walk around wearing only one boot! What madness is this?') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9101, 33, 1) /* BONDED_INT */
+     , (9101, 114, 1) /* ATTUNED_INT */
+     , (9101, 19, 2760) /* VALUE_INT */
+     , (9101, 5, 250) /* ENCUMB_VAL_INT */;
+
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

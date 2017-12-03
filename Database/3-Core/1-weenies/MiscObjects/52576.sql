@@ -32,3 +32,13 @@ VALUES (52576, 13, True) /* ETHEREAL_BOOL */
      , (52576, 19, True) /* ATTACKABLE_BOOL */
      , (52576, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52576, 14, 'This item can be used on wall hooks.') /* USE_STRING */
+     , (52576, 15, 'A festive garland that adds the holiday spirit to any home.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52576, 19, 100) /* VALUE_INT */
+     , (52576, 5, 50) /* ENCUMB_VAL_INT */;
+

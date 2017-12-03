@@ -98,3 +98,12 @@ VALUES (21779, 0, 16782756)
      , (21779, 5, 16782755)
      , (21779, 6, 16782759);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (21779, 2, 62) /* CREATURE_TYPE_INT */
+     , (21779, 25, 999) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (21779, 64, 15001) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

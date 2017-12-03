@@ -34,3 +34,14 @@ VALUES (6037, 13, True) /* ETHEREAL_BOOL */
      , (6037, 19, True) /* ATTACKABLE_BOOL */
      , (6037, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (6037, 16, 'A key given by Devana bint Hamudi to her father''s home in the Mountain Fortress.') /* LONG_DESC_STRING */
+     , (6037, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6037, 19, 15) /* VALUE_INT */
+     , (6037, 5, 50) /* ENCUMB_VAL_INT */
+     , (6037, 91, 2) /* MAX_STRUCTURE_INT */;
+

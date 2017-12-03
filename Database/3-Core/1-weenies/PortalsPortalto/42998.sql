@@ -33,3 +33,13 @@ VALUES (42998, 13, True) /* ETHEREAL_BOOL */
      , (42998, 19, True) /* ATTACKABLE_BOOL */
      , (42998, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42998, 16, 'This portal goes to Silyun, the home of the remnants of the Bellenesse rebels. This is a good town for characters over level 40.') /* LONG_DESC_STRING */
+     , (42998, 38, 'Portal to Silyun (87.3N, 70.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42998, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
+     , (42998, 111, 1) /* PORTAL_BITMASK_INT */;
+

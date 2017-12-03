@@ -48,3 +48,29 @@ VALUES (2367, 0, 83891219, 83891219);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2367, 0, 16778341);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2367, 16, 'Gorget of Magic Resistance') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2367, 177, 1) /* GEM_COUNT_INT */
+     , (2367, 178, 15) /* GEM_TYPE_INT */
+     , (2367, 19, 3340) /* VALUE_INT */
+     , (2367, 131, 60) /* MATERIAL_TYPE_INT */
+     , (2367, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (2367, 5, 150) /* ENCUMB_VAL_INT */
+     , (2367, 105, 5) /* ITEM_WORKMANSHIP_INT */
+     , (2367, 106, 186) /* ITEM_SPELLCRAFT_INT */
+     , (2367, 108, 1214) /* ITEM_MAX_MANA_INT */
+     , (2367, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
+     , (2367, 109, 148) /* ITEM_DIFFICULTY_INT */
+     , (2367, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2367, 5, -0.05) /* MANA_RATE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2367, 278) /* MagicResistanceSelf5_SpellID */
+     , (2367, 2622) /* CANTRIPSTORMWARD1_SpellID */;
+
