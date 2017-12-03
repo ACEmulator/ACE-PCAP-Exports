@@ -35,17 +35,3 @@ VALUES (8933, 13, True) /* ETHEREAL_BOOL */
      , (8933, 19, True) /* ATTACKABLE_BOOL */
      , (8933, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8933, 16, 'Inscribed spell: Force Streak V
-Sends a bolt of force streaking towards the target. The bolt does 29-59 points of piercing damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (8933, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8933, 19, 200) /* VALUE_INT */
-     , (8933, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8933, 1806) /* ForceStreak5_SpellID */;
-

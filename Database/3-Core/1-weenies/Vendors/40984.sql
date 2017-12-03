@@ -86,26 +86,3 @@ VALUES (40984, 11, 16777302)
      , (40984, 4, 16781838)
      , (40984, 8, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40984, 5, 'Bowyer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (40984, 16, 67109567) /* EYES_PALETTE_DID */
-     , (40984, 9, 83890483) /* EYES_TEXTURE_DID */
-     , (40984, 17, 67109552) /* SKIN_PALETTE_DID */
-     , (40984, 10, 83890530) /* NOSE_TEXTURE_DID */
-     , (40984, 11, 83890610) /* MOUTH_TEXTURE_DID */
-     , (40984, 15, 67117027) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40984, 113, 1) /* GENDER_INT */
-     , (40984, 2, 31) /* CREATURE_TYPE_INT */
-     , (40984, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (40984, 25, 8) /* LEVEL_INT */
-     , (40984, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (40984, 64, 48) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

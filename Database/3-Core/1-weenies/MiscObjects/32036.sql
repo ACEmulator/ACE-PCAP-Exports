@@ -31,14 +31,3 @@ VALUES (32036, 13, True) /* ETHEREAL_BOOL */
      , (32036, 19, True) /* ATTACKABLE_BOOL */
      , (32036, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32036, 16, 'A spectacular Gold Niffis Tentacle.  It is incredibly elastic.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32036, 33, 0) /* BONDED_INT */
-     , (32036, 114, 0) /* ATTUNED_INT */
-     , (32036, 19, 0) /* VALUE_INT */
-     , (32036, 5, 110) /* ENCUMB_VAL_INT */;
-

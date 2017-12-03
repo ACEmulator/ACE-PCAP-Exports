@@ -40,19 +40,6 @@ VALUES (8641, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8641, 67111926, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8641, 16, 'Dye made from the crushed leaves of a fair blue lapyan plant.') /* LONG_DESC_STRING */
-     , (8641, 14, 'This item is used in cooking.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8641, 19, 100) /* VALUE_INT */
-     , (8641, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8641, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

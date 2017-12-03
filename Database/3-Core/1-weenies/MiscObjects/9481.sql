@@ -43,16 +43,6 @@ VALUES (9481, 0, 83893248, 83893252)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9481, 0, 16785707);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9481, 16, 'A red gambling token from Arshid''s Den of Iniquity.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9481, 33, 1) /* BONDED_INT */
-     , (9481, 19, 10000) /* VALUE_INT */
-     , (9481, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

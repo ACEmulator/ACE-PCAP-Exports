@@ -33,13 +33,3 @@ VALUES (22837, 13, True) /* ETHEREAL_BOOL */
      , (22837, 19, True) /* ATTACKABLE_BOOL */
      , (22837, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22837, 14, 'This flower can be added to a crystal vase to make a lovely floral arrangement for a house. This object can also be used on a yard hook.') /* USE_STRING */
-     , (22837, 15, 'A delicate snowflower. The blossom radiates cold, reminding you of a crisp winter day. DO NOT LICK!') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22837, 19, 100) /* VALUE_INT */
-     , (22837, 5, 10) /* ENCUMB_VAL_INT */;
-

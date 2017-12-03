@@ -38,33 +38,3 @@ VALUES (43231, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43231, 1, True) /* STUCK_BOOL */
      , (43231, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43231, 16, 'Atlatl') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43231, 160, 290) /* WIELD_DIFFICULTY_INT */
-     , (43231, 353, 10) /* WEAPON_TYPE_INT */
-     , (43231, 177, 3) /* GEM_COUNT_INT */
-     , (43231, 178, 47) /* GEM_TYPE_INT */
-     , (43231, 19, 4781) /* VALUE_INT */
-     , (43231, 131, 75) /* MATERIAL_TYPE_INT */
-     , (43231, 5, 143) /* ENCUMB_VAL_INT */
-     , (43231, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (43231, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (43231, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (43231, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (43231, 45, 0) /* DAMAGE_TYPE_INT */
-     , (43231, 49, 13) /* WEAPON_TIME_INT */
-     , (43231, 48, 47) /* WEAPON_SKILL_INT */
-     , (43231, 44, 0) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (43231, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
-     , (43231, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (43231, 63, 2.55) /* DAMAGE_MOD_FLOAT */
-     , (43231, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (43231, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
-     , (43231, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

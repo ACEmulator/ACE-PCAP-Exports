@@ -45,28 +45,3 @@ VALUES (41512, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41512, 0, 16791762);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41512, 14, 'Use Oil of Rendering on this weapon to create an Academy Spadone.') /* USE_STRING */
-     , (41512, 15, 'A basic two handed spadone forged in the Strathelar Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41512, 353, 11) /* WEAPON_TYPE_INT */
-     , (41512, 19, 340) /* VALUE_INT */
-     , (41512, 292, 2) /* CLEAVING_INT */
-     , (41512, 5, 550) /* ENCUMB_VAL_INT */
-     , (41512, 47, 4) /* ATTACK_TYPE_INT */
-     , (41512, 45, 1) /* DAMAGE_TYPE_INT */
-     , (41512, 49, 50) /* WEAPON_TIME_INT */
-     , (41512, 48, 41) /* WEAPON_SKILL_INT */
-     , (41512, 44, 8) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (41512, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (41512, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */
-     , (41512, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (41512, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (41512, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (41512, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

@@ -50,29 +50,3 @@ VALUES (25528, 0, 83887061, 83894807)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25528, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25528, 15, 'A robe crafted from the leathery hide of a Reedshark Reaper. The hide has been treated and crafted into a fairly useful robe.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25528, 160, 60) /* WIELD_DIFFICULTY_INT */
-     , (25528, 19, 6500) /* VALUE_INT */
-     , (25528, 5, 600) /* ENCUMB_VAL_INT */
-     , (25528, 28, 185) /* ARMOR_LEVEL_INT */
-     , (25528, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25528, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25528, 13, 0.25) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25528, 14, 0.75) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25528, 15, 0.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25528, 16, 0.25) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25528, 17, 0.65) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25528, 18, 0.75) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25528, 19, 0.75) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25528, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25528, 100, 1) /* DYABLE_BOOL */;
-

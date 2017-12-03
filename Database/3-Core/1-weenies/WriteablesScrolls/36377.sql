@@ -35,12 +35,3 @@ VALUES (36377, 13, True) /* ETHEREAL_BOOL */
      , (36377, 19, True) /* ATTACKABLE_BOOL */
      , (36377, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36377, 16, 'Killed by Sheetguys.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36377, 19, 0) /* VALUE_INT */
-     , (36377, 5, 6702) /* ENCUMB_VAL_INT */;
-

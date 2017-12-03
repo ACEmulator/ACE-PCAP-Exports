@@ -35,13 +35,3 @@ VALUES (34405, 13, True) /* ETHEREAL_BOOL */
      , (34405, 19, True) /* ATTACKABLE_BOOL */
      , (34405, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34405, 16, 'A Mr. P. pack doll with a stocking cap on to help keep him warm during the Holiday Season.') /* LONG_DESC_STRING */
-     , (34405, 14, 'This packdoll can be placed on floor and yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34405, 19, 10) /* VALUE_INT */
-     , (34405, 5, 10) /* ENCUMB_VAL_INT */;
-

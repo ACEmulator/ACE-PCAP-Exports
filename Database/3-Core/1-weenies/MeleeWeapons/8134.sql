@@ -38,29 +38,3 @@ VALUES (8134, 13, True) /* ETHEREAL_BOOL */
      , (8134, 19, True) /* ATTACKABLE_BOOL */
      , (8134, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8134, 16, 'A flaming sword, wrought from magically-reinforced silver. Its ivory haft is inscribed ''Ashbane,'' and bears the name of Leikotha Arenir. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8134, 33, 1) /* BONDED_INT */
-     , (8134, 353, 2) /* WEAPON_TYPE_INT */
-     , (8134, 114, 1) /* ATTUNED_INT */
-     , (8134, 19, 10190) /* VALUE_INT */
-     , (8134, 36, 9999) /* RESIST_MAGIC_INT */
-     , (8134, 5, 450) /* ENCUMB_VAL_INT */
-     , (8134, 47, 6) /* ATTACK_TYPE_INT */
-     , (8134, 45, 16) /* DAMAGE_TYPE_INT */
-     , (8134, 49, 30) /* WEAPON_TIME_INT */
-     , (8134, 48, 45) /* WEAPON_SKILL_INT */
-     , (8134, 44, 30) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8134, 29, 0.96) /* WEAPON_DEFENSE_FLOAT */
-     , (8134, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (8134, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (8134, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (8134, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (8134, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
-

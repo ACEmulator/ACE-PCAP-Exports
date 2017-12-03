@@ -224,12 +224,3 @@ VALUES (9173, 0, 16784818)
      , (9173, 13, 16784847)
      , (9173, 14, 16784827);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9173, 16, 'Brand new for the season, Pack Ursuin! Now with Butt-Waggle motion (patent pending)!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9173, 19, 10) /* VALUE_INT */
-     , (9173, 5, 10) /* ENCUMB_VAL_INT */;
-

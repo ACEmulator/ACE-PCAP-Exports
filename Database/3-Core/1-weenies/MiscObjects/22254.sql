@@ -31,13 +31,3 @@ VALUES (22254, 13, True) /* ETHEREAL_BOOL */
      , (22254, 19, True) /* ATTACKABLE_BOOL */
      , (22254, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22254, 14, 'This item can be used on floor hooks.') /* USE_STRING */
-     , (22254, 15, 'A beautifully hand crafted Gharu''ndim rug.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22254, 19, 5000) /* VALUE_INT */
-     , (22254, 5, 1000) /* ENCUMB_VAL_INT */;
-

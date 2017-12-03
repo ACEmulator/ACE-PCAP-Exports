@@ -29,12 +29,3 @@ VALUES (12629, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12629, 19, True) /* ATTACKABLE_BOOL */
      , (12629, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12629, 16, 'Welcome to Mountain Keep Cottages') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12629, 19, 125) /* VALUE_INT */
-     , (12629, 5, 9000) /* ENCUMB_VAL_INT */;
-

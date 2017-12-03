@@ -92,36 +92,3 @@ VALUES (24153, 12, 16778423)
      , (24153, 8, 16781859)
      , (24153, 16, 16778476);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24153, 5, 'Grieving Wife') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (24153, 16, 67109567) /* EYES_PALETTE_DID */
-     , (24153, 9, 83890260) /* EYES_TEXTURE_DID */
-     , (24153, 17, 67109556) /* SKIN_PALETTE_DID */
-     , (24153, 10, 83890297) /* NOSE_TEXTURE_DID */
-     , (24153, 11, 83890343) /* MOUTH_TEXTURE_DID */
-     , (24153, 15, 67117002) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24153, 113, 2) /* GENDER_INT */
-     , (24153, 2, 31) /* CREATURE_TYPE_INT */
-     , (24153, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24153, 25, 85) /* LEVEL_INT */
-     , (24153, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (24153, 1, 160) /* STRENGTH_ATTRIBUTE */
-     , (24153, 2, 150) /* ENDURANCE_ATTRIBUTE */
-     , (24153, 4, 90) /* COORDINATION_ATTRIBUTE */
-     , (24153, 8, 90) /* QUICKNESS_ATTRIBUTE */
-     , (24153, 16, 225) /* FOCUS_ATTRIBUTE */
-     , (24153, 32, 225) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24153, 64, 225) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24153, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24153, 256, 335) /* MAX_MANA_ATTRIBUTE_2ND */;
-

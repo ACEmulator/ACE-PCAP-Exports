@@ -40,17 +40,3 @@ VALUES (36661, 67109944, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36661, 0, 16785648);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36661, 15, 'A large horned helm with the horns of a large mattekar.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36661, 33, 1) /* BONDED_INT */
-     , (36661, 114, 1) /* ATTUNED_INT */
-     , (36661, 19, 100) /* VALUE_INT */
-     , (36661, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36661, 69, 1) /* IS_SELLABLE_BOOL */;
-

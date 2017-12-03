@@ -41,18 +41,3 @@ VALUES (36675, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36675, 0, 16780681);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36675, 16, 'A concentrated chorizite pea.') /* LONG_DESC_STRING */
-     , (36675, 14, 'This pea cannot be split.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36675, 33, 1) /* BONDED_INT */
-     , (36675, 114, 1) /* ATTUNED_INT */
-     , (36675, 19, 100) /* VALUE_INT */
-     , (36675, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36675, 69, 1) /* IS_SELLABLE_BOOL */;
-

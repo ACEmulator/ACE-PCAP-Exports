@@ -35,15 +35,3 @@ VALUES (7398, 13, True) /* ETHEREAL_BOOL */
      , (7398, 19, True) /* ATTACKABLE_BOOL */
      , (7398, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7398, 16, 'An iron key found in Sylsfear, coated with bone dust and veined with dark rust.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7398, 33, 1) /* BONDED_INT */
-     , (7398, 114, 1) /* ATTUNED_INT */
-     , (7398, 19, 25) /* VALUE_INT */
-     , (7398, 5, 50) /* ENCUMB_VAL_INT */
-     , (7398, 91, 1) /* MAX_STRUCTURE_INT */;
-

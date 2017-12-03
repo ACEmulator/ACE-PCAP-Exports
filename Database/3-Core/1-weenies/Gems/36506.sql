@@ -53,27 +53,6 @@ VALUES (36506, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36506, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36506, 16, 'We must put aside our disputes and cooperate with the decomposing masses. The Interlopers spread further and invade more of our resting places every season. We will make plans in the meeting place of old, my map room. May his Eternal Splendor rule forever. - Ward of the Retreat') /* LONG_DESC_STRING */
-     , (36506, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 60-80)') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36506, 19, 8) /* VALUE_INT */
-     , (36506, 5, 10) /* ENCUMB_VAL_INT */
-     , (36506, 280, 1000) /* SHARED_COOLDOWN_INT */
-     , (36506, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (36506, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (36506, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (36506, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36506, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (36506, 157) /* SummonPortal1_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

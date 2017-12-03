@@ -30,14 +30,3 @@ VALUES (28760, 13, True) /* ETHEREAL_BOOL */
      , (28760, 19, True) /* ATTACKABLE_BOOL */
      , (28760, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28760, 16, 'The heart of the warrior Eleonora.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28760, 33, 1) /* BONDED_INT */
-     , (28760, 114, 1) /* ATTUNED_INT */
-     , (28760, 19, 0) /* VALUE_INT */
-     , (28760, 5, 50) /* ENCUMB_VAL_INT */;
-

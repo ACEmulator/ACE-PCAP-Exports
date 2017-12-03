@@ -36,19 +36,3 @@ VALUES (28433, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28433, 19, True) /* ATTACKABLE_BOOL */
      , (28433, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28433, 16, 'A treasure chest crafted to hold many valuables, to be used when one is deserving of grand rewards.') /* LONG_DESC_STRING */
-     , (28433, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28433, 19, 0) /* VALUE_INT */
-     , (28433, 5, 12867) /* ENCUMB_VAL_INT */
-     , (28433, 38, 9999) /* RESIST_LOCKPICK_INT */
-     , (28433, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (28433, 2, 0) /* OPEN_BOOL */
-     , (28433, 3, 1) /* LOCKED_BOOL */;
-

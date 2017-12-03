@@ -89,38 +89,3 @@ VALUES (38610, 12, 16777304)
      , (38610, 4, 16781838)
      , (38610, 8, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38610, 5, 'Dark Isle Scout Taskmaster') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38610, 16, 67109567) /* EYES_PALETTE_DID */
-     , (38610, 9, 83890482) /* EYES_TEXTURE_DID */
-     , (38610, 17, 67109557) /* SKIN_PALETTE_DID */
-     , (38610, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (38610, 11, 83890645) /* MOUTH_TEXTURE_DID */
-     , (38610, 15, 67117072) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38610, 113, 1) /* GENDER_INT */
-     , (38610, 289, 1) /* SOCIETY_RANK_RADBLO_INT */
-     , (38610, 2, 31) /* CREATURE_TYPE_INT */
-     , (38610, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38610, 25, 183) /* LEVEL_INT */
-     , (38610, 281, 4) /* FACTION1_BITS_INT */
-     , (38610, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38610, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (38610, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (38610, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (38610, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (38610, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (38610, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38610, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38610, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38610, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-

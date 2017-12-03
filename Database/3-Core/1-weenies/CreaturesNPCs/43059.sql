@@ -84,40 +84,6 @@ VALUES (43059, 12, 16778423)
      , (43059, 13, 16783871)
      , (43059, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43059, 5, 'Olthoi Life Wand Crafter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43059, 16, 67109565) /* EYES_PALETTE_DID */
-     , (43059, 9, 83890277) /* EYES_TEXTURE_DID */
-     , (43059, 17, 67110053) /* SKIN_PALETTE_DID */
-     , (43059, 10, 83890289) /* NOSE_TEXTURE_DID */
-     , (43059, 11, 83890345) /* MOUTH_TEXTURE_DID */
-     , (43059, 15, 67117072) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43059, 113, 2) /* GENDER_INT */
-     , (43059, 2, 31) /* CREATURE_TYPE_INT */
-     , (43059, 307, 5) /* DAMAGE_RATING_INT */
-     , (43059, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43059, 25, 150) /* LEVEL_INT */
-     , (43059, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (43059, 1, 155) /* STRENGTH_ATTRIBUTE */
-     , (43059, 2, 75) /* ENDURANCE_ATTRIBUTE */
-     , (43059, 4, 190) /* COORDINATION_ATTRIBUTE */
-     , (43059, 8, 170) /* QUICKNESS_ATTRIBUTE */
-     , (43059, 16, 80) /* FOCUS_ATTRIBUTE */
-     , (43059, 32, 80) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43059, 64, 88) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (43059, 128, 125) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (43059, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

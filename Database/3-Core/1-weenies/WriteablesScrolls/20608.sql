@@ -35,17 +35,3 @@ VALUES (20608, 13, True) /* ETHEREAL_BOOL */
      , (20608, 19, True) /* ATTACKABLE_BOOL */
      , (20608, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20608, 16, 'Inscribed spell: Gift of Essence
-Drains one-quarter of the caster''s Mana and gives 175% of that to the target.') /* LONG_DESC_STRING */
-     , (20608, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20608, 19, 2000) /* VALUE_INT */
-     , (20608, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20608, 2336) /* InfuseMana7_SpellID */;
-

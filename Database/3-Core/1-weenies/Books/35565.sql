@@ -34,22 +34,6 @@ VALUES (35565, 13, True) /* ETHEREAL_BOOL */
      , (35565, 19, True) /* ATTACKABLE_BOOL */
      , (35565, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35565, 16, 'A translation of the Virindi Message Shard retrieved from the Virindi Archivist, detailing observations on the altered Banderling, Harraag.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35565, 33, 1) /* BONDED_INT */
-     , (35565, 114, 1) /* ATTUNED_INT */
-     , (35565, 19, 0) /* VALUE_INT */
-     , (35565, 5, 100) /* ENCUMB_VAL_INT */
-     , (35565, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (35565, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35565, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

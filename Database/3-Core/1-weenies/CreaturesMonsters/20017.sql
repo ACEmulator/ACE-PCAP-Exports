@@ -36,26 +36,3 @@ VALUES (20017, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (20017, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (20017, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20017, 5, 'Dying') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20017, 2, 11) /* CREATURE_TYPE_INT */
-     , (20017, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (20017, 25, 13) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (20017, 1, 135) /* STRENGTH_ATTRIBUTE */
-     , (20017, 2, 130) /* ENDURANCE_ATTRIBUTE */
-     , (20017, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (20017, 8, 50) /* QUICKNESS_ATTRIBUTE */
-     , (20017, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (20017, 32, 30) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (20017, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (20017, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (20017, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
-

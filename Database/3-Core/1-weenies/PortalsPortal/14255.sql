@@ -33,11 +33,3 @@ VALUES (14255, 13, True) /* ETHEREAL_BOOL */
      , (14255, 19, True) /* ATTACKABLE_BOOL */
      , (14255, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14255, 38, 'Cactus Acres Portal (9.0S, 24.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14255, 111, 1) /* PORTAL_BITMASK_INT */;
-

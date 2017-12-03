@@ -89,38 +89,3 @@ VALUES (38428, 12, 16778423)
      , (38428, 4, 16783485)
      , (38428, 8, 16783487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38428, 5, 'Jungle Flower Taskmaster') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38428, 16, 67109567) /* EYES_PALETTE_DID */
-     , (38428, 9, 83890276) /* EYES_TEXTURE_DID */
-     , (38428, 17, 67109557) /* SKIN_PALETTE_DID */
-     , (38428, 10, 83890295) /* NOSE_TEXTURE_DID */
-     , (38428, 11, 83890331) /* MOUTH_TEXTURE_DID */
-     , (38428, 15, 67117024) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38428, 113, 2) /* GENDER_INT */
-     , (38428, 289, 301) /* SOCIETY_RANK_RADBLO_INT */
-     , (38428, 2, 31) /* CREATURE_TYPE_INT */
-     , (38428, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38428, 25, 185) /* LEVEL_INT */
-     , (38428, 281, 4) /* FACTION1_BITS_INT */
-     , (38428, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38428, 1, 240) /* STRENGTH_ATTRIBUTE */
-     , (38428, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (38428, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (38428, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (38428, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (38428, 32, 290) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38428, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38428, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38428, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
-

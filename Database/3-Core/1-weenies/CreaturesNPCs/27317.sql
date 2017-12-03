@@ -74,40 +74,6 @@ VALUES (27317, 2, 16777293)
      , (27317, 1, 16783912)
      , (27317, 5, 16783916);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27317, 5, 'Tusker Captive') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (27317, 16, 67110065) /* EYES_PALETTE_DID */
-     , (27317, 9, 83890448) /* EYES_TEXTURE_DID */
-     , (27317, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (27317, 10, 83890546) /* NOSE_TEXTURE_DID */
-     , (27317, 11, 83890657) /* MOUTH_TEXTURE_DID */
-     , (27317, 15, 67117076) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27317, 113, 1) /* GENDER_INT */
-     , (27317, 2, 31) /* CREATURE_TYPE_INT */
-     , (27317, 307, 5) /* DAMAGE_RATING_INT */
-     , (27317, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (27317, 25, 91) /* LEVEL_INT */
-     , (27317, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (27317, 1, 100) /* STRENGTH_ATTRIBUTE */
-     , (27317, 2, 120) /* ENDURANCE_ATTRIBUTE */
-     , (27317, 4, 120) /* COORDINATION_ATTRIBUTE */
-     , (27317, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (27317, 16, 190) /* FOCUS_ATTRIBUTE */
-     , (27317, 32, 190) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27317, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27317, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27317, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

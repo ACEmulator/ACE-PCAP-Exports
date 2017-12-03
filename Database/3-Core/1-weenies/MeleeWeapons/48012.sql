@@ -48,29 +48,3 @@ VALUES (48012, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48012, 0, 16783509);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48012, 16, 'Chainmail Greaves') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48012, 19, 6266) /* VALUE_INT */
-     , (48012, 131, 61) /* MATERIAL_TYPE_INT */
-     , (48012, 5, 193) /* ENCUMB_VAL_INT */
-     , (48012, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (48012, 28, 228) /* ARMOR_LEVEL_INT */
-     , (48012, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (48012, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (48012, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (48012, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (48012, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (48012, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (48012, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (48012, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (48012, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (48012, 100, 1) /* DYABLE_BOOL */;
-

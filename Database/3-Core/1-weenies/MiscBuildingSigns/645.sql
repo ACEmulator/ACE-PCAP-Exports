@@ -36,12 +36,3 @@ VALUES (645, 0, 83891055, 83889905);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (645, 0, 16780409);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (645, 16, 'The Gilded Tome') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (645, 19, 125) /* VALUE_INT */
-     , (645, 5, 9000) /* ENCUMB_VAL_INT */;
-

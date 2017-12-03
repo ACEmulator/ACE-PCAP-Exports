@@ -34,14 +34,3 @@ VALUES (5896, 13, True) /* ETHEREAL_BOOL */
      , (5896, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5896, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5896, 16, 'An incredibly old book, partially preserved by frigid temperatures, written in Empyrean characters and organized in the format of a journal.  Handle with care!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5896, 19, 100) /* VALUE_INT */
-     , (5896, 5, 100) /* ENCUMB_VAL_INT */
-     , (5896, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (5896, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

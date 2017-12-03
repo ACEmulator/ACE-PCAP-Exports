@@ -50,20 +50,6 @@ VALUES (21050, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21050, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21050, 14, 'Apply this material to a treasure-generated magic caster that has an elemental damage bonus in order to increase the elemental damage bonus by 1% vs. monsters and 0.25% vs. players.') /* USE_STRING */
-     , (21050, 15, 'Chips of green garnet material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21050, 33, 1) /* BONDED_INT */
-     , (21050, 19, 11678) /* VALUE_INT */
-     , (21050, 131, 23) /* MATERIAL_TYPE_INT */
-     , (21050, 5, 100) /* ENCUMB_VAL_INT */
-     , (21050, 105, 33) /* ITEM_WORKMANSHIP_INT */
-     , (21050, 170, 4) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

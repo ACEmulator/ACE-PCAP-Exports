@@ -50,18 +50,6 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (38942, 0, 16778639)
      , (38942, 1, 16778642);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38942, 19, 2500) /* VALUE_INT */
-     , (38942, 5, 16574) /* ENCUMB_VAL_INT */
-     , (38942, 38, 9999) /* RESIST_LOCKPICK_INT */
-     , (38942, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38942, 2, 0) /* OPEN_BOOL */
-     , (38942, 3, 1) /* LOCKED_BOOL */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

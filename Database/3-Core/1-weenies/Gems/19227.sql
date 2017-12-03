@@ -152,12 +152,3 @@ VALUES (19227, 0, 16784647)
      , (19227, 16, 16784650)
      , (19227, 17, 16784650);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19227, 16, 'A small decorative statue  of a Grievver crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19227, 19, 20000) /* VALUE_INT */
-     , (19227, 5, 5000) /* ENCUMB_VAL_INT */;
-

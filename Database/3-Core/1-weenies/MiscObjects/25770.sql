@@ -31,13 +31,3 @@ VALUES (25770, 13, True) /* ETHEREAL_BOOL */
      , (25770, 19, True) /* ATTACKABLE_BOOL */
      , (25770, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25770, 16, 'A Gharu''ndim rug set with rungs so that it can be hung on a wall hook.') /* LONG_DESC_STRING */
-     , (25770, 14, 'This item can be used on wall hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25770, 19, 6000) /* VALUE_INT */
-     , (25770, 5, 1500) /* ENCUMB_VAL_INT */;
-

@@ -67,12 +67,3 @@ VALUES (46571, 0, 16796693)
      , (46571, 12, 16796687)
      , (46571, 16, 16796691);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46571, 16, 'Killed by Mag-nus.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46571, 19, 0) /* VALUE_INT */
-     , (46571, 5, 6000) /* ENCUMB_VAL_INT */;
-

@@ -65,31 +65,3 @@ VALUES (311, 0, 16779464)
      , (311, 7, 16777708)
      , (311, 8, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (311, 16, 'Heavy Crossbow') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (311, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (311, 353, 9) /* WEAPON_TYPE_INT */
-     , (311, 19, 803) /* VALUE_INT */
-     , (311, 131, 75) /* MATERIAL_TYPE_INT */
-     , (311, 5, 1443) /* ENCUMB_VAL_INT */
-     , (311, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (311, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (311, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (311, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (311, 45, 0) /* DAMAGE_TYPE_INT */
-     , (311, 49, 120) /* WEAPON_TIME_INT */
-     , (311, 48, 47) /* WEAPON_SKILL_INT */
-     , (311, 44, 0) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (311, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
-     , (311, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (311, 63, 2.45) /* DAMAGE_MOD_FLOAT */
-     , (311, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (311, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (311, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

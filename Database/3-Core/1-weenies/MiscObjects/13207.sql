@@ -36,19 +36,6 @@ VALUES (13207, 13, True) /* ETHEREAL_BOOL */
      , (13207, 19, True) /* ATTACKABLE_BOOL */
      , (13207, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13207, 16, 'A partially constructed snowman. Looks like it''s missing it''s arms.') /* LONG_DESC_STRING */
-     , (13207, 14, 'Use this on a strange stick. You can hook this item on floor and yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13207, 19, 31) /* VALUE_INT */
-     , (13207, 5, 80) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (13207, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

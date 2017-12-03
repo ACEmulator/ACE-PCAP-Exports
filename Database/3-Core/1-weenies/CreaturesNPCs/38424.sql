@@ -89,38 +89,3 @@ VALUES (38424, 12, 16778423)
      , (38424, 4, 16783485)
      , (38424, 8, 16783487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38424, 5, 'Glowing Jungle Lily Taskmaster') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38424, 16, 67110062) /* EYES_PALETTE_DID */
-     , (38424, 9, 83890281) /* EYES_TEXTURE_DID */
-     , (38424, 17, 67110050) /* SKIN_PALETTE_DID */
-     , (38424, 10, 83890308) /* NOSE_TEXTURE_DID */
-     , (38424, 11, 83890351) /* MOUTH_TEXTURE_DID */
-     , (38424, 15, 67117024) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38424, 288, 301) /* SOCIETY_RANK_ELDWEB_INT */
-     , (38424, 113, 2) /* GENDER_INT */
-     , (38424, 2, 31) /* CREATURE_TYPE_INT */
-     , (38424, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38424, 25, 185) /* LEVEL_INT */
-     , (38424, 281, 2) /* FACTION1_BITS_INT */
-     , (38424, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38424, 1, 240) /* STRENGTH_ATTRIBUTE */
-     , (38424, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (38424, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (38424, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (38424, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (38424, 32, 290) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38424, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38424, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38424, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
-

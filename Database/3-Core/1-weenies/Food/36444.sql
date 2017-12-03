@@ -44,26 +44,6 @@ VALUES (36444, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36444, 67116829, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36444, 16, 'A festival treat. A caramel treat made with love and thaumaturgy.') /* LONG_DESC_STRING */
-     , (36444, 14, 'Use this item to eat it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36444, 19, 10) /* VALUE_INT */
-     , (36444, 5, 1) /* ENCUMB_VAL_INT */
-     , (36444, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (36444, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (36444, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (36444, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36444, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (36444, 4212) /* StickyMelee_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

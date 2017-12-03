@@ -35,17 +35,3 @@ VALUES (4390, 13, True) /* ETHEREAL_BOOL */
      , (4390, 19, True) /* ATTACKABLE_BOOL */
      , (4390, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4390, 16, 'Inscribed spell: Armor Self II
-Increases the caster''s natural armor by 50 points.') /* LONG_DESC_STRING */
-     , (4390, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4390, 19, 5) /* VALUE_INT */
-     , (4390, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (4390, 1308) /* ArmorSelf2_SpellID */;
-

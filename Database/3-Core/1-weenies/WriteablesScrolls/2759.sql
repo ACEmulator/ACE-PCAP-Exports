@@ -35,17 +35,3 @@ VALUES (2759, 13, True) /* ETHEREAL_BOOL */
      , (2759, 19, True) /* ATTACKABLE_BOOL */
      , (2759, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2759, 16, 'Inscribed spell: Willpower Self IV
-Increases the caster''s Self by 25 points.') /* LONG_DESC_STRING */
-     , (2759, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2759, 19, 100) /* VALUE_INT */
-     , (2759, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2759, 1448) /* WillpowerSelf4_SpellID */;
-

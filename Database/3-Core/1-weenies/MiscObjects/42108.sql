@@ -35,15 +35,3 @@ VALUES (42108, 13, True) /* ETHEREAL_BOOL */
      , (42108, 19, True) /* ATTACKABLE_BOOL */
      , (42108, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42108, 14, 'Bring this item to an agent of the Arcanum.') /* USE_STRING */
-     , (42108, 15, 'The inside of this gem seems to flow and glow stronger as you hold it.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42108, 33, 1) /* BONDED_INT */
-     , (42108, 114, 1) /* ATTUNED_INT */
-     , (42108, 19, 10) /* VALUE_INT */
-     , (42108, 5, 15) /* ENCUMB_VAL_INT */;
-

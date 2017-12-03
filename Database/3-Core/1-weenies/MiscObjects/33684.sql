@@ -32,14 +32,3 @@ VALUES (33684, 13, True) /* ETHEREAL_BOOL */
      , (33684, 19, True) /* ATTACKABLE_BOOL */
      , (33684, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33684, 16, 'A shell taken from an Ehlyis Sleech') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33684, 33, 0) /* BONDED_INT */
-     , (33684, 114, 0) /* ATTUNED_INT */
-     , (33684, 19, 0) /* VALUE_INT */
-     , (33684, 5, 50) /* ENCUMB_VAL_INT */;
-

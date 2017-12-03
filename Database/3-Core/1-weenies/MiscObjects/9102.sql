@@ -50,14 +50,3 @@ VALUES (9102, 0, 16784627)
      , (9102, 4, 16781840)
      , (9102, 5, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9102, 16, 'A boot for the right foot.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9102, 33, 1) /* BONDED_INT */
-     , (9102, 114, 1) /* ATTUNED_INT */
-     , (9102, 19, 2760) /* VALUE_INT */
-     , (9102, 5, 250) /* ENCUMB_VAL_INT */;
-

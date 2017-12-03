@@ -34,12 +34,3 @@ VALUES (1012, 0, 83892071, 83892183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1012, 0, 16783205);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1012, 16, 'The Open Book') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1012, 19, 125) /* VALUE_INT */
-     , (1012, 5, 9000) /* ENCUMB_VAL_INT */;
-

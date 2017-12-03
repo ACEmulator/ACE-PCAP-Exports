@@ -35,15 +35,3 @@ VALUES (41832, 13, True) /* ETHEREAL_BOOL */
      , (41832, 19, True) /* ATTACKABLE_BOOL */
      , (41832, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41832, 16, 'Supplies stored by the Celestial Hand.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41832, 33, 1) /* BONDED_INT */
-     , (41832, 114, 1) /* ATTUNED_INT */
-     , (41832, 19, 0) /* VALUE_INT */
-     , (41832, 5, 100) /* ENCUMB_VAL_INT */
-     , (41832, 279, 1) /* UNIQUE_INT */;
-

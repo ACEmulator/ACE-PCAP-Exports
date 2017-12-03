@@ -78,36 +78,3 @@ VALUES (32067, 12, 16777304)
      , (32067, 4, 16791935)
      , (32067, 8, 16791936);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32067, 5, 'Ferran Knight') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32067, 16, 67110065) /* EYES_PALETTE_DID */
-     , (32067, 9, 83890485) /* EYES_TEXTURE_DID */
-     , (32067, 17, 67115906) /* SKIN_PALETTE_DID */
-     , (32067, 10, 83890559) /* NOSE_TEXTURE_DID */
-     , (32067, 11, 83890641) /* MOUTH_TEXTURE_DID */
-     , (32067, 15, 67117016) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32067, 113, 1) /* GENDER_INT */
-     , (32067, 2, 31) /* CREATURE_TYPE_INT */
-     , (32067, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (32067, 25, 187) /* LEVEL_INT */
-     , (32067, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (32067, 1, 178) /* STRENGTH_ATTRIBUTE */
-     , (32067, 2, 165) /* ENDURANCE_ATTRIBUTE */
-     , (32067, 4, 140) /* COORDINATION_ATTRIBUTE */
-     , (32067, 8, 140) /* QUICKNESS_ATTRIBUTE */
-     , (32067, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (32067, 32, 130) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32067, 64, 233) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (32067, 128, 315) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (32067, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
-

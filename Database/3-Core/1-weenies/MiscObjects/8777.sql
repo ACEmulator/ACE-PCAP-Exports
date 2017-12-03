@@ -35,16 +35,6 @@ VALUES (8777, 13, True) /* ETHEREAL_BOOL */
      , (8777, 19, True) /* ATTACKABLE_BOOL */
      , (8777, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8777, 16, 'The skull of Avoren Palacost, preserved with powerful magic.') /* LONG_DESC_STRING */
-     , (8777, 14, 'This should be joined with the Dark Singularity.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8777, 19, 0) /* VALUE_INT */
-     , (8777, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

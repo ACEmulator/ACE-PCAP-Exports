@@ -75,36 +75,3 @@ VALUES (32108, 16, 16795640)
      , (32108, 4, 16791935)
      , (32108, 8, 16791936);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32108, 5, 'Siraluun Slasher') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32108, 16, 67110063) /* EYES_PALETTE_DID */
-     , (32108, 9, 83890516) /* EYES_TEXTURE_DID */
-     , (32108, 17, 67115903) /* SKIN_PALETTE_DID */
-     , (32108, 10, 83890558) /* NOSE_TEXTURE_DID */
-     , (32108, 11, 83890666) /* MOUTH_TEXTURE_DID */
-     , (32108, 15, 67117096) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32108, 113, 1) /* GENDER_INT */
-     , (32108, 2, 31) /* CREATURE_TYPE_INT */
-     , (32108, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (32108, 25, 20) /* LEVEL_INT */
-     , (32108, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (32108, 1, 130) /* STRENGTH_ATTRIBUTE */
-     , (32108, 2, 140) /* ENDURANCE_ATTRIBUTE */
-     , (32108, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (32108, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (32108, 16, 60) /* FOCUS_ATTRIBUTE */
-     , (32108, 32, 40) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32108, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (32108, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (32108, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
-

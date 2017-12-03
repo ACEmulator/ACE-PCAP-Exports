@@ -33,12 +33,3 @@ VALUES (1323, 13, True) /* ETHEREAL_BOOL */
      , (1323, 19, True) /* ATTACKABLE_BOOL */
      , (1323, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1323, 38, 'Eastham Sewer') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1323, 86, 50) /* MIN_LEVEL_INT */
-     , (1323, 111, 1) /* PORTAL_BITMASK_INT */;
-

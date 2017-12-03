@@ -35,20 +35,6 @@ VALUES (29161, 13, True) /* ETHEREAL_BOOL */
      , (29161, 19, True) /* ATTACKABLE_BOOL */
      , (29161, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29161, 14, 'Use this Brew Kettle to brew up quality brews! Brew on, brewmaster!') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29161, 33, 1) /* BONDED_INT */
-     , (29161, 114, 0) /* ATTUNED_INT */
-     , (29161, 19, 0) /* VALUE_INT */
-     , (29161, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29161, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

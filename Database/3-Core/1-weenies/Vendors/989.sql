@@ -85,39 +85,6 @@ VALUES (989, 2, 16777293)
      , (989, 8, 16781859)
      , (989, 16, 16778476);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (989, 5, 'Grocer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (989, 16, 67110063) /* EYES_PALETTE_DID */
-     , (989, 9, 83890511) /* EYES_TEXTURE_DID */
-     , (989, 17, 67109557) /* SKIN_PALETTE_DID */
-     , (989, 10, 83890541) /* NOSE_TEXTURE_DID */
-     , (989, 11, 83890617) /* MOUTH_TEXTURE_DID */
-     , (989, 15, 67116998) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (989, 113, 1) /* GENDER_INT */
-     , (989, 2, 31) /* CREATURE_TYPE_INT */
-     , (989, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (989, 25, 12) /* LEVEL_INT */
-     , (989, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (989, 1, 120) /* STRENGTH_ATTRIBUTE */
-     , (989, 2, 90) /* ENDURANCE_ATTRIBUTE */
-     , (989, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (989, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (989, 16, 40) /* FOCUS_ATTRIBUTE */
-     , (989, 32, 50) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (989, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (989, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (989, 256, 160) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

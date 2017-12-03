@@ -47,18 +47,6 @@ VALUES (7419, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7419, 0, 16783325);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7419, 16, 'A small glass flask containing a radiant white liquid. It is impossible to guess how long its light has been lost beneath the earth.') /* LONG_DESC_STRING */
-     , (7419, 14, 'It looks like you could pour this on some other item.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7419, 33, 1) /* BONDED_INT */
-     , (7419, 114, 1) /* ATTUNED_INT */
-     , (7419, 19, 1500) /* VALUE_INT */
-     , (7419, 5, 15) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

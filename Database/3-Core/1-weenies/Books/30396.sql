@@ -33,19 +33,6 @@ VALUES (30396, 13, True) /* ETHEREAL_BOOL */
      , (30396, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30396, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30396, 16, 'A note from the grief-stricken Weijin Shou to the Niffis Reijiri. There is a spot of blood on this note, as if the person who had originally tried to deliver it suffered some unfortunate fate.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30396, 33, 1) /* BONDED_INT */
-     , (30396, 114, 0) /* ATTUNED_INT */
-     , (30396, 19, 0) /* VALUE_INT */
-     , (30396, 5, 5) /* ENCUMB_VAL_INT */
-     , (30396, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (30396, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

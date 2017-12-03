@@ -85,26 +85,3 @@ VALUES (14921, 0, 16783080)
      , (14921, 15, 16777335)
      , (14921, 16, 16783677);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14921, 5, 'Marriage Facilitator') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (14921, 16, 67109567) /* EYES_PALETTE_DID */
-     , (14921, 9, 83890456) /* EYES_TEXTURE_DID */
-     , (14921, 17, 67109551) /* SKIN_PALETTE_DID */
-     , (14921, 10, 83890559) /* NOSE_TEXTURE_DID */
-     , (14921, 11, 83890658) /* MOUTH_TEXTURE_DID */
-     , (14921, 15, 67117027) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14921, 113, 1) /* GENDER_INT */
-     , (14921, 2, 31) /* CREATURE_TYPE_INT */
-     , (14921, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (14921, 25, 126) /* LEVEL_INT */
-     , (14921, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (14921, 64, 205) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

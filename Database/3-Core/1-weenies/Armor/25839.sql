@@ -50,38 +50,3 @@ VALUES (25839, 0, 83887061, 83894969)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25839, 0, 16778356);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25839, 16, 'A hooded coat crafted from the hide of a doomshark.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25839, 160, 100) /* WIELD_DIFFICULTY_INT */
-     , (25839, 19, 7500) /* VALUE_INT */
-     , (25839, 5, 1050) /* ENCUMB_VAL_INT */
-     , (25839, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (25839, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (25839, 28, 310) /* ARMOR_LEVEL_INT */
-     , (25839, 109, 125) /* ITEM_DIFFICULTY_INT */
-     , (25839, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25839, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25839, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (25839, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25839, 14, 0.75) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25839, 15, 0.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25839, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25839, 17, 1.55) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25839, 18, 1.05) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25839, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25839, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25839, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25839, 1486) /* Impenetrability6_SpellID */
-     , (25839, 2618) /* CANTRIPFLAMEWARD1_SpellID */
-     , (25839, 2621) /* CANTRIPSLASHINGWARD1_SpellID */;
-

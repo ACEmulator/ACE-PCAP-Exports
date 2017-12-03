@@ -35,17 +35,3 @@ VALUES (8946, 13, True) /* ETHEREAL_BOOL */
      , (8946, 19, True) /* ATTACKABLE_BOOL */
      , (8946, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8946, 16, 'Inscribed spell: Lightning Streak VI
-Sends a bolt of lighting streaking towards the target. The bolt does 36-71 points of electrical damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (8946, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8946, 19, 1000) /* VALUE_INT */
-     , (8946, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8946, 1819) /* LightningStreak6_SpellID */;
-

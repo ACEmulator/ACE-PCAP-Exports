@@ -33,13 +33,3 @@ VALUES (35450, 13, True) /* ETHEREAL_BOOL */
      , (35450, 19, True) /* ATTACKABLE_BOOL */
      , (35450, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35450, 16, 'A Drudge painting of The Plan. Crude drawings of Drudges stealing things are depicted.') /* LONG_DESC_STRING */
-     , (35450, 14, 'This item can be placed on wall hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35450, 19, 100) /* VALUE_INT */
-     , (35450, 5, 2500) /* ENCUMB_VAL_INT */;
-

@@ -29,12 +29,3 @@ VALUES (21474, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (21474, 19, True) /* ATTACKABLE_BOOL */
      , (21474, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21474, 16, 'Crescent Moon Veranda') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21474, 19, 125) /* VALUE_INT */
-     , (21474, 5, 9000) /* ENCUMB_VAL_INT */;
-

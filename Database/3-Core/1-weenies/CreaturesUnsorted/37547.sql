@@ -37,35 +37,3 @@ VALUES (37547, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (37547, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (37547, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37547, 16, 'A banner, erected by the Creeping Blight, to show their control of the local area.  Those who have both joined one of the Societies and shunned Asheron''s Protection may contest this claim.') /* LONG_DESC_STRING */
-     , (37547, 14, 'This banner may only be used by PK-flagged members of one of the Societies.  A single person may only claim one banner every 5 minutes.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37547, 384, 0) /*  */
-     , (37547, 370, 0) /* GEAR_DAMAGE_INT */
-     , (37547, 386, 0) /*  */
-     , (37547, 307, 0) /* DAMAGE_RATING_INT */
-     , (37547, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (37547, 387, 0) /*  */
-     , (37547, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (37547, 372, 0) /* GEAR_CRIT_INT */
-     , (37547, 388, 0) /*  */
-     , (37547, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (37547, 389, 0) /*  */
-     , (37547, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (37547, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (37547, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (37547, 313, 0) /* CRIT_RATING_INT */
-     , (37547, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (37547, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (37547, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (37547, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (37547, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (37547, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (37547, 381, 0) /*  */
-     , (37547, 382, 0) /*  */
-     , (37547, 383, 0) /*  */;
-

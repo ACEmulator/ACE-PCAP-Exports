@@ -60,12 +60,3 @@ VALUES (31572, 0, 16778359)
      , (31572, 15, 16777307)
      , (31572, 16, 16778407);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31572, 16, 'Killed by Mag-lite.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31572, 19, 0) /* VALUE_INT */
-     , (31572, 5, 6035) /* ENCUMB_VAL_INT */;
-

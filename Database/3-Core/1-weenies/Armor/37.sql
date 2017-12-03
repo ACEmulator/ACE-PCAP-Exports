@@ -45,31 +45,3 @@ VALUES (37, 0, 83886788, 83886805);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37, 0, 16778411);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37, 16, 'Scalemail Bracers') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37, 177, 2) /* GEM_COUNT_INT */
-     , (37, 178, 42) /* GEM_TYPE_INT */
-     , (37, 19, 1978) /* VALUE_INT */
-     , (37, 131, 57) /* MATERIAL_TYPE_INT */
-     , (37, 5, 287) /* ENCUMB_VAL_INT */
-     , (37, 105, 3) /* ITEM_WORKMANSHIP_INT */
-     , (37, 28, 193) /* ARMOR_LEVEL_INT */
-     , (37, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (37, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (37, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (37, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (37, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (37, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (37, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (37, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (37, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (37, 100, 1) /* DYABLE_BOOL */;
-

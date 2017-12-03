@@ -36,19 +36,3 @@ VALUES (12678, 13, True) /* ETHEREAL_BOOL */
      , (12678, 19, True) /* ATTACKABLE_BOOL */
      , (12678, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12678, 16, 'This hook is owned by Tika Waylen. It contains: 
-A banner depicting the heraldry of the Society of the Celestial Hand.') /* LONG_DESC_STRING */
-     , (12678, 14, 'You can use this banner on roof and yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12678, 19, 5) /* VALUE_INT */
-     , (12678, 5, 50) /* ENCUMB_VAL_INT */
-     , (12678, 9, 0) /* LOCATIONS_INT */
-     , (12678, 50, 0) /* AMMO_TYPE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (12678, 22, True) /* INSCRIBABLE_BOOL */;
-

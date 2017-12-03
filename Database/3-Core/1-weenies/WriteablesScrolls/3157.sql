@@ -35,17 +35,3 @@ VALUES (3157, 13, True) /* ETHEREAL_BOOL */
      , (3157, 19, True) /* ATTACKABLE_BOOL */
      , (3157, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3157, 16, 'Inscribed spell: Armor Tinkering Ignorance Other VI
-Decreases the target''s Armor Tinkering skill by 35 points.') /* LONG_DESC_STRING */
-     , (3157, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3157, 19, 1000) /* VALUE_INT */
-     , (3157, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3157, 725) /* ArmorIgnoranceOther6_SpellID */;
-

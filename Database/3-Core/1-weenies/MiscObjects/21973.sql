@@ -38,16 +38,6 @@ VALUES (21973, 13, True) /* ETHEREAL_BOOL */
      , (21973, 19, True) /* ATTACKABLE_BOOL */
      , (21973, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21973, 16, 'A glyph with the image of a bow emblazoned upon it.') /* LONG_DESC_STRING */
-     , (21973, 14, 'Use this on a refined chunk of low or high-grade chorizite.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21973, 19, 5000) /* VALUE_INT */
-     , (21973, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

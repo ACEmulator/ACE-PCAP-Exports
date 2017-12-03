@@ -48,14 +48,3 @@ VALUES (47980, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47980, 0, 16777920);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47980, 16, 'A human torso. All appendages have been savagely removed.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47980, 33, 1) /* BONDED_INT */
-     , (47980, 114, 0) /* ATTUNED_INT */
-     , (47980, 19, 0) /* VALUE_INT */
-     , (47980, 5, 450) /* ENCUMB_VAL_INT */;
-

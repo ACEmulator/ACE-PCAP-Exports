@@ -33,11 +33,3 @@ VALUES (22193, 13, True) /* ETHEREAL_BOOL */
      , (22193, 19, True) /* ATTACKABLE_BOOL */
      , (22193, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22193, 38, 'Exit to the Surface (15.8N, 86.9W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22193, 111, 49) /* PORTAL_BITMASK_INT */;
-

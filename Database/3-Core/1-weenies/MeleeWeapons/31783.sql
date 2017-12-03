@@ -52,34 +52,3 @@ VALUES (31783, 0, 83897338, 83897338);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31783, 0, 16792615);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31783, 16, 'Frost Claw') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31783, 160, 350) /* WIELD_DIFFICULTY_INT */
-     , (31783, 353, 1) /* WEAPON_TYPE_INT */
-     , (31783, 177, 1) /* GEM_COUNT_INT */
-     , (31783, 178, 22) /* GEM_TYPE_INT */
-     , (31783, 19, 5550) /* VALUE_INT */
-     , (31783, 131, 60) /* MATERIAL_TYPE_INT */
-     , (31783, 5, 82) /* ENCUMB_VAL_INT */
-     , (31783, 105, 9) /* ITEM_WORKMANSHIP_INT */
-     , (31783, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31783, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (31783, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (31783, 47, 1) /* ATTACK_TYPE_INT */
-     , (31783, 45, 8) /* DAMAGE_TYPE_INT */
-     , (31783, 49, 16) /* WEAPON_TIME_INT */
-     , (31783, 48, 46) /* WEAPON_SKILL_INT */
-     , (31783, 44, 34) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31783, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
-     , (31783, 22, 0.43) /* DAMAGE_VARIANCE_FLOAT */
-     , (31783, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (31783, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (31783, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (31783, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
-

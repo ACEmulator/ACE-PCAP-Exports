@@ -79,16 +79,6 @@ VALUES (38017, 0, 16793888)
      , (38017, 12, 16777334)
      , (38017, 16, 16793891);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38017, 2, 51) /* CREATURE_TYPE_INT */
-     , (38017, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38017, 25, 999) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38017, 64, 200250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

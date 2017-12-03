@@ -33,12 +33,3 @@ VALUES (52013, 13, True) /* ETHEREAL_BOOL */
      , (52013, 19, True) /* ATTACKABLE_BOOL */
      , (52013, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52013, 38, 'Inner Sanctum') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52013, 86, 180) /* MIN_LEVEL_INT */
-     , (52013, 111, 49) /* PORTAL_BITMASK_INT */;
-

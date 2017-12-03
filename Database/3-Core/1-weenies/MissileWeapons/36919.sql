@@ -53,45 +53,6 @@ VALUES (36919, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36919, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36919, 16, 'A compressed ball of ice, so hard that it makes steel look a bit soft. It emanates a freezing cold.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (36919, 55, 2168) /* PROC_SPELL_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36919, 353, 10) /* WEAPON_TYPE_INT */
-     , (36919, 33, -2) /* BONDED_INT */
-     , (36919, 386, 0) /*  */
-     , (36919, 19, 1) /* VALUE_INT */
-     , (36919, 307, 5) /* DAMAGE_RATING_INT */
-     , (36919, 5, 25) /* ENCUMB_VAL_INT */
-     , (36919, 263, 8) /* RESISTANCE_MODIFIER_TYPE_INT */
-     , (36919, 313, 0) /* CRIT_RATING_INT */
-     , (36919, 106, 440) /* ITEM_SPELLCRAFT_INT */
-     , (36919, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (36919, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (36919, 45, 8) /* DAMAGE_TYPE_INT */
-     , (36919, 49, 20) /* WEAPON_TIME_INT */
-     , (36919, 48, 47) /* WEAPON_SKILL_INT */
-     , (36919, 44, 60) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36919, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
-     , (36919, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (36919, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
-     , (36919, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (36919, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (36919, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (36919, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (36919, 26, 45) /* MAXIMUM_VELOCITY_FLOAT */
-     , (36919, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (36919, 2168) /* ColdVulnerabilityOther7_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

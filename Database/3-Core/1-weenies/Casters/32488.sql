@@ -49,30 +49,3 @@ VALUES (32488, 0, 83894407, 83894407);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32488, 0, 16792927);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32488, 16, 'A frozen orb containing a swirling snow storm. A beautiful light seems to shine in the depths of the storm.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32488, 160, 50) /* WIELD_DIFFICULTY_INT */
-     , (32488, 33, 1) /* BONDED_INT */
-     , (32488, 19, 2300) /* VALUE_INT */
-     , (32488, 5, 30) /* ENCUMB_VAL_INT */
-     , (32488, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (32488, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (32488, 109, 160) /* ITEM_DIFFICULTY_INT */
-     , (32488, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (32488, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32488, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
-     , (32488, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (32488, 5, -0.0333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (32488, 3866) /* GlacialSpeed_SpellID */
-     , (32488, 2155) /* ColdProtectionSelf7_SpellID */
-     , (32488, 562) /* CreatureEnchantmentMasterySelf6_SpellID */
-     , (32488, 248) /* InvulnerabilitySelf5_SpellID */;
-

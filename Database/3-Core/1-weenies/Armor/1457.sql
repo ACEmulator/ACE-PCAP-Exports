@@ -46,36 +46,3 @@ VALUES (1457, 0, 83894648, 83894648)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1457, 0, 16789280);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1457, 16, 'A magnificent kite shield emblazoned with a shining sword.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1457, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
-     , (1457, 19, 3000) /* VALUE_INT */
-     , (1457, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (1457, 5, 450) /* ENCUMB_VAL_INT */
-     , (1457, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (1457, 28, 120) /* ARMOR_LEVEL_INT */
-     , (1457, 108, 588) /* ITEM_MAX_MANA_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1457, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (1457, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (1457, 14, 1.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (1457, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (1457, 16, 0.7) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (1457, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (1457, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (1457, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (1457, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1457, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1457, 1484) /* Impenetrability4_SpellID */
-     , (1457, 421) /* SwordMasterySelf4_SpellID */
-     , (1457, 247) /* InvulnerabilitySelf4_SpellID */;
-

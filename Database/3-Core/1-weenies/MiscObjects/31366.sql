@@ -36,17 +36,3 @@ VALUES (31366, 13, True) /* ETHEREAL_BOOL */
      , (31366, 19, True) /* ATTACKABLE_BOOL */
      , (31366, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31366, 16, 'This is the head of the Fazenda Terror. It has been crafted by Farmer Kao to make a lovely wall decoration.') /* LONG_DESC_STRING */
-     , (31366, 14, 'This item can be placed on wall hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31366, 33, 1) /* BONDED_INT */
-     , (31366, 19, 10000) /* VALUE_INT */
-     , (31366, 5, 2500) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31366, 69, 0) /* IS_SELLABLE_BOOL */;
-

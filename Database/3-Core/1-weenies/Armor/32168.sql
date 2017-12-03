@@ -39,26 +39,3 @@ VALUES (32168, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (32168, 67114529, 240, 16);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32168, 16, 'A set of dashing eye patches for the bandit wanting to take a trip.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32168, 19, 1000) /* VALUE_INT */
-     , (32168, 5, 30) /* ENCUMB_VAL_INT */
-     , (32168, 28, 10) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32168, 13, 0.45) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (32168, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (32168, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (32168, 16, 0.45) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (32168, 17, 0.35) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (32168, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (32168, 19, 0.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (32168, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (32168, 100, 1) /* DYABLE_BOOL */;
-

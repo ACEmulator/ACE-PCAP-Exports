@@ -49,34 +49,3 @@ VALUES (45100, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45100, 0, 16795944);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45100, 16, 'Acid Epee') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45100, 160, 370) /* WIELD_DIFFICULTY_INT */
-     , (45100, 353, 2) /* WEAPON_TYPE_INT */
-     , (45100, 177, 6) /* GEM_COUNT_INT */
-     , (45100, 178, 47) /* GEM_TYPE_INT */
-     , (45100, 19, 7757) /* VALUE_INT */
-     , (45100, 131, 63) /* MATERIAL_TYPE_INT */
-     , (45100, 5, 262) /* ENCUMB_VAL_INT */
-     , (45100, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (45100, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (45100, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (45100, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (45100, 47, 160) /* ATTACK_TYPE_INT */
-     , (45100, 45, 32) /* DAMAGE_TYPE_INT */
-     , (45100, 49, 23) /* WEAPON_TIME_INT */
-     , (45100, 48, 45) /* WEAPON_SKILL_INT */
-     , (45100, 44, 20) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45100, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
-     , (45100, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */
-     , (45100, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (45100, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (45100, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45100, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
-

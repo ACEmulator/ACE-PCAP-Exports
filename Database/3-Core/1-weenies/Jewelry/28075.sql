@@ -44,24 +44,3 @@ VALUES (28075, 0, 83888956, 83893821);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28075, 0, 16778334);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28075, 16, 'This simple silver clasp appears to be no more than an ornamental piece of jewelry to the untrained eye. Those who have studied magic will immediately notice that the silver is woven delicately and intricately with pyreal and golden bands. The result is a potent magical boon. A blaze of fire has been carved into the metal of the bracelet.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28075, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (28075, 19, 9000) /* VALUE_INT */
-     , (28075, 5, 50) /* ENCUMB_VAL_INT */
-     , (28075, 106, 350) /* ITEM_SPELLCRAFT_INT */
-     , (28075, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (28075, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (28075, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (28075, 159, 34) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (28075, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (28075, 3361) /* ArtDestruction_SpellID */;
-

@@ -35,17 +35,3 @@ VALUES (1641, 13, True) /* ETHEREAL_BOOL */
      , (1641, 19, True) /* ATTACKABLE_BOOL */
      , (1641, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1641, 16, 'Inscribed spell: Shock Wave I
-Shoots a shock wave at the target. The wave does 16-31 points of bludgeoning damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (1641, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1641, 19, 1) /* VALUE_INT */
-     , (1641, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1641, 64) /* ShockWave1_SpellID */;
-

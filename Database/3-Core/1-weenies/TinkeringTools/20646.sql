@@ -35,16 +35,6 @@ VALUES (20646, 13, True) /* ETHEREAL_BOOL */
      , (20646, 19, True) /* ATTACKABLE_BOOL */
      , (20646, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20646, 14, 'Use to salvage materials from treasure items.') /* USE_STRING */
-     , (20646, 15, 'A tool used to extract materials from treasure items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20646, 19, 10) /* VALUE_INT */
-     , (20646, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

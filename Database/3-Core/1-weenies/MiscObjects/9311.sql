@@ -34,17 +34,3 @@ VALUES (9311, 13, True) /* ETHEREAL_BOOL */
      , (9311, 19, True) /* ATTACKABLE_BOOL */
      , (9311, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9311, 16, 'A Mnemosyne, invented by Tennar Portheran, used by the Dericost to preserve their heritage after the chaos wrought by the Fourth Sending.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9311, 33, 1) /* BONDED_INT */
-     , (9311, 114, 1) /* ATTUNED_INT */
-     , (9311, 19, 0) /* VALUE_INT */
-     , (9311, 5, 10) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9311, 69, 0) /* IS_SELLABLE_BOOL */;
-

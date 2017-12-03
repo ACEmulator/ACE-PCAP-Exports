@@ -48,27 +48,6 @@ VALUES (9042, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9042, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9042, 16, 'A portal gem.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9042, 33, 1) /* BONDED_INT */
-     , (9042, 114, 1) /* ATTUNED_INT */
-     , (9042, 19, 10) /* VALUE_INT */
-     , (9042, 5, 10) /* ENCUMB_VAL_INT */
-     , (9042, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (9042, 108, 250) /* ITEM_MAX_MANA_INT */
-     , (9042, 109, 50) /* ITEM_DIFFICULTY_INT */
-     , (9042, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9042, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (9042, 2358) /* RecallLyceum_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

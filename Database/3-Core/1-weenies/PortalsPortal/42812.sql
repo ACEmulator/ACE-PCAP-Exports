@@ -33,12 +33,3 @@ VALUES (42812, 13, True) /* ETHEREAL_BOOL */
      , (42812, 19, True) /* ATTACKABLE_BOOL */
      , (42812, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42812, 16, 'This portal goes to the Plateau Village, a remote settlement in the forests of Northwestern Osteth. This is a good town for characters over level 40.') /* LONG_DESC_STRING */
-     , (42812, 38, 'Plateau Portal (44.5N, 43.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42812, 111, 1) /* PORTAL_BITMASK_INT */;
-

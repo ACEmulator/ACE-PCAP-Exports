@@ -35,16 +35,6 @@ VALUES (11821, 13, True) /* ETHEREAL_BOOL */
      , (11821, 19, True) /* ATTACKABLE_BOOL */
      , (11821, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11821, 16, 'A Falcon Spear-Head.') /* LONG_DESC_STRING */
-     , (11821, 14, 'You can combine this with a hafted Falcon Banner.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11821, 19, 0) /* VALUE_INT */
-     , (11821, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

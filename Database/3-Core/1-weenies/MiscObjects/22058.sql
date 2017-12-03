@@ -33,14 +33,3 @@ VALUES (22058, 13, True) /* ETHEREAL_BOOL */
      , (22058, 19, True) /* ATTACKABLE_BOOL */
      , (22058, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22058, 33, 0) /* BONDED_INT */
-     , (22058, 114, 0) /* ATTUNED_INT */
-     , (22058, 19, 0) /* VALUE_INT */
-     , (22058, 5, 1600) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22058, 69, 0) /* IS_SELLABLE_BOOL */;
-

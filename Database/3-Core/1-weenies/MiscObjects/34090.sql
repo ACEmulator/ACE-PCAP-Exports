@@ -70,16 +70,3 @@ VALUES (34090, 0, 16784901)
      , (34090, 11, 16784903)
      , (34090, 12, 16784926);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34090, 16, 'A rickety looking Scarecrow used to scare monsters away from your house.') /* LONG_DESC_STRING */
-     , (34090, 14, 'This item can be used on Floor and Yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34090, 19, 500) /* VALUE_INT */
-     , (34090, 5, 400) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34090, 69, 0) /* IS_SELLABLE_BOOL */;
-

@@ -84,36 +84,3 @@ VALUES (33936, 12, 16777304)
      , (33936, 13, 16783871)
      , (33936, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33936, 5, 'Pet Drudge Vendor') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (33936, 16, 67109565) /* EYES_PALETTE_DID */
-     , (33936, 9, 83890451) /* EYES_TEXTURE_DID */
-     , (33936, 17, 67110056) /* SKIN_PALETTE_DID */
-     , (33936, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (33936, 11, 83890578) /* MOUTH_TEXTURE_DID */
-     , (33936, 15, 67117027) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33936, 113, 1) /* GENDER_INT */
-     , (33936, 2, 31) /* CREATURE_TYPE_INT */
-     , (33936, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (33936, 25, 10) /* LEVEL_INT */
-     , (33936, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (33936, 1, 110) /* STRENGTH_ATTRIBUTE */
-     , (33936, 2, 40) /* ENDURANCE_ATTRIBUTE */
-     , (33936, 4, 110) /* COORDINATION_ATTRIBUTE */
-     , (33936, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (33936, 16, 20) /* FOCUS_ATTRIBUTE */
-     , (33936, 32, 20) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33936, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (33936, 128, 60) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (33936, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
-

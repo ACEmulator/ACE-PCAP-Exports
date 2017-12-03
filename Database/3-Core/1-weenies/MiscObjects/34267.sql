@@ -34,12 +34,3 @@ VALUES (34267, 13, True) /* ETHEREAL_BOOL */
      , (34267, 19, True) /* ATTACKABLE_BOOL */
      , (34267, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34267, 16, 'A huge mug of eternally frothy stout honoring the owner as having beaten Ulgrim in a Drinking Contest.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34267, 19, 1000) /* VALUE_INT */
-     , (34267, 5, 800) /* ENCUMB_VAL_INT */;
-

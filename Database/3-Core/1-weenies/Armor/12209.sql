@@ -38,23 +38,3 @@ VALUES (12209, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12209, 0, 16787383);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12209, 16, 'A finely sewed and oiled Sclavus head, patched with utmost precision, and conveniently fitted for use.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12209, 19, 500) /* VALUE_INT */
-     , (12209, 5, 200) /* ENCUMB_VAL_INT */
-     , (12209, 28, 10) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12209, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (12209, 14, 0.375) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (12209, 15, 0.25) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (12209, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (12209, 17, 0.375) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (12209, 18, 0.125) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (12209, 19, 0.125) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (12209, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

@@ -39,24 +39,6 @@ VALUES (44155, 13, True) /* ETHEREAL_BOOL */
      , (44155, 19, True) /* ATTACKABLE_BOOL */
      , (44155, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44155, 16, 'Cyphis Suldow wants to build a resort near Stonehold but some Banderlings are in his way. Help Cyphis relocate the banderlings.') /* LONG_DESC_STRING */
-     , (44155, 14, 'Recommended Level: 60') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44155, 33, 1) /* BONDED_INT */
-     , (44155, 19, 100) /* VALUE_INT */
-     , (44155, 5, 0) /* ENCUMB_VAL_INT */
-     , (44155, 280, 100) /* SHARED_COOLDOWN_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (44155, 167, 2) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44155, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

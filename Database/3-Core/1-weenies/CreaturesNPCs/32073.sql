@@ -90,36 +90,3 @@ VALUES (32073, 12, 16777304)
      , (32073, 4, 16781855)
      , (32073, 8, 16781859);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32073, 5, 'Royal Chirurgeon') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32073, 16, 67110064) /* EYES_PALETTE_DID */
-     , (32073, 9, 83890507) /* EYES_TEXTURE_DID */
-     , (32073, 17, 67115905) /* SKIN_PALETTE_DID */
-     , (32073, 10, 83890560) /* NOSE_TEXTURE_DID */
-     , (32073, 11, 83890637) /* MOUTH_TEXTURE_DID */
-     , (32073, 15, 67116987) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32073, 113, 1) /* GENDER_INT */
-     , (32073, 2, 31) /* CREATURE_TYPE_INT */
-     , (32073, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (32073, 25, 54) /* LEVEL_INT */
-     , (32073, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (32073, 1, 60) /* STRENGTH_ATTRIBUTE */
-     , (32073, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (32073, 4, 149) /* COORDINATION_ATTRIBUTE */
-     , (32073, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (32073, 16, 137) /* FOCUS_ATTRIBUTE */
-     , (32073, 32, 98) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32073, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (32073, 128, 168) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (32073, 256, 108) /* MAX_MANA_ATTRIBUTE_2ND */;
-

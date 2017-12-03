@@ -37,12 +37,3 @@ VALUES (7277, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7277, 1, True) /* STUCK_BOOL */
      , (7277, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7277, 16, 'Killed by Ripley.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7277, 19, 0) /* VALUE_INT */
-     , (7277, 5, 7180) /* ENCUMB_VAL_INT */;
-

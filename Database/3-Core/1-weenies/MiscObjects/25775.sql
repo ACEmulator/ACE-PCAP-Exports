@@ -31,13 +31,3 @@ VALUES (25775, 13, True) /* ETHEREAL_BOOL */
      , (25775, 19, True) /* ATTACKABLE_BOOL */
      , (25775, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25775, 16, 'A beautifully woven tapestry.') /* LONG_DESC_STRING */
-     , (25775, 14, 'This item can be used on wall hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25775, 19, 7000) /* VALUE_INT */
-     , (25775, 5, 1000) /* ENCUMB_VAL_INT */;
-

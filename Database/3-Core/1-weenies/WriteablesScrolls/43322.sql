@@ -35,17 +35,3 @@ VALUES (43322, 13, True) /* ETHEREAL_BOOL */
      , (43322, 19, True) /* ATTACKABLE_BOOL */
      , (43322, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43322, 16, 'Inscribed spell: Destructive Curse III
-The target loses 126 points of health over 30 seconds.') /* LONG_DESC_STRING */
-     , (43322, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43322, 19, 20) /* VALUE_INT */
-     , (43322, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (43322, 5341) /* CurseDestructionOther3_SpellID */;
-

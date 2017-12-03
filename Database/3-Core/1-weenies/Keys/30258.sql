@@ -36,16 +36,3 @@ VALUES (30258, 13, True) /* ETHEREAL_BOOL */
      , (30258, 19, True) /* ATTACKABLE_BOOL */
      , (30258, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30258, 16, 'It is thought that the great assassin Hamud ibn Rafik crafted this key to help him in the execution of his dark deeds.  It will open any locked chest or door.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30258, 33, -1) /* BONDED_INT */
-     , (30258, 17, 76) /* RARE_ID_INT */
-     , (30258, 19, 0) /* VALUE_INT */
-     , (30258, 5, 5) /* ENCUMB_VAL_INT */
-     , (30258, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (30258, 91, 1) /* MAX_STRUCTURE_INT */;
-

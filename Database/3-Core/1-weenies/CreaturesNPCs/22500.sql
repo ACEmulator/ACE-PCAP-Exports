@@ -39,23 +39,3 @@ VALUES (22500, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22500, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (22500, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22500, 2, 8) /* CREATURE_TYPE_INT */
-     , (22500, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (22500, 25, 201) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (22500, 1, 380) /* STRENGTH_ATTRIBUTE */
-     , (22500, 2, 340) /* ENDURANCE_ATTRIBUTE */
-     , (22500, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (22500, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (22500, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (22500, 32, 285) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22500, 64, 370) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22500, 128, 491) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22500, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
-

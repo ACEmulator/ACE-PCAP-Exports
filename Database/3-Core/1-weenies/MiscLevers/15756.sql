@@ -32,8 +32,3 @@ VALUES (15756, 13, True) /* ETHEREAL_BOOL */
      , (15756, 19, True) /* ATTACKABLE_BOOL */
      , (15756, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15756, 16, 'A lever, mounted on the floor, decorated with a skull. Pulling this lever will sacrifice some of your life force to aid Nuhmudira.') /* LONG_DESC_STRING */;
-

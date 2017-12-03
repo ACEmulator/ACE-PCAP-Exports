@@ -33,11 +33,3 @@ VALUES (8618, 13, True) /* ETHEREAL_BOOL */
      , (8618, 19, True) /* ATTACKABLE_BOOL */
      , (8618, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8618, 38, 'Vesayen Isles Portal (72.5S, 81.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8618, 111, 1) /* PORTAL_BITMASK_INT */;
-

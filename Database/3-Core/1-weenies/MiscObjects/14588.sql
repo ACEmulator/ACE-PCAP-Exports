@@ -39,12 +39,3 @@ VALUES (14588, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14588, 67113788, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14588, 15, 'One could use a whittling knife on this tree trunk to hollow it out.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14588, 19, 500) /* VALUE_INT */
-     , (14588, 5, 900) /* ENCUMB_VAL_INT */;
-

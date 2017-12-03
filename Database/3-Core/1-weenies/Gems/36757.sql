@@ -32,14 +32,3 @@ VALUES (36757, 13, True) /* ETHEREAL_BOOL */
      , (36757, 19, True) /* ATTACKABLE_BOOL */
      , (36757, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36757, 16, 'An Empyrean Device of some sort. Its surface glows in waves of energy.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36757, 33, 1) /* BONDED_INT */
-     , (36757, 114, 1) /* ATTUNED_INT */
-     , (36757, 19, 10000) /* VALUE_INT */
-     , (36757, 5, 10) /* ENCUMB_VAL_INT */;
-

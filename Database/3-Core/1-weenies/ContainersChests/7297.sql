@@ -37,19 +37,3 @@ VALUES (7297, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7297, 19, True) /* ATTACKABLE_BOOL */
      , (7297, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7297, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.') /* LONG_DESC_STRING */
-     , (7297, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7297, 19, 3000) /* VALUE_INT */
-     , (7297, 5, 9075) /* ENCUMB_VAL_INT */
-     , (7297, 38, 5000) /* RESIST_LOCKPICK_INT */
-     , (7297, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7297, 2, 0) /* OPEN_BOOL */
-     , (7297, 3, 1) /* LOCKED_BOOL */;
-

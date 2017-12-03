@@ -45,39 +45,3 @@ VALUES (9419, 67111924, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9419, 0, 16785712);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9419, 16, 'A large carved scepter, it is made from both stone and gems.  It seems to refract light, magnifying the multifaceted gems into miniature suns.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9419, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
-     , (9419, 353, 4) /* WEAPON_TYPE_INT */
-     , (9419, 115, 180) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (9419, 19, 2500) /* VALUE_INT */
-     , (9419, 5, 2000) /* ENCUMB_VAL_INT */
-     , (9419, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (9419, 108, 350) /* ITEM_MAX_MANA_INT */
-     , (9419, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (9419, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (9419, 47, 4) /* ATTACK_TYPE_INT */
-     , (9419, 45, 4) /* DAMAGE_TYPE_INT */
-     , (9419, 49, 80) /* WEAPON_TIME_INT */
-     , (9419, 48, 44) /* WEAPON_SKILL_INT */
-     , (9419, 44, 30) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (9419, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (9419, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (9419, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (9419, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (9419, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (9419, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (9419, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (9419, 1093) /* FireProtectionSelf5_SpellID */
-     , (9419, 1613) /* BloodDrinker3_SpellID */
-     , (9419, 1309) /* ArmorSelf3_SpellID */
-     , (9419, 1329) /* StrengthSelf3_SpellID */;
-

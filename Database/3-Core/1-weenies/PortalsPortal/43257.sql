@@ -33,13 +33,3 @@ VALUES (43257, 13, True) /* ETHEREAL_BOOL */
      , (43257, 19, True) /* ATTACKABLE_BOOL */
      , (43257, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43257, 16, 'A portal crackling with defensive magics.  Only those properly protected from its fluxuations may enter.') /* LONG_DESC_STRING */
-     , (43257, 38, 'Mysterious Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43257, 86, 180) /* MIN_LEVEL_INT */
-     , (43257, 111, 49) /* PORTAL_BITMASK_INT */;
-

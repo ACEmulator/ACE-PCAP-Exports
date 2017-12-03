@@ -33,20 +33,6 @@ VALUES (21920, 13, True) /* ETHEREAL_BOOL */
      , (21920, 19, True) /* ATTACKABLE_BOOL */
      , (21920, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21920, 16, 'An ornate seal with odd glyphs and sigils.') /* LONG_DESC_STRING */
-     , (21920, 14, 'Give this seal to Asheron''s Platinum Golem in order to receive the Imbued Ornate Seal and the Citadel Portal Gem. Be sure that you have sufficient space in your pack before handing in this item!.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21920, 33, 1) /* BONDED_INT */
-     , (21920, 19, 0) /* VALUE_INT */
-     , (21920, 5, 200) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21920, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

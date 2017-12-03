@@ -35,14 +35,3 @@ VALUES (1531, 13, True) /* ETHEREAL_BOOL */
      , (1531, 19, True) /* ATTACKABLE_BOOL */
      , (1531, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1531, 16, 'This key unlocks cell doors in the Colier Mine.') /* LONG_DESC_STRING */
-     , (1531, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1531, 19, 90) /* VALUE_INT */
-     , (1531, 5, 50) /* ENCUMB_VAL_INT */
-     , (1531, 91, 20) /* MAX_STRUCTURE_INT */;
-

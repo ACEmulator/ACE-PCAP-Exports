@@ -89,29 +89,6 @@ VALUES (30981, 12, 16778423)
      , (30981, 8, 16778428)
      , (30981, 16, 16788736);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30981, 5, 'Flower Girl') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (30981, 16, 67109564) /* EYES_PALETTE_DID */
-     , (30981, 9, 83890258) /* EYES_TEXTURE_DID */
-     , (30981, 17, 67115905) /* SKIN_PALETTE_DID */
-     , (30981, 10, 83890315) /* NOSE_TEXTURE_DID */
-     , (30981, 11, 83890351) /* MOUTH_TEXTURE_DID */
-     , (30981, 15, 67116981) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30981, 113, 2) /* GENDER_INT */
-     , (30981, 2, 31) /* CREATURE_TYPE_INT */
-     , (30981, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (30981, 25, 11) /* LEVEL_INT */
-     , (30981, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30981, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

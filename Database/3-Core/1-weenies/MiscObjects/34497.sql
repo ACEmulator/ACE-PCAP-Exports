@@ -40,14 +40,3 @@ VALUES (34497, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34497, 0, 16778749);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34497, 16, 'The brim of this ornate golden cup is decorated with an alternating pattern of diamonds and engraved leaves.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34497, 33, 1) /* BONDED_INT */
-     , (34497, 114, 1) /* ATTUNED_INT */
-     , (34497, 19, 0) /* VALUE_INT */
-     , (34497, 5, 500) /* ENCUMB_VAL_INT */;
-

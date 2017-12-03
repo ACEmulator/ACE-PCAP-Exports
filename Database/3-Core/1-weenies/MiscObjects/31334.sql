@@ -31,17 +31,3 @@ VALUES (31334, 13, True) /* ETHEREAL_BOOL */
      , (31334, 19, True) /* ATTACKABLE_BOOL */
      , (31334, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31334, 16, 'A crate of Fake Niffis Pearls. Return this to an Agent of the Arcanum as evidence.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31334, 33, 1) /* BONDED_INT */
-     , (31334, 114, 1) /* ATTUNED_INT */
-     , (31334, 19, 0) /* VALUE_INT */
-     , (31334, 5, 500) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31334, 69, 0) /* IS_SELLABLE_BOOL */;
-

@@ -84,26 +84,3 @@ VALUES (31840, 12, 16778423)
      , (31840, 7, 16777708)
      , (31840, 8, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31840, 5, 'Prisoner') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31840, 16, 67110062) /* EYES_PALETTE_DID */
-     , (31840, 9, 83890278) /* EYES_TEXTURE_DID */
-     , (31840, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (31840, 10, 83890309) /* NOSE_TEXTURE_DID */
-     , (31840, 11, 83890349) /* MOUTH_TEXTURE_DID */
-     , (31840, 15, 67117025) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31840, 113, 2) /* GENDER_INT */
-     , (31840, 2, 31) /* CREATURE_TYPE_INT */
-     , (31840, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31840, 25, 10) /* LEVEL_INT */
-     , (31840, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31840, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

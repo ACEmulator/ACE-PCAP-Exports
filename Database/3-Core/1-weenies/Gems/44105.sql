@@ -38,15 +38,3 @@ VALUES (44105, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44105, 0, 16787203);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44105, 14, 'This token may be traded to Nalicana, the Seer of the Yalain, in Asheron''s Castle, in order to spend 100,000 Luminance for a Blank Augmentation Gem. This token may not be turned in more than once every two weeks.') /* USE_STRING */
-     , (44105, 15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44105, 33, 1) /* BONDED_INT */
-     , (44105, 114, 1) /* ATTUNED_INT */
-     , (44105, 19, 0) /* VALUE_INT */
-     , (44105, 5, 5) /* ENCUMB_VAL_INT */;
-

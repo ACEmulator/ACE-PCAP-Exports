@@ -114,40 +114,6 @@ VALUES (43007, 5, 16788087)
      , (43007, 22, 16777708)
      , (43007, 21, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43007, 5, 'Borelean''s Royal Guard') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43007, 16, 67110064) /* EYES_PALETTE_DID */
-     , (43007, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (43007, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (43007, 10, 83890551) /* NOSE_TEXTURE_DID */
-     , (43007, 11, 83890578) /* MOUTH_TEXTURE_DID */
-     , (43007, 15, 67116988) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43007, 113, 1) /* GENDER_INT */
-     , (43007, 2, 31) /* CREATURE_TYPE_INT */
-     , (43007, 307, 5) /* DAMAGE_RATING_INT */
-     , (43007, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43007, 25, 275) /* LEVEL_INT */
-     , (43007, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (43007, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (43007, 2, 260) /* ENDURANCE_ATTRIBUTE */
-     , (43007, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (43007, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (43007, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (43007, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43007, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (43007, 128, 456) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (43007, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 /* Object Wield List */

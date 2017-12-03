@@ -35,12 +35,3 @@ VALUES (4513, 0, 83891180, 83891182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4513, 0, 16782236);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4513, 16, 'The Full Net') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4513, 19, 125) /* VALUE_INT */
-     , (4513, 5, 9000) /* ENCUMB_VAL_INT */;
-

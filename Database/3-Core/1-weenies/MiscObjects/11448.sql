@@ -35,21 +35,6 @@ VALUES (11448, 13, True) /* ETHEREAL_BOOL */
      , (11448, 19, True) /* ATTACKABLE_BOOL */
      , (11448, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11448, 16, 'A double totem representing Audetaunga. ') /* LONG_DESC_STRING */
-     , (11448, 14, 'Use a single totem of Audetaunga on this pure double totem to create Audetaunga''s Triple Totem of the Mountains.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11448, 33, 0) /* BONDED_INT */
-     , (11448, 114, 0) /* ATTUNED_INT */
-     , (11448, 19, 0) /* VALUE_INT */
-     , (11448, 5, 200) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11448, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

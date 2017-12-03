@@ -31,14 +31,3 @@ VALUES (28844, 13, True) /* ETHEREAL_BOOL */
      , (28844, 19, True) /* ATTACKABLE_BOOL */
      , (28844, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28844, 16, 'A battered old pewter mug. By the filthy condition it is in, this mug has never seen soap nor water in it''s lifetime. Etched into the side of it is the name Renald. Return this mug to Renald the Eldest.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28844, 33, 1) /* BONDED_INT */
-     , (28844, 114, 1) /* ATTUNED_INT */
-     , (28844, 19, 0) /* VALUE_INT */
-     , (28844, 5, 50) /* ENCUMB_VAL_INT */;
-

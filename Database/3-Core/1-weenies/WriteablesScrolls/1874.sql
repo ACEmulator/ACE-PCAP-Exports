@@ -35,17 +35,3 @@ VALUES (1874, 13, True) /* ETHEREAL_BOOL */
      , (1874, 19, True) /* ATTACKABLE_BOOL */
      , (1874, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1874, 16, 'Inscribed spell: Stamina to Mana Self I
-Drains one-half of the caster''s Stamina and gives 90% of that to his/her Mana (maximum of 50).') /* LONG_DESC_STRING */
-     , (1874, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1874, 19, 1) /* VALUE_INT */
-     , (1874, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1874, 1676) /* StaminatoManaSelf1_SpellID */;
-

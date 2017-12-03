@@ -46,32 +46,3 @@ VALUES (26532, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (26532, 67114955, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (26532, 15, 'A staff with an ever watchful eye once used by the High Matriarch Ixir Zi.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (26532, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (26532, 19, 7800) /* VALUE_INT */
-     , (26532, 5, 75) /* ENCUMB_VAL_INT */
-     , (26532, 106, 375) /* ITEM_SPELLCRAFT_INT */
-     , (26532, 108, 1400) /* ITEM_MAX_MANA_INT */
-     , (26532, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (26532, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (26532, 159, 32) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (26532, 144, 0.12) /* MANA_CONVERSION_MOD_FLOAT */
-     , (26532, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (26532, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (26532, 3071) /* WardRebirth_SpellID */
-     , (26532, 1360) /* EnduranceOther6_SpellID */
-     , (26532, 211) /* ManaRenewalOther6_SpellID */
-     , (26532, 1432) /* FocusOther6_SpellID */
-     , (26532, 2975) /* ModerateItemEnchantmentAptitude_SpellID */
-     , (26532, 1456) /* WillpowerOther6_SpellID */
-     , (26532, 188) /* RejuvenationOther6_SpellID */;
-

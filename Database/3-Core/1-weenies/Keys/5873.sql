@@ -49,14 +49,3 @@ VALUES (5873, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5873, 0, 16778506);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5873, 16, 'A small amulet on a chain, which bears the Royal Seal of Dericost.') /* LONG_DESC_STRING */
-     , (5873, 14, 'Use this item on a locked standing stone to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5873, 19, 200) /* VALUE_INT */
-     , (5873, 5, 45) /* ENCUMB_VAL_INT */
-     , (5873, 91, 1) /* MAX_STRUCTURE_INT */;
-

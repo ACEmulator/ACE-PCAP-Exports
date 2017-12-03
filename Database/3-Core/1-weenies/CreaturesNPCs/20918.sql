@@ -87,12 +87,3 @@ VALUES (20918, 11, 16777302)
      , (20918, 4, 16781855)
      , (20918, 8, 16781859);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20918, 16, 'Killed by Callaway.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20918, 19, 0) /* VALUE_INT */
-     , (20918, 5, 6505) /* ENCUMB_VAL_INT */;
-

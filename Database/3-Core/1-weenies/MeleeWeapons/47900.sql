@@ -37,12 +37,3 @@ VALUES (47900, 13, True) /* ETHEREAL_BOOL */
      , (47900, 19, True) /* ATTACKABLE_BOOL */
      , (47900, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47900, 16, 'Killed by Mag-lite.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47900, 19, 0) /* VALUE_INT */
-     , (47900, 5, 6235) /* ENCUMB_VAL_INT */;
-

@@ -31,17 +31,3 @@ VALUES (38648, 13, True) /* ETHEREAL_BOOL */
      , (38648, 19, True) /* ATTACKABLE_BOOL */
      , (38648, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38648, 16, 'The three pieces of the ancient artifact, the Lens of the Filinuvekta.  It would be of great interest to your Society''s Inspector of Adepts.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38648, 33, 1) /* BONDED_INT */
-     , (38648, 114, 1) /* ATTUNED_INT */
-     , (38648, 98, 1485398881) /* CREATION_TIMESTAMP_INT */
-     , (38648, 19, 0) /* VALUE_INT */
-     , (38648, 5, 30) /* ENCUMB_VAL_INT */
-     , (38648, 267, 3600) /* LIFESPAN_INT */
-     , (38648, 268, 3595) /* REMAINING_LIFESPAN_INT */;
-

@@ -47,18 +47,6 @@ VALUES (40512, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40512, 0, 16783325);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40512, 16, 'A small glass flask filled with a swirling dark fluid.') /* LONG_DESC_STRING */
-     , (40512, 14, 'It looks like you could pour this on some other item in order to make it deadly against Shadows.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40512, 33, 1) /* BONDED_INT */
-     , (40512, 114, 1) /* ATTUNED_INT */
-     , (40512, 19, 0) /* VALUE_INT */
-     , (40512, 5, 15) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

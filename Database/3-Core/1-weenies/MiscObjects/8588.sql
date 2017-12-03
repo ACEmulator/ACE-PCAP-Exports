@@ -31,9 +31,3 @@ VALUES (8588, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (8588, 1, True) /* STUCK_BOOL */
      , (8588, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8588, 19, 0) /* VALUE_INT */
-     , (8588, 5, 400) /* ENCUMB_VAL_INT */;
-

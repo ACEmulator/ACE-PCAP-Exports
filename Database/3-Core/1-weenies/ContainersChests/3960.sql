@@ -37,22 +37,6 @@ VALUES (3960, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (3960, 19, True) /* ATTACKABLE_BOOL */
      , (3960, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3960, 16, 'This chest appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.') /* LONG_DESC_STRING */
-     , (3960, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3960, 19, 2500) /* VALUE_INT */
-     , (3960, 5, 9452) /* ENCUMB_VAL_INT */
-     , (3960, 38, 5000) /* RESIST_LOCKPICK_INT */
-     , (3960, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (3960, 2, 0) /* OPEN_BOOL */
-     , (3960, 3, 0) /* LOCKED_BOOL */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -35,14 +35,3 @@ VALUES (1264, 13, True) /* ETHEREAL_BOOL */
      , (1264, 19, True) /* ATTACKABLE_BOOL */
      , (1264, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1264, 16, 'This silver key goes to a chest in the Green Mire Grave.') /* LONG_DESC_STRING */
-     , (1264, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1264, 19, 100) /* VALUE_INT */
-     , (1264, 5, 50) /* ENCUMB_VAL_INT */
-     , (1264, 91, 5) /* MAX_STRUCTURE_INT */;
-

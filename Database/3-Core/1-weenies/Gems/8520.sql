@@ -34,16 +34,6 @@ VALUES (8520, 13, True) /* ETHEREAL_BOOL */
      , (8520, 19, True) /* ATTACKABLE_BOOL */
      , (8520, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8520, 16, 'A broken silver key. Underneath the tarnish of years, you can see beautiful engravings which call to mind the trees of Ithaenc island.') /* LONG_DESC_STRING */
-     , (8520, 14, 'This key looks like it was deliberately broken by inhuman strength. You should find the other pieces.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8520, 19, 0) /* VALUE_INT */
-     , (8520, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

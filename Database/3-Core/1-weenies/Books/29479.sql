@@ -34,15 +34,3 @@ VALUES (29479, 13, True) /* ETHEREAL_BOOL */
      , (29479, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29479, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29479, 14, 'Use this item to read it.') /* USE_STRING */
-     , (29479, 15, 'A note found on the corpse of the Viamontian Royal Prison Warden.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29479, 19, 0) /* VALUE_INT */
-     , (29479, 5, 5) /* ENCUMB_VAL_INT */
-     , (29479, 174, 2) /* APPRAISAL_PAGES_INT */
-     , (29479, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
-

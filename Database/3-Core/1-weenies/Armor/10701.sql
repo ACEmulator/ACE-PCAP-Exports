@@ -47,23 +47,3 @@ VALUES (10701, 0, 83892881, 83893325)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10701, 0, 16785361);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10701, 16, 'A Niffis Shell Helmet.  It is unusally light, and very well ventilated.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10701, 19, 6500) /* VALUE_INT */
-     , (10701, 5, 250) /* ENCUMB_VAL_INT */
-     , (10701, 28, 210) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (10701, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (10701, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (10701, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (10701, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (10701, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (10701, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (10701, 19, 0.9) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (10701, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

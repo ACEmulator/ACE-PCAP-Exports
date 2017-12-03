@@ -35,21 +35,6 @@ VALUES (40789, 13, True) /* ETHEREAL_BOOL */
      , (40789, 19, True) /* ATTACKABLE_BOOL */
      , (40789, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40789, 14, 'Combine a thermal crystal with this alkalemic crystal to stabilize it.') /* USE_STRING */
-     , (40789, 15, 'An alkalemic Progenitor crystal.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40789, 33, 1) /* BONDED_INT */
-     , (40789, 114, 1) /* ATTUNED_INT */
-     , (40789, 19, 0) /* VALUE_INT */
-     , (40789, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40789, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -41,14 +41,3 @@ VALUES (53354, 0, 83897327, 83897327);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53354, 0, 16792585);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53354, 15, 'A mangled feather taken from the Farmer''s basement.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53354, 33, 1) /* BONDED_INT */
-     , (53354, 114, 1) /* ATTUNED_INT */
-     , (53354, 19, 0) /* VALUE_INT */
-     , (53354, 5, 100) /* ENCUMB_VAL_INT */;
-

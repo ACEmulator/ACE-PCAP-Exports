@@ -35,26 +35,6 @@ VALUES (41535, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (41535, 19, True) /* ATTACKABLE_BOOL */
      , (41535, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41535, 2, 99) /* CREATURE_TYPE_INT */
-     , (41535, 307, 5) /* DAMAGE_RATING_INT */
-     , (41535, 25, 135) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (41535, 1, 395) /* STRENGTH_ATTRIBUTE */
-     , (41535, 2, 360) /* ENDURANCE_ATTRIBUTE */
-     , (41535, 4, 340) /* COORDINATION_ATTRIBUTE */
-     , (41535, 8, 320) /* QUICKNESS_ATTRIBUTE */
-     , (41535, 16, 80) /* FOCUS_ATTRIBUTE */
-     , (41535, 32, 80) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (41535, 64, 680) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (41535, 128, 910) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (41535, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

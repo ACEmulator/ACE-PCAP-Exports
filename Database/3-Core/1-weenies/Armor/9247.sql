@@ -43,23 +43,3 @@ VALUES (9247, 67113148, 240, 10)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9247, 0, 16785609);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9247, 16, 'A helmet reinforced by the skin shed from a potent Sclavus.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9247, 19, 1100) /* VALUE_INT */
-     , (9247, 5, 900) /* ENCUMB_VAL_INT */
-     , (9247, 28, 200) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (9247, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (9247, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (9247, 15, 0.7) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (9247, 16, 1.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (9247, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (9247, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (9247, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (9247, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

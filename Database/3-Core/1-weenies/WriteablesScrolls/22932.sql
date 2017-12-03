@@ -34,19 +34,3 @@ VALUES (22932, 13, True) /* ETHEREAL_BOOL */
      , (22932, 19, True) /* ATTACKABLE_BOOL */
      , (22932, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22932, 16, 'Inscribed spell: Recall to the Singularity Caul
-Teleports caster to the Singularity Caul.') /* LONG_DESC_STRING */
-     , (22932, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22932, 33, 1) /* BONDED_INT */
-     , (22932, 114, 1) /* ATTUNED_INT */
-     , (22932, 19, 0) /* VALUE_INT */
-     , (22932, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (22932, 2943) /* SingularityIslandRecall_SpellID */;
-

@@ -34,18 +34,3 @@ VALUES (35020, 13, True) /* ETHEREAL_BOOL */
      , (35020, 19, True) /* ATTACKABLE_BOOL */
      , (35020, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35020, 16, 'A key to the 4th Locked Gate in the Falatacot Catacombs on Bur.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35020, 33, 1) /* BONDED_INT */
-     , (35020, 114, 1) /* ATTUNED_INT */
-     , (35020, 19, 0) /* VALUE_INT */
-     , (35020, 5, 15) /* ENCUMB_VAL_INT */
-     , (35020, 91, 1) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35020, 69, 0) /* IS_SELLABLE_BOOL */;
-

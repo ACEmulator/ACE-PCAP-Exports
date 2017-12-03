@@ -89,36 +89,3 @@ VALUES (29229, 12, 16777304)
      , (29229, 4, 16781838)
      , (29229, 8, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29229, 5, 'Natural Philosopher') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (29229, 16, 67109567) /* EYES_PALETTE_DID */
-     , (29229, 9, 83890453) /* EYES_TEXTURE_DID */
-     , (29229, 17, 67109555) /* SKIN_PALETTE_DID */
-     , (29229, 10, 83890532) /* NOSE_TEXTURE_DID */
-     , (29229, 11, 83890653) /* MOUTH_TEXTURE_DID */
-     , (29229, 15, 67117000) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29229, 113, 1) /* GENDER_INT */
-     , (29229, 2, 31) /* CREATURE_TYPE_INT */
-     , (29229, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (29229, 25, 111) /* LEVEL_INT */
-     , (29229, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (29229, 1, 60) /* STRENGTH_ATTRIBUTE */
-     , (29229, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (29229, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (29229, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (29229, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (29229, 32, 130) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29229, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (29229, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (29229, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
-

@@ -35,17 +35,3 @@ VALUES (1698, 13, True) /* ETHEREAL_BOOL */
      , (1698, 19, True) /* ATTACKABLE_BOOL */
      , (1698, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1698, 16, 'Inscribed spell: Fealty Other I
-Increases the target''s Loyalty skill by 10 points.') /* LONG_DESC_STRING */
-     , (1698, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1698, 19, 1) /* VALUE_INT */
-     , (1698, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1698, 952) /* FealtyOther1_SpellID */;
-

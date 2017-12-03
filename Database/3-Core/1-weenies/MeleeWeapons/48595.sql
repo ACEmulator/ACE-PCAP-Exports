@@ -35,30 +35,3 @@ VALUES (48595, 13, True) /* ETHEREAL_BOOL */
      , (48595, 19, True) /* ATTACKABLE_BOOL */
      , (48595, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48595, 16, 'Ring of Regeneration') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48595, 177, 1) /* GEM_COUNT_INT */
-     , (48595, 178, 16) /* GEM_TYPE_INT */
-     , (48595, 19, 9288) /* VALUE_INT */
-     , (48595, 131, 26) /* MATERIAL_TYPE_INT */
-     , (48595, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (48595, 5, 30) /* ENCUMB_VAL_INT */
-     , (48595, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (48595, 106, 269) /* ITEM_SPELLCRAFT_INT */
-     , (48595, 108, 1751) /* ITEM_MAX_MANA_INT */
-     , (48595, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (48595, 109, 283) /* ITEM_DIFFICULTY_INT */
-     , (48595, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (48595, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (48595, 2570) /* CANTRIPWEAPONEXPERTISE1_SpellID */
-     , (48595, 170) /* RegenerationSelf6_SpellID */
-     , (48595, 2555) /* CANTRIPLIFEMAGICAPTITUDE1_SpellID */;
-

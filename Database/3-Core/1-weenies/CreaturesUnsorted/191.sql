@@ -96,36 +96,6 @@ VALUES (191, 3, 16777292)
      , (191, 14, 16783855)
      , (191, 16, 16785647);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (191, 16, 67109566) /* EYES_PALETTE_DID */
-     , (191, 9, 83890479) /* EYES_TEXTURE_DID */
-     , (191, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (191, 10, 83890550) /* NOSE_TEXTURE_DID */
-     , (191, 11, 83890570) /* MOUTH_TEXTURE_DID */
-     , (191, 15, 67116989) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (191, 113, 1) /* GENDER_INT */
-     , (191, 2, 31) /* CREATURE_TYPE_INT */
-     , (191, 307, 5) /* DAMAGE_RATING_INT */
-     , (191, 25, 80) /* LEVEL_INT */
-     , (191, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (191, 1, 210) /* STRENGTH_ATTRIBUTE */
-     , (191, 2, 140) /* ENDURANCE_ATTRIBUTE */
-     , (191, 4, 210) /* COORDINATION_ATTRIBUTE */
-     , (191, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (191, 16, 220) /* FOCUS_ATTRIBUTE */
-     , (191, 32, 220) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (191, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (191, 128, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (191, 256, 320) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

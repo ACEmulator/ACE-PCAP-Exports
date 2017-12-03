@@ -33,11 +33,3 @@ VALUES (375, 13, True) /* ETHEREAL_BOOL */
      , (375, 19, True) /* ATTACKABLE_BOOL */
      , (375, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (375, 38, 'Bellig Tower') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (375, 111, 1) /* PORTAL_BITMASK_INT */;
-

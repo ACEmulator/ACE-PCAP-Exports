@@ -35,17 +35,3 @@ VALUES (3336, 13, True) /* ETHEREAL_BOOL */
      , (3336, 19, True) /* ATTACKABLE_BOOL */
      , (3336, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3336, 16, 'Inscribed spell: Jumping Mastery Other V
-Increases the target''s Jump skill by 30 points.') /* LONG_DESC_STRING */
-     , (3336, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3336, 19, 200) /* VALUE_INT */
-     , (3336, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3336, 980) /* JumpingMasteryOther5_SpellID */;
-

@@ -38,21 +38,6 @@ VALUES (8899, 13, True) /* ETHEREAL_BOOL */
      , (8899, 19, True) /* ATTACKABLE_BOOL */
      , (8899, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8899, 16, 'A well-balanced blade hilt.') /* LONG_DESC_STRING */
-     , (8899, 14, 'Affix this hilt to a loot-generated dagger or light sword to give the weapon multi-strike capability. Using this on an already augmented weapon will destroy the hilt.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8899, 33, 1) /* BONDED_INT */
-     , (8899, 114, 1) /* ATTUNED_INT */
-     , (8899, 19, 10) /* VALUE_INT */
-     , (8899, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8899, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

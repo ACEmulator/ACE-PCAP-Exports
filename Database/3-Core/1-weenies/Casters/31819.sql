@@ -54,37 +54,3 @@ VALUES (31819, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31819, 0, 16780142);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31819, 16, 'Slashing Baton of Blades') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31819, 160, 375) /* WIELD_DIFFICULTY_INT */
-     , (31819, 177, 3) /* GEM_COUNT_INT */
-     , (31819, 178, 21) /* GEM_TYPE_INT */
-     , (31819, 19, 20129) /* VALUE_INT */
-     , (31819, 131, 51) /* MATERIAL_TYPE_INT */
-     , (31819, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (31819, 5, 50) /* ENCUMB_VAL_INT */
-     , (31819, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (31819, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (31819, 108, 4623) /* ITEM_MAX_MANA_INT */
-     , (31819, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31819, 109, 403) /* ITEM_DIFFICULTY_INT */
-     , (31819, 45, 1) /* DAMAGE_TYPE_INT */
-     , (31819, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (31819, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (31819, 159, 34) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31819, 144, 0.08) /* MANA_CONVERSION_MOD_FLOAT */
-     , (31819, 152, 1.14) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (31819, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (31819, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31819, 4457) /* WhirlingBlade8_SpellID */
-     , (31819, 2117) /* Truevalue7_SpellID */
-     , (31819, 4695) /* CANTRIPIMPREGNABILITY3_SpellID */;
-

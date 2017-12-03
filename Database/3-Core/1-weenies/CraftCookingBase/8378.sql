@@ -36,16 +36,6 @@ VALUES (8378, 13, True) /* ETHEREAL_BOOL */
      , (8378, 19, True) /* ATTACKABLE_BOOL */
      , (8378, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8378, 14, 'Use this item on the beer keg at your local tavern.') /* USE_STRING */
-     , (8378, 15, 'Commemorative mug celebrating the new season.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8378, 19, 10) /* VALUE_INT */
-     , (8378, 5, 40) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

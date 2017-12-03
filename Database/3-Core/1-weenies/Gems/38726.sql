@@ -50,24 +50,6 @@ VALUES (38726, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38726, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38726, 16, 'A small glowing gem, that seems to radiate light from an internal source.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38726, 33, 1) /* BONDED_INT */
-     , (38726, 114, 1) /* ATTUNED_INT */
-     , (38726, 19, 750000) /* VALUE_INT */
-     , (38726, 5, 30) /* ENCUMB_VAL_INT */
-     , (38726, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (38726, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (38726, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (38726, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (38726, 4331) /* DispelAllBadSelf8_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

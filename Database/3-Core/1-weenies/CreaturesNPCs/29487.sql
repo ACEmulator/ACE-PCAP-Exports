@@ -78,16 +78,3 @@ VALUES (29487, 12, 16777304)
      , (29487, 4, 16781816)
      , (29487, 8, 16781817);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29487, 15, 'A bright red piece of paper with some writing on it.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29487, 33, 0) /* BONDED_INT */
-     , (29487, 114, 0) /* ATTUNED_INT */
-     , (29487, 19, 1) /* VALUE_INT */
-     , (29487, 5, 10) /* ENCUMB_VAL_INT */
-     , (29487, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (29487, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

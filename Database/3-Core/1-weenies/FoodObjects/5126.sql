@@ -33,20 +33,6 @@ VALUES (5126, 13, True) /* ETHEREAL_BOOL */
      , (5126, 19, True) /* ATTACKABLE_BOOL */
      , (5126, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5126, 16, 'A bottle containing what looks like water, except the water somehow smells more refreshing than normal water.') /* LONG_DESC_STRING */
-     , (5126, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5126, 33, 1) /* BONDED_INT */
-     , (5126, 114, 1) /* ATTUNED_INT */
-     , (5126, 19, 0) /* VALUE_INT */
-     , (5126, 5, 25) /* ENCUMB_VAL_INT */
-     , (5126, 89, 4) /* BOOSTER_ENUM_INT */
-     , (5126, 90, 12) /* BOOST_VALUE_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

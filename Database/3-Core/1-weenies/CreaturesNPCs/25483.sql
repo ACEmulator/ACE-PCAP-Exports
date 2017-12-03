@@ -84,36 +84,3 @@ VALUES (25483, 12, 16777304)
      , (25483, 13, 16783871)
      , (25483, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25483, 5, 'Assistant to Nuhmudira') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (25483, 16, 67110063) /* EYES_PALETTE_DID */
-     , (25483, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (25483, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (25483, 10, 83890550) /* NOSE_TEXTURE_DID */
-     , (25483, 11, 83890663) /* MOUTH_TEXTURE_DID */
-     , (25483, 15, 67117024) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25483, 113, 1) /* GENDER_INT */
-     , (25483, 2, 31) /* CREATURE_TYPE_INT */
-     , (25483, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (25483, 25, 5) /* LEVEL_INT */
-     , (25483, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (25483, 1, 50) /* STRENGTH_ATTRIBUTE */
-     , (25483, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (25483, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (25483, 8, 75) /* QUICKNESS_ATTRIBUTE */
-     , (25483, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (25483, 32, 65) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25483, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25483, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25483, 256, 125) /* MAX_MANA_ATTRIBUTE_2ND */;
-

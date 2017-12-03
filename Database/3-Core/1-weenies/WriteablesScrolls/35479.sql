@@ -34,19 +34,3 @@ VALUES (35479, 13, True) /* ETHEREAL_BOOL */
      , (35479, 19, True) /* ATTACKABLE_BOOL */
      , (35479, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35479, 16, 'Inscribed spell: Bur Recall
-Sends the caster to Bur.') /* LONG_DESC_STRING */
-     , (35479, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35479, 33, 1) /* BONDED_INT */
-     , (35479, 114, 1) /* ATTUNED_INT */
-     , (35479, 19, 0) /* VALUE_INT */
-     , (35479, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (35479, 4084) /* RecallBur_SpellID */;
-

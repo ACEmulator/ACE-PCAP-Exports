@@ -33,12 +33,3 @@ VALUES (8834, 13, True) /* ETHEREAL_BOOL */
      , (8834, 19, True) /* ATTACKABLE_BOOL */
      , (8834, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8834, 38, 'Upper Empyrean Mausoleum Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8834, 86, 21) /* MIN_LEVEL_INT */
-     , (8834, 111, 17) /* PORTAL_BITMASK_INT */;
-

@@ -33,11 +33,3 @@ VALUES (14616, 13, True) /* ETHEREAL_BOOL */
      , (14616, 19, True) /* ATTACKABLE_BOOL */
      , (14616, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14616, 38, 'Celcynd Cottages Portal (92.2N, 9.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14616, 111, 1) /* PORTAL_BITMASK_INT */;
-

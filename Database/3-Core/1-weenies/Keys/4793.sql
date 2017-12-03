@@ -34,14 +34,3 @@ VALUES (4793, 13, True) /* ETHEREAL_BOOL */
      , (4793, 19, True) /* ATTACKABLE_BOOL */
      , (4793, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4793, 14, 'Use this item on a chest to unlock it.') /* USE_STRING */
-     , (4793, 15, 'Brentsella''s Key') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4793, 19, 0) /* VALUE_INT */
-     , (4793, 5, 50) /* ENCUMB_VAL_INT */
-     , (4793, 91, 1) /* MAX_STRUCTURE_INT */;
-

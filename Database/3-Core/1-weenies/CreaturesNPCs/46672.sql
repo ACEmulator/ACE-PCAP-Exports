@@ -38,34 +38,3 @@ VALUES (46672, 13, True) /* ETHEREAL_BOOL */
      , (46672, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (46672, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46672, 14, 'Use this bell to begin this room''s challenge.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46672, 384, 0) /*  */
-     , (46672, 370, 0) /* GEAR_DAMAGE_INT */
-     , (46672, 386, 0) /*  */
-     , (46672, 307, 0) /* DAMAGE_RATING_INT */
-     , (46672, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (46672, 387, 0) /*  */
-     , (46672, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (46672, 372, 0) /* GEAR_CRIT_INT */
-     , (46672, 388, 0) /*  */
-     , (46672, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (46672, 389, 0) /*  */
-     , (46672, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (46672, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (46672, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (46672, 313, 0) /* CRIT_RATING_INT */
-     , (46672, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (46672, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (46672, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (46672, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (46672, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (46672, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (46672, 381, 0) /*  */
-     , (46672, 382, 0) /*  */
-     , (46672, 383, 0) /*  */;
-

@@ -33,11 +33,3 @@ VALUES (3630, 13, True) /* ETHEREAL_BOOL */
      , (3630, 19, True) /* ATTACKABLE_BOOL */
      , (3630, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3630, 38, 'Carved Cave Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3630, 111, 17) /* PORTAL_BITMASK_INT */;
-

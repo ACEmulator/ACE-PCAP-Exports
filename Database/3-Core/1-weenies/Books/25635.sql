@@ -34,15 +34,3 @@ VALUES (25635, 13, True) /* ETHEREAL_BOOL */
      , (25635, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25635, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25635, 16, 'An interesting note found in the Elemental Caverns.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25635, 114, 1) /* ATTUNED_INT */
-     , (25635, 19, 90) /* VALUE_INT */
-     , (25635, 5, 160) /* ENCUMB_VAL_INT */
-     , (25635, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (25635, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

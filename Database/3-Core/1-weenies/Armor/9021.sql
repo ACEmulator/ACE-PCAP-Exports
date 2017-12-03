@@ -53,34 +53,3 @@ VALUES (9021, 0, 16784627)
      , (9021, 4, 16781840)
      , (9021, 5, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9021, 16, 'A pair of boots.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9021, 19, 5520) /* VALUE_INT */
-     , (9021, 5, 500) /* ENCUMB_VAL_INT */
-     , (9021, 106, 275) /* ITEM_SPELLCRAFT_INT */
-     , (9021, 108, 760) /* ITEM_MAX_MANA_INT */
-     , (9021, 28, 50) /* ARMOR_LEVEL_INT */
-     , (9021, 109, 10) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (9021, 5, -0.04) /* MANA_RATE_FLOAT */
-     , (9021, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (9021, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (9021, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (9021, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (9021, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (9021, 18, 0.2) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (9021, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (9021, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9021, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (9021, 980) /* JumpingMasteryOther5_SpellID */
-     , (9021, 992) /* SprintOther5_SpellID */;
-

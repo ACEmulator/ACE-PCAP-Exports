@@ -64,39 +64,3 @@ VALUES (52962, 16, 16795665)
      , (52962, 4, 16794154)
      , (52962, 8, 16794155);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52962, 5, 'Society Gauntlet Master') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (52962, 16, 67109564) /* EYES_PALETTE_DID */
-     , (52962, 9, 83890508) /* EYES_TEXTURE_DID */
-     , (52962, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (52962, 10, 83890553) /* NOSE_TEXTURE_DID */
-     , (52962, 11, 83890658) /* MOUTH_TEXTURE_DID */
-     , (52962, 15, 67116980) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52962, 113, 1) /* GENDER_INT */
-     , (52962, 2, 31) /* CREATURE_TYPE_INT */
-     , (52962, 307, 5) /* DAMAGE_RATING_INT */
-     , (52962, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (52962, 25, 275) /* LEVEL_INT */
-     , (52962, 281, 1) /* FACTION1_BITS_INT */
-     , (52962, 188, 1) /* HERITAGE_GROUP_INT */
-     , (52962, 287, 0) /* SOCIETY_RANK_CELHAN_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (52962, 1, 240) /* STRENGTH_ATTRIBUTE */
-     , (52962, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (52962, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (52962, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (52962, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (52962, 32, 290) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (52962, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (52962, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (52962, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
-

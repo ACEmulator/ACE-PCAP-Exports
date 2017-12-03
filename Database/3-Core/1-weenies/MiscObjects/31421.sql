@@ -36,17 +36,3 @@ VALUES (31421, 13, True) /* ETHEREAL_BOOL */
      , (31421, 19, True) /* ATTACKABLE_BOOL */
      , (31421, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31421, 16, 'A large stuffed Ursuin.  There appear to be large chew marks on it.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31421, 33, 0) /* BONDED_INT */
-     , (31421, 114, 0) /* ATTUNED_INT */
-     , (31421, 19, 1001) /* VALUE_INT */
-     , (31421, 5, 500) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31421, 69, 1) /* IS_SELLABLE_BOOL */;
-

@@ -67,16 +67,6 @@ VALUES (34088, 0, 16784901)
      , (34088, 11, 16790869)
      , (34088, 12, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34088, 16, 'An almost complete Scarecrow used to scare monsters away from your house.') /* LONG_DESC_STRING */
-     , (34088, 14, 'Use this stand on a Jack o'' Lantern to make a Scarecrow for your house.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34088, 19, 500) /* VALUE_INT */
-     , (34088, 5, 400) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

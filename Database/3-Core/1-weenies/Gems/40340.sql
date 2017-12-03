@@ -38,21 +38,6 @@ VALUES (40340, 13, True) /* ETHEREAL_BOOL */
      , (40340, 19, True) /* ATTACKABLE_BOOL */
      , (40340, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40340, 16, 'This darkened skull feels cold to the touch. Use it to destroy invisible ghosts under Mhoire Castle.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40340, 33, 1) /* BONDED_INT */
-     , (40340, 114, 1) /* ATTUNED_INT */
-     , (40340, 19, 0) /* VALUE_INT */
-     , (40340, 5, 0) /* ENCUMB_VAL_INT */
-     , (40340, 280, 51) /* SHARED_COOLDOWN_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (40340, 167, 10) /* COOLDOWN_DURATION_FLOAT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

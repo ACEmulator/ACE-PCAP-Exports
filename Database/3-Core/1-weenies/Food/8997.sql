@@ -41,25 +41,6 @@ VALUES (8997, 13, True) /* ETHEREAL_BOOL */
      , (8997, 19, True) /* ATTACKABLE_BOOL */
      , (8997, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8997, 16, 'A bucket of water from the well beside the Cathedral of Ithaenc.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8997, 19, 1000) /* VALUE_INT */
-     , (8997, 5, 60) /* ENCUMB_VAL_INT */
-     , (8997, 106, 50) /* ITEM_SPELLCRAFT_INT */
-     , (8997, 108, 30) /* ITEM_MAX_MANA_INT */
-     , (8997, 109, 10) /* ITEM_DIFFICULTY_INT */
-     , (8997, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8997, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8997, 680) /* ArcaneEnlightenmentSelf3_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

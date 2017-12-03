@@ -35,17 +35,3 @@ VALUES (4388, 13, True) /* ETHEREAL_BOOL */
      , (4388, 19, True) /* ATTACKABLE_BOOL */
      , (4388, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4388, 16, 'Inscribed spell: Armor Other V
-Increases the target''s natural armor by 150 points.') /* LONG_DESC_STRING */
-     , (4388, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4388, 19, 200) /* VALUE_INT */
-     , (4388, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (4388, 1316) /* ArmorOther5_SpellID */;
-

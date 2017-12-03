@@ -35,17 +35,3 @@ VALUES (2692, 13, True) /* ETHEREAL_BOOL */
      , (2692, 19, True) /* ATTACKABLE_BOOL */
      , (2692, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2692, 16, 'Inscribed spell: Heal Other II
-Restores 15-35 points of the target''s Health.') /* LONG_DESC_STRING */
-     , (2692, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2692, 19, 5) /* VALUE_INT */
-     , (2692, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2692, 1162) /* HealOther2_SpellID */;
-

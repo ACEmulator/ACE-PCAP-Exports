@@ -37,29 +37,3 @@ VALUES (46397, 13, True) /* ETHEREAL_BOOL */
      , (46397, 19, True) /* ATTACKABLE_BOOL */
      , (46397, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46397, 16, 'A Perfect Isparian Wand, infused with the power of the Shadownether Stone.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46397, 160, 335) /* WIELD_DIFFICULTY_INT */
-     , (46397, 33, 1) /* BONDED_INT */
-     , (46397, 114, 1) /* ATTUNED_INT */
-     , (46397, 19, 10000) /* VALUE_INT */
-     , (46397, 36, 9999) /* RESIST_MAGIC_INT */
-     , (46397, 5, 150) /* ENCUMB_VAL_INT */
-     , (46397, 166, 22) /* SLAYER_CREATURE_TYPE_INT */
-     , (46397, 45, 1024) /* DAMAGE_TYPE_INT */
-     , (46397, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (46397, 159, 43) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (46397, 152, 1.09) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (46397, 144, 0.204) /* MANA_CONVERSION_MOD_FLOAT */
-     , (46397, 29, 1.29) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46397, 99, 1) /* IVORYABLE_BOOL */
-     , (46397, 69, 0) /* IS_SELLABLE_BOOL */;
-

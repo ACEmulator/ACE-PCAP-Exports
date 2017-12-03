@@ -48,29 +48,3 @@ VALUES (31977, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31977, 0, 16778345);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31977, 16, 'A rose colored wedding ring with a subtle rose shaped design carved into it.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31977, 160, 130) /* WIELD_DIFFICULTY_INT */
-     , (31977, 33, 1) /* BONDED_INT */
-     , (31977, 114, 1) /* ATTUNED_INT */
-     , (31977, 19, 5000) /* VALUE_INT */
-     , (31977, 5, 10) /* ENCUMB_VAL_INT */
-     , (31977, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (31977, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (31977, 109, 250) /* ITEM_DIFFICULTY_INT */
-     , (31977, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (31977, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31977, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31977, 3848) /* CombatMedication_SpellID */
-     , (31977, 3849) /* NightRunner_SpellID */
-     , (31977, 2513) /* CANTRIPHEALINGPROWESS2_SpellID */
-     , (31977, 2611) /* CANTRIPFLAMEWARD2_SpellID */;
-

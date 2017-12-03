@@ -52,32 +52,3 @@ VALUES (8785, 0, 83887061, 83886695)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8785, 0, 16779351);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8785, 16, 'A scalemail shirt worn by one of the defenders of the Empyrean Mausoleum.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8785, 19, 6000) /* VALUE_INT */
-     , (8785, 5, 1200) /* ENCUMB_VAL_INT */
-     , (8785, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (8785, 28, 150) /* ARMOR_LEVEL_INT */
-     , (8785, 108, 350) /* ITEM_MAX_MANA_INT */
-     , (8785, 109, 150) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8785, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (8785, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (8785, 14, 1.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (8785, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (8785, 16, 0.7) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (8785, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (8785, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (8785, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (8785, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8785, 2579) /* CANTRIPCOORDINATION1_SpellID */
-     , (8785, 2583) /* CANTRIPSTRENGTH1_SpellID */
-     , (8785, 1310) /* ArmorSelf4_SpellID */;
-

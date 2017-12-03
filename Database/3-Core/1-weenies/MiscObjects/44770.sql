@@ -32,12 +32,3 @@ VALUES (44770, 13, True) /* ETHEREAL_BOOL */
      , (44770, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (44770, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44770, 16, 'Skeletons are a special subset of the undead. Creatures completely devoid of flesh, skeletons  attack with weapons, or with hands and feet. The most powerful Skeleton Lords also wield magic.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44770, 19, 125) /* VALUE_INT */
-     , (44770, 5, 200) /* ENCUMB_VAL_INT */;
-

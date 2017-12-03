@@ -35,17 +35,6 @@ VALUES (6828, 13, True) /* ETHEREAL_BOOL */
      , (6828, 19, True) /* ATTACKABLE_BOOL */
      , (6828, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6828, 16, 'A letter from Hamud ibn Rafik to his daughter, Devana.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6828, 19, 50) /* VALUE_INT */
-     , (6828, 5, 25) /* ENCUMB_VAL_INT */
-     , (6828, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (6828, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

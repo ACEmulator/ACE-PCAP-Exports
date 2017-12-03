@@ -48,13 +48,3 @@ VALUES (48024, 0, 83886710, 83886710)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48024, 0, 16777920);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48024, 16, 'A concentrated lead pea.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48024, 33, 1) /* BONDED_INT */
-     , (48024, 19, 500) /* VALUE_INT */
-     , (48024, 5, 10) /* ENCUMB_VAL_INT */;
-

@@ -35,17 +35,3 @@ VALUES (20622, 13, True) /* ETHEREAL_BOOL */
      , (20622, 19, True) /* ATTACKABLE_BOOL */
      , (20622, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20622, 16, 'Inscribed spell: Summon Secondary Portal I
-Summons a portal that goes to the destination of the caster''s linked portal, set with Secondary Portal Tie.') /* LONG_DESC_STRING */
-     , (20622, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20622, 19, 100) /* VALUE_INT */
-     , (20622, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20622, 2648) /* SummonSecondPortal1_SpellID */;
-

@@ -34,13 +34,3 @@ VALUES (42168, 13, True) /* ETHEREAL_BOOL */
      , (42168, 19, True) /* ATTACKABLE_BOOL */
      , (42168, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42168, 16, 'A portal leading to the Catacombs of the Forgotten where Mi Krau-Li''s Jitte may be found.') /* LONG_DESC_STRING */
-     , (42168, 38, 'Catacombs of the Forgotten (17.4N, 32.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42168, 86, 25) /* MIN_LEVEL_INT */
-     , (42168, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -49,20 +49,6 @@ VALUES (21081, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21081, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21081, 14, 'This item has no apparent use.') /* USE_STRING */
-     , (21081, 15, 'Chips of tiger eye material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21081, 33, 1) /* BONDED_INT */
-     , (21081, 131, 42) /* MATERIAL_TYPE_INT */
-     , (21081, 19, 2) /* VALUE_INT */
-     , (21081, 5, 100) /* ENCUMB_VAL_INT */
-     , (21081, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (21081, 170, 1) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

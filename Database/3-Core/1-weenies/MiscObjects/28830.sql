@@ -31,14 +31,3 @@ VALUES (28830, 13, True) /* ETHEREAL_BOOL */
      , (28830, 19, True) /* ATTACKABLE_BOOL */
      , (28830, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28830, 16, 'A strange plant that appears to be part moss and part vine.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28830, 33, 1) /* BONDED_INT */
-     , (28830, 114, 1) /* ATTUNED_INT */
-     , (28830, 19, 0) /* VALUE_INT */
-     , (28830, 5, 4) /* ENCUMB_VAL_INT */;
-

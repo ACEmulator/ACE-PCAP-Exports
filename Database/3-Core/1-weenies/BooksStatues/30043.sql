@@ -32,18 +32,6 @@ VALUES (30043, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (30043, 19, True) /* ATTACKABLE_BOOL */
      , (30043, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30043, 16, 'A statue of King Varicci II of Viamont.') /* LONG_DESC_STRING */
-     , (30043, 14, 'Use this statue to read its inscription.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30043, 19, 0) /* VALUE_INT */
-     , (30043, 5, 4000) /* ENCUMB_VAL_INT */
-     , (30043, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (30043, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

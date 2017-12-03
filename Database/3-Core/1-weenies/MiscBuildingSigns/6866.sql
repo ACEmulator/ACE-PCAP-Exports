@@ -34,12 +34,3 @@ VALUES (6866, 0, 83892071, 83892184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6866, 0, 16783205);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6866, 16, 'A Human Archmage') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6866, 19, 125) /* VALUE_INT */
-     , (6866, 5, 9000) /* ENCUMB_VAL_INT */;
-

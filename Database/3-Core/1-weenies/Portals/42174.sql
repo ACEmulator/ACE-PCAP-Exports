@@ -34,13 +34,3 @@ VALUES (42174, 13, True) /* ETHEREAL_BOOL */
      , (42174, 19, True) /* ATTACKABLE_BOOL */
      , (42174, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42174, 16, 'A portal leading to Dryreach from which you can find the six Tumerok camps. Falcon Clan Training Camp at 2.0N, 75.0E. Serpent Clan Training Camp 1.0S, 70.0E. Shreth Clan Training Camp 5.0S, 68.0E. Reedshark Clan Training Camp 13.0S, 68.0E. Gromnie Clan Training Camp 16.0S, 70.0E. Mask Clan Training Camp 16.0S, 75.0E.') /* LONG_DESC_STRING */
-     , (42174, 38, 'Tumerok Camps (8.1S, 73.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42174, 86, 40) /* MIN_LEVEL_INT */
-     , (42174, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -53,27 +53,6 @@ VALUES (32940, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32940, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32940, 16, 'Brothers, we must acquire the source of power that lies beneath the wastes. The awakened Virindi conted with us to reach the monolith, but the Guardian has as yet prevented either side from attaining its power. Come, join us and crush the faithless Virindi beneath our heels.') /* LONG_DESC_STRING */
-     , (32940, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 100)') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32940, 19, 500) /* VALUE_INT */
-     , (32940, 5, 10) /* ENCUMB_VAL_INT */
-     , (32940, 280, 1000) /* SHARED_COOLDOWN_INT */
-     , (32940, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (32940, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (32940, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (32940, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32940, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (32940, 157) /* SummonPortal1_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

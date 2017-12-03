@@ -48,32 +48,3 @@ VALUES (47312, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47312, 0, 16792613);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47312, 16, 'Compass of Endurance') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47312, 160, 180) /* WIELD_DIFFICULTY_INT */
-     , (47312, 177, 2) /* GEM_COUNT_INT */
-     , (47312, 178, 23) /* GEM_TYPE_INT */
-     , (47312, 19, 10018) /* VALUE_INT */
-     , (47312, 131, 63) /* MATERIAL_TYPE_INT */
-     , (47312, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (47312, 5, 100) /* ENCUMB_VAL_INT */
-     , (47312, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (47312, 106, 326) /* ITEM_SPELLCRAFT_INT */
-     , (47312, 108, 1618) /* ITEM_MAX_MANA_INT */
-     , (47312, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (47312, 109, 364) /* ITEM_DIFFICULTY_INT */
-     , (47312, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (47312, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (47312, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (47312, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (47312, 2061) /* EnduranceSelf7_SpellID */
-     , (47312, 4710) /* CANTRIPSPRINT3_SpellID */;
-

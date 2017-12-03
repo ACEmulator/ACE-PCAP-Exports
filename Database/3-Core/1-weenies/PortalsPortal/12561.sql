@@ -33,11 +33,3 @@ VALUES (12561, 13, True) /* ETHEREAL_BOOL */
      , (12561, 19, True) /* ATTACKABLE_BOOL */
      , (12561, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12561, 38, 'Tou-Tou Penninsula Cottages Portal (38.4S, 92.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12561, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -48,14 +48,3 @@ VALUES (47649, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47649, 0, 16777915);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47649, 14, 'Use this item on a locked door or chest to pick the lock.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47649, 19, 1200) /* VALUE_INT */
-     , (47649, 5, 50) /* ENCUMB_VAL_INT */
-     , (47649, 91, 50) /* MAX_STRUCTURE_INT */
-     , (47649, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-

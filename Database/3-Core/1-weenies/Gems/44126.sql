@@ -38,27 +38,6 @@ VALUES (44126, 13, True) /* ETHEREAL_BOOL */
      , (44126, 19, True) /* ATTACKABLE_BOOL */
      , (44126, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44126, 16, 'This is a scrying rod used to discover the hidden Mu-miyah device.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44126, 33, 1) /* BONDED_INT */
-     , (44126, 98, 1484794876) /* CREATION_TIMESTAMP_INT */
-     , (44126, 114, 1) /* ATTUNED_INT */
-     , (44126, 19, 0) /* VALUE_INT */
-     , (44126, 5, 0) /* ENCUMB_VAL_INT */
-     , (44126, 280, 500) /* SHARED_COOLDOWN_INT */
-     , (44126, 267, 5400) /* LIFESPAN_INT */
-     , (44126, 268, 5398) /* REMAINING_LIFESPAN_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (44126, 167, 10) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44126, 63, 1) /* UNLIMITED_USE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

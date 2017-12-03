@@ -34,17 +34,6 @@ VALUES (22949, 13, True) /* ETHEREAL_BOOL */
      , (22949, 14, True) /* GRAVITY_STATUS_BOOL */
      , (22949, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22949, 16, 'A short note left here for you to find. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22949, 19, 0) /* VALUE_INT */
-     , (22949, 5, 10) /* ENCUMB_VAL_INT */
-     , (22949, 174, 7) /* APPRAISAL_PAGES_INT */
-     , (22949, 175, 7) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

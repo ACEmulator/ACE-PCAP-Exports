@@ -34,13 +34,3 @@ VALUES (42157, 13, True) /* ETHEREAL_BOOL */
      , (42157, 19, True) /* ATTACKABLE_BOOL */
      , (42157, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42157, 16, 'A portal leading to the Ruschk Fledgemaster''s Camp where a Fledgemaster''s Tusk may be found.') /* LONG_DESC_STRING */
-     , (42157, 38, 'Fledgemaster''s Camp (77.4N, 59.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42157, 86, 25) /* MIN_LEVEL_INT */
-     , (42157, 111, 49) /* PORTAL_BITMASK_INT */;
-

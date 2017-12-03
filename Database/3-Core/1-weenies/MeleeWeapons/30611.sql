@@ -49,29 +49,3 @@ VALUES (30611, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30611, 0, 16792139);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30611, 16, 'Knuckles') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30611, 353, 1) /* WEAPON_TYPE_INT */
-     , (30611, 19, 116) /* VALUE_INT */
-     , (30611, 131, 58) /* MATERIAL_TYPE_INT */
-     , (30611, 5, 120) /* ENCUMB_VAL_INT */
-     , (30611, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (30611, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (30611, 47, 1) /* ATTACK_TYPE_INT */
-     , (30611, 45, 4) /* DAMAGE_TYPE_INT */
-     , (30611, 49, 18) /* WEAPON_TIME_INT */
-     , (30611, 48, 45) /* WEAPON_SKILL_INT */
-     , (30611, 44, 12) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30611, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
-     , (30611, 22, 0.58) /* DAMAGE_VARIANCE_FLOAT */
-     , (30611, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (30611, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (30611, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (30611, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
-

@@ -33,11 +33,3 @@ VALUES (51647, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (51647, 19, True) /* ATTACKABLE_BOOL */
      , (51647, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51647, 19, 0) /* VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (51647, 2, 0) /* OPEN_BOOL */;
-

@@ -33,12 +33,3 @@ VALUES (33105, 13, True) /* ETHEREAL_BOOL */
      , (33105, 19, True) /* ATTACKABLE_BOOL */
      , (33105, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33105, 16, 'Killed by Mag-nus.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33105, 19, 0) /* VALUE_INT */
-     , (33105, 5, 6025) /* ENCUMB_VAL_INT */;
-

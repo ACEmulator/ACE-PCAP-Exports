@@ -38,22 +38,6 @@ VALUES (32928, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (32928, 19, True) /* ATTACKABLE_BOOL */
      , (32928, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32928, 16, 'A mound of straw and fluff. Oddly a small door set in the side seems locked.') /* LONG_DESC_STRING */
-     , (32928, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32928, 19, 2500) /* VALUE_INT */
-     , (32928, 5, 9315) /* ENCUMB_VAL_INT */
-     , (32928, 38, 5000) /* RESIST_LOCKPICK_INT */
-     , (32928, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (32928, 2, 0) /* OPEN_BOOL */
-     , (32928, 3, 1) /* LOCKED_BOOL */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -31,15 +31,3 @@ VALUES (32024, 13, True) /* ETHEREAL_BOOL */
      , (32024, 19, True) /* ATTACKABLE_BOOL */
      , (32024, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32024, 16, 'An offering brought by the undead to pay tribute to High Priestess Xik Minru') /* LONG_DESC_STRING */
-     , (32024, 14, 'Bring this to a Shrine to Xik Minru.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32024, 33, 1) /* BONDED_INT */
-     , (32024, 114, 1) /* ATTUNED_INT */
-     , (32024, 19, 0) /* VALUE_INT */
-     , (32024, 5, 50) /* ENCUMB_VAL_INT */;
-

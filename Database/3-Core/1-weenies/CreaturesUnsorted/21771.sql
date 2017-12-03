@@ -98,14 +98,3 @@ VALUES (21771, 0, 16782756)
      , (21771, 5, 16782755)
      , (21771, 6, 16782759);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21771, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21771, 19, 500) /* VALUE_INT */
-     , (21771, 5, 150) /* ENCUMB_VAL_INT */
-     , (21771, 89, 4) /* BOOSTER_ENUM_INT */
-     , (21771, 90, 100) /* BOOST_VALUE_INT */;
-

@@ -41,27 +41,6 @@ VALUES (41459, 13, True) /* ETHEREAL_BOOL */
      , (41459, 19, True) /* ATTACKABLE_BOOL */
      , (41459, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41459, 16, 'This horn is eternal. Use this horn to increase the Health of your Fellowship by 4.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41459, 176, 35) /* APPRAISAL_ITEM_SKILL_INT */
-     , (41459, 115, 75) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (41459, 19, 0) /* VALUE_INT */
-     , (41459, 5, 200) /* ENCUMB_VAL_INT */
-     , (41459, 280, 6) /* SHARED_COOLDOWN_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (41459, 167, 30) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (41459, 63, 1) /* UNLIMITED_USE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (41459, 5134) /* CallOfLeadership2_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

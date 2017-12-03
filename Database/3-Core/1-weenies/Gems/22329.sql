@@ -34,14 +34,3 @@ VALUES (22329, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22329, 67111924, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22329, 14, 'Use this gem to lower a specialized skill to trained, or a trained skill to untrained. This gem will return eight skill credits when used to unspecialize or untrain the Item Enchantment skill. ') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22329, 33, 1) /* BONDED_INT */
-     , (22329, 114, 1) /* ATTUNED_INT */
-     , (22329, 19, 0) /* VALUE_INT */
-     , (22329, 5, 10) /* ENCUMB_VAL_INT */;
-

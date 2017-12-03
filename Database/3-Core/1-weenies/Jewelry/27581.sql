@@ -47,27 +47,3 @@ VALUES (27581, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27581, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27581, 15, 'A ring of piercing protection, given by Behdo Yii for completing the Harvester quest.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27581, 33, 1) /* BONDED_INT */
-     , (27581, 114, 1) /* ATTUNED_INT */
-     , (27581, 19, 0) /* VALUE_INT */
-     , (27581, 5, 10) /* ENCUMB_VAL_INT */
-     , (27581, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (27581, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (27581, 109, 75) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27581, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27581, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27581, 240) /* InvulnerabilityOther2_SpellID */
-     , (27581, 1141) /* PiercingProtectionOther3_SpellID */;
-

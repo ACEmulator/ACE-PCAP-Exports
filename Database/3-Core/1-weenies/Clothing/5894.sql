@@ -48,39 +48,3 @@ VALUES (5894, 0, 83892358, 83892358);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5894, 0, 16783955);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5894, 16, 'Fez of Curing') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5894, 19, 5290) /* VALUE_INT */
-     , (5894, 131, 4) /* MATERIAL_TYPE_INT */
-     , (5894, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (5894, 5, 19) /* ENCUMB_VAL_INT */
-     , (5894, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (5894, 106, 192) /* ITEM_SPELLCRAFT_INT */
-     , (5894, 28, 216) /* ARMOR_LEVEL_INT */
-     , (5894, 108, 934) /* ITEM_MAX_MANA_INT */
-     , (5894, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (5894, 109, 192) /* ITEM_DIFFICULTY_INT */
-     , (5894, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (5894, 5, -0.04166667) /* MANA_RATE_FLOAT */
-     , (5894, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (5894, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (5894, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (5894, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (5894, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (5894, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (5894, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (5894, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5894, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (5894, 1485) /* Impenetrability5_SpellID */
-     , (5894, 877) /* HealingMasterySelf4_SpellID */;
-

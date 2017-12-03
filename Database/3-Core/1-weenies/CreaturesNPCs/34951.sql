@@ -41,26 +41,3 @@ VALUES (34951, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34951, 67114923, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34951, 5, 'Weaponsmith') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34951, 2, 75) /* CREATURE_TYPE_INT */
-     , (34951, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (34951, 25, 57) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (34951, 1, 210) /* STRENGTH_ATTRIBUTE */
-     , (34951, 2, 330) /* ENDURANCE_ATTRIBUTE */
-     , (34951, 4, 220) /* COORDINATION_ATTRIBUTE */
-     , (34951, 8, 350) /* QUICKNESS_ATTRIBUTE */
-     , (34951, 16, 140) /* FOCUS_ATTRIBUTE */
-     , (34951, 32, 150) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34951, 64, 315) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (34951, 128, 530) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (34951, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
-

@@ -35,17 +35,3 @@ VALUES (21290, 13, True) /* ETHEREAL_BOOL */
      , (21290, 19, True) /* ATTACKABLE_BOOL */
      , (21290, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21290, 16, 'Inscribed spell: Acid Arc III
-Shoots a stream of acid at the target. The stream does 42-84 points of acid damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (21290, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21290, 19, 20) /* VALUE_INT */
-     , (21290, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (21290, 2713) /* AcidArc3_SpellID */;
-

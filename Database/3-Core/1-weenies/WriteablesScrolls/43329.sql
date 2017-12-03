@@ -35,17 +35,3 @@ VALUES (43329, 13, True) /* ETHEREAL_BOOL */
      , (43329, 19, True) /* ATTACKABLE_BOOL */
      , (43329, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43329, 16, 'Inscribed spell: Festering Curse I
-The heal rating of the target is decreased by 5.') /* LONG_DESC_STRING */
-     , (43329, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43329, 19, 1) /* VALUE_INT */
-     , (43329, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (43329, 5371) /* CurseFestering1_SpellID */;
-

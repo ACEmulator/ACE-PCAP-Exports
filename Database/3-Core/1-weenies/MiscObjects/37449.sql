@@ -31,15 +31,3 @@ VALUES (37449, 13, True) /* ETHEREAL_BOOL */
      , (37449, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37449, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37449, 16, 'This egg''s shell oozes with an oily, film-like substance which causes the egg to appear gray, almost black.') /* LONG_DESC_STRING */
-     , (37449, 14, 'Bring this egg to an expert in the closest settlement.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37449, 33, 1) /* BONDED_INT */
-     , (37449, 114, 1) /* ATTUNED_INT */
-     , (37449, 19, 0) /* VALUE_INT */
-     , (37449, 5, 30) /* ENCUMB_VAL_INT */;
-

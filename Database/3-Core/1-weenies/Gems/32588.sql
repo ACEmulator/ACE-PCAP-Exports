@@ -32,18 +32,3 @@ VALUES (32588, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (32588, 19, True) /* ATTACKABLE_BOOL */
      , (32588, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32588, 16, 'A partially repaired Shadow Stone, empowered to protect the user against the chill of the Shadows.') /* LONG_DESC_STRING */
-     , (32588, 14, 'This item can be placed on wall hooks, where it can be used to cast its spells.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32588, 33, 0) /* BONDED_INT */
-     , (32588, 114, 0) /* ATTUNED_INT */
-     , (32588, 19, 10000) /* VALUE_INT */
-     , (32588, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (32588, 69, 1) /* IS_SELLABLE_BOOL */;
-

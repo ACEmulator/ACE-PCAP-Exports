@@ -34,17 +34,6 @@ VALUES (5830, 13, True) /* ETHEREAL_BOOL */
      , (5830, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5830, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5830, 16, 'An ancient book dating back thousands of years.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5830, 19, 500) /* VALUE_INT */
-     , (5830, 5, 100) /* ENCUMB_VAL_INT */
-     , (5830, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (5830, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

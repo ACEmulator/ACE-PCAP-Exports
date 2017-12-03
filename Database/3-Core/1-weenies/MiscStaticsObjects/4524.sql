@@ -29,12 +29,3 @@ VALUES (4524, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4524, 19, True) /* ATTACKABLE_BOOL */
      , (4524, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4524, 16, 'This way to Nanto!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4524, 19, 125) /* VALUE_INT */
-     , (4524, 5, 9000) /* ENCUMB_VAL_INT */;
-

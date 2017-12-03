@@ -94,12 +94,3 @@ VALUES (38632, 5, 16789351)
      , (38632, 8, 16781839)
      , (38632, 16, 16779635);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38632, 16, 'Killed by Mag-nus.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38632, 19, 0) /* VALUE_INT */
-     , (38632, 5, 6015) /* ENCUMB_VAL_INT */;
-

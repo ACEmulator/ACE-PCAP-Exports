@@ -34,21 +34,6 @@ VALUES (49581, 13, True) /* ETHEREAL_BOOL */
      , (49581, 19, True) /* ATTACKABLE_BOOL */
      , (49581, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (49581, 14, 'This fragment appears to be one piece from a larger version. Use this on another combined fragment.') /* USE_STRING */
-     , (49581, 15, 'A combined signet fragment that emits both heat and cold.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49581, 33, 1) /* BONDED_INT */
-     , (49581, 114, 1) /* ATTUNED_INT */
-     , (49581, 19, 0) /* VALUE_INT */
-     , (49581, 5, 200) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (49581, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

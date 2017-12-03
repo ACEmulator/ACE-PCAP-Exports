@@ -47,25 +47,6 @@ VALUES (36185, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36185, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36185, 16, 'A gem filled with a protective magic.') /* LONG_DESC_STRING */
-     , (36185, 14, 'Use this gem to recieve its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36185, 19, 1000) /* VALUE_INT */
-     , (36185, 5, 5) /* ENCUMB_VAL_INT */
-     , (36185, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (36185, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (36185, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36185, 69, 1) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (36185, 4189) /* HarbingerProtectionAcid_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

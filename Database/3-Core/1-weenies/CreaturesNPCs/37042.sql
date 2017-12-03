@@ -37,26 +37,3 @@ VALUES (37042, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (37042, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (37042, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37042, 5, 'Emissary') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37042, 2, 62) /* CREATURE_TYPE_INT */
-     , (37042, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (37042, 25, 60) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (37042, 1, 245) /* STRENGTH_ATTRIBUTE */
-     , (37042, 2, 220) /* ENDURANCE_ATTRIBUTE */
-     , (37042, 4, 215) /* COORDINATION_ATTRIBUTE */
-     , (37042, 8, 210) /* QUICKNESS_ATTRIBUTE */
-     , (37042, 16, 235) /* FOCUS_ATTRIBUTE */
-     , (37042, 32, 230) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37042, 64, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (37042, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (37042, 256, 270) /* MAX_MANA_ATTRIBUTE_2ND */;
-

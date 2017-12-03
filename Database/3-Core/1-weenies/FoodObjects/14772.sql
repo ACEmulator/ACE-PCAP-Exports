@@ -40,21 +40,6 @@ VALUES (14772, 0, 83892151, 83888861);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14772, 0, 16783329);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14772, 14, 'This item is used in cooking.') /* USE_STRING */
-     , (14772, 15, 'Chewy Peppermint Candy made with Monougat.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14772, 19, 36) /* VALUE_INT */
-     , (14772, 5, 450) /* ENCUMB_VAL_INT */
-     , (14772, 89, 4) /* BOOSTER_ENUM_INT */
-     , (14772, 90, 20) /* BOOST_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14772, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

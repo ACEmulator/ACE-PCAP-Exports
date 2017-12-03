@@ -32,18 +32,3 @@ VALUES (8513, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8513, 19, True) /* ATTACKABLE_BOOL */
      , (8513, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8513, 16, 'A stout, well-locked door. The metal has been finely inscribed with a motif of ocean waves. If the light does not hit the inscription properly, you can''t even see it.') /* LONG_DESC_STRING */
-     , (8513, 14, 'Use this item to open it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8513, 19, 0) /* VALUE_INT */
-     , (8513, 38, 500) /* RESIST_LOCKPICK_INT */
-     , (8513, 173, 2) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8513, 2, 0) /* OPEN_BOOL */
-     , (8513, 3, 1) /* LOCKED_BOOL */;
-

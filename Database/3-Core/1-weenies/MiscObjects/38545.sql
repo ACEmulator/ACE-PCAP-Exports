@@ -34,22 +34,6 @@ VALUES (38545, 13, True) /* ETHEREAL_BOOL */
      , (38545, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38545, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38545, 16, 'An armor writ, which can be given to one of the Society Armorsmiths for access to the Society Armor Chests.  One of these writs may be exchanged for access once per day.') /* LONG_DESC_STRING */
-     , (38545, 14, 'This writ may be traded for a key to one of the Society Armor Chests.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38545, 33, 1) /* BONDED_INT */
-     , (38545, 114, 1) /* ATTUNED_INT */
-     , (38545, 19, 25) /* VALUE_INT */
-     , (38545, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38545, 99, 0) /* IVORYABLE_BOOL */
-     , (38545, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

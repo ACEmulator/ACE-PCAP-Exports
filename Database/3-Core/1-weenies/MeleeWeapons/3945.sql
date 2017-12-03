@@ -46,12 +46,3 @@ VALUES (3945, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3945, 0, 16777987);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3945, 16, 'Killed by Darth Kronos.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3945, 19, 0) /* VALUE_INT */
-     , (3945, 5, 6829) /* ENCUMB_VAL_INT */;
-

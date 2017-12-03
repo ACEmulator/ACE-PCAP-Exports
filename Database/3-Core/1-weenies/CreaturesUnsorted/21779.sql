@@ -98,9 +98,3 @@ VALUES (21779, 0, 16782756)
      , (21779, 5, 16782755)
      , (21779, 6, 16782759);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21779, 19, 7470) /* VALUE_INT */
-     , (21779, 5, 0) /* ENCUMB_VAL_INT */;
-

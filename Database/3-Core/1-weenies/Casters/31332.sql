@@ -35,27 +35,3 @@ VALUES (31332, 13, True) /* ETHEREAL_BOOL */
      , (31332, 19, True) /* ATTACKABLE_BOOL */
      , (31332, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31332, 176, 18) /* APPRAISAL_ITEM_SKILL_INT */
-     , (31332, 33, 0) /* BONDED_INT */
-     , (31332, 114, 0) /* ATTUNED_INT */
-     , (31332, 115, 400) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (31332, 19, 12357) /* VALUE_INT */
-     , (31332, 5, 10) /* ENCUMB_VAL_INT */
-     , (31332, 106, 350) /* ITEM_SPELLCRAFT_INT */
-     , (31332, 108, 12000) /* ITEM_MAX_MANA_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31332, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (31332, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (31332, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31332, 69, 1) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31332, 2251) /* ItemExpertiseSelf7_SpellID */
-     , (31332, 2517) /* CANTRIPITEMEXPERTISE2_SpellID */;
-

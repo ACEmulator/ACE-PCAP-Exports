@@ -36,21 +36,3 @@ VALUES (41513, 13, True) /* ETHEREAL_BOOL */
      , (41513, 19, True) /* ATTACKABLE_BOOL */
      , (41513, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41513, 16, 'A gearwork compass, may it guide your way.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41513, 19, 50) /* VALUE_INT */
-     , (41513, 5, 60) /* ENCUMB_VAL_INT */
-     , (41513, 106, 50) /* ITEM_SPELLCRAFT_INT */
-     , (41513, 108, 6000) /* ITEM_MAX_MANA_INT */
-     , (41513, 109, 15) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (41513, 5, -0.049) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (41513, 5154) /* TrinketXPBoost2_SpellID */;
-

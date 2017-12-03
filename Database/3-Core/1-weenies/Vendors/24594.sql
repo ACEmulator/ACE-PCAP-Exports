@@ -40,29 +40,6 @@ VALUES (24594, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24594, 67113367, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24594, 5, 'Elder Shaman') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24594, 2, 57) /* CREATURE_TYPE_INT */
-     , (24594, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24594, 25, 111) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (24594, 1, 130) /* STRENGTH_ATTRIBUTE */
-     , (24594, 2, 113) /* ENDURANCE_ATTRIBUTE */
-     , (24594, 4, 125) /* COORDINATION_ATTRIBUTE */
-     , (24594, 8, 92) /* QUICKNESS_ATTRIBUTE */
-     , (24594, 16, 245) /* FOCUS_ATTRIBUTE */
-     , (24594, 32, 261) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24594, 64, 157) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24594, 128, 213) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24594, 256, 461) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

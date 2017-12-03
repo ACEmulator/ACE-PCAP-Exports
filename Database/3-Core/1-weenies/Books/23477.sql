@@ -35,17 +35,6 @@ VALUES (23477, 13, True) /* ETHEREAL_BOOL */
      , (23477, 14, True) /* GRAVITY_STATUS_BOOL */
      , (23477, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23477, 15, 'Instructions on fishing.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23477, 19, 10) /* VALUE_INT */
-     , (23477, 5, 25) /* ENCUMB_VAL_INT */
-     , (23477, 174, 5) /* APPRAISAL_PAGES_INT */
-     , (23477, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

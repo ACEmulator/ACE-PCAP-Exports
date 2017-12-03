@@ -86,36 +86,3 @@ VALUES (31643, 12, 16777304)
      , (31643, 13, 16783871)
      , (31643, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31643, 5, 'Plate Armoredillo Punisher') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31643, 16, 67110062) /* EYES_PALETTE_DID */
-     , (31643, 9, 83890480) /* EYES_TEXTURE_DID */
-     , (31643, 17, 67109553) /* SKIN_PALETTE_DID */
-     , (31643, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (31643, 11, 83890601) /* MOUTH_TEXTURE_DID */
-     , (31643, 15, 67117000) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31643, 113, 1) /* GENDER_INT */
-     , (31643, 2, 31) /* CREATURE_TYPE_INT */
-     , (31643, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31643, 25, 63) /* LEVEL_INT */
-     , (31643, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (31643, 1, 60) /* STRENGTH_ATTRIBUTE */
-     , (31643, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (31643, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (31643, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (31643, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (31643, 32, 130) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31643, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (31643, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (31643, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
-

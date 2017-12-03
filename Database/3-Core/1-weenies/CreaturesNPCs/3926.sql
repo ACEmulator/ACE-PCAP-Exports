@@ -83,36 +83,3 @@ VALUES (3926, 2, 16777293)
      , (3926, 4, 16777291)
      , (3926, 8, 16777298);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3926, 5, 'Trophy Crafter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (3926, 16, 67109567) /* EYES_PALETTE_DID */
-     , (3926, 9, 83890454) /* EYES_TEXTURE_DID */
-     , (3926, 17, 67109550) /* SKIN_PALETTE_DID */
-     , (3926, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (3926, 11, 83890653) /* MOUTH_TEXTURE_DID */
-     , (3926, 15, 67117026) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3926, 113, 1) /* GENDER_INT */
-     , (3926, 2, 31) /* CREATURE_TYPE_INT */
-     , (3926, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (3926, 25, 8) /* LEVEL_INT */
-     , (3926, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (3926, 1, 80) /* STRENGTH_ATTRIBUTE */
-     , (3926, 2, 80) /* ENDURANCE_ATTRIBUTE */
-     , (3926, 4, 75) /* COORDINATION_ATTRIBUTE */
-     , (3926, 8, 75) /* QUICKNESS_ATTRIBUTE */
-     , (3926, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (3926, 32, 60) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3926, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (3926, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (3926, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
-

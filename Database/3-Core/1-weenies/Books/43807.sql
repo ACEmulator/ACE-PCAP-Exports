@@ -34,22 +34,6 @@ VALUES (43807, 13, True) /* ETHEREAL_BOOL */
      , (43807, 19, True) /* ATTACKABLE_BOOL */
      , (43807, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43807, 16, 'A translation of the report written by Lord Kastellar to Battle Lord Gregor, detailing his progress on the creation of the Bloodstones.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43807, 33, 1) /* BONDED_INT */
-     , (43807, 114, 1) /* ATTUNED_INT */
-     , (43807, 19, 0) /* VALUE_INT */
-     , (43807, 5, 100) /* ENCUMB_VAL_INT */
-     , (43807, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (43807, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43807, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

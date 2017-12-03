@@ -50,20 +50,6 @@ VALUES (21049, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21049, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21049, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Crippling Blow. Crippling Blow increases the amount of damage that the item does when it critically hits its opponent. The amount of extra damage depends on the attack skill of the wielder.') /* USE_STRING */
-     , (21049, 15, 'Chips of fire opal material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21049, 33, 1) /* BONDED_INT */
-     , (21049, 131, 22) /* MATERIAL_TYPE_INT */
-     , (21049, 19, 34145) /* VALUE_INT */
-     , (21049, 5, 100) /* ENCUMB_VAL_INT */
-     , (21049, 105, 104) /* ITEM_WORKMANSHIP_INT */
-     , (21049, 170, 15) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

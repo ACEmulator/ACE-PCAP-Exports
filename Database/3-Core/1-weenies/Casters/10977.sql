@@ -37,25 +37,3 @@ VALUES (10977, 13, True) /* ETHEREAL_BOOL */
      , (10977, 19, True) /* ATTACKABLE_BOOL */
      , (10977, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10977, 16, 'A reddish, veined lump, pulled from the chest cavity of a Hea Tumerok hunting reedshark named Sahkurea.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10977, 176, 31) /* APPRAISAL_ITEM_SKILL_INT */
-     , (10977, 115, 225) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (10977, 19, 11450) /* VALUE_INT */
-     , (10977, 5, 50) /* ENCUMB_VAL_INT */
-     , (10977, 106, 270) /* ITEM_SPELLCRAFT_INT */
-     , (10977, 108, 600) /* ITEM_MAX_MANA_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (10977, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
-     , (10977, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (10977, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (10977, 2419) /* PanicAttack_SpellID */
-     , (10977, 2451) /* HuntersAcumen_SpellID */;
-

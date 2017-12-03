@@ -109,12 +109,3 @@ VALUES (32791, 5, 16788087)
      , (32791, 8, 16788089)
      , (32791, 16, 16792966);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32791, 16, 'Killed by Mag-five.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32791, 19, 0) /* VALUE_INT */
-     , (32791, 5, 6105) /* ENCUMB_VAL_INT */;
-

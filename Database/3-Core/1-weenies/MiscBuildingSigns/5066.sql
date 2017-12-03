@@ -29,12 +29,3 @@ VALUES (5066, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5066, 19, True) /* ATTACKABLE_BOOL */
      , (5066, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5066, 16, 'Welcome to the North Al-Arqas Outpost') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5066, 19, 125) /* VALUE_INT */
-     , (5066, 5, 9000) /* ENCUMB_VAL_INT */;
-

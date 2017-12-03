@@ -44,14 +44,3 @@ VALUES (43417, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43417, 0, 16777963);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43417, 16, 'This sword seems well worn and is covered with slime from the sewers. You notice an engraving on the hilt that looks like it says "Samuel".') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43417, 33, 1) /* BONDED_INT */
-     , (43417, 114, 1) /* ATTUNED_INT */
-     , (43417, 19, 500) /* VALUE_INT */
-     , (43417, 5, 500) /* ENCUMB_VAL_INT */;
-

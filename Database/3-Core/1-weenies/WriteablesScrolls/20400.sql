@@ -35,17 +35,3 @@ VALUES (20400, 13, True) /* ETHEREAL_BOOL */
      , (20400, 19, True) /* ATTACKABLE_BOOL */
      , (20400, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20400, 16, 'Inscribed spell: Purge Life Magic Self
-Dispels 3-6 negative Life Magic enchantments of level 5 or lower from the caster.') /* LONG_DESC_STRING */
-     , (20400, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20400, 19, 200) /* VALUE_INT */
-     , (20400, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20400, 1984) /* DispelLifeBadSelf5_SpellID */;
-

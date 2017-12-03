@@ -35,17 +35,3 @@ VALUES (2904, 13, True) /* ETHEREAL_BOOL */
      , (2904, 19, True) /* ATTACKABLE_BOOL */
      , (2904, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2904, 16, 'Inscribed spell: Summon Primary Portal I
-Summons a portal that goes to the destination of the caster''s linked portal, set with Primary Portal Tie.') /* LONG_DESC_STRING */
-     , (2904, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2904, 19, 100) /* VALUE_INT */
-     , (2904, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2904, 157) /* SummonPortal1_SpellID */;
-

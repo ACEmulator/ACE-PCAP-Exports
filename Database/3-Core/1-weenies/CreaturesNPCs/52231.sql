@@ -91,13 +91,3 @@ VALUES (52231, 0, 16795526)
      , (52231, 15, 16795541)
      , (52231, 16, 16795542);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52231, 2, 101) /* CREATURE_TYPE_INT */
-     , (52231, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (52231, 25, 250) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (52231, 64, 8308) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

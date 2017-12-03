@@ -180,12 +180,3 @@ VALUES (9171, 0, 16778165)
      , (9171, 15, 16778174)
      , (9171, 16, 16778172);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9171, 16, 'A lil'' tiny Mosswart! Watch him dance to his own beat.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9171, 19, 10) /* VALUE_INT */
-     , (9171, 5, 10) /* ENCUMB_VAL_INT */;
-

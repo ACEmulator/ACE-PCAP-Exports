@@ -32,20 +32,3 @@ VALUES (36052, 13, True) /* ETHEREAL_BOOL */
      , (36052, 19, True) /* ATTACKABLE_BOOL */
      , (36052, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36052, 16, 'In the heart of this gem, you perceive the image of Aaminah of Ayan Baqur.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36052, 33, 1) /* BONDED_INT */
-     , (36052, 98, 1485661517) /* CREATION_TIMESTAMP_INT */
-     , (36052, 114, 1) /* ATTUNED_INT */
-     , (36052, 19, 0) /* VALUE_INT */
-     , (36052, 5, 1) /* ENCUMB_VAL_INT */
-     , (36052, 267, 600) /* LIFESPAN_INT */
-     , (36052, 268, 542) /* REMAINING_LIFESPAN_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36052, 69, 0) /* IS_SELLABLE_BOOL */;
-

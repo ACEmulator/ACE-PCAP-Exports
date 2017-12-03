@@ -35,17 +35,3 @@ VALUES (20621, 13, True) /* ETHEREAL_BOOL */
      , (20621, 19, True) /* ATTACKABLE_BOOL */
      , (20621, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20621, 16, 'Inscribed spell: Secondary Portal Recall
-Transports the caster to the destination of the portal last successfully linked to with Secondary Portal Tie.') /* LONG_DESC_STRING */
-     , (20621, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20621, 19, 20) /* VALUE_INT */
-     , (20621, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20621, 2647) /* PortalTieRecall2_SpellID */;
-

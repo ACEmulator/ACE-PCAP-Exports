@@ -35,17 +35,3 @@ VALUES (2714, 13, True) /* ETHEREAL_BOOL */
      , (2714, 19, True) /* ATTACKABLE_BOOL */
      , (2714, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2714, 16, 'Inscribed spell: Quickness Other IV
-Increases the target''s Quickness by 25 points.') /* LONG_DESC_STRING */
-     , (2714, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2714, 19, 100) /* VALUE_INT */
-     , (2714, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2714, 1406) /* QuicknessOther4_SpellID */;
-

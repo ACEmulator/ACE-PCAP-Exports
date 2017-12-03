@@ -33,17 +33,6 @@ VALUES (31346, 13, True) /* ETHEREAL_BOOL */
      , (31346, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31346, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31346, 16, 'The insignia badge from a high ranking Tukora Commander. This Lugian must have been held in high regard to carry a trinket such as this.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31346, 33, 1) /* BONDED_INT */
-     , (31346, 114, 1) /* ATTUNED_INT */
-     , (31346, 19, 70000) /* VALUE_INT */
-     , (31346, 5, 700) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

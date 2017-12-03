@@ -35,17 +35,3 @@ VALUES (2991, 13, True) /* ETHEREAL_BOOL */
      , (2991, 19, True) /* ATTACKABLE_BOOL */
      , (2991, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2991, 16, 'Inscribed spell: Blade Protection Other V
-Reduces damage the target takes from Slashing by 50%.') /* LONG_DESC_STRING */
-     , (2991, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2991, 19, 200) /* VALUE_INT */
-     , (2991, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2991, 1119) /* BladeProtectionOther5_SpellID */;
-

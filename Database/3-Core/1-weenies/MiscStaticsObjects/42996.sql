@@ -29,12 +29,3 @@ VALUES (42996, 13, True) /* ETHEREAL_BOOL */
      , (42996, 19, True) /* ATTACKABLE_BOOL */
      , (42996, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42996, 16, 'The Fiun Outpost is the last flicker of the Fiun society in the universe. They were once a powerful race of magic users who ruled over their home world. They thought themselves to be the masters of all, and attempted to create life. What they created instead was the Eater. This beast destroyed their world, and only a lucky few escaped when they were called by a mysterious portal that brought them to the Halaetan Isles. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42996, 19, 125) /* VALUE_INT */
-     , (42996, 5, 9000) /* ENCUMB_VAL_INT */;
-

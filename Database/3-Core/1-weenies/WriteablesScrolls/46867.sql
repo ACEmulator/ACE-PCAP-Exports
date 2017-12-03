@@ -35,17 +35,3 @@ VALUES (46867, 13, True) /* ETHEREAL_BOOL */
      , (46867, 19, True) /* ATTACKABLE_BOOL */
      , (46867, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46867, 16, 'Inscribed spell: Aura of Blood Drinker Other IV
-Increases a weapon''s damage value by 12 points.') /* LONG_DESC_STRING */
-     , (46867, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46867, 19, 100) /* VALUE_INT */
-     , (46867, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (46867, 5993) /* blooddrinkerOther4_SpellID */;
-

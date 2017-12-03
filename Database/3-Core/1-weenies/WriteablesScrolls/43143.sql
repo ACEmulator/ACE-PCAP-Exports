@@ -35,19 +35,3 @@ VALUES (43143, 13, True) /* ETHEREAL_BOOL */
      , (43143, 19, True) /* ATTACKABLE_BOOL */
      , (43143, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43143, 16, 'Inscribed spell: Gear Knight Invasion Area Camp Recall
-Sends the caster to the Gear Knight Invasion Area Camp.') /* LONG_DESC_STRING */
-     , (43143, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43143, 33, 1) /* BONDED_INT */
-     , (43143, 114, 1) /* ATTUNED_INT */
-     , (43143, 19, 5) /* VALUE_INT */
-     , (43143, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (43143, 5330) /* RecallGearKnightInvasionHigh_SpellID */;
-

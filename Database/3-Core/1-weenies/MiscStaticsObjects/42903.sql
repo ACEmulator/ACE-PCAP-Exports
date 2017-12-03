@@ -29,12 +29,3 @@ VALUES (42903, 13, True) /* ETHEREAL_BOOL */
      , (42903, 19, True) /* ATTACKABLE_BOOL */
      , (42903, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42903, 16, 'The margul are a creature not native to any land. These vicious creatures were created from the blood of Bael''zharon by the sorceror Ler Rhan. They were created to become the children of Bael''zharon and to share in his image. The evil of Bael''zharon can instantly be seen by any adventurer unfortunate enough to find himself staring into the eyes of these beasts.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42903, 19, 125) /* VALUE_INT */
-     , (42903, 5, 9000) /* ENCUMB_VAL_INT */;
-

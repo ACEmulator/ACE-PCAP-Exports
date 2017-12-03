@@ -32,13 +32,3 @@ VALUES (30381, 13, True) /* ETHEREAL_BOOL */
      , (30381, 19, True) /* ATTACKABLE_BOOL */
      , (30381, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30381, 16, 'This portal is tied to the Fiun Outpost. This outpost is a good place for characters above level 60.') /* LONG_DESC_STRING */
-     , (30381, 38, 'Fiun Outpost (95.9N, 56.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30381, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (30381, 111, 1) /* PORTAL_BITMASK_INT */;
-

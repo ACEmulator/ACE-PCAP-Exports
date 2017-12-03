@@ -35,18 +35,3 @@ VALUES (28770, 13, True) /* ETHEREAL_BOOL */
      , (28770, 19, True) /* ATTACKABLE_BOOL */
      , (28770, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28770, 16, 'A key of Empyrean-make. Its teeth exhibit an unusual pattern.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28770, 33, 1) /* BONDED_INT */
-     , (28770, 114, 1) /* ATTUNED_INT */
-     , (28770, 19, 0) /* VALUE_INT */
-     , (28770, 5, 50) /* ENCUMB_VAL_INT */
-     , (28770, 91, 3) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (28770, 99, 1) /* IVORYABLE_BOOL */;
-

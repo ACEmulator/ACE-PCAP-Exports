@@ -34,17 +34,6 @@ VALUES (34347, 13, True) /* ETHEREAL_BOOL */
      , (34347, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34347, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34347, 16, 'A page of notes regarding the creation of a proper setting for portal summoning.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34347, 19, 5000) /* VALUE_INT */
-     , (34347, 5, 15) /* ENCUMB_VAL_INT */
-     , (34347, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (34347, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

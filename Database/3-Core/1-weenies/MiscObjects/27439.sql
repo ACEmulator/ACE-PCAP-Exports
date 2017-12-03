@@ -32,13 +32,3 @@ VALUES (27439, 13, True) /* ETHEREAL_BOOL */
      , (27439, 19, True) /* ATTACKABLE_BOOL */
      , (27439, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27439, 16, 'A coffin in very good condition. Whomever owned it before you took good care of it.') /* LONG_DESC_STRING */
-     , (27439, 14, 'Use this item on floor and yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27439, 19, 200) /* VALUE_INT */
-     , (27439, 5, 1000) /* ENCUMB_VAL_INT */;
-

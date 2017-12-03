@@ -33,12 +33,3 @@ VALUES (23076, 13, True) /* ETHEREAL_BOOL */
      , (23076, 19, True) /* ATTACKABLE_BOOL */
      , (23076, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23076, 38, 'Dark Tree Crystal Mine') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23076, 86, 100) /* MIN_LEVEL_INT */
-     , (23076, 111, 49) /* PORTAL_BITMASK_INT */;
-

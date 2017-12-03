@@ -35,17 +35,3 @@ VALUES (20531, 13, True) /* ETHEREAL_BOOL */
      , (20531, 19, True) /* ATTACKABLE_BOOL */
      , (20531, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20531, 16, 'Inscribed spell: Lilitha''s Blessing
-Increases the caster''s Fletching skill by 40 points.') /* LONG_DESC_STRING */
-     , (20531, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20531, 19, 2000) /* VALUE_INT */
-     , (20531, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20531, 2237) /* FletchingMasterySelf7_SpellID */;
-

@@ -44,34 +44,3 @@ VALUES (30704, 0, 83886788, 83895736);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30704, 0, 16778411);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30704, 160, 40) /* WIELD_DIFFICULTY_INT */
-     , (30704, 19, 1500) /* VALUE_INT */
-     , (30704, 5, 100) /* ENCUMB_VAL_INT */
-     , (30704, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (30704, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (30704, 28, 210) /* ARMOR_LEVEL_INT */
-     , (30704, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (30704, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (30704, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30704, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (30704, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (30704, 14, 1.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (30704, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (30704, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (30704, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (30704, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (30704, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (30704, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30704, 1424) /* FocusSelf4_SpellID */
-     , (30704, 209) /* ManaRenewalOther4_SpellID */
-     , (30704, 2581) /* CANTRIPFOCUS1_SpellID */
-     , (30704, 1448) /* WillpowerSelf4_SpellID */
-     , (30704, 1136) /* PiercingProtectionSelf4_SpellID */;
-

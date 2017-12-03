@@ -35,17 +35,3 @@ VALUES (2890, 13, True) /* ETHEREAL_BOOL */
      , (2890, 19, True) /* ATTACKABLE_BOOL */
      , (2890, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2890, 16, 'Inscribed spell: Drain Health Other II
-Drains 25% of the target''s Health and gives 160% of it to the caster.') /* LONG_DESC_STRING */
-     , (2890, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2890, 19, 5) /* VALUE_INT */
-     , (2890, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2890, 1238) /* DrainHealth2_SpellID */;
-

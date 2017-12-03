@@ -35,17 +35,3 @@ VALUES (20594, 13, True) /* ETHEREAL_BOOL */
      , (20594, 19, True) /* ATTACKABLE_BOOL */
      , (20594, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20594, 16, 'Inscribed spell: Wrath of the Hieromancer
-Decreases the target''s War Magic skill by 40 points.') /* LONG_DESC_STRING */
-     , (20594, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20594, 19, 2000) /* VALUE_INT */
-     , (20594, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20594, 2320) /* WarMagicIneptitudeOther7_SpellID */;
-

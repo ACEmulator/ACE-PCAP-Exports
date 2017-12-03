@@ -39,17 +39,3 @@ VALUES (34195, 13, True) /* ETHEREAL_BOOL */
      , (34195, 19, True) /* ATTACKABLE_BOOL */
      , (34195, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34195, 16, 'A bright sparkler meant to help commemorate Festival season and the anniversary of Asheron''s Call.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34195, 19, 10) /* VALUE_INT */
-     , (34195, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (34195, 152, 1.07) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (34195, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (34195, 29, 1.24) /* WEAPON_DEFENSE_FLOAT */;
-

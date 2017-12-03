@@ -35,17 +35,3 @@ VALUES (3731, 13, True) /* ETHEREAL_BOOL */
      , (3731, 19, True) /* ATTACKABLE_BOOL */
      , (3731, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3731, 16, 'Inscribed spell: Infuse Health Other II
-Drains one-quarter of the caster''s Health and gives 90% of that to the target.') /* LONG_DESC_STRING */
-     , (3731, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3731, 19, 5) /* VALUE_INT */
-     , (3731, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3731, 1226) /* InfuseHealth2_SpellID */;
-

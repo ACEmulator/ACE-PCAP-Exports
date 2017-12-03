@@ -35,17 +35,3 @@ VALUES (1564, 13, True) /* ETHEREAL_BOOL */
      , (1564, 19, True) /* ATTACKABLE_BOOL */
      , (1564, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1564, 16, 'Inscribed spell: Portal Recall
-Transports the caster to the destination of the last recallable portal the caster traveled through.') /* LONG_DESC_STRING */
-     , (1564, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1564, 19, 20) /* VALUE_INT */
-     , (1564, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1564, 2645) /* PortalRecall_SpellID */;
-

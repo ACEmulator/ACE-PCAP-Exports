@@ -42,27 +42,3 @@ VALUES (9026, 0, 83888778, 83888944)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9026, 0, 16777918);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9026, 16, 'An object covered with centuries of accumulated filth. While it is shaped vaguely like a dagger and may be used as such, it doesn''t look like that was its original use.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9026, 353, 6) /* WEAPON_TYPE_INT */
-     , (9026, 19, 350) /* VALUE_INT */
-     , (9026, 36, 9999) /* RESIST_MAGIC_INT */
-     , (9026, 5, 50) /* ENCUMB_VAL_INT */
-     , (9026, 47, 6) /* ATTACK_TYPE_INT */
-     , (9026, 45, 4) /* DAMAGE_TYPE_INT */
-     , (9026, 49, 20) /* WEAPON_TIME_INT */
-     , (9026, 48, 46) /* WEAPON_SKILL_INT */
-     , (9026, 44, 1) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (9026, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (9026, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (9026, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (9026, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (9026, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (9026, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

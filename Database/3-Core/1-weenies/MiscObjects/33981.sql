@@ -35,18 +35,3 @@ VALUES (33981, 13, True) /* ETHEREAL_BOOL */
      , (33981, 19, True) /* ATTACKABLE_BOOL */
      , (33981, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33981, 16, 'A small igloo that an equally small pet penguin lives in.') /* LONG_DESC_STRING */
-     , (33981, 14, 'Use this igloo to summon or dismiss your Pet Penguin.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33981, 33, 1) /* BONDED_INT */
-     , (33981, 114, 1) /* ATTUNED_INT */
-     , (33981, 19, 10) /* VALUE_INT */
-     , (33981, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (33981, 69, 1) /* IS_SELLABLE_BOOL */;
-

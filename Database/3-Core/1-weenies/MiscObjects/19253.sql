@@ -32,13 +32,3 @@ VALUES (19253, 13, True) /* ETHEREAL_BOOL */
      , (19253, 19, True) /* ATTACKABLE_BOOL */
      , (19253, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19253, 15, 'A bronze spring taken from the ruins of a living Bronze Statue of a Sclavus. The Arcanum Tinker or the Arcanum Researcher might find this item of great interest.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19253, 114, 1) /* ATTUNED_INT */
-     , (19253, 19, 0) /* VALUE_INT */
-     , (19253, 5, 40) /* ENCUMB_VAL_INT */;
-

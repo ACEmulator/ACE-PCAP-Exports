@@ -38,34 +38,3 @@ VALUES (40111, 13, True) /* ETHEREAL_BOOL */
      , (40111, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (40111, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40111, 14, 'A crystal marking a special location.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40111, 384, 0) /*  */
-     , (40111, 370, 0) /* GEAR_DAMAGE_INT */
-     , (40111, 386, 0) /*  */
-     , (40111, 307, 0) /* DAMAGE_RATING_INT */
-     , (40111, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (40111, 387, 0) /*  */
-     , (40111, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (40111, 372, 0) /* GEAR_CRIT_INT */
-     , (40111, 388, 0) /*  */
-     , (40111, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (40111, 389, 0) /*  */
-     , (40111, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (40111, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (40111, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (40111, 313, 0) /* CRIT_RATING_INT */
-     , (40111, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (40111, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (40111, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (40111, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (40111, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (40111, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (40111, 381, 0) /*  */
-     , (40111, 382, 0) /*  */
-     , (40111, 383, 0) /*  */;
-

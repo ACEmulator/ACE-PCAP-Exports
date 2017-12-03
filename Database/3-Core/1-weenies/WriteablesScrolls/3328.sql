@@ -35,17 +35,3 @@ VALUES (3328, 13, True) /* ETHEREAL_BOOL */
      , (3328, 19, True) /* ATTACKABLE_BOOL */
      , (3328, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3328, 16, 'Inscribed spell: Item Tinkering Ignorance Other II
-Decreases the target''s Item Tinkering skill by 15 points.') /* LONG_DESC_STRING */
-     , (3328, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3328, 19, 5) /* VALUE_INT */
-     , (3328, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3328, 745) /* ItemIgnoranceOther2_SpellID */;
-

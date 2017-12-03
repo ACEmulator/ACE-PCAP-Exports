@@ -32,18 +32,6 @@ VALUES (37290, 13, True) /* ETHEREAL_BOOL */
      , (37290, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37290, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37290, 16, 'An amusing token with a Jester''s Head on it.') /* LONG_DESC_STRING */
-     , (37290, 14, 'Use this at the Gambling Casino''s to get an opportunity to gamble one Card for another.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37290, 33, 1) /* BONDED_INT */
-     , (37290, 114, 1) /* ATTUNED_INT */
-     , (37290, 19, 0) /* VALUE_INT */
-     , (37290, 5, 430) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

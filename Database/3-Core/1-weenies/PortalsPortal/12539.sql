@@ -33,11 +33,3 @@ VALUES (12539, 13, True) /* ETHEREAL_BOOL */
      , (12539, 19, True) /* ATTACKABLE_BOOL */
      , (12539, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12539, 38, 'Prosper River Headwaters Portal (56.7N, 20.2E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12539, 111, 1) /* PORTAL_BITMASK_INT */;
-

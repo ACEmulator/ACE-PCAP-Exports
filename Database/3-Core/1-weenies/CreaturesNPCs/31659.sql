@@ -86,36 +86,3 @@ VALUES (31659, 12, 16778423)
      , (31659, 13, 16783871)
      , (31659, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31659, 5, 'Deathcap Defeater') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31659, 16, 67109565) /* EYES_PALETTE_DID */
-     , (31659, 9, 83890263) /* EYES_TEXTURE_DID */
-     , (31659, 17, 67110045) /* SKIN_PALETTE_DID */
-     , (31659, 10, 83890311) /* NOSE_TEXTURE_DID */
-     , (31659, 11, 83890328) /* MOUTH_TEXTURE_DID */
-     , (31659, 15, 67117018) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31659, 113, 2) /* GENDER_INT */
-     , (31659, 2, 31) /* CREATURE_TYPE_INT */
-     , (31659, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31659, 25, 33) /* LEVEL_INT */
-     , (31659, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (31659, 1, 60) /* STRENGTH_ATTRIBUTE */
-     , (31659, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (31659, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (31659, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (31659, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (31659, 32, 130) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31659, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (31659, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (31659, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
-

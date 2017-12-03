@@ -42,26 +42,3 @@ VALUES (28828, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28828, 0, 16778506);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28828, 16, 'A beautiful medallion given to you by Grand Mother of Silyun for avenging the death of her grandson.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28828, 33, 1) /* BONDED_INT */
-     , (28828, 114, 1) /* ATTUNED_INT */
-     , (28828, 19, 0) /* VALUE_INT */
-     , (28828, 5, 45) /* ENCUMB_VAL_INT */
-     , (28828, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (28828, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (28828, 108, 700) /* ITEM_MAX_MANA_INT */
-     , (28828, 109, 150) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (28828, 5, -0.049) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (28828, 1353) /* EnduranceSelf5_SpellID */
-     , (28828, 1311) /* ArmorSelf5_SpellID */
-     , (28828, 1377) /* CoordinationSelf5_SpellID */;
-

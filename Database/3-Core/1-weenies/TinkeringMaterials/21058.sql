@@ -50,20 +50,6 @@ VALUES (21058, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21058, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21058, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Minor Mana Gain. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.') /* USE_STRING */
-     , (21058, 15, 'Chips of lavender jade material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21058, 33, 1) /* BONDED_INT */
-     , (21058, 131, 29) /* MATERIAL_TYPE_INT */
-     , (21058, 19, 3584) /* VALUE_INT */
-     , (21058, 5, 100) /* ENCUMB_VAL_INT */
-     , (21058, 105, 32) /* ITEM_WORKMANSHIP_INT */
-     , (21058, 170, 6) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

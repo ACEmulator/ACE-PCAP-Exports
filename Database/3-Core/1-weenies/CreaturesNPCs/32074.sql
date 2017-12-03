@@ -107,36 +107,3 @@ VALUES (32074, 16, 16795638)
      , (32074, 4, 16777291)
      , (32074, 8, 16777298);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32074, 5, 'Royal Scout') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32074, 16, 67110065) /* EYES_PALETTE_DID */
-     , (32074, 9, 83890466) /* EYES_TEXTURE_DID */
-     , (32074, 17, 67115906) /* SKIN_PALETTE_DID */
-     , (32074, 10, 83890550) /* NOSE_TEXTURE_DID */
-     , (32074, 11, 83890667) /* MOUTH_TEXTURE_DID */
-     , (32074, 15, 67117104) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32074, 113, 1) /* GENDER_INT */
-     , (32074, 2, 31) /* CREATURE_TYPE_INT */
-     , (32074, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (32074, 25, 78) /* LEVEL_INT */
-     , (32074, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (32074, 1, 60) /* STRENGTH_ATTRIBUTE */
-     , (32074, 2, 102) /* ENDURANCE_ATTRIBUTE */
-     , (32074, 4, 143) /* COORDINATION_ATTRIBUTE */
-     , (32074, 8, 156) /* QUICKNESS_ATTRIBUTE */
-     , (32074, 16, 43) /* FOCUS_ATTRIBUTE */
-     , (32074, 32, 50) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32074, 64, 61) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (32074, 128, 182) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (32074, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
-

@@ -35,17 +35,3 @@ VALUES (3743, 13, True) /* ETHEREAL_BOOL */
      , (3743, 19, True) /* ATTACKABLE_BOOL */
      , (3743, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3743, 16, 'Inscribed spell: Infuse Stamina Other IV
-Drains one-quarter of the caster''s Stamina and gives 120% of that to the target.') /* LONG_DESC_STRING */
-     , (3743, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3743, 19, 100) /* VALUE_INT */
-     , (3743, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3743, 1246) /* InfuseStamina4_SpellID */;
-

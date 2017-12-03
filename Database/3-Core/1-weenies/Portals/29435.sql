@@ -33,13 +33,3 @@ VALUES (29435, 13, True) /* ETHEREAL_BOOL */
      , (29435, 19, True) /* ATTACKABLE_BOOL */
      , (29435, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29435, 38, 'Gold Legion Keep') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29435, 86, 80) /* MIN_LEVEL_INT */
-     , (29435, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (29435, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -44,21 +44,6 @@ VALUES (27753, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27753, 0, 16778735);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27753, 16, 'An odorous bottle of brackish blue liquid.') /* LONG_DESC_STRING */
-     , (27753, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27753, 19, 0) /* VALUE_INT */
-     , (27753, 5, 120) /* ENCUMB_VAL_INT */
-     , (27753, 89, 6) /* BOOSTER_ENUM_INT */
-     , (27753, 90, 10) /* BOOST_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27753, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

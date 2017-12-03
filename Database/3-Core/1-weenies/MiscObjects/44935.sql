@@ -33,20 +33,3 @@ VALUES (44935, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44935, 67111924, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44935, 14, 'Use this gem to transfer up to 10 points of your Quickness into your Coordination. ') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44935, 33, 1) /* BONDED_INT */
-     , (44935, 98, 1485833092) /* CREATION_TIMESTAMP_INT */
-     , (44935, 114, 1) /* ATTUNED_INT */
-     , (44935, 19, 0) /* VALUE_INT */
-     , (44935, 5, 10) /* ENCUMB_VAL_INT */
-     , (44935, 267, 900) /* LIFESPAN_INT */
-     , (44935, 268, 900) /* REMAINING_LIFESPAN_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44935, 69, 0) /* IS_SELLABLE_BOOL */;
-

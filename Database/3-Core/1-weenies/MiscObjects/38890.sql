@@ -35,21 +35,6 @@ VALUES (38890, 13, True) /* ETHEREAL_BOOL */
      , (38890, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38890, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38890, 16, 'An ornate gold coin with obsidian etchings used by the Black Market for trade. The Black Market merchant warns you that once you give this coin to the Master of the Black Market, the weapon he gives you will only remain in the world for 24 hours.  ( BE WARNED: 1 - This duration will continue to count down, even if the character bearing the weapon is logged out.  2 - Have a free space in your main pack when you give this coin to the Master.)') /* LONG_DESC_STRING */
-     , (38890, 14, 'Give this coin the the Master of the Black Market to receive a Blighted Bow.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38890, 33, 1) /* BONDED_INT */
-     , (38890, 114, 1) /* ATTUNED_INT */
-     , (38890, 19, 200000) /* VALUE_INT */
-     , (38890, 5, 1) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38890, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

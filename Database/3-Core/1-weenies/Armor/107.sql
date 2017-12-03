@@ -47,39 +47,3 @@ VALUES (107, 0, 83889344, 83887054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (107, 0, 16778416);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (107, 16, 'Sollerets') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (107, 19, 14393) /* VALUE_INT */
-     , (107, 131, 58) /* MATERIAL_TYPE_INT */
-     , (107, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (107, 5, 452) /* ENCUMB_VAL_INT */
-     , (107, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (107, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (107, 28, 264) /* ARMOR_LEVEL_INT */
-     , (107, 108, 801) /* ITEM_MAX_MANA_INT */
-     , (107, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (107, 109, 258) /* ITEM_DIFFICULTY_INT */
-     , (107, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (107, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (107, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (107, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (107, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (107, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (107, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (107, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (107, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (107, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (107, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (107, 2562) /* CANTRIPPERSONATTUNEMENT1_SpellID */
-     , (107, 1486) /* Impenetrability6_SpellID */;
-

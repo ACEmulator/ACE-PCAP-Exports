@@ -52,29 +52,3 @@ VALUES (31761, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31761, 0, 16792612);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31761, 16, 'Lightning Dericost Blade') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31761, 353, 2) /* WEAPON_TYPE_INT */
-     , (31761, 19, 1803) /* VALUE_INT */
-     , (31761, 131, 59) /* MATERIAL_TYPE_INT */
-     , (31761, 5, 450) /* ENCUMB_VAL_INT */
-     , (31761, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (31761, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31761, 47, 6) /* ATTACK_TYPE_INT */
-     , (31761, 45, 64) /* DAMAGE_TYPE_INT */
-     , (31761, 49, 35) /* WEAPON_TIME_INT */
-     , (31761, 48, 45) /* WEAPON_SKILL_INT */
-     , (31761, 44, 18) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31761, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
-     , (31761, 22, 0.56) /* DAMAGE_VARIANCE_FLOAT */
-     , (31761, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (31761, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (31761, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (31761, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
-

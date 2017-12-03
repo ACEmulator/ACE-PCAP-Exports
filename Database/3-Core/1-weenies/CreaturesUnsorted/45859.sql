@@ -42,12 +42,3 @@ VALUES (45859, 9, 83890028, 83898250);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45859, 9, 16780702);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45859, 16, 'Killed by Jakka''s Wisp.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45859, 19, 0) /* VALUE_INT */
-     , (45859, 5, 8218) /* ENCUMB_VAL_INT */;
-

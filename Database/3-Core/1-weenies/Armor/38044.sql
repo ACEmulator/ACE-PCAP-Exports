@@ -50,38 +50,3 @@ VALUES (38044, 0, 83887061, 83889766)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38044, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38044, 16, 'An ancient Yoroi Cuirass retrieved from the Green Mire Grave, recently repaired and upgraded by Hiro Ishigame.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38044, 33, 1) /* BONDED_INT */
-     , (38044, 114, 1) /* ATTUNED_INT */
-     , (38044, 19, 2100) /* VALUE_INT */
-     , (38044, 5, 915) /* ENCUMB_VAL_INT */
-     , (38044, 106, 110) /* ITEM_SPELLCRAFT_INT */
-     , (38044, 108, 320) /* ITEM_MAX_MANA_INT */
-     , (38044, 28, 180) /* ARMOR_LEVEL_INT */
-     , (38044, 109, 45) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (38044, 5, -0.01) /* MANA_RATE_FLOAT */
-     , (38044, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (38044, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (38044, 15, 1.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (38044, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (38044, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (38044, 18, 2) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (38044, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (38044, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38044, 99, 1) /* IVORYABLE_BOOL */
-     , (38044, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (38044, 1483) /* Impenetrability3_SpellID */
-     , (38044, 1357) /* EnduranceOther3_SpellID */
-     , (38044, 511) /* AcidProtectionOther3_SpellID */;
-

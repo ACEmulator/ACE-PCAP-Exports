@@ -31,15 +31,3 @@ VALUES (35829, 13, True) /* ETHEREAL_BOOL */
      , (35829, 19, True) /* ATTACKABLE_BOOL */
      , (35829, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35829, 16, 'An odd token found in Lunnum''s chest.') /* LONG_DESC_STRING */
-     , (35829, 14, 'Turn this into Fiun Layeel to prove you have defeated Lunnum.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35829, 33, 1) /* BONDED_INT */
-     , (35829, 114, 1) /* ATTUNED_INT */
-     , (35829, 19, 0) /* VALUE_INT */
-     , (35829, 5, 10) /* ENCUMB_VAL_INT */;
-

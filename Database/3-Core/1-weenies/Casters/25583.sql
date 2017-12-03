@@ -50,27 +50,3 @@ VALUES (25583, 0, 83893314, 83893314)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25583, 0, 16789633);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25583, 16, 'The staff almost guides your hand towards your targets.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25583, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
-     , (25583, 115, 285) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (25583, 19, 14250) /* VALUE_INT */
-     , (25583, 5, 400) /* ENCUMB_VAL_INT */
-     , (25583, 106, 260) /* ITEM_SPELLCRAFT_INT */
-     , (25583, 108, 2000) /* ITEM_MAX_MANA_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25583, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
-     , (25583, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (25583, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (25583, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25583, 2627) /* CANTRIPMANAGAIN1_SpellID */
-     , (25583, 2569) /* CANTRIPWARMAGICAPTITUDE1_SpellID */
-     , (25583, 211) /* ManaRenewalOther6_SpellID */;
-

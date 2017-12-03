@@ -52,30 +52,3 @@ VALUES (149, 0, 83889126, 83889126);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (149, 0, 16778762);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (149, 16, 'Ewer') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (149, 353, 10) /* WEAPON_TYPE_INT */
-     , (149, 177, 2) /* GEM_COUNT_INT */
-     , (149, 178, 11) /* GEM_TYPE_INT */
-     , (149, 19, 482) /* VALUE_INT */
-     , (149, 131, 1) /* MATERIAL_TYPE_INT */
-     , (149, 5, 60) /* ENCUMB_VAL_INT */
-     , (149, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (149, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (149, 45, 4) /* DAMAGE_TYPE_INT */
-     , (149, 49, 10) /* WEAPON_TIME_INT */
-     , (149, 48, 47) /* WEAPON_SKILL_INT */
-     , (149, 44, 10) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (149, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (149, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (149, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (149, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (149, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (149, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

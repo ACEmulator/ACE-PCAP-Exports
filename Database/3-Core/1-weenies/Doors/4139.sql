@@ -32,14 +32,3 @@ VALUES (4139, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4139, 19, True) /* ATTACKABLE_BOOL */
      , (4139, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4139, 14, 'This door cannot be activated from here.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4139, 19, 0) /* VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (4139, 2, 0) /* OPEN_BOOL */;
-

@@ -81,26 +81,3 @@ VALUES (31509, 0, 16788885)
      , (31509, 12, 16788891)
      , (31509, 16, 16789125);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31509, 5, 'Hungry Golem') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31509, 2, 13) /* CREATURE_TYPE_INT */
-     , (31509, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31509, 25, 85) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (31509, 1, 380) /* STRENGTH_ATTRIBUTE */
-     , (31509, 2, 340) /* ENDURANCE_ATTRIBUTE */
-     , (31509, 4, 330) /* COORDINATION_ATTRIBUTE */
-     , (31509, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (31509, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (31509, 32, 285) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31509, 64, 370) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (31509, 128, 691) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (31509, 256, 385) /* MAX_MANA_ATTRIBUTE_2ND */;
-

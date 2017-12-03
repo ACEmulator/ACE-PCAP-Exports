@@ -33,12 +33,3 @@ VALUES (43065, 13, True) /* ETHEREAL_BOOL */
      , (43065, 19, True) /* ATTACKABLE_BOOL */
      , (43065, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43065, 16, 'This portal goes to the Town Network, a place which connects many of the towns of Dereth.') /* LONG_DESC_STRING */
-     , (43065, 38, 'Portal to Town Network') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43065, 111, 129) /* PORTAL_BITMASK_INT */;
-

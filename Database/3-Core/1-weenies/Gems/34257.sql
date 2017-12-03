@@ -40,27 +40,6 @@ VALUES (34257, 13, True) /* ETHEREAL_BOOL */
      , (34257, 19, True) /* ATTACKABLE_BOOL */
      , (34257, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34257, 16, 'This gem is eternal. You can use it as often as you like.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34257, 33, 1) /* BONDED_INT */
-     , (34257, 114, 1) /* ATTUNED_INT */
-     , (34257, 19, 0) /* VALUE_INT */
-     , (34257, 5, 0) /* ENCUMB_VAL_INT */
-     , (34257, 280, 2) /* SHARED_COOLDOWN_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (34257, 167, 30) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34257, 63, 1) /* UNLIMITED_USE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (34257, 4024) /* AsheronsLesserBenediction_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

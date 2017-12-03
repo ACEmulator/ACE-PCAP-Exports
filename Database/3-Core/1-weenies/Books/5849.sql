@@ -34,21 +34,6 @@ VALUES (5849, 13, True) /* ETHEREAL_BOOL */
      , (5849, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5849, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5849, 16, 'Written transcription of Dericostian runes discovered on Standing Stones near Stonehold, and Bandit and Neydisa Castles. The three inscriptions fit together perfectly, forming a single message. Unfortunately, you cannot translate it.') /* LONG_DESC_STRING */
-     , (5849, 14, 'This item cannot be read.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5849, 19, 20) /* VALUE_INT */
-     , (5849, 5, 25) /* ENCUMB_VAL_INT */
-     , (5849, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (5849, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5849, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

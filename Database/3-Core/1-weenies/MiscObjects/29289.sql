@@ -31,17 +31,3 @@ VALUES (29289, 13, True) /* ETHEREAL_BOOL */
      , (29289, 19, True) /* ATTACKABLE_BOOL */
      , (29289, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29289, 16, 'Using this gem will grant you 5 extra points to your innate Coordination attribute.  This augmentation will not increase your innate Coordination (your Coordination at character creation) beyond 100.  You can augment each of your attributes in this way, but only ten times in combination.  A new gem is required for each augmentation.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29289, 33, 1) /* BONDED_INT */
-     , (29289, 114, 1) /* ATTUNED_INT */
-     , (29289, 19, 0) /* VALUE_INT */
-     , (29289, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
-VALUES (29289, 3, 500000000) /* AUGMENTATION_COST_INT64 */;
-

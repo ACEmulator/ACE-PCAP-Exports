@@ -53,28 +53,3 @@ VALUES (9094, 0, 83887061, 83893041)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9094, 0, 16778356);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9094, 16, 'A thaumaturgic plate coat. A Kindling Stone must be applied to it before it may be worn.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9094, 33, 1) /* BONDED_INT */
-     , (9094, 114, 1) /* ATTUNED_INT */
-     , (9094, 19, 35) /* VALUE_INT */
-     , (9094, 5, 100) /* ENCUMB_VAL_INT */
-     , (9094, 28, 0) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (9094, 13, 0) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (9094, 14, 0) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (9094, 15, 0) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (9094, 16, 0) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (9094, 17, 0) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (9094, 18, 0) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (9094, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (9094, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9094, 69, 0) /* IS_SELLABLE_BOOL */;
-

@@ -34,12 +34,3 @@ VALUES (1002, 0, 83892071, 83892185);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1002, 0, 16783205);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1002, 16, 'House of Fathlan') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1002, 19, 125) /* VALUE_INT */
-     , (1002, 5, 9000) /* ENCUMB_VAL_INT */;
-

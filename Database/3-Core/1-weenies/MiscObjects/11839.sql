@@ -41,16 +41,6 @@ VALUES (11839, 0, 83893725, 83893724);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11839, 0, 16787141);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11839, 16, 'A reinforced banner haft with a worn handle.  If joined with either a Serpent or Falcon banner, it will raise its value substantially.') /* LONG_DESC_STRING */
-     , (11839, 14, 'Use this on a Falcon or Serpent Banner.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11839, 19, 0) /* VALUE_INT */
-     , (11839, 5, 100) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

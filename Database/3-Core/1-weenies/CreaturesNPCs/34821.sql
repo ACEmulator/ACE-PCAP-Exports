@@ -43,30 +43,6 @@ VALUES (34821, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34821, 67114923, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34821, 5, 'Dead Eye Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34821, 2, 75) /* CREATURE_TYPE_INT */
-     , (34821, 307, 5) /* DAMAGE_RATING_INT */
-     , (34821, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (34821, 25, 100) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (34821, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (34821, 2, 260) /* ENDURANCE_ATTRIBUTE */
-     , (34821, 4, 140) /* COORDINATION_ATTRIBUTE */
-     , (34821, 8, 320) /* QUICKNESS_ATTRIBUTE */
-     , (34821, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (34821, 32, 100) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34821, 64, 280) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (34821, 128, 420) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (34821, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

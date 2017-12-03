@@ -33,12 +33,3 @@ VALUES (32292, 13, True) /* ETHEREAL_BOOL */
      , (32292, 19, True) /* ATTACKABLE_BOOL */
      , (32292, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32292, 38, 'Commander''s Quarters') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32292, 86, 100) /* MIN_LEVEL_INT */
-     , (32292, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -40,14 +40,3 @@ VALUES (35002, 0, 83888936, 83893868);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35002, 0, 16778599);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35002, 16, 'This key was found on a Falatacot who was acting as the warden of the lower catacomb prison. You suspect it can be used on the prison doors in the area.') /* LONG_DESC_STRING */
-     , (35002, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35002, 19, 0) /* VALUE_INT */
-     , (35002, 5, 20) /* ENCUMB_VAL_INT */
-     , (35002, 91, 1) /* MAX_STRUCTURE_INT */;
-

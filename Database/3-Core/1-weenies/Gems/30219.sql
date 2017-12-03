@@ -49,28 +49,6 @@ VALUES (30219, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30219, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30219, 16, 'Using this gem will increase the resistance to Lightning damage for all equipped armor and clothing by 500% for 15 minutes.') /* LONG_DESC_STRING */
-     , (30219, 14, 'Spell affects all worn armor at the time of casting.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30219, 17, 65) /* RARE_ID_INT */
-     , (30219, 33, -1) /* BONDED_INT */
-     , (30219, 19, 0) /* VALUE_INT */
-     , (30219, 5, 5) /* ENCUMB_VAL_INT */
-     , (30219, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (30219, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (30219, 108, 10000) /* ITEM_MAX_MANA_INT */
-     , (30219, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30219, 108, 1) /* RARE_USES_TIMER_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30219, 3718) /* LightningBaneRare_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -33,16 +33,3 @@ VALUES (4615, 13, True) /* ETHEREAL_BOOL */
      , (4615, 19, True) /* ATTACKABLE_BOOL */
      , (4615, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4615, 14, 'Use on a magic item to give the stone''s stored Mana to that item.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4615, 19, 2500) /* VALUE_INT */
-     , (4615, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (4615, 137, 1) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
-     , (4615, 87, 1) /* ITEM_EFFICIENCY_FLOAT */;
-

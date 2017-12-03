@@ -37,12 +37,3 @@ VALUES (47400, 13, True) /* ETHEREAL_BOOL */
      , (47400, 19, True) /* ATTACKABLE_BOOL */
      , (47400, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47400, 16, 'Killed by Thrillhouse.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47400, 19, 0) /* VALUE_INT */
-     , (47400, 5, 6035) /* ENCUMB_VAL_INT */;
-

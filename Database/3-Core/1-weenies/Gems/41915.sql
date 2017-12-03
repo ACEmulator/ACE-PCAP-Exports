@@ -35,19 +35,6 @@ VALUES (41915, 13, True) /* ETHEREAL_BOOL */
      , (41915, 19, True) /* ATTACKABLE_BOOL */
      , (41915, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41915, 16, 'A weapon upgrade kit.') /* LONG_DESC_STRING */
-     , (41915, 14, 'Use this upgrade kit to enhance various types of non-loot weapons. As time goes on more weapons may be adapted to work with these kits.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41915, 19, 5) /* VALUE_INT */
-     , (41915, 5, 10) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (41915, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

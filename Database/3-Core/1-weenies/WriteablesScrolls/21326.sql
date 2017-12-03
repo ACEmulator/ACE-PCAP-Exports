@@ -35,17 +35,3 @@ VALUES (21326, 13, True) /* ETHEREAL_BOOL */
      , (21326, 19, True) /* ATTACKABLE_BOOL */
      , (21326, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21326, 16, 'Inscribed spell: Lightning Arc IV
-Shoots a bolt of lighting at the target. The bolt does 52-105 points of electrical damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (21326, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21326, 19, 100) /* VALUE_INT */
-     , (21326, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (21326, 2735) /* LightningArc4_SpellID */;
-

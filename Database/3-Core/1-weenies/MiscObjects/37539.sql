@@ -37,18 +37,6 @@ VALUES (37539, 13, True) /* ETHEREAL_BOOL */
      , (37539, 19, True) /* ATTACKABLE_BOOL */
      , (37539, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37539, 16, 'A stone to bind a spectral weapon to your soul.') /* LONG_DESC_STRING */
-     , (37539, 14, 'Use this item on a Spectral Weapon to prevent it from dissipating.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37539, 33, 1) /* BONDED_INT */
-     , (37539, 114, 1) /* ATTUNED_INT */
-     , (37539, 19, 15) /* VALUE_INT */
-     , (37539, 5, 5) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

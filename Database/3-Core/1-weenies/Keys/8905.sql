@@ -36,14 +36,3 @@ VALUES (8905, 13, True) /* ETHEREAL_BOOL */
      , (8905, 19, True) /* ATTACKABLE_BOOL */
      , (8905, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8905, 16, 'The final key to the Mines of Despair. It is radiating a strange yellow glow.') /* LONG_DESC_STRING */
-     , (8905, 14, 'Use this item on a locked door.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8905, 19, 100) /* VALUE_INT */
-     , (8905, 5, 10) /* ENCUMB_VAL_INT */
-     , (8905, 91, 1) /* MAX_STRUCTURE_INT */;
-

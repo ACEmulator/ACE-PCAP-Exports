@@ -33,12 +33,3 @@ VALUES (42816, 13, True) /* ETHEREAL_BOOL */
      , (42816, 19, True) /* ATTACKABLE_BOOL */
      , (42816, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42816, 16, 'This portal goes to the town of Lytelthorpe, an Aluvian settlement surrounded by rich farmlands. This is a good town for characters over level 10.') /* LONG_DESC_STRING */
-     , (42816, 38, 'Lytelthorpe Portal (1.1N, 51.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42816, 111, 1) /* PORTAL_BITMASK_INT */;
-

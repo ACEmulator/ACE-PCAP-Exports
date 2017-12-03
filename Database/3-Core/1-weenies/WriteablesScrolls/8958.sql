@@ -35,17 +35,3 @@ VALUES (8958, 13, True) /* ETHEREAL_BOOL */
      , (8958, 19, True) /* ATTACKABLE_BOOL */
      , (8958, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8958, 16, 'Inscribed spell: Whirling Blade Streak VI
-Sends a magical blade streaking towards the target. The bolt does 36-71 points of slashing damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (8958, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8958, 19, 1000) /* VALUE_INT */
-     , (8958, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8958, 1831) /* WhirlingBladeStreak6_SpellID */;
-

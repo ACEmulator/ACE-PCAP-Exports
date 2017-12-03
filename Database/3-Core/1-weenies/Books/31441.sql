@@ -36,17 +36,6 @@ VALUES (31441, 13, True) /* ETHEREAL_BOOL */
      , (31441, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31441, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31441, 16, 'A translation of the Song of Grael.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31441, 19, 10) /* VALUE_INT */
-     , (31441, 5, 100) /* ENCUMB_VAL_INT */
-     , (31441, 174, 6) /* APPRAISAL_PAGES_INT */
-     , (31441, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

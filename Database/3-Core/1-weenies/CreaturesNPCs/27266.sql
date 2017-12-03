@@ -42,16 +42,3 @@ VALUES (27266, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27266, 67113366, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27266, 5, 'Mud Golem Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27266, 2, 57) /* CREATURE_TYPE_INT */
-     , (27266, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (27266, 25, 11) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27266, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

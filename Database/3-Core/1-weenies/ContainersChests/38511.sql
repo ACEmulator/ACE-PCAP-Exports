@@ -36,18 +36,3 @@ VALUES (38511, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38511, 19, True) /* ATTACKABLE_BOOL */
      , (38511, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38511, 16, 'A Society Reward Chest, containing a randomly enchanted set of Celestial Hand Tassets.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38511, 19, 0) /* VALUE_INT */
-     , (38511, 5, 6074) /* ENCUMB_VAL_INT */
-     , (38511, 38, 9999) /* RESIST_LOCKPICK_INT */
-     , (38511, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38511, 2, 0) /* OPEN_BOOL */
-     , (38511, 3, 1) /* LOCKED_BOOL */;
-

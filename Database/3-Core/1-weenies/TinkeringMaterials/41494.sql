@@ -49,19 +49,6 @@ VALUES (41494, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41494, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41494, 14, 'Apply Salvaged Ruby to this Armature. This Armature can then be used on a magical loot-generated Trinket to add Augmented Health III. This also increases the Spellcraft and Arcane Lore of the trinket by 25.') /* USE_STRING */
-     , (41494, 15, 'A Major Item Tinkering Armature prepared with Ruby.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41494, 33, 1) /* BONDED_INT */
-     , (41494, 19, 67318) /* VALUE_INT */
-     , (41494, 5, 100) /* ENCUMB_VAL_INT */
-     , (41494, 105, 35) /* ITEM_WORKMANSHIP_INT */
-     , (41494, 170, 5) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

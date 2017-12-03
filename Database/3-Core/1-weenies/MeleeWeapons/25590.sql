@@ -48,39 +48,3 @@ VALUES (25590, 0, 83893314, 83893314)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25590, 0, 16789634);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25590, 16, 'A staff made of exceptionally strong, yet pliant, wood. It vibrates with some inner force.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25590, 160, 325) /* WIELD_DIFFICULTY_INT */
-     , (25590, 353, 7) /* WEAPON_TYPE_INT */
-     , (25590, 19, 12250) /* VALUE_INT */
-     , (25590, 5, 600) /* ENCUMB_VAL_INT */
-     , (25590, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (25590, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (25590, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (25590, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (25590, 47, 6) /* ATTACK_TYPE_INT */
-     , (25590, 45, 4) /* DAMAGE_TYPE_INT */
-     , (25590, 49, 40) /* WEAPON_TIME_INT */
-     , (25590, 48, 46) /* WEAPON_SKILL_INT */
-     , (25590, 44, 50) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25590, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
-     , (25590, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (25590, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
-     , (25590, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (25590, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (25590, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (25590, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (25590, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25590, 2509) /* CANTRIPDAGGERAPTITUDE2_SpellID */
-     , (25590, 1616) /* BloodDrinker6_SpellID */
-     , (25590, 1627) /* SwiftKiller6_SpellID */
-     , (25590, 1591) /* HeartSeeker5_SpellID */;
-

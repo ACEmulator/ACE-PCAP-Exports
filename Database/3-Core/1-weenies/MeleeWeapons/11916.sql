@@ -39,12 +39,3 @@ VALUES (11916, 13, True) /* ETHEREAL_BOOL */
      , (11916, 19, True) /* ATTACKABLE_BOOL */
      , (11916, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11916, 16, 'Killed by High-Voltage II.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11916, 19, 0) /* VALUE_INT */
-     , (11916, 5, 6090) /* ENCUMB_VAL_INT */;
-

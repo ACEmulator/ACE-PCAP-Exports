@@ -33,11 +33,3 @@ VALUES (13141, 13, True) /* ETHEREAL_BOOL */
      , (13141, 19, True) /* ATTACKABLE_BOOL */
      , (13141, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13141, 38, 'Wisp Lake Cottages Portal (84.0N, 1.6W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13141, 111, 1) /* PORTAL_BITMASK_INT */;
-

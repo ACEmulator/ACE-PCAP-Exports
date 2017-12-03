@@ -45,20 +45,6 @@ VALUES (33960, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33960, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33960, 16, 'A sandy rock used to rub old inscriptions off of an item.') /* LONG_DESC_STRING */
-     , (33960, 14, 'Use this stone to remove one inscription from any loot-generated weapon, caster or armor.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33960, 33, 1) /* BONDED_INT */
-     , (33960, 19, 2500000) /* VALUE_INT */
-     , (33960, 5, 400) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (33960, 69, 1) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

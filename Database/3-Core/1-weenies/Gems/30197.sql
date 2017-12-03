@@ -49,27 +49,6 @@ VALUES (30197, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30197, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30197, 16, 'Using this gem will increase your Creature Enchantment skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30197, 33, -1) /* BONDED_INT */
-     , (30197, 17, 15) /* RARE_ID_INT */
-     , (30197, 19, 0) /* VALUE_INT */
-     , (30197, 5, 10) /* ENCUMB_VAL_INT */
-     , (30197, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (30197, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (30197, 108, 10000) /* ITEM_MAX_MANA_INT */
-     , (30197, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30197, 108, 1) /* RARE_USES_TIMER_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30197, 3695) /* CreatureEnchantmentMasteryRare_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

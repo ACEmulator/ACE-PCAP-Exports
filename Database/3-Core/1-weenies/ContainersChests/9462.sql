@@ -50,19 +50,3 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (9462, 0, 16778639)
      , (9462, 1, 16778642);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9462, 16, 'A large, garish golden chest, accessible to those who have enjoyed great good fortune at Gan-Zo''s Den of Iniquity.') /* LONG_DESC_STRING */
-     , (9462, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9462, 19, 2500) /* VALUE_INT */
-     , (9462, 5, 16700) /* ENCUMB_VAL_INT */
-     , (9462, 38, 5000) /* RESIST_LOCKPICK_INT */
-     , (9462, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9462, 2, 0) /* OPEN_BOOL */
-     , (9462, 3, 1) /* LOCKED_BOOL */;
-

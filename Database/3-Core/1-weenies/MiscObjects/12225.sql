@@ -35,12 +35,3 @@ VALUES (12225, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12225, 0, 16787385);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12225, 16, 'A stinking, smelling, decapitated zombie head.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12225, 19, 0) /* VALUE_INT */
-     , (12225, 5, 200) /* ENCUMB_VAL_INT */;
-

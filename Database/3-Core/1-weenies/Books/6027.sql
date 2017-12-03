@@ -34,17 +34,6 @@ VALUES (6027, 13, True) /* ETHEREAL_BOOL */
      , (6027, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6027, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6027, 16, 'A letter of introduction to Devana bint Hamudi, who lives near Zaikhal.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6027, 19, 5) /* VALUE_INT */
-     , (6027, 5, 25) /* ENCUMB_VAL_INT */
-     , (6027, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (6027, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

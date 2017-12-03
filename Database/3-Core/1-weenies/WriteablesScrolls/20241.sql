@@ -35,17 +35,3 @@ VALUES (20241, 13, True) /* ETHEREAL_BOOL */
      , (20241, 19, True) /* ATTACKABLE_BOOL */
      , (20241, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20241, 16, 'Inscribed spell: Inner Calm
-Increases the caster''s Focus by 40 points.') /* LONG_DESC_STRING */
-     , (20241, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20241, 19, 2000) /* VALUE_INT */
-     , (20241, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20241, 2067) /* FocusSelf7_SpellID */;
-

@@ -39,15 +39,6 @@ VALUES (14897, 13, True) /* ETHEREAL_BOOL */
      , (14897, 19, True) /* ATTACKABLE_BOOL */
      , (14897, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14897, 14, 'Use this item on a cake to create a Wedding Cake.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14897, 19, 25) /* VALUE_INT */
-     , (14897, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

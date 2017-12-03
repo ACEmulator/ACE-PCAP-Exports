@@ -52,28 +52,3 @@ VALUES (33463, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33463, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33463, 16, 'A spellcasting orb used to recall to the Rossu Morta Chapterhouse.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33463, 160, 140) /* WIELD_DIFFICULTY_INT */
-     , (33463, 33, 1) /* BONDED_INT */
-     , (33463, 114, 1) /* ATTUNED_INT */
-     , (33463, 19, 5000) /* VALUE_INT */
-     , (33463, 117, 50) /* ITEM_MANA_COST_INT */
-     , (33463, 5, 50) /* ENCUMB_VAL_INT */
-     , (33463, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (33463, 108, 6000) /* ITEM_MAX_MANA_INT */
-     , (33463, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (33463, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (33463, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (33463, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (33463, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (33463, 3929) /* RecallRossuMorta_SpellID */;
-

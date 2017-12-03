@@ -35,17 +35,3 @@ VALUES (45304, 13, True) /* ETHEREAL_BOOL */
      , (45304, 19, True) /* ATTACKABLE_BOOL */
      , (45304, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45304, 16, 'Inscribed spell: Recklessness Mastery Self V
-Increases the caster''s Recklessness skill by 30 points.') /* LONG_DESC_STRING */
-     , (45304, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45304, 19, 200) /* VALUE_INT */
-     , (45304, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (45304, 5831) /* recklessnessmasteryself5_SpellID */;
-

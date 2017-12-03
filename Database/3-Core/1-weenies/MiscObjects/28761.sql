@@ -31,14 +31,3 @@ VALUES (28761, 13, True) /* ETHEREAL_BOOL */
      , (28761, 19, True) /* ATTACKABLE_BOOL */
      , (28761, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28761, 16, 'Give this token to the Grand Knight of Sanamar and he will change your title to Friend of Sanamar.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28761, 33, 1) /* BONDED_INT */
-     , (28761, 114, 1) /* ATTUNED_INT */
-     , (28761, 19, 0) /* VALUE_INT */
-     , (28761, 5, 10) /* ENCUMB_VAL_INT */;
-

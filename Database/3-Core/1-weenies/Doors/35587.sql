@@ -32,17 +32,3 @@ VALUES (35587, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (35587, 19, True) /* ATTACKABLE_BOOL */
      , (35587, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35587, 14, 'You must have the key to open these doors.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35587, 19, 0) /* VALUE_INT */
-     , (35587, 38, 1100) /* RESIST_LOCKPICK_INT */
-     , (35587, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35587, 2, 0) /* OPEN_BOOL */
-     , (35587, 3, 1) /* LOCKED_BOOL */;
-

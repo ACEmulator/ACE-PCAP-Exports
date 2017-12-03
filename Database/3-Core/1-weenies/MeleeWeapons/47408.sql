@@ -37,26 +37,3 @@ VALUES (47408, 13, True) /* ETHEREAL_BOOL */
      , (47408, 19, True) /* ATTACKABLE_BOOL */
      , (47408, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47408, 16, 'Necklace of Bludgeon Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47408, 19, 2175) /* VALUE_INT */
-     , (47408, 131, 59) /* MATERIAL_TYPE_INT */
-     , (47408, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (47408, 5, 45) /* ENCUMB_VAL_INT */
-     , (47408, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (47408, 106, 96) /* ITEM_SPELLCRAFT_INT */
-     , (47408, 108, 1014) /* ITEM_MAX_MANA_INT */
-     , (47408, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (47408, 109, 96) /* ITEM_DIFFICULTY_INT */
-     , (47408, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (47408, 5, -0.03333334) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (47408, 1020) /* BludgeonProtectionSelf3_SpellID */;
-

@@ -48,39 +48,3 @@ VALUES (48939, 0, 83899123, 83899125)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48939, 0, 16796838);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48939, 16, 'A large, glowing seed, empowered by the magics of the Light Falatacot.  This seed was retrieved from the Temple of Harvests, underneath the Valley of Death.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48939, 160, 340) /* WIELD_DIFFICULTY_INT */
-     , (48939, 33, 1) /* BONDED_INT */
-     , (48939, 114, 1) /* ATTUNED_INT */
-     , (48939, 19, 20000) /* VALUE_INT */
-     , (48939, 5, 50) /* ENCUMB_VAL_INT */
-     , (48939, 263, 16) /* RESISTANCE_MODIFIER_TYPE_INT */
-     , (48939, 106, 450) /* ITEM_SPELLCRAFT_INT */
-     , (48939, 108, 5000) /* ITEM_MAX_MANA_INT */
-     , (48939, 45, 16) /* DAMAGE_TYPE_INT */
-     , (48939, 109, 300) /* ITEM_DIFFICULTY_INT */
-     , (48939, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (48939, 159, 34) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (48939, 152, 1.1) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (48939, 144, 0.15) /* MANA_CONVERSION_MOD_FLOAT */
-     , (48939, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
-     , (48939, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
-     , (48939, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (48939, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (48939, 2128) /* FlameBolt7_SpellID */
-     , (48939, 4638) /* WarMagicMasterySelf8_SpellID */
-     , (48939, 6075) /* CantripWarMagicAptitude4_SpellID */
-     , (48939, 4670) /* CANTRIPSPIRITTHIRST3_SpellID */
-     , (48939, 4414) /* Spiritdrinker8_SpellID */;
-

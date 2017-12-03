@@ -35,17 +35,3 @@ VALUES (28003, 13, True) /* ETHEREAL_BOOL */
      , (28003, 19, True) /* ATTACKABLE_BOOL */
      , (28003, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28003, 16, 'Inscribed spell: Aura of Spirit Drinker Self II
-Increases the elemental damage bonus of an elemental magic caster by 2%.') /* LONG_DESC_STRING */
-     , (28003, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28003, 19, 5) /* VALUE_INT */
-     , (28003, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (28003, 3254) /* SpiritDrinker2_SpellID */;
-

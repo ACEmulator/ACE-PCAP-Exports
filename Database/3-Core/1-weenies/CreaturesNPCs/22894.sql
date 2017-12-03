@@ -63,26 +63,3 @@ VALUES (22894, 0, 16785699)
      , (22894, 19, 16785704)
      , (22894, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22894, 5, 'Noble') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22894, 2, 5) /* CREATURE_TYPE_INT */
-     , (22894, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (22894, 25, 46) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (22894, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (22894, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (22894, 4, 170) /* COORDINATION_ATTRIBUTE */
-     , (22894, 8, 180) /* QUICKNESS_ATTRIBUTE */
-     , (22894, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (22894, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22894, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22894, 128, 312) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22894, 256, 250) /* MAX_MANA_ATTRIBUTE_2ND */;
-

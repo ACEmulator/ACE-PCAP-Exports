@@ -30,16 +30,3 @@ VALUES (30737, 13, True) /* ETHEREAL_BOOL */
      , (30737, 19, True) /* ATTACKABLE_BOOL */
      , (30737, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30737, 16, 'Colorful balloons, perfect for celebrating a new year or any festive occasion.') /* LONG_DESC_STRING */
-     , (30737, 14, 'This item can be placed on Yard, Roof or Floor hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30737, 19, 1000) /* VALUE_INT */
-     , (30737, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30737, 69, 1) /* IS_SELLABLE_BOOL */;
-

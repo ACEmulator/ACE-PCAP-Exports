@@ -42,37 +42,3 @@ VALUES (40801, 67113376, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40801, 0, 16787332);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40801, 15, 'A mask crafted from the mask of the Apostate Nexus Master.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40801, 33, 1) /* BONDED_INT */
-     , (40801, 114, 1) /* ATTUNED_INT */
-     , (40801, 19, 0) /* VALUE_INT */
-     , (40801, 5, 200) /* ENCUMB_VAL_INT */
-     , (40801, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (40801, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (40801, 28, 400) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (40801, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (40801, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (40801, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (40801, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (40801, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (40801, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (40801, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (40801, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (40801, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40801, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (40801, 2053) /* ArmorSelf7_SpellID */
-     , (40801, 4700) /* CANTRIPLIFEMAGICAPTITUDE3_SpellID */
-     , (40801, 4704) /* CANTRIPMAGICRESISTANCE3_SpellID */
-     , (40801, 2108) /* Impenetrability7_SpellID */;
-

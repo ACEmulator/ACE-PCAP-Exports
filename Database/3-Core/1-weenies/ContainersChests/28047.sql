@@ -47,22 +47,6 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (28047, 0, 16789208)
      , (28047, 1, 16789209);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28047, 16, 'A beautifully detailed chest made of ebony wood and polished gold, inscribed with Dericostian runes. There is a suspicious glow near the lock.') /* LONG_DESC_STRING */
-     , (28047, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28047, 19, 2500) /* VALUE_INT */
-     , (28047, 5, 10996) /* ENCUMB_VAL_INT */
-     , (28047, 38, 5000) /* RESIST_LOCKPICK_INT */
-     , (28047, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (28047, 2, 0) /* OPEN_BOOL */
-     , (28047, 3, 1) /* LOCKED_BOOL */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

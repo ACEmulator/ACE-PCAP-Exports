@@ -35,19 +35,6 @@ VALUES (32713, 13, True) /* ETHEREAL_BOOL */
      , (32713, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32713, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32713, 16, 'A log book found within a Tumerok fortification overrun by the Viamontian Bloodstone Company.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32713, 33, 1) /* BONDED_INT */
-     , (32713, 114, 1) /* ATTUNED_INT */
-     , (32713, 19, 0) /* VALUE_INT */
-     , (32713, 5, 50) /* ENCUMB_VAL_INT */
-     , (32713, 174, 6) /* APPRAISAL_PAGES_INT */
-     , (32713, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

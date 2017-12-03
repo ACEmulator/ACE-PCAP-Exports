@@ -68,12 +68,3 @@ VALUES (49181, 0, 16796693)
      , (49181, 12, 16796687)
      , (49181, 16, 16796691);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49181, 2, 30) /* CREATURE_TYPE_INT */
-     , (49181, 25, 125) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49181, 64, 870) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

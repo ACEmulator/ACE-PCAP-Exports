@@ -33,11 +33,3 @@ VALUES (13098, 13, True) /* ETHEREAL_BOOL */
      , (13098, 19, True) /* ATTACKABLE_BOOL */
      , (13098, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13098, 38, 'Dire''s Edge Portal (23.1N, 54.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13098, 111, 1) /* PORTAL_BITMASK_INT */;
-

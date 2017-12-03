@@ -35,17 +35,3 @@ VALUES (6876, 13, True) /* ETHEREAL_BOOL */
      , (6876, 19, True) /* ATTACKABLE_BOOL */
      , (6876, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6876, 16, 'This key is a sturdy iron key that looks like it might fit a variety of chests, of the type used to hold valuable treasure.') /* LONG_DESC_STRING */
-     , (6876, 14, 'Use this item on a locked chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6876, 19, 25) /* VALUE_INT */
-     , (6876, 5, 50) /* ENCUMB_VAL_INT */
-     , (6876, 91, 1) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (6876, 69, 0) /* IS_SELLABLE_BOOL */;
-

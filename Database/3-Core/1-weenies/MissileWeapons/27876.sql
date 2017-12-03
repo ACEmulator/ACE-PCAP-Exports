@@ -42,26 +42,6 @@ VALUES (27876, 13, True) /* ETHEREAL_BOOL */
      , (27876, 17, True) /* INELASTIC_BOOL */
      , (27876, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27876, 353, 4) /* WEAPON_TYPE_INT */
-     , (27876, 19, 310) /* VALUE_INT */
-     , (27876, 5, 900) /* ENCUMB_VAL_INT */
-     , (27876, 47, 4) /* ATTACK_TYPE_INT */
-     , (27876, 45, 2) /* DAMAGE_TYPE_INT */
-     , (27876, 49, 70) /* WEAPON_TIME_INT */
-     , (27876, 48, 46) /* WEAPON_SKILL_INT */
-     , (27876, 44, 10) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27876, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (27876, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (27876, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (27876, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (27876, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (27876, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

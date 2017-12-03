@@ -38,16 +38,3 @@ VALUES (34421, 13, True) /* ETHEREAL_BOOL */
      , (34421, 19, True) /* ATTACKABLE_BOOL */
      , (34421, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34421, 16, 'A simple old snowman hat.') /* LONG_DESC_STRING */
-     , (34421, 14, 'Use this hat to summon or dismiss a Pet Snowman.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34421, 19, 50) /* VALUE_INT */
-     , (34421, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34421, 69, 1) /* IS_SELLABLE_BOOL */;
-

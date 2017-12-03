@@ -44,17 +44,3 @@ VALUES (53473, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53473, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53473, 16, 'A delicate, ancient ring, worn and battered.  The symbol of House Mhoire is still faintly visible in the carnelian stone setting.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53473, 33, 1) /* BONDED_INT */
-     , (53473, 114, 1) /* ATTUNED_INT */
-     , (53473, 19, 0) /* VALUE_INT */
-     , (53473, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (53473, 69, 0) /* IS_SELLABLE_BOOL */;
-

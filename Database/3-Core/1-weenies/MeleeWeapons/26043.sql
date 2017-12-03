@@ -39,12 +39,3 @@ VALUES (26043, 13, True) /* ETHEREAL_BOOL */
      , (26043, 19, True) /* ATTACKABLE_BOOL */
      , (26043, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (26043, 16, 'Killed by Rou. This corpse generated a rare item!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (26043, 19, 0) /* VALUE_INT */
-     , (26043, 5, 6210) /* ENCUMB_VAL_INT */;
-

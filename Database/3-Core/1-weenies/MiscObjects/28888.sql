@@ -32,12 +32,3 @@ VALUES (28888, 13, True) /* ETHEREAL_BOOL */
      , (28888, 19, True) /* ATTACKABLE_BOOL */
      , (28888, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28888, 15, 'The stench emanating from this Chittick head is overwhelming.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28888, 19, 0) /* VALUE_INT */
-     , (28888, 5, 200) /* ENCUMB_VAL_INT */;
-

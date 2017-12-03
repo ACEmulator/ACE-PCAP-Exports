@@ -40,50 +40,6 @@ VALUES (29986, 13, True) /* ETHEREAL_BOOL */
      , (29986, 17, True) /* INELASTIC_BOOL */
      , (29986, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29986, 16, 'Lightning Knife of Coordination') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29986, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
-     , (29986, 160, 350) /* WIELD_DIFFICULTY_INT */
-     , (29986, 353, 6) /* WEAPON_TYPE_INT */
-     , (29986, 177, 1) /* GEM_COUNT_INT */
-     , (29986, 178, 38) /* GEM_TYPE_INT */
-     , (29986, 19, 8134) /* VALUE_INT */
-     , (29986, 131, 63) /* MATERIAL_TYPE_INT */
-     , (29986, 115, 313) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (29986, 5, 27) /* ENCUMB_VAL_INT */
-     , (29986, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (29986, 106, 293) /* ITEM_SPELLCRAFT_INT */
-     , (29986, 108, 1751) /* ITEM_MAX_MANA_INT */
-     , (29986, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (29986, 109, 153) /* ITEM_DIFFICULTY_INT */
-     , (29986, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (29986, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (29986, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (29986, 47, 160) /* ATTACK_TYPE_INT */
-     , (29986, 45, 64) /* DAMAGE_TYPE_INT */
-     , (29986, 49, 8) /* WEAPON_TIME_INT */
-     , (29986, 48, 46) /* WEAPON_SKILL_INT */
-     , (29986, 44, 18) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29986, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (29986, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
-     , (29986, 22, 0.35) /* DAMAGE_VARIANCE_FLOAT */
-     , (29986, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (29986, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (29986, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (29986, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (29986, 2059) /* CoordinationSelf7_SpellID */
-     , (29986, 2096) /* BloodDrinker7_SpellID */
-     , (29986, 2549) /* CANTRIPIMPREGNABILITY1_SpellID */
-     , (29986, 2553) /* CANTRIPJUMPINGPROWESS1_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

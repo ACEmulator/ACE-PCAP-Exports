@@ -54,19 +54,6 @@ VALUES (35343, 1, 16788471)
      , (35343, 2, 16788483)
      , (35343, 5, 16788484);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35343, 5, 'Banderling Chief') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35343, 2, 2) /* CREATURE_TYPE_INT */
-     , (35343, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (35343, 25, 170) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35343, 64, 12000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

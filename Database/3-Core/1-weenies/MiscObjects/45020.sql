@@ -30,14 +30,3 @@ VALUES (45020, 13, True) /* ETHEREAL_BOOL */
      , (45020, 19, True) /* ATTACKABLE_BOOL */
      , (45020, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45020, 16, 'Boots once worn by Wardley. One can only guess as to his fate.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45020, 33, 1) /* BONDED_INT */
-     , (45020, 114, 1) /* ATTUNED_INT */
-     , (45020, 19, 0) /* VALUE_INT */
-     , (45020, 5, 50) /* ENCUMB_VAL_INT */;
-

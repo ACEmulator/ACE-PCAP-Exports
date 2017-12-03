@@ -48,16 +48,6 @@ VALUES (7835, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7835, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7835, 14, 'This item is used in cooking.') /* USE_STRING */
-     , (7835, 15, 'A loosely packed ball of clean, sparkling ice and snow particles, oddly resistant to melting.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7835, 19, 25) /* VALUE_INT */
-     , (7835, 5, 30) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

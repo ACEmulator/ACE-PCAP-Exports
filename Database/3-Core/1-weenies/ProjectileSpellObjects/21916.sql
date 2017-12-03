@@ -45,13 +45,3 @@ VALUES (21916, 67114017, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21916, 0, 16788386);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21916, 16, 'The saliva from a creature of the Tusker persuasion.') /* LONG_DESC_STRING */
-     , (21916, 14, 'This item is used in brewing.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21916, 19, 0) /* VALUE_INT */
-     , (21916, 5, 20) /* ENCUMB_VAL_INT */;
-

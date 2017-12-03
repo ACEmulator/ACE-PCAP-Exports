@@ -48,24 +48,3 @@ VALUES (23707, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23707, 0, 16777915);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23707, 16, 'Gem of Mana Renewal') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23707, 19, 892) /* VALUE_INT */
-     , (23707, 131, 19) /* MATERIAL_TYPE_INT */
-     , (23707, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (23707, 5, 5) /* ENCUMB_VAL_INT */
-     , (23707, 117, 250) /* ITEM_MANA_COST_INT */
-     , (23707, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (23707, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (23707, 108, 362) /* ITEM_MAX_MANA_INT */
-     , (23707, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (23707, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (23707, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (23707, 215) /* ManaRenewalSelf4_SpellID */;
-

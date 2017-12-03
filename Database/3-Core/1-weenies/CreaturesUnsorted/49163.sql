@@ -72,12 +72,3 @@ VALUES (49163, 0, 16796693)
      , (49163, 12, 16796687)
      , (49163, 16, 16796691);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (49163, 16, 'Killed by Ripley.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49163, 19, 0) /* VALUE_INT */
-     , (49163, 5, 6556) /* ENCUMB_VAL_INT */;
-

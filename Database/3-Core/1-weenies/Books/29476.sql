@@ -34,15 +34,3 @@ VALUES (29476, 13, True) /* ETHEREAL_BOOL */
      , (29476, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29476, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29476, 14, 'Use this item to read it.') /* USE_STRING */
-     , (29476, 15, 'A note found on a dead Viamontian.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29476, 19, 0) /* VALUE_INT */
-     , (29476, 5, 5) /* ENCUMB_VAL_INT */
-     , (29476, 174, 2) /* APPRAISAL_PAGES_INT */
-     , (29476, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
-

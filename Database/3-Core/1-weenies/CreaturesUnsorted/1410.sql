@@ -54,14 +54,3 @@ VALUES (1410, 1, 16784273)
      , (1410, 9, 16784289)
      , (1410, 12, 16784289);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1410, 19, 500) /* VALUE_INT */
-     , (1410, 5, 50) /* ENCUMB_VAL_INT */
-     , (1410, 90, 10) /* BOOST_VALUE_INT */
-     , (1410, 91, 35) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1410, 100, 1.5) /* HEALKIT_MOD_FLOAT */;
-

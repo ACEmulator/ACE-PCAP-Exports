@@ -40,35 +40,3 @@ VALUES (25489, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25489, 67114477, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25489, 16, 'A pool of thick foul smelling goo.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25489, 384, 0) /*  */
-     , (25489, 370, 0) /* GEAR_DAMAGE_INT */
-     , (25489, 386, 0) /*  */
-     , (25489, 307, 0) /* DAMAGE_RATING_INT */
-     , (25489, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (25489, 387, 0) /*  */
-     , (25489, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (25489, 372, 0) /* GEAR_CRIT_INT */
-     , (25489, 388, 0) /*  */
-     , (25489, 5, 1200) /* ENCUMB_VAL_INT */
-     , (25489, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (25489, 389, 0) /*  */
-     , (25489, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (25489, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (25489, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (25489, 313, 0) /* CRIT_RATING_INT */
-     , (25489, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (25489, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (25489, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (25489, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (25489, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (25489, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (25489, 381, 0) /*  */
-     , (25489, 382, 0) /*  */
-     , (25489, 383, 0) /*  */;
-

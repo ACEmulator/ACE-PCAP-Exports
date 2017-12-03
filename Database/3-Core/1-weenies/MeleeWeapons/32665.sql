@@ -52,17 +52,3 @@ VALUES (32665, 0, 83889237, 83889237)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32665, 0, 16783995);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32665, 16, 'Inscribed spell: Ogfoot
-Increases the target''s Quickness by 40 points.') /* LONG_DESC_STRING */
-     , (32665, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32665, 19, 2000) /* VALUE_INT */
-     , (32665, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (32665, 2080) /* QuicknessOther7_SpellID */;
-

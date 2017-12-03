@@ -96,12 +96,3 @@ VALUES (9175, 0, 16777333)
      , (9175, 20, 16777355)
      , (9175, 21, 16777345);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9175, 16, 'Special, limited-edition, pre-patch, hoary, gold-foil wrap, embossed lettering, signed and numbered by the author... Cow.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9175, 19, 10) /* VALUE_INT */
-     , (9175, 5, 10) /* ENCUMB_VAL_INT */;
-

@@ -34,19 +34,6 @@ VALUES (7054, 13, True) /* ETHEREAL_BOOL */
      , (7054, 19, True) /* ATTACKABLE_BOOL */
      , (7054, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7054, 16, 'A handle intricately carved from the bone of the undead.') /* LONG_DESC_STRING */
-     , (7054, 14, 'Use this on a composite bow.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7054, 19, 0) /* VALUE_INT */
-     , (7054, 5, 10) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7054, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

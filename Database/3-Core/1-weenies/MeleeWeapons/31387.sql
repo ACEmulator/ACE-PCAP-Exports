@@ -45,39 +45,3 @@ VALUES (31387, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31387, 0, 16791843);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31387, 16, 'Chalice of Cooking Mastery') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31387, 353, 10) /* WEAPON_TYPE_INT */
-     , (31387, 177, 8) /* GEM_COUNT_INT */
-     , (31387, 178, 38) /* GEM_TYPE_INT */
-     , (31387, 19, 30142) /* VALUE_INT */
-     , (31387, 131, 21) /* MATERIAL_TYPE_INT */
-     , (31387, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (31387, 5, 50) /* ENCUMB_VAL_INT */
-     , (31387, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (31387, 106, 314) /* ITEM_SPELLCRAFT_INT */
-     , (31387, 108, 1867) /* ITEM_MAX_MANA_INT */
-     , (31387, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31387, 109, 235) /* ITEM_DIFFICULTY_INT */
-     , (31387, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (31387, 45, 4) /* DAMAGE_TYPE_INT */
-     , (31387, 49, 10) /* WEAPON_TIME_INT */
-     , (31387, 48, 47) /* WEAPON_SKILL_INT */
-     , (31387, 44, 10) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31387, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (31387, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (31387, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (31387, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (31387, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (31387, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (31387, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31387, 2211) /* CookingMasterySelf7_SpellID */;
-

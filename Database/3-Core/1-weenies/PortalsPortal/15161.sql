@@ -33,11 +33,3 @@ VALUES (15161, 13, True) /* ETHEREAL_BOOL */
      , (15161, 19, True) /* ATTACKABLE_BOOL */
      , (15161, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15161, 38, 'Ice''s Edge Cottages Portal (64.0N, 16.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15161, 111, 1) /* PORTAL_BITMASK_INT */;
-

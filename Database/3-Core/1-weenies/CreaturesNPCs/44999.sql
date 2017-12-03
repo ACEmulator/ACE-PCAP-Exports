@@ -107,36 +107,3 @@ VALUES (44999, 15, 16789333)
      , (44999, 13, 16783871)
      , (44999, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44999, 5, 'Royal Investigator') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (44999, 16, 67110063) /* EYES_PALETTE_DID */
-     , (44999, 9, 83890480) /* EYES_TEXTURE_DID */
-     , (44999, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (44999, 10, 83890546) /* NOSE_TEXTURE_DID */
-     , (44999, 11, 83890629) /* MOUTH_TEXTURE_DID */
-     , (44999, 15, 67117080) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44999, 113, 1) /* GENDER_INT */
-     , (44999, 2, 31) /* CREATURE_TYPE_INT */
-     , (44999, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (44999, 25, 220) /* LEVEL_INT */
-     , (44999, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (44999, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (44999, 2, 290) /* ENDURANCE_ATTRIBUTE */
-     , (44999, 4, 260) /* COORDINATION_ATTRIBUTE */
-     , (44999, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (44999, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (44999, 32, 290) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (44999, 64, 341) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (44999, 128, 486) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (44999, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
-

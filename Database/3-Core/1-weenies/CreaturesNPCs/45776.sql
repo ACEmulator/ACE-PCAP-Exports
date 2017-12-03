@@ -59,36 +59,3 @@ VALUES (45776, 0, 16795382)
      , (45776, 21, 16777708)
      , (45776, 22, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45776, 5, 'Princess of New Aluvia') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (45776, 16, 67110063) /* EYES_PALETTE_DID */
-     , (45776, 9, 83890277) /* EYES_TEXTURE_DID */
-     , (45776, 17, 67110045) /* SKIN_PALETTE_DID */
-     , (45776, 10, 83890295) /* NOSE_TEXTURE_DID */
-     , (45776, 11, 83890323) /* MOUTH_TEXTURE_DID */
-     , (45776, 15, 67116997) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45776, 113, 2) /* GENDER_INT */
-     , (45776, 2, 31) /* CREATURE_TYPE_INT */
-     , (45776, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (45776, 25, 162) /* LEVEL_INT */
-     , (45776, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (45776, 1, 190) /* STRENGTH_ATTRIBUTE */
-     , (45776, 2, 230) /* ENDURANCE_ATTRIBUTE */
-     , (45776, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (45776, 8, 210) /* QUICKNESS_ATTRIBUTE */
-     , (45776, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (45776, 32, 290) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (45776, 64, 265) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (45776, 128, 380) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (45776, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
-

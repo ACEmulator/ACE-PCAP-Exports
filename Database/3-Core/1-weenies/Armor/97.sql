@@ -54,28 +54,3 @@ VALUES (97, 0, 83887061, 83886692)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (97, 0, 16779351);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (97, 16, 'Exquisitely crafted Leather Shirt , set with 1 Hematite') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (97, 131, 52) /* MATERIAL_TYPE_INT */
-     , (97, 19, 1233) /* VALUE_INT */
-     , (97, 5, 810) /* ENCUMB_VAL_INT */
-     , (97, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (97, 28, 45) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (97, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (97, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (97, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (97, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (97, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (97, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (97, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (97, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (97, 100, 1) /* DYABLE_BOOL */;
-

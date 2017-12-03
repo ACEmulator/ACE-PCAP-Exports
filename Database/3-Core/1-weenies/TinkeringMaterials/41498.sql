@@ -48,19 +48,6 @@ VALUES (41498, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41498, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41498, 14, 'Apply Salvaged Gromnie Hide to this Armature. This Armature can then be used on a magical loot-generated Trinket to add Augmented Damage Reduction II.') /* USE_STRING */
-     , (41498, 15, 'A Moderate Item Tinkering Armature prepared with Gromnie Hide.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41498, 33, 1) /* BONDED_INT */
-     , (41498, 19, 10) /* VALUE_INT */
-     , (41498, 5, 100) /* ENCUMB_VAL_INT */
-     , (41498, 105, 35) /* ITEM_WORKMANSHIP_INT */
-     , (41498, 170, 4) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

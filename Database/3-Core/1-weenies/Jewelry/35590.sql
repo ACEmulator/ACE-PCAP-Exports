@@ -37,30 +37,3 @@ VALUES (35590, 13, True) /* ETHEREAL_BOOL */
      , (35590, 19, True) /* ATTACKABLE_BOOL */
      , (35590, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35590, 16, 'A powerful charm crafted by Bonecrunch. The charm emanates magical energy.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35590, 160, 80) /* WIELD_DIFFICULTY_INT */
-     , (35590, 19, 8000) /* VALUE_INT */
-     , (35590, 5, 40) /* ENCUMB_VAL_INT */
-     , (35590, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (35590, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (35590, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (35590, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (35590, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (35590, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (35590, 2004) /* WarriorsVitality_SpellID */
-     , (35590, 2008) /* WarriorsVigor_SpellID */
-     , (35590, 2012) /* WizardsIntellect_SpellID */
-     , (35590, 4090) /* DrudgeArmor_SpellID */
-     , (35590, 4093) /* DontBiteMe_SpellID */
-     , (35590, 4094) /* DontBurnMe_SpellID */
-     , (35590, 4095) /* DontStabMe_SpellID */;
-

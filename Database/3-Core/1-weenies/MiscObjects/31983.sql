@@ -31,15 +31,3 @@ VALUES (31983, 13, True) /* ETHEREAL_BOOL */
      , (31983, 19, True) /* ATTACKABLE_BOOL */
      , (31983, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31983, 16, 'An unreadable Falatacot volume found upon the defeated corpse of the Falatacot High Priestess Xik Minru.') /* LONG_DESC_STRING */
-     , (31983, 14, 'Bring this to Fanzen San in Hebian-to for translation.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31983, 33, 1) /* BONDED_INT */
-     , (31983, 114, 1) /* ATTUNED_INT */
-     , (31983, 19, 0) /* VALUE_INT */
-     , (31983, 5, 50) /* ENCUMB_VAL_INT */;
-

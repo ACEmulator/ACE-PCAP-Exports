@@ -34,17 +34,3 @@ VALUES (27685, 13, True) /* ETHEREAL_BOOL */
      , (27685, 19, True) /* ATTACKABLE_BOOL */
      , (27685, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27685, 16, 'This key looks to have been well-cast on a lugian forge. It was found in the Tufa Stronghold.') /* LONG_DESC_STRING */
-     , (27685, 14, 'Use this item on a locked chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27685, 19, 0) /* VALUE_INT */
-     , (27685, 5, 50) /* ENCUMB_VAL_INT */
-     , (27685, 91, 1) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27685, 69, 0) /* IS_SELLABLE_BOOL */;
-

@@ -47,32 +47,3 @@ VALUES (30557, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30557, 0, 16792134);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30557, 16, 'Acid Hatchet') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30557, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (30557, 353, 3) /* WEAPON_TYPE_INT */
-     , (30557, 19, 463) /* VALUE_INT */
-     , (30557, 131, 75) /* MATERIAL_TYPE_INT */
-     , (30557, 5, 425) /* ENCUMB_VAL_INT */
-     , (30557, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (30557, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (30557, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (30557, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (30557, 47, 4) /* ATTACK_TYPE_INT */
-     , (30557, 45, 32) /* DAMAGE_TYPE_INT */
-     , (30557, 49, 28) /* WEAPON_TIME_INT */
-     , (30557, 48, 46) /* WEAPON_SKILL_INT */
-     , (30557, 44, 29) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30557, 29, 1.01) /* WEAPON_DEFENSE_FLOAT */
-     , (30557, 22, 0.85) /* DAMAGE_VARIANCE_FLOAT */
-     , (30557, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (30557, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (30557, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (30557, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
-

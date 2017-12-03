@@ -53,37 +53,3 @@ VALUES (168, 0, 83889549, 83889549);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (168, 0, 16778757);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (168, 16, 'Tankard of Item Tinkering') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (168, 353, 10) /* WEAPON_TYPE_INT */
-     , (168, 19, 2220) /* VALUE_INT */
-     , (168, 131, 1) /* MATERIAL_TYPE_INT */
-     , (168, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (168, 5, 50) /* ENCUMB_VAL_INT */
-     , (168, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (168, 106, 245) /* ITEM_SPELLCRAFT_INT */
-     , (168, 108, 911) /* ITEM_MAX_MANA_INT */
-     , (168, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (168, 109, 183) /* ITEM_DIFFICULTY_INT */
-     , (168, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (168, 45, 4) /* DAMAGE_TYPE_INT */
-     , (168, 49, 10) /* WEAPON_TIME_INT */
-     , (168, 48, 47) /* WEAPON_SKILL_INT */
-     , (168, 44, 14) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (168, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (168, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (168, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (168, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (168, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (168, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (168, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (168, 731) /* ItemExpertiseSelf6_SpellID */;
-

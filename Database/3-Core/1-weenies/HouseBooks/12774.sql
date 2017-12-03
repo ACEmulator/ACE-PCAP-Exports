@@ -76,14 +76,6 @@ VALUES (12774, 0, 16783897)
      , (12774, 14, 16783855)
      , (12774, 16, 16783677);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12774, 19, 125) /* VALUE_INT */
-     , (12774, 5, 9000) /* ENCUMB_VAL_INT */
-     , (12774, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (12774, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

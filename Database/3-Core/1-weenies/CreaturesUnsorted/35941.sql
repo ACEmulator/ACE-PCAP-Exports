@@ -39,28 +39,6 @@ VALUES (35941, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35941, 67113224, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35941, 5, 'Oolutanga''s Doppleganger') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35941, 2, 8) /* CREATURE_TYPE_INT */
-     , (35941, 25, 500) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (35941, 1, 800) /* STRENGTH_ATTRIBUTE */
-     , (35941, 2, 800) /* ENDURANCE_ATTRIBUTE */
-     , (35941, 4, 800) /* COORDINATION_ATTRIBUTE */
-     , (35941, 8, 800) /* QUICKNESS_ATTRIBUTE */
-     , (35941, 16, 800) /* FOCUS_ATTRIBUTE */
-     , (35941, 32, 800) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35941, 64, 200000) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (35941, 128, 90000) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (35941, 256, 200000) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

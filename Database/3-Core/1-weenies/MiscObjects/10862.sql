@@ -44,14 +44,3 @@ VALUES (10862, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10862, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10862, 15, 'A token of your completion of the Legionary Quest.  Please give this back to Behdo in order for him to change your title to Exterminator.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10862, 33, 1) /* BONDED_INT */
-     , (10862, 114, 1) /* ATTUNED_INT */
-     , (10862, 19, 0) /* VALUE_INT */
-     , (10862, 5, 10) /* ENCUMB_VAL_INT */;
-

@@ -34,12 +34,3 @@ VALUES (1809, 0, 83892071, 83892182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1809, 0, 16783205);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1809, 16, 'The Shining Word') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1809, 19, 125) /* VALUE_INT */
-     , (1809, 5, 9000) /* ENCUMB_VAL_INT */;
-

@@ -38,37 +38,6 @@ VALUES (35948, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (35948, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (35948, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35948, 16, 'A menacing Tusker Shrine. An impression in the shape of a tusker paw can be clearly seen in the stones on the base of the shrine.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35948, 384, 0) /*  */
-     , (35948, 370, 0) /* GEAR_DAMAGE_INT */
-     , (35948, 386, 0) /*  */
-     , (35948, 307, 0) /* DAMAGE_RATING_INT */
-     , (35948, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (35948, 387, 0) /*  */
-     , (35948, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (35948, 372, 0) /* GEAR_CRIT_INT */
-     , (35948, 388, 0) /*  */
-     , (35948, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (35948, 389, 0) /*  */
-     , (35948, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (35948, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (35948, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (35948, 313, 0) /* CRIT_RATING_INT */
-     , (35948, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (35948, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (35948, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (35948, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (35948, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (35948, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (35948, 381, 0) /*  */
-     , (35948, 382, 0) /*  */
-     , (35948, 383, 0) /*  */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)

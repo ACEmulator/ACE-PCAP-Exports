@@ -34,11 +34,3 @@ VALUES (5002, 13, True) /* ETHEREAL_BOOL */
      , (5002, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5002, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5002, 19, 3) /* VALUE_INT */
-     , (5002, 5, 25) /* ENCUMB_VAL_INT */
-     , (5002, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (5002, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

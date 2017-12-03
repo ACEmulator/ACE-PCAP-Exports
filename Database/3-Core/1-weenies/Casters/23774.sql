@@ -41,23 +41,3 @@ VALUES (23774, 13, True) /* ETHEREAL_BOOL */
      , (23774, 19, True) /* ATTACKABLE_BOOL */
      , (23774, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23774, 16, 'A magical beer stein that can be used to focus magic.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23774, 19, 2000) /* VALUE_INT */
-     , (23774, 117, 75) /* ITEM_MANA_COST_INT */
-     , (23774, 5, 50) /* ENCUMB_VAL_INT */
-     , (23774, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (23774, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (23774, 109, 50) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23774, 144, 0.07) /* MANA_CONVERSION_MOD_FLOAT */
-     , (23774, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (23774, 1679) /* StaminatoManaSelf4_SpellID */;
-

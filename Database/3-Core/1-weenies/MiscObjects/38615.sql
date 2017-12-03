@@ -37,15 +37,3 @@ VALUES (38615, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38615, 67112898, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38615, 16, 'A small crystal, given to you to help you analyze the qualities of potential ley lines upon the Dark Isle.') /* LONG_DESC_STRING */
-     , (38615, 14, 'Use stones that are placed in places that you believe should be tested with the crystal.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38615, 33, 1) /* BONDED_INT */
-     , (38615, 114, 1) /* ATTUNED_INT */
-     , (38615, 19, 0) /* VALUE_INT */
-     , (38615, 5, 25) /* ENCUMB_VAL_INT */;
-

@@ -40,24 +40,3 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (42667, 67109966, 240, 10)
      , (42667, 67110348, 250, 6);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42667, 15, 'A finely crafted Top Hat that can be tailored with other items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42667, 19, 1200) /* VALUE_INT */
-     , (42667, 5, 100) /* ENCUMB_VAL_INT */
-     , (42667, 105, 10) /* ITEM_WORKMANSHIP_INT */
-     , (42667, 28, 110) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (42667, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (42667, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (42667, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (42667, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (42667, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (42667, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (42667, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (42667, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

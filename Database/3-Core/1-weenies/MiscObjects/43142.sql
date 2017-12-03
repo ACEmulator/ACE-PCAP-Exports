@@ -37,20 +37,6 @@ VALUES (43142, 13, True) /* ETHEREAL_BOOL */
      , (43142, 14, True) /* GRAVITY_STATUS_BOOL */
      , (43142, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43142, 15, 'An ornate, tiny representation of a Gear that is used by the Gear Knights as a form of currency.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43142, 33, 1) /* BONDED_INT */
-     , (43142, 114, 1) /* ATTUNED_INT */
-     , (43142, 19, 1) /* VALUE_INT */
-     , (43142, 5, 1) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43142, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

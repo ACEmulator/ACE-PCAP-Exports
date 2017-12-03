@@ -34,12 +34,3 @@ VALUES (26588, 13, True) /* ETHEREAL_BOOL */
      , (26588, 19, True) /* ATTACKABLE_BOOL */
      , (26588, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (26588, 16, 'This device looks to be akin to a portal. It seems to be dormant at the moment. Perhaps if it were hooked in a mansion.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (26588, 19, 120000) /* VALUE_INT */
-     , (26588, 5, 5000) /* ENCUMB_VAL_INT */;
-

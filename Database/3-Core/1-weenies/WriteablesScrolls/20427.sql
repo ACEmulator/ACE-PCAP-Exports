@@ -35,17 +35,3 @@ VALUES (20427, 13, True) /* ETHEREAL_BOOL */
      , (20427, 19, True) /* ATTACKABLE_BOOL */
      , (20427, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20427, 16, 'Inscribed spell: Aura of Mystic''s Blessing
-Increases a magic casting implement''s mana conversion bonus by 70%.') /* LONG_DESC_STRING */
-     , (20427, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20427, 19, 2000) /* VALUE_INT */
-     , (20427, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20427, 2117) /* Truevalue7_SpellID */;
-

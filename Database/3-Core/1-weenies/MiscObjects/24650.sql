@@ -31,14 +31,3 @@ VALUES (24650, 13, True) /* ETHEREAL_BOOL */
      , (24650, 19, True) /* ATTACKABLE_BOOL */
      , (24650, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24650, 15, 'The claw of a departed adolescent Olthoi Brood Queen.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24650, 33, 1) /* BONDED_INT */
-     , (24650, 114, 1) /* ATTUNED_INT */
-     , (24650, 19, 0) /* VALUE_INT */
-     , (24650, 5, 50) /* ENCUMB_VAL_INT */;
-

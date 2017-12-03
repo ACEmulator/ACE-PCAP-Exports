@@ -50,16 +50,3 @@ VALUES (52192, 0, 83892725, 83892725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52192, 0, 16784961);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52192, 16, 'A small, heavy pumpkin, carved into a Jack o'' Lantern and swirling with magical energies.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52192, 19, 200) /* VALUE_INT */
-     , (52192, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (52192, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (52192, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */;
-

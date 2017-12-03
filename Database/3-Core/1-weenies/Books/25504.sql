@@ -33,14 +33,3 @@ VALUES (25504, 13, True) /* ETHEREAL_BOOL */
      , (25504, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25504, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25504, 16, 'An important looking letter addressed to General Garsh.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25504, 19, 0) /* VALUE_INT */
-     , (25504, 5, 25) /* ENCUMB_VAL_INT */
-     , (25504, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (25504, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

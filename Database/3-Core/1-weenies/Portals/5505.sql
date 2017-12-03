@@ -33,11 +33,3 @@ VALUES (5505, 13, True) /* ETHEREAL_BOOL */
      , (5505, 19, True) /* ATTACKABLE_BOOL */
      , (5505, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5505, 38, 'Enkindled Souls') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5505, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -35,13 +35,3 @@ VALUES (45024, 13, True) /* ETHEREAL_BOOL */
      , (45024, 19, True) /* ATTACKABLE_BOOL */
      , (45024, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45024, 14, 'This key unlocks a door in the Frozen Wight Lair.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45024, 19, 100) /* VALUE_INT */
-     , (45024, 5, 50) /* ENCUMB_VAL_INT */
-     , (45024, 91, 2) /* MAX_STRUCTURE_INT */;
-

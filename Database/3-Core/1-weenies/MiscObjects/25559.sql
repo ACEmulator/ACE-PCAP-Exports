@@ -32,12 +32,3 @@ VALUES (25559, 13, True) /* ETHEREAL_BOOL */
      , (25559, 19, True) /* ATTACKABLE_BOOL */
      , (25559, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25559, 16, 'A piece of tattered cloth and metal with a face cut into it.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25559, 19, 0) /* VALUE_INT */
-     , (25559, 5, 50) /* ENCUMB_VAL_INT */;
-

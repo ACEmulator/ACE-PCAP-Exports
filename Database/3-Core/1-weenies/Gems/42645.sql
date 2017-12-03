@@ -41,19 +41,6 @@ VALUES (42645, 0, 83889688, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42645, 0, 16783974);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42645, 16, 'An specially enhanced mana stone used to bathe Coalesced Aetheria in mana.') /* LONG_DESC_STRING */
-     , (42645, 14, 'Use this on Coalesced Aetheria to bring its sigil to the surface and activate it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42645, 19, 0) /* VALUE_INT */
-     , (42645, 5, 1) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (42645, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

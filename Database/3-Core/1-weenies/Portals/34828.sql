@@ -33,11 +33,3 @@ VALUES (34828, 13, True) /* ETHEREAL_BOOL */
      , (34828, 19, True) /* ATTACKABLE_BOOL */
      , (34828, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34828, 38, 'Southern Catacombs Exit') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34828, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -39,27 +39,3 @@ VALUES (36767, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (36767, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (36767, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36767, 5, 'Master of the Lyceum') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36767, 2, 51) /* CREATURE_TYPE_INT */
-     , (36767, 307, 5) /* DAMAGE_RATING_INT */
-     , (36767, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (36767, 25, 710) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (36767, 1, 400) /* STRENGTH_ATTRIBUTE */
-     , (36767, 2, 600) /* ENDURANCE_ATTRIBUTE */
-     , (36767, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (36767, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (36767, 16, 500) /* FOCUS_ATTRIBUTE */
-     , (36767, 32, 600) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36767, 64, 900) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (36767, 128, 990) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (36767, 256, 5000) /* MAX_MANA_ATTRIBUTE_2ND */;
-

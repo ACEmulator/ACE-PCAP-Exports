@@ -38,16 +38,6 @@ VALUES (6324, 13, True) /* ETHEREAL_BOOL */
      , (6324, 19, True) /* ATTACKABLE_BOOL */
      , (6324, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6324, 16, 'A glyph with the image of a dagger emblazoned upon it.') /* LONG_DESC_STRING */
-     , (6324, 14, 'Use this on a refined chunk of low or high-grade chorizite.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6324, 19, 5000) /* VALUE_INT */
-     , (6324, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

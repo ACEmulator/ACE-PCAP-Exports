@@ -50,14 +50,3 @@ VALUES (22793, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22793, 0, 16777934);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22793, 19, 500) /* VALUE_INT */
-     , (22793, 5, 50) /* ENCUMB_VAL_INT */
-     , (22793, 90, 10) /* BOOST_VALUE_INT */
-     , (22793, 91, 35) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (22793, 100, 1.5) /* HEALKIT_MOD_FLOAT */;
-

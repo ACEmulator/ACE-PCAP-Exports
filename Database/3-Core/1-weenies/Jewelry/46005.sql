@@ -47,24 +47,3 @@ VALUES (46005, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46005, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46005, 33, 1) /* BONDED_INT */
-     , (46005, 114, 1) /* ATTUNED_INT */
-     , (46005, 19, 100) /* VALUE_INT */
-     , (46005, 5, 15) /* ENCUMB_VAL_INT */
-     , (46005, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (46005, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (46005, 109, 100) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (46005, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46005, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (46005, 1408) /* QuicknessOther6_SpellID */
-     , (46005, 2582) /* CANTRIPQUICKNESS1_SpellID */;
-

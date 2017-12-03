@@ -33,13 +33,3 @@ VALUES (32125, 13, True) /* ETHEREAL_BOOL */
      , (32125, 19, True) /* ATTACKABLE_BOOL */
      , (32125, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32125, 16, 'You must obtain the blessing of the Gatekeepers before using this portal.') /* LONG_DESC_STRING */
-     , (32125, 38, 'Gatekeepers (87.6S, 4.4W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32125, 86, 130) /* MIN_LEVEL_INT */
-     , (32125, 111, 17) /* PORTAL_BITMASK_INT */;
-

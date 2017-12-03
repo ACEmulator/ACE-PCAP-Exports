@@ -40,21 +40,6 @@ VALUES (22448, 0, 83890064, 83889696);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22448, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22448, 14, 'Use this bundle of treated mandrake with a bundle of treated hyssop.') /* USE_STRING */
-     , (22448, 15, 'A bundle of wrapped mandrake with a pungent scent.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22448, 33, 0) /* BONDED_INT */
-     , (22448, 114, 0) /* ATTUNED_INT */
-     , (22448, 19, 0) /* VALUE_INT */
-     , (22448, 5, 780) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22448, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

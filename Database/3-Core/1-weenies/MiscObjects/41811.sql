@@ -44,21 +44,6 @@ VALUES (41811, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41811, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41811, 16, 'A damaged commendation ribbon lost by a Radiant Blood agent.') /* LONG_DESC_STRING */
-     , (41811, 14, 'Return this ribbon to your society agent. ') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41811, 33, 1) /* BONDED_INT */
-     , (41811, 114, 1) /* ATTUNED_INT */
-     , (41811, 19, 0) /* VALUE_INT */
-     , (41811, 5, 0) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (41811, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

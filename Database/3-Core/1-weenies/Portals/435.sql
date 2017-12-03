@@ -33,11 +33,3 @@ VALUES (435, 13, True) /* ETHEREAL_BOOL */
      , (435, 19, True) /* ATTACKABLE_BOOL */
      , (435, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (435, 38, 'North Gemm (16.3N, 14.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (435, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -31,12 +31,3 @@ VALUES (31451, 13, True) /* ETHEREAL_BOOL */
      , (31451, 19, True) /* ATTACKABLE_BOOL */
      , (31451, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31451, 16, 'Half of a battered old axe. This piece looks purposeful, however, not like it is merely broken. If you can find the other half, you may be able to put it back together. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31451, 19, 0) /* VALUE_INT */
-     , (31451, 5, 50) /* ENCUMB_VAL_INT */;
-

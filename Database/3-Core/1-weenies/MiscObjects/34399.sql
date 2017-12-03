@@ -37,13 +37,3 @@ VALUES (34399, 13, True) /* ETHEREAL_BOOL */
      , (34399, 19, True) /* ATTACKABLE_BOOL */
      , (34399, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34399, 16, 'A simple doll house crafted like the ones back on Ispar.') /* LONG_DESC_STRING */
-     , (34399, 14, 'This item can be placed on floor and yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34399, 19, 100) /* VALUE_INT */
-     , (34399, 5, 200) /* ENCUMB_VAL_INT */;
-

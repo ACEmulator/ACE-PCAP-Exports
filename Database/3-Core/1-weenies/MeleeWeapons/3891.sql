@@ -51,35 +51,3 @@ VALUES (3891, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3891, 0, 16777915);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3891, 16, 'Flaming Tachi') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3891, 160, 420) /* WIELD_DIFFICULTY_INT */
-     , (3891, 353, 2) /* WEAPON_TYPE_INT */
-     , (3891, 177, 1) /* GEM_COUNT_INT */
-     , (3891, 178, 21) /* GEM_TYPE_INT */
-     , (3891, 19, 21505) /* VALUE_INT */
-     , (3891, 131, 38) /* MATERIAL_TYPE_INT */
-     , (3891, 5, 314) /* ENCUMB_VAL_INT */
-     , (3891, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (3891, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3891, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3891, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (3891, 47, 6) /* ATTACK_TYPE_INT */
-     , (3891, 45, 16) /* DAMAGE_TYPE_INT */
-     , (3891, 49, 29) /* WEAPON_TIME_INT */
-     , (3891, 48, 44) /* WEAPON_SKILL_INT */
-     , (3891, 44, 66) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3891, 29, 1.13) /* WEAPON_DEFENSE_FLOAT */
-     , (3891, 150, 1.04) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (3891, 22, 0.53) /* DAMAGE_VARIANCE_FLOAT */
-     , (3891, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3891, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3891, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3891, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
-

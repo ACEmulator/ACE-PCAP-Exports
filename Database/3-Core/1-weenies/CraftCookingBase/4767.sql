@@ -36,15 +36,6 @@ VALUES (4767, 13, True) /* ETHEREAL_BOOL */
      , (4767, 14, True) /* GRAVITY_STATUS_BOOL */
      , (4767, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4767, 14, 'This item is used in cooking.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4767, 19, 2) /* VALUE_INT */
-     , (4767, 5, 20) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

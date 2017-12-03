@@ -50,21 +50,6 @@ VALUES (36634, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36634, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36634, 14, 'Apply this material to treasure-generated armor to imbue the target with a +1 bonus to Melee Defense.') /* USE_STRING */
-     , (36634, 15, 'Chips of peridot. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36634, 33, 1) /* BONDED_INT */
-     , (36634, 131, 34) /* MATERIAL_TYPE_INT */
-     , (36634, 19, 10) /* VALUE_INT */
-     , (36634, 5, 5) /* ENCUMB_VAL_INT */
-     , (36634, 105, 100) /* ITEM_WORKMANSHIP_INT */
-     , (36634, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */
-     , (36634, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

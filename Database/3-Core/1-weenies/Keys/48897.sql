@@ -34,14 +34,3 @@ VALUES (48897, 13, True) /* ETHEREAL_BOOL */
      , (48897, 19, True) /* ATTACKABLE_BOOL */
      , (48897, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48897, 16, 'A key dropped by Janthef''s Weapon Guardian.') /* LONG_DESC_STRING */
-     , (48897, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48897, 19, 0) /* VALUE_INT */
-     , (48897, 5, 20) /* ENCUMB_VAL_INT */
-     , (48897, 91, 1) /* MAX_STRUCTURE_INT */;
-

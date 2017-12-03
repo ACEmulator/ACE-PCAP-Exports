@@ -38,12 +38,3 @@ VALUES (10704, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (10704, 67112941, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10704, 16, 'A Small Niffis Shell.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10704, 19, 0) /* VALUE_INT */
-     , (10704, 5, 100) /* ENCUMB_VAL_INT */;
-

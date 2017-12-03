@@ -42,12 +42,3 @@ VALUES (11777, 0, 83893725, 83893724)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11777, 0, 16787138);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11777, 16, 'Killed by Fquick.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11777, 19, 0) /* VALUE_INT */
-     , (11777, 5, 6720) /* ENCUMB_VAL_INT */;
-

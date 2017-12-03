@@ -35,17 +35,3 @@ VALUES (28937, 13, True) /* ETHEREAL_BOOL */
      , (28937, 19, True) /* ATTACKABLE_BOOL */
      , (28937, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28937, 16, 'Inscribed spell: Arcanum Salvaging Self V
-Increases the caster''s Salvaging skill by 30 points.') /* LONG_DESC_STRING */
-     , (28937, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28937, 19, 200) /* VALUE_INT */
-     , (28937, 5, 10) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (28937, 3503) /* ArcanumSalvaging5_SpellID */;
-

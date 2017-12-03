@@ -37,20 +37,6 @@ VALUES (44968, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44968, 67111923, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44968, 14, 'Combine this gem with an attribute lowering gem to transfer up to 10 points of another attribute to your endurance. ') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44968, 33, 1) /* BONDED_INT */
-     , (44968, 98, 1485833076) /* CREATION_TIMESTAMP_INT */
-     , (44968, 114, 1) /* ATTUNED_INT */
-     , (44968, 19, 0) /* VALUE_INT */
-     , (44968, 5, 10) /* ENCUMB_VAL_INT */
-     , (44968, 267, 900) /* LIFESPAN_INT */
-     , (44968, 268, 900) /* REMAINING_LIFESPAN_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

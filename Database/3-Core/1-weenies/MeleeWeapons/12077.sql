@@ -39,29 +39,3 @@ VALUES (12077, 13, True) /* ETHEREAL_BOOL */
      , (12077, 19, True) /* ATTACKABLE_BOOL */
      , (12077, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12077, 16, 'Cloth Gloves') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12077, 19, 11150) /* VALUE_INT */
-     , (12077, 131, 54) /* MATERIAL_TYPE_INT */
-     , (12077, 5, 25) /* ENCUMB_VAL_INT */
-     , (12077, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (12077, 28, 277) /* ARMOR_LEVEL_INT */
-     , (12077, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12077, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (12077, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (12077, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (12077, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (12077, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (12077, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (12077, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (12077, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (12077, 100, 1) /* DYABLE_BOOL */;
-

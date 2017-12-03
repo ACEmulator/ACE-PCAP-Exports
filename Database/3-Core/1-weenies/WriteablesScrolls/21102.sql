@@ -35,17 +35,3 @@ VALUES (21102, 13, True) /* ETHEREAL_BOOL */
      , (21102, 19, True) /* ATTACKABLE_BOOL */
      , (21102, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21102, 16, 'Inscribed spell: Martyr''s Blight I
-Drains one-quarter of the caster''s mana into a bolt of energy.  When struck by the bolt, the target''s mana is reduced by 75% of the amount drained.') /* LONG_DESC_STRING */
-     , (21102, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21102, 19, 1) /* VALUE_INT */
-     , (21102, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (21102, 2774) /* ManaBolt1_SpellID */;
-

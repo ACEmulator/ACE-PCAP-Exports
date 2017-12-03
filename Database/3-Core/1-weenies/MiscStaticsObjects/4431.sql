@@ -30,12 +30,3 @@ VALUES (4431, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4431, 19, True) /* ATTACKABLE_BOOL */
      , (4431, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4431, 16, 'This way to Rithwic!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4431, 19, 125) /* VALUE_INT */
-     , (4431, 5, 9000) /* ENCUMB_VAL_INT */;
-

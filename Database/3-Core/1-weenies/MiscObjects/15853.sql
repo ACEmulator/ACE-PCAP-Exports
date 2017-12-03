@@ -46,18 +46,6 @@ VALUES (15853, 0, 83892962, 83893942)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15853, 0, 16785505);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15853, 16, 'A binding that once contained several pages of text, the pages seem to have been removed, or dropped. Eight pages, appear to complete the tome, but none are within the binding at this time.') /* LONG_DESC_STRING */
-     , (15853, 14, 'Use on a scrawled note to put the pages back into the book.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15853, 33, 1) /* BONDED_INT */
-     , (15853, 114, 1) /* ATTUNED_INT */
-     , (15853, 19, 0) /* VALUE_INT */
-     , (15853, 5, 100) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -53,27 +53,6 @@ VALUES (32939, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32939, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32939, 16, 'A request to all Virindi sympathetic to Aerbax''s cause. We would acquire a source of power from beneath the black plains the humans call the Direlands. This power source would be of significant benefit to our affairs.') /* LONG_DESC_STRING */
-     , (32939, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 100)') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32939, 19, 500) /* VALUE_INT */
-     , (32939, 5, 10) /* ENCUMB_VAL_INT */
-     , (32939, 280, 1000) /* SHARED_COOLDOWN_INT */
-     , (32939, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (32939, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (32939, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (32939, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32939, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (32939, 157) /* SummonPortal1_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

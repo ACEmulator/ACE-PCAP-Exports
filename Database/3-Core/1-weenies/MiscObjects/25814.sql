@@ -33,21 +33,6 @@ VALUES (25814, 13, True) /* ETHEREAL_BOOL */
      , (25814, 19, True) /* ATTACKABLE_BOOL */
      , (25814, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25814, 14, 'Something can be applied to these crystals, but what that item is, is unclear.') /* USE_STRING */
-     , (25814, 15, 'These crystals appeared to be fit together to form sollerets when you found them, but they come apart easily.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25814, 33, 1) /* BONDED_INT */
-     , (25814, 114, 1) /* ATTUNED_INT */
-     , (25814, 19, 0) /* VALUE_INT */
-     , (25814, 5, 500) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25814, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

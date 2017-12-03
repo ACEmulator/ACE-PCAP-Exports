@@ -34,16 +34,6 @@ VALUES (2622, 13, True) /* ETHEREAL_BOOL */
      , (2622, 14, True) /* GRAVITY_STATUS_BOOL */
      , (2622, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2622, 15, 'Worth 500 pyreals if presented to Belbeca in Eastham.  Can be exchanged with any other vendor at a reduced rate.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2622, 33, 1) /* BONDED_INT */
-     , (2622, 19, 500) /* VALUE_INT */
-     , (2622, 5, 1) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

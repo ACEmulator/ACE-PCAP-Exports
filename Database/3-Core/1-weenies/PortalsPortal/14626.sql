@@ -33,11 +33,3 @@ VALUES (14626, 13, True) /* ETHEREAL_BOOL */
      , (14626, 19, True) /* ATTACKABLE_BOOL */
      , (14626, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14626, 38, 'Empyrean Fields Cottages Portal (38.2S, 43.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14626, 111, 1) /* PORTAL_BITMASK_INT */;
-

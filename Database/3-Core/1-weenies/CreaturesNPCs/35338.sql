@@ -57,16 +57,3 @@ VALUES (35338, 14, 16788538)
      , (35338, 5, 16788484)
      , (35338, 0, 16788470);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35338, 5, 'Chief''s Personal Guard') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35338, 2, 2) /* CREATURE_TYPE_INT */
-     , (35338, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (35338, 25, 170) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35338, 64, 12000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

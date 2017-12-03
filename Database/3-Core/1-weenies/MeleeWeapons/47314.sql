@@ -48,12 +48,3 @@ VALUES (47314, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47314, 0, 16792613);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47314, 2, 77) /* CREATURE_TYPE_INT */
-     , (47314, 25, 180) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (47314, 64, 1020) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

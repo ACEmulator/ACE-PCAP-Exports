@@ -49,36 +49,3 @@ VALUES (21911, 0, 83894279, 83894279)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21911, 0, 16788368);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21911, 15, 'A stave carved from obsidian, a large sapphire rests at the tip.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21911, 160, 2) /* WIELD_DIFFICULTY_INT */
-     , (21911, 19, 4000) /* VALUE_INT */
-     , (21911, 5, 120) /* ENCUMB_VAL_INT */
-     , (21911, 166, 1) /* SLAYER_CREATURE_TYPE_INT */
-     , (21911, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (21911, 108, 10000) /* ITEM_MAX_MANA_INT */
-     , (21911, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (21911, 158, 8) /* WIELD_REQUIREMENTS_INT */
-     , (21911, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (21911, 159, 34) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (21911, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (21911, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (21911, 5, -1) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21911, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (21911, 2782) /* LesserElementalFuryFlame_SpellID */
-     , (21911, 640) /* WarMagicMasteryOther6_SpellID */
-     , (21911, 2581) /* CANTRIPFOCUS1_SpellID */
-     , (21911, 664) /* ManaMasteryOther6_SpellID */
-     , (21911, 2584) /* CANTRIPWILLPOWER1_SpellID */
-     , (21911, 2812) /* ModerateWarMagicAptitude_SpellID */;
-

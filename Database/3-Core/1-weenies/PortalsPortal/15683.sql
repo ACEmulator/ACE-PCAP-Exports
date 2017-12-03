@@ -33,11 +33,3 @@ VALUES (15683, 13, True) /* ETHEREAL_BOOL */
      , (15683, 19, True) /* ATTACKABLE_BOOL */
      , (15683, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15683, 38, 'Shield of Valor Cottages Portal (29.5N, 33.5W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15683, 111, 1) /* PORTAL_BITMASK_INT */;
-

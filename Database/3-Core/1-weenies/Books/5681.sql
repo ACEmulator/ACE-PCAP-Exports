@@ -35,14 +35,3 @@ VALUES (5681, 13, True) /* ETHEREAL_BOOL */
      , (5681, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5681, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5681, 16, 'A weighty, leather-bound history of some vintage.  The front plate has "From Harlune''s Library" scrawled across the bottom') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5681, 19, 800) /* VALUE_INT */
-     , (5681, 5, 6400) /* ENCUMB_VAL_INT */
-     , (5681, 174, 49) /* APPRAISAL_PAGES_INT */
-     , (5681, 175, 49) /* APPRAISAL_MAX_PAGES_INT */;
-

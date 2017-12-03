@@ -47,27 +47,3 @@ VALUES (14485, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14485, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14485, 14, 'You must be over Level 20 to use this ring.') /* USE_STRING */
-     , (14485, 15, 'Elysa''s gift to you, in recognition for your brave service for the kingdom.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14485, 160, 20) /* WIELD_DIFFICULTY_INT */
-     , (14485, 33, 1) /* BONDED_INT */
-     , (14485, 19, 3500) /* VALUE_INT */
-     , (14485, 5, 15) /* ENCUMB_VAL_INT */
-     , (14485, 106, 115) /* ITEM_SPELLCRAFT_INT */
-     , (14485, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (14485, 109, 115) /* ITEM_DIFFICULTY_INT */
-     , (14485, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (14485, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (14485, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (14485, 1997) /* LifeGiver_SpellID */
-     , (14485, 2583) /* CANTRIPSTRENGTH1_SpellID */;
-

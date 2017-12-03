@@ -60,15 +60,6 @@ VALUES (35378, 2, 16792427)
      , (35378, 14, 16792451)
      , (35378, 16, 16792458);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35378, 16, 'Killed by High-Voltage II.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35378, 19, 0) /* VALUE_INT */
-     , (35378, 5, 6010) /* ENCUMB_VAL_INT */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -33,12 +33,3 @@ VALUES (42811, 13, True) /* ETHEREAL_BOOL */
      , (42811, 19, True) /* ATTACKABLE_BOOL */
      , (42811, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42811, 16, 'This portal goes to Stonehold. a remote village found in the westernmost reaches of the Esper mountain range. This is a good town for characters over level 50.') /* LONG_DESC_STRING */
-     , (42811, 38, 'Stonehold Portal (68.7N, 21.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42811, 111, 1) /* PORTAL_BITMASK_INT */;
-

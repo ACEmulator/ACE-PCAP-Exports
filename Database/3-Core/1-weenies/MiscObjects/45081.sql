@@ -35,16 +35,3 @@ VALUES (45081, 13, True) /* ETHEREAL_BOOL */
      , (45081, 19, True) /* ATTACKABLE_BOOL */
      , (45081, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45081, 16, 'A bag of delicious gumdrops') /* LONG_DESC_STRING */
-     , (45081, 14, 'Use this bag to summon or dismiss your Pet Gumdrop.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45081, 19, 10) /* VALUE_INT */
-     , (45081, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (45081, 69, 1) /* IS_SELLABLE_BOOL */;
-

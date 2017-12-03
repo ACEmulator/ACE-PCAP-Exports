@@ -41,36 +41,3 @@ VALUES (33243, 13, True) /* ETHEREAL_BOOL */
      , (33243, 19, True) /* ATTACKABLE_BOOL */
      , (33243, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33243, 16, 'The Harbinger''s casting finger.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33243, 160, 180) /* WIELD_DIFFICULTY_INT */
-     , (33243, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
-     , (33243, 115, 420) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (33243, 19, 84000) /* VALUE_INT */
-     , (33243, 5, 100) /* ENCUMB_VAL_INT */
-     , (33243, 106, 460) /* ITEM_SPELLCRAFT_INT */
-     , (33243, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (33243, 109, 120) /* ITEM_DIFFICULTY_INT */
-     , (33243, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (33243, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (33243, 144, 0.2) /* MANA_CONVERSION_MOD_FLOAT */
-     , (33243, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (33243, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (33243, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (33243, 3926) /* HarbingersFieryTouch_SpellID */
-     , (33243, 3200) /* CantripHermeticLink2_SpellID */
-     , (33243, 2525) /* CANTRIPMANACONVERSIONPROWESS2_SpellID */
-     , (33243, 2286) /* ManaMasteryOther7_SpellID */
-     , (33243, 2616) /* CANTRIPACIDWARD1_SpellID */
-     , (33243, 2618) /* CANTRIPFLAMEWARD1_SpellID */
-     , (33243, 2619) /* CANTRIPFROSTWARD1_SpellID */
-     , (33243, 2622) /* CANTRIPSTORMWARD1_SpellID */;
-

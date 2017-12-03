@@ -45,38 +45,3 @@ VALUES (25812, 0, 83889344, 83894954)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25812, 0, 16778416);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25812, 16, 'The sollerets represent the teachings of the adherents to the path of the Unicorn. They are lightweight and grant the gift of grace to the wearer.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25812, 160, 40) /* WIELD_DIFFICULTY_INT */
-     , (25812, 19, 5000) /* VALUE_INT */
-     , (25812, 5, 475) /* ENCUMB_VAL_INT */
-     , (25812, 106, 350) /* ITEM_SPELLCRAFT_INT */
-     , (25812, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (25812, 28, 220) /* ARMOR_LEVEL_INT */
-     , (25812, 109, 75) /* ITEM_DIFFICULTY_INT */
-     , (25812, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25812, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25812, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (25812, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25812, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25812, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25812, 16, 1.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25812, 17, 1.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25812, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25812, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25812, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25812, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25812, 1485) /* Impenetrability5_SpellID */
-     , (25812, 2579) /* CANTRIPCOORDINATION1_SpellID */
-     , (25812, 1384) /* CoordinationOther6_SpellID */;
-

@@ -34,17 +34,3 @@ VALUES (32832, 13, True) /* ETHEREAL_BOOL */
      , (32832, 19, True) /* ATTACKABLE_BOOL */
      , (32832, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32832, 16, 'This is the sword of Duke Bellenesse, lost when his daughter Eleonora threw the sword at Varicci II in an attempt to kill him as they fled into the Portal to Dereth.  The sword was later used, at King Varicci''s orders, to remove Eleonora''s heart.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32832, 33, 1) /* BONDED_INT */
-     , (32832, 114, 1) /* ATTUNED_INT */
-     , (32832, 19, 0) /* VALUE_INT */
-     , (32832, 5, 550) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (32832, 69, 0) /* IS_SELLABLE_BOOL */;
-

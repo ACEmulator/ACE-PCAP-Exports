@@ -35,17 +35,3 @@ VALUES (3262, 13, True) /* ETHEREAL_BOOL */
      , (3262, 19, True) /* ATTACKABLE_BOOL */
      , (3262, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3262, 16, 'Inscribed spell: Fealty Other VI
-Increases the target''s Loyalty skill by 35 points.') /* LONG_DESC_STRING */
-     , (3262, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3262, 19, 1000) /* VALUE_INT */
-     , (3262, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3262, 957) /* FealtyOther6_SpellID */;
-

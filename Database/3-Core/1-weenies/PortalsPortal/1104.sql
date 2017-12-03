@@ -33,12 +33,3 @@ VALUES (1104, 13, True) /* ETHEREAL_BOOL */
      , (1104, 19, True) /* ATTACKABLE_BOOL */
      , (1104, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1104, 38, 'North Direlands Portal (24.4N, 53.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1104, 86, 12) /* MIN_LEVEL_INT */
-     , (1104, 111, 1) /* PORTAL_BITMASK_INT */;
-

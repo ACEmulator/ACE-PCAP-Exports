@@ -49,24 +49,3 @@ VALUES (14918, 0, 83893922, 83893922)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14918, 0, 16787679);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14918, 16, 'This lightweight, shield-shaped emblem server as evidence that the bearer is married.  It is customary to inscribe the shield with the name of the beloved partner.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14918, 33, 1) /* BONDED_INT */
-     , (14918, 19, 1) /* VALUE_INT */
-     , (14918, 5, 1) /* ENCUMB_VAL_INT */
-     , (14918, 28, 0) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (14918, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (14918, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (14918, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (14918, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (14918, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (14918, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (14918, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (14918, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

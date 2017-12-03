@@ -31,18 +31,3 @@ VALUES (37058, 13, True) /* ETHEREAL_BOOL */
      , (37058, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37058, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37058, 16, 'A broken shard of Aerbax''s shattered mask. Little tendrils of shadow writhe around it and holding it makes you exceedingly nervous.') /* LONG_DESC_STRING */
-     , (37058, 14, 'Asheron''s Emissary in the South Gate might be interested in this.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37058, 33, 1) /* BONDED_INT */
-     , (37058, 114, 1) /* ATTUNED_INT */
-     , (37058, 19, 1) /* VALUE_INT */
-     , (37058, 5, 1) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (37058, 69, 0) /* IS_SELLABLE_BOOL */;
-

@@ -93,36 +93,3 @@ VALUES (8491, 12, 16777304)
      , (8491, 4, 16781838)
      , (8491, 8, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8491, 5, 'Bandit Lieutenant') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (8491, 16, 67110063) /* EYES_PALETTE_DID */
-     , (8491, 9, 83890500) /* EYES_TEXTURE_DID */
-     , (8491, 17, 67110056) /* SKIN_PALETTE_DID */
-     , (8491, 10, 83890525) /* NOSE_TEXTURE_DID */
-     , (8491, 11, 83890630) /* MOUTH_TEXTURE_DID */
-     , (8491, 15, 67116999) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8491, 113, 1) /* GENDER_INT */
-     , (8491, 2, 31) /* CREATURE_TYPE_INT */
-     , (8491, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (8491, 25, 40) /* LEVEL_INT */
-     , (8491, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (8491, 1, 190) /* STRENGTH_ATTRIBUTE */
-     , (8491, 2, 180) /* ENDURANCE_ATTRIBUTE */
-     , (8491, 4, 220) /* COORDINATION_ATTRIBUTE */
-     , (8491, 8, 210) /* QUICKNESS_ATTRIBUTE */
-     , (8491, 16, 180) /* FOCUS_ATTRIBUTE */
-     , (8491, 32, 150) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8491, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (8491, 128, 260) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (8491, 256, 170) /* MAX_MANA_ATTRIBUTE_2ND */;
-

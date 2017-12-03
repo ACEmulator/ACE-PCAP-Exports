@@ -51,12 +51,3 @@ VALUES (52293, 0, 16796578)
      , (52293, 12, 16796589)
      , (52293, 16, 16796714);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52293, 16, 'Killed by Kuroki.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52293, 19, 0) /* VALUE_INT */
-     , (52293, 5, 8463) /* ENCUMB_VAL_INT */;
-

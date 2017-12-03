@@ -33,17 +33,6 @@ VALUES (262, 13, True) /* ETHEREAL_BOOL */
      , (262, 14, True) /* GRAVITY_STATUS_BOOL */
      , (262, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (262, 14, 'Use this item to eat it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (262, 19, 40) /* VALUE_INT */
-     , (262, 5, 920) /* ENCUMB_VAL_INT */
-     , (262, 89, 4) /* BOOSTER_ENUM_INT */
-     , (262, 90, 10) /* BOOST_VALUE_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

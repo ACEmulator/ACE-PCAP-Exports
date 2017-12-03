@@ -29,12 +29,3 @@ VALUES (42907, 13, True) /* ETHEREAL_BOOL */
      , (42907, 19, True) /* ATTACKABLE_BOOL */
      , (42907, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42907, 16, 'Rats are as much a fact of life on Dereth as they were on Ispar. The rodents in this world are of unusual size, however, being two or more feet from nose to tail. While most are easy to kill, they can still be daunting when they attack in swarms. They dwell on the fringes of human habitation, and have also overrun many shallow dungeons. They attack with startling speed, leaping to sink their teeth into their victims. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42907, 19, 125) /* VALUE_INT */
-     , (42907, 5, 9000) /* ENCUMB_VAL_INT */;
-

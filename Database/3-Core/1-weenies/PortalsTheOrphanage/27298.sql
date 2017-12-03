@@ -33,12 +33,3 @@ VALUES (27298, 13, True) /* ETHEREAL_BOOL */
      , (27298, 19, True) /* ATTACKABLE_BOOL */
      , (27298, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27298, 38, 'The Orphanage') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27298, 86, 90) /* MIN_LEVEL_INT */
-     , (27298, 111, 49) /* PORTAL_BITMASK_INT */;
-

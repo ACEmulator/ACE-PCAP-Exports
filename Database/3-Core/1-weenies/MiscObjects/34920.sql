@@ -34,18 +34,3 @@ VALUES (34920, 13, True) /* ETHEREAL_BOOL */
      , (34920, 19, True) /* ATTACKABLE_BOOL */
      , (34920, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34920, 16, 'A stone block with empyrean engravings on it.') /* LONG_DESC_STRING */
-     , (34920, 14, 'Use this stone to summon or dismiss your Artisan Lockpicker''s Golem.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34920, 33, 1) /* BONDED_INT */
-     , (34920, 114, 1) /* ATTUNED_INT */
-     , (34920, 19, 0) /* VALUE_INT */
-     , (34920, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34920, 69, 0) /* IS_SELLABLE_BOOL */;
-

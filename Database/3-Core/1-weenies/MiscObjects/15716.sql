@@ -36,16 +36,6 @@ VALUES (15716, 13, True) /* ETHEREAL_BOOL */
      , (15716, 19, True) /* ATTACKABLE_BOOL */
      , (15716, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15716, 14, 'Use this vase on a flower.') /* USE_STRING */
-     , (15716, 15, 'A vase cut from the bluest crystal to be had from the Lugian quarries of Travos. You can use this item on floor hooks.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15716, 19, 10000) /* VALUE_INT */
-     , (15716, 5, 20) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

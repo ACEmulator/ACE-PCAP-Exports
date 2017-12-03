@@ -41,12 +41,3 @@ VALUES (27288, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27288, 67112860, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27288, 16, 'Killed by Thrillhouse''s Golem.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27288, 19, 0) /* VALUE_INT */
-     , (27288, 5, 6718) /* ENCUMB_VAL_INT */;
-

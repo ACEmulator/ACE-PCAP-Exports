@@ -40,23 +40,6 @@ VALUES (29917, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29917, 67113074, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29917, 16, 'Bael''Zharon, the Hopeslayer') /* LONG_DESC_STRING */
-     , (29917, 14, 'This doll may be hooked. Use this doll to read a historical lesson.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29917, 33, 1) /* BONDED_INT */
-     , (29917, 114, 0) /* ATTUNED_INT */
-     , (29917, 19, 5000) /* VALUE_INT */
-     , (29917, 5, 10) /* ENCUMB_VAL_INT */
-     , (29917, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (29917, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29917, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -48,34 +48,3 @@ VALUES (1517, 0, 83890141, 83890141);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1517, 0, 16777989);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1517, 16, 'A fiery shield that seems to give resistance against fire.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1517, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
-     , (1517, 115, 182) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (1517, 19, 7500) /* VALUE_INT */
-     , (1517, 5, 650) /* ENCUMB_VAL_INT */
-     , (1517, 106, 162) /* ITEM_SPELLCRAFT_INT */
-     , (1517, 108, 576) /* ITEM_MAX_MANA_INT */
-     , (1517, 28, 100) /* ARMOR_LEVEL_INT */
-     , (1517, 109, 71) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1517, 5, -0.066) /* MANA_RATE_FLOAT */
-     , (1517, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (1517, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (1517, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (1517, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (1517, 17, 0.9) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (1517, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (1517, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (1517, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1517, 1483) /* Impenetrability3_SpellID */
-     , (1517, 1550) /* FlameBane4_SpellID */
-     , (1517, 810) /* FireProtectionOther2_SpellID */;
-

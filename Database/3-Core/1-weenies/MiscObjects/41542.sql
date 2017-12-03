@@ -30,19 +30,3 @@ VALUES (41542, 13, True) /* ETHEREAL_BOOL */
      , (41542, 19, True) /* ATTACKABLE_BOOL */
      , (41542, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41542, 16, 'A dangerously unstable Mana Stone, created by the Arcanum Tinkerer, Al-Shashqa.') /* LONG_DESC_STRING */
-     , (41542, 14, 'Drop this into the Mana Siphon located in the Gear Knight invasion area in the northern Direlands.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41542, 33, 1) /* BONDED_INT */
-     , (41542, 114, 1) /* ATTUNED_INT */
-     , (41542, 19, 0) /* VALUE_INT */
-     , (41542, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (41542, 99, 0) /* IVORYABLE_BOOL */
-     , (41542, 69, 0) /* IS_SELLABLE_BOOL */;
-

@@ -33,11 +33,3 @@ VALUES (14646, 13, True) /* ETHEREAL_BOOL */
      , (14646, 19, True) /* ATTACKABLE_BOOL */
      , (14646, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14646, 38, 'Lo-Han Portal (34.3S, 52.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14646, 111, 1) /* PORTAL_BITMASK_INT */;
-

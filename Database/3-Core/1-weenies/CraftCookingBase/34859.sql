@@ -37,16 +37,6 @@ VALUES (34859, 13, True) /* ETHEREAL_BOOL */
      , (34859, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34859, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34859, 16, 'This Tiriun Mushroom Cap has been expertly roasted.') /* LONG_DESC_STRING */
-     , (34859, 14, 'This mushroom cap can be cut into thin nutritious wafers.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34859, 19, 1000) /* VALUE_INT */
-     , (34859, 5, 6000) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

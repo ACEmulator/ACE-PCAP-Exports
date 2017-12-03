@@ -35,18 +35,6 @@ VALUES (23849, 13, True) /* ETHEREAL_BOOL */
      , (23849, 19, True) /* ATTACKABLE_BOOL */
      , (23849, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23849, 16, 'A scored shard.') /* LONG_DESC_STRING */
-     , (23849, 14, 'Combine with existing Enhanced Shadow Armor to create a Scored piece of Enhanced Shadow Armor.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23849, 33, 1) /* BONDED_INT */
-     , (23849, 114, 1) /* ATTUNED_INT */
-     , (23849, 19, 0) /* VALUE_INT */
-     , (23849, 5, 150) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

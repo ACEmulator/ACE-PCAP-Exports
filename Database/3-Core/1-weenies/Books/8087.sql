@@ -34,18 +34,6 @@ VALUES (8087, 13, True) /* ETHEREAL_BOOL */
      , (8087, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8087, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8087, 16, 'A note in the stark black runes of Dericostian, scrawled with what would seem to be great haste.') /* LONG_DESC_STRING */
-     , (8087, 14, 'This item cannot be read.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8087, 19, 20) /* VALUE_INT */
-     , (8087, 5, 25) /* ENCUMB_VAL_INT */
-     , (8087, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (8087, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

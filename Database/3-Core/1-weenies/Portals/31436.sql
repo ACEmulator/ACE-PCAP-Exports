@@ -33,13 +33,3 @@ VALUES (31436, 13, True) /* ETHEREAL_BOOL */
      , (31436, 19, True) /* ATTACKABLE_BOOL */
      , (31436, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31436, 16, 'This dungeon is quest restricted.  Royal scholars in Cragstone or Sanamar might be interested in the secrets it holds.') /* LONG_DESC_STRING */
-     , (31436, 38, 'Lost Desert Archive') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31436, 86, 40) /* MIN_LEVEL_INT */
-     , (31436, 111, 49) /* PORTAL_BITMASK_INT */;
-

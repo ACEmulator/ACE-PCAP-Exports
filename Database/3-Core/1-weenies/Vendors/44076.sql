@@ -93,40 +93,6 @@ VALUES (44076, 9, 16795213)
      , (44076, 8, 16795224)
      , (44076, 16, 16795218);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44076, 5, 'Master Fletcher') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (44076, 16, 67110065) /* EYES_PALETTE_DID */
-     , (44076, 9, 83890275) /* EYES_TEXTURE_DID */
-     , (44076, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (44076, 10, 83890311) /* NOSE_TEXTURE_DID */
-     , (44076, 11, 83890357) /* MOUTH_TEXTURE_DID */
-     , (44076, 15, 67117021) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44076, 113, 2) /* GENDER_INT */
-     , (44076, 2, 31) /* CREATURE_TYPE_INT */
-     , (44076, 307, 5) /* DAMAGE_RATING_INT */
-     , (44076, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (44076, 25, 275) /* LEVEL_INT */
-     , (44076, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (44076, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (44076, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (44076, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (44076, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (44076, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (44076, 32, 260) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (44076, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (44076, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (44076, 256, 456) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

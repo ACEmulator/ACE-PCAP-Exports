@@ -44,28 +44,3 @@ VALUES (11328, 0, 83896997, 83896997);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11328, 0, 16787243);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11328, 16, 'A lovingly carved Tumerok spear') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11328, 33, 1) /* BONDED_INT */
-     , (11328, 353, 5) /* WEAPON_TYPE_INT */
-     , (11328, 114, 1) /* ATTUNED_INT */
-     , (11328, 19, 150) /* VALUE_INT */
-     , (11328, 5, 600) /* ENCUMB_VAL_INT */
-     , (11328, 47, 2) /* ATTACK_TYPE_INT */
-     , (11328, 45, 2) /* DAMAGE_TYPE_INT */
-     , (11328, 49, 30) /* WEAPON_TIME_INT */
-     , (11328, 48, 45) /* WEAPON_SKILL_INT */
-     , (11328, 44, 12) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (11328, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (11328, 22, 0.55) /* DAMAGE_VARIANCE_FLOAT */
-     , (11328, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (11328, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (11328, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (11328, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

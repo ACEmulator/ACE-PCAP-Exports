@@ -42,35 +42,3 @@ VALUES (53332, 13, True) /* ETHEREAL_BOOL */
      , (53332, 19, True) /* ATTACKABLE_BOOL */
      , (53332, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53332, 16, 'A wand imbued with the energies of the Viridian Rise.') /* LONG_DESC_STRING */
-     , (53332, 14, 'This item may be tinkered and imbued like any loot-generated weapon.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53332, 160, 385) /* WIELD_DIFFICULTY_INT */
-     , (53332, 131, 75) /* MATERIAL_TYPE_INT */
-     , (53332, 19, 200) /* VALUE_INT */
-     , (53332, 5, 50) /* ENCUMB_VAL_INT */
-     , (53332, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (53332, 106, 450) /* ITEM_SPELLCRAFT_INT */
-     , (53332, 108, 5000) /* ITEM_MAX_MANA_INT */
-     , (53332, 45, 1024) /* DAMAGE_TYPE_INT */
-     , (53332, 109, 300) /* ITEM_DIFFICULTY_INT */
-     , (53332, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (53332, 159, 43) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (53332, 152, 1.18) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (53332, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
-     , (53332, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */
-     , (53332, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (53332, 6320) /* RingOfSkullsII_SpellID */
-     , (53332, 6087) /* CantripHermeticLink4_SpellID */
-     , (53332, 5418) /* VoidMagicMasterySelf8_SpellID */
-     , (53332, 4602) /* ManaMasterySelf8_SpellID */
-     , (53332, 6074) /* CantripVoidMagicAptitude4_SpellID */;
-

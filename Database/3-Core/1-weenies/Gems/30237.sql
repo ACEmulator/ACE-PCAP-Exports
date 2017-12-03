@@ -49,27 +49,6 @@ VALUES (30237, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30237, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30237, 16, 'Using this gem will confer a 15% elemental damage bonus upon your equipped casting device for 15 minutes.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30237, 17, 57) /* RARE_ID_INT */
-     , (30237, 33, -1) /* BONDED_INT */
-     , (30237, 19, 0) /* VALUE_INT */
-     , (30237, 5, 10) /* ENCUMB_VAL_INT */
-     , (30237, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (30237, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (30237, 108, 10000) /* ITEM_MAX_MANA_INT */
-     , (30237, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30237, 108, 1) /* RARE_USES_TIMER_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30237, 3735) /* SpiritDrinkerRare_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

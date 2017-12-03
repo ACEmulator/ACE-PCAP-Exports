@@ -34,12 +34,3 @@ VALUES (24581, 0, 83892071, 83892184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24581, 0, 16783205);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24581, 16, 'Rabble will be thrown out, unfortunately you probably can''t read this sign. -Talira Dain') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24581, 19, 125) /* VALUE_INT */
-     , (24581, 5, 9000) /* ENCUMB_VAL_INT */;
-

@@ -49,18 +49,6 @@ VALUES (32758, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32758, 0, 16783325);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32758, 16, 'A clear vial of viscous oil with prismatic colors spinning in it.') /* LONG_DESC_STRING */
-     , (32758, 14, 'Use this oil on Greater Shadow Amuli armor to infuse it with elemental protection.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32758, 33, 1) /* BONDED_INT */
-     , (32758, 114, 1) /* ATTUNED_INT */
-     , (32758, 19, 0) /* VALUE_INT */
-     , (32758, 5, 5) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

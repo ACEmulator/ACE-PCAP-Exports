@@ -50,23 +50,3 @@ VALUES (14905, 0, 83887061, 83892766)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14905, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14905, 16, 'An elegant gown for a wedding.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14905, 19, 25000) /* VALUE_INT */
-     , (14905, 5, 200) /* ENCUMB_VAL_INT */
-     , (14905, 28, 0) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (14905, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (14905, 14, 0.7) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (14905, 15, 0.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (14905, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (14905, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (14905, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (14905, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (14905, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

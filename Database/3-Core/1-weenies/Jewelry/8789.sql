@@ -47,24 +47,3 @@ VALUES (8789, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8789, 0, 16778348);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8789, 16, 'A magical amulet taken from a Virindi Servant in the Chakron Flux dungeon.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8789, 19, 8000) /* VALUE_INT */
-     , (8789, 5, 100) /* ENCUMB_VAL_INT */
-     , (8789, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (8789, 108, 230) /* ITEM_MAX_MANA_INT */
-     , (8789, 109, 190) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8789, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8789, 2560) /* CANTRIPMANACONVERSIONPROWESS1_SpellID */
-     , (8789, 592) /* ItemEnchantmentMasteryOther6_SpellID */
-     , (8789, 664) /* ManaMasteryOther6_SpellID */
-     , (8789, 2975) /* ModerateItemEnchantmentAptitude_SpellID */;
-

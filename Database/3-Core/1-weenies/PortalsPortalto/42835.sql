@@ -33,12 +33,3 @@ VALUES (42835, 13, True) /* ETHEREAL_BOOL */
      , (42835, 19, True) /* ATTACKABLE_BOOL */
      , (42835, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42835, 16, 'This portal goes to Sanamar, the capital of New Viamont and town where many new adventurers enter Dereth. This is a good town for characters of all levels.') /* LONG_DESC_STRING */
-     , (42835, 38, 'Portal to Sanamar (72.1N, 60.9W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42835, 111, 1) /* PORTAL_BITMASK_INT */;
-

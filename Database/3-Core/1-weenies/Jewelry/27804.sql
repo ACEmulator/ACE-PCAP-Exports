@@ -37,24 +37,3 @@ VALUES (27804, 13, True) /* ETHEREAL_BOOL */
      , (27804, 19, True) /* ATTACKABLE_BOOL */
      , (27804, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27804, 16, 'A warding ring obtained from the Blood Fiends.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27804, 160, 275) /* WIELD_DIFFICULTY_INT */
-     , (27804, 19, 6500) /* VALUE_INT */
-     , (27804, 5, 100) /* ENCUMB_VAL_INT */
-     , (27804, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (27804, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (27804, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (27804, 159, 14) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27804, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27804, 2158) /* LightningProtectionOther7_SpellID */
-     , (27804, 2622) /* CANTRIPSTORMWARD1_SpellID */;
-

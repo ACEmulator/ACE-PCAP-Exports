@@ -81,16 +81,3 @@ VALUES (32493, 0, 16783894)
      , (32493, 13, 16788208)
      , (32493, 14, 16788202);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32493, 5, 'Tormented Soul') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32493, 2, 77) /* CREATURE_TYPE_INT */
-     , (32493, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (32493, 25, 80) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32493, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

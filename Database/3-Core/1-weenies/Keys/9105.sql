@@ -35,12 +35,3 @@ VALUES (9105, 13, True) /* ETHEREAL_BOOL */
      , (9105, 19, True) /* ATTACKABLE_BOOL */
      , (9105, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9105, 33, 1) /* BONDED_INT */
-     , (9105, 114, 1) /* ATTUNED_INT */
-     , (9105, 19, 5) /* VALUE_INT */
-     , (9105, 5, 20) /* ENCUMB_VAL_INT */
-     , (9105, 91, 1) /* MAX_STRUCTURE_INT */;
-

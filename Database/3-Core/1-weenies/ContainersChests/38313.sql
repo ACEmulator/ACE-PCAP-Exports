@@ -36,22 +36,6 @@ VALUES (38313, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38313, 19, True) /* ATTACKABLE_BOOL */
      , (38313, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38313, 16, 'A Society Reward Chest, used to reward those who have achieved a new Rank in their Society for the first time.') /* LONG_DESC_STRING */
-     , (38313, 14, 'This reward chest has a higher likelihood of containing a number of Weapons.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38313, 19, 0) /* VALUE_INT */
-     , (38313, 5, 6692) /* ENCUMB_VAL_INT */
-     , (38313, 38, 9999) /* RESIST_LOCKPICK_INT */
-     , (38313, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38313, 2, 0) /* OPEN_BOOL */
-     , (38313, 3, 1) /* LOCKED_BOOL */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

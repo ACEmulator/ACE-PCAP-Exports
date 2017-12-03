@@ -36,22 +36,3 @@ VALUES (21166, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (21166, 19, True) /* ATTACKABLE_BOOL */
      , (21166, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21166, 2, 61) /* CREATURE_TYPE_INT */
-     , (21166, 25, 8) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (21166, 1, 50) /* STRENGTH_ATTRIBUTE */
-     , (21166, 2, 60) /* ENDURANCE_ATTRIBUTE */
-     , (21166, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (21166, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (21166, 16, 70) /* FOCUS_ATTRIBUTE */
-     , (21166, 32, 80) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (21166, 64, 31) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (21166, 128, 100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (21166, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
-

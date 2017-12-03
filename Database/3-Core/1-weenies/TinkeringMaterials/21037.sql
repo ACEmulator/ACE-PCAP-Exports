@@ -50,20 +50,6 @@ VALUES (21037, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21037, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21037, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Cold Rending. Cold Rending gives the weapon the ability to make its opponent vulnerable to cold attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Cold Vulnerability spells. ') /* USE_STRING */
-     , (21037, 15, 'Chips of aquamarine material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21037, 33, 1) /* BONDED_INT */
-     , (21037, 19, 16947) /* VALUE_INT */
-     , (21037, 131, 13) /* MATERIAL_TYPE_INT */
-     , (21037, 5, 100) /* ENCUMB_VAL_INT */
-     , (21037, 105, 32) /* ITEM_WORKMANSHIP_INT */
-     , (21037, 170, 5) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

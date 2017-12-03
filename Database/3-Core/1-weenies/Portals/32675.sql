@@ -33,13 +33,3 @@ VALUES (32675, 13, True) /* ETHEREAL_BOOL */
      , (32675, 19, True) /* ATTACKABLE_BOOL */
      , (32675, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32675, 16, 'This dungeon is quest restricted and PK restricted.  Speak with Hassha about gaining entry.') /* LONG_DESC_STRING */
-     , (32675, 38, 'Cells of the Black Book') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32675, 86, 60) /* MIN_LEVEL_INT */
-     , (32675, 111, 61) /* PORTAL_BITMASK_INT */;
-

@@ -31,16 +31,3 @@ VALUES (22836, 13, True) /* ETHEREAL_BOOL */
      , (22836, 19, True) /* ATTACKABLE_BOOL */
      , (22836, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22836, 14, 'This item is floor-hookable.') /* USE_STRING */
-     , (22836, 15, 'An ornamental pedestal adorned with a crystal vase with a quintet of snowflowers. ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22836, 19, 10000) /* VALUE_INT */
-     , (22836, 5, 70) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22836, 69, 0) /* IS_SELLABLE_BOOL */;
-

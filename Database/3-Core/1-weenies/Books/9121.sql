@@ -33,14 +33,3 @@ VALUES (9121, 13, True) /* ETHEREAL_BOOL */
      , (9121, 14, True) /* GRAVITY_STATUS_BOOL */
      , (9121, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9121, 15, 'The fourth installment of a tale by Martine') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9121, 19, 0) /* VALUE_INT */
-     , (9121, 5, 10) /* ENCUMB_VAL_INT */
-     , (9121, 174, 28) /* APPRAISAL_PAGES_INT */
-     , (9121, 175, 28) /* APPRAISAL_MAX_PAGES_INT */;
-

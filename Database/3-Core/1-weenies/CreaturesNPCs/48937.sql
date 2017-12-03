@@ -90,16 +90,3 @@ VALUES (48937, 0, 16795543)
      , (48937, 15, 16795541)
      , (48937, 16, 16795542);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48937, 5, 'Apprentice Researcher') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48937, 2, 101) /* CREATURE_TYPE_INT */
-     , (48937, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (48937, 25, 160) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (48937, 64, 311) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

@@ -34,16 +34,6 @@ VALUES (30928, 13, True) /* ETHEREAL_BOOL */
      , (30928, 19, True) /* ATTACKABLE_BOOL */
      , (30928, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30928, 16, 'An empty book binding.') /* LONG_DESC_STRING */
-     , (30928, 14, 'Use this book binding on Halaetan Magic Page 1.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30928, 19, 0) /* VALUE_INT */
-     , (30928, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

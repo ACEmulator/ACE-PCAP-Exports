@@ -33,12 +33,3 @@ VALUES (3649, 13, True) /* ETHEREAL_BOOL */
      , (3649, 19, True) /* ATTACKABLE_BOOL */
      , (3649, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3649, 38, 'Olthoi Tunnels') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3649, 86, 15) /* MIN_LEVEL_INT */
-     , (3649, 111, 1) /* PORTAL_BITMASK_INT */;
-

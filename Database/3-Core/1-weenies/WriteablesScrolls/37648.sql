@@ -35,17 +35,3 @@ VALUES (37648, 13, True) /* ETHEREAL_BOOL */
      , (37648, 19, True) /* ATTACKABLE_BOOL */
      , (37648, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37648, 16, 'Inscribed spell: Incantation of Armor Self
-Increases the caster''s natural armor by 250 points.') /* LONG_DESC_STRING */
-     , (37648, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37648, 19, 60000) /* VALUE_INT */
-     , (37648, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (37648, 4291) /* ArmorSelf8_SpellID */;
-

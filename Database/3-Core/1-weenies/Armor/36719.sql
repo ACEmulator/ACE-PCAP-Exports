@@ -51,34 +51,3 @@ VALUES (36719, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36719, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36719, 16, 'A lovingly crafted robe. It''s white fur glistens with protective magic.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36719, 160, 120) /* WIELD_DIFFICULTY_INT */
-     , (36719, 19, 6000) /* VALUE_INT */
-     , (36719, 5, 500) /* ENCUMB_VAL_INT */
-     , (36719, 106, 230) /* ITEM_SPELLCRAFT_INT */
-     , (36719, 108, 1800) /* ITEM_MAX_MANA_INT */
-     , (36719, 28, 180) /* ARMOR_LEVEL_INT */
-     , (36719, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (36719, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36719, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (36719, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (36719, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (36719, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (36719, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (36719, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (36719, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (36719, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (36719, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (36719, 2155) /* ColdProtectionSelf7_SpellID */
-     , (36719, 4018) /* Permafrost_SpellID */
-     , (36719, 2619) /* CANTRIPFROSTWARD1_SpellID */;
-

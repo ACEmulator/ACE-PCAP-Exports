@@ -50,39 +50,3 @@ VALUES (105, 0, 83886796, 83886821)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (105, 0, 16778363);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (105, 16, 'Studded Leather Sleeves') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (105, 19, 10004) /* VALUE_INT */
-     , (105, 131, 53) /* MATERIAL_TYPE_INT */
-     , (105, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (105, 5, 463) /* ENCUMB_VAL_INT */
-     , (105, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (105, 106, 182) /* ITEM_SPELLCRAFT_INT */
-     , (105, 28, 225) /* ARMOR_LEVEL_INT */
-     , (105, 108, 623) /* ITEM_MAX_MANA_INT */
-     , (105, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (105, 109, 148) /* ITEM_DIFFICULTY_INT */
-     , (105, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (105, 5, -0.04166667) /* MANA_RATE_FLOAT */
-     , (105, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (105, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (105, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (105, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (105, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (105, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (105, 19, 0.8246336) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (105, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (105, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (105, 1485) /* Impenetrability5_SpellID */
-     , (105, 2574) /* CANTRIPFOCUS2_SpellID */;
-

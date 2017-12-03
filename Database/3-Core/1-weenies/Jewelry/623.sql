@@ -48,25 +48,3 @@ VALUES (623, 0, 83887050, 83887050);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (623, 0, 16778343);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (623, 16, 'Well-crafted Steel Heavy Necklace of Focus, set with 3 Moonstones') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (623, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (623, 131, 64) /* MATERIAL_TYPE_INT */
-     , (623, 19, 871) /* VALUE_INT */
-     , (623, 5, 90) /* ENCUMB_VAL_INT */
-     , (623, 105, 2) /* ITEM_WORKMANSHIP_INT */
-     , (623, 106, 1) /* ITEM_SPELLCRAFT_INT */
-     , (623, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (623, 109, 1) /* ITEM_DIFFICULTY_INT */
-     , (623, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (623, 5, -0.0125) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (623, 1421) /* FocusSelf1_SpellID */;
-

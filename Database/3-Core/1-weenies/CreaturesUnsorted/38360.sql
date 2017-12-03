@@ -37,28 +37,6 @@ VALUES (38360, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (38360, 67115235, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38360, 5, 'Moarsman Prior') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38360, 2, 98) /* CREATURE_TYPE_INT */
-     , (38360, 25, 200) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38360, 1, 520) /* STRENGTH_ATTRIBUTE */
-     , (38360, 2, 420) /* ENDURANCE_ATTRIBUTE */
-     , (38360, 4, 430) /* COORDINATION_ATTRIBUTE */
-     , (38360, 8, 420) /* QUICKNESS_ATTRIBUTE */
-     , (38360, 16, 500) /* FOCUS_ATTRIBUTE */
-     , (38360, 32, 500) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38360, 64, 40000) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38360, 128, 4000) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38360, 256, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -63,12 +63,3 @@ VALUES (46574, 0, 16793218)
      , (46574, 15, 16789333)
      , (46574, 16, 16796692);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46574, 16, 'Killed by Rimok.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46574, 19, 0) /* VALUE_INT */
-     , (46574, 5, 6115) /* ENCUMB_VAL_INT */;
-

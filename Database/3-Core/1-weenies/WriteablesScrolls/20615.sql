@@ -35,17 +35,3 @@ VALUES (20615, 13, True) /* ETHEREAL_BOOL */
      , (20615, 19, True) /* ATTACKABLE_BOOL */
      , (20615, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20615, 16, 'Inscribed spell: Rushed Recovery
-Drains one-half of the caster''s Stamina and gives 175% of that to his/her Health.') /* LONG_DESC_STRING */
-     , (20615, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20615, 19, 2000) /* VALUE_INT */
-     , (20615, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20615, 2343) /* StaminatoHealthSelf7_SpellID */;
-

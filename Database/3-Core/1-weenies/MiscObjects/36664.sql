@@ -42,17 +42,3 @@ VALUES (36664, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36664, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36664, 16, 'Brass smelted in the Lugian Furnaces.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36664, 33, 1) /* BONDED_INT */
-     , (36664, 114, 1) /* ATTUNED_INT */
-     , (36664, 19, 100) /* VALUE_INT */
-     , (36664, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36664, 69, 1) /* IS_SELLABLE_BOOL */;
-

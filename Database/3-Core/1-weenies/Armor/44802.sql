@@ -50,31 +50,3 @@ VALUES (44802, 0, 83887061, 83898648)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44802, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44802, 16, 'Vestiri Over-robe') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44802, 177, 2) /* GEM_COUNT_INT */
-     , (44802, 178, 26) /* GEM_TYPE_INT */
-     , (44802, 19, 27098) /* VALUE_INT */
-     , (44802, 131, 55) /* MATERIAL_TYPE_INT */
-     , (44802, 5, 400) /* ENCUMB_VAL_INT */
-     , (44802, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (44802, 28, 238) /* ARMOR_LEVEL_INT */
-     , (44802, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (44802, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (44802, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (44802, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (44802, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (44802, 17, 1.130598) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (44802, 18, 0.7358862) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (44802, 19, 1.172527) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (44802, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44802, 100, 1) /* DYABLE_BOOL */;
-

@@ -37,23 +37,6 @@ VALUES (29919, 13, True) /* ETHEREAL_BOOL */
      , (29919, 19, True) /* ATTACKABLE_BOOL */
      , (29919, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29919, 16, 'A Burun Kukuur, one of the great King Toads of their race') /* LONG_DESC_STRING */
-     , (29919, 14, 'This doll may be hooked. Use this doll to read a historical lesson.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29919, 33, 1) /* BONDED_INT */
-     , (29919, 114, 0) /* ATTUNED_INT */
-     , (29919, 19, 5000) /* VALUE_INT */
-     , (29919, 5, 10) /* ENCUMB_VAL_INT */
-     , (29919, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (29919, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29919, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

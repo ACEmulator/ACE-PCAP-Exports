@@ -41,27 +41,3 @@ VALUES (14932, 67114662, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14932, 0, 16789674);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14932, 15, 'A hat, given as a reward for helping out the Royal Guard''s investigation into the attempt on High Queen Elysa''s life.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14932, 19, 2000) /* VALUE_INT */
-     , (14932, 5, 50) /* ENCUMB_VAL_INT */
-     , (14932, 28, 0) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (14932, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (14932, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (14932, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (14932, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (14932, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (14932, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (14932, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (14932, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14932, 100, 1) /* DYABLE_BOOL */
-     , (14932, 69, 0) /* IS_SELLABLE_BOOL */;
-

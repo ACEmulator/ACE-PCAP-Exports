@@ -35,12 +35,3 @@ VALUES (8453, 0, 83891180, 83891184);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8453, 0, 16782236);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8453, 16, 'The Wildsong Inn') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8453, 19, 125) /* VALUE_INT */
-     , (8453, 5, 9000) /* ENCUMB_VAL_INT */;
-

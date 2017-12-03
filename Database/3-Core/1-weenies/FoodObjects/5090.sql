@@ -32,18 +32,6 @@ VALUES (5090, 13, True) /* ETHEREAL_BOOL */
      , (5090, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5090, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5090, 14, 'Use this item to eat it.') /* USE_STRING */
-     , (5090, 15, 'This is edible but unappetizing food that no vendors will want to buy.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5090, 19, 0) /* VALUE_INT */
-     , (5090, 5, 50) /* ENCUMB_VAL_INT */
-     , (5090, 89, 4) /* BOOSTER_ENUM_INT */
-     , (5090, 90, 4) /* BOOST_VALUE_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

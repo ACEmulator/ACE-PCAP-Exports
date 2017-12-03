@@ -33,12 +33,3 @@ VALUES (4535, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4535, 19, True) /* ATTACKABLE_BOOL */
      , (4535, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4535, 16, 'Welcome to the coastal village of Tou-Tou.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4535, 19, 125) /* VALUE_INT */
-     , (4535, 5, 9000) /* ENCUMB_VAL_INT */;
-

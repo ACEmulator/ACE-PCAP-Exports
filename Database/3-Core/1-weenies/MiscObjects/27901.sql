@@ -32,14 +32,3 @@ VALUES (27901, 13, True) /* ETHEREAL_BOOL */
      , (27901, 19, True) /* ATTACKABLE_BOOL */
      , (27901, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27901, 16, 'This is a relic of the Mosswarts. The hand of a cruel Banderling warrior named, Vagurat. The hand has been well preserved by some strange magics.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27901, 33, 1) /* BONDED_INT */
-     , (27901, 114, 1) /* ATTUNED_INT */
-     , (27901, 19, 10) /* VALUE_INT */
-     , (27901, 5, 10) /* ENCUMB_VAL_INT */;
-

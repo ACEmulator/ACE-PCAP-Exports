@@ -50,27 +50,3 @@ VALUES (45032, 0, 83887061, 83898632)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45032, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45032, 16, 'An over-robe purchased on Tusker Island.') /* LONG_DESC_STRING */
-     , (45032, 14, 'This over-robe looks scrathy and uncomfortable to wear.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45032, 19, 1) /* VALUE_INT */
-     , (45032, 5, 300) /* ENCUMB_VAL_INT */
-     , (45032, 28, 10) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45032, 13, 0.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (45032, 14, 0.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (45032, 15, 0.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (45032, 16, 0) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (45032, 17, 0) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (45032, 18, 0) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (45032, 19, 0) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (45032, 165, 0) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (45032, 100, 0) /* DYABLE_BOOL */;
-

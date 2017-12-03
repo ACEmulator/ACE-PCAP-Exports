@@ -45,27 +45,6 @@ VALUES (2398, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2398, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2398, 16, 'Gem of Coordination') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2398, 19, 1305) /* VALUE_INT */
-     , (2398, 131, 43) /* MATERIAL_TYPE_INT */
-     , (2398, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (2398, 5, 5) /* ENCUMB_VAL_INT */
-     , (2398, 117, 300) /* ITEM_MANA_COST_INT */
-     , (2398, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (2398, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (2398, 108, 534) /* ITEM_MAX_MANA_INT */
-     , (2398, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (2398, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (2398, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2398, 1377) /* CoordinationSelf5_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -35,12 +35,3 @@ VALUES (34097, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34097, 0, 16787385);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34097, 14, 'Turn this item into Ungrim in Glendenwood.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34097, 19, 0) /* VALUE_INT */
-     , (34097, 5, 50) /* ENCUMB_VAL_INT */;
-

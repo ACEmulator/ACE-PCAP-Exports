@@ -49,28 +49,3 @@ VALUES (624, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (624, 0, 16778345);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (624, 16, 'Ring of Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (624, 177, 1) /* GEM_COUNT_INT */
-     , (624, 178, 34) /* GEM_TYPE_INT */
-     , (624, 19, 4796) /* VALUE_INT */
-     , (624, 131, 59) /* MATERIAL_TYPE_INT */
-     , (624, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (624, 5, 30) /* ENCUMB_VAL_INT */
-     , (624, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (624, 106, 235) /* ITEM_SPELLCRAFT_INT */
-     , (624, 108, 1821) /* ITEM_MAX_MANA_INT */
-     , (624, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (624, 109, 235) /* ITEM_DIFFICULTY_INT */
-     , (624, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (624, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (624, 1312) /* ArmorSelf6_SpellID */;
-

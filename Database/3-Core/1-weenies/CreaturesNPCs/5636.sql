@@ -98,26 +98,3 @@ VALUES (5636, 10, 16777301)
      , (5636, 8, 16777298)
      , (5636, 16, 16779630);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5636, 5, 'Grounds Keeper') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5636, 16, 67110063) /* EYES_PALETTE_DID */
-     , (5636, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (5636, 17, 67109551) /* SKIN_PALETTE_DID */
-     , (5636, 10, 83890537) /* NOSE_TEXTURE_DID */
-     , (5636, 11, 83890621) /* MOUTH_TEXTURE_DID */
-     , (5636, 15, 67116991) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5636, 113, 1) /* GENDER_INT */
-     , (5636, 2, 31) /* CREATURE_TYPE_INT */
-     , (5636, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (5636, 25, 7) /* LEVEL_INT */
-     , (5636, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5636, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

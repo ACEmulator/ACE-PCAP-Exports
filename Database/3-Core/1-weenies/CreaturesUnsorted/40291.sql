@@ -33,22 +33,3 @@ VALUES (40291, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (40291, 19, True) /* ATTACKABLE_BOOL */
      , (40291, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (40291, 16, 67110063) /* EYES_PALETTE_DID */
-     , (40291, 9, 83890276) /* EYES_TEXTURE_DID */
-     , (40291, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (40291, 10, 83890311) /* NOSE_TEXTURE_DID */
-     , (40291, 11, 83890357) /* MOUTH_TEXTURE_DID */
-     , (40291, 15, 67117020) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40291, 113, 2) /* GENDER_INT */
-     , (40291, 2, 22) /* CREATURE_TYPE_INT */
-     , (40291, 25, 185) /* LEVEL_INT */
-     , (40291, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (40291, 64, 805) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

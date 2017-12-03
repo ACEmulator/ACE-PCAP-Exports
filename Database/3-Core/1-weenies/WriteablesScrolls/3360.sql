@@ -35,17 +35,3 @@ VALUES (3360, 13, True) /* ETHEREAL_BOOL */
      , (3360, 19, True) /* ATTACKABLE_BOOL */
      , (3360, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3360, 16, 'Inscribed spell: Leadership Mastery Self IV
-Increases the caster''s Leadership skill by 25 points.') /* LONG_DESC_STRING */
-     , (3360, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3360, 19, 100) /* VALUE_INT */
-     , (3360, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3360, 901) /* LeadershipMasterySelf4_SpellID */;
-

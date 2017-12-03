@@ -101,39 +101,6 @@ VALUES (46684, 1, 16777708)
      , (46684, 12, 16796742)
      , (46684, 16, 16796785);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46684, 5, 'Agent of the Whispering Blade') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (46684, 16, 67116857) /* EYES_PALETTE_DID */
-     , (46684, 9, 83890255) /* EYES_TEXTURE_DID */
-     , (46684, 17, 67116851) /* SKIN_PALETTE_DID */
-     , (46684, 10, 83890317) /* NOSE_TEXTURE_DID */
-     , (46684, 11, 83890357) /* MOUTH_TEXTURE_DID */
-     , (46684, 15, 67117013) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46684, 113, 2) /* GENDER_INT */
-     , (46684, 2, 31) /* CREATURE_TYPE_INT */
-     , (46684, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (46684, 25, 275) /* LEVEL_INT */
-     , (46684, 188, 5) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (46684, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (46684, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (46684, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (46684, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (46684, 16, 260) /* FOCUS_ATTRIBUTE */
-     , (46684, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46684, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (46684, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (46684, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

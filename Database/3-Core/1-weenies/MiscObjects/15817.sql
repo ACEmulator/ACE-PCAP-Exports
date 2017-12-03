@@ -43,18 +43,6 @@ VALUES (15817, 0, 83888861, 83893208);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15817, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15817, 14, 'This item is used to make impressions.') /* USE_STRING */
-     , (15817, 15, 'A big lump of soft wax.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15817, 33, 1) /* BONDED_INT */
-     , (15817, 114, 1) /* ATTUNED_INT */
-     , (15817, 19, 0) /* VALUE_INT */
-     , (15817, 5, 200) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

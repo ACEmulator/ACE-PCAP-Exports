@@ -33,18 +33,3 @@ VALUES (15816, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15816, 19, True) /* ATTACKABLE_BOOL */
      , (15816, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15816, 14, 'Use this item to open it.') /* USE_STRING */
-     , (15816, 15, 'A Tumerok Gate.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15816, 19, 0) /* VALUE_INT */
-     , (15816, 38, 5000) /* RESIST_LOCKPICK_INT */
-     , (15816, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (15816, 2, 0) /* OPEN_BOOL */
-     , (15816, 3, 0) /* LOCKED_BOOL */;
-

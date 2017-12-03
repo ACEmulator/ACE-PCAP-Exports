@@ -42,27 +42,3 @@ VALUES (53283, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53283, 67114711, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53283, 5, 'Viridian Ranger') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53283, 113, 1) /* GENDER_INT */
-     , (53283, 2, 29) /* CREATURE_TYPE_INT */
-     , (53283, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (53283, 25, 200) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (53283, 1, 255) /* STRENGTH_ATTRIBUTE */
-     , (53283, 2, 220) /* ENDURANCE_ATTRIBUTE */
-     , (53283, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (53283, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (53283, 16, 90) /* FOCUS_ATTRIBUTE */
-     , (53283, 32, 90) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (53283, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (53283, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (53283, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
-

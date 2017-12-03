@@ -31,13 +31,3 @@ VALUES (34404, 13, True) /* ETHEREAL_BOOL */
      , (34404, 19, True) /* ATTACKABLE_BOOL */
      , (34404, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34404, 16, 'A table filled with food for a holiday feast.') /* LONG_DESC_STRING */
-     , (34404, 14, 'This item can be placed on floor hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34404, 19, 6000) /* VALUE_INT */
-     , (34404, 5, 300) /* ENCUMB_VAL_INT */;
-

@@ -45,12 +45,3 @@ VALUES (31876, 16, 83894727, 83894729);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31876, 16, 16789500);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31876, 16, 'Killed by Zedura.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31876, 19, 0) /* VALUE_INT */
-     , (31876, 5, 6070) /* ENCUMB_VAL_INT */;
-

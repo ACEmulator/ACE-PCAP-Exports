@@ -55,15 +55,3 @@ VALUES (38049, 0, 16777708)
      , (38049, 7, 16779363)
      , (38049, 8, 16779364);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38049, 16, 'One of the earlier examples of Lilitha''s work, this bow appears to have been stepped on by some large creature, cracking the stave.') /* LONG_DESC_STRING */
-     , (38049, 14, 'Bring this bow to Eldrista the Adventurer at 35.7N, 33.4E to be repaired.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38049, 33, 1) /* BONDED_INT */
-     , (38049, 114, 1) /* ATTUNED_INT */
-     , (38049, 19, 0) /* VALUE_INT */
-     , (38049, 5, 350) /* ENCUMB_VAL_INT */;
-

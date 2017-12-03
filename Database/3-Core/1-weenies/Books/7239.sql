@@ -34,14 +34,3 @@ VALUES (7239, 13, True) /* ETHEREAL_BOOL */
      , (7239, 14, True) /* GRAVITY_STATUS_BOOL */
      , (7239, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7239, 16, 'A book written by Yuan Hanzu regarding composite bows. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7239, 19, 0) /* VALUE_INT */
-     , (7239, 5, 160) /* ENCUMB_VAL_INT */
-     , (7239, 174, 7) /* APPRAISAL_PAGES_INT */
-     , (7239, 175, 7) /* APPRAISAL_MAX_PAGES_INT */;
-

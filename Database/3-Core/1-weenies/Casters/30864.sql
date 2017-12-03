@@ -35,20 +35,3 @@ VALUES (30864, 13, True) /* ETHEREAL_BOOL */
      , (30864, 19, True) /* ATTACKABLE_BOOL */
      , (30864, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30864, 19, 8000) /* VALUE_INT */
-     , (30864, 5, 50) /* ENCUMB_VAL_INT */
-     , (30864, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (30864, 108, 800) /* ITEM_MAX_MANA_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30864, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (30864, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (30864, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30864, 2569) /* CANTRIPWARMAGICAPTITUDE1_SpellID */
-     , (30864, 658) /* ManaMasterySelf6_SpellID */;
-

@@ -55,16 +55,3 @@ VALUES (12223, 0, 83893805, 83893805)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12223, 0, 16787394);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12223, 16, 'A wand with a shrunken skull on it.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12223, 19, 75) /* VALUE_INT */
-     , (12223, 5, 150) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12223, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (12223, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-

@@ -33,11 +33,3 @@ VALUES (13116, 13, True) /* ETHEREAL_BOOL */
      , (13116, 19, True) /* ATTACKABLE_BOOL */
      , (13116, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13116, 38, 'North Sawato Villas Portal (19.8S, 55.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13116, 111, 1) /* PORTAL_BITMASK_INT */;
-

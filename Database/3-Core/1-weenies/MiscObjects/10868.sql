@@ -35,12 +35,3 @@ VALUES (10868, 13, True) /* ETHEREAL_BOOL */
      , (10868, 19, True) /* ATTACKABLE_BOOL */
      , (10868, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10868, 15, 'A pelt of the Canescent Mattekar.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10868, 19, 0) /* VALUE_INT */
-     , (10868, 5, 100) /* ENCUMB_VAL_INT */;
-

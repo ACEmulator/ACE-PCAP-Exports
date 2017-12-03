@@ -38,17 +38,3 @@ VALUES (30001, 13, True) /* ETHEREAL_BOOL */
      , (30001, 19, True) /* ATTACKABLE_BOOL */
      , (30001, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30001, 16, 'Inscribed spell: Crushing Shame
-Shoots a shock wave at the target. The wave does 115-189 points of bludgeoning damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (30001, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30001, 19, 2000) /* VALUE_INT */
-     , (30001, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30001, 2144) /* Shockwave7_SpellID */;
-

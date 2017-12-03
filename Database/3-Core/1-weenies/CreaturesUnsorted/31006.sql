@@ -41,42 +41,6 @@ VALUES (31006, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31006, 67114235, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31006, 16, 'Ornamental Bowl of Arcanum Salvaging') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31006, 353, 10) /* WEAPON_TYPE_INT */
-     , (31006, 177, 5) /* GEM_COUNT_INT */
-     , (31006, 178, 39) /* GEM_TYPE_INT */
-     , (31006, 19, 14633) /* VALUE_INT */
-     , (31006, 131, 51) /* MATERIAL_TYPE_INT */
-     , (31006, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (31006, 5, 50) /* ENCUMB_VAL_INT */
-     , (31006, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (31006, 106, 313) /* ITEM_SPELLCRAFT_INT */
-     , (31006, 108, 1401) /* ITEM_MAX_MANA_INT */
-     , (31006, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31006, 109, 313) /* ITEM_DIFFICULTY_INT */
-     , (31006, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (31006, 45, 4) /* DAMAGE_TYPE_INT */
-     , (31006, 49, 10) /* WEAPON_TIME_INT */
-     , (31006, 48, 47) /* WEAPON_SKILL_INT */
-     , (31006, 44, 20) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31006, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (31006, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (31006, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (31006, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (31006, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (31006, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (31006, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31006, 3505) /* ArcanumSalvaging7_SpellID */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

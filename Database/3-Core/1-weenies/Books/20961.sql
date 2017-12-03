@@ -33,17 +33,6 @@ VALUES (20961, 13, True) /* ETHEREAL_BOOL */
      , (20961, 14, True) /* GRAVITY_STATUS_BOOL */
      , (20961, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20961, 16, 'A list of trophies that Josef thinks will please Martine.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20961, 19, 0) /* VALUE_INT */
-     , (20961, 5, 50) /* ENCUMB_VAL_INT */
-     , (20961, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (20961, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

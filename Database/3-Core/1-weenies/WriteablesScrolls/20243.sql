@@ -35,17 +35,3 @@ VALUES (20243, 13, True) /* ETHEREAL_BOOL */
      , (20243, 19, True) /* ATTACKABLE_BOOL */
      , (20243, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20243, 16, 'Inscribed spell: Heart Rend
-Drains 42-79 points of the target''s Health.') /* LONG_DESC_STRING */
-     , (20243, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20243, 19, 2000) /* VALUE_INT */
-     , (20243, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20243, 2070) /* HarmOther7_SpellID */;
-

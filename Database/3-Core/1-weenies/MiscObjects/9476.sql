@@ -45,18 +45,6 @@ VALUES (9476, 67111918, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9476, 0, 16785708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9476, 16, 'Knowing your enemy only goes so far: One must have the passion to strike. Be a shining spear in the night.') /* LONG_DESC_STRING */
-     , (9476, 14, 'Use this item on the Spear of the Heart to create the Spear of Purity. You must have Heavy Weapons trained to attempt this interaction.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9476, 33, 1) /* BONDED_INT */
-     , (9476, 114, 1) /* ATTUNED_INT */
-     , (9476, 19, 2000) /* VALUE_INT */
-     , (9476, 5, 15) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

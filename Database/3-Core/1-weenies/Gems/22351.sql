@@ -34,14 +34,3 @@ VALUES (22351, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22351, 67111923, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22351, 14, 'Use this gem to specialize a trained skill. It will cost you two skill credits specialize the Arcane Lore skill. ') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22351, 33, 1) /* BONDED_INT */
-     , (22351, 114, 1) /* ATTUNED_INT */
-     , (22351, 19, 0) /* VALUE_INT */
-     , (22351, 5, 10) /* ENCUMB_VAL_INT */;
-

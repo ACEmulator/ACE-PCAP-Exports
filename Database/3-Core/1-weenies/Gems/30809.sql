@@ -39,29 +39,6 @@ VALUES (30809, 13, True) /* ETHEREAL_BOOL */
      , (30809, 15, True) /* LIGHTS_STATUS_BOOL */
      , (30809, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30809, 14, 'Double Click on this item to summon a portal to the battlefield of Ayn Tayn.') /* USE_STRING */
-     , (30809, 15, 'A brightly colored military medal. This honor was once pinned to the chest of one of the Undead warriors who fell at the battle of Ayn Tayn.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30809, 33, 0) /* BONDED_INT */
-     , (30809, 114, 0) /* ATTUNED_INT */
-     , (30809, 19, 400) /* VALUE_INT */
-     , (30809, 5, 50) /* ENCUMB_VAL_INT */
-     , (30809, 280, 1000) /* SHARED_COOLDOWN_INT */
-     , (30809, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (30809, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (30809, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (30809, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30809, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30809, 157) /* SummonPortal1_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

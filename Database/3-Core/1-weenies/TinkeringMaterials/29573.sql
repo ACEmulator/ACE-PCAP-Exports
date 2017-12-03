@@ -49,20 +49,6 @@ VALUES (29573, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29573, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29573, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Critical Strike. Critical Strike increases the chance that the item critically hits its opponent. The increase in chance depends on the attack skill of the wielder.') /* USE_STRING */
-     , (29573, 15, 'Chips of black opal material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29573, 33, 1) /* BONDED_INT */
-     , (29573, 131, 16) /* MATERIAL_TYPE_INT */
-     , (29573, 19, 10) /* VALUE_INT */
-     , (29573, 5, 100) /* ENCUMB_VAL_INT */
-     , (29573, 105, 100) /* ITEM_WORKMANSHIP_INT */
-     , (29573, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

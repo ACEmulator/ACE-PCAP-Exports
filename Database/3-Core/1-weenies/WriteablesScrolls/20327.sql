@@ -35,17 +35,3 @@ VALUES (20327, 13, True) /* ETHEREAL_BOOL */
      , (20327, 19, True) /* ATTACKABLE_BOOL */
      , (20327, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20327, 16, 'Inscribed spell: Devour Creature Magic Self
-Dispels 3-6 negative Creature Magic enchantments of level 4 or lower from the caster.') /* LONG_DESC_STRING */
-     , (20327, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20327, 19, 100) /* VALUE_INT */
-     , (20327, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20327, 1906) /* DispelCreatureBadSelf4_SpellID */;
-

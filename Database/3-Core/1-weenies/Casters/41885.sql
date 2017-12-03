@@ -45,38 +45,3 @@ VALUES (41885, 0, 83889356, 83889356);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41885, 0, 16778510);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41885, 15, 'A scepter imbued with Singularity energy.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41885, 160, 355) /* WIELD_DIFFICULTY_INT */
-     , (41885, 33, 1) /* BONDED_INT */
-     , (41885, 114, 1) /* ATTUNED_INT */
-     , (41885, 19, 0) /* VALUE_INT */
-     , (41885, 5, 400) /* ENCUMB_VAL_INT */
-     , (41885, 166, 19) /* SLAYER_CREATURE_TYPE_INT */
-     , (41885, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (41885, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (41885, 45, 1) /* DAMAGE_TYPE_INT */
-     , (41885, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (41885, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (41885, 159, 33) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (41885, 152, 1.15) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (41885, 144, 0.15) /* MANA_CONVERSION_MOD_FLOAT */
-     , (41885, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (41885, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
-     , (41885, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (41885, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (41885, 2182) /* ManaRenewalOther7_SpellID */
-     , (41885, 2574) /* CANTRIPFOCUS2_SpellID */
-     , (41885, 2066) /* FocusOther7_SpellID */
-     , (41885, 2286) /* ManaMasteryOther7_SpellID */;
-

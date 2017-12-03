@@ -34,21 +34,6 @@ VALUES (46427, 13, True) /* ETHEREAL_BOOL */
      , (46427, 19, True) /* ATTACKABLE_BOOL */
      , (46427, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46427, 16, 'An ancient skull taken from Ronin Hirachi. You notice two large grooves chiseled inside of the skull. The skull is extremely old and brittle. It clearly will not last for long inside of your packs.') /* LONG_DESC_STRING */
-     , (46427, 14, 'You may be able to use this item on the correct sized bone.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46427, 33, 1) /* BONDED_INT */
-     , (46427, 98, 1485731706) /* CREATION_TIMESTAMP_INT */
-     , (46427, 114, 1) /* ATTUNED_INT */
-     , (46427, 19, 0) /* VALUE_INT */
-     , (46427, 5, 15) /* ENCUMB_VAL_INT */
-     , (46427, 267, 7200) /* LIFESPAN_INT */
-     , (46427, 268, 7189) /* REMAINING_LIFESPAN_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

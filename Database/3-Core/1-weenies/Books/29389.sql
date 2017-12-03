@@ -33,14 +33,3 @@ VALUES (29389, 13, True) /* ETHEREAL_BOOL */
      , (29389, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29389, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29389, 16, 'A blood-stained note to General Corcima from King Varicci II. It appears to be rather old and crumpled.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29389, 19, 0) /* VALUE_INT */
-     , (29389, 5, 5) /* ENCUMB_VAL_INT */
-     , (29389, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (29389, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

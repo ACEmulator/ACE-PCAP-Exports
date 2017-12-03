@@ -80,36 +80,3 @@ VALUES (38078, 16, 16795640)
      , (38078, 4, 16791954)
      , (38078, 8, 16791955);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38078, 5, 'Blood of Truth') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38078, 16, 67109564) /* EYES_PALETTE_DID */
-     , (38078, 9, 83890284) /* EYES_TEXTURE_DID */
-     , (38078, 17, 67115901) /* SKIN_PALETTE_DID */
-     , (38078, 10, 83890311) /* NOSE_TEXTURE_DID */
-     , (38078, 11, 83890342) /* MOUTH_TEXTURE_DID */
-     , (38078, 15, 67117026) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38078, 113, 2) /* GENDER_INT */
-     , (38078, 2, 31) /* CREATURE_TYPE_INT */
-     , (38078, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38078, 25, 150) /* LEVEL_INT */
-     , (38078, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38078, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (38078, 2, 180) /* ENDURANCE_ATTRIBUTE */
-     , (38078, 4, 160) /* COORDINATION_ATTRIBUTE */
-     , (38078, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (38078, 16, 180) /* FOCUS_ATTRIBUTE */
-     , (38078, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38078, 64, 290) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38078, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38078, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
-

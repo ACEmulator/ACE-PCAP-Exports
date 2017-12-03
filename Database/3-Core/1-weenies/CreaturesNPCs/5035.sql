@@ -87,36 +87,3 @@ VALUES (5035, 2, 16777293)
      , (5035, 4, 16777291)
      , (5035, 8, 16777298);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5035, 5, 'Citizen of Holtburg') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5035, 16, 67110064) /* EYES_PALETTE_DID */
-     , (5035, 9, 83890516) /* EYES_TEXTURE_DID */
-     , (5035, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (5035, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (5035, 11, 83890587) /* MOUTH_TEXTURE_DID */
-     , (5035, 15, 67116978) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5035, 113, 1) /* GENDER_INT */
-     , (5035, 2, 31) /* CREATURE_TYPE_INT */
-     , (5035, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (5035, 25, 5) /* LEVEL_INT */
-     , (5035, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (5035, 1, 70) /* STRENGTH_ATTRIBUTE */
-     , (5035, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (5035, 4, 65) /* COORDINATION_ATTRIBUTE */
-     , (5035, 8, 60) /* QUICKNESS_ATTRIBUTE */
-     , (5035, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (5035, 32, 50) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5035, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5035, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5035, 256, 105) /* MAX_MANA_ATTRIBUTE_2ND */;
-

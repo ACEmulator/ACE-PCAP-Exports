@@ -84,39 +84,6 @@ VALUES (800, 2, 16777293)
      , (800, 8, 16777298)
      , (800, 16, 16779630);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (800, 5, 'Healer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (800, 16, 67109565) /* EYES_PALETTE_DID */
-     , (800, 9, 83890487) /* EYES_TEXTURE_DID */
-     , (800, 17, 67110047) /* SKIN_PALETTE_DID */
-     , (800, 10, 83890547) /* NOSE_TEXTURE_DID */
-     , (800, 11, 83890578) /* MOUTH_TEXTURE_DID */
-     , (800, 15, 67117021) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (800, 113, 1) /* GENDER_INT */
-     , (800, 2, 31) /* CREATURE_TYPE_INT */
-     , (800, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (800, 25, 5) /* LEVEL_INT */
-     , (800, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (800, 1, 70) /* STRENGTH_ATTRIBUTE */
-     , (800, 2, 60) /* ENDURANCE_ATTRIBUTE */
-     , (800, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (800, 8, 45) /* QUICKNESS_ATTRIBUTE */
-     , (800, 16, 20) /* FOCUS_ATTRIBUTE */
-     , (800, 32, 25) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (800, 64, 70) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (800, 128, 140) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (800, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

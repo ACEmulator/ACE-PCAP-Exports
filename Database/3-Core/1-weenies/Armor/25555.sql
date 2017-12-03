@@ -38,23 +38,3 @@ VALUES (25555, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25555, 0, 16789608);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25555, 16, 'A finely sewed and maintained Moarsman head, patched with utmost precision, and conveniently fitted for use.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25555, 19, 1000) /* VALUE_INT */
-     , (25555, 5, 30) /* ENCUMB_VAL_INT */
-     , (25555, 28, 10) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25555, 13, 0.45) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25555, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25555, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25555, 16, 0.45) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25555, 17, 0.35) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25555, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25555, 19, 0.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25555, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

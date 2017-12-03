@@ -45,19 +45,6 @@ VALUES (25347, 16, 83894727, 83894729);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25347, 16, 16789491);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25347, 14, 'Use on a magic item to destroy that item and drain its Mana.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25347, 19, 7500) /* VALUE_INT */
-     , (25347, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25347, 137, 0.25) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
-     , (25347, 87, 3) /* ITEM_EFFICIENCY_FLOAT */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

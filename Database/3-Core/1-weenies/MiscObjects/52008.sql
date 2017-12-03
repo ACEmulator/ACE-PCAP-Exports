@@ -38,14 +38,3 @@ VALUES (52008, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (52008, 67116923, 240, 16);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52008, 15, 'This broken mask shard was taken from the Curator of Torment in his catacombs deep under the Obsidian Plains.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52008, 33, 1) /* BONDED_INT */
-     , (52008, 114, 1) /* ATTUNED_INT */
-     , (52008, 19, 0) /* VALUE_INT */
-     , (52008, 5, 200) /* ENCUMB_VAL_INT */;
-

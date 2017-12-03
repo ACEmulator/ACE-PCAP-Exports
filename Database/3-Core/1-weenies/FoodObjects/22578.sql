@@ -35,17 +35,6 @@ VALUES (22578, 13, True) /* ETHEREAL_BOOL */
      , (22578, 14, True) /* GRAVITY_STATUS_BOOL */
      , (22578, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22578, 15, 'A bunch of good smelling fruit.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22578, 19, 500) /* VALUE_INT */
-     , (22578, 5, 300) /* ENCUMB_VAL_INT */
-     , (22578, 89, 4) /* BOOSTER_ENUM_INT */
-     , (22578, 90, 6) /* BOOST_VALUE_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

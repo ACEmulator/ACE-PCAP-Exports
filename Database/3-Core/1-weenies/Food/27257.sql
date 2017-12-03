@@ -36,21 +36,6 @@ VALUES (27257, 13, True) /* ETHEREAL_BOOL */
      , (27257, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27257, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27257, 16, 'A piece of magically imbued coral. It seems to shiver with a life of its own.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27257, 19, 1000) /* VALUE_INT */
-     , (27257, 5, 75) /* ENCUMB_VAL_INT */
-     , (27257, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (27257, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (27257, 109, 200) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27257, 3206) /* GolemHunterManaHigh_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

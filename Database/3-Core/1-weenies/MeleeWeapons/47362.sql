@@ -37,39 +37,3 @@ VALUES (47362, 13, True) /* ETHEREAL_BOOL */
      , (47362, 19, True) /* ATTACKABLE_BOOL */
      , (47362, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47362, 16, 'Dinner Plate of Armor Expertise') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47362, 353, 10) /* WEAPON_TYPE_INT */
-     , (47362, 177, 4) /* GEM_COUNT_INT */
-     , (47362, 178, 38) /* GEM_TYPE_INT */
-     , (47362, 19, 19229) /* VALUE_INT */
-     , (47362, 131, 71) /* MATERIAL_TYPE_INT */
-     , (47362, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (47362, 5, 50) /* ENCUMB_VAL_INT */
-     , (47362, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (47362, 106, 292) /* ITEM_SPELLCRAFT_INT */
-     , (47362, 108, 747) /* ITEM_MAX_MANA_INT */
-     , (47362, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (47362, 109, 292) /* ITEM_DIFFICULTY_INT */
-     , (47362, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (47362, 45, 1) /* DAMAGE_TYPE_INT */
-     , (47362, 49, 10) /* WEAPON_TIME_INT */
-     , (47362, 48, 47) /* WEAPON_SKILL_INT */
-     , (47362, 44, 20) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (47362, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (47362, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (47362, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (47362, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (47362, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (47362, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (47362, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (47362, 2197) /* ArmorExpertiseSelf7_SpellID */;
-

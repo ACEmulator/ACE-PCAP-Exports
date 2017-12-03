@@ -42,14 +42,3 @@ VALUES (30055, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30055, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30055, 16, 'A flawless stone used as a lens for the Beacon Tower. Use the portal at 71.7N 60.9W and climb the tower platforms to the beacon. Once at the top of the platforms, place this stone within the beacon to fix it.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30055, 33, 1) /* BONDED_INT */
-     , (30055, 114, 1) /* ATTUNED_INT */
-     , (30055, 19, 0) /* VALUE_INT */
-     , (30055, 5, 100) /* ENCUMB_VAL_INT */;
-

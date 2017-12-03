@@ -30,8 +30,3 @@ VALUES (34132, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (34132, 19, True) /* ATTACKABLE_BOOL */
      , (34132, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34132, 16, 'I never met a monster I didn''t fight.') /* LONG_DESC_STRING */;
-

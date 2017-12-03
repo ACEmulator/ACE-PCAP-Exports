@@ -33,12 +33,3 @@ VALUES (42813, 13, True) /* ETHEREAL_BOOL */
      , (42813, 19, True) /* ATTACKABLE_BOOL */
      , (42813, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42813, 16, 'This fortified town fell under siege in the earlier days of Aluvian settlement to Tumeroks ushered in from the Hea Village of Ahurenga by the Virindi. The townpeople are often in need of donations from traveling adventurers lest they starve. This town is good for characters over level 20.') /* LONG_DESC_STRING */
-     , (42813, 38, 'Portal to Dryreach (8.1S, 73.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42813, 111, 1) /* PORTAL_BITMASK_INT */;
-

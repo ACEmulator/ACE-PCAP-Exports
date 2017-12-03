@@ -35,26 +35,3 @@ VALUES (29511, 13, True) /* ETHEREAL_BOOL */
      , (29511, 19, True) /* ATTACKABLE_BOOL */
      , (29511, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29511, 16, 'A medallion embossed with the design of the Red Bull of Sanamar.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29511, 33, 1) /* BONDED_INT */
-     , (29511, 114, 1) /* ATTUNED_INT */
-     , (29511, 19, 0) /* VALUE_INT */
-     , (29511, 36, 9999) /* RESIST_MAGIC_INT */
-     , (29511, 5, 50) /* ENCUMB_VAL_INT */
-     , (29511, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (29511, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (29511, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29511, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (29511, 1311) /* ArmorSelf5_SpellID */
-     , (29511, 1331) /* StrengthSelf5_SpellID */
-     , (29511, 1401) /* QuicknessSelf5_SpellID */;
-

@@ -34,19 +34,6 @@ VALUES (6878, 13, True) /* ETHEREAL_BOOL */
      , (6878, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6878, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6878, 15, 'A crumpled note from Hamud ibn Rafik to his daughter, Devana.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6878, 33, 1) /* BONDED_INT */
-     , (6878, 114, 1) /* ATTUNED_INT */
-     , (6878, 19, 5) /* VALUE_INT */
-     , (6878, 5, 25) /* ENCUMB_VAL_INT */
-     , (6878, 174, 2) /* APPRAISAL_PAGES_INT */
-     , (6878, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

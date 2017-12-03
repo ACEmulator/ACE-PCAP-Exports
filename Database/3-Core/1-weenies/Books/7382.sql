@@ -34,14 +34,3 @@ VALUES (7382, 13, True) /* ETHEREAL_BOOL */
      , (7382, 14, True) /* GRAVITY_STATUS_BOOL */
      , (7382, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7382, 16, 'A book printed in the flowing script of Yalain. The ornate pyreal inlay on the binding has been discolored by the ash of Mount Tenkarrdun.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7382, 19, 90) /* VALUE_INT */
-     , (7382, 5, 160) /* ENCUMB_VAL_INT */
-     , (7382, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (7382, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

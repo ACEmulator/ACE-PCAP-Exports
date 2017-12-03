@@ -47,29 +47,3 @@ VALUES (23688, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23688, 0, 16777955);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23688, 16, 'Heavy Bracelet of Focus') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23688, 177, 2) /* GEM_COUNT_INT */
-     , (23688, 178, 16) /* GEM_TYPE_INT */
-     , (23688, 19, 14096) /* VALUE_INT */
-     , (23688, 131, 51) /* MATERIAL_TYPE_INT */
-     , (23688, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (23688, 5, 150) /* ENCUMB_VAL_INT */
-     , (23688, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (23688, 106, 298) /* ITEM_SPELLCRAFT_INT */
-     , (23688, 108, 1867) /* ITEM_MAX_MANA_INT */
-     , (23688, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (23688, 109, 308) /* ITEM_DIFFICULTY_INT */
-     , (23688, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23688, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (23688, 2507) /* CANTRIPCREATUREENCHANTMENTAPTITUDE2_SpellID */
-     , (23688, 2067) /* FocusSelf7_SpellID */;
-

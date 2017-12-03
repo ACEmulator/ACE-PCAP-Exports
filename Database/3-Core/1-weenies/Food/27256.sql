@@ -35,22 +35,6 @@ VALUES (27256, 13, True) /* ETHEREAL_BOOL */
      , (27256, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27256, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27256, 16, 'A smoldering coal. The center of this rock seems to glow with intense heat, yet the surface is cool to the touch.') /* LONG_DESC_STRING */
-     , (27256, 14, 'Use this item to stoke the fire within.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27256, 19, 100) /* VALUE_INT */
-     , (27256, 5, 75) /* ENCUMB_VAL_INT */
-     , (27256, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (27256, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (27256, 109, 200) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27256, 3204) /* GolemHunterHealthHigh_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

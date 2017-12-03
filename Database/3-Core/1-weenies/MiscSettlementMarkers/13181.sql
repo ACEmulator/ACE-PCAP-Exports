@@ -29,12 +29,3 @@ VALUES (13181, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (13181, 19, True) /* ATTACKABLE_BOOL */
      , (13181, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13181, 16, 'Welcome to Simda''r Villas') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13181, 19, 125) /* VALUE_INT */
-     , (13181, 5, 9000) /* ENCUMB_VAL_INT */;
-

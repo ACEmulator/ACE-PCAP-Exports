@@ -41,39 +41,3 @@ VALUES (28612, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28612, 67115979, 240, 16);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28612, 16, 'Bandana of Void Magic') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28612, 19, 8746) /* VALUE_INT */
-     , (28612, 131, 5) /* MATERIAL_TYPE_INT */
-     , (28612, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (28612, 5, 20) /* ENCUMB_VAL_INT */
-     , (28612, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (28612, 106, 213) /* ITEM_SPELLCRAFT_INT */
-     , (28612, 28, 248) /* ARMOR_LEVEL_INT */
-     , (28612, 108, 521) /* ITEM_MAX_MANA_INT */
-     , (28612, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (28612, 109, 213) /* ITEM_DIFFICULTY_INT */
-     , (28612, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (28612, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (28612, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (28612, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (28612, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (28612, 16, 0.8220786) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (28612, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (28612, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (28612, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (28612, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (28612, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (28612, 1485) /* Impenetrability5_SpellID */
-     , (28612, 5415) /* VoidMagicMasterySelf5_SpellID */;
-

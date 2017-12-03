@@ -37,19 +37,6 @@ VALUES (8210, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8210, 19, True) /* ATTACKABLE_BOOL */
      , (8210, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8210, 14, 'Use this item to open it and see its contents.') /* USE_STRING */
-     , (8210, 15, 'An old chest, overgrown with moss. The lock is broken, and it looks like was opened and picked over long ago.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8210, 19, 2500) /* VALUE_INT */
-     , (8210, 5, 9343) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8210, 2, 0) /* OPEN_BOOL */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

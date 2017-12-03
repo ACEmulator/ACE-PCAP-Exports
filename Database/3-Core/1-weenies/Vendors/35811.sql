@@ -88,39 +88,6 @@ VALUES (35811, 3, 16777292)
      , (35811, 14, 16783855)
      , (35811, 16, 16778594);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35811, 5, 'Arcane Items Vendor') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (35811, 16, 67110063) /* EYES_PALETTE_DID */
-     , (35811, 9, 83890514) /* EYES_TEXTURE_DID */
-     , (35811, 17, 67109556) /* SKIN_PALETTE_DID */
-     , (35811, 10, 83890532) /* NOSE_TEXTURE_DID */
-     , (35811, 11, 83890658) /* MOUTH_TEXTURE_DID */
-     , (35811, 15, 67117017) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35811, 113, 1) /* GENDER_INT */
-     , (35811, 2, 31) /* CREATURE_TYPE_INT */
-     , (35811, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (35811, 25, 216) /* LEVEL_INT */
-     , (35811, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (35811, 1, 190) /* STRENGTH_ATTRIBUTE */
-     , (35811, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (35811, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (35811, 8, 260) /* QUICKNESS_ATTRIBUTE */
-     , (35811, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (35811, 32, 290) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35811, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (35811, 128, 300) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (35811, 256, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)

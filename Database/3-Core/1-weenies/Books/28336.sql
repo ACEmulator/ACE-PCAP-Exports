@@ -33,18 +33,6 @@ VALUES (28336, 13, True) /* ETHEREAL_BOOL */
      , (28336, 14, True) /* GRAVITY_STATUS_BOOL */
      , (28336, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28336, 14, 'Use this item to read it.') /* USE_STRING */
-     , (28336, 15, 'A hastily-scrawled note from Barnar the Tinker.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28336, 19, 0) /* VALUE_INT */
-     , (28336, 5, 10) /* ENCUMB_VAL_INT */
-     , (28336, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (28336, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

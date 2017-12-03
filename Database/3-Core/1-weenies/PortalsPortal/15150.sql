@@ -33,11 +33,3 @@ VALUES (15150, 13, True) /* ETHEREAL_BOOL */
      , (15150, 19, True) /* ATTACKABLE_BOOL */
      , (15150, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15150, 38, 'Darawyll Village Portal (9.5N, 40.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15150, 111, 1) /* PORTAL_BITMASK_INT */;
-

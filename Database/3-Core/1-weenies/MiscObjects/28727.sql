@@ -31,14 +31,3 @@ VALUES (28727, 13, True) /* ETHEREAL_BOOL */
      , (28727, 19, True) /* ATTACKABLE_BOOL */
      , (28727, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28727, 16, 'This eater jaw is malformed. Apparently it has been broken so many times that it no longer resembles a jaw.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28727, 33, 1) /* BONDED_INT */
-     , (28727, 114, 1) /* ATTUNED_INT */
-     , (28727, 19, 0) /* VALUE_INT */
-     , (28727, 5, 400) /* ENCUMB_VAL_INT */;
-

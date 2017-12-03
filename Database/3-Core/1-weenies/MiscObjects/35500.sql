@@ -37,20 +37,6 @@ VALUES (35500, 13, True) /* ETHEREAL_BOOL */
      , (35500, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35500, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35500, 16, 'Open the bundle to create a stack of 5000 Spectral Chill Arrows. Striking with the cold of the grave, these arrows are very light and cause 28.3 to 40 frost damage. Your base Bow skill must be at least 270 to use these arrows.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35500, 33, 1) /* BONDED_INT */
-     , (35500, 114, 1) /* ATTUNED_INT */
-     , (35500, 19, 4) /* VALUE_INT */
-     , (35500, 5, 16) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35500, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -51,23 +51,3 @@ VALUES (3749, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3749, 0, 16778603);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3749, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
-     , (3749, 115, 125) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (3749, 19, 5700) /* VALUE_INT */
-     , (3749, 5, 125) /* ENCUMB_VAL_INT */
-     , (3749, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (3749, 108, 2000) /* ITEM_MAX_MANA_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3749, 144, 0.03) /* MANA_CONVERSION_MOD_FLOAT */
-     , (3749, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (3749, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3749, 145) /* FlameVolley5_SpellID */
-     , (3749, 1033) /* ColdProtectionSelf4_SpellID */
-     , (3749, 1069) /* LightningProtectionSelf4_SpellID */;
-

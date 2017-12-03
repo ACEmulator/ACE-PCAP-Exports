@@ -39,26 +39,3 @@ VALUES (43145, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43145, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (43145, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43145, 5, 'Copper Cog Supply Officer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43145, 2, 99) /* CREATURE_TYPE_INT */
-     , (43145, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43145, 25, 350) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (43145, 1, 700) /* STRENGTH_ATTRIBUTE */
-     , (43145, 2, 700) /* ENDURANCE_ATTRIBUTE */
-     , (43145, 4, 700) /* COORDINATION_ATTRIBUTE */
-     , (43145, 8, 300) /* QUICKNESS_ATTRIBUTE */
-     , (43145, 16, 500) /* FOCUS_ATTRIBUTE */
-     , (43145, 32, 500) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43145, 64, 400000) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (43145, 128, 3900) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (43145, 256, 3600) /* MAX_MANA_ATTRIBUTE_2ND */;
-

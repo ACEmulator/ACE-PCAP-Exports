@@ -42,28 +42,6 @@ VALUES (9510, 13, True) /* ETHEREAL_BOOL */
      , (9510, 17, True) /* INELASTIC_BOOL */
      , (9510, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9510, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (9510, 353, 10) /* WEAPON_TYPE_INT */
-     , (9510, 19, 40) /* VALUE_INT */
-     , (9510, 5, 250) /* ENCUMB_VAL_INT */
-     , (9510, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (9510, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (9510, 45, 4) /* DAMAGE_TYPE_INT */
-     , (9510, 49, 20) /* WEAPON_TIME_INT */
-     , (9510, 48, 47) /* WEAPON_SKILL_INT */
-     , (9510, 44, 80) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (9510, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (9510, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (9510, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (9510, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (9510, 26, 45) /* MAXIMUM_VELOCITY_FLOAT */
-     , (9510, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

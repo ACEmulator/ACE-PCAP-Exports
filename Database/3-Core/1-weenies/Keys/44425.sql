@@ -35,16 +35,3 @@ VALUES (44425, 13, True) /* ETHEREAL_BOOL */
      , (44425, 19, True) /* ATTACKABLE_BOOL */
      , (44425, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44425, 16, 'This key unlocks doors in this dungeon') /* LONG_DESC_STRING */
-     , (44425, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44425, 33, 1) /* BONDED_INT */
-     , (44425, 114, 1) /* ATTUNED_INT */
-     , (44425, 19, 50) /* VALUE_INT */
-     , (44425, 5, 50) /* ENCUMB_VAL_INT */
-     , (44425, 91, 3) /* MAX_STRUCTURE_INT */;
-

@@ -42,12 +42,3 @@ VALUES (14587, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14587, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14587, 15, 'One could use a noodle cutter to slice leather straps from this hide.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14587, 19, 500) /* VALUE_INT */
-     , (14587, 5, 800) /* ENCUMB_VAL_INT */;
-

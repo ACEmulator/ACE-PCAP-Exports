@@ -32,17 +32,3 @@ VALUES (28766, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28766, 19, True) /* ATTACKABLE_BOOL */
      , (28766, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28766, 14, 'Use the Torture Chamber Key to open this door.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28766, 19, 0) /* VALUE_INT */
-     , (28766, 38, 125) /* RESIST_LOCKPICK_INT */
-     , (28766, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (28766, 2, 0) /* OPEN_BOOL */
-     , (28766, 3, 1) /* LOCKED_BOOL */;
-

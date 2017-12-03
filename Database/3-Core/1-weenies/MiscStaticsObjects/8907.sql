@@ -29,12 +29,3 @@ VALUES (8907, 13, True) /* ETHEREAL_BOOL */
      , (8907, 19, True) /* ATTACKABLE_BOOL */
      , (8907, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8907, 16, 'A vortex of intense magical energy surrounded by small stones with strange markings.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8907, 19, 0) /* VALUE_INT */
-     , (8907, 5, 0) /* ENCUMB_VAL_INT */;
-

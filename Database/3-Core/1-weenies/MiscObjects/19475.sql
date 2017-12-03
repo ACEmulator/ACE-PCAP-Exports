@@ -41,12 +41,3 @@ VALUES (19475, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19475, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19475, 16, 'A Large Ursuin hide with the bloody head still attached.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19475, 19, 0) /* VALUE_INT */
-     , (19475, 5, 500) /* ENCUMB_VAL_INT */;
-

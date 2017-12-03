@@ -33,19 +33,6 @@ VALUES (14439, 13, True) /* ETHEREAL_BOOL */
      , (14439, 14, True) /* GRAVITY_STATUS_BOOL */
      , (14439, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14439, 15, 'A letter from Sir Rylanan to Sir Tenshin, in Shoushi.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14439, 33, 1) /* BONDED_INT */
-     , (14439, 114, 1) /* ATTUNED_INT */
-     , (14439, 19, 0) /* VALUE_INT */
-     , (14439, 5, 5) /* ENCUMB_VAL_INT */
-     , (14439, 174, 2) /* APPRAISAL_PAGES_INT */
-     , (14439, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

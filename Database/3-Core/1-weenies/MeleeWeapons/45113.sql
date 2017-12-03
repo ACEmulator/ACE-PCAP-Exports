@@ -50,34 +50,3 @@ VALUES (45113, 0, 83889288, 83889288)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45113, 0, 16777980);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45113, 16, 'Hammer') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45113, 160, 325) /* WIELD_DIFFICULTY_INT */
-     , (45113, 353, 3) /* WEAPON_TYPE_INT */
-     , (45113, 177, 3) /* GEM_COUNT_INT */
-     , (45113, 178, 19) /* GEM_TYPE_INT */
-     , (45113, 19, 1209) /* VALUE_INT */
-     , (45113, 131, 63) /* MATERIAL_TYPE_INT */
-     , (45113, 5, 431) /* ENCUMB_VAL_INT */
-     , (45113, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (45113, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (45113, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (45113, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (45113, 47, 4) /* ATTACK_TYPE_INT */
-     , (45113, 45, 4) /* DAMAGE_TYPE_INT */
-     , (45113, 49, 47) /* WEAPON_TIME_INT */
-     , (45113, 48, 46) /* WEAPON_SKILL_INT */
-     , (45113, 44, 36) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45113, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
-     , (45113, 22, 0.95) /* DAMAGE_VARIANCE_FLOAT */
-     , (45113, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (45113, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (45113, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45113, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
-

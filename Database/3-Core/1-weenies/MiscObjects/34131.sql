@@ -30,8 +30,3 @@ VALUES (34131, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (34131, 19, True) /* ATTACKABLE_BOOL */
      , (34131, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34131, 16, 'Lilly Vanspooter. PY34 - PY34. Lilly refused to believe in what she called a delusional fantasy world she had somehow stumbled into. A passing figment of her imagination decided that she looked tasty and promptly ate her.') /* LONG_DESC_STRING */;
-

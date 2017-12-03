@@ -36,33 +36,3 @@ VALUES (30877, 13, True) /* ETHEREAL_BOOL */
      , (30877, 19, True) /* ATTACKABLE_BOOL */
      , (30877, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30877, 160, 270) /* WIELD_DIFFICULTY_INT */
-     , (30877, 353, 10) /* WEAPON_TYPE_INT */
-     , (30877, 19, 8000) /* VALUE_INT */
-     , (30877, 5, 400) /* ENCUMB_VAL_INT */
-     , (30877, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (30877, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (30877, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (30877, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (30877, 45, 0) /* DAMAGE_TYPE_INT */
-     , (30877, 49, 20) /* WEAPON_TIME_INT */
-     , (30877, 48, 47) /* WEAPON_SKILL_INT */
-     , (30877, 44, 5) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30877, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
-     , (30877, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (30877, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (30877, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (30877, 63, 2.4) /* DAMAGE_MOD_FLOAT */
-     , (30877, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (30877, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
-     , (30877, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30877, 1616) /* BloodDrinker6_SpellID */
-     , (30877, 2540) /* CANTRIPBOWAPTITUDE1_SpellID */;
-

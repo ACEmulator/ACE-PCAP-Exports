@@ -33,12 +33,3 @@ VALUES (8387, 13, True) /* ETHEREAL_BOOL */
      , (8387, 19, True) /* ATTACKABLE_BOOL */
      , (8387, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8387, 38, 'North Direlands Valley Junction (2.6N, 65.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8387, 86, 25) /* MIN_LEVEL_INT */
-     , (8387, 111, 1) /* PORTAL_BITMASK_INT */;
-

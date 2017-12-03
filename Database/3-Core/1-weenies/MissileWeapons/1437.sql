@@ -50,30 +50,6 @@ VALUES (1437, 67111921, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (1437, 0, 16777887);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1437, 16, 'A flaming arrow that appears to do fire damage.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1437, 19, 405) /* VALUE_INT */
-     , (1437, 5, 405) /* ENCUMB_VAL_INT */
-     , (1437, 45, 16) /* DAMAGE_TYPE_INT */
-     , (1437, 49, -1) /* WEAPON_TIME_INT */
-     , (1437, 48, 0) /* WEAPON_SKILL_INT */
-     , (1437, 44, 9) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1437, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (1437, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (1437, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (1437, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (1437, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (1437, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1437, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -34,14 +34,3 @@ VALUES (2617, 13, True) /* ETHEREAL_BOOL */
      , (2617, 19, True) /* ATTACKABLE_BOOL */
      , (2617, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2617, 16, 'This stout, carved key made of stone is used in the Carved Cave.') /* LONG_DESC_STRING */
-     , (2617, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2617, 19, 20) /* VALUE_INT */
-     , (2617, 5, 50) /* ENCUMB_VAL_INT */
-     , (2617, 91, 3) /* MAX_STRUCTURE_INT */;
-

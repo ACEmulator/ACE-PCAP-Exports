@@ -33,12 +33,3 @@ VALUES (31061, 13, True) /* ETHEREAL_BOOL */
      , (31061, 19, True) /* ATTACKABLE_BOOL */
      , (31061, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31061, 16, 'Walk into this portal to enter the Central Courtyard. You must finish the Training Master''s task before you can use this portal.') /* LONG_DESC_STRING */
-     , (31061, 38, 'Central Courtyard') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31061, 111, 49) /* PORTAL_BITMASK_INT */;
-

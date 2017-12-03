@@ -36,15 +36,6 @@ VALUES (20188, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (20188, 19, True) /* ATTACKABLE_BOOL */
      , (20188, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20188, 16, 'Killed by Arkaina.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20188, 19, 0) /* VALUE_INT */
-     , (20188, 5, 6735) /* ENCUMB_VAL_INT */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -32,17 +32,3 @@ VALUES (36678, 13, True) /* ETHEREAL_BOOL */
      , (36678, 19, True) /* ATTACKABLE_BOOL */
      , (36678, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36678, 16, 'A sealed royal summons for Lord Kresovus of Linvak Tukal.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36678, 33, 1) /* BONDED_INT */
-     , (36678, 114, 1) /* ATTUNED_INT */
-     , (36678, 19, 10) /* VALUE_INT */
-     , (36678, 5, 1) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36678, 69, 0) /* IS_SELLABLE_BOOL */;
-

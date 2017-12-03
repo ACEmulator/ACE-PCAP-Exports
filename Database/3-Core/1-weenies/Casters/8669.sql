@@ -51,29 +51,3 @@ VALUES (8669, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8669, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8669, 16, 'A flaring essence formerly trapped in a wisp.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8669, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
-     , (8669, 115, 150) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (8669, 19, 600) /* VALUE_INT */
-     , (8669, 5, 50) /* ENCUMB_VAL_INT */
-     , (8669, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (8669, 108, 1200) /* ITEM_MAX_MANA_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8669, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
-     , (8669, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (8669, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8669, 193) /* RejuvenationSelf6_SpellID */
-     , (8669, 2003) /* WarriorsLesserVitality_SpellID */
-     , (8669, 2007) /* WarriorsLesserVigor_SpellID */
-     , (8669, 217) /* ManaRenewalSelf6_SpellID */
-     , (8669, 2011) /* WizardsLesserIntellect_SpellID */
-     , (8669, 170) /* RegenerationSelf6_SpellID */;
-

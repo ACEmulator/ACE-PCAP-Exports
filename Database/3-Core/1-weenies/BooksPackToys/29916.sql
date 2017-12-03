@@ -40,23 +40,6 @@ VALUES (29916, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (29916, 67113862, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29916, 16, 'Lord Asheron Realadain of Knorr') /* LONG_DESC_STRING */
-     , (29916, 14, 'This doll may be hooked. Use this doll to read a historical lesson.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29916, 33, 1) /* BONDED_INT */
-     , (29916, 114, 0) /* ATTUNED_INT */
-     , (29916, 19, 5000) /* VALUE_INT */
-     , (29916, 5, 10) /* ENCUMB_VAL_INT */
-     , (29916, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (29916, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29916, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

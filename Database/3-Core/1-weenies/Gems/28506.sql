@@ -35,21 +35,6 @@ VALUES (28506, 13, True) /* ETHEREAL_BOOL */
      , (28506, 19, True) /* ATTACKABLE_BOOL */
      , (28506, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28506, 16, 'A functional crate for storing messy materials. This crate has four lined bags inside that are labeled for sclavus body parts. The first is for a small Sclavus hide. You should collect that piece first.') /* LONG_DESC_STRING */
-     , (28506, 14, 'Place a Small Sclavus Hide into the lined bag inside this crate.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28506, 33, 1) /* BONDED_INT */
-     , (28506, 114, 1) /* ATTUNED_INT */
-     , (28506, 19, 0) /* VALUE_INT */
-     , (28506, 5, 150) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (28506, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

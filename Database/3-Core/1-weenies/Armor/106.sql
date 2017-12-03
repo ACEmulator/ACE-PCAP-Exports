@@ -47,29 +47,3 @@ VALUES (106, 0, 83886796, 83889770)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (106, 0, 16778363);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (106, 16, 'Yoroi Sleeves') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (106, 19, 4671) /* VALUE_INT */
-     , (106, 131, 57) /* MATERIAL_TYPE_INT */
-     , (106, 5, 543) /* ENCUMB_VAL_INT */
-     , (106, 105, 3) /* ITEM_WORKMANSHIP_INT */
-     , (106, 28, 231) /* ARMOR_LEVEL_INT */
-     , (106, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (106, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (106, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (106, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (106, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (106, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (106, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (106, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (106, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (106, 100, 1) /* DYABLE_BOOL */;
-

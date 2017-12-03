@@ -47,24 +47,3 @@ VALUES (28077, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (28077, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28077, 16, 'This simple silver band appears to be no more than an ornamental piece of jewelry to the untrained eye. Those who have studied magic will immediately notice that the silver is woven delicately and intricately with pyreal and golden bands. The result is a potent magical boon. A simple orb has been carved into the metal of the bracelet.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28077, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (28077, 19, 9000) /* VALUE_INT */
-     , (28077, 5, 50) /* ENCUMB_VAL_INT */
-     , (28077, 106, 350) /* ITEM_SPELLCRAFT_INT */
-     , (28077, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (28077, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (28077, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (28077, 159, 31) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (28077, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (28077, 3365) /* GiftEnhancement_SpellID */;
-

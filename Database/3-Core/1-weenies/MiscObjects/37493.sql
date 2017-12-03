@@ -44,17 +44,3 @@ VALUES (37493, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (37493, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37493, 16, 'A small leather sack with a J on it. It contains a number of shiny marbles which glitter like gems.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37493, 33, 1) /* BONDED_INT */
-     , (37493, 114, 1) /* ATTUNED_INT */
-     , (37493, 19, 0) /* VALUE_INT */
-     , (37493, 5, 60) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (37493, 69, 0) /* IS_SELLABLE_BOOL */;
-

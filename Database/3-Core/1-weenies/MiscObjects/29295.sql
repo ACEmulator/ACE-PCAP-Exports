@@ -31,17 +31,3 @@ VALUES (29295, 13, True) /* ETHEREAL_BOOL */
      , (29295, 19, True) /* ATTACKABLE_BOOL */
      , (29295, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29295, 16, 'An uninscribed Augmentation Gem. Hand this item to an Augmentation Trainer in exchange for an inscribed Augmentation Gem.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29295, 33, 1) /* BONDED_INT */
-     , (29295, 114, 1) /* ATTUNED_INT */
-     , (29295, 19, 0) /* VALUE_INT */
-     , (29295, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29295, 69, 0) /* IS_SELLABLE_BOOL */;
-

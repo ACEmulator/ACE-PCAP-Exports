@@ -33,12 +33,3 @@ VALUES (42832, 13, True) /* ETHEREAL_BOOL */
      , (42832, 19, True) /* ATTACKABLE_BOOL */
      , (42832, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42832, 16, 'This portal goes to the town of Xarabydun, in the southern reaches of the A''mun desert. This is a good town for characters over level 10, but be careful --  the surrounding area can be a bit rough.') /* LONG_DESC_STRING */
-     , (42832, 38, 'Portal to Xarabydun (41.9S, 16.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42832, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -40,26 +40,3 @@ VALUES (3705, 13, True) /* ETHEREAL_BOOL */
      , (3705, 19, True) /* ATTACKABLE_BOOL */
      , (3705, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3705, 16, 'A battle axe shaped out of an armoredillo spine. Mysterious electrical impulses flare along the blade of the weapon.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3705, 353, 3) /* WEAPON_TYPE_INT */
-     , (3705, 19, 1800) /* VALUE_INT */
-     , (3705, 5, 675) /* ENCUMB_VAL_INT */
-     , (3705, 47, 4) /* ATTACK_TYPE_INT */
-     , (3705, 45, 64) /* DAMAGE_TYPE_INT */
-     , (3705, 49, 60) /* WEAPON_TIME_INT */
-     , (3705, 48, 46) /* WEAPON_SKILL_INT */
-     , (3705, 44, 18) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3705, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
-     , (3705, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (3705, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3705, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3705, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3705, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
-

@@ -39,39 +39,3 @@ VALUES (43197, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (43197, 67116923, 240, 16);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43197, 15, 'A mask crafted from a shard of the mask of the Apostate Grand Director.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43197, 33, 1) /* BONDED_INT */
-     , (43197, 114, 1) /* ATTUNED_INT */
-     , (43197, 19, 0) /* VALUE_INT */
-     , (43197, 5, 200) /* ENCUMB_VAL_INT */
-     , (43197, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (43197, 108, 3000) /* ITEM_MAX_MANA_INT */
-     , (43197, 28, 400) /* ARMOR_LEVEL_INT */
-     , (43197, 109, 220) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (43197, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (43197, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (43197, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (43197, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (43197, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (43197, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (43197, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (43197, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (43197, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43197, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (43197, 4291) /* ArmorSelf8_SpellID */
-     , (43197, 4232) /* CANTRIPLEADERSHIP3_SpellID */
-     , (43197, 4697) /* CANTRIPITEMENCHANTMENTAPTITUDE3_SpellID */
-     , (43197, 4704) /* CANTRIPMAGICRESISTANCE3_SpellID */
-     , (43197, 4407) /* Impenetrability8_SpellID */;
-

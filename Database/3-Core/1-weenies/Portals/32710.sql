@@ -33,12 +33,3 @@ VALUES (32710, 13, True) /* ETHEREAL_BOOL */
      , (32710, 19, True) /* ATTACKABLE_BOOL */
      , (32710, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32710, 38, 'Viamontian Laboratory') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32710, 86, 30) /* MIN_LEVEL_INT */
-     , (32710, 111, 49) /* PORTAL_BITMASK_INT */;
-

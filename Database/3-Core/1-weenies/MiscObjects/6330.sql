@@ -35,15 +35,6 @@ VALUES (6330, 13, True) /* ETHEREAL_BOOL */
      , (6330, 19, True) /* ATTACKABLE_BOOL */
      , (6330, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6330, 16, 'An ingot of pyreal.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6330, 19, 1000) /* VALUE_INT */
-     , (6330, 5, 1000) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

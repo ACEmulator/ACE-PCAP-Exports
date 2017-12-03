@@ -45,17 +45,6 @@ VALUES (12261, 67111923, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12261, 0, 16787402);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12261, 16, 'A tool provided by Ecorto the Lost Director.') /* LONG_DESC_STRING */
-     , (12261, 14, 'Use this item to chip slivers of Singular material.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12261, 33, 1) /* BONDED_INT */
-     , (12261, 19, 0) /* VALUE_INT */
-     , (12261, 5, 250) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

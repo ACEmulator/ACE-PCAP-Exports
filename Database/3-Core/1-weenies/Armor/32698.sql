@@ -42,26 +42,3 @@ VALUES (32698, 0, 83897393, 83897393)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32698, 0, 16792928);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32698, 16, 'A shield, bearing the Strathelar coat of arms.  This is standard issue for those who have joined Queen Elysa''s army, though it has been given on occasion to honor those who have acted in the interests of the kingdom.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32698, 160, 40) /* WIELD_DIFFICULTY_INT */
-     , (32698, 19, 7500) /* VALUE_INT */
-     , (32698, 5, 1125) /* ENCUMB_VAL_INT */
-     , (32698, 28, 175) /* ARMOR_LEVEL_INT */
-     , (32698, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (32698, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32698, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (32698, 14, 0.7) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (32698, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (32698, 16, 1.1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (32698, 17, 1.1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (32698, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (32698, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (32698, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

@@ -35,23 +35,6 @@ VALUES (35919, 13, True) /* ETHEREAL_BOOL */
      , (35919, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35919, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35919, 15, 'A doll house. This child''s toy is somewhat transparent, and has a strange ethereal quality. ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35919, 33, 1) /* BONDED_INT */
-     , (35919, 98, 1483945677) /* CREATION_TIMESTAMP_INT */
-     , (35919, 114, 1) /* ATTUNED_INT */
-     , (35919, 19, 0) /* VALUE_INT */
-     , (35919, 5, 10) /* ENCUMB_VAL_INT */
-     , (35919, 267, 3600) /* LIFESPAN_INT */
-     , (35919, 268, 3600) /* REMAINING_LIFESPAN_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35919, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

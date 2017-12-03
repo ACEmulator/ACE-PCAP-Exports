@@ -70,29 +70,6 @@ VALUES (41838, 5, 16794156)
      , (41838, 22, 16777708)
      , (41838, 21, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41838, 5, 'Palm Fort Commander') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (41838, 16, 67110063) /* EYES_PALETTE_DID */
-     , (41838, 9, 83890447) /* EYES_TEXTURE_DID */
-     , (41838, 17, 67110047) /* SKIN_PALETTE_DID */
-     , (41838, 10, 83890530) /* NOSE_TEXTURE_DID */
-     , (41838, 11, 83890567) /* MOUTH_TEXTURE_DID */
-     , (41838, 15, 67117028) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41838, 113, 1) /* GENDER_INT */
-     , (41838, 2, 31) /* CREATURE_TYPE_INT */
-     , (41838, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (41838, 25, 200) /* LEVEL_INT */
-     , (41838, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (41838, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 /* Object Wield List */

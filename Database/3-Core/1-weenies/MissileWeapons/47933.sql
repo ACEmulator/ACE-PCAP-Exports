@@ -51,28 +51,6 @@ VALUES (47933, 67111923, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47933, 0, 16777895);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47933, 33, -2) /* BONDED_INT */
-     , (47933, 19, 163) /* VALUE_INT */
-     , (47933, 5, 815) /* ENCUMB_VAL_INT */
-     , (47933, 45, 64) /* DAMAGE_TYPE_INT */
-     , (47933, 49, -1) /* WEAPON_TIME_INT */
-     , (47933, 48, 0) /* WEAPON_SKILL_INT */
-     , (47933, 44, 52) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (47933, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (47933, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
-     , (47933, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (47933, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (47933, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (47933, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (47933, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

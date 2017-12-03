@@ -33,12 +33,3 @@ VALUES (1118, 13, True) /* ETHEREAL_BOOL */
      , (1118, 19, True) /* ATTACKABLE_BOOL */
      , (1118, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1118, 38, 'Black Death Catacombs Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1118, 86, 20) /* MIN_LEVEL_INT */
-     , (1118, 111, 1) /* PORTAL_BITMASK_INT */;
-

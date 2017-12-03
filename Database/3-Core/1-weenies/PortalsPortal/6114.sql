@@ -33,12 +33,3 @@ VALUES (6114, 13, True) /* ETHEREAL_BOOL */
      , (6114, 19, True) /* ATTACKABLE_BOOL */
      , (6114, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6114, 38, 'Mountain Fortress Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6114, 86, 100) /* MIN_LEVEL_INT */
-     , (6114, 111, 1) /* PORTAL_BITMASK_INT */;
-

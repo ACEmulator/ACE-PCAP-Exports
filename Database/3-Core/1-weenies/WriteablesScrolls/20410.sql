@@ -35,17 +35,3 @@ VALUES (20410, 13, True) /* ETHEREAL_BOOL */
      , (20410, 19, True) /* ATTACKABLE_BOOL */
      , (20410, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20410, 16, 'Inscribed spell: Tattercoat
-Worsens a shield or piece of armor''s armor value by 220 points.') /* LONG_DESC_STRING */
-     , (20410, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20410, 19, 2000) /* VALUE_INT */
-     , (20410, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20410, 2100) /* Brittlemail7_SpellID */;
-

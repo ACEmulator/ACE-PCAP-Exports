@@ -35,18 +35,6 @@ VALUES (27767, 13, True) /* ETHEREAL_BOOL */
      , (27767, 19, True) /* ATTACKABLE_BOOL */
      , (27767, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27767, 14, 'You are not sure what this artifact can be used on.') /* USE_STRING */
-     , (27767, 15, 'A cluster of aquamarine gems. The gems shimmer, reflect, and refract light, which is an odd quality for aquamarine to possess.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27767, 33, 1) /* BONDED_INT */
-     , (27767, 114, 1) /* ATTUNED_INT */
-     , (27767, 19, 5000) /* VALUE_INT */
-     , (27767, 5, 20) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

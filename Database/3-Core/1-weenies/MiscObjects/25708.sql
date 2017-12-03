@@ -31,17 +31,3 @@ VALUES (25708, 13, True) /* ETHEREAL_BOOL */
      , (25708, 19, True) /* ATTACKABLE_BOOL */
      , (25708, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25708, 15, 'A clean towel. This was given to me by Dame Brinna O''Shea. It must have a use, but for the moment, what that use is, remains a mystery.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25708, 33, 1) /* BONDED_INT */
-     , (25708, 114, 1) /* ATTUNED_INT */
-     , (25708, 19, 0) /* VALUE_INT */
-     , (25708, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25708, 69, 0) /* IS_SELLABLE_BOOL */;
-

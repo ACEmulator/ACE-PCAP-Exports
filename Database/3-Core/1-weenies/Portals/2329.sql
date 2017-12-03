@@ -33,11 +33,3 @@ VALUES (2329, 13, True) /* ETHEREAL_BOOL */
      , (2329, 19, True) /* ATTACKABLE_BOOL */
      , (2329, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2329, 38, 'Small Black Hill (62.1S, 50.4W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2329, 111, 1) /* PORTAL_BITMASK_INT */;
-

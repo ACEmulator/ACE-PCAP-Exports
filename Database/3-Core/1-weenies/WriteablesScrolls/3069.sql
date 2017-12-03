@@ -35,17 +35,3 @@ VALUES (3069, 13, True) /* ETHEREAL_BOOL */
      , (3069, 19, True) /* ATTACKABLE_BOOL */
      , (3069, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3069, 16, 'Inscribed spell: Piercing Protection Self III
-Reduces damage the caster takes from Piercing by 33%.') /* LONG_DESC_STRING */
-     , (3069, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3069, 19, 20) /* VALUE_INT */
-     , (3069, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3069, 1135) /* PiercingProtectionSelf3_SpellID */;
-

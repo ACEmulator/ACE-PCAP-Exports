@@ -46,39 +46,3 @@ VALUES (80, 0, 83887064, 83886785)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (80, 0, 16778829);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (80, 16, 'Chainmail Leggings') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (80, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
-     , (80, 19, 10728) /* VALUE_INT */
-     , (80, 131, 63) /* MATERIAL_TYPE_INT */
-     , (80, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (80, 5, 1188) /* ENCUMB_VAL_INT */
-     , (80, 105, 3) /* ITEM_WORKMANSHIP_INT */
-     , (80, 106, 267) /* ITEM_SPELLCRAFT_INT */
-     , (80, 28, 218) /* ARMOR_LEVEL_INT */
-     , (80, 108, 1101) /* ITEM_MAX_MANA_INT */
-     , (80, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (80, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (80, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (80, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (80, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (80, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (80, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (80, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (80, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (80, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (80, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (80, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (80, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (80, 1486) /* Impenetrability6_SpellID */;
-

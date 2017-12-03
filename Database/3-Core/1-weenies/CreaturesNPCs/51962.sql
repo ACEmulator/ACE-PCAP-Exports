@@ -85,36 +85,3 @@ VALUES (51962, 12, 16777304)
      , (51962, 13, 16781868)
      , (51962, 14, 16781821);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51962, 5, 'Gold Smith') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (51962, 16, 67110062) /* EYES_PALETTE_DID */
-     , (51962, 9, 83890448) /* EYES_TEXTURE_DID */
-     , (51962, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (51962, 10, 83890522) /* NOSE_TEXTURE_DID */
-     , (51962, 11, 83890642) /* MOUTH_TEXTURE_DID */
-     , (51962, 15, 67117021) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51962, 113, 1) /* GENDER_INT */
-     , (51962, 2, 31) /* CREATURE_TYPE_INT */
-     , (51962, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (51962, 25, 276) /* LEVEL_INT */
-     , (51962, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (51962, 1, 100) /* STRENGTH_ATTRIBUTE */
-     , (51962, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (51962, 4, 60) /* COORDINATION_ATTRIBUTE */
-     , (51962, 8, 40) /* QUICKNESS_ATTRIBUTE */
-     , (51962, 16, 30) /* FOCUS_ATTRIBUTE */
-     , (51962, 32, 30) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51962, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (51962, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (51962, 256, 40) /* MAX_MANA_ATTRIBUTE_2ND */;
-

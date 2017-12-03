@@ -33,12 +33,3 @@ VALUES (7941, 13, True) /* ETHEREAL_BOOL */
      , (7941, 19, True) /* ATTACKABLE_BOOL */
      , (7941, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7941, 38, 'Fenmalain Vestibule Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7941, 86, 20) /* MIN_LEVEL_INT */
-     , (7941, 111, 17) /* PORTAL_BITMASK_INT */;
-

@@ -79,27 +79,6 @@ VALUES (43247, 0, 16788885)
      , (43247, 12, 16788891)
      , (43247, 16, 16789125);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43247, 2, 13) /* CREATURE_TYPE_INT */
-     , (43247, 307, 5) /* DAMAGE_RATING_INT */
-     , (43247, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43247, 25, 500) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (43247, 1, 900) /* STRENGTH_ATTRIBUTE */
-     , (43247, 2, 850) /* ENDURANCE_ATTRIBUTE */
-     , (43247, 4, 900) /* COORDINATION_ATTRIBUTE */
-     , (43247, 8, 800) /* QUICKNESS_ATTRIBUTE */
-     , (43247, 16, 850) /* FOCUS_ATTRIBUTE */
-     , (43247, 32, 890) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43247, 64, 1625) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (43247, 128, 1905) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (43247, 256, 2100) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 /* Object Wield List */

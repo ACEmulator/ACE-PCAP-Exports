@@ -37,34 +37,3 @@ VALUES (43805, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43805, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (43805, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43805, 16, 'A stone pillar, covered in Dericost script.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43805, 384, 0) /*  */
-     , (43805, 370, 0) /* GEAR_DAMAGE_INT */
-     , (43805, 386, 0) /*  */
-     , (43805, 307, 0) /* DAMAGE_RATING_INT */
-     , (43805, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (43805, 387, 0) /*  */
-     , (43805, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (43805, 372, 0) /* GEAR_CRIT_INT */
-     , (43805, 388, 0) /*  */
-     , (43805, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (43805, 389, 0) /*  */
-     , (43805, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (43805, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (43805, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (43805, 313, 0) /* CRIT_RATING_INT */
-     , (43805, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (43805, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (43805, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (43805, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (43805, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (43805, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (43805, 381, 0) /*  */
-     , (43805, 382, 0) /*  */
-     , (43805, 383, 0) /*  */;
-

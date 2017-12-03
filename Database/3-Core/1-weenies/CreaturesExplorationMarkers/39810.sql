@@ -48,24 +48,3 @@ VALUES (39810, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39810, 0, 16794232);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39810, 16, 'Gem of Regeneration') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39810, 19, 2090) /* VALUE_INT */
-     , (39810, 131, 22) /* MATERIAL_TYPE_INT */
-     , (39810, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (39810, 5, 5) /* ENCUMB_VAL_INT */
-     , (39810, 117, 350) /* ITEM_MANA_COST_INT */
-     , (39810, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (39810, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (39810, 108, 545) /* ITEM_MAX_MANA_INT */
-     , (39810, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (39810, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (39810, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (39810, 170) /* RegenerationSelf6_SpellID */;
-

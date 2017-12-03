@@ -35,17 +35,3 @@ VALUES (5973, 13, True) /* ETHEREAL_BOOL */
      , (5973, 19, True) /* ATTACKABLE_BOOL */
      , (5973, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5973, 16, 'Inscribed spell: Fletching Mastery Other VI
-Increases the target''s Fletching skill by 35 points.') /* LONG_DESC_STRING */
-     , (5973, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5973, 19, 1000) /* VALUE_INT */
-     , (5973, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (5973, 1738) /* FletchingMasteryOther6_SpellID */;
-

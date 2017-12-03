@@ -33,14 +33,3 @@ VALUES (4935, 13, True) /* ETHEREAL_BOOL */
      , (4935, 19, True) /* ATTACKABLE_BOOL */
      , (4935, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4935, 16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LONG_DESC_STRING */
-     , (4935, 38, 'Holtburg Redoubt') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4935, 86, 1) /* MIN_LEVEL_INT */
-     , (4935, 87, 20) /* MAX_LEVEL_INT */
-     , (4935, 111, 1) /* PORTAL_BITMASK_INT */;
-

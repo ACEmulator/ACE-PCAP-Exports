@@ -41,19 +41,3 @@ VALUES (40914, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40914, 0, 16778506);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40914, 16, 'An ornate, ancient token, carved in the artistic fashion of the Dericost Nobility.  The edge of the token is inscribed with tiny Dericost runes.') /* LONG_DESC_STRING */
-     , (40914, 14, 'Bring this token to Kuyiza bint Zayi the Translator, in Zaikhal, for a reward.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40914, 33, 1) /* BONDED_INT */
-     , (40914, 114, 1) /* ATTUNED_INT */
-     , (40914, 19, 0) /* VALUE_INT */
-     , (40914, 5, 20) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40914, 99, 0) /* IVORYABLE_BOOL */
-     , (40914, 69, 0) /* IS_SELLABLE_BOOL */;
-

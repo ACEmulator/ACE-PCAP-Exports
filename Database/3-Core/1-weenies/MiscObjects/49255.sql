@@ -53,28 +53,3 @@ VALUES (49255, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (49255, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (49255, 14, 'Use this essence to summon or dismiss your Frost Zombie.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49255, 369, 70) /* USE_REQUIRES_LEVEL_INT */
-     , (49255, 33, 0) /* BONDED_INT */
-     , (49255, 114, 0) /* ATTUNED_INT */
-     , (49255, 371, 10) /* GEAR_DAMAGE_RESIST_INT */
-     , (49255, 19, 5000) /* VALUE_INT */
-     , (49255, 372, 19) /* GEAR_CRIT_INT */
-     , (49255, 5, 50) /* ENCUMB_VAL_INT */
-     , (49255, 280, 213) /* SHARED_COOLDOWN_INT */
-     , (49255, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (49255, 91, 50) /* MAX_STRUCTURE_INT */
-     , (49255, 366, 54) /* USE_REQUIRES_SKILL_INT */
-     , (49255, 367, 370) /* USE_REQUIRES_SKILL_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (49255, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (49255, 69, 1) /* IS_SELLABLE_BOOL */;
-

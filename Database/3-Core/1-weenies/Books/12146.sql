@@ -34,18 +34,6 @@ VALUES (12146, 13, True) /* ETHEREAL_BOOL */
      , (12146, 14, True) /* GRAVITY_STATUS_BOOL */
      , (12146, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12146, 16, 'A rumor about new Virindi servants.') /* LONG_DESC_STRING */
-     , (12146, 14, 'Use this item to read it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12146, 19, 20) /* VALUE_INT */
-     , (12146, 5, 5) /* ENCUMB_VAL_INT */
-     , (12146, 174, 3) /* APPRAISAL_PAGES_INT */
-     , (12146, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -35,13 +35,3 @@ VALUES (52367, 13, True) /* ETHEREAL_BOOL */
      , (52367, 19, True) /* ATTACKABLE_BOOL */
      , (52367, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52367, 16, 'A Gurog Grump with a bad attitude.') /* LONG_DESC_STRING */
-     , (52367, 14, 'Pack Gurog can be placed on floor and yard hooks, where he can spread the holiday spirit throughout your home.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52367, 19, 10) /* VALUE_INT */
-     , (52367, 5, 10) /* ENCUMB_VAL_INT */;
-

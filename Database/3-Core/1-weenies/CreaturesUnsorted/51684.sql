@@ -58,23 +58,3 @@ VALUES (51684, 0, 16785699)
      , (51684, 19, 16785704)
      , (51684, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51684, 2, 5) /* CREATURE_TYPE_INT */
-     , (51684, 307, 30) /* DAMAGE_RATING_INT */
-     , (51684, 25, 240) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (51684, 1, 400) /* STRENGTH_ATTRIBUTE */
-     , (51684, 2, 400) /* ENDURANCE_ATTRIBUTE */
-     , (51684, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (51684, 8, 300) /* QUICKNESS_ATTRIBUTE */
-     , (51684, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (51684, 32, 250) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51684, 64, 6770) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (51684, 128, 4730) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (51684, 256, 300) /* MAX_MANA_ATTRIBUTE_2ND */;
-

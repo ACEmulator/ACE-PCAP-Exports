@@ -41,33 +41,6 @@ VALUES (23925, 13, True) /* ETHEREAL_BOOL */
      , (23925, 19, True) /* ATTACKABLE_BOOL */
      , (23925, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23925, 15, 'A strange egg shaped object with a pin in the top.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23925, 160, 2) /* WIELD_DIFFICULTY_INT */
-     , (23925, 353, 10) /* WEAPON_TYPE_INT */
-     , (23925, 19, 1) /* VALUE_INT */
-     , (23925, 36, 9999) /* RESIST_MAGIC_INT */
-     , (23925, 5, 40) /* ENCUMB_VAL_INT */
-     , (23925, 166, 25) /* SLAYER_CREATURE_TYPE_INT */
-     , (23925, 158, 8) /* WIELD_REQUIREMENTS_INT */
-     , (23925, 159, 35) /* WIELD_SKILLTYPE_INT */
-     , (23925, 45, 4) /* DAMAGE_TYPE_INT */
-     , (23925, 49, 3) /* WEAPON_TIME_INT */
-     , (23925, 48, 47) /* WEAPON_SKILL_INT */
-     , (23925, 44, 1) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23925, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (23925, 22, 0.001) /* DAMAGE_VARIANCE_FLOAT */
-     , (23925, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (23925, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (23925, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (23925, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

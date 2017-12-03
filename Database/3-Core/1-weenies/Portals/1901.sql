@@ -33,11 +33,3 @@ VALUES (1901, 13, True) /* ETHEREAL_BOOL */
      , (1901, 19, True) /* ATTACKABLE_BOOL */
      , (1901, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1901, 38, 'High Mountain Valley (65.2S, 60.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1901, 111, 1) /* PORTAL_BITMASK_INT */;
-

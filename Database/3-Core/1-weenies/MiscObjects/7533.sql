@@ -35,12 +35,3 @@ VALUES (7533, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7533, 19, True) /* ATTACKABLE_BOOL */
      , (7533, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7533, 14, 'Mine this for chorizite ore.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7533, 19, 200) /* VALUE_INT */
-     , (7533, 5, 6000) /* ENCUMB_VAL_INT */;
-

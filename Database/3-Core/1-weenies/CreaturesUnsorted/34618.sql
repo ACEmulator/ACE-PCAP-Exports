@@ -59,42 +59,6 @@ VALUES (34618, 0, 16793218)
      , (34618, 15, 16789333)
      , (34618, 16, 16793225);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34618, 16, 'Studded Leather Cowl') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34618, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
-     , (34618, 19, 9302) /* VALUE_INT */
-     , (34618, 131, 52) /* MATERIAL_TYPE_INT */
-     , (34618, 115, 235) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (34618, 5, 203) /* ENCUMB_VAL_INT */
-     , (34618, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (34618, 106, 215) /* ITEM_SPELLCRAFT_INT */
-     , (34618, 28, 230) /* ARMOR_LEVEL_INT */
-     , (34618, 108, 723) /* ITEM_MAX_MANA_INT */
-     , (34618, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (34618, 109, 97) /* ITEM_DIFFICULTY_INT */
-     , (34618, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (34618, 5, -0.04166667) /* MANA_RATE_FLOAT */
-     , (34618, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (34618, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (34618, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (34618, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (34618, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (34618, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (34618, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (34618, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34618, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (34618, 1485) /* Impenetrability5_SpellID */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

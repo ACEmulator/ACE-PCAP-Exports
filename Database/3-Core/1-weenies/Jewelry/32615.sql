@@ -39,35 +39,3 @@ VALUES (32615, 13, True) /* ETHEREAL_BOOL */
      , (32615, 22, True) /* INSCRIBABLE_BOOL */
      , (32615, 91, True) /* RETAINED_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32615, 16, 'A necklace enchanted by Royal Guard Qumasha to provide defense against the elements.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32615, 160, 100) /* WIELD_DIFFICULTY_INT */
-     , (32615, 33, 0) /* BONDED_INT */
-     , (32615, 114, 0) /* ATTUNED_INT */
-     , (32615, 19, 10000) /* VALUE_INT */
-     , (32615, 36, 9999) /* RESIST_MAGIC_INT */
-     , (32615, 5, 150) /* ENCUMB_VAL_INT */
-     , (32615, 106, 350) /* ITEM_SPELLCRAFT_INT */
-     , (32615, 108, 6000) /* ITEM_MAX_MANA_INT */
-     , (32615, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (32615, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (32615, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32615, 5, -0.049) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (32615, 91, 1) /* RETAINED_BOOL */
-     , (32615, 69, 1) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (32615, 2281) /* MagicResistanceSelf7_SpellID */
-     , (32615, 2616) /* CANTRIPACIDWARD1_SpellID */
-     , (32615, 2618) /* CANTRIPFLAMEWARD1_SpellID */
-     , (32615, 2619) /* CANTRIPFROSTWARD1_SpellID */
-     , (32615, 2622) /* CANTRIPSTORMWARD1_SpellID */;
-

@@ -45,39 +45,3 @@ VALUES (22557, 0, 83886788, 83894388);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22557, 0, 16778411);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22557, 16, 'A vial of tattoo ink infused with the power of the sheltered spirit. When painted on the lower arms the ink will act as armor and will grant the wearer the power of the sheltered spirit.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22557, 160, 230) /* WIELD_DIFFICULTY_INT */
-     , (22557, 19, 30000) /* VALUE_INT */
-     , (22557, 36, 9999) /* RESIST_MAGIC_INT */
-     , (22557, 5, 350) /* ENCUMB_VAL_INT */
-     , (22557, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (22557, 108, 1200) /* ITEM_MAX_MANA_INT */
-     , (22557, 28, 250) /* ARMOR_LEVEL_INT */
-     , (22557, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (22557, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (22557, 159, 15) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (22557, 5, -0.1) /* MANA_RATE_FLOAT */
-     , (22557, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (22557, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (22557, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (22557, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (22557, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (22557, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (22557, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (22557, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (22557, 1485) /* Impenetrability5_SpellID */
-     , (22557, 273) /* MagicResistanceOther6_SpellID */
-     , (22557, 1432) /* FocusOther6_SpellID */
-     , (22557, 1317) /* ArmorOther6_SpellID */
-     , (22557, 1456) /* WillpowerOther6_SpellID */
-     , (22557, 2811) /* ModerateMagicResistance_SpellID */;
-

@@ -30,19 +30,3 @@ VALUES (51343, 13, True) /* ETHEREAL_BOOL */
      , (51343, 19, True) /* ATTACKABLE_BOOL */
      , (51343, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51343, 16, 'A small fragment from the Experimental Bloodstone.') /* LONG_DESC_STRING */
-     , (51343, 14, 'Bring this to Sir Donovan for a reward.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51343, 33, 1) /* BONDED_INT */
-     , (51343, 114, 1) /* ATTUNED_INT */
-     , (51343, 19, 0) /* VALUE_INT */
-     , (51343, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (51343, 99, 0) /* IVORYABLE_BOOL */
-     , (51343, 69, 0) /* IS_SELLABLE_BOOL */;
-

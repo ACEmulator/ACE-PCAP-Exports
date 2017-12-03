@@ -32,12 +32,3 @@ VALUES (44767, 13, True) /* ETHEREAL_BOOL */
      , (44767, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (44767, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44767, 16, 'A squat carnivore with bony spikes jutting from its back, it passes through several growth spurts during its life, growing larger and stronger at every stage. Its natural habitat is not yet known, but some have taken to dwelling in dungeons, where they like to feast on carrion and rats. The Shreth attacks with its spikes, hooves, and savage teeth. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44767, 19, 125) /* VALUE_INT */
-     , (44767, 5, 200) /* ENCUMB_VAL_INT */;
-

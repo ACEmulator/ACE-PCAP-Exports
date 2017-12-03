@@ -51,35 +51,3 @@ VALUES (40760, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40760, 0, 16794261);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40760, 16, 'Nodachi') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40760, 160, 325) /* WIELD_DIFFICULTY_INT */
-     , (40760, 353, 11) /* WEAPON_TYPE_INT */
-     , (40760, 177, 3) /* GEM_COUNT_INT */
-     , (40760, 178, 29) /* GEM_TYPE_INT */
-     , (40760, 19, 1122) /* VALUE_INT */
-     , (40760, 131, 58) /* MATERIAL_TYPE_INT */
-     , (40760, 292, 2) /* CLEAVING_INT */
-     , (40760, 5, 458) /* ENCUMB_VAL_INT */
-     , (40760, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (40760, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (40760, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (40760, 159, 41) /* WIELD_SKILLTYPE_INT */
-     , (40760, 47, 4) /* ATTACK_TYPE_INT */
-     , (40760, 45, 1) /* DAMAGE_TYPE_INT */
-     , (40760, 49, 45) /* WEAPON_TIME_INT */
-     , (40760, 48, 41) /* WEAPON_SKILL_INT */
-     , (40760, 44, 25) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (40760, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
-     , (40760, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
-     , (40760, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (40760, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (40760, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (40760, 62, 1.14) /* WEAPON_OFFENSE_FLOAT */;
-

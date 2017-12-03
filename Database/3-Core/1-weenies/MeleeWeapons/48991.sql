@@ -45,26 +45,3 @@ VALUES (48991, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48991, 0, 16792134);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48991, 16, 'Gorget of Armor Expertise') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48991, 19, 4843) /* VALUE_INT */
-     , (48991, 131, 60) /* MATERIAL_TYPE_INT */
-     , (48991, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (48991, 5, 150) /* ENCUMB_VAL_INT */
-     , (48991, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (48991, 106, 195) /* ITEM_SPELLCRAFT_INT */
-     , (48991, 108, 1901) /* ITEM_MAX_MANA_INT */
-     , (48991, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (48991, 109, 195) /* ITEM_DIFFICULTY_INT */
-     , (48991, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (48991, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (48991, 706) /* ArmorExpertiseSelf5_SpellID */;
-

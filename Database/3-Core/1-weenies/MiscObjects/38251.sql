@@ -31,18 +31,3 @@ VALUES (38251, 13, True) /* ETHEREAL_BOOL */
      , (38251, 19, True) /* ATTACKABLE_BOOL */
      , (38251, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38251, 16, 'The Temple Horn calls the faithful to His temple during the time of blood in the Dark Season.') /* LONG_DESC_STRING */
-     , (38251, 14, 'Return this and the other nine artifacts to your Task Master to complete the quest.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38251, 33, 1) /* BONDED_INT */
-     , (38251, 114, 1) /* ATTUNED_INT */
-     , (38251, 19, 0) /* VALUE_INT */
-     , (38251, 5, 25) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38251, 69, 0) /* IS_SELLABLE_BOOL */;
-

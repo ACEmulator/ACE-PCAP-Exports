@@ -32,14 +32,3 @@ VALUES (32941, 13, True) /* ETHEREAL_BOOL */
      , (32941, 19, True) /* ATTACKABLE_BOOL */
      , (32941, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32941, 16, 'Give this title token to Ulgrim the Unpleasant to recieve the title Guardian of the Dark.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32941, 33, 1) /* BONDED_INT */
-     , (32941, 114, 1) /* ATTUNED_INT */
-     , (32941, 19, 100) /* VALUE_INT */
-     , (32941, 5, 10) /* ENCUMB_VAL_INT */;
-

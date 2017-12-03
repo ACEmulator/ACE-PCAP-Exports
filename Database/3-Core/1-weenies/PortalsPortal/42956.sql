@@ -33,11 +33,3 @@ VALUES (42956, 13, True) /* ETHEREAL_BOOL */
      , (42956, 1, True) /* STUCK_BOOL */
      , (42956, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42956, 38, 'Trap Floor Portal (12.8S, 41.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42956, 111, 49) /* PORTAL_BITMASK_INT */;
-

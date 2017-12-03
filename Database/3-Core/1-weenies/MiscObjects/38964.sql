@@ -35,19 +35,6 @@ VALUES (38964, 13, True) /* ETHEREAL_BOOL */
      , (38964, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38964, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38964, 16, 'A Casino Ticket used to bet on a single Carenzi Racer.') /* LONG_DESC_STRING */
-     , (38964, 14, 'Hand this ticket to one of the Carenzi Racers in the Betting Cage to bet on that Carenzi.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38964, 19, 0) /* VALUE_INT */
-     , (38964, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38964, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

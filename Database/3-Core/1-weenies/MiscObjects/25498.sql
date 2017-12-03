@@ -45,14 +45,3 @@ VALUES (25498, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25498, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25498, 16, 'A small piece of olthoi carapace.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25498, 33, 1) /* BONDED_INT */
-     , (25498, 114, 1) /* ATTUNED_INT */
-     , (25498, 19, 20) /* VALUE_INT */
-     , (25498, 5, 10) /* ENCUMB_VAL_INT */;
-

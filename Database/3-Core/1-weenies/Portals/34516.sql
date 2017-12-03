@@ -89,12 +89,3 @@ VALUES (34516, 0, 16777333)
      , (34516, 20, 16777355)
      , (34516, 21, 16777345);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34516, 14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* USE_STRING */
-     , (34516, 38, 'Statue') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34516, 111, 49) /* PORTAL_BITMASK_INT */;
-

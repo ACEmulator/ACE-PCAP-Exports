@@ -32,14 +32,3 @@ VALUES (25798, 13, True) /* ETHEREAL_BOOL */
      , (25798, 19, True) /* ATTACKABLE_BOOL */
      , (25798, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25798, 16, 'A very, very small Magma Golem''s Heart.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25798, 33, 1) /* BONDED_INT */
-     , (25798, 114, 1) /* ATTUNED_INT */
-     , (25798, 19, 100) /* VALUE_INT */
-     , (25798, 5, 100) /* ENCUMB_VAL_INT */;
-

@@ -35,13 +35,3 @@ VALUES (27438, 13, True) /* ETHEREAL_BOOL */
      , (27438, 19, True) /* ATTACKABLE_BOOL */
      , (27438, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27438, 16, 'A small stone head. It appears to be staring at you.') /* LONG_DESC_STRING */
-     , (27438, 14, 'This item can be placed on floor and yard hooks,  where it can be used to cast it''s spells.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27438, 19, 2000) /* VALUE_INT */
-     , (27438, 5, 800) /* ENCUMB_VAL_INT */;
-

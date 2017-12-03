@@ -34,18 +34,3 @@ VALUES (38381, 13, True) /* ETHEREAL_BOOL */
      , (38381, 19, True) /* ATTACKABLE_BOOL */
      , (38381, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38381, 16, 'An old, intricate silver key.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38381, 33, 0) /* BONDED_INT */
-     , (38381, 114, 0) /* ATTUNED_INT */
-     , (38381, 19, 0) /* VALUE_INT */
-     , (38381, 5, 15) /* ENCUMB_VAL_INT */
-     , (38381, 91, 1) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38381, 69, 0) /* IS_SELLABLE_BOOL */;
-

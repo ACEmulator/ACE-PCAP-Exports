@@ -41,9 +41,3 @@ VALUES (40302, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40302, 67115231, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40302, 19, 30000) /* VALUE_INT */
-     , (40302, 5, 25) /* ENCUMB_VAL_INT */;
-

@@ -34,13 +34,3 @@ VALUES (42148, 13, True) /* ETHEREAL_BOOL */
      , (42148, 19, True) /* ATTACKABLE_BOOL */
      , (42148, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42148, 16, 'A portal leading to the Marae Lassel Plateau near An Ancient Empyrean Grotto where the Legionary Pincer may be found.') /* LONG_DESC_STRING */
-     , (42148, 38, 'Ancient Empyrean Grotto (52.6N, 73.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42148, 86, 40) /* MIN_LEVEL_INT */
-     , (42148, 111, 49) /* PORTAL_BITMASK_INT */;
-

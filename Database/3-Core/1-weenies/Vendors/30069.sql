@@ -82,29 +82,6 @@ VALUES (30069, 12, 16777304)
      , (30069, 8, 16791882)
      , (30069, 16, 16791874);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30069, 5, 'Tailor') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (30069, 16, 67110064) /* EYES_PALETTE_DID */
-     , (30069, 9, 83890507) /* EYES_TEXTURE_DID */
-     , (30069, 17, 67115908) /* SKIN_PALETTE_DID */
-     , (30069, 10, 83890518) /* NOSE_TEXTURE_DID */
-     , (30069, 11, 83890662) /* MOUTH_TEXTURE_DID */
-     , (30069, 15, 67117099) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30069, 113, 1) /* GENDER_INT */
-     , (30069, 2, 31) /* CREATURE_TYPE_INT */
-     , (30069, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (30069, 25, 11) /* LEVEL_INT */
-     , (30069, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30069, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

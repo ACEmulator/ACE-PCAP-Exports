@@ -47,31 +47,3 @@ VALUES (27580, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27580, 0, 16778506);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27580, 15, 'A necklace of acid and piercing protection, given by Behdo Yii for completing the Eviscerator quest.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27580, 160, 50) /* WIELD_DIFFICULTY_INT */
-     , (27580, 33, 1) /* BONDED_INT */
-     , (27580, 114, 1) /* ATTUNED_INT */
-     , (27580, 19, 0) /* VALUE_INT */
-     , (27580, 5, 60) /* ENCUMB_VAL_INT */
-     , (27580, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (27580, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (27580, 109, 175) /* ITEM_DIFFICULTY_INT */
-     , (27580, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (27580, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27580, 5, -0.0333333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27580, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27580, 514) /* AcidProtectionOther6_SpellID */
-     , (27580, 243) /* InvulnerabilityOther5_SpellID */
-     , (27580, 1144) /* PiercingProtectionOther6_SpellID */;
-

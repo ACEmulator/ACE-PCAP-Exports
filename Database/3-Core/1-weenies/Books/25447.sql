@@ -33,17 +33,3 @@ VALUES (25447, 13, True) /* ETHEREAL_BOOL */
      , (25447, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25447, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25447, 16, 'A thin sheet of parchment inscribed in an unknown alphabet. ') /* LONG_DESC_STRING */
-     , (25447, 14, 'Place this page in the correct order into the Blue Vellum Binder. ') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25447, 33, 1) /* BONDED_INT */
-     , (25447, 114, 1) /* ATTUNED_INT */
-     , (25447, 19, 0) /* VALUE_INT */
-     , (25447, 5, 25) /* ENCUMB_VAL_INT */
-     , (25447, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (25447, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

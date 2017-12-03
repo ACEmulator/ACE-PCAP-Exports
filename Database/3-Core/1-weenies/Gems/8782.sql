@@ -51,29 +51,6 @@ VALUES (8782, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8782, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8782, 16, 'A gem that will create a portal to the Sepulcher of the Hopeslayer.') /* LONG_DESC_STRING */
-     , (8782, 14, 'This portal summoning gem works best if used outside in a relatively flat area. (Quest Difficulty: 80+)') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8782, 33, 1) /* BONDED_INT */
-     , (8782, 114, 1) /* ATTUNED_INT */
-     , (8782, 19, 0) /* VALUE_INT */
-     , (8782, 5, 50) /* ENCUMB_VAL_INT */
-     , (8782, 280, 1000) /* SHARED_COOLDOWN_INT */
-     , (8782, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (8782, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (8782, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (8782, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8782, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8782, 2040) /* SummonPortalHopeslayer_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

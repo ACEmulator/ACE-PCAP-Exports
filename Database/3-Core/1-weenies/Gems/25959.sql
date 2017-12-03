@@ -38,17 +38,6 @@ VALUES (25959, 13, True) /* ETHEREAL_BOOL */
      , (25959, 19, True) /* ATTACKABLE_BOOL */
      , (25959, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25959, 16, 'A tassel pulled from the Shadow''s Garb of the Zharalim traitor Tiyol Ibn Yufaj. The tassel is woven of strong coarse fibers but is light and oddly fluid.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25959, 33, 1) /* BONDED_INT */
-     , (25959, 114, 1) /* ATTUNED_INT */
-     , (25959, 19, 0) /* VALUE_INT */
-     , (25959, 5, 500) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

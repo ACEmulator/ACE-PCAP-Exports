@@ -33,17 +33,6 @@ VALUES (31353, 13, True) /* ETHEREAL_BOOL */
      , (31353, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31353, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31353, 16, 'A choice cut of meat from a young Olthoi Larvae. Although the toxins in this meat have made it inedible, it may still have some value to a collector.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31353, 33, 1) /* BONDED_INT */
-     , (31353, 114, 1) /* ATTUNED_INT */
-     , (31353, 19, 10000) /* VALUE_INT */
-     , (31353, 5, 100) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

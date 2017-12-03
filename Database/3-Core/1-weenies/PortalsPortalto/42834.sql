@@ -33,12 +33,3 @@ VALUES (42834, 13, True) /* ETHEREAL_BOOL */
      , (42834, 19, True) /* ATTACKABLE_BOOL */
      , (42834, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42834, 16, 'This portal goes to Samsur, a Gharu''ndim town in the hills behind the Yushad Ridge. This is a good town for characters over level 10.') /* LONG_DESC_STRING */
-     , (42834, 38, 'Portal to Samsur (3.2S, 19.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42834, 111, 1) /* PORTAL_BITMASK_INT */;
-

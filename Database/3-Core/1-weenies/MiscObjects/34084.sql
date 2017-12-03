@@ -77,16 +77,6 @@ VALUES (34084, 0, 16777294)
      , (34084, 15, 16779237)
      , (34084, 12, 16779238);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34084, 16, 'A lifeless corpse with a very tidy butler uniform.') /* LONG_DESC_STRING */
-     , (34084, 14, 'Use on a Mnemosyne to animate your Butler.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34084, 19, 1650) /* VALUE_INT */
-     , (34084, 5, 1650) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

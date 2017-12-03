@@ -52,12 +52,3 @@ VALUES (22060, 0, 16778359)
      , (22060, 9, 16778425)
      , (22060, 16, 16781779);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22060, 15, 'A musty mummy ribcage with the head still attached.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22060, 19, 0) /* VALUE_INT */
-     , (22060, 5, 200) /* ENCUMB_VAL_INT */;
-

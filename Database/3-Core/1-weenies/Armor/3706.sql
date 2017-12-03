@@ -49,23 +49,3 @@ VALUES (3706, 0, 83887061, 83886692)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3706, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3706, 15, 'Breastplate crafted from the carapace of an Olthoi.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3706, 19, 6000) /* VALUE_INT */
-     , (3706, 5, 2400) /* ENCUMB_VAL_INT */
-     , (3706, 28, 280) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3706, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (3706, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (3706, 15, 0.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (3706, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (3706, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (3706, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (3706, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (3706, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

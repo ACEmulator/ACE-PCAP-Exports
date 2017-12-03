@@ -46,18 +46,6 @@ VALUES (9098, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9098, 0, 16783327);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9098, 16, 'A vial of deadly organic acid, taken from a Grievver.') /* LONG_DESC_STRING */
-     , (9098, 14, 'This vile liquid would burn through almost anything. It is far too strong for use in conventional alchemy.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9098, 33, 1) /* BONDED_INT */
-     , (9098, 114, 1) /* ATTUNED_INT */
-     , (9098, 19, 120) /* VALUE_INT */
-     , (9098, 5, 15) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

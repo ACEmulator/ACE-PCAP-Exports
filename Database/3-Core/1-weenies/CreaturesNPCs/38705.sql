@@ -89,38 +89,3 @@ VALUES (38705, 12, 16777304)
      , (38705, 4, 16781838)
      , (38705, 8, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38705, 5, 'Wall Carving Taskmaster') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38705, 16, 67110062) /* EYES_PALETTE_DID */
-     , (38705, 9, 83890484) /* EYES_TEXTURE_DID */
-     , (38705, 17, 67109550) /* SKIN_PALETTE_DID */
-     , (38705, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (38705, 11, 83890636) /* MOUTH_TEXTURE_DID */
-     , (38705, 15, 67117018) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38705, 288, 1) /* SOCIETY_RANK_ELDWEB_INT */
-     , (38705, 113, 1) /* GENDER_INT */
-     , (38705, 2, 31) /* CREATURE_TYPE_INT */
-     , (38705, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38705, 25, 182) /* LEVEL_INT */
-     , (38705, 281, 2) /* FACTION1_BITS_INT */
-     , (38705, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38705, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (38705, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (38705, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (38705, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (38705, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (38705, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38705, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38705, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38705, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-

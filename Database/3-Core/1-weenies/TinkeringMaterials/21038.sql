@@ -50,20 +50,6 @@ VALUES (21038, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21038, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21038, 14, 'Apply this material to a piece of magical treasure-generated jewelry to imbue the target with Wizard''s Intellect. This will also raise the Arcane Lore difficulty and the Spellcraft of the piece by 25.') /* USE_STRING */
-     , (21038, 15, 'Chips of azurite material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21038, 33, 1) /* BONDED_INT */
-     , (21038, 131, 14) /* MATERIAL_TYPE_INT */
-     , (21038, 19, 893) /* VALUE_INT */
-     , (21038, 5, 100) /* ENCUMB_VAL_INT */
-     , (21038, 105, 73) /* ITEM_WORKMANSHIP_INT */
-     , (21038, 170, 16) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

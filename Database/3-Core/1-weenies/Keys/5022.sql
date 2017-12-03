@@ -35,14 +35,3 @@ VALUES (5022, 13, True) /* ETHEREAL_BOOL */
      , (5022, 19, True) /* ATTACKABLE_BOOL */
      , (5022, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5022, 16, 'A rusted key with strange scratch marks reminiscent of carved snakes.') /* LONG_DESC_STRING */
-     , (5022, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5022, 19, 20) /* VALUE_INT */
-     , (5022, 5, 50) /* ENCUMB_VAL_INT */
-     , (5022, 91, 10) /* MAX_STRUCTURE_INT */;
-

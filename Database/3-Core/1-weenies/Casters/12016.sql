@@ -37,27 +37,3 @@ VALUES (12016, 13, True) /* ETHEREAL_BOOL */
      , (12016, 19, True) /* ATTACKABLE_BOOL */
      , (12016, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12016, 16, 'An orb with some sort of dark figure within.  Gazing into its depths, you see the wretched face of a Dark Sorcerer, an undead from the Vesayen Isles.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12016, 176, 33) /* APPRAISAL_ITEM_SKILL_INT */
-     , (12016, 115, 250) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (12016, 19, 7000) /* VALUE_INT */
-     , (12016, 5, 50) /* ENCUMB_VAL_INT */
-     , (12016, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (12016, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (12016, 109, 250) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12016, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (12016, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (12016, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (12016, 585) /* ItemEnchantmentMasterySelf5_SpellID */
-     , (12016, 2014) /* WizardsUltimateIntellect_SpellID */
-     , (12016, 609) /* LifeMagicMasterySelf5_SpellID */;
-

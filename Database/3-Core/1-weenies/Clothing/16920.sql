@@ -50,27 +50,3 @@ VALUES (16920, 1, 16787887)
      , (16920, 2, 16787888)
      , (16920, 3, 16787889);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (16920, 16, 'A fine flag made from grievver silk.') /* LONG_DESC_STRING */
-     , (16920, 14, 'You can use this flag on roof and yard hooks. It can be dyed using the cooking skill. It can be stamped with a stamp symbol. Give this flag to the Grievver Scholar, Verdentine Magnan, in return for a fresh white unstamped flag.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16920, 19, 500) /* VALUE_INT */
-     , (16920, 5, 50) /* ENCUMB_VAL_INT */
-     , (16920, 28, 0) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (16920, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (16920, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (16920, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (16920, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (16920, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (16920, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (16920, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (16920, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (16920, 100, 1) /* DYABLE_BOOL */;
-

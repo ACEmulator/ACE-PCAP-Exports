@@ -48,39 +48,3 @@ VALUES (51990, 0, 83899155, 83899155)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51990, 0, 16797054);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51990, 16, 'A wand crafted from enchanted obsidian and Rynthid tentacles.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51990, 160, 375) /* WIELD_DIFFICULTY_INT */
-     , (51990, 33, 1) /* BONDED_INT */
-     , (51990, 114, 1) /* ATTUNED_INT */
-     , (51990, 19, 10000) /* VALUE_INT */
-     , (51990, 5, 150) /* ENCUMB_VAL_INT */
-     , (51990, 166, 19) /* SLAYER_CREATURE_TYPE_INT */
-     , (51990, 106, 475) /* ITEM_SPELLCRAFT_INT */
-     , (51990, 108, 3000) /* ITEM_MAX_MANA_INT */
-     , (51990, 45, 16) /* DAMAGE_TYPE_INT */
-     , (51990, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (51990, 159, 33) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (51990, 144, 0.25) /* MANA_CONVERSION_MOD_FLOAT */
-     , (51990, 152, 1.14) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (51990, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (51990, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (51990, 29, 1.22) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (51990, 99, 1) /* IVORYABLE_BOOL */
-     , (51990, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (51990, 4227) /* CANTRIPWILLPOWER3_SpellID */
-     , (51990, 6060) /* CantripLifeMagicAptitude4_SpellID */
-     , (51990, 4400) /* Defender8_SpellID */
-     , (51990, 3964) /* CANTRIPFOCUS3_SpellID */
-     , (51990, 4414) /* Spiritdrinker8_SpellID */;
-

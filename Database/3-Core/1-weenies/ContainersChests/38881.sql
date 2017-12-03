@@ -37,15 +37,3 @@ VALUES (38881, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38881, 19, True) /* ATTACKABLE_BOOL */
      , (38881, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38881, 14, 'A strange and twisted stump with a keyhole carved into a knot near the roots.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38881, 5, 10901) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38881, 2, 0) /* OPEN_BOOL */
-     , (38881, 3, 1) /* LOCKED_BOOL */;
-

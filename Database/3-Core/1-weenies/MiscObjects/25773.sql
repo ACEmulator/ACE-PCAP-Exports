@@ -31,13 +31,3 @@ VALUES (25773, 13, True) /* ETHEREAL_BOOL */
      , (25773, 19, True) /* ATTACKABLE_BOOL */
      , (25773, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25773, 16, 'A table set for dinner guests.') /* LONG_DESC_STRING */
-     , (25773, 14, 'This item can be used on floor hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25773, 19, 6000) /* VALUE_INT */
-     , (25773, 5, 300) /* ENCUMB_VAL_INT */;
-

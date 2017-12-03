@@ -33,22 +33,6 @@ VALUES (40271, 13, True) /* ETHEREAL_BOOL */
      , (40271, 14, True) /* GRAVITY_STATUS_BOOL */
      , (40271, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40271, 16, 'A charred Falatacot journal, damaged beyond translation, with some handwritten text on a few less damaged pages.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40271, 33, 0) /* BONDED_INT */
-     , (40271, 114, 0) /* ATTUNED_INT */
-     , (40271, 19, 0) /* VALUE_INT */
-     , (40271, 5, 25) /* ENCUMB_VAL_INT */
-     , (40271, 174, 8) /* APPRAISAL_PAGES_INT */
-     , (40271, 175, 8) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40271, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

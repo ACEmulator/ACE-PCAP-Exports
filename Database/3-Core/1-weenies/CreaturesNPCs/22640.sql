@@ -59,26 +59,3 @@ VALUES (22640, 1, 16785073)
      , (22640, 23, 16777708)
      , (22640, 24, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22640, 5, 'Ooo oo aaa') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22640, 2, 8) /* CREATURE_TYPE_INT */
-     , (22640, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (22640, 25, 16) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (22640, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (22640, 2, 160) /* ENDURANCE_ATTRIBUTE */
-     , (22640, 4, 40) /* COORDINATION_ATTRIBUTE */
-     , (22640, 8, 60) /* QUICKNESS_ATTRIBUTE */
-     , (22640, 16, 20) /* FOCUS_ATTRIBUTE */
-     , (22640, 32, 30) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22640, 64, 100) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (22640, 128, 310) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (22640, 256, 30) /* MAX_MANA_ATTRIBUTE_2ND */;
-

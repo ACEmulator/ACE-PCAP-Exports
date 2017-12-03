@@ -48,36 +48,3 @@ VALUES (327, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (327, 0, 16777964);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (327, 16, 'Ken') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (327, 160, 350) /* WIELD_DIFFICULTY_INT */
-     , (327, 353, 2) /* WEAPON_TYPE_INT */
-     , (327, 177, 1) /* GEM_COUNT_INT */
-     , (327, 178, 16) /* GEM_TYPE_INT */
-     , (327, 19, 3979) /* VALUE_INT */
-     , (327, 131, 63) /* MATERIAL_TYPE_INT */
-     , (327, 5, 313) /* ENCUMB_VAL_INT */
-     , (327, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (327, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (327, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (327, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (327, 47, 6) /* ATTACK_TYPE_INT */
-     , (327, 45, 3) /* DAMAGE_TYPE_INT */
-     , (327, 49, 32) /* WEAPON_TIME_INT */
-     , (327, 48, 44) /* WEAPON_SKILL_INT */
-     , (327, 44, 48) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (327, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
-     , (327, 149, 1.015) /* WEAPON_MISSILE_DEFENSE_FLOAT */
-     , (327, 150, 1.01) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (327, 22, 0.53) /* DAMAGE_VARIANCE_FLOAT */
-     , (327, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (327, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (327, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (327, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */;
-

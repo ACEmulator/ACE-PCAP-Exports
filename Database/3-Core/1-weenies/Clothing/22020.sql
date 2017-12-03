@@ -34,24 +34,3 @@ VALUES (22020, 13, True) /* ETHEREAL_BOOL */
      , (22020, 19, True) /* ATTACKABLE_BOOL */
      , (22020, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22020, 16, 'A finely crafted skeleton costume that is only missing the head.') /* LONG_DESC_STRING */
-     , (22020, 14, 'This costume can be placed on Floor, Yard and Wall house hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22020, 19, 1000) /* VALUE_INT */
-     , (22020, 5, 1400) /* ENCUMB_VAL_INT */
-     , (22020, 28, 10) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (22020, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (22020, 14, 0.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (22020, 15, 0.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (22020, 16, 0.65) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (22020, 17, 0.55) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (22020, 18, 0.55) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (22020, 19, 0.65) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (22020, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

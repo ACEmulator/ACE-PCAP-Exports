@@ -86,26 +86,3 @@ VALUES (49653, 2, 16777293)
      , (49653, 8, 16781859)
      , (49653, 16, 16778476);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (49653, 5, 'Scribe') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (49653, 16, 67110063) /* EYES_PALETTE_DID */
-     , (49653, 9, 83890454) /* EYES_TEXTURE_DID */
-     , (49653, 17, 67109553) /* SKIN_PALETTE_DID */
-     , (49653, 10, 83890559) /* NOSE_TEXTURE_DID */
-     , (49653, 11, 83890600) /* MOUTH_TEXTURE_DID */
-     , (49653, 15, 67117069) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49653, 113, 1) /* GENDER_INT */
-     , (49653, 2, 31) /* CREATURE_TYPE_INT */
-     , (49653, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (49653, 25, 11) /* LEVEL_INT */
-     , (49653, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49653, 64, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

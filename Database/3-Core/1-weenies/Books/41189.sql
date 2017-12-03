@@ -35,19 +35,6 @@ VALUES (41189, 13, True) /* ETHEREAL_BOOL */
      , (41189, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41189, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41189, 15, 'A translation of a Virindi message shard found in the Apostate Excavation.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41189, 33, 1) /* BONDED_INT */
-     , (41189, 114, 1) /* ATTUNED_INT */
-     , (41189, 19, 0) /* VALUE_INT */
-     , (41189, 5, 5) /* ENCUMB_VAL_INT */
-     , (41189, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (41189, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

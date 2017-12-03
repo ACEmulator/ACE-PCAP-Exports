@@ -35,17 +35,3 @@ VALUES (45316, 13, True) /* ETHEREAL_BOOL */
      , (45316, 19, True) /* ATTACKABLE_BOOL */
      , (45316, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45316, 16, 'Inscribed spell: Shield Mastery Other I
-Increases the target''s Shield skill by 10 points.') /* LONG_DESC_STRING */
-     , (45316, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45316, 19, 1) /* VALUE_INT */
-     , (45316, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (45316, 5843) /* shieldmasteryother1_SpellID */;
-

@@ -49,39 +49,3 @@ VALUES (47682, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47682, 0, 16777915);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47682, 16, 'Chalice of Item Tinkering') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47682, 353, 10) /* WEAPON_TYPE_INT */
-     , (47682, 177, 7) /* GEM_COUNT_INT */
-     , (47682, 178, 39) /* GEM_TYPE_INT */
-     , (47682, 19, 15463) /* VALUE_INT */
-     , (47682, 131, 16) /* MATERIAL_TYPE_INT */
-     , (47682, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (47682, 5, 50) /* ENCUMB_VAL_INT */
-     , (47682, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (47682, 106, 279) /* ITEM_SPELLCRAFT_INT */
-     , (47682, 108, 934) /* ITEM_MAX_MANA_INT */
-     , (47682, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (47682, 109, 279) /* ITEM_DIFFICULTY_INT */
-     , (47682, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (47682, 45, 4) /* DAMAGE_TYPE_INT */
-     , (47682, 49, 10) /* WEAPON_TIME_INT */
-     , (47682, 48, 47) /* WEAPON_SKILL_INT */
-     , (47682, 44, 10) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (47682, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (47682, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (47682, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (47682, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (47682, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (47682, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (47682, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (47682, 2251) /* ItemExpertiseSelf7_SpellID */;
-

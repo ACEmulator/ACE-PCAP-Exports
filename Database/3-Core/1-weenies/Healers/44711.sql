@@ -33,18 +33,3 @@ VALUES (44711, 13, True) /* ETHEREAL_BOOL */
      , (44711, 19, True) /* ATTACKABLE_BOOL */
      , (44711, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44711, 14, 'Use this item on a person to restore stamina.') /* USE_STRING */
-     , (44711, 15, 'A stamina kit which provides resonable restoration.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44711, 19, 1000) /* VALUE_INT */
-     , (44711, 5, 150) /* ENCUMB_VAL_INT */
-     , (44711, 90, 100) /* BOOST_VALUE_INT */
-     , (44711, 91, 50) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (44711, 100, 1.6) /* HEALKIT_MOD_FLOAT */;
-

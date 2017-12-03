@@ -50,27 +50,3 @@ VALUES (45534, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45534, 0, 16777889);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45534, 14, 'Use Oil of Rendering on this weapon to create an Academy Hand Axe.') /* USE_STRING */
-     , (45534, 15, 'A basic hand axe forged in the Strathelar Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45534, 353, 3) /* WEAPON_TYPE_INT */
-     , (45534, 19, 25) /* VALUE_INT */
-     , (45534, 5, 200) /* ENCUMB_VAL_INT */
-     , (45534, 47, 4) /* ATTACK_TYPE_INT */
-     , (45534, 45, 1) /* DAMAGE_TYPE_INT */
-     , (45534, 49, 0) /* WEAPON_TIME_INT */
-     , (45534, 48, 45) /* WEAPON_SKILL_INT */
-     , (45534, 44, 31) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45534, 29, 1.17) /* WEAPON_DEFENSE_FLOAT */
-     , (45534, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (45534, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (45534, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (45534, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45534, 62, 1.2) /* WEAPON_OFFENSE_FLOAT */;
-

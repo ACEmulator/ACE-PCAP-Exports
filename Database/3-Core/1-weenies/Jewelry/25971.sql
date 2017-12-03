@@ -44,26 +44,3 @@ VALUES (25971, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25971, 0, 16778348);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25971, 16, 'Crafted from fine glass and gems, this periapt refocuses light superbly, allowing the wearer to see farther and aim truer.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25971, 160, 30) /* WIELD_DIFFICULTY_INT */
-     , (25971, 19, 6000) /* VALUE_INT */
-     , (25971, 36, 9999) /* RESIST_MAGIC_INT */
-     , (25971, 5, 40) /* ENCUMB_VAL_INT */
-     , (25971, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (25971, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (25971, 109, 75) /* ITEM_DIFFICULTY_INT */
-     , (25971, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25971, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25971, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25971, 3008) /* Finesse_SpellID */
-     , (25971, 3012) /* FarSight_SpellID */;
-

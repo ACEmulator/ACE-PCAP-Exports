@@ -46,46 +46,6 @@ VALUES (25642, 0, 83894333, 83894841);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25642, 0, 16778374);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25642, 16, 'Leather Gauntlets') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25642, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
-     , (25642, 177, 2) /* GEM_COUNT_INT */
-     , (25642, 178, 26) /* GEM_TYPE_INT */
-     , (25642, 19, 17229) /* VALUE_INT */
-     , (25642, 131, 52) /* MATERIAL_TYPE_INT */
-     , (25642, 115, 199) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (25642, 5, 270) /* ENCUMB_VAL_INT */
-     , (25642, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (25642, 106, 265) /* ITEM_SPELLCRAFT_INT */
-     , (25642, 28, 266) /* ARMOR_LEVEL_INT */
-     , (25642, 108, 934) /* ITEM_MAX_MANA_INT */
-     , (25642, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (25642, 109, 105) /* ITEM_DIFFICULTY_INT */
-     , (25642, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25642, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (25642, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25642, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25642, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25642, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25642, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25642, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25642, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25642, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25642, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25642, 1485) /* Impenetrability5_SpellID */
-     , (25642, 1574) /* PiercingBane6_SpellID */
-     , (25642, 5884) /* CantripDualWieldAptitude1_SpellID */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

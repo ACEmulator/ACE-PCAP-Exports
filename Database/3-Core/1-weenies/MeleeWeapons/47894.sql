@@ -37,28 +37,3 @@ VALUES (47894, 13, True) /* ETHEREAL_BOOL */
      , (47894, 19, True) /* ATTACKABLE_BOOL */
      , (47894, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47894, 16, 'Heavy Bracelet of Magic Resistance') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47894, 177, 1) /* GEM_COUNT_INT */
-     , (47894, 178, 12) /* GEM_TYPE_INT */
-     , (47894, 19, 6015) /* VALUE_INT */
-     , (47894, 131, 33) /* MATERIAL_TYPE_INT */
-     , (47894, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (47894, 5, 150) /* ENCUMB_VAL_INT */
-     , (47894, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (47894, 106, 233) /* ITEM_SPELLCRAFT_INT */
-     , (47894, 108, 1634) /* ITEM_MAX_MANA_INT */
-     , (47894, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (47894, 109, 233) /* ITEM_DIFFICULTY_INT */
-     , (47894, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (47894, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (47894, 279) /* MagicResistanceSelf6_SpellID */;
-

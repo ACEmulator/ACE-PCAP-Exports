@@ -45,26 +45,6 @@ VALUES (30199, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30199, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30199, 16, 'Using this gem will increase your Finesse Weapon skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30199, 17, 17) /* RARE_ID_INT */
-     , (30199, 33, -1) /* BONDED_INT */
-     , (30199, 19, 0) /* VALUE_INT */
-     , (30199, 5, 5) /* ENCUMB_VAL_INT */
-     , (30199, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (30199, 108, 10000) /* ITEM_MAX_MANA_INT */
-     , (30199, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30199, 108, 1) /* RARE_USES_TIMER_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30199, 3697) /* DaggerMasteryRare_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

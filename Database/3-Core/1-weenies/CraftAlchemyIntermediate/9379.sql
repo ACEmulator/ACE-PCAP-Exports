@@ -39,17 +39,6 @@ VALUES (9379, 13, True) /* ETHEREAL_BOOL */
      , (9379, 19, True) /* ATTACKABLE_BOOL */
      , (9379, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9379, 16, 'A small eye dropper filled with water.') /* LONG_DESC_STRING */
-     , (9379, 14, 'This item is used in alchemy.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9379, 33, 1) /* BONDED_INT */
-     , (9379, 19, 25000) /* VALUE_INT */
-     , (9379, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

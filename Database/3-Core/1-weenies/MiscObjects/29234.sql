@@ -31,14 +31,3 @@ VALUES (29234, 13, True) /* ETHEREAL_BOOL */
      , (29234, 19, True) /* ATTACKABLE_BOOL */
      , (29234, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29234, 16, 'These notes are so torn and water stained that there is no hope of making sense of them. You can make out some individual letters - a ''k'' here, an ''x'' there - and on one page the phrase ''qualities of either body''. But that''s it. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29234, 33, 1) /* BONDED_INT */
-     , (29234, 114, 1) /* ATTUNED_INT */
-     , (29234, 19, 0) /* VALUE_INT */
-     , (29234, 5, 5) /* ENCUMB_VAL_INT */;
-

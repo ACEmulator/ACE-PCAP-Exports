@@ -35,14 +35,3 @@ VALUES (35310, 13, True) /* ETHEREAL_BOOL */
      , (35310, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35310, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35310, 15, 'Your own personal copy of the original translation of the message shard found on the Virindi Consul in the Tanada House of Water.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35310, 19, 0) /* VALUE_INT */
-     , (35310, 5, 10) /* ENCUMB_VAL_INT */
-     , (35310, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (35310, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

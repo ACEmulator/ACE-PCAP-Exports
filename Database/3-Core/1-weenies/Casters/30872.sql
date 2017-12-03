@@ -38,26 +38,3 @@ VALUES (30872, 13, True) /* ETHEREAL_BOOL */
      , (30872, 19, True) /* ATTACKABLE_BOOL */
      , (30872, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30872, 160, 330) /* WIELD_DIFFICULTY_INT */
-     , (30872, 19, 10000) /* VALUE_INT */
-     , (30872, 5, 50) /* ENCUMB_VAL_INT */
-     , (30872, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (30872, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (30872, 45, 64) /* DAMAGE_TYPE_INT */
-     , (30872, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (30872, 159, 34) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30872, 152, 1.08) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (30872, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (30872, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
-     , (30872, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (30872, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30872, 2287) /* ManaMasterySelf7_SpellID */
-     , (30872, 2812) /* ModerateWarMagicAptitude_SpellID */;
-

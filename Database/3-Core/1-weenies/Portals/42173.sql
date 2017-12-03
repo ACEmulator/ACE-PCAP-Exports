@@ -34,13 +34,3 @@ VALUES (42173, 13, True) /* ETHEREAL_BOOL */
      , (42173, 19, True) /* ATTACKABLE_BOOL */
      , (42173, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42173, 16, 'A portal leading to Trothyr''s Rest where Trothyr''s artifacts may be found.') /* LONG_DESC_STRING */
-     , (42173, 38, 'Trothyr''s Rest (13.6N, 50.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42173, 86, 20) /* MIN_LEVEL_INT */
-     , (42173, 111, 49) /* PORTAL_BITMASK_INT */;
-

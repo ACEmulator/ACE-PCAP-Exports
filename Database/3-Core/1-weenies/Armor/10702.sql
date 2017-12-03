@@ -38,23 +38,3 @@ VALUES (10702, 13, True) /* ETHEREAL_BOOL */
      , (10702, 19, True) /* ATTACKABLE_BOOL */
      , (10702, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10702, 16, 'A large niffis shell, carved into a shield.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10702, 19, 1000) /* VALUE_INT */
-     , (10702, 5, 420) /* ENCUMB_VAL_INT */
-     , (10702, 28, 100) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (10702, 13, 0.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (10702, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (10702, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (10702, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (10702, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (10702, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (10702, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (10702, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

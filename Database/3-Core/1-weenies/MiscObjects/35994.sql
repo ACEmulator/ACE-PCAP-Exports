@@ -37,18 +37,3 @@ VALUES (35994, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (35994, 0, 16783934);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35994, 16, 'A thin, membranous, unidentifiable life form, with characters of Yalaini script burned into its flesh.  Several oddly placed bones jut out from the form, creating a complex pattern.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35994, 33, 0) /* BONDED_INT */
-     , (35994, 114, 0) /* ATTUNED_INT */
-     , (35994, 19, 0) /* VALUE_INT */
-     , (35994, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35994, 99, 0) /* IVORYABLE_BOOL */
-     , (35994, 69, 0) /* IS_SELLABLE_BOOL */;
-

@@ -33,11 +33,3 @@ VALUES (15164, 13, True) /* ETHEREAL_BOOL */
      , (15164, 19, True) /* ATTACKABLE_BOOL */
      , (15164, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15164, 38, 'Mirthless Dale Portal (23.2N, 42.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15164, 111, 1) /* PORTAL_BITMASK_INT */;
-

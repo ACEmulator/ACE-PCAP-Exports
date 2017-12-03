@@ -47,12 +47,3 @@ VALUES (47440, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47440, 0, 16777923);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47440, 16, 'Killed by Owain.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47440, 19, 0) /* VALUE_INT */
-     , (47440, 5, 6927) /* ENCUMB_VAL_INT */;
-

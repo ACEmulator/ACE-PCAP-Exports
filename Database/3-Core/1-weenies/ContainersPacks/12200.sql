@@ -47,16 +47,3 @@ VALUES (12200, 0, 83892787, 83892786)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12200, 0, 16784996);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12200, 16, 'This tusker had an average sized brain.  Very odd, for a tusker...') /* LONG_DESC_STRING */
-     , (12200, 14, 'Use this item to close it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12200, 19, 250) /* VALUE_INT */
-     , (12200, 5, 1591) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (12200, 2, 1) /* OPEN_BOOL */;
-

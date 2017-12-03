@@ -31,17 +31,3 @@ VALUES (37494, 13, True) /* ETHEREAL_BOOL */
      , (37494, 19, True) /* ATTACKABLE_BOOL */
      , (37494, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37494, 16, 'A colorful ball the Jester uses to mark things of interest. Return it to the Jester to complete his test.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37494, 33, 1) /* BONDED_INT */
-     , (37494, 114, 1) /* ATTUNED_INT */
-     , (37494, 19, 0) /* VALUE_INT */
-     , (37494, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (37494, 69, 0) /* IS_SELLABLE_BOOL */;
-

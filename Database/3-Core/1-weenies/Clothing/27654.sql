@@ -49,34 +49,3 @@ VALUES (27654, 0, 83887061, 83895317)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27654, 0, 16779351);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27654, 16, 'This shirt has been assembled from the hides of many reedsharks and then treated with magical oils to make the shirt more comfortable and enchanted.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27654, 160, 175) /* WIELD_DIFFICULTY_INT */
-     , (27654, 19, 2100) /* VALUE_INT */
-     , (27654, 5, 650) /* ENCUMB_VAL_INT */
-     , (27654, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (27654, 108, 650) /* ITEM_MAX_MANA_INT */
-     , (27654, 28, 0) /* ARMOR_LEVEL_INT */
-     , (27654, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (27654, 158, 6) /* WIELD_REQUIREMENTS_INT */
-     , (27654, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27654, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (27654, 13, 0.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (27654, 14, 0.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (27654, 15, 0.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (27654, 16, 0.1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (27654, 17, 0.1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (27654, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (27654, 19, 0.1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (27654, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27654, 1028) /* BludgeonProtectionOther5_SpellID */
-     , (27654, 1316) /* ArmorOther5_SpellID */;
-

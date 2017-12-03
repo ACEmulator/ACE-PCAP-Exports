@@ -34,18 +34,6 @@ VALUES (29328, 13, True) /* ETHEREAL_BOOL */
      , (29328, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29328, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29328, 16, 'A guide to inter-personal communication ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29328, 33, 1) /* BONDED_INT */
-     , (29328, 19, 0) /* VALUE_INT */
-     , (29328, 5, 5) /* ENCUMB_VAL_INT */
-     , (29328, 174, 12) /* APPRAISAL_PAGES_INT */
-     , (29328, 175, 12) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -35,17 +35,3 @@ VALUES (20329, 13, True) /* ETHEREAL_BOOL */
      , (20329, 19, True) /* ATTACKABLE_BOOL */
      , (20329, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20329, 16, 'Inscribed spell: Nullify Creature Magic Self
-Dispels 3-6 negative Creature Magic enchantments of level 6 or lower from the caster.') /* LONG_DESC_STRING */
-     , (20329, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20329, 19, 1000) /* VALUE_INT */
-     , (20329, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20329, 1918) /* DispelCreatureBadSelf6_SpellID */;
-

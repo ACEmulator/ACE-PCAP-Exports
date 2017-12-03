@@ -33,19 +33,6 @@ VALUES (25680, 13, True) /* ETHEREAL_BOOL */
      , (25680, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25680, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25680, 16, 'A poorly composed journal.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25680, 33, 0) /* BONDED_INT */
-     , (25680, 114, 0) /* ATTUNED_INT */
-     , (25680, 19, 0) /* VALUE_INT */
-     , (25680, 5, 25) /* ENCUMB_VAL_INT */
-     , (25680, 174, 11) /* APPRAISAL_PAGES_INT */
-     , (25680, 175, 11) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

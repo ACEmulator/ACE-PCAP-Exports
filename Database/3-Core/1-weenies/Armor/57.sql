@@ -45,29 +45,3 @@ VALUES (57, 0, 83894333, 83894333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (57, 0, 16778374);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (57, 16, 'Platemail Gauntlets') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (57, 19, 5926) /* VALUE_INT */
-     , (57, 131, 63) /* MATERIAL_TYPE_INT */
-     , (57, 5, 835) /* ENCUMB_VAL_INT */
-     , (57, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (57, 28, 230) /* ARMOR_LEVEL_INT */
-     , (57, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (57, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (57, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (57, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (57, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (57, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (57, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (57, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (57, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (57, 100, 1) /* DYABLE_BOOL */;
-

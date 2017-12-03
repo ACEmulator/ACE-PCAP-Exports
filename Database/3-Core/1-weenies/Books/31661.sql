@@ -34,22 +34,6 @@ VALUES (31661, 13, True) /* ETHEREAL_BOOL */
      , (31661, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31661, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31661, 16, 'Give this to Shanrek the Forger at Bandit Castle.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31661, 33, 1) /* BONDED_INT */
-     , (31661, 114, 1) /* ATTUNED_INT */
-     , (31661, 19, 10) /* VALUE_INT */
-     , (31661, 5, 100) /* ENCUMB_VAL_INT */
-     , (31661, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (31661, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31661, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

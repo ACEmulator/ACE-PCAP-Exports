@@ -45,18 +45,6 @@ VALUES (8365, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8365, 0, 16777893);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8365, 16, 'A long and heavy shaft with strange markings on the side.') /* LONG_DESC_STRING */
-     , (8365, 14, 'Combine with Mace head to make ceremonial weapon.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8365, 33, 1) /* BONDED_INT */
-     , (8365, 114, 1) /* ATTUNED_INT */
-     , (8365, 19, 10) /* VALUE_INT */
-     , (8365, 5, 500) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

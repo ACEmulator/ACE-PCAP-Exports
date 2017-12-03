@@ -37,24 +37,6 @@ VALUES (2023, 13, True) /* ETHEREAL_BOOL */
      , (2023, 14, True) /* GRAVITY_STATUS_BOOL */
      , (2023, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2023, 19, 10) /* VALUE_INT */
-     , (2023, 5, 125) /* ENCUMB_VAL_INT */
-     , (2023, 45, 2) /* DAMAGE_TYPE_INT */
-     , (2023, 49, -1) /* WEAPON_TIME_INT */
-     , (2023, 48, 0) /* WEAPON_SKILL_INT */
-     , (2023, 44, 10) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2023, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (2023, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (2023, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (2023, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (2023, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (2023, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

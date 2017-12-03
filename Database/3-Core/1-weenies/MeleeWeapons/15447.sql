@@ -42,36 +42,3 @@ VALUES (15447, 13, True) /* ETHEREAL_BOOL */
      , (15447, 19, True) /* ATTACKABLE_BOOL */
      , (15447, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15447, 16, 'An axe crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15447, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (15447, 33, 1) /* BONDED_INT */
-     , (15447, 353, 3) /* WEAPON_TYPE_INT */
-     , (15447, 114, 1) /* ATTUNED_INT */
-     , (15447, 19, 4000) /* VALUE_INT */
-     , (15447, 36, 9999) /* RESIST_MAGIC_INT */
-     , (15447, 5, 800) /* ENCUMB_VAL_INT */
-     , (15447, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (15447, 47, 4) /* ATTACK_TYPE_INT */
-     , (15447, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (15447, 45, 1) /* DAMAGE_TYPE_INT */
-     , (15447, 49, 30) /* WEAPON_TIME_INT */
-     , (15447, 48, 46) /* WEAPON_SKILL_INT */
-     , (15447, 44, 67) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (15447, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (15447, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
-     , (15447, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (15447, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (15447, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (15447, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (15447, 99, 1) /* IVORYABLE_BOOL */
-     , (15447, 69, 0) /* IS_SELLABLE_BOOL */;
-

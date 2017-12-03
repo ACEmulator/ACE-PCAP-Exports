@@ -33,11 +33,3 @@ VALUES (15177, 13, True) /* ETHEREAL_BOOL */
      , (15177, 19, True) /* ATTACKABLE_BOOL */
      , (15177, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15177, 38, 'Nalib Cavana Settlement Portal (31.3N, 25.5W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15177, 111, 1) /* PORTAL_BITMASK_INT */;
-

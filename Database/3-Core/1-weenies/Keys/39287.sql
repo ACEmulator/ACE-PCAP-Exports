@@ -37,15 +37,3 @@ VALUES (39287, 13, True) /* ETHEREAL_BOOL */
      , (39287, 19, True) /* ATTACKABLE_BOOL */
      , (39287, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39287, 16, 'A large, garish, golden key, a prize from the casinos.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39287, 33, 1) /* BONDED_INT */
-     , (39287, 114, 1) /* ATTUNED_INT */
-     , (39287, 19, 0) /* VALUE_INT */
-     , (39287, 5, 500) /* ENCUMB_VAL_INT */
-     , (39287, 91, 2) /* MAX_STRUCTURE_INT */;
-

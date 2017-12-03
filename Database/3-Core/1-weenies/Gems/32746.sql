@@ -35,17 +35,6 @@ VALUES (32746, 13, True) /* ETHEREAL_BOOL */
      , (32746, 19, True) /* ATTACKABLE_BOOL */
      , (32746, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32746, 16, 'A piece of crystallized Essence of Enchantment. The crystal is cold to the touch.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32746, 33, 1) /* BONDED_INT */
-     , (32746, 114, 1) /* ATTUNED_INT */
-     , (32746, 19, 0) /* VALUE_INT */
-     , (32746, 5, 40) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

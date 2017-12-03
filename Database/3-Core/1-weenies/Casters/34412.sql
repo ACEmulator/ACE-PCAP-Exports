@@ -49,23 +49,3 @@ VALUES (34412, 0, 83894407, 83894407);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34412, 0, 16792927);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34412, 16, 'A frozen orb.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34412, 33, 1) /* BONDED_INT */
-     , (34412, 19, 2300) /* VALUE_INT */
-     , (34412, 117, 10) /* ITEM_MANA_COST_INT */
-     , (34412, 5, 30) /* ENCUMB_VAL_INT */
-     , (34412, 106, 10) /* ITEM_SPELLCRAFT_INT */
-     , (34412, 108, 120) /* ITEM_MAX_MANA_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (34412, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (34412, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (34412, 4028) /* Snowball_SpellID */;
-

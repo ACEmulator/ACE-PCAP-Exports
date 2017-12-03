@@ -53,36 +53,3 @@ VALUES (32984, 0, 83897333, 83897333);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32984, 0, 16792610);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32984, 16, 'A spellcasting baton crafted by Silveran smiths, once commissioned by Varicci on Ispar for the Royal Armory.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32984, 160, 100) /* WIELD_DIFFICULTY_INT */
-     , (32984, 19, 10000) /* VALUE_INT */
-     , (32984, 5, 200) /* ENCUMB_VAL_INT */
-     , (32984, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (32984, 108, 5000) /* ITEM_MAX_MANA_INT */
-     , (32984, 45, 1) /* DAMAGE_TYPE_INT */
-     , (32984, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (32984, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (32984, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32984, 152, 1.1) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (32984, 144, 0.15) /* MANA_CONVERSION_MOD_FLOAT */
-     , (32984, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (32984, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (32984, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (32984, 150, 1.025) /* WEAPON_MAGIC_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (32984, 69, 1) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (32984, 2282) /* MagicYieldOther7_SpellID */
-     , (32984, 2117) /* Truevalue7_SpellID */
-     , (32984, 2101) /* Defender7_SpellID */
-     , (32984, 3259) /* SpiritDrinker7_SpellID */;
-

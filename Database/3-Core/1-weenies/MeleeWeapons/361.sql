@@ -48,28 +48,3 @@ VALUES (361, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (361, 0, 16777984);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (361, 16, 'Exquisitely crafted Lavender Jade Yaoji , set with 1 Green Garnet') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (361, 353, 2) /* WEAPON_TYPE_INT */
-     , (361, 131, 29) /* MATERIAL_TYPE_INT */
-     , (361, 19, 3221) /* VALUE_INT */
-     , (361, 5, 350) /* ENCUMB_VAL_INT */
-     , (361, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (361, 47, 6) /* ATTACK_TYPE_INT */
-     , (361, 45, 3) /* DAMAGE_TYPE_INT */
-     , (361, 49, 30) /* WEAPON_TIME_INT */
-     , (361, 48, 44) /* WEAPON_SKILL_INT */
-     , (361, 44, 14) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (361, 29, 1.054094) /* WEAPON_DEFENSE_FLOAT */
-     , (361, 22, 0.5874971) /* DAMAGE_VARIANCE_FLOAT */
-     , (361, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (361, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (361, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (361, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

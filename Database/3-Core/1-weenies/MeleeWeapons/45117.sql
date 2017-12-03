@@ -38,32 +38,3 @@ VALUES (45117, 13, True) /* ETHEREAL_BOOL */
      , (45117, 19, True) /* ATTACKABLE_BOOL */
      , (45117, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45117, 16, 'Frost Hammer') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45117, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (45117, 353, 3) /* WEAPON_TYPE_INT */
-     , (45117, 19, 831) /* VALUE_INT */
-     , (45117, 131, 63) /* MATERIAL_TYPE_INT */
-     , (45117, 5, 575) /* ENCUMB_VAL_INT */
-     , (45117, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (45117, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (45117, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (45117, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (45117, 47, 4) /* ATTACK_TYPE_INT */
-     , (45117, 45, 8) /* DAMAGE_TYPE_INT */
-     , (45117, 49, 47) /* WEAPON_TIME_INT */
-     , (45117, 48, 46) /* WEAPON_SKILL_INT */
-     , (45117, 44, 23) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45117, 29, 1.01) /* WEAPON_DEFENSE_FLOAT */
-     , (45117, 22, 0.83) /* DAMAGE_VARIANCE_FLOAT */
-     , (45117, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (45117, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (45117, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45117, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
-

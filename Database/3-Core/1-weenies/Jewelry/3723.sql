@@ -47,21 +47,3 @@ VALUES (3723, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3723, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3723, 16, 'Obsidian Ring of Regeneration.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3723, 19, 6000) /* VALUE_INT */
-     , (3723, 5, 15) /* ENCUMB_VAL_INT */
-     , (3723, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (3723, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (3723, 109, 210) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3723, 5, -0.3) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3723, 163) /* RegenerationOther5_SpellID */;
-

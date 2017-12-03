@@ -84,24 +84,3 @@ VALUES (28705, 12, 16777304)
      , (28705, 4, 16791881)
      , (28705, 8, 16791882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28705, 16, 'Gem of Regeneration') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28705, 19, 1776) /* VALUE_INT */
-     , (28705, 131, 33) /* MATERIAL_TYPE_INT */
-     , (28705, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (28705, 5, 5) /* ENCUMB_VAL_INT */
-     , (28705, 117, 300) /* ITEM_MANA_COST_INT */
-     , (28705, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (28705, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (28705, 108, 467) /* ITEM_MAX_MANA_INT */
-     , (28705, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (28705, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (28705, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (28705, 169) /* RegenerationSelf5_SpellID */;
-

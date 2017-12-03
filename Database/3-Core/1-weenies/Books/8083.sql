@@ -41,18 +41,6 @@ VALUES (8083, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8083, 0, 16783934);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8083, 16, 'An amorphous, unidentifiable organism with what appears to be characters of Yalaini script burned into its flesh.') /* LONG_DESC_STRING */
-     , (8083, 14, 'This item cannot be read.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8083, 19, 20) /* VALUE_INT */
-     , (8083, 5, 50) /* ENCUMB_VAL_INT */
-     , (8083, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (8083, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

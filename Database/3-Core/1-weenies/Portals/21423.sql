@@ -33,13 +33,3 @@ VALUES (21423, 13, True) /* ETHEREAL_BOOL */
      , (21423, 19, True) /* ATTACKABLE_BOOL */
      , (21423, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21423, 38, 'Icy Demise') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21423, 86, 20) /* MIN_LEVEL_INT */
-     , (21423, 87, 39) /* MAX_LEVEL_INT */
-     , (21423, 111, 49) /* PORTAL_BITMASK_INT */;
-

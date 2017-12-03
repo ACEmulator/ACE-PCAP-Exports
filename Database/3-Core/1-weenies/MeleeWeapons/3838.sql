@@ -41,28 +41,3 @@ VALUES (3838, 13, True) /* ETHEREAL_BOOL */
      , (3838, 19, True) /* ATTACKABLE_BOOL */
      , (3838, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3838, 16, 'Finely crafted Ruby Acid Nabut , set with 1 Yellow Garnet') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3838, 353, 7) /* WEAPON_TYPE_INT */
-     , (3838, 131, 38) /* MATERIAL_TYPE_INT */
-     , (3838, 19, 5746) /* VALUE_INT */
-     , (3838, 5, 550) /* ENCUMB_VAL_INT */
-     , (3838, 105, 3) /* ITEM_WORKMANSHIP_INT */
-     , (3838, 47, 6) /* ATTACK_TYPE_INT */
-     , (3838, 45, 32) /* DAMAGE_TYPE_INT */
-     , (3838, 49, 45) /* WEAPON_TIME_INT */
-     , (3838, 48, 45) /* WEAPON_SKILL_INT */
-     , (3838, 44, 15) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3838, 29, 1.071351) /* WEAPON_DEFENSE_FLOAT */
-     , (3838, 22, 0.6499963) /* DAMAGE_VARIANCE_FLOAT */
-     , (3838, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3838, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3838, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3838, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

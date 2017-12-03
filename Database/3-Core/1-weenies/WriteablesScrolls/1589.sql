@@ -35,17 +35,3 @@ VALUES (1589, 13, True) /* ETHEREAL_BOOL */
      , (1589, 19, True) /* ATTACKABLE_BOOL */
      , (1589, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1589, 16, 'Inscribed spell: Blood Loather I
-Decreases a weapon''s damage value by 2 points.') /* LONG_DESC_STRING */
-     , (1589, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1589, 19, 1) /* VALUE_INT */
-     , (1589, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1589, 36) /* BloodLoather_SpellID */;
-

@@ -37,34 +37,3 @@ VALUES (30626, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (30626, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (30626, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30626, 15, 'A crude stone statue of some sort. There is a small square indention on the statue as if something was meant to be placed there.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30626, 384, 0) /*  */
-     , (30626, 370, 0) /* GEAR_DAMAGE_INT */
-     , (30626, 386, 0) /*  */
-     , (30626, 307, 0) /* DAMAGE_RATING_INT */
-     , (30626, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (30626, 387, 0) /*  */
-     , (30626, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (30626, 372, 0) /* GEAR_CRIT_INT */
-     , (30626, 388, 0) /*  */
-     , (30626, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (30626, 389, 0) /*  */
-     , (30626, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (30626, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (30626, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (30626, 313, 0) /* CRIT_RATING_INT */
-     , (30626, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (30626, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (30626, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (30626, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (30626, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (30626, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (30626, 381, 0) /*  */
-     , (30626, 382, 0) /*  */
-     , (30626, 383, 0) /*  */;
-

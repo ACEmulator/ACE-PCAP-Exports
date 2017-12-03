@@ -33,19 +33,6 @@ VALUES (45783, 13, True) /* ETHEREAL_BOOL */
      , (45783, 14, True) /* GRAVITY_STATUS_BOOL */
      , (45783, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45783, 16, 'A page covered in blood-red lettering that makes your eyes hurt to look at.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45783, 33, 1) /* BONDED_INT */
-     , (45783, 114, 1) /* ATTUNED_INT */
-     , (45783, 19, 0) /* VALUE_INT */
-     , (45783, 5, 25) /* ENCUMB_VAL_INT */
-     , (45783, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (45783, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

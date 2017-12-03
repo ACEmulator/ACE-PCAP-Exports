@@ -50,25 +50,6 @@ VALUES (23992, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23992, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23992, 14, 'Use this gem to be teleported to the gates of Knorr.') /* USE_STRING */
-     , (23992, 15, 'A gem pulsating with the power of portal space. ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23992, 33, 1) /* BONDED_INT */
-     , (23992, 114, 1) /* ATTUNED_INT */
-     , (23992, 19, 0) /* VALUE_INT */
-     , (23992, 5, 100) /* ENCUMB_VAL_INT */
-     , (23992, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (23992, 108, 150) /* ITEM_MAX_MANA_INT */
-     , (23992, 109, 10) /* ITEM_DIFFICULTY_INT */
-     , (23992, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (23992, 2957) /* PortalSendingKnorrSeat_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

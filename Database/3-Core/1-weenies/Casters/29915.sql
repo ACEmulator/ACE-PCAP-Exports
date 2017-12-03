@@ -36,30 +36,3 @@ VALUES (29915, 13, True) /* ETHEREAL_BOOL */
      , (29915, 19, True) /* ATTACKABLE_BOOL */
      , (29915, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29915, 16, 'A beautifully detailed stave crafted from the claw of a Kithless Siraluun.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29915, 160, 50) /* WIELD_DIFFICULTY_INT */
-     , (29915, 176, 16) /* APPRAISAL_ITEM_SKILL_INT */
-     , (29915, 115, 200) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (29915, 19, 4650) /* VALUE_INT */
-     , (29915, 5, 100) /* ENCUMB_VAL_INT */
-     , (29915, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (29915, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (29915, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (29915, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29915, 144, 0.03) /* MANA_CONVERSION_MOD_FLOAT */
-     , (29915, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (29915, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (29915, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (29915, 1997) /* LifeGiver_SpellID */
-     , (29915, 210) /* ManaRenewalOther5_SpellID */
-     , (29915, 663) /* ManaMasteryOther5_SpellID */;
-

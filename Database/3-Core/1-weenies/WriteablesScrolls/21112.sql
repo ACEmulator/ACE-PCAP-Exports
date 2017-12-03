@@ -35,17 +35,3 @@ VALUES (21112, 13, True) /* ETHEREAL_BOOL */
      , (21112, 19, True) /* ATTACKABLE_BOOL */
      , (21112, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21112, 16, 'Inscribed spell: Martyr''s Tenacity IV
-Drains one-quarter of the caster''s stamina into a bolt of energy.  When struck by the bolt, the target''s stamina is reduced by 125% of the amount drained.') /* LONG_DESC_STRING */
-     , (21112, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21112, 19, 100) /* VALUE_INT */
-     , (21112, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (21112, 2770) /* StaminaBolt4_SpellID */;
-

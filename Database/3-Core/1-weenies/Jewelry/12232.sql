@@ -44,25 +44,3 @@ VALUES (12232, 0, 83888956, 83893821);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12232, 0, 16778334);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12232, 16, 'A Doll''s charm that can be worn as a bracelet.  Taken from the leader of the Singular Pyreal Repository.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12232, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
-     , (12232, 115, 190) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (12232, 19, 3000) /* VALUE_INT */
-     , (12232, 36, 9999) /* RESIST_MAGIC_INT */
-     , (12232, 5, 60) /* ENCUMB_VAL_INT */
-     , (12232, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (12232, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (12232, 109, 100) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12232, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (12232, 1424) /* FocusSelf4_SpellID */
-     , (12232, 632) /* WarMagicMasterySelf4_SpellID */;
-

@@ -35,21 +35,6 @@ VALUES (40794, 13, True) /* ETHEREAL_BOOL */
      , (40794, 19, True) /* ATTACKABLE_BOOL */
      , (40794, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40794, 14, 'Return to Ja''qu with this ingot.') /* USE_STRING */
-     , (40794, 15, 'An ingot created from the essences of all six Progenitors.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40794, 33, 1) /* BONDED_INT */
-     , (40794, 114, 1) /* ATTUNED_INT */
-     , (40794, 19, 0) /* VALUE_INT */
-     , (40794, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40794, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

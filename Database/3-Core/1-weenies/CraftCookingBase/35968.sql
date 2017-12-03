@@ -37,16 +37,6 @@ VALUES (35968, 13, True) /* ETHEREAL_BOOL */
      , (35968, 19, True) /* ATTACKABLE_BOOL */
      , (35968, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35968, 16, 'A small Grievver spine.') /* LONG_DESC_STRING */
-     , (35968, 14, 'Use a metal press to extract oil from this spine.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35968, 19, 0) /* VALUE_INT */
-     , (35968, 5, 20) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

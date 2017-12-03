@@ -36,19 +36,3 @@ VALUES (12679, 13, True) /* ETHEREAL_BOOL */
      , (12679, 19, True) /* ATTACKABLE_BOOL */
      , (12679, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12679, 16, 'This hook is owned by Char Ming. It contains: 
-A statue sculpted in the likeness of the vanquished Colosseum Champion, Gladiator Diemos.') /* LONG_DESC_STRING */
-     , (12679, 14, 'On use, will cast the spell Strength of Diemos.  This item does not count against the maximum number of casters that can be hooked in a residence.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12679, 19, 0) /* VALUE_INT */
-     , (12679, 5, 3000) /* ENCUMB_VAL_INT */
-     , (12679, 9, 0) /* LOCATIONS_INT */
-     , (12679, 50, 0) /* AMMO_TYPE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (12679, 22, True) /* INSCRIBABLE_BOOL */;
-

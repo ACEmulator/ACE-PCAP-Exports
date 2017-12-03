@@ -46,14 +46,3 @@ VALUES (51600, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51600, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51600, 15, 'A glowing red fragment that feels ice-cold to the touch.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51600, 33, 1) /* BONDED_INT */
-     , (51600, 114, 1) /* ATTUNED_INT */
-     , (51600, 19, 0) /* VALUE_INT */
-     , (51600, 5, 500) /* ENCUMB_VAL_INT */;
-

@@ -81,26 +81,3 @@ VALUES (40922, 12, 16778423)
      , (40922, 14, 16783855)
      , (40922, 16, 16783891);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40922, 5, 'Ghost Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (40922, 16, 67110064) /* EYES_PALETTE_DID */
-     , (40922, 9, 83890275) /* EYES_TEXTURE_DID */
-     , (40922, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (40922, 10, 83890302) /* NOSE_TEXTURE_DID */
-     , (40922, 11, 83890339) /* MOUTH_TEXTURE_DID */
-     , (40922, 15, 67116980) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40922, 113, 2) /* GENDER_INT */
-     , (40922, 2, 31) /* CREATURE_TYPE_INT */
-     , (40922, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (40922, 25, 155) /* LEVEL_INT */
-     , (40922, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (40922, 64, 30250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

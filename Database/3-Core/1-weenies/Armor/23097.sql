@@ -51,23 +51,3 @@ VALUES (23097, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23097, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23097, 15, 'Rare, lightweight, extremely warm robe crafted from the hide of the vile Swarthy Mattekar, rumored only to appear under certain conditions.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23097, 19, 4000) /* VALUE_INT */
-     , (23097, 5, 1300) /* ENCUMB_VAL_INT */
-     , (23097, 28, 200) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23097, 13, 0.9) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (23097, 14, 0.9) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (23097, 15, 0.9) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (23097, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (23097, 17, 2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (23097, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (23097, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (23097, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

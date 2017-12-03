@@ -52,20 +52,6 @@ VALUES (42517, 0, 16784246)
      , (42517, 1, 16784196)
      , (42517, 2, 16784180);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42517, 16, 'A mote of coalesced mana.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42517, 33, 1) /* BONDED_INT */
-     , (42517, 114, 1) /* ATTUNED_INT */
-     , (42517, 19, 0) /* VALUE_INT */
-     , (42517, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (42517, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

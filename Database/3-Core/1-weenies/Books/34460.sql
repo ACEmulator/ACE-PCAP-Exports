@@ -34,19 +34,6 @@ VALUES (34460, 13, True) /* ETHEREAL_BOOL */
      , (34460, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34460, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34460, 16, 'A book in which Asheron recorded some of his activities before departing Dereth') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34460, 33, 1) /* BONDED_INT */
-     , (34460, 114, 1) /* ATTUNED_INT */
-     , (34460, 19, 0) /* VALUE_INT */
-     , (34460, 5, 300) /* ENCUMB_VAL_INT */
-     , (34460, 174, 6) /* APPRAISAL_PAGES_INT */
-     , (34460, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

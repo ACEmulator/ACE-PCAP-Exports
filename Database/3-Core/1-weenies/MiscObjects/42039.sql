@@ -32,20 +32,6 @@ VALUES (42039, 13, True) /* ETHEREAL_BOOL */
      , (42039, 14, True) /* GRAVITY_STATUS_BOOL */
      , (42039, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42039, 15, 'An insubstantial ring with the symbol of House Mhoire. ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42039, 33, 1) /* BONDED_INT */
-     , (42039, 114, 1) /* ATTUNED_INT */
-     , (42039, 19, 0) /* VALUE_INT */
-     , (42039, 5, 4) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (42039, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

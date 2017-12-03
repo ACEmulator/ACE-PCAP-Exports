@@ -35,12 +35,3 @@ VALUES (12219, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12219, 0, 16787384);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12219, 16, 'A festering, rancid, decapitated Ursuin head.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12219, 19, 0) /* VALUE_INT */
-     , (12219, 5, 600) /* ENCUMB_VAL_INT */;
-

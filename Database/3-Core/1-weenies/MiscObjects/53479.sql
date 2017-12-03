@@ -44,19 +44,6 @@ VALUES (53479, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (53479, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53479, 14, 'Give this token to Summercrown in the Viridian Rise if you wish to start his challenges over from scratch.  **WARNING: If you do this, you will lose all progress with you present challenges, and you will not be able to continue any progress you''ve already made.**') /* USE_STRING */
-     , (53479, 15, 'An amber token, used to reset one''s progress in the Paragon Weapon challenges.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53479, 19, 1) /* VALUE_INT */
-     , (53479, 5, 1) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (53479, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

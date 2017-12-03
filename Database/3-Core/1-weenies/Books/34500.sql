@@ -33,14 +33,3 @@ VALUES (34500, 13, True) /* ETHEREAL_BOOL */
      , (34500, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34500, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34500, 16, 'A note containing a scouting report from Ardry the Dubious') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34500, 19, 0) /* VALUE_INT */
-     , (34500, 5, 10) /* ENCUMB_VAL_INT */
-     , (34500, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (34500, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

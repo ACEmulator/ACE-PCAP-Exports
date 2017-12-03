@@ -35,16 +35,3 @@ VALUES (5123, 13, True) /* ETHEREAL_BOOL */
      , (5123, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5123, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5123, 16, 'Inuo-Kon Kou''s thin and worn book on magical lights.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5123, 33, 1) /* BONDED_INT */
-     , (5123, 114, 1) /* ATTUNED_INT */
-     , (5123, 19, 15) /* VALUE_INT */
-     , (5123, 5, 5) /* ENCUMB_VAL_INT */
-     , (5123, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (5123, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

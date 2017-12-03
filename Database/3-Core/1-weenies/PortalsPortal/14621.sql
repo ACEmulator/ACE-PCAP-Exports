@@ -33,11 +33,3 @@ VALUES (14621, 13, True) /* ETHEREAL_BOOL */
      , (14621, 19, True) /* ATTACKABLE_BOOL */
      , (14621, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14621, 38, 'Djinaya Wind Cottages Portal (22.3S, 11.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14621, 111, 1) /* PORTAL_BITMASK_INT */;
-

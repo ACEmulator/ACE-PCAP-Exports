@@ -39,24 +39,6 @@ VALUES (44903, 13, True) /* ETHEREAL_BOOL */
      , (44903, 19, True) /* ATTACKABLE_BOOL */
      , (44903, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44903, 16, 'Nen Ai needs food for her pet drudge.') /* LONG_DESC_STRING */
-     , (44903, 14, 'Recommended Level: 5') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44903, 33, 1) /* BONDED_INT */
-     , (44903, 19, 100) /* VALUE_INT */
-     , (44903, 5, 0) /* ENCUMB_VAL_INT */
-     , (44903, 280, 100) /* SHARED_COOLDOWN_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (44903, 167, 2) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44903, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -33,12 +33,3 @@ VALUES (25782, 13, True) /* ETHEREAL_BOOL */
      , (25782, 19, True) /* ATTACKABLE_BOOL */
      , (25782, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25782, 16, 'A frozen box that emanates cold. You have no idea what it could be used for other than to keep your house cool during the summer.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25782, 19, 1000) /* VALUE_INT */
-     , (25782, 5, 1000) /* ENCUMB_VAL_INT */;
-

@@ -46,25 +46,6 @@ VALUES (24888, 1, 83892459, 83892460)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24888, 1, 16784273);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24888, 2, 76) /* CREATURE_TYPE_INT */
-     , (24888, 25, 2) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (24888, 1, 1) /* STRENGTH_ATTRIBUTE */
-     , (24888, 2, 1) /* ENDURANCE_ATTRIBUTE */
-     , (24888, 4, 1) /* COORDINATION_ATTRIBUTE */
-     , (24888, 8, 1) /* QUICKNESS_ATTRIBUTE */
-     , (24888, 16, 1) /* FOCUS_ATTRIBUTE */
-     , (24888, 32, 1) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24888, 64, 10000) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24888, 128, 1) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24888, 256, 1) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -50,17 +50,3 @@ VALUES (51784, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51784, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51784, 16, 'A small multi-colored crystal from deep within the Spirited Halls. Rinne Gorber will be very interested in this item.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51784, 33, 1) /* BONDED_INT */
-     , (51784, 114, 1) /* ATTUNED_INT */
-     , (51784, 19, 0) /* VALUE_INT */
-     , (51784, 5, 200) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (51784, 69, 0) /* IS_SELLABLE_BOOL */;
-

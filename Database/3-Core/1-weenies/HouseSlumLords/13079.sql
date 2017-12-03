@@ -32,15 +32,6 @@ VALUES (13079, 13, True) /* ETHEREAL_BOOL */
      , (13079, 19, True) /* ATTACKABLE_BOOL */
      , (13079, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13079, 16, 'This house is available for purchase.
-') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13079, 86, 20) /* MIN_LEVEL_INT */;
-
 /* Slumlord Extended Properties */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

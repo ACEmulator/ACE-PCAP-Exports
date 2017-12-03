@@ -37,25 +37,3 @@ VALUES (27683, 13, True) /* ETHEREAL_BOOL */
      , (27683, 19, True) /* ATTACKABLE_BOOL */
      , (27683, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27683, 16, 'A large gem has been fitted onto a stone ringlet and now serves as a cumbersome ring. The ring has also been enchanted.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27683, 160, 175) /* WIELD_DIFFICULTY_INT */
-     , (27683, 19, 3000) /* VALUE_INT */
-     , (27683, 5, 800) /* ENCUMB_VAL_INT */
-     , (27683, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (27683, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (27683, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (27683, 158, 6) /* WIELD_REQUIREMENTS_INT */
-     , (27683, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27683, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27683, 513) /* AcidProtectionOther5_SpellID */
-     , (27683, 1143) /* PiercingProtectionOther5_SpellID */;
-

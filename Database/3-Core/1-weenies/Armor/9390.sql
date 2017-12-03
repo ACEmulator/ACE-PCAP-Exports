@@ -56,27 +56,3 @@ VALUES (9390, 0, 83887061, 83893263)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9390, 0, 16778356);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9390, 16, 'A chestplate with a scuffed seal on the chest.  The armor is brutally simplistic, and sturdily crafted.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9390, 33, 1) /* BONDED_INT */
-     , (9390, 19, 2300) /* VALUE_INT */
-     , (9390, 5, 2000) /* ENCUMB_VAL_INT */
-     , (9390, 28, 160) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (9390, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (9390, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (9390, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (9390, 16, 0.7) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (9390, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (9390, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (9390, 19, 0.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (9390, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (9390, 100, 1) /* DYABLE_BOOL */;
-

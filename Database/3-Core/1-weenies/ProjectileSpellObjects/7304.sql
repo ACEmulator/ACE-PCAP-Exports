@@ -38,12 +38,3 @@ VALUES (7304, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7304, 1, True) /* STUCK_BOOL */
      , (7304, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7304, 16, 'Killed by High-Voltage III.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7304, 19, 0) /* VALUE_INT */
-     , (7304, 5, 6460) /* ENCUMB_VAL_INT */;
-

@@ -36,15 +36,3 @@ VALUES (27672, 13, True) /* ETHEREAL_BOOL */
      , (27672, 19, True) /* ATTACKABLE_BOOL */
      , (27672, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27672, 16, 'These lockpicks, carved from gems, seem to be perfect in every way. It is as though the pick was waiting to be found within the crystal. They seem to guide your hand with greater ease when used on locked objects.') /* LONG_DESC_STRING */
-     , (27672, 14, 'Use this item on a locked door or chest to pick the lock.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27672, 19, 1900) /* VALUE_INT */
-     , (27672, 5, 110) /* ENCUMB_VAL_INT */
-     , (27672, 91, 100) /* MAX_STRUCTURE_INT */
-     , (27672, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-

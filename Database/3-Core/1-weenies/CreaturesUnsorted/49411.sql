@@ -41,25 +41,3 @@ VALUES (49411, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (49411, 67115259, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49411, 2, 77) /* CREATURE_TYPE_INT */
-     , (49411, 307, 19) /* DAMAGE_RATING_INT */
-     , (49411, 25, 125) /* LEVEL_INT */
-     , (49411, 313, 10) /* CRIT_RATING_INT */
-     , (49411, 315, 11) /* CRIT_RESIST_RATING_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (49411, 1, 190) /* STRENGTH_ATTRIBUTE */
-     , (49411, 2, 220) /* ENDURANCE_ATTRIBUTE */
-     , (49411, 4, 140) /* COORDINATION_ATTRIBUTE */
-     , (49411, 8, 230) /* QUICKNESS_ATTRIBUTE */
-     , (49411, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (49411, 32, 150) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49411, 64, 870) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (49411, 128, 1120) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (49411, 256, 750) /* MAX_MANA_ATTRIBUTE_2ND */;
-

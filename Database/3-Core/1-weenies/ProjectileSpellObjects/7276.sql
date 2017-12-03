@@ -37,14 +37,3 @@ VALUES (7276, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7276, 1, True) /* STUCK_BOOL */
      , (7276, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7276, 16, 'A pamphlet that appears to be made of day lily petals.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7276, 19, 0) /* VALUE_INT */
-     , (7276, 5, 25) /* ENCUMB_VAL_INT */
-     , (7276, 174, 2) /* APPRAISAL_PAGES_INT */
-     , (7276, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
-

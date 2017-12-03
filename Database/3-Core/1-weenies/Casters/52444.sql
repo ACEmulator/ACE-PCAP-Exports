@@ -35,27 +35,3 @@ VALUES (52444, 13, True) /* ETHEREAL_BOOL */
      , (52444, 19, True) /* ATTACKABLE_BOOL */
      , (52444, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52444, 16, 'A beautifully wrapped holiday present. You wonder what''s inside!') /* LONG_DESC_STRING */
-     , (52444, 14, 'Use this item to equip it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52444, 160, 150) /* WIELD_DIFFICULTY_INT */
-     , (52444, 19, 50) /* VALUE_INT */
-     , (52444, 5, 250) /* ENCUMB_VAL_INT */
-     , (52444, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (52444, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (52444, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (52444, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (52444, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (52444, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
-     , (52444, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
-     , (52444, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (52444, 2227) /* DeceptionMasterySelf7_SpellID */;
-

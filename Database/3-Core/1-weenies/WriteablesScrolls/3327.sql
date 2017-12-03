@@ -35,17 +35,3 @@ VALUES (3327, 13, True) /* ETHEREAL_BOOL */
      , (3327, 19, True) /* ATTACKABLE_BOOL */
      , (3327, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3327, 16, 'Inscribed spell: Item Tinkering Expertise Self VI
-Increases the caster''s Item Tinkering skill by 35 points.') /* LONG_DESC_STRING */
-     , (3327, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3327, 19, 1000) /* VALUE_INT */
-     , (3327, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3327, 731) /* ItemExpertiseSelf6_SpellID */;
-

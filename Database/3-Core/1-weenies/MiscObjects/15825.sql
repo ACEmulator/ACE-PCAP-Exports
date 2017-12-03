@@ -31,13 +31,3 @@ VALUES (15825, 13, True) /* ETHEREAL_BOOL */
      , (15825, 19, True) /* ATTACKABLE_BOOL */
      , (15825, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15825, 14, 'An empty crystal vase or one filled with flowers can be used on this pedestal. Once a floral arrangement has been added to this pedestal, it cannot be removed. This item it floor-hookable.') /* USE_STRING */
-     , (15825, 15, 'An ornamental pedestal.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15825, 19, 10000) /* VALUE_INT */
-     , (15825, 5, 70) /* ENCUMB_VAL_INT */;
-

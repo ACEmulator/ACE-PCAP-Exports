@@ -56,36 +56,3 @@ VALUES (27911, 0, 16788085)
      , (27911, 4, 16788082)
      , (27911, 5, 16788089);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27911, 16, 'These armored boots appear to have been an ornamental piece. Obviously this is only one part of a complete suit of armor.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27911, 160, 100) /* WIELD_DIFFICULTY_INT */
-     , (27911, 19, 18000) /* VALUE_INT */
-     , (27911, 5, 225) /* ENCUMB_VAL_INT */
-     , (27911, 106, 335) /* ITEM_SPELLCRAFT_INT */
-     , (27911, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (27911, 28, 440) /* ARMOR_LEVEL_INT */
-     , (27911, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (27911, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27911, 5, -0.0333) /* MANA_RATE_FLOAT */
-     , (27911, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (27911, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (27911, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (27911, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (27911, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (27911, 18, 1.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (27911, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (27911, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27911, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27911, 3094) /* SkinFiazhat_SpellID */
-     , (27911, 3311) /* LanceAegis_SpellID */;
-

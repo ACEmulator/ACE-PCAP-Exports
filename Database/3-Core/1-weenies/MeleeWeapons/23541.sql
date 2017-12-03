@@ -51,39 +51,3 @@ VALUES (23541, 0, 83889688, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23541, 0, 16783206);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23541, 16, 'A crystalline sword, made out of a what appears to be a shard of the original soul crystal.  It is cold to the touch, and seems to glow with an inner radiance.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23541, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (23541, 353, 2) /* WEAPON_TYPE_INT */
-     , (23541, 19, 7000) /* VALUE_INT */
-     , (23541, 5, 450) /* ENCUMB_VAL_INT */
-     , (23541, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (23541, 108, 1500) /* ITEM_MAX_MANA_INT */
-     , (23541, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (23541, 47, 2) /* ATTACK_TYPE_INT */
-     , (23541, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (23541, 45, 2) /* DAMAGE_TYPE_INT */
-     , (23541, 49, 40) /* WEAPON_TIME_INT */
-     , (23541, 48, 46) /* WEAPON_SKILL_INT */
-     , (23541, 44, 50) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23541, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
-     , (23541, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (23541, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (23541, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (23541, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (23541, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (23541, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (23541, 1604) /* Defender5_SpellID */
-     , (23541, 1094) /* FireProtectionSelf6_SpellID */
-     , (23541, 1615) /* BloodDrinker5_SpellID */
-     , (23541, 1625) /* SwiftKiller4_SpellID */
-     , (23541, 1591) /* HeartSeeker5_SpellID */;
-

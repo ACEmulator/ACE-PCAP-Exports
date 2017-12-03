@@ -33,13 +33,3 @@ VALUES (34771, 13, True) /* ETHEREAL_BOOL */
      , (34771, 19, True) /* ATTACKABLE_BOOL */
      , (34771, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34771, 38, 'Muggy Guruk Caverns') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34771, 86, 1) /* MIN_LEVEL_INT */
-     , (34771, 87, 40) /* MAX_LEVEL_INT */
-     , (34771, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -52,44 +52,6 @@ VALUES (44383, 67111918, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (44383, 0, 16777887);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44383, 160, 270) /* WIELD_DIFFICULTY_INT */
-     , (44383, 304, 0) /* IMBUED_EFFECT_3_INT */
-     , (44383, 305, 0) /* IMBUED_EFFECT_4_INT */
-     , (44383, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (44383, 386, 0) /*  */
-     , (44383, 19, 1) /* VALUE_INT */
-     , (44383, 179, 0) /* IMBUED_EFFECT_INT */
-     , (44383, 307, 16) /* DAMAGE_RATING_INT */
-     , (44383, 5, 5) /* ENCUMB_VAL_INT */
-     , (44383, 166, 77) /* SLAYER_CREATURE_TYPE_INT */
-     , (44383, 313, 1) /* CRIT_RATING_INT */
-     , (44383, 314, 8) /* CRIT_DAMAGE_RATING_INT */
-     , (44383, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (44383, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (44383, 303, 0) /* IMBUED_EFFECT_2_INT */
-     , (44383, 45, 1) /* DAMAGE_TYPE_INT */
-     , (44383, 49, -1) /* WEAPON_TIME_INT */
-     , (44383, 48, 0) /* WEAPON_SKILL_INT */
-     , (44383, 44, 40) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (44383, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
-     , (44383, 155, 1) /* IGNORE_ARMOR_FLOAT */
-     , (44383, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (44383, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
-     , (44383, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (44383, 22, 0.2) /* DAMAGE_VARIANCE_FLOAT */
-     , (44383, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (44383, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (44383, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (44383, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44383, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

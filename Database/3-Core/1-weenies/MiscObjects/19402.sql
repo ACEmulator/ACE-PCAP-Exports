@@ -44,16 +44,6 @@ VALUES (19402, 0, 83890737, 83886518);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19402, 0, 16780688);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19402, 16, 'A glyph used in the construction of Atlan and Isparian weapons.') /* LONG_DESC_STRING */
-     , (19402, 14, 'Use this on a Pyreal Ingot or a Diamond Infused Pyreal Ingot.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19402, 19, 5000) /* VALUE_INT */
-     , (19402, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

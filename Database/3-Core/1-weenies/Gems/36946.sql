@@ -33,13 +33,3 @@ VALUES (36946, 13, True) /* ETHEREAL_BOOL */
      , (36946, 19, True) /* ATTACKABLE_BOOL */
      , (36946, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36946, 16, 'An Empyrean Device of some sort. Its surface glows in waves of energy.') /* LONG_DESC_STRING */
-     , (36946, 14, 'This item may be placed on wall hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36946, 19, 10000) /* VALUE_INT */
-     , (36946, 5, 10) /* ENCUMB_VAL_INT */;
-

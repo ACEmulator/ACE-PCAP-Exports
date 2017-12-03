@@ -41,21 +41,6 @@ VALUES (14911, 0, 83888869, 83888869)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14911, 0, 16778864);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14911, 16, 'A perfectly cut slice of Wedding Cake.') /* LONG_DESC_STRING */
-     , (14911, 14, 'Use this item to eat it. ') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14911, 19, 2) /* VALUE_INT */
-     , (14911, 5, 35) /* ENCUMB_VAL_INT */
-     , (14911, 89, 2) /* BOOSTER_ENUM_INT */
-     , (14911, 90, 15) /* BOOST_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14911, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

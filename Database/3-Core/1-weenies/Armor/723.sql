@@ -48,39 +48,3 @@ VALUES (723, 0, 83889859, 83889864)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (723, 0, 16780294);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (723, 16, 'Studded Leather Cowl') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (723, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
-     , (723, 19, 13234) /* VALUE_INT */
-     , (723, 131, 54) /* MATERIAL_TYPE_INT */
-     , (723, 115, 164) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (723, 5, 233) /* ENCUMB_VAL_INT */
-     , (723, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (723, 106, 215) /* ITEM_SPELLCRAFT_INT */
-     , (723, 28, 269) /* ARMOR_LEVEL_INT */
-     , (723, 108, 701) /* ITEM_MAX_MANA_INT */
-     , (723, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (723, 109, 133) /* ITEM_DIFFICULTY_INT */
-     , (723, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (723, 5, -0.04166667) /* MANA_RATE_FLOAT */
-     , (723, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (723, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (723, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (723, 16, 0.8440252) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (723, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (723, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (723, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (723, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (723, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (723, 1485) /* Impenetrability5_SpellID */;
-

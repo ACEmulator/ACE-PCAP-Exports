@@ -84,36 +84,3 @@ VALUES (33938, 12, 16778423)
      , (33938, 13, 16783871)
      , (33938, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33938, 5, 'Pet Ursuin Vendor') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (33938, 16, 67110065) /* EYES_PALETTE_DID */
-     , (33938, 9, 83890283) /* EYES_TEXTURE_DID */
-     , (33938, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (33938, 10, 83890312) /* NOSE_TEXTURE_DID */
-     , (33938, 11, 83890348) /* MOUTH_TEXTURE_DID */
-     , (33938, 15, 67116980) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33938, 113, 2) /* GENDER_INT */
-     , (33938, 2, 31) /* CREATURE_TYPE_INT */
-     , (33938, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (33938, 25, 17) /* LEVEL_INT */
-     , (33938, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (33938, 1, 100) /* STRENGTH_ATTRIBUTE */
-     , (33938, 2, 150) /* ENDURANCE_ATTRIBUTE */
-     , (33938, 4, 130) /* COORDINATION_ATTRIBUTE */
-     , (33938, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (33938, 16, 115) /* FOCUS_ATTRIBUTE */
-     , (33938, 32, 120) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33938, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (33938, 128, 150) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (33938, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
-

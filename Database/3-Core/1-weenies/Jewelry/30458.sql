@@ -46,26 +46,3 @@ VALUES (30458, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30458, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30458, 33, 1) /* BONDED_INT */
-     , (30458, 114, 1) /* ATTUNED_INT */
-     , (30458, 19, 2000) /* VALUE_INT */
-     , (30458, 5, 15) /* ENCUMB_VAL_INT */
-     , (30458, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (30458, 108, 900) /* ITEM_MAX_MANA_INT */
-     , (30458, 109, 210) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30458, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30458, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30458, 1094) /* FireProtectionSelf6_SpellID */
-     , (30458, 279) /* MagicResistanceSelf6_SpellID */
-     , (30458, 1114) /* BladeProtectionSelf6_SpellID */
-     , (30458, 2811) /* ModerateMagicResistance_SpellID */;
-

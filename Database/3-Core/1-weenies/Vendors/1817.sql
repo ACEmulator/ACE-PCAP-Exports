@@ -83,29 +83,6 @@ VALUES (1817, 2, 16778436)
      , (1817, 8, 16781839)
      , (1817, 16, 16778594);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1817, 5, 'Bowyer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (1817, 16, 67109567) /* EYES_PALETTE_DID */
-     , (1817, 9, 83890281) /* EYES_TEXTURE_DID */
-     , (1817, 17, 67109550) /* SKIN_PALETTE_DID */
-     , (1817, 10, 83890293) /* NOSE_TEXTURE_DID */
-     , (1817, 11, 83890343) /* MOUTH_TEXTURE_DID */
-     , (1817, 15, 67117073) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1817, 113, 2) /* GENDER_INT */
-     , (1817, 2, 31) /* CREATURE_TYPE_INT */
-     , (1817, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (1817, 25, 9) /* LEVEL_INT */
-     , (1817, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1817, 64, 120) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

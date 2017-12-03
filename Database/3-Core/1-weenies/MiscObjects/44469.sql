@@ -33,17 +33,6 @@ VALUES (44469, 13, True) /* ETHEREAL_BOOL */
      , (44469, 14, True) /* GRAVITY_STATUS_BOOL */
      , (44469, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44469, 16, 'A small corrupted essence from a Dark Isle creature.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44469, 33, 0) /* BONDED_INT */
-     , (44469, 114, 0) /* ATTUNED_INT */
-     , (44469, 19, 0) /* VALUE_INT */
-     , (44469, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

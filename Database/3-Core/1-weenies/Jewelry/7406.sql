@@ -47,25 +47,3 @@ VALUES (7406, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7406, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7406, 16, 'A small ring of pale silver, taken from the finger of a petrified skeleton on Aerlinthe Island.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7406, 176, 31) /* APPRAISAL_ITEM_SKILL_INT */
-     , (7406, 33, 1) /* BONDED_INT */
-     , (7406, 115, 170) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (7406, 19, 3798) /* VALUE_INT */
-     , (7406, 5, 15) /* ENCUMB_VAL_INT */
-     , (7406, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (7406, 108, 374) /* ITEM_MAX_MANA_INT */
-     , (7406, 109, 150) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (7406, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (7406, 833) /* PersonAttunementOther4_SpellID */
-     , (7406, 859) /* DeceptionMasteryOther4_SpellID */;
-

@@ -35,17 +35,3 @@ VALUES (5962, 13, True) /* ETHEREAL_BOOL */
      , (5962, 19, True) /* ATTACKABLE_BOOL */
      , (5962, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5962, 16, 'Inscribed spell: Fletching Ineptitude Other I
-Decreases the target''s Fletching skill by 10 points.') /* LONG_DESC_STRING */
-     , (5962, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5962, 19, 1) /* VALUE_INT */
-     , (5962, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (5962, 1745) /* FletchingIneptitudeOther1_SpellID */;
-

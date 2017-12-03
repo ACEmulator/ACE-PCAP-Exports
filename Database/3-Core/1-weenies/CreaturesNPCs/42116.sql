@@ -92,36 +92,3 @@ VALUES (42116, 15, 16777335)
      , (42116, 14, 16783855)
      , (42116, 16, 16783954);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42116, 5, 'Arcanum Tinkerer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42116, 16, 67110063) /* EYES_PALETTE_DID */
-     , (42116, 9, 83890439) /* EYES_TEXTURE_DID */
-     , (42116, 17, 67110049) /* SKIN_PALETTE_DID */
-     , (42116, 10, 83890528) /* NOSE_TEXTURE_DID */
-     , (42116, 11, 83890570) /* MOUTH_TEXTURE_DID */
-     , (42116, 15, 67117077) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42116, 113, 1) /* GENDER_INT */
-     , (42116, 2, 31) /* CREATURE_TYPE_INT */
-     , (42116, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (42116, 25, 275) /* LEVEL_INT */
-     , (42116, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (42116, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (42116, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (42116, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (42116, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (42116, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (42116, 32, 260) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42116, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (42116, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (42116, 256, 456) /* MAX_MANA_ATTRIBUTE_2ND */;
-

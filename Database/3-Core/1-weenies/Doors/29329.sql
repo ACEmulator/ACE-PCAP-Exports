@@ -32,16 +32,3 @@ VALUES (29329, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29329, 19, True) /* ATTACKABLE_BOOL */
      , (29329, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29329, 14, 'This door leads to the Practice Area. Make sure you have found all three pieces of your armor before you enter these doors.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29329, 19, 0) /* VALUE_INT */
-     , (29329, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29329, 2, 0) /* OPEN_BOOL */
-     , (29329, 3, 0) /* LOCKED_BOOL */;
-

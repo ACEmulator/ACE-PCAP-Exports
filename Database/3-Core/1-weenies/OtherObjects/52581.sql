@@ -35,13 +35,3 @@ VALUES (52581, 13, True) /* ETHEREAL_BOOL */
      , (52581, 19, True) /* ATTACKABLE_BOOL */
      , (52581, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52581, 14, 'This item can be used on wall and ceiling hooks.') /* USE_STRING */
-     , (52581, 15, 'A beautiful assembly of shrubs, flowers and berries. ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52581, 19, 50) /* VALUE_INT */
-     , (52581, 5, 10) /* ENCUMB_VAL_INT */;
-

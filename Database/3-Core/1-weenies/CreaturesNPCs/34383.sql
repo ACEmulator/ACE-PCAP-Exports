@@ -42,26 +42,3 @@ VALUES (34383, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34383, 67115388, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34383, 5, 'Penguin') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34383, 2, 80) /* CREATURE_TYPE_INT */
-     , (34383, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (34383, 25, 5) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (34383, 1, 20) /* STRENGTH_ATTRIBUTE */
-     , (34383, 2, 30) /* ENDURANCE_ATTRIBUTE */
-     , (34383, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (34383, 8, 55) /* QUICKNESS_ATTRIBUTE */
-     , (34383, 16, 25) /* FOCUS_ATTRIBUTE */
-     , (34383, 32, 15) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34383, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (34383, 128, 140) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (34383, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
-

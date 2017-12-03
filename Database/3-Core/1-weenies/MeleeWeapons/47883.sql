@@ -47,28 +47,3 @@ VALUES (47883, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47883, 0, 16777885);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47883, 16, 'Heavy Necklace of Acid Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47883, 177, 6) /* GEM_COUNT_INT */
-     , (47883, 178, 23) /* GEM_TYPE_INT */
-     , (47883, 19, 8280) /* VALUE_INT */
-     , (47883, 131, 61) /* MATERIAL_TYPE_INT */
-     , (47883, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (47883, 5, 90) /* ENCUMB_VAL_INT */
-     , (47883, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (47883, 106, 281) /* ITEM_SPELLCRAFT_INT */
-     , (47883, 108, 2217) /* ITEM_MAX_MANA_INT */
-     , (47883, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (47883, 109, 210) /* ITEM_DIFFICULTY_INT */
-     , (47883, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (47883, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (47883, 2149) /* AcidProtectionSelf7_SpellID */;
-

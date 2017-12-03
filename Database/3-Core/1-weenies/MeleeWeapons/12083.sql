@@ -47,17 +47,3 @@ VALUES (12083, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12083, 0, 16777984);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12083, 16, 'Inscribed spell: Deception Mastery Self VI
-Increases the caster''s Deception skill by 35 points.') /* LONG_DESC_STRING */
-     , (12083, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12083, 19, 1000) /* VALUE_INT */
-     , (12083, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (12083, 855) /* DeceptionMasterySelf6_SpellID */;
-

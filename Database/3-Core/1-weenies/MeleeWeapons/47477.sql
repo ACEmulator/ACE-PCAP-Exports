@@ -48,32 +48,3 @@ VALUES (47477, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47477, 0, 16777923);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47477, 16, 'Baggy Pants') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47477, 160, 180) /* WIELD_DIFFICULTY_INT */
-     , (47477, 19, 4961) /* VALUE_INT */
-     , (47477, 131, 5) /* MATERIAL_TYPE_INT */
-     , (47477, 5, 135) /* ENCUMB_VAL_INT */
-     , (47477, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (47477, 28, 0) /* ARMOR_LEVEL_INT */
-     , (47477, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (47477, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (47477, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (47477, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (47477, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (47477, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (47477, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (47477, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (47477, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (47477, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (47477, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (47477, 100, 1) /* DYABLE_BOOL */;
-

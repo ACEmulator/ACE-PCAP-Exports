@@ -35,17 +35,3 @@ VALUES (20397, 13, True) /* ETHEREAL_BOOL */
      , (20397, 19, True) /* ATTACKABLE_BOOL */
      , (20397, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20397, 16, 'Inscribed spell: Extinguish Life Magic Self
-Dispels 3-6 negative Life Magic enchantments of level 2 or lower from the caster.') /* LONG_DESC_STRING */
-     , (20397, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20397, 19, 5) /* VALUE_INT */
-     , (20397, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20397, 1966) /* DispelLifeBadSelf2_SpellID */;
-

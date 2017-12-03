@@ -33,19 +33,6 @@ VALUES (30491, 13, True) /* ETHEREAL_BOOL */
      , (30491, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30491, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30491, 16, 'Worcer in Holtburg is requesting help retrieving these items from the Holtburg Redoubt. This is a good adventure for someone who is newly arrived in Dereth.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30491, 33, 1) /* BONDED_INT */
-     , (30491, 114, 1) /* ATTUNED_INT */
-     , (30491, 19, 0) /* VALUE_INT */
-     , (30491, 5, 10) /* ENCUMB_VAL_INT */
-     , (30491, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (30491, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

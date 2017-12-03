@@ -31,18 +31,6 @@ VALUES (43491, 13, True) /* ETHEREAL_BOOL */
      , (43491, 14, True) /* GRAVITY_STATUS_BOOL */
      , (43491, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43491, 16, 'The slag that is left from the acid bath.') /* LONG_DESC_STRING */
-     , (43491, 14, 'Use this slag to show your triumph over your enemies in exchange for goods.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43491, 33, 1) /* BONDED_INT */
-     , (43491, 114, 1) /* ATTUNED_INT */
-     , (43491, 19, 0) /* VALUE_INT */
-     , (43491, 5, 0) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

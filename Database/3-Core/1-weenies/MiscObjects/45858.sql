@@ -32,14 +32,3 @@ VALUES (45858, 13, True) /* ETHEREAL_BOOL */
      , (45858, 19, True) /* ATTACKABLE_BOOL */
      , (45858, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45858, 16, 'An Essence from the Hollow Minion Dravann. Return this to Omarah in Plateau Village.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45858, 33, 1) /* BONDED_INT */
-     , (45858, 114, 1) /* ATTUNED_INT */
-     , (45858, 19, 15) /* VALUE_INT */
-     , (45858, 5, 10) /* ENCUMB_VAL_INT */;
-

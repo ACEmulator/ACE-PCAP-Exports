@@ -47,36 +47,3 @@ VALUES (21965, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (21965, 67111923, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21965, 16, 'A crossbow with a ghostly hue crafted from pure chorizite.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21965, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (21965, 33, 1) /* BONDED_INT */
-     , (21965, 353, 9) /* WEAPON_TYPE_INT */
-     , (21965, 114, 0) /* ATTUNED_INT */
-     , (21965, 179, -2147483648) /* IMBUED_EFFECT_INT */
-     , (21965, 19, 4000) /* VALUE_INT */
-     , (21965, 36, 9999) /* RESIST_MAGIC_INT */
-     , (21965, 5, 980) /* ENCUMB_VAL_INT */
-     , (21965, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (21965, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (21965, 45, 0) /* DAMAGE_TYPE_INT */
-     , (21965, 49, 60) /* WEAPON_TIME_INT */
-     , (21965, 48, 47) /* WEAPON_SKILL_INT */
-     , (21965, 44, 0) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (21965, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
-     , (21965, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (21965, 63, 0.6) /* DAMAGE_MOD_FLOAT */
-     , (21965, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (21965, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (21965, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21965, 99, 0) /* IVORYABLE_BOOL */
-     , (21965, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
-

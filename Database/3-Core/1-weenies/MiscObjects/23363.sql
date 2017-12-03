@@ -42,18 +42,3 @@ VALUES (23363, 0, 83890137, 83890137)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23363, 0, 16782688);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23363, 16, 'A worn and dilapidated Aegis.  Once a mighty barrier wielded between warrior and beast, this shield has been neglected too many years for it to be of any use in physical combat.  Perhaps it can be useful in other ways...') /* LONG_DESC_STRING */
-     , (23363, 14, 'This item cannot be wielded.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23363, 33, 1) /* BONDED_INT */
-     , (23363, 114, 1) /* ATTUNED_INT */
-     , (23363, 19, 0) /* VALUE_INT */
-     , (23363, 5, 900) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (23363, 69, 0) /* IS_SELLABLE_BOOL */;
-

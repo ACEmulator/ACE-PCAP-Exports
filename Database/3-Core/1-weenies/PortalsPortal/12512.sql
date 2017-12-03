@@ -33,11 +33,3 @@ VALUES (12512, 13, True) /* ETHEREAL_BOOL */
      , (12512, 19, True) /* ATTACKABLE_BOOL */
      , (12512, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12512, 38, 'Liang Chi Settlement Portal (9.0S, 41.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12512, 111, 1) /* PORTAL_BITMASK_INT */;
-

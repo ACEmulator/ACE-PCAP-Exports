@@ -35,17 +35,3 @@ VALUES (3191, 13, True) /* ETHEREAL_BOOL */
      , (3191, 19, True) /* ATTACKABLE_BOOL */
      , (3191, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3191, 16, 'Inscribed spell: Creature Enchantment Ineptitude Other V
-Decreases the target''s Creature Enchantment skill by 30 points.') /* LONG_DESC_STRING */
-     , (3191, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3191, 19, 200) /* VALUE_INT */
-     , (3191, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3191, 573) /* CreatureEnchantmentIneptitudeOther5_SpellID */;
-

@@ -41,32 +41,6 @@ VALUES (19267, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (19267, 67113814, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19267, 16, 'Ring of Fire Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19267, 177, 1) /* GEM_COUNT_INT */
-     , (19267, 178, 33) /* GEM_TYPE_INT */
-     , (19267, 19, 4797) /* VALUE_INT */
-     , (19267, 131, 58) /* MATERIAL_TYPE_INT */
-     , (19267, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (19267, 5, 30) /* ENCUMB_VAL_INT */
-     , (19267, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (19267, 106, 211) /* ITEM_SPELLCRAFT_INT */
-     , (19267, 108, 1901) /* ITEM_MAX_MANA_INT */
-     , (19267, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (19267, 109, 220) /* ITEM_DIFFICULTY_INT */
-     , (19267, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (19267, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (19267, 1093) /* FireProtectionSelf5_SpellID */
-     , (19267, 2545) /* CANTRIPDECEPTIONPROWESS1_SpellID */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

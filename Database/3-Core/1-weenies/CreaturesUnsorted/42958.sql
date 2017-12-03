@@ -37,35 +37,3 @@ VALUES (42958, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (42958, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (42958, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42958, 16, 'An enchanted candle, used in the race celebrating the marriage of Borelean and Hoshino Kei.') /* LONG_DESC_STRING */
-     , (42958, 14, 'Use this candle to gain the enchantment needed to continue the race.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42958, 384, 0) /*  */
-     , (42958, 370, 0) /* GEAR_DAMAGE_INT */
-     , (42958, 386, 0) /*  */
-     , (42958, 307, 0) /* DAMAGE_RATING_INT */
-     , (42958, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (42958, 387, 0) /*  */
-     , (42958, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (42958, 372, 0) /* GEAR_CRIT_INT */
-     , (42958, 388, 0) /*  */
-     , (42958, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (42958, 389, 0) /*  */
-     , (42958, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (42958, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (42958, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (42958, 313, 0) /* CRIT_RATING_INT */
-     , (42958, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (42958, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (42958, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (42958, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (42958, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (42958, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (42958, 381, 0) /*  */
-     , (42958, 382, 0) /*  */
-     , (42958, 383, 0) /*  */;
-

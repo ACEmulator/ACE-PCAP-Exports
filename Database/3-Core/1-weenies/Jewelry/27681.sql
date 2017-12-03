@@ -44,25 +44,3 @@ VALUES (27681, 0, 83888956, 83893821);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27681, 0, 16778334);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27681, 16, 'Coarse stone and gems have been fitted together to craft this heavy bracelet. After its construction, powerful magic rituals imbued the bracelet with defensive properties versus blades and lightning.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27681, 160, 175) /* WIELD_DIFFICULTY_INT */
-     , (27681, 19, 3000) /* VALUE_INT */
-     , (27681, 5, 800) /* ENCUMB_VAL_INT */
-     , (27681, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (27681, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (27681, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (27681, 158, 6) /* WIELD_REQUIREMENTS_INT */
-     , (27681, 159, 3) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27681, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27681, 1119) /* BladeProtectionOther5_SpellID */
-     , (27681, 1076) /* LightningProtectionOther5_SpellID */;
-

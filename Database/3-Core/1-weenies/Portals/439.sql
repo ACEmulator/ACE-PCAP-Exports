@@ -33,11 +33,3 @@ VALUES (439, 13, True) /* ETHEREAL_BOOL */
      , (439, 19, True) /* ATTACKABLE_BOOL */
      , (439, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (439, 38, 'North Syliph (12.7N, 11.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (439, 111, 1) /* PORTAL_BITMASK_INT */;
-

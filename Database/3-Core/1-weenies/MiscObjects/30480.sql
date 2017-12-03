@@ -44,14 +44,3 @@ VALUES (30480, 0, 83889549, 83889549);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30480, 0, 16778845);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30480, 16, 'A heavy porcelain mug. This mug belonged to Worcer''s mother, June, before she was slain by Tumeroks in the Holtburg Redoubt.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30480, 33, 1) /* BONDED_INT */
-     , (30480, 114, 1) /* ATTUNED_INT */
-     , (30480, 19, 0) /* VALUE_INT */
-     , (30480, 5, 10) /* ENCUMB_VAL_INT */;
-

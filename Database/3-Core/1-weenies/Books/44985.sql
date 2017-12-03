@@ -34,19 +34,3 @@ VALUES (44985, 13, True) /* ETHEREAL_BOOL */
      , (44985, 19, True) /* ATTACKABLE_BOOL */
      , (44985, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44985, 16, 'A large and well cared-for tome, filled with elegant Dericostian script.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44985, 33, 1) /* BONDED_INT */
-     , (44985, 114, 1) /* ATTUNED_INT */
-     , (44985, 19, 0) /* VALUE_INT */
-     , (44985, 5, 100) /* ENCUMB_VAL_INT */
-     , (44985, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (44985, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44985, 69, 0) /* IS_SELLABLE_BOOL */;
-

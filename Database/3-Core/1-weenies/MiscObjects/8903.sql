@@ -48,18 +48,6 @@ VALUES (8903, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8903, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8903, 16, 'A small stone with strange markings on the side.') /* LONG_DESC_STRING */
-     , (8903, 14, 'The Focusing Stone cannot be used in its current state.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8903, 33, 1) /* BONDED_INT */
-     , (8903, 114, 1) /* ATTUNED_INT */
-     , (8903, 19, 3000) /* VALUE_INT */
-     , (8903, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

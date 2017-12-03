@@ -41,28 +41,3 @@ VALUES (25702, 67114655, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25702, 0, 16789673);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25702, 15, 'A simple red and green kerchief, worn by bandits that could be behind the assassination attempt on High Queen Elysa. Perhaps wearing this will supply an adequate disguise to fool some of the bandits here.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25702, 33, 1) /* BONDED_INT */
-     , (25702, 114, 1) /* ATTUNED_INT */
-     , (25702, 19, 500) /* VALUE_INT */
-     , (25702, 5, 250) /* ENCUMB_VAL_INT */
-     , (25702, 28, 10) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25702, 13, 0.01) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25702, 14, 0.01) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25702, 15, 0.01) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25702, 16, 0.01) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25702, 17, 0.01) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25702, 18, 0.01) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25702, 19, 0.01) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25702, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25702, 69, 0) /* IS_SELLABLE_BOOL */;
-

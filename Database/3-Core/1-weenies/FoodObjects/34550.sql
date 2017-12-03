@@ -35,20 +35,6 @@ VALUES (34550, 13, True) /* ETHEREAL_BOOL */
      , (34550, 19, True) /* ATTACKABLE_BOOL */
      , (34550, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34550, 16, 'A small bottle full of a sweet golden nectar from the Folthid Cellar. This bottle is not stackable.') /* LONG_DESC_STRING */
-     , (34550, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34550, 33, 1) /* BONDED_INT */
-     , (34550, 114, 1) /* ATTUNED_INT */
-     , (34550, 19, 80) /* VALUE_INT */
-     , (34550, 5, 50) /* ENCUMB_VAL_INT */
-     , (34550, 89, 4) /* BOOSTER_ENUM_INT */
-     , (34550, 90, 8) /* BOOST_VALUE_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

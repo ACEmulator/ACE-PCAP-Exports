@@ -32,14 +32,3 @@ VALUES (32310, 13, True) /* ETHEREAL_BOOL */
      , (32310, 19, True) /* ATTACKABLE_BOOL */
      , (32310, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32310, 16, 'Bring this token to Tomo Genza in Glenden Wood to have your title changed to Glenden Wood Militia.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32310, 33, 1) /* BONDED_INT */
-     , (32310, 114, 1) /* ATTUNED_INT */
-     , (32310, 19, 100) /* VALUE_INT */
-     , (32310, 5, 10) /* ENCUMB_VAL_INT */;
-

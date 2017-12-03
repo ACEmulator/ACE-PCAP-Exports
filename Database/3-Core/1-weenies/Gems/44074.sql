@@ -41,27 +41,6 @@ VALUES (44074, 13, True) /* ETHEREAL_BOOL */
      , (44074, 14, True) /* GRAVITY_STATUS_BOOL */
      , (44074, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44074, 16, 'An elegantly written invitation addressed to those who have specialized in the skills of fletching.') /* LONG_DESC_STRING */
-     , (44074, 14, 'This portal summoning invitation works best if used outside in a relatively flat area.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44074, 19, 4000) /* VALUE_INT */
-     , (44074, 5, 40) /* ENCUMB_VAL_INT */
-     , (44074, 280, 1000) /* SHARED_COOLDOWN_INT */
-     , (44074, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (44074, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (44074, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (44074, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (44074, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (44074, 157) /* SummonPortal1_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

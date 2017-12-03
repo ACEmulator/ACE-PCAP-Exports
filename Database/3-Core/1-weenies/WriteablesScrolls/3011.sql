@@ -35,17 +35,3 @@ VALUES (3011, 13, True) /* ETHEREAL_BOOL */
      , (3011, 19, True) /* ATTACKABLE_BOOL */
      , (3011, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3011, 16, 'Inscribed spell: Bludgeoning Protection Self V
-Reduces damage the caster takes from Bludgeoning by 50%.') /* LONG_DESC_STRING */
-     , (3011, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3011, 19, 200) /* VALUE_INT */
-     , (3011, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3011, 1022) /* BludgeonProtectionSelf5_SpellID */;
-

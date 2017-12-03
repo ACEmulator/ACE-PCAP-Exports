@@ -33,20 +33,6 @@ VALUES (52970, 13, True) /* ETHEREAL_BOOL */
      , (52970, 14, True) /* GRAVITY_STATUS_BOOL */
      , (52970, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52970, 15, 'A mote of Deru life magic used to power the gates in the Viridian Rise. ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52970, 33, 1) /* BONDED_INT */
-     , (52970, 114, 1) /* ATTUNED_INT */
-     , (52970, 19, 1) /* VALUE_INT */
-     , (52970, 5, 1) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52970, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

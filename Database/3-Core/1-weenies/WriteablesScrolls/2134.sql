@@ -35,17 +35,3 @@ VALUES (2134, 13, True) /* ETHEREAL_BOOL */
      , (2134, 19, True) /* ATTACKABLE_BOOL */
      , (2134, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2134, 16, 'Inscribed spell: Bludgeoning Volley III
-Shoots three shock waves toward the target. Each wave does 15-31 points of bludgeoning damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (2134, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2134, 19, 20) /* VALUE_INT */
-     , (2134, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2134, 131) /* BludgeoningVolley3_SpellID */;
-

@@ -34,13 +34,3 @@ VALUES (42150, 13, True) /* ETHEREAL_BOOL */
      , (42150, 19, True) /* ATTACKABLE_BOOL */
      , (42150, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42150, 16, 'A portal leading to Colier Mine where the Baron''s Amulet of Life Giving may be found.') /* LONG_DESC_STRING */
-     , (42150, 38, 'Colier (57.1N, 37.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42150, 86, 15) /* MIN_LEVEL_INT */
-     , (42150, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -31,14 +31,3 @@ VALUES (34458, 13, True) /* ETHEREAL_BOOL */
      , (34458, 19, True) /* ATTACKABLE_BOOL */
      , (34458, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34458, 16, 'Give this to the Master Arbitor for a new Title.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34458, 33, 1) /* BONDED_INT */
-     , (34458, 114, 1) /* ATTUNED_INT */
-     , (34458, 19, 0) /* VALUE_INT */
-     , (34458, 5, 10) /* ENCUMB_VAL_INT */;
-

@@ -46,29 +46,3 @@ VALUES (38, 0, 83886788, 83886824);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38, 0, 16778411);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38, 16, 'Studded Leather Bracers') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38, 19, 4105) /* VALUE_INT */
-     , (38, 131, 52) /* MATERIAL_TYPE_INT */
-     , (38, 5, 308) /* ENCUMB_VAL_INT */
-     , (38, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (38, 28, 209) /* ARMOR_LEVEL_INT */
-     , (38, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (38, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (38, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (38, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (38, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (38, 17, 0.7) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (38, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (38, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (38, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38, 100, 1) /* DYABLE_BOOL */;
-

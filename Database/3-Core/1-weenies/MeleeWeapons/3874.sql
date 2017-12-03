@@ -48,35 +48,3 @@ VALUES (3874, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3874, 0, 16777955);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3874, 16, 'Lightning Spear') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3874, 160, 325) /* WIELD_DIFFICULTY_INT */
-     , (3874, 353, 5) /* WEAPON_TYPE_INT */
-     , (3874, 177, 1) /* GEM_COUNT_INT */
-     , (3874, 178, 23) /* GEM_TYPE_INT */
-     , (3874, 19, 1778) /* VALUE_INT */
-     , (3874, 131, 60) /* MATERIAL_TYPE_INT */
-     , (3874, 5, 459) /* ENCUMB_VAL_INT */
-     , (3874, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (3874, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3874, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3874, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (3874, 47, 6) /* ATTACK_TYPE_INT */
-     , (3874, 45, 64) /* DAMAGE_TYPE_INT */
-     , (3874, 49, 26) /* WEAPON_TIME_INT */
-     , (3874, 48, 45) /* WEAPON_SKILL_INT */
-     , (3874, 44, 35) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3874, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
-     , (3874, 149, 1.005) /* WEAPON_MISSILE_DEFENSE_FLOAT */
-     , (3874, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
-     , (3874, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3874, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3874, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3874, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */;
-

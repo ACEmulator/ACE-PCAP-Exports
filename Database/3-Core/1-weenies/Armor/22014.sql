@@ -46,32 +46,3 @@ VALUES (22014, 0, 83893780, 83894315);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22014, 0, 16787332);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22014, 15, 'A black virindi mask taken from the fallen form of a Virindi Profatrix.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22014, 19, 6000) /* VALUE_INT */
-     , (22014, 5, 300) /* ENCUMB_VAL_INT */
-     , (22014, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (22014, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (22014, 28, 220) /* ARMOR_LEVEL_INT */
-     , (22014, 109, 200) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (22014, 5, -0.0333) /* MANA_RATE_FLOAT */
-     , (22014, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (22014, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (22014, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (22014, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (22014, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (22014, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (22014, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (22014, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (22014, 1485) /* Impenetrability5_SpellID */
-     , (22014, 1312) /* ArmorSelf6_SpellID */
-     , (22014, 249) /* InvulnerabilitySelf6_SpellID */;
-

@@ -48,29 +48,3 @@ VALUES (295, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (295, 0, 16778334);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (295, 16, 'Bracelet of Magic Resistance') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (295, 177, 1) /* GEM_COUNT_INT */
-     , (295, 178, 46) /* GEM_TYPE_INT */
-     , (295, 19, 3100) /* VALUE_INT */
-     , (295, 131, 63) /* MATERIAL_TYPE_INT */
-     , (295, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (295, 5, 60) /* ENCUMB_VAL_INT */
-     , (295, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (295, 106, 151) /* ITEM_SPELLCRAFT_INT */
-     , (295, 108, 1323) /* ITEM_MAX_MANA_INT */
-     , (295, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (295, 109, 157) /* ITEM_DIFFICULTY_INT */
-     , (295, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (295, 5, -0.04166667) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (295, 277) /* MagicResistanceSelf4_SpellID */
-     , (295, 2555) /* CANTRIPLIFEMAGICAPTITUDE1_SpellID */;
-

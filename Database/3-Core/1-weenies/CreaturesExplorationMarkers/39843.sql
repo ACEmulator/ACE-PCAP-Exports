@@ -48,35 +48,3 @@ VALUES (39843, 0, 83893054, 83893054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39843, 0, 16794232);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39843, 16, 'An Exploration Marker.  Speak with Sean the Speedy of the Exploration Society, in Holtburg, for more information on these markers.') /* LONG_DESC_STRING */
-     , (39843, 14, 'Use this marker to declare this spot discovered.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39843, 384, 0) /*  */
-     , (39843, 370, 0) /* GEAR_DAMAGE_INT */
-     , (39843, 386, 0) /*  */
-     , (39843, 307, 0) /* DAMAGE_RATING_INT */
-     , (39843, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (39843, 387, 0) /*  */
-     , (39843, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (39843, 372, 0) /* GEAR_CRIT_INT */
-     , (39843, 388, 0) /*  */
-     , (39843, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (39843, 389, 0) /*  */
-     , (39843, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (39843, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (39843, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (39843, 313, 0) /* CRIT_RATING_INT */
-     , (39843, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (39843, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (39843, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (39843, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (39843, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (39843, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (39843, 381, 0) /*  */
-     , (39843, 382, 0) /*  */
-     , (39843, 383, 0) /*  */;
-

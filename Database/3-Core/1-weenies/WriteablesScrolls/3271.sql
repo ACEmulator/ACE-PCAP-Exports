@@ -35,17 +35,3 @@ VALUES (3271, 13, True) /* ETHEREAL_BOOL */
      , (3271, 19, True) /* ATTACKABLE_BOOL */
      , (3271, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3271, 16, 'Inscribed spell: Healing Ineptitude Other V
-Decreases the target''s Healing skill by 30 points.') /* LONG_DESC_STRING */
-     , (3271, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3271, 19, 200) /* VALUE_INT */
-     , (3271, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3271, 896) /* HealingIneptitudeOther5_SpellID */;
-

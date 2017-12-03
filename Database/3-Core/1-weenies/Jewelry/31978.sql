@@ -48,28 +48,3 @@ VALUES (31978, 0, 83889679, 83889679)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31978, 0, 16778345);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31978, 16, 'A rose colored ring with a subtle rose shaped design carved into it. For years, the Rose of Celdon has long been a symbol of the Aluvian resistance against the Viamontian invaders led by Queen Alfrega the Mad.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31978, 160, 130) /* WIELD_DIFFICULTY_INT */
-     , (31978, 33, 1) /* BONDED_INT */
-     , (31978, 19, 16000) /* VALUE_INT */
-     , (31978, 5, 10) /* ENCUMB_VAL_INT */
-     , (31978, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (31978, 108, 8000) /* ITEM_MAX_MANA_INT */
-     , (31978, 109, 250) /* ITEM_DIFFICULTY_INT */
-     , (31978, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (31978, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31978, 5, -0.00555) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31978, 3848) /* CombatMedication_SpellID */
-     , (31978, 3849) /* NightRunner_SpellID */
-     , (31978, 2513) /* CANTRIPHEALINGPROWESS2_SpellID */
-     , (31978, 2611) /* CANTRIPFLAMEWARD2_SpellID */;
-

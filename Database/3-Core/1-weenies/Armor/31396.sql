@@ -41,38 +41,3 @@ VALUES (31396, 0, 83897328, 83897328);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31396, 0, 16792592);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31396, 16, 'A now powerless Aegis taken from the body of Archon Traesis. The Archon''s death has drained the magic absorbing abilities of the Aegis and returned it to what it once was. Perhaps with the right solution, you could restore its original abilities.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31396, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
-     , (31396, 160, 100) /* WIELD_DIFFICULTY_INT */
-     , (31396, 19, 3000) /* VALUE_INT */
-     , (31396, 115, 400) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (31396, 36, 9999) /* RESIST_MAGIC_INT */
-     , (31396, 5, 1000) /* ENCUMB_VAL_INT */
-     , (31396, 106, 350) /* ITEM_SPELLCRAFT_INT */
-     , (31396, 28, 440) /* ARMOR_LEVEL_INT */
-     , (31396, 108, 3000) /* ITEM_MAX_MANA_INT */
-     , (31396, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (31396, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31396, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (31396, 13, 2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (31396, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (31396, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (31396, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (31396, 17, 2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (31396, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (31396, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (31396, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31396, 3819) /* ConscriptsMight_SpellID */
-     , (31396, 3820) /* ConscriptsWard_SpellID */
-     , (31396, 1332) /* StrengthSelf6_SpellID */
-     , (31396, 249) /* InvulnerabilitySelf6_SpellID */;
-

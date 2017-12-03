@@ -98,17 +98,3 @@ VALUES (21795, 0, 16782756)
      , (21795, 5, 16782755)
      , (21795, 6, 16782759);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21795, 16, 'Inscribed spell: Wrath of the Hieromancer
-Decreases the target''s War Magic skill by 40 points.') /* LONG_DESC_STRING */
-     , (21795, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21795, 19, 2000) /* VALUE_INT */
-     , (21795, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (21795, 2320) /* WarMagicIneptitudeOther7_SpellID */;
-

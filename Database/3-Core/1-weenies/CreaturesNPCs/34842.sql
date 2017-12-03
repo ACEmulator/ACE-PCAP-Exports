@@ -41,26 +41,3 @@ VALUES (34842, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (34842, 67114919, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34842, 5, 'Memory of Kor-Gursha') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34842, 2, 75) /* CREATURE_TYPE_INT */
-     , (34842, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (34842, 25, 20) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (34842, 1, 150) /* STRENGTH_ATTRIBUTE */
-     , (34842, 2, 250) /* ENDURANCE_ATTRIBUTE */
-     , (34842, 4, 130) /* COORDINATION_ATTRIBUTE */
-     , (34842, 8, 140) /* QUICKNESS_ATTRIBUTE */
-     , (34842, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (34842, 32, 180) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34842, 64, 275) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (34842, 128, 450) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (34842, 256, 280) /* MAX_MANA_ATTRIBUTE_2ND */;
-

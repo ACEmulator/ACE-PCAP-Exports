@@ -40,17 +40,3 @@ VALUES (33962, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33962, 67112817, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33962, 16, 'Inscribed spell: Blessing of the Arrow Turner
-Reduces damage the caster takes from Piercing by 65%.') /* LONG_DESC_STRING */
-     , (33962, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33962, 19, 2000) /* VALUE_INT */
-     , (33962, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (33962, 2161) /* PiercingProtectionSelf7_SpellID */;
-

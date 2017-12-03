@@ -34,21 +34,6 @@ VALUES (32210, 13, True) /* ETHEREAL_BOOL */
      , (32210, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32210, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32210, 16, 'A ginger bread cookie in the shape of a Pumpkin.') /* LONG_DESC_STRING */
-     , (32210, 14, 'Use this item to eat it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32210, 19, 28) /* VALUE_INT */
-     , (32210, 5, 30) /* ENCUMB_VAL_INT */
-     , (32210, 89, 4) /* BOOSTER_ENUM_INT */
-     , (32210, 90, 50) /* BOOST_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (32210, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

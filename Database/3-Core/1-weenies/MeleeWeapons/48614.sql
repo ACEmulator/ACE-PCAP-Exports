@@ -33,16 +33,3 @@ VALUES (48614, 13, True) /* ETHEREAL_BOOL */
      , (48614, 19, True) /* ATTACKABLE_BOOL */
      , (48614, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48614, 14, 'Use on a magic item to destroy that item and drain its Mana.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48614, 19, 2500) /* VALUE_INT */
-     , (48614, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (48614, 137, 0.15) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
-     , (48614, 87, 1.2) /* ITEM_EFFICIENCY_FLOAT */;
-

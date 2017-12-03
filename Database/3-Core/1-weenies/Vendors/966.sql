@@ -90,29 +90,6 @@ VALUES (966, 12, 16778423)
      , (966, 8, 16783487)
      , (966, 16, 16779630);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (966, 5, 'Peddler') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (966, 16, 67110065) /* EYES_PALETTE_DID */
-     , (966, 9, 83890275) /* EYES_TEXTURE_DID */
-     , (966, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (966, 10, 83890314) /* NOSE_TEXTURE_DID */
-     , (966, 11, 83890331) /* MOUTH_TEXTURE_DID */
-     , (966, 15, 67116991) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (966, 113, 2) /* GENDER_INT */
-     , (966, 2, 31) /* CREATURE_TYPE_INT */
-     , (966, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (966, 25, 12) /* LEVEL_INT */
-     , (966, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (966, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -35,15 +35,3 @@ VALUES (33864, 13, True) /* ETHEREAL_BOOL */
      , (33864, 1, True) /* STUCK_BOOL */
      , (33864, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33864, 16, 'Gem') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33864, 19, 208) /* VALUE_INT */
-     , (33864, 131, 27) /* MATERIAL_TYPE_INT */
-     , (33864, 5, 5) /* ENCUMB_VAL_INT */
-     , (33864, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (33864, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-

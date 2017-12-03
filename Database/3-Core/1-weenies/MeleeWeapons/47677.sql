@@ -49,17 +49,3 @@ VALUES (47677, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47677, 0, 16777915);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47677, 16, 'Inscribed spell: Tattercoat
-Worsens a shield or piece of armor''s armor value by 220 points.') /* LONG_DESC_STRING */
-     , (47677, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47677, 19, 2000) /* VALUE_INT */
-     , (47677, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (47677, 2100) /* Brittlemail7_SpellID */;
-

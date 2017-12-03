@@ -33,12 +33,3 @@ VALUES (42824, 13, True) /* ETHEREAL_BOOL */
      , (42824, 19, True) /* ATTACKABLE_BOOL */
      , (42824, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42824, 16, 'This portal goes to Yaraq, a Gharu''ndim town where many new adventurers enter Dereth. This is a good town for characters of all levels.') /* LONG_DESC_STRING */
-     , (42824, 38, 'Portal to Yaraq (21.5S, 1.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42824, 111, 1) /* PORTAL_BITMASK_INT */;
-

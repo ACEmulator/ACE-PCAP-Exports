@@ -87,27 +87,6 @@ VALUES (14802, 0, 16782410)
      , (14802, 7, 16782414)
      , (14802, 8, 16782414);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14802, 16, 'Gem of Willpower') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14802, 19, 2314) /* VALUE_INT */
-     , (14802, 131, 21) /* MATERIAL_TYPE_INT */
-     , (14802, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (14802, 5, 5) /* ENCUMB_VAL_INT */
-     , (14802, 117, 350) /* ITEM_MANA_COST_INT */
-     , (14802, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (14802, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (14802, 108, 545) /* ITEM_MAX_MANA_INT */
-     , (14802, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (14802, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (14802, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (14802, 2091) /* WillpowerSelf7_SpellID */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

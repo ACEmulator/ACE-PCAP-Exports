@@ -33,14 +33,3 @@ VALUES (5172, 13, True) /* ETHEREAL_BOOL */
      , (5172, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5172, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5172, 16, 'A note from Mara al Luq outside Yaraq, for delivery to Ahyara in the East Yaraq Outpost.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5172, 19, 0) /* VALUE_INT */
-     , (5172, 5, 25) /* ENCUMB_VAL_INT */
-     , (5172, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (5172, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

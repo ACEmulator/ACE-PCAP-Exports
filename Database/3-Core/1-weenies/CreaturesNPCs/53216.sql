@@ -39,34 +39,3 @@ VALUES (53216, 13, True) /* ETHEREAL_BOOL */
      , (53216, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (53216, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53216, 16, 'Scattered notes that appear to have magical writing scrawled upon them.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53216, 384, 0) /*  */
-     , (53216, 370, 0) /* GEAR_DAMAGE_INT */
-     , (53216, 386, 0) /*  */
-     , (53216, 307, 0) /* DAMAGE_RATING_INT */
-     , (53216, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (53216, 387, 0) /*  */
-     , (53216, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (53216, 372, 0) /* GEAR_CRIT_INT */
-     , (53216, 388, 0) /*  */
-     , (53216, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (53216, 389, 0) /*  */
-     , (53216, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (53216, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (53216, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (53216, 313, 0) /* CRIT_RATING_INT */
-     , (53216, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (53216, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (53216, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (53216, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (53216, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (53216, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (53216, 381, 0) /*  */
-     , (53216, 382, 0) /*  */
-     , (53216, 383, 0) /*  */;
-

@@ -44,14 +44,3 @@ VALUES (27574, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27574, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27574, 15, 'A token of your completion of the Mutilator Quest.  Please give this back to Behdo in order for him to change your title to Mutilator Annihilator.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27574, 33, 1) /* BONDED_INT */
-     , (27574, 114, 1) /* ATTUNED_INT */
-     , (27574, 19, 0) /* VALUE_INT */
-     , (27574, 5, 10) /* ENCUMB_VAL_INT */;
-

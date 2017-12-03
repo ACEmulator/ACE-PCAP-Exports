@@ -41,17 +41,3 @@ VALUES (53272, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (53272, 67116465, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53272, 5, 'Watcher of the Viridian Aerie') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53272, 113, 2) /* GENDER_INT */
-     , (53272, 2, 15) /* CREATURE_TYPE_INT */
-     , (53272, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (53272, 25, 999) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (53272, 64, 3000450) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

@@ -35,15 +35,6 @@ VALUES (38823, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38823, 19, True) /* ATTACKABLE_BOOL */
      , (38823, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38823, 2, 36) /* CREATURE_TYPE_INT */
-     , (38823, 25, 160) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38823, 64, 1230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

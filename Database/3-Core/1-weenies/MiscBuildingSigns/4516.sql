@@ -35,12 +35,3 @@ VALUES (4516, 0, 83891180, 83891183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4516, 0, 16782236);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4516, 16, 'Jewels of the South') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4516, 19, 125) /* VALUE_INT */
-     , (4516, 5, 9000) /* ENCUMB_VAL_INT */;
-

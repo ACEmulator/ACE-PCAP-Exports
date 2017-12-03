@@ -33,13 +33,3 @@ VALUES (33478, 13, True) /* ETHEREAL_BOOL */
      , (33478, 19, True) /* ATTACKABLE_BOOL */
      , (33478, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33478, 38, 'Black Spear Summoning Chamber') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33478, 86, 140) /* MIN_LEVEL_INT */
-     , (33478, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (33478, 111, 49) /* PORTAL_BITMASK_INT */;
-

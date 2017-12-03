@@ -47,13 +47,3 @@ VALUES (23709, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23709, 0, 16777984);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23709, 16, 'A concentrated iron pea.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23709, 33, 1) /* BONDED_INT */
-     , (23709, 19, 2500) /* VALUE_INT */
-     , (23709, 5, 10) /* ENCUMB_VAL_INT */;
-

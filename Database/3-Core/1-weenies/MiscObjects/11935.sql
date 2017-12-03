@@ -35,15 +35,3 @@ VALUES (11935, 13, True) /* ETHEREAL_BOOL */
      , (11935, 19, True) /* ATTACKABLE_BOOL */
      , (11935, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11935, 16, 'A Horn of Vigilance! Another fine product from Telk the Addlepated. This item can be used on a floor hook.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11935, 19, 100000) /* VALUE_INT */
-     , (11935, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11935, 69, 0) /* IS_SELLABLE_BOOL */;
-

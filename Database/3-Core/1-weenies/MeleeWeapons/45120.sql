@@ -51,32 +51,3 @@ VALUES (45120, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45120, 0, 16792139);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45120, 16, 'Lightning Hand Wraps') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45120, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (45120, 353, 1) /* WEAPON_TYPE_INT */
-     , (45120, 19, 840) /* VALUE_INT */
-     , (45120, 131, 63) /* MATERIAL_TYPE_INT */
-     , (45120, 5, 135) /* ENCUMB_VAL_INT */
-     , (45120, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (45120, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (45120, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (45120, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (45120, 47, 1) /* ATTACK_TYPE_INT */
-     , (45120, 45, 64) /* DAMAGE_TYPE_INT */
-     , (45120, 49, 19) /* WEAPON_TIME_INT */
-     , (45120, 48, 46) /* WEAPON_SKILL_INT */
-     , (45120, 44, 24) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45120, 29, 1.09) /* WEAPON_DEFENSE_FLOAT */
-     , (45120, 22, 0.58) /* DAMAGE_VARIANCE_FLOAT */
-     , (45120, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (45120, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (45120, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45120, 62, 1.12) /* WEAPON_OFFENSE_FLOAT */;
-

@@ -33,16 +33,3 @@ VALUES (28817, 13, True) /* ETHEREAL_BOOL */
      , (28817, 14, True) /* GRAVITY_STATUS_BOOL */
      , (28817, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28817, 16, 'The writing is barely legible.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28817, 33, 0) /* BONDED_INT */
-     , (28817, 114, 0) /* ATTUNED_INT */
-     , (28817, 19, 0) /* VALUE_INT */
-     , (28817, 5, 25) /* ENCUMB_VAL_INT */
-     , (28817, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (28817, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

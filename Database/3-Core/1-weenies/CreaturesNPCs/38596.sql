@@ -89,38 +89,3 @@ VALUES (38596, 12, 16778423)
      , (38596, 4, 16783485)
      , (38596, 8, 16783487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38596, 5, 'Dark Isle Assassin Taskmaster') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38596, 16, 67110062) /* EYES_PALETTE_DID */
-     , (38596, 9, 83890275) /* EYES_TEXTURE_DID */
-     , (38596, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (38596, 10, 83890295) /* NOSE_TEXTURE_DID */
-     , (38596, 11, 83890328) /* MOUTH_TEXTURE_DID */
-     , (38596, 15, 67117079) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38596, 113, 2) /* GENDER_INT */
-     , (38596, 2, 31) /* CREATURE_TYPE_INT */
-     , (38596, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38596, 25, 180) /* LEVEL_INT */
-     , (38596, 281, 1) /* FACTION1_BITS_INT */
-     , (38596, 188, 1) /* HERITAGE_GROUP_INT */
-     , (38596, 287, 1) /* SOCIETY_RANK_CELHAN_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38596, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (38596, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (38596, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (38596, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (38596, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (38596, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38596, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38596, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38596, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-

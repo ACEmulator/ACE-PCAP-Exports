@@ -48,26 +48,3 @@ VALUES (7645, 0, 83887061, 83886525)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7645, 0, 16778382);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7645, 33, 1) /* BONDED_INT */
-     , (7645, 114, 1) /* ATTUNED_INT */
-     , (7645, 19, 2320) /* VALUE_INT */
-     , (7645, 36, 9999) /* RESIST_MAGIC_INT */
-     , (7645, 5, 1300) /* ENCUMB_VAL_INT */
-     , (7645, 28, 195) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (7645, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (7645, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (7645, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (7645, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (7645, 17, 2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (7645, 18, 1.2) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (7645, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (7645, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7645, 69, 0) /* IS_SELLABLE_BOOL */;
-

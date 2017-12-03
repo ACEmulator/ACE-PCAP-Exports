@@ -33,11 +33,3 @@ VALUES (15146, 13, True) /* ETHEREAL_BOOL */
      , (15146, 19, True) /* ATTACKABLE_BOOL */
      , (15146, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15146, 38, 'Brazenn Domain Portal (73.6N, 42.3W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15146, 111, 1) /* PORTAL_BITMASK_INT */;
-

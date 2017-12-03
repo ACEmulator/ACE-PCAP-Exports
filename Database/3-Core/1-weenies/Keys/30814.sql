@@ -34,17 +34,3 @@ VALUES (30814, 13, True) /* ETHEREAL_BOOL */
      , (30814, 19, True) /* ATTACKABLE_BOOL */
      , (30814, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30814, 14, 'Use this key on locked Black Marrow Reliquaries.') /* USE_STRING */
-     , (30814, 15, 'A plain looking black key, with signs of professional repair marking the handle and teeth.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30814, 19, 0) /* VALUE_INT */
-     , (30814, 5, 50) /* ENCUMB_VAL_INT */
-     , (30814, 91, 1) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30814, 69, 0) /* IS_SELLABLE_BOOL */;
-

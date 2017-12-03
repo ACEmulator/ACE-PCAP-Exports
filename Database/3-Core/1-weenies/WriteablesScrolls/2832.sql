@@ -35,17 +35,3 @@ VALUES (2832, 13, True) /* ETHEREAL_BOOL */
      , (2832, 19, True) /* ATTACKABLE_BOOL */
      , (2832, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2832, 16, 'Inscribed spell: Aura of Heart Seeker Self II
-Increases a weapon''s Attack Skill modifier by 5.0 percentage points.') /* LONG_DESC_STRING */
-     , (2832, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2832, 19, 5) /* VALUE_INT */
-     , (2832, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2832, 1588) /* HeartSeeker2_SpellID */;
-

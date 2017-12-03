@@ -48,21 +48,3 @@ VALUES (6606, 0, 83887064, 83892374)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6606, 0, 16778829);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6606, 33, 1) /* BONDED_INT */
-     , (6606, 19, 3040) /* VALUE_INT */
-     , (6606, 5, 2288) /* ENCUMB_VAL_INT */
-     , (6606, 28, 190) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (6606, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (6606, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (6606, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (6606, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (6606, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (6606, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (6606, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (6606, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

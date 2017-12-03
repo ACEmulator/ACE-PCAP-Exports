@@ -48,30 +48,3 @@ VALUES (24183, 0, 83891219, 83891219);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24183, 0, 16778341);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24183, 15, 'An ornate necklace once worn by Jaleh al-Thani. There is an inscription on the necklace.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24183, 160, 50) /* WIELD_DIFFICULTY_INT */
-     , (24183, 33, 1) /* BONDED_INT */
-     , (24183, 114, 1) /* ATTUNED_INT */
-     , (24183, 19, 10000) /* VALUE_INT */
-     , (24183, 5, 300) /* ENCUMB_VAL_INT */
-     , (24183, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (24183, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (24183, 109, 175) /* ITEM_DIFFICULTY_INT */
-     , (24183, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (24183, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (24183, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (24183, 99, 1) /* IVORYABLE_BOOL */
-     , (24183, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (24183, 2969) /* MothersBlessing_SpellID */;
-

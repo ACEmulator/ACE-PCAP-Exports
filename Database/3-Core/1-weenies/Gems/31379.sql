@@ -34,18 +34,6 @@ VALUES (31379, 13, True) /* ETHEREAL_BOOL */
      , (31379, 19, True) /* ATTACKABLE_BOOL */
      , (31379, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31379, 16, 'Pieces of a Twilight Fragment and a Raven Fragment combined. In the back of your head, the shape reminds you of something, but you are not yet certain of what.') /* LONG_DESC_STRING */
-     , (31379, 14, 'Use this on an Iniquitous Fragment to combine the two.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31379, 33, 1) /* BONDED_INT */
-     , (31379, 114, 1) /* ATTUNED_INT */
-     , (31379, 19, 0) /* VALUE_INT */
-     , (31379, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

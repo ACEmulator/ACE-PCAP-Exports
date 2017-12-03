@@ -38,33 +38,3 @@ VALUES (22883, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22883, 67114104, 240, 16);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22883, 15, 'A warm stocking cap of cold protection.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22883, 19, 200) /* VALUE_INT */
-     , (22883, 5, 50) /* ENCUMB_VAL_INT */
-     , (22883, 106, 30) /* ITEM_SPELLCRAFT_INT */
-     , (22883, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (22883, 28, 0) /* ARMOR_LEVEL_INT */
-     , (22883, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (22883, 5, -0.0166) /* MANA_RATE_FLOAT */
-     , (22883, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (22883, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (22883, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (22883, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (22883, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (22883, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (22883, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (22883, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22883, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (22883, 1039) /* ColdProtectionOther4_SpellID */;
-

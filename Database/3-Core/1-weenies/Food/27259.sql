@@ -46,22 +46,6 @@ VALUES (27259, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27259, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27259, 16, 'A chunk of Crystaline Ore. It seems to shimmer and feels warm to the touch.') /* LONG_DESC_STRING */
-     , (27259, 14, 'Use this item to activate the power within.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27259, 19, 500) /* VALUE_INT */
-     , (27259, 5, 375) /* ENCUMB_VAL_INT */
-     , (27259, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (27259, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (27259, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27259, 3207) /* GolemHunterManaLow_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

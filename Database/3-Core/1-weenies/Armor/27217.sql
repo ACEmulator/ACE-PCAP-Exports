@@ -44,31 +44,3 @@ VALUES (27217, 67115023, 250, 6)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27217, 0, 16789988);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27217, 16, 'Chiran Helm') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27217, 177, 2) /* GEM_COUNT_INT */
-     , (27217, 178, 22) /* GEM_TYPE_INT */
-     , (27217, 19, 19287) /* VALUE_INT */
-     , (27217, 131, 57) /* MATERIAL_TYPE_INT */
-     , (27217, 5, 381) /* ENCUMB_VAL_INT */
-     , (27217, 105, 9) /* ITEM_WORKMANSHIP_INT */
-     , (27217, 28, 262) /* ARMOR_LEVEL_INT */
-     , (27217, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27217, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (27217, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (27217, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (27217, 16, 0.9623454) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (27217, 17, 0.9401922) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (27217, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (27217, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (27217, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27217, 100, 1) /* DYABLE_BOOL */;
-

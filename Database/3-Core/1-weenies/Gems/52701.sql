@@ -50,25 +50,6 @@ VALUES (52701, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52701, 0, 16778735);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52701, 16, 'Drink to increase your maximum Mana attribute by 50 for 3 hours.') /* LONG_DESC_STRING */
-     , (52701, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52701, 19, 250) /* VALUE_INT */
-     , (52701, 5, 250) /* ENCUMB_VAL_INT */
-     , (52701, 106, 500) /* ITEM_SPELLCRAFT_INT */
-     , (52701, 108, 10000) /* ITEM_MAX_MANA_INT */
-     , (52701, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52701, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (52701, 6171) /* HoneyedManaMead_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -35,38 +35,6 @@ VALUES (44297, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (44297, 19, True) /* ATTACKABLE_BOOL */
      , (44297, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44297, 15, 'A cracked, partially buried stone tablet.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44297, 384, 0) /*  */
-     , (44297, 370, 0) /* GEAR_DAMAGE_INT */
-     , (44297, 386, 0) /*  */
-     , (44297, 307, 0) /* DAMAGE_RATING_INT */
-     , (44297, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (44297, 387, 0) /*  */
-     , (44297, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (44297, 372, 0) /* GEAR_CRIT_INT */
-     , (44297, 388, 0) /*  */
-     , (44297, 5, 1) /* ENCUMB_VAL_INT */
-     , (44297, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (44297, 389, 0) /*  */
-     , (44297, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (44297, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (44297, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (44297, 313, 0) /* CRIT_RATING_INT */
-     , (44297, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (44297, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (44297, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (44297, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (44297, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (44297, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (44297, 381, 0) /*  */
-     , (44297, 382, 0) /*  */
-     , (44297, 383, 0) /*  */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -36,12 +36,3 @@ VALUES (28073, 13, True) /* ETHEREAL_BOOL */
      , (28073, 19, True) /* ATTACKABLE_BOOL */
      , (28073, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28073, 16, 'These blueprints have been drawn up by Lugian hands and detail the buildings that will be built up around the swamp temple outside of Yanshi. The buildings are not Lugian or Tumerok in design. Likely, these were plans drawn from a dictation from the Burun.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28073, 19, 5000) /* VALUE_INT */
-     , (28073, 5, 50) /* ENCUMB_VAL_INT */;
-

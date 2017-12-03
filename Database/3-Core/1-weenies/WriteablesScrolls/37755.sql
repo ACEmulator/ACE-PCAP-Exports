@@ -35,17 +35,3 @@ VALUES (37755, 13, True) /* ETHEREAL_BOOL */
      , (37755, 19, True) /* ATTACKABLE_BOOL */
      , (37755, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37755, 16, 'Inscribed spell: Incantation of Fire Protection Self
-Reduces damage the caster takes from Fire by 68%') /* LONG_DESC_STRING */
-     , (37755, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37755, 19, 60000) /* VALUE_INT */
-     , (37755, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (37755, 4468) /* FireProtectionSelf8_SpellID */;
-

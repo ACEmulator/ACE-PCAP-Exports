@@ -33,11 +33,3 @@ VALUES (14635, 13, True) /* ETHEREAL_BOOL */
      , (14635, 19, True) /* ATTACKABLE_BOOL */
      , (14635, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14635, 38, 'Hidden Valley Portal (59.3N, 19.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14635, 111, 1) /* PORTAL_BITMASK_INT */;
-

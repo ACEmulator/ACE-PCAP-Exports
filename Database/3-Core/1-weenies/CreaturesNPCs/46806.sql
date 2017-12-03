@@ -90,26 +90,3 @@ VALUES (46806, 0, 16795543)
      , (46806, 15, 16795541)
      , (46806, 16, 16795542);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46806, 5, 'Researcher') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46806, 2, 101) /* CREATURE_TYPE_INT */
-     , (46806, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (46806, 25, 275) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (46806, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (46806, 2, 260) /* ENDURANCE_ATTRIBUTE */
-     , (46806, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (46806, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (46806, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (46806, 32, 290) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46806, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (46806, 128, 456) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (46806, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
-

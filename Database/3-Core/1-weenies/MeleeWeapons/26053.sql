@@ -35,13 +35,3 @@ VALUES (26053, 13, True) /* ETHEREAL_BOOL */
      , (26053, 19, True) /* ATTACKABLE_BOOL */
      , (26053, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (26053, 16, 'A concentrated gold pea.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (26053, 33, 1) /* BONDED_INT */
-     , (26053, 19, 25000) /* VALUE_INT */
-     , (26053, 5, 10) /* ENCUMB_VAL_INT */;
-

@@ -57,29 +57,3 @@ VALUES (23735, 0, 16779360)
      , (23735, 3, 16779362)
      , (23735, 4, 16779357);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23735, 16, 'Cowl') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23735, 19, 2002) /* VALUE_INT */
-     , (23735, 131, 5) /* MATERIAL_TYPE_INT */
-     , (23735, 5, 18) /* ENCUMB_VAL_INT */
-     , (23735, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (23735, 28, 258) /* ARMOR_LEVEL_INT */
-     , (23735, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23735, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (23735, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (23735, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (23735, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (23735, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (23735, 18, 0.4563214) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (23735, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (23735, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (23735, 100, 1) /* DYABLE_BOOL */;
-

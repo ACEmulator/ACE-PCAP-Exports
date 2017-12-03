@@ -31,17 +31,3 @@ VALUES (45784, 13, True) /* ETHEREAL_BOOL */
      , (45784, 19, True) /* ATTACKABLE_BOOL */
      , (45784, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45784, 16, 'A heart which beats slowly in your hands as if the being from which it came still lives.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45784, 33, 1) /* BONDED_INT */
-     , (45784, 98, 1485845360) /* CREATION_TIMESTAMP_INT */
-     , (45784, 114, 0) /* ATTUNED_INT */
-     , (45784, 19, 0) /* VALUE_INT */
-     , (45784, 5, 50) /* ENCUMB_VAL_INT */
-     , (45784, 267, 600) /* LIFESPAN_INT */
-     , (45784, 268, 592) /* REMAINING_LIFESPAN_INT */;
-

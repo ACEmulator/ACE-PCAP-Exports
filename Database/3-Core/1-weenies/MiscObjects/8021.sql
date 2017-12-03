@@ -35,15 +35,6 @@ VALUES (8021, 13, True) /* ETHEREAL_BOOL */
      , (8021, 19, True) /* ATTACKABLE_BOOL */
      , (8021, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8021, 14, 'Use this item on the Shendolain Gate.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8021, 19, 0) /* VALUE_INT */
-     , (8021, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

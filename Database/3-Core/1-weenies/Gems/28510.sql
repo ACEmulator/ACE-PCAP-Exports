@@ -35,21 +35,6 @@ VALUES (28510, 13, True) /* ETHEREAL_BOOL */
      , (28510, 19, True) /* ATTACKABLE_BOOL */
      , (28510, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28510, 16, 'A large Lugian sack meant to collect the hides of several armoredillo. Currently the sack is empty, but you were told that collecting a small armoredillo hide should be your first order of business.') /* LONG_DESC_STRING */
-     , (28510, 14, 'Put a Small Armoredillo Hide into this sack.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28510, 33, 1) /* BONDED_INT */
-     , (28510, 114, 1) /* ATTUNED_INT */
-     , (28510, 19, 0) /* VALUE_INT */
-     , (28510, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (28510, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -71,12 +71,3 @@ VALUES (19195, 0, 16783897)
      , (19195, 14, 16783855)
      , (19195, 16, 16783891);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19195, 15, 'This nullified shell is all that remains of the living Statue of Ben Ten that once threatened our peaceful town. Destroyed through the sole efforts of the citizens of Dereth, it remains as a testament to their valor. This land is yours now.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19195, 19, 0) /* VALUE_INT */
-     , (19195, 5, 1800) /* ENCUMB_VAL_INT */;
-

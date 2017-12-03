@@ -89,36 +89,3 @@ VALUES (5048, 12, 16777304)
      , (5048, 4, 16777291)
      , (5048, 8, 16777298);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5048, 5, 'Citizen of Lytelthorpe') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5048, 16, 67109567) /* EYES_PALETTE_DID */
-     , (5048, 9, 83890506) /* EYES_TEXTURE_DID */
-     , (5048, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (5048, 10, 83890556) /* NOSE_TEXTURE_DID */
-     , (5048, 11, 83890638) /* MOUTH_TEXTURE_DID */
-     , (5048, 15, 67116991) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5048, 113, 1) /* GENDER_INT */
-     , (5048, 2, 31) /* CREATURE_TYPE_INT */
-     , (5048, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (5048, 25, 5) /* LEVEL_INT */
-     , (5048, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (5048, 1, 40) /* STRENGTH_ATTRIBUTE */
-     , (5048, 2, 30) /* ENDURANCE_ATTRIBUTE */
-     , (5048, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (5048, 8, 65) /* QUICKNESS_ATTRIBUTE */
-     , (5048, 16, 70) /* FOCUS_ATTRIBUTE */
-     , (5048, 32, 75) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5048, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5048, 128, 35) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5048, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
-

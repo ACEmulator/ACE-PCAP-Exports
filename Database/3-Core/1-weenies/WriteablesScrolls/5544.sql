@@ -35,17 +35,3 @@ VALUES (5544, 13, True) /* ETHEREAL_BOOL */
      , (5544, 19, True) /* ATTACKABLE_BOOL */
      , (5544, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5544, 16, 'Inscribed spell: Monster Attunement Self III
-Increases the caster''s Assess Monster skill by 20 points.') /* LONG_DESC_STRING */
-     , (5544, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5544, 19, 20) /* VALUE_INT */
-     , (5544, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (5544, 800) /* MonsterAttunementSelf3_SpellID */;
-

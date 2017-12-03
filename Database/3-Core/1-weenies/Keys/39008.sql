@@ -33,16 +33,3 @@ VALUES (39008, 13, True) /* ETHEREAL_BOOL */
      , (39008, 19, True) /* ATTACKABLE_BOOL */
      , (39008, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39008, 16, 'An ancient silver key rusted and overgrown with coral.') /* LONG_DESC_STRING */
-     , (39008, 14, 'Use this key on a chest at the Blighted Desolation Moarsman Camp.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39008, 33, 1) /* BONDED_INT */
-     , (39008, 114, 1) /* ATTUNED_INT */
-     , (39008, 19, 0) /* VALUE_INT */
-     , (39008, 5, 50) /* ENCUMB_VAL_INT */
-     , (39008, 91, 1) /* MAX_STRUCTURE_INT */;
-

@@ -47,15 +47,3 @@ VALUES (41254, 0, 83886723, 83886723)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41254, 0, 16778611);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41254, 16, 'Give this Token to Sean the Speedy, in Holtburg, in order to receive an Explorer''s Backpack.  The Explorer''s Backpack is an Attuned, unique 30-slot Backpack.') /* LONG_DESC_STRING */
-     , (41254, 14, '**NOTE: Have at least one Backpack Slot open before you give Sean the Speedy this token!**') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41254, 33, 1) /* BONDED_INT */
-     , (41254, 114, 1) /* ATTUNED_INT */
-     , (41254, 19, 0) /* VALUE_INT */
-     , (41254, 5, 10) /* ENCUMB_VAL_INT */;
-

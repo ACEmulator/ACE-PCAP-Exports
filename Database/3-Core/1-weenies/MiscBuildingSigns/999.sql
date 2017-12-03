@@ -34,12 +34,3 @@ VALUES (999, 0, 83892071, 83892188);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (999, 0, 16783205);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (999, 16, 'Bows and Goods') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (999, 19, 125) /* VALUE_INT */
-     , (999, 5, 9000) /* ENCUMB_VAL_INT */;
-

@@ -47,26 +47,3 @@ VALUES (25983, 0, 83887064, 83895025)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25983, 0, 16778358);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25983, 16, 'Loose pants typically worn while sparring.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25983, 19, 100) /* VALUE_INT */
-     , (25983, 5, 135) /* ENCUMB_VAL_INT */
-     , (25983, 28, 150) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25983, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25983, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25983, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25983, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25983, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25983, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25983, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25983, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25983, 100, 1) /* DYABLE_BOOL */;
-

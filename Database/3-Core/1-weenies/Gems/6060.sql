@@ -48,16 +48,6 @@ VALUES (6060, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6060, 0, 16784015);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6060, 16, 'A jet-black, tiny bit of something hard and crystalline.') /* LONG_DESC_STRING */
-     , (6060, 14, 'Combine with another dark speck to make a dark sliver.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6060, 19, 0) /* VALUE_INT */
-     , (6060, 5, 1) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -33,11 +33,3 @@ VALUES (14254, 13, True) /* ETHEREAL_BOOL */
      , (14254, 19, True) /* ATTACKABLE_BOOL */
      , (14254, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14254, 38, 'Auralla Settlement Portal (51.9N, 45.6W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14254, 111, 1) /* PORTAL_BITMASK_INT */;
-

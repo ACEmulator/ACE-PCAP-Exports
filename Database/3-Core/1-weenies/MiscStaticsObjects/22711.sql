@@ -35,12 +35,3 @@ VALUES (22711, 0, 83894424, 83894434);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22711, 0, 16788729);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22711, 16, 'A crude painting that shows a tusker eating one human, and speaking to other human.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22711, 19, 125) /* VALUE_INT */
-     , (22711, 5, 9000) /* ENCUMB_VAL_INT */;
-

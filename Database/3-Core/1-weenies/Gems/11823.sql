@@ -46,20 +46,6 @@ VALUES (11823, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11823, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11823, 16, 'This is a gem of significant value and usefulness.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11823, 19, 400) /* VALUE_INT */
-     , (11823, 5, 5) /* ENCUMB_VAL_INT */
-     , (11823, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (11823, 108, 700) /* ITEM_MAX_MANA_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (11823, 2477) /* PORTALTUMEROKWARALU_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

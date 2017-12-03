@@ -99,36 +99,3 @@ VALUES (33839, 16, 16795654)
      , (33839, 4, 16781816)
      , (33839, 8, 16781817);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33839, 5, 'Ryu Jou Gai Apprentice') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (33839, 16, 67110062) /* EYES_PALETTE_DID */
-     , (33839, 9, 83890454) /* EYES_TEXTURE_DID */
-     , (33839, 17, 67110059) /* SKIN_PALETTE_DID */
-     , (33839, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (33839, 11, 83890568) /* MOUTH_TEXTURE_DID */
-     , (33839, 15, 67116997) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33839, 113, 1) /* GENDER_INT */
-     , (33839, 2, 31) /* CREATURE_TYPE_INT */
-     , (33839, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (33839, 25, 47) /* LEVEL_INT */
-     , (33839, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (33839, 1, 205) /* STRENGTH_ATTRIBUTE */
-     , (33839, 2, 150) /* ENDURANCE_ATTRIBUTE */
-     , (33839, 4, 205) /* COORDINATION_ATTRIBUTE */
-     , (33839, 8, 155) /* QUICKNESS_ATTRIBUTE */
-     , (33839, 16, 115) /* FOCUS_ATTRIBUTE */
-     , (33839, 32, 115) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33839, 64, 195) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (33839, 128, 285) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (33839, 256, 165) /* MAX_MANA_ATTRIBUTE_2ND */;
-

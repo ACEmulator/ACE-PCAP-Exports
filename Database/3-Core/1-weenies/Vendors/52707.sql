@@ -88,39 +88,6 @@ VALUES (52707, 12, 16777304)
      , (52707, 4, 16783485)
      , (52707, 8, 16783487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52707, 5, 'Vendor of the Blood') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (52707, 16, 67116857) /* EYES_PALETTE_DID */
-     , (52707, 9, 83890434) /* EYES_TEXTURE_DID */
-     , (52707, 17, 67116966) /* SKIN_PALETTE_DID */
-     , (52707, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (52707, 11, 83890637) /* MOUTH_TEXTURE_DID */
-     , (52707, 15, 67117099) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52707, 113, 1) /* GENDER_INT */
-     , (52707, 2, 51) /* CREATURE_TYPE_INT */
-     , (52707, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (52707, 25, 300) /* LEVEL_INT */
-     , (52707, 188, 9) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (52707, 1, 600) /* STRENGTH_ATTRIBUTE */
-     , (52707, 2, 550) /* ENDURANCE_ATTRIBUTE */
-     , (52707, 4, 600) /* COORDINATION_ATTRIBUTE */
-     , (52707, 8, 550) /* QUICKNESS_ATTRIBUTE */
-     , (52707, 16, 650) /* FOCUS_ATTRIBUTE */
-     , (52707, 32, 575) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (52707, 64, 2075) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (52707, 128, 1800) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (52707, 256, 3075) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)

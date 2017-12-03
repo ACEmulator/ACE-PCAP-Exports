@@ -40,29 +40,3 @@ VALUES (11784, 0, 83893727, 83893726)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11784, 0, 16787131);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11784, 16, 'A reinforced, symbol tipped banner with a gromnie on it.  It is in almost perfect condition, and the colors are quite vibrant.  As you gaze at the gromnie, it almost seems to be gazing back.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11784, 33, 1) /* BONDED_INT */
-     , (11784, 114, 1) /* ATTUNED_INT */
-     , (11784, 19, 0) /* VALUE_INT */
-     , (11784, 5, 400) /* ENCUMB_VAL_INT */
-     , (11784, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (11784, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (11784, 109, 90) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (11784, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (11784, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (11784, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11784, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (11784, 657) /* ManaMasterySelf5_SpellID */
-     , (11784, 1310) /* ArmorSelf4_SpellID */;
-

@@ -63,15 +63,6 @@ VALUES (46523, 0, 16793218)
      , (46523, 15, 16789333)
      , (46523, 16, 16796692);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46523, 16, 'Killed by Rimok.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46523, 19, 0) /* VALUE_INT */
-     , (46523, 5, 6471) /* ENCUMB_VAL_INT */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

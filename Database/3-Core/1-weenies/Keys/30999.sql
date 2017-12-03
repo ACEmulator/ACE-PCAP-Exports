@@ -34,16 +34,3 @@ VALUES (30999, 13, True) /* ETHEREAL_BOOL */
      , (30999, 19, True) /* ATTACKABLE_BOOL */
      , (30999, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30999, 16, 'A key to the Academy Library.') /* LONG_DESC_STRING */
-     , (30999, 14, 'Double-click on this key, then click on the Library door to unlock it. Double-click on the door to open it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30999, 33, 1) /* BONDED_INT */
-     , (30999, 114, 1) /* ATTUNED_INT */
-     , (30999, 19, 0) /* VALUE_INT */
-     , (30999, 5, 15) /* ENCUMB_VAL_INT */
-     , (30999, 91, 20) /* MAX_STRUCTURE_INT */;
-

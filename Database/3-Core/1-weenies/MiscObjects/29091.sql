@@ -31,14 +31,3 @@ VALUES (29091, 13, True) /* ETHEREAL_BOOL */
      , (29091, 19, True) /* ATTACKABLE_BOOL */
      , (29091, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29091, 16, 'A Viamontian platter stolen by a mischievous Thrungus. Return this item to the Portal Guardian at 72.1N 60.9W.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29091, 33, 1) /* BONDED_INT */
-     , (29091, 114, 0) /* ATTUNED_INT */
-     , (29091, 19, 0) /* VALUE_INT */
-     , (29091, 5, 25) /* ENCUMB_VAL_INT */;
-

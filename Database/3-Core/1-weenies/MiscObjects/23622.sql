@@ -35,13 +35,3 @@ VALUES (23622, 13, True) /* ETHEREAL_BOOL */
      , (23622, 19, True) /* ATTACKABLE_BOOL */
      , (23622, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23622, 16, 'A reforged Yalaini bell. If rung, its noise is enough to make the very stones beneath you shake.') /* LONG_DESC_STRING */
-     , (23622, 14, 'This item can be used on roof and yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23622, 19, 250) /* VALUE_INT */
-     , (23622, 5, 1200) /* ENCUMB_VAL_INT */;
-

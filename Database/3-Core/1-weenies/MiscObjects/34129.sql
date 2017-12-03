@@ -30,8 +30,3 @@ VALUES (34129, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (34129, 19, True) /* ATTACKABLE_BOOL */
      , (34129, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34129, 16, 'Here lies Thungo the Stupid who mistook a Zefir for a mythological Isparian creature called a Fairy. Zefirs, it seems do not like to be petted and put in your pocket.') /* LONG_DESC_STRING */;
-

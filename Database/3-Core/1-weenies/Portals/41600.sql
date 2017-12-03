@@ -33,14 +33,3 @@ VALUES (41600, 13, True) /* ETHEREAL_BOOL */
      , (41600, 19, True) /* ATTACKABLE_BOOL */
      , (41600, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41600, 38, 'Gearknight Lord''s Tower (36.4S, 7.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41600, 98, 1485456071) /* CREATION_TIMESTAMP_INT */
-     , (41600, 267, 60) /* LIFESPAN_INT */
-     , (41600, 268, 55) /* REMAINING_LIFESPAN_INT */
-     , (41600, 111, 17) /* PORTAL_BITMASK_INT */;
-

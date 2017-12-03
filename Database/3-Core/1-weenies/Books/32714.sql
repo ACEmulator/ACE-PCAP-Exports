@@ -35,16 +35,3 @@ VALUES (32714, 13, True) /* ETHEREAL_BOOL */
      , (32714, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32714, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32714, 16, 'A log book found in one of the buildings of Castle Pietrus') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32714, 33, 1) /* BONDED_INT */
-     , (32714, 114, 1) /* ATTUNED_INT */
-     , (32714, 19, 0) /* VALUE_INT */
-     , (32714, 5, 50) /* ENCUMB_VAL_INT */
-     , (32714, 174, 6) /* APPRAISAL_PAGES_INT */
-     , (32714, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
-

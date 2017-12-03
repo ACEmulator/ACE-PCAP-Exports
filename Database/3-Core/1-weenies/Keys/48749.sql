@@ -36,24 +36,3 @@ VALUES (48749, 13, True) /* ETHEREAL_BOOL */
      , (48749, 19, True) /* ATTACKABLE_BOOL */
      , (48749, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48749, 16, 'A key only heard about in whispers and myths.') /* LONG_DESC_STRING */
-     , (48749, 14, 'Use this key to open a Legendary Armor, Magic, or Weapon Chest.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48749, 369, 150) /* USE_REQUIRES_LEVEL_INT */
-     , (48749, 33, 0) /* BONDED_INT */
-     , (48749, 98, 1485737586) /* CREATION_TIMESTAMP_INT */
-     , (48749, 114, 0) /* ATTUNED_INT */
-     , (48749, 19, 30000) /* VALUE_INT */
-     , (48749, 5, 30) /* ENCUMB_VAL_INT */
-     , (48749, 91, 3) /* MAX_STRUCTURE_INT */
-     , (48749, 267, 86400) /* LIFESPAN_INT */
-     , (48749, 268, 86400) /* REMAINING_LIFESPAN_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (48749, 99, 0) /* IVORYABLE_BOOL */
-     , (48749, 69, 0) /* IS_SELLABLE_BOOL */;
-

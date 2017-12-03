@@ -48,25 +48,3 @@ VALUES (25948, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25948, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25948, 16, 'A dark amber ring. At the edge of sight you see your shadow stretch and pull until it is spreads invisible over all you see.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25948, 160, 90) /* WIELD_DIFFICULTY_INT */
-     , (25948, 19, 10000) /* VALUE_INT */
-     , (25948, 5, 30) /* ENCUMB_VAL_INT */
-     , (25948, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (25948, 108, 1440) /* ITEM_MAX_MANA_INT */
-     , (25948, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25948, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25948, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25948, 273) /* MagicResistanceOther6_SpellID */
-     , (25948, 2080) /* QuicknessOther7_SpellID */
-     , (25948, 1384) /* CoordinationOther6_SpellID */;
-

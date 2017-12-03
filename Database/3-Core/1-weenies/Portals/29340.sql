@@ -33,12 +33,3 @@ VALUES (29340, 13, True) /* ETHEREAL_BOOL */
      , (29340, 19, True) /* ATTACKABLE_BOOL */
      , (29340, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29340, 16, 'You must complete the Sentry''s quest before you may use this portal.') /* LONG_DESC_STRING */
-     , (29340, 38, 'Exit to Yaraq (21.5S, 1.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29340, 111, 49) /* PORTAL_BITMASK_INT */;
-

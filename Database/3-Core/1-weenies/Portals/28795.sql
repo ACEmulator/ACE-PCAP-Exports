@@ -33,12 +33,3 @@ VALUES (28795, 13, True) /* ETHEREAL_BOOL */
      , (28795, 19, True) /* ATTACKABLE_BOOL */
      , (28795, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28795, 38, 'Viamontian Garrison') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28795, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (28795, 111, 1) /* PORTAL_BITMASK_INT */;
-

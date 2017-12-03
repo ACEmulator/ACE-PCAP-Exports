@@ -33,11 +33,3 @@ VALUES (12493, 13, True) /* ETHEREAL_BOOL */
      , (12493, 19, True) /* ATTACKABLE_BOOL */
      , (12493, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12493, 38, 'East Span Way Settlement Portal (32.9N, 48.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12493, 111, 1) /* PORTAL_BITMASK_INT */;
-

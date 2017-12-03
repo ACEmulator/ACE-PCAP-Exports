@@ -36,22 +36,6 @@ VALUES (30798, 13, True) /* ETHEREAL_BOOL */
      , (30798, 19, True) /* ATTACKABLE_BOOL */
      , (30798, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30798, 15, 'A thick, black tea made by Samuel of Eastham. The tea does not look like a very healthy drink.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30798, 19, 100) /* VALUE_INT */
-     , (30798, 5, 15) /* ENCUMB_VAL_INT */
-     , (30798, 106, 600) /* ITEM_SPELLCRAFT_INT */
-     , (30798, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (30798, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (30798, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30798, 3799) /* BlackMarrowBliss_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

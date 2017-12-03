@@ -31,17 +31,6 @@ VALUES (32294, 13, True) /* ETHEREAL_BOOL */
      , (32294, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32294, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32294, 16, 'A note from Varicci to the garrison of this outpost.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32294, 19, 10) /* VALUE_INT */
-     , (32294, 5, 10) /* ENCUMB_VAL_INT */
-     , (32294, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (32294, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

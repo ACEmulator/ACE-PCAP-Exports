@@ -63,26 +63,3 @@ VALUES (42931, 0, 16785699)
      , (42931, 19, 16785704)
      , (42931, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42931, 5, 'Miner') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42931, 2, 5) /* CREATURE_TYPE_INT */
-     , (42931, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (42931, 25, 108) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (42931, 1, 400) /* STRENGTH_ATTRIBUTE */
-     , (42931, 2, 360) /* ENDURANCE_ATTRIBUTE */
-     , (42931, 4, 420) /* COORDINATION_ATTRIBUTE */
-     , (42931, 8, 350) /* QUICKNESS_ATTRIBUTE */
-     , (42931, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (42931, 32, 270) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42931, 64, 380) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (42931, 128, 460) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (42931, 256, 310) /* MAX_MANA_ATTRIBUTE_2ND */;
-

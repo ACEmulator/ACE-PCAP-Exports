@@ -35,17 +35,3 @@ VALUES (3168, 13, True) /* ETHEREAL_BOOL */
      , (3168, 19, True) /* ATTACKABLE_BOOL */
      , (3168, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3168, 16, 'Inscribed spell: Light Weapon Mastery Self II
-Increases the caster''s Light Weapons skill by 15 points.') /* LONG_DESC_STRING */
-     , (3168, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3168, 19, 5) /* VALUE_INT */
-     , (3168, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3168, 299) /* AxeMasterySelf2_SpellID */;
-

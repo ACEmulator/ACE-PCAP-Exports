@@ -89,38 +89,3 @@ VALUES (38603, 12, 16777304)
      , (38603, 4, 16781838)
      , (38603, 8, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38603, 5, 'Falatacot Report Taskmaster') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38603, 16, 67110062) /* EYES_PALETTE_DID */
-     , (38603, 9, 83890507) /* EYES_TEXTURE_DID */
-     , (38603, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (38603, 10, 83890520) /* NOSE_TEXTURE_DID */
-     , (38603, 11, 83890570) /* MOUTH_TEXTURE_DID */
-     , (38603, 15, 67116985) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38603, 113, 1) /* GENDER_INT */
-     , (38603, 2, 31) /* CREATURE_TYPE_INT */
-     , (38603, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38603, 25, 180) /* LEVEL_INT */
-     , (38603, 281, 1) /* FACTION1_BITS_INT */
-     , (38603, 188, 1) /* HERITAGE_GROUP_INT */
-     , (38603, 287, 1) /* SOCIETY_RANK_CELHAN_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38603, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (38603, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (38603, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (38603, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (38603, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (38603, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38603, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38603, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38603, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-

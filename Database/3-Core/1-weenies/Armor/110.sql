@@ -48,29 +48,3 @@ VALUES (110, 0, 83887064, 83886800);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (110, 0, 16778365);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (110, 16, 'Platemail Tassets') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (110, 19, 4175) /* VALUE_INT */
-     , (110, 131, 60) /* MATERIAL_TYPE_INT */
-     , (110, 5, 713) /* ENCUMB_VAL_INT */
-     , (110, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (110, 28, 241) /* ARMOR_LEVEL_INT */
-     , (110, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (110, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (110, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (110, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (110, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (110, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (110, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (110, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (110, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (110, 100, 1) /* DYABLE_BOOL */;
-

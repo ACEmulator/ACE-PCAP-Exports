@@ -94,12 +94,3 @@ VALUES (48955, 0, 16796693)
      , (48955, 12, 16796687)
      , (48955, 16, 16796691);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48955, 16, 'Killed by The Guardian of the Lost Light.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48955, 19, 0) /* VALUE_INT */
-     , (48955, 5, 6481) /* ENCUMB_VAL_INT */;
-

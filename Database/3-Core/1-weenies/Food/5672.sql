@@ -37,22 +37,6 @@ VALUES (5672, 13, True) /* ETHEREAL_BOOL */
      , (5672, 19, True) /* ATTACKABLE_BOOL */
      , (5672, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5672, 16, 'A strong tea made from mugwort and willow leaves, popular in the Aluvian highlands.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5672, 19, 100) /* VALUE_INT */
-     , (5672, 5, 50) /* ENCUMB_VAL_INT */
-     , (5672, 106, 50) /* ITEM_SPELLCRAFT_INT */
-     , (5672, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (5672, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (5672, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (5672, 54) /* RejuvenationSelf1_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

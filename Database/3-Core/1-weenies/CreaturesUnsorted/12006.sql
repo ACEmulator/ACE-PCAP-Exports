@@ -77,12 +77,3 @@ VALUES (12006, 0, 16787248)
      , (12006, 15, 16787257)
      , (12006, 16, 16787256);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12006, 2, 4) /* CREATURE_TYPE_INT */
-     , (12006, 25, 100) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12006, 64, 300) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

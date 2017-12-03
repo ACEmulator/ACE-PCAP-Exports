@@ -37,17 +37,3 @@ VALUES (31606, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31606, 67111924, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31606, 15, 'The owner of this plaque is a verified "Repugnant Eater Ripper"!') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31606, 33, 1) /* BONDED_INT */
-     , (31606, 114, 1) /* ATTUNED_INT */
-     , (31606, 19, 0) /* VALUE_INT */
-     , (31606, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31606, 99, 1) /* IVORYABLE_BOOL */;
-

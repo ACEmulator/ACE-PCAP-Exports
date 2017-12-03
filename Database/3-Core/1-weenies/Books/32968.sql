@@ -34,14 +34,3 @@ VALUES (32968, 13, True) /* ETHEREAL_BOOL */
      , (32968, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32968, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32968, 16, 'An account of the discovery of an Ancient Masonry on Aerlinthe Island.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32968, 19, 5) /* VALUE_INT */
-     , (32968, 5, 10) /* ENCUMB_VAL_INT */
-     , (32968, 174, 6) /* APPRAISAL_PAGES_INT */
-     , (32968, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
-

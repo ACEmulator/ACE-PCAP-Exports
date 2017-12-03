@@ -74,26 +74,3 @@ VALUES (22644, 2, 16777293)
      , (22644, 1, 16783912)
      , (22644, 5, 16783916);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22644, 5, 'Tusker Emporium Hawker') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (22644, 16, 67109566) /* EYES_PALETTE_DID */
-     , (22644, 9, 83890485) /* EYES_TEXTURE_DID */
-     , (22644, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (22644, 10, 83890554) /* NOSE_TEXTURE_DID */
-     , (22644, 11, 83890632) /* MOUTH_TEXTURE_DID */
-     , (22644, 15, 67116977) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22644, 113, 1) /* GENDER_INT */
-     , (22644, 2, 31) /* CREATURE_TYPE_INT */
-     , (22644, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (22644, 25, 5) /* LEVEL_INT */
-     , (22644, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22644, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

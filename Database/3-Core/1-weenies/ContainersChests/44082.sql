@@ -37,22 +37,6 @@ VALUES (44082, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (44082, 19, True) /* ATTACKABLE_BOOL */
      , (44082, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44082, 16, 'A chest containing mostly items useful to a Mage. ') /* LONG_DESC_STRING */
-     , (44082, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44082, 19, 2500) /* VALUE_INT */
-     , (44082, 5, 3426) /* ENCUMB_VAL_INT */
-     , (44082, 38, 9999) /* RESIST_LOCKPICK_INT */
-     , (44082, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44082, 2, 0) /* OPEN_BOOL */
-     , (44082, 3, 1) /* LOCKED_BOOL */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

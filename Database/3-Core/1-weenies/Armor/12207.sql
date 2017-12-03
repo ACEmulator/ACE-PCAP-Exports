@@ -47,23 +47,3 @@ VALUES (12207, 9, 83893207, 83893794);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12207, 9, 16785617);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12207, 16, 'It seems to be an inside out Doll mask!  It''s amazing what information you can glean if you are observant enough.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12207, 19, 250) /* VALUE_INT */
-     , (12207, 5, 150) /* ENCUMB_VAL_INT */
-     , (12207, 28, 10) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12207, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (12207, 14, 0.375) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (12207, 15, 0.25) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (12207, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (12207, 17, 0.375) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (12207, 18, 0.125) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (12207, 19, 0.125) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (12207, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

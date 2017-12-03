@@ -33,19 +33,6 @@ VALUES (24101, 13, True) /* ETHEREAL_BOOL */
      , (24101, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24101, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24101, 16, 'Commands from the Quiddity') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24101, 33, 0) /* BONDED_INT */
-     , (24101, 114, 0) /* ATTUNED_INT */
-     , (24101, 19, 0) /* VALUE_INT */
-     , (24101, 5, 25) /* ENCUMB_VAL_INT */
-     , (24101, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (24101, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

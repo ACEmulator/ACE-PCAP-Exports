@@ -33,11 +33,3 @@ VALUES (13139, 13, True) /* ETHEREAL_BOOL */
      , (13139, 19, True) /* ATTACKABLE_BOOL */
      , (13139, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13139, 38, 'West Mayoi Mountain Villas Portal (61.1S, 73.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13139, 111, 1) /* PORTAL_BITMASK_INT */;
-

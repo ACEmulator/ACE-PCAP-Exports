@@ -32,9 +32,3 @@ VALUES (14248, 13, True) /* ETHEREAL_BOOL */
      , (14248, 19, True) /* ATTACKABLE_BOOL */
      , (14248, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14248, 16, 'The current maintenance has not been paid.
-') /* LONG_DESC_STRING */;
-

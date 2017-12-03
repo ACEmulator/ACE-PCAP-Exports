@@ -33,16 +33,3 @@ VALUES (31415, 13, True) /* ETHEREAL_BOOL */
      , (31415, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31415, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31415, 16, 'A translation of an Unreadable Dericost Tome written by Kuyiza bint Zayi of Zaikhal. The original text was discovered within the ruins of Sepulcher of Nightmares.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31415, 33, 0) /* BONDED_INT */
-     , (31415, 114, 0) /* ATTUNED_INT */
-     , (31415, 19, 0) /* VALUE_INT */
-     , (31415, 5, 50) /* ENCUMB_VAL_INT */
-     , (31415, 174, 7) /* APPRAISAL_PAGES_INT */
-     , (31415, 175, 7) /* APPRAISAL_MAX_PAGES_INT */;
-

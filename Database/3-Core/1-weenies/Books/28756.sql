@@ -34,19 +34,6 @@ VALUES (28756, 13, True) /* ETHEREAL_BOOL */
      , (28756, 14, True) /* GRAVITY_STATUS_BOOL */
      , (28756, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28756, 16, 'Neatly penned instructions and locations of trade contacts.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28756, 33, 0) /* BONDED_INT */
-     , (28756, 114, 0) /* ATTUNED_INT */
-     , (28756, 19, 5) /* VALUE_INT */
-     , (28756, 5, 25) /* ENCUMB_VAL_INT */
-     , (28756, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (28756, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

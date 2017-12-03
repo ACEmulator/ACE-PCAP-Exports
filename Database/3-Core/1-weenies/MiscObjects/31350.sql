@@ -33,17 +33,6 @@ VALUES (31350, 13, True) /* ETHEREAL_BOOL */
      , (31350, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31350, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31350, 16, 'A decorative armband from a Mosswart Worshipper.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31350, 33, 1) /* BONDED_INT */
-     , (31350, 114, 1) /* ATTUNED_INT */
-     , (31350, 19, 10000) /* VALUE_INT */
-     , (31350, 5, 100) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

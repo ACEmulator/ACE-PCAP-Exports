@@ -45,29 +45,3 @@ VALUES (40615, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40615, 0, 16791762);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40615, 16, 'Celdon Leggings') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40615, 19, 9068) /* VALUE_INT */
-     , (40615, 131, 57) /* MATERIAL_TYPE_INT */
-     , (40615, 5, 1252) /* ENCUMB_VAL_INT */
-     , (40615, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (40615, 28, 236) /* ARMOR_LEVEL_INT */
-     , (40615, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (40615, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (40615, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (40615, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (40615, 16, 1.229038) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (40615, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (40615, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (40615, 19, 0.9558967) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (40615, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40615, 100, 1) /* DYABLE_BOOL */;
-

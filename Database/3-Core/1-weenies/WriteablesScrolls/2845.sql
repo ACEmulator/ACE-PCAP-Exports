@@ -35,17 +35,3 @@ VALUES (2845, 13, True) /* ETHEREAL_BOOL */
      , (2845, 19, True) /* ATTACKABLE_BOOL */
      , (2845, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2845, 16, 'Inscribed spell: Impenetrability V
-Improves a shield or piece of armor''s armor value by 150 points. Target yourself to cast this spell on all of your equipped armor.') /* LONG_DESC_STRING */
-     , (2845, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2845, 19, 200) /* VALUE_INT */
-     , (2845, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2845, 1485) /* Impenetrability5_SpellID */;
-

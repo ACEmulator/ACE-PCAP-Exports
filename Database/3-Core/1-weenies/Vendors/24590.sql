@@ -60,29 +60,6 @@ VALUES (24590, 0, 16785699)
      , (24590, 19, 16777708)
      , (24590, 20, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24590, 5, 'Inn Keeper') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24590, 2, 5) /* CREATURE_TYPE_INT */
-     , (24590, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24590, 25, 58) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (24590, 1, 204) /* STRENGTH_ATTRIBUTE */
-     , (24590, 2, 192) /* ENDURANCE_ATTRIBUTE */
-     , (24590, 4, 145) /* COORDINATION_ATTRIBUTE */
-     , (24590, 8, 124) /* QUICKNESS_ATTRIBUTE */
-     , (24590, 16, 15) /* FOCUS_ATTRIBUTE */
-     , (24590, 32, 15) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24590, 64, 226) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24590, 128, 312) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24590, 256, 25) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

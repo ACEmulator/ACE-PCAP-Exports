@@ -50,17 +50,3 @@ VALUES (51707, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51707, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51707, 16, 'A scrap of cloth torn from the Apparition of Apathy. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51707, 33, 1) /* BONDED_INT */
-     , (51707, 114, 1) /* ATTUNED_INT */
-     , (51707, 19, 0) /* VALUE_INT */
-     , (51707, 5, 450) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (51707, 69, 0) /* IS_SELLABLE_BOOL */;
-

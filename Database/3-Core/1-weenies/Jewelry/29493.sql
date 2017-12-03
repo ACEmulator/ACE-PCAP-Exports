@@ -35,14 +35,3 @@ VALUES (29493, 13, True) /* ETHEREAL_BOOL */
      , (29493, 19, True) /* ATTACKABLE_BOOL */
      , (29493, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29493, 15, 'An ancient, heavy, scratched gold ring with the bull insignia of Karlun, legendary founder of Viamont.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29493, 33, 1) /* BONDED_INT */
-     , (29493, 114, 1) /* ATTUNED_INT */
-     , (29493, 19, 0) /* VALUE_INT */
-     , (29493, 5, 40) /* ENCUMB_VAL_INT */;
-

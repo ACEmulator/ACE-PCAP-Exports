@@ -37,14 +37,3 @@ VALUES (32751, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (32751, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (32751, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32751, 16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32751, 33, 1) /* BONDED_INT */
-     , (32751, 114, 1) /* ATTUNED_INT */
-     , (32751, 19, 0) /* VALUE_INT */
-     , (32751, 5, 10) /* ENCUMB_VAL_INT */;
-

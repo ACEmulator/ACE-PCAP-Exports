@@ -32,20 +32,6 @@ VALUES (51266, 13, True) /* ETHEREAL_BOOL */
      , (51266, 14, True) /* GRAVITY_STATUS_BOOL */
      , (51266, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51266, 16, 'Nuts, bolts, and springs from gearknights.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51266, 33, 1) /* BONDED_INT */
-     , (51266, 114, 1) /* ATTUNED_INT */
-     , (51266, 19, 0) /* VALUE_INT */
-     , (51266, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (51266, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

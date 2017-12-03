@@ -43,12 +43,3 @@ VALUES (14589, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14589, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14589, 15, 'If treated with the proper oils, this mattekar hide would make the perfect skin for a drum.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14589, 19, 500) /* VALUE_INT */
-     , (14589, 5, 850) /* ENCUMB_VAL_INT */;
-

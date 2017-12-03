@@ -50,29 +50,3 @@ VALUES (10870, 0, 83887061, 83893840)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10870, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10870, 15, 'The Canescent Mattekar Robe, brought to you with the finest care by Britana.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10870, 33, 1) /* BONDED_INT */
-     , (10870, 114, 0) /* ATTUNED_INT */
-     , (10870, 19, 0) /* VALUE_INT */
-     , (10870, 5, 500) /* ENCUMB_VAL_INT */
-     , (10870, 28, 120) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (10870, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (10870, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (10870, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (10870, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (10870, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (10870, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (10870, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (10870, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (10870, 99, 0) /* IVORYABLE_BOOL */
-     , (10870, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
-

@@ -35,19 +35,6 @@ VALUES (29472, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29472, 19, True) /* ATTACKABLE_BOOL */
      , (29472, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29472, 16, 'The corpse of a recently killed Viamontian, with a clean dagger hole in the back.') /* LONG_DESC_STRING */
-     , (29472, 14, 'Use this item to search it and see its possessions.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29472, 19, 0) /* VALUE_INT */
-     , (29472, 5, 3005) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29472, 2, 0) /* OPEN_BOOL */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

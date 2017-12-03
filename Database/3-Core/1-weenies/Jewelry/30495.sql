@@ -42,14 +42,3 @@ VALUES (30495, 0, 83888956, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30495, 0, 16778506);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30495, 16, 'A thin silver chain hung with an ivory charm.  ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30495, 33, 1) /* BONDED_INT */
-     , (30495, 114, 1) /* ATTUNED_INT */
-     , (30495, 19, 0) /* VALUE_INT */
-     , (30495, 5, 10) /* ENCUMB_VAL_INT */;
-

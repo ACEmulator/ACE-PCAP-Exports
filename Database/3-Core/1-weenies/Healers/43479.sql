@@ -34,22 +34,3 @@ VALUES (43479, 13, True) /* ETHEREAL_BOOL */
      , (43479, 19, True) /* ATTACKABLE_BOOL */
      , (43479, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43479, 16, 'A faintly glowing healing kit that smells of hyssop, amaranth and other aromatic herbs.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43479, 33, 1) /* BONDED_INT */
-     , (43479, 114, 1) /* ATTUNED_INT */
-     , (43479, 19, 0) /* VALUE_INT */
-     , (43479, 5, 50) /* ENCUMB_VAL_INT */
-     , (43479, 90, 250) /* BOOST_VALUE_INT */
-     , (43479, 91, 30) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (43479, 100, 2) /* HEALKIT_MOD_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43479, 69, 0) /* IS_SELLABLE_BOOL */;
-

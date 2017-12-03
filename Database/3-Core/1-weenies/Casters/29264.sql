@@ -50,38 +50,3 @@ VALUES (29264, 0, 83895592, 83895592)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29264, 0, 16791340);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29264, 16, 'Piercing Sceptre of Lightning') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29264, 160, 355) /* WIELD_DIFFICULTY_INT */
-     , (29264, 177, 1) /* GEM_COUNT_INT */
-     , (29264, 178, 16) /* GEM_TYPE_INT */
-     , (29264, 19, 33717) /* VALUE_INT */
-     , (29264, 131, 39) /* MATERIAL_TYPE_INT */
-     , (29264, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (29264, 5, 50) /* ENCUMB_VAL_INT */
-     , (29264, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (29264, 106, 362) /* ITEM_SPELLCRAFT_INT */
-     , (29264, 108, 2667) /* ITEM_MAX_MANA_INT */
-     , (29264, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (29264, 109, 303) /* ITEM_DIFFICULTY_INT */
-     , (29264, 45, 2) /* DAMAGE_TYPE_INT */
-     , (29264, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (29264, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (29264, 159, 34) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29264, 144, 0.09) /* MANA_CONVERSION_MOD_FLOAT */
-     , (29264, 152, 1.12) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (29264, 5, -0.06666667) /* MANA_RATE_FLOAT */
-     , (29264, 29, 1.19) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (29264, 80) /* LightningBolt6_SpellID */
-     , (29264, 4418) /* TrueValue8_SpellID */
-     , (29264, 4227) /* CANTRIPWILLPOWER3_SpellID */
-     , (29264, 4400) /* Defender8_SpellID */;
-

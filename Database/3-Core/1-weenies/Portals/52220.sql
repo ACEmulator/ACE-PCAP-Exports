@@ -33,12 +33,3 @@ VALUES (52220, 13, True) /* ETHEREAL_BOOL */
      , (52220, 19, True) /* ATTACKABLE_BOOL */
      , (52220, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52220, 38, 'Fiery Alcove') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52220, 86, 180) /* MIN_LEVEL_INT */
-     , (52220, 111, 49) /* PORTAL_BITMASK_INT */;
-

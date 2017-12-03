@@ -31,15 +31,3 @@ VALUES (7817, 13, True) /* ETHEREAL_BOOL */
      , (7817, 19, True) /* ATTACKABLE_BOOL */
      , (7817, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7817, 16, 'The skull of the High Acolyte is covered with moss and green slime. Even so, it looks pretty unique and is probably  worth something to someone.') /* LONG_DESC_STRING */
-     , (7817, 14, 'You can trade this skull in for experience through Ivory Crafters and it will be shared within your fellowship.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7817, 33, 1) /* BONDED_INT */
-     , (7817, 114, 1) /* ATTUNED_INT */
-     , (7817, 19, 0) /* VALUE_INT */
-     , (7817, 5, 10) /* ENCUMB_VAL_INT */;
-

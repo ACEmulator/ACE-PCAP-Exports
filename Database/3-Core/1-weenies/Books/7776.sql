@@ -34,17 +34,6 @@ VALUES (7776, 13, True) /* ETHEREAL_BOOL */
      , (7776, 14, True) /* GRAVITY_STATUS_BOOL */
      , (7776, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7776, 16, 'A note from the sarcophagus of Mi Krau-Li.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7776, 19, 5) /* VALUE_INT */
-     , (7776, 5, 25) /* ENCUMB_VAL_INT */
-     , (7776, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (7776, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

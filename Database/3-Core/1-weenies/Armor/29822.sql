@@ -43,36 +43,3 @@ VALUES (29822, 67115442, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29822, 0, 16787215);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29822, 16, 'A headdress plaited from the plumes of a Strand Siraluun.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29822, 160, 20) /* WIELD_DIFFICULTY_INT */
-     , (29822, 19, 1750) /* VALUE_INT */
-     , (29822, 5, 250) /* ENCUMB_VAL_INT */
-     , (29822, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (29822, 28, 200) /* ARMOR_LEVEL_INT */
-     , (29822, 109, 120) /* ITEM_DIFFICULTY_INT */
-     , (29822, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (29822, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29822, 5, -0.03) /* MANA_RATE_FLOAT */
-     , (29822, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (29822, 14, 1.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (29822, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (29822, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (29822, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (29822, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (29822, 19, 1.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (29822, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (29822, 711) /* ArmorExpertiseOther4_SpellID */
-     , (29822, 783) /* WeaponExpertiseOther4_SpellID */
-     , (29822, 735) /* ItemExpertiseOther4_SpellID */
-     , (29822, 3509) /* ArcanumSalvagingOther4_SpellID */
-     , (29822, 759) /* MagicItemExpertiseOther4_SpellID */;
-

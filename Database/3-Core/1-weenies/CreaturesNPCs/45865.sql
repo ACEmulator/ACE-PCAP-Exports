@@ -47,23 +47,3 @@ VALUES (45865, 9, 83890028, 83890027);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45865, 9, 16780702);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45865, 2, 19) /* CREATURE_TYPE_INT */
-     , (45865, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (45865, 25, 30) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (45865, 1, 140) /* STRENGTH_ATTRIBUTE */
-     , (45865, 2, 100) /* ENDURANCE_ATTRIBUTE */
-     , (45865, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (45865, 8, 150) /* QUICKNESS_ATTRIBUTE */
-     , (45865, 16, 190) /* FOCUS_ATTRIBUTE */
-     , (45865, 32, 190) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (45865, 64, 96) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (45865, 128, 146) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (45865, 256, 296) /* MAX_MANA_ATTRIBUTE_2ND */;
-

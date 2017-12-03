@@ -40,34 +40,3 @@ VALUES (41952, 13, True) /* ETHEREAL_BOOL */
      , (41952, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (41952, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41952, 16, 'A portal for the defenders of Mhoire Castle.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41952, 384, 0) /*  */
-     , (41952, 370, 0) /* GEAR_DAMAGE_INT */
-     , (41952, 386, 0) /*  */
-     , (41952, 307, 0) /* DAMAGE_RATING_INT */
-     , (41952, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (41952, 387, 0) /*  */
-     , (41952, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (41952, 372, 0) /* GEAR_CRIT_INT */
-     , (41952, 388, 0) /*  */
-     , (41952, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (41952, 389, 0) /*  */
-     , (41952, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (41952, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (41952, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (41952, 313, 0) /* CRIT_RATING_INT */
-     , (41952, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (41952, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (41952, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (41952, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (41952, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (41952, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (41952, 381, 0) /*  */
-     , (41952, 382, 0) /*  */
-     , (41952, 383, 0) /*  */;
-

@@ -63,26 +63,3 @@ VALUES (51923, 0, 16785699)
      , (51923, 19, 16785704)
      , (51923, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51923, 5, 'Linvak Tukal Envoy') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51923, 2, 5) /* CREATURE_TYPE_INT */
-     , (51923, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (51923, 25, 275) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (51923, 1, 400) /* STRENGTH_ATTRIBUTE */
-     , (51923, 2, 360) /* ENDURANCE_ATTRIBUTE */
-     , (51923, 4, 420) /* COORDINATION_ATTRIBUTE */
-     , (51923, 8, 350) /* QUICKNESS_ATTRIBUTE */
-     , (51923, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (51923, 32, 270) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51923, 64, 970) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (51923, 128, 750) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (51923, 256, 320) /* MAX_MANA_ATTRIBUTE_2ND */;
-

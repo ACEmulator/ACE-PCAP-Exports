@@ -31,18 +31,3 @@ VALUES (41207, 13, True) /* ETHEREAL_BOOL */
      , (41207, 19, True) /* ATTACKABLE_BOOL */
      , (41207, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41207, 16, 'A pile of old, abused-looking pieces of armor, or a golem, or something akin to that.') /* LONG_DESC_STRING */
-     , (41207, 14, 'Bring this to Nurino in the Arcanum facility above Xarabydun.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41207, 33, 1) /* BONDED_INT */
-     , (41207, 114, 1) /* ATTUNED_INT */
-     , (41207, 19, 0) /* VALUE_INT */
-     , (41207, 5, 1000) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (41207, 69, 0) /* IS_SELLABLE_BOOL */;
-

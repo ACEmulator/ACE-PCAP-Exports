@@ -37,15 +37,6 @@ VALUES (34850, 13, True) /* ETHEREAL_BOOL */
      , (34850, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34850, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34850, 16, 'This is a large and fleshy mushroom that gives off an earthy, intoxicating aroma.  An expert could cut this into the valuable spore, cap, and stalk components.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34850, 19, 500) /* VALUE_INT */
-     , (34850, 5, 500) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

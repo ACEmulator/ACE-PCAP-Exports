@@ -29,12 +29,3 @@ VALUES (13144, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (13144, 19, True) /* ATTACKABLE_BOOL */
      , (13144, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13144, 16, 'Welcome to Bandit Road Villas') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13144, 19, 125) /* VALUE_INT */
-     , (13144, 5, 9000) /* ENCUMB_VAL_INT */;
-

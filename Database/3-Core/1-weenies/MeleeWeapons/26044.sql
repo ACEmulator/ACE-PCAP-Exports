@@ -39,12 +39,3 @@ VALUES (26044, 13, True) /* ETHEREAL_BOOL */
      , (26044, 19, True) /* ATTACKABLE_BOOL */
      , (26044, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (26044, 16, 'Killed by Rou.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (26044, 19, 0) /* VALUE_INT */
-     , (26044, 5, 6501) /* ENCUMB_VAL_INT */;
-

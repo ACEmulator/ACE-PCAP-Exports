@@ -33,13 +33,3 @@ VALUES (36916, 13, True) /* ETHEREAL_BOOL */
      , (36916, 19, True) /* ATTACKABLE_BOOL */
      , (36916, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36916, 16, 'A bag of magic "no-melt" snow to be piled up anywhere you like.') /* LONG_DESC_STRING */
-     , (36916, 14, 'This item may be placed on floor and yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36916, 19, 1) /* VALUE_INT */
-     , (36916, 5, 1500) /* ENCUMB_VAL_INT */;
-

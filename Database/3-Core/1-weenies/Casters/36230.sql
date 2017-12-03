@@ -50,28 +50,3 @@ VALUES (36230, 0, 83894914, 83894914);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36230, 0, 16793683);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36230, 176, 33) /* APPRAISAL_ITEM_SKILL_INT */
-     , (36230, 19, 17000) /* VALUE_INT */
-     , (36230, 179, 16) /* IMBUED_EFFECT_INT */
-     , (36230, 115, 350) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (36230, 5, 50) /* ENCUMB_VAL_INT */
-     , (36230, 106, 425) /* ITEM_SPELLCRAFT_INT */
-     , (36230, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (36230, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36230, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
-     , (36230, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (36230, 5, -0.0333333) /* MANA_RATE_FLOAT */
-     , (36230, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (36230, 2074) /* ImperilOther7_SpellID */
-     , (36230, 2520) /* CANTRIPLIFEMAGICAPTITUDE2_SpellID */
-     , (36230, 2266) /* LifeMagicMasteryOther7_SpellID */
-     , (36230, 2014) /* WizardsUltimateIntellect_SpellID */
-     , (36230, 2286) /* ManaMasteryOther7_SpellID */;
-

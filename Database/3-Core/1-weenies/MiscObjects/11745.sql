@@ -38,17 +38,3 @@ VALUES (11745, 0, 83893725, 83893725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11745, 0, 16787138);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11745, 16, 'A hafted banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11745, 33, 1) /* BONDED_INT */
-     , (11745, 114, 1) /* ATTUNED_INT */
-     , (11745, 19, 0) /* VALUE_INT */
-     , (11745, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11745, 69, 0) /* IS_SELLABLE_BOOL */;
-

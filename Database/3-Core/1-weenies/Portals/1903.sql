@@ -33,11 +33,3 @@ VALUES (1903, 13, True) /* ETHEREAL_BOOL */
      , (1903, 19, True) /* ATTACKABLE_BOOL */
      , (1903, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1903, 38, 'Desert Ridge Border (5.6S, 40.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1903, 111, 1) /* PORTAL_BITMASK_INT */;
-

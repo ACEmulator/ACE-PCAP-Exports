@@ -31,14 +31,3 @@ VALUES (31511, 13, True) /* ETHEREAL_BOOL */
      , (31511, 19, True) /* ATTACKABLE_BOOL */
      , (31511, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31511, 16, 'A suckling pig covered in creamy butterscotch. This is a favorite dish of hungry Golems everywhere.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31511, 33, 1) /* BONDED_INT */
-     , (31511, 114, 1) /* ATTUNED_INT */
-     , (31511, 19, 0) /* VALUE_INT */
-     , (31511, 5, 2000) /* ENCUMB_VAL_INT */;
-

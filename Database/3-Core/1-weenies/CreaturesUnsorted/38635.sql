@@ -65,28 +65,6 @@ VALUES (38635, 5, 16794136)
      , (38635, 8, 16794135)
      , (38635, 16, 16789379);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38635, 5, 'Scout Leader') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38635, 16, 67110063) /* EYES_PALETTE_DID */
-     , (38635, 9, 83890445) /* EYES_TEXTURE_DID */
-     , (38635, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (38635, 10, 83890522) /* NOSE_TEXTURE_DID */
-     , (38635, 11, 83890642) /* MOUTH_TEXTURE_DID */
-     , (38635, 15, 67117022) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38635, 113, 1) /* GENDER_INT */
-     , (38635, 2, 31) /* CREATURE_TYPE_INT */
-     , (38635, 25, 200) /* LEVEL_INT */
-     , (38635, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38635, 64, 1500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

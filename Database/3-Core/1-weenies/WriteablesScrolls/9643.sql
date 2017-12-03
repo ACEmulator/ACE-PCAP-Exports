@@ -35,17 +35,3 @@ VALUES (9643, 13, True) /* ETHEREAL_BOOL */
      , (9643, 19, True) /* ATTACKABLE_BOOL */
      , (9643, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9643, 16, 'Inscribed spell: Mana to Health Self V
-Drains one-half of the caster''s Mana and gives 135% of that to his/her Health.') /* LONG_DESC_STRING */
-     , (9643, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9643, 19, 200) /* VALUE_INT */
-     , (9643, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (9643, 1294) /* ManatoHealthSelf5_SpellID */;
-

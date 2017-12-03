@@ -35,17 +35,3 @@ VALUES (20600, 13, True) /* ETHEREAL_BOOL */
      , (20600, 19, True) /* ATTACKABLE_BOOL */
      , (20600, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20600, 16, 'Inscribed spell: Vitality Siphon
-Drains 50% of the target''s Health and gives 50% of it to the caster.') /* LONG_DESC_STRING */
-     , (20600, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20600, 19, 2000) /* VALUE_INT */
-     , (20600, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20600, 2328) /* DrainHealth7_SpellID */;
-

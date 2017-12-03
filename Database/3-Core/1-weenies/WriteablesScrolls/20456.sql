@@ -35,17 +35,3 @@ VALUES (20456, 13, True) /* ETHEREAL_BOOL */
      , (20456, 19, True) /* ATTACKABLE_BOOL */
      , (20456, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20456, 16, 'Inscribed spell: Lhen''s Flare
-Sends a bolt of lighting streaking towards the target. The bolt does 42-84 points of electrical damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (20456, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20456, 19, 2000) /* VALUE_INT */
-     , (20456, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20456, 2141) /* LightningStreak7_SpellID */;
-

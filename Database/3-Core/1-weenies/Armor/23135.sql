@@ -47,27 +47,3 @@ VALUES (23135, 0, 83890141, 83890141);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23135, 0, 16777989);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23135, 16, 'Ring of Fire Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23135, 19, 4649) /* VALUE_INT */
-     , (23135, 131, 64) /* MATERIAL_TYPE_INT */
-     , (23135, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (23135, 5, 15) /* ENCUMB_VAL_INT */
-     , (23135, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (23135, 106, 217) /* ITEM_SPELLCRAFT_INT */
-     , (23135, 108, 2001) /* ITEM_MAX_MANA_INT */
-     , (23135, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (23135, 109, 225) /* ITEM_DIFFICULTY_INT */
-     , (23135, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23135, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (23135, 1093) /* FireProtectionSelf5_SpellID */
-     , (23135, 5427) /* CantripVoidMagicAptitude1_SpellID */;
-

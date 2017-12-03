@@ -36,13 +36,3 @@ VALUES (11175, 13, True) /* ETHEREAL_BOOL */
      , (11175, 19, True) /* ATTACKABLE_BOOL */
      , (11175, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11175, 16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Lockpick skill. There are tesserae available for each skill in the game. If you don''t want a point of Lockpick, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11175, 33, 1) /* BONDED_INT */
-     , (11175, 19, 10) /* VALUE_INT */
-     , (11175, 5, 10) /* ENCUMB_VAL_INT */;
-

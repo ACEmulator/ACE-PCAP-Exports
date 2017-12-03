@@ -53,34 +53,3 @@ VALUES (31759, 0, 83897335, 83897335);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31759, 0, 16792612);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31759, 16, 'Dericost Blade') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31759, 160, 400) /* WIELD_DIFFICULTY_INT */
-     , (31759, 353, 2) /* WEAPON_TYPE_INT */
-     , (31759, 177, 1) /* GEM_COUNT_INT */
-     , (31759, 178, 21) /* GEM_TYPE_INT */
-     , (31759, 19, 9599) /* VALUE_INT */
-     , (31759, 131, 51) /* MATERIAL_TYPE_INT */
-     , (31759, 5, 275) /* ENCUMB_VAL_INT */
-     , (31759, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (31759, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31759, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (31759, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (31759, 47, 6) /* ATTACK_TYPE_INT */
-     , (31759, 45, 3) /* DAMAGE_TYPE_INT */
-     , (31759, 49, 30) /* WEAPON_TIME_INT */
-     , (31759, 48, 45) /* WEAPON_SKILL_INT */
-     , (31759, 44, 48) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31759, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
-     , (31759, 22, 0.52) /* DAMAGE_VARIANCE_FLOAT */
-     , (31759, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (31759, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (31759, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (31759, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
-

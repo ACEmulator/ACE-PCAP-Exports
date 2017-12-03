@@ -38,34 +38,3 @@ VALUES (22491, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22491, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (22491, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22491, 15, 'Warning: My reward will fill you to the brim.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22491, 384, 0) /*  */
-     , (22491, 370, 0) /* GEAR_DAMAGE_INT */
-     , (22491, 386, 0) /*  */
-     , (22491, 307, 0) /* DAMAGE_RATING_INT */
-     , (22491, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (22491, 387, 0) /*  */
-     , (22491, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (22491, 372, 0) /* GEAR_CRIT_INT */
-     , (22491, 388, 0) /*  */
-     , (22491, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (22491, 389, 0) /*  */
-     , (22491, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (22491, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (22491, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (22491, 313, 0) /* CRIT_RATING_INT */
-     , (22491, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (22491, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (22491, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (22491, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (22491, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (22491, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (22491, 381, 0) /*  */
-     , (22491, 382, 0) /*  */
-     , (22491, 383, 0) /*  */;
-

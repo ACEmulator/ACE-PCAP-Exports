@@ -51,34 +51,3 @@ VALUES (350, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (350, 0, 16777963);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (350, 16, 'Broad Sword') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (350, 160, 325) /* WIELD_DIFFICULTY_INT */
-     , (350, 353, 2) /* WEAPON_TYPE_INT */
-     , (350, 177, 6) /* GEM_COUNT_INT */
-     , (350, 178, 45) /* GEM_TYPE_INT */
-     , (350, 19, 2662) /* VALUE_INT */
-     , (350, 131, 63) /* MATERIAL_TYPE_INT */
-     , (350, 5, 404) /* ENCUMB_VAL_INT */
-     , (350, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (350, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (350, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (350, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (350, 47, 6) /* ATTACK_TYPE_INT */
-     , (350, 45, 3) /* DAMAGE_TYPE_INT */
-     , (350, 49, 42) /* WEAPON_TIME_INT */
-     , (350, 48, 45) /* WEAPON_SKILL_INT */
-     , (350, 44, 34) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (350, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (350, 22, 0.52) /* DAMAGE_VARIANCE_FLOAT */
-     , (350, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (350, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (350, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (350, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
-

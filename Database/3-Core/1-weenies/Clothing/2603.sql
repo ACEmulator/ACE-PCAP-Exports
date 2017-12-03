@@ -49,38 +49,3 @@ VALUES (2603, 0, 83887064, 83886241)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2603, 0, 16779742);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2603, 16, 'Baggy Breeches of Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2603, 19, 1459) /* VALUE_INT */
-     , (2603, 131, 4) /* MATERIAL_TYPE_INT */
-     , (2603, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (2603, 5, 90) /* ENCUMB_VAL_INT */
-     , (2603, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (2603, 106, 196) /* ITEM_SPELLCRAFT_INT */
-     , (2603, 28, 0) /* ARMOR_LEVEL_INT */
-     , (2603, 108, 641) /* ITEM_MAX_MANA_INT */
-     , (2603, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (2603, 109, 196) /* ITEM_DIFFICULTY_INT */
-     , (2603, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2603, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (2603, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (2603, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (2603, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (2603, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (2603, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (2603, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (2603, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (2603, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2603, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2603, 1311) /* ArmorSelf5_SpellID */;
-

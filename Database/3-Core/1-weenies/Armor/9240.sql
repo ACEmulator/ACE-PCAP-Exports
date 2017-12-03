@@ -56,23 +56,3 @@ VALUES (9240, 0, 16784627)
      , (9240, 4, 16781840)
      , (9240, 5, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9240, 16, 'Boots made out of the hide of a Sclavus.  They are faintly iridescent, and shimmer when you walk.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9240, 19, 1200) /* VALUE_INT */
-     , (9240, 5, 450) /* ENCUMB_VAL_INT */
-     , (9240, 28, 100) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (9240, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (9240, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (9240, 15, 0.7) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (9240, 16, 1.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (9240, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (9240, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (9240, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (9240, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

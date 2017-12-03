@@ -43,37 +43,3 @@ VALUES (33587, 0, 83887064, 83897530)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33587, 0, 16778829);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33587, 160, 150) /* WIELD_DIFFICULTY_INT */
-     , (33587, 19, 20000) /* VALUE_INT */
-     , (33587, 5, 1150) /* ENCUMB_VAL_INT */
-     , (33587, 265, 5) /* EQUIPMENT_SET_ID_INT */
-     , (33587, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (33587, 28, 420) /* ARMOR_LEVEL_INT */
-     , (33587, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (33587, 109, 220) /* ITEM_DIFFICULTY_INT */
-     , (33587, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (33587, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (33587, 5, -0.0166) /* MANA_RATE_FLOAT */
-     , (33587, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (33587, 14, 1.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (33587, 15, 1.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (33587, 16, 1.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (33587, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (33587, 18, 0.9) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (33587, 19, 0.9) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (33587, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (33587, 2248) /* ItemEnchantmentMasteryOther7_SpellID */
-     , (33587, 2322) /* WarMagicMasteryOther7_SpellID */
-     , (33587, 2266) /* LifeMagicMasteryOther7_SpellID */
-     , (33587, 5409) /* VoidMagicMasteryOther7_SpellID */
-     , (33587, 2214) /* CreatureEnchantmentMasteryOther7_SpellID */
-     , (33587, 3576) /* PerfectHealth_SpellID */
-     , (33587, 2108) /* Impenetrability7_SpellID */;
-

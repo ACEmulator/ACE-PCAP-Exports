@@ -89,38 +89,3 @@ VALUES (38273, 12, 16778423)
      , (38273, 4, 16788088)
      , (38273, 8, 16788089);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38273, 5, 'Spawn Pools Task Master') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38273, 16, 67109567) /* EYES_PALETTE_DID */
-     , (38273, 9, 83890258) /* EYES_TEXTURE_DID */
-     , (38273, 17, 67109551) /* SKIN_PALETTE_DID */
-     , (38273, 10, 83890306) /* NOSE_TEXTURE_DID */
-     , (38273, 11, 83890340) /* MOUTH_TEXTURE_DID */
-     , (38273, 15, 67117026) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38273, 288, 1001) /* SOCIETY_RANK_ELDWEB_INT */
-     , (38273, 113, 2) /* GENDER_INT */
-     , (38273, 2, 31) /* CREATURE_TYPE_INT */
-     , (38273, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38273, 25, 190) /* LEVEL_INT */
-     , (38273, 281, 2) /* FACTION1_BITS_INT */
-     , (38273, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38273, 1, 255) /* STRENGTH_ATTRIBUTE */
-     , (38273, 2, 220) /* ENDURANCE_ATTRIBUTE */
-     , (38273, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (38273, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (38273, 16, 90) /* FOCUS_ATTRIBUTE */
-     , (38273, 32, 90) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38273, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38273, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38273, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
-

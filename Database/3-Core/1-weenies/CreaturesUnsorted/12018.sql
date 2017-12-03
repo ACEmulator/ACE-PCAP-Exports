@@ -39,25 +39,6 @@ VALUES (12018, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (12018, 67113360, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12018, 2, 16) /* CREATURE_TYPE_INT */
-     , (12018, 25, 20) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (12018, 1, 105) /* STRENGTH_ATTRIBUTE */
-     , (12018, 2, 120) /* ENDURANCE_ATTRIBUTE */
-     , (12018, 4, 105) /* COORDINATION_ATTRIBUTE */
-     , (12018, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (12018, 16, 75) /* FOCUS_ATTRIBUTE */
-     , (12018, 32, 70) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (12018, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (12018, 128, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (12018, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

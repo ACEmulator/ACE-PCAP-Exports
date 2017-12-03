@@ -32,14 +32,3 @@ VALUES (30485, 13, True) /* ETHEREAL_BOOL */
      , (30485, 19, True) /* ATTACKABLE_BOOL */
      , (30485, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30485, 16, 'A bronze handbell, found in the Holtburg Redoubt. This handbell belonged to Hardunna''s mother, Hope, before she was slain by Tumeroks in the Holtburg Redoubt.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30485, 33, 1) /* BONDED_INT */
-     , (30485, 114, 1) /* ATTUNED_INT */
-     , (30485, 19, 0) /* VALUE_INT */
-     , (30485, 5, 10) /* ENCUMB_VAL_INT */;
-

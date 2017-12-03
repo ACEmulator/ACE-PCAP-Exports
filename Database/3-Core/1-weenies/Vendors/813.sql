@@ -88,40 +88,6 @@ VALUES (813, 11, 16777302)
      , (813, 8, 16781839)
      , (813, 16, 16779630);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (813, 5, 'Apprentice Smith') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (813, 16, 67109565) /* EYES_PALETTE_DID */
-     , (813, 9, 83890448) /* EYES_TEXTURE_DID */
-     , (813, 17, 67110052) /* SKIN_PALETTE_DID */
-     , (813, 10, 83890519) /* NOSE_TEXTURE_DID */
-     , (813, 11, 83890583) /* MOUTH_TEXTURE_DID */
-     , (813, 15, 67116992) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (813, 113, 1) /* GENDER_INT */
-     , (813, 2, 31) /* CREATURE_TYPE_INT */
-     , (813, 307, 5) /* DAMAGE_RATING_INT */
-     , (813, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (813, 25, 5) /* LEVEL_INT */
-     , (813, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (813, 1, 40) /* STRENGTH_ATTRIBUTE */
-     , (813, 2, 50) /* ENDURANCE_ATTRIBUTE */
-     , (813, 4, 60) /* COORDINATION_ATTRIBUTE */
-     , (813, 8, 65) /* QUICKNESS_ATTRIBUTE */
-     , (813, 16, 20) /* FOCUS_ATTRIBUTE */
-     , (813, 32, 20) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (813, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (813, 128, 115) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (813, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

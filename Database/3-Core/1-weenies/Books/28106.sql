@@ -34,14 +34,3 @@ VALUES (28106, 13, True) /* ETHEREAL_BOOL */
      , (28106, 14, True) /* GRAVITY_STATUS_BOOL */
      , (28106, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28106, 16, 'A hand written note.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28106, 19, 10) /* VALUE_INT */
-     , (28106, 5, 25) /* ENCUMB_VAL_INT */
-     , (28106, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (28106, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

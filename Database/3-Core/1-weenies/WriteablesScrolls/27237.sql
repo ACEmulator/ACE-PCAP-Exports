@@ -35,17 +35,3 @@ VALUES (27237, 13, True) /* ETHEREAL_BOOL */
      , (27237, 19, True) /* ATTACKABLE_BOOL */
      , (27237, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27237, 16, 'Inscribed spell: Eradicate Life Magic Self
-Dispels 3-6 negative Life Magic enchantments of level 7 or lower from the caster.') /* LONG_DESC_STRING */
-     , (27237, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27237, 19, 1000) /* VALUE_INT */
-     , (27237, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27237, 3194) /* DispelLifeBadSelf7_SpellID */;
-

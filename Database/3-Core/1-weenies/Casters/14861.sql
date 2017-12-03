@@ -41,20 +41,3 @@ VALUES (14861, 67113784, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14861, 0, 16787230);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14861, 15, 'A Tumerok drum. Aun Tikakhe would be interested in seeing this.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14861, 33, 1) /* BONDED_INT */
-     , (14861, 19, 0) /* VALUE_INT */
-     , (14861, 5, 20) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (14861, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (14861, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14861, 69, 0) /* IS_SELLABLE_BOOL */;
-

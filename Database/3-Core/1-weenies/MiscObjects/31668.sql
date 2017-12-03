@@ -34,15 +34,3 @@ VALUES (31668, 13, True) /* ETHEREAL_BOOL */
      , (31668, 19, True) /* ATTACKABLE_BOOL */
      , (31668, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31668, 16, 'This is an ancient book of Falatacot origin.  It casts the spell Master''s Voice, which raises the user''s Focus by 10.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31668, 19, 0) /* VALUE_INT */
-     , (31668, 5, 200) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31668, 69, 0) /* IS_SELLABLE_BOOL */;
-

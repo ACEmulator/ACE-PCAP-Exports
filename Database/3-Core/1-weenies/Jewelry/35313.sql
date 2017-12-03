@@ -36,27 +36,3 @@ VALUES (35313, 13, True) /* ETHEREAL_BOOL */
      , (35313, 19, True) /* ATTACKABLE_BOOL */
      , (35313, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35313, 15, 'A Tanada medallion enchanted by Diyas al-Yat to be useable by humans untainted by chaotic Virindi.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35313, 33, 1) /* BONDED_INT */
-     , (35313, 114, 1) /* ATTUNED_INT */
-     , (35313, 19, 0) /* VALUE_INT */
-     , (35313, 5, 50) /* ENCUMB_VAL_INT */
-     , (35313, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (35313, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (35313, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (35313, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35313, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (35313, 2661) /* ModerateFocus_SpellID */
-     , (35313, 2664) /* ModerateWillpower_SpellID */;
-

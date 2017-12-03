@@ -45,12 +45,3 @@ VALUES (21918, 67114016, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21918, 0, 16788386);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21918, 16, 'Killed by Zech.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21918, 19, 0) /* VALUE_INT */
-     , (21918, 5, 6055) /* ENCUMB_VAL_INT */;
-

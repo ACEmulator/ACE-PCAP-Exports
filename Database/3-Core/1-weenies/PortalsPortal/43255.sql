@@ -33,15 +33,3 @@ VALUES (43255, 13, True) /* ETHEREAL_BOOL */
      , (43255, 19, True) /* ATTACKABLE_BOOL */
      , (43255, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43255, 38, 'Sparkling Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43255, 98, 1485754728) /* CREATION_TIMESTAMP_INT */
-     , (43255, 86, 180) /* MIN_LEVEL_INT */
-     , (43255, 267, 60) /* LIFESPAN_INT */
-     , (43255, 268, 59) /* REMAINING_LIFESPAN_INT */
-     , (43255, 111, 49) /* PORTAL_BITMASK_INT */;
-

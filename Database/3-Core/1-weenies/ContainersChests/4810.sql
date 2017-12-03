@@ -37,19 +37,3 @@ VALUES (4810, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4810, 19, True) /* ATTACKABLE_BOOL */
      , (4810, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4810, 16, 'This coffin appears to have a sturdy iron lock, of the kind used to protect valuable treasure. Unfortunately, it looks nearly impossible to pick.') /* LONG_DESC_STRING */
-     , (4810, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4810, 19, 200) /* VALUE_INT */
-     , (4810, 5, 6120) /* ENCUMB_VAL_INT */
-     , (4810, 38, 5000) /* RESIST_LOCKPICK_INT */
-     , (4810, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (4810, 2, 0) /* OPEN_BOOL */
-     , (4810, 3, 1) /* LOCKED_BOOL */;
-

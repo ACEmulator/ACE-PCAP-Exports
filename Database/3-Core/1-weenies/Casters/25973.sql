@@ -49,28 +49,3 @@ VALUES (25973, 0, 83892429, 83892429)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25973, 0, 16789810);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25973, 15, 'This stave is a symbol of the sorcerers of the Shagar Zharala. This particular stave was once the property of the Zharalim traitor Rheth Al'' Thok.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25973, 160, 30) /* WIELD_DIFFICULTY_INT */
-     , (25973, 19, 5000) /* VALUE_INT */
-     , (25973, 5, 200) /* ENCUMB_VAL_INT */
-     , (25973, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (25973, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (25973, 109, 75) /* ITEM_DIFFICULTY_INT */
-     , (25973, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25973, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25973, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
-     , (25973, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (25973, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25973, 3013) /* OasisHealthRegen_SpellID */
-     , (25973, 3014) /* OasisManaRegen_SpellID */
-     , (25973, 3015) /* OasisStaminaRegen_SpellID */;
-

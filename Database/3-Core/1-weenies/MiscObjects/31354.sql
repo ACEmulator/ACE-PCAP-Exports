@@ -33,17 +33,6 @@ VALUES (31354, 13, True) /* ETHEREAL_BOOL */
      , (31354, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31354, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31354, 16, 'A perfectly intact spine from an Olthoi Ripper.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31354, 33, 1) /* BONDED_INT */
-     , (31354, 114, 1) /* ATTUNED_INT */
-     , (31354, 19, 10000) /* VALUE_INT */
-     , (31354, 5, 100) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

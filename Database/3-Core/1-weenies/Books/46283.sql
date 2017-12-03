@@ -35,17 +35,6 @@ VALUES (46283, 13, True) /* ETHEREAL_BOOL */
      , (46283, 19, True) /* ATTACKABLE_BOOL */
      , (46283, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46283, 15, 'A book written by the Explorer Society.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46283, 19, 100) /* VALUE_INT */
-     , (46283, 5, 160) /* ENCUMB_VAL_INT */
-     , (46283, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (46283, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)

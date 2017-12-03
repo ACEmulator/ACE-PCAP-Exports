@@ -48,27 +48,3 @@ VALUES (12747, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12747, 0, 16777964);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12747, 14, 'Use Oil of Rendering on this weapon to create an Academy Ken.') /* USE_STRING */
-     , (12747, 15, 'A basic ken forged in the Strathelar Training Academy. This item can be placed on an item hook.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12747, 353, 2) /* WEAPON_TYPE_INT */
-     , (12747, 19, 25) /* VALUE_INT */
-     , (12747, 5, 200) /* ENCUMB_VAL_INT */
-     , (12747, 47, 6) /* ATTACK_TYPE_INT */
-     , (12747, 45, 3) /* DAMAGE_TYPE_INT */
-     , (12747, 49, 35) /* WEAPON_TIME_INT */
-     , (12747, 48, 44) /* WEAPON_SKILL_INT */
-     , (12747, 44, 10) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12747, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (12747, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (12747, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (12747, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (12747, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (12747, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

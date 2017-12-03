@@ -33,14 +33,3 @@ VALUES (49643, 13, True) /* ETHEREAL_BOOL */
      , (49643, 14, True) /* GRAVITY_STATUS_BOOL */
      , (49643, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (49643, 16, 'A note that guides the way through the dream.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49643, 19, 0) /* VALUE_INT */
-     , (49643, 5, 25) /* ENCUMB_VAL_INT */
-     , (49643, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (49643, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

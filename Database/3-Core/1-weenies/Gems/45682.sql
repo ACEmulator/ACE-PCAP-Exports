@@ -38,26 +38,6 @@ VALUES (45682, 13, True) /* ETHEREAL_BOOL */
      , (45682, 19, True) /* ATTACKABLE_BOOL */
      , (45682, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45682, 16, 'A contract for collecting the Mnemosyne of Battle Lord Gregor, to prove to Nalicana your worth to earn Luminance.') /* LONG_DESC_STRING */
-     , (45682, 14, 'Recommended Level: 200') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45682, 33, 1) /* BONDED_INT */
-     , (45682, 114, 1) /* ATTUNED_INT */
-     , (45682, 19, 0) /* VALUE_INT */
-     , (45682, 5, 0) /* ENCUMB_VAL_INT */
-     , (45682, 279, 1) /* UNIQUE_INT */
-     , (45682, 280, 100) /* SHARED_COOLDOWN_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45682, 167, 2) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (45682, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

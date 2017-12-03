@@ -49,37 +49,3 @@ VALUES (48577, 0, 83899123, 83899129)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48577, 0, 16796838);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48577, 16, 'A large, glowing seed, empowered by the magics of the Light Falatacot.  This seed was retrieved from the Temple of Twilight, underneath the Inner Sea.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48577, 160, 340) /* WIELD_DIFFICULTY_INT */
-     , (48577, 33, 1) /* BONDED_INT */
-     , (48577, 114, 1) /* ATTUNED_INT */
-     , (48577, 19, 20000) /* VALUE_INT */
-     , (48577, 5, 50) /* ENCUMB_VAL_INT */
-     , (48577, 106, 450) /* ITEM_SPELLCRAFT_INT */
-     , (48577, 108, 5000) /* ITEM_MAX_MANA_INT */
-     , (48577, 109, 300) /* ITEM_DIFFICULTY_INT */
-     , (48577, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (48577, 159, 31) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (48577, 144, 0.2) /* MANA_CONVERSION_MOD_FLOAT */
-     , (48577, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
-     , (48577, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (48577, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (48577, 2282) /* MagicYieldOther7_SpellID */
-     , (48577, 3200) /* CantripHermeticLink2_SpellID */
-     , (48577, 2249) /* ItemEnchantmentMasterySelf7_SpellID */
-     , (48577, 4689) /* CANTRIPCREATUREENCHANTMENTAPTITUDE3_SpellID */
-     , (48577, 2516) /* CANTRIPITEMENCHANTMENTAPTITUDE2_SpellID */
-     , (48577, 4530) /* CreatureEnchantmentMasterySelf8_SpellID */
-     , (48577, 4602) /* ManaMasterySelf8_SpellID */;
-

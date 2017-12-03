@@ -35,17 +35,3 @@ VALUES (2732, 13, True) /* ETHEREAL_BOOL */
      , (2732, 19, True) /* ATTACKABLE_BOOL */
      , (2732, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2732, 16, 'Inscribed spell: Slowness Other II
-Decreases the target''s Quickness by 15 points.') /* LONG_DESC_STRING */
-     , (2732, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2732, 19, 5) /* VALUE_INT */
-     , (2732, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2732, 1416) /* SlownessOther2_SpellID */;
-

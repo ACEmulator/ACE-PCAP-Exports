@@ -34,14 +34,3 @@ VALUES (5368, 13, True) /* ETHEREAL_BOOL */
      , (5368, 19, True) /* ATTACKABLE_BOOL */
      , (5368, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5368, 16, 'A stone key from the Under-Cove Crypt, half-covered by mold.') /* LONG_DESC_STRING */
-     , (5368, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5368, 19, 0) /* VALUE_INT */
-     , (5368, 5, 50) /* ENCUMB_VAL_INT */
-     , (5368, 91, 3) /* MAX_STRUCTURE_INT */;
-

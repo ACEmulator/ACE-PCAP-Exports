@@ -31,13 +31,3 @@ VALUES (42533, 13, True) /* ETHEREAL_BOOL */
      , (42533, 19, True) /* ATTACKABLE_BOOL */
      , (42533, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42533, 16, 'A fancy shaped tree useful for sprucing up any house.') /* LONG_DESC_STRING */
-     , (42533, 14, 'This item can be placed on Yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42533, 19, 0) /* VALUE_INT */
-     , (42533, 5, 100) /* ENCUMB_VAL_INT */;
-

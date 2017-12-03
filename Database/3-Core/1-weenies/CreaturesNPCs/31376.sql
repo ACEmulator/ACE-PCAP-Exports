@@ -101,36 +101,3 @@ VALUES (31376, 16, 16795675)
      , (31376, 4, 16790003)
      , (31376, 8, 16790002);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31376, 5, 'Shadow Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31376, 16, 67110064) /* EYES_PALETTE_DID */
-     , (31376, 9, 83890513) /* EYES_TEXTURE_DID */
-     , (31376, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (31376, 10, 83890560) /* NOSE_TEXTURE_DID */
-     , (31376, 11, 83890652) /* MOUTH_TEXTURE_DID */
-     , (31376, 15, 67116977) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31376, 113, 1) /* GENDER_INT */
-     , (31376, 2, 31) /* CREATURE_TYPE_INT */
-     , (31376, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31376, 25, 90) /* LEVEL_INT */
-     , (31376, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (31376, 1, 215) /* STRENGTH_ATTRIBUTE */
-     , (31376, 2, 140) /* ENDURANCE_ATTRIBUTE */
-     , (31376, 4, 215) /* COORDINATION_ATTRIBUTE */
-     , (31376, 8, 180) /* QUICKNESS_ATTRIBUTE */
-     , (31376, 16, 110) /* FOCUS_ATTRIBUTE */
-     , (31376, 32, 115) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31376, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (31376, 128, 270) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (31376, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
-

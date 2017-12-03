@@ -45,12 +45,3 @@ VALUES (8665, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8665, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8665, 16, 'The scalp of an Ursuin.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8665, 19, 0) /* VALUE_INT */
-     , (8665, 5, 400) /* ENCUMB_VAL_INT */;
-

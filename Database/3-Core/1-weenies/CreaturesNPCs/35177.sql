@@ -43,26 +43,3 @@ VALUES (35177, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35177, 67112926, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35177, 5, 'Empyrean Crystal Array') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35177, 2, 47) /* CREATURE_TYPE_INT */
-     , (35177, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (35177, 25, 710) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (35177, 1, 350) /* STRENGTH_ATTRIBUTE */
-     , (35177, 2, 350) /* ENDURANCE_ATTRIBUTE */
-     , (35177, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (35177, 8, 150) /* QUICKNESS_ATTRIBUTE */
-     , (35177, 16, 400) /* FOCUS_ATTRIBUTE */
-     , (35177, 32, 400) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35177, 64, 850) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (35177, 128, 950) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (35177, 256, 2900) /* MAX_MANA_ATTRIBUTE_2ND */;
-

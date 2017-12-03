@@ -33,11 +33,3 @@ VALUES (8617, 13, True) /* ETHEREAL_BOOL */
      , (8617, 19, True) /* ATTACKABLE_BOOL */
      , (8617, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8617, 38, 'Mayoi Beach Portal (60.8S, 82.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8617, 111, 1) /* PORTAL_BITMASK_INT */;
-

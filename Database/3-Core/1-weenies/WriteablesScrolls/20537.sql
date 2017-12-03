@@ -35,17 +35,3 @@ VALUES (20537, 13, True) /* ETHEREAL_BOOL */
      , (20537, 19, True) /* ATTACKABLE_BOOL */
      , (20537, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20537, 16, 'Inscribed spell: Web of Defense
-Increases the target''s Melee Defense skill by 40 points.') /* LONG_DESC_STRING */
-     , (20537, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20537, 19, 2000) /* VALUE_INT */
-     , (20537, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20537, 2244) /* InvulnerabilityOther7_SpellID */;
-

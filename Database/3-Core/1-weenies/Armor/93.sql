@@ -45,28 +45,3 @@ VALUES (93, 0, 83890137, 83890134);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (93, 0, 16778320);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (93, 16, 'Round Shield') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (93, 177, 2) /* GEM_COUNT_INT */
-     , (93, 178, 39) /* GEM_TYPE_INT */
-     , (93, 19, 6278) /* VALUE_INT */
-     , (93, 131, 58) /* MATERIAL_TYPE_INT */
-     , (93, 5, 546) /* ENCUMB_VAL_INT */
-     , (93, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (93, 28, 118) /* ARMOR_LEVEL_INT */
-     , (93, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (93, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (93, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (93, 15, 1.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (93, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (93, 17, 1.030414) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (93, 18, 1.613119) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (93, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (93, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

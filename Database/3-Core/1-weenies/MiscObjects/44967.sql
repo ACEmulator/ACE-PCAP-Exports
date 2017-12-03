@@ -37,20 +37,6 @@ VALUES (44967, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44967, 67111923, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44967, 14, 'Combine this gem with an attribute lowering gem to transfer up to 10 points of another attribute to your coordination. ') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44967, 33, 1) /* BONDED_INT */
-     , (44967, 98, 1485833024) /* CREATION_TIMESTAMP_INT */
-     , (44967, 114, 1) /* ATTUNED_INT */
-     , (44967, 19, 0) /* VALUE_INT */
-     , (44967, 5, 10) /* ENCUMB_VAL_INT */
-     , (44967, 267, 900) /* LIFESPAN_INT */
-     , (44967, 268, 900) /* REMAINING_LIFESPAN_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

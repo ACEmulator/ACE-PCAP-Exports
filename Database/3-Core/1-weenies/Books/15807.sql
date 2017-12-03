@@ -33,19 +33,6 @@ VALUES (15807, 13, True) /* ETHEREAL_BOOL */
      , (15807, 14, True) /* GRAVITY_STATUS_BOOL */
      , (15807, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15807, 15, 'A Note to Glysander Cartoth') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15807, 33, 1) /* BONDED_INT */
-     , (15807, 114, 1) /* ATTUNED_INT */
-     , (15807, 19, 0) /* VALUE_INT */
-     , (15807, 5, 25) /* ENCUMB_VAL_INT */
-     , (15807, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (15807, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

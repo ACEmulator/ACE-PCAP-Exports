@@ -42,17 +42,3 @@ VALUES (12748, 0, 83894467, 83894468);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12748, 0, 16788860);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12748, 14, 'Use Oil of Rendering on this weapon to create an Academy Wand.') /* USE_STRING */
-     , (12748, 15, 'A basic wand forged in the Strathelar Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12748, 19, 25) /* VALUE_INT */
-     , (12748, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12748, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (12748, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-

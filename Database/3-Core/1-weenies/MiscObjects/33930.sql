@@ -31,18 +31,3 @@ VALUES (33930, 13, True) /* ETHEREAL_BOOL */
      , (33930, 19, True) /* ATTACKABLE_BOOL */
      , (33930, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33930, 16, 'A token, given to you by Larinne Kerendova, that can be given to specific individuals, in order to receive a new pet.') /* LONG_DESC_STRING */
-     , (33930, 14, 'Give this token to a Pet Vendor in order to receive a new pet.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33930, 33, 1) /* BONDED_INT */
-     , (33930, 114, 1) /* ATTUNED_INT */
-     , (33930, 19, 0) /* VALUE_INT */
-     , (33930, 5, 10) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (33930, 69, 0) /* IS_SELLABLE_BOOL */;
-

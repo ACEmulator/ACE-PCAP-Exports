@@ -51,35 +51,3 @@ VALUES (33950, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33950, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33950, 16, 'A robe crafted from a mattekar hide.  It has some natural padding in it that makes it stronger and more resistant to damage. This robe has been enhanced by Belinda du Loc.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33950, 160, 50) /* WIELD_DIFFICULTY_INT */
-     , (33950, 19, 6000) /* VALUE_INT */
-     , (33950, 5, 500) /* ENCUMB_VAL_INT */
-     , (33950, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (33950, 108, 1320) /* ITEM_MAX_MANA_INT */
-     , (33950, 28, 500) /* ARMOR_LEVEL_INT */
-     , (33950, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (33950, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (33950, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (33950, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (33950, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (33950, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (33950, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (33950, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (33950, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (33950, 18, 0.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (33950, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (33950, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (33950, 2155) /* ColdProtectionSelf7_SpellID */
-     , (33950, 4018) /* Permafrost_SpellID */
-     , (33950, 2619) /* CANTRIPFROSTWARD1_SpellID */;
-

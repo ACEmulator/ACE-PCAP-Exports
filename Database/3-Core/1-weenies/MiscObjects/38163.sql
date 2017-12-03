@@ -31,14 +31,3 @@ VALUES (38163, 13, True) /* ETHEREAL_BOOL */
      , (38163, 19, True) /* ATTACKABLE_BOOL */
      , (38163, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38163, 16, 'This tattered piece of paper is mostly written in a strange language, but at the top, in Roulean, are the words, "Procedures By Which a Desolation Moarsman May Be Converted To The Creeping Blight."  It is far too damaged to utilize in any fashion except as proof of a deed.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38163, 33, 1) /* BONDED_INT */
-     , (38163, 114, 1) /* ATTUNED_INT */
-     , (38163, 19, 0) /* VALUE_INT */
-     , (38163, 5, 10) /* ENCUMB_VAL_INT */;
-

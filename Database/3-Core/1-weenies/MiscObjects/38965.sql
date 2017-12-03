@@ -34,16 +34,3 @@ VALUES (38965, 13, True) /* ETHEREAL_BOOL */
      , (38965, 19, True) /* ATTACKABLE_BOOL */
      , (38965, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38965, 16, 'A Casino Ticket Stub with the unique bite pattern of the Carenzi Racer you bet upon.') /* LONG_DESC_STRING */
-     , (38965, 14, 'Hand this ticket to the Carenzi Race Bookie if your Carenzi won the race.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38965, 98, 1485664035) /* CREATION_TIMESTAMP_INT */
-     , (38965, 19, 0) /* VALUE_INT */
-     , (38965, 5, 5) /* ENCUMB_VAL_INT */
-     , (38965, 267, 360) /* LIFESPAN_INT */
-     , (38965, 268, 348) /* REMAINING_LIFESPAN_INT */;
-

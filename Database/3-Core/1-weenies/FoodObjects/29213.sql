@@ -34,21 +34,6 @@ VALUES (29213, 13, True) /* ETHEREAL_BOOL */
      , (29213, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29213, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29213, 16, 'An amazing bottle of glorious amber ale. This beer has a thicker consistency than the usual brew.') /* LONG_DESC_STRING */
-     , (29213, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29213, 19, 490) /* VALUE_INT */
-     , (29213, 5, 3675) /* ENCUMB_VAL_INT */
-     , (29213, 89, 4) /* BOOSTER_ENUM_INT */
-     , (29213, 90, 75) /* BOOST_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29213, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

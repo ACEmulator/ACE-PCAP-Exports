@@ -32,20 +32,6 @@ VALUES (12027, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12027, 19, True) /* ATTACKABLE_BOOL */
      , (12027, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12027, 16, 'Inscribed spell: Fat Fingers
-Decreases the target''s Lockpick skill by 40 points.') /* LONG_DESC_STRING */
-     , (12027, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12027, 19, 2000) /* VALUE_INT */
-     , (12027, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (12027, 2268) /* LockpickIneptitudeOther7_SpellID */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -83,25 +83,6 @@ VALUES (42983, 0, 16789312)
      , (42983, 15, 16789333)
      , (42983, 16, 16789335);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42983, 16, 67110065) /* EYES_PALETTE_DID */
-     , (42983, 9, 83890255) /* EYES_TEXTURE_DID */
-     , (42983, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (42983, 10, 83890286) /* NOSE_TEXTURE_DID */
-     , (42983, 11, 83890319) /* MOUTH_TEXTURE_DID */
-     , (42983, 15, 67117080) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42983, 113, 2) /* GENDER_INT */
-     , (42983, 2, 31) /* CREATURE_TYPE_INT */
-     , (42983, 25, 200) /* LEVEL_INT */
-     , (42983, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42983, 64, 5000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

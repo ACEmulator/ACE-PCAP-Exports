@@ -47,33 +47,3 @@ VALUES (30597, 0, 83897172, 83897172);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30597, 0, 16792136);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30597, 16, 'Lightning Poniard') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30597, 160, 325) /* WIELD_DIFFICULTY_INT */
-     , (30597, 353, 6) /* WEAPON_TYPE_INT */
-     , (30597, 19, 1354) /* VALUE_INT */
-     , (30597, 131, 60) /* MATERIAL_TYPE_INT */
-     , (30597, 5, 200) /* ENCUMB_VAL_INT */
-     , (30597, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (30597, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (30597, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (30597, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (30597, 47, 6) /* ATTACK_TYPE_INT */
-     , (30597, 45, 64) /* DAMAGE_TYPE_INT */
-     , (30597, 49, 38) /* WEAPON_TIME_INT */
-     , (30597, 48, 46) /* WEAPON_SKILL_INT */
-     , (30597, 44, 34) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30597, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
-     , (30597, 150, 1.015) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (30597, 22, 0.47) /* DAMAGE_VARIANCE_FLOAT */
-     , (30597, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (30597, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (30597, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (30597, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
-

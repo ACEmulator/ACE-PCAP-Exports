@@ -36,37 +36,3 @@ VALUES (27907, 13, True) /* ETHEREAL_BOOL */
      , (27907, 19, True) /* ATTACKABLE_BOOL */
      , (27907, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27907, 16, 'A spear modeled after the Mosswart hero Kreerg''s. A small stamp on the shaft reads: A Ketnan Product.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27907, 353, 5) /* WEAPON_TYPE_INT */
-     , (27907, 19, 500) /* VALUE_INT */
-     , (27907, 5, 225) /* ENCUMB_VAL_INT */
-     , (27907, 106, 85) /* ITEM_SPELLCRAFT_INT */
-     , (27907, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (27907, 109, 15) /* ITEM_DIFFICULTY_INT */
-     , (27907, 47, 6) /* ATTACK_TYPE_INT */
-     , (27907, 45, 32) /* DAMAGE_TYPE_INT */
-     , (27907, 49, 25) /* WEAPON_TIME_INT */
-     , (27907, 48, 46) /* WEAPON_SKILL_INT */
-     , (27907, 44, 30) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27907, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
-     , (27907, 5, -0.0333) /* MANA_RATE_FLOAT */
-     , (27907, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (27907, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (27907, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (27907, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (27907, 62, 1.02) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27907, 69, 1) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27907, 1612) /* BloodDrinker2_SpellID */
-     , (27907, 317) /* DaggerMasteryOther2_SpellID */;
-

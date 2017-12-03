@@ -47,25 +47,3 @@ VALUES (51373, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51373, 0, 16778334);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51373, 15, 'A bracelet of piercing protection, given by Behdo Yii for completing the Hive Eviscerator quest.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51373, 160, 180) /* WIELD_DIFFICULTY_INT */
-     , (51373, 19, 20000) /* VALUE_INT */
-     , (51373, 5, 60) /* ENCUMB_VAL_INT */
-     , (51373, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (51373, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (51373, 109, 300) /* ITEM_DIFFICULTY_INT */
-     , (51373, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (51373, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (51373, 5, -0.04) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (51373, 6084) /* CantripPiercingWard4_SpellID */
-     , (51373, 4471) /* PiercingProtectionOther8_SpellID */;
-

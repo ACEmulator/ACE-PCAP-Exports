@@ -86,39 +86,6 @@ VALUES (31863, 10, 16777301)
      , (31863, 8, 16781839)
      , (31863, 16, 16791874);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31863, 5, 'Wandering Milkman') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31863, 16, 67109565) /* EYES_PALETTE_DID */
-     , (31863, 9, 83890451) /* EYES_TEXTURE_DID */
-     , (31863, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (31863, 10, 83890522) /* NOSE_TEXTURE_DID */
-     , (31863, 11, 83890641) /* MOUTH_TEXTURE_DID */
-     , (31863, 15, 67116994) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31863, 113, 1) /* GENDER_INT */
-     , (31863, 2, 31) /* CREATURE_TYPE_INT */
-     , (31863, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31863, 25, 46) /* LEVEL_INT */
-     , (31863, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (31863, 1, 165) /* STRENGTH_ATTRIBUTE */
-     , (31863, 2, 205) /* ENDURANCE_ATTRIBUTE */
-     , (31863, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (31863, 8, 150) /* QUICKNESS_ATTRIBUTE */
-     , (31863, 16, 220) /* FOCUS_ATTRIBUTE */
-     , (31863, 32, 180) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31863, 64, 233) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (31863, 128, 305) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (31863, 256, 285) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

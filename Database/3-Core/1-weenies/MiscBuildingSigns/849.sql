@@ -35,12 +35,3 @@ VALUES (849, 0, 83891180, 83891183);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (849, 0, 16782236);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (849, 16, 'Konaji''s  Jewels') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (849, 19, 125) /* VALUE_INT */
-     , (849, 5, 9000) /* ENCUMB_VAL_INT */;
-

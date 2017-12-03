@@ -47,27 +47,3 @@ VALUES (45537, 0, 83888778, 83888778)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45537, 0, 16777925);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45537, 14, 'Use Oil of Rendering on this weapon to create an Academy Knife.') /* USE_STRING */
-     , (45537, 15, 'A basic knife forged in the Strathelar Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45537, 353, 6) /* WEAPON_TYPE_INT */
-     , (45537, 19, 25) /* VALUE_INT */
-     , (45537, 5, 50) /* ENCUMB_VAL_INT */
-     , (45537, 47, 6) /* ATTACK_TYPE_INT */
-     , (45537, 45, 3) /* DAMAGE_TYPE_INT */
-     , (45537, 49, 25) /* WEAPON_TIME_INT */
-     , (45537, 48, 46) /* WEAPON_SKILL_INT */
-     , (45537, 44, 9) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45537, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (45537, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (45537, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (45537, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (45537, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45537, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

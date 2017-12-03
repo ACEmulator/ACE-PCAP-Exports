@@ -31,14 +31,3 @@ VALUES (24929, 13, True) /* ETHEREAL_BOOL */
      , (24929, 19, True) /* ATTACKABLE_BOOL */
      , (24929, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24929, 15, 'The crest of a departed Olthoi Brood Queen Elder.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24929, 33, 1) /* BONDED_INT */
-     , (24929, 114, 1) /* ATTUNED_INT */
-     , (24929, 19, 0) /* VALUE_INT */
-     , (24929, 5, 50) /* ENCUMB_VAL_INT */;
-

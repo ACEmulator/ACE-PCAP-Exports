@@ -38,12 +38,3 @@ VALUES (36180, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (36180, 67114513, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36180, 98, 1485155501) /* CREATION_TIMESTAMP_INT */
-     , (36180, 19, 1) /* VALUE_INT */
-     , (36180, 5, 1) /* ENCUMB_VAL_INT */
-     , (36180, 267, 90) /* LIFESPAN_INT */
-     , (36180, 268, 88) /* REMAINING_LIFESPAN_INT */;
-

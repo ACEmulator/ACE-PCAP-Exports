@@ -34,15 +34,3 @@ VALUES (31222, 13, True) /* ETHEREAL_BOOL */
      , (31222, 19, True) /* ATTACKABLE_BOOL */
      , (31222, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31222, 16, 'This key reeks with the stench of the K''nath.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31222, 33, 0) /* BONDED_INT */
-     , (31222, 114, 0) /* ATTUNED_INT */
-     , (31222, 19, 0) /* VALUE_INT */
-     , (31222, 5, 50) /* ENCUMB_VAL_INT */
-     , (31222, 91, 3) /* MAX_STRUCTURE_INT */;
-

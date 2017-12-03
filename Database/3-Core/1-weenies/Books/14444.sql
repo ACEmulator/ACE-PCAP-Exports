@@ -33,19 +33,6 @@ VALUES (14444, 13, True) /* ETHEREAL_BOOL */
      , (14444, 14, True) /* GRAVITY_STATUS_BOOL */
      , (14444, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14444, 15, 'A letter from Dame Tsaya to Sir Rylanan, in Holtburg.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14444, 33, 1) /* BONDED_INT */
-     , (14444, 114, 1) /* ATTUNED_INT */
-     , (14444, 19, 0) /* VALUE_INT */
-     , (14444, 5, 5) /* ENCUMB_VAL_INT */
-     , (14444, 174, 5) /* APPRAISAL_PAGES_INT */
-     , (14444, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -32,17 +32,3 @@ VALUES (31223, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (31223, 19, True) /* ATTACKABLE_BOOL */
      , (31223, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31223, 16, 'This door is coated with the stench of the K''nath.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31223, 19, 0) /* VALUE_INT */
-     , (31223, 38, 300) /* RESIST_LOCKPICK_INT */
-     , (31223, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31223, 2, 0) /* OPEN_BOOL */
-     , (31223, 3, 1) /* LOCKED_BOOL */;
-

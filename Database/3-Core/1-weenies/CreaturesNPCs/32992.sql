@@ -89,36 +89,3 @@ VALUES (32992, 16, 16795650)
      , (32992, 4, 16792941)
      , (32992, 8, 16792944);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32992, 5, 'Chapterhouse Chamberlain') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32992, 16, 67110064) /* EYES_PALETTE_DID */
-     , (32992, 9, 83890510) /* EYES_TEXTURE_DID */
-     , (32992, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (32992, 10, 83890520) /* NOSE_TEXTURE_DID */
-     , (32992, 11, 83890664) /* MOUTH_TEXTURE_DID */
-     , (32992, 15, 67117020) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32992, 113, 1) /* GENDER_INT */
-     , (32992, 2, 31) /* CREATURE_TYPE_INT */
-     , (32992, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (32992, 25, 100) /* LEVEL_INT */
-     , (32992, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (32992, 1, 260) /* STRENGTH_ATTRIBUTE */
-     , (32992, 2, 250) /* ENDURANCE_ATTRIBUTE */
-     , (32992, 4, 320) /* COORDINATION_ATTRIBUTE */
-     , (32992, 8, 260) /* QUICKNESS_ATTRIBUTE */
-     , (32992, 16, 210) /* FOCUS_ATTRIBUTE */
-     , (32992, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32992, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (32992, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (32992, 256, 200) /* MAX_MANA_ATTRIBUTE_2ND */;
-

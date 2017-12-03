@@ -36,34 +36,3 @@ VALUES (35857, 13, True) /* ETHEREAL_BOOL */
      , (35857, 19, True) /* ATTACKABLE_BOOL */
      , (35857, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35857, 16, 'This mask was fashioned for its wielder from the broken mask of the Watcher of Black Water.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35857, 19, 8000) /* VALUE_INT */
-     , (35857, 5, 300) /* ENCUMB_VAL_INT */
-     , (35857, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (35857, 108, 3000) /* ITEM_MAX_MANA_INT */
-     , (35857, 28, 580) /* ARMOR_LEVEL_INT */
-     , (35857, 109, 200) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (35857, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (35857, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (35857, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (35857, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (35857, 16, 0.9) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (35857, 17, 0.9) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (35857, 18, 1.2) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (35857, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (35857, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (35857, 2059) /* CoordinationSelf7_SpellID */
-     , (35857, 2067) /* FocusSelf7_SpellID */
-     , (35857, 2524) /* CANTRIPMAGICRESISTANCE2_SpellID */
-     , (35857, 2287) /* ManaMasterySelf7_SpellID */
-     , (35857, 2108) /* Impenetrability7_SpellID */;
-

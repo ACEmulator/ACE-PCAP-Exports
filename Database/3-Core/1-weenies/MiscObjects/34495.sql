@@ -30,14 +30,3 @@ VALUES (34495, 13, True) /* ETHEREAL_BOOL */
      , (34495, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34495, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34495, 16, 'The medallion on this necklace is artfully crafted to depict a crown studded with emeralds.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34495, 33, 1) /* BONDED_INT */
-     , (34495, 114, 1) /* ATTUNED_INT */
-     , (34495, 19, 0) /* VALUE_INT */
-     , (34495, 5, 300) /* ENCUMB_VAL_INT */;
-

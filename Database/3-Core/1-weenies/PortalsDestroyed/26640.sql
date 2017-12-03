@@ -32,12 +32,3 @@ VALUES (26640, 13, True) /* ETHEREAL_BOOL */
      , (26640, 19, True) /* ATTACKABLE_BOOL */
      , (26640, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (26640, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LONG_DESC_STRING */
-     , (26640, 38, 'Destroyed Portal to Xarabydun (41.9S, 16.1E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (26640, 111, 49) /* PORTAL_BITMASK_INT */;
-

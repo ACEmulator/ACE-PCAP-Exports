@@ -34,18 +34,6 @@ VALUES (9125, 13, True) /* ETHEREAL_BOOL */
      , (9125, 19, True) /* ATTACKABLE_BOOL */
      , (9125, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9125, 16, 'This is the soul of a Virindi who thought he owned me.  Do not make the same mistake.  Martine.') /* LONG_DESC_STRING */
-     , (9125, 14, 'Combine with Torn Mosswart Shroud or Tattered Virindi Cloak') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9125, 33, 1) /* BONDED_INT */
-     , (9125, 114, 1) /* ATTUNED_INT */
-     , (9125, 19, 0) /* VALUE_INT */
-     , (9125, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

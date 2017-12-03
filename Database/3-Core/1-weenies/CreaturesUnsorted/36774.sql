@@ -93,26 +93,3 @@ VALUES (36774, 0, 16778359)
      , (36774, 15, 16789333)
      , (36774, 16, 16779328);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36774, 5, 'Rebel Leader') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (36774, 16, 67109565) /* EYES_PALETTE_DID */
-     , (36774, 9, 83890282) /* EYES_TEXTURE_DID */
-     , (36774, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (36774, 10, 83890291) /* NOSE_TEXTURE_DID */
-     , (36774, 11, 83890344) /* MOUTH_TEXTURE_DID */
-     , (36774, 15, 67116990) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36774, 113, 2) /* GENDER_INT */
-     , (36774, 2, 31) /* CREATURE_TYPE_INT */
-     , (36774, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (36774, 25, 89) /* LEVEL_INT */
-     , (36774, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36774, 64, 230) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

@@ -43,22 +43,3 @@ VALUES (7300, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7300, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7300, 16, 'This is a finely crafted fire opal ring handed down to Dansha-Ki by her father.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7300, 19, 5200) /* VALUE_INT */
-     , (7300, 5, 15) /* ENCUMB_VAL_INT */
-     , (7300, 106, 110) /* ITEM_SPELLCRAFT_INT */
-     , (7300, 108, 881) /* ITEM_MAX_MANA_INT */
-     , (7300, 109, 110) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (7300, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (7300, 278) /* MagicResistanceSelf5_SpellID */
-     , (7300, 1070) /* LightningProtectionSelf5_SpellID */;
-

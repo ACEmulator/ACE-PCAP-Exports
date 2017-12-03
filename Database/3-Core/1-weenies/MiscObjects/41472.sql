@@ -31,17 +31,3 @@ VALUES (41472, 13, True) /* ETHEREAL_BOOL */
      , (41472, 19, True) /* ATTACKABLE_BOOL */
      , (41472, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41472, 16, 'Using this gem will remove your need to use a focus for Creature Enchantment. This augmentation cannot be repeated.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41472, 33, 1) /* BONDED_INT */
-     , (41472, 114, 1) /* ATTUNED_INT */
-     , (41472, 19, 0) /* VALUE_INT */
-     , (41472, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
-VALUES (41472, 3, 2000000000) /* AUGMENTATION_COST_INT64 */;
-

@@ -33,11 +33,3 @@ VALUES (6112, 13, True) /* ETHEREAL_BOOL */
      , (6112, 19, True) /* ATTACKABLE_BOOL */
      , (6112, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6112, 38, 'Zaikhal Meeting Hall Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6112, 111, 1) /* PORTAL_BITMASK_INT */;
-

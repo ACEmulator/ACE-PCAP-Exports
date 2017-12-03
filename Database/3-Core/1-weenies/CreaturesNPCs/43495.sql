@@ -100,40 +100,6 @@ VALUES (43495, 9, 16788080)
      , (43495, 8, 16781817)
      , (43495, 16, 16794792);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43495, 5, 'Gurog Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43495, 16, 67109564) /* EYES_PALETTE_DID */
-     , (43495, 9, 83890275) /* EYES_TEXTURE_DID */
-     , (43495, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (43495, 10, 83890302) /* NOSE_TEXTURE_DID */
-     , (43495, 11, 83890336) /* MOUTH_TEXTURE_DID */
-     , (43495, 15, 67116978) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43495, 113, 2) /* GENDER_INT */
-     , (43495, 2, 31) /* CREATURE_TYPE_INT */
-     , (43495, 307, 5) /* DAMAGE_RATING_INT */
-     , (43495, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43495, 25, 150) /* LEVEL_INT */
-     , (43495, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (43495, 1, 255) /* STRENGTH_ATTRIBUTE */
-     , (43495, 2, 220) /* ENDURANCE_ATTRIBUTE */
-     , (43495, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (43495, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (43495, 16, 90) /* FOCUS_ATTRIBUTE */
-     , (43495, 32, 90) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43495, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (43495, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (43495, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -44,22 +44,3 @@ VALUES (8803, 67111927, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8803, 0, 16785521);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8803, 15, 'A trophy from the banishment of Bael''Zharon.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8803, 33, 1) /* BONDED_INT */
-     , (8803, 114, 1) /* ATTUNED_INT */
-     , (8803, 19, 0) /* VALUE_INT */
-     , (8803, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8803, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (8803, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8803, 99, 1) /* IVORYABLE_BOOL */
-     , (8803, 69, 0) /* IS_SELLABLE_BOOL */;
-

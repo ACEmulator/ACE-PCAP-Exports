@@ -47,27 +47,3 @@ VALUES (10858, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10858, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10858, 15, 'A ring of acid protection, given by Behdo Yii for completing the Gardener quest.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10858, 33, 1) /* BONDED_INT */
-     , (10858, 114, 1) /* ATTUNED_INT */
-     , (10858, 19, 0) /* VALUE_INT */
-     , (10858, 5, 10) /* ENCUMB_VAL_INT */
-     , (10858, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (10858, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (10858, 109, 75) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (10858, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (10858, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (10858, 240) /* InvulnerabilityOther2_SpellID */
-     , (10858, 511) /* AcidProtectionOther3_SpellID */;
-

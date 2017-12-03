@@ -33,12 +33,3 @@ VALUES (8191, 13, True) /* ETHEREAL_BOOL */
      , (8191, 19, True) /* ATTACKABLE_BOOL */
      , (8191, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8191, 38, 'The Floating City') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8191, 86, 150) /* MIN_LEVEL_INT */
-     , (8191, 111, 49) /* PORTAL_BITMASK_INT */;
-

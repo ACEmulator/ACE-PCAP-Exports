@@ -50,20 +50,6 @@ VALUES (20989, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20989, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20989, 14, 'Apply this material to a treasure-generated weapon to decrease the weapon''s speed by 50.') /* USE_STRING */
-     , (20989, 15, 'A bundle of oak material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20989, 33, 1) /* BONDED_INT */
-     , (20989, 131, 75) /* MATERIAL_TYPE_INT */
-     , (20989, 19, 12133) /* VALUE_INT */
-     , (20989, 5, 100) /* ENCUMB_VAL_INT */
-     , (20989, 105, 202) /* ITEM_WORKMANSHIP_INT */
-     , (20989, 170, 47) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

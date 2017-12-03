@@ -38,34 +38,3 @@ VALUES (28964, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28964, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (28964, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28964, 16, 'A well carved bust of Emperor Kellin II. It is masterfully crafted and looks very well made. Jif Loz may know more about this.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28964, 384, 0) /*  */
-     , (28964, 370, 0) /* GEAR_DAMAGE_INT */
-     , (28964, 386, 0) /*  */
-     , (28964, 307, 0) /* DAMAGE_RATING_INT */
-     , (28964, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (28964, 387, 0) /*  */
-     , (28964, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (28964, 372, 0) /* GEAR_CRIT_INT */
-     , (28964, 388, 0) /*  */
-     , (28964, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (28964, 389, 0) /*  */
-     , (28964, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (28964, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (28964, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (28964, 313, 0) /* CRIT_RATING_INT */
-     , (28964, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (28964, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (28964, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (28964, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (28964, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (28964, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (28964, 381, 0) /*  */
-     , (28964, 382, 0) /*  */
-     , (28964, 383, 0) /*  */;
-

@@ -37,34 +37,3 @@ VALUES (3822, 13, True) /* ETHEREAL_BOOL */
      , (3822, 19, True) /* ATTACKABLE_BOOL */
      , (3822, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3822, 16, 'Acid Ken') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3822, 160, 350) /* WIELD_DIFFICULTY_INT */
-     , (3822, 353, 2) /* WEAPON_TYPE_INT */
-     , (3822, 177, 1) /* GEM_COUNT_INT */
-     , (3822, 178, 49) /* GEM_TYPE_INT */
-     , (3822, 19, 4219) /* VALUE_INT */
-     , (3822, 131, 63) /* MATERIAL_TYPE_INT */
-     , (3822, 5, 301) /* ENCUMB_VAL_INT */
-     , (3822, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (3822, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3822, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3822, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (3822, 47, 6) /* ATTACK_TYPE_INT */
-     , (3822, 45, 32) /* DAMAGE_TYPE_INT */
-     , (3822, 49, 33) /* WEAPON_TIME_INT */
-     , (3822, 48, 44) /* WEAPON_SKILL_INT */
-     , (3822, 44, 47) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3822, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
-     , (3822, 22, 0.57) /* DAMAGE_VARIANCE_FLOAT */
-     , (3822, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3822, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3822, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3822, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
-

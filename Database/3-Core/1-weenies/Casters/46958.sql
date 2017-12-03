@@ -42,35 +42,3 @@ VALUES (46958, 13, True) /* ETHEREAL_BOOL */
      , (46958, 19, True) /* ATTACKABLE_BOOL */
      , (46958, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46958, 16, 'A large, glowing seed, empowered by the magics of the Light Falatacot.  This seed was retrieved from the Temple of Mornings, underneath the desert sands.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46958, 160, 340) /* WIELD_DIFFICULTY_INT */
-     , (46958, 33, 1) /* BONDED_INT */
-     , (46958, 114, 1) /* ATTUNED_INT */
-     , (46958, 19, 20000) /* VALUE_INT */
-     , (46958, 5, 50) /* ENCUMB_VAL_INT */
-     , (46958, 106, 450) /* ITEM_SPELLCRAFT_INT */
-     , (46958, 108, 5000) /* ITEM_MAX_MANA_INT */
-     , (46958, 109, 300) /* ITEM_DIFFICULTY_INT */
-     , (46958, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (46958, 159, 33) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (46958, 144, 0.2) /* MANA_CONVERSION_MOD_FLOAT */
-     , (46958, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
-     , (46958, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46958, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (46958, 2072) /* healother7_SpellID */
-     , (46958, 3200) /* CantripHermeticLink2_SpellID */
-     , (46958, 4700) /* CANTRIPLIFEMAGICAPTITUDE3_SpellID */
-     , (46958, 4582) /* LifeMagicMasterySelf8_SpellID */
-     , (46958, 4602) /* ManaMasterySelf8_SpellID */;
-

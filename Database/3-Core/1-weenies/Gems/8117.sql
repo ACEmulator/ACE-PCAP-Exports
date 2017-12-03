@@ -48,27 +48,6 @@ VALUES (8117, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8117, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8117, 16, 'This is a portal gem attuned to the energies of the Shendolain Chamber.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8117, 33, 1) /* BONDED_INT */
-     , (8117, 114, 1) /* ATTUNED_INT */
-     , (8117, 19, 1500) /* VALUE_INT */
-     , (8117, 5, 10) /* ENCUMB_VAL_INT */
-     , (8117, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (8117, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (8117, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (8117, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8117, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8117, 2002) /* PortalSendingShendolain_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

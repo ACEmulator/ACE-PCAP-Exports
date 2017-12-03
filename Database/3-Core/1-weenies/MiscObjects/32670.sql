@@ -31,14 +31,3 @@ VALUES (32670, 13, True) /* ETHEREAL_BOOL */
      , (32670, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32670, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32670, 15, 'A pennant found upon the corpse of the captain of Bloodstone Company.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32670, 33, 1) /* BONDED_INT */
-     , (32670, 114, 1) /* ATTUNED_INT */
-     , (32670, 19, 0) /* VALUE_INT */
-     , (32670, 5, 50) /* ENCUMB_VAL_INT */;
-

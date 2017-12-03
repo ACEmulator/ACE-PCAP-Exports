@@ -47,23 +47,6 @@ VALUES (47055, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47055, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47055, 14, 'Use this gem to infuse your wielded elemental magic caster with the spirit of Izexi, increasing its elemental damage bonus by 1%.  The effects of this spell stack with Spirit Drinker.') /* USE_STRING */
-     , (47055, 15, 'A gem that swirls with the spirit of the Dark Falatacot, Izexi ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47055, 19, 9) /* VALUE_INT */
-     , (47055, 5, 30) /* ENCUMB_VAL_INT */
-     , (47055, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (47055, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (47055, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (47055, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (47055, 6035) /* CantripSpiritofIzexi_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -34,12 +34,3 @@ VALUES (6894, 0, 83892071, 83892181);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6894, 0, 16783205);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6894, 16, 'Tailor') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6894, 19, 125) /* VALUE_INT */
-     , (6894, 5, 9000) /* ENCUMB_VAL_INT */;
-

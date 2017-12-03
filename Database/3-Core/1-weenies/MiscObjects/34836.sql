@@ -37,16 +37,6 @@ VALUES (34836, 13, True) /* ETHEREAL_BOOL */
      , (34836, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34836, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34836, 16, 'A rather small mushroom. It glows faintly red.') /* LONG_DESC_STRING */
-     , (34836, 14, 'Turn this into the Furgal the Mushroom Collector in Kor-Gursha.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34836, 19, 10) /* VALUE_INT */
-     , (34836, 5, 5) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

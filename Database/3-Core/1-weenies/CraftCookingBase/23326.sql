@@ -34,16 +34,6 @@ VALUES (23326, 13, True) /* ETHEREAL_BOOL */
      , (23326, 14, True) /* GRAVITY_STATUS_BOOL */
      , (23326, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23326, 14, 'Use a cooking pot on this to produce something edible.') /* USE_STRING */
-     , (23326, 15, 'An elaborate mix of dried meat, nuts, and fruit.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23326, 19, 74000) /* VALUE_INT */
-     , (23326, 5, 2775) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

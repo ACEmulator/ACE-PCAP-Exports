@@ -57,27 +57,3 @@ VALUES (23736, 0, 16779360)
      , (23736, 3, 16779362)
      , (23736, 4, 16779357);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23736, 16, 'Amulet of Blade Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23736, 19, 3024) /* VALUE_INT */
-     , (23736, 131, 63) /* MATERIAL_TYPE_INT */
-     , (23736, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (23736, 5, 100) /* ENCUMB_VAL_INT */
-     , (23736, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (23736, 106, 211) /* ITEM_SPELLCRAFT_INT */
-     , (23736, 108, 1361) /* ITEM_MAX_MANA_INT */
-     , (23736, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (23736, 109, 163) /* ITEM_DIFFICULTY_INT */
-     , (23736, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23736, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (23736, 1113) /* BladeProtectionSelf5_SpellID */
-     , (23736, 2548) /* CANTRIPHEALINGPROWESS1_SpellID */;
-

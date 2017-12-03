@@ -40,34 +40,3 @@ VALUES (3757, 13, True) /* ETHEREAL_BOOL */
      , (3757, 19, True) /* ATTACKABLE_BOOL */
      , (3757, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3757, 16, 'Frost Hand Axe') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3757, 160, 400) /* WIELD_DIFFICULTY_INT */
-     , (3757, 353, 3) /* WEAPON_TYPE_INT */
-     , (3757, 177, 1) /* GEM_COUNT_INT */
-     , (3757, 178, 34) /* GEM_TYPE_INT */
-     , (3757, 19, 3648) /* VALUE_INT */
-     , (3757, 131, 60) /* MATERIAL_TYPE_INT */
-     , (3757, 5, 380) /* ENCUMB_VAL_INT */
-     , (3757, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (3757, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3757, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3757, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (3757, 47, 4) /* ATTACK_TYPE_INT */
-     , (3757, 45, 8) /* DAMAGE_TYPE_INT */
-     , (3757, 49, 24) /* WEAPON_TIME_INT */
-     , (3757, 48, 45) /* WEAPON_SKILL_INT */
-     , (3757, 44, 51) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3757, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
-     , (3757, 22, 0.95) /* DAMAGE_VARIANCE_FLOAT */
-     , (3757, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3757, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3757, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3757, 62, 1.14) /* WEAPON_OFFENSE_FLOAT */;
-

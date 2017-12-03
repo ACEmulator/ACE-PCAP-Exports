@@ -33,13 +33,3 @@ VALUES (25766, 13, True) /* ETHEREAL_BOOL */
      , (25766, 19, True) /* ATTACKABLE_BOOL */
      , (25766, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25766, 14, 'This item can be used on floor and yard hooks.') /* USE_STRING */
-     , (25766, 15, 'A Tumerok chair carved out of wood. It looks very comfortable.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25766, 19, 6000) /* VALUE_INT */
-     , (25766, 5, 200) /* ENCUMB_VAL_INT */;
-

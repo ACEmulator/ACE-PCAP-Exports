@@ -89,38 +89,3 @@ VALUES (38426, 12, 16777304)
      , (38426, 4, 16781838)
      , (38426, 8, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38426, 5, 'Blessed Moarsman Hunt Taskmaster ') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38426, 16, 67110065) /* EYES_PALETTE_DID */
-     , (38426, 9, 83890451) /* EYES_TEXTURE_DID */
-     , (38426, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (38426, 10, 83890520) /* NOSE_TEXTURE_DID */
-     , (38426, 11, 83890587) /* MOUTH_TEXTURE_DID */
-     , (38426, 15, 67117080) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38426, 288, 301) /* SOCIETY_RANK_ELDWEB_INT */
-     , (38426, 113, 1) /* GENDER_INT */
-     , (38426, 2, 31) /* CREATURE_TYPE_INT */
-     , (38426, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38426, 25, 185) /* LEVEL_INT */
-     , (38426, 281, 2) /* FACTION1_BITS_INT */
-     , (38426, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38426, 1, 240) /* STRENGTH_ATTRIBUTE */
-     , (38426, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (38426, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (38426, 8, 250) /* QUICKNESS_ATTRIBUTE */
-     , (38426, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (38426, 32, 290) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38426, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38426, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38426, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
-

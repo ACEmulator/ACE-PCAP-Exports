@@ -87,29 +87,6 @@ VALUES (9226, 11, 16777302)
      , (9226, 4, 16777291)
      , (9226, 8, 16777298);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9226, 5, 'Undead Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (9226, 16, 67110063) /* EYES_PALETTE_DID */
-     , (9226, 9, 83890480) /* EYES_TEXTURE_DID */
-     , (9226, 17, 67109551) /* SKIN_PALETTE_DID */
-     , (9226, 10, 83890543) /* NOSE_TEXTURE_DID */
-     , (9226, 11, 83890636) /* MOUTH_TEXTURE_DID */
-     , (9226, 15, 67117073) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9226, 113, 1) /* GENDER_INT */
-     , (9226, 2, 31) /* CREATURE_TYPE_INT */
-     , (9226, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (9226, 25, 45) /* LEVEL_INT */
-     , (9226, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (9226, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

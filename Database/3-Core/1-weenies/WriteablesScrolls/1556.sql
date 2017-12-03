@@ -35,17 +35,3 @@ VALUES (1556, 13, True) /* ETHEREAL_BOOL */
      , (1556, 19, True) /* ATTACKABLE_BOOL */
      , (1556, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1556, 16, 'Inscribed spell: Heal Self I
-Restores 10-25 points of the caster''s Health.') /* LONG_DESC_STRING */
-     , (1556, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1556, 19, 1) /* VALUE_INT */
-     , (1556, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1556, 6) /* HealSelf1_SpellID */;
-

@@ -41,32 +41,3 @@ VALUES (8743, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8743, 67111920, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8743, 353, 2) /* WEAPON_TYPE_INT */
-     , (8743, 19, 1) /* VALUE_INT */
-     , (8743, 5, 500) /* ENCUMB_VAL_INT */
-     , (8743, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (8743, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (8743, 109, 15) /* ITEM_DIFFICULTY_INT */
-     , (8743, 47, 6) /* ATTACK_TYPE_INT */
-     , (8743, 45, 3) /* DAMAGE_TYPE_INT */
-     , (8743, 49, 40) /* WEAPON_TIME_INT */
-     , (8743, 48, 44) /* WEAPON_SKILL_INT */
-     , (8743, 44, 18) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8743, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (8743, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (8743, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (8743, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (8743, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (8743, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (8743, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (8743, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8743, 1612) /* BloodDrinker2_SpellID */
-     , (8743, 413) /* SwordMasteryOther2_SpellID */;
-

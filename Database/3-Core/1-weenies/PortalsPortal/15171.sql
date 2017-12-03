@@ -33,11 +33,3 @@ VALUES (15171, 13, True) /* ETHEREAL_BOOL */
      , (15171, 19, True) /* ATTACKABLE_BOOL */
      , (15171, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15171, 38, 'Mahara Cottages Portal (54.4S, 15.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15171, 111, 1) /* PORTAL_BITMASK_INT */;
-

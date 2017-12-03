@@ -53,41 +53,6 @@ VALUES (52725, 0, 83888861, 83888944);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52725, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52725, 16, 'Smock of Blade Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52725, 19, 1554) /* VALUE_INT */
-     , (52725, 131, 8) /* MATERIAL_TYPE_INT */
-     , (52725, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (52725, 5, 75) /* ENCUMB_VAL_INT */
-     , (52725, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (52725, 106, 156) /* ITEM_SPELLCRAFT_INT */
-     , (52725, 28, 0) /* ARMOR_LEVEL_INT */
-     , (52725, 108, 701) /* ITEM_MAX_MANA_INT */
-     , (52725, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (52725, 109, 156) /* ITEM_DIFFICULTY_INT */
-     , (52725, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (52725, 5, -0.04166667) /* MANA_RATE_FLOAT */
-     , (52725, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (52725, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (52725, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (52725, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (52725, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (52725, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (52725, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (52725, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52725, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (52725, 1112) /* BladeProtectionSelf4_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

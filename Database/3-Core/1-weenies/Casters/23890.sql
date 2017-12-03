@@ -54,30 +54,3 @@ VALUES (23890, 0, 83893489, 83893489)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23890, 0, 16788842);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23890, 16, 'A reward for defeating the leaders of the Falcon Clan.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23890, 160, 30) /* WIELD_DIFFICULTY_INT */
-     , (23890, 19, 5000) /* VALUE_INT */
-     , (23890, 5, 200) /* ENCUMB_VAL_INT */
-     , (23890, 166, 6) /* SLAYER_CREATURE_TYPE_INT */
-     , (23890, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (23890, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (23890, 109, 120) /* ITEM_DIFFICULTY_INT */
-     , (23890, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (23890, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23890, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (23890, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (23890, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (23890, 656) /* ManaMasterySelf4_SpellID */
-     , (23890, 1425) /* FocusSelf5_SpellID */
-     , (23890, 215) /* ManaRenewalSelf4_SpellID */
-     , (23890, 2013) /* WizardsGreaterIntellect_SpellID */;
-

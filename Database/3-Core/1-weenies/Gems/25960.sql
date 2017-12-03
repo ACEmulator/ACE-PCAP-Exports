@@ -38,17 +38,6 @@ VALUES (25960, 13, True) /* ETHEREAL_BOOL */
      , (25960, 19, True) /* ATTACKABLE_BOOL */
      , (25960, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25960, 16, 'A tassel pulled from the Shadow''s Garb of the Zharalim traitor Rayssid Ibn Alhath. It is light and shimmering, yet unobstructive, as if it was used to focus light better around the wearer''s eyes.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25960, 33, 1) /* BONDED_INT */
-     , (25960, 114, 1) /* ATTUNED_INT */
-     , (25960, 19, 0) /* VALUE_INT */
-     , (25960, 5, 500) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

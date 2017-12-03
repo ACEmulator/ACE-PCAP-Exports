@@ -52,28 +52,3 @@ VALUES (38848, 0, 83895596, 83895596)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38848, 0, 16790886);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38848, 353, 8) /* WEAPON_TYPE_INT */
-     , (38848, 33, -2) /* BONDED_INT */
-     , (38848, 114, 1) /* ATTUNED_INT */
-     , (38848, 5, 980) /* ENCUMB_VAL_INT */
-     , (38848, 204, 16) /* ELEMENTAL_DAMAGE_BONUS_INT */
-     , (38848, 45, 0) /* DAMAGE_TYPE_INT */
-     , (38848, 49, -1) /* WEAPON_TIME_INT */
-     , (38848, 48, 47) /* WEAPON_SKILL_INT */
-     , (38848, 44, -1) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (38848, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
-     , (38848, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (38848, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (38848, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (38848, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (38848, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38848, 99, 0) /* IVORYABLE_BOOL */
-     , (38848, 69, 0) /* IS_SELLABLE_BOOL */;
-

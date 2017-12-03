@@ -31,17 +31,6 @@ VALUES (8508, 13, True) /* ETHEREAL_BOOL */
      , (8508, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8508, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8508, 16, 'The translation of a note found in Lady Adja''s chest in the Ithaenc Cathedral.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8508, 19, 90) /* VALUE_INT */
-     , (8508, 5, 25) /* ENCUMB_VAL_INT */
-     , (8508, 174, 6) /* APPRAISAL_PAGES_INT */
-     , (8508, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

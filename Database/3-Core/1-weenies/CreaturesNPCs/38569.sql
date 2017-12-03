@@ -89,17 +89,3 @@ VALUES (38569, 12, 16777304)
      , (38569, 4, 16781838)
      , (38569, 8, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38569, 16, 'Inscribed spell: Might of the 5 Mules
-Increases the target''s Strength by 40 points.') /* LONG_DESC_STRING */
-     , (38569, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38569, 19, 2000) /* VALUE_INT */
-     , (38569, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (38569, 2086) /* StrengthOther7_SpellID */;
-

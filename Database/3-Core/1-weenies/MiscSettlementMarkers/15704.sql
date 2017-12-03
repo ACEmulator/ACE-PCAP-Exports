@@ -29,12 +29,3 @@ VALUES (15704, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15704, 19, True) /* ATTACKABLE_BOOL */
      , (15704, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15704, 16, 'Welcome to Nidal-Taraq Villas') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15704, 19, 125) /* VALUE_INT */
-     , (15704, 5, 9000) /* ENCUMB_VAL_INT */;
-

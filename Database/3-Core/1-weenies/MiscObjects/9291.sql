@@ -41,14 +41,3 @@ VALUES (9291, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9291, 9, 16785620);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9291, 16, 'A key that shines with Virindi energy.  You do not seem to be able to understand how it works.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9291, 33, 1) /* BONDED_INT */
-     , (9291, 114, 1) /* ATTUNED_INT */
-     , (9291, 19, 0) /* VALUE_INT */
-     , (9291, 5, 10) /* ENCUMB_VAL_INT */;
-

@@ -33,12 +33,3 @@ VALUES (51720, 13, True) /* ETHEREAL_BOOL */
      , (51720, 19, True) /* ATTACKABLE_BOOL */
      , (51720, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51720, 38, 'Platforms of Rage (62.9S, 66.7W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51720, 86, 180) /* MIN_LEVEL_INT */
-     , (51720, 111, 49) /* PORTAL_BITMASK_INT */;
-

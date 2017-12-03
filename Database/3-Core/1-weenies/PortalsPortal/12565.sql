@@ -33,11 +33,3 @@ VALUES (12565, 13, True) /* ETHEREAL_BOOL */
      , (12565, 19, True) /* ATTACKABLE_BOOL */
      , (12565, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12565, 38, 'Wi Badlands Settlement Portal (25.4S, 10.4E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12565, 111, 1) /* PORTAL_BITMASK_INT */;
-

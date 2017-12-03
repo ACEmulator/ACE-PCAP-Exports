@@ -39,34 +39,3 @@ VALUES (53080, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (53080, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (53080, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53080, 16, 'An ancient statue infused with the magic of the Viridian Rise. There are ancient mechanisms that might be manipulated with the Lockpick skill.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53080, 384, 0) /*  */
-     , (53080, 370, 0) /* GEAR_DAMAGE_INT */
-     , (53080, 386, 0) /*  */
-     , (53080, 307, 0) /* DAMAGE_RATING_INT */
-     , (53080, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (53080, 387, 0) /*  */
-     , (53080, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (53080, 372, 0) /* GEAR_CRIT_INT */
-     , (53080, 388, 0) /*  */
-     , (53080, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (53080, 389, 0) /*  */
-     , (53080, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (53080, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (53080, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (53080, 313, 0) /* CRIT_RATING_INT */
-     , (53080, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (53080, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (53080, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (53080, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (53080, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (53080, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (53080, 381, 0) /*  */
-     , (53080, 382, 0) /*  */
-     , (53080, 383, 0) /*  */;
-

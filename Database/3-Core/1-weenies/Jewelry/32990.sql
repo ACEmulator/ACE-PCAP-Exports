@@ -36,33 +36,3 @@ VALUES (32990, 13, True) /* ETHEREAL_BOOL */
      , (32990, 19, True) /* ATTACKABLE_BOOL */
      , (32990, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32990, 16, 'This ring signifies the bearer as a member of the secretive Whispering Blade.  It admits the bearer to the chapterhouse at 59.9 S, 87.2 W.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32990, 160, 100) /* WIELD_DIFFICULTY_INT */
-     , (32990, 33, 1) /* BONDED_INT */
-     , (32990, 114, 1) /* ATTUNED_INT */
-     , (32990, 19, 0) /* VALUE_INT */
-     , (32990, 5, 50) /* ENCUMB_VAL_INT */
-     , (32990, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (32990, 108, 4000) /* ITEM_MAX_MANA_INT */
-     , (32990, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (32990, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (32990, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32990, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (32990, 2689) /* ModerateDaggerAptitude_SpellID */
-     , (32990, 2694) /* ModerateSwordAptitude_SpellID */
-     , (32990, 5074) /* ModerateTwoHandedAptitude_SpellID */
-     , (32990, 2281) /* MagicResistanceSelf7_SpellID */
-     , (32990, 5430) /* ModerateVoidMagicAptitude_SpellID */
-     , (32990, 2812) /* ModerateWarMagicAptitude_SpellID */
-     , (32990, 2686) /* ModerateAxeAptitude_SpellID */
-     , (32990, 2687) /* ModerateBowAptitude_SpellID */;
-

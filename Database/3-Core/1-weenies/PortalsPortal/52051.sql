@@ -33,15 +33,3 @@ VALUES (52051, 13, True) /* ETHEREAL_BOOL */
      , (52051, 19, True) /* ATTACKABLE_BOOL */
      , (52051, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52051, 38, 'Yellow Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52051, 98, 1484962161) /* CREATION_TIMESTAMP_INT */
-     , (52051, 86, 180) /* MIN_LEVEL_INT */
-     , (52051, 267, 600) /* LIFESPAN_INT */
-     , (52051, 268, 599) /* REMAINING_LIFESPAN_INT */
-     , (52051, 111, 49) /* PORTAL_BITMASK_INT */;
-

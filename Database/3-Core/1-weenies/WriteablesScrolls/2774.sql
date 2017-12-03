@@ -35,17 +35,3 @@ VALUES (2774, 13, True) /* ETHEREAL_BOOL */
      , (2774, 19, True) /* ATTACKABLE_BOOL */
      , (2774, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2774, 16, 'Inscribed spell: Blade Bane IV
-Increases a shield or piece of armor''s resistance to slashing damage by 75%. Target yourself to cast this spell on all of your equipped armor.') /* LONG_DESC_STRING */
-     , (2774, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2774, 19, 100) /* VALUE_INT */
-     , (2774, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2774, 1560) /* BladeBane4_SpellID */;
-

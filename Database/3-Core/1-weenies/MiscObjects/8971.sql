@@ -37,18 +37,6 @@ VALUES (8971, 13, True) /* ETHEREAL_BOOL */
      , (8971, 19, True) /* ATTACKABLE_BOOL */
      , (8971, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8971, 16, 'A bucket.') /* LONG_DESC_STRING */
-     , (8971, 14, 'Buckets are used to hold water.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8971, 33, 1) /* BONDED_INT */
-     , (8971, 114, 1) /* ATTUNED_INT */
-     , (8971, 19, 0) /* VALUE_INT */
-     , (8971, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

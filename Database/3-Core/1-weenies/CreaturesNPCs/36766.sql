@@ -39,27 +39,6 @@ VALUES (36766, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (36766, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (36766, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36766, 2, 51) /* CREATURE_TYPE_INT */
-     , (36766, 307, 5) /* DAMAGE_RATING_INT */
-     , (36766, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (36766, 25, 710) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (36766, 1, 400) /* STRENGTH_ATTRIBUTE */
-     , (36766, 2, 610) /* ENDURANCE_ATTRIBUTE */
-     , (36766, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (36766, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (36766, 16, 500) /* FOCUS_ATTRIBUTE */
-     , (36766, 32, 600) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36766, 64, 800) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (36766, 128, 1000) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (36766, 256, 5000) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

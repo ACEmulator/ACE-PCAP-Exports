@@ -44,14 +44,3 @@ VALUES (30503, 0, 83890080, 83890080);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30503, 0, 16778729);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30503, 16, 'A bottle of hard cider, made in Yaraq by the al-Luq family. Just the smell can make you tipsy!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30503, 33, 1) /* BONDED_INT */
-     , (30503, 114, 1) /* ATTUNED_INT */
-     , (30503, 19, 0) /* VALUE_INT */
-     , (30503, 5, 10) /* ENCUMB_VAL_INT */;
-

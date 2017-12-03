@@ -31,17 +31,3 @@ VALUES (30972, 13, True) /* ETHEREAL_BOOL */
      , (30972, 19, True) /* ATTACKABLE_BOOL */
      , (30972, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30972, 16, 'A small bag full of Life Stone Chips.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30972, 33, 1) /* BONDED_INT */
-     , (30972, 114, 1) /* ATTUNED_INT */
-     , (30972, 19, 0) /* VALUE_INT */
-     , (30972, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30972, 69, 0) /* IS_SELLABLE_BOOL */;
-

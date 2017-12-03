@@ -35,17 +35,3 @@ VALUES (36683, 13, True) /* ETHEREAL_BOOL */
      , (36683, 19, True) /* ATTACKABLE_BOOL */
      , (36683, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36683, 16, 'A mighty sword with intricate channels cut into it. It is far too large for a human to wield.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36683, 33, 1) /* BONDED_INT */
-     , (36683, 114, 1) /* ATTUNED_INT */
-     , (36683, 19, 100) /* VALUE_INT */
-     , (36683, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36683, 69, 1) /* IS_SELLABLE_BOOL */;
-

@@ -36,18 +36,6 @@ VALUES (32651, 13, True) /* ETHEREAL_BOOL */
      , (32651, 19, True) /* ATTACKABLE_BOOL */
      , (32651, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32651, 16, 'A fragile black crystal enshrouded in blue flame. It looks like it can be fitted into any Perfect Isparian Weapon.') /* LONG_DESC_STRING */
-     , (32651, 14, 'Use this stone on a Perfect Isparian Weapon to create a Shadowfire Isparian Weapon. *Note: This change is permanent, and cannot be undone.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32651, 33, 1) /* BONDED_INT */
-     , (32651, 114, 1) /* ATTUNED_INT */
-     , (32651, 19, 5000) /* VALUE_INT */
-     , (32651, 5, 5) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

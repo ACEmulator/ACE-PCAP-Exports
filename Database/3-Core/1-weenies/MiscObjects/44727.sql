@@ -32,12 +32,3 @@ VALUES (44727, 13, True) /* ETHEREAL_BOOL */
      , (44727, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (44727, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44727, 16, 'A simple creature which can be a good source of food.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44727, 19, 125) /* VALUE_INT */
-     , (44727, 5, 200) /* ENCUMB_VAL_INT */;
-

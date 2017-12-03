@@ -49,32 +49,3 @@ VALUES (39112, 0, 83887061, 83886687)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39112, 0, 16779351);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39112, 16, 'A shirt celebrating the Festival Season.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39112, 19, 20) /* VALUE_INT */
-     , (39112, 5, 42) /* ENCUMB_VAL_INT */
-     , (39112, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (39112, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (39112, 28, 50) /* ARMOR_LEVEL_INT */
-     , (39112, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39112, 5, -0.0333) /* MANA_RATE_FLOAT */
-     , (39112, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (39112, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (39112, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (39112, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (39112, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (39112, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (39112, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (39112, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (39112, 2501) /* CANTRIPALCHEMICALPROWESS2_SpellID */
-     , (39112, 2506) /* CANTRIPCOOKINGPROWESS2_SpellID */
-     , (39112, 2512) /* CANTRIPFLETCHINGPROWESS2_SpellID */;
-

@@ -37,36 +37,3 @@ VALUES (28413, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (28413, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (28413, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28413, 16, 'A large backpack.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28413, 384, 0) /*  */
-     , (28413, 370, 0) /* GEAR_DAMAGE_INT */
-     , (28413, 386, 0) /*  */
-     , (28413, 19, 65) /* VALUE_INT */
-     , (28413, 307, 0) /* DAMAGE_RATING_INT */
-     , (28413, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (28413, 387, 0) /*  */
-     , (28413, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (28413, 372, 0) /* GEAR_CRIT_INT */
-     , (28413, 388, 0) /*  */
-     , (28413, 5, 45) /* ENCUMB_VAL_INT */
-     , (28413, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (28413, 389, 0) /*  */
-     , (28413, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (28413, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (28413, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (28413, 313, 0) /* CRIT_RATING_INT */
-     , (28413, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (28413, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (28413, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (28413, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (28413, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (28413, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (28413, 381, 0) /*  */
-     , (28413, 382, 0) /*  */
-     , (28413, 383, 0) /*  */;
-

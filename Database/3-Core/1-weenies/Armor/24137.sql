@@ -45,23 +45,3 @@ VALUES (24137, 0, 83889344, 83887054)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24137, 0, 16778416);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24137, 15, 'A pair of sollerets covered in reddish dust from the western desert.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24137, 19, 250) /* VALUE_INT */
-     , (24137, 5, 540) /* ENCUMB_VAL_INT */
-     , (24137, 28, 100) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (24137, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (24137, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (24137, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (24137, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (24137, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (24137, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (24137, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (24137, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

@@ -32,12 +32,3 @@ VALUES (8145, 13, True) /* ETHEREAL_BOOL */
      , (8145, 19, True) /* ATTACKABLE_BOOL */
      , (8145, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8145, 16, 'A stinking, smelling, decapitated Drudge head.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8145, 19, 0) /* VALUE_INT */
-     , (8145, 5, 200) /* ENCUMB_VAL_INT */;
-

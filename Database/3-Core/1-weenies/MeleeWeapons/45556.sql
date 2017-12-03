@@ -48,30 +48,3 @@ VALUES (45556, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45556, 0, 16792139);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45556, 15, 'Enhanced knuckles crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45556, 33, 1) /* BONDED_INT */
-     , (45556, 353, 1) /* WEAPON_TYPE_INT */
-     , (45556, 19, 200) /* VALUE_INT */
-     , (45556, 5, 50) /* ENCUMB_VAL_INT */
-     , (45556, 47, 1) /* ATTACK_TYPE_INT */
-     , (45556, 45, 4) /* DAMAGE_TYPE_INT */
-     , (45556, 49, 15) /* WEAPON_TIME_INT */
-     , (45556, 48, 45) /* WEAPON_SKILL_INT */
-     , (45556, 44, 14) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45556, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
-     , (45556, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (45556, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (45556, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (45556, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45556, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (45556, 69, 0) /* IS_SELLABLE_BOOL */;
-

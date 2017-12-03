@@ -35,17 +35,3 @@ VALUES (1779, 13, True) /* ETHEREAL_BOOL */
      , (1779, 19, True) /* ATTACKABLE_BOOL */
      , (1779, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1779, 16, 'Inscribed spell: Mana Drain Other I
-Drains 4-6 points of the target''s Mana.') /* LONG_DESC_STRING */
-     , (1779, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1779, 19, 1) /* VALUE_INT */
-     , (1779, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1779, 1219) /* ManaDrainOther1_SpellID */;
-

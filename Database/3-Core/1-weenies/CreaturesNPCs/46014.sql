@@ -99,40 +99,6 @@ VALUES (46014, 1, 16777708)
      , (46014, 12, 16788094)
      , (46014, 16, 16793036);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46014, 5, 'Shadow Flyer Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (46014, 16, 67116854) /* EYES_PALETTE_DID */
-     , (46014, 9, 83890278) /* EYES_TEXTURE_DID */
-     , (46014, 17, 67116848) /* SKIN_PALETTE_DID */
-     , (46014, 10, 83890294) /* NOSE_TEXTURE_DID */
-     , (46014, 11, 83890355) /* MOUTH_TEXTURE_DID */
-     , (46014, 15, 67117068) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46014, 113, 2) /* GENDER_INT */
-     , (46014, 2, 31) /* CREATURE_TYPE_INT */
-     , (46014, 307, 5) /* DAMAGE_RATING_INT */
-     , (46014, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (46014, 25, 275) /* LEVEL_INT */
-     , (46014, 188, 5) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (46014, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (46014, 2, 260) /* ENDURANCE_ATTRIBUTE */
-     , (46014, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (46014, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (46014, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (46014, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46014, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (46014, 128, 456) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (46014, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 /* Object Wield List */

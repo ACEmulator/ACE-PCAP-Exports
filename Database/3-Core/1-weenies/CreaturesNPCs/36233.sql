@@ -86,36 +86,3 @@ VALUES (36233, 12, 16778423)
      , (36233, 13, 16783871)
      , (36233, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36233, 5, 'Slithis Slayer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (36233, 16, 67109567) /* EYES_PALETTE_DID */
-     , (36233, 9, 83890278) /* EYES_TEXTURE_DID */
-     , (36233, 17, 67109553) /* SKIN_PALETTE_DID */
-     , (36233, 10, 83890301) /* NOSE_TEXTURE_DID */
-     , (36233, 11, 83890341) /* MOUTH_TEXTURE_DID */
-     , (36233, 15, 67116994) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36233, 113, 2) /* GENDER_INT */
-     , (36233, 2, 31) /* CREATURE_TYPE_INT */
-     , (36233, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (36233, 25, 67) /* LEVEL_INT */
-     , (36233, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (36233, 1, 230) /* STRENGTH_ATTRIBUTE */
-     , (36233, 2, 185) /* ENDURANCE_ATTRIBUTE */
-     , (36233, 4, 230) /* COORDINATION_ATTRIBUTE */
-     , (36233, 8, 175) /* QUICKNESS_ATTRIBUTE */
-     , (36233, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (36233, 32, 60) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36233, 64, 193) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (36233, 128, 245) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (36233, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
-

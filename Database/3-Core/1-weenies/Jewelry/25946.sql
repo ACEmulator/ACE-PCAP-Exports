@@ -48,25 +48,3 @@ VALUES (25946, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25946, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25946, 16, 'A dark sapphire ring. At the edge of sight you see your shadow twist and gyre in a complex dance of shadow and light.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25946, 160, 90) /* WIELD_DIFFICULTY_INT */
-     , (25946, 19, 10000) /* VALUE_INT */
-     , (25946, 5, 30) /* ENCUMB_VAL_INT */
-     , (25946, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (25946, 108, 1440) /* ITEM_MAX_MANA_INT */
-     , (25946, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25946, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25946, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25946, 1432) /* FocusOther6_SpellID */
-     , (25946, 2090) /* WillPowerOther7_SpellID */
-     , (25946, 244) /* InvulnerabilityOther6_SpellID */;
-

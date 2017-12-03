@@ -32,16 +32,3 @@ VALUES (37537, 13, True) /* ETHEREAL_BOOL */
      , (37537, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37537, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37537, 14, 'Give this to a Royal Guard in Samsur, Holtburg, Yaraq, or Shoushi.') /* USE_STRING */
-     , (37537, 15, 'This paper details that the bearer should receive twenty Enhanced Health Elixirs, which restore 200 health upon use, force the consumer to wait 5 minutes before their next use, and  may not be traded.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37537, 33, 1) /* BONDED_INT */
-     , (37537, 114, 1) /* ATTUNED_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (37537, 69, 0) /* IS_SELLABLE_BOOL */;
-

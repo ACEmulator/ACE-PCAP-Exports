@@ -76,11 +76,3 @@ VALUES (16908, 0, 16783897)
      , (16908, 14, 16783855)
      , (16908, 16, 16783677);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (16908, 19, 125) /* VALUE_INT */
-     , (16908, 5, 9000) /* ENCUMB_VAL_INT */
-     , (16908, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (16908, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

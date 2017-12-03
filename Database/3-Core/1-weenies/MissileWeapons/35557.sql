@@ -43,49 +43,6 @@ VALUES (35557, 13, True) /* ETHEREAL_BOOL */
      , (35557, 17, True) /* INELASTIC_BOOL */
      , (35557, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35557, 16, 'This icy throwing dagger is unenchantable, but carries within its frozen core an endowment of powerful spells.  Its construction is singular and strange.  It bears no marks of its forging or smithing, and instead seems to have crystallized out of raw magic.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35557, 353, 10) /* WEAPON_TYPE_INT */
-     , (35557, 33, -1) /* BONDED_INT */
-     , (35557, 114, 0) /* ATTUNED_INT */
-     , (35557, 386, 0) /*  */
-     , (35557, 19, 0) /* VALUE_INT */
-     , (35557, 307, 5) /* DAMAGE_RATING_INT */
-     , (35557, 36, 9999) /* RESIST_MAGIC_INT */
-     , (35557, 5, 6) /* ENCUMB_VAL_INT */
-     , (35557, 313, 0) /* CRIT_RATING_INT */
-     , (35557, 106, 500) /* ITEM_SPELLCRAFT_INT */
-     , (35557, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (35557, 108, 10000) /* ITEM_MAX_MANA_INT */
-     , (35557, 381, 0) /*  */
-     , (35557, 45, 8) /* DAMAGE_TYPE_INT */
-     , (35557, 49, 1) /* WEAPON_TIME_INT */
-     , (35557, 48, 47) /* WEAPON_SKILL_INT */
-     , (35557, 44, 202) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (35557, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (35557, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
-     , (35557, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
-     , (35557, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (35557, 22, 0.33333) /* DAMAGE_VARIANCE_FLOAT */
-     , (35557, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (35557, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (35557, 26, 23.2) /* MAXIMUM_VELOCITY_FLOAT */
-     , (35557, 62, 1.17) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35557, 99, 0) /* IVORYABLE_BOOL */
-     , (35557, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (35557, 2505) /* CANTRIPBOWAPTITUDE2_SpellID */
-     , (35557, 2206) /* BowMasteryOther7_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

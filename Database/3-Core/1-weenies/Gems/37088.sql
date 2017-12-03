@@ -36,23 +36,6 @@ VALUES (37088, 13, True) /* ETHEREAL_BOOL */
      , (37088, 15, True) /* LIGHTS_STATUS_BOOL */
      , (37088, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37088, 14, 'Use this item to accept the invitation and enter the Tanada Battle Burrows.') /* USE_STRING */
-     , (37088, 15, 'This scroll, sealed with an elaborate purple gem, seems to be an invitation to some kind of Tanada battle trial') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37088, 19, 0) /* VALUE_INT */
-     , (37088, 5, 100) /* ENCUMB_VAL_INT */
-     , (37088, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (37088, 108, 100) /* ITEM_MAX_MANA_INT */
-     , (37088, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (37088, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (37088, 4247) /* PortalSendingTanadaBattleBurrows_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

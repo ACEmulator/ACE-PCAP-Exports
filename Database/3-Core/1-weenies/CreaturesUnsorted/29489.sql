@@ -74,33 +74,6 @@ VALUES (29489, 12, 16777304)
      , (29489, 4, 16791954)
      , (29489, 8, 16791955);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29489, 14, 'Use this essence to summon or dismiss your Acid Phyntos Wasp.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29489, 33, 0) /* BONDED_INT */
-     , (29489, 369, 40) /* USE_REQUIRES_LEVEL_INT */
-     , (29489, 114, 0) /* ATTUNED_INT */
-     , (29489, 19, 4000) /* VALUE_INT */
-     , (29489, 371, 10) /* GEAR_DAMAGE_RESIST_INT */
-     , (29489, 372, 12) /* GEAR_CRIT_INT */
-     , (29489, 5, 50) /* ENCUMB_VAL_INT */
-     , (29489, 373, 8) /* GEAR_CRIT_RESIST_INT */
-     , (29489, 374, 11) /* GEAR_CRIT_DAMAGE_INT */
-     , (29489, 280, 213) /* SHARED_COOLDOWN_INT */
-     , (29489, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (29489, 91, 50) /* MAX_STRUCTURE_INT */
-     , (29489, 366, 54) /* USE_REQUIRES_SKILL_INT */
-     , (29489, 367, 310) /* USE_REQUIRES_SKILL_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29489, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29489, 69, 1) /* IS_SELLABLE_BOOL */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

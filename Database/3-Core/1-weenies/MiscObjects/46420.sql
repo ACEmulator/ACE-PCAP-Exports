@@ -31,17 +31,3 @@ VALUES (46420, 13, True) /* ETHEREAL_BOOL */
      , (46420, 14, True) /* GRAVITY_STATUS_BOOL */
      , (46420, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46420, 15, 'A certificate accepted by Fianhe for a free skill reset. ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46420, 33, 1) /* BONDED_INT */
-     , (46420, 114, 1) /* ATTUNED_INT */
-     , (46420, 19, 4) /* VALUE_INT */
-     , (46420, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46420, 69, 0) /* IS_SELLABLE_BOOL */;
-

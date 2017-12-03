@@ -38,34 +38,3 @@ VALUES (22489, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (22489, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (22489, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22489, 15, 'My reward is for those who wish to evade the blows of close combatants.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22489, 384, 0) /*  */
-     , (22489, 370, 0) /* GEAR_DAMAGE_INT */
-     , (22489, 386, 0) /*  */
-     , (22489, 307, 0) /* DAMAGE_RATING_INT */
-     , (22489, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (22489, 387, 0) /*  */
-     , (22489, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (22489, 372, 0) /* GEAR_CRIT_INT */
-     , (22489, 388, 0) /*  */
-     , (22489, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (22489, 389, 0) /*  */
-     , (22489, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (22489, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (22489, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (22489, 313, 0) /* CRIT_RATING_INT */
-     , (22489, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (22489, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (22489, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (22489, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (22489, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (22489, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (22489, 381, 0) /*  */
-     , (22489, 382, 0) /*  */
-     , (22489, 383, 0) /*  */;
-

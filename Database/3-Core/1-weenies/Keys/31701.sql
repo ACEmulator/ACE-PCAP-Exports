@@ -34,15 +34,3 @@ VALUES (31701, 13, True) /* ETHEREAL_BOOL */
      , (31701, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31701, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31701, 16, 'This icy key appears to open some sort of personal chest or storage device.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31701, 33, 1) /* BONDED_INT */
-     , (31701, 114, 1) /* ATTUNED_INT */
-     , (31701, 19, 80) /* VALUE_INT */
-     , (31701, 5, 100) /* ENCUMB_VAL_INT */
-     , (31701, 91, 5) /* MAX_STRUCTURE_INT */;
-

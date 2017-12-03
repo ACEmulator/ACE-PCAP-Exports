@@ -34,18 +34,6 @@ VALUES (7272, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7272, 1, True) /* STUCK_BOOL */
      , (7272, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7272, 16, 'A vial of the Hopeslayer''s Blood.  As you examine it, you notice the contents are almost black, as if devouring the ambient light.') /* LONG_DESC_STRING */
-     , (7272, 14, 'It looks like you could pour this on some other item.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7272, 33, 1) /* BONDED_INT */
-     , (7272, 114, 1) /* ATTUNED_INT */
-     , (7272, 19, 0) /* VALUE_INT */
-     , (7272, 5, 200) /* ENCUMB_VAL_INT */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

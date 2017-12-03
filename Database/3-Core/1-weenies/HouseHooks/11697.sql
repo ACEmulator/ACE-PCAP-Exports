@@ -38,21 +38,3 @@ VALUES (11697, 13, True) /* ETHEREAL_BOOL */
      , (11697, 1, True) /* STUCK_BOOL */
      , (11697, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11697, 16, 'This hook is owned by Kalar Soarfire. It contains: 
-A small portal lives inside the body of this hibernating K''nath. When used, the portal will send the caster to a K''nath lair.') /* LONG_DESC_STRING */
-     , (11697, 14, 'This item can be used on mansion floor and yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11697, 33, 1) /* BONDED_INT */
-     , (11697, 114, 0) /* ATTUNED_INT */
-     , (11697, 19, 0) /* VALUE_INT */
-     , (11697, 5, 150) /* ENCUMB_VAL_INT */
-     , (11697, 9, 0) /* LOCATIONS_INT */
-     , (11697, 50, 0) /* AMMO_TYPE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11697, 22, True) /* INSCRIBABLE_BOOL */;
-

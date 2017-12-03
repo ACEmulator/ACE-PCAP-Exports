@@ -35,17 +35,3 @@ VALUES (43315, 13, True) /* ETHEREAL_BOOL */
      , (43315, 19, True) /* ATTACKABLE_BOOL */
      , (43315, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43315, 16, 'Inscribed spell: Nether Streak VI
-Sends a bolt of nether streaking towards the target. The bolt does 42-105 points of nether damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (43315, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43315, 19, 1000) /* VALUE_INT */
-     , (43315, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (43315, 5346) /* netherstreak6_SpellID */;
-

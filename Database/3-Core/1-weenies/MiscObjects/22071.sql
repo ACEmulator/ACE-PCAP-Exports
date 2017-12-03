@@ -42,17 +42,3 @@ VALUES (22071, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22071, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22071, 16, 'A pick made from the tooth of an ivory gromnie.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22071, 33, 1) /* BONDED_INT */
-     , (22071, 114, 1) /* ATTUNED_INT */
-     , (22071, 19, 0) /* VALUE_INT */
-     , (22071, 5, 10) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22071, 69, 0) /* IS_SELLABLE_BOOL */;
-

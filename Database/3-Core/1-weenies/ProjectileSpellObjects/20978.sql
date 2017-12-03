@@ -38,28 +38,3 @@ VALUES (20978, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (20978, 1, True) /* STUCK_BOOL */
      , (20978, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20978, 16, 'Mug') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20978, 353, 10) /* WEAPON_TYPE_INT */
-     , (20978, 19, 178) /* VALUE_INT */
-     , (20978, 131, 70) /* MATERIAL_TYPE_INT */
-     , (20978, 5, 40) /* ENCUMB_VAL_INT */
-     , (20978, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (20978, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (20978, 45, 4) /* DAMAGE_TYPE_INT */
-     , (20978, 49, 10) /* WEAPON_TIME_INT */
-     , (20978, 48, 47) /* WEAPON_SKILL_INT */
-     , (20978, 44, 10) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (20978, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (20978, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (20978, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (20978, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (20978, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (20978, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

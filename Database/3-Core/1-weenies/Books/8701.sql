@@ -35,16 +35,3 @@ VALUES (8701, 13, True) /* ETHEREAL_BOOL */
      , (8701, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8701, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8701, 15, 'A bright gold piece of paper with some writing on it.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8701, 33, 0) /* BONDED_INT */
-     , (8701, 114, 0) /* ATTUNED_INT */
-     , (8701, 19, 1) /* VALUE_INT */
-     , (8701, 5, 10) /* ENCUMB_VAL_INT */
-     , (8701, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (8701, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

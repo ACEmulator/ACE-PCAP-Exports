@@ -35,17 +35,3 @@ VALUES (45343, 13, True) /* ETHEREAL_BOOL */
      , (45343, 19, True) /* ATTACKABLE_BOOL */
      , (45343, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45343, 16, 'Inscribed spell: Sneak Attack Mastery Other IV
-Increases the target''s Sneak Attack skill by 25 points.') /* LONG_DESC_STRING */
-     , (45343, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45343, 19, 100) /* VALUE_INT */
-     , (45343, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (45343, 5870) /* sneakattackmasteryother4_SpellID */;
-

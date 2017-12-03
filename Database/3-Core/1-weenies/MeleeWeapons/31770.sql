@@ -52,34 +52,3 @@ VALUES (31770, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31770, 0, 16777886);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31770, 16, 'Acid War Axe') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31770, 160, 325) /* WIELD_DIFFICULTY_INT */
-     , (31770, 353, 3) /* WEAPON_TYPE_INT */
-     , (31770, 177, 3) /* GEM_COUNT_INT */
-     , (31770, 178, 47) /* GEM_TYPE_INT */
-     , (31770, 19, 8302) /* VALUE_INT */
-     , (31770, 131, 26) /* MATERIAL_TYPE_INT */
-     , (31770, 5, 618) /* ENCUMB_VAL_INT */
-     , (31770, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (31770, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31770, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (31770, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (31770, 47, 4) /* ATTACK_TYPE_INT */
-     , (31770, 45, 32) /* DAMAGE_TYPE_INT */
-     , (31770, 49, 50) /* WEAPON_TIME_INT */
-     , (31770, 48, 44) /* WEAPON_SKILL_INT */
-     , (31770, 44, 46) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31770, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
-     , (31770, 22, 0.97) /* DAMAGE_VARIANCE_FLOAT */
-     , (31770, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (31770, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (31770, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (31770, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
-

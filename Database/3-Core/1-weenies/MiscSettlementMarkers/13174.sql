@@ -29,12 +29,3 @@ VALUES (13174, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (13174, 19, True) /* ATTACKABLE_BOOL */
      , (13174, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13174, 16, 'Welcome to Ring of Crystals Estates') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13174, 19, 125) /* VALUE_INT */
-     , (13174, 5, 9000) /* ENCUMB_VAL_INT */;
-

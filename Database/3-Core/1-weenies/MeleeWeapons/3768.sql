@@ -43,35 +43,3 @@ VALUES (3768, 13, True) /* ETHEREAL_BOOL */
      , (3768, 19, True) /* ATTACKABLE_BOOL */
      , (3768, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3768, 16, 'Flaming Club') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3768, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (3768, 353, 4) /* WEAPON_TYPE_INT */
-     , (3768, 177, 1) /* GEM_COUNT_INT */
-     , (3768, 178, 23) /* GEM_TYPE_INT */
-     , (3768, 19, 1394) /* VALUE_INT */
-     , (3768, 131, 74) /* MATERIAL_TYPE_INT */
-     , (3768, 5, 350) /* ENCUMB_VAL_INT */
-     , (3768, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (3768, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3768, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3768, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (3768, 47, 4) /* ATTACK_TYPE_INT */
-     , (3768, 45, 16) /* DAMAGE_TYPE_INT */
-     , (3768, 49, 40) /* WEAPON_TIME_INT */
-     , (3768, 48, 45) /* WEAPON_SKILL_INT */
-     , (3768, 44, 28) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3768, 29, 1.1) /* WEAPON_DEFENSE_FLOAT */
-     , (3768, 150, 1.02) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (3768, 22, 0.32) /* DAMAGE_VARIANCE_FLOAT */
-     , (3768, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3768, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3768, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3768, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
-

@@ -33,13 +33,3 @@ VALUES (33516, 13, True) /* ETHEREAL_BOOL */
      , (33516, 19, True) /* ATTACKABLE_BOOL */
      , (33516, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33516, 16, 'This dungeon is quest restricted.  The Whispering Blade may be interested in it...') /* LONG_DESC_STRING */
-     , (33516, 38, 'Altar Nest') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33516, 86, 140) /* MIN_LEVEL_INT */
-     , (33516, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -43,35 +43,3 @@ VALUES (44434, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44434, 67111849, 1, 255);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44434, 16, 'This portal cannot be recalled, linked nor summoned. ') /* LONG_DESC_STRING */
-     , (44434, 14, 'Restricted to character level 180 or higher.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44434, 384, 0) /*  */
-     , (44434, 370, 0) /* GEAR_DAMAGE_INT */
-     , (44434, 386, 0) /*  */
-     , (44434, 307, 0) /* DAMAGE_RATING_INT */
-     , (44434, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (44434, 387, 0) /*  */
-     , (44434, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (44434, 372, 0) /* GEAR_CRIT_INT */
-     , (44434, 388, 0) /*  */
-     , (44434, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (44434, 389, 0) /*  */
-     , (44434, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (44434, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (44434, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (44434, 313, 0) /* CRIT_RATING_INT */
-     , (44434, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (44434, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (44434, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (44434, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (44434, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (44434, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (44434, 381, 0) /*  */
-     , (44434, 382, 0) /*  */
-     , (44434, 383, 0) /*  */;
-

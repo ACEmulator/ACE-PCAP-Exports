@@ -46,13 +46,3 @@ VALUES (15821, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15821, 0, 16787715);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15821, 14, 'You are forbidden to take this historic weapon.') /* USE_STRING */
-     , (15821, 15, 'Thorsten Cragstone''s Axe.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15821, 19, 0) /* VALUE_INT */
-     , (15821, 5, 60000) /* ENCUMB_VAL_INT */;
-

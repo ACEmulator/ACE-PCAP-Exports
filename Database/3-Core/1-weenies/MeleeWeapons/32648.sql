@@ -46,26 +46,3 @@ VALUES (32648, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32648, 0, 16785974);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32648, 16, 'Mechanical Scarab of Coordination') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32648, 19, 2442) /* VALUE_INT */
-     , (32648, 131, 58) /* MATERIAL_TYPE_INT */
-     , (32648, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (32648, 5, 100) /* ENCUMB_VAL_INT */
-     , (32648, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (32648, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (32648, 108, 1134) /* ITEM_MAX_MANA_INT */
-     , (32648, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (32648, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (32648, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32648, 5, -0.04166667) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (32648, 1376) /* CoordinationSelf4_SpellID */;
-

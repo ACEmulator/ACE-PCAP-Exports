@@ -41,14 +41,3 @@ VALUES (36672, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36672, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36672, 33, 1) /* BONDED_INT */
-     , (36672, 114, 1) /* ATTUNED_INT */
-     , (36672, 19, 0) /* VALUE_INT */
-     , (36672, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36672, 69, 0) /* IS_SELLABLE_BOOL */;
-

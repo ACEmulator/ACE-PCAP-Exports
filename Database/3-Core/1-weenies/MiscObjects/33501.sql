@@ -31,14 +31,3 @@ VALUES (33501, 13, True) /* ETHEREAL_BOOL */
      , (33501, 19, True) /* ATTACKABLE_BOOL */
      , (33501, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33501, 16, 'This is the head of the Mukkir known as Vargol the Scion.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33501, 33, 1) /* BONDED_INT */
-     , (33501, 114, 1) /* ATTUNED_INT */
-     , (33501, 19, 0) /* VALUE_INT */
-     , (33501, 5, 200) /* ENCUMB_VAL_INT */;
-

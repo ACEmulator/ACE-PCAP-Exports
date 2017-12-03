@@ -33,11 +33,3 @@ VALUES (4166, 13, True) /* ETHEREAL_BOOL */
      , (4166, 19, True) /* ATTACKABLE_BOOL */
      , (4166, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4166, 38, 'Dungeon Maggreth Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4166, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -31,14 +31,3 @@ VALUES (28737, 13, True) /* ETHEREAL_BOOL */
      , (28737, 19, True) /* ATTACKABLE_BOOL */
      , (28737, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28737, 16, 'A Lugian axe. It has been rusted by the Eater''s stomach acids.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28737, 33, 1) /* BONDED_INT */
-     , (28737, 114, 0) /* ATTUNED_INT */
-     , (28737, 19, 0) /* VALUE_INT */
-     , (28737, 5, 5000) /* ENCUMB_VAL_INT */;
-

@@ -33,13 +33,3 @@ VALUES (33772, 13, True) /* ETHEREAL_BOOL */
      , (33772, 19, True) /* ATTACKABLE_BOOL */
      , (33772, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33772, 16, 'This portal is warded against those who have not earned the right to access the chamber of the Mukkir Aspect of Grael.') /* LONG_DESC_STRING */
-     , (33772, 38, 'Grael''s Chamber') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33772, 86, 151) /* MIN_LEVEL_INT */
-     , (33772, 111, 49) /* PORTAL_BITMASK_INT */;
-

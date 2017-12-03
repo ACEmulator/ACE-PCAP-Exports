@@ -35,17 +35,3 @@ VALUES (43338, 13, True) /* ETHEREAL_BOOL */
      , (43338, 19, True) /* ATTACKABLE_BOOL */
      , (43338, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43338, 16, 'Inscribed spell: Weakening Curse I
-Decreases the target''s damage rating by 1.') /* LONG_DESC_STRING */
-     , (43338, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43338, 19, 1) /* VALUE_INT */
-     , (43338, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (43338, 5379) /* CurseWeakness1_SpellID */;
-

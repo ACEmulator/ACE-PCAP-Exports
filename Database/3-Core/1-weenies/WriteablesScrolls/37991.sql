@@ -35,17 +35,3 @@ VALUES (37991, 13, True) /* ETHEREAL_BOOL */
      , (37991, 19, True) /* ATTACKABLE_BOOL */
      , (37991, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37991, 16, 'Inscribed spell: Incantation of Willpower Self
-Increases the caster''s Self by 45 points.') /* LONG_DESC_STRING */
-     , (37991, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37991, 19, 60000) /* VALUE_INT */
-     , (37991, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (37991, 4329) /* WillpowerSelf8_SpellID */;
-

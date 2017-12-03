@@ -52,32 +52,3 @@ VALUES (3892, 0, 83886749, 83886749)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3892, 0, 16777915);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3892, 16, 'Frost Tachi') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3892, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (3892, 353, 2) /* WEAPON_TYPE_INT */
-     , (3892, 19, 3362) /* VALUE_INT */
-     , (3892, 131, 51) /* MATERIAL_TYPE_INT */
-     , (3892, 5, 375) /* ENCUMB_VAL_INT */
-     , (3892, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (3892, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3892, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3892, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (3892, 47, 6) /* ATTACK_TYPE_INT */
-     , (3892, 45, 8) /* DAMAGE_TYPE_INT */
-     , (3892, 49, 35) /* WEAPON_TIME_INT */
-     , (3892, 48, 44) /* WEAPON_SKILL_INT */
-     , (3892, 44, 39) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3892, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (3892, 22, 0.57) /* DAMAGE_VARIANCE_FLOAT */
-     , (3892, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3892, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3892, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3892, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */;
-

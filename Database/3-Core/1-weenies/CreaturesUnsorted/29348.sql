@@ -58,20 +58,6 @@ VALUES (29348, 0, 16785699)
      , (29348, 19, 16785704)
      , (29348, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29348, 16, 'Inscribed spell: Hieromancer''s Blessing
-Increases the caster''s War Magic skill by 40 points.') /* LONG_DESC_STRING */
-     , (29348, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29348, 19, 2000) /* VALUE_INT */
-     , (29348, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (29348, 2323) /* WarMagicMasterySelf7_SpellID */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

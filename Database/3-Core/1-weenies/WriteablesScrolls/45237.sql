@@ -35,17 +35,3 @@ VALUES (45237, 13, True) /* ETHEREAL_BOOL */
      , (45237, 19, True) /* ATTACKABLE_BOOL */
      , (45237, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45237, 16, 'Inscribed spell: Dirty Fighting Ineptitude Other II
-Decreases the target''s Dirty Fighting skill by 15 points.') /* LONG_DESC_STRING */
-     , (45237, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45237, 19, 5) /* VALUE_INT */
-     , (45237, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (45237, 5764) /* dirtyfightingineptitudeother2_SpellID */;
-

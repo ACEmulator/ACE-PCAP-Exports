@@ -33,12 +33,3 @@ VALUES (9296, 13, True) /* ETHEREAL_BOOL */
      , (9296, 19, True) /* ATTACKABLE_BOOL */
      , (9296, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9296, 38, 'Panopticon Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9296, 86, 32) /* MIN_LEVEL_INT */
-     , (9296, 111, 17) /* PORTAL_BITMASK_INT */;
-

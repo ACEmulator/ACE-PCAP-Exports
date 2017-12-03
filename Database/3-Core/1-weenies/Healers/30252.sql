@@ -41,18 +41,3 @@ VALUES (30252, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30252, 0, 16779994);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30252, 16, 'This Medicated Stamina Kit does not last long, but it is very powerful!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30252, 17, 71) /* RARE_ID_INT */
-     , (30252, 19, 0) /* VALUE_INT */
-     , (30252, 5, 5) /* ENCUMB_VAL_INT */
-     , (30252, 90, 500) /* BOOST_VALUE_INT */
-     , (30252, 91, 25) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30252, 100, 10) /* HEALKIT_MOD_FLOAT */;
-

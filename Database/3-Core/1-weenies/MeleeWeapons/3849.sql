@@ -37,32 +37,3 @@ VALUES (3849, 13, True) /* ETHEREAL_BOOL */
      , (3849, 19, True) /* ATTACKABLE_BOOL */
      , (3849, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3849, 16, 'Acid Scimitar') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3849, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (3849, 353, 2) /* WEAPON_TYPE_INT */
-     , (3849, 19, 1533) /* VALUE_INT */
-     , (3849, 131, 51) /* MATERIAL_TYPE_INT */
-     , (3849, 5, 367) /* ENCUMB_VAL_INT */
-     , (3849, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (3849, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3849, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3849, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (3849, 47, 6) /* ATTACK_TYPE_INT */
-     , (3849, 45, 32) /* DAMAGE_TYPE_INT */
-     , (3849, 49, 33) /* WEAPON_TIME_INT */
-     , (3849, 48, 46) /* WEAPON_SKILL_INT */
-     , (3849, 44, 31) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3849, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */
-     , (3849, 22, 0.56) /* DAMAGE_VARIANCE_FLOAT */
-     , (3849, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3849, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3849, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3849, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
-

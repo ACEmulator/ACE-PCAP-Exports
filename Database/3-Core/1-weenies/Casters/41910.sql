@@ -40,32 +40,3 @@ VALUES (41910, 13, True) /* ETHEREAL_BOOL */
      , (41910, 19, True) /* ATTACKABLE_BOOL */
      , (41910, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41910, 16, 'An orb with a large purple eye in the middle.  Gazing at it makes you dizzy.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41910, 160, 330) /* WIELD_DIFFICULTY_INT */
-     , (41910, 19, 20000) /* VALUE_INT */
-     , (41910, 5, 50) /* ENCUMB_VAL_INT */
-     , (41910, 263, 1) /* RESISTANCE_MODIFIER_TYPE_INT */
-     , (41910, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (41910, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (41910, 45, 1) /* DAMAGE_TYPE_INT */
-     , (41910, 109, 50) /* ITEM_DIFFICULTY_INT */
-     , (41910, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (41910, 159, 34) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (41910, 152, 1.08) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (41910, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
-     , (41910, 29, 1.12) /* WEAPON_DEFENSE_FLOAT */
-     , (41910, 157, 1) /* RESISTANCE_MODIFIER_FLOAT */
-     , (41910, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (41910, 2249) /* ItemEnchantmentMasterySelf7_SpellID */
-     , (41910, 609) /* LifeMagicMasterySelf5_SpellID */
-     , (41910, 2287) /* ManaMasterySelf7_SpellID */;
-

@@ -34,14 +34,3 @@ VALUES (5038, 13, True) /* ETHEREAL_BOOL */
      , (5038, 19, True) /* ATTACKABLE_BOOL */
      , (5038, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5038, 16, 'Hardunna''s key to her family''s chest in the Holtburg Redoubt.') /* LONG_DESC_STRING */
-     , (5038, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5038, 19, 0) /* VALUE_INT */
-     , (5038, 5, 50) /* ENCUMB_VAL_INT */
-     , (5038, 91, 3) /* MAX_STRUCTURE_INT */;
-

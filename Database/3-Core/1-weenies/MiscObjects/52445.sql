@@ -55,13 +55,3 @@ VALUES (52445, 14, 16784286)
      , (52445, 2, 16784265)
      , (52445, 5, 16784269);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52445, 16, 'A sneaky, present thieving, little Drudge.') /* LONG_DESC_STRING */
-     , (52445, 14, 'Pack Pilferer can be placed on floor and yard hooks, if you trust it alone in your home...') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52445, 19, 10) /* VALUE_INT */
-     , (52445, 5, 10) /* ENCUMB_VAL_INT */;
-

@@ -35,17 +35,3 @@ VALUES (3314, 13, True) /* ETHEREAL_BOOL */
      , (3314, 19, True) /* ATTACKABLE_BOOL */
      , (3314, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3314, 16, 'Inscribed spell: Item Enchantment Mastery Self III
-Increases the caster''s Item Enchantment skill by 20 points.') /* LONG_DESC_STRING */
-     , (3314, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3314, 19, 20) /* VALUE_INT */
-     , (3314, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3314, 583) /* ItemEnchantmentMasterySelf3_SpellID */;
-

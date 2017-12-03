@@ -33,11 +33,3 @@ VALUES (1309, 13, True) /* ETHEREAL_BOOL */
      , (1309, 19, True) /* ATTACKABLE_BOOL */
      , (1309, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1309, 38, 'Green Mire Grave') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1309, 111, 1) /* PORTAL_BITMASK_INT */;
-

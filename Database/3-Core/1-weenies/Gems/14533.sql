@@ -47,16 +47,6 @@ VALUES (14533, 0, 16784246)
      , (14533, 1, 16784196)
      , (14533, 2, 16784180);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14533, 16, 'A fragment taken from a lightning prism.') /* LONG_DESC_STRING */
-     , (14533, 14, 'Combine with the Craftable Prism of Acid.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14533, 19, 0) /* VALUE_INT */
-     , (14533, 5, 40) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

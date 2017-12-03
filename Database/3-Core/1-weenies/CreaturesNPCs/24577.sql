@@ -63,26 +63,3 @@ VALUES (24577, 0, 16785699)
      , (24577, 19, 16785704)
      , (24577, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24577, 5, 'Arcanum Agent') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24577, 2, 5) /* CREATURE_TYPE_INT */
-     , (24577, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24577, 25, 72) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (24577, 1, 212) /* STRENGTH_ATTRIBUTE */
-     , (24577, 2, 170) /* ENDURANCE_ATTRIBUTE */
-     , (24577, 4, 195) /* COORDINATION_ATTRIBUTE */
-     , (24577, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (24577, 16, 220) /* FOCUS_ATTRIBUTE */
-     , (24577, 32, 230) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24577, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24577, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24577, 256, 230) /* MAX_MANA_ATTRIBUTE_2ND */;
-

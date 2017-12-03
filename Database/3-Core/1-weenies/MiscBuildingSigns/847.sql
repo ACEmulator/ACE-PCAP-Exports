@@ -35,12 +35,3 @@ VALUES (847, 0, 83891180, 83891182);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (847, 0, 16782236);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (847, 16, 'Grocery') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (847, 19, 125) /* VALUE_INT */
-     , (847, 5, 9000) /* ENCUMB_VAL_INT */;
-

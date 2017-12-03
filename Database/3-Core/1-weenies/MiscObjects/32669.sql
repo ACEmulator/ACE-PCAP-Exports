@@ -33,13 +33,3 @@ VALUES (32669, 13, True) /* ETHEREAL_BOOL */
      , (32669, 19, True) /* ATTACKABLE_BOOL */
      , (32669, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32669, 14, 'You can use this pennant on roof and yard hooks. ') /* USE_STRING */
-     , (32669, 15, 'A pennant which Lord Marsan gave to you as a trophy, after you defeated the Viamontian garrison preventing passage from Plateau Village to Fort Tethana.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32669, 19, 0) /* VALUE_INT */
-     , (32669, 5, 50) /* ENCUMB_VAL_INT */;
-

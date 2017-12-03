@@ -36,29 +36,6 @@ VALUES (34915, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (34915, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (34915, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34915, 5, 'Metos Dispenser') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34915, 2, 13) /* CREATURE_TYPE_INT */
-     , (34915, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (34915, 25, 5) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (34915, 1, 70) /* STRENGTH_ATTRIBUTE */
-     , (34915, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (34915, 4, 65) /* COORDINATION_ATTRIBUTE */
-     , (34915, 8, 60) /* QUICKNESS_ATTRIBUTE */
-     , (34915, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (34915, 32, 50) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34915, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (34915, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (34915, 256, 105) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

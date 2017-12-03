@@ -33,21 +33,6 @@ VALUES (49583, 13, True) /* ETHEREAL_BOOL */
      , (49583, 19, True) /* ATTACKABLE_BOOL */
      , (49583, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (49583, 16, 'An elaborate signet that glows brightly.') /* LONG_DESC_STRING */
-     , (49583, 14, 'El''Yst Maggann will be very interested in this Signet.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49583, 33, 1) /* BONDED_INT */
-     , (49583, 114, 1) /* ATTUNED_INT */
-     , (49583, 19, 0) /* VALUE_INT */
-     , (49583, 5, 200) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (49583, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

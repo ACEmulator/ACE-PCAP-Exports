@@ -43,39 +43,3 @@ VALUES (30546, 67116325, 108, 8)
      , (30546, 67116325, 116, 12)
      , (30546, 67116325, 174, 42);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30546, 16, 'A coat of Alduressa plate, forged with the strength of General Corcima''s own armor.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30546, 160, 280) /* WIELD_DIFFICULTY_INT */
-     , (30546, 19, 6000) /* VALUE_INT */
-     , (30546, 5, 1600) /* ENCUMB_VAL_INT */
-     , (30546, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (30546, 108, 950) /* ITEM_MAX_MANA_INT */
-     , (30546, 28, 350) /* ARMOR_LEVEL_INT */
-     , (30546, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (30546, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (30546, 159, 6) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30546, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (30546, 13, 1.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (30546, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (30546, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (30546, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (30546, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (30546, 18, 0.7) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (30546, 19, 0.7) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (30546, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (30546, 2243) /* ImpregnabilitySelf7_SpellID */
-     , (30546, 2245) /* InvulnerabilitySelf7_SpellID */
-     , (30546, 2575) /* CANTRIPQUICKNESS2_SpellID */
-     , (30546, 2583) /* CANTRIPSTRENGTH1_SpellID */
-     , (30546, 2659) /* ModerateCoordination_SpellID */
-     , (30546, 2281) /* MagicResistanceSelf7_SpellID */
-     , (30546, 2108) /* Impenetrability7_SpellID */;
-

@@ -33,12 +33,3 @@ VALUES (33718, 13, True) /* ETHEREAL_BOOL */
      , (33718, 19, True) /* ATTACKABLE_BOOL */
      , (33718, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33718, 15, 'A decorative Black Spear, made from the remains of the Broken Black Spear carried by the Mukkir Aspect of Grael.  This spear may be placed on Floor or Yard Hooks, where it can then be used to gain the spells that it casts.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33718, 19, 20000) /* VALUE_INT */
-     , (33718, 5, 150) /* ENCUMB_VAL_INT */;
-

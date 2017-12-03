@@ -33,15 +33,3 @@ VALUES (51943, 13, True) /* ETHEREAL_BOOL */
      , (51943, 19, True) /* ATTACKABLE_BOOL */
      , (51943, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51943, 38, 'Corrupted Energy') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51943, 98, 1485319491) /* CREATION_TIMESTAMP_INT */
-     , (51943, 86, 180) /* MIN_LEVEL_INT */
-     , (51943, 267, 10) /* LIFESPAN_INT */
-     , (51943, 268, -4) /* REMAINING_LIFESPAN_INT */
-     , (51943, 111, 49) /* PORTAL_BITMASK_INT */;
-

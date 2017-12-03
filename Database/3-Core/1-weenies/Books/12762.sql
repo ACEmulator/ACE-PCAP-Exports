@@ -34,17 +34,6 @@ VALUES (12762, 13, True) /* ETHEREAL_BOOL */
      , (12762, 14, True) /* GRAVITY_STATUS_BOOL */
      , (12762, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12762, 15, 'A guide to regaining Health, Stamina, and Mana.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12762, 19, 0) /* VALUE_INT */
-     , (12762, 5, 5) /* ENCUMB_VAL_INT */
-     , (12762, 174, 6) /* APPRAISAL_PAGES_INT */
-     , (12762, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

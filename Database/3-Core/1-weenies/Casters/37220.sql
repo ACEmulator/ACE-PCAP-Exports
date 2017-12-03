@@ -45,38 +45,3 @@ VALUES (37220, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (37220, 67111922, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37220, 16, 'Fire Staff of Force') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37220, 160, 375) /* WIELD_DIFFICULTY_INT */
-     , (37220, 177, 4) /* GEM_COUNT_INT */
-     , (37220, 178, 39) /* GEM_TYPE_INT */
-     , (37220, 19, 22612) /* VALUE_INT */
-     , (37220, 131, 21) /* MATERIAL_TYPE_INT */
-     , (37220, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (37220, 5, 50) /* ENCUMB_VAL_INT */
-     , (37220, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (37220, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (37220, 108, 2995) /* ITEM_MAX_MANA_INT */
-     , (37220, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (37220, 109, 388) /* ITEM_DIFFICULTY_INT */
-     , (37220, 45, 16) /* DAMAGE_TYPE_INT */
-     , (37220, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (37220, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (37220, 159, 34) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (37220, 144, 0.08) /* MANA_CONVERSION_MOD_FLOAT */
-     , (37220, 152, 1.13) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (37220, 5, -0.06666667) /* MANA_RATE_FLOAT */
-     , (37220, 29, 1.18) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (37220, 2132) /* ForceBolt7_SpellID */
-     , (37220, 2117) /* Truevalue7_SpellID */
-     , (37220, 2524) /* CANTRIPMAGICRESISTANCE2_SpellID */
-     , (37220, 4329) /* WillpowerSelf8_SpellID */;
-

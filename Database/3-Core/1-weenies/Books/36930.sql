@@ -34,15 +34,3 @@ VALUES (36930, 13, True) /* ETHEREAL_BOOL */
      , (36930, 14, True) /* GRAVITY_STATUS_BOOL */
      , (36930, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36930, 14, 'This item cannot be read, but a scholar of the ways of the Virindi may be able to decode the message contained within.') /* USE_STRING */
-     , (36930, 15, 'A message shard taken from the Virindi Dream Thief in the dream realm of the Ithaenc Quiddity Seed.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36930, 19, 0) /* VALUE_INT */
-     , (36930, 5, 50) /* ENCUMB_VAL_INT */
-     , (36930, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (36930, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

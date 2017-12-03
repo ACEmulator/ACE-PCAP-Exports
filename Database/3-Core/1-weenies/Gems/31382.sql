@@ -31,15 +31,3 @@ VALUES (31382, 13, True) /* ETHEREAL_BOOL */
      , (31382, 19, True) /* ATTACKABLE_BOOL */
      , (31382, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31382, 16, 'An ancient shadow artifact which appears to be the lock to a gateway of some kind. Shadow Hunter Killcrane''s knowledge of Shadow-lore has restored this lock to full capacity.') /* LONG_DESC_STRING */
-     , (31382, 14, 'Place this artifact within the Nightmare Gate on the Singularity Caul.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31382, 33, 1) /* BONDED_INT */
-     , (31382, 114, 1) /* ATTUNED_INT */
-     , (31382, 19, 0) /* VALUE_INT */
-     , (31382, 5, 50) /* ENCUMB_VAL_INT */;
-

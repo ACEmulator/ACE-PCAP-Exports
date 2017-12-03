@@ -35,14 +35,3 @@ VALUES (27700, 13, True) /* ETHEREAL_BOOL */
      , (27700, 14, True) /* GRAVITY_STATUS_BOOL */
      , (27700, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27700, 19, 10) /* VALUE_INT */
-     , (27700, 5, 25) /* ENCUMB_VAL_INT */
-     , (27700, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (27700, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27700, 69, 0) /* IS_SELLABLE_BOOL */;
-

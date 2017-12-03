@@ -37,20 +37,6 @@ VALUES (44964, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (44964, 67111924, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44964, 14, 'Combine this gem with an attribute raising gem to transfer up to 10 points of quickness to another attribute. ') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44964, 33, 1) /* BONDED_INT */
-     , (44964, 98, 1485833084) /* CREATION_TIMESTAMP_INT */
-     , (44964, 114, 1) /* ATTUNED_INT */
-     , (44964, 19, 0) /* VALUE_INT */
-     , (44964, 5, 10) /* ENCUMB_VAL_INT */
-     , (44964, 267, 900) /* LIFESPAN_INT */
-     , (44964, 268, 900) /* REMAINING_LIFESPAN_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

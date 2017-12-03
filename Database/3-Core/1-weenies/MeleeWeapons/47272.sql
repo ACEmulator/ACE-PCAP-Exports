@@ -48,14 +48,3 @@ VALUES (47272, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (47272, 0, 16792613);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47272, 16, 'This eater jaw has rows of long sharp teeth.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47272, 33, 1) /* BONDED_INT */
-     , (47272, 114, 1) /* ATTUNED_INT */
-     , (47272, 19, 0) /* VALUE_INT */
-     , (47272, 5, 400) /* ENCUMB_VAL_INT */;
-

@@ -32,11 +32,3 @@ VALUES (39747, 13, True) /* ETHEREAL_BOOL */
      , (39747, 19, True) /* ATTACKABLE_BOOL */
      , (39747, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39747, 38, 'South Osteth Peak (52.6S, 67.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39747, 111, 1) /* PORTAL_BITMASK_INT */;
-

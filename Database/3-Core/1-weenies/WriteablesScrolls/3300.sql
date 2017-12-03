@@ -35,17 +35,3 @@ VALUES (3300, 13, True) /* ETHEREAL_BOOL */
      , (3300, 19, True) /* ATTACKABLE_BOOL */
      , (3300, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3300, 16, 'Inscribed spell: Invulnerability Self IV
-Increases the caster''s Melee Defense skill by 25 points.') /* LONG_DESC_STRING */
-     , (3300, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3300, 19, 100) /* VALUE_INT */
-     , (3300, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3300, 247) /* InvulnerabilitySelf4_SpellID */;
-

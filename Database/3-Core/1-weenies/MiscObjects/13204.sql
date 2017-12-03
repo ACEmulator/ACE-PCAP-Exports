@@ -36,19 +36,6 @@ VALUES (13204, 13, True) /* ETHEREAL_BOOL */
      , (13204, 19, True) /* ATTACKABLE_BOOL */
      , (13204, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13204, 16, 'A perfect snowman. Head, Arms, Nose, legs... wait, no legs.') /* LONG_DESC_STRING */
-     , (13204, 14, 'You can hook this item on floor and yard hooks. It''s oddly colder than normal snow.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13204, 19, 44) /* VALUE_INT */
-     , (13204, 5, 155) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (13204, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

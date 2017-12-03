@@ -41,23 +41,3 @@ VALUES (12208, 0, 83892725, 83892725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12208, 0, 16787382);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12208, 16, 'A hollowed out pumpkin that, oddly enough, fits right over your head!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12208, 19, 50) /* VALUE_INT */
-     , (12208, 5, 20) /* ENCUMB_VAL_INT */
-     , (12208, 28, 10) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12208, 13, 0.45) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (12208, 14, 0.26) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (12208, 15, 0.26) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (12208, 16, 0.27) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (12208, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (12208, 18, 0.26) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (12208, 19, 0.45) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (12208, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

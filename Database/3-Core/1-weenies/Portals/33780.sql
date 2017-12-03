@@ -33,13 +33,3 @@ VALUES (33780, 13, True) /* ETHEREAL_BOOL */
      , (33780, 19, True) /* ATTACKABLE_BOOL */
      , (33780, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33780, 16, 'A Ruschk temple, where those who wish to follow the Black Spear prove their worth.') /* LONG_DESC_STRING */
-     , (33780, 38, 'Black Spear Temple') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33780, 87, 100) /* MAX_LEVEL_INT */
-     , (33780, 111, 49) /* PORTAL_BITMASK_INT */;
-

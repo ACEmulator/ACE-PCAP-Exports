@@ -32,13 +32,3 @@ VALUES (19210, 13, True) /* ETHEREAL_BOOL */
      , (19210, 19, True) /* ATTACKABLE_BOOL */
      , (19210, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19210, 15, 'A bronze coil taken from the ruins of a living Bronze Statue of Ben Ten. The Arcanum Tinker or the Arcanum Researcher might find this item of great interest.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19210, 114, 1) /* ATTUNED_INT */
-     , (19210, 19, 0) /* VALUE_INT */
-     , (19210, 5, 40) /* ENCUMB_VAL_INT */;
-

@@ -47,18 +47,3 @@ VALUES (8684, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8684, 0, 16778334);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8684, 19, 1) /* VALUE_INT */
-     , (8684, 5, 60) /* ENCUMB_VAL_INT */
-     , (8684, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (8684, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (8684, 109, 15) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8684, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8684, 1333) /* StrengthOther2_SpellID */;
-

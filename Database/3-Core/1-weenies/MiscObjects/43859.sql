@@ -40,14 +40,3 @@ VALUES (43859, 0, 83888868, 83892604);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43859, 0, 16783934);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43859, 15, 'An encoded message intended only for the eyes of Black Ferah.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43859, 33, 1) /* BONDED_INT */
-     , (43859, 114, 1) /* ATTUNED_INT */
-     , (43859, 19, 0) /* VALUE_INT */
-     , (43859, 5, 10) /* ENCUMB_VAL_INT */;
-

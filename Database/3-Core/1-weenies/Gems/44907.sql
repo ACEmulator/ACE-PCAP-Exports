@@ -39,24 +39,6 @@ VALUES (44907, 13, True) /* ETHEREAL_BOOL */
      , (44907, 19, True) /* ATTACKABLE_BOOL */
      , (44907, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44907, 16, 'At level 10, use the yellow gem in your pack to go to the Facilty Hub.') /* LONG_DESC_STRING */
-     , (44907, 14, 'Recommended Level: 10') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44907, 33, 1) /* BONDED_INT */
-     , (44907, 19, 100) /* VALUE_INT */
-     , (44907, 5, 0) /* ENCUMB_VAL_INT */
-     , (44907, 280, 100) /* SHARED_COOLDOWN_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (44907, 167, 2) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44907, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

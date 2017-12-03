@@ -33,15 +33,6 @@ VALUES (31352, 13, True) /* ETHEREAL_BOOL */
      , (31352, 14, True) /* GRAVITY_STATUS_BOOL */
      , (31352, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31352, 16, 'Killed by Ferah Palacost.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31352, 19, 0) /* VALUE_INT */
-     , (31352, 5, 6155) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

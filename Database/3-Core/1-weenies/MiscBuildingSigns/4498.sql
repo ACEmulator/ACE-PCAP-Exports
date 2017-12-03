@@ -35,12 +35,3 @@ VALUES (4498, 0, 83891180, 83891177);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (4498, 0, 16782236);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4498, 16, 'Forest Magical Supplies') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4498, 19, 125) /* VALUE_INT */
-     , (4498, 5, 9000) /* ENCUMB_VAL_INT */;
-

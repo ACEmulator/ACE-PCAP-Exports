@@ -48,13 +48,3 @@ VALUES (2547, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2547, 0, 16780142);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2547, 19, 200) /* VALUE_INT */
-     , (2547, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2547, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (2547, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-

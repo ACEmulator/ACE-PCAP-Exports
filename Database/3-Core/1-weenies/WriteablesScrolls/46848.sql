@@ -35,12 +35,3 @@ VALUES (46848, 13, True) /* ETHEREAL_BOOL */
      , (46848, 19, True) /* ATTACKABLE_BOOL */
      , (46848, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46848, 16, 'Killed by Billy Herrington.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46848, 19, 0) /* VALUE_INT */
-     , (46848, 5, 6905) /* ENCUMB_VAL_INT */;
-

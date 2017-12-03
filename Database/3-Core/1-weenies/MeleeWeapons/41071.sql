@@ -49,35 +49,3 @@ VALUES (41071, 0, 83896076, 83896076);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (41071, 0, 16794291);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41071, 16, 'Frost Shashqa') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41071, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (41071, 353, 11) /* WEAPON_TYPE_INT */
-     , (41071, 177, 3) /* GEM_COUNT_INT */
-     , (41071, 178, 22) /* GEM_TYPE_INT */
-     , (41071, 19, 3026) /* VALUE_INT */
-     , (41071, 131, 59) /* MATERIAL_TYPE_INT */
-     , (41071, 292, 2) /* CLEAVING_INT */
-     , (41071, 5, 388) /* ENCUMB_VAL_INT */
-     , (41071, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (41071, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (41071, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (41071, 159, 41) /* WIELD_SKILLTYPE_INT */
-     , (41071, 47, 4) /* ATTACK_TYPE_INT */
-     , (41071, 45, 8) /* DAMAGE_TYPE_INT */
-     , (41071, 49, 43) /* WEAPON_TIME_INT */
-     , (41071, 48, 41) /* WEAPON_SKILL_INT */
-     , (41071, 44, 21) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (41071, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
-     , (41071, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (41071, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (41071, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (41071, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (41071, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
-

@@ -27,9 +27,3 @@ VALUES (9009, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (9009, 19, True) /* ATTACKABLE_BOOL */
      , (9009, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9009, 19, 0) /* VALUE_INT */
-     , (9009, 5, 1000) /* ENCUMB_VAL_INT */;
-

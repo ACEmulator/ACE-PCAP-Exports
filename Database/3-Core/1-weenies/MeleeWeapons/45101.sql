@@ -49,35 +49,3 @@ VALUES (45101, 0, 83889236, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45101, 0, 16795944);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45101, 16, 'Lightning Epee') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45101, 160, 350) /* WIELD_DIFFICULTY_INT */
-     , (45101, 353, 2) /* WEAPON_TYPE_INT */
-     , (45101, 177, 4) /* GEM_COUNT_INT */
-     , (45101, 178, 21) /* GEM_TYPE_INT */
-     , (45101, 19, 8449) /* VALUE_INT */
-     , (45101, 131, 63) /* MATERIAL_TYPE_INT */
-     , (45101, 5, 250) /* ENCUMB_VAL_INT */
-     , (45101, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (45101, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (45101, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (45101, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (45101, 47, 160) /* ATTACK_TYPE_INT */
-     , (45101, 45, 64) /* DAMAGE_TYPE_INT */
-     , (45101, 49, 27) /* WEAPON_TIME_INT */
-     , (45101, 48, 45) /* WEAPON_SKILL_INT */
-     , (45101, 44, 17) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45101, 29, 1.13) /* WEAPON_DEFENSE_FLOAT */
-     , (45101, 150, 1.01) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (45101, 22, 0.35) /* DAMAGE_VARIANCE_FLOAT */
-     , (45101, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (45101, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (45101, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45101, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
-

@@ -231,12 +231,3 @@ VALUES (19244, 0, 16777217)
      , (19244, 15, 16777226)
      , (19244, 16, 16777223);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19244, 16, 'A small oxidized statue of a Tumerok crafted by the Arcanum Tinker, in reward for keeping the statues that continue to threaten the cities of Dereth at bay.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19244, 19, 10000) /* VALUE_INT */
-     , (19244, 5, 5000) /* ENCUMB_VAL_INT */;
-

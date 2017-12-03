@@ -35,17 +35,6 @@ VALUES (8375, 13, True) /* ETHEREAL_BOOL */
      , (8375, 19, True) /* ATTACKABLE_BOOL */
      , (8375, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8375, 16, 'A plain, thin book of some years'' age.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8375, 19, 90) /* VALUE_INT */
-     , (8375, 5, 460) /* ENCUMB_VAL_INT */
-     , (8375, 174, 6) /* APPRAISAL_PAGES_INT */
-     , (8375, 175, 6) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

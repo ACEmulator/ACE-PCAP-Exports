@@ -58,15 +58,3 @@ VALUES (7550, 0, 16785699)
      , (7550, 19, 16785704)
      , (7550, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7550, 16, 'Gem') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7550, 19, 152) /* VALUE_INT */
-     , (7550, 131, 12) /* MATERIAL_TYPE_INT */
-     , (7550, 5, 5) /* ENCUMB_VAL_INT */
-     , (7550, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (7550, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-

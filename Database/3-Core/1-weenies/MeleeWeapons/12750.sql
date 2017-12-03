@@ -50,30 +50,3 @@ VALUES (12750, 0, 83886739, 83886739)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12750, 0, 16788591);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12750, 15, 'An enhanced dirk crafted in the Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12750, 33, 1) /* BONDED_INT */
-     , (12750, 353, 6) /* WEAPON_TYPE_INT */
-     , (12750, 19, 200) /* VALUE_INT */
-     , (12750, 5, 50) /* ENCUMB_VAL_INT */
-     , (12750, 47, 6) /* ATTACK_TYPE_INT */
-     , (12750, 45, 3) /* DAMAGE_TYPE_INT */
-     , (12750, 49, 15) /* WEAPON_TIME_INT */
-     , (12750, 48, 44) /* WEAPON_SKILL_INT */
-     , (12750, 44, 18) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12750, 29, 1.03) /* WEAPON_DEFENSE_FLOAT */
-     , (12750, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (12750, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (12750, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (12750, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (12750, 62, 1.03) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (12750, 69, 0) /* IS_SELLABLE_BOOL */;
-

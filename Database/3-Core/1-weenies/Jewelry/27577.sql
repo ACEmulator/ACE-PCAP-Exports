@@ -47,27 +47,3 @@ VALUES (27577, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27577, 0, 16778334);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27577, 15, 'A bracelet of piercing protection, given by Behdo Yii for completing the Worker quest.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27577, 33, 1) /* BONDED_INT */
-     , (27577, 114, 1) /* ATTUNED_INT */
-     , (27577, 19, 0) /* VALUE_INT */
-     , (27577, 5, 60) /* ENCUMB_VAL_INT */
-     , (27577, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (27577, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (27577, 109, 125) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27577, 5, -0.04) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27577, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27577, 512) /* AcidProtectionOther4_SpellID */
-     , (27577, 241) /* InvulnerabilityOther3_SpellID */;
-

@@ -44,36 +44,3 @@ VALUES (24463, 0, 83887059, 83894595);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24463, 0, 16778374);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24463, 16, 'These gauntlets have been carved from Opal to fit the human hand. They are mystical in nature.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24463, 160, 20) /* WIELD_DIFFICULTY_INT */
-     , (24463, 19, 3500) /* VALUE_INT */
-     , (24463, 5, 350) /* ENCUMB_VAL_INT */
-     , (24463, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (24463, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (24463, 28, 420) /* ARMOR_LEVEL_INT */
-     , (24463, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (24463, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (24463, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (24463, 5, -0.0166) /* MANA_RATE_FLOAT */
-     , (24463, 13, 2.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (24463, 14, 2.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (24463, 15, 2.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (24463, 16, 3.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (24463, 17, 3) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (24463, 18, 3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (24463, 19, 3.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (24463, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (24463, 1484) /* Impenetrability4_SpellID */
-     , (24463, 2549) /* CANTRIPIMPREGNABILITY1_SpellID */
-     , (24463, 2550) /* CANTRIPINVULNERABILITY1_SpellID */
-     , (24463, 2559) /* CANTRIPMAGICRESISTANCE1_SpellID */;
-

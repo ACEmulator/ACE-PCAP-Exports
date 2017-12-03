@@ -46,17 +46,3 @@ VALUES (14920, 0, 83889680, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14920, 0, 16778344);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14920, 15, 'A priceless ring that symbolizes the commitment, caring, and happiness that goes into a marriage.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14920, 33, 1) /* BONDED_INT */
-     , (14920, 114, 1) /* ATTUNED_INT */
-     , (14920, 19, 0) /* VALUE_INT */
-     , (14920, 5, 1) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14920, 99, 1) /* IVORYABLE_BOOL */;
-

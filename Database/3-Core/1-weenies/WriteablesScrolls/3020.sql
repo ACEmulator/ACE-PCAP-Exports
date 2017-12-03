@@ -35,17 +35,3 @@ VALUES (3020, 13, True) /* ETHEREAL_BOOL */
      , (3020, 19, True) /* ATTACKABLE_BOOL */
      , (3020, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3020, 16, 'Inscribed spell: Cold Protection Other IV
-Reduces damage the target takes from Cold by 43%.') /* LONG_DESC_STRING */
-     , (3020, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3020, 19, 100) /* VALUE_INT */
-     , (3020, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3020, 1039) /* ColdProtectionOther4_SpellID */;
-

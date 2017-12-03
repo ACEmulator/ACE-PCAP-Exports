@@ -37,21 +37,6 @@ VALUES (4806, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (4806, 19, True) /* ATTACKABLE_BOOL */
      , (4806, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4806, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4806, 19, 200) /* VALUE_INT */
-     , (4806, 5, 7195) /* ENCUMB_VAL_INT */
-     , (4806, 38, 140) /* RESIST_LOCKPICK_INT */
-     , (4806, 173, 100) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (4806, 2, 0) /* OPEN_BOOL */
-     , (4806, 3, 0) /* LOCKED_BOOL */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

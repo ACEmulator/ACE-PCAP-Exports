@@ -33,13 +33,3 @@ VALUES (21409, 13, True) /* ETHEREAL_BOOL */
      , (21409, 19, True) /* ATTACKABLE_BOOL */
      , (21409, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21409, 38, 'Fiery Consumption') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21409, 86, 40) /* MIN_LEVEL_INT */
-     , (21409, 87, 59) /* MAX_LEVEL_INT */
-     , (21409, 111, 49) /* PORTAL_BITMASK_INT */;
-

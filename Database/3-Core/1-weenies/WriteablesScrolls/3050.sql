@@ -35,17 +35,3 @@ VALUES (3050, 13, True) /* ETHEREAL_BOOL */
      , (3050, 19, True) /* ATTACKABLE_BOOL */
      , (3050, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3050, 16, 'Inscribed spell: Lightning Protection Other IV
-Reduces damage the target takes from Lightning by 43%.') /* LONG_DESC_STRING */
-     , (3050, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3050, 19, 100) /* VALUE_INT */
-     , (3050, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3050, 1075) /* LightningProtectionOther4_SpellID */;
-

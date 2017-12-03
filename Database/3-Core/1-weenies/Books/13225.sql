@@ -33,19 +33,6 @@ VALUES (13225, 13, True) /* ETHEREAL_BOOL */
      , (13225, 14, True) /* GRAVITY_STATUS_BOOL */
      , (13225, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13225, 15, 'A note written in a precise and elegant script.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13225, 33, 1) /* BONDED_INT */
-     , (13225, 114, 1) /* ATTUNED_INT */
-     , (13225, 19, 0) /* VALUE_INT */
-     , (13225, 5, 25) /* ENCUMB_VAL_INT */
-     , (13225, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (13225, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

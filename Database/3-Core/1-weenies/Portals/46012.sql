@@ -33,12 +33,3 @@ VALUES (46012, 13, True) /* ETHEREAL_BOOL */
      , (46012, 19, True) /* ATTACKABLE_BOOL */
      , (46012, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46012, 38, 'Virindi Research Facility') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46012, 86, 150) /* MIN_LEVEL_INT */
-     , (46012, 111, 49) /* PORTAL_BITMASK_INT */;
-

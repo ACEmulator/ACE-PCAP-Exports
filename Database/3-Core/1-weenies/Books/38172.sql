@@ -31,17 +31,6 @@ VALUES (38172, 13, True) /* ETHEREAL_BOOL */
      , (38172, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38172, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38172, 16, 'This tome is bound in a strange substance - possibly the skin of a moarsman or some other reptilian creature. Intricate rust red runes are drawn upon the front cover') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38172, 19, 1000) /* VALUE_INT */
-     , (38172, 5, 50) /* ENCUMB_VAL_INT */
-     , (38172, 174, 3) /* APPRAISAL_PAGES_INT */
-     , (38172, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

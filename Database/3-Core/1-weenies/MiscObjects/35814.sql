@@ -31,18 +31,3 @@ VALUES (35814, 13, True) /* ETHEREAL_BOOL */
      , (35814, 19, True) /* ATTACKABLE_BOOL */
      , (35814, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35814, 16, 'An Olthoi Egg, pulsating with a strange combination of Shadow and Virindi energies.') /* LONG_DESC_STRING */
-     , (35814, 14, 'Turn this egg in to Adrien Swiftblade for a reward.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35814, 33, 1) /* BONDED_INT */
-     , (35814, 114, 1) /* ATTUNED_INT */
-     , (35814, 19, 0) /* VALUE_INT */
-     , (35814, 5, 800) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35814, 69, 0) /* IS_SELLABLE_BOOL */;
-

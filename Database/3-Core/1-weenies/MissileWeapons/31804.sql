@@ -54,34 +54,3 @@ VALUES (31804, 0, 83897331, 83897331);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31804, 0, 16792608);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31804, 16, 'Piercing Compound Bow') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31804, 160, 375) /* WIELD_DIFFICULTY_INT */
-     , (31804, 353, 8) /* WEAPON_TYPE_INT */
-     , (31804, 131, 77) /* MATERIAL_TYPE_INT */
-     , (31804, 179, 16) /* IMBUED_EFFECT_INT */
-     , (31804, 19, 6245) /* VALUE_INT */
-     , (31804, 5, 580) /* ENCUMB_VAL_INT */
-     , (31804, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (31804, 171, 10) /* NUM_TIMES_TINKERED_INT */
-     , (31804, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31804, 204, 18) /* ELEMENTAL_DAMAGE_BONUS_INT */
-     , (31804, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (31804, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (31804, 45, 2) /* DAMAGE_TYPE_INT */
-     , (31804, 49, 35) /* WEAPON_TIME_INT */
-     , (31804, 48, 47) /* WEAPON_SKILL_INT */
-     , (31804, 44, 0) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31804, 29, 1.17) /* WEAPON_DEFENSE_FLOAT */
-     , (31804, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (31804, 63, 2.76) /* DAMAGE_MOD_FLOAT */
-     , (31804, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (31804, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (31804, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

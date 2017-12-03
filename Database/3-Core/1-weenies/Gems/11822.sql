@@ -35,16 +35,6 @@ VALUES (11822, 13, True) /* ETHEREAL_BOOL */
      , (11822, 19, True) /* ATTACKABLE_BOOL */
      , (11822, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11822, 16, 'A Falcon Symbol.') /* LONG_DESC_STRING */
-     , (11822, 14, 'You can combine this with a hafted Falcon Banner.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11822, 19, 0) /* VALUE_INT */
-     , (11822, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

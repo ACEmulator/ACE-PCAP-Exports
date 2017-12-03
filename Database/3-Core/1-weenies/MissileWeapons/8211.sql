@@ -49,28 +49,6 @@ VALUES (8211, 67111926, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8211, 0, 16785144);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8211, 16, 'A metal ring, with decorative Empyrean inscriptions around the rim. This seems to be a thrown weapon.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8211, 353, 10) /* WEAPON_TYPE_INT */
-     , (8211, 19, 2000) /* VALUE_INT */
-     , (8211, 5, 250) /* ENCUMB_VAL_INT */
-     , (8211, 45, 1) /* DAMAGE_TYPE_INT */
-     , (8211, 49, 20) /* WEAPON_TIME_INT */
-     , (8211, 48, 47) /* WEAPON_SKILL_INT */
-     , (8211, 44, 16) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8211, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (8211, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (8211, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (8211, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (8211, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (8211, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

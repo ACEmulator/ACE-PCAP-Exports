@@ -32,17 +32,3 @@ VALUES (30983, 13, True) /* ETHEREAL_BOOL */
      , (30983, 14, True) /* GRAVITY_STATUS_BOOL */
      , (30983, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30983, 16, 'A delicate Snow Lily found only on the Isle of Ruin.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30983, 33, 0) /* BONDED_INT */
-     , (30983, 114, 0) /* ATTUNED_INT */
-     , (30983, 19, 165) /* VALUE_INT */
-     , (30983, 5, 10) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30983, 69, 1) /* IS_SELLABLE_BOOL */;
-

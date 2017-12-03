@@ -38,21 +38,6 @@ VALUES (7864, 13, True) /* ETHEREAL_BOOL */
      , (7864, 14, True) /* GRAVITY_STATUS_BOOL */
      , (7864, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7864, 14, 'Use this item to eat it.') /* USE_STRING */
-     , (7864, 15, 'A juicy Holtburger, on bread.  Said to be old Foster''s favorite.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7864, 19, 129) /* VALUE_INT */
-     , (7864, 5, 40) /* ENCUMB_VAL_INT */
-     , (7864, 89, 2) /* BOOSTER_ENUM_INT */
-     , (7864, 90, 40) /* BOOST_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7864, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

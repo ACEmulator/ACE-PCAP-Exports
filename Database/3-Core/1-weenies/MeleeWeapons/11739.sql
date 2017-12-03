@@ -41,38 +41,3 @@ VALUES (11739, 0, 83893725, 83893725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11739, 0, 16787138);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11739, 16, 'A hafted, crest tipped banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11739, 33, 1) /* BONDED_INT */
-     , (11739, 353, 5) /* WEAPON_TYPE_INT */
-     , (11739, 114, 1) /* ATTUNED_INT */
-     , (11739, 19, 0) /* VALUE_INT */
-     , (11739, 5, 400) /* ENCUMB_VAL_INT */
-     , (11739, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (11739, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (11739, 109, 90) /* ITEM_DIFFICULTY_INT */
-     , (11739, 47, 2) /* ATTACK_TYPE_INT */
-     , (11739, 45, 2) /* DAMAGE_TYPE_INT */
-     , (11739, 49, 30) /* WEAPON_TIME_INT */
-     , (11739, 48, 45) /* WEAPON_SKILL_INT */
-     , (11739, 44, 1) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (11739, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (11739, 5, -0.1) /* MANA_RATE_FLOAT */
-     , (11739, 22, 0.66) /* DAMAGE_VARIANCE_FLOAT */
-     , (11739, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (11739, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (11739, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (11739, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11739, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (11739, 984) /* SprintSelf3_SpellID */;
-

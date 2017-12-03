@@ -30,17 +30,3 @@ VALUES (36200, 13, True) /* ETHEREAL_BOOL */
      , (36200, 19, True) /* ATTACKABLE_BOOL */
      , (36200, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36200, 16, 'A small diamond shaped talisman of stone with four gems set into it.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36200, 33, 1) /* BONDED_INT */
-     , (36200, 114, 1) /* ATTUNED_INT */
-     , (36200, 19, 0) /* VALUE_INT */
-     , (36200, 5, 10) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36200, 69, 0) /* IS_SELLABLE_BOOL */;
-

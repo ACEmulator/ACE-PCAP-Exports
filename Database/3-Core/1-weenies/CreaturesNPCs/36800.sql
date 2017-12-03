@@ -69,16 +69,3 @@ VALUES (36800, 0, 16793775)
      , (36800, 12, 16777334)
      , (36800, 16, 16793784);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36800, 14, 'Use on a magic item to destroy that item and drain its Mana.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36800, 19, 2500) /* VALUE_INT */
-     , (36800, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36800, 137, 0.15) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
-     , (36800, 87, 1.2) /* ITEM_EFFICIENCY_FLOAT */;
-

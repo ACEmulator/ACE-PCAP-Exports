@@ -45,26 +45,6 @@ VALUES (43407, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43407, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43407, 16, 'Using this gem will increase your Void Magic skill by 250 for 15 minutes.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43407, 33, -1) /* BONDED_INT */
-     , (43407, 17, 40) /* RARE_ID_INT */
-     , (43407, 19, 0) /* VALUE_INT */
-     , (43407, 5, 5) /* ENCUMB_VAL_INT */
-     , (43407, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (43407, 108, 10000) /* ITEM_MAX_MANA_INT */
-     , (43407, 109, 0) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43407, 108, 1) /* RARE_USES_TIMER_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (43407, 5436) /* VoidMagicMasteryRare_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

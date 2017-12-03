@@ -29,12 +29,3 @@ VALUES (43013, 13, True) /* ETHEREAL_BOOL */
      , (43013, 19, True) /* ATTACKABLE_BOOL */
      , (43013, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43013, 16, 'Aluvians are a fiercely individualistic and warlike people, quick to anger but with a strong love of justice and fairness. Though often suspicious of things new and strange, they are friendly and always prepared with a little help if they can spare it. They are loyal to their feudal lords, but expect to be well-treated in return. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43013, 19, 125) /* VALUE_INT */
-     , (43013, 5, 9000) /* ENCUMB_VAL_INT */;
-

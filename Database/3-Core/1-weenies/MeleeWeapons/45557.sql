@@ -48,27 +48,3 @@ VALUES (45557, 0, 83896019, 83896019);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (45557, 0, 16792139);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45557, 14, 'Use Oil of Rendering on this weapon to create an Academy Handwraps.') /* USE_STRING */
-     , (45557, 15, 'Basic handwraps forged in the Strathelar Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45557, 353, 1) /* WEAPON_TYPE_INT */
-     , (45557, 19, 25) /* VALUE_INT */
-     , (45557, 5, 50) /* ENCUMB_VAL_INT */
-     , (45557, 47, 1) /* ATTACK_TYPE_INT */
-     , (45557, 45, 4) /* DAMAGE_TYPE_INT */
-     , (45557, 49, 25) /* WEAPON_TIME_INT */
-     , (45557, 48, 46) /* WEAPON_SKILL_INT */
-     , (45557, 44, 7) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45557, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
-     , (45557, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (45557, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (45557, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (45557, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45557, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

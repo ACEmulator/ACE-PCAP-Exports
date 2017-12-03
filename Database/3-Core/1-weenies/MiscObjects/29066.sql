@@ -31,14 +31,3 @@ VALUES (29066, 13, True) /* ETHEREAL_BOOL */
      , (29066, 19, True) /* ATTACKABLE_BOOL */
      , (29066, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29066, 16, 'A component of some alien machine. It appears to be of Empyrean make. Consult Fiun Scorus for more information.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29066, 33, 1) /* BONDED_INT */
-     , (29066, 114, 1) /* ATTUNED_INT */
-     , (29066, 19, 0) /* VALUE_INT */
-     , (29066, 5, 150) /* ENCUMB_VAL_INT */;
-

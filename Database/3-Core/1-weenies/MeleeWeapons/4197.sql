@@ -37,32 +37,3 @@ VALUES (4197, 13, True) /* ETHEREAL_BOOL */
      , (4197, 19, True) /* ATTACKABLE_BOOL */
      , (4197, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4197, 16, 'Acid Nekode') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4197, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (4197, 353, 1) /* WEAPON_TYPE_INT */
-     , (4197, 19, 851) /* VALUE_INT */
-     , (4197, 131, 57) /* MATERIAL_TYPE_INT */
-     , (4197, 5, 107) /* ENCUMB_VAL_INT */
-     , (4197, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (4197, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (4197, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (4197, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (4197, 47, 1) /* ATTACK_TYPE_INT */
-     , (4197, 45, 32) /* DAMAGE_TYPE_INT */
-     , (4197, 49, 17) /* WEAPON_TIME_INT */
-     , (4197, 48, 44) /* WEAPON_SKILL_INT */
-     , (4197, 44, 33) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (4197, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (4197, 22, 0.58) /* DAMAGE_VARIANCE_FLOAT */
-     , (4197, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (4197, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (4197, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (4197, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */;
-

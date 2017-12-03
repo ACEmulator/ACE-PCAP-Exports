@@ -32,12 +32,3 @@ VALUES (8147, 13, True) /* ETHEREAL_BOOL */
      , (8147, 19, True) /* ATTACKABLE_BOOL */
      , (8147, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8147, 16, 'A bloody head that smells of blood, sweat, and unwashed fur.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8147, 19, 0) /* VALUE_INT */
-     , (8147, 5, 800) /* ENCUMB_VAL_INT */;
-

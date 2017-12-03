@@ -43,19 +43,6 @@ VALUES (8619, 13, True) /* ETHEREAL_BOOL */
      , (8619, 19, True) /* ATTACKABLE_BOOL */
      , (8619, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8619, 16, 'A jet-black shard of something hard and crystalline.') /* LONG_DESC_STRING */
-     , (8619, 14, 'Combine with another dark shard to make a shadow fragment, or combine with a small shard to make a glimmering gem.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8619, 19, 0) /* VALUE_INT */
-     , (8619, 5, 20) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8619, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -50,20 +50,6 @@ VALUES (21045, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21045, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21045, 14, 'Apply this material to a magical, treasure-generated item with a Missile Defense activation requirement to change that requirement into an appropriate Melee Defense requirement.') /* USE_STRING */
-     , (21045, 15, 'A bar of copper material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21045, 33, 1) /* BONDED_INT */
-     , (21045, 131, 59) /* MATERIAL_TYPE_INT */
-     , (21045, 19, 18323) /* VALUE_INT */
-     , (21045, 5, 100) /* ENCUMB_VAL_INT */
-     , (21045, 105, 46) /* ITEM_WORKMANSHIP_INT */
-     , (21045, 170, 6) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

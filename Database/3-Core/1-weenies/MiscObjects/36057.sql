@@ -32,28 +32,3 @@ VALUES (36057, 13, True) /* ETHEREAL_BOOL */
      , (36057, 19, True) /* ATTACKABLE_BOOL */
      , (36057, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36057, 14, 'Use this essence to summon or dismiss your Frost Skeleton Minion.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36057, 33, 0) /* BONDED_INT */
-     , (36057, 369, 40) /* USE_REQUIRES_LEVEL_INT */
-     , (36057, 114, 0) /* ATTUNED_INT */
-     , (36057, 370, 14) /* GEAR_DAMAGE_INT */
-     , (36057, 19, 4000) /* VALUE_INT */
-     , (36057, 372, 12) /* GEAR_CRIT_INT */
-     , (36057, 5, 50) /* ENCUMB_VAL_INT */
-     , (36057, 280, 213) /* SHARED_COOLDOWN_INT */
-     , (36057, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (36057, 91, 50) /* MAX_STRUCTURE_INT */
-     , (36057, 366, 54) /* USE_REQUIRES_SKILL_INT */
-     , (36057, 367, 310) /* USE_REQUIRES_SKILL_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36057, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36057, 69, 1) /* IS_SELLABLE_BOOL */;
-

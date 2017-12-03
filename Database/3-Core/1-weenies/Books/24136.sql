@@ -35,15 +35,3 @@ VALUES (24136, 13, True) /* ETHEREAL_BOOL */
      , (24136, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24136, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24136, 16, 'A piece of obsidian with writing from Aerbax.') /* LONG_DESC_STRING */
-     , (24136, 14, 'This item cannot be read.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24136, 19, 20) /* VALUE_INT */
-     , (24136, 5, 50) /* ENCUMB_VAL_INT */
-     , (24136, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (24136, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

@@ -45,34 +45,3 @@ VALUES (27653, 0, 83892561, 83892561)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27653, 0, 16790251);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27653, 15, 'Chorizite has been pounded into this shield. The shield cannot received further enchantment from spells and seems to hinder the access to mana while offering better defense to magical attacks.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27653, 160, 240) /* WIELD_DIFFICULTY_INT */
-     , (27653, 19, 3000) /* VALUE_INT */
-     , (27653, 36, 9999) /* RESIST_MAGIC_INT */
-     , (27653, 5, 1250) /* ENCUMB_VAL_INT */
-     , (27653, 106, 500) /* ITEM_SPELLCRAFT_INT */
-     , (27653, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (27653, 28, 310) /* ARMOR_LEVEL_INT */
-     , (27653, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (27653, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (27653, 159, 48) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27653, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (27653, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (27653, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (27653, 16, 0.85) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (27653, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (27653, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (27653, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (27653, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27653, 2641) /* ForcetoArms_SpellID */
-     , (27653, 3242) /* ChoriziteWeave_SpellID */;
-

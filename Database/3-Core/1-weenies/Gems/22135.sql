@@ -45,15 +45,6 @@ VALUES (22135, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22135, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22135, 33, 1) /* BONDED_INT */
-     , (22135, 114, 1) /* ATTUNED_INT */
-     , (22135, 19, 1000) /* VALUE_INT */
-     , (22135, 131, 21) /* MATERIAL_TYPE_INT */
-     , (22135, 5, 5) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

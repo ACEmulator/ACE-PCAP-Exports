@@ -31,18 +31,3 @@ VALUES (43792, 13, True) /* ETHEREAL_BOOL */
      , (43792, 19, True) /* ATTACKABLE_BOOL */
      , (43792, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43792, 16, 'Fayza may be interested in this item.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43792, 33, 1) /* BONDED_INT */
-     , (43792, 114, 1) /* ATTUNED_INT */
-     , (43792, 19, 0) /* VALUE_INT */
-     , (43792, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43792, 99, 0) /* IVORYABLE_BOOL */
-     , (43792, 69, 0) /* IS_SELLABLE_BOOL */;
-

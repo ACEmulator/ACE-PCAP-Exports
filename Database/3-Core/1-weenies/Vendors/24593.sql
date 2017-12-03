@@ -40,29 +40,6 @@ VALUES (24593, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24593, 67113367, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24593, 5, 'Healer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24593, 2, 57) /* CREATURE_TYPE_INT */
-     , (24593, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24593, 25, 74) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (24593, 1, 111) /* STRENGTH_ATTRIBUTE */
-     , (24593, 2, 178) /* ENDURANCE_ATTRIBUTE */
-     , (24593, 4, 147) /* COORDINATION_ATTRIBUTE */
-     , (24593, 8, 126) /* QUICKNESS_ATTRIBUTE */
-     , (24593, 16, 182) /* FOCUS_ATTRIBUTE */
-     , (24593, 32, 159) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24593, 64, 348) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24593, 128, 363) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24593, 256, 334) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

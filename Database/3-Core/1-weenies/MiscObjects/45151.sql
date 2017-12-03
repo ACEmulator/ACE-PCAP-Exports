@@ -33,20 +33,6 @@ VALUES (45151, 13, True) /* ETHEREAL_BOOL */
      , (45151, 14, True) /* GRAVITY_STATUS_BOOL */
      , (45151, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45151, 15, 'These glyphs power the portals of the Mhoire Oubliette. ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45151, 33, 1) /* BONDED_INT */
-     , (45151, 114, 1) /* ATTUNED_INT */
-     , (45151, 19, 0) /* VALUE_INT */
-     , (45151, 5, 60) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (45151, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

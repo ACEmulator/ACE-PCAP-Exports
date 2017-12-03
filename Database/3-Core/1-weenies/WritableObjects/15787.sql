@@ -31,13 +31,3 @@ VALUES (15787, 13, True) /* ETHEREAL_BOOL */
      , (15787, 19, True) /* ATTACKABLE_BOOL */
      , (15787, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15787, 16, 'A note hastily written by Nuhmudira. A strange symbol is scribbled at the bottom.') /* LONG_DESC_STRING */
-     , (15787, 14, 'Use a book that is missing two pages on this page.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15787, 19, 0) /* VALUE_INT */
-     , (15787, 5, 25) /* ENCUMB_VAL_INT */;
-

@@ -35,21 +35,6 @@ VALUES (7868, 13, True) /* ETHEREAL_BOOL */
      , (7868, 14, True) /* GRAVITY_STATUS_BOOL */
      , (7868, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7868, 14, 'Use this item to eat it.') /* USE_STRING */
-     , (7868, 15, 'Applesauce: simple, impeccably pureed, buttery.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7868, 19, 140) /* VALUE_INT */
-     , (7868, 5, 80) /* ENCUMB_VAL_INT */
-     , (7868, 89, 6) /* BOOSTER_ENUM_INT */
-     , (7868, 90, 24) /* BOOST_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7868, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

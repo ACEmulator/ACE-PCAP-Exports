@@ -35,17 +35,3 @@ VALUES (3066, 13, True) /* ETHEREAL_BOOL */
      , (3066, 19, True) /* ATTACKABLE_BOOL */
      , (3066, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3066, 16, 'Inscribed spell: Piercing Protection Other V
-Reduces damage the target takes from Piercing by 50%.') /* LONG_DESC_STRING */
-     , (3066, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3066, 19, 200) /* VALUE_INT */
-     , (3066, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3066, 1143) /* PiercingProtectionOther5_SpellID */;
-

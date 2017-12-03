@@ -33,21 +33,6 @@ VALUES (25421, 13, True) /* ETHEREAL_BOOL */
      , (25421, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25421, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25421, 16, 'A blue vellum binder containing 14 thin sheets of parchment. The parchment is inscribed in an unknown alphabet.') /* LONG_DESC_STRING */
-     , (25421, 14, 'Use this binder on Untranslated Pages in the correct order to complete this volume.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25421, 33, 1) /* BONDED_INT */
-     , (25421, 114, 1) /* ATTUNED_INT */
-     , (25421, 19, 0) /* VALUE_INT */
-     , (25421, 5, 25) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25421, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

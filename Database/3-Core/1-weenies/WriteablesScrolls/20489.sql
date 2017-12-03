@@ -35,17 +35,3 @@ VALUES (20489, 13, True) /* ETHEREAL_BOOL */
      , (20489, 19, True) /* ATTACKABLE_BOOL */
      , (20489, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20489, 16, 'Inscribed spell: Battlemage''s Boon
-Increases the target''s natural mana rate by 115%.') /* LONG_DESC_STRING */
-     , (20489, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20489, 19, 2000) /* VALUE_INT */
-     , (20489, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20489, 2182) /* ManaRenewalOther7_SpellID */;
-

@@ -61,31 +61,3 @@ VALUES (307, 0, 16777708)
      , (307, 7, 16779363)
      , (307, 8, 16779364);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (307, 16, 'Shortbow') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (307, 160, 270) /* WIELD_DIFFICULTY_INT */
-     , (307, 353, 8) /* WEAPON_TYPE_INT */
-     , (307, 19, 1773) /* VALUE_INT */
-     , (307, 131, 51) /* MATERIAL_TYPE_INT */
-     , (307, 5, 391) /* ENCUMB_VAL_INT */
-     , (307, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (307, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (307, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (307, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (307, 45, 0) /* DAMAGE_TYPE_INT */
-     , (307, 49, 30) /* WEAPON_TIME_INT */
-     , (307, 48, 47) /* WEAPON_SKILL_INT */
-     , (307, 44, 0) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (307, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (307, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (307, 63, 2.3) /* DAMAGE_MOD_FLOAT */
-     , (307, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (307, 26, 24.9) /* MAXIMUM_VELOCITY_FLOAT */
-     , (307, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

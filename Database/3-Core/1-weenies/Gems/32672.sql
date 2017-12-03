@@ -47,25 +47,6 @@ VALUES (32672, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32672, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32672, 14, 'Use this page to infuse your wielded weapon with the Invocation of the Black Book, adding a 10% bonus to its Attack modifier.  This spell stacks with other spells and cantrips.') /* USE_STRING */
-     , (32672, 15, 'A page of an ancient book with runes that are unintelligible, but still seem to make sense to your eyes...') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32672, 33, 1) /* BONDED_INT */
-     , (32672, 114, 1) /* ATTUNED_INT */
-     , (32672, 19, 0) /* VALUE_INT */
-     , (32672, 5, 20) /* ENCUMB_VAL_INT */
-     , (32672, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (32672, 108, 250) /* ITEM_MAX_MANA_INT */
-     , (32672, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (32672, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (32672, 3869) /* CantripSaltAshAttackMod_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

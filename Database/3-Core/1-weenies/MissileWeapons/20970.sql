@@ -51,30 +51,6 @@ VALUES (20970, 67111921, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (20970, 0, 16787489);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20970, 160, 230) /* WIELD_DIFFICULTY_INT */
-     , (20970, 19, 2970) /* VALUE_INT */
-     , (20970, 5, 1350) /* ENCUMB_VAL_INT */
-     , (20970, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (20970, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (20970, 45, 16) /* DAMAGE_TYPE_INT */
-     , (20970, 49, -1) /* WEAPON_TIME_INT */
-     , (20970, 48, 0) /* WEAPON_SKILL_INT */
-     , (20970, 44, 34) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (20970, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (20970, 22, 0.33) /* DAMAGE_VARIANCE_FLOAT */
-     , (20970, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (20970, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (20970, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (20970, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (20970, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -40,26 +40,3 @@ VALUES (51654, 13, True) /* ETHEREAL_BOOL */
      , (51654, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (51654, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51654, 5, 'Silver Scope Explorer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51654, 2, 99) /* CREATURE_TYPE_INT */
-     , (51654, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (51654, 25, 275) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (51654, 1, 250) /* STRENGTH_ATTRIBUTE */
-     , (51654, 2, 300) /* ENDURANCE_ATTRIBUTE */
-     , (51654, 4, 400) /* COORDINATION_ATTRIBUTE */
-     , (51654, 8, 350) /* QUICKNESS_ATTRIBUTE */
-     , (51654, 16, 250) /* FOCUS_ATTRIBUTE */
-     , (51654, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51654, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (51654, 128, 1000) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (51654, 256, 700) /* MAX_MANA_ATTRIBUTE_2ND */;
-

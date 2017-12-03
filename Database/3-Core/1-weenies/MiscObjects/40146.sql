@@ -54,23 +54,6 @@ VALUES (40146, 0, 16784246)
      , (40146, 1, 16784196)
      , (40146, 2, 16784180);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40146, 16, 'A crystalline shard condensed from the remains of an aggregate crystalline wisp.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40146, 33, 1) /* BONDED_INT */
-     , (40146, 114, 1) /* ATTUNED_INT */
-     , (40146, 98, 1485833462) /* CREATION_TIMESTAMP_INT */
-     , (40146, 19, 0) /* VALUE_INT */
-     , (40146, 5, 5) /* ENCUMB_VAL_INT */
-     , (40146, 267, 300) /* LIFESPAN_INT */
-     , (40146, 268, 299) /* REMAINING_LIFESPAN_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40146, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

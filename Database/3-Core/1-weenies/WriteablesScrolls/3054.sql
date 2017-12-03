@@ -35,17 +35,3 @@ VALUES (3054, 13, True) /* ETHEREAL_BOOL */
      , (3054, 19, True) /* ATTACKABLE_BOOL */
      , (3054, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3054, 16, 'Inscribed spell: Lightning Protection Self III
-Reduces damage the caster takes from Lightning by 33%.') /* LONG_DESC_STRING */
-     , (3054, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3054, 19, 20) /* VALUE_INT */
-     , (3054, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3054, 1068) /* LightningProtectionSelf3_SpellID */;
-

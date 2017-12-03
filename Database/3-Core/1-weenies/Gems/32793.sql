@@ -55,12 +55,3 @@ VALUES (32793, 0, 16785366)
      , (32793, 5, 16777708)
      , (32793, 6, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32793, 16, 'A chubby little idol with a rare gem symbol on its chest. It looks like it''s about to burst with joy.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32793, 19, 0) /* VALUE_INT */
-     , (32793, 5, 10) /* ENCUMB_VAL_INT */;
-

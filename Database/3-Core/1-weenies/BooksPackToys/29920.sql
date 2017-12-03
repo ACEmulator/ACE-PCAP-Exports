@@ -47,20 +47,3 @@ VALUES (29920, 9, 83890028, 83890028);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29920, 9, 16780702);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29920, 16, 'Levistras, Virindi Director, Speaker of the New Directive') /* LONG_DESC_STRING */
-     , (29920, 14, 'This doll may be hooked. Use this doll to read a historical lesson.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29920, 33, 1) /* BONDED_INT */
-     , (29920, 114, 0) /* ATTUNED_INT */
-     , (29920, 19, 5000) /* VALUE_INT */
-     , (29920, 5, 10) /* ENCUMB_VAL_INT */
-     , (29920, 174, 3) /* APPRAISAL_PAGES_INT */
-     , (29920, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29920, 69, 0) /* IS_SELLABLE_BOOL */;
-

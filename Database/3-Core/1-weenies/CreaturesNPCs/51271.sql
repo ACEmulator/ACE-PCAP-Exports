@@ -79,28 +79,3 @@ VALUES (51271, 5, 16778438)
      , (51271, 4, 16783485)
      , (51271, 8, 16783487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51271, 5, 'Gearknight Phalanx Taskmaster') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51271, 288, 1) /* SOCIETY_RANK_ELDWEB_INT */
-     , (51271, 2, 14) /* CREATURE_TYPE_INT */
-     , (51271, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (51271, 25, 180) /* LEVEL_INT */
-     , (51271, 281, 2) /* FACTION1_BITS_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (51271, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (51271, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (51271, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (51271, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (51271, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (51271, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51271, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (51271, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (51271, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-

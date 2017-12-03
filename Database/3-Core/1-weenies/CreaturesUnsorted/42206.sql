@@ -83,14 +83,3 @@ VALUES (42206, 11, 16777302)
      , (42206, 8, 16781839)
      , (42206, 16, 16789596);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42206, 16, 'Give this to the Master Arbitrator for a new Title and reward item.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42206, 33, 1) /* BONDED_INT */
-     , (42206, 114, 1) /* ATTUNED_INT */
-     , (42206, 19, 0) /* VALUE_INT */
-     , (42206, 5, 10) /* ENCUMB_VAL_INT */;
-

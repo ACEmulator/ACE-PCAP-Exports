@@ -52,18 +52,3 @@ VALUES (38322, 0, 83895117, 83895117)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38322, 0, 16789869);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38322, 16, 'A staff smoothed by years of ocean and sand.') /* LONG_DESC_STRING */
-     , (38322, 14, 'Use this staff to open the way to the Moarsmen City, Nyr''leha.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38322, 33, 1) /* BONDED_INT */
-     , (38322, 98, 1485759462) /* CREATION_TIMESTAMP_INT */
-     , (38322, 114, 1) /* ATTUNED_INT */
-     , (38322, 19, 0) /* VALUE_INT */
-     , (38322, 5, 150) /* ENCUMB_VAL_INT */
-     , (38322, 267, 3600) /* LIFESPAN_INT */
-     , (38322, 268, 3590) /* REMAINING_LIFESPAN_INT */;
-

@@ -52,28 +52,3 @@ VALUES (8552, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8552, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8552, 16, 'A magical orb found in the cathedral of Ithaenc. This artifact was crafted by Lady Adja, a member of the Yalaini Council of Five, for use by her religious order.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8552, 176, 33) /* APPRAISAL_ITEM_SKILL_INT */
-     , (8552, 115, 245) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (8552, 19, 5400) /* VALUE_INT */
-     , (8552, 5, 50) /* ENCUMB_VAL_INT */
-     , (8552, 106, 225) /* ITEM_SPELLCRAFT_INT */
-     , (8552, 108, 1200) /* ITEM_MAX_MANA_INT */
-     , (8552, 109, 105) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8552, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
-     , (8552, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (8552, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8552, 1166) /* HealOther6_SpellID */
-     , (8552, 1997) /* LifeGiver_SpellID */
-     , (8552, 170) /* RegenerationSelf6_SpellID */
-     , (8552, 879) /* HealingMasterySelf6_SpellID */;
-

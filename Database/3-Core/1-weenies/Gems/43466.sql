@@ -38,15 +38,3 @@ VALUES (43466, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43466, 0, 16787203);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43466, 14, 'This token may be traded to Nalicana, the Seer of the Yalain, in Asheron''s Castle, in order to spend 25,000 Luminance for five Luminous Pearls of Defending. A Luminous Pearl of Defending, when used, will cast Incantation of Defender on your equipped weapon.') /* USE_STRING */
-     , (43466, 15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43466, 33, 1) /* BONDED_INT */
-     , (43466, 114, 1) /* ATTUNED_INT */
-     , (43466, 19, 0) /* VALUE_INT */
-     , (43466, 5, 5) /* ENCUMB_VAL_INT */;
-

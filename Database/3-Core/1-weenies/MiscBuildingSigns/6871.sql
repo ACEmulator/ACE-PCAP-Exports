@@ -34,12 +34,3 @@ VALUES (6871, 0, 83892071, 83892180);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6871, 0, 16783205);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6871, 16, 'The Whispering Sword') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6871, 19, 125) /* VALUE_INT */
-     , (6871, 5, 9000) /* ENCUMB_VAL_INT */;
-

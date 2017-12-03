@@ -58,14 +58,3 @@ VALUES (46068, 0, 16787898)
      , (46068, 1, 16787897)
      , (46068, 2, 16787897);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46068, 19, 120) /* VALUE_INT */
-     , (46068, 5, 50) /* ENCUMB_VAL_INT */
-     , (46068, 90, 100) /* BOOST_VALUE_INT */
-     , (46068, 91, 30) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (46068, 100, 1) /* HEALKIT_MOD_FLOAT */;
-

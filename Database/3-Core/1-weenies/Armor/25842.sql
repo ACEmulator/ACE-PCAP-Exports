@@ -47,35 +47,3 @@ VALUES (25842, 0, 83887061, 83894968)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25842, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25842, 15, 'A robe crafted from the hide of the vile doomshark, Plaguefang.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25842, 160, 100) /* WIELD_DIFFICULTY_INT */
-     , (25842, 19, 12500) /* VALUE_INT */
-     , (25842, 5, 1195) /* ENCUMB_VAL_INT */
-     , (25842, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (25842, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (25842, 28, 210) /* ARMOR_LEVEL_INT */
-     , (25842, 109, 125) /* ITEM_DIFFICULTY_INT */
-     , (25842, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25842, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25842, 5, -0.033) /* MANA_RATE_FLOAT */
-     , (25842, 13, 0.25) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25842, 14, 0.75) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25842, 15, 0.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25842, 16, 0.25) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25842, 17, 0.65) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25842, 18, 0.75) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25842, 19, 0.75) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25842, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25842, 2382) /* UnnaturalPersistence_SpellID */
-     , (25842, 2384) /* ArcaneRestoration_SpellID */
-     , (25842, 2385) /* Vigilance_SpellID */;
-

@@ -33,12 +33,3 @@ VALUES (34260, 13, True) /* ETHEREAL_BOOL */
      , (34260, 19, True) /* ATTACKABLE_BOOL */
      , (34260, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34260, 16, 'A painting that has been enchanted to display scenes of humanity''s struggle on Dereth.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34260, 19, 10000) /* VALUE_INT */
-     , (34260, 5, 800) /* ENCUMB_VAL_INT */;
-

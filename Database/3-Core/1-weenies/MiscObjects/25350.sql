@@ -33,12 +33,3 @@ VALUES (25350, 13, True) /* ETHEREAL_BOOL */
      , (25350, 19, True) /* ATTACKABLE_BOOL */
      , (25350, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25350, 16, 'This book seems to live and pulse of its own accord.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25350, 19, 90) /* VALUE_INT */
-     , (25350, 5, 160) /* ENCUMB_VAL_INT */;
-

@@ -32,5 +32,3 @@ VALUES (22209, 13, True) /* ETHEREAL_BOOL */
      , (22209, 19, True) /* ATTACKABLE_BOOL */
      , (22209, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-

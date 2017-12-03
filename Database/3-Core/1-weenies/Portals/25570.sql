@@ -33,12 +33,3 @@ VALUES (25570, 13, True) /* ETHEREAL_BOOL */
      , (25570, 19, True) /* ATTACKABLE_BOOL */
      , (25570, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25570, 38, 'Hidden Cavern') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25570, 86, 80) /* MIN_LEVEL_INT */
-     , (25570, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -35,15 +35,3 @@ VALUES (41833, 13, True) /* ETHEREAL_BOOL */
      , (41833, 19, True) /* ATTACKABLE_BOOL */
      , (41833, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41833, 16, 'Supplies stored by the Eldrytch Web.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41833, 33, 1) /* BONDED_INT */
-     , (41833, 114, 1) /* ATTUNED_INT */
-     , (41833, 19, 0) /* VALUE_INT */
-     , (41833, 5, 100) /* ENCUMB_VAL_INT */
-     , (41833, 279, 1) /* UNIQUE_INT */;
-

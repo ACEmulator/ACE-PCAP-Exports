@@ -86,36 +86,3 @@ VALUES (31656, 12, 16777304)
      , (31656, 13, 16783871)
      , (31656, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31656, 5, 'Floeshark Flogger') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31656, 16, 67109565) /* EYES_PALETTE_DID */
-     , (31656, 9, 83890448) /* EYES_TEXTURE_DID */
-     , (31656, 17, 67110049) /* SKIN_PALETTE_DID */
-     , (31656, 10, 83890544) /* NOSE_TEXTURE_DID */
-     , (31656, 11, 83890581) /* MOUTH_TEXTURE_DID */
-     , (31656, 15, 67117017) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31656, 113, 1) /* GENDER_INT */
-     , (31656, 2, 31) /* CREATURE_TYPE_INT */
-     , (31656, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31656, 25, 129) /* LEVEL_INT */
-     , (31656, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (31656, 1, 60) /* STRENGTH_ATTRIBUTE */
-     , (31656, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (31656, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (31656, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (31656, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (31656, 32, 130) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31656, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (31656, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (31656, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
-

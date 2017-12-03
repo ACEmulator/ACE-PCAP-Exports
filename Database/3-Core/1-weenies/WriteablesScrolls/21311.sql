@@ -35,17 +35,3 @@ VALUES (21311, 13, True) /* ETHEREAL_BOOL */
      , (21311, 19, True) /* ATTACKABLE_BOOL */
      , (21311, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21311, 16, 'Inscribed spell: Force Arc III
-Shoots a bolt of force at the target. The bolt does 42-84 points of piercing damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (21311, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21311, 19, 20) /* VALUE_INT */
-     , (21311, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (21311, 2720) /* ForceArc3_SpellID */;
-

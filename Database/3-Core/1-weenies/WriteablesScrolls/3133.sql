@@ -35,17 +35,3 @@ VALUES (3133, 13, True) /* ETHEREAL_BOOL */
      , (3133, 19, True) /* ATTACKABLE_BOOL */
      , (3133, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3133, 16, 'Inscribed spell: Arcane Enlightenment Other II
-Increases the target''s Arcane Lore skill by 15 points.') /* LONG_DESC_STRING */
-     , (3133, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3133, 19, 5) /* VALUE_INT */
-     , (3133, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3133, 685) /* ArcaneEnlightenmentOther2_SpellID */;
-

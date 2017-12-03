@@ -78,36 +78,3 @@ VALUES (30064, 16, 16795638)
      , (30064, 13, 16791903)
      , (30064, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30064, 5, 'Herald of Sanamar') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (30064, 16, 67110065) /* EYES_PALETTE_DID */
-     , (30064, 9, 83890508) /* EYES_TEXTURE_DID */
-     , (30064, 17, 67115906) /* SKIN_PALETTE_DID */
-     , (30064, 10, 83890556) /* NOSE_TEXTURE_DID */
-     , (30064, 11, 83890628) /* MOUTH_TEXTURE_DID */
-     , (30064, 15, 67117103) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30064, 113, 1) /* GENDER_INT */
-     , (30064, 2, 31) /* CREATURE_TYPE_INT */
-     , (30064, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (30064, 25, 30) /* LEVEL_INT */
-     , (30064, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (30064, 1, 110) /* STRENGTH_ATTRIBUTE */
-     , (30064, 2, 120) /* ENDURANCE_ATTRIBUTE */
-     , (30064, 4, 120) /* COORDINATION_ATTRIBUTE */
-     , (30064, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (30064, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (30064, 32, 100) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30064, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (30064, 128, 230) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (30064, 256, 105) /* MAX_MANA_ATTRIBUTE_2ND */;
-

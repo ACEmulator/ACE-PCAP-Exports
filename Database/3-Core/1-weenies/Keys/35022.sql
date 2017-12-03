@@ -34,18 +34,3 @@ VALUES (35022, 13, True) /* ETHEREAL_BOOL */
      , (35022, 19, True) /* ATTACKABLE_BOOL */
      , (35022, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35022, 16, 'A key to the 5th Locked Gate in the Falatacot Catacombs on Bur.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35022, 33, 1) /* BONDED_INT */
-     , (35022, 114, 1) /* ATTUNED_INT */
-     , (35022, 19, 0) /* VALUE_INT */
-     , (35022, 5, 15) /* ENCUMB_VAL_INT */
-     , (35022, 91, 1) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35022, 69, 0) /* IS_SELLABLE_BOOL */;
-

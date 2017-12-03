@@ -47,27 +47,6 @@ VALUES (2424, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (2424, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2424, 16, 'Gem of Focus') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2424, 19, 1645) /* VALUE_INT */
-     , (2424, 131, 34) /* MATERIAL_TYPE_INT */
-     , (2424, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (2424, 5, 5) /* ENCUMB_VAL_INT */
-     , (2424, 117, 300) /* ITEM_MANA_COST_INT */
-     , (2424, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (2424, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (2424, 108, 467) /* ITEM_MAX_MANA_INT */
-     , (2424, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (2424, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (2424, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2424, 1425) /* FocusSelf5_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

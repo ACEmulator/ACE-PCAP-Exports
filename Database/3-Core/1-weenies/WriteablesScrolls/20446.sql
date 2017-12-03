@@ -35,17 +35,3 @@ VALUES (20446, 13, True) /* ETHEREAL_BOOL */
      , (20446, 19, True) /* ATTACKABLE_BOOL */
      , (20446, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20446, 16, 'Inscribed spell: Outlander''s Insolence
-Sends a bolt of force streaking towards the target. The bolt does 42-84 points of piercing damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (20446, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20446, 19, 2000) /* VALUE_INT */
-     , (20446, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20446, 2133) /* ForceStreak7_SpellID */;
-

@@ -34,21 +34,6 @@ VALUES (25819, 13, True) /* ETHEREAL_BOOL */
      , (25819, 19, True) /* ATTACKABLE_BOOL */
      , (25819, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25819, 14, 'As explained by Honshu, you may place the rock of splendor atop this item, and then anoint it with the water of purity.') /* USE_STRING */
-     , (25819, 15, 'The crystals of grace have been scattered into the brazier of power.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25819, 33, 1) /* BONDED_INT */
-     , (25819, 114, 1) /* ATTUNED_INT */
-     , (25819, 19, 8000) /* VALUE_INT */
-     , (25819, 5, 1000) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25819, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

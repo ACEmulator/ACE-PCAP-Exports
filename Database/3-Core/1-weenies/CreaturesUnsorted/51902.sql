@@ -58,33 +58,3 @@ VALUES (51902, 0, 16785699)
      , (51902, 19, 16785704)
      , (51902, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51902, 16, 'Staff of Frost') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51902, 177, 3) /* GEM_COUNT_INT */
-     , (51902, 178, 50) /* GEM_TYPE_INT */
-     , (51902, 19, 5899) /* VALUE_INT */
-     , (51902, 131, 45) /* MATERIAL_TYPE_INT */
-     , (51902, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (51902, 5, 50) /* ENCUMB_VAL_INT */
-     , (51902, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (51902, 106, 238) /* ITEM_SPELLCRAFT_INT */
-     , (51902, 108, 1876) /* ITEM_MAX_MANA_INT */
-     , (51902, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (51902, 109, 178) /* ITEM_DIFFICULTY_INT */
-     , (51902, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (51902, 144, 0.02) /* MANA_CONVERSION_MOD_FLOAT */
-     , (51902, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (51902, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (51902, 73) /* FrostBolt5_SpellID */
-     , (51902, 1605) /* Defender6_SpellID */
-     , (51902, 1479) /* TrueValue5_SpellID */
-     , (51902, 585) /* ItemEnchantmentMasterySelf5_SpellID */;
-

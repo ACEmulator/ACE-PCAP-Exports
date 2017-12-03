@@ -34,14 +34,3 @@ VALUES (34346, 13, True) /* ETHEREAL_BOOL */
      , (34346, 19, True) /* ATTACKABLE_BOOL */
      , (34346, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34346, 16, 'A piece of metal found in a chest in the Folthid Cellar. It has faint designs illegibly carved onto the face. There is a small amount of a purple corrosion on one side.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34346, 33, 1) /* BONDED_INT */
-     , (34346, 114, 1) /* ATTUNED_INT */
-     , (34346, 19, 0) /* VALUE_INT */
-     , (34346, 5, 5) /* ENCUMB_VAL_INT */;
-

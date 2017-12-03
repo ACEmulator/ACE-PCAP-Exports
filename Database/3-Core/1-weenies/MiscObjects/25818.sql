@@ -35,15 +35,3 @@ VALUES (25818, 13, True) /* ETHEREAL_BOOL */
      , (25818, 19, True) /* ATTACKABLE_BOOL */
      , (25818, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25818, 16, 'A font crafted from objects representative of the teachings of Sho belief.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25818, 19, 24000) /* VALUE_INT */
-     , (25818, 5, 1750) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25818, 69, 0) /* IS_SELLABLE_BOOL */;
-

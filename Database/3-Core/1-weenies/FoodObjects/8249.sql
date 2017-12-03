@@ -40,21 +40,6 @@ VALUES (8249, 0, 83888884, 83892725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8249, 0, 16778859);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8249, 14, 'Use this item to eat it.') /* USE_STRING */
-     , (8249, 15, 'A thick, sweetened soup made from cooked pumpkin.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8249, 19, 70) /* VALUE_INT */
-     , (8249, 5, 150) /* ENCUMB_VAL_INT */
-     , (8249, 89, 4) /* BOOSTER_ENUM_INT */
-     , (8249, 90, 15) /* BOOST_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8249, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

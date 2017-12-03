@@ -83,36 +83,3 @@ VALUES (4794, 2, 16778436)
      , (4794, 4, 16778426)
      , (4794, 8, 16778428);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4794, 5, 'Citizen of Rithwic') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (4794, 16, 67109564) /* EYES_PALETTE_DID */
-     , (4794, 9, 83890262) /* EYES_TEXTURE_DID */
-     , (4794, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (4794, 10, 83890294) /* NOSE_TEXTURE_DID */
-     , (4794, 11, 83890330) /* MOUTH_TEXTURE_DID */
-     , (4794, 15, 67116978) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4794, 113, 2) /* GENDER_INT */
-     , (4794, 2, 31) /* CREATURE_TYPE_INT */
-     , (4794, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (4794, 25, 7) /* LEVEL_INT */
-     , (4794, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (4794, 1, 70) /* STRENGTH_ATTRIBUTE */
-     , (4794, 2, 80) /* ENDURANCE_ATTRIBUTE */
-     , (4794, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (4794, 8, 50) /* QUICKNESS_ATTRIBUTE */
-     , (4794, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (4794, 32, 50) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4794, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (4794, 128, 90) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (4794, 256, 65) /* MAX_MANA_ATTRIBUTE_2ND */;
-

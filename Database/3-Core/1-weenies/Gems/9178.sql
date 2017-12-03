@@ -134,12 +134,3 @@ VALUES (9178, 9, 16780702)
      , (9178, 10, 16780692)
      , (9178, 11, 16780692);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9178, 16, 'Removable mask! Magic-Cyborg-Ninja sickles! Pack Virindi even flies (somehow...)!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9178, 19, 10) /* VALUE_INT */
-     , (9178, 5, 10) /* ENCUMB_VAL_INT */;
-

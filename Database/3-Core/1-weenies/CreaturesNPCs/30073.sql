@@ -78,32 +78,6 @@ VALUES (30073, 5, 16791918)
      , (30073, 22, 16777708)
      , (30073, 21, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30073, 16, 'Studded Leather Leggings') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30073, 19, 5829) /* VALUE_INT */
-     , (30073, 131, 54) /* MATERIAL_TYPE_INT */
-     , (30073, 5, 577) /* ENCUMB_VAL_INT */
-     , (30073, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (30073, 28, 264) /* ARMOR_LEVEL_INT */
-     , (30073, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30073, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (30073, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (30073, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (30073, 16, 1.144278) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (30073, 17, 0.9537249) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (30073, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (30073, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (30073, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (30073, 100, 1) /* DYABLE_BOOL */;
-
 /* Object Wield List */
 
 /* Object Wield List */

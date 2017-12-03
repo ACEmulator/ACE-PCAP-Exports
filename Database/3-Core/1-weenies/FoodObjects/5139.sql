@@ -34,20 +34,6 @@ VALUES (5139, 13, True) /* ETHEREAL_BOOL */
      , (5139, 19, True) /* ATTACKABLE_BOOL */
      , (5139, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5139, 16, 'A flask of muddy water from deep within the Dry Well near Samsur.') /* LONG_DESC_STRING */
-     , (5139, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5139, 33, 1) /* BONDED_INT */
-     , (5139, 114, 1) /* ATTUNED_INT */
-     , (5139, 19, 0) /* VALUE_INT */
-     , (5139, 5, 50) /* ENCUMB_VAL_INT */
-     , (5139, 89, 4) /* BOOSTER_ENUM_INT */
-     , (5139, 90, 1) /* BOOST_VALUE_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

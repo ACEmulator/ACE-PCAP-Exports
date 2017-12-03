@@ -33,12 +33,3 @@ VALUES (7200, 13, True) /* ETHEREAL_BOOL */
      , (7200, 19, True) /* ATTACKABLE_BOOL */
      , (7200, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7200, 38, 'Black Dominion Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7200, 86, 25) /* MIN_LEVEL_INT */
-     , (7200, 111, 1) /* PORTAL_BITMASK_INT */;
-

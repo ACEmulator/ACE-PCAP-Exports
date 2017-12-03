@@ -44,15 +44,3 @@ VALUES (38042, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (38042, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38042, 16, 'This delicate bauble is similar to the Falatacot Trinkets which may be found around Dereth, but is more finely crafted.  ') /* LONG_DESC_STRING */
-     , (38042, 14, 'Give this charm to Roderick in the Mite Maze to prove you survived the Falatacot attack.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38042, 33, 1) /* BONDED_INT */
-     , (38042, 114, 1) /* ATTUNED_INT */
-     , (38042, 19, 0) /* VALUE_INT */
-     , (38042, 5, 10) /* ENCUMB_VAL_INT */;
-

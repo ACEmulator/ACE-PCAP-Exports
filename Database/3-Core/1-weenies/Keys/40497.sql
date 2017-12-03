@@ -34,14 +34,3 @@ VALUES (40497, 13, True) /* ETHEREAL_BOOL */
      , (40497, 19, True) /* ATTACKABLE_BOOL */
      , (40497, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40497, 16, 'A key taken from the Hea Warlord of the Apostate Citadel.') /* LONG_DESC_STRING */
-     , (40497, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40497, 19, 0) /* VALUE_INT */
-     , (40497, 5, 20) /* ENCUMB_VAL_INT */
-     , (40497, 91, 1) /* MAX_STRUCTURE_INT */;
-

@@ -33,15 +33,3 @@ VALUES (52049, 13, True) /* ETHEREAL_BOOL */
      , (52049, 19, True) /* ATTACKABLE_BOOL */
      , (52049, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52049, 38, 'Orange Portal') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52049, 98, 1484704798) /* CREATION_TIMESTAMP_INT */
-     , (52049, 86, 180) /* MIN_LEVEL_INT */
-     , (52049, 267, 600) /* LIFESPAN_INT */
-     , (52049, 268, 457) /* REMAINING_LIFESPAN_INT */
-     , (52049, 111, 49) /* PORTAL_BITMASK_INT */;
-

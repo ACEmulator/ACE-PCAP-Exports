@@ -35,19 +35,6 @@ VALUES (5818, 13, True) /* ETHEREAL_BOOL */
      , (5818, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5818, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5818, 14, 'This item is used in cooking.') /* USE_STRING */
-     , (5818, 15, 'Rich carrot stock, creamy and full of flavor.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5818, 19, 10) /* VALUE_INT */
-     , (5818, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5818, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

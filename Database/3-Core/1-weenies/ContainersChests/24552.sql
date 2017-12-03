@@ -37,16 +37,3 @@ VALUES (24552, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (24552, 19, True) /* ATTACKABLE_BOOL */
      , (24552, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24552, 14, 'Use this item to open it and see its contents.') /* USE_STRING */
-     , (24552, 15, 'A chest') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24552, 19, 200) /* VALUE_INT */
-     , (24552, 5, 9025) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (24552, 2, 0) /* OPEN_BOOL */;
-

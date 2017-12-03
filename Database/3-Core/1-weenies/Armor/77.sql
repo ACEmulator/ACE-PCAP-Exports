@@ -48,39 +48,3 @@ VALUES (77, 0, 83888784, 83888784)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (77, 0, 16778378);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (77, 16, 'Magnificently crafted Copper Kabuton , set with 3 Red Garnets') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (77, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
-     , (77, 115, 182) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (77, 131, 59) /* MATERIAL_TYPE_INT */
-     , (77, 19, 5575) /* VALUE_INT */
-     , (77, 5, 591) /* ENCUMB_VAL_INT */
-     , (77, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (77, 106, 162) /* ITEM_SPELLCRAFT_INT */
-     , (77, 108, 405) /* ITEM_MAX_MANA_INT */
-     , (77, 28, 185) /* ARMOR_LEVEL_INT */
-     , (77, 109, 71) /* ITEM_DIFFICULTY_INT */
-     , (77, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (77, 5, -0.03333334) /* MANA_RATE_FLOAT */
-     , (77, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (77, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (77, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (77, 16, 0.4) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (77, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (77, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (77, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (77, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (77, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (77, 1484) /* Impenetrability4_SpellID */
-     , (77, 1513) /* BludgeonBane3_SpellID */;
-

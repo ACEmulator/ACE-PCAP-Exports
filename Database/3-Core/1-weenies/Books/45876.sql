@@ -35,19 +35,6 @@ VALUES (45876, 13, True) /* ETHEREAL_BOOL */
      , (45876, 14, True) /* GRAVITY_STATUS_BOOL */
      , (45876, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45876, 15, 'A bright red piece of paper with some writing on it.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45876, 33, 0) /* BONDED_INT */
-     , (45876, 114, 0) /* ATTUNED_INT */
-     , (45876, 19, 1) /* VALUE_INT */
-     , (45876, 5, 10) /* ENCUMB_VAL_INT */
-     , (45876, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (45876, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -35,17 +35,3 @@ VALUES (2943, 13, True) /* ETHEREAL_BOOL */
      , (2943, 19, True) /* ATTACKABLE_BOOL */
      , (2943, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2943, 16, 'Inscribed spell: Frost Bolt IV
-Shoots a bolt of cold at the target. The bolt does 52-105 points of cold damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (2943, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2943, 19, 100) /* VALUE_INT */
-     , (2943, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2943, 72) /* FrostBolt4_SpellID */;
-

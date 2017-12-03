@@ -35,34 +35,3 @@ VALUES (33830, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (33830, 19, True) /* ATTACKABLE_BOOL */
      , (33830, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33830, 15, 'A locked door, impossible to pick.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33830, 384, 0) /*  */
-     , (33830, 370, 0) /* GEAR_DAMAGE_INT */
-     , (33830, 386, 0) /*  */
-     , (33830, 307, 0) /* DAMAGE_RATING_INT */
-     , (33830, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (33830, 387, 0) /*  */
-     , (33830, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (33830, 372, 0) /* GEAR_CRIT_INT */
-     , (33830, 388, 0) /*  */
-     , (33830, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (33830, 389, 0) /*  */
-     , (33830, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (33830, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (33830, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (33830, 313, 0) /* CRIT_RATING_INT */
-     , (33830, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (33830, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (33830, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (33830, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (33830, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (33830, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (33830, 381, 0) /*  */
-     , (33830, 382, 0) /*  */
-     , (33830, 383, 0) /*  */;
-

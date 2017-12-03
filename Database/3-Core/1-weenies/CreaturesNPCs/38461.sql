@@ -84,36 +84,3 @@ VALUES (38461, 12, 16777304)
      , (38461, 13, 16783871)
      , (38461, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38461, 5, 'Pristine Mana Shard Collector') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38461, 16, 67109564) /* EYES_PALETTE_DID */
-     , (38461, 9, 83890511) /* EYES_TEXTURE_DID */
-     , (38461, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (38461, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (38461, 11, 83890637) /* MOUTH_TEXTURE_DID */
-     , (38461, 15, 67117076) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38461, 113, 1) /* GENDER_INT */
-     , (38461, 2, 31) /* CREATURE_TYPE_INT */
-     , (38461, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38461, 25, 180) /* LEVEL_INT */
-     , (38461, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38461, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (38461, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (38461, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (38461, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (38461, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (38461, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38461, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38461, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38461, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-

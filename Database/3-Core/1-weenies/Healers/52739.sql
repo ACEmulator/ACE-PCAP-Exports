@@ -41,20 +41,3 @@ VALUES (52739, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52739, 0, 16779994);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52739, 15, 'A stamina kit created by the highly skilled healers of the Societies.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52739, 19, 3) /* VALUE_INT */
-     , (52739, 5, 50) /* ENCUMB_VAL_INT */
-     , (52739, 90, 225) /* BOOST_VALUE_INT */
-     , (52739, 91, 100) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (52739, 100, 1.5) /* HEALKIT_MOD_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52739, 69, 0) /* IS_SELLABLE_BOOL */;
-

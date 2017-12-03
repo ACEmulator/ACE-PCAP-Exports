@@ -90,26 +90,3 @@ VALUES (25711, 12, 16777304)
      , (25711, 8, 16781839)
      , (25711, 16, 16789666);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25711, 5, 'Bandit Heavy') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (25711, 16, 67110063) /* EYES_PALETTE_DID */
-     , (25711, 9, 83890457) /* EYES_TEXTURE_DID */
-     , (25711, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (25711, 10, 83890561) /* NOSE_TEXTURE_DID */
-     , (25711, 11, 83890630) /* MOUTH_TEXTURE_DID */
-     , (25711, 15, 67116980) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25711, 113, 1) /* GENDER_INT */
-     , (25711, 2, 31) /* CREATURE_TYPE_INT */
-     , (25711, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (25711, 25, 16) /* LEVEL_INT */
-     , (25711, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25711, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

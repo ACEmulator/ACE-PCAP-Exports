@@ -39,16 +39,3 @@ VALUES (12221, 13, True) /* ETHEREAL_BOOL */
      , (12221, 19, True) /* ATTACKABLE_BOOL */
      , (12221, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12221, 16, 'A wand with a shrunken drudge head on it.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12221, 19, 75) /* VALUE_INT */
-     , (12221, 5, 150) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12221, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (12221, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-

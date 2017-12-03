@@ -33,12 +33,3 @@ VALUES (29482, 13, True) /* ETHEREAL_BOOL */
      , (29482, 19, True) /* ATTACKABLE_BOOL */
      , (29482, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29482, 38, 'Exit Lugian Ice Tunnels (93.3N, 50.1W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29482, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (29482, 111, 49) /* PORTAL_BITMASK_INT */;
-

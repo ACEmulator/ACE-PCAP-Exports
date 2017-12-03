@@ -31,14 +31,3 @@ VALUES (31362, 13, True) /* ETHEREAL_BOOL */
      , (31362, 19, True) /* ATTACKABLE_BOOL */
      , (31362, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31362, 16, 'A well-used axe.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31362, 33, 1) /* BONDED_INT */
-     , (31362, 114, 1) /* ATTUNED_INT */
-     , (31362, 19, 0) /* VALUE_INT */
-     , (31362, 5, 800) /* ENCUMB_VAL_INT */;
-

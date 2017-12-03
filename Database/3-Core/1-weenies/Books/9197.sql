@@ -30,15 +30,3 @@ VALUES (9197, 13, True) /* ETHEREAL_BOOL */
      , (9197, 14, True) /* GRAVITY_STATUS_BOOL */
      , (9197, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9197, 16, 'A soft light that seems to emit a silent message in the back of your mind.  Staring at it gives you a sense of peace, and you feel your hand begin to stroke the orb''s surface.') /* LONG_DESC_STRING */
-     , (9197, 14, 'Use this item to read it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9197, 19, 0) /* VALUE_INT */
-     , (9197, 5, 5) /* ENCUMB_VAL_INT */
-     , (9197, 174, 7) /* APPRAISAL_PAGES_INT */
-     , (9197, 175, 7) /* APPRAISAL_MAX_PAGES_INT */;
-

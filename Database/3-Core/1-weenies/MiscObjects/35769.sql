@@ -29,14 +29,3 @@ VALUES (35769, 13, True) /* ETHEREAL_BOOL */
      , (35769, 19, True) /* ATTACKABLE_BOOL */
      , (35769, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35769, 16, 'A beautiful white lily. It''s petals are almost preternaturally delicate and soft.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35769, 33, 1) /* BONDED_INT */
-     , (35769, 114, 1) /* ATTUNED_INT */
-     , (35769, 19, 100) /* VALUE_INT */
-     , (35769, 5, 10) /* ENCUMB_VAL_INT */;
-

@@ -29,12 +29,3 @@ VALUES (19193, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19193, 19, True) /* ATTACKABLE_BOOL */
      , (19193, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19193, 16, 'Welcome to Unified Heart Villas') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19193, 19, 125) /* VALUE_INT */
-     , (19193, 5, 9000) /* ENCUMB_VAL_INT */;
-

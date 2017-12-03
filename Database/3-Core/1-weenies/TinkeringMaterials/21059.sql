@@ -50,20 +50,6 @@ VALUES (21059, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21059, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21059, 14, 'Apply this material to a treasure-generated item in order to render that item "Retained". Retained items cannot be salvaged or sold to vendors. Applying this material does not require a tinkering skill, does not add a tinker to the target''s count, and cannot destroy the target.') /* USE_STRING */
-     , (21059, 15, 'A strip of leather material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21059, 33, 1) /* BONDED_INT */
-     , (21059, 131, 52) /* MATERIAL_TYPE_INT */
-     , (21059, 19, 8110) /* VALUE_INT */
-     , (21059, 5, 100) /* ENCUMB_VAL_INT */
-     , (21059, 105, 16) /* ITEM_WORKMANSHIP_INT */
-     , (21059, 170, 3) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

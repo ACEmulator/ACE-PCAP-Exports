@@ -45,33 +45,3 @@ VALUES (14506, 0, 83888956, 83893821);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14506, 0, 16778334);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14506, 16, 'A golden bracelet fitted with a sparkling lavender gem. The metal vibrates with the power of lightning. The hair on your arms stands on end.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14506, 160, 50) /* WIELD_DIFFICULTY_INT */
-     , (14506, 33, 1) /* BONDED_INT */
-     , (14506, 114, 1) /* ATTUNED_INT */
-     , (14506, 19, 8500) /* VALUE_INT */
-     , (14506, 36, 9999) /* RESIST_MAGIC_INT */
-     , (14506, 5, 80) /* ENCUMB_VAL_INT */
-     , (14506, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (14506, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (14506, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (14506, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (14506, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (14506, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14506, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (14506, 2639) /* Repulsion_SpellID */
-     , (14506, 272) /* MagicResistanceOther5_SpellID */
-     , (14506, 2582) /* CANTRIPQUICKNESS1_SpellID */
-     , (14506, 1077) /* LightningProtectionOther6_SpellID */;
-

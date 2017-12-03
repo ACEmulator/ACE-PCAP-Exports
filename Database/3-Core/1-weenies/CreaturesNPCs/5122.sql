@@ -87,36 +87,3 @@ VALUES (5122, 2, 16778436)
      , (5122, 4, 16781816)
      , (5122, 8, 16781817);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5122, 5, 'Rat Killer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5122, 16, 67109565) /* EYES_PALETTE_DID */
-     , (5122, 9, 83890275) /* EYES_TEXTURE_DID */
-     , (5122, 17, 67110057) /* SKIN_PALETTE_DID */
-     , (5122, 10, 83890301) /* NOSE_TEXTURE_DID */
-     , (5122, 11, 83890351) /* MOUTH_TEXTURE_DID */
-     , (5122, 15, 67117080) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5122, 113, 2) /* GENDER_INT */
-     , (5122, 2, 31) /* CREATURE_TYPE_INT */
-     , (5122, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (5122, 25, 10) /* LEVEL_INT */
-     , (5122, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (5122, 1, 80) /* STRENGTH_ATTRIBUTE */
-     , (5122, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (5122, 4, 75) /* COORDINATION_ATTRIBUTE */
-     , (5122, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (5122, 16, 70) /* FOCUS_ATTRIBUTE */
-     , (5122, 32, 80) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5122, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (5122, 128, 70) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (5122, 256, 80) /* MAX_MANA_ATTRIBUTE_2ND */;
-

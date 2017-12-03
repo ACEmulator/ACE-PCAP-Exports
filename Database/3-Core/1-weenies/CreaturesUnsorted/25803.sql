@@ -56,26 +56,6 @@ VALUES (25803, 2, 16792427)
      , (25803, 14, 16792451)
      , (25803, 16, 16792458);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25803, 2, 30) /* CREATURE_TYPE_INT */
-     , (25803, 307, 5) /* DAMAGE_RATING_INT */
-     , (25803, 25, 160) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (25803, 1, 232) /* STRENGTH_ATTRIBUTE */
-     , (25803, 2, 248) /* ENDURANCE_ATTRIBUTE */
-     , (25803, 4, 308) /* COORDINATION_ATTRIBUTE */
-     , (25803, 8, 315) /* QUICKNESS_ATTRIBUTE */
-     , (25803, 16, 292) /* FOCUS_ATTRIBUTE */
-     , (25803, 32, 308) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25803, 64, 3300) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25803, 128, 4248) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25803, 256, 428) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -31,5 +31,3 @@ VALUES (2609, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (2609, 19, True) /* ATTACKABLE_BOOL */
      , (2609, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-

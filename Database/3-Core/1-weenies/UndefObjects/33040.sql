@@ -74,12 +74,3 @@ VALUES (33040, 0, 16782183)
      , (33040, 11, 16777708)
      , (33040, 12, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33040, 16, 'Killed by Rainwolf.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33040, 19, 0) /* VALUE_INT */
-     , (33040, 5, 6176) /* ENCUMB_VAL_INT */;
-

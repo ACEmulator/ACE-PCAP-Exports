@@ -33,11 +33,3 @@ VALUES (15144, 13, True) /* ETHEREAL_BOOL */
      , (15144, 19, True) /* ATTACKABLE_BOOL */
      , (15144, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15144, 38, 'Avatania Cottages Portal (56.9S, 20.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15144, 111, 1) /* PORTAL_BITMASK_INT */;
-

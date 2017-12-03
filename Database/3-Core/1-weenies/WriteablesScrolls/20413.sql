@@ -35,17 +35,3 @@ VALUES (20413, 13, True) /* ETHEREAL_BOOL */
      , (20413, 19, True) /* ATTACKABLE_BOOL */
      , (20413, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20413, 16, 'Inscribed spell: Inferno Bait
-Decreases a shield or piece of armor''s resistance to fire damage by 170%.') /* LONG_DESC_STRING */
-     , (20413, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20413, 19, 2000) /* VALUE_INT */
-     , (20413, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20413, 2103) /* FlameLure7_SpellID */;
-

@@ -40,17 +40,3 @@ VALUES (35877, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (35877, 67114508, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35877, 16, 'Inscribed spell: Aura of Hermetic Link Self VI
-Increases a magic casting implement''s mana conversion bonus by 60%.') /* LONG_DESC_STRING */
-     , (35877, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35877, 19, 1000) /* VALUE_INT */
-     , (35877, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (35877, 1480) /* TrueValue6_SpellID */;
-

@@ -66,26 +66,3 @@ VALUES (38981, 14, 16784286)
      , (38981, 2, 16784265)
      , (38981, 5, 16784269);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38981, 5, 'Monster Fighter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38981, 2, 3) /* CREATURE_TYPE_INT */
-     , (38981, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38981, 25, 200) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38981, 1, 500) /* STRENGTH_ATTRIBUTE */
-     , (38981, 2, 450) /* ENDURANCE_ATTRIBUTE */
-     , (38981, 4, 420) /* COORDINATION_ATTRIBUTE */
-     , (38981, 8, 400) /* QUICKNESS_ATTRIBUTE */
-     , (38981, 16, 320) /* FOCUS_ATTRIBUTE */
-     , (38981, 32, 320) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38981, 64, 5225) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38981, 128, 10450) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38981, 256, 10320) /* MAX_MANA_ATTRIBUTE_2ND */;
-

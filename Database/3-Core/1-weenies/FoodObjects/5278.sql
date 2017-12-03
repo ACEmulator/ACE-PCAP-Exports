@@ -35,20 +35,6 @@ VALUES (5278, 13, True) /* ETHEREAL_BOOL */
      , (5278, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5278, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5278, 14, 'Use this item to eat it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5278, 19, 135) /* VALUE_INT */
-     , (5278, 5, 50) /* ENCUMB_VAL_INT */
-     , (5278, 89, 2) /* BOOSTER_ENUM_INT */
-     , (5278, 90, 39) /* BOOST_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (5278, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

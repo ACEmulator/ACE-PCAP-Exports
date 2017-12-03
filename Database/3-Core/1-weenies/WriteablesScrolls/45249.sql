@@ -35,17 +35,3 @@ VALUES (45249, 13, True) /* ETHEREAL_BOOL */
      , (45249, 19, True) /* ATTACKABLE_BOOL */
      , (45249, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45249, 16, 'Inscribed spell: Dirty Fighting Mastery Other VI
-Increases the target''s Dirty Fighting skill by 35 points.') /* LONG_DESC_STRING */
-     , (45249, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45249, 19, 1000) /* VALUE_INT */
-     , (45249, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (45249, 5776) /* dirtyfightingmasteryother6_SpellID */;
-

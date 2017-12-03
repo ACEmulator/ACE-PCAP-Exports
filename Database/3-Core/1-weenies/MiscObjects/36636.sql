@@ -50,21 +50,6 @@ VALUES (36636, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36636, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36636, 14, 'Apply this material to treasure-generated armor to imbue the target with a +1 bonus to Magic Defense.') /* USE_STRING */
-     , (36636, 15, 'Chips of zircon. This material is of such exquisite quality that using it to imbue an item is guaranteed to succeed.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36636, 33, 1) /* BONDED_INT */
-     , (36636, 19, 10) /* VALUE_INT */
-     , (36636, 131, 50) /* MATERIAL_TYPE_INT */
-     , (36636, 5, 5) /* ENCUMB_VAL_INT */
-     , (36636, 105, 100) /* ITEM_WORKMANSHIP_INT */
-     , (36636, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (36636, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -44,37 +44,3 @@ VALUES (11948, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (11948, 67111924, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11948, 16, 'A staff given as a reward for defeating the leaders of the Mask Clan.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11948, 176, 46) /* APPRAISAL_ITEM_SKILL_INT */
-     , (11948, 353, 7) /* WEAPON_TYPE_INT */
-     , (11948, 19, 5000) /* VALUE_INT */
-     , (11948, 115, 225) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (11948, 5, 400) /* ENCUMB_VAL_INT */
-     , (11948, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (11948, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (11948, 109, 120) /* ITEM_DIFFICULTY_INT */
-     , (11948, 47, 6) /* ATTACK_TYPE_INT */
-     , (11948, 45, 4) /* DAMAGE_TYPE_INT */
-     , (11948, 49, 25) /* WEAPON_TIME_INT */
-     , (11948, 48, 46) /* WEAPON_SKILL_INT */
-     , (11948, 44, 18) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (11948, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (11948, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
-     , (11948, 22, 0.94) /* DAMAGE_VARIANCE_FLOAT */
-     , (11948, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (11948, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (11948, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (11948, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (11948, 1614) /* BloodDrinker4_SpellID */
-     , (11948, 1590) /* HeartSeeker4_SpellID */
-     , (11948, 248) /* InvulnerabilitySelf5_SpellID */;
-

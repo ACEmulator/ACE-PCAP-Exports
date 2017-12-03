@@ -31,17 +31,3 @@ VALUES (41476, 13, True) /* ETHEREAL_BOOL */
      , (41476, 19, True) /* ATTACKABLE_BOOL */
      , (41476, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41476, 16, 'Your skill at casting all schools of magic is increased. Your effective magic skill when casting any spell is increased by 10. This augmentation cannot be repeated.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41476, 33, 1) /* BONDED_INT */
-     , (41476, 114, 1) /* ATTUNED_INT */
-     , (41476, 19, 0) /* VALUE_INT */
-     , (41476, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
-VALUES (41476, 3, 2000000000) /* AUGMENTATION_COST_INT64 */;
-

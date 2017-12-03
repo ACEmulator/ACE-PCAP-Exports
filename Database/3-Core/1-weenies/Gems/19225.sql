@@ -84,12 +84,3 @@ VALUES (19225, 0, 16784123)
      , (19225, 11, 16784119)
      , (19225, 12, 16784114);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19225, 16, 'A small decorative statue  of a Golem crafted by the Arcanum Tinker, in reward for destroying the statues threatening the cities of Dereth.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19225, 19, 20000) /* VALUE_INT */
-     , (19225, 5, 5000) /* ENCUMB_VAL_INT */;
-

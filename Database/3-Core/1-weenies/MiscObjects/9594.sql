@@ -38,17 +38,6 @@ VALUES (9594, 13, True) /* ETHEREAL_BOOL */
      , (9594, 19, True) /* ATTACKABLE_BOOL */
      , (9594, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9594, 16, 'The base piece for the Bestowers'' Guild skill puzzle.') /* LONG_DESC_STRING */
-     , (9594, 14, 'Use this on a Bestowers'' Guild Skill Puzzle Piece.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9594, 33, -2) /* BONDED_INT */
-     , (9594, 19, 0) /* VALUE_INT */
-     , (9594, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

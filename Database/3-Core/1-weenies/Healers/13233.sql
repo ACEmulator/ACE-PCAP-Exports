@@ -33,14 +33,3 @@ VALUES (13233, 13, True) /* ETHEREAL_BOOL */
      , (13233, 19, True) /* ATTACKABLE_BOOL */
      , (13233, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13233, 19, 50) /* VALUE_INT */
-     , (13233, 5, 50) /* ENCUMB_VAL_INT */
-     , (13233, 90, 0) /* BOOST_VALUE_INT */
-     , (13233, 91, 20) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (13233, 100, 1) /* HEALKIT_MOD_FLOAT */;
-

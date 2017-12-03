@@ -48,24 +48,3 @@ VALUES (9391, 0, 83893266, 83893267);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9391, 0, 16785720);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9391, 16, 'A large scuffed crest, with what seems to be a mattekar on it.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9391, 33, 1) /* BONDED_INT */
-     , (9391, 19, 1750) /* VALUE_INT */
-     , (9391, 5, 1380) /* ENCUMB_VAL_INT */
-     , (9391, 28, 370) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (9391, 13, 2.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (9391, 14, 2.6) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (9391, 15, 2.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (9391, 16, 2.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (9391, 17, 2.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (9391, 18, 3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (9391, 19, 3.3) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (9391, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

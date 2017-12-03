@@ -36,18 +36,3 @@ VALUES (34087, 13, True) /* ETHEREAL_BOOL */
      , (34087, 19, True) /* ATTACKABLE_BOOL */
      , (34087, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34087, 16, 'A supernaturally healthy pumpkin vine. Small orange buds seem about ready to burst with life.') /* LONG_DESC_STRING */
-     , (34087, 14, 'Use this vine to summon or dismiss your Pet Pumpkin.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34087, 33, 0) /* BONDED_INT */
-     , (34087, 114, 0) /* ATTUNED_INT */
-     , (34087, 19, 0) /* VALUE_INT */
-     , (34087, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34087, 69, 0) /* IS_SELLABLE_BOOL */;
-

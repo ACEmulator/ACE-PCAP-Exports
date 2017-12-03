@@ -37,34 +37,3 @@ VALUES (27965, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27965, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (27965, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27965, 15, 'An ancient pillar with a setting for a square shaped plate. Currently a plate bearing a strange symbol rests in the depression. Other pillars about the room clearly display similar plates. Perhaps this is some sort of puzzle.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27965, 384, 0) /*  */
-     , (27965, 370, 0) /* GEAR_DAMAGE_INT */
-     , (27965, 386, 0) /*  */
-     , (27965, 307, 0) /* DAMAGE_RATING_INT */
-     , (27965, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (27965, 387, 0) /*  */
-     , (27965, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (27965, 372, 0) /* GEAR_CRIT_INT */
-     , (27965, 388, 0) /*  */
-     , (27965, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (27965, 389, 0) /*  */
-     , (27965, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (27965, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (27965, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (27965, 313, 0) /* CRIT_RATING_INT */
-     , (27965, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (27965, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (27965, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (27965, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (27965, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (27965, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (27965, 381, 0) /*  */
-     , (27965, 382, 0) /*  */
-     , (27965, 383, 0) /*  */;
-

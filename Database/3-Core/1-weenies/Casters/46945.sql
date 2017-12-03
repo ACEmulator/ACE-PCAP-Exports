@@ -49,37 +49,3 @@ VALUES (46945, 0, 83894280, 83894280)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46945, 0, 16788369);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46945, 16, 'A wand of obsidian and sapphire.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46945, 160, 2) /* WIELD_DIFFICULTY_INT */
-     , (46945, 33, 1) /* BONDED_INT */
-     , (46945, 114, 0) /* ATTUNED_INT */
-     , (46945, 19, 4000) /* VALUE_INT */
-     , (46945, 5, 100) /* ENCUMB_VAL_INT */
-     , (46945, 106, 450) /* ITEM_SPELLCRAFT_INT */
-     , (46945, 108, 1250) /* ITEM_MAX_MANA_INT */
-     , (46945, 109, 250) /* ITEM_DIFFICULTY_INT */
-     , (46945, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (46945, 158, 8) /* WIELD_REQUIREMENTS_INT */
-     , (46945, 159, 33) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (46945, 144, 0.27) /* MANA_CONVERSION_MOD_FLOAT */
-     , (46945, 152, 1.08) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (46945, 5, -0.2) /* MANA_RATE_FLOAT */
-     , (46945, 29, 1.45) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46945, 99, 0) /* IVORYABLE_BOOL */
-     , (46945, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */
-     , (46945, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (46945, 2785) /* LesserStasisField_SpellID */
-     , (46945, 4700) /* CANTRIPLIFEMAGICAPTITUDE3_SpellID */
-     , (46945, 4581) /* LifeMagicMasteryOther8_SpellID */;
-

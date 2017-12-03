@@ -51,32 +51,3 @@ VALUES (7797, 0, 83886709, 83886709)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7797, 0, 16784607);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7797, 16, 'Acid Naginata') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7797, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (7797, 353, 5) /* WEAPON_TYPE_INT */
-     , (7797, 19, 810) /* VALUE_INT */
-     , (7797, 131, 75) /* MATERIAL_TYPE_INT */
-     , (7797, 5, 579) /* ENCUMB_VAL_INT */
-     , (7797, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (7797, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (7797, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (7797, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (7797, 47, 6) /* ATTACK_TYPE_INT */
-     , (7797, 45, 32) /* DAMAGE_TYPE_INT */
-     , (7797, 49, 35) /* WEAPON_TIME_INT */
-     , (7797, 48, 46) /* WEAPON_SKILL_INT */
-     , (7797, 44, 32) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (7797, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (7797, 22, 0.75) /* DAMAGE_VARIANCE_FLOAT */
-     , (7797, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (7797, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (7797, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (7797, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
-

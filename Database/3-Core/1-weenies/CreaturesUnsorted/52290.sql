@@ -35,34 +35,3 @@ VALUES (52290, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (52290, 19, True) /* ATTACKABLE_BOOL */
      , (52290, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52290, 15, 'A large desert cactus. You can hear a muffled buzzing coming from within the plant.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52290, 384, 0) /*  */
-     , (52290, 370, 0) /* GEAR_DAMAGE_INT */
-     , (52290, 386, 0) /*  */
-     , (52290, 307, 0) /* DAMAGE_RATING_INT */
-     , (52290, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (52290, 387, 0) /*  */
-     , (52290, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (52290, 372, 0) /* GEAR_CRIT_INT */
-     , (52290, 388, 0) /*  */
-     , (52290, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (52290, 389, 0) /*  */
-     , (52290, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (52290, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (52290, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (52290, 313, 0) /* CRIT_RATING_INT */
-     , (52290, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (52290, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (52290, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (52290, 315, 9999) /* CRIT_RESIST_RATING_INT */
-     , (52290, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (52290, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (52290, 381, 0) /*  */
-     , (52290, 382, 0) /*  */
-     , (52290, 383, 0) /*  */;
-

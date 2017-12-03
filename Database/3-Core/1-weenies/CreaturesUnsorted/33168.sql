@@ -108,37 +108,6 @@ VALUES (33168, 5, 16788087)
      , (33168, 8, 16788089)
      , (33168, 16, 16793038);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33168, 16, 'Quarter Staff') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33168, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (33168, 353, 7) /* WEAPON_TYPE_INT */
-     , (33168, 177, 4) /* GEM_COUNT_INT */
-     , (33168, 178, 47) /* GEM_TYPE_INT */
-     , (33168, 19, 4767) /* VALUE_INT */
-     , (33168, 131, 73) /* MATERIAL_TYPE_INT */
-     , (33168, 5, 418) /* ENCUMB_VAL_INT */
-     , (33168, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (33168, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (33168, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (33168, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (33168, 47, 6) /* ATTACK_TYPE_INT */
-     , (33168, 45, 4) /* DAMAGE_TYPE_INT */
-     , (33168, 49, 25) /* WEAPON_TIME_INT */
-     , (33168, 48, 45) /* WEAPON_SKILL_INT */
-     , (33168, 44, 31) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (33168, 29, 1.13) /* WEAPON_DEFENSE_FLOAT */
-     , (33168, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (33168, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (33168, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (33168, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (33168, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

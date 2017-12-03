@@ -34,22 +34,6 @@ VALUES (38459, 13, True) /* ETHEREAL_BOOL */
      , (38459, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38459, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38459, 16, 'A pristine shard of congealed Mana, which tingles with barely contained power.') /* LONG_DESC_STRING */
-     , (38459, 14, 'Trade 10 of these to an Arcanum Quota Officer or 25 of these to an Arcanum Mana-smith for a key to one of the Mana Forge Chests.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38459, 33, 0) /* BONDED_INT */
-     , (38459, 114, 0) /* ATTUNED_INT */
-     , (38459, 19, 4730) /* VALUE_INT */
-     , (38459, 5, 0) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38459, 99, 0) /* IVORYABLE_BOOL */
-     , (38459, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -41,36 +41,3 @@ VALUES (3840, 13, True) /* ETHEREAL_BOOL */
      , (3840, 19, True) /* ATTACKABLE_BOOL */
      , (3840, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3840, 16, 'Flaming Nabut') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3840, 160, 325) /* WIELD_DIFFICULTY_INT */
-     , (3840, 177, 3) /* GEM_COUNT_INT */
-     , (3840, 353, 7) /* WEAPON_TYPE_INT */
-     , (3840, 178, 34) /* GEM_TYPE_INT */
-     , (3840, 131, 74) /* MATERIAL_TYPE_INT */
-     , (3840, 179, 1) /* IMBUED_EFFECT_INT */
-     , (3840, 19, 2983) /* VALUE_INT */
-     , (3840, 5, 550) /* ENCUMB_VAL_INT */
-     , (3840, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (3840, 171, 6) /* NUM_TIMES_TINKERED_INT */
-     , (3840, 172, 7) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3840, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3840, 47, 6) /* ATTACK_TYPE_INT */
-     , (3840, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (3840, 45, 16) /* DAMAGE_TYPE_INT */
-     , (3840, 49, 45) /* WEAPON_TIME_INT */
-     , (3840, 48, 45) /* WEAPON_SKILL_INT */
-     , (3840, 44, 31) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3840, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (3840, 22, 0.6499963) /* DAMAGE_VARIANCE_FLOAT */
-     , (3840, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3840, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3840, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3840, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
-

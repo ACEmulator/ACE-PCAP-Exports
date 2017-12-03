@@ -41,22 +41,3 @@ VALUES (40860, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (40860, 67113876, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40860, 2, 47) /* CREATURE_TYPE_INT */
-     , (40860, 25, 100) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (40860, 1, 100) /* STRENGTH_ATTRIBUTE */
-     , (40860, 2, 100) /* ENDURANCE_ATTRIBUTE */
-     , (40860, 4, 100) /* COORDINATION_ATTRIBUTE */
-     , (40860, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (40860, 16, 600) /* FOCUS_ATTRIBUTE */
-     , (40860, 32, 600) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (40860, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (40860, 128, 1100) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (40860, 256, 30600) /* MAX_MANA_ATTRIBUTE_2ND */;
-

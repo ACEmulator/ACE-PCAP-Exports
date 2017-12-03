@@ -43,17 +43,3 @@ VALUES (36184, 0, 83889126, 83889126)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36184, 0, 16778735);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36184, 16, 'A vial of swirling dark blood collected from the Prodigal Harbinger.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36184, 33, 1) /* BONDED_INT */
-     , (36184, 114, 1) /* ATTUNED_INT */
-     , (36184, 19, 20) /* VALUE_INT */
-     , (36184, 5, 10) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36184, 69, 0) /* IS_SELLABLE_BOOL */;
-

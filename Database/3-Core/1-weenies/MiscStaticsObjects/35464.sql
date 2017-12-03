@@ -33,12 +33,3 @@ VALUES (35464, 13, True) /* ETHEREAL_BOOL */
      , (35464, 1, True) /* STUCK_BOOL */
      , (35464, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35464, 98, 1484695879) /* CREATION_TIMESTAMP_INT */
-     , (35464, 19, 1) /* VALUE_INT */
-     , (35464, 5, 1) /* ENCUMB_VAL_INT */
-     , (35464, 267, 180) /* LIFESPAN_INT */
-     , (35464, 268, -4978) /* REMAINING_LIFESPAN_INT */;
-

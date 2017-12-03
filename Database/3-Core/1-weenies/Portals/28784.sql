@@ -33,13 +33,3 @@ VALUES (28784, 13, True) /* ETHEREAL_BOOL */
      , (28784, 19, True) /* ATTACKABLE_BOOL */
      , (28784, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28784, 38, 'Ruschk Iceberg') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28784, 86, 70) /* MIN_LEVEL_INT */
-     , (28784, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (28784, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -81,12 +81,3 @@ VALUES (49043, 0, 16792997)
      , (49043, 15, 16793012)
      , (49043, 16, 16793013);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (49043, 16, 'Killed by Jake of Gilead.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49043, 19, 0) /* VALUE_INT */
-     , (49043, 5, 7413) /* ENCUMB_VAL_INT */;
-

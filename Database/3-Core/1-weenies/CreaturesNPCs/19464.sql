@@ -83,36 +83,3 @@ VALUES (19464, 2, 16777293)
      , (19464, 4, 16777291)
      , (19464, 8, 16777298);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19464, 5, 'Seller for Telk the Addlepated') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (19464, 16, 67110063) /* EYES_PALETTE_DID */
-     , (19464, 9, 83890456) /* EYES_TEXTURE_DID */
-     , (19464, 17, 67109550) /* SKIN_PALETTE_DID */
-     , (19464, 10, 83890530) /* NOSE_TEXTURE_DID */
-     , (19464, 11, 83890599) /* MOUTH_TEXTURE_DID */
-     , (19464, 15, 67117068) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19464, 113, 1) /* GENDER_INT */
-     , (19464, 2, 31) /* CREATURE_TYPE_INT */
-     , (19464, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (19464, 25, 4) /* LEVEL_INT */
-     , (19464, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (19464, 1, 80) /* STRENGTH_ATTRIBUTE */
-     , (19464, 2, 90) /* ENDURANCE_ATTRIBUTE */
-     , (19464, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (19464, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (19464, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (19464, 32, 60) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (19464, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (19464, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (19464, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
-

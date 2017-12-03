@@ -35,14 +35,3 @@ VALUES (5602, 13, True) /* ETHEREAL_BOOL */
      , (5602, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5602, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5602, 16, 'A small booklet, cheaply bound.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5602, 19, 5) /* VALUE_INT */
-     , (5602, 5, 5) /* ENCUMB_VAL_INT */
-     , (5602, 174, 10) /* APPRAISAL_PAGES_INT */
-     , (5602, 175, 10) /* APPRAISAL_MAX_PAGES_INT */;
-

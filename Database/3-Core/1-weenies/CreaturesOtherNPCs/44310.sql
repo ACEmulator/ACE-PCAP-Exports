@@ -40,34 +40,3 @@ VALUES (44310, 13, True) /* ETHEREAL_BOOL */
      , (44310, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (44310, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44310, 16, 'An ancient portal created by the A''nekshay.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44310, 384, 0) /*  */
-     , (44310, 370, 0) /* GEAR_DAMAGE_INT */
-     , (44310, 386, 0) /*  */
-     , (44310, 307, 0) /* DAMAGE_RATING_INT */
-     , (44310, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (44310, 387, 0) /*  */
-     , (44310, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (44310, 372, 0) /* GEAR_CRIT_INT */
-     , (44310, 388, 0) /*  */
-     , (44310, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (44310, 389, 0) /*  */
-     , (44310, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (44310, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (44310, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (44310, 313, 0) /* CRIT_RATING_INT */
-     , (44310, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (44310, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (44310, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (44310, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (44310, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (44310, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (44310, 381, 0) /*  */
-     , (44310, 382, 0) /*  */
-     , (44310, 383, 0) /*  */;
-

@@ -31,15 +31,3 @@ VALUES (34029, 13, True) /* ETHEREAL_BOOL */
      , (34029, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34029, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34029, 16, 'The gauzy, almost insubstantial head of a Shadow.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34029, 19, 0) /* VALUE_INT */
-     , (34029, 5, 200) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34029, 69, 0) /* IS_SELLABLE_BOOL */;
-

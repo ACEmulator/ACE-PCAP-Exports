@@ -42,34 +42,3 @@ VALUES (45430, 13, True) /* ETHEREAL_BOOL */
      , (45430, 19, True) /* ATTACKABLE_BOOL */
      , (45430, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45430, 16, 'Frost Jambiya') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45430, 160, 325) /* WIELD_DIFFICULTY_INT */
-     , (45430, 353, 6) /* WEAPON_TYPE_INT */
-     , (45430, 177, 2) /* GEM_COUNT_INT */
-     , (45430, 178, 15) /* GEM_TYPE_INT */
-     , (45430, 19, 642) /* VALUE_INT */
-     , (45430, 131, 57) /* MATERIAL_TYPE_INT */
-     , (45430, 5, 30) /* ENCUMB_VAL_INT */
-     , (45430, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (45430, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (45430, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (45430, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (45430, 47, 160) /* ATTACK_TYPE_INT */
-     , (45430, 45, 8) /* DAMAGE_TYPE_INT */
-     , (45430, 49, 12) /* WEAPON_TIME_INT */
-     , (45430, 48, 44) /* WEAPON_SKILL_INT */
-     , (45430, 44, 23) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (45430, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
-     , (45430, 22, 0.48) /* DAMAGE_VARIANCE_FLOAT */
-     , (45430, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (45430, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (45430, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (45430, 62, 1.06) /* WEAPON_OFFENSE_FLOAT */;
-

@@ -33,21 +33,6 @@ VALUES (40457, 13, True) /* ETHEREAL_BOOL */
      , (40457, 14, True) /* GRAVITY_STATUS_BOOL */
      , (40457, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40457, 16, 'A small chunk of Blackened Coral, covered with a foul-smelling slime.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40457, 33, 1) /* BONDED_INT */
-     , (40457, 114, 1) /* ATTUNED_INT */
-     , (40457, 19, 0) /* VALUE_INT */
-     , (40457, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40457, 99, 0) /* IVORYABLE_BOOL */
-     , (40457, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

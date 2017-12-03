@@ -31,11 +31,3 @@ VALUES (34535, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (34535, 19, True) /* ATTACKABLE_BOOL */
      , (34535, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34535, 38, 'Locked Door') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34535, 111, 49) /* PORTAL_BITMASK_INT */;
-

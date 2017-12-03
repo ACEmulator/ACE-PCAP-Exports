@@ -47,29 +47,3 @@ VALUES (46172, 0, 83889237, 83889688)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46172, 0, 16783994);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46172, 16, 'This weapon seems tough to master.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46172, 33, 1) /* BONDED_INT */
-     , (46172, 19, 8000) /* VALUE_INT */
-     , (46172, 5, 450) /* ENCUMB_VAL_INT */
-     , (46172, 47, 6) /* ATTACK_TYPE_INT */
-     , (46172, 45, 4) /* DAMAGE_TYPE_INT */
-     , (46172, 49, 35) /* WEAPON_TIME_INT */
-     , (46172, 48, 44) /* WEAPON_SKILL_INT */
-     , (46172, 44, 30) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (46172, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (46172, 22, 0.43) /* DAMAGE_VARIANCE_FLOAT */
-     , (46172, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (46172, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (46172, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (46172, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46172, 69, 0) /* IS_SELLABLE_BOOL */;
-

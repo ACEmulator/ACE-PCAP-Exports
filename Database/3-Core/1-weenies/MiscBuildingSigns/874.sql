@@ -35,12 +35,3 @@ VALUES (874, 0, 83891180, 83891179);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (874, 0, 16782236);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (874, 16, 'Healer Kouxao') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (874, 19, 125) /* VALUE_INT */
-     , (874, 5, 9000) /* ENCUMB_VAL_INT */;
-

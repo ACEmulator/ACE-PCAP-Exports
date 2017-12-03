@@ -46,28 +46,3 @@ VALUES (8688, 0, 83887061, 83886692)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8688, 0, 16778382);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8688, 19, 1) /* VALUE_INT */
-     , (8688, 5, 300) /* ENCUMB_VAL_INT */
-     , (8688, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (8688, 108, 400) /* ITEM_MAX_MANA_INT */
-     , (8688, 28, 100) /* ARMOR_LEVEL_INT */
-     , (8688, 109, 15) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8688, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (8688, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (8688, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (8688, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (8688, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (8688, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (8688, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (8688, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (8688, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8688, 1026) /* BludgeonProtectionOther3_SpellID */
-     , (8688, 1483) /* Impenetrability3_SpellID */;
-

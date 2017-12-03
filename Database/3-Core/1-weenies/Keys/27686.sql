@@ -34,17 +34,3 @@ VALUES (27686, 13, True) /* ETHEREAL_BOOL */
      , (27686, 19, True) /* ATTACKABLE_BOOL */
      , (27686, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27686, 16, 'This key looks to have been well-cast on a lugian forge. It was found in the Shoushi Stronghold.') /* LONG_DESC_STRING */
-     , (27686, 14, 'Use this item on a locked chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27686, 19, 0) /* VALUE_INT */
-     , (27686, 5, 50) /* ENCUMB_VAL_INT */
-     , (27686, 91, 1) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27686, 69, 0) /* IS_SELLABLE_BOOL */;
-

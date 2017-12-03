@@ -33,12 +33,3 @@ VALUES (3651, 13, True) /* ETHEREAL_BOOL */
      , (3651, 19, True) /* ATTACKABLE_BOOL */
      , (3651, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3651, 38, 'Crater Lair') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3651, 86, 15) /* MIN_LEVEL_INT */
-     , (3651, 111, 1) /* PORTAL_BITMASK_INT */;
-

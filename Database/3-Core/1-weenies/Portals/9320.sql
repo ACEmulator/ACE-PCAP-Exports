@@ -33,12 +33,3 @@ VALUES (9320, 13, True) /* ETHEREAL_BOOL */
      , (9320, 19, True) /* ATTACKABLE_BOOL */
      , (9320, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9320, 38, 'Small Mnemosyne Collection Site') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9320, 86, 15) /* MIN_LEVEL_INT */
-     , (9320, 111, 1) /* PORTAL_BITMASK_INT */;
-

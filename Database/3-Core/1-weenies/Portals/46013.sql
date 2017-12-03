@@ -33,11 +33,3 @@ VALUES (46013, 13, True) /* ETHEREAL_BOOL */
      , (46013, 19, True) /* ATTACKABLE_BOOL */
      , (46013, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46013, 38, 'Surface (43.3N, 43.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46013, 111, 49) /* PORTAL_BITMASK_INT */;
-

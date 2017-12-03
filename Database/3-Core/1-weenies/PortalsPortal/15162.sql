@@ -33,11 +33,3 @@ VALUES (15162, 13, True) /* ETHEREAL_BOOL */
      , (15162, 19, True) /* ATTACKABLE_BOOL */
      , (15162, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15162, 38, 'Inquisitor''s Dale Cottages Portal (26.4N, 33.6W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15162, 111, 1) /* PORTAL_BITMASK_INT */;
-

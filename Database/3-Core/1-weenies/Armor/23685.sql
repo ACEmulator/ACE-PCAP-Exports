@@ -47,14 +47,3 @@ VALUES (23685, 0, 83890141, 83890141);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (23685, 0, 16777989);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23685, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23685, 19, 5000) /* VALUE_INT */
-     , (23685, 5, 150) /* ENCUMB_VAL_INT */
-     , (23685, 89, 2) /* BOOSTER_ENUM_INT */
-     , (23685, 90, 100) /* BOOST_VALUE_INT */;
-

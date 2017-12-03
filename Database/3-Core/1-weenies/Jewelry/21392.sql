@@ -44,26 +44,3 @@ VALUES (21392, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21392, 0, 16778335);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21392, 15, 'An obsidian bracelet set with three sapphires.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21392, 19, 4000) /* VALUE_INT */
-     , (21392, 5, 250) /* ENCUMB_VAL_INT */
-     , (21392, 106, 225) /* ITEM_SPELLCRAFT_INT */
-     , (21392, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (21392, 109, 125) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (21392, 5, -0.0333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21392, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (21392, 1431) /* FocusOther5_SpellID */
-     , (21392, 688) /* ArcaneEnlightenmentOther5_SpellID */
-     , (21392, 2809) /* ModerateArcaneProwess_SpellID */;
-

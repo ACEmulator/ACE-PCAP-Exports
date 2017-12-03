@@ -51,31 +51,6 @@ VALUES (34138, 0, 83892725, 83897609);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34138, 0, 16784961);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34138, 16, 'An exquisitely crafted jack o'' lantern, made with a carving knife.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34138, 353, 10) /* WEAPON_TYPE_INT */
-     , (34138, 19, 100) /* VALUE_INT */
-     , (34138, 5, 20) /* ENCUMB_VAL_INT */
-     , (34138, 45, 4) /* DAMAGE_TYPE_INT */
-     , (34138, 49, 1) /* WEAPON_TIME_INT */
-     , (34138, 48, 47) /* WEAPON_SKILL_INT */
-     , (34138, 44, 75) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (34138, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
-     , (34138, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (34138, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (34138, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (34138, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (34138, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34138, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

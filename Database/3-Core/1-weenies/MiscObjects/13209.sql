@@ -32,12 +32,3 @@ VALUES (13209, 13, True) /* ETHEREAL_BOOL */
      , (13209, 19, True) /* ATTACKABLE_BOOL */
      , (13209, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13209, 15, 'A Holiday decoration you can hang on your wall.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13209, 19, 500) /* VALUE_INT */
-     , (13209, 5, 50) /* ENCUMB_VAL_INT */;
-

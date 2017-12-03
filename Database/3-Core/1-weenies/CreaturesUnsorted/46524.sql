@@ -73,12 +73,3 @@ VALUES (46524, 0, 16796675)
      , (46524, 12, 16796687)
      , (46524, 16, 16796691);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46524, 16, 'Killed by Zikka.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46524, 19, 0) /* VALUE_INT */
-     , (46524, 5, 6824) /* ENCUMB_VAL_INT */;
-

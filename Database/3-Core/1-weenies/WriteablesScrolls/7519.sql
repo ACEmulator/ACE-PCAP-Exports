@@ -35,17 +35,3 @@ VALUES (7519, 13, True) /* ETHEREAL_BOOL */
      , (7519, 19, True) /* ATTACKABLE_BOOL */
      , (7519, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7519, 16, 'Inscribed spell: Spike Strafe
-Sends a wall of five bolts of force, two high, slowly towards the target. Each bolt does 35-70 points of piercing damage to the first thing it hits. The wall is created 2 meters in front of the caster. ') /* LONG_DESC_STRING */
-     , (7519, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7519, 19, 200) /* VALUE_INT */
-     , (7519, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (7519, 1842) /* ForceWall_SpellID */;
-

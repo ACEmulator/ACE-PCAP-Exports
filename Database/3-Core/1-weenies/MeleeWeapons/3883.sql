@@ -42,34 +42,3 @@ VALUES (3883, 13, True) /* ETHEREAL_BOOL */
      , (3883, 19, True) /* ATTACKABLE_BOOL */
      , (3883, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3883, 16, 'Flaming Long Sword') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3883, 160, 400) /* WIELD_DIFFICULTY_INT */
-     , (3883, 353, 2) /* WEAPON_TYPE_INT */
-     , (3883, 177, 3) /* GEM_COUNT_INT */
-     , (3883, 178, 49) /* GEM_TYPE_INT */
-     , (3883, 19, 13560) /* VALUE_INT */
-     , (3883, 131, 51) /* MATERIAL_TYPE_INT */
-     , (3883, 5, 376) /* ENCUMB_VAL_INT */
-     , (3883, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (3883, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3883, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3883, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (3883, 47, 6) /* ATTACK_TYPE_INT */
-     , (3883, 45, 16) /* DAMAGE_TYPE_INT */
-     , (3883, 49, 32) /* WEAPON_TIME_INT */
-     , (3883, 48, 44) /* WEAPON_SKILL_INT */
-     , (3883, 44, 63) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3883, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
-     , (3883, 22, 0.53) /* DAMAGE_VARIANCE_FLOAT */
-     , (3883, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3883, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3883, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3883, 62, 1.13) /* WEAPON_OFFENSE_FLOAT */;
-

@@ -45,35 +45,3 @@ VALUES (32782, 0, 83897426, 83897426);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32782, 0, 16792965);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32782, 16, 'A shield given by Turien di Furza, for valor in the retrieval of the stolen blade, The Sword of Bellenesse, for King Varicci II.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32782, 160, 100) /* WIELD_DIFFICULTY_INT */
-     , (32782, 19, 6000) /* VALUE_INT */
-     , (32782, 5, 600) /* ENCUMB_VAL_INT */
-     , (32782, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (32782, 28, 250) /* ARMOR_LEVEL_INT */
-     , (32782, 108, 3000) /* ITEM_MAX_MANA_INT */
-     , (32782, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (32782, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (32782, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32782, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (32782, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (32782, 14, 1.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (32782, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (32782, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (32782, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (32782, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (32782, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (32782, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (32782, 2663) /* ModerateStrength_SpellID */
-     , (32782, 249) /* InvulnerabilitySelf6_SpellID */
-     , (32782, 2108) /* Impenetrability7_SpellID */;
-

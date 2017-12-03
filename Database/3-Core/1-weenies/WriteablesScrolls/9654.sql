@@ -35,17 +35,3 @@ VALUES (9654, 13, True) /* ETHEREAL_BOOL */
      , (9654, 19, True) /* ATTACKABLE_BOOL */
      , (9654, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9654, 16, 'Inscribed spell: Stamina to Health Self VI
-Drains one-half of the caster''s Stamina and gives 150% of that to his/her Health.') /* LONG_DESC_STRING */
-     , (9654, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9654, 19, 1000) /* VALUE_INT */
-     , (9654, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (9654, 1669) /* StaminatoHealthSelf6_SpellID */;
-

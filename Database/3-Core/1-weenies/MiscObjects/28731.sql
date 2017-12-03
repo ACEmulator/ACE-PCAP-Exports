@@ -32,14 +32,3 @@ VALUES (28731, 13, True) /* ETHEREAL_BOOL */
      , (28731, 19, True) /* ATTACKABLE_BOOL */
      , (28731, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28731, 16, 'An identification plate from the province of Celdon. This would have once been attached to a merchant''s cart. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28731, 33, 1) /* BONDED_INT */
-     , (28731, 114, 0) /* ATTUNED_INT */
-     , (28731, 19, 0) /* VALUE_INT */
-     , (28731, 5, 40) /* ENCUMB_VAL_INT */;
-

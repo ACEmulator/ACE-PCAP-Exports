@@ -35,17 +35,3 @@ VALUES (45261, 13, True) /* ETHEREAL_BOOL */
      , (45261, 19, True) /* ATTACKABLE_BOOL */
      , (45261, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45261, 16, 'Inscribed spell: Dual Wield Ineptitude Other II
-Decreases the target''s Dual Wield skill by 15 points.') /* LONG_DESC_STRING */
-     , (45261, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45261, 19, 5) /* VALUE_INT */
-     , (45261, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (45261, 5788) /* dualwieldineptitudeother2_SpellID */;
-

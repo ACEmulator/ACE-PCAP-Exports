@@ -107,22 +107,3 @@ VALUES (35505, 0, 16789775)
      , (35505, 23, 16789781)
      , (35505, 24, 16789780);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35505, 386, 0) /*  */
-     , (35505, 307, 0) /* DAMAGE_RATING_INT */
-     , (35505, 387, 0) /*  */
-     , (35505, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (35505, 388, 0) /*  */
-     , (35505, 389, 0) /*  */
-     , (35505, 313, 0) /* CRIT_RATING_INT */
-     , (35505, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (35505, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (35505, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (35505, 381, 0) /*  */
-     , (35505, 382, 0) /*  */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (35505, 5, 2) /* MANA_RATE_FLOAT */;
-

@@ -38,28 +38,3 @@ VALUES (1503, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1503, 1, True) /* STUCK_BOOL */
      , (1503, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1503, 16, 'Heavy Bracelet of Arcane Enlightenment') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1503, 177, 4) /* GEM_COUNT_INT */
-     , (1503, 178, 21) /* GEM_TYPE_INT */
-     , (1503, 19, 6463) /* VALUE_INT */
-     , (1503, 131, 60) /* MATERIAL_TYPE_INT */
-     , (1503, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (1503, 5, 150) /* ENCUMB_VAL_INT */
-     , (1503, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (1503, 106, 262) /* ITEM_SPELLCRAFT_INT */
-     , (1503, 108, 1214) /* ITEM_MAX_MANA_INT */
-     , (1503, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (1503, 109, 262) /* ITEM_DIFFICULTY_INT */
-     , (1503, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1503, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1503, 683) /* ArcaneEnlightenmentSelf6_SpellID */;
-

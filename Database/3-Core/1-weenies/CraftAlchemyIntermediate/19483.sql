@@ -46,21 +46,6 @@ VALUES (19483, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (19483, 0, 16783325);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19483, 16, 'A mystically sealed decanter filled with the raw essence of mana.') /* LONG_DESC_STRING */
-     , (19483, 14, 'Use this item with Diamond Powder to create Diamond Oil.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19483, 33, 0) /* BONDED_INT */
-     , (19483, 114, 0) /* ATTUNED_INT */
-     , (19483, 19, 0) /* VALUE_INT */
-     , (19483, 5, 150) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (19483, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

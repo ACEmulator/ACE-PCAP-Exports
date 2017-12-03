@@ -38,12 +38,3 @@ VALUES (38924, 13, True) /* ETHEREAL_BOOL */
      , (38924, 19, True) /* ATTACKABLE_BOOL */
      , (38924, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38924, 14, 'This item is used in Summoning.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38924, 19, 500) /* VALUE_INT */
-     , (38924, 5, 50) /* ENCUMB_VAL_INT */;
-

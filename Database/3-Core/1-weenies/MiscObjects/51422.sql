@@ -32,12 +32,3 @@ VALUES (51422, 13, True) /* ETHEREAL_BOOL */
      , (51422, 19, True) /* ATTACKABLE_BOOL */
      , (51422, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51422, 16, 'A cage of shifting portal energy, altered by the Vision of Horror.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51422, 19, 1000) /* VALUE_INT */
-     , (51422, 5, 800) /* ENCUMB_VAL_INT */;
-

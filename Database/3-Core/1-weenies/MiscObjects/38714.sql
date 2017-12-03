@@ -33,17 +33,6 @@ VALUES (38714, 13, True) /* ETHEREAL_BOOL */
      , (38714, 14, True) /* GRAVITY_STATUS_BOOL */
      , (38714, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38714, 16, 'The jawbone of an enchanted skeleton.  Its magical emanations are unique to the creatures of the Empyrean Graveyard.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38714, 33, 1) /* BONDED_INT */
-     , (38714, 114, 1) /* ATTUNED_INT */
-     , (38714, 19, 0) /* VALUE_INT */
-     , (38714, 5, 100) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

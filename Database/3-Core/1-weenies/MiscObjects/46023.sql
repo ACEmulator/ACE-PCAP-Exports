@@ -35,18 +35,3 @@ VALUES (46023, 13, True) /* ETHEREAL_BOOL */
      , (46023, 19, True) /* ATTACKABLE_BOOL */
      , (46023, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46023, 16, 'A small igloo that the cookie loving pet penguin Mouf lives in. ') /* LONG_DESC_STRING */
-     , (46023, 14, 'Use this igloo to summon or dismiss your cookie loving Pet Mouf.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46023, 33, 1) /* BONDED_INT */
-     , (46023, 114, 1) /* ATTUNED_INT */
-     , (46023, 19, 10) /* VALUE_INT */
-     , (46023, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46023, 69, 1) /* IS_SELLABLE_BOOL */;
-

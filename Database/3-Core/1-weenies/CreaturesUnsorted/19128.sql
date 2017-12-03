@@ -36,36 +36,3 @@ VALUES (19128, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (19128, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (19128, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19128, 16, 'An ornate loom etched with ancient symbols. It seems to be in perfect working order despite its obvious age.') /* LONG_DESC_STRING */
-     , (19128, 14, 'Give the Loom a spool of thread to fashion cloth.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19128, 384, 0) /*  */
-     , (19128, 370, 0) /* GEAR_DAMAGE_INT */
-     , (19128, 386, 0) /*  */
-     , (19128, 307, 0) /* DAMAGE_RATING_INT */
-     , (19128, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (19128, 387, 0) /*  */
-     , (19128, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (19128, 372, 0) /* GEAR_CRIT_INT */
-     , (19128, 388, 0) /*  */
-     , (19128, 5, 70000) /* ENCUMB_VAL_INT */
-     , (19128, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (19128, 389, 0) /*  */
-     , (19128, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (19128, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (19128, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (19128, 313, 0) /* CRIT_RATING_INT */
-     , (19128, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (19128, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (19128, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (19128, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (19128, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (19128, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (19128, 381, 0) /*  */
-     , (19128, 382, 0) /*  */
-     , (19128, 383, 0) /*  */;
-

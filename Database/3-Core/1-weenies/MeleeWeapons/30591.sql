@@ -46,32 +46,3 @@ VALUES (30591, 0, 83896667, 83896667);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (30591, 0, 16791842);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30591, 16, 'Partizan') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30591, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (30591, 353, 5) /* WEAPON_TYPE_INT */
-     , (30591, 19, 350) /* VALUE_INT */
-     , (30591, 131, 76) /* MATERIAL_TYPE_INT */
-     , (30591, 5, 643) /* ENCUMB_VAL_INT */
-     , (30591, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (30591, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (30591, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (30591, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (30591, 47, 2) /* ATTACK_TYPE_INT */
-     , (30591, 45, 2) /* DAMAGE_TYPE_INT */
-     , (30591, 49, 28) /* WEAPON_TIME_INT */
-     , (30591, 48, 44) /* WEAPON_SKILL_INT */
-     , (30591, 44, 36) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (30591, 29, 1.01) /* WEAPON_DEFENSE_FLOAT */
-     , (30591, 22, 0.63) /* DAMAGE_VARIANCE_FLOAT */
-     , (30591, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (30591, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (30591, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (30591, 62, 1.08) /* WEAPON_OFFENSE_FLOAT */;
-

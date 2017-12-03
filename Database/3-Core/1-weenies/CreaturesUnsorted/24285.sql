@@ -59,36 +59,6 @@ VALUES (24285, 0, 16785699)
      , (24285, 19, 16785704)
      , (24285, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24285, 16, 'Ring of Mana Mastery') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24285, 160, 180) /* WIELD_DIFFICULTY_INT */
-     , (24285, 177, 1) /* GEM_COUNT_INT */
-     , (24285, 178, 33) /* GEM_TYPE_INT */
-     , (24285, 19, 7960) /* VALUE_INT */
-     , (24285, 131, 61) /* MATERIAL_TYPE_INT */
-     , (24285, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (24285, 5, 30) /* ENCUMB_VAL_INT */
-     , (24285, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (24285, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (24285, 379, 1) /* GEAR_MAX_HEALTH_INT */
-     , (24285, 108, 2134) /* ITEM_MAX_MANA_INT */
-     , (24285, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (24285, 109, 381) /* ITEM_DIFFICULTY_INT */
-     , (24285, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (24285, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (24285, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (24285, 5, -0.06666667) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (24285, 2510) /* CANTRIPDECEPTIONPROWESS2_SpellID */
-     , (24285, 4602) /* ManaMasterySelf8_SpellID */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

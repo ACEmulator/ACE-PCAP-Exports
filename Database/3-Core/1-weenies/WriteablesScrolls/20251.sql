@@ -35,17 +35,3 @@ VALUES (20251, 13, True) /* ETHEREAL_BOOL */
      , (20251, 19, True) /* ATTACKABLE_BOOL */
      , (20251, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20251, 16, 'Inscribed spell: Robustification
-Restores 100-200 points of the caster''s Stamina.') /* LONG_DESC_STRING */
-     , (20251, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20251, 19, 2000) /* VALUE_INT */
-     , (20251, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20251, 2083) /* RevitalizeSelf7_SpellID */;
-

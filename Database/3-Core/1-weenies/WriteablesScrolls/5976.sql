@@ -35,17 +35,3 @@ VALUES (5976, 13, True) /* ETHEREAL_BOOL */
      , (5976, 19, True) /* ATTACKABLE_BOOL */
      , (5976, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5976, 16, 'Inscribed spell: Fletching Mastery Self III
-Increases the caster''s Fletching skill by 20 points.') /* LONG_DESC_STRING */
-     , (5976, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5976, 19, 20) /* VALUE_INT */
-     , (5976, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (5976, 1741) /* FletchingMasterySelf3_SpellID */;
-

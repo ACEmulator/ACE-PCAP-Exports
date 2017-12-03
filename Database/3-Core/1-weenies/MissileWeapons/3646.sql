@@ -43,27 +43,6 @@ VALUES (3646, 13, True) /* ETHEREAL_BOOL */
      , (3646, 17, True) /* INELASTIC_BOOL */
      , (3646, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3646, 16, 'Enchanted fire arrow that does fire damage, of course.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3646, 19, 12500) /* VALUE_INT */
-     , (3646, 5, 2500) /* ENCUMB_VAL_INT */
-     , (3646, 45, 16) /* DAMAGE_TYPE_INT */
-     , (3646, 49, -1) /* WEAPON_TIME_INT */
-     , (3646, 48, 0) /* WEAPON_SKILL_INT */
-     , (3646, 44, 16) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3646, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (3646, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (3646, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3646, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3646, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3646, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

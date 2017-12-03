@@ -39,38 +39,3 @@ INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`
 VALUES (31204, 67116027, 207, 33)
      , (31204, 67116014, 174, 33);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31204, 16, 'A finely tailored Viamontian robe for master mages.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31204, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
-     , (31204, 115, 190) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (31204, 19, 45600) /* VALUE_INT */
-     , (31204, 5, 200) /* ENCUMB_VAL_INT */
-     , (31204, 106, 270) /* ITEM_SPELLCRAFT_INT */
-     , (31204, 188, 4) /* HERITAGE_GROUP_INT */
-     , (31204, 108, 416) /* ITEM_MAX_MANA_INT */
-     , (31204, 28, 0) /* ARMOR_LEVEL_INT */
-     , (31204, 109, 158) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31204, 5, -0.116) /* MANA_RATE_FLOAT */
-     , (31204, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (31204, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (31204, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (31204, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (31204, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (31204, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (31204, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (31204, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31204, 1484) /* Impenetrability4_SpellID */
-     , (31204, 595) /* ItemEnchantmentIneptitudeOther3_SpellID */
-     , (31204, 1453) /* WillpowerOther3_SpellID */
-     , (31204, 625) /* LifeMagicIneptitudeOther3_SpellID */
-     , (31204, 571) /* CreatureEnchantmentIneptitudeOther3_SpellID */
-     , (31204, 638) /* WarMagicMasteryOther4_SpellID */;
-

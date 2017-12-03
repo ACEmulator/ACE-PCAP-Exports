@@ -33,11 +33,3 @@ VALUES (14625, 13, True) /* ETHEREAL_BOOL */
      , (14625, 19, True) /* ATTACKABLE_BOOL */
      , (14625, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14625, 38, 'Embara Portal (27.0N, 18.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14625, 111, 1) /* PORTAL_BITMASK_INT */;
-

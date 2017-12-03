@@ -29,12 +29,3 @@ VALUES (42997, 13, True) /* ETHEREAL_BOOL */
      , (42997, 19, True) /* ATTACKABLE_BOOL */
      , (42997, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42997, 16, 'Silyun is the home of the remnants of the Duke of Bellenesse''s rebellion. While their war is over, these Viamontian rebels still quietly urge those to join their cause.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42997, 19, 125) /* VALUE_INT */
-     , (42997, 5, 9000) /* ENCUMB_VAL_INT */;
-

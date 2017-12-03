@@ -42,31 +42,6 @@ VALUES (23661, 13, True) /* ETHEREAL_BOOL */
      , (23661, 17, True) /* INELASTIC_BOOL */
      , (23661, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (23661, 16, 'Bracelet of Lightning Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (23661, 177, 2) /* GEM_COUNT_INT */
-     , (23661, 178, 22) /* GEM_TYPE_INT */
-     , (23661, 19, 18783) /* VALUE_INT */
-     , (23661, 131, 38) /* MATERIAL_TYPE_INT */
-     , (23661, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (23661, 5, 60) /* ENCUMB_VAL_INT */
-     , (23661, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (23661, 106, 323) /* ITEM_SPELLCRAFT_INT */
-     , (23661, 108, 1867) /* ITEM_MAX_MANA_INT */
-     , (23661, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (23661, 109, 323) /* ITEM_DIFFICULTY_INT */
-     , (23661, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (23661, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (23661, 2159) /* LightningProtectionSelf7_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

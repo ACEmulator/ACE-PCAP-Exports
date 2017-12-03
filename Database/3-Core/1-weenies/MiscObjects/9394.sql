@@ -42,13 +42,3 @@ VALUES (9394, 0, 83893240, 83893239);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9394, 0, 16785704);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9394, 16, 'A large pauldron, battered and dinged from combat.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9394, 33, 1) /* BONDED_INT */
-     , (9394, 19, 2000) /* VALUE_INT */
-     , (9394, 5, 900) /* ENCUMB_VAL_INT */;
-

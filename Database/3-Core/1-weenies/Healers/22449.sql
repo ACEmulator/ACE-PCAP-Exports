@@ -40,20 +40,3 @@ VALUES (22449, 0, 83889681, 83894377)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22449, 0, 16779994);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22449, 15, 'A healing kit that has a heady scent.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22449, 19, 780) /* VALUE_INT */
-     , (22449, 5, 50) /* ENCUMB_VAL_INT */
-     , (22449, 90, 100) /* BOOST_VALUE_INT */
-     , (22449, 91, 100) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (22449, 100, 1.6) /* HEALKIT_MOD_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22449, 69, 0) /* IS_SELLABLE_BOOL */;
-

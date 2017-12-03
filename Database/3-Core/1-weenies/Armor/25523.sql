@@ -49,23 +49,3 @@ VALUES (25523, 0, 83887061, 83894815)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25523, 0, 16779535);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25523, 16, 'This coat has been reinforced with bone structures and metal strapping. The main body of the coat came from the hide of a Rendeath Shreth.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25523, 19, 4500) /* VALUE_INT */
-     , (25523, 5, 850) /* ENCUMB_VAL_INT */
-     , (25523, 28, 250) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25523, 13, 1.05) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25523, 14, 1.25) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25523, 15, 1.75) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25523, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25523, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25523, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25523, 19, 0.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25523, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

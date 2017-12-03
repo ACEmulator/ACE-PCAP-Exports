@@ -35,17 +35,3 @@ VALUES (20390, 13, True) /* ETHEREAL_BOOL */
      , (20390, 19, True) /* ATTACKABLE_BOOL */
      , (20390, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20390, 16, 'Inscribed spell: Evaporate Life Magic Other
-Dispels 3-6 negative Life Magic enchantments of level 1 from the target.') /* LONG_DESC_STRING */
-     , (20390, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20390, 19, 1) /* VALUE_INT */
-     , (20390, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20390, 1957) /* DispelLifeBadOther1_SpellID */;
-

@@ -31,17 +31,3 @@ VALUES (22426, 13, True) /* ETHEREAL_BOOL */
      , (22426, 19, True) /* ATTACKABLE_BOOL */
      , (22426, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22426, 15, 'A tusk plucked from a dead Tusker Liberator. Brighteyes, the tailor at 2.2N 95.6E in Oolatanga''s Refuge on Aphus Lassel collects these.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22426, 33, 1) /* BONDED_INT */
-     , (22426, 114, 1) /* ATTUNED_INT */
-     , (22426, 19, 0) /* VALUE_INT */
-     , (22426, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22426, 69, 0) /* IS_SELLABLE_BOOL */;
-

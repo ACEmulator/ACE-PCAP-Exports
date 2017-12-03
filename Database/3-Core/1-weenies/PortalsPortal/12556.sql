@@ -33,11 +33,3 @@ VALUES (12556, 13, True) /* ETHEREAL_BOOL */
      , (12556, 19, True) /* ATTACKABLE_BOOL */
      , (12556, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12556, 38, 'Spire Hills Settlement Portal (54.7S, 40.2E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12556, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -46,14 +46,3 @@ VALUES (14425, 0, 83887061, 83893840)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14425, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14425, 16, 'A folded Guard''s Uniform.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14425, 33, 1) /* BONDED_INT */
-     , (14425, 114, 1) /* ATTUNED_INT */
-     , (14425, 19, 0) /* VALUE_INT */
-     , (14425, 5, 500) /* ENCUMB_VAL_INT */;
-

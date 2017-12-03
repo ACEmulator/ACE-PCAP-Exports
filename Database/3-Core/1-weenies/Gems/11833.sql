@@ -35,16 +35,6 @@ VALUES (11833, 13, True) /* ETHEREAL_BOOL */
      , (11833, 19, True) /* ATTACKABLE_BOOL */
      , (11833, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11833, 16, 'A Gromnie Symbol.') /* LONG_DESC_STRING */
-     , (11833, 14, 'You can combine this with a hafted Gromnie Banner.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11833, 19, 0) /* VALUE_INT */
-     , (11833, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

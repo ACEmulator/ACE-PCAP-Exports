@@ -82,26 +82,3 @@ VALUES (28683, 12, 16777304)
      , (28683, 11, 16781812)
      , (28683, 14, 16781813);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28683, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (28683, 16, 67110062) /* EYES_PALETTE_DID */
-     , (28683, 9, 83890451) /* EYES_TEXTURE_DID */
-     , (28683, 17, 67110057) /* SKIN_PALETTE_DID */
-     , (28683, 10, 83890519) /* NOSE_TEXTURE_DID */
-     , (28683, 11, 83890565) /* MOUTH_TEXTURE_DID */
-     , (28683, 15, 67117025) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28683, 113, 1) /* GENDER_INT */
-     , (28683, 2, 31) /* CREATURE_TYPE_INT */
-     , (28683, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (28683, 25, 245) /* LEVEL_INT */
-     , (28683, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28683, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

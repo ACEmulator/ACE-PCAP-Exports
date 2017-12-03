@@ -34,15 +34,3 @@ VALUES (41929, 13, True) /* ETHEREAL_BOOL */
      , (41929, 19, True) /* ATTACKABLE_BOOL */
      , (41929, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41929, 16, 'A story book showing the length of time Ries will share his story.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41929, 98, 1484537344) /* CREATION_TIMESTAMP_INT */
-     , (41929, 19, 0) /* VALUE_INT */
-     , (41929, 5, 5) /* ENCUMB_VAL_INT */
-     , (41929, 267, 5420) /* LIFESPAN_INT */
-     , (41929, 268, 5420) /* REMAINING_LIFESPAN_INT */;
-

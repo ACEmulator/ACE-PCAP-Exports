@@ -43,37 +43,3 @@ VALUES (43140, 0, 83898265, 83898265)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43140, 0, 16794813);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43140, 16, 'A shield forged in the Gear Knight style.  A minor Gearcrafting effect has been added to further protect its wielder.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43140, 272, 475) /* WIELD_DIFFICULTY_2_INT */
-     , (43140, 160, 180) /* WIELD_DIFFICULTY_INT */
-     , (43140, 19, 50) /* VALUE_INT */
-     , (43140, 5, 690) /* ENCUMB_VAL_INT */
-     , (43140, 106, 450) /* ITEM_SPELLCRAFT_INT */
-     , (43140, 108, 3000) /* ITEM_MAX_MANA_INT */
-     , (43140, 28, 200) /* ARMOR_LEVEL_INT */
-     , (43140, 270, 1) /* WIELD_REQUIREMENTS_2_INT */
-     , (43140, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (43140, 271, 48) /* WIELD_SKILLTYPE_2_INT */
-     , (43140, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (43140, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (43140, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (43140, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (43140, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (43140, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (43140, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (43140, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (43140, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (43140, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (43140, 4686) /* CANTRIPAXEAPTITUDE3_SpellID */
-     , (43140, 5141) /* TrinketDamageReduction1_SpellID */
-     , (43140, 4667) /* CANTRIPIMPENETRABILITY3_SpellID */;
-

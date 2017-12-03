@@ -37,26 +37,3 @@ VALUES (25541, 13, True) /* ETHEREAL_BOOL */
      , (25541, 19, True) /* ATTACKABLE_BOOL */
      , (25541, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25541, 16, 'A powerful charm crafted by Peerless Drudges. The magic within the necklace is now freed.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25541, 160, 70) /* WIELD_DIFFICULTY_INT */
-     , (25541, 19, 5000) /* VALUE_INT */
-     , (25541, 5, 40) /* ENCUMB_VAL_INT */
-     , (25541, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (25541, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (25541, 109, 125) /* ITEM_DIFFICULTY_INT */
-     , (25541, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25541, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25541, 5, -0.049) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25541, 2579) /* CANTRIPCOORDINATION1_SpellID */
-     , (25541, 2582) /* CANTRIPQUICKNESS1_SpellID */
-     , (25541, 2008) /* WarriorsVigor_SpellID */;
-

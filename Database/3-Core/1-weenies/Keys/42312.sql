@@ -35,13 +35,3 @@ VALUES (42312, 13, True) /* ETHEREAL_BOOL */
      , (42312, 19, True) /* ATTACKABLE_BOOL */
      , (42312, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42312, 14, 'Use this key to open the weapons cache and main hallway doors.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42312, 19, 100) /* VALUE_INT */
-     , (42312, 5, 50) /* ENCUMB_VAL_INT */
-     , (42312, 91, 1) /* MAX_STRUCTURE_INT */;
-

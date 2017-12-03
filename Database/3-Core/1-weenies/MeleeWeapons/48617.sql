@@ -35,24 +35,3 @@ VALUES (48617, 13, True) /* ETHEREAL_BOOL */
      , (48617, 19, True) /* ATTACKABLE_BOOL */
      , (48617, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48617, 16, 'Gem of Lightning Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48617, 19, 1137) /* VALUE_INT */
-     , (48617, 131, 18) /* MATERIAL_TYPE_INT */
-     , (48617, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (48617, 5, 5) /* ENCUMB_VAL_INT */
-     , (48617, 117, 300) /* ITEM_MANA_COST_INT */
-     , (48617, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (48617, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (48617, 108, 501) /* ITEM_MAX_MANA_INT */
-     , (48617, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (48617, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (48617, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (48617, 1070) /* LightningProtectionSelf5_SpellID */;
-

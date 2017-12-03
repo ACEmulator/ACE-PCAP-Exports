@@ -35,17 +35,6 @@ VALUES (11683, 13, True) /* ETHEREAL_BOOL */
      , (11683, 14, True) /* GRAVITY_STATUS_BOOL */
      , (11683, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11683, 16, 'A reassuringly thick book, packed with advice for those new to Dereth') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11683, 19, 10) /* VALUE_INT */
-     , (11683, 5, 100) /* ENCUMB_VAL_INT */
-     , (11683, 174, 8) /* APPRAISAL_PAGES_INT */
-     , (11683, 175, 8) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

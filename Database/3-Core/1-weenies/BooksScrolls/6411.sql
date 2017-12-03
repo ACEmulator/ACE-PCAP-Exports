@@ -34,17 +34,6 @@ VALUES (6411, 13, True) /* ETHEREAL_BOOL */
      , (6411, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6411, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6411, 16, 'A scroll bearing a heavy waxen seal, embossed with an unrecognizable coat of arms. The elaborate calligraphy is in the High Empyrean language of the Era of Lore.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6411, 19, 3) /* VALUE_INT */
-     , (6411, 5, 25) /* ENCUMB_VAL_INT */
-     , (6411, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (6411, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -29,12 +29,3 @@ VALUES (12572, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (12572, 19, True) /* ATTACKABLE_BOOL */
      , (12572, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12572, 16, 'Welcome to Adams'' Beach') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12572, 19, 125) /* VALUE_INT */
-     , (12572, 5, 9000) /* ENCUMB_VAL_INT */;
-

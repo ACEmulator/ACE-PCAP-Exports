@@ -34,18 +34,6 @@ VALUES (24125, 13, True) /* ETHEREAL_BOOL */
      , (24125, 14, True) /* GRAVITY_STATUS_BOOL */
      , (24125, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24125, 15, 'A very well charactered note.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24125, 114, 1) /* ATTUNED_INT */
-     , (24125, 19, 5) /* VALUE_INT */
-     , (24125, 5, 25) /* ENCUMB_VAL_INT */
-     , (24125, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (24125, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

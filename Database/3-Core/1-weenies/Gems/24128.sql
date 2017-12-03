@@ -30,14 +30,3 @@ VALUES (24128, 13, True) /* ETHEREAL_BOOL */
      , (24128, 19, True) /* ATTACKABLE_BOOL */
      , (24128, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24128, 16, 'A black and purple Virindi Signet carved with sigils.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24128, 33, 1) /* BONDED_INT */
-     , (24128, 114, 1) /* ATTUNED_INT */
-     , (24128, 19, 75) /* VALUE_INT */
-     , (24128, 5, 50) /* ENCUMB_VAL_INT */;
-

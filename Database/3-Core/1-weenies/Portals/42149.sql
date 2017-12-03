@@ -34,13 +34,3 @@ VALUES (42149, 13, True) /* ETHEREAL_BOOL */
      , (42149, 19, True) /* ATTACKABLE_BOOL */
      , (42149, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42149, 16, 'A portal leading to a location near Edelbar where the Quarter Staff of Fire may be found.') /* LONG_DESC_STRING */
-     , (42149, 38, 'Banderling Camp (43.8N, 25.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42149, 86, 35) /* MIN_LEVEL_INT */
-     , (42149, 111, 49) /* PORTAL_BITMASK_INT */;
-

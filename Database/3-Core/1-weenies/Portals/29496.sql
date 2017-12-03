@@ -33,13 +33,3 @@ VALUES (29496, 13, True) /* ETHEREAL_BOOL */
      , (29496, 19, True) /* ATTACKABLE_BOOL */
      , (29496, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29496, 38, 'Eater Pit') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29496, 86, 40) /* MIN_LEVEL_INT */
-     , (29496, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (29496, 111, 49) /* PORTAL_BITMASK_INT */;
-

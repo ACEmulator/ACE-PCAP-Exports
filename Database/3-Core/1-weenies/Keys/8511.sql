@@ -35,15 +35,3 @@ VALUES (8511, 13, True) /* ETHEREAL_BOOL */
      , (8511, 19, True) /* ATTACKABLE_BOOL */
      , (8511, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8511, 16, 'A key found on Ithaenc. Although its surface is quite overgrown with moss, you can see bright silver metal beneath, and what appear to be intricate designs.') /* LONG_DESC_STRING */
-     , (8511, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8511, 114, 1) /* ATTUNED_INT */
-     , (8511, 19, 10) /* VALUE_INT */
-     , (8511, 5, 50) /* ENCUMB_VAL_INT */
-     , (8511, 91, 1) /* MAX_STRUCTURE_INT */;
-

@@ -36,12 +36,3 @@ VALUES (705, 0, 83891055, 83889906);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (705, 0, 16780409);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (705, 16, 'Fispur''s Foodstuffs') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (705, 19, 125) /* VALUE_INT */
-     , (705, 5, 9000) /* ENCUMB_VAL_INT */;
-

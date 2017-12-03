@@ -36,16 +36,3 @@ VALUES (34110, 13, True) /* ETHEREAL_BOOL */
      , (34110, 19, True) /* ATTACKABLE_BOOL */
      , (34110, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34110, 16, 'A Tremendous Monouga skull connected to a series of straps so that it can be used to hold things as a backpack.') /* LONG_DESC_STRING */
-     , (34110, 14, 'Use this item to close it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34110, 19, 250) /* VALUE_INT */
-     , (34110, 5, 1) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34110, 2, 1) /* OPEN_BOOL */;
-

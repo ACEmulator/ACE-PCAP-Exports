@@ -33,17 +33,6 @@ VALUES (35568, 13, True) /* ETHEREAL_BOOL */
      , (35568, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35568, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35568, 16, 'A list of Drudge kill tasks from Jarvis Hammerstone.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35568, 19, 0) /* VALUE_INT */
-     , (35568, 5, 5) /* ENCUMB_VAL_INT */
-     , (35568, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (35568, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

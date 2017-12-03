@@ -35,17 +35,3 @@ VALUES (3388, 13, True) /* ETHEREAL_BOOL */
      , (3388, 19, True) /* ATTACKABLE_BOOL */
      , (3388, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3388, 16, 'Inscribed spell: Lockpick Mastery Self II
-Increases the caster''s Lockpick skill by 15 points.') /* LONG_DESC_STRING */
-     , (3388, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3388, 19, 5) /* VALUE_INT */
-     , (3388, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3388, 923) /* LockpickMasterySelf2_SpellID */;
-

@@ -35,14 +35,3 @@ VALUES (2505, 13, True) /* ETHEREAL_BOOL */
      , (2505, 19, True) /* ATTACKABLE_BOOL */
      , (2505, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2505, 16, 'On the surface, a plain, non-descript key.  Closer examination reveals a faint, intricate geometric pattern nearly worn away.') /* LONG_DESC_STRING */
-     , (2505, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2505, 19, 200) /* VALUE_INT */
-     , (2505, 5, 50) /* ENCUMB_VAL_INT */
-     , (2505, 91, 3) /* MAX_STRUCTURE_INT */;
-

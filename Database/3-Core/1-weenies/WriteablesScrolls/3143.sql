@@ -35,17 +35,3 @@ VALUES (3143, 13, True) /* ETHEREAL_BOOL */
      , (3143, 19, True) /* ATTACKABLE_BOOL */
      , (3143, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3143, 16, 'Inscribed spell: Armor Tinkering Expertise Other II
-Increases the target''s Armor Tinkering skill by 15 points.') /* LONG_DESC_STRING */
-     , (3143, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3143, 19, 5) /* VALUE_INT */
-     , (3143, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3143, 709) /* ArmorExpertiseOther2_SpellID */;
-

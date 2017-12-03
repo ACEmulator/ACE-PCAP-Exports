@@ -56,32 +56,3 @@ VALUES (29241, 0, 83895597, 83895597)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29241, 0, 16790885);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29241, 16, 'Fire Bow') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29241, 160, 375) /* WIELD_DIFFICULTY_INT */
-     , (29241, 353, 8) /* WEAPON_TYPE_INT */
-     , (29241, 19, 3917) /* VALUE_INT */
-     , (29241, 131, 58) /* MATERIAL_TYPE_INT */
-     , (29241, 5, 800) /* ENCUMB_VAL_INT */
-     , (29241, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (29241, 204, 17) /* ELEMENTAL_DAMAGE_BONUS_INT */
-     , (29241, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (29241, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (29241, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (29241, 45, 16) /* DAMAGE_TYPE_INT */
-     , (29241, 49, 34) /* WEAPON_TIME_INT */
-     , (29241, 48, 47) /* WEAPON_SKILL_INT */
-     , (29241, 44, 0) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29241, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
-     , (29241, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (29241, 63, 2.4) /* DAMAGE_MOD_FLOAT */
-     , (29241, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (29241, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (29241, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

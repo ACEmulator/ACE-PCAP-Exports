@@ -34,13 +34,3 @@ VALUES (42182, 13, True) /* ETHEREAL_BOOL */
      , (42182, 19, True) /* ATTACKABLE_BOOL */
      , (42182, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42182, 16, 'A portal leading to Aphus Lassel near the Tusker Quarters where the Tusker Slave Tusk may be found.') /* LONG_DESC_STRING */
-     , (42182, 38, 'Tusker Quarters (2.3S, 95.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42182, 86, 30) /* MIN_LEVEL_INT */
-     , (42182, 111, 49) /* PORTAL_BITMASK_INT */;
-

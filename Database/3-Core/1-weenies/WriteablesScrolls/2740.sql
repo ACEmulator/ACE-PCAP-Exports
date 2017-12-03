@@ -35,17 +35,3 @@ VALUES (2740, 13, True) /* ETHEREAL_BOOL */
      , (2740, 19, True) /* ATTACKABLE_BOOL */
      , (2740, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2740, 16, 'Inscribed spell: Strength Other V
-Increases the target''s Strength by 30 points.') /* LONG_DESC_STRING */
-     , (2740, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2740, 19, 200) /* VALUE_INT */
-     , (2740, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2740, 1336) /* StrengthOther5_SpellID */;
-

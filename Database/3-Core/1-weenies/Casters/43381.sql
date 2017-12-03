@@ -52,37 +52,3 @@ VALUES (43381, 0, 83895592, 83895592)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43381, 0, 16791340);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43381, 16, 'Nether Sceptre of Curse Weakness') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43381, 160, 290) /* WIELD_DIFFICULTY_INT */
-     , (43381, 177, 2) /* GEM_COUNT_INT */
-     , (43381, 178, 49) /* GEM_TYPE_INT */
-     , (43381, 19, 14520) /* VALUE_INT */
-     , (43381, 131, 43) /* MATERIAL_TYPE_INT */
-     , (43381, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (43381, 5, 50) /* ENCUMB_VAL_INT */
-     , (43381, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (43381, 106, 295) /* ITEM_SPELLCRAFT_INT */
-     , (43381, 108, 4667) /* ITEM_MAX_MANA_INT */
-     , (43381, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (43381, 109, 295) /* ITEM_DIFFICULTY_INT */
-     , (43381, 45, 1024) /* DAMAGE_TYPE_INT */
-     , (43381, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (43381, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (43381, 159, 43) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (43381, 144, 0.07) /* MANA_CONVERSION_MOD_FLOAT */
-     , (43381, 152, 1.03) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (43381, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (43381, 29, 1.07) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (43381, 5383) /* CurseWeakness5_SpellID */
-     , (43381, 1480) /* TrueValue6_SpellID */
-     , (43381, 2249) /* ItemEnchantmentMasterySelf7_SpellID */;
-

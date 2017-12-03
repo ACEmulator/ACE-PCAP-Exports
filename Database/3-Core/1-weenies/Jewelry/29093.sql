@@ -47,23 +47,3 @@ VALUES (29093, 0, 83886730, 83888956);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29093, 0, 16778334);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29093, 16, 'This bracelet is conferred upon those who have done a service to the Ferran Knights of Sanamar.') /* LONG_DESC_STRING */
-     , (29093, 14, 'You may equip this item by dragging it onto one of the jewelry slots next to your paperdoll.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29093, 19, 1000) /* VALUE_INT */
-     , (29093, 5, 60) /* ENCUMB_VAL_INT */
-     , (29093, 106, 50) /* ITEM_SPELLCRAFT_INT */
-     , (29093, 108, 400) /* ITEM_MAX_MANA_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29093, 5, -0.0125) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (29093, 982) /* SprintSelf1_SpellID */
-     , (29093, 24) /* ArmorSelf1_SpellID */
-     , (29093, 165) /* RegenerationSelf1_SpellID */;
-

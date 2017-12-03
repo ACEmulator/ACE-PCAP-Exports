@@ -35,14 +35,3 @@ VALUES (24141, 13, True) /* ETHEREAL_BOOL */
      , (24141, 19, True) /* ATTACKABLE_BOOL */
      , (24141, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24141, 15, 'A sweet-smelling piece of bark.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24141, 33, 1) /* BONDED_INT */
-     , (24141, 114, 1) /* ATTUNED_INT */
-     , (24141, 19, 10) /* VALUE_INT */
-     , (24141, 5, 15) /* ENCUMB_VAL_INT */;
-

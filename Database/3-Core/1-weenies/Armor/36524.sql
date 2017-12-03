@@ -39,34 +39,3 @@ VALUES (36524, 13, True) /* ETHEREAL_BOOL */
      , (36524, 19, True) /* ATTACKABLE_BOOL */
      , (36524, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36524, 16, 'The thick shell of a large pumpkin. It''s surprisingly strong and lightweight.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36524, 176, 48) /* APPRAISAL_ITEM_SKILL_INT */
-     , (36524, 115, 500) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (36524, 19, 2000) /* VALUE_INT */
-     , (36524, 5, 300) /* ENCUMB_VAL_INT */
-     , (36524, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (36524, 108, 3000) /* ITEM_MAX_MANA_INT */
-     , (36524, 28, 100) /* ARMOR_LEVEL_INT */
-     , (36524, 109, 200) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36524, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (36524, 13, 1.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (36524, 14, 1.5) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (36524, 15, 1.5) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (36524, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (36524, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (36524, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (36524, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (36524, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (36524, 2242) /* ImpregnabilityOther7_SpellID */
-     , (36524, 2244) /* InvulnerabilityOther7_SpellID */
-     , (36524, 4217) /* GourdGuard_SpellID */;
-

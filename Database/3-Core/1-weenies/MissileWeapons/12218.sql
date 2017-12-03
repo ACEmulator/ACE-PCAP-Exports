@@ -41,28 +41,6 @@ VALUES (12218, 13, True) /* ETHEREAL_BOOL */
      , (12218, 17, True) /* INELASTIC_BOOL */
      , (12218, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12218, 16, 'It''s a skull, that burns within with a strange supernatural flame.  You can sense a strange, latent magic within it.  When it is thrown in combat, it will mystically replenish itself, tapping into the magic until it is exhausted.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12218, 353, 10) /* WEAPON_TYPE_INT */
-     , (12218, 19, 1) /* VALUE_INT */
-     , (12218, 5, 20) /* ENCUMB_VAL_INT */
-     , (12218, 45, 16) /* DAMAGE_TYPE_INT */
-     , (12218, 49, 10) /* WEAPON_TIME_INT */
-     , (12218, 48, 47) /* WEAPON_SKILL_INT */
-     , (12218, 44, 25) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12218, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (12218, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */
-     , (12218, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (12218, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (12218, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (12218, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

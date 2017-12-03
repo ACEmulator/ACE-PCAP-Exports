@@ -44,14 +44,3 @@ VALUES (32943, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32943, 0, 16783325);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32943, 16, 'A mystically sealed decanter filled with an experimental mixture of nullified essence.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32943, 33, 0) /* BONDED_INT */
-     , (32943, 114, 0) /* ATTUNED_INT */
-     , (32943, 19, 20) /* VALUE_INT */
-     , (32943, 5, 150) /* ENCUMB_VAL_INT */;
-

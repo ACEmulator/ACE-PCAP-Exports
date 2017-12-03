@@ -34,17 +34,6 @@ VALUES (32750, 13, True) /* ETHEREAL_BOOL */
      , (32750, 14, True) /* GRAVITY_STATUS_BOOL */
      , (32750, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32750, 16, 'Instructions on procuring samples from the four Essences.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32750, 19, 10) /* VALUE_INT */
-     , (32750, 5, 5) /* ENCUMB_VAL_INT */
-     , (32750, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (32750, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

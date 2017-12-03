@@ -36,15 +36,6 @@ VALUES (7093, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7093, 19, True) /* ATTACKABLE_BOOL */
      , (7093, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7093, 16, 'Killed by Fenn.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7093, 19, 0) /* VALUE_INT */
-     , (7093, 5, 6460) /* ENCUMB_VAL_INT */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

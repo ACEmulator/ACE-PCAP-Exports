@@ -34,17 +34,6 @@ VALUES (8360, 13, True) /* ETHEREAL_BOOL */
      , (8360, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8360, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8360, 15, 'A journal written by Sir Candeth Martine') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8360, 19, 10) /* VALUE_INT */
-     , (8360, 5, 10) /* ENCUMB_VAL_INT */
-     , (8360, 174, 9) /* APPRAISAL_PAGES_INT */
-     , (8360, 175, 9) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

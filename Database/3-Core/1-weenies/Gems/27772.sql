@@ -43,27 +43,6 @@ VALUES (27772, 13, True) /* ETHEREAL_BOOL */
      , (27772, 19, True) /* ATTACKABLE_BOOL */
      , (27772, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27772, 14, 'Double-click on this portal gem to summon a portal.') /* USE_STRING */
-     , (27772, 15, 'A green portal gem.  ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27772, 19, 5000) /* VALUE_INT */
-     , (27772, 5, 25) /* ENCUMB_VAL_INT */
-     , (27772, 280, 1000) /* SHARED_COOLDOWN_INT */
-     , (27772, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (27772, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (27772, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (27772, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27772, 167, 15) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27772, 157) /* SummonPortal1_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

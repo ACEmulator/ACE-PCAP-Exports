@@ -53,33 +53,3 @@ VALUES (40638, 0, 83897334, 83897334)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (40638, 0, 16794240);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40638, 16, 'Flaming Tetsubo') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40638, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (40638, 353, 11) /* WEAPON_TYPE_INT */
-     , (40638, 19, 1807) /* VALUE_INT */
-     , (40638, 131, 51) /* MATERIAL_TYPE_INT */
-     , (40638, 292, 2) /* CLEAVING_INT */
-     , (40638, 5, 557) /* ENCUMB_VAL_INT */
-     , (40638, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (40638, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (40638, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (40638, 159, 41) /* WIELD_SKILLTYPE_INT */
-     , (40638, 47, 4) /* ATTACK_TYPE_INT */
-     , (40638, 45, 16) /* DAMAGE_TYPE_INT */
-     , (40638, 49, 36) /* WEAPON_TIME_INT */
-     , (40638, 48, 41) /* WEAPON_SKILL_INT */
-     , (40638, 44, 22) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (40638, 29, 1.06) /* WEAPON_DEFENSE_FLOAT */
-     , (40638, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (40638, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (40638, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (40638, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (40638, 62, 1.11) /* WEAPON_OFFENSE_FLOAT */;
-

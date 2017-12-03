@@ -45,16 +45,3 @@ VALUES (15797, 0, 83892962, 83893942)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (15797, 0, 16785505);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15797, 16, 'A tome torn and charred. Several pages are still salvageable. The text appears to be written in the Gelidite tongue.') /* LONG_DESC_STRING */
-     , (15797, 14, 'This book cannot be read, it is written in Ancient Empyrean.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15797, 33, 0) /* BONDED_INT */
-     , (15797, 19, 0) /* VALUE_INT */
-     , (15797, 5, 25) /* ENCUMB_VAL_INT */
-     , (15797, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (15797, 175, 50) /* APPRAISAL_MAX_PAGES_INT */;
-

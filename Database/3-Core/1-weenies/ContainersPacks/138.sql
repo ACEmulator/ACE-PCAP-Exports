@@ -36,15 +36,3 @@ VALUES (138, 13, True) /* ETHEREAL_BOOL */
      , (138, 19, True) /* ATTACKABLE_BOOL */
      , (138, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (138, 14, 'Use this item to close it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (138, 19, 65) /* VALUE_INT */
-     , (138, 5, 6310) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (138, 2, 1) /* OPEN_BOOL */;
-

@@ -31,17 +31,3 @@ VALUES (29271, 13, True) /* ETHEREAL_BOOL */
      , (29271, 19, True) /* ATTACKABLE_BOOL */
      , (29271, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29271, 16, 'After using this gem, spells that were cast on you prior to death will remain in effect when you resurrect at your Lifestone. Spells will still expire on death if you are killed in a PK battle. Spells will remain if you are killed in PKLite. This augmentation cannot be repeated.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29271, 33, 1) /* BONDED_INT */
-     , (29271, 114, 1) /* ATTUNED_INT */
-     , (29271, 19, 0) /* VALUE_INT */
-     , (29271, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
-VALUES (29271, 3, 4000000000) /* AUGMENTATION_COST_INT64 */;
-

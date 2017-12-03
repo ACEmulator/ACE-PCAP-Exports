@@ -35,17 +35,3 @@ VALUES (3462, 13, True) /* ETHEREAL_BOOL */
      , (3462, 19, True) /* ATTACKABLE_BOOL */
      , (3462, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3462, 16, 'Inscribed spell: Person Unfamiliarity Other VI
-Decreases the target''s Assess Person skill by 35 points.') /* LONG_DESC_STRING */
-     , (3462, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3462, 19, 1000) /* VALUE_INT */
-     , (3462, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3462, 848) /* PersonUnfamiliarityOther6_SpellID */;
-

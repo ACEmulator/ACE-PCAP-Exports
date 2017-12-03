@@ -47,22 +47,6 @@ VALUES (9426, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9426, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9426, 15, 'A gem of armor.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9426, 19, 200) /* VALUE_INT */
-     , (9426, 5, 10) /* ENCUMB_VAL_INT */
-     , (9426, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (9426, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (9426, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (9426, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (9426, 2393) /* ForceArmor_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

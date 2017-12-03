@@ -47,37 +47,3 @@ VALUES (31825, 67116700, 1, 100)
      , (31825, 67116709, 101, 100)
      , (31825, 67116708, 201, 55);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31825, 16, 'Piercing Baton of Force Bolt') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31825, 160, 355) /* WIELD_DIFFICULTY_INT */
-     , (31825, 177, 4) /* GEM_COUNT_INT */
-     , (31825, 178, 38) /* GEM_TYPE_INT */
-     , (31825, 19, 20689) /* VALUE_INT */
-     , (31825, 131, 60) /* MATERIAL_TYPE_INT */
-     , (31825, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (31825, 5, 50) /* ENCUMB_VAL_INT */
-     , (31825, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (31825, 106, 272) /* ITEM_SPELLCRAFT_INT */
-     , (31825, 108, 4084) /* ITEM_MAX_MANA_INT */
-     , (31825, 172, 7) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31825, 109, 272) /* ITEM_DIFFICULTY_INT */
-     , (31825, 45, 2) /* DAMAGE_TYPE_INT */
-     , (31825, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (31825, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (31825, 159, 34) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31825, 144, 0.08) /* MANA_CONVERSION_MOD_FLOAT */
-     , (31825, 152, 1.09) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (31825, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (31825, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31825, 2132) /* ForceBolt7_SpellID */
-     , (31825, 2117) /* Truevalue7_SpellID */
-     , (31825, 2091) /* WillpowerSelf7_SpellID */;
-

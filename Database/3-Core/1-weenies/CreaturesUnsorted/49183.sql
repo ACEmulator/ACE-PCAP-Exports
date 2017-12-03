@@ -68,16 +68,3 @@ VALUES (49183, 0, 16796693)
      , (49183, 12, 16796687)
      , (49183, 16, 16796691);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (49183, 16, 'This portal goes to the Town Network, a place which connects many of the towns of Dereth.') /* LONG_DESC_STRING */
-     , (49183, 14, 'You must use this portal to activate it. Walking through the portal will not activate it.') /* USE_STRING */
-     , (49183, 38, 'Gateway') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49183, 86, -1) /* MIN_LEVEL_INT */
-     , (49183, 87, -1) /* MAX_LEVEL_INT */
-     , (49183, 26, 0) /* ACCOUNT_REQUIREMENTS_INT */
-     , (49183, 111, 177) /* PORTAL_BITMASK_INT */;
-

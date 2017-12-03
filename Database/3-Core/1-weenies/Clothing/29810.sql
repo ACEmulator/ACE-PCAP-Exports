@@ -50,36 +50,3 @@ VALUES (29810, 0, 83887061, 83893736)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29810, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29810, 16, 'A formal gown woven from the plumes of a Badlands Siraluun.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29810, 160, 70) /* WIELD_DIFFICULTY_INT */
-     , (29810, 19, 8500) /* VALUE_INT */
-     , (29810, 5, 1000) /* ENCUMB_VAL_INT */
-     , (29810, 28, 200) /* ARMOR_LEVEL_INT */
-     , (29810, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (29810, 109, 190) /* ITEM_DIFFICULTY_INT */
-     , (29810, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (29810, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29810, 5, -0.03) /* MANA_RATE_FLOAT */
-     , (29810, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (29810, 14, 1.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (29810, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (29810, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (29810, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (29810, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (29810, 19, 1.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (29810, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (29810, 2262) /* LeadershipMasteryOther7_SpellID */
-     , (29810, 2014) /* WizardsUltimateIntellect_SpellID */
-     , (29810, 2546) /* CANTRIPFEALTY1_SpellID */
-     , (29810, 2554) /* CANTRIPLEADERSHIP1_SpellID */
-     , (29810, 957) /* FealtyOther6_SpellID */;
-

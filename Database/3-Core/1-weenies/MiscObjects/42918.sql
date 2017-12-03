@@ -35,12 +35,3 @@ VALUES (42918, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (42918, 19, True) /* ATTACKABLE_BOOL */
      , (42918, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42918, 14, 'Use a lugian pick axe to break up this deposite of ore.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42918, 19, 200) /* VALUE_INT */
-     , (42918, 5, 6000) /* ENCUMB_VAL_INT */;
-

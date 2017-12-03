@@ -37,28 +37,3 @@ VALUES (25479, 13, True) /* ETHEREAL_BOOL */
      , (25479, 19, True) /* ATTACKABLE_BOOL */
      , (25479, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25479, 16, 'A ring carved of Whispering Venom crystal. When worn, it allows portal passage down to the Lair of the Ancient Queen.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25479, 33, 1) /* BONDED_INT */
-     , (25479, 114, 0) /* ATTUNED_INT */
-     , (25479, 19, 50) /* VALUE_INT */
-     , (25479, 5, 30) /* ENCUMB_VAL_INT */
-     , (25479, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (25479, 108, 500) /* ITEM_MAX_MANA_INT */
-     , (25479, 109, 10) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25479, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25479, 99, 0) /* IVORYABLE_BOOL */
-     , (25479, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25479, 2583) /* CANTRIPSTRENGTH1_SpellID */
-     , (25479, 1405) /* QuicknessOther3_SpellID */;
-

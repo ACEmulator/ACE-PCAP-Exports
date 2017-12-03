@@ -35,17 +35,3 @@ VALUES (2728, 13, True) /* ETHEREAL_BOOL */
      , (2728, 19, True) /* ATTACKABLE_BOOL */
      , (2728, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2728, 16, 'Inscribed spell: Revitalize Self III
-Restores 30-60 points of the caster''s Stamina.') /* LONG_DESC_STRING */
-     , (2728, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2728, 19, 20) /* VALUE_INT */
-     , (2728, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2728, 1179) /* RevitalizeSelf3_SpellID */;
-

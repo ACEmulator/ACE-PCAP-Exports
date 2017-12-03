@@ -32,12 +32,3 @@ VALUES (10982, 13, True) /* ETHEREAL_BOOL */
      , (10982, 19, True) /* ATTACKABLE_BOOL */
      , (10982, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10982, 16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LONG_DESC_STRING */
-     , (10982, 38, 'Destroyed Ahurenga Portal (46.1N, 89.8W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10982, 111, 49) /* PORTAL_BITMASK_INT */;
-

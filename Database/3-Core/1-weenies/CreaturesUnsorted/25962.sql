@@ -79,35 +79,6 @@ VALUES (25962, 12, 16778423)
      , (25962, 14, 16783855)
      , (25962, 16, 16785197);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (25962, 16, 67110062) /* EYES_PALETTE_DID */
-     , (25962, 9, 83890258) /* EYES_TEXTURE_DID */
-     , (25962, 17, 67109552) /* SKIN_PALETTE_DID */
-     , (25962, 10, 83890293) /* NOSE_TEXTURE_DID */
-     , (25962, 11, 83890335) /* MOUTH_TEXTURE_DID */
-     , (25962, 15, 67117021) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25962, 113, 2) /* GENDER_INT */
-     , (25962, 2, 31) /* CREATURE_TYPE_INT */
-     , (25962, 25, 80) /* LEVEL_INT */
-     , (25962, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (25962, 1, 210) /* STRENGTH_ATTRIBUTE */
-     , (25962, 2, 140) /* ENDURANCE_ATTRIBUTE */
-     , (25962, 4, 210) /* COORDINATION_ATTRIBUTE */
-     , (25962, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (25962, 16, 160) /* FOCUS_ATTRIBUTE */
-     , (25962, 32, 80) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25962, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25962, 128, 320) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25962, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

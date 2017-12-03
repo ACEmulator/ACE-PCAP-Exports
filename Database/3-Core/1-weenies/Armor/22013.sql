@@ -38,23 +38,3 @@ VALUES (22013, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22013, 0, 16788487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22013, 15, 'A helm crafted from the head of an olthoi Eviscerator.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22013, 19, 4400) /* VALUE_INT */
-     , (22013, 5, 600) /* ENCUMB_VAL_INT */
-     , (22013, 28, 270) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (22013, 13, 1.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (22013, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (22013, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (22013, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (22013, 17, 1.1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (22013, 18, 1.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (22013, 19, 1.1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (22013, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

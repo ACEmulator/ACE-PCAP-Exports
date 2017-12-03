@@ -36,23 +36,3 @@ VALUES (46459, 13, True) /* ETHEREAL_BOOL */
      , (46459, 19, True) /* ATTACKABLE_BOOL */
      , (46459, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46459, 16, 'A key.') /* LONG_DESC_STRING */
-     , (46459, 14, 'Use this key to open the main gate of Hoshino''s Fort.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46459, 33, 1) /* BONDED_INT */
-     , (46459, 98, 1485730326) /* CREATION_TIMESTAMP_INT */
-     , (46459, 114, 1) /* ATTUNED_INT */
-     , (46459, 19, 10000) /* VALUE_INT */
-     , (46459, 5, 30) /* ENCUMB_VAL_INT */
-     , (46459, 91, 1) /* MAX_STRUCTURE_INT */
-     , (46459, 267, 7200) /* LIFESPAN_INT */
-     , (46459, 268, 7199) /* REMAINING_LIFESPAN_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (46459, 99, 0) /* IVORYABLE_BOOL */
-     , (46459, 69, 0) /* IS_SELLABLE_BOOL */;
-

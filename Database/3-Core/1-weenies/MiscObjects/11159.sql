@@ -36,13 +36,3 @@ VALUES (11159, 13, True) /* ETHEREAL_BOOL */
      , (11159, 19, True) /* ATTACKABLE_BOOL */
      , (11159, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11159, 16, 'A small, squarish piece of glass. This can be turned into the Tah of Timaru for a free one-point boost to your Armor Tinkering skill. There are tesserae available for each skill in the game. If you don''t want a point of Armor Tinkering, trade this tessera for another. You may only turn in five per character - so choose carefully!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11159, 33, 1) /* BONDED_INT */
-     , (11159, 19, 10) /* VALUE_INT */
-     , (11159, 5, 10) /* ENCUMB_VAL_INT */;
-

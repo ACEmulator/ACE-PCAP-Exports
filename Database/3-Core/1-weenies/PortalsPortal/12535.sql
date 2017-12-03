@@ -33,11 +33,3 @@ VALUES (12535, 13, True) /* ETHEREAL_BOOL */
      , (12535, 19, True) /* ATTACKABLE_BOOL */
      , (12535, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12535, 38, 'North Yanshi Plains Settlement Portal (4.4S, 48.0E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12535, 111, 1) /* PORTAL_BITMASK_INT */;
-

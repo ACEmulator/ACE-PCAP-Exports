@@ -37,26 +37,3 @@ VALUES (25540, 13, True) /* ETHEREAL_BOOL */
      , (25540, 19, True) /* ATTACKABLE_BOOL */
      , (25540, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25540, 16, 'A powerful charm crafted by Drudge Cabalists. The magic within the necklace is now freed.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25540, 160, 70) /* WIELD_DIFFICULTY_INT */
-     , (25540, 19, 4500) /* VALUE_INT */
-     , (25540, 5, 40) /* ENCUMB_VAL_INT */
-     , (25540, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (25540, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (25540, 109, 125) /* ITEM_DIFFICULTY_INT */
-     , (25540, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25540, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25540, 5, -0.049) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25540, 2581) /* CANTRIPFOCUS1_SpellID */
-     , (25540, 2584) /* CANTRIPWILLPOWER1_SpellID */
-     , (25540, 2012) /* WizardsIntellect_SpellID */;
-

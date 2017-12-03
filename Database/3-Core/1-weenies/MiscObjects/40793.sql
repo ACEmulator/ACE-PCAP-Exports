@@ -35,21 +35,6 @@ VALUES (40793, 13, True) /* ETHEREAL_BOOL */
      , (40793, 19, True) /* ATTACKABLE_BOOL */
      , (40793, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40793, 14, 'Combine a burning crystal with this chilling crystal to stabilize it.') /* USE_STRING */
-     , (40793, 15, 'A chilling Progenitor crystal.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40793, 33, 1) /* BONDED_INT */
-     , (40793, 114, 1) /* ATTUNED_INT */
-     , (40793, 19, 0) /* VALUE_INT */
-     , (40793, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40793, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

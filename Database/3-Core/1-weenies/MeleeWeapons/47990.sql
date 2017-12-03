@@ -37,14 +37,3 @@ VALUES (47990, 13, True) /* ETHEREAL_BOOL */
      , (47990, 19, True) /* ATTACKABLE_BOOL */
      , (47990, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47990, 19, 1000) /* VALUE_INT */
-     , (47990, 5, 50) /* ENCUMB_VAL_INT */
-     , (47990, 90, 20) /* BOOST_VALUE_INT */
-     , (47990, 91, 40) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (47990, 100, 1.75) /* HEALKIT_MOD_FLOAT */;
-

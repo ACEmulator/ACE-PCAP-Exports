@@ -31,14 +31,3 @@ VALUES (38082, 13, True) /* ETHEREAL_BOOL */
      , (38082, 19, True) /* ATTACKABLE_BOOL */
      , (38082, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38082, 16, 'This mnemosyne came from Lord Rytheran of Menilesh.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38082, 33, 1) /* BONDED_INT */
-     , (38082, 114, 1) /* ATTUNED_INT */
-     , (38082, 19, 0) /* VALUE_INT */
-     , (38082, 5, 10) /* ENCUMB_VAL_INT */;
-

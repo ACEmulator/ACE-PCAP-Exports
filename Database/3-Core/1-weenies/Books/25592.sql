@@ -34,16 +34,3 @@ VALUES (25592, 13, True) /* ETHEREAL_BOOL */
      , (25592, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25592, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25592, 16, 'A book with notes from the translator Fanzen San') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25592, 33, 1) /* BONDED_INT */
-     , (25592, 114, 1) /* ATTUNED_INT */
-     , (25592, 19, 90) /* VALUE_INT */
-     , (25592, 5, 160) /* ENCUMB_VAL_INT */
-     , (25592, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (25592, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
-

@@ -32,9 +32,3 @@ VALUES (34775, 13, True) /* ETHEREAL_BOOL */
      , (34775, 19, True) /* ATTACKABLE_BOOL */
      , (34775, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34775, 16, 'Locked') /* LONG_DESC_STRING */
-     , (34775, 14, 'The lock looks impossible to pick.') /* USE_STRING */;
-

@@ -52,32 +52,3 @@ VALUES (42211, 0, 83888861, 83889680);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (42211, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42211, 16, 'A simple orb used to cast a portal sending spell on the owner. When you touch the orb you get the sense of a message, it feels like someone wants to meet you.') /* LONG_DESC_STRING */
-     , (42211, 14, 'Target yourself while wielding this orb and cast its innate spell to portal to its predetermined location.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42211, 160, 10) /* WIELD_DIFFICULTY_INT */
-     , (42211, 33, 1) /* BONDED_INT */
-     , (42211, 114, 1) /* ATTUNED_INT */
-     , (42211, 19, 5) /* VALUE_INT */
-     , (42211, 5, 50) /* ENCUMB_VAL_INT */
-     , (42211, 117, 1) /* ITEM_MANA_COST_INT */
-     , (42211, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (42211, 108, 300) /* ITEM_MAX_MANA_INT */
-     , (42211, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (42211, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (42211, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (42211, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (42211, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (42211, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (42211, 5175) /* PortalSendHubNPE_SpellID */;
-

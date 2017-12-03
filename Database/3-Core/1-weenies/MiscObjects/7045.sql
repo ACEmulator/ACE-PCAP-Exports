@@ -35,16 +35,6 @@ VALUES (7045, 13, True) /* ETHEREAL_BOOL */
      , (7045, 19, True) /* ATTACKABLE_BOOL */
      , (7045, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7045, 16, 'The thighbone of a departed Dark Revenant.') /* LONG_DESC_STRING */
-     , (7045, 14, 'This has no apparent use.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7045, 19, 0) /* VALUE_INT */
-     , (7045, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

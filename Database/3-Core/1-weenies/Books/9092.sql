@@ -36,19 +36,6 @@ VALUES (9092, 13, True) /* ETHEREAL_BOOL */
      , (9092, 19, True) /* ATTACKABLE_BOOL */
      , (9092, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9092, 16, 'A large, empty tome, bound in what appears to be finely cut amethyst. It is very lightweight. There are fragrant late summer blossoms impressed in its pages. The name Rurinah is written in iridescent ink on the first page.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9092, 33, 1) /* BONDED_INT */
-     , (9092, 114, 1) /* ATTUNED_INT */
-     , (9092, 19, 1000) /* VALUE_INT */
-     , (9092, 5, 500) /* ENCUMB_VAL_INT */
-     , (9092, 174, 21) /* APPRAISAL_PAGES_INT */
-     , (9092, 175, 70) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -86,12 +86,3 @@ VALUES (48777, 1, 16777708)
      , (48777, 14, 16781862)
      , (48777, 11, 16781861);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48777, 16, 'Killed by Ujiio.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48777, 19, 0) /* VALUE_INT */
-     , (48777, 5, 6479) /* ENCUMB_VAL_INT */;
-

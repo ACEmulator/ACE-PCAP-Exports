@@ -51,39 +51,6 @@ VALUES (48275, 67111923, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48275, 0, 16777887);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48275, 304, 0) /* IMBUED_EFFECT_3_INT */
-     , (48275, 305, 0) /* IMBUED_EFFECT_4_INT */
-     , (48275, 33, -2) /* BONDED_INT */
-     , (48275, 306, 0) /* IMBUED_EFFECT_5_INT */
-     , (48275, 386, 0) /*  */
-     , (48275, 19, 1) /* VALUE_INT */
-     , (48275, 179, 0) /* IMBUED_EFFECT_INT */
-     , (48275, 307, 5) /* DAMAGE_RATING_INT */
-     , (48275, 5, 5) /* ENCUMB_VAL_INT */
-     , (48275, 313, 0) /* CRIT_RATING_INT */
-     , (48275, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (48275, 303, 0) /* IMBUED_EFFECT_2_INT */
-     , (48275, 45, 64) /* DAMAGE_TYPE_INT */
-     , (48275, 49, -1) /* WEAPON_TIME_INT */
-     , (48275, 48, 0) /* WEAPON_SKILL_INT */
-     , (48275, 44, 52) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (48275, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (48275, 149, 0) /* WEAPON_MISSILE_DEFENSE_FLOAT */
-     , (48275, 150, 0) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (48275, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
-     , (48275, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (48275, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (48275, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (48275, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (48275, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

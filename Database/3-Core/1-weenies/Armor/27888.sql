@@ -46,33 +46,3 @@ VALUES (27888, 0, 83889072, 83895356)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27888, 0, 16778376);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27888, 16, 'A reproduction of the loincloth worn by the first Mosswart Mire Witch. Complete with official mosswart smell. A small tag attached to the garment boasts: An original Ketnan product.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27888, 19, 1200) /* VALUE_INT */
-     , (27888, 5, 250) /* ENCUMB_VAL_INT */
-     , (27888, 106, 125) /* ITEM_SPELLCRAFT_INT */
-     , (27888, 108, 650) /* ITEM_MAX_MANA_INT */
-     , (27888, 28, 185) /* ARMOR_LEVEL_INT */
-     , (27888, 109, 120) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27888, 5, -0.0333) /* MANA_RATE_FLOAT */
-     , (27888, 13, 0.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (27888, 14, 0.6) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (27888, 15, 0.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (27888, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (27888, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (27888, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (27888, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (27888, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27888, 1483) /* Impenetrability3_SpellID */
-     , (27888, 1429) /* FocusOther3_SpellID */
-     , (27888, 241) /* InvulnerabilityOther3_SpellID */
-     , (27888, 252) /* ImpregnabilityOther3_SpellID */;
-

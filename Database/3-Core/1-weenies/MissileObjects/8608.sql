@@ -37,30 +37,3 @@ VALUES (8608, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8608, 1, True) /* STUCK_BOOL */
      , (8608, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8608, 16, 'Ring of Piercing Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8608, 177, 1) /* GEM_COUNT_INT */
-     , (8608, 178, 22) /* GEM_TYPE_INT */
-     , (8608, 19, 7961) /* VALUE_INT */
-     , (8608, 131, 23) /* MATERIAL_TYPE_INT */
-     , (8608, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (8608, 5, 30) /* ENCUMB_VAL_INT */
-     , (8608, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (8608, 106, 274) /* ITEM_SPELLCRAFT_INT */
-     , (8608, 108, 1416) /* ITEM_MAX_MANA_INT */
-     , (8608, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (8608, 109, 295) /* ITEM_DIFFICULTY_INT */
-     , (8608, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8608, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8608, 5072) /* CANTRIPTWOHANDEDAPTITUDE1_SpellID */
-     , (8608, 2512) /* CANTRIPFLETCHINGPROWESS2_SpellID */
-     , (8608, 1138) /* PiercingProtectionSelf6_SpellID */;
-

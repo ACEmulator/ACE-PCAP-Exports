@@ -35,14 +35,3 @@ VALUES (2218, 13, True) /* ETHEREAL_BOOL */
      , (2218, 19, True) /* ATTACKABLE_BOOL */
      , (2218, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2218, 16, 'A beautifully crafted golden key that is used in the Underground City.') /* LONG_DESC_STRING */
-     , (2218, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2218, 19, 50) /* VALUE_INT */
-     , (2218, 5, 50) /* ENCUMB_VAL_INT */
-     , (2218, 91, 3) /* MAX_STRUCTURE_INT */;
-

@@ -44,12 +44,3 @@ VALUES (32802, 0, 83897428, 83897428);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32802, 0, 16792972);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32802, 16, 'A dangerously unstable substance dropped by a black breath.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32802, 19, 0) /* VALUE_INT */
-     , (32802, 5, 1) /* ENCUMB_VAL_INT */;
-

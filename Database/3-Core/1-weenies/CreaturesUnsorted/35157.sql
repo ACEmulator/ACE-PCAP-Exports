@@ -59,12 +59,3 @@ VALUES (35157, 0, 16778359)
      , (35157, 15, 16777307)
      , (35157, 16, 16778407);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35157, 16, 'Killed by Mag-six.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35157, 19, 0) /* VALUE_INT */
-     , (35157, 5, 6992) /* ENCUMB_VAL_INT */;
-

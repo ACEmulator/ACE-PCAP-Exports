@@ -38,17 +38,3 @@ VALUES (53451, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (53451, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (53451, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53451, 5, 'Master of the Amber Forge') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53451, 113, 1) /* GENDER_INT */
-     , (53451, 2, 62) /* CREATURE_TYPE_INT */
-     , (53451, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (53451, 25, 999) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (53451, 64, 3000450) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

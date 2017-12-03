@@ -49,29 +49,3 @@ VALUES (308, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (308, 0, 16777955);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (308, 16, 'Budiaq') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (308, 353, 5) /* WEAPON_TYPE_INT */
-     , (308, 131, 58) /* MATERIAL_TYPE_INT */
-     , (308, 19, 245) /* VALUE_INT */
-     , (308, 5, 800) /* ENCUMB_VAL_INT */
-     , (308, 105, 3) /* ITEM_WORKMANSHIP_INT */
-     , (308, 172, 3) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (308, 47, 2) /* ATTACK_TYPE_INT */
-     , (308, 45, 2) /* DAMAGE_TYPE_INT */
-     , (308, 49, 35) /* WEAPON_TIME_INT */
-     , (308, 48, 45) /* WEAPON_SKILL_INT */
-     , (308, 44, 17) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (308, 29, 1.02) /* WEAPON_DEFENSE_FLOAT */
-     , (308, 22, 0.99) /* DAMAGE_VARIANCE_FLOAT */
-     , (308, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (308, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (308, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (308, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
-

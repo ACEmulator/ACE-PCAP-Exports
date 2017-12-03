@@ -43,16 +43,6 @@ VALUES (22247, 0, 83892725, 83892724);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22247, 0, 16784961);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22247, 16, 'A huge bright orange, hefty round pumpkin, sturdy and thick-shelled.') /* LONG_DESC_STRING */
-     , (22247, 14, 'This pumpkin looks too large to cook.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22247, 19, 90) /* VALUE_INT */
-     , (22247, 5, 630) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

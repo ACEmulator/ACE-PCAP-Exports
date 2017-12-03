@@ -34,20 +34,6 @@ VALUES (4889, 13, True) /* ETHEREAL_BOOL */
      , (4889, 19, True) /* ATTACKABLE_BOOL */
      , (4889, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4889, 16, 'A bottle of perfectly aged pale ambrosia from the lost distillery.') /* LONG_DESC_STRING */
-     , (4889, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4889, 33, 1) /* BONDED_INT */
-     , (4889, 114, 1) /* ATTUNED_INT */
-     , (4889, 19, 0) /* VALUE_INT */
-     , (4889, 5, 50) /* ENCUMB_VAL_INT */
-     , (4889, 89, 2) /* BOOSTER_ENUM_INT */
-     , (4889, 90, 4) /* BOOST_VALUE_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

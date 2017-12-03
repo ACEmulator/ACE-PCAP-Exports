@@ -48,34 +48,3 @@ VALUES (3940, 0, 83889356, 83886712)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (3940, 0, 16777932);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3940, 16, 'Lightning Morning Star') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3940, 160, 370) /* WIELD_DIFFICULTY_INT */
-     , (3940, 353, 4) /* WEAPON_TYPE_INT */
-     , (3940, 177, 3) /* GEM_COUNT_INT */
-     , (3940, 178, 16) /* GEM_TYPE_INT */
-     , (3940, 19, 5402) /* VALUE_INT */
-     , (3940, 131, 77) /* MATERIAL_TYPE_INT */
-     , (3940, 5, 598) /* ENCUMB_VAL_INT */
-     , (3940, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (3940, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3940, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3940, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (3940, 47, 4) /* ATTACK_TYPE_INT */
-     , (3940, 45, 64) /* DAMAGE_TYPE_INT */
-     , (3940, 49, 58) /* WEAPON_TIME_INT */
-     , (3940, 48, 44) /* WEAPON_SKILL_INT */
-     , (3940, 44, 51) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3940, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
-     , (3940, 22, 0.37) /* DAMAGE_VARIANCE_FLOAT */
-     , (3940, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3940, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3940, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3940, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
-

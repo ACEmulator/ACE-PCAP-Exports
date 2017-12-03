@@ -33,13 +33,3 @@ VALUES (35935, 13, True) /* ETHEREAL_BOOL */
      , (35935, 19, True) /* ATTACKABLE_BOOL */
      , (35935, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35935, 16, 'This portal seems to be warded against those who are not attuned to it.') /* LONG_DESC_STRING */
-     , (35935, 38, 'Paradox-Touched Olthoi Queen''s Lair') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35935, 86, 120) /* MIN_LEVEL_INT */
-     , (35935, 111, 49) /* PORTAL_BITMASK_INT */;
-

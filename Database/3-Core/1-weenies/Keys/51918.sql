@@ -34,16 +34,3 @@ VALUES (51918, 13, True) /* ETHEREAL_BOOL */
      , (51918, 19, True) /* ATTACKABLE_BOOL */
      , (51918, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51918, 16, 'A bright gold key to Commander Presk''s Treasury.') /* LONG_DESC_STRING */
-     , (51918, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51918, 33, 1) /* BONDED_INT */
-     , (51918, 114, 1) /* ATTUNED_INT */
-     , (51918, 19, 0) /* VALUE_INT */
-     , (51918, 5, 10) /* ENCUMB_VAL_INT */
-     , (51918, 91, 1) /* MAX_STRUCTURE_INT */;
-

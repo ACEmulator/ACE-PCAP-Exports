@@ -69,12 +69,3 @@ VALUES (14450, 2, 16781866)
      , (14450, 11, 16781822)
      , (14450, 14, 16781821);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14450, 15, 'Bound and tortured in the Hollow Minions'' device, this poor, emaciated captive is paralyzed with agony.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14450, 19, 0) /* VALUE_INT */
-     , (14450, 5, 9000) /* ENCUMB_VAL_INT */;
-

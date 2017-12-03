@@ -38,15 +38,3 @@ VALUES (43523, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43523, 0, 16787203);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43523, 14, 'This token may be traded to the Shade of Lady Adja, the Seer of the Light Falatacot, in the Cathedral of Ithaenc, in order to spend Luminance to gain or increase the Aura of Specialization Mastery augmentation.  Cost for each level: 350,000, 400,000, 450,000, 500,000, 550,000.  Each purchase increases your specialized skills by 2. ') /* USE_STRING */
-     , (43523, 15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43523, 33, 1) /* BONDED_INT */
-     , (43523, 114, 1) /* ATTUNED_INT */
-     , (43523, 19, 0) /* VALUE_INT */
-     , (43523, 5, 5) /* ENCUMB_VAL_INT */;
-

@@ -30,14 +30,3 @@ VALUES (52906, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (52906, 19, True) /* ATTACKABLE_BOOL */
      , (52906, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52906, 38, 'Gauntlet Stage 4') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52906, 98, 1485828454) /* CREATION_TIMESTAMP_INT */
-     , (52906, 267, 60) /* LIFESPAN_INT */
-     , (52906, 268, 59) /* REMAINING_LIFESPAN_INT */
-     , (52906, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -38,29 +38,3 @@ VALUES (12117, 13, True) /* ETHEREAL_BOOL */
      , (12117, 19, True) /* ATTACKABLE_BOOL */
      , (12117, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12117, 15, 'A waaika fused to a triple totem.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12117, 353, 4) /* WEAPON_TYPE_INT */
-     , (12117, 33, -2) /* BONDED_INT */
-     , (12117, 114, 1) /* ATTUNED_INT */
-     , (12117, 115, 100) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (12117, 5, 600) /* ENCUMB_VAL_INT */
-     , (12117, 47, 4) /* ATTACK_TYPE_INT */
-     , (12117, 45, 0) /* DAMAGE_TYPE_INT */
-     , (12117, 49, -1) /* WEAPON_TIME_INT */
-     , (12117, 48, 46) /* WEAPON_SKILL_INT */
-     , (12117, 44, -1) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12117, 5, -0.03333) /* MANA_RATE_FLOAT */
-     , (12117, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
-     , (12117, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (12117, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (12117, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (12117, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (12117, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

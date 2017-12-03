@@ -34,17 +34,3 @@ VALUES (33926, 13, True) /* ETHEREAL_BOOL */
      , (33926, 19, True) /* ATTACKABLE_BOOL */
      , (33926, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33926, 16, 'A closed scroll, addressed to Renald the Eldest, located at 42.1N 33.8E, in Holtburg.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33926, 33, 1) /* BONDED_INT */
-     , (33926, 114, 1) /* ATTUNED_INT */
-     , (33926, 19, 0) /* VALUE_INT */
-     , (33926, 5, 15) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (33926, 69, 0) /* IS_SELLABLE_BOOL */;
-

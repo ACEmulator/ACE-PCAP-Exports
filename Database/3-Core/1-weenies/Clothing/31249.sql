@@ -38,23 +38,3 @@ VALUES (31249, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (31249, 67110384, 160, 8);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31249, 19, 50) /* VALUE_INT */
-     , (31249, 5, 420) /* ENCUMB_VAL_INT */
-     , (31249, 28, 20) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31249, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (31249, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (31249, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (31249, 16, 0.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (31249, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (31249, 18, 0.3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (31249, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (31249, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31249, 100, 1) /* DYABLE_BOOL */;
-

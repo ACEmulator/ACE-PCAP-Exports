@@ -46,16 +46,3 @@ VALUES (32198, 0, 83892725, 83892725);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (32198, 0, 16784961);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32198, 16, 'A hollowed out pumpkin with some straps so it can be used to carry things.') /* LONG_DESC_STRING */
-     , (32198, 14, 'Use this item to close it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32198, 19, 250) /* VALUE_INT */
-     , (32198, 5, 1201) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (32198, 2, 1) /* OPEN_BOOL */;
-

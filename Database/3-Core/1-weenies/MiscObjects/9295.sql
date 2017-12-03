@@ -50,16 +50,6 @@ VALUES (9295, 0, 83886754, 83886754)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (9295, 0, 16777906);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9295, 16, 'A multipurpose tool used to sculpt golem hearts and virindi artifacts. ') /* LONG_DESC_STRING */
-     , (9295, 14, 'Use to carve out keys.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9295, 19, 10000) /* VALUE_INT */
-     , (9295, 5, 40) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

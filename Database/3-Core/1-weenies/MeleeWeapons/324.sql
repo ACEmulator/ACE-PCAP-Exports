@@ -48,32 +48,3 @@ VALUES (324, 0, 83889235, 83889235)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (324, 0, 16777961);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (324, 16, 'Kaskara') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (324, 160, 325) /* WIELD_DIFFICULTY_INT */
-     , (324, 353, 2) /* WEAPON_TYPE_INT */
-     , (324, 19, 1215) /* VALUE_INT */
-     , (324, 131, 60) /* MATERIAL_TYPE_INT */
-     , (324, 5, 327) /* ENCUMB_VAL_INT */
-     , (324, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (324, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (324, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (324, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (324, 47, 6) /* ATTACK_TYPE_INT */
-     , (324, 45, 3) /* DAMAGE_TYPE_INT */
-     , (324, 49, 32) /* WEAPON_TIME_INT */
-     , (324, 48, 45) /* WEAPON_SKILL_INT */
-     , (324, 44, 36) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (324, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (324, 22, 0.56) /* DAMAGE_VARIANCE_FLOAT */
-     , (324, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (324, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (324, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (324, 62, 1.09) /* WEAPON_OFFENSE_FLOAT */;
-

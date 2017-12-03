@@ -33,11 +33,3 @@ VALUES (14679, 13, True) /* ETHEREAL_BOOL */
      , (14679, 19, True) /* ATTACKABLE_BOOL */
      , (14679, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14679, 38, 'Zin-Dai Portal (35.2S, 46.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14679, 111, 1) /* PORTAL_BITMASK_INT */;
-

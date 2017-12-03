@@ -56,12 +56,3 @@ VALUES (49026, 5, 16794677)
      , (49026, 9, 16794667)
      , (49026, 0, 16794661);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (49026, 16, 'Killed by Arctos.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49026, 19, 0) /* VALUE_INT */
-     , (49026, 5, 6758) /* ENCUMB_VAL_INT */;
-

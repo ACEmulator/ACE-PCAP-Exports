@@ -36,18 +36,3 @@ VALUES (38497, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (38497, 19, True) /* ATTACKABLE_BOOL */
      , (38497, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38497, 16, 'A Society Reward Chest, containing a randomly enchanted Eldrytch Web Girth.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38497, 19, 0) /* VALUE_INT */
-     , (38497, 5, 6064) /* ENCUMB_VAL_INT */
-     , (38497, 38, 9999) /* RESIST_LOCKPICK_INT */
-     , (38497, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (38497, 2, 0) /* OPEN_BOOL */
-     , (38497, 3, 1) /* LOCKED_BOOL */;
-

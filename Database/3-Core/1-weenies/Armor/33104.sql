@@ -35,39 +35,3 @@ VALUES (33104, 13, True) /* ETHEREAL_BOOL */
      , (33104, 19, True) /* ATTACKABLE_BOOL */
      , (33104, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33104, 16, 'A black, crystalline helm created by the Shadow, Isin Dule.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33104, 160, 150) /* WIELD_DIFFICULTY_INT */
-     , (33104, 33, 0) /* BONDED_INT */
-     , (33104, 114, 0) /* ATTUNED_INT */
-     , (33104, 19, 10000) /* VALUE_INT */
-     , (33104, 5, 400) /* ENCUMB_VAL_INT */
-     , (33104, 106, 450) /* ITEM_SPELLCRAFT_INT */
-     , (33104, 108, 8000) /* ITEM_MAX_MANA_INT */
-     , (33104, 28, 660) /* ARMOR_LEVEL_INT */
-     , (33104, 109, 250) /* ITEM_DIFFICULTY_INT */
-     , (33104, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (33104, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (33104, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (33104, 13, 3.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (33104, 14, 3.2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (33104, 15, 3.2) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (33104, 16, 2.8) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (33104, 17, 3.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (33104, 18, 3) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (33104, 19, 2.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (33104, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (33104, 2066) /* FocusOther7_SpellID */
-     , (33104, 2150) /* BladeProtectionOther7_SpellID */
-     , (33104, 2156) /* FireProtectionOther7_SpellID */
-     , (33104, 2611) /* CANTRIPFLAMEWARD2_SpellID */
-     , (33104, 2614) /* CANTRIPSLASHINGWARD2_SpellID */;
-

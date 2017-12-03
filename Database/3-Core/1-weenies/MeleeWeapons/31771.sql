@@ -54,34 +54,3 @@ VALUES (31771, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31771, 0, 16777886);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31771, 16, 'Lightning War Axe') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31771, 160, 400) /* WIELD_DIFFICULTY_INT */
-     , (31771, 353, 3) /* WEAPON_TYPE_INT */
-     , (31771, 177, 3) /* GEM_COUNT_INT */
-     , (31771, 178, 21) /* GEM_TYPE_INT */
-     , (31771, 19, 13519) /* VALUE_INT */
-     , (31771, 131, 61) /* MATERIAL_TYPE_INT */
-     , (31771, 5, 371) /* ENCUMB_VAL_INT */
-     , (31771, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (31771, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31771, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (31771, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (31771, 47, 4) /* ATTACK_TYPE_INT */
-     , (31771, 45, 64) /* DAMAGE_TYPE_INT */
-     , (31771, 49, 48) /* WEAPON_TIME_INT */
-     , (31771, 48, 44) /* WEAPON_SKILL_INT */
-     , (31771, 44, 66) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31771, 29, 1.11) /* WEAPON_DEFENSE_FLOAT */
-     , (31771, 22, 0.93) /* DAMAGE_VARIANCE_FLOAT */
-     , (31771, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (31771, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (31771, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (31771, 62, 1.15) /* WEAPON_OFFENSE_FLOAT */;
-

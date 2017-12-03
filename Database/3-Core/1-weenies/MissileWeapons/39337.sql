@@ -53,43 +53,6 @@ VALUES (39337, 0, 83890047, 83890047);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (39337, 0, 16793601);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39337, 16, 'A Mana Phial, filled with an alchemical mixture designed to temporarily weaken the piercing resistance of those coated in the fluid.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39337, 55, 2174) /* PROC_SPELL_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39337, 160, 400) /* WIELD_DIFFICULTY_INT */
-     , (39337, 353, 10) /* WEAPON_TYPE_INT */
-     , (39337, 19, 535000) /* VALUE_INT */
-     , (39337, 5, 535) /* ENCUMB_VAL_INT */
-     , (39337, 106, 520) /* ITEM_SPELLCRAFT_INT */
-     , (39337, 108, 150) /* ITEM_MAX_MANA_INT */
-     , (39337, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (39337, 159, 38) /* WIELD_SKILLTYPE_INT */
-     , (39337, 45, 4) /* DAMAGE_TYPE_INT */
-     , (39337, 49, 5) /* WEAPON_TIME_INT */
-     , (39337, 48, 47) /* WEAPON_SKILL_INT */
-     , (39337, 44, 1) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (39337, 29, 1.14) /* WEAPON_DEFENSE_FLOAT */
-     , (39337, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (39337, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (39337, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (39337, 26, 15) /* MAXIMUM_VELOCITY_FLOAT */
-     , (39337, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39337, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (39337, 2174) /* PiercingVulnerabilityOther7_SpellID */
-     , (39337, 4017) /* SkillThrownWeaponPhialsAccuracy_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -46,31 +46,3 @@ VALUES (29050, 3, 16791961)
      , (29050, 2, 16791961)
      , (29050, 1, 16791963);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29050, 16, 'A fine pair of chain leggings. A reward for service rendered in the Ruschk incursions upon Viamontian lands.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29050, 19, 913) /* VALUE_INT */
-     , (29050, 5, 1404) /* ENCUMB_VAL_INT */
-     , (29050, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (29050, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (29050, 108, 300) /* ITEM_MAX_MANA_INT */
-     , (29050, 28, 170) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29050, 5, -0.049) /* MANA_RATE_FLOAT */
-     , (29050, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (29050, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (29050, 15, 0.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (29050, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (29050, 17, 0.4) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (29050, 18, 0.4) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (29050, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (29050, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (29050, 1483) /* Impenetrability3_SpellID */
-     , (29050, 1526) /* FrostBane4_SpellID */;
-

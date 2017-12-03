@@ -35,14 +35,3 @@ VALUES (30044, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (30044, 1, True) /* STUCK_BOOL */
      , (30044, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30044, 16, 'Scrawled at the bottom of the plaque are the words. "Long live the Stag of Bellenesse!"') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30044, 19, 0) /* VALUE_INT */
-     , (30044, 5, 4000) /* ENCUMB_VAL_INT */
-     , (30044, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (30044, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

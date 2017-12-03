@@ -33,17 +33,6 @@ VALUES (8676, 13, True) /* ETHEREAL_BOOL */
      , (8676, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8676, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8676, 15, 'A book listing Agents of the Society across the land of Dereth') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8676, 19, 0) /* VALUE_INT */
-     , (8676, 5, 10) /* ENCUMB_VAL_INT */
-     , (8676, 174, 11) /* APPRAISAL_PAGES_INT */
-     , (8676, 175, 11) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

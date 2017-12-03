@@ -33,16 +33,6 @@ VALUES (8864, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (8864, 19, True) /* ATTACKABLE_BOOL */
      , (8864, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8864, 14, 'Use this item to open it and see its contents.') /* USE_STRING */
-     , (8864, 15, 'This shelf houses free public copies of the history of Dereth.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8864, 19, 0) /* VALUE_INT */
-     , (8864, 5, 1010) /* ENCUMB_VAL_INT */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

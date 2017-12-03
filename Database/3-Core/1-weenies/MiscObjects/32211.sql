@@ -37,13 +37,3 @@ VALUES (32211, 13, True) /* ETHEREAL_BOOL */
      , (32211, 19, True) /* ATTACKABLE_BOOL */
      , (32211, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32211, 14, 'This item can be used on ceiling and wall hooks.') /* USE_STRING */
-     , (32211, 15, 'A small reflective pumpkin bauble with dancing colored lights around it. Don''t drop it unless you want to lose it. This item will quickly disappear if dropped on the ground -- it will even disappear from inside a pack, if that pack is dropped on the ground.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32211, 19, 5000) /* VALUE_INT */
-     , (32211, 5, 50) /* ENCUMB_VAL_INT */;
-

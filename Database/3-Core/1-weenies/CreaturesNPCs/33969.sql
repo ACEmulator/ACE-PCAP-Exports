@@ -86,36 +86,3 @@ VALUES (33969, 12, 16778423)
      , (33969, 13, 16783871)
      , (33969, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33969, 5, 'Zefir Zapper') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (33969, 16, 67110063) /* EYES_PALETTE_DID */
-     , (33969, 9, 83890275) /* EYES_TEXTURE_DID */
-     , (33969, 17, 67109554) /* SKIN_PALETTE_DID */
-     , (33969, 10, 83890292) /* NOSE_TEXTURE_DID */
-     , (33969, 11, 83890356) /* MOUTH_TEXTURE_DID */
-     , (33969, 15, 67116994) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33969, 113, 2) /* GENDER_INT */
-     , (33969, 2, 31) /* CREATURE_TYPE_INT */
-     , (33969, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (33969, 25, 10) /* LEVEL_INT */
-     , (33969, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (33969, 1, 25) /* STRENGTH_ATTRIBUTE */
-     , (33969, 2, 10) /* ENDURANCE_ATTRIBUTE */
-     , (33969, 4, 30) /* COORDINATION_ATTRIBUTE */
-     , (33969, 8, 30) /* QUICKNESS_ATTRIBUTE */
-     , (33969, 16, 150) /* FOCUS_ATTRIBUTE */
-     , (33969, 32, 100) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33969, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (33969, 128, 40) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (33969, 256, 110) /* MAX_MANA_ATTRIBUTE_2ND */;
-

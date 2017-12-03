@@ -35,17 +35,3 @@ VALUES (2779, 13, True) /* ETHEREAL_BOOL */
      , (2779, 19, True) /* ATTACKABLE_BOOL */
      , (2779, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2779, 16, 'Inscribed spell: Blade Lure IV
-Decreases a shield or piece of armor''s resistance to slashing damage by 75%.') /* LONG_DESC_STRING */
-     , (2779, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2779, 19, 100) /* VALUE_INT */
-     , (2779, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2779, 1555) /* BladeLure4_SpellID */;
-

@@ -34,9 +34,3 @@ VALUES (240, 13, True) /* ETHEREAL_BOOL */
      , (240, 19, True) /* ATTACKABLE_BOOL */
      , (240, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (240, 19, 3226) /* VALUE_INT */
-     , (240, 5, 50) /* ENCUMB_VAL_INT */;
-

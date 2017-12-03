@@ -35,17 +35,3 @@ VALUES (36684, 13, True) /* ETHEREAL_BOOL */
      , (36684, 19, True) /* ATTACKABLE_BOOL */
      , (36684, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36684, 16, 'A pile of gems, coins and other valuables.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36684, 33, 1) /* BONDED_INT */
-     , (36684, 114, 1) /* ATTUNED_INT */
-     , (36684, 19, 100) /* VALUE_INT */
-     , (36684, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36684, 69, 1) /* IS_SELLABLE_BOOL */;
-

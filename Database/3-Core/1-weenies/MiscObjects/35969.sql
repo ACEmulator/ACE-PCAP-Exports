@@ -33,16 +33,6 @@ VALUES (35969, 13, True) /* ETHEREAL_BOOL */
      , (35969, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35969, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35969, 16, 'A basic bone handle carved from an undead thighbone.') /* LONG_DESC_STRING */
-     , (35969, 14, 'Use this handle on a composite atlatl without a handle to make it a useable weapon.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35969, 19, 0) /* VALUE_INT */
-     , (35969, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

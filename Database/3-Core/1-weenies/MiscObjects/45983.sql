@@ -37,20 +37,6 @@ VALUES (45983, 13, True) /* ETHEREAL_BOOL */
      , (45983, 19, True) /* ATTACKABLE_BOOL */
      , (45983, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45983, 14, 'Use this gem on an Explorer Weapon Cast to create a Finesse Weapon.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45983, 33, 1) /* BONDED_INT */
-     , (45983, 114, 1) /* ATTUNED_INT */
-     , (45983, 19, 0) /* VALUE_INT */
-     , (45983, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (45983, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

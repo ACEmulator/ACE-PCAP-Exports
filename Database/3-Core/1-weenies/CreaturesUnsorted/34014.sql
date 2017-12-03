@@ -59,45 +59,6 @@ VALUES (34014, 0, 16793218)
      , (34014, 15, 16789333)
      , (34014, 16, 16793225);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34014, 16, 'Pants of Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34014, 160, 150) /* WIELD_DIFFICULTY_INT */
-     , (34014, 19, 9408) /* VALUE_INT */
-     , (34014, 131, 6) /* MATERIAL_TYPE_INT */
-     , (34014, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (34014, 5, 135) /* ENCUMB_VAL_INT */
-     , (34014, 105, 10) /* ITEM_WORKMANSHIP_INT */
-     , (34014, 106, 305) /* ITEM_SPELLCRAFT_INT */
-     , (34014, 28, 0) /* ARMOR_LEVEL_INT */
-     , (34014, 108, 1401) /* ITEM_MAX_MANA_INT */
-     , (34014, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (34014, 109, 311) /* ITEM_DIFFICULTY_INT */
-     , (34014, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (34014, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (34014, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (34014, 5, -0.05555556) /* MANA_RATE_FLOAT */
-     , (34014, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (34014, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (34014, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (34014, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (34014, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (34014, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (34014, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (34014, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34014, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (34014, 2053) /* ArmorSelf7_SpellID */
-     , (34014, 3833) /* CantripSalvaging1_SpellID */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

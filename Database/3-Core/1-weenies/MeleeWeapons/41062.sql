@@ -41,33 +41,3 @@ VALUES (41062, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (41062, 67116386, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41062, 16, 'Khanda-handled Mace') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41062, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (41062, 353, 11) /* WEAPON_TYPE_INT */
-     , (41062, 19, 405) /* VALUE_INT */
-     , (41062, 131, 75) /* MATERIAL_TYPE_INT */
-     , (41062, 292, 2) /* CLEAVING_INT */
-     , (41062, 5, 590) /* ENCUMB_VAL_INT */
-     , (41062, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (41062, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (41062, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (41062, 159, 41) /* WIELD_SKILLTYPE_INT */
-     , (41062, 47, 4) /* ATTACK_TYPE_INT */
-     , (41062, 45, 4) /* DAMAGE_TYPE_INT */
-     , (41062, 49, 40) /* WEAPON_TIME_INT */
-     , (41062, 48, 41) /* WEAPON_SKILL_INT */
-     , (41062, 44, 17) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (41062, 29, 1.01) /* WEAPON_DEFENSE_FLOAT */
-     , (41062, 22, 0.45) /* DAMAGE_VARIANCE_FLOAT */
-     , (41062, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (41062, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (41062, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (41062, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
-

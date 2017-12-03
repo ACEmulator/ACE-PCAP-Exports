@@ -35,17 +35,3 @@ VALUES (20543, 13, True) /* ETHEREAL_BOOL */
      , (20543, 19, True) /* ATTACKABLE_BOOL */
      , (20543, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20543, 16, 'Inscribed spell: Yoshi''s Blessing
-Increases the caster''s Item Tinkering skill by 40 points.') /* LONG_DESC_STRING */
-     , (20543, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20543, 19, 2000) /* VALUE_INT */
-     , (20543, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20543, 2251) /* ItemExpertiseSelf7_SpellID */;
-

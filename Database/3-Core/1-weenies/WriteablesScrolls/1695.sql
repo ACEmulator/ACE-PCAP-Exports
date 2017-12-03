@@ -35,17 +35,3 @@ VALUES (1695, 13, True) /* ETHEREAL_BOOL */
      , (1695, 19, True) /* ATTACKABLE_BOOL */
      , (1695, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1695, 16, 'Inscribed spell: Deception Mastery Other I
-Increases the target''s Deception skill by 10 points.') /* LONG_DESC_STRING */
-     , (1695, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1695, 19, 1) /* VALUE_INT */
-     , (1695, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1695, 856) /* DeceptionMasteryOther1_SpellID */;
-

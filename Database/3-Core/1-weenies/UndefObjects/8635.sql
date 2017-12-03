@@ -38,27 +38,3 @@ VALUES (8635, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8635, 1, True) /* STUCK_BOOL */
      , (8635, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8635, 16, 'Ring of Magic Resistance') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8635, 19, 5267) /* VALUE_INT */
-     , (8635, 131, 63) /* MATERIAL_TYPE_INT */
-     , (8635, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (8635, 5, 15) /* ENCUMB_VAL_INT */
-     , (8635, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (8635, 106, 272) /* ITEM_SPELLCRAFT_INT */
-     , (8635, 108, 1867) /* ITEM_MAX_MANA_INT */
-     , (8635, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (8635, 109, 278) /* ITEM_DIFFICULTY_INT */
-     , (8635, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8635, 5, -0.05555556) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8635, 279) /* MagicResistanceSelf6_SpellID */
-     , (8635, 2617) /* CANTRIPBLUDGEONINGWARD1_SpellID */;
-

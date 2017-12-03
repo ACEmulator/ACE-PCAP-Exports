@@ -31,17 +31,3 @@ VALUES (29266, 13, True) /* ETHEREAL_BOOL */
      , (29266, 19, True) /* ATTACKABLE_BOOL */
      , (29266, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29266, 16, 'Using this gem will make you receive 25% more material each time you salvage.  You can augment yourself four times in this way, but you will need a new gem for each augmentation.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29266, 33, 1) /* BONDED_INT */
-     , (29266, 114, 1) /* ATTUNED_INT */
-     , (29266, 19, 0) /* VALUE_INT */
-     , (29266, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bigint` (`aceObjectId`, `bigIntPropertyId`, `propertyValue`)
-VALUES (29266, 3, 1000000000) /* AUGMENTATION_COST_INT64 */;
-

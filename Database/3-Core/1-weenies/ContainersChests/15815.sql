@@ -37,22 +37,6 @@ VALUES (15815, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15815, 19, True) /* ATTACKABLE_BOOL */
      , (15815, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15815, 16, 'A chest belonging to Brontynn Marshad.') /* LONG_DESC_STRING */
-     , (15815, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15815, 19, 200) /* VALUE_INT */
-     , (15815, 5, 9050) /* ENCUMB_VAL_INT */
-     , (15815, 38, 5000) /* RESIST_LOCKPICK_INT */
-     , (15815, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (15815, 2, 0) /* OPEN_BOOL */
-     , (15815, 3, 1) /* LOCKED_BOOL */;
-
 /* Chest Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

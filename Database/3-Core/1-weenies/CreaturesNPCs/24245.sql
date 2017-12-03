@@ -84,36 +84,3 @@ VALUES (24245, 2, 16777293)
      , (24245, 11, 16777302)
      , (24245, 16, 16788487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24245, 5, 'Olthoi Fighter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (24245, 16, 67109565) /* EYES_PALETTE_DID */
-     , (24245, 9, 83890447) /* EYES_TEXTURE_DID */
-     , (24245, 17, 67110059) /* SKIN_PALETTE_DID */
-     , (24245, 10, 83890527) /* NOSE_TEXTURE_DID */
-     , (24245, 11, 83890594) /* MOUTH_TEXTURE_DID */
-     , (24245, 15, 67117073) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24245, 113, 1) /* GENDER_INT */
-     , (24245, 2, 31) /* CREATURE_TYPE_INT */
-     , (24245, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24245, 25, 118) /* LEVEL_INT */
-     , (24245, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (24245, 1, 85) /* STRENGTH_ATTRIBUTE */
-     , (24245, 2, 75) /* ENDURANCE_ATTRIBUTE */
-     , (24245, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (24245, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (24245, 16, 160) /* FOCUS_ATTRIBUTE */
-     , (24245, 32, 180) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24245, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24245, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24245, 256, 180) /* MAX_MANA_ATTRIBUTE_2ND */;
-

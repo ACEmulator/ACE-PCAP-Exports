@@ -31,14 +31,3 @@ VALUES (43024, 13, True) /* ETHEREAL_BOOL */
      , (43024, 19, True) /* ATTACKABLE_BOOL */
      , (43024, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43024, 15, 'A silver badge.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43024, 33, 1) /* BONDED_INT */
-     , (43024, 114, 1) /* ATTUNED_INT */
-     , (43024, 19, 0) /* VALUE_INT */
-     , (43024, 5, 10) /* ENCUMB_VAL_INT */;
-

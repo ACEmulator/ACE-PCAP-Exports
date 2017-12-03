@@ -53,27 +53,3 @@ VALUES (48959, 0, 83890064, 83890069);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48959, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48959, 14, 'Use this essence to summon or dismiss your Fire Elemental.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48959, 33, 0) /* BONDED_INT */
-     , (48959, 369, 40) /* USE_REQUIRES_LEVEL_INT */
-     , (48959, 114, 0) /* ATTUNED_INT */
-     , (48959, 19, 4000) /* VALUE_INT */
-     , (48959, 372, 9) /* GEAR_CRIT_INT */
-     , (48959, 5, 50) /* ENCUMB_VAL_INT */
-     , (48959, 280, 213) /* SHARED_COOLDOWN_INT */
-     , (48959, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (48959, 91, 50) /* MAX_STRUCTURE_INT */
-     , (48959, 366, 54) /* USE_REQUIRES_SKILL_INT */
-     , (48959, 367, 310) /* USE_REQUIRES_SKILL_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (48959, 167, 45) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (48959, 69, 1) /* IS_SELLABLE_BOOL */;
-

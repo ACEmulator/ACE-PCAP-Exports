@@ -37,34 +37,3 @@ VALUES (36007, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (36007, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (36007, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36007, 16, 'A shadowy statue of the Hopeslayer.  Near the base of the statue is what appears to be an oddly shaped keyhole.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36007, 384, 0) /*  */
-     , (36007, 370, 0) /* GEAR_DAMAGE_INT */
-     , (36007, 386, 0) /*  */
-     , (36007, 307, 0) /* DAMAGE_RATING_INT */
-     , (36007, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (36007, 387, 0) /*  */
-     , (36007, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (36007, 372, 0) /* GEAR_CRIT_INT */
-     , (36007, 388, 0) /*  */
-     , (36007, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (36007, 389, 0) /*  */
-     , (36007, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (36007, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (36007, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (36007, 313, 0) /* CRIT_RATING_INT */
-     , (36007, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (36007, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (36007, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (36007, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (36007, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (36007, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (36007, 381, 0) /*  */
-     , (36007, 382, 0) /*  */
-     , (36007, 383, 0) /*  */;
-

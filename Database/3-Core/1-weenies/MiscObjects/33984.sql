@@ -33,18 +33,6 @@ VALUES (33984, 13, True) /* ETHEREAL_BOOL */
      , (33984, 14, True) /* GRAVITY_STATUS_BOOL */
      , (33984, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33984, 16, 'A beautifully crafted pearlescent bone handle.') /* LONG_DESC_STRING */
-     , (33984, 14, 'Use this handle on a perfectly crafted Composite Bow or Composite Crossbow to upgrade it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33984, 33, 1) /* BONDED_INT */
-     , (33984, 114, 1) /* ATTUNED_INT */
-     , (33984, 19, 0) /* VALUE_INT */
-     , (33984, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

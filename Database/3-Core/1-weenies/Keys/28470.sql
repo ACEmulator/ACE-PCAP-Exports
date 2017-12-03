@@ -34,16 +34,3 @@ VALUES (28470, 13, True) /* ETHEREAL_BOOL */
      , (28470, 19, True) /* ATTACKABLE_BOOL */
      , (28470, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28470, 16, 'This key was crafted to fit the locks of several special chests within a treasure hold created by High Queen Elysa.') /* LONG_DESC_STRING */
-     , (28470, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28470, 33, 1) /* BONDED_INT */
-     , (28470, 114, 1) /* ATTUNED_INT */
-     , (28470, 19, 0) /* VALUE_INT */
-     , (28470, 5, 150) /* ENCUMB_VAL_INT */
-     , (28470, 91, 1) /* MAX_STRUCTURE_INT */;
-

@@ -33,11 +33,3 @@ VALUES (34020, 13, True) /* ETHEREAL_BOOL */
      , (34020, 19, True) /* ATTACKABLE_BOOL */
      , (34020, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34020, 38, 'Deepest Caves') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34020, 111, 17) /* PORTAL_BITMASK_INT */;
-

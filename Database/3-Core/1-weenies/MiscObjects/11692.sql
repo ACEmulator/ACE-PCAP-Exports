@@ -34,12 +34,3 @@ VALUES (11692, 13, True) /* ETHEREAL_BOOL */
      , (11692, 19, True) /* ATTACKABLE_BOOL */
      , (11692, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11692, 15, 'A few small seeds, found on a Tusker. They do not seem to have any apparent use.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11692, 19, 50) /* VALUE_INT */
-     , (11692, 5, 5) /* ENCUMB_VAL_INT */;
-

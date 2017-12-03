@@ -33,11 +33,3 @@ VALUES (14264, 13, True) /* ETHEREAL_BOOL */
      , (14264, 19, True) /* ATTACKABLE_BOOL */
      , (14264, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14264, 38, 'Helms Villas Portal (22.1N, 0.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14264, 111, 1) /* PORTAL_BITMASK_INT */;
-

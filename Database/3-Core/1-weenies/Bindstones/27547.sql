@@ -37,8 +37,3 @@ VALUES (27547, 11, True) /* IGNORE_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (27547, 67115144, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27547, 14, 'Allegiance monarchs can use this item to set the town recall point for their allegiances.') /* USE_STRING */;
-

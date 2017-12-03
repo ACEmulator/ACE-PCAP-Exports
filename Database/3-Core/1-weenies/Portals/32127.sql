@@ -33,13 +33,3 @@ VALUES (32127, 13, True) /* ETHEREAL_BOOL */
      , (32127, 19, True) /* ATTACKABLE_BOOL */
      , (32127, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32127, 16, 'You must obtain the blessing of the Watcher of the Deep before you may use this portal.') /* LONG_DESC_STRING */
-     , (32127, 38, 'Vissidal Island (79.0N, 58.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32127, 86, 130) /* MIN_LEVEL_INT */
-     , (32127, 111, 49) /* PORTAL_BITMASK_INT */;
-

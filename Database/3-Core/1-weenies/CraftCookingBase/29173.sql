@@ -35,20 +35,6 @@ VALUES (29173, 13, True) /* ETHEREAL_BOOL */
      , (29173, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29173, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29173, 16, 'This is a very fine finished wort with an incredibly pleasing aroma. ') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29173, 33, 0) /* BONDED_INT */
-     , (29173, 114, 0) /* ATTUNED_INT */
-     , (29173, 19, 70) /* VALUE_INT */
-     , (29173, 5, 150) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29173, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -33,24 +33,3 @@ VALUES (48624, 13, True) /* ETHEREAL_BOOL */
      , (48624, 19, True) /* ATTACKABLE_BOOL */
      , (48624, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48624, 16, 'Gem of Endurance') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48624, 19, 1608) /* VALUE_INT */
-     , (48624, 131, 34) /* MATERIAL_TYPE_INT */
-     , (48624, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (48624, 5, 5) /* ENCUMB_VAL_INT */
-     , (48624, 117, 350) /* ITEM_MANA_COST_INT */
-     , (48624, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (48624, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (48624, 108, 584) /* ITEM_MAX_MANA_INT */
-     , (48624, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (48624, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (48624, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (48624, 1354) /* EnduranceSelf6_SpellID */;
-

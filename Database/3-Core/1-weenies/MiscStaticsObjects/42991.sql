@@ -29,12 +29,3 @@ VALUES (42991, 13, True) /* ETHEREAL_BOOL */
      , (42991, 19, True) /* ATTACKABLE_BOOL */
      , (42991, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42991, 16, 'Timaru is the capital city of the Aun Tumeroks who have made peace with the Isparians and their allies. It is located on the Marescent Plateau of Marae Lassel. Sitting atop an even smaller plateau, Aun Firanauri the Gate Keeper vigilantly guards the town, and will not allow entry to anyone who has offended the Aun Xuta.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42991, 19, 125) /* VALUE_INT */
-     , (42991, 5, 9000) /* ENCUMB_VAL_INT */;
-

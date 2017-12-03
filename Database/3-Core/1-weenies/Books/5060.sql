@@ -33,19 +33,6 @@ VALUES (5060, 13, True) /* ETHEREAL_BOOL */
      , (5060, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5060, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5060, 16, 'Jhong Mi''s philosophical musings, hastily written on paper.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5060, 33, 1) /* BONDED_INT */
-     , (5060, 114, 1) /* ATTUNED_INT */
-     , (5060, 19, 0) /* VALUE_INT */
-     , (5060, 5, 25) /* ENCUMB_VAL_INT */
-     , (5060, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (5060, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

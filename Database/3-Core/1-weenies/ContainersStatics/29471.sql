@@ -35,16 +35,3 @@ VALUES (29471, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29471, 19, True) /* ATTACKABLE_BOOL */
      , (29471, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29471, 16, 'The corpse of a Viamontian Knight, a guard in the Viamontian Royal Prison.') /* LONG_DESC_STRING */
-     , (29471, 14, 'Use this item to search it and see its possessions.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29471, 19, 0) /* VALUE_INT */
-     , (29471, 5, 3005) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29471, 2, 0) /* OPEN_BOOL */;
-

@@ -51,31 +51,3 @@ VALUES (8024, 0, 83888861, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8024, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8024, 16, 'An orb imbued with the power of the Shendolain Crystal.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8024, 176, 32) /* APPRAISAL_ITEM_SKILL_INT */
-     , (8024, 114, 1) /* ATTUNED_INT */
-     , (8024, 115, 240) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (8024, 19, 4000) /* VALUE_INT */
-     , (8024, 5, 50) /* ENCUMB_VAL_INT */
-     , (8024, 106, 250) /* ITEM_SPELLCRAFT_INT */
-     , (8024, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (8024, 109, 240) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8024, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (8024, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (8024, 5, -0.05) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8024, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8024, 585) /* ItemEnchantmentMasterySelf5_SpellID */
-     , (8024, 2013) /* WizardsGreaterIntellect_SpellID */
-     , (8024, 560) /* CreatureEnchantmentMasterySelf4_SpellID */;
-

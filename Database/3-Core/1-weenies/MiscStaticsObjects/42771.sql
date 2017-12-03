@@ -29,12 +29,3 @@ VALUES (42771, 13, True) /* ETHEREAL_BOOL */
      , (42771, 19, True) /* ATTACKABLE_BOOL */
      , (42771, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42771, 16, 'A place where less experienced adventurers can find quests more suited to their skills.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42771, 19, 125) /* VALUE_INT */
-     , (42771, 5, 9000) /* ENCUMB_VAL_INT */;
-

@@ -35,17 +35,3 @@ VALUES (2851, 13, True) /* ETHEREAL_BOOL */
      , (2851, 19, True) /* ATTACKABLE_BOOL */
      , (2851, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2851, 16, 'Inscribed spell: Leaden Weapon VI
-Worsens a weapon''s speed by 60 points.') /* LONG_DESC_STRING */
-     , (2851, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2851, 19, 1000) /* VALUE_INT */
-     , (2851, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2851, 1633) /* LeadenWeapon6_SpellID */;
-

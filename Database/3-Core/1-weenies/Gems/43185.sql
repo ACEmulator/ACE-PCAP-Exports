@@ -34,15 +34,6 @@ VALUES (43185, 13, True) /* ETHEREAL_BOOL */
      , (43185, 14, True) /* GRAVITY_STATUS_BOOL */
      , (43185, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43185, 14, 'Turn this gem into an Agent of the Arcanum to be granted fifty million experience.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43185, 19, 20) /* VALUE_INT */
-     , (43185, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -34,17 +34,6 @@ VALUES (8581, 13, True) /* ETHEREAL_BOOL */
      , (8581, 14, True) /* GRAVITY_STATUS_BOOL */
      , (8581, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8581, 15, 'A soggy and damp journal') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8581, 19, 10) /* VALUE_INT */
-     , (8581, 5, 10) /* ENCUMB_VAL_INT */
-     , (8581, 174, 14) /* APPRAISAL_PAGES_INT */
-     , (8581, 175, 14) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

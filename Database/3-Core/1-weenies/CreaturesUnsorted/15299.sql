@@ -32,12 +32,3 @@ VALUES (15299, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (15299, 19, True) /* ATTACKABLE_BOOL */
      , (15299, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15299, 16, 'Killed by Mag-lite.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15299, 19, 0) /* VALUE_INT */
-     , (15299, 5, 6060) /* ENCUMB_VAL_INT */;
-

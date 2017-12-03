@@ -38,15 +38,3 @@ VALUES (43463, 0, 83893723, 83898330)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (43463, 0, 16787203);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43463, 14, 'This token may be traded to Nalicana, the Seer of the Yalain, in Asheron''s Castle, in order to spend 25,000 Luminance for five Luminous Pearls of Blood Drinking. A Luminous Pearl of Blood Drinking, when used, will cast Incantation of Blood Drinker on your equipped weapon.') /* USE_STRING */
-     , (43463, 15, 'A pyreal token marked with intricate runes.  The carvings glow with a faint light.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43463, 33, 1) /* BONDED_INT */
-     , (43463, 114, 1) /* ATTUNED_INT */
-     , (43463, 19, 0) /* VALUE_INT */
-     , (43463, 5, 5) /* ENCUMB_VAL_INT */;
-

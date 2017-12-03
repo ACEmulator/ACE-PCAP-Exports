@@ -47,23 +47,3 @@ VALUES (27774, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (27774, 0, 16778348);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27774, 16, 'An exquisite necklace adorned with thin strings of gold and an array of green, blue, and purple gems.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27774, 19, 1000) /* VALUE_INT */
-     , (27774, 5, 30) /* ENCUMB_VAL_INT */
-     , (27774, 106, 50) /* ITEM_SPELLCRAFT_INT */
-     , (27774, 108, 1000) /* ITEM_MAX_MANA_INT */
-     , (27774, 109, 20) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27774, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27774, 207) /* ManaRenewalOther2_SpellID */
-     , (27774, 160) /* RegenerationOther2_SpellID */
-     , (27774, 184) /* RejuvenationOther2_SpellID */;
-

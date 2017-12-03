@@ -43,32 +43,3 @@ VALUES (12252, 67113397, 240, 16);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12252, 0, 16787332);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12252, 16, 'A Virindi mask taken from the Director of the Singular Obsidian Repository.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12252, 19, 5000) /* VALUE_INT */
-     , (12252, 5, 300) /* ENCUMB_VAL_INT */
-     , (12252, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (12252, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (12252, 28, 120) /* ARMOR_LEVEL_INT */
-     , (12252, 109, 190) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12252, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (12252, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (12252, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (12252, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (12252, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (12252, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (12252, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (12252, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (12252, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (12252, 1485) /* Impenetrability5_SpellID */
-     , (12252, 1425) /* FocusSelf5_SpellID */
-     , (12252, 248) /* InvulnerabilitySelf5_SpellID */;
-

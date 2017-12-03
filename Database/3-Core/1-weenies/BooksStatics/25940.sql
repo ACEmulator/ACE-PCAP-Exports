@@ -35,17 +35,6 @@ VALUES (25940, 13, True) /* ETHEREAL_BOOL */
      , (25940, 19, True) /* ATTACKABLE_BOOL */
      , (25940, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25940, 15, 'A well-written note.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25940, 19, 10) /* VALUE_INT */
-     , (25940, 5, 25) /* ENCUMB_VAL_INT */
-     , (25940, 174, 2) /* APPRAISAL_PAGES_INT */
-     , (25940, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

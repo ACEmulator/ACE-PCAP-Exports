@@ -35,17 +35,3 @@ VALUES (5961, 13, True) /* ETHEREAL_BOOL */
      , (5961, 19, True) /* ATTACKABLE_BOOL */
      , (5961, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5961, 16, 'Inscribed spell: Cooking Mastery Self VI
-Increases the caster''s Cooking skill by 35 points.') /* LONG_DESC_STRING */
-     , (5961, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5961, 19, 1000) /* VALUE_INT */
-     , (5961, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (5961, 1720) /* CookingMasterySelf6_SpellID */;
-

@@ -33,11 +33,3 @@ VALUES (8969, 13, True) /* ETHEREAL_BOOL */
      , (8969, 19, True) /* ATTACKABLE_BOOL */
      , (8969, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8969, 38, 'Beyond the Mines of Despair') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8969, 111, 17) /* PORTAL_BITMASK_INT */;
-

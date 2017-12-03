@@ -84,29 +84,6 @@ VALUES (8433, 10, 16778431)
      , (8433, 4, 16783485)
      , (8433, 8, 16783487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8433, 5, 'Armorer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (8433, 16, 67109565) /* EYES_PALETTE_DID */
-     , (8433, 9, 83890260) /* EYES_TEXTURE_DID */
-     , (8433, 17, 67110056) /* SKIN_PALETTE_DID */
-     , (8433, 10, 83890286) /* NOSE_TEXTURE_DID */
-     , (8433, 11, 83890349) /* MOUTH_TEXTURE_DID */
-     , (8433, 15, 67117027) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8433, 113, 2) /* GENDER_INT */
-     , (8433, 2, 31) /* CREATURE_TYPE_INT */
-     , (8433, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (8433, 25, 17) /* LEVEL_INT */
-     , (8433, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8433, 64, 180) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

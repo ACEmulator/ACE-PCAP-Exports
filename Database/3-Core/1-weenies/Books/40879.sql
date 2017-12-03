@@ -33,19 +33,6 @@ VALUES (40879, 13, True) /* ETHEREAL_BOOL */
      , (40879, 14, True) /* GRAVITY_STATUS_BOOL */
      , (40879, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40879, 16, 'A scrap of paper with a hastily written note on it.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40879, 33, 1) /* BONDED_INT */
-     , (40879, 114, 1) /* ATTUNED_INT */
-     , (40879, 19, 0) /* VALUE_INT */
-     , (40879, 5, 10) /* ENCUMB_VAL_INT */
-     , (40879, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (40879, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

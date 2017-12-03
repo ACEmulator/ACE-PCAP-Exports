@@ -35,17 +35,3 @@ VALUES (20591, 13, True) /* ETHEREAL_BOOL */
      , (20591, 19, True) /* ATTACKABLE_BOOL */
      , (20591, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20591, 16, 'Inscribed spell: Light Weapon Mastery Other VII
-Increases the target''s Light Weapons skill by 40 points.') /* LONG_DESC_STRING */
-     , (20591, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20591, 19, 2000) /* VALUE_INT */
-     , (20591, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20591, 2202) /* AxeMasteryOther7_SpellID */;
-

@@ -40,27 +40,6 @@ VALUES (31001, 13, True) /* ETHEREAL_BOOL */
      , (31001, 19, True) /* ATTACKABLE_BOOL */
      , (31001, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31001, 16, 'This gem is eternal. You can use it as often as you like.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31001, 33, 1) /* BONDED_INT */
-     , (31001, 114, 1) /* ATTUNED_INT */
-     , (31001, 19, 0) /* VALUE_INT */
-     , (31001, 5, 0) /* ENCUMB_VAL_INT */
-     , (31001, 280, 2) /* SHARED_COOLDOWN_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31001, 167, 30) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31001, 63, 1) /* UNLIMITED_USE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31001, 3810) /* AsheronsBenediction_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -48,39 +48,3 @@ VALUES (8363, 0, 83886750, 83886750)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8363, 0, 16777923);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8363, 16, 'A well crafted mace, created by the Society.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8363, 353, 4) /* WEAPON_TYPE_INT */
-     , (8363, 114, 1) /* ATTUNED_INT */
-     , (8363, 19, 700) /* VALUE_INT */
-     , (8363, 5, 750) /* ENCUMB_VAL_INT */
-     , (8363, 106, 100) /* ITEM_SPELLCRAFT_INT */
-     , (8363, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (8363, 109, 15) /* ITEM_DIFFICULTY_INT */
-     , (8363, 47, 4) /* ATTACK_TYPE_INT */
-     , (8363, 45, 4) /* DAMAGE_TYPE_INT */
-     , (8363, 49, 40) /* WEAPON_TIME_INT */
-     , (8363, 48, 44) /* WEAPON_SKILL_INT */
-     , (8363, 44, 30) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8363, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
-     , (8363, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (8363, 5, -0.061) /* MANA_RATE_FLOAT */
-     , (8363, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
-     , (8363, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (8363, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (8363, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (8363, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (8363, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8363, 1613) /* BloodDrinker3_SpellID */
-     , (8363, 1589) /* HeartSeeker3_SpellID */;
-

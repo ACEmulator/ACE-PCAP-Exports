@@ -33,11 +33,3 @@ VALUES (15151, 13, True) /* ETHEREAL_BOOL */
      , (15151, 19, True) /* ATTACKABLE_BOOL */
      , (15151, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15151, 38, 'Devana Portal (1.7S, 33.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15151, 111, 1) /* PORTAL_BITMASK_INT */;
-

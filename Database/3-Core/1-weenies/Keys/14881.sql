@@ -42,19 +42,3 @@ VALUES (14881, 67113796, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (14881, 9, 16785620);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14881, 16, 'A key that shines with virindi energy. The energy is slightly skewed.') /* LONG_DESC_STRING */
-     , (14881, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14881, 33, 1) /* BONDED_INT */
-     , (14881, 114, 1) /* ATTUNED_INT */
-     , (14881, 19, 0) /* VALUE_INT */
-     , (14881, 5, 50) /* ENCUMB_VAL_INT */
-     , (14881, 91, 1) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (14881, 69, 0) /* IS_SELLABLE_BOOL */;
-

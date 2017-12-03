@@ -30,14 +30,3 @@ VALUES (34496, 13, True) /* ETHEREAL_BOOL */
      , (34496, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34496, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34496, 16, 'The crest of this ring depicts a sword ringed in purple fire, with the flames made of artfully layered amethyst shards.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34496, 33, 1) /* BONDED_INT */
-     , (34496, 114, 1) /* ATTUNED_INT */
-     , (34496, 19, 0) /* VALUE_INT */
-     , (34496, 5, 200) /* ENCUMB_VAL_INT */;
-

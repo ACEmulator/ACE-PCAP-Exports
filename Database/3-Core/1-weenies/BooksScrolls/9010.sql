@@ -34,16 +34,3 @@ VALUES (9010, 13, True) /* ETHEREAL_BOOL */
      , (9010, 19, True) /* ATTACKABLE_BOOL */
      , (9010, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9010, 16, 'A magical scroll, covered with runes of the Dericost language. You cannot read the formula, and must bring it to Kuyiza bint Zayi in Zaikhal for translation.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9010, 33, 1) /* BONDED_INT */
-     , (9010, 114, 1) /* ATTUNED_INT */
-     , (9010, 19, 10) /* VALUE_INT */
-     , (9010, 5, 50) /* ENCUMB_VAL_INT */
-     , (9010, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (9010, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

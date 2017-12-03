@@ -91,36 +91,3 @@ VALUES (6889, 12, 16777304)
      , (6889, 8, 16781839)
      , (6889, 16, 16779630);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6889, 5, 'Seneschal of Neydisa') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (6889, 16, 67110063) /* EYES_PALETTE_DID */
-     , (6889, 9, 83890485) /* EYES_TEXTURE_DID */
-     , (6889, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (6889, 10, 83890559) /* NOSE_TEXTURE_DID */
-     , (6889, 11, 83890639) /* MOUTH_TEXTURE_DID */
-     , (6889, 15, 67116990) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6889, 113, 1) /* GENDER_INT */
-     , (6889, 2, 31) /* CREATURE_TYPE_INT */
-     , (6889, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (6889, 25, 17) /* LEVEL_INT */
-     , (6889, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (6889, 1, 90) /* STRENGTH_ATTRIBUTE */
-     , (6889, 2, 50) /* ENDURANCE_ATTRIBUTE */
-     , (6889, 4, 140) /* COORDINATION_ATTRIBUTE */
-     , (6889, 8, 140) /* QUICKNESS_ATTRIBUTE */
-     , (6889, 16, 160) /* FOCUS_ATTRIBUTE */
-     , (6889, 32, 180) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (6889, 64, 25) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (6889, 128, 50) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (6889, 256, 180) /* MAX_MANA_ATTRIBUTE_2ND */;
-

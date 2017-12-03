@@ -47,22 +47,6 @@ VALUES (22881, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22881, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22881, 15, 'A gem of lightning protection VI') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22881, 19, 200) /* VALUE_INT */
-     , (22881, 5, 10) /* ENCUMB_VAL_INT */
-     , (22881, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (22881, 108, 200) /* ITEM_MAX_MANA_INT */
-     , (22881, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (22881, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (22881, 1077) /* LightningProtectionOther6_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

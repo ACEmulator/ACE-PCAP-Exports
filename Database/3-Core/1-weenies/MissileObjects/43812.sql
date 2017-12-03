@@ -37,14 +37,3 @@ VALUES (43812, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43812, 1, True) /* STUCK_BOOL */
      , (43812, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43812, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43812, 19, 5000) /* VALUE_INT */
-     , (43812, 5, 150) /* ENCUMB_VAL_INT */
-     , (43812, 89, 2) /* BOOSTER_ENUM_INT */
-     , (43812, 90, 100) /* BOOST_VALUE_INT */;
-

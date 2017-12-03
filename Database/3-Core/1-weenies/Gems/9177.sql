@@ -76,12 +76,3 @@ VALUES (9177, 0, 16784901)
      , (9177, 11, 16784903)
      , (9177, 12, 16784926);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9177, 16, 'Sure fire fun at parties! Scarecrow... stands there. Amaze your friends with his amazing... standing ability! Watch their envy as their little friends all move around and annoy them while your scarecrow stands silent and proud.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9177, 19, 10) /* VALUE_INT */
-     , (9177, 5, 10) /* ENCUMB_VAL_INT */;
-

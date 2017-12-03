@@ -98,36 +98,3 @@ VALUES (51957, 16, 16795654)
      , (51957, 4, 16781816)
      , (51957, 8, 16781817);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51957, 5, 'Skeleton Stomper') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (51957, 16, 67110062) /* EYES_PALETTE_DID */
-     , (51957, 9, 83890458) /* EYES_TEXTURE_DID */
-     , (51957, 17, 67110061) /* SKIN_PALETTE_DID */
-     , (51957, 10, 83890550) /* NOSE_TEXTURE_DID */
-     , (51957, 11, 83890638) /* MOUTH_TEXTURE_DID */
-     , (51957, 15, 67117019) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51957, 113, 1) /* GENDER_INT */
-     , (51957, 2, 31) /* CREATURE_TYPE_INT */
-     , (51957, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (51957, 25, 200) /* LEVEL_INT */
-     , (51957, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (51957, 1, 255) /* STRENGTH_ATTRIBUTE */
-     , (51957, 2, 220) /* ENDURANCE_ATTRIBUTE */
-     , (51957, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (51957, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (51957, 16, 90) /* FOCUS_ATTRIBUTE */
-     , (51957, 32, 90) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51957, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (51957, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (51957, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
-

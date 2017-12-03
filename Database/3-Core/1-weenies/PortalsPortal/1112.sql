@@ -33,11 +33,3 @@ VALUES (1112, 13, True) /* ETHEREAL_BOOL */
      , (1112, 19, True) /* ATTACKABLE_BOOL */
      , (1112, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1112, 38, 'Isle of Tears Portal (22.5N, 51.9E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1112, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -34,18 +34,3 @@ VALUES (40489, 13, True) /* ETHEREAL_BOOL */
      , (40489, 14, True) /* GRAVITY_STATUS_BOOL */
      , (40489, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40489, 14, 'This item cannot be read, but a scholar of the ways of the Virindi may be able to decode the message contained within.') /* USE_STRING */
-     , (40489, 15, 'A shard of black crystal, recovered from the Apostate Virindi Master.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40489, 33, 1) /* BONDED_INT */
-     , (40489, 114, 1) /* ATTUNED_INT */
-     , (40489, 19, 0) /* VALUE_INT */
-     , (40489, 5, 50) /* ENCUMB_VAL_INT */
-     , (40489, 279, 1) /* UNIQUE_INT */
-     , (40489, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (40489, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-

@@ -35,12 +35,3 @@ VALUES (22712, 0, 83894424, 83894436);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (22712, 0, 16788729);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22712, 16, 'A childlike painting that shows a Tusker with one hand missing fighting against an enormous Monouga.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22712, 19, 125) /* VALUE_INT */
-     , (22712, 5, 9000) /* ENCUMB_VAL_INT */;
-

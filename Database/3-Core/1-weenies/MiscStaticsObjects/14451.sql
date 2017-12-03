@@ -79,12 +79,3 @@ VALUES (14451, 2, 16784629)
      , (14451, 12, 16777334)
      , (14451, 16, 16778407);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14451, 15, 'All your attempts to revive this poor adventurer are to no avail.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14451, 19, 0) /* VALUE_INT */
-     , (14451, 5, 9000) /* ENCUMB_VAL_INT */;
-

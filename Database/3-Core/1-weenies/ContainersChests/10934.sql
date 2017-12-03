@@ -46,24 +46,3 @@ VALUES (10934, 67113157, 0, 0);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (10934, 9, 16785621);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10934, 16, 'A Virindi trove creature, used by their allied raiders among the Hea. It appears to have an outer shell laced with flecks of chorizite ore.') /* LONG_DESC_STRING */
-     , (10934, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10934, 19, 2500) /* VALUE_INT */
-     , (10934, 36, 9999) /* RESIST_MAGIC_INT */
-     , (10934, 5, 12736) /* ENCUMB_VAL_INT */
-     , (10934, 38, 9999) /* RESIST_LOCKPICK_INT */
-     , (10934, 106, 600) /* ITEM_SPELLCRAFT_INT */
-     , (10934, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (10934, 2, 0) /* OPEN_BOOL */
-     , (10934, 3, 0) /* LOCKED_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (10934, 2636) /* KarenuasCurse_SpellID */;
-

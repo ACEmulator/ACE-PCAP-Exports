@@ -28,14 +28,3 @@ VALUES (14566, 13, True) /* ETHEREAL_BOOL */
      , (14566, 19, True) /* ATTACKABLE_BOOL */
      , (14566, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14566, 15, 'This small, faint ember from Aun Aulakhe''s akiekie was born from an ember carried from the heart of Timaru''s council fire. ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14566, 33, 1) /* BONDED_INT */
-     , (14566, 114, 1) /* ATTUNED_INT */
-     , (14566, 19, 0) /* VALUE_INT */
-     , (14566, 5, 10) /* ENCUMB_VAL_INT */;
-

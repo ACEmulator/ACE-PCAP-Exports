@@ -42,18 +42,6 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (28873, 0, 16790866)
      , (28873, 1, 16790870);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28873, 14, 'Use this on a scarecrow torso with either one arm or an arm and two legs.') /* USE_STRING */
-     , (28873, 15, 'A scarecrow arm.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28873, 33, 0) /* BONDED_INT */
-     , (28873, 114, 0) /* ATTUNED_INT */
-     , (28873, 19, 0) /* VALUE_INT */
-     , (28873, 5, 200) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

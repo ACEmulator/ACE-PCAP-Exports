@@ -35,17 +35,3 @@ VALUES (46859, 13, True) /* ETHEREAL_BOOL */
      , (46859, 19, True) /* ATTACKABLE_BOOL */
      , (46859, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46859, 16, 'Inscribed spell: Aura of Spirit Drinker Other VI
-Increases the elemental damage bonus of an elemental magic caster by 6%.') /* LONG_DESC_STRING */
-     , (46859, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46859, 19, 1000) /* VALUE_INT */
-     , (46859, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (46859, 6020) /* spiritdrinkerOther6_SpellID */;
-

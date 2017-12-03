@@ -32,9 +32,3 @@ VALUES (11556, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11556, 19, True) /* ATTACKABLE_BOOL */
      , (11556, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11556, 19, 0) /* VALUE_INT */
-     , (11556, 5, 6660) /* ENCUMB_VAL_INT */;
-

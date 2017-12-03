@@ -36,5 +36,3 @@ VALUES (22120, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22120, 67111341, 0, 0);
 
-/* Extended Appraisal Data */
-

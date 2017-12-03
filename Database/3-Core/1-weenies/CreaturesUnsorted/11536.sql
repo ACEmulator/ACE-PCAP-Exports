@@ -35,20 +35,6 @@ VALUES (11536, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (11536, 19, True) /* ATTACKABLE_BOOL */
      , (11536, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11536, 16, 'Inscribed spell: Storm''s Boon
-Reduces damage the target takes from Lightning by 65%.') /* LONG_DESC_STRING */
-     , (11536, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11536, 19, 2000) /* VALUE_INT */
-     , (11536, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (11536, 2158) /* LightningProtectionOther7_SpellID */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

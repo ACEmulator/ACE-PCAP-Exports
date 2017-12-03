@@ -50,20 +50,6 @@ VALUES (21069, 0, 83890064, 83894153);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21069, 0, 16777882);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21069, 14, 'Apply this material to a treasure-generated weapon or magic-casting implement to imbue the target with Fire Rending. Fire Rending gives the weapon the ability to make its opponent vulnerable to fire attacks. The amount of vulnerability depends on the attack skill of the wielder. This effect does not stack with Fire Vulnerability spells. ') /* USE_STRING */
-     , (21069, 15, 'Chips of red garnet material salvaged from old items.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21069, 33, 1) /* BONDED_INT */
-     , (21069, 131, 35) /* MATERIAL_TYPE_INT */
-     , (21069, 19, 9553) /* VALUE_INT */
-     , (21069, 5, 100) /* ENCUMB_VAL_INT */
-     , (21069, 105, 75) /* ITEM_WORKMANSHIP_INT */
-     , (21069, 170, 12) /* NUM_ITEMS_IN_MATERIAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

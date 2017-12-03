@@ -46,12 +46,3 @@ VALUES (33352, 0, 83886719, 83886719);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (33352, 0, 16778348);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33352, 16, 'A dark gem that pulses with an ancient rage.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33352, 19, 500) /* VALUE_INT */
-     , (33352, 5, 100) /* ENCUMB_VAL_INT */;
-

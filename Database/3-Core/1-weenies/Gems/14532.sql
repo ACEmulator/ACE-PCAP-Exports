@@ -47,16 +47,6 @@ VALUES (14532, 0, 16784246)
      , (14532, 1, 16784196)
      , (14532, 2, 16784180);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14532, 16, 'A fragment taken from an ice prism.') /* LONG_DESC_STRING */
-     , (14532, 14, 'Combine with the Craftable Prism of Fire.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14532, 19, 0) /* VALUE_INT */
-     , (14532, 5, 40) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

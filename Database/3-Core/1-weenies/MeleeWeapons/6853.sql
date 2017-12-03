@@ -44,28 +44,3 @@ VALUES (6853, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (6853, 67111926, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6853, 16, 'Magnificently crafted Aquamarine Rapier , set with 6 Rubies') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6853, 353, 2) /* WEAPON_TYPE_INT */
-     , (6853, 131, 13) /* MATERIAL_TYPE_INT */
-     , (6853, 19, 13549) /* VALUE_INT */
-     , (6853, 5, 450) /* ENCUMB_VAL_INT */
-     , (6853, 105, 5) /* ITEM_WORKMANSHIP_INT */
-     , (6853, 47, 160) /* ATTACK_TYPE_INT */
-     , (6853, 45, 3) /* DAMAGE_TYPE_INT */
-     , (6853, 49, 30) /* WEAPON_TIME_INT */
-     , (6853, 48, 44) /* WEAPON_SKILL_INT */
-     , (6853, 44, 12) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (6853, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (6853, 22, 0.5) /* DAMAGE_VARIANCE_FLOAT */
-     , (6853, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (6853, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (6853, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (6853, 62, 1.077352) /* WEAPON_OFFENSE_FLOAT */;
-

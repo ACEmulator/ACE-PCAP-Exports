@@ -34,16 +34,3 @@ VALUES (11321, 13, True) /* ETHEREAL_BOOL */
      , (11321, 19, True) /* ATTACKABLE_BOOL */
      , (11321, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11321, 16, 'The key to the Tumerok Spear Vault') /* LONG_DESC_STRING */
-     , (11321, 14, 'Use this item to open the Tumerok Spear Vault') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11321, 33, 1) /* BONDED_INT */
-     , (11321, 114, 1) /* ATTUNED_INT */
-     , (11321, 19, 0) /* VALUE_INT */
-     , (11321, 5, 50) /* ENCUMB_VAL_INT */
-     , (11321, 91, 1) /* MAX_STRUCTURE_INT */;
-

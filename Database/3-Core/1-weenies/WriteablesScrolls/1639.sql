@@ -35,17 +35,3 @@ VALUES (1639, 13, True) /* ETHEREAL_BOOL */
      , (1639, 19, True) /* ATTACKABLE_BOOL */
      , (1639, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1639, 16, 'Inscribed spell: Force Bolt I
-Shoots a bolt of force at the target. The bolt does 16-31 points of piercing damage to the first thing it hits.') /* LONG_DESC_STRING */
-     , (1639, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1639, 19, 1) /* VALUE_INT */
-     , (1639, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1639, 86) /* ForceBolt1_SpellID */;
-

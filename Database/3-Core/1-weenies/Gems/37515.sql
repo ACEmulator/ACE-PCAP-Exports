@@ -35,13 +35,3 @@ VALUES (37515, 13, True) /* ETHEREAL_BOOL */
      , (37515, 19, True) /* ATTACKABLE_BOOL */
      , (37515, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37515, 16, 'A miniature doll of Aerbax - once a valued member of the Virindi Singularity who split from it and gradually began to realize its own independence.  Its research culminated in the discovery of a Kemeroi, one of the great evil beings hidden deep within the world, which further twisted it towards Shadow and destruction.  Aerbax hatched a plot to dominate the creatures of Auberean by crafting prodigal versions of several selected different races.  Aerbax''s shadow has now been sundered from it, but Aerbax still exists and may one day again attempt to guide the course of history from afar.') /* LONG_DESC_STRING */
-     , (37515, 14, 'The Pack Aerbax can be placed on floor and yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37515, 19, 0) /* VALUE_INT */
-     , (37515, 5, 10) /* ENCUMB_VAL_INT */;
-

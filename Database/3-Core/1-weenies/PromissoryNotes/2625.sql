@@ -34,13 +34,6 @@ VALUES (2625, 13, True) /* ETHEREAL_BOOL */
      , (2625, 14, True) /* GRAVITY_STATUS_BOOL */
      , (2625, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2625, 33, 1) /* BONDED_INT */
-     , (2625, 19, 10000) /* VALUE_INT */
-     , (2625, 5, 1) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

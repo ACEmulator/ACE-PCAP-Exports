@@ -35,17 +35,3 @@ VALUES (2857, 13, True) /* ETHEREAL_BOOL */
      , (2857, 19, True) /* ATTACKABLE_BOOL */
      , (2857, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (2857, 16, 'Inscribed spell: Lightning Lure II
-Decreases a shield or piece of armor''s resistance to electric damage by 25%.') /* LONG_DESC_STRING */
-     , (2857, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2857, 19, 5) /* VALUE_INT */
-     , (2857, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (2857, 1530) /* LightningLure2_SpellID */;
-

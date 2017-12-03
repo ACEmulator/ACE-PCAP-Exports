@@ -35,17 +35,3 @@ VALUES (3465, 13, True) /* ETHEREAL_BOOL */
      , (3465, 19, True) /* ATTACKABLE_BOOL */
      , (3465, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3465, 16, 'Inscribed spell: Magic Resistance Other IV
-Increases the target''s Magic Defense skill by 25 points.') /* LONG_DESC_STRING */
-     , (3465, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3465, 19, 100) /* VALUE_INT */
-     , (3465, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3465, 271) /* MagicResistanceOther4_SpellID */;
-

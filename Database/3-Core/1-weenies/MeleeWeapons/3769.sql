@@ -40,34 +40,3 @@ VALUES (3769, 13, True) /* ETHEREAL_BOOL */
      , (3769, 19, True) /* ATTACKABLE_BOOL */
      , (3769, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3769, 16, 'Frost Club') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3769, 160, 300) /* WIELD_DIFFICULTY_INT */
-     , (3769, 353, 4) /* WEAPON_TYPE_INT */
-     , (3769, 177, 1) /* GEM_COUNT_INT */
-     , (3769, 178, 34) /* GEM_TYPE_INT */
-     , (3769, 19, 722) /* VALUE_INT */
-     , (3769, 131, 76) /* MATERIAL_TYPE_INT */
-     , (3769, 5, 320) /* ENCUMB_VAL_INT */
-     , (3769, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (3769, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3769, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (3769, 159, 45) /* WIELD_SKILLTYPE_INT */
-     , (3769, 47, 4) /* ATTACK_TYPE_INT */
-     , (3769, 45, 8) /* DAMAGE_TYPE_INT */
-     , (3769, 49, 40) /* WEAPON_TIME_INT */
-     , (3769, 48, 45) /* WEAPON_SKILL_INT */
-     , (3769, 44, 30) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (3769, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (3769, 22, 0.32) /* DAMAGE_VARIANCE_FLOAT */
-     , (3769, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (3769, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (3769, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3769, 62, 1.04) /* WEAPON_OFFENSE_FLOAT */;
-

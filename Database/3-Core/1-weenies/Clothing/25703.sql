@@ -47,27 +47,3 @@ VALUES (25703, 0, 83887061, 83894859)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25703, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25703, 15, 'A suit designed by the Gharu''ndim tailor, Xuut. The fibers of the suit look as though they could withstand the dyeing process.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25703, 19, 5000) /* VALUE_INT */
-     , (25703, 5, 500) /* ENCUMB_VAL_INT */
-     , (25703, 28, 0) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25703, 13, 0.1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25703, 14, 0.1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25703, 15, 0.1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25703, 16, 0.1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25703, 17, 0.1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25703, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25703, 19, 0.1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25703, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25703, 100, 1) /* DYABLE_BOOL */
-     , (25703, 69, 0) /* IS_SELLABLE_BOOL */;
-

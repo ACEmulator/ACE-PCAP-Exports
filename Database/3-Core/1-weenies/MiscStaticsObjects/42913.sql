@@ -29,12 +29,3 @@ VALUES (42913, 13, True) /* ETHEREAL_BOOL */
      , (42913, 19, True) /* ATTACKABLE_BOOL */
      , (42913, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42913, 16, 'The statues of Ispar were used as decorations to inspire loyalty in the depicted, awe towards the sculpter, or praise for the people at-large. This is not always the case in Dereth where statues often inspire nothing more but trips to the lifestone. Many statues in Dereth act as guardians, whether intended or not, and often strike adventurers on sight with brutal physical assaults and some can even unleash devastating magical spells.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42913, 19, 125) /* VALUE_INT */
-     , (42913, 5, 9000) /* ENCUMB_VAL_INT */;
-

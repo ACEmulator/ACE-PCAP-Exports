@@ -35,17 +35,3 @@ VALUES (20509, 13, True) /* ETHEREAL_BOOL */
      , (20509, 19, True) /* ATTACKABLE_BOOL */
      , (20509, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20509, 16, 'Inscribed spell: Missile Weapon Mastery Self VII
-Increases the caster''s Missile Weapons skill by 40 points.') /* LONG_DESC_STRING */
-     , (20509, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20509, 19, 2000) /* VALUE_INT */
-     , (20509, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (20509, 2207) /* BowMasterySelf7_SpellID */;
-

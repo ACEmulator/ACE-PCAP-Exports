@@ -48,39 +48,3 @@ VALUES (24363, 0, 83887061, 83894614)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (24363, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24363, 16, 'Silken raiment woven together to be worn over the entirety of the body. Simple clasps allow for the item to be cinched along the front.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24363, 160, 120) /* WIELD_DIFFICULTY_INT */
-     , (24363, 19, 5000) /* VALUE_INT */
-     , (24363, 5, 800) /* ENCUMB_VAL_INT */
-     , (24363, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (24363, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (24363, 28, 0) /* ARMOR_LEVEL_INT */
-     , (24363, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (24363, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (24363, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (24363, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (24363, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (24363, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (24363, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (24363, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (24363, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (24363, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (24363, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (24363, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (24363, 100, 1) /* DYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (24363, 2052) /* ArmorOther7_SpellID */
-     , (24363, 2571) /* CANTRIPARMOR2_SpellID */
-     , (24363, 2574) /* CANTRIPFOCUS2_SpellID */
-     , (24363, 2066) /* FocusOther7_SpellID */;
-

@@ -33,13 +33,3 @@ VALUES (15715, 13, True) /* ETHEREAL_BOOL */
      , (15715, 19, True) /* ATTACKABLE_BOOL */
      , (15715, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15715, 14, 'This flower can be added to a vase to make a lovely floral arrangement for a house.') /* USE_STRING */
-     , (15715, 15, 'A bright yellow sunflower. Breathing the ethereal fragrance from this blossom, you are suddenly nostalgic for the grassy meadows of Ispar.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15715, 19, 100) /* VALUE_INT */
-     , (15715, 5, 10) /* ENCUMB_VAL_INT */;
-

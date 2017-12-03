@@ -85,39 +85,6 @@ VALUES (38460, 12, 16777304)
      , (38460, 14, 16783855)
      , (38460, 16, 16778476);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38460, 5, 'Mana Forge Vendor') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38460, 16, 67110062) /* EYES_PALETTE_DID */
-     , (38460, 9, 83890457) /* EYES_TEXTURE_DID */
-     , (38460, 17, 67109552) /* SKIN_PALETTE_DID */
-     , (38460, 10, 83890541) /* NOSE_TEXTURE_DID */
-     , (38460, 11, 83890654) /* MOUTH_TEXTURE_DID */
-     , (38460, 15, 67116999) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38460, 113, 1) /* GENDER_INT */
-     , (38460, 2, 31) /* CREATURE_TYPE_INT */
-     , (38460, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38460, 25, 180) /* LEVEL_INT */
-     , (38460, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38460, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (38460, 2, 290) /* ENDURANCE_ATTRIBUTE */
-     , (38460, 4, 250) /* COORDINATION_ATTRIBUTE */
-     , (38460, 8, 200) /* QUICKNESS_ATTRIBUTE */
-     , (38460, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (38460, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38460, 64, 341) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38460, 128, 486) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38460, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

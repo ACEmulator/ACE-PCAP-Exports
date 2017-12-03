@@ -35,13 +35,3 @@ VALUES (43519, 13, True) /* ETHEREAL_BOOL */
      , (43519, 19, True) /* ATTACKABLE_BOOL */
      , (43519, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43519, 14, 'Use this key on the prison cells.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43519, 19, 100) /* VALUE_INT */
-     , (43519, 5, 50) /* ENCUMB_VAL_INT */
-     , (43519, 91, 2) /* MAX_STRUCTURE_INT */;
-

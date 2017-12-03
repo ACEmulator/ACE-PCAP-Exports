@@ -37,16 +37,6 @@ VALUES (32944, 13, True) /* ETHEREAL_BOOL */
      , (32944, 19, True) /* ATTACKABLE_BOOL */
      , (32944, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32944, 16, 'A small glyph representing change.') /* LONG_DESC_STRING */
-     , (32944, 14, 'Use this glyph on a pyreal mote to create a stamped Pyreal Glyph.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32944, 19, 5000) /* VALUE_INT */
-     , (32944, 5, 10) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

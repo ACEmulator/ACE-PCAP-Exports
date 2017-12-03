@@ -33,12 +33,3 @@ VALUES (8388, 13, True) /* ETHEREAL_BOOL */
      , (8388, 19, True) /* ATTACKABLE_BOOL */
      , (8388, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8388, 38, 'Direlands Northwest Shore Portal (5.8N, 91.0W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8388, 86, 25) /* MIN_LEVEL_INT */
-     , (8388, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -35,21 +35,6 @@ VALUES (11451, 13, True) /* ETHEREAL_BOOL */
      , (11451, 19, True) /* ATTACKABLE_BOOL */
      , (11451, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11451, 16, 'A double totem representing two of the animas found on Palenqual. ') /* LONG_DESC_STRING */
-     , (11451, 14, 'Use a totem of Audetaunga on this double totem to create Palenqual''s Triple Totem of the Heights.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11451, 33, 0) /* BONDED_INT */
-     , (11451, 114, 0) /* ATTUNED_INT */
-     , (11451, 19, 0) /* VALUE_INT */
-     , (11451, 5, 200) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11451, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

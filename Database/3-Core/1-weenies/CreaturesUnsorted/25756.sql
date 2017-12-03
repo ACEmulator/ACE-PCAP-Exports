@@ -36,28 +36,6 @@ VALUES (25756, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (25756, 19, True) /* ATTACKABLE_BOOL */
      , (25756, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25756, 5, 'Snow Guard') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25756, 2, 39) /* CREATURE_TYPE_INT */
-     , (25756, 25, 60) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (25756, 1, 300) /* STRENGTH_ATTRIBUTE */
-     , (25756, 2, 300) /* ENDURANCE_ATTRIBUTE */
-     , (25756, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (25756, 8, 300) /* QUICKNESS_ATTRIBUTE */
-     , (25756, 16, 300) /* FOCUS_ATTRIBUTE */
-     , (25756, 32, 300) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25756, 64, 650) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (25756, 128, 370) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (25756, 256, 500) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -40,29 +40,3 @@ VALUES (11757, 0, 83893725, 83893725)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (11757, 0, 16787138);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11757, 16, 'A hafted, symbol tipped banner with a Falcon on it.  It is somewhat tattered, and the colors seem to be washed out.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11757, 33, 1) /* BONDED_INT */
-     , (11757, 114, 1) /* ATTUNED_INT */
-     , (11757, 19, 0) /* VALUE_INT */
-     , (11757, 5, 400) /* ENCUMB_VAL_INT */
-     , (11757, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (11757, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (11757, 109, 60) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (11757, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (11757, 29, 1.17) /* WEAPON_DEFENSE_FLOAT */
-     , (11757, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11757, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (11757, 656) /* ManaMasterySelf4_SpellID */
-     , (11757, 985) /* SprintSelf4_SpellID */;
-

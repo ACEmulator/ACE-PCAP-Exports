@@ -34,17 +34,6 @@ VALUES (9614, 13, True) /* ETHEREAL_BOOL */
      , (9614, 14, True) /* GRAVITY_STATUS_BOOL */
      , (9614, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9614, 16, 'A requisition form addressed to Larry.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9614, 19, 1) /* VALUE_INT */
-     , (9614, 5, 2) /* ENCUMB_VAL_INT */
-     , (9614, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (9614, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

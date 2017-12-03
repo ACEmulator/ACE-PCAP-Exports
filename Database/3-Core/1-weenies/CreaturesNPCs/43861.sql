@@ -76,26 +76,3 @@ VALUES (43861, 0, 16794661)
      , (43861, 15, 16794672)
      , (43861, 16, 16794673);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43861, 5, 'Umbral High King') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43861, 2, 22) /* CREATURE_TYPE_INT */
-     , (43861, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43861, 25, 615) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (43861, 1, 600) /* STRENGTH_ATTRIBUTE */
-     , (43861, 2, 620) /* ENDURANCE_ATTRIBUTE */
-     , (43861, 4, 300) /* COORDINATION_ATTRIBUTE */
-     , (43861, 8, 400) /* QUICKNESS_ATTRIBUTE */
-     , (43861, 16, 400) /* FOCUS_ATTRIBUTE */
-     , (43861, 32, 400) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43861, 64, 20000) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (43861, 128, 5000) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (43861, 256, 3000) /* MAX_MANA_ATTRIBUTE_2ND */;
-

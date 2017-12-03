@@ -37,22 +37,6 @@ VALUES (10959, 13, True) /* ETHEREAL_BOOL */
      , (10959, 19, True) /* ATTACKABLE_BOOL */
      , (10959, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (10959, 16, 'A wheel of spicy cheese, guaranteed to make your lips numb. This wonderous dairy product was a favorite of the Empyrean Talespinner Mistral Tersicor, who was fond of saying, "Cheese makes a gathering."') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (10959, 19, 800) /* VALUE_INT */
-     , (10959, 5, 50) /* ENCUMB_VAL_INT */
-     , (10959, 106, 50) /* ITEM_SPELLCRAFT_INT */
-     , (10959, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (10959, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (10959, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (10959, 1035) /* ColdProtectionSelf6_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

@@ -34,13 +34,3 @@ VALUES (42156, 13, True) /* ETHEREAL_BOOL */
      , (42156, 19, True) /* ATTACKABLE_BOOL */
      , (42156, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42156, 16, 'A portal leading a cottage near Dryreach where Yu Vuo-Ki and her missing sister Dansha-Ki may be found.') /* LONG_DESC_STRING */
-     , (42156, 38, 'Dryreach (8.5S, 73.3E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42156, 86, 40) /* MIN_LEVEL_INT */
-     , (42156, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -38,16 +38,6 @@ VALUES (11812, 13, True) /* ETHEREAL_BOOL */
      , (11812, 19, True) /* ATTACKABLE_BOOL */
      , (11812, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11812, 16, 'A Falcon Crest.') /* LONG_DESC_STRING */
-     , (11812, 14, 'You can combine this with a hafted Falcon Banner.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11812, 19, 0) /* VALUE_INT */
-     , (11812, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

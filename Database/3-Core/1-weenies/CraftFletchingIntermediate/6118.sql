@@ -37,16 +37,6 @@ VALUES (6118, 13, True) /* ETHEREAL_BOOL */
      , (6118, 14, True) /* GRAVITY_STATUS_BOOL */
      , (6118, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6118, 16, 'A loose pile of straight, sturdy short sticks.') /* LONG_DESC_STRING */
-     , (6118, 14, 'This item is used in fletching.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6118, 19, 5) /* VALUE_INT */
-     , (6118, 5, 0) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

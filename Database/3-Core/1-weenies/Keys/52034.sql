@@ -36,14 +36,3 @@ VALUES (52034, 13, True) /* ETHEREAL_BOOL */
      , (52034, 19, True) /* ATTACKABLE_BOOL */
      , (52034, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52034, 16, 'This key will open the Exquisite Casino Chest in any of the casinos. The employee who dropped this is certainly in a heap of trouble.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52034, 17, 73) /* RARE_ID_INT */
-     , (52034, 19, 0) /* VALUE_INT */
-     , (52034, 5, 5) /* ENCUMB_VAL_INT */
-     , (52034, 91, 25) /* MAX_STRUCTURE_INT */;
-

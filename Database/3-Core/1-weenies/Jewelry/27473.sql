@@ -37,29 +37,3 @@ VALUES (27473, 13, True) /* ETHEREAL_BOOL */
      , (27473, 19, True) /* ATTACKABLE_BOOL */
      , (27473, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27473, 16, 'A ring crafted for use by Commander Kamenua of the Renegade army.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27473, 160, 200) /* WIELD_DIFFICULTY_INT */
-     , (27473, 19, 8000) /* VALUE_INT */
-     , (27473, 5, 15) /* ENCUMB_VAL_INT */
-     , (27473, 106, 350) /* ITEM_SPELLCRAFT_INT */
-     , (27473, 108, 600) /* ITEM_MAX_MANA_INT */
-     , (27473, 109, 150) /* ITEM_DIFFICULTY_INT */
-     , (27473, 158, 4) /* WIELD_REQUIREMENTS_INT */
-     , (27473, 159, 5) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (27473, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27473, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (27473, 466) /* BowMasteryOther6_SpellID */
-     , (27473, 1317) /* ArmorOther6_SpellID */
-     , (27473, 568) /* CreatureEnchantmentMasteryOther6_SpellID */;
-

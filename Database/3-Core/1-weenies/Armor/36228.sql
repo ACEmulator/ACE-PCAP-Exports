@@ -41,29 +41,3 @@ VALUES (36228, 0, 83897761, 83897761);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36228, 0, 16793694);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36228, 16, 'A shield made of the remnants of many Coral Golems. It appears to be held together by some sort of viscous water that offers protection against most types of damage.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36228, 160, 50) /* WIELD_DIFFICULTY_INT */
-     , (36228, 19, 7213) /* VALUE_INT */
-     , (36228, 5, 378) /* ENCUMB_VAL_INT */
-     , (36228, 28, 196) /* ARMOR_LEVEL_INT */
-     , (36228, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (36228, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36228, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (36228, 14, 0.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (36228, 15, 1.8) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (36228, 16, 2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (36228, 17, 2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (36228, 18, 2) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (36228, 19, 0.4) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (36228, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36228, 69, 0) /* IS_SELLABLE_BOOL */;
-

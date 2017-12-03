@@ -35,17 +35,3 @@ VALUES (41296, 13, True) /* ETHEREAL_BOOL */
      , (41296, 19, True) /* ATTACKABLE_BOOL */
      , (41296, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41296, 16, 'Inscribed spell: Two Handed Combat Ineptitude Other I
-Decreases the target''s Two Handed Combat skill by 10 points.') /* LONG_DESC_STRING */
-     , (41296, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41296, 19, 1) /* VALUE_INT */
-     , (41296, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (41296, 5075) /* twohandedineptitude1_SpellID */;
-

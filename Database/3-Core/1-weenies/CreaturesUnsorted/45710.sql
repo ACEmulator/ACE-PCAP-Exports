@@ -60,12 +60,3 @@ VALUES (45710, 2, 16792634)
      , (45710, 14, 16792635)
      , (45710, 16, 16792637);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45710, 16, 'Killed by Eternal Eclipse.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45710, 19, 0) /* VALUE_INT */
-     , (45710, 5, 6080) /* ENCUMB_VAL_INT */;
-

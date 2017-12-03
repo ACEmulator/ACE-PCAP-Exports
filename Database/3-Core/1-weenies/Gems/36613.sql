@@ -36,20 +36,6 @@ VALUES (36613, 13, True) /* ETHEREAL_BOOL */
      , (36613, 19, True) /* ATTACKABLE_BOOL */
      , (36613, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36613, 16, 'A message shard retrieved from the corpse of the Virindi, Demerax the Sculptor.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36613, 33, 1) /* BONDED_INT */
-     , (36613, 114, 1) /* ATTUNED_INT */
-     , (36613, 19, 0) /* VALUE_INT */
-     , (36613, 5, 20) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36613, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

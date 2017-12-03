@@ -61,26 +61,3 @@ VALUES (12749, 0, 16779440)
      , (12749, 7, 16777708)
      , (12749, 8, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12749, 14, 'Use Oil of Rendering on this weapon to create an Academy Light Cross Bow.') /* USE_STRING */
-     , (12749, 15, 'A basic light crossbow forged in the Strathelar Training Academy. This item can be used on an item hook.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12749, 353, 9) /* WEAPON_TYPE_INT */
-     , (12749, 19, 25) /* VALUE_INT */
-     , (12749, 5, 300) /* ENCUMB_VAL_INT */
-     , (12749, 45, 0) /* DAMAGE_TYPE_INT */
-     , (12749, 49, 70) /* WEAPON_TIME_INT */
-     , (12749, 48, 47) /* WEAPON_SKILL_INT */
-     , (12749, 44, 0) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12749, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (12749, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (12749, 63, 0.8) /* DAMAGE_MOD_FLOAT */
-     , (12749, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (12749, 26, 22.5) /* MAXIMUM_VELOCITY_FLOAT */
-     , (12749, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

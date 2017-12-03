@@ -34,13 +34,3 @@ VALUES (42162, 13, True) /* ETHEREAL_BOOL */
      , (42162, 19, True) /* ATTACKABLE_BOOL */
      , (42162, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42162, 16, 'A portal leading to Frest Greelving''s now haunted mansion where Silver Atlatl, Tetsubo Slugger and Ornate Neckode may be found.') /* LONG_DESC_STRING */
-     , (42162, 38, 'Haunted Mansion (6.0N, 43.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42162, 86, 30) /* MIN_LEVEL_INT */
-     , (42162, 111, 49) /* PORTAL_BITMASK_INT */;
-

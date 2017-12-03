@@ -48,19 +48,6 @@ VALUES (7940, 0, 83888789, 83888789)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (7940, 0, 16778735);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7940, 16, 'Empty Flask') /* LONG_DESC_STRING */
-     , (7940, 14, 'Use this item on a well.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7940, 19, 1) /* VALUE_INT */
-     , (7940, 131, 1) /* MATERIAL_TYPE_INT */
-     , (7940, 5, 10) /* ENCUMB_VAL_INT */
-     , (7940, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (7940, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

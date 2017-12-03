@@ -34,17 +34,6 @@ VALUES (26490, 13, True) /* ETHEREAL_BOOL */
      , (26490, 14, True) /* GRAVITY_STATUS_BOOL */
      , (26490, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (26490, 16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (26490, 19, 5) /* VALUE_INT */
-     , (26490, 5, 5) /* ENCUMB_VAL_INT */
-     , (26490, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (26490, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

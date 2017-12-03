@@ -33,18 +33,6 @@ VALUES (5847, 13, True) /* ETHEREAL_BOOL */
      , (5847, 19, True) /* ATTACKABLE_BOOL */
      , (5847, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5847, 16, 'Written transcription of Dericostian runes discovered on a Standing Stone near Neydisa Castle. The runes appear to be cut off, as if most of the message were missing.') /* LONG_DESC_STRING */
-     , (5847, 14, 'To use this item, find the other pieces.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5847, 33, 1) /* BONDED_INT */
-     , (5847, 114, 1) /* ATTUNED_INT */
-     , (5847, 19, 20) /* VALUE_INT */
-     , (5847, 5, 25) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

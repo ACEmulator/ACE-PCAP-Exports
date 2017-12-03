@@ -38,16 +38,3 @@ VALUES (11698, 13, True) /* ETHEREAL_BOOL */
      , (11698, 1, True) /* STUCK_BOOL */
      , (11698, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11698, 16, 'This hook is owned by Ripley. ') /* LONG_DESC_STRING */
-     , (11698, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11698, 19, 10) /* VALUE_INT */
-     , (11698, 5, 5) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (11698, 2, 0) /* OPEN_BOOL */;
-

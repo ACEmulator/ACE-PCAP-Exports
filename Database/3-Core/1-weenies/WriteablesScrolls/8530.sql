@@ -35,19 +35,3 @@ VALUES (8530, 13, True) /* ETHEREAL_BOOL */
      , (8530, 19, True) /* ATTACKABLE_BOOL */
      , (8530, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8530, 16, 'Inscribed spell: Recall the Sanctuary
-Transports the caster to the Ithaenc Cathedral.') /* LONG_DESC_STRING */
-     , (8530, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8530, 33, 1) /* BONDED_INT */
-     , (8530, 114, 1) /* ATTUNED_INT */
-     , (8530, 19, 2500) /* VALUE_INT */
-     , (8530, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (8530, 2023) /* SanctuaryRecall_SpellID */;
-

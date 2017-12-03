@@ -38,28 +38,3 @@ VALUES (28398, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (28398, 67114955, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28398, 16, 'A pair of earings made from the tears of the priestess Jvikti Kheval.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28398, 160, 100) /* WIELD_DIFFICULTY_INT */
-     , (28398, 19, 7500) /* VALUE_INT */
-     , (28398, 5, 50) /* ENCUMB_VAL_INT */
-     , (28398, 106, 275) /* ITEM_SPELLCRAFT_INT */
-     , (28398, 108, 800) /* ITEM_MAX_MANA_INT */
-     , (28398, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (28398, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (28398, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (28398, 5, -0.033333) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (28398, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (28398, 3405) /* GiftoftheFiazhat_SpellID */
-     , (28398, 3434) /* EyesBeyondtheMist_SpellID */;
-

@@ -39,16 +39,6 @@ VALUES (5778, 13, True) /* ETHEREAL_BOOL */
      , (5778, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5778, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5778, 16, 'A small, plain knife for whittling.') /* LONG_DESC_STRING */
-     , (5778, 14, 'This item is used in fletching.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5778, 19, 25) /* VALUE_INT */
-     , (5778, 5, 50) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

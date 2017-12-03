@@ -50,33 +50,3 @@ VALUES (25373, 0, 83889679, 83889679);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25373, 0, 16789517);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25373, 16, 'Teeming with power, this triangle seems to be carved perfectly, if it was carved at all. Instead it seems to be a perfect pyramid of power.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25373, 160, 40) /* WIELD_DIFFICULTY_INT */
-     , (25373, 33, 1) /* BONDED_INT */
-     , (25373, 114, 1) /* ATTUNED_INT */
-     , (25373, 19, 0) /* VALUE_INT */
-     , (25373, 5, 300) /* ENCUMB_VAL_INT */
-     , (25373, 106, 200) /* ITEM_SPELLCRAFT_INT */
-     , (25373, 108, 1200) /* ITEM_MAX_MANA_INT */
-     , (25373, 109, 100) /* ITEM_DIFFICULTY_INT */
-     , (25373, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (25373, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25373, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
-     , (25373, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (25373, 5, -0.033) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25373, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (25373, 2627) /* CANTRIPMANAGAIN1_SpellID */
-     , (25373, 2542) /* CANTRIPCREATUREENCHANTMENTAPTITUDE1_SpellID */
-     , (25373, 2551) /* CANTRIPITEMENCHANTMENTAPTITUDE1_SpellID */;
-

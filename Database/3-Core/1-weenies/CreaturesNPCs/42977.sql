@@ -78,26 +78,3 @@ VALUES (42977, 16, 16795638)
      , (42977, 13, 16791903)
      , (42977, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42977, 5, 'Coordinator') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42977, 16, 67110064) /* EYES_PALETTE_DID */
-     , (42977, 9, 83890495) /* EYES_TEXTURE_DID */
-     , (42977, 17, 67115901) /* SKIN_PALETTE_DID */
-     , (42977, 10, 83890551) /* NOSE_TEXTURE_DID */
-     , (42977, 11, 83890639) /* MOUTH_TEXTURE_DID */
-     , (42977, 15, 67117078) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42977, 113, 1) /* GENDER_INT */
-     , (42977, 2, 31) /* CREATURE_TYPE_INT */
-     , (42977, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (42977, 25, 15) /* LEVEL_INT */
-     , (42977, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42977, 64, 65) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

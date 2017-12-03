@@ -48,18 +48,6 @@ VALUES (12711, 0, 83890051, 83890051)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12711, 0, 16783327);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12711, 14, 'Use this oil on a Training Weapon to create an Academy Weapon.') /* USE_STRING */
-     , (12711, 15, 'A small green bottle filled with a dark viscous substance. This oil was specially prepared for the Training Academy to enhance the quality of their weapons.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12711, 33, 1) /* BONDED_INT */
-     , (12711, 114, 1) /* ATTUNED_INT */
-     , (12711, 19, 0) /* VALUE_INT */
-     , (12711, 5, 5) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

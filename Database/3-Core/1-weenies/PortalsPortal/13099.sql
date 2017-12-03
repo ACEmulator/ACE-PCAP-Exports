@@ -33,11 +33,3 @@ VALUES (13099, 13, True) /* ETHEREAL_BOOL */
      , (13099, 19, True) /* ATTACKABLE_BOOL */
      , (13099, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13099, 38, 'Dry Bone Manors Portal (29.5S, 18.8E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13099, 111, 1) /* PORTAL_BITMASK_INT */;
-

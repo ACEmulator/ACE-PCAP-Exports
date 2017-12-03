@@ -37,21 +37,6 @@ VALUES (37559, 13, True) /* ETHEREAL_BOOL */
      , (37559, 14, True) /* GRAVITY_STATUS_BOOL */
      , (37559, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37559, 14, 'This may be used as currency with the Royal Quartermaster.') /* USE_STRING */
-     , (37559, 15, 'This blue paper is embossed with an official seal which denotes that the bearer is entitled to goods vended by the Royal Quartermaster based in Samsur.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37559, 33, 1) /* BONDED_INT */
-     , (37559, 114, 1) /* ATTUNED_INT */
-     , (37559, 19, 1) /* VALUE_INT */
-     , (37559, 5, 1) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (37559, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

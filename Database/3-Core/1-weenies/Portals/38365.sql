@@ -33,12 +33,3 @@ VALUES (38365, 13, True) /* ETHEREAL_BOOL */
      , (38365, 19, True) /* ATTACKABLE_BOOL */
      , (38365, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38365, 38, 'Moarsmen Priory') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38365, 86, 180) /* MIN_LEVEL_INT */
-     , (38365, 111, 49) /* PORTAL_BITMASK_INT */;
-

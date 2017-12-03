@@ -33,12 +33,3 @@ VALUES (14502, 13, True) /* ETHEREAL_BOOL */
      , (14502, 19, True) /* ATTACKABLE_BOOL */
      , (14502, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14502, 38, 'Lower Empyrean Lightning Cistern') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14502, 86, 50) /* MIN_LEVEL_INT */
-     , (14502, 111, 49) /* PORTAL_BITMASK_INT */;
-

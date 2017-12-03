@@ -35,16 +35,3 @@ VALUES (32934, 13, True) /* ETHEREAL_BOOL */
      , (32934, 19, True) /* ATTACKABLE_BOOL */
      , (32934, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32934, 16, 'A simple key with lots of little nibble marks on it.') /* LONG_DESC_STRING */
-     , (32934, 14, 'Use this item on a locked door or chest to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32934, 33, 1) /* BONDED_INT */
-     , (32934, 114, 1) /* ATTUNED_INT */
-     , (32934, 19, 3) /* VALUE_INT */
-     , (32934, 5, 20) /* ENCUMB_VAL_INT */
-     , (32934, 91, 1) /* MAX_STRUCTURE_INT */;
-

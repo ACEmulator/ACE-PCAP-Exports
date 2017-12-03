@@ -46,27 +46,3 @@ VALUES (25982, 0, 83887064, 83895024)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (25982, 0, 16778829);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25982, 16, 'Loose pants originally used to protect the legs from carenzi while running like a mite through Marae Lassal.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25982, 114, 1) /* ATTUNED_INT */
-     , (25982, 19, 13000) /* VALUE_INT */
-     , (25982, 5, 50) /* ENCUMB_VAL_INT */
-     , (25982, 28, 0) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25982, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (25982, 14, 1) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (25982, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (25982, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (25982, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (25982, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (25982, 19, 1) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (25982, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25982, 100, 1) /* DYABLE_BOOL */;
-

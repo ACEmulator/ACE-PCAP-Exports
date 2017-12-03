@@ -35,17 +35,3 @@ VALUES (21101, 13, True) /* ETHEREAL_BOOL */
      , (21101, 19, True) /* ATTACKABLE_BOOL */
      , (21101, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21101, 16, 'Inscribed spell: Martyr''s Hecatomb VII
-Drains one-quarter of the caster''s health into a bolt of energy.  When struck by the bolt, the target''s health is reduced by 200% of the amount drained.') /* LONG_DESC_STRING */
-     , (21101, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21101, 19, 2000) /* VALUE_INT */
-     , (21101, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (21101, 2766) /* HealthBolt7_SpellID */;
-

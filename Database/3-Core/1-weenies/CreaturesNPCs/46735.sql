@@ -98,16 +98,3 @@ VALUES (46735, 0, 16777294)
      , (46735, 12, 16796687)
      , (46735, 16, 16796806);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46735, 5, 'Recruiter of Souls') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46735, 2, 77) /* CREATURE_TYPE_INT */
-     , (46735, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (46735, 25, 275) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46735, 64, 17410) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

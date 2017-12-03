@@ -33,11 +33,3 @@ VALUES (12544, 13, True) /* ETHEREAL_BOOL */
      , (12544, 19, True) /* ATTACKABLE_BOOL */
      , (12544, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12544, 38, 'Serpent Hills Settlement Portal (50.5S, 11.7E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12544, 111, 1) /* PORTAL_BITMASK_INT */;
-

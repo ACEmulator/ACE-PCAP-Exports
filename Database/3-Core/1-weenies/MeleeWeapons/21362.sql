@@ -50,36 +50,3 @@ VALUES (21362, 0, 83888778, 83888778);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (21362, 0, 16777936);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (21362, 16, 'A staff crafted from low-quality chorizite, seemingly impervious to magical protections. (Note: This weapon ignores modified armor and protection values.)') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (21362, 160, 250) /* WIELD_DIFFICULTY_INT */
-     , (21362, 33, 1) /* BONDED_INT */
-     , (21362, 353, 7) /* WEAPON_TYPE_INT */
-     , (21362, 114, 1) /* ATTUNED_INT */
-     , (21362, 19, 2000) /* VALUE_INT */
-     , (21362, 36, 9999) /* RESIST_MAGIC_INT */
-     , (21362, 5, 450) /* ENCUMB_VAL_INT */
-     , (21362, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (21362, 47, 6) /* ATTACK_TYPE_INT */
-     , (21362, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (21362, 45, 4) /* DAMAGE_TYPE_INT */
-     , (21362, 49, 20) /* WEAPON_TIME_INT */
-     , (21362, 48, 44) /* WEAPON_SKILL_INT */
-     , (21362, 44, 70) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (21362, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (21362, 22, 0.3) /* DAMAGE_VARIANCE_FLOAT */
-     , (21362, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (21362, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (21362, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (21362, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (21362, 99, 1) /* IVORYABLE_BOOL */
-     , (21362, 69, 0) /* IS_SELLABLE_BOOL */;
-

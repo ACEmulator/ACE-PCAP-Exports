@@ -35,35 +35,3 @@ VALUES (25500, 13, True) /* ETHEREAL_BOOL */
      , (25500, 19, True) /* ATTACKABLE_BOOL */
      , (25500, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25500, 16, 'Lancet') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25500, 160, 350) /* WIELD_DIFFICULTY_INT */
-     , (25500, 353, 6) /* WEAPON_TYPE_INT */
-     , (25500, 177, 1) /* GEM_COUNT_INT */
-     , (25500, 178, 21) /* GEM_TYPE_INT */
-     , (25500, 19, 5739) /* VALUE_INT */
-     , (25500, 131, 60) /* MATERIAL_TYPE_INT */
-     , (25500, 5, 159) /* ENCUMB_VAL_INT */
-     , (25500, 105, 8) /* ITEM_WORKMANSHIP_INT */
-     , (25500, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (25500, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (25500, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (25500, 47, 160) /* ATTACK_TYPE_INT */
-     , (25500, 45, 3) /* DAMAGE_TYPE_INT */
-     , (25500, 49, 20) /* WEAPON_TIME_INT */
-     , (25500, 48, 46) /* WEAPON_SKILL_INT */
-     , (25500, 44, 18) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25500, 29, 1.15) /* WEAPON_DEFENSE_FLOAT */
-     , (25500, 150, 1.015) /* WEAPON_MAGIC_DEFENSE_FLOAT */
-     , (25500, 22, 0.4) /* DAMAGE_VARIANCE_FLOAT */
-     , (25500, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (25500, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (25500, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (25500, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
-

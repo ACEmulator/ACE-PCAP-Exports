@@ -36,15 +36,6 @@ VALUES (5338, 13, True) /* ETHEREAL_BOOL */
      , (5338, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5338, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5338, 14, 'This item is used in alchemy.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5338, 19, 700) /* VALUE_INT */
-     , (5338, 5, 325) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

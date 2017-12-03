@@ -35,38 +35,6 @@ VALUES (42040, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (42040, 19, True) /* ATTACKABLE_BOOL */
      , (42040, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42040, 15, 'A pile of blackened and corrupted bones with a glint of gold inside.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42040, 384, 0) /*  */
-     , (42040, 370, 0) /* GEAR_DAMAGE_INT */
-     , (42040, 386, 0) /*  */
-     , (42040, 307, 0) /* DAMAGE_RATING_INT */
-     , (42040, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (42040, 387, 0) /*  */
-     , (42040, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (42040, 372, 0) /* GEAR_CRIT_INT */
-     , (42040, 388, 0) /*  */
-     , (42040, 5, 2) /* ENCUMB_VAL_INT */
-     , (42040, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (42040, 389, 0) /*  */
-     , (42040, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (42040, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (42040, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (42040, 313, 0) /* CRIT_RATING_INT */
-     , (42040, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (42040, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (42040, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (42040, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (42040, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (42040, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (42040, 381, 0) /*  */
-     , (42040, 382, 0) /*  */
-     , (42040, 383, 0) /*  */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

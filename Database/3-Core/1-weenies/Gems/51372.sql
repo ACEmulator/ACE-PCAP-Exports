@@ -49,25 +49,6 @@ VALUES (51372, 0, 83890391, 83890391);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (51372, 0, 16779181);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51372, 14, 'Double Click on this portal gem to transport yourself to the Frozen Valley.') /* USE_STRING */
-     , (51372, 15, 'A gem teeming with portal energy. ') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51372, 33, 0) /* BONDED_INT */
-     , (51372, 114, 0) /* ATTUNED_INT */
-     , (51372, 19, 0) /* VALUE_INT */
-     , (51372, 5, 40) /* ENCUMB_VAL_INT */
-     , (51372, 106, 210) /* ITEM_SPELLCRAFT_INT */
-     , (51372, 108, 70) /* ITEM_MAX_MANA_INT */
-     , (51372, 109, 10) /* ITEM_DIFFICULTY_INT */
-     , (51372, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (51372, 6147) /* PortalSendingIceValley_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

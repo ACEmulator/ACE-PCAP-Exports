@@ -37,14 +37,3 @@ VALUES (47953, 13, True) /* ETHEREAL_BOOL */
      , (47953, 19, True) /* ATTACKABLE_BOOL */
      , (47953, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (47953, 14, 'Use this item to drink it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (47953, 19, 5000) /* VALUE_INT */
-     , (47953, 5, 150) /* ENCUMB_VAL_INT */
-     , (47953, 89, 2) /* BOOSTER_ENUM_INT */
-     , (47953, 90, 100) /* BOOST_VALUE_INT */;
-

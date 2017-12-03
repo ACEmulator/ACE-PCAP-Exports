@@ -45,31 +45,3 @@ VALUES (22080, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (22080, 67111925, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22080, 16, 'Made from a metal alloy and carbonized iron. This staff once belonged to an ancient group of acolytes who possessed magical powers.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22080, 176, 34) /* APPRAISAL_ITEM_SKILL_INT */
-     , (22080, 33, 1) /* BONDED_INT */
-     , (22080, 114, 1) /* ATTUNED_INT */
-     , (22080, 115, 270) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (22080, 19, 12000) /* VALUE_INT */
-     , (22080, 117, 150) /* ITEM_MANA_COST_INT */
-     , (22080, 5, 50) /* ENCUMB_VAL_INT */
-     , (22080, 106, 325) /* ITEM_SPELLCRAFT_INT */
-     , (22080, 108, 3600) /* ITEM_MAX_MANA_INT */
-     , (22080, 109, 50) /* ITEM_DIFFICULTY_INT */
-     , (22080, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (22080, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (22080, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (22080, 99, 1) /* IVORYABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (22080, 2814) /* ImpiousCurse_SpellID */;
-

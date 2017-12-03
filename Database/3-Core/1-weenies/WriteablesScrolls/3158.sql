@@ -35,17 +35,3 @@ VALUES (3158, 13, True) /* ETHEREAL_BOOL */
      , (3158, 19, True) /* ATTACKABLE_BOOL */
      , (3158, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3158, 16, 'Inscribed spell: Light Weapon Ineptitude Other II
-Decreases the target''s Light Weapons skill by 15 points.') /* LONG_DESC_STRING */
-     , (3158, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3158, 19, 5) /* VALUE_INT */
-     , (3158, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3158, 305) /* AxeIneptitudeOther2_SpellID */;
-

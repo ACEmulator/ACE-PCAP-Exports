@@ -33,12 +33,3 @@ VALUES (45721, 13, True) /* ETHEREAL_BOOL */
      , (45721, 19, True) /* ATTACKABLE_BOOL */
      , (45721, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45721, 38, 'Charged Refuge') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45721, 86, 150) /* MIN_LEVEL_INT */
-     , (45721, 111, 49) /* PORTAL_BITMASK_INT */;
-

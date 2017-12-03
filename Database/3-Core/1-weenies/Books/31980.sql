@@ -34,16 +34,3 @@ VALUES (31980, 13, True) /* ETHEREAL_BOOL */
      , (31980, 19, True) /* ATTACKABLE_BOOL */
      , (31980, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31980, 16, 'Part of a journal belonging to Geowulf the Stonehearted.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31980, 33, 1) /* BONDED_INT */
-     , (31980, 114, 1) /* ATTUNED_INT */
-     , (31980, 19, 0) /* VALUE_INT */
-     , (31980, 5, 50) /* ENCUMB_VAL_INT */
-     , (31980, 174, 3) /* APPRAISAL_PAGES_INT */
-     , (31980, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
-

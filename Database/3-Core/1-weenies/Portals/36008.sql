@@ -33,13 +33,3 @@ VALUES (36008, 13, True) /* ETHEREAL_BOOL */
      , (36008, 19, True) /* ATTACKABLE_BOOL */
      , (36008, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36008, 16, 'This portal coruscates with strange energies, filling you with an eerie warmth when you get close to it, even though it doesn''t seem to radiate any actual heat.') /* LONG_DESC_STRING */
-     , (36008, 38, 'Prodigal Shadow Child''s Lair') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36008, 86, 140) /* MIN_LEVEL_INT */
-     , (36008, 111, 49) /* PORTAL_BITMASK_INT */;
-

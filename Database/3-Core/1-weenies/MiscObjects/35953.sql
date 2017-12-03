@@ -32,18 +32,3 @@ VALUES (35953, 13, True) /* ETHEREAL_BOOL */
      , (35953, 19, True) /* ATTACKABLE_BOOL */
      , (35953, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35953, 16, 'A small token proving your contribution in the defeat of Dark Bobo.') /* LONG_DESC_STRING */
-     , (35953, 14, 'Turn this in to Jilna Fullgood for the title Prodigal Tusker Slayer.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35953, 33, 1) /* BONDED_INT */
-     , (35953, 114, 1) /* ATTUNED_INT */
-     , (35953, 19, 10) /* VALUE_INT */
-     , (35953, 5, 10) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (35953, 69, 0) /* IS_SELLABLE_BOOL */;
-

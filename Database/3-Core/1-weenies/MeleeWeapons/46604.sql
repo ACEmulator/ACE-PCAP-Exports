@@ -50,17 +50,3 @@ VALUES (46604, 0, 83897334, 83897334)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (46604, 0, 16794240);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46604, 16, 'Inscribed spell: Eye of the Grunt
-Decreases the target''s Weapon Tinkering skill by 40 points.') /* LONG_DESC_STRING */
-     , (46604, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46604, 19, 2000) /* VALUE_INT */
-     , (46604, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (46604, 2326) /* WeaponIgnoranceOther7_SpellID */;
-

@@ -84,23 +84,3 @@ VALUES (44023, 0, 16795543)
      , (44023, 15, 16795541)
      , (44023, 16, 16795542);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44023, 2, 101) /* CREATURE_TYPE_INT */
-     , (44023, 307, 5) /* DAMAGE_RATING_INT */
-     , (44023, 25, 200) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (44023, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (44023, 2, 220) /* ENDURANCE_ATTRIBUTE */
-     , (44023, 4, 220) /* COORDINATION_ATTRIBUTE */
-     , (44023, 8, 220) /* QUICKNESS_ATTRIBUTE */
-     , (44023, 16, 220) /* FOCUS_ATTRIBUTE */
-     , (44023, 32, 250) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (44023, 64, 2610) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (44023, 128, 3220) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (44023, 256, 2250) /* MAX_MANA_ATTRIBUTE_2ND */;
-

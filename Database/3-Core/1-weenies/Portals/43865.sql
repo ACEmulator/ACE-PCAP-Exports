@@ -32,12 +32,3 @@ VALUES (43865, 13, True) /* ETHEREAL_BOOL */
      , (43865, 19, True) /* ATTACKABLE_BOOL */
      , (43865, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43865, 38, 'The Shadows') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43865, 86, 200) /* MIN_LEVEL_INT */
-     , (43865, 111, 1) /* PORTAL_BITMASK_INT */;
-

@@ -34,17 +34,3 @@ VALUES (25972, 13, True) /* ETHEREAL_BOOL */
      , (25972, 19, True) /* ATTACKABLE_BOOL */
      , (25972, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25972, 16, 'A skeleton key used to open the gate at the top of the bulwark north west of Zaikhal.') /* LONG_DESC_STRING */
-     , (25972, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25972, 19, 0) /* VALUE_INT */
-     , (25972, 5, 100) /* ENCUMB_VAL_INT */
-     , (25972, 91, 3) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (25972, 69, 0) /* IS_SELLABLE_BOOL */;
-

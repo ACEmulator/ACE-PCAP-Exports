@@ -33,12 +33,3 @@ VALUES (42848, 13, True) /* ETHEREAL_BOOL */
      , (42848, 19, True) /* ATTACKABLE_BOOL */
      , (42848, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42848, 16, 'This portal goes to the town of Kara, hidden deep in the Linvak range. This is a good town for characters over level 40.') /* LONG_DESC_STRING */
-     , (42848, 38, 'Portal to Kara (83.5S, 47.6E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42848, 111, 1) /* PORTAL_BITMASK_INT */;
-

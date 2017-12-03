@@ -32,39 +32,3 @@ VALUES (31394, 13, True) /* ETHEREAL_BOOL */
      , (31394, 19, True) /* ATTACKABLE_BOOL */
      , (31394, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31394, 15, 'A sinister looking crown previously held by Archon Greis of the Order of the Raven Hand.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31394, 160, 100) /* WIELD_DIFFICULTY_INT */
-     , (31394, 19, 3000) /* VALUE_INT */
-     , (31394, 5, 300) /* ENCUMB_VAL_INT */
-     , (31394, 106, 350) /* ITEM_SPELLCRAFT_INT */
-     , (31394, 108, 3000) /* ITEM_MAX_MANA_INT */
-     , (31394, 28, 320) /* ARMOR_LEVEL_INT */
-     , (31394, 109, 200) /* ITEM_DIFFICULTY_INT */
-     , (31394, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (31394, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31394, 5, -0.025) /* MANA_RATE_FLOAT */
-     , (31394, 13, 1) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (31394, 14, 2) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (31394, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (31394, 16, 1) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (31394, 17, 1) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (31394, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (31394, 19, 2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (31394, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (31394, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (31394, 279) /* MagicResistanceSelf6_SpellID */
-     , (31394, 3821) /* AugursWill_SpellID */
-     , (31394, 3822) /* AugursGlare_SpellID */
-     , (31394, 3823) /* AugursWard_SpellID */;
-

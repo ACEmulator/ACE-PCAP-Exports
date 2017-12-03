@@ -52,16 +52,3 @@ VALUES (12222, 0, 83893135, 83893135)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (12222, 0, 16787433);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (12222, 16, 'A wand with a shrunken mosswart head on it.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12222, 19, 75) /* VALUE_INT */
-     , (12222, 5, 150) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (12222, 144, 0) /* MANA_CONVERSION_MOD_FLOAT */
-     , (12222, 29, 1) /* WEAPON_DEFENSE_FLOAT */;
-

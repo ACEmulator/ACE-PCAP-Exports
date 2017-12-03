@@ -33,12 +33,3 @@ VALUES (27585, 13, True) /* ETHEREAL_BOOL */
      , (27585, 19, True) /* ATTACKABLE_BOOL */
      , (27585, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27585, 38, 'Olthoi Warrior Nest') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27585, 86, 70) /* MIN_LEVEL_INT */
-     , (27585, 111, 49) /* PORTAL_BITMASK_INT */;
-

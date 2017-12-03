@@ -31,22 +31,6 @@ VALUES (41540, 13, True) /* ETHEREAL_BOOL */
      , (41540, 14, True) /* GRAVITY_STATUS_BOOL */
      , (41540, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41540, 16, 'A piece of Aetherium Ore taken from the Gear Knight invasion area in the northern Direlands.') /* LONG_DESC_STRING */
-     , (41540, 14, 'Bring 10 of these to T''ing Douzen for a reward.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41540, 33, 1) /* BONDED_INT */
-     , (41540, 114, 1) /* ATTUNED_INT */
-     , (41540, 19, 0) /* VALUE_INT */
-     , (41540, 5, 150) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (41540, 99, 0) /* IVORYABLE_BOOL */
-     , (41540, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

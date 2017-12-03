@@ -45,34 +45,3 @@ VALUES (36041, 9, 83890028, 83890027);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36041, 9, 16780702);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36041, 15, 'A hollowed out tree trunk that has a Phyntos Wasp Hive in it.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36041, 384, 0) /*  */
-     , (36041, 370, 0) /* GEAR_DAMAGE_INT */
-     , (36041, 386, 0) /*  */
-     , (36041, 307, 0) /* DAMAGE_RATING_INT */
-     , (36041, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (36041, 387, 0) /*  */
-     , (36041, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (36041, 372, 0) /* GEAR_CRIT_INT */
-     , (36041, 388, 0) /*  */
-     , (36041, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (36041, 389, 0) /*  */
-     , (36041, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (36041, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (36041, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (36041, 313, 0) /* CRIT_RATING_INT */
-     , (36041, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (36041, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (36041, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (36041, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (36041, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (36041, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (36041, 381, 0) /*  */
-     , (36041, 382, 0) /*  */
-     , (36041, 383, 0) /*  */;
-

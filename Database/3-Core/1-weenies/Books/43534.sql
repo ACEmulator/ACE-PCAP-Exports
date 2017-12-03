@@ -34,23 +34,6 @@ VALUES (43534, 13, True) /* ETHEREAL_BOOL */
      , (43534, 14, True) /* GRAVITY_STATUS_BOOL */
      , (43534, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43534, 16, 'A large tome, detailing the effects of Luminance and the Paths of the Empyrean.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43534, 33, 0) /* BONDED_INT */
-     , (43534, 114, 0) /* ATTUNED_INT */
-     , (43534, 19, 50) /* VALUE_INT */
-     , (43534, 5, 100) /* ENCUMB_VAL_INT */
-     , (43534, 174, 30) /* APPRAISAL_PAGES_INT */
-     , (43534, 175, 30) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (43534, 99, 0) /* IVORYABLE_BOOL */
-     , (43534, 69, 1) /* IS_SELLABLE_BOOL */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

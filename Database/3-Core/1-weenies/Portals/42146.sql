@@ -34,13 +34,3 @@ VALUES (42146, 13, True) /* ETHEREAL_BOOL */
      , (42146, 19, True) /* ATTACKABLE_BOOL */
      , (42146, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42146, 16, 'A portal leading to near the Abandoned Tumerok Site outside Redspire where the Harvester Pincer may be found.') /* LONG_DESC_STRING */
-     , (42146, 38, 'Abandoned Tumerok Site (41.9N, 82.2W).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42146, 86, 15) /* MIN_LEVEL_INT */
-     , (42146, 111, 49) /* PORTAL_BITMASK_INT */;
-

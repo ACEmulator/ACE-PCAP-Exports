@@ -36,13 +36,3 @@ VALUES (36914, 13, True) /* ETHEREAL_BOOL */
      , (36914, 19, True) /* ATTACKABLE_BOOL */
      , (36914, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36914, 16, 'A pile of present boxes. All glued shut to preserve the mystery.') /* LONG_DESC_STRING */
-     , (36914, 14, 'This item may be placed on floor and yard hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36914, 19, 200000) /* VALUE_INT */
-     , (36914, 5, 9000) /* ENCUMB_VAL_INT */;
-

@@ -46,34 +46,3 @@ VALUES (36048, 0, 83893781, 83893781);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36048, 0, 16793736);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36048, 16, 'This mask was fashioned for its wielder from the defeated essence of Aerbax left within Claude the Archmage. While it lacks in physical form, it radiates magical power beyond most articles of clothing or armor you have encountered.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36048, 19, 8000) /* VALUE_INT */
-     , (36048, 5, 100) /* ENCUMB_VAL_INT */
-     , (36048, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (36048, 108, 3000) /* ITEM_MAX_MANA_INT */
-     , (36048, 28, 180) /* ARMOR_LEVEL_INT */
-     , (36048, 109, 220) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36048, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (36048, 13, 0.6) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (36048, 14, 0.6) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (36048, 15, 0.6) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (36048, 16, 1.5) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (36048, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (36048, 18, 1.5) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (36048, 19, 1.5) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (36048, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (36048, 2059) /* CoordinationSelf7_SpellID */
-     , (36048, 2574) /* CANTRIPFOCUS2_SpellID */
-     , (36048, 2067) /* FocusSelf7_SpellID */
-     , (36048, 2287) /* ManaMasterySelf7_SpellID */
-     , (36048, 4215) /* ShadowArmor_SpellID */;
-

@@ -52,35 +52,3 @@ VALUES (6061, 0, 83887061, 83892348)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (6061, 0, 16778367);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (6061, 16, 'An icy blue robe, worn by the Gelidites of Frore when they walked the living world. This artifact is several millennia old.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6061, 114, 0) /* ATTUNED_INT */
-     , (6061, 19, 1350) /* VALUE_INT */
-     , (6061, 5, 675) /* ENCUMB_VAL_INT */
-     , (6061, 106, 150) /* ITEM_SPELLCRAFT_INT */
-     , (6061, 108, 360) /* ITEM_MAX_MANA_INT */
-     , (6061, 28, 0) /* ARMOR_LEVEL_INT */
-     , (6061, 109, 50) /* ITEM_DIFFICULTY_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (6061, 5, -0.1) /* MANA_RATE_FLOAT */
-     , (6061, 13, 0.8) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (6061, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (6061, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (6061, 16, 0.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (6061, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (6061, 18, 0.1) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (6061, 19, 0.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (6061, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (6061, 85, 1) /* APPRAISAL_HAS_ALLOWED_WIELDER_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (6061, 1549) /* FlameBane3_SpellID */
-     , (6061, 1518) /* FrostLure2_SpellID */;
-

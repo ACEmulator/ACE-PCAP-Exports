@@ -35,12 +35,3 @@ VALUES (846, 0, 83891180, 83891181);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (846, 0, 16782236);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (846, 16, 'Bowyer Zhofon') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (846, 19, 125) /* VALUE_INT */
-     , (846, 5, 9000) /* ENCUMB_VAL_INT */;
-

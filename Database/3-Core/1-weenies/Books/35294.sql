@@ -34,17 +34,6 @@ VALUES (35294, 13, True) /* ETHEREAL_BOOL */
      , (35294, 14, True) /* GRAVITY_STATUS_BOOL */
      , (35294, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35294, 16, 'A list of items that Asheron needs to construct his new guardian golem.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35294, 19, 1) /* VALUE_INT */
-     , (35294, 5, 5) /* ENCUMB_VAL_INT */
-     , (35294, 174, 2) /* APPRAISAL_PAGES_INT */
-     , (35294, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

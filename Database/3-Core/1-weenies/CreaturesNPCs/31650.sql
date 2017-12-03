@@ -86,36 +86,3 @@ VALUES (31650, 12, 16778423)
      , (31650, 13, 16783871)
      , (31650, 14, 16783855);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31650, 5, 'Tukora Lieutenant Trouncer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31650, 16, 67109565) /* EYES_PALETTE_DID */
-     , (31650, 9, 83890255) /* EYES_TEXTURE_DID */
-     , (31650, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (31650, 10, 83890306) /* NOSE_TEXTURE_DID */
-     , (31650, 11, 83890356) /* MOUTH_TEXTURE_DID */
-     , (31650, 15, 67116986) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31650, 113, 2) /* GENDER_INT */
-     , (31650, 2, 31) /* CREATURE_TYPE_INT */
-     , (31650, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31650, 25, 148) /* LEVEL_INT */
-     , (31650, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (31650, 1, 60) /* STRENGTH_ATTRIBUTE */
-     , (31650, 2, 70) /* ENDURANCE_ATTRIBUTE */
-     , (31650, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (31650, 8, 80) /* QUICKNESS_ATTRIBUTE */
-     , (31650, 16, 120) /* FOCUS_ATTRIBUTE */
-     , (31650, 32, 130) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31650, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (31650, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (31650, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
-

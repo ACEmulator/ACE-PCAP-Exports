@@ -33,21 +33,3 @@ VALUES (7273, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7273, 1, True) /* STUCK_BOOL */
      , (7273, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (7273, 16, 'This key has seen better days.') /* LONG_DESC_STRING */
-     , (7273, 14, 'Use this key to open a Legendary Chest.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7273, 33, 0) /* BONDED_INT */
-     , (7273, 369, 150) /* USE_REQUIRES_LEVEL_INT */
-     , (7273, 114, 0) /* ATTUNED_INT */
-     , (7273, 19, 10000) /* VALUE_INT */
-     , (7273, 5, 30) /* ENCUMB_VAL_INT */
-     , (7273, 91, 1) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (7273, 99, 0) /* IVORYABLE_BOOL */
-     , (7273, 69, 0) /* IS_SELLABLE_BOOL */;
-

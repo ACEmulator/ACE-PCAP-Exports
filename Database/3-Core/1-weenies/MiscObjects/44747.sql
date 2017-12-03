@@ -32,12 +32,3 @@ VALUES (44747, 13, True) /* ETHEREAL_BOOL */
      , (44747, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (44747, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44747, 16, 'Marionettes are strange constructs that appeared in Dereth in Portal Year 12. Most have no idea where or when they began to appear, only that they can now be found in the deeps of the A''mun desert. Some whisper that the Virindi have something to do with their sudden appearance, and look with fear at the empty crypts of the desert. They are creatures to be feared, for all types can cast magic, and are extremely resistant to cold and lightning.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44747, 19, 125) /* VALUE_INT */
-     , (44747, 5, 200) /* ENCUMB_VAL_INT */;
-

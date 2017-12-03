@@ -99,36 +99,3 @@ VALUES (37607, 16, 16795665)
      , (37607, 4, 16781838)
      , (37607, 8, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37607, 5, 'Scout of the Blood') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (37607, 16, 67110063) /* EYES_PALETTE_DID */
-     , (37607, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (37607, 17, 67109551) /* SKIN_PALETTE_DID */
-     , (37607, 10, 83890537) /* NOSE_TEXTURE_DID */
-     , (37607, 11, 83890621) /* MOUTH_TEXTURE_DID */
-     , (37607, 15, 67116991) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37607, 113, 1) /* GENDER_INT */
-     , (37607, 2, 31) /* CREATURE_TYPE_INT */
-     , (37607, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (37607, 25, 100) /* LEVEL_INT */
-     , (37607, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (37607, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (37607, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (37607, 4, 180) /* COORDINATION_ATTRIBUTE */
-     , (37607, 8, 160) /* QUICKNESS_ATTRIBUTE */
-     , (37607, 16, 140) /* FOCUS_ATTRIBUTE */
-     , (37607, 32, 120) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37607, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (37607, 128, 310) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (37607, 256, 175) /* MAX_MANA_ATTRIBUTE_2ND */;
-

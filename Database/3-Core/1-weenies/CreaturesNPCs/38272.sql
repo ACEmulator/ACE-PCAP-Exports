@@ -96,38 +96,3 @@ VALUES (38272, 12, 16777304)
      , (38272, 4, 16788088)
      , (38272, 8, 16788089);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38272, 5, 'Shoguth Hunt Task Master') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38272, 16, 67110063) /* EYES_PALETTE_DID */
-     , (38272, 9, 83890488) /* EYES_TEXTURE_DID */
-     , (38272, 17, 67110057) /* SKIN_PALETTE_DID */
-     , (38272, 10, 83890520) /* NOSE_TEXTURE_DID */
-     , (38272, 11, 83890568) /* MOUTH_TEXTURE_DID */
-     , (38272, 15, 67117019) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38272, 288, 1001) /* SOCIETY_RANK_ELDWEB_INT */
-     , (38272, 113, 1) /* GENDER_INT */
-     , (38272, 2, 31) /* CREATURE_TYPE_INT */
-     , (38272, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38272, 25, 200) /* LEVEL_INT */
-     , (38272, 281, 2) /* FACTION1_BITS_INT */
-     , (38272, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38272, 1, 255) /* STRENGTH_ATTRIBUTE */
-     , (38272, 2, 220) /* ENDURANCE_ATTRIBUTE */
-     , (38272, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (38272, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (38272, 16, 90) /* FOCUS_ATTRIBUTE */
-     , (38272, 32, 90) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38272, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38272, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38272, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
-

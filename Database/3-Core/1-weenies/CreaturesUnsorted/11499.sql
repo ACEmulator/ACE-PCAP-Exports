@@ -86,16 +86,6 @@ VALUES (11499, 11, 16777302)
      , (11499, 4, 16781838)
      , (11499, 8, 16781839);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11499, 16, 'The saliva from a creature of the Tusker persuasion.') /* LONG_DESC_STRING */
-     , (11499, 14, 'This item is used in brewing.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11499, 19, 0) /* VALUE_INT */
-     , (11499, 5, 20) /* ENCUMB_VAL_INT */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

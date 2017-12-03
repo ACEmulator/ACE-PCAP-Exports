@@ -31,17 +31,3 @@ VALUES (33691, 13, True) /* ETHEREAL_BOOL */
      , (33691, 19, True) /* ATTACKABLE_BOOL */
      , (33691, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33691, 16, 'A piece of the broken remains of the Black Spear, carried by the Mukkir Aspect of Grael.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33691, 33, 1) /* BONDED_INT */
-     , (33691, 114, 1) /* ATTUNED_INT */
-     , (33691, 19, 0) /* VALUE_INT */
-     , (33691, 5, 150) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (33691, 69, 0) /* IS_SELLABLE_BOOL */;
-

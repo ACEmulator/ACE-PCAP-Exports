@@ -34,15 +34,3 @@ VALUES (34964, 13, True) /* ETHEREAL_BOOL */
      , (34964, 19, True) /* ATTACKABLE_BOOL */
      , (34964, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34964, 16, 'This link was part of the chain which the Falatacot had been using to bind Burun shamans to the depths of their lower catacomb. An enchantment upon the chain had prevented the shamans from using their magic, but with the breaking of the chain, the enchantment has also been broken.') /* LONG_DESC_STRING */
-     , (34964, 14, 'Bring this chain link to Scout Leader Tmauruk.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34964, 33, 1) /* BONDED_INT */
-     , (34964, 114, 1) /* ATTUNED_INT */
-     , (34964, 19, 0) /* VALUE_INT */
-     , (34964, 5, 10) /* ENCUMB_VAL_INT */;
-

@@ -44,26 +44,6 @@ VALUES (39108, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (39108, 67113822, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39108, 16, 'A festival treat. A little chocolate gromnie that runs in circles. Five second rule applies.') /* LONG_DESC_STRING */
-     , (39108, 14, 'Use this item to eat it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39108, 19, 10) /* VALUE_INT */
-     , (39108, 5, 1) /* ENCUMB_VAL_INT */
-     , (39108, 106, 300) /* ITEM_SPELLCRAFT_INT */
-     , (39108, 108, 50) /* ITEM_MAX_MANA_INT */
-     , (39108, 109, 0) /* ITEM_DIFFICULTY_INT */
-     , (39108, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (39108, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (39108, 4206) /* ChewyCenter_SpellID */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

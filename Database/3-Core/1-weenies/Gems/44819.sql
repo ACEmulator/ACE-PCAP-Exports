@@ -39,24 +39,6 @@ VALUES (44819, 13, True) /* ETHEREAL_BOOL */
      , (44819, 19, True) /* ATTACKABLE_BOOL */
      , (44819, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44819, 16, 'Investigate the claims of the drudges having captive monougas.') /* LONG_DESC_STRING */
-     , (44819, 14, 'Recommended Level: 100') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44819, 33, 1) /* BONDED_INT */
-     , (44819, 19, 100) /* VALUE_INT */
-     , (44819, 5, 0) /* ENCUMB_VAL_INT */
-     , (44819, 280, 100) /* SHARED_COOLDOWN_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (44819, 167, 2) /* COOLDOWN_DURATION_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (44819, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

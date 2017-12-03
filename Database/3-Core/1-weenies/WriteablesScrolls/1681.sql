@@ -35,17 +35,3 @@ VALUES (1681, 13, True) /* ETHEREAL_BOOL */
      , (1681, 19, True) /* ATTACKABLE_BOOL */
      , (1681, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1681, 16, 'Inscribed spell: Arcane Enlightenment Self I
-Increases the caster''s Arcane Lore skill by 10 points.') /* LONG_DESC_STRING */
-     , (1681, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1681, 19, 1) /* VALUE_INT */
-     , (1681, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1681, 678) /* ArcaneEnlightenmentSelf1_SpellID */;
-

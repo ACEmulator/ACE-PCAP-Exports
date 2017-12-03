@@ -54,39 +54,3 @@ INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`
 VALUES (32642, 1, 16787899)
      , (32642, 2, 16787899);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32642, 16, 'A Perfect Isparian Crossbow, infused with the power of the Shadowfire Stone.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32642, 160, 360) /* WIELD_DIFFICULTY_INT */
-     , (32642, 33, 1) /* BONDED_INT */
-     , (32642, 353, 9) /* WEAPON_TYPE_INT */
-     , (32642, 114, 1) /* ATTUNED_INT */
-     , (32642, 19, 10000) /* VALUE_INT */
-     , (32642, 36, 9999) /* RESIST_MAGIC_INT */
-     , (32642, 5, 1400) /* ENCUMB_VAL_INT */
-     , (32642, 166, 22) /* SLAYER_CREATURE_TYPE_INT */
-     , (32642, 204, 12) /* ELEMENTAL_DAMAGE_BONUS_INT */
-     , (32642, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (32642, 159, 47) /* WIELD_SKILLTYPE_INT */
-     , (32642, 45, 16) /* DAMAGE_TYPE_INT */
-     , (32642, 49, 20) /* WEAPON_TIME_INT */
-     , (32642, 48, 47) /* WEAPON_SKILL_INT */
-     , (32642, 44, 22) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (32642, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
-     , (32642, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
-     , (32642, 29, 1.29) /* WEAPON_DEFENSE_FLOAT */
-     , (32642, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (32642, 63, 2.55) /* DAMAGE_MOD_FLOAT */
-     , (32642, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (32642, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (32642, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (32642, 99, 1) /* IVORYABLE_BOOL */
-     , (32642, 69, 0) /* IS_SELLABLE_BOOL */;
-

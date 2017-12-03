@@ -55,23 +55,3 @@ VALUES (48241, 0, 16779360)
      , (48241, 3, 16779362)
      , (48241, 4, 16779357);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48241, 353, 8) /* WEAPON_TYPE_INT */
-     , (48241, 33, -2) /* BONDED_INT */
-     , (48241, 19, 400) /* VALUE_INT */
-     , (48241, 5, 980) /* ENCUMB_VAL_INT */
-     , (48241, 45, 0) /* DAMAGE_TYPE_INT */
-     , (48241, 49, 45) /* WEAPON_TIME_INT */
-     , (48241, 48, 47) /* WEAPON_SKILL_INT */
-     , (48241, 44, 0) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (48241, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (48241, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
-     , (48241, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (48241, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (48241, 26, 27.3) /* MAXIMUM_VELOCITY_FLOAT */
-     , (48241, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-

@@ -89,38 +89,3 @@ VALUES (38710, 12, 16778423)
      , (38710, 4, 16783485)
      , (38710, 8, 16783487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38710, 5, 'Inspector of Knights') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38710, 16, 67110064) /* EYES_PALETTE_DID */
-     , (38710, 9, 83890278) /* EYES_TEXTURE_DID */
-     , (38710, 17, 67115901) /* SKIN_PALETTE_DID */
-     , (38710, 10, 83890302) /* NOSE_TEXTURE_DID */
-     , (38710, 11, 83890330) /* MOUTH_TEXTURE_DID */
-     , (38710, 15, 67117078) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38710, 113, 2) /* GENDER_INT */
-     , (38710, 289, 601) /* SOCIETY_RANK_RADBLO_INT */
-     , (38710, 2, 31) /* CREATURE_TYPE_INT */
-     , (38710, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38710, 25, 191) /* LEVEL_INT */
-     , (38710, 281, 4) /* FACTION1_BITS_INT */
-     , (38710, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38710, 1, 80) /* STRENGTH_ATTRIBUTE */
-     , (38710, 2, 90) /* ENDURANCE_ATTRIBUTE */
-     , (38710, 4, 70) /* COORDINATION_ATTRIBUTE */
-     , (38710, 8, 70) /* QUICKNESS_ATTRIBUTE */
-     , (38710, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (38710, 32, 60) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38710, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38710, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38710, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
-

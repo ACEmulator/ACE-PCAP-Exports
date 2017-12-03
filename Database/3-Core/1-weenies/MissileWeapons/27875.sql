@@ -42,25 +42,6 @@ VALUES (27875, 13, True) /* ETHEREAL_BOOL */
      , (27875, 17, True) /* INELASTIC_BOOL */
      , (27875, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27875, 2, 82) /* CREATURE_TYPE_INT */
-     , (27875, 25, 60) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (27875, 1, 220) /* STRENGTH_ATTRIBUTE */
-     , (27875, 2, 85) /* ENDURANCE_ATTRIBUTE */
-     , (27875, 4, 235) /* COORDINATION_ATTRIBUTE */
-     , (27875, 8, 85) /* QUICKNESS_ATTRIBUTE */
-     , (27875, 16, 140) /* FOCUS_ATTRIBUTE */
-     , (27875, 32, 155) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27875, 64, 178) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (27875, 128, 340) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (27875, 256, 235) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

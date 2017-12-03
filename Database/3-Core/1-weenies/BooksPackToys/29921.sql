@@ -69,23 +69,6 @@ VALUES (29921, 0, 16783894)
      , (29921, 15, 16787916)
      , (29921, 12, 16787915);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29921, 16, 'The enigmatic and powerful Martine, in his Virindi-modified form.') /* LONG_DESC_STRING */
-     , (29921, 14, 'This doll may be hooked. Use this doll to read a historical lesson.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29921, 33, 1) /* BONDED_INT */
-     , (29921, 114, 0) /* ATTUNED_INT */
-     , (29921, 19, 5000) /* VALUE_INT */
-     , (29921, 5, 10) /* ENCUMB_VAL_INT */
-     , (29921, 174, 5) /* APPRAISAL_PAGES_INT */
-     , (29921, 175, 5) /* APPRAISAL_MAX_PAGES_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29921, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Extended Book Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

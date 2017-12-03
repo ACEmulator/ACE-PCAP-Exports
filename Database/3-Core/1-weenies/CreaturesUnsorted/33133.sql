@@ -41,37 +41,6 @@ VALUES (33133, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (33133, 67116775, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33133, 16, 'Leather Vest') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33133, 160, 150) /* WIELD_DIFFICULTY_INT */
-     , (33133, 177, 4) /* GEM_COUNT_INT */
-     , (33133, 178, 49) /* GEM_TYPE_INT */
-     , (33133, 19, 28174) /* VALUE_INT */
-     , (33133, 131, 55) /* MATERIAL_TYPE_INT */
-     , (33133, 5, 240) /* ENCUMB_VAL_INT */
-     , (33133, 105, 4) /* ITEM_WORKMANSHIP_INT */
-     , (33133, 28, 252) /* ARMOR_LEVEL_INT */
-     , (33133, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (33133, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (33133, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (33133, 13, 1.2) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (33133, 14, 0.8) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (33133, 15, 1) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (33133, 16, 0.990016) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (33133, 17, 0.5) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (33133, 18, 0.8970754) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (33133, 19, 0.8) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (33133, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (33133, 100, 1) /* DYABLE_BOOL */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

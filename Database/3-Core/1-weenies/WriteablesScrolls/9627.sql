@@ -35,17 +35,3 @@ VALUES (9627, 13, True) /* ETHEREAL_BOOL */
      , (9627, 19, True) /* ATTACKABLE_BOOL */
      , (9627, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (9627, 16, 'Inscribed spell: Jumping Ineptitude Other IV
-Decreases the target''s Jump skill by 25 points.') /* LONG_DESC_STRING */
-     , (9627, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9627, 19, 100) /* VALUE_INT */
-     , (9627, 5, 30) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (9627, 1015) /* JumpingIneptitudeOther4_SpellID */;
-

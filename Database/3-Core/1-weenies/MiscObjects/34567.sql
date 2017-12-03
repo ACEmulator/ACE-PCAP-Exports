@@ -36,21 +36,6 @@ VALUES (34567, 13, True) /* ETHEREAL_BOOL */
      , (34567, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34567, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34567, 14, 'You''ve heard rumors of those who will reward you for medallions such as these in Shoushi and Yanshi.') /* USE_STRING */
-     , (34567, 15, 'This jade medallion was taken from a Master from the Tanada House of Air.  The jade is flawless, except for a crack on one tip that has a black discoloration around it.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34567, 33, 1) /* BONDED_INT */
-     , (34567, 114, 1) /* ATTUNED_INT */
-     , (34567, 19, 0) /* VALUE_INT */
-     , (34567, 5, 200) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (34567, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

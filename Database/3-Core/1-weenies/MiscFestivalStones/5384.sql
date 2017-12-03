@@ -30,12 +30,3 @@ VALUES (5384, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (5384, 19, True) /* ATTACKABLE_BOOL */
      , (5384, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5384, 16, 'Rejoice! The Hopeslayer has been defeated, thanks to the efforts of the brave people of Dereth!') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5384, 19, 0) /* VALUE_INT */
-     , (5384, 5, 9000) /* ENCUMB_VAL_INT */;
-

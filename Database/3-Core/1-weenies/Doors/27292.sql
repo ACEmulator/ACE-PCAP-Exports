@@ -32,18 +32,3 @@ VALUES (27292, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (27292, 19, True) /* ATTACKABLE_BOOL */
      , (27292, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27292, 16, 'A locked door.') /* LONG_DESC_STRING */
-     , (27292, 14, 'A locked door.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27292, 19, 0) /* VALUE_INT */
-     , (27292, 38, 9999) /* RESIST_LOCKPICK_INT */
-     , (27292, 173, 0) /* APPRAISAL_LOCKPICK_SUCCESS_PERCENT_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (27292, 2, 0) /* OPEN_BOOL */
-     , (27292, 3, 1) /* LOCKED_BOOL */;
-

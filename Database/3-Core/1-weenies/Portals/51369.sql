@@ -33,12 +33,3 @@ VALUES (51369, 13, True) /* ETHEREAL_BOOL */
      , (51369, 19, True) /* ATTACKABLE_BOOL */
      , (51369, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51369, 38, 'Testing Grounds') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51369, 86, 180) /* MIN_LEVEL_INT */
-     , (51369, 111, 49) /* PORTAL_BITMASK_INT */;
-

@@ -47,17 +47,3 @@ VALUES (36659, 0, 83897332, 83897332);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36659, 0, 16792609);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36659, 15, 'A beautifully crafted hammer of metal and stone.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36659, 33, 1) /* BONDED_INT */
-     , (36659, 114, 1) /* ATTUNED_INT */
-     , (36659, 19, 100) /* VALUE_INT */
-     , (36659, 5, 100) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (36659, 69, 1) /* IS_SELLABLE_BOOL */;
-

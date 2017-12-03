@@ -49,34 +49,3 @@ VALUES (31776, 0, 83897336, 83897336);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (31776, 0, 16792613);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31776, 16, 'Electric Board with Nail') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31776, 160, 370) /* WIELD_DIFFICULTY_INT */
-     , (31776, 353, 4) /* WEAPON_TYPE_INT */
-     , (31776, 177, 4) /* GEM_COUNT_INT */
-     , (31776, 178, 33) /* GEM_TYPE_INT */
-     , (31776, 19, 4593) /* VALUE_INT */
-     , (31776, 131, 77) /* MATERIAL_TYPE_INT */
-     , (31776, 5, 511) /* ENCUMB_VAL_INT */
-     , (31776, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (31776, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (31776, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (31776, 159, 46) /* WIELD_SKILLTYPE_INT */
-     , (31776, 47, 4) /* ATTACK_TYPE_INT */
-     , (31776, 45, 64) /* DAMAGE_TYPE_INT */
-     , (31776, 49, 36) /* WEAPON_TIME_INT */
-     , (31776, 48, 46) /* WEAPON_SKILL_INT */
-     , (31776, 44, 43) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (31776, 29, 1.13) /* WEAPON_DEFENSE_FLOAT */
-     , (31776, 22, 0.37) /* DAMAGE_VARIANCE_FLOAT */
-     , (31776, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (31776, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (31776, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (31776, 62, 1.07) /* WEAPON_OFFENSE_FLOAT */;
-

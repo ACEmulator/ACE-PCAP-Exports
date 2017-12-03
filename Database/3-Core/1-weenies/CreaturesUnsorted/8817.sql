@@ -40,25 +40,6 @@ VALUES (8817, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (8817, 67112860, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (8817, 16, 67110063) /* EYES_PALETTE_DID */
-     , (8817, 9, 83890513) /* EYES_TEXTURE_DID */
-     , (8817, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (8817, 10, 83890548) /* NOSE_TEXTURE_DID */
-     , (8817, 11, 83890638) /* MOUTH_TEXTURE_DID */
-     , (8817, 15, 67117000) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8817, 113, 1) /* GENDER_INT */
-     , (8817, 2, 22) /* CREATURE_TYPE_INT */
-     , (8817, 25, 115) /* LEVEL_INT */
-     , (8817, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (8817, 64, 480) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

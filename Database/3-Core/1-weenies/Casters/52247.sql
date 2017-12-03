@@ -84,35 +84,3 @@ VALUES (52247, 0, 16777294)
      , (52247, 15, 16777307)
      , (52247, 16, 16781779);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52247, 16, 'An idol depicting the ancient Mu-miyah Recluse. ') /* LONG_DESC_STRING */
-     , (52247, 14, 'Use this item to equip it.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52247, 160, 180) /* WIELD_DIFFICULTY_INT */
-     , (52247, 33, 1) /* BONDED_INT */
-     , (52247, 114, 1) /* ATTUNED_INT */
-     , (52247, 19, 5000) /* VALUE_INT */
-     , (52247, 5, 200) /* ENCUMB_VAL_INT */
-     , (52247, 106, 400) /* ITEM_SPELLCRAFT_INT */
-     , (52247, 108, 2000) /* ITEM_MAX_MANA_INT */
-     , (52247, 109, 300) /* ITEM_DIFFICULTY_INT */
-     , (52247, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (52247, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (52247, 144, 0.1) /* MANA_CONVERSION_MOD_FLOAT */
-     , (52247, 29, 1.2) /* WEAPON_DEFENSE_FLOAT */
-     , (52247, 5, -0.025) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (52247, 99, 1) /* IVORYABLE_BOOL */
-     , (52247, 69, 0) /* IS_SELLABLE_BOOL */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (52247, 3203) /* DispelAllBadOther7NoManaCon_SpellID */
-     , (52247, 6046) /* CantripCreatureEnchantmentAptitude4_SpellID */
-     , (52247, 4530) /* CreatureEnchantmentMasterySelf8_SpellID */;
-

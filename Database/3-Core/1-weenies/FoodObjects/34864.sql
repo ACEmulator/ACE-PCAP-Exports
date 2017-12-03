@@ -34,18 +34,6 @@ VALUES (34864, 13, True) /* ETHEREAL_BOOL */
      , (34864, 14, True) /* GRAVITY_STATUS_BOOL */
      , (34864, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34864, 16, 'This is a Stamina-restoring snack made from a Tiriun Mushroom Stalk that has been cured and sliced into strips.') /* LONG_DESC_STRING */
-     , (34864, 14, 'Use this item to consume it and  regenerate 115 Stamina.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34864, 19, 1400) /* VALUE_INT */
-     , (34864, 5, 1960) /* ENCUMB_VAL_INT */
-     , (34864, 89, 4) /* BOOSTER_ENUM_INT */
-     , (34864, 90, 115) /* BOOST_VALUE_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

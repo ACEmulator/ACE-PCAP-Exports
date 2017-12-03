@@ -47,26 +47,3 @@ VALUES (8788, 0, 83886747, 83889236)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (8788, 0, 16777986);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (8788, 16, 'A light, well-balanced obsidian dagger, capable of striking quickly.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8788, 353, 6) /* WEAPON_TYPE_INT */
-     , (8788, 19, 3000) /* VALUE_INT */
-     , (8788, 5, 100) /* ENCUMB_VAL_INT */
-     , (8788, 47, 166) /* ATTACK_TYPE_INT */
-     , (8788, 45, 3) /* DAMAGE_TYPE_INT */
-     , (8788, 49, 20) /* WEAPON_TIME_INT */
-     , (8788, 48, 46) /* WEAPON_SKILL_INT */
-     , (8788, 44, 17) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (8788, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
-     , (8788, 22, 0.6) /* DAMAGE_VARIANCE_FLOAT */
-     , (8788, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (8788, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (8788, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (8788, 62, 1.05) /* WEAPON_OFFENSE_FLOAT */;
-

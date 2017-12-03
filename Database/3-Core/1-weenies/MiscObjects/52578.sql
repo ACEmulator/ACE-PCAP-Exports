@@ -32,13 +32,3 @@ VALUES (52578, 13, True) /* ETHEREAL_BOOL */
      , (52578, 19, True) /* ATTACKABLE_BOOL */
      , (52578, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (52578, 16, 'A trophy of a Carenzi. Something seems not quite right about this little guy.') /* LONG_DESC_STRING */
-     , (52578, 14, 'This item can be placed on wall hooks.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52578, 19, 100) /* VALUE_INT */
-     , (52578, 5, 250) /* ENCUMB_VAL_INT */;
-

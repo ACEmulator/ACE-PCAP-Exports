@@ -41,34 +41,3 @@ VALUES (25716, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25716, 67114451, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25716, 15, 'A scroll case that looks as though it has been caked over by thick black mud. It looks much like some type of fowl.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25716, 384, 0) /*  */
-     , (25716, 370, 0) /* GEAR_DAMAGE_INT */
-     , (25716, 386, 0) /*  */
-     , (25716, 307, 0) /* DAMAGE_RATING_INT */
-     , (25716, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (25716, 387, 0) /*  */
-     , (25716, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (25716, 372, 0) /* GEAR_CRIT_INT */
-     , (25716, 388, 0) /*  */
-     , (25716, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (25716, 389, 0) /*  */
-     , (25716, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (25716, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (25716, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (25716, 313, 0) /* CRIT_RATING_INT */
-     , (25716, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (25716, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (25716, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (25716, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (25716, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (25716, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (25716, 381, 0) /*  */
-     , (25716, 382, 0) /*  */
-     , (25716, 383, 0) /*  */;
-

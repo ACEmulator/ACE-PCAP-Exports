@@ -53,28 +53,3 @@ VALUES (29262, 0, 83895592, 83895592)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (29262, 0, 16791340);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29262, 16, 'Fire Sceptre') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29262, 160, 375) /* WIELD_DIFFICULTY_INT */
-     , (29262, 177, 4) /* GEM_COUNT_INT */
-     , (29262, 178, 41) /* GEM_TYPE_INT */
-     , (29262, 19, 13845) /* VALUE_INT */
-     , (29262, 131, 13) /* MATERIAL_TYPE_INT */
-     , (29262, 5, 50) /* ENCUMB_VAL_INT */
-     , (29262, 105, 6) /* ITEM_WORKMANSHIP_INT */
-     , (29262, 171, 7) /* NUM_TIMES_TINKERED_INT */
-     , (29262, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (29262, 45, 16) /* DAMAGE_TYPE_INT */
-     , (29262, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (29262, 159, 34) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (29262, 144, 0.05) /* MANA_CONVERSION_MOD_FLOAT */
-     , (29262, 152, 1.19) /* ELEMENTAL_DAMAGE_MOD_FLOAT */
-     , (29262, 29, 1.19) /* WEAPON_DEFENSE_FLOAT */
-     , (29262, 150, 1.015) /* WEAPON_MAGIC_DEFENSE_FLOAT */;
-

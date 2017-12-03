@@ -41,34 +41,3 @@ VALUES (25602, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (25602, 67114512, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25602, 16, 'An elemental pool, dancing with electricity.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25602, 384, 0) /*  */
-     , (25602, 370, 0) /* GEAR_DAMAGE_INT */
-     , (25602, 386, 0) /*  */
-     , (25602, 307, 0) /* DAMAGE_RATING_INT */
-     , (25602, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (25602, 387, 0) /*  */
-     , (25602, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (25602, 372, 0) /* GEAR_CRIT_INT */
-     , (25602, 388, 0) /*  */
-     , (25602, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (25602, 389, 0) /*  */
-     , (25602, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (25602, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (25602, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (25602, 313, 0) /* CRIT_RATING_INT */
-     , (25602, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (25602, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (25602, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (25602, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (25602, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (25602, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (25602, 381, 0) /*  */
-     , (25602, 382, 0) /*  */
-     , (25602, 383, 0) /*  */;
-

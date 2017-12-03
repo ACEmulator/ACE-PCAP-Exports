@@ -34,14 +34,3 @@ VALUES (45383, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (45383, 67111923, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45383, 14, 'Use this gem to specialize a trained skill. It will cost you two skill credits to specialize the Shield skill. ') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45383, 33, 1) /* BONDED_INT */
-     , (45383, 114, 1) /* ATTUNED_INT */
-     , (45383, 19, 0) /* VALUE_INT */
-     , (45383, 5, 10) /* ENCUMB_VAL_INT */;
-

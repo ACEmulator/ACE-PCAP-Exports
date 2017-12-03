@@ -38,24 +38,6 @@ VALUES (1667, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1667, 1, True) /* STUCK_BOOL */
      , (1667, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1667, 16, 'This key has seen better days.') /* LONG_DESC_STRING */
-     , (1667, 14, 'Use this key to open a Legendary Chest.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1667, 33, 0) /* BONDED_INT */
-     , (1667, 369, 150) /* USE_REQUIRES_LEVEL_INT */
-     , (1667, 114, 0) /* ATTUNED_INT */
-     , (1667, 19, 10000) /* VALUE_INT */
-     , (1667, 5, 30) /* ENCUMB_VAL_INT */
-     , (1667, 91, 1) /* MAX_STRUCTURE_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1667, 99, 0) /* IVORYABLE_BOOL */
-     , (1667, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

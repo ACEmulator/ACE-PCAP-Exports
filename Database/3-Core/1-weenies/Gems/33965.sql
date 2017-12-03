@@ -96,12 +96,3 @@ VALUES (33965, 0, 16777333)
      , (33965, 20, 16777355)
      , (33965, 21, 16777345);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33965, 16, 'No matter how hard you try you can''t seem to get this pack cow to stand up.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33965, 19, 10) /* VALUE_INT */
-     , (33965, 5, 10) /* ENCUMB_VAL_INT */;
-

@@ -52,28 +52,6 @@ VALUES (5768, 0, 83888861, 83892342);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (5768, 0, 16778862);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5768, 16, 'A lightweight ball made of clean, extra fluffy snow.  Harmless fun for light Player Killer play.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5768, 353, 10) /* WEAPON_TYPE_INT */
-     , (5768, 19, 15) /* VALUE_INT */
-     , (5768, 5, 125) /* ENCUMB_VAL_INT */
-     , (5768, 45, 8) /* DAMAGE_TYPE_INT */
-     , (5768, 49, 20) /* WEAPON_TIME_INT */
-     , (5768, 48, 47) /* WEAPON_SKILL_INT */
-     , (5768, 44, 0) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (5768, 29, 0.8) /* WEAPON_DEFENSE_FLOAT */
-     , (5768, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (5768, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (5768, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (5768, 26, 15) /* MAXIMUM_VELOCITY_FLOAT */
-     , (5768, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

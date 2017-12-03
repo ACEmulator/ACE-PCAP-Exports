@@ -37,34 +37,3 @@ VALUES (44695, 13, True) /* ETHEREAL_BOOL */
      , (44695, 19, True) /* ATTACKABLE_BOOL */
      , (44695, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44695, 16, 'Lightning Silifi') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44695, 160, 350) /* WIELD_DIFFICULTY_INT */
-     , (44695, 353, 3) /* WEAPON_TYPE_INT */
-     , (44695, 177, 5) /* GEM_COUNT_INT */
-     , (44695, 178, 16) /* GEM_TYPE_INT */
-     , (44695, 19, 9912) /* VALUE_INT */
-     , (44695, 131, 74) /* MATERIAL_TYPE_INT */
-     , (44695, 5, 645) /* ENCUMB_VAL_INT */
-     , (44695, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (44695, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (44695, 158, 2) /* WIELD_REQUIREMENTS_INT */
-     , (44695, 159, 44) /* WIELD_SKILLTYPE_INT */
-     , (44695, 47, 4) /* ATTACK_TYPE_INT */
-     , (44695, 45, 64) /* DAMAGE_TYPE_INT */
-     , (44695, 49, 63) /* WEAPON_TIME_INT */
-     , (44695, 48, 44) /* WEAPON_SKILL_INT */
-     , (44695, 44, 53) /* DAMAGE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (44695, 29, 1.08) /* WEAPON_DEFENSE_FLOAT */
-     , (44695, 22, 0.93) /* DAMAGE_VARIANCE_FLOAT */
-     , (44695, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (44695, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (44695, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (44695, 62, 1.1) /* WEAPON_OFFENSE_FLOAT */;
-

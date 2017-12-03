@@ -33,12 +33,3 @@ VALUES (46924, 13, True) /* ETHEREAL_BOOL */
      , (46924, 19, True) /* ATTACKABLE_BOOL */
      , (46924, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46924, 38, 'Prismatic Ziggurat') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46924, 86, 150) /* MIN_LEVEL_INT */
-     , (46924, 111, 49) /* PORTAL_BITMASK_INT */;
-

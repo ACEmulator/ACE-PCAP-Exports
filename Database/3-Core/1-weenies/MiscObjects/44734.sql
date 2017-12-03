@@ -32,12 +32,3 @@ VALUES (44734, 13, True) /* ETHEREAL_BOOL */
      , (44734, 11, True) /* IGNORE_COLLISIONS_BOOL */
      , (44734, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44734, 16, 'Mostly created by mages as the embodiment of the mana of the world, Elementals come in a variety of types representing one or many of the elements of nature. They are able to reproduce through unknown means but still inherit the will of their forgotten Empyrean masters and faithfully guard their territories. They rely mostly on magic, even protecting themselves against their chief weakness, to take down any trespasser.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44734, 19, 125) /* VALUE_INT */
-     , (44734, 5, 200) /* ENCUMB_VAL_INT */;
-

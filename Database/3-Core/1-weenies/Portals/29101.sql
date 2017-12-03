@@ -33,14 +33,3 @@ VALUES (29101, 13, True) /* ETHEREAL_BOOL */
      , (29101, 19, True) /* ATTACKABLE_BOOL */
      , (29101, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29101, 16, 'This hovel is home to the thieving Thrungum. Any stolen items found herein should be returned to a Portal Guardian.') /* LONG_DESC_STRING */
-     , (29101, 38, 'Moist Hovel') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29101, 87, 20) /* MAX_LEVEL_INT */
-     , (29101, 26, 1) /* ACCOUNT_REQUIREMENTS_INT */
-     , (29101, 111, 1) /* PORTAL_BITMASK_INT */;
-

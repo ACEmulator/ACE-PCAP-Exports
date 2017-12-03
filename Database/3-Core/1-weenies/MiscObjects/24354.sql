@@ -34,14 +34,3 @@ VALUES (24354, 13, True) /* ETHEREAL_BOOL */
      , (24354, 19, True) /* ATTACKABLE_BOOL */
      , (24354, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24354, 16, 'This carapace was taken from the chest of a fallen Brood Matron.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24354, 33, 1) /* BONDED_INT */
-     , (24354, 114, 1) /* ATTUNED_INT */
-     , (24354, 19, 0) /* VALUE_INT */
-     , (24354, 5, 100) /* ENCUMB_VAL_INT */;
-

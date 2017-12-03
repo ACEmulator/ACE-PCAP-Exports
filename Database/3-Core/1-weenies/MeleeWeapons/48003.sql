@@ -47,26 +47,3 @@ VALUES (48003, 0, 83889238, 83889238)
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48003, 0, 16777885);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48003, 16, 'Bracelet of Rejuvenation') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48003, 19, 531) /* VALUE_INT */
-     , (48003, 131, 58) /* MATERIAL_TYPE_INT */
-     , (48003, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (48003, 5, 60) /* ENCUMB_VAL_INT */
-     , (48003, 105, 2) /* ITEM_WORKMANSHIP_INT */
-     , (48003, 106, 1) /* ITEM_SPELLCRAFT_INT */
-     , (48003, 108, 217) /* ITEM_MAX_MANA_INT */
-     , (48003, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (48003, 109, 1) /* ITEM_DIFFICULTY_INT */
-     , (48003, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (48003, 5, -0.0125) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (48003, 54) /* RejuvenationSelf1_SpellID */;
-

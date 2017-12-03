@@ -35,14 +35,3 @@ VALUES (22614, 13, True) /* ETHEREAL_BOOL */
      , (22614, 19, True) /* ATTACKABLE_BOOL */
      , (22614, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22614, 15, 'A pile of gleaming treasure. You''re rich! You''re wealthy! You''re independent! You''re comfortably well off!') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22614, 19, 200000) /* VALUE_INT */
-     , (22614, 131, 60) /* MATERIAL_TYPE_INT */
-     , (22614, 5, 9000) /* ENCUMB_VAL_INT */
-     , (22614, 105, 10) /* ITEM_WORKMANSHIP_INT */;
-

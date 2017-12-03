@@ -33,13 +33,3 @@ VALUES (33545, 13, True) /* ETHEREAL_BOOL */
      , (33545, 19, True) /* ATTACKABLE_BOOL */
      , (33545, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33545, 16, 'You must bypass the wards of the Mukkir before you may use this portal.') /* LONG_DESC_STRING */
-     , (33545, 38, 'Dark Isle (84.7N, 58.2E).') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33545, 86, 150) /* MIN_LEVEL_INT */
-     , (33545, 111, 49) /* PORTAL_BITMASK_INT */;
-

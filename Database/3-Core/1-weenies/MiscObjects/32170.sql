@@ -34,16 +34,6 @@ VALUES (32170, 13, True) /* ETHEREAL_BOOL */
      , (32170, 19, True) /* ATTACKABLE_BOOL */
      , (32170, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32170, 16, 'An Ursuin arm.') /* LONG_DESC_STRING */
-     , (32170, 14, 'Use this on an Ursuin Torso with either one arm or an arm and two legs.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32170, 19, 0) /* VALUE_INT */
-     , (32170, 5, 200) /* ENCUMB_VAL_INT */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

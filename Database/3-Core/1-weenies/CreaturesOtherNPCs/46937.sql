@@ -37,34 +37,3 @@ VALUES (46937, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (46937, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (46937, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46937, 15, 'A crystal prison containing Gaerlan''s life essence.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46937, 384, 0) /*  */
-     , (46937, 370, 0) /* GEAR_DAMAGE_INT */
-     , (46937, 386, 0) /*  */
-     , (46937, 307, 0) /* DAMAGE_RATING_INT */
-     , (46937, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (46937, 387, 0) /*  */
-     , (46937, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (46937, 372, 0) /* GEAR_CRIT_INT */
-     , (46937, 388, 0) /*  */
-     , (46937, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (46937, 389, 0) /*  */
-     , (46937, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (46937, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (46937, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (46937, 313, 0) /* CRIT_RATING_INT */
-     , (46937, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (46937, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (46937, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (46937, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (46937, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (46937, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (46937, 381, 0) /*  */
-     , (46937, 382, 0) /*  */
-     , (46937, 383, 0) /*  */;
-

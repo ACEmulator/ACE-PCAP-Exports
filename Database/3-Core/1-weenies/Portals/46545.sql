@@ -33,12 +33,3 @@ VALUES (46545, 13, True) /* ETHEREAL_BOOL */
      , (46545, 19, True) /* ATTACKABLE_BOOL */
      , (46545, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46545, 38, 'Nanjou Shou-jen Academy') /* APPRAISAL_PORTAL_DESTINATION_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46545, 86, 200) /* MIN_LEVEL_INT */
-     , (46545, 111, 49) /* PORTAL_BITMASK_INT */;
-

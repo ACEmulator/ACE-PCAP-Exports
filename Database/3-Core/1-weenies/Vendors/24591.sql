@@ -40,30 +40,6 @@ VALUES (24591, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24591, 67113366, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24591, 5, 'Master Bowyer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24591, 2, 57) /* CREATURE_TYPE_INT */
-     , (24591, 307, 5) /* DAMAGE_RATING_INT */
-     , (24591, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24591, 25, 121) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (24591, 1, 193) /* STRENGTH_ATTRIBUTE */
-     , (24591, 2, 185) /* ENDURANCE_ATTRIBUTE */
-     , (24591, 4, 257) /* COORDINATION_ATTRIBUTE */
-     , (24591, 8, 210) /* QUICKNESS_ATTRIBUTE */
-     , (24591, 16, 50) /* FOCUS_ATTRIBUTE */
-     , (24591, 32, 30) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24591, 64, 253) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24591, 128, 365) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24591, 256, 90) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

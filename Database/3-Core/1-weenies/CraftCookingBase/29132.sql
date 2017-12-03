@@ -36,20 +36,6 @@ VALUES (29132, 13, True) /* ETHEREAL_BOOL */
      , (29132, 14, True) /* GRAVITY_STATUS_BOOL */
      , (29132, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (29132, 16, 'A keg of Amber Ape. Use a pack of Empty Bottles on this keg to serve it to guests.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29132, 33, 0) /* BONDED_INT */
-     , (29132, 114, 0) /* ATTUNED_INT */
-     , (29132, 19, 100) /* VALUE_INT */
-     , (29132, 5, 1000) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (29132, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

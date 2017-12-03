@@ -45,12 +45,3 @@ VALUES (48980, 0, 83896665, 83896665);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (48980, 0, 16792134);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (48980, 16, 'Killed by Ferah Palacost.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48980, 19, 0) /* VALUE_INT */
-     , (48980, 5, 6646) /* ENCUMB_VAL_INT */;
-

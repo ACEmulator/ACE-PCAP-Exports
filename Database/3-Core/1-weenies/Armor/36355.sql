@@ -38,23 +38,3 @@ VALUES (36355, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (36355, 0, 16793715);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36355, 16, 'A terrifying mask, crafted from the head of a powerful Mukkir.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36355, 19, 200) /* VALUE_INT */
-     , (36355, 5, 150) /* ENCUMB_VAL_INT */
-     , (36355, 28, 10) /* ARMOR_LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (36355, 13, 0.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (36355, 14, 0.4) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (36355, 15, 0.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (36355, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (36355, 17, 0.2) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (36355, 18, 0.75) /* ARMOR_MOD_VS_ACID_FLOAT */
-     , (36355, 19, 0.35) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
-     , (36355, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
-

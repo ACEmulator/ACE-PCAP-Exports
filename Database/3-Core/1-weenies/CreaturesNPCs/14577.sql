@@ -43,13 +43,3 @@ VALUES (14577, 13, True) /* ETHEREAL_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (14577, 67113368, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14577, 2, 57) /* CREATURE_TYPE_INT */
-     , (14577, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (14577, 25, 50) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (14577, 64, 185) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

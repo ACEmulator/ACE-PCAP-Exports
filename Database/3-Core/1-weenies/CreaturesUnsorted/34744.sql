@@ -38,12 +38,3 @@ VALUES (34744, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (34744, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (34744, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34744, 16, 'Killed by Solitary''.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34744, 19, 0) /* VALUE_INT */
-     , (34744, 5, 6650) /* ENCUMB_VAL_INT */;
-

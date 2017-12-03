@@ -36,21 +36,6 @@ VALUES (40790, 13, True) /* ETHEREAL_BOOL */
      , (40790, 19, True) /* ATTACKABLE_BOOL */
      , (40790, 22, True) /* INSCRIBABLE_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40790, 14, 'Combine this elemental crystal with a force crystal to stabilize it.') /* USE_STRING */
-     , (40790, 15, 'An elemental Progenitor crystal.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40790, 33, 1) /* BONDED_INT */
-     , (40790, 114, 1) /* ATTUNED_INT */
-     , (40790, 19, 0) /* VALUE_INT */
-     , (40790, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (40790, 69, 0) /* IS_SELLABLE_BOOL */;
-
 /* Calculated Burden/Value and Adjusted StackSize Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
