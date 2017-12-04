@@ -85,3 +85,26 @@ VALUES (38034, 16, 16795640)
      , (38034, 4, 16790003)
      , (38034, 8, 16790002);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38034, 5, 'Bodyguard') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38034, 16, 67110064) /* EYES_PALETTE_DID */
+     , (38034, 9, 83890513) /* EYES_TEXTURE_DID */
+     , (38034, 17, 67109558) /* SKIN_PALETTE_DID */
+     , (38034, 10, 83890561) /* NOSE_TEXTURE_DID */
+     , (38034, 11, 83890659) /* MOUTH_TEXTURE_DID */
+     , (38034, 15, 67116978) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38034, 113, 1) /* GENDER_INT */
+     , (38034, 2, 31) /* CREATURE_TYPE_INT */
+     , (38034, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38034, 25, 167) /* LEVEL_INT */
+     , (38034, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38034, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

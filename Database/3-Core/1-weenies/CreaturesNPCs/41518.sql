@@ -103,6 +103,29 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (41518, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (41518, 16, 67109564) /* EYES_PALETTE_DID */
+     , (41518, 9, 83890276) /* EYES_TEXTURE_DID */
+     , (41518, 17, 67109559) /* SKIN_PALETTE_DID */
+     , (41518, 10, 83890304) /* NOSE_TEXTURE_DID */
+     , (41518, 11, 83890340) /* MOUTH_TEXTURE_DID */
+     , (41518, 15, 67116979) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41518, 113, 2) /* GENDER_INT */
+     , (41518, 2, 31) /* CREATURE_TYPE_INT */
+     , (41518, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (41518, 25, 244) /* LEVEL_INT */
+     , (41518, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (41518, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41518, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (41518, 16, 67110063) /* EYES_PALETTE_DID */
      , (41518, 9, 83890260) /* EYES_TEXTURE_DID */
      , (41518, 17, 67109560) /* SKIN_PALETTE_DID */

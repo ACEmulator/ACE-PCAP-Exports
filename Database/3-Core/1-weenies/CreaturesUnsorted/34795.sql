@@ -48,22 +48,3 @@ VALUES (34795, 2, 75) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (34795, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34795, 2, 75) /* CREATURE_TYPE_INT */
-     , (34795, 25, 60) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (34795, 1, 180) /* STRENGTH_ATTRIBUTE */
-     , (34795, 2, 220) /* ENDURANCE_ATTRIBUTE */
-     , (34795, 4, 140) /* COORDINATION_ATTRIBUTE */
-     , (34795, 8, 120) /* QUICKNESS_ATTRIBUTE */
-     , (34795, 16, 100) /* FOCUS_ATTRIBUTE */
-     , (34795, 32, 100) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34795, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (34795, 128, 380) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (34795, 256, 100) /* MAX_MANA_ATTRIBUTE_2ND */;
-

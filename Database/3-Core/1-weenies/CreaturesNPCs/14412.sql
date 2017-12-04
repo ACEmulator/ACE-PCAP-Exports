@@ -89,12 +89,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (14412, 5, 'Bandit') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (14412, 16, 67110062) /* EYES_PALETTE_DID */
-     , (14412, 9, 83890467) /* EYES_TEXTURE_DID */
-     , (14412, 17, 67109553) /* SKIN_PALETTE_DID */
-     , (14412, 10, 83890530) /* NOSE_TEXTURE_DID */
-     , (14412, 11, 83890614) /* MOUTH_TEXTURE_DID */
-     , (14412, 15, 67117068) /* HAIR_PALETTE_DID */;
+VALUES (14412, 16, 67109567) /* EYES_PALETTE_DID */
+     , (14412, 9, 83890514) /* EYES_TEXTURE_DID */
+     , (14412, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (14412, 10, 83890536) /* NOSE_TEXTURE_DID */
+     , (14412, 11, 83890610) /* MOUTH_TEXTURE_DID */
+     , (14412, 15, 67117074) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14412, 113, 1) /* GENDER_INT */

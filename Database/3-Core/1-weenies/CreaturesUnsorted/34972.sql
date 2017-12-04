@@ -45,15 +45,6 @@ VALUES (34972, 16, 83894727, 83894729);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (34972, 16, 16789500);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34972, 2, 14) /* CREATURE_TYPE_INT */
-     , (34972, 25, 185) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34972, 64, 2505) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

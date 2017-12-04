@@ -89,38 +89,3 @@ VALUES (38698, 12, 16778423)
      , (38698, 4, 16783485)
      , (38698, 8, 16783487);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38698, 5, 'Wight Mage Taskmaster') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38698, 16, 67109567) /* EYES_PALETTE_DID */
-     , (38698, 9, 83890255) /* EYES_TEXTURE_DID */
-     , (38698, 17, 67109551) /* SKIN_PALETTE_DID */
-     , (38698, 10, 83890297) /* NOSE_TEXTURE_DID */
-     , (38698, 11, 83890352) /* MOUTH_TEXTURE_DID */
-     , (38698, 15, 67117075) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38698, 288, 1) /* SOCIETY_RANK_ELDWEB_INT */
-     , (38698, 113, 2) /* GENDER_INT */
-     , (38698, 2, 31) /* CREATURE_TYPE_INT */
-     , (38698, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38698, 25, 182) /* LEVEL_INT */
-     , (38698, 281, 2) /* FACTION1_BITS_INT */
-     , (38698, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (38698, 1, 290) /* STRENGTH_ATTRIBUTE */
-     , (38698, 2, 200) /* ENDURANCE_ATTRIBUTE */
-     , (38698, 4, 290) /* COORDINATION_ATTRIBUTE */
-     , (38698, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (38698, 16, 200) /* FOCUS_ATTRIBUTE */
-     , (38698, 32, 200) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38698, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (38698, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (38698, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
-

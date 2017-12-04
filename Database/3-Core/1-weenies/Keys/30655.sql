@@ -35,3 +35,13 @@ VALUES (30655, 13, True) /* ETHEREAL_BOOL */
      , (30655, 19, True) /* ATTACKABLE_BOOL */
      , (30655, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (30655, 16, 'A key. Most likely used to open a door.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30655, 19, 100) /* VALUE_INT */
+     , (30655, 5, 5) /* ENCUMB_VAL_INT */
+     , (30655, 91, 3) /* MAX_STRUCTURE_INT */;
+

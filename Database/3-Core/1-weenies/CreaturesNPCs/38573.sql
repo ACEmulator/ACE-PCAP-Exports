@@ -118,12 +118,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (38573, 5, 'Society Armorsmith') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38573, 16, 67110063) /* EYES_PALETTE_DID */
+VALUES (38573, 16, 67110064) /* EYES_PALETTE_DID */
      , (38573, 9, 83890516) /* EYES_TEXTURE_DID */
-     , (38573, 17, 67115907) /* SKIN_PALETTE_DID */
-     , (38573, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (38573, 11, 83890639) /* MOUTH_TEXTURE_DID */
-     , (38573, 15, 67116982) /* HAIR_PALETTE_DID */;
+     , (38573, 17, 67115905) /* SKIN_PALETTE_DID */
+     , (38573, 10, 83890553) /* NOSE_TEXTURE_DID */
+     , (38573, 11, 83890589) /* MOUTH_TEXTURE_DID */
+     , (38573, 15, 67117070) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38573, 113, 1) /* GENDER_INT */

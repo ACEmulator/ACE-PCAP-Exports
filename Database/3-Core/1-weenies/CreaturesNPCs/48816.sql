@@ -90,13 +90,3 @@ VALUES (48816, 0, 16796840)
      , (48816, 15, 16796855)
      , (48816, 16, 16796856);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (48816, 2, 77) /* CREATURE_TYPE_INT */
-     , (48816, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (48816, 25, 240) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (48816, 64, 11425) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

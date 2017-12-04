@@ -88,29 +88,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (51860, 5, 'Wisp Hunter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (51860, 16, 67116855) /* EYES_PALETTE_DID */
-     , (51860, 9, 83890507) /* EYES_TEXTURE_DID */
-     , (51860, 17, 67115903) /* SKIN_PALETTE_DID */
-     , (51860, 10, 83890521) /* NOSE_TEXTURE_DID */
-     , (51860, 11, 83890630) /* MOUTH_TEXTURE_DID */
-     , (51860, 15, 67117027) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51860, 113, 1) /* GENDER_INT */
-     , (51860, 2, 31) /* CREATURE_TYPE_INT */
-     , (51860, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (51860, 25, 275) /* LEVEL_INT */
-     , (51860, 188, 9) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51860, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (51860, 5, 'Wisp Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (51860, 16, 67116856) /* EYES_PALETTE_DID */
      , (51860, 9, 83890445) /* EYES_TEXTURE_DID */
      , (51860, 17, 67116963) /* SKIN_PALETTE_DID */

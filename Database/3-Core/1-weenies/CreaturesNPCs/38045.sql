@@ -94,29 +94,6 @@ VALUES (38045, 5, 'Green Mire Scholar') /* TEMPLATE_STRING */;
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (38045, 16, 67110063) /* EYES_PALETTE_DID */
      , (38045, 9, 83890510) /* EYES_TEXTURE_DID */
-     , (38045, 17, 67110054) /* SKIN_PALETTE_DID */
-     , (38045, 10, 83890525) /* NOSE_TEXTURE_DID */
-     , (38045, 11, 83890636) /* MOUTH_TEXTURE_DID */
-     , (38045, 15, 67117028) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38045, 113, 1) /* GENDER_INT */
-     , (38045, 2, 31) /* CREATURE_TYPE_INT */
-     , (38045, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38045, 25, 15) /* LEVEL_INT */
-     , (38045, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38045, 64, 115) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38045, 5, 'Green Mire Scholar') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38045, 16, 67110063) /* EYES_PALETTE_DID */
-     , (38045, 9, 83890510) /* EYES_TEXTURE_DID */
      , (38045, 17, 67110055) /* SKIN_PALETTE_DID */
      , (38045, 10, 83890525) /* NOSE_TEXTURE_DID */
      , (38045, 11, 83890634) /* MOUTH_TEXTURE_DID */

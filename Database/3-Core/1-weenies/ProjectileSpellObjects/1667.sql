@@ -40,12 +40,16 @@ VALUES (1667, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 /* Extended Appraisal Data */
 
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1667, 2, 53) /* CREATURE_TYPE_INT */
-     , (1667, 25, 135) /* LEVEL_INT */;
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (1667, 14, 'Use on a magic item to give the stone''s stored Mana to that item.') /* USE_STRING */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1667, 64, 1000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1667, 19, 7500) /* VALUE_INT */
+     , (1667, 5, 50) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (1667, 137, 0.25) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
+     , (1667, 87, 3) /* ITEM_EFFICIENCY_FLOAT */;
 
 /* Object Wield List */
 

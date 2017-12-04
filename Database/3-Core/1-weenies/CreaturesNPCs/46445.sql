@@ -107,3 +107,36 @@ VALUES (46445, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46445, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46445, 5, 'Arcanum Researcher') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (46445, 16, 67109566) /* EYES_PALETTE_DID */
+     , (46445, 9, 83890492) /* EYES_TEXTURE_DID */
+     , (46445, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (46445, 10, 83890547) /* NOSE_TEXTURE_DID */
+     , (46445, 11, 83890613) /* MOUTH_TEXTURE_DID */
+     , (46445, 15, 67116999) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46445, 113, 1) /* GENDER_INT */
+     , (46445, 2, 31) /* CREATURE_TYPE_INT */
+     , (46445, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (46445, 25, 200) /* LEVEL_INT */
+     , (46445, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (46445, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (46445, 2, 210) /* ENDURANCE_ATTRIBUTE */
+     , (46445, 4, 225) /* COORDINATION_ATTRIBUTE */
+     , (46445, 8, 165) /* QUICKNESS_ATTRIBUTE */
+     , (46445, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (46445, 32, 290) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46445, 64, 325) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (46445, 128, 400) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (46445, 256, 580) /* MAX_MANA_ATTRIBUTE_2ND */;
+

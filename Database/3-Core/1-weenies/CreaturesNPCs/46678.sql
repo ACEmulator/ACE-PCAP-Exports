@@ -68,6 +68,40 @@ VALUES (46678, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46678, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46678, 5, 'Royal Soldier') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (46678, 16, 67116893) /* EYES_PALETTE_DID */
+     , (46678, 9, 83891927) /* EYES_TEXTURE_DID */
+     , (46678, 17, 67116908) /* SKIN_PALETTE_DID */
+     , (46678, 10, 83891927) /* NOSE_TEXTURE_DID */
+     , (46678, 11, 83891927) /* MOUTH_TEXTURE_DID */
+     , (46678, 15, 67116872) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46678, 113, 1) /* GENDER_INT */
+     , (46678, 2, 31) /* CREATURE_TYPE_INT */
+     , (46678, 307, 5) /* DAMAGE_RATING_INT */
+     , (46678, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (46678, 25, 275) /* LEVEL_INT */
+     , (46678, 188, 6) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (46678, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (46678, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (46678, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (46678, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (46678, 16, 260) /* FOCUS_ATTRIBUTE */
+     , (46678, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46678, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (46678, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (46678, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

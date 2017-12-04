@@ -49,25 +49,24 @@ VALUES (40685, 0, 16778374);
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (40685, 16, 'Olthoi Gauntlets of Finesse Weapon Mastery') /* LONG_DESC_STRING */;
+VALUES (40685, 16, 'Olthoi Gauntlets of Coordination') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40685, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
-     , (40685, 160, 325) /* WIELD_DIFFICULTY_INT */
+VALUES (40685, 160, 325) /* WIELD_DIFFICULTY_INT */
      , (40685, 272, 150) /* WIELD_DIFFICULTY_2_INT */
      , (40685, 177, 2) /* GEM_COUNT_INT */
-     , (40685, 178, 47) /* GEM_TYPE_INT */
-     , (40685, 19, 52149) /* VALUE_INT */
-     , (40685, 131, 60) /* MATERIAL_TYPE_INT */
-     , (40685, 115, 390) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (40685, 178, 23) /* GEM_TYPE_INT */
+     , (40685, 19, 26445) /* VALUE_INT */
+     , (40685, 131, 58) /* MATERIAL_TYPE_INT */
+     , (40685, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
      , (40685, 36, 9999) /* RESIST_MAGIC_INT */
-     , (40685, 5, 590) /* ENCUMB_VAL_INT */
-     , (40685, 105, 10) /* ITEM_WORKMANSHIP_INT */
+     , (40685, 5, 556) /* ENCUMB_VAL_INT */
+     , (40685, 105, 5) /* ITEM_WORKMANSHIP_INT */
      , (40685, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (40685, 28, 432) /* ARMOR_LEVEL_INT */
-     , (40685, 108, 1921) /* ITEM_MAX_MANA_INT */
+     , (40685, 28, 423) /* ARMOR_LEVEL_INT */
+     , (40685, 108, 1618) /* ITEM_MAX_MANA_INT */
      , (40685, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (40685, 109, 185) /* ITEM_DIFFICULTY_INT */
+     , (40685, 109, 378) /* ITEM_DIFFICULTY_INT */
      , (40685, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (40685, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (40685, 270, 7) /* WIELD_REQUIREMENTS_2_INT */
@@ -77,11 +76,11 @@ VALUES (40685, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (40685, 5, -0.06666667) /* MANA_RATE_FLOAT */
      , (40685, 13, 1.3) /* ARMOR_MOD_VS_SLASH_FLOAT */
-     , (40685, 14, 1.6) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (40685, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (40685, 16, 1.2) /* ARMOR_MOD_VS_COLD_FLOAT */
-     , (40685, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (40685, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (40685, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
+     , (40685, 15, 1.4) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (40685, 16, 0.8) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (40685, 17, 0.8) /* ARMOR_MOD_VS_FIRE_FLOAT */
+     , (40685, 18, 0.8) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (40685, 19, 1.2) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (40685, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
 
@@ -89,9 +88,7 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (40685, 100, 1) /* DYABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (40685, 1540) /* LightningBane6_SpellID */
-     , (40685, 2524) /* CANTRIPMAGICRESISTANCE2_SpellID */
-     , (40685, 2223) /* DaggerMasterySelf7_SpellID */
-     , (40685, 2108) /* Impenetrability7_SpellID */
-     , (40685, 4412) /* PiercingBane8_SpellID */;
+VALUES (40685, 2059) /* CoordinationSelf7_SpellID */
+     , (40685, 4407) /* Impenetrability8_SpellID */
+     , (40685, 2552) /* CANTRIPITEMEXPERTISE1_SpellID */;
 

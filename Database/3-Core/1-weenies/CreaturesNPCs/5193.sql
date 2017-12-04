@@ -94,6 +94,29 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5193, 5, 'Society Agent') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (5193, 16, 67110062) /* EYES_PALETTE_DID */
+     , (5193, 9, 83890453) /* EYES_TEXTURE_DID */
+     , (5193, 17, 67110053) /* SKIN_PALETTE_DID */
+     , (5193, 10, 83890521) /* NOSE_TEXTURE_DID */
+     , (5193, 11, 83890577) /* MOUTH_TEXTURE_DID */
+     , (5193, 15, 67117078) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5193, 113, 1) /* GENDER_INT */
+     , (5193, 2, 31) /* CREATURE_TYPE_INT */
+     , (5193, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (5193, 25, 5) /* LEVEL_INT */
+     , (5193, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (5193, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (5193, 5, 'Society Agent') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (5193, 16, 67109565) /* EYES_PALETTE_DID */
      , (5193, 9, 83890486) /* EYES_TEXTURE_DID */
      , (5193, 17, 67110055) /* SKIN_PALETTE_DID */

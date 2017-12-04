@@ -84,3 +84,26 @@ VALUES (23348, 12, 16778423)
      , (23348, 7, 16777708)
      , (23348, 8, 16777708);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (23348, 5, 'Aluvian Female') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (23348, 16, 67110062) /* EYES_PALETTE_DID */
+     , (23348, 9, 83890255) /* EYES_TEXTURE_DID */
+     , (23348, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (23348, 10, 83890309) /* NOSE_TEXTURE_DID */
+     , (23348, 11, 83890330) /* MOUTH_TEXTURE_DID */
+     , (23348, 15, 67116982) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23348, 113, 2) /* GENDER_INT */
+     , (23348, 2, 31) /* CREATURE_TYPE_INT */
+     , (23348, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (23348, 25, 15) /* LEVEL_INT */
+     , (23348, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (23348, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

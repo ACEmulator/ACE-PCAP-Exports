@@ -44,6 +44,25 @@ VALUES (222, 2, 16) /* CREATURE_TYPE_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (222, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (222, 2, 16) /* CREATURE_TYPE_INT */
+     , (222, 25, 15) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (222, 1, 75) /* STRENGTH_ATTRIBUTE */
+     , (222, 2, 100) /* ENDURANCE_ATTRIBUTE */
+     , (222, 4, 75) /* COORDINATION_ATTRIBUTE */
+     , (222, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (222, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (222, 32, 35) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (222, 64, 60) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (222, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (222, 256, 35) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

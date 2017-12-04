@@ -142,3 +142,36 @@ VALUES (46681, 113, 2) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (46681, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (46681, 5, 'Royal Soldier') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (46681, 16, 67110062) /* EYES_PALETTE_DID */
+     , (46681, 9, 83890281) /* EYES_TEXTURE_DID */
+     , (46681, 17, 67110056) /* SKIN_PALETTE_DID */
+     , (46681, 10, 83890292) /* NOSE_TEXTURE_DID */
+     , (46681, 11, 83890352) /* MOUTH_TEXTURE_DID */
+     , (46681, 15, 67116998) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (46681, 113, 2) /* GENDER_INT */
+     , (46681, 2, 31) /* CREATURE_TYPE_INT */
+     , (46681, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (46681, 25, 275) /* LEVEL_INT */
+     , (46681, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (46681, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (46681, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (46681, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (46681, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (46681, 16, 260) /* FOCUS_ATTRIBUTE */
+     , (46681, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (46681, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (46681, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (46681, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
+

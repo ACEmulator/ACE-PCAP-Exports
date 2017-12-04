@@ -40,34 +40,6 @@ VALUES (24957, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (24957, 67114445, 0, 0);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24957, 2, 1) /* CREATURE_TYPE_INT */
-     , (24957, 25, 115) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24957, 64, 740) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24957, 2, 1) /* CREATURE_TYPE_INT */
-     , (24957, 25, 115) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (24957, 1, 140) /* STRENGTH_ATTRIBUTE */
-     , (24957, 2, 330) /* ENDURANCE_ATTRIBUTE */
-     , (24957, 4, 180) /* COORDINATION_ATTRIBUTE */
-     , (24957, 8, 310) /* QUICKNESS_ATTRIBUTE */
-     , (24957, 16, 130) /* FOCUS_ATTRIBUTE */
-     , (24957, 32, 60) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24957, 64, 740) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (24957, 128, 750) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (24957, 256, 60) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -35,3 +35,25 @@ VALUES (29047, 13, True) /* ETHEREAL_BOOL */
      , (29047, 19, True) /* ATTACKABLE_BOOL */
      , (29047, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29047, 353, 7) /* WEAPON_TYPE_INT */
+     , (29047, 33, -2) /* BONDED_INT */
+     , (29047, 5, 800) /* ENCUMB_VAL_INT */
+     , (29047, 47, 6) /* ATTACK_TYPE_INT */
+     , (29047, 45, 0) /* DAMAGE_TYPE_INT */
+     , (29047, 49, -1) /* WEAPON_TIME_INT */
+     , (29047, 48, 44) /* WEAPON_SKILL_INT */
+     , (29047, 44, -1) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (29047, 136, 1) /* CRITICAL_MULTIPLIER_FLOAT */
+     , (29047, 147, 1) /* CRITICAL_FREQUENCY_FLOAT */
+     , (29047, 29, 1) /* WEAPON_DEFENSE_FLOAT */
+     , (29047, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
+     , (29047, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (29047, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (29047, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (29047, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+

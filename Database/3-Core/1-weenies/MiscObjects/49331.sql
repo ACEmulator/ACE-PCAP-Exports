@@ -62,13 +62,11 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (49331, 33, 0) /* BONDED_INT */
      , (49331, 369, 40) /* USE_REQUIRES_LEVEL_INT */
      , (49331, 114, 0) /* ATTUNED_INT */
-     , (49331, 370, 15) /* GEAR_DAMAGE_INT */
      , (49331, 19, 4000) /* VALUE_INT */
-     , (49331, 372, 9) /* GEAR_CRIT_INT */
      , (49331, 5, 50) /* ENCUMB_VAL_INT */
-     , (49331, 373, 8) /* GEAR_CRIT_RESIST_INT */
+     , (49331, 374, 16) /* GEAR_CRIT_DAMAGE_INT */
      , (49331, 280, 213) /* SHARED_COOLDOWN_INT */
-     , (49331, 105, 4) /* ITEM_WORKMANSHIP_INT */
+     , (49331, 105, 5) /* ITEM_WORKMANSHIP_INT */
      , (49331, 91, 50) /* MAX_STRUCTURE_INT */
      , (49331, 366, 54) /* USE_REQUIRES_SKILL_INT */
      , (49331, 367, 310) /* USE_REQUIRES_SKILL_LEVEL_INT */;

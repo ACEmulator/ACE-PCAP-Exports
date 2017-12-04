@@ -116,63 +116,6 @@ VALUES (43988, 5, 16788087)
      , (43988, 22, 16777708)
      , (43988, 21, 16777708);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43988, 5, 'Royal Knight Mage') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43988, 16, 67116854) /* EYES_PALETTE_DID */
-     , (43988, 9, 83890278) /* EYES_TEXTURE_DID */
-     , (43988, 17, 67115903) /* SKIN_PALETTE_DID */
-     , (43988, 10, 83890306) /* NOSE_TEXTURE_DID */
-     , (43988, 11, 83890342) /* MOUTH_TEXTURE_DID */
-     , (43988, 15, 67116979) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43988, 113, 2) /* GENDER_INT */
-     , (43988, 2, 31) /* CREATURE_TYPE_INT */
-     , (43988, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43988, 25, 275) /* LEVEL_INT */
-     , (43988, 188, 9) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43988, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43988, 5, 'Royal Knight Mage') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43988, 16, 67116854) /* EYES_PALETTE_DID */
-     , (43988, 9, 83890261) /* EYES_TEXTURE_DID */
-     , (43988, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (43988, 10, 83890292) /* NOSE_TEXTURE_DID */
-     , (43988, 11, 83890328) /* MOUTH_TEXTURE_DID */
-     , (43988, 15, 67117095) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43988, 113, 2) /* GENDER_INT */
-     , (43988, 2, 31) /* CREATURE_TYPE_INT */
-     , (43988, 307, 5) /* DAMAGE_RATING_INT */
-     , (43988, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43988, 25, 275) /* LEVEL_INT */
-     , (43988, 188, 9) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (43988, 1, 200) /* STRENGTH_ATTRIBUTE */
-     , (43988, 2, 260) /* ENDURANCE_ATTRIBUTE */
-     , (43988, 4, 200) /* COORDINATION_ATTRIBUTE */
-     , (43988, 8, 290) /* QUICKNESS_ATTRIBUTE */
-     , (43988, 16, 290) /* FOCUS_ATTRIBUTE */
-     , (43988, 32, 290) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43988, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (43988, 128, 456) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (43988, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

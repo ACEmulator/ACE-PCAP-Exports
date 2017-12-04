@@ -53,20 +53,21 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (40683, 16, 'Olthoi Sollerets of Two Handed Combat Mastery') /* LONG_DESC_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40683, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
-     , (40683, 160, 290) /* WIELD_DIFFICULTY_INT */
+VALUES (40683, 176, 6) /* APPRAISAL_ITEM_SKILL_INT */
+     , (40683, 160, 205) /* WIELD_DIFFICULTY_INT */
      , (40683, 272, 150) /* WIELD_DIFFICULTY_2_INT */
-     , (40683, 19, 34191) /* VALUE_INT */
-     , (40683, 131, 63) /* MATERIAL_TYPE_INT */
-     , (40683, 115, 273) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (40683, 19, 27710) /* VALUE_INT */
+     , (40683, 131, 57) /* MATERIAL_TYPE_INT */
+     , (40683, 115, 390) /* ITEM_SKILL_LEVEL_LIMIT_INT */
      , (40683, 36, 9999) /* RESIST_MAGIC_INT */
-     , (40683, 5, 315) /* ENCUMB_VAL_INT */
-     , (40683, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (40683, 5, 284) /* ENCUMB_VAL_INT */
+     , (40683, 265, 29) /* EQUIPMENT_SET_ID_INT */
+     , (40683, 105, 4) /* ITEM_WORKMANSHIP_INT */
      , (40683, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (40683, 28, 443) /* ARMOR_LEVEL_INT */
-     , (40683, 108, 1334) /* ITEM_MAX_MANA_INT */
+     , (40683, 28, 265) /* ARMOR_LEVEL_INT */
+     , (40683, 108, 1067) /* ITEM_MAX_MANA_INT */
      , (40683, 172, 1) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (40683, 109, 241) /* ITEM_DIFFICULTY_INT */
+     , (40683, 109, 192) /* ITEM_DIFFICULTY_INT */
      , (40683, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (40683, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (40683, 270, 7) /* WIELD_REQUIREMENTS_2_INT */
@@ -75,12 +76,12 @@ VALUES (40683, 176, 7) /* APPRAISAL_ITEM_SKILL_INT */
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (40683, 5, -0.06666667) /* MANA_RATE_FLOAT */
-     , (40683, 13, 1.4) /* ARMOR_MOD_VS_SLASH_FLOAT */
+     , (40683, 13, 1.5) /* ARMOR_MOD_VS_SLASH_FLOAT */
      , (40683, 14, 1.3) /* ARMOR_MOD_VS_PIERCE_FLOAT */
-     , (40683, 15, 1.3) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
-     , (40683, 16, 1.2) /* ARMOR_MOD_VS_COLD_FLOAT */
+     , (40683, 15, 1.5) /* ARMOR_MOD_VS_BLUDGEON_FLOAT */
+     , (40683, 16, 0.6) /* ARMOR_MOD_VS_COLD_FLOAT */
      , (40683, 17, 0.6) /* ARMOR_MOD_VS_FIRE_FLOAT */
-     , (40683, 18, 1) /* ARMOR_MOD_VS_ACID_FLOAT */
+     , (40683, 18, 0.6) /* ARMOR_MOD_VS_ACID_FLOAT */
      , (40683, 19, 0.6) /* ARMOR_MOD_VS_ELECTRIC_FLOAT */
      , (40683, 165, 1) /* ARMOR_MOD_VS_NETHER_FLOAT */;
 
@@ -88,7 +89,8 @@ REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `pro
 VALUES (40683, 100, 1) /* DYABLE_BOOL */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (40683, 5098) /* twohandedmastery8_SpellID */
-     , (40683, 4407) /* Impenetrability8_SpellID */
-     , (40683, 2622) /* CANTRIPSTORMWARD1_SpellID */;
+VALUES (40683, 2515) /* CANTRIPINVULNERABILITY2_SpellID */
+     , (40683, 5098) /* twohandedmastery8_SpellID */
+     , (40683, 2102) /* FlameBane7_SpellID */
+     , (40683, 2108) /* Impenetrability7_SpellID */;
 

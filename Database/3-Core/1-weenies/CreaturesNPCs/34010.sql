@@ -97,6 +97,29 @@ VALUES (34010, 12, 16777304)
      , (34010, 4, 16781816)
      , (34010, 8, 16781817);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34010, 5, 'Desecrator of Temples') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (34010, 16, 67110062) /* EYES_PALETTE_DID */
+     , (34010, 9, 83890516) /* EYES_TEXTURE_DID */
+     , (34010, 17, 67109555) /* SKIN_PALETTE_DID */
+     , (34010, 10, 83890532) /* NOSE_TEXTURE_DID */
+     , (34010, 11, 83890658) /* MOUTH_TEXTURE_DID */
+     , (34010, 15, 67117002) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34010, 113, 1) /* GENDER_INT */
+     , (34010, 2, 31) /* CREATURE_TYPE_INT */
+     , (34010, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (34010, 25, 80) /* LEVEL_INT */
+     , (34010, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34010, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

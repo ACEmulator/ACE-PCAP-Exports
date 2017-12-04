@@ -83,25 +83,6 @@ VALUES (11506, 12, 16777304)
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (11506, 16, 67110062) /* EYES_PALETTE_DID */
-     , (11506, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (11506, 17, 67109557) /* SKIN_PALETTE_DID */
-     , (11506, 10, 83890541) /* NOSE_TEXTURE_DID */
-     , (11506, 11, 83890612) /* MOUTH_TEXTURE_DID */
-     , (11506, 15, 67116991) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11506, 113, 1) /* GENDER_INT */
-     , (11506, 2, 31) /* CREATURE_TYPE_INT */
-     , (11506, 25, 100) /* LEVEL_INT */
-     , (11506, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11506, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (11506, 16, 67110062) /* EYES_PALETTE_DID */
      , (11506, 9, 83890483) /* EYES_TEXTURE_DID */
      , (11506, 17, 67109554) /* SKIN_PALETTE_DID */
      , (11506, 10, 83890541) /* NOSE_TEXTURE_DID */

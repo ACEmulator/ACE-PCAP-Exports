@@ -59,7 +59,7 @@ VALUES (21046, 14, 'Apply this material to a Minor, Moderate or Major Armature t
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (21046, 33, 1) /* BONDED_INT */
      , (21046, 131, 20) /* MATERIAL_TYPE_INT */
-     , (21046, 19, 18766) /* VALUE_INT */
+     , (21046, 19, 24675) /* VALUE_INT */
      , (21046, 5, 100) /* ENCUMB_VAL_INT */
      , (21046, 105, 71) /* ITEM_WORKMANSHIP_INT */
      , (21046, 170, 10) /* NUM_ITEMS_IN_MATERIAL_INT */;

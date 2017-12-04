@@ -130,11 +130,11 @@ VALUES (43406, 5, 'Seer of the Haebraen') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (43406, 16, 67116854) /* EYES_PALETTE_DID */
-     , (43406, 9, 83890479) /* EYES_TEXTURE_DID */
-     , (43406, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (43406, 10, 83890553) /* NOSE_TEXTURE_DID */
-     , (43406, 11, 83890640) /* MOUTH_TEXTURE_DID */
-     , (43406, 15, 67117073) /* HAIR_PALETTE_DID */;
+     , (43406, 9, 83890516) /* EYES_TEXTURE_DID */
+     , (43406, 17, 67116971) /* SKIN_PALETTE_DID */
+     , (43406, 10, 83890548) /* NOSE_TEXTURE_DID */
+     , (43406, 11, 83890578) /* MOUTH_TEXTURE_DID */
+     , (43406, 15, 67117071) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43406, 113, 1) /* GENDER_INT */

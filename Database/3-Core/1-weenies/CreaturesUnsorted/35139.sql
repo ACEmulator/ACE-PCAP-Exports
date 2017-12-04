@@ -78,6 +78,7 @@ VALUES (35139, 0, 16787248)
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35139, 2, 4) /* CREATURE_TYPE_INT */
+     , (35139, 307, 5) /* DAMAGE_RATING_INT */
      , (35139, 25, 115) /* LEVEL_INT */;
 
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)

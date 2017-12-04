@@ -96,29 +96,6 @@ VALUES (22075, 5, 'Food Designer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (22075, 16, 67109565) /* EYES_PALETTE_DID */
-     , (22075, 9, 83890451) /* EYES_TEXTURE_DID */
-     , (22075, 17, 67110056) /* SKIN_PALETTE_DID */
-     , (22075, 10, 83890544) /* NOSE_TEXTURE_DID */
-     , (22075, 11, 83890656) /* MOUTH_TEXTURE_DID */
-     , (22075, 15, 67117075) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22075, 113, 1) /* GENDER_INT */
-     , (22075, 2, 31) /* CREATURE_TYPE_INT */
-     , (22075, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (22075, 25, 35) /* LEVEL_INT */
-     , (22075, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22075, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22075, 5, 'Food Designer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (22075, 16, 67109565) /* EYES_PALETTE_DID */
      , (22075, 9, 83890448) /* EYES_TEXTURE_DID */
      , (22075, 17, 67110052) /* SKIN_PALETTE_DID */
      , (22075, 10, 83890554) /* NOSE_TEXTURE_DID */

@@ -110,36 +110,3 @@ VALUES (39387, 16, 16795654)
      , (39387, 4, 16788088)
      , (39387, 8, 16788089);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (39387, 5, 'Captain of the Royal Guard') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (39387, 16, 67110065) /* EYES_PALETTE_DID */
-     , (39387, 9, 83890448) /* EYES_TEXTURE_DID */
-     , (39387, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (39387, 10, 83890561) /* NOSE_TEXTURE_DID */
-     , (39387, 11, 83890632) /* MOUTH_TEXTURE_DID */
-     , (39387, 15, 67116981) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (39387, 113, 1) /* GENDER_INT */
-     , (39387, 2, 31) /* CREATURE_TYPE_INT */
-     , (39387, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (39387, 25, 102) /* LEVEL_INT */
-     , (39387, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (39387, 1, 255) /* STRENGTH_ATTRIBUTE */
-     , (39387, 2, 220) /* ENDURANCE_ATTRIBUTE */
-     , (39387, 4, 240) /* COORDINATION_ATTRIBUTE */
-     , (39387, 8, 240) /* QUICKNESS_ATTRIBUTE */
-     , (39387, 16, 90) /* FOCUS_ATTRIBUTE */
-     , (39387, 32, 90) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (39387, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (39387, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (39387, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
-

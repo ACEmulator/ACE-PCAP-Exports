@@ -99,6 +99,29 @@ VALUES (8266, 5, 'Scholar') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (8266, 16, 67110063) /* EYES_PALETTE_DID */
+     , (8266, 9, 83890454) /* EYES_TEXTURE_DID */
+     , (8266, 17, 67109553) /* SKIN_PALETTE_DID */
+     , (8266, 10, 83890540) /* NOSE_TEXTURE_DID */
+     , (8266, 11, 83890654) /* MOUTH_TEXTURE_DID */
+     , (8266, 15, 67117027) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8266, 113, 1) /* GENDER_INT */
+     , (8266, 2, 31) /* CREATURE_TYPE_INT */
+     , (8266, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (8266, 25, 21) /* LEVEL_INT */
+     , (8266, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (8266, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (8266, 5, 'Scholar') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (8266, 16, 67110063) /* EYES_PALETTE_DID */
      , (8266, 9, 83890482) /* EYES_TEXTURE_DID */
      , (8266, 17, 67109555) /* SKIN_PALETTE_DID */
      , (8266, 10, 83890561) /* NOSE_TEXTURE_DID */

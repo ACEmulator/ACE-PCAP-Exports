@@ -36,3 +36,15 @@ VALUES (41936, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (41936, 19, True) /* ATTACKABLE_BOOL */
      , (41936, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41936, 5, 'Manifestation of the Champion Saliane') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41936, 2, 61) /* CREATURE_TYPE_INT */
+     , (41936, 25, 240) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (41936, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

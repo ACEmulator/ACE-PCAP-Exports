@@ -58,15 +58,6 @@ VALUES (29348, 0, 16785699)
      , (29348, 19, 16785704)
      , (29348, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (29348, 2, 5) /* CREATURE_TYPE_INT */
-     , (29348, 25, 100) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (29348, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

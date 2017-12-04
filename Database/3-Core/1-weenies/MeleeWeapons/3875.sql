@@ -57,39 +57,36 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (3875, 176, 45) /* APPRAISAL_ITEM_SKILL_INT */
      , (3875, 160, 325) /* WIELD_DIFFICULTY_INT */
      , (3875, 353, 5) /* WEAPON_TYPE_INT */
-     , (3875, 177, 1) /* GEM_COUNT_INT */
-     , (3875, 178, 33) /* GEM_TYPE_INT */
-     , (3875, 19, 6192) /* VALUE_INT */
-     , (3875, 131, 64) /* MATERIAL_TYPE_INT */
-     , (3875, 115, 259) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (3875, 5, 479) /* ENCUMB_VAL_INT */
-     , (3875, 105, 9) /* ITEM_WORKMANSHIP_INT */
-     , (3875, 106, 239) /* ITEM_SPELLCRAFT_INT */
-     , (3875, 108, 1474) /* ITEM_MAX_MANA_INT */
+     , (3875, 177, 2) /* GEM_COUNT_INT */
+     , (3875, 178, 34) /* GEM_TYPE_INT */
+     , (3875, 19, 4069) /* VALUE_INT */
+     , (3875, 131, 63) /* MATERIAL_TYPE_INT */
+     , (3875, 115, 255) /* ITEM_SKILL_LEVEL_LIMIT_INT */
+     , (3875, 5, 521) /* ENCUMB_VAL_INT */
+     , (3875, 105, 7) /* ITEM_WORKMANSHIP_INT */
+     , (3875, 106, 235) /* ITEM_SPELLCRAFT_INT */
+     , (3875, 108, 601) /* ITEM_MAX_MANA_INT */
      , (3875, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (3875, 109, 134) /* ITEM_DIFFICULTY_INT */
+     , (3875, 109, 107) /* ITEM_DIFFICULTY_INT */
      , (3875, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
      , (3875, 158, 2) /* WIELD_REQUIREMENTS_INT */
      , (3875, 159, 45) /* WIELD_SKILLTYPE_INT */
      , (3875, 47, 6) /* ATTACK_TYPE_INT */
      , (3875, 45, 16) /* DAMAGE_TYPE_INT */
-     , (3875, 49, 27) /* WEAPON_TIME_INT */
+     , (3875, 49, 26) /* WEAPON_TIME_INT */
      , (3875, 48, 45) /* WEAPON_SKILL_INT */
-     , (3875, 44, 38) /* DAMAGE_INT */;
+     , (3875, 44, 35) /* DAMAGE_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
 VALUES (3875, 5, -0.05) /* MANA_RATE_FLOAT */
-     , (3875, 29, 1.04) /* WEAPON_DEFENSE_FLOAT */
-     , (3875, 22, 0.8) /* DAMAGE_VARIANCE_FLOAT */
+     , (3875, 29, 1.05) /* WEAPON_DEFENSE_FLOAT */
+     , (3875, 149, 1.02) /* WEAPON_MISSILE_DEFENSE_FLOAT */
+     , (3875, 22, 0.68) /* DAMAGE_VARIANCE_FLOAT */
      , (3875, 63, 1) /* DAMAGE_MOD_FLOAT */
      , (3875, 21, 0) /* WEAPON_LENGTH_FLOAT */
      , (3875, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (3875, 62, 1.14) /* WEAPON_OFFENSE_FLOAT */;
+     , (3875, 62, 1.18) /* WEAPON_OFFENSE_FLOAT */;
 
 REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (3875, 1616) /* BloodDrinker6_SpellID */
-     , (3875, 2580) /* CANTRIPENDURANCE1_SpellID */
-     , (3875, 1627) /* SwiftKiller6_SpellID */
-     , (3875, 2537) /* CANTRIPARCANEPROWESS1_SpellID */
-     , (3875, 2620) /* CANTRIPPIERCINGWARD1_SpellID */;
+VALUES (3875, 1616) /* BloodDrinker6_SpellID */;
 

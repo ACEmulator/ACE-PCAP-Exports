@@ -38,6 +38,18 @@ VALUES (43754, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (43754, 1, True) /* STUCK_BOOL */
      , (43754, 24, True) /* UI_HIDDEN_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (43754, 14, 'Use this item to close it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (43754, 19, 65) /* VALUE_INT */
+     , (43754, 5, 5736) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (43754, 2, 1) /* OPEN_BOOL */;
+
 /* Object Wield List */
 
 /* Object Wield List */

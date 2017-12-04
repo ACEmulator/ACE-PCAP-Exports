@@ -35,3 +35,17 @@ VALUES (2775, 13, True) /* ETHEREAL_BOOL */
      , (2775, 19, True) /* ATTACKABLE_BOOL */
      , (2775, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (2775, 16, 'Inscribed spell: Blade Bane V
+Increases a shield or piece of armor''s resistance to slashing damage by 100%. Target yourself to cast this spell on all of your equipped armor.') /* LONG_DESC_STRING */
+     , (2775, 14, 'Use this item to attempt to learn its spell.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2775, 19, 200) /* VALUE_INT */
+     , (2775, 5, 30) /* ENCUMB_VAL_INT */;
+
+REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
+VALUES (2775, 1561) /* BladeBane5_SpellID */;
+

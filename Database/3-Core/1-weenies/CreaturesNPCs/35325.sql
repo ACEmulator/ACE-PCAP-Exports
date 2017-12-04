@@ -38,34 +38,3 @@ VALUES (35325, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (35325, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (35325, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35325, 16, 'Arena Five is currently in use.') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35325, 384, 0) /*  */
-     , (35325, 370, 0) /* GEAR_DAMAGE_INT */
-     , (35325, 386, 0) /*  */
-     , (35325, 307, 0) /* DAMAGE_RATING_INT */
-     , (35325, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
-     , (35325, 387, 0) /*  */
-     , (35325, 308, 0) /* DAMAGE_RESIST_RATING_INT */
-     , (35325, 372, 0) /* GEAR_CRIT_INT */
-     , (35325, 388, 0) /*  */
-     , (35325, 373, 0) /* GEAR_CRIT_RESIST_INT */
-     , (35325, 389, 0) /*  */
-     , (35325, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
-     , (35325, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
-     , (35325, 376, 0) /* GEAR_HEALING_BOOST_INT */
-     , (35325, 313, 0) /* CRIT_RATING_INT */
-     , (35325, 377, 0) /* GEAR_NETHER_RESIST_INT */
-     , (35325, 314, 0) /* CRIT_DAMAGE_RATING_INT */
-     , (35325, 378, 0) /* GEAR_LIFE_RESIST_INT */
-     , (35325, 315, 0) /* CRIT_RESIST_RATING_INT */
-     , (35325, 379, 0) /* GEAR_MAX_HEALTH_INT */
-     , (35325, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
-     , (35325, 381, 0) /*  */
-     , (35325, 382, 0) /*  */
-     , (35325, 383, 0) /*  */;
-

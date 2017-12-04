@@ -36,6 +36,16 @@ VALUES (53015, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (53015, 19, True) /* ATTACKABLE_BOOL */
      , (53015, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (53015, 2, 69) /* CREATURE_TYPE_INT */
+     , (53015, 386, 10) /*  */
+     , (53015, 25, 500) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (53015, 64, 250000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

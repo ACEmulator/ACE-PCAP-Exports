@@ -31,3 +31,14 @@ VALUES (36924, 13, True) /* ETHEREAL_BOOL */
      , (36924, 19, True) /* ATTACKABLE_BOOL */
      , (36924, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (36924, 16, 'An ancient, but well-preserved skull that was once the skull of Avoren Palacost, son of the man who eventually became Bael''Zharon.  (Only one skull per fellowship is needed to continue to the Sepulcher of Dreams).') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (36924, 33, 1) /* BONDED_INT */
+     , (36924, 114, 1) /* ATTUNED_INT */
+     , (36924, 19, 0) /* VALUE_INT */
+     , (36924, 5, 200) /* ENCUMB_VAL_INT */;
+

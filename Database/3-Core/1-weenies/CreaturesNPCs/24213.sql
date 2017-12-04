@@ -63,16 +63,3 @@ VALUES (24213, 0, 16785699)
      , (24213, 19, 16785704)
      , (24213, 20, 16785705);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24213, 5, 'Miner') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24213, 2, 5) /* CREATURE_TYPE_INT */
-     , (24213, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24213, 25, 88) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24213, 64, 340) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

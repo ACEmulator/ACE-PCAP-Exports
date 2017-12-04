@@ -60,18 +60,6 @@ VALUES (35378, 2, 16792427)
      , (35378, 14, 16792451)
      , (35378, 16, 16792458);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (35378, 5, 'Cursed Lord of House Mhoire') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35378, 2, 30) /* CREATURE_TYPE_INT */
-     , (35378, 25, 300) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35378, 64, 200250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

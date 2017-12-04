@@ -37,22 +37,14 @@ VALUES (25500, 13, True) /* ETHEREAL_BOOL */
 
 /* Extended Appraisal Data */
 
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (25500, 14, 'Use on a magic item to give the stone''s stored Mana to that item.') /* USE_STRING */;
+
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25500, 353, 2) /* WEAPON_TYPE_INT */
-     , (25500, 33, -2) /* BONDED_INT */
-     , (25500, 114, 1) /* ATTUNED_INT */
-     , (25500, 5, 400) /* ENCUMB_VAL_INT */
-     , (25500, 47, 486) /* ATTACK_TYPE_INT */
-     , (25500, 45, 0) /* DAMAGE_TYPE_INT */
-     , (25500, 49, -1) /* WEAPON_TIME_INT */
-     , (25500, 48, 46) /* WEAPON_SKILL_INT */
-     , (25500, 44, -1) /* DAMAGE_INT */;
+VALUES (25500, 19, 7500) /* VALUE_INT */
+     , (25500, 5, 50) /* ENCUMB_VAL_INT */;
 
 REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (25500, 29, 1) /* WEAPON_DEFENSE_FLOAT */
-     , (25500, 22, 0.25) /* DAMAGE_VARIANCE_FLOAT */
-     , (25500, 63, 1) /* DAMAGE_MOD_FLOAT */
-     , (25500, 21, 0) /* WEAPON_LENGTH_FLOAT */
-     , (25500, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
-     , (25500, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+VALUES (25500, 137, 0.25) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
+     , (25500, 87, 3) /* ITEM_EFFICIENCY_FLOAT */;
 

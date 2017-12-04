@@ -47,3 +47,16 @@ VALUES (52281, 9, 83890028, 83898250);
 INSERT INTO `ace_object_animation_change` (`aceObjectId`, `index`, `animationId`)
 VALUES (52281, 9, 16780702);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52281, 5, 'Virindi Steward') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52281, 2, 19) /* CREATURE_TYPE_INT */
+     , (52281, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (52281, 25, 400) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (52281, 64, 26250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

@@ -118,12 +118,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (52294, 5, 'Royal Knight') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (52294, 16, 67116953) /* EYES_PALETTE_DID */
-     , (52294, 9, 83898739) /* EYES_TEXTURE_DID */
-     , (52294, 17, 67117109) /* SKIN_PALETTE_DID */
-     , (52294, 10, 83898986) /* NOSE_TEXTURE_DID */
-     , (52294, 11, 83898753) /* MOUTH_TEXTURE_DID */
-     , (52294, 15, 67117062) /* HAIR_PALETTE_DID */;
+VALUES (52294, 16, 67116950) /* EYES_PALETTE_DID */
+     , (52294, 9, 83898993) /* EYES_TEXTURE_DID */
+     , (52294, 17, 67117122) /* SKIN_PALETTE_DID */
+     , (52294, 10, 83898747) /* NOSE_TEXTURE_DID */
+     , (52294, 11, 83898752) /* MOUTH_TEXTURE_DID */
+     , (52294, 15, 67117089) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52294, 113, 1) /* GENDER_INT */

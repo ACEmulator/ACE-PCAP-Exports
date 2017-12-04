@@ -102,6 +102,29 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31316, 5, 'Traveler') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (31316, 16, 67110064) /* EYES_PALETTE_DID */
+     , (31316, 9, 83890507) /* EYES_TEXTURE_DID */
+     , (31316, 17, 67115908) /* SKIN_PALETTE_DID */
+     , (31316, 10, 83890518) /* NOSE_TEXTURE_DID */
+     , (31316, 11, 83890664) /* MOUTH_TEXTURE_DID */
+     , (31316, 15, 67117094) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31316, 113, 1) /* GENDER_INT */
+     , (31316, 2, 31) /* CREATURE_TYPE_INT */
+     , (31316, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (31316, 25, 80) /* LEVEL_INT */
+     , (31316, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (31316, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31316, 5, 'Traveler') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (31316, 16, 67110065) /* EYES_PALETTE_DID */
      , (31316, 9, 83890479) /* EYES_TEXTURE_DID */
      , (31316, 17, 67115901) /* SKIN_PALETTE_DID */

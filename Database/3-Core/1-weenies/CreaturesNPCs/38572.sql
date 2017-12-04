@@ -112,3 +112,38 @@ VALUES (38572, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (38572, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38572, 5, 'Society Armorsmith') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (38572, 16, 67110063) /* EYES_PALETTE_DID */
+     , (38572, 9, 83890509) /* EYES_TEXTURE_DID */
+     , (38572, 17, 67115902) /* SKIN_PALETTE_DID */
+     , (38572, 10, 83890522) /* NOSE_TEXTURE_DID */
+     , (38572, 11, 83890628) /* MOUTH_TEXTURE_DID */
+     , (38572, 15, 67116985) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38572, 113, 1) /* GENDER_INT */
+     , (38572, 289, 101) /* SOCIETY_RANK_RADBLO_INT */
+     , (38572, 2, 31) /* CREATURE_TYPE_INT */
+     , (38572, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38572, 25, 185) /* LEVEL_INT */
+     , (38572, 281, 4) /* FACTION1_BITS_INT */
+     , (38572, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (38572, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (38572, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (38572, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (38572, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (38572, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (38572, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38572, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (38572, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (38572, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
+

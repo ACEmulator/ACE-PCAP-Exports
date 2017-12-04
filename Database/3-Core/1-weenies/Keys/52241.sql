@@ -34,3 +34,16 @@ VALUES (52241, 13, True) /* ETHEREAL_BOOL */
      , (52241, 19, True) /* ATTACKABLE_BOOL */
      , (52241, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (52241, 16, 'A light blue key that feels icy cold.') /* LONG_DESC_STRING */
+     , (52241, 14, 'Use this item on a locked door to unlock it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (52241, 33, 1) /* BONDED_INT */
+     , (52241, 114, 1) /* ATTUNED_INT */
+     , (52241, 19, 0) /* VALUE_INT */
+     , (52241, 5, 10) /* ENCUMB_VAL_INT */
+     , (52241, 91, 1) /* MAX_STRUCTURE_INT */;
+

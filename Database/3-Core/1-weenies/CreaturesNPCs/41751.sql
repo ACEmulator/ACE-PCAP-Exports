@@ -91,12 +91,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (41751, 5, 'Arcanum Gearcrafter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (41751, 16, 67109567) /* EYES_PALETTE_DID */
-     , (41751, 9, 83890261) /* EYES_TEXTURE_DID */
-     , (41751, 17, 67109552) /* SKIN_PALETTE_DID */
-     , (41751, 10, 83890294) /* NOSE_TEXTURE_DID */
+VALUES (41751, 16, 67110062) /* EYES_PALETTE_DID */
+     , (41751, 9, 83890279) /* EYES_TEXTURE_DID */
+     , (41751, 17, 67109554) /* SKIN_PALETTE_DID */
+     , (41751, 10, 83890285) /* NOSE_TEXTURE_DID */
      , (41751, 11, 83890336) /* MOUTH_TEXTURE_DID */
-     , (41751, 15, 67116993) /* HAIR_PALETTE_DID */;
+     , (41751, 15, 67117001) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (41751, 113, 2) /* GENDER_INT */

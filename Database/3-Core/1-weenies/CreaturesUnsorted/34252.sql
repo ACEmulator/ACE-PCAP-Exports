@@ -44,7 +44,7 @@ VALUES (34252, 15, 'This is the liver from a now-deceased carenzi.  You can use 
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34252, 384, 0) /*  */
-     , (34252, 98, 1485677017) /* CREATION_TIMESTAMP_INT */
+     , (34252, 98, 1485589268) /* CREATION_TIMESTAMP_INT */
      , (34252, 370, 0) /* GEAR_DAMAGE_INT */
      , (34252, 386, 0) /*  */
      , (34252, 307, 0) /* DAMAGE_RATING_INT */

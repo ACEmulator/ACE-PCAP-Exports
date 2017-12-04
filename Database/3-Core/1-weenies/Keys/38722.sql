@@ -33,3 +33,20 @@ VALUES (38722, 13, True) /* ETHEREAL_BOOL */
      , (38722, 19, True) /* ATTACKABLE_BOOL */
      , (38722, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38722, 16, 'A key authorized by the Quartermaster.') /* LONG_DESC_STRING */
+     , (38722, 14, 'Use this key on one of the chests located next to the Vault Keeper in the Promotions Hall of your Society Stronghold.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38722, 33, 1) /* BONDED_INT */
+     , (38722, 114, 1) /* ATTUNED_INT */
+     , (38722, 19, 0) /* VALUE_INT */
+     , (38722, 5, 50) /* ENCUMB_VAL_INT */
+     , (38722, 91, 1) /* MAX_STRUCTURE_INT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (38722, 99, 0) /* IVORYABLE_BOOL */
+     , (38722, 69, 0) /* IS_SELLABLE_BOOL */;
+

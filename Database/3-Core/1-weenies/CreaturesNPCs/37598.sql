@@ -97,26 +97,3 @@ VALUES (37598, 16, 16795654)
      , (37598, 4, 16781816)
      , (37598, 8, 16781817);
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37598, 5, 'Web Recruiter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (37598, 16, 67109567) /* EYES_PALETTE_DID */
-     , (37598, 9, 83890505) /* EYES_TEXTURE_DID */
-     , (37598, 17, 67109553) /* SKIN_PALETTE_DID */
-     , (37598, 10, 83890536) /* NOSE_TEXTURE_DID */
-     , (37598, 11, 83890636) /* MOUTH_TEXTURE_DID */
-     , (37598, 15, 67117016) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37598, 113, 1) /* GENDER_INT */
-     , (37598, 2, 31) /* CREATURE_TYPE_INT */
-     , (37598, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (37598, 25, 100) /* LEVEL_INT */
-     , (37598, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37598, 64, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

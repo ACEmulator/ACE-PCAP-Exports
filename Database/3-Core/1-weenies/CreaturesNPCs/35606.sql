@@ -133,12 +133,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (35606, 5, 'Guard') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (35606, 16, 67110063) /* EYES_PALETTE_DID */
-     , (35606, 9, 83890259) /* EYES_TEXTURE_DID */
-     , (35606, 17, 67109554) /* SKIN_PALETTE_DID */
-     , (35606, 10, 83890285) /* NOSE_TEXTURE_DID */
-     , (35606, 11, 83890351) /* MOUTH_TEXTURE_DID */
-     , (35606, 15, 67116994) /* HAIR_PALETTE_DID */;
+VALUES (35606, 16, 67110062) /* EYES_PALETTE_DID */
+     , (35606, 9, 83890241) /* EYES_TEXTURE_DID */
+     , (35606, 17, 67109556) /* SKIN_PALETTE_DID */
+     , (35606, 10, 83890316) /* NOSE_TEXTURE_DID */
+     , (35606, 11, 83890352) /* MOUTH_TEXTURE_DID */
+     , (35606, 15, 67117025) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35606, 113, 2) /* GENDER_INT */

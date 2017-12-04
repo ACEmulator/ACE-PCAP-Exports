@@ -96,3 +96,36 @@ VALUES (34499, 12, 16777304)
      , (34499, 4, 16781838)
      , (34499, 8, 16781839);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34499, 5, 'Apprentice of the Sword') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (34499, 16, 67110062) /* EYES_PALETTE_DID */
+     , (34499, 9, 83890446) /* EYES_TEXTURE_DID */
+     , (34499, 17, 67110056) /* SKIN_PALETTE_DID */
+     , (34499, 10, 83890527) /* NOSE_TEXTURE_DID */
+     , (34499, 11, 83890630) /* MOUTH_TEXTURE_DID */
+     , (34499, 15, 67116998) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34499, 113, 1) /* GENDER_INT */
+     , (34499, 2, 31) /* CREATURE_TYPE_INT */
+     , (34499, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (34499, 25, 100) /* LEVEL_INT */
+     , (34499, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (34499, 1, 200) /* STRENGTH_ATTRIBUTE */
+     , (34499, 2, 180) /* ENDURANCE_ATTRIBUTE */
+     , (34499, 4, 220) /* COORDINATION_ATTRIBUTE */
+     , (34499, 8, 190) /* QUICKNESS_ATTRIBUTE */
+     , (34499, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (34499, 32, 180) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (34499, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (34499, 128, 260) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (34499, 256, 235) /* MAX_MANA_ATTRIBUTE_2ND */;
+

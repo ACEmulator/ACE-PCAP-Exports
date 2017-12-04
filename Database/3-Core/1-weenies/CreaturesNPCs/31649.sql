@@ -86,3 +86,36 @@ VALUES (31649, 12, 16778423)
      , (31649, 13, 16783871)
      , (31649, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31649, 5, 'K''nath An''dras Assassinator') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (31649, 16, 67110063) /* EYES_PALETTE_DID */
+     , (31649, 9, 83890255) /* EYES_TEXTURE_DID */
+     , (31649, 17, 67109550) /* SKIN_PALETTE_DID */
+     , (31649, 10, 83890303) /* NOSE_TEXTURE_DID */
+     , (31649, 11, 83890338) /* MOUTH_TEXTURE_DID */
+     , (31649, 15, 67117025) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31649, 113, 2) /* GENDER_INT */
+     , (31649, 2, 31) /* CREATURE_TYPE_INT */
+     , (31649, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (31649, 25, 122) /* LEVEL_INT */
+     , (31649, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (31649, 1, 60) /* STRENGTH_ATTRIBUTE */
+     , (31649, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (31649, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (31649, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (31649, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (31649, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (31649, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (31649, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (31649, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
+

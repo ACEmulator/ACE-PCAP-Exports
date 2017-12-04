@@ -39,19 +39,6 @@ VALUES (42616, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (42616, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (42616, 1, True) /* STUCK_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42616, 5, 'Invasion Officer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42616, 2, 99) /* CREATURE_TYPE_INT */
-     , (42616, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (42616, 25, 195) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42616, 64, 7500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

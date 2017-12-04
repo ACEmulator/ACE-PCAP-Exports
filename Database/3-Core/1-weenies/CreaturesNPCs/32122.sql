@@ -48,6 +48,19 @@ VALUES (32122, 5, 'Maw Crafter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (32122, 2, 90) /* CREATURE_TYPE_INT */
+     , (32122, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (32122, 25, 130) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (32122, 64, 220) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (32122, 5, 'Maw Crafter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32122, 2, 90) /* CREATURE_TYPE_INT */
      , (32122, 307, 5) /* DAMAGE_RATING_INT */
      , (32122, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (32122, 25, 130) /* LEVEL_INT */;
