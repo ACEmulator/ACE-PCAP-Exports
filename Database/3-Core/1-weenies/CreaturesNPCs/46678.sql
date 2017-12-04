@@ -51,29 +51,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (46678, 5, 'Royal Soldier') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (46678, 16, 67116864) /* EYES_PALETTE_DID */
-     , (46678, 9, 83891927) /* EYES_TEXTURE_DID */
-     , (46678, 17, 67116875) /* SKIN_PALETTE_DID */
-     , (46678, 10, 83891927) /* NOSE_TEXTURE_DID */
-     , (46678, 11, 83891927) /* MOUTH_TEXTURE_DID */
-     , (46678, 15, 67116907) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46678, 113, 1) /* GENDER_INT */
-     , (46678, 2, 31) /* CREATURE_TYPE_INT */
-     , (46678, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (46678, 25, 275) /* LEVEL_INT */
-     , (46678, 188, 6) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46678, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46678, 5, 'Royal Soldier') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (46678, 16, 67116893) /* EYES_PALETTE_DID */
      , (46678, 9, 83891927) /* EYES_TEXTURE_DID */
      , (46678, 17, 67116908) /* SKIN_PALETTE_DID */

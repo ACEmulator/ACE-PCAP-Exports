@@ -77,19 +77,6 @@ VALUES (44288, 5, 'A''nekshay Temple Archivist') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44288, 2, 101) /* CREATURE_TYPE_INT */
-     , (44288, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (44288, 25, 200) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (44288, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (44288, 5, 'A''nekshay Temple Archivist') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44288, 2, 101) /* CREATURE_TYPE_INT */
      , (44288, 307, 5) /* DAMAGE_RATING_INT */
      , (44288, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (44288, 25, 200) /* LEVEL_INT */;

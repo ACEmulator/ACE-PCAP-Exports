@@ -102,19 +102,6 @@ VALUES (31970, 2, 5) /* CREATURE_TYPE_INT */
      , (31970, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (31970, 25, 53) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31970, 64, 171) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31970, 5, 'Servant of the Lady') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31970, 2, 5) /* CREATURE_TYPE_INT */
-     , (31970, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31970, 25, 53) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (31970, 1, 120) /* STRENGTH_ATTRIBUTE */
      , (31970, 2, 212) /* ENDURANCE_ATTRIBUTE */

@@ -109,29 +109,6 @@ VALUES (38309, 16, 67110065) /* EYES_PALETTE_DID */
      , (38309, 15, 67117079) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38309, 113, 2) /* GENDER_INT */
-     , (38309, 2, 31) /* CREATURE_TYPE_INT */
-     , (38309, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38309, 25, 200) /* LEVEL_INT */
-     , (38309, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38309, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38309, 5, 'Inspector of Lords') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38309, 16, 67110065) /* EYES_PALETTE_DID */
-     , (38309, 9, 83890283) /* EYES_TEXTURE_DID */
-     , (38309, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (38309, 10, 83890316) /* NOSE_TEXTURE_DID */
-     , (38309, 11, 83890356) /* MOUTH_TEXTURE_DID */
-     , (38309, 15, 67117079) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (38309, 288, 601) /* SOCIETY_RANK_ELDWEB_INT */
      , (38309, 113, 2) /* GENDER_INT */
      , (38309, 2, 31) /* CREATURE_TYPE_INT */

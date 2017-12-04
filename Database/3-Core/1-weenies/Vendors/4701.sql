@@ -105,29 +105,6 @@ VALUES (4701, 113, 1) /* GENDER_INT */
      , (4701, 25, 9) /* LEVEL_INT */
      , (4701, 188, 2) /* HERITAGE_GROUP_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4701, 64, 50) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4701, 5, 'Scribe') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (4701, 16, 67110062) /* EYES_PALETTE_DID */
-     , (4701, 9, 83890475) /* EYES_TEXTURE_DID */
-     , (4701, 17, 67109553) /* SKIN_PALETTE_DID */
-     , (4701, 10, 83890543) /* NOSE_TEXTURE_DID */
-     , (4701, 11, 83890563) /* MOUTH_TEXTURE_DID */
-     , (4701, 15, 67116999) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4701, 113, 1) /* GENDER_INT */
-     , (4701, 2, 31) /* CREATURE_TYPE_INT */
-     , (4701, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (4701, 25, 9) /* LEVEL_INT */
-     , (4701, 188, 2) /* HERITAGE_GROUP_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (4701, 1, 90) /* STRENGTH_ATTRIBUTE */
      , (4701, 2, 60) /* ENDURANCE_ATTRIBUTE */

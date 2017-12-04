@@ -96,29 +96,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (25721, 5, 'Lunatic') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (25721, 16, 67109565) /* EYES_PALETTE_DID */
-     , (25721, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (25721, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (25721, 10, 83890556) /* NOSE_TEXTURE_DID */
-     , (25721, 11, 83890613) /* MOUTH_TEXTURE_DID */
-     , (25721, 15, 67116987) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25721, 113, 1) /* GENDER_INT */
-     , (25721, 2, 31) /* CREATURE_TYPE_INT */
-     , (25721, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (25721, 25, 8) /* LEVEL_INT */
-     , (25721, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25721, 64, 85) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25721, 5, 'Lunatic') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (25721, 16, 67109567) /* EYES_PALETTE_DID */
      , (25721, 9, 83890482) /* EYES_TEXTURE_DID */
      , (25721, 17, 67109562) /* SKIN_PALETTE_DID */

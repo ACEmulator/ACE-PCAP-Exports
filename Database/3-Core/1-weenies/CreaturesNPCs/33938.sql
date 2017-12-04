@@ -90,29 +90,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (33938, 5, 'Pet Ursuin Vendor') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (33938, 16, 67109566) /* EYES_PALETTE_DID */
-     , (33938, 9, 83890260) /* EYES_TEXTURE_DID */
-     , (33938, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (33938, 10, 83890300) /* NOSE_TEXTURE_DID */
-     , (33938, 11, 83890347) /* MOUTH_TEXTURE_DID */
-     , (33938, 15, 67116988) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (33938, 113, 2) /* GENDER_INT */
-     , (33938, 2, 31) /* CREATURE_TYPE_INT */
-     , (33938, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (33938, 25, 17) /* LEVEL_INT */
-     , (33938, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (33938, 64, 75) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (33938, 5, 'Pet Ursuin Vendor') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (33938, 16, 67110065) /* EYES_PALETTE_DID */
      , (33938, 9, 83890283) /* EYES_TEXTURE_DID */
      , (33938, 17, 67109560) /* SKIN_PALETTE_DID */

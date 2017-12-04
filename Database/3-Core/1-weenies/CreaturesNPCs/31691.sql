@@ -90,29 +90,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31691, 5, 'Monster Plant Lover') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31691, 16, 67109565) /* EYES_PALETTE_DID */
-     , (31691, 9, 83890281) /* EYES_TEXTURE_DID */
-     , (31691, 17, 67110059) /* SKIN_PALETTE_DID */
-     , (31691, 10, 83890292) /* NOSE_TEXTURE_DID */
-     , (31691, 11, 83890348) /* MOUTH_TEXTURE_DID */
-     , (31691, 15, 67117073) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31691, 113, 2) /* GENDER_INT */
-     , (31691, 2, 31) /* CREATURE_TYPE_INT */
-     , (31691, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31691, 25, 29) /* LEVEL_INT */
-     , (31691, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31691, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31691, 5, 'Monster Plant Lover') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (31691, 16, 67110062) /* EYES_PALETTE_DID */
      , (31691, 9, 83890276) /* EYES_TEXTURE_DID */
      , (31691, 17, 67110048) /* SKIN_PALETTE_DID */

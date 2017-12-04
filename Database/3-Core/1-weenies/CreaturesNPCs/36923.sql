@@ -51,19 +51,6 @@ VALUES (36923, 2, 57) /* CREATURE_TYPE_INT */
      , (36923, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (36923, 25, 130) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (36923, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (36923, 5, 'Seeker of Dreams') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (36923, 2, 57) /* CREATURE_TYPE_INT */
-     , (36923, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (36923, 25, 130) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (36923, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (36923, 2, 200) /* ENDURANCE_ATTRIBUTE */

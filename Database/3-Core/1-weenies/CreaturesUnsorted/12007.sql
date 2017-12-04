@@ -77,6 +77,15 @@ VALUES (12007, 0, 16787248)
      , (12007, 15, 16787257)
      , (12007, 16, 16787256);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (12007, 2, 4) /* CREATURE_TYPE_INT */
+     , (12007, 25, 30) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (12007, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Corpse Treasure List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

@@ -60,20 +60,6 @@ VALUES (53306, 113, 1) /* GENDER_INT */
      , (53306, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (53306, 25, 200) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (53306, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53306, 5, 'Mead Brewer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53306, 113, 1) /* GENDER_INT */
-     , (53306, 2, 101) /* CREATURE_TYPE_INT */
-     , (53306, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (53306, 25, 200) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (53306, 1, 255) /* STRENGTH_ATTRIBUTE */
      , (53306, 2, 220) /* ENDURANCE_ATTRIBUTE */

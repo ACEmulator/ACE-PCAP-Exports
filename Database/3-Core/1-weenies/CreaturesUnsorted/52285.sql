@@ -40,15 +40,6 @@ VALUES (52285, 12, True) /* REPORT_COLLISIONS_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52285, 2, 13) /* CREATURE_TYPE_INT */
-     , (52285, 25, 200) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (52285, 64, 1615) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (52285, 2, 13) /* CREATURE_TYPE_INT */
      , (52285, 307, 2) /* DAMAGE_RATING_INT */
      , (52285, 25, 200) /* LEVEL_INT */;
 

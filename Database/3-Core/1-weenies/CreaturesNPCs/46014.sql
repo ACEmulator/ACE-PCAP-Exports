@@ -105,29 +105,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (46014, 5, 'Shadow Flyer Hunter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (46014, 16, 67116857) /* EYES_PALETTE_DID */
-     , (46014, 9, 83890279) /* EYES_TEXTURE_DID */
-     , (46014, 17, 67116850) /* SKIN_PALETTE_DID */
-     , (46014, 10, 83890310) /* NOSE_TEXTURE_DID */
-     , (46014, 11, 83890350) /* MOUTH_TEXTURE_DID */
-     , (46014, 15, 67117076) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46014, 113, 2) /* GENDER_INT */
-     , (46014, 2, 31) /* CREATURE_TYPE_INT */
-     , (46014, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (46014, 25, 275) /* LEVEL_INT */
-     , (46014, 188, 5) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46014, 64, 326) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46014, 5, 'Shadow Flyer Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (46014, 16, 67116854) /* EYES_PALETTE_DID */
      , (46014, 9, 83890278) /* EYES_TEXTURE_DID */
      , (46014, 17, 67116848) /* SKIN_PALETTE_DID */

@@ -93,29 +93,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (4796, 5, 'Citizen of Rithwic') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (4796, 16, 67110063) /* EYES_PALETTE_DID */
-     , (4796, 9, 83890259) /* EYES_TEXTURE_DID */
-     , (4796, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (4796, 10, 83890316) /* NOSE_TEXTURE_DID */
-     , (4796, 11, 83890351) /* MOUTH_TEXTURE_DID */
-     , (4796, 15, 67116980) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4796, 113, 2) /* GENDER_INT */
-     , (4796, 2, 31) /* CREATURE_TYPE_INT */
-     , (4796, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (4796, 25, 8) /* LEVEL_INT */
-     , (4796, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4796, 64, 55) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4796, 5, 'Citizen of Rithwic') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (4796, 16, 67109567) /* EYES_PALETTE_DID */
      , (4796, 9, 83890261) /* EYES_TEXTURE_DID */
      , (4796, 17, 67109559) /* SKIN_PALETTE_DID */

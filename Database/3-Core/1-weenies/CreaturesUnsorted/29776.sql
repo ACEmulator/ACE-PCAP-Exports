@@ -38,3 +38,34 @@ VALUES (29776, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29776, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (29776, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29776, 16, 'A bag that is tied shut and has a label on it that says: "Mixed"') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29776, 384, 0) /*  */
+     , (29776, 370, 0) /* GEAR_DAMAGE_INT */
+     , (29776, 386, 0) /*  */
+     , (29776, 307, 0) /* DAMAGE_RATING_INT */
+     , (29776, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (29776, 387, 0) /*  */
+     , (29776, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (29776, 372, 0) /* GEAR_CRIT_INT */
+     , (29776, 388, 0) /*  */
+     , (29776, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (29776, 389, 0) /*  */
+     , (29776, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (29776, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (29776, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (29776, 313, 0) /* CRIT_RATING_INT */
+     , (29776, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (29776, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (29776, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (29776, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (29776, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (29776, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (29776, 381, 0) /*  */
+     , (29776, 382, 0) /*  */
+     , (29776, 383, 0) /*  */;
+

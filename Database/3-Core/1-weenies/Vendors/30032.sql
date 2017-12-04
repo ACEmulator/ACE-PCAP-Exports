@@ -91,29 +91,6 @@ VALUES (30032, 16, 67109564) /* EYES_PALETTE_DID */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (30032, 113, 1) /* GENDER_INT */
      , (30032, 2, 31) /* CREATURE_TYPE_INT */
-     , (30032, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (30032, 25, 6) /* LEVEL_INT */
-     , (30032, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30032, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30032, 5, 'Scribe') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (30032, 16, 67109564) /* EYES_PALETTE_DID */
-     , (30032, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (30032, 17, 67115902) /* SKIN_PALETTE_DID */
-     , (30032, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (30032, 11, 83890652) /* MOUTH_TEXTURE_DID */
-     , (30032, 15, 67117094) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30032, 113, 1) /* GENDER_INT */
-     , (30032, 2, 31) /* CREATURE_TYPE_INT */
      , (30032, 307, 5) /* DAMAGE_RATING_INT */
      , (30032, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (30032, 25, 6) /* LEVEL_INT */

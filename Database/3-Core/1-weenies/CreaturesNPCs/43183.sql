@@ -49,19 +49,6 @@ VALUES (43183, 2, 51) /* CREATURE_TYPE_INT */
      , (43183, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (43183, 25, 710) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43183, 64, 800) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43183, 5, 'Master of the Lyceum') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43183, 2, 51) /* CREATURE_TYPE_INT */
-     , (43183, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43183, 25, 710) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (43183, 1, 400) /* STRENGTH_ATTRIBUTE */
      , (43183, 2, 610) /* ENDURANCE_ATTRIBUTE */

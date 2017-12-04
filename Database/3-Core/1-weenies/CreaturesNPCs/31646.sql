@@ -95,29 +95,6 @@ REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `prope
 VALUES (31646, 16, 67110063) /* EYES_PALETTE_DID */
      , (31646, 9, 83890486) /* EYES_TEXTURE_DID */
      , (31646, 17, 67110045) /* SKIN_PALETTE_DID */
-     , (31646, 10, 83890548) /* NOSE_TEXTURE_DID */
-     , (31646, 11, 83890606) /* MOUTH_TEXTURE_DID */
-     , (31646, 15, 67117078) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31646, 113, 1) /* GENDER_INT */
-     , (31646, 2, 31) /* CREATURE_TYPE_INT */
-     , (31646, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31646, 25, 94) /* LEVEL_INT */
-     , (31646, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31646, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31646, 5, 'Repugnant Eater Ripper') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31646, 16, 67110063) /* EYES_PALETTE_DID */
-     , (31646, 9, 83890486) /* EYES_TEXTURE_DID */
-     , (31646, 17, 67110045) /* SKIN_PALETTE_DID */
      , (31646, 10, 83890525) /* NOSE_TEXTURE_DID */
      , (31646, 11, 83890577) /* MOUTH_TEXTURE_DID */
      , (31646, 15, 67116996) /* HAIR_PALETTE_DID */;

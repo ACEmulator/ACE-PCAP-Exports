@@ -68,16 +68,6 @@ VALUES (9416, 2, 5) /* CREATURE_TYPE_INT */
      , (9416, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (9416, 25, 73) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (9416, 64, 240) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (9416, 2, 5) /* CREATURE_TYPE_INT */
-     , (9416, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (9416, 25, 73) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (9416, 1, 310) /* STRENGTH_ATTRIBUTE */
      , (9416, 2, 280) /* ENDURANCE_ATTRIBUTE */

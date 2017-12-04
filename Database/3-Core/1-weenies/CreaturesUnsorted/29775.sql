@@ -37,3 +37,34 @@ VALUES (29775, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (29775, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (29775, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (29775, 16, 'A sign with instructions on how to complete the puzzle.') /* LONG_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (29775, 384, 0) /*  */
+     , (29775, 370, 0) /* GEAR_DAMAGE_INT */
+     , (29775, 386, 0) /*  */
+     , (29775, 307, 0) /* DAMAGE_RATING_INT */
+     , (29775, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (29775, 387, 0) /*  */
+     , (29775, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (29775, 372, 0) /* GEAR_CRIT_INT */
+     , (29775, 388, 0) /*  */
+     , (29775, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (29775, 389, 0) /*  */
+     , (29775, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (29775, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (29775, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (29775, 313, 0) /* CRIT_RATING_INT */
+     , (29775, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (29775, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (29775, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (29775, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (29775, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (29775, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (29775, 381, 0) /*  */
+     , (29775, 382, 0) /*  */
+     , (29775, 383, 0) /*  */;
+

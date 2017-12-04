@@ -95,29 +95,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (38563, 5, 'Society Armorsmith') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38563, 16, 67110064) /* EYES_PALETTE_DID */
-     , (38563, 9, 83890514) /* EYES_TEXTURE_DID */
-     , (38563, 17, 67115905) /* SKIN_PALETTE_DID */
-     , (38563, 10, 83890558) /* NOSE_TEXTURE_DID */
-     , (38563, 11, 83890628) /* MOUTH_TEXTURE_DID */
-     , (38563, 15, 67117022) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38563, 113, 1) /* GENDER_INT */
-     , (38563, 2, 31) /* CREATURE_TYPE_INT */
-     , (38563, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38563, 25, 185) /* LEVEL_INT */
-     , (38563, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38563, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38563, 5, 'Society Armorsmith') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (38563, 16, 67109564) /* EYES_PALETTE_DID */
      , (38563, 9, 83890515) /* EYES_TEXTURE_DID */
      , (38563, 17, 67115905) /* SKIN_PALETTE_DID */

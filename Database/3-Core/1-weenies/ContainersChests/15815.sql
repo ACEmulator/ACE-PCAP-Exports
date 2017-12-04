@@ -40,19 +40,6 @@ VALUES (15815, 12, True) /* REPORT_COLLISIONS_BOOL */
 /* Extended Appraisal Data */
 
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (15815, 14, 'Use this item to open it and see its contents.') /* USE_STRING */
-     , (15815, 15, 'A chest belonging to Brontynn Marshad.') /* SHORT_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (15815, 5, 9050) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (15815, 2, 0) /* OPEN_BOOL */
-     , (15815, 3, 1) /* LOCKED_BOOL */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (15815, 16, 'A chest belonging to Brontynn Marshad.') /* LONG_DESC_STRING */
      , (15815, 14, 'Use this item to open it and see its contents.') /* USE_STRING */;
 

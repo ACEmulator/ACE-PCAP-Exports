@@ -109,12 +109,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (42130, 5, 'Portal Warden') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42130, 16, 67110062) /* EYES_PALETTE_DID */
-     , (42130, 9, 83890511) /* EYES_TEXTURE_DID */
-     , (42130, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (42130, 10, 83890549) /* NOSE_TEXTURE_DID */
-     , (42130, 11, 83890587) /* MOUTH_TEXTURE_DID */
-     , (42130, 15, 67116981) /* HAIR_PALETTE_DID */;
+VALUES (42130, 16, 67110063) /* EYES_PALETTE_DID */
+     , (42130, 9, 83890492) /* EYES_TEXTURE_DID */
+     , (42130, 17, 67109558) /* SKIN_PALETTE_DID */
+     , (42130, 10, 83890557) /* NOSE_TEXTURE_DID */
+     , (42130, 11, 83890659) /* MOUTH_TEXTURE_DID */
+     , (42130, 15, 67117021) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42130, 113, 1) /* GENDER_INT */
@@ -123,6 +123,16 @@ VALUES (42130, 113, 1) /* GENDER_INT */
      , (42130, 25, 150) /* LEVEL_INT */
      , (42130, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (42130, 1, 170) /* STRENGTH_ATTRIBUTE */
+     , (42130, 2, 170) /* ENDURANCE_ATTRIBUTE */
+     , (42130, 4, 165) /* COORDINATION_ATTRIBUTE */
+     , (42130, 8, 160) /* QUICKNESS_ATTRIBUTE */
+     , (42130, 16, 150) /* FOCUS_ATTRIBUTE */
+     , (42130, 32, 150) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42130, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (42130, 64, 160) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (42130, 128, 280) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (42130, 256, 205) /* MAX_MANA_ATTRIBUTE_2ND */;
 

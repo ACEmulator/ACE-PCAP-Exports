@@ -110,29 +110,6 @@ VALUES (984, 113, 2) /* GENDER_INT */
      , (984, 25, 12) /* LEVEL_INT */
      , (984, 188, 2) /* HERITAGE_GROUP_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (984, 64, 145) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (984, 5, 'Archmage') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (984, 16, 67110063) /* EYES_PALETTE_DID */
-     , (984, 9, 83890255) /* EYES_TEXTURE_DID */
-     , (984, 17, 67109556) /* SKIN_PALETTE_DID */
-     , (984, 10, 83890301) /* NOSE_TEXTURE_DID */
-     , (984, 11, 83890335) /* MOUTH_TEXTURE_DID */
-     , (984, 15, 67116996) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (984, 113, 2) /* GENDER_INT */
-     , (984, 2, 31) /* CREATURE_TYPE_INT */
-     , (984, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (984, 25, 12) /* LEVEL_INT */
-     , (984, 188, 2) /* HERITAGE_GROUP_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (984, 1, 95) /* STRENGTH_ATTRIBUTE */
      , (984, 2, 100) /* ENDURANCE_ATTRIBUTE */

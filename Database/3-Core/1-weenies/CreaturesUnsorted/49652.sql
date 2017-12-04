@@ -96,11 +96,11 @@ VALUES (49652, 5, 'Jeweler') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (49652, 16, 67109567) /* EYES_PALETTE_DID */
-     , (49652, 9, 83890282) /* EYES_TEXTURE_DID */
-     , (49652, 17, 67109554) /* SKIN_PALETTE_DID */
-     , (49652, 10, 83890288) /* NOSE_TEXTURE_DID */
-     , (49652, 11, 83890336) /* MOUTH_TEXTURE_DID */
-     , (49652, 15, 67117077) /* HAIR_PALETTE_DID */;
+     , (49652, 9, 83890280) /* EYES_TEXTURE_DID */
+     , (49652, 17, 67109557) /* SKIN_PALETTE_DID */
+     , (49652, 10, 83890298) /* NOSE_TEXTURE_DID */
+     , (49652, 11, 83890334) /* MOUTH_TEXTURE_DID */
+     , (49652, 15, 67117024) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49652, 113, 2) /* GENDER_INT */
@@ -109,6 +109,16 @@ VALUES (49652, 113, 2) /* GENDER_INT */
      , (49652, 25, 15) /* LEVEL_INT */
      , (49652, 188, 2) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (49652, 1, 112) /* STRENGTH_ATTRIBUTE */
+     , (49652, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (49652, 4, 100) /* COORDINATION_ATTRIBUTE */
+     , (49652, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (49652, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (49652, 32, 75) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49652, 64, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (49652, 64, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (49652, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (49652, 256, 135) /* MAX_MANA_ATTRIBUTE_2ND */;
 

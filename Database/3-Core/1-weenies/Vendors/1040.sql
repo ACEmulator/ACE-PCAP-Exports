@@ -110,29 +110,6 @@ VALUES (1040, 113, 2) /* GENDER_INT */
      , (1040, 25, 11) /* LEVEL_INT */
      , (1040, 188, 2) /* HERITAGE_GROUP_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (1040, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1040, 5, 'Grocer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (1040, 16, 67109567) /* EYES_PALETTE_DID */
-     , (1040, 9, 83890258) /* EYES_TEXTURE_DID */
-     , (1040, 17, 67109551) /* SKIN_PALETTE_DID */
-     , (1040, 10, 83890290) /* NOSE_TEXTURE_DID */
-     , (1040, 11, 83890333) /* MOUTH_TEXTURE_DID */
-     , (1040, 15, 67116993) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1040, 113, 2) /* GENDER_INT */
-     , (1040, 2, 31) /* CREATURE_TYPE_INT */
-     , (1040, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (1040, 25, 11) /* LEVEL_INT */
-     , (1040, 188, 2) /* HERITAGE_GROUP_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (1040, 1, 100) /* STRENGTH_ATTRIBUTE */
      , (1040, 2, 100) /* ENDURANCE_ATTRIBUTE */

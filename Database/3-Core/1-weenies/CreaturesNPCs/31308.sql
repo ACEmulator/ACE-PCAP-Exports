@@ -91,29 +91,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31308, 5, 'Beast Tamer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31308, 16, 67109565) /* EYES_PALETTE_DID */
-     , (31308, 9, 83890243) /* EYES_TEXTURE_DID */
-     , (31308, 17, 67110056) /* SKIN_PALETTE_DID */
-     , (31308, 10, 83890317) /* NOSE_TEXTURE_DID */
-     , (31308, 11, 83890346) /* MOUTH_TEXTURE_DID */
-     , (31308, 15, 67117027) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31308, 113, 2) /* GENDER_INT */
-     , (31308, 2, 31) /* CREATURE_TYPE_INT */
-     , (31308, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31308, 25, 200) /* LEVEL_INT */
-     , (31308, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31308, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31308, 5, 'Beast Tamer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (31308, 16, 67110063) /* EYES_PALETTE_DID */
      , (31308, 9, 83890241) /* EYES_TEXTURE_DID */
      , (31308, 17, 67110054) /* SKIN_PALETTE_DID */

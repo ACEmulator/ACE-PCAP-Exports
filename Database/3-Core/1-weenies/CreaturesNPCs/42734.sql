@@ -120,29 +120,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (42734, 5, 'Borelean''s Royal Guard') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42734, 16, 67109564) /* EYES_PALETTE_DID */
-     , (42734, 9, 83890457) /* EYES_TEXTURE_DID */
-     , (42734, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (42734, 10, 83890559) /* NOSE_TEXTURE_DID */
-     , (42734, 11, 83890663) /* MOUTH_TEXTURE_DID */
-     , (42734, 15, 67117000) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42734, 113, 1) /* GENDER_INT */
-     , (42734, 2, 31) /* CREATURE_TYPE_INT */
-     , (42734, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (42734, 25, 200) /* LEVEL_INT */
-     , (42734, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42734, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42734, 5, 'Borelean''s Royal Guard') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (42734, 16, 67110064) /* EYES_PALETTE_DID */
      , (42734, 9, 83890516) /* EYES_TEXTURE_DID */
      , (42734, 17, 67109560) /* SKIN_PALETTE_DID */

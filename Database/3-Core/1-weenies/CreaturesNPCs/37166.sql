@@ -91,12 +91,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (37166, 5, 'Scholar of Dericostian Texts') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (37166, 16, 67109565) /* EYES_PALETTE_DID */
-     , (37166, 9, 83890279) /* EYES_TEXTURE_DID */
-     , (37166, 17, 67109558) /* SKIN_PALETTE_DID */
-     , (37166, 10, 83890307) /* NOSE_TEXTURE_DID */
-     , (37166, 11, 83890339) /* MOUTH_TEXTURE_DID */
-     , (37166, 15, 67117080) /* HAIR_PALETTE_DID */;
+VALUES (37166, 16, 67110062) /* EYES_PALETTE_DID */
+     , (37166, 9, 83890262) /* EYES_TEXTURE_DID */
+     , (37166, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (37166, 10, 83890311) /* NOSE_TEXTURE_DID */
+     , (37166, 11, 83890326) /* MOUTH_TEXTURE_DID */
+     , (37166, 15, 67117001) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (37166, 113, 2) /* GENDER_INT */
@@ -105,6 +105,16 @@ VALUES (37166, 113, 2) /* GENDER_INT */
      , (37166, 25, 160) /* LEVEL_INT */
      , (37166, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (37166, 1, 160) /* STRENGTH_ATTRIBUTE */
+     , (37166, 2, 180) /* ENDURANCE_ATTRIBUTE */
+     , (37166, 4, 150) /* COORDINATION_ATTRIBUTE */
+     , (37166, 8, 120) /* QUICKNESS_ATTRIBUTE */
+     , (37166, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (37166, 32, 220) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37166, 64, 215) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (37166, 64, 215) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (37166, 128, 290) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (37166, 256, 275) /* MAX_MANA_ATTRIBUTE_2ND */;
 

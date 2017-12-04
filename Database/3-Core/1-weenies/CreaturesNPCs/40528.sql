@@ -36,3 +36,34 @@ VALUES (40528, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (40528, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (40528, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40528, 15, 'A signpost has been placed firmly in the ground. Someone wanted to get the word out. Maybe you should take a look at what it says.') /* SHORT_DESC_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40528, 384, 0) /*  */
+     , (40528, 370, 0) /* GEAR_DAMAGE_INT */
+     , (40528, 386, 0) /*  */
+     , (40528, 307, 0) /* DAMAGE_RATING_INT */
+     , (40528, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (40528, 387, 0) /*  */
+     , (40528, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (40528, 372, 0) /* GEAR_CRIT_INT */
+     , (40528, 388, 0) /*  */
+     , (40528, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (40528, 389, 0) /*  */
+     , (40528, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (40528, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (40528, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (40528, 313, 0) /* CRIT_RATING_INT */
+     , (40528, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (40528, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (40528, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (40528, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (40528, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (40528, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (40528, 381, 0) /*  */
+     , (40528, 382, 0) /*  */
+     , (40528, 383, 0) /*  */;
+

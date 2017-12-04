@@ -60,20 +60,6 @@ VALUES (53280, 113, 2) /* GENDER_INT */
      , (53280, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (53280, 25, 200) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (53280, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53280, 5, 'Spirit Speaker') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53280, 113, 2) /* GENDER_INT */
-     , (53280, 2, 101) /* CREATURE_TYPE_INT */
-     , (53280, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (53280, 25, 200) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (53280, 1, 255) /* STRENGTH_ATTRIBUTE */
      , (53280, 2, 220) /* ENDURANCE_ATTRIBUTE */

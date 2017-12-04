@@ -80,29 +80,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (27317, 5, 'Tusker Captive') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (27317, 16, 67110064) /* EYES_PALETTE_DID */
-     , (27317, 9, 83890506) /* EYES_TEXTURE_DID */
-     , (27317, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (27317, 10, 83890521) /* NOSE_TEXTURE_DID */
-     , (27317, 11, 83890632) /* MOUTH_TEXTURE_DID */
-     , (27317, 15, 67117028) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27317, 113, 1) /* GENDER_INT */
-     , (27317, 2, 31) /* CREATURE_TYPE_INT */
-     , (27317, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (27317, 25, 91) /* LEVEL_INT */
-     , (27317, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27317, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27317, 5, 'Tusker Captive') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (27317, 16, 67110065) /* EYES_PALETTE_DID */
      , (27317, 9, 83890448) /* EYES_TEXTURE_DID */
      , (27317, 17, 67109560) /* SKIN_PALETTE_DID */

@@ -92,29 +92,6 @@ VALUES (22723, 113, 2) /* GENDER_INT */
      , (22723, 25, 7) /* LEVEL_INT */
      , (22723, 188, 3) /* HERITAGE_GROUP_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22723, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22723, 5, 'Bowyer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (22723, 16, 67109565) /* EYES_PALETTE_DID */
-     , (22723, 9, 83890241) /* EYES_TEXTURE_DID */
-     , (22723, 17, 67110052) /* SKIN_PALETTE_DID */
-     , (22723, 10, 83890297) /* NOSE_TEXTURE_DID */
-     , (22723, 11, 83890355) /* MOUTH_TEXTURE_DID */
-     , (22723, 15, 67117075) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22723, 113, 2) /* GENDER_INT */
-     , (22723, 2, 31) /* CREATURE_TYPE_INT */
-     , (22723, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (22723, 25, 7) /* LEVEL_INT */
-     , (22723, 188, 3) /* HERITAGE_GROUP_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (22723, 1, 60) /* STRENGTH_ATTRIBUTE */
      , (22723, 2, 40) /* ENDURANCE_ATTRIBUTE */

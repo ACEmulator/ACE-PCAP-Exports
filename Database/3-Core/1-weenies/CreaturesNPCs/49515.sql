@@ -82,6 +82,47 @@ VALUES (49515, 5, 16794677)
      , (49515, 4, 16794678)
      , (49515, 8, 16794679);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49515, 384, 0) /*  */
+     , (49515, 370, 0) /* GEAR_DAMAGE_INT */
+     , (49515, 386, 0) /*  */
+     , (49515, 307, 0) /* DAMAGE_RATING_INT */
+     , (49515, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (49515, 387, 0) /*  */
+     , (49515, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (49515, 372, 0) /* GEAR_CRIT_INT */
+     , (49515, 388, 0) /*  */
+     , (49515, 5, 8344) /* ENCUMB_VAL_INT */
+     , (49515, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (49515, 389, 0) /*  */
+     , (49515, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (49515, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (49515, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (49515, 313, 0) /* CRIT_RATING_INT */
+     , (49515, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (49515, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (49515, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (49515, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (49515, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (49515, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (49515, 381, 0) /*  */
+     , (49515, 382, 0) /*  */
+     , (49515, 47, 4) /* ATTACK_TYPE_INT */
+     , (49515, 383, 0) /*  */
+     , (49515, 45, 16) /* DAMAGE_TYPE_INT */
+     , (49515, 49, -1) /* WEAPON_TIME_INT */
+     , (49515, 48, 45) /* WEAPON_SKILL_INT */
+     , (49515, 44, 0) /* DAMAGE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (49515, 22, 0) /* DAMAGE_VARIANCE_FLOAT */
+     , (49515, 63, 1) /* DAMAGE_MOD_FLOAT */
+     , (49515, 21, 0) /* WEAPON_LENGTH_FLOAT */
+     , (49515, 26, 0) /* MAXIMUM_VELOCITY_FLOAT */
+     , (49515, 62, 1) /* WEAPON_OFFENSE_FLOAT */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

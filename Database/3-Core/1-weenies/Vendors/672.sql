@@ -106,29 +106,6 @@ VALUES (672, 113, 2) /* GENDER_INT */
      , (672, 25, 4) /* LEVEL_INT */
      , (672, 188, 1) /* HERITAGE_GROUP_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (672, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (672, 5, 'Grocer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (672, 16, 67110064) /* EYES_PALETTE_DID */
-     , (672, 9, 83890255) /* EYES_TEXTURE_DID */
-     , (672, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (672, 10, 83890315) /* NOSE_TEXTURE_DID */
-     , (672, 11, 83890352) /* MOUTH_TEXTURE_DID */
-     , (672, 15, 67116995) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (672, 113, 2) /* GENDER_INT */
-     , (672, 2, 31) /* CREATURE_TYPE_INT */
-     , (672, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (672, 25, 4) /* LEVEL_INT */
-     , (672, 188, 1) /* HERITAGE_GROUP_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (672, 1, 30) /* STRENGTH_ATTRIBUTE */
      , (672, 2, 40) /* ENDURANCE_ATTRIBUTE */

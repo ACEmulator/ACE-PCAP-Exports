@@ -94,29 +94,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5121, 5, 'Society Agent') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5121, 16, 67110062) /* EYES_PALETTE_DID */
-     , (5121, 9, 83890458) /* EYES_TEXTURE_DID */
-     , (5121, 17, 67110048) /* SKIN_PALETTE_DID */
-     , (5121, 10, 83890530) /* NOSE_TEXTURE_DID */
-     , (5121, 11, 83890570) /* MOUTH_TEXTURE_DID */
-     , (5121, 15, 67117023) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5121, 113, 1) /* GENDER_INT */
-     , (5121, 2, 31) /* CREATURE_TYPE_INT */
-     , (5121, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (5121, 25, 45) /* LEVEL_INT */
-     , (5121, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5121, 64, 35) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5121, 5, 'Society Agent') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (5121, 16, 67110063) /* EYES_PALETTE_DID */
      , (5121, 9, 83890456) /* EYES_TEXTURE_DID */
      , (5121, 17, 67110049) /* SKIN_PALETTE_DID */

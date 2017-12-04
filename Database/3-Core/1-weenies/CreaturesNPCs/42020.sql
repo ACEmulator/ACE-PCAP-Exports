@@ -107,3 +107,22 @@ VALUES (42020, 0, 16789775)
      , (42020, 23, 16789781)
      , (42020, 24, 16789780);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42020, 386, 0) /*  */
+     , (42020, 307, 0) /* DAMAGE_RATING_INT */
+     , (42020, 387, 0) /*  */
+     , (42020, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (42020, 388, 0) /*  */
+     , (42020, 389, 0) /*  */
+     , (42020, 313, 0) /* CRIT_RATING_INT */
+     , (42020, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (42020, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (42020, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (42020, 381, 0) /*  */
+     , (42020, 382, 0) /*  */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (42020, 5, 2) /* MANA_RATE_FLOAT */;
+

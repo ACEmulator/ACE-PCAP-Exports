@@ -47,6 +47,16 @@ VALUES (10978, 67116653, 1, 48)
      , (10978, 67116641, 200, 8)
      , (10978, 67116641, 208, 48);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (10978, 2, 6) /* CREATURE_TYPE_INT */
+     , (10978, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (10978, 25, 188) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (10978, 64, 250) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

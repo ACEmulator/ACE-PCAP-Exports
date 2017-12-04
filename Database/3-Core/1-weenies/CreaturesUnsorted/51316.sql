@@ -43,15 +43,6 @@ VALUES (51316, 67113362, 0, 0);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51316, 2, 14) /* CREATURE_TYPE_INT */
-     , (51316, 25, 240) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51316, 64, 2200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (51316, 2, 14) /* CREATURE_TYPE_INT */
      , (51316, 307, 15) /* DAMAGE_RATING_INT */
      , (51316, 25, 240) /* LEVEL_INT */;
 

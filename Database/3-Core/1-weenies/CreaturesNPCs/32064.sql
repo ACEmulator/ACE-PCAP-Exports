@@ -84,29 +84,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (32064, 5, 'Ferran Knight') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32064, 16, 67109564) /* EYES_PALETTE_DID */
-     , (32064, 9, 83890451) /* EYES_TEXTURE_DID */
-     , (32064, 17, 67115906) /* SKIN_PALETTE_DID */
-     , (32064, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (32064, 11, 83890629) /* MOUTH_TEXTURE_DID */
-     , (32064, 15, 67117069) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32064, 113, 1) /* GENDER_INT */
-     , (32064, 2, 31) /* CREATURE_TYPE_INT */
-     , (32064, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (32064, 25, 136) /* LEVEL_INT */
-     , (32064, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32064, 64, 233) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32064, 5, 'Ferran Knight') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (32064, 16, 67110064) /* EYES_PALETTE_DID */
      , (32064, 9, 83890509) /* EYES_TEXTURE_DID */
      , (32064, 17, 67115901) /* SKIN_PALETTE_DID */

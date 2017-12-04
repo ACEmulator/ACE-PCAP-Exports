@@ -96,29 +96,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (28836, 5, 'Master Chef') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (28836, 16, 67110063) /* EYES_PALETTE_DID */
-     , (28836, 9, 83890508) /* EYES_TEXTURE_DID */
-     , (28836, 17, 67115905) /* SKIN_PALETTE_DID */
-     , (28836, 10, 83890547) /* NOSE_TEXTURE_DID */
-     , (28836, 11, 83890652) /* MOUTH_TEXTURE_DID */
-     , (28836, 15, 67117097) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28836, 113, 1) /* GENDER_INT */
-     , (28836, 2, 31) /* CREATURE_TYPE_INT */
-     , (28836, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (28836, 25, 90) /* LEVEL_INT */
-     , (28836, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28836, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28836, 5, 'Master Chef') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (28836, 16, 67110065) /* EYES_PALETTE_DID */
      , (28836, 9, 83890445) /* EYES_TEXTURE_DID */
      , (28836, 17, 67115908) /* SKIN_PALETTE_DID */

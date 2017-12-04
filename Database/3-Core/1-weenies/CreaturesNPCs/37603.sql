@@ -106,29 +106,6 @@ VALUES (37603, 5, 'Scout of the Web') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (37603, 16, 67110063) /* EYES_PALETTE_DID */
-     , (37603, 9, 83890454) /* EYES_TEXTURE_DID */
-     , (37603, 17, 67110059) /* SKIN_PALETTE_DID */
-     , (37603, 10, 83890544) /* NOSE_TEXTURE_DID */
-     , (37603, 11, 83890630) /* MOUTH_TEXTURE_DID */
-     , (37603, 15, 67117019) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37603, 113, 1) /* GENDER_INT */
-     , (37603, 2, 31) /* CREATURE_TYPE_INT */
-     , (37603, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (37603, 25, 100) /* LEVEL_INT */
-     , (37603, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37603, 64, 165) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37603, 5, 'Scout of the Web') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (37603, 16, 67110063) /* EYES_PALETTE_DID */
      , (37603, 9, 83890453) /* EYES_TEXTURE_DID */
      , (37603, 17, 67110048) /* SKIN_PALETTE_DID */
      , (37603, 10, 83890519) /* NOSE_TEXTURE_DID */

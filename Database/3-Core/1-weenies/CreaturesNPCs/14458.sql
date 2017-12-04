@@ -97,29 +97,6 @@ VALUES (14458, 5, 'Guard') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (14458, 16, 67109567) /* EYES_PALETTE_DID */
-     , (14458, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (14458, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (14458, 10, 83890553) /* NOSE_TEXTURE_DID */
-     , (14458, 11, 83890630) /* MOUTH_TEXTURE_DID */
-     , (14458, 15, 67116977) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14458, 113, 1) /* GENDER_INT */
-     , (14458, 2, 31) /* CREATURE_TYPE_INT */
-     , (14458, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (14458, 25, 35) /* LEVEL_INT */
-     , (14458, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (14458, 64, 185) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (14458, 5, 'Guard') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (14458, 16, 67109567) /* EYES_PALETTE_DID */
      , (14458, 9, 83890515) /* EYES_TEXTURE_DID */
      , (14458, 17, 67109558) /* SKIN_PALETTE_DID */
      , (14458, 10, 83890556) /* NOSE_TEXTURE_DID */

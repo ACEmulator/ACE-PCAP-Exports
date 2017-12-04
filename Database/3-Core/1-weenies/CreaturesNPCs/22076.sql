@@ -96,29 +96,6 @@ VALUES (22076, 5, 'Artist in Wood and Feathers') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (22076, 16, 67109564) /* EYES_PALETTE_DID */
-     , (22076, 9, 83890514) /* EYES_TEXTURE_DID */
-     , (22076, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (22076, 10, 83890554) /* NOSE_TEXTURE_DID */
-     , (22076, 11, 83890642) /* MOUTH_TEXTURE_DID */
-     , (22076, 15, 67116998) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (22076, 113, 1) /* GENDER_INT */
-     , (22076, 2, 31) /* CREATURE_TYPE_INT */
-     , (22076, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (22076, 25, 35) /* LEVEL_INT */
-     , (22076, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (22076, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (22076, 5, 'Artist in Wood and Feathers') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (22076, 16, 67109564) /* EYES_PALETTE_DID */
      , (22076, 9, 83890511) /* EYES_TEXTURE_DID */
      , (22076, 17, 67109559) /* SKIN_PALETTE_DID */
      , (22076, 10, 83890562) /* NOSE_TEXTURE_DID */

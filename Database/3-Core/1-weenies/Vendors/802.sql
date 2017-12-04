@@ -98,29 +98,6 @@ VALUES (802, 16, 67110063) /* EYES_PALETTE_DID */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (802, 113, 1) /* GENDER_INT */
      , (802, 2, 31) /* CREATURE_TYPE_INT */
-     , (802, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (802, 25, 8) /* LEVEL_INT */
-     , (802, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (802, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (802, 5, 'Weaponsmith') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (802, 16, 67110063) /* EYES_PALETTE_DID */
-     , (802, 9, 83890452) /* EYES_TEXTURE_DID */
-     , (802, 17, 67110061) /* SKIN_PALETTE_DID */
-     , (802, 10, 83890544) /* NOSE_TEXTURE_DID */
-     , (802, 11, 83890634) /* MOUTH_TEXTURE_DID */
-     , (802, 15, 67117020) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (802, 113, 1) /* GENDER_INT */
-     , (802, 2, 31) /* CREATURE_TYPE_INT */
      , (802, 307, 5) /* DAMAGE_RATING_INT */
      , (802, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (802, 25, 8) /* LEVEL_INT */

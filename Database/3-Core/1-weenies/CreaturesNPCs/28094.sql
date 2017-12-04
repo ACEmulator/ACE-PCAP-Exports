@@ -96,29 +96,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (28094, 5, 'High Queen''s Emissary') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (28094, 16, 67110064) /* EYES_PALETTE_DID */
-     , (28094, 9, 83890277) /* EYES_TEXTURE_DID */
-     , (28094, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (28094, 10, 83890286) /* NOSE_TEXTURE_DID */
-     , (28094, 11, 83890344) /* MOUTH_TEXTURE_DID */
-     , (28094, 15, 67117020) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28094, 113, 2) /* GENDER_INT */
-     , (28094, 2, 31) /* CREATURE_TYPE_INT */
-     , (28094, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (28094, 25, 125) /* LEVEL_INT */
-     , (28094, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28094, 64, 195) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28094, 5, 'High Queen''s Emissary') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (28094, 16, 67110063) /* EYES_PALETTE_DID */
      , (28094, 9, 83890284) /* EYES_TEXTURE_DID */
      , (28094, 17, 67109559) /* SKIN_PALETTE_DID */

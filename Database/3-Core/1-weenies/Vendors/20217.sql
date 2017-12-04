@@ -90,29 +90,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (20217, 5, 'Master Archmage') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (20217, 16, 67110063) /* EYES_PALETTE_DID */
-     , (20217, 9, 83890443) /* EYES_TEXTURE_DID */
-     , (20217, 17, 67109554) /* SKIN_PALETTE_DID */
-     , (20217, 10, 83890534) /* NOSE_TEXTURE_DID */
-     , (20217, 11, 83890645) /* MOUTH_TEXTURE_DID */
-     , (20217, 15, 67117076) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (20217, 113, 1) /* GENDER_INT */
-     , (20217, 2, 31) /* CREATURE_TYPE_INT */
-     , (20217, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (20217, 25, 14) /* LEVEL_INT */
-     , (20217, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (20217, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (20217, 5, 'Master Archmage') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (20217, 16, 67110062) /* EYES_PALETTE_DID */
      , (20217, 9, 83890456) /* EYES_TEXTURE_DID */
      , (20217, 17, 67109557) /* SKIN_PALETTE_DID */

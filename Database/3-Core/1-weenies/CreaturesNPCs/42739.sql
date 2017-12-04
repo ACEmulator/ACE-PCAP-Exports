@@ -92,29 +92,6 @@ VALUES (42739, 5, 'Tailor''s Apprentice') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (42739, 16, 67110064) /* EYES_PALETTE_DID */
-     , (42739, 9, 83890479) /* EYES_TEXTURE_DID */
-     , (42739, 17, 67115907) /* SKIN_PALETTE_DID */
-     , (42739, 10, 83890520) /* NOSE_TEXTURE_DID */
-     , (42739, 11, 83890665) /* MOUTH_TEXTURE_DID */
-     , (42739, 15, 67117077) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42739, 113, 1) /* GENDER_INT */
-     , (42739, 2, 31) /* CREATURE_TYPE_INT */
-     , (42739, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (42739, 25, 67) /* LEVEL_INT */
-     , (42739, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42739, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42739, 5, 'Tailor''s Apprentice') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42739, 16, 67110064) /* EYES_PALETTE_DID */
      , (42739, 9, 83890457) /* EYES_TEXTURE_DID */
      , (42739, 17, 67115903) /* SKIN_PALETTE_DID */
      , (42739, 10, 83890546) /* NOSE_TEXTURE_DID */

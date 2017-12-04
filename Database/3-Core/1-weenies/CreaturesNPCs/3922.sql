@@ -93,29 +93,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (3922, 5, 'Trophy Collector') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (3922, 16, 67110062) /* EYES_PALETTE_DID */
-     , (3922, 9, 83890479) /* EYES_TEXTURE_DID */
-     , (3922, 17, 67109553) /* SKIN_PALETTE_DID */
-     , (3922, 10, 83890547) /* NOSE_TEXTURE_DID */
-     , (3922, 11, 83890599) /* MOUTH_TEXTURE_DID */
-     , (3922, 15, 67117000) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (3922, 113, 1) /* GENDER_INT */
-     , (3922, 2, 31) /* CREATURE_TYPE_INT */
-     , (3922, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (3922, 25, 7) /* LEVEL_INT */
-     , (3922, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (3922, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (3922, 5, 'Trophy Collector') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (3922, 16, 67110063) /* EYES_PALETTE_DID */
      , (3922, 9, 83890469) /* EYES_TEXTURE_DID */
      , (3922, 17, 67109555) /* SKIN_PALETTE_DID */

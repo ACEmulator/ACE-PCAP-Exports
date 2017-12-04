@@ -38,3 +38,37 @@ VALUES (34726, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (34726, 42, True) /* ALLOW_EDGE_SLIDE_BOOL */
      , (34726, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (34726, 16, 'Throw items away by giving them to the barrel.') /* LONG_DESC_STRING */
+     , (34726, 14, 'Thank you for not littering.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34726, 384, 0) /*  */
+     , (34726, 370, 0) /* GEAR_DAMAGE_INT */
+     , (34726, 386, 0) /*  */
+     , (34726, 19, 0) /* VALUE_INT */
+     , (34726, 307, 0) /* DAMAGE_RATING_INT */
+     , (34726, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (34726, 387, 0) /*  */
+     , (34726, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (34726, 372, 0) /* GEAR_CRIT_INT */
+     , (34726, 388, 0) /*  */
+     , (34726, 5, 400) /* ENCUMB_VAL_INT */
+     , (34726, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (34726, 389, 0) /*  */
+     , (34726, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (34726, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (34726, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (34726, 313, 0) /* CRIT_RATING_INT */
+     , (34726, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (34726, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (34726, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (34726, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (34726, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (34726, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (34726, 381, 0) /*  */
+     , (34726, 382, 0) /*  */
+     , (34726, 383, 0) /*  */;
+

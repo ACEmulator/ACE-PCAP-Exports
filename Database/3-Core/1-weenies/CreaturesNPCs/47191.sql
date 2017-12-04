@@ -63,3 +63,13 @@ VALUES (47191, 0, 16785699)
      , (47191, 19, 16785704)
      , (47191, 20, 16785705);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (47191, 2, 5) /* CREATURE_TYPE_INT */
+     , (47191, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (47191, 25, 115) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (47191, 64, 450) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

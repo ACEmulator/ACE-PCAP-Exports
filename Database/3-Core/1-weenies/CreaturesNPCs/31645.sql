@@ -92,29 +92,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31645, 5, 'Iron-Spined Chittick Immolator') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31645, 16, 67109564) /* EYES_PALETTE_DID */
-     , (31645, 9, 83890262) /* EYES_TEXTURE_DID */
-     , (31645, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (31645, 10, 83890291) /* NOSE_TEXTURE_DID */
-     , (31645, 11, 83890357) /* MOUTH_TEXTURE_DID */
-     , (31645, 15, 67116996) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31645, 113, 2) /* GENDER_INT */
-     , (31645, 2, 31) /* CREATURE_TYPE_INT */
-     , (31645, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31645, 25, 86) /* LEVEL_INT */
-     , (31645, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31645, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31645, 5, 'Iron-Spined Chittick Immolator') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (31645, 16, 67110064) /* EYES_PALETTE_DID */
      , (31645, 9, 83890282) /* EYES_TEXTURE_DID */
      , (31645, 17, 67109560) /* SKIN_PALETTE_DID */

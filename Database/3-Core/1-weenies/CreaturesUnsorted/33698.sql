@@ -34,3 +34,22 @@ VALUES (33698, 13, True) /* ETHEREAL_BOOL */
      , (33698, 19, True) /* ATTACKABLE_BOOL */
      , (33698, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33698, 2, 62) /* CREATURE_TYPE_INT */
+     , (33698, 25, 100) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (33698, 1, 90) /* STRENGTH_ATTRIBUTE */
+     , (33698, 2, 90) /* ENDURANCE_ATTRIBUTE */
+     , (33698, 4, 130) /* COORDINATION_ATTRIBUTE */
+     , (33698, 8, 100) /* QUICKNESS_ATTRIBUTE */
+     , (33698, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (33698, 32, 150) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (33698, 64, 2000) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (33698, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (33698, 256, 450) /* MAX_MANA_ATTRIBUTE_2ND */;
+

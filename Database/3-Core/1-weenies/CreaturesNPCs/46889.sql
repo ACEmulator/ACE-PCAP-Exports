@@ -105,19 +105,6 @@ VALUES (46889, 5, 'Spectral Commander') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46889, 2, 77) /* CREATURE_TYPE_INT */
-     , (46889, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (46889, 25, 275) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (46889, 64, 19425) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (46889, 5, 'Spectral Commander') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (46889, 2, 77) /* CREATURE_TYPE_INT */
      , (46889, 307, 35) /* DAMAGE_RATING_INT */
      , (46889, 308, 30) /* DAMAGE_RESIST_RATING_INT */
      , (46889, 134, 16) /* PLAYER_KILLER_STATUS_INT */

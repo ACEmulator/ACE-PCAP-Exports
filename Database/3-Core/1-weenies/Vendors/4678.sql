@@ -90,6 +90,29 @@ VALUES (4678, 12, 16778423)
      , (4678, 8, 16781859)
      , (4678, 16, 16778594);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4678, 5, 'Barkeeper') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (4678, 16, 67110062) /* EYES_PALETTE_DID */
+     , (4678, 9, 83890241) /* EYES_TEXTURE_DID */
+     , (4678, 17, 67109555) /* SKIN_PALETTE_DID */
+     , (4678, 10, 83890300) /* NOSE_TEXTURE_DID */
+     , (4678, 11, 83890333) /* MOUTH_TEXTURE_DID */
+     , (4678, 15, 67117072) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4678, 113, 2) /* GENDER_INT */
+     , (4678, 2, 31) /* CREATURE_TYPE_INT */
+     , (4678, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (4678, 25, 8) /* LEVEL_INT */
+     , (4678, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (4678, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

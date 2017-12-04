@@ -104,29 +104,6 @@ VALUES (13223, 16, 67110062) /* EYES_PALETTE_DID */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (13223, 113, 1) /* GENDER_INT */
      , (13223, 2, 31) /* CREATURE_TYPE_INT */
-     , (13223, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (13223, 25, 17) /* LEVEL_INT */
-     , (13223, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (13223, 64, 158) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (13223, 5, 'Woodsman') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (13223, 16, 67110062) /* EYES_PALETTE_DID */
-     , (13223, 9, 83890496) /* EYES_TEXTURE_DID */
-     , (13223, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (13223, 10, 83890518) /* NOSE_TEXTURE_DID */
-     , (13223, 11, 83890655) /* MOUTH_TEXTURE_DID */
-     , (13223, 15, 67116990) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (13223, 113, 1) /* GENDER_INT */
-     , (13223, 2, 31) /* CREATURE_TYPE_INT */
      , (13223, 307, 5) /* DAMAGE_RATING_INT */
      , (13223, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (13223, 25, 17) /* LEVEL_INT */

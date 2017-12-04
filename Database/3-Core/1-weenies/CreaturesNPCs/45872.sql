@@ -87,29 +87,6 @@ VALUES (45872, 16, 67116953) /* EYES_PALETTE_DID */
      , (45872, 15, 67116999) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45872, 113, 1) /* GENDER_INT */
-     , (45872, 2, 31) /* CREATURE_TYPE_INT */
-     , (45872, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (45872, 25, 200) /* LEVEL_INT */
-     , (45872, 188, 11) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (45872, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (45872, 5, 'Society Stipend Officer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (45872, 16, 67116953) /* EYES_PALETTE_DID */
-     , (45872, 9, 83898358) /* EYES_TEXTURE_DID */
-     , (45872, 17, 67116934) /* SKIN_PALETTE_DID */
-     , (45872, 10, 83898381) /* NOSE_TEXTURE_DID */
-     , (45872, 11, 83898370) /* MOUTH_TEXTURE_DID */
-     , (45872, 15, 67116999) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (45872, 288, 1001) /* SOCIETY_RANK_ELDWEB_INT */
      , (45872, 113, 1) /* GENDER_INT */
      , (45872, 2, 31) /* CREATURE_TYPE_INT */

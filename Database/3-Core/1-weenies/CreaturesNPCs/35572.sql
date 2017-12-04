@@ -53,3 +53,26 @@ VALUES (35572, 14, 16788538)
      , (35572, 5, 16788484)
      , (35572, 0, 16788470);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35572, 5, 'Drudge Prisoner') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35572, 2, 2) /* CREATURE_TYPE_INT */
+     , (35572, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (35572, 25, 84) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (35572, 1, 220) /* STRENGTH_ATTRIBUTE */
+     , (35572, 2, 280) /* ENDURANCE_ATTRIBUTE */
+     , (35572, 4, 280) /* COORDINATION_ATTRIBUTE */
+     , (35572, 8, 150) /* QUICKNESS_ATTRIBUTE */
+     , (35572, 16, 190) /* FOCUS_ATTRIBUTE */
+     , (35572, 32, 235) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (35572, 64, 240) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (35572, 128, 431) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (35572, 256, 245) /* MAX_MANA_ATTRIBUTE_2ND */;
+

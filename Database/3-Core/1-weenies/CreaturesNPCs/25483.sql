@@ -90,29 +90,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (25483, 5, 'Assistant to Nuhmudira') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (25483, 16, 67109564) /* EYES_PALETTE_DID */
-     , (25483, 9, 83890481) /* EYES_TEXTURE_DID */
-     , (25483, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (25483, 10, 83890558) /* NOSE_TEXTURE_DID */
-     , (25483, 11, 83890641) /* MOUTH_TEXTURE_DID */
-     , (25483, 15, 67117017) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25483, 113, 1) /* GENDER_INT */
-     , (25483, 2, 31) /* CREATURE_TYPE_INT */
-     , (25483, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (25483, 25, 5) /* LEVEL_INT */
-     , (25483, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (25483, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (25483, 5, 'Assistant to Nuhmudira') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (25483, 16, 67110063) /* EYES_PALETTE_DID */
      , (25483, 9, 83890481) /* EYES_TEXTURE_DID */
      , (25483, 17, 67109560) /* SKIN_PALETTE_DID */

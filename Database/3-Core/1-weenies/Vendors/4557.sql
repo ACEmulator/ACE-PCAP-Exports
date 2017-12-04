@@ -108,29 +108,6 @@ VALUES (4557, 113, 1) /* GENDER_INT */
      , (4557, 25, 7) /* LEVEL_INT */
      , (4557, 188, 3) /* HERITAGE_GROUP_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (4557, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (4557, 5, 'Shopkeeper') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (4557, 16, 67110063) /* EYES_PALETTE_DID */
-     , (4557, 9, 83890446) /* EYES_TEXTURE_DID */
-     , (4557, 17, 67110055) /* SKIN_PALETTE_DID */
-     , (4557, 10, 83890519) /* NOSE_TEXTURE_DID */
-     , (4557, 11, 83890613) /* MOUTH_TEXTURE_DID */
-     , (4557, 15, 67117022) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4557, 113, 1) /* GENDER_INT */
-     , (4557, 2, 31) /* CREATURE_TYPE_INT */
-     , (4557, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (4557, 25, 7) /* LEVEL_INT */
-     , (4557, 188, 3) /* HERITAGE_GROUP_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (4557, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (4557, 2, 70) /* ENDURANCE_ATTRIBUTE */

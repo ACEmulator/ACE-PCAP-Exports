@@ -95,29 +95,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5048, 5, 'Citizen of Lytelthorpe') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5048, 16, 67109564) /* EYES_PALETTE_DID */
-     , (5048, 9, 83890448) /* EYES_TEXTURE_DID */
-     , (5048, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (5048, 10, 83890554) /* NOSE_TEXTURE_DID */
-     , (5048, 11, 83890587) /* MOUTH_TEXTURE_DID */
-     , (5048, 15, 67117016) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5048, 113, 1) /* GENDER_INT */
-     , (5048, 2, 31) /* CREATURE_TYPE_INT */
-     , (5048, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (5048, 25, 5) /* LEVEL_INT */
-     , (5048, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5048, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5048, 5, 'Citizen of Lytelthorpe') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (5048, 16, 67109567) /* EYES_PALETTE_DID */
      , (5048, 9, 83890506) /* EYES_TEXTURE_DID */
      , (5048, 17, 67109562) /* SKIN_PALETTE_DID */

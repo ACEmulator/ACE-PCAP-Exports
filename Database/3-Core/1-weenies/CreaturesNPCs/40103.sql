@@ -117,3 +117,36 @@ VALUES (40103, 9, 16794074)
      , (40103, 8, 16789358)
      , (40103, 16, 16794064);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (40103, 5, 'Wisp Hunter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (40103, 16, 67109567) /* EYES_PALETTE_DID */
+     , (40103, 9, 83890505) /* EYES_TEXTURE_DID */
+     , (40103, 17, 67109557) /* SKIN_PALETTE_DID */
+     , (40103, 10, 83890530) /* NOSE_TEXTURE_DID */
+     , (40103, 11, 83890666) /* MOUTH_TEXTURE_DID */
+     , (40103, 15, 67117019) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (40103, 113, 1) /* GENDER_INT */
+     , (40103, 2, 31) /* CREATURE_TYPE_INT */
+     , (40103, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (40103, 25, 190) /* LEVEL_INT */
+     , (40103, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (40103, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (40103, 2, 290) /* ENDURANCE_ATTRIBUTE */
+     , (40103, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (40103, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (40103, 16, 120) /* FOCUS_ATTRIBUTE */
+     , (40103, 32, 130) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (40103, 64, 295) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (40103, 128, 440) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (40103, 256, 230) /* MAX_MANA_ATTRIBUTE_2ND */;
+

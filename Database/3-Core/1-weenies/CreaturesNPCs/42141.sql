@@ -119,29 +119,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (42141, 5, 'Portal Warden') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42141, 16, 67109565) /* EYES_PALETTE_DID */
-     , (42141, 9, 83890283) /* EYES_TEXTURE_DID */
-     , (42141, 17, 67110047) /* SKIN_PALETTE_DID */
-     , (42141, 10, 83890304) /* NOSE_TEXTURE_DID */
-     , (42141, 11, 83890348) /* MOUTH_TEXTURE_DID */
-     , (42141, 15, 67116994) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (42141, 113, 2) /* GENDER_INT */
-     , (42141, 2, 31) /* CREATURE_TYPE_INT */
-     , (42141, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (42141, 25, 150) /* LEVEL_INT */
-     , (42141, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42141, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (42141, 5, 'Portal Warden') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (42141, 16, 67110062) /* EYES_PALETTE_DID */
      , (42141, 9, 83890243) /* EYES_TEXTURE_DID */
      , (42141, 17, 67110057) /* SKIN_PALETTE_DID */

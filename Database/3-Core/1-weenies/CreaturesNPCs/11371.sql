@@ -50,16 +50,6 @@ VALUES (11371, 67116629, 1, 48)
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (11371, 2, 6) /* CREATURE_TYPE_INT */
-     , (11371, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (11371, 25, 11) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11371, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11371, 2, 6) /* CREATURE_TYPE_INT */
      , (11371, 307, 5) /* DAMAGE_RATING_INT */
      , (11371, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (11371, 25, 11) /* LEVEL_INT */;

@@ -84,16 +84,6 @@ VALUES (30049, 2, 78) /* CREATURE_TYPE_INT */
      , (30049, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (30049, 25, 123) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30049, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30049, 2, 78) /* CREATURE_TYPE_INT */
-     , (30049, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (30049, 25, 123) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (30049, 1, 150) /* STRENGTH_ATTRIBUTE */
      , (30049, 2, 180) /* ENDURANCE_ATTRIBUTE */

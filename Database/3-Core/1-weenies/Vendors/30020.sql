@@ -46,19 +46,6 @@ VALUES (30020, 2, 26) /* CREATURE_TYPE_INT */
      , (30020, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (30020, 25, 39) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30020, 64, 150) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30020, 5, 'Master Archmage') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30020, 2, 26) /* CREATURE_TYPE_INT */
-     , (30020, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (30020, 25, 39) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (30020, 1, 90) /* STRENGTH_ATTRIBUTE */
      , (30020, 2, 80) /* ENDURANCE_ATTRIBUTE */

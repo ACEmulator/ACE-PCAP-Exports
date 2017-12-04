@@ -91,29 +91,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (41615, 5, 'Arcanum Tinkerer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (41615, 16, 67110063) /* EYES_PALETTE_DID */
-     , (41615, 9, 83890241) /* EYES_TEXTURE_DID */
-     , (41615, 17, 67109557) /* SKIN_PALETTE_DID */
-     , (41615, 10, 83890302) /* NOSE_TEXTURE_DID */
-     , (41615, 11, 83890336) /* MOUTH_TEXTURE_DID */
-     , (41615, 15, 67116998) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (41615, 113, 2) /* GENDER_INT */
-     , (41615, 2, 31) /* CREATURE_TYPE_INT */
-     , (41615, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (41615, 25, 200) /* LEVEL_INT */
-     , (41615, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (41615, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (41615, 5, 'Arcanum Tinkerer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (41615, 16, 67110062) /* EYES_PALETTE_DID */
      , (41615, 9, 83890257) /* EYES_TEXTURE_DID */
      , (41615, 17, 67109557) /* SKIN_PALETTE_DID */

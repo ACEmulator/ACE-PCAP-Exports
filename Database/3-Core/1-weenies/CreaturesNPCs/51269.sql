@@ -89,3 +89,38 @@ VALUES (51269, 12, 16778423)
      , (51269, 4, 16783485)
      , (51269, 8, 16783487);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51269, 5, 'Mana Siphon Taskmaster') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (51269, 16, 67109565) /* EYES_PALETTE_DID */
+     , (51269, 9, 83890275) /* EYES_TEXTURE_DID */
+     , (51269, 17, 67109560) /* SKIN_PALETTE_DID */
+     , (51269, 10, 83890313) /* NOSE_TEXTURE_DID */
+     , (51269, 11, 83890327) /* MOUTH_TEXTURE_DID */
+     , (51269, 15, 67116988) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51269, 113, 2) /* GENDER_INT */
+     , (51269, 2, 31) /* CREATURE_TYPE_INT */
+     , (51269, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (51269, 25, 180) /* LEVEL_INT */
+     , (51269, 281, 1) /* FACTION1_BITS_INT */
+     , (51269, 188, 1) /* HERITAGE_GROUP_INT */
+     , (51269, 287, 1) /* SOCIETY_RANK_CELHAN_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (51269, 1, 290) /* STRENGTH_ATTRIBUTE */
+     , (51269, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (51269, 4, 290) /* COORDINATION_ATTRIBUTE */
+     , (51269, 8, 290) /* QUICKNESS_ATTRIBUTE */
+     , (51269, 16, 200) /* FOCUS_ATTRIBUTE */
+     , (51269, 32, 200) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (51269, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (51269, 128, 396) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (51269, 256, 396) /* MAX_MANA_ATTRIBUTE_2ND */;
+

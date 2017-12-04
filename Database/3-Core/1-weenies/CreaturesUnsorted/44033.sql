@@ -43,15 +43,6 @@ VALUES (44033, 67112822, 0, 0);
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (44033, 2, 13) /* CREATURE_TYPE_INT */
-     , (44033, 25, 300) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (44033, 64, 10000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (44033, 2, 13) /* CREATURE_TYPE_INT */
      , (44033, 307, 10) /* DAMAGE_RATING_INT */
      , (44033, 25, 300) /* LEVEL_INT */
      , (44033, 315, 9999) /* CRIT_RESIST_RATING_INT */;

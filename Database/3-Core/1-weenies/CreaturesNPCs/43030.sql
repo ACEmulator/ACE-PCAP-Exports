@@ -95,29 +95,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (43030, 5, 'Explorer Society Outreach Officer') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (43030, 16, 67109565) /* EYES_PALETTE_DID */
-     , (43030, 9, 83890480) /* EYES_TEXTURE_DID */
-     , (43030, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (43030, 10, 83890549) /* NOSE_TEXTURE_DID */
-     , (43030, 11, 83890657) /* MOUTH_TEXTURE_DID */
-     , (43030, 15, 67117022) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43030, 113, 1) /* GENDER_INT */
-     , (43030, 2, 31) /* CREATURE_TYPE_INT */
-     , (43030, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43030, 25, 100) /* LEVEL_INT */
-     , (43030, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43030, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43030, 5, 'Explorer Society Outreach Officer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (43030, 16, 67109564) /* EYES_PALETTE_DID */
      , (43030, 9, 83890493) /* EYES_TEXTURE_DID */
      , (43030, 17, 67109562) /* SKIN_PALETTE_DID */

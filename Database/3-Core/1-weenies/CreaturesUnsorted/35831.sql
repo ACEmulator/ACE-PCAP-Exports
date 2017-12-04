@@ -59,15 +59,6 @@ VALUES (35831, 14, 16784286)
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (35831, 2, 3) /* CREATURE_TYPE_INT */
-     , (35831, 25, 160) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (35831, 64, 2500) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35831, 2, 3) /* CREATURE_TYPE_INT */
      , (35831, 307, 2) /* DAMAGE_RATING_INT */
      , (35831, 25, 160) /* LEVEL_INT */;
 

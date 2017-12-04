@@ -92,29 +92,6 @@ VALUES (53385, 5, 'Spell Instructor') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (53385, 16, 67116854) /* EYES_PALETTE_DID */
-     , (53385, 9, 83890263) /* EYES_TEXTURE_DID */
-     , (53385, 17, 67116847) /* SKIN_PALETTE_DID */
-     , (53385, 10, 83890310) /* NOSE_TEXTURE_DID */
-     , (53385, 11, 83890358) /* MOUTH_TEXTURE_DID */
-     , (53385, 15, 67117011) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (53385, 113, 2) /* GENDER_INT */
-     , (53385, 2, 31) /* CREATURE_TYPE_INT */
-     , (53385, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (53385, 25, 200) /* LEVEL_INT */
-     , (53385, 188, 5) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (53385, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (53385, 5, 'Spell Instructor') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (53385, 16, 67116854) /* EYES_PALETTE_DID */
      , (53385, 9, 83890277) /* EYES_TEXTURE_DID */
      , (53385, 17, 67116848) /* SKIN_PALETTE_DID */
      , (53385, 10, 83890292) /* NOSE_TEXTURE_DID */

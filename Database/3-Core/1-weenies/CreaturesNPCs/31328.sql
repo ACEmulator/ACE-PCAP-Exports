@@ -95,29 +95,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31328, 5, 'Master Forger') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31328, 16, 67110063) /* EYES_PALETTE_DID */
-     , (31328, 9, 83890445) /* EYES_TEXTURE_DID */
-     , (31328, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (31328, 10, 83890522) /* NOSE_TEXTURE_DID */
-     , (31328, 11, 83890645) /* MOUTH_TEXTURE_DID */
-     , (31328, 15, 67117023) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31328, 113, 1) /* GENDER_INT */
-     , (31328, 2, 31) /* CREATURE_TYPE_INT */
-     , (31328, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31328, 25, 120) /* LEVEL_INT */
-     , (31328, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31328, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31328, 5, 'Master Forger') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (31328, 16, 67110062) /* EYES_PALETTE_DID */
      , (31328, 9, 83890513) /* EYES_TEXTURE_DID */
      , (31328, 17, 67109561) /* SKIN_PALETTE_DID */

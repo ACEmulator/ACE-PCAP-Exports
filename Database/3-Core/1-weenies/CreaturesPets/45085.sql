@@ -37,3 +37,23 @@ VALUES (45085, 13, True) /* ETHEREAL_BOOL */
      , (45085, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (45085, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (45085, 2, 21) /* CREATURE_TYPE_INT */
+     , (45085, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (45085, 25, 5) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (45085, 1, 20) /* STRENGTH_ATTRIBUTE */
+     , (45085, 2, 30) /* ENDURANCE_ATTRIBUTE */
+     , (45085, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (45085, 8, 55) /* QUICKNESS_ATTRIBUTE */
+     , (45085, 16, 25) /* FOCUS_ATTRIBUTE */
+     , (45085, 32, 15) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (45085, 64, 30) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (45085, 128, 140) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (45085, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
+

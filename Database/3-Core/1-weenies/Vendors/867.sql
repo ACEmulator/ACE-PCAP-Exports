@@ -104,29 +104,6 @@ VALUES (867, 113, 2) /* GENDER_INT */
      , (867, 25, 6) /* LEVEL_INT */
      , (867, 188, 3) /* HERITAGE_GROUP_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (867, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (867, 5, 'Healer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (867, 16, 67109565) /* EYES_PALETTE_DID */
-     , (867, 9, 83890237) /* EYES_TEXTURE_DID */
-     , (867, 17, 67110052) /* SKIN_PALETTE_DID */
-     , (867, 10, 83890289) /* NOSE_TEXTURE_DID */
-     , (867, 11, 83890323) /* MOUTH_TEXTURE_DID */
-     , (867, 15, 67116992) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (867, 113, 2) /* GENDER_INT */
-     , (867, 2, 31) /* CREATURE_TYPE_INT */
-     , (867, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (867, 25, 6) /* LEVEL_INT */
-     , (867, 188, 3) /* HERITAGE_GROUP_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (867, 1, 40) /* STRENGTH_ATTRIBUTE */
      , (867, 2, 50) /* ENDURANCE_ATTRIBUTE */

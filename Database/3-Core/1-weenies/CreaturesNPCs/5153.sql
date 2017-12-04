@@ -89,29 +89,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (5153, 5, 'Citizen of Al-Arqas') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (5153, 16, 67110062) /* EYES_PALETTE_DID */
-     , (5153, 9, 83890263) /* EYES_TEXTURE_DID */
-     , (5153, 17, 67109557) /* SKIN_PALETTE_DID */
-     , (5153, 10, 83890294) /* NOSE_TEXTURE_DID */
-     , (5153, 11, 83890331) /* MOUTH_TEXTURE_DID */
-     , (5153, 15, 67117078) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5153, 113, 2) /* GENDER_INT */
-     , (5153, 2, 31) /* CREATURE_TYPE_INT */
-     , (5153, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (5153, 25, 11) /* LEVEL_INT */
-     , (5153, 188, 2) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (5153, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (5153, 5, 'Citizen of Al-Arqas') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (5153, 16, 67109567) /* EYES_PALETTE_DID */
      , (5153, 9, 83890263) /* EYES_TEXTURE_DID */
      , (5153, 17, 67109551) /* SKIN_PALETTE_DID */

@@ -100,29 +100,6 @@ VALUES (814, 16, 67110062) /* EYES_PALETTE_DID */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (814, 113, 1) /* GENDER_INT */
      , (814, 2, 31) /* CREATURE_TYPE_INT */
-     , (814, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (814, 25, 7) /* LEVEL_INT */
-     , (814, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (814, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (814, 5, 'Bowyer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (814, 16, 67110062) /* EYES_PALETTE_DID */
-     , (814, 9, 83890454) /* EYES_TEXTURE_DID */
-     , (814, 17, 67110054) /* SKIN_PALETTE_DID */
-     , (814, 10, 83890550) /* NOSE_TEXTURE_DID */
-     , (814, 11, 83890577) /* MOUTH_TEXTURE_DID */
-     , (814, 15, 67117000) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (814, 113, 1) /* GENDER_INT */
-     , (814, 2, 31) /* CREATURE_TYPE_INT */
      , (814, 307, 5) /* DAMAGE_RATING_INT */
      , (814, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (814, 25, 7) /* LEVEL_INT */

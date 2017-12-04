@@ -37,15 +37,6 @@ VALUES (49197, 13, True) /* ETHEREAL_BOOL */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (49197, 2, 20) /* CREATURE_TYPE_INT */
-     , (49197, 25, 180) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (49197, 64, 1020) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49197, 2, 20) /* CREATURE_TYPE_INT */
      , (49197, 307, 12) /* DAMAGE_RATING_INT */
      , (49197, 308, 13) /* DAMAGE_RESIST_RATING_INT */
      , (49197, 25, 180) /* LEVEL_INT */

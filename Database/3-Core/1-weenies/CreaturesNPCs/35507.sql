@@ -85,3 +85,26 @@ VALUES (35507, 0, 16783894)
      , (35507, 14, 16788202)
      , (35507, 16, 16783891);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (35507, 5, 'Gravekeeper') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35507, 2, 77) /* CREATURE_TYPE_INT */
+     , (35507, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (35507, 25, 80) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (35507, 1, 140) /* STRENGTH_ATTRIBUTE */
+     , (35507, 2, 200) /* ENDURANCE_ATTRIBUTE */
+     , (35507, 4, 160) /* COORDINATION_ATTRIBUTE */
+     , (35507, 8, 160) /* QUICKNESS_ATTRIBUTE */
+     , (35507, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (35507, 32, 290) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (35507, 64, 200) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (35507, 128, 350) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (35507, 256, 440) /* MAX_MANA_ATTRIBUTE_2ND */;
+

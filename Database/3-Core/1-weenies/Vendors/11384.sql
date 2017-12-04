@@ -106,29 +106,6 @@ VALUES (11384, 113, 2) /* GENDER_INT */
      , (11384, 25, 7) /* LEVEL_INT */
      , (11384, 188, 1) /* HERITAGE_GROUP_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (11384, 64, 138) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (11384, 5, 'Barkeeper') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (11384, 16, 67110064) /* EYES_PALETTE_DID */
-     , (11384, 9, 83890259) /* EYES_TEXTURE_DID */
-     , (11384, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (11384, 10, 83890300) /* NOSE_TEXTURE_DID */
-     , (11384, 11, 83890346) /* MOUTH_TEXTURE_DID */
-     , (11384, 15, 67116988) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11384, 113, 2) /* GENDER_INT */
-     , (11384, 2, 31) /* CREATURE_TYPE_INT */
-     , (11384, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (11384, 25, 7) /* LEVEL_INT */
-     , (11384, 188, 1) /* HERITAGE_GROUP_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (11384, 1, 80) /* STRENGTH_ATTRIBUTE */
      , (11384, 2, 75) /* ENDURANCE_ATTRIBUTE */

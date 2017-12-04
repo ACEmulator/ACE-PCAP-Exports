@@ -52,19 +52,6 @@ VALUES (27262, 2, 57) /* CREATURE_TYPE_INT */
      , (27262, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (27262, 25, 95) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27262, 64, 425) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27262, 5, 'Coral Golem Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27262, 2, 57) /* CREATURE_TYPE_INT */
-     , (27262, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (27262, 25, 95) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (27262, 1, 250) /* STRENGTH_ATTRIBUTE */
      , (27262, 2, 250) /* ENDURANCE_ATTRIBUTE */

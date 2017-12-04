@@ -79,3 +79,16 @@ VALUES (38206, 0, 16788885)
      , (38206, 12, 16788891)
      , (38206, 16, 16789125);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (38206, 5, 'Node Guardian') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (38206, 2, 13) /* CREATURE_TYPE_INT */
+     , (38206, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (38206, 25, 720) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (38206, 64, 1870) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

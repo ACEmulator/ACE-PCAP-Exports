@@ -97,29 +97,6 @@ VALUES (32715, 5, 'Rat Catcher') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (32715, 16, 67109565) /* EYES_PALETTE_DID */
-     , (32715, 9, 83890471) /* EYES_TEXTURE_DID */
-     , (32715, 17, 67110057) /* SKIN_PALETTE_DID */
-     , (32715, 10, 83890550) /* NOSE_TEXTURE_DID */
-     , (32715, 11, 83890630) /* MOUTH_TEXTURE_DID */
-     , (32715, 15, 67117002) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (32715, 113, 1) /* GENDER_INT */
-     , (32715, 2, 31) /* CREATURE_TYPE_INT */
-     , (32715, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (32715, 25, 28) /* LEVEL_INT */
-     , (32715, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (32715, 64, 175) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (32715, 5, 'Rat Catcher') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (32715, 16, 67109565) /* EYES_PALETTE_DID */
      , (32715, 9, 83890448) /* EYES_TEXTURE_DID */
      , (32715, 17, 67110061) /* SKIN_PALETTE_DID */
      , (32715, 10, 83890527) /* NOSE_TEXTURE_DID */

@@ -50,19 +50,6 @@ VALUES (34821, 5, 'Dead Eye Hunter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (34821, 2, 75) /* CREATURE_TYPE_INT */
-     , (34821, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (34821, 25, 100) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (34821, 64, 280) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (34821, 5, 'Dead Eye Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34821, 2, 75) /* CREATURE_TYPE_INT */
      , (34821, 307, 5) /* DAMAGE_RATING_INT */
      , (34821, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (34821, 25, 100) /* LEVEL_INT */;

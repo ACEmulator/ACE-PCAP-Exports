@@ -57,3 +57,39 @@ VALUES (41805, 0, 16794145)
      , (41805, 15, 16794143)
      , (41805, 16, 16794149);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (41805, 16, 'Killed by adventurers.') /* LONG_DESC_STRING */
+     , (41805, 14, 'Use this corpse to search it.') /* USE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (41805, 384, 0) /*  */
+     , (41805, 98, 1484699612) /* CREATION_TIMESTAMP_INT */
+     , (41805, 370, 0) /* GEAR_DAMAGE_INT */
+     , (41805, 386, 0) /*  */
+     , (41805, 307, 0) /* DAMAGE_RATING_INT */
+     , (41805, 371, 0) /* GEAR_DAMAGE_RESIST_INT */
+     , (41805, 387, 0) /*  */
+     , (41805, 308, 0) /* DAMAGE_RESIST_RATING_INT */
+     , (41805, 372, 0) /* GEAR_CRIT_INT */
+     , (41805, 388, 0) /*  */
+     , (41805, 5, 6000) /* ENCUMB_VAL_INT */
+     , (41805, 373, 0) /* GEAR_CRIT_RESIST_INT */
+     , (41805, 389, 0) /*  */
+     , (41805, 374, 0) /* GEAR_CRIT_DAMAGE_INT */
+     , (41805, 375, 0) /* GEAR_CRIT_DAMAGE_RESIST_INT */
+     , (41805, 376, 0) /* GEAR_HEALING_BOOST_INT */
+     , (41805, 313, 0) /* CRIT_RATING_INT */
+     , (41805, 377, 0) /* GEAR_NETHER_RESIST_INT */
+     , (41805, 314, 0) /* CRIT_DAMAGE_RATING_INT */
+     , (41805, 378, 0) /* GEAR_LIFE_RESIST_INT */
+     , (41805, 267, 300) /* LIFESPAN_INT */
+     , (41805, 315, 0) /* CRIT_RESIST_RATING_INT */
+     , (41805, 379, 0) /* GEAR_MAX_HEALTH_INT */
+     , (41805, 268, 299) /* REMAINING_LIFESPAN_INT */
+     , (41805, 316, 0) /* CRIT_DAMAGE_RESIST_RATING_INT */
+     , (41805, 381, 0) /*  */
+     , (41805, 382, 0) /*  */
+     , (41805, 383, 0) /*  */;
+

@@ -39,3 +39,23 @@ VALUES (30553, 12, True) /* REPORT_COLLISIONS_BOOL */
 INSERT INTO `ace_object_palette_change` (`aceObjectId`, `subPaletteId`, `offset`, `length`)
 VALUES (30553, 67115540, 0, 0);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30553, 2, 83) /* CREATURE_TYPE_INT */
+     , (30553, 307, 5) /* DAMAGE_RATING_INT */
+     , (30553, 25, 185) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (30553, 1, 445) /* STRENGTH_ATTRIBUTE */
+     , (30553, 2, 400) /* ENDURANCE_ATTRIBUTE */
+     , (30553, 4, 380) /* COORDINATION_ATTRIBUTE */
+     , (30553, 8, 350) /* QUICKNESS_ATTRIBUTE */
+     , (30553, 16, 85) /* FOCUS_ATTRIBUTE */
+     , (30553, 32, 85) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (30553, 64, 4800) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (30553, 128, 1990) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (30553, 256, 85) /* MAX_MANA_ATTRIBUTE_2ND */;
+

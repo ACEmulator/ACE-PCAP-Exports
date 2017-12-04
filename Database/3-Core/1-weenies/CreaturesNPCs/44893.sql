@@ -92,3 +92,36 @@ VALUES (44893, 12, 16777304)
      , (44893, 4, 16781816)
      , (44893, 8, 16781817);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (44893, 5, 'Bartender Greeter') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (44893, 16, 67109565) /* EYES_PALETTE_DID */
+     , (44893, 9, 83890451) /* EYES_TEXTURE_DID */
+     , (44893, 17, 67110056) /* SKIN_PALETTE_DID */
+     , (44893, 10, 83890562) /* NOSE_TEXTURE_DID */
+     , (44893, 11, 83890578) /* MOUTH_TEXTURE_DID */
+     , (44893, 15, 67117027) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (44893, 113, 1) /* GENDER_INT */
+     , (44893, 2, 31) /* CREATURE_TYPE_INT */
+     , (44893, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (44893, 25, 5) /* LEVEL_INT */
+     , (44893, 188, 3) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (44893, 1, 100) /* STRENGTH_ATTRIBUTE */
+     , (44893, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (44893, 4, 50) /* COORDINATION_ATTRIBUTE */
+     , (44893, 8, 80) /* QUICKNESS_ATTRIBUTE */
+     , (44893, 16, 100) /* FOCUS_ATTRIBUTE */
+     , (44893, 32, 60) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (44893, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (44893, 128, 80) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (44893, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
+

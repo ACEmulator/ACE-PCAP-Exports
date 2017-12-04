@@ -81,29 +81,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (24242, 5, 'Olthoi Fighter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (24242, 16, 67110064) /* EYES_PALETTE_DID */
-     , (24242, 9, 83890451) /* EYES_TEXTURE_DID */
-     , (24242, 17, 67109561) /* SKIN_PALETTE_DID */
-     , (24242, 10, 83890555) /* NOSE_TEXTURE_DID */
-     , (24242, 11, 83890629) /* MOUTH_TEXTURE_DID */
-     , (24242, 15, 67117017) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24242, 113, 1) /* GENDER_INT */
-     , (24242, 2, 31) /* CREATURE_TYPE_INT */
-     , (24242, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24242, 25, 125) /* LEVEL_INT */
-     , (24242, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24242, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24242, 5, 'Olthoi Fighter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (24242, 16, 67109567) /* EYES_PALETTE_DID */
      , (24242, 9, 83890513) /* EYES_TEXTURE_DID */
      , (24242, 17, 67109561) /* SKIN_PALETTE_DID */

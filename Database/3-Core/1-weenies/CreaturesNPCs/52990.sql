@@ -97,12 +97,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (52990, 5, 'Molten Coal Trader') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (52990, 16, 67110062) /* EYES_PALETTE_DID */
-     , (52990, 9, 83890284) /* EYES_TEXTURE_DID */
+VALUES (52990, 16, 67109566) /* EYES_PALETTE_DID */
+     , (52990, 9, 83890261) /* EYES_TEXTURE_DID */
      , (52990, 17, 67109562) /* SKIN_PALETTE_DID */
-     , (52990, 10, 83890316) /* NOSE_TEXTURE_DID */
-     , (52990, 11, 83890355) /* MOUTH_TEXTURE_DID */
-     , (52990, 15, 67117078) /* HAIR_PALETTE_DID */;
+     , (52990, 10, 83890313) /* NOSE_TEXTURE_DID */
+     , (52990, 11, 83890336) /* MOUTH_TEXTURE_DID */
+     , (52990, 15, 67117072) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (52990, 113, 2) /* GENDER_INT */
@@ -111,6 +111,16 @@ VALUES (52990, 113, 2) /* GENDER_INT */
      , (52990, 25, 250) /* LEVEL_INT */
      , (52990, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (52990, 1, 220) /* STRENGTH_ATTRIBUTE */
+     , (52990, 2, 270) /* ENDURANCE_ATTRIBUTE */
+     , (52990, 4, 200) /* COORDINATION_ATTRIBUTE */
+     , (52990, 8, 200) /* QUICKNESS_ATTRIBUTE */
+     , (52990, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (52990, 32, 290) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (52990, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (52990, 64, 331) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (52990, 128, 466) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (52990, 256, 486) /* MAX_MANA_ATTRIBUTE_2ND */;
 

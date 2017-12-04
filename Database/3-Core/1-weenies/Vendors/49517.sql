@@ -96,6 +96,29 @@ VALUES (49517, 0, 16783897)
      , (49517, 15, 16789333)
      , (49517, 16, 16793463);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (49517, 5, 'Geomancer') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49517, 2, 51) /* CREATURE_TYPE_INT */
+     , (49517, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (49517, 25, 7) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (49517, 1, 20) /* STRENGTH_ATTRIBUTE */
+     , (49517, 2, 60) /* ENDURANCE_ATTRIBUTE */
+     , (49517, 4, 20) /* COORDINATION_ATTRIBUTE */
+     , (49517, 8, 75) /* QUICKNESS_ATTRIBUTE */
+     , (49517, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (49517, 32, 65) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (49517, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (49517, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (49517, 256, 135) /* MAX_MANA_ATTRIBUTE_2ND */;
+
 /* Extended Vendor Data */
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)

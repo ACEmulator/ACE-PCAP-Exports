@@ -89,19 +89,6 @@ VALUES (43403, 2, 14) /* CREATURE_TYPE_INT */
      , (43403, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (43403, 25, 550) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (43403, 64, 150000) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (43403, 5, 'Seer of the Dericost') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43403, 2, 14) /* CREATURE_TYPE_INT */
-     , (43403, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (43403, 25, 550) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (43403, 1, 600) /* STRENGTH_ATTRIBUTE */
      , (43403, 2, 400) /* ENDURANCE_ATTRIBUTE */

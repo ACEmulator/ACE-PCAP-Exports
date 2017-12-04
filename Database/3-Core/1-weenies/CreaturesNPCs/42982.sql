@@ -94,3 +94,36 @@ VALUES (42982, 2, 16778436)
      , (42982, 4, 16778426)
      , (42982, 8, 16778428);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (42982, 5, 'Traitor to the Crown') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (42982, 16, 67110063) /* EYES_PALETTE_DID */
+     , (42982, 9, 83890276) /* EYES_TEXTURE_DID */
+     , (42982, 17, 67115901) /* SKIN_PALETTE_DID */
+     , (42982, 10, 83890286) /* NOSE_TEXTURE_DID */
+     , (42982, 11, 83890347) /* MOUTH_TEXTURE_DID */
+     , (42982, 15, 67116985) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (42982, 113, 2) /* GENDER_INT */
+     , (42982, 2, 31) /* CREATURE_TYPE_INT */
+     , (42982, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (42982, 25, 174) /* LEVEL_INT */
+     , (42982, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (42982, 1, 150) /* STRENGTH_ATTRIBUTE */
+     , (42982, 2, 120) /* ENDURANCE_ATTRIBUTE */
+     , (42982, 4, 150) /* COORDINATION_ATTRIBUTE */
+     , (42982, 8, 150) /* QUICKNESS_ATTRIBUTE */
+     , (42982, 16, 80) /* FOCUS_ATTRIBUTE */
+     , (42982, 32, 60) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (42982, 64, 256) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (42982, 128, 316) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (42982, 256, 256) /* MAX_MANA_ATTRIBUTE_2ND */;
+

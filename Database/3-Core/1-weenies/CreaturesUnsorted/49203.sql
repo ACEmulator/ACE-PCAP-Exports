@@ -33,3 +33,25 @@ VALUES (49203, 13, True) /* ETHEREAL_BOOL */
      , (49203, 19, True) /* ATTACKABLE_BOOL */
      , (49203, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (49203, 2, 20) /* CREATURE_TYPE_INT */
+     , (49203, 307, 12) /* DAMAGE_RATING_INT */
+     , (49203, 25, 150) /* LEVEL_INT */
+     , (49203, 313, 10) /* CRIT_RATING_INT */
+     , (49203, 316, 13) /* CRIT_DAMAGE_RESIST_RATING_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (49203, 1, 210) /* STRENGTH_ATTRIBUTE */
+     , (49203, 2, 240) /* ENDURANCE_ATTRIBUTE */
+     , (49203, 4, 160) /* COORDINATION_ATTRIBUTE */
+     , (49203, 8, 250) /* QUICKNESS_ATTRIBUTE */
+     , (49203, 16, 170) /* FOCUS_ATTRIBUTE */
+     , (49203, 32, 170) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (49203, 64, 920) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (49203, 128, 1190) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (49203, 256, 820) /* MAX_MANA_ATTRIBUTE_2ND */;
+

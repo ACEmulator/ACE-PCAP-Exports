@@ -51,19 +51,6 @@ VALUES (27264, 2, 57) /* CREATURE_TYPE_INT */
      , (27264, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (27264, 25, 26) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (27264, 64, 108) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (27264, 5, 'Copper Golem Hunter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (27264, 2, 57) /* CREATURE_TYPE_INT */
-     , (27264, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (27264, 25, 26) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (27264, 1, 140) /* STRENGTH_ATTRIBUTE */
      , (27264, 2, 155) /* ENDURANCE_ATTRIBUTE */

@@ -37,15 +37,6 @@ VALUES (1526, 12, True) /* REPORT_COLLISIONS_BOOL */
 REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
 VALUES (1526, 14, 'Use this item to open it.') /* USE_STRING */;
 
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (1526, 2, 0) /* OPEN_BOOL */
-     , (1526, 3, 1) /* LOCKED_BOOL */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1526, 14, 'Use this item to open it.') /* USE_STRING */;
-
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (1526, 19, 0) /* VALUE_INT */
      , (1526, 38, 1000) /* RESIST_LOCKPICK_INT */

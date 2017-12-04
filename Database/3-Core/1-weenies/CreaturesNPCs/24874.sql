@@ -96,29 +96,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (24874, 5, 'Candeth Keep Guard') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (24874, 16, 67110064) /* EYES_PALETTE_DID */
-     , (24874, 9, 83890283) /* EYES_TEXTURE_DID */
-     , (24874, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (24874, 10, 83890313) /* NOSE_TEXTURE_DID */
-     , (24874, 11, 83890350) /* MOUTH_TEXTURE_DID */
-     , (24874, 15, 67116996) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24874, 113, 2) /* GENDER_INT */
-     , (24874, 2, 31) /* CREATURE_TYPE_INT */
-     , (24874, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (24874, 25, 35) /* LEVEL_INT */
-     , (24874, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (24874, 64, 185) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (24874, 5, 'Candeth Keep Guard') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (24874, 16, 67109566) /* EYES_PALETTE_DID */
      , (24874, 9, 83890279) /* EYES_TEXTURE_DID */
      , (24874, 17, 67109560) /* SKIN_PALETTE_DID */

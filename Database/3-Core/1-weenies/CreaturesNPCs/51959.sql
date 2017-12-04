@@ -90,12 +90,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (51959, 5, 'Frost Golem Hunter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (51959, 16, 67110065) /* EYES_PALETTE_DID */
-     , (51959, 9, 83890465) /* EYES_TEXTURE_DID */
-     , (51959, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (51959, 10, 83890549) /* NOSE_TEXTURE_DID */
-     , (51959, 11, 83890663) /* MOUTH_TEXTURE_DID */
-     , (51959, 15, 67117077) /* HAIR_PALETTE_DID */;
+VALUES (51959, 16, 67109566) /* EYES_PALETTE_DID */
+     , (51959, 9, 83890506) /* EYES_TEXTURE_DID */
+     , (51959, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (51959, 10, 83890555) /* NOSE_TEXTURE_DID */
+     , (51959, 11, 83890636) /* MOUTH_TEXTURE_DID */
+     , (51959, 15, 67116977) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (51959, 113, 1) /* GENDER_INT */
@@ -104,8 +104,18 @@ VALUES (51959, 113, 1) /* GENDER_INT */
      , (51959, 25, 150) /* LEVEL_INT */
      , (51959, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (51959, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (51959, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (51959, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (51959, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (51959, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (51959, 32, 90) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (51959, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (51959, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (51959, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (51959, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
 
 /* Object Wield List */
 

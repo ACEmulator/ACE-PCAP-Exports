@@ -85,3 +85,36 @@ VALUES (51789, 12, 16777304)
      , (51789, 14, 16783855)
      , (51789, 16, 16783891);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51789, 5, 'Paranormal Scholar') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (51789, 16, 67109567) /* EYES_PALETTE_DID */
+     , (51789, 9, 83890457) /* EYES_TEXTURE_DID */
+     , (51789, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (51789, 10, 83890520) /* NOSE_TEXTURE_DID */
+     , (51789, 11, 83890656) /* MOUTH_TEXTURE_DID */
+     , (51789, 15, 67117024) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51789, 113, 1) /* GENDER_INT */
+     , (51789, 2, 31) /* CREATURE_TYPE_INT */
+     , (51789, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (51789, 25, 225) /* LEVEL_INT */
+     , (51789, 188, 1) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (51789, 1, 175) /* STRENGTH_ATTRIBUTE */
+     , (51789, 2, 190) /* ENDURANCE_ATTRIBUTE */
+     , (51789, 4, 150) /* COORDINATION_ATTRIBUTE */
+     , (51789, 8, 180) /* QUICKNESS_ATTRIBUTE */
+     , (51789, 16, 290) /* FOCUS_ATTRIBUTE */
+     , (51789, 32, 290) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (51789, 64, 295) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (51789, 128, 360) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (51789, 256, 390) /* MAX_MANA_ATTRIBUTE_2ND */;
+

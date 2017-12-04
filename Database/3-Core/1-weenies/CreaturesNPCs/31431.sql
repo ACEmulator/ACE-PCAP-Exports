@@ -75,3 +75,26 @@ VALUES (31431, 12, 16778423)
      , (31431, 13, 16791903)
      , (31431, 14, 16783855);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (31431, 5, 'Royal Scholar') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (31431, 16, 67110064) /* EYES_PALETTE_DID */
+     , (31431, 9, 83890277) /* EYES_TEXTURE_DID */
+     , (31431, 17, 67115901) /* SKIN_PALETTE_DID */
+     , (31431, 10, 83890302) /* NOSE_TEXTURE_DID */
+     , (31431, 11, 83890330) /* MOUTH_TEXTURE_DID */
+     , (31431, 15, 67117078) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (31431, 113, 2) /* GENDER_INT */
+     , (31431, 2, 31) /* CREATURE_TYPE_INT */
+     , (31431, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (31431, 25, 50) /* LEVEL_INT */
+     , (31431, 188, 4) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (31431, 64, 140) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+

@@ -51,19 +51,6 @@ VALUES (28694, 2, 78) /* CREATURE_TYPE_INT */
      , (28694, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (28694, 25, 211) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (28694, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (28694, 5, 'Augmentation Trainer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (28694, 2, 78) /* CREATURE_TYPE_INT */
-     , (28694, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (28694, 25, 211) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (28694, 1, 60) /* STRENGTH_ATTRIBUTE */
      , (28694, 2, 70) /* ENDURANCE_ATTRIBUTE */

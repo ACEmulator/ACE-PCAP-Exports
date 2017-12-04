@@ -96,12 +96,12 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (42720, 5, 'Barber') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (42720, 16, 67110065) /* EYES_PALETTE_DID */
-     , (42720, 9, 83890497) /* EYES_TEXTURE_DID */
-     , (42720, 17, 67109559) /* SKIN_PALETTE_DID */
-     , (42720, 10, 83890562) /* NOSE_TEXTURE_DID */
-     , (42720, 11, 83890633) /* MOUTH_TEXTURE_DID */
-     , (42720, 15, 67117023) /* HAIR_PALETTE_DID */;
+VALUES (42720, 16, 67110062) /* EYES_PALETTE_DID */
+     , (42720, 9, 83890514) /* EYES_TEXTURE_DID */
+     , (42720, 17, 67109562) /* SKIN_PALETTE_DID */
+     , (42720, 10, 83890553) /* NOSE_TEXTURE_DID */
+     , (42720, 11, 83890635) /* MOUTH_TEXTURE_DID */
+     , (42720, 15, 67116982) /* HAIR_PALETTE_DID */;
 
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (42720, 113, 1) /* GENDER_INT */
@@ -110,6 +110,16 @@ VALUES (42720, 113, 1) /* GENDER_INT */
      , (42720, 25, 200) /* LEVEL_INT */
      , (42720, 188, 1) /* HERITAGE_GROUP_INT */;
 
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (42720, 1, 70) /* STRENGTH_ATTRIBUTE */
+     , (42720, 2, 70) /* ENDURANCE_ATTRIBUTE */
+     , (42720, 4, 65) /* COORDINATION_ATTRIBUTE */
+     , (42720, 8, 60) /* QUICKNESS_ATTRIBUTE */
+     , (42720, 16, 50) /* FOCUS_ATTRIBUTE */
+     , (42720, 32, 50) /* SELF_ATTRIBUTE */;
+
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (42720, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
+VALUES (42720, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (42720, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (42720, 256, 105) /* MAX_MANA_ATTRIBUTE_2ND */;
 

@@ -92,29 +92,6 @@ REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `pr
 VALUES (31653, 5, 'Mosswart Worshipper Whipper') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (31653, 16, 67110064) /* EYES_PALETTE_DID */
-     , (31653, 9, 83890445) /* EYES_TEXTURE_DID */
-     , (31653, 17, 67115903) /* SKIN_PALETTE_DID */
-     , (31653, 10, 83890558) /* NOSE_TEXTURE_DID */
-     , (31653, 11, 83890666) /* MOUTH_TEXTURE_DID */
-     , (31653, 15, 67117095) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (31653, 113, 1) /* GENDER_INT */
-     , (31653, 2, 31) /* CREATURE_TYPE_INT */
-     , (31653, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (31653, 25, 142) /* LEVEL_INT */
-     , (31653, 188, 4) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (31653, 64, 45) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (31653, 5, 'Mosswart Worshipper Whipper') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (31653, 16, 67109564) /* EYES_PALETTE_DID */
      , (31653, 9, 83890494) /* EYES_TEXTURE_DID */
      , (31653, 17, 67115904) /* SKIN_PALETTE_DID */

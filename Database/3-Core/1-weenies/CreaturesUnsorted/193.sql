@@ -53,15 +53,6 @@ REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `prope
 VALUES (193, 2, 3) /* CREATURE_TYPE_INT */
      , (193, 25, 8) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (193, 64, 40) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (193, 2, 3) /* CREATURE_TYPE_INT */
-     , (193, 25, 8) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (193, 1, 60) /* STRENGTH_ATTRIBUTE */
      , (193, 2, 60) /* ENDURANCE_ATTRIBUTE */

@@ -37,3 +37,26 @@ VALUES (39288, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (39288, 41, True) /* REPORT_COLLISIONS_AS_ENVIRONMENT_BOOL */
      , (39288, 1, True) /* STUCK_BOOL */;
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (39288, 5, 'Emissary of Asheron') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (39288, 2, 62) /* CREATURE_TYPE_INT */
+     , (39288, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (39288, 25, 190) /* LEVEL_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (39288, 1, 245) /* STRENGTH_ATTRIBUTE */
+     , (39288, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (39288, 4, 215) /* COORDINATION_ATTRIBUTE */
+     , (39288, 8, 210) /* QUICKNESS_ATTRIBUTE */
+     , (39288, 16, 235) /* FOCUS_ATTRIBUTE */
+     , (39288, 32, 230) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (39288, 64, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (39288, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (39288, 256, 270) /* MAX_MANA_ATTRIBUTE_2ND */;
+

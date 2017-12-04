@@ -104,29 +104,6 @@ VALUES (38388, 5, 'Society Recruiter') /* TEMPLATE_STRING */;
 
 REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
 VALUES (38388, 16, 67110062) /* EYES_PALETTE_DID */
-     , (38388, 9, 83890281) /* EYES_TEXTURE_DID */
-     , (38388, 17, 67110056) /* SKIN_PALETTE_DID */
-     , (38388, 10, 83890285) /* NOSE_TEXTURE_DID */
-     , (38388, 11, 83890321) /* MOUTH_TEXTURE_DID */
-     , (38388, 15, 67117020) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38388, 113, 2) /* GENDER_INT */
-     , (38388, 2, 31) /* CREATURE_TYPE_INT */
-     , (38388, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (38388, 25, 180) /* LEVEL_INT */
-     , (38388, 188, 3) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (38388, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (38388, 5, 'Society Recruiter') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (38388, 16, 67110062) /* EYES_PALETTE_DID */
      , (38388, 9, 83890277) /* EYES_TEXTURE_DID */
      , (38388, 17, 67110059) /* SKIN_PALETTE_DID */
      , (38388, 10, 83890290) /* NOSE_TEXTURE_DID */

@@ -98,3 +98,36 @@ VALUES (51958, 16, 16795675)
      , (51958, 4, 16781816)
      , (51958, 8, 16781817);
 
+/* Extended Appraisal Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (51958, 5, 'Wight Wrecker') /* TEMPLATE_STRING */;
+
+REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
+VALUES (51958, 16, 67110062) /* EYES_PALETTE_DID */
+     , (51958, 9, 83890453) /* EYES_TEXTURE_DID */
+     , (51958, 17, 67109556) /* SKIN_PALETTE_DID */
+     , (51958, 10, 83890543) /* NOSE_TEXTURE_DID */
+     , (51958, 11, 83890613) /* MOUTH_TEXTURE_DID */
+     , (51958, 15, 67117073) /* HAIR_PALETTE_DID */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51958, 113, 1) /* GENDER_INT */
+     , (51958, 2, 31) /* CREATURE_TYPE_INT */
+     , (51958, 134, 16) /* PLAYER_KILLER_STATUS_INT */
+     , (51958, 25, 200) /* LEVEL_INT */
+     , (51958, 188, 2) /* HERITAGE_GROUP_INT */;
+
+REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
+VALUES (51958, 1, 255) /* STRENGTH_ATTRIBUTE */
+     , (51958, 2, 220) /* ENDURANCE_ATTRIBUTE */
+     , (51958, 4, 240) /* COORDINATION_ATTRIBUTE */
+     , (51958, 8, 240) /* QUICKNESS_ATTRIBUTE */
+     , (51958, 16, 90) /* FOCUS_ATTRIBUTE */
+     , (51958, 32, 90) /* SELF_ATTRIBUTE */;
+
+REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
+VALUES (51958, 64, 235) /* MAX_HEALTH_ATTRIBUTE_2ND */
+     , (51958, 128, 330) /* MAX_STAMINA_ATTRIBUTE_2ND */
+     , (51958, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
+

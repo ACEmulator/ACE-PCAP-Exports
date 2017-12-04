@@ -109,29 +109,6 @@ VALUES (30479, 113, 1) /* GENDER_INT */
      , (30479, 25, 10) /* LEVEL_INT */
      , (30479, 188, 1) /* HERITAGE_GROUP_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (30479, 64, 110) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (30479, 5, 'Aspiring Farmer') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (30479, 16, 67109565) /* EYES_PALETTE_DID */
-     , (30479, 9, 83890482) /* EYES_TEXTURE_DID */
-     , (30479, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (30479, 10, 83890557) /* NOSE_TEXTURE_DID */
-     , (30479, 11, 83890613) /* MOUTH_TEXTURE_DID */
-     , (30479, 15, 67116987) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30479, 113, 1) /* GENDER_INT */
-     , (30479, 2, 31) /* CREATURE_TYPE_INT */
-     , (30479, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (30479, 25, 10) /* LEVEL_INT */
-     , (30479, 188, 1) /* HERITAGE_GROUP_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (30479, 1, 70) /* STRENGTH_ATTRIBUTE */
      , (30479, 2, 70) /* ENDURANCE_ATTRIBUTE */

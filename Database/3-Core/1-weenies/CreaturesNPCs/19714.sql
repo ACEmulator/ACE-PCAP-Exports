@@ -47,19 +47,6 @@ VALUES (19714, 2, 62) /* CREATURE_TYPE_INT */
      , (19714, 134, 16) /* PLAYER_KILLER_STATUS_INT */
      , (19714, 25, 60) /* LEVEL_INT */;
 
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (19714, 64, 190) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (19714, 5, 'Emissary') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (19714, 2, 62) /* CREATURE_TYPE_INT */
-     , (19714, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (19714, 25, 60) /* LEVEL_INT */;
-
 REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
 VALUES (19714, 1, 245) /* STRENGTH_ATTRIBUTE */
      , (19714, 2, 220) /* ENDURANCE_ATTRIBUTE */
