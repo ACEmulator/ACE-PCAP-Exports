@@ -42,19 +42,3 @@ VALUES (2178, 19, 3) /* VALUE_INT */
      , (2178, 174, 1) /* APPRAISAL_PAGES_INT */
      , (2178, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2178, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (2178, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (2178, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (2178, 0, '', 'prewritten', 4294967295, 0, 'A Scribbled Note
-
-I care not who finds these any more.  Oh, my beloved, why did you have to go alone down that corridor?  I have locked off that dangerous area; see, I even have the key!  I only sell the key to those who think they are true explorers.  So only the foolish will now go into that deadly section, where you met your lonely fate.  But never mind!  Your footsteps echo only in my memory, which I know is poisoned with bitterness.  Let the adventurers adventure; let them die, resurrect, and come back.  I wait alone, here on Alphus, knowing someday I shall die and be with you again.
-
-');
-

@@ -37,18 +37,3 @@ VALUES (8607, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (8607, 1, True) /* STUCK_BOOL */
      , (8607, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (8607, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (8607, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (8607, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (8607, 0, 'Unknown author, translated by Akyafi ibn Sumwar', 'prewritten', 4294967295, 0, '
-you that come after here we meet air walkers say come from between-place made strong us made dark us want strong wait you here come be strong never fear small eyes with hit things never be run away made come they leave talking-star to call you 
-
-');
-

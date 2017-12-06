@@ -37,17 +37,3 @@ VALUES (7266, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7266, 1, True) /* STUCK_BOOL */
      , (7266, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7266, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (7266, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (7266, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (7266, 0, '', 'prewritten', 4294967295, 0, 'Three center rooms has Green Mire; center rooms Green Mire has three.  You should first go up before you can go down.  And remember to collect the keys!
- 
-');
-

@@ -35,30 +35,3 @@ VALUES (5699, 13, True) /* ETHEREAL_BOOL */
      , (5699, 14, True) /* GRAVITY_STATUS_BOOL */
      , (5699, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5699, 174, 6) /* APPRAISAL_PAGES_INT */
-     , (5699, 175, 6) /* APPRAISAL_MAX_PAGES_INT */
-     , (5699, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (5699, 0, 'Four Stones and Three Elders', 'prewritten', 4294967295, 0, 'Much has been written on the relationship between the Four Stones and the three Elders, and on the legend that Mankind is the fourth Elder.  Especially since teachers have begun to say that three of the Stones correspond to the three Elders, more and more have begun to say that Mankind is also an Elder because there are four stones.
-');
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (5699, 1, 'Four Stones and Three Elders', 'prewritten', 4294967295, 0, 'Nothing could be further from the truth!  The very foundations of this philosophy are mistaken.
-
-When Jojii wrote of Four Stones, he did not originally mean for them to become associated with the three Elders.  Though almost every monastery will teach this, it is false.
-');
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (5699, 2, 'Four Stones and Three Elders', 'prewritten', 4294967295, 0, 'The Four Stones of Humility, Discipline, Compassion, and Detachment are complete in themselves.  They need no ties to the Elders.  The sum total of this path is the very path to Heaven that Jojii taught, which is not the same as the so-called Path of the Dragon, or the Path of the Unicorn, or the Path of the Firebird.
-');
-

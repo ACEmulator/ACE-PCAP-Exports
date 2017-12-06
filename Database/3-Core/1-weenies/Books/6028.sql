@@ -45,21 +45,3 @@ VALUES (6028, 19, 5) /* VALUE_INT */
      , (6028, 174, 1) /* APPRAISAL_PAGES_INT */
      , (6028, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (6028, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (6028, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (6028, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (6028, 0, 'Devana bint Hamudi', 'prewritten', 4294967295, 0, '
-Father, why have you stopped sending me letters? Is there something wrong? Something involving those dark ones who lurk near your chambers? Please write me a letter and send it back with one of your Tenebrous Edge recruits. I begin to worry about you.
-
-Your daughter,
-Devana
-
-');
-

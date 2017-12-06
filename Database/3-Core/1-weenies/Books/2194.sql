@@ -42,17 +42,3 @@ VALUES (2194, 19, 3) /* VALUE_INT */
      , (2194, 174, 1) /* APPRAISAL_PAGES_INT */
      , (2194, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2194, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (2194, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (2194, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (2194, 0, '', 'prewritten', 4294967295, 0, 'Three center rooms has Green Mire; center rooms Green Mire has three.  You should first go up before you can go down.  And remember to collect the keys!
- 
-');
-

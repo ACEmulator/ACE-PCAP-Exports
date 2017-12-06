@@ -44,23 +44,3 @@ VALUES (35568, 19, 0) /* VALUE_INT */
      , (35568, 174, 1) /* APPRAISAL_PAGES_INT */
      , (35568, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (35568, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (35568, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (35568, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (35568, 0, 'Jarvis Hammerstone', 'prewritten', 4294967295, 0, '
-The Town Council has put together this list of drudges who have caused us losses again and again. You must reduce their numberes. Return to me when you finish any of these tasks.
-
-100 Drudge Lurkers
-100 Drudge Stalkers
- 50 Drudge Raveners
- 40 Altered Drudges
- 40 Augmented Drudges
-');
-

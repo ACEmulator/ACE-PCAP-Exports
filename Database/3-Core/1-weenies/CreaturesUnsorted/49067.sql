@@ -63,25 +63,3 @@ VALUES (49067, 64, 670) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (49067, 128, 930) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (49067, 256, 460) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (49067, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (49067, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (49067, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (49067, 0, 'Nasun and Ahyara', 'prewritten', 4294967295, 0, '
-Lovely Mara,
-
-We have had news of fortune''s munificence to you.  Accept our compliments in this happy time.
-
-- Nasun ibn Tifar
-
-What he said.
-
-- Ahyara
-');
-

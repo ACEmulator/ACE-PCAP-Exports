@@ -37,38 +37,3 @@ VALUES (1634, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1634, 1, True) /* STUCK_BOOL */
      , (1634, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1634, 16, 'Heavy Bracelet of Fire Protection') /* LONG_DESC_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1634, 160, 180) /* WIELD_DIFFICULTY_INT */
-     , (1634, 177, 3) /* GEM_COUNT_INT */
-     , (1634, 178, 38) /* GEM_TYPE_INT */
-     , (1634, 115, 0) /* ITEM_SKILL_LEVEL_LIMIT_INT */
-     , (1634, 131, 61) /* MATERIAL_TYPE_INT */
-     , (1634, 19, 10503) /* VALUE_INT */
-     , (1634, 5, 150) /* ENCUMB_VAL_INT */
-     , (1634, 105, 7) /* ITEM_WORKMANSHIP_INT */
-     , (1634, 106, 370) /* ITEM_SPELLCRAFT_INT */
-     , (1634, 379, 2) /* GEAR_MAX_HEALTH_INT */
-     , (1634, 172, 5) /* APPRAISAL_LONG_DESC_DECORATION_INT */
-     , (1634, 108, 1601) /* ITEM_MAX_MANA_INT */
-     , (1634, 109, 410) /* ITEM_DIFFICULTY_INT */
-     , (1634, 158, 7) /* WIELD_REQUIREMENTS_INT */
-     , (1634, 110, 0) /* ITEM_ALLEGIANCE_RANK_LIMIT_INT */
-     , (1634, 159, 1) /* WIELD_SKILLTYPE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1634, 5, -0.06666667) /* MANA_RATE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_spell` (`aceObjectId`, `spellId`)
-VALUES (1634, 6082) /* CantripFlameWard4_SpellID */
-     , (1634, 4468) /* FireProtectionSelf8_SpellID */;
-
-/* Object Wield List */
-
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1634, 2, 29976) /* Spadone */;
-

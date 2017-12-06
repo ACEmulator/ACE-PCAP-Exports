@@ -93,3 +93,11 @@ VALUES (41840, 113, 1) /* GENDER_INT */
 REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
 VALUES (41840, 64, 296) /* MAX_HEALTH_ATTRIBUTE_2ND */;
 
+/* Object Wield List */
+
+/* Object Wield List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (41840, 2, 24200) /* Weeping Claw */
+     , (41840, 2, 38852) /* Eldrytch Web Shield */;
+

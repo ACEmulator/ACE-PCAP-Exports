@@ -33,12 +33,3 @@ VALUES (7270, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (7270, 1, True) /* STUCK_BOOL */
      , (7270, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (7270, 2, 22) /* CREATURE_TYPE_INT */
-     , (7270, 25, 200) /* LEVEL_INT */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (7270, 64, 1060) /* MAX_HEALTH_ATTRIBUTE_2ND */;
-

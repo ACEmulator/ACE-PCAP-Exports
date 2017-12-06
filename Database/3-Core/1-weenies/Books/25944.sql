@@ -45,20 +45,3 @@ VALUES (25944, 19, 10) /* VALUE_INT */
      , (25944, 174, 1) /* APPRAISAL_PAGES_INT */
      , (25944, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25944, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (25944, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (25944, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (25944, 0, 'Honshu Takeda', 'prewritten', 4294967295, 0, 'As I entered this place I questioned whether I would find the splendor that I sought. There in the darkness of the fire hewn halls I questioned if this place of ash and soot could be the home of something so perfect as the splendor that I sought.
-
-When I saw the rock formation within the lava, I knew that my journey was complete. For atop the stones sat a perfect sphere.
-
-I know that I had found what will become the splendor and focus of the Firebird. My feet lead me to Kara. Where I shall meet another, and my journey will end.
-');
-

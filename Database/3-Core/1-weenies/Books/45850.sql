@@ -47,17 +47,3 @@ VALUES (45850, 33, 1) /* BONDED_INT */
      , (45850, 174, 1) /* APPRAISAL_PAGES_INT */
      , (45850, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (45850, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (45850, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (45850, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (45850, 0, 'Uber P', 'prewritten', 4294967295, 0, '
-[This page is filled with large penguin footprints and odd markings made in black ink.]
-');
-

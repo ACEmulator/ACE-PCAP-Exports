@@ -34,20 +34,3 @@ VALUES (25941, 13, True) /* ETHEREAL_BOOL */
      , (25941, 14, True) /* GRAVITY_STATUS_BOOL */
      , (25941, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25941, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (25941, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (25941, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (25941, 0, 'Honshu Takeda', 'prewritten', 4294967295, 0, 'My travels have lead me to the town of Sawato, a shining bastion in the dankness of the great swamp of Osteth.
-
-I have prayed at this shrine and been enlightened as to the location of a place where crystals beyond beauty are shaped by an underground swell of water. There I am certain to find what shall be representative of the Unicorn''s Grace.
-
-I pen this note to all others who will follow. To the southeast, long beyond the place where the swamp meets the plains. In the crux of two mountain peaks there is a cave. Within this cave the crystals of the Unicorn grow.
-');
-

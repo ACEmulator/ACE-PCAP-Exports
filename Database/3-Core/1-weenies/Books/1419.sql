@@ -42,17 +42,3 @@ VALUES (1419, 19, 5) /* VALUE_INT */
      , (1419, 174, 1) /* APPRAISAL_PAGES_INT */
      , (1419, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1419, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (1419, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (1419, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (1419, 0, 'An odd note', 'prewritten', 4294967295, 0, '
-...I just didn''t have enough of the keys! Oh, how I kicked myself for not having bought that seventh key from the desperate adventurer. I thought only six were needed. The journey to that accursed dungeon was long and hard, through dry and dangerous lands that I could never have imagined when I first arrived. How long have I quested for that lost sword! If only I had listened to Iquba! 
-');
-

@@ -45,19 +45,3 @@ VALUES (14447, 33, 1) /* BONDED_INT */
      , (14447, 174, 1) /* APPRAISAL_PAGES_INT */
      , (14447, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (14447, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (14447, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (14447, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (14447, 0, '', 'prewritten', 4294967295, 0, 'I have seeded one of my farmers in the cove of Yaraq. He will procure only the greenest of the crops for your harvest. Old Man Witshire''s granaries are nearly ready to be filled.  I need not emphasize the importance of your mission. Do not disappoint me again.
-
-(unsigned)
-
-');
-

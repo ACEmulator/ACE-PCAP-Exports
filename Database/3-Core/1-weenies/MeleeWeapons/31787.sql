@@ -99,8 +99,3 @@ VALUES (31787, 2526) /* CANTRIPMONSTERATTUNEMENT2_SpellID */
      , (31787, 1592) /* HeartSeeker6_SpellID */
      , (31787, 2622) /* CANTRIPSTORMWARD1_SpellID */;
 
-/* Object Wield List */
-
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (31787, 2, 36947) /* Deru Limb */;
-

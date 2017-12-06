@@ -128,3 +128,11 @@ VALUES (33542, 64, 233) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (33542, 128, 280) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (33542, 256, 290) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Object Wield List */
+
+/* Object Wield List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (33542, 2, 33106) /* Shield of Isin Dule */
+     , (33542, 2, 33080) /* Shadow Blade */;
+

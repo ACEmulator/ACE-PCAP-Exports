@@ -47,18 +47,3 @@ VALUES (30988, 33, 1) /* BONDED_INT */
      , (30988, 174, 1) /* APPRAISAL_PAGES_INT */
      , (30988, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30988, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (30988, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (30988, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (30988, 0, '', 'prewritten', 4294967295, 0, 'The situation in Aluvia grows worse by the day. Our armies do what they can to hold our western border, but the armies of Viamont persist. We have both taken heavy losses, but their ranks seem to grow ever larger while ours grow noticeably weaker. I fear the days of our realm grow short.
-
-I know not what lies beyond the portal you have chosen to take. Perhaps a life of joy and peace; perhaps not. Whatever lies out there, I wish you luck. This old world is too full of death and pain. You deserve better than that.
-');
-

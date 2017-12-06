@@ -45,17 +45,3 @@ VALUES (26490, 19, 5) /* VALUE_INT */
      , (26490, 174, 1) /* APPRAISAL_PAGES_INT */
      , (26490, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (26490, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (26490, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (26490, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (26490, 0, 'Lubziklan al-Luq', 'prewritten', 4294967295, 0, '
-Ma''yad ibn Ibsar has come to town to look for her missing brother. She is prepared to amply reward anyone who can tell her of his whereabouts. She can be found in the Cerulean Cove pub in Yaraq.
-');
-

@@ -38,16 +38,3 @@ VALUES (1636, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1636, 1, True) /* STUCK_BOOL */
      , (1636, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (1636, 14, 'Use on a magic item to give the stone''s stored Mana to that item.') /* USE_STRING */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1636, 19, 7500) /* VALUE_INT */
-     , (1636, 5, 50) /* ENCUMB_VAL_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (1636, 137, 0.25) /* MANA_STONE_DESTROY_CHANCE_FLOAT */
-     , (1636, 87, 3) /* ITEM_EFFICIENCY_FLOAT */;
-

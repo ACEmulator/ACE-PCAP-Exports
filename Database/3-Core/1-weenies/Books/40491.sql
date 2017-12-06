@@ -48,16 +48,3 @@ VALUES (40491, 33, 1) /* BONDED_INT */
      , (40491, 174, 4) /* APPRAISAL_PAGES_INT */
      , (40491, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40491, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (40491, 175, 4) /* APPRAISAL_MAX_PAGES_INT */
-     , (40491, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (40491, 0, 'Quaestor Esbarth', 'prewritten', 4294967295, 0, 'The Consul sends you forth to establish a facility that will serve two purposes.  The site we have chosen for the facility is over a vein of quintessential ore.  Your first purpose is to supervise the rock giants who call themselves Gotrok in their extraction of the ore.  While the Gotrok possess formidable physical architecture, their efforts must be bent wholly to the extraction of ore.  Thus your second purpose, to recruit and maintain a garrison of soldiers from among the crude meatlings who call themselves Hea.
-');
-

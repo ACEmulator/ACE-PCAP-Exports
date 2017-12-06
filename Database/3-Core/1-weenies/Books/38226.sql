@@ -45,24 +45,3 @@ VALUES (38226, 19, 0) /* VALUE_INT */
      , (38226, 174, 4) /* APPRAISAL_PAGES_INT */
      , (38226, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (38226, 174, 4) /* APPRAISAL_PAGES_INT */
-     , (38226, 175, 4) /* APPRAISAL_MAX_PAGES_INT */
-     , (38226, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (38226, 0, 'Laedron the Geomancer', 'prewritten', 4294967295, 0, 'We see now the extent of the Blight''s ambitions.  Minions of T''thuun have infested six of the most powerful nodes of Dereth, tainting the energy that flows through them and increasing the Old One''s hold on the surface.  Each node was held in thrall by a powerful Moarsman carrying the Blight.  Luckily, the Queen''s scouts were able to trace the corruption across the ley lines quickly enough to intervene.  Here is a list of nodes and their locations:
-
-Aerlinthe Island node: 84.1N, 44.1E
-A''mun Desert node: 38.2S, 12.0E
-Mt. Esper node: 62.0N, 18.0E
-Halaetan Islands node: 93.8N, 67.4W
-Linvak Mountains node: 64.8S, 59.3E
-Obsidian Plain node: 68.0S, 62.2W
-
-');
-

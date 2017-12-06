@@ -49,16 +49,3 @@ VALUES (12143, 33, 1) /* BONDED_INT */
      , (12143, 174, 1) /* APPRAISAL_PAGES_INT */
      , (12143, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (12143, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (12143, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (12143, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (12143, 0, '', 'prewritten', 4294967295, 0, '[This item is unreadable and must be translated by Diyas al-Yat in Zaikhal.]
-');
-

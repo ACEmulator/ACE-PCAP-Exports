@@ -52,18 +52,3 @@ VALUES (40524, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (40524, 69, 1) /* IS_SELLABLE_BOOL */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (40524, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (40524, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (40524, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (40524, 0, 'Unknown', 'prewritten', 4294967295, 0, '
-We often search for answers at the bottom of a bottle.
-This time, you may find the answer is right.
-');
-

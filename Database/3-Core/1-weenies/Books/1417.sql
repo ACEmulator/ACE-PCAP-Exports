@@ -42,17 +42,3 @@ VALUES (1417, 19, 5) /* VALUE_INT */
      , (1417, 174, 1) /* APPRAISAL_PAGES_INT */
      , (1417, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1417, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (1417, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (1417, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (1417, 0, 'Iquba al-Julmud, Qalaba''r', 'prewritten', 4294967295, 0, '
-R WARD fo  t e mys eriou  keys t at can be fo nd  in m ny of the du geon  upon this island, e peci lly those near s ch towns l ke Hol bur , R thwic, Yanshi, and so on.  The six keys are nee ed in a certain spe ial pl ce far aw y, f r the gre t Sw rd.... Come s e m  t      .
-');
-

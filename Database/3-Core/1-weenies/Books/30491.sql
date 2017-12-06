@@ -46,26 +46,3 @@ VALUES (30491, 33, 1) /* BONDED_INT */
      , (30491, 174, 1) /* APPRAISAL_PAGES_INT */
      , (30491, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30491, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (30491, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (30491, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (30491, 0, 'Worcer', 'prewritten', 4294967295, 0, '
-Please retrieve the following items from the Holtburg Redoubt, at 40.4N 34.5E, and return them to Worcer, in the bar in Holtburg:
-
-- Antique Platter 
-- Antique Mug
-- Antique Goblet
-- Antique Bowl
-- Wedding Band
-- Bronze Candlestick
-- Bronze Handbell
-- Bronze Lamp
-');
-

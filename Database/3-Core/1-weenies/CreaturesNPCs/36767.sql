@@ -63,3 +63,8 @@ VALUES (36767, 64, 900) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (36767, 128, 990) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (36767, 256, 5000) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Object Wield List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (36767, 2, 36947) /* Deru Limb */;
+

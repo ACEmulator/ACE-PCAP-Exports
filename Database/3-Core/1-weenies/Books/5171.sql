@@ -46,3 +46,25 @@ VALUES (5171, 33, 1) /* BONDED_INT */
      , (5171, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5171, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5171, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (5171, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (5171, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (5171, 0, 'Nasun and Ahyara', 'prewritten', 4294967295, 0, '
+Lovely Mara,
+
+We have had news of fortune''s munificence to you.  Accept our compliments in this happy time.
+
+- Nasun ibn Tifar
+
+What he said.
+
+- Ahyara
+');
+

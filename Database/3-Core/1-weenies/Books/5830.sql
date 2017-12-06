@@ -45,18 +45,3 @@ VALUES (5830, 19, 500) /* VALUE_INT */
      , (5830, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5830, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (5830, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (5830, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (5830, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (5830, 0, 'Unknown', 'prewritten', 4294967295, 0, '
-(You cannot understand the writing on these pages.)
-
-');
-

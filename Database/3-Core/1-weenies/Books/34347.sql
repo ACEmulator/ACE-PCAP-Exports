@@ -45,22 +45,3 @@ VALUES (34347, 19, 5000) /* VALUE_INT */
      , (34347, 174, 1) /* APPRAISAL_PAGES_INT */
      , (34347, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (34347, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (34347, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (34347, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (34347, 0, 'Asheron Realaidain', 'prewritten', 4294967295, 0, 'To create this portal, it will be of the utmost importance for the site to be arrayed properly.  A simple square will not do, as the equidistant sides will diffuse the power.  There needs to be a clear "direction of power", so to speak.
-
-Perhaps the golden ratio would suit. The spiral which may be derived from it occurs in certain magical creatures, most notably the niffis. A rectangle formed using this ratio may be the best base to work from, especially if the ley lines underneath were to match the internal divisions of it.
-
-The golden ratio is, of course, approximately 1.61803398874989484820458683. That should be sufficiently accurate for my purposes. And it would be a good number to use to encode the other message I must concern myself as well.
-
-Note: The Mountain Sewer may be a good place to conduct further research and attempt to create the gems for these purposes. 
-');
-

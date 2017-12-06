@@ -45,18 +45,3 @@ VALUES (25943, 19, 10) /* VALUE_INT */
      , (25943, 174, 1) /* APPRAISAL_PAGES_INT */
      , (25943, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25943, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (25943, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (25943, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (25943, 0, 'Honshu Takeda', 'prewritten', 4294967295, 0, 'Again I have achieved a moment of clarity while meditating and reaching toward detatchment. In that instant I saw the firebird streak across the sky setting down to the west of this town. Where the sun would fall below the mountains.
-
-It was a sight unlike any that I have seen in my days. I shall begin my journey to the place that I saw in my vision when I have finished penning this vision for those who follow me still.
-');
-

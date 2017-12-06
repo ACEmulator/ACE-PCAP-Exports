@@ -42,17 +42,3 @@ VALUES (2195, 19, 3) /* VALUE_INT */
      , (2195, 174, 1) /* APPRAISAL_PAGES_INT */
      , (2195, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2195, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (2195, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (2195, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (2195, 0, '', 'prewritten', 4294967295, 0, 'May our warrior rest in peace here in the Green Mire, in this dungeon where he bravely fought and died.  May the Dragon protect him, the Unicorn bless him, and the Firebird lead him to the highest heaven!
- 
-');
-

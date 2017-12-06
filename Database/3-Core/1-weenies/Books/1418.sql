@@ -42,17 +42,3 @@ VALUES (1418, 19, 5) /* VALUE_INT */
      , (1418, 174, 1) /* APPRAISAL_PAGES_INT */
      , (1418, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (1418, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (1418, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (1418, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (1418, 0, 'Iquba al-Julmud, Qalaba''r', 'prewritten', 4294967295, 0, '
-Have you seen the beasts called Outcast Monougas? Well, if you see smaller monougas, you may wish to run in fear, for the smaller are more ferocious! I''ve seen them in the Carved Caves and the Pit. Did you get my note about where Stonehold is? Stonehold was a false path. Tibri knows the real way.
-');
-

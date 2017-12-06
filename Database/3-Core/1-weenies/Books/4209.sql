@@ -42,17 +42,3 @@ VALUES (4209, 19, 5) /* VALUE_INT */
      , (4209, 174, 1) /* APPRAISAL_PAGES_INT */
      , (4209, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (4209, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (4209, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (4209, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (4209, 0, 'Dungeon Binar Directions', 'prewritten', 4294967295, 0, '
-To the south of Samsur, past the row of statues, at the base of a hill, is Dungeon Binar.  Within its walls is rumored to be a fine collection of Gharu''ndim weaponry and armor, from the earliest days of our arrival in Dereth.  Of course, the treasure is guarded by all manner of creatures, both weak and frighteningly strong, so you must be careful.
-');
-

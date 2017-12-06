@@ -122,23 +122,3 @@ VALUES (2048, 64, 43) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2048, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2048, 256, 15) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-/* Extended Vendor Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (2048, 74, 544) /* MERCHANDISE_ITEM_TYPES_INT */
-     , (2048, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
-     , (2048, 76, 100000) /* MERCHANDISE_MAX_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (2048, 37, 0.9) /* BUY_PRICE_FLOAT */
-     , (2048, 38, 1.55) /* SELL_PRICE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (2048, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
-
-/* Vendor Shop Selection List */
-
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (2048, 4, 2244) /* Dryreach Key */
-     , (2048, 4, 2245) /* Dryreach Rumor */;
-

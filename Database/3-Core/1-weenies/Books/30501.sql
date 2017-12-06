@@ -46,26 +46,3 @@ VALUES (30501, 33, 1) /* BONDED_INT */
      , (30501, 174, 1) /* APPRAISAL_PAGES_INT */
      , (30501, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30501, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (30501, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (30501, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (30501, 0, 'Lou Ka', 'prewritten', 4294967295, 0, '
-Please retrieve the following items from the Braid Mansion Ruin just outside of Shoushi, at 34.2S 72.0E, and return them to Lou Ka in the bar in Shoushi:
-
-- Lou Ka''s Yaoji 
-- Lou Ka''s Trident
-- Lou Ka''s Shouken
-- Lou Ka''s Katar
-- Bai Den''s Gem
-- Bai Den''s Bracelet
-- Bai Den''s Ring
-- Bai Den''s Necklace
-');
-

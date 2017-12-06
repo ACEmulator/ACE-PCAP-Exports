@@ -59,3 +59,8 @@ VALUES (29415, 64, 468) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (29415, 128, 535) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (29415, 256, 70) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Object Wield List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (29415, 2, 29976) /* Spadone */;
+

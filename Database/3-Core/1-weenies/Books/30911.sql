@@ -46,20 +46,3 @@ VALUES (30911, 33, 0) /* BONDED_INT */
      , (30911, 174, 1) /* APPRAISAL_PAGES_INT */
      , (30911, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (30911, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (30911, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (30911, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (30911, 0, 'Carlo di Cenza', 'prewritten', 4294967295, 0, 'Though the Duke had retired, Eleonora remained. She noticed the looks which Sir Bellas and I exchanged. She approached the two of us and whispered, "Meet me at my cottage. One hour," then left.
-
-An hour later, Sir Bellas and I met with Eleonora. She had a plan. A dangerous, devious plan. We would sneak past Sanamar''s defenses, infiltrate Varicci''s Royal Hall, and steal what magical tomes we might find.
-
-Neither Sir Bellas nor I held out much hope for success. Eleonora was a brilliant
-');
-

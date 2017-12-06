@@ -33,22 +33,3 @@ VALUES (11374, 13, True) /* ETHEREAL_BOOL */
      , (11374, 14, True) /* GRAVITY_STATUS_BOOL */
      , (11374, 19, True) /* ATTACKABLE_BOOL */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (11374, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (11374, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (11374, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (11374, 0, 'Hea Toneawa', 'prewritten', 4294967295, 0, '
-Dearest Mariona,
-
-Though I love you more than the stars and the moon, I dare not meet you today as we had planned. I fear the Hea have become aware of our affections. The emnity between our xutas is too bitter. I know our love will be despised, and I fear for your safety. Lovely Mariona, steal away from Timaru, run away with me to the mainland. We could make a fresh start there, far from the baleful glances of our kindred. I will try my best to meet you on the morrow. Know that the trusted bearer of this missive also carries all my love to you.
-
-Your Toneawa
-
-');
-

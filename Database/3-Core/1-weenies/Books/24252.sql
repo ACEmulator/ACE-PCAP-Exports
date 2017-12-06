@@ -46,18 +46,3 @@ VALUES (24252, 33, 1) /* BONDED_INT */
      , (24252, 174, 1) /* APPRAISAL_PAGES_INT */
      , (24252, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (24252, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (24252, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (24252, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (24252, 0, 'Scout Tar Sheltin', 'prewritten', 4294967295, 0, '
-The Olthoi seem to have accelerated digging.  I hear their claws tearing through the earth all around me. I have managed to find this portal link near where I have left this note. I must investigate where it leads. If you should get this note please bring it to the High Queen.
-
-');
-

@@ -87,11 +87,3 @@ VALUES (43957, 5, 1) /* ENCUMB_VAL_INT */
      , (43957, 12, 1) /* STACK_SIZE_INT */
      , (43957, 19, 100) /* VALUE_INT */;
 
-/* Object Wield List */
-
-/* Object Wield List */
-
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (43957, 2, 24200) /* Weeping Claw */
-     , (43957, 2, 38852) /* Eldrytch Web Shield */;
-

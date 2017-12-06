@@ -37,36 +37,3 @@ VALUES (37159, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (37159, 1, True) /* STUCK_BOOL */
      , (37159, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Extended Appraisal Data */
-
-REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
-VALUES (37159, 5, 'Aluvian Female') /* TEMPLATE_STRING */;
-
-REPLACE INTO `ace_object_properties_did` (`aceObjectId`, `didPropertyId`, `propertyValue`)
-VALUES (37159, 16, 67109567) /* EYES_PALETTE_DID */
-     , (37159, 9, 83890263) /* EYES_TEXTURE_DID */
-     , (37159, 17, 67109560) /* SKIN_PALETTE_DID */
-     , (37159, 10, 83890287) /* NOSE_TEXTURE_DID */
-     , (37159, 11, 83890351) /* MOUTH_TEXTURE_DID */
-     , (37159, 15, 67117016) /* HAIR_PALETTE_DID */;
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (37159, 113, 2) /* GENDER_INT */
-     , (37159, 2, 31) /* CREATURE_TYPE_INT */
-     , (37159, 134, 16) /* PLAYER_KILLER_STATUS_INT */
-     , (37159, 25, 15) /* LEVEL_INT */
-     , (37159, 188, 1) /* HERITAGE_GROUP_INT */;
-
-REPLACE INTO `ace_object_properties_attribute` (`aceObjectId`, `attributeId`, `attributeBase`)
-VALUES (37159, 1, 85) /* STRENGTH_ATTRIBUTE */
-     , (37159, 2, 75) /* ENDURANCE_ATTRIBUTE */
-     , (37159, 4, 50) /* COORDINATION_ATTRIBUTE */
-     , (37159, 8, 100) /* QUICKNESS_ATTRIBUTE */
-     , (37159, 16, 160) /* FOCUS_ATTRIBUTE */
-     , (37159, 32, 180) /* SELF_ATTRIBUTE */;
-
-REPLACE INTO `ace_object_properties_attribute2nd` (`aceObjectId`, `attribute2ndId`, `attribute2ndValue`)
-VALUES (37159, 64, 38) /* MAX_HEALTH_ATTRIBUTE_2ND */
-     , (37159, 128, 75) /* MAX_STAMINA_ATTRIBUTE_2ND */
-     , (37159, 256, 180) /* MAX_MANA_ATTRIBUTE_2ND */;
-

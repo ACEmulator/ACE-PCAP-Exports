@@ -44,28 +44,3 @@ VALUES (25502, 19, 0) /* VALUE_INT */
      , (25502, 174, 1) /* APPRAISAL_PAGES_INT */
      , (25502, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (25502, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (25502, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (25502, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (25502, 0, 'Tavern Keeper Lienne', 'prewritten', 4294967295, 0, '
-RECEIPT FOR PAYMENT DUE
-Owed to Barkeep Lienne, Arwic
-by Hiyp the Toad
-
-22 Mugs Ale____352 p
-17 Mugs Stout__408 p  
-6 Mugs Mead____282 p
-1 Palm Wine_____31 p
-1 Meat pie______16 p
-
-Total_________1089 p 
-
-');
-

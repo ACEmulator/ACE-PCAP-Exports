@@ -37,8 +37,3 @@ VALUES (1635, 12, True) /* REPORT_COLLISIONS_BOOL */
      , (1635, 1, True) /* STUCK_BOOL */
      , (1635, 24, True) /* UI_HIDDEN_BOOL */;
 
-/* Object Wield List */
-
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (1635, 2, 33459) /* Shadow Bolt */;
-

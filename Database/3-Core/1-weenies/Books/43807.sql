@@ -50,26 +50,3 @@ VALUES (43807, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (43807, 69, 0) /* IS_SELLABLE_BOOL */;
 
-/* Extended Book Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (43807, 174, 1) /* APPRAISAL_PAGES_INT */
-     , (43807, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (43807, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
-
-/* Extended Page Data */
-
-REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
-VALUES (43807, 0, 'Lord Kastellar', 'prewritten', 4294967295, 0, 'My dear Lord Gregor,
-
-As you have requested, here is an update on my progress with the creation of the Bloodstones.  As you have seen with the Bloodstones already released in the area held by the Gurog above, the Bloodstones themselves are a success.  At the behest of the Archons, I have also experimented in the creation of smaller varieties, with a focus on speeding the process.  Progress on these goes well, and already a number of smaller Bloodstone Shards and Fragments have been completed.
-
-All else goes according to plan.  Please inform the Archons and His Eternal Splendor that, at the present rate, I should be able to provide a small army of Bloodstones for the protection of the ritual.  With the added security of the Bloodstones, the location will be impenetrable.
-
-If you have need of me, use the Pillar to gain access.  The code for reaching me is Uphara, Uphara, Dowleth, Dowleth, Lefshu, Riga, Lefshu, Riga, Aphi, Beelu, Beelu, Aphi.
-
-Always in Service,
-Lord Kastellar
-
-');
-
