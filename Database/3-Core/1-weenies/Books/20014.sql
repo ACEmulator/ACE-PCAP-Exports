@@ -54,7 +54,7 @@ VALUES (20014, 8, 'Ciandra') /* SCRIBE_NAME_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (20014, 174, 18) /* APPRAISAL_PAGES_INT */
      , (20014, 175, 18) /* APPRAISAL_MAX_PAGES_INT */
-     , (20014, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (20014, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

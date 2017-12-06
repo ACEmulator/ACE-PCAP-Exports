@@ -39,7 +39,7 @@ VALUES (25591, 13, True) /* ETHEREAL_BOOL */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25591, 174, 9) /* APPRAISAL_PAGES_INT */
      , (25591, 175, 9) /* APPRAISAL_MAX_PAGES_INT */
-     , (25591, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (25591, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

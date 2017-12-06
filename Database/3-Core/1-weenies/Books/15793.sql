@@ -50,7 +50,7 @@ VALUES (15793, 114, 1) /* ATTUNED_INT */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (15793, 174, 1) /* APPRAISAL_PAGES_INT */
      , (15793, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (15793, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (15793, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

@@ -46,7 +46,7 @@ VALUES (5692, 19, 10) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (5692, 174, 17) /* APPRAISAL_PAGES_INT */
      , (5692, 175, 17) /* APPRAISAL_MAX_PAGES_INT */
-     , (5692, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (5692, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

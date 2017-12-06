@@ -54,7 +54,7 @@ VALUES (40271, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (40271, 174, 8) /* APPRAISAL_PAGES_INT */
      , (40271, 175, 8) /* APPRAISAL_MAX_PAGES_INT */
-     , (40271, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (40271, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

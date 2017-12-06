@@ -52,7 +52,7 @@ VALUES (364, 8, 'Juliana Bravehart') /* SCRIBE_NAME_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (364, 174, 50) /* APPRAISAL_PAGES_INT */
      , (364, 175, 50) /* APPRAISAL_MAX_PAGES_INT */
-     , (364, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (364, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

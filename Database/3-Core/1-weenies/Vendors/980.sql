@@ -119,3 +119,34 @@ VALUES (980, 64, 105) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (980, 128, 180) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (980, 256, 85) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (980, 74, 264200) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (980, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (980, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (980, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (980, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (980, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (980, 4, 41402) /* Jeweler's Saw Blade */
+     , (980, 4, 41403) /* Jeweler's Saw Frame */
+     , (980, 4, 41400) /* Lapping Plate */
+     , (980, 4, 41397) /* Abrasive Polish */
+     , (980, 4, 41393) /* Lense Frame */
+     , (980, 4, 41395) /* Unfinished Lense */
+     , (980, 4, 621) /* Heavy Bracelet */
+     , (980, 4, 297) /* Ring */
+     , (980, 4, 2413) /* Gem */
+     , (980, 4, 2418) /* Gem */
+     , (980, 4, 2621) /* Trade Note (100) */
+     , (980, 4, 2622) /* Trade Note (500) */
+     , (980, 4, 2623) /* Trade Note (1,000) */;
+

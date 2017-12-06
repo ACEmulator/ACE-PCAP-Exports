@@ -53,7 +53,7 @@ VALUES (367, 8, 'Aziz al-Jamal') /* SCRIBE_NAME_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (367, 174, 70) /* APPRAISAL_PAGES_INT */
      , (367, 175, 70) /* APPRAISAL_MAX_PAGES_INT */
-     , (367, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (367, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

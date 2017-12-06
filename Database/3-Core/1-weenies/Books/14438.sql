@@ -48,7 +48,7 @@ VALUES (14438, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (14438, 174, 2) /* APPRAISAL_PAGES_INT */
      , (14438, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
-     , (14438, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (14438, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

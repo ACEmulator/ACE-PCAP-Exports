@@ -121,3 +121,40 @@ VALUES (981, 64, 125) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (981, 128, 170) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (981, 256, 105) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (981, 74, 270336) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (981, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (981, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (981, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (981, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (981, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (981, 4, 364) /* Book */
+     , (981, 4, 365) /* Parchment */
+     , (981, 4, 367) /* Tome */
+     , (981, 4, 9118) /* Puppet Show */
+     , (981, 4, 9124) /* The Beginning */
+     , (981, 4, 27851) /* The Weapons of the Singularity */
+     , (981, 4, 9319) /* Mnemosynes and the Art of Lockpicking */
+     , (981, 4, 1507) /* Legend of the Halls of Helm */
+     , (981, 4, 1495) /* Armoredillo Lair Directions */
+     , (981, 4, 4209) /* Dungeon Binar Directions */
+     , (981, 4, 5602) /* The Festival Stones of the Empyrean */
+     , (981, 4, 6419) /* The Meeting Halls */
+     , (981, 4, 5584) /* Gharu'ndim Cookbook */
+     , (981, 4, 5856) /* Specialty Cookbook */
+     , (981, 4, 7884) /* Chocolate Cookbook */
+     , (981, 4, 14797) /* Festival Cookbook */
+     , (981, 4, 5586) /* Alchemy Guide */
+     , (981, 4, 24855) /* The New Alchemy */
+     , (981, 4, 5587) /* Fletching Guide */;
+

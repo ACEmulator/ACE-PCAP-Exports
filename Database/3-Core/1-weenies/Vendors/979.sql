@@ -120,3 +120,34 @@ VALUES (979, 64, 155) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (979, 128, 190) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (979, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (979, 74, 262272) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (979, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (979, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (979, 37, 0.95) /* BUY_PRICE_FLOAT */
+     , (979, 38, 1.25) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (979, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (979, 4, 2457) /* Health Draught */
+     , (979, 4, 377) /* Potion of Healing */
+     , (979, 4, 2460) /* Mana Draught */
+     , (979, 4, 379) /* Mana Potion */
+     , (979, 4, 378) /* Stamina Potion */
+     , (979, 4, 27326) /* Stamina Tincture */
+     , (979, 4, 628) /* Handy Healing Kit */
+     , (979, 4, 629) /* Adept Healing Kit */
+     , (979, 4, 4610) /* Willpower Other I */
+     , (979, 4, 4597) /* Rejuvenation Other I */
+     , (979, 4, 4450) /* Heal Other I */
+     , (979, 4, 2621) /* Trade Note (100) */
+     , (979, 4, 2622) /* Trade Note (500) */;
+

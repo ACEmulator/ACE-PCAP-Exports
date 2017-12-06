@@ -122,6 +122,62 @@ VALUES (977, 64, 95) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (977, 128, 240) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (977, 256, 50) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (977, 74, 134480129) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (977, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (977, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (977, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (977, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (977, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (977, 4, 2623) /* Trade Note (1,000) */
+     , (977, 4, 2622) /* Trade Note (500) */
+     , (977, 4, 2621) /* Trade Note (100) */
+     , (977, 4, 4586) /* Bundle of Arrowheads */
+     , (977, 4, 4585) /* Bundle of Arrowshafts */
+     , (977, 4, 5339) /* Bundle of Quarrelshafts */
+     , (977, 4, 5344) /* Bundle of Blunt Arrowheads */
+     , (977, 4, 5345) /* Bundle of Broad Arrowheads */
+     , (977, 4, 9378) /* Wrapped Bundle of Quarrelshafts */
+     , (977, 4, 9377) /* Wrapped Bundle of Arrowshafts */
+     , (977, 4, 9359) /* Wrapped Bundle of Arrowheads */
+     , (977, 4, 9362) /* Wrapped Bundle of Blunt Arrowheads */
+     , (977, 4, 9363) /* Wrapped Bundle of Broad Arrowheads */
+     , (977, 4, 23858) /* Bundle of Wrapped Spiketails */
+     , (977, 4, 23857) /* Bundle of Spiketails */
+     , (977, 4, 305) /* Quarrel */
+     , (977, 4, 300) /* Arrow */
+     , (977, 4, 312) /* Light Crossbow */
+     , (977, 4, 360) /* Yag */
+     , (977, 4, 12463) /* Atlatl */
+     , (977, 4, 12464) /* Atlatl Dart */
+     , (977, 4, 15296) /* Bundle of Atlatl Dart Shafts */
+     , (977, 4, 15298) /* Wrapped Bundle of Atlatl Dartshafts */
+     , (977, 4, 304) /* Throwing Axe */
+     , (977, 4, 3758) /* Acid Throwing Axe */
+     , (977, 4, 3759) /* Lightning Throwing Axe */
+     , (977, 4, 3760) /* Flaming Throwing Axe */
+     , (977, 4, 3761) /* Frost Throwing Axe */
+     , (977, 4, 310) /* Throwing Club */
+     , (977, 4, 320) /* Javelin */
+     , (977, 4, 316) /* Throwing Dart */
+     , (977, 4, 3786) /* Throwing Acid Dart */
+     , (977, 4, 3787) /* Throwing Lightning Dart */
+     , (977, 4, 3788) /* Throwing Fire Dart */
+     , (977, 4, 3789) /* Throwing Frost Dart */
+     , (977, 4, 44074) /* Invitation to Master Fletchers */
+     , (977, 4, 44070) /* Bundle of Prismatic Arrowheads */
+     , (977, 4, 44071) /* Wrapped Bundle of Prismatic Arrowheads */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

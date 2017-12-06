@@ -38,7 +38,7 @@ VALUES (28753, 13, True) /* ETHEREAL_BOOL */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (28753, 174, 2) /* APPRAISAL_PAGES_INT */
      , (28753, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
-     , (28753, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (28753, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

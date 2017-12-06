@@ -49,7 +49,7 @@ VALUES (25681, 19, 0) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (25681, 174, 2) /* APPRAISAL_PAGES_INT */
      , (25681, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
-     , (25681, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (25681, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

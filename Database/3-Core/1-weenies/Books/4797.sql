@@ -51,7 +51,7 @@ VALUES (4797, 8, 'Brentsella') /* SCRIBE_NAME_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (4797, 174, 1) /* APPRAISAL_PAGES_INT */
      , (4797, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (4797, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (4797, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

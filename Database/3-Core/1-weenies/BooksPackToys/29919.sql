@@ -59,7 +59,7 @@ VALUES (29919, 69, 0) /* IS_SELLABLE_BOOL */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (29919, 174, 4) /* APPRAISAL_PAGES_INT */
      , (29919, 175, 4) /* APPRAISAL_MAX_PAGES_INT */
-     , (29919, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (29919, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

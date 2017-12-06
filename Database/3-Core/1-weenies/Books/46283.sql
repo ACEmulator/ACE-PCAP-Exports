@@ -54,7 +54,7 @@ VALUES (46283, 8, 'Explorer Scribe') /* SCRIBE_NAME_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (46283, 174, 4) /* APPRAISAL_PAGES_INT */
      , (46283, 175, 4) /* APPRAISAL_MAX_PAGES_INT */
-     , (46283, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+     , (46283, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

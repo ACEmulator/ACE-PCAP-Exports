@@ -119,3 +119,133 @@ VALUES (2306, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (2306, 128, 110) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (2306, 256, 135) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (2306, 74, 831488) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (2306, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (2306, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (2306, 37, 0.9) /* BUY_PRICE_FLOAT */
+     , (2306, 38, 1.35) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (2306, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (2306, 4, 5940) /* Smelting Pot */
+     , (2306, 4, 41424) /* Refining Polish (Mana) */
+     , (2306, 4, 41425) /* Refining Polish (Stamina) */
+     , (2306, 4, 691) /* Lead Scarab */
+     , (2306, 4, 689) /* Iron Scarab */
+     , (2306, 4, 686) /* Copper Scarab */
+     , (2306, 4, 688) /* Silver Scarab */
+     , (2306, 4, 20631) /* Prismatic Taper */
+     , (2306, 4, 765) /* Amaranth */
+     , (2306, 4, 766) /* Bistort */
+     , (2306, 4, 767) /* Comfrey */
+     , (2306, 4, 768) /* Damiana */
+     , (2306, 4, 769) /* Dragonsblood */
+     , (2306, 4, 770) /* Eyebright */
+     , (2306, 4, 771) /* Frankincense */
+     , (2306, 4, 625) /* Ginseng */
+     , (2306, 4, 772) /* Hawthorn */
+     , (2306, 4, 773) /* Henbane */
+     , (2306, 4, 774) /* Hyssop */
+     , (2306, 4, 775) /* Mandrake */
+     , (2306, 4, 776) /* Mugwort */
+     , (2306, 4, 777) /* Myrrh */
+     , (2306, 4, 778) /* Saffron */
+     , (2306, 4, 779) /* Vervain */
+     , (2306, 4, 780) /* Wormwood */
+     , (2306, 4, 781) /* Yarrow */
+     , (2306, 4, 782) /* Powdered Agate */
+     , (2306, 4, 783) /* Powdered Amber */
+     , (2306, 4, 784) /* Powdered Azurite */
+     , (2306, 4, 785) /* Powdered Bloodstone */
+     , (2306, 4, 786) /* Powdered Carnelian */
+     , (2306, 4, 626) /* Powdered Hematite */
+     , (2306, 4, 787) /* Powdered Lapis Lazuli */
+     , (2306, 4, 788) /* Powdered Malachite */
+     , (2306, 4, 789) /* Powdered Moonstone */
+     , (2306, 4, 790) /* Powdered Onyx */
+     , (2306, 4, 791) /* Powdered Quartz */
+     , (2306, 4, 792) /* Powdered Turquoise */
+     , (2306, 4, 753) /* Brimstone */
+     , (2306, 4, 754) /* Cadmia */
+     , (2306, 4, 755) /* Cinnabar */
+     , (2306, 4, 756) /* Cobalt */
+     , (2306, 4, 757) /* Colcothar */
+     , (2306, 4, 758) /* Gypsum */
+     , (2306, 4, 759) /* Quicksilver */
+     , (2306, 4, 760) /* Realgar */
+     , (2306, 4, 761) /* Stibnite */
+     , (2306, 4, 762) /* Turpeth */
+     , (2306, 4, 763) /* Verdigris */
+     , (2306, 4, 764) /* Vitriol */
+     , (2306, 4, 749) /* Poplar Talisman */
+     , (2306, 4, 742) /* Blackthorn Talisman */
+     , (2306, 4, 752) /* Yew Talisman */
+     , (2306, 4, 747) /* Hemlock Talisman */
+     , (2306, 4, 627) /* Alder Talisman */
+     , (2306, 4, 744) /* Ebony Talisman */
+     , (2306, 4, 741) /* Birch Talisman */
+     , (2306, 4, 740) /* Ashwood Talisman */
+     , (2306, 4, 745) /* Elder Talisman */
+     , (2306, 4, 750) /* Rowan Talisman */
+     , (2306, 4, 751) /* Willow Talisman */
+     , (2306, 4, 743) /* Cedar Talisman */
+     , (2306, 4, 748) /* Oak Talisman */
+     , (2306, 4, 746) /* Hazel Talisman */
+     , (2306, 4, 1650) /* Red Taper */
+     , (2306, 4, 1649) /* Pink Taper */
+     , (2306, 4, 1648) /* Orange Taper */
+     , (2306, 4, 1653) /* Yellow Taper */
+     , (2306, 4, 1645) /* Green Taper */
+     , (2306, 4, 1654) /* Turquoise Taper */
+     , (2306, 4, 1643) /* Blue Taper */
+     , (2306, 4, 1647) /* Indigo Taper */
+     , (2306, 4, 1651) /* Violet Taper */
+     , (2306, 4, 1644) /* Brown Taper */
+     , (2306, 4, 1652) /* White Taper */
+     , (2306, 4, 1646) /* Grey Taper */
+     , (2306, 4, 8180) /* Evaporate All Magic Other */
+     , (2306, 4, 8181) /* Extinguish All Magic Other */
+     , (2306, 4, 8182) /* Cleanse All Magic Other */
+     , (2306, 4, 27331) /* Minor Mana Stone */
+     , (2306, 4, 2434) /* Lesser Mana Stone */
+     , (2306, 4, 4612) /* Tiny Mana Charge */
+     , (2306, 4, 4613) /* Small Mana Charge */
+     , (2306, 4, 4614) /* Moderate Mana Charge */
+     , (2306, 4, 4615) /* High Mana Charge */
+     , (2306, 4, 6063) /* Dho Creature Apprentice Robe */
+     , (2306, 4, 6066) /* Dho Item Apprentice Robe */
+     , (2306, 4, 6069) /* Dho Life Apprentice Robe */
+     , (2306, 4, 6072) /* Dho War Apprentice Robe */
+     , (2306, 4, 4751) /* Mortar and Pestle */
+     , (2306, 4, 2621) /* Trade Note (100) */
+     , (2306, 4, 2622) /* Trade Note (500) */
+     , (2306, 4, 2623) /* Trade Note (1,000) */
+     , (2306, 4, 2624) /* Trade Note (5,000) */
+     , (2306, 4, 2625) /* Trade Note (10,000) */
+     , (2306, 4, 2626) /* Trade Note (50,000) */
+     , (2306, 4, 2627) /* Trade Note (100,000) */
+     , (2306, 4, 20628) /* Trade Note (150,000) */
+     , (2306, 4, 20629) /* Trade Note (200,000) */
+     , (2306, 4, 20630) /* Trade Note (250,000) */
+     , (2306, 4, 5541) /* Wand */
+     , (2306, 4, 2472) /* Wand */
+     , (2306, 4, 26639) /* Xarabydun Portal Summoning Gem */
+     , (2306, 4, 8973) /* Al-Arqas Portal Gem */
+     , (2306, 4, 8984) /* Yaraq Portal Gem */
+     , (2306, 4, 8980) /* Samsur Portal Gem */
+     , (2306, 4, 8983) /* Yanshi Portal Gem */
+     , (2306, 4, 8981) /* Shoushi Portal Gem */
+     , (2306, 4, 8978) /* Nanto Portal Gem */
+     , (2306, 4, 8976) /* Holtburg Portal Gem */
+     , (2306, 4, 8977) /* Lytelthorpe Portal Gem */
+     , (2306, 4, 8979) /* Rithwic Portal Gem */;
+
