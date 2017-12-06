@@ -44,3 +44,17 @@ VALUES (32302, 19, 0) /* VALUE_INT */
      , (32302, 174, 1) /* APPRAISAL_PAGES_INT */
      , (32302, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (32302, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (32302, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (32302, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (32302, 0, 'King Varicci II', 'prewritten', 4294967295, 0, 'Commander,
+You are hereby charged to journey into the Direlands with a force of Knights and Mages and take possession of the Empyrean installation known as the Nexus.  While we no longer expect to find the great Nexus Crystal that once helped imprison the being known as Hopeslayer, we desire that you and the Mages under your command take a full investigation of the complex and hold it against all intruders, especially the servants of the Bloodless queen.
+');
+

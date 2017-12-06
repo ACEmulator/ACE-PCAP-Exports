@@ -45,3 +45,34 @@ VALUES (34349, 19, 5000) /* VALUE_INT */
      , (34349, 174, 3) /* APPRAISAL_PAGES_INT */
      , (34349, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (34349, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (34349, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
+     , (34349, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (34349, 0, 'Asheron Realaidain', 'prewritten', 4294967295, 0, 'To the esteemed scholar Bretself,
+
+It may come as a shock to receive a letter from the very subject you study, but you have become renowned for your studies upon my people. In a less tempestuous time, I would be delighted to sit down with you and speak of my past and what I know of history, as I still consider myself a teacher even after all that has happened. However, I instead find myself needing to request something of you.
+
+Those who have come here from your home have proven to be adept in exploring the ruins of my people. I do not hold this against them, for my people no longer occupy these places and they can learn much from the artifacts of the past. There is one item in particular I would ask you to watch for, however. I have stored a cache of gems that I use for my portal research in the place known as the Mountain Sewer by your people. It is an old complex which predates my time.
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (34349, 1, 'Asheron Realaidain', 'prewritten', 4294967295, 0, 'I would appreciate if you, as a known researcher of my people, would watch for these gems. They are violet, and bear my name. They may be mistaken as artifacts of the past time, but in fact I am using them for present research. If people should bring you these gems, please appraise them closely. If you find that they may be powerful enough to attempt to use these gems, please ensure that they do not become aware as to their potential - simply claim the gems. You may disclose the truth about the gems to others as you see fit. Periodically a golem shall come to collect your gems and return them to the cache. I shall have to activate some new golems to facilitate this and other tasks I must do, and so will find myself traveling to the halls of a friend of my father to enable that.
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (34349, 2, 'Asheron Realaidain', 'prewritten', 4294967295, 0, 'The reason I ask you to warn people against using the gems is that most of these gems will not work properly. Only a gem whose energy is expended in a certain frequency - what scholars acknowledge as the base of the natural logarithm, approximately 2.71828182845904523536028747 - is useful for my purposes. This can be distinguished by its steady pulse, whereas most will pulse with increasing pauses between each pulse. Gems meeting this specification are hard to construct, and so I have ended up with many flawed works that should never be used for any purpose.
+
+I offer my sincere thanks.
+');
+

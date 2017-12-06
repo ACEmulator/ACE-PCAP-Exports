@@ -42,3 +42,18 @@ VALUES (27703, 19, 10) /* VALUE_INT */
      , (27703, 174, 1) /* APPRAISAL_PAGES_INT */
      , (27703, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (27703, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (27703, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (27703, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (27703, 0, 'Fulkra', 'prewritten', 4294967295, 0, 'Before my people took back their independence we worked in mines collecting ore for our masters. Since that time we have taken the mines for ourselves and now are the masters of this magical stone. Odder still is that the magic in this rock is to ward off all other magic. We use it in various strains in our armor and shields. We gift this to you and yours, as well as a shield pounded flat with chorizite. May it shield you from our enemies.
+
+Fulkra, Head Armorer
+');
+

@@ -45,3 +45,44 @@ VALUES (35294, 19, 1) /* VALUE_INT */
      , (35294, 174, 2) /* APPRAISAL_PAGES_INT */
      , (35294, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (35294, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (35294, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
+     , (35294, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (35294, 0, 'Asheron', 'prewritten', 4294967295, 0, 'These are the resources I need to build the golem to protect my castle. I''ve assigned a basic point system for each resource that correlates to its value to the construction. I will reward those who help me by turning in (50), (100) and (200) points worth of resources.
+
+Pyreal:
+Pyreal Mote (1)
+Pyreal Sliver (2)
+Pyreal Nugget (4)
+Pyreal Bar (8)
+Pyreal Ingot (16)
+Quality Pyreal Ingot (20)
+Imprinting Mote (2)
+Quality Imprinting Mote (4)
+Superb Imprinting Mote (6)
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (35294, 1, 'Constructor Golem', 'prewritten', 4294967295, 0, 'Crystal:
+Cracked Shard (5)
+Tiny Shard (10)
+Small Shard (20)
+Crystal Fragment (40)
+Scored Shard (2)
+Seared Shard (2)
+Chilled Shard (2)
+Plated Shard (2)
+Hardened Shard (2)
+Brilliant Shard (2)
+Solid Shard (2)
+');
+

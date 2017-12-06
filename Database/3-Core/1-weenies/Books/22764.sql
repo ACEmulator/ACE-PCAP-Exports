@@ -45,3 +45,28 @@ VALUES (22764, 19, 0) /* VALUE_INT */
      , (22764, 174, 2) /* APPRAISAL_PAGES_INT */
      , (22764, 175, 2) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22764, 174, 2) /* APPRAISAL_PAGES_INT */
+     , (22764, 175, 2) /* APPRAISAL_MAX_PAGES_INT */
+     , (22764, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (22764, 0, 'Translated by Nuhmudira, with additions by Ciandra', 'prewritten', 4294967295, 0, '
+Welcome to the Temple of Forgetfulness,  one of the foremost relaxation facilities in the world. Enter, and join your spirit to the symphony of the world soul. Lounge in our beautifully decorated living grottos, bask in the healing ambience of our natural sauna caves, and have your every wish attended to by our well-groomed golems. 
+
+
+(more)
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (22764, 1, 'Translated by Nuhmudira, with additions by Ciandra', 'prewritten', 4294967295, 0, 'At the end of the day, visit the Inner Sanctum for a brief but moving ceremony of worship. After the ceremony, choose a magical Gem of Forgetfulness from the vast array available. Use the gem to erase an erroneous path you may have taken on your life journey, and restore your spirit to its  pure, new-born form. Then go out into the glorious night, refreshed and rejuvenated. 
+
+(You may receive with no delay up to four gems that allow one to forget a skill previously known. Receipt of your fifth through eighth gem will require a wait of a week per gem. Receipt of your ninth through sixteenth gem will require a wait of two weeks. Finally, gems beyond your sixteenth will require a wait of three weeks per gem.)
+');
+

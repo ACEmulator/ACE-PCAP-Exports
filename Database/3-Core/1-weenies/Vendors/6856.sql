@@ -119,6 +119,46 @@ VALUES (6856, 64, 108) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6856, 128, 215) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6856, 256, 95) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6856, 74, 262178) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (6856, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (6856, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6856, 37, 0.7) /* BUY_PRICE_FLOAT */
+     , (6856, 38, 1.9) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6856, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6856, 4, 2451) /* Ale */
+     , (6856, 4, 2471) /* Stout */
+     , (6856, 4, 2462) /* Mead */
+     , (6856, 4, 2463) /* Milk */
+     , (6856, 4, 4746) /* Water */
+     , (6856, 4, 8378) /* Beer Stein */
+     , (6856, 4, 261) /* Cheese */
+     , (6856, 4, 620) /* Cake */
+     , (6856, 4, 4732) /* Fried Steak */
+     , (6856, 4, 4734) /* Meat Pie */
+     , (6856, 4, 32273) /* The Zongo Papers */
+     , (6856, 4, 22765) /* The Empyrean Temples */
+     , (6856, 4, 26641) /* Singularity Bore */
+     , (6856, 4, 29235) /* Feud of the Natural Philosophers */
+     , (6856, 4, 30742) /* The Littlest Niffis */
+     , (6856, 4, 30761) /* The Withered Atoll */
+     , (6856, 4, 31311) /* Lost Pet */
+     , (6856, 4, 31384) /* Dark Dealings */
+     , (6856, 4, 31982) /* Branwyn's Tears */
+     , (6856, 4, 33181) /* A Shadow Spire on the Caul */
+     , (6856, 4, 34281) /* A Strange Swamp Temple */
+     , (6856, 4, 35043) /* Halls of Metos */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

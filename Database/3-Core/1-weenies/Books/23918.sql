@@ -42,3 +42,19 @@ VALUES (23918, 19, 1) /* VALUE_INT */
      , (23918, 174, 1) /* APPRAISAL_PAGES_INT */
      , (23918, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (23918, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (23918, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (23918, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (23918, 0, 'Amaltah', 'prewritten', 4294967295, 0, '
+Worshippers of the forebears, hear now the call of your blood. Join with the might of the Tonk to carve from this fat land a homeland which is truly ours. 
+
+Put aside your former slavery, and join with us near the besieged settlement of Dryreach to train and prepare. There shall we begin our conquest of this world.
+');
+

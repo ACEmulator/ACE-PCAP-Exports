@@ -47,3 +47,30 @@ VALUES (25284, 33, 1) /* BONDED_INT */
      , (25284, 174, 1) /* APPRAISAL_PAGES_INT */
      , (25284, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25284, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (25284, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (25284, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (25284, 0, 'Triumph', 'prewritten', 1342836646, 1, 'Greetings!  Leave me a note if you drop by.. I don''t get many visitors :)
+
+I told you I''d visit! :) - Cyns
+
+Omg, nice cottage :D , most get lonely on your lil'' island huh? :) --  Golden''
+
+Cool cottage bro, look me up sometime, id like to hunt with you, also wanna know where u got paintings--Shadow-Fax
+
+Well hi.  Nice cottage hun.
+<3 Quen
+
+I want to buy your cottage. ;) Dragonsun
+
+hi there...just dropped by to see if my old house was still vacant after all this time for my new char...o well, enjoy it and take care!-Uza''s Dagger
+
+I hate you. I wanted this house. :(');
+

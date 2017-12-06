@@ -33,3 +33,54 @@ VALUES (33955, 13, True) /* ETHEREAL_BOOL */
      , (33955, 14, True) /* GRAVITY_STATUS_BOOL */
      , (33955, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (33955, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (33955, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (33955, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (33955, 0, 'Belinda du Loc', 'prewritten', 4294967295, 0, '
+List of Rare Game:
+Dark Sorcerer
+Lord of Decay
+Dark Myrmidon
+Cold One
+Master of the Pack
+Swamp King
+Tundra Mattekar
+Lugian Warlord
+Pure One
+Sentient Fragment
+Basalt Golem
+
+List of Banished Creatures:
+Banished Banderling
+Banished Drudge
+Banished Grievver
+Banished Lugian
+Banished Monouga
+Banished Mu-miyah
+Banished Olthoi
+Banished Phyntos Wasp
+Banished Shadow
+Banished Tumerok
+Banished Tusker
+
+List of Fallen Creatures:
+Fallen Crystal Shard
+Fallen Doll
+Fallen Drudge
+Fallen Grievver
+Fallen Lugian
+Fallen Margul
+Fallen Marionette
+Fallen Mite
+Fallen Rift
+Fallen Shadow
+Fallen Tumerok
+');
+

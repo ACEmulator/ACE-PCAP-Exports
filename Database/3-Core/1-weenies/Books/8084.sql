@@ -46,3 +46,35 @@ VALUES (8084, 19, 90) /* VALUE_INT */
      , (8084, 174, 3) /* APPRAISAL_PAGES_INT */
      , (8084, 175, 3) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (8084, 174, 3) /* APPRAISAL_PAGES_INT */
+     , (8084, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
+     , (8084, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (8084, 0, 'Unknown', 'prewritten', 4294967295, 0, '
+How can this be permitted?
+
+Again, the forces promised by Dule have failed to appear. I was to have at my command twice as many as I actually enjoyed. We attacked as planned, but failed to achieve our goals - we simply had not the numbers. We pressed the rotting ones hard, but were forced to withdraw in disarray.
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (8084, 1, 'Unknown', 'prewritten', 4294967295, 0, 'Many were lost that should not have been, my lord Ler Rhan. The oldest and most powerful in my force lie strewn about the upper halls. This inefficiency cannot be tolerated! How many more times will we permit our goals to be thwarted by the inactivity of that cold, recalcitrant schemer?
+
+I am now assembling the survivors from across the complex, organizing them into companies, and preparing another assault. This time, we shall carry the field. I doubt, however, that we shall have the strength to achieve our object once the rotting ones are cleared away.
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (8084, 2, 'Unknown', 'prewritten', 4294967295, 0, 'My only hope, barring the dispatch of more of our limited forces, lies in the greed of the outlanders. They now know that destroying what lies below will create more of those obnoxious, self-replicating fragments. They do so love that cursed armor. Despite the assassin''s harrying of the smiths, the chance to loose more of the resource into the world will surely prove too great a temptation.
+
+I go now to fight the servants of the Old Ones. I likely as not shall die in the endeavor. A curse upon the name of Dule. May the Black Breath boil him away!
+');
+

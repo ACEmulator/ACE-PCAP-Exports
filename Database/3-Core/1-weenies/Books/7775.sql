@@ -40,7 +40,7 @@ VALUES (7775, 13, True) /* ETHEREAL_BOOL */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (7775, 174, 6) /* APPRAISAL_PAGES_INT */
      , (7775, 175, 6) /* APPRAISAL_MAX_PAGES_INT */
-     , (7775, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+     , (7775, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

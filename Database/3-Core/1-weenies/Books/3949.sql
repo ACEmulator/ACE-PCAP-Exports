@@ -52,7 +52,7 @@ VALUES (3949, 8, 'Naqib of Suntik') /* SCRIBE_NAME_STRING */;
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (3949, 174, 1) /* APPRAISAL_PAGES_INT */
      , (3949, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (3949, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+     , (3949, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

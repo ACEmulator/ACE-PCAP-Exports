@@ -45,3 +45,16 @@ VALUES (14446, 33, 1) /* BONDED_INT */
      , (14446, 174, 1) /* APPRAISAL_PAGES_INT */
      , (14446, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (14446, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (14446, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (14446, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (14446, 0, '', 'prewritten', 4294967295, 0, 'You are already well paid for your storage facilities. Do not insult me again by asking for increased compensation. Do try to maintain an ordinary facade--it does not behoove you to call unwanted attention to yourself. Store these items until further notice, when you will be called upon to transport them to our factory.
+');
+

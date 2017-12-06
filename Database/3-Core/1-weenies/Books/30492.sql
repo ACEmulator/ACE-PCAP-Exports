@@ -46,3 +46,21 @@ VALUES (30492, 33, 1) /* BONDED_INT */
      , (30492, 174, 1) /* APPRAISAL_PAGES_INT */
      , (30492, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (30492, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (30492, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (30492, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (30492, 0, 'Brogord the Forester', 'prewritten', 4294967295, 0, '
+My beloved Ryndya,
+
+I will write quickly, for I can hear the door above resounding with the efforts of the Tumeroks to find entrance. My time is short. I hope that you have heeded my command and followed little Flinrala through the mage''s portal. Our daughter will need you in the coming years. Remember, both of you, that I will always love you. 
+
+- B
+');
+

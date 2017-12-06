@@ -46,3 +46,17 @@ VALUES (28757, 33, 1) /* BONDED_INT */
      , (28757, 174, 1) /* APPRAISAL_PAGES_INT */
      , (28757, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28757, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (28757, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (28757, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (28757, 0, 'Skree', 'prewritten', 4294967295, 0, '
+Bendurleengz tayk buk we steel frum man that maeks dreenks that ar taesti and dissie! Thay fight and rip buk intu peeces! Thay steel peeces and tayk to Reemoet Volt of Old Ones. Thay tayk to garrussun of big soljurs! Thay tayk to Din of big beest naym uf Lola! Wee hayt Bendurleengz! Wee must git bak buk!
+');
+

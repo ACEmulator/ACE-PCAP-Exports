@@ -34,3 +34,80 @@ VALUES (9595, 13, True) /* ETHEREAL_BOOL */
      , (9595, 14, True) /* GRAVITY_STATUS_BOOL */
      , (9595, 19, True) /* ATTACKABLE_BOOL */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9595, 174, 5) /* APPRAISAL_PAGES_INT */
+     , (9595, 175, 5) /* APPRAISAL_MAX_PAGES_INT */
+     , (9595, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (9595, 0, '', 'prewritten', 4294967295, 0, '-----------------------------------------------------------
+The Bestowers'' Guild of Dereth has a charter to bestow new titles upon worthy applicants.  At present, the Guild bestows thirty-four titles.  
+
+A full list follows, showing the seventeen skills in which titles are granted, followed by the basic and advanced titles rewarded.
+
+
+
+
+
+
+-Continued-
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (9595, 1, '', 'prewritten', 4294967295, 0, '-----------------------------------------------------------
+Bow: Sharpshooter / Deadeye
+Crossbow: Sniper / Sureshot
+Thrown Weapons: Ballisteer/Projectilist
+Axe: Axe Warrior / Skullsplitter
+Dagger: Dagger / Slicer
+Mace: Mace Warrior / Skullcrusher
+Spear: Spear Warrior / Impaler
+Staff: Staff Warrior / Master of Staves
+Sword: Swordfighter / Duelist
+Unarmed Combat: Unarmed Brawler / Pugilist
+
+
+
+
+-Continued-
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (9595, 2, '', 'prewritten', 4294967295, 0, '-----------------------------------------------------------
+Alchemy: Apothecary / Alchemist
+Cooking: Chef / Iron Chef
+Fletching: Fletcher / Master Fletcher
+War Magic: War Adept / Warlock
+Life Magic: Life Adept / Theurgist
+Item Enchantment: Item Adept / Artifex
+Creature Enchantment: Creature Adept / Evoker
+
+
+
+
+
+
+
+
+-Continued-
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (9595, 3, '', 'prewritten', 4294967295, 0, 'To apply for a title, simply collect a Skill Puzzle Base Piece from your local Guild outpost.  One should be available and in plain sight at each outpost.  Then purchase the appropriate Skill Puzzle Piece from the Guild Representative.  
+
+If you are sufficiently advanced with the skill in question, you should have no problem combining the base piece with the appropriate skill piece.  Once the puzzle is complete, turn it in to the local Examiner to receive your new title.
+
+
+-Continued-
+');
+

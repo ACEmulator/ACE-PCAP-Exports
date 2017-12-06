@@ -49,3 +49,19 @@ VALUES (25728, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
 VALUES (25728, 69, 1) /* IS_SELLABLE_BOOL */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25728, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (25728, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (25728, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (25728, 0, 'Gentleman Jake Hawkins', 'prewritten', 4294967295, 0, '
+To whom it may concern,
+I heard rumors of a plot to remove an important woman in power. I became frightened and left the bandit stronghold where I was living and went on the run. I feel terrible about what happened to High Queen Elysa. I fear that the men who are in charge of the bandits may be behind the attempt on her life.
+Gentleman Jake Hawkins
+');
+

@@ -46,3 +46,24 @@ VALUES (5060, 33, 1) /* BONDED_INT */
      , (5060, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5060, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5060, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (5060, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (5060, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (5060, 0, 'Jhong Mi', 'prewritten', 4294967295, 0, '
+If the mad spinning of the dust devils
+Yields nothing
+Creates nothing
+Changes nothing
+Returns to mere dust
+Why act as the dust devil,
+Spinning so madly in place?
+
+');
+

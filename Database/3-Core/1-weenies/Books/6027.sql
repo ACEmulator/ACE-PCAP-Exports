@@ -45,3 +45,18 @@ VALUES (6027, 19, 5) /* VALUE_INT */
      , (6027, 174, 1) /* APPRAISAL_PAGES_INT */
      , (6027, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6027, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (6027, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (6027, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (6027, 0, 'Ivory Crafter', 'prewritten', 4294967295, 0, '
+Lady Devana, you requested I send to you worthy candidates.  This person has managed to slay one of the great lizards that breathe lightning.  I leave the rest to you.
+
+');
+

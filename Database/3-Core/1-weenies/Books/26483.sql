@@ -45,3 +45,19 @@ VALUES (26483, 19, 5) /* VALUE_INT */
      , (26483, 174, 1) /* APPRAISAL_PAGES_INT */
      , (26483, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (26483, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (26483, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (26483, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (26483, 0, 'Nin Hong', 'prewritten', 4294967295, 0, '
+Nen Ai is a sweet woman with a compassionate heart. She lives alone (except for her pet drudge!) in a house at 34.8S 71.2E, just outside of town. To get there, take the road that leaves town to the southwest. Hers is the first house you''ll come to. 
+
+But be careful! Some nasty drudges have moved into the abandoned house a bit further down the road. So make sure you have the right house before you go knocking!
+');
+

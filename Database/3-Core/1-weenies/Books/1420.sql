@@ -42,3 +42,17 @@ VALUES (1420, 19, 5) /* VALUE_INT */
      , (1420, 174, 1) /* APPRAISAL_PAGES_INT */
      , (1420, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (1420, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (1420, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (1420, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (1420, 0, 'An old note', 'prewritten', 4294967295, 0, '
+...Have you met the long-dead Archmage whose selections and prices are nigh unbeatable? Alas, but that Archmage is not easy to find, and the mountain tower is well guarded. You asked also about Stonehold.  It is at 68.9 N, 21.7 W. Quite a ways away. Are you sure you need to go there? I thought you were happy tending bar in Qalaba''r.
+');
+

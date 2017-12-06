@@ -45,3 +45,16 @@ VALUES (24259, 33, 1) /* BONDED_INT */
      , (24259, 174, 4) /* APPRAISAL_PAGES_INT */
      , (24259, 175, 4) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (24259, 174, 4) /* APPRAISAL_PAGES_INT */
+     , (24259, 175, 4) /* APPRAISAL_MAX_PAGES_INT */
+     , (24259, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (24259, 0, 'Luzumin Abigwei', 'prewritten', 4294967295, 0, 'Upon entering the lair I was previously familiar with, it became immediately apparent that different varieties of Olthoi had infested the tunnels.  These were more active and aggressive. I managed to work my way down to what had previously been the lowest levels.  There, I discovered a portal leading to new and deeper catacombs.  These were inhabited by even deadlier Olthoi than those above.  An ill omen, to be sure, and worthy of the High Queen''s  attention. There is deadly purpose in all this activity.  Thus, I was not completely surprised to find yet another portal at the bottom of these new catacombs.  However, on the other side of 
+');
+

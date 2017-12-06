@@ -45,3 +45,20 @@ VALUES (25942, 19, 10) /* VALUE_INT */
      , (25942, 174, 1) /* APPRAISAL_PAGES_INT */
      , (25942, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (25942, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (25942, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (25942, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (25942, 0, 'Honshu Takeda', 'prewritten', 4294967295, 0, 'This cavern has inspired such dreams within me. I walk lighter and the vibrations of the crystals within my hands has begun a reawakening within me.
+
+I will next make my way to the forest town. Where I shall seek the next shrine to Jojii. I am sure that there will be more enlightenment along that path.
+
+It is odd, when I look upon the crystals I feel as though they would fit upon my feet, but they are crystals meant for a greater purpose. Of this, I am sure.
+');
+

@@ -45,3 +45,19 @@ VALUES (13224, 19, 10) /* VALUE_INT */
      , (13224, 174, 1) /* APPRAISAL_PAGES_INT */
      , (13224, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (13224, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (13224, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (13224, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (13224, 0, 'The Jolly Snowman', 'prewritten', 4294967295, 0, 'Sculpting a Snowman
+   You too can create a snow sculpture and you don''t need any fancy skills to do it. All you need are the ingredients and a good place to show off your sculpture.
+   Collect the following: 1 Magic Iceball, 2 Poofy Snowballs, a Strange Stick and a Carrot.
+   Smoosh the Magic Iceball onto a Poofy Snowball to get a snowman torso which you combine with the other Poofy Snowball to get a basic snowman body. Add your Strange Stick for arms and then your Carrot for the nose and you should have a handsome Snowman to show your friends.
+');
+

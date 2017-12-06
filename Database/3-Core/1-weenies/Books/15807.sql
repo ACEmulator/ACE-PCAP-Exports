@@ -46,3 +46,22 @@ VALUES (15807, 33, 1) /* BONDED_INT */
      , (15807, 174, 1) /* APPRAISAL_PAGES_INT */
      , (15807, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (15807, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (15807, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (15807, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (15807, 0, 'Brontynn Marshad', 'prewritten', 4294967295, 0, '
+Sir Cartoth,
+
+I left a letter I found for you in this chest. I am on the trail of another two letters, which I heard might be located north of Imuth Maer Doquin. I have heard reports of Tumeroks in that area. Though I am somewhat fearful, I am willing to take the risk and am headed there now.
+
+Brontynn Marshad
+
+');
+

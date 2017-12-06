@@ -43,3 +43,21 @@ VALUES (4797, 33, -1) /* BONDED_INT */
      , (4797, 174, 1) /* APPRAISAL_PAGES_INT */
      , (4797, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4797, 8, 'Brentsella') /* SCRIBE_NAME_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4797, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (4797, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (4797, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (4797, 0, 'Note to Celcynd', 'prewritten', 4294967295, 0, '
+My dear Celcynd, I won''t forget the stars over Mt. Esper.  I - oh, I don''t know why I''m writing this.  I don''t think I will ever send this to you.  It will be better for the both of us.  But should this letter ever reach you, Celcynd, do not keep the ring.  Give it away.  Maybe even give it to Mindorla.  I don''t think I could ever really be that serious.
+
+');
+

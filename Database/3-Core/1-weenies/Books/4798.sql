@@ -44,3 +44,21 @@ VALUES (4798, 33, 1) /* BONDED_INT */
      , (4798, 174, 1) /* APPRAISAL_PAGES_INT */
      , (4798, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_string` (`aceObjectId`, `strPropertyId`, `propertyValue`)
+VALUES (4798, 8, 'Mindorla') /* SCRIBE_NAME_STRING */;
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (4798, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (4798, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (4798, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (4798, 0, 'Mindorla''s Letter to Celcynd', 'prewritten', 4294967295, 0, '
+My dear Celcynd, maybe you''re right, and we should talk some more.  I am sending you this letter in the hopes that perhaps we can let go the follies of the past and start anew.  Of course, it will be hard for me to forgive you, but I am sure that something can be worked out.
+
+');
+

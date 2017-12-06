@@ -44,3 +44,20 @@ VALUES (5159, 19, 0) /* VALUE_INT */
      , (5159, 174, 1) /* APPRAISAL_PAGES_INT */
      , (5159, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (5159, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (5159, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (5159, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (5159, 0, 'Nurbaha bint Dah', 'prewritten', 4294967295, 0, '
+Jilsaya,
+
+This adventurer was able to recover one of mother''s knives.  You should ask for help acquiring that drink you like so much.
+ 
+');
+

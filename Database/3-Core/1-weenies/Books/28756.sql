@@ -47,3 +47,25 @@ VALUES (28756, 33, 0) /* BONDED_INT */
      , (28756, 174, 1) /* APPRAISAL_PAGES_INT */
      , (28756, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28756, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (28756, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (28756, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (28756, 0, 'Anton Silezzi', 'prewritten', 4294967295, 0, 'Deliver trade proposals to the following people, then return to me with their answers. I suggest you pursue these merchants in the order in which they are listed herein:
+
+Name: Lubziklan al-Luq
+Location: Yaraq
+
+Name: Renald the Eldest
+Location: Holtburg
+
+Name: Gonjoku Den
+Location: Shoushi
+');
+

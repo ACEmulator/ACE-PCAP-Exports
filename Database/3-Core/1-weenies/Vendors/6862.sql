@@ -119,6 +119,44 @@ VALUES (6862, 64, 185) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6862, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6862, 256, 145) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6862, 74, 1074004225) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (6862, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (6862, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6862, 37, 0.7) /* BUY_PRICE_FLOAT */
+     , (6862, 38, 1.9) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6862, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6862, 4, 4195) /* Nekode */
+     , (6862, 4, 314) /* Dagger */
+     , (6862, 4, 22158) /* Jo */
+     , (6862, 4, 327) /* Ken */
+     , (6862, 4, 336) /* Ono */
+     , (6862, 4, 353) /* Tachi */
+     , (6862, 4, 356) /* Tofun */
+     , (6862, 4, 362) /* Yari */
+     , (6862, 4, 359) /* War Hammer */
+     , (6862, 4, 310) /* Throwing Club */
+     , (6862, 4, 2621) /* Trade Note (100) */
+     , (6862, 4, 2622) /* Trade Note (500) */
+     , (6862, 4, 2623) /* Trade Note (1,000) */
+     , (6862, 4, 2624) /* Trade Note (5,000) */
+     , (6862, 4, 2625) /* Trade Note (10,000) */
+     , (6862, 4, 2626) /* Trade Note (50,000) */
+     , (6862, 4, 2627) /* Trade Note (100,000) */
+     , (6862, 4, 20628) /* Trade Note (150,000) */
+     , (6862, 4, 20629) /* Trade Note (200,000) */
+     , (6862, 4, 20630) /* Trade Note (250,000) */;
+
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

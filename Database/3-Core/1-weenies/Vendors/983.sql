@@ -124,28 +124,3 @@ VALUES (983, 64, 135) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (983, 128, 200) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (983, 256, 140) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-/* Extended Vendor Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (983, 74, 262148) /* MERCHANDISE_ITEM_TYPES_INT */
-     , (983, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
-     , (983, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (983, 37, 0.9) /* BUY_PRICE_FLOAT */
-     , (983, 38, 1.35) /* SELL_PRICE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (983, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
-
-/* Vendor Shop Selection List */
-
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (983, 4, 2595) /* Baggy Tunic */
-     , (983, 4, 2598) /* Baggy Pants */
-     , (983, 4, 135) /* Turban */
-     , (983, 4, 133) /* Slippers */
-     , (983, 4, 5852) /* Dho Vest and Robe */
-     , (983, 4, 5894) /* Fez */
-     , (983, 4, 8373) /* Kiyafa Robe */;
-

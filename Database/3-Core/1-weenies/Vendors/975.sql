@@ -119,51 +119,6 @@ VALUES (975, 64, 205) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (975, 128, 250) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (975, 256, 120) /* MAX_MANA_ATTRIBUTE_2ND */;
 
-/* Extended Vendor Data */
-
-REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
-VALUES (975, 74, 1074005895) /* MERCHANDISE_ITEM_TYPES_INT */
-     , (975, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
-     , (975, 76, 25000) /* MERCHANDISE_MAX_VALUE_INT */;
-
-REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
-VALUES (975, 37, 0.9) /* BUY_PRICE_FLOAT */
-     , (975, 38, 1.35) /* SELL_PRICE_FLOAT */;
-
-REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
-VALUES (975, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
-
-/* Vendor Shop Selection List */
-
-REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
-VALUES (975, 4, 35) /* Chainmail Basinet */
-     , (975, 4, 551) /* Basinet */
-     , (975, 4, 554) /* Studded Leather Basinet */
-     , (975, 4, 413) /* Chainmail Bracers */
-     , (975, 4, 414) /* Chainmail Breastplate */
-     , (975, 4, 55) /* Chainmail Gauntlets */
-     , (975, 4, 415) /* Chainmail Girth */
-     , (975, 4, 2605) /* Chainmail Greaves */
-     , (975, 4, 108) /* Chainmail Tassets */
-     , (975, 4, 80) /* Chainmail Leggings */
-     , (975, 4, 416) /* Chainmail Pauldrons */
-     , (975, 4, 85) /* Chainmail Coif */
-     , (975, 4, 46) /* Metal Cap */
-     , (975, 4, 116) /* Studded Leather Boots */
-     , (975, 4, 38) /* Studded Leather Bracers */
-     , (975, 4, 42) /* Studded Leather Breastplate */
-     , (975, 4, 723) /* Studded Leather Cowl */
-     , (975, 4, 59) /* Studded Leather Gauntlets */
-     , (975, 4, 63) /* Studded Leather Girth */
-     , (975, 4, 68) /* Studded Leather Greaves */
-     , (975, 4, 112) /* Studded Leather Tassets */
-     , (975, 4, 84) /* Studded  Leggings */
-     , (975, 4, 89) /* Studded Leather Pauldrons */
-     , (975, 4, 93) /* Round Shield */
-     , (975, 4, 2621) /* Trade Note (100) */
-     , (975, 4, 2622) /* Trade Note (500) */
-     , (975, 4, 2623) /* Trade Note (1,000) */;
-
 /* Object Wield List */
 
 REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)

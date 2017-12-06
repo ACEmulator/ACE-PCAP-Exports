@@ -42,3 +42,16 @@ VALUES (22765, 19, 10) /* VALUE_INT */
      , (22765, 174, 1) /* APPRAISAL_PAGES_INT */
      , (22765, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (22765, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (22765, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (22765, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (22765, 0, 'Unknown', 'prewritten', 4294967295, 0, 'There is an old legend about two Empyrean temples -- the Temple of Forgetfulness and the Temple of Enlightenment. It is said that the Temple of Forgetfulness can erase your past mistakes, and that the Temple of Enlightenment can resolve sins of omission. The Temples can''t be reached directly, but if you meet the demands of the Temple Guardians, they will let you enter. The Guardians, it is said, live neither in the east nor the west, but far to the north and the south. The legend also says that they like certain ... herbs.
+');
+

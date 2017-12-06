@@ -48,7 +48,7 @@ VALUES (31286, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (31286, 174, 1) /* APPRAISAL_PAGES_INT */
      , (31286, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
-     , (31286, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+     , (31286, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

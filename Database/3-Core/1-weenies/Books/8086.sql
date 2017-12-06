@@ -51,7 +51,7 @@ VALUES (8086, 19, 90) /* VALUE_INT */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (8086, 174, 7) /* APPRAISAL_PAGES_INT */
      , (8086, 175, 7) /* APPRAISAL_MAX_PAGES_INT */
-     , (8086, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+     , (8086, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

@@ -45,3 +45,24 @@ VALUES (51301, 114, 1) /* ATTUNED_INT */
      , (51301, 174, 1) /* APPRAISAL_PAGES_INT */
      , (51301, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (51301, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (51301, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (51301, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (51301, 0, 'Virindi Delegate', 'prewritten', 4294967295, 0, '
+To my loyal Sentinel,
+
+My plan nears completion. The studies of the desert meatbags, the newly enlightened, and the insect mother have gone as expected. The Council will soon remove the Reaver of Dreams and I will ascend closer to the power and control I so rightfully deserve. 
+
+We must use extreme caution so as not to be revealed. Discovery now would lead to unacceptable consequences. This must not occur, I have invested too much time and effort to fall short now.
+
+Continue to prepare my minions. They must be ready for the new age when my reign begins. I will contact you when the next step is to commence. None will be able to stop me then...not the Council, not the Reaver of Dreams, and especially not the meddling fleshlings of this wretched land.
+
+');
+

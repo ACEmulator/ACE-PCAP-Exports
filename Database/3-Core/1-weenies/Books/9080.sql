@@ -46,3 +46,18 @@ VALUES (9080, 19, 10) /* VALUE_INT */
      , (9080, 174, 1) /* APPRAISAL_PAGES_INT */
      , (9080, 175, 1) /* APPRAISAL_MAX_PAGES_INT */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (9080, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (9080, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (9080, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (9080, 0, 'Unknown', 'prewritten', 4294967295, 0, '
+
+[ This book is filled with bizarre symbols and Empyrean numbers. You cannot read it. ]
+');
+

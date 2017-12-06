@@ -47,7 +47,7 @@ VALUES (13237, 33, 1) /* BONDED_INT */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (13237, 174, 3) /* APPRAISAL_PAGES_INT */
      , (13237, 175, 3) /* APPRAISAL_MAX_PAGES_INT */
-     , (13237, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+     , (13237, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 
@@ -55,5 +55,19 @@ REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, 
 VALUES (13237, 0, 'Einrik Gaul, Leader of the Society', 'prewritten', 4294967295, 0, 'With the arrival of the Viamontians, Queen Elysa has called all of her forces to active duty. She can no longer afford to maintain the Training Academies as she once did. However, I was able to come to an agreement with her whereby the Dereth Exploration Society assumes full ownership of the Academies.
 
 As you know, this is a great victory for our small society. As new arrivals appear through the portals, we have a chance to teach them the ways of this strange world. The hope, of course, is that these Isparians will fill our libraries with the knowledge
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (13237, 1, 'Einrik Gaul, Leader of the Society', 'prewritten', 4294967295, 0, 'they accrue on their adventures.
+
+Many of us have discussed how we should handle the Viamontian arrivals. Should we offer them the same training that we offer Aluvian, Gharu''ndim, and Sho? There are some who feel we should turn our backs on the Viamontians. But the Queen feels - and I agree - that the Dereth Exploration Society should remain a neutral body in this conflict. We have never professed an allegiance to the Queen, nor shall we do so to this Viamontian King.
+');
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (13237, 2, 'Einrik Gaul, Leader of the Society', 'prewritten', 4294967295, 0, 'We will train all who come to our doors. Let none be turned away.
 ');
 

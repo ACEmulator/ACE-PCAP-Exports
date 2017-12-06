@@ -56,7 +56,7 @@ VALUES (43534, 99, 0) /* IVORYABLE_BOOL */
 REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
 VALUES (43534, 174, 30) /* APPRAISAL_PAGES_INT */
      , (43534, 175, 30) /* APPRAISAL_MAX_PAGES_INT */
-     , (43534, 22, 1000) /* AVAILABLE_CHARACTER_INT */;
+     , (43534, 22, 0) /* AVAILABLE_CHARACTER_INT */;
 
 /* Extended Page Data */
 

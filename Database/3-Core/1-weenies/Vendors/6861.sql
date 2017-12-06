@@ -117,3 +117,31 @@ VALUES (6861, 64, 80) /* MAX_HEALTH_ATTRIBUTE_2ND */
      , (6861, 128, 130) /* MAX_STAMINA_ATTRIBUTE_2ND */
      , (6861, 256, 130) /* MAX_MANA_ATTRIBUTE_2ND */;
 
+/* Extended Vendor Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (6861, 74, 270336) /* MERCHANDISE_ITEM_TYPES_INT */
+     , (6861, 75, 0) /* MERCHANDISE_MIN_VALUE_INT */
+     , (6861, 76, 1000000) /* MERCHANDISE_MAX_VALUE_INT */;
+
+REPLACE INTO `ace_object_properties_double` (`aceObjectId`, `dblPropertyId`, `propertyValue`)
+VALUES (6861, 37, 0.7) /* BUY_PRICE_FLOAT */
+     , (6861, 38, 1.9) /* SELL_PRICE_FLOAT */;
+
+REPLACE INTO `ace_object_properties_bool` (`aceObjectId`, `boolPropertyId`, `propertyValue`)
+VALUES (6861, 39, True) /* DEAL_MAGICAL_ITEMS_BOOL */;
+
+/* Vendor Shop Selection List */
+
+REPLACE INTO `ace_object_inventory` (`aceObjectId`, `destinationType`, `weenieClassId`)
+VALUES (6861, 4, 364) /* Book */
+     , (6861, 4, 365) /* Parchment */
+     , (6861, 4, 367) /* Tome */
+     , (6861, 4, 5584) /* Gharu'ndim Cookbook */
+     , (6861, 4, 5856) /* Specialty Cookbook */
+     , (6861, 4, 7884) /* Chocolate Cookbook */
+     , (6861, 4, 14797) /* Festival Cookbook */
+     , (6861, 4, 5586) /* Alchemy Guide */
+     , (6861, 4, 24855) /* The New Alchemy */
+     , (6861, 4, 5587) /* Fletching Guide */;
+

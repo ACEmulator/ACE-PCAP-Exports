@@ -35,3 +35,25 @@ VALUES (28855, 13, True) /* ETHEREAL_BOOL */
      , (28855, 19, True) /* ATTACKABLE_BOOL */
      , (28855, 22, True) /* INSCRIBABLE_BOOL */;
 
+/* Extended Book Data */
+
+REPLACE INTO `ace_object_properties_int` (`aceObjectId`, `intPropertyId`, `propertyValue`)
+VALUES (28855, 174, 1) /* APPRAISAL_PAGES_INT */
+     , (28855, 175, 1) /* APPRAISAL_MAX_PAGES_INT */
+     , (28855, 22, 0) /* AVAILABLE_CHARACTER_INT */;
+
+/* Extended Page Data */
+
+REPLACE INTO `ace_object_properties_book` (`aceObjectId`, `page`, `authorName`, `authorAccount`, `authorId`, `ignoreAuthor`, `pageText`)
+VALUES (28855, 0, 'Anton Silezzi', 'prewritten', 4294967295, 0, 'Greetings Lubziklan al-Luq
+
+My name is Anton Silezzi and I represent a consortium of merchants in Sanamar. It is with great pride that I invite you to join with us to establish trade between our two great cities. 
+
+It is without question that a person of your venerable stature and renown can see the benefits and profits in such an alliance. Looking forward to your favorable response.
+
+
+Respectfully,
+
+Anton Silezzi
+');
+
